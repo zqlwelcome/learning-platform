@@ -1,70 +1,8 @@
 {
-  "updateTime": "2026-06-01 06:22",
+  "updateTime": "2026-06-01 06:30",
   "indices": {},
-  "etf_flows": [
-    {
-      "name": "上证50ETF华夏",
-      "code": "510050",
-      "price": 2.997,
-      "change": 0.4,
-      "flow": 389898336.0,
-      "flow_str": "+3.90亿",
-      "direction": "in"
-    },
-    {
-      "name": "证券ETF国泰",
-      "code": "512880",
-      "price": 1.033,
-      "change": 1.18,
-      "flow": 313298672.0,
-      "flow_str": "+3.13亿",
-      "direction": "in"
-    },
-    {
-      "name": "化工ETF鹏华",
-      "code": "159870",
-      "price": 0.816,
-      "change": -2.04,
-      "flow": 267669421.0,
-      "flow_str": "+2.68亿",
-      "direction": "in"
-    },
-    {
-      "name": "沪深300ETF华夏",
-      "code": "510330",
-      "price": 5.124,
-      "change": -0.21,
-      "flow": 170677330.0,
-      "flow_str": "+1.71亿",
-      "direction": "in"
-    },
-    {
-      "name": "酒ETF鹏华",
-      "code": "512690",
-      "price": 0.457,
-      "change": 3.16,
-      "flow": 163628128.0,
-      "flow_str": "+1.64亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
   "sector_flows": [],
   "northbound": null,
-  "bank_news": [
-    {
-      "title": "英国央行官员格林表示，稳定币需求或将很快消退",
-      "source": "环球市场播报",
-      "keyword": "央行"
-    },
-    {
-      "title": "美联储官员沃勒：稳定币将扩大美国政策的影响范围",
-      "source": "环球市场播报",
-      "keyword": "美联储"
-    },
-    {
-      "title": "进口牛奶“不香”了？德亚母公司营收四连降，乳品毛利率仅剩12%",
-      "source": "市场资讯",
-      "keyword": "利率"
-    }
-  ]
+  "bank_news": []
 }
