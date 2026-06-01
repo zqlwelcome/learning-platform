@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 10:15",
+  "updateTime": "2026-06-01 10:20",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4088.15",
-      "change": "0.48"
+      "value": "4089.75",
+      "change": "0.52"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25319.930",
-      "change": "0.55"
+      "value": "25349.120",
+      "change": "0.66"
     }
   },
   "etf_flows": [
     {
       "name": "电网设备ETF华夏",
       "code": "159326",
-      "price": 2.106,
-      "change": 2.23,
-      "flow": 94761905.0,
-      "flow_str": "+9476.19万",
+      "price": 2.103,
+      "change": 2.09,
+      "flow": 105553259.0,
+      "flow_str": "+1.06亿",
       "direction": "in"
     },
     {
       "name": "半导体ETF国联安",
       "code": "512480",
-      "price": 2.148,
-      "change": -0.56,
-      "flow": 75983980.0,
-      "flow_str": "+7598.40万",
-      "direction": "in"
-    },
-    {
-      "name": "科创芯片ETF嘉实",
-      "code": "588200",
-      "price": 3.557,
-      "change": -0.81,
-      "flow": 68010880.0,
-      "flow_str": "+6801.09万",
-      "direction": "in"
-    },
-    {
-      "name": "软件ETF嘉实",
-      "code": "159852",
-      "price": 0.782,
-      "change": 4.55,
-      "flow": 59919683.0,
-      "flow_str": "+5991.97万",
+      "price": 2.154,
+      "change": -0.28,
+      "flow": 81756593.0,
+      "flow_str": "+8175.66万",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.198,
-      "change": -0.83,
-      "flow": 57815216.0,
-      "flow_str": "+5781.52万",
+      "price": 1.2,
+      "change": -0.66,
+      "flow": 74428960.0,
+      "flow_str": "+7442.90万",
+      "direction": "in"
+    },
+    {
+      "name": "软件ETF嘉实",
+      "code": "159852",
+      "price": 0.783,
+      "change": 4.68,
+      "flow": 64021021.0,
+      "flow_str": "+6402.10万",
+      "direction": "in"
+    },
+    {
+      "name": "A500ETF广发",
+      "code": "563800",
+      "price": 1.296,
+      "change": 0.39,
+      "flow": 62248235.0,
+      "flow_str": "+6224.82万",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "计算机",
       "code": "BK1207",
-      "index": 8631.66,
-      "change": 3.57,
-      "flow": 4420507648.0,
-      "flow_str": "+44.21亿",
+      "index": 8642.42,
+      "change": 3.7,
+      "flow": 4646519296.0,
+      "flow_str": "+46.47亿",
       "direction": "in"
     },
     {
       "name": "电力设备",
       "code": "BK1200",
-      "index": 7381.63,
-      "change": 2.14,
-      "flow": 4030968832.0,
-      "flow_str": "+40.31亿",
+      "index": 7368.46,
+      "change": 1.96,
+      "flow": 4167232512.0,
+      "flow_str": "+41.67亿",
       "direction": "in"
     },
     {
       "name": "电池",
       "code": "BK1033",
-      "index": 1671.96,
-      "change": 2.71,
-      "flow": 2232053760.0,
-      "flow_str": "+22.32亿",
+      "index": 1668.87,
+      "change": 2.52,
+      "flow": 2280111616.0,
+      "flow_str": "+22.80亿",
       "direction": "in"
     },
     {
-      "name": "IT服务Ⅲ",
-      "code": "BK1444",
-      "index": 8852.56,
-      "change": 3.73,
-      "flow": 1865066624.0,
-      "flow_str": "+18.65亿",
+      "name": "消费电子",
+      "code": "BK1037",
+      "index": 2375.53,
+      "change": 3.55,
+      "flow": 2254914816.0,
+      "flow_str": "+22.55亿",
       "direction": "in"
     },
     {
-      "name": "IT服务Ⅱ",
-      "code": "BK1238",
-      "index": 8852.56,
-      "change": 3.73,
-      "flow": 1865066624.0,
-      "flow_str": "+18.65亿",
+      "name": "消费电子零部件及组装",
+      "code": "BK1338",
+      "index": 15522.15,
+      "change": 3.54,
+      "flow": 2204442368.0,
+      "flow_str": "+22.04亿",
       "direction": "in"
     }
   ],
