@@ -177,7 +177,9 @@ let _newsAllShown = false;
 
 function prepareNewsList(news) {
     const unique = new Map();
-    (news || []).forEach((item, index) => {
+    const candidates = (news || []).filter(isAllowedTopNews);
+    const source = candidates.length >= 6 ? candidates : (news || []);
+    source.forEach((item, index) => {
         const display = getNewsDisplay(item);
         const key = getNewsEventKey(item, display);
         const score = getNewsPriorityScore(item, display, index);
@@ -186,9 +188,24 @@ function prepareNewsList(news) {
         if (!current || score > current._rankScore) unique.set(key, candidate);
     });
 
-    return diversifyNewsList(Array.from(unique.values())
-        .sort((a, b) => b._rankScore - a._rankScore))
+    const seenTitles = new Set();
+    return Array.from(unique.values()).sort((a, b) => b._rankScore - a._rankScore)
+        .filter(item => {
+            const titleKey = normalizeTitleKey(getNewsDisplay(item).title);
+            if (seenTitles.has(titleKey)) return false;
+            seenTitles.add(titleKey);
+            return true;
+        })
         .slice(0, 10);
+}
+
+function isAllowedTopNews(item) {
+    const raw = `${item.title || ''} ${item.titleZh || ''} ${item.detail || ''} ${item.source || ''}`.toLowerCase();
+    const isMarket = /财经|金融|证券|股|债|基金|银行|央行|美联储|利率|通胀|衰退|经济|估值|回购|英伟达|芯片|人工智能|数据中心|上市|gdp|pmi|market|stock|shares|s&p|nasdaq|dow|treasury|yield|bond|central bank|fed|inflation|recession|economy|oil|gold|commodity|earnings|valuation|buyback|ipo|invest|wall street|barclays|nvidia|ibm|openai|data center|ai/.test(raw);
+    const isLaw = /法律|法规|条例|监管|起诉|诉讼|合规|检察长|司法|证交会|sec|antitrust|lawsuit|regulation|regulatory|attorney general/.test(raw);
+    const isGeo = /地缘|伊朗|以色列|黎巴嫩|停火|霍尔木兹|真主党|战争|冲突|制裁|iran|israel|lebanon|ceasefire|hezbollah|hormuz|war|conflict|sanction/.test(raw);
+    const isNoise = /celebrity|sports|movie|music|game|gossip|娱乐|体育|影视|明星/.test(raw);
+    return !isNoise && (isMarket || isLaw || isGeo);
 }
 
 function getNewsPriorityScore(item, display, index) {
@@ -208,7 +225,7 @@ function getNewsPriorityScore(item, display, index) {
 }
 
 function diversifyNewsList(items) {
-    const categoryOrder = ['macro', 'china', 'commodity', 'geopolitics', 'institution', 'tech', 'other'];
+    const categoryOrder = ['global', 'macro', 'china', 'finance', 'policy', 'commodity', 'institution', 'tech', 'other'];
     const result = [];
     const used = new Set();
 
@@ -275,6 +292,23 @@ function isTechText(text) {
 
 function getNewsEventKey(item, display) {
     const text = cleanKeyText(`${item.title || ''} ${item.detail || ''} ${display.title} ${display.detail}`);
+    if (/加拿大央行|rogers.*recession|technicalrecession/.test(text)) return 'canada-central-bank-recession';
+    if (/英国公众.*通胀预期|yougov.*citibank|uk.*inflationexpectations/.test(text)) return 'uk-inflation-expectations';
+    if (/午盘.*美股涨跌不一|标普500指数基本持平|sp500.*littlechanged/.test(text)) return 'us-stock-midday';
+    if (/霍尔木兹海峡|hormuz/.test(text)) return 'iran-hormuz-oil';
+    if (/伊朗.*以色列.*警告|iran.*israel.*warning/.test(text)) return 'iran-israel-warning';
+    if (/anthropic.*ipo|anthropic向美国证交会/.test(text)) return 'anthropic-ipo';
+    if (/barclays.*ibm|ibm.*quantum|量子业务/.test(text)) return 'ibm-quantum';
+    if (/sp500.*oil|oiljumps|油价跳涨/.test(text)) return 'sp500-oil-nvidia';
+    if (/美国国债下跌|treasury.*iran|伊美谈判/.test(text)) return 'treasury-iran-fed';
+    if (/stargate|datacenters|数据中心争议/.test(text)) return 'stargate-data-center';
+    if (/junemarketreversal|市场反转/.test(text)) return 'june-market-reversal';
+    if (/summitmidstream|股票回购/.test(text)) return 'summit-midstream-buyback';
+    if (/disruptedordead|startupsbuiltbeforechatgpt|创业公司/.test(text)) return 'ai-startup-disruption';
+    if (/amphenol|安费诺|dcf估值/.test(text)) return 'amphenol-valuation';
+    if (/英伟达推出新芯片|newchip.*personalcomputer/.test(text)) return 'nvidia-pc-chip';
+    if (/florida.*openai|佛罗里达州总检察长/.test(text)) return 'florida-openai-lawsuit';
+    if (/黎巴嫩议会议长.*真主党.*停火|hezbollah.*ceasefire|lebanon.*ceasefire/.test(text)) return 'lebanon-ceasefire';
     if (/bankofamerica|美银|nvidiaandapple|英伟达苹果/.test(text)) return 'bofa-nvidia-apple';
     if (/softbank|软银|france|法国|75bn|75billion|人工智能facility/.test(text)) return 'softbank-ai-france';
     if (/spacex|太空公司|太空概念|马斯克/.test(text)) return 'spacex-listing';
@@ -287,11 +321,15 @@ function getNewsEventKey(item, display) {
     if (/a股|董秘|上市公司治理|证监会/.test(text)) return 'a-share-governance';
     if (/defensespending|shangrila|香格里拉|ukraine|乌克兰/.test(text)) return 'shangri-la-defense';
     // 用完整标题做key，避免不同新闻被意外合并
-    return text;
+    return normalizeTitleKey(display.title) || text;
 }
 
 function cleanKeyText(text) {
     return (text || '').toLowerCase().replace(/[^\u4e00-\u9fa5a-z0-9]/g, '');
+}
+
+function normalizeTitleKey(text) {
+    return cleanKeyText(text).slice(0, 36);
 }
 
 function isChinaNewsText(text) {
@@ -338,7 +376,12 @@ function renderNewsList(news) {
     }
     
     el.innerHTML = html;
-    localStorage.setItem('hot_news_cache', JSON.stringify(news));
+    localStorage.setItem('hot_news_cache', JSON.stringify(news.map(stripNewsRuntimeFields)));
+}
+
+function stripNewsRuntimeFields(item) {
+    const { _display, _rankScore, ...clean } = item || {};
+    return clean;
 }
 
 function updateHeadlineBrief(news) {
@@ -382,7 +425,6 @@ function escapeHtml(text) {
 }
 
 function getNewsDisplay(item) {
-    if (item._display) return item._display;
     return {
         title: cleanChineseDisplay(item.titleZh || item.title_zh || toChineseNewsTitle(item.title || '')),
         summary: cleanChineseDisplay(item.summaryZh || item.summary_zh || toChineseNewsSummary(item)),
@@ -546,11 +588,42 @@ function toChineseSource(source) {
 }
 
 function toChineseNewsTitle(title) {
+    if (/[\u4e00-\u9fa5]/.test(title || '')) return cleanChineseDisplay(title || '财经新闻更新');
     if (!hasEnglish(title)) return title || '财经新闻更新';
 
     const t = title.toLowerCase();
+    if (t.includes('oil jumps') || (t.includes('oil') && t.includes('nvidia gain'))) {
+        return '油价跳涨压过英伟达涨势，美股走势趋于谨慎';
+    }
     if (t.includes('stock market') || t.includes('dow') || t.includes('nasdaq') || t.includes('s&p')) {
         return '美股走势分化，纳指和标普仍在高位附近';
+    }
+    if (t.includes('barclays') && t.includes('ibm') && t.includes('quantum')) {
+        return '巴克莱看好IBM量子业务，称其可能复制英伟达路线';
+    }
+    if (t.includes('treasury') && (t.includes('iran') || t.includes('fed'))) {
+        return '美债承压，伊美谈判受阻推升利率担忧';
+    }
+    if (t.includes('stargate') || (t.includes('data centers') && t.includes('china'))) {
+        return '星际之门数据中心争议升温，市场关注人工智能基建阻力';
+    }
+    if (t.includes('june market reversal') || t.includes('market reversal')) {
+        return '华尔街警惕六月市场反转风险';
+    }
+    if (t.includes('summit midstream') || t.includes('buyback')) {
+        return 'Summit Midstream启动3500万美元股票回购';
+    }
+    if (t.includes('disrupted or dead') || t.includes('startups built before chatgpt')) {
+        return '聊天机器人冲击创业公司，人工智能重塑软件商业模式';
+    }
+    if (t.includes('amphenol') || t.includes('dcf')) {
+        return '安费诺估值溢价引发争议，人工智能热潮继续推高预期';
+    }
+    if (t.includes('new chip') && t.includes('personal computer')) {
+        return '英伟达推出新芯片，人工智能加速进入个人电脑';
+    }
+    if (t.includes('florida') && (t.includes('sues openai') || t.includes('attorney general'))) {
+        return '佛罗里达州检察长起诉人工智能公司，监管风险升温';
     }
     if (t.includes('bank of america') || (t.includes('nvidia') && t.includes('apple'))) {
         return '美银看好英伟达、苹果等美股龙头六月表现';
