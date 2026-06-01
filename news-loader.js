@@ -567,6 +567,9 @@ function toChineseNewsTitle(title) {
     if (t.includes('top wall street analysts')) {
         return '华尔街分析师看好三只具备增长潜力的股票';
     }
+    if (t.includes('market concentration') || t.includes('200-day average')) {
+        return '美股上涨集中度过高，市场脆弱性受到关注';
+    }
     if (t.includes('three a') || t.includes('recession')) {
         return '美国经济仍靠几项支撑因素避免衰退风险';
     }
@@ -594,7 +597,35 @@ function toChineseNewsTitle(title) {
     if (t.includes('openai') || t.includes('chatgpt')) {
         return '人工智能公司广告商业化动向引发市场关注';
     }
-    return '海外财经市场出现新动态，值得继续观察';
+    return fallbackChineseNewsTitle(t);
+}
+
+function fallbackChineseNewsTitle(text) {
+    if (/treasury|yield|bond/.test(text)) {
+        return '美债收益率变化影响全球资产定价';
+    }
+    if (/dollar|currency|forex/.test(text)) {
+        return '美元走势牵动全球资金风险偏好';
+    }
+    if (/china|chinese|asia/.test(text)) {
+        return '中国和亚洲市场消息影响全球资金情绪';
+    }
+    if (/earnings|profit|revenue|guidance/.test(text)) {
+        return '企业财报和业绩指引成为市场焦点';
+    }
+    if (/stock|shares|equity/.test(text)) {
+        return '美股资金结构变化值得关注';
+    }
+    if (/crypto|bitcoin|stablecoin/.test(text)) {
+        return '加密资产和稳定币动向受到资金关注';
+    }
+    if (/gold|silver|metal/.test(text)) {
+        return '贵金属价格变化反映避险情绪';
+    }
+    if (/trade|tariff|export|import/.test(text)) {
+        return '贸易和关税消息影响产业链预期';
+    }
+    return '海外市场出现影响资金流向的新信号';
 }
 
 function toChineseNewsDetail(item) {
