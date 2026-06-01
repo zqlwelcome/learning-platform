@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     setInterval(loadMarketData, 30000);
     initShare();
     loadTodayStats();
+    loadHotNews();
+    loadAlerts();
+    setInterval(() => loadHotNews(true), 5 * 60 * 1000);
 });
 
 function renderAfterworkGreeting() {
