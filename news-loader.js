@@ -280,14 +280,14 @@ function getNewsEventKey(item, display) {
     if (/spacex|太空公司|太空概念|马斯克/.test(text)) return 'spacex-listing';
     if (/openai|chatgpt|人工智能公司|聊天机器人|广告商业化/.test(text)) return 'openai-commercial';
     if (/micron|美光|overbought|超买/.test(text)) return 'micron-overbought';
-    if (/topwallstreetanalysts|wallstreetanalysts|分析师/.test(text)) return 'analyst-stock-picks';
+    if (/topwallstreetanalysts|wallstreetanalysts/.test(text)) return 'analyst-stock-picks';
     if (/threeas|economyafloat|recession|经济衰退/.test(text)) return 'us-economy-resilience';
     if (/nokiadellcisco|nokia|cisco|老牌科技/.test(text)) return 'legacy-tech-ai';
     if (/油价|原油|oil|opec|伊朗|iran/.test(text)) return 'oil-geopolitics';
-    if (/美联储|通胀|降息|利率|fed|pce|稳定币/.test(text)) return 'fed-rates';
     if (/a股|董秘|上市公司治理|证监会/.test(text)) return 'a-share-governance';
     if (/defensespending|shangrila|香格里拉|ukraine|乌克兰/.test(text)) return 'shangri-la-defense';
-    return text.slice(0, 28);
+    // 用完整标题做key，避免不同新闻被意外合并
+    return text;
 }
 
 function cleanKeyText(text) {
