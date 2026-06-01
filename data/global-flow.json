@@ -1,17 +1,17 @@
 {
-  "updateTime": "2026-06-02 00:51",
+  "updateTime": "2026-06-02 00:55",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "27048.78",
-      "change": "0.28"
+      "value": "27085.71",
+      "change": "0.42"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "50866.26",
-      "change": "-0.33"
+      "value": "50918.86",
+      "change": "-0.22"
     },
     "sh000001": {
       "name": "上证指数",
@@ -34,5 +34,11 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "Apollo首席经济学家：AI热潮将浇灭美联储新任主席沃什快速降息的希望",
+      "source": "环球市场播报",
+      "keyword": "美联储"
+    }
+  ]
 }
