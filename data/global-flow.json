@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 21:01",
+  "updateTime": "2026-06-01 21:06",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -27,7 +27,53 @@
     }
   },
   "etf_flows": [],
-  "sector_flows": [],
+  "sector_flows": [
+    {
+      "name": "计算机",
+      "code": "BK1207",
+      "index": 8584.42,
+      "change": 3.0,
+      "flow": 5415285504.0,
+      "flow_str": "+54.15亿",
+      "direction": "in"
+    },
+    {
+      "name": "传媒",
+      "code": "BK0486",
+      "index": 10510.39,
+      "change": 3.22,
+      "flow": 4489158656.0,
+      "flow_str": "+44.89亿",
+      "direction": "in"
+    },
+    {
+      "name": "煤炭",
+      "code": "BK0437",
+      "index": 14398.05,
+      "change": 6.42,
+      "flow": 3181000848.0,
+      "flow_str": "+31.81亿",
+      "direction": "in"
+    },
+    {
+      "name": "软件开发",
+      "code": "BK0737",
+      "index": 1151.92,
+      "change": 3.41,
+      "flow": 3116281600.0,
+      "flow_str": "+31.16亿",
+      "direction": "in"
+    },
+    {
+      "name": "煤炭开采",
+      "code": "BK1250",
+      "index": 1986.26,
+      "change": 6.78,
+      "flow": 3113208320.0,
+      "flow_str": "+31.13亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0.0,
