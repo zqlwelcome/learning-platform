@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 13:41",
+  "updateTime": "2026-06-01 13:48",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,33 +16,33 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4063.57",
-      "change": "-0.12"
+      "value": "4061.94",
+      "change": "-0.16"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25401.210",
-      "change": "0.87"
+      "value": "25403.050",
+      "change": "0.88"
     }
   },
   "etf_flows": [
     {
       "name": "红利ETF华泰柏瑞",
       "code": "510880",
-      "price": 3.284,
-      "change": 2.43,
-      "flow": 183190228.0,
-      "flow_str": "+1.83亿",
+      "price": 3.285,
+      "change": 2.46,
+      "flow": 186932324.0,
+      "flow_str": "+1.87亿",
       "direction": "in"
     },
     {
       "name": "A500ETF广发",
       "code": "563800",
-      "price": 1.281,
-      "change": -0.77,
-      "flow": 159454903.0,
-      "flow_str": "+1.59亿",
+      "price": 1.28,
+      "change": -0.85,
+      "flow": 159636263.0,
+      "flow_str": "+1.60亿",
       "direction": "in"
     },
     {
@@ -50,26 +50,26 @@
       "code": "510720",
       "price": 1.03,
       "change": 2.9,
-      "flow": 136770084.0,
+      "flow": 137164677.0,
       "flow_str": "+1.37亿",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.168,
-      "change": -3.31,
-      "flow": 101229344.0,
-      "flow_str": "+1.01亿",
+      "price": 1.165,
+      "change": -3.56,
+      "flow": 103508080.0,
+      "flow_str": "+1.04亿",
       "direction": "in"
     },
     {
       "name": "软件ETF嘉实",
       "code": "159852",
-      "price": 0.781,
-      "change": 4.41,
-      "flow": 75378412.0,
-      "flow_str": "+7537.84万",
+      "price": 0.782,
+      "change": 4.55,
+      "flow": 72325752.0,
+      "flow_str": "+7232.58万",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "计算机",
       "code": "BK1207",
-      "index": 8618.64,
-      "change": 3.41,
-      "flow": 6146607616.0,
-      "flow_str": "+61.47亿",
+      "index": 8619.86,
+      "change": 3.43,
+      "flow": 6047270144.0,
+      "flow_str": "+60.47亿",
       "direction": "in"
     },
     {
       "name": "传媒",
       "code": "BK0486",
-      "index": 10515.67,
-      "change": 3.27,
-      "flow": 3947249408.0,
-      "flow_str": "+39.47亿",
+      "index": 10517.39,
+      "change": 3.29,
+      "flow": 3936109568.0,
+      "flow_str": "+39.36亿",
       "direction": "in"
     },
     {
       "name": "软件开发",
       "code": "BK0737",
-      "index": 1156.41,
+      "index": 1156.4,
       "change": 3.81,
-      "flow": 3056759808.0,
-      "flow_str": "+30.57亿",
+      "flow": 3039536640.0,
+      "flow_str": "+30.40亿",
       "direction": "in"
     },
     {
       "name": "IT服务Ⅲ",
       "code": "BK1444",
-      "index": 8854.7,
-      "change": 3.76,
-      "flow": 2702585776.0,
-      "flow_str": "+27.03亿",
+      "index": 8856.29,
+      "change": 3.78,
+      "flow": 2649285904.0,
+      "flow_str": "+26.49亿",
       "direction": "in"
     },
     {
       "name": "IT服务Ⅱ",
       "code": "BK1238",
-      "index": 8854.7,
-      "change": 3.76,
-      "flow": 2702585776.0,
-      "flow_str": "+27.03亿",
+      "index": 8856.29,
+      "change": 3.78,
+      "flow": 2649285904.0,
+      "flow_str": "+26.49亿",
       "direction": "in"
     }
   ],
@@ -141,11 +141,6 @@
       "title": "欧洲央行官员Schnabel：战争可能导致通胀预期失控",
       "source": "环球市场播报",
       "keyword": "央行"
-    },
-    {
-      "title": "缩表与降息预期延迟压制贵金属价格 市场呈震荡偏弱格局",
-      "source": "第一财经",
-      "keyword": "降息"
     }
   ]
 }
