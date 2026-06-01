@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 09:36",
+  "updateTime": "2026-06-01 09:40",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,8 +16,8 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4058.18",
-      "change": "-0.26"
+      "value": "4060.00",
+      "change": "-0.21"
     },
     "hkHSI": {
       "name": "恒生指数",
@@ -28,48 +28,48 @@
   },
   "etf_flows": [
     {
-      "name": "创业板ETF易方达",
-      "code": "159915",
-      "price": 4.063,
-      "change": 0.25,
-      "flow": 58295183.0,
-      "flow_str": "+5829.52万",
+      "name": "半导体ETF国联安",
+      "code": "512480",
+      "price": 2.11,
+      "change": -2.31,
+      "flow": 53774871.0,
+      "flow_str": "+5377.49万",
       "direction": "in"
     },
     {
-      "name": "半导体ETF国联安",
-      "code": "512480",
-      "price": 2.118,
-      "change": -1.94,
-      "flow": 31361684.0,
-      "flow_str": "+3136.17万",
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.498,
+      "change": -2.45,
+      "flow": 45537010.0,
+      "flow_str": "+4553.70万",
+      "direction": "in"
+    },
+    {
+      "name": "创业板ETF易方达",
+      "code": "159915",
+      "price": 4.042,
+      "change": -0.27,
+      "flow": 39209184.0,
+      "flow_str": "+3920.92万",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.178,
-      "change": -2.48,
-      "flow": 22587728.0,
-      "flow_str": "+2258.77万",
+      "price": 1.172,
+      "change": -2.98,
+      "flow": 25500354.0,
+      "flow_str": "+2550.04万",
       "direction": "in"
     },
     {
-      "name": "通信ETF国泰",
-      "code": "515880",
-      "price": 1.562,
-      "change": -1.76,
-      "flow": 21108450.0,
-      "flow_str": "+2110.84万",
-      "direction": "in"
-    },
-    {
-      "name": "创业板50ETF华安",
-      "code": "159949",
-      "price": 1.972,
-      "change": 0.36,
-      "flow": 20284574.0,
-      "flow_str": "+2028.46万",
+      "name": "软件ETF嘉实",
+      "code": "159852",
+      "price": 0.77,
+      "change": 2.94,
+      "flow": 22141402.0,
+      "flow_str": "+2214.14万",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "电池",
       "code": "BK1033",
-      "index": 1658.76,
-      "change": 1.9,
-      "flow": 965243552.0,
-      "flow_str": "+9.65亿",
+      "index": 1669.67,
+      "change": 2.57,
+      "flow": 1414633984.0,
+      "flow_str": "+14.15亿",
       "direction": "in"
     },
     {
       "name": "电力设备",
       "code": "BK1200",
-      "index": 7274.37,
-      "change": 0.66,
-      "flow": 810712320.0,
-      "flow_str": "+8.11亿",
-      "direction": "in"
-    },
-    {
-      "name": "锂电池",
-      "code": "BK1303",
-      "index": 20816.72,
-      "change": 1.63,
-      "flow": 684655056.0,
-      "flow_str": "+6.85亿",
+      "index": 7316.82,
+      "change": 1.25,
+      "flow": 1132008192.0,
+      "flow_str": "+11.32亿",
       "direction": "in"
     },
     {
       "name": "计算机",
       "code": "BK1207",
-      "index": 8423.52,
-      "change": 1.07,
-      "flow": 573943600.0,
-      "flow_str": "+5.74亿",
+      "index": 8525.99,
+      "change": 2.3,
+      "flow": 1015287536.0,
+      "flow_str": "+10.15亿",
+      "direction": "in"
+    },
+    {
+      "name": "锂电池",
+      "code": "BK1303",
+      "index": 21003.39,
+      "change": 2.54,
+      "flow": 781301248.0,
+      "flow_str": "+7.81亿",
       "direction": "in"
     },
     {
       "name": "被动元件",
       "code": "BK1339",
-      "index": 14340.28,
-      "change": 0.44,
-      "flow": 546037200.0,
-      "flow_str": "+5.46亿",
+      "index": 14374.64,
+      "change": 0.68,
+      "flow": 592385328.0,
+      "flow_str": "+5.92亿",
       "direction": "in"
     }
   ],
@@ -139,11 +139,6 @@
     },
     {
       "title": "鲍威尔称若总统可因政策分歧解僱官员 美联储信誉将荡然无存",
-      "source": "环球市场播报",
-      "keyword": "美联储"
-    },
-    {
-      "title": "美债交易员押注美联储加息 非农就业数据将成为关键考验",
       "source": "环球市场播报",
       "keyword": "美联储"
     }
