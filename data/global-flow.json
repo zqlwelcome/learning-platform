@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 13:15",
+  "updateTime": "2026-06-01 13:20",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4074.59",
-      "change": "0.15"
+      "value": "4073.10",
+      "change": "0.11"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25427.960",
-      "change": "0.98"
+      "value": "25423.100",
+      "change": "0.96"
     }
   },
   "etf_flows": [
-    {
-      "name": "红利ETF华泰柏瑞",
-      "code": "510880",
-      "price": 3.278,
-      "change": 2.25,
-      "flow": 148137625.0,
-      "flow_str": "+1.48亿",
-      "direction": "in"
-    },
     {
       "name": "A500ETF广发",
       "code": "563800",
       "price": 1.286,
       "change": -0.39,
-      "flow": 141273322.0,
-      "flow_str": "+1.41亿",
+      "flow": 159364699.0,
+      "flow_str": "+1.59亿",
+      "direction": "in"
+    },
+    {
+      "name": "红利ETF华泰柏瑞",
+      "code": "510880",
+      "price": 3.283,
+      "change": 2.4,
+      "flow": 159004532.0,
+      "flow_str": "+1.59亿",
       "direction": "in"
     },
     {
       "name": "红利国企ETF国泰",
       "code": "510720",
-      "price": 1.029,
-      "change": 2.8,
-      "flow": 123247811.0,
-      "flow_str": "+1.23亿",
-      "direction": "in"
-    },
-    {
-      "name": "软件ETF嘉实",
-      "code": "159852",
-      "price": 0.787,
-      "change": 5.21,
-      "flow": 77736294.0,
-      "flow_str": "+7773.63万",
+      "price": 1.03,
+      "change": 2.9,
+      "flow": 128451685.0,
+      "flow_str": "+1.28亿",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.18,
-      "change": -2.32,
-      "flow": 73510016.0,
-      "flow_str": "+7351.00万",
+      "price": 1.175,
+      "change": -2.73,
+      "flow": 84555296.0,
+      "flow_str": "+8455.53万",
+      "direction": "in"
+    },
+    {
+      "name": "软件ETF嘉实",
+      "code": "159852",
+      "price": 0.785,
+      "change": 4.95,
+      "flow": 78175495.0,
+      "flow_str": "+7817.55万",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "计算机",
       "code": "BK1207",
-      "index": 8674.13,
-      "change": 4.08,
-      "flow": 6019194112.0,
-      "flow_str": "+60.19亿",
+      "index": 8661.06,
+      "change": 3.92,
+      "flow": 6165267200.0,
+      "flow_str": "+61.65亿",
       "direction": "in"
     },
     {
       "name": "传媒",
       "code": "BK0486",
-      "index": 10555.4,
-      "change": 3.66,
-      "flow": 3831388160.0,
-      "flow_str": "+38.31亿",
+      "index": 10556.11,
+      "change": 3.67,
+      "flow": 3863347968.0,
+      "flow_str": "+38.63亿",
       "direction": "in"
     },
     {
       "name": "软件开发",
       "code": "BK0737",
-      "index": 1165.32,
-      "change": 4.61,
-      "flow": 2922007040.0,
-      "flow_str": "+29.22亿",
+      "index": 1163.05,
+      "change": 4.41,
+      "flow": 2997740032.0,
+      "flow_str": "+29.98亿",
       "direction": "in"
     },
     {
       "name": "IT服务Ⅲ",
       "code": "BK1444",
-      "index": 8902.21,
-      "change": 4.32,
-      "flow": 2688397760.0,
-      "flow_str": "+26.88亿",
+      "index": 8890.31,
+      "change": 4.18,
+      "flow": 2718902992.0,
+      "flow_str": "+27.19亿",
       "direction": "in"
     },
     {
       "name": "IT服务Ⅱ",
       "code": "BK1238",
-      "index": 8902.21,
-      "change": 4.32,
-      "flow": 2688397760.0,
-      "flow_str": "+26.88亿",
+      "index": 8890.31,
+      "change": 4.18,
+      "flow": 2718902992.0,
+      "flow_str": "+27.19亿",
       "direction": "in"
     }
   ],
@@ -127,6 +127,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "光大期货0601黄金点评：加息定价趋于充分，金价韧性或逐步显现",
+      "source": "市场资讯",
+      "keyword": "加息"
+    },
     {
       "title": "日元无视创纪录汇市干预措施 投资者等待日本央行加息",
       "source": "环球市场播报",
