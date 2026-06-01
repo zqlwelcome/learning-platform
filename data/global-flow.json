@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 13:11",
+  "updateTime": "2026-06-01 13:15",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4072.96",
-      "change": "0.11"
+      "value": "4074.59",
+      "change": "0.15"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25402.800",
-      "change": "0.88"
+      "value": "25427.960",
+      "change": "0.98"
     }
   },
   "etf_flows": [
     {
       "name": "红利ETF华泰柏瑞",
       "code": "510880",
-      "price": 3.273,
-      "change": 2.09,
-      "flow": 144604007.0,
-      "flow_str": "+1.45亿",
+      "price": 3.278,
+      "change": 2.25,
+      "flow": 148137625.0,
+      "flow_str": "+1.48亿",
       "direction": "in"
     },
     {
       "name": "A500ETF广发",
       "code": "563800",
-      "price": 1.287,
-      "change": -0.31,
-      "flow": 128161532.0,
-      "flow_str": "+1.28亿",
+      "price": 1.286,
+      "change": -0.39,
+      "flow": 141273322.0,
+      "flow_str": "+1.41亿",
       "direction": "in"
     },
     {
       "name": "红利国企ETF国泰",
       "code": "510720",
-      "price": 1.028,
-      "change": 2.7,
-      "flow": 122370327.0,
-      "flow_str": "+1.22亿",
+      "price": 1.029,
+      "change": 2.8,
+      "flow": 123247811.0,
+      "flow_str": "+1.23亿",
       "direction": "in"
     },
     {
       "name": "软件ETF嘉实",
       "code": "159852",
-      "price": 0.789,
-      "change": 5.48,
-      "flow": 76363749.0,
-      "flow_str": "+7636.37万",
+      "price": 0.787,
+      "change": 5.21,
+      "flow": 77736294.0,
+      "flow_str": "+7773.63万",
       "direction": "in"
     },
     {
-      "name": "储能电池ETF易方达",
-      "code": "159566",
-      "price": 2.36,
-      "change": 1.16,
-      "flow": 74359610.0,
-      "flow_str": "+7435.96万",
+      "name": "半导体设备ETF国泰",
+      "code": "159516",
+      "price": 1.18,
+      "change": -2.32,
+      "flow": 73510016.0,
+      "flow_str": "+7351.00万",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "计算机",
       "code": "BK1207",
-      "index": 8685.41,
-      "change": 4.21,
-      "flow": 5821499136.0,
-      "flow_str": "+58.21亿",
+      "index": 8674.13,
+      "change": 4.08,
+      "flow": 6019194112.0,
+      "flow_str": "+60.19亿",
       "direction": "in"
     },
     {
       "name": "传媒",
       "code": "BK0486",
-      "index": 10581.35,
-      "change": 3.91,
-      "flow": 3805803520.0,
-      "flow_str": "+38.06亿",
+      "index": 10555.4,
+      "change": 3.66,
+      "flow": 3831388160.0,
+      "flow_str": "+38.31亿",
       "direction": "in"
     },
     {
       "name": "软件开发",
       "code": "BK0737",
-      "index": 1167.17,
-      "change": 4.78,
-      "flow": 2820165632.0,
-      "flow_str": "+28.20亿",
+      "index": 1165.32,
+      "change": 4.61,
+      "flow": 2922007040.0,
+      "flow_str": "+29.22亿",
       "direction": "in"
     },
     {
       "name": "IT服务Ⅲ",
       "code": "BK1444",
-      "index": 8916.05,
-      "change": 4.48,
-      "flow": 2616495776.0,
-      "flow_str": "+26.16亿",
+      "index": 8902.21,
+      "change": 4.32,
+      "flow": 2688397760.0,
+      "flow_str": "+26.88亿",
       "direction": "in"
     },
     {
       "name": "IT服务Ⅱ",
       "code": "BK1238",
-      "index": 8916.05,
-      "change": 4.48,
-      "flow": 2616495776.0,
-      "flow_str": "+26.16亿",
+      "index": 8902.21,
+      "change": 4.32,
+      "flow": 2688397760.0,
+      "flow_str": "+26.88亿",
       "direction": "in"
     }
   ],
