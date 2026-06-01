@@ -1,17 +1,17 @@
 {
-  "updateTime": "2026-06-01 23:05",
+  "updateTime": "2026-06-01 23:11",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "26988.33",
-      "change": "0.06"
+      "value": "26984.28",
+      "change": "0.04"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "50848.72",
-      "change": "-0.36"
+      "value": "50885.91",
+      "change": "-0.29"
     },
     "sh000001": {
       "name": "上证指数",
@@ -34,5 +34,11 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "美国国债下跌 伊美谈判遇阻推高美联储加息预期",
+      "source": "环球市场播报",
+      "keyword": "美联储"
+    }
+  ]
 }
