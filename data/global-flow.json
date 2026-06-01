@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 10:06",
+  "updateTime": "2026-06-01 10:11",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4086.21",
-      "change": "0.43"
+      "value": "4081.41",
+      "change": "0.32"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25369.310",
-      "change": "0.74"
+      "value": "25311.820",
+      "change": "0.51"
     }
   },
   "etf_flows": [
     {
-      "name": "半导体ETF国联安",
-      "code": "512480",
-      "price": 2.159,
-      "change": -0.05,
-      "flow": 70324328.0,
-      "flow_str": "+7032.43万",
+      "name": "电网设备ETF华夏",
+      "code": "159326",
+      "price": 2.103,
+      "change": 2.09,
+      "flow": 84736737.0,
+      "flow_str": "+8473.67万",
       "direction": "in"
     },
     {
-      "name": "电网设备ETF华夏",
-      "code": "159326",
-      "price": 2.101,
-      "change": 1.99,
-      "flow": 65568136.0,
-      "flow_str": "+6556.81万",
+      "name": "半导体ETF国联安",
+      "code": "512480",
+      "price": 2.137,
+      "change": -1.06,
+      "flow": 71617941.0,
+      "flow_str": "+7161.79万",
       "direction": "in"
     },
     {
       "name": "科创芯片ETF嘉实",
       "code": "588200",
-      "price": 3.57,
-      "change": -0.45,
-      "flow": 64468336.0,
-      "flow_str": "+6446.83万",
-      "direction": "in"
-    },
-    {
-      "name": "创业板ETF易方达",
-      "code": "159915",
-      "price": 4.084,
-      "change": 0.76,
-      "flow": 52370848.0,
-      "flow_str": "+5237.08万",
+      "price": 3.534,
+      "change": -1.45,
+      "flow": 67793568.0,
+      "flow_str": "+6779.36万",
       "direction": "in"
     },
     {
       "name": "软件ETF嘉实",
       "code": "159852",
-      "price": 0.776,
-      "change": 3.74,
-      "flow": 51958254.0,
-      "flow_str": "+5195.83万",
+      "price": 0.78,
+      "change": 4.28,
+      "flow": 57905056.0,
+      "flow_str": "+5790.51万",
+      "direction": "in"
+    },
+    {
+      "name": "储能电池ETF易方达",
+      "code": "159566",
+      "price": 2.377,
+      "change": 1.89,
+      "flow": 49626935.0,
+      "flow_str": "+4962.69万",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "计算机",
       "code": "BK1207",
-      "index": 8601.27,
-      "change": 3.2,
-      "flow": 3550931456.0,
-      "flow_str": "+35.51亿",
+      "index": 8618.84,
+      "change": 3.41,
+      "flow": 4002915840.0,
+      "flow_str": "+40.03亿",
       "direction": "in"
     },
     {
       "name": "电力设备",
       "code": "BK1200",
-      "index": 7367.98,
-      "change": 1.95,
-      "flow": 3341713664.0,
-      "flow_str": "+33.42亿",
+      "index": 7365.58,
+      "change": 1.92,
+      "flow": 4001259520.0,
+      "flow_str": "+40.01亿",
       "direction": "in"
     },
     {
       "name": "电池",
       "code": "BK1033",
-      "index": 1674.0,
-      "change": 2.84,
-      "flow": 2278497024.0,
-      "flow_str": "+22.78亿",
+      "index": 1667.29,
+      "change": 2.42,
+      "flow": 2265211904.0,
+      "flow_str": "+22.65亿",
       "direction": "in"
     },
     {
       "name": "IT服务Ⅲ",
       "code": "BK1444",
-      "index": 8809.48,
-      "change": 3.23,
-      "flow": 1534126864.0,
-      "flow_str": "+15.34亿",
+      "index": 8837.58,
+      "change": 3.56,
+      "flow": 1668486928.0,
+      "flow_str": "+16.68亿",
       "direction": "in"
     },
     {
       "name": "IT服务Ⅱ",
       "code": "BK1238",
-      "index": 8809.48,
-      "change": 3.23,
-      "flow": 1534126864.0,
-      "flow_str": "+15.34亿",
+      "index": 8837.58,
+      "change": 3.56,
+      "flow": 1668486928.0,
+      "flow_str": "+16.68亿",
       "direction": "in"
     }
   ],
@@ -127,6 +127,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "沃什首秀前夕非农出炉 美债市场加息押注迎来重磅检验",
+      "source": "智通财经APP",
+      "keyword": "加息"
+    },
     {
       "title": "华泰期货：美国通胀数据抬头 贵金属大幅震荡",
       "source": "市场资讯",
