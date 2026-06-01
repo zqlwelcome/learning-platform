@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-01 14:20",
+  "updateTime": "2026-06-01 14:29",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4054.07",
-      "change": "-0.36"
+      "value": "4059.42",
+      "change": "-0.22"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25394.720",
-      "change": "0.84"
+      "value": "25390.200",
+      "change": "0.83"
     }
   },
   "etf_flows": [
     {
       "name": "红利ETF华泰柏瑞",
       "code": "510880",
-      "price": 3.303,
-      "change": 3.03,
-      "flow": 260676531.0,
-      "flow_str": "+2.61亿",
+      "price": 3.304,
+      "change": 3.06,
+      "flow": 268662679.0,
+      "flow_str": "+2.69亿",
       "direction": "in"
     },
     {
       "name": "红利国企ETF国泰",
       "code": "510720",
-      "price": 1.038,
-      "change": 3.7,
-      "flow": 181245093.0,
-      "flow_str": "+1.81亿",
+      "price": 1.039,
+      "change": 3.8,
+      "flow": 185673860.0,
+      "flow_str": "+1.86亿",
       "direction": "in"
     },
     {
       "name": "A500ETF广发",
       "code": "563800",
-      "price": 1.276,
-      "change": -1.16,
-      "flow": 160451505.0,
-      "flow_str": "+1.60亿",
+      "price": 1.278,
+      "change": -1.01,
+      "flow": 161349757.0,
+      "flow_str": "+1.61亿",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.151,
-      "change": -4.72,
-      "flow": 103765488.0,
-      "flow_str": "+1.04亿",
+      "price": 1.154,
+      "change": -4.47,
+      "flow": 99077216.0,
+      "flow_str": "+9907.72万",
       "direction": "in"
     },
     {
       "name": "储能电池ETF易方达",
       "code": "159566",
-      "price": 2.328,
-      "change": -0.21,
-      "flow": 68881068.0,
-      "flow_str": "+6888.11万",
+      "price": 2.334,
+      "change": 0.04,
+      "flow": 72710116.0,
+      "flow_str": "+7271.01万",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "计算机",
       "code": "BK1207",
-      "index": 8578.58,
-      "change": 2.93,
-      "flow": 5750023936.0,
-      "flow_str": "+57.50亿",
+      "index": 8596.65,
+      "change": 3.15,
+      "flow": 5528547328.0,
+      "flow_str": "+55.29亿",
       "direction": "in"
     },
     {
       "name": "传媒",
       "code": "BK0486",
-      "index": 10485.23,
-      "change": 2.97,
-      "flow": 3975622144.0,
-      "flow_str": "+39.76亿",
+      "index": 10506.39,
+      "change": 3.18,
+      "flow": 4005260544.0,
+      "flow_str": "+40.05亿",
       "direction": "in"
     },
     {
       "name": "软件开发",
       "code": "BK0737",
-      "index": 1150.85,
-      "change": 3.31,
-      "flow": 3038543616.0,
-      "flow_str": "+30.39亿",
+      "index": 1153.48,
+      "change": 3.55,
+      "flow": 2997930496.0,
+      "flow_str": "+29.98亿",
       "direction": "in"
     },
     {
       "name": "煤炭",
       "code": "BK0437",
-      "index": 14338.88,
-      "change": 5.98,
-      "flow": 2777551904.0,
-      "flow_str": "+27.78亿",
+      "index": 14332.48,
+      "change": 5.94,
+      "flow": 2869805408.0,
+      "flow_str": "+28.70亿",
       "direction": "in"
     },
     {
       "name": "煤炭开采",
       "code": "BK1250",
-      "index": 1976.92,
-      "change": 6.28,
-      "flow": 2696539456.0,
-      "flow_str": "+26.97亿",
+      "index": 1976.52,
+      "change": 6.26,
+      "flow": 2789772624.0,
+      "flow_str": "+27.90亿",
       "direction": "in"
     }
   ],
@@ -127,6 +127,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "前任美联储主席鲍威尔：美联储正遭遇一场 “压力测试”",
+      "source": "环球市场播报",
+      "keyword": "美联储"
+    },
     {
       "title": "光大期货0601黄金点评：加息定价趋于充分，金价韧性或逐步显现",
       "source": "市场资讯",
