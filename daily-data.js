@@ -9,62 +9,59 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-06-02 19:21",
+    "updateTime": "2026-06-02 16:16",
     "mood": {
-        "mood": "谨慎乐观，AI主导的结构性牛市",
-        "icon": "🚀",
-        "color": "#4CAF50",
-        "confidence": 8,
+        "mood": "谨慎乐观，结构性分化明显",
+        "icon": "😐",
+        "color": "#FFA500",
+        "confidence": 6,
         "dimensions": [
             {
                 "label": "📈 趋势",
-                "value": "AI硬件与基建产业链处于强劲上升通道，英伟达、Arm、慧与等公司业绩或展望持续超预期，确认AI资本开支周期加速。"
+                "value": "全球股市短期反弹，欧洲受通胀数据预期提振，港股科技股强势上涨，但美股因通胀与加息预期承压，趋势分化。"
             },
             {
                 "label": "💰 资金",
-                "value": "全球资金显著向AI相关科技巨头集中（如Alphabet计划融800亿美元），但新兴市场如印度遭遇外资净流出，显示资金偏好确定性高的美国AI龙头。"
+                "value": "资金流向科技与AI领域，Alphabet计划发债800亿，SpaceX和OpenAI巨额IPO引发虹吸效应；印度央行抛售黄金救汇，避险资金流出贵金属。"
             },
             {
                 "label": "🌍 地缘",
-                "value": "中东地缘紧张情绪被AI乐观情绪对冲，市场整体风险偏好回升，但欧洲通胀压力可能引发央行紧缩，带来局部不确定性。"
+                "value": "美国对巴西加征关税威胁贸易摩擦升级，中国自主芯片研发加速（去Nvidia化），地缘风险加剧供应链不确定性。"
             },
             {
                 "label": "🏭 热点",
-                "value": "AI芯片、服务器、光器件及数据中心基建是绝对核心热点；传统消费（如Victoria's Secret）因个股基本面改善而反弹，但非主线。"
+                "value": "AI与软件股成淘金热点（腾讯AI助手、Alphabet投资），但生物科技（Abivax）和传统能源受冷落；高股息股受避险资金青睐。"
             },
             {
                 "label": "😊 情绪",
-                "value": "市场情绪由AI叙事强力驱动，极度乐观，但需警惕过度集中与估值泡沫风险，尤其是中小型AI概念股。"
+                "value": "市场情绪复杂：港股科技股大涨提振信心，但通胀担忧和地缘风险压制乐观情绪，投资者在风险与避险间摇摆。"
             },
             {
                 "label": "🏦 宏观",
-                "value": "欧元区通胀走高支持加息，但全球股市仍因AI增长预期而反弹，表明市场暂时忽略宏观逆风，聚焦微观产业变革。"
+                "value": "通胀数据与加息预期主导宏观面，PIMCO强调非AI驱动；印度抛售黄金显示新兴市场外汇压力，全球流动性收紧隐忧犹存。"
             }
         ],
-        "summary": "当前市场处于AI技术革命驱动的结构性牛市初期，情绪高涨且资金集中，但需警惕宏观紧缩与地缘风险的干扰，整体为谨慎乐观态势。"
+        "summary": "今日市场呈现结构性反弹与避险情绪交织，科技与AI领域获资金追捧，但通胀、地缘和外汇风险压制整体信心，投资者需在分化中寻找确定性机会。"
     },
     "experts": {
         "templeton": {
-            "insight": "邓普顿视角：当前AI热潮令人联想到互联网泡沫初期，但核心区别在于AI有真实盈利支撑（如Arm、英伟达营收目标）。然而，极度乐观情绪下，投资者容易忽略欧洲加息和地缘风险。真正的机会可能在市场过度悲观时出现，比如被外资抛弃的印度市场或传统行业，极度悲观点往往是极佳买点。",
-            "action": "建议保持部分现金，耐心等待AI板块出现回调或市场恐慌时，逆向抄底被错杀的优质AI供应链公司，同时关注印度市场因外资流出带来的长期布局机会。"
+            "insight": "邓普顿视角：当前市场悲观情绪过度集中于通胀和地缘风险，正如我在‘极度悲观时买入’的箴言。欧洲股市反弹显示超卖后的价值回归，印度抛售黄金恰是新兴市场危机的信号，但危机中孕育机遇。AI和软件股（如腾讯、Alphabet）的资本开支激增，反映长期增长逻辑，短期波动正是逆向布局良机。",
+            "action": "建议逢低买入优质科技股，如腾讯和Alphabet，同时关注印度抛售黄金后的新兴市场错杀机会，分散投资于亚洲科技与欧洲价值股。"
         },
         "buffett": {
-            "insight": "巴菲特视角：AI确实是革命性技术，但投资本质是买生意，而非追逐热点。Alphabet、微软等巨头投入巨资是理性的商业防御，但普通投资者不应盲目追捧。Victoria's Secret的盈利超预期说明，有护城河的传统消费品牌在合理价格下仍有价值。我更喜欢那些现金流稳定、我们能够理解其商业模式的公司。",
-            "action": "建议投资者远离估值过高的AI概念股，专注于拥有持久竞争优势和稳定现金流的企业，如消费必需品或科技巨头中的保守选择，等待安全边际出现时再出手。"
+            "insight": "巴菲特视角：投资的核心是护城河与现金流。腾讯大涨10%源于其AI助手和生态优势，类似可口可乐的品牌壁垒；Alphabet发债800亿投资AI，体现其资本配置能力。但印度抛售黄金和贸易关税提醒我，宏观不确定性需用安全边际对冲。我更偏好高股息股票（如新闻中提及），它们能穿越波动。",
+            "action": "持有腾讯、Alphabet等护城河深厚的公司，增持高股息蓝筹股，避免杠杆，保留现金以应对关税和通胀引发的市场回调。"
         },
         "munger": {
-            "insight": "芒格视角：AI的炒作让我想起当年的铁路和汽车，最终赢家是少数。英伟达和Marvell很优秀，但万亿美元市值俱乐部不是靠愿望达成的。AlphaBet融资800亿搞AI，这需要极高的智商和执行力。大多数投资者会在追逐热门中犯错，我宁可持有少数几家看得懂的伟大公司，也不去押注复杂的未来。",
-            "action": "建议保持理性，避免频繁交易。持有伯克希尔这样的多元化组合，或买入像微软这样既有AI布局又有深厚护城河的巨头，不要试图预测AI赢家，而是等待愚蠢的价格出现。"
+            "insight": "芒格视角：避免愚蠢比追求聪明更重要。SpaceX和OpenAI的万亿IPO是‘热门效应’的典型，多数投资者会亏钱；PIMCO指出美债收益率上行非AI驱动，提醒我们不要混淆相关性与因果。腾讯的AI助手‘右滑’是创新，但需警惕估值泡沫。印度央行抛售黄金是恐慌行为，而理性投资者应远离噪音。",
+            "action": "不追逐AI IPO热潮，减持涨幅过大的科技股，买入被低估的防御性资产（如能源和消费必需品），保持简单和耐心。"
         },
         "duan": {
-            "insight": "段永平视角：AI是未来10年最大的趋势，但投资要买“懂的”。Arm和英伟达的生意模式我很欣赏，但估值需要仔细掂量。慧与暴涨29%说明市场对AI基建的需求极其旺盛，但好公司也要有好价格。我更倾向于买入像Google（Alphabet）这样现金流充沛、正在全力投入AI的龙头企业，长期持有。",
-            "action": "建议重点关注Alphabet和微软，它们有深厚的“护城河”和强大的执行力。如果股价出现合理回调，是分批建仓的好机会。对于暴涨的慧与，建议等待冷静期后再评估，不追高。"
+            "insight": "段永平视角：做对的事，把事做对。腾讯大涨是长期价值的体现，其AI助手‘右滑’类似当年微信的微创新，我继续看好其用户粘性。Alphabet发债投资AI是正确战略，但需关注执行。印度抛售黄金和关税是短期扰动，不影响优质公司的长期逻辑。投资要‘敢为天下后’，在确定性中下重注。",
+            "action": "继续持有并加仓腾讯，关注Alphabet的中长期AI布局；忽略短期地缘和通胀噪音，不参与SpaceX等未盈利IPO，聚焦现金流强劲的科技龙头。"
         }
     }
 };
-
-
-
 
 
 
@@ -504,66 +501,28 @@ function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
             <div class="a-radar-copy">不是看谁今天最吵，而是看资金正在交易哪条主线：利率、AI、黄金、港股科技、A股政策，还是能源风险。</div>
         </div>
         <div class="a-sector-list">
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">1</span>
-                            <span class="a-sector-name">电力板块</span>
-                            <span class="a-sector-change">+3.2%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 电力发电、输电、配电公司</div>
-                            <div class="a-sector-reason">🔍 原因：夏季用电高峰+新能源政策</div>
-                            <div class="a-sector-impact">💡 参考：防御性板块，适合稳健型投资者</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">2</span>
-                            <span class="a-sector-name">白酒板块</span>
-                            <span class="a-sector-change">+2.8%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 白酒酿造和销售公司</div>
-                            <div class="a-sector-reason">🔍 原因：消费复苏+茅台效应</div>
-                            <div class="a-sector-impact">💡 参考：高端消费品，受经济周期影响大</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">3</span>
-                            <span class="a-sector-name">超级电容</span>
-                            <span class="a-sector-change">+2.1%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 超级电容器技术公司</div>
-                            <div class="a-sector-reason">🔍 原因：新能源储能需求增长</div>
-                            <div class="a-sector-impact">💡 参考：成长性板块，波动较大</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item down">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">4</span>
-                            <span class="a-sector-name">半导体设备</span>
-                            <span class="a-sector-change">-4.5%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 芯片制造设备公司</div>
-                            <div class="a-sector-reason">🔍 原因：行业周期调整+估值回归</div>
-                            <div class="a-sector-impact">💡 参考：长期看好但短期可能继续调整</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item down">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">5</span>
-                            <span class="a-sector-name">算力概念</span>
-                            <span class="a-sector-change">-3.8%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 AI计算能力相关公司</div>
-                            <div class="a-sector-reason">🔍 原因：前期涨幅过大+获利回吐</div>
-                            <div class="a-sector-impact">💡 参考：AI长期趋势不变，短期需消化估值</div>
-                        </div>
-                    </div>
+            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；只用于观察热钱方向。</div>
+            ${sectors.map((sector, index) => renderSectorHeatCard(sector, index)).join('')}
+        </div>
+    `;
+}
+
+function renderSectorHeatCard(sector, index) {
+    const directionClass = sector.bias === '降温' ? 'down' : 'up';
+    return `
+        <div class="a-sector-item ${directionClass}">
+            <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                <span class="a-sector-rank">${index + 1}</span>
+                <span class="a-sector-name">${safeText(sector.name)}</span>
+                <span class="a-sector-change">${safeText(sector.bias)} ${sector.score}</span>
+            </div>
+            <div class="a-sector-detail">
+                <div class="a-sector-explain">资金在看：${safeText(sector.watch)}</div>
+                <div class="a-sector-reason">交易员逻辑：${safeText(sector.reason)}</div>
+                <div class="a-sector-impact">小白翻译：${safeText(sector.beginner)}</div>
+                <div class="a-target-list">
+                    <span>可跟踪</span>
+                    ${sector.targets.map(target => renderTargetBadge(target)).join('')}
                 </div>
             </div>
         </div>
@@ -669,11 +628,12 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
     const winRate = reviewed.length ? Math.round((wins / reviewed.length) * 100) : null;
     const avgPnl = reviewed.length ? reviewed.reduce((sum, trade) => sum + trade.pnlPct, 0) / reviewed.length : null;
     const portfolio = getPaperPortfolioStats(trades);
+    const phaseStats = getPaperPhaseStats(trades);
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v2</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓，严格看8%止损、10日复盘和止盈区间。</div>
+            <div class="a-radar-kicker">模型模拟盘 v3</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓，按1日、3日、10日自动记录阶段复盘。</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -700,6 +660,9 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
                 <span>预警</span>
                 <b>${portfolio.alerts}</b>
             </div>
+        </div>
+        <div class="paper-phase-grid">
+            ${phaseStats.map(renderPaperPhaseCard).join('')}
         </div>
         <div class="a-flow-list">
             <div class="paper-toolbar">
@@ -809,6 +772,7 @@ function updatePaperTrades(candidates, quoteMap) {
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
+        const checkpoints = updatePaperCheckpoints(trade.checkpoints || {}, pnlPct, ageDays, today);
         return {
             ...trade,
             allocationPct,
@@ -818,6 +782,7 @@ function updatePaperTrades(candidates, quoteMap) {
             currentPrice,
             pnlPct,
             ageDays,
+            checkpoints,
             status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
         };
     });
@@ -838,6 +803,51 @@ function getPaperTradeStatus(trade) {
     if (trade.ageDays >= 10) return '时间复盘';
     if (trade.ageDays >= 3) return '复盘中';
     return '观察中';
+}
+
+function updatePaperCheckpoints(checkpoints, pnlPct, ageDays, today) {
+    const next = { ...checkpoints };
+    [
+        { key: 'd1', days: 1 },
+        { key: 'd3', days: 3 },
+        { key: 'd10', days: 10 }
+    ].forEach(point => {
+        if (ageDays >= point.days && typeof pnlPct === 'number' && !next[point.key]) {
+            next[point.key] = {
+                date: today,
+                pnlPct: Number(pnlPct.toFixed(2))
+            };
+        }
+    });
+    return next;
+}
+
+function getPaperPhaseStats(trades) {
+    return [
+        { key: 'd1', label: '1日' },
+        { key: 'd3', label: '3日' },
+        { key: 'd10', label: '10日' }
+    ].map(phase => {
+        const samples = trades.map(trade => trade.checkpoints?.[phase.key]).filter(Boolean);
+        const wins = samples.filter(item => item.pnlPct > 0).length;
+        const avg = samples.length ? samples.reduce((sum, item) => sum + item.pnlPct, 0) / samples.length : null;
+        return {
+            ...phase,
+            samples: samples.length,
+            winRate: samples.length ? Math.round((wins / samples.length) * 100) : null,
+            avg
+        };
+    });
+}
+
+function renderPaperPhaseCard(phase) {
+    return `
+        <div class="paper-phase-card">
+            <span>${phase.label}复盘</span>
+            <b>${phase.winRate === null ? '等样本' : `${phase.winRate}%`}</b>
+            <small>${phase.avg === null ? '暂无完成信号' : `均值 ${phase.avg >= 0 ? '+' : ''}${phase.avg.toFixed(2)}% · ${phase.samples}条`}</small>
+        </div>
+    `;
 }
 
 function getPaperPortfolioStats(trades) {
@@ -865,6 +875,7 @@ function renderPaperTradeCard(trade) {
     const pnl = typeof trade.pnlPct === 'number' ? `${trade.pnlPct >= 0 ? '+' : ''}${trade.pnlPct.toFixed(2)}%` : '待行情';
     const pnlClass = typeof trade.pnlPct === 'number' && trade.pnlPct < 0 ? 'negative' : 'positive';
     const statusClass = trade.status === '止损警报' ? 'negative' : ['止盈复盘', '时间复盘'].includes(trade.status) ? 'positive' : '';
+    const checkpoints = renderPaperCheckpointBadges(trade);
     return `
         <div class="a-flow-item">
             <div class="a-flow-main" onclick="toggleFlowDetail(this)">
@@ -876,10 +887,24 @@ function renderPaperTradeCard(trade) {
                 <div class="a-flow-explain">模型来源：${safeText(trade.eventType)} ${safeText(trade.score)}/10，来自“${safeText(trade.eventTitle)}”。</div>
                 <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
                 <div class="a-flow-meaning">状态：<span class="a-flow-change ${statusClass}">${safeText(trade.status)}</span></div>
+                <div class="paper-checkpoints">${checkpoints}</div>
                 <div class="a-flow-impact">复盘规则：1日看方向，3日看持续性，10日必须复盘退出；跌幅接近 -8% 视为模型警报。</div>
             </div>
         </div>
     `;
+}
+
+function renderPaperCheckpointBadges(trade) {
+    return [
+        { key: 'd1', label: '1日' },
+        { key: 'd3', label: '3日' },
+        { key: 'd10', label: '10日' }
+    ].map(point => {
+        const done = trade.checkpoints?.[point.key];
+        if (!done) return `<span>${point.label} 等待</span>`;
+        const cls = done.pnlPct >= 0 ? 'positive' : 'negative';
+        return `<span class="${cls}">${point.label} ${done.pnlPct >= 0 ? '+' : ''}${done.pnlPct.toFixed(2)}%</span>`;
+    }).join('');
 }
 
 function uniqueTradeCards(cards) {
