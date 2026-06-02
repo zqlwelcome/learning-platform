@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-02 11:25",
+  "updateTime": "2026-06-02 11:30",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,33 +16,33 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4055.33",
-      "change": "-0.06"
+      "value": "4056.24",
+      "change": "-0.04"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25664.300",
-      "change": "1.05"
+      "value": "25650.750",
+      "change": "0.99"
     }
   },
   "etf_flows": [
     {
       "name": "通信ETF国泰",
       "code": "515880",
-      "price": 1.622,
-      "change": 5.87,
-      "flow": 764821712.0,
-      "flow_str": "+7.65亿",
+      "price": 1.621,
+      "change": 5.81,
+      "flow": 786254096.0,
+      "flow_str": "+7.86亿",
       "direction": "in"
     },
     {
       "name": "科创芯片ETF嘉实",
       "code": "588200",
-      "price": 3.457,
-      "change": 2.58,
-      "flow": 427876896.0,
-      "flow_str": "+4.28亿",
+      "price": 3.45,
+      "change": 2.37,
+      "flow": 444786960.0,
+      "flow_str": "+4.45亿",
       "direction": "in"
     },
     {
@@ -50,30 +50,76 @@
       "code": "159516",
       "price": 1.173,
       "change": 2.62,
-      "flow": 362236144.0,
-      "flow_str": "+3.62亿",
+      "flow": 370888384.0,
+      "flow_str": "+3.71亿",
       "direction": "in"
     },
     {
       "name": "创业板ETF易方达",
       "code": "159915",
-      "price": 4.046,
-      "change": 2.07,
-      "flow": 278240320.0,
-      "flow_str": "+2.78亿",
+      "price": 4.047,
+      "change": 2.09,
+      "flow": 283355696.0,
+      "flow_str": "+2.83亿",
       "direction": "in"
     },
     {
       "name": "红利ETF华泰柏瑞",
       "code": "510880",
-      "price": 3.309,
-      "change": 0.06,
-      "flow": 200097663.0,
+      "price": 3.306,
+      "change": -0.03,
+      "flow": 199513561.0,
       "flow_str": "+2.00亿",
       "direction": "in"
     }
   ],
-  "sector_flows": [],
+  "sector_flows": [
+    {
+      "name": "通信设备",
+      "code": "BK0448",
+      "index": 25421.95,
+      "change": 1.63,
+      "flow": 9874233600.0,
+      "flow_str": "+98.74亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信",
+      "code": "BK1215",
+      "index": 8343.46,
+      "change": 0.92,
+      "flow": 9786626560.0,
+      "flow_str": "+97.87亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信线缆及配套",
+      "code": "BK1592",
+      "index": 29724.6,
+      "change": 5.32,
+      "flow": 5862655232.0,
+      "flow_str": "+58.63亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信网络设备及器件",
+      "code": "BK1591",
+      "index": 15809.97,
+      "change": 3.21,
+      "flow": 4203389184.0,
+      "flow_str": "+42.03亿",
+      "direction": "in"
+    },
+    {
+      "name": "元件",
+      "code": "BK0459",
+      "index": 60484.1,
+      "change": 2.93,
+      "flow": 1868081664.0,
+      "flow_str": "+18.68亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -85,11 +131,6 @@
       "title": "澳央行官员对通胀预期“上升”表示担忧",
       "source": "环球市场播报",
       "keyword": "央行"
-    },
-    {
-      "title": "美联储加息预期升温拖累黄金重回箱体下沿，等待方向选择",
-      "source": "市场资讯",
-      "keyword": "美联储"
     }
   ]
 }
