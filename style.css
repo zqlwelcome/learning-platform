@@ -2057,6 +2057,39 @@ body {
     font-size: 15px;
     color: var(--text);
 }
+.paper-lock {
+    padding: 4px 0;
+}
+.paper-lock-box {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0;
+}
+.paper-lock-input {
+    flex: 1;
+    min-width: 0;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+.paper-lock-btn {
+    border: 0;
+    border-radius: 8px;
+    background: var(--primary);
+    color: white;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.paper-lock-error {
+    min-height: 18px;
+    color: var(--red);
+    font-size: 12px;
+    margin-bottom: 8px;
+}
 .a-bars { display: flex; gap: 3px; margin-top: 14px; }
 .a-bar { flex: 1; height: 4px; border-radius: 2px; background: var(--bg2); }
 .a-bar.fill { background: var(--primary); }
