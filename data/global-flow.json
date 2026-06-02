@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-02 11:21",
+  "updateTime": "2026-06-02 11:25",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,17 +16,63 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4057.14",
-      "change": "-0.01"
+      "value": "4055.33",
+      "change": "-0.06"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25683.520",
-      "change": "1.12"
+      "value": "25664.300",
+      "change": "1.05"
     }
   },
-  "etf_flows": [],
+  "etf_flows": [
+    {
+      "name": "通信ETF国泰",
+      "code": "515880",
+      "price": 1.622,
+      "change": 5.87,
+      "flow": 764821712.0,
+      "flow_str": "+7.65亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.457,
+      "change": 2.58,
+      "flow": 427876896.0,
+      "flow_str": "+4.28亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备ETF国泰",
+      "code": "159516",
+      "price": 1.173,
+      "change": 2.62,
+      "flow": 362236144.0,
+      "flow_str": "+3.62亿",
+      "direction": "in"
+    },
+    {
+      "name": "创业板ETF易方达",
+      "code": "159915",
+      "price": 4.046,
+      "change": 2.07,
+      "flow": 278240320.0,
+      "flow_str": "+2.78亿",
+      "direction": "in"
+    },
+    {
+      "name": "红利ETF华泰柏瑞",
+      "code": "510880",
+      "price": 3.309,
+      "change": 0.06,
+      "flow": 200097663.0,
+      "flow_str": "+2.00亿",
+      "direction": "in"
+    }
+  ],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
