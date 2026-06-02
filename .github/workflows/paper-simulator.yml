@@ -8,12 +8,23 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: cloud-paper-simulator-main
+  cancel-in-progress: false
+
 jobs:
   simulate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
 
       - name: Setup Node
         uses: actions/setup-node@v4
