@@ -4,6 +4,8 @@
  */
 
 let _currentExpert = 'templeton';
+const PAPER_TRADE_PASSWORD = 'xbxdsha2026';
+const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
@@ -149,7 +151,8 @@ async function renderSummaryContent() {
     const macro = assessTradeMacroRegime(briefingData.hotNews || []);
     const tradePoolHtml = await buildAutoTradePoolHtml(briefingData.hotNews || [], quoteMap, macro);
     const sectorHeatHtml = buildSectorHeatHtml(briefingData.hotNews || [], briefingData.globalFlow || {}, quoteMap, macro);
-    const paperTradeHtml = buildPaperTradeHtml(briefingData.hotNews || [], quoteMap, macro);
+    window._paperTradeContext = { hotNews: briefingData.hotNews || [], quoteMap, macro };
+    const paperTradeHtml = isPaperTradeAuthorized() ? buildPaperTradeHtml(briefingData.hotNews || [], quoteMap, macro) : getPaperTradeGateHtml();
     window._expertsData = expertsData;
     
     const conf = Math.min(10, Math.max(0, moodData.confidence || 5));
@@ -649,6 +652,43 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
             ${activeTrades.length ? activeTrades.map(renderPaperTradeCard).join('') : '<div class="a-flow-disclaimer">暂时没有可记录的模拟信号。模型没出手，也是一种纪律。</div>'}
         </div>
     `;
+}
+
+function getPaperTradeGateHtml() {
+    return `
+        <div class="paper-lock">
+            <div class="a-radar-intro">
+                <div class="a-radar-kicker">模拟盘验证 · 权限访问</div>
+                <div class="a-radar-copy">这里会记录模型信号和虚拟收益，需要密码后才能查看。</div>
+            </div>
+            <div class="paper-lock-box">
+                <input id="paperTradePassword" class="paper-lock-input" type="password" placeholder="输入访问密码" autocomplete="current-password">
+                <button class="paper-lock-btn" onclick="unlockPaperTradeAccess()">进入</button>
+            </div>
+            <div class="paper-lock-error" id="paperTradeError"></div>
+            <div class="a-flow-disclaimer">说明：这是前端轻量权限，适合内部试用；真正的站点级权限后续建议接 Cloudflare Access。</div>
+        </div>
+    `;
+}
+
+function isPaperTradeAuthorized() {
+    return localStorage.getItem(PAPER_TRADE_AUTH_KEY) === 'yes';
+}
+
+function unlockPaperTradeAccess() {
+    const input = document.getElementById('paperTradePassword');
+    const error = document.getElementById('paperTradeError');
+    const value = input ? input.value.trim() : '';
+    if (value !== PAPER_TRADE_PASSWORD) {
+        if (error) error.textContent = '密码不对，先别偷看模型小账本。';
+        return;
+    }
+    localStorage.setItem(PAPER_TRADE_AUTH_KEY, 'yes');
+    const target = document.getElementById('insight-paper');
+    const ctx = window._paperTradeContext || {};
+    if (target) {
+        target.innerHTML = buildPaperTradeHtml(ctx.hotNews || [], ctx.quoteMap || {}, ctx.macro || assessTradeMacroRegime(ctx.hotNews || []));
+    }
 }
 
 function getPaperTradeCandidates(hotNews, quoteMap, macro) {
@@ -1203,6 +1243,10 @@ function toggleMoodDetail() {
 
 // ===== 切换洞察标签页 =====
 function switchInsightTab(tabName, target) {
+    if (tabName === 'paper' && !isPaperTradeAuthorized()) {
+        const paper = document.getElementById('insight-paper');
+        if (paper) paper.innerHTML = getPaperTradeGateHtml();
+    }
     // 更新标签按钮状态
     document.querySelectorAll('.a-insights-tab').forEach(tab => {
         tab.classList.remove('active');
