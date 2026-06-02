@@ -151,8 +151,8 @@ async function renderSummaryContent() {
     const macro = assessTradeMacroRegime(briefingData.hotNews || []);
     const tradePoolHtml = await buildAutoTradePoolHtml(briefingData.hotNews || [], quoteMap, macro);
     const sectorHeatHtml = buildSectorHeatHtml(briefingData.hotNews || [], briefingData.globalFlow || {}, quoteMap, macro);
-    window._paperTradeContext = { hotNews: briefingData.hotNews || [], quoteMap, macro };
-    const paperTradeHtml = isPaperTradeAuthorized() ? buildPaperTradeHtml(briefingData.hotNews || [], quoteMap, macro) : getPaperTradeGateHtml();
+    window._paperTradeContext = { hotNews: briefingData.hotNews || [], quoteMap, macro, paperTrades: briefingData.paperTrades || null };
+    const paperTradeHtml = isPaperTradeAuthorized() ? buildPaperTradeHtml(briefingData.hotNews || [], quoteMap, macro, briefingData.paperTrades) : getPaperTradeGateHtml();
     window._expertsData = expertsData;
     
     const conf = Math.min(10, Math.max(0, moodData.confidence || 5));
@@ -619,9 +619,10 @@ function scoreSectorProfile(profile, text, indices, quoteMap, macro) {
     };
 }
 
-function buildPaperTradeHtml(hotNews, quoteMap, macro) {
-    const candidates = getPaperTradeCandidates(hotNews, quoteMap, macro);
-    const trades = updatePaperTrades(candidates, quoteMap);
+function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
+    const hasCloudTrades = Array.isArray(cloudSnapshot?.trades);
+    const candidates = hasCloudTrades ? cloudSnapshot.candidates || [] : getPaperTradeCandidates(hotNews, quoteMap, macro);
+    const trades = hasCloudTrades ? refreshPaperTradesForDisplay(cloudSnapshot.trades, quoteMap) : updatePaperTrades(candidates, quoteMap);
     const activeTrades = trades.filter(trade => trade.status !== '过期').slice(0, 8);
     const reviewed = trades.filter(trade => typeof trade.pnlPct === 'number' && trade.ageDays >= 1);
     const wins = reviewed.filter(trade => trade.pnlPct > 0).length;
@@ -632,8 +633,8 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v3</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓，按1日、3日、10日自动记录阶段复盘。</div>
+            <div class="a-radar-kicker">模型模拟盘 v4 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓，按1日、3日、10日自动记录阶段复盘。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -669,10 +670,35 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
                 <span>纪律：单标的≤15%，权益≤70%，10日必须复盘。</span>
                 <button onclick="resetPaperTrades()">清空重测</button>
             </div>
-            <div class="a-flow-disclaimer">模拟盘会自动记录“观察池”标的。刚生成的信号需要等1日、3日、10日后才有复盘意义；这里是模型验证，不是真实交易建议。</div>
+            <div class="a-flow-disclaimer">${hasCloudTrades ? '云端模拟盘每个交易日约每2小时自动跑一次；旧信号保留复盘，新信号按模型规则加入。' : '模拟盘会自动记录“观察池”标的。'}刚生成的信号需要等1日、3日、10日后才有复盘意义；这里是模型验证，不是真实交易建议。</div>
             ${activeTrades.length ? activeTrades.map(renderPaperTradeCard).join('') : '<div class="a-flow-disclaimer">暂时没有可记录的模拟信号。模型没出手，也是一种纪律。</div>'}
         </div>
     `;
+}
+
+function refreshPaperTradesForDisplay(trades, quoteMap) {
+    const today = new Date().toISOString().slice(0, 10);
+    return (trades || []).map(trade => {
+        const quote = quoteMap?.[trade.symbol] || {};
+        const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
+        const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : trade.pnlPct;
+        const ageDays = Math.max(0, Math.floor((new Date(today) - new Date(trade.entryDate)) / 86400000));
+        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 });
+        const capital = trade.capital || 100000;
+        const entryValue = capital * (allocationPct / 100);
+        const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
+        return {
+            ...trade,
+            allocationPct,
+            capital,
+            entryValue,
+            currentValue,
+            currentPrice,
+            pnlPct,
+            ageDays,
+            status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
+        };
+    });
 }
 
 function getPaperTradeGateHtml() {
@@ -708,7 +734,7 @@ function unlockPaperTradeAccess() {
     const target = document.getElementById('insight-paper');
     const ctx = window._paperTradeContext || {};
     if (target) {
-        target.innerHTML = buildPaperTradeHtml(ctx.hotNews || [], ctx.quoteMap || {}, ctx.macro || assessTradeMacroRegime(ctx.hotNews || []));
+        target.innerHTML = buildPaperTradeHtml(ctx.hotNews || [], ctx.quoteMap || {}, ctx.macro || assessTradeMacroRegime(ctx.hotNews || []), ctx.paperTrades || null);
     }
 }
 
@@ -863,12 +889,19 @@ function resetPaperTrades() {
     const target = document.getElementById('insight-paper');
     const ctx = window._paperTradeContext || {};
     if (target) {
-        target.innerHTML = buildPaperTradeHtml(ctx.hotNews || [], ctx.quoteMap || {}, ctx.macro || assessTradeMacroRegime(ctx.hotNews || []));
+        target.innerHTML = buildPaperTradeHtml(ctx.hotNews || [], ctx.quoteMap || {}, ctx.macro || assessTradeMacroRegime(ctx.hotNews || []), null);
     }
 }
 
 function formatMoney(value) {
     return `¥${Math.round(value || 0).toLocaleString('zh-CN')}`;
+}
+
+function formatPaperUpdateTime(value) {
+    if (!value) return '等待首次运行';
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return safeText(value);
+    return date.toLocaleString('zh-CN', { hour12: false, month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
 }
 
 function renderPaperTradeCard(trade) {
@@ -1307,9 +1340,18 @@ function fbFeedback(expert, type) {
 // ===== 工具函数 =====
 async function loadBriefingData() {
     try {
-        const [n, a, g] = await Promise.all([xhrFetch('data/hot-news.json'), xhrFetch('data/alerts.json'), xhrFetch('data/global-flow.json')]);
-        return { hotNews: n?.news || [], alerts: a || null, globalFlow: g || null };
-    } catch(e) { return { hotNews: [], alerts: null, globalFlow: null }; }
+        const [n, a, g, p] = await Promise.all([
+            xhrFetch('data/hot-news.json'),
+            xhrFetch('data/alerts.json'),
+            xhrFetch('data/global-flow.json'),
+            xhrFetchOptional('data/paper-trades.json')
+        ]);
+        return { hotNews: n?.news || [], alerts: a || null, globalFlow: g || null, paperTrades: p || null };
+    } catch(e) { return { hotNews: [], alerts: null, globalFlow: null, paperTrades: null }; }
+}
+
+function xhrFetchOptional(url) {
+    return xhrFetch(url).catch(() => null);
 }
 
 function xhrFetch(url) {
