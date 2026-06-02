@@ -1,0 +1,36 @@
+name: Cloud Paper Simulator
+
+on:
+  schedule:
+    - cron: '17 */2 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run paper simulator
+        run: node scripts/run-paper-simulation.js
+
+      - name: Commit simulator data
+        run: |
+          if git diff --quiet -- data/paper-trades.json; then
+            echo "No paper simulator changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/paper-trades.json
+          git commit -m "auto: update cloud paper simulator"
+          git push
