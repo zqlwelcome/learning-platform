@@ -628,11 +628,12 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
     const winRate = reviewed.length ? Math.round((wins / reviewed.length) * 100) : null;
     const avgPnl = reviewed.length ? reviewed.reduce((sum, trade) => sum + trade.pnlPct, 0) / reviewed.length : null;
     const portfolio = getPaperPortfolioStats(trades);
+    const phaseStats = getPaperPhaseStats(trades);
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v2</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓，严格看8%止损、10日复盘和止盈区间。</div>
+            <div class="a-radar-kicker">模型模拟盘 v3</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓，按1日、3日、10日自动记录阶段复盘。</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -659,6 +660,9 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
                 <span>预警</span>
                 <b>${portfolio.alerts}</b>
             </div>
+        </div>
+        <div class="paper-phase-grid">
+            ${phaseStats.map(renderPaperPhaseCard).join('')}
         </div>
         <div class="a-flow-list">
             <div class="paper-toolbar">
@@ -768,6 +772,7 @@ function updatePaperTrades(candidates, quoteMap) {
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
+        const checkpoints = updatePaperCheckpoints(trade.checkpoints || {}, pnlPct, ageDays, today);
         return {
             ...trade,
             allocationPct,
@@ -777,6 +782,7 @@ function updatePaperTrades(candidates, quoteMap) {
             currentPrice,
             pnlPct,
             ageDays,
+            checkpoints,
             status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
         };
     });
@@ -797,6 +803,51 @@ function getPaperTradeStatus(trade) {
     if (trade.ageDays >= 10) return '时间复盘';
     if (trade.ageDays >= 3) return '复盘中';
     return '观察中';
+}
+
+function updatePaperCheckpoints(checkpoints, pnlPct, ageDays, today) {
+    const next = { ...checkpoints };
+    [
+        { key: 'd1', days: 1 },
+        { key: 'd3', days: 3 },
+        { key: 'd10', days: 10 }
+    ].forEach(point => {
+        if (ageDays >= point.days && typeof pnlPct === 'number' && !next[point.key]) {
+            next[point.key] = {
+                date: today,
+                pnlPct: Number(pnlPct.toFixed(2))
+            };
+        }
+    });
+    return next;
+}
+
+function getPaperPhaseStats(trades) {
+    return [
+        { key: 'd1', label: '1日' },
+        { key: 'd3', label: '3日' },
+        { key: 'd10', label: '10日' }
+    ].map(phase => {
+        const samples = trades.map(trade => trade.checkpoints?.[phase.key]).filter(Boolean);
+        const wins = samples.filter(item => item.pnlPct > 0).length;
+        const avg = samples.length ? samples.reduce((sum, item) => sum + item.pnlPct, 0) / samples.length : null;
+        return {
+            ...phase,
+            samples: samples.length,
+            winRate: samples.length ? Math.round((wins / samples.length) * 100) : null,
+            avg
+        };
+    });
+}
+
+function renderPaperPhaseCard(phase) {
+    return `
+        <div class="paper-phase-card">
+            <span>${phase.label}复盘</span>
+            <b>${phase.winRate === null ? '等样本' : `${phase.winRate}%`}</b>
+            <small>${phase.avg === null ? '暂无完成信号' : `均值 ${phase.avg >= 0 ? '+' : ''}${phase.avg.toFixed(2)}% · ${phase.samples}条`}</small>
+        </div>
+    `;
 }
 
 function getPaperPortfolioStats(trades) {
@@ -824,6 +875,7 @@ function renderPaperTradeCard(trade) {
     const pnl = typeof trade.pnlPct === 'number' ? `${trade.pnlPct >= 0 ? '+' : ''}${trade.pnlPct.toFixed(2)}%` : '待行情';
     const pnlClass = typeof trade.pnlPct === 'number' && trade.pnlPct < 0 ? 'negative' : 'positive';
     const statusClass = trade.status === '止损警报' ? 'negative' : ['止盈复盘', '时间复盘'].includes(trade.status) ? 'positive' : '';
+    const checkpoints = renderPaperCheckpointBadges(trade);
     return `
         <div class="a-flow-item">
             <div class="a-flow-main" onclick="toggleFlowDetail(this)">
@@ -835,10 +887,24 @@ function renderPaperTradeCard(trade) {
                 <div class="a-flow-explain">模型来源：${safeText(trade.eventType)} ${safeText(trade.score)}/10，来自“${safeText(trade.eventTitle)}”。</div>
                 <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
                 <div class="a-flow-meaning">状态：<span class="a-flow-change ${statusClass}">${safeText(trade.status)}</span></div>
+                <div class="paper-checkpoints">${checkpoints}</div>
                 <div class="a-flow-impact">复盘规则：1日看方向，3日看持续性，10日必须复盘退出；跌幅接近 -8% 视为模型警报。</div>
             </div>
         </div>
     `;
+}
+
+function renderPaperCheckpointBadges(trade) {
+    return [
+        { key: 'd1', label: '1日' },
+        { key: 'd3', label: '3日' },
+        { key: 'd10', label: '10日' }
+    ].map(point => {
+        const done = trade.checkpoints?.[point.key];
+        if (!done) return `<span>${point.label} 等待</span>`;
+        const cls = done.pnlPct >= 0 ? 'positive' : 'negative';
+        return `<span class="${cls}">${point.label} ${done.pnlPct >= 0 ? '+' : ''}${done.pnlPct.toFixed(2)}%</span>`;
+    }).join('');
 }
 
 function uniqueTradeCards(cards) {
