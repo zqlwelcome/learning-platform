@@ -260,7 +260,7 @@ async function renderSummaryContent() {
             <!-- 交易池情报内容 -->
             <div class="a-insights-content" id="insight-flow">
                 <div class="a-radar-intro">
-                    <div class="a-radar-kicker">自动交易池 v3</div>
+                    <div class="a-radar-kicker">自动交易池 v4</div>
                     <div class="a-radar-copy">新闻事件自动进模型，叠加实时涨跌、成交额、5日趋势和热度过滤；单股财报排雷未通过前只进监控。</div>
                 </div>
                 ${tradePoolHtml}
@@ -491,10 +491,11 @@ function getForwardRadarHtml() {
 
 async function buildAutoTradePoolHtml(hotNews) {
     const quoteMap = await loadTradeQuoteMap();
-    const cards = (hotNews || [])
-        .map(news => scoreTradeEvent(news, quoteMap))
+    const macro = assessTradeMacroRegime(hotNews || []);
+    const cards = uniqueTradeCards((hotNews || [])
+        .map(news => scoreTradeEvent(news, quoteMap, macro))
         .filter(item => item.score >= 4)
-        .sort((a, b) => b.score - a.score)
+        .sort((a, b) => b.score - a.score))
         .slice(0, 4);
 
     if (cards.length === 0) {
@@ -508,6 +509,7 @@ async function buildAutoTradePoolHtml(hotNews) {
     return `
         <div class="a-flow-list">
             <div class="a-flow-hint" onclick="this.style.display='none'"><span class="a-flow-hint-icon">👇</span><span class="a-flow-hint-text">点击情报卡，查看模型判断</span></div>
+            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。参考关注按事件类型、宏观方向、流动性、5日趋势和52周热度动态筛选；不是固定股票清单。</div>
             ${cards.map(card => renderTradePoolCard(card)).join('')}
             <div class="a-flow-item">
                 <div class="a-flow-main" onclick="toggleFlowDetail(this)">
@@ -528,9 +530,19 @@ async function buildAutoTradePoolHtml(hotNews) {
                     <div class="a-flow-impact">小白翻译：这个模型不是为了天天买，而是为了只在事件窗口里做有纪律的下注。</div>
                 </div>
             </div>
-            <div class="a-flow-disclaimer">自动交易池 v3 已接入事件打分、实时涨跌、成交额、5日趋势和52周热度过滤。财报排雷与真实估值分位需要稳定财务源；未接入前，个股只进监控池，ETF可进入观察池。以下不是无条件买入清单。</div>
+            <div class="a-flow-disclaimer">自动交易池 v4 按交易模型执行：事件分数低于4过滤；优先ETF/基金验证方向；个股因财报排雷与估值分位未完全接入，默认只进监控池。以下不是无条件买入清单。</div>
         </div>
     `;
+}
+
+function uniqueTradeCards(cards) {
+    const seen = new Set();
+    return cards.filter(card => {
+        const key = `${card.type}-${card.title.replace(/[^\u4e00-\u9fa5a-z0-9]/gi, '').slice(0, 18)}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+    });
 }
 
 function renderTradePoolCard(card) {
@@ -552,8 +564,8 @@ function renderTradePoolCard(card) {
                 <div class="a-flow-explain">事件判断：${safeText(card.reason)}</div>
                 <div class="a-flow-meaning">交易池状态：${safeText(card.status)}</div>
                 <div class="a-target-list">
-                    <span>参考关注</span>
-                    ${card.targets.slice(1).map(target => renderTargetBadge(target)).join('')}
+                    <span>模型筛选</span>
+                    ${card.targets.map(target => renderTargetBadge(target)).join('')}
                 </div>
                 <div class="a-flow-impact">操作提示：${safeText(card.action)}</div>
             </div>
@@ -561,14 +573,14 @@ function renderTradePoolCard(card) {
     `;
 }
 
-function scoreTradeEvent(news, quoteMap) {
+function scoreTradeEvent(news, quoteMap, macro) {
     const title = news.titleZh || news.title_zh || news.title || '事件更新';
     const detail = news.detailZh || news.detail_zh || news.detail || '';
     const text = `${title} ${detail}`.toLowerCase();
     const base = Math.min(8, Math.max(4, Math.round((Number(news.score || 28) - 10) / 6)));
     const profile = getTradeProfile(text);
     const score = Math.min(10, Math.max(4, base + profile.bonus));
-    const targets = profile.targets.map(target => attachQuote(target, quoteMap));
+    const targets = selectTradeTargets(profile, quoteMap, macro);
     const hotTarget = targets.find(target => typeof target.pct === 'number' && target.pct > 4);
     const surgeTarget = targets.find(target => typeof target.fiveDayPct === 'number' && target.fiveDayPct > 8);
     const overheatedTarget = targets.find(target => typeof target.heat === 'number' && target.heat > 0.88);
@@ -588,30 +600,125 @@ function scoreTradeEvent(news, quoteMap) {
     };
 }
 
+function assessTradeMacroRegime(hotNews) {
+    const text = (hotNews || []).map(n => `${n.title || ''} ${n.detail || ''} ${n.summary || ''}`).join(' ').toLowerCase();
+    const regime = {
+        rateUp: /加息|收益率走高|国债下跌|通胀|inflation|yield/.test(text),
+        rateDown: /降息|收益率下行|宽松/.test(text),
+        oilShock: /油价|原油|霍尔木兹|伊朗|oil|hormuz|iran/.test(text),
+        aiCapex: /人工智能|英伟达|芯片|数据中心|openai|anthropic|nvidia|\bai\b|data center/.test(text),
+        riskOff: /战争|冲突|停火|制裁|衰退|recession|war|conflict/.test(text),
+        chinaSupport: /中国|a股|港股|人民币|证监会|稳增长/.test(text)
+    };
+    const labels = [];
+    if (regime.rateUp) labels.push('利率压力偏高');
+    if (regime.oilShock) labels.push('能源和地缘风险升温');
+    if (regime.aiCapex) labels.push('人工智能资本开支仍是主线');
+    if (regime.riskOff) labels.push('风险偏好需要打折');
+    if (regime.chinaSupport) labels.push('中国资产等待政策和数据确认');
+    if (regime.rateDown) labels.push('利率下行利好长久期资产');
+    return { ...regime, label: labels.join(' / ') || '震荡中性，先看价格确认' };
+}
+
+function selectTradeTargets(profile, quoteMap, macro) {
+    const typeThemes = {
+        '政策类': ['china-beta', 'broker', 'china-tech', 'consumer'],
+        '资金行为': ['ai', 'semiconductor', 'us-growth', 'software', 'infrastructure'],
+        '供需/地缘': ['energy', 'oil', 'gold', 'defense', 'cash'],
+        '宏观类': ['bond', 'cash', 'gold', 'us-growth', 'china-beta'],
+        '基本面类': ['broad-us', 'quality', 'china-beta']
+    };
+    const allowedThemes = typeThemes[profile.type] || typeThemes['基本面类'];
+    const ranked = getTradeCandidateUniverse()
+        .filter(target => target.themes.some(theme => allowedThemes.includes(theme)))
+        .map(target => scoreTradeTarget(attachQuote(target, quoteMap), profile, macro))
+        .filter(target => target.modelScore >= 0)
+        .sort((a, b) => b.modelScore - a.modelScore);
+    return ranked.slice(0, 4);
+}
+
+function scoreTradeTarget(target, profile, macro) {
+    let modelScore = 50 + (target.kind === 'ETF' ? 8 : -8);
+    const hasTheme = theme => target.themes.includes(theme);
+
+    if (macro.rateUp) {
+        if (hasTheme('cash')) modelScore += 16;
+        if (hasTheme('bond')) modelScore -= 6;
+        if (hasTheme('us-growth') || hasTheme('semiconductor')) modelScore -= 10;
+    }
+    if (macro.rateDown) {
+        if (hasTheme('bond') || hasTheme('us-growth')) modelScore += 10;
+    }
+    if (macro.oilShock) {
+        if (hasTheme('energy') || hasTheme('oil') || hasTheme('gold')) modelScore += 14;
+        if (hasTheme('us-growth')) modelScore -= 4;
+    }
+    if (macro.aiCapex && (hasTheme('ai') || hasTheme('semiconductor') || hasTheme('infrastructure'))) modelScore += 12;
+    if (macro.riskOff) {
+        if (hasTheme('cash') || hasTheme('gold')) modelScore += 10;
+        if (target.kind === 'Stock') modelScore -= 10;
+    }
+    if (macro.chinaSupport && (hasTheme('china-beta') || hasTheme('consumer') || hasTheme('broker'))) modelScore += 8;
+
+    if (typeof target.pct === 'number' && target.pct > 4) modelScore -= 18;
+    if (typeof target.pct === 'number' && target.pct < -5) modelScore -= 12;
+    if (typeof target.fiveDayPct === 'number' && target.fiveDayPct > 8) modelScore -= 20;
+    if (typeof target.heat === 'number' && target.heat > 0.88) modelScore -= 14;
+    if (target.hasQuote && !target.liquidityPass) modelScore = -1;
+
+    return {
+        ...target,
+        modelScore,
+        modelTag: target.kind === 'Stock' ? '监控' : modelScore >= 62 ? '观察' : '监控'
+    };
+}
+
+function getTradeCandidateUniverse() {
+    return [
+        { name: '纳指100ETF', code: 'QQQ', symbol: 'usQQQ', kind: 'ETF', themes: ['us-growth', 'ai', 'broad-us'] },
+        { name: '半导体ETF', code: 'SMH', symbol: 'usSMH', kind: 'ETF', themes: ['semiconductor', 'ai'] },
+        { name: '科技精选ETF', code: 'XLK', symbol: 'usXLK', kind: 'ETF', themes: ['us-growth', 'software', 'ai'] },
+        { name: '标普500ETF', code: 'SPY', symbol: 'usSPY', kind: 'ETF', themes: ['broad-us', 'quality'] },
+        { name: '能源ETF', code: 'XLE', symbol: 'usXLE', kind: 'ETF', themes: ['energy'] },
+        { name: '美国原油基金', code: 'USO', symbol: 'usUSO', kind: 'ETF', themes: ['oil'] },
+        { name: '黄金ETF', code: 'GLD', symbol: 'usGLD', kind: 'ETF', themes: ['gold'] },
+        { name: '长债ETF', code: 'TLT', symbol: 'usTLT', kind: 'ETF', themes: ['bond'] },
+        { name: '短债ETF', code: 'SHV', symbol: 'usSHV', kind: 'ETF', themes: ['cash'] },
+        { name: '沪深300ETF', code: '510300', symbol: 'sh510300', kind: 'ETF', themes: ['china-beta'] },
+        { name: '上证50ETF', code: '510050', symbol: 'sh510050', kind: 'ETF', themes: ['china-beta', 'quality'] },
+        { name: '证券ETF', code: '512880', symbol: 'sh512880', kind: 'ETF', themes: ['broker', 'china-beta'] },
+        { name: '芯片ETF', code: '512760', symbol: 'sh512760', kind: 'ETF', themes: ['semiconductor', 'china-tech'] },
+        { name: '消费ETF', code: '159928', symbol: 'sz159928', kind: 'ETF', themes: ['consumer'] },
+        { name: '国债ETF', code: '511010', symbol: 'sh511010', kind: 'ETF', themes: ['cash', 'bond'] },
+        { name: '英伟达', code: 'NVDA', symbol: 'usNVDA', kind: 'Stock', themes: ['ai', 'semiconductor'] },
+        { name: 'IBM', code: 'IBM', symbol: 'usIBM', kind: 'Stock', themes: ['ai', 'infrastructure'] },
+        { name: '微软', code: 'MSFT', symbol: 'usMSFT', kind: 'Stock', themes: ['ai', 'software'] },
+        { name: '甲骨文', code: 'ORCL', symbol: 'usORCL', kind: 'Stock', themes: ['infrastructure', 'software'] },
+        { name: '台积电', code: 'TSM', symbol: 'usTSM', kind: 'Stock', themes: ['semiconductor'] }
+    ];
+}
+
 function getTradeProfile(text) {
     if (/证监会|监管|新规|政策|治理|a股|上市公司/.test(text)) {
         return {
             type: '政策类',
             bonus: 2,
-            targets: [
-                { name: '沪深300ETF', code: '510300', symbol: 'sh510300' },
-                { name: '上证50ETF', code: '510050', symbol: 'sh510050' },
-                { name: '证券ETF', code: '512880', symbol: 'sh512880' }
-            ],
             reason: '政策会改变市场风险偏好和估值上限，优先影响大盘、金融和治理改善类资产。',
             action: '若政策落地且指数放量，允许小仓位观察；若只是口头预期，不追。'
         };
     }
-    if (/bank of america|analyst|机构|调研|加仓|top picks|nvidia|apple|ai|人工智能|芯片|数据中心|micron/.test(text)) {
+    if (/fed|pce|通胀|利率|降息|加息|收益率|美债|recession|经济|gdp|就业|非农|稳定币|inflation|yield/.test(text)) {
+        return {
+            type: '宏观类',
+            bonus: 2,
+            reason: '宏观事件改变利率路径，是股债汇和成长股估值的总开关。',
+            action: '若收益率下行，成长股和黄金更舒服；若收益率上行，减轻高估值资产。'
+        };
+    }
+    if (/bank of america|analyst|机构|调研|加仓|top picks|nvidia|apple|\bai\b|人工智能|芯片|数据中心|micron/.test(text)) {
         return {
             type: '资金行为',
             bonus: 1,
-            targets: [
-                { name: '英伟达', code: 'NVDA', symbol: 'usNVDA' },
-                { name: '苹果', code: 'AAPL', symbol: 'usAAPL' },
-                { name: '纳指100ETF', code: 'QQQ', symbol: 'usQQQ' },
-                { name: '半导体ETF', code: 'SMH', symbol: 'usSMH' }
-            ],
             reason: '机构仍在抱团确定性资产，但科技交易拥挤，最怕收益率上行和估值过热。',
             action: '若美债收益率下行且龙头放量，可分批；若5日连续大涨，模型拒绝追高。'
         };
@@ -620,38 +727,13 @@ function getTradeProfile(text) {
         return {
             type: '供需/地缘',
             bonus: 1,
-            targets: [
-                { name: '美国原油基金', code: 'USO', symbol: 'usUSO' },
-                { name: '能源ETF', code: 'XLE', symbol: 'usXLE' },
-                { name: '黄金ETF', code: 'GLD', symbol: 'usGLD' },
-                { name: '黄金ETF', code: '518880', symbol: 'sh518880' }
-            ],
             reason: '油价和地缘风险会同时影响通胀预期、避险资金和能源链利润。',
             action: '先看油价和黄金是否同步确认；只有单边消息、没有价格确认时，不重仓。'
-        };
-    }
-    if (/fed|pce|通胀|利率|降息|recession|经济|gdp|就业|非农|稳定币/.test(text)) {
-        return {
-            type: '宏观类',
-            bonus: 2,
-            targets: [
-                { name: '长债ETF', code: 'TLT', symbol: 'usTLT' },
-                { name: '短债ETF', code: 'SHV', symbol: 'usSHV' },
-                { name: '黄金ETF', code: 'GLD', symbol: 'usGLD' },
-                { name: '纳指100ETF', code: 'QQQ', symbol: 'usQQQ' }
-            ],
-            reason: '宏观事件改变利率路径，是股债汇和成长股估值的总开关。',
-            action: '若收益率下行，成长股和黄金更舒服；若收益率上行，减轻高估值资产。'
         };
     }
     return {
         type: '基本面类',
         bonus: 0,
-        targets: [
-            { name: '标普500ETF', code: 'SPY', symbol: 'usSPY' },
-            { name: '纳指100ETF', code: 'QQQ', symbol: 'usQQQ' },
-            { name: '沪深300ETF', code: '510300', symbol: 'sh510300' }
-        ],
         reason: '事件可能影响盈利预期，但需要更多价格和基本面确认。',
         action: '先观察，不急着入场；等成交量和方向确认后再评估。'
     };
@@ -677,7 +759,7 @@ function attachQuote(target, quoteMap) {
 }
 
 async function loadTradeQuoteMap() {
-    const symbols = ['sh510300','sh510050','sh512880','sh518880','usNVDA','usAAPL','usQQQ','usSMH','usUSO','usXLE','usGLD','usTLT','usSHV','usSPY'];
+    const symbols = getTradeCandidateUniverse().map(target => target.symbol);
     try {
         const resp = await fetch(`https://web.sqt.gtimg.cn/q=${symbols.join(',')}`, { headers: { 'Referer': 'https://gu.qq.com' } });
         const text = await resp.text();
@@ -733,7 +815,19 @@ function getLiquidityFloor(symbol) {
 }
 
 function normalizeTradeTitle(title, type) {
+    if (/[\u4e00-\u9fa5]/.test(title || '')) {
+        const cleaned = String(title)
+            .replace(/\bAI\b/g, '人工智能')
+            .replace(/\bIPO\b/g, '上市')
+            .replace(/\bOpenAI\b/g, '人工智能公司')
+            .replace(/\bSpaceX\b/g, '太空公司');
+        return cleaned.length > 24 ? `${cleaned.slice(0, 24)}...` : cleaned;
+    }
     if (/[A-Za-z]{3,}/.test(title)) {
+        const t = title.toLowerCase();
+        if (t.includes('european stocks') || t.includes('inflation data')) return '欧洲股市反弹，资金等待通胀数据确认';
+        if (t.includes('alphabet') && t.includes('ai')) return 'Alphabet拟融资加码人工智能建设';
+        if (t.includes('china') && t.includes('nvidia')) return '中国科技链尝试摆脱英伟达依赖';
         if (type === '资金行为') return '机构资金关注科技龙头';
         if (type === '供需/地缘') return '油价与地缘风险扰动';
         if (type === '宏观类') return '海外宏观数据影响利率预期';
