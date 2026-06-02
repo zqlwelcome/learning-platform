@@ -627,11 +627,12 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
     const wins = reviewed.filter(trade => trade.pnlPct > 0).length;
     const winRate = reviewed.length ? Math.round((wins / reviewed.length) * 100) : null;
     const avgPnl = reviewed.length ? reviewed.reduce((sum, trade) => sum + trade.pnlPct, 0) / reviewed.length : null;
+    const portfolio = getPaperPortfolioStats(trades);
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v1</div>
-            <div class="a-radar-copy">先用虚拟信号验证模型，不碰真实资金。每个信号按10个交易日观察，记录入场价、当前价、浮动收益和胜率。</div>
+            <div class="a-radar-kicker">模型模拟盘 v2</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓，严格看8%止损、10日复盘和止盈区间。</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -646,9 +647,25 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro) {
                 <span>平均收益</span>
                 <b>${avgPnl === null ? '待观察' : `${avgPnl >= 0 ? '+' : ''}${avgPnl.toFixed(2)}%`}</b>
             </div>
+            <div class="paper-score-card">
+                <span>虚拟权益</span>
+                <b>${formatMoney(portfolio.equity)}</b>
+            </div>
+            <div class="paper-score-card">
+                <span>总仓位</span>
+                <b>${portfolio.exposurePct.toFixed(0)}%</b>
+            </div>
+            <div class="paper-score-card">
+                <span>预警</span>
+                <b>${portfolio.alerts}</b>
+            </div>
         </div>
         <div class="a-flow-list">
-            <div class="a-flow-disclaimer">模拟盘会自动记录“观察池”标的，个股仍按监控处理。刚生成的信号需要等1日、3日、10日后才有复盘意义。</div>
+            <div class="paper-toolbar">
+                <span>纪律：单标的≤15%，权益≤70%，10日必须复盘。</span>
+                <button onclick="resetPaperTrades()">清空重测</button>
+            </div>
+            <div class="a-flow-disclaimer">模拟盘会自动记录“观察池”标的。刚生成的信号需要等1日、3日、10日后才有复盘意义；这里是模型验证，不是真实交易建议。</div>
             ${activeTrades.length ? activeTrades.map(renderPaperTradeCard).join('') : '<div class="a-flow-disclaimer">暂时没有可记录的模拟信号。模型没出手，也是一种纪律。</div>'}
         </div>
     `;
@@ -709,10 +726,11 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
                 name: target.name,
                 market: target.market,
                 kind: target.kind,
-                entryPrice: target.price,
-                eventTitle: card.title,
-                eventType: card.type,
-                score: card.score
+            entryPrice: target.price,
+            allocationPct: getPaperAllocationPct(target, card),
+            eventTitle: card.title,
+            eventType: card.type,
+            score: card.score
             });
         });
     });
@@ -736,7 +754,8 @@ function updatePaperTrades(candidates, quoteMap) {
             ...candidate,
             id,
             entryDate: today,
-            status: '观察中'
+            status: '观察中',
+            capital: 100000
         });
     });
 
@@ -745,12 +764,20 @@ function updatePaperTrades(candidates, quoteMap) {
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : null;
         const ageDays = Math.max(0, Math.floor((new Date(today) - new Date(trade.entryDate)) / 86400000));
+        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 });
+        const capital = trade.capital || 100000;
+        const entryValue = capital * (allocationPct / 100);
+        const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
         return {
             ...trade,
+            allocationPct,
+            capital,
+            entryValue,
+            currentValue,
             currentPrice,
             pnlPct,
             ageDays,
-            status: ageDays >= 10 ? '过期' : ageDays >= 3 ? '复盘中' : '观察中'
+            status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
         };
     });
 
@@ -758,9 +785,45 @@ function updatePaperTrades(candidates, quoteMap) {
     return trades;
 }
 
+function getPaperAllocationPct(target, card) {
+    if (target.kind === 'Stock') return card.score >= 7 ? 6 : 4;
+    return card.score >= 7 ? 10 : 8;
+}
+
+function getPaperTradeStatus(trade) {
+    if (typeof trade.pnlPct === 'number' && trade.pnlPct <= -8) return '止损警报';
+    if (typeof trade.pnlPct === 'number' && trade.score >= 7 && trade.pnlPct >= 18) return '止盈复盘';
+    if (typeof trade.pnlPct === 'number' && trade.score < 7 && trade.pnlPct >= 10) return '止盈复盘';
+    if (trade.ageDays >= 10) return '时间复盘';
+    if (trade.ageDays >= 3) return '复盘中';
+    return '观察中';
+}
+
+function getPaperPortfolioStats(trades) {
+    const active = trades.filter(trade => trade.status !== '过期');
+    const equity = active.reduce((sum, trade) => sum + (trade.currentValue || 0), 0);
+    const exposurePct = active.reduce((sum, trade) => sum + (trade.allocationPct || 0), 0);
+    const alerts = active.filter(trade => ['止损警报', '止盈复盘', '时间复盘'].includes(trade.status)).length;
+    return { equity: 100000 - active.reduce((sum, trade) => sum + (trade.entryValue || 0), 0) + equity, exposurePct, alerts };
+}
+
+function resetPaperTrades() {
+    localStorage.removeItem('paper_trade_signals_v1');
+    const target = document.getElementById('insight-paper');
+    const ctx = window._paperTradeContext || {};
+    if (target) {
+        target.innerHTML = buildPaperTradeHtml(ctx.hotNews || [], ctx.quoteMap || {}, ctx.macro || assessTradeMacroRegime(ctx.hotNews || []));
+    }
+}
+
+function formatMoney(value) {
+    return `¥${Math.round(value || 0).toLocaleString('zh-CN')}`;
+}
+
 function renderPaperTradeCard(trade) {
     const pnl = typeof trade.pnlPct === 'number' ? `${trade.pnlPct >= 0 ? '+' : ''}${trade.pnlPct.toFixed(2)}%` : '待行情';
     const pnlClass = typeof trade.pnlPct === 'number' && trade.pnlPct < 0 ? 'negative' : 'positive';
+    const statusClass = trade.status === '止损警报' ? 'negative' : ['止盈复盘', '时间复盘'].includes(trade.status) ? 'positive' : '';
     return `
         <div class="a-flow-item">
             <div class="a-flow-main" onclick="toggleFlowDetail(this)">
@@ -770,7 +833,8 @@ function renderPaperTradeCard(trade) {
             </div>
             <div class="a-flow-detail">
                 <div class="a-flow-explain">模型来源：${safeText(trade.eventType)} ${safeText(trade.score)}/10，来自“${safeText(trade.eventTitle)}”。</div>
-                <div class="a-flow-meaning">模拟记录：入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
+                <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
+                <div class="a-flow-meaning">状态：<span class="a-flow-change ${statusClass}">${safeText(trade.status)}</span></div>
                 <div class="a-flow-impact">复盘规则：1日看方向，3日看持续性，10日必须复盘退出；跌幅接近 -8% 视为模型警报。</div>
             </div>
         </div>
