@@ -2057,6 +2057,36 @@ body {
     font-size: 15px;
     color: var(--text);
 }
+.paper-phase-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin: 0 0 12px;
+}
+.paper-phase-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 9px;
+    background: var(--bg);
+}
+.paper-phase-card span {
+    display: block;
+    font-size: 11px;
+    color: var(--text3);
+    margin-bottom: 4px;
+}
+.paper-phase-card b {
+    display: block;
+    font-size: 14px;
+    color: var(--text);
+    margin-bottom: 2px;
+}
+.paper-phase-card small {
+    display: block;
+    color: var(--text2);
+    font-size: 10px;
+    line-height: 1.35;
+}
 .paper-lock {
     padding: 4px 0;
 }
@@ -2109,6 +2139,25 @@ body {
     padding: 6px 10px;
     font-size: 12px;
     white-space: nowrap;
+}
+.paper-checkpoints {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 6px 0;
+}
+.paper-checkpoints span {
+    border-radius: 999px;
+    background: var(--tag-bg);
+    color: var(--text2);
+    padding: 3px 8px;
+    font-size: 11px;
+}
+.paper-checkpoints span.positive {
+    color: var(--green);
+}
+.paper-checkpoints span.negative {
+    color: var(--red);
 }
 .a-bars { display: flex; gap: 3px; margin-top: 14px; }
 .a-bar { flex: 1; height: 4px; border-radius: 2px; background: var(--bg2); }
