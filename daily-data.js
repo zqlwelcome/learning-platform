@@ -9,59 +9,60 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-06-02 16:16",
+    "updateTime": "2026-06-02 20:25",
     "mood": {
-        "mood": "谨慎乐观，结构性分化明显",
-        "icon": "😐",
+        "mood": "谨慎乐观，AI主导结构性行情",
+        "icon": "🤔",
         "color": "#FFA500",
-        "confidence": 6,
+        "confidence": 7,
         "dimensions": [
             {
                 "label": "📈 趋势",
-                "value": "全球股市短期反弹，欧洲受通胀数据预期提振，港股科技股强势上涨，但美股因通胀与加息预期承压，趋势分化。"
+                "value": "AI硬件与芯片股持续走强，英伟达、Arm等龙头引领，但软件股回调，显示资金向基础设施端集中。IPO市场萎缩，承销格局洗牌，反映一级市场融资环境收紧。"
             },
             {
                 "label": "💰 资金",
-                "value": "资金流向科技与AI领域，Alphabet计划发债800亿，SpaceX和OpenAI巨额IPO引发虹吸效应；印度央行抛售黄金救汇，避险资金流出贵金属。"
+                "value": "Alphabet计划通过股票销售融资800亿美元投入AI，显示巨头不惜代价加码。外资对印度股市净投资降至近十年低点，资金从新兴市场回流美国科技股趋势明显。"
             },
             {
                 "label": "🌍 地缘",
-                "value": "美国对巴西加征关税威胁贸易摩擦升级，中国自主芯片研发加速（去Nvidia化），地缘风险加剧供应链不确定性。"
+                "value": "中东地缘忧虑被AI乐观情绪对冲，全球股市反弹，表明市场暂时将地缘风险置于次要位置，但需警惕突发黑天鹅事件。"
             },
             {
                 "label": "🏭 热点",
-                "value": "AI与软件股成淘金热点（腾讯AI助手、Alphabet投资），但生物科技（Abivax）和传统能源受冷落；高股息股受避险资金青睐。"
+                "value": "AI基础设施（芯片、服务器）是绝对热点，英伟达PC芯片、Arm营收目标均获认可。维密因业绩超预期大涨40%，消费板块有局部亮点，但非持续性主线。"
             },
             {
                 "label": "😊 情绪",
-                "value": "市场情绪复杂：港股科技股大涨提振信心，但通胀担忧和地缘风险压制乐观情绪，投资者在风险与避险间摇摆。"
+                "value": "市场情绪偏向乐观，AI叙事持续吸引风险偏好。但软件股下跌与IPO撤单暗示资金更务实，追逐确定性盈利而非概念炒作。"
             },
             {
                 "label": "🏦 宏观",
-                "value": "通胀数据与加息预期主导宏观面，PIMCO强调非AI驱动；印度抛售黄金显示新兴市场外汇压力，全球流动性收紧隐忧犹存。"
+                "value": "Pimco指出AI未形成久期供给冲击，美债收益率仍受货币政策预期驱动，暗示利率环境短期稳定，有利于成长股估值。"
             }
         ],
-        "summary": "今日市场呈现结构性反弹与避险情绪交织，科技与AI领域获资金追捧，但通胀、地缘和外汇风险压制整体信心，投资者需在分化中寻找确定性机会。"
+        "summary": "整体市场情绪为谨慎乐观。AI硬件投资热潮是核心驱动力，但资金分化明显：一线芯片股受追捧，而软件、IPO及部分新兴市场遭冷落。投资者需聚焦于有实际营收支撑的AI产业链，同时警惕估值泡沫与地缘风险。"
     },
     "experts": {
         "templeton": {
-            "insight": "邓普顿视角：当前市场悲观情绪过度集中于通胀和地缘风险，正如我在‘极度悲观时买入’的箴言。欧洲股市反弹显示超卖后的价值回归，印度抛售黄金恰是新兴市场危机的信号，但危机中孕育机遇。AI和软件股（如腾讯、Alphabet）的资本开支激增，反映长期增长逻辑，短期波动正是逆向布局良机。",
-            "action": "建议逢低买入优质科技股，如腾讯和Alphabet，同时关注印度抛售黄金后的新兴市场错杀机会，分散投资于亚洲科技与欧洲价值股。"
+            "insight": "邓普顿会强调在市场极度乐观时保持警惕。AI芯片股（如英伟达、Arm）的暴涨已反映未来数年预期，而维密等消费股的超预期反弹可能被忽视。中东地缘忧虑虽被对冲，但随时可能逆转。他建议寻找被低估的领域，例如因AI资金虹吸而低迷的软件股，或印度等新兴市场的错杀机会。",
+            "action": "减持已大幅上涨的AI硬件股，分批建仓被超卖的软件股和新兴市场ETF，利用恐慌时买入的逆向策略。"
         },
         "buffett": {
-            "insight": "巴菲特视角：投资的核心是护城河与现金流。腾讯大涨10%源于其AI助手和生态优势，类似可口可乐的品牌壁垒；Alphabet发债800亿投资AI，体现其资本配置能力。但印度抛售黄金和贸易关税提醒我，宏观不确定性需用安全边际对冲。我更偏好高股息股票（如新闻中提及），它们能穿越波动。",
-            "action": "持有腾讯、Alphabet等护城河深厚的公司，增持高股息蓝筹股，避免杠杆，保留现金以应对关税和通胀引发的市场回调。"
+            "insight": "巴菲特会关注企业的护城河与资本配置。Alphabet计划融资800亿美元投入AI，虽显示决心，但巨额资本支出需长期回报验证。他更偏爱现金流强劲、商业模式简单的公司，如维密因业绩改善而飙升，但需确认可持续性。英伟达的PC芯片战略是“在每层AI堆栈获胜”的尝试，但竞争激烈。",
+            "action": "持有苹果、Alphabet等现金流优异的公司，不追高AI芯片股，关注维密等消费龙头在低价位的长期价值。"
         },
         "munger": {
-            "insight": "芒格视角：避免愚蠢比追求聪明更重要。SpaceX和OpenAI的万亿IPO是‘热门效应’的典型，多数投资者会亏钱；PIMCO指出美债收益率上行非AI驱动，提醒我们不要混淆相关性与因果。腾讯的AI助手‘右滑’是创新，但需警惕估值泡沫。印度央行抛售黄金是恐慌行为，而理性投资者应远离噪音。",
-            "action": "不追逐AI IPO热潮，减持涨幅过大的科技股，买入被低估的防御性资产（如能源和消费必需品），保持简单和耐心。"
+            "insight": "芒格会嘲笑市场的短视行为。AI芯片股的热潮让他想起互联网泡沫，许多公司（如Arm）营收目标提前实现，但竞争格局未稳。IPO撤单和承销格局变化是市场健康度下降的信号。他主张避开“难懂”的科技股，坚持投资于自己能理解的简单生意。",
+            "action": "远离热门AI股，增持保险、消费品等传统行业龙头，保持现金，等待泡沫破裂后的买入机会。"
         },
         "duan": {
-            "insight": "段永平视角：做对的事，把事做对。腾讯大涨是长期价值的体现，其AI助手‘右滑’类似当年微信的微创新，我继续看好其用户粘性。Alphabet发债投资AI是正确战略，但需关注执行。印度抛售黄金和关税是短期扰动，不影响优质公司的长期逻辑。投资要‘敢为天下后’，在确定性中下重注。",
-            "action": "继续持有并加仓腾讯，关注Alphabet的中长期AI布局；忽略短期地缘和通胀噪音，不参与SpaceX等未盈利IPO，聚焦现金流强劲的科技龙头。"
+            "insight": "段永平会从商业本质和用户需求出发。英伟达PC芯片和Arm营收目标符合AI普及趋势，但他更看重产品落地和用户体验。Alphabet融资建AI基础设施是正确方向，但需警惕过度投资。维密业绩反弹说明好产品永远有市场。他建议关注有持续创新能力的公司，而非短期炒作。",
+            "action": "逢低买入英伟达、苹果等有长期竞争力的公司，持有Alphabet，对维密保持观察，不参与无业绩的AI概念股。"
         }
     }
 };
+
 
 
 
@@ -501,28 +502,66 @@ function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
             <div class="a-radar-copy">不是看谁今天最吵，而是看资金正在交易哪条主线：利率、AI、黄金、港股科技、A股政策，还是能源风险。</div>
         </div>
         <div class="a-sector-list">
-            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；只用于观察热钱方向。</div>
-            ${sectors.map((sector, index) => renderSectorHeatCard(sector, index)).join('')}
-        </div>
-    `;
-}
-
-function renderSectorHeatCard(sector, index) {
-    const directionClass = sector.bias === '降温' ? 'down' : 'up';
-    return `
-        <div class="a-sector-item ${directionClass}">
-            <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                <span class="a-sector-rank">${index + 1}</span>
-                <span class="a-sector-name">${safeText(sector.name)}</span>
-                <span class="a-sector-change">${safeText(sector.bias)} ${sector.score}</span>
-            </div>
-            <div class="a-sector-detail">
-                <div class="a-sector-explain">资金在看：${safeText(sector.watch)}</div>
-                <div class="a-sector-reason">交易员逻辑：${safeText(sector.reason)}</div>
-                <div class="a-sector-impact">小白翻译：${safeText(sector.beginner)}</div>
-                <div class="a-target-list">
-                    <span>可跟踪</span>
-                    ${sector.targets.map(target => renderTargetBadge(target)).join('')}
+                    <div class="a-sector-item up">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">1</span>
+                            <span class="a-sector-name">电力板块</span>
+                            <span class="a-sector-change">+3.2%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 电力发电、输电、配电公司</div>
+                            <div class="a-sector-reason">🔍 原因：夏季用电高峰+新能源政策</div>
+                            <div class="a-sector-impact">💡 参考：防御性板块，适合稳健型投资者</div>
+                        </div>
+                    </div>
+                    <div class="a-sector-item up">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">2</span>
+                            <span class="a-sector-name">白酒板块</span>
+                            <span class="a-sector-change">+2.8%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 白酒酿造和销售公司</div>
+                            <div class="a-sector-reason">🔍 原因：消费复苏+茅台效应</div>
+                            <div class="a-sector-impact">💡 参考：高端消费品，受经济周期影响大</div>
+                        </div>
+                    </div>
+                    <div class="a-sector-item up">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">3</span>
+                            <span class="a-sector-name">超级电容</span>
+                            <span class="a-sector-change">+2.1%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 超级电容器技术公司</div>
+                            <div class="a-sector-reason">🔍 原因：新能源储能需求增长</div>
+                            <div class="a-sector-impact">💡 参考：成长性板块，波动较大</div>
+                        </div>
+                    </div>
+                    <div class="a-sector-item down">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">4</span>
+                            <span class="a-sector-name">半导体设备</span>
+                            <span class="a-sector-change">-4.5%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 芯片制造设备公司</div>
+                            <div class="a-sector-reason">🔍 原因：行业周期调整+估值回归</div>
+                            <div class="a-sector-impact">💡 参考：长期看好但短期可能继续调整</div>
+                        </div>
+                    </div>
+                    <div class="a-sector-item down">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">5</span>
+                            <span class="a-sector-name">算力概念</span>
+                            <span class="a-sector-change">-3.8%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 AI计算能力相关公司</div>
+                            <div class="a-sector-reason">🔍 原因：前期涨幅过大+获利回吐</div>
+                            <div class="a-sector-impact">💡 参考：AI长期趋势不变，短期需消化估值</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
