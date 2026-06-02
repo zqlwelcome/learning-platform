@@ -145,7 +145,10 @@ async function renderSummaryContent() {
     const moodData = _EMBEDDED_DATA.mood;
     const expertsData = _EMBEDDED_DATA.experts;
     const briefingData = await loadBriefingData();
-    const tradePoolHtml = await buildAutoTradePoolHtml(briefingData.hotNews || []);
+    const quoteMap = await loadTradeQuoteMap();
+    const macro = assessTradeMacroRegime(briefingData.hotNews || []);
+    const tradePoolHtml = await buildAutoTradePoolHtml(briefingData.hotNews || [], quoteMap, macro);
+    const sectorHeatHtml = buildSectorHeatHtml(briefingData.hotNews || [], briefingData.globalFlow || {}, quoteMap, macro);
     window._expertsData = expertsData;
     
     const conf = Math.min(10, Math.max(0, moodData.confidence || 5));
@@ -268,68 +271,7 @@ async function renderSummaryContent() {
             
             <!-- 板块轮动内容 -->
             <div class="a-insights-content" id="insight-sector">
-                <div class="a-sector-list">
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">1</span>
-                            <span class="a-sector-name">电力板块</span>
-                            <span class="a-sector-change">+3.2%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 电力发电、输电、配电公司</div>
-                            <div class="a-sector-reason">🔍 原因：夏季用电高峰+新能源政策</div>
-                            <div class="a-sector-impact">💡 参考：防御性板块，适合稳健型投资者</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">2</span>
-                            <span class="a-sector-name">白酒板块</span>
-                            <span class="a-sector-change">+2.8%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 白酒酿造和销售公司</div>
-                            <div class="a-sector-reason">🔍 原因：消费复苏+茅台效应</div>
-                            <div class="a-sector-impact">💡 参考：高端消费品，受经济周期影响大</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">3</span>
-                            <span class="a-sector-name">超级电容</span>
-                            <span class="a-sector-change">+2.1%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 超级电容器技术公司</div>
-                            <div class="a-sector-reason">🔍 原因：新能源储能需求增长</div>
-                            <div class="a-sector-impact">💡 参考：成长性板块，波动较大</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item down">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">4</span>
-                            <span class="a-sector-name">半导体设备</span>
-                            <span class="a-sector-change">-4.5%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 芯片制造设备公司</div>
-                            <div class="a-sector-reason">🔍 原因：行业周期调整+估值回归</div>
-                            <div class="a-sector-impact">💡 参考：长期看好但短期可能继续调整</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item down">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">5</span>
-                            <span class="a-sector-name">算力概念</span>
-                            <span class="a-sector-change">-3.8%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 AI计算能力相关公司</div>
-                            <div class="a-sector-reason">🔍 原因：前期涨幅过大+获利回吐</div>
-                            <div class="a-sector-impact">💡 参考：AI长期趋势不变，短期需消化估值</div>
-                        </div>
-                    </div>
-                </div>
+                ${sectorHeatHtml}
             </div>
         </div>
     `;
@@ -489,9 +431,9 @@ function getForwardRadarHtml() {
     `).join('')}</div>`;
 }
 
-async function buildAutoTradePoolHtml(hotNews) {
-    const quoteMap = await loadTradeQuoteMap();
-    const macro = assessTradeMacroRegime(hotNews || []);
+async function buildAutoTradePoolHtml(hotNews, quoteMap = null, macro = null) {
+    quoteMap = quoteMap || await loadTradeQuoteMap();
+    macro = macro || assessTradeMacroRegime(hotNews || []);
     const cards = uniqueTradeCards((hotNews || [])
         .map(news => scoreTradeEvent(news, quoteMap, macro))
         .filter(item => item.score >= 4)
@@ -533,6 +475,138 @@ async function buildAutoTradePoolHtml(hotNews) {
             <div class="a-flow-disclaimer">自动交易池 v5 按交易模型执行：事件分数低于4过滤；美股、港股、A股同池评分；优先ETF/基金验证方向；个股因财报排雷与估值分位未完全接入，默认只进监控池。以下不是无条件买入清单。</div>
         </div>
     `;
+}
+
+function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
+    const text = (hotNews || []).map(n => `${n.title || ''} ${n.detail || ''} ${n.summary || ''}`).join(' ').toLowerCase();
+    const indices = globalFlow?.indices || {};
+    const sectors = getSectorProfiles().map(profile => scoreSectorProfile(profile, text, indices, quoteMap, macro))
+        .filter(item => item.score >= 35)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 6);
+
+    return `
+        <div class="a-radar-intro">
+            <div class="a-radar-kicker">全球热钱板块雷达</div>
+            <div class="a-radar-copy">不是看谁今天最吵，而是看资金正在交易哪条主线：利率、AI、黄金、港股科技、A股政策，还是能源风险。</div>
+        </div>
+        <div class="a-sector-list">
+            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；只用于观察热钱方向。</div>
+            ${sectors.map((sector, index) => renderSectorHeatCard(sector, index)).join('')}
+        </div>
+    `;
+}
+
+function renderSectorHeatCard(sector, index) {
+    const directionClass = sector.bias === '降温' ? 'down' : 'up';
+    return `
+        <div class="a-sector-item ${directionClass}">
+            <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                <span class="a-sector-rank">${index + 1}</span>
+                <span class="a-sector-name">${safeText(sector.name)}</span>
+                <span class="a-sector-change">${safeText(sector.bias)} ${sector.score}</span>
+            </div>
+            <div class="a-sector-detail">
+                <div class="a-sector-explain">资金在看：${safeText(sector.watch)}</div>
+                <div class="a-sector-reason">交易员逻辑：${safeText(sector.reason)}</div>
+                <div class="a-sector-impact">小白翻译：${safeText(sector.beginner)}</div>
+                <div class="a-target-list">
+                    <span>可跟踪</span>
+                    ${sector.targets.map(target => renderTargetBadge(target)).join('')}
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+function getSectorProfiles() {
+    return [
+        {
+            name: '港股科技 / 中国资产',
+            themes: ['hk-tech', 'china-beta'],
+            keywords: /港股|恒指|恒生|科指|腾讯|阿里|美团|中国资产|china|hong kong/,
+            watch: '南向资金、恒生科技、腾讯/阿里/美团，以及人民币风险偏好。',
+            reason: '港股弹性大，全球资金一旦重新相信中国资产，通常先冲流动性好的互联网和恒生科技。',
+            beginner: '这条线像“便宜但脾气大”的资产，涨起来快，回撤也不客气。'
+        },
+        {
+            name: '人工智能 / 算力 / 半导体',
+            themes: ['ai', 'semiconductor', 'a-tech', 'infrastructure'],
+            keywords: /人工智能|算力|芯片|半导体|数据中心|openai|spacex|alphabet|nvidia|\bai\b/,
+            watch: '美股AI龙头、港股科网、A股芯片ETF，以及数据中心资本开支。',
+            reason: '热钱仍在交易AI资本开支，但利率上行会压估值，所以现在更适合看强弱分化。',
+            beginner: 'AI不是没人看了，是大家开始挑“真能赚钱的AI”。'
+        },
+        {
+            name: '黄金 / 避险资产',
+            themes: ['gold', 'cash'],
+            keywords: /黄金|储备资产|央行|外汇储备|gold|reserve/,
+            watch: '黄金ETF、短债、央行储备变化，以及美元和实际利率。',
+            reason: '当黄金替代美债成为储备叙事时，资金交易的是信任迁移和避险需求。',
+            beginner: '大家不是突然爱金子，是对纸面信用有点不放心。'
+        },
+        {
+            name: '利率 / 美债 / 现金底仓',
+            themes: ['bond', 'cash'],
+            keywords: /美债|收益率|通胀|加息|降息|pimco|inflation|yield|fed/,
+            watch: '短债ETF、长债ETF、美元、美股成长股估值。',
+            reason: '利率是全球资产的总水阀，收益率上行会压制成长股，收益率下行才利好风险资产。',
+            beginner: '水龙头拧紧，市场就没那么好蹦跶。'
+        },
+        {
+            name: '能源 / 原油 / 地缘风险',
+            themes: ['energy', 'oil'],
+            keywords: /原油|油价|能源|伊朗|霍尔木兹|中东|战争|oil|iran|hormuz/,
+            watch: '原油基金、能源ETF、通胀预期和航运/供应链风险。',
+            reason: '油价上行会同时推升能源利润和通胀担忧，交易方向要看是供给冲击还是需求复苏。',
+            beginner: '油价涨，有人赚钱，也有人因为通胀被市场打一巴掌。'
+        },
+        {
+            name: 'A股科技 / 机器人 / 国产替代',
+            themes: ['a-tech', 'china-tech', 'semiconductor'],
+            keywords: /a股|科创|机器人|宇树|国产替代|中芯|芯片|nvidia alternatives/,
+            watch: '芯片ETF、中芯国际、宁德/比亚迪产业链和政策催化。',
+            reason: 'A股科技更吃政策和主题确认，热钱会看国产替代是否从故事变成订单。',
+            beginner: '这条线不能只听故事，要看订单和成交量有没有一起上桌。'
+        },
+        {
+            name: '高股息 / 防守现金流',
+            themes: ['quality', 'a-financial', 'cash'],
+            keywords: /股息|红利|dividend|volatility|现金流|银行|保险/,
+            watch: '高股息、银行保险、短债和现金流稳定资产。',
+            reason: '当波动率上升或风险偏好下降时，资金会回到能分红、能活下来的资产。',
+            beginner: '市场害怕时，会先找“饭碗稳”的公司。'
+        }
+    ];
+}
+
+function scoreSectorProfile(profile, text, indices, quoteMap, macro) {
+    let score = 30;
+    if (profile.keywords.test(text)) score += 28;
+    if (macro.aiCapex && profile.themes.some(t => ['ai', 'semiconductor', 'infrastructure', 'hk-tech', 'a-tech'].includes(t))) score += 12;
+    if (macro.chinaSupport && profile.themes.some(t => ['china-beta', 'hk-tech', 'a-tech', 'china-tech'].includes(t))) score += 12;
+    if (macro.oilShock && profile.themes.some(t => ['oil', 'energy', 'gold'].includes(t))) score += 14;
+    if (macro.rateUp && profile.themes.some(t => ['bond', 'cash', 'gold', 'quality'].includes(t))) score += 10;
+    if (macro.riskOff && profile.themes.some(t => ['gold', 'cash', 'quality'].includes(t))) score += 10;
+    if (Number(indices.hkHSI?.change || 0) > 1 && profile.themes.includes('hk-tech')) score += 10;
+    if (Number(indices.sh000001?.change || 0) > 0.3 && profile.themes.includes('china-beta')) score += 6;
+
+    const targets = getTradeCandidateUniverse()
+        .filter(target => target.themes.some(theme => profile.themes.includes(theme)))
+        .map(target => scoreTradeTarget(attachQuote(target, quoteMap || {}), { type: '板块', marketBias: [] }, macro))
+        .filter(target => target.modelScore >= 0)
+        .sort((a, b) => b.modelScore - a.modelScore);
+    const picked = diversifyTradeTargets(targets, 4, '板块');
+    const hot = picked.filter(t => typeof t.pct === 'number' && t.pct > 2).length;
+    const overheated = picked.some(t => typeof t.pct === 'number' && t.pct > 5 || typeof t.fiveDayPct === 'number' && t.fiveDayPct > 8);
+    score += Math.min(12, hot * 4);
+
+    return {
+        ...profile,
+        score: Math.min(99, Math.round(score)),
+        bias: overheated ? '过热' : score >= 70 ? '升温' : '观察',
+        targets: picked
+    };
 }
 
 function uniqueTradeCards(cards) {
@@ -935,9 +1009,9 @@ function fbFeedback(expert, type) {
 // ===== 工具函数 =====
 async function loadBriefingData() {
     try {
-        const [n, a] = await Promise.all([xhrFetch('data/hot-news.json'), xhrFetch('data/alerts.json')]);
-        return { hotNews: n?.news || [], alerts: a || null };
-    } catch(e) { return { hotNews: [], alerts: null }; }
+        const [n, a, g] = await Promise.all([xhrFetch('data/hot-news.json'), xhrFetch('data/alerts.json'), xhrFetch('data/global-flow.json')]);
+        return { hotNews: n?.news || [], alerts: a || null, globalFlow: g || null };
+    } catch(e) { return { hotNews: [], alerts: null, globalFlow: null }; }
 }
 
 function xhrFetch(url) {
