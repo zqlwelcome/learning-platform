@@ -678,7 +678,7 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
 
 function refreshPaperTradesForDisplay(trades, quoteMap) {
     const today = new Date().toISOString().slice(0, 10);
-    return (trades || []).map(trade => {
+    const refreshed = (trades || []).map(trade => {
         const quote = quoteMap?.[trade.symbol] || {};
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : trade.pnlPct;
@@ -699,6 +699,7 @@ function refreshPaperTradesForDisplay(trades, quoteMap) {
             status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
         };
     });
+    return applyPaperRiskControls(refreshed);
 }
 
 function getPaperTradeGateHtml() {
@@ -812,9 +813,34 @@ function updatePaperTrades(candidates, quoteMap) {
             status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
         };
     });
+    trades = applyPaperRiskControls(trades);
 
     localStorage.setItem(key, JSON.stringify(trades));
     return trades;
+}
+
+function applyPaperRiskControls(trades) {
+    const maxExposure = 70;
+    let exposure = 0;
+    const activeIds = new Set();
+    const oldestFirst = [...trades].sort((a, b) => {
+        const dateDiff = new Date(a.entryDate) - new Date(b.entryDate);
+        return dateDiff || String(a.id || '').localeCompare(String(b.id || ''));
+    });
+
+    oldestFirst.forEach(trade => {
+        if (trade.status === '过期') return;
+        const allocation = Math.min(15, Number(trade.allocationPct || 0));
+        if (exposure + allocation <= maxExposure) {
+            exposure += allocation;
+            activeIds.add(trade.id);
+        }
+    });
+
+    return trades.map(trade => {
+        if (trade.status === '过期' || activeIds.has(trade.id)) return trade;
+        return { ...trade, status: '仓位等待', currentValue: 0, entryValue: 0 };
+    });
 }
 
 function getPaperAllocationPct(target, card) {
@@ -877,7 +903,7 @@ function renderPaperPhaseCard(phase) {
 }
 
 function getPaperPortfolioStats(trades) {
-    const active = trades.filter(trade => trade.status !== '过期');
+    const active = trades.filter(isPaperTradeActive);
     const equity = active.reduce((sum, trade) => sum + (trade.currentValue || 0), 0);
     const exposurePct = active.reduce((sum, trade) => sum + (trade.allocationPct || 0), 0);
     const alerts = active.filter(trade => ['止损警报', '止盈复盘', '时间复盘'].includes(trade.status)).length;
@@ -891,6 +917,10 @@ function resetPaperTrades() {
     if (target) {
         target.innerHTML = buildPaperTradeHtml(ctx.hotNews || [], ctx.quoteMap || {}, ctx.macro || assessTradeMacroRegime(ctx.hotNews || []), null);
     }
+}
+
+function isPaperTradeActive(trade) {
+    return !['过期', '仓位等待'].includes(trade.status);
 }
 
 function formatMoney(value) {
