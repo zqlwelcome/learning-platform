@@ -2120,6 +2120,29 @@ body {
     font-size: 12px;
     margin-bottom: 8px;
 }
+.paper-playbook {
+    display: grid;
+    gap: 7px;
+    margin: 10px 0;
+}
+.paper-playbook div {
+    background: var(--bg2);
+    border-radius: 8px;
+    padding: 9px 10px;
+}
+.paper-playbook span {
+    display: block;
+    color: var(--text3);
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+.paper-playbook b {
+    display: block;
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.55;
+}
 .paper-toolbar {
     display: flex;
     align-items: center;

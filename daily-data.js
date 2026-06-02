@@ -939,6 +939,7 @@ function renderPaperTradeCard(trade) {
     const pnlClass = typeof trade.pnlPct === 'number' && trade.pnlPct < 0 ? 'negative' : 'positive';
     const statusClass = trade.status === '止损警报' ? 'negative' : ['止盈复盘', '时间复盘'].includes(trade.status) ? 'positive' : '';
     const checkpoints = renderPaperCheckpointBadges(trade);
+    const playbook = getPaperTradePlaybook(trade);
     return `
         <div class="a-flow-item">
             <div class="a-flow-main" onclick="toggleFlowDetail(this)">
@@ -950,11 +951,44 @@ function renderPaperTradeCard(trade) {
                 <div class="a-flow-explain">模型来源：${safeText(trade.eventType)} ${safeText(trade.score)}/10，来自“${safeText(trade.eventTitle)}”。</div>
                 <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
                 <div class="a-flow-meaning">状态：<span class="a-flow-change ${statusClass}">${safeText(trade.status)}</span></div>
+                <div class="paper-playbook">
+                    <div><span>入场逻辑</span><b>${safeText(playbook.entry)}</b></div>
+                    <div><span>等待原因</span><b>${safeText(playbook.wait)}</b></div>
+                    <div><span>退出纪律</span><b>${safeText(playbook.exit)}</b></div>
+                </div>
                 <div class="paper-checkpoints">${checkpoints}</div>
                 <div class="a-flow-impact">复盘规则：1日看方向，3日看持续性，10日必须复盘退出；跌幅接近 -8% 视为模型警报。</div>
             </div>
         </div>
     `;
+}
+
+function getPaperTradePlaybook(trade) {
+    const pnl = typeof trade.pnlPct === 'number' ? trade.pnlPct : 0;
+    const score = Number(trade.score || 0);
+    const isWaiting = trade.status === '仓位等待';
+    const isAlert = trade.status === '止损警报';
+    const isTakeProfit = trade.status === '止盈复盘';
+    const isTimeReview = trade.status === '时间复盘';
+    const eventLabel = trade.eventType || '事件';
+    const strength = score >= 8 ? '高分' : score >= 6 ? '中高分' : '普通';
+
+    let entry = `${eventLabel}${strength}信号，先用${trade.kind === 'ETF' ? 'ETF验证方向' : '小仓位监控个股'}，不把新闻热闹直接当买点。`;
+    if (trade.eventTitle) entry = `${entry} 触发点：${trade.eventTitle}`;
+
+    let wait = '等待价格继续确认：1日看方向，3日看资金是否持续，没放量就不加码。';
+    if (isWaiting) wait = '模型方向认可，但组合总仓位接近70%纪律线，先排队，不为了“看起来有机会”硬挤进去。';
+    if (score < 7) wait = '信号分数还没到强确认，适合观察，不适合重仓冲动。';
+    if (typeof trade.pnlPct === 'number' && pnl > 0) wait = '已有浮盈，重点从“能不能买”切换到“利润能不能守住”。';
+    if (typeof trade.pnlPct === 'number' && pnl < 0) wait = '方向暂时不顺，先看是否跌到止损线，不用急着摊平。';
+
+    let exit = score >= 7 ? '强信号目标：盈利接近18%复盘止盈；亏损到-8%触发止损；第10日无论盈亏都复盘。' : '普通信号目标：盈利接近10%复盘止盈；亏损到-8%触发止损；第10日必须给结论。';
+    if (isAlert) exit = '已触发止损警报：模型验证应先退出或降仓，保住本金比证明自己聪明重要。';
+    if (isTakeProfit) exit = '已到止盈复盘区：先锁定成果，再判断是否用更小仓位继续跟踪。';
+    if (isTimeReview) exit = '已到10日窗口：如果没有明显优势，模型应退出，把资金还给更强信号。';
+    if (isWaiting) exit = '未真正占用虚拟仓位，等组合释放仓位后才开始计算完整交易周期。';
+
+    return { entry, wait, exit };
 }
 
 function renderPaperCheckpointBadges(trade) {
