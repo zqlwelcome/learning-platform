@@ -260,8 +260,8 @@ async function renderSummaryContent() {
             <!-- 交易池情报内容 -->
             <div class="a-insights-content" id="insight-flow">
                 <div class="a-radar-intro">
-                    <div class="a-radar-kicker">自动交易池 v4</div>
-                    <div class="a-radar-copy">新闻事件自动进模型，叠加实时涨跌、成交额、5日趋势和热度过滤；单股财报排雷未通过前只进监控。</div>
+                    <div class="a-radar-kicker">自动交易池 v5</div>
+                    <div class="a-radar-copy">新闻事件自动进模型，覆盖美股、港股、A股，叠加实时涨跌、成交额、5日趋势和热度过滤；单股财报排雷未通过前只进监控。</div>
                 </div>
                 ${tradePoolHtml}
             </div>
@@ -530,7 +530,7 @@ async function buildAutoTradePoolHtml(hotNews) {
                     <div class="a-flow-impact">小白翻译：这个模型不是为了天天买，而是为了只在事件窗口里做有纪律的下注。</div>
                 </div>
             </div>
-            <div class="a-flow-disclaimer">自动交易池 v4 按交易模型执行：事件分数低于4过滤；优先ETF/基金验证方向；个股因财报排雷与估值分位未完全接入，默认只进监控池。以下不是无条件买入清单。</div>
+            <div class="a-flow-disclaimer">自动交易池 v5 按交易模型执行：事件分数低于4过滤；美股、港股、A股同池评分；优先ETF/基金验证方向；个股因财报排雷与估值分位未完全接入，默认只进监控池。以下不是无条件买入清单。</div>
         </div>
     `;
 }
@@ -623,10 +623,10 @@ function assessTradeMacroRegime(hotNews) {
 function selectTradeTargets(profile, quoteMap, macro) {
     const typeThemes = {
         '政策类': ['china-beta', 'broker', 'china-tech', 'consumer'],
-        '资金行为': ['ai', 'semiconductor', 'us-growth', 'software', 'infrastructure'],
+        '资金行为': ['ai', 'semiconductor', 'us-growth', 'software', 'infrastructure', 'hk-tech', 'a-tech'],
         '供需/地缘': ['energy', 'oil', 'gold', 'defense', 'cash'],
-        '宏观类': ['bond', 'cash', 'gold', 'us-growth', 'china-beta'],
-        '基本面类': ['broad-us', 'quality', 'china-beta']
+        '宏观类': ['bond', 'cash', 'gold', 'us-growth', 'china-beta', 'hk-beta'],
+        '基本面类': ['broad-us', 'quality', 'china-beta', 'hk-beta', 'consumer']
     };
     const allowedThemes = typeThemes[profile.type] || typeThemes['基本面类'];
     const ranked = getTradeCandidateUniverse()
@@ -634,7 +634,31 @@ function selectTradeTargets(profile, quoteMap, macro) {
         .map(target => scoreTradeTarget(attachQuote(target, quoteMap), profile, macro))
         .filter(target => target.modelScore >= 0)
         .sort((a, b) => b.modelScore - a.modelScore);
-    return ranked.slice(0, 4);
+    return diversifyTradeTargets(ranked, 4, profile.type);
+}
+
+function diversifyTradeTargets(ranked, limit, eventType) {
+    const result = [];
+    const used = new Set();
+    ['美股', '港股', 'A股'].forEach(market => {
+        const item = ranked.find(target => target.market === market && !used.has(target.symbol));
+        if (item) {
+            result.push(item);
+            used.add(item.symbol);
+        }
+    });
+    ranked.forEach(target => {
+        if (result.length >= limit || used.has(target.symbol)) return;
+        result.push(target);
+        used.add(target.symbol);
+    });
+    const hasStock = result.some(target => target.kind === 'Stock');
+    const stockCandidate = ranked.find(target => target.kind === 'Stock' && !used.has(target.symbol));
+    if (!hasStock && stockCandidate && eventType !== '宏观类' && result.length >= limit) {
+        const replaceIndex = result.findIndex(target => target.kind === 'ETF' && target.modelScore < stockCandidate.modelScore + 16);
+        if (replaceIndex >= 0) result[replaceIndex] = stockCandidate;
+    }
+    return result.slice(0, limit);
 }
 
 function scoreTradeTarget(target, profile, macro) {
@@ -659,6 +683,9 @@ function scoreTradeTarget(target, profile, macro) {
         if (target.kind === 'Stock') modelScore -= 10;
     }
     if (macro.chinaSupport && (hasTheme('china-beta') || hasTheme('consumer') || hasTheme('broker'))) modelScore += 8;
+    if (profile.marketBias?.includes(target.market)) modelScore += 10;
+    if (target.market === '港股' && (hasTheme('hk-tech') || hasTheme('china-beta')) && macro.chinaSupport) modelScore += 6;
+    if (target.market === 'A股' && (hasTheme('a-tech') || hasTheme('consumer') || hasTheme('a-financial')) && macro.chinaSupport) modelScore += 6;
 
     if (typeof target.pct === 'number' && target.pct > 4) modelScore -= 18;
     if (typeof target.pct === 'number' && target.pct < -5) modelScore -= 12;
@@ -675,34 +702,50 @@ function scoreTradeTarget(target, profile, macro) {
 
 function getTradeCandidateUniverse() {
     return [
-        { name: '纳指100ETF', code: 'QQQ', symbol: 'usQQQ', kind: 'ETF', themes: ['us-growth', 'ai', 'broad-us'] },
-        { name: '半导体ETF', code: 'SMH', symbol: 'usSMH', kind: 'ETF', themes: ['semiconductor', 'ai'] },
-        { name: '科技精选ETF', code: 'XLK', symbol: 'usXLK', kind: 'ETF', themes: ['us-growth', 'software', 'ai'] },
-        { name: '标普500ETF', code: 'SPY', symbol: 'usSPY', kind: 'ETF', themes: ['broad-us', 'quality'] },
-        { name: '能源ETF', code: 'XLE', symbol: 'usXLE', kind: 'ETF', themes: ['energy'] },
-        { name: '美国原油基金', code: 'USO', symbol: 'usUSO', kind: 'ETF', themes: ['oil'] },
-        { name: '黄金ETF', code: 'GLD', symbol: 'usGLD', kind: 'ETF', themes: ['gold'] },
-        { name: '长债ETF', code: 'TLT', symbol: 'usTLT', kind: 'ETF', themes: ['bond'] },
-        { name: '短债ETF', code: 'SHV', symbol: 'usSHV', kind: 'ETF', themes: ['cash'] },
-        { name: '沪深300ETF', code: '510300', symbol: 'sh510300', kind: 'ETF', themes: ['china-beta'] },
-        { name: '上证50ETF', code: '510050', symbol: 'sh510050', kind: 'ETF', themes: ['china-beta', 'quality'] },
-        { name: '证券ETF', code: '512880', symbol: 'sh512880', kind: 'ETF', themes: ['broker', 'china-beta'] },
-        { name: '芯片ETF', code: '512760', symbol: 'sh512760', kind: 'ETF', themes: ['semiconductor', 'china-tech'] },
-        { name: '消费ETF', code: '159928', symbol: 'sz159928', kind: 'ETF', themes: ['consumer'] },
-        { name: '国债ETF', code: '511010', symbol: 'sh511010', kind: 'ETF', themes: ['cash', 'bond'] },
-        { name: '英伟达', code: 'NVDA', symbol: 'usNVDA', kind: 'Stock', themes: ['ai', 'semiconductor'] },
-        { name: 'IBM', code: 'IBM', symbol: 'usIBM', kind: 'Stock', themes: ['ai', 'infrastructure'] },
-        { name: '微软', code: 'MSFT', symbol: 'usMSFT', kind: 'Stock', themes: ['ai', 'software'] },
-        { name: '甲骨文', code: 'ORCL', symbol: 'usORCL', kind: 'Stock', themes: ['infrastructure', 'software'] },
-        { name: '台积电', code: 'TSM', symbol: 'usTSM', kind: 'Stock', themes: ['semiconductor'] }
+        { name: '纳指100ETF', code: 'QQQ', symbol: 'usQQQ', market: '美股', kind: 'ETF', themes: ['us-growth', 'ai', 'broad-us'] },
+        { name: '半导体ETF', code: 'SMH', symbol: 'usSMH', market: '美股', kind: 'ETF', themes: ['semiconductor', 'ai'] },
+        { name: '科技精选ETF', code: 'XLK', symbol: 'usXLK', market: '美股', kind: 'ETF', themes: ['us-growth', 'software', 'ai'] },
+        { name: '标普500ETF', code: 'SPY', symbol: 'usSPY', market: '美股', kind: 'ETF', themes: ['broad-us', 'quality'] },
+        { name: '能源ETF', code: 'XLE', symbol: 'usXLE', market: '美股', kind: 'ETF', themes: ['energy'] },
+        { name: '美国原油基金', code: 'USO', symbol: 'usUSO', market: '美股', kind: 'ETF', themes: ['oil'] },
+        { name: '黄金ETF', code: 'GLD', symbol: 'usGLD', market: '美股', kind: 'ETF', themes: ['gold'] },
+        { name: '长债ETF', code: 'TLT', symbol: 'usTLT', market: '美股', kind: 'ETF', themes: ['bond'] },
+        { name: '短债ETF', code: 'SHV', symbol: 'usSHV', market: '美股', kind: 'ETF', themes: ['cash'] },
+        { name: '盈富基金', code: '2800', symbol: 'hk02800', market: '港股', kind: 'ETF', themes: ['hk-beta', 'china-beta', 'quality'] },
+        { name: '恒生科技ETF', code: '3033', symbol: 'hk03033', market: '港股', kind: 'ETF', themes: ['hk-tech', 'china-beta', 'ai'] },
+        { name: '沪深300ETF', code: '510300', symbol: 'sh510300', market: 'A股', kind: 'ETF', themes: ['china-beta'] },
+        { name: '上证50ETF', code: '510050', symbol: 'sh510050', market: 'A股', kind: 'ETF', themes: ['china-beta', 'quality'] },
+        { name: '证券ETF', code: '512880', symbol: 'sh512880', market: 'A股', kind: 'ETF', themes: ['broker', 'china-beta', 'a-financial'] },
+        { name: '芯片ETF', code: '512760', symbol: 'sh512760', market: 'A股', kind: 'ETF', themes: ['semiconductor', 'a-tech', 'china-tech'] },
+        { name: '消费ETF', code: '159928', symbol: 'sz159928', market: 'A股', kind: 'ETF', themes: ['consumer'] },
+        { name: '国债ETF', code: '511010', symbol: 'sh511010', market: 'A股', kind: 'ETF', themes: ['cash', 'bond'] },
+        { name: '英伟达', code: 'NVDA', symbol: 'usNVDA', market: '美股', kind: 'Stock', themes: ['ai', 'semiconductor'] },
+        { name: 'IBM', code: 'IBM', symbol: 'usIBM', market: '美股', kind: 'Stock', themes: ['ai', 'infrastructure'] },
+        { name: '微软', code: 'MSFT', symbol: 'usMSFT', market: '美股', kind: 'Stock', themes: ['ai', 'software'] },
+        { name: '甲骨文', code: 'ORCL', symbol: 'usORCL', market: '美股', kind: 'Stock', themes: ['infrastructure', 'software'] },
+        { name: '台积电', code: 'TSM', symbol: 'usTSM', market: '美股', kind: 'Stock', themes: ['semiconductor'] },
+        { name: '腾讯控股', code: '00700', symbol: 'hk00700', market: '港股', kind: 'Stock', themes: ['hk-tech', 'ai', 'software', 'china-beta'] },
+        { name: '阿里巴巴-W', code: '09988', symbol: 'hk09988', market: '港股', kind: 'Stock', themes: ['hk-tech', 'consumer', 'china-beta'] },
+        { name: '美团-W', code: '03690', symbol: 'hk03690', market: '港股', kind: 'Stock', themes: ['hk-tech', 'consumer', 'china-beta'] },
+        { name: '小米集团-W', code: '01810', symbol: 'hk01810', market: '港股', kind: 'Stock', themes: ['hk-tech', 'consumer', 'ai'] },
+        { name: '小鹏汽车-W', code: '09868', symbol: 'hk09868', market: '港股', kind: 'Stock', themes: ['hk-tech', 'consumer', 'ev'] },
+        { name: '比亚迪股份', code: '01211', symbol: 'hk01211', market: '港股', kind: 'Stock', themes: ['ev', 'consumer', 'china-beta'] },
+        { name: '贵州茅台', code: '600519', symbol: 'sh600519', market: 'A股', kind: 'Stock', themes: ['consumer', 'quality'] },
+        { name: '宁德时代', code: '300750', symbol: 'sz300750', market: 'A股', kind: 'Stock', themes: ['ev', 'a-tech', 'china-beta'] },
+        { name: '比亚迪', code: '002594', symbol: 'sz002594', market: 'A股', kind: 'Stock', themes: ['ev', 'consumer', 'china-beta'] },
+        { name: '中国平安', code: '601318', symbol: 'sh601318', market: 'A股', kind: 'Stock', themes: ['a-financial', 'quality'] },
+        { name: '招商银行', code: '600036', symbol: 'sh600036', market: 'A股', kind: 'Stock', themes: ['a-financial', 'quality'] },
+        { name: '中芯国际', code: '688981', symbol: 'sh688981', market: 'A股', kind: 'Stock', themes: ['semiconductor', 'a-tech', 'china-tech'] }
     ];
 }
 
 function getTradeProfile(text) {
+    const marketBias = getMarketBias(text);
     if (/证监会|监管|新规|政策|治理|a股|上市公司/.test(text)) {
         return {
             type: '政策类',
             bonus: 2,
+            marketBias,
             reason: '政策会改变市场风险偏好和估值上限，优先影响大盘、金融和治理改善类资产。',
             action: '若政策落地且指数放量，允许小仓位观察；若只是口头预期，不追。'
         };
@@ -711,6 +754,7 @@ function getTradeProfile(text) {
         return {
             type: '宏观类',
             bonus: 2,
+            marketBias,
             reason: '宏观事件改变利率路径，是股债汇和成长股估值的总开关。',
             action: '若收益率下行，成长股和黄金更舒服；若收益率上行，减轻高估值资产。'
         };
@@ -719,6 +763,7 @@ function getTradeProfile(text) {
         return {
             type: '资金行为',
             bonus: 1,
+            marketBias,
             reason: '机构仍在抱团确定性资产，但科技交易拥挤，最怕收益率上行和估值过热。',
             action: '若美债收益率下行且龙头放量，可分批；若5日连续大涨，模型拒绝追高。'
         };
@@ -727,6 +772,7 @@ function getTradeProfile(text) {
         return {
             type: '供需/地缘',
             bonus: 1,
+            marketBias,
             reason: '油价和地缘风险会同时影响通胀预期、避险资金和能源链利润。',
             action: '先看油价和黄金是否同步确认；只有单边消息、没有价格确认时，不重仓。'
         };
@@ -734,17 +780,29 @@ function getTradeProfile(text) {
     return {
         type: '基本面类',
         bonus: 0,
+        marketBias,
         reason: '事件可能影响盈利预期，但需要更多价格和基本面确认。',
         action: '先观察，不急着入场；等成交量和方向确认后再评估。'
     };
 }
 
+function getMarketBias(text) {
+    const bias = [];
+    if (/美股|纳指|标普|道指|wall street|cnbc|alphabet|nvidia|tesla|microsoft|openai|spacex|pimco|美债/.test(text)) bias.push('美股');
+    if (/港股|恒指|恒生|科指|腾讯|阿里|美团|小米|小鹏|hk|hong kong/.test(text)) bias.push('港股');
+    if (/a股|沪深|上证|深证|创业板|科创板|人民币|证监会|茅台|宁德|比亚迪|中芯/.test(text)) bias.push('A股');
+    if (bias.length === 0 && /中国|china/.test(text)) bias.push('港股', 'A股');
+    return bias;
+}
+
 function renderTargetBadge(target) {
+    const market = target.market ? ` <em>${safeText(target.market)}</em>` : '';
+    const tag = target.modelTag ? ` <em>${safeText(target.modelTag)}</em>` : '';
     const quote = typeof target.pct === 'number' ? ` <em>${target.pct >= 0 ? '+' : ''}${target.pct.toFixed(2)}%</em>` : '';
     const liquidity = target.hasQuote ? ` <em>${target.liquidityPass ? '量OK' : '量弱'}</em>` : '';
     const trend = typeof target.fiveDayPct === 'number' ? ` <em>5日${target.fiveDayPct >= 0 ? '+' : ''}${target.fiveDayPct.toFixed(1)}%</em>` : '';
     const heat = typeof target.heat === 'number' ? ` <em>${target.heat > 0.88 ? '高位' : '热度OK'}</em>` : '';
-    return `<b>${safeText(target.name)} ${safeText(target.code)}${quote}${trend}${liquidity}${heat}</b>`;
+    return `<b>${safeText(target.name)} ${safeText(target.code)}${market}${tag}${quote}${trend}${liquidity}${heat}</b>`;
 }
 
 function attachQuote(target, quoteMap) {
@@ -802,7 +860,9 @@ async function loadTradeTrendMap(symbols) {
             const firstClose = Number(rows[0][2]);
             const lastClose = Number(rows[rows.length - 1][2]);
             if (!firstClose || !lastClose) return [symbol, {}];
-            return [symbol, { fiveDayPct: ((lastClose - firstClose) / firstClose) * 100 }];
+            const fiveDayPct = ((lastClose - firstClose) / firstClose) * 100;
+            if (Math.abs(fiveDayPct) > 80) return [symbol, {}];
+            return [symbol, { fiveDayPct }];
         } catch(e) {
             return [symbol, {}];
         }
@@ -811,7 +871,8 @@ async function loadTradeTrendMap(symbols) {
 }
 
 function getLiquidityFloor(symbol) {
-    return /^us/i.test(symbol) ? 50000000 : 5000;
+    if (/^us/i.test(symbol) || /^hk/i.test(symbol)) return 50000000;
+    return 5000;
 }
 
 function normalizeTradeTitle(title, type) {
