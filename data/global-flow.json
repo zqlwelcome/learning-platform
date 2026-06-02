@@ -1,17 +1,17 @@
 {
-  "updateTime": "2026-06-03 03:13",
+  "updateTime": "2026-06-03 03:20",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "27089.97",
-      "change": "0.01"
+      "value": "27086.68",
+      "change": "0.00"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "51303.14",
-      "change": "0.44"
+      "value": "51294.52",
+      "change": "0.42"
     },
     "sh000001": {
       "name": "上证指数",
@@ -34,5 +34,11 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "高盛CEO：通胀或改变消费行为，大型IPO潮资金仍充裕",
+      "source": "环球市场播报",
+      "keyword": "通胀"
+    }
+  ]
 }
