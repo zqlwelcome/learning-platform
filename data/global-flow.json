@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-02 13:50",
+  "updateTime": "2026-06-02 13:56",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,110 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4078.44",
-      "change": "0.51"
+      "value": "4081.70",
+      "change": "0.59"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25865.250",
-      "change": "1.84"
+      "value": "25867.840",
+      "change": "1.85"
     }
   },
-  "etf_flows": [
-    {
-      "name": "通信ETF国泰",
-      "code": "515880",
-      "price": 1.632,
-      "change": 6.53,
-      "flow": 931888784.0,
-      "flow_str": "+9.32亿",
-      "direction": "in"
-    },
-    {
-      "name": "科创芯片ETF嘉实",
-      "code": "588200",
-      "price": 3.477,
-      "change": 3.18,
-      "flow": 549371696.0,
-      "flow_str": "+5.49亿",
-      "direction": "in"
-    },
-    {
-      "name": "创业板ETF易方达",
-      "code": "159915",
-      "price": 4.077,
-      "change": 2.85,
-      "flow": 456826992.0,
-      "flow_str": "+4.57亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备ETF国泰",
-      "code": "159516",
-      "price": 1.175,
-      "change": 2.8,
-      "flow": 439901376.0,
-      "flow_str": "+4.40亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体ETF国联安",
-      "code": "512480",
-      "price": 2.098,
-      "change": 2.54,
-      "flow": 244195312.0,
-      "flow_str": "+2.44亿",
-      "direction": "in"
-    }
-  ],
-  "sector_flows": [
-    {
-      "name": "通信",
-      "code": "BK1215",
-      "index": 8416.52,
-      "change": 1.8,
-      "flow": 13773379072.0,
-      "flow_str": "+137.73亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信设备",
-      "code": "BK0448",
-      "index": 25632.2,
-      "change": 2.47,
-      "flow": 13585776384.0,
-      "flow_str": "+135.86亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信线缆及配套",
-      "code": "BK1592",
-      "index": 30006.44,
-      "change": 6.31,
-      "flow": 7951340544.0,
-      "flow_str": "+79.51亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信网络设备及器件",
-      "code": "BK1591",
-      "index": 15936.57,
-      "change": 4.04,
-      "flow": 5652245504.0,
-      "flow_str": "+56.52亿",
-      "direction": "in"
-    },
-    {
-      "name": "有色金属",
-      "code": "BK0478",
-      "index": 29947.25,
-      "change": 1.86,
-      "flow": 5303941632.0,
-      "flow_str": "+53.04亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
