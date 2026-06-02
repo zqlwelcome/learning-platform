@@ -1,75 +1,39 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-02T12:42:04.450Z",
+  "updateTime": "2026-06-02T18:10:47.189Z",
   "macro": {
     "rateUp": false,
     "rateDown": false,
-    "oilShock": true,
+    "oilShock": false,
     "aiCapex": true,
-    "riskOff": false,
-    "chinaSupport": true,
-    "label": "能源和地缘风险升温 / 人工智能资本开支仍是主线 / 中国资产等待政策和数据确认"
+    "riskOff": true,
+    "chinaSupport": false,
+    "label": "人工智能资本开支仍是主线 / 风险偏好需要打折"
   },
   "candidates": [
     {
-      "symbol": "sz159928",
-      "code": "159928",
-      "name": "消费ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 8
-    },
-    {
-      "symbol": "sh512760",
-      "code": "512760",
-      "name": "芯片ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 8
-    },
-    {
-      "symbol": "sh512880",
-      "code": "512880",
-      "name": "证券ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 8
-    },
-    {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
-      "kind": "ETF",
-      "eventType": "资金行为",
-      "score": 6
-    },
-    {
-      "symbol": "usSMH",
-      "code": "SMH",
-      "name": "半导体ETF",
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
       "market": "美股",
       "kind": "ETF",
-      "eventType": "资金行为",
-      "score": 6
+      "eventType": "宏观类",
+      "score": 7
     },
     {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
-      "market": "港股",
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
       "kind": "ETF",
-      "eventType": "政策类",
-      "score": 6
+      "eventType": "基本面类",
+      "score": 5
     }
   ],
   "stats": {
-    "sampleCount": 12,
-    "activeCount": 12,
+    "sampleCount": 13,
+    "activeCount": 13,
     "reviewedCount": 0,
     "winRate": null,
     "avgPnl": null,
@@ -101,6 +65,28 @@
     }
   ],
   "trades": [
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 744.67,
+      "allocationPct": 8,
+      "eventTitle": "消息人士：太空公司冲刺史上最大上市，含绿鞋期权目...",
+      "eventType": "基本面类",
+      "score": 5,
+      "id": "2026-06-02-usQQQ-基本面类",
+      "entryDate": "2026-06-02",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 744.67,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
     {
       "symbol": "hk02800",
       "code": "2800",
@@ -140,8 +126,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 607.81,
-      "pnlPct": 0,
+      "currentPrice": 626.54,
+      "pnlPct": 3.0815550912291703,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -294,8 +280,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 110.06,
-      "pnlPct": 0,
+      "currentPrice": 110.08,
+      "pnlPct": 0.018171906232960222,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -360,8 +346,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 411.26,
-      "pnlPct": 0,
+      "currentPrice": 411.83,
+      "pnlPct": 0.13859845353304312,
       "ageDays": 0,
       "checkpoints": {}
     }
