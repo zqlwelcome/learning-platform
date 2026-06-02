@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>推广海报</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, "SF Pro Display", "Helvetica Neue", sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.poster {
+    background: white;
+    border-radius: 24px;
+    padding: 32px 24px;
+    max-width: 360px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.logo {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.logo-icon {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 8px;
+}
+.logo-title {
+    font-size: 28px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.5px;
+}
+.logo-sub {
+    font-size: 14px;
+    color: #86868b;
+    margin-top: 4px;
+}
+.features {
+    margin: 24px 0;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.feature:last-child { border-bottom: none; }
+.feature-icon {
+    font-size: 24px;
+    width: 44px;
+    height: 44px;
+    background: #f5f5f7;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-text {
+    flex: 1;
+}
+.feature-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+.feature-desc {
+    font-size: 12px;
+    color: #86868b;
+    margin-top: 2px;
+}
+.qr-section {
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #f0f0f0;
+}
+.qr-box {
+    background: #f5f5f7;
+    border-radius: 16px;
+    padding: 20px;
+    display: inline-block;
+}
+.qr-placeholder {
+    width: 160px;
+    height: 160px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.qr-text {
+    font-size: 12px;
+    color: #86868b;
+    margin-top: 12px;
+}
+.cta {
+    margin-top: 16px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0;
+}
+.stat {
+    text-align: center;
+}
+.stat-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1d1d1f;
+}
+.stat-label {
+    font-size: 11px;
+    color: #86868b;
+    margin-top: 4px;
+}
+</style>
+</head>
+<body>
+<div class="poster">
+    <div class="logo">
+        <span class="logo-icon">🌙</span>
+        <div class="logo-title">下班学点啥</div>
+        <div class="logo-sub">你的投资学习充电站</div>
+    </div>
+    
+    <div class="features">
+        <div class="feature">
+            <div class="feature-icon">📰</div>
+            <div class="feature-text">
+                <div class="feature-title">实时财经热点</div>
+                <div class="feature-desc">全球财经新闻，5分钟自动更新</div>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🧠</div>
+            <div class="feature-text">
+                <div class="feature-title">AI投资智库</div>
+                <div class="feature-desc">邓普顿/巴菲特/芒格/段永平视角</div>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🌍</div>
+            <div class="feature-text">
+                <div class="feature-title">全球资金流向</div>
+                <div class="feature-desc">ETF/板块/北向资金实时追踪</div>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🔋</div>
+            <div class="feature-text">
+                <div class="feature-title">AI课程充电站</div>
+                <div class="feature-desc">产品经理/工程师/数据分析师</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="qr-section">
+        <div class="qr-box">
+            <div class="qr-placeholder" id="qrCode"></div>
+            <div class="qr-text">长按识别二维码</div>
+        </div>
+    </div>
+    
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-num">4</div>
+            <div class="stat-label">市场指数</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num">5min</div>
+            <div class="stat-label">自动更新</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num">24/7</div>
+            <div class="stat-label">全天候</div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+<script>
+// 生成二维码
+var qr = qrcode(0, 'M');
+qr.addData('https://zqlwelcomelearninghub.pages.dev/');
+qr.make();
+document.getElementById('qrCode').innerHTML = qr.createSvgTag({
+    cellSize: 4,
+    margin: 0,
+    scalable: true
+});
+</script>
+</body>
+</html>
