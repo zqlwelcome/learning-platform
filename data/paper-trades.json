@@ -1,33 +1,51 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-02T21:23:44.606Z",
+  "updateTime": "2026-06-03T00:01:07.496Z",
   "macro": {
-    "rateUp": true,
+    "rateUp": false,
     "rateDown": false,
     "oilShock": true,
     "aiCapex": true,
     "riskOff": false,
     "chinaSupport": false,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线"
+    "label": "能源和地缘风险升温 / 人工智能资本开支仍是主线"
   },
   "candidates": [
+    {
+      "symbol": "usXLE",
+      "code": "XLE",
+      "name": "能源ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "供需/地缘",
+      "score": 5
+    },
+    {
+      "symbol": "usUSO",
+      "code": "USO",
+      "name": "美国原油基金",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "供需/地缘",
+      "score": 5
+    },
     {
       "symbol": "usGLD",
       "code": "GLD",
       "name": "黄金ETF",
       "market": "美股",
       "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 6
+      "eventType": "供需/地缘",
+      "score": 5
     }
   ],
   "stats": {
-    "sampleCount": 13,
-    "activeCount": 13,
-    "reviewedCount": 0,
-    "winRate": null,
-    "avgPnl": null,
+    "sampleCount": 16,
+    "activeCount": 16,
+    "reviewedCount": 13,
+    "winRate": 31,
+    "avgPnl": 0.33849615461821175,
     "equity": 100000,
     "exposurePct": 64,
     "alerts": 0
@@ -36,9 +54,9 @@
     {
       "key": "d1",
       "label": "1日",
-      "samples": 0,
-      "winRate": null,
-      "avg": null
+      "samples": 13,
+      "winRate": 31,
+      "avg": 0.3384615384615384
     },
     {
       "key": "d3",
@@ -56,6 +74,72 @@
     }
   ],
   "trades": [
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 411.95,
+      "allocationPct": 8,
+      "eventTitle": "刚刚，全线暴跌，超25万人爆仓！中东突发：科威特...",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-03-usGLD-供需/地缘",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 411.95,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "usUSO",
+      "code": "USO",
+      "name": "美国原油基金",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 137.27,
+      "allocationPct": 8,
+      "eventTitle": "刚刚，全线暴跌，超25万人爆仓！中东突发：科威特...",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-03-usUSO-供需/地缘",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 137.27,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "usXLE",
+      "code": "XLE",
+      "name": "能源ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 57.96,
+      "allocationPct": 8,
+      "eventTitle": "刚刚，全线暴跌，超25万人爆仓！中东突发：科威特...",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-03-usXLE-供需/地缘",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 57.96,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
     {
       "symbol": "usQQQ",
       "code": "QQQ",
@@ -75,8 +159,13 @@
       "currentValue": 0,
       "currentPrice": 746.16,
       "pnlPct": 0.20008862986289352,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0.2
+        }
+      }
     },
     {
       "symbol": "hk02800",
@@ -97,8 +186,13 @@
       "currentValue": 8000,
       "currentPrice": 26.32,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "usSMH",
@@ -119,8 +213,13 @@
       "currentValue": 0,
       "currentPrice": 632.21,
       "pnlPct": 4.014412398611424,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 4.01
+        }
+      }
     },
     {
       "symbol": "hk03033",
@@ -141,8 +240,13 @@
       "currentValue": 8000,
       "currentPrice": 5.095,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "sh512760",
@@ -163,8 +267,13 @@
       "currentValue": 10000,
       "currentPrice": 1.119,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "sz159928",
@@ -185,8 +294,13 @@
       "currentValue": 0,
       "currentPrice": 0.68,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "sh512880",
@@ -207,8 +321,13 @@
       "currentValue": 8000,
       "currentPrice": 1.037,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "hk03033",
@@ -229,8 +348,13 @@
       "currentValue": 10000,
       "currentPrice": 5.095,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "sz159928",
@@ -251,8 +375,13 @@
       "currentValue": 0,
       "currentPrice": 0.68,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "usSHV",
@@ -273,8 +402,13 @@
       "currentValue": 0,
       "currentPrice": 110.08,
       "pnlPct": 0.018171906232960222,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0.02
+        }
+      }
     },
     {
       "symbol": "sh511010",
@@ -295,8 +429,13 @@
       "currentValue": 10000,
       "currentPrice": 141.48,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "hk02800",
@@ -317,8 +456,13 @@
       "currentValue": 10000,
       "currentPrice": 26.32,
       "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        }
+      }
     },
     {
       "symbol": "usGLD",
@@ -339,8 +483,13 @@
       "currentValue": 0,
       "currentPrice": 411.95,
       "pnlPct": 0.16777707532947472,
-      "ageDays": 0,
-      "checkpoints": {}
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0.17
+        }
+      }
     }
   ],
   "note": "纸面模拟盘自动记录模型信号，不构成真实投资建议。"
