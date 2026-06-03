@@ -1,79 +1,25 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-03T11:22:48.212Z",
+  "updateTime": "2026-06-03T17:15:39.604Z",
   "macro": {
-    "rateUp": true,
+    "rateUp": false,
     "rateDown": false,
-    "oilShock": true,
+    "oilShock": false,
     "aiCapex": true,
     "riskOff": true,
-    "chinaSupport": true,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认"
+    "chinaSupport": false,
+    "label": "人工智能资本开支仍是主线 / 风险偏好需要打折"
   },
   "candidates": [
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 10
-    },
     {
       "symbol": "hk03033",
       "code": "3033",
       "name": "恒生科技ETF",
       "market": "港股",
       "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 10
-    },
-    {
-      "symbol": "sh512880",
-      "code": "512880",
-      "name": "证券ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 10
-    },
-    {
-      "symbol": "usSHV",
-      "code": "SHV",
-      "name": "短债ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 10
-    },
-    {
-      "symbol": "sh511010",
-      "code": "511010",
-      "name": "国债ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 8
-    },
-    {
-      "symbol": "usXLE",
-      "code": "XLE",
-      "name": "能源ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 8
-    },
-    {
-      "symbol": "usUSO",
-      "code": "USO",
-      "name": "美国原油基金",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 8
+      "eventType": "资金行为",
+      "score": 7
     },
     {
       "symbol": "sh512760",
@@ -82,15 +28,42 @@
       "market": "A股",
       "kind": "ETF",
       "eventType": "资金行为",
-      "score": 8
+      "score": 7
+    },
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "供需/地缘",
+      "score": 5
+    },
+    {
+      "symbol": "usXLE",
+      "code": "XLE",
+      "name": "能源ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "供需/地缘",
+      "score": 5
+    },
+    {
+      "symbol": "usUSO",
+      "code": "USO",
+      "name": "美国原油基金",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "供需/地缘",
+      "score": 5
     }
   ],
   "stats": {
     "sampleCount": 26,
     "activeCount": 26,
     "reviewedCount": 13,
-    "winRate": 38,
-    "avgPnl": -0.29531058247326797,
+    "winRate": 23,
+    "avgPnl": -0.3762785367422184,
     "equity": 99559.82009699196,
     "exposurePct": 64,
     "alerts": 0
@@ -246,8 +219,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 411.95,
-      "pnlPct": 0,
+      "currentPrice": 407.72,
+      "pnlPct": -1.0268236436460643,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -356,8 +329,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 411.95,
-      "pnlPct": 0,
+      "currentPrice": 407.72,
+      "pnlPct": -1.0268236436460643,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -378,8 +351,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 137.27,
-      "pnlPct": 0,
+      "currentPrice": 140.82,
+      "pnlPct": 2.586144095578045,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -400,8 +373,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 57.96,
-      "pnlPct": 0,
+      "currentPrice": 59.21,
+      "pnlPct": 2.1566597653554176,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -422,8 +395,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 746.16,
-      "pnlPct": 0.20008862986289352,
+      "currentPrice": 742.33,
+      "pnlPct": -0.3142331502544642,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -476,8 +449,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 632.21,
-      "pnlPct": 4.014412398611424,
+      "currentPrice": 635.19,
+      "pnlPct": 4.50469719155659,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -746,8 +719,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 411.95,
-      "pnlPct": 0.16777707532947472,
+      "currentPrice": 407.72,
+      "pnlPct": -0.8607693429946904,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
