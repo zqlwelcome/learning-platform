@@ -1,43 +1,34 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-03T05:14:41.415Z",
+  "updateTime": "2026-06-03T11:22:48.212Z",
   "macro": {
-    "rateUp": false,
+    "rateUp": true,
     "rateDown": false,
     "oilShock": true,
     "aiCapex": true,
     "riskOff": true,
     "chinaSupport": true,
-    "label": "能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认"
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认"
   },
   "candidates": [
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "宏观类",
+      "score": 10
+    },
     {
       "symbol": "hk03033",
       "code": "3033",
       "name": "恒生科技ETF",
       "market": "港股",
       "kind": "ETF",
-      "eventType": "资金行为",
-      "score": 9
-    },
-    {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
-      "market": "港股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 6
-    },
-    {
-      "symbol": "sz159928",
-      "code": "159928",
-      "name": "消费ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 6
+      "eventType": "宏观类",
+      "score": 10
     },
     {
       "symbol": "sh512880",
@@ -45,17 +36,26 @@
       "name": "证券ETF",
       "market": "A股",
       "kind": "ETF",
-      "eventType": "政策类",
-      "score": 6
+      "eventType": "宏观类",
+      "score": 10
     },
     {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
+      "symbol": "usSHV",
+      "code": "SHV",
+      "name": "短债ETF",
       "market": "美股",
       "kind": "ETF",
+      "eventType": "宏观类",
+      "score": 10
+    },
+    {
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
+      "kind": "ETF",
       "eventType": "供需/地缘",
-      "score": 5
+      "score": 8
     },
     {
       "symbol": "usXLE",
@@ -64,7 +64,7 @@
       "market": "美股",
       "kind": "ETF",
       "eventType": "供需/地缘",
-      "score": 5
+      "score": 8
     },
     {
       "symbol": "usUSO",
@@ -73,16 +73,25 @@
       "market": "美股",
       "kind": "ETF",
       "eventType": "供需/地缘",
-      "score": 5
+      "score": 8
+    },
+    {
+      "symbol": "sh512760",
+      "code": "512760",
+      "name": "芯片ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "eventType": "资金行为",
+      "score": 8
     }
   ],
   "stats": {
-    "sampleCount": 20,
-    "activeCount": 20,
+    "sampleCount": 26,
+    "activeCount": 26,
     "reviewedCount": 13,
     "winRate": 38,
-    "avgPnl": -0.2264797577783197,
-    "equity": 99796.97511959888,
+    "avgPnl": -0.29531058247326797,
+    "equity": 99559.82009699196,
     "exposurePct": 64,
     "alerts": 0
   },
@@ -111,6 +120,138 @@
   ],
   "trades": [
     {
+      "symbol": "sh512760",
+      "code": "512760",
+      "name": "芯片ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.158,
+      "allocationPct": 10,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 8,
+      "id": "2026-06-03-sh512760-资金行为",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 1.158,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 141.464,
+      "allocationPct": 10,
+      "eventTitle": "油价暴涨引发“卖金救市”猜想？印度央行强硬自证：...",
+      "eventType": "供需/地缘",
+      "score": 8,
+      "id": "2026-06-03-sh511010-供需/地缘",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 141.464,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "usSHV",
+      "code": "SHV",
+      "name": "短债ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 110.08,
+      "allocationPct": 10,
+      "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
+      "eventType": "宏观类",
+      "score": 10,
+      "id": "2026-06-03-usSHV-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 110.08,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "sh512880",
+      "code": "512880",
+      "name": "证券ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.035,
+      "allocationPct": 10,
+      "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
+      "eventType": "宏观类",
+      "score": 10,
+      "id": "2026-06-03-sh512880-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 1.035,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.95,
+      "allocationPct": 10,
+      "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
+      "eventType": "宏观类",
+      "score": 10,
+      "id": "2026-06-03-hk03033-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 4.95,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 411.95,
+      "allocationPct": 10,
+      "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
+      "eventType": "宏观类",
+      "score": 10,
+      "id": "2026-06-03-usGLD-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 411.95,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
       "symbol": "sh512880",
       "code": "512880",
       "name": "证券ETF",
@@ -127,8 +268,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 1.033,
-      "pnlPct": 0,
+      "currentPrice": 1.035,
+      "pnlPct": 0.1936108422071638,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -149,8 +290,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 0.665,
-      "pnlPct": 0,
+      "currentPrice": 0.67,
+      "pnlPct": 0.7518796992481209,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -171,8 +312,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 25.9,
-      "pnlPct": 0,
+      "currentPrice": 25.94,
+      "pnlPct": 0.15444015444016487,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -193,8 +334,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 4.966,
-      "pnlPct": 0,
+      "currentPrice": 4.95,
+      "pnlPct": -0.32219089810712875,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -307,9 +448,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 7872.340425531914,
-      "currentPrice": 25.9,
-      "pnlPct": -1.5957446808510702,
+      "currentValue": 7884.498480243162,
+      "currentPrice": 25.94,
+      "pnlPct": -1.4437689969604826,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -361,9 +502,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 7797.448478900884,
-      "currentPrice": 4.966,
-      "pnlPct": -2.531894013738951,
+      "currentValue": 7772.325809617272,
+      "currentPrice": 4.95,
+      "pnlPct": -2.845927379784094,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -388,9 +529,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 10000,
-      "currentValue": 10571.939231456658,
-      "currentPrice": 1.183,
-      "pnlPct": 5.719392314566583,
+      "currentValue": 10348.5254691689,
+      "currentPrice": 1.158,
+      "pnlPct": 3.4852546916890015,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -416,8 +557,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 0.665,
-      "pnlPct": -2.2058823529411784,
+      "currentPrice": 0.67,
+      "pnlPct": -1.4705882352941189,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -442,9 +583,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 7969.14175506268,
-      "currentPrice": 1.033,
-      "pnlPct": -0.3857280617164902,
+      "currentValue": 7984.570877531341,
+      "currentPrice": 1.035,
+      "pnlPct": -0.1928640308582451,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -469,9 +610,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 10000,
-      "currentValue": 9746.810598626105,
-      "currentPrice": 4.966,
-      "pnlPct": -2.531894013738951,
+      "currentValue": 9715.40726202159,
+      "currentPrice": 4.95,
+      "pnlPct": -2.845927379784094,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -497,8 +638,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 0.665,
-      "pnlPct": -2.2058823529411784,
+      "currentPrice": 0.67,
+      "pnlPct": -1.4705882352941189,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -577,9 +718,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 10000,
-      "currentValue": 9840.425531914892,
-      "currentPrice": 25.9,
-      "pnlPct": -1.5957446808510702,
+      "currentValue": 9855.623100303952,
+      "currentPrice": 25.94,
+      "pnlPct": -1.4437689969604826,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
