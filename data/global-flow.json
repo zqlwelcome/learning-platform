@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-03 10:18",
+  "updateTime": "2026-06-03 10:25",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,14 +16,14 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4076.07",
-      "change": "0.02"
+      "value": "4084.94",
+      "change": "0.24"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25760.990",
-      "change": "-1.07"
+      "value": "25727.170",
+      "change": "-1.19"
     }
   },
   "etf_flows": [],
@@ -34,5 +34,11 @@
     "sgt": 0,
     "total": 0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "两周狂卖120亿美元黄金？印度央行被曝“大手笔”抛售储备支撑卢比",
+      "source": "市场资讯",
+      "keyword": "央行"
+    }
+  ]
 }
