@@ -1,7 +1,7 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-03T17:15:39.604Z",
+  "updateTime": "2026-06-03T21:29:31.968Z",
   "macro": {
     "rateUp": false,
     "rateDown": false,
@@ -19,7 +19,7 @@
       "market": "港股",
       "kind": "ETF",
       "eventType": "资金行为",
-      "score": 7
+      "score": 8
     },
     {
       "symbol": "sh512760",
@@ -28,7 +28,16 @@
       "market": "A股",
       "kind": "ETF",
       "eventType": "资金行为",
-      "score": 7
+      "score": 8
+    },
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "基本面类",
+      "score": 5
     },
     {
       "symbol": "usGLD",
@@ -59,11 +68,11 @@
     }
   ],
   "stats": {
-    "sampleCount": 26,
-    "activeCount": 26,
+    "sampleCount": 27,
+    "activeCount": 27,
     "reviewedCount": 13,
     "winRate": 23,
-    "avgPnl": -0.3762785367422184,
+    "avgPnl": -0.3197556817252458,
     "equity": 99559.82009699196,
     "exposurePct": 64,
     "alerts": 0
@@ -92,6 +101,28 @@
     }
   ],
   "trades": [
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 744.21,
+      "allocationPct": 8,
+      "eventTitle": "马斯克的太空公司拟通过史上最大上市筹资750亿美...",
+      "eventType": "基本面类",
+      "score": 5,
+      "id": "2026-06-03-usQQQ-基本面类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 744.21,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
     {
       "symbol": "sh512760",
       "code": "512760",
@@ -219,8 +250,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 407.72,
-      "pnlPct": -1.0268236436460643,
+      "currentPrice": 407.87,
+      "pnlPct": -0.9904114577011736,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -329,8 +360,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 407.72,
-      "pnlPct": -1.0268236436460643,
+      "currentPrice": 407.87,
+      "pnlPct": -0.9904114577011736,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -351,8 +382,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 140.82,
-      "pnlPct": 2.586144095578045,
+      "currentPrice": 140.86,
+      "pnlPct": 2.6152837473592214,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -373,8 +404,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 59.21,
-      "pnlPct": 2.1566597653554176,
+      "currentPrice": 58.71,
+      "pnlPct": 1.2939958592132503,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -395,8 +426,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 742.33,
-      "pnlPct": -0.3142331502544642,
+      "currentPrice": 744.21,
+      "pnlPct": -0.06177232868249328,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -449,8 +480,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 635.19,
-      "pnlPct": 4.50469719155659,
+      "currentPrice": 637.9,
+      "pnlPct": 4.95056020795973,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -719,8 +750,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 407.72,
-      "pnlPct": -0.8607693429946904,
+      "currentPrice": 407.87,
+      "pnlPct": -0.8242960657491577,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
