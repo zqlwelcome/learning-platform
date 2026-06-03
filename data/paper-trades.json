@@ -1,17 +1,62 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-03T00:01:07.496Z",
+  "updateTime": "2026-06-03T05:14:41.415Z",
   "macro": {
     "rateUp": false,
     "rateDown": false,
     "oilShock": true,
     "aiCapex": true,
-    "riskOff": false,
-    "chinaSupport": false,
-    "label": "能源和地缘风险升温 / 人工智能资本开支仍是主线"
+    "riskOff": true,
+    "chinaSupport": true,
+    "label": "能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认"
   },
   "candidates": [
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "eventType": "资金行为",
+      "score": 9
+    },
+    {
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "eventType": "政策类",
+      "score": 6
+    },
+    {
+      "symbol": "sz159928",
+      "code": "159928",
+      "name": "消费ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "eventType": "政策类",
+      "score": 6
+    },
+    {
+      "symbol": "sh512880",
+      "code": "512880",
+      "name": "证券ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "eventType": "政策类",
+      "score": 6
+    },
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "供需/地缘",
+      "score": 5
+    },
     {
       "symbol": "usXLE",
       "code": "XLE",
@@ -29,24 +74,15 @@
       "kind": "ETF",
       "eventType": "供需/地缘",
       "score": 5
-    },
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 5
     }
   ],
   "stats": {
-    "sampleCount": 16,
-    "activeCount": 16,
+    "sampleCount": 20,
+    "activeCount": 20,
     "reviewedCount": 13,
-    "winRate": 31,
-    "avgPnl": 0.33849615461821175,
-    "equity": 100000,
+    "winRate": 38,
+    "avgPnl": -0.2264797577783197,
+    "equity": 99796.97511959888,
     "exposurePct": 64,
     "alerts": 0
   },
@@ -74,6 +110,94 @@
     }
   ],
   "trades": [
+    {
+      "symbol": "sh512880",
+      "code": "512880",
+      "name": "证券ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.033,
+      "allocationPct": 8,
+      "eventTitle": "高盛上调韩国股市目标点位 维持对A股的“超配”评...",
+      "eventType": "政策类",
+      "score": 6,
+      "id": "2026-06-03-sh512880-政策类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 1.033,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "sz159928",
+      "code": "159928",
+      "name": "消费ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 0.665,
+      "allocationPct": 8,
+      "eventTitle": "英国议员呼吁英国央行放宽对稳定币的拟议监管规定",
+      "eventType": "政策类",
+      "score": 6,
+      "id": "2026-06-03-sz159928-政策类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 0.665,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 25.9,
+      "allocationPct": 8,
+      "eventTitle": "英国议员呼吁英国央行放宽对稳定币的拟议监管规定",
+      "eventType": "政策类",
+      "score": 6,
+      "id": "2026-06-03-hk02800-政策类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 25.9,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.966,
+      "allocationPct": 10,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 9,
+      "id": "2026-06-03-hk03033-资金行为",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 4.966,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
     {
       "symbol": "usGLD",
       "code": "GLD",
@@ -183,9 +307,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 8000,
-      "currentPrice": 26.32,
-      "pnlPct": 0,
+      "currentValue": 7872.340425531914,
+      "currentPrice": 25.9,
+      "pnlPct": -1.5957446808510702,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -237,9 +361,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 8000,
-      "currentPrice": 5.095,
-      "pnlPct": 0,
+      "currentValue": 7797.448478900884,
+      "currentPrice": 4.966,
+      "pnlPct": -2.531894013738951,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -264,9 +388,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 1.119,
-      "pnlPct": 0,
+      "currentValue": 10571.939231456658,
+      "currentPrice": 1.183,
+      "pnlPct": 5.719392314566583,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -292,8 +416,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 0.68,
-      "pnlPct": 0,
+      "currentPrice": 0.665,
+      "pnlPct": -2.2058823529411784,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -318,9 +442,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 8000,
-      "currentPrice": 1.037,
-      "pnlPct": 0,
+      "currentValue": 7969.14175506268,
+      "currentPrice": 1.033,
+      "pnlPct": -0.3857280617164902,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -345,9 +469,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 5.095,
-      "pnlPct": 0,
+      "currentValue": 9746.810598626105,
+      "currentPrice": 4.966,
+      "pnlPct": -2.531894013738951,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -373,8 +497,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 0.68,
-      "pnlPct": 0,
+      "currentPrice": 0.665,
+      "pnlPct": -2.2058823529411784,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -426,9 +550,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 141.48,
-      "pnlPct": 0,
+      "currentValue": 9998.86909810574,
+      "currentPrice": 141.464,
+      "pnlPct": -0.011309018942600462,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -453,9 +577,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 26.32,
-      "pnlPct": 0,
+      "currentValue": 9840.425531914892,
+      "currentPrice": 25.9,
+      "pnlPct": -1.5957446808510702,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
