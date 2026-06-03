@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-03 14:50",
+  "updateTime": "2026-06-03 15:00",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,25 +16,76 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4085.71",
-      "change": "0.26"
+      "value": "4083.97",
+      "change": "0.22"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25608.400",
-      "change": "-1.65"
+      "value": "25624.910",
+      "change": "-1.59"
     }
   },
   "etf_flows": [],
-  "sector_flows": [],
+  "sector_flows": [
+    {
+      "name": "半导体",
+      "code": "BK1036",
+      "index": 2817.95,
+      "change": 2.37,
+      "flow": 8043433984.0,
+      "flow_str": "+80.43亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信设备",
+      "code": "BK0448",
+      "index": 26213.33,
+      "change": 2.21,
+      "flow": 6076301312.0,
+      "flow_str": "+60.76亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信",
+      "code": "BK1215",
+      "index": 8534.81,
+      "change": 1.29,
+      "flow": 5712547840.0,
+      "flow_str": "+57.13亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信网络设备及器件",
+      "code": "BK1591",
+      "index": 16465.35,
+      "change": 3.25,
+      "flow": 4774700800.0,
+      "flow_str": "+47.75亿",
+      "direction": "in"
+    },
+    {
+      "name": "电子",
+      "code": "BK1201",
+      "index": 13971.68,
+      "change": 1.06,
+      "flow": 3170795520.0,
+      "flow_str": "+31.71亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
-    "hgt": 0,
-    "sgt": 0,
-    "total": 0
+    "hgt": 0.0,
+    "sgt": 5200000.0,
+    "total": 0.0
   },
   "bank_news": [
+    {
+      "title": "沃什拟重塑美联储面向华尔街的政策信号机制",
+      "source": "环球市场播报",
+      "keyword": "美联储"
+    },
     {
       "title": "和印尼相仿，印度央行或将加息以捍卫本币汇率",
       "source": "环球市场播报",
