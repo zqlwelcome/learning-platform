@@ -26,7 +26,53 @@
       "change": "-1.74"
     }
   },
-  "etf_flows": [],
+  "etf_flows": [
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.858,
+      "change": 4.32,
+      "flow": 1087608320.0,
+      "flow_str": "+10.88亿",
+      "direction": "in"
+    },
+    {
+      "name": "创业板ETF易方达",
+      "code": "159915",
+      "price": 4.215,
+      "change": 3.54,
+      "flow": 762223472.0,
+      "flow_str": "+7.62亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.648,
+      "change": 5.89,
+      "flow": 713267344.0,
+      "flow_str": "+7.13亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华泰柏瑞",
+      "code": "510300",
+      "price": 4.998,
+      "change": 1.26,
+      "flow": 394926880.0,
+      "flow_str": "+3.95亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体ETF国联安",
+      "code": "512480",
+      "price": 2.19,
+      "change": 5.29,
+      "flow": 271939280.0,
+      "flow_str": "+2.72亿",
+      "direction": "in"
+    }
+  ],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
