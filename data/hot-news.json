@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 00:50",
+  "updateTime": "2026-06-05 00:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 65,
       "insight": {
-        "what": "Wix和Intuit因欺诈调查及财报暴雷股价暴跌",
-        "assets": "📉 美股科技板块 承压；📉 SaaS（软件即服务）行业 利空",
-        "chain": "AI竞争加剧导致市场份额流失，引发财报不及预期和监管调查，拖累科技股估值",
-        "watch": "AI相关SaaS公司财报及市场份额数据"
+        "what": "Wix和Intuit因财报暴雷及AI竞争面临欺诈调查",
+        "assets": "📉 美国科技成长股 承压；📉 AI相关SaaS（软件即服务） 板块利空",
+        "chain": "财报暴雷引发监管调查（SEC介入），加剧市场对AI替代传统软件业务的恐慌（risk-off情绪）",
+        "watch": "Wix/Intuit后续财报指引及SEC调查进展"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "马斯克净资产因SpaceX IPO有望突破1万亿美元",
-        "assets": "📈 SpaceX股权 利好；📈 科技富豪概念 提振",
-        "chain": "SpaceX高估值IPO将提振私人航天板块，带动相关供应链（如卫星制造）需求",
-        "watch": "SpaceX IPO定价及认购倍数"
+        "what": "马斯克净资产或在SpaceX IPO后突破1万亿美元",
+        "assets": "📈 SpaceX 估值预期利好；📈 马斯克概念股（如特斯拉） 情绪提振",
+        "chain": "SpaceX IPO预期拉升私人市场估值（pre-IPO溢价），带动Coinbase等平台衍生品（永续合约）投机需求",
+        "watch": "SpaceX IPO时间表及Coinbase合约持仓量"
       }
     },
     {
@@ -37,41 +37,47 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Coinbase推出SpaceX永续合约，散户可提前交易",
-        "assets": "📈 加密货币交易所 利好（流量增加）；📈 SpaceX预IPO衍生品 利好",
-        "chain": "永续合约（无到期日的期货）为未上市资产提供流动性，可能加剧波动性（波动风险）",
-        "watch": "Coinbase合约交易量及监管动向"
+        "what": "投资者可通过Coinbase提前交易SpaceX永续合约",
+        "assets": "📈 Coinbase 平台交易量利好；📈 加密资产（如比特币） 流动性溢出",
+        "chain": "永续合约（无到期日的期货）提供杠杆押注，增加Coinbase手续费收入，并吸引传统资金流入加密生态",
+        "watch": "Coinbase合约交易量及SpaceX估值变动"
       }
     },
     {
       "rank": 4,
-      "title": "跌停、涨停、连续大涨！4000亿龙头，机构大举“做T”",
-      "source": "中国证券报",
-      "detail": "今天，“AI大牛股”东山精密股价大涨6.17%，报237.8元/股，创历史新高，总市值为4356亿元。而在此前的三个交易日，公司股价分别经历跌停、涨停、上涨6.19%...",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "4000亿龙头股大幅震荡，机构频繁做T（日内交易）",
-        "assets": "📈 A股大盘权重股 波动加大；📉 散户短线交易 承压",
-        "chain": "机构高频做T（高抛低吸）增加流动性，但可能压制个股趋势性行情",
-        "watch": "龙虎榜机构席位动向及成交量变化"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Investors can 'buy' SpaceX early with Coinbase perpetual futures on pre-IPOs",
       "source": "CNBC",
       "detail": "Pre-IPO perps give traders the ability to speculate on the value of a private company without owning shares.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "华尔街投行竞相争取SpaceX IPO承销资格",
+        "assets": "📈 投行（高盛、摩根士丹利） 投行业务利好；📈 SpaceX 估值溢价",
+        "chain": "承销竞争推高IPO定价（一级市场溢价），并可能引发其他独角兽（估值超10亿美元未上市公司）加速上市",
+        "watch": "SpaceX IPO承销商名单及估值区间"
+      }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "“这是一个令人兴奋的时代”：华尔街双雄为SpaceX IPO争抢头号光环",
       "source": "环球市场播报",
       "detail": "高盛集团刚刚锁定SpaceX首次公开募股主承销商的头衔，摩根士丹利随即向客户发出一份说明，称自己实际上也是这宗交易的联席主承销商...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "巴克莱调查显示对冲基金在固收领域AI使用最多",
+        "assets": "📈 AI金融科技（如AI交易软件） 概念利好；📈 固收ETF（交易所交易基金） 流动性改善",
+        "chain": "对冲基金用AI做固收（债券）量化交易（算法套利），可能压缩传统做市商利差并增加高频交易量",
+        "watch": "AI在固收市场的渗透率及交易成本变化"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "巴克莱调查：固定收益投资者中使用AI最多的是对冲基金",
+      "source": "环球市场播报",
+      "detail": "巴克莱一项调查显示，固定收益投资者中使用AI最多的是对冲基金，主要应用于研究和分析，而非交易和执行。 这家英国银行援引5月对400多家买方投资机构进行的调查称...",
+      "lang": "zh",
+      "score": 27
     },
     {
       "rank": 7,
