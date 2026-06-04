@@ -435,12 +435,14 @@ function getNewsDisplay(item) {
 }
 
 function getNewsInsight(item, display) {
-    // 优先使用AI生成的解读
+    // 优先使用AI生成的交易员视角解读
     if (item.insight && item.insight.what) {
-        const aiWhat = `💬 ${item.insight.what}`;
-        const aiWhy = `🤔 ${item.insight.why}`;
-        const aiTip = item.insight.tip ? `💡 ${item.insight.tip}` : '';
-        return aiTip ? [aiWhat, aiWhy, aiTip] : [aiWhat, aiWhy];
+        const lines = [];
+        lines.push(`📰 ${item.insight.what}`);
+        if (item.insight.assets) lines.push(`📊 ${item.insight.assets}`);
+        if (item.insight.chain) lines.push(`🔗 ${item.insight.chain}`);
+        if (item.insight.watch) lines.push(`👁️ 下一步：${item.insight.watch}`);
+        return lines;
     }
     
     // fallback到模板解读
