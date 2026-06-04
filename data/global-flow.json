@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 15:15",
+  "updateTime": "2026-06-04 15:21",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -22,58 +22,12 @@
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25265.130",
-      "change": "-1.44"
+      "value": "25255.550",
+      "change": "-1.47"
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "电子",
-      "code": "BK1201",
-      "index": 14159.75,
-      "change": 1.35,
-      "flow": 9943171072.0,
-      "flow_str": "+99.43亿",
-      "direction": "in"
-    },
-    {
-      "name": "元件",
-      "code": "BK0459",
-      "index": 62987.82,
-      "change": 2.76,
-      "flow": 6823378688.0,
-      "flow_str": "+68.23亿",
-      "direction": "in"
-    },
-    {
-      "name": "光学光电子",
-      "code": "BK1038",
-      "index": 2324.89,
-      "change": 0.97,
-      "flow": 5408481280.0,
-      "flow_str": "+54.08亿",
-      "direction": "in"
-    },
-    {
-      "name": "印制电路板",
-      "code": "BK1340",
-      "index": 12664.83,
-      "change": 2.29,
-      "flow": 5255943168.0,
-      "flow_str": "+52.56亿",
-      "direction": "in"
-    },
-    {
-      "name": "面板",
-      "code": "BK1335",
-      "index": 3633.36,
-      "change": 0.75,
-      "flow": 4062707968.0,
-      "flow_str": "+40.63亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0.0,
