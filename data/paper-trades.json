@@ -1,60 +1,51 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-04T10:12:01.303Z",
+  "updateTime": "2026-06-04T13:30:54.743Z",
   "macro": {
-    "rateUp": true,
+    "rateUp": false,
     "rateDown": false,
     "oilShock": false,
     "aiCapex": true,
     "riskOff": true,
     "chinaSupport": false,
-    "label": "利率压力偏高 / 人工智能资本开支仍是主线 / 风险偏好需要打折"
+    "label": "人工智能资本开支仍是主线 / 风险偏好需要打折"
   },
   "candidates": [
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "基本面类",
+      "score": 6
+    },
     {
       "symbol": "hk03033",
       "code": "3033",
       "name": "恒生科技ETF",
       "market": "港股",
       "kind": "ETF",
+      "eventType": "基本面类",
+      "score": 6
+    },
+    {
+      "symbol": "usSMH",
+      "code": "SMH",
+      "name": "半导体ETF",
+      "market": "美股",
+      "kind": "ETF",
       "eventType": "资金行为",
-      "score": 8
-    },
-    {
-      "symbol": "usSHV",
-      "code": "SHV",
-      "name": "短债ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 6
-    },
-    {
-      "symbol": "sh511010",
-      "code": "511010",
-      "name": "国债ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 6
-    },
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "宏观类",
       "score": 6
     }
   ],
   "stats": {
-    "sampleCount": 37,
-    "activeCount": 37,
+    "sampleCount": 40,
+    "activeCount": 40,
     "reviewedCount": 28,
-    "winRate": 32,
-    "avgPnl": -0.6110305252515627,
+    "winRate": 43,
+    "avgPnl": -0.8367207613279002,
     "equity": 99102.77590605087,
     "exposurePct": 64,
     "alerts": 0
@@ -84,6 +75,72 @@
   ],
   "trades": [
     {
+      "symbol": "usSMH",
+      "code": "SMH",
+      "name": "半导体ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 612.96,
+      "allocationPct": 8,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 6,
+      "id": "2026-06-04-usSMH-资金行为",
+      "entryDate": "2026-06-04",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 612.96,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.87,
+      "allocationPct": 8,
+      "eventTitle": "海外事件进入模型观察",
+      "eventType": "基本面类",
+      "score": 6,
+      "id": "2026-06-04-hk03033-基本面类",
+      "entryDate": "2026-06-04",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 4.87,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 734.74,
+      "allocationPct": 8,
+      "eventTitle": "海外事件进入模型观察",
+      "eventType": "基本面类",
+      "score": 6,
+      "id": "2026-06-04-usQQQ-基本面类",
+      "entryDate": "2026-06-04",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 734.74,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
       "symbol": "usGLD",
       "code": "GLD",
       "name": "黄金ETF",
@@ -100,8 +157,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 407.87,
-      "pnlPct": 0,
+      "currentPrice": 413.5,
+      "pnlPct": 1.380341775565743,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -144,8 +201,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 58.71,
-      "pnlPct": 0,
+      "currentPrice": 58.26,
+      "pnlPct": -0.7664793050587682,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -166,8 +223,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 407.87,
-      "pnlPct": 0,
+      "currentPrice": 413.5,
+      "pnlPct": 1.380341775565743,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -210,8 +267,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 110.08,
-      "pnlPct": 0,
+      "currentPrice": 110.09,
+      "pnlPct": 0.009084302325586043,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -325,8 +382,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 744.21,
-      "pnlPct": 0,
+      "currentPrice": 734.74,
+      "pnlPct": -1.2724902917187388,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -406,8 +463,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 110.08,
-      "pnlPct": 0,
+      "currentPrice": 110.09,
+      "pnlPct": 0.009084302325586043,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -487,8 +544,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 407.87,
-      "pnlPct": -0.9904114577011736,
+      "currentPrice": 413.5,
+      "pnlPct": 0.37625925476393046,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -622,8 +679,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 407.87,
-      "pnlPct": -0.9904114577011736,
+      "currentPrice": 413.5,
+      "pnlPct": 0.37625925476393046,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -649,8 +706,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 140.86,
-      "pnlPct": 2.6152837473592214,
+      "currentPrice": 136.72,
+      "pnlPct": -0.40067021199097497,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -676,8 +733,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 58.71,
-      "pnlPct": 1.2939958592132503,
+      "currentPrice": 58.26,
+      "pnlPct": 0.5175983436852952,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -703,8 +760,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 744.21,
-      "pnlPct": -0.06177232868249328,
+      "currentPrice": 734.74,
+      "pnlPct": -1.333476573515779,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -757,8 +814,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 637.9,
-      "pnlPct": 4.95056020795973,
+      "currentPrice": 612.96,
+      "pnlPct": 0.8473042562643082,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -946,8 +1003,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 110.08,
-      "pnlPct": 0.018171906232960222,
+      "currentPrice": 110.09,
+      "pnlPct": 0.027257859349446793,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -1027,8 +1084,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 407.87,
-      "pnlPct": -0.8242960657491577,
+      "currentPrice": 413.5,
+      "pnlPct": 0.5446676068667046,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
