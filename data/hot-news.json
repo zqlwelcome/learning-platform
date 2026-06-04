@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 01:20",
+  "updateTime": "2026-06-05 01:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 65,
       "insight": {
-        "what": "Wix和Intuit因财报暴雷面临欺诈调查，股价大跌",
-        "assets": "📉 美股科技/软件板块 承压",
-        "chain": "财报暴雷→欺诈调查→做空压力增大→同类高估值SaaS（软件即服务）公司遭抛售",
-        "watch": "后续是否更多SaaS公司财报miss（未达预期）"
+        "what": "Wix因AI竞争财报暴雷，遭证券欺诈调查，股价暴跌27%",
+        "assets": "📉 美股SaaS板块 承压；📉 AI概念股 分化",
+        "chain": "AI竞争加剧导致传统SaaS（软件即服务）估值重构，引发板块轮动（资金从软件转向AI硬件）",
+        "watch": "Wix后续业绩指引及AI相关SaaS公司财报"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "马斯克净资产或在SpaceX IPO后突破1万亿美元",
-        "assets": "📈 SpaceX 估值 利好；📈 特斯拉 间接利好",
-        "chain": "SpaceX IPO→马斯克财富效应→特斯拉持仓信心增强→马斯克概念股获溢价",
-        "watch": "SpaceX IPO具体时间表及估值"
+        "what": "Intuit因低端市场份额流失，财报后暴跌20%，面临证券欺诈调查",
+        "assets": "📉 美股金融科技股 承压；📉 中小市值软件股 利空",
+        "chain": "低端市场失守预示经济放缓（消费降级），可能拖累整体科技股估值，加剧防御性轮动（转向必需消费）",
+        "watch": "Intuit用户流失率及竞争对手（如TurboTax）市场份额变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Coinbase推出SpaceX IPO前永续合约，允许散户提前交易",
-        "assets": "📈 加密交易所概念股 利好；📉 传统投行IPO配售 承压",
-        "chain": "永续合约→散户提前定价→削弱承销商（负责股票销售的投资银行）议价权→监管或关注风险",
-        "watch": "Coinbase合约持仓量及监管态度"
+        "what": "马斯克净资产有望在SpaceX IPO后突破1万亿美元",
+        "assets": "📈 特斯拉 利好；📈 太空概念股 情绪提振",
+        "chain": "SpaceX高估值将强化马斯克个人信用，间接利好特斯拉融资成本（债务风险降低）",
+        "watch": "SpaceX IPO估值及上市时间表"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "华尔街投行争抢SpaceX IPO承销权，视为时代性机会",
-        "assets": "📈 高盛/摩根士丹利 投行收入 利好",
-        "chain": "承销竞争→抬高费用预期→提振投行Q4交易收入→吸引其他独角兽（估值超10亿未上市公司）加速上市",
-        "watch": "谁最终获得主承销（主导销售的角色）"
+        "what": "Coinbase推出SpaceX永续期货，允许投资者提前交易未上市股票",
+        "assets": "📈 加密货币交易所 利好；📈 私人公司股权市场 活跃",
+        "chain": "永续期货（无到期日的期货合约）为未上市资产提供流动性，可能推高SpaceX估值预期，并吸引投机资金从传统IPO转向另类交易",
+        "watch": "Coinbase永续期货交易量与溢价/折价水平"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "巴克莱调查：对冲基金在固收中AI使用率最高",
-        "assets": "📈 AI算力/软件 结构性利好；📈 固收量化基金 效率提升",
-        "chain": "AI应用→固收交易自动化（减少人工干预）→压低买卖价差（交易成本）→传统做市商（提供流动性的机构）利润承压",
-        "watch": "AI固收基金超额收益表现"
+        "what": "华尔街投行争抢SpaceX IPO承销权，称进入激动时代",
+        "assets": "📈 美股投行股 利好；📈 太空ETF 情绪提振",
+        "chain": "投行竞争加剧预示IPO市场回暖（投行收入预期上调），同时推高SpaceX估值，带动太空产业链（卫星、火箭）估值重估",
+        "watch": "SpaceX IPO承销商名单及估值区间"
       }
     },
     {
@@ -77,7 +77,13 @@
       "source": "环球市场播报",
       "detail": "巴克莱一项调查显示，固定收益投资者中使用AI最多的是对冲基金，主要应用于研究和分析，而非交易和执行。 这家英国银行援引5月对400多家买方投资机构进行的调查称...",
       "lang": "zh",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "巴克莱调查：对冲基金在固定收益领域AI使用率最高",
+        "assets": "📈 AI算力股 利好；📈 量化对冲基金 技术优势",
+        "chain": "AI渗透固定收益（债券市场）将提升定价效率，压缩传统交易员空间，利好AI基础设施（GPU、云服务）需求",
+        "watch": "对冲基金AI相关资本支出及交易量变化"
+      }
     },
     {
       "rank": 7,
@@ -97,7 +103,7 @@
     },
     {
       "rank": 9,
-      "title": "Vibe coding phenomenon lifts AI startup Supabase to $10.5 billion valuation",
+      "title": "Vibe-coding phenomenon lifts AI startup Supabase to $10.5 billion valuation",
       "source": "CNBC",
       "detail": "Database startup Supabase announced a $500 million funding round that values the company at $10.5 billion, including the fresh capital.",
       "lang": "en",
