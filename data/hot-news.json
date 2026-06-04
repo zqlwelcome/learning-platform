@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 01:11",
+  "updateTime": "2026-06-05 01:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 65,
       "insight": {
-        "what": "Wix和Intuit因财报暴雷及AI竞争被调查",
-        "assets": "📉 美股SaaS板块 承压；📉 科技成长股 利空",
-        "chain": "AI替代威胁加剧（AI抢饭碗），引发估值杀（PE压缩），拖累同类软件股",
-        "watch": "Wix/Intuit后续财报指引及AI产品进展"
+        "what": "Wix因AI竞争加剧财报暴雷，面临证券欺诈调查",
+        "assets": "📉 Wix股价 利空；📉 SaaS板块 承压",
+        "chain": "AI竞争导致中小SaaS（软件即服务）公司估值重估，可能引发板块抛售",
+        "watch": "Wix财报电话会细节及AI工具对营收影响"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "马斯克财富将因SpaceX IPO破万亿美元",
-        "assets": "📈 SpaceX股权 利好；📈 太空概念股 情绪提振",
-        "chain": "IPO前Coinbase期货（未上市衍生品）吸引散户，推高SpaceX隐含估值",
-        "watch": "SpaceX IPO时间表及Coinbase期货持仓量"
+        "what": "Intuit财报后暴跌20%，低端份额流失，面临欺诈调查",
+        "assets": "📉 Intuit股价 利空；📉 金融科技股 承压",
+        "chain": "低端市场被低价竞品侵蚀，反映消费者支出降级（转向更便宜产品），利空消费相关科技股",
+        "watch": "Intuit用户流失率及竞品（如TurboTax）市场份额变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "华尔街投行争抢SpaceX IPO承销头衔",
-        "assets": "📈 太空科技板块 利好；📈 投行股 中性偏多",
-        "chain": "投行竞争承销费（收入），IPO热度外溢至卫星/发射产业链",
-        "watch": "SpaceX SEC文件提交及估值区间"
+        "what": "马斯克身家或因SpaceX IPO突破1万亿美元",
+        "assets": "📈 SpaceX未上市股权 利好；📈 特斯拉股价 联动利好",
+        "chain": "SpaceX高估值将提振马斯克旗下公司整体溢价，特斯拉可能因创始人财富效应获买盘",
+        "watch": "SpaceX IPO估值及上市时间表"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "巴克莱调查：对冲基金是固定收益AI使用最多的群体",
-        "assets": "📈 金融科技AI股 利好；📉 传统固收交易员 利空",
-        "chain": "AI量化交易（算法自动交易）提升固收市场效率，压缩做市商（中间商）利润",
-        "watch": "对冲基金AI交易量占比及固收市场波动率"
+        "what": "Coinbase推出SpaceX未上市股权的永续期货",
+        "assets": "📈 加密货币交易所（Coinbase） 利好；📈 未上市股权市场 活跃",
+        "chain": "永续期货（无到期日合约）为散户提供流动性，可能推高SpaceX预IPO估值，并吸引资金从传统IPO（首次公开发行）转向加密渠道",
+        "watch": "Coinbase合约交易量及SpaceX估值变动"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "环球市场播报",
       "detail": "高盛集团刚刚锁定SpaceX首次公开募股主承销商的头衔，摩根士丹利随即向客户发出一份说明，称自己实际上也是这宗交易的联席主承销商...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "华尔街投行争抢SpaceX IPO承销主导权",
+        "assets": "📈 投行板块（高盛、摩根士丹利） 利好",
+        "chain": "高调IPO（首次公开发行）争夺战显示投行对科技独角兽的竞争激烈，可能推高承销费率，利好投行营收",
+        "watch": "SpaceX最终选定承销商名单及估值区间"
+      }
     },
     {
       "rank": 6,
@@ -71,11 +77,17 @@
       "source": "环球市场播报",
       "detail": "巴克莱一项调查显示，固定收益投资者中使用AI最多的是对冲基金，主要应用于研究和分析，而非交易和执行。 这家英国银行援引5月对400多家买方投资机构进行的调查称...",
       "lang": "zh",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "巴克莱调查：对冲基金在固定收益领域AI使用最多",
+        "assets": "📈 AI相关科技股 利好；📈 对冲基金板块 中性",
+        "chain": "AI在固收（债券）交易优化中应用增加，可能提升对冲基金收益率，同时利好AI提供商（如算力、算法公司）",
+        "watch": "AI在固收交易中的实际成本节省数据"
+      }
     },
     {
       "rank": 7,
-      "title": "Dow jumps 900 points, Nasdaq slides as investors rotate out of chip stocks for banks, retail: Live updates",
+      "title": "Dow jumps 800 points, Nasdaq lags as investors rotate out of chip stocks for banks, retail: Live updates",
       "source": "CNBC",
       "detail": "The S&P 500 fell Thursday as traders dumped chip stocks following an underwhelming report from Broadcom.",
       "lang": "en",
