@@ -1,42 +1,69 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-04T17:21:33.362Z",
+  "updateTime": "2026-06-04T20:23:01.526Z",
   "macro": {
     "rateUp": false,
     "rateDown": false,
-    "oilShock": false,
+    "oilShock": true,
     "aiCapex": true,
-    "riskOff": false,
+    "riskOff": true,
     "chinaSupport": false,
-    "label": "人工智能资本开支仍是主线"
+    "label": "能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折"
   },
   "candidates": [
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "基本面类",
+      "score": 6
+    },
     {
       "symbol": "hk03033",
       "code": "3033",
       "name": "恒生科技ETF",
       "market": "港股",
       "kind": "ETF",
-      "eventType": "资金行为",
-      "score": 9
+      "eventType": "基本面类",
+      "score": 6
     },
     {
-      "symbol": "usSMH",
-      "code": "SMH",
-      "name": "半导体ETF",
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
       "market": "美股",
       "kind": "ETF",
-      "eventType": "资金行为",
+      "eventType": "宏观类",
+      "score": 6
+    },
+    {
+      "symbol": "usXLE",
+      "code": "XLE",
+      "name": "能源ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "供需/地缘",
+      "score": 5
+    },
+    {
+      "symbol": "usUSO",
+      "code": "USO",
+      "name": "美国原油基金",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "供需/地缘",
       "score": 5
     }
   ],
   "stats": {
     "sampleCount": 40,
     "activeCount": 40,
-    "reviewedCount": 28,
-    "winRate": 32,
-    "avgPnl": -0.7431896476140544,
+    "reviewedCount": 27,
+    "winRate": 33,
+    "avgPnl": -0.7489395910729439,
     "equity": 99102.77590605087,
     "exposurePct": 64,
     "alerts": 0
@@ -45,9 +72,9 @@
     {
       "key": "d1",
       "label": "1日",
-      "samples": 28,
-      "winRate": 32,
-      "avg": 0.04249999999999997
+      "samples": 27,
+      "winRate": 30,
+      "avg": 0.037777777777777743
     },
     {
       "key": "d3",
@@ -66,6 +93,28 @@
   ],
   "trades": [
     {
+      "symbol": "usUSO",
+      "code": "USO",
+      "name": "美国原油基金",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 136.74,
+      "allocationPct": 8,
+      "eventTitle": "油价与地缘风险扰动",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-04-usUSO-供需/地缘",
+      "entryDate": "2026-06-04",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 136.74,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
       "symbol": "usSMH",
       "code": "SMH",
       "name": "半导体ETF",
@@ -82,8 +131,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 627.87,
-      "pnlPct": 2.4324588880187887,
+      "currentPrice": 627.53,
+      "pnlPct": 2.3769903419472618,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -126,8 +175,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 740.92,
-      "pnlPct": 0.8411138634074571,
+      "currentPrice": 740.61,
+      "pnlPct": 0.7989220676701969,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -148,8 +197,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 410.68,
-      "pnlPct": 0.688945006987521,
+      "currentPrice": 411.27,
+      "pnlPct": 0.8335989408389872,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -192,8 +241,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 58.95,
-      "pnlPct": 0.40878896269801057,
+      "currentPrice": 58.75,
+      "pnlPct": 0.06813149378299974,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -214,8 +263,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 410.68,
-      "pnlPct": 0.688945006987521,
+      "currentPrice": 411.27,
+      "pnlPct": 0.8335989408389872,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -258,8 +307,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 110.1,
-      "pnlPct": 0.018168604651159177,
+      "currentPrice": 110.09,
+      "pnlPct": 0.009084302325586043,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -373,8 +422,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 740.92,
-      "pnlPct": -0.44207952056544214,
+      "currentPrice": 740.61,
+      "pnlPct": -0.48373442979804393,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -454,8 +503,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 110.1,
-      "pnlPct": 0.018168604651159177,
+      "currentPrice": 110.09,
+      "pnlPct": 0.009084302325586043,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -535,8 +584,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 410.68,
-      "pnlPct": -0.30828984100011697,
+      "currentPrice": 411.27,
+      "pnlPct": -0.16506857628353122,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -670,8 +719,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 410.68,
-      "pnlPct": -0.30828984100011697,
+      "currentPrice": 411.27,
+      "pnlPct": -0.16506857628353122,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -697,8 +746,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 135.83,
-      "pnlPct": -1.049027464121802,
+      "currentPrice": 136.74,
+      "pnlPct": -0.3861003861003869,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -724,8 +773,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 58.95,
-      "pnlPct": 1.7080745341614942,
+      "currentPrice": 58.75,
+      "pnlPct": 1.3630089717046223,
       "ageDays": 1,
       "checkpoints": {
         "d1": {
@@ -751,8 +800,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 740.92,
-      "pnlPct": -0.5035787664334538,
+      "currentPrice": 740.61,
+      "pnlPct": -0.545207944458612,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -805,8 +854,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 627.87,
-      "pnlPct": 3.3003734719731592,
+      "currentPrice": 627.53,
+      "pnlPct": 3.2444349385498805,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -994,8 +1043,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 110.1,
-      "pnlPct": 0.036343812465920444,
+      "currentPrice": 110.09,
+      "pnlPct": 0.027257859349446793,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -1055,33 +1104,6 @@
         "d1": {
           "date": "2026-06-03",
           "pnlPct": 0
-        }
-      }
-    },
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 411.26,
-      "allocationPct": 10,
-      "eventTitle": "欧洲股市反弹，资金等待通胀数据确认",
-      "eventType": "宏观类",
-      "score": 9,
-      "id": "2026-06-02-usGLD-宏观类",
-      "entryDate": "2026-06-02",
-      "status": "仓位等待",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 410.68,
-      "pnlPct": -0.14103000534941013,
-      "ageDays": 2,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-03",
-          "pnlPct": 0.17
         }
       }
     }
