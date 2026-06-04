@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 14:51",
+  "updateTime": "2026-06-04 14:56",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4060.79",
-      "change": "-0.57"
+      "value": "4060.02",
+      "change": "-0.59"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25232.470",
-      "change": "-1.56"
+      "value": "25245.710",
+      "change": "-1.51"
     }
   },
   "etf_flows": [
     {
       "name": "新能源车ETF华夏",
       "code": "515030",
-      "price": 1.886,
-      "change": -1.87,
-      "flow": 398016714.0,
+      "price": 1.884,
+      "change": -1.98,
+      "flow": 398255138.0,
       "flow_str": "+3.98亿",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.242,
-      "change": 3.67,
-      "flow": 350578400.0,
-      "flow_str": "+3.51亿",
+      "price": 1.243,
+      "change": 3.76,
+      "flow": 350404448.0,
+      "flow_str": "+3.50亿",
       "direction": "in"
     },
     {
       "name": "科创50ETF华夏",
       "code": "588000",
-      "price": 1.834,
-      "change": 0.6,
-      "flow": 241914432.0,
-      "flow_str": "+2.42亿",
+      "price": 1.831,
+      "change": 0.44,
+      "flow": 246400976.0,
+      "flow_str": "+2.46亿",
       "direction": "in"
     },
     {
       "name": "科创半导体ETF华夏",
       "code": "588170",
-      "price": 2.514,
-      "change": 4.71,
-      "flow": 235702272.0,
-      "flow_str": "+2.36亿",
+      "price": 2.515,
+      "change": 4.75,
+      "flow": 227571120.0,
+      "flow_str": "+2.28亿",
       "direction": "in"
     },
     {
       "name": "化工ETF鹏华",
       "code": "159870",
-      "price": 0.814,
-      "change": -1.93,
-      "flow": 223327469.0,
-      "flow_str": "+2.23亿",
+      "price": 0.815,
+      "change": -1.81,
+      "flow": 224063230.0,
+      "flow_str": "+2.24亿",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "电子",
       "code": "BK1201",
-      "index": 14155.05,
-      "change": 1.31,
-      "flow": 9382133760.0,
-      "flow_str": "+93.82亿",
+      "index": 14157.25,
+      "change": 1.33,
+      "flow": 9805746176.0,
+      "flow_str": "+98.06亿",
       "direction": "in"
     },
     {
       "name": "元件",
       "code": "BK0459",
-      "index": 62884.95,
-      "change": 2.59,
-      "flow": 6431735040.0,
-      "flow_str": "+64.32亿",
+      "index": 62948.06,
+      "change": 2.7,
+      "flow": 6746911488.0,
+      "flow_str": "+67.47亿",
       "direction": "in"
     },
     {
       "name": "光学光电子",
       "code": "BK1038",
-      "index": 2323.56,
-      "change": 0.92,
-      "flow": 5255096064.0,
-      "flow_str": "+52.55亿",
+      "index": 2324.78,
+      "change": 0.97,
+      "flow": 5375361792.0,
+      "flow_str": "+53.75亿",
       "direction": "in"
     },
     {
       "name": "印制电路板",
       "code": "BK1340",
-      "index": 12638.79,
-      "change": 2.08,
-      "flow": 4963444480.0,
-      "flow_str": "+49.63亿",
+      "index": 12657.36,
+      "change": 2.23,
+      "flow": 5226222336.0,
+      "flow_str": "+52.26亿",
       "direction": "in"
     },
     {
       "name": "面板",
       "code": "BK1335",
-      "index": 3629.96,
-      "change": 0.66,
-      "flow": 3998286848.0,
-      "flow_str": "+39.98亿",
+      "index": 3633.4,
+      "change": 0.75,
+      "flow": 4041611008.0,
+      "flow_str": "+40.42亿",
       "direction": "in"
     }
   ],
@@ -135,11 +135,6 @@
     {
       "title": "世界黄金协会：多国持续加码囤金，4月全球央行重回净买入",
       "source": "市场资讯",
-      "keyword": "央行"
-    },
-    {
-      "title": "日本央行据悉考虑6月升息 日元汇率随之走强",
-      "source": "环球市场播报",
       "keyword": "央行"
     }
   ]
