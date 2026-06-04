@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 12:51",
+  "updateTime": "2026-06-04 12:55",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -26,53 +26,7 @@
       "change": "-1.39"
     }
   },
-  "etf_flows": [
-    {
-      "name": "新能源车ETF华夏",
-      "code": "515030",
-      "price": 1.886,
-      "change": -1.87,
-      "flow": 390911711.0,
-      "flow_str": "+3.91亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备ETF国泰",
-      "code": "159516",
-      "price": 1.239,
-      "change": 3.42,
-      "flow": 246313152.0,
-      "flow_str": "+2.46亿",
-      "direction": "in"
-    },
-    {
-      "name": "化工ETF鹏华",
-      "code": "159870",
-      "price": 0.815,
-      "change": -1.81,
-      "flow": 202800544.0,
-      "flow_str": "+2.03亿",
-      "direction": "in"
-    },
-    {
-      "name": "科创半导体ETF华夏",
-      "code": "588170",
-      "price": 2.499,
-      "change": 4.08,
-      "flow": 189090496.0,
-      "flow_str": "+1.89亿",
-      "direction": "in"
-    },
-    {
-      "name": "科创50ETF华夏",
-      "code": "588000",
-      "price": 1.833,
-      "change": 0.55,
-      "flow": 109517264.0,
-      "flow_str": "+1.10亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
