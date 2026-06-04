@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 00:00",
+  "updateTime": "2026-06-05 00:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 65,
       "insight": {
-        "what": "Wix和Intuit因财报暴雷及AI竞争面临证券欺诈调查",
-        "assets": "📉 美股SaaS板块 承压；📉 AI概念股 分化",
-        "chain": "AI竞争加剧导致SaaS（软件即服务）公司估值重估，可能引发板块内连锁抛售",
-        "watch": "其他SaaS公司（如Shopify）财报及AI相关指引"
+        "what": "Wix因AI竞争加剧财报暴雷，股价暴跌27%面临欺诈调查",
+        "assets": "📉 Wix股票 利空; 📉 SaaS板块 承压",
+        "chain": "AI替代风险重估（科技股估值逻辑受冲击），可能引发做空浪潮（押注下跌）",
+        "watch": "Wix后续财报指引及AI竞争格局变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "马斯克净资产或在SpaceX IPO后突破1万亿美元",
-        "assets": "📈 SpaceX估值 利好；📈 特斯拉 联动上涨",
-        "chain": "SpaceX IPO（首次公开募股）将提升马斯克信用，提振特斯拉投资者信心，但可能分流资金",
-        "watch": "SpaceX IPO时间表及估值区间"
+        "what": "Intuit财报后股价暴跌20%，因低端市场份额流失面临欺诈调查",
+        "assets": "📉 Intuit股票 利空; 📉 金融科技股 承压",
+        "chain": "低价竞争者挤压（如TurboTax），行业定价权减弱，可能拖累消费软件板块",
+        "watch": "Intuit用户流失率及竞争对手市占率变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "4000亿龙头股出现跌停涨停，机构频繁做T",
-        "assets": "📉 A股大盘蓝筹 波动加剧；📈 短线投机情绪 升温",
-        "chain": "机构通过做T（当日买卖）套利，反映市场缺乏趋势方向，可能加剧散户追涨杀跌",
-        "watch": "该龙头股后续成交量及龙虎榜数据"
+        "what": "马斯克净资产或在SpaceX IPO后突破1万亿美元",
+        "assets": "📈 SpaceX相关概念股 利好; 📈 太空板块 情绪提振",
+        "chain": "IPO定价高企（发行价超预期）将推高私人市场估值，带动特斯拉（Tesla）等关联资产联动",
+        "watch": "SpaceX IPO定价及认购倍数"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "软银单日暴跌12%，因高杠杆押注AI遭遇风险",
-        "assets": "📉 软银股票 承压；📉 全球科技股 联动下行",
-        "chain": "高杠杆（借钱投资）AI的狂欢退潮，可能引发去杠杆（抛售资产还债）连锁反应",
-        "watch": "软银资产净值及杠杆率变化"
+        "what": "4000亿龙头股跌停涨停连续大涨，机构频繁做T（当日买卖）",
+        "assets": "📉 该龙头股 波动加剧; 📈 短线交易量 利好",
+        "chain": "量化资金套利（利用价差高频交易），可能引发监管关注或散户跟风风险",
+        "watch": "该股龙虎榜机构净买卖动向"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "投资者可通过Coinbase永续合约提前交易SpaceX",
-        "assets": "📈 加密货币衍生品 活跃；📈 SpaceX估值 波动加大",
-        "chain": "永续合约（无到期日的期货）为未上市公司提供价格发现，但可能放大投机泡沫",
-        "watch": "Coinbase合约持仓量及溢价水平"
+        "what": "软银单日暴跌12%，因高杠杆豪赌AI引发风险警示",
+        "assets": "📉 软银股票 利空; 📉 日本科技股 承压",
+        "chain": "杠杆爆仓风险（抵押物价值下跌）可能传导至日本银行股，并抑制全球AI泡沫情绪",
+        "watch": "软银负债率及Arm（安谋）股价走势"
       }
     },
     {
@@ -77,7 +77,13 @@
       "source": "CNBC",
       "detail": "Pre-IPO perps give traders the ability to speculate on the value of a private company without owning shares.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "投资者可通过Coinbase永续合约提前交易SpaceX未上市股票",
+        "assets": "📈 SpaceX预上市衍生品 利好; 📈 Coinbase交易量 利好",
+        "chain": "非上市股权流动性提升（合成头寸复制真实股价），可能压低IPO首日涨幅",
+        "watch": "永续合约资金费率及基差（期货与现货价差）"
+      }
     },
     {
       "rank": 7,
