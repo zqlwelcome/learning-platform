@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 11:15",
+  "updateTime": "2026-06-04 11:20",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,63 +16,17 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4067.49",
-      "change": "-0.40"
+      "value": "4065.44",
+      "change": "-0.45"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25295.280",
-      "change": "-1.32"
+      "value": "25313.880",
+      "change": "-1.25"
     }
   },
-  "etf_flows": [
-    {
-      "name": "新能源车ETF华夏",
-      "code": "515030",
-      "price": 1.891,
-      "change": -1.61,
-      "flow": 390647045.0,
-      "flow_str": "+3.91亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备ETF国泰",
-      "code": "159516",
-      "price": 1.242,
-      "change": 3.67,
-      "flow": 246812256.0,
-      "flow_str": "+2.47亿",
-      "direction": "in"
-    },
-    {
-      "name": "化工ETF鹏华",
-      "code": "159870",
-      "price": 0.816,
-      "change": -1.69,
-      "flow": 202058854.0,
-      "flow_str": "+2.02亿",
-      "direction": "in"
-    },
-    {
-      "name": "科创半导体ETF华夏",
-      "code": "588170",
-      "price": 2.501,
-      "change": 4.16,
-      "flow": 186437136.0,
-      "flow_str": "+1.86亿",
-      "direction": "in"
-    },
-    {
-      "name": "科创50ETF华夏",
-      "code": "588000",
-      "price": 1.838,
-      "change": 0.82,
-      "flow": 102896624.0,
-      "flow_str": "+1.03亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
@@ -81,6 +35,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "全球央妈4月重新“扫货”黄金：波兰蝉联最大买家 中国央行18连增",
+      "source": "市场资讯",
+      "keyword": "央行"
+    },
     {
       "title": "长江有色: 油价高涨加剧通胀及加息忧虑 4日铝价或下跌",
       "source": "市场资讯",
