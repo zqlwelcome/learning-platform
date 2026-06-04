@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-05 07:10",
+  "updateTime": "2026-06-05 07:15",
   "news": [
     {
       "rank": 1,
+      "title": "收入波动 盈利承压燕文物流A股撤单三年后冲刺港股IPO",
+      "source": "",
+      "detail": "来源：经济参考报 近日，北京燕文物流股份有限公司（以下简称“燕文物流”）正式向港交所主板递交上市申请，独家保荐人为申万宏源香港。",
+      "lang": "zh",
+      "score": 60,
+      "insight": {
+        "what": "燕文物流A股撤单三年后冲刺港股IPO",
+        "assets": "📉 港股物流板块 承压",
+        "chain": "物流行业利润薄，高负债率（借钱多）可能压低估值，拖累板块情绪",
+        "watch": "港交所聆讯进展及招股价区间"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Elon Musk's net worth poised to sail past $1 trillion in SpaceX IPO",
       "source": "CNBC",
       "detail": "Based on SpaceX's updated IPO prospectus, Elon Musk owns shares in the company worth more than $866 billion.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO将使马斯克净值突破1万亿美元",
-        "assets": "📈 SpaceX估值 利好\n📈 太空概念股 利好",
-        "chain": "太空经济估值提升，带动SPAC（特殊目的收购公司）和VC（风险投资）对太空初创追捧",
-        "watch": "SEC（美国证监会）对IPO的审批进展及估值"
+        "what": "马斯克财富或随SpaceX IPO突破万亿美元",
+        "assets": "📈 SpaceX概念股 利好",
+        "chain": "SpaceX估值飙升将强化特斯拉（电动车）融资能力，带动航天军工板块（国防相关股票）",
+        "watch": "SpaceX IPO估值及监管审批进度"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales",
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren is pressing Jensen Huang's Nvidia over export controls, China sales, Trump and data-center policy as Congress scrutinizes the AI chip boom.",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "沃伦邀请黄仁勋出席参议院AI芯片对华销售听证会",
-        "assets": "📉 英伟达 承压\n📉 芯片股 承压",
-        "chain": "地缘政策风险上升，限制对华出口将压缩英伟达营收，拖累半导体板块",
-        "watch": "听证会结果及出口管制细则"
+        "what": "沃伦邀请黄仁勋出席参议院听证会讨论对华AI芯片销售",
+        "assets": "📉 英伟达（芯片股） 利空",
+        "chain": "听证会可能收紧出口管制（限制卖芯片给中国），压制AI芯片板块，波及半导体ETF（交易型开放式指数基金）",
+        "watch": "听证会结果及美中科技政策声明"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Jim Cramer says Thursday's rally shows investors' 'huge appetite' for stocks",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said Thursday's rally showed investors remain resilient and eager to buy stocks.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Jim Cramer称周四反弹显示投资者对股票有巨大胃口",
-        "assets": "📈 美股大盘 利好\n📈 成长股 利好",
-        "chain": "情绪指标偏多，资金可能从债市回流股市，推动风险偏好（Risk-on）",
-        "watch": "次日VIX（恐慌指数）及资金流数据"
+        "what": "Jim Cramer称周四反弹显示投资者‘巨大胃口’",
+        "assets": "📈 美股大盘 偏多",
+        "chain": "散户情绪（个人投资者信心）高涨可能延续短期涨势，但需警惕超买（涨太多）回调",
+        "watch": "次日VIX指数（恐慌指数）及资金流数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "6月5日隔夜要闻：美股收盘涨跌不一 原油下跌 伦铜走高 金价上涨 博通跌12.6% 特朗普称以黎和平协议取得进展",
       "source": "环球市场播报",
       "detail": "市场 6月5日收盘：道指涨逾870点创历史新高 博通拖累纳指收跌 6月5日美股成交额前20：博通财测平淡股价大跌12.6% 6月5日热门中概股多数下跌 万国数据涨3.01% 小马智行跌7...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "隔夜美股涨跌不一，原油跌、伦铜涨、金价涨、博通跌12.6%",
-        "assets": "📉 原油 承压\n📈 伦铜 利好\n📈 黄金 利好\n📉 博通 承压",
-        "chain": "商品分化：需求忧虑压油价，避险情绪推金铜；博通财报暴雷拖累半导体",
-        "watch": "EIA（能源署）库存数据及博通后续指引"
+        "what": "美股涨跌不一，原油跌，伦铜涨，金价涨，博通跌12.6%",
+        "assets": "📈 黄金 利好; 📉 原油 利空; 📉 博通（芯片股） 利空",
+        "chain": "避险情绪（买黄金）推高金价，能源需求担忧（经济差）打压原油，博通暴跌可能拖累半导体板块",
+        "watch": "WTI原油（美国原油）库存数据及博通财报电话会"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "美国股市：“旧经济”股票跑赢AI概念股 道琼斯工业平均指数创新高",
       "source": "环球市场播报",
       "detail": "投资者周四抛售科技股，转而买入所谓“旧经济”股票。博通的财报给人工智能热潮踩下刹车。 纳斯达克100指数在纽约收跌0.5%，盘中一度下跌1.6%，连续第二个交易日走低。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "道指创新高，旧经济股跑赢AI概念股",
-        "assets": "📈 道指 利好\n📉 AI概念股 承压",
-        "chain": "资金轮动至价值股（银行、工业），成长股（AI）估值面临修正，板块轮动加速",
-        "watch": "道指与纳指相对强弱比（RSI）"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
-      "source": "CNBC",
-      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest weekly win streak since 1985.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "标普500期货微跌，市场等待5月非农就业报告",
-        "assets": "📉 标普500期货 承压\n📈 美元 利好预期",
-        "chain": "非农数据将影响美联储降息预期（就业强则降息概率低），美元可能走强",
-        "watch": "非农新增就业人数及薪资增速"
+        "what": "道琼斯工业平均指数创新高，旧经济股跑赢AI概念股",
+        "assets": "📈 道指成分股（工业/金融） 利好; 📉 AI概念股 承压",
+        "chain": "资金轮动（从涨多的科技股转向价值股（传统行业）），暗示市场偏好防御性（风险低）板块",
+        "watch": "10年期美债收益率（借钱成本）变动及PMI（采购经理指数）数据"
       }
     },
     {
       "rank": 7,
+      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
+      "source": "CNBC",
+      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest weekly win streak since 1985.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "Anthropic 呼吁全球暂缓前沿人工智能研发，警示 AI 自主迭代风险",
       "source": "环球市场播报",
       "detail": " Anthropic 正呼吁全球顶尖人工智能实验室考虑放缓研发进度，理由是人工智能系统迭代速度过快，或将在不久后实现脱离人类干预的自主进化，进而对社会构成重大安全隐患。",
@@ -94,7 +102,7 @@
       "score": 20
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
       "source": "CNBC",
       "detail": "Eli Manning spoke about political activities from athletes after Giants QB Jaxson Dart introduced President Donald Trump at a rally.",
@@ -102,18 +110,10 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Stocks making the biggest moves after hours: Lululemon Athletica, ServiceTitan, Argan and more",
       "source": "CNBC",
       "detail": "See which stocks are posting big moves after the bell.",
-      "lang": "en",
-      "score": 17
-    },
-    {
-      "rank": 10,
-      "title": "Oil prices fall 3% on report Trump reluctant to restart Iran war",
-      "source": "CNBC",
-      "detail": "President Donald Trump told aides that he won't resume the war unless U.S. troops are killed, according to The Wall Street Journal.",
       "lang": "en",
       "score": 17
     }
