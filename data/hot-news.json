@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 06:00",
+  "updateTime": "2026-06-05 06:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO推高马斯克身价至万亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "马斯克财富效应（个人资产膨胀）可能带动特斯拉股价，但分散资金关注度",
-        "watch": "SpaceX上市估值及认购倍数"
+        "what": "SpaceX IPO推动马斯克资产破万亿美元",
+        "assets": "📈 SpaceX估值 利好; 📈 太空概念股 利好",
+        "chain": "财富效应（资产升值）或带动散户投机情绪，推高科技IPO溢价（发行价高于基本面）",
+        "watch": "SpaceX IPO定价及认购倍数"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "沃伦邀请黄仁勋参加中国AI芯片销售听证会",
-        "assets": "📉 英伟达股票 承压；📉 中国半导体 承压",
-        "chain": "出口管制（限制芯片销售）升级风险，可能拖累AI算力（人工智能计算能力）板块",
-        "watch": "听证会结果及后续制裁细则"
+        "what": "沃伦邀请黄仁勋出席参议院中国AI芯片听证会",
+        "assets": "📉 英伟达（NVIDIA） 承压; 📉 半导体ETF（SMH） 承压",
+        "chain": "地缘政治风险（出口限制）升级，可能触发芯片股抛售，并拖累AI产业链（算力需求）",
+        "watch": "听证会时间表及中国AI芯片出口禁令动向"
       }
     },
     {
       "rank": 3,
-      "title": "Dow surges nearly 900 points for record close as investors rotate away from tech names: Live updates",
-      "source": "CNBC",
-      "detail": "The Dow Jones Industrial Average rallied to a fresh all-time high on Thursday and closed at a record.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "道指飙升近900点创新高，资金从科技股轮出",
-        "assets": "📈 道指成分股（旧经济） 利好；📉 纳斯达克科技股 承压",
-        "chain": "板块轮动（资金从成长股转向价值股），反映经济复苏预期和利率敏感度变化",
-        "watch": "10年期美债收益率（长期借贷成本）走势"
-      }
-    },
-    {
-      "rank": 4,
       "title": "美国股市：“旧经济”股票跑赢AI概念股 道琼斯工业平均指数创新高",
       "source": "环球市场播报",
       "detail": "投资者周四抛售科技股，转而买入所谓“旧经济”股票。博通的财报给人工智能热潮踩下刹车。 纳斯达克100指数在纽约收跌0.5%，盘中一度下跌1.6%，连续第二个交易日走低。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "旧经济股跑赢AI概念，道指创新高",
-        "assets": "📈 工业/能源股 利好；📉 AI相关科技股 承压",
-        "chain": "市场风格切换（从高估值科技转向低估值周期股），可能引发基金调仓",
-        "watch": "标普500行业轮动指数"
+        "what": "道指创新高，旧经济股跑赢AI概念股",
+        "assets": "📈 道琼斯工业指数 利好; 📉 AI科技股（如特斯拉、英伟达） 承压",
+        "chain": "板块轮动（资金从成长股转向价值股）暗示避险情绪，降低风险偏好（追高意愿减弱）",
+        "watch": "道指成分股盈利预期及AI股资金流出量"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
+      "source": "CNBC",
+      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest weekly win streak since 1985.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "标普500期货下跌，市场等待5月非农数据",
+        "assets": "📉 标普500期货 承压; 📈 美元指数 波动",
+        "chain": "非农（就业报告）若超预期，强化加息预期（借钱成本提升），压制成长股估值",
+        "watch": "5月非农新增就业人数及薪资增速"
       }
     },
     {
       "rank": 5,
+      "title": "6月5日隔夜要闻：美股收盘涨跌不一 原油下跌 伦铜走高 金价上涨 博通跌12.6% 特朗普称以黎和平协议取得进展",
+      "source": "环球市场播报",
+      "detail": "市场 6月5日收盘：道指涨逾870点创历史新高 博通拖累纳指收跌 6月5日美股成交额前20：博通财测平淡股价大跌12.6% 6月5日热门中概股多数下跌 万国数据涨3.01% 小马智行跌7...",
+      "lang": "zh",
+      "score": 27,
+      "insight": {
+        "what": "隔夜美股涨跌互现，原油跌，伦铜涨，黄金涨，博通暴跌12.6%",
+        "assets": "📉 原油（WTI） 承压; 📈 铜（LME） 利好; 📈 黄金（XAU） 利好; 📉 博通（AVGO） 承压",
+        "chain": "黄金涨暗示避险，原油跌反映需求担忧，博通暴跌可能拖累半导体板块（连锁反应）",
+        "watch": "博通业绩指引及OPEC+产量政策"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Anthropic 呼吁全球暂缓前沿人工智能研发，警示 AI 自主迭代风险",
       "source": "环球市场播报",
       "detail": " Anthropic 正呼吁全球顶尖人工智能实验室考虑放缓研发进度，理由是人工智能系统迭代速度过快，或将在不久后实现脱离人类干预的自主进化，进而对社会构成重大安全隐患。",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "Anthropic呼吁全球暂停前沿AI研发，警示自主迭代风险",
-        "assets": "📉 AI概念股 承压；📈 监管合规股 利好",
-        "chain": "监管风险（政策干预）上升，可能推迟AI商业化进度，利好合规成本低的公司",
-        "watch": "各国AI监管法案进展"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
-      "source": "CNBC",
-      "detail": "Eli Manning spoke about political activities from athletes after Giants QB Jaxson Dart introduced President Donald Trump at a rally.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "伊莱·曼宁评价巨人队四分卫特朗普集会后果",
-        "assets": "📉 NFL相关媒体股 承压",
-        "chain": "政治关联（运动员站队）可能导致品牌赞助商撤离，影响体育营销收入",
-        "watch": "NFL收视率和赞助商声明"
+        "what": "Anthropic呼吁全球暂缓前沿AI研发，警示AI自主迭代风险",
+        "assets": "📉 AI概念股（如微软、谷歌） 承压; 📈 监管政策 不确定性",
+        "chain": "监管风险（政府干预）加剧，可能引发AI行业估值回调（盈利预期下调），利好合规成本低的传统科技",
+        "watch": "G7或美国AI监管立法进展"
       }
     },
     {
       "rank": 7,
+      "title": "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
+      "source": "CNBC",
+      "detail": "Eli Manning spoke about political activities from athletes after Giants QB Jaxson Dart introduced President Donald Trump at a rally.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 8,
       "title": "Stocks making the biggest moves after hours: Lululemon Athletica, ServiceTitan, Argan and more",
       "source": "CNBC",
       "detail": "See which stocks are posting big moves after the bell.",
@@ -94,7 +102,7 @@
       "score": 17
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Oil prices fall 3% on report Trump reluctant to restart Iran war",
       "source": "CNBC",
       "detail": "President Donald Trump told aides that he won't resume the war unless U.S. troops are killed, according to The Wall Street Journal.",
@@ -102,18 +110,10 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "6月5日美股成交额前20：博通财测平淡股价大跌12.6%",
       "source": "环球市场播报",
       "detail": "周四美股成交额第1名美光科技收7.74%，成交536.42亿美元。周四美光科技等存储概念股集体走低。消息面上，周三收盘后，博通公布的最新财报因2027财年AI营收指引“较为平淡”引...",
-      "lang": "zh",
-      "score": 15
-    },
-    {
-      "rank": 10,
-      "title": "美股医疗板块全线走强，助推道指涨 900 点",
-      "source": "环球市场播报",
-      "detail": "周四，医疗与金融板块个股拉动道琼斯工业平均指数大幅收涨，科技板块走势则表现落后。 联合健康集团是道指成分股，在美银上调其股票评级后股价涨幅超 5%...",
       "lang": "zh",
       "score": 15
     }
