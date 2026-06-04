@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 09:55",
+  "updateTime": "2026-06-04 10:00",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,64 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4072.71",
-      "change": "-0.28"
+      "value": "4076.22",
+      "change": "-0.19"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25444.720",
-      "change": "-0.74"
+      "value": "25411.320",
+      "change": "-0.87"
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "数字芯片设计",
-      "code": "BK1331",
-      "index": 27694.92,
-      "change": 0.93,
-      "flow": 1014651648.0,
-      "flow_str": "+10.15亿",
-      "direction": "in"
-    },
-    {
-      "name": "LED",
-      "code": "BK1333",
-      "index": 8402.61,
-      "change": 0.08,
-      "flow": 930928400.0,
-      "flow_str": "+9.31亿",
-      "direction": "in"
-    },
-    {
-      "name": "光学光电子",
-      "code": "BK1038",
-      "index": 2300.8,
-      "change": -0.07,
-      "flow": 708694016.0,
-      "flow_str": "+7.09亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备",
-      "code": "BK1326",
-      "index": 44509.06,
-      "change": 2.18,
-      "flow": 403703136.0,
-      "flow_str": "+4.04亿",
-      "direction": "in"
-    },
-    {
-      "name": "工程咨询服务Ⅲ",
-      "code": "BK1471",
-      "index": 831.6,
-      "change": -1.06,
-      "flow": 379021936.0,
-      "flow_str": "+3.79亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
