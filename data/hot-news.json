@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 22:31",
+  "updateTime": "2026-06-04 22:32",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,12 @@
       "source": "CNBC",
       "detail": "Options volume is picking up in Nasdaq-listed Echostar, a $35-billion networking business based in Colorado that owns an estimated 3% of SpaceX stock.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "SpaceX要上市了，大家开始疯买一家叫Echostar的股票，因为它手里有SpaceX的股份。",
+        "why": "Echostar持有约3%的SpaceX股份，相当于买它就间接押注SpaceX上市后的身价，所以交易量猛增。",
+        "tip": "别跟风追这种“影子股”，上市估值可能和预期差很大，小心买贵了。"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +20,12 @@
       "source": "CNBC",
       "detail": "Based on SpaceX's updated IPO prospectus, Elon Musk owns shares in the company worth more than $866 billion.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "马斯克在SpaceX的股份价值超过8660亿美元，上市后他个人财富可能破万亿。",
+        "why": "SpaceX估值越高，马斯克手里的股票就越值钱，这显示公司被市场极度看好，也推高了他的身价。",
+        "tip": "别只看老板身价，要关注公司实际赚钱能力，上市后股价可能涨也可能跌。"
+      }
     },
     {
       "rank": 3,
@@ -23,7 +33,12 @@
       "source": "CNBC",
       "detail": "Here are Thursday's biggest calls on Wall Street.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "华尔街分析师周四集中点评了英伟达、苹果等一堆科技巨头股票。",
+        "why": "分析师报告会影响机构买卖决策，比如调高评级（看好）可能让股价涨，调低则可能跌，给市场风向标。",
+        "tip": "散户别光看评级，要自己查公司财报和新闻，分析师也可能看走眼。"
+      }
     },
     {
       "rank": 4,
@@ -31,7 +46,12 @@
       "source": "环球市场播报",
       "detail": "在6月1日成为日本市值第一仅两天后，软银集团周四遭遇猛烈抛售，股价暴跌逾11%，市值瞬间蒸发超5万亿日元，并拖累其持有的Arm股价盘前重挫5%。",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "软银股价一天暴跌12%，因为豪赌AI借了太多钱，市场害怕了。",
+        "why": "软银靠高杠杆（借钱投资）押注AI，一旦市场风吹草动，投资者怕它还不上债，就疯狂抛售，连锁反应拖累其他股票。",
+        "tip": "别碰高杠杆公司，借钱投资风险大，股价容易一夜暴跌，普通人玩不起。"
+      }
     },
     {
       "rank": 5,
@@ -39,7 +59,12 @@
       "source": "CNBC",
       "detail": "Pre-IPO perps give traders the ability to speculate on the value of a private company without owning shares.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "现在能用Coinbase的“期货”提前赌SpaceX上市后的价格，不用真买股票。",
+        "why": "这叫pre-IPO perpetual（上市前永续合约），让你在没上市时就能投机，但本质是赌博，风险极高。",
+        "tip": "别碰这种“提前赌”的金融产品，亏起来没底，等上市后买正股更踏实。"
+      }
     },
     {
       "rank": 6,
@@ -47,7 +72,12 @@
       "source": "CNBC",
       "detail": "Brett Winton said SpaceX's Starlink satellite broadband network is the primary driver of ARK's valuation thesis.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "Ark基金说SpaceX的星链（卫星宽带网络）业务，光它就值2万亿美元。",
+        "why": "星链用户多、增长快，是SpaceX最赚钱的业务，所以Ark认为上市后估值会很高，带动整个公司值钱。",
+        "tip": "别全信基金公司的吹捧，它们可能为了卖自己产品夸大，要自己看数据。"
+      }
     },
     {
       "rank": 7,
@@ -55,7 +85,12 @@
       "source": "环球市场播报",
       "detail": " SpaceX周四一早通过一段视频向散户投资者展开IPO推介。在这段视频中，首席财务官Bret Johnsen把公司的火箭、卫星和人工智能业务串联了起来。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "SpaceX发了个17分钟视频，向散户推销上市，讲火箭、卫星和AI有多牛。",
+        "why": "这是在上市前吸引普通投资者关注，让更多人想买股票，推高上市时的价格。",
+        "tip": "对宣传视频保持警惕，公司总画大饼，多留意招股书里的风险提示。"
+      }
     },
     {
       "rank": 8,
@@ -63,7 +98,12 @@
       "source": "环球市场播报",
       "detail": "投资者强劲需求推动Alphabet将原定800亿美元的股权融资规模上调至847.5亿美元，以加速其人工智能基础设施的全球扩张。 根据6月2日提交给美国证券交易委员会的最新文件...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "Alphabet（谷歌母公司）加大AI融资到847.5亿美元，连巴菲特也投了100亿。",
+        "why": "AI需要建大量数据中心（存算数据的房子），很烧钱，大公司和巴菲特都看好这个方向，说明AI是未来重点。",
+        "tip": "普通人可以关注AI相关指数基金（一篮子AI公司股票），比押注单家公司稳。"
+      }
     },
     {
       "rank": 9,
@@ -71,7 +111,12 @@
       "source": "环球市场播报",
       "detail": "纳斯达克上市仅两个月的数字基础设施公司Z Squared Inc．近日宣布，已与LucentHash/Data Part Capital签署一项5000万美元的承诺股权远期购买协议...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "一家新公司Z Squared融资5000万美元，专门建AI用的数字基础设施。",
+        "why": "AI大爆发需要更多服务器和网络，这类公司就是“卖铲子”的，给AI公司提供工具，可能跟着赚大钱。",
+        "tip": "投资“卖铲子”的公司（如芯片、数据中心）比直接赌AI应用更稳妥。"
+      }
     },
     {
       "rank": 10,
@@ -79,7 +124,12 @@
       "source": "CNBC",
       "detail": "The population of global millionaires surged 7.9% to 25.3 million in 2025, according to the Capgemini World Wealth Report.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "去年全球股市大涨，新增了200万个百万富翁（美元资产）。",
+        "why": "股票涨了，很多人手里的股票和基金价值飙升，资产就破了百万美元，说明市场整体在涨。",
+        "tip": "别眼红，坚持定投指数基金（定期买一篮子股票），长期也能慢慢变富。"
+      }
     }
   ]
 }
