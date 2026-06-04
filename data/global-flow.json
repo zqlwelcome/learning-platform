@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 10:45",
+  "updateTime": "2026-06-04 10:51",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4069.02",
+      "value": "4068.85",
       "change": "-0.37"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25302.820",
-      "change": "-1.29"
+      "value": "25282.070",
+      "change": "-1.37"
     }
   },
   "etf_flows": [
     {
-      "name": "化工ETF鹏华",
-      "code": "159870",
-      "price": 0.814,
-      "change": -1.93,
-      "flow": 200352655.0,
-      "flow_str": "+2.00亿",
+      "name": "新能源车ETF华夏",
+      "code": "515030",
+      "price": 1.891,
+      "change": -1.61,
+      "flow": 232270767.0,
+      "flow_str": "+2.32亿",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.239,
-      "change": 3.42,
-      "flow": 186589792.0,
-      "flow_str": "+1.87亿",
+      "price": 1.242,
+      "change": 3.67,
+      "flow": 213847712.0,
+      "flow_str": "+2.14亿",
+      "direction": "in"
+    },
+    {
+      "name": "化工ETF鹏华",
+      "code": "159870",
+      "price": 0.814,
+      "change": -1.93,
+      "flow": 200420456.0,
+      "flow_str": "+2.00亿",
       "direction": "in"
     },
     {
       "name": "科创半导体ETF华夏",
       "code": "588170",
-      "price": 2.505,
-      "change": 4.33,
-      "flow": 154531456.0,
-      "flow_str": "+1.55亿",
-      "direction": "in"
-    },
-    {
-      "name": "新能源车ETF华夏",
-      "code": "515030",
-      "price": 1.892,
-      "change": -1.56,
-      "flow": 146713320.0,
-      "flow_str": "+1.47亿",
+      "price": 2.506,
+      "change": 4.37,
+      "flow": 164680960.0,
+      "flow_str": "+1.65亿",
       "direction": "in"
     },
     {
       "name": "科创50ETF华夏",
       "code": "588000",
-      "price": 1.839,
-      "change": 0.88,
-      "flow": 66503664.0,
-      "flow_str": "+6650.37万",
+      "price": 1.84,
+      "change": 0.93,
+      "flow": 79053488.0,
+      "flow_str": "+7905.35万",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "光学光电子",
       "code": "BK1038",
-      "index": 2307.0,
-      "change": 0.2,
-      "flow": 2488964096.0,
-      "flow_str": "+24.89亿",
+      "index": 2307.81,
+      "change": 0.23,
+      "flow": 2523590400.0,
+      "flow_str": "+25.24亿",
       "direction": "in"
     },
     {
       "name": "数字芯片设计",
       "code": "BK1331",
-      "index": 27737.22,
-      "change": 1.09,
-      "flow": 1979072256.0,
-      "flow_str": "+19.79亿",
-      "direction": "in"
-    },
-    {
-      "name": "面板",
-      "code": "BK1335",
-      "index": 3610.17,
-      "change": 0.11,
-      "flow": 1530080256.0,
-      "flow_str": "+15.30亿",
+      "index": 27768.78,
+      "change": 1.2,
+      "flow": 2252034816.0,
+      "flow_str": "+22.52亿",
       "direction": "in"
     },
     {
       "name": "半导体",
       "code": "BK1036",
-      "index": 2861.73,
-      "change": 1.55,
-      "flow": 1269453312.0,
-      "flow_str": "+12.69亿",
+      "index": 2865.4,
+      "change": 1.68,
+      "flow": 1861453824.0,
+      "flow_str": "+18.61亿",
+      "direction": "in"
+    },
+    {
+      "name": "面板",
+      "code": "BK1335",
+      "index": 3610.08,
+      "change": 0.11,
+      "flow": 1570912000.0,
+      "flow_str": "+15.71亿",
       "direction": "in"
     },
     {
       "name": "LED",
       "code": "BK1333",
-      "index": 8431.99,
-      "change": 0.43,
-      "flow": 1254137888.0,
-      "flow_str": "+12.54亿",
+      "index": 8442.05,
+      "change": 0.55,
+      "flow": 1258619056.0,
+      "flow_str": "+12.59亿",
       "direction": "in"
     }
   ],
@@ -126,5 +126,11 @@
     "sgt": 0,
     "total": 0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "长江有色: 油价高涨加剧通胀及加息忧虑 4日铝价或下跌",
+      "source": "市场资讯",
+      "keyword": "加息"
+    }
+  ]
 }
