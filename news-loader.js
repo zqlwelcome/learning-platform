@@ -189,7 +189,8 @@ function prepareNewsList(news) {
     });
 
     const seenTitles = new Set();
-    return Array.from(unique.values()).sort((a, b) => b._rankScore - a._rankScore)
+    const sorted = Array.from(unique.values()).sort((a, b) => b._rankScore - a._rankScore);
+    return diversifyNewsList(sorted)
         .filter(item => {
             const titleKey = normalizeTitleKey(getNewsDisplay(item).title);
             if (seenTitles.has(titleKey)) return false;
@@ -201,7 +202,7 @@ function prepareNewsList(news) {
 
 function isAllowedTopNews(item) {
     const raw = `${item.title || ''} ${item.titleZh || ''} ${item.detail || ''} ${item.source || ''}`.toLowerCase();
-    const isMarket = /财经|金融|证券|股|债|基金|银行|央行|美联储|利率|通胀|衰退|经济|估值|回购|英伟达|芯片|人工智能|数据中心|上市|gdp|pmi|market|stock|shares|s&p|nasdaq|dow|treasury|yield|bond|central bank|fed|inflation|recession|economy|oil|gold|commodity|earnings|valuation|buyback|ipo|invest|wall street|barclays|nvidia|ibm|openai|data center|ai/.test(raw);
+    const isMarket = /财经|金融|证券|股|债|基金|银行|央行|美联储|利率|通胀|衰退|经济|估值|回购|英伟达|芯片|人工智能|数据中心|上市|gdp|pmi|market|stock|shares|s&p|nasdaq|dow|treasury|yield|bond|central bank|fed|inflation|recession|economy|oil|gold|commodity|earnings|valuation|buyback|ipo|invest|wall street|barclays|nvidia|ibm|openai|data center|\bai\b/.test(raw);
     const isLaw = /法律|法规|条例|监管|起诉|诉讼|合规|检察长|司法|证交会|sec|antitrust|lawsuit|regulation|regulatory|attorney general/.test(raw);
     const isGeo = /地缘|伊朗|以色列|黎巴嫩|停火|霍尔木兹|真主党|战争|冲突|制裁|iran|israel|lebanon|ceasefire|hezbollah|hormuz|war|conflict|sanction/.test(raw);
     const isNoise = /celebrity|sports|movie|music|game|gossip|娱乐|体育|影视|明星/.test(raw);
