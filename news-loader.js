@@ -311,15 +311,7 @@ function getNewsEventKey(item, display) {
     if (/florida.*openai|佛罗里达州总检察长/.test(text)) return 'florida-openai-lawsuit';
     if (/黎巴嫩议会议长.*真主党.*停火|hezbollah.*ceasefire|lebanon.*ceasefire/.test(text)) return 'lebanon-ceasefire';
     if (/bankofamerica|美银|nvidiaandapple|英伟达苹果/.test(text)) return 'bofa-nvidia-apple';
-    if (/softbank|软银|france|法国|75bn|75billion|人工智能facility/.test(text)) return 'softbank-ai-france';
-    if (/spacex|太空公司|太空概念|马斯克/.test(text)) return 'spacex-listing';
-    if (/openai|chatgpt|人工智能公司|聊天机器人|广告商业化/.test(text)) return 'openai-commercial';
     if (/micron|美光|overbought|超买/.test(text)) return 'micron-overbought';
-    if (/topwallstreetanalysts|wallstreetanalysts/.test(text)) return 'analyst-stock-picks';
-    if (/threeas|economyafloat|recession|经济衰退/.test(text)) return 'us-economy-resilience';
-    if (/nokiadellcisco|nokia|cisco|老牌科技/.test(text)) return 'legacy-tech-ai';
-    if (/油价|原油|oil|opec|伊朗|iran/.test(text)) return 'oil-geopolitics';
-    if (/a股|董秘|上市公司治理|证监会/.test(text)) return 'a-share-governance';
     if (/defensespending|shangrila|香格里拉|ukraine|乌克兰/.test(text)) return 'shangri-la-defense';
     // 用完整标题做key，避免不同新闻被意外合并
     return normalizeTitleKey(display.title) || text;
