@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 10:35",
+  "updateTime": "2026-06-04 10:40",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,64 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4065.50",
-      "change": "-0.45"
+      "value": "4068.48",
+      "change": "-0.38"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25321.580",
-      "change": "-1.22"
+      "value": "25342.550",
+      "change": "-1.13"
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "光学光电子",
-      "code": "BK1038",
-      "index": 2308.48,
-      "change": 0.26,
-      "flow": 2302533376.0,
-      "flow_str": "+23.03亿",
-      "direction": "in"
-    },
-    {
-      "name": "数字芯片设计",
-      "code": "BK1331",
-      "index": 27670.94,
-      "change": 0.85,
-      "flow": 1984013056.0,
-      "flow_str": "+19.84亿",
-      "direction": "in"
-    },
-    {
-      "name": "面板",
-      "code": "BK1335",
-      "index": 3616.9,
-      "change": 0.3,
-      "flow": 1380621568.0,
-      "flow_str": "+13.81亿",
-      "direction": "in"
-    },
-    {
-      "name": "LED",
-      "code": "BK1333",
-      "index": 8441.17,
-      "change": 0.54,
-      "flow": 1246508864.0,
-      "flow_str": "+12.47亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备",
-      "code": "BK1326",
-      "index": 44485.63,
-      "change": 2.13,
-      "flow": 1038633216.0,
-      "flow_str": "+10.39亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
