@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 09:46",
+  "updateTime": "2026-06-04 09:50",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,110 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4074.76",
-      "change": "-0.23"
+      "value": "4071.30",
+      "change": "-0.31"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25484.510",
-      "change": "-0.58"
+      "value": "25422.920",
+      "change": "-0.82"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
+  "etf_flows": [
+    {
+      "name": "化工ETF鹏华",
+      "code": "159870",
+      "price": 0.813,
+      "change": -2.05,
+      "flow": 53015020.0,
+      "flow_str": "+5301.50万",
+      "direction": "in"
+    },
+    {
+      "name": "中证1000ETF华夏",
+      "code": "159845",
+      "price": 3.473,
+      "change": -0.26,
+      "flow": 31556958.0,
+      "flow_str": "+3155.70万",
+      "direction": "in"
+    },
+    {
+      "name": "科创半导体ETF华夏",
+      "code": "588170",
+      "price": 2.443,
+      "change": 1.75,
+      "flow": 19737478.0,
+      "flow_str": "+1973.75万",
+      "direction": "in"
+    },
+    {
+      "name": "中证2000ETF华泰柏瑞",
+      "code": "563300",
+      "price": 1.547,
+      "change": -0.39,
+      "flow": 18773349.0,
+      "flow_str": "+1877.33万",
+      "direction": "in"
+    },
+    {
+      "name": "船舶ETF富国",
+      "code": "560710",
+      "price": 0.997,
+      "change": 3.21,
+      "flow": 14099182.0,
+      "flow_str": "+1409.92万",
+      "direction": "in"
+    }
+  ],
+  "sector_flows": [
+    {
+      "name": "数字芯片设计",
+      "code": "BK1331",
+      "index": 27524.91,
+      "change": 0.31,
+      "flow": 830079232.0,
+      "flow_str": "+8.30亿",
+      "direction": "in"
+    },
+    {
+      "name": "LED",
+      "code": "BK1333",
+      "index": 8417.43,
+      "change": 0.26,
+      "flow": 396075888.0,
+      "flow_str": "+3.96亿",
+      "direction": "in"
+    },
+    {
+      "name": "工程咨询服务Ⅲ",
+      "code": "BK1471",
+      "index": 832.83,
+      "change": -0.91,
+      "flow": 353926384.0,
+      "flow_str": "+3.54亿",
+      "direction": "in"
+    },
+    {
+      "name": "工程咨询服务Ⅱ",
+      "code": "BK0726",
+      "index": 832.83,
+      "change": -0.91,
+      "flow": 353926384.0,
+      "flow_str": "+3.54亿",
+      "direction": "in"
+    },
+    {
+      "name": "光学光电子",
+      "code": "BK1038",
+      "index": 2299.94,
+      "change": -0.11,
+      "flow": 285166080.0,
+      "flow_str": "+2.85亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
