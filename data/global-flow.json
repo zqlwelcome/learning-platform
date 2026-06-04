@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 09:50",
+  "updateTime": "2026-06-04 09:55",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,107 +16,61 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4071.30",
-      "change": "-0.31"
+      "value": "4072.71",
+      "change": "-0.28"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25422.920",
-      "change": "-0.82"
+      "value": "25444.720",
+      "change": "-0.74"
     }
   },
-  "etf_flows": [
-    {
-      "name": "化工ETF鹏华",
-      "code": "159870",
-      "price": 0.813,
-      "change": -2.05,
-      "flow": 53015020.0,
-      "flow_str": "+5301.50万",
-      "direction": "in"
-    },
-    {
-      "name": "中证1000ETF华夏",
-      "code": "159845",
-      "price": 3.473,
-      "change": -0.26,
-      "flow": 31556958.0,
-      "flow_str": "+3155.70万",
-      "direction": "in"
-    },
-    {
-      "name": "科创半导体ETF华夏",
-      "code": "588170",
-      "price": 2.443,
-      "change": 1.75,
-      "flow": 19737478.0,
-      "flow_str": "+1973.75万",
-      "direction": "in"
-    },
-    {
-      "name": "中证2000ETF华泰柏瑞",
-      "code": "563300",
-      "price": 1.547,
-      "change": -0.39,
-      "flow": 18773349.0,
-      "flow_str": "+1877.33万",
-      "direction": "in"
-    },
-    {
-      "name": "船舶ETF富国",
-      "code": "560710",
-      "price": 0.997,
-      "change": 3.21,
-      "flow": 14099182.0,
-      "flow_str": "+1409.92万",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
   "sector_flows": [
     {
       "name": "数字芯片设计",
       "code": "BK1331",
-      "index": 27524.91,
-      "change": 0.31,
-      "flow": 830079232.0,
-      "flow_str": "+8.30亿",
+      "index": 27694.92,
+      "change": 0.93,
+      "flow": 1014651648.0,
+      "flow_str": "+10.15亿",
       "direction": "in"
     },
     {
       "name": "LED",
       "code": "BK1333",
-      "index": 8417.43,
-      "change": 0.26,
-      "flow": 396075888.0,
-      "flow_str": "+3.96亿",
-      "direction": "in"
-    },
-    {
-      "name": "工程咨询服务Ⅲ",
-      "code": "BK1471",
-      "index": 832.83,
-      "change": -0.91,
-      "flow": 353926384.0,
-      "flow_str": "+3.54亿",
-      "direction": "in"
-    },
-    {
-      "name": "工程咨询服务Ⅱ",
-      "code": "BK0726",
-      "index": 832.83,
-      "change": -0.91,
-      "flow": 353926384.0,
-      "flow_str": "+3.54亿",
+      "index": 8402.61,
+      "change": 0.08,
+      "flow": 930928400.0,
+      "flow_str": "+9.31亿",
       "direction": "in"
     },
     {
       "name": "光学光电子",
       "code": "BK1038",
-      "index": 2299.94,
-      "change": -0.11,
-      "flow": 285166080.0,
-      "flow_str": "+2.85亿",
+      "index": 2300.8,
+      "change": -0.07,
+      "flow": 708694016.0,
+      "flow_str": "+7.09亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备",
+      "code": "BK1326",
+      "index": 44509.06,
+      "change": 2.18,
+      "flow": 403703136.0,
+      "flow_str": "+4.04亿",
+      "direction": "in"
+    },
+    {
+      "name": "工程咨询服务Ⅲ",
+      "code": "BK1471",
+      "index": 831.6,
+      "change": -1.06,
+      "flow": 379021936.0,
+      "flow_str": "+3.79亿",
       "direction": "in"
     }
   ],
@@ -126,11 +80,5 @@
     "sgt": 0,
     "total": 0
   },
-  "bank_news": [
-    {
-      "title": "3月大抛售后，全球央行4月重新恢复购金，波兰、中国央行是最大买家",
-      "source": "市场资讯",
-      "keyword": "央行"
-    }
-  ]
+  "bank_news": []
 }
