@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 06:10",
+  "updateTime": "2026-06-05 06:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "马斯克身家或随SpaceX IPO突破1万亿美元",
-        "assets": "📈 SpaceX估值 利好\n📈 太空概念股 利好",
-        "chain": "SpaceX IPO提振风险偏好（市场情绪），资金可能从防御板块（公用事业）轮动至成长型科技股",
-        "watch": "SpaceX IPO估值及认购倍数"
+        "what": "马斯克财富因SpaceX IPO将破万亿",
+        "assets": "📈 SpaceX估值 利好; 📈 电动汽车股 情绪提振",
+        "chain": "SpaceX上市推动太空经济板块（太空概念股）估值重塑，资金可能从传统科技股轮动",
+        "watch": "SpaceX IPO定价及认购倍数"
       }
     },
     {
@@ -24,69 +24,77 @@
       "score": 44,
       "insight": {
         "what": "沃伦邀请黄仁勋参加中国AI芯片销售听证会",
-        "assets": "📉 英伟达 承压\n📉 半导体板块 承压",
-        "chain": "听证会可能收紧对华出口限制（卖芯片门槛提高），冲击AI芯片需求，拖累美股科技板块",
-        "watch": "听证会结果及出口管制细则"
+        "assets": "📉 英伟达股价 承压; 📉 半导体ETF 利空",
+        "chain": "听证会可能强化对华出口限制（芯片禁运），影响英伟达营收预期，拖累AI产业链",
+        "watch": "听证会结果及中美芯片政策声明"
       }
     },
     {
       "rank": 3,
+      "title": "Jim Cramer says Thursday's rally shows investors' 'huge appetite' for stocks",
+      "source": "CNBC",
+      "detail": "CNBC's Jim Cramer said Thursday's rally showed investors remain resilient and eager to buy stocks.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "吉姆·克莱默称周四反弹显示投资者强烈买入意愿",
+        "assets": "📈 标普500指数 短期看涨; 📈 科技股 情绪支撑",
+        "chain": "散户情绪（散户投资者信心）可能驱动追涨，但需警惕FOMO（害怕错过）后的回调风险",
+        "watch": "次日VIX指数（恐慌指数）变化"
+      }
+    },
+    {
+      "rank": 4,
       "title": "6月5日隔夜要闻：美股收盘涨跌不一 原油下跌 伦铜走高 金价上涨 博通跌12.6% 特朗普称以黎和平协议取得进展",
       "source": "环球市场播报",
       "detail": "市场 6月5日收盘：道指涨逾870点创历史新高 博通拖累纳指收跌 6月5日美股成交额前20：博通财测平淡股价大跌12.6% 6月5日热门中概股多数下跌 万国数据涨3.01% 小马智行跌7...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "美股涨跌不一，原油跌、伦铜涨、金价涨，博通跌12.6%",
-        "assets": "📉 原油 承压\n📈 伦铜 利好\n📈 黄金 利好\n📉 博通 承压",
-        "chain": "原油跌反映需求疲软（经济放缓）；铜金涨暗示避险情绪（买安全资产），资金从大宗商品转向贵金属",
-        "watch": "6月非农就业数据及OPEC+产量政策"
+        "what": "6月5日隔夜：美股分化，原油跌，伦铜金价涨，博通跌12.6%",
+        "assets": "📉 原油期货 承压; 📈 伦铜 利好; 📈 黄金 避险; 📉 博通股价 利空",
+        "chain": "经济数据分歧（制造业弱/服务业强）导致大宗商品分化，铜涨反映中国需求预期，油跌因库存增加",
+        "watch": "EIA原油库存及中国PMI数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "美国股市：“旧经济”股票跑赢AI概念股 道琼斯工业平均指数创新高",
       "source": "环球市场播报",
       "detail": "投资者周四抛售科技股，转而买入所谓“旧经济”股票。博通的财报给人工智能热潮踩下刹车。 纳斯达克100指数在纽约收跌0.5%，盘中一度下跌1.6%，连续第二个交易日走低。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "道指创新高，旧经济股跑赢AI概念股",
-        "assets": "📈 道指 利好\n📈 工业/能源股 利好\n📉 AI概念股 承压",
-        "chain": "资金从高估值AI股（泡沫风险）轮动至传统周期股（经济复苏预期），暗示市场转向防御风格",
-        "watch": "AI龙头财报及道指成分股盈利趋势"
+        "what": "美股旧经济股跑赢AI概念，道指创新高",
+        "assets": "📈 道琼斯工业指数 利好; 📉 AI概念股 承压",
+        "chain": "板块轮动（资金从高估值科技转向价值股）反映市场对利率敏感度下降，防御性配置增强",
+        "watch": "10年期美债收益率及制造业PMI"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
       "source": "CNBC",
       "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest weekly win streak since 1985.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500期货小幅下跌，等待5月非农报告",
-        "assets": "📉 标普500期货 承压\n📈 美元 待定",
-        "chain": "非农数据将影响降息预期（加息或降息时间表），若就业强则利空股市、利好美元",
-        "watch": "5月非农新增就业人数及失业率"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Anthropic 呼吁全球暂缓前沿人工智能研发，警示 AI 自主迭代风险",
-      "source": "环球市场播报",
-      "detail": " Anthropic 正呼吁全球顶尖人工智能实验室考虑放缓研发进度，理由是人工智能系统迭代速度过快，或将在不久后实现脱离人类干预的自主进化，进而对社会构成重大安全隐患。",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "Anthropic呼吁暂停前沿AI研发，警示AI自主迭代风险",
-        "assets": "📉 AI概念股 承压\n📉 科技板块 承压",
-        "chain": "监管风险升温（政府可能干预），打压AI投资热度，资金可能流出科技股转向必需消费",
-        "watch": "各国AI监管政策动态及Anthropic后续行动"
+        "what": "标普500期货微跌，市场等待5月非农就业报告",
+        "assets": "📉 标普500期货 短期承压; 📈 美元指数 等待方向",
+        "chain": "非农数据（就业人数）将影响降息预期（借钱成本降低），若超预期则利空债券利好美元",
+        "watch": "5月非农就业人数及失业率"
       }
     },
     {
       "rank": 7,
+      "title": "Anthropic 呼吁全球暂缓前沿人工智能研发，警示 AI 自主迭代风险",
+      "source": "环球市场播报",
+      "detail": " Anthropic 正呼吁全球顶尖人工智能实验室考虑放缓研发进度，理由是人工智能系统迭代速度过快，或将在不久后实现脱离人类干预的自主进化，进而对社会构成重大安全隐患。",
+      "lang": "zh",
+      "score": 20
+    },
+    {
+      "rank": 8,
       "title": "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
       "source": "CNBC",
       "detail": "Eli Manning spoke about political activities from athletes after Giants QB Jaxson Dart introduced President Donald Trump at a rally.",
@@ -94,7 +102,7 @@
       "score": 20
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Stocks making the biggest moves after hours: Lululemon Athletica, ServiceTitan, Argan and more",
       "source": "CNBC",
       "detail": "See which stocks are posting big moves after the bell.",
@@ -102,20 +110,12 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil prices fall 3% on report Trump reluctant to restart Iran war",
       "source": "CNBC",
       "detail": "President Donald Trump told aides that he won't resume the war unless U.S. troops are killed, according to The Wall Street Journal.",
       "lang": "en",
       "score": 17
-    },
-    {
-      "rank": 10,
-      "title": "6月5日美股成交额前20：博通财测平淡股价大跌12.6%",
-      "source": "环球市场播报",
-      "detail": "周四美股成交额第1名美光科技收7.74%，成交536.42亿美元。周四美光科技等存储概念股集体走低。消息面上，周三收盘后，博通公布的最新财报因2027财年AI营收指引“较为平淡”引...",
-      "lang": "zh",
-      "score": 15
     }
   ]
 }
