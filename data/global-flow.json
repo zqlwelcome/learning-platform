@@ -1,17 +1,17 @@
 {
-  "updateTime": "2026-06-05 00:31",
+  "updateTime": "2026-06-05 00:35",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "26791.89",
+      "value": "26791.02",
       "change": "-0.23"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "51627.25",
-      "change": "1.85"
+      "value": "51605.86",
+      "change": "1.81"
     },
     "sh000001": {
       "name": "上证指数",
@@ -34,5 +34,11 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "欧洲债市：欧洲政府债券小幅上涨 油价回落缓解通胀担忧",
+      "source": "环球市场播报",
+      "keyword": "通胀"
+    }
+  ]
 }
