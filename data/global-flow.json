@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 14:20",
+  "updateTime": "2026-06-04 14:26",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4058.48",
-      "change": "-0.62"
+      "value": "4046.76",
+      "change": "-0.91"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25230.570",
-      "change": "-1.57"
+      "value": "25245.520",
+      "change": "-1.51"
     }
   },
   "etf_flows": [
     {
       "name": "新能源车ETF华夏",
       "code": "515030",
-      "price": 1.886,
-      "change": -1.87,
-      "flow": 397252759.0,
+      "price": 1.88,
+      "change": -2.19,
+      "flow": 397099842.0,
       "flow_str": "+3.97亿",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.243,
-      "change": 3.76,
-      "flow": 347984592.0,
+      "price": 1.238,
+      "change": 3.34,
+      "flow": 348089264.0,
       "flow_str": "+3.48亿",
       "direction": "in"
     },
     {
       "name": "科创半导体ETF华夏",
       "code": "588170",
-      "price": 2.516,
-      "change": 4.79,
-      "flow": 238200528.0,
+      "price": 2.5,
+      "change": 4.12,
+      "flow": 238462720.0,
       "flow_str": "+2.38亿",
-      "direction": "in"
-    },
-    {
-      "name": "沪深300ETF嘉实",
-      "code": "159919",
-      "price": 5.135,
-      "change": -0.72,
-      "flow": 225227354.0,
-      "flow_str": "+2.25亿",
       "direction": "in"
     },
     {
       "name": "化工ETF鹏华",
       "code": "159870",
-      "price": 0.815,
-      "change": -1.81,
-      "flow": 221585793.0,
-      "flow_str": "+2.22亿",
+      "price": 0.812,
+      "change": -2.17,
+      "flow": 219396745.0,
+      "flow_str": "+2.19亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF嘉实",
+      "code": "159919",
+      "price": 5.122,
+      "change": -0.97,
+      "flow": 218650924.0,
+      "flow_str": "+2.19亿",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "电子",
       "code": "BK1201",
-      "index": 14151.87,
-      "change": 1.29,
-      "flow": 10292879360.0,
-      "flow_str": "+102.93亿",
+      "index": 14074.09,
+      "change": 0.73,
+      "flow": 9038786560.0,
+      "flow_str": "+90.39亿",
       "direction": "in"
     },
     {
       "name": "元件",
       "code": "BK0459",
-      "index": 62850.99,
-      "change": 2.54,
-      "flow": 5246202112.0,
-      "flow_str": "+52.46亿",
+      "index": 62461.98,
+      "change": 1.9,
+      "flow": 5307947520.0,
+      "flow_str": "+53.08亿",
       "direction": "in"
     },
     {
       "name": "光学光电子",
       "code": "BK1038",
-      "index": 2321.9,
-      "change": 0.84,
-      "flow": 5075595520.0,
-      "flow_str": "+50.76亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体",
-      "code": "BK1036",
-      "index": 2859.19,
-      "change": 1.46,
-      "flow": 4115206144.0,
-      "flow_str": "+41.15亿",
+      "index": 2310.93,
+      "change": 0.37,
+      "flow": 5006519296.0,
+      "flow_str": "+50.07亿",
       "direction": "in"
     },
     {
       "name": "印制电路板",
       "code": "BK1340",
-      "index": 12634.1,
-      "change": 2.04,
-      "flow": 4095782912.0,
-      "flow_str": "+40.96亿",
+      "index": 12547.42,
+      "change": 1.34,
+      "flow": 4169474048.0,
+      "flow_str": "+41.69亿",
+      "direction": "in"
+    },
+    {
+      "name": "面板",
+      "code": "BK1335",
+      "index": 3610.04,
+      "change": 0.11,
+      "flow": 3828671488.0,
+      "flow_str": "+38.29亿",
       "direction": "in"
     }
   ],
@@ -127,6 +127,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "日本央行加息预期与干预风险加剧 市场正为日元剧烈波动做准备",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
     {
       "title": "世界黄金协会：多国持续加码囤金，4月全球央行重回净买入",
       "source": "市场资讯",
@@ -144,11 +149,6 @@
     },
     {
       "title": "消息人士：日本央行考虑6月加息 并可能今年晚些时候再次加息",
-      "source": "环球市场播报",
-      "keyword": "央行"
-    },
-    {
-      "title": "印尼国会通过金融法案：扩大央行职能并强化国会监督",
       "source": "环球市场播报",
       "keyword": "央行"
     }
