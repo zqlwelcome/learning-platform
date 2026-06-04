@@ -1,15 +1,15 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-03T21:29:31.968Z",
+  "updateTime": "2026-06-03T23:59:16.351Z",
   "macro": {
-    "rateUp": false,
+    "rateUp": true,
     "rateDown": false,
-    "oilShock": false,
+    "oilShock": true,
     "aiCapex": true,
     "riskOff": true,
     "chinaSupport": false,
-    "label": "人工智能资本开支仍是主线 / 风险偏好需要打折"
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折"
   },
   "candidates": [
     {
@@ -19,25 +19,7 @@
       "market": "港股",
       "kind": "ETF",
       "eventType": "资金行为",
-      "score": 8
-    },
-    {
-      "symbol": "sh512760",
-      "code": "512760",
-      "name": "芯片ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "资金行为",
-      "score": 8
-    },
-    {
-      "symbol": "usQQQ",
-      "code": "QQQ",
-      "name": "纳指100ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "基本面类",
-      "score": 5
+      "score": 9
     },
     {
       "symbol": "usGLD",
@@ -45,31 +27,31 @@
       "name": "黄金ETF",
       "market": "美股",
       "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 5
+      "eventType": "宏观类",
+      "score": 7
     },
     {
-      "symbol": "usXLE",
-      "code": "XLE",
-      "name": "能源ETF",
-      "market": "美股",
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
       "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 5
+      "eventType": "宏观类",
+      "score": 7
     },
     {
-      "symbol": "usUSO",
-      "code": "USO",
-      "name": "美国原油基金",
+      "symbol": "usSHV",
+      "code": "SHV",
+      "name": "短债ETF",
       "market": "美股",
       "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 5
+      "eventType": "宏观类",
+      "score": 7
     }
   ],
   "stats": {
-    "sampleCount": 27,
-    "activeCount": 27,
+    "sampleCount": 28,
+    "activeCount": 28,
     "reviewedCount": 13,
     "winRate": 23,
     "avgPnl": -0.3197556817252458,
@@ -101,6 +83,28 @@
     }
   ],
   "trades": [
+    {
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 141.464,
+      "allocationPct": 10,
+      "eventTitle": "6月4日外盘头条：美伊紧张局势再度加剧 太空公司...",
+      "eventType": "宏观类",
+      "score": 7,
+      "id": "2026-06-03-sh511010-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 141.464,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
     {
       "symbol": "usQQQ",
       "code": "QQQ",
