@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 23:01",
+  "updateTime": "2026-06-04 23:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX IPO炒作资金涌入某中盘股",
-        "assets": "📈 中盘航天股 利好",
-        "chain": "SPAC（借壳上市）/IPO概念股联动，散户情绪驱动资金轮动",
-        "watch": "该股成交量与SpaceX估值传闻"
+        "what": "SpaceX IPO炒作资金涌入一只中盘股",
+        "assets": "📈 中盘股（如RKLB等太空概念股） 利好",
+        "chain": "散户通过Coinbase永续期货（保证金交易）提前押注SpaceX，推高相关替代标的估值（替代效应）",
+        "watch": "SpaceX IPO时间表及中盘股成交量变化"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "马斯克身家或随SpaceX IPO突破1万亿美元",
-        "assets": "📈 特斯拉 情绪利好",
-        "chain": "创始人财富效应提振市场对特斯拉信心，但分散注意力",
-        "watch": "SpaceX估值及上市时间表"
+        "what": "马斯克身家或因SpaceX IPO突破1万亿美元",
+        "assets": "📈 SpaceX估值 利好；📈 特斯拉 间接利好",
+        "chain": "马斯克财富效应提振市场对其关联公司的信心，但高估值可能引发监管关注（财富集中风险）",
+        "watch": "SpaceX IPO定价及特斯拉股价联动"
       }
     },
     {
       "rank": 3,
-      "title": "Here are Thursday's biggest analyst calls: Nvidia, Apple, Broadcom, Netflix, Oracle, Microsoft, CrowdStrike & more",
-      "source": "CNBC",
-      "detail": "Here are Thursday's biggest calls on Wall Street.",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "分析师密集调仓：科技股评级调整",
-        "assets": "📈 Nvidia、Apple 利好；📉 Broadcom、CrowdStrike 承压",
-        "chain": "机构资金根据研报再平衡（调仓），影响板块轮动速度",
-        "watch": "各股盘后交易量及期权隐含波动率"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Wix面临证券欺诈调查：AI竞争加剧 财报暴雷后股价暴跌27%",
       "source": "环球市场播报",
       "detail": "知名证券律所Bleichmar Fonti &amp; Auld LLP近日宣布，正在对网站开发平台Wix.com Ltd．展开调查，以评估公司是否就AI驱动网页设计工具的需求...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "Wix因AI竞争及财报暴雷遭欺诈调查，股价暴跌27%",
-        "assets": "📉 Wix 利空；📉 SaaS（软件即服务）板块 承压",
-        "chain": "AI冲击传统SaaS模式，引发估值重估（杀估值），做空资金涌入",
-        "watch": "Wix营收指引及AI竞品用户增长数据"
+        "what": "Wix因AI竞争和财报暴雷遭证券欺诈调查，股价暴跌27%",
+        "assets": "📉 Wix股价 利空；📉 中小SaaS（软件即服务）股 承压",
+        "chain": "AI冲击传统建站平台，市场对无AI护城河的中小科技股重新定价（估值杀），可能触发行业板块轮动",
+        "watch": "Wix调查进展及AI替代率指标（如用户流失数据）"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "软银单日暴跌12%：高杠杆豪赌AI的狂欢与警钟",
       "source": "环球市场播报",
       "detail": "在6月1日成为日本市值第一仅两天后，软银集团周四遭遇猛烈抛售，股价暴跌逾11%，市值瞬间蒸发超5万亿日元，并拖累其持有的Arm股价盘前重挫5%。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "软银单日暴跌12%：高杠杆豪赌AI风险暴露",
-        "assets": "📉 软银 利空；📉 日本科技股 承压",
-        "chain": "杠杆爆仓（强制平仓）风险传导至ARM等持仓，日元套利交易（借低息日元投资）或逆转",
-        "watch": "软银杠杆率及ARM股价走势"
+        "what": "软银单日暴跌12%，高杠杆押注AI引发崩盘预警",
+        "assets": "📉 软银股价 利空；📉 日本科技股 承压；📉 全球AI概念债 风险",
+        "chain": "杠杆爆仓风险传导至日本市场，可能引发流动性紧缩（margin call连锁），削弱AI板块风险偏好",
+        "watch": "软银杠杆率及Arm股价走势"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Investors can 'buy' SpaceX early with Coinbase perpetual futures on pre-IPOs",
       "source": "CNBC",
       "detail": "Pre-IPO perps give traders the ability to speculate on the value of a private company without owning shares.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "Coinbase上线SpaceX预IPO永续期货，散户可提前交易",
-        "assets": "📈 Coinbase 利好；📈 私募股权代币化 概念利好",
-        "chain": "加密平台抢占传统投行IPO前交易份额，合规风险上升",
-        "watch": "该期货交易量及SEC（美国证监会）监管表态"
+        "what": "Coinbase上线SpaceX永续期货，散户可提前做多",
+        "assets": "📈 加密货币交易所股（如COIN） 利好；📈 SpaceX影子股 波动",
+        "chain": "永续期货（无到期日的杠杆合约）增加投机性，可能扭曲SpaceX真实估值（价格发现偏差），引监管关注",
+        "watch": "Coinbase期货持仓量及SEC对pre-IPO衍生品态度"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Ark Invest owns SpaceX in its venture ETF. It says Starlink alone supports $2 trillion value at IPO",
       "source": "CNBC",
       "detail": "Brett Winton said SpaceX's Starlink satellite broadband network is the primary driver of ARK's valuation thesis.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "Ark Invest称Starlink单独支撑SpaceX 2万亿估值",
+        "assets": "📈 太空通信股（如ASTS） 利好；📈 卫星互联网ETF 利好",
+        "chain": "Starlink（卫星宽带）商业化加速，强化市场对太空经济赛道的高估值叙事（故事驱动），但需现金流验证",
+        "watch": "Starlink用户增长及ARPU（每用户平均收入）数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "SpaceX用17分钟的视频向散户推介IPO 阐释未来愿景并勾勒宏大目标",
       "source": "环球市场播报",
       "detail": " SpaceX周四一早通过一段视频向散户投资者展开IPO推介。在这段视频中，首席财务官Bret Johnsen把公司的火箭、卫星和人工智能业务串联了起来。",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Soaring stocks created 2 million new millionaires around the world last year",
       "source": "CNBC",
       "detail": "The population of global millionaires surged 7.9% to 25.3 million in 2025, according to the Capgemini World Wealth Report.",
@@ -110,12 +102,20 @@
       "score": 27
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "高盛预测：SpaceX人工智能业务2030年营收将暴涨100倍",
       "source": "环球市场播报",
       "detail": " 牵头承销投行高盛给出预测数据显示，SpaceX想要在首次公开募股时实现1.78万亿美元估值，核心依托其人工智能板块到2030年营收暴涨约100倍。",
       "lang": "zh",
       "score": 25
+    },
+    {
+      "rank": 10,
+      "title": "Intuit面临证券欺诈调查：财报后股价暴跌20% 低端市场份额流失",
+      "source": "环球市场播报",
+      "detail": "知名证券律所Bleichmar Fonti &amp; Auld LLP近日宣布，正在对财务软件巨头Intuit Inc．展开调查，以评估公司是否在2026年报税季期间就TurboTax的定价策略作出虚假陈述...",
+      "lang": "zh",
+      "score": 20
     }
   ]
 }
