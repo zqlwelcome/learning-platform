@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-04 11:30",
+  "updateTime": "2026-06-04 11:35",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -22,104 +22,12 @@
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25280.870",
-      "change": "-1.37"
+      "value": "25271.330",
+      "change": "-1.41"
     }
   },
-  "etf_flows": [
-    {
-      "name": "新能源车ETF华夏",
-      "code": "515030",
-      "price": 1.886,
-      "change": -1.87,
-      "flow": 390911711.0,
-      "flow_str": "+3.91亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备ETF国泰",
-      "code": "159516",
-      "price": 1.239,
-      "change": 3.42,
-      "flow": 246313152.0,
-      "flow_str": "+2.46亿",
-      "direction": "in"
-    },
-    {
-      "name": "化工ETF鹏华",
-      "code": "159870",
-      "price": 0.815,
-      "change": -1.81,
-      "flow": 202800544.0,
-      "flow_str": "+2.03亿",
-      "direction": "in"
-    },
-    {
-      "name": "科创半导体ETF华夏",
-      "code": "588170",
-      "price": 2.499,
-      "change": 4.08,
-      "flow": 189090496.0,
-      "flow_str": "+1.89亿",
-      "direction": "in"
-    },
-    {
-      "name": "科创50ETF华夏",
-      "code": "588000",
-      "price": 1.833,
-      "change": 0.55,
-      "flow": 109517264.0,
-      "flow_str": "+1.10亿",
-      "direction": "in"
-    }
-  ],
-  "sector_flows": [
-    {
-      "name": "光学光电子",
-      "code": "BK1038",
-      "index": 2309.73,
-      "change": 0.32,
-      "flow": 3998147072.0,
-      "flow_str": "+39.98亿",
-      "direction": "in"
-    },
-    {
-      "name": "面板",
-      "code": "BK1335",
-      "index": 3614.68,
-      "change": 0.24,
-      "flow": 3052724992.0,
-      "flow_str": "+30.53亿",
-      "direction": "in"
-    },
-    {
-      "name": "数字芯片设计",
-      "code": "BK1331",
-      "index": 27691.07,
-      "change": 0.92,
-      "flow": 2741457408.0,
-      "flow_str": "+27.41亿",
-      "direction": "in"
-    },
-    {
-      "name": "电子",
-      "code": "BK1201",
-      "index": 14039.67,
-      "change": 0.49,
-      "flow": 2573074432.0,
-      "flow_str": "+25.73亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体",
-      "code": "BK1036",
-      "index": 2851.69,
-      "change": 1.2,
-      "flow": 2548861696.0,
-      "flow_str": "+25.49亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
