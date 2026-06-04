@@ -434,6 +434,15 @@ function getNewsDisplay(item) {
 }
 
 function getNewsInsight(item, display) {
+    // 优先使用AI生成的解读
+    if (item.insight && item.insight.what) {
+        const aiWhat = `💬 ${item.insight.what}`;
+        const aiWhy = `🤔 ${item.insight.why}`;
+        const aiTip = item.insight.tip ? `💡 ${item.insight.tip}` : '';
+        return aiTip ? [aiWhat, aiWhy, aiTip] : [aiWhat, aiWhy];
+    }
+    
+    // fallback到模板解读
     const text = getFullNewsText(item, display);
     const happened = `发生了什么：${shortText(display.detail, 78)}`;
     const lens = getTraderLens(item, display);
