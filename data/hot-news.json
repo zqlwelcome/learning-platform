@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 00:40",
+  "updateTime": "2026-06-05 00:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 65,
       "insight": {
-        "what": "Wix和Intuit因财报暴雷遭证券欺诈调查",
-        "assets": "📉 美股SaaS板块 承压；📉 中小盘科技股 利空",
-        "chain": "监管风险（SEC介入）→市场对AI替代恐慌（AI替代传统软件担忧）→资金撤离高估值科技股",
-        "watch": "Wix/Intuit后续财报指引及SEC调查进展"
+        "what": "Wix因财报暴雷被调查，股价暴跌27%",
+        "assets": "📉 美股科技股 承压；📉 云计算SaaS板块 利空",
+        "chain": "AI竞争加剧（AI替代传统SaaS服务），引发科技股估值重估（PE倍数压缩）",
+        "watch": "Wix后续财报指引及AI对SaaS行业渗透率"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "马斯克身价因SpaceX IPO将破万亿美元",
-        "assets": "📈 SpaceX估值 利好；📈 特斯拉 间接利好（马斯克个人品牌联动）",
-        "chain": "SpaceX上市预期→马斯克财富效应→提振特斯拉投资者信心（关联交易和融资能力）",
-        "watch": "SpaceX IPO具体时间表及估值区间"
+        "what": "Intuit财报后暴跌20%，低端份额流失被调查",
+        "assets": "📉 美股金融科技股 承压；📉 中小盘科技股 利空",
+        "chain": "低端市场被挤压（反映消费者支出疲软），可能拖累消费信贷（信用卡违约率上升）",
+        "watch": "Intuit用户增长数据及消费信贷指标（如信用卡拖欠率）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Coinbase推出SpaceX未上市股票永续期货",
-        "assets": "📈 加密货币交易所 利好；📈 私募股权市场 波动增加",
-        "chain": "永续期货（无到期日合约）→散户提前参与SpaceX→推高其估值预期→引发监管关注（SEC对未上市资产衍生品审查）",
-        "watch": "Coinbase交易量及SEC对代币化证券的监管态度"
+        "what": "马斯克净资产或在SpaceX IPO后破万亿美元",
+        "assets": "📈 SpaceX股权 利好；📈 太空探索概念股 利好",
+        "chain": "IPO估值锚定（定价基准）推高私人市场，带动SpaceX相关衍生品（如Coinbase永续合约）交易量",
+        "watch": "SpaceX IPO时间表及SEC（美国证监会）审批进展"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "华尔街投行争抢SpaceX IPO承销头衔",
-        "assets": "📈 投行板块 利好；📈 高增长科技股 情绪提振",
-        "chain": "投行竞争（承销费收入激增）→SpaceX估值溢价→带动一级市场（未上市科技公司）融资热潮",
-        "watch": "SpaceX IPO主承销商选定及最终估值"
+        "what": "4000亿龙头股现跌停涨停，机构频繁做T交易",
+        "assets": "📈 A股该龙头股 波动加剧；📉 中小盘股 资金分流",
+        "chain": "机构做T（当日买卖赚差价）显示流动性博弈，可能引发量化基金（算法交易）跟风，加剧市场波动率（VIX）",
+        "watch": "该股龙虎榜（机构买卖明细）及换手率"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "Pre-IPO perps give traders the ability to speculate on the value of a private company without owning shares.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "Coinbase推出SpaceX永续期货，散户可提前交易",
+        "assets": "📈 SpaceX衍生品 利好；📈 加密货币交易所 利好",
+        "chain": "永续合约（无到期日杠杆交易）提供流动性，但引入基差风险（现货与期货价差），可能推高SpaceX估值泡沫",
+        "watch": "Coinbase合约持仓量及SpaceX估值隐含波动率"
+      }
     },
     {
       "rank": 6,
@@ -71,7 +77,13 @@
       "source": "环球市场播报",
       "detail": "高盛集团刚刚锁定SpaceX首次公开募股主承销商的头衔，摩根士丹利随即向客户发出一份说明，称自己实际上也是这宗交易的联席主承销商...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "华尔街投行争抢SpaceX IPO承销头衔",
+        "assets": "📈 投行股（高盛、摩根士丹利） 利好；📈 太空经济ETF 利好",
+        "chain": "IPO承销费（佣金收入）刺激投行竞争，带动科技IPO市场情绪回暖，利好一级市场（未上市企业融资）",
+        "watch": "SpaceX IPO估值区间及承销商分配"
+      }
     },
     {
       "rank": 7,
