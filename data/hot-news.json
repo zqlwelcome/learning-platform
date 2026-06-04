@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 07:35",
+  "updateTime": "2026-06-05 07:36",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "燕文物流港股IPO，此前A股撤单",
-        "assets": "📈 港股物流板块 利好",
-        "chain": "A股转港股显示监管套利（利用不同市场规则差异），物流板块估值或承压",
+        "what": "燕文物流A股撤单后转战港股IPO",
+        "assets": "📉 港股物流板块 承压",
+        "chain": "物流行业估值承压，港股流动性偏紧（资金紧张）或压低发行价",
         "watch": "港股IPO认购倍数及首日表现"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "马斯克财富或随SpaceX IPO破万亿",
-        "assets": "📈 太空概念股 利好",
-        "chain": "SpaceX估值拉升带动私人航天板块，但可能分流特斯拉资金",
-        "watch": "SpaceX IPO估值及特斯拉股价联动"
+        "what": "马斯克身价或随SpaceX IPO破万亿美元",
+        "assets": "📈 SpaceX概念股 利好",
+        "chain": "高估值预期推升太空经济板块估值，特斯拉（TSLA）或获联动资金流入",
+        "watch": "SpaceX IPO估值及监管审批进展"
       }
     },
     {
@@ -37,56 +37,64 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "沃伦邀黄仁勋参议院听证会关于对华AI芯片销售",
-        "assets": "📉 英伟达 承压",
-        "chain": "听证会可能收紧出口管制（限制芯片出口），利空AI芯片产业链",
-        "watch": "听证会结果及对华芯片政策变化"
+        "what": "沃伦邀请黄仁勋出席对华AI芯片销售听证会",
+        "assets": "📉 英伟达（NVDA） 承压",
+        "chain": "地缘政治风险升级（政策不确定性），压制AI芯片出口预期，拖累费城半导体指数",
+        "watch": "听证会结果及出口管制新规细节"
       }
     },
     {
       "rank": 4,
+      "title": "日本实际工资连续第四个月上涨 为日央行加息提供支撑",
+      "source": "环球市场播报",
+      "detail": "日本劳动者实际工资连续第四个月走高，创下四年以来最长连涨周期，利好日本央行本月加息。日本厚生劳动省周五公布数据：剔除通胀后的实际工资同比上涨1.9%，较上月修正值1...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "日本实际工资连续第四个月上涨",
+        "assets": "📈 日元 利好",
+        "chain": "工资增长支撑消费，强化日央行加息预期（收紧货币），日债收益率上行",
+        "watch": "日本央行7月利率决议及下次工资谈判数据"
+      }
+    },
+    {
+      "rank": 5,
       "title": "6月5日隔夜要闻：美股收盘涨跌不一 原油下跌 伦铜走高 金价上涨 博通跌12.6% 特朗普称以黎和平协议取得进展",
       "source": "环球市场播报",
       "detail": "市场 6月5日收盘：道指涨逾870点创历史新高 博通拖累纳指收跌 6月5日美股成交额前20：博通财测平淡股价大跌12.6% 6月5日热门中概股多数下跌 万国数据涨3.01% 小马智行跌7...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "美股涨跌不一，原油跌，伦铜涨，金价涨，博通跌12.6%",
-        "assets": "📉 美股科技股 承压 📈 黄金 利好",
-        "chain": "博通大跌拖累半导体，避险情绪推高黄金，原油受需求担忧下跌",
-        "watch": "博通财报后走势及黄金突破关键位"
+        "what": "隔夜美股涨跌不一，原油跌铜涨金涨，博通跌12.6%",
+        "assets": "📈 伦铜 利好；📉 原油 承压；📉 博通（AVGO） 利空",
+        "chain": "避险情绪推升黄金，铜受中国需求预期支撑，原油受OPEC+增产预期压制",
+        "watch": "今晚EIA原油库存及中国铜进口数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "美国股市：“旧经济”股票跑赢AI概念股 道琼斯工业平均指数创新高",
       "source": "环球市场播报",
       "detail": "投资者周四抛售科技股，转而买入所谓“旧经济”股票。博通的财报给人工智能热潮踩下刹车。 纳斯达克100指数在纽约收跌0.5%，盘中一度下跌1.6%，连续第二个交易日走低。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "道指创新高，旧经济股跑赢AI概念",
-        "assets": "📈 道指成分股（工业/金融） 利好 📉 AI概念股 承压",
-        "chain": "资金轮动（从高估值科技转向价值股），反映经济软着陆预期",
-        "watch": "道指与纳指相对强度及10年期美债收益率"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
-      "source": "CNBC",
-      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest win streak since 1985.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "标普500期货微跌，市场等待5月就业报告",
-        "assets": "📉 美股大盘 承压",
-        "chain": "就业数据影响美联储降息预期（借贷成本变化），市场谨慎观望",
-        "watch": "非农就业人数及时薪增速"
+        "what": "旧经济股跑赢AI概念股，道指创新高",
+        "assets": "📈 道琼斯工业平均指数 利好；📉 AI概念股 承压",
+        "chain": "资金轮动（从高估值成长股转向价值股），防御性板块（工业、金融）受益",
+        "watch": "10年期美债收益率及下周CPI数据"
       }
     },
     {
       "rank": 7,
+      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
+      "source": "CNBC",
+      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest win streak since 1985.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "财经早报：商务部回应美所谓封堵芯片“监管漏洞”问题，粉笔张小龙不当言论引市值蒸发1.3亿丨2026年6月5日",
       "source": "新浪证券",
       "detail": "【重磅】全球迎来“芯片牛”！别再错过，立即开户跟进&gt;&gt; 【头条要闻】 特朗普称若达成协议 不排除与伊朗最高领袖会晤 当地时间4日，美国总统特朗普表示...",
@@ -94,7 +102,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美国就收购OpenAI等多家人工智能公司股份举行了初步讨论",
       "source": "环球市场播报",
       "detail": " NOTUS援引三位知情人士报道，美国高级官员已与多家大型人工智能公司进行初步讨论，探讨联邦政府收购这些公司部分股份的可能性。",
@@ -102,19 +110,11 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Anthropic 呼吁全球暂缓前沿人工智能研发，警示 AI 自主迭代风险",
       "source": "环球市场播报",
       "detail": " Anthropic 正呼吁全球顶尖人工智能实验室考虑放缓研发进度，理由是人工智能系统迭代速度过快，或将在不久后实现脱离人类干预的自主进化，进而对社会构成重大安全隐患。",
       "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
-      "source": "CNBC",
-      "detail": "Eli Manning spoke about political activities from athletes after Giants QB Jaxson Dart introduced President Donald Trump at a rally.",
-      "lang": "en",
       "score": 20
     }
   ]
