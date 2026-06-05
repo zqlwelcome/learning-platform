@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 09:20",
+  "updateTime": "2026-06-05 09:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "韩国股市因AI科技股暴跌领跌4%",
-        "assets": "📉 韩国KOSPI指数 承压, 📉 全球AI芯片股 利空",
-        "chain": "美股AI概念抛售传导至亚洲，引发风险资产（股票）去杠杆（减少借贷投资）",
-        "watch": "今晚美国5月非农就业数据"
+        "what": "韩国科技股暴跌4%，受美股AI龙头拖累",
+        "assets": "📉 韩国KOSPI指数 承压; 📉 全球AI芯片股 利空",
+        "chain": "美股AI回调引发亚太科技股抛售，恐慌情绪（VIX波动率指数）可能传导至其他高估值成长股",
+        "watch": "今晚美股AI龙头（如英伟达）盘前走势"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "马斯克净资产因SpaceX IPO或将突破1万亿美元",
-        "assets": "📈 SpaceX股权 利好, 📈 特斯拉股价 间接利好",
-        "chain": "SpaceX上市预期推高马斯克财富，可能引发其减持特斯拉套现（卖股换现金）",
-        "watch": "SpaceX IPO时间表及估值"
+        "what": "马斯克财富有望在SpaceX IPO后突破1万亿美元",
+        "assets": "📈 SpaceX概念股 利好; 📈 特斯拉(TSLA) 情绪提振",
+        "chain": "SpaceX高估值IPO（首次公开募股）可能带动太空经济板块重估，特斯拉股价因创始人财富效应获支撑",
+        "watch": "SpaceX IPO估值及认购倍数"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 44,
       "insight": {
         "what": "沃伦邀请黄仁勋出席参议院听证会讨论对华AI芯片销售",
-        "assets": "📉 英伟达股价 承压, 📉 中国AI芯片概念股 利空",
-        "chain": "听证会可能强化出口管制（限制卖芯片给中国），冲击英伟达中国营收预期",
-        "watch": "听证会日期及最终政策动向"
+        "assets": "📉 英伟达(NVDA) 政策风险; 📉 中国AI芯片替代概念 情绪利好",
+        "chain": "听证会可能收紧出口管制（限制高端芯片对华销售），英伟达营收承压，国产芯片替代逻辑强化",
+        "watch": "听证会具体提案及英伟达回应"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "凯投宏观：日本工资增长巩固加息理由",
-        "assets": "📈 日元 利好, 📉 日本国债收益率 上行",
-        "chain": "工资涨→通胀预期升温→日本央行加息（提高借钱成本）→日元升值",
-        "watch": "日本央行7月利率决议"
+        "what": "凯投宏观：日本工资增长强化央行加息理由",
+        "assets": "📈 日元(JPY) 升值预期; 📉 日本国债(JGB) 收益率上行",
+        "chain": "工资-通胀螺旋（工资涨推动物价涨）支持日本央行退出宽松（结束负利率），日元套利交易（借日元买高息资产）面临平仓风险",
+        "watch": "日本央行下次会议加息概率及日元汇率"
       }
     },
     {
@@ -65,28 +65,36 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本实际薪资连续四月上涨，强化加息依据",
-        "assets": "📈 日元 利好, 📉 日本国债价格 承压",
-        "chain": "薪资涨→消费强→通胀顽固→央行紧缩（减少市场资金）→日元走强",
-        "watch": "日本央行下次会议加息概率"
+        "what": "日本实际薪资连续第四月上涨，强化加息依据",
+        "assets": "📈 日元(JPY) 看涨; 📉 日经225指数 资金外流压力",
+        "chain": "薪资增长确认内需回暖，日本央行加息预期升温，日债收益率攀升可能压制股市估值（利率涨股价跌）",
+        "watch": "日本央行行长讲话及5月CPI数据"
       }
     },
     {
       "rank": 6,
-      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
-      "source": "CNBC",
-      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest win streak since 1985.",
-      "lang": "en",
-      "score": 27,
+      "title": "标普拒绝给SpaceX等巨无霸IPO公司纳入指数提供快速通道",
+      "source": "环球市场播报",
+      "detail": " 标普道琼斯指数公司表示，将继续维持标普500指数等主要基准指数现行的资格要求，否决了让SpaceX等超大市值公司上市后快速纳入指数的提议。",
+      "lang": "zh",
+      "score": 30,
       "insight": {
-        "what": "标普500期货微跌，市场等待5月非农报告",
-        "assets": "📉 美股股指期货 承压, 📈 美元 观望",
-        "chain": "非农数据将影响降息预期（就业强则降息推迟），引发利率敏感股（科技、地产）波动",
-        "watch": "美国5月非农新增就业及时薪增速"
+        "what": "标普拒绝为SpaceX等巨无霸IPO提供快速纳入指数通道",
+        "assets": "📉 SpaceX IPO后ETF被动买盘 减少; 📈 传统指数基金 规则稳定",
+        "chain": "延迟纳入指数意味着IPO后短期缺少被动资金（跟踪指数的基金买入），但长期估值更理性，减少炒作泡沫",
+        "watch": "SpaceX上市后首个季度市值及纳入指数时间"
       }
     },
     {
       "rank": 7,
+      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
+      "source": "CNBC",
+      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest win streak since 1985.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "创纪录干预汇市后 日本5月份持有外国证券的金额大减近760亿美元",
       "source": "环球市场播报",
       "detail": "在过去一个月创纪录规模的汇市干预以支撑日元后，日本5月份持有的外国证券金额大幅下降。根据财务省周五公布的数据，日本持有美国国债等外国证券的金额较4月减少了756亿美...",
@@ -94,7 +102,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "黄金向美元复仇",
       "source": "21世纪经济报道",
       "detail": "自1996年以来，全球储备资产头把交椅首次易主。发生了什么？ 6月2日，欧洲央行发布年度报告《欧元的国际角色》，揭示了一个历史性时刻。",
@@ -102,20 +110,12 @@
       "score": 22
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "韩国股市一度重挫5% 芯片股随美国同业下滑",
       "source": "环球市场播报",
       "detail": "韩国Kospi指数一度暴跌5%，连续第二天走低，在隔夜美国芯片股下跌后，韩国相关业者股价也走低。SK海力士、三星电子和SK Square领跌。",
       "lang": "zh",
       "score": 22
-    },
-    {
-      "rank": 10,
-      "title": "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
-      "source": "CNBC",
-      "detail": "Eli Manning spoke about political activities from athletes after Giants QB Jaxson Dart introduced President Donald Trump at a rally.",
-      "lang": "en",
-      "score": 20
     }
   ]
 }
