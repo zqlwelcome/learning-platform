@@ -1,60 +1,60 @@
 {
-  "updateTime": "2026-06-05 08:05",
+  "updateTime": "2026-06-05 08:10",
   "news": [
     {
       "rank": 1,
-      "title": "收入波动 盈利承压燕文物流A股撤单三年后冲刺港股IPO",
-      "source": "",
-      "detail": "来源：经济参考报 近日，北京燕文物流股份有限公司（以下简称“燕文物流”）正式向港交所主板递交上市申请，独家保荐人为申万宏源香港。",
-      "lang": "zh",
-      "score": 60,
-      "insight": {
-        "what": "燕文物流A股撤单三年后冲刺港股IPO",
-        "assets": "📉 港股物流板块 承压",
-        "chain": "反映中小物流企业融资难，可能压制板块估值（市盈率）",
-        "watch": "港股IPO认购倍数及首日表现"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Asia-Pacific markets set to open subdued after Wall Street's AI-linked stocks slide",
       "source": "CNBC",
       "detail": "Asia-Pacific markets were set to open mixed on Friday as investors assessed a rotation out of chip stocks on Wall Street that lifted the Dow Jones Industrial Average to a record close.",
       "lang": "en",
       "score": 54,
       "insight": {
-        "what": "亚太市场受美股AI股拖累开盘走弱",
-        "assets": "📉 亚太科技股 承压；📉 美股AI板块 利空",
-        "chain": "AI股抛售引发科技板块beta（系统性风险）下行，资金转向防御板块",
-        "watch": "今晚美国CPI数据及AI龙头财报"
+        "what": "AI相关股票下跌，亚太市场开盘承压",
+        "assets": "📉 亚太科技股 承压; 📉 美股AI板块 利空",
+        "chain": "AI股回调引发风险偏好（市场情绪）下降，资金可能流向防御性资产（如国债）",
+        "watch": "今晚美国CPI数据（通胀数据）及AI龙头财报"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Elon Musk's net worth poised to sail past $1 trillion in SpaceX IPO",
       "source": "CNBC",
       "detail": "Based on SpaceX's updated IPO prospectus, Elon Musk owns shares in the company worth more than $866 billion.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "马斯克净资产或随SpaceX IPO突破1万亿美元",
-        "assets": "📈 特斯拉 利好；📈 SpaceX相关概念股 利好",
-        "chain": "财富效应可能提振风险偏好（risk-on），但需关注IPO定价合理性",
-        "watch": "SpaceX IPO估值及特斯拉股价联动"
+        "what": "马斯克财富因SpaceX IPO将破万亿",
+        "assets": "📈 SpaceX相关概念股 利好; 📈 特斯拉 情绪提振",
+        "chain": "SpaceX上市预期推高太空经济（航天产业）估值，带动私人航天公司融资",
+        "watch": "SpaceX实际IPO时间表及估值"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales",
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren is pressing Jensen Huang's Nvidia over export controls, China sales, Trump and data-center policy as Congress scrutinizes the AI chip boom.",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "沃伦邀请黄仁勋出席参议院关于中国AI芯片销售听证会",
-        "assets": "📉 英伟达 承压；📉 中国AI芯片股 利空",
-        "chain": "地缘政治风险升温，出口管制（限制对华销售）可能波及整个半导体产业链",
-        "watch": "听证会结果及英伟达出口指引调整"
+        "what": "黄仁勋受邀参议院听证会讨论对华AI芯片销售",
+        "assets": "📉 英伟达 政策风险; 📉 中国AI芯片股 承压",
+        "chain": "听证会可能收紧出口管制（限制芯片出口），冲击半导体供应链（芯片制造环节）",
+        "watch": "听证会结果及美国商务部对华芯片新规"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "日本实际薪资连续第四个月上涨 强化日本央行加息依据",
+      "source": "环球市场播报",
+      "detail": "日本工人的实际薪资连续第四个月上涨，创四年来最长连涨纪录，进一步增加日本央行本月升息的可能性。 日本厚生劳动省周五公布的数据显示，经通胀调整后的薪资同比增长1...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "日本实际薪资连续四月上涨，支撑加息",
+        "assets": "📈 日元 升值预期; 📈 日本国债收益率 上行",
+        "chain": "薪资增长推高通胀预期（物价上涨），日央行可能提前加息（提高借钱成本），利好日元",
+        "watch": "日本5月CPI及央行7月会议声明"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本实际工资连续第四个月上涨",
-        "assets": "📈 日元 利好；📈 日债收益率 上行",
-        "chain": "工资-通胀螺旋（薪资涨推动物价涨）强化日央行加息预期，利空日股",
-        "watch": "日本央行7月会议及薪资谈判结果"
+        "what": "日本实际工资连续第四个月上涨，强化加息依据",
+        "assets": "📈 日元 看涨; 📈 日本金融股 利好",
+        "chain": "工资-通胀螺旋（工资涨推物价涨）形成，日央行紧缩（减少货币供给）预期升温",
+        "watch": "日本央行6月政策声明及GDP数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "美股涨跌不一，原油跌伦铜涨金价涨，博通跌12.6%",
-        "assets": "📈 黄金 利好；📈 伦铜 利好；📉 原油 承压；📉 博通 利空",
-        "chain": "商品分化：避险（金）vs 需求担忧（油），科技股暴跌拖累纳指",
-        "watch": "今晚美国ISM服务业PMI及原油库存数据"
+        "what": "美股涨跌不一，原油跌、伦铜涨、黄金涨、博通暴跌",
+        "assets": "📉 原油 承压; 📈 伦铜 走强; 📈 黄金 避险; 📉 博通 利空",
+        "chain": "原油下跌反映需求担忧（经济放缓），铜金上涨因美元弱及避险，科技股分化",
+        "watch": "今晚美国非农就业数据及OPEC+（石油输出国组织）产量决议"
       }
     },
     {
