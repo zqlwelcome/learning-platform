@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-05 08:10",
+  "updateTime": "2026-06-05 08:16",
   "news": [
     {
       "rank": 1,
-      "title": "Asia-Pacific markets set to open subdued after Wall Street's AI-linked stocks slide",
+      "title": "South Korea stocks fall 4% as tech heavyweights follow plunge in Wall Street's AI-linked names",
       "source": "CNBC",
-      "detail": "Asia-Pacific markets were set to open mixed on Friday as investors assessed a rotation out of chip stocks on Wall Street that lifted the Dow Jones Industrial Average to a record close.",
+      "detail": "Asia-Pacific markets fell on Friday as investors assessed a rotation out of chip stocks on Wall Street that lifted the Dow Jones Industrial Average to a record close.",
       "lang": "en",
-      "score": 54,
+      "score": 59,
       "insight": {
-        "what": "AI相关股票下跌，亚太市场开盘承压",
-        "assets": "📉 亚太科技股 承压; 📉 美股AI板块 利空",
-        "chain": "AI股回调引发风险偏好（市场情绪）下降，资金可能流向防御性资产（如国债）",
-        "watch": "今晚美国CPI数据（通胀数据）及AI龙头财报"
+        "what": "韩国科技股暴跌4%，受华尔街AI股拖累",
+        "assets": "📉 韩国KOSPI指数 承压\n📉 全球AI芯片股 利空",
+        "chain": "AI泡沫担忧蔓延，资金从风险资产（高波动股票）流向避险资产（如美债），引发亚太科技板块回调",
+        "watch": "今晚美股AI龙头财报及韩国出口数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "马斯克财富因SpaceX IPO将破万亿",
-        "assets": "📈 SpaceX相关概念股 利好; 📈 特斯拉 情绪提振",
-        "chain": "SpaceX上市预期推高太空经济（航天产业）估值，带动私人航天公司融资",
-        "watch": "SpaceX实际IPO时间表及估值"
+        "what": "马斯克身家或因SpaceX IPO突破1万亿美元",
+        "assets": "📈 SpaceX估值 利好\n📈 特斯拉股价 间接提振",
+        "chain": "IPO预期刺激风险偏好（投资者对高风险高回报资产的兴趣），利好太空概念股和新能源板块",
+        "watch": "SpaceX IPO进度及SEC（美国证监会）注册文件"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "黄仁勋受邀参议院听证会讨论对华AI芯片销售",
-        "assets": "📉 英伟达 政策风险; 📉 中国AI芯片股 承压",
-        "chain": "听证会可能收紧出口管制（限制芯片出口），冲击半导体供应链（芯片制造环节）",
-        "watch": "听证会结果及美国商务部对华芯片新规"
+        "what": "沃伦邀请黄仁勋出席参议院中国AI芯片听证会",
+        "assets": "📉 英伟达股价 承压\n📉 中国AI芯片股 利空",
+        "chain": "地缘政治风险升温，限制对华芯片出口可能压制全球AI供应链（如台积电、AMD），引发政策不确定性溢价",
+        "watch": "听证会结果及美国商务部出口管制更新"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本实际薪资连续四月上涨，支撑加息",
-        "assets": "📈 日元 升值预期; 📈 日本国债收益率 上行",
-        "chain": "薪资增长推高通胀预期（物价上涨），日央行可能提前加息（提高借钱成本），利好日元",
-        "watch": "日本5月CPI及央行7月会议声明"
+        "what": "日本实际薪资连续四月上涨，强化加息预期",
+        "assets": "📈 日元 看涨\n📉 日本国债收益率 上行",
+        "chain": "薪资-通胀螺旋（工资涨推动物价涨）巩固加息逻辑，套息交易（借低息日元买高息资产）可能逆转，推高日元",
+        "watch": "日本央行7月会议及7月CPI数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本实际工资连续第四个月上涨，强化加息依据",
-        "assets": "📈 日元 看涨; 📈 日本金融股 利好",
-        "chain": "工资-通胀螺旋（工资涨推物价涨）形成，日央行紧缩（减少货币供给）预期升温",
-        "watch": "日本央行6月政策声明及GDP数据"
+        "what": "日本实际工资连涨四月，支撑日央行加息",
+        "assets": "📈 日元 升值\n📉 日经225指数 承压",
+        "chain": "加息预期强化，利空出口企业（日元升值削弱竞争力），但利好银行股（净息差扩大），资金从股市流向债市",
+        "watch": "日本央行行长讲话及5月家庭支出数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "美股涨跌不一，原油跌、伦铜涨、黄金涨、博通暴跌",
-        "assets": "📉 原油 承压; 📈 伦铜 走强; 📈 黄金 避险; 📉 博通 利空",
-        "chain": "原油下跌反映需求担忧（经济放缓），铜金上涨因美元弱及避险，科技股分化",
-        "watch": "今晚美国非农就业数据及OPEC+（石油输出国组织）产量决议"
+        "what": "隔夜美股分化，原油跌、铜金涨，博通跌12.6%",
+        "assets": "📉 原油 承压\n📈 伦铜 利好\n📈 黄金 利好\n📉 博通/半导体 利空",
+        "chain": "衰退预期（原油跌）与避险需求（金涨）并存；铜价涨因中国刺激预期；博通暴跌拖累芯片板块，资金轮动至防御资产",
+        "watch": "今晚美国ISM（供应管理协会）服务业PMI及EIA（能源信息署）原油库存"
       }
     },
     {
