@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 09:41",
+  "updateTime": "2026-06-05 09:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "韩国科技股暴跌4%，受华尔街AI股拖累",
-        "assets": "📉 韩国KOSPI指数 承压; 📉 全球AI芯片股 利空",
-        "chain": "美股AI回调（估值修正）传导至亚太科技板块，引发连锁抛售（止损盘触发）",
-        "watch": "今夜美股AI龙头股（如英伟达）是否企稳"
+        "what": "韩国股市跌4%，科技股追随华尔街AI股暴跌",
+        "assets": "📉 韩国科技股 承压; 📉 全球AI半导体 利空",
+        "chain": "AI需求预期降温（市场对AI盈利信心减弱）→资金从科技板块撤出→避险资产（如美债）短期受益",
+        "watch": "今晚美股费城半导体指数（SOX）走势"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "马斯克净资产或在SpaceX IPO后突破1万亿美元",
-        "assets": "📈 SpaceX 估值 利好; 📈 特斯拉 关联利好",
-        "chain": "SpaceX上市将提振私人航天板块估值（IPO溢价效应），并增强马斯克个人杠杆能力",
-        "watch": "SpaceX IPO时间表及估值区间"
+        "what": "马斯克净资产或将在SpaceX IPO后突破1万亿美元",
+        "assets": "📈 SpaceX 估值利好; 📈 特斯拉 情绪利好",
+        "chain": "SpaceX上市（首次公开募股）预期→推高马斯克旗下资产估值→带动太空概念股（如维珍银河）跟涨",
+        "watch": "SpaceX上市时间表及SEC（美国证监会）文件"
       }
     },
     {
       "rank": 3,
+      "title": "Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower",
+      "source": "CNBC",
+      "detail": "Asian technology shares fell, tracking losses in U.S. semiconductor stocks after disappointing earnings Broadcom sparked a rotation out of AI-linked names.",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "亚洲科技股下跌，因博通拖累AI交易及华尔街科技股",
+        "assets": "📉 亚洲科技股 承压; 📉 AI芯片股（如台积电） 利空",
+        "chain": "博通业绩指引不及预期（公司对未来收入展望差）→AI硬件需求疑虑→传导至亚洲供应链（存储、代工）",
+        "watch": "博通盘后股价及下季度营收指引修正"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Warren invites Nvidia CEO Jensen Huang to Senate hearing on China AI chip sales",
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren is pressing Jensen Huang's Nvidia over export controls, China sales, Trump and data-center policy as Congress scrutinizes the AI chip boom.",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "美国参议员邀请黄仁勋出席对华AI芯片销售听证会",
-        "assets": "📉 英伟达 政策风险; 📉 中国AI芯片概念 承压",
-        "chain": "出口管制升级预期（限制AI芯片流向中国）打压半导体产业链，国产替代逻辑强化",
-        "watch": "听证会结果及后续出口限制细则"
+        "what": "沃伦邀请黄仁勋出席参议院中国AI芯片销售听证会",
+        "assets": "📉 英伟达 政策风险; 📉 中国AI芯片进口 承压",
+        "chain": "潜在对华出口限制（地缘政治风险）→英伟达中国收入预期下调→替代需求利好中国本土AI芯片（如华为昇腾）",
+        "watch": "听证会结果及是否出台新出口管制细则"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "凯投宏观：日本工资增长进一步巩固日本央行加息理由",
       "source": "环球市场播报",
       "detail": "凯投宏观表示，工资持续强劲增长为日本央行本月恢复紧缩政策开了绿灯。初步估计数据显示，4月份劳动者现金收入增长加速。经济学家Abhijit Surya表示...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "凯投宏观：日本工资增长巩固加息理由",
-        "assets": "📈 日元 升值预期; 📉 日债 收益率上行",
-        "chain": "工资-通胀螺旋（薪资涨推消费价涨）强化央行鹰派立场，利空日股（借贷成本上升）",
-        "watch": "日本央行下次议息会议声明措辞"
+        "what": "凯投宏观称日本工资增长巩固央行加息理由",
+        "assets": "📈 日元 升值预期; 📉 日本国债收益率 上行",
+        "chain": "工资-通胀螺旋（薪资涨→消费强→物价涨）→日本央行（BOJ）加息概率上升→套息交易（借日元买高息资产）平仓",
+        "watch": "日本央行下次会议（7月）政策声明及通胀数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "日本实际薪资连续第四个月上涨 强化日本央行加息依据",
       "source": "环球市场播报",
       "detail": "日本工人的实际薪资连续第四个月上涨，创四年来最长连涨纪录，进一步增加日本央行本月升息的可能性。 日本厚生劳动省周五公布的数据显示，经通胀调整后的薪资同比增长1...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本实际薪资连续四月上涨，强化加息依据",
-        "assets": "📈 日元 走强; 📉 日本政府债 收益率攀升",
-        "chain": "薪资增长推高消费物价（内需通胀），增加央行结束负利率概率，套利交易（借日元买高息资产）面临平仓风险",
-        "watch": "日本4月核心CPI及央行行长讲话"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "标普拒绝给SpaceX等巨无霸IPO公司纳入指数提供快速通道",
-      "source": "环球市场播报",
-      "detail": " 标普道琼斯指数公司表示，将继续维持标普500指数等主要基准指数现行的资格要求，否决了让SpaceX等超大市值公司上市后快速纳入指数的提议。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "标普拒绝为SpaceX等巨无霸IPO提供指数快速通道",
-        "assets": "📉 美国IPO市场 流动性预期利空; 📈 中小盘股 相对利好",
-        "chain": "指数纳入延迟抑制被动资金（追踪指数的基金）流入，降低IPO后短期炒作动能",
-        "watch": "SpaceX上市后市值及主动基金持仓变化"
+        "what": "日本实际薪资连续四个月上涨，强化央行加息依据",
+        "assets": "📈 日元 看涨; 📉 日经指数 承压（利率上升利空股市）",
+        "chain": "薪资增长确认内需回暖→日本央行退出负利率（结束零成本借钱）→日债收益率曲线陡峭化（长端利率上升快于短端）",
+        "watch": "日本5月CPI（消费者物价指数）及服务业PMI（采购经理人指数）"
       }
     },
     {
       "rank": 7,
+      "title": "标普拒绝给SpaceX等巨无霸IPO公司纳入指数提供快速通道",
+      "source": "环球市场播报",
+      "detail": " 标普道琼斯指数公司表示，将继续维持标普500指数等主要基准指数现行的资格要求，否决了让SpaceX等超大市值公司上市后快速纳入指数的提议。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
       "source": "CNBC",
       "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest win streak since 1985.",
@@ -94,7 +102,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "创纪录干预汇市后 日本5月份持有外国证券的金额大减近760亿美元",
       "source": "环球市场播报",
       "detail": "在过去一个月创纪录规模的汇市干预以支撑日元后，日本5月份持有的外国证券金额大幅下降。根据财务省周五公布的数据，日本持有美国国债等外国证券的金额较4月减少了756亿美...",
@@ -102,18 +110,10 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "黄金向美元复仇",
       "source": "21世纪经济报道",
       "detail": "自1996年以来，全球储备资产头把交椅首次易主。发生了什么？ 6月2日，欧洲央行发布年度报告《欧元的国际角色》，揭示了一个历史性时刻。",
-      "lang": "zh",
-      "score": 22
-    },
-    {
-      "rank": 10,
-      "title": "韩国股市一度重挫5% 芯片股随美国同业下滑",
-      "source": "环球市场播报",
-      "detail": "韩国Kospi指数一度暴跌5%，连续第二天走低，在隔夜美国芯片股下跌后，韩国相关业者股价也走低。SK海力士、三星电子和SK Square领跌。",
       "lang": "zh",
       "score": 22
     }
