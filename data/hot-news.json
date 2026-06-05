@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 08:30",
+  "updateTime": "2026-06-05 08:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "韩国股市暴跌4%，科技股跟随美股AI概念下挫",
-        "assets": "📉 韩国KOSPI指数 利空；📉 全球AI概念股 承压",
-        "chain": "AI泡沫担忧蔓延至亚洲，外资撤出新兴科技市场（资金外流），拖累半导体板块",
-        "watch": "今晚美国5月非农就业数据（影响风险偏好）"
+        "what": "韩国股市暴跌4%，科技股跟随华尔街AI相关股票下跌",
+        "assets": "📉 韩国KOSPI指数 承压；📉 全球AI芯片股 承压",
+        "chain": "AI泡沫担忧蔓延，避险情绪升温，资金流出新兴市场（EM）科技板块",
+        "watch": "今晚美国CPI（通胀数据）及英伟达股价走势"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "马斯克净资产因SpaceX IPO有望突破1万亿美元",
-        "assets": "📈 SpaceX相关概念股 利好；📈 特斯拉 情绪提振",
-        "chain": "SpaceX上市将激活商业航天板块估值重估（对标特斯拉早期），带动太空ETF资金流入",
-        "watch": "SpaceX IPO具体时间表及估值区间"
+        "what": "马斯克净资产有望在SpaceX IPO后突破1万亿美元",
+        "assets": "📈 SpaceX相关概念股 利好；📈 特斯拉 联动利好",
+        "chain": "SpaceX估值飙升带动航天军工板块重估，马斯克财富效应提振科技股情绪",
+        "watch": "SpaceX IPO时间表及SEC（美国证监会）审批进展"
       }
     },
     {
@@ -37,56 +37,64 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "沃伦邀请黄仁勋出席参议院听证会讨论对华AI芯片销售",
-        "assets": "📉 英伟达 政策风险利空；📉 中国AI芯片替代概念 利好",
-        "chain": "听证会可能强化出口管制预期，推动中国国产芯片替代（如寒武纪）加速，英伟达营收承压",
-        "watch": "听证会日期及英伟达合规表态"
+        "what": "沃伦邀请英伟达CEO黄仁勋出席参议院关于中国AI芯片销售听证会",
+        "assets": "📉 英伟达 政策风险；📉 中国AI芯片进口商 承压",
+        "chain": "中美科技脱钩加剧，英伟达对华出口限制可能升级，国产替代逻辑强化",
+        "watch": "听证会证词及后续出口管制细则（实体清单更新）"
       }
     },
     {
       "rank": 4,
+      "title": "凯投宏观：日本工资增长进一步巩固日本央行加息理由",
+      "source": "环球市场播报",
+      "detail": "凯投宏观表示，工资持续强劲增长为日本央行本月恢复紧缩政策开了绿灯。初步估计数据显示，4月份劳动者现金收入增长加速。经济学家Abhijit Surya表示...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "日本实际薪资连续四个月上涨，强化日本央行加息理由",
+        "assets": "📈 日元 升值；📉 日本国债收益率 上行",
+        "chain": "薪资增长推动通胀预期，日央行（BOJ）加息概率上升，套利交易（借日元买高息资产）平仓风险",
+        "watch": "日本央行7月会议及薪资谈判后续数据（春季斗技）"
+      }
+    },
+    {
+      "rank": 5,
       "title": "日本实际薪资连续第四个月上涨 强化日本央行加息依据",
       "source": "环球市场播报",
       "detail": "日本工人的实际薪资连续第四个月上涨，创四年来最长连涨纪录，进一步增加日本央行本月升息的可能性。 日本厚生劳动省周五公布的数据显示，经通胀调整后的薪资同比增长1...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本实际薪资连续四个月上涨，强化加息预期",
-        "assets": "📈 日元 利好；📈 日本国债收益率 上行；📉 日经225 短期承压",
-        "chain": "薪资涨推动消费通胀（物价上涨），日央行7月加息概率上升，套利交易（借日元买高息资产）平仓风险",
-        "watch": "日本5月核心CPI数据及6月央行会议纪要"
+        "what": "日本实际工资连续第四个月上涨，为日央行加息提供支撑",
+        "assets": "📈 日元 看涨；📉 日本股市 短期承压",
+        "chain": "加息预期推高日债收益率，银行股受益但出口股（汽车、电子）因日元升值受损",
+        "watch": "7月东京CPI（消费者物价指数）及日央行行长讲话"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "日本实际工资连续第四个月上涨 为日央行加息提供支撑",
       "source": "环球市场播报",
       "detail": "日本劳动者实际工资连续第四个月走高，创下四年以来最长连涨周期，利好日本央行本月加息。日本厚生劳动省周五公布数据：剔除通胀后的实际工资同比上涨1.9%，较上月修正值1...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本实际工资连续四个月上涨，支撑央行加息",
-        "assets": "📈 日元 走强；📉 日本地产股 利空",
-        "chain": "工资-通胀螺旋（工资涨→物价涨→再加息）强化，日元升值压低出口企业利润（如丰田），外资回流日本债市",
-        "watch": "日本服务业PMI及工资谈判结果"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
-      "source": "CNBC",
-      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest win streak since 1985.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "标普500期货小幅下跌，市场等待5月非农报告",
-        "assets": "📉 美股大盘 承压；📉 美元指数 波动",
-        "chain": "非农数据决定美联储降息节奏（降息→借钱成本降低），若超预期则推迟降息，利空成长股（高估值科技股）",
-        "watch": "今晚20:30美国5月非农就业人数及薪资增速"
+        "what": "日本实际薪资连续第四个月上涨，强化日央行加息依据",
+        "assets": "📈 日元 升值趋势；📉 日本房地产信托（J-REITs） 承压",
+        "chain": "加息预期推升融资成本，高杠杆行业（地产、基建）面临压力，日元利差交易（carry trade）加速逆转",
+        "watch": "日本央行7月利率决议及薪资-通胀螺旋数据"
       }
     },
     {
       "rank": 7,
+      "title": "S&P 500 futures tick lower as Wall Street awaits May jobs report: Live updates",
+      "source": "CNBC",
+      "detail": "The S&P 500 is on track to finish the week slightly higher, which would mark its 10th straight week of gains and its longest win streak since 1985.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "创纪录干预汇市后 日本5月份持有外国证券的金额大减近760亿美元",
       "source": "环球市场播报",
       "detail": "在过去一个月创纪录规模的汇市干预以支撑日元后，日本5月份持有的外国证券金额大幅下降。根据财务省周五公布的数据，日本持有美国国债等外国证券的金额较4月减少了756亿美...",
@@ -94,7 +102,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "韩国股市一度重挫5% 芯片股随美国同业下滑",
       "source": "环球市场播报",
       "detail": "韩国Kospi指数一度暴跌5%，连续第二天走低，在隔夜美国芯片股下跌后，韩国相关业者股价也走低。SK海力士、三星电子和SK Square领跌。",
@@ -102,19 +110,11 @@
       "score": 22
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "美国就收购OpenAI等多家人工智能公司股份举行了初步讨论",
       "source": "环球市场播报",
       "detail": " NOTUS援引三位知情人士报道，美国高级官员已与多家大型人工智能公司进行初步讨论，探讨联邦政府收购这些公司部分股份的可能性。",
       "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "Eli Manning weighs in on Giants QB Jaxson Dart's Trump rally fallout",
-      "source": "CNBC",
-      "detail": "Eli Manning spoke about political activities from athletes after Giants QB Jaxson Dart introduced President Donald Trump at a rally.",
-      "lang": "en",
       "score": 20
     }
   ]
