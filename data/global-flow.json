@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-05 10:45",
+  "updateTime": "2026-06-05 10:50",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,64 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4062.89",
-      "change": "0.13"
+      "value": "4074.51",
+      "change": "0.41"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25113.850",
-      "change": "-0.55"
+      "value": "25089.770",
+      "change": "-0.65"
     }
   },
   "etf_flows": [],
-  "sector_flows": [],
+  "sector_flows": [
+    {
+      "name": "通信设备",
+      "code": "BK0448",
+      "index": 26971.21,
+      "change": 3.4,
+      "flow": 5516278784.0,
+      "flow_str": "+55.16亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信",
+      "code": "BK1215",
+      "index": 8675.52,
+      "change": 2.64,
+      "flow": 5263412736.0,
+      "flow_str": "+52.63亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信网络设备及器件",
+      "code": "BK1591",
+      "index": 17073.57,
+      "change": 4.13,
+      "flow": 4584365568.0,
+      "flow_str": "+45.84亿",
+      "direction": "in"
+    },
+    {
+      "name": "国防军工",
+      "code": "BK1204",
+      "index": 6140.1,
+      "change": 1.76,
+      "flow": 1401500160.0,
+      "flow_str": "+14.02亿",
+      "direction": "in"
+    },
+    {
+      "name": "商贸零售",
+      "code": "BK1213",
+      "index": 2264.71,
+      "change": 1.47,
+      "flow": 1216078336.0,
+      "flow_str": "+12.16亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -44,6 +90,11 @@
       "title": "长江有色：美国加息预期重燃多头获利了结 5日镍价或下跌",
       "source": "市场资讯",
       "keyword": "加息"
+    },
+    {
+      "title": "黄金已成全球最大储备资产，4月多国央行恢复净买入",
+      "source": "21世纪经济报道",
+      "keyword": "央行"
     }
   ]
 }
