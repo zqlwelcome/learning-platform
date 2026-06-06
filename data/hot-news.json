@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-06 17:31",
+  "updateTime": "2026-06-06 17:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX计划为散户预留IPO配售份额",
-        "assets": "📈 太空概念股 利好\n📉 其他科技IPO 分化",
-        "chain": "散户热情可能推高首日涨幅，但增发供给（新股发行量）会稀释现有股东权益（每股价值降低）",
-        "watch": "SEC是否批准及最终配售比例"
+        "what": "SpaceX IPO预留散户份额",
+        "assets": "📈 SpaceX 股票 利好; 📉 其他太空概念股 利空",
+        "chain": "散户入场预期推高定价，挤压机构利润，可能引发IPO当天波动率（价格上下摇摆）飙升",
+        "watch": "IPO定价区间及认购倍数"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美股芯片板块暴跌1.3万亿美元，费城半导体指数创六年最大跌幅",
-        "assets": "📉 半导体ETF（如SMH） 承压\n📉 科技成长股 连带利空",
-        "chain": "AI泡沫（过度炒作）预期降温，资金从芯片向防御板块（如公用事业、医疗）轮动（资金转移）",
-        "watch": "下周英伟达财报及台积电月度营收数据"
+        "what": "美股芯片板块暴跌1.3万亿美元",
+        "assets": "📉 费城半导体指数 承压; 📉 纳斯达克100 承压; 📈 防御性板块（如公用事业） 利好",
+        "chain": "芯片泡沫破裂信号，资金从科技股轮动（switch）至防御资产，风险偏好（愿意冒险的程度）骤降",
+        "watch": "SOX指数（费城半导体指数）是否跌破200日均线"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "史上最大IPO被拒绝纳入指数",
-        "assets": "📉 该IPO相关资产 承压\n📈 指数基金 被动买入减少",
-        "chain": "缺失指数被动资金（跟踪指数的基金自动买入），流动性（交易活跃度）和估值支撑减弱",
-        "watch": "交易所后续是否调整规则或二次申请"
+        "what": "史上最大IPO被拒绝纳入",
+        "assets": "📉 该IPO股票 承压; 📉 相关板块 利空",
+        "chain": "监管或交易所态度转鹰（收紧），压制IPO市场情绪，波及Pre-IPO（上市前）估值",
+        "watch": "官方拒绝理由及后续重新申请时间表"
       }
     },
     {
@@ -51,50 +51,42 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "网络安全板块因Mythos复苏，但财报考验近期涨势",
-        "assets": "📈 网络安全个股（如CRWD） 短期利好\n📉 高估值板块 盈利风险",
-        "chain": "若财报不及预期，情绪反转（由乐观变悲观）会触发获利回吐（卖出盈利仓位），拖累整个科技板块",
-        "watch": "CRWD、PANW等龙头Q2营收指引"
+        "what": "网络安全板块财报考验近期反弹",
+        "assets": "📈 网络安全股 利好; 📉 科技成长股 承压",
+        "chain": "财报若不及预期，将打击AI安全溢价（高估值合理性），引发板块回调；反之确认趋势",
+        "watch": "龙头股如CrowdStrike的营收指引"
       }
     },
     {
       "rank": 5,
-      "title": "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
-      "source": "CNBC",
-      "detail": "Oil prices would spike if Iran's Houthi allies started attacking ships passing through the Bab el-Mandeb Strait.",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "伊朗威胁红海咽喉要道，石油市场面临脆弱性",
-        "assets": "📈 原油期货 看涨\n📈 航运股（如马士基） 利好",
-        "chain": "霍尔木兹海峡（全球30%石油运输经过）若受阻，油价飙升（价格上涨）将推高通胀预期（未来物价上升），打压风险资产",
-        "watch": "伊朗军方行动及美国航母部署动态"
-      }
-    },
-    {
-      "rank": 6,
       "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "花旗是华尔街唯一坚持美联储今年降息的投行",
-        "assets": "📈 美债期货 看涨\n📉 美元指数 承压",
-        "chain": "分歧加大（意见不同）导致市场波动率（价格波动幅度）上升，若花旗正确，短端利率（2年期国债收益率）将下行",
-        "watch": "本周五PCE通胀数据（个人消费支出物价指数）及鲍威尔讲话"
+        "what": "花旗是唯一仍预测美联储今年降息的投行",
+        "assets": "📈 美债收益率 承压; 📉 美元 承压; 📈 美股 利好",
+        "chain": "市场若相信降息，短端利率（短期借贷成本）下行，利好成长股；但分歧大导致波动",
+        "watch": "下周CPI（消费者物价指数）数据及点阵图"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "高盛放弃预测美联储今年降息",
+        "assets": "📈 美元 利好; 📈 美债收益率 利好; 📉 黄金 承压",
+        "chain": "非农强劲强化不降息预期，加息（提高借钱成本）风险重燃，压制风险资产估值",
+        "watch": "下周美国5月CPI及零售销售数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "6月6日外盘头条：美伊和平谈判仍陷僵局 非农报告提振加息预期 美股遭遇抛售 谷歌与SpaceX达成百亿算力协议",
       "source": "环球市场播报",
       "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、伊朗战争逼近百日 美伊和平谈判仍陷僵局 2、美国5月新增就业17.2万人 经济表现大幅超出市场预期 3...",
@@ -102,7 +94,7 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
       "source": "CNBC",
       "detail": "Meta shares dropped after the Financial Times reported the company could potentially raise tens of billions of dollars in a stock offering to help its AI push.",
@@ -110,10 +102,18 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "SpaceX IPO在正式启动推介后不久据悉已获超额认购",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，SpaceX创纪录的750亿美元首次公开募股（IPO），在正式启动推介后不久，所获认购规模就已超过供发售的股份数。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 10,
+      "title": "美股AI交易全面崩塌！特朗普紧急发声！科技股大牛市是否终结？",
+      "source": "券商中国",
+      "detail": "美股AI交易全面崩塌。 昨夜今晨，美股AI交易热潮迅速降温，大型科技股、芯片、光通信概念股均遭遇猛烈抛售，费城半导体指数暴跌逾10%，单日市值蒸发逾1万亿美元...",
       "lang": "zh",
       "score": 30
     }
