@@ -9,60 +9,59 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-06-06 19:36",
+    "updateTime": "2026-06-02 16:16",
     "mood": {
-        "mood": "极度分化，科技泡沫风险加剧，但IPO热潮显示局部乐观",
-        "icon": "😬",
-        "color": "#FF4500",
-        "confidence": 5,
+        "mood": "谨慎乐观，结构性分化明显",
+        "icon": "😐",
+        "color": "#FFA500",
+        "confidence": 6,
         "dimensions": [
             {
                 "label": "📈 趋势",
-                "value": "美股科技股（尤其是AI芯片板块）遭遇剧烈抛售，费城半导体指数创六年最大跌幅，趋势短期转空；但SpaceX IPO火爆，显示成长股结构性机会仍存。"
+                "value": "全球股市短期反弹，欧洲受通胀数据预期提振，港股科技股强势上涨，但美股因通胀与加息预期承压，趋势分化。"
             },
             {
                 "label": "💰 资金",
-                "value": "资金从科技股大幅流出，芯片板块单日蒸发1.3万亿美元；散户和机构资金转向SpaceX等稀缺IPO标的，避险情绪升温。"
+                "value": "资金流向科技与AI领域，Alphabet计划发债800亿，SpaceX和OpenAI巨额IPO引发虹吸效应；印度央行抛售黄金救汇，避险资金流出贵金属。"
             },
             {
                 "label": "🌍 地缘",
-                "value": "美伊谈判僵局加剧能源与地缘风险，间接影响市场风险偏好；但SpaceX与谷歌的算力协议凸显中美科技竞争下的美国本土合作优势。"
+                "value": "美国对巴西加征关税威胁贸易摩擦升级，中国自主芯片研发加速（去Nvidia化），地缘风险加剧供应链不确定性。"
             },
             {
                 "label": "🏭 热点",
-                "value": "AI交易全面崩塌，Meta因融资计划股价暴跌；SpaceX IPO成为唯一亮点，带动航天及供应链概念（A股供应商）关注。"
+                "value": "AI与软件股成淘金热点（腾讯AI助手、Alphabet投资），但生物科技（Abivax）和传统能源受冷落；高股息股受避险资金青睐。"
             },
             {
                 "label": "😊 情绪",
-                "value": "市场情绪恐慌与贪婪并存：芯片板块恐慌性抛售，但SpaceX IPO获超额认购，散户配售份额受追捧，情绪极度分化。"
+                "value": "市场情绪复杂：港股科技股大涨提振信心，但通胀担忧和地缘风险压制乐观情绪，投资者在风险与避险间摇摆。"
             },
             {
                 "label": "🏦 宏观",
-                "value": "强劲非农数据后，高盛等投行放弃降息预期，仅花旗坚持；美联储政策转向紧缩预期压制估值，宏观环境对成长股不利。"
+                "value": "通胀数据与加息预期主导宏观面，PIMCO强调非AI驱动；印度抛售黄金显示新兴市场外汇压力，全球流动性收紧隐忧犹存。"
             }
         ],
-        "summary": "今日市场情绪复杂：科技股泡沫破裂风险显现，资金撤离AI板块；但SpaceX IPO的创纪录热潮显示投资者仍在追逐稀缺成长机会。宏观面因非农数据转鹰，降息预期几乎消失，整体风险偏好下降，短期宜谨慎，但局部机会（如航天）可关注。"
+        "summary": "今日市场呈现结构性反弹与避险情绪交织，科技与AI领域获资金追捧，但通胀、地缘和外汇风险压制整体信心，投资者需在分化中寻找确定性机会。"
     },
     "experts": {
         "templeton": {
-            "insight": "邓普顿会指出，今日的科技股暴跌正是‘极度悲观点’的经典案例。费城半导体指数暴跌6年最大跌幅，但SpaceX IPO却火爆，说明市场并非全面崩溃，而是资金在寻找新洼地。他可能认为AI泡沫破裂是健康回调，为长期投资者创造买入机会，尤其是当散户恐慌抛售时，逆向布局优质半导体或AI公司可能带来超额收益。同时，美联储降息预期消失反而消除了不确定性，让市场更真实反映基本面。",
-            "action": "建议在科技股恐慌性抛售中，分批买入基本面强劲的半导体龙头（如英伟达），同时减持过度炒作的AI概念股，关注SpaceX供应链中估值合理的A股标的。"
+            "insight": "邓普顿视角：当前市场悲观情绪过度集中于通胀和地缘风险，正如我在‘极度悲观时买入’的箴言。欧洲股市反弹显示超卖后的价值回归，印度抛售黄金恰是新兴市场危机的信号，但危机中孕育机遇。AI和软件股（如腾讯、Alphabet）的资本开支激增，反映长期增长逻辑，短期波动正是逆向布局良机。",
+            "action": "建议逢低买入优质科技股，如腾讯和Alphabet，同时关注印度抛售黄金后的新兴市场错杀机会，分散投资于亚洲科技与欧洲价值股。"
         },
         "buffett": {
-            "insight": "巴菲特会冷静分析，今天的新闻强化了‘别人恐惧时我贪婪’的原则。美股芯片板块蒸发1.3万亿美元，但他更关注企业内在价值而非短期波动。SpaceX IPO虽火爆，但巴菲特可能因其高估值和不确定性而回避，继续持有现金流强劲的消费和能源股。非农数据强劲意味着经济韧性，降息推迟对银行和保险股有利，他可能增持这类‘护城河’公司。",
-            "action": "维持高仓位现金，等待科技股进一步下跌后买入苹果等消费科技龙头；不参与SpaceX IPO，但可增持伯克希尔自身股票或银行股。"
+            "insight": "巴菲特视角：投资的核心是护城河与现金流。腾讯大涨10%源于其AI助手和生态优势，类似可口可乐的品牌壁垒；Alphabet发债800亿投资AI，体现其资本配置能力。但印度抛售黄金和贸易关税提醒我，宏观不确定性需用安全边际对冲。我更偏好高股息股票（如新闻中提及），它们能穿越波动。",
+            "action": "持有腾讯、Alphabet等护城河深厚的公司，增持高股息蓝筹股，避免杠杆，保留现金以应对关税和通胀引发的市场回调。"
         },
         "munger": {
-            "insight": "芒格会尖锐指出，AI交易全面崩塌是市场对过度投机的惩罚。他提醒投资者：当Meta为AI融资数十亿时，往往意味着行业已过热。SpaceX IPO的散户配售份额像是一场‘赌场游戏’，他更认可理性投资。费城半导体指数暴跌是好事，能淘汰劣质公司。他坚持认为，投资应聚焦于简单、可理解的企业，而非追逐热点，当前应远离AI和航天概念。",
-            "action": "建议清仓所有AI相关股票，包括半导体ETF；不参与SpaceX IPO；将资金转向传统能源、铁路或保险等‘老经济’公司，等待市场回归理性。"
+            "insight": "芒格视角：避免愚蠢比追求聪明更重要。SpaceX和OpenAI的万亿IPO是‘热门效应’的典型，多数投资者会亏钱；PIMCO指出美债收益率上行非AI驱动，提醒我们不要混淆相关性与因果。腾讯的AI助手‘右滑’是创新，但需警惕估值泡沫。印度央行抛售黄金是恐慌行为，而理性投资者应远离噪音。",
+            "action": "不追逐AI IPO热潮，减持涨幅过大的科技股，买入被低估的防御性资产（如能源和消费必需品），保持简单和耐心。"
         },
         "duan": {
-            "insight": "段永平会以‘做对的事，把事情做对’来解读。SpaceX IPO火爆但估值过高，他可能不会参与，因为‘好生意’需要合理价格。AI板块暴跌是价值回归，他更关注苹果、腾讯等已证明商业模式的企业。非农数据强劲说明经济没问题，降息推迟不影响长期持有优质公司。他提醒投资者：不要因为短期波动而改变对好公司的判断，但应警惕Meta等公司的融资风险。",
-            "action": "保持现有仓位，不因AI暴跌而恐慌卖出苹果和腾讯；如果SpaceX上市后估值合理，可小仓位参与；避免追涨Meta，继续持有现金流稳定的消费电子龙头。"
+            "insight": "段永平视角：做对的事，把事做对。腾讯大涨是长期价值的体现，其AI助手‘右滑’类似当年微信的微创新，我继续看好其用户粘性。Alphabet发债投资AI是正确战略，但需关注执行。印度抛售黄金和关税是短期扰动，不影响优质公司的长期逻辑。投资要‘敢为天下后’，在确定性中下重注。",
+            "action": "继续持有并加仓腾讯，关注Alphabet的中长期AI布局；忽略短期地缘和通胀噪音，不参与SpaceX等未盈利IPO，聚焦现金流强劲的科技龙头。"
         }
     }
 };
-
 
 
 
@@ -502,66 +501,28 @@ function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
             <div class="a-radar-copy">不是看谁今天最吵，而是看资金正在交易哪条主线：利率、AI、黄金、港股科技、A股政策，还是能源风险。</div>
         </div>
         <div class="a-sector-list">
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">1</span>
-                            <span class="a-sector-name">电力板块</span>
-                            <span class="a-sector-change">+3.2%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 电力发电、输电、配电公司</div>
-                            <div class="a-sector-reason">🔍 原因：夏季用电高峰+新能源政策</div>
-                            <div class="a-sector-impact">💡 参考：防御性板块，适合稳健型投资者</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">2</span>
-                            <span class="a-sector-name">白酒板块</span>
-                            <span class="a-sector-change">+2.8%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 白酒酿造和销售公司</div>
-                            <div class="a-sector-reason">🔍 原因：消费复苏+茅台效应</div>
-                            <div class="a-sector-impact">💡 参考：高端消费品，受经济周期影响大</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">3</span>
-                            <span class="a-sector-name">超级电容</span>
-                            <span class="a-sector-change">+2.1%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 超级电容器技术公司</div>
-                            <div class="a-sector-reason">🔍 原因：新能源储能需求增长</div>
-                            <div class="a-sector-impact">💡 参考：成长性板块，波动较大</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item down">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">4</span>
-                            <span class="a-sector-name">半导体设备</span>
-                            <span class="a-sector-change">-4.5%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 芯片制造设备公司</div>
-                            <div class="a-sector-reason">🔍 原因：行业周期调整+估值回归</div>
-                            <div class="a-sector-impact">💡 参考：长期看好但短期可能继续调整</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item down">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">5</span>
-                            <span class="a-sector-name">算力概念</span>
-                            <span class="a-sector-change">-3.8%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 AI计算能力相关公司</div>
-                            <div class="a-sector-reason">🔍 原因：前期涨幅过大+获利回吐</div>
-                            <div class="a-sector-impact">💡 参考：AI长期趋势不变，短期需消化估值</div>
-                        </div>
-                    </div>
+            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；只用于观察热钱方向。</div>
+            ${sectors.map((sector, index) => renderSectorHeatCard(sector, index)).join('')}
+        </div>
+    `;
+}
+
+function renderSectorHeatCard(sector, index) {
+    const directionClass = sector.bias === '降温' ? 'down' : 'up';
+    return `
+        <div class="a-sector-item ${directionClass}">
+            <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                <span class="a-sector-rank">${index + 1}</span>
+                <span class="a-sector-name">${safeText(sector.name)}</span>
+                <span class="a-sector-change">${safeText(sector.bias)} ${sector.score}</span>
+            </div>
+            <div class="a-sector-detail">
+                <div class="a-sector-explain">资金在看：${safeText(sector.watch)}</div>
+                <div class="a-sector-reason">交易员逻辑：${safeText(sector.reason)}</div>
+                <div class="a-sector-impact">小白翻译：${safeText(sector.beginner)}</div>
+                <div class="a-target-list">
+                    <span>可跟踪</span>
+                    ${sector.targets.map(target => renderTargetBadge(target)).join('')}
                 </div>
             </div>
         </div>
@@ -661,7 +622,7 @@ function scoreSectorProfile(profile, text, indices, quoteMap, macro) {
 function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
     const hasCloudTrades = Array.isArray(cloudSnapshot?.trades);
     const candidates = hasCloudTrades ? cloudSnapshot.candidates || [] : getPaperTradeCandidates(hotNews, quoteMap, macro);
-    const trades = hasCloudTrades ? refreshPaperTradesForDisplay(cloudSnapshot.trades, quoteMap) : updatePaperTrades(candidates, quoteMap);
+    const trades = hasCloudTrades ? refreshPaperTradesForDisplay(cloudSnapshot.trades, quoteMap, macro) : updatePaperTrades(candidates, quoteMap, macro);
     const effectiveTrades = trades.filter(trade => trade.status !== '重复剔除');
     const activeTrades = effectiveTrades.filter(trade => trade.status !== '过期').slice(0, 8);
     const closedTrades = trades.filter(isPaperTradeClosed);
@@ -673,8 +634,8 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v6 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：新增入场确认分，新闻分只是候选，必须再看趋势、流动性、热度和宏观匹配；胜率只统计已结算交易。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
+            <div class="a-radar-kicker">模型模拟盘 v7 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：新增市场环境调仓，风险高时自动降总仓位和成长权重，防御资产保留验证；胜率只统计已结算交易。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -707,7 +668,7 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
         </div>
         <div class="a-flow-list">
             <div class="paper-toolbar">
-                <span>纪律：单标的≤15%，权益≤70%，10日必须复盘。</span>
+                <span>纪律：单标的≤15%，动态权益≤${getPaperPortfolioCap(macro)}%，10日必须复盘。</span>
                 <button onclick="resetPaperTrades()">清空重测</button>
             </div>
             <div class="a-flow-disclaimer">${hasCloudTrades ? '云端模拟盘每个交易日约每2小时自动跑一次；旧信号保留复盘，新信号按模型规则加入。' : '模拟盘会自动记录“观察池”标的。'}桥水式思路只借鉴公开原则：先分散风险，再用纪律验证，不把单条新闻当神谕。这里是模型验证，不是真实交易建议。</div>
@@ -716,14 +677,14 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
     `;
 }
 
-function refreshPaperTradesForDisplay(trades, quoteMap) {
+function refreshPaperTradesForDisplay(trades, quoteMap, macro = {}) {
     const today = new Date().toISOString().slice(0, 10);
     const refreshed = (trades || []).map(trade => {
         const quote = quoteMap?.[trade.symbol] || {};
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : trade.pnlPct;
         const ageDays = Math.max(0, Math.floor((new Date(today) - new Date(trade.entryDate)) / 86400000));
-        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 });
+        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 }, macro, { score: trade.confirmationScore || 65 });
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
@@ -739,7 +700,7 @@ function refreshPaperTradesForDisplay(trades, quoteMap) {
             status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
         };
     });
-    return applyPaperRiskControls(refreshed);
+    return applyPaperRiskControls(refreshed, macro);
 }
 
 function getPaperTradeGateHtml() {
@@ -800,7 +761,10 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
                 market: target.market,
                 kind: target.kind,
                 entryPrice: target.price,
-                allocationPct: getPaperAllocationPct(target, card),
+                allocationPct: getPaperAllocationPct(target, card, macro, confirmation),
+                portfolioCap: getPaperPortfolioCap(macro),
+                riskMode: getPaperRiskMode(macro),
+                allocationReason: getPaperAllocationReason(target, macro, confirmation),
                 eventTitle: card.title,
                 eventType: card.type,
                 score: card.score,
@@ -897,7 +861,7 @@ function getPaperEntryConfirmation(target, card, macro) {
     };
 }
 
-function updatePaperTrades(candidates, quoteMap) {
+function updatePaperTrades(candidates, quoteMap, macro = {}) {
     const key = 'paper_trade_signals_v1';
     const today = new Date().toISOString().slice(0, 10);
     let trades = [];
@@ -928,7 +892,7 @@ function updatePaperTrades(candidates, quoteMap) {
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : null;
         const ageDays = Math.max(0, Math.floor((new Date(today) - new Date(trade.entryDate)) / 86400000));
-        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 });
+        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 }, macro, { score: trade.confirmationScore || 65 });
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
@@ -949,7 +913,7 @@ function updatePaperTrades(candidates, quoteMap) {
         };
         return closePaperTradeIfNeeded(updatedTrade, today);
     });
-    trades = applyPaperRiskControls(trades);
+    trades = applyPaperRiskControls(trades, macro);
 
     localStorage.setItem(key, JSON.stringify(trades));
     return trades;
@@ -979,8 +943,8 @@ function daysBetween(start, end) {
     return Math.max(0, Math.floor((new Date(end) - new Date(start)) / 86400000));
 }
 
-function applyPaperRiskControls(trades) {
-    const maxExposure = 70;
+function applyPaperRiskControls(trades, macro = {}) {
+    const maxExposure = getPaperPortfolioCap(macro);
     let exposure = 0;
     const activeIds = new Set();
     const oldestFirst = [...trades].sort((a, b) => {
@@ -1003,9 +967,54 @@ function applyPaperRiskControls(trades) {
     });
 }
 
-function getPaperAllocationPct(target, card) {
-    if (target.kind === 'Stock') return card.score >= 7 ? 6 : 4;
-    return card.score >= 7 ? 10 : 8;
+function getPaperAllocationPct(target, card, macro = {}, confirmation = {}) {
+    const themes = target.themes || [];
+    const hasTheme = theme => themes.includes(theme);
+    const isDefensive = hasTheme('cash') || hasTheme('gold') || hasTheme('bond');
+    const isGrowth = hasTheme('us-growth') || hasTheme('semiconductor') || hasTheme('hk-tech') || hasTheme('a-tech') || hasTheme('ai');
+    let allocation = target.kind === 'Stock' ? (card.score >= 7 ? 6 : 4) : (card.score >= 7 ? 10 : 8);
+
+    if (macro.riskOff || macro.rateUp) {
+        if (isDefensive) allocation += 2;
+        if (isGrowth) allocation -= 3;
+        if (target.kind === 'Stock') allocation -= 1;
+    }
+    if (macro.rateDown && isGrowth) allocation += 1;
+    if (macro.chinaSupport && (hasTheme('china-beta') || hasTheme('hk-tech') || hasTheme('consumer'))) allocation += 1;
+    if (Number(confirmation.score || 0) >= 85) allocation += 1;
+    if (Number(confirmation.score || 0) < 70) allocation -= 2;
+
+    const min = target.kind === 'Stock' ? 2 : 4;
+    const max = target.kind === 'Stock' ? 6 : 12;
+    return Math.max(min, Math.min(max, Math.round(allocation)));
+}
+
+function getPaperPortfolioCap(macro = {}) {
+    let cap = 70;
+    if (macro.riskOff) cap -= 12;
+    if (macro.rateUp) cap -= 8;
+    if (macro.oilShock) cap -= 5;
+    if (macro.rateDown) cap += 6;
+    if (macro.chinaSupport && !macro.riskOff) cap += 4;
+    return Math.max(45, Math.min(78, cap));
+}
+
+function getPaperRiskMode(macro = {}) {
+    const cap = getPaperPortfolioCap(macro);
+    if (cap <= 50) return '防御';
+    if (cap <= 62) return '谨慎';
+    if (cap >= 74) return '进攻';
+    return '均衡';
+}
+
+function getPaperAllocationReason(target, macro = {}, confirmation = {}) {
+    const parts = [`${getPaperRiskMode(macro)}模式`];
+    const themes = target.themes || [];
+    if ((macro.riskOff || macro.rateUp) && themes.some(t => ['us-growth', 'semiconductor', 'hk-tech', 'a-tech', 'ai'].includes(t))) parts.push('成长降权');
+    if ((macro.riskOff || macro.rateUp) && themes.some(t => ['cash', 'gold', 'bond'].includes(t))) parts.push('防御保留');
+    if (Number(confirmation.score || 0) >= 85) parts.push('确认分高');
+    if (Number(confirmation.score || 0) < 70) parts.push('确认分偏低');
+    return parts.join(' / ');
 }
 
 function getPaperTradeStatus(trade) {
@@ -1149,7 +1158,7 @@ function renderPaperTradeCard(trade) {
             </div>
             <div class="a-flow-detail">
                 <div class="a-flow-explain">模型来源：${safeText(trade.eventType)} ${safeText(trade.score)}/10，入场确认 ${safeText(trade.confirmationScore || '旧样本')}/100，来自“${safeText(trade.eventTitle)}”。</div>
-                <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
+                <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），${trade.allocationReason ? `调仓逻辑：${safeText(trade.allocationReason)}，` : ''}入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
                 <div class="a-flow-meaning">状态：<span class="a-flow-change ${statusClass}">${safeText(trade.status)}</span></div>
                 <div class="paper-playbook">
                     <div><span>入场逻辑</span><b>${safeText(playbook.entry)}</b></div>
