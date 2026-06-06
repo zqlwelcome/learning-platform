@@ -240,7 +240,7 @@ async function renderSummaryContent() {
                     <button class="a-insights-tab active" onclick="switchInsightTab('braintrust', this)">高手茶话会</button>
                     <button class="a-insights-tab" onclick="switchInsightTab('calendar', this)">本周雷达</button>
                     <button class="a-insights-tab" onclick="switchInsightTab('flow', this)">交易池情报</button>
-                    <button class="a-insights-tab" onclick="switchInsightTab('sector', this)">板块热闹榜</button>
+                    <button class="a-insights-tab" onclick="switchInsightTab('sector', this)">全球资金主线</button>
                     <button class="a-insights-tab" onclick="switchInsightTab('paper', this)">模拟盘验证</button>
                 </div>
                 <div class="a-insights-hint" id="tabHint">
