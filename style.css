@@ -266,10 +266,10 @@ body {
     min-width: 0;
 }
 .market-item.up {
-    background: linear-gradient(180deg, var(--card) 60%, rgba(255,59,48,0.04));
+    background: linear-gradient(180deg, var(--card) 60%, rgba(52,199,89,0.04));
 }
 .market-item.down {
-    background: linear-gradient(180deg, var(--card) 60%, rgba(52,199,89,0.04));
+    background: linear-gradient(180deg, var(--card) 60%, rgba(255,59,48,0.04));
 }
 
 .market-label { 
@@ -310,13 +310,13 @@ body {
     border-right: 4px solid transparent;
     margin-right: 1px;
 }
-.market-item.up .market-change { color: var(--red); }
+.market-item.up .market-change { color: var(--green); }
 .market-item.up .market-change::before {
-    border-bottom: 5px solid var(--red);
+    border-bottom: 5px solid var(--green);
 }
-.market-item.down .market-change { color: var(--green); }
+.market-item.down .market-change { color: var(--red); }
 .market-item.down .market-change::before {
-    border-top: 5px solid var(--green);
+    border-top: 5px solid var(--red);
 }
 
 .market-note {
@@ -332,13 +332,13 @@ body {
 }
 
 .market-note.up {
-    background: rgba(255,59,48,0.08);
-    color: #b42318;
+    background: rgba(52,199,89,0.08);
+    color: #1f7a3a;
 }
 
 .market-note.down {
-    background: rgba(52,199,89,0.08);
-    color: #1f7a3a;
+    background: rgba(255,59,48,0.08);
+    color: #b42318;
 }
 
 .market-note.neutral {
@@ -1093,10 +1093,10 @@ body {
     flex-shrink: 0;
     margin-top: 1px;
 }
-.badge-add { background: #fce8e6; color: var(--red); font-weight: 700; }
-[data-theme="dark"] .badge-add { background: #3a1010; color: #ff7875; }
-.badge-reduce { background: #e8f5e9; color: var(--green); font-weight: 700; }
-[data-theme="dark"] .badge-reduce { background: #0a2e1a; color: #5ddb7a; }
+.badge-add { background: #e8f5e9; color: var(--green); font-weight: 700; }
+[data-theme="dark"] .badge-add { background: #0a2e1a; color: #5ddb7a; }
+.badge-reduce { background: #fce8e6; color: var(--red); font-weight: 700; }
+[data-theme="dark"] .badge-reduce { background: #3a1010; color: #ff7875; }
 .badge-new { background: #e3f2fd; color: var(--primary); font-size: 10px; }
 [data-theme="dark"] .badge-new { background: #0a2640; color: #5cb3ff; }
 .badge-exit { background: #f1f1f1; color: var(--text3); }
@@ -1111,10 +1111,10 @@ body {
 }
 .hl-cticker { font-size: 14px; font-weight: 600; }
 .hl-cpct { font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 4px; }
-.cpct-up { color: var(--red); background: #fce8e6; }
-[data-theme="dark"] .cpct-up { background: #3a1010; color: #ff7875; }
-.cpct-down { color: var(--green); background: #e8f5e9; }
-[data-theme="dark"] .cpct-down { background: #0a2e1a; color: #5ddb7a; }
+.cpct-up { color: var(--green); background: #e8f5e9; }
+[data-theme="dark"] .cpct-up { background: #0a2e1a; color: #5ddb7a; }
+.cpct-down { color: var(--red); background: #fce8e6; }
+[data-theme="dark"] .cpct-down { background: #3a1010; color: #ff7875; }
 .hl-cname { font-size: 12px; color: var(--text2); margin-bottom: 2px; }
 .hl-cdetail { font-size: 11px; color: var(--text3); line-height: 1.45; }
 
@@ -1164,10 +1164,10 @@ body {
 .hl-hmeta { display: flex; align-items: center; gap: 6px; margin-top: 1px; }
 .hl-hpct { font-size: 13px; font-weight: 600; color: var(--text); }
 .hl-hchange { font-size: 10px; padding: 1px 5px; border-radius: 3px; font-weight: 600; }
-.hc-up { background: #fce8e6; color: var(--red); }
-[data-theme="dark"] .hc-up { background: #3a1010; color: #ff7875; }
-.hc-down { background: #e8f5e9; color: var(--green); }
-[data-theme="dark"] .hc-down { background: #0a2e1a; color: #5ddb7a; }
+.hc-up { background: #e8f5e9; color: var(--green); }
+[data-theme="dark"] .hc-up { background: #0a2e1a; color: #5ddb7a; }
+.hc-down { background: #fce8e6; color: var(--red); }
+[data-theme="dark"] .hc-down { background: #3a1010; color: #ff7875; }
 .hc-new { background: #e3f2fd; color: var(--primary); }
 [data-theme="dark"] .hc-new { background: #0a2640; color: #5cb3ff; }
 
@@ -1981,10 +1981,10 @@ body {
     font-family: var(--ff-mono);
 }
 .a-flow-value.in {
-    color: var(--red);
+    color: var(--green);
 }
 .a-flow-value.out {
-    color: var(--green);
+    color: var(--red);
 }
 .a-flow-bar {
     flex: 1;
@@ -2608,6 +2608,52 @@ body {
     font-weight: 600;
 }
 
+.trade-layer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.trade-layer-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 9px;
+    background: var(--bg);
+}
+
+.trade-layer-card span,
+.trade-layer-card small {
+    display: block;
+    color: var(--text3);
+    font-size: 10px;
+    line-height: 1.35;
+}
+
+.trade-layer-card b {
+    display: block;
+    color: var(--text);
+    font-size: 12px;
+    line-height: 1.45;
+    margin: 4px 0;
+}
+
+.a-target-list b.trade-target-badge.ready {
+    color: var(--green);
+    background: rgba(52, 199, 89, 0.1);
+}
+
+.a-target-list b.trade-target-badge.hot {
+    color: var(--red);
+    background: rgba(255, 59, 48, 0.1);
+}
+
+@media (max-width: 520px) {
+    .trade-layer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .a-target-list em {
     margin-left: 3px;
     color: var(--text3);
@@ -2686,8 +2732,8 @@ body {
     min-width: 50px;
     text-align: right;
 }
-.a-flow-value.up, .a-flow-change.positive { color: var(--red); }
-.a-flow-value.down, .a-flow-change.negative { color: var(--green); }
+.a-flow-value.up, .a-flow-change.positive { color: var(--green); }
+.a-flow-value.down, .a-flow-change.negative { color: var(--red); }
 
 /* ===== 日历区域标签 ===== */
 .a-calendar-region {
@@ -2718,88 +2764,4 @@ body {
     font-size: 12px;
     color: var(--primary);
     font-weight: 500;
-}
-
-/* ===== 课程代码块样式 ===== */
-.code-block {
-    margin: 12px 0;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid var(--border);
-}
-.code-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 12px;
-    background: #1e1e1e;
-    cursor: pointer;
-}
-.code-lang {
-    font-size: 12px;
-    color: #9da5b4;
-    font-family: var(--ff-mono);
-}
-.code-actions {
-    display: flex;
-    gap: 8px;
-}
-.code-copy-btn, .code-toggle-btn {
-    background: none;
-    border: none;
-    color: #9da5b4;
-    font-size: 12px;
-    cursor: pointer;
-    padding: 2px 6px;
-    border-radius: 4px;
-}
-.code-copy-btn:hover, .code-toggle-btn:hover {
-    background: rgba(255,255,255,0.1);
-    color: #fff;
-}
-.code-body {
-    background: #282c34;
-    padding: 12px 16px;
-    overflow-x: auto;
-    max-height: 300px;
-    transition: max-height 0.3s ease;
-}
-.code-body.collapsed {
-    max-height: 0;
-    padding: 0 16px;
-}
-.code-body pre {
-    margin: 0;
-    font-family: 'SF Mono', 'Fira Code', monospace;
-    font-size: 13px;
-    line-height: 1.6;
-    color: #abb2bf;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-.code-body code {
-    font-family: inherit;
-}
-/* 语法高亮 */
-.code-body .keyword { color: #c678dd; }
-.code-body .string { color: #98c379; }
-.code-body .comment { color: #5c6370; font-style: italic; }
-.code-body .function { color: #61afef; }
-.code-body .number { color: #d19a66; }
-
-/* 课程内容链接样式 */
-.lesson-content a {
-    color: var(--primary);
-    text-decoration: none;
-}
-.lesson-content a:hover {
-    text-decoration: underline;
-}
-/* 课程内容代码内联 */
-.lesson-content code {
-    background: rgba(0,113,227,0.08);
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-family: var(--ff-mono);
-    font-size: 13px;
 }
