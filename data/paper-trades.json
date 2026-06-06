@@ -1,7 +1,7 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-06T12:23:09.697Z",
+  "updateTime": "2026-06-06T12:28:24.281Z",
   "macro": {
     "rateUp": true,
     "rateDown": false,
@@ -26,7 +26,11 @@
         "流动性通过",
         "价格位置适中",
         "宏观环境匹配"
-      ]
+      ],
+      "allocationPct": 12,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 防御保留 / 确认分高"
     },
     {
       "symbol": "hk03033",
@@ -42,7 +46,11 @@
         "流动性通过",
         "价格未失控",
         "宏观环境匹配"
-      ]
+      ],
+      "allocationPct": 9,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 成长降权 / 确认分高"
     },
     {
       "symbol": "sh511010",
@@ -58,7 +66,11 @@
         "流动性通过",
         "价格未失控",
         "接近高位"
-      ]
+      ],
+      "allocationPct": 10,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低"
     },
     {
       "symbol": "hk02800",
@@ -74,7 +86,11 @@
         "流动性通过",
         "价格未失控",
         "价格位置适中"
-      ]
+      ],
+      "allocationPct": 12,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 确认分高"
     },
     {
       "symbol": "sz159928",
@@ -90,7 +106,11 @@
         "流动性通过",
         "价格未失控",
         "宏观环境匹配"
-      ]
+      ],
+      "allocationPct": 11,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式"
     },
     {
       "symbol": "sh512880",
@@ -106,37 +126,43 @@
         "流动性通过",
         "价格未失控",
         "接近高位"
-      ]
+      ],
+      "allocationPct": 7,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 确认分偏低"
     }
   ],
   "stats": {
     "sampleCount": 12,
     "rawSampleCount": 40,
-    "activeCount": 7,
+    "activeCount": 5,
     "closedCount": 0,
-    "waitingCount": 5,
+    "waitingCount": 7,
     "excludedCount": 28,
     "reviewedCount": 0,
     "winRate": null,
     "avgPnl": null,
-    "equity": 98342.28967808843,
-    "exposurePct": 64,
+    "equity": 98845.38096491479,
+    "exposurePct": 44,
+    "portfolioCap": 45,
+    "riskMode": "防御",
     "alerts": 0
   },
   "phaseStats": [
     {
       "key": "d1",
       "label": "1日",
-      "samples": 7,
-      "winRate": 43,
-      "avg": -0.10571428571428575
+      "samples": 5,
+      "winRate": 40,
+      "avg": -0.294
     },
     {
       "key": "d3",
       "label": "3日",
-      "samples": 7,
-      "winRate": 14,
-      "avg": -1.9271428571428575
+      "samples": 5,
+      "winRate": 20,
+      "avg": -1.69
     },
     {
       "key": "d10",
@@ -837,10 +863,10 @@
       "score": 8,
       "id": "2026-06-03-sh512760-资金行为",
       "entryDate": "2026-06-03",
-      "status": "复盘中",
+      "status": "仓位等待",
       "capital": 100000,
-      "entryValue": 10000,
-      "currentValue": 9680.483592400691,
+      "entryValue": 0,
+      "currentValue": 0,
       "currentPrice": 1.121,
       "pnlPct": -3.1951640759930853,
       "ageDays": 3,
@@ -923,10 +949,10 @@
       "score": 10,
       "id": "2026-06-03-sh512880-宏观类",
       "entryDate": "2026-06-03",
-      "status": "复盘中",
+      "status": "仓位等待",
       "capital": 100000,
-      "entryValue": 10000,
-      "currentValue": 9816.425120772949,
+      "entryValue": 0,
+      "currentValue": 0,
       "currentPrice": 1.016,
       "pnlPct": -1.8357487922705222,
       "ageDays": 3,

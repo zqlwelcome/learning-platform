@@ -622,7 +622,7 @@ function scoreSectorProfile(profile, text, indices, quoteMap, macro) {
 function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
     const hasCloudTrades = Array.isArray(cloudSnapshot?.trades);
     const candidates = hasCloudTrades ? cloudSnapshot.candidates || [] : getPaperTradeCandidates(hotNews, quoteMap, macro);
-    const trades = hasCloudTrades ? refreshPaperTradesForDisplay(cloudSnapshot.trades, quoteMap) : updatePaperTrades(candidates, quoteMap);
+    const trades = hasCloudTrades ? refreshPaperTradesForDisplay(cloudSnapshot.trades, quoteMap, macro) : updatePaperTrades(candidates, quoteMap, macro);
     const effectiveTrades = trades.filter(trade => trade.status !== '重复剔除');
     const activeTrades = effectiveTrades.filter(trade => trade.status !== '过期').slice(0, 8);
     const closedTrades = trades.filter(isPaperTradeClosed);
@@ -634,8 +634,8 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v6 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：新增入场确认分，新闻分只是候选，必须再看趋势、流动性、热度和宏观匹配；胜率只统计已结算交易。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
+            <div class="a-radar-kicker">模型模拟盘 v7 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：新增市场环境调仓，风险高时自动降总仓位和成长权重，防御资产保留验证；胜率只统计已结算交易。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -668,7 +668,7 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
         </div>
         <div class="a-flow-list">
             <div class="paper-toolbar">
-                <span>纪律：单标的≤15%，权益≤70%，10日必须复盘。</span>
+                <span>纪律：单标的≤15%，动态权益≤${getPaperPortfolioCap(macro)}%，10日必须复盘。</span>
                 <button onclick="resetPaperTrades()">清空重测</button>
             </div>
             <div class="a-flow-disclaimer">${hasCloudTrades ? '云端模拟盘每个交易日约每2小时自动跑一次；旧信号保留复盘，新信号按模型规则加入。' : '模拟盘会自动记录“观察池”标的。'}桥水式思路只借鉴公开原则：先分散风险，再用纪律验证，不把单条新闻当神谕。这里是模型验证，不是真实交易建议。</div>
@@ -677,14 +677,14 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
     `;
 }
 
-function refreshPaperTradesForDisplay(trades, quoteMap) {
+function refreshPaperTradesForDisplay(trades, quoteMap, macro = {}) {
     const today = new Date().toISOString().slice(0, 10);
     const refreshed = (trades || []).map(trade => {
         const quote = quoteMap?.[trade.symbol] || {};
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : trade.pnlPct;
         const ageDays = Math.max(0, Math.floor((new Date(today) - new Date(trade.entryDate)) / 86400000));
-        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 });
+        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 }, macro, { score: trade.confirmationScore || 65 });
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
@@ -700,7 +700,7 @@ function refreshPaperTradesForDisplay(trades, quoteMap) {
             status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
         };
     });
-    return applyPaperRiskControls(refreshed);
+    return applyPaperRiskControls(refreshed, macro);
 }
 
 function getPaperTradeGateHtml() {
@@ -761,7 +761,10 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
                 market: target.market,
                 kind: target.kind,
                 entryPrice: target.price,
-                allocationPct: getPaperAllocationPct(target, card),
+                allocationPct: getPaperAllocationPct(target, card, macro, confirmation),
+                portfolioCap: getPaperPortfolioCap(macro),
+                riskMode: getPaperRiskMode(macro),
+                allocationReason: getPaperAllocationReason(target, macro, confirmation),
                 eventTitle: card.title,
                 eventType: card.type,
                 score: card.score,
@@ -858,7 +861,7 @@ function getPaperEntryConfirmation(target, card, macro) {
     };
 }
 
-function updatePaperTrades(candidates, quoteMap) {
+function updatePaperTrades(candidates, quoteMap, macro = {}) {
     const key = 'paper_trade_signals_v1';
     const today = new Date().toISOString().slice(0, 10);
     let trades = [];
@@ -889,7 +892,7 @@ function updatePaperTrades(candidates, quoteMap) {
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : null;
         const ageDays = Math.max(0, Math.floor((new Date(today) - new Date(trade.entryDate)) / 86400000));
-        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 });
+        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 }, macro, { score: trade.confirmationScore || 65 });
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
@@ -910,7 +913,7 @@ function updatePaperTrades(candidates, quoteMap) {
         };
         return closePaperTradeIfNeeded(updatedTrade, today);
     });
-    trades = applyPaperRiskControls(trades);
+    trades = applyPaperRiskControls(trades, macro);
 
     localStorage.setItem(key, JSON.stringify(trades));
     return trades;
@@ -940,8 +943,8 @@ function daysBetween(start, end) {
     return Math.max(0, Math.floor((new Date(end) - new Date(start)) / 86400000));
 }
 
-function applyPaperRiskControls(trades) {
-    const maxExposure = 70;
+function applyPaperRiskControls(trades, macro = {}) {
+    const maxExposure = getPaperPortfolioCap(macro);
     let exposure = 0;
     const activeIds = new Set();
     const oldestFirst = [...trades].sort((a, b) => {
@@ -964,9 +967,54 @@ function applyPaperRiskControls(trades) {
     });
 }
 
-function getPaperAllocationPct(target, card) {
-    if (target.kind === 'Stock') return card.score >= 7 ? 6 : 4;
-    return card.score >= 7 ? 10 : 8;
+function getPaperAllocationPct(target, card, macro = {}, confirmation = {}) {
+    const themes = target.themes || [];
+    const hasTheme = theme => themes.includes(theme);
+    const isDefensive = hasTheme('cash') || hasTheme('gold') || hasTheme('bond');
+    const isGrowth = hasTheme('us-growth') || hasTheme('semiconductor') || hasTheme('hk-tech') || hasTheme('a-tech') || hasTheme('ai');
+    let allocation = target.kind === 'Stock' ? (card.score >= 7 ? 6 : 4) : (card.score >= 7 ? 10 : 8);
+
+    if (macro.riskOff || macro.rateUp) {
+        if (isDefensive) allocation += 2;
+        if (isGrowth) allocation -= 3;
+        if (target.kind === 'Stock') allocation -= 1;
+    }
+    if (macro.rateDown && isGrowth) allocation += 1;
+    if (macro.chinaSupport && (hasTheme('china-beta') || hasTheme('hk-tech') || hasTheme('consumer'))) allocation += 1;
+    if (Number(confirmation.score || 0) >= 85) allocation += 1;
+    if (Number(confirmation.score || 0) < 70) allocation -= 2;
+
+    const min = target.kind === 'Stock' ? 2 : 4;
+    const max = target.kind === 'Stock' ? 6 : 12;
+    return Math.max(min, Math.min(max, Math.round(allocation)));
+}
+
+function getPaperPortfolioCap(macro = {}) {
+    let cap = 70;
+    if (macro.riskOff) cap -= 12;
+    if (macro.rateUp) cap -= 8;
+    if (macro.oilShock) cap -= 5;
+    if (macro.rateDown) cap += 6;
+    if (macro.chinaSupport && !macro.riskOff) cap += 4;
+    return Math.max(45, Math.min(78, cap));
+}
+
+function getPaperRiskMode(macro = {}) {
+    const cap = getPaperPortfolioCap(macro);
+    if (cap <= 50) return '防御';
+    if (cap <= 62) return '谨慎';
+    if (cap >= 74) return '进攻';
+    return '均衡';
+}
+
+function getPaperAllocationReason(target, macro = {}, confirmation = {}) {
+    const parts = [`${getPaperRiskMode(macro)}模式`];
+    const themes = target.themes || [];
+    if ((macro.riskOff || macro.rateUp) && themes.some(t => ['us-growth', 'semiconductor', 'hk-tech', 'a-tech', 'ai'].includes(t))) parts.push('成长降权');
+    if ((macro.riskOff || macro.rateUp) && themes.some(t => ['cash', 'gold', 'bond'].includes(t))) parts.push('防御保留');
+    if (Number(confirmation.score || 0) >= 85) parts.push('确认分高');
+    if (Number(confirmation.score || 0) < 70) parts.push('确认分偏低');
+    return parts.join(' / ');
 }
 
 function getPaperTradeStatus(trade) {
@@ -1110,7 +1158,7 @@ function renderPaperTradeCard(trade) {
             </div>
             <div class="a-flow-detail">
                 <div class="a-flow-explain">模型来源：${safeText(trade.eventType)} ${safeText(trade.score)}/10，入场确认 ${safeText(trade.confirmationScore || '旧样本')}/100，来自“${safeText(trade.eventTitle)}”。</div>
-                <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
+                <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），${trade.allocationReason ? `调仓逻辑：${safeText(trade.allocationReason)}，` : ''}入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
                 <div class="a-flow-meaning">状态：<span class="a-flow-change ${statusClass}">${safeText(trade.status)}</span></div>
                 <div class="paper-playbook">
                     <div><span>入场逻辑</span><b>${safeText(playbook.entry)}</b></div>
