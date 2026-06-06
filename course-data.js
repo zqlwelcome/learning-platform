@@ -652,30 +652,72 @@ COURSES.push(
           <h4>📝 手把手操作</h4>
           <p><strong>Step 1: 安装Anaconda</strong></p>
           <p>访问 <a href="https://www.anaconda.com/download" target="_blank">anaconda.com</a> 下载安装</p>
-          <pre><code># 验证安装
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 验证安装
 conda --version
 python --version</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 2: 创建AI开发环境</strong></p>
-          <pre><code># 创建专用环境
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 创建专用环境
 conda create -n ai-dev python=3.11 -y
 conda activate ai-dev
 
 # 安装核心库
 pip install openai langchain chromadb fastapi pandas numpy
 pip install langchain-community langchain-openai</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 3: 配置API Key</strong></p>
-          <pre><code># 方法1: 环境变量（推荐）
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 方法1: 环境变量（推荐）
 export OPENAI_API_KEY="sk-你的key"
 
 # 方法2: .env文件
 pip install python-dotenv
 # 创建 .env 文件，写入:
 # OPENAI_API_KEY=sk-你的key</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 4: 测试第一个AI程序</strong></p>
-          <pre><code># test_ai.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># test_ai.py
 from openai import OpenAI
 client = OpenAI()
 
@@ -684,9 +726,22 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "用一句话介绍你自己"}]
 )
 print(response.choices[0].message.content)</code></pre>
+            </div>
+        </div>
           
-          <pre><code># 运行
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Code</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 运行
 python test_ai.py</code></pre>
+            </div>
+        </div>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
@@ -721,7 +776,16 @@ python test_ai.py</code></pre>
         <div class="block">
           <h4>📝 手把手操作</h4>
           <p><strong>Step 1: OpenAI API 基础调用</strong></p>
-          <pre><code># openai_basic.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># openai_basic.py
 from openai import OpenAI
 client = OpenAI()
 
@@ -737,9 +801,20 @@ response = client.chat.completions.create(
 )
 print(response.choices[0].message.content)
 print(f"Token用量: {response.usage.total_tokens}")</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 2: 流式输出（用户体验更好）</strong></p>
-          <pre><code># streaming.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># streaming.py
 from openai import OpenAI
 client = OpenAI()
 
@@ -752,9 +827,20 @@ stream = client.chat.completions.create(
 for chunk in stream:
     if chunk.choices[0].delta.content:
         print(chunk.choices[0].delta.content, end="")</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 3: DeepSeek API（国产替代，更便宜）</strong></p>
-          <pre><code># deepseek_example.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># deepseek_example.py
 from openai import OpenAI
 
 # DeepSeek兼容OpenAI接口格式
@@ -768,9 +854,20 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "你好"}]
 )
 print(response.choices[0].message.content)</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 4: 错误处理和重试</strong></p>
-          <pre><code># robust_call.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># robust_call.py
 import time
 from openai import OpenAI, APIError, RateLimitError
 
@@ -796,6 +893,8 @@ def call_with_retry(prompt, max_retries=3):
 # 使用
 result = call_with_retry("Hello")
 print(result)</code></pre>
+            </div>
+        </div>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
@@ -821,27 +920,134 @@ print(result)</code></pre>
       {
         id: 'eng-3',
         title: 'Prompt Engineering精讲',
-        time: '20分钟',
+        time: '25分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握企业级Prompt设计方法</div>
+          <div class="lesson-goal">🎯 本节目标：掌握企业级Prompt设计，能写出生产级Prompt</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>Prompt设计原则：</strong></p>
-          <p>1. 角色设定 - 明确AI的角色和专业领域</p>
-          <p>2. 任务描述 - 清晰、具体、可执行</p>
-          <p>3. 输出格式 - JSON/Markdown/表格</p>
-          <p>4. 约束条件 - 边界和限制</p>
-          <p><strong>高级技巧：</strong></p>
-          <p>• Few-shot - 用示例引导输出</p>
-          <p>• Chain-of-Thought - 分步推理</p>
-          <p>• ReAct - 推理+行动结合</p>
-          <p>• Self-Consistency - 多次采样取共识</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 基础Prompt结构</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Prompt</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 角色 + 任务 + 格式 + 约束
+
+你是一位资深的Python技术面试官。（角色）
+请根据以下简历内容，生成3个针对性的技术面试题。（任务）
+要求：
+- 每个问题包含题目、考察点、参考答案（格式）
+- 难度递进：基础→进阶→挑战（约束）
+- 语言：中文</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: Few-shot 示例引导</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Prompt</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>请将以下用户反馈分类为：正面/负面/中性
+
+示例1：
+输入："这个产品太好用了！"
+输出：正面
+
+示例2：
+输入："还行吧，一般般"
+输出：中性
+
+示例3：
+输入："垃圾，退货！"
+输出：负面
+
+现在分类：
+输入："{用户反馈}"</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: Chain-of-Thought 分步推理</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Prompt</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>请一步一步分析这个商业问题：
+
+问题：{商业问题}
+
+请按以下步骤思考：
+1. 首先，明确问题的核心是什么
+2. 然后，列出影响这个问题的关键因素
+3. 接着，分析每个因素的利弊
+4. 最后，给出你的结论和建议
+
+请用"让我思考..."开头，展示你的推理过程。</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 4: 输出格式控制（JSON）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 强制JSON输出
+prompt = """
+分析以下新闻并返回JSON格式：
+
+新闻：{news_text}
+
+返回格式：
+{
+    "sentiment": "positive/negative/neutral",
+    "keywords": ["关键词1", "关键词2"],
+    "summary": "一句话摘要",
+    "impact": "high/medium/low"
+}
+
+只返回JSON，不要其他内容。
+"""</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: Prompt太长会不会影响效果？</strong></p>
+          <p>A: 会。建议控制在2000字以内，关键信息放前面。</p>
+          <p><strong>Q: 如何测试Prompt效果？</strong></p>
+          <p>A: 准备10-20个测试用例，覆盖正常和边界情况。</p>
+          <p><strong>Q: 不同模型Prompt能通用吗？</strong></p>
+          <p>A: 基本通用，但细节可能需要微调。GPT更听话，Claude更严谨。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://www.promptingguide.ai/zh" target="_blank">Prompt Engineering指南（中文）</a></p>
+          <p>• <a href="https://github.com/dair-ai/Prompt-Engineering-Guide" target="_blank">Prompt Engineering GitHub仓库</a></p>
+          <p>• <a href="https://docs.anthropic.com/claude/docs" target="_blank">Claude Prompt最佳实践</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>设计一个"智能客服"Prompt，能处理退换货、物流查询、产品咨询三种场景。</p>
+          <p>设计一个"智能客服"Prompt，用Few-shot方式处理退换货、物流查询、产品咨询三种场景。</p>
         </div>
         `
       },
