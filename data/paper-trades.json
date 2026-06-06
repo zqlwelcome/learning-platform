@@ -1,7 +1,7 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-06T12:30:04.609Z",
+  "updateTime": "2026-06-06T12:37:38.611Z",
   "macro": {
     "rateUp": true,
     "rateDown": true,
@@ -30,7 +30,13 @@
       "allocationPct": 10,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分高"
+      "allocationReason": "谨慎模式 / 成长降权 / 确认分高",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
+        "buyWhat": "恒生科技ETF 3033，基金/ETF方向验证。",
+        "buyWhy": "入场确认 85/100，当前为谨慎模式；谨慎模式 / 成长降权 / 确认分高。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     },
     {
       "symbol": "sz159928",
@@ -50,7 +56,13 @@
       "allocationPct": 12,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分高"
+      "allocationReason": "谨慎模式 / 确认分高",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
+        "buyWhat": "消费ETF 159928，基金/ETF方向验证。",
+        "buyWhy": "入场确认 85/100，当前为谨慎模式；谨慎模式 / 确认分高。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     },
     {
       "symbol": "sh512880",
@@ -70,7 +82,13 @@
       "allocationPct": 9,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "谨慎模式 / 确认分偏低",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
+        "buyWhat": "证券ETF 512880，基金/ETF方向验证。",
+        "buyWhy": "入场确认 69/100，当前为谨慎模式；谨慎模式 / 确认分偏低。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     },
     {
       "symbol": "usQQQ",
@@ -90,7 +108,13 @@
       "allocationPct": 8,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 成长降权"
+      "allocationReason": "谨慎模式 / 成长降权",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
+        "buyWhat": "纳指100ETF QQQ，基金/ETF方向验证。",
+        "buyWhy": "入场确认 82/100，当前为谨慎模式；谨慎模式 / 成长降权。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     },
     {
       "symbol": "usXLK",
@@ -110,7 +134,13 @@
       "allocationPct": 6,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
+        "buyWhat": "科技精选ETF XLK，基金/ETF方向验证。",
+        "buyWhy": "入场确认 64/100，当前为谨慎模式；谨慎模式 / 成长降权 / 确认分偏低。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     },
     {
       "symbol": "hk02800",
@@ -130,7 +160,13 @@
       "allocationPct": 10,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分高"
+      "allocationReason": "谨慎模式 / 确认分高",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
+        "buyWhat": "盈富基金 2800，基金/ETF方向验证。",
+        "buyWhy": "入场确认 87/100，当前为谨慎模式；谨慎模式 / 确认分高。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     },
     {
       "symbol": "usGLD",
@@ -150,7 +186,13 @@
       "allocationPct": 10,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 防御保留"
+      "allocationReason": "谨慎模式 / 防御保留",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
+        "buyWhat": "黄金ETF GLD，基金/ETF方向验证。",
+        "buyWhy": "入场确认 82/100，当前为谨慎模式；谨慎模式 / 防御保留。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     },
     {
       "symbol": "sh511010",
@@ -170,7 +212,13 @@
       "allocationPct": 8,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低"
+      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
+        "buyWhat": "国债ETF 511010，基金/ETF方向验证。",
+        "buyWhy": "入场确认 68/100，当前为谨慎模式；谨慎模式 / 防御保留 / 确认分偏低。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     }
   ],
   "stats": {
@@ -234,6 +282,12 @@
         "日内跌幅过深",
         "价格位置适中"
       ],
+      "actionPlan": {
+        "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
+        "buyWhat": "科技精选ETF XLK，基金/ETF方向验证。",
+        "buyWhy": "入场确认 64/100，当前为谨慎模式；谨慎模式 / 成长降权 / 确认分偏低。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      },
       "id": "2026-06-06-usXLK-资金行为",
       "entryDate": "2026-06-06",
       "status": "仓位等待",
@@ -554,7 +608,7 @@
           "pnlPct": 2.38
         }
       },
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
     },
     {
       "symbol": "hk03033",
@@ -894,7 +948,7 @@
           "pnlPct": 0.03
         }
       },
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低"
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低"
     },
     {
       "symbol": "usQQQ",
@@ -954,7 +1008,7 @@
           "pnlPct": -3.2
         }
       },
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
     },
     {
       "symbol": "sh511010",
@@ -1010,7 +1064,7 @@
           "pnlPct": 0
         }
       },
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低"
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低"
     },
     {
       "symbol": "sh512880",
@@ -1042,7 +1096,7 @@
           "pnlPct": -1.84
         }
       },
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "防御模式 / 确认分偏低"
     },
     {
       "symbol": "hk03033",
@@ -1074,7 +1128,7 @@
           "pnlPct": -3.31
         }
       },
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
     },
     {
       "symbol": "usGLD",
@@ -1102,7 +1156,7 @@
           "pnlPct": -0.99
         }
       },
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低"
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低"
     },
     {
       "symbol": "sh512880",
@@ -1162,7 +1216,7 @@
           "pnlPct": -1.05
         }
       },
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "防御模式 / 确认分偏低"
     },
     {
       "symbol": "hk02800",
@@ -1274,7 +1328,7 @@
           "pnlPct": 2.62
         }
       },
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "防御模式 / 确认分偏低"
     },
     {
       "symbol": "usXLE",
@@ -1302,7 +1356,7 @@
           "pnlPct": 1.29
         }
       },
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "防御模式 / 确认分偏低"
     },
     {
       "symbol": "usQQQ",
@@ -1334,7 +1388,7 @@
           "pnlPct": -0.55
         }
       },
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
     }
   ],
   "note": "纸面模拟盘自动记录模型信号，不构成真实投资建议。"
