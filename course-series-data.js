@@ -81,47 +81,71 @@ const COURSE_SERIES = [
     title: 'AI工程师',
     icon: '💻',
     color: '#34c759',
-    status: 'coming-soon',
+    status: 'active',
     progress: 0,
-    totalLessons: 12,
+    totalLessons: 20,
     completedLessons: 0,
-    description: '掌握AI工程化落地的核心技术',
-    tags: ['技术', '高薪'],
+    description: '掌握AI工程化落地的核心技术，对标大厂AI工程师岗位',
+    tags: ['技术', '高薪', '实战'],
     modules: [
       {
-        id: 'ai-eng-basic',
+        id: 'ai-eng-foundation',
         title: '基础篇',
-        subtitle: '第1-4天',
+        subtitle: '第1-5天',
         icon: '📚',
         lessons: [
-          { id: 'eng-1', title: 'Python AI开发环境', time: '10分钟' },
-          { id: 'eng-2', title: '大模型API调用', time: '12分钟' },
-          { id: 'eng-3', title: 'Prompt Engineering', time: '15分钟' },
-          { id: 'eng-4', title: '向量数据库实战', time: '12分钟' }
+          { id: 'eng-1', title: 'Python AI开发环境搭建', time: '10分钟' },
+          { id: 'eng-2', title: '大模型API调用实战', time: '15分钟' },
+          { id: 'eng-3', title: 'Prompt Engineering精讲', time: '20分钟' },
+          { id: 'eng-4', title: '向量数据库选型与实战', time: '15分钟' },
+          { id: 'eng-5', title: 'Embedding模型选择与使用', time: '12分钟' }
         ]
       },
       {
-        id: 'ai-eng-advanced',
-        title: '进阶篇',
-        subtitle: '第5-8天',
+        id: 'ai-eng-rag',
+        title: 'RAG实战篇',
+        subtitle: '第6-10天',
+        icon: '🔍',
+        lessons: [
+          { id: 'eng-6', title: 'RAG系统架构设计', time: '15分钟' },
+          { id: 'eng-7', title: '文档解析与切分策略', time: '18分钟' },
+          { id: 'eng-8', title: '检索优化：混合检索+重排序', time: '20分钟' },
+          { id: 'eng-9', title: '企业知识库问答系统实战', time: '25分钟' },
+          { id: 'eng-10', title: 'RAG评估与优化', time: '15分钟' }
+        ]
+      },
+      {
+        id: 'ai-eng-agent',
+        title: 'Agent实战篇',
+        subtitle: '第11-15天',
+        icon: '🤖',
+        lessons: [
+          { id: 'eng-11', title: 'LangChain核心概念', time: '18分钟' },
+          { id: 'eng-12', title: 'LlamaIndex实战', time: '18分钟' },
+          { id: 'eng-13', title: 'Agent设计模式', time: '20分钟' },
+          { id: 'eng-14', title: '工具调用与Function Calling', time: '15分钟' },
+          { id: 'eng-15', title: '多Agent协作系统', time: '22分钟' }
+        ]
+      },
+      {
+        id: 'ai-eng-deploy',
+        title: '部署上线篇',
+        subtitle: '第16-18天',
         icon: '🚀',
         lessons: [
-          { id: 'eng-5', title: 'RAG系统搭建', time: '18分钟' },
-          { id: 'eng-6', title: 'Agent开发框架', time: '20分钟' },
-          { id: 'eng-7', title: '模型微调实战', time: '15分钟' },
-          { id: 'eng-8', title: '性能优化技巧', time: '12分钟' }
+          { id: 'eng-16', title: 'Docker容器化部署', time: '15分钟' },
+          { id: 'eng-17', title: 'K8s集群部署与扩缩容', time: '20分钟' },
+          { id: 'eng-18', title: '监控告警与日志系统', time: '15分钟' }
         ]
       },
       {
-        id: 'ai-eng-practice',
-        title: '实战篇',
-        subtitle: '第9-12天',
-        icon: '💪',
+        id: 'ai-eng-career',
+        title: '求职实战篇',
+        subtitle: '第19-20天',
+        icon: '🎯',
         lessons: [
-          { id: 'eng-9', title: '项目架构设计', time: '15分钟' },
-          { id: 'eng-10', title: '部署与运维', time: '18分钟' },
-          { id: 'eng-11', title: '面试算法题', time: '20分钟' },
-          { id: 'eng-12', title: '系统设计面试', time: '25分钟' }
+          { id: 'eng-19', title: 'AI工程师简历优化', time: '15分钟' },
+          { id: 'eng-20', title: '面试题库：算法+系统设计+项目', time: '30分钟' }
         ]
       }
     ]

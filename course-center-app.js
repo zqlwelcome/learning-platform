@@ -311,7 +311,8 @@ function toggleModule(moduleId) {
 
 // 打开课程
 function openLesson(lessonId, seriesId) {
-    if (seriesId === 'ai-pm') {
+    // 支持所有已有课程内容的系列
+    if (seriesId === 'ai-pm' || seriesId === 'ai-engineer') {
         openPMLesson(lessonId);
         return;
     }
