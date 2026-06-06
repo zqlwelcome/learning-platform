@@ -1,7 +1,7 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-06T12:19:15.927Z",
+  "updateTime": "2026-06-06T12:23:09.697Z",
   "macro": {
     "rateUp": true,
     "rateDown": false,
@@ -19,7 +19,14 @@
       "market": "美股",
       "kind": "ETF",
       "eventType": "宏观类",
-      "score": 9
+      "score": 9,
+      "confirmationScore": 87,
+      "confirmationReasons": [
+        "模型基础分强",
+        "流动性通过",
+        "价格位置适中",
+        "宏观环境匹配"
+      ]
     },
     {
       "symbol": "hk03033",
@@ -28,7 +35,14 @@
       "market": "港股",
       "kind": "ETF",
       "eventType": "宏观类",
-      "score": 9
+      "score": 9,
+      "confirmationScore": 85,
+      "confirmationReasons": [
+        "模型基础分强",
+        "流动性通过",
+        "价格未失控",
+        "宏观环境匹配"
+      ]
     },
     {
       "symbol": "sh511010",
@@ -37,7 +51,14 @@
       "market": "A股",
       "kind": "ETF",
       "eventType": "宏观类",
-      "score": 9
+      "score": 9,
+      "confirmationScore": 69,
+      "confirmationReasons": [
+        "模型基础分达标",
+        "流动性通过",
+        "价格未失控",
+        "接近高位"
+      ]
     },
     {
       "symbol": "hk02800",
@@ -46,7 +67,14 @@
       "market": "港股",
       "kind": "ETF",
       "eventType": "宏观类",
-      "score": 9
+      "score": 9,
+      "confirmationScore": 92,
+      "confirmationReasons": [
+        "模型基础分强",
+        "流动性通过",
+        "价格未失控",
+        "价格位置适中"
+      ]
     },
     {
       "symbol": "sz159928",
@@ -55,7 +83,14 @@
       "market": "A股",
       "kind": "ETF",
       "eventType": "基本面类",
-      "score": 7
+      "score": 7,
+      "confirmationScore": 80,
+      "confirmationReasons": [
+        "模型基础分强",
+        "流动性通过",
+        "价格未失控",
+        "宏观环境匹配"
+      ]
     },
     {
       "symbol": "sh512880",
@@ -64,7 +99,14 @@
       "market": "A股",
       "kind": "ETF",
       "eventType": "政策类",
-      "score": 6
+      "score": 6,
+      "confirmationScore": 64,
+      "confirmationReasons": [
+        "模型基础分达标",
+        "流动性通过",
+        "价格未失控",
+        "接近高位"
+      ]
     }
   ],
   "stats": {
