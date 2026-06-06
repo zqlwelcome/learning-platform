@@ -266,10 +266,10 @@ body {
     min-width: 0;
 }
 .market-item.up {
-    background: linear-gradient(180deg, var(--card) 60%, rgba(52,199,89,0.04));
+    background: linear-gradient(180deg, var(--card) 60%, rgba(255,59,48,0.04));
 }
 .market-item.down {
-    background: linear-gradient(180deg, var(--card) 60%, rgba(255,59,48,0.04));
+    background: linear-gradient(180deg, var(--card) 60%, rgba(52,199,89,0.04));
 }
 
 .market-label { 
@@ -310,13 +310,13 @@ body {
     border-right: 4px solid transparent;
     margin-right: 1px;
 }
-.market-item.up .market-change { color: var(--green); }
+.market-item.up .market-change { color: var(--red); }
 .market-item.up .market-change::before {
-    border-bottom: 5px solid var(--green);
+    border-bottom: 5px solid var(--red);
 }
-.market-item.down .market-change { color: var(--red); }
+.market-item.down .market-change { color: var(--green); }
 .market-item.down .market-change::before {
-    border-top: 5px solid var(--red);
+    border-top: 5px solid var(--green);
 }
 
 .market-note {
@@ -332,13 +332,13 @@ body {
 }
 
 .market-note.up {
-    background: rgba(52,199,89,0.08);
-    color: #1f7a3a;
+    background: rgba(255,59,48,0.08);
+    color: #b42318;
 }
 
 .market-note.down {
-    background: rgba(255,59,48,0.08);
-    color: #b42318;
+    background: rgba(52,199,89,0.08);
+    color: #1f7a3a;
 }
 
 .market-note.neutral {
@@ -1093,10 +1093,10 @@ body {
     flex-shrink: 0;
     margin-top: 1px;
 }
-.badge-add { background: #e8f5e9; color: var(--green); font-weight: 700; }
-[data-theme="dark"] .badge-add { background: #0a2e1a; color: #5ddb7a; }
-.badge-reduce { background: #fce8e6; color: var(--red); font-weight: 700; }
-[data-theme="dark"] .badge-reduce { background: #3a1010; color: #ff7875; }
+.badge-add { background: #fce8e6; color: var(--red); font-weight: 700; }
+[data-theme="dark"] .badge-add { background: #3a1010; color: #ff7875; }
+.badge-reduce { background: #e8f5e9; color: var(--green); font-weight: 700; }
+[data-theme="dark"] .badge-reduce { background: #0a2e1a; color: #5ddb7a; }
 .badge-new { background: #e3f2fd; color: var(--primary); font-size: 10px; }
 [data-theme="dark"] .badge-new { background: #0a2640; color: #5cb3ff; }
 .badge-exit { background: #f1f1f1; color: var(--text3); }
@@ -1111,10 +1111,10 @@ body {
 }
 .hl-cticker { font-size: 14px; font-weight: 600; }
 .hl-cpct { font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 4px; }
-.cpct-up { color: var(--green); background: #e8f5e9; }
-[data-theme="dark"] .cpct-up { background: #0a2e1a; color: #5ddb7a; }
-.cpct-down { color: var(--red); background: #fce8e6; }
-[data-theme="dark"] .cpct-down { background: #3a1010; color: #ff7875; }
+.cpct-up { color: var(--red); background: #fce8e6; }
+[data-theme="dark"] .cpct-up { background: #3a1010; color: #ff7875; }
+.cpct-down { color: var(--green); background: #e8f5e9; }
+[data-theme="dark"] .cpct-down { background: #0a2e1a; color: #5ddb7a; }
 .hl-cname { font-size: 12px; color: var(--text2); margin-bottom: 2px; }
 .hl-cdetail { font-size: 11px; color: var(--text3); line-height: 1.45; }
 
@@ -1164,10 +1164,10 @@ body {
 .hl-hmeta { display: flex; align-items: center; gap: 6px; margin-top: 1px; }
 .hl-hpct { font-size: 13px; font-weight: 600; color: var(--text); }
 .hl-hchange { font-size: 10px; padding: 1px 5px; border-radius: 3px; font-weight: 600; }
-.hc-up { background: #e8f5e9; color: var(--green); }
-[data-theme="dark"] .hc-up { background: #0a2e1a; color: #5ddb7a; }
-.hc-down { background: #fce8e6; color: var(--red); }
-[data-theme="dark"] .hc-down { background: #3a1010; color: #ff7875; }
+.hc-up { background: #fce8e6; color: var(--red); }
+[data-theme="dark"] .hc-up { background: #3a1010; color: #ff7875; }
+.hc-down { background: #e8f5e9; color: var(--green); }
+[data-theme="dark"] .hc-down { background: #0a2e1a; color: #5ddb7a; }
 .hc-new { background: #e3f2fd; color: var(--primary); }
 [data-theme="dark"] .hc-new { background: #0a2640; color: #5cb3ff; }
 
@@ -1981,10 +1981,10 @@ body {
     font-family: var(--ff-mono);
 }
 .a-flow-value.in {
-    color: var(--green);
+    color: var(--red);
 }
 .a-flow-value.out {
-    color: var(--red);
+    color: var(--green);
 }
 .a-flow-bar {
     flex: 1;
@@ -2686,8 +2686,8 @@ body {
     min-width: 50px;
     text-align: right;
 }
-.a-flow-value.up, .a-flow-change.positive { color: var(--green); }
-.a-flow-value.down, .a-flow-change.negative { color: var(--red); }
+.a-flow-value.up, .a-flow-change.positive { color: var(--red); }
+.a-flow-value.down, .a-flow-change.negative { color: var(--green); }
 
 /* ===== 日历区域标签 ===== */
 .a-calendar-region {
