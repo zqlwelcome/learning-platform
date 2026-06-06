@@ -310,13 +310,13 @@ body {
     border-right: 4px solid transparent;
     margin-right: 1px;
 }
-.market-item.up .market-change { color: var(--green); }
+.market-item.up .market-change { color: var(--red); }
 .market-item.up .market-change::before {
-    border-bottom: 5px solid var(--green);
+    border-bottom: 5px solid var(--red);
 }
-.market-item.down .market-change { color: var(--red); }
+.market-item.down .market-change { color: var(--green); }
 .market-item.down .market-change::before {
-    border-top: 5px solid var(--red);
+    border-top: 5px solid var(--green);
 }
 
 .market-note {
