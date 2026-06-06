@@ -2476,23 +2476,155 @@ docker-compose down</code></pre>
       {
         id: 'eng-17',
         title: 'K8s集群部署与扩缩容',
-        time: '20分钟',
+        time: '25分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握K8s基础和AI应用部署</div>
+          <div class="lesson-goal">🎯 本节目标：掌握K8s基础，能部署AI应用到集群</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>K8s核心概念：</strong></p>
-          <p>• Pod - 最小部署单元</p>
-          <p>• Service - 服务发现和负载均衡</p>
-          <p>• Deployment - 管理Pod副本</p>
-          <p>• ConfigMap/Secret - 配置管理</p>
-          <p><strong>AI应用特点：</strong></p>
-          <p>• GPU调度 - 模型推理需要GPU</p>
-          <p>• 自动扩缩容 - HPA根据负载调整</p>
-          <p>• 滚动更新 - 零停机部署</p>
-          <p>• 健康检查 - 探针监控服务状态</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: Deployment配置</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">YAML</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-rag-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ai-rag-app
+  template:
+    metadata:
+      labels:
+        app: ai-rag-app
+    spec:
+      containers:
+      - name: app
+        image: your-registry/ai-rag-app:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: OPENAI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: ai-secrets
+              key: openai-key
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 10</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: Service配置</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">YAML</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>apiVersion: v1
+kind: Service
+metadata:
+  name: ai-rag-service
+spec:
+  selector:
+    app: ai-rag-app
+  ports:
+  - port: 80
+    targetPort: 8000
+  type: LoadBalancer</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 自动扩缩容（HPA）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">YAML</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: ai-rag-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: ai-rag-app
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 4: 部署命令</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 创建Secret
+kubectl create secret generic ai-secrets --from-literal=openai-key=sk-xxx
+
+# 部署
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+kubectl apply -f hpa.yaml
+
+# 查看状态
+kubectl get pods
+kubectl get svc
+kubectl get hpa</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 本地怎么测试K8s？</strong></p>
+          <p>A: 使用Minikube或Docker Desktop自带的K8s。</p>
+          <p><strong>Q: GPU应用怎么部署？</strong></p>
+          <p>A: 安装NVIDIA设备插件，使用nvidia.com/gpu资源。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://kubernetes.io/docs/home/" target="_blank">K8s官方文档</a></p>
+          <p>• <a href="https://minikube.sigs.k8s.io/" target="_blank">Minikube文档</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
@@ -2542,28 +2674,89 @@ docker-compose down</code></pre>
       {
         id: 'eng-19',
         title: 'AI工程师简历优化',
-        time: '15分钟',
+        time: '20分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：打造一份能通过筛选的AI工程师简历</div>
+          <div class="lesson-goal">🎯 本节目标：打造一份能通过AI工程师岗位筛选的简历</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>简历结构：</strong></p>
-          <p>1. 个人信息 - 简洁专业</p>
-          <p>2. 技术栈 - 突出AI相关技能</p>
-          <p>3. 项目经验 - 用STAR法则描述</p>
-          <p>4. 教育背景</p>
-          <p><strong>项目经验写法（STAR法则）：</strong></p>
-          <p>• Situation - 项目背景</p>
-          <p>• Task - 你的职责</p>
-          <p>• Action - 你做了什么</p>
-          <p>• Result - 量化成果</p>
-          <p><strong>加分项：</strong></p>
-          <p>• GitHub开源项目</p>
-          <p>• 技术博客</p>
-          <p>• Kaggle比赛</p>
-          <p>• 论文发表</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 技术栈展示</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">简历</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>技术栈:
+• 编程语言: Python, Go, SQL
+• AI框架: LangChain, LlamaIndex, AutoGen
+• 大模型: OpenAI GPT-4, Claude, DeepSeek
+• 向量数据库: ChromaDB, Milvus, Pinecone
+• 部署: Docker, K8s, FastAPI
+• 云服务: AWS/Azure/GCP</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 项目经验STAR法则</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">示例</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>项目: 企业知识库问答系统
+
+Situation (背景):
+公司有大量内部文档，员工查找信息效率低
+
+Task (职责):
+负责RAG系统的设计和开发
+
+Action (行动):
+• 使用LangChain + ChromaDB构建RAG系统
+• 实现混合检索（向量+BM25），准确率提升35%
+• 添加重排序模块，召回率提升28%
+• 部署到K8s，支持100+并发用户
+
+Result (成果):
+• 员工查询效率提升60%
+• 系统日均处理5000+查询
+• 获得公司年度创新奖</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 加分项</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">建议</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>加分项:
+• GitHub开源项目 (100+ stars)
+• 技术博客 (掘金/知乎)
+• Kaggle比赛 (top 10%)
+• 论文发表 (顶会/期刊)
+• 技术分享 (Meetup/会议)</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 没有项目经验怎么办？</strong></p>
+          <p>A: 做课程中的实战项目，部署到线上，写进简历。</p>
+          <p><strong>Q: 简历多长合适？</strong></p>
+          <p>A: 应届1页，有经验2页，不要超过2页。</p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
