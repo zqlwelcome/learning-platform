@@ -700,9 +700,9 @@ python test_ai.py</code></pre>
         </div>
         <div class="block">
           <h4>🔗 参考资源</h4>
-          <p>• <a href="https://platform.openai.com/docs/quickstart" target="_blank">OpenAI官方快速入门</a></p>
+          <p>• <a href="https://deepseek.com/zh/api-docs" target="_blank">DeepSeek API文档（国内可访问）</a></p>
           <p>• <a href="https://python.langchain.com/docs/get_started/quickstart" target="_blank">LangChain快速入门</a></p>
-          <p>• <a href="https://www.bilibili.com/video/BV1hS421Q7xX" target="_blank">【B站】Python AI开发环境搭建教程</a></p>
+          <p>• <a href="https://github.com/langchain-ai/langchain" target="_blank">LangChain GitHub仓库</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
@@ -808,9 +808,9 @@ print(result)</code></pre>
         </div>
         <div class="block">
           <h4>🔗 参考资源</h4>
-          <p>• <a href="https://platform.openai.com/docs/api-reference" target="_blank">OpenAI API文档</a></p>
-          <p>• <a href="https://platform.deepseek.com/api-docs" target="_blank">DeepSeek API文档</a></p>
-          <p>• <a href="https://www.bilibili.com/video/BV1xT421c7xF" target="_blank">【B站】OpenAI API实战教程</a></p>
+          <p>• <a href="https://deepseek.com/zh/api-docs" target="_blank">DeepSeek API文档（国内可访问）</a></p>
+          <p>• <a href="https://github.com/openai/openai-python" target="_blank">OpenAI Python SDK GitHub</a></p>
+          <p>• <a href="https://github.com/deepseek-ai/DeepSeek-V3" target="_blank">DeepSeek GitHub仓库</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>

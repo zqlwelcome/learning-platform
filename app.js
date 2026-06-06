@@ -299,3 +299,70 @@ async function loadTodayStats() {
         // 静默失败
     }
 }
+
+// ===== 课程代码块功能 =====
+function initCodeBlocks() {
+    // 将 <pre><code> 转换为可折叠的代码块
+    document.querySelectorAll('.modal-body pre code, .lesson-content pre code').forEach(block => {
+        const pre = block.parentElement;
+        const code = block.textContent;
+        const lang = detectLanguage(code);
+        
+        const wrapper = document.createElement('div');
+        wrapper.className = 'code-block';
+        wrapper.innerHTML = `
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">${lang}</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>${escapeHtml(code)}</code></pre>
+            </div>
+        `;
+        pre.replaceWith(wrapper);
+    });
+}
+
+function detectLanguage(code) {
+    if (code.includes('def ') || code.includes('import ') || code.includes('print(')) return 'Python';
+    if (code.includes('function ') || code.includes('const ') || code.includes('let ')) return 'JavaScript';
+    if (code.includes('npm ') || code.includes('pip ') || code.includes('conda ')) return 'Shell';
+    if (code.includes('<div') || code.includes('<html')) return 'HTML';
+    return 'Code';
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+function toggleCodeBlock(header) {
+    const body = header.nextElementSibling;
+    const btn = header.querySelector('.code-toggle-btn');
+    body.classList.toggle('collapsed');
+    btn.textContent = body.classList.contains('collapsed') ? '▶ 收起' : '▼ 展开';
+}
+
+function copyCode(btn) {
+    const code = btn.closest('.code-block').querySelector('code').textContent;
+    navigator.clipboard.writeText(code).then(() => {
+        btn.textContent = '✅ 已复制';
+        setTimeout(() => btn.textContent = '📋 复制', 2000);
+    });
+}
+
+// 页面加载后初始化代码块
+document.addEventListener('DOMContentLoaded', () => {
+    // 监听弹窗打开，初始化代码块
+    const observer = new MutationObserver(() => {
+        initCodeBlocks();
+    });
+    const modal = document.getElementById('courseModal');
+    if (modal) {
+        observer.observe(modal, { childList: true, subtree: true });
+    }
+});
