@@ -1,7 +1,7 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-06T12:37:38.611Z",
+  "updateTime": "2026-06-06T13:01:04.009Z",
   "macro": {
     "rateUp": true,
     "rateDown": true,
@@ -20,21 +20,28 @@
       "kind": "ETF",
       "eventType": "政策类",
       "score": 8,
-      "confirmationScore": 85,
+      "confirmationScore": 78,
       "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格未失控",
-        "宏观环境匹配"
+        "催化19/20",
+        "资金18/20",
+        "质量15/20",
+        "风险14/20"
       ],
-      "allocationPct": 10,
+      "entryFactors": {
+        "catalyst": 19,
+        "price": 12,
+        "flow": 18,
+        "quality": 15,
+        "risk": 14
+      },
+      "allocationPct": 9,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分高",
+      "allocationReason": "谨慎模式 / 成长降权",
       "actionPlan": {
         "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
         "buyWhat": "恒生科技ETF 3033，基金/ETF方向验证。",
-        "buyWhy": "入场确认 85/100，当前为谨慎模式；谨慎模式 / 成长降权 / 确认分高。",
+        "buyWhy": "入场确认 78/100，当前为谨慎模式；五因子：催化19/价格12/资金18/质量15/风险14。谨慎模式 / 成长降权。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
@@ -46,21 +53,28 @@
       "kind": "ETF",
       "eventType": "政策类",
       "score": 8,
-      "confirmationScore": 85,
+      "confirmationScore": 82,
       "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格未失控",
-        "宏观环境匹配"
+        "催化19/20",
+        "资金18/20",
+        "风险18/20",
+        "质量15/20"
       ],
-      "allocationPct": 12,
+      "entryFactors": {
+        "catalyst": 19,
+        "price": 12,
+        "flow": 18,
+        "quality": 15,
+        "risk": 18
+      },
+      "allocationPct": 11,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分高",
+      "allocationReason": "谨慎模式",
       "actionPlan": {
         "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
         "buyWhat": "消费ETF 159928，基金/ETF方向验证。",
-        "buyWhy": "入场确认 85/100，当前为谨慎模式；谨慎模式 / 确认分高。",
+        "buyWhy": "入场确认 82/100，当前为谨慎模式；五因子：催化19/价格12/资金18/质量15/风险18。谨慎模式。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
@@ -72,21 +86,28 @@
       "kind": "ETF",
       "eventType": "政策类",
       "score": 8,
-      "confirmationScore": 69,
+      "confirmationScore": 75,
       "confirmationReasons": [
-        "模型基础分达标",
-        "流动性通过",
-        "价格未失控",
-        "接近高位"
+        "资金18/20",
+        "风险18/20",
+        "催化16/20",
+        "质量15/20"
       ],
-      "allocationPct": 9,
+      "entryFactors": {
+        "catalyst": 16,
+        "price": 8,
+        "flow": 18,
+        "quality": 15,
+        "risk": 18
+      },
+      "allocationPct": 11,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分偏低",
+      "allocationReason": "谨慎模式",
       "actionPlan": {
-        "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
         "buyWhat": "证券ETF 512880，基金/ETF方向验证。",
-        "buyWhy": "入场确认 69/100，当前为谨慎模式；谨慎模式 / 确认分偏低。",
+        "buyWhy": "入场确认 75/100，当前为谨慎模式；五因子：催化16/价格8/资金18/质量15/风险18。谨慎模式。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
@@ -98,13 +119,20 @@
       "kind": "ETF",
       "eventType": "资金行为",
       "score": 7,
-      "confirmationScore": 82,
+      "confirmationScore": 77,
       "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格位置适中",
-        "宏观环境匹配"
+        "资金18/20",
+        "催化17/20",
+        "质量15/20",
+        "风险14/20"
       ],
+      "entryFactors": {
+        "catalyst": 17,
+        "price": 13,
+        "flow": 18,
+        "quality": 15,
+        "risk": 14
+      },
       "allocationPct": 8,
       "portfolioCap": 51,
       "riskMode": "谨慎",
@@ -112,7 +140,7 @@
       "actionPlan": {
         "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
         "buyWhat": "纳指100ETF QQQ，基金/ETF方向验证。",
-        "buyWhy": "入场确认 82/100，当前为谨慎模式；谨慎模式 / 成长降权。",
+        "buyWhy": "入场确认 77/100，当前为谨慎模式；五因子：催化17/价格13/资金18/质量15/风险14。谨慎模式 / 成长降权。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
@@ -124,13 +152,20 @@
       "kind": "ETF",
       "eventType": "资金行为",
       "score": 7,
-      "confirmationScore": 64,
+      "confirmationScore": 68,
       "confirmationReasons": [
-        "模型基础分达标",
-        "流动性通过",
-        "日内跌幅过深",
-        "价格位置适中"
+        "资金18/20",
+        "质量15/20",
+        "催化14/20",
+        "风险14/20"
       ],
+      "entryFactors": {
+        "catalyst": 14,
+        "price": 7,
+        "flow": 18,
+        "quality": 15,
+        "risk": 14
+      },
       "allocationPct": 6,
       "portfolioCap": 51,
       "riskMode": "谨慎",
@@ -138,7 +173,7 @@
       "actionPlan": {
         "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
         "buyWhat": "科技精选ETF XLK，基金/ETF方向验证。",
-        "buyWhy": "入场确认 64/100，当前为谨慎模式；谨慎模式 / 成长降权 / 确认分偏低。",
+        "buyWhy": "入场确认 68/100，当前为谨慎模式；五因子：催化14/价格7/资金18/质量15/风险14。谨慎模式 / 成长降权 / 确认分偏低。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
@@ -150,21 +185,28 @@
       "kind": "ETF",
       "eventType": "基本面类",
       "score": 6,
-      "confirmationScore": 87,
+      "confirmationScore": 85,
       "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格未失控",
-        "价格位置适中"
+        "质量19/20",
+        "资金18/20",
+        "风险18/20",
+        "催化15/20"
       ],
+      "entryFactors": {
+        "catalyst": 15,
+        "price": 15,
+        "flow": 18,
+        "quality": 19,
+        "risk": 18
+      },
       "allocationPct": 10,
       "portfolioCap": 51,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 确认分高",
       "actionPlan": {
-        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
         "buyWhat": "盈富基金 2800，基金/ETF方向验证。",
-        "buyWhy": "入场确认 87/100，当前为谨慎模式；谨慎模式 / 确认分高。",
+        "buyWhy": "入场确认 85/100，当前为谨慎模式；五因子：催化15/价格15/资金18/质量19/风险18。谨慎模式 / 确认分高。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
@@ -176,13 +218,20 @@
       "kind": "ETF",
       "eventType": "宏观类",
       "score": 6,
-      "confirmationScore": 82,
+      "confirmationScore": 83,
       "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格位置适中",
-        "宏观环境匹配"
+        "质量19/20",
+        "资金18/20",
+        "风险18/20",
+        "催化15/20"
       ],
+      "entryFactors": {
+        "catalyst": 15,
+        "price": 13,
+        "flow": 18,
+        "quality": 19,
+        "risk": 18
+      },
       "allocationPct": 10,
       "portfolioCap": 51,
       "riskMode": "谨慎",
@@ -190,7 +239,7 @@
       "actionPlan": {
         "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
         "buyWhat": "黄金ETF GLD，基金/ETF方向验证。",
-        "buyWhy": "入场确认 82/100，当前为谨慎模式；谨慎模式 / 防御保留。",
+        "buyWhy": "入场确认 83/100，当前为谨慎模式；五因子：催化15/价格13/资金18/质量19/风险18。谨慎模式 / 防御保留。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
@@ -202,21 +251,28 @@
       "kind": "ETF",
       "eventType": "宏观类",
       "score": 6,
-      "confirmationScore": 68,
+      "confirmationScore": 78,
       "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格未失控",
-        "接近高位"
+        "质量19/20",
+        "资金18/20",
+        "风险18/20",
+        "催化15/20"
       ],
-      "allocationPct": 8,
+      "entryFactors": {
+        "catalyst": 15,
+        "price": 8,
+        "flow": 18,
+        "quality": 19,
+        "risk": 18
+      },
+      "allocationPct": 10,
       "portfolioCap": 51,
       "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低",
+      "allocationReason": "谨慎模式 / 防御保留",
       "actionPlan": {
-        "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
         "buyWhat": "国债ETF 511010，基金/ETF方向验证。",
-        "buyWhy": "入场确认 68/100，当前为谨慎模式；谨慎模式 / 防御保留 / 确认分偏低。",
+        "buyWhy": "入场确认 78/100，当前为谨慎模式；五因子：催化15/价格8/资金18/质量19/风险18。谨慎模式 / 防御保留。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     }
@@ -275,17 +331,24 @@
       "eventTitle": "泡沫破裂？美股芯片板块蒸发1.3万亿美元，费城半...",
       "eventType": "资金行为",
       "score": 7,
-      "confirmationScore": 64,
+      "confirmationScore": 68,
       "confirmationReasons": [
-        "模型基础分达标",
-        "流动性通过",
-        "日内跌幅过深",
-        "价格位置适中"
+        "资金18/20",
+        "质量15/20",
+        "催化14/20",
+        "风险14/20"
       ],
+      "entryFactors": {
+        "catalyst": 14,
+        "price": 7,
+        "flow": 18,
+        "quality": 15,
+        "risk": 14
+      },
       "actionPlan": {
         "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
         "buyWhat": "科技精选ETF XLK，基金/ETF方向验证。",
-        "buyWhy": "入场确认 64/100，当前为谨慎模式；谨慎模式 / 成长降权 / 确认分偏低。",
+        "buyWhy": "入场确认 68/100，当前为谨慎模式；五因子：催化14/价格7/资金18/质量15/风险14。谨慎模式 / 成长降权 / 确认分偏低。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       },
       "id": "2026-06-06-usXLK-资金行为",

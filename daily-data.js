@@ -780,8 +780,8 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v8 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：覆盖个股、黄金、基金/ETF；每条信号给出模拟买入窗口、标的、理由和卖出纪律。目标是训练投研助手，不承诺固定收益。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
+            <div class="a-radar-kicker">模型模拟盘 v9 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：新闻只做催化线索，入池要同时看催化、价格、资金、质量、风险五因子。目标是训练投研助手，不承诺固定收益。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -906,7 +906,7 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
             if (confirmation.score < threshold) return;
             seen.add(target.symbol);
             const allocationReason = getPaperAllocationReason(target, macro, confirmation);
-            const actionPlan = getPaperActionPlan({ ...target, confirmationScore: confirmation.score, allocationReason }, macro);
+            const actionPlan = getPaperActionPlan({ ...target, confirmationScore: confirmation.score, entryFactors: confirmation.factors, allocationReason }, macro);
             candidates.push({
                 symbol: target.symbol,
                 code: target.code,
@@ -923,6 +923,7 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
                 score: card.score,
                 confirmationScore: confirmation.score,
                 confirmationReasons: confirmation.reasons,
+                entryFactors: confirmation.factors,
                 actionPlan
             });
         });
@@ -931,88 +932,80 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
 }
 
 function getPaperEntryConfirmation(target, card, macro) {
-    let score = 45;
-    const reasons = [];
+    const factors = getPaperEntryFactors(target, card, macro);
+    const score = Object.values(factors).reduce((sum, value) => sum + value, 0);
+    const reasons = getPaperEntryFactorReasons(factors, target);
+    return {
+        score: Math.max(0, Math.min(100, Math.round(score))),
+        reasons: reasons.slice(0, 4),
+        factors
+    };
+}
+
+function getPaperEntryFactors(target, card, macro) {
     const hasTheme = theme => (target.themes || []).includes(theme);
+    let catalyst = Math.min(20, Math.max(6, Number(card.score || 4) * 2));
+    if (target.modelScore >= 72) catalyst += 3;
 
-    if (target.modelScore >= 72) {
-        score += 10;
-        reasons.push('模型基础分强');
-    } else if (target.modelScore >= 62) {
-        score += 6;
-        reasons.push('模型基础分达标');
-    }
-
-    if (!target.hasQuote || target.liquidityPass) {
-        score += 10;
-        reasons.push('流动性通过');
-    } else {
-        score -= 18;
-        reasons.push('流动性不足');
-    }
-
+    let price = 10;
     if (typeof target.pct === 'number') {
-        if (target.pct > 4) {
-            score -= 18;
-            reasons.push('当日涨幅偏热');
-        } else if (target.pct >= 0.2 && target.pct <= 3) {
-            score += 12;
-            reasons.push('日内温和转强');
-        } else if (target.pct > -2 && target.pct < 0.2) {
-            score += 5;
-            reasons.push('价格未失控');
-        } else if (target.pct < -5) {
-            score -= 14;
-            reasons.push('日内跌幅过深');
-        }
+        if (target.pct > 4 || target.pct < -5) price -= 6;
+        else if (target.pct >= 0.2 && target.pct <= 3) price += 6;
+        else if (target.pct > -2) price += 2;
     }
-
     if (typeof target.fiveDayPct === 'number') {
-        if (target.fiveDayPct >= 1 && target.fiveDayPct <= 6) {
-            score += 13;
-            reasons.push('5日趋势健康');
-        } else if (target.fiveDayPct > 8) {
-            score -= 18;
-            reasons.push('5日涨幅拥挤');
-        } else if (target.fiveDayPct < -6) {
-            score -= 12;
-            reasons.push('短线趋势破坏');
-        }
+        if (target.fiveDayPct >= 1 && target.fiveDayPct <= 6) price += 5;
+        if (target.fiveDayPct > 8 || target.fiveDayPct < -6) price -= 6;
     }
-
     if (typeof target.heat === 'number') {
-        if (target.heat > 0.88) {
-            score -= 12;
-            reasons.push('接近高位');
-        } else if (target.heat >= 0.35 && target.heat <= 0.82) {
-            score += 7;
-            reasons.push('价格位置适中');
-        }
+        if (target.heat > 0.88) price -= 4;
+        else if (target.heat >= 0.35 && target.heat <= 0.82) price += 3;
     }
 
-    const macroBoost =
+    let flow = target.hasQuote ? 10 : 8;
+    if (!target.hasQuote || target.liquidityPass) flow += 8;
+    else flow -= 10;
+    if (typeof target.pct === 'number' && target.pct > 0 && typeof target.fiveDayPct === 'number' && target.fiveDayPct > 0) flow += 2;
+
+    let quality = target.kind === 'ETF' ? 15 : 9;
+    if (hasTheme('quality') || hasTheme('cash') || hasTheme('gold') || hasTheme('bond')) quality += 4;
+    if (target.kind === 'Stock') quality -= 2;
+
+    let risk = 10;
+    const macroFit =
         (macro.aiCapex && (hasTheme('ai') || hasTheme('semiconductor') || hasTheme('infrastructure'))) ||
         (macro.oilShock && (hasTheme('energy') || hasTheme('oil') || hasTheme('gold'))) ||
         (macro.riskOff && (hasTheme('cash') || hasTheme('gold'))) ||
         (macro.chinaSupport && (hasTheme('china-beta') || hasTheme('hk-tech') || hasTheme('consumer')));
-    if (macroBoost) {
-        score += 10;
-        reasons.push('宏观环境匹配');
-    }
-    if (macro.riskOff && target.kind === 'Stock') {
-        score -= 10;
-        reasons.push('风险偏好下个股降权');
-    }
-
-    if (card.score >= 8) {
-        score += 5;
-        reasons.push('新闻事件强');
-    }
+    if (macroFit) risk += 8;
+    if (macro.riskOff && target.kind === 'Stock') risk -= 8;
+    if ((macro.rateUp || macro.riskOff) && (hasTheme('us-growth') || hasTheme('semiconductor') || hasTheme('hk-tech') || hasTheme('a-tech'))) risk -= 4;
 
     return {
-        score: Math.max(0, Math.min(100, Math.round(score))),
-        reasons: reasons.slice(0, 4)
+        catalyst: clampFactor(catalyst),
+        price: clampFactor(price),
+        flow: clampFactor(flow),
+        quality: clampFactor(quality),
+        risk: clampFactor(risk)
     };
+}
+
+function clampFactor(value) {
+    return Math.max(0, Math.min(20, Math.round(value)));
+}
+
+function getPaperEntryFactorReasons(factors, target) {
+    const labels = [
+        ['catalyst', '催化'],
+        ['price', '价格'],
+        ['flow', '资金'],
+        ['quality', '质量'],
+        ['risk', '风险']
+    ];
+    return labels
+        .sort((a, b) => factors[b[0]] - factors[a[0]])
+        .map(([key, label]) => `${label}${factors[key]}/20`)
+        .concat(target.kind === 'Stock' ? ['个股高门槛'] : ['ETF/基金优先验证']);
 }
 
 function getPaperActionPlan(trade, macro = {}) {
@@ -1025,7 +1018,8 @@ function getPaperActionPlan(trade, macro = {}) {
             ? '模拟窗口：未来1-3个交易日，只在回踩不破时记录。'
             : '模拟窗口：只观察，不急着记录新仓。';
     const buyWhat = `${trade.name || ''} ${trade.code || ''}，${isStock ? '个股小仓验证' : '基金/ETF方向验证'}。`;
-    const buyWhy = `入场确认 ${confirm || '旧样本'}/100，当前为${riskMode}模式；${trade.allocationReason || '按模型纪律控制仓位'}。`;
+    const factorText = trade.entryFactors ? `五因子：催化${trade.entryFactors.catalyst}/价格${trade.entryFactors.price}/资金${trade.entryFactors.flow}/质量${trade.entryFactors.quality}/风险${trade.entryFactors.risk}。` : '';
+    const buyWhy = `入场确认 ${confirm || '旧样本'}/100，当前为${riskMode}模式；${factorText}${trade.allocationReason || '按模型纪律控制仓位'}。`;
     const sellWhen = isStock
         ? '卖出纪律：个股盈利10%先复盘，亏损-6%先退出，持有满7-10日必须给结论。'
         : '卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。';
