@@ -622,3 +622,622 @@ const COURSES = [
     ]
   }
 ];
+
+// ===== AI工程师课程 =====
+COURSES.push(
+  {
+    id: 'ai-eng-foundation',
+    title: 'AI工程师基础篇',
+    icon: '📚',
+    bg: 'bg-green',
+    sub: '第1-5天：搭建AI开发基础',
+    lessons: [
+      {
+        id: 'eng-1',
+        title: 'Python AI开发环境搭建',
+        time: '10分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：搭建完整的AI开发环境</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>必备工具：</strong></p>
+          <p>1. Python 3.10+（推荐Anaconda管理环境）</p>
+          <p>2. VS Code + Python/Copilot插件</p>
+          <p>3. Git版本控制</p>
+          <p>4. Docker Desktop</p>
+          <p><strong>核心Python库：</strong></p>
+          <p>• openai / anthropic - 大模型API调用</p>
+          <p>• langchain / llama-index - AI应用框架</p>
+          <p>• chromadb / pinecone - 向量数据库</p>
+          <p>• fastapi / flask - API服务</p>
+          <p>• pandas / numpy - 数据处理</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>创建一个虚拟环境，安装上述所有库，并成功调用OpenAI API返回"Hello AI"。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-2',
+        title: '大模型API调用实战',
+        time: '15分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握主流大模型API的调用方式</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>主流API对比：</strong></p>
+          <p>• OpenAI API - GPT-4o/o3，最成熟</p>
+          <p>• Anthropic API - Claude 4，长文本强</p>
+          <p>• DeepSeek API - 国产性价比高</p>
+          <p>• 通义千问/文心一言 - 国内合规</p>
+          <p><strong>关键概念：</strong></p>
+          <p>• Token计算与成本控制</p>
+          <p>• Streaming流式输出</p>
+          <p>• Error handling与重试机制</p>
+          <p>• Rate limit与并发控制</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>实现一个支持多模型切换的对话客户端，支持流式输出和错误重试。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-3',
+        title: 'Prompt Engineering精讲',
+        time: '20分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握企业级Prompt设计方法</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>Prompt设计原则：</strong></p>
+          <p>1. 角色设定 - 明确AI的角色和专业领域</p>
+          <p>2. 任务描述 - 清晰、具体、可执行</p>
+          <p>3. 输出格式 - JSON/Markdown/表格</p>
+          <p>4. 约束条件 - 边界和限制</p>
+          <p><strong>高级技巧：</strong></p>
+          <p>• Few-shot - 用示例引导输出</p>
+          <p>• Chain-of-Thought - 分步推理</p>
+          <p>• ReAct - 推理+行动结合</p>
+          <p>• Self-Consistency - 多次采样取共识</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>设计一个"智能客服"Prompt，能处理退换货、物流查询、产品咨询三种场景。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-4',
+        title: '向量数据库选型与实战',
+        time: '15分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：理解向量数据库原理，掌握主流产品使用</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>什么是向量数据库？</strong></p>
+          <p>将文本/图片转为向量，通过相似度搜索实现语义检索。</p>
+          <p><strong>主流产品对比：</strong></p>
+          <p>• ChromaDB - 轻量级，适合开发测试</p>
+          <p>• Pinecone - 云托管，生产级</p>
+          <p>• Milvus - 开源，高性能</p>
+          <p>• Weaviate - 功能丰富，支持混合搜索</p>
+          <p><strong>关键指标：</strong></p>
+          <p>• 召回率(Recall) - 找到相关内容的比例</p>
+          <p>• 延迟(Latency) - 搜索响应时间</p>
+          <p>• 成本 - 存储和查询费用</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用ChromaDB构建一个简单的语义搜索引擎，索引100篇文档并测试查询效果。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-5',
+        title: 'Embedding模型选择与使用',
+        time: '12分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：理解Embedding原理，选择合适的模型</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>什么是Embedding？</strong></p>
+          <p>将文本转换为数字向量，捕捉语义信息。</p>
+          <p><strong>主流Embedding模型：</strong></p>
+          <p>• OpenAI text-embedding-3-small - 性价比高</p>
+          <p>• BGE系列 - 开源中文效果好</p>
+          <p>• Jina Embeddings - 多语言支持</p>
+          <p>• Cohere Embed - 商业级稳定</p>
+          <p><strong>选择标准：</strong></p>
+          <p>• 维度(768/1024/1536) - 越高越精准但越慢</p>
+          <p>• 速度 - 批量处理时很重要</p>
+          <p>• 成本 - API调用费用</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>对比3种Embedding模型在中文文本上的效果，用余弦相似度评估。</p>
+        </div>
+        `
+      }
+    ]
+  },
+  {
+    id: 'ai-eng-rag',
+    title: 'AI工程师RAG实战篇',
+    icon: '🔍',
+    bg: 'bg-blue',
+    sub: '第6-10天：构建企业级RAG系统',
+    lessons: [
+      {
+        id: 'eng-6',
+        title: 'RAG系统架构设计',
+        time: '15分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：理解RAG完整架构，能设计企业级方案</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>RAG = Retrieval + Augmentation + Generation</strong></p>
+          <p>1. 数据层 - 文档解析、切分、Embedding</p>
+          <p>2. 检索层 - 向量检索、关键词检索、混合检索</p>
+          <p>3. 增强层 - Prompt组装、上下文管理</p>
+          <p>4. 生成层 - LLM生成回答</p>
+          <p><strong>架构选型：</strong></p>
+          <p>• 简单RAG - 适合MVP和验证</p>
+          <p>• 高级RAG - 加入重排序、查询改写</p>
+          <p>• 模块化RAG - 可插拔组件，灵活扩展</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>画出一个企业知识库RAG系统的架构图，标注每个组件的技术选型。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-7',
+        title: '文档解析与切分策略',
+        time: '18分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握各种文档格式的解析和智能切分</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>文档格式处理：</strong></p>
+          <p>• PDF - PyPDF2 / pdfplumber / Unstructured</p>
+          <p>• Word - python-docx</p>
+          <p>• Excel - openpyxl / pandas</p>
+          <p>• 网页 - BeautifulSoup / Trafilatura</p>
+          <p><strong>切分策略：</strong></p>
+          <p>• 固定长度切分 - 简单但语义断裂</p>
+          <p>• 递归字符切分 - LangChain默认</p>
+          <p>• 语义切分 - 按语义边界切分</p>
+          <p>• 文档结构切分 - 按标题/段落切分</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>解析一份PDF年报，用3种不同切分策略对比效果。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-8',
+        title: '检索优化：混合检索+重排序',
+        time: '20分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握检索优化技巧，提升RAG准确率</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>混合检索：</strong></p>
+          <p>• 向量检索 - 语义相似度</p>
+          <p>• 关键词检索 - BM25算法</p>
+          <p>• 混合策略 - RRF(Reciprocal Rank Fusion)</p>
+          <p><strong>重排序(Reranking)：</strong></p>
+          <p>• Cross-encoder - 精准但慢</p>
+          <p>• Cohere Rerank - 商业级</p>
+          <p>• BGE Reranker - 开源中文</p>
+          <p><strong>查询优化：</strong></p>
+          <p>• 查询改写 - 让用户查询更精准</p>
+          <p>• 查询扩展 - 增加召回</p>
+          <p>• HyDE - 用假设文档检索</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>实现一个混合检索系统，对比纯向量检索和混合检索的准确率。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-9',
+        title: '企业知识库问答系统实战',
+        time: '25分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：从0到1搭建一个完整的企业知识库问答系统</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>系统功能：</strong></p>
+          <p>1. 文档上传 - 支持PDF/Word/Excel</p>
+          <p>2. 智能切分 - 自动识别文档结构</p>
+          <p>3. 向量索引 - Embedding + 向量数据库</p>
+          <p>4. 智能问答 - 基于文档内容回答</p>
+          <p>5. 来源引用 - 显示答案来源</p>
+          <p><strong>技术栈：</strong></p>
+          <p>• 后端：FastAPI + LangChain</p>
+          <p>• 向量库：ChromaDB / Milvus</p>
+          <p>• 前端：React / Vue</p>
+          <p>• 部署：Docker + Nginx</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>完成一个企业知识库问答系统，支持文档上传和智能问答。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-10',
+        title: 'RAG评估与优化',
+        time: '15分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握RAG系统评估方法和优化策略</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>评估指标：</strong></p>
+          <p>• 召回率(Recall) - 找到相关内容的比例</p>
+          <p>• 精确率(Precision) - 返回内容中相关的比例</p>
+          <p>• F1分数 - 精确率和召回率的调和平均</p>
+          <p>• 答案准确率 - 最终答案是否正确</p>
+          <p><strong>评估工具：</strong></p>
+          <p>• RAGAS - RAG专用评估框架</p>
+          <p>• DeepEval - 支持多种评估指标</p>
+          <p>• 自定义评估 - 基于业务场景</p>
+          <p><strong>优化方向：</strong></p>
+          <p>• 数据质量 - 清洗、去重、标准化</p>
+          <p>• 切分策略 - 调整chunk大小和overlap</p>
+          <p>• 检索策略 - 混合检索+重排序</p>
+          <p>• Prompt优化 - 更好的指令和示例</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用RAGAS评估你的RAG系统，找出最弱的环节并优化。</p>
+        </div>
+        `
+      }
+    ]
+  },
+  {
+    id: 'ai-eng-agent',
+    title: 'AI工程师Agent实战篇',
+    icon: '🤖',
+    bg: 'bg-purple',
+    sub: '第11-15天：构建智能Agent系统',
+    lessons: [
+      {
+        id: 'eng-11',
+        title: 'LangChain核心概念',
+        time: '18分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握LangChain核心组件和使用方式</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>LangChain核心组件：</strong></p>
+          <p>• Models - 大模型封装</p>
+          <p>• Prompts - Prompt模板管理</p>
+          <p>• Chains - 链式调用</p>
+          <p>• Memory - 对话记忆</p>
+          <p>• Agents - 智能代理</p>
+          <p>• Tools - 工具调用</p>
+          <p><strong>核心优势：</strong></p>
+          <p>• 统一接口 - 支持多种大模型</p>
+          <p>• 链式编排 - 复杂任务分解</p>
+          <p>• 生态丰富 - 大量集成组件</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用LangChain实现一个能查询天气和搜索网页的Agent。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-12',
+        title: 'LlamaIndex实战',
+        time: '18分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握LlamaIndex的数据索引和查询能力</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>LlamaIndex vs LangChain：</strong></p>
+          <p>• LlamaIndex专注数据索引和查询</p>
+          <p>• LangChain专注Agent和链式调用</p>
+          <p>• 两者可以结合使用</p>
+          <p><strong>核心功能：</strong></p>
+          <p>• 数据连接器 - 支持150+数据源</p>
+          <p>• 索引构建 - 向量索引、树索引、关键词索引</p>
+          <p>• 查询引擎 - 智能检索+生成</p>
+          <p>• 聊天引擎 - 多轮对话</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用LlamaIndex构建一个能查询Notion笔记的智能助手。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-13',
+        title: 'Agent设计模式',
+        time: '20分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握主流Agent设计模式</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>ReAct模式：</strong></p>
+          <p>推理(Reasoning) + 行动(Acting) 循环</p>
+          <p>思考 → 选择工具 → 执行 → 观察 → 思考...</p>
+          <p><strong>Plan-and-Execute模式：</strong></p>
+          <p>先制定计划，再逐步执行</p>
+          <p>适合复杂多步骤任务</p>
+          <p><strong>Multi-Agent模式：</strong></p>
+          <p>多个Agent协作完成任务</p>
+          <p>• Supervisor - 主管分配任务</p>
+          <p>• Peer-to-Peer - 平等协作</p>
+          <p>• Hierarchical - 层级管理</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>实现一个ReAct Agent，能自动分析数据并生成报告。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-14',
+        title: '工具调用与Function Calling',
+        time: '15分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握大模型工具调用机制</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>Function Calling原理：</strong></p>
+          <p>大模型根据用户意图，自动选择并调用合适的函数</p>
+          <p><strong>支持的模型：</strong></p>
+          <p>• OpenAI GPT-4 - 原生支持</p>
+          <p>• Claude - Tool Use</p>
+          <p>• Gemini - Function Calling</p>
+          <p><strong>实现步骤：</strong></p>
+          <p>1. 定义工具Schema（名称、参数、描述）</p>
+          <p>2. 发送给大模型</p>
+          <p>3. 模型返回要调用的函数和参数</p>
+          <p>4. 执行函数并返回结果</p>
+          <p>5. 模型根据结果生成回答</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>实现3个工具（计算器、天气查询、网页搜索），让大模型自动选择使用。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-15',
+        title: '多Agent协作系统',
+        time: '22分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：构建多Agent协作系统</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>多Agent场景：</strong></p>
+          <p>• 代码生成 - 架构师+程序员+测试员</p>
+          <p>• 内容创作 - 研究员+写手+编辑</p>
+          <p>• 数据分析 - 数据工程师+分析师+可视化</p>
+          <p><strong>协作框架：</strong></p>
+          <p>• AutoGen - 微软开源</p>
+          <p>• CrewAI - 角色扮演协作</p>
+          <p>• LangGraph - 状态图编排</p>
+          <p><strong>关键设计：</strong></p>
+          <p>• 任务分解 - 复杂任务拆成子任务</p>
+          <p>• 角色定义 - 每个Agent的专业领域</p>
+          <p>• 通信协议 - Agent间如何传递信息</p>
+          <p>• 冲突解决 - 多Agent意见不一致时</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用CrewAI构建一个3人AI团队，协作完成一篇市场分析报告。</p>
+        </div>
+        `
+      }
+    ]
+  },
+  {
+    id: 'ai-eng-deploy',
+    title: 'AI工程师部署上线篇',
+    icon: '🚀',
+    bg: 'bg-orange',
+    sub: '第16-18天：生产环境部署',
+    lessons: [
+      {
+        id: 'eng-16',
+        title: 'Docker容器化部署',
+        time: '15分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握AI应用的Docker容器化部署</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>为什么要容器化？</strong></p>
+          <p>• 环境一致性 - 开发/测试/生产环境一致</p>
+          <p>• 快速部署 - 一键启动所有服务</p>
+          <p>• 资源隔离 - 不同服务互不影响</p>
+          <p><strong>Dockerfile最佳实践：</strong></p>
+          <p>• 多阶段构建 - 减小镜像体积</p>
+          <p>• 缓存优化 - 利用Docker缓存层</p>
+          <p>• 安全扫描 - 检查镜像漏洞</p>
+          <p><strong>docker-compose编排：</strong></p>
+          <p>• 应用服务 + 向量数据库 + Redis</p>
+          <p>• 网络配置 - 服务间通信</p>
+          <p>• 数据持久化 - Volume挂载</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>将之前的RAG系统容器化，用docker-compose一键启动。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-17',
+        title: 'K8s集群部署与扩缩容',
+        time: '20分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握K8s基础和AI应用部署</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>K8s核心概念：</strong></p>
+          <p>• Pod - 最小部署单元</p>
+          <p>• Service - 服务发现和负载均衡</p>
+          <p>• Deployment - 管理Pod副本</p>
+          <p>• ConfigMap/Secret - 配置管理</p>
+          <p><strong>AI应用特点：</strong></p>
+          <p>• GPU调度 - 模型推理需要GPU</p>
+          <p>• 自动扩缩容 - HPA根据负载调整</p>
+          <p>• 滚动更新 - 零停机部署</p>
+          <p>• 健康检查 - 探针监控服务状态</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>编写K8s部署文件，实现AI应用的自动扩缩容。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-18',
+        title: '监控告警与日志系统',
+        time: '15分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：建立完善的监控和日志系统</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>监控指标：</strong></p>
+          <p>• 系统指标 - CPU/内存/磁盘/网络</p>
+          <p>• 应用指标 - QPS/延迟/错误率</p>
+          <p>• 业务指标 - 对话次数/满意度</p>
+          <p>• AI指标 - Token用量/成本/模型延迟</p>
+          <p><strong>监控工具：</strong></p>
+          <p>• Prometheus + Grafana - 指标监控</p>
+          <p>• ELK Stack - 日志分析</p>
+          <p>• Sentry - 错误追踪</p>
+          <p><strong>告警策略：</strong></p>
+          <p>• 错误率 > 5% - 立即告警</p>
+          <p>• 延迟 > 3秒 - 告警</p>
+          <p>• Token用量异常 - 告警</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>为RAG系统添加Prometheus监控，配置Grafana仪表盘。</p>
+        </div>
+        `
+      }
+    ]
+  },
+  {
+    id: 'ai-eng-career',
+    title: 'AI工程师求职实战篇',
+    icon: '🎯',
+    bg: 'bg-red',
+    sub: '第19-20天：拿下AI工程师Offer',
+    lessons: [
+      {
+        id: 'eng-19',
+        title: 'AI工程师简历优化',
+        time: '15分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：打造一份能通过筛选的AI工程师简历</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>简历结构：</strong></p>
+          <p>1. 个人信息 - 简洁专业</p>
+          <p>2. 技术栈 - 突出AI相关技能</p>
+          <p>3. 项目经验 - 用STAR法则描述</p>
+          <p>4. 教育背景</p>
+          <p><strong>项目经验写法（STAR法则）：</strong></p>
+          <p>• Situation - 项目背景</p>
+          <p>• Task - 你的职责</p>
+          <p>• Action - 你做了什么</p>
+          <p>• Result - 量化成果</p>
+          <p><strong>加分项：</strong></p>
+          <p>• GitHub开源项目</p>
+          <p>• 技术博客</p>
+          <p>• Kaggle比赛</p>
+          <p>• 论文发表</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用STAR法则重写你的简历中的3个项目经验。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-20',
+        title: '面试题库：算法+系统设计+项目',
+        time: '30分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握AI工程师面试高频题目</div>
+        </div>
+        <div class="block">
+          <h4>📖 核心知识</h4>
+          <p><strong>算法题（必考）：</strong></p>
+          <p>• 字符串处理 - 文本清洗、切分</p>
+          <p>• 排序算法 - TopK问题</p>
+          <p>• 动态规划 - 路径规划</p>
+          <p>• 图算法 - 知识图谱遍历</p>
+          <p><strong>系统设计（高频）：</strong></p>
+          <p>• 设计一个RAG系统</p>
+          <p>• 设计一个AI Agent平台</p>
+          <p>• 设计一个大模型推理服务</p>
+          <p>• 设计一个推荐系统</p>
+          <p><strong>项目经验（必问）：</strong></p>
+          <p>• 你做过的最有挑战的AI项目？</p>
+          <p>• 如何评估和优化模型效果？</p>
+          <p>• 如何处理AI系统的不确定性？</p>
+          <p>• 如何控制大模型的成本？</p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>准备3个项目的STAR描述，模拟面试练习。</p>
+        </div>
+        `
+      }
+    ]
+  }
+);
