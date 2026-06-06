@@ -1213,77 +1213,14 @@ for r in results:
       {
         id: 'eng-5',
         title: 'Embedding模型选择与使用',
-        time: '12分钟',
+        time: '18分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：理解Embedding原理，选择合适的模型</div>
-        </div>
-        <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>什么是Embedding？</strong></p>
-          <p>将文本转换为数字向量，捕捉语义信息。</p>
-          <p><strong>主流Embedding模型：</strong></p>
-          <p>• OpenAI text-embedding-3-small - 性价比高</p>
-          <p>• BGE系列 - 开源中文效果好</p>
-          <p>• Jina Embeddings - 多语言支持</p>
-          <p>• Cohere Embed - 商业级稳定</p>
-          <p><strong>选择标准：</strong></p>
-          <p>• 维度(768/1024/1536) - 越高越精准但越慢</p>
-          <p>• 速度 - 批量处理时很重要</p>
-          <p>• 成本 - API调用费用</p>
-        </div>
-        <div class="block">
-          <h4>💼 实战练习</h4>
-          <p>对比3种Embedding模型在中文文本上的效果，用余弦相似度评估。</p>
-        </div>
-        `
-      }
-    ]
-  },
-  {
-    id: 'ai-eng-rag',
-    title: 'AI工程师RAG实战篇',
-    icon: '🔍',
-    bg: 'bg-blue',
-    sub: '第6-10天：构建企业级RAG系统',
-    lessons: [
-      {
-        id: 'eng-6',
-        title: 'RAG系统架构设计',
-        time: '20分钟',
-        content: `
-        <div class="block">
-          <div class="lesson-goal">🎯 本节目标：理解RAG完整架构，能设计企业级方案</div>
+          <div class="lesson-goal">🎯 本节目标：掌握Embedding模型使用，能对比评估不同模型效果</div>
         </div>
         <div class="block">
           <h4>📝 手把手操作</h4>
-          <p><strong>Step 1: 理解RAG流程</strong></p>
-          <div class="code-block">
-            <div class="code-header" onclick="toggleCodeBlock(this)">
-                <span class="code-lang">架构</span>
-                <div class="code-actions">
-                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
-                    <button class="code-toggle-btn">▼ 展开</button>
-                </div>
-            </div>
-            <div class="code-body">
-                <pre><code>用户提问
-    ↓
-[查询改写] → 优化用户问题
-    ↓
-[混合检索] → 向量检索 + 关键词检索
-    ↓
-[重排序] → Cross-encoder精排
-    ↓
-[Prompt组装] → 系统提示 + 检索结果 + 用户问题
-    ↓
-[LLM生成] → 大模型生成回答
-    ↓
-[来源引用] → 显示答案来源</code></pre>
-            </div>
-          </div>
-          
-          <p><strong>Step 2: 简单RAG实现（LangChain）</strong></p>
+          <p><strong>Step 1: OpenAI Embedding</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
                 <span class="code-lang">Python</span>
@@ -1293,45 +1230,37 @@ for r in results:
                 </div>
             </div>
             <div class="code-body">
-                <pre><code>from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_community.vectorstores import Chroma
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.chains import RetrievalQA
+                <pre><code>from openai import OpenAI
+client = OpenAI()
 
-# 1. 准备文档
-documents = [
-    "公司年假制度：入职满1年享有5天年假，满5年10天，满10年15天。",
-    "报销流程：登录OA系统 -> 填写报销单 -> 上传发票 -> 提交审批。",
-    "加班政策：工作日加班1.5倍工资，周末2倍，法定假日3倍。",
-]
+def get_embedding(text, model="text-embedding-3-small"):
+    response = client.embeddings.create(
+        input=text,
+        model=model
+    )
+    return response.data[0].embedding
 
-# 2. 文档切分
-text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=200,
-    chunk_overlap=50
-)
-splits = text_splitter.create_documents(documents)
-
-# 3. 创建向量数据库
-embeddings = OpenAIEmbeddings()
-vectorstore = Chroma.from_documents(splits, embeddings)
-
-# 4. 创建RAG链
-llm = ChatOpenAI(model="gpt-4o-mini")
-qa_chain = RetrievalQA.from_chain_type(
-    llm=llm,
-    retriever=vectorstore.as_retriever(search_kwargs={"k": 2}),
-    return_source_documents=True
-)
-
-# 5. 提问
-result = qa_chain.invoke({"query": "公司年假有多少天？"})
-print("回答:", result["result"])
-print("来源:", [doc.page_content[:50] for doc in result["source_documents"]])</code></pre>
+# 测试
+embedding = get_embedding("什么是机器学习")
+print(f"向量维度: {len(embedding)}")
+print(f"前5个值: {embedding[:5]}")</code></pre>
             </div>
           </div>
           
-          <p><strong>Step 3: 添加来源引用</strong></p>
+          <p><strong>Step 2: 本地Embedding（免费）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>pip install sentence-transformers</code></pre>
+            </div>
+          </div>
+          
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
                 <span class="code-lang">Python</span>
@@ -1341,46 +1270,62 @@ print("来源:", [doc.page_content[:50] for doc in result["source_documents"]])<
                 </div>
             </div>
             <div class="code-body">
-                <pre><code># 自定义Prompt添加来源引用
-from langchain.prompts import PromptTemplate
+                <pre><code>from sentence_transformers import SentenceTransformer
 
-prompt_template = """基于以下参考资料回答问题。如果参考资料中没有相关信息，请说"我无法从提供的资料中找到答案"。
+model = SentenceTransformer("BAAI/bge-small-zh-v1.5")
+texts = ["什么是机器学习", "深度学习是机器学习的子集", "今天天气很好"]
+embeddings = model.encode(texts)
 
-参考资料：
-{context}
+print(f"文本数量: {len(texts)}")
+print(f"向量维度: {embeddings.shape[1]}")</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 计算余弦相似度</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import numpy as np
 
-问题：{question}
+def cosine_similarity(a, b):
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-回答要求：
-1. 直接回答问题
-2. 在回答末尾标注来源（如：[来源1]）
-3. 保持简洁专业"""
+query = "AI开发用什么语言"
+docs = ["Python是AI首选语言", "Java用于后端开发", "机器学习需要数学基础"]
 
-prompt = PromptTemplate(
-    template=prompt_template,
-    input_variables=["context", "question"]
-)</code></pre>
+query_emb = model.encode(query)
+doc_embs = model.encode(docs)
+
+for i, doc in enumerate(docs):
+    sim = cosine_similarity(query_emb, doc_embs[i])
+    print(f"{doc}: {sim:.4f}")</code></pre>
             </div>
           </div>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
-          <p><strong>Q: RAG和微调怎么选？</strong></p>
-          <p>A: 知识更新频繁用RAG，固定知识用微调，两者可结合。</p>
-          <p><strong>Q: 检索结果不相关怎么办？</strong></p>
-          <p>A: 优化切分策略、使用混合检索、添加重排序。</p>
-          <p><strong>Q: 如何处理多轮对话？</strong></p>
-          <p>A: 使用ConversationBufferMemory或自行管理历史。</p>
+          <p><strong>Q: 用API还是本地模型？</strong></p>
+          <p>A: 开发测试用本地(免费)，生产用API(更稳定)。</p>
+          <p><strong>Q: 中文用哪个模型好？</strong></p>
+          <p>A: BGE系列中文效果最好，OpenAI也支持中文。</p>
+          <p><strong>Q: 维度越高越好吗？</strong></p>
+          <p>A: 不一定。768维够用，1536维更精准但存储和计算成本更高。</p>
         </div>
         <div class="block">
           <h4>🔗 参考资源</h4>
-          <p>• <a href="https://python.langchain.com/docs/tutorials/rag" target="_blank">LangChain RAG教程</a></p>
-          <p>• <a href="https://github.com/langchain-ai/rag-from-scratch" target="_blank">RAG from Scratch教程</a></p>
-          <p>• <a href="https://docs.llamaindex.ai/en/stable/understanding/rag/" target="_blank">LlamaIndex RAG文档</a></p>
+          <p>• <a href="https://huggingface.co/BAAI/bge-small-zh-v1.5" target="_blank">BGE中文Embedding模型</a></p>
+          <p>• <a href="https://platform.openai.com/docs/guides/embeddings" target="_blank">OpenAI Embeddings文档</a></p>
+          <p>• <a href="https://www.sbert.net/" target="_blank">Sentence Transformers文档</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>用LangChain实现一个简单的RAG问答系统，支持3个文档的检索问答。</p>
+          <p>对比OpenAI和BGE模型在中文文本上的相似度计算效果。</p>
         </div>
         `
       },
@@ -1797,54 +1742,14 @@ async def ask_question(q: str):
       {
         id: 'eng-10',
         title: 'RAG评估与优化',
-        time: '15分钟',
+        time: '20分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握RAG系统评估方法和优化策略</div>
-        </div>
-        <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>评估指标：</strong></p>
-          <p>• 召回率(Recall) - 找到相关内容的比例</p>
-          <p>• 精确率(Precision) - 返回内容中相关的比例</p>
-          <p>• F1分数 - 精确率和召回率的调和平均</p>
-          <p>• 答案准确率 - 最终答案是否正确</p>
-          <p><strong>评估工具：</strong></p>
-          <p>• RAGAS - RAG专用评估框架</p>
-          <p>• DeepEval - 支持多种评估指标</p>
-          <p>• 自定义评估 - 基于业务场景</p>
-          <p><strong>优化方向：</strong></p>
-          <p>• 数据质量 - 清洗、去重、标准化</p>
-          <p>• 切分策略 - 调整chunk大小和overlap</p>
-          <p>• 检索策略 - 混合检索+重排序</p>
-          <p>• Prompt优化 - 更好的指令和示例</p>
-        </div>
-        <div class="block">
-          <h4>💼 实战练习</h4>
-          <p>用RAGAS评估你的RAG系统，找出最弱的环节并优化。</p>
-        </div>
-        `
-      }
-    ]
-  },
-  {
-    id: 'ai-eng-agent',
-    title: 'AI工程师Agent实战篇',
-    icon: '🤖',
-    bg: 'bg-purple',
-    sub: '第11-15天：构建智能Agent系统',
-    lessons: [
-      {
-        id: 'eng-11',
-        title: 'LangChain核心概念',
-        time: '22分钟',
-        content: `
-        <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握LangChain核心组件，能构建简单的AI应用</div>
+          <div class="lesson-goal">🎯 本节目标：掌握RAG系统评估方法，能系统性优化RAG效果</div>
         </div>
         <div class="block">
           <h4>📝 手把手操作</h4>
-          <p><strong>Step 1: 安装LangChain</strong></p>
+          <p><strong>Step 1: 安装RAGAS评估框架</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
                 <span class="code-lang">Shell</span>
@@ -1854,11 +1759,11 @@ async def ask_question(q: str):
                 </div>
             </div>
             <div class="code-body">
-                <pre><code>pip install langchain langchain-openai langchain-community</code></pre>
+                <pre><code>pip install ragas</code></pre>
             </div>
           </div>
           
-          <p><strong>Step 2: Prompt模板</strong></p>
+          <p><strong>Step 2: 准备评估数据</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
                 <span class="code-lang">Python</span>
@@ -1868,24 +1773,18 @@ async def ask_question(q: str):
                 </div>
             </div>
             <div class="code-body">
-                <pre><code>from langchain.prompts import ChatPromptTemplate
-
-# 创建Prompt模板
-prompt = ChatPromptTemplate.from_messages([
-    ("system", "你是一个专业的{role}"),
-    ("user", "{question}")
-])
-
-# 格式化
-messages = prompt.format_messages(
-    role="Python讲师",
-    question="什么是装饰器？"
-)
-print(messages)</code></pre>
+                <pre><code>eval_data = [
+    {
+        "question": "公司年假有多少天？",
+        "ground_truth": "入职满1年5天，满5年10天，满10年15天",
+        "contexts": ["公司年假制度：入职满1年享有5天年假..."],
+        "answer": "根据公司规定，入职满1年有5天年假..."
+    },
+]</code></pre>
             </div>
           </div>
           
-          <p><strong>Step 3: Chain链式调用</strong></p>
+          <p><strong>Step 3: 运行评估</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
                 <span class="code-lang">Python</span>
@@ -1895,77 +1794,64 @@ print(messages)</code></pre>
                 </div>
             </div>
             <div class="code-body">
-                <pre><code>from langchain_openai import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
+                <pre><code>from ragas import evaluate
+from ragas.metrics import faithfulness, answer_relevancy, context_precision, context_recall
+from datasets import Dataset
 
-# 创建组件
-llm = ChatOpenAI(model="gpt-4o-mini")
-prompt = ChatPromptTemplate.from_template(
-    "用一句话解释什么是{concept}"
+dataset = Dataset.from_dict({
+    "question": [d["question"] for d in eval_data],
+    "answer": [d["answer"] for d in eval_data],
+    "contexts": [d["contexts"] for d in eval_data],
+    "ground_truth": [d["ground_truth"] for d in eval_data]
+})
+
+result = evaluate(
+    dataset=dataset,
+    metrics=[faithfulness, answer_relevancy, context_precision, context_recall]
 )
-
-# 创建Chain
-chain = prompt | llm | StrOutputParser()
-
-# 运行
-result = chain.invoke({"concept": "机器学习"})
-print(result)</code></pre>
+print("评估结果:", result)</code></pre>
             </div>
           </div>
           
-          <p><strong>Step 4: 带记忆的对话</strong></p>
+          <p><strong>Step 4: 常见优化策略</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
-                <span class="code-lang">Python</span>
+                <span class="code-lang">优化</span>
                 <div class="code-actions">
                     <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
                     <button class="code-toggle-btn">▼ 展开</button>
                 </div>
             </div>
             <div class="code-body">
-                <pre><code>from langchain_community.chat_message_histories import ChatMessageHistory
-from langchain_core.runnables.history import RunnableWithMessageHistory
+                <pre><code>问题: 召回率低 → 找不到相关内容
+解决: 增加chunk_overlap、使用混合检索、降低相似度阈值
 
-# 创建历史记录
-store = {}
-def get_session_history(session_id):
-    if session_id not in store:
-        store[session_id] = ChatMessageHistory()
-    return store[session_id]
+问题: 精确率低 → 返回不相关内容
+解决: 使用重排序、减小chunk_size、增加检索数量
 
-# 创建带记忆的Chain
-chain_with_history = RunnableWithMessageHistory(
-    chain,
-    get_session_history,
-    input_messages_key="concept",
-    history_messages_key="history"
-)
-
-# 使用
-config = {"configurable": {"session_id": "user1"}}
-result = chain_with_history.invoke({"concept": "深度学习"}, config=config)</code></pre>
+问题: 答案不准确 → 回答错误
+解决: 优化Prompt模板、增加上下文数量、使用更好的LLM</code></pre>
             </div>
           </div>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
-          <p><strong>Q: LangChain和LlamaIndex怎么选？</strong></p>
-          <p>A: LangChain适合Agent和链式调用，LlamaIndex适合数据索引和查询。</p>
-          <p><strong>Q: Chain怎么调试？</strong></p>
-          <p>A: 使用LangSmith可视化调试平台。</p>
-          <p><strong>Q: 生产环境推荐吗？</strong></p>
-          <p>A: 推荐，LangChain是目前最成熟的AI应用框架。</p>
+          <p><strong>Q: 评估数据怎么来？</strong></p>
+          <p>A: 人工标注10-20个QA对，或用LLM自动生成再人工审核。</p>
+          <p><strong>Q: 评估分数多少算好？</strong></p>
+          <p>A: faithfulness>0.8, answer_relevancy>0.7, context_recall>0.6。</p>
+          <p><strong>Q: 优化优先级？</strong></p>
+          <p>A: 先优化召回率(找到相关内容)，再优化精确率(减少噪音)。</p>
         </div>
         <div class="block">
           <h4>🔗 参考资源</h4>
-          <p>• <a href="https://python.langchain.com/docs/introduction" target="_blank">LangChain官方文档</a></p>
-          <p>• <a href="https://github.com/langchain-ai/langchain" target="_blank">LangChain GitHub</a></p>
-          <p>• <a href="https://smith.langchain.com/" target="_blank">LangSmith调试平台</a></p>
+          <p>• <a href="https://docs.ragas.io/" target="_blank">RAGAS官方文档</a></p>
+          <p>• <a href="https://github.com/explodinggradients/ragas" target="_blank">RAGAS GitHub</a></p>
+          <p>• <a href="https://github.com/confident-ai/deepeval" target="_blank">DeepEval GitHub</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>用LangChain实现一个带记忆的聊天机器人，支持多轮对话。</p>
+          <p>用RAGAS评估你的RAG系统，找出最弱环节并优化，记录优化前后的分数对比。</p>
         </div>
         `
       },
@@ -2319,119 +2205,14 @@ if message.tool_calls:
       {
         id: 'eng-15',
         title: '多Agent协作系统',
-        time: '22分钟',
+        time: '25分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：构建多Agent协作系统</div>
-        </div>
-        <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>多Agent场景：</strong></p>
-          <p>• 代码生成 - 架构师+程序员+测试员</p>
-          <p>• 内容创作 - 研究员+写手+编辑</p>
-          <p>• 数据分析 - 数据工程师+分析师+可视化</p>
-          <p><strong>协作框架：</strong></p>
-          <p>• AutoGen - 微软开源</p>
-          <p>• CrewAI - 角色扮演协作</p>
-          <p>• LangGraph - 状态图编排</p>
-          <p><strong>关键设计：</strong></p>
-          <p>• 任务分解 - 复杂任务拆成子任务</p>
-          <p>• 角色定义 - 每个Agent的专业领域</p>
-          <p>• 通信协议 - Agent间如何传递信息</p>
-          <p>• 冲突解决 - 多Agent意见不一致时</p>
-        </div>
-        <div class="block">
-          <h4>💼 实战练习</h4>
-          <p>用CrewAI构建一个3人AI团队，协作完成一篇市场分析报告。</p>
-        </div>
-        `
-      }
-    ]
-  },
-  {
-    id: 'ai-eng-deploy',
-    title: 'AI工程师部署上线篇',
-    icon: '🚀',
-    bg: 'bg-orange',
-    sub: '第16-18天：生产环境部署',
-    lessons: [
-      {
-        id: 'eng-16',
-        title: 'Docker容器化部署',
-        time: '20分钟',
-        content: `
-        <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握AI应用的Docker容器化部署</div>
+          <div class="lesson-goal">🎯 本节目标：用CrewAI构建多Agent协作系统</div>
         </div>
         <div class="block">
           <h4>📝 手把手操作</h4>
-          <p><strong>Step 1: 编写Dockerfile</strong></p>
-          <div class="code-block">
-            <div class="code-header" onclick="toggleCodeBlock(this)">
-                <span class="code-lang">Dockerfile</span>
-                <div class="code-actions">
-                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
-                    <button class="code-toggle-btn">▼ 展开</button>
-                </div>
-            </div>
-            <div class="code-body">
-                <pre><code>FROM python:3.11-slim
-
-WORKDIR /app
-
-# 安装依赖
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-# 复制代码
-COPY . .
-
-# 暴露端口
-EXPOSE 8000
-
-# 启动命令
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
-            </div>
-          </div>
-          
-          <p><strong>Step 2: docker-compose编排</strong></p>
-          <div class="code-block">
-            <div class="code-header" onclick="toggleCodeBlock(this)">
-                <span class="code-lang">YAML</span>
-                <div class="code-actions">
-                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
-                    <button class="code-toggle-btn">▼ 展开</button>
-                </div>
-            </div>
-            <div class="code-body">
-                <pre><code>version: '3.8'
-
-services:
-  app:
-    build: .
-    ports:
-      - "8000:8000"
-    environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-    volumes:
-      - ./data:/app/data
-      - ./chroma_db:/app/chroma_db
-    depends_on:
-      - redis
-
-  redis:
-    image: redis:alpine
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
-
-volumes:
-  redis_data:</code></pre>
-            </div>
-          </div>
-          
-          <p><strong>Step 3: 构建和运行</strong></p>
+          <p><strong>Step 1: 安装CrewAI</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
                 <span class="code-lang">Shell</span>
@@ -2441,35 +2222,96 @@ volumes:
                 </div>
             </div>
             <div class="code-body">
-                <pre><code># 构建镜像
-docker-compose build
+                <pre><code>pip install crewai crewai-tools</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 定义Agent角色</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from crewai import Agent, Task, Crew
 
-# 启动服务
-docker-compose up -d
+researcher = Agent(
+    role="市场研究员",
+    goal="收集和分析市场数据",
+    backstory="你是一位资深市场研究员，擅长数据收集和趋势分析。",
+    verbose=True
+)
 
-# 查看日志
-docker-compose logs -f app
+analyst = Agent(
+    role="投资分析师",
+    goal="基于研究数据提供投资建议",
+    backstory="你是一位经验丰富的投资分析师，擅长风险评估。",
+    verbose=True
+)
 
-# 停止服务
-docker-compose down</code></pre>
+writer = Agent(
+    role="报告撰写者",
+    goal="将分析结果整理成专业报告",
+    backstory="你是一位专业的财经报告撰写者。",
+    verbose=True
+)</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 定义任务并运行</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>research_task = Task(
+    description="研究2024年AI行业发展趋势",
+    expected_output="详细的AI行业研究报告",
+    agent=researcher
+)
+
+analysis_task = Task(
+    description="基于研究报告，分析投资机会和风险",
+    expected_output="投资建议报告",
+    agent=analyst,
+    context=[research_task]
+)
+
+crew = Crew(
+    agents=[researcher, analyst, writer],
+    tasks=[research_task, analysis_task],
+    verbose=True
+)
+
+result = crew.kickoff()
+print(result)</code></pre>
             </div>
           </div>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
-          <p><strong>Q: 镜像太大怎么办？</strong></p>
-          <p>A: 使用多阶段构建、精简基础镜像、清理缓存。</p>
-          <p><strong>Q: 如何更新代码？</strong></p>
-          <p>A: 重新build镜像，docker-compose up -d重建容器。</p>
+          <p><strong>Q: 多Agent和单Agent有什么区别？</strong></p>
+          <p>A: 多Agent适合复杂任务，可以分工协作，提高质量。</p>
+          <p><strong>Q: 如何控制成本？</strong></p>
+          <p>A: 限制迭代次数、使用便宜的模型、优化Prompt。</p>
+          <p><strong>Q: 任务之间如何传递数据？</strong></p>
+          <p>A: 使用context参数指定依赖关系。</p>
         </div>
         <div class="block">
           <h4>🔗 参考资源</h4>
-          <p>• <a href="https://docs.docker.com/" target="_blank">Docker官方文档</a></p>
-          <p>• <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose文档</a></p>
+          <p>• <a href="https://docs.crewai.com/" target="_blank">CrewAI官方文档</a></p>
+          <p>• <a href="https://github.com/crewAIInc/crewAI" target="_blank">CrewAI GitHub</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>将RAG系统容器化，用docker-compose一键启动。</p>
+          <p>用CrewAI构建一个3人AI团队，协作完成一篇市场分析报告。</p>
         </div>
         `
       },
@@ -2635,132 +2477,115 @@ kubectl get hpa</code></pre>
       {
         id: 'eng-18',
         title: '监控告警与日志系统',
-        time: '15分钟',
-        content: `
-        <div class="block">
-          <div class="lesson-goal">🎯 本节目标：建立完善的监控和日志系统</div>
-        </div>
-        <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>监控指标：</strong></p>
-          <p>• 系统指标 - CPU/内存/磁盘/网络</p>
-          <p>• 应用指标 - QPS/延迟/错误率</p>
-          <p>• 业务指标 - 对话次数/满意度</p>
-          <p>• AI指标 - Token用量/成本/模型延迟</p>
-          <p><strong>监控工具：</strong></p>
-          <p>• Prometheus + Grafana - 指标监控</p>
-          <p>• ELK Stack - 日志分析</p>
-          <p>• Sentry - 错误追踪</p>
-          <p><strong>告警策略：</strong></p>
-          <p>• 错误率 > 5% - 立即告警</p>
-          <p>• 延迟 > 3秒 - 告警</p>
-          <p>• Token用量异常 - 告警</p>
-        </div>
-        <div class="block">
-          <h4>💼 实战练习</h4>
-          <p>为RAG系统添加Prometheus监控，配置Grafana仪表盘。</p>
-        </div>
-        `
-      }
-    ]
-  },
-  {
-    id: 'ai-eng-career',
-    title: 'AI工程师求职实战篇',
-    icon: '🎯',
-    bg: 'bg-red',
-    sub: '第19-20天：拿下AI工程师Offer',
-    lessons: [
-      {
-        id: 'eng-19',
-        title: 'AI工程师简历优化',
         time: '20分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：打造一份能通过AI工程师岗位筛选的简历</div>
+          <div class="lesson-goal">🎯 本节目标：为AI应用添加Prometheus监控和日志系统</div>
         </div>
         <div class="block">
           <h4>📝 手把手操作</h4>
-          <p><strong>Step 1: 技术栈展示</strong></p>
+          <p><strong>Step 1: 添加Prometheus指标</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
-                <span class="code-lang">简历</span>
+                <span class="code-lang">Python</span>
                 <div class="code-actions">
                     <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
                     <button class="code-toggle-btn">▼ 展开</button>
                 </div>
             </div>
             <div class="code-body">
-                <pre><code>技术栈:
-• 编程语言: Python, Go, SQL
-• AI框架: LangChain, LlamaIndex, AutoGen
-• 大模型: OpenAI GPT-4, Claude, DeepSeek
-• 向量数据库: ChromaDB, Milvus, Pinecone
-• 部署: Docker, K8s, FastAPI
-• 云服务: AWS/Azure/GCP</code></pre>
+                <pre><code>from prometheus_client import Counter, Histogram, generate_latest
+from fastapi import FastAPI, Response
+import time
+
+app = FastAPI()
+
+REQUEST_COUNT = Counter('http_requests_total', 'Total requests', ['method', 'endpoint'])
+REQUEST_LATENCY = Histogram('http_request_duration_seconds', 'Request latency')
+LLM_TOKENS = Counter('llm_tokens_total', 'Total LLM tokens', ['model'])
+
+@app.middleware("http")
+async def monitor_requests(request, call_next):
+    start_time = time.time()
+    response = await call_next(request)
+    duration = time.time() - start_time
+    
+    REQUEST_COUNT.labels(method=request.method, endpoint=request.url.path).inc()
+    REQUEST_LATENCY.observe(duration)
+    
+    return response
+
+@app.get("/metrics")
+async def metrics():
+    return Response(content=generate_latest(), media_type="text/plain")</code></pre>
             </div>
           </div>
           
-          <p><strong>Step 2: 项目经验STAR法则</strong></p>
+          <p><strong>Step 2: Docker添加Prometheus</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
-                <span class="code-lang">示例</span>
+                <span class="code-lang">YAML</span>
                 <div class="code-actions">
                     <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
                     <button class="code-toggle-btn">▼ 展开</button>
                 </div>
             </div>
             <div class="code-body">
-                <pre><code>项目: 企业知识库问答系统
+                <pre><code># docker-compose.yml 添加
+services:
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
 
-Situation (背景):
-公司有大量内部文档，员工查找信息效率低
-
-Task (职责):
-负责RAG系统的设计和开发
-
-Action (行动):
-• 使用LangChain + ChromaDB构建RAG系统
-• 实现混合检索（向量+BM25），准确率提升35%
-• 添加重排序模块，召回率提升28%
-• 部署到K8s，支持100+并发用户
-
-Result (成果):
-• 员工查询效率提升60%
-• 系统日均处理5000+查询
-• 获得公司年度创新奖</code></pre>
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin</code></pre>
             </div>
           </div>
           
-          <p><strong>Step 3: 加分项</strong></p>
+          <p><strong>Step 3: Prometheus配置</strong></p>
           <div class="code-block">
             <div class="code-header" onclick="toggleCodeBlock(this)">
-                <span class="code-lang">建议</span>
+                <span class="code-lang">YAML</span>
                 <div class="code-actions">
                     <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
                     <button class="code-toggle-btn">▼ 展开</button>
                 </div>
             </div>
             <div class="code-body">
-                <pre><code>加分项:
-• GitHub开源项目 (100+ stars)
-• 技术博客 (掘金/知乎)
-• Kaggle比赛 (top 10%)
-• 论文发表 (顶会/期刊)
-• 技术分享 (Meetup/会议)</code></pre>
+                <pre><code># prometheus.yml
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'ai-app'
+    static_configs:
+      - targets: ['app:8000']
+    metrics_path: '/metrics'</code></pre>
             </div>
           </div>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
-          <p><strong>Q: 没有项目经验怎么办？</strong></p>
-          <p>A: 做课程中的实战项目，部署到线上，写进简历。</p>
-          <p><strong>Q: 简历多长合适？</strong></p>
-          <p>A: 应届1页，有经验2页，不要超过2页。</p>
+          <p><strong>Q: 生产环境用什么监控？</strong></p>
+          <p>A: Prometheus + Grafana是最主流的方案。</p>
+          <p><strong>Q: 如何监控AI成本？</strong></p>
+          <p>A: 记录每次API调用的Token用量，设置成本告警。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://prometheus.io/docs/" target="_blank">Prometheus官方文档</a></p>
+          <p>• <a href="https://grafana.com/docs/" target="_blank">Grafana官方文档</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>用STAR法则重写你的简历中的3个项目经验。</p>
+          <p>为RAG系统添加Prometheus监控，配置Grafana仪表盘。</p>
         </div>
         `
       },
