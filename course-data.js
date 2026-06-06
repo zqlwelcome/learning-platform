@@ -652,30 +652,72 @@ COURSES.push(
           <h4>📝 手把手操作</h4>
           <p><strong>Step 1: 安装Anaconda</strong></p>
           <p>访问 <a href="https://www.anaconda.com/download" target="_blank">anaconda.com</a> 下载安装</p>
-          <pre><code># 验证安装
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 验证安装
 conda --version
 python --version</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 2: 创建AI开发环境</strong></p>
-          <pre><code># 创建专用环境
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 创建专用环境
 conda create -n ai-dev python=3.11 -y
 conda activate ai-dev
 
 # 安装核心库
 pip install openai langchain chromadb fastapi pandas numpy
 pip install langchain-community langchain-openai</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 3: 配置API Key</strong></p>
-          <pre><code># 方法1: 环境变量（推荐）
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 方法1: 环境变量（推荐）
 export OPENAI_API_KEY="sk-你的key"
 
 # 方法2: .env文件
 pip install python-dotenv
 # 创建 .env 文件，写入:
 # OPENAI_API_KEY=sk-你的key</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 4: 测试第一个AI程序</strong></p>
-          <pre><code># test_ai.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># test_ai.py
 from openai import OpenAI
 client = OpenAI()
 
@@ -684,9 +726,22 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "用一句话介绍你自己"}]
 )
 print(response.choices[0].message.content)</code></pre>
+            </div>
+        </div>
           
-          <pre><code># 运行
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Code</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 运行
 python test_ai.py</code></pre>
+            </div>
+        </div>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
@@ -721,7 +776,16 @@ python test_ai.py</code></pre>
         <div class="block">
           <h4>📝 手把手操作</h4>
           <p><strong>Step 1: OpenAI API 基础调用</strong></p>
-          <pre><code># openai_basic.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># openai_basic.py
 from openai import OpenAI
 client = OpenAI()
 
@@ -737,9 +801,20 @@ response = client.chat.completions.create(
 )
 print(response.choices[0].message.content)
 print(f"Token用量: {response.usage.total_tokens}")</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 2: 流式输出（用户体验更好）</strong></p>
-          <pre><code># streaming.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># streaming.py
 from openai import OpenAI
 client = OpenAI()
 
@@ -752,9 +827,20 @@ stream = client.chat.completions.create(
 for chunk in stream:
     if chunk.choices[0].delta.content:
         print(chunk.choices[0].delta.content, end="")</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 3: DeepSeek API（国产替代，更便宜）</strong></p>
-          <pre><code># deepseek_example.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># deepseek_example.py
 from openai import OpenAI
 
 # DeepSeek兼容OpenAI接口格式
@@ -768,9 +854,20 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "你好"}]
 )
 print(response.choices[0].message.content)</code></pre>
+            </div>
+        </div>
           
           <p><strong>Step 4: 错误处理和重试</strong></p>
-          <pre><code># robust_call.py
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># robust_call.py
 import time
 from openai import OpenAI, APIError, RateLimitError
 
@@ -796,6 +893,8 @@ def call_with_retry(prompt, max_retries=3):
 # 使用
 result = call_with_retry("Hello")
 print(result)</code></pre>
+            </div>
+        </div>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
