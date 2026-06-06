@@ -634,8 +634,8 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v7 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：新增市场环境调仓，风险高时自动降总仓位和成长权重，防御资产保留验证；胜率只统计已结算交易。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
+            <div class="a-radar-kicker">模型模拟盘 v8 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：覆盖个股、黄金、基金/ETF；每条信号给出模拟买入窗口、标的、理由和卖出纪律。目标是训练投研助手，不承诺固定收益。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -754,10 +754,13 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
     const candidates = [];
     cards.forEach(card => {
         card.targets.forEach(target => {
-            if (seen.has(target.symbol) || !target.price || target.modelTag !== '观察') return;
+            if (seen.has(target.symbol) || !target.price) return;
             const confirmation = getPaperEntryConfirmation(target, card, macro);
-            if (confirmation.score < 62) return;
+            const threshold = target.kind === 'Stock' ? 86 : 62;
+            if (confirmation.score < threshold) return;
             seen.add(target.symbol);
+            const allocationReason = getPaperAllocationReason(target, macro, confirmation);
+            const actionPlan = getPaperActionPlan({ ...target, confirmationScore: confirmation.score, allocationReason }, macro);
             candidates.push({
                 symbol: target.symbol,
                 code: target.code,
@@ -768,12 +771,13 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
                 allocationPct: getPaperAllocationPct(target, card, macro, confirmation),
                 portfolioCap: getPaperPortfolioCap(macro),
                 riskMode: getPaperRiskMode(macro),
-                allocationReason: getPaperAllocationReason(target, macro, confirmation),
+                allocationReason,
                 eventTitle: card.title,
                 eventType: card.type,
                 score: card.score,
                 confirmationScore: confirmation.score,
-                confirmationReasons: confirmation.reasons
+                confirmationReasons: confirmation.reasons,
+                actionPlan
             });
         });
     });
@@ -863,6 +867,23 @@ function getPaperEntryConfirmation(target, card, macro) {
         score: Math.max(0, Math.min(100, Math.round(score))),
         reasons: reasons.slice(0, 4)
     };
+}
+
+function getPaperActionPlan(trade, macro = {}) {
+    const confirm = Number(trade.confirmationScore || 0);
+    const riskMode = getPaperRiskMode(macro);
+    const isStock = trade.kind === 'Stock';
+    const entryWindow = confirm >= 86
+        ? '模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。'
+        : confirm >= 72
+            ? '模拟窗口：未来1-3个交易日，只在回踩不破时记录。'
+            : '模拟窗口：只观察，不急着记录新仓。';
+    const buyWhat = `${trade.name || ''} ${trade.code || ''}，${isStock ? '个股小仓验证' : '基金/ETF方向验证'}。`;
+    const buyWhy = `入场确认 ${confirm || '旧样本'}/100，当前为${riskMode}模式；${trade.allocationReason || '按模型纪律控制仓位'}。`;
+    const sellWhen = isStock
+        ? '卖出纪律：个股盈利10%先复盘，亏损-6%先退出，持有满7-10日必须给结论。'
+        : '卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。';
+    return { entryWindow, buyWhat, buyWhy, sellWhen };
 }
 
 function updatePaperTrades(candidates, quoteMap, macro = {}) {
@@ -980,7 +1001,7 @@ function getPaperAllocationPct(target, card, macro = {}, confirmation = {}) {
     const hasTheme = theme => themes.includes(theme);
     const isDefensive = hasTheme('cash') || hasTheme('gold') || hasTheme('bond');
     const isGrowth = hasTheme('us-growth') || hasTheme('semiconductor') || hasTheme('hk-tech') || hasTheme('a-tech') || hasTheme('ai');
-    let allocation = target.kind === 'Stock' ? (card.score >= 7 ? 6 : 4) : (card.score >= 7 ? 10 : 8);
+    let allocation = target.kind === 'Stock' ? (card.score >= 7 ? 4 : 2) : (card.score >= 7 ? 10 : 8);
 
     if (macro.riskOff || macro.rateUp) {
         if (isDefensive) allocation += 2;
@@ -1035,7 +1056,9 @@ function getPaperAllocationReason(target, macro = {}, confirmation = {}) {
 }
 
 function getPaperTradeStatus(trade) {
-    if (typeof trade.pnlPct === 'number' && trade.pnlPct <= -8) return '止损警报';
+    const stopLoss = trade.kind === 'Stock' ? -6 : -8;
+    if (typeof trade.pnlPct === 'number' && trade.pnlPct <= stopLoss) return '止损警报';
+    if (typeof trade.pnlPct === 'number' && trade.kind === 'Stock' && trade.pnlPct >= 10) return '止盈复盘';
     if (typeof trade.pnlPct === 'number' && trade.score >= 7 && trade.pnlPct >= 18) return '止盈复盘';
     if (typeof trade.pnlPct === 'number' && trade.score < 7 && trade.pnlPct >= 10) return '止盈复盘';
     if (trade.ageDays >= 10) return '时间复盘';
@@ -1047,12 +1070,13 @@ function closePaperTradeIfNeeded(trade, today) {
     if (isPaperTradeClosed(trade) || ['仓位等待', '重复剔除'].includes(trade.status)) return trade;
     const pnlPct = Number(trade.pnlPct);
     if (Number.isNaN(pnlPct)) return trade;
-    const takeProfit = trade.score >= 7 ? 18 : 10;
+    const takeProfit = trade.kind === 'Stock' ? 10 : trade.score >= 7 ? 18 : 10;
+    const stopLoss = trade.kind === 'Stock' ? -6 : -8;
     let status = '';
     let reason = '';
-    if (pnlPct <= -8) {
+    if (pnlPct <= stopLoss) {
         status = '止损退出';
-        reason = '跌破-8%纪律线';
+        reason = `跌破${stopLoss}%纪律线`;
     } else if (pnlPct >= takeProfit) {
         status = '止盈退出';
         reason = `达到${takeProfit}%止盈复盘线`;
@@ -1166,6 +1190,7 @@ function renderPaperTradeCard(trade) {
     const statusClass = ['止损警报', '止损退出'].includes(trade.status) ? 'negative' : ['止盈复盘', '时间复盘', '止盈退出', '时间退出'].includes(trade.status) ? 'positive' : '';
     const checkpoints = renderPaperCheckpointBadges(trade);
     const playbook = getPaperTradePlaybook(trade);
+    const actionPlan = trade.actionPlan || getPaperActionPlan(trade);
     return `
         <div class="a-flow-item">
             <div class="a-flow-main" onclick="toggleFlowDetail(this)">
@@ -1178,9 +1203,10 @@ function renderPaperTradeCard(trade) {
                 <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），${trade.allocationReason ? `调仓逻辑：${safeText(trade.allocationReason)}，` : ''}入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
                 <div class="a-flow-meaning">状态：<span class="a-flow-change ${statusClass}">${safeText(trade.status)}</span></div>
                 <div class="paper-playbook">
+                    <div><span>模拟动作</span><b>${safeText(actionPlan.entryWindow)} ${safeText(actionPlan.buyWhat)} ${safeText(actionPlan.buyWhy)}</b></div>
                     <div><span>入场逻辑</span><b>${safeText(playbook.entry)}</b></div>
                     <div><span>等待原因</span><b>${safeText(playbook.wait)}</b></div>
-                    <div><span>退出纪律</span><b>${safeText(playbook.exit)}</b></div>
+                    <div><span>退出纪律</span><b>${safeText(playbook.exit)} ${safeText(actionPlan.sellWhen)}</b></div>
                 </div>
                 <div class="paper-checkpoints">${checkpoints}</div>
                 <div class="a-flow-impact">复盘规则：1日看方向，3日看持续性，10日必须复盘退出；跌幅接近 -8% 视为模型警报。</div>
