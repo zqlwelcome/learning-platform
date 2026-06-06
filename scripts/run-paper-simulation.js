@@ -89,6 +89,7 @@ async function main() {
             score: item.score,
             confirmationScore: item.confirmationScore,
             confirmationReasons: item.confirmationReasons,
+            entryFactors: item.entryFactors,
             allocationPct: item.allocationPct,
             portfolioCap: item.portfolioCap,
             riskMode: item.riskMode,
