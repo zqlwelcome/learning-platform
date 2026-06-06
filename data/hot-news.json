@@ -1,22 +1,36 @@
 {
-  "updateTime": "2026-06-06 14:15",
+  "updateTime": "2026-06-06 14:21",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX领衔超级IPO，三大巨头募资2000亿美元！统计显示：IPO热潮是“美股牛市的尾声”",
+      "source": "每日经济新闻",
+      "detail": "每经记者|岳楚鹏每经编辑|兰素英 一场超级IPO潮正以前所未有的规模席卷美股。 6月12日，马斯克旗下SpaceX将正式挂牌上市，凭借750亿美元的募资额打破全球IPO历史纪录。",
+      "lang": "zh",
+      "score": 55,
+      "insight": {
+        "what": "SpaceX等三大巨头IPO募资2000亿美元，历史性热潮",
+        "assets": "📈 美股IPO市场 活跃；📉 美股大盘 承压",
+        "chain": "IPO抽血效应（资金从二级市场流向一级市场）加剧流动性紧张，或触发大盘回调",
+        "watch": "IPO首日涨幅及后续资金流向"
+      }
+    },
+    {
+      "rank": 2,
       "title": "6月6日收盘：美股收跌纳指重挫1100点 美联储加息预期升温令股指承压",
       "source": "环球市场播报",
       "detail": "北京时间6月6日凌晨，美股周五全线下跌，纳指重挫1000点，创近8个月最大跌幅。关键芯片股遭到抛售。远超预期的5月非农就业报告后，市场对美联储加息的预期升温...",
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储加息预期升温，美股大跌纳指重挫1100点",
-        "assets": "📉 美股纳斯达克 利空；📉 美债收益率 上行",
-        "chain": "加息预期（借钱成本提高）压制风险偏好，资金从成长股（科技股）流向避险资产（如美债）",
-        "watch": "下周CPI（通胀数据）及美联储会议纪要"
+        "what": "美联储加息预期升温致美股收跌，纳指重挫1100点",
+        "assets": "📉 美股科技股 利空；📈 美元指数 走强",
+        "chain": "紧缩预期（央行收紧货币政策）推高无风险利率（国债收益率），压制成长股估值",
+        "watch": "美联储6月议息会议点阵图（利率预测）及CPI数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "知情人士：SpaceX为创纪录IPO预留面向散户的配售份额",
       "source": "环球市场播报",
       "detail": " SpaceX正筹备巨型企业IPO史上规模空前的散户配售方案，埃隆・马斯克计划在本次发售股本中，拿出最高四分之一额度向个人投资者开放认购。",
@@ -24,69 +38,63 @@
       "score": 45,
       "insight": {
         "what": "SpaceX为创纪录IPO预留散户配售份额",
-        "assets": "📈 SpaceX相关影子股 利好；📈 美股IPO板块 情绪提振",
-        "chain": "散户参与度上升可能推高首日涨幅（IPO首日溢价），带动整体IPO市场情绪修复",
-        "watch": "SpaceX正式IPO时间表及估值区间"
+        "assets": "📈 美股SPAC（特殊目的收购公司）及散户交易平台 利好",
+        "chain": "散户参与度提升可能推高IPO首日溢价（开盘涨幅），但加剧波动性",
+        "watch": "IPO认购倍数及散户配售比例"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "泡沫破裂？美股芯片板块蒸发1.3万亿美元，费城半导体指数创六年最大跌幅",
       "source": "环球市场播报",
       "detail": "美股芯片制造商周五暴跌，市值损失约1.3万亿美元，英伟达（Nvidia）、美光科技（Micron Technology）和超威半导体（AMD）等AI权重股深度下挫...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美股芯片板块蒸发1.3万亿美元，费城半导体指数创六年最大跌幅",
-        "assets": "📉 美股半导体ETF（如SMH） 利空；📉 台积电/英伟达等龙头 承压",
-        "chain": "芯片板块暴跌（风险资产抛售）引发科技股连锁止损（自动卖出），加剧市场波动率（VIX恐慌指数上升）",
-        "watch": "费城半导体指数能否守住200日均线（技术支撑位）"
+        "what": "费城半导体指数创六年最大跌幅，芯片板块蒸发1.3万亿美元",
+        "assets": "📉 美股半导体股 利空；📉 亚洲芯片供应链 承压",
+        "chain": "半导体周期下行（库存过剩+需求疲软）传导至设备商和代工厂，引发板块轮动（资金从成长股转向价值股）",
+        "watch": "台积电月度营收及英伟达财报指引"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "拒绝纳入！史上最大IPO，突发！",
       "source": "券商中国",
       "detail": "标普拒绝为SpaceX“开绿灯”！ 当前，全球首富马斯克正在火速推进SpaceX的IPO事宜。尽管SpaceX此次上市获得华尔街巨头热捧，但标普拒绝为其纳入指数提供快速通道。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "史上最大IPO突发被拒绝纳入",
-        "assets": "📉 沙特阿美及相关油企 利空；📉 新兴市场IPO情绪 承压",
-        "chain": "IPO受阻（上市失败）打击一级市场（新股发行）信心，资金可能回流二级市场（已上市股票）",
-        "watch": "监管机构后续声明及替代上市方案"
+        "what": "史上最大IPO突发被拒绝纳入指数",
+        "assets": "📉 该IPO标的 利空；📈 指数基金 无直接影响",
+        "chain": "指数排除意味着被动资金（跟踪指数的基金）无法买入，流动性折价（缺少买盘导致价格偏低）风险上升",
+        "watch": "监管机构是否重新评估纳入条件"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Mythos rejuvenated the cybersecurity sector. Earnings put the recent rally to the test",
       "source": "CNBC",
       "detail": "Mythos gave the cybersecurity sector a boost, but upbeat earnings weren't enough for investors in search of an AI payoff.",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "网络安全板块因Mythos事件复苏，财报考验涨势",
-        "assets": "📈 网络安全股（如CrowdStrike） 利好；📉 财报不及预期则反转",
-        "chain": "事件驱动（安全威胁）推高板块估值，但财报季（业绩验证）若低于预期将引发获利了结（卖出获利）",
-        "watch": "龙头公司财报营收增速及客户续约率"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
-      "source": "CNBC",
-      "detail": "Oil prices would spike if Iran's Houthi allies started attacking ships passing through the Bab el-Mandeb Strait.",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "伊朗威胁红海关键航道，原油供应风险加剧",
-        "assets": "📈 原油期货 利好；📈 航运股（如马士基） 利好；📉 全球贸易成本 承压",
-        "chain": "红海封锁（运输中断）推高油价（供给收缩），同时增加航运保险成本及绕行费用（通胀上行风险）",
-        "watch": "伊朗实际军事行动及霍尔木兹海峡通行情况"
+        "what": "网络安全板块因Mythos复苏，但财报考验近期涨势",
+        "assets": "📈 网络安全股 短期利好；📉 财报不及预期则反转",
+        "chain": "主题炒作（题材驱动上涨）需业绩验证，若财报弱则触发获利了结（卖出锁定利润）",
+        "watch": "龙头公司（如CrowdStrike）每股收益及营收指引"
       }
     },
     {
       "rank": 7,
+      "title": "Iran's threats against this Red Sea choke point are a big vulnerability for the oil market",
+      "source": "CNBC",
+      "detail": "Oil prices would spike if Iran's Houthi allies started attacking ships passing through the Bab el-Mandeb Strait.",
+      "lang": "en",
+      "score": 37
+    },
+    {
+      "rank": 8,
       "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
@@ -94,28 +102,20 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
+      "source": "市场资讯",
+      "detail": "来源：华尔街见闻 高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 10,
       "title": "花旗维持对美联储降息的预测 在华尔街日显孤立",
       "source": "环球市场播报",
       "detail": "美国就业数据表现强劲后，花旗集团经济学家不为所动，维持其对美联储今年将降息三次的预测，而这一预测已日显孤立。 花旗首席美国经济学家Andrew Hollenhorst周五写道...",
       "lang": "zh",
       "score": 36
-    },
-    {
-      "rank": 9,
-      "title": "6月6日外盘头条：美伊和平谈判仍陷僵局 非农报告提振加息预期 美股遭遇抛售 谷歌与SpaceX达成百亿算力协议",
-      "source": "环球市场播报",
-      "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、伊朗战争逼近百日 美伊和平谈判仍陷僵局 2、美国5月新增就业17.2万人 经济表现大幅超出市场预期 3...",
-      "lang": "zh",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
-      "source": "CNBC",
-      "detail": "Meta shares dropped after the Financial Times reported the company could potentially raise tens of billions of dollars in a stock offering to help its AI push.",
-      "lang": "en",
-      "score": 32
     }
   ]
 }
