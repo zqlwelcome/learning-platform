@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-06 21:31",
+  "updateTime": "2026-06-06 21:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "芯片股暴跌引发恐慌指数飙升",
-        "assets": "📉 美股芯片板块 利空；📈 恐慌指数VIX 利好",
-        "chain": "避险情绪升温，资金从科技股流向防御板块（如公用事业），可能触发量化基金（电脑程序自动交易）抛售",
-        "watch": "费城半导体指数是否跌破关键支撑位"
+        "what": "芯片股暴跌，恐慌指数（VIX，衡量市场波动预期）飙升",
+        "assets": "📉 美股半导体板块 承压；📈 VIX恐慌指数 利好",
+        "chain": "资金从风险资产（高波动股票）撤出，涌入避险资产（如美债），可能触发量化基金抛售",
+        "watch": "费城半导体指数（SOX）能否守住关键支撑位"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX创纪录IPO，A股供应商曝光",
-        "assets": "📈 A股航天概念股 利好；📉 传统航天股 承压",
-        "chain": "供应商名单带动A股板块炒作，但需警惕传闻炒作后获利了结（先涨后跌）",
-        "watch": "SpaceX估值及A股供应商公告确认"
+        "what": "SpaceX创纪录IPO，A股供应链公司被点名",
+        "assets": "📈 A股航天概念股（如卫星制造） 利好",
+        "chain": "SpaceX估值飙升带动全球商业航天板块重估，A股供应商获订单预期（合同收入增长）",
+        "watch": "SpaceX招股书披露的具体供应商名单"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 45,
       "insight": {
         "what": "SpaceX为创纪录IPO预留散户份额",
-        "assets": "📈 美股散户交易平台 利好；📈 SpaceX IPO热度 利好",
-        "chain": "散户参与推高首日溢价（上市后短期涨幅），但可能加剧波动，机构需调整仓位",
-        "watch": "IPO首日涨幅及散户认购倍数"
+        "assets": "📈 美股散户交易平台（如Robinhood） 利好；📈 SpaceX IPO 热度提升",
+        "chain": "散户参与度提高可能推高首日涨幅（首日交易溢价），但增加波动性（价格剧烈摆动）",
+        "watch": "IPO最终定价及散户配售比例"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美股芯片板块蒸发1.3万亿美元，费城半导体指数创六年最大跌幅",
-        "assets": "📉 美股半导体ETF 利空；📉 纳斯达克指数 承压",
-        "chain": "科技股抛售传导至整体市场，触发系统性风险（连锁下跌），高杠杆基金可能被迫平仓",
-        "watch": "美联储是否释放流动性信号"
+        "what": "美股芯片板块单日蒸发1.3万亿美元，创六年最大跌幅",
+        "assets": "📉 美股半导体ETF（如SMH） 承压；📉 纳指（科技股为主） 承压",
+        "chain": "科技股暴跌引发市场恐慌（恐慌性抛售），可能传导至亚洲芯片股（如台积电ADR）",
+        "watch": "今晚美股期货是否继续低开"
       }
     },
     {
@@ -65,28 +65,36 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "史上最大IPO突发拒绝纳入主要指数",
-        "assets": "📉 IPO相关ETF 利空；📉 沙特阿美等权重股 利好",
-        "chain": "指数基金（被动跟踪指数）无法买入，资金转向替代标的，削弱IPO流动性",
-        "watch": "MSCI或标普是否重新评估纳入"
+        "what": "史上最大IPO（可能是SpaceX）被拒绝纳入指数",
+        "assets": "📉 相关IPO 承压；📉 被动基金（跟踪指数的基金） 中性",
+        "chain": "指数基金无法买入，减少被动资金流入，但主动基金（基金经理自主选股）可能逢低建仓（低价买入）",
+        "watch": "指数公司（如MSCI）后续是否调整纳入规则"
       }
     },
     {
       "rank": 6,
-      "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
-      "source": "市场资讯",
-      "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
-      "lang": "zh",
-      "score": 36,
+      "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
+      "source": "CNBC",
+      "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
+      "lang": "en",
+      "score": 37,
       "insight": {
-        "what": "花旗坚持预测美联储今年降息",
-        "assets": "📈 美国国债 利好；📉 美元指数 承压",
-        "chain": "市场预期分化，若降息落空，债券收益率（借钱成本）反弹，科技股估值承压",
-        "watch": "美联储下次会议声明及点阵图（利率预测）"
+        "what": "比特币暴跌，但华尔街新加密货币炒作兴起",
+        "assets": "📉 比特币 承压；📈 华尔街代币化资产（如贝莱德BUIDL基金） 利好",
+        "chain": "资金从投机性加密资产（比特币）流向合规机构产品（受监管的加密基金），监管套利（利用规则差异获利）加速",
+        "watch": "比特币能否守住3万美元心理关口（整数价位）"
       }
     },
     {
       "rank": 7,
+      "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
+      "source": "市场资讯",
+      "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期...",
@@ -94,7 +102,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美股芯片制造商市值，一日蒸发超万亿美元",
       "source": "央视",
       "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
@@ -102,20 +110,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "6月6日外盘头条：美伊和平谈判仍陷僵局 非农报告提振加息预期 美股遭遇抛售 谷歌与SpaceX达成百亿算力协议",
       "source": "环球市场播报",
       "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、伊朗战争逼近百日 美伊和平谈判仍陷僵局 2、美国5月新增就业17.2万人 经济表现大幅超出市场预期 3...",
       "lang": "zh",
       "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
-      "source": "CNBC",
-      "detail": "Meta shares dropped after the Financial Times reported the company could potentially raise tens of billions of dollars in a stock offering to help its AI push.",
-      "lang": "en",
-      "score": 32
     }
   ]
 }
