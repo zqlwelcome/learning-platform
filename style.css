@@ -2608,6 +2608,52 @@ body {
     font-weight: 600;
 }
 
+.trade-layer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.trade-layer-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 9px;
+    background: var(--bg);
+}
+
+.trade-layer-card span,
+.trade-layer-card small {
+    display: block;
+    color: var(--text3);
+    font-size: 10px;
+    line-height: 1.35;
+}
+
+.trade-layer-card b {
+    display: block;
+    color: var(--text);
+    font-size: 12px;
+    line-height: 1.45;
+    margin: 4px 0;
+}
+
+.a-target-list b.trade-target-badge.ready {
+    color: var(--green);
+    background: rgba(52, 199, 89, 0.1);
+}
+
+.a-target-list b.trade-target-badge.hot {
+    color: var(--red);
+    background: rgba(255, 59, 48, 0.1);
+}
+
+@media (max-width: 520px) {
+    .trade-layer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .a-target-list em {
     margin-left: 3px;
     color: var(--text3);
