@@ -2557,7 +2557,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - OPENAI_API_KEY=${OPEN...Y}
+      - OPENAI_API_KEY={OPEN...Y}
     volumes:
       - ./data:/app/data
       - ./chroma_db:/app/chroma_db
