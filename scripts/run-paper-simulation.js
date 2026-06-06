@@ -86,7 +86,9 @@ async function main() {
             market: item.market,
             kind: item.kind,
             eventType: item.eventType,
-            score: item.score
+            score: item.score,
+            confirmationScore: item.confirmationScore,
+            confirmationReasons: item.confirmationReasons
         })),
         stats: {
             sampleCount: effectiveTrades.length,

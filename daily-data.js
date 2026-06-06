@@ -673,8 +673,8 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v5 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓；胜率只统计已结算交易，同一标的10日内不重复开仓。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
+            <div class="a-radar-kicker">模型模拟盘 v6 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：新增入场确认分，新闻分只是候选，必须再看趋势、流动性、热度和宏观匹配；胜率只统计已结算交易。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
@@ -790,6 +790,8 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
     cards.forEach(card => {
         card.targets.forEach(target => {
             if (seen.has(target.symbol) || !target.price || target.modelTag !== '观察') return;
+            const confirmation = getPaperEntryConfirmation(target, card, macro);
+            if (confirmation.score < 62) return;
             seen.add(target.symbol);
             candidates.push({
                 symbol: target.symbol,
@@ -797,15 +799,102 @@ function getPaperTradeCandidates(hotNews, quoteMap, macro) {
                 name: target.name,
                 market: target.market,
                 kind: target.kind,
-            entryPrice: target.price,
-            allocationPct: getPaperAllocationPct(target, card),
-            eventTitle: card.title,
-            eventType: card.type,
-            score: card.score
+                entryPrice: target.price,
+                allocationPct: getPaperAllocationPct(target, card),
+                eventTitle: card.title,
+                eventType: card.type,
+                score: card.score,
+                confirmationScore: confirmation.score,
+                confirmationReasons: confirmation.reasons
             });
         });
     });
     return candidates.slice(0, 8);
+}
+
+function getPaperEntryConfirmation(target, card, macro) {
+    let score = 45;
+    const reasons = [];
+    const hasTheme = theme => (target.themes || []).includes(theme);
+
+    if (target.modelScore >= 72) {
+        score += 10;
+        reasons.push('模型基础分强');
+    } else if (target.modelScore >= 62) {
+        score += 6;
+        reasons.push('模型基础分达标');
+    }
+
+    if (!target.hasQuote || target.liquidityPass) {
+        score += 10;
+        reasons.push('流动性通过');
+    } else {
+        score -= 18;
+        reasons.push('流动性不足');
+    }
+
+    if (typeof target.pct === 'number') {
+        if (target.pct > 4) {
+            score -= 18;
+            reasons.push('当日涨幅偏热');
+        } else if (target.pct >= 0.2 && target.pct <= 3) {
+            score += 12;
+            reasons.push('日内温和转强');
+        } else if (target.pct > -2 && target.pct < 0.2) {
+            score += 5;
+            reasons.push('价格未失控');
+        } else if (target.pct < -5) {
+            score -= 14;
+            reasons.push('日内跌幅过深');
+        }
+    }
+
+    if (typeof target.fiveDayPct === 'number') {
+        if (target.fiveDayPct >= 1 && target.fiveDayPct <= 6) {
+            score += 13;
+            reasons.push('5日趋势健康');
+        } else if (target.fiveDayPct > 8) {
+            score -= 18;
+            reasons.push('5日涨幅拥挤');
+        } else if (target.fiveDayPct < -6) {
+            score -= 12;
+            reasons.push('短线趋势破坏');
+        }
+    }
+
+    if (typeof target.heat === 'number') {
+        if (target.heat > 0.88) {
+            score -= 12;
+            reasons.push('接近高位');
+        } else if (target.heat >= 0.35 && target.heat <= 0.82) {
+            score += 7;
+            reasons.push('价格位置适中');
+        }
+    }
+
+    const macroBoost =
+        (macro.aiCapex && (hasTheme('ai') || hasTheme('semiconductor') || hasTheme('infrastructure'))) ||
+        (macro.oilShock && (hasTheme('energy') || hasTheme('oil') || hasTheme('gold'))) ||
+        (macro.riskOff && (hasTheme('cash') || hasTheme('gold'))) ||
+        (macro.chinaSupport && (hasTheme('china-beta') || hasTheme('hk-tech') || hasTheme('consumer')));
+    if (macroBoost) {
+        score += 10;
+        reasons.push('宏观环境匹配');
+    }
+    if (macro.riskOff && target.kind === 'Stock') {
+        score -= 10;
+        reasons.push('风险偏好下个股降权');
+    }
+
+    if (card.score >= 8) {
+        score += 5;
+        reasons.push('新闻事件强');
+    }
+
+    return {
+        score: Math.max(0, Math.min(100, Math.round(score))),
+        reasons: reasons.slice(0, 4)
+    };
 }
 
 function updatePaperTrades(candidates, quoteMap) {
@@ -1059,7 +1148,7 @@ function renderPaperTradeCard(trade) {
                 <span class="a-flow-change ${pnlClass}">${pnl}</span>
             </div>
             <div class="a-flow-detail">
-                <div class="a-flow-explain">模型来源：${safeText(trade.eventType)} ${safeText(trade.score)}/10，来自“${safeText(trade.eventTitle)}”。</div>
+                <div class="a-flow-explain">模型来源：${safeText(trade.eventType)} ${safeText(trade.score)}/10，入场确认 ${safeText(trade.confirmationScore || '旧样本')}/100，来自“${safeText(trade.eventTitle)}”。</div>
                 <div class="a-flow-meaning">模拟记录：仓位 ${trade.allocationPct}%（${formatMoney(trade.entryValue)}），入场 ${safeText(trade.entryDate)}，入场价 ${Number(trade.entryPrice).toFixed(2)}，当前价 ${Number(trade.currentPrice).toFixed(2)}，已观察 ${trade.ageDays} 天。</div>
                 <div class="a-flow-meaning">状态：<span class="a-flow-change ${statusClass}">${safeText(trade.status)}</span></div>
                 <div class="paper-playbook">
@@ -1086,6 +1175,7 @@ function getPaperTradePlaybook(trade) {
 
     let entry = `${eventLabel}${strength}信号，先用${trade.kind === 'ETF' ? 'ETF验证方向' : '小仓位监控个股'}，不把新闻热闹直接当买点。`;
     if (trade.eventTitle) entry = `${entry} 触发点：${trade.eventTitle}`;
+    if (Array.isArray(trade.confirmationReasons) && trade.confirmationReasons.length) entry = `${entry} 确认项：${trade.confirmationReasons.join('、')}。`;
 
     let wait = '等待价格继续确认：1日看方向，3日看资金是否持续，没放量就不加码。';
     if (isWaiting) wait = '模型方向认可，但组合总仓位接近70%纪律线，先排队，不为了“看起来有机会”硬挤进去。';
