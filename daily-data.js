@@ -562,11 +562,11 @@ function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">全球热钱板块雷达</div>
-            <div class="a-radar-copy">不是看谁今天最吵，而是看资金正在交易哪条主线：利率、AI、黄金、港股科技、A股政策，还是能源风险。</div>
+            <div class="a-radar-kicker">全球资金主线</div>
+            <div class="a-radar-copy">不是看谁今天最吵，而是看热钱正在押哪条主线、有没有过热、和交易池/模拟盘有没有形成闭环。</div>
         </div>
         <div class="a-sector-list">
-            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；只用于观察热钱方向。</div>
+            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；用于判断主线，不是直接买入指令。</div>
             ${sectors.map((sector, index) => renderSectorHeatCard(sector, index)).join('')}
         </div>
     `;
@@ -574,6 +574,7 @@ function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
 
 function renderSectorHeatCard(sector, index) {
     const directionClass = sector.bias === '降温' ? 'down' : 'up';
+    const readiness = getSectorReadiness(sector);
     return `
         <div class="a-sector-item ${directionClass}">
             <div class="a-sector-main" onclick="toggleSectorDetail(this)">
@@ -582,16 +583,63 @@ function renderSectorHeatCard(sector, index) {
                 <span class="a-sector-change">${safeText(sector.bias)} ${sector.score}</span>
             </div>
             <div class="a-sector-detail">
+                <div class="sector-mainline">
+                    <span>${safeText(readiness.label)}</span>
+                    <b>${safeText(readiness.action)}</b>
+                </div>
                 <div class="a-sector-explain">资金在看：${safeText(sector.watch)}</div>
                 <div class="a-sector-reason">交易员逻辑：${safeText(sector.reason)}</div>
                 <div class="a-sector-impact">小白翻译：${safeText(sector.beginner)}</div>
                 <div class="a-target-list">
-                    <span>可跟踪</span>
-                    ${sector.targets.map(target => renderTargetBadge(target)).join('')}
+                    <span>代表资产</span>
+                    ${sector.targets.map(target => renderSectorTargetBadge(target)).join('')}
                 </div>
+                <div class="a-flow-impact">和交易池关系：${safeText(readiness.link)}</div>
             </div>
         </div>
     `;
+}
+
+function getSectorReadiness(sector) {
+    const ready = sector.targets.filter(target => {
+        const confirmation = getPaperEntryConfirmation(target, { score: Math.round(sector.score / 10), type: '板块' }, {});
+        const threshold = target.kind === 'Stock' ? 86 : 62;
+        return confirmation.score >= threshold;
+    }).length;
+    const hot = sector.targets.some(target => typeof target.pct === 'number' && target.pct > 4 || typeof target.fiveDayPct === 'number' && target.fiveDayPct > 8);
+    if (sector.bias === '过热' || hot) {
+        return {
+            label: '状态：过热',
+            action: '不追高，等回踩或下一轮确认。',
+            link: '代表资产可能在交易池里，但模拟盘会用确认分和冷却期过滤。'
+        };
+    }
+    if (ready > 0) {
+        return {
+            label: '状态：可验证',
+            action: `已有 ${ready} 个代表资产接近模拟盘条件。`,
+            link: '可回到交易池情报查看确认分，再看模拟盘是否已记录。'
+        };
+    }
+    if (sector.score >= 70) {
+        return {
+            label: '状态：升温',
+            action: '主线值得看，但还要等价格和成交量确认。',
+            link: '交易池会先放入观察或等待确认，不急着模拟买入。'
+        };
+    }
+    return {
+        label: '状态：观察',
+        action: '目前更像背景信息，不作为主要出手依据。',
+        link: '只有后续新闻、价格和确认分共振，才会进入交易池高优先级。'
+    };
+}
+
+function renderSectorTargetBadge(target) {
+    const pct = typeof target.pct === 'number' ? ` <em>${target.pct >= 0 ? '+' : ''}${target.pct.toFixed(2)}%</em>` : '';
+    const trend = typeof target.fiveDayPct === 'number' ? ` <em>5日${target.fiveDayPct >= 0 ? '+' : ''}${target.fiveDayPct.toFixed(1)}%</em>` : '';
+    const layer = getTradePoolLayer(target);
+    return `<b>${safeText(target.name)} ${safeText(target.code)} <em>${safeText(layer)}</em>${pct}${trend}</b>`;
 }
 
 function getSectorProfiles() {
