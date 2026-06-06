@@ -1330,6 +1330,104 @@ for i, doc in enumerate(docs):
         `
       },
       {
+        id: 'eng-6',
+        title: 'RAG系统架构设计',
+        time: '20分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：理解RAG完整架构，能设计企业级方案</div>
+        </div>
+        <div class="block">
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 理解RAG流程</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">架构</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>用户提问
+    ↓
+[查询改写] → 优化用户问题
+    ↓
+[混合检索] → 向量检索 + 关键词检索
+    ↓
+[重排序] → Cross-encoder精排
+    ↓
+[Prompt组装] → 系统提示 + 检索结果 + 用户问题
+    ↓
+[LLM生成] → 大模型生成回答
+    ↓
+[来源引用] → 显示答案来源</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 简单RAG实现（LangChain）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_community.vectorstores import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.chains import RetrievalQA
+
+# 1. 准备文档
+documents = [
+    "公司年假制度：入职满1年享有5天年假，满5年10天，满10年15天。",
+    "报销流程：登录OA系统 -> 填写报销单 -> 上传发票 -> 提交审批。",
+]
+
+# 2. 文档切分
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=50)
+splits = text_splitter.create_documents(documents)
+
+# 3. 创建向量数据库
+embeddings = OpenAIEmbeddings()
+vectorstore = Chroma.from_documents(splits, embeddings)
+
+# 4. 创建RAG链
+llm = ChatOpenAI(model="gpt-4o-mini")
+qa_chain = RetrievalQA.from_chain_type(
+    llm=llm,
+    retriever=vectorstore.as_retriever(search_kwargs={"k": 2}),
+    return_source_documents=True
+)
+
+# 5. 提问
+result = qa_chain.invoke({"query": "公司年假有多少天？"})
+print("回答:", result["result"])
+print("来源:", [doc.page_content[:50] for doc in result["source_documents"]])</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: RAG和微调怎么选？</strong></p>
+          <p>A: 知识更新频繁用RAG，固定知识用微调，两者可结合。</p>
+          <p><strong>Q: 检索结果不相关怎么办？</strong></p>
+          <p>A: 优化切分策略、使用混合检索、添加重排序。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://python.langchain.com/docs/tutorials/rag" target="_blank">LangChain RAG教程</a></p>
+          <p>• <a href="https://github.com/langchain-ai/rag-from-scratch" target="_blank">RAG from Scratch教程</a></p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用LangChain实现一个简单的RAG问答系统，支持3个文档的检索问答。</p>
+        </div>
+        `
+      },
+      {
         id: 'eng-7',
         title: '文档解析与切分策略',
         time: '22分钟',
@@ -1856,6 +1954,97 @@ print("评估结果:", result)</code></pre>
         `
       },
       {
+        id: 'eng-11',
+        title: 'LangChain核心概念',
+        time: '22分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握LangChain核心组件，能构建简单的AI应用</div>
+        </div>
+        <div class="block">
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 安装LangChain</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>pip install langchain langchain-openai langchain-community</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: Prompt模板</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain.prompts import ChatPromptTemplate
+
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "你是一个专业的{role}"),
+    ("user", "{question}")
+])
+
+messages = prompt.format_messages(
+    role="Python讲师",
+    question="什么是装饰器？"
+)
+print(messages)</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: Chain链式调用</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain_openai import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+
+llm = ChatOpenAI(model="gpt-4o-mini")
+prompt = ChatPromptTemplate.from_template("用一句话解释什么是{concept}")
+
+chain = prompt | llm | StrOutputParser()
+
+result = chain.invoke({"concept": "机器学习"})
+print(result)</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: LangChain和LlamaIndex怎么选？</strong></p>
+          <p>A: LangChain适合Agent和链式调用，LlamaIndex适合数据索引和查询。</p>
+          <p><strong>Q: Chain怎么调试？</strong></p>
+          <p>A: 使用LangSmith可视化调试平台。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://python.langchain.com/docs/introduction" target="_blank">LangChain官方文档</a></p>
+          <p>• <a href="https://github.com/langchain-ai/langchain" target="_blank">LangChain GitHub</a></p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用LangChain实现一个带记忆的聊天机器人，支持多轮对话。</p>
+        </div>
+        `
+      },
+      {
         id: 'eng-12',
         title: 'LlamaIndex实战',
         time: '20分钟',
@@ -2316,6 +2505,118 @@ print(result)</code></pre>
         `
       },
       {
+        id: 'eng-16',
+        title: 'Docker容器化部署',
+        time: '20分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握AI应用的Docker容器化部署</div>
+        </div>
+        <div class="block">
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 编写Dockerfile</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Dockerfile</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 8000
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: docker-compose编排</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">YAML</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPEN...Y}
+    volumes:
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  redis_data:</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 构建和运行</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 构建镜像
+docker-compose build
+
+# 启动服务
+docker-compose up -d
+
+# 查看日志
+docker-compose logs -f app
+
+# 停止服务
+docker-compose down</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 镜像太大怎么办？</strong></p>
+          <p>A: 使用多阶段构建、精简基础镜像、清理缓存。</p>
+          <p><strong>Q: 如何更新代码？</strong></p>
+          <p>A: 重新build镜像，docker-compose up -d重建容器。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://docs.docker.com/" target="_blank">Docker官方文档</a></p>
+          <p>• <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose文档</a></p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>将RAG系统容器化，用docker-compose一键启动。</p>
+        </div>
+        `
+      },
+      {
         id: 'eng-17',
         title: 'K8s集群部署与扩缩容',
         time: '25分钟',
@@ -2590,30 +2891,172 @@ scrape_configs:
         `
       },
       {
-        id: 'eng-20',
-        title: '面试题库：算法+系统设计+项目',
-        time: '30分钟',
+        id: 'eng-19',
+        title: 'AI工程师简历优化',
+        time: '20分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握AI工程师面试高频题目</div>
+          <div class="lesson-goal">🎯 本节目标：打造一份能通过AI工程师岗位筛选的简历</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>算法题（必考）：</strong></p>
-          <p>• 字符串处理 - 文本清洗、切分</p>
-          <p>• 排序算法 - TopK问题</p>
-          <p>• 动态规划 - 路径规划</p>
-          <p>• 图算法 - 知识图谱遍历</p>
-          <p><strong>系统设计（高频）：</strong></p>
-          <p>• 设计一个RAG系统</p>
-          <p>• 设计一个AI Agent平台</p>
-          <p>• 设计一个大模型推理服务</p>
-          <p>• 设计一个推荐系统</p>
-          <p><strong>项目经验（必问）：</strong></p>
-          <p>• 你做过的最有挑战的AI项目？</p>
-          <p>• 如何评估和优化模型效果？</p>
-          <p>• 如何处理AI系统的不确定性？</p>
-          <p>• 如何控制大模型的成本？</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 技术栈展示</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">简历</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>技术栈:
+• 编程语言: Python, Go, SQL
+• AI框架: LangChain, LlamaIndex, AutoGen
+• 大模型: OpenAI GPT-4, Claude, DeepSeek
+• 向量数据库: ChromaDB, Milvus, Pinecone
+• 部署: Docker, K8s, FastAPI
+• 云服务: AWS/Azure/GCP</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 项目经验STAR法则</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">示例</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>项目: 企业知识库问答系统
+
+Situation (背景):
+公司有大量内部文档，员工查找信息效率低
+
+Task (职责):
+负责RAG系统的设计和开发
+
+Action (行动):
+• 使用LangChain + ChromaDB构建RAG系统
+• 实现混合检索（向量+BM25），准确率提升35%
+• 添加重排序模块，召回率提升28%
+• 部署到K8s，支持100+并发用户
+
+Result (成果):
+• 员工查询效率提升60%
+• 系统日均处理5000+查询
+• 获得公司年度创新奖</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 没有项目经验怎么办？</strong></p>
+          <p>A: 做课程中的实战项目，部署到线上，写进简历。</p>
+          <p><strong>Q: 简历多长合适？</strong></p>
+          <p>A: 应届1页，有经验2页，不要超过2页。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://www.linkedin.com/pulse/how-write-ai-engineer-resume" target="_blank">AI工程师简历写作指南</a></p>
+          <p>• <a href="https://github.com/resume/resume.github.com" target="_blank">GitHub简历模板</a></p>
+          <p>• <a href="https://www.levels.fyi/" target="_blank">薪资参考</a></p>
+        </div>
+        <div class="block">
+          <h4>💼 实战练习</h4>
+          <p>用STAR法则重写你的简历中的3个项目经验。</p>
+        </div>
+        `
+      },
+      {
+        id: 'eng-20',
+        title: '面试题库：算法+系统设计+项目',
+        time: '35分钟',
+        content: `
+        <div class="block">
+          <div class="lesson-goal">🎯 本节目标：掌握AI工程师面试高频题目和答题技巧</div>
+        </div>
+        <div class="block">
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 算法题高频考点</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 1. 文本相似度计算
+def cosine_similarity(a, b):
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+
+# 2. TopK问题
+import heapq
+def top_k_frequent(nums, k):
+    count = {}
+    for n in nums:
+        count[n] = count.get(n, 0) + 1
+    return heapq.nlargest(k, count.keys(), key=count.get)
+
+# 3. 字符串处理
+def clean_text(text):
+    import re
+    text = re.sub(r'\s+', ' ', text)
+    text = re.sub(r'[^\w\s]', '', text)
+    return text.strip()</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 系统设计题模板</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">模板</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>题目: 设计一个RAG系统
+
+1. 需求澄清
+   - 用户量？100-1000人
+   - 文档量？10万份
+   - 延迟要求？<2秒
+
+2. 高层设计
+   用户 → API Gateway → RAG Service → Vector DB
+                         ↓
+                      LLM Service
+
+3. 核心组件
+   - 文档处理: PDF/Word解析 → 切分 → Embedding
+   - 向量存储: Milvus
+   - 检索: 混合检索 + 重排序
+   - 生成: GPT-4o / Claude
+
+4. 扩展性
+   - 水平扩展: K8s HPA
+   - 缓存: Redis缓存热门查询</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 面试官问我不知道的问题怎么办？</strong></p>
+          <p>A: 诚实说不知道，但展示你的思考过程和学习能力。</p>
+          <p><strong>Q: 如何准备系统设计题？</strong></p>
+          <p>A: 练习5-10个经典系统设计题，掌握答题框架。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://github.com/donnemartin/system-design-primer" target="_blank">System Design Primer</a></p>
+          <p>• <a href="https://leetcode.com/" target="_blank">LeetCode算法练习</a></p>
+          <p>• <a href="https://www.hellointerview.com/" target="_blank">AI面试题库</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
