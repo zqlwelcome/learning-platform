@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 03:06",
+  "updateTime": "2026-06-07 03:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "芯片股恐慌性抛售，VIX（恐慌指数）飙升",
-        "assets": "📉 半导体板块 承压；📈 VIX期货 利好",
-        "chain": "波动率飙升→量化基金（程序化交易）被迫去杠杆→抛售其他风险资产",
-        "watch": "SOX指数（费城半导体指数）是否跌破关键支撑位"
+        "what": "芯片股‘崩涨’逆转，波动率指数飙升",
+        "assets": "📉 美股芯片股 承压；📈 VIX恐慌指数 利好",
+        "chain": "波动率飙升触发量化基金（程序化交易）减仓，加剧科技股抛售，避险资金流向国债",
+        "watch": "费城半导体指数是否跌破200日均线"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX刷新IPO纪录，A股供应商受益",
-        "assets": "📈 A股航天/电子元器件 利好；📈 SpaceX概念股 利好",
-        "chain": "IPO火爆→供应商订单预期上调→估值重估（PE倍数提升）",
-        "watch": "SpaceX发行价及首日涨幅是否符合预期"
+        "what": "SpaceX刷新全球IPO纪录，A股供应商曝光",
+        "assets": "📈 A股商业航天概念股 利好；📈 SpaceX估值 提升",
+        "chain": "供应商订单预期升温，带动A股航天产业链（上游零部件）估值重估，可能引发板块轮动",
+        "watch": "SpaceX招股书披露供应商名单及订单金额"
       }
     },
     {
@@ -37,64 +37,56 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX为创纪录IPO预留散户配售份额",
-        "assets": "📈 散户交易平台 利好；📈 SpaceX相关ETF 利好",
-        "chain": "散户参与度提高→IPO认购倍数激增→首日溢价（开盘价高于发行价）概率上升",
-        "watch": "散户配售比例及最终认购数据"
+        "what": "SpaceX为创纪录IPO预留面向散户的配售份额",
+        "assets": "📈 美股散户交易平台（如Robinhood）利好；📈 加密货币 间接利好",
+        "chain": "散户参与度提升推高IPO首日溢价（首日涨幅），可能分流部分资金从比特币转向新股",
+        "watch": "散户认购倍数及上市首日涨幅"
       }
     },
     {
       "rank": 4,
-      "title": "拒绝纳入！史上最大IPO，突发！",
-      "source": "券商中国",
-      "detail": "标普拒绝为SpaceX“开绿灯”！ 当前，全球首富马斯克正在火速推进SpaceX的IPO事宜。尽管SpaceX此次上市获得华尔街巨头热捧，但标普拒绝为其纳入指数提供快速通道。",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "史上最大IPO拒绝纳入（指数/基金）",
-        "assets": "📉 IPO相关指数 承压；📈 替代资产（如科技ETF） 利好",
-        "chain": "被动资金（指数基金）无法买入→流动性降低→股价波动加大",
-        "watch": "该IPO是否被其他指数或主动基金纳入"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "比特币暴跌但华尔街新加密热潮兴起",
-        "assets": "📉 比特币 承压；📈 加密ETF/期货 利好",
-        "chain": "散户离场→机构通过合规产品（如ETF）入场→市场结构分化（现货弱、衍生品强）",
-        "watch": "比特币ETF资金流（净流入/流出）及监管动态"
+        "what": "比特币暴跌，华尔街新加密热度崛起",
+        "assets": "📉 比特币 承压；📈 华尔街代币化资产（如贝莱德BUIDL）利好",
+        "chain": "资金从投机性加密资产转向合规化代币（受监管加密产品），机构偏好稳定币或国债代币",
+        "watch": "比特币期货未平仓合约变化及ETF资金流向"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "花旗是华尔街唯一坚持美联储今年降息的投行",
-        "assets": "📈 美国国债 利好；📉 美元 承压",
-        "chain": "降息预期（借钱成本降低）→利率敏感性资产（如科技股）估值修复→利差收窄（美国与海外利率差缩小）",
-        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
+        "what": "花旗坚持2025年降息预期，其他投行全改口",
+        "assets": "📈 美债 利好（降息预期）；📉 美元 承压",
+        "chain": "降息预期分歧导致美债收益率曲线陡化（长债收益率升幅小于短债），风险资产承压",
+        "watch": "美国CPI数据及美联储官员讲话"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "高盛放弃美联储降息预测，因非农强劲",
+        "assets": "📈 美元 利好；📉 美股成长股 承压；📈 美债收益率 上行",
+        "chain": "利率维持高位压制科技股估值（折现率提高），资金转向价值股和短久期（短期）债券",
+        "watch": "下周美国CPI数据是否超预期"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "美股芯片制造商市值，一日蒸发超万亿美元",
       "source": "央视",
       "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
@@ -102,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
       "source": "环球市场播报",
       "detail": " 美联储理事迈克尔・巴尔对过去一年监管机构放宽美国银行监管标准的举措提出批评，称相关新规提案 “大幅削弱银行监管与督导力度”。",
@@ -110,12 +102,20 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
       "lang": "en",
       "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "White House AI policy adviser Krishnan to leave position",
+      "source": "CNBC",
+      "detail": "Krishnan has been involved in Trump administration efforts to create a national framework for regulating AI developments.",
+      "lang": "en",
+      "score": 20
     }
   ]
 }
