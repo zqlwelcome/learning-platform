@@ -92,7 +92,8 @@ async function main() {
             allocationPct: item.allocationPct,
             portfolioCap: item.portfolioCap,
             riskMode: item.riskMode,
-            allocationReason: item.allocationReason
+            allocationReason: item.allocationReason,
+            actionPlan: item.actionPlan
         })),
         stats: {
             sampleCount: effectiveTrades.length,
