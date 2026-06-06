@@ -623,23 +623,24 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
     const hasCloudTrades = Array.isArray(cloudSnapshot?.trades);
     const candidates = hasCloudTrades ? cloudSnapshot.candidates || [] : getPaperTradeCandidates(hotNews, quoteMap, macro);
     const trades = hasCloudTrades ? refreshPaperTradesForDisplay(cloudSnapshot.trades, quoteMap) : updatePaperTrades(candidates, quoteMap);
-    const activeTrades = trades.filter(trade => trade.status !== '过期').slice(0, 8);
-    const reviewed = trades.filter(trade => typeof trade.pnlPct === 'number' && trade.ageDays >= 1);
-    const wins = reviewed.filter(trade => trade.pnlPct > 0).length;
-    const winRate = reviewed.length ? Math.round((wins / reviewed.length) * 100) : null;
-    const avgPnl = reviewed.length ? reviewed.reduce((sum, trade) => sum + trade.pnlPct, 0) / reviewed.length : null;
+    const effectiveTrades = trades.filter(trade => trade.status !== '重复剔除');
+    const activeTrades = effectiveTrades.filter(trade => trade.status !== '过期').slice(0, 8);
+    const closedTrades = trades.filter(isPaperTradeClosed);
+    const wins = closedTrades.filter(trade => Number(trade.finalPnlPct ?? trade.pnlPct) > 0).length;
+    const winRate = closedTrades.length ? Math.round((wins / closedTrades.length) * 100) : null;
+    const avgPnl = closedTrades.length ? closedTrades.reduce((sum, trade) => sum + Number(trade.finalPnlPct ?? trade.pnlPct ?? 0), 0) / closedTrades.length : null;
     const portfolio = getPaperPortfolioStats(trades);
     const phaseStats = getPaperPhaseStats(trades);
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v4 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
-            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓，按1日、3日、10日自动记录阶段复盘。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
+            <div class="a-radar-kicker">模型模拟盘 v5 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-copy">用10万元虚拟本金验证模型：ETF按8%-10%仓位，个股按4%-6%监控仓；胜率只统计已结算交易，同一标的10日内不重复开仓。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
             <div class="paper-score-card">
                 <span>样本</span>
-                <b>${trades.length}</b>
+                <b>${effectiveTrades.length}</b>
             </div>
             <div class="paper-score-card">
                 <span>胜率</span>
@@ -670,7 +671,7 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
                 <span>纪律：单标的≤15%，权益≤70%，10日必须复盘。</span>
                 <button onclick="resetPaperTrades()">清空重测</button>
             </div>
-            <div class="a-flow-disclaimer">${hasCloudTrades ? '云端模拟盘每个交易日约每2小时自动跑一次；旧信号保留复盘，新信号按模型规则加入。' : '模拟盘会自动记录“观察池”标的。'}刚生成的信号需要等1日、3日、10日后才有复盘意义；这里是模型验证，不是真实交易建议。</div>
+            <div class="a-flow-disclaimer">${hasCloudTrades ? '云端模拟盘每个交易日约每2小时自动跑一次；旧信号保留复盘，新信号按模型规则加入。' : '模拟盘会自动记录“观察池”标的。'}桥水式思路只借鉴公开原则：先分散风险，再用纪律验证，不把单条新闻当神谕。这里是模型验证，不是真实交易建议。</div>
             ${activeTrades.length ? activeTrades.map(renderPaperTradeCard).join('') : '<div class="a-flow-disclaimer">暂时没有可记录的模拟信号。模型没出手，也是一种纪律。</div>'}
         </div>
     `;
@@ -778,9 +779,12 @@ function updatePaperTrades(candidates, quoteMap) {
         trades = [];
     }
 
+    trades = markPaperDuplicateTrades(trades);
+
     candidates.forEach(candidate => {
         const id = `${today}-${candidate.symbol}-${candidate.eventType}`;
         if (trades.some(trade => trade.id === id)) return;
+        if (hasPaperCooldownTrade(trades, candidate.symbol, today)) return;
         trades.unshift({
             ...candidate,
             id,
@@ -791,6 +795,7 @@ function updatePaperTrades(candidates, quoteMap) {
     });
 
     trades = trades.slice(0, 40).map(trade => {
+        if (isPaperTradeClosed(trade) || trade.status === '重复剔除') return trade;
         const quote = quoteMap?.[trade.symbol] || {};
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : null;
@@ -799,8 +804,10 @@ function updatePaperTrades(candidates, quoteMap) {
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
-        const checkpoints = updatePaperCheckpoints(trade.checkpoints || {}, pnlPct, ageDays, today);
-        return {
+        const checkpoints = trade.status === '仓位等待' || trade.status === '重复剔除'
+            ? trade.checkpoints || {}
+            : updatePaperCheckpoints(trade.checkpoints || {}, pnlPct, ageDays, today);
+        const updatedTrade = {
             ...trade,
             allocationPct,
             capital,
@@ -812,11 +819,36 @@ function updatePaperTrades(candidates, quoteMap) {
             checkpoints,
             status: getPaperTradeStatus({ pnlPct, ageDays, score: trade.score || 4 })
         };
+        return closePaperTradeIfNeeded(updatedTrade, today);
     });
     trades = applyPaperRiskControls(trades);
 
     localStorage.setItem(key, JSON.stringify(trades));
     return trades;
+}
+
+function markPaperDuplicateTrades(trades) {
+    const seen = new Map();
+    return [...trades]
+        .sort((a, b) => new Date(a.entryDate) - new Date(b.entryDate))
+        .map(trade => {
+            if (isPaperTradeClosed(trade) || trade.status === '重复剔除') return trade;
+            const last = seen.get(trade.symbol);
+            if (last && daysBetween(last.entryDate, trade.entryDate) < 10) {
+                return { ...trade, status: '重复剔除', entryValue: 0, currentValue: 0, excludedReason: '10日冷却期内重复信号' };
+            }
+            seen.set(trade.symbol, trade);
+            return trade;
+        })
+        .sort((a, b) => new Date(b.entryDate) - new Date(a.entryDate));
+}
+
+function hasPaperCooldownTrade(trades, symbol, today) {
+    return trades.some(trade => trade.symbol === symbol && trade.status !== '重复剔除' && daysBetween(trade.entryDate, today) < 10);
+}
+
+function daysBetween(start, end) {
+    return Math.max(0, Math.floor((new Date(end) - new Date(start)) / 86400000));
 }
 
 function applyPaperRiskControls(trades) {
@@ -829,7 +861,7 @@ function applyPaperRiskControls(trades) {
     });
 
     oldestFirst.forEach(trade => {
-        if (trade.status === '过期') return;
+        if (!isPaperTradeEligibleForCapital(trade)) return;
         const allocation = Math.min(15, Number(trade.allocationPct || 0));
         if (exposure + allocation <= maxExposure) {
             exposure += allocation;
@@ -838,7 +870,7 @@ function applyPaperRiskControls(trades) {
     });
 
     return trades.map(trade => {
-        if (trade.status === '过期' || activeIds.has(trade.id)) return trade;
+        if (!isPaperTradeEligibleForCapital(trade) || activeIds.has(trade.id)) return trade;
         return { ...trade, status: '仓位等待', currentValue: 0, entryValue: 0 };
     });
 }
@@ -855,6 +887,34 @@ function getPaperTradeStatus(trade) {
     if (trade.ageDays >= 10) return '时间复盘';
     if (trade.ageDays >= 3) return '复盘中';
     return '观察中';
+}
+
+function closePaperTradeIfNeeded(trade, today) {
+    if (isPaperTradeClosed(trade) || ['仓位等待', '重复剔除'].includes(trade.status)) return trade;
+    const pnlPct = Number(trade.pnlPct);
+    if (Number.isNaN(pnlPct)) return trade;
+    const takeProfit = trade.score >= 7 ? 18 : 10;
+    let status = '';
+    let reason = '';
+    if (pnlPct <= -8) {
+        status = '止损退出';
+        reason = '跌破-8%纪律线';
+    } else if (pnlPct >= takeProfit) {
+        status = '止盈退出';
+        reason = `达到${takeProfit}%止盈复盘线`;
+    } else if (trade.ageDays >= 10) {
+        status = '时间退出';
+        reason = '达到10日复盘窗口';
+    }
+    if (!status) return trade;
+    return {
+        ...trade,
+        status,
+        exitDate: today,
+        exitPrice: trade.currentPrice,
+        finalPnlPct: Number(pnlPct.toFixed(2)),
+        exitReason: reason
+    };
 }
 
 function updatePaperCheckpoints(checkpoints, pnlPct, ageDays, today) {
@@ -880,7 +940,7 @@ function getPaperPhaseStats(trades) {
         { key: 'd3', label: '3日' },
         { key: 'd10', label: '10日' }
     ].map(phase => {
-        const samples = trades.map(trade => trade.checkpoints?.[phase.key]).filter(Boolean);
+        const samples = trades.filter(isPaperTradeTracked).map(trade => trade.checkpoints?.[phase.key]).filter(Boolean);
         const wins = samples.filter(item => item.pnlPct > 0).length;
         const avg = samples.length ? samples.reduce((sum, item) => sum + item.pnlPct, 0) / samples.length : null;
         return {
@@ -920,7 +980,19 @@ function resetPaperTrades() {
 }
 
 function isPaperTradeActive(trade) {
-    return !['过期', '仓位等待'].includes(trade.status);
+    return isPaperTradeEligibleForCapital(trade) && !isPaperTradeClosed(trade);
+}
+
+function isPaperTradeTracked(trade) {
+    return !['仓位等待', '重复剔除'].includes(trade.status);
+}
+
+function isPaperTradeEligibleForCapital(trade) {
+    return !['过期', '仓位等待', '重复剔除'].includes(trade.status) && !isPaperTradeClosed(trade);
+}
+
+function isPaperTradeClosed(trade) {
+    return ['止损退出', '止盈退出', '时间退出'].includes(trade.status);
 }
 
 function formatMoney(value) {
@@ -937,7 +1009,7 @@ function formatPaperUpdateTime(value) {
 function renderPaperTradeCard(trade) {
     const pnl = typeof trade.pnlPct === 'number' ? `${trade.pnlPct >= 0 ? '+' : ''}${trade.pnlPct.toFixed(2)}%` : '待行情';
     const pnlClass = typeof trade.pnlPct === 'number' && trade.pnlPct < 0 ? 'negative' : 'positive';
-    const statusClass = trade.status === '止损警报' ? 'negative' : ['止盈复盘', '时间复盘'].includes(trade.status) ? 'positive' : '';
+    const statusClass = ['止损警报', '止损退出'].includes(trade.status) ? 'negative' : ['止盈复盘', '时间复盘', '止盈退出', '时间退出'].includes(trade.status) ? 'positive' : '';
     const checkpoints = renderPaperCheckpointBadges(trade);
     const playbook = getPaperTradePlaybook(trade);
     return `
@@ -967,9 +1039,9 @@ function getPaperTradePlaybook(trade) {
     const pnl = typeof trade.pnlPct === 'number' ? trade.pnlPct : 0;
     const score = Number(trade.score || 0);
     const isWaiting = trade.status === '仓位等待';
-    const isAlert = trade.status === '止损警报';
-    const isTakeProfit = trade.status === '止盈复盘';
-    const isTimeReview = trade.status === '时间复盘';
+    const isAlert = ['止损警报', '止损退出'].includes(trade.status);
+    const isTakeProfit = ['止盈复盘', '止盈退出'].includes(trade.status);
+    const isTimeReview = ['时间复盘', '时间退出'].includes(trade.status);
     const eventLabel = trade.eventType || '事件';
     const strength = score >= 8 ? '高分' : score >= 6 ? '中高分' : '普通';
 
@@ -987,6 +1059,7 @@ function getPaperTradePlaybook(trade) {
     if (isTakeProfit) exit = '已到止盈复盘区：先锁定成果，再判断是否用更小仓位继续跟踪。';
     if (isTimeReview) exit = '已到10日窗口：如果没有明显优势，模型应退出，把资金还给更强信号。';
     if (isWaiting) exit = '未真正占用虚拟仓位，等组合释放仓位后才开始计算完整交易周期。';
+    if (trade.status === '重复剔除') exit = '这条是10日冷却期内的重复信号，不参与胜率统计，避免模型被同一主题刷屏带偏。';
 
     return { entry, wait, exit };
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-02T12:39:40.131Z",
+  "updateTime": "2026-06-06T12:19:15.927Z",
   "macro": {
     "rateUp": true,
     "rateDown": false,
@@ -22,9 +22,9 @@
       "score": 9
     },
     {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
       "market": "港股",
       "kind": "ETF",
       "eventType": "宏观类",
@@ -40,10 +40,10 @@
       "score": 9
     },
     {
-      "symbol": "usSHV",
-      "code": "SHV",
-      "name": "短债ETF",
-      "market": "美股",
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
       "kind": "ETF",
       "eventType": "宏观类",
       "score": 9
@@ -53,15 +53,6 @@
       "code": "159928",
       "name": "消费ETF",
       "market": "A股",
-      "kind": "ETF",
-      "eventType": "基本面类",
-      "score": 7
-    },
-    {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
       "kind": "ETF",
       "eventType": "基本面类",
       "score": 7
@@ -77,29 +68,33 @@
     }
   ],
   "stats": {
-    "sampleCount": 7,
+    "sampleCount": 12,
+    "rawSampleCount": 40,
     "activeCount": 7,
+    "closedCount": 0,
+    "waitingCount": 5,
+    "excludedCount": 28,
     "reviewedCount": 0,
     "winRate": null,
     "avgPnl": null,
-    "equity": 100000,
-    "exposurePct": 68,
+    "equity": 98342.28967808843,
+    "exposurePct": 64,
     "alerts": 0
   },
   "phaseStats": [
     {
       "key": "d1",
       "label": "1日",
-      "samples": 0,
-      "winRate": null,
-      "avg": null
+      "samples": 7,
+      "winRate": 43,
+      "avg": -0.10571428571428575
     },
     {
       "key": "d3",
       "label": "3日",
-      "samples": 0,
-      "winRate": null,
-      "avg": null
+      "samples": 7,
+      "winRate": 14,
+      "avg": -1.9271428571428575
     },
     {
       "key": "d10",
@@ -111,48 +106,50 @@
   ],
   "trades": [
     {
+      "symbol": "sz159928",
+      "code": "159928",
+      "name": "消费ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 0.658,
+      "allocationPct": 8,
+      "eventTitle": "海外事件进入模型观察",
+      "eventType": "基本面类",
+      "score": 6,
+      "id": "2026-06-05-sz159928-基本面类",
+      "entryDate": "2026-06-05",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 0.658,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {},
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
       "symbol": "sh512880",
       "code": "512880",
       "name": "证券ETF",
       "market": "A股",
       "kind": "ETF",
-      "entryPrice": 1.037,
+      "entryPrice": 1.023,
       "allocationPct": 8,
-      "eventTitle": "中国资产爆发！国际油价大幅上涨！市场对美联储加息...",
-      "eventType": "政策类",
-      "score": 6,
-      "id": "2026-06-02-sh512880-政策类",
-      "entryDate": "2026-06-02",
-      "status": "观察中",
-      "capital": 100000,
-      "entryValue": 8000,
-      "currentValue": 8000,
-      "currentPrice": 1.037,
-      "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
-    },
-    {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
-      "kind": "ETF",
-      "entryPrice": 5.095,
-      "allocationPct": 10,
-      "eventTitle": "太空公司、人工智能公司万亿上市将来袭！孔蓉：资金...",
+      "eventTitle": "海外事件进入模型观察",
       "eventType": "基本面类",
-      "score": 7,
-      "id": "2026-06-02-hk03033-基本面类",
-      "entryDate": "2026-06-02",
-      "status": "观察中",
+      "score": 6,
+      "id": "2026-06-05-sh512880-基本面类",
+      "entryDate": "2026-06-05",
+      "status": "重复剔除",
       "capital": 100000,
-      "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 5.095,
-      "pnlPct": 0,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 1.016,
+      "pnlPct": -0.6842619745845451,
       "ageDays": 0,
-      "checkpoints": {}
+      "checkpoints": {},
+      "excludedReason": "10日冷却期内重复信号"
     },
     {
       "symbol": "sz159928",
@@ -160,43 +157,347 @@
       "name": "消费ETF",
       "market": "A股",
       "kind": "ETF",
-      "entryPrice": 0.68,
+      "entryPrice": 0.661,
       "allocationPct": 10,
-      "eventTitle": "太空公司、人工智能公司万亿上市将来袭！孔蓉：资金...",
-      "eventType": "基本面类",
+      "eventTitle": "太空公司据悉将其上市的日本融资目标提高至25亿美...",
+      "eventType": "政策类",
       "score": 7,
-      "id": "2026-06-02-sz159928-基本面类",
-      "entryDate": "2026-06-02",
-      "status": "观察中",
+      "id": "2026-06-05-sz159928-政策类",
+      "entryDate": "2026-06-05",
+      "status": "重复剔除",
       "capital": 100000,
-      "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 0.68,
-      "pnlPct": 0,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 0.658,
+      "pnlPct": -0.4538577912254164,
       "ageDays": 0,
-      "checkpoints": {}
+      "checkpoints": {},
+      "excludedReason": "10日冷却期内重复信号"
     },
     {
-      "symbol": "usSHV",
-      "code": "SHV",
-      "name": "短债ETF",
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 25.38,
+      "allocationPct": 10,
+      "eventTitle": "太空公司据悉将其上市的日本融资目标提高至25亿美...",
+      "eventType": "政策类",
+      "score": 7,
+      "id": "2026-06-05-hk02800-政策类",
+      "entryDate": "2026-06-05",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 25.28,
+      "pnlPct": -0.3940110323088963,
+      "ageDays": 0,
+      "checkpoints": {},
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.812,
+      "allocationPct": 10,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 9,
+      "id": "2026-06-05-hk03033-资金行为",
+      "entryDate": "2026-06-05",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 4.786,
+      "pnlPct": -0.5403158769742453,
+      "ageDays": 0,
+      "checkpoints": {},
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "sz159928",
+      "code": "159928",
+      "name": "消费ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 0.659,
+      "allocationPct": 8,
+      "eventTitle": "海外事件进入模型观察",
+      "eventType": "基本面类",
+      "score": 6,
+      "id": "2026-06-04-sz159928-基本面类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 0.658,
+      "pnlPct": -0.15174506828528087,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0.3
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
       "market": "美股",
       "kind": "ETF",
-      "entryPrice": 110.06,
+      "entryPrice": 740.61,
       "allocationPct": 10,
-      "eventTitle": "欧洲股市反弹，资金等待通胀数据确认",
-      "eventType": "宏观类",
-      "score": 9,
-      "id": "2026-06-02-usSHV-宏观类",
-      "entryDate": "2026-06-02",
-      "status": "观察中",
+      "eventTitle": "中国科技链尝试摆脱英伟达依赖",
+      "eventType": "资金行为",
+      "score": 7,
+      "id": "2026-06-04-usQQQ-资金行为",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
       "capital": 100000,
-      "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 110.06,
-      "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 705.06,
+      "pnlPct": -4.800097217158838,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "sh512760",
+      "code": "512760",
+      "name": "芯片ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.18,
+      "allocationPct": 10,
+      "eventTitle": "收入波动 盈利承压燕文物流A股撤单三年后冲刺港股...",
+      "eventType": "政策类",
+      "score": 10,
+      "id": "2026-06-04-sh512760-政策类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 1.121,
+      "pnlPct": -4.999999999999996,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": -2.54
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 25.54,
+      "allocationPct": 10,
+      "eventTitle": "收入波动 盈利承压燕文物流A股撤单三年后冲刺港股...",
+      "eventType": "政策类",
+      "score": 10,
+      "id": "2026-06-04-hk02800-政策类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 25.28,
+      "pnlPct": -1.0180109631949805,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": -0.63
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.87,
+      "allocationPct": 10,
+      "eventTitle": "收入波动 盈利承压燕文物流A股撤单三年后冲刺港股...",
+      "eventType": "政策类",
+      "score": 10,
+      "id": "2026-06-04-hk03033-政策类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 4.786,
+      "pnlPct": -1.7248459958932343,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": -1.19
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usUSO",
+      "code": "USO",
+      "name": "美国原油基金",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 136.74,
+      "allocationPct": 8,
+      "eventTitle": "油价与地缘风险扰动",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-04-usUSO-供需/地缘",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 133.02,
+      "pnlPct": -2.72049144361562,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usSMH",
+      "code": "SMH",
+      "name": "半导体ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 612.96,
+      "allocationPct": 8,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 6,
+      "id": "2026-06-04-usSMH-资金行为",
+      "entryDate": "2026-06-04",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 569.69,
+      "pnlPct": -7.059188201513962,
+      "ageDays": 2,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 2.38
+        }
+      }
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.87,
+      "allocationPct": 8,
+      "eventTitle": "海外事件进入模型观察",
+      "eventType": "基本面类",
+      "score": 6,
+      "id": "2026-06-04-hk03033-基本面类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 4.786,
+      "pnlPct": -1.7248459958932343,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": -1.19
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 734.74,
+      "allocationPct": 8,
+      "eventTitle": "海外事件进入模型观察",
+      "eventType": "基本面类",
+      "score": 6,
+      "id": "2026-06-04-usQQQ-基本面类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 705.06,
+      "pnlPct": -4.039524185426146,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0.8
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 407.87,
+      "allocationPct": 8,
+      "eventTitle": "“加息噩梦”愈发近了？美联储票委：或许就在今年晚...",
+      "eventType": "宏观类",
+      "score": 6,
+      "id": "2026-06-04-usGLD-宏观类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 396.24,
+      "pnlPct": -2.851398729987495,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0.83
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
     },
     {
       "symbol": "sh511010",
@@ -204,21 +505,685 @@
       "name": "国债ETF",
       "market": "A股",
       "kind": "ETF",
-      "entryPrice": 141.48,
-      "allocationPct": 10,
-      "eventTitle": "欧洲股市反弹，资金等待通胀数据确认",
+      "entryPrice": 141.504,
+      "allocationPct": 8,
+      "eventTitle": "“加息噩梦”愈发近了？美联储票委：或许就在今年晚...",
       "eventType": "宏观类",
-      "score": 9,
-      "id": "2026-06-02-sh511010-宏观类",
-      "entryDate": "2026-06-02",
-      "status": "观察中",
+      "score": 6,
+      "id": "2026-06-04-sh511010-宏观类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 141.5,
+      "pnlPct": -0.0028267752148283284,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": -0.01
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usXLE",
+      "code": "XLE",
+      "name": "能源ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 58.71,
+      "allocationPct": 8,
+      "eventTitle": "油价与地缘风险扰动",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-04-usXLE-供需/地缘",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 57.67,
+      "pnlPct": -1.7714188383580294,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0.07
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 407.87,
+      "allocationPct": 8,
+      "eventTitle": "油价与地缘风险扰动",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-04-usGLD-供需/地缘",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 396.24,
+      "pnlPct": -2.851398729987495,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0.83
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 141.493,
+      "allocationPct": 8,
+      "eventTitle": "油价与地缘风险扰动",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-04-sh511010-供需/地缘",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 141.5,
+      "pnlPct": 0.004947241206282291,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usSHV",
+      "code": "SHV",
+      "name": "短债ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 110.08,
+      "allocationPct": 8,
+      "eventTitle": "消息人士：日本央行考虑6月加息 并可能今年晚些时...",
+      "eventType": "宏观类",
+      "score": 6,
+      "id": "2026-06-04-usSHV-宏观类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 110.12,
+      "pnlPct": 0.03633720930233126,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0.01
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 25.56,
+      "allocationPct": 10,
+      "eventTitle": "人工智能公司竞争对手推进上市计划 软银股价在近期...",
+      "eventType": "基本面类",
+      "score": 7,
+      "id": "2026-06-04-hk02800-基本面类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 25.28,
+      "pnlPct": -1.0954616588419313,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": -0.7
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "sh512880",
+      "code": "512880",
+      "name": "证券ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.022,
+      "allocationPct": 10,
+      "eventTitle": "人工智能公司竞争对手推进上市计划 软银股价在近期...",
+      "eventType": "基本面类",
+      "score": 7,
+      "id": "2026-06-04-sh512880-基本面类",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 1.016,
+      "pnlPct": -0.5870841487279849,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 0.1
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.874,
+      "allocationPct": 10,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 8,
+      "id": "2026-06-04-hk03033-资金行为",
+      "entryDate": "2026-06-04",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 4.786,
+      "pnlPct": -1.8054985638079624,
+      "ageDays": 1,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": -1.27
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 141.464,
+      "allocationPct": 10,
+      "eventTitle": "6月4日外盘头条：美伊紧张局势再度加剧 太空公司...",
+      "eventType": "宏观类",
+      "score": 7,
+      "id": "2026-06-03-sh511010-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "复盘中",
       "capital": 100000,
       "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 141.48,
-      "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "currentValue": 10002.54481705593,
+      "currentPrice": 141.5,
+      "pnlPct": 0.025448170559295203,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 0.02
+        },
+        "d3": {
+          "date": "2026-06-06",
+          "pnlPct": 0.03
+        }
+      }
+    },
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 744.21,
+      "allocationPct": 8,
+      "eventTitle": "马斯克的太空公司拟通过史上最大上市筹资750亿美...",
+      "eventType": "基本面类",
+      "score": 5,
+      "id": "2026-06-03-usQQQ-基本面类",
+      "entryDate": "2026-06-03",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 705.06,
+      "pnlPct": -5.260611924053706,
+      "ageDays": 2,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 0
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "sh512760",
+      "code": "512760",
+      "name": "芯片ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.158,
+      "allocationPct": 10,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 8,
+      "id": "2026-06-03-sh512760-资金行为",
+      "entryDate": "2026-06-03",
+      "status": "复盘中",
+      "capital": 100000,
+      "entryValue": 10000,
+      "currentValue": 9680.483592400691,
+      "currentPrice": 1.121,
+      "pnlPct": -3.1951640759930853,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 1.99
+        },
+        "d3": {
+          "date": "2026-06-06",
+          "pnlPct": -3.2
+        }
+      }
+    },
+    {
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 141.464,
+      "allocationPct": 10,
+      "eventTitle": "油价暴涨引发“卖金救市”猜想？印度央行强硬自证：...",
+      "eventType": "供需/地缘",
+      "score": 8,
+      "id": "2026-06-03-sh511010-供需/地缘",
+      "entryDate": "2026-06-03",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 141.5,
+      "pnlPct": 0.025448170559295203,
+      "ageDays": 2,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 0.02
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usSHV",
+      "code": "SHV",
+      "name": "短债ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 110.08,
+      "allocationPct": 10,
+      "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
+      "eventType": "宏观类",
+      "score": 10,
+      "id": "2026-06-03-usSHV-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 110.12,
+      "pnlPct": 0.03633720930233126,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 0
+        }
+      }
+    },
+    {
+      "symbol": "sh512880",
+      "code": "512880",
+      "name": "证券ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.035,
+      "allocationPct": 10,
+      "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
+      "eventType": "宏观类",
+      "score": 10,
+      "id": "2026-06-03-sh512880-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "复盘中",
+      "capital": 100000,
+      "entryValue": 10000,
+      "currentValue": 9816.425120772949,
+      "currentPrice": 1.016,
+      "pnlPct": -1.8357487922705222,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": -1.26
+        },
+        "d3": {
+          "date": "2026-06-06",
+          "pnlPct": -1.84
+        }
+      }
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.95,
+      "allocationPct": 10,
+      "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
+      "eventType": "宏观类",
+      "score": 10,
+      "id": "2026-06-03-hk03033-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "复盘中",
+      "capital": 100000,
+      "entryValue": 10000,
+      "currentValue": 9668.686868686867,
+      "currentPrice": 4.786,
+      "pnlPct": -3.3131313131313247,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": -1.54
+        },
+        "d3": {
+          "date": "2026-06-06",
+          "pnlPct": -3.31
+        }
+      }
+    },
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 411.95,
+      "allocationPct": 10,
+      "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
+      "eventType": "宏观类",
+      "score": 10,
+      "id": "2026-06-03-usGLD-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 396.24,
+      "pnlPct": -3.8135696079621266,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": -0.99
+        }
+      }
+    },
+    {
+      "symbol": "sh512880",
+      "code": "512880",
+      "name": "证券ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.033,
+      "allocationPct": 8,
+      "eventTitle": "高盛上调韩国股市目标点位 维持对A股的“超配”评...",
+      "eventType": "政策类",
+      "score": 6,
+      "id": "2026-06-03-sh512880-政策类",
+      "entryDate": "2026-06-03",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 1.016,
+      "pnlPct": -1.6456921587608815,
+      "ageDays": 2,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": -1.06
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "sz159928",
+      "code": "159928",
+      "name": "消费ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 0.665,
+      "allocationPct": 8,
+      "eventTitle": "英国议员呼吁英国央行放宽对稳定币的拟议监管规定",
+      "eventType": "政策类",
+      "score": 6,
+      "id": "2026-06-03-sz159928-政策类",
+      "entryDate": "2026-06-03",
+      "status": "复盘中",
+      "capital": 100000,
+      "entryValue": 8000,
+      "currentValue": 7915.78947368421,
+      "currentPrice": 0.658,
+      "pnlPct": -1.0526315789473693,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": -0.15
+        },
+        "d3": {
+          "date": "2026-06-06",
+          "pnlPct": -1.05
+        }
+      }
+    },
+    {
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 25.9,
+      "allocationPct": 8,
+      "eventTitle": "英国议员呼吁英国央行放宽对稳定币的拟议监管规定",
+      "eventType": "政策类",
+      "score": 6,
+      "id": "2026-06-03-hk02800-政策类",
+      "entryDate": "2026-06-03",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 25.28,
+      "pnlPct": -2.393822393822384,
+      "ageDays": 2,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": -1.31
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 4.966,
+      "allocationPct": 10,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 9,
+      "id": "2026-06-03-hk03033-资金行为",
+      "entryDate": "2026-06-03",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 4.786,
+      "pnlPct": -3.6246476037052076,
+      "ageDays": 2,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": -1.85
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 411.95,
+      "allocationPct": 8,
+      "eventTitle": "刚刚，全线暴跌，超25万人爆仓！中东突发：科威特...",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-03-usGLD-供需/地缘",
+      "entryDate": "2026-06-03",
+      "status": "重复剔除",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 396.24,
+      "pnlPct": -3.8135696079621266,
+      "ageDays": 2,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": -0.99
+        }
+      },
+      "excludedReason": "10日冷却期内重复信号"
+    },
+    {
+      "symbol": "usUSO",
+      "code": "USO",
+      "name": "美国原油基金",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 137.27,
+      "allocationPct": 8,
+      "eventTitle": "刚刚，全线暴跌，超25万人爆仓！中东突发：科威特...",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-03-usUSO-供需/地缘",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 133.02,
+      "pnlPct": -3.0960880017483787,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 2.62
+        }
+      }
+    },
+    {
+      "symbol": "usXLE",
+      "code": "XLE",
+      "name": "能源ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 57.96,
+      "allocationPct": 8,
+      "eventTitle": "刚刚，全线暴跌，超25万人爆仓！中东突发：科威特...",
+      "eventType": "供需/地缘",
+      "score": 5,
+      "id": "2026-06-03-usXLE-供需/地缘",
+      "entryDate": "2026-06-03",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 57.67,
+      "pnlPct": -0.5003450655624554,
+      "ageDays": 3,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 1.29
+        }
+      }
+    },
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 744.67,
+      "allocationPct": 8,
+      "eventTitle": "消息人士：太空公司冲刺史上最大上市，含绿鞋期权目...",
+      "eventType": "基本面类",
+      "score": 5,
+      "id": "2026-06-02-usQQQ-基本面类",
+      "entryDate": "2026-06-02",
+      "status": "复盘中",
+      "capital": 100000,
+      "entryValue": 8000,
+      "currentValue": 7574.469227980179,
+      "currentPrice": 705.06,
+      "pnlPct": -5.319134650247763,
+      "ageDays": 4,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0.2
+        },
+        "d3": {
+          "date": "2026-06-05",
+          "pnlPct": -0.55
+        }
+      }
     },
     {
       "symbol": "hk02800",
@@ -227,42 +1192,29 @@
       "market": "港股",
       "kind": "ETF",
       "entryPrice": 26.32,
-      "allocationPct": 10,
-      "eventTitle": "欧洲股市反弹，资金等待通胀数据确认",
-      "eventType": "宏观类",
-      "score": 9,
-      "id": "2026-06-02-hk02800-宏观类",
+      "allocationPct": 8,
+      "eventTitle": "Pimco：人工智能尚未构成“久期供给冲击” 当...",
+      "eventType": "政策类",
+      "score": 6,
+      "id": "2026-06-02-hk02800-政策类",
       "entryDate": "2026-06-02",
-      "status": "观察中",
+      "status": "复盘中",
       "capital": 100000,
-      "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 26.32,
-      "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
-    },
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 411.26,
-      "allocationPct": 10,
-      "eventTitle": "欧洲股市反弹，资金等待通胀数据确认",
-      "eventType": "宏观类",
-      "score": 9,
-      "id": "2026-06-02-usGLD-宏观类",
-      "entryDate": "2026-06-02",
-      "status": "观察中",
-      "capital": 100000,
-      "entryValue": 10000,
-      "currentValue": 10000,
-      "currentPrice": 411.26,
-      "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
+      "entryValue": 8000,
+      "currentValue": 7683.890577507599,
+      "currentPrice": 25.28,
+      "pnlPct": -3.9513677811550116,
+      "ageDays": 4,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        },
+        "d3": {
+          "date": "2026-06-05",
+          "pnlPct": -3.57
+        }
+      }
     }
   ],
   "note": "纸面模拟盘自动记录模型信号，不构成真实投资建议。"
