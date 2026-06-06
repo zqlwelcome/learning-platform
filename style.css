@@ -2719,3 +2719,87 @@ body {
     color: var(--primary);
     font-weight: 500;
 }
+
+/* ===== 课程代码块样式 ===== */
+.code-block {
+    margin: 12px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+.code-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background: #1e1e1e;
+    cursor: pointer;
+}
+.code-lang {
+    font-size: 12px;
+    color: #9da5b4;
+    font-family: var(--ff-mono);
+}
+.code-actions {
+    display: flex;
+    gap: 8px;
+}
+.code-copy-btn, .code-toggle-btn {
+    background: none;
+    border: none;
+    color: #9da5b4;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.code-copy-btn:hover, .code-toggle-btn:hover {
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+}
+.code-body {
+    background: #282c34;
+    padding: 12px 16px;
+    overflow-x: auto;
+    max-height: 300px;
+    transition: max-height 0.3s ease;
+}
+.code-body.collapsed {
+    max-height: 0;
+    padding: 0 16px;
+}
+.code-body pre {
+    margin: 0;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #abb2bf;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.code-body code {
+    font-family: inherit;
+}
+/* 语法高亮 */
+.code-body .keyword { color: #c678dd; }
+.code-body .string { color: #98c379; }
+.code-body .comment { color: #5c6370; font-style: italic; }
+.code-body .function { color: #61afef; }
+.code-body .number { color: #d19a66; }
+
+/* 课程内容链接样式 */
+.lesson-content a {
+    color: var(--primary);
+    text-decoration: none;
+}
+.lesson-content a:hover {
+    text-decoration: underline;
+}
+/* 课程内容代码内联 */
+.lesson-content code {
+    background: rgba(0,113,227,0.08);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: var(--ff-mono);
+    font-size: 13px;
+}
