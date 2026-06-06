@@ -1,52 +1,25 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-06T12:19:15.927Z",
+  "updateTime": "2026-06-06T12:20:28.374Z",
   "macro": {
     "rateUp": true,
-    "rateDown": false,
+    "rateDown": true,
     "oilShock": true,
     "aiCapex": true,
     "riskOff": true,
     "chinaSupport": true,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认"
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认 / 利率下行利好长久期资产"
   },
   "candidates": [
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 9
-    },
     {
       "symbol": "hk03033",
       "code": "3033",
       "name": "恒生科技ETF",
       "market": "港股",
       "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 9
-    },
-    {
-      "symbol": "sh511010",
-      "code": "511010",
-      "name": "国债ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 9
-    },
-    {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
-      "market": "港股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 9
+      "eventType": "政策类",
+      "score": 8
     },
     {
       "symbol": "sz159928",
@@ -54,8 +27,8 @@
       "name": "消费ETF",
       "market": "A股",
       "kind": "ETF",
-      "eventType": "基本面类",
-      "score": 7
+      "eventType": "政策类",
+      "score": 8
     },
     {
       "symbol": "sh512880",
@@ -64,6 +37,51 @@
       "market": "A股",
       "kind": "ETF",
       "eventType": "政策类",
+      "score": 8
+    },
+    {
+      "symbol": "usQQQ",
+      "code": "QQQ",
+      "name": "纳指100ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "资金行为",
+      "score": 7
+    },
+    {
+      "symbol": "usXLK",
+      "code": "XLK",
+      "name": "科技精选ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "资金行为",
+      "score": 7
+    },
+    {
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "eventType": "基本面类",
+      "score": 6
+    },
+    {
+      "symbol": "usGLD",
+      "code": "GLD",
+      "name": "黄金ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "eventType": "宏观类",
+      "score": 6
+    },
+    {
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "eventType": "宏观类",
       "score": 6
     }
   ],
@@ -77,8 +95,8 @@
     "reviewedCount": 0,
     "winRate": null,
     "avgPnl": null,
-    "equity": 98342.28967808843,
-    "exposurePct": 64,
+    "equity": 98277.04213978462,
+    "exposurePct": 66,
     "alerts": 0
   },
   "phaseStats": [
@@ -87,14 +105,14 @@
       "label": "1日",
       "samples": 7,
       "winRate": 43,
-      "avg": -0.10571428571428575
+      "avg": -0.24714285714285716
     },
     {
       "key": "d3",
       "label": "3日",
-      "samples": 7,
-      "winRate": 14,
-      "avg": -1.9271428571428575
+      "samples": 6,
+      "winRate": 17,
+      "avg": -1.6533333333333335
     },
     {
       "key": "d10",
@@ -105,6 +123,28 @@
     }
   ],
   "trades": [
+    {
+      "symbol": "usXLK",
+      "code": "XLK",
+      "name": "科技精选ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 180.3,
+      "allocationPct": 10,
+      "eventTitle": "泡沫破裂？美股芯片板块蒸发1.3万亿美元，费城半...",
+      "eventType": "资金行为",
+      "score": 7,
+      "id": "2026-06-06-usXLK-资金行为",
+      "entryDate": "2026-06-06",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 180.3,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
     {
       "symbol": "sz159928",
       "code": "159928",
@@ -943,10 +983,10 @@
       "score": 10,
       "id": "2026-06-03-usGLD-宏观类",
       "entryDate": "2026-06-03",
-      "status": "仓位等待",
+      "status": "复盘中",
       "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
+      "entryValue": 10000,
+      "currentValue": 9618.643039203787,
       "currentPrice": 396.24,
       "pnlPct": -3.8135696079621266,
       "ageDays": 3,
@@ -1182,37 +1222,6 @@
         "d3": {
           "date": "2026-06-05",
           "pnlPct": -0.55
-        }
-      }
-    },
-    {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
-      "market": "港股",
-      "kind": "ETF",
-      "entryPrice": 26.32,
-      "allocationPct": 8,
-      "eventTitle": "Pimco：人工智能尚未构成“久期供给冲击” 当...",
-      "eventType": "政策类",
-      "score": 6,
-      "id": "2026-06-02-hk02800-政策类",
-      "entryDate": "2026-06-02",
-      "status": "复盘中",
-      "capital": 100000,
-      "entryValue": 8000,
-      "currentValue": 7683.890577507599,
-      "currentPrice": 25.28,
-      "pnlPct": -3.9513677811550116,
-      "ageDays": 4,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-03",
-          "pnlPct": 0
-        },
-        "d3": {
-          "date": "2026-06-05",
-          "pnlPct": -3.57
         }
       }
     }
