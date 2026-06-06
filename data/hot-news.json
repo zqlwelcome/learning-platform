@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 02:01",
+  "updateTime": "2026-06-07 02:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "芯片股恐慌性反弹结束，VIX飙升",
-        "assets": "📉 芯片股 利空；📈 VIX（恐慌指数） 利多",
-        "chain": "避险情绪升温，资金从科技股流向防御板块（公用事业等），美债收益率可能下行",
-        "watch": "今晚美债收益率曲线变化，以及芯片龙头财报"
+        "what": "芯片股暴跌，恐慌指数VIX飙升",
+        "assets": "📉 美股芯片股 承压；📈 VIX恐慌指数 利好",
+        "chain": "波动率飙升触发量化基金（程序化交易）去杠杆，可能引发连锁抛售",
+        "watch": "VIX是否突破20关口，芯片股是否企稳"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX创纪录IPO，A股供应商曝光",
-        "assets": "📈 SpaceX概念股（A股） 利好",
-        "chain": "市场炒作供应链逻辑，可能带动军工和商业航天板块（高风险高波动）估值重估",
-        "watch": "A股航天概念板块开盘量能，以及SpaceX招股书细节"
+        "what": "SpaceX创纪录IPO，A股供应商受益",
+        "assets": "📈 A股航空航天（供应商） 利好",
+        "chain": "SpaceX估值提升带动全球航天板块估值重估（估值上修），A股供应链公司获订单预期",
+        "watch": "SpaceX IPO定价及首日涨幅，A股相关个股成交量"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX为创纪录IPO预留散户配售份额",
-        "assets": "📈 散户交易平台（如Robinhood） 利好；📈 商业航天ETF 利好",
-        "chain": "散户参与度提高，可能推高首日溢价（开盘涨幅），但增加波动性（散户情绪驱动）",
-        "watch": "IPO定价日散户申购倍数，以及首日换手率"
+        "what": "SpaceX为散户预留IPO份额",
+        "assets": "📈 美股IPO市场 情绪提振；📈 散户交易平台 利好",
+        "chain": "散户参与度提升推高IPO首日溢价（上市首日涨幅），但增加波动性风险",
+        "watch": "散户申购倍数及首日换手率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "史上最大IPO突发拒绝纳入指数",
-        "assets": "📉 该IPO标的 利空；📈 指数基金 中性",
-        "chain": "被动资金无法配置，减少买盘压力，但可能促使指数调整规则（如加速纳入）",
-        "watch": "交易所官方声明及指数编制机构是否修改规则"
+        "what": "史上最大IPO被拒绝纳入（指数）",
+        "assets": "📉 该IPO标的 承压；📉 相关指数基金 中性偏空",
+        "chain": "被动资金（跟踪指数的基金）无法买入，流动性下降，估值折价（价格偏低）",
+        "watch": "该股上市后机构持仓比例"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "比特币暴跌，但华尔街新加密热潮兴起",
-        "assets": "📉 比特币 承压；📈 以太坊/机构级加密资产 利好",
-        "chain": "资金从散户币（比特币）转向合规资产（如以太坊ETF），监管风险分化（SEC态度）",
-        "watch": "CME（芝加哥商品交易所）以太坊期货持仓量，以及SEC（美国证监会）表态"
+        "what": "比特币暴跌，华尔街新加密热点兴起",
+        "assets": "📉 比特币 承压；📈 华尔街加密ETF 结构性利好",
+        "chain": "资金从比特币流出转向合规加密产品（如ETF），机构化趋势加速",
+        "watch": "比特币ETF资金流入/流出数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "花旗坚持押注美联储今年降息",
-        "assets": "📈 美债 利好；📉 美元 承压",
-        "chain": "市场预期分化，若降息落空，短端利率（2年期国债）可能急升，触发风险资产回调",
-        "watch": "本周美联储官员讲话，以及CPI（消费者物价指数）数据发布"
+        "what": "仅花旗坚持预测美联储今年降息",
+        "assets": "📉 美债 承压；📈 美元 利好",
+        "chain": "市场降息预期（借钱成本降低的预期）消退，高利率维持更久压制风险资产（股票等）",
+        "watch": "本周美联储官员讲话及CPI数据"
       }
     },
     {
@@ -111,9 +111,9 @@
     },
     {
       "rank": 10,
-      "title": "Abel goes his own way with new Berkshire investments, including billions for AI",
+      "title": "White House AI policy adviser Krishnan to leave position",
       "source": "CNBC",
-      "detail": "Warren Buffett tells CNBC's Becky Quick new Berkshire Hathaway CEO Greg Abel has \"launched\" with his first major deal.",
+      "detail": "Krishnan has been involved in Trump administration efforts to create a national framework for regulating AI developments.",
       "lang": "en",
       "score": 20
     }
