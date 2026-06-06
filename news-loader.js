@@ -33,14 +33,14 @@ function toggleAlert(type) {
 async function loadHotNews(forceRefresh = false) {
     const el = document.getElementById('hotNewsList');
     if (!el) return;
-    
+
     if (!forceRefresh && newsCache.length > 0 && (Date.now() - lastRefreshTime) < REFRESH_INTERVAL) {
         renderNewsList(newsCache);
         return;
     }
-    
+
     el.innerHTML = '<div class="empty-hint" style="text-align:center;padding:20px;font-size:14px;">正在打捞今天的财经热闹...</div>';
-    
+
     try {
         const data = await xhrFetch();
         if (data && data.news && data.news.length > 0) {
@@ -54,7 +54,7 @@ async function loadHotNews(forceRefresh = false) {
     } catch(e) {
         console.log('加载新闻失败:', e);
     }
-    
+
     const cached = localStorage.getItem('hot_news_cache');
     if (cached) {
         try {
@@ -66,7 +66,7 @@ async function loadHotNews(forceRefresh = false) {
             }
         } catch(e) {}
     }
-    
+
     if (newsCache.length === 0) {
         el.innerHTML = '<div class="empty-hint" style="text-align:center;padding:20px;">今天新闻暂时请假了，先喝口水。</div>';
     }
@@ -102,7 +102,7 @@ async function loadAlerts(forceRefresh = false) {
         renderAlerts(alertsCache);
         return;
     }
-    
+
     try {
         const data = await xhrFetchAlerts();
         if (data) {
@@ -189,7 +189,8 @@ function prepareNewsList(news) {
     });
 
     const seenTitles = new Set();
-    return Array.from(unique.values()).sort((a, b) => b._rankScore - a._rankScore)
+    const sorted = Array.from(unique.values()).sort((a, b) => b._rankScore - a._rankScore);
+    return diversifyNewsList(sorted)
         .filter(item => {
             const titleKey = normalizeTitleKey(getNewsDisplay(item).title);
             if (seenTitles.has(titleKey)) return false;
@@ -201,7 +202,7 @@ function prepareNewsList(news) {
 
 function isAllowedTopNews(item) {
     const raw = `${item.title || ''} ${item.titleZh || ''} ${item.detail || ''} ${item.source || ''}`.toLowerCase();
-    const isMarket = /财经|金融|证券|股|债|基金|银行|央行|美联储|利率|通胀|衰退|经济|估值|回购|英伟达|芯片|人工智能|数据中心|上市|gdp|pmi|market|stock|shares|s&p|nasdaq|dow|treasury|yield|bond|central bank|fed|inflation|recession|economy|oil|gold|commodity|earnings|valuation|buyback|ipo|invest|wall street|barclays|nvidia|ibm|openai|data center|ai/.test(raw);
+    const isMarket = /财经|金融|证券|股|债|基金|银行|央行|美联储|利率|通胀|衰退|经济|估值|回购|英伟达|芯片|人工智能|数据中心|上市|gdp|pmi|market|stock|shares|s&p|nasdaq|dow|treasury|yield|bond|central bank|fed|inflation|recession|economy|oil|gold|commodity|earnings|valuation|buyback|ipo|invest|wall street|barclays|nvidia|ibm|openai|data center|\bai\b/.test(raw);
     const isLaw = /法律|法规|条例|监管|起诉|诉讼|合规|检察长|司法|证交会|sec|antitrust|lawsuit|regulation|regulatory|attorney general/.test(raw);
     const isGeo = /地缘|伊朗|以色列|黎巴嫩|停火|霍尔木兹|真主党|战争|冲突|制裁|iran|israel|lebanon|ceasefire|hezbollah|hormuz|war|conflict|sanction/.test(raw);
     const isNoise = /celebrity|sports|movie|music|game|gossip|娱乐|体育|影视|明星/.test(raw);
@@ -310,15 +311,7 @@ function getNewsEventKey(item, display) {
     if (/florida.*openai|佛罗里达州总检察长/.test(text)) return 'florida-openai-lawsuit';
     if (/黎巴嫩议会议长.*真主党.*停火|hezbollah.*ceasefire|lebanon.*ceasefire/.test(text)) return 'lebanon-ceasefire';
     if (/bankofamerica|美银|nvidiaandapple|英伟达苹果/.test(text)) return 'bofa-nvidia-apple';
-    if (/softbank|软银|france|法国|75bn|75billion|人工智能facility/.test(text)) return 'softbank-ai-france';
-    if (/spacex|太空公司|太空概念|马斯克/.test(text)) return 'spacex-listing';
-    if (/openai|chatgpt|人工智能公司|聊天机器人|广告商业化/.test(text)) return 'openai-commercial';
     if (/micron|美光|overbought|超买/.test(text)) return 'micron-overbought';
-    if (/topwallstreetanalysts|wallstreetanalysts/.test(text)) return 'analyst-stock-picks';
-    if (/threeas|economyafloat|recession|经济衰退/.test(text)) return 'us-economy-resilience';
-    if (/nokiadellcisco|nokia|cisco|老牌科技/.test(text)) return 'legacy-tech-ai';
-    if (/油价|原油|oil|opec|伊朗|iran/.test(text)) return 'oil-geopolitics';
-    if (/a股|董秘|上市公司治理|证监会/.test(text)) return 'a-share-governance';
     if (/defensespending|shangrila|香格里拉|ukraine|乌克兰/.test(text)) return 'shangri-la-defense';
     // 用完整标题做key，避免不同新闻被意外合并
     return normalizeTitleKey(display.title) || text;
@@ -340,9 +333,9 @@ function renderNewsList(news) {
     const el = document.getElementById('hotNewsList');
     if (!el) return;
     updateHeadlineBrief(news);
-    
+
     const displayNews = _newsAllShown ? news : news.slice(0, 3);
-    
+
     let html = displayNews.map((item, index) => {
         const display = getNewsDisplay(item);
         const insight = getNewsInsight(item, display);
@@ -364,7 +357,7 @@ function renderNewsList(news) {
             <div class="news-arrow">›</div>
         </div>`;
     }).join('');
-    
+
     // 展开/收起按钮
     if (news.length > 3) {
         html += `
@@ -374,7 +367,7 @@ function renderNewsList(news) {
             </button>
         </div>`;
     }
-    
+
     el.innerHTML = html;
     localStorage.setItem('hot_news_cache', JSON.stringify(news.map(stripNewsRuntimeFields)));
 }
@@ -434,6 +427,17 @@ function getNewsDisplay(item) {
 }
 
 function getNewsInsight(item, display) {
+    // 优先使用AI生成的交易员视角解读
+    if (item.insight && item.insight.what) {
+        const lines = [];
+        lines.push(`📰 ${item.insight.what}`);
+        if (item.insight.assets) lines.push(`📊 ${item.insight.assets}`);
+        if (item.insight.chain) lines.push(`🔗 ${item.insight.chain}`);
+        if (item.insight.watch) lines.push(`👁️ 下一步：${item.insight.watch}`);
+        return lines;
+    }
+
+    // fallback到模板解读
     const text = getFullNewsText(item, display);
     const happened = `发生了什么：${shortText(display.detail, 78)}`;
     const lens = getTraderLens(item, display);
