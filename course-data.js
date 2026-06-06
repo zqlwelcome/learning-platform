@@ -1250,82 +1250,410 @@ for r in results:
       {
         id: 'eng-6',
         title: 'RAG系统架构设计',
-        time: '15分钟',
+        time: '20分钟',
         content: `
         <div class="block">
           <div class="lesson-goal">🎯 本节目标：理解RAG完整架构，能设计企业级方案</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>RAG = Retrieval + Augmentation + Generation</strong></p>
-          <p>1. 数据层 - 文档解析、切分、Embedding</p>
-          <p>2. 检索层 - 向量检索、关键词检索、混合检索</p>
-          <p>3. 增强层 - Prompt组装、上下文管理</p>
-          <p>4. 生成层 - LLM生成回答</p>
-          <p><strong>架构选型：</strong></p>
-          <p>• 简单RAG - 适合MVP和验证</p>
-          <p>• 高级RAG - 加入重排序、查询改写</p>
-          <p>• 模块化RAG - 可插拔组件，灵活扩展</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 理解RAG流程</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">架构</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>用户提问
+    ↓
+[查询改写] → 优化用户问题
+    ↓
+[混合检索] → 向量检索 + 关键词检索
+    ↓
+[重排序] → Cross-encoder精排
+    ↓
+[Prompt组装] → 系统提示 + 检索结果 + 用户问题
+    ↓
+[LLM生成] → 大模型生成回答
+    ↓
+[来源引用] → 显示答案来源</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 简单RAG实现（LangChain）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_community.vectorstores import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.chains import RetrievalQA
+
+# 1. 准备文档
+documents = [
+    "公司年假制度：入职满1年享有5天年假，满5年10天，满10年15天。",
+    "报销流程：登录OA系统 -> 填写报销单 -> 上传发票 -> 提交审批。",
+    "加班政策：工作日加班1.5倍工资，周末2倍，法定假日3倍。",
+]
+
+# 2. 文档切分
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=200,
+    chunk_overlap=50
+)
+splits = text_splitter.create_documents(documents)
+
+# 3. 创建向量数据库
+embeddings = OpenAIEmbeddings()
+vectorstore = Chroma.from_documents(splits, embeddings)
+
+# 4. 创建RAG链
+llm = ChatOpenAI(model="gpt-4o-mini")
+qa_chain = RetrievalQA.from_chain_type(
+    llm=llm,
+    retriever=vectorstore.as_retriever(search_kwargs={"k": 2}),
+    return_source_documents=True
+)
+
+# 5. 提问
+result = qa_chain.invoke({"query": "公司年假有多少天？"})
+print("回答:", result["result"])
+print("来源:", [doc.page_content[:50] for doc in result["source_documents"]])</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 添加来源引用</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 自定义Prompt添加来源引用
+from langchain.prompts import PromptTemplate
+
+prompt_template = """基于以下参考资料回答问题。如果参考资料中没有相关信息，请说"我无法从提供的资料中找到答案"。
+
+参考资料：
+{context}
+
+问题：{question}
+
+回答要求：
+1. 直接回答问题
+2. 在回答末尾标注来源（如：[来源1]）
+3. 保持简洁专业"""
+
+prompt = PromptTemplate(
+    template=prompt_template,
+    input_variables=["context", "question"]
+)</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: RAG和微调怎么选？</strong></p>
+          <p>A: 知识更新频繁用RAG，固定知识用微调，两者可结合。</p>
+          <p><strong>Q: 检索结果不相关怎么办？</strong></p>
+          <p>A: 优化切分策略、使用混合检索、添加重排序。</p>
+          <p><strong>Q: 如何处理多轮对话？</strong></p>
+          <p>A: 使用ConversationBufferMemory或自行管理历史。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://python.langchain.com/docs/tutorials/rag" target="_blank">LangChain RAG教程</a></p>
+          <p>• <a href="https://github.com/langchain-ai/rag-from-scratch" target="_blank">RAG from Scratch教程</a></p>
+          <p>• <a href="https://docs.llamaindex.ai/en/stable/understanding/rag/" target="_blank">LlamaIndex RAG文档</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>画出一个企业知识库RAG系统的架构图，标注每个组件的技术选型。</p>
+          <p>用LangChain实现一个简单的RAG问答系统，支持3个文档的检索问答。</p>
         </div>
         `
       },
       {
         id: 'eng-7',
         title: '文档解析与切分策略',
-        time: '18分钟',
+        time: '22分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握各种文档格式的解析和智能切分</div>
+          <div class="lesson-goal">🎯 本节目标：掌握各种文档格式解析和智能切分策略</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>文档格式处理：</strong></p>
-          <p>• PDF - PyPDF2 / pdfplumber / Unstructured</p>
-          <p>• Word - python-docx</p>
-          <p>• Excel - openpyxl / pandas</p>
-          <p>• 网页 - BeautifulSoup / Trafilatura</p>
-          <p><strong>切分策略：</strong></p>
-          <p>• 固定长度切分 - 简单但语义断裂</p>
-          <p>• 递归字符切分 - LangChain默认</p>
-          <p>• 语义切分 - 按语义边界切分</p>
-          <p>• 文档结构切分 - 按标题/段落切分</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: PDF解析</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>pip install pymupdf pdfplumber python-docx</code></pre>
+            </div>
+          </div>
+          
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import fitz  # PyMuPDF
+
+def parse_pdf(filepath):
+    doc = fitz.open(filepath)
+    text = ""
+    for page in doc:
+        text += page.get_text()
+    return text
+
+# 使用
+text = parse_pdf("report.pdf")
+print(f"提取了 {len(text)} 个字符")</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: Word解析</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from docx import Document
+
+def parse_docx(filepath):
+    doc = Document(filepath)
+    text = ""
+    for para in doc.paragraphs:
+        text += para.text + "\n"
+    return text</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 切分策略对比</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain.text_splitter import (
+    RecursiveCharacterTextSplitter,
+    CharacterTextSplitter
+)
+
+text = "这里是很长的文档内容..."
+
+# 方法1: 固定长度切分
+splitter1 = CharacterTextSplitter(chunk_size=200, chunk_overlap=0)
+chunks1 = splitter1.split_text(text)
+
+# 方法2: 递归字符切分（推荐）
+splitter2 = RecursiveCharacterTextSplitter(
+    chunk_size=200,
+    chunk_overlap=50,
+    separators=["\n\n", "\n", "。", "！", "？", "；", " "]
+)
+chunks2 = splitter2.split_text(text)
+
+# 方法3: 按段落切分
+splitter3 = CharacterTextSplitter(
+    chunk_size=500,
+    chunk_overlap=0,
+    separator="\n\n"
+)
+chunks3 = splitter3.split_text(text)
+
+print(f"方法1: {len(chunks1)} 块")
+print(f"方法2: {len(chunks2)} 块")
+print(f"方法3: {len(chunks3)} 块")</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: chunk_size设多大？</strong></p>
+          <p>A: 200-500字比较合适。太小语义断裂，太大检索不精准。</p>
+          <p><strong>Q: overlap设多大？</strong></p>
+          <p>A: 一般chunk_size的10%-20%，如chunk_size=500，overlap=50-100。</p>
+          <p><strong>Q: 扫描版PDF怎么处理？</strong></p>
+          <p>A: 使用OCR工具如Tesseract或PaddleOCR先识别文字。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://python.langchain.com/docs/how_to/document_loader_pdf" target="_blank">LangChain PDF加载器</a></p>
+          <p>• <a href="https://pymupdf.readthedocs.io/" target="_blank">PyMuPDF文档</a></p>
+          <p>• <a href="https://python.langchain.com/docs/how_to/recursive_text_splitter" target="_blank">文本切分器详解</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>解析一份PDF年报，用3种不同切分策略对比效果。</p>
+          <p>解析一份PDF文档，用3种切分策略对比效果，选出最优方案。</p>
         </div>
         `
       },
       {
         id: 'eng-8',
         title: '检索优化：混合检索+重排序',
-        time: '20分钟',
+        time: '25分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握检索优化技巧，提升RAG准确率</div>
+          <div class="lesson-goal">🎯 本节目标：掌握混合检索和重排序，显著提升RAG准确率</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>混合检索：</strong></p>
-          <p>• 向量检索 - 语义相似度</p>
-          <p>• 关键词检索 - BM25算法</p>
-          <p>• 混合策略 - RRF(Reciprocal Rank Fusion)</p>
-          <p><strong>重排序(Reranking)：</strong></p>
-          <p>• Cross-encoder - 精准但慢</p>
-          <p>• Cohere Rerank - 商业级</p>
-          <p>• BGE Reranker - 开源中文</p>
-          <p><strong>查询优化：</strong></p>
-          <p>• 查询改写 - 让用户查询更精准</p>
-          <p>• 查询扩展 - 增加召回</p>
-          <p>• HyDE - 用假设文档检索</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 混合检索实现</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain.retrievers import EnsembleRetriever
+from langchain_community.retrievers import BM25Retriever
+from langchain_openai import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
+
+# 准备文档
+docs = ["文档1内容...", "文档2内容...", "文档3内容..."]
+
+# 向量检索器
+embeddings = OpenAIEmbeddings()
+vectorstore = Chroma.from_texts(docs, embeddings)
+vector_retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+
+# BM25关键词检索器
+bm25_retriever = BM25Retriever.from_texts(docs)
+bm25_retriever.k = 3
+
+# 混合检索（权重可调）
+ensemble_retriever = EnsembleRetriever(
+    retrievers=[vector_retriever, bm25_retriever],
+    weights=[0.6, 0.4]  # 向量检索60%，关键词40%
+)
+
+# 查询
+results = ensemble_retriever.invoke("什么是机器学习")
+for doc in results:
+    print(doc.page_content[:50])</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 重排序（Reranking）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>pip install cohere  # 使用Cohere重排序</code></pre>
+            </div>
+          </div>
+          
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import cohere
+
+co = cohere.Client("your-api-key")
+
+def rerank(query, documents, top_n=3):
+    results = co.rerank(
+        query=query,
+        documents=documents,
+        top_n=top_n,
+        model="rerank-v3.5"
+    )
+    return [documents[r.index] for r in results.results]
+
+# 使用
+docs = ["文档1", "文档2", "文档3", "文档4"]
+reranked = rerank("什么是AI", docs)
+print("重排序结果:", reranked)</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 查询改写（HyDE）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain_openai import ChatOpenAI
+
+llm = ChatOpenAI(model="gpt-4o-mini")
+
+def hyde_search(query):
+    # 1. 让LLM生成假设性答案
+    hypothetical = llm.invoke(
+        f"请根据你的知识回答这个问题（不需要准确，只需给出可能的答案）：{query}"
+    ).content
+    
+    # 2. 用假设答案进行检索
+    results = vectorstore.similarity_search(hypothetical, k=3)
+    return results</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 混合检索权重怎么调？</strong></p>
+          <p>A: 语义搜索为主(0.6-0.7)，关键词为辅(0.3-0.4)，根据测试调整。</p>
+          <p><strong>Q: 重排序用哪个？</strong></p>
+          <p>A: Cohere效果最好但收费，BGE Reranker免费但效果稍差。</p>
+          <p><strong>Q: HyDE适合什么场景？</strong></p>
+          <p>A: 适合用户查询简短或模糊的场景。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://python.langchain.com/docs/how_to/hybrid" target="_blank">LangChain混合检索</a></p>
+          <p>• <a href="https://txt.dev/en/cohere-rerank" target="_blank">Cohere Rerank文档</a></p>
+          <p>• <a href="https://github.com/FlagOpen/FlagEmbedding" target="_blank">BGE Reranker GitHub</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>实现一个混合检索系统，对比纯向量检索和混合检索的准确率。</p>
+          <p>实现混合检索+重排序系统，对比纯向量检索的准确率提升。</p>
         </div>
         `
       },
