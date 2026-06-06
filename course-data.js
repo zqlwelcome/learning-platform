@@ -635,10 +635,10 @@ COURSES.push(
       {
         id: 'eng-1',
         title: 'Python AI开发环境搭建',
-        time: '10分钟',
+        time: '15分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：搭建完整的AI开发环境</div>
+          <div class="lesson-goal">🎯 本节目标：搭建完整的AI开发环境，跑通第一个AI程序</div>
         </div>
         <div class="block">
           <h4>📖 核心知识</h4>
@@ -646,44 +646,175 @@ COURSES.push(
           <p>1. Python 3.10+（推荐Anaconda管理环境）</p>
           <p>2. VS Code + Python/Copilot插件</p>
           <p>3. Git版本控制</p>
-          <p>4. Docker Desktop</p>
-          <p><strong>核心Python库：</strong></p>
-          <p>• openai / anthropic - 大模型API调用</p>
-          <p>• langchain / llama-index - AI应用框架</p>
-          <p>• chromadb / pinecone - 向量数据库</p>
-          <p>• fastapi / flask - API服务</p>
-          <p>• pandas / numpy - 数据处理</p>
+          <p>4. Docker Desktop（可选，后续部署用）</p>
+        </div>
+        <div class="block">
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 安装Anaconda</strong></p>
+          <p>访问 <a href="https://www.anaconda.com/download" target="_blank">anaconda.com</a> 下载安装</p>
+          <pre><code># 验证安装
+conda --version
+python --version</code></pre>
+          
+          <p><strong>Step 2: 创建AI开发环境</strong></p>
+          <pre><code># 创建专用环境
+conda create -n ai-dev python=3.11 -y
+conda activate ai-dev
+
+# 安装核心库
+pip install openai langchain chromadb fastapi pandas numpy
+pip install langchain-community langchain-openai</code></pre>
+          
+          <p><strong>Step 3: 配置API Key</strong></p>
+          <pre><code># 方法1: 环境变量（推荐）
+export OPENAI_API_KEY="sk-你的key"
+
+# 方法2: .env文件
+pip install python-dotenv
+# 创建 .env 文件，写入:
+# OPENAI_API_KEY=sk-你的key</code></pre>
+          
+          <p><strong>Step 4: 测试第一个AI程序</strong></p>
+          <pre><code># test_ai.py
+from openai import OpenAI
+client = OpenAI()
+
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": "用一句话介绍你自己"}]
+)
+print(response.choices[0].message.content)</code></pre>
+          
+          <pre><code># 运行
+python test_ai.py</code></pre>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: pip install 报错权限不足？</strong></p>
+          <p>A: 使用 <code>pip install --user 包名</code> 或创建虚拟环境</p>
+          <p><strong>Q: API Key 在哪获取？</strong></p>
+          <p>A: OpenAI: platform.openai.com/api-keys</p>
+          <p>A: DeepSeek: platform.deepseek.com</p>
+          <p><strong>Q: 网络问题无法安装？</strong></p>
+          <p>A: 使用国内镜像 <code>pip install -i https://pypi.tuna.tsinghua.edu.cn/simple 包名</code></p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://platform.openai.com/docs/quickstart" target="_blank">OpenAI官方快速入门</a></p>
+          <p>• <a href="https://python.langchain.com/docs/get_started/quickstart" target="_blank">LangChain快速入门</a></p>
+          <p>• <a href="https://www.bilibili.com/video/BV1hS421Q7xX" target="_blank">【B站】Python AI开发环境搭建教程</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>创建一个虚拟环境，安装上述所有库，并成功调用OpenAI API返回"Hello AI"。</p>
+          <p>完成以上步骤，成功运行 test_ai.py 并看到AI回复。</p>
         </div>
         `
       },
       {
         id: 'eng-2',
         title: '大模型API调用实战',
-        time: '15分钟',
+        time: '20分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握主流大模型API的调用方式</div>
+          <div class="lesson-goal">🎯 本节目标：掌握主流大模型API调用，实现流式输出和错误处理</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>主流API对比：</strong></p>
-          <p>• OpenAI API - GPT-4o/o3，最成熟</p>
-          <p>• Anthropic API - Claude 4，长文本强</p>
-          <p>• DeepSeek API - 国产性价比高</p>
-          <p>• 通义千问/文心一言 - 国内合规</p>
-          <p><strong>关键概念：</strong></p>
-          <p>• Token计算与成本控制</p>
-          <p>• Streaming流式输出</p>
-          <p>• Error handling与重试机制</p>
-          <p>• Rate limit与并发控制</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: OpenAI API 基础调用</strong></p>
+          <pre><code># openai_basic.py
+from openai import OpenAI
+client = OpenAI()
+
+# 普通调用
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": "你是一个专业的Python讲师"},
+        {"role": "user", "content": "解释什么是装饰器"}
+    ],
+    temperature=0.7,
+    max_tokens=500
+)
+print(response.choices[0].message.content)
+print(f"Token用量: {response.usage.total_tokens}")</code></pre>
+          
+          <p><strong>Step 2: 流式输出（用户体验更好）</strong></p>
+          <pre><code># streaming.py
+from openai import OpenAI
+client = OpenAI()
+
+stream = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": "写一首关于编程的诗"}],
+    stream=True
+)
+
+for chunk in stream:
+    if chunk.choices[0].delta.content:
+        print(chunk.choices[0].delta.content, end="")</code></pre>
+          
+          <p><strong>Step 3: DeepSeek API（国产替代，更便宜）</strong></p>
+          <pre><code># deepseek_example.py
+from openai import OpenAI
+
+# DeepSeek兼容OpenAI接口格式
+client = OpenAI(
+    api_key="你的deepseek-key",
+    base_url="https://api.deepseek.com"
+)
+
+response = client.chat.completions.create(
+    model="deepseek-chat",
+    messages=[{"role": "user", "content": "你好"}]
+)
+print(response.choices[0].message.content)</code></pre>
+          
+          <p><strong>Step 4: 错误处理和重试</strong></p>
+          <pre><code># robust_call.py
+import time
+from openai import OpenAI, APIError, RateLimitError
+
+client = OpenAI()
+
+def call_with_retry(prompt, max_retries=3):
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": prompt}]
+            )
+            return response.choices[0].message.content
+        except RateLimitError:
+            wait = 2 ** attempt  # 指数退避
+            print(f"限流，等待{wait}秒后重试...")
+            time.sleep(wait)
+        except APIError as e:
+            print(f"API错误: {e}")
+            return None
+    return None
+
+# 使用
+result = call_with_retry("Hello")
+print(result)</code></pre>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: Token怎么计算？</strong></p>
+          <p>A: 1个中文字≈2个token，1个英文单词≈1个token。GPT-4o-mini约$0.15/1M tokens</p>
+          <p><strong>Q: 如何选择模型？</strong></p>
+          <p>A: 简单任务用mini/nano，复杂任务用GPT-4o/Claude，代码用DeepSeek Coder</p>
+          <p><strong>Q: 国内网络问题？</strong></p>
+          <p>A: 使用DeepSeek/通义千问等国内模型，或配置代理</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://platform.openai.com/docs/api-reference" target="_blank">OpenAI API文档</a></p>
+          <p>• <a href="https://platform.deepseek.com/api-docs" target="_blank">DeepSeek API文档</a></p>
+          <p>• <a href="https://www.bilibili.com/video/BV1xT421c7xF" target="_blank">【B站】OpenAI API实战教程</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>实现一个支持多模型切换的对话客户端，支持流式输出和错误重试。</p>
+          <p>实现一个支持OpenAI和DeepSeek切换的对话客户端，支持流式输出。</p>
         </div>
         `
       },
