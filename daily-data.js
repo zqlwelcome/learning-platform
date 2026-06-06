@@ -461,8 +461,9 @@ async function buildAutoTradePoolHtml(hotNews, quoteMap = null, macro = null) {
     return `
         <div class="a-flow-list">
             <div class="a-flow-hint" onclick="this.style.display='none'"><span class="a-flow-hint-icon">👇</span><span class="a-flow-hint-text">点击情报卡，查看模型判断</span></div>
-            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。参考关注按事件类型、宏观方向、流动性、5日趋势和52周热度动态筛选；不是固定股票清单。</div>
-            ${cards.map(card => renderTradePoolCard(card)).join('')}
+            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。交易池情报分成核心池、机会池、防御池；只有通过入场确认分的标的才会进入模拟盘验证。</div>
+            ${renderTradePoolLayerSummary(cards, macro)}
+            ${cards.map(card => renderTradePoolCard(card, macro)).join('')}
             <div class="a-flow-item">
                 <div class="a-flow-main" onclick="toggleFlowDetail(this)">
                     <span class="a-flow-category-title">风控底线</span>
@@ -482,9 +483,73 @@ async function buildAutoTradePoolHtml(hotNews, quoteMap = null, macro = null) {
                     <div class="a-flow-impact">小白翻译：这个模型不是为了天天买，而是为了只在事件窗口里做有纪律的下注。</div>
                 </div>
             </div>
-            <div class="a-flow-disclaimer">自动交易池 v5 按交易模型执行：事件分数低于4过滤；美股、港股、A股同池评分；优先ETF/基金验证方向；个股因财报排雷与估值分位未完全接入，默认只进监控池。以下不是无条件买入清单。</div>
+            <div class="a-flow-disclaimer">自动交易池 v6 按交易模型执行：事件分数低于4过滤；美股、港股、A股、黄金、基金/ETF同池评分；个股需要更高确认分才进入模拟盘。以下不是无条件买入清单。</div>
         </div>
     `;
+}
+
+function renderTradePoolLayerSummary(cards, macro) {
+    const uniqueTargets = getTradePoolUniqueTargets(cards);
+    const layers = ['核心池', '机会池', '防御池'].map(layer => {
+        const items = uniqueTargets
+            .filter(({ target }) => getTradePoolLayer(target) === layer)
+            .map(({ target, card }) => ({ target, card, meta: getTradePoolTargetMeta(target, card, macro) }))
+            .sort((a, b) => b.meta.confirmationScore - a.meta.confirmationScore)
+            .slice(0, 3);
+        return { layer, items };
+    });
+
+    return `
+        <div class="trade-layer-grid">
+            ${layers.map(group => `
+                <div class="trade-layer-card">
+                    <span>${group.layer}</span>
+                    <b>${group.items.length ? group.items.map(item => safeText(`${item.target.name} ${item.target.code}`)).join(' / ') : '暂无高质量候选'}</b>
+                    <small>${getTradePoolLayerHint(group.layer)}</small>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+function getTradePoolUniqueTargets(cards) {
+    const seen = new Set();
+    const result = [];
+    (cards || []).forEach(card => {
+        (card.targets || []).forEach(target => {
+            if (seen.has(target.symbol)) return;
+            seen.add(target.symbol);
+            result.push({ target, card });
+        });
+    });
+    return result;
+}
+
+function getTradePoolLayer(target) {
+    const themes = target.themes || [];
+    if (themes.some(theme => ['cash', 'gold', 'bond'].includes(theme))) return '防御池';
+    if (target.kind === 'Stock') return '机会池';
+    return '核心池';
+}
+
+function getTradePoolLayerHint(layer) {
+    if (layer === '核心池') return '宽基、基金、ETF，优先用来验证方向。';
+    if (layer === '机会池') return '个股弹性大，确认分要更高，仓位更小。';
+    return '黄金、债券、现金类，风险模式偏弱时更重要。';
+}
+
+function getTradePoolTargetMeta(target, card, macro) {
+    const confirmation = getPaperEntryConfirmation(target, card, macro);
+    const threshold = target.kind === 'Stock' ? 86 : 62;
+    const isHot = typeof target.pct === 'number' && target.pct > 4 || typeof target.fiveDayPct === 'number' && target.fiveDayPct > 8 || typeof target.heat === 'number' && target.heat > 0.88;
+    const status = confirmation.score >= threshold ? '可进模拟盘' : isHot ? '不追高' : confirmation.score >= threshold - 10 ? '等待确认' : '观察';
+    return {
+        layer: getTradePoolLayer(target),
+        confirmationScore: confirmation.score,
+        reasons: confirmation.reasons,
+        status,
+        threshold
+    };
 }
 
 function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
@@ -1268,8 +1333,8 @@ function uniqueTradeCards(cards) {
     });
 }
 
-function renderTradePoolCard(card) {
-    const primaryTarget = card.targets[0] ? renderTargetBadge(card.targets[0]) : '';
+function renderTradePoolCard(card, macro) {
+    const primaryTarget = card.targets[0] ? renderTradePoolTargetBadge(card.targets[0], card, macro) : '';
     return `
         <div class="a-flow-item trade-card">
             <div class="a-flow-main" onclick="toggleFlowDetail(this)">
@@ -1288,12 +1353,20 @@ function renderTradePoolCard(card) {
                 <div class="a-flow-meaning">交易池状态：${safeText(card.status)}</div>
                 <div class="a-target-list">
                     <span>模型筛选</span>
-                    ${card.targets.map(target => renderTargetBadge(target)).join('')}
+                    ${card.targets.map(target => renderTradePoolTargetBadge(target, card, macro)).join('')}
                 </div>
                 <div class="a-flow-impact">操作提示：${safeText(card.action)}</div>
             </div>
         </div>
     `;
+}
+
+function renderTradePoolTargetBadge(target, card, macro) {
+    const meta = getTradePoolTargetMeta(target, card, macro);
+    const statusClass = meta.status === '可进模拟盘' ? 'ready' : meta.status === '不追高' ? 'hot' : '';
+    const quote = typeof target.pct === 'number' ? ` <em>${target.pct >= 0 ? '+' : ''}${target.pct.toFixed(2)}%</em>` : '';
+    const trend = typeof target.fiveDayPct === 'number' ? ` <em>5日${target.fiveDayPct >= 0 ? '+' : ''}${target.fiveDayPct.toFixed(1)}%</em>` : '';
+    return `<b class="trade-target-badge ${statusClass}">${safeText(target.name)} ${safeText(target.code)} <em>${safeText(meta.layer)}</em> <em>${meta.confirmationScore}/${meta.threshold}</em> <em>${safeText(meta.status)}</em>${quote}${trend}</b>`;
 }
 
 function scoreTradeEvent(news, quoteMap, macro) {
