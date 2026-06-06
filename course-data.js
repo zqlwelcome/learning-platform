@@ -1054,28 +1054,159 @@ prompt = """
       {
         id: 'eng-4',
         title: '向量数据库选型与实战',
-        time: '15分钟',
+        time: '20分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：理解向量数据库原理，掌握主流产品使用</div>
+          <div class="lesson-goal">🎯 本节目标：掌握ChromaDB实战，能独立构建语义搜索引擎</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>什么是向量数据库？</strong></p>
-          <p>将文本/图片转为向量，通过相似度搜索实现语义检索。</p>
-          <p><strong>主流产品对比：</strong></p>
-          <p>• ChromaDB - 轻量级，适合开发测试</p>
-          <p>• Pinecone - 云托管，生产级</p>
-          <p>• Milvus - 开源，高性能</p>
-          <p>• Weaviate - 功能丰富，支持混合搜索</p>
-          <p><strong>关键指标：</strong></p>
-          <p>• 召回率(Recall) - 找到相关内容的比例</p>
-          <p>• 延迟(Latency) - 搜索响应时间</p>
-          <p>• 成本 - 存储和查询费用</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 安装ChromaDB</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>pip install chromadb
+pip install sentence-transformers  # 本地Embedding</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 创建向量数据库</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import chromadb
+
+# 创建客户端（持久化存储）
+client = chromadb.PersistentClient(path="./chroma_db")
+
+# 创建集合
+collection = client.get_or_create_collection(
+    name="my_documents",
+    metadata={"hnsw:space": "cosine"}  # 使用余弦相似度
+)
+
+# 添加文档
+collection.add(
+    documents=[
+        "Python是一种解释型编程语言",
+        "机器学习是人工智能的子领域",
+        "向量数据库用于存储和检索高维向量"
+    ],
+    ids=["doc1", "doc2", "doc3"],
+    metadatas=[
+        {"source": "教程", "topic": "编程"},
+        {"source": "教程", "topic": "AI"},
+        {"source": "教程", "topic": "数据库"}
+    ]
+)
+
+print(f"已添加 {collection.count()} 条文档")</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 语义搜索</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 查询（语义搜索）
+results = collection.query(
+    query_texts=["什么是AI"],
+    n_results=2
+)
+
+# 打印结果
+for i, (doc, distance) in enumerate(zip(results['documents'][0], results['distances'][0])):
+    print(f"结果{i+1}: {doc}")
+    print(f"相似度: {1 - distance:.4f}")
+    print()</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 4: 完整示例 - 文档搜索引擎</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import chromadb
+
+class DocumentSearchEngine:
+    def __init__(self, db_path="./search_db"):
+        self.client = chromadb.PersistentClient(path=db_path)
+        self.collection = self.client.get_or_create_collection("documents")
+    
+    def add_documents(self, docs):
+        """批量添加文档"""
+        self.collection.add(
+            documents=[d['content'] for d in docs],
+            ids=[d['id'] for d in docs],
+            metadatas=[d.get('metadata', {}) for d in docs]
+        )
+    
+    def search(self, query, top_k=3):
+        """语义搜索"""
+        results = self.collection.query(
+            query_texts=[query],
+            n_results=top_k
+        )
+        return [
+            {"doc": doc, "score": 1 - dist}
+            for doc, dist in zip(results['documents'][0], results['distances'][0])
+        ]
+
+# 使用
+engine = DocumentSearchEngine()
+engine.add_documents([
+    {"id": "1", "content": "Python是AI开发的首选语言"},
+    {"id": "2", "content": "向量数据库用于语义搜索"},
+])
+
+results = engine.search("AI开发用什么语言")
+for r in results:
+    print(f"{r['doc']} (相似度: {r['score']:.2f})")</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: ChromaDB和Pinecone怎么选？</strong></p>
+          <p>A: 开发测试用ChromaDB，生产环境用Pinecone/Milvus。</p>
+          <p><strong>Q: 向量维度怎么选？</strong></p>
+          <p>A: 768维够用，1536维更精准但更慢更贵。</p>
+          <p><strong>Q: 数据量大了怎么办？</strong></p>
+          <p>A: 使用分区(Partition)和索引(Index)优化。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://docs.trychroma.com/" target="_blank">ChromaDB官方文档</a></p>
+          <p>• <a href="https://github.com/chroma-core/chroma" target="_blank">ChromaDB GitHub</a></p>
+          <p>• <a href="https://www.pinecone.io/learn/" target="_blank">Pinecone学习中心</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>用ChromaDB构建一个简单的语义搜索引擎，索引100篇文档并测试查询效果。</p>
+          <p>用ChromaDB构建一个文档搜索引擎，支持添加文档和语义搜索。</p>
         </div>
         `
       },
