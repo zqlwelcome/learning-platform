@@ -33,14 +33,14 @@ function toggleAlert(type) {
 async function loadHotNews(forceRefresh = false) {
     const el = document.getElementById('hotNewsList');
     if (!el) return;
-    
+
     if (!forceRefresh && newsCache.length > 0 && (Date.now() - lastRefreshTime) < REFRESH_INTERVAL) {
         renderNewsList(newsCache);
         return;
     }
-    
+
     el.innerHTML = '<div class="empty-hint" style="text-align:center;padding:20px;font-size:14px;">正在打捞今天的财经热闹...</div>';
-    
+
     try {
         const data = await xhrFetch();
         if (data && data.news && data.news.length > 0) {
@@ -54,7 +54,7 @@ async function loadHotNews(forceRefresh = false) {
     } catch(e) {
         console.log('加载新闻失败:', e);
     }
-    
+
     const cached = localStorage.getItem('hot_news_cache');
     if (cached) {
         try {
@@ -66,7 +66,7 @@ async function loadHotNews(forceRefresh = false) {
             }
         } catch(e) {}
     }
-    
+
     if (newsCache.length === 0) {
         el.innerHTML = '<div class="empty-hint" style="text-align:center;padding:20px;">今天新闻暂时请假了，先喝口水。</div>';
     }
@@ -102,7 +102,7 @@ async function loadAlerts(forceRefresh = false) {
         renderAlerts(alertsCache);
         return;
     }
-    
+
     try {
         const data = await xhrFetchAlerts();
         if (data) {
@@ -333,9 +333,9 @@ function renderNewsList(news) {
     const el = document.getElementById('hotNewsList');
     if (!el) return;
     updateHeadlineBrief(news);
-    
+
     const displayNews = _newsAllShown ? news : news.slice(0, 3);
-    
+
     let html = displayNews.map((item, index) => {
         const display = getNewsDisplay(item);
         const insight = getNewsInsight(item, display);
@@ -357,7 +357,7 @@ function renderNewsList(news) {
             <div class="news-arrow">›</div>
         </div>`;
     }).join('');
-    
+
     // 展开/收起按钮
     if (news.length > 3) {
         html += `
@@ -367,7 +367,7 @@ function renderNewsList(news) {
             </button>
         </div>`;
     }
-    
+
     el.innerHTML = html;
     localStorage.setItem('hot_news_cache', JSON.stringify(news.map(stripNewsRuntimeFields)));
 }
@@ -436,7 +436,7 @@ function getNewsInsight(item, display) {
         if (item.insight.watch) lines.push(`👁️ 下一步：${item.insight.watch}`);
         return lines;
     }
-    
+
     // fallback到模板解读
     const text = getFullNewsText(item, display);
     const happened = `发生了什么：${shortText(display.detail, 78)}`;
