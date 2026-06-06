@@ -684,13 +684,17 @@ function refreshPaperTradesForDisplay(trades, quoteMap, macro = {}) {
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : trade.pnlPct;
         const ageDays = Math.max(0, Math.floor((new Date(today) - new Date(trade.entryDate)) / 86400000));
-        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 }, macro, { score: trade.confirmationScore || 65 });
+        const modelTarget = getPaperTargetForTrade(trade);
+        const confirmation = { score: trade.confirmationScore || 65 };
+        const allocationPct = getPaperAllocationPct(modelTarget, { score: trade.score || 4 }, macro, confirmation);
+        const allocationReason = getPaperAllocationReason(modelTarget, macro, confirmation);
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
         return {
             ...trade,
             allocationPct,
+            allocationReason: trade.allocationReason || allocationReason,
             capital,
             entryValue,
             currentValue,
@@ -892,7 +896,10 @@ function updatePaperTrades(candidates, quoteMap, macro = {}) {
         const currentPrice = quote.price || trade.currentPrice || trade.entryPrice;
         const pnlPct = trade.entryPrice ? ((currentPrice - trade.entryPrice) / trade.entryPrice) * 100 : null;
         const ageDays = Math.max(0, Math.floor((new Date(today) - new Date(trade.entryDate)) / 86400000));
-        const allocationPct = trade.allocationPct || getPaperAllocationPct(trade, { score: trade.score || 4 }, macro, { score: trade.confirmationScore || 65 });
+        const modelTarget = getPaperTargetForTrade(trade);
+        const confirmation = { score: trade.confirmationScore || 65 };
+        const allocationPct = getPaperAllocationPct(modelTarget, { score: trade.score || 4 }, macro, confirmation);
+        const allocationReason = getPaperAllocationReason(modelTarget, macro, confirmation);
         const capital = trade.capital || 100000;
         const entryValue = capital * (allocationPct / 100);
         const currentValue = entryValue * (1 + (pnlPct || 0) / 100);
@@ -902,6 +909,7 @@ function updatePaperTrades(candidates, quoteMap, macro = {}) {
         const updatedTrade = {
             ...trade,
             allocationPct,
+            allocationReason: trade.allocationReason || allocationReason,
             capital,
             entryValue,
             currentValue,
@@ -987,6 +995,15 @@ function getPaperAllocationPct(target, card, macro = {}, confirmation = {}) {
     const min = target.kind === 'Stock' ? 2 : 4;
     const max = target.kind === 'Stock' ? 6 : 12;
     return Math.max(min, Math.min(max, Math.round(allocation)));
+}
+
+function getPaperTargetForTrade(trade) {
+    const fromUniverse = getTradeCandidateUniverse().find(target => target.symbol === trade.symbol);
+    return {
+        ...(fromUniverse || {}),
+        ...trade,
+        themes: fromUniverse?.themes || trade.themes || []
+    };
 }
 
 function getPaperPortfolioCap(macro = {}) {
