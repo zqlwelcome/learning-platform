@@ -1660,28 +1660,137 @@ def hyde_search(query):
       {
         id: 'eng-9',
         title: '企业知识库问答系统实战',
-        time: '25分钟',
+        time: '30分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：从0到1搭建一个完整的企业知识库问答系统</div>
+          <div class="lesson-goal">🎯 本节目标：从0到1搭建完整的企业知识库问答系统</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>系统功能：</strong></p>
-          <p>1. 文档上传 - 支持PDF/Word/Excel</p>
-          <p>2. 智能切分 - 自动识别文档结构</p>
-          <p>3. 向量索引 - Embedding + 向量数据库</p>
-          <p>4. 智能问答 - 基于文档内容回答</p>
-          <p>5. 来源引用 - 显示答案来源</p>
-          <p><strong>技术栈：</strong></p>
-          <p>• 后端：FastAPI + LangChain</p>
-          <p>• 向量库：ChromaDB / Milvus</p>
-          <p>• 前端：React / Vue</p>
-          <p>• 部署：Docker + Nginx</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 项目结构</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>enterprise-rag/
+├── app/
+│   ├── main.py          # FastAPI入口
+│   ├── rag_engine.py    # RAG核心引擎
+│   ├── document_loader.py # 文档加载器
+│   └── config.py        # 配置文件
+├── data/                # 存储上传的文档
+├── chroma_db/           # 向量数据库
+├── requirements.txt
+└── Dockerfile</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: RAG核心引擎</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># rag_engine.py
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain_community.vectorstores import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.chains import RetrievalQA
+
+class RAGEngine:
+    def __init__(self, persist_dir="./chroma_db"):
+        self.embeddings = OpenAIEmbeddings()
+        self.vectorstore = Chroma(
+            persist_directory=persist_dir,
+            embedding_function=self.embeddings
+        )
+        self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+        self.text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=500,
+            chunk_overlap=50
+        )
+    
+    def add_document(self, text, metadata=None):
+        """添加文档到知识库"""
+        chunks = self.text_splitter.split_text(text)
+        self.vectorstore.add_texts(chunks, metadatas=[metadata or {}] * len(chunks))
+        return len(chunks)
+    
+    def query(self, question, k=3):
+        """查询知识库"""
+        qa_chain = RetrievalQA.from_chain_type(
+            llm=self.llm,
+            retriever=self.vectorstore.as_retriever(search_kwargs={"k": k}),
+            return_source_documents=True
+        )
+        result = qa_chain.invoke({"query": question})
+        return {
+            "answer": result["result"],
+            "sources": [doc.page_content[:100] for doc in result["source_documents"]]
+        }</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: FastAPI接口</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># main.py
+from fastapi import FastAPI, UploadFile, File
+from rag_engine import RAGEngine
+
+app = FastAPI()
+rag = RAGEngine()
+
+@app.post("/upload")
+async def upload_document(file: UploadFile = File(...)):
+    content = await file.read()
+    text = content.decode("utf-8")
+    chunks = rag.add_document(text, {"filename": file.filename})
+    return {"message": f"添加了 {chunks} 个文本块"}
+
+@app.get("/ask")
+async def ask_question(q: str):
+    result = rag.query(q)
+    return result
+
+# 启动: uvicorn main:app --reload</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 如何支持多用户？</strong></p>
+          <p>A: 使用Collection隔离，每个用户一个Collection。</p>
+          <p><strong>Q: 文档量大了怎么办？</strong></p>
+          <p>A: 使用Milvus/Pinecone替代ChromaDB，支持亿级向量。</p>
+          <p><strong>Q: 如何保证数据安全？</strong></p>
+          <p>A: 本地部署向量数据库，不使用云服务。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://fastapi.tiangolo.com/" target="_blank">FastAPI官方文档</a></p>
+          <p>• <a href="https://github.com/chroma-core/chroma" target="_blank">ChromaDB GitHub</a></p>
+          <p>• <a href="https://github.com/langchain-ai/langchain" target="_blank">LangChain GitHub</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>完成一个企业知识库问答系统，支持文档上传和智能问答。</p>
+          <p>完成企业知识库问答系统，支持文档上传和智能问答。</p>
         </div>
         `
       },
@@ -1728,111 +1837,482 @@ def hyde_search(query):
       {
         id: 'eng-11',
         title: 'LangChain核心概念',
-        time: '18分钟',
+        time: '22分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握LangChain核心组件和使用方式</div>
+          <div class="lesson-goal">🎯 本节目标：掌握LangChain核心组件，能构建简单的AI应用</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>LangChain核心组件：</strong></p>
-          <p>• Models - 大模型封装</p>
-          <p>• Prompts - Prompt模板管理</p>
-          <p>• Chains - 链式调用</p>
-          <p>• Memory - 对话记忆</p>
-          <p>• Agents - 智能代理</p>
-          <p>• Tools - 工具调用</p>
-          <p><strong>核心优势：</strong></p>
-          <p>• 统一接口 - 支持多种大模型</p>
-          <p>• 链式编排 - 复杂任务分解</p>
-          <p>• 生态丰富 - 大量集成组件</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 安装LangChain</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>pip install langchain langchain-openai langchain-community</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: Prompt模板</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain.prompts import ChatPromptTemplate
+
+# 创建Prompt模板
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "你是一个专业的{role}"),
+    ("user", "{question}")
+])
+
+# 格式化
+messages = prompt.format_messages(
+    role="Python讲师",
+    question="什么是装饰器？"
+)
+print(messages)</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: Chain链式调用</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain_openai import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
+
+# 创建组件
+llm = ChatOpenAI(model="gpt-4o-mini")
+prompt = ChatPromptTemplate.from_template(
+    "用一句话解释什么是{concept}"
+)
+
+# 创建Chain
+chain = prompt | llm | StrOutputParser()
+
+# 运行
+result = chain.invoke({"concept": "机器学习"})
+print(result)</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 4: 带记忆的对话</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain_community.chat_message_histories import ChatMessageHistory
+from langchain_core.runnables.history import RunnableWithMessageHistory
+
+# 创建历史记录
+store = {}
+def get_session_history(session_id):
+    if session_id not in store:
+        store[session_id] = ChatMessageHistory()
+    return store[session_id]
+
+# 创建带记忆的Chain
+chain_with_history = RunnableWithMessageHistory(
+    chain,
+    get_session_history,
+    input_messages_key="concept",
+    history_messages_key="history"
+)
+
+# 使用
+config = {"configurable": {"session_id": "user1"}}
+result = chain_with_history.invoke({"concept": "深度学习"}, config=config)</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: LangChain和LlamaIndex怎么选？</strong></p>
+          <p>A: LangChain适合Agent和链式调用，LlamaIndex适合数据索引和查询。</p>
+          <p><strong>Q: Chain怎么调试？</strong></p>
+          <p>A: 使用LangSmith可视化调试平台。</p>
+          <p><strong>Q: 生产环境推荐吗？</strong></p>
+          <p>A: 推荐，LangChain是目前最成熟的AI应用框架。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://python.langchain.com/docs/introduction" target="_blank">LangChain官方文档</a></p>
+          <p>• <a href="https://github.com/langchain-ai/langchain" target="_blank">LangChain GitHub</a></p>
+          <p>• <a href="https://smith.langchain.com/" target="_blank">LangSmith调试平台</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>用LangChain实现一个能查询天气和搜索网页的Agent。</p>
+          <p>用LangChain实现一个带记忆的聊天机器人，支持多轮对话。</p>
         </div>
         `
       },
       {
         id: 'eng-12',
         title: 'LlamaIndex实战',
-        time: '18分钟',
+        time: '20分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握LlamaIndex的数据索引和查询能力</div>
+          <div class="lesson-goal">🎯 本节目标：掌握LlamaIndex数据索引和查询引擎</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>LlamaIndex vs LangChain：</strong></p>
-          <p>• LlamaIndex专注数据索引和查询</p>
-          <p>• LangChain专注Agent和链式调用</p>
-          <p>• 两者可以结合使用</p>
-          <p><strong>核心功能：</strong></p>
-          <p>• 数据连接器 - 支持150+数据源</p>
-          <p>• 索引构建 - 向量索引、树索引、关键词索引</p>
-          <p>• 查询引擎 - 智能检索+生成</p>
-          <p>• 聊天引擎 - 多轮对话</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 安装LlamaIndex</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>pip install llama-index llama-index-llms-openai</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 构建索引</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+
+# 从目录加载文档
+documents = SimpleDirectoryReader("./data").load_data()
+
+# 构建向量索引
+index = VectorStoreIndex.from_documents(documents)
+
+# 创建查询引擎
+query_engine = index.as_query_engine()
+
+# 查询
+response = query_engine.query("什么是机器学习？")
+print(response)</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 聊天引擎（多轮对话）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 创建聊天引擎
+chat_engine = index.as_chat_engine()
+
+# 多轮对话
+response1 = chat_engine.chat("什么是深度学习？")
+print(response1)
+
+response2 = chat_engine.chat("它和机器学习有什么关系？")
+print(response2)</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: LlamaIndex和LangChain怎么选？</strong></p>
+          <p>A: 数据查询为主用LlamaIndex，Agent为主用LangChain。</p>
+          <p><strong>Q: 支持哪些数据源？</strong></p>
+          <p>A: 文件、网页、数据库、Notion、Slack等150+数据源。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://docs.llamaindex.ai/" target="_blank">LlamaIndex官方文档</a></p>
+          <p>• <a href="https://github.com/run-llama/llama_index" target="_blank">LlamaIndex GitHub</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>用LlamaIndex构建一个能查询Notion笔记的智能助手。</p>
+          <p>用LlamaIndex构建一个文档问答系统，支持多轮对话。</p>
         </div>
         `
       },
       {
         id: 'eng-13',
         title: 'Agent设计模式',
-        time: '20分钟',
+        time: '25分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握主流Agent设计模式</div>
+          <div class="lesson-goal">🎯 本节目标：掌握ReAct和Plan-and-Execute两种Agent模式</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>ReAct模式：</strong></p>
-          <p>推理(Reasoning) + 行动(Acting) 循环</p>
-          <p>思考 → 选择工具 → 执行 → 观察 → 思考...</p>
-          <p><strong>Plan-and-Execute模式：</strong></p>
-          <p>先制定计划，再逐步执行</p>
-          <p>适合复杂多步骤任务</p>
-          <p><strong>Multi-Agent模式：</strong></p>
-          <p>多个Agent协作完成任务</p>
-          <p>• Supervisor - 主管分配任务</p>
-          <p>• Peer-to-Peer - 平等协作</p>
-          <p>• Hierarchical - 层级管理</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: ReAct Agent（LangChain）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain_openai import ChatOpenAI
+from langchain.agents import AgentExecutor, create_react_agent
+from langchain.tools import Tool
+from langchain import hub
+
+# 定义工具
+def search_web(query):
+    return f"搜索结果: {query}的相关信息..."
+
+def calculator(expression):
+    try:
+        return str(eval(expression))
+    except:
+        return "计算错误"
+
+tools = [
+    Tool(name="Search", func=search_web, description="搜索网页"),
+    Tool(name="Calculator", func=calculator, description="数学计算")
+]
+
+# 创建Agent
+llm = ChatOpenAI(model="gpt-4o-mini")
+prompt = hub.pull("hwchase17/react")
+agent = create_react_agent(llm, tools, prompt)
+
+# 创建执行器
+agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+
+# 运行
+result = agent_executor.invoke({"input": "2+3等于多少？"})
+print(result["output"])</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 自定义工具</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain.tools import tool
+
+@tool
+def get_weather(city: str) -> str:
+    """获取指定城市的天气信息"""
+    # 这里可以调用真实天气API
+    weather_data = {
+        "北京": "晴天 25°C",
+        "上海": "多云 22°C",
+        "深圳": "阵雨 28°C"
+    }
+    return weather_data.get(city, f"未找到{city}的天气信息")
+
+@tool
+def search_stock(symbol: str) -> str:
+    """查询股票价格"""
+    # 这里可以调用股票API
+    return f"{symbol} 当前价格: $150.25, 涨幅: +2.3%"</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: Agent和Chain有什么区别？</strong></p>
+          <p>A: Chain是固定流程，Agent可以动态决策使用哪些工具。</p>
+          <p><strong>Q: Agent容易出错怎么办？</strong></p>
+          <p>A: 添加错误处理、限制最大迭代次数、使用更聪明的模型。</p>
+          <p><strong>Q: 如何调试Agent？</strong></p>
+          <p>A: 使用verbose=True查看思考过程，或使用LangSmith。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://python.langchain.com/docs/modules/agents" target="_blank">LangChain Agent文档</a></p>
+          <p>• <a href="https://github.com/langchain-ai/langchain" target="_blank">LangChain GitHub</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>实现一个ReAct Agent，能自动分析数据并生成报告。</p>
+          <p>实现一个ReAct Agent，能查询天气、计算数学题、搜索信息。</p>
         </div>
         `
       },
       {
         id: 'eng-14',
         title: '工具调用与Function Calling',
-        time: '15分钟',
+        time: '20分钟',
         content: `
         <div class="block">
-          <div class="lesson-goal">🎯 本节目标：掌握大模型工具调用机制</div>
+          <div class="lesson-goal">🎯 本节目标：掌握OpenAI Function Calling，实现工具自动调用</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>Function Calling原理：</strong></p>
-          <p>大模型根据用户意图，自动选择并调用合适的函数</p>
-          <p><strong>支持的模型：</strong></p>
-          <p>• OpenAI GPT-4 - 原生支持</p>
-          <p>• Claude - Tool Use</p>
-          <p>• Gemini - Function Calling</p>
-          <p><strong>实现步骤：</strong></p>
-          <p>1. 定义工具Schema（名称、参数、描述）</p>
-          <p>2. 发送给大模型</p>
-          <p>3. 模型返回要调用的函数和参数</p>
-          <p>4. 执行函数并返回结果</p>
-          <p>5. 模型根据结果生成回答</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 定义工具Schema</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from openai import OpenAI
+client = OpenAI()
+
+# 定义工具
+tools = [
+    {
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "获取指定城市的天气",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "城市名称"
+                    }
+                },
+                "required": ["city"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "calculate",
+            "description": "计算数学表达式",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "expression": {
+                        "type": "string",
+                        "description": "数学表达式"
+                    }
+                },
+                "required": ["expression"]
+            }
+        }
+    }
+]</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: 调用大模型</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 发送请求
+response = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": "北京今天天气怎么样？"}],
+    tools=tools,
+    tool_choice="auto"
+)
+
+# 检查是否需要调用工具
+message = response.choices[0].message
+if message.tool_calls:
+    tool_call = message.tool_calls[0]
+    print(f"工具: {tool_call.function.name}")
+    print(f"参数: {tool_call.function.arguments)}")</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 执行工具并返回结果</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import json
+
+def execute_tool(tool_name, arguments):
+    if tool_name == "get_weather":
+        city = json.loads(arguments)["city"]
+        return f"{city}今天晴天，25°C"
+    elif tool_name == "calculate":
+        expr = json.loads(arguments)["expression"]
+        return str(eval(expr))
+    return "未知工具"
+
+# 执行工具
+if message.tool_calls:
+    tool_call = message.tool_calls[0]
+    result = execute_tool(tool_call.function.name, tool_call.function.arguments)
+    
+    # 将结果发送给大模型生成最终回答
+    response2 = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "user", "content": "北京今天天气怎么样？"},
+            message,
+            {
+                "role": "tool",
+                "tool_call_id": tool_call.id,
+                "content": result
+            }
+        ]
+    )
+    print(response2.choices[0].message.content)</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: Function Calling和Agent有什么区别？</strong></p>
+          <p>A: Function Calling是底层机制，Agent是封装好的应用。</p>
+          <p><strong>Q: 如何处理工具执行错误？</strong></p>
+          <p>A: 在execute_tool中添加try-catch，返回错误信息给大模型。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://platform.openai.com/docs/guides/function-calling" target="_blank">OpenAI Function Calling文档</a></p>
+          <p>• <a href="https://docs.anthropic.com/claude/docs/tool-use" target="_blank">Claude Tool Use文档</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>实现3个工具（计算器、天气查询、网页搜索），让大模型自动选择使用。</p>
+          <p>实现3个工具（计算器、天气、时间），让大模型自动选择调用。</p>
         </div>
         `
       },
@@ -1878,29 +2358,118 @@ def hyde_search(query):
       {
         id: 'eng-16',
         title: 'Docker容器化部署',
-        time: '15分钟',
+        time: '20分钟',
         content: `
         <div class="block">
           <div class="lesson-goal">🎯 本节目标：掌握AI应用的Docker容器化部署</div>
         </div>
         <div class="block">
-          <h4>📖 核心知识</h4>
-          <p><strong>为什么要容器化？</strong></p>
-          <p>• 环境一致性 - 开发/测试/生产环境一致</p>
-          <p>• 快速部署 - 一键启动所有服务</p>
-          <p>• 资源隔离 - 不同服务互不影响</p>
-          <p><strong>Dockerfile最佳实践：</strong></p>
-          <p>• 多阶段构建 - 减小镜像体积</p>
-          <p>• 缓存优化 - 利用Docker缓存层</p>
-          <p>• 安全扫描 - 检查镜像漏洞</p>
-          <p><strong>docker-compose编排：</strong></p>
-          <p>• 应用服务 + 向量数据库 + Redis</p>
-          <p>• 网络配置 - 服务间通信</p>
-          <p>• 数据持久化 - Volume挂载</p>
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 编写Dockerfile</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Dockerfile</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>FROM python:3.11-slim
+
+WORKDIR /app
+
+# 安装依赖
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 复制代码
+COPY . .
+
+# 暴露端口
+EXPOSE 8000
+
+# 启动命令
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 2: docker-compose编排</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">YAML</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:</code></pre>
+            </div>
+          </div>
+          
+          <p><strong>Step 3: 构建和运行</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 构建镜像
+docker-compose build
+
+# 启动服务
+docker-compose up -d
+
+# 查看日志
+docker-compose logs -f app
+
+# 停止服务
+docker-compose down</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 镜像太大怎么办？</strong></p>
+          <p>A: 使用多阶段构建、精简基础镜像、清理缓存。</p>
+          <p><strong>Q: 如何更新代码？</strong></p>
+          <p>A: 重新build镜像，docker-compose up -d重建容器。</p>
+        </div>
+        <div class="block">
+          <h4>🔗 参考资源</h4>
+          <p>• <a href="https://docs.docker.com/" target="_blank">Docker官方文档</a></p>
+          <p>• <a href="https://docs.docker.com/compose/" target="_blank">Docker Compose文档</a></p>
         </div>
         <div class="block">
           <h4>💼 实战练习</h4>
-          <p>将之前的RAG系统容器化，用docker-compose一键启动。</p>
+          <p>将RAG系统容器化，用docker-compose一键启动。</p>
         </div>
         `
       },
