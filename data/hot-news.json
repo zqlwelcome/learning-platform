@@ -1,78 +1,92 @@
 {
-  "updateTime": "2026-06-06 21:00",
+  "updateTime": "2026-06-06 21:05",
   "news": [
     {
       "rank": 1,
+      "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
+      "source": "CNBC",
+      "detail": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
+      "lang": "en",
+      "score": 49,
+      "insight": {
+        "what": "芯片股暴跌，恐慌指数飙升，涨势逆转",
+        "assets": "📉 美股芯片板块 利空；📈 VIX恐慌指数 利好",
+        "chain": "芯片股崩盘→科技股承压→资金或轮动至防御板块（公用事业、消费必需品）",
+        "watch": "费城半导体指数是否跌破关键支撑位"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX刷新全球IPO纪录，A股供应商曝光",
       "source": "21世纪经济报道",
       "detail": "来源：@21世纪经济报道微博 #SpaceX将于6月12日上市# 【#SpaceX刷新全球IPO纪录#，A股供应商曝光】据新华财经等报道，马斯克旗下SpaceX将于6月12日登陆纳斯达克...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX创纪录IPO，预留散户份额",
-        "assets": "📈 SpaceX概念股 利好\n📉 非SpaceX航天股 承压",
-        "chain": "散户参与推高首日涨幅（IPO首日上涨幅度），带动A股供应商情绪溢价（超额上涨）",
-        "watch": "SpaceX最终定价及首日涨幅"
+        "what": "SpaceX创纪录IPO，A股供应商曝光",
+        "assets": "📈 A股SpaceX供应链 利好（如电子元器件、航天材料）",
+        "chain": "SpaceX上市→供应链订单预期提升→相关A股获资金关注（映射效应）",
+        "watch": "SpaceX估值及上市日期确认"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "知情人士：SpaceX为创纪录IPO预留面向散户的配售份额",
       "source": "环球市场播报",
       "detail": " SpaceX正筹备巨型企业IPO史上规模空前的散户配售方案，埃隆・马斯克计划在本次发售股本中，拿出最高四分之一额度向个人投资者开放认购。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美股芯片板块暴跌1.3万亿，费半指数创六年最大跌幅",
-        "assets": "📉 全球半导体股 利空\n📉 科技成长股 承压",
-        "chain": "流动性收紧预期（资金成本上升）压制高估值科技股，传导至A股芯片ETF（交易所交易基金）",
-        "watch": "费城半导体指数能否站稳关键支撑位"
+        "what": "SpaceX为创纪录IPO预留散户配售份额",
+        "assets": "📈 SpaceX IPO 利好（散户参与度提升）",
+        "chain": "散户配售→降低机构控盘风险→首日波动或加大（流动性溢价）",
+        "watch": "散户认购倍数及首日涨幅"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "泡沫破裂？美股芯片板块蒸发1.3万亿美元，费城半导体指数创六年最大跌幅",
       "source": "环球市场播报",
       "detail": "美股芯片制造商周五暴跌，市值损失约1.3万亿美元，英伟达（Nvidia）、美光科技（Micron Technology）和超威半导体（AMD）等AI权重股深度下挫...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "史上最大IPO被拒纳入指数",
-        "assets": "📉 IPO相关资产 利空\n📈 指数基金 稳定",
-        "chain": "被动资金（跟踪指数的基金）无法买入，减少需求，但指数基金避免过度集中风险",
-        "watch": "该IPO是否转战其他交易所或推迟"
+        "what": "美股芯片板块蒸发1.3万亿美元，费城半导体指数创六年最大跌幅",
+        "assets": "📉 美股芯片股 利空；📉 费城半导体指数 利空",
+        "chain": "芯片暴跌→科技行业展望恶化→或拖累纳指及成长股（高估值承压）",
+        "watch": "芯片权重股（英伟达、AMD）财报及技术面企稳信号"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "拒绝纳入！史上最大IPO，突发！",
       "source": "券商中国",
       "detail": "标普拒绝为SpaceX“开绿灯”！ 当前，全球首富马斯克正在火速推进SpaceX的IPO事宜。尽管SpaceX此次上市获得华尔街巨头热捧，但标普拒绝为其纳入指数提供快速通道。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "花旗坚持预测美联储今年降息，其他投行放弃",
-        "assets": "📉 美元 承压\n📈 美债 利好",
-        "chain": "市场定价更鹰派（预期加息），花旗观点若兑现，将引发空头回补（做空者买入平仓）",
-        "watch": "下周CPI（消费者物价指数）数据是否超预期"
+        "what": "史上最大IPO突发拒绝纳入市场指数",
+        "assets": "📉 IPO市场情绪 利空；📉 相关指数基金 中性偏空",
+        "chain": "拒绝纳入→指数基金被动买入延迟→流动性承压，短期抛压增加",
+        "watch": "指数编制机构后续调整公告"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "高盛投降：不再预计美联储今年降息",
-        "assets": "📈 美元 走强\n📉 美股成长股 承压",
-        "chain": "降息预期归零，融资成本（借钱利息）维持高位，压制估值，利好银行股（净息差扩大）",
-        "watch": "6月点阵图（利率预测中值）及非农修正值"
+        "what": "花旗仍坚持预测美联储今年降息",
+        "assets": "📈 美债利率 承压（降息预期）；📉 美元 短期偏弱",
+        "chain": "降息预期→短端美债收益率下行→风险资产（美股）获支撑，但市场分歧加大",
+        "watch": "美联储官员讲话及CPI/PCE数据（通胀指标）"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期...",
@@ -80,7 +94,7 @@
       "score": 36
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "美股芯片制造商市值，一日蒸发超万亿美元",
       "source": "央视",
       "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
@@ -88,7 +102,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "6月6日外盘头条：美伊和平谈判仍陷僵局 非农报告提振加息预期 美股遭遇抛售 谷歌与SpaceX达成百亿算力协议",
       "source": "环球市场播报",
       "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、伊朗战争逼近百日 美伊和平谈判仍陷僵局 2、美国5月新增就业17.2万人 经济表现大幅超出市场预期 3...",
@@ -96,20 +110,12 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push",
       "source": "CNBC",
       "detail": "Meta shares dropped after the Financial Times reported the company could potentially raise tens of billions of dollars in a stock offering to help its AI push.",
       "lang": "en",
       "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "SpaceX IPO在正式启动推介后不久据悉已获超额认购",
-      "source": "环球市场播报",
-      "detail": " 据知情人士透露，SpaceX创纪录的750亿美元首次公开募股（IPO），在正式启动推介后不久，所获认购规模就已超过供发售的股份数。",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
