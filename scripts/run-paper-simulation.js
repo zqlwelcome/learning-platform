@@ -63,7 +63,7 @@ async function main() {
     const quoteMap = await sandbox.loadTradeQuoteMap();
     const macro = sandbox.assessTradeMacroRegime(hotNews);
     const candidates = sandbox.getPaperTradeCandidates(hotNews, quoteMap, macro);
-    const trades = sandbox.updatePaperTrades(candidates, quoteMap);
+    const trades = sandbox.updatePaperTrades(candidates, quoteMap, macro);
     const phaseStats = sandbox.getPaperPhaseStats(trades);
     const portfolio = sandbox.getPaperPortfolioStats(trades);
 
@@ -88,7 +88,11 @@ async function main() {
             eventType: item.eventType,
             score: item.score,
             confirmationScore: item.confirmationScore,
-            confirmationReasons: item.confirmationReasons
+            confirmationReasons: item.confirmationReasons,
+            allocationPct: item.allocationPct,
+            portfolioCap: item.portfolioCap,
+            riskMode: item.riskMode,
+            allocationReason: item.allocationReason
         })),
         stats: {
             sampleCount: effectiveTrades.length,
@@ -102,6 +106,8 @@ async function main() {
             avgPnl: closedTrades.length ? closedTrades.reduce((sum, trade) => sum + Number(trade.finalPnlPct ?? trade.pnlPct ?? 0), 0) / closedTrades.length : null,
             equity: portfolio.equity,
             exposurePct: portfolio.exposurePct,
+            portfolioCap: sandbox.getPaperPortfolioCap(macro),
+            riskMode: sandbox.getPaperRiskMode(macro),
             alerts: portfolio.alerts
         },
         phaseStats,
