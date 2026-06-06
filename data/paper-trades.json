@@ -1,137 +1,17 @@
 {
   "version": 1,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-06T12:30:04.609Z",
+  "updateTime": "2026-06-06T12:36:41.550Z",
   "macro": {
     "rateUp": true,
-    "rateDown": true,
+    "rateDown": false,
     "oilShock": true,
     "aiCapex": true,
     "riskOff": true,
     "chinaSupport": true,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认 / 利率下行利好长久期资产"
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认"
   },
   "candidates": [
-    {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 8,
-      "confirmationScore": 85,
-      "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格未失控",
-        "宏观环境匹配"
-      ],
-      "allocationPct": 10,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分高"
-    },
-    {
-      "symbol": "sz159928",
-      "code": "159928",
-      "name": "消费ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 8,
-      "confirmationScore": 85,
-      "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格未失控",
-        "宏观环境匹配"
-      ],
-      "allocationPct": 12,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分高"
-    },
-    {
-      "symbol": "sh512880",
-      "code": "512880",
-      "name": "证券ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 8,
-      "confirmationScore": 69,
-      "confirmationReasons": [
-        "模型基础分达标",
-        "流动性通过",
-        "价格未失控",
-        "接近高位"
-      ],
-      "allocationPct": 9,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分偏低"
-    },
-    {
-      "symbol": "usQQQ",
-      "code": "QQQ",
-      "name": "纳指100ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "资金行为",
-      "score": 7,
-      "confirmationScore": 82,
-      "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格位置适中",
-        "宏观环境匹配"
-      ],
-      "allocationPct": 8,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 成长降权"
-    },
-    {
-      "symbol": "usXLK",
-      "code": "XLK",
-      "name": "科技精选ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "资金行为",
-      "score": 7,
-      "confirmationScore": 64,
-      "confirmationReasons": [
-        "模型基础分达标",
-        "流动性通过",
-        "日内跌幅过深",
-        "价格位置适中"
-      ],
-      "allocationPct": 6,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
-    },
-    {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
-      "market": "港股",
-      "kind": "ETF",
-      "eventType": "基本面类",
-      "score": 6,
-      "confirmationScore": 87,
-      "confirmationReasons": [
-        "模型基础分强",
-        "流动性通过",
-        "价格未失控",
-        "价格位置适中"
-      ],
-      "allocationPct": 10,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分高"
-    },
     {
       "symbol": "usGLD",
       "code": "GLD",
@@ -139,18 +19,50 @@
       "market": "美股",
       "kind": "ETF",
       "eventType": "宏观类",
-      "score": 6,
-      "confirmationScore": 82,
+      "score": 9,
+      "confirmationScore": 87,
       "confirmationReasons": [
         "模型基础分强",
         "流动性通过",
         "价格位置适中",
         "宏观环境匹配"
       ],
-      "allocationPct": 10,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 防御保留"
+      "allocationPct": 12,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 防御保留 / 确认分高",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
+        "buyWhat": "黄金ETF GLD，基金/ETF方向验证。",
+        "buyWhy": "入场确认 87/100，当前为防御模式；防御模式 / 防御保留 / 确认分高。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
+    },
+    {
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
+      "kind": "ETF",
+      "eventType": "宏观类",
+      "score": 9,
+      "confirmationScore": 85,
+      "confirmationReasons": [
+        "模型基础分强",
+        "流动性通过",
+        "价格未失控",
+        "宏观环境匹配"
+      ],
+      "allocationPct": 9,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 成长降权 / 确认分高",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
+        "buyWhat": "恒生科技ETF 3033，基金/ETF方向验证。",
+        "buyWhy": "入场确认 85/100，当前为防御模式；防御模式 / 成长降权 / 确认分高。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     },
     {
       "symbol": "sh511010",
@@ -159,18 +71,102 @@
       "market": "A股",
       "kind": "ETF",
       "eventType": "宏观类",
-      "score": 6,
-      "confirmationScore": 68,
+      "score": 9,
+      "confirmationScore": 69,
       "confirmationReasons": [
-        "模型基础分强",
+        "模型基础分达标",
         "流动性通过",
         "价格未失控",
         "接近高位"
       ],
-      "allocationPct": 8,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低"
+      "allocationPct": 10,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
+        "buyWhat": "国债ETF 511010，基金/ETF方向验证。",
+        "buyWhy": "入场确认 69/100，当前为防御模式；防御模式 / 防御保留 / 确认分偏低。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
+    },
+    {
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "eventType": "宏观类",
+      "score": 9,
+      "confirmationScore": 92,
+      "confirmationReasons": [
+        "模型基础分强",
+        "流动性通过",
+        "价格未失控",
+        "价格位置适中"
+      ],
+      "allocationPct": 12,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 确认分高",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
+        "buyWhat": "盈富基金 2800，基金/ETF方向验证。",
+        "buyWhy": "入场确认 92/100，当前为防御模式；防御模式 / 确认分高。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
+    },
+    {
+      "symbol": "sz159928",
+      "code": "159928",
+      "name": "消费ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "eventType": "基本面类",
+      "score": 7,
+      "confirmationScore": 80,
+      "confirmationReasons": [
+        "模型基础分强",
+        "流动性通过",
+        "价格未失控",
+        "宏观环境匹配"
+      ],
+      "allocationPct": 11,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
+        "buyWhat": "消费ETF 159928，基金/ETF方向验证。",
+        "buyWhy": "入场确认 80/100，当前为防御模式；防御模式。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
+    },
+    {
+      "symbol": "sh512880",
+      "code": "512880",
+      "name": "证券ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "eventType": "政策类",
+      "score": 6,
+      "confirmationScore": 64,
+      "confirmationReasons": [
+        "模型基础分达标",
+        "流动性通过",
+        "价格未失控",
+        "接近高位"
+      ],
+      "allocationPct": 7,
+      "portfolioCap": 45,
+      "riskMode": "防御",
+      "allocationReason": "防御模式 / 确认分偏低",
+      "actionPlan": {
+        "entryWindow": "模拟窗口：只观察，不急着记录新仓。",
+        "buyWhat": "证券ETF 512880，基金/ETF方向验证。",
+        "buyWhy": "入场确认 64/100，当前为防御模式；防御模式 / 确认分偏低。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      }
     }
   ],
   "stats": {
@@ -183,10 +179,10 @@
     "reviewedCount": 0,
     "winRate": null,
     "avgPnl": null,
-    "equity": 98941.48351263168,
-    "exposurePct": 49,
-    "portfolioCap": 51,
-    "riskMode": "谨慎",
+    "equity": 98707.05268441273,
+    "exposurePct": 45,
+    "portfolioCap": 45,
+    "riskMode": "防御",
     "alerts": 0
   },
   "phaseStats": [
@@ -195,14 +191,14 @@
       "label": "1日",
       "samples": 7,
       "winRate": 57,
-      "avg": 0.2685714285714285
+      "avg": 0.25571428571428567
     },
     {
       "key": "d3",
       "label": "3日",
       "samples": 6,
       "winRate": 17,
-      "avg": -1.6533333333333335
+      "avg": -2.0733333333333337
     },
     {
       "key": "d10",
@@ -213,38 +209,6 @@
     }
   ],
   "trades": [
-    {
-      "symbol": "usXLK",
-      "code": "XLK",
-      "name": "科技精选ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 180.3,
-      "allocationPct": 6,
-      "portfolioCap": 51,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低",
-      "eventTitle": "泡沫破裂？美股芯片板块蒸发1.3万亿美元，费城半...",
-      "eventType": "资金行为",
-      "score": 7,
-      "confirmationScore": 64,
-      "confirmationReasons": [
-        "模型基础分达标",
-        "流动性通过",
-        "日内跌幅过深",
-        "价格位置适中"
-      ],
-      "id": "2026-06-06-usXLK-资金行为",
-      "entryDate": "2026-06-06",
-      "status": "仓位等待",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 180.3,
-      "pnlPct": 0,
-      "ageDays": 0,
-      "checkpoints": {}
-    },
     {
       "symbol": "sz159928",
       "code": "159928",
@@ -541,10 +505,10 @@
       "score": 6,
       "id": "2026-06-04-usSMH-资金行为",
       "entryDate": "2026-06-04",
-      "status": "仓位等待",
+      "status": "观察中",
       "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
+      "entryValue": 4000,
+      "currentValue": 3717.6324719394415,
       "currentPrice": 569.69,
       "pnlPct": -7.059188201513962,
       "ageDays": 2,
@@ -554,7 +518,7 @@
           "pnlPct": 2.38
         }
       },
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
     },
     {
       "symbol": "hk03033",
@@ -894,7 +858,7 @@
           "pnlPct": 0.03
         }
       },
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低"
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低"
     },
     {
       "symbol": "usQQQ",
@@ -931,7 +895,7 @@
       "market": "A股",
       "kind": "ETF",
       "entryPrice": 1.158,
-      "allocationPct": 6,
+      "allocationPct": 5,
       "eventTitle": "机构资金关注科技龙头",
       "eventType": "资金行为",
       "score": 8,
@@ -939,8 +903,8 @@
       "entryDate": "2026-06-03",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 6000,
-      "currentValue": 5808.290155440415,
+      "entryValue": 5000,
+      "currentValue": 4840.241796200346,
       "currentPrice": 1.121,
       "pnlPct": -3.1951640759930853,
       "ageDays": 3,
@@ -954,7 +918,7 @@
           "pnlPct": -3.2
         }
       },
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
     },
     {
       "symbol": "sh511010",
@@ -1010,7 +974,7 @@
           "pnlPct": 0
         }
       },
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低"
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低"
     },
     {
       "symbol": "sh512880",
@@ -1042,7 +1006,7 @@
           "pnlPct": -1.84
         }
       },
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "防御模式 / 确认分偏低"
     },
     {
       "symbol": "hk03033",
@@ -1051,7 +1015,7 @@
       "market": "港股",
       "kind": "ETF",
       "entryPrice": 4.95,
-      "allocationPct": 7,
+      "allocationPct": 6,
       "eventTitle": "印度卢比汇率暴跌，市场押注央行意外加息",
       "eventType": "宏观类",
       "score": 10,
@@ -1059,8 +1023,8 @@
       "entryDate": "2026-06-03",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 7000.000000000001,
-      "currentValue": 6768.080808080808,
+      "entryValue": 6000,
+      "currentValue": 5801.212121212121,
       "currentPrice": 4.786,
       "pnlPct": -3.3131313131313247,
       "ageDays": 3,
@@ -1074,7 +1038,7 @@
           "pnlPct": -3.31
         }
       },
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
     },
     {
       "symbol": "usGLD",
@@ -1102,7 +1066,7 @@
           "pnlPct": -0.99
         }
       },
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分偏低"
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低"
     },
     {
       "symbol": "sh512880",
@@ -1145,10 +1109,10 @@
       "score": 6,
       "id": "2026-06-03-sz159928-政策类",
       "entryDate": "2026-06-03",
-      "status": "复盘中",
+      "status": "仓位等待",
       "capital": 100000,
-      "entryValue": 7000.000000000001,
-      "currentValue": 6926.315789473685,
+      "entryValue": 0,
+      "currentValue": 0,
       "currentPrice": 0.658,
       "pnlPct": -1.0526315789473693,
       "ageDays": 3,
@@ -1162,7 +1126,7 @@
           "pnlPct": -1.05
         }
       },
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "防御模式 / 确认分偏低"
     },
     {
       "symbol": "hk02800",
@@ -1261,10 +1225,10 @@
       "score": 5,
       "id": "2026-06-03-usUSO-供需/地缘",
       "entryDate": "2026-06-03",
-      "status": "复盘中",
+      "status": "仓位等待",
       "capital": 100000,
-      "entryValue": 6000,
-      "currentValue": 5814.234719895097,
+      "entryValue": 0,
+      "currentValue": 0,
       "currentPrice": 133.02,
       "pnlPct": -3.0960880017483787,
       "ageDays": 3,
@@ -1274,7 +1238,7 @@
           "pnlPct": 2.62
         }
       },
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "防御模式 / 确认分偏低"
     },
     {
       "symbol": "usXLE",
@@ -1302,7 +1266,7 @@
           "pnlPct": 1.29
         }
       },
-      "allocationReason": "谨慎模式 / 确认分偏低"
+      "allocationReason": "防御模式 / 确认分偏低"
     },
     {
       "symbol": "usQQQ",
@@ -1334,7 +1298,39 @@
           "pnlPct": -0.55
         }
       },
-      "allocationReason": "谨慎模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
+    },
+    {
+      "symbol": "hk02800",
+      "code": "2800",
+      "name": "盈富基金",
+      "market": "港股",
+      "kind": "ETF",
+      "entryPrice": 26.32,
+      "allocationPct": 7,
+      "eventTitle": "Pimco：人工智能尚未构成“久期供给冲击” 当...",
+      "eventType": "政策类",
+      "score": 6,
+      "id": "2026-06-02-hk02800-政策类",
+      "entryDate": "2026-06-02",
+      "status": "复盘中",
+      "capital": 100000,
+      "entryValue": 7000.000000000001,
+      "currentValue": 6723.40425531915,
+      "currentPrice": 25.28,
+      "pnlPct": -3.9513677811550116,
+      "ageDays": 4,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-03",
+          "pnlPct": 0
+        },
+        "d3": {
+          "date": "2026-06-05",
+          "pnlPct": -3.57
+        }
+      },
+      "allocationReason": "防御模式 / 确认分偏低"
     }
   ],
   "note": "纸面模拟盘自动记录模型信号，不构成真实投资建议。"
