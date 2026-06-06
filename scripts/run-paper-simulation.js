@@ -67,9 +67,12 @@ async function main() {
     const phaseStats = sandbox.getPaperPhaseStats(trades);
     const portfolio = sandbox.getPaperPortfolioStats(trades);
 
-    const activeTrades = trades.filter(trade => trade.status !== '过期');
-    const reviewed = trades.filter(trade => typeof trade.pnlPct === 'number' && trade.ageDays >= 1);
-    const wins = reviewed.filter(trade => trade.pnlPct > 0).length;
+    const effectiveTrades = trades.filter(trade => trade.status !== '重复剔除');
+    const activeTrades = trades.filter(sandbox.isPaperTradeActive);
+    const closedTrades = trades.filter(sandbox.isPaperTradeClosed);
+    const wins = closedTrades.filter(trade => Number(trade.finalPnlPct ?? trade.pnlPct) > 0).length;
+    const waitingCount = trades.filter(trade => trade.status === '仓位等待').length;
+    const excludedCount = trades.filter(trade => trade.status === '重复剔除').length;
 
     const output = {
         version: 1,
@@ -86,11 +89,15 @@ async function main() {
             score: item.score
         })),
         stats: {
-            sampleCount: trades.length,
+            sampleCount: effectiveTrades.length,
+            rawSampleCount: trades.length,
             activeCount: activeTrades.length,
-            reviewedCount: reviewed.length,
-            winRate: reviewed.length ? Math.round((wins / reviewed.length) * 100) : null,
-            avgPnl: reviewed.length ? reviewed.reduce((sum, trade) => sum + trade.pnlPct, 0) / reviewed.length : null,
+            closedCount: closedTrades.length,
+            waitingCount,
+            excludedCount,
+            reviewedCount: closedTrades.length,
+            winRate: closedTrades.length ? Math.round((wins / closedTrades.length) * 100) : null,
+            avgPnl: closedTrades.length ? closedTrades.reduce((sum, trade) => sum + Number(trade.finalPnlPct ?? trade.pnlPct ?? 0), 0) / closedTrades.length : null,
             equity: portfolio.equity,
             exposurePct: portfolio.exposurePct,
             alerts: portfolio.alerts
