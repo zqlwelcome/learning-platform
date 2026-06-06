@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 07:30",
+  "updateTime": "2026-06-07 07:35",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "芯片股‘崩盘式上涨’逆转，恐慌指数飙升",
-        "assets": "📉 美股半导体板块 利空",
-        "chain": "恐慌情绪传导至科技股，避险资金涌入美债（国债价格涨，收益率降）",
-        "watch": "VIX（恐慌指数）是否突破前高"
+        "what": "芯片股恐慌性抛售，VIX（恐慌指数）飙升",
+        "assets": "📉 美股半导体 承压；📈 VIX期货 利好",
+        "chain": "风险偏好收缩→资金涌入债市避险（Treasury bid），科技股估值承压（PE压缩）",
+        "watch": "今晚SOX（费城半导体指数）是否跌破200日均线"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX创全球IPO纪录，A股供应商曝光",
-        "assets": "📈 A股航天/卫星概念 利好",
-        "chain": "SpaceX估值提升带动A股供应链（如零部件商）估值重估",
-        "watch": "A股相关公司是否发订单公告"
+        "what": "SpaceX创全球IPO纪录，A股供应链跟涨",
+        "assets": "📈 航天军工/卫星通信A股 利好",
+        "chain": "SpaceX估值锚定效应→资金轮动至商业航天板块，带动上游材料（钛合金）需求预期",
+        "watch": "SpaceX上市首日涨幅及融资额是否超预期"
       }
     },
     {
       "rank": 3,
+      "title": "AI巨无霸，冲击IPO！警惕资本市场“最贵的陷阱”",
+      "source": "券商中国",
+      "detail": "“这次不同”或是资本市场最贵陷阱！ 人工智能初创公司Anthropic本周官方宣布，已向美国证券交易委员会（SEC）秘密递交S-1招股书，就在交表前夕...",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "某AI独角兽冲击IPO，市场质疑估值泡沫",
+        "assets": "📉 AI概念股 承压；📈 做空ETF 利好",
+        "chain": "高估值+烧钱模式引发抛压→传导至一级市场（VC）退出预期恶化，拖累科技板块",
+        "watch": "该AI公司营收增速与现金消耗率（burn rate）"
+      }
+    },
+    {
+      "rank": 4,
       "title": "视频|A股时隔8年再迎航司IPO！长龙航空拟募资20亿元 董事长年薪超1200万元 九成飞机靠租 资产负债率近90%",
       "source": "市场资讯",
       "detail": "A股市场表现受多重因素影响，建议关注政策面和资金面变化。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "长龙航空拟IPO募资20亿，负债率近90%",
-        "assets": "📉 A股航空板块 承压",
-        "chain": "高杠杆（借钱多）航司上市稀释市场资金，或引发对航司偿债能力担忧",
-        "watch": "IPO过会进度及负债率变化"
+        "what": "长龙航空IPO：高负债+高杠杆，航司复苏存疑",
+        "assets": "📉 航空板块 承压；📉 航空租赁股 利空",
+        "chain": "高负债率（90%）+租金成本→侵蚀利润，机构可能减持航空股，转配铁路（防御板块）",
+        "watch": "长龙航空招股书披露的燃油对冲比例"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "比特币暴跌，华尔街新加密热潮兴起",
-        "assets": "📉 比特币 利空；📈 机构加密ETF 利好",
-        "chain": "散户抛售比特币，资金转向合规加密产品（如ETF），降低波动风险",
-        "watch": "比特币ETF资金净流入量"
+        "what": "比特币暴跌，华尔街新加密衍生品崛起",
+        "assets": "📉 比特币 承压；📈 加密ETF/期货 利好",
+        "chain": "散户恐慌抛售→机构借波动率套利（vol arbitrage），资金从现货转向合规衍生品",
+        "watch": "CME比特币期货持仓量变化及基差（basis）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "花旗坚持预测美联储今年降息，其他投行放弃",
-        "assets": "📉 美元 承压；📈 美债 利好",
-        "chain": "降息预期（借钱成本降低）若兑现，美元走弱，新兴市场资金流入",
-        "watch": "美联储官员讲话及CPI（通胀率）数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
-      "source": "市场资讯",
-      "detail": "来源：华尔街见闻 高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "高盛因强劲非农数据放弃降息预测",
-        "assets": "📈 美元 利好；📉 美股 承压",
-        "chain": "非农强劲→加息预期（借钱成本提高）→打压股票估值，推升美元",
-        "watch": "下次非农数据及联储会议纪要"
+        "what": "花旗坚持预测美联储今年降息，市场普遍不认同",
+        "assets": "📈 美债（2年期） 利好；📉 美元指数 承压",
+        "chain": "降息预期→短端利率下行（yield curve steepening），拖累银行净息差（NIM），利好成长股",
+        "watch": "本周五PCE（个人消费支出物价指数）数据是否低于预期"
       }
     },
     {
       "rank": 7,
+      "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
+      "source": "市场资讯",
+      "detail": "来源：华尔街见闻 高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "美股芯片制造商市值，一日蒸发超万亿美元",
       "source": "央视",
       "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
@@ -94,7 +102,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
       "source": "环球市场播报",
       "detail": " 美联储理事迈克尔・巴尔对过去一年监管机构放宽美国银行监管标准的举措提出批评，称相关新规提案 “大幅削弱银行监管与督导力度”。",
@@ -102,20 +110,12 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "White House AI policy adviser Krishnan to leave position",
-      "source": "CNBC",
-      "detail": "Krishnan has been involved in Trump administration efforts to create a national framework for regulating AI developments.",
-      "lang": "en",
-      "score": 20
     }
   ]
 }
