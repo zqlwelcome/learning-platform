@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-07 08:46",
+  "updateTime": "2026-06-07 08:50",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX下周IPO募资750亿估值1.77万亿，美股AI板块重挫，下周将迎通胀数据及科技财报",
+      "source": "市场资讯",
+      "detail": "转自：金融界视点 马斯克旗下SpaceX将于6月12日登陆纳斯达克，股票代码SPCX，此次IPO以每股135美元的价格发行约5.56亿股，募资规模达750亿美元，整体估值1.77万亿美元...",
+      "lang": "zh",
+      "score": 60,
+      "insight": {
+        "what": "SpaceX下周IPO，AI板块暴跌，通胀数据和科技财报将至",
+        "assets": "📉 美股AI板块 利空；📈 SpaceX相关供应商 利好",
+        "chain": "IPO抽血效应（资金从AI流出），通胀若超预期将加剧科技股抛售",
+        "watch": "下周CPI数据及特斯拉等科技财报"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
       "source": "CNBC",
       "detail": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "芯片股暴跌，VIX恐慌指数飙升",
-        "assets": "📉 芯片股 承压，📈 VIX 利好",
-        "chain": "恐慌情绪蔓延，资金从科技股轮动至防御板块（如公用事业），可能触发量化基金抛售（系统性去杠杆）",
-        "watch": "VIX期货曲线（是否倒挂）及芯片龙头财报"
+        "what": "华尔街恐慌指数反弹，芯片股‘崩盘式上涨’逆转",
+        "assets": "📉 美股芯片股 利空；📈 VIX恐慌指数 利好",
+        "chain": "波动率飙升（恐慌情绪）触发量化基金减仓，流动性紧缩（资金紧张）打压风险资产",
+        "watch": "VIX是否突破25关口"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "SpaceX刷新全球IPO纪录，A股供应商曝光",
       "source": "21世纪经济报道",
       "detail": "来源：@21世纪经济报道微博 #SpaceX将于6月12日上市# 【#SpaceX刷新全球IPO纪录#，A股供应商曝光】据新华财经等报道，马斯克旗下SpaceX将于6月12日登陆纳斯达克...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX创全球IPO纪录，A股供应商受益",
-        "assets": "📈 航天概念股 利好，📈 美股科技股 情绪提振",
-        "chain": "SpaceX估值飙升（市场给予高倍数）带动产业链估值重估，A股供应商获资金炒作（主题投资）",
-        "watch": "SpaceX上市时间表及A股供应商订单披露"
+        "what": "SpaceX刷新全球IPO纪录，A股供应商曝光",
+        "assets": "📈 A股航天军工板块 利好；📉 其他IPO竞争股 承压",
+        "chain": "供应链跟涨（如连接器、钛合金企业），但高估值可能引发回调",
+        "watch": "A股供应商公告及订单确认"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "AI巨无霸，冲击IPO！警惕资本市场“最贵的陷阱”",
       "source": "券商中国",
       "detail": "“这次不同”或是资本市场最贵陷阱！ 人工智能初创公司Anthropic本周官方宣布，已向美国证券交易委员会（SEC）秘密递交S-1招股书，就在交表前夕...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "AI公司高估值IPO，被指市场陷阱",
-        "assets": "📉 AI概念股 承压，📉 科技IPO 情绪降温",
-        "chain": "高估值IPO破发风险（融资成本上升）引发对AI泡沫的质疑，资金可能转向现金流稳健的行业（防御性轮动）",
-        "watch": "该AI公司路演认购倍数及首日表现"
+        "what": "AI巨无霸IPO被指‘最贵陷阱’，警惕风险",
+        "assets": "📉 美股AI概念股 利空；📈 避险资产（黄金/美债） 利好",
+        "chain": "市场对AI泡沫（过度高估）担忧升级，资金转向防御性资产",
+        "watch": "SpaceX IPO首日涨幅及后续锁定期"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "视频|A股时隔8年再迎航司IPO！长龙航空拟募资20亿元 董事长年薪超1200万元 九成飞机靠租 资产负债率近90%",
       "source": "市场资讯",
       "detail": "A股市场表现受多重因素影响，建议关注政策面和资金面变化。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "长龙航空IPO，高负债率引担忧",
-        "assets": "📉 航空股 承压，📉 交通运输 板块情绪偏空",
-        "chain": "高杠杆（资产负债率90%）和租赁模式（资本开支压力）降低市场对航空业的信心，可能拖累板块估值（债务融资成本上升）",
-        "watch": "长龙航空发行市盈率及认购情况"
+        "what": "A股时隔8年再迎航司IPO，长龙航空拟募资20亿，负债率近90%",
+        "assets": "📉 A股航空板块 承压；📈 航空租赁/维修股 利好",
+        "chain": "高负债率（借钱多）稀释利润，IPO稀释（增发股份）现有股东权益",
+        "watch": "IPO定价及航空业客座率数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "比特币暴跌，华尔街推新加密产品",
-        "assets": "📉 比特币 承压，📈 加密ETF/期货 利好",
-        "chain": "比特币下跌（风险资产抛售）但机构通过结构化产品（如ETF）对冲，资金从现货转向合规衍生品，监管风险上升",
-        "watch": "比特币期货持仓量及SEC对新产品审批"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
-      "source": "市场资讯",
-      "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "仅花旗预测美联储今年降息",
-        "assets": "📈 美元 利好，📉 美债 承压，📉 黄金 承压",
-        "chain": "市场预期降息概率下降（利率维持高位），美元走强压制大宗商品，美债收益率（借钱成本）上升拖累成长股",
-        "watch": "周五非农数据及美联储官员讲话"
+        "what": "比特币暴跌，但华尔街新加密热潮兴起",
+        "assets": "📉 比特币 利空；📈 华尔街加密ETF 利好",
+        "chain": "资金从现货币转向合规ETF（交易所交易基金），监管优化（政策变好）推动机构入场",
+        "watch": "SEC对以太坊ETF的审批进展"
       }
     },
     {
       "rank": 7,
+      "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
+      "source": "市场资讯",
+      "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期...",
@@ -94,7 +102,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美股芯片制造商市值，一日蒸发超万亿美元",
       "source": "央视",
       "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
@@ -102,20 +110,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
       "source": "环球市场播报",
       "detail": " 美联储理事迈克尔・巴尔对过去一年监管机构放宽美国银行监管标准的举措提出批评，称相关新规提案 “大幅削弱银行监管与督导力度”。",
       "lang": "zh",
       "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
-      "source": "CNBC",
-      "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
-      "lang": "en",
-      "score": 29
     }
   ]
 }
