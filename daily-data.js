@@ -581,67 +581,35 @@ function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
             <div class="a-radar-copy">不是看谁今天最吵，而是看热钱正在押哪条主线、有没有过热、和交易池/模拟盘有没有形成闭环。</div>
         </div>
         <div class="a-sector-list">
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">1</span>
-                            <span class="a-sector-name">电力板块</span>
-                            <span class="a-sector-change">+3.2%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 电力发电、输电、配电公司</div>
-                            <div class="a-sector-reason">🔍 原因：夏季用电高峰+新能源政策</div>
-                            <div class="a-sector-impact">💡 参考：防御性板块，适合稳健型投资者</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">2</span>
-                            <span class="a-sector-name">白酒板块</span>
-                            <span class="a-sector-change">+2.8%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 白酒酿造和销售公司</div>
-                            <div class="a-sector-reason">🔍 原因：消费复苏+茅台效应</div>
-                            <div class="a-sector-impact">💡 参考：高端消费品，受经济周期影响大</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item up">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">3</span>
-                            <span class="a-sector-name">超级电容</span>
-                            <span class="a-sector-change">+2.1%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 超级电容器技术公司</div>
-                            <div class="a-sector-reason">🔍 原因：新能源储能需求增长</div>
-                            <div class="a-sector-impact">💡 参考：成长性板块，波动较大</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item down">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">4</span>
-                            <span class="a-sector-name">半导体设备</span>
-                            <span class="a-sector-change">-4.5%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 芯片制造设备公司</div>
-                            <div class="a-sector-reason">🔍 原因：行业周期调整+估值回归</div>
-                            <div class="a-sector-impact">💡 参考：长期看好但短期可能继续调整</div>
-                        </div>
-                    </div>
-                    <div class="a-sector-item down">
-                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                            <span class="a-sector-rank">5</span>
-                            <span class="a-sector-name">算力概念</span>
-                            <span class="a-sector-change">-3.8%</span>
-                        </div>
-                        <div class="a-sector-detail">
-                            <div class="a-sector-explain">📌 AI计算能力相关公司</div>
-                            <div class="a-sector-reason">🔍 原因：前期涨幅过大+获利回吐</div>
-                            <div class="a-sector-impact">💡 参考：AI长期趋势不变，短期需消化估值</div>
-                        </div>
-                    </div>
+            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；用于判断主线，不是直接买入指令。</div>
+            ${sectors.map((sector, index) => renderSectorHeatCard(sector, index)).join('')}
+        </div>
+    `;
+}
+
+function renderSectorHeatCard(sector, index) {
+    const directionClass = sector.bias === '降温' ? 'down' : 'up';
+    const readiness = getSectorReadiness(sector);
+    return `
+        <div class="a-sector-item ${directionClass}">
+            <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                <span class="a-sector-rank">${index + 1}</span>
+                <span class="a-sector-name">${safeText(sector.name)}</span>
+                <span class="a-sector-change">${safeText(sector.bias)} ${sector.score}</span>
+            </div>
+            <div class="a-sector-detail">
+                <div class="sector-mainline">
+                    <span>${safeText(readiness.label)}</span>
+                    <b>${safeText(readiness.action)}</b>
                 </div>
+                <div class="a-sector-explain">资金在看：${safeText(sector.watch)}</div>
+                <div class="a-sector-reason">交易员逻辑：${safeText(sector.reason)}</div>
+                <div class="a-sector-impact">小白翻译：${safeText(sector.beginner)}</div>
+                <div class="a-target-list">
+                    <span>代表资产</span>
+                    ${sector.targets.map(target => renderSectorTargetBadge(target)).join('')}
+                </div>
+                <div class="a-flow-impact">和交易池关系：${safeText(readiness.link)}</div>
             </div>
         </div>
     `;
