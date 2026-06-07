@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 09:50",
+  "updateTime": "2026-06-07 09:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX下周IPO，估值1.77万亿美元，美股AI板块承压",
-        "assets": "📉 美股AI板块 利空；📈 SpaceX概念股 利好",
-        "chain": "资金从AI股轮动至SpaceX，可能引发科技股整体回调（risk-off情绪）",
-        "watch": "下周通胀数据及科技财报，确认资金流向"
+        "what": "SpaceX下周IPO，估值1.77万亿，AI板块重挫",
+        "assets": "📈 SpaceX概念股 利好",
+        "chain": "抽血效应：资金从AI板块流向新经济IPO，压制科技成长股",
+        "watch": "下周通胀数据及科技财报指引"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "美股恐慌指数（VIX）反弹，芯片股涨势反转",
-        "assets": "📉 美股芯片股 利空；📈 避险资产（黄金/美债） 利好",
-        "chain": "波动率上升（恐慌情绪）→对冲需求增→资金从风险资产撤向避险",
-        "watch": "VIX是否持续高于20，确认市场情绪恶化"
+        "what": "恐慌指数反弹，芯片股‘崩涨’反转",
+        "assets": "📉 美股芯片股 承压",
+        "chain": "波动率上升（VIX涨）→ 对冲成本增加 → 资金从高贝塔（高波动）资产撤出",
+        "watch": "VIX是否持续上行"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 45,
       "insight": {
         "what": "SpaceX刷新全球IPO纪录，A股供应商曝光",
-        "assets": "📈 A股航天概念股 利好；📈 SpaceX概念股 利好",
-        "chain": "A股供应商受益于订单预期（供应链效应），但需警惕过度炒作",
-        "watch": "供应商公司公告及订单确认情况"
+        "assets": "📈 A股航天/电子元件 利好",
+        "chain": "供应链映射逻辑：SpaceX上市→供应商估值重估→带动A股相关小票",
+        "watch": "A股供应商订单公告"
       }
     },
     {
@@ -51,50 +51,42 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "AI巨无霸IPO被警告为‘最贵的陷阱’，估值泡沫风险",
-        "assets": "📉 美股科技股 利空；📉 成长股 承压",
-        "chain": "IPO估值过高（高PE）→上市后可能破发，打击一级市场信心，拖累同类股",
-        "watch": "IPO首日涨跌幅及后续估值修复情况"
+        "what": "AI巨无霸IPO，警惕‘最贵的陷阱’",
+        "assets": "📉 AI概念股 承压",
+        "chain": "估值泡沫担忧（PE过高）→ 资金获利了结 → 转向防御性资产",
+        "watch": "AI板块资金流向"
       }
     },
     {
       "rank": 5,
-      "title": "视频|A股时隔8年再迎航司IPO！长龙航空拟募资20亿元 董事长年薪超1200万元 九成飞机靠租 资产负债率近90%",
-      "source": "市场资讯",
-      "detail": "A股市场表现受多重因素影响，建议关注政策面和资金面变化。",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "A股时隔8年再迎航司IPO，长龙航空拟募资20亿，负债率近90%",
-        "assets": "📉 A股航空板块 承压；📉 长龙航空 利空",
-        "chain": "高负债率（财务杠杆高）→融资主要用于偿债，稀释现有股东权益，航空股估值承压",
-        "watch": "IPO认购倍数及上市后股价表现"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "比特币暴跌，但华尔街新加密热潮兴起",
-        "assets": "📉 比特币 利空；📈 以太坊/合规代币 利好",
-        "chain": "资金从比特币撤出，转向机构青睐的合规加密资产（如ETF相关币种）",
-        "watch": "比特币是否跌破关键支撑位，及新加密ETF申请动态"
+        "what": "比特币暴跌，华尔街新加密热潮兴起",
+        "assets": "📉 比特币 承压",
+        "chain": "监管风险（SEC打压）+ 机构转向合规代币 → 资金从比特币流向机构代币",
+        "watch": "SEC对以太坊ETF的决定"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "花旗坚持美联储年内降息，其他投行全放弃",
+        "assets": "📈 美债 利好",
+        "chain": "降息预期（借钱成本降低）→ 美债收益率下行 → 风险资产估值支撑",
+        "watch": "下周CPI数据及点阵图"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "美股芯片制造商市值，一日蒸发超万亿美元",
       "source": "央视",
       "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
@@ -102,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
       "source": "环球市场播报",
       "detail": " 美联储理事迈克尔・巴尔对过去一年监管机构放宽美国银行监管标准的举措提出批评，称相关新规提案 “大幅削弱银行监管与督导力度”。",
@@ -110,12 +102,20 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
       "lang": "en",
       "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "White House AI policy adviser Krishnan to leave position",
+      "source": "CNBC",
+      "detail": "Krishnan has been involved in Trump administration efforts to create a national framework for regulating AI developments.",
+      "lang": "en",
+      "score": 20
     }
   ]
 }
