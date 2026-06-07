@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 17:01",
+  "updateTime": "2026-06-07 17:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX下周IPO，估值1.77万亿，美股AI板块重挫",
-        "assets": "📉 美股AI板块 利空，📈 SpaceX概念股 利好",
-        "chain": "资金从AI流向SpaceX，引发科技股调整，下周通胀数据或加剧波动（波动率）",
-        "watch": "SpaceX认购倍数及下周CPI（消费者物价指数）数据"
+        "what": "SpaceX下周IPO，估值1.77万亿，AI板块重挫",
+        "assets": "📉 美股AI板块 承压；📈 航天/军工股 利好",
+        "chain": "资金从AI撤出转投SpaceX，引发科技股回调（板块轮动），下周通胀数据或加剧波动（波动率上升）",
+        "watch": "下周CPI（消费者物价指数）及特斯拉/苹果财报"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "兴证策略认为美股暴跌是结构再平衡，A股7月科技有望回归",
-        "assets": "📈 A股科技股 利好，📉 美股科技股 中性",
-        "chain": "美股资金溢出可能流入A股，但需业绩期验证，否则只是短期轮动（板块切换）",
-        "watch": "A股科技股中报预增公告及北向资金流向"
+        "what": "兴证策略称美股暴跌是结构再平衡，A股科技7月回归",
+        "assets": "📈 A股科技股 利好；📉 美股 短期承压",
+        "chain": "外资可能从美股流向A股（资金再平衡），7月业绩期催化科技股反弹（盈利驱动）",
+        "watch": "北向资金（外资流入A股）及A股科技中报预增"
       }
     },
     {
@@ -37,28 +37,14 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "华尔街恐慌指数回升，芯片股‘崩盘式上涨’逆转",
-        "assets": "📉 美股半导体 利空，📈 VIX（恐慌指数） 利好",
-        "chain": "芯片股回调引发避险情绪，VIX飙升，资金转向防御板块（如公用事业）",
-        "watch": "SOX（费城半导体指数）是否跌破关键技术位"
+        "what": "华尔街恐慌指数飙升，芯片股‘崩盘式上涨’反转",
+        "assets": "📉 美股半导体 承压；📈 VIX（波动率指数） 利好",
+        "chain": "芯片股获利盘涌出（止盈），恐慌情绪蔓延至整个科技板块，加剧系统性抛售（Beta风险）",
+        "watch": "费城半导体指数（SOX）及VIX是否破30"
       }
     },
     {
       "rank": 4,
-      "title": "芯德半导体IPO：赎回负债压顶，四大产品线增长降速，三年累亏超12亿",
-      "source": "市场资讯",
-      "detail": "来源：证券之星 首份招股书失效后，江苏芯德半导体科技股份有限公司（以下简称芯德半导体）近期再次向港交所递交上市申请。 证券之星注意到，在获得多轮融资的同时...",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "芯德半导体IPO：负债高，产品线增长放缓，三年亏损超12亿",
-        "assets": "📉 芯德半导体 利空，📉 半导体新股 承压",
-        "chain": "IPO质量差打击市场信心，可能拉低板块估值，尤其亏损科技股（估值压缩）",
-        "watch": "IPO定价及首日破发情况"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
@@ -66,35 +52,41 @@
       "score": 37,
       "insight": {
         "what": "比特币暴跌，但华尔街新加密热潮兴起",
-        "assets": "📉 比特币 利空，📈 加密概念股（如Coinbase） 利好",
-        "chain": "资金从BTC转向合规加密资产，ETF（交易所交易基金）热度支撑新标的",
-        "watch": "SEC（美国证监会）对加密ETF的审批进展"
+        "assets": "📉 比特币 承压；📈 华尔街加密概念股 利好",
+        "chain": "资金从BTC（比特币）转向合规加密ETF（交易所交易基金），机构化趋势加强（去散户化）",
+        "watch": "比特币ETF资金流入及SEC（美国证监会）监管动态"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "分析：欧洲央行跃升为七国集团头号鹰派，加息蓄势待发",
       "source": "环球市场播报",
       "detail": "受伊朗局势影响，欧元区下周加息落地后，欧洲央行将站在全球货币政策收紧的前沿。 市场预计欧洲央行周四将加息25个基点。相较于澳大利亚...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行成G7最鹰派，加息蓄势待发",
-        "assets": "📈 欧元 利好，📉 欧债 承压",
-        "chain": "加息预期推高欧元，压制欧股，利差扩大可能引发全球资金再配置（carry trade）",
-        "watch": "欧洲央行利率决议及欧元区通胀数据"
+        "what": "欧洲央行成G7头号鹰派，加息预期升温",
+        "assets": "📈 欧元 利好；📉 欧洲国债 承压",
+        "chain": "欧央行加息（提高借钱成本）拉高欧元，压制欧洲出口（汇率传导），同时施压全球流动性（紧缩效应）",
+        "watch": "下周欧元区CPI及欧央行行长讲话"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "猛烈抛售！美联储，加息大消息！",
       "source": "券商中国",
       "detail": "美联储正面临重大考验。 在一份爆表的非农就业报告发布后，关于美联储加息的讨论愈发激烈。其中，美国国债市场更是遭遇了猛烈抛售...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "猛烈抛售！美联储加息大消息",
+        "assets": "📉 全球股市 承压；📈 美元 利好",
+        "chain": "加息预期（提高资金成本）引发风险资产抛售，美元走强（避险+利差），新兴市场资金外流（资本外逃）",
+        "watch": "美联储会议纪要及非农就业数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
       "source": "环球市场播报",
       "detail": " 美联储理事迈克尔・巴尔对过去一年监管机构放宽美国银行监管标准的举措提出批评，称相关新规提案 “大幅削弱银行监管与督导力度”。",
@@ -102,7 +94,7 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "下周影响市场重要资讯前瞻：5月CPI、PPI数据将公布，苹果、华为开发者大会将陆续举行，SpaceX发行上市交易",
       "source": "股市直击",
       "detail": "国新办新闻发布会介绍《城市更新“十五五”规划》有关情况；5月CPI、PPI数据将公布；新增贷款、M2等金融数据或将公布；苹果、华为开发者大会将陆续举行；2026年美加墨世界杯...",
@@ -110,12 +102,20 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
       "lang": "en",
       "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "英国将采购本国科技企业生产的AI芯片",
+      "source": "环球市场播报",
+      "detail": "据媒体周日报道，英国政府将提出采购本国科技企业生产的人工智能芯片，以此鼓励这类企业留在英国发展。 该报援引提案草案概述称，英国科技大臣将于本周在伦敦科技周会议上...",
+      "lang": "zh",
+      "score": 25
     }
   ]
 }
