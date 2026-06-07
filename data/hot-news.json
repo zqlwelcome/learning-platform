@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 10:00",
+  "updateTime": "2026-06-07 10:06",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "市场资讯",
       "detail": "转自：金融界视点 马斯克旗下SpaceX将于6月12日登陆纳斯达克，股票代码SPCX，此次IPO以每股135美元的价格发行约5.56亿股，募资规模达750亿美元，整体估值1.77万亿美元...",
       "lang": "zh",
-      "score": 60
+      "score": 60,
+      "insight": {
+        "what": "SpaceX下周IPO募资750亿，估值1.77万亿",
+        "assets": "📉 美股AI板块 承压；📈 SpaceX概念股 利好",
+        "chain": "抽血效应（资金从AI板块流向IPO），科技股回调或拖累纳指（科技股指数）",
+        "watch": "下周通胀数据及科技财报"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "CNBC",
       "detail": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
       "lang": "en",
-      "score": 49
+      "score": 49,
+      "insight": {
+        "what": "恐慌指数反弹，芯片股‘崩盘式上涨’逆转",
+        "assets": "📉 美股芯片股 承压；📈 VIX（恐慌指数） 上行",
+        "chain": "避险情绪升温，资金从风险资产（股票）转向美债（国债）或黄金（避险资产）",
+        "watch": "VIX是否突破20关口"
+      }
     },
     {
       "rank": 3,
@@ -23,7 +35,13 @@
       "source": "21世纪经济报道",
       "detail": "来源：@21世纪经济报道微博 #SpaceX将于6月12日上市# 【#SpaceX刷新全球IPO纪录#，A股供应商曝光】据新华财经等报道，马斯克旗下SpaceX将于6月12日登陆纳斯达克...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX刷新全球IPO纪录，A股供应商曝光",
+        "assets": "📈 A股航天/电子供应商 利好；📉 其他新股 承压",
+        "chain": "A股炒作概念（题材股），资金从其他板块流入，短线波动加大",
+        "watch": "A股相关概念股成交量变化"
+      }
     },
     {
       "rank": 4,
@@ -31,7 +49,13 @@
       "source": "券商中国",
       "detail": "“这次不同”或是资本市场最贵陷阱！ 人工智能初创公司Anthropic本周官方宣布，已向美国证券交易委员会（SEC）秘密递交S-1招股书，就在交表前夕...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "媒体警告AI巨无霸IPO是‘最贵的陷阱’",
+        "assets": "📉 美股AI/科技股 承压；📈 做空期权 利好",
+        "chain": "估值泡沫担忧（价格过高），引发获利了结（卖股票），或波及整个成长股（高增长公司）",
+        "watch": "IPO首日涨幅及后续股价走势"
+      }
     },
     {
       "rank": 5,
@@ -39,7 +63,13 @@
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
       "lang": "en",
-      "score": 37
+      "score": 37,
+      "insight": {
+        "what": "比特币暴跌，华尔街新加密货币热潮兴起",
+        "assets": "📉 比特币 承压；📈 机构代币/ETF 利好",
+        "chain": "资金从散户币（比特币）转向合规产品（ETF），监管风险（政策打压）压制币圈",
+        "watch": "比特币是否跌破关键支撑位"
+      }
     },
     {
       "rank": 6,
@@ -47,18 +77,16 @@
       "source": "券商中国",
       "detail": "美联储正面临重大考验。 在一份爆表的非农就业报告发布后，关于美联储加息的讨论愈发激烈。其中，美国国债市场更是遭遇了猛烈抛售...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美联储加息信号引发猛烈抛售",
+        "assets": "📉 美股/美债 承压；📈 美元 利好",
+        "chain": "加息预期（借钱成本上升）打压风险资产，资金回流美元，新兴市场（发展中国家）承压",
+        "watch": "下周美联储官员讲话及CPI（通胀）数据"
+      }
     },
     {
       "rank": 7,
-      "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
-      "source": "市场资讯",
-      "detail": "来源：华尔街见闻 花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将“重新定价降息可能性，而非加息概率”。",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 8,
       "title": "美股芯片制造商市值，一日蒸发超万亿美元",
       "source": "央视",
       "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
@@ -66,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
       "source": "环球市场播报",
       "detail": " 美联储理事迈克尔・巴尔对过去一年监管机构放宽美国银行监管标准的举措提出批评，称相关新规提案 “大幅削弱银行监管与督导力度”。",
@@ -74,12 +102,20 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
       "lang": "en",
       "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "White House AI policy adviser Krishnan to leave position",
+      "source": "CNBC",
+      "detail": "Krishnan has been involved in Trump administration efforts to create a national framework for regulating AI developments.",
+      "lang": "en",
+      "score": 20
     }
   ]
 }
