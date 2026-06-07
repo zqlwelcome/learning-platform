@@ -491,6 +491,79 @@
     font-weight: 500;
 }
 
+.lesson-deep-pack {
+    margin-top: 18px;
+    padding: 14px;
+    border: 0.5px solid var(--border2);
+    border-radius: 14px;
+    background: var(--bg);
+}
+
+.lesson-deep-head {
+    margin-bottom: 12px;
+}
+
+.lesson-deep-kicker {
+    display: block;
+    font-size: 11px;
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.lesson-deep-head b {
+    display: block;
+    font-size: 15px;
+    line-height: 1.35;
+    color: var(--text);
+}
+
+.lesson-deep-grid {
+    display: grid;
+    gap: 8px;
+}
+
+.lesson-deep-card {
+    padding: 10px;
+    border-radius: 10px;
+    background: var(--card);
+    border: 0.5px solid var(--border);
+}
+
+.lesson-deep-card span,
+.lesson-reading-list span {
+    display: block;
+    font-size: 11px;
+    color: var(--text3);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.lesson-deep-card p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--text);
+}
+
+.lesson-reading-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+.lesson-reading-list a {
+    display: block;
+    padding: 9px 10px;
+    border-radius: 10px;
+    background: rgba(0, 113, 227, 0.08);
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 /* 响应式布局 */
 @media (max-width: 360px) {
     .course-series-grid {
