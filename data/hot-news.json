@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 17:50",
+  "updateTime": "2026-06-07 17:56",
   "news": [
     {
       "rank": 1,
@@ -9,42 +9,28 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX下周IPO，募资750亿，估值1.77万亿",
-        "assets": "📉 美股AI板块 承压；📈 SpaceX概念股 利好",
-        "chain": "资金从AI板块轮动至SpaceX，科技股面临抽血效应（流动性收缩）",
-        "watch": "IPO认购倍数及首日涨幅"
+        "what": "SpaceX下周IPO，美股AI板块重挫",
+        "assets": "📉 美股AI板块 承压, 📈 SpaceX 利好",
+        "chain": "资金从AI板块流向SpaceX，市场避险情绪（害怕不确定性）升温",
+        "watch": "下周通胀数据和科技财报"
       }
     },
     {
       "rank": 2,
-      "title": "兴证策略：美股周五暴跌是结构再平衡，行情核心逻辑不变，A股7月业绩期科技有望再度回归",
-      "source": "市场资讯",
-      "detail": "兴证策略：如何看待美股黑色星期五？如何影响A股？ 来源：尧望后势 一、如何看待美股黑色星期五？调整的本质是什么？ 6月5日美股上演“黑色星期五”...",
-      "lang": "zh",
-      "score": 50,
-      "insight": {
-        "what": "兴证策略认为美股暴跌是结构再平衡，A股科技7月回归",
-        "assets": "📈 A股科技股 利好；📉 美股科技股 短期承压",
-        "chain": "外资可能从美股流向A股，形成跨市场轮动（资金再配置）",
-        "watch": "A股科技股中报业绩增速及北向资金流向"
-      }
-    },
-    {
-      "rank": 3,
       "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
       "source": "CNBC",
       "detail": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "华尔街恐慌指数飙升，芯片股‘崩涨’反转",
-        "assets": "📉 美股芯片股 承压；📈 波动率指数（VIX） 利好",
-        "chain": "芯片股暴跌引发避险情绪，资金涌入国债和黄金（risk-off交易）",
-        "watch": "费城半导体指数（SOX）是否跌破关键支撑位"
+        "what": "恐慌指数反弹，芯片股涨势逆转",
+        "assets": "📉 美股芯片股 承压, 📈 VIX恐慌指数 利好",
+        "chain": "波动率飙升触发程序化抛售（算法自动卖出），加剧科技股回调",
+        "watch": "VIX是否持续高于20"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
@@ -52,49 +38,55 @@
       "score": 37,
       "insight": {
         "what": "比特币暴跌，但华尔街新加密热潮兴起",
-        "assets": "📉 比特币 承压；📈 加密ETF及机构币 利好",
-        "chain": "散户抛售比特币，机构转向合规加密产品（如ETF），市场分化加剧",
-        "watch": "比特币ETF资金流入量及监管政策动态"
+        "assets": "📉 比特币 承压, 📈 华尔街加密概念股 利好",
+        "chain": "机构资金从比特币转向合规加密产品（如ETF），引发短期抛压",
+        "watch": "比特币是否跌破关键支撑位"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "分析：欧洲央行跃升为七国集团头号鹰派，加息蓄势待发",
       "source": "环球市场播报",
       "detail": "受伊朗局势影响，欧元区下周加息落地后，欧洲央行将站在全球货币政策收紧的前沿。 市场预计欧洲央行周四将加息25个基点。相较于澳大利亚...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行跃升为G7头号鹰派，加息蓄势待发",
-        "assets": "📈 欧元 利好；📉 欧债 承压",
-        "chain": "欧元加息预期推高欧元汇率，压制欧洲出口股，利空新兴市场（资金回流欧洲）",
-        "watch": "欧洲央行7月会议利率决议及点阵图"
+        "what": "欧洲央行成G7最鹰派，加息在即",
+        "assets": "📈 欧元 利好, 📉 欧债 承压",
+        "chain": "加息预期推高欧元汇率，利空欧洲出口企业（成本上升）",
+        "watch": "欧洲央行下次会议利率决议"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "猛烈抛售！美联储，加息大消息！",
       "source": "券商中国",
       "detail": "美联储正面临重大考验。 在一份爆表的非农就业报告发布后，关于美联储加息的讨论愈发激烈。其中，美国国债市场更是遭遇了猛烈抛售...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "猛烈抛售！美联储可能加息消息发酵",
-        "assets": "📉 美股 承压；📈 美元 利好",
-        "chain": "加息预期推高美债收益率（借钱成本上升），压制科技股估值（DCF模型折现率提高）",
-        "watch": "美国CPI数据及美联储官员讲话措辞"
+        "what": "美联储放鹰，市场猛烈抛售",
+        "assets": "📉 美股 承压, 📈 美元 利好",
+        "chain": "加息预期升温，美债收益率（借钱成本）飙升，打压成长股估值",
+        "watch": "美联储官员后续讲话及就业数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "市值突破200亿，从濒临退市到科技新秀，行云科技押注AI能否翻身？",
       "source": "市场资讯",
       "detail": "来源：尺度商业 文 | 杨万里 编辑 | 刘振涛 一个“涅槃重生”的资本大戏已经在A股上演。一家破产重整的上市公司，经过更换实控人以及战略性押注AI，摇身一变成为科技新秀...",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "行云科技市值破200亿，押注AI翻身",
+        "assets": "📈 行云科技 利好, 📉 其他AI概念股 承压",
+        "chain": "个股利好但监管风险（退市阴影）未消，资金可能短线炒作",
+        "watch": "行云科技下一季度财报及AI业务收入"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
@@ -102,7 +94,7 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "以色列央行：5月购入8.01亿美元外汇 维护市场平稳运行",
       "source": "环球市场播报",
       "detail": "以色列央行表示，该行5月购入8.01亿美元外汇，此举旨在专门维护市场有序运转。",
@@ -110,12 +102,20 @@
       "score": 28
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "英国将采购本国科技企业生产的AI芯片",
       "source": "环球市场播报",
       "detail": "据媒体周日报道，英国政府将提出采购本国科技企业生产的人工智能芯片，以此鼓励这类企业留在英国发展。 该报援引提案草案概述称，英国科技大臣将于本周在伦敦科技周会议上...",
       "lang": "zh",
       "score": 25
+    },
+    {
+      "rank": 10,
+      "title": "White House AI policy adviser Krishnan to leave position",
+      "source": "CNBC",
+      "detail": "Krishnan has been involved in Trump administration efforts to create a national framework for regulating AI developments.",
+      "lang": "en",
+      "score": 20
     }
   ]
 }
