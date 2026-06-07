@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-07 15:26",
+  "updateTime": "2026-06-07 15:31",
   "news": [
     {
       "rank": 1,
+      "title": "周末影响市场重要资讯回顾：交易员预计美联储将到明年1月底前加息25个基点，中国央行连续第19个月增持黄金",
+      "source": "新浪证券",
+      "detail": "本周末影响市场的重要资讯有：国办发布关于加强监管防范风险促进私募投资基金高质量发展的指导意见；吴清最新表态，持续完善程序化交易监管机制安排，坚决打击操纵市场...",
+      "lang": "zh",
+      "score": 66,
+      "insight": {
+        "what": "交易员押注美联储1月底前加息25bp（基点）",
+        "assets": "📈 美元指数 利好，📉 美债 承压",
+        "chain": "加息预期推高短端利率（短期借贷成本），压制风险资产（股票、加密货币）估值",
+        "watch": "美联储官员讲话及CME FedWatch（利率期货概率）变化"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX下周IPO募资750亿估值1.77万亿，美股AI板块重挫，下周将迎通胀数据及科技财报",
       "source": "市场资讯",
       "detail": "转自：金融界视点 马斯克旗下SpaceX将于6月12日登陆纳斯达克，股票代码SPCX，此次IPO以每股135美元的价格发行约5.56亿股，募资规模达750亿美元，整体估值1.77万亿美元...",
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX下周IPO，估值1.77万亿，美股AI芯片股大跌",
-        "assets": "📉 美股AI板块 承压；📈 SpaceX相关供应商 A股 利好",
-        "chain": "资金从AI芯片股轮动至SpaceX概念，加剧科技股波动（板块轮动效应）",
-        "watch": "下周通胀数据及科技财报，确认资金流向"
+        "what": "中国央行连续19个月增持黄金储备",
+        "assets": "📈 黄金 利好，📉 人民币 承压",
+        "chain": "央行去美元化（减少美元依赖）支撑金价，但消耗外储（外汇储备）削弱汇率稳定性",
+        "watch": "中国外储数据及央行购金量月度更新"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
       "source": "CNBC",
       "detail": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "华尔街恐慌指数反弹，芯片股‘崩涨’逆转",
-        "assets": "📉 美股芯片股 承压；📈 VIX恐慌指数 上行",
-        "chain": "波动率飙升（VIX涨）触发量化基金（程序化交易）减仓，放大抛压",
-        "watch": "VIX是否突破20关口，及芯片股支撑位"
+        "what": "SpaceX IPO估值1.77万亿，AI板块重挫",
+        "assets": "📈 SpaceX相关供应商 利好，📉 美股AI板块 承压",
+        "chain": "SpaceX吸走流动性（资金从AI流出），叠加通胀数据前避险情绪，科技股遭抛售",
+        "watch": "下周CPI（消费者物价指数）及微软、谷歌财报"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX刷新全球IPO纪录，A股供应商曝光",
       "source": "21世纪经济报道",
       "detail": "来源：@21世纪经济报道微博 #SpaceX将于6月12日上市# 【#SpaceX刷新全球IPO纪录#，A股供应商曝光】据新华财经等报道，马斯克旗下SpaceX将于6月12日登陆纳斯达克...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX刷新全球IPO纪录，A股供应商曝光",
-        "assets": "📈 SpaceX相关A股供应商 利好；📉 传统航天股 承压",
-        "chain": "供应链炒作（题材股热）分流资金，但需警惕估值泡沫（PE过高风险）",
-        "watch": "A股供应商订单公告及SpaceX上市后股价表现"
+        "what": "华尔街恐慌指数（VIX）飙升，芯片股暴跌",
+        "assets": "📈 VIX（波动率指数） 利好，📉 美股半导体 承压",
+        "chain": "芯片股‘假涨真跌’（crash up）反转，波动率飙升触发程序化抛售（算法交易），拖累纳指",
+        "watch": "费城半导体指数（SOX）能否守住关键支撑位"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "比特币暴跌，但华尔街新加密热潮兴起",
-        "assets": "📉 比特币 承压；📈 机构级加密产品（如ETF） 利好",
-        "chain": "散户恐慌抛售（FUD情绪） vs 机构逢低布局（合规化趋势），分化加剧",
-        "watch": "比特币是否跌破6万美元，及SEC对加密ETF审批"
+        "what": "比特币暴跌，华尔街新加密热潮兴起",
+        "assets": "📉 比特币 承压，📈 加密ETF/合规代币 利好",
+        "chain": "散户资金逃离BTC（比特币），机构转向合规加密产品（如现货ETF），分化加剧",
+        "watch": "SEC（美国证监会）对以太坊ETF的审批进展"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "猛烈抛售！美联储，加息大消息！",
       "source": "券商中国",
       "detail": "美联储正面临重大考验。 在一份爆表的非农就业报告发布后，关于美联储加息的讨论愈发激烈。其中，美国国债市场更是遭遇了猛烈抛售...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息预期升温，市场猛烈抛售",
-        "assets": "📉 美股大盘 承压；📈 美元指数 利好；📉 黄金 承压",
-        "chain": "加息预期推高美债收益率（无风险利率），压制成长股估值（DCF模型贴现率上升）",
-        "watch": "下周CPI数据（通胀指标）及鲍威尔讲话"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "美股芯片制造商市值，一日蒸发超万亿美元",
-      "source": "央视",
-      "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "美股芯片制造商市值一日蒸发超万亿美元",
-        "assets": "📉 美股芯片股（如英伟达、AMD） 承压；📉 科技ETF 承压",
-        "chain": "芯片股暴跌引发杠杆基金（对冲基金）去杠杆，可能传导至整个科技板块",
-        "watch": "芯片股龙头（英伟达）能否守住关键均线（如50日线）"
+        "what": "美联储加息大消息引发猛烈抛售",
+        "assets": "📉 全球股市 承压，📈 美元 利好",
+        "chain": "加息预期推高实际利率（扣除通胀后的利率），压制风险偏好，新兴市场资本外流",
+        "watch": "美国2年期和10年期国债利差（衰退预警指标）是否倒挂加深"
       }
     },
     {
       "rank": 7,
+      "title": "美股芯片制造商市值，一日蒸发超万亿美元",
+      "source": "央视",
+      "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
+      "lang": "zh",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
       "source": "环球市场播报",
       "detail": " 美联储理事迈克尔・巴尔对过去一年监管机构放宽美国银行监管标准的举措提出批评，称相关新规提案 “大幅削弱银行监管与督导力度”。",
@@ -94,7 +102,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
@@ -102,20 +110,12 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "韩国投资者持续扫货A股！5大重仓股曝光 寒武纪单月吸金近2000万美元",
       "source": "红星资本局",
       "detail": "红星资本局6月7日消息，近期，韩国投资者正持续加码布局中国硬科技资产。 数据显示，过去1个月，寒武纪、麦格米特、机器人ETF华夏...",
       "lang": "zh",
       "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "白宫人工智能政策顾问斯里拉姆·克里希南即将离任",
-      "source": "环球市场播报",
-      "detail": "特朗普政府首席人工智能政策顾问斯里拉姆·克里希南计划于6月底离任。两位知情人士透露，克里希南已商议在卸任后创办一家政策研究机构。",
-      "lang": "zh",
-      "score": 17
     }
   ]
 }
