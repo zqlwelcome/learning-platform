@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 22:26",
+  "updateTime": "2026-06-07 22:30",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 38,
       "insight": {
-        "what": "美联储鹰派信号，科技股暴跌",
-        "assets": "📉 美股科技股 承压",
-        "chain": "加息预期升温→科技股估值承压→资金轮动至防御板块（公用事业）",
-        "watch": "下次FOMC（美联储议息会议）点阵图利率预测"
+        "what": "美联储鹰派信号引发科技股抛售",
+        "assets": "📉 美股科技股 承压；📈 美元指数 利好",
+        "chain": "加息预期（借钱成本上升）打压高估值科技股，资金轮动至价值股或避险资产",
+        "watch": "美联储官员讲话及CPI（通胀数据）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "高盛放弃2025年降息预测",
-        "assets": "📉 美债收益率 上行",
-        "chain": "降息预期消失→美元走强→新兴市场资金外流（资本流出）",
-        "watch": "下周美国CPI（消费者物价指数）数据"
+        "what": "高盛放弃美联储今年降息预测",
+        "assets": "📉 美股大盘 承压；📈 短期美债收益率 上行",
+        "chain": "降息预期落空（借钱成本维持高位）打击风险偏好，企业融资成本居高不下",
+        "watch": "美联储点阵图（利率预测）及就业数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行转向鹰派，加息在即",
-        "assets": "📈 欧元 走强",
-        "chain": "欧央行加息→美德利差收窄→美元指数承压→黄金获支撑（避险）",
-        "watch": "欧洲央行下次会议利率决议"
+        "what": "欧洲央行成G7最鹰派央行，加息在即",
+        "assets": "📈 欧元 利好；📉 欧洲国债价格 承压",
+        "chain": "利差（美欧利率差）收窄推高欧元，欧洲出口企业（如汽车）利润受汇率挤压",
+        "watch": "欧央行利率决议及拉加德讲话"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "行云科技市值破200亿，押注AI",
-        "assets": "📈 行云科技 利好",
-        "chain": "AI概念受追捧→资金集中炒作→板块分化加剧（其他科技股遭冷落）",
-        "watch": "行云科技Q2营收增速能否持续"
+        "what": "行云科技市值突破200亿，押注AI翻身",
+        "assets": "📈 行云科技股价 利好；📈 AI概念股 情绪提振",
+        "chain": "AI商业化预期（应用落地）拉高估值，但需警惕泡沫风险（业绩无法支撑）",
+        "watch": "行云科技季度营收及AI产品订单"
       }
     },
     {
@@ -66,35 +66,27 @@
       "score": 30,
       "insight": {
         "what": "本源量子完成30亿融资，冲刺IPO",
-        "assets": "📈 量子计算板块 利好",
-        "chain": "一级市场热度传导→二级市场量子概念股跟涨→产业链上下游受益（设备商）",
-        "watch": "本源量子招股说明书发行定价"
+        "assets": "📈 量子计算板块 利好；📈 科创板 情绪提振",
+        "chain": "资本涌入（风险偏好上升）加速量子技术研发，相关供应链（如量子芯片）受益",
+        "watch": "本源量子招股书及行业政策支持"
       }
     },
     {
       "rank": 6,
-      "title": "央行连续第19个月增持黄金",
-      "source": "国际金融报",
-      "detail": "转自：中国新闻网中国央行7日发布数据，5月末黄金储备报7496万盎司，4月末为7464万盎司，环比增加32万盎司。此为央行连续第19个月增持黄金。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "央行连续19个月增持黄金",
-        "assets": "📈 黄金 利好",
-        "chain": "央行购金→实物需求支撑金价→美元信用体系弱化（去美元化趋势）",
-        "watch": "中国央行月度黄金储备数据"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Top Wall Street analysts recommend these 3 dividend stocks for solid returns",
       "source": "CNBC",
       "detail": "Investors seeking steady income can bolster their portfolios by adding dividend stocks with attractive yields.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街分析师推荐3只高股息股票",
+        "assets": "📈 公用事业/消费必需品股 利好；📉 成长股 相对承压",
+        "chain": "防御策略（避险情绪）推高股息资产，资金从高波动成长股流出",
+        "watch": "这3只股票分红率及财报稳定性"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
@@ -102,7 +94,7 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "以色列央行：5月购入8.01亿美元外汇 维护市场平稳运行",
       "source": "环球市场播报",
       "detail": "以色列央行表示，该行5月购入8.01亿美元外汇，此举旨在专门维护市场有序运转。",
@@ -110,10 +102,18 @@
       "score": 28
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "招商证券：海外流动性冲击下 A股市场及科技方向后续如何演绎？",
       "source": "智通财经APP",
       "detail": "招商证券发布研报称，周五美元指数和美债利率推升，全球股票市场调整，尤其AI方向领跌，其导火索是5月非农超预期，使得市场开始正视美联储加息概率...",
+      "lang": "zh",
+      "score": 27
+    },
+    {
+      "rank": 10,
+      "title": "京东与腾讯就AI Agent将达成重要合作",
+      "source": "新浪科技",
+      "detail": "新浪科技讯 6月7日晚间消息，据悉，京东与腾讯将围绕AI Agent展开深度合作。依托京东的商品供应链、履约服务能力及腾讯的生态入口优势...",
       "lang": "zh",
       "score": 27
     }
