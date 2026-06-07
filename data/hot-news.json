@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 20:06",
+  "updateTime": "2026-06-07 20:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "比特币暴跌，华尔街新加密货币概念兴起",
-        "assets": "📉 比特币 承压，📈 华尔街加密概念股 利好",
-        "chain": "资金从比特币流出，转向合规化加密资产（如ETF），推高相关股票",
-        "watch": "比特币持仓变化及SEC（美国证交会）加密ETF审批进度"
+        "what": "比特币暴跌，但华尔街新加密热潮兴起",
+        "assets": "📉 比特币 承压，📈 加密概念股 利好",
+        "chain": "资金从比特币流出转向合规加密资产（如ETF），传统金融入场推高相关股票估值",
+        "watch": "比特币ETF资金流入量及监管动态"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行成为七国集团最鹰派央行，加息在即",
-        "assets": "📈 欧元 利好，📉 欧债 承压",
-        "chain": "加息（提高借贷成本）压制通胀，欧元走强，资金从新兴市场回流欧洲",
-        "watch": "欧洲央行下次会议加息幅度及通胀数据"
+        "what": "欧洲央行成七国集团最鹰派，加息在即",
+        "assets": "📈 欧元 利好，📉 欧洲债券 承压",
+        "chain": "加息预期推高欧元汇率（货币升值），压制欧债价格（利率上升），拖累欧洲股市估值",
+        "watch": "欧央行下次会议利率决议及通胀数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息预期升温，市场猛烈抛售",
-        "assets": "📉 美股 承压，📈 美元 利好，📉 美债 承压",
-        "chain": "加息预期推高美债收益率（借钱利息），抽离股市流动性，美元走强",
-        "watch": "美联储官员讲话及非农就业数据"
+        "what": "美联储鹰派信号引发市场猛烈抛售",
+        "assets": "📉 美股 承压，📉 美债 下跌",
+        "chain": "加息预期升温（借钱成本增加），风险资产遭抛售，美元走强（美元升值）压制新兴市场",
+        "watch": "美联储点阵图（利率预测）及非农就业数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "行云科技市值突破200亿，从退市边缘靠AI翻身",
-        "assets": "📈 行云科技 利好，📈 AI概念股 情绪提振",
-        "chain": "AI商业化落地预期吸引资金，可能带动中小科技股估值修复（股价回升）",
-        "watch": "行云科技AI业务营收占比及后续订单"
+        "what": "行云科技市值破200亿，AI转型成功",
+        "assets": "📈 行云科技 利好，📈 AI概念股 利好",
+        "chain": "AI业务营收验证（盈利增长）提振板块情绪，资金向AI主题轮动，推高同业估值",
+        "watch": "行云科技下一季度AI业务营收占比"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国确认第二例螺旋蝇病例，加拿大限制进口牲畜",
-        "assets": "📉 美国畜产品 承压，📈 替代蛋白 利好",
-        "chain": "疫情扩散限制出口，推高国内肉类价格，养殖成本上升，利好植物肉",
-        "watch": "美国农业部疫区管控范围及出口数据"
+        "what": "美国确认第二例螺旋蝇病例，加拿大限制牲畜进口",
+        "assets": "📈 美国牛肉期货 利好，📉 加拿大牲畜 承压",
+        "chain": "供应减少推高美国牛肉价格（物价上涨），加拿大出口受阻，饲料需求或下降",
+        "watch": "美国农业部疫情扩散报告及进口禁令调整"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "以色列央行5月购入8.01亿美元外汇，稳定汇率",
-        "assets": "📈 以色列谢克尔 企稳，📉 以色列债券 波动收窄",
-        "chain": "干预（央行买外汇）防止本币过度贬值，降低输入性通胀（进口商品涨价）",
-        "watch": "以色列外汇储备变化及通胀数据"
+        "what": "以色列央行5月购入8.01亿美元外汇维稳",
+        "assets": "📈 以色列谢克尔 利好，📉 美元/谢克尔 承压",
+        "chain": "干预汇市（买入本币资产）支撑汇率，防止资本外流，但消耗外汇储备（流动性减少）",
+        "watch": "以色列外汇储备变动及通胀数据"
       }
     },
     {
@@ -95,6 +95,14 @@
     },
     {
       "rank": 8,
+      "title": "Nvidia, SK to detail cooperation plan as Huang flags prolonged chip shortage",
+      "source": "CNBC",
+      "detail": "A SK Hynix spokesperson said group Chairman Chey Tae-won and Nvidia CEO Jensen Huang plan to brief the media on Monday morning, confirming a report by Newsis.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 9,
       "title": "OPEC+ set for fourth oil quota hike since Strait of Hormuz closure, sources say",
       "source": "CNBC",
       "detail": "Seven members of OPEC+, which groups OPEC and allied producers including Russia, increased output quotas from April to June by almost 600,000 barrels per day.",
@@ -102,20 +110,12 @@
       "score": 27
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "英国将采购本国科技企业生产的AI芯片",
       "source": "环球市场播报",
       "detail": "据媒体周日报道，英国政府将提出采购本国科技企业生产的人工智能芯片，以此鼓励这类企业留在英国发展。 该报援引提案草案概述称，英国科技大臣将于本周在伦敦科技周会议上...",
       "lang": "zh",
       "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "Abel goes his own way with new Berkshire investments, including billions for AI",
-      "source": "CNBC",
-      "detail": "Warren Buffett tells CNBC's Becky Quick new Berkshire Hathaway CEO Greg Abel has \"launched\" with his first major deal.",
-      "lang": "en",
-      "score": 20
     }
   ]
 }
