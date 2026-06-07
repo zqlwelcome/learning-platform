@@ -55,7 +55,20 @@ async function loadHotNews(forceRefresh = false) {
             return;
         }
     } catch(e) {
-        console.log('加载新闻失败:', e);
+        console.log('实时新闻加载失败，尝试兜底新闻:', e);
+        try {
+            const data = await xhrFetchFallback();
+            if (data && data.news && data.news.length > 0) {
+                newsCache = prepareNewsList(data.news);
+                lastRefreshTime = Date.now();
+                renderNewsList(newsCache);
+                updateRefreshHint(resolveNewsFreshness(data, newsCache));
+                localStorage.setItem('hot_news_cache', JSON.stringify(newsCache));
+                return;
+            }
+        } catch(fallbackError) {
+            console.log('兜底新闻加载失败:', fallbackError);
+        }
     }
 
     const cached = localStorage.getItem('hot_news_cache');
@@ -77,6 +90,29 @@ async function loadHotNews(forceRefresh = false) {
 
 // ===== XHR绕过CDN缓存 =====
 function xhrFetch() {
+    return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        const url = 'data/live-hot-news.json?_=' + Date.now() + Math.random();
+        xhr.open('GET', url, true);
+        xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+        xhr.setRequestHeader('Pragma', 'no-cache');
+        xhr.setRequestHeader('Expires', '0');
+        xhr.timeout = 10000;
+        xhr.onload = () => {
+            if (xhr.status === 200) {
+                try { resolve(JSON.parse(xhr.responseText)); }
+                catch(e) { reject(e); }
+            } else {
+                reject(new Error('HTTP ' + xhr.status));
+            }
+        };
+        xhr.onerror = () => reject(new Error('Network error'));
+        xhr.ontimeout = () => reject(new Error('Timeout'));
+        xhr.send();
+    });
+}
+
+function xhrFetchFallback() {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
         const url = 'data/hot-news.json?_=' + Date.now() + Math.random();
