@@ -92,7 +92,7 @@ async function loadHotNews(forceRefresh = false) {
 function xhrFetch() {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
-        const url = 'data/live-hot-news.json?_=' + Date.now() + Math.random();
+        const url = 'data/hot-news.json?_=' + Date.now() + Math.random();
         xhr.open('GET', url, true);
         xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         xhr.setRequestHeader('Pragma', 'no-cache');
@@ -115,7 +115,7 @@ function xhrFetch() {
 function xhrFetchFallback() {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
-        const url = 'data/hot-news.json?_=' + Date.now() + Math.random();
+        const url = 'data/live-hot-news.json?_=' + Date.now() + Math.random();
         xhr.open('GET', url, true);
         xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         xhr.setRequestHeader('Pragma', 'no-cache');
