@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-07 16:20",
+  "updateTime": "2026-06-07 16:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 66,
       "insight": {
-        "what": "美联储加息预期升温，中国央行连续增持黄金",
-        "assets": "📈 黄金 利好；📉 美债 承压",
-        "chain": "加息预期推高美元（美元走强），压制新兴市场货币和风险资产（如股票）",
-        "watch": "下周美国CPI（通胀数据）及美联储官员讲话"
+        "what": "交易员预计美联储1月底前加息25基点，中国央行连续增持黄金",
+        "assets": "📉 美债 承压, 📈 黄金 利好",
+        "chain": "加息预期推高美元（美元走强），压制风险资产（股票/商品），黄金避险需求上升",
+        "watch": "美联储会议纪要及7月CPI（通胀数据）"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX传闻IPO，美股AI板块重挫",
-        "assets": "📉 美股AI板块 利空；📈 SpaceX概念股 利好",
-        "chain": "AI板块回调引发科技股抛售（资金避险），IPO吸走流动性（资金从其他资产流向新股）",
-        "watch": "下周科技巨头财报及通胀数据"
+        "what": "SpaceX下周IPO募资750亿估值1.77万亿，美股AI板块重挫",
+        "assets": "📈 SpaceX IPO 利好, 📉 美股AI板块 利空",
+        "chain": "AI股暴跌引发资金轮动（板块切换）至IPO热点，科技财报前波动率（恐慌指数VIX）飙升",
+        "watch": "下周通胀数据及微软/谷歌财报"
       }
     },
     {
       "rank": 3,
+      "title": "兴证策略：美股周五暴跌是结构再平衡，行情核心逻辑不变，A股7月业绩期科技有望再度回归",
+      "source": "市场资讯",
+      "detail": "兴证策略：如何看待美股黑色星期五？如何影响A股？ 来源：尧望后势 一、如何看待美股黑色星期五？调整的本质是什么？ 6月5日美股上演“黑色星期五”...",
+      "lang": "zh",
+      "score": 50,
+      "insight": {
+        "what": "兴证策略认为美股暴跌是结构再平衡，A股科技有望回归",
+        "assets": "📈 A股科技股 利好, 📉 美股大盘 中性",
+        "chain": "美股资金溢出（资金流出）至新兴市场，A股业绩期（中报）催化科技板块反弹",
+        "watch": "A股科技股中报预增及北向资金（外资流入）动向"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
       "source": "CNBC",
       "detail": "The monster rally in semiconductor stocks hit a wall on Friday, and the VIX at last caught up with other volatility metrics.",
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "华尔街恐慌指数反弹，芯片股涨势逆转",
-        "assets": "📉 美股芯片股 利空；📈 VIX（恐慌指数） 利好",
-        "chain": "芯片股回调触发波动率飙升（波动率上升），对冲基金减仓风险头寸（降低敞口）",
-        "watch": "芯片龙头财报及VIX期货曲线"
+        "what": "恐慌指数飙升，芯片股‘崩溃式上涨’反转",
+        "assets": "📉 美股半导体 利空, 📈 VIX恐慌指数 利好",
+        "chain": "波动率飙升触发对冲基金去杠杆（降低风险敞口），科技股抛压传导至纳指（纳斯达克）",
+        "watch": "VIX是否突破20关键位及芯片股如英伟达支撑位"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Bitcoin is cratering, but a new Wall Street crypto hype is on the rise",
       "source": "CNBC",
       "detail": "As bitcoin dropped to its lowest price since 2024, investors flock to a new type of crypto investment linked to the hyperliquid platforms, HYPE ETFs.",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "比特币暴跌，华尔街新加密炒作崛起",
-        "assets": "📉 比特币 利空；📈 机构级加密资产（如ETH） 利好",
-        "chain": "散户抛售比特币，机构转向合规加密产品（如ETF），传统资金流入推高其他币种",
-        "watch": "比特币ETF资金流及监管政策"
+        "what": "比特币暴跌但华尔街新加密货币炒作升温",
+        "assets": "📉 比特币 利空, 📈 加密货币概念股 利好",
+        "chain": "资金从比特币撤出（风险偏好下降），转向合规化加密资产（如ETF概念），监管预期改善",
+        "watch": "比特币2.9万美元关键支撑及SEC（美国证监会）加密监管动态"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "分析：欧洲央行跃升为七国集团头号鹰派，加息蓄势待发",
       "source": "环球市场播报",
       "detail": "受伊朗局势影响，欧元区下周加息落地后，欧洲央行将站在全球货币政策收紧的前沿。 市场预计欧洲央行周四将加息25个基点。相较于澳大利亚...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行成G7最鹰派，加息箭在弦上",
-        "assets": "📈 欧元 利好；📉 欧债 承压",
-        "chain": "鹰派加息（提高借贷成本）压制欧洲经济预期，利空出口和周期性股票（如汽车股）",
-        "watch": "欧央行利率决议及欧元区PMI（制造业指数）"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "猛烈抛售！美联储，加息大消息！",
-      "source": "券商中国",
-      "detail": "美联储正面临重大考验。 在一份爆表的非农就业报告发布后，关于美联储加息的讨论愈发激烈。其中，美国国债市场更是遭遇了猛烈抛售...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美联储加息消息引发猛烈抛售",
-        "assets": "📉 美股 利空；📉 新兴市场货币 承压",
-        "chain": "加息预期推高美债收益率（无风险利率上升），全球资金回流美元资产，风险资产遭抛售",
-        "watch": "美联储会议纪要及非农就业数据"
+        "what": "欧洲央行成七国集团最鹰派，加息蓄势待发",
+        "assets": "📈 欧元 利好, 📉 欧债 承压",
+        "chain": "欧央行加息（借钱成本提高）拉大美欧利差（利率差），欧元走强施压美元，欧洲股市面临估值重估",
+        "watch": "欧央行7月利率决议及欧元区PMI（制造业景气指数）"
       }
     },
     {
       "rank": 7,
+      "title": "猛烈抛售！美联储，加息大消息！",
+      "source": "券商中国",
+      "detail": "美联储正面临重大考验。 在一份爆表的非农就业报告发布后，关于美联储加息的讨论愈发激烈。其中，美国国债市场更是遭遇了猛烈抛售...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "美股芯片制造商市值，一日蒸发超万亿美元",
       "source": "央视",
       "detail": "来源：央视财经 5日，美国劳动力市场发布最新报告，市场普遍认为，强劲的非农就业数据巩固了美联储加息预期。美联储在制定货币政策方面拥有高度“独立性”...",
@@ -94,7 +102,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
       "source": "环球市场播报",
       "detail": " 美联储理事迈克尔・巴尔对过去一年监管机构放宽美国银行监管标准的举措提出批评，称相关新规提案 “大幅削弱银行监管与督导力度”。",
@@ -102,20 +110,12 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "下周影响市场重要资讯前瞻：5月CPI、PPI数据将公布，苹果、华为开发者大会将陆续举行，SpaceX发行上市交易",
       "source": "股市直击",
       "detail": "国新办新闻发布会介绍《城市更新“十五五”规划》有关情况；5月CPI、PPI数据将公布；新增贷款、M2等金融数据或将公布；苹果、华为开发者大会将陆续举行；2026年美加墨世界杯...",
       "lang": "zh",
       "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
-      "source": "CNBC",
-      "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
-      "lang": "en",
-      "score": 29
     }
   ]
 }
