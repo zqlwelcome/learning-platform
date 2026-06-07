@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 01:30",
+  "updateTime": "2026-06-08 01:36",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 36,
       "insight": {
         "what": "高盛不再预计美联储今年降息",
-        "assets": "📉 美股大盘 承压；📈 美元指数 走强",
-        "chain": "加息预期升温→资金成本上升→压制股市估值（PE倍数），利好美元资产",
-        "watch": "美联储点阵图（利率预测）及CPI数据"
+        "assets": "📉 美债利率 上行; 📉 美股 承压; 📈 美元 走强",
+        "chain": "利率预期收紧→风险资产（股票、加密货币）估值承压→高杠杆行业（科技）首当其冲",
+        "watch": "美联储点阵图（利率预测）及下次CPI数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行成七国集团最鹰派央行，加息蓄势",
-        "assets": "📉 欧元区债券 下跌；📈 欧元 升值",
-        "chain": "欧央行加息→欧元走强→美元指数被动承压，全球流动性收紧",
-        "watch": "欧央行下次会议利率决议及拉加德讲话"
+        "what": "欧洲央行成G7最鹰派，加息蓄势待发",
+        "assets": "📈 欧元 走强; 📉 欧债 价格下跌; 📉 欧洲股市 承压",
+        "chain": "欧央行加息预期→欧元升值→欧洲出口企业利润缩减→全球美元流动性进一步收紧",
+        "watch": "欧央行下次会议加息幅度及拉加德讲话"
       }
     },
     {
@@ -37,28 +37,42 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "行云科技市值破200亿，押注AI翻身",
-        "assets": "📈 行云科技 利好；📈 AI概念股 情绪提振",
-        "chain": "AI商业化预期→资金涌入科技成长股→带动中小盘投机情绪（风险偏好上升）",
-        "watch": "公司下一季AI业务营收占比及毛利率"
+        "what": "行云科技从退市边缘到200亿市值，押注AI",
+        "assets": "📈 行云科技 股价 利好; 📈 AI概念股 情绪提振",
+        "chain": "AI商业化落地预期→资金涌入科技小盘股→带动风险偏好（投资者信心）回升",
+        "watch": "行云科技下季度AI业务营收及毛利率"
       }
     },
     {
       "rank": 4,
+      "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
+      "source": "CNBC",
+      "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
+      "lang": "en",
+      "score": 33,
+      "insight": {
+        "what": "特朗普因选举欺诈指控被挑战后怒离采访",
+        "assets": "📉 美国政治不确定性 上升; 📈 避险资产（黄金） 利好",
+        "chain": "政治僵局→政策推进受阻→财政支出（如国防）延迟→美元避险需求减弱",
+        "watch": "特朗普相关法律案件进展及中期选举民调"
+      }
+    },
+    {
+      "rank": 5,
       "title": "加密货币交易所Bybit将开放SpaceX代币化IPO的参与渠道",
       "source": "环球市场播报",
       "detail": " 加密货币交易所Bybit表示，将向散户投资者提供以发行价参与代币化首次公开募股（IPO）的机会，首期将推出SpaceX的代币化IPO。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Bybit将开放SpaceX代币化IPO认购渠道",
-        "assets": "📈 加密货币市场 利好；📈 SpaceX代币 投机性上涨",
-        "chain": "代币化（资产上链）降低散户参与门槛→提升加密平台交易量→监管风险同步上升",
-        "watch": "SEC（美国证监会）对代币化证券的态度"
+        "what": "Bybit将开放SpaceX代币化IPO认购",
+        "assets": "📈 加密货币交易所代币（如BYD） 利好; 📈 代币化资产（RWA） 概念",
+        "chain": "代币化IPO（将股权拆成数字货币）→降低散户参与门槛→带动交易所流量和手续费收入",
+        "watch": "SpaceX代币化IPO实际认购率及监管态度"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Top Wall Street analysts recommend these 3 dividend stocks for solid returns",
       "source": "CNBC",
       "detail": "Investors seeking steady income can bolster their portfolios by adding dividend stocks with attractive yields.",
@@ -66,23 +80,9 @@
       "score": 29,
       "insight": {
         "what": "华尔街顶级分析师推荐3只高股息股",
-        "assets": "📈 公用事业/消费类高股息股 利好",
-        "chain": "防御性配置（避险资金流入）→股息率（分红收益）相对债券更有吸引力→市场风险偏好下降信号",
-        "watch": "这些个股的派息率（分红占利润比例）是否可持续"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
-      "source": "CNBC",
-      "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "美国确认第二例螺旋虫病例，加拿大限制牲畜进口",
-        "assets": "📉 北美畜牧业板块 利空；📈 替代蛋白（人造肉/植物肉） 利好",
-        "chain": "疫情扩散→牲畜运输封锁→肉价短期上涨，替代品需求增加",
-        "watch": "美国农业部（USDA）后续检疫措施及病例数量"
+        "assets": "📈 公用事业/消费防御股 利好; 📉 成长股 资金分流",
+        "chain": "降息预期落空→资金从高估值成长股轮动到高股息（稳定派息）资产→防御性板块获溢价",
+        "watch": "这些股票的股息率变化及Q2财报分红政策"
       }
     },
     {
