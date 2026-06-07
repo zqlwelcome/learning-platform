@@ -29,6 +29,7 @@ DEFAULT_FILES = [
     "index.html",
     "style.css",
     "daily-data.js",
+    "capital-themes.js",
     "news-loader.js",
     "course-data.js",
     "course-series-data.js",
