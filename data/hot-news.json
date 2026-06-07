@@ -1,8 +1,22 @@
 {
-  "updateTime": "2026-06-08 06:01",
+  "updateTime": "2026-06-08 06:06",
   "news": [
     {
       "rank": 1,
+      "title": "Stock futures fall after Nasdaq rout as investors look ahead to SpaceX IPO: Live updates",
+      "source": "CNBC",
+      "detail": "Investors will be focused on inflation data and the public debut of SpaceX on Friday.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "纳指暴跌后美股期指下跌，市场关注SpaceX IPO",
+        "assets": "📉 美股科技股 承压，📈 SpaceX相关资产 利好",
+        "chain": "科技股抛售引发避险情绪（风险厌恶），资金可能流向防御板块或国债",
+        "watch": "SpaceX IPO估值及认购情况"
+      }
+    },
+    {
+      "rank": 2,
       "title": "高盛不再预计美联储今年降息",
       "source": "环球市场播报",
       "detail": "鉴于美国劳动力市场表现超出预期，高盛经济学家撤销了此前对美联储2026年12月降息的预测。该行仍预计美联储将两次降息，每次下调25个基点...",
@@ -10,83 +24,77 @@
       "score": 36,
       "insight": {
         "what": "高盛不再预计美联储今年降息",
-        "assets": "📈 美元 利好; 📉 美国国债 承压",
-        "chain": "紧缩预期推高短端利率（短期借贷成本），压制风险资产（如科技股）估值。",
-        "watch": "美联储点阵图（利率预测）及通胀数据（CPI）"
+        "assets": "📈 美元 走强，📉 美债 承压（收益率上升），📉 黄金 承压",
+        "chain": "降息预期消退推高实际利率（扣除通胀后的真实利率），压制风险资产估值",
+        "watch": "美联储点阵图（利率预测图）和CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "分析：欧洲央行跃升为七国集团头号鹰派，加息蓄势待发",
       "source": "环球市场播报",
       "detail": "受伊朗局势影响，欧元区下周加息落地后，欧洲央行将站在全球货币政策收紧的前沿。 市场预计欧洲央行周四将加息25个基点。相较于澳大利亚...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行跃升为七国集团头号鹰派，加息蓄势待发",
-        "assets": "📈 欧元 利好; 📉 欧债 承压",
-        "chain": "欧央行加息（提高借钱成本）收紧流动性，利空欧洲股市，同时推高欧元兑美元汇率。",
-        "watch": "欧央行下次议息会议声明及拉加德讲话"
+        "what": "欧洲央行成为七国集团最鹰派央行，加息在即",
+        "assets": "📈 欧元 走强，📉 欧洲主权债 承压（收益率上升），📉 欧洲股市 承压",
+        "chain": "加息预期推高欧元区融资成本，可能抑制经济并引发资本回流（资金从新兴市场流向欧洲）",
+        "watch": "欧洲央行利率决议及拉加德讲话"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "市值突破200亿，从濒临退市到科技新秀，行云科技押注AI能否翻身？",
       "source": "市场资讯",
       "detail": "来源：尺度商业 文 | 杨万里 编辑 | 刘振涛 一个“涅槃重生”的资本大戏已经在A股上演。一家破产重整的上市公司，经过更换实控人以及战略性押注AI，摇身一变成为科技新秀...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "行云科技市值突破200亿，从濒临退市到押注AI",
-        "assets": "📈 行云科技 利好; 📈 AI概念股 情绪提振",
-        "chain": "AI叙事驱动资金回流小盘科技，但需警惕基本面（公司赚钱能力）能否支撑估值。",
-        "watch": "行云科技季度营收及AI业务订单量"
+        "what": "行云科技市值突破200亿，从退市边缘靠AI翻身",
+        "assets": "📈 行云科技 利好，📈 AI概念股 利好",
+        "chain": "AI商业化落地提振市场信心，可能引发同类科技股估值重估（股价重新定价）",
+        "watch": "行云科技下一季度营收及AI业务占比"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "Trump因选举欺诈指控被质疑后离场，DOJ资金相关",
-        "assets": "📉 美国政治风险 承压; 📉 美元 短期承压",
-        "chain": "政治不确定性加剧避险情绪，短期利空美元，但影响有限若未触发弹劾。",
-        "watch": "特朗普民调支持率及司法部调查进展"
+        "what": "特朗普因选举欺诈质疑中断采访，涉及司法部资金",
+        "assets": "📉 美元 承压（政治不确定性），📈 避险资产如黄金 利好",
+        "chain": "政治动荡增加政策不确定性（不可预测风险），削弱投资者对美元的信心",
+        "watch": "特朗普相关法律诉讼进展及民调变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "加密货币交易所Bybit将开放SpaceX代币化IPO的参与渠道",
       "source": "环球市场播报",
       "detail": " 加密货币交易所Bybit表示，将向散户投资者提供以发行价参与代币化首次公开募股（IPO）的机会，首期将推出SpaceX的代币化IPO。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加密货币交易所Bybit将开放SpaceX代币化IPO渠道",
-        "assets": "📈 加密货币 利好; 📈 SpaceX相关代币 利好",
-        "chain": "代币化（把传统资产变成数字代币）打通传统与加密市场，吸引散户资金入场。",
-        "watch": "Bybit平台交易量及监管机构反应"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Top Wall Street analysts recommend these 3 dividend stocks for solid returns",
-      "source": "CNBC",
-      "detail": "Investors seeking steady income can bolster their portfolios by adding dividend stocks with attractive yields.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "华尔街分析师推荐3只高股息股票",
-        "assets": "📈 公用事业/消费防御股 利好; 📉 成长股 承压",
-        "chain": "降息预期降温下，资金轮动至高股息（稳定分红）资产，防御性板块受追捧。",
-        "watch": "10年期美债收益率（无风险收益）走势"
+        "what": "Bybit将开放SpaceX代币化IPO参与渠道",
+        "assets": "📈 加密货币 利好，📈 SpaceX代币 利好，📈 交易所代币如Bybit 利好",
+        "chain": "代币化IPO降低传统投资门槛（准入门槛），可能推动更多科技公司采用类似融资模式",
+        "watch": "SpaceX代币化IPO认购规模及监管态度"
       }
     },
     {
       "rank": 7,
+      "title": "Top Wall Street analysts recommend these 3 dividend stocks for solid returns",
+      "source": "CNBC",
+      "detail": "Investors seeking steady income can bolster their portfolios by adding dividend stocks with attractive yields.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 8,
       "title": "以色列央行：5月购入8.01亿美元外汇 维护市场平稳运行",
       "source": "环球市场播报",
       "detail": "以色列央行表示，该行5月购入8.01亿美元外汇，此举旨在专门维护市场有序运转。",
@@ -94,7 +102,7 @@
       "score": 28
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "招商证券：海外流动性冲击下 A股市场及科技方向后续如何演绎？",
       "source": "智通财经APP",
       "detail": "招商证券发布研报称，周五美元指数和美债利率推升，全球股票市场调整，尤其AI方向领跌，其导火索是5月非农超预期，使得市场开始正视美联储加息概率...",
@@ -102,19 +110,11 @@
       "score": 27
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "京东与腾讯就AI Agent将达成重要合作",
       "source": "新浪科技",
       "detail": "新浪科技讯 6月7日晚间消息，据悉，京东与腾讯将围绕AI Agent展开深度合作。依托京东的商品供应链、履约服务能力及腾讯的生态入口优势...",
       "lang": "zh",
-      "score": 27
-    },
-    {
-      "rank": 10,
-      "title": "Nvidia, SK to detail cooperation plan as Huang flags prolonged chip shortage",
-      "source": "CNBC",
-      "detail": "A SK Hynix spokesperson said group Chairman Chey Tae-won and Nvidia CEO Jensen Huang plan to brief the media on Monday morning, confirming a report by Newsis.",
-      "lang": "en",
       "score": 27
     }
   ]
