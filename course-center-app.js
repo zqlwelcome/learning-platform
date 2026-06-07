@@ -10,6 +10,162 @@ let currentView = 'center';
 let currentSeries = null;
 let currentLessonId = null;
 
+const AI_PM_DEEPENING_PACKS = {
+    'cog-1': {
+        skills: ['AI产品岗位边界', '技术不确定性管理', '跨职能协作'],
+        output: '写一页《AI PM岗位能力拆解》：职责、协作对象、验收指标、容易踩坑的决策。',
+        practice: '选一个AI功能，把“用户问题、模型能力、失败兜底、业务指标”写成4格表。',
+        readings: [
+            ['Google People + AI Guidebook', 'https://pair.withgoogle.com/guidebook/'],
+            ['OpenAI Production Best Practices', 'https://platform.openai.com/docs/guides/production-best-practices']
+        ]
+    },
+    'cog-2': {
+        skills: ['AI产业链判断', '赛道商业化', '机会筛选'],
+        output: '做一张AI行业机会地图：基础设施、模型层、工具层、行业应用，各列3个代表产品。',
+        practice: '用“痛点频率、付费意愿、AI提升幅度、数据壁垒”给3个AI产品机会打分。',
+        readings: [
+            ['Stanford AI Index Report', 'https://aiindex.stanford.edu/report/'],
+            ['a16z AI Consumer Apps', 'https://a16z.com/100-gen-ai-apps/']
+        ]
+    },
+    'cog-3': {
+        skills: ['技术沟通', '需求澄清', '验收口径'],
+        output: '写一份给工程师看的AI功能需求说明：输入、输出、边界、指标、降级策略。',
+        practice: '把“做得更智能”改写成可开发需求，至少包含准确率、延迟、异常处理。',
+        readings: [
+            ['Google Machine Learning Rules', 'https://developers.google.com/machine-learning/guides/rules-of-ml'],
+            ['Atlassian Team Playbook', 'https://www.atlassian.com/team-playbook']
+        ]
+    },
+    'tech-1': {
+        skills: ['模型选型', '评测集设计', '成本/质量/延迟权衡'],
+        output: '建立一个模型选型表：任务类型、候选模型、质量分、延迟、单次成本、风险。',
+        practice: '准备20条真实用户问题，对比两个模型输出，并记录坏案例类型。',
+        readings: [
+            ['OpenAI Evals Guide', 'https://platform.openai.com/docs/guides/evals'],
+            ['Anthropic Prompt Engineering', 'https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview']
+        ]
+    },
+    'tech-2': {
+        skills: ['Token成本估算', '单位经济模型', '缓存/分层调用'],
+        output: '算一份AI功能月成本：DAU、调用频次、平均token、模型单价、峰值预算。',
+        practice: '设计“便宜模型初筛 + 贵模型复核 + 缓存命中”的成本优化方案。',
+        readings: [
+            ['OpenAI Pricing', 'https://openai.com/api/pricing/'],
+            ['Google Cloud FinOps', 'https://cloud.google.com/finops']
+        ]
+    },
+    'tech-3': {
+        skills: ['Agent边界设计', '工具调用', '人类确认点'],
+        output: '画一个Agent任务流：目标、计划、工具、执行、失败重试、人工审批。',
+        practice: '设计一个“AI客服Agent”，明确哪些动作可以自动做，哪些必须人工确认。',
+        readings: [
+            ['OpenAI Function Calling', 'https://platform.openai.com/docs/guides/function-calling'],
+            ['Model Context Protocol Docs', 'https://modelcontextprotocol.io/docs']
+        ]
+    },
+    'data-1': {
+        skills: ['AI指标体系', '离线/在线评估', '业务指标映射'],
+        output: '搭一套指标树：模型指标、产品指标、业务指标、风险指标各3个。',
+        practice: '给一个RAG问答产品定义“准确、好用、值得付费”的指标组合。',
+        readings: [
+            ['OpenAI Evals Guide', 'https://platform.openai.com/docs/guides/evals'],
+            ['Evidently AI ML Monitoring', 'https://www.evidentlyai.com/ml-monitoring']
+        ]
+    },
+    'data-2': {
+        skills: ['实验设计', 'A/B测试', '冠军/挑战者机制'],
+        output: '写一份AI功能实验方案：假设、样本、指标、护栏、上线阈值。',
+        practice: '把“新模型更好”拆成可验证实验，不只看满意度，也看错误率和成本。',
+        readings: [
+            ['Microsoft Experimentation Platform Papers', 'https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/'],
+            ['Trustworthy Online Controlled Experiments', 'https://www.exp-platform.com/']
+        ]
+    },
+    'des-1': {
+        skills: ['AI交互设计', '信任校准', '可控性'],
+        output: '做一份AI交互检查表：用户输入、AI反馈、置信度、编辑权、撤销和重试。',
+        practice: '选一个AI产品，指出3个让用户信任或不信任它的界面细节。',
+        readings: [
+            ['Google People + AI Guidebook', 'https://pair.withgoogle.com/guidebook/'],
+            ['NN/g AI UX Research', 'https://www.nngroup.com/topic/artificial-intelligence/']
+        ]
+    },
+    'des-2': {
+        skills: ['失败兜底', '异常体验', '风险分级'],
+        output: '写一份降级策略：模型失败、超时、幻觉、高风险输出分别怎么处理。',
+        practice: '给金融AI助手设计“错误回答后的用户补救路径”。',
+        readings: [
+            ['NIST AI Risk Management Framework', 'https://www.nist.gov/itl/ai-risk-management-framework'],
+            ['OWASP Top 10 for LLM Applications', 'https://owasp.org/www-project-top-10-for-large-language-model-applications/']
+        ]
+    },
+    'des-3': {
+        skills: ['AI合规', '审计留痕', 'Prompt注入防护'],
+        output: '输出一张金融AI风险清单：数据、模型、用户提示、输出、人工审核。',
+        practice: '写3条金融AI红线：不能承诺收益、不能替用户下单、不能绕过合规审批。',
+        readings: [
+            ['EU AI Act Overview', 'https://artificialintelligenceact.eu/'],
+            ['OWASP LLM Security', 'https://owasp.org/www-project-top-10-for-large-language-model-applications/']
+        ]
+    },
+    'prac-1': {
+        skills: ['0到1产品闭环', 'MVP范围', '数据飞轮'],
+        output: '写一份AI产品一页纸PRD：用户、场景、MVP、指标、风险、迭代计划。',
+        practice: '把“AI学习助手”缩小到一个两周能上线的MVP。',
+        readings: [
+            ['Shape Up', 'https://basecamp.com/shapeup'],
+            ['OpenAI Prompt Engineering', 'https://platform.openai.com/docs/guides/prompt-engineering']
+        ]
+    },
+    'prac-2': {
+        skills: ['面试表达', '案例结构化', '岗位匹配'],
+        output: '准备一套AI PM面试故事：一个产品判断、一个技术协作、一个指标复盘。',
+        practice: '用STAR结构回答“你如何评估一个AI功能是否成功”。',
+        readings: [
+            ['Exponent PM Interview Guide', 'https://www.tryexponent.com/product-manager-interview'],
+            ['Lenny Product Sense', 'https://www.lennysnewsletter.com/']
+        ]
+    },
+    'prac-3': {
+        skills: ['上线策略', '灰度发布', '回滚预案'],
+        output: '写一份AI模型上线Runbook：灰度、监控、报警、回滚、责任人。',
+        practice: '设计一个新Prompt上线流程，避免直接全量替换。',
+        readings: [
+            ['Google SRE Book', 'https://sre.google/sre-book/table-of-contents/'],
+            ['LaunchDarkly Feature Management', 'https://launchdarkly.com/']
+        ]
+    },
+    'prac-4': {
+        skills: ['竞品拆解', 'PM决策复盘', '产品策略'],
+        output: '拆一个AI产品：目标用户、核心路径、模型能力、商业模式、护城河。',
+        practice: '用同一模板对比Perplexity和Notion AI，找出它们PM决策的不同。',
+        readings: [
+            ['Perplexity Blog', 'https://www.perplexity.ai/hub/blog'],
+            ['Notion AI', 'https://www.notion.so/product/ai']
+        ]
+    },
+    'prac-5': {
+        skills: ['作品集', 'Demo表达', '技术可信度'],
+        output: '准备一份AI PM作品集页面：问题、方案、Demo、指标、复盘。',
+        practice: '把你的网站作为作品集案例，写出“为什么做、怎么验证、下一步”。',
+        readings: [
+            ['GitHub Docs: Portfolio README', 'https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes'],
+            ['Product Hunt Launch Guide', 'https://www.producthunt.com/launch']
+        ]
+    },
+    'prac-6': {
+        skills: ['AI工具链', '原型效率', '技术沟通'],
+        output: '建立自己的AI工具工作流：调研、PRD、原型、代码、测试、发布。',
+        practice: '用Cursor或Codex完成一个小功能，并记录AI帮你节省了哪一步。',
+        readings: [
+            ['Cursor Docs', 'https://docs.cursor.com/'],
+            ['OpenAI Codex', 'https://openai.com/codex/']
+        ]
+    }
+};
+
 // 获取课程进度
 function getCourseProgress() {
     try {
@@ -367,6 +523,7 @@ function openPMLesson(lessonId) {
     body.innerHTML = `
         <div class="lesson-section-title">${sectionTitle}</div>
         ${lesson.content}
+        ${renderLessonDeepeningPack(lessonId)}
         <div class="lesson-actions">
             <button class="done-btn ${isCompleted ? 'completed' : ''}" onclick="toggleLessonComplete('${lessonId}')">
                 ${isCompleted ? '已充过电（点击取消）' : '这节我看过了'}
@@ -375,6 +532,38 @@ function openPMLesson(lessonId) {
     `;
     
     modal.classList.remove('hidden');
+}
+
+function renderLessonDeepeningPack(lessonId) {
+    const pack = AI_PM_DEEPENING_PACKS[lessonId];
+    if (!pack) return '';
+
+    return `
+        <div class="lesson-deep-pack">
+            <div class="lesson-deep-head">
+                <span class="lesson-deep-kicker">岗位深挖</span>
+                <b>把这节课学到能上桌讨论</b>
+            </div>
+            <div class="lesson-deep-grid">
+                <div class="lesson-deep-card">
+                    <span>岗位能力</span>
+                    <p>${pack.skills.join(' / ')}</p>
+                </div>
+                <div class="lesson-deep-card">
+                    <span>实战产出</span>
+                    <p>${pack.output}</p>
+                </div>
+                <div class="lesson-deep-card">
+                    <span>练习方式</span>
+                    <p>${pack.practice}</p>
+                </div>
+            </div>
+            <div class="lesson-reading-list">
+                <span>延伸阅读</span>
+                ${pack.readings.map(([title, url]) => `<a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>`).join('')}
+            </div>
+        </div>
+    `;
 }
 
 // 切换课程完成状态（打卡/取消打卡）
