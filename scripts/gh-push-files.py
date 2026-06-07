@@ -77,6 +77,20 @@ def ensure_remote_sync_guard():
         sys.exit(3)
 
 
+def ensure_capital_themes_guard(files):
+    """Prevent pushing stale static sector content over the dynamic capital themes panel."""
+    if "daily-data.js" not in files:
+        return
+    result = subprocess.run(
+        ["node", "scripts/check-capital-themes.js"],
+        capture_output=True, text=True, cwd=REPO_DIR
+    )
+    if result.returncode != 0:
+        print("❌ daily-data.js failed capital themes guard. Aborting push.")
+        print(result.stderr.strip() or result.stdout.strip())
+        sys.exit(4)
+
+
 def update_remote_sync_state(files):
     """Refresh sync state after a successful API push."""
     remote_head = get_remote_head_sha()
@@ -153,6 +167,7 @@ def main():
         return
 
     ensure_remote_sync_guard()
+    ensure_capital_themes_guard(files)
 
     print(f"📤 Pushing {len(files)} file(s) to {REPO}...")
     success_count = 0
