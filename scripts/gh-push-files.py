@@ -76,6 +76,20 @@ def ensure_remote_sync_guard():
         print("Run: python3 scripts/sync-remote-before-work.py")
         sys.exit(3)
 
+    try:
+        state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"❌ Could not read .remote-sync-state.json: {exc}")
+        sys.exit(3)
+
+    synced_head = state.get("remote_head")
+    if state.get("repo") != REPO or synced_head != remote_head:
+        print("❌ Remote changed after the last local sync. Aborting push.")
+        print(f"   synced: {str(synced_head)[:7]}")
+        print(f"   remote: {remote_head[:7]}")
+        print("Run: python3 scripts/sync-remote-before-work.py")
+        sys.exit(3)
+
 
 def ensure_capital_themes_guard(files):
     """Prevent pushing stale static sector content over the dynamic capital themes panel."""

@@ -415,6 +415,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 8px;
     margin: var(--gap-xl) 0 var(--gap-sm);
 }
 .section-header:first-child {
@@ -433,6 +434,9 @@ body {
     padding: 4px 10px;
     background: var(--bg);
     border-radius: 6px;
+    line-height: 1.45;
+    text-align: right;
+    max-width: 62%;
 }
 
 /* 新闻列表 */

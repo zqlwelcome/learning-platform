@@ -10,6 +10,9 @@ let alertsCache = null;
 let lastRefreshTime = 0;
 let _lastUpdateTime = '';
 const REFRESH_INTERVAL = 5 * 60 * 1000;
+const NEWS_FINGERPRINT_KEY = 'hot_news_title_fingerprint_v1';
+const NEWS_SOURCE_TIME_KEY = 'hot_news_source_update_time_v1';
+const NEWS_ANALYSIS_TIME_KEY = 'hot_news_analysis_update_time_v1';
 
 // ===== 当前展开状态 =====
 let expandedAlert = null;
@@ -47,7 +50,7 @@ async function loadHotNews(forceRefresh = false) {
             newsCache = prepareNewsList(data.news);
             lastRefreshTime = Date.now();
             renderNewsList(newsCache);
-            updateRefreshHint(data.updateTime || '刚刚更新');
+            updateRefreshHint(resolveNewsFreshness(data, newsCache));
             localStorage.setItem('hot_news_cache', JSON.stringify(newsCache));
             return;
         }
@@ -375,6 +378,47 @@ function renderNewsList(news) {
 function stripNewsRuntimeFields(item) {
     const { _display, _rankScore, ...clean } = item || {};
     return clean;
+}
+
+function normalizeFingerprintText(text) {
+    return String(text || '')
+        .toLowerCase()
+        .replace(/[^\w\u4e00-\u9fa5]+/g, '')
+        .slice(0, 80);
+}
+
+function getNewsTitleFingerprint(news) {
+    return (news || [])
+        .map((item) => {
+            const display = getNewsDisplay(item);
+            return normalizeFingerprintText(display.title || item.title || item.titleZh || '');
+        })
+        .filter(Boolean)
+        .join('|');
+}
+
+function resolveNewsFreshness(data, preparedNews) {
+    const analysisTime = data.analysisUpdateTime || data.updateTime || '刚刚更新';
+    const fingerprint = data.titleFingerprint || getNewsTitleFingerprint(preparedNews || data.news || []);
+    const previousFingerprint = localStorage.getItem(NEWS_FINGERPRINT_KEY) || '';
+    let sourceTime = localStorage.getItem(NEWS_SOURCE_TIME_KEY) || data.newsUpdateTime || data.lastTitleChangeTime || analysisTime;
+    const titleChanged = Boolean(fingerprint) && fingerprint !== previousFingerprint;
+
+    if (titleChanged) {
+        sourceTime = data.newsUpdateTime || data.lastTitleChangeTime || analysisTime;
+        localStorage.setItem(NEWS_SOURCE_TIME_KEY, sourceTime);
+        localStorage.setItem(NEWS_FINGERPRINT_KEY, fingerprint);
+    } else if (fingerprint && !previousFingerprint) {
+        localStorage.setItem(NEWS_FINGERPRINT_KEY, fingerprint);
+        localStorage.setItem(NEWS_SOURCE_TIME_KEY, sourceTime);
+    }
+
+    localStorage.setItem(NEWS_ANALYSIS_TIME_KEY, analysisTime);
+    return {
+        sourceTime,
+        analysisTime,
+        unchanged: Boolean(previousFingerprint && fingerprint === previousFingerprint)
+    };
 }
 
 function updateHeadlineBrief(news) {
@@ -729,10 +773,17 @@ function toChineseNewsDetail(item) {
 }
 
 // ===== 更新刷新提示 =====
-function updateRefreshHint(time) {
+function updateRefreshHint(meta) {
     const hint = document.getElementById('refreshHint');
     if (hint) {
-        hint.textContent = time ? `热乎到 ${time}` : `热乎到 ${new Date().toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit'})}`;
+        if (meta && typeof meta === 'object') {
+            const sourceText = meta.sourceTime ? `新闻源 ${meta.sourceTime}` : '新闻源刚刷新';
+            const analysisText = meta.analysisTime && meta.analysisTime !== meta.sourceTime ? ` · 解读 ${meta.analysisTime}` : '';
+            const statusText = meta.unchanged ? ' · 持续追踪' : '';
+            hint.textContent = `${sourceText}${analysisText}${statusText}`;
+            return;
+        }
+        hint.textContent = meta ? `热乎到 ${meta}` : `热乎到 ${new Date().toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit'})}`;
     }
 }
 
