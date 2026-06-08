@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 16:26",
+  "updateTime": "2026-06-08 16:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "外资抛售韩股，创纪录涨势下流出数十亿美元",
-        "assets": "📉 韩国KOSPI指数 承压；📈 韩元 贬值",
-        "chain": "外资流出反映新兴市场风险偏好降温，可能扩散至其他亚洲股市（如台股、印股）",
-        "watch": "韩国7月外资持仓变化及外汇储备数据"
+        "what": "外资抛售韩国股票，无视股市创新高",
+        "assets": "📉 韩国KOSPI 承压; 📈 韩国债券 利好",
+        "chain": "外资流出可能引发韩元贬值（汇率走弱），推高进口成本，利空韩国出口型企业",
+        "watch": "外资净流出规模及韩元兑美元汇率走势"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "非农数据超预期，降息预期落空，美股黄金大跌",
-        "assets": "📉 美股标普500 承压；📉 黄金 利空",
-        "chain": "强非农强化美联储鹰派立场（加息或推迟降息），美元走强施压风险资产",
-        "watch": "本周美国CPI数据及美联储官员讲话"
+        "what": "非农数据超预期，降息预期破灭",
+        "assets": "📉 美股 承压; 📉 黄金 承压; 📈 美元 利好",
+        "chain": "降息预期降温（借钱成本难降）→实际利率上升（持有无息资产机会成本增加）→黄金、成长股估值受压",
+        "watch": "本周美国CPI数据及联储官员讲话"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "停火协议失效，黄金跌破4300，关注美国CPI",
-        "assets": "📈 黄金 短期波动；📉 美元 避险需求",
-        "chain": "地缘风险再起推升避险，但强美元压制金价，CPI若高企利空黄金",
-        "watch": "美国6月CPI数据及中东局势进展"
+        "what": "停火协议失效，黄金下跌，等待CPI",
+        "assets": "📉 黄金 承压; 📉 避险资产 承压",
+        "chain": "地缘风险未提振金价→市场聚焦通胀预期（CPI数据影响降息路径）→美元走强进一步压制黄金",
+        "watch": "周四美国CPI数据及中东局势进展"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "经济学家警告欧洲央行加息或重蹈2011年灾难",
-        "assets": "📉 欧元区债券 承压；📉 欧元 贬值",
-        "chain": "加息可能抑制经济复苏，引发债务危机担忧，利空欧元区资产",
-        "watch": "欧洲央行周四利率决议及拉加德发布会"
+        "what": "经济学家警告欧央行加息或重蹈2011年覆辙",
+        "assets": "📉 欧元区债券 承压; 📉 欧元 承压",
+        "chain": "加息（借钱成本上升）可能抑制经济→债务危机担忧重现（如边缘国家利差扩大）→拖累欧股及欧元",
+        "watch": "欧央行周四利率决议及拉加德发布会措辞"
       }
     },
     {
@@ -66,35 +66,27 @@
       "score": 36,
       "insight": {
         "what": "美联储加息预期升温，白银加速下跌",
-        "assets": "📉 白银 利空；📈 美元 走强",
-        "chain": "白银工业需求受利率上行压制，且避险属性弱于黄金，空头主导",
-        "watch": "美国CPI数据及美联储7月加息概率"
+        "assets": "📉 白银 承压; 📉 工业金属 承压",
+        "chain": "加息预期→美元走强（计价货币升值）→白银作为工业+贵金属双重属性受挫，光伏等工业需求也受抑制",
+        "watch": "美国CPI数据及白银ETF持仓变化"
       }
     },
     {
       "rank": 6,
-      "title": "特朗普专访漏“底牌”：对伊两手准备、高油价只是阵痛、美联储别加息！",
-      "source": "市场资讯",
-      "detail": "来源：金十数据 特朗普在最新专访中表示，美方正通过外交与武力双重施压，旨在彻底解除德黑兰核武装，高油价是必须做出的战略取舍。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "特朗普暗示对伊强硬但容忍高油价，反对加息",
-        "assets": "📈 原油 短期利好；📉 美联储政策 不确定性",
-        "chain": "地缘溢价支撑油价，但高油价可能推升通胀，间接强化加息预期",
-        "watch": "伊朗核协议谈判进展及美国原油库存数据"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "香港IPO热潮但上市后表现不佳",
+        "assets": "📉 港股新股 承压; 📉 香港市场情绪 承压",
+        "chain": "IPO破发（上市后价格低于发行价）频发→投资者信心下降→二级市场流动性收紧，可能拖累恒生指数",
+        "watch": "后续新股首日涨幅及恒生指数资金流向"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
@@ -102,7 +94,7 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 8%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
@@ -110,12 +102,20 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Tech stock sell-off accelerates; SoftBank drops 6% as investors sour on AI-linked names",
       "source": "CNBC",
       "detail": "Global tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
       "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "经济学家警告欧洲央行紧缩政策风险 呼吁警惕重蹈2011年“政策过头”覆辙",
+      "source": "环球市场播报",
+      "detail": "欧洲中央银行本周将举行货币政策会议。多位经济学家和分析人士日前发出警告，认为欧洲央行为了维护其抑制通胀的政策信誉，正面临仓促加息...",
+      "lang": "zh",
+      "score": 30
     }
   ]
 }
