@@ -1,60 +1,60 @@
 {
-  "updateTime": "2026-06-08 11:25",
+  "updateTime": "2026-06-08 11:31",
   "news": [
     {
       "rank": 1,
-      "title": "美联储主席沃什首秀在即 特朗普称加息将是错误之举",
-      "source": "环球市场播报",
-      "detail": "美国总统唐纳德·特朗普表示，在他提名的凯文·沃什即将首次主持美联储政策会议之际，如果加息将是错误之举。 美国5月份就业数据表现强劲...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "特朗普警告美联储主席沃什加息是错误",
-        "assets": "📉 美元 承压；📈 美债 利好",
-        "chain": "加息预期降温，降低企业借贷成本，短期提振股市风险偏好（Risk-on）",
-        "watch": "沃什首次讲话措辞及点阵图（利率预测）变化"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "香港IPO热潮出现表现问题，破发或低迷",
-        "assets": "📉 港交所 利空；📉 港股新股 承压",
-        "chain": "IPO后股价不振削弱市场信心，导致后续融资活动减少（新股供给收缩）",
-        "watch": "新上市首日涨幅及后续流动性数据"
+        "what": "港股IPO热潮但上市后表现不佳",
+        "assets": "📉 港股新股 承压",
+        "chain": "IPO破发（上市即跌）增多会打击一级市场（未上市企业融资）信心，拖累券商股",
+        "watch": "港股IPO首日涨幅中位数"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈争议怒离采访",
-        "assets": "📉 美元 承压；📈 黄金 避险",
-        "chain": "政治不确定性上升，资金从风险资产流向避险资产（如国债、黄金）",
-        "watch": "DOJ调查进展及特朗普支持率民调"
+        "what": "特朗普因选举欺诈质疑愤然离场采访",
+        "assets": "📉 美元 承压 📈 黄金 避险",
+        "chain": "政治不确定性上升，资金可能从风险资产（股票）撤出，转向避险资产（美债、黄金）",
+        "watch": "特朗普民调支持率变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 7%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "中东紧张升级，美股期货分化，韩股暴跌7%",
-        "assets": "📉 韩国KOSPI 承压；📉 原油 利好；📈 黄金 避险",
-        "chain": "地缘风险推升油价（能源成本），冲击亚洲出口导向经济体（如韩国）",
-        "watch": "中东冲突是否扩大及美国库存数据"
+        "what": "中东局势升级致美股期货分化，韩股暴跌7%",
+        "assets": "📉 韩国KOSPI 利空 📈 原油 利好",
+        "chain": "地缘风险（战争风险）推高油价，冲击依赖进口能源的亚洲经济体（如韩国），资本外流",
+        "watch": "布伦特原油价格是否突破90美元"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Asia tech stocks extend sell-off with SoftBank down over 7% as investors sour on AI-linked names",
+      "source": "CNBC",
+      "detail": "Asian tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "AI相关科技股遭抛售，软银跌超7%",
+        "assets": "📉 亚洲AI科技股 利空 📉 纳斯达克期货 承压",
+        "chain": "AI泡沫（估值过高）担忧蔓延，资金轮动至防御板块（公用事业、医疗），科技ETF（交易所交易基金）面临赎回",
+        "watch": "软银股价能否守住年线"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "AI超大规模企业成看空美股的核心论据",
-        "assets": "📉 AI科技股 承压；📉 纳指 利空",
-        "chain": "AI资本开支过高但回报不明，引发估值泡沫担忧（P/E压缩），拖累大盘",
-        "watch": "AI巨头财报中的资本开支指引及营收增速"
+        "what": "AI巨头成股市看空核心论点",
+        "assets": "📉 AI概念股 利空 📉 纳斯达克100 承压",
+        "chain": "高资本支出（砸钱建算力）但盈利未兑现，可能引发系统性回调（整体下跌），拖累半导体供应链",
+        "watch": "英伟达下季度营收指引"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "全球半导体销量连续30月正增长，但港股科技ETF跌逾2%",
-        "assets": "📈 半导体行业 利好；📉 港股科技股 承压",
-        "chain": "长期需求强劲但短期资金流出新兴市场，ETF下跌反映获利了结（Take Profit）",
-        "watch": "全球半导体出货量环比增速及南向资金流向"
+        "what": "全球半导体销量连续30月增长，但港股信息技术ETF反跌2%",
+        "assets": "📈 全球半导体 利好 📉 港股科技ETF 承压",
+        "chain": "销量数据滞后（反映过去），市场更关注AI需求降温的预期，资金提前离场",
+        "watch": "费城半导体指数（SOX）周度走势"
       }
     },
     {
