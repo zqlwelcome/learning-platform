@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 08:11",
+  "updateTime": "2026-06-08 08:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行领衔多国央行加息抗通胀",
-        "assets": "📈 欧元 利好; 📉 全球债券 承压",
-        "chain": "加息（借钱成本提高）压缩需求，利空股市和大宗商品，美元指数可能被动走弱",
-        "watch": "欧洲央行6月利率决议及点阵图"
+        "what": "欧洲央行抢跑加息，多国央行跟进抗通胀",
+        "assets": "📈 欧元 利好；📉 全球债券 承压",
+        "chain": "欧央行先手加息（收紧货币）→美元被动走弱→大宗商品（如黄金）短期获支撑",
+        "watch": "本周美联储议息会议声明"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美国5月非农数据超预期，加息预期升温",
-        "assets": "📈 美元 利好; 📉 黄金 承压",
-        "chain": "强劲就业推升美联储加息预期（市场押注更高利率），美债收益率上行，风险资产承压",
-        "watch": "下周CPI数据及美联储官员讲话"
+        "what": "美国5月非农数据远超预期，加息预期飙升",
+        "assets": "📈 美元指数 利好；📉 美股科技股 承压",
+        "chain": "非农强劲→加息预期升温（借钱成本变高）→风险资产（如成长股）估值受压",
+        "watch": "下周CPI数据及美联储点阵图"
       }
     },
     {
@@ -37,56 +37,64 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈争议中断采访离场",
-        "assets": "📉 特朗普媒体科技集团 承压; 📈 政治不确定性 利好避险资产",
-        "chain": "政治动荡推升避险情绪，资金可能流入美债和黄金，但影响有限",
-        "watch": "特朗普法律案件进展及民调变化"
+        "what": "特朗普因选举欺诈问题被质疑，怒退采访",
+        "assets": "📉 Trump Media & Technology Group 承压；📈 政治不确定性 避险资产",
+        "chain": "特朗普负面新闻→其相关资产（如DJT）抛售→避险情绪推升黄金",
+        "watch": "特朗普法律诉讼进展和民调变化"
       }
     },
     {
       "rank": 4,
+      "title": "U.S. stock futures fall as Iran attacks Israel; South Korea's Kospi plunges 8%: Live updates",
+      "source": "CNBC",
+      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "伊朗攻击以色列，美股期货下跌，韩国Kospi暴跌8%",
+        "assets": "📉 韩国Kospi 承压；📈 原油 利好；📉 美股期货 承压",
+        "chain": "地缘冲突升级→避险情绪（sell-off）→原油供应风险溢价上升→军工股短线利好",
+        "watch": "伊朗-以色列冲突是否扩大及美国反应"
+      }
+    },
+    {
+      "rank": 5,
       "title": "加密货币交易所Bybit将开放SpaceX代币化IPO的参与渠道",
       "source": "环球市场播报",
       "detail": " 加密货币交易所Bybit表示，将向散户投资者提供以发行价参与代币化首次公开募股（IPO）的机会，首期将推出SpaceX的代币化IPO。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Bybit将提供SpaceX代币化IPO认购",
-        "assets": "📈 SpaceX相关代币 利好; 📈 加密货币市场 情绪利好",
-        "chain": "代币化降低散户参与门槛，可能推高SpaceX估值，并带动RWA（真实世界资产代币化）赛道热度",
-        "watch": "Bybit平台实际认购数据及监管反馈"
+        "what": "Bybit将开放SpaceX代币化IPO认购渠道",
+        "assets": "📈 加密货币（代币化资产）利好；📈 SpaceX相关代币 利好",
+        "chain": "代币化IPO（资产上链）→传统证券与加密货币融合加速→合规交易所（如Coinbase）受益",
+        "watch": "SEC对代币化证券监管态度及SpaceX估值"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Inflation inside the electronics you buy may soon become a bit more sticky",
       "source": "CNBC",
       "detail": "Most consumers are not familiar with the role resin plays inside electronics like smartphones. A current shortage of the materials may push up prices.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "电子产品通胀粘性上升，成本压力持续",
-        "assets": "📈 半导体股 承压; 📉 消费电子 利润承压",
-        "chain": "芯片、元件成本上涨挤压下游毛利，可能引发涨价传导（涨价潮），压制终端需求",
-        "watch": "台积电等代工厂最新报价及库存数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Stock futures fall as Iran attack on Israel shakes fragile ceasefire: Live updates",
-      "source": "CNBC",
-      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "伊朗袭击以色列，股市期货下跌",
-        "assets": "📈 原油 利好; 📉 全球股市 承压",
-        "chain": "地缘冲突推高油价（能源供给风险），避险资金流向黄金和美元，风险资产遭抛售",
-        "watch": "以色列/伊朗后续军事行动及停火谈判进展"
+        "what": "电子产品通胀可能变得更加粘性（不易回落）",
+        "assets": "📈 半导体股 利好；📉 消费电子需求 承压",
+        "chain": "电子元件通胀粘性（成本难降）→制造商提价→毛利率承压，但半导体公司定价权增强",
+        "watch": "台积电、英特尔下季度毛利率指引及消费者信心指数"
       }
     },
     {
       "rank": 7,
+      "title": "拟取消“逾期贷款罚息30%~50%”条款，央行就存贷款利率新规征求意见，解读来了",
+      "source": "每日经济新闻",
+      "detail": "每经记者|张寿林每经编辑|陈旭 6月5日，中国人民银行发布通知，在对原《人民币利率管理规定》进行修订的基础上，人民银行新形成了《人民币存贷款利率管理规定》...",
+      "lang": "zh",
+      "score": 18
+    },
+    {
+      "rank": 8,
       "title": "OPEC+ approves fourth oil output quota hike since Hormuz closure",
       "source": "CNBC",
       "detail": "Seven members of OPEC+, which groups OPEC and allied producers including Russia, increased output quotas from April to June by almost 600,000 barrels per day.",
@@ -94,7 +102,7 @@
       "score": 17
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "These are the most overbought stocks after a volatile week",
       "source": "CNBC",
       "detail": "Hewlett Packard Enterprise was among this week's most overbought stocks.",
@@ -102,18 +110,10 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "NAVER 采用英伟达 AI 模型，巩固韩国市场领先地位",
       "source": "环球市场播报",
       "detail": "韩国 NAVER 公司将依托英伟达技术方案建设数据中心，以此稳固其在韩国人工智能领域的主导地位。 英伟达全球人工智能云与基础设施负责人拉吉・米尔普里（Raj Mirpuri...",
-      "lang": "zh",
-      "score": 15
-    },
-    {
-      "rank": 10,
-      "title": "6月8日周末要闻：中东突发！伊朗向以色列发射导弹 特朗普发声 伊朗应见好就收 以色列也别报复",
-      "source": "环球市场播报",
-      "detail": "市场 6月6日收盘：美股收跌纳指重挫1100点 美联储加息预期升温令股指承压 6月6日美股成交额前20：博通业绩指引不及预期，股价三连跌 6月6日热门中概股普跌 奇景光电跌16...",
       "lang": "zh",
       "score": 15
     }
