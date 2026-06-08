@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 18:51",
+  "updateTime": "2026-06-08 18:55",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "CNBC",
       "detail": "The selling intensified Monday as the benchmark Kospi plunged more than 8% at the open, even as it emerged as one of the world's standout performers thus far.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "外资抛售韩国股票，无视历史性上涨",
+        "assets": "📉 韩国KOSPI指数 承压; 📉 韩元 贬值压力",
+        "chain": "外资流出推高韩元贬值预期，可能引发亚洲新兴市场资金外逃（资本外流）",
+        "watch": "韩国央行外汇干预动作及外资持仓变化"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "环球市场播报",
       "detail": "Anthropic上周递交 IPO 申报文件，这家克劳德代码大模型研发企业，在与 OpenAI 的上市竞速中暂时领先。 投行与律师表示，企业抢在竞争对手之前登陆二级市场存在合理考量...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "Anthropic与OpenAI竞相冲刺IPO",
+        "assets": "📈 美股AI概念股 波动; 📉 未上市AI公司估值 承压",
+        "chain": "抢先上市可能压低估值（IPO定价折扣），拖累私募市场AI标的（一级市场估值）",
+        "watch": "IPO定价及首日表现，对比同行估值"
+      }
     },
     {
       "rank": 3,
@@ -23,7 +35,13 @@
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "特朗普因选举欺诈质疑中断采访",
+        "assets": "📉 美元指数 承压; 📉 美股政治风险溢价 上升",
+        "chain": "政治不确定性加剧，可能削弱“特朗普交易”（减税、放松监管预期）",
+        "watch": "特朗普民调变动及政策议程推进情况"
+      }
     },
     {
       "rank": 4,
@@ -31,7 +49,13 @@
       "source": "CNBC",
       "detail": "Global tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "科技股抛售加速，软银跌6%",
+        "assets": "📉 美股科技板块 承压; 📉 日经225指数 联动下跌",
+        "chain": "AI热潮退烧（风险偏好下降），衍生品市场可能触发追加保证金（margin call）",
+        "watch": "纳指期货及VIX（恐慌指数）水平"
+      }
     },
     {
       "rank": 5,
@@ -39,7 +63,13 @@
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "美国确认德州螺旋蛆病例，加拿大限制牲畜进口",
+        "assets": "📈 农产品期货 利好; 📉 美国肉类出口 承压",
+        "chain": "供应中断推高牛肉价格，可能传导至CPI（通胀指标）食品分项",
+        "watch": "美国农业部疫情扩散报告及进口限制扩大"
+      }
     },
     {
       "rank": 6,
@@ -47,7 +77,13 @@
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "芯片股反弹助纳指期货上涨，特朗普维持停火",
+        "assets": "📈 美股芯片股 反弹; 📈 纳斯达克指数 利好",
+        "chain": "停火预期降低地缘风险溢价（risk premium），资金回流风险资产",
+        "watch": "特朗普停火协议后续声明及芯片股成交量"
+      }
     },
     {
       "rank": 7,
@@ -75,9 +111,9 @@
     },
     {
       "rank": 10,
-      "title": "美股芯片股盘前集体反弹，迈威尔科技涨超6%，存储概念普涨，美光科技涨超3%",
+      "title": "A股年内93家半导体公司减持",
       "source": "21世纪经济报道",
-      "detail": " 6月8日美股盘前，三大股指期货涨跌不一，截至北京时间18：05，纳指期货涨0.68%，道指期货跌0.13%，标普500指数期货涨0.33%。",
+      "detail": "记者丨张赛男 编辑丨包芳鸣 曾静娇 6月8日，A股主要指数集体回调，沪指失守4000点。Wind数据显示，半导体指数收盘跌超4%，东微半导、新相微、宏微科技跌超11%...",
       "lang": "zh",
       "score": 25
     }
