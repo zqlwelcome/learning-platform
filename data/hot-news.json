@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-08 19:35",
+  "updateTime": "2026-06-08 19:41",
   "news": [
     {
       "rank": 1,
-      "title": "Foreign investors have dumped billions of dollars of Korean stocks this year despite record rally. Here's why",
-      "source": "CNBC",
-      "detail": "The selling intensified Monday as the benchmark Kospi plunged more than 8% at the open, even as it emerged as one of the world's standout performers thus far.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国股市 承压；📈 韩元 贬值压力",
-        "chain": "外资流出→韩元贬值→出口竞争力提升，但可能引发央行干预（外汇市场操作）",
-        "watch": "韩国综合指数（KOSPI）外资净流出量及韩元汇率"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Anthropic与OpenAI冲刺 IPO：抢先上市未必代表表现更佳",
       "source": "环球市场播报",
       "detail": "Anthropic上周递交 IPO 申报文件，这家克劳德代码大模型研发企业，在与 OpenAI 的上市竞速中暂时领先。 投行与律师表示，企业抢在竞争对手之前登陆二级市场存在合理考量...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI冲刺IPO，先上市未必占优",
-        "assets": "📉 AI科技股 不确定性；📈 一级市场（未上市股权）关注度",
-        "chain": "IPO竞争→估值泡沫风险→投资者转向更成熟公司（如微软、谷歌）避险",
-        "watch": "AI公司财报及IPO定价与后续表现"
+        "what": "AI公司Anthropic与OpenAI争相IPO，但先上市未必更优",
+        "assets": "📈 AI板块 利好",
+        "chain": "IPO供给增加可能分流资金（资本流向新标的），但竞争加剧或压低估值",
+        "watch": "看哪家率先提交S-1（招股书）及定价区间"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因被质疑选举欺诈和司法基金问题中断采访",
-        "assets": "📉 特朗普概念股（如DJT）承压；📈 政治不确定性上升",
-        "chain": "政治冲突→政策落地延迟→市场避险情绪升温（如美元走强）",
-        "watch": "11月大选民调及相关法律诉讼进展"
+        "what": "特朗普因选举欺诈质疑怒离采访，涉及司法部资金",
+        "assets": "📉 美国政治不确定性 利空",
+        "chain": "政治动荡削弱政策预期，避险情绪推高美元/美债（美元走强，国债价格涨）",
+        "watch": "关注民调变化及国会预算案投票"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
+      "source": "CNBC",
+      "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "中国支撑油价在100美元以下，但分析师警告不可持续",
+        "assets": "📉 原油 承压",
+        "chain": "中国需求放缓+OPEC增产预期（石油输出国组织增加产量），油价中期看跌",
+        "watch": "中国PMI（采购经理指数）与原油库存数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳指期货涨1%，芯片股反弹，特朗普试图维持停火",
-        "assets": "📈 美股科技股 利好；📈 芯片股（英伟达、AMD）反弹",
-        "chain": "芯片股反弹→科技板块情绪修复→带动纳指上行（技术面超跌反弹）",
-        "watch": "特朗普停火声明细节及芯片库存数据"
+        "what": "纳指期货涨1%，芯片股反弹且特朗普维持停火",
+        "assets": "📈 美股科技股 利好，📈 半导体ETF 利好",
+        "chain": "风险偏好修复（市场情绪变好），资金从避险资产回流成长股",
+        "watch": "今晚美股开盘后费城半导体指数（SOX指数）表现"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "英国首相斥资5.33亿美元投资AI芯片，支持主权计算",
-        "assets": "📈 英国AI芯片股 利好；📈 英伟达（供应链）",
-        "chain": "主权计算投资→政府订单刺激→AI芯片需求长期增长（算力基建）",
-        "watch": "英国AI芯片采购合同及本土芯片公司股价"
+        "what": "英国首相投5.33亿美元建AI芯片，支持主权计算",
+        "assets": "📈 英国芯片股 利好，📈 AI基础设施 利好",
+        "chain": "政府订单刺激本土半导体需求，但财政支出可能推高英国国债收益率（借钱成本上升）",
+        "watch": "英国国债拍卖情况及后续AI补贴细则"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "意大利联合信贷银行竞购世界最古老银行（西雅那银行）",
-        "assets": "📈 意大利银行股 利好；📉 西雅那银行 溢价风险",
-        "chain": "竞购战→银行整合预期→欧洲金融板块估值重估（并购溢价逻辑）",
-        "watch": "竞购价格及监管批准（欧盟竞争委员会）"
+        "what": "意大利联合信贷银行加入竞购世界最古老银行西雅那",
+        "assets": "📈 意大利银行股 利好，📉 欧洲银行整合 利空",
+        "chain": "竞购战推高收购溢价（买家出价更高），但整合后可能裁员降本",
+        "watch": "意大利央行审批进度及对手方报价"
       }
     },
     {
