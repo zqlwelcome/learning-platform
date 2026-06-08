@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 14:01",
+  "updateTime": "2026-06-08 14:06",
   "news": [
     {
       "rank": 1,
@@ -10,41 +10,55 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI 承压\n📈 韩国国债 利好（避险）",
-        "chain": "外资流出→韩元贬值→韩国出口竞争力提升（但短期压制股市流动性）",
-        "watch": "韩元/美元汇率及外资净流出量"
+        "assets": "📉 韩国KOSPI 承压; 📈 美元/韩元 利好",
+        "chain": "外资流出推高韩元贬值预期（汇率走弱），加剧新兴市场资金外逃（资本外流）。",
+        "watch": "韩国央行是否干预汇市（卖出美元买入韩元）"
       }
     },
     {
       "rank": 2,
+      "title": "停火协议名存实亡！黄金失守4300关口，本周美国CPI成救命稻草？",
+      "source": "市场资讯",
+      "detail": "文章来源：汇通财经 周一（6月8日）亚洲时段，现货金价在开盘之后触及每盎司4353美元后迅速跳水，当前回调至4300美元下方，截止13：40，创下自3月2...",
+      "lang": "zh",
+      "score": 42,
+      "insight": {
+        "what": "停火协议失效，金价跌破4300，聚焦美国CPI",
+        "assets": "📈 黄金 承压; 📉 避险资产 短期承压",
+        "chain": "风险情绪恶化（恐慌指数VIX上升）推高美元，压制大宗商品（以美元计价资产）。",
+        "watch": "美国CPI数据（通胀指标）是否超预期"
+      }
+    },
+    {
+      "rank": 3,
       "title": "港股午评：恒指跌1.18% 科指跌2.4% 科网股、黄金股普跌 半导体板块继续调整 百度跌超7%",
       "source": "新浪港股",
       "detail": "6月8日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.18%，报24668.39，恒生科技指数跌2.4%，国企指数跌1.01%。盘面上，科网股普跌，百度跌超7%，美团跌超4%...",
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股午盘下跌，科指跌超2%，百度跌7%",
-        "assets": "📉 恒生科技指数 利空\n📉 百度 利空\n📈 防御性板块（公用事业） 避险",
-        "chain": "科网股抛售→市场风险偏好下降→资金转向防御性资产（如债券）",
-        "watch": "南向资金流向及科技股财报"
+        "what": "港股恒指跌1.18%，科指跌2.4%，科技股黄金股普跌",
+        "assets": "📉 恒生科技股 承压; 📉 港股黄金股 承压",
+        "chain": "科网股杀估值（市盈率压缩）拖累恒指，半导体调整反映全球芯片需求疲软（景气下行）。",
+        "watch": "南向资金（内地流入港股资金）是否持续流出"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "对美联储可能加息的担忧拖累亚洲科技股下跌",
       "source": "环球市场播报",
       "detail": "由于市场担心美国利率上升，加上对人工智能（AI）支出和高估值的疑虑持续，亚洲科技股周一普遍下跌。 三星电子下跌6.2%，存储芯片制造商SK海力士下跌2.3%。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息担忧拖累亚洲科技股下跌",
-        "assets": "📉 亚洲科技股（台积电、三星） 利空\n📈 美元指数 利好",
-        "chain": "加息预期（借钱成本提高）→科技股估值受压制（成长股对利率敏感）→资金回流美元资产",
-        "watch": "美联储官员讲话及美债收益率走势"
+        "what": "美联储加息担忧打压亚洲科技股",
+        "assets": "📉 亚洲科技股 承压; 📈 美元 利好",
+        "chain": "加息预期（借钱成本上升）抬高无风险利率（美债收益率），科技股高估值承压（折现率提高）。",
+        "watch": "美联储官员讲话（鹰派或鸽派信号）"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "日本10年期国债收益率上涨5个基点至2.715% 受美联储加息预期影响",
       "source": "环球市场播报",
       "detail": " 日本10年期国债收益率上升，强劲的美国就业报告提振了市场对美联储今年加息的预期。日本10年期国债收益率上涨5个基点至2.715%。",
@@ -52,41 +66,35 @@
       "score": 36,
       "insight": {
         "what": "日本10年期国债收益率升至2.715%",
-        "assets": "📉 日本国债价格 利空\n📈 日元 承压（利差扩大）",
-        "chain": "美日利差扩大→日元贬值压力→日本进口成本上升（通胀输入）",
+        "assets": "📈 日元 承压; 📉 日本债券 承压",
+        "chain": "美日利差（两国国债收益率差）扩大，套利交易（借日元买美元）推高美元/日元汇率。",
         "watch": "日本央行是否调整YCC（收益率曲线控制）政策"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "美国劳动力市场保持强韧 高盛不再预期美联储今年会降息",
       "source": "环球市场播报",
       "detail": "由于劳动力市场强于预期，高盛经济学家不再预期美联储今年会降息。 该行将美联储最后两次降息的预测时点从之前的2026年12月和2027年3月推后至2027年6月和12。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美国劳动力市场强劲，高盛撤回降息预期",
-        "assets": "📈 美元 利好\n📉 美股成长股 利空\n📉 黄金 承压",
-        "chain": "不降息（高利率维持更久）→企业融资成本高→压制股市估值，利好银行股（净息差扩大）",
-        "watch": "周五非农数据及CPI（消费者物价指数）"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "通胀压力回升 欧洲央行或本周加息",
-      "source": "中国新闻网",
-      "detail": "中新网6月8日电 据法新社报道，随着美伊以战争引发的能源冲击推高通胀，欧洲央行或将在本周加息。 报道称，中东战争引发的能源冲击大幅推高全球能源成本...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "通胀压力回升，欧洲央行或本周加息",
-        "assets": "📈 欧元 利好\n📉 欧洲国债 利空\n📉 欧洲出口股 承压",
-        "chain": "加息（借钱成本提高）→欧元升值→欧洲出口竞争力下降，但银行股受益于息差扩大",
-        "watch": "周四欧洲央行利率决议及拉加德讲话"
+        "what": "美国劳动力强劲，高盛取消美联储降息预期",
+        "assets": "📈 美元 利好; 📉 美股 承压; 📉 新兴市场 承压",
+        "chain": "就业强韧（劳动力市场过热）推迟降息（借钱成本降低），美元走强压制新兴市场资产（资金回流美国）。",
+        "watch": "下周非农就业数据（劳动力市场关键指标）"
       }
     },
     {
       "rank": 7,
+      "title": "通胀压力回升 欧洲央行或本周加息",
+      "source": "中国新闻网",
+      "detail": "中新网6月8日电 据法新社报道，随着美伊以战争引发的能源冲击推高通胀，欧洲央行或将在本周加息。 报道称，中东战争引发的能源冲击大幅推高全球能源成本...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
@@ -94,7 +102,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
@@ -102,18 +110,10 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 7%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "Asia tech stocks extend sell-off with SoftBank down over 7% as investors sour on AI-linked names",
-      "source": "CNBC",
-      "detail": "Asian tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
       "score": 32
     }
