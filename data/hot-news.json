@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-08 08:36",
+  "updateTime": "2026-06-08 08:41",
   "news": [
     {
       "rank": 1,
+      "title": "美联储主席沃什首秀在即 特朗普称加息将是错误之举",
+      "source": "环球市场播报",
+      "detail": "美国总统唐纳德·特朗普表示，在他提名的凯文·沃什即将首次主持美联储政策会议之际，如果加息将是错误之举。 美国5月份就业数据表现强劲...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "特朗普批评加息，沃什就任美联储主席前施压",
+        "assets": "📉 美元 承压, 📈 美债 利好",
+        "chain": "政治干预美联储独立性，市场押注降息（借钱成本降低），推高风险资产",
+        "watch": "沃什首场发布会措辞及点阵图（利率预期）"
+      }
+    },
+    {
+      "rank": 2,
       "title": "战火引爆全球加息潮：欧洲央行明牌“抢跑”，多国央行本周打响“通胀防御战”",
       "source": "智通财经APP",
       "detail": "智通财经注意到，本周欧元区预计将实施加息，这使得欧洲央行在这场因伊朗战争引发的全球紧缩浪潮中，走在了最前沿。 市场普遍预期欧央行将在周四加息25个基点。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行明确加息立场，多国央行同步紧缩",
-        "assets": "📉 欧元 承压；📉 全球债券 利空",
-        "chain": "加息（提高借钱成本）压缩需求→企业盈利预期下修→股市估值回调",
-        "watch": "欧洲央行下次议息会议声明及通胀数据"
+        "what": "地缘冲突引发全球央行加息潮以抗通胀",
+        "assets": "📈 欧元 升值, 📉 新兴市场货币 承压",
+        "chain": "欧央行抢跑加息（提高借钱成本）缩紧流动性，新兴市场被迫跟进，利空股市",
+        "watch": "本周欧央行利率决议及多国CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质疑中断采访，涉及司法部资金",
-        "assets": "📉 美元 短期波动；📉 美国政治风险资产 利空",
-        "chain": "政治不确定性上升→避险情绪升温→资金流向黄金和国债",
-        "watch": "特朗普民调变化及司法部相关新闻"
+        "what": "特朗普因选举欺诈质疑中断采访，司法部基金相关",
+        "assets": "📉 特朗普传媒股 利空, 📈 政治避险资产 利好",
+        "chain": "政治不确定性升温，资金可能流入黄金或美元避险，波动率上升",
+        "watch": "司法部调查进展及媒体头条舆情"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "U.S. stock futures fall as Iran attacks Israel; South Korea's Kospi plunges 8%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗攻击以色列致美股期货下跌，韩国Kospi暴跌8%",
-        "assets": "📉 美股指数 承压；📉 韩国Kospi 利空；📈 黄金 避险利好",
-        "chain": "地缘冲突升级→风险资产遭抛售→大宗商品（油价）上涨压力",
-        "watch": "伊朗-以色列冲突进展及VIX（恐慌指数）走势"
+        "what": "伊朗袭击以色列，美股期货下跌，韩国Kospi暴跌8%",
+        "assets": "📉 全球股指 利空, 📈 原油 利好, 📈 黄金 利好",
+        "chain": "地缘冲突升级推高油价（能源成本），避险情绪打压风险资产，亚太首当其冲",
+        "watch": "以色列反击行动及布伦特原油价格突破位"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SpaceX等巨额AI融资潮来袭 新股洪流考验美股承接能力",
       "source": "环球市场播报",
       "detail": " 随着企业为推进人工智能（AI）战略纷纷筹资，新股供应洪流正令华尔街开始质疑：市场是否有足够资金消化这些股票，以及新增股权供应将如何影响更广泛的股价表现。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SpaceX等AI企业大规模融资，新股供应激增",
-        "assets": "📉 美股科技股 承压；📉 新股市场 供应压力",
-        "chain": "新股抽血（资金从旧股流向新股）→科技板块流动性紧张→估值压缩",
-        "watch": "一级市场新股认购倍数及二级市场科技板块资金流向"
+        "what": "SpaceX等AI公司巨额融资潮，新股供应冲击美股",
+        "assets": "📉 美股科技股 承压, 📈 一级市场 活跃",
+        "chain": "新股洪流（大量新股上市）分流二级市场资金，加剧科技板块回调压力",
+        "watch": "未来一周IPO定价及科技板块资金净流出量"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "自行车代工龙头富士达闯关IPO，电动自行车扩产压力待解",
       "source": "滚动播报",
       "detail": "来源：华尔街见闻 押注电动自行车 6月8日，天津富士达自行车工业股份有限公司（下称“富士达”）的主板IPO将迎来上会审核。 富士达旗下两轮车产品涵盖自行车、电动自行车...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "自行车代工富士达申请IPO，电动自行车扩产存挑战",
-        "assets": "📉 电动自行车板块 利空；📉 富士达 承压",
-        "chain": "IPO稀释现有股东权益→行业产能过剩担忧→供应链库存调整",
-        "watch": "电动自行车行业库存数据及富士达招股书细节"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Inflation inside the electronics you buy may soon become a bit more sticky",
-      "source": "CNBC",
-      "detail": "Most consumers are not familiar with the role resin plays inside electronics like smartphones. A current shortage of the materials may push up prices.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "电子产品通胀压力因供应链因素可能变得更顽固",
-        "assets": "📈 电子元器件 利好；📈 半导体 利好",
-        "chain": "成本上升→终端涨价→消费者支出转移→可选消费承压",
-        "watch": "核心PCE（个人消费支出）中电子类分项及半导体产能利用率"
+        "what": "自行车代工龙头富士达IPO，扩产电动自行车",
+        "assets": "📈 电动自行车产业链 利好, 📉 传统自行车股 利空",
+        "chain": "资金涌入新能源出行赛道，但产能过剩风险（生产太多卖不掉）压制估值",
+        "watch": "IPO认购倍数及电动自行车行业库存数据"
       }
     },
     {
       "rank": 7,
+      "title": "Inflation inside the electronics you buy may soon become a bit more sticky",
+      "source": "CNBC",
+      "detail": "Most consumers are not familiar with the role resin plays inside electronics like smartphones. A current shortage of the materials may push up prices.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 8,
       "title": "拟取消“逾期贷款罚息30%~50%”条款，央行就存贷款利率新规征求意见，解读来了",
       "source": "每日经济新闻",
       "detail": "每经记者|张寿林每经编辑|陈旭 6月5日，中国人民银行发布通知，在对原《人民币利率管理规定》进行修订的基础上，人民银行新形成了《人民币存贷款利率管理规定》...",
@@ -94,7 +102,7 @@
       "score": 18
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "OPEC+ approves fourth oil output quota hike since Hormuz closure",
       "source": "CNBC",
       "detail": "Seven members of OPEC+, which groups OPEC and allied producers including Russia, increased output quotas from April to June by almost 600,000 barrels per day.",
@@ -102,20 +110,12 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "These are the most overbought stocks after a volatile week",
       "source": "CNBC",
       "detail": "Hewlett Packard Enterprise was among this week's most overbought stocks.",
       "lang": "en",
       "score": 17
-    },
-    {
-      "rank": 10,
-      "title": "美股股指期货走低 受美伊脆弱停火拖累",
-      "source": "环球市场播报",
-      "detail": " 有报道称伊朗向以色列发射导弹，脆弱的停火局面岌岌可危，市场不确定性随之加剧。叠加上周纳斯达克指数大幅跳水，美股股指期货当地时间周日晚间走低。",
-      "lang": "zh",
-      "score": 15
     }
   ]
 }
