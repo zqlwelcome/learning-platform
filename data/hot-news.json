@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 17:46",
+  "updateTime": "2026-06-08 17:51",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI指数 承压, 📉 韩元 贬值",
-        "chain": "外资撤离导致韩元贬值，可能引发央行干预（抛美元买韩元），连带影响新兴市场资金流向",
-        "watch": "韩国央行外汇储备变化及外资净流出数据"
+        "assets": "📉 韩国KOSPI指数 承压；📈 韩元 贬值风险",
+        "chain": "外资流出可能触发本地杠杆多头平仓（force-selling），加剧回调，并推高韩元波动率",
+        "watch": "韩国央行干预汇率及外资持仓变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI竞争抢先上市",
-        "assets": "📈 AI概念股 波动, 📈 科技IPO市场 活跃",
-        "chain": "抢先上市可能压低估值，但提升市场对AI赛道关注度，推动资金涌入AI初创（高风险高回报）",
-        "watch": "两家公司IPO估值及首日表现"
+        "what": "Anthropic与OpenAI竞相IPO，抢先未必赢",
+        "assets": "📈 AI概念股 分化；📉 未上市AI初创 估值承压",
+        "chain": "先上市者可能面临盈利审查（scrutiny），后发者利用对比优势吸引资金，导致板块轮动",
+        "watch": "两家公司IPO估值及监管审批进度"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息预期升温，银价大跌",
-        "assets": "📉 白银 承压, 📉 贵金属板块 利空",
-        "chain": "加息（借钱成本高）降低无息资产吸引力，美元走强压制大宗商品（以美元计价），白银工业需求也受拖累",
-        "watch": "美联储6月会议纪要及点阵图（利率预测）"
+        "what": "美联储加息预期升温，白银价格大跌",
+        "assets": "📉 白银 利空；📈 美元指数 走强",
+        "chain": "加息预期推高实际利率（名义利率减通胀），削弱无息资产白银吸引力，同时压制贵金属板块",
+        "watch": "美国CPI数据及美联储点阵图（利率预测）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质疑中断采访",
-        "assets": "📉 特朗普媒体股 承压, 📉 政治不确定性 风险",
-        "chain": "政治风波可能加剧市场避险情绪，资金流入美元/美债（避险资产），但影响有限因事件非政策相关",
-        "watch": "民调变化及国会调查进展"
+        "what": "特朗普因选举欺诈质疑中断采访离场",
+        "assets": "📉 特朗普媒体科技集团 利空；📈 政治不确定性 上升",
+        "chain": "事件加剧政治风险溢价（risk premium），可能影响相关股票波动率，并转移市场对经济数据的注意力",
+        "watch": "司法部调查进展及民调变化"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股抛售加速，软银因AI股下跌6%",
-        "assets": "📉 科技股 承压, 📉 软银 利空, 📈 防御性板块 利好",
-        "chain": "AI估值泡沫担忧引发获利了结（卖出盈利资产），资金轮动至防御板块（如公用事业），软银因重仓AI受创",
-        "watch": "纳斯达克100指数及AI龙头财报"
+        "what": "科技股抛售加速，软银因AI相关股跌6%",
+        "assets": "📉 全球科技股 承压；📉 软银集团 利空",
+        "chain": "AI泡沫担忧触发获利了结（profit-taking），软银作为重仓AI的基金，净值回撤引发连锁赎回",
+        "watch": "纳斯达克100指数支撑位及AI龙头财报"
       }
     },
     {
@@ -79,14 +79,22 @@
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "原油基金罕见涨停，工业软件逆市上扬",
-        "assets": "📈 原油基金 利好, 📈 工业软件板块 利好, 📉 其他板块 分化",
-        "chain": "原油涨停或因供应中断（如OPEC减产），工业软件受国产替代（自主可控）政策驱动，资金从消费转向周期",
-        "watch": "原油库存数据及国产软件政策落地"
+        "what": "原油基金罕见涨停，工业软件板块逆市上涨",
+        "assets": "📈 原油ETF 利好；📈 工业软件 逆势上涨",
+        "chain": "原油涨停或因供应中断预期，工业软件受益于国产替代（本土化）政策，资金从消费科技轮动至工业",
+        "watch": "OPEC+产量公告及工业软件订单数据"
       }
     },
     {
       "rank": 7,
+      "title": "邦达亚洲:非农强劲升温加息预期 黄金刷新10周低位",
+      "source": "市场资讯",
+      "detail": "6月8日，面对远超预期的劳动力市场和极具韧性的经济数据，高盛正式向“更高更久”的现实“投降”。在最新的研报中，高盛首席美国经济学家David...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "港股收评：恒指跌1.22% 科指跌2.71% 科网股、黄金股低迷 百度跌超7% 山东墨龙逆势涨超25%",
       "source": "新浪港股",
       "detail": "6月8日消息，港股三大指数集体下跌。截至收盘，恒生指数跌1.22%，报24657.06，恒生科技指数跌2.71%，国企指数跌1.13%。盘面上，科网股普跌，百度跌超7%，快手跌超5%...",
@@ -94,7 +102,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
@@ -102,20 +110,12 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
       "source": "CNBC",
       "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
       "lang": "en",
       "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "Inflation inside the electronics you buy may soon become a bit more sticky",
-      "source": "CNBC",
-      "detail": "Most consumers are not familiar with the role resin plays inside electronics like smartphones. A current shortage of the materials may push up prices.",
-      "lang": "en",
-      "score": 20
     }
   ]
 }
