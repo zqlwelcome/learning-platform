@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 18:46",
+  "updateTime": "2026-06-08 18:51",
   "news": [
     {
       "rank": 1,
@@ -7,13 +7,7 @@
       "source": "CNBC",
       "detail": "The selling intensified Monday as the benchmark Kospi plunged more than 8% at the open, even as it emerged as one of the world's standout performers thus far.",
       "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI指数 承压；📉 韩元 贬值压力",
-        "chain": "外资流出导致韩元走弱，可能引发央行干预（外汇市场稳定措施），并拖累亚洲新兴市场情绪",
-        "watch": "韩国央行利率决议及外汇储备变动"
-      }
+      "score": 47
     },
     {
       "rank": 2,
@@ -21,13 +15,7 @@
       "source": "环球市场播报",
       "detail": "Anthropic上周递交 IPO 申报文件，这家克劳德代码大模型研发企业，在与 OpenAI 的上市竞速中暂时领先。 投行与律师表示，企业抢在竞争对手之前登陆二级市场存在合理考量...",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "Anthropic与OpenAI竞相冲刺IPO",
-        "assets": "📈 AI相关科技股 利好；📉 传统软件股 承压",
-        "chain": "IPO潮加剧AI赛道估值泡沫（过高定价），资金从传统科技股转投AI，同时利好一级市场（私募投资）退出",
-        "watch": "AI公司财报及IPO定价区间"
-      }
+      "score": 45
     },
     {
       "rank": 3,
@@ -35,13 +23,7 @@
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "特朗普因选举欺诈质疑中断采访",
-        "assets": "📉 美元 承压；📈 避险资产（黄金、美债） 利好",
-        "chain": "政治不确定性上升，市场避险情绪升温（买入避险资产），可能拖累美股短期波动率（VIX恐慌指数上升）",
-        "watch": "特朗普支持率及司法部调查进展"
-      }
+      "score": 33
     },
     {
       "rank": 4,
@@ -49,48 +31,30 @@
       "source": "CNBC",
       "detail": "Global tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "科技股抛售加剧，软银跌6%",
-        "assets": "📉 全球科技股 承压；📉 软银 利空",
-        "chain": "AI泡沫担忧蔓延，杠杆基金（借钱投资的基金）被迫平仓，拖累纳斯达克及日元套利交易（借日元买美股）",
-        "watch": "科技龙头财报及美联储利率预期"
-      }
+      "score": 32
     },
     {
       "rank": 5,
+      "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
+      "source": "CNBC",
+      "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 6,
       "title": "Nasdaq futures gain as chip stocks rebound from Friday's rout, Trump tries to maintain ceasefire: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "芯片股反弹，纳指期货上涨",
-        "assets": "📈 半导体板块 利好；📈 纳斯达克100 反弹",
-        "chain": "超跌反弹（短期技术性买入）叠加特朗普停火信号，风险偏好回升，资金从防御股（公用事业）回流成长股",
-        "watch": "英伟达股价及中美关税动向"
-      }
+      "score": 27
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
       "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "英国首相投资5.33亿美元建AI芯片",
-        "assets": "📈 英国AI芯片股 利好；📈 英镑 短期支撑",
-        "chain": "主权计算（政府自建算力）刺激本土半导体需求，但财政支出增加可能推升英债收益率（借钱成本），挤压其他基建投资",
-        "watch": "英国GDP数据及AI政策细节"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
-      "source": "CNBC",
-      "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
-      "lang": "en",
       "score": 25
     },
     {
@@ -103,19 +67,19 @@
     },
     {
       "rank": 9,
+      "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
+      "source": "CNBC",
+      "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
+      "lang": "en",
+      "score": 25
+    },
+    {
+      "rank": 10,
       "title": "美股芯片股盘前集体反弹，迈威尔科技涨超6%，存储概念普涨，美光科技涨超3%",
       "source": "21世纪经济报道",
       "detail": " 6月8日美股盘前，三大股指期货涨跌不一，截至北京时间18：05，纳指期货涨0.68%，道指期货跌0.13%，标普500指数期货涨0.33%。",
       "lang": "zh",
       "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "MHMarkets迈汇:黄金回调检验韧性",
-      "source": "市场资讯",
-      "detail": "6月8日，MHMarkets迈汇提到，进入初夏后黄金常会遭遇季节性清淡阶段，交易热度下降、资金分流加快，价格也更容易出现横盘或回撤。",
-      "lang": "zh",
-      "score": 22
     }
   ]
 }
