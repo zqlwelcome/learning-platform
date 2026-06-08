@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 19:06",
+  "updateTime": "2026-06-08 19:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "外资抛售韩国股票，无视股市创新高",
-        "assets": "📉 韩国股市 承压, 📉 韩元 贬值压力",
-        "chain": "外资流出→韩元贬值→韩央行可能加息（提高借钱成本）抑制经济，利空韩债",
-        "watch": "韩国央行利率决议及外汇储备变化"
+        "what": "外资抛售韩国股票，尽管股市创新高",
+        "assets": "📉 韩国KOSPI指数 承压，📉 韩元 承压",
+        "chain": "外资流出反映避险情绪，或拖累新兴市场（EM）资产，利空韩元交叉盘（如USD/KRW上涨）",
+        "watch": "韩国央行（BOK）是否干预汇市"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI竞相IPO，但先上市未必占优",
-        "assets": "📉 AI概念股 分化, 📈 未上市AI公司 估值压力",
-        "chain": "IPO竞争→市场关注盈利而非故事→高估值AI股回调（价格下跌）风险",
-        "watch": "Anthropic/OpenAI估值及营收数据"
+        "what": "Anthropic与OpenAI竞相冲刺IPO，但先上市未必占优",
+        "assets": "📈 美股AI板块 利好，📉 未上市AI公司估值 承压",
+        "chain": "IPO竞赛推高AI赛道估值（PE倍数），但先上市可能面临盈利压力，引发板块轮动（从确定性转向成长性）",
+        "watch": "OpenAI估值及监管动态"
       }
     },
     {
@@ -37,28 +37,14 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质疑中断采访，涉及DOJ资金",
-        "assets": "📉 美国政治不确定性 利空, 📉 美元 承压",
-        "chain": "政治动荡→政策延迟→避险情绪升，利空美股，利多美债（避险资产）",
-        "watch": "特朗普支持率及DOJ相关诉讼进展"
+        "what": "特朗普因选举欺诈质疑中断采访，涉及司法部资金",
+        "assets": "📉 美国政治不确定性 利空，📈 避险资产（黄金、美债） 利好",
+        "chain": "政治风险升温或推高VIX（恐慌指数），压制风险偏好（Risk-off），利好美元短期避险属性",
+        "watch": "特朗普支持率及国会调查进展"
       }
     },
     {
       "rank": 4,
-      "title": "Tech stock sell-off accelerates; SoftBank drops 6% as investors sour on AI-linked names",
-      "source": "CNBC",
-      "detail": "Global tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "科技股抛售加速，软银跌6%因AI热情降温",
-        "assets": "📉 全球科技股 利空, 📉 软银 重挫, 📉 AI相关ETF 承压",
-        "chain": "AI泡沫担忧→资金转向防御板块（如公用事业）→科技股进一步下跌",
-        "watch": "纳斯达克指数及AI龙头财报前瞻"
-      }
-    },
-    {
-      "rank": 5,
       "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
       "source": "CNBC",
       "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
@@ -66,35 +52,41 @@
       "score": 29,
       "insight": {
         "what": "美国确认第二例螺旋蝇病例，加拿大限制牲畜进口",
-        "assets": "📉 美国畜牧业 利空, 📉 加拿大肉类出口 承压",
-        "chain": "疫情扩散→贸易限制→肉类价格上涨→通胀预期升温，利多农产品期货",
-        "watch": "USDA疫情报告及边境检疫措施"
+        "assets": "📉 美国肉类出口 承压，📈 加拿大畜牧业 利好",
+        "chain": "贸易摩擦风险上升，或推高牛肉期货价格（因供应中断），并影响美加贸易谈判（USMCA条款）",
+        "watch": "美国农业部（USDA）疫情通报频率"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Nasdaq futures gain as chip stocks rebound from Friday's rout, Trump tries to maintain ceasefire: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "芯片股反弹，纳指期货上涨，特朗普维持停火",
-        "assets": "📈 芯片股 反弹, 📈 纳斯达克 利好, 📈 避险资产 承压",
-        "chain": "科技反弹+地缘缓和→风险偏好回升→资金从国债流入股市",
-        "watch": "英伟达股价及停火协议细节"
+        "what": "纳指期货因芯片股反弹而上涨，特朗普维持停火",
+        "assets": "📈 美股半导体（SOX指数） 利好，📈 纳斯达克指数 利好",
+        "chain": "芯片股反弹带动科技板块（Tech Sector），特朗普停火言论缓解地缘风险（俄乌/中东），利多风险资产（Risk-on）",
+        "watch": "英伟达（NVDA）股价能否突破前高"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "英国首相斯塔默投5.33亿美元建AI芯片，支持主权计算",
+        "assets": "📈 英国AI概念股 利好，📈 半导体设备商 利好",
+        "chain": "主权计算（Sovereign Computing）需求推高芯片订单预期，利好ASML（光刻机）等上游，但增加政府债务（国债收益率上行风险）",
+        "watch": "英国GDP数据及AI相关财政支出细则"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
       "source": "CNBC",
       "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
@@ -102,7 +94,7 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
       "source": "CNBC",
       "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
@@ -110,12 +102,20 @@
       "score": 25
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "A股年内93家半导体公司减持",
       "source": "21世纪经济报道",
       "detail": "记者丨张赛男 编辑丨包芳鸣 曾静娇 6月8日，A股主要指数集体回调，沪指失守4000点。Wind数据显示，半导体指数收盘跌超4%，东微半导、新相微、宏微科技跌超11%...",
       "lang": "zh",
       "score": 25
+    },
+    {
+      "rank": 10,
+      "title": "MHMarkets迈汇:黄金回调检验韧性",
+      "source": "市场资讯",
+      "detail": "6月8日，MHMarkets迈汇提到，进入初夏后黄金常会遭遇季节性清淡阶段，交易热度下降、资金分流加快，价格也更容易出现横盘或回撤。",
+      "lang": "zh",
+      "score": 22
     }
   ]
 }
