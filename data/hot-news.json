@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 03:21",
+  "updateTime": "2026-06-09 03:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "市场担忧SpaceX IPO预示见顶，但历史数据不支持",
-        "assets": "📈 美股科技股 中性偏多",
-        "chain": "若IPO顺利，可能提振科技板块情绪（风险偏好），但需防获利了结（卖出锁定利润）",
-        "watch": "SpaceX估值及首日涨幅"
+        "what": "市场担忧SpaceX IPO见顶，但历史显示并非如此",
+        "assets": "📉 美股科技股 短期承压，📈 太空概念股 利好",
+        "chain": "IPO资金分流（抽走流动性）可能压制小盘科技，但龙头股（如特斯拉）情绪提振",
+        "watch": "SpaceX IPO定价与首日涨幅"
       }
     },
     {
@@ -23,70 +23,56 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "历史显示大型IPO通常不标志牛市顶部",
-        "assets": "📈 标普500 中性",
-        "chain": "缓解市场对见顶恐慌，支撑多头仓位（看涨持仓），但需关注后续流动性（资金面）",
-        "watch": "后续IPO数量及资金流入"
+        "what": "WWDC 2026苹果发布Siri AI及新设计",
+        "assets": "📈 苹果供应链 利好，📉 竞品AI语音股 承压",
+        "chain": "AI应用（人工智能落地）加速，带动芯片（如高通）需求，但旧机型换机需求滞后",
+        "watch": "苹果AI功能付费率与iPhone出货量"
       }
     },
     {
       "rank": 3,
-      "title": "私募股权科技交易额暴跌70% AI担忧令投资者对估值越发谨慎",
-      "source": "环球市场播报",
-      "detail": " 贝恩公司报告显示，私募股权科技交易额自去年底以来大幅下滑，原因是投资者在人工智能（AI）时代对企业估值变得越发谨慎。",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "私募股权科技交易额暴跌70%，AI估值担忧加剧",
-        "assets": "📉 科技独角兽 承压，📉 风投基金 利空",
-        "chain": "高估值导致融资冻结（资本枯竭），可能传导至二级市场科技股估值修正（重新定价）",
-        "watch": "科技股PE（市盈率）及并购活动"
-      }
-    },
-    {
-      "rank": 4,
       "title": "WWDC 2026: Apple makes its big Siri AI reveal, changes Liquid Glass and more",
       "source": "CNBC",
       "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "苹果WWDC 2026发布Siri AI及Liquid Glass更新",
-        "assets": "📈 苹果 利好，📈 AI概念股 利好",
-        "chain": "新AI功能刺激换机周期（消费者升级设备），带动供应链（相关零部件厂商）需求",
-        "watch": "苹果股价及AI功能用户反馈"
+        "what": "中国压低油价低于100美元，但分析师警告不可持续",
+        "assets": "📉 原油期货 承压，📈 航空股 利好",
+        "chain": "中国需求放缓（经济减速）压低油价，但OPEC减产（石油输出国组织限产）或反弹，通胀预期下行",
+        "watch": "中国PMI（采购经理指数）与OPEC产量决定"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国需求帮助油价低于100美元，但分析师警告不可持续",
-        "assets": "📈 原油 短期承压，📉 能源股 中性偏空",
-        "chain": "中国进口支撑油价（需求缓冲），若经济放缓则油价可能突破（供应冲击风险）",
-        "watch": "中国PMI（采购经理指数）及OPEC产量"
+        "what": "摩根士丹利：美元涨势取决于美联储利率路径",
+        "assets": "📈 美元指数 中性偏强，📉 新兴市场货币 承压",
+        "chain": "若美联储鹰派（加息倾向），美元走强压制大宗商品（如黄金）和新兴市场债务",
+        "watch": "美联储点阵图与CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "摩根士丹利：美元涨势能否持续取决于美联储利率路径",
       "source": "环球市场播报",
       "detail": "摩根士丹利策略师David Adams、Andrew Watrous和Molly Nickolin等人在周一报告中写道，美股表现优于全球其他地区股票支持美元走强的观点，但若要涨势持续...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "摩根士丹利：美元涨势取决于美联储利率路径",
-        "assets": "📈 美元 中性，📉 新兴市场货币 承压",
-        "chain": "若美联储维持高利率（借贷成本高），美元走强，新兴市场资金外流（资本逃离）",
-        "watch": "美联储会议纪要及非农数据"
+        "what": "硅谷新收购策略冲击华尔街传统投行",
+        "assets": "📉 华尔街投行股 承压，📈 科技并购基金 利好",
+        "chain": "科技公司直接收购（绕过投行）降低费用，挤压投行佣金收入，但提升科技股估值",
+        "watch": "并购交易量与投行收入季报"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Silicon Valley’s new buyout playbook is hitting Wall Street",
       "source": "CNBC",
       "detail": "Instead of selling AI tools to companies, venture firms are buying legacy companies outright and rebuilding them around AI from the inside.",
@@ -94,7 +80,7 @@
       "score": 17
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
       "source": "CNBC",
       "detail": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
@@ -102,7 +88,7 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "CI&T加入Claude合作伙伴网络，千名认证工程师助力全球企业规模化部署AI",
       "source": "环球市场播报",
       "detail": "CI&amp;T（纽约证券交易所代码：CINT）近日宣布正式加入Anthropic的Claude合作伙伴网络，旨在帮助全球大型企业规模化部署Claude AI模型。",
@@ -110,10 +96,18 @@
       "score": 15
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Amylyx将在ENDO 2026年会公布两项重磅海报，聚焦减肥术后低血糖",
       "source": "环球市场播报",
       "detail": "Amylyx Pharmaceuticals， Inc．（纳斯达克代码：AMLX）近日宣布，将于6月13日至16日在芝加哥举行的美国内分泌学会年会（ENDO 2026）上...",
+      "lang": "zh",
+      "score": 15
+    },
+    {
+      "rank": 10,
+      "title": "Upstart遭集体诉讼，首席原告申请截止日期为6月8日",
+      "source": "环球市场播报",
+      "detail": "知名证券律师事务所Faruqi &amp; Faruqi， LLP提醒Upstart Holdings， Inc．（纳斯达克代码：UPST）的投资者，针对该公司的联邦证券集体诉讼中...",
       "lang": "zh",
       "score": 15
     }
