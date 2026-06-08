@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 18:16",
+  "updateTime": "2026-06-08 18:21",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI指数 承压；📉 韩元 贬值压力",
-        "chain": "外资流出可能触发韩元贬值（汇率下跌），推高进口成本，打压出口企业利润",
-        "watch": "韩国央行是否干预汇市或调整利率"
+        "assets": "📉 韩国KOSPI 承压",
+        "chain": "外资流出可能因获利了结，或对韩国经济数据（GDP/出口）存疑，加剧韩元贬值（货币走弱）",
+        "watch": "韩国出口数据及外资持股变动"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI冲刺IPO，抢先上市未必占优",
-        "assets": "📈 AI概念股（如英伟达） 短期利好；📉 未上市AI公司估值 承压",
-        "chain": "IPO竞争加剧导致资金分流（资本从二级市场转向一级市场），科技股波动性上升",
-        "watch": "AI公司营收增速和IPO定价区间"
+        "what": "Anthropic与OpenAI竞相IPO，抢先未必更好",
+        "assets": "📈 AI概念股 分化",
+        "chain": "IPO竞争反映AI行业资本需求，但估值过高可能引发短期回调（价格下跌），利好已上市AI龙头（如英伟达）",
+        "watch": "两家公司IPO定价及市场认购热度"
       }
     },
     {
       "rank": 3,
-      "title": "光大期货0608热点追踪：美联储加息预期升温 银价大幅下挫",
-      "source": "市场资讯",
-      "detail": "上周五美国5月非农就业数据显示，新增非农就业人口17.2万人，远超市场预期的8.5万人，4月数据上修至17.9万人，失业率维持在4.3%不变。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美联储加息预期升温导致白银价格暴跌",
-        "assets": "📉 白银 利空；📉 黄金 承压；📈 美元指数 走强",
-        "chain": "加息预期（借钱成本上升）推高实际利率（扣除通胀后的利率），压制无息资产（如贵金属）吸引力",
-        "watch": "本周美国CPI（消费者物价指数）数据和美联储官员讲话"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质疑中断采访，司法部涉入",
-        "assets": "📉 美国政治不确定性 利空；📉 美元 短期承压",
-        "chain": "政治动荡可能延迟财政政策（政府花钱计划），降低风险偏好（投资者避险情绪），资金流向国债",
-        "watch": "民调变化和国会听证会进展"
+        "what": "特朗普因被质疑选举欺诈中断采访",
+        "assets": "📉 美元 承压",
+        "chain": "政治不确定性上升，可能引发避险情绪，利空美元，利好黄金（避险资产）",
+        "watch": "特朗普相关民调及法律事件进展"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Tech stock sell-off accelerates; SoftBank drops 6% as investors sour on AI-linked names",
       "source": "CNBC",
       "detail": "Global tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股抛售加剧，软银因AI相关股下跌6%",
-        "assets": "📉 科技股（如纳斯达克指数） 利空；📉 软银 承压；📉 AI芯片股 回调",
-        "chain": "AI泡沫担忧（估值过高）引发获利了结（卖出赚钱仓位），资金轮动至防御板块（如公用事业）",
-        "watch": "科技龙头财报和AI订单数据"
+        "what": "科技股抛售加速，软银跌6%",
+        "assets": "📉 美股科技股 承压",
+        "chain": "AI概念获利回吐，恐慌情绪蔓延至软银（高杠杆持仓），可能触发更多止损（自动卖出）",
+        "watch": "纳斯达克指数及VIX（恐慌指数）水平"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "英国首相投资5.33亿美元于AI芯片，支持主权计算",
-        "assets": "📈 英国AI芯片股（如ARM） 利好；📈 英镑 短期提振",
-        "chain": "主权计算（国家自主算力）投资刺激半导体需求，可能引发欧洲其他国家效仿，推高芯片进口",
-        "watch": "英国政府后续AI补贴细则和芯片交付进度"
+        "what": "英国首相投资5.33亿美元建设AI芯片主权",
+        "assets": "📈 英国AI芯片股 利好",
+        "chain": "政府支出刺激本土算力基建，带动半导体设备需求，但可能推升英国国债收益率（借钱成本）",
+        "watch": "英国AI相关企业订单及国债拍卖"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
       "source": "CNBC",
       "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
       "lang": "en",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "IATA预测航空公司利润减半，因燃油成本增千亿美元",
+        "assets": "📉 航空股 承压",
+        "chain": "油价上涨直接侵蚀利润，消费者可能因机票涨价减少出行，利空旅游相关ETF（交易基金）",
+        "watch": "原油期货价格及航空燃油对冲比例"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
       "source": "CNBC",
       "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
@@ -102,12 +94,20 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "国家数据局重磅发布！事关数据赋能人工智能发展",
       "source": "市场资讯",
       "detail": "来源：国家数据局 国家数据局关于印发《关于推进行业高质量数据集建设行动的实施方案》的通知 国数科基〔2026〕25号 各省、自治区...",
       "lang": "zh",
       "score": 20
+    },
+    {
+      "rank": 9,
+      "title": "国务院安委办点名陕西商洛高速桥梁垮塌事故：擅改桩长，检测单位发现未纠仍出报告",
+      "source": "界面",
+      "detail": "界面新闻记者 | 张旭界面新闻编辑 | 刘海川 2026年6月8日，界面新闻从应急管理部获悉，国务院安委办日前通报5起弄虚作假典型案例...",
+      "lang": "zh",
+      "score": 18
     },
     {
       "rank": 10,
