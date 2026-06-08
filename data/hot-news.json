@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 02:11",
+  "updateTime": "2026-06-09 02:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "私募科技交易额暴跌70%，投资者对估值谨慎",
-        "assets": "📉 私募科技公司 估值承压，📉 科技股IPO 利空",
-        "chain": "估值泡沫（过高定价）风险释放，拖累一级市场（未上市企业融资）活跃度，二级市场科技股可能补跌",
-        "watch": "科技公司一级市场融资额及估值变化"
+        "what": "私募科技交易额暴跌70%，估值趋谨慎",
+        "assets": "📉 科技初创股权 承压; 📉 私募股权基金 利空",
+        "chain": "一级市场（未上市企业融资）流动性收紧，倒逼科技股IPO（首次公开募股）定价下调，拖累二级市场（已上市股票）科技板块估值",
+        "watch": "科技初创公司新一轮融资估值变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "交易员警告SpaceX IPO投资者需谨慎",
-        "assets": "📉 SpaceX 估值预期 承压，📉 太空概念股 利空",
-        "chain": "明星IPO（首次公开发行）热度降温，暗示市场风险偏好（愿意承担风险的意愿）下降，可能波及整个成长股板块",
-        "watch": "SpaceX IPO定价及市场认购情况"
+        "what": "交易员警告炒作SpaceX IPO风险",
+        "assets": "📉 SpaceX相关概念股 利空; 📉 太空板块 承压",
+        "chain": "散户投机情绪若退潮，将压制其他高热度未上市科技公司（如Stripe、OpenAI）的IPO预期估值",
+        "watch": "SpaceX私募市场股价走势及IPO时间表"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Stellantis证券欺诈集体诉讼首席原告申请截止6月8日",
-        "assets": "📉 Stellantis 股价 利空，📉 汽车股 情绪承压",
-        "chain": "诉讼风险（法律纠纷）增加不确定性，可能引发投资者抛售，拖累板块估值",
-        "watch": "诉讼进展及Stellantis股价波动"
+        "what": "Stellantis证券欺诈集体诉讼原告申请截止日6月8日",
+        "assets": "📉 Stellantis股票 承压; 📉 汽车板块 利空",
+        "chain": "诉讼风险增加投资者对车企财报（财务报表）真实性担忧，可能引发做空（押注股价下跌）仓位增加",
+        "watch": "Stellantis股价波动率及诉讼进展"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国支撑油价低于100美元，但分析师警告不可持续",
-        "assets": "📈 原油 短期利好，📉 原油 中期承压",
-        "chain": "中国需求（全球最大原油进口国）是短期托底因素，但若经济放缓，油价可能破位下行（跌破支撑位）",
-        "watch": "中国原油进口数据及PMI（采购经理指数）"
+        "what": "中国需求短暂支撑油价低于100美元",
+        "assets": "📈 原油 短期利好; 📉 能源股 中期承压",
+        "chain": "中国进口脉冲（短期增量）不可持续，若全球衰退（经济萎缩）深化，油价将破位下行，拖累产油国货币",
+        "watch": "中国炼厂开工率及全球PMI（采购经理人指数）数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "摩根士丹利：美元涨势取决于美联储利率路径",
-        "assets": "📈 美元 短期利好，📉 非美货币 承压",
-        "chain": "美联储鹰派（倾向加息）预期支撑美元，但若经济数据走弱，美元可能反转，影响新兴市场资金流向",
-        "watch": "美联储点阵图（利率预测）及CPI（通胀数据）"
+        "what": "摩根士丹利称美元走势取决于美联储利率路径",
+        "assets": "📈 美元指数 中性; 📉 非美货币 承压",
+        "chain": "若美联储维持高利率（借钱成本高），美元走强将压制新兴市场（如印度、巴西）股市和大宗商品（如铜、金）",
+        "watch": "美联储点阵图（利率预测图）及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -80,9 +80,9 @@
       "score": 23,
       "insight": {
         "what": "美国家庭财务担忧升至2022年7月以来最高",
-        "assets": "📉 消费股 利空，📉 美国国债 避险利好",
-        "chain": "消费者信心恶化（悲观预期）将抑制支出，拖累GDP（国内生产总值），强化降息预期（借钱成本降低），利好债市",
-        "watch": "美国零售销售及消费者信心指数"
+        "assets": "📉 消费股 利空; 📉 美国GDP（国内生产总值）预期 承压",
+        "chain": "消费者信心恶化将减少非必需消费（如汽车、旅游），增加违约风险，拖累银行股和零售REITs（房地产投资信托）",
+        "watch": "美国零售销售月率及信用卡违约率"
       }
     },
     {
@@ -95,6 +95,14 @@
     },
     {
       "rank": 8,
+      "title": "Silicon Valley’s new buyout playbook is hitting Wall Street",
+      "source": "CNBC",
+      "detail": "Instead of selling AI tools to companies, venture firms are buying legacy companies outright and rebuilding them around AI from the inside.",
+      "lang": "en",
+      "score": 17
+    },
+    {
+      "rank": 9,
       "title": "Stocks making the biggest moves midday: Cerebras, Marvell, Intel, Corning & more",
       "source": "CNBC",
       "detail": "Here are the companies that are making headlines in midday trading.",
@@ -102,20 +110,12 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
       "source": "CNBC",
       "detail": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
       "lang": "en",
       "score": 17
-    },
-    {
-      "rank": 10,
-      "title": "苹果“AI”由谷歌Gemini提供技术，可在云端服务器运行",
-      "source": "新浪科技",
-      "detail": "新浪科技讯 6月9日凌晨，苹果召开WWDC26全球开发者大会。苹果宣布Apple Intelligence与谷歌达成合作，引入Gemini大模型，并带来全新的AI架构。",
-      "lang": "zh",
-      "score": 15
     }
   ]
 }
