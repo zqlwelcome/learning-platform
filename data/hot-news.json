@@ -1,22 +1,36 @@
 {
-  "updateTime": "2026-06-08 23:10",
+  "updateTime": "2026-06-08 23:16",
   "news": [
     {
       "rank": 1,
+      "title": "Stellantis证券欺诈集体诉讼首席原告申请截止日为6月8日",
+      "source": "环球市场播报",
+      "detail": "美国全国性股东权利诉讼律所The Schall Law Firm近日提醒投资者，针对Stellantis N.V．（纽交所代码：STLA）的证券欺诈集体诉讼已进入关键阶段。",
+      "lang": "zh",
+      "score": 33,
+      "insight": {
+        "what": "Stellantis面临证券欺诈集体诉讼，首席原告申请截止",
+        "assets": "📉 Stellantis股价 利空",
+        "chain": "诉讼可能引发车企板块估值下修（市盈率降低），拖累欧洲汽车股",
+        "watch": "6月8日原告申请结果及后续和解进展"
+      }
+    },
+    {
+      "rank": 2,
       "title": "WWDC 2026 live updates: Apple AI, Siri and iPhone software in focus ",
       "source": "CNBC",
       "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "苹果WWDC聚焦AI、Siri和iPhone软件更新",
-        "assets": "📈 苹果股价 利好；📈 美股科技股 偏正面",
-        "chain": "AI功能升级提振消费电子换机预期（用户更新设备），带动芯片需求二阶利好",
-        "watch": "苹果AI功能实际落地时间表及用户反馈"
+        "what": "WWDC 2026聚焦苹果AI、Siri及iPhone软件更新",
+        "assets": "📈 苹果股价 利好；📈 AI软件板块 利好",
+        "chain": "AI功能升级将提振iPhone换机周期（消费者更新设备），利好苹果供应链",
+        "watch": "开发者对AI功能的反响及后续销量指引"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Apollo首席经济学家：AI收益仍集中于“美股七巨头”",
       "source": "环球市场播报",
       "detail": "阿波罗全球管理公司首席经济学家托尔斯滕·斯洛克警告称，人工智能带来的经济收益至今仍高度集中于少数几家大型科技公司，美国经济中更广泛的企业群体尚未享受到AI技术的红...",
@@ -24,41 +38,41 @@
       "score": 30,
       "insight": {
         "what": "Apollo首席经济学家称AI收益仍集中于美股七巨头",
-        "assets": "📈 美股七巨头 利好；📉 中小盘科技股 承压",
-        "chain": "资金继续抱团龙头（集中持仓），挤压其他板块流动性，AI泡沫风险（高估值集中）上升",
-        "watch": "七巨头财报季盈利增速与AI相关收入占比"
+        "assets": "📈 美股七巨头（如英伟达、微软） 利好；📉 中小盘科技股 承压",
+        "chain": "资金继续抱团（集中买入）龙头，导致AI板块分化加剧（强者恒强）",
+        "watch": "七巨头财报增速及AI资本开支（投入资金）指引"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX IPO打破华尔街惯例：马斯克强化控制，散户获30%配售",
       "source": "环球市场播报",
       "detail": "SpaceX即将于6月12日登陆纳斯达克，募资规模高达750亿美元，刷新全球IPO历史纪录。然而，更令华尔街瞩目的是，这家由埃隆·马斯克掌舵的航天巨头正以一系列颠覆传统的方式推...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SpaceX IPO打破惯例，马斯克强化控制，散户获30%配售",
-        "assets": "📈 SpaceX估值 利好；📉 传统投行承销费 承压",
-        "chain": "散户参与度提升可能推高首日波动（换手率激增），但强化控制权降低管理层风险（代理人问题）",
-        "watch": "IPO首日涨跌幅及散户持股比例变化"
+        "what": "SpaceX IPO打破惯例，马斯克强化控制且散户获30%配售",
+        "assets": "📈 SpaceX估值 利好；📈 散户交易情绪 提振",
+        "chain": "高散户配售比可能加大上市后波动（换手率升高），但强化马斯克控制权降低治理风险",
+        "watch": "IPO定价及首日涨幅，散户认购倍数"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国助力油价低于100美元，但分析师警告不可持续",
-        "assets": "📉 原油 短期承压；📉 能源股 偏空",
-        "chain": "中国需求放缓（进口减少）压制油价，但地缘溢价（战争风险）和OPEC减产（供给收缩）可能反弹",
-        "watch": "中国原油进口数据及OPEC+产量决策"
+        "what": "中国帮助缓冲国际油价低于100美元，但分析师警告不可持续",
+        "assets": "📉 原油期货 承压；📈 亚洲炼油股 利好",
+        "chain": "中国需求短期支撑油价，但中期供应过剩（OPEC+增产）风险压制原油多头（看涨者）",
+        "watch": "中国PMI（采购经理指数）及OPEC+产量决策"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "泰瑞达与东京电子联合推出面向AI芯片的集成测试解决方案",
       "source": "环球市场播报",
       "detail": " 自动化测试设备提供商泰瑞达公司（Teradyne）与日本半导体设备巨头东京电子周一联合发布了一款集成测试单元解决方案，专为AI及数据中心应用中的芯片良率筛选而设计。",
@@ -66,27 +80,21 @@
       "score": 25,
       "insight": {
         "what": "泰瑞达与东京电子联合推出AI芯片集成测试方案",
-        "assets": "📈 半导体设备股 利好；📈 AI芯片产业链 偏正面",
-        "chain": "测试效率提升降低AI芯片良率成本（生产损耗），加速HBM（高带宽内存）和先进封装产能扩张",
-        "watch": "客户订单量及测试方案渗透率数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "英伟达与SK海力士签署新一代AI存储芯片多年合作协议",
-      "source": "环球市场播报",
-      "detail": "受人工智能产业需求激增影响，全球存储芯片供应趋紧，英伟达与 SK 海力士就此达成一项多年合作协议，联合研发高端存储芯片。这份合作涵盖芯片设计与生产制造...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "英伟达与SK海力士签署多年AI存储芯片合作协议",
-        "assets": "📈 英伟达 利好；📈 SK海力士 利好；📈 HBM产业链 偏正面",
-        "chain": "锁定HBM供应（关键AI芯片存储）缓解英伟达产能瓶颈，强化存储芯片涨价预期（供需紧张）",
-        "watch": "HBM3E产品季度出货量及合同价格条款"
+        "assets": "📈 半导体设备股（泰瑞达、东京电子） 利好；📈 AI芯片板块 利好",
+        "chain": "测试方案降低AI芯片良率（合格率）风险，加速HBM（高带宽内存）等先进封装扩产",
+        "watch": "客户导入进展及后续订单量"
       }
     },
     {
       "rank": 7,
+      "title": "英伟达与SK海力士签署新一代AI存储芯片多年合作协议",
+      "source": "环球市场播报",
+      "detail": "受人工智能产业需求激增影响，全球存储芯片供应趋紧，英伟达与 SK 海力士就此达成一项多年合作协议，联合研发高端存储芯片。这份合作涵盖芯片设计与生产制造...",
+      "lang": "zh",
+      "score": 25
+    },
+    {
+      "rank": 8,
       "title": "VisionWave以1750万美元收购Foresight控股权，加码国防AI感知技术",
       "source": "环球市场播报",
       "detail": "VisionWave Holdings与Foresight Autonomous Holdings于6月3日签署了一项最终证券交换协议，VisionWave将以最高1750万美元的股票收购Foresight的控股权。",
@@ -94,7 +102,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
       "source": "CNBC",
       "detail": "While the central bank's monthly survey showed the inflation outlook mostly unchanged, the general perception of conditions deteriorated.",
@@ -102,20 +110,12 @@
       "score": 23
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S.",
       "source": "CNBC",
       "detail": "Amazon is the latest megacap company to announce a massive deal with Corning, which is rapidly becoming a critical player in the AI buildout.",
       "lang": "en",
       "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "汇丰：不确定性持续，英国央行将维持利率不变",
-      "source": "环球市场播报",
-      "detail": "汇丰经济学家Elizabeth Martins和Emma Wilks表示，鉴于中东地区的不确定性、第二轮效应的迹象有限以及活动数据疲软，大多数英国央行利率制定者将倾向于在下周的会议上观望...",
-      "lang": "zh",
-      "score": 18
     }
   ]
 }
