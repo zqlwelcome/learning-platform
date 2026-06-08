@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-09 05:15",
+  "updateTime": "2026-06-09 05:20",
   "news": [
     {
       "rank": 1,
+      "title": "OpenAI confidentially files for IPO, prepping Wall Street for mega AI debut",
+      "source": "CNBC",
+      "detail": "OpenAI's confidential filing lands days before SpaceX is set to go public and a week after Anthropic announced its confidential disclosure with the SEC.",
+      "lang": "en",
+      "score": 62,
+      "insight": {
+        "what": "OpenAI秘密提交IPO申请，为AI巨头上市做准备",
+        "assets": "📈 AI板块 利好\n📈 科技IPO市场 提振",
+        "chain": "AI赛道估值重构（重新定价），带动一级市场（未上市企业）融资热潮及二级市场（已上市股票）AI相关标的",
+        "watch": "SEC（美国证监会）披露文件及估值区间"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Oculis三期临床试验失败致股价暴跌，多家律所启动证券欺诈调查",
       "source": "环球市场播报",
       "detail": "生物制药公司Oculis Holding AG（纳斯达克代码：OCS）正面临多家股东权益律师事务所的证券欺诈调查。继2026年5月29日披露其核心候选药物OCS-01的两项三期临床试验失败后...",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "Oculis三期临床失败，股价暴跌并遭集体诉讼",
-        "assets": "📉 Oculis股票 利空; 📉 生物科技板块 情绪利空",
-        "chain": "临床失败引发抛售，诉讼风险增加做空压力，拖累同类小型药企估值（市值缩水）。",
-        "watch": "Oculis后续数据披露及诉讼和解进展"
+        "what": "Oculis三期临床失败，股价暴跌并遭证券欺诈调查",
+        "assets": "📉 生物科技股 承压\n📉 Oculis 利空",
+        "chain": "市场对生物科技板块风险偏好下降，资金流出高beta（高波动性）小盘股，转向防御性资产（如医疗大蓝筹）",
+        "watch": "FDA（美国药监局）是否暂停其他管线及集体诉讼进展"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Amplitude下调盈利展望引发股价暴跌，多家律所启动证券欺诈调查",
       "source": "环球市场播报",
       "detail": "数字分析平台Amplitude， Inc．（纳斯达克代码：AMPL）正面临多家股东权益律师事务所的证券欺诈调查。继5月初公布一季报并大幅下调全年盈利指引后...",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "Amplitude下调盈利展望，股价暴跌并遭律所调查",
-        "assets": "📉 Amplitude股票 利空; 📉 SaaS板块 承压",
-        "chain": "盈利预警暗示客户支出疲软，引发对SaaS行业增长放缓的担忧，可能触发做空（押注下跌）。",
-        "watch": "Amplitude下季度财报及客户留存率"
+        "what": "Amplitude下调盈利展望，股价暴跌并遭证券欺诈调查",
+        "assets": "📉 SaaS（软件即服务）板块 利空\n📉 科技成长股 承压",
+        "chain": "市场对SaaS公司客户留存（续费率）和宏观需求（经济放缓）担忧加剧，可能引发板块盈利预期下调连锁反应",
+        "watch": "其他SaaS公司财报及客户支出数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Tom Lee's clients are worried SpaceX IPO will mark a market top. He's not",
       "source": "CNBC",
       "detail": "The Fundstrat managing partner and head of research said that there's enough cash on the sidelines that public markets can absorb the Elon Musk company's debut.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Tom Lee认为SpaceX IPO不会见顶，但客户担忧",
-        "assets": "📈 SpaceX相关ETF 情绪提振; 📉 大盘科技股 潜在分流",
-        "chain": "SpaceX高估值IPO可能吸走资金（流动性抽血），但Lee看多暗示风险偏好未崩，利好成长股。",
-        "watch": "SpaceX IPO定价及首日涨幅"
+        "what": "Tom Lee客户担忧SpaceX IPO预示市场见顶，他本人不认同",
+        "assets": "📈 私人股本/SPAC（特殊目的收购公司） 中性\n📉 市场情绪 短期承压",
+        "chain": "市场顶部论（见顶信号）压制散户情绪，若SpaceX估值过高可能引发IPO后抛售，但Lee的乐观表态部分对冲恐慌",
+        "watch": "SpaceX IPO定价及首日表现"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Nvidia CEO Jensen Huang declines Senate testimony on AI, China and exports",
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren said Nvidia’s CEO should answer questions publicly as lawmakers scrutinize AI chip sales to China and export controls.",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "黄仁勋拒绝就AI、中国和出口问题出席参议院听证",
-        "assets": "📉 英伟达股票 承压; 📉 半导体板块 政策不确定性",
-        "chain": "拒绝作证加剧市场对AI芯片出口管制升级的担忧，可能拖累英伟达供应链（如台积电）。",
-        "watch": "美国商务部后续对华芯片出口政策"
+        "what": "英伟达CEO黄仁勋拒绝就AI、中国和出口问题出席参议院听证",
+        "assets": "📉 半导体/英伟达 承压\n📉 中美科技股 不确定性",
+        "chain": "监管风险（出口管制）升级预期，加剧芯片股政策不确定性，资金可能转向不受地缘政治影响的行业如能源",
+        "watch": "美国商务部对华芯片出口新规及听证会后续"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "城堡证券：通胀压力或迫使美联储很快加息",
       "source": "环球市场播报",
       "detail": " 城堡证券认为，投资者面临的下一个重大风险是金融环境的收紧，因为美联储可能“很快”需要加息，以遏制日益加剧的通胀压力。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "城堡证券警告通胀压力或迫使美联储加息",
-        "assets": "📈 美元 走强; 📉 美债 利空（收益率上升）; 📉 科技成长股 承压",
-        "chain": "加息预期升温（借钱成本提高）打压风险资产，利好价值股和银行股（息差扩大）。",
-        "watch": "本周CPI及PPI数据，美联储官员讲话"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "WWDC 2026: Apple makes its big Siri AI reveal, changes Liquid Glass and more",
-      "source": "CNBC",
-      "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "WWDC 2026苹果公布Siri AI大升级及Liquid Glass设计",
-        "assets": "📈 苹果股票 利好; 📈 AI概念股 情绪提振",
-        "chain": "Siri AI升级有望带动换机周期（需求增加），利好苹果供应链（如立讯精密），但可能压制安卓阵营。",
-        "watch": "iPhone 18系列预购数据及AI功能实际体验"
+        "what": "城堡证券：通胀压力或迫使美联储很快加息",
+        "assets": "📉 美股/美债 利空\n📈 美元 走强",
+        "chain": "加息预期（借钱成本上升）推高短端利率（短期国债收益率），压制成长股估值，同时强化美元流动性收紧逻辑",
+        "watch": "下周CPI（消费者物价指数）及美联储官员讲话"
       }
     },
     {
       "rank": 7,
+      "title": "WWDC 2026: Apple makes its big Siri AI reveal, changes Liquid Glass and more",
+      "source": "CNBC",
+      "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "渤健阿尔茨海默症新药二期试验未达主要终点，多家律所启动证券欺诈调查",
       "source": "环球市场播报",
       "detail": "生物技术巨头渤健公司（Biogen Inc．，纳斯达克代码：BIIB）正面临多家股东权益律师事务所的证券欺诈调查。继2026年5月14日披露其tau靶向反义寡核苷酸疗法diranersen的二期...",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "核心候选药临床试验现癌症病例，Abivax遭律所证券欺诈调查",
       "source": "环球市场播报",
       "detail": "法国临床阶段生物技术公司Abivax S.A．（纳斯达克代码：ABVX）正面临股东权益律师事务所The Schall Law Firm的证券欺诈调查。调查聚焦于公司是否就核心候选药物obefazimod...",
@@ -102,18 +110,10 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "业绩暴雷叠加战略突变，Angi Inc.遭多家律所证券欺诈调查",
       "source": "环球市场播报",
       "detail": "家居服务平台Angi Inc．（纳斯达克代码：ANGI）正面临多家股东权益律师事务所的证券欺诈调查。继5月初公布惨淡的一季报导致股价单日暴跌逾35%后...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "阿姆斯壮世界工业披露项目延期致股价重挫，多家律所启动证券欺诈调查",
-      "source": "环球市场播报",
-      "detail": "美国建筑天花板系统制造商阿姆斯壮世界工业公司（Armstrong World Industries， Inc．，纽约证券交易所代码：AWI）正面临多家股东权益律师事务所的证券欺诈调查。",
       "lang": "zh",
       "score": 30
     }
