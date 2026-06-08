@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 12:20",
+  "updateTime": "2026-06-08 12:26",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI 承压，📈 美元/韩元 走强",
-        "chain": "外资流出引发韩元贬值（汇率下跌），推高进口成本，可能迫使韩国央行加息（提高借钱成本）",
-        "watch": "韩国央行利率决议及外资持仓数据"
+        "assets": "📉 韩国KOSPI指数 承压, 📉 韩元 贬值",
+        "chain": "外资流出→韩元走弱→加剧输入性通胀（进口成本上升）→央行可能加息",
+        "watch": "韩国央行利率决议及外资净流出数据"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股午盘下跌，科指跌2.4%，百度跌超7%",
-        "assets": "📉 港股科技股 承压，📉 恒生指数 承压",
-        "chain": "科网股抛售传导至半导体板块（芯片股），避险情绪推高黄金短期波动（黄金股先跌后稳）",
-        "watch": "恒生科技指数关键支撑位及百度财报"
+        "what": "港股午盘下跌，科网股黄金股普跌",
+        "assets": "📉 恒生科技指数 承压, 📉 港股科技股 利空, 📉 黄金股 利空",
+        "chain": "科网股拖累→权重股下跌→恒指下探→衍生品（期货期权）触发止损盘",
+        "watch": "港股成交量及南向资金流向"
       }
     },
     {
       "rank": 3,
+      "title": "对美联储可能加息的担忧拖累亚洲科技股下跌",
+      "source": "环球市场播报",
+      "detail": "由于市场担心美国利率上升，加上对人工智能（AI）支出和高估值的疑虑持续，亚洲科技股周一普遍下跌。 三星电子下跌6.2%，存储芯片制造商SK海力士下跌2.3%。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "美联储加息担忧拖累亚洲科技股",
+        "assets": "📉 亚洲科技股 承压, 📉 纳斯达克期货 利空",
+        "chain": "加息预期→美债收益率上升→科技股估值（未来现金流折现值）承压→资金撤出风险资产",
+        "watch": "美国CPI数据及美联储官员讲话"
+      }
+    },
+    {
+      "rank": 4,
       "title": "日本10年期国债收益率上涨5个基点至2.715% 受美联储加息预期影响",
       "source": "环球市场播报",
       "detail": " 日本10年期国债收益率上升，强劲的美国就业报告提振了市场对美联储今年加息的预期。日本10年期国债收益率上涨5个基点至2.715%。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本10年期国债收益率升至2.715%，受美联储加息预期影响",
-        "assets": "📈 日本国债收益率 上行，📉 日元 承压",
-        "chain": "美日利差扩大（美国利率更高），日元贬值压力加剧，可能触发日本央行干预（买入日元）",
-        "watch": "日本央行政策声明及美债收益率走势"
+        "what": "日本10年期国债收益率升至2.715%",
+        "assets": "📈 日本国债 承压, 📉 日经指数 利空, 📈 日元 贬值",
+        "chain": "美债收益率上升→日债跟随→日央行可能被迫加息→日元套利交易（借日元买高息资产）平仓",
+        "watch": "日本央行收益率曲线控制（YCC）政策调整"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "美国劳动力市场保持强韧 高盛不再预期美联储今年会降息",
       "source": "环球市场播报",
       "detail": "由于劳动力市场强于预期，高盛经济学家不再预期美联储今年会降息。 该行将美联储最后两次降息的预测时点从之前的2026年12月和2027年3月推后至2027年6月和12。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美国劳动力市场强劲，高盛取消2025年降息预期",
-        "assets": "📈 美元 走强，📉 美股成长股 承压",
-        "chain": "降息预期消失（借钱成本不降），高估值科技股受压制，资金转向价值股（传统行业）",
-        "watch": "非农就业数据及美联储点阵图"
+        "what": "美国劳动力强韧，高盛不再预期降息",
+        "assets": "📈 美元 走强, 📉 美股 承压, 📉 黄金 利空",
+        "chain": "就业强劲→通胀难降→加息预期升温→风险资产（股票、加密货币）抛售→避险资产（美债）收益率上升",
+        "watch": "周五非农就业数据及平均时薪增速"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "香港IPO热潮面临表现不佳的问题",
-        "assets": "📉 港股新股 承压，📉 港交所 承压",
-        "chain": "新股破发（上市后跌）打击投资者信心，减少后续IPO融资，港交所交易量萎缩",
-        "watch": "后续IPO认购率及首日涨跌幅"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
-      "source": "CNBC",
-      "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "特朗普因选举欺诈问题被质问后怒离采访",
-        "assets": "📉 特朗普媒体科技集团 承压，📈 政治不确定性 上升",
-        "chain": "政治风险升温，可能影响共和党筹款，避险情绪推高黄金短期需求（避险资产）",
-        "watch": "特朗普相关法律案件进展及民调变化"
+        "what": "香港IPO热潮但表现不佳",
+        "assets": "📉 港股IPO新股 承压, 📉 港交所 利空",
+        "chain": "破发率高→投资者信心受损→一级市场（新股发行）融资额下降→券商投行收入减少",
+        "watch": "后续新股首日涨幅及认购倍数"
       }
     },
     {
       "rank": 7,
+      "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
+      "source": "CNBC",
+      "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 8,
       "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 7%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Asia tech stocks extend sell-off with SoftBank down over 7% as investors sour on AI-linked names",
       "source": "CNBC",
       "detail": "Asian tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
@@ -102,20 +110,12 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Why AI hyperscalers are now the epicenter of a bear case for stocks",
       "source": "CNBC",
       "detail": "In the near term, there are many mouths to feed and not enough to eat.",
       "lang": "en",
       "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "芯片股暴跌之际，黄仁勋喊话：SK海力士是最大的内存合作伙伴",
-      "source": "澎湃新闻",
-      "detail": "黄仁勋表示，SK海力士将继续是英伟达最大的内存合作伙伴。 6月8日，英伟达和SK海力士宣布签署一项多年期技术合作协议，双方的合作包括共同开发用于英伟达AI（人工智能）加...",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
