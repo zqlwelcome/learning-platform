@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 20:00",
+  "updateTime": "2026-06-08 20:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股半导体及AI板块盘前反弹，科技股暴跌后企稳",
-        "assets": "📈 美股半导体ETF（如SMH）短期反弹，📈 AI概念股（如英伟达）情绪修复",
-        "chain": "科技股反弹可能提振风险偏好（Risk-on），带动纳指期货走高，但需警惕反弹是技术性修复（Dead Cat Bounce）",
-        "watch": "今晚美股开盘后成交量及VIX（恐慌指数）是否回落"
+        "what": "美股半导体及AI板块盘前反弹，科技股暴跌后修复",
+        "assets": "📈 美股半导体 ETF 利好；📈 AI概念股 利好",
+        "chain": "科技股反弹缓解恐慌抛售，资金可能从避险资产（美债）回流股市（风险偏好回升）",
+        "watch": "英伟达开盘价及成交量；VIX（恐慌指数）是否回落"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI冲刺IPO，抢先上市未必表现更优",
-        "assets": "📈 AI初创公司估值预期升温，📉 二级市场AI股（如微软）竞争压力隐现",
-        "chain": "IPO窗口打开或引发资金从已上市科技股流向新标的（IPO Rotation），但盈利不确定性压制长期估值",
-        "watch": "Anthropic及OpenAI的招股书营收数据及估值定价"
+        "what": "Anthropic与OpenAI冲刺IPO，抢先上市争议升温",
+        "assets": "📈 AI初创公司 估值利好；📉 已上市科技股 竞争承压",
+        "chain": "IPO抢跑可能引发AI赛道估值重估，未盈利公司依赖流动性溢价（市场愿意为高增长付费），若破发将拖累板块",
+        "watch": "IPO定价及首日涨幅；SEC（美国证监会）对AI披露要求"
       }
     },
     {
@@ -37,56 +37,64 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "福贝宠物因对赌信披违规被罚后赴港上市",
-        "assets": "📉 宠物食品板块（如中宠股份）情绪承压，📉 港股IPO市场信誉风险",
-        "chain": "监管处罚提高赴港上市门槛（Compliance Cost），可能拖累同类消费股估值及打新热情",
-        "watch": "港交所对福贝上市聆讯结果及后续信披整改情况"
+        "what": "福贝宠物因对赌信披违规被罚后赴港IPO",
+        "assets": "📉 宠物食品板块 监管风险；📈 港股IPO市场 供给增加",
+        "chain": "对赌协议暴露公司治理问题，可能降低机构参与热情，港股流动性分化（资金向龙头集中）",
+        "watch": "港交所聆讯结果；动物食品行业监管政策变化"
       }
     },
     {
       "rank": 4,
+      "title": "Stocks making the biggest moves premarket: Nvidia, Marvell, Flex and more",
+      "source": "CNBC",
+      "detail": "These are the stocks posting the largest moves in early trading.",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "英伟达、Marvell等个股盘前异动领涨",
+        "assets": "📈 英伟达 利好；📈 Marvell 利好；📈 费城半导体指数 利好",
+        "chain": "龙头股异动通常带动ETF资金流入，触发量化交易（算法自动买入），传导至整个半导体供应链",
+        "watch": "SOX（费城半导体指数）日内走势；期权隐含波动率"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈指控被质问后离场采访",
-        "assets": "📉 美股政治风险溢价上升，📉 美元短期波动",
-        "chain": "政治不确定性（Political Risk）可能压制风险资产，但市场已部分定价，影响有限",
-        "watch": "特朗普支持率变化及DOJ调查进展"
+        "what": "特朗普因选举欺诈指控被挑战后离场采访",
+        "assets": "📉 美元 承压；📉 政治不确定性资产 利空",
+        "chain": "政治动荡增加政策不确定性，资金可能流入黄金、瑞郎等避险资产，但影响有限（市场已定价部分风险）",
+        "watch": "DOJ（司法部）调查进展；特朗普民调支持率变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "国际航空运输协会：燃油成本暴涨千亿美元，今年全球航司利润或将腰斩",
       "source": "环球市场播报",
       "detail": "核心要点国际航空运输协会（IATA）预测，2026 年全球航空公司利润将缩水一半。航煤油价飙升，全行业燃油总支出将额外增加 1000 亿美元。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "燃油成本暴涨千亿美元，全球航司利润或腰斩",
-        "assets": "📉 全球航空股（如达美航空）承压，📈 原油期货（如布伦特）高位支撑",
-        "chain": "燃油成本侵蚀利润（Cost Pass-through受限），航司或被迫提价，但需求弹性（Demand Elasticity）可能抑制客座率",
-        "watch": "布伦特原油价格及航司Q2财报成本数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
-      "source": "CNBC",
-      "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "中国支撑油价低于100美元，但分析师警告不可持续",
-        "assets": "📉 原油期货（如WTI）短期承压，📈 中国炼油股（如中石化）成本利好",
-        "chain": "中国战略储备释放（SPR Release）压低油价，但若需求反弹或OPEC减产，油价可能重回100美元上方",
-        "watch": "中国原油进口数据及OPEC+产量政策会议"
+        "what": "国际航协：燃油成本暴涨千亿美元，今年全球航司利润或腰斩",
+        "assets": "📉 全球航空股 利空；📈 原油期货 利好；📈 燃油对冲基金 利好",
+        "chain": "成本上升压缩利润率，航司可能转嫁票价（推高CPI（消费者物价指数）），同时压制出行需求（负反馈循环）",
+        "watch": "布伦特原油价格；IATA（国际航空运输协会）月度利润预测"
       }
     },
     {
       "rank": 7,
+      "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
+      "source": "CNBC",
+      "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 8,
       "title": "Nasdaq futures gain 1% as chip stocks rebound from rout, Trump tries to maintain ceasefire: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
@@ -94,7 +102,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
@@ -102,18 +110,10 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
       "source": "CNBC",
       "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
-      "lang": "en",
-      "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
-      "source": "CNBC",
-      "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
       "lang": "en",
       "score": 25
     }
