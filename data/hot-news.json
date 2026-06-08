@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 22:36",
+  "updateTime": "2026-06-08 22:40",
   "news": [
     {
       "rank": 1,
@@ -7,13 +7,7 @@
       "source": "环球市场播报",
       "detail": " 投资者正艰难应对一个日益复杂的市场环境。地缘政治冲突、科技股估值泡沫以及对美联储政策走向的担忧共同构成了一组“三重威胁”，导致全球股市在6月伊始便遭遇剧烈波动。",
       "lang": "zh",
-      "score": 51,
-      "insight": {
-        "what": "华尔街面临地缘、估值与政策三重风险叠加",
-        "assets": "📉 美股大盘 承压, 📉 美债收益率 上行",
-        "chain": "避险情绪推升VIX（恐慌指数），资金从风险资产撤向现金/美债",
-        "watch": "美联储3月点阵图（利率预期）及伊拉克局势升级"
-      }
+      "score": 51
     },
     {
       "rank": 2,
@@ -21,13 +15,7 @@
       "source": "环球市场播报",
       "detail": " 北京时间6月8日晚，美股周一高开。芯片股在上周遭遇猛烈抛售后出现企稳反弹迹象，但中东紧张局势持续发酵以及本周五SpaceX史诗级IPO的临近，令市场整体情绪保持谨慎。",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "美股周一高开，芯片股从暴跌中反弹",
-        "assets": "📈 美股半导体板块 短期利好",
-        "chain": "空头回补（平仓买入）触发技术性反弹，但趋势待确认",
-        "watch": "费城半导体指数能否站稳200日均线（技术支撑位）"
-      }
+      "score": 45
     },
     {
       "rank": 3,
@@ -35,13 +23,7 @@
       "source": "环球市场播报",
       "detail": " 随着SpaceX、Anthropic和OpenAI三大AI巨头相继启动上市进程，叠加美国5月CPI数据即将于本周公布，全球投资者正为一场前所未有的市场波动做准备。",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "AI巨头IPO与通胀数据即将引爆波动",
-        "assets": "📈 美股科技成长股 利好, 📉 美债 波动",
-        "chain": "IPO吸走流动性（资金从其他板块抽离），CPI（消费者物价指数）若超预期则压低降息概率",
-        "watch": "CPI同比数据及IPO定价区间（估值锚定）"
-      }
+      "score": 45
     },
     {
       "rank": 4,
@@ -49,44 +31,34 @@
       "source": "CNBC",
       "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "WWDC发布Apple AI、Siri及iPhone软件更新",
-        "assets": "📈 苹果供应链 利好, 📈 AI应用概念股 利好",
-        "chain": "AI功能落地提振换机周期（升级需求），但需看能否变现（订阅收入）",
-        "watch": "苹果股价反应及开发者反馈（生态粘性）"
-      }
+      "score": 32
     },
     {
       "rank": 5,
+      "title": "SpaceX IPO打破华尔街惯例：马斯克强化控制，散户获30%配售",
+      "source": "环球市场播报",
+      "detail": "SpaceX即将于6月12日登陆纳斯达克，募资规模高达750亿美元，刷新全球IPO历史纪录。然而，更令华尔街瞩目的是，这家由埃隆·马斯克掌舵的航天巨头正以一系列颠覆传统的方式推...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 6,
       "title": "伊拉克：重新开放领空！芯片股，深夜暴涨！",
       "source": "证券时报",
       "detail": " 伊朗和以色列先后宣布停止袭击对方，伊拉克民航局8日下午发表声明，宣布正式重新开放伊拉克领空，恢复所有机场的进出港航班。",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "伊拉克重新开放领空，芯片股深夜暴涨",
-        "assets": "📈 美股半导体 利好, 📉 原油 承压",
-        "chain": "地缘风险缓解（原油供应中断担忧下降），但芯片反弹或为情绪驱动",
-        "watch": "伊拉克原油出口量是否恢复（供应恢复验证）"
-      }
+      "score": 30
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "中国压制油价低于100美元，但分析师警告不可持续",
-        "assets": "📉 原油 短期承压, 📉 能源股 承压",
-        "chain": "中国进口放缓（需求弱）压低油价，但OPEC+（产油国联盟）减产预期或抵消",
-        "watch": "中国PMI（采购经理人指数）及OPEC+月度产量数据"
-      }
+      "score": 29
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "VisionWave以1750万美元收购Foresight控股权，加码国防AI感知技术",
       "source": "环球市场播报",
       "detail": "VisionWave Holdings与Foresight Autonomous Holdings于6月3日签署了一项最终证券交换协议，VisionWave将以最高1750万美元的股票收购Foresight的控股权。",
@@ -94,7 +66,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "688169，腾讯系罕见出手爆买，持股市值逾2亿元！",
       "source": "",
       "detail": "知名小米生态链扫地机器人上市公司石头科技（688169）被腾讯董事会主席马化腾看上了。 证券时报·e公司记者注意到，截至6月1日，深圳市世纪汇祥科技有限公司（下称“世纪汇祥...",
@@ -102,20 +74,12 @@
       "score": 24
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S.",
       "source": "CNBC",
       "detail": "Amazon is the latest megacap company to announce a massive deal with Corning, which is rapidly becoming a critical player in the AI buildout.",
       "lang": "en",
       "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "汇丰：不确定性持续，英国央行将维持利率不变",
-      "source": "环球市场播报",
-      "detail": "汇丰经济学家Elizabeth Martins和Emma Wilks表示，鉴于中东地区的不确定性、第二轮效应的迹象有限以及活动数据疲软，大多数英国央行利率制定者将倾向于在下周的会议上观望...",
-      "lang": "zh",
-      "score": 18
     }
   ]
 }
