@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 20:21",
+  "updateTime": "2026-06-08 20:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股半导体及AI板块盘前反弹，科技股暴跌后回暖",
-        "assets": "📈 美股半导体ETF 利好\n📈 英伟达 利好",
-        "chain": "缓解恐慌情绪，资金回流成长股，科技股波动率（VIX，恐慌指数）短期下降",
-        "watch": "今晚科技股开盘后成交量及机构资金流向"
+        "what": "半导体及AI板块盘前反弹，科技股波动",
+        "assets": "📈 美股半导体板块 利好\n📈 AI概念股 利好",
+        "chain": "科技股反弹缓解恐慌，但波动率仍高，资金或从防御板块回流成长股",
+        "watch": "今晚美股开盘走势及VIX（波动率指数）变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI冲刺IPO，抢先上市未必表现更佳",
-        "assets": "📈 AI概念股 利好\n📉 未上市AI公司 承压",
-        "chain": "IPO窗口打开，PE/VC（私募/风投）退出路径清晰，但先发优势可能被高估值反噬",
-        "watch": "IPO定价及首日涨幅，后续盈利数据"
+        "what": "Anthropic与OpenAI冲刺IPO，竞争加剧",
+        "assets": "📈 AI初创公司 利好\n📉 早期投资者 承压",
+        "chain": "抢先上市可能稀释估值（公司价值降低），但能加速融资，压制未上市AI公司估值",
+        "watch": "IPO定价及首日涨幅，对比同行估值"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "英伟达、Marvell、Flex等个股盘前异动",
+        "what": "盘前异动：英伟达、Marvell、Flex等个股波动",
         "assets": "📈 英伟达 利好\n📈 Marvell 利好\n📉 Flex 承压",
-        "chain": "个股异动带动板块轮动，半导体需求预期分化，资金从弱势股流向强势股",
-        "watch": "盘前涨跌幅及开盘后订单流（订单簿深度）"
+        "chain": "个股异动反映财报或订单预期，带动半导体ETF（交易所交易基金）和科技板块轮动",
+        "watch": "个股财报前瞻及成交量确认趋势"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质疑中断采访，DOJ基金受关注",
-        "assets": "📉 美元 承压\n📉 政治不确定性资产 利空",
-        "chain": "政治风险上升，避险情绪升温，美债收益率（借钱成本）短期下行",
-        "watch": "民调变化及DOJ基金调查进展"
+        "what": "特朗普因选举欺诈质疑怒离采访，DOJ基金受影响",
+        "assets": "📉 美元 承压\n📈 政治不确定性 利好避险",
+        "chain": "政治动荡增加政策不确定性，投资者或减持美元资产，转向黄金或国债避险",
+        "watch": "美元指数及黄金价格短期走势"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "花旗将标普500目标上调至8100，因AI盈利强劲",
-        "assets": "📈 标普500指数 利好\n📈 AI相关科技股 利好",
-        "chain": "机构上调目标提振市场信心，资金加速流入AI板块，带动指数估值（PE，市盈率）扩张",
-        "watch": "标普500成分股盈利修正比率及AI板块资金流入"
+        "what": "花旗因AI盈利强劲上调标普500目标至8100点",
+        "assets": "📈 美股大盘 利好\n📈 AI相关科技股 利好",
+        "chain": "目标上调提振信心，但已计入乐观预期，若AI盈利不及预期，回调风险加大",
+        "watch": "标普500成分股AI业务季度财报"
       }
     },
     {
@@ -79,14 +79,22 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "国际航协：燃油成本暴涨千亿美元，全球航司利润或腰斩",
-        "assets": "📉 航空股 利空\n📉 航空燃油期货 承压",
-        "chain": "成本端压力传导至利润，航司可能提价或削减运力，消费者机票价格上行",
-        "watch": "原油期货价格及航司Q2盈利预警"
+        "what": "燃油成本暴涨千亿美元，全球航司利润或腰斩",
+        "assets": "📉 航空股 承压\n📈 原油期货 利好",
+        "chain": "成本上升压缩利润（赚的钱变少），航司可能提价或削减运力，影响旅游和出行板块",
+        "watch": "布伦特原油价格及航司Q2盈利预警"
       }
     },
     {
       "rank": 7,
+      "title": "Here are Monday's biggest analyst calls: Nvidia, Apple, Micron, SanDisk, Crocs, Cummins, Kontoor Brands & more",
+      "source": "CNBC",
+      "detail": "Here are the biggest calls on Wall Street on Monday.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 8,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
@@ -94,27 +102,19 @@
       "score": 29
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "Nasdaq futures gain 1% as chip stocks rebound from rout, Trump tries to maintain ceasefire: Live updates",
+      "source": "CNBC",
+      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 10,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
       "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 9,
-      "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
-      "source": "CNBC",
-      "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
-      "lang": "en",
-      "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
-      "source": "CNBC",
-      "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
-      "lang": "en",
       "score": 25
     }
   ]
