@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 17:36",
+  "updateTime": "2026-06-08 17:40",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI指数 承压；📉 韩元 贬值预期",
-        "chain": "外资流出→韩元贬值压力→韩国央行可能干预（抛美元买韩元）",
-        "watch": "韩国央行外汇储备变化及外资净流出数据"
+        "assets": "📉 韩国KOSPI 承压",
+        "chain": "外资流出反映对韩国经济信心不足，可能传导至韩元贬值（汇率下跌）",
+        "watch": "韩国央行利率决议及外资持仓变化"
       }
     },
     {
@@ -23,52 +23,52 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息预期升温，银价大跌",
-        "assets": "📉 白银期货 利空；📉 贵金属板块 承压",
-        "chain": "加息预期→实际利率（通胀调整后利率）上升→无息资产白银吸引力下降",
-        "watch": "美联储6月利率决议及点阵图（利率路径预测）"
+        "what": "美联储加息预期升温导致银价大跌",
+        "assets": "📉 白银 利空",
+        "chain": "加息预期（借钱成本上升）推高美元，压制贵金属（无利息资产）需求",
+        "watch": "美联储官员讲话及6月CPI数据"
       }
     },
     {
       "rank": 3,
-      "title": "锡：美联储加息预期走强，科技股走弱，锡价大幅下跌",
-      "source": "市场资讯",
-      "detail": "广发期货研究 证监许可【2011】1292号 寇帝斯 Z0021810 | 2026年6月8日 星期一 行情导读：受美联储加息预期走强，以及博通AI业绩指引不及预期的影响，锡价大幅走弱。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美联储加息预期与科技股走弱双重打击锡价",
-        "assets": "📉 锡期货 利空；📉 科技股 联动承压",
-        "chain": "加息→经济放缓担忧→工业金属需求预期下滑；科技股弱→电子焊料需求看空",
-        "watch": "全球锡库存数据及半导体行业订单"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈争议怒离采访现场",
-        "assets": "📈 美元 短期避险；📉 特朗普媒体股(DJT) 承压",
-        "chain": "政治不确定性→避险情绪升温→美元指数（DXY）短期走强",
+        "what": "特朗普因选举欺诈指控被质疑后离场",
+        "assets": "📉 美国政治风险 承压",
+        "chain": "政治不确定性增加，可能拖累美股波动率（VIX恐慌指数）上升",
         "watch": "特朗普相关法律案件进展及民调变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Tech stock sell-off accelerates; SoftBank drops 6% as investors sour on AI-linked names",
       "source": "CNBC",
       "detail": "Global tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股抛售加速，软银跌6%因AI概念失宠",
-        "assets": "📉 纳斯达克指数 利空；📉 软银(9984.T) 承压；📉 AI概念股 利空",
-        "chain": "AI预期过热→获利了结→科技板块资金外流至防御性板块（公用事业）",
-        "watch": "英伟达等AI龙头股财报及资金流向数据"
+        "what": "科技股抛售加速，软银跌6%",
+        "assets": "📉 美股科技股 利空",
+        "chain": "AI（人工智能）概念退潮引发资金轮动，可能转向防御性板块（如公用事业）",
+        "watch": "英伟达等AI龙头财报及美联储政策信号"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "原油基金罕见涨停！工业软件板块逆市上扬！",
+      "source": "",
+      "detail": "今日，A股整体震荡调整，上证指数失守4000点，深证成指跌破15000点，科创综指也击穿2000点，创业板指险守3800点，北证50则涨逾1%收复1300点。",
+      "lang": "zh",
+      "score": 32,
+      "insight": {
+        "what": "原油基金涨停，工业软件板块逆势上涨",
+        "assets": "📈 原油基金 利好，📈 A股工业软件 利好",
+        "chain": "原油上涨反映供需偏紧，工业软件受益于国产替代（自主可控）政策",
+        "watch": "OPEC+产量决议及软件行业订单数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "港股恒指跌1.22%，科指跌2.71%，科网黄金低迷",
-        "assets": "📉 恒生科技指数 利空；📉 港股黄金股 承压；📉 百度(9888.HK) 利空",
-        "chain": "科网股抛售→拖累恒指；美元走强→金价跌→黄金股跟跌",
-        "watch": "百度AI业务进展及美联储利率预期变化"
+        "what": "港股恒指跌1.22%，科指跌2.71%，百度跌超7%",
+        "assets": "📉 港股恒生指数 承压，📉 港股科技股 利空",
+        "chain": "科网股领跌拖累大盘，黄金股低迷显示避险情绪降温",
+        "watch": "中美关系及互联网平台监管政策变化"
       }
     },
     {
