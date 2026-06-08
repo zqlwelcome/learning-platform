@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 02:50",
+  "updateTime": "2026-06-09 02:56",
   "news": [
     {
       "rank": 1,
@@ -9,38 +9,38 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "历史显示大型IPO并非牛市见顶信号",
-        "assets": "📈 美股整体 中性偏多",
-        "chain": "市场情绪可能受提振，但需警惕过度乐观（风险偏好过高）",
-        "watch": "后续IPO定价及首日涨幅"
+        "what": "SpaceX IPO引发市场顶部担忧，但历史数据不支持",
+        "assets": "📈 美股大盘 中性偏多，📈 科技股 利好",
+        "chain": "IPO通常吸引流动性（资金流入），而非顶部信号；若成行，提振风险偏好（Risk-on情绪）",
+        "watch": "SpaceX实际估值及后续IPO定价"
       }
     },
     {
       "rank": 2,
+      "title": "Tom Lee's clients are worried SpaceX IPO will mark a market top. He's not",
+      "source": "CNBC",
+      "detail": "The Fundstrat managing partner and head of research said that there's enough cash on the sidelines that public markets can absorb the Elon Musk company's debut.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "私募股权科技交易额暴跌70%，估值谨慎",
+        "assets": "📉 科技初创企业 承压，📉 私募股权板块 利空",
+        "chain": "一级市场（未上市企业）融资放缓，传导至二级市场科技股估值修正（PE压缩）",
+        "watch": "科技股IPO窗口及风投募资数据"
+      }
+    },
+    {
+      "rank": 3,
       "title": "私募股权科技交易额暴跌70% AI担忧令投资者对估值越发谨慎",
       "source": "环球市场播报",
       "detail": " 贝恩公司报告显示，私募股权科技交易额自去年底以来大幅下滑，原因是投资者在人工智能（AI）时代对企业估值变得越发谨慎。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "私募股权科技交易额暴跌70%，AI估值担忧加剧",
-        "assets": "📉 科技股 承压，📉 私募股权基金 利空",
-        "chain": "一级市场冷却将传导至二级市场IPO（首次公开募股）供给减少",
-        "watch": "科技公司估值倍数及一级市场融资数据"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "Stellantis证券欺诈集体诉讼首席原告申请截止日为6月8日",
-      "source": "环球市场播报",
-      "detail": "美国全国性股东权利诉讼律所The Schall Law Firm近日提醒投资者，针对Stellantis N.V．（纽交所代码：STLA）的证券欺诈集体诉讼已进入关键阶段。",
-      "lang": "zh",
-      "score": 33,
-      "insight": {
-        "what": "Stellantis证券欺诈集体诉讼首席原告申请截止",
-        "assets": "📉 Stellantis 股价 承压",
-        "chain": "诉讼进展可能引发汽车板块信任危机（行业风险溢价上升）",
-        "watch": "诉讼判决结果及赔偿金额"
+        "what": "苹果在WWDC 2026发布Siri AI及Liquid Glass",
+        "assets": "📈 苹果股票 利好，📈 AI芯片股 利好",
+        "chain": "AI功能落地刺激换机周期（硬件升级需求），利好供应链（台积电等）",
+        "watch": "苹果AI功能用户转化率及下季度营收指引"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "苹果WWDC 2026发布Siri AI及Liquid Glass更新",
-        "assets": "📈 苹果 股价 利好，📈 AI概念股 利好",
-        "chain": "AI手机功能落地将刺激换机周期（消费电子需求回升）",
-        "watch": "苹果AI功能用户采纳率及竞品反应"
+        "what": "中国支撑油价低于100美元，但分析师警告难持续",
+        "assets": "📉 原油 承压，📈 航空股 利好",
+        "chain": "中国需求放缓压低油价（通胀压力减轻），但OPEC+减产可能推升远期升水（期货溢价）",
+        "watch": "中国炼厂开工率及OPEC+产量决策"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国需求缓冲油价低于100美元，但分析师警告不可持续",
-        "assets": "📉 原油 承压，📈 中国炼油股 利好",
-        "chain": "中国进口放缓将加速油价下行，利好航空（成本降低）但利空能源债（信用风险）",
-        "watch": "中国原油进口量及OPEC（石油输出国组织）产量决策"
+        "what": "摩根士丹利：美元涨势取决于美联储利率路径",
+        "assets": "📈 美元指数 中性，📉 新兴市场货币 承压",
+        "chain": "若美联储维持高利率（加息周期），美元走强压制大宗商品（以美元计价）和新兴市场资产",
+        "watch": "美联储点阵图及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -77,13 +77,7 @@
       "source": "环球市场播报",
       "detail": "摩根士丹利策略师David Adams、Andrew Watrous和Molly Nickolin等人在周一报告中写道，美股表现优于全球其他地区股票支持美元走强的观点，但若要涨势持续...",
       "lang": "zh",
-      "score": 28,
-      "insight": {
-        "what": "摩根士丹利称美元涨势取决于美联储利率路径",
-        "assets": "📈 美元 中性偏多，📉 新兴市场货币 承压",
-        "chain": "若美联储暂停加息（维持高利率），美元将走强，新兴市场资本外流（资金回流美元资产）",
-        "watch": "美联储点阵图及通胀数据"
-      }
+      "score": 28
     },
     {
       "rank": 7,
@@ -95,14 +89,6 @@
     },
     {
       "rank": 8,
-      "title": "Stocks making the biggest moves midday: Cerebras, Marvell, Intel, Corning & more",
-      "source": "CNBC",
-      "detail": "Here are the companies that are making headlines in midday trading.",
-      "lang": "en",
-      "score": 17
-    },
-    {
-      "rank": 9,
       "title": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
       "source": "CNBC",
       "detail": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
@@ -110,12 +96,20 @@
       "score": 17
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Pharma stocks are showing strength. Charts predict this name could break out next",
       "source": "CNBC",
       "detail": "Pharmaceutical stocks have recently separated themselves from the broader market, and the group has become a source of leadership within healthcare.",
       "lang": "en",
       "score": 17
+    },
+    {
+      "rank": 10,
+      "title": "Siri AI推出自动校正功能",
+      "source": "新浪科技",
+      "detail": "新浪科技讯 6月9日凌晨，苹果召开WWDC26全球开发者大会。据介绍，在macOS 27、iOS 27 系统中，基于Siri AI推出系统级别的AI自动校正功能。",
+      "lang": "zh",
+      "score": 15
     }
   ]
 }
