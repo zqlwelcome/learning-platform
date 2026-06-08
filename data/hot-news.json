@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 17:26",
+  "updateTime": "2026-06-08 17:30",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI 承压；📈 美元/韩元 走强",
-        "chain": "外资流出反映全球风险偏好（Risk-off）下降，可能扩散至新兴市场（资金回流美元资产）",
-        "watch": "韩国出口数据及外资持仓变化"
+        "assets": "📉 韩国综合指数 承压",
+        "chain": "外资流出引发韩元贬值，推高进口成本，压制内需股",
+        "watch": "韩国央行汇率干预及外资净流入数据"
       }
     },
     {
@@ -23,9 +23,9 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息预期升温，银价大幅下跌",
-        "assets": "📉 白银 利空；📈 美元指数 走强",
-        "chain": "加息预期推高实际利率（名义利率减通胀），压制无息资产（白银）估值，传导至贵金属板块",
+        "what": "美联储加息预期升温，银价大跌",
+        "assets": "📉 白银 利空",
+        "chain": "加息预期推高美元（美元升值），压制贵金属估值，传导至有色板块",
         "watch": "下周美联储利率决议及点阵图"
       }
     },
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "加息预期+科技股走弱，锡价大跌",
-        "assets": "📉 锡期货 利空；📉 科技股 承压",
-        "chain": "锡用于半导体（科技股上游），科技股疲软削弱需求预期（工业金属需求联动），叠加美元走强",
-        "watch": "LME锡库存及半导体行业PMI"
+        "what": "美联储加息预期+科技股走弱，锡价暴跌",
+        "assets": "📉 锡 利空；📉 科技股 承压",
+        "chain": "加息打压风险偏好，科技股下跌降低电子需求预期，锡作为焊料需求受创",
+        "watch": "LME锡库存及美国半导体指数走势"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质问中断采访",
-        "assets": "📉 特朗普相关媒体股 承压；📈 政治不确定性 上升",
-        "chain": "政治冲突加剧可能延迟财政政策（如减税），影响市场风险情绪（VIX恐慌指数或上行）",
-        "watch": "特朗普法律案件进展及民调"
+        "what": "特朗普因被质疑选举欺诈和司法部问题，怒退采访",
+        "assets": "📈 美元 避险；📉 美股 风险情绪",
+        "chain": "政治不确定性推升避险情绪，资金流向美元美债，利空风险资产",
+        "watch": "特朗普民调支持率及相关法律案件进展"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股抛售加速，软银因AI概念跌6%",
-        "assets": "📉 美股科技股 利空；📉 软银 承压；📈 防御性板块（公用事业） 利好",
-        "chain": "AI泡沫担忧引发资金轮动（Rotation），从高估值科技转向防御股，可能拖累纳斯达克（科技股指数）",
-        "watch": "美国10年期国债收益率及科技财报"
+        "what": "科技股抛售加速，软银因AI相关股遭抛售跌6%",
+        "assets": "📉 科技股 利空；📉 日本股市 承压",
+        "chain": "AI炒作退潮，资金轮动至防御板块（如公用事业），日股受软银拖累",
+        "watch": "软银财报及纳斯达克100指数支撑位"
       }
     },
     {
@@ -79,14 +79,22 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "港股恒指跌1.22%，科指跌2.71%",
-        "assets": "📉 恒生指数 承压；📉 科网股 利空；📉 黄金股 低迷",
-        "chain": "科网股（百度跌超7%）拖累指数，反映外资流出（南向资金或逆势抄底），黄金股跟随金价走弱",
-        "watch": "恒指20000点支撑及南向资金净流入"
+        "what": "港股恒指跌1.22%，科指跌2.71%，百度跌超7%，山东墨龙涨25%",
+        "assets": "📉 恒生科技股 利空；📉 黄金股 承压",
+        "chain": "科网股领跌因美科技股抛售传导，黄金股跟随金价下跌，山东墨龙逆势因石油机械需求",
+        "watch": "恒指20000点支撑及百度财报预期"
       }
     },
     {
       "rank": 7,
+      "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
+      "source": "环球市场播报",
+      "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
+      "lang": "zh",
+      "score": 25
+    },
+    {
+      "rank": 8,
       "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
       "source": "CNBC",
       "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
@@ -94,7 +102,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Amazon unveils latest warehouse robot as tech giants continue AI layoffs ",
       "source": "CNBC",
       "detail": "\"Our experience of robots is that it's actually driven up employment rather than the reverse,\" Amazon executive John Boumphrey told CNBC.",
@@ -102,19 +110,11 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Inflation inside the electronics you buy may soon become a bit more sticky",
       "source": "CNBC",
       "detail": "Most consumers are not familiar with the role resin plays inside electronics like smartphones. A current shortage of the materials may push up prices.",
       "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "Q1全球半导体设备市场创365.5亿美元新高！中国大陆稳居第一",
-      "source": "快科技",
-      "detail": "快科技6月8日消息，根据国际半导体产业协会（SEMI）发布《全球半导体设备市场统计报告》，2026年第一季度全球半导体设备市场销售额同比增长14%至365.5亿美元...",
-      "lang": "zh",
       "score": 20
     }
   ]
