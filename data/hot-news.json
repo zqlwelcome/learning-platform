@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 15:25",
+  "updateTime": "2026-06-08 15:31",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "欧元跌至两个月低位，面临美CPI和欧央行决议考验",
-        "assets": "📉 欧元 承压\n📈 美元 走强",
-        "chain": "欧元弱→美元强→新兴市场资金外流（资本流出），欧央行若鹰派（不降息）或短暂支撑欧元",
+        "what": "欧元跌至两个月低位，等待美国CPI和欧央行决议",
+        "assets": "📉 欧元/美元 利空，📈 美元指数 利好",
+        "chain": "欧元贬值推高美元，打压大宗商品（以美元计价资产），如黄金",
         "watch": "美国CPI数据及欧央行利率决议"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "外资今年抛售数十亿美元韩国股票，尽管股市创新高",
-        "assets": "📉 韩国股市 承压\n📉 韩元 贬值压力",
-        "chain": "外资撤出→韩元贬值→韩国出口企业（出口商）利润对冲成本上升，亚洲新兴市场资金外流（资本流出）",
-        "watch": "韩国资本流动数据及韩元汇率走势"
+        "what": "外资抛售韩国股票，尽管股市创新高",
+        "assets": "📉 韩国KOSPI 承压，📈 美元/韩元 上行",
+        "chain": "外资流出反映新兴市场风险偏好下降，可能蔓延至其他亚洲股市（如台湾、印度）",
+        "watch": "韩国出口数据及外资净流出量"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "非农数据强劲，市场降息预期受挫，美股黄金大跌",
-        "assets": "📉 美股 利空\n📉 黄金 承压\n📈 美元 走强",
-        "chain": "非农强→加息预期升（借钱成本更高）→美债收益率（国债利率）涨→科技股（成长股）估值受压，黄金避险需求降",
-        "watch": "本周美国CPI数据及美联储官员讲话"
+        "what": "非农数据强劲，降息预期破灭，美股黄金大跌",
+        "assets": "📉 美股（标普500） 利空，📉 黄金 利空，📈 美元 利好",
+        "chain": "加息预期升温（借钱成本提高）压制风险资产，美债收益率（利息回报）飙升",
+        "watch": "本周美国CPI及美联储官员讲话"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "停火协议破裂，黄金失守4300美元，关注美国CPI",
-        "assets": "📉 黄金 承压\n📉 避险资产 短期承压",
-        "chain": "停火失败→地缘风险（战争风险）升→但美元走强压制黄金，CPI若超预期（通胀高）则黄金再跌",
-        "watch": "美国CPI数据及地缘局势变化"
+        "what": "停火协议失效，黄金失守4300关口，等待美国CPI",
+        "assets": "📉 黄金 承压，📈 避险情绪 短期支撑",
+        "chain": "地缘风险（战争不确定性）若持续，可能推高油价（能源供应紧张）",
+        "watch": "美国CPI数据及停火谈判进展"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "经济学家警告欧央行若加息或重演2011年错误",
-        "assets": "📉 欧元区债券 利空\n📉 欧元 承压",
-        "chain": "欧央行加息（借钱成本升）→经济放缓→企业债（公司债务）风险升，欧债收益率（国债利率）可能飙升",
-        "watch": "欧央行利率决议及欧元区PMI（采购经理人指数）"
+        "what": "经济学家警告欧央行加息或重演2011年错误",
+        "assets": "📉 欧元区债券 承压，📉 欧元/美元 利空",
+        "chain": "过早加息（紧缩货币）可能抑制经济复苏，导致信用利差（企业债风险溢价）扩大",
+        "watch": "欧央行利率决议及经济预测"
       }
     },
     {
@@ -80,9 +80,9 @@
       "score": 36,
       "insight": {
         "what": "美联储加息预期升温，白银加速下跌",
-        "assets": "📉 白银 承压\n📉 贵金属 整体利空",
-        "chain": "加息预期（借钱成本升）→美元强→白银工业需求（工业用途）受抑，金银比（金银价格比例）可能扩大",
-        "watch": "美国CPI数据及美联储利率路径预期"
+        "assets": "📉 白银 利空，📉 黄金 联动承压，📈 美元 利好",
+        "chain": "白银工业需求（制造业）受高利率压制，金银比（黄金/白银价格比）可能上升",
+        "watch": "美国CPI及美联储点阵图（利率预测）"
       }
     },
     {
@@ -95,27 +95,27 @@
     },
     {
       "rank": 8,
-      "title": "日本10年期国债收益率上涨5个基点至2.715% 受美联储加息预期影响",
-      "source": "环球市场播报",
-      "detail": " 日本10年期国债收益率上升，强劲的美国就业报告提振了市场对美联储今年加息的预期。日本10年期国债收益率上涨5个基点至2.715%。",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 9,
-      "title": "非农数据强化紧缩预期，麦格理预计美联储加息或将提前",
-      "source": "滚动播报",
-      "detail": "汇通财经APP讯——随着美国就业市场持续展现韧性，全球金融市场对于美联储未来政策路径的预期正在发生明显变化。在上周公布的美国非农就业数据大幅超出市场预期后...",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 10,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
       "lang": "en",
       "score": 35
+    },
+    {
+      "rank": 9,
+      "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
+      "source": "CNBC",
+      "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 8%: Live updates",
+      "source": "CNBC",
+      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
