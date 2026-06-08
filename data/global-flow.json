@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 11:20",
+  "updateTime": "2026-06-08 11:25",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,64 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3985.36",
-      "change": "-1.05"
+      "value": "3982.70",
+      "change": "-1.12"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24811.420",
-      "change": "-0.60"
+      "value": "24815.470",
+      "change": "-0.59"
     }
   },
   "etf_flows": [],
-  "sector_flows": [],
+  "sector_flows": [
+    {
+      "name": "通信线缆及配套",
+      "code": "BK1592",
+      "index": 31619.57,
+      "change": -0.64,
+      "flow": 1879697152.0,
+      "flow_str": "+18.80亿",
+      "direction": "in"
+    },
+    {
+      "name": "银行",
+      "code": "BK1283",
+      "index": 4089.9,
+      "change": 0.38,
+      "flow": 1573308352.0,
+      "flow_str": "+15.73亿",
+      "direction": "in"
+    },
+    {
+      "name": "银行Ⅱ",
+      "code": "BK0475",
+      "index": 4089.9,
+      "change": 0.38,
+      "flow": 1573308352.0,
+      "flow_str": "+15.73亿",
+      "direction": "in"
+    },
+    {
+      "name": "国有大型银行Ⅲ",
+      "code": "BK1611",
+      "index": 3083.1,
+      "change": 1.43,
+      "flow": 1185207984.0,
+      "flow_str": "+11.85亿",
+      "direction": "in"
+    },
+    {
+      "name": "通用设备",
+      "code": "BK0545",
+      "index": 53675.1,
+      "change": -0.67,
+      "flow": 684620544.0,
+      "flow_str": "+6.85亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
