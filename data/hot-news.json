@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 22:21",
+  "updateTime": "2026-06-08 22:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "华尔街面临三重风险：战争、AI泡沫和加息",
-        "assets": "📉 美股大盘 承压, 📉 科技股 利空",
-        "chain": "避险情绪升温，资金流向黄金/美债（安全资产），高估值科技股遭抛售",
-        "watch": "美联储3月议息会议（利率决策）"
+        "what": "华尔街面临伊战、AI泡沫和加息三重风险",
+        "assets": "📉 美股科技股 承压 📈 黄金 避险利好",
+        "chain": "避险情绪推高VIX（恐慌指数），资金从风险资产撤向美债和黄金",
+        "watch": "美联储利率决议及中东局势升级信号"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美股周一高开，芯片股从暴跌反弹",
-        "assets": "📈 芯片股 利好, 📈 纳指 反弹",
-        "chain": "短期空头回补（空头平仓推高价格），但AI估值压力未消，反弹持续性存疑",
-        "watch": "费城半导体指数（SOX）能否站稳关键均线"
+        "what": "美股周一高开，芯片股从暴跌中反弹",
+        "assets": "📈 美股半导体指数 利好 📈 纳指 反弹",
+        "chain": "技术性买盘（超跌后资金回补）提振短期情绪，但趋势待观察",
+        "watch": "芯片股成交量能否持续放大"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "AI巨头IPO与通胀数据将引爆波动",
-        "assets": "📉 美股波动率 利空, 📈 美元 利好",
-        "chain": "IPO抽血（资金分流）叠加通胀超预期（物价上涨）推升加息（借钱成本上升）预期，压制风险偏好",
-        "watch": "CPI（消费者物价指数）数据及IPO定价情况"
+        "what": "AI巨头IPO与通胀数据将引爆市场波动",
+        "assets": "📈 美股科技新股 关注 📉 美债收益率 波动",
+        "chain": "通胀数据若超预期，降息（借钱成本降低）预期降温，压制成长股估值",
+        "watch": "CPI（消费者物价指数）环比值和IPO定价情况"
       }
     },
     {
@@ -51,50 +51,42 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX估值1.77万亿美元，将创历史最大IPO",
-        "assets": "📈 太空股 利好, 📈 科技IPO板块 利好",
-        "chain": "头部公司上市提振板块情绪，但高估值或引发泡沫担忧（价格远超基本面），对标特斯拉估值",
-        "watch": "SpaceX发行价及首日涨幅"
+        "what": "SpaceX计划IPO，估值达1.77万亿美元",
+        "assets": "📈 太空概念股 利好 📈 美股科技IPO 情绪提振",
+        "chain": "高估值IPO吸引流动性，可能分流其他科技板块资金（挤出效应）",
+        "watch": "SpaceX招股书披露的营收和订单数据"
       }
     },
     {
       "rank": 5,
-      "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
-      "source": "CNBC",
-      "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "特朗普因选举欺诈问题被质疑后中断采访",
-        "assets": "📉 美元 承压, 📈 避险资产 利好",
-        "chain": "政治不确定性上升，资金流出美元资产，黄金/日元（安全货币）短期获支撑",
-        "watch": "特朗普民调支持率及司法调查进展"
-      }
-    },
-    {
-      "rank": 6,
       "title": "WWDC 2026 live updates: Apple AI, Siri and iPhone software in focus ",
       "source": "CNBC",
       "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "WWDC 2026聚焦苹果AI、Siri和iPhone软件",
-        "assets": "📈 苹果 利好, 📈 AI应用 利好",
-        "chain": "AI功能升级（智能助手）或推动换机周期（消费者更新设备），利好苹果供应链",
-        "watch": "苹果发布会后股价反应及Siri新功能用户反馈"
+        "what": "WWDC 2026聚焦苹果AI、Siri和软件更新",
+        "assets": "📈 苹果 利好 📈 AI软件服务 关注",
+        "chain": "苹果AI进展强化生态护城河（用户粘性），利空竞争对手",
+        "watch": "Siri新功能演示及开发者反馈"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "中国支撑油价低于100美元，但分析师警告不可持续",
+        "assets": "📉 原油 承压 📉 能源股 短期利空",
+        "chain": "中国需求放缓缓解供应紧张，但地缘风险（如伊战）随时推高油价",
+        "watch": "中国原油进口月度数据及OPEC+产量决议"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "VisionWave以1750万美元收购Foresight控股权，加码国防AI感知技术",
       "source": "环球市场播报",
       "detail": "VisionWave Holdings与Foresight Autonomous Holdings于6月3日签署了一项最终证券交换协议，VisionWave将以最高1750万美元的股票收购Foresight的控股权。",
@@ -102,20 +94,28 @@
       "score": 25
     },
     {
-      "rank": 9,
-      "title": "美股期货走势分化，芯片股试图反弹",
-      "source": "环球市场播报",
-      "detail": " 周一盘前，美国主要股指期货走势分化，芯片股在上周遭遇猛烈抛售后出现企稳反弹迹象，但中东紧张局势持续发酵以及本周五SpaceX史诗级IPO的临近，令市场整体情绪保持谨慎。",
-      "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "688169，腾讯系罕见出手爆买，持股市值逾2亿元！",
       "source": "",
       "detail": "知名小米生态链扫地机器人上市公司石头科技（688169）被腾讯董事会主席马化腾看上了。 证券时报·e公司记者注意到，截至6月1日，深圳市世纪汇祥科技有限公司（下称“世纪汇祥...",
       "lang": "zh",
       "score": 24
+    },
+    {
+      "rank": 9,
+      "title": "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S.",
+      "source": "CNBC",
+      "detail": "Amazon is the latest megacap company to announce a massive deal with Corning, which is rapidly becoming a critical player in the AI buildout.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "汇丰：不确定性持续，英国央行将维持利率不变",
+      "source": "环球市场播报",
+      "detail": "汇丰经济学家Elizabeth Martins和Emma Wilks表示，鉴于中东地区的不确定性、第二轮效应的迹象有限以及活动数据疲软，大多数英国央行利率制定者将倾向于在下周的会议上观望...",
+      "lang": "zh",
+      "score": 18
     }
   ]
 }
