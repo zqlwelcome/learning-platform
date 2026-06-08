@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 19:56",
+  "updateTime": "2026-06-08 20:00",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股半导体及AI板块盘前反弹，科技股暴跌后回升",
-        "assets": "📈 纳指期货 利好\n📈 英伟达等AI芯片股 利好",
-        "chain": "避险情绪降温，资金从防御板块（公用事业）回流科技成长股（高估值弹性标的）",
-        "watch": "今晚开盘后纳指能否站稳50日均线（技术支撑位）"
+        "what": "美股半导体及AI板块盘前反弹，科技股暴跌后企稳",
+        "assets": "📈 美股半导体ETF（如SMH）短期反弹，📈 AI概念股（如英伟达）情绪修复",
+        "chain": "科技股反弹可能提振风险偏好（Risk-on），带动纳指期货走高，但需警惕反弹是技术性修复（Dead Cat Bounce）",
+        "watch": "今晚美股开盘后成交量及VIX（恐慌指数）是否回落"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI冲刺IPO，抢先上市未必表现更佳",
-        "assets": "📈 AI初创公司股权 中性\n📉 已上市科技股 承压",
-        "chain": "IPO可能分流二级市场资金（流动性抽血），且估值过高（PE倍数）引发泡沫担忧",
-        "watch": "Anthropic/OpenAI实际IPO定价及首日涨幅（市场情绪指标）"
+        "what": "Anthropic与OpenAI冲刺IPO，抢先上市未必表现更优",
+        "assets": "📈 AI初创公司估值预期升温，📉 二级市场AI股（如微软）竞争压力隐现",
+        "chain": "IPO窗口打开或引发资金从已上市科技股流向新标的（IPO Rotation），但盈利不确定性压制长期估值",
+        "watch": "Anthropic及OpenAI的招股书营收数据及估值定价"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 45,
       "insight": {
         "what": "福贝宠物因对赌信披违规被罚后赴港上市",
-        "assets": "📈 港股宠物消费板块 中性\n📉 A股监管环境 承压",
-        "chain": "对赌协议（业绩对赌）暴露公司治理风险，港交所（港股上市地）可能吸引更多中概消费股",
-        "watch": "福贝宠物招股书披露的对赌条款细节（风险溢价定价）"
+        "assets": "📉 宠物食品板块（如中宠股份）情绪承压，📉 港股IPO市场信誉风险",
+        "chain": "监管处罚提高赴港上市门槛（Compliance Cost），可能拖累同类消费股估值及打新热情",
+        "watch": "港交所对福贝上市聆讯结果及后续信披整改情况"
       }
     },
     {
@@ -51,42 +51,50 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举舞弊质疑被挑战后愤然离场采访",
-        "assets": "📉 美元指数 承压\n📉 美股整体 承压",
-        "chain": "政治不确定性上升，避险资金流入黄金（避险资产），国债收益率（借钱成本）可能下行",
-        "watch": "特朗普支持率变化及司法部调查进展（政策风险溢价）"
+        "what": "特朗普因选举欺诈指控被质问后离场采访",
+        "assets": "📉 美股政治风险溢价上升，📉 美元短期波动",
+        "chain": "政治不确定性（Political Risk）可能压制风险资产，但市场已部分定价，影响有限",
+        "watch": "特朗普支持率变化及DOJ调查进展"
       }
     },
     {
       "rank": 5,
+      "title": "国际航空运输协会：燃油成本暴涨千亿美元，今年全球航司利润或将腰斩",
+      "source": "环球市场播报",
+      "detail": "核心要点国际航空运输协会（IATA）预测，2026 年全球航空公司利润将缩水一半。航煤油价飙升，全行业燃油总支出将额外增加 1000 亿美元。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "燃油成本暴涨千亿美元，全球航司利润或腰斩",
+        "assets": "📉 全球航空股（如达美航空）承压，📈 原油期货（如布伦特）高位支撑",
+        "chain": "燃油成本侵蚀利润（Cost Pass-through受限），航司或被迫提价，但需求弹性（Demand Elasticity）可能抑制客座率",
+        "watch": "布伦特原油价格及航司Q2财报成本数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国帮助全球油价低于100美元，但分析师警告不可持续",
-        "assets": "📈 原油期货 承压\n📉 能源股 承压",
-        "chain": "中国需求放缓（经济减速）暂时压制油价，但OPEC+（石油输出国组织）减产预期将推升通胀（物价上涨）",
-        "watch": "中国PMI（采购经理人指数）及OPEC+下次会议决议（供需平衡）"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Nasdaq futures gain 1% as chip stocks rebound from rout, Trump tries to maintain ceasefire: Live updates",
-      "source": "CNBC",
-      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "纳指期货涨1%因芯片股反弹，特朗普试图维持停火",
-        "assets": "📈 纳指期货 利好\n📈 半导体ETF 利好",
-        "chain": "停火预期缓解地缘风险（战争溢价），资金从军工股转向科技股（风险偏好回升）",
-        "watch": "特朗普停火声明具体内容及俄乌前线动态（地缘风险事件）"
+        "what": "中国支撑油价低于100美元，但分析师警告不可持续",
+        "assets": "📉 原油期货（如WTI）短期承压，📈 中国炼油股（如中石化）成本利好",
+        "chain": "中国战略储备释放（SPR Release）压低油价，但若需求反弹或OPEC减产，油价可能重回100美元上方",
+        "watch": "中国原油进口数据及OPEC+产量政策会议"
       }
     },
     {
       "rank": 7,
+      "title": "Nasdaq futures gain 1% as chip stocks rebound from rout, Trump tries to maintain ceasefire: Live updates",
+      "source": "CNBC",
+      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
@@ -94,7 +102,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
       "source": "CNBC",
       "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
@@ -102,19 +110,11 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
       "source": "CNBC",
       "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
       "lang": "en",
-      "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "三大指数集体大跌！高股息逆市走强，华宝基金银行ETF（512800）冲高1%！AI硬件跳水，科创芯片ETF收跌4.46%",
-      "source": "新浪基金",
-      "detail": "A股三大指数今日（6月8日）集体走弱，截至收盘，上证指数跌1.7%，失守4000点，收报3959.34点；深证成指跌3.22%，创业板指跌3.69%。",
-      "lang": "zh",
       "score": 25
     }
   ]
