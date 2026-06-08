@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-08 09:10",
+  "updateTime": "2026-06-08 09:16",
   "news": [
     {
       "rank": 1,
       "title": "CPI本周接棒非农！降息幻觉被数据生吞 美联储加息风暴真要来了？",
       "source": "滚动播报",
-      "detail": "财联社6月8日讯（编辑 潇湘）在度过了“黑色星期五”之后的忐忑周末后，华尔街交易员们眼下正担心，本周三将公布的最新通胀数据可能将显示美国CPI同比出现数年来的最大涨幅...",
+      "detail": "转自：财联社财联社6月8日讯（编辑 潇湘）在度过了“黑色星期五”之后的忐忑周末后，华尔街交易员们眼下正担心，本周三将公布的最新通胀数据可能将显示美国CPI同比出现数年来...",
       "lang": "zh",
       "score": 84,
       "insight": {
-        "what": "CPI数据本周公布，市场担忧超预期引发加息",
-        "assets": "📉 美国国债 承压，📉 美股 回调",
-        "chain": "CPI超预期→加息预期升温→美元走强（DXY上行）→新兴市场资金外流",
-        "watch": "本周CPI实际值与预期差（Surprise Index）"
+        "what": "CPI数据即将公布，市场担忧加息预期升温",
+        "assets": "📉 美股 承压, 📈 美元 利好",
+        "chain": "CPI超预期→加息预期强化（借钱成本上升）→风险资产（股票等）遭抛售",
+        "watch": "CPI同比及环比数据是否高于预期"
       }
     },
     {
       "rank": 2,
-      "title": "债券交易员下注：本周美国CPI会爆，加剧美联储加息压力",
-      "source": "滚动播报",
-      "detail": "华尔街见闻 美债收益率飙升、加息预期重燃——债券市场正为一场通胀冲击做准备。强劲就业数据已令10年期美债收益率触及4.55%，交易员预计周三即将公布的CPI同比涨幅或达4...",
-      "lang": "zh",
-      "score": 66,
-      "insight": {
-        "what": "债券交易员押注CPI爆表，加息压力加剧",
-        "assets": "📈 美元指数 利好，📉 黄金 承压",
-        "chain": "加息预期→短端利率（2年期美债收益率）飙升→风险资产估值压缩（PE下降）",
-        "watch": "2年期美债收益率是否突破5%关口"
-      }
-    },
-    {
-      "rank": 3,
       "title": "美联储主席沃什首秀在即 特朗普称加息将是错误之举",
       "source": "环球市场播报",
       "detail": "美国总统唐纳德·特朗普表示，在他提名的凯文·沃什即将首次主持美联储政策会议之际，如果加息将是错误之举。 美国5月份就业数据表现强劲...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储主席沃什首秀，特朗普警告加息错误",
-        "assets": "📉 美股 承压，📈 美元 波动",
-        "chain": "鹰派（偏向加息）首秀→市场重新定价加息路径→波动率（VIX恐慌指数）上升",
-        "watch": "沃什讲话中关于通胀和利率的措辞"
+        "what": "美联储主席沃什首秀，特朗普警告勿加息",
+        "assets": "📉 美债收益率 波动, 📉 美股 承压",
+        "chain": "特朗普施压→市场对独立性（央行决策不受政治干预）担忧→美元信用（美元信誉）受损",
+        "watch": "沃什讲话中是否暗示加息路径"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "香港IPO热潮出现业绩问题，新股表现疲软",
-        "assets": "📉 港股新股 承压，📉 恒生指数 利空",
-        "chain": "IPO破发→一级市场（新股发行）降温→券商投行收入下滑",
-        "watch": "后续IPO定价折价幅度（Discount to IPOs）"
+        "what": "香港IPO热潮但新股表现不佳",
+        "assets": "📉 港股 承压, 📉 中概股 承压",
+        "chain": "IPO破发（上市后股价跌）→投资者信心下降→流动性（资金量）收紧",
+        "watch": "港股成交量及新股首日涨幅"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈争议愤然离场采访",
-        "assets": "📉 美元 承压，📈 避险资产（黄金） 利好",
-        "chain": "政治不确定性→风险偏好下降→资金涌入避险资产（如美债、黄金）",
-        "watch": "特朗普支持率及司法部调查进展"
+        "what": "特朗普因选举欺诈质疑中断采访",
+        "assets": "📉 美元 承压, 📉 美股 波动",
+        "chain": "政治不确定性上升→避险情绪（资金逃向安全资产）→市场波动率（价格变动幅度）增加",
+        "watch": "美国政局新闻及民调变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "U.S. stock futures fall as Iran attacks Israel; South Korea's Kospi plunges 8%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗攻击以色列致美股期货下跌，韩国Kospi暴跌8%",
-        "assets": "📉 全球股市 承压，📈 原油 飙升，📈 黄金 利好",
-        "chain": "地缘冲突→油价上涨→通胀预期升温→央行加息概率增加",
-        "watch": "伊朗-以色列后续冲突升级程度及油价WTI是否突破90美元"
+        "what": "伊朗袭击以色列致美股期货下跌，韩国股市暴跌8%",
+        "assets": "📉 全球股市 承压, 📈 原油 利好, 📈 黄金 利好",
+        "chain": "地缘冲突（国家间打仗）→避险情绪→资金涌入避险资产（黄金、美债）",
+        "watch": "伊朗及以色列后续军事行动"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Why AI hyperscalers are now the epicenter of a bear case for stocks",
       "source": "CNBC",
       "detail": "In the near term, there are many mouths to feed and not enough to eat.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "AI超大规模企业成股市熊市论核心",
+        "assets": "📉 AI科技股 承压, 📉 纳斯达克 承压",
+        "chain": "AI估值过高（股价远超盈利）→盈利预期下调→科技股领跌大盘",
+        "watch": "AI公司财报及资本开支（投资支出）数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "SpaceX等巨额AI融资潮来袭 新股洪流考验美股承接能力",
       "source": "环球市场播报",
       "detail": " 随着企业为推进人工智能（AI）战略纷纷筹资，新股供应洪流正令华尔街开始质疑：市场是否有足够资金消化这些股票，以及新增股权供应将如何影响更广泛的股价表现。",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "自行车代工龙头富士达闯关IPO，电动自行车扩产压力待解",
       "source": "滚动播报",
       "detail": "来源：华尔街见闻 押注电动自行车 6月8日，天津富士达自行车工业股份有限公司（下称“富士达”）的主板IPO将迎来上会审核。 富士达旗下两轮车产品涵盖自行车、电动自行车...",
@@ -110,12 +102,20 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Inflation inside the electronics you buy may soon become a bit more sticky",
       "source": "CNBC",
       "detail": "Most consumers are not familiar with the role resin plays inside electronics like smartphones. A current shortage of the materials may push up prices.",
       "lang": "en",
       "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "Oil prices rise after Iran fires missiles at Israel, escalating regional tensions",
+      "source": "CNBC",
+      "detail": "Oil rises on Monday amid heightened tensions in the Middle East, raising concerns that the conflict may drag on.",
+      "lang": "en",
+      "score": 17
     }
   ]
 }
