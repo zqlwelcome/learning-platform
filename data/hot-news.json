@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 01:45",
+  "updateTime": "2026-06-09 01:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "私募科技交易暴跌70%，投资者对估值谨慎",
-        "assets": "📉 科技初创公司 估值承压；📉 私募股权基金 流动性风险",
-        "chain": "估值回调→IPO退出困难→LP（有限合伙人）赎回压力增加",
-        "watch": "科技公司一级市场融资估值中位数变化"
+        "what": "私募科技交易额暴跌70%，估值谨慎",
+        "assets": "📉 科技初创公司 利空; 📈 避险资产（如国债） 利好",
+        "chain": "一级市场（未上市公司）冷却→二级市场科技股IPO（首次公开募股）减少→流动性收紧",
+        "watch": "科技股IPO数量和估值倍数变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "交易员警告投资者谨慎参与SpaceX IPO",
-        "assets": "📉 SpaceX 上市炒作预期；📉 太空概念股 风险偏好下降",
-        "chain": "散户追高→机构套利→波动率上升（价格大幅波动）",
-        "watch": "SpaceX 估值及上市时间表更新"
+        "what": "交易员警告SpaceX IPO风险",
+        "assets": "📉 SpaceX相关资产（如私人股份） 承压; 📉 太空概念股 利空",
+        "chain": "散户热炒→高估值泡沫→上市后回调风险（价格下跌）→打击市场情绪",
+        "watch": "SpaceX估值和上市时间表"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Stellantis证券欺诈集体诉讼首席原告申请截止6月8日",
-        "assets": "📉 Stellantis 股价 利空；📈 做空期权 需求增加",
-        "chain": "诉讼风险→投资者抛售→信用违约互换（CDS）利差扩大",
-        "watch": "诉讼进展及公司财报披露"
+        "what": "Stellantis面临证券欺诈集体诉讼",
+        "assets": "📉 Stellantis股票 利空; 📉 汽车板块 承压",
+        "chain": "诉讼→赔偿风险→股价下跌→投资者抛售同类股",
+        "watch": "6月8日首席原告申请截止后的进展"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "WWDC 2026发布Siri AI、搜索更新及Liquid Glass",
-        "assets": "📈 苹果 股价 利好；📈 AI芯片股 联动上涨",
-        "chain": "AI功能落地→刺激换机周期→供应链订单上调",
-        "watch": "苹果AI功能用户采用率及竞争对手反应"
+        "what": "WWDC发布Siri AI和搜索更新",
+        "assets": "📈 苹果股票 利好; 📈 AI概念股 利好",
+        "chain": "AI功能落地→提升用户粘性→服务收入增长→股价上行",
+        "watch": "苹果AI功能用户采用率和搜索市场份额"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国助力油价低于100美元，但分析师警告不可持续",
-        "assets": "📉 原油 短期承压；📈 中国炼厂 成本利好；📉 能源股 长期看空",
-        "chain": "中国需求缓冲→OPEC+减产预期→库存数据成关键（供给过剩风险）",
-        "watch": "中国原油进口量及OPEC+产量决策"
+        "what": "中国支撑油价低于100美元，但难持续",
+        "assets": "📉 原油 承压; 📈 中国炼油股 利好",
+        "chain": "中国需求缓冲→油价短期稳定→但减产协议（OPEC+）结束或经济放缓→油价反弹",
+        "watch": "中国原油进口量和OPEC+产量决策"
       }
     },
     {
@@ -79,22 +79,14 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "摩根士丹利：美元涨势取决于美联储利率路径",
-        "assets": "📈 美元指数 看美联储；📉 新兴市场货币 承压；📈 美债收益率 联动",
-        "chain": "鹰派（加息倾向）→美元走强→风险资产（股票/商品）承压",
-        "watch": "美联储点阵图及非农就业数据"
+        "what": "美元涨势取决于美联储利率路径",
+        "assets": "📈 美元 利好; 📉 新兴市场货币 承压",
+        "chain": "美联储加息（提高利率）→美元走强→新兴市场资本外流→利差交易（借低息货币买高息资产）活跃",
+        "watch": "美联储下次会议利率决议和点阵图"
       }
     },
     {
       "rank": 7,
-      "title": "Stocks gain as chipmakers rebound from rout, Iran halts Israel attacks: Live updates",
-      "source": "CNBC",
-      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
-      "lang": "en",
-      "score": 27
-    },
-    {
-      "rank": 8,
       "title": "泰瑞达与东京电子联合推出面向AI芯片的集成测试解决方案",
       "source": "环球市场播报",
       "detail": " 自动化测试设备提供商泰瑞达公司（Teradyne）与日本半导体设备巨头东京电子周一联合发布了一款集成测试单元解决方案，专为AI及数据中心应用中的芯片良率筛选而设计。",
@@ -102,7 +94,7 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
       "source": "CNBC",
       "detail": "While the central bank's monthly survey showed the inflation outlook mostly unchanged, the general perception of conditions deteriorated.",
@@ -110,10 +102,18 @@
       "score": 23
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Stocks making the biggest moves midday: Cerebras, Marvell, Intel, Corning & more",
       "source": "CNBC",
       "detail": "Here are the companies that are making headlines in midday trading.",
+      "lang": "en",
+      "score": 17
+    },
+    {
+      "rank": 10,
+      "title": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
+      "source": "CNBC",
+      "detail": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
       "lang": "en",
       "score": 17
     }
