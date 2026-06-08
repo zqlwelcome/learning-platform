@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 02:25",
+  "updateTime": "2026-06-09 02:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "私募股权科技交易额暴跌70%，投资者对估值谨慎。",
-        "assets": "📉 全球科技股 利空; 📉 私募股权基金 承压",
-        "chain": "科技资产估值收缩（PE倍数下降），可能传导至一级市场IPO定价下调。",
-        "watch": "科技公司财报季业绩指引（Forward Guidance）"
+        "what": "私募股权科技交易额暴跌70%，投资者对估值更谨慎",
+        "assets": "📉 私募科技股 承压；📉 科技初创企业估值 下行",
+        "chain": "一级市场（私募投资）融资困难→传导至二级市场（公开交易）科技股估值中枢下移",
+        "watch": "私募基金募资数据及科技IPO（首次公开募股）撤单率"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "交易员警告押注SpaceX IPO风险高。",
-        "assets": "📉 SpaceX相关影子股 利空; 📈 太空ETF 中性",
-        "chain": "IPO热度降温（投资者风险偏好下降），可能拖累未上市科技公司估值（Private Market）。",
-        "watch": "SpaceX二次交易价格（Secondary Market）"
+        "what": "资深交易员警告投资者谨慎参与SpaceX IPO",
+        "assets": "📉 SpaceX相关概念股 承压；📉 太空板块ETF 偏空",
+        "chain": "散户情绪受抑制→降低太空股投机溢价（股价高于基本面部分）→影响同类未上市科技公司估值",
+        "watch": "SpaceX二级市场交易价格及IPO（首次公开募股）时间表"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Stellantis证券欺诈集体诉讼首席原告申请截止。",
-        "assets": "📉 Stellantis股价 承压; 📉 汽车股板块 利空",
-        "chain": "诉讼风险（Legal Risk）增加，可能引发投资者对车企财务透明度（Financial Disclosure）担忧。",
-        "watch": "诉讼进展及和解金额（Settlement Amount）"
+        "what": "Stellantis证券欺诈集体诉讼首席原告申请截止日为6月8日",
+        "assets": "📉 Stellantis（STLA）股票 承压；📉 汽车行业ETF 偏空",
+        "chain": "诉讼风险→增加赔偿预期（潜在财务损失）→降低机构持仓意愿→股价波动率上升",
+        "watch": "诉讼进展及公司财务披露修正"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "苹果WWDC发布Siri AI及Liquid Glass更新。",
-        "assets": "📈 苹果股价 利好; 📈 AI芯片股（如英伟达） 利好",
-        "chain": "AI应用落地（On-Device AI）提振消费电子需求，可能带动半导体供应链（Supply Chain）订单。",
-        "watch": "苹果AI功能用户采用率（Adoption Rate）"
+        "what": "WWDC 2026：苹果发布Siri AI重大更新及Liquid Glass变化",
+        "assets": "📈 苹果(AAPL) 利好；📈 AI芯片/语音技术股 利好",
+        "chain": "AI功能落地→提振换机周期（用户升级设备）→利好供应链（如台积电、鸿海）",
+        "watch": "苹果发布会后股价反应及开发者反馈"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国支撑油价低于100美元，但分析师称不可持续。",
-        "assets": "📈 WTI原油 承压; 📈 能源股 利空",
-        "chain": "中国需求减弱（Demand Weakness）抑制油价，但地缘风险（Geopolitical Risk）仍可能推高波动率。",
-        "watch": "中国原油进口数据（Import Data）及OPEC产量决策"
+        "what": "中国帮助缓冲国际油价低于100美元，但分析师警告不可持续",
+        "assets": "📉 原油期货 承压；📈 中国化工/航空股 利好",
+        "chain": "中国需求支撑→短期抑制油价下行→若政策退出，油价可能反弹（通胀压力回升）",
+        "watch": "中国原油进口数据及OPEC+（石油输出国组织及盟友）产量决策"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "摩根士丹利称美元涨势取决于美联储利率路径。",
-        "assets": "📈 美元指数 中性; 📉 新兴市场货币 承压",
-        "chain": "美联储鹰派（加息预期）支撑美元，但若降息（借钱成本降低）则美元走弱，利好大宗商品（Commodities）。",
-        "watch": "美联储点阵图（Dot Plot）及CPI数据"
+        "what": "摩根士丹利：美元涨势能否持续取决于美联储利率路径",
+        "assets": "📈 美元指数 中性；📉 非美货币（欧元/日元） 承压",
+        "chain": "若美联储维持高利率→美元走强→新兴市场资本外流（资金流出风险资产）",
+        "watch": "美联储点阵图（利率预测）及CPI（消费者物价指数）数据"
       }
     },
     {
