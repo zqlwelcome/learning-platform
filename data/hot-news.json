@@ -1,64 +1,50 @@
 {
-  "updateTime": "2026-06-08 22:55",
+  "updateTime": "2026-06-08 23:01",
   "news": [
     {
       "rank": 1,
-      "title": "开盘：美股周一高开 芯片股从暴跌中反弹",
-      "source": "环球市场播报",
-      "detail": " 北京时间6月8日晚，美股周一高开。芯片股在上周遭遇猛烈抛售后出现企稳反弹迹象，但中东紧张局势持续发酵以及本周五SpaceX史诗级IPO的临近，令市场整体情绪保持谨慎。",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "美股芯片股从暴跌中反弹，市场情绪回暖",
-        "assets": "📈 美股科技股 利好",
-        "chain": "半导体需求预期修复，带动纳指（科技股指数）期货上涨",
-        "watch": "费城半导体指数（SOX）后续走势"
-      }
-    },
-    {
-      "rank": 2,
       "title": "WWDC 2026 live updates: Apple AI, Siri and iPhone software in focus ",
       "source": "CNBC",
       "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "苹果WWDC聚焦AI、Siri和iPhone软件更新",
-        "assets": "📈 苹果股票 利好",
-        "chain": "AI功能落地可能提振消费电子换机周期（更新换代需求），利好苹果供应链",
-        "watch": "发布会后苹果股价及AI功能具体落地时间表"
+        "what": "苹果WWDC聚焦AI、Siri和软件更新",
+        "assets": "📈 苹果股票 利好\n📈 AI概念股 利好",
+        "chain": "苹果AI落地可能带动消费电子换机周期（需求上升），利好供应链（台积电等）。",
+        "watch": "苹果AI具体功能披露及开发者反馈"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Apollo首席经济学家：AI收益仍集中于“美股七巨头”",
       "source": "环球市场播报",
       "detail": "阿波罗全球管理公司首席经济学家托尔斯滕·斯洛克警告称，人工智能带来的经济收益至今仍高度集中于少数几家大型科技公司，美国经济中更广泛的企业群体尚未享受到AI技术的红...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Apollo首席经济学家称AI收益仍集中于美股七巨头",
-        "assets": "📉 中小盘科技股 承压",
-        "chain": "资金继续抱团龙头（资金集中买入少数大股票），小盘股流动性被挤压",
-        "watch": "七巨头（苹果、微软等）财报及AI资本开支指引"
+        "what": "Apollo首席经济学家称AI收益仍集中在美股七巨头",
+        "assets": "📈 美股七巨头 利好\n📉 中小科技股 承压",
+        "chain": "资金继续抱团龙头（马太效应），中小盘AI股流动性被抽离（资金分流）。",
+        "watch": "七巨头财报增速与资本开支指引"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SpaceX IPO打破华尔街惯例：马斯克强化控制，散户获30%配售",
       "source": "环球市场播报",
       "detail": "SpaceX即将于6月12日登陆纳斯达克，募资规模高达750亿美元，刷新全球IPO历史纪录。然而，更令华尔街瞩目的是，这家由埃隆·马斯克掌舵的航天巨头正以一系列颠覆传统的方式推...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SpaceX IPO打破惯例，散户获30%配售",
-        "assets": "📈 SpaceX相关概念股 利好",
-        "chain": "散户参与度提升可能推高首日溢价（上市首日涨幅），利好太空产业链",
-        "watch": "SpaceX IPO定价及首日交易量"
+        "what": "SpaceX IPO打破惯例，马斯克强化控制且散户获30%配售",
+        "assets": "📈 SpaceX 估值 利好\n📈 太空概念股 利好\n📉 传统投行 承压",
+        "chain": "散户高配售比例可能推高首日波动（投机情绪），强化创始人控制权（代理权集中）。",
+        "watch": "IPO定价及首日涨幅、散户认购热度"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
@@ -66,9 +52,23 @@
       "score": 29,
       "insight": {
         "what": "中国帮助缓冲油价低于100美元，但分析师警告不可持续",
-        "assets": "📉 原油期货 承压",
-        "chain": "短期压制能源股，但地缘风险（如中东局势）仍可能推高油价",
-        "watch": "中国原油进口数据及OPEC+（产油国联盟）产量政策"
+        "assets": "📉 原油 承压\n📈 中国炼油股 利好\n📈 航空股 利好",
+        "chain": "中国低价买入增加战略储备（库存增加），但需求疲软最终会拖累油价（供需失衡）。",
+        "watch": "中国原油进口量及PMI（采购经理指数）数据"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "泰瑞达与东京电子联合推出面向AI芯片的集成测试解决方案",
+      "source": "环球市场播报",
+      "detail": " 自动化测试设备提供商泰瑞达公司（Teradyne）与日本半导体设备巨头东京电子周一联合发布了一款集成测试单元解决方案，专为AI及数据中心应用中的芯片良率筛选而设计。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "泰瑞达与东京电子推出AI芯片集成测试方案",
+        "assets": "📈 半导体设备股 利好\n📈 AI芯片股 利好",
+        "chain": "测试方案缩短AI芯片量产周期（良率提升），利好台积电等代工厂（产能利用率）。",
+        "watch": "客户认证进度及订单公告"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "英伟达与SK海力士签署AI存储芯片多年合作协议",
-        "assets": "📈 英伟达 利好；📈 SK海力士 利好",
-        "chain": "锁定HBM（高带宽存储芯片）供应，强化AI算力链（从芯片到服务器）确定性",
-        "watch": "HBM产能扩张进度及英伟达下一代AI芯片订单量"
+        "what": "英伟达与SK海力士签署多年AI存储芯片合作协议",
+        "assets": "📈 英伟达 利好\n📈 SK海力士 利好\n📈 HBM（高带宽存储）产业链 利好",
+        "chain": "锁定HBM供应保障AI芯片产能（供应链稳定），存储价格可能进一步上涨（供需紧张）。",
+        "watch": "HBM出货量及英伟达数据中心营收指引"
       }
     },
     {
@@ -95,27 +95,27 @@
     },
     {
       "rank": 8,
-      "title": "泰瑞达与东京电子联合推出面向AI芯片的集成测试解决方案",
-      "source": "环球市场播报",
-      "detail": " 自动化测试设备提供商泰瑞达公司（Teradyne）与日本半导体设备巨头东京电子周一联合发布了一款集成测试单元解决方案，专为AI及数据中心应用中的芯片良率筛选而设计。",
-      "lang": "zh",
-      "score": 25
+      "title": "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
+      "source": "CNBC",
+      "detail": "While the central bank's monthly survey showed the inflation outlook mostly unchanged, the general perception of conditions deteriorated.",
+      "lang": "en",
+      "score": 23
     },
     {
       "rank": 9,
-      "title": "刚刚，全线飙涨！芯片，大反攻！美国、伊朗，重磅传来！",
-      "source": "券商中国",
-      "detail": "美股芯片股大反攻！ 今晚，美股三大指数全线反弹，纳指涨超1%，芯片、光通信概念股全线大涨，费城半导体指数一度大涨超5%。分析人士指出，中东紧张局势明显降温...",
-      "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 10,
       "title": "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S.",
       "source": "CNBC",
       "detail": "Amazon is the latest megacap company to announce a massive deal with Corning, which is rapidly becoming a critical player in the AI buildout.",
       "lang": "en",
       "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "汇丰：不确定性持续，英国央行将维持利率不变",
+      "source": "环球市场播报",
+      "detail": "汇丰经济学家Elizabeth Martins和Emma Wilks表示，鉴于中东地区的不确定性、第二轮效应的迹象有限以及活动数据疲软，大多数英国央行利率制定者将倾向于在下周的会议上观望...",
+      "lang": "zh",
+      "score": 18
     }
   ]
 }
