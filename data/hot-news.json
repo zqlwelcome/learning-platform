@@ -1,37 +1,61 @@
 {
-  "updateTime": "2026-06-08 22:40",
+  "updateTime": "2026-06-08 22:46",
   "news": [
     {
       "rank": 1,
-      "title": "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期",
-      "source": "环球市场播报",
-      "detail": " 投资者正艰难应对一个日益复杂的市场环境。地缘政治冲突、科技股估值泡沫以及对美联储政策走向的担忧共同构成了一组“三重威胁”，导致全球股市在6月伊始便遭遇剧烈波动。",
-      "lang": "zh",
-      "score": 51
-    },
-    {
-      "rank": 2,
       "title": "开盘：美股周一高开 芯片股从暴跌中反弹",
       "source": "环球市场播报",
       "detail": " 北京时间6月8日晚，美股周一高开。芯片股在上周遭遇猛烈抛售后出现企稳反弹迹象，但中东紧张局势持续发酵以及本周五SpaceX史诗级IPO的临近，令市场整体情绪保持谨慎。",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "美股周一高开，芯片股从暴跌中反弹",
+        "assets": "📈 美股科技股 利好；📈 半导体板块 反弹",
+        "chain": "风险偏好回升，资金从避险资产流出，美债收益率（国债利息）或上行",
+        "watch": "芯片股成交量是否持续放大"
+      }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
       "source": "环球市场播报",
       "detail": " 随着SpaceX、Anthropic和OpenAI三大AI巨头相继启动上市进程，叠加美国5月CPI数据即将于本周公布，全球投资者正为一场前所未有的市场波动做准备。",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "投资者关注AI巨头IPO与通胀数据即将引爆波动",
+        "assets": "📈 AI概念股 利好；📉 美债 承压",
+        "chain": "通胀数据若超预期，将推迟降息（借钱成本降低），压制成长股估值",
+        "watch": "本周CPI（消费者物价指数）数据公布"
+      }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "WWDC 2026 live updates: Apple AI, Siri and iPhone software in focus ",
       "source": "CNBC",
       "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "WWDC 2026聚焦苹果AI、Siri及iPhone软件",
+        "assets": "📈 苹果股价 利好；📈 AI软件板块 提振",
+        "chain": "苹果AI落地将带动应用生态，利好云服务商和芯片需求",
+        "watch": "苹果AI功能是否收费及订阅模式"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Apollo首席经济学家：AI收益仍集中于“美股七巨头”",
+      "source": "环球市场播报",
+      "detail": "阿波罗全球管理公司首席经济学家托尔斯滕·斯洛克警告称，人工智能带来的经济收益至今仍高度集中于少数几家大型科技公司，美国经济中更广泛的企业群体尚未享受到AI技术的红...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "Apollo首席经济学家称AI收益仍集中于七巨头",
+        "assets": "📈 美股七巨头 利好；📉 中小盘科技股 承压",
+        "chain": "资金继续抱团，小盘股流动性受挤压，指数分化加剧",
+        "watch": "七巨头财报能否持续超预期"
+      }
     },
     {
       "rank": 5,
@@ -39,26 +63,30 @@
       "source": "环球市场播报",
       "detail": "SpaceX即将于6月12日登陆纳斯达克，募资规模高达750亿美元，刷新全球IPO历史纪录。然而，更令华尔街瞩目的是，这家由埃隆·马斯克掌舵的航天巨头正以一系列颠覆传统的方式推...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "SpaceX IPO打破惯例：马斯克强化控制，散户获30%配售",
+        "assets": "📈 SpaceX概念股（如太空ETF） 利好；📈 散户交易平台 利好",
+        "chain": "散户参与度提升，或推高IPO首日溢价，但控制权结构降低机构定价权",
+        "watch": "SpaceX IPO发行价及首日涨幅"
+      }
     },
     {
       "rank": 6,
-      "title": "伊拉克：重新开放领空！芯片股，深夜暴涨！",
-      "source": "证券时报",
-      "detail": " 伊朗和以色列先后宣布停止袭击对方，伊拉克民航局8日下午发表声明，宣布正式重新开放伊拉克领空，恢复所有机场的进出港航班。",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 7,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "中国帮助缓冲国际油价低于100美元，但分析师警告不可持续",
+        "assets": "📉 原油期货 承压；📈 航空/运输板块 利好",
+        "chain": "油价低位短期缓解通胀，但若中国需求回落，产油国（OPEC）或减产",
+        "watch": "中国炼厂开工率及OPEC+产量声明"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "VisionWave以1750万美元收购Foresight控股权，加码国防AI感知技术",
       "source": "环球市场播报",
       "detail": "VisionWave Holdings与Foresight Autonomous Holdings于6月3日签署了一项最终证券交换协议，VisionWave将以最高1750万美元的股票收购Foresight的控股权。",
@@ -66,20 +94,28 @@
       "score": 25
     },
     {
-      "rank": 9,
-      "title": "688169，腾讯系罕见出手爆买，持股市值逾2亿元！",
-      "source": "",
-      "detail": "知名小米生态链扫地机器人上市公司石头科技（688169）被腾讯董事会主席马化腾看上了。 证券时报·e公司记者注意到，截至6月1日，深圳市世纪汇祥科技有限公司（下称“世纪汇祥...",
-      "lang": "zh",
-      "score": 24
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "Corning shares jump 4% after company strikes deal to power Amazon AI data centers in U.S.",
       "source": "CNBC",
       "detail": "Amazon is the latest megacap company to announce a massive deal with Corning, which is rapidly becoming a critical player in the AI buildout.",
       "lang": "en",
       "score": 20
+    },
+    {
+      "rank": 9,
+      "title": "汇丰：不确定性持续，英国央行将维持利率不变",
+      "source": "环球市场播报",
+      "detail": "汇丰经济学家Elizabeth Martins和Emma Wilks表示，鉴于中东地区的不确定性、第二轮效应的迹象有限以及活动数据疲软，大多数英国央行利率制定者将倾向于在下周的会议上观望...",
+      "lang": "zh",
+      "score": 18
+    },
+    {
+      "rank": 10,
+      "title": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
+      "source": "CNBC",
+      "detail": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
+      "lang": "en",
+      "score": 17
     }
   ]
 }
