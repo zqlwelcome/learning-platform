@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-08 15:50",
+  "updateTime": "2026-06-08 15:55",
   "news": [
     {
       "rank": 1,
-      "title": "欧元跌至两个月低位，美国CPI与欧央行决议或定生死",
-      "source": "滚动播报",
-      "detail": "汇通财经APP讯——周一（6月8日），欧元兑美元低开创近两个月新低至1.1506之后震荡回升，一度收复跌幅，随后汇价在低位震荡运行，当前汇价运行于1.1525附近。",
-      "lang": "zh",
-      "score": 48,
-      "insight": {
-        "what": "欧元跌至两个月低位",
-        "assets": "📉 欧元 承压",
-        "chain": "美元走强压制欧元，欧央行若鸽派（宽松政策）将加剧跌势，风险偏好（市场情绪）恶化",
-        "watch": "美国CPI（通胀数据）及欧央行利率决议"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Foreign investors have dumped billions of dollars of Korean stocks this year despite record rally. Here's why",
       "source": "CNBC",
       "detail": "The selling intensified Monday as the benchmark Kospi plunged more than 8% at the open, even as it emerged as one of the world's standout performers thus far.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "外资抛售韩国股票",
-        "assets": "📉 韩国KOSPI指数 利空",
-        "chain": "资金外流导致韩元贬值，亚洲新兴市场（发展中经济体）承压，避险情绪（资金流向安全资产）升温",
-        "watch": "韩国资本流动数据及美联储政策信号"
+        "what": "外资持续抛售韩国股票，尽管股市创新高",
+        "assets": "📉 韩国KOSPI指数 承压，📉 韩元 承压",
+        "chain": "外资流出反映全球风险偏好下降，可能蔓延至其他新兴市场（如台股、印股）",
+        "watch": "韩国资本流动数据及美元/韩元汇率"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "非农数据击碎华尔街降息幻想，美股、黄金大跌",
       "source": "21世纪经济报道",
       "detail": "南方财经 21世纪经济报道特约撰稿 王应贵 美国东部时间6月5日，美国劳工部公布了5月非农就业报告，新增就业岗位17.2万个，失业率维持在4.3%。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "非农数据强于预期",
-        "assets": "📉 美股 利空, 📉 黄金 承压",
-        "chain": "降息预期（借钱成本降低）降温，美债收益率（债券利息）上升，风险资产（股票等）遭抛售",
-        "watch": "本周CPI及美联储官员讲话"
+        "what": "美国非农数据强劲，降息预期被打压",
+        "assets": "📉 美股 承压，📉 黄金 承压，📈 美元 利好",
+        "chain": "降息延后（借钱成本居高不下）压制风险资产，推高实际利率（剔除通胀的借贷成本）",
+        "watch": "本周美国CPI数据及美联储官员讲话"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "停火协议名存实亡！黄金失守4300关口，本周美国CPI成救命稻草？",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周一（6月8日）亚洲时段，现货金价在开盘之后触及每盎司4353美元后迅速跳水，当前回调至4300美元下方，截止13：40，创下自3月2...",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "停火协议失效，黄金失守4300",
-        "assets": "📉 黄金 利空",
-        "chain": "避险需求（安全资产买入）减弱，美元走强压制金价，CPI若超预期将加速下跌",
-        "watch": "美国CPI数据及地缘局势进展"
+        "what": "停火协议失效，黄金跌破4300，等待美国CPI",
+        "assets": "📉 黄金 承压，📈 原油 利好（地缘风险）",
+        "chain": "避险情绪（怕出事买黄金）被非农压制，但地缘风险支撑油价",
+        "watch": "美国CPI数据及中东停火谈判进展"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "重演2011年加息灾难？经济学家警告：欧洲央行本周若采取行动或再犯“代价高昂的错误”",
       "source": "智通财经APP",
       "detail": "经济学家警告称，欧洲央行捍卫其抗通胀声誉的决心，可能会在本周会议上诱使其犯下代价高昂的错误。 自伊朗冲突爆发后，欧洲央行一直按兵不动，但目前官员们似乎确信...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "警告欧央行加息或犯错误",
-        "assets": "📉 欧元区债券 承压, 📉 欧洲股市 利空",
-        "chain": "加息（借钱成本提高）可能抑制经济，信贷紧缩（贷款减少）风险上升，欧元区复苏（经济恢复）受质疑",
-        "watch": "欧央行利率决议及GDP（国内生产总值）数据"
+        "what": "经济学家警告欧洲央行本周加息或重蹈2011年覆辙",
+        "assets": "📉 欧元区国债 承压，📉 欧元 承压",
+        "chain": "加息（借钱成本提高）可能抑制经济，引发债务风险（如南欧国家偿债困难）",
+        "watch": "欧洲央行利率决议及拉加德讲话"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "美联储加息预期升温拖累白银加速下跌",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周一亚洲交易时段，现货白银维持弱势整理格局，价格徘徊于66.92美元/盎司附近。尽管地缘风险持续升温，但市场对通胀和利率前景的担忧盖过了避险需求对...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息预期升温拖累白银",
-        "assets": "📉 白银 承压",
-        "chain": "美元走强与利率上升压制贵金属，工业需求（制造业用银）放缓，白银波动性（价格变化幅度）加大",
-        "watch": "美国CPI及美联储点阵图（利率预测）"
+        "what": "美联储加息预期升温，白银加速下跌",
+        "assets": "📉 白银 承压，📉 黄金 联动承压",
+        "chain": "加息预期推高美元（美元涨，金银跌），工业需求疲软加剧白银跌势",
+        "watch": "美联储下次会议点阵图（利率预测）及美国PMI数据"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "特朗普专访漏“底牌”：对伊两手准备、高油价只是阵痛、美联储别加息！",
+      "source": "市场资讯",
+      "detail": "来源：金十数据 特朗普在最新专访中表示，美方正通过外交与武力双重施压，旨在彻底解除德黑兰核武装，高油价是必须做出的战略取舍。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "特朗普暗示对伊朗施压，高油价只是暂时，反对加息",
+        "assets": "📈 原油 利好，📉 美联储加息预期 承压",
+        "chain": "地缘风险（伊朗供应中断）支撑油价，但高油价可能反噬经济，压制美联储加息空间",
+        "watch": "美国对伊朗制裁措施及特朗普政策表态"
       }
     },
     {
       "rank": 7,
-      "title": "对美联储可能加息的担忧拖累亚洲科技股下跌",
-      "source": "环球市场播报",
-      "detail": "由于市场担心美国利率上升，加上对人工智能（AI）支出和高估值的疑虑持续，亚洲科技股周一普遍下跌。 三星电子下跌6.2%，存储芯片制造商SK海力士下跌2.3%。",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 8,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
@@ -102,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
@@ -110,10 +102,18 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 8%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Tech stock sell-off accelerates; SoftBank drops 6% as investors sour on AI-linked names",
+      "source": "CNBC",
+      "detail": "Global tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
       "score": 32
     }
