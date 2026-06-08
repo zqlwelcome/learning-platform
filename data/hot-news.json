@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 13:46",
+  "updateTime": "2026-06-08 13:50",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI 承压，📉 韩元 承压",
-        "chain": "外资流出→韩元贬值→输入性通胀（进口商品变贵）→央行加息压力",
-        "watch": "外资流出速度及韩元兑美元汇率"
+        "assets": "📉 韩国KOSPI指数 承压，📈 韩元 贬值",
+        "chain": "外资流出推高韩元汇率风险（货币贬值压力），可能引发央行干预",
+        "watch": "韩国央行外汇干预动作及外资持仓变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股午盘下跌，科网和黄金股普跌",
-        "assets": "📉 恒生科技股 承压，📉 港股黄金股 承压",
-        "chain": "科网股跌→风险偏好（投资者冒险意愿）下降→资金转向避险资产如美债",
-        "watch": "恒生科技指数及南向资金（内地流入港股的钱）流向"
+        "what": "港股午盘下跌，科指领跌，百度跌超7%",
+        "assets": "📉 港股恒生指数 承压，📉 港股科技股 利空，📉 半导体板块 调整",
+        "chain": "科技股抛售潮（风险偏好下降）蔓延至A股科技板块，避险情绪推高债市",
+        "watch": "恒生科技指数能否守住支撑位及成交额变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息担忧拖累亚洲科技股",
-        "assets": "📉 亚洲科技股 承压，📉 纳斯达克 承压",
-        "chain": "加息担忧→美债收益率（美国政府借钱成本）上升→科技股估值（未来利润折现）被压缩",
-        "watch": "美联储官员讲话及美国CPI（通胀数据）"
+        "what": "美联储加息担忧导致亚洲科技股下跌",
+        "assets": "📉 亚洲科技股 利空，📉 美股科技股 承压",
+        "chain": "加息预期（借钱成本上升）压制高估值成长股，资金转向价值股或避险资产",
+        "watch": "美联储官员讲话及美国CPI数据"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 36,
       "insight": {
         "what": "日本10年期国债收益率升至2.715%",
-        "assets": "📉 日本国债 承压，📉 日元 承压",
-        "chain": "美日利差（两国借钱成本差）扩大→日元贬值→日本进口成本上升",
-        "watch": "日本央行是否干预汇率及美债收益率走势"
+        "assets": "📈 日本国债收益率 上升，📉 日经指数 承压",
+        "chain": "收益率上升（债券价格下跌）推高融资成本，压制日本股市估值",
+        "watch": "日本央行是否调整YCC（收益率曲线控制）目标"
       }
     },
     {
@@ -66,27 +66,35 @@
       "score": 36,
       "insight": {
         "what": "高盛不再预期美联储今年降息",
-        "assets": "📈 美元 利好，📉 美股 承压，📉 新兴市场 承压",
-        "chain": "不降息→高利率持续→企业借钱成本高→盈利预期下调→股市估值承压",
-        "watch": "美国非农数据（就业报告）及核心PCE（通胀指标）"
+        "assets": "📈 美元指数 利好，📉 美股 承压，📉 新兴市场货币 利空",
+        "chain": "降息预期落空（资金成本维持高位）打压风险资产，美元走强引发资本回流",
+        "watch": "美国非农就业数据及PCE通胀指标"
       }
     },
     {
       "rank": 6,
-      "title": "Hong Kong's IPO boom is developing a performance problem",
-      "source": "CNBC",
-      "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
-      "lang": "en",
-      "score": 35,
+      "title": "通胀压力回升 欧洲央行或本周加息",
+      "source": "中国新闻网",
+      "detail": "中新网6月8日电 据法新社报道，随着美伊以战争引发的能源冲击推高通胀，欧洲央行或将在本周加息。 报道称，中东战争引发的能源冲击大幅推高全球能源成本...",
+      "lang": "zh",
+      "score": 36,
       "insight": {
-        "what": "香港IPO热潮存在上市后表现不佳问题",
-        "assets": "📉 港股新股 承压，📉 港交所 承压",
-        "chain": "IPO表现差→投资者打新（申购新股）意愿下降→IPO融资额减少→港交所收入下滑",
-        "watch": "新股首日涨幅及破发率（股价跌破发行价比例）"
+        "what": "通胀压力回升，欧洲央行本周或加息",
+        "assets": "📈 欧元 利好，📉 欧洲股市 承压，📉 欧洲债券 利空",
+        "chain": "加息（借钱成本上升）压制经济复苏预期，利空高负债行业（如地产）",
+        "watch": "欧洲央行利率决议及拉加德发布会措辞"
       }
     },
     {
       "rank": 7,
+      "title": "Hong Kong's IPO boom is developing a performance problem",
+      "source": "CNBC",
+      "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
@@ -94,7 +102,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 7%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
@@ -102,18 +110,10 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Asia tech stocks extend sell-off with SoftBank down over 7% as investors sour on AI-linked names",
       "source": "CNBC",
       "detail": "Asian tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "Why AI hyperscalers are now the epicenter of a bear case for stocks",
-      "source": "CNBC",
-      "detail": "In the near term, there are many mouths to feed and not enough to eat.",
       "lang": "en",
       "score": 32
     }
