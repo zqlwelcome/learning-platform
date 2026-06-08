@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 01:10",
+  "updateTime": "2026-06-09 01:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "私募科技交易额暴跌70%，估值谨慎",
-        "assets": "📉 科技初创公司 承压",
-        "chain": "一级市场（未上市企业）融资难，可能拖累二级科技股IPO（首次公开募股）节奏",
-        "watch": "科技股估值倍数（如P/E）变化"
+        "what": "私募科技交易额暴跌70%，投资者对估值谨慎",
+        "assets": "📉 科技股 承压，📉 私募股权 流动性下降",
+        "chain": "估值收缩→IPO退出困难→VC/PE基金赎回压力（流动性风险）→二级市场科技股抛售",
+        "watch": "科技股IPO定价与二级市场溢价差"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "交易员警告SpaceX IPO风险",
-        "assets": "📉 SpaceX相关概念股 承压",
-        "chain": "高风险IPO（首次公开募股）可能引发投机情绪回落，影响其他未上市科技公司估值",
-        "watch": "SpaceX估值及二级市场交易价格"
+        "what": "资深交易员警告SpaceX IPO风险",
+        "assets": "📉 SpaceX（未上市）估值预期 承压，📉 太空概念股 利空",
+        "chain": "高估值预期降温→散户追高意愿减弱→其他明星科技IPO估值回调（锚定效应）",
+        "watch": "SpaceX员工股私下交易价格变化"
       }
     },
     {
@@ -37,64 +37,56 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Stellantis证券欺诈集体诉讼截止日临近",
-        "assets": "📉 Stellantis股价 承压",
-        "chain": "诉讼可能引发汽车板块信任危机，增加监管（证券法规）审查风险",
-        "watch": "法院是否受理及赔偿金额"
+        "what": "Stellantis证券欺诈集体诉讼首席原告申请截止",
+        "assets": "📉 Stellantis（美股代码STLA）股价 承压",
+        "chain": "诉讼风险→投资者信心下降→做空头寸增加（空头挤压风险）→汽车板块情绪传导",
+        "watch": "法院是否批准集体诉讼及赔偿金额"
       }
     },
     {
       "rank": 4,
-      "title": "WWDC 2026: Apple's next MacOS is named 'Golden Gate'",
-      "source": "CNBC",
-      "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "WWDC 2026苹果新macOS命名'Golden Gate'",
-        "assets": "📈 苹果及软件服务 利好",
-        "chain": "新系统可能带动Mac换机潮（升级需求），利好苹果供应链（零部件厂商）",
-        "watch": "开发者反馈及功能亮点"
-      }
-    },
-    {
-      "rank": 5,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国暂缓油价破100，但分析师警告不可持续",
-        "assets": "📉 原油价格 承压，📈 中国进口企业 利好",
-        "chain": "中国需求短期支撑油价，但若经济放缓，OPEC（石油输出国组织）可能需减产",
-        "watch": "中国PMI（采购经理人指数）及原油库存"
+        "what": "中国需求支撑油价<100美元，但分析师称不持久",
+        "assets": "📈 原油 短期支撑，📉 能源股 长期承压",
+        "chain": "中国炼厂囤货→即期需求虚高→一旦去库存油价回落（库存周期反转）→OPEC+减产压力加大",
+        "watch": "中国原油进口量及炼厂开工率周度数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Stocks gain as chipmakers rebound from rout, Iran halts Israel attacks: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "芯片股反弹带动股市，伊朗暂停攻击以色列",
-        "assets": "📈 全球半导体 利好，📈 避险资产（黄金） 承压",
-        "chain": "地缘风险（冲突）缓解提振风险偏好（投资者愿意冒险），资金从避险转向成长股",
-        "watch": "伊朗-以色列后续谈判及芯片行业库存"
+        "what": "芯片股反弹带动美股上涨，伊朗暂停对以色列攻击",
+        "assets": "📈 美股半导体（SOX指数） 利好，📈 避险资产（黄金） 承压",
+        "chain": "地缘风险缓解→风险偏好回升（risk-on）→资金从避险资产流向科技成长股→美元走弱",
+        "watch": "中东后续停火协议进展及芯片交货周期"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Oil prices ease after Iran says military operations against Israel are over",
       "source": "CNBC",
       "detail": "Oil rises on Monday amid heightened tensions in the Middle East, raising concerns that the conflict may drag on.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "伊朗宣布对以色列军事行动结束，油价回落",
+        "assets": "📉 原油 承压，📈 美股航空股 利好，📈 以色列谢克尔 升值",
+        "chain": "供给中断预期消退→油价溢价回吐→通胀预期下降→美联储降息预期升温（利率期货上涨）",
+        "watch": "霍尔木兹海峡油轮通行量及API原油库存周报"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "泰瑞达与东京电子联合推出面向AI芯片的集成测试解决方案",
       "source": "环球市场播报",
       "detail": " 自动化测试设备提供商泰瑞达公司（Teradyne）与日本半导体设备巨头东京电子周一联合发布了一款集成测试单元解决方案，专为AI及数据中心应用中的芯片良率筛选而设计。",
@@ -102,12 +94,20 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
       "source": "CNBC",
       "detail": "While the central bank's monthly survey showed the inflation outlook mostly unchanged, the general perception of conditions deteriorated.",
       "lang": "en",
       "score": 23
+    },
+    {
+      "rank": 9,
+      "title": "Stocks making the biggest moves midday: Cerebras, Marvell, Intel, Corning & more",
+      "source": "CNBC",
+      "detail": "Here are the companies that are making headlines in midday trading.",
+      "lang": "en",
+      "score": 17
     },
     {
       "rank": 10,
