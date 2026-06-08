@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 22:11",
+  "updateTime": "2026-06-08 22:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "华尔街面临战争、泡沫和加息三重风险",
-        "assets": "📉 美股科技股 承压, 📈 黄金 避险利好",
-        "chain": "避险情绪推升美债（国债）买盘，收益率（借钱成本）下降，但加息预期压制成长股估值",
-        "watch": "中东局势升级信号及美联储会议纪要"
+        "what": "华尔街面临伊战、AI估值泡沫和加息预期三重风险",
+        "assets": "📉 美股大盘 承压 | 📉 科技股 利空",
+        "chain": "避险情绪升温（资金逃离风险资产），美债收益率（借钱成本）上升压制成长股估值",
+        "watch": "美联储3月利率决议及地缘冲突升级信号"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 45,
       "insight": {
         "what": "美股周一高开，芯片股从暴跌中反弹",
-        "assets": "📈 美股芯片股 短期反弹, 📈 纳斯达克指数 提振",
-        "chain": "超卖后空头回补（买回借的股票）驱动反弹，但需确认是否为技术性修复",
-        "watch": "半导体行业ETF（交易所交易基金）成交量及后续财报"
+        "assets": "📈 美股科技股 利好 | 📈 半导体板块 利好",
+        "chain": "超跌反弹修复情绪（短期空头回补），但需确认基本面支撑，否则可能二次探底",
+        "watch": "芯片板块成交量及后续财报指引"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "投资者关注AI巨头IPO与通胀数据",
-        "assets": "📈 AI板块 波动加剧, 📉 美债 承压",
-        "chain": "通胀若超预期会强化加息预期（利率上升），压制IPO估值；反之利好风险偏好",
-        "watch": "CPI（消费者物价指数）数据及IPO定价区间"
+        "what": "投资者关注AI巨头IPO和通胀数据，预期波动加剧",
+        "assets": "📈 美股科技股 利好 | 📉 美债 承压",
+        "chain": "IPO抽血流动性（资金从二级市场转向一级市场），通胀数据影响降息（借钱成本降低）预期",
+        "watch": "核心PCE（个人消费支出物价指数）及IPO定价"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX计划1.77万亿美元估值IPO",
-        "assets": "📈 太空概念股 利好, 📈 私募股权 活跃",
-        "chain": "天价估值将引发对标效应（同类资产重定价），吸引资金从传统科技股轮动",
-        "watch": "SEC（美国证监会）审批进展及机构认购率"
+        "what": "SpaceX估值1.77万亿美元，将创历史最大IPO",
+        "assets": "📈 太空概念股 利好 | 📉 传统航天股 承压",
+        "chain": "高估值吸引资金涌入太空赛道（板块轮动），但需警惕泡沫风险（估值远超盈利支撑）",
+        "watch": "IPO认购倍数及SpaceX盈利预期"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质疑中断采访",
-        "assets": "📉 美元 承压, 📈 波动率指数 短期上升",
-        "chain": "政治不确定性升高，避险资金流向黄金和日元，但影响有限因非政策直接冲击",
-        "watch": "民调变化及法律诉讼进展"
+        "what": "特朗普因选举欺诈指控被挑战，怒退采访",
+        "assets": "📉 美元 承压 | 📈 政治不确定性资产 利好",
+        "chain": "政治动荡削弱投资者信心（风险溢价上升），美元避险属性可能短暂失效",
+        "watch": "特朗普相关法律进展及民调变化"
       }
     },
     {
@@ -79,22 +79,14 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "WWDC 2026聚焦苹果AI和软件更新",
-        "assets": "📈 苹果股价 利好预期, 📈 AI软件股 联动",
-        "chain": "新AI功能将刺激换机周期（设备更新需求），利好苹果供应链；若不及预期则回调",
-        "watch": "发布会后首日股价及分析师评级调整"
+        "what": "WWDC 2026聚焦苹果AI、Siri和iPhone软件更新",
+        "assets": "📈 苹果股价 利好 | 📈 AI软件股 利好",
+        "chain": "AI功能落地提振消费电子需求（换机周期加速），但需看市场对创新程度的预期反应",
+        "watch": "苹果发布会后股价波动及AI功能评测"
       }
     },
     {
       "rank": 7,
-      "title": "意不意外？这家公司打算用近一半IPO募资来补流、储备！",
-      "source": "市场资讯",
-      "detail": "来源：IPO日报 6 月 9 日，深圳市鸿富诚新材料股份有限公司（下称“鸿富诚”）将在创业板接受上市委面审。作为国家级专精特新重点 “小巨人”，鸿富诚主营 AI 服务器...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 8,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
@@ -102,7 +94,7 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Here are Monday's biggest analyst calls: Nvidia, Apple, Micron, SanDisk, Crocs, Cummins, Kontoor Brands & more",
       "source": "CNBC",
       "detail": "Here are the biggest calls on Wall Street on Monday.",
@@ -110,12 +102,20 @@
       "score": 29
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美股期货走势分化，芯片股试图反弹",
       "source": "环球市场播报",
       "detail": " 周一盘前，美国主要股指期货走势分化，芯片股在上周遭遇猛烈抛售后出现企稳反弹迹象，但中东紧张局势持续发酵以及本周五SpaceX史诗级IPO的临近，令市场整体情绪保持谨慎。",
       "lang": "zh",
       "score": 25
+    },
+    {
+      "rank": 10,
+      "title": "688169，腾讯系罕见出手爆买，持股市值逾2亿元！",
+      "source": "",
+      "detail": "知名小米生态链扫地机器人上市公司石头科技（688169）被腾讯董事会主席马化腾看上了。 证券时报·e公司记者注意到，截至6月1日，深圳市世纪汇祥科技有限公司（下称“世纪汇祥...",
+      "lang": "zh",
+      "score": 24
     }
   ]
 }
