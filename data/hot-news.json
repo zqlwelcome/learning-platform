@@ -1,100 +1,108 @@
 {
-  "updateTime": "2026-06-08 21:00",
+  "updateTime": "2026-06-08 21:06",
   "news": [
     {
       "rank": 1,
+      "title": "华尔街面临“三重威胁”：伊战风险、AI估值泡沫与美联储加息预期",
+      "source": "环球市场播报",
+      "detail": " 投资者正艰难应对一个日益复杂的市场环境。地缘政治冲突、科技股估值泡沫以及对美联储政策走向的担忧共同构成了一组“三重威胁”，导致全球股市在6月伊始便遭遇剧烈波动。",
+      "lang": "zh",
+      "score": 51,
+      "insight": {
+        "what": "华尔街面临地缘、估值和加息三重风险",
+        "assets": "📉 美股大盘 承压；📉 风险资产（如股票） 受压",
+        "chain": "避险情绪升温，资金从股市流向国债和黄金（避险资产），波动率（VIX恐慌指数）上升",
+        "watch": "美联储利率决议及中东局势升级信号"
+      }
+    },
+    {
+      "rank": 2,
       "title": "美股半导体及人工智能板块盘前反弹 科技股暴跌引发市场关注",
       "source": "环球市场播报",
       "detail": " 纽约股市周一盘前交易中，半导体及人工智能（AI）基础设施类股票迎来集体反弹，多只核心标的显著回升，正逐步收复上周五因地缘政治引发的巨大跌幅。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股半导体及AI板块盘前反弹，科技股暴跌后回暖",
-        "assets": "📈 美股半导体 利好，📈 美股AI板块 利好",
-        "chain": "科技股反弹可能带动纳指期货（纳斯达克指数期货）走高，触发空头回补（做空者买入平仓）。",
-        "watch": "关注Nvidia财报后股价能否站稳20日均线（20天移动平均价）"
+        "what": "美股半导体和AI板块盘前反弹",
+        "assets": "📈 美股半导体（如英伟达） 利好；📈 AI科技股 短期反弹",
+        "chain": "超跌后空头回补（之前做空的平仓），但若反弹无力可能触发新一轮抛售（sell-off）",
+        "watch": "英伟达股价能否站稳关键支撑位"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "投资者严阵以待：AI巨头IPO与通胀数据即将引爆市场波动",
+      "source": "环球市场播报",
+      "detail": " 随着SpaceX、Anthropic和OpenAI三大AI巨头相继启动上市进程，叠加美国5月CPI数据即将于本周公布，全球投资者正为一场前所未有的市场波动做准备。",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "市场聚焦AI巨头IPO和通胀数据",
+        "assets": "📈 美股成长股（如科技股） 波动加剧；📉 债券 承压",
+        "chain": "通胀数据若超预期，会强化加息预期（借钱成本上升），打压高估值AI股；IPO抽血流动性",
+        "watch": "CPI（消费者物价指数）数据及IPO定价情况"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX即将创下历史最大IPO，估值将达1.77万亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX正在筹备一场史无前例的首次公开募股。根据其向美国证券交易委员会提交的最新招股文件，该公司计划于6月12日在纳斯达克挂牌上市，股票代码SPCX...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX将创历史最大IPO，估值1.77万亿美元",
-        "assets": "📈 SpaceX股权 利好，📈 太空概念股 利好",
-        "chain": "巨量IPO可能分流资金，挤压其他成长股估值（股价相对盈利倍数），但提振风险偏好（投资者愿意冒险）。",
-        "watch": "关注IPO定价及超额认购倍数（认购金额比发行额）"
+        "what": "SpaceX估值1.77万亿美元创历史最大IPO",
+        "assets": "📈 美股航天及太空概念股 利好；📈 一级市场（未上市股权） 活跃",
+        "chain": "高估值IPO吸引资金从二级市场（已上市股票）流出，同时提升对太空经济板块的投机情绪",
+        "watch": "SpaceX IPO认购倍数及首日涨幅"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "Stocks making the biggest moves premarket: Nvidia, Marvell, Flex and more",
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves in early trading.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "盘前异动：Nvidia、Marvell、Flex等科技股领涨",
-        "assets": "📈 美股半导体 利好，📈 美股数据中心 利好",
-        "chain": "龙头股上行强化AI主题，资金可能从防御板块（如公用事业）轮动至科技成长股。",
-        "watch": "关注Nvidia盘前成交量是否高于30日均量（30天平均成交量）"
+        "what": "英伟达、Marvell等科技股盘前异动",
+        "assets": "📈 美股半导体（英伟达、Marvell） 波动；📉 其他科技股 跟风",
+        "chain": "个股异动常由期权到期或财报预期驱动，可能引发板块轮动（资金从大盘股转向小盘）",
+        "watch": "盘前成交量及期权未平仓合约变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质疑愤然离开采访，DOJ基金受牵连",
-        "assets": "📉 美元 承压，📉 政治风险资产 承压",
-        "chain": "政治不确定性上升，可能削弱市场对特朗普政策（如减税）的预期，避险情绪推升黄金。",
-        "watch": "关注美元指数是否跌破100关口"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Citi hikes S&P 500 target to 8,100 because of AI-driven earnings strength",
-      "source": "CNBC",
-      "detail": "The bank says a banner first quarter earnings season portends well for the rest of the year, and will push the broad index higher.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "花旗因AI驱动盈利上调标普500目标至8100点",
-        "assets": "📈 美股大盘 利好，📈 美股科技股 利好",
-        "chain": "目标上调强化多头信心，可能引发机构加仓（增加持仓），但需警惕预期过高后的回调（价格下跌）。",
-        "watch": "关注标普500指数能否突破前高阻力位"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "国际航空运输协会：燃油成本暴涨千亿美元，今年全球航司利润或将腰斩",
-      "source": "环球市场播报",
-      "detail": "核心要点国际航空运输协会（IATA）预测，2026 年全球航空公司利润将缩水一半。航煤油价飙升，全行业燃油总支出将额外增加 1000 亿美元。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "国际航协：燃油成本暴涨千亿美元，全球航司利润或腰斩",
-        "assets": "📉 全球航空股 利空，📈 原油 利好",
-        "chain": "航司成本压力上升，可能转嫁票价（消费者承担），但需求弹性（价格变化对需求影响）或导致利润进一步萎缩。",
-        "watch": "关注布伦特原油价格是否持续高于85美元"
+        "what": "特朗普因选举欺诈质疑中断采访",
+        "assets": "📉 美元 承压；📈 政治不确定性资产（如避险黄金） 利好",
+        "chain": "政治风波增加市场不确定性，避险资金流入黄金和国债，风险偏好下降",
+        "watch": "特朗普相关法律进展及民调变化"
       }
     },
     {
       "rank": 7,
-      "title": "视频|亿利洁能财务造假被重罚，保荐机构华林证券屡被监管处罚",
-      "source": "市场资讯",
-      "detail": "详细信息请关注后续报道。",
+      "title": "Citi hikes S&P 500 target to 8,100 because of AI-driven earnings strength",
+      "source": "CNBC",
+      "detail": "The bank says a banner first quarter earnings season portends well for the rest of the year, and will push the broad index higher.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
+      "title": "国际航空运输协会：燃油成本暴涨千亿美元，今年全球航司利润或将腰斩",
+      "source": "环球市场播报",
+      "detail": "核心要点国际航空运输协会（IATA）预测，2026 年全球航空公司利润将缩水一半。航煤油价飙升，全行业燃油总支出将额外增加 1000 亿美元。",
       "lang": "zh",
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
@@ -102,20 +110,12 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Here are Monday's biggest analyst calls: Nvidia, Apple, Micron, SanDisk, Crocs, Cummins, Kontoor Brands & more",
       "source": "CNBC",
       "detail": "Here are the biggest calls on Wall Street on Monday.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "Stock futures gain as chip stocks rebound from rout, Iran halts Israel attacks: Live updates",
-      "source": "CNBC",
-      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
-      "lang": "en",
-      "score": 27
     }
   ]
 }
