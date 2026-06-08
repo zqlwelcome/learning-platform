@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 01:36",
+  "updateTime": "2026-06-09 01:41",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 35,
       "insight": {
         "what": "私募科技交易额暴跌70%，估值谨慎",
-        "assets": "📉 科技初创公司 承压，📉 私募股权基金 利空",
-        "chain": "一级市场融资难，传导至二级科技股IPO（首次公开募股）估值压缩，风险偏好下降",
-        "watch": "科技公司估值调整幅度及IPO撤回率"
+        "assets": "📉 科技初创公司 承压；📉 风险投资（风险资本投资） 利空",
+        "chain": "估值下调将传导至IPO（首次公开募股）市场，降低退出回报，打压二级市场科技股情绪",
+        "watch": "科技公司一级市场融资估值变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "交易员警告SpaceX IPO风险",
-        "assets": "📉 SpaceX相关概念股 利空，📈 避险资产（如美债）利好",
-        "chain": "IPO炒作退潮，反映市场对高增长科技股溢价（估值过高）的担忧，可能拖累太空板块",
-        "watch": "SpaceX上市时间表及估值区间"
+        "what": "交易员警告SpaceX IPO需谨慎",
+        "assets": "📉 SpaceX相关概念股 利空；📉 太空科技板块 承压",
+        "chain": "散户追高情绪可能被压制，影响其他高增长未上市科技公司估值预期",
+        "watch": "SpaceX上市后首日波动率"
       }
     },
     {
@@ -37,28 +37,42 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Stellantis证券欺诈集体诉讼申请截止",
-        "assets": "📉 Stellantis股票 承压，📉 汽车板块 负面情绪",
-        "chain": "诉讼可能引发投资者对车企财报透明度的质疑，增加做空（押注下跌）力量",
-        "watch": "诉讼结果及Stellantis财报修正"
+        "what": "Stellantis证券欺诈集体诉讼截止6月8日",
+        "assets": "📉 Stellantis股票 承压；📉 汽车板块 情绪利空",
+        "chain": "诉讼可能暴露财务问题，引发做空（押注股价下跌）压力，拖累同行车企估值",
+        "watch": "Stellantis股价及成交量变化"
       }
     },
     {
       "rank": 4,
+      "title": "WWDC 2026: Siri AI revealed, Apple search updates, Liquid Glass changes",
+      "source": "CNBC",
+      "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "WWDC2026发布Siri AI和搜索更新",
+        "assets": "📈 苹果股票 利好；📈 AI软件板块 利好",
+        "chain": "AI功能升级可能提振换机周期（用户更新设备），利好苹果供应链（代工厂等）",
+        "watch": "苹果发布会后首日股价反应"
+      }
+    },
+    {
+      "rank": 5,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国支撑油价低于100美元但难持续",
-        "assets": "📈 原油 短期利好，📉 新兴市场能源股 中期承压",
-        "chain": "中国需求缓冲OPEC+（石油输出国组织及其盟友）减产影响，但若中国复苏不及预期，油价将破位下跌",
-        "watch": "中国PMI（采购经理人指数）及原油库存数据"
+        "what": "中国助力油价低于100美元，但难持续",
+        "assets": "📉 原油 承压；📈 能源进口国 利好",
+        "chain": "短期压制通胀预期，利好债券（避险资产），但若中国需求转弱，油价反弹将拖累新兴市场",
+        "watch": "中国PMI（采购经理人指数）数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "摩根士丹利：美元涨势能否持续取决于美联储利率路径",
       "source": "环球市场播报",
       "detail": "摩根士丹利策略师David Adams、Andrew Watrous和Molly Nickolin等人在周一报告中写道，美股表现优于全球其他地区股票支持美元走强的观点，但若要涨势持续...",
@@ -66,30 +80,16 @@
       "score": 28,
       "insight": {
         "what": "美元涨势取决于美联储利率路径",
-        "assets": "📈 美元指数 中性偏强，📉 新兴市场货币 承压",
-        "chain": "若美联储维持高利率（借钱成本高），美元走强将压制大宗商品（如黄金）和风险资产",
-        "watch": "美联储点阵图（利率预测）及CPI（消费者物价指数）数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Stocks gain as chipmakers rebound from rout, Iran halts Israel attacks: Live updates",
-      "source": "CNBC",
-      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "芯片股反弹，伊朗暂停攻击以色列",
-        "assets": "📈 美股半导体 利好，📈 全球股市 风险偏好回升",
-        "chain": "地缘风险缓和（避险情绪降温），资金回流科技股，但需警惕中东局势反复",
-        "watch": "伊朗-以色列停火进展及芯片库存数据"
+        "assets": "📈 美元 中性偏强；📉 新兴市场货币 承压",
+        "chain": "若美联储维持高利率（借贷成本高），美元走强将压制商品（以美元计价）和非美资产",
+        "watch": "美联储点阵图（利率预测）及CPI（通胀数据）"
       }
     },
     {
       "rank": 7,
-      "title": "Oil prices ease after Iran says military operations against Israel are over",
+      "title": "Stocks gain as chipmakers rebound from rout, Iran halts Israel attacks: Live updates",
       "source": "CNBC",
-      "detail": "Oil rises on Monday amid heightened tensions in the Middle East, raising concerns that the conflict may drag on.",
+      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
       "score": 27
     },
@@ -111,9 +111,9 @@
     },
     {
       "rank": 10,
-      "title": "WWDC 2026: Apple Intelligence path forward, Liquid Glass changes",
+      "title": "Stocks making the biggest moves midday: Cerebras, Marvell, Intel, Corning & more",
       "source": "CNBC",
-      "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
+      "detail": "Here are the companies that are making headlines in midday trading.",
       "lang": "en",
       "score": 17
     }
