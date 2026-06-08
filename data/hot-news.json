@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 18:40",
+  "updateTime": "2026-06-08 18:46",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国综合指数 (KOSPI) 承压, 📉 韩元 贬值压力",
-        "chain": "外资流出→韩元贬值→进口成本上升→企业盈利受损（EPS下滑）",
-        "watch": "韩国央行外汇干预动作及外资持仓变化"
+        "assets": "📉 韩国KOSPI指数 承压；📉 韩元 贬值压力",
+        "chain": "外资流出导致韩元走弱，可能引发央行干预（外汇市场稳定措施），并拖累亚洲新兴市场情绪",
+        "watch": "韩国央行利率决议及外汇储备变动"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 45,
       "insight": {
         "what": "Anthropic与OpenAI竞相冲刺IPO",
-        "assets": "📈 AI初创公司 (如Anthropic) 估值利好, 📉 已上市科技股 竞争压力",
-        "chain": "IPO加速→流动性分流→二级市场AI股资金流出（抽血效应）",
-        "watch": "IPO定价及首日涨幅，监管对AI合规态度"
+        "assets": "📈 AI相关科技股 利好；📉 传统软件股 承压",
+        "chain": "IPO潮加剧AI赛道估值泡沫（过高定价），资金从传统科技股转投AI，同时利好一级市场（私募投资）退出",
+        "watch": "AI公司财报及IPO定价区间"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举舞弊质疑中断采访",
-        "assets": "📉 美国政治不确定性 承压, 📉 美元 短期避险波动",
-        "chain": "政治风险上升→市场避险情绪升温→国债收益率下行（价格涨）",
-        "watch": "特朗普民调变化及DOJ调查进展"
+        "what": "特朗普因选举欺诈质疑中断采访",
+        "assets": "📉 美元 承压；📈 避险资产（黄金、美债） 利好",
+        "chain": "政治不确定性上升，市场避险情绪升温（买入避险资产），可能拖累美股短期波动率（VIX恐慌指数上升）",
+        "watch": "特朗普支持率及司法部调查进展"
       }
     },
     {
@@ -51,14 +51,28 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股抛售加速，软银跌6%",
-        "assets": "📉 纳斯达克指数 承压, 📉 软银（AI概念龙头） 利空, 📉 AI相关ETF 看跌",
-        "chain": "AI估值过高→获利了结→科技板块轮动至防御股（如公用事业）",
-        "watch": "英伟达财报及AI订单数据是否低于预期"
+        "what": "科技股抛售加剧，软银跌6%",
+        "assets": "📉 全球科技股 承压；📉 软银 利空",
+        "chain": "AI泡沫担忧蔓延，杠杆基金（借钱投资的基金）被迫平仓，拖累纳斯达克及日元套利交易（借日元买美股）",
+        "watch": "科技龙头财报及美联储利率预期"
       }
     },
     {
       "rank": 5,
+      "title": "Nasdaq futures gain as chip stocks rebound from Friday's rout, Trump tries to maintain ceasefire: Live updates",
+      "source": "CNBC",
+      "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "芯片股反弹，纳指期货上涨",
+        "assets": "📈 半导体板块 利好；📈 纳斯达克100 反弹",
+        "chain": "超跌反弹（短期技术性买入）叠加特朗普停火信号，风险偏好回升，资金从防御股（公用事业）回流成长股",
+        "watch": "英伟达股价及中美关税动向"
+      }
+    },
+    {
+      "rank": 6,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
@@ -66,27 +80,21 @@
       "score": 25,
       "insight": {
         "what": "英国首相投资5.33亿美元建AI芯片",
-        "assets": "📈 英国AI芯片股 (如Graphcore) 利好, 📈 英伟达 需求支撑",
-        "chain": "主权投资→芯片国产化→英国半导体供应链重构（替代进口）",
-        "watch": "英国芯片制造产能及政府后续补贴计划"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
-      "source": "CNBC",
-      "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
-      "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "IATA预测航空公司利润减半，燃料成本增千亿",
-        "assets": "📉 航空股 (如美联航) 利空, 📈 原油期货 需求支撑",
-        "chain": "油价高企→航司成本飙升→票价上涨→消费者出行需求下降（负反馈）",
-        "watch": "布伦特原油价格及航司Q3盈利预警"
+        "assets": "📈 英国AI芯片股 利好；📈 英镑 短期支撑",
+        "chain": "主权计算（政府自建算力）刺激本土半导体需求，但财政支出增加可能推升英债收益率（借钱成本），挤压其他基建投资",
+        "watch": "英国GDP数据及AI政策细节"
       }
     },
     {
       "rank": 7,
+      "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
+      "source": "CNBC",
+      "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
+      "lang": "en",
+      "score": 25
+    },
+    {
+      "rank": 8,
       "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
       "source": "CNBC",
       "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
@@ -94,7 +102,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美股芯片股盘前集体反弹，迈威尔科技涨超6%，存储概念普涨，美光科技涨超3%",
       "source": "21世纪经济报道",
       "detail": " 6月8日美股盘前，三大股指期货涨跌不一，截至北京时间18：05，纳指期货涨0.68%，道指期货跌0.13%，标普500指数期货涨0.33%。",
@@ -102,20 +110,12 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "MHMarkets迈汇:黄金回调检验韧性",
       "source": "市场资讯",
       "detail": "6月8日，MHMarkets迈汇提到，进入初夏后黄金常会遭遇季节性清淡阶段，交易热度下降、资金分流加快，价格也更容易出现横盘或回撤。",
       "lang": "zh",
       "score": 22
-    },
-    {
-      "rank": 10,
-      "title": "国家数据局重磅发布！事关数据赋能人工智能发展",
-      "source": "市场资讯",
-      "detail": "来源：国家数据局 国家数据局关于印发《关于推进行业高质量数据集建设行动的实施方案》的通知 国数科基〔2026〕25号 各省、自治区...",
-      "lang": "zh",
-      "score": 20
     }
   ]
 }
