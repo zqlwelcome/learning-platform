@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 01:50",
+  "updateTime": "2026-06-09 01:56",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 35,
       "insight": {
         "what": "私募科技交易额暴跌70%，估值谨慎",
-        "assets": "📉 科技初创公司 利空; 📈 避险资产（如国债） 利好",
-        "chain": "一级市场（未上市公司）冷却→二级市场科技股IPO（首次公开募股）减少→流动性收紧",
-        "watch": "科技股IPO数量和估值倍数变化"
+        "assets": "📉 科技私募股权 承压",
+        "chain": "科技股IPO（新股上市）推迟，一级市场（未上市）估值回调，传导至二级市场（已上市）科技股",
+        "watch": "科技公司融资利率及IPO定价变化"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 35,
       "insight": {
         "what": "交易员警告SpaceX IPO风险",
-        "assets": "📉 SpaceX相关资产（如私人股份） 承压; 📉 太空概念股 利空",
-        "chain": "散户热炒→高估值泡沫→上市后回调风险（价格下跌）→打击市场情绪",
-        "watch": "SpaceX估值和上市时间表"
+        "assets": "📉 SpaceX估值 承压",
+        "chain": "散户追高情绪受挫，影响太空概念股及相关ETF（交易型开放式指数基金）",
+        "watch": "SpaceX公开募股定价及认购倍数"
       }
     },
     {
@@ -38,27 +38,13 @@
       "score": 33,
       "insight": {
         "what": "Stellantis面临证券欺诈集体诉讼",
-        "assets": "📉 Stellantis股票 利空; 📉 汽车板块 承压",
-        "chain": "诉讼→赔偿风险→股价下跌→投资者抛售同类股",
-        "watch": "6月8日首席原告申请截止后的进展"
+        "assets": "📉 Stellantis股价 利空",
+        "chain": "汽车板块信任度下降，可能引发其他车企诉讼风险",
+        "watch": "法院是否批准集体诉讼及和解金额"
       }
     },
     {
       "rank": 4,
-      "title": "WWDC 2026: Siri AI revealed, Apple search updates, Liquid Glass changes",
-      "source": "CNBC",
-      "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "WWDC发布Siri AI和搜索更新",
-        "assets": "📈 苹果股票 利好; 📈 AI概念股 利好",
-        "chain": "AI功能落地→提升用户粘性→服务收入增长→股价上行",
-        "watch": "苹果AI功能用户采用率和搜索市场份额"
-      }
-    },
-    {
-      "rank": 5,
       "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
       "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
@@ -66,13 +52,13 @@
       "score": 29,
       "insight": {
         "what": "中国支撑油价低于100美元，但难持续",
-        "assets": "📉 原油 承压; 📈 中国炼油股 利好",
-        "chain": "中国需求缓冲→油价短期稳定→但减产协议（OPEC+）结束或经济放缓→油价反弹",
-        "watch": "中国原油进口量和OPEC+产量决策"
+        "assets": "📈 原油 短期利好，📉 长期承压",
+        "chain": "中国需求放缓若证实，OPEC（石油输出国组织）减产压力加大，能源股波动",
+        "watch": "中国进口数据及OPEC产量决议"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "摩根士丹利：美元涨势能否持续取决于美联储利率路径",
       "source": "环球市场播报",
       "detail": "摩根士丹利策略师David Adams、Andrew Watrous和Molly Nickolin等人在周一报告中写道，美股表现优于全球其他地区股票支持美元走强的观点，但若要涨势持续...",
@@ -80,29 +66,35 @@
       "score": 28,
       "insight": {
         "what": "美元涨势取决于美联储利率路径",
-        "assets": "📈 美元 利好; 📉 新兴市场货币 承压",
-        "chain": "美联储加息（提高利率）→美元走强→新兴市场资本外流→利差交易（借低息货币买高息资产）活跃",
-        "watch": "美联储下次会议利率决议和点阵图"
+        "assets": "📈 美元 中性偏多",
+        "chain": "若美联储暂停加息（停止升息），美元走弱，利好新兴市场货币及大宗商品（原材料）",
+        "watch": "美联储6月利率决议及点阵图（利率预测）"
       }
     },
     {
-      "rank": 7,
-      "title": "泰瑞达与东京电子联合推出面向AI芯片的集成测试解决方案",
-      "source": "环球市场播报",
-      "detail": " 自动化测试设备提供商泰瑞达公司（Teradyne）与日本半导体设备巨头东京电子周一联合发布了一款集成测试单元解决方案，专为AI及数据中心应用中的芯片良率筛选而设计。",
-      "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 8,
+      "rank": 6,
       "title": "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
       "source": "CNBC",
       "detail": "While the central bank's monthly survey showed the inflation outlook mostly unchanged, the general perception of conditions deteriorated.",
       "lang": "en",
-      "score": 23
+      "score": 23,
+      "insight": {
+        "what": "美国家庭财务担忧达2022年7月来最高",
+        "assets": "📉 美国消费股 利空",
+        "chain": "消费支出放缓，企业盈利预期下调，避险情绪推升国债（政府债券）",
+        "watch": "零售销售数据及消费者信心指数"
+      }
     },
     {
-      "rank": 9,
+      "rank": 7,
+      "title": "WWDC 2026: Siri AI revealed, child safety updates, Liquid Glass changes",
+      "source": "CNBC",
+      "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 8,
       "title": "Stocks making the biggest moves midday: Cerebras, Marvell, Intel, Corning & more",
       "source": "CNBC",
       "detail": "Here are the companies that are making headlines in midday trading.",
@@ -110,12 +102,20 @@
       "score": 17
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
       "source": "CNBC",
       "detail": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
       "lang": "en",
       "score": 17
+    },
+    {
+      "rank": 10,
+      "title": "SpaceX首次公开募股据悉获得大幅超额认购",
+      "source": "环球市场播报",
+      "detail": "根据知情人士透露，SpaceX的首次公开募股获得大幅超额认购，市场对这场有望创下纪录的发行需求强劲。 部分知情人士透露，主导此次发行的银行预计将于纽约时间周三下午4点美...",
+      "lang": "zh",
+      "score": 15
     }
   ]
 }
