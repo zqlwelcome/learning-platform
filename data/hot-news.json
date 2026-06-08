@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 14:06",
+  "updateTime": "2026-06-08 14:11",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI 承压; 📈 美元/韩元 利好",
-        "chain": "外资流出推高韩元贬值预期（汇率走弱），加剧新兴市场资金外逃（资本外流）。",
-        "watch": "韩国央行是否干预汇市（卖出美元买入韩元）"
+        "assets": "📉 韩国综合指数 承压，📈 韩元 贬值压力",
+        "chain": "外资流出可能触发韩股回调（高位获利了结），韩元走弱（汇率贬值）推高进口成本",
+        "watch": "韩国央行外汇干预动向及外资持仓变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "停火协议失效，金价跌破4300，聚焦美国CPI",
-        "assets": "📈 黄金 承压; 📉 避险资产 短期承压",
-        "chain": "风险情绪恶化（恐慌指数VIX上升）推高美元，压制大宗商品（以美元计价资产）。",
-        "watch": "美国CPI数据（通胀指标）是否超预期"
+        "what": "停火协议失效，黄金跌破4300，等待美国CPI",
+        "assets": "📈 黄金 避险支撑（若CPI超预期），📉 美元指数 承压（若CPI低于预期）",
+        "chain": "停火破裂推升地缘溢价（战争风险），但CPI数据决定美联储路径（加息或降息），影响实际利率（名义利率减通胀）",
+        "watch": "本周美国CPI数据（预期3.4%同比）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股恒指跌1.18%，科指跌2.4%，科技股黄金股普跌",
-        "assets": "📉 恒生科技股 承压; 📉 港股黄金股 承压",
-        "chain": "科网股杀估值（市盈率压缩）拖累恒指，半导体调整反映全球芯片需求疲软（景气下行）。",
-        "watch": "南向资金（内地流入港股资金）是否持续流出"
+        "what": "港股午盘下跌，科网、黄金股普跌，百度跌超7%",
+        "assets": "📉 恒生科技指数 利空，📉 百度 利空，📉 黄金股 承压",
+        "chain": "科技股受美联储加息预期压制（估值折现率提高），百度受财报或监管担忧拖累，黄金股跟随金价回调",
+        "watch": "恒指20000点支撑位及百度财报后走势"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息担忧打压亚洲科技股",
-        "assets": "📉 亚洲科技股 承压; 📈 美元 利好",
-        "chain": "加息预期（借钱成本上升）抬高无风险利率（美债收益率），科技股高估值承压（折现率提高）。",
-        "watch": "美联储官员讲话（鹰派或鸽派信号）"
+        "what": "美联储加息担忧拖累亚洲科技股下跌",
+        "assets": "📉 亚洲科技股（台积电、三星） 利空，📈 美元/亚洲货币 走强",
+        "chain": "加息预期推高美债收益率（无风险利率），科技股高估值承压（未来现金流折现价值下降），资金回流美元资产",
+        "watch": "美联储官员讲话及美债收益率曲线（2年vs10年）"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本10年期国债收益率升至2.715%",
-        "assets": "📈 日元 承压; 📉 日本债券 承压",
-        "chain": "美日利差（两国国债收益率差）扩大，套利交易（借日元买美元）推高美元/日元汇率。",
-        "watch": "日本央行是否调整YCC（收益率曲线控制）政策"
+        "what": "日本10年期国债收益率升至2.715%，受美联储加息预期影响",
+        "assets": "📈 日债收益率 上行，📉 日本股市 承压，📈 日元 贬值",
+        "chain": "美日利差扩大（美国利率更高）推高日债收益率，日元套利交易（借日元买高息资产）活跃，日股资金外流",
+        "watch": "日本央行是否调整YCC（收益率曲线控制）上限"
       }
     },
     {
@@ -79,22 +79,14 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美国劳动力强劲，高盛取消美联储降息预期",
-        "assets": "📈 美元 利好; 📉 美股 承压; 📉 新兴市场 承压",
-        "chain": "就业强韧（劳动力市场过热）推迟降息（借钱成本降低），美元走强压制新兴市场资产（资金回流美国）。",
-        "watch": "下周非农就业数据（劳动力市场关键指标）"
+        "what": "美国劳动力强劲，高盛不再预期美联储今年降息",
+        "assets": "📈 美元指数 利好，📉 美债 承压，📉 美股成长股 利空",
+        "chain": "强劲就业支撑高利率（经济过热），降息预期破灭（借钱成本难降），成长股估值受压制（高折现率），债券价格下跌（收益率上升）",
+        "watch": "下周非农就业数据及美联储点阵图（利率预测）"
       }
     },
     {
       "rank": 7,
-      "title": "通胀压力回升 欧洲央行或本周加息",
-      "source": "中国新闻网",
-      "detail": "中新网6月8日电 据法新社报道，随着美伊以战争引发的能源冲击推高通胀，欧洲央行或将在本周加息。 报道称，中东战争引发的能源冲击大幅推高全球能源成本...",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 8,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
@@ -102,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
@@ -110,10 +102,18 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 7%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Asia tech stocks extend sell-off with SoftBank down over 7% as investors sour on AI-linked names",
+      "source": "CNBC",
+      "detail": "Asian tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
       "score": 32
     }
