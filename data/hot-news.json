@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 20:35",
+  "updateTime": "2026-06-08 20:41",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股半导体及AI板块盘前反弹，科技股暴跌后反弹",
-        "assets": "📈 美股半导体 利好\n📈 AI概念股 利好",
-        "chain": "短期空头回补（空头平仓买入）推高价格，但趋势反转需看基本面（公司盈利）",
-        "watch": "今晚纳指（科技股指数）收盘能否站稳"
+        "what": "美股半导体及AI板块盘前反弹，科技股暴跌后修复",
+        "assets": "📈 美股科技股 利好",
+        "chain": "风险偏好（市场情绪）回暖，资金可能从避险资产回流成长股",
+        "watch": "今晚开盘后科技股成交量及波动率（VIX恐慌指数）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic和OpenAI竞相冲刺IPO，抢先上市未必更优",
-        "assets": "📈 AI初创公司 中性\n📉 其他未上市AI公司 承压",
-        "chain": "IPO（首次公开募股）加速可能引发估值泡沫（价格虚高），资金分流（从其他资产抽走流动性）",
-        "watch": "IPO定价及首日表现"
+        "what": "Anthropic与OpenAI冲刺IPO，竞争加剧",
+        "assets": "📈 AI初创公司 利好",
+        "chain": "IPO热潮可能分流资金，但龙头股溢价（估值更高）或受挤压",
+        "watch": "IPO定价及首日表现，监管对AI行业态度"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "盘前异动股：英伟达、Marvell、Flex等波动剧烈",
-        "assets": "📈 英伟达 利好\n📈 Marvell 利好\n📈 Flex 利好",
-        "chain": "龙头股反弹带动半导体ETF（交易型开放式指数基金）上涨，形成板块轮动（资金从防御股流向科技股）",
-        "watch": "英伟达成交量是否放大"
+        "what": "Nvidia、Marvell等个股盘前异动，受财报或事件驱动",
+        "assets": "📈 半导体个股 利好",
+        "chain": "个股波动带动板块，资金轮动（从防御股转向科技成长股）",
+        "watch": "这些个股盘后成交量及期权隐含波动率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举舞弊质疑被挑战，愤然离场采访",
-        "assets": "📉 美国政治不确定性 承压\n📈 避险资产 利好",
-        "chain": "政治动荡降低风险偏好（投资意愿），资金可能流入黄金和美债（避险资产）",
-        "watch": "民调变化及政策出台节奏"
+        "what": "特朗普因被质疑选举欺诈指控及DOJ资金问题中断采访",
+        "assets": "📉 美元 承压",
+        "chain": "政治不确定性加剧避险情绪，美债收益率（长期国债回报率）可能下行",
+        "watch": "民调变化及特朗普相关法律进展"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "花旗因AI盈利强劲上调标普500目标至8100",
-        "assets": "📈 标普500 利好\n📈 AI相关科技股 利好",
-        "chain": "投行看多提振情绪（市场信心），但需警惕盈利预期已过度定价（股价已反映利好）",
-        "watch": "标普500实际财报数据"
+        "what": "花旗因AI盈利强劲将标普500目标上调至8,100",
+        "assets": "📈 美股大盘 利好",
+        "chain": "投行看多信号强化市场信心，资金可能加速流入AI相关ETF（交易所交易基金）",
+        "watch": "标普500实际盈利增速是否匹配预期"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "国际航协：燃油成本暴涨千亿美元，今年全球航司利润或腰斩",
-        "assets": "📉 全球航空股 承压\n📈 原油 利好",
-        "chain": "燃油成本上升压缩利润（净收益减少），航司可能提价转嫁成本，但需求弹性（涨价后乘客减少）会拖累营收",
-        "watch": "原油期货（未来价格）走势"
+        "what": "燃油成本暴涨千亿美元，全球航司利润或腰斩",
+        "assets": "📉 航空股 承压",
+        "chain": "成本传导至票价，消费者支出（个人消费）或受抑制，油价（原油期货）关联度高",
+        "watch": "WTI原油（美国西德克萨斯中质原油）价格走势及航司财报指引"
       }
     },
     {
@@ -95,17 +95,17 @@
     },
     {
       "rank": 8,
-      "title": "Here are Monday's biggest analyst calls: Nvidia, Apple, Micron, SanDisk, Crocs, Cummins, Kontoor Brands & more",
+      "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
       "source": "CNBC",
-      "detail": "Here are the biggest calls on Wall Street on Monday.",
+      "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
       "lang": "en",
       "score": 29
     },
     {
       "rank": 9,
-      "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
+      "title": "Here are Monday's biggest analyst calls: Nvidia, Apple, Micron, SanDisk, Crocs, Cummins, Kontoor Brands & more",
       "source": "CNBC",
-      "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
+      "detail": "Here are the biggest calls on Wall Street on Monday.",
       "lang": "en",
       "score": 29
     },
