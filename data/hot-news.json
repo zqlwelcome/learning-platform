@@ -1,32 +1,32 @@
 {
-  "updateTime": "2026-06-09 02:35",
+  "updateTime": "2026-06-09 02:40",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX top? Major IPOs don't typically flag a bull market peak, history shows",
+      "source": "CNBC",
+      "detail": "Historical data suggest that major IPOs don't usually flag a bull market peak in the year that follows. ",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "历史数据显示IPO潮并非牛市见顶信号",
+        "assets": "📈 美股大盘 中性偏多",
+        "chain": "SpaceX上市预期或提振科技股风险偏好（风险偏好：投资者愿意承担风险的意愿），但需警惕流动性分流（资金从其他股票流向新股）",
+        "watch": "SpaceX IPO定价及首日涨幅"
+      }
+    },
+    {
+      "rank": 2,
       "title": "私募股权科技交易额暴跌70% AI担忧令投资者对估值越发谨慎",
       "source": "环球市场播报",
       "detail": " 贝恩公司报告显示，私募股权科技交易额自去年底以来大幅下滑，原因是投资者在人工智能（AI）时代对企业估值变得越发谨慎。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "私募科技交易额暴跌70%，AI估值担忧加剧",
-        "assets": "📉 科技初创公司 估值承压; 📉 风险投资（VC）退出 利空",
-        "chain": "LP（有限合伙人）赎回压力→GP（基金管理人）被迫减仓→拖累二级市场科技股",
-        "watch": "AI初创公司新一轮融资估值变化"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "Veteran trader Jay Woods has a warning for investors looking to play the SpaceX IPO",
-      "source": "CNBC",
-      "detail": "The chief market strategist at Freedom Capital Markets is looking at the rocket company's debut with caution.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "资深交易员警告投资者谨慎参与SpaceX IPO",
-        "assets": "📉 SpaceX 估值 承压; 📈 太空概念股 波动",
-        "chain": "IPO（首次公开募股）定价过高→散户接盘风险→压制同类未上市科技公司估值",
-        "watch": "SpaceX IPO定价及首日表现"
+        "what": "私募股权科技交易额同比暴跌70%，AI估值泡沫担忧加剧",
+        "assets": "📉 科技初创公司 利空；📉 风投基金 承压",
+        "chain": "一级市场（未上市公司融资）降温将传导至二级市场科技股估值压缩（估值倍数下调），尤其高PE（市盈率）AI标的",
+        "watch": "一级市场融资轮估值变化及AI公司财报"
       }
     },
     {
@@ -37,24 +37,24 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Stellantis证券欺诈集体诉讼首席原告截止日临近",
-        "assets": "📉 Stellantis 股价 承压; 📉 汽车板块 情绪利空",
-        "chain": "诉讼风险→赔偿预期→拖累车企盈利预期→影响供应链",
-        "watch": "法院是否驳回动议及后续和解金额"
+        "what": "Stellantis证券欺诈集体诉讼首席原告申请截止日为6月8日",
+        "assets": "📉 Stellantis股票 利空；📉 汽车板块 情绪压制",
+        "chain": "法律风险暴露可能触发做空（押注股价下跌）机构加仓，并引发投资者对车企财报真实性质疑",
+        "watch": "诉讼进展及Stellantis股价是否跌破关键支撑位"
       }
     },
     {
       "rank": 4,
-      "title": "WWDC 2026: Apple makes its big Siri AI reveal, makes changes to Liquid Glass",
+      "title": "WWDC 2026: Apple makes its big Siri AI reveal, changes Liquid Glass and more",
       "source": "CNBC",
       "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "WWDC 2026苹果发布Siri AI及Liquid Glass更新",
-        "assets": "📈 苹果 股价 利好; 📈 AI软件服务 利好",
-        "chain": "Siri升级→AI应用加速→利好苹果服务收入→挤压安卓竞争对手",
-        "watch": "开发者反馈及AI功能实际使用率"
+        "what": "苹果WWDC 2026发布Siri AI重大更新及Liquid Glass设计",
+        "assets": "📈 苹果股票 利好；📈 AI概念股 联动",
+        "chain": "苹果AI落地将加速端侧AI（设备本地运行AI）产业链，利好芯片和边缘计算（靠近用户端的数据处理），但需防预期兑现后获利了结（卖出获利）",
+        "watch": "WWDC后苹果股价走势及开发者反馈"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国支撑油价低于100美元，但分析师警告不可持续",
-        "assets": "📉 原油 短期承压; 📈 中国炼油厂 利好",
-        "chain": "中国战略储备放缓→全球供需再平衡→OPEC+（产油国联盟）减产压力增大",
-        "watch": "中国原油进口量及美国库存数据"
+        "what": "中国需求暂缓油价低于100美元，但分析师警告不可持续",
+        "assets": "📈 原油 短期支撑；📉 能源股 中期承压",
+        "chain": "中国进口放缓反映经济疲软，若需求回落将压低油价，同时OPEC+（石油输出国组织及盟友）减产预期可能被弱化",
+        "watch": "中国原油进口数据及OPEC+下次产量会议"
       }
     },
     {
@@ -79,22 +79,14 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "摩根士丹利：美元走势取决于美联储利率路径",
-        "assets": "📈 美元指数 短期看涨; 📉 新兴市场货币 承压",
-        "chain": "美联储加息预期→美元走强→新兴市场资本外流→大宗商品价格下跌",
-        "watch": "美联储点阵图及CPI（消费者物价指数）数据"
+        "what": "摩根士丹利：美元涨势延续性取决于美联储利率路径",
+        "assets": "📈 美元 中性偏强；📉 新兴市场货币 承压",
+        "chain": "若美联储维持高利率（借钱成本高），美元走强将压制大宗商品（以美元计价）和非美资产，加剧新兴市场资本外流（资金撤出）",
+        "watch": "美联储点阵图（利率预测图表）及非农就业数据"
       }
     },
     {
       "rank": 7,
-      "title": "Pharma stocks are showing strength. Charts predict this name could break out next",
-      "source": "CNBC",
-      "detail": "Pharmaceutical stocks have recently separated themselves from the broader market, and the group has become a source of leadership within healthcare.",
-      "lang": "en",
-      "score": 17
-    },
-    {
-      "rank": 8,
       "title": "Silicon Valley’s new buyout playbook is hitting Wall Street",
       "source": "CNBC",
       "detail": "Instead of selling AI tools to companies, venture firms are buying legacy companies outright and rebuilding them around AI from the inside.",
@@ -102,7 +94,7 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Stocks making the biggest moves midday: Cerebras, Marvell, Intel, Corning & more",
       "source": "CNBC",
       "detail": "Here are the companies that are making headlines in midday trading.",
@@ -110,10 +102,18 @@
       "score": 17
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
       "source": "CNBC",
       "detail": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
+      "lang": "en",
+      "score": 17
+    },
+    {
+      "rank": 10,
+      "title": "Pharma stocks are showing strength. Charts predict this name could break out next",
+      "source": "CNBC",
+      "detail": "Pharmaceutical stocks have recently separated themselves from the broader market, and the group has become a source of leadership within healthcare.",
       "lang": "en",
       "score": 17
     }
