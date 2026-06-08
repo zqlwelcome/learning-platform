@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 01:06",
+  "updateTime": "2026-06-09 01:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "私募科技交易额暴跌70%，AI估值谨慎",
-        "assets": "📉 私募科技股权 承压；📉 AI初创公司 利空",
-        "chain": "一级市场流动性枯竭→传导至二级市场科技股IPO（首次公开募股）估值回调",
-        "watch": "AI初创公司后续融资估值变化"
+        "what": "私募科技交易额暴跌70%，估值谨慎",
+        "assets": "📉 科技初创公司 承压",
+        "chain": "一级市场（未上市企业）融资难，可能拖累二级科技股IPO（首次公开募股）节奏",
+        "watch": "科技股估值倍数（如P/E）变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "交易员警告炒作SpaceX IPO风险",
-        "assets": "📉 SpaceX相关概念股 利空；📈 太空ETF 波动",
-        "chain": "散户情绪过热→可能推高IPO定价→上市后套利空间收窄（价差缩小）",
-        "watch": "SpaceX IPO定价及首日涨幅"
+        "what": "交易员警告SpaceX IPO风险",
+        "assets": "📉 SpaceX相关概念股 承压",
+        "chain": "高风险IPO（首次公开募股）可能引发投机情绪回落，影响其他未上市科技公司估值",
+        "watch": "SpaceX估值及二级市场交易价格"
       }
     },
     {
@@ -37,24 +37,24 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Stellantis证券欺诈集体诉讼首席原告申请截止",
-        "assets": "📈 Stellantis（汽车制造商） 利空；📉 汽车板块 波动",
-        "chain": "法律风险暴露→可能拖累股价→影响投资者对传统车企信心",
-        "watch": "诉讼进展及和解金额"
+        "what": "Stellantis证券欺诈集体诉讼截止日临近",
+        "assets": "📉 Stellantis股价 承压",
+        "chain": "诉讼可能引发汽车板块信任危机，增加监管（证券法规）审查风险",
+        "watch": "法院是否受理及赔偿金额"
       }
     },
     {
       "rank": 4,
-      "title": "Apollo首席经济学家：AI收益仍集中于“美股七巨头”",
-      "source": "环球市场播报",
-      "detail": "阿波罗全球管理公司首席经济学家托尔斯滕·斯洛克警告称，人工智能带来的经济收益至今仍高度集中于少数几家大型科技公司，美国经济中更广泛的企业群体尚未享受到AI技术的红...",
-      "lang": "zh",
-      "score": 30,
+      "title": "WWDC 2026: Apple's next MacOS is named 'Golden Gate'",
+      "source": "CNBC",
+      "detail": "Follow Apple WWDC 2026 live updates as the keynote spotlights AI, software, Siri and developer tools and likely CEO John Ternus's first major appearance.",
+      "lang": "en",
+      "score": 29,
       "insight": {
-        "what": "AI收益仍集中于美股七巨头",
-        "assets": "📈 美股七巨头（苹果、微软等） 利好；📉 AI中概股 承压",
-        "chain": "资金虹吸效应（资金从其他板块流入少数股票）→加剧指数集中度风险",
-        "watch": "七巨头财报及AI业务收入占比"
+        "what": "WWDC 2026苹果新macOS命名'Golden Gate'",
+        "assets": "📈 苹果及软件服务 利好",
+        "chain": "新系统可能带动Mac换机潮（升级需求），利好苹果供应链（零部件厂商）",
+        "watch": "开发者反馈及功能亮点"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "中国支撑油价低于100美元，但难持续",
-        "assets": "📈 原油 短期利好；📉 能源股 中期承压",
-        "chain": "中国需求托底→OPEC（石油输出国组织）减产预期减弱→油价反弹空间有限",
-        "watch": "中国原油进口量及OPEC产量决议"
+        "what": "中国暂缓油价破100，但分析师警告不可持续",
+        "assets": "📉 原油价格 承压，📈 中国进口企业 利好",
+        "chain": "中国需求短期支撑油价，但若经济放缓，OPEC（石油输出国组织）可能需减产",
+        "watch": "中国PMI（采购经理人指数）及原油库存"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "芯片股反弹、伊朗停止攻击以色列，股市上涨",
-        "assets": "📈 全球半导体 利好；📈 美股大盘 短期利好",
-        "chain": "地缘风险缓和（伊朗停火）→风险偏好回升→资金回流科技板块",
-        "watch": "中东局势后续发展及芯片股财报"
+        "what": "芯片股反弹带动股市，伊朗暂停攻击以色列",
+        "assets": "📈 全球半导体 利好，📈 避险资产（黄金） 承压",
+        "chain": "地缘风险（冲突）缓解提振风险偏好（投资者愿意冒险），资金从避险转向成长股",
+        "watch": "伊朗-以色列后续谈判及芯片行业库存"
       }
     },
     {
@@ -103,19 +103,19 @@
     },
     {
       "rank": 9,
-      "title": "英伟达与SK海力士签署新一代AI存储芯片多年合作协议",
-      "source": "环球市场播报",
-      "detail": "受人工智能产业需求激增影响，全球存储芯片供应趋紧，英伟达与 SK 海力士就此达成一项多年合作协议，联合研发高端存储芯片。这份合作涵盖芯片设计与生产制造...",
-      "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 10,
       "title": "Household worries over finances hit highest level since July 2022, New York Fed survey shows",
       "source": "CNBC",
       "detail": "While the central bank's monthly survey showed the inflation outlook mostly unchanged, the general perception of conditions deteriorated.",
       "lang": "en",
       "score": 23
+    },
+    {
+      "rank": 10,
+      "title": "Food supply 'not at risk' after new Texas screwworm cases, USDA secretary says",
+      "source": "CNBC",
+      "detail": "The U.S. will lean on the same playbook it did starting in the late 1950s, part of which involves releasing sterile insects to suppress the pest's population.",
+      "lang": "en",
+      "score": 17
     }
   ]
 }
