@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 13:50",
+  "updateTime": "2026-06-08 13:56",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,110 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3945.47",
-      "change": "-2.04"
+      "value": "3942.47",
+      "change": "-2.12"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24564.290",
-      "change": "-1.59"
+      "value": "24536.860",
+      "change": "-1.70"
     }
   },
-  "etf_flows": [
-    {
-      "name": "半导体设备ETF国泰",
-      "code": "159516",
-      "price": 1.165,
-      "change": -3.32,
-      "flow": 78538688.0,
-      "flow_str": "+7853.87万",
-      "direction": "in"
-    },
-    {
-      "name": "消费电子ETF华夏",
-      "code": "159732",
-      "price": 1.497,
-      "change": -4.53,
-      "flow": 69020867.0,
-      "flow_str": "+6902.09万",
-      "direction": "in"
-    },
-    {
-      "name": "电网设备ETF华夏",
-      "code": "159326",
-      "price": 1.997,
-      "change": -2.78,
-      "flow": 32366259.0,
-      "flow_str": "+3236.63万",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备ETF易方达",
-      "code": "159558",
-      "price": 2.729,
-      "change": -3.43,
-      "flow": 24418429.0,
-      "flow_str": "+2441.84万",
-      "direction": "in"
-    },
-    {
-      "name": "钢铁ETF国泰",
-      "code": "515210",
-      "price": 1.222,
-      "change": -3.32,
-      "flow": 20015645.0,
-      "flow_str": "+2001.56万",
-      "direction": "in"
-    }
-  ],
-  "sector_flows": [
-    {
-      "name": "银行",
-      "code": "BK1283",
-      "index": 4077.68,
-      "change": 0.08,
-      "flow": 1619628544.0,
-      "flow_str": "+16.20亿",
-      "direction": "in"
-    },
-    {
-      "name": "银行Ⅱ",
-      "code": "BK0475",
-      "index": 4077.68,
-      "change": 0.08,
-      "flow": 1619628544.0,
-      "flow_str": "+16.20亿",
-      "direction": "in"
-    },
-    {
-      "name": "国有大型银行Ⅲ",
-      "code": "BK1611",
-      "index": 3077.12,
-      "change": 1.23,
-      "flow": 1340860416.0,
-      "flow_str": "+13.41亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信线缆及配套",
-      "code": "BK1592",
-      "index": 30851.3,
-      "change": -3.06,
-      "flow": 783083776.0,
-      "flow_str": "+7.83亿",
-      "direction": "in"
-    },
-    {
-      "name": "金属制品",
-      "code": "BK1396",
-      "index": 6099.29,
-      "change": -1.23,
-      "flow": 604122768.0,
-      "flow_str": "+6.04亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -127,6 +35,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "印度国有银行趁央行政策利好大举抛售国债获利套现",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
     {
       "title": "越南央行副行长：将加大定向扩张性财政政策力度确保经济可持续增长",
       "source": "环球市场播报",
