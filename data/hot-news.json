@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 12:01",
+  "updateTime": "2026-06-08 12:05",
   "news": [
     {
       "rank": 1,
@@ -9,84 +9,92 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI 承压, 📉 韩元 贬值压力",
-        "chain": "资金流出韩国，转向避险资产如美债（无风险利率上升），亚洲新兴市场资金外流加剧",
-        "watch": "韩国央行干预汇率动作、外资持仓变化"
+        "what": "外资抛售韩股，尽管股市创新高",
+        "assets": "📉 韩国KOSPI 承压",
+        "chain": "外资流出→韩元贬值→亚洲新兴市场资金外逃（资本外流）",
+        "watch": "韩国央行干预汇率动作"
       }
     },
     {
       "rank": 2,
+      "title": "港股午评：恒指跌1.18% 科指跌2.4% 科网股、黄金股普跌 半导体板块继续调整 百度跌超7%",
+      "source": "新浪港股",
+      "detail": "6月8日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.18%，报24668.39，恒生科技指数跌2.4%，国企指数跌1.01%。盘面上，科网股普跌，百度跌超7%，美团跌超4%...",
+      "lang": "zh",
+      "score": 37,
+      "insight": {
+        "what": "港股午盘恒指跌1.18%，科指跌2.4%",
+        "assets": "📉 恒生科技股 承压；📉 黄金股 承压",
+        "chain": "科技股领跌→半导体调整→市场风险偏好下降（避险情绪）",
+        "watch": "恒指能否守住20000点支撑"
+      }
+    },
+    {
+      "rank": 3,
       "title": "美国劳动力市场保持强韧 高盛不再预期美联储今年会降息",
       "source": "环球市场播报",
       "detail": "由于劳动力市场强于预期，高盛经济学家不再预期美联储今年会降息。 该行将美联储最后两次降息的预测时点从之前的2026年12月和2027年3月推后至2027年6月和12。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美国劳动力强劲，高盛取消降息预期",
-        "assets": "📈 美元 走强, 📉 美股成长股 承压, 📉 美债收益率 上行",
-        "chain": "降息延后→融资成本（借钱利息）居高不下→科技股估值（未来现金折现）受压制",
-        "watch": "周五非农数据、美联储点阵图（利率预测）"
+        "what": "美国劳动力强韧，高盛取消美联储降息预期",
+        "assets": "📈 美元 利好；📉 美债 承压",
+        "chain": "就业强→通胀难降→利率高位维持→全球资产估值压力（贴现率上升）",
+        "watch": "周五非农数据是否超预期"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Hong Kong's IPO boom is developing a performance problem",
       "source": "CNBC",
       "detail": "As Hong Kong vies with Wall Street to be the top IPO market, a growing number of pre-debut runups turn sour after their listing.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "香港IPO热潮但上市后表现不佳",
-        "assets": "📉 港股新经济股 利空, 📉 港交所 承压",
-        "chain": "IPO破发（跌破发行价）→投资者信心下降→一级市场（新股发行）融资规模收缩",
-        "watch": "后续IPO首日涨幅、恒生指数流动性"
+        "what": "香港IPO热潮面临业绩表现问题",
+        "assets": "📉 港股新股 承压",
+        "chain": "IPO破发→投资者信心弱→一级市场融资萎缩（流动性收紧）",
+        "watch": "后续新股首日涨幅中位数"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈质疑中断采访",
-        "assets": "📈 美元 避险买盘, 📉 美股政治敏感股 波动",
-        "chain": "政治不确定性上升→风险溢价（额外补偿）增加→资金流向黄金/美债等避险资产",
-        "watch": "特朗普法律案件进展、民调变化"
+        "what": "特朗普因选举欺诈问题被采访后愤怒离场",
+        "assets": "📉 特朗普媒体股（DJT）承压",
+        "chain": "政治不确定性→市场避险→波动率上升（VIX走高）",
+        "watch": "特朗普民调支持率变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "U.S. stock futures mixed as Mideast tensions rise; South Korea's Kospi plunges 7%: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "中东紧张致美股期货震荡，韩国KOSPI暴跌7%",
-        "assets": "📈 原油 上行, 📈 黄金 避险, 📉 韩国KOSPI 重挫, 📉 亚洲股市 承压",
-        "chain": "地缘风险→油价飙升→通胀预期（物价上涨）升温→全球央行紧缩预期（加息）强化",
-        "watch": "以色列-伊朗冲突升级信号、VIX恐慌指数"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Asia tech stocks extend sell-off with SoftBank down over 7% as investors sour on AI-linked names",
-      "source": "CNBC",
-      "detail": "Asian tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "亚洲科技股抛售扩大，软银跌超7%",
-        "assets": "📉 亚洲科技股 利空, 📉 日经225 承压, 📉 AI概念股 回调",
-        "chain": "AI泡沫担忧→科技股估值收缩→杠杆基金（借钱炒股）被迫平仓→连锁抛售",
-        "watch": "英伟达股价、亚洲科技ETF资金流向"
+        "what": "中东紧张局势升温，韩股暴跌7%，美股期货涨跌互现",
+        "assets": "📈 原油 利好；📈 黄金 利好；📉 韩国KOSPI 承压",
+        "chain": "地缘冲突→油价飙升→通胀预期升温→风险资产抛售（避险交易）",
+        "watch": "伊朗是否封锁霍尔木兹海峡"
       }
     },
     {
       "rank": 7,
+      "title": "Asia tech stocks extend sell-off with SoftBank down over 7% as investors sour on AI-linked names",
+      "source": "CNBC",
+      "detail": "Asian tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Why AI hyperscalers are now the epicenter of a bear case for stocks",
       "source": "CNBC",
       "detail": "In the near term, there are many mouths to feed and not enough to eat.",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美股遭遇“黑色星期五”后，韩国股市跌至熔断",
       "source": "市场资讯",
       "detail": "来源：财经杂志 韩国交易所表示，将强化全机构应急响应机制，密切跟踪全球市场动态、扩大对非法卖空活动的检查范围 文|《财经》研究员 成孟琦 编辑 | 郭楠 陆玲 6月8日...",
@@ -102,20 +110,12 @@
       "score": 27
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "印尼股市大跌 印尼盾兑美元汇率创历史新低",
       "source": "环球市场播报",
       "detail": "随着印尼股市暴跌，印尼盾兑美元跌至历史新低。 美元/印尼盾上涨0.5%，至18105。 印尼股市一度下跌4%。",
       "lang": "zh",
       "score": 22
-    },
-    {
-      "rank": 10,
-      "title": "强非农刺激年内加息预期 金价看空情绪骤升",
-      "source": "市场资讯",
-      "detail": "文章来源：新华财经 新华财经北京6月8日电 上周（6月1日至5日当周）国际金价大幅回落，因大超预期的“非农”数据公布后，市场对美联储年内加息的预期大幅升温。",
-      "lang": "zh",
-      "score": 18
     }
   ]
 }
