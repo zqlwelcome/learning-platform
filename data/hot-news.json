@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 17:40",
+  "updateTime": "2026-06-08 17:46",
   "news": [
     {
       "rank": 1,
@@ -10,83 +10,91 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI 承压",
-        "chain": "外资流出反映对韩国经济信心不足，可能传导至韩元贬值（汇率下跌）",
-        "watch": "韩国央行利率决议及外资持仓变化"
+        "assets": "📉 韩国KOSPI指数 承压, 📉 韩元 贬值",
+        "chain": "外资撤离导致韩元贬值，可能引发央行干预（抛美元买韩元），连带影响新兴市场资金流向",
+        "watch": "韩国央行外汇储备变化及外资净流出数据"
       }
     },
     {
       "rank": 2,
+      "title": "Anthropic与OpenAI冲刺 IPO：抢先上市未必代表表现更佳",
+      "source": "环球市场播报",
+      "detail": "Anthropic上周递交 IPO 申报文件，这家克劳德代码大模型研发企业，在与 OpenAI 的上市竞速中暂时领先。 投行与律师表示，企业抢在竞争对手之前登陆二级市场存在合理考量...",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "Anthropic与OpenAI竞争抢先上市",
+        "assets": "📈 AI概念股 波动, 📈 科技IPO市场 活跃",
+        "chain": "抢先上市可能压低估值，但提升市场对AI赛道关注度，推动资金涌入AI初创（高风险高回报）",
+        "watch": "两家公司IPO估值及首日表现"
+      }
+    },
+    {
+      "rank": 3,
       "title": "光大期货0608热点追踪：美联储加息预期升温 银价大幅下挫",
       "source": "市场资讯",
       "detail": "上周五美国5月非农就业数据显示，新增非农就业人口17.2万人，远超市场预期的8.5万人，4月数据上修至17.9万人，失业率维持在4.3%不变。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息预期升温导致银价大跌",
-        "assets": "📉 白银 利空",
-        "chain": "加息预期（借钱成本上升）推高美元，压制贵金属（无利息资产）需求",
-        "watch": "美联储官员讲话及6月CPI数据"
+        "what": "美联储加息预期升温，银价大跌",
+        "assets": "📉 白银 承压, 📉 贵金属板块 利空",
+        "chain": "加息（借钱成本高）降低无息资产吸引力，美元走强压制大宗商品（以美元计价），白银工业需求也受拖累",
+        "watch": "美联储6月会议纪要及点阵图（利率预测）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Trump storms out of interview after being challenged about election fraud claims, DOJ fund",
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因选举欺诈指控被质疑后离场",
-        "assets": "📉 美国政治风险 承压",
-        "chain": "政治不确定性增加，可能拖累美股波动率（VIX恐慌指数）上升",
-        "watch": "特朗普相关法律案件进展及民调变化"
+        "what": "特朗普因选举欺诈质疑中断采访",
+        "assets": "📉 特朗普媒体股 承压, 📉 政治不确定性 风险",
+        "chain": "政治风波可能加剧市场避险情绪，资金流入美元/美债（避险资产），但影响有限因事件非政策相关",
+        "watch": "民调变化及国会调查进展"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Tech stock sell-off accelerates; SoftBank drops 6% as investors sour on AI-linked names",
       "source": "CNBC",
       "detail": "Global tech stocks tracked overnight losses in U.S. tech names led by a sell-off in Broadcom.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股抛售加速，软银跌6%",
-        "assets": "📉 美股科技股 利空",
-        "chain": "AI（人工智能）概念退潮引发资金轮动，可能转向防御性板块（如公用事业）",
-        "watch": "英伟达等AI龙头财报及美联储政策信号"
+        "what": "科技股抛售加速，软银因AI股下跌6%",
+        "assets": "📉 科技股 承压, 📉 软银 利空, 📈 防御性板块 利好",
+        "chain": "AI估值泡沫担忧引发获利了结（卖出盈利资产），资金轮动至防御板块（如公用事业），软银因重仓AI受创",
+        "watch": "纳斯达克100指数及AI龙头财报"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "原油基金罕见涨停！工业软件板块逆市上扬！",
       "source": "",
       "detail": "今日，A股整体震荡调整，上证指数失守4000点，深证成指跌破15000点，科创综指也击穿2000点，创业板指险守3800点，北证50则涨逾1%收复1300点。",
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "原油基金涨停，工业软件板块逆势上涨",
-        "assets": "📈 原油基金 利好，📈 A股工业软件 利好",
-        "chain": "原油上涨反映供需偏紧，工业软件受益于国产替代（自主可控）政策",
-        "watch": "OPEC+产量决议及软件行业订单数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "港股收评：恒指跌1.22% 科指跌2.71% 科网股、黄金股低迷 百度跌超7% 山东墨龙逆势涨超25%",
-      "source": "新浪港股",
-      "detail": "6月8日消息，港股三大指数集体下跌。截至收盘，恒生指数跌1.22%，报24657.06，恒生科技指数跌2.71%，国企指数跌1.13%。盘面上，科网股普跌，百度跌超7%，快手跌超5%...",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "港股恒指跌1.22%，科指跌2.71%，百度跌超7%",
-        "assets": "📉 港股恒生指数 承压，📉 港股科技股 利空",
-        "chain": "科网股领跌拖累大盘，黄金股低迷显示避险情绪降温",
-        "watch": "中美关系及互联网平台监管政策变化"
+        "what": "原油基金罕见涨停，工业软件逆市上扬",
+        "assets": "📈 原油基金 利好, 📈 工业软件板块 利好, 📉 其他板块 分化",
+        "chain": "原油涨停或因供应中断（如OPEC减产），工业软件受国产替代（自主可控）政策驱动，资金从消费转向周期",
+        "watch": "原油库存数据及国产软件政策落地"
       }
     },
     {
       "rank": 7,
+      "title": "港股收评：恒指跌1.22% 科指跌2.71% 科网股、黄金股低迷 百度跌超7% 山东墨龙逆势涨超25%",
+      "source": "新浪港股",
+      "detail": "6月8日消息，港股三大指数集体下跌。截至收盘，恒生指数跌1.22%，报24657.06，恒生科技指数跌2.71%，国企指数跌1.13%。盘面上，科网股普跌，百度跌超7%，快手跌超5%...",
+      "lang": "zh",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
@@ -94,20 +102,12 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
       "source": "CNBC",
       "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
       "lang": "en",
       "score": 25
-    },
-    {
-      "rank": 9,
-      "title": "Amazon unveils latest warehouse robot as tech giants continue AI layoffs ",
-      "source": "CNBC",
-      "detail": "\"Our experience of robots is that it's actually driven up employment rather than the reverse,\" Amazon executive John Boumphrey told CNBC.",
-      "lang": "en",
-      "score": 20
     },
     {
       "rank": 10,
