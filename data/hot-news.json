@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 19:25",
+  "updateTime": "2026-06-08 19:31",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "外资抛售韩国股票，尽管股市创新高",
-        "assets": "📉 韩国KOSPI 承压; 📉 韩元 贬值压力",
-        "chain": "外资流出→韩元贬值→进口成本上升→拖累出口型企业（如三星）",
-        "watch": "韩国央行是否干预汇市及外资持仓变化"
+        "assets": "📉 韩国KOSPI指数 承压; 📉 韩元 贬值压力",
+        "chain": "外资流出（资本外逃）→韩元贬值（汇率走弱）→韩国央行可能加息（提高借钱成本）",
+        "watch": "韩国央行利率决议及外资持仓数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI竞相冲刺IPO，但抢先不一定赢",
-        "assets": "📈 AI概念股 利好; 📉 未盈利AI公司 估值风险",
-        "chain": "IPO竞争→市场关注度提升→资金涌入AI板块→推高同类估值（行业泡沫风险）",
-        "watch": "两家公司最新融资估值及营收数据"
+        "what": "Anthropic与OpenAI竞争IPO，抢先上市不一定更好",
+        "assets": "📈 AI概念股 分化; 📉 未盈利科技股 承压",
+        "chain": "IPO竞争（公司上市卖股票）→市场关注盈利模式→高估值AI公司面临回调风险（股价下跌）",
+        "watch": "Anthropic及OpenAI估值变化与SEC文件"
       }
     },
     {
@@ -37,64 +37,56 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因被质疑选举欺诈，愤然中断采访",
-        "assets": "📉 美国政治不确定性 利空; 📈 避险资产（黄金） 利好",
-        "chain": "政治动荡→政策预期混乱→资金流入避险资产→美元承压",
-        "watch": "特朗普支持率及2024大选相关民调"
+        "what": "特朗普因选举舞弊问题被质疑后中断采访",
+        "assets": "📈 美元 避险需求; 📉 美国政治稳定 风险",
+        "chain": "政治不确定性（政策难预测）→避险情绪（买安全资产）→美元短期走强，股市波动加大",
+        "watch": "特朗普民调数据及国会调查进展"
       }
     },
     {
       "rank": 4,
-      "title": "U.S. confirms second Texas screwworm case, Canada restricts livestock imports",
-      "source": "CNBC",
-      "detail": "New World screwworm larvae feed on the living tissue of warm-blooded animals, creating severe wounds that can be fatal if left untreated.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "美国确认第二例新世界螺旋蛆病例，加拿大限制牲畜进口",
-        "assets": "📉 美国畜牧业 承压; 📉 玉米/大豆饲料 需求减弱",
-        "chain": "病例扩散→加拿大限制进口→美国畜产品出口受阻→饲料需求下滑",
-        "watch": "美国农业部是否宣布紧急防疫措施及更多病例数"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Nasdaq futures gain 1% as chip stocks rebound from rout, Trump tries to maintain ceasefire: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳指期货涨1%，芯片股反弹，特朗普试图维持停火",
-        "assets": "📈 美股科技股 利好; 📈 费城半导体指数 反弹",
-        "chain": "芯片股反弹→市场风险偏好回升→资金从债市回流股市→美元走强",
-        "watch": "今晚美国CPI数据及芯片龙头财报指引"
+        "what": "芯片股反弹推动纳斯达克期货涨1%，特朗普维持停火",
+        "assets": "📈 纳斯达克100 利好; 📈 半导体ETF 反弹",
+        "chain": "芯片反弹（科技板块回暖）→风险偏好上升（愿意冒险）→资金从债券流出进入股市",
+        "watch": "英伟达等龙头芯片股财报及停火协议执行"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "英国首相投资5.33亿美元建设AI芯片主权计算能力",
-        "assets": "📈 英国AI芯片股 利好; 📈 英伟达/AMD 间接利好",
-        "chain": "主权计算投资→政府订单增加→提升AI芯片需求→带动相关供应链（如ARM）",
-        "watch": "英国财政预算对科技支出的后续拨款"
+        "what": "英国首相投资5.33亿美元建AI芯片主权计算",
+        "assets": "📈 英国AI基础设施 利好; 📈 芯片设备商 利好",
+        "chain": "主权计算（国家自己建算力）→政府订单增加→利好英伟达、AMD等芯片供应商",
+        "watch": "英国政府AI预算后续拨款及项目招标"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Bidding war erupts for world’s oldest bank as Italy’s Intesa gatecrashes BPM offer",
       "source": "CNBC",
       "detail": "Intesa on Monday announced an unsolicited offer of $35.3 billion, hoping to usurp its rival and create Europe's second-biggest ​bank by market capitalization. ",
       "lang": "en",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "意大利Intesa竞购世界最古老银行，引发竞购战",
+        "assets": "📈 欧洲银行股 利好; 📉 意大利国债收益率 承压",
+        "chain": "竞购战（抢着买银行）→银行估值提升（股价上涨）→欧洲金融板块吸引资金流入",
+        "watch": "Intesa收购报价及监管审批进展"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
       "source": "CNBC",
       "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
@@ -102,7 +94,7 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "三大指数集体大跌！高股息逆市走强，华宝基金银行ETF（512800）冲高1%！AI硬件跳水，科创芯片ETF收跌4.46%",
       "source": "新浪基金",
       "detail": "A股三大指数今日（6月8日）集体走弱，截至收盘，上证指数跌1.7%，失守4000点，收报3959.34点；深证成指跌3.22%，创业板指跌3.69%。",
@@ -110,12 +102,20 @@
       "score": 25
     },
     {
-      "rank": 10,
-      "title": "A股年内93家半导体公司减持",
-      "source": "21世纪经济报道",
-      "detail": "记者丨张赛男 编辑丨包芳鸣 曾静娇 6月8日，A股主要指数集体回调，沪指失守4000点。Wind数据显示，半导体指数收盘跌超4%，东微半导、新相微、宏微科技跌超11%...",
+      "rank": 9,
+      "title": "国家数据局重磅发布！事关数据赋能人工智能发展",
+      "source": "市场资讯",
+      "detail": "来源：国家数据局 国家数据局关于印发《关于推进行业高质量数据集建设行动的实施方案》的通知 国数科基〔2026〕25号 各省、自治区...",
       "lang": "zh",
-      "score": 25
+      "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "大热赛道突遭重挫，MLCC首当其冲，多股跌停！华宝基金军工ETF（512810）年内新低，场内放量溢价",
+      "source": "新浪基金",
+      "detail": "6月8日，A股深度调整，超4500股收跌，沪指跌1.7%失守4000点，创业板指跌3.69%。科技成长风格首当其冲，军工板块剧烈波动，行业代表性军工ETF华宝（512810）场内价格收跌4...",
+      "lang": "zh",
+      "score": 20
     }
   ]
 }
