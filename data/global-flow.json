@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 20:15",
+  "updateTime": "2026-06-08 20:21",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -27,53 +27,7 @@
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "银行",
-      "code": "BK1283",
-      "index": 4091.42,
-      "change": 0.42,
-      "flow": 1601113344.0,
-      "flow_str": "+16.01亿",
-      "direction": "in"
-    },
-    {
-      "name": "银行Ⅱ",
-      "code": "BK0475",
-      "index": 4091.42,
-      "change": 0.42,
-      "flow": 1601113344.0,
-      "flow_str": "+16.01亿",
-      "direction": "in"
-    },
-    {
-      "name": "国有大型银行Ⅲ",
-      "code": "BK1611",
-      "index": 3084.78,
-      "change": 1.48,
-      "flow": 1398485600.0,
-      "flow_str": "+13.98亿",
-      "direction": "in"
-    },
-    {
-      "name": "金属制品",
-      "code": "BK1396",
-      "index": 6148.18,
-      "change": -0.43,
-      "flow": 685247488.0,
-      "flow_str": "+6.85亿",
-      "direction": "in"
-    },
-    {
-      "name": "合成树脂",
-      "code": "BK1438",
-      "index": 8735.98,
-      "change": -2.88,
-      "flow": 559317968.0,
-      "flow_str": "+5.59亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0.0,
