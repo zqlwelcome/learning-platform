@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 20:11",
+  "updateTime": "2026-06-08 20:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股半导体和AI板块盘前反弹，此前科技股暴跌。",
-        "assets": "📈 美股半导体板块 利好；📈 美股AI概念股 利好",
-        "chain": "避险情绪（风险偏好下降）缓解，资金从防御板块（如公用事业）回流科技成长股。",
-        "watch": "今晚美股开盘后NVDA（英伟达）股价走势及成交量"
+        "what": "美股半导体及AI板块盘前反弹，科技股此前暴跌",
+        "assets": "📈 美股科技股 利好；📈 半导体板块 反弹",
+        "chain": "反弹可能触发空头回补（买回借入的股票），但需警惕反弹持续性，否则拖累大盘",
+        "watch": "今晚美股开盘后科技股成交量及波动率"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Anthropic与OpenAI竞相冲刺IPO，抢先上市不意味更优。",
-        "assets": "📈 美股AI初创公司 利好；📉 已上市科技巨头（如谷歌） 承压",
-        "chain": "IPO预期（新股发行）提升AI板块估值（市场给予的定价），但稀释二级市场资金。",
-        "watch": "两家公司估值变化及SEC（美国证监会）审核进度"
+        "what": "Anthropic与OpenAI冲刺IPO，抢先上市未必表现更佳",
+        "assets": "📈 AI独角兽 利好；📉 其他AI初创公司 承压",
+        "chain": "IPO（首次公开募股）加速可能引发市场对AI估值泡沫的担忧，影响科技股资金流向",
+        "watch": "IPO定价及首日涨幅，以及监管审查动态"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "盘前异动股：Nvidia、Marvell、Flex等因业绩或新闻波动。",
-        "assets": "📈 Nvidia 利好；📈 Marvell Technology 利好；📉 Flex 承压",
-        "chain": "个股异动反映行业景气度（如半导体需求），带动ETF（交易所交易基金）资金流向。",
-        "watch": "这些个股开盘后是否延续盘前走势及成交量配合"
+        "what": "盘前异动股：英伟达、Marvell、Flex等波动较大",
+        "assets": "📈 英伟达 利好；📈 Marvell 利好；📈 Flex 利好",
+        "chain": "个股异动反映资金短期博弈，可能带动半导体ETF（交易所交易基金）波动，影响板块情绪",
+        "watch": "英伟达盘前涨幅是否持续至开盘"
       }
     },
     {
@@ -51,54 +51,54 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "特朗普因被质疑选举欺诈指控和司法部资金问题，怒离采访。",
-        "assets": "📉 美元 承压；📉 美国政治不确定性资产 利空",
-        "chain": "政治风险（政策不确定性）上升，避险资金可能流向黄金或美债（美国国债）。",
-        "watch": "2024大选民调变化及特朗普相关法律案件进展"
+        "what": "特朗普因选举欺诈质疑被挑战，愤然离开采访",
+        "assets": "📉 美元 承压；📈 避险资产（黄金/美债） 利好",
+        "chain": "政治不确定性上升，避险情绪升温，可能压低风险资产（如股票），推高黄金和国债",
+        "watch": "后续民调及政治事件进展"
       }
     },
     {
       "rank": 5,
+      "title": "Citi hikes S&P 500 target to 8,100 because of AI-driven earnings strength",
+      "source": "CNBC",
+      "detail": "The bank says a banner first quarter earnings season portends well for the rest of the year, and will push the broad index higher.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "花旗将标普500目标上调至8100，因AI驱动盈利强劲",
+        "assets": "📈 美股大盘 利好；📈 AI相关科技股 利好",
+        "chain": "投行上调目标提振市场信心，可能吸引被动资金（指数基金）流入，但需警惕盈利预期过高",
+        "watch": "标普500指数实际走势及Q1企业财报"
+      }
+    },
+    {
+      "rank": 6,
       "title": "国际航空运输协会：燃油成本暴涨千亿美元，今年全球航司利润或将腰斩",
       "source": "环球市场播报",
       "detail": "核心要点国际航空运输协会（IATA）预测，2026 年全球航空公司利润将缩水一半。航煤油价飙升，全行业燃油总支出将额外增加 1000 亿美元。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "国际航协：燃油成本暴涨千亿美元，今年全球航司利润或将腰斩。",
-        "assets": "📉 全球航空股 利空；📈 原油期货 利好",
-        "chain": "航司成本传导（通过机票涨价）压制消费需求，拖累旅游和酒店板块。",
-        "watch": "布伦特原油价格及航司Q2财报中的燃油对冲（锁定油价策略）情况"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
-      "source": "CNBC",
-      "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "中国帮助缓冲全球油价低于100美元，但分析师警告不可持续。",
-        "assets": "📉 原油期货 承压；📈 中国炼油企业 利好",
-        "chain": "中国战略储备（国家储备）释放短期压制油价，但全球供给偏紧（如OPEC减产）仍存上行风险。",
-        "watch": "中国进口数据及OPEC+（石油输出国组织及其盟友）6月产量决策"
+        "what": "燃油成本暴涨千亿美元，今年全球航司利润或腰斩",
+        "assets": "📉 航空股 承压；📉 航空燃油期货 利好",
+        "chain": "航司成本上升将压缩利润，可能削减航班或提高票价，拖累旅游和出行相关板块",
+        "watch": "原油期货价格及航司Q2盈利预警"
       }
     },
     {
       "rank": 7,
+      "title": "China is helping to cushion global oil prices below $100 — but analysts warn it won’t last",
+      "source": "CNBC",
+      "detail": "China has reduced oil imports since the start of the Iran war, capping global crude prices.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 8,
       "title": "英国首相斯塔默斥资5.33亿美元投资人工智能芯片 支持“主权计算”",
       "source": "环球市场播报",
       "detail": " 英国首相基尔·斯塔默周一宣布了一项旨在发展自主计算能力的新战略，承诺投入约4亿英镑（5.33亿美元）用于采购专用人工智能芯片，并支持本土初创企业。",
       "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 8,
-      "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
-      "source": "CNBC",
-      "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
-      "lang": "en",
       "score": 25
     },
     {
@@ -111,11 +111,11 @@
     },
     {
       "rank": 10,
-      "title": "减肥药企业公布全新安全性数据引发投资者恐慌，泽兰制药暴跌25%",
-      "source": "环球市场播报",
-      "detail": "核心要点泽兰制药一款在研减肥药最新临床数据副作用风险凸显，盘中股价最大跌幅达 26%。巴克莱分析师表示：安全性与耐受度仍是核心痛点。",
-      "lang": "zh",
-      "score": 20
+      "title": "Airline profits set to halve this year as fuel costs jump by $100 billion: IATA",
+      "source": "CNBC",
+      "detail": "\"The big unknown is how long travelers and shippers can tolerate the higher costs,\" IATA's Willie Walsh said.",
+      "lang": "en",
+      "score": 25
     }
   ]
 }
