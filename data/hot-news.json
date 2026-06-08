@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 08:01",
+  "updateTime": "2026-06-08 08:06",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "智通财经APP",
       "detail": "智通财经注意到，本周欧元区预计将实施加息，这使得欧洲央行在这场因伊朗战争引发的全球紧缩浪潮中，走在了最前沿。 市场普遍预期欧央行将在周四加息25个基点。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "多国央行加息应对通胀，欧洲央行明确抢跑",
+        "assets": "📈 欧元 短期利好；📉 全球债券 承压",
+        "chain": "加息（提高借钱成本）压低需求，利空股市，但短期支撑汇率",
+        "watch": "欧洲央行本周利率决议及点阵图（利率预测）"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "上海证券报",
       "detail": "◎记者 范子萌 美国劳动力市场交出了一份超预期的“月考成绩单”，令市场对美联储年内降息的期望基本破灭，加息预期骤然升温。 当地时间6月5日，美国5月非农就业报告出炉。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美国5月非农数据超预期，美联储加息预期升温",
+        "assets": "📈 美元 走强；📉 美股 承压；📉 黄金 承压",
+        "chain": "强就业推升加息（借钱成本增加）预期，打压风险资产，美债收益率（国债利息）上行",
+        "watch": "下周CPI（通胀数据）及美联储官员讲话"
+      }
     },
     {
       "rank": 3,
@@ -23,7 +35,13 @@
       "source": "CNBC",
       "detail": "The president said he would like to see the weaponization fund proceed despite setbacks.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "特朗普因选举欺诈质疑中断采访，引发法律争议",
+        "assets": "📉 特朗普媒体相关股 利空；📈 政治不确定性 利空美元",
+        "chain": "政治风险上升可能削弱投资者信心，但短期影响有限",
+        "watch": "司法部（司法部）调查进展及民调变化"
+      }
     },
     {
       "rank": 4,
@@ -31,34 +49,44 @@
       "source": "环球市场播报",
       "detail": " 加密货币交易所Bybit表示，将向散户投资者提供以发行价参与代币化首次公开募股（IPO）的机会，首期将推出SpaceX的代币化IPO。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "Bybit将开放SpaceX代币化IPO交易渠道",
+        "assets": "📈 加密货币 利好；📈 SpaceX影子股（相关代币） 利好",
+        "chain": "代币化（将资产转为数字代币）拓宽散户参与，可能推高加密市场热度",
+        "watch": "Bybit平台上线时间及代币流动性"
+      }
     },
     {
       "rank": 5,
-      "title": "金价年内涨幅几乎归零，中国央行连续19个月增持黄金",
-      "source": "市场资讯",
-      "detail": "文章来源：财经杂志 作者 | 研究员 顾欣宇 编辑 |张威 黄金协会数据显示，自2024年11月恢复购金以来，中国央行的黄金增持节奏呈现前期较快、中期放缓...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 6,
       "title": "Inflation inside the electronics you buy may soon become a bit more sticky",
       "source": "CNBC",
       "detail": "Most consumers are not familiar with the role resin plays inside electronics like smartphones. A current shortage of the materials may push up prices.",
       "lang": "en",
-      "score": 20
+      "score": 20,
+      "insight": {
+        "what": "电子元件通胀可能更顽固，因芯片成本持续上升",
+        "assets": "📈 半导体板块 利好；📉 消费电子股 承压",
+        "chain": "成本传导（涨价转给消费者）推高终端售价，抑制需求但利好上游",
+        "watch": "费城半导体指数（芯片行业指标）及芯片库存数据"
+      }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Stock futures fall as Iran attack on Israel shakes fragile ceasefire: Live updates",
       "source": "CNBC",
       "detail": "Investors will also be focused on inflation data and the public debut of SpaceX on Friday.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "伊朗袭击以色列，美股期货下跌，停火协议受冲击",
+        "assets": "📉 美股 承压；📈 原油 利好；📈 黄金 避险利好",
+        "chain": "地缘风险（冲突不确定性）推升避险情绪，油价因供应担忧上涨",
+        "watch": "以色列及伊朗后续行动，布伦特原油（国际油价基准）走势"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "OPEC+ approves fourth oil output quota hike since Hormuz closure",
       "source": "CNBC",
       "detail": "Seven members of OPEC+, which groups OPEC and allied producers including Russia, increased output quotas from April to June by almost 600,000 barrels per day.",
@@ -66,7 +94,7 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "These are the most overbought stocks after a volatile week",
       "source": "CNBC",
       "detail": "Hewlett Packard Enterprise was among this week's most overbought stocks.",
@@ -74,10 +102,18 @@
       "score": 17
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "NAVER 采用英伟达 AI 模型，巩固韩国市场领先地位",
       "source": "环球市场播报",
       "detail": "韩国 NAVER 公司将依托英伟达技术方案建设数据中心，以此稳固其在韩国人工智能领域的主导地位。 英伟达全球人工智能云与基础设施负责人拉吉・米尔普里（Raj Mirpuri...",
+      "lang": "zh",
+      "score": 15
+    },
+    {
+      "rank": 10,
+      "title": "6月8日周末要闻：中东突发！伊朗向以色列发射导弹 特朗普发声 伊朗应见好就收 以色列也别报复",
+      "source": "环球市场播报",
+      "detail": "市场 6月6日收盘：美股收跌纳指重挫1100点 美联储加息预期升温令股指承压 6月6日美股成交额前20：博通业绩指引不及预期，股价三连跌 6月6日热门中概股普跌 奇景光电跌16...",
       "lang": "zh",
       "score": 15
     }
