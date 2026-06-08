@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-08 09:30",
+  "updateTime": "2026-06-08 09:36",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,64 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3947.89",
-      "change": "-1.98"
+      "value": "3971.22",
+      "change": "-1.40"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24961.950",
-      "change": "0.00"
+      "value": "24582.910",
+      "change": "-1.52"
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "光学光电子",
-      "code": "BK1038",
-      "index": 2299.3,
-      "change": -2.35,
-      "flow": 96911328.0,
-      "flow_str": "+9691.13万",
-      "direction": "in"
-    },
-    {
-      "name": "塑料",
-      "code": "BK0454",
-      "index": 22200.52,
-      "change": -3.02,
-      "flow": 66076428.0,
-      "flow_str": "+6607.64万",
-      "direction": "in"
-    },
-    {
-      "name": "通信线缆及配套",
-      "code": "BK1592",
-      "index": 30163.88,
-      "change": -5.22,
-      "flow": 59693335.0,
-      "flow_str": "+5969.33万",
-      "direction": "in"
-    },
-    {
-      "name": "光学元件",
-      "code": "BK1334",
-      "index": 17346.11,
-      "change": -3.61,
-      "flow": 52449770.0,
-      "flow_str": "+5244.98万",
-      "direction": "in"
-    },
-    {
-      "name": "工程机械整机",
-      "code": "BK1393",
-      "index": 4478.52,
-      "change": -0.72,
-      "flow": 51233828.0,
-      "flow_str": "+5123.38万",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -81,6 +35,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "美债跌幅扩大 油价上涨加剧通胀担忧",
+      "source": "环球市场播报",
+      "keyword": "通胀"
+    },
     {
       "title": "“根本没有理由加息”！特朗普公开“炮轰”美联储紧缩预期 新主席沃什即将迎来“火的洗礼”？",
       "source": "智通财经APP",
