@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 01:31",
+  "updateTime": "2026-06-10 01:36",
   "news": [
     {
       "rank": 1,
@@ -9,98 +9,100 @@
       "lang": "zh",
       "score": 65,
       "insight": {
-        "what": "Wix因AI平台问题股价暴跌27%，遭律所欺诈调查",
-        "assets": "📉 Wix股价 利空；📉 AI软件板块 承压",
-        "chain": "AI概念股估值回调（高增长预期受质疑），做空机构或增加对未盈利AI公司的押注",
-        "watch": "Wix后续财报指引及诉讼进展"
+        "what": "Wix因AI平台问题股价暴跌27%，遭证券欺诈调查",
+        "assets": "📉 Wix股价 利空\n📉 AI软件板块 承压",
+        "chain": "欺诈调查引发做空情绪，波及中小AI概念股（风险偏好下降）",
+        "watch": "Wix后续财报及诉讼进展"
       }
     },
     {
       "rank": 2,
+      "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
+      "source": "CNBC",
+      "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO定价已定，但散户配售不确定",
+        "assets": "📈 SpaceX 利好\n📉 散户交易活跃度 承压",
+        "chain": "机构主导IPO或推高开盘溢价，散户参与度低削弱零售资金流入",
+        "watch": "SpaceX最终配售比例及首日涨幅"
+      }
+    },
+    {
+      "rank": 3,
       "title": "UHG证券欺诈诉讼首席原告申请周二夜间截止",
       "source": "环球市场播报",
       "detail": "投资者权益律师事务所Faruqi &amp; Faruqi， LLP近日提醒投资者，针对United Homes Group， Inc．（纳斯达克代码：UHG）的证券集体诉讼首席原告申请截止日期为2026年6月9日...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "UHG证券欺诈诉讼首席原告申请周二夜间截止",
-        "assets": "📉 UHG股价 利空；📉 医疗科技板块 承压",
-        "chain": "集体诉讼风险扩散（类似案件增加），医疗股信用溢价（风险补偿）上升，资金外流",
-        "watch": "原告确认及和解可能性"
+        "what": "UHG证券欺诈诉讼首席原告申请周二截止",
+        "assets": "📉 UHG股价 利空\n📈 医疗保健板块 波动",
+        "chain": "诉讼进展加速可能触发集体索赔，压制板块情绪（法律风险溢价）",
+        "watch": "法院是否批准首席原告及后续和解信号"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic发布类似Mythos的AI模型，两个月前私测震动华尔街",
-        "assets": "📈 AI概念股 利好；📈 科技成长股 利好",
-        "chain": "大模型竞争加速（技术迭代），推高AI基础设施需求（算力、芯片），利好英伟达等",
-        "watch": "模型用户增长及商业化收入"
+        "what": "Anthropic向公众发布Mythos类AI模型",
+        "assets": "📈 AI软件股 利好\n📈 云计算板块 利好",
+        "chain": "模型公开加速AI应用落地，利好算力需求（基础设施投资预期）",
+        "watch": "Anthropic模型用户增长及竞品反应"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Apple shares slide after big Siri AI reveal",
       "source": "CNBC",
       "detail": "Apple unveiled new artificial intelligence software at WWDC, highlighted by its long-awaited update to Siri.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "苹果股价因Siri AI重大发布后下跌",
-        "assets": "📉 苹果股价 利空；📉 消费电子板块 承压",
-        "chain": "市场对苹果AI变现能力失望（估值溢价消失），资金转向纯AI软件股，利空相关供应链",
-        "watch": "苹果AI功能用户采用率及服务收入"
+        "what": "苹果Siri AI发布后股价下跌",
+        "assets": "📉 苹果 利空\n📉 消费科技 承压",
+        "chain": "市场对AI功能创新失望，拖累硬件换机预期（估值下修风险）",
+        "watch": "苹果AI功能用户反馈及后续发布会"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SpaceX受热捧 IPO吸引到的机构投资者需求是供发售股份的数倍",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，SpaceX首次公开募股吸引到的机构投资者需求是供发售股份的数倍。这家由马斯克领导的火箭、卫星和人工智能公司上市日期日益临近。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SpaceX IPO需求火爆，机构认购数倍于供应",
-        "assets": "📈 SpaceX估值 利好；📈 航天军工板块 利好",
-        "chain": "IPO溢价（上市首日上涨）预期高，带动商业航天赛道资金流入，利好相关ETF及对标公司",
-        "watch": "IPO定价及首日涨幅"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "欧盟监管机构勒令元宇宙向竞品AI聊天机器人免费开放WhatsApp接口",
-      "source": "环球市场播报",
-      "detail": "欧盟反垄断监管机构周二向元平台（Meta）下达指令，要求其向竞品 AI 聊天机器人免费开放 WhatsApp 相关接口。目前监管部门仍在调查该企业是否通过屏蔽竞争对手接入这款通讯...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "欧盟勒令Meta向竞品AI免费开放WhatsApp接口",
-        "assets": "📉 Meta股价 利空；📉 社交平台板块 承压",
-        "chain": "监管反垄断成本上升（利润压缩），WhatsApp用户数据壁垒被打破，利好中小AI聊天机器人公司",
-        "watch": "Meta上诉及接口开放时间表"
+        "what": "SpaceX IPO机构需求数倍于供股",
+        "assets": "📈 SpaceX 利好\n📈 太空概念股 利好",
+        "chain": "超额认购推高估值预期，带动太空板块资本流入（资金轮动效应）",
+        "watch": "SpaceX最终定价及上市后锁定期解禁"
       }
     },
     {
       "rank": 7,
+      "title": "欧盟监管机构勒令元宇宙向竞品AI聊天机器人免费开放WhatsApp接口",
+      "source": "环球市场播报",
+      "detail": "欧盟反垄断监管机构周二向元平台（Meta）下达指令，要求其向竞品 AI 聊天机器人免费开放 WhatsApp 相关接口。目前监管部门仍在调查该企业是否通过屏蔽竞争对手接入这款通讯...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "Ensign集团遭做空报告重创，多家律所启动证券欺诈调查",
       "source": "环球市场播报",
       "detail": "专业养老护理机构运营商Ensign集团近日遭遇重大危机。做空机构Hunterbrook Media于6月8日发布报告，指控该公司的商业模式依赖于对患者的不充分护理...",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "Ensign集团遭做空报告重创，多律所启动调查",
-        "assets": "📉 Ensign股价 利空；📉 中概股 承压",
-        "chain": "做空报告→信任危机→机构减仓→同行业估值（PE）下修",
-        "watch": "做空报告详细指控、公司回应及审计意见"
-      }
+      "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Wealthfront因存款流失与房贷关联交易遭多律所证券欺诈调查",
       "source": "环球市场播报",
       "detail": "数字财富管理平台Wealthfront近日接连遭遇两次重大信息披露冲击，引发多家律师事务所启动证券欺诈调查。 2026年1月12日，Wealthfront发布第三财季财报...",
@@ -108,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Stocks making the biggest moves midday: Apple, Micron Technology, Coherent, DraftKings, J.M. Smucker & more",
       "source": "CNBC",
       "detail": "Here are the companies making headlines in midday trading.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "午盘：美股回吐涨幅，芯片股再度下挫",
-      "source": "环球市场播报",
-      "detail": " 北京时间6月10日凌晨，美股周二午盘走低。芯片股在经历一日反弹后失去了上涨势头。油价下跌推动原材料和非必需消费品板块逆势上扬。市场继续关注中东局势的最新发展。",
-      "lang": "zh",
-      "score": 25
     }
   ]
 }
