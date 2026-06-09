@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 23:35",
+  "updateTime": "2026-06-09 23:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 65,
       "insight": {
-        "what": "Wix因AI平台问题股价暴跌27%",
-        "assets": "📉 Wix股票 利空；📉 AI软件板块 承压",
-        "chain": "AI变现不及预期（收入增速放缓）引发资金从AI概念股撤离，科技股波动率（VIX恐慌指数）上升",
-        "watch": "Wix下季度AI业务指引及华尔街评级下调"
+        "what": "Wix因AI平台问题股价暴跌27%，遭证券欺诈调查",
+        "assets": "📉 Wix股价 利空；📉 中小盘科技股 承压",
+        "chain": "AI概念股信任危机，资金可能从高估值科技股流向防御板块（公用事业、医疗）",
+        "watch": "Wix是否披露更多AI业务细节；同类AI公司财报"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Medline因FDA违规遭证券欺诈调查",
-        "assets": "📉 医疗设备股 利空；📉 Medline估值 承压",
-        "chain": "监管风险（合规成本增加）导致医疗板块风险溢价（投资者要求的额外回报）上升，资金流向防御性资产",
-        "watch": "FDA处罚力度及同类公司合规审查进展"
+        "what": "Medline因FDA违规警告面临证券欺诈调查",
+        "assets": "📉 医疗设备板块 利空；📉 医疗合规类ETF 承压",
+        "chain": "监管风险升温，资金可能从医疗板块轮动至消费品或能源",
+        "watch": "FDA是否扩大调查范围；其他医疗公司合规记录"
       }
     },
     {
@@ -37,24 +37,24 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "通胀数据威胁标普500反弹",
+        "what": "通胀数据可能破坏市场反弹，标普500面临回调",
         "assets": "📉 标普500 利空；📉 美债收益率 上行",
-        "chain": "通胀超预期（物价上涨过快）将推迟降息（借钱成本降低）预期，压制成长股估值（未来现金流折现价值）",
-        "watch": "本周CPI（消费者物价指数）及PCE（个人消费支出）数据"
+        "chain": "通胀超预期→加息预期升温（借钱成本增加）→成长股（高估值股票）承压，美元走强",
+        "watch": "本周CPI（消费者物价指数）及PCE（个人消费支出物价指数）数据"
       }
     },
     {
       "rank": 4,
-      "title": "SpaceX employee group creates low-fee wealth management option with Choreo for post-IPO",
-      "source": "CNBC",
-      "detail": "The deal marks a bold experiment in the wealth management industry that could shift the balance of power from advisory firms to wealthy groups of investors.",
-      "lang": "en",
-      "score": 35,
+      "title": "UHG证券欺诈诉讼首席原告申请周二夜间截止",
+      "source": "环球市场播报",
+      "detail": "投资者权益律师事务所Faruqi &amp; Faruqi， LLP近日提醒投资者，针对United Homes Group， Inc．（纳斯达克代码：UHG）的证券集体诉讼首席原告申请截止日期为2026年6月9日...",
+      "lang": "zh",
+      "score": 33,
       "insight": {
-        "what": "SpaceX员工与Choreo推出低费财富管理",
-        "assets": "📈 太空概念股 利好；📈 Fintech（金融科技）板块 利好",
-        "chain": "IPO前锁定流动性（提前变现期权）降低员工抛售压力，吸引长期资金布局太空经济（商业航天产业链）",
-        "watch": "SpaceX IPO时间表及Choreo资产管理规模"
+        "what": "UHG证券欺诈诉讼首席原告申请截止",
+        "assets": "📉 UHG股价 利空；📉 医疗健康板块 承压",
+        "chain": "诉讼进展可能引发医疗行业集体诉讼潮，增加法律成本",
+        "watch": "法院是否批准首席原告；UHG是否和解"
       }
     },
     {
@@ -65,28 +65,36 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "苹果发布Siri AI后股价下跌",
-        "assets": "📉 苹果股票 利空；📉 AI硬件板块 承压",
-        "chain": "AI功能不及预期（市场对创新失望）导致消费电子需求预期下调，供应链（芯片、组装）订单可能缩减",
-        "watch": "苹果AI功能实际用户留存率及竞争对手动态"
+        "what": "Apple发布Siri AI后股价下跌",
+        "assets": "📉 Apple股价 利空；📉 科技巨头板块 承压",
+        "chain": "AI功能不及预期→市场质疑苹果创新能力，资金转向AI龙头（英伟达、微软）",
+        "watch": "苹果AI功能用户反馈；下季度iPhone销量指引"
       }
     },
     {
       "rank": 6,
-      "title": "Wealthfront因存款流失与房贷关联交易遭多律所证券欺诈调查",
+      "title": "Ensign集团遭做空报告重创，多家律所启动证券欺诈调查",
       "source": "环球市场播报",
-      "detail": "数字财富管理平台Wealthfront近日接连遭遇两次重大信息披露冲击，引发多家律师事务所启动证券欺诈调查。 2026年1月12日，Wealthfront发布第三财季财报...",
+      "detail": "专业养老护理机构运营商Ensign集团近日遭遇重大危机。做空机构Hunterbrook Media于6月8日发布报告，指控该公司的商业模式依赖于对患者的不充分护理...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Wealthfront因存款流失及房贷关联交易被调查",
-        "assets": "📉 数字银行股 利空；📉 消费信贷 承压",
-        "chain": "资金外流（存款减少）暴露流动性风险（短期支付能力不足），可能引发非银机构（如在线券商）监管收紧",
-        "watch": "Wealthfront存款余额变化及监管机构调查结论"
+        "what": "Ensign集团遭做空报告重创，多家律所调查",
+        "assets": "📉 Ensign股价 利空；📉 医疗保健服务板块 承压",
+        "chain": "做空报告引发连锁反应，同类公司可能被做空机构盯上，板块波动加剧",
+        "watch": "做空报告具体指控；Ensign是否发布反驳声明"
       }
     },
     {
       "rank": 7,
+      "title": "Wealthfront因存款流失与房贷关联交易遭多律所证券欺诈调查",
+      "source": "环球市场播报",
+      "detail": "数字财富管理平台Wealthfront近日接连遭遇两次重大信息披露冲击，引发多家律师事务所启动证券欺诈调查。 2026年1月12日，Wealthfront发布第三财季财报...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "Verra Mobility因Avis解约遭证券欺诈调查",
       "source": "环球市场播报",
       "detail": " 智能出行技术提供商Verra Mobility近日遭遇多重危机。该公司于5月26日披露，已收到Avis Budget Group的合同终止通知，该合同将于2026年9月生效。",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Wise Group因涉嫌洗钱遭证券欺诈调查",
       "source": "环球市场播报",
       "detail": " 跨境支付平台Wise Group近日陷入危机。多家律师事务所宣布对该公司展开证券欺诈调查，原因涉及反洗钱合规问题及比利时检方的刑事调查。",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil prices fall nearly 4% after U.S. Energy Secretary says Hormuz ship traffic is increasing",
       "source": "CNBC",
       "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "S&P 500 gives up gain as chip stock comeback fizzles: Live updates",
-      "source": "CNBC",
-      "detail": "A rally in chip stocks boosted the S&P 500 and Nasdaq Composite on Monday.",
-      "lang": "en",
-      "score": 27
     }
   ]
 }
