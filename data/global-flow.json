@@ -1,29 +1,29 @@
 {
-  "updateTime": "2026-06-07 11:55",
+  "updateTime": "2026-06-09 23:35",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "25709.43",
-      "change": "-4.18"
+      "value": "25426.53",
+      "change": "-1.94"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "50866.78",
-      "change": "-1.35"
+      "value": "50498.89",
+      "change": "-0.57"
     },
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4027.74",
-      "change": "-0.74"
+      "value": "4010.03",
+      "change": "1.28"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24961.950",
-      "change": "-1.15"
+      "value": "24565.900",
+      "change": "-0.37"
     }
   },
   "etf_flows": [],
@@ -34,21 +34,5 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": [
-    {
-      "title": "猛烈抛售！美联储，加息大消息！",
-      "source": "券商中国",
-      "keyword": "美联储"
-    },
-    {
-      "title": "SpaceX下周IPO募资750亿估值1.77万亿，美股AI板块重挫，下周将迎通胀数据及科技财报",
-      "source": "市场资讯",
-      "keyword": "通胀"
-    },
-    {
-      "title": "美联储巴尔警告：华尔街银行监管规则放宽暗藏风险",
-      "source": "环球市场播报",
-      "keyword": "美联储"
-    }
-  ]
+  "bank_news": []
 }

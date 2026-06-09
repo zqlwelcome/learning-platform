@@ -3065,5 +3065,1225 @@ def clean_text(text):
         `
       }
     ]
-  }
+  },
+
+  // ========== AI数据分析师系列 ==========
+  {
+    id: 'ana-1',
+    title: '📊 AI数据分析师的角色进化（2026版）',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：理解AI数据分析师和传统DA的本质区别，明确2026年岗位核心竞争力</div>
+        </div>
+        <div class="block">
+          <h4>🔀 角色进化：从"数据搬运工"到"AI应用构建者"</h4>
+          <div class="comparison-table">
+            <table>
+              <tr><th>维度</th><th>传统数据分析师</th><th>AI数据分析师（2026）</th></tr>
+              <tr><td>核心产出</td><td>报表、PPT</td><td>AI模型、自动化流水线、数据产品</td></tr>
+              <tr><td>查询方式</td><td>手写SQL</td><td>自然语言→AI生成SQL→自动分析</td></tr>
+              <tr><td>分析深度</td><td>描述+诊断（发生了什么）</td><td>预测+自动化决策（将要发生什么）</td></tr>
+              <tr><td>工具栈</td><td>Excel+SQL+BI</td><td>+大模型API+RAG+LangChain+向量库</td></tr>
+              <tr><td>薪资范围</td><td>10-20k</td><td>初级15-25k / 高级60-100k+</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="block">
+          <h4>📈 2026年三大核心变化</h4>
+          <ol>
+            <li><strong>AI原生成为默认：</strong>不是"会用AI加分"，而是"不会用AI不合格"。熟练调用大模型API、写Prompt、用AI辅助编码是基础要求。</li>
+            <li><strong>AI Agent开发成最热技能：</strong>70%+的JD要求能构建自动化数据流水线，不只是分析数据，而是搭建"能自动分析数据的智能体"。</li>
+            <li><strong>因果推断取代简单相关：</strong>DID、PSM等因果推断方法成高频面试题，纯相关性分析被弱化。</li>
+          </ol>
+        </div>
+        <div class="block">
+          <h4>🎯 你的学习路线</h4>
+          <p>本系列16节课，从Python/SQL基础到AI Agent开发，再到面试求职，对标大厂AI数据分析师岗位。</p>
+          <p><strong>初级目标（15-25k）：</strong>前8节课 → 能独立用AI工具完成数据清洗、可视化、基础建模</p>
+          <p><strong>中级目标（30-50k）：</strong>全部16节 → 能构建RAG系统、设计AB测试、做因果推断</p>
+          <p><strong>高级目标（60k+）：</strong>+实战项目 → 能设计AI Agent流水线、主导数据产品架构</p>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 我不会编程能不能学？</strong></p>
+          <p>A: 可以。第2-3节会从零教你Python和SQL，配合AI辅助编码，学习曲线平缓。</p>
+          <p><strong>Q: 和AI产品经理课程有什么区别？</strong></p>
+          <p>A: AI PM侧重产品设计和商业决策，本系列侧重技术实现——建模、RAG、Agent开发。两者互补。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-2',
+    title: '🐍 Python数据分析环境+AI辅助编码',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：搭建Python数据分析环境，掌握Pandas核心操作，学会用AI辅助写代码</div>
+        </div>
+        <div class="block">
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: 环境准备</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Shell</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 安装核心库
+pip install pandas numpy matplotlib seaborn jupyter
+pip install scikit-learn openpyxl
+
+# 启动 Jupyter
+jupyter notebook</code></pre>
+            </div>
+          </div>
+          <p><strong>Step 2: Pandas核心操作速通</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import pandas as pd
+import numpy as np
+
+# === 读取数据 ===
+df = pd.read_csv('sales.csv')        # CSV
+df = pd.read_excel('report.xlsx')    # Excel
+df = pd.read_sql('SELECT * FROM orders', conn)  # 数据库
+
+# === 数据探查 ===
+df.head()        # 看前5行
+df.info()        # 数据类型、缺失值
+df.describe()    # 统计摘要（均值、分位数）
+
+# === 数据清洗 ===
+df.dropna()                     # 删除缺失值
+df.fillna(df.mean())            # 用均值填充
+df['price'] = df['price'].astype(float)  # 类型转换
+
+# === 分组聚合 ===
+df.groupby('category')['sales'].sum()           # 按品类汇总
+df.groupby(['month','region'])['revenue'].agg(['sum','mean','count'])
+
+# === 窗口函数 ===
+df['rolling_avg'] = df.groupby('product')['sales'].transform(
+    lambda x: x.rolling(7).mean()  # 7日滚动平均
+)
+
+# === 数据导出 ===
+df.to_csv('cleaned_data.csv', index=False)
+df.to_excel('report.xlsx', sheet_name='分析结果')</code></pre>
+            </div>
+          </div>
+          <p><strong>Step 3: 用AI辅助写代码</strong></p>
+          <p>遇到不会的Pandas操作？直接把需求描述给AI：</p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Prompt 示例</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 粘贴到 DeepSeek / ChatGPT：
+"我有个DataFrame df，columns=['user_id','order_date','amount']，
+帮我写Pandas代码：计算每个用户最近30天的累计消费金额，
+并按金额降序排列取Top10。"</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>💡 关键要点</h4>
+          <ul>
+            <li>花80%时间在数据清洗上（dropna/fillna/astype）是正常的</li>
+            <li>groupby+agg 是最常用的分析模式</li>
+            <li>善用AI写Pandas代码，但你自己要能读懂和修改</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: Pandas和SQL选哪个？</strong></p>
+          <p>A: 都学。SQL查数据库里的数据，Pandas做复杂分析和建模。面试两个都考。</p>
+          <p><strong>Q: 数据量大Pandas很慢怎么办？</strong></p>
+          <p>A: 先用SQL做聚合再导入Pandas，或使用Polars（更快的替代品）、Dask（分布式Pandas）。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-3',
+    title: '🗄️ SQL与数据仓库实战（ClickHouse/Doris）',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：掌握大厂面试必考的SQL高级写法，了解OLAP引擎原理</div>
+        </div>
+        <div class="block">
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: SQL窗口函数——面试必考</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">SQL</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>-- 排名：每个品类销售额Top3商品
+SELECT category, product_name, sales,
+       ROW_NUMBER() OVER (PARTITION BY category ORDER BY sales DESC) AS rank
+FROM products
+WHERE rank <= 3;
+
+-- 累计：每日累计销售额
+SELECT order_date, daily_sales,
+       SUM(daily_sales) OVER (ORDER BY order_date) AS cumulative_sales
+FROM daily_summary;
+
+-- 同比/环比：用LAG取前一行
+SELECT month, revenue,
+       LAG(revenue, 1) OVER (ORDER BY month) AS prev_month,
+       ROUND((revenue - LAG(revenue,1) OVER (ORDER BY month)) / 
+             LAG(revenue,1) OVER (ORDER BY month) * 100, 2) AS mom_pct
+FROM monthly_revenue;
+
+-- 留存分析：次日留存
+WITH first_day AS (
+  SELECT user_id, MIN(DATE(login_time)) AS first_date
+  FROM logins GROUP BY user_id
+)
+SELECT f.first_date,
+       COUNT(DISTINCT f.user_id) AS new_users,
+       COUNT(DISTINCT l.user_id) AS day1_retained,
+       ROUND(COUNT(DISTINCT l.user_id)*100.0/COUNT(DISTINCT f.user_id),1) AS retention_pct
+FROM first_day f
+LEFT JOIN logins l ON f.user_id=l.user_id 
+  AND DATE(l.login_time)=DATE_ADD(f.first_date, INTERVAL 1 DAY)
+GROUP BY f.first_date;</code></pre>
+            </div>
+          </div>
+          <p><strong>Step 2: ClickHouse/Doris实战场景</strong></p>
+          <p>传统MySQL遇到百万级数据就慢。OLAP引擎（ClickHouse、Doris）专为分析而生：</p>
+          <table>
+            <tr><th>场景</th><th>MySQL</th><th>ClickHouse</th></tr>
+            <tr><td>1万行聚合</td><td>0.1s ✅</td><td>0.01s ✅</td></tr>
+            <tr><td>100万行聚合</td><td>5s ⚠️</td><td>0.05s ✅</td></tr>
+            <tr><td>1亿行聚合</td><td>超时 ❌</td><td>0.5s ✅</td></tr>
+          </table>
+        </div>
+        <div class="block">
+          <h4>💡 关键要点</h4>
+          <ul>
+            <li>窗口函数是区分初级和中级的分水岭</li>
+            <li>慢查询优化：先看EXPLAIN，再看索引</li>
+            <li>ClickHouse适合日志/埋点/交易等海量时序数据</li>
+            <li>面试高频题：留存分析、漏斗分析、连续活跃天数</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 这么多SQL写法记不住怎么办？</strong></p>
+          <p>A: 把常用模板存成笔记，写的时候复制改参数。面试手写常见题练3遍就熟了。</p>
+          <p><strong>Q: 大厂真用ClickHouse吗？</strong></p>
+          <p>A: 字节、快手、滴滴都在用。Doris在美团/京东更主流。两者语法接近，学一个即可触类旁通。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-4',
+    title: '🤖 大模型API调用+Prompt Engineering',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：学会调用DeepSeek/GPT API，掌握数据分析场景的Prompt设计</div>
+        </div>
+        <div class="block">
+          <h4>📝 手把手操作</h4>
+          <p><strong>Step 1: DeepSeek API调用（国内首选）</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from openai import OpenAI
+
+client = OpenAI(
+    api_key="your-deepseek-key",
+    base_url="https://api.deepseek.com"
+)
+
+# 数据分析场景：让AI解读你的数据
+response = client.chat.completions.create(
+    model="deepseek-chat",
+    messages=[
+        {"role": "system", "content": "你是资深数据分析师，用中文回答，给出具体可执行的建议。"},
+        {"role": "user", "content": """
+        我有一份电商销售数据，请帮我分析：
+        - 7月销售额环比下降15%
+        - 但用户访问量增长了8%
+        - 转化率从3.2%降到2.1%
+        
+        请分析可能的原因和排查方向。
+        """}
+    ],
+    temperature=0.3,
+    max_tokens=1000
+)
+
+print(response.choices[0].message.content)</code></pre>
+            </div>
+          </div>
+          <p><strong>Step 2: 数据分析专用Prompt设计</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Prompt模板</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 模板1：数据解读
+"我给你一段数据：{data_summary}。请从以下角度分析：
+1. 核心发现（3点）
+2. 异常数据点
+3. 可能原因（按可能性排序）
+4. 建议下一步排查方向"
+
+# 模板2：SQL生成
+"表结构：{schema}。请帮我写SQL查询：{需求描述}。
+要求：使用窗口函数，考虑性能优化，注释说明每一步。"
+
+# 模板3：分析报告生成
+"基于以下数据：{data}。生成一份面向业务方的分析报告：
+- 一句话结论
+- 关键指标变化
+- 业务建议（按优先级，每条含预期影响）"</code></pre>
+            </div>
+          </div>
+          <p><strong>Step 3: 流式输出+成本控制</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 流式输出（避免等太久）
+stream = client.chat.completions.create(
+    model="deepseek-chat",
+    messages=[{"role": "user", "content": "分析这份销售数据..."}],
+    stream=True
+)
+for chunk in stream:
+    if chunk.choices[0].delta.content:
+        print(chunk.choices[0].delta.content, end="")
+
+# 成本估算（DeepSeek极便宜）
+# 输入: ¥1/百万tokens | 输出: ¥2/百万tokens
+# 一次分析请求约 0.001-0.01元</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>💡 关键要点</h4>
+          <ul>
+            <li>System Prompt设定角色和专业领域，User Prompt给具体数据和需求</li>
+            <li>temperature设0.1-0.3用于分析任务（要稳定不要创意）</li>
+            <li>DeepSeek API极便宜，大胆用；但不要传敏感数据</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: DeepSeek和GPT怎么选？</strong></p>
+          <p>A: 国内用DeepSeek（便宜、中文好、不用翻墙）。需要多模态（图片分析）或函数调用时用GPT-4o。</p>
+          <p><strong>Q: AI分析结果不准怎么办？</strong></p>
+          <p>A: 永远不要盲信AI输出。用数据验证关键结论，AI是辅助不是替代。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-5',
+    title: '🗣️ Text-to-SQL：说人话就能查数据',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：搭建自然语言转SQL系统，让业务方用中文提问，AI自动生成SQL并执行</div>
+        </div>
+        <div class="block">
+          <h4>📝 完整实战：Text-to-SQL系统</h4>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import sqlite3
+from openai import OpenAI
+
+client = OpenAI(api_key="your-key", base_url="https://api.deepseek.com")
+
+# 把表结构告诉AI
+SCHEMA = """
+表名: orders
+字段:
+- order_id (INT, 主键)
+- user_id (INT, 用户ID)
+- product_name (VARCHAR, 商品名)
+- category (VARCHAR, 品类: 食品/数码/服装)
+- amount (DECIMAL, 金额)
+- order_date (DATE, 下单日期)
+- status (VARCHAR, 状态: 已完成/已取消/退货)
+"""
+
+def text_to_sql(question):
+    """自然语言转SQL"""
+    response = client.chat.completions.create(
+        model="deepseek-chat",
+        messages=[
+            {"role": "system", "content": f"你只输出SQL，不要解释。数据库结构：{SCHEMA}"},
+            {"role": "user", "content": question}
+        ],
+        temperature=0
+    )
+    sql = response.choices[0].message.content.strip()
+    # 清理markdown包裹
+    sql = sql.replace("\u0060\u0060\u0060sql", "").replace("\u0060\u0060\u0060", "")
+    return sql
+
+def execute_sql(sql):
+    """执行SQL并返回DataFrame"""
+    conn = sqlite3.connect(":memory:")
+    # 创建示例表（实际项目中连接真实DB）
+    conn.execute("""
+        CREATE TABLE orders AS SELECT * FROM real_db.orders
+    """)
+    return pd.read_sql(sql, conn)
+
+# 使用示例
+question = "上个月哪个品类销售额最高？"
+sql = text_to_sql(question)
+print(f"生成的SQL:\n{sql}")
+df = execute_sql(sql)
+print(f"\n结果:\n{df}")</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>🔐 安全注意事项</h4>
+          <ul>
+            <li><strong>只读权限：</strong>AI生成的SQL只用只读账号执行</li>
+            <li><strong>SQL校验：</strong>拦截DROP/DELETE/UPDATE等危险操作</li>
+            <li><strong>查询限制：</strong>加LIMIT防止全表扫描打挂数据库</li>
+            <li><strong>敏感字段：</strong>手机号、身份证等字段不暴露给AI</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: AI生成的SQL不对怎么办？</strong></p>
+          <p>A: 加验证层——先用EXPLAIN检查语法，再在测试库试跑。复杂查询建议用Few-shot（给AI几个正确示例）。</p>
+          <p><strong>Q: 企业内部数据能用这个方案吗？</strong></p>
+          <p>A: 可以，但用私有化部署的大模型（如Qwen、DeepSeek本地版），不要传数据到外部API。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-6',
+    title: '🔍 RAG企业知识库构建实战',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：从零搭建一个企业内部知识库问答系统，业务方用自然语言就能查指标定义和数据口径</div>
+        </div>
+        <div class="block">
+          <h4>📝 RAG系统五步搭建</h4>
+          <p><strong>Step 1: 文档向量化</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import chromadb
+from sentence_transformers import SentenceTransformer
+
+# 1. 加载Embedding模型（本地运行，不传外网）
+model = SentenceTransformer('BAAI/bge-small-zh-v1.5')
+
+# 2. 创建向量库
+client = chromadb.PersistentClient(path="./rag_db")
+collection = client.get_or_create_collection("company_knowledge")
+
+# 3. 准备企业内部文档
+documents = [
+    "GMV（成交总额）= 有效订单金额总和，不含退款和取消订单",
+    "DAU（日活用户）= 当日至少打开一次App的去重用户数",
+    "转化率 = 下单用户数 / 访问用户数 × 100%",
+    "ARPU = 总收入 / 付费用户数，月度统计",
+]
+
+# 4. 向量化+存储
+embeddings = model.encode(documents).tolist()
+collection.add(
+    documents=documents,
+    embeddings=embeddings,
+    ids=[f"doc_{i}" for i in range(len(documents))]
+)</code></pre>
+            </div>
+          </div>
+          <p><strong>Step 2: 检索+问答</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>def ask_knowledge_base(question):
+    # 检索相关文档
+    q_embedding = model.encode([question]).tolist()
+    results = collection.query(query_embeddings=q_embedding, n_results=3)
+    context = "\n".join(results['documents'][0])
+    
+    # 让AI基于检索结果回答
+    response = client.chat.completions.create(
+        model="deepseek-chat",
+        messages=[
+            {"role": "system", "content": "基于提供的文档回答问题。如果文档中没有答案，如实说不知道。"},
+            {"role": "user", "content": f"文档内容：\n{context}\n\n问题：{question}"}
+        ]
+    )
+    return response.choices[0].message.content
+
+# 测试
+print(ask_knowledge_base("GMV怎么计算？"))
+# → "GMV = 有效订单金额总和，不含退款和取消订单"</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>💡 关键要点</h4>
+          <ul>
+            <li>BGE模型是国内最好的中文Embedding模型，本地运行不联网</li>
+            <li>知识库内容要权威——产品文档、数据字典、指标定义</li>
+            <li>RAG的核心优势：不用微调模型，更新文档即可更新知识</li>
+            <li>生产环境注意：文档分块策略（chunk size 500-1000 tokens）影响检索质量</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 如何提高检索准确率？</strong></p>
+          <p>A: 混合检索（向量+关键词）+ 重排序（reranker模型）。LangChain的EnsembleRetriever可以直接用。</p>
+          <p><strong>Q: RAG和微调选哪个？</strong></p>
+          <p>A: 知识频繁更新→RAG；固定领域专业术语→微调。大部分企业场景RAG足够。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-7',
+    title: '📈 AI辅助数据可视化（自然语言出图）',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：用AI一句话生成专业图表，告别手写matplotlib的繁琐配置</div>
+        </div>
+        <div class="block">
+          <h4>📝 核心方案：AI生成图表代码</h4>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 把数据摘要发给AI，让它生成可视化代码
+prompt = f"""
+数据摘要：
+- 月份: 1-6月
+- 品类A销售额: [120, 135, 148, 162, 155, 170]
+- 品类B销售额: [90, 95, 102, 98, 110, 115]
+
+要求：生成Python代码，用matplotlib画双折线对比图，展示两个品类的月度销售趋势。
+要求中文字体、图例、网格、数值标签。
+只输出代码，不要解释。
+"""
+
+# AI返回的代码
+code = response.choices[0].message.content
+
+# 安全执行（生产环境用沙箱）
+exec(code)</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>🛠️ 主流可视化工具对比</h4>
+          <table>
+            <tr><th>工具</th><th>适用场景</th><th>AI友好度</th></tr>
+            <tr><td>Matplotlib</td><td>学术论文、静态报告</td><td>⭐⭐⭐（代码多但AI生成质量高）</td></tr>
+            <tr><td>ECharts/pyecharts</td><td>Web仪表盘、交互图表</td><td>⭐⭐⭐⭐（AI直出HTML，即开即用）</td></tr>
+            <tr><td>Plotly</td><td>交互分析、Jupyter</td><td>⭐⭐⭐⭐⭐（AI最喜欢，代码简洁）</td></tr>
+            <tr><td>ThoughtSpot</td><td>业务自助查询</td><td>⭐⭐⭐⭐⭐（NL2Chart原生支持）</td></tr>
+          </table>
+        </div>
+        <div class="block">
+          <h4>💡 实用模板：AI生成ECharts仪表盘</h4>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from pyecharts.charts import Bar, Line, Pie
+from pyecharts import options as opts
+
+# 告诉AI你的数据框架，让它生成pyecharts代码
+# Prompt: "用pyecharts生成一个仪表盘，包含：柱状图(各品类销售额)、
+#          折线图(月度趋势)、饼图(渠道占比)，使用暗色主题"</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: AI生成的图表中文乱码怎么办？</strong></p>
+          <p>A: 用pyecharts（JavaScript渲染，天然支持中文）替代matplotlib。或配置中文字体路径。</p>
+          <p><strong>Q: 业务方想要交互式图表怎么做？</strong></p>
+          <p>A: 用pyecharts生成HTML文件，或直接用ECharts的JS库。Plotly的Dash可以快速搭建Web应用。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-8',
+    title: '🤖 AI Agent自动化数据流水线',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：搭建一个AI Agent，自动完成"数据采集→清洗→建模→生成报告"全流程（2026年最热技能）</div>
+        </div>
+        <div class="block">
+          <h4>📝 什么是AI Agent？</h4>
+          <p>和传统脚本不同，AI Agent能<strong>自主决策</strong>下一步做什么。比如：发现数据有缺失→自动决定用均值还是中位数填充；发现异常值→自动判断是否排除。</p>
+        </div>
+        <div class="block">
+          <h4>📝 实战：构建数据分析Agent</h4>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python - 基于LangChain的Agent</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from langchain.agents import create_react_agent, Tool
+from langchain_openai import ChatOpenAI
+import pandas as pd
+
+# 1. 定义Agent可用的工具
+def load_data(filepath):
+    """工具1: 加载数据"""
+    df = pd.read_csv(filepath)
+    return f"加载成功，{len(df)}行，{len(df.columns)}列。\n列: {list(df.columns)}\n前3行:\n{df.head(3)}"
+
+def analyze_stats(column_name):
+    """工具2: 统计分析"""
+    stats = df[column_name].describe()
+    return f"{column_name}统计：\n{stats}"
+
+def detect_outliers(column_name):
+    """工具3: 异常检测"""
+    q1, q3 = df[column_name].quantile([0.25, 0.75])
+    iqr = q3 - q1
+    outliers = df[(df[column_name] < q1-1.5*iqr) | (df[column_name] > q3+1.5*iqr)]
+    return f"{column_name}异常值：{len(outliers)}条，占{len(outliers)/len(df)*100:.1f}%"
+
+# 2. 工具注册
+tools = [
+    Tool(name="加载数据", func=load_data, description="加载CSV文件"),
+    Tool(name="统计描述", func=analyze_stats, description="数值列的统计摘要"),
+    Tool(name="异常检测", func=detect_outliers, description="用IQR方法检测异常值"),
+]
+
+# 3. 创建Agent
+llm = ChatOpenAI(model="deepseek-chat", base_url="https://api.deepseek.com")
+agent = create_react_agent(llm, tools)
+
+# 4. 让Agent自主工作！
+result = agent.invoke({
+    "input": "加载sales.csv，检查sales_amount列是否有异常值，如果有，给出处理建议。"
+})
+print(result['output'])</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>🏗️ Agent框架选型</h4>
+          <table>
+            <tr><th>框架</th><th>适合场景</th><th>学习难度</th></tr>
+            <tr><td>LangChain</td><td>通用Agent，生态最丰富</td><td>⭐⭐⭐</td></tr>
+            <tr><td>LangGraph</td><td>复杂多步骤工作流</td><td>⭐⭐⭐⭐</td></tr>
+            <tr><td>AutoGen</td><td>多Agent协作</td><td>⭐⭐⭐</td></tr>
+            <tr><td>CrewAI</td><td>角色扮演型Agent团队</td><td>⭐⭐</td></tr>
+          </table>
+        </div>
+        <div class="block">
+          <h4>💡 关键要点</h4>
+          <ul>
+            <li>Agent = LLM + 工具 + 决策循环（思考→行动→观察→再思考）</li>
+            <li>数据分析Agent的核心工具：数据加载、统计、可视化、异常检测</li>
+            <li>生产环境加人审环节——Agent输出建议，人做最终决策</li>
+            <li>2026年面试高频：Agent设计模式（ReAct/Plan-Execute/多Agent）</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: Agent会不会乱来？</strong></p>
+          <p>A: 限定工具范围（不给删库权限），加人工确认环节。Agent是"辅助驾驶"不是"自动驾驶"。</p>
+          <p><strong>Q: 和普通脚本有什么区别？</strong></p>
+          <p>A: 脚本走固定流程，Agent能根据数据特征自主调整分析策略。比如发现数据不满足正态分布，Agent会自主选择非参数检验。</p>
+        </div>
+        `
+  },
+
+
+  {
+    id: 'ana-9',
+    title: '🧠 机器学习建模实战（XGBoost/LightGBM）',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：掌握工业界最常用的两大树模型，独立完成一个预测建模项目</div>
+        </div>
+        <div class="block">
+          <h4>📝 完整建模流程</h4>
+          <p><strong>Step 1: XGBoost vs LightGBM 选型</strong></p>
+          <table>
+            <tr><th>特性</th><th>XGBoost</th><th>LightGBM</th></tr>
+            <tr><td>速度</td><td>中等</td><td>极快（3-10x）</td></tr>
+            <tr><td>精度</td><td>高</td><td>略高于XGBoost</td></tr>
+            <tr><td>内存</td><td>较高</td><td>低（直方图算法）</td></tr>
+            <tr><td>适用</td><td>中小数据集、调参精细</td><td>大数据集、追求速度</td></tr>
+            <tr><td>面试</td><td colspan="2">两个都问，会一个+了解另一个区别即可</td></tr>
+          </table>
+          <p><strong>Step 2: 用户流失预测实战</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import lightgbm as lgb
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import roc_auc_score, classification_report
+
+# 1. 数据准备
+X = df.drop(['user_id', 'churn'], axis=1)  # 特征
+y = df['churn']                              # 标签：1=流失，0=留存
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# 2. 训练模型
+model = lgb.LGBMClassifier(
+    n_estimators=200,       # 树的数量
+    max_depth=6,             # 树的深度（防过拟合）
+    learning_rate=0.05,      # 学习率
+    subsample=0.8,           # 行采样
+    colsample_bytree=0.8,    # 列采样
+    random_state=42
+)
+model.fit(X_train, y_train,
+          eval_set=[(X_test, y_test)],
+          callbacks=[lgb.early_stopping(20)]  # 早停
+)
+
+# 3. 评估
+y_pred = model.predict_proba(X_test)[:, 1]
+auc = roc_auc_score(y_test, y_pred)
+print(f"AUC: {auc:.4f}")  # >0.75合格, >0.85优秀
+
+# 4. 特征重要性（面试必问！）
+importance = pd.DataFrame({
+    'feature': X.columns,
+    'importance': model.feature_importances_
+}).sort_values('importance', ascending=False)
+print(importance.head(10))</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>💡 调参口诀（面试高频）</h4>
+          <ul>
+            <li><strong>过拟合：</strong>降max_depth、加subsample、增min_child_samples</li>
+            <li><strong>欠拟合：</strong>增n_estimators、减正则化、加特征工程</li>
+            <li><strong>类别不平衡：</strong>设scale_pos_weight（=负样本数/正样本数）</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: AUC是什么，多少算好？</strong></p>
+          <p>A: AUC衡量模型区分正负样本的能力。0.5=瞎猜，0.7=及格，0.8=良好，0.9+=优秀。金融风控通常要0.85+。</p>
+          <p><strong>Q: 特征工程做哪些？</strong></p>
+          <p>A: 缺失值处理、类别编码（one-hot/label）、数值分桶、特征交叉、时间特征提取（星期几/是否节假日）。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-10',
+    title: '⚠️ 异常检测+时序预测AI化',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：用AI自动发现数据异常并做根因分析，构建时序预测模型</div>
+        </div>
+        <div class="block">
+          <h4>📝 实战：AI异常检测系统</h4>
+          <p><strong>Step 1: 基于3-sigma + Isolation Forest</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>import pandas as pd
+from sklearn.ensemble import IsolationForest
+
+# 1. 统计方法（简单但有效）
+mean = df['metric'].mean()
+std = df['metric'].std()
+df['z_score'] = (df['metric'] - mean) / std
+df['is_outlier_3sigma'] = abs(df['z_score']) > 3
+
+# 2. 机器学习方法（更智能）
+iso_forest = IsolationForest(contamination=0.05, random_state=42)
+df['is_outlier_if'] = iso_forest.fit_predict(df[['metric']]) == -1
+
+# 3. 结合两者：两者都标记为异常才报警（减少误报）
+df['is_anomaly'] = df['is_outlier_3sigma'] & df['is_outlier_if']
+
+# 检测到异常时的通知
+anomalies = df[df['is_anomaly']]
+if len(anomalies) > 0:
+    for _, row in anomalies.iterrows():
+        print(f"⚠️ 异常：{row['date']} 值为{row['metric']:.2f}，偏离均值{row['z_score']:.1f}σ")</code></pre>
+            </div>
+          </div>
+          <p><strong>Step 2: 根因分析——用AI解释异常</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 发现异常后，把相关维度数据发给AI分析原因
+prompt = f"""
+指标"日销售额"在{anomaly_date}出现异常（下降{delta_pct}%）。
+同期各维度数据：
+- 渠道：搜索流量降{search_pct}%，推荐流量正常
+- 品类：数码类降{digital_pct}%，食品类正常
+- 地域：一线城市降{tier1_pct}%，下沉市场正常
+
+请分析最可能的原因，按可能性排序，并给出排查建议。
+"""</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>📈 时序预测速览</h4>
+          <ul>
+            <li><strong>Prophet（Meta开源）：</strong>最适合业务预测（销售额/DAU），自动处理节假日、趋势、周期</li>
+            <li><strong>LightGBM时序：</strong>把日期特征化（月份/星期/是否周末）当回归做，简单有效</li>
+            <li><strong>Transformer时序：</strong>最准但最复杂，大厂前沿用得多</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 异常检测误报太多怎么办？</strong></p>
+          <p>A: 多方法投票（3-sigma + IForest + LOF三选二），加趋势判断（连续3天异常才报警）。</p>
+          <p><strong>Q: 时序预测用什么指标评估？</strong></p>
+          <p>A: MAE（平均绝对误差）和MAPE（百分比误差）。MAPE<10%算好用，<5%优秀。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-11',
+    title: '🔧 大模型微调入门（LoRA/QLoRA）',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：理解大模型微调原理，掌握LoRA高效微调方法，让模型适配你的业务数据</div>
+        </div>
+        <div class="block">
+          <h4>📝 微调 vs RAG：什么时候用哪个？</h4>
+          <table>
+            <tr><th>场景</th><th>推荐方案</th><th>原因</th></tr>
+            <tr><td>数据指标定义查询</td><td>RAG</td><td>指标定义经常更新</td></tr>
+            <tr><td>行业术语理解（如医疗/法律）</td><td>微调</td><td>术语固定，需深度理解</td></tr>
+            <tr><td>特定格式输出（如固定JSON）</td><td>微调</td><td>需要稳定格式，Prompt不稳定</td></tr>
+            <tr><td>SQL生成（公司专属表结构）</td><td>微调</td><td>表结构不变，要精准生成</td></tr>
+          </table>
+        </div>
+        <div class="block">
+          <h4>📝 LoRA微调实战</h4>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 使用LLaMA-Factory（最易用的微调框架）
+# 1. 准备数据（JSON格式）
+# data.json:
+# [{"instruction": "查询上月GMV", "output": "SELECT SUM(amount)...", ...}]
+
+# 2. 环境安装
+# git clone https://github.com/hiyouga/LLaMA-Factory.git
+# pip install -e .
+
+# 3. 配置+启动微调
+# 选择模型: Qwen2.5-7B（中文最优开源模型）
+# 方法: LoRA (r=16, alpha=32)
+# 学习率: 2e-4
+# 训练轮数: 3 epochs
+# 显存需求: 约16GB（QLoRA只需8GB！）</code></pre>
+            </div>
+          </div>
+          <p><strong>LoRA原理（面试必问）：</strong></p>
+          <p>不修改原模型参数，而是在旁边加两个小矩阵（A×B），只训练这两个矩阵。参数减少99%+，效果接近全量微调。</p>
+          <div class="lesson-tip">💡 QLoRA = LoRA + 4bit量化，显存需求再降50%。大部分公司用QLoRA就够了。</div>
+        </div>
+        <div class="block">
+          <h4>💡 数据分析师为什么需要微调？</h4>
+          <ul>
+            <li>让AI精准生成你公司的SQL（知道表名、字段名、业务逻辑）</li>
+            <li>让AI用你公司的话术写分析报告</li>
+            <li>成本低（LoRA模型只有几MB），可以给不同业务线训练专属小模型</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: 微调需要多少数据？</strong></p>
+          <p>A: LoRA最少100条高质量数据就能看到效果，500-1000条效果稳定。数据质量 > 数量。</p>
+          <p><strong>Q: 微调要GPU吗，普通电脑能跑吗？</strong></p>
+          <p>A: QLoRA + Qwen2.5-7B在M2 MacBook Pro 16GB上可跑，大约30分钟。云端用AutoDL租GPU（几块钱/小时）。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-12',
+    title: '📐 指标体系设计+AB测试实战',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：学会设计业务指标体系，独立完成一个AB测试从设计到结论的全流程</div>
+        </div>
+        <div class="block">
+          <h4>📝 指标体系设计</h4>
+          <p><strong>北极星指标（公司唯一最重要的指标）：</strong></p>
+          <table>
+            <tr><th>公司类型</th><th>北极星指标</th><th>原因</th></tr>
+            <tr><td>电商</td><td>GMV / 下单用户数</td><td>衡量交易规模</td></tr>
+            <tr><td>内容平台</td><td>用户总使用时长</td><td>衡量用户粘性</td></tr>
+            <tr><td>SaaS</td><td>MRR（月经常性收入）</td><td>衡量收入健康度</td></tr>
+            <tr><td>社交</td><td>DAU（日活）</td><td>衡量网络效应</td></tr>
+          </table>
+          <p><strong>指标分层（OSM模型）：</strong>目标 → 策略 → 度量。每个业务动作都必须有对应的衡量指标。</p>
+        </div>
+        <div class="block">
+          <h4>📝 AB测试六步法</h4>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code>from scipy import stats
+import numpy as np
+
+# 假设：实验组(新按钮)转化率 vs 对照组(旧按钮)
+control = np.random.binomial(1, 0.10, 10000)  # 10%转化率
+treatment = np.random.binomial(1, 0.12, 10000) # 12%转化率
+
+# 1. Z检验（比例类指标最常用）
+c_rate = control.mean()
+t_rate = treatment.mean()
+n_c, n_t = len(control), len(treatment)
+
+# 合并标准误
+p_pool = (control.sum() + treatment.sum()) / (n_c + n_t)
+se = np.sqrt(p_pool * (1-p_pool) * (1/n_c + 1/n_t))
+z_score = (t_rate - c_rate) / se
+p_value = 2 * (1 - stats.norm.cdf(abs(z_score)))
+
+print(f"对照组: {c_rate:.2%}")
+print(f"实验组: {t_rate:.2%}")
+print(f"提升: {(t_rate-c_rate)/c_rate:.1%}")
+print(f"p-value: {p_value:.4f}")
+
+# 2. 判断结论
+alpha = 0.05
+if p_value < alpha:
+    print("✅ 显著！实验组显著优于对照组")
+    # 计算置信区间
+    ci = stats.norm.interval(0.95, loc=t_rate-c_rate, scale=se)
+    print(f"提升幅度95%CI: [{ci[0]:.3%}, {ci[1]:.3%}]")
+else:
+    print("❌ 不显著，需要更大样本或更长实验时间")</code></pre>
+            </div>
+          </div>
+        </div>
+        <div class="block">
+          <h4>⚠️ AB测试常见陷阱</h4>
+          <ul>
+            <li><strong>辛普森悖论：</strong>总体显著但拆开看各细分都不显著（或相反）→ 一定要分维度验证</li>
+            <li><strong>偷看问题：</strong>实验没跑完就多次看结果→ 用序贯检验或固定时间点看</li>
+            <li><strong>样本量不足：</strong>实验前用功效分析计算最小样本量</li>
+            <li><strong>新奇效应：</strong>新功能刚上时数据好，长期回归均值→ 跑够2周</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: p-value到底是什么？</strong></p>
+          <p>A: 假设"两组没区别"成立的前提下，观察到当前差异的概率。p<0.05 = 这种差异如果纯属偶然，概率不到5% → 我们认为它是真实的。</p>
+          <p><strong>Q: AB测试要跑多久？</strong></p>
+          <p>A: 至少覆盖一个完整业务周期（通常是1-2周），确保包含工作日和周末。样本量够大可以缩短。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-13',
+    title: '🔬 因果推断实战（DID/PSM/IV）',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：掌握2026年面试最热的因果推断方法，从"相关"进阶到"因果"</div>
+        </div>
+        <div class="block">
+          <h4>📝 为什么需要因果推断？</h4>
+          <p>相关 ≠ 因果。冰激凌销量和溺水死亡正相关，但吃冰激凌不会导致溺水——因为夏天两者都多。AB测试无法覆盖所有场景（如政策效果评估），需要因果推断。</p>
+        </div>
+        <div class="block">
+          <h4>📝 三大方法实战</h4>
+          <p><strong>方法1: DID（双重差分）——评估政策/活动效果</strong></p>
+          <div class="code-block">
+            <div class="code-header" onclick="toggleCodeBlock(this)">
+                <span class="code-lang">Python</span>
+                <div class="code-actions">
+                    <button class="code-copy-btn" onclick="event.stopPropagation();copyCode(this)">📋 复制</button>
+                    <button class="code-toggle-btn">▼ 展开</button>
+                </div>
+            </div>
+            <div class="code-body">
+                <pre><code># 案例：评估618大促对GMV的真实提升
+# 处理组(参与大促) vs 对照组(未参与)，前后对比
+
+# DID = (处理组后-处理组前) - (对照组后-对照组前)
+treat_before = 100  # 处理组大促前GMV
+treat_after = 150   # 处理组大促后GMV
+ctrl_before = 95    # 对照组同期前
+ctrl_after = 105    # 对照组同期后
+
+did = (treat_after - treat_before) - (ctrl_after - ctrl_before)
+# DID = 50 - 10 = 40  # 618真正带来了40%增长（而不是50%）</code></pre>
+            </div>
+          </div>
+          <p><strong>方法2: PSM（倾向得分匹配）——找可比的对照组</strong></p>
+          <p>当不能随机分组时（如付费用户vs免费用户），PSM通过用户特征匹配找到"最相似"的用户做对比。</p>
+          <p><strong>方法3: IV（工具变量）——解决遗漏变量偏差</strong></p>
+          <p>当存在未观测的混淆因子时（如"用户积极性"同时影响使用频率和消费），用工具变量（如"是否被随机分配到新版本"）来估计真实因果效应。</p>
+        </div>
+        <div class="block">
+          <h4>🎯 面试答题框架</h4>
+          <p>面试官："如何评估一个营销活动的真实效果？"</p>
+          <p>✅ 标准回答：</p>
+          <ol>
+            <li>首选AB测试（如果有条件随机分组）</li>
+            <li>不能随机则用DID（找自然对照组，前后对比）</li>
+            <li>组间差异大用PSM先匹配再DID</li>
+            <li>存在遗漏变量用IV</li>
+            <li>无论哪种方法，都要做稳健性检验（安慰剂测试、不同模型设定）</li>
+          </ol>
+        </div>
+        <div class="block">
+          <h4>❓ 常见问题</h4>
+          <p><strong>Q: DID有什么前提假设？</strong></p>
+          <p>A: 平行趋势假设——处理组和对照组在事件前趋势相同。用事件前数据画趋势图验证。</p>
+          <p><strong>Q: 这么多方法面试真会考吗？</strong></p>
+          <p>A: 大厂数据分析师和策略岗必考。美团/字节/快手的JD明确写"DID/PSM/SCM等因果推断方法"。</p>
+        </div>
+        `
+  },
+  {
+    id: 'ana-14',
+    title: '📣 数据产品化与故事讲述',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：学会把分析能力封装成数据产品，掌握让老板/业务方听懂你的分析</div>
+        </div>
+        <div class="block">
+          <h4>📝 数据产品化：从"一次性分析"到"可持续服务"</h4>
+          <p>好的数据分析师不只做一次性的取数需求，而是把高频需求抽象成数据产品。</p>
+          <table>
+            <tr><th>业务需求</th><th>一次性做法</th><th>数据产品化</th></tr>
+            <tr><td>"每天看销售数据"</td><td>每天跑SQL导出Excel</td><td>搭建自动化仪表盘，异常自动推送</td></tr>
+            <tr><td>"用户为什么流失"</td><td>分析一次写报告</td><td>流失预警模型+自动归因+推送运营</td></tr>
+            <tr><td>"这次活动效果如何"</td><td>活动结束手动评估</td><td>活动效果评估平台，自动算ROI</td></tr>
+          </table>
+        </div>
+        <div class="block">
+          <h4>📣 数据故事讲述（Data Storytelling）</h4>
+          <p><strong>公式：结论先行 → 数据支撑 → 业务建议</strong></p>
+          <div class="lesson-tip">💡 老板要的不是数据，是决策依据。把"销售额下降15%"翻译成"建议本周增加促销预算20万，预计可挽回收入50万"。</div>
+          <p><strong>万能汇报框架：</strong></p>
+          <ol>
+            <li><strong>一句话结论：</strong>"我们发现了X问题，建议做Y动作"</li>
+            <li><strong>关键数据：</strong>最多3个数字，选最震撼的</li>
+            <li><strong>原因分析：</strong>不是"可能因为"，而是"经排查，根本原因是..."</li>
+            <li><strong>行动建议：</strong>具体的、可量化的、有时限的</li>
+            <li><strong>预期影响：</strong>"预计可提升XX%"/"预计可节省XX万"</li>
+          </ol>
+        </div>
+        <div class="block">
+          <h4>💡 关键要点</h4>
+          <ul>
+            <li>好的分析报告：结论1页、细节3页、附录不限</li>
+            <li>面向老板：结论先行，细节后置</li>
+            <li>面向同行：方法论清楚，可复现</li>
+            <li>数据产品化让你从"取数工具人"变成"平台建设者"——这是晋升的关键</li>
+          </ul>
+        </div>
+        `
+  },
+  {
+    id: 'ana-15',
+    title: '📄 简历优化+GitHub作品集打造',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：打造一份能过初筛的AI数据分析师简历，建设有说服力的GitHub作品集</div>
+        </div>
+        <div class="block">
+          <h4>📝 简历STAR法则（AI数据分析师版）</h4>
+          <p>每条经历必须包含：<strong>场景 → 动作 → 结果（量化！）</strong></p>
+          <div class="comparison-table">
+            <table>
+              <tr><th>❌ 差</th><th>✅ 好</th></tr>
+              <tr><td>负责日常数据分析工作</td><td>搭建自动化数据流水线，将日报产出时间从2小时降至5分钟，覆盖5个业务线</td></tr>
+              <tr><td>用Python做数据分析</td><td>用XGBoost构建用户流失预测模型，AUC 0.87，帮助运营提前7天识别高风险用户</td></tr>
+              <tr><td>搭建数据看板</td><td>用RAG+LangChain搭建内部知识库，支持自然语言查询200+指标，减少重复取数需求60%</td></tr>
+              <tr><td>参与AB测试</td><td>独立设计并执行6个AB测试，基于DID方法评估策略效果，推动3个策略全量上线</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="block">
+          <h4>📁 GitHub作品集必备项目</h4>
+          <table>
+            <tr><th>项目</th><th>技术栈</th><th>亮点</th></tr>
+            <tr><td>Text-to-SQL系统</td><td>LangChain + DeepSeek + MySQL</td><td>展示NL2SQL+安全校验</td></tr>
+            <tr><td>RAG知识库</td><td>ChromaDB + BGE + DeepSeek</td><td>展示检索增强生成能力</td></tr>
+            <tr><td>异常检测看板</td><td>Python + ECharts + Airflow</td><td>展示数据工程+可视化</td></tr>
+            <tr><td>用户流失预测</td><td>LightGBM + SHAP + Flask API</td><td>展示建模+模型解释+部署</td></tr>
+          </table>
+          <p>每个项目README必须包含：背景、数据来源、技术方案、核心代码、效果数据、如何复现。</p>
+        </div>
+        <div class="block">
+          <h4>💡 简历投递策略</h4>
+          <ul>
+            <li>优先投AI数据分析师/增长数据分析师/策略分析师的岗位</li>
+            <li>JD中如果有"大模型/AI/Agent/RAG"关键词，命中率翻倍</li>
+            <li>内推 > Boss直聘海投 > 官网投递</li>
+            <li>薪资范围：北京/上海/深圳初级18-25k，中级30-45k</li>
+          </ul>
+        </div>
+        `
+  },
+  {
+    id: 'ana-16',
+    title: '🎤 面试案例分析（大厂真题模拟）',
+    content: `
+        <div class="lesson-content">
+          <div class="lesson-goal">🎯 本节目标：模拟真实面试场景，掌握大厂高频面试题的答题框架</div>
+        </div>
+        <div class="block">
+          <h4>📝 大厂面试真题精选</h4>
+          <p><strong>Q1: 某App DAU突然下降20%，你怎么排查？（字节跳动真题）</strong></p>
+          <div class="lesson-tip">💡 结构化回答框架：维度拆解 → 排除法 → 定位根因</div>
+          <ol>
+            <li><strong>拆解维度：</strong>先按渠道（自然/付费/社交）、地域、用户群（新/老）、设备（iOS/Android）拆分看哪个维度出了问题</li>
+            <li><strong>时间定位：</strong>减幅是突降还是持续降？哪个小时开始？和发版时间对齐了没？</li>
+            <li><strong>外部因素：</strong>是否节假日？竞品有大动作？服务器宕机？</li>
+            <li><strong>内部因素：</strong>最近上线了新功能？改了推荐算法？推送策略变了？</li>
+          </ol>
+        </div>
+        <div class="block">
+          <p><strong>Q2: 如何衡量一个推荐算法的效果？（美团真题）</strong></p>
+          <div class="lesson-tip">💡 回答思路：指标体系 + AB测试 + 长期影响</div>
+          <ol>
+            <li><strong>核心指标：</strong>CTR（点击率）、CVR（转化率）、人均消费时长</li>
+            <li><strong>护栏指标：</strong>多样性（防止信息茧房）、加载耗时、用户负反馈率</li>
+            <li><strong>实验设计：</strong>用AB测试，按user_id hash分流。样本量计算确保MDE</li>
+            <li><strong>长期观察：</strong>看次日/7日留存，防止短期指标好但长期伤害体验</li>
+          </ol>
+        </div>
+        <div class="block">
+          <p><strong>Q3: 给你一个Excel，怎么设计数据分析流程？（腾讯真题）</strong></p>
+          <ol>
+            <li><strong>理解业务：</strong>先问清楚这个数据要回答什么业务问题</li>
+            <li><strong>数据探查：</strong>数据量、缺失值、异常值、数据类型</li>
+            <li><strong>清洗处理：</strong>缺失填充、异常处理、格式统一</li>
+            <li><strong>分析方法：</strong>描述统计→相关性→分组对比→可视化</li>
+            <li><strong>AI加持：</strong>用AI辅助写清洗代码、生成可视化、给分析建议</li>
+          </ol>
+        </div>
+        <div class="block">
+          <h4>🎯 面试高频考点清单</h4>
+          <ul>
+            <li>SQL：窗口函数（必考）、留存/漏斗分析（必考）</li>
+            <li>Python：Pandas数据处理题、特征工程思路</li>
+            <li>统计：p-value解释、AB测试全流程、辛普森悖论</li>
+            <li>机器学习：XGBoost vs LightGBM区别、过拟合处理、AUC解释</li>
+            <li>因果推断：DID原理+例子、什么时候不能用AB测试</li>
+            <li>AI：RAG原理、Prompt设计、大模型API调用经验</li>
+            <li>业务：指标体系设计、数据产品化思路</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h4>💡 面试技巧</h4>
+          <ul>
+            <li>不要直接给答案，展示你的<strong>思考过程</strong></li>
+            <li>不确定时诚实说"这个我不太确定，但我的思路是..."</li>
+            <li>主动追问业务背景——面试官喜欢会问问题的人</li>
+            <li>结尾反问：问团队结构、技术栈、当前业务挑战</li>
+          </ul>
+        </div>
+        `
+  },
+
 );

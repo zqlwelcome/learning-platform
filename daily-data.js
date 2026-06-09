@@ -9,59 +9,102 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-06-07 10:56",
+    "updateTime": "2026-06-09 22:56",
     "mood": {
-        "mood": "谨慎悲观，波动加剧",
-        "icon": "😰",
-        "color": "#FF6347",
-        "confidence": 6,
+        "mood": "谨慎乐观，波动加剧",
+        "icon": "🧐",
+        "color": "#FFA500",
+        "confidence": 7,
         "dimensions": [
             {
                 "label": "📈 趋势",
-                "value": "AI和芯片板块出现逆转性回调，短期趋势转弱，但SpaceX等新兴产业IPO带来结构性机会。"
+                "value": "美股高开，芯片股反弹，但通胀数据威胁反弹持续性，趋势呈现短期反弹与中期压力并存的特征。"
             },
             {
                 "label": "💰 资金",
-                "value": "资金从高估值科技股流出，部分转向避险资产和新兴题材（如玻璃基板），但整体流动性仍偏紧。"
+                "value": "资金流向分化：比特币暴跌引发相关股票交易激增，但存在大额看涨押注；SpaceX员工寻求低费财富管理，显示部分资金正从高波动资产转向防御性配置。"
             },
             {
                 "label": "🌍 地缘",
-                "value": "美国对华科技限制持续，白宫AI政策顾问离职暗示政策不确定性；美洲牲畜疫情影响贸易格局。"
+                "value": "油价因霍尔木兹海峡航运增加而大跌近4%，地缘风险短期缓和，但中东局势仍存不确定性；欧盟对苹果的监管施压，科技巨头面临政策风险。"
             },
             {
                 "label": "🏭 热点",
-                "value": "SpaceX IPO和玻璃基板量产成为新热点，但芯片和AI板块的抛售显示旧热点过热风险释放。"
+                "value": "芯片领域竞争加剧，微软支持的D-Matrix挑战英伟达；摩根大通计划部署更强AI代理，AI与半导体热度不减，但龙头地位面临挑战。"
             },
             {
                 "label": "😊 情绪",
-                "value": "恐慌指数（VIX）回升，比特币暴跌加剧风险厌恶，市场情绪从贪婪转向恐惧。"
+                "value": "市场情绪复杂：美股高开带来乐观，但通胀数据阴云和比特币暴跌引发担忧，投机情绪在恐慌与贪婪间摇摆。"
             },
             {
                 "label": "🏦 宏观",
-                "value": "美联储加息预期再起，银行监管放松争议升温，通胀数据和科技财报将成短期焦点。"
+                "value": "美联储加息传闻再起，通胀数据是关键变量；美国成屋销售创12月新高，显示经济韧性，但高利率环境对房地产的滞后影响需警惕。"
             }
         ],
-        "summary": "市场在AI和芯片板块的猛烈抛售中进入调整期，恐慌情绪抬头，但SpaceX等创新企业融资和玻璃基板题材提供了结构性看点。整体情绪谨慎，需警惕宏观数据扰动和政策风险。"
+        "summary": "今日市场情绪谨慎乐观，但通胀与加息预期构成主要压力。油价回落缓解通胀担忧，科技反弹提供短期动力，但地缘、监管和竞争风险并存。资金流向显示避险与投机并存，整体波动性可能加大。"
     },
     "experts": {
         "templeton": {
-            "insight": "邓普顿会指出，当前芯片和AI板块的暴跌正是‘极度悲观点’的经典体现。SpaceX的巨额IPO和玻璃基板量产热潮表明，资金正在寻找下一个增长极。市场恐慌是买入良机，尤其是那些被错杀的优质科技股，但需耐心等待通胀数据落地后的极端情绪分化。",
-            "action": "建议在恐慌中分批布局被低估的科技龙头，关注SpaceX供应链和玻璃基板相关的小市值成长股，保持现金弹性。"
+            "insight": "邓普顿认为，当前市场恐慌是逆向投资的良机。美联储加息传闻和通胀数据引发的抛售，往往在悲观中孕育机会。油价下跌和地缘缓和是好消息，但投资者过度聚焦短期风险。芯片股竞争加剧，正是寻找被低估的潜力股之时。比特币暴跌后的大额看涨押注，暗示聪明钱在抄底。我主张在市场最悲观时买入，尤其是科技和能源板块。",
+            "action": "建议在通胀数据和加息预期导致的下跌中，逐步买入优质科技股和能源股，利用市场恐慌逆向建仓，保持耐心等待反弹。"
         },
         "buffett": {
-            "insight": "巴菲特会强调安全边际和护城河。芯片和AI板块的暴跌验证了‘潮水退去才知谁裸泳’，但SpaceX的垄断性估值和美联储加息背景让他更关注现金流。他可能对高估值AI股保持警惕，转而看好具有定价权的消费和能源股，以及受益于监管放宽的银行股。",
-            "action": "建议增持现金流稳健、低负债的蓝筹股，减持高估值科技股，关注银行和保险板块的长期价值。"
+            "insight": "巴菲特关注企业的长期护城河和现金流。摩根大通部署AI代理和微软投资D-Matrix，显示科技巨头在AI领域的持续投入，但竞争激烈需谨慎。SpaceX员工选择低费财富管理，符合理性投资原则。成屋销售增长是经济健康的信号，但加息可能抑制房地产。我偏好那些有强大品牌和稳定现金流的公司，如苹果，尽管欧盟监管带来不确定性，但长期价值未变。",
+            "action": "建议持有苹果等护城河深厚的公司，忽略短期监管噪音；关注摩根大通和微软的AI布局，但避免追高，等待合理估值买入。"
         },
         "munger": {
-            "insight": "芒格会批判市场对AI和芯片的非理性狂热，认为‘crash up’的逆转是对投机者的惩罚。他赞赏SpaceX的实业创新，但警告IPO泡沫风险。比特币暴跌印证了他对加密货币的厌恶，而美联储加息预期和银行监管放松警示了金融体系的脆弱性。",
-            "action": "建议远离加密货币和题材炒作，持有优质传统企业和指数基金，在科技股回调中只选择护城河深厚、管理层理性的公司。"
+            "insight": "芒格强调理性与常识。当前市场充满了噪音：比特币暴跌、芯片股反弹、油价波动，多数投资者被情绪左右。我关注的是企业的真实价值，而非短期新闻。D-Matrix挑战英伟达，但英伟达的领先地位难以动摇，投资者应避免追逐新概念。欧盟对苹果的监管是长期问题，但苹果的生态系统坚不可摧。最好的策略是保持简单，避免复杂和投机。",
+            "action": "建议远离比特币等投机资产，专注于苹果、微软等简单易懂的企业；不要被芯片股竞争故事迷惑，坚持投资有长期竞争优势的公司。"
         },
         "duan": {
-            "insight": "段永平会从生意和用户价值出发，认为AI和芯片板块的暴跌是短期情绪扰动，SpaceX和玻璃基板代表了真正的技术突破。他关注企业长期竞争力，如SpaceX的商业模式和供应链确定性，同时提醒投资者在恐慌中不要轻易卖出好公司，但需警惕美联储加息的冲击。",
-            "action": "建议坚守苹果、腾讯等护城河深厚的公司，轻仓参与SpaceX IPO和玻璃基板概念，关注财报季中业绩超预期的个股。"
+            "insight": "段永平认为，投资就是买好生意，好价格。今天新闻中，SpaceX员工选择低费财富管理，体现了对成本的重视，这与我的理念一致。摩根大通部署AI代理，是提升效率的好生意，但需关注估值。英伟达虽好，但竞争加剧可能影响其定价权。我更喜欢那些商业模式简单、用户粘性强的公司，比如苹果，欧盟监管只是短期干扰。市场波动时，正是买入好公司的机会。",
+            "action": "建议关注苹果和摩根大通，在回调时逐步买入；对芯片股保持谨慎，不参与短期热点，坚持长期持有优质公司，忽略市场噪音。"
         }
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -384,146 +427,60 @@ function getTraderMoodLens(moodData) {
 function getForwardRadarHtml() {
     const events = [
         {
-            date: '2026-05-31',
-            label: '05/31',
-            event: '结果更新｜中国5月PMI',
-            region: '中国景气',
-            impact: 'medium',
-            result: '结果+市场解读：国家统计局公布，5月制造业PMI 50.0，非制造业商务活动指数 50.1，综合PMI 50.5。生产端还在扩张，但价格和外需项偏弱，说明修复更像“政策托底下的局部回暖”，不是全面顺风。',
-            core: '主要改的是盈利预期和政策预期。景气线没掉下去，意味着政策不用立刻猛加码；但价格端偏弱，说明企业利润弹性还没完全打开。',
-            assets: 'A股和港股里，设备更新、工程机械、基建链、央国企红利更稳；纯出口链、弱定价周期品要继续看后续订单和价格能不能接力。',
-            flow: '资金更愿意留在“政策能托、订单能看见”的高股息央国企和高端制造；如果红利继续强于小票成长，说明市场还在防守轮动而不是全面进攻。',
-            action: '如果6月信用和实体数据继续改善，可关注顺周期和港股估值修复；如果PMI守在50附近但量价继续弱，倾向只做结构，不追全面复苏交易。',
-            plain: '经济没有失速，但离“所有股票一起涨”还差一口气。'
+            date: '2026-06-01',
+            label: '06/01',
+            event: '美国ISM制造业PMI',
+            region: '美国宏观',
+            impact: 'high',
+            result: '结论：这是本周开盘的第一张体检表，交易员会用它判断美国经济是软着陆，还是需求开始变冷。',
+            watch: '强于预期：周期股、工业股可能占优，降息预期降温；弱于预期：债券可能先开心，高估值科技要看利率怎么走。',
+            action: '小白看法：别只看数字高低，看市场反应。如果坏数据反而涨，说明资金在交易“降息”；如果好数据也涨，说明风险偏好还很强。'
+        },
+        {
+            date: '2026-06-03',
+            label: '06/03',
+            event: '美国ISM服务业 + 美联储褐皮书',
+            region: '利率预期',
+            impact: 'high',
+            result: '结论：服务业更接近美国经济真实温度，褐皮书会告诉市场各地区工资、消费和企业信心有没有变弱。',
+            watch: '服务业强、工资粘：降息预期会被压；服务业弱、消费冷：市场会重新押注宽松。',
+            action: '小白看法：这天重点看美债收益率。收益率上行，成长股估值受压；收益率下行，科技和黄金更容易被资金盯上。'
         },
         {
             date: '2026-06-05',
             label: '06/05',
-            event: '结果更新｜美国5月非农',
-            region: '美元利率',
+            event: '美国非农就业报告',
+            region: '全球核心',
             impact: 'high',
-            result: '结果+市场解读：美国劳工统计局公布，5月新增非农 17.2 万，失业率 4.3% 持平。就业没明显降温，市场自然把“很快降息”的押注往后挪，美元和短端美债更容易偏强。',
-            core: '主要改的是利率预期和风险偏好。只要就业不明显走软，美联储就缺少快速转鸽的理由。',
-            assets: '2年和10年美债收益率、美元、黄金、纳指、半导体、港股互联网、A股高估值成长都会被重新定价。',
-            flow: '短线资金更容易回流美元、短债和现金流稳定的大盘股；如果2年美债继续上、纳指先弱、黄金承压，就是市场在交易“高利率更久”。',
-            action: '如果接下来的美国通胀也偏强，倾向减轻高估值成长股；如果非农不弱但收益率反而回落，说明市场在交易“增长还行、通胀可控”，科技反弹才更扎实。',
-            plain: '美国就业还撑得住，所以市场不会轻易相信“马上降息”。'
-        },
-        {
-            date: '2026-06-07',
-            label: '06/07',
-            event: '结果更新｜OPEC+ 7月增产安排',
-            region: '原油地缘',
-            impact: 'high',
-            result: '结果+市场解读：OPEC 官网披露，7个自愿减产国决定 7 月实施 18.8 万桶/日的产量调整。名义上是增供给，但如果油价不跌反涨，市场交易的就不是供给宽松，而是地缘和运输风险让风险溢价重新抬头。',
-            core: '主要改的是通胀预期、流动性预期和地缘风险溢价。油价一旦高位黏住，全球央行的降息空间就会被压。',
-            assets: '原油、油服、航运、航空、通胀交易、美债收益率、黄金，以及A/H能源和化工链都会受影响。',
-            flow: '热钱可能一边流向能源、军工、商品链，一边撤出对利率最敏感的长久期科技；如果布油、黄金、美元一起偏强，说明市场在同时交易通胀和避险。',
-            action: '如果油价冲高后迅速回落，可把它当成情绪冲击；如果油价高位横住且运价同步抬升，倾向回避高油价受损的消费和航空。',
-            plain: '别只盯着“增产”两个字，关键是油价最后有没有真的掉下来。'
+            result: '结论：这是本周最能改变热钱方向的数据。就业太强，市场担心降息推迟；就业太弱，市场又会担心经济衰退。',
+            watch: '最理想剧本是“温和降温”：就业不崩、工资不热，风险资产最舒服。',
+            action: '小白看法：非农当天别急着追第一根K线。交易员通常先看就业、工资、失业率三件套，再看市场是不是反应过度。'
         },
         {
             date: '2026-06-10',
             label: '06/10',
-            event: '前瞻｜美国5月CPI',
-            region: '通胀定价',
-            impact: 'high',
-            result: '结果窗口：2026年6月10日 20:30（北京时间）。美国非农刚把降息预期往后推，这次CPI会决定“高利率更久”是暂时吓人，还是继续被坐实。',
-            core: '主要改的是利率预期和流动性预期。CPI如果再硬，6月FOMC后的表态就更难偏鸽。',
-            assets: '2年美债、美元、黄金、纳指、半导体、比特币、港股互联网、A股AI链都会跟着波动。',
-            flow: '如果CPI高于预期且2年美债继续上冲，资金会从长久期资产撤向美元、短债和防御；如果CPI回落且油价没再推高，热钱会优先回科技和黄金。',
-            action: '如果数据强于预期，倾向减轻高估值成长股；如果通胀回落且收益率下行，可关注黄金和科技反弹，但先确认不是只拉一天。',
-            plain: '这份通胀数据会决定“贵的科技股还能不能继续贵”。'
-        },
-        {
-            date: '2026-06-10',
-            label: '06/10',
-            event: '前瞻｜中国5月CPI/PPI',
-            region: '中国价格',
+            event: '中国通胀和社融窗口期',
+            region: '中国资产',
             impact: 'medium',
-            result: '结果窗口：国家统计局发布日程显示为 2026年6月10日 9:30。市场要看中国是不是从“有政策、没价格”慢慢走向“需求和价格一起修”。',
-            core: '主要改的是盈利预期和政策预期。CPI太弱说明消费恢复不够，PPI太弱说明工业利润传导仍然卡着。',
-            assets: 'A股消费、白酒、家电、顺周期、煤化工、有色，港股内需和平台股，人民币汇率都会受影响。',
-            flow: '如果CPI和PPI同步改善，资金更容易回流内需修复和顺周期；如果继续偏弱，钱会更愿意留在高股息、央国企和政策主题。',
-            action: '如果价格数据改善但成交量不跟，先别追；如果价格修复叠加人民币企稳，可留意港股消费和A股顺周期修复。',
-            plain: '这不是单纯看物价，而是看中国企业赚钱会不会变容易。'
-        },
-        {
-            date: '2026-06-15',
-            label: '06/15-16',
-            event: '前瞻｜日本央行议息会议',
-            region: '日元套息',
-            impact: 'medium',
-            result: '结果窗口：2026年6月15日至16日，日本央行会议；6月24日还有意见摘要。关键不只是会不会改利率，更是会不会释放减少购债、容忍日债收益率上行、支持日元回升的信号。',
-            core: '主要改的是全球流动性预期和风险偏好。日元如果明显转强，靠低息融资撑起来的全球高波动仓位会先缩。',
-            assets: '日元、日债、纳指、亚洲成长股、港股科技、比特币、黄金都会受情绪和流动性影响。',
-            flow: '如果日元走强、日债收益率抬升、亚洲高贝塔先跌，说明资金在拆日元套息；如果会后日元继续弱，风险资产会先松一口气。',
-            action: '如果日本央行口风偏鹰，倾向降低高杠杆高波动仓位；如果表态温和且美元利率没再冲高，亚洲成长资产有望出现技术性反弹。',
-            plain: '日本一收水，全球很多爱冒险的钱就会先缩手。'
-        },
-        {
-            date: '2026-06-16',
-            label: '06/16',
-            event: '前瞻｜中国5月工业、零售、投资、地产数据',
-            region: '中国增长',
-            impact: 'high',
-            result: '结果窗口：国家统计局发布日程显示为 2026年6月16日 9:30。这里比单独看CPI更重要，因为它直接回答消费、制造、地产到底谁在拖、谁在扛。',
-            core: '主要改的是盈利预期和政策预期。工业和零售强，说明稳增长开始传导到收入；地产继续弱，说明信用修复仍不扎实。',
-            assets: 'A股可选消费、家电、建材、机械、银行、地产链，港股内房、物管、消费互联网，人民币和国债也会受影响。',
-            flow: '如果工业和零售走强、地产止跌，资金会从纯防御转向顺周期和消费修复；如果只有工业强、消费和地产弱，钱会更偏制造业龙头和红利。',
-            action: '如果数据改善但地产仍拖后腿，倾向只做结构而不做全面进攻；如果消费、工业、地产一起改善，再考虑提高中国风险资产暴露。',
-            plain: '这一天能看出中国经济是在真修复，还是只是局部回暖。'
-        },
-        {
-            date: '2026-06-17',
-            label: '06/17',
-            event: '前瞻｜美国5月零售销售',
-            region: '美国增长',
-            impact: 'medium',
-            result: '结果窗口：美国人口普查局日程显示为 2026年6月17日 20:30（北京时间）。这是FOMC前最后一批关键增长数据，决定市场要不要把“高利率压需求”重新交易一遍。',
-            core: '主要改的是盈利预期和风险偏好。消费如果还强，美国经济软着陆叙事会继续撑住；消费如果明显掉速，市场会重新押注债券和防御。',
-            assets: '美债收益率、美元、可选消费、银行、纳指、罗素2000、原油、铜和亚洲出口链都会受影响。',
-            flow: '如果零售强、收益率上、周期股强于科技，说明钱在交易“增长还没熄火”；如果零售弱、长债涨、黄金走强，说明资金转向防守和降息预期。',
-            action: '如果零售强但CPI也高，倾向回避最贵的成长股；如果零售转弱且收益率回落，可关注黄金和利率敏感科技的修复。',
-            plain: '美国人还肯不肯花钱，会直接影响市场敢不敢继续冒险。'
+            result: '结论：中国资产接下来要看政策和信用有没有接力。只靠情绪反弹不够，热钱更想看到真实需求或流动性改善。',
+            watch: '社融和信贷改善：A股、港股风险偏好更容易修复；通胀太弱：说明需求还要等政策加码。',
+            action: '小白看法：看中国新闻时别只看“利好”两个字，要问钱有没有真的进实体、进股市、进消费。'
         },
         {
             date: '2026-06-16',
             label: '06/16-17',
-            event: '前瞻｜美联储FOMC + 点阵图',
+            event: '美联储FOMC议息会议',
             region: '全球定价锚',
             impact: 'high',
-            result: '结果窗口：联储会议纪要已确认下次会议为 2026年6月16日至17日。这是未来两周最重要的全球资产定价点，关键不只是会不会按兵不动，而是点阵图、通胀措辞和鲍威尔会不会承认降息更晚。',
-            core: '主要改的是利率预期、流动性预期和风险偏好，是全球资产的总开关。',
-            assets: '美债收益率、美元、黄金、原油、纳指、罗素、A股成长、港股科技、新兴市场汇率都会被重定价。',
-            flow: '偏鹰时，资金会回流美元、短债、能源和防御；偏鸽时，黄金、科技、港股、成长风格和新兴市场更容易同步受益。真正的确认信号是美元和2年美债是否同向走。',
-            action: '如果点阵图上修、鲍威尔偏鹰，倾向保守处理成长仓位；如果通胀措辞缓和且收益率下行，可关注黄金、科技和港股弹性，但最好等会后第一个完整交易日再确认。',
-            plain: '这次会议会决定，全球市场接下来更像抢反弹，还是先防守。'
-        },
-        {
-            date: '2026-06-22',
-            label: '06/22',
-            event: '前瞻｜中国6月LPR',
-            region: '人民币利率',
-            impact: 'medium',
-            result: '结果窗口：按人民银行规则，LPR每月20日公布、遇节假日顺延；2026年6月20日是周六，因此本月时间点大概率落在 2026年6月22日。市场不只看降不降，更看政策是否愿意继续给地产和信用修复降成本。',
-            core: '主要改的是政策预期和流动性预期。LPR若下调，说明稳增长更愿意向实体融资成本传导；若按兵不动，市场会更关注财政和结构性工具。',
-            assets: '人民币、国债、银行、地产链、港股内房、高股息央国企和消费修复链都会受影响。',
-            flow: '如果LPR下调且人民币稳住，资金更容易回流地产链和内需修复；如果LPR不动、长债继续强，说明钱仍偏向债市和防御权益。',
-            action: '如果LPR有动作但地产销售和信用数据不配合，先别把它当全面反转；如果LPR配合后续信用修复，可逐步观察内房、物管和顺周期的弹性。',
-            plain: '降息本身不是重点，重点是它能不能真的把钱送进经济里。'
+            result: '结论：这是未来两周最大事件。真正重要的不是降不降息，而是点阵图和鲍威尔讲话会不会改变下半年利率路径。',
+            watch: '偏鹰：美元和美债收益率上行，成长股承压；偏鸽：黄金、科技、港股和风险资产更容易喘口气。',
+            action: '小白看法：FOMC前不要把仓位打满。交易员会等“方向确认”，普通人更要留余地。'
         }
     ];
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    const lookback = new Date(today);
-    lookback.setDate(today.getDate() - 10);
-    const lookahead = new Date(today);
-    lookahead.setDate(today.getDate() + 14);
-    const visible = events.filter(item => {
-        const eventDate = new Date(`${item.date}T00:00:00`);
-        return eventDate >= lookback && eventDate <= lookahead;
-    });
+    const upcoming = events.filter(item => new Date(`${item.date}T00:00:00`) >= today).slice(0, 4);
+    const visible = upcoming.length ? upcoming : events.slice(-3);
 
     return `<div class="a-calendar-list">${visible.map(item => `
         <div class="a-calendar-item expanded">
@@ -535,16 +492,11 @@ function getForwardRadarHtml() {
             </div>
             <div class="a-calendar-detail">
                 <div class="a-calendar-explain">${item.result}</div>
-                <div class="a-calendar-watch">交易员核心判断：${item.core}</div>
-                <div class="a-calendar-watch">资产映射：${item.assets}</div>
-                <div class="a-calendar-watch">热钱路径：${item.flow}</div>
-                <div class="a-calendar-watch">操作提示：${item.action}</div>
-                <div class="a-calendar-impact-text">小白翻译：${item.plain}</div>
+                <div class="a-calendar-watch">交易员盯什么：${item.watch}</div>
+                <div class="a-calendar-impact-text">${item.action}</div>
             </div>
         </div>
-    `).join('')}
-        <div class="a-flow-disclaimer">免责声明：以上内容仅用于学习和理解市场传导链条，帮助你建立“事件如何影响资产”的阅读框架，不构成任何个性化投资建议。真实交易请结合个人风险承受力、仓位管理和止损纪律执行。</div>
-    </div>`;
+    `).join('')}</div>`;
 }
 
 async function buildAutoTradePoolHtml(hotNews, quoteMap = null, macro = null) {
@@ -672,35 +624,67 @@ function buildSectorHeatHtml(hotNews, globalFlow, quoteMap, macro) {
             <div class="a-radar-copy">不是看谁今天最吵，而是看热钱正在押哪条主线、有没有过热、和交易池/模拟盘有没有形成闭环。</div>
         </div>
         <div class="a-sector-list">
-            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；用于判断主线，不是直接买入指令。</div>
-            ${sectors.map((sector, index) => renderSectorHeatCard(sector, index)).join('')}
-        </div>
-    `;
-}
-
-function renderSectorHeatCard(sector, index) {
-    const directionClass = sector.bias === '降温' ? 'down' : 'up';
-    const readiness = getSectorReadiness(sector);
-    return `
-        <div class="a-sector-item ${directionClass}">
-            <div class="a-sector-main" onclick="toggleSectorDetail(this)">
-                <span class="a-sector-rank">${index + 1}</span>
-                <span class="a-sector-name">${safeText(sector.name)}</span>
-                <span class="a-sector-change">${safeText(sector.bias)} ${sector.score}</span>
-            </div>
-            <div class="a-sector-detail">
-                <div class="sector-mainline">
-                    <span>${safeText(readiness.label)}</span>
-                    <b>${safeText(readiness.action)}</b>
+                    <div class="a-sector-item up">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">1</span>
+                            <span class="a-sector-name">电力板块</span>
+                            <span class="a-sector-change">+3.2%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 电力发电、输电、配电公司</div>
+                            <div class="a-sector-reason">🔍 原因：夏季用电高峰+新能源政策</div>
+                            <div class="a-sector-impact">💡 参考：防御性板块，适合稳健型投资者</div>
+                        </div>
+                    </div>
+                    <div class="a-sector-item up">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">2</span>
+                            <span class="a-sector-name">白酒板块</span>
+                            <span class="a-sector-change">+2.8%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 白酒酿造和销售公司</div>
+                            <div class="a-sector-reason">🔍 原因：消费复苏+茅台效应</div>
+                            <div class="a-sector-impact">💡 参考：高端消费品，受经济周期影响大</div>
+                        </div>
+                    </div>
+                    <div class="a-sector-item up">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">3</span>
+                            <span class="a-sector-name">超级电容</span>
+                            <span class="a-sector-change">+2.1%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 超级电容器技术公司</div>
+                            <div class="a-sector-reason">🔍 原因：新能源储能需求增长</div>
+                            <div class="a-sector-impact">💡 参考：成长性板块，波动较大</div>
+                        </div>
+                    </div>
+                    <div class="a-sector-item down">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">4</span>
+                            <span class="a-sector-name">半导体设备</span>
+                            <span class="a-sector-change">-4.5%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 芯片制造设备公司</div>
+                            <div class="a-sector-reason">🔍 原因：行业周期调整+估值回归</div>
+                            <div class="a-sector-impact">💡 参考：长期看好但短期可能继续调整</div>
+                        </div>
+                    </div>
+                    <div class="a-sector-item down">
+                        <div class="a-sector-main" onclick="toggleSectorDetail(this)">
+                            <span class="a-sector-rank">5</span>
+                            <span class="a-sector-name">算力概念</span>
+                            <span class="a-sector-change">-3.8%</span>
+                        </div>
+                        <div class="a-sector-detail">
+                            <div class="a-sector-explain">📌 AI计算能力相关公司</div>
+                            <div class="a-sector-reason">🔍 原因：前期涨幅过大+获利回吐</div>
+                            <div class="a-sector-impact">💡 参考：AI长期趋势不变，短期需消化估值</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="a-sector-explain">资金在看：${safeText(sector.watch)}</div>
-                <div class="a-sector-reason">交易员逻辑：${safeText(sector.reason)}</div>
-                <div class="a-sector-impact">小白翻译：${safeText(sector.beginner)}</div>
-                <div class="a-target-list">
-                    <span>代表资产</span>
-                    ${sector.targets.map(target => renderSectorTargetBadge(target)).join('')}
-                </div>
-                <div class="a-flow-impact">和交易池关系：${safeText(readiness.link)}</div>
             </div>
         </div>
     `;

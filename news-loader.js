@@ -10,6 +10,9 @@ let alertsCache = null;
 let lastRefreshTime = 0;
 let _lastUpdateTime = '';
 const REFRESH_INTERVAL = 5 * 60 * 1000;
+const NEWS_FINGERPRINT_KEY = 'hot_news_title_fingerprint_v1';
+const NEWS_SOURCE_TIME_KEY = 'hot_news_source_update_time_v1';
+const NEWS_ANALYSIS_TIME_KEY = 'hot_news_analysis_update_time_v1';
 
 // ===== 当前展开状态 =====
 let expandedAlert = null;
@@ -47,12 +50,25 @@ async function loadHotNews(forceRefresh = false) {
             newsCache = prepareNewsList(data.news);
             lastRefreshTime = Date.now();
             renderNewsList(newsCache);
-            updateRefreshHint(data.updateTime || '刚刚更新');
+            updateRefreshHint(resolveNewsFreshness(data, newsCache));
             localStorage.setItem('hot_news_cache', JSON.stringify(newsCache));
             return;
         }
     } catch(e) {
-        console.log('加载新闻失败:', e);
+        console.log('实时新闻加载失败，尝试兜底新闻:', e);
+        try {
+            const data = await xhrFetchFallback();
+            if (data && data.news && data.news.length > 0) {
+                newsCache = prepareNewsList(data.news);
+                lastRefreshTime = Date.now();
+                renderNewsList(newsCache);
+                updateRefreshHint(resolveNewsFreshness(data, newsCache));
+                localStorage.setItem('hot_news_cache', JSON.stringify(newsCache));
+                return;
+            }
+        } catch(fallbackError) {
+            console.log('兜底新闻加载失败:', fallbackError);
+        }
     }
 
     const cached = localStorage.getItem('hot_news_cache');
@@ -77,6 +93,29 @@ function xhrFetch() {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
         const url = 'data/hot-news.json?_=' + Date.now() + Math.random();
+        xhr.open('GET', url, true);
+        xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+        xhr.setRequestHeader('Pragma', 'no-cache');
+        xhr.setRequestHeader('Expires', '0');
+        xhr.timeout = 10000;
+        xhr.onload = () => {
+            if (xhr.status === 200) {
+                try { resolve(JSON.parse(xhr.responseText)); }
+                catch(e) { reject(e); }
+            } else {
+                reject(new Error('HTTP ' + xhr.status));
+            }
+        };
+        xhr.onerror = () => reject(new Error('Network error'));
+        xhr.ontimeout = () => reject(new Error('Timeout'));
+        xhr.send();
+    });
+}
+
+function xhrFetchFallback() {
+    return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        const url = 'data/live-hot-news.json?_=' + Date.now() + Math.random();
         xhr.open('GET', url, true);
         xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         xhr.setRequestHeader('Pragma', 'no-cache');
@@ -375,6 +414,47 @@ function renderNewsList(news) {
 function stripNewsRuntimeFields(item) {
     const { _display, _rankScore, ...clean } = item || {};
     return clean;
+}
+
+function normalizeFingerprintText(text) {
+    return String(text || '')
+        .toLowerCase()
+        .replace(/[^\w\u4e00-\u9fa5]+/g, '')
+        .slice(0, 80);
+}
+
+function getNewsTitleFingerprint(news) {
+    return (news || [])
+        .map((item) => {
+            const display = getNewsDisplay(item);
+            return normalizeFingerprintText(display.title || item.title || item.titleZh || '');
+        })
+        .filter(Boolean)
+        .join('|');
+}
+
+function resolveNewsFreshness(data, preparedNews) {
+    const analysisTime = data.analysisUpdateTime || data.updateTime || '刚刚更新';
+    const fingerprint = data.titleFingerprint || getNewsTitleFingerprint(preparedNews || data.news || []);
+    const previousFingerprint = localStorage.getItem(NEWS_FINGERPRINT_KEY) || '';
+    let sourceTime = localStorage.getItem(NEWS_SOURCE_TIME_KEY) || data.newsUpdateTime || data.lastTitleChangeTime || analysisTime;
+    const titleChanged = Boolean(fingerprint) && fingerprint !== previousFingerprint;
+
+    if (titleChanged) {
+        sourceTime = data.newsUpdateTime || data.lastTitleChangeTime || analysisTime;
+        localStorage.setItem(NEWS_SOURCE_TIME_KEY, sourceTime);
+        localStorage.setItem(NEWS_FINGERPRINT_KEY, fingerprint);
+    } else if (fingerprint && !previousFingerprint) {
+        localStorage.setItem(NEWS_FINGERPRINT_KEY, fingerprint);
+        localStorage.setItem(NEWS_SOURCE_TIME_KEY, sourceTime);
+    }
+
+    localStorage.setItem(NEWS_ANALYSIS_TIME_KEY, analysisTime);
+    return {
+        sourceTime,
+        analysisTime,
+        unchanged: Boolean(previousFingerprint && fingerprint === previousFingerprint)
+    };
 }
 
 function updateHeadlineBrief(news) {
@@ -729,10 +809,17 @@ function toChineseNewsDetail(item) {
 }
 
 // ===== 更新刷新提示 =====
-function updateRefreshHint(time) {
+function updateRefreshHint(meta) {
     const hint = document.getElementById('refreshHint');
     if (hint) {
-        hint.textContent = time ? `热乎到 ${time}` : `热乎到 ${new Date().toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit'})}`;
+        if (meta && typeof meta === 'object') {
+            const sourceText = meta.sourceTime ? `新闻源 ${meta.sourceTime}` : '新闻源刚刷新';
+            const analysisText = meta.analysisTime && meta.analysisTime !== meta.sourceTime ? ` · 解读 ${meta.analysisTime}` : '';
+            const statusText = meta.unchanged ? ' · 持续追踪' : '';
+            hint.textContent = `${sourceText}${analysisText}${statusText}`;
+            return;
+        }
+        hint.textContent = meta ? `热乎到 ${meta}` : `热乎到 ${new Date().toLocaleTimeString('zh-CN', {hour:'2-digit',minute:'2-digit'})}`;
     }
 }
 
