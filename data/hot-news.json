@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-10 07:51",
+  "updateTime": "2026-06-10 07:56",
   "news": [
     {
       "rank": 1,
-      "title": "华尔街重新定价美联储政策路径 债券交易员押注最快9月加息",
-      "source": "智通财经APP",
-      "detail": "在强劲的美国就业数据公布后，华尔街对美联储政策路径的预期正在发生明显变化。近期，越来越多债券交易员开始押注美联储可能在未来几个月重新加息...",
-      "lang": "zh",
-      "score": 48,
-      "insight": {
-        "what": "交易员押注美联储最快9月加息",
-        "assets": "📈 美元指数 利好\n📉 美债 承压",
-        "chain": "加息预期推高短端利率（短期借贷成本），利空成长股（高估值承压），利好银行股（净息差扩大）",
-        "watch": "本周美联储官员讲话及非农数据"
-      }
-    },
-    {
-      "rank": 2,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户配售仍不确定",
-        "assets": "📈 太空概念股 情绪利好\n📉 散户交易平台 不确定",
-        "chain": "IPO定价若过高，首日可能破发（上市首日跌破发行价），影响后续科技股IPO估值",
-        "watch": "SEC（美国证监会）批准及最终配售规则"
+        "what": "SpaceX IPO定价但散户配额不确定",
+        "assets": "📈 SpaceX概念股 利好; 📈 太空ETF 关注",
+        "chain": "IPO定价抬升对标估值，散户配额不足可能引发上市后波动性（价格跳空）",
+        "watch": "散户配售比例及首日交易量"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "美债交易员押注美联储加息临近，SOFR期权与期货仓位迅速转鹰",
       "source": "市场资讯",
       "detail": "文章来源：华尔街见闻 上周五发布的5月非农就业大超预期，直接推动SOFR期权市场涌现大量押注加息的新头寸，部分交易甚至指向最快9月即启动加息。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债SOFR期权与期货仓位迅速转鹰",
-        "assets": "📈 美元 走强\n📉 美债期货 空头增加",
-        "chain": "SOFR（担保隔夜融资利率）期权押注加息，带动利率互换（IRS，利率掉期）曲线陡化，利空高杠杆信用债",
-        "watch": "下周FOMC（美联储议息会议）点阵图"
+        "what": "美债交易员押注美联储加息，SOFR期权转鹰",
+        "assets": "📉 美债价格 承压; 📈 美元指数 上行; 📉 美股成长股 利空",
+        "chain": "加息预期推高短端利率，压缩风险资产估值（贴现率上升），美元回流套利（carry trade）",
+        "watch": "本周美国CPI数据及美联储点阵图"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "腾讯控股：根据全球中期票据计划对24.5亿美元及人民币150亿元票据进行定价",
       "source": "新浪港股",
       "detail": "腾讯控股（00700）发布公告，于2026年6月9日（纽约时间），本公司已分别与美元票据经办人就根据计划发行本金总额24.5亿美元的美元票据订立认购协议；及人民币票据经办人就...",
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "腾讯发行24.5亿美元及150亿人民币票据",
-        "assets": "📈 腾讯债券 供给压力\n📉 离岸人民币 流动性收紧",
-        "chain": "大规模中资企业债发行推高信用利差（风险溢价），可能挤占其他中资美元债需求",
-        "watch": "发行利率及认购倍数"
+        "what": "腾讯定价24.5亿美元及150亿人民币票据",
+        "assets": "📈 腾讯债券 中性偏利好; 📉 港股流动性 承压",
+        "chain": "大规模发债增加供给，但锁定低利率优化债务结构（久期管理），短期利差走阔",
+        "watch": "票据认购倍数及二级市场利差变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑因70亿融资计划股价暴跌",
-        "assets": "📈 AI服务器订单 利好\n📉 超微电脑股价 承压",
-        "chain": "融资稀释（增发股份降低每股收益），但AI订单增长若持续，长期估值修复需看毛利率",
-        "watch": "融资用途及下一季财报指引"
+        "what": "超微电脑因70亿美元融资计划股价暴跌",
+        "assets": "📉 超微电脑 利空; 📉 AI服务器板块 承压",
+        "chain": "巨额融资稀释每股收益（EPS），市场担忧现金流缺口，拖累同业估值（peer de-rating）",
+        "watch": "融资条款及AI订单确认转化率"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic公开类MythosAI模型",
-        "assets": "📈 AI应用股 竞争加剧\n📉 OpenAI概念股 份额承压",
-        "chain": "多模型竞争加速AI商业化，利好算力芯片（如英伟达），但挤压小模型开发商估值",
-        "watch": "用户增长及API（应用程序接口）定价变化"
+        "what": "Anthropic公开发布类MythosAI模型",
+        "assets": "📈 AI软件股 利好; 📉 传统云计算 承压",
+        "chain": "开源模型加速AGI普及，挤压SaaS订阅收入（替代效应），推高算力需求",
+        "watch": "模型API定价及企业客户采用率"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Jim Cramer称科技股失去领涨特质",
+        "assets": "📉 纳斯达克100 承压; 📈 防御型板块 轮动",
+        "chain": "情绪指标转弱触发资金从科技股向公用事业/医疗避险（sector rotation），波动率上升",
+        "watch": "科技股相对强弱指数（RSI）及财报季指引"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "6月10日外盘头条：美国对伊朗发动新一轮打击 SpaceX IPO获大幅超额认购 欧盟提议新一轮对俄制裁",
       "source": "环球市场播报",
       "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、美国在直升机被击落后对伊朗发动新一轮打击 2、欧盟提议新一轮对俄制裁 包括维持俄罗斯石油价格上限不变 3...",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Oil prices fall after U.S. Energy secretary says Hormuz ship traffic is increasing",
       "source": "CNBC",
       "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
@@ -110,10 +102,18 @@
       "score": 29
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "映恩生物-B：就建议人民币股份于科创板上市通过上海监管局辅导验收",
       "source": "新浪港股",
       "detail": "映恩生物-B（09606）发布公告，有关拟发行将于上海证券交易所科创板上市并以人民币买卖的普通股（建议上市）。本公司现正接受中信证券股份有限公司的辅导...",
+      "lang": "zh",
+      "score": 25
+    },
+    {
+      "rank": 10,
+      "title": "6月10日隔夜要闻：芯片股反弹乏力 美股盘中巨震 特朗普称伊朗击落直升机 美军对伊朗发动“自卫性”打击",
+      "source": "环球市场播报",
+      "detail": "市场 6月10日收盘：纳指与标普指数收跌 芯片股反弹乏力 6月10日美股成交额前20：Nuvalent获GSK收购，股价飙升逾39% 6月10日热门中概股多数下跌 奇景光电跌10.13%...",
       "lang": "zh",
       "score": 25
     }
