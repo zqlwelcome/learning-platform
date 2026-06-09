@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-09 23:05",
+  "updateTime": "2026-06-09 23:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Medline因FDA违规被调查，涉嫌证券欺诈",
-        "assets": "📉 医疗设备股 利空",
-        "chain": "FDA监管收紧预期升温，可能波及同类医疗合规股（如雅培）",
-        "watch": "FDA是否扩大调查范围"
+        "what": "Medline因FDA违规面临证券欺诈调查",
+        "assets": "📉 Medline股价 利空",
+        "chain": "医疗合规风险上升，可能引发行业监管收紧（监管加码）",
+        "watch": "FDA处罚决定及后续诉讼进展"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "通胀数据威胁市场反弹，标普500承压",
-        "assets": "📉 标普500指数 利空，📈 美债收益率 上行",
-        "chain": "通胀超预期→加息预期（借钱成本上升）→压制科技成长股估值",
-        "watch": "核心PCE（个人消费支出物价指数）月率"
+        "what": "通胀数据威胁市场反弹，标普500或承压",
+        "assets": "📉 标普500 利空；📈 美债 利好",
+        "chain": "通胀超预期→加息预期升温（借钱成本上升）→股市估值承压",
+        "watch": "周三CPI数据及美联储官员讲话"
       }
     },
     {
@@ -37,56 +37,72 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX员工与Choreo合作推出低费财富管理，为IPO做准备",
-        "assets": "📈 加密资产/另类投资 中性偏利好",
-        "chain": "员工持股变现需求→增加流动性（可交易资产），可能带动IPO前估值讨论",
-        "watch": "SpaceX上市时间表及员工持股计划细节"
+        "what": "SpaceX员工与Choreo合作推出低费财富管理",
+        "assets": "📈 金融科技板块 利好",
+        "chain": "高净值员工需求→财富管理创新（降低费用）→吸引更多科技公司效仿",
+        "watch": "Choreo用户增长及费率对比数据"
       }
     },
     {
       "rank": 4,
+      "title": "Verra Mobility因Avis解约遭证券欺诈调查",
+      "source": "环球市场播报",
+      "detail": " 智能出行技术提供商Verra Mobility近日遭遇多重危机。该公司于5月26日披露，已收到Avis Budget Group的合同终止通知，该合同将于2026年9月生效。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "Verra Mobility因Avis解约遭证券欺诈调查",
+        "assets": "📉 Verra Mobility股价 利空",
+        "chain": "客户流失→收入预期下调（盈利下滑）→可能引发更多合同审查",
+        "watch": "Avis是否完全解约及新客户签约情况"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Wise Group因涉嫌洗钱遭证券欺诈调查",
       "source": "环球市场播报",
       "detail": " 跨境支付平台Wise Group近日陷入危机。多家律师事务所宣布对该公司展开证券欺诈调查，原因涉及反洗钱合规问题及比利时检方的刑事调查。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Wise Group因洗钱嫌疑遭证券欺诈调查",
-        "assets": "📉 金融科技股 利空，📉 跨境支付板块 承压",
-        "chain": "监管合规风险上升→资金成本增加（需增聘合规团队），可能拖累同类公司（如Revolut）",
-        "watch": "调查是否扩大至其他跨境支付平台"
+        "what": "Wise Group因涉嫌洗钱遭证券欺诈调查",
+        "assets": "📉 跨境支付板块 利空；📉 Wise股价 利空",
+        "chain": "合规风险上升→监管审查加强（反洗钱）→行业运营成本增加",
+        "watch": "调查结果及罚款金额"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Oil prices fall nearly 4% after U.S. Energy Secretary says Hormuz ship traffic is increasing",
       "source": "CNBC",
       "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "油价暴跌近4%，因美能源部长称霍尔木兹海峡船运增加",
-        "assets": "📉 原油 利空，📉 能源股 承压",
-        "chain": "供应中断风险缓解→油价下跌→通胀预期降温（降低能源成本），利好航空股",
-        "watch": "霍尔木兹海峡实际船运数据及OPEC（石油输出国组织）产量变化"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Upstart chipmakers keep challenging Nvidia. This time it's Microsoft-backed D-Matrix",
-      "source": "CNBC",
-      "detail": "Nvidia challenger D-Matrix is entering full production of an AI chip it says is 10 times faster than a GPU and bypasses the memory shortage.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "微软支持的D-Matrix等新芯片商持续挑战英伟达",
-        "assets": "📈 半导体板块 分化，📉 英伟达 承压",
-        "chain": "AI芯片竞争加剧→英伟达市场份额可能被蚕食（估值溢价风险），利好下游云服务商（降低成本）",
-        "watch": "D-Matrix新品性能测试及客户订单情况"
+        "what": "美国能源部长称霍尔木兹海峡船运增加，油价跌近4%",
+        "assets": "📉 原油 利空；📉 能源股 利空",
+        "chain": "供给担忧缓解（运输恢复）→油价下跌→通胀预期降温（物价压力减轻）",
+        "watch": "伊朗局势及OPEC+产量决策"
       }
     },
     {
       "rank": 7,
+      "title": "Upstart chipmakers keep challenging Nvidia. This time it's Microsoft-backed D-Matrix",
+      "source": "CNBC",
+      "detail": "Nvidia challenger D-Matrix is entering full production of an AI chip it says is 10 times faster than a GPU and bypasses the memory shortage.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 8,
+      "title": "S&P 500 gives up gain as chip stock comeback fizzles: Live updates",
+      "source": "CNBC",
+      "detail": "A rally in chip stocks boosted the S&P 500 and Nasdaq Composite on Monday.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 9,
       "title": "Bitcoin's brutal sell-off sparks a flurry of trading in related stocks, including one big bullish bet",
       "source": "CNBC",
       "detail": "The year has been a rocky one for the flagship cryptocurrency, but traders aren't backing away from the space.",
@@ -94,26 +110,10 @@
       "score": 27
     },
     {
-      "rank": 8,
-      "title": "开盘：美股周二高开，油价回落，芯片股延续反弹势头",
-      "source": "环球市场播报",
-      "detail": " 北京时间6月9日晚，美股周二高开。芯片股经历上周五暴跌之后连续第二天反弹，同时由于市场预期美伊协议接近达成，原油价格回落。",
-      "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 9,
+      "rank": 10,
       "title": "Home sales surged in May to the highest level since December",
       "source": "CNBC",
       "detail": "Home sales rebounded in May as mortgage rates dropped back a bit in April, but prices are still rising.",
-      "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "JPMorgan Chase plans to deploy more powerful AI agents this year",
-      "source": "CNBC",
-      "detail": "JPMorgan Chase's move suggests long-running AI agents are close to clearing the security and governance hurdles that have slowed adoption inside big companies.",
       "lang": "en",
       "score": 20
     }
