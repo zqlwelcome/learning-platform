@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-09 22:56",
+  "updateTime": "2026-06-09 23:01",
   "news": [
     {
       "rank": 1,
-      "title": "加息大消息！美联储，突传重磅！",
-      "source": "券商中国",
-      "detail": "沃什正面临重大挑战。 目前，规模达31万亿美元的美债市场已率先定价美联储加息预期，债券交易员押注，美联储最快可能在今年10月加息25个基点。",
-      "lang": "zh",
-      "score": 51,
-      "insight": {
-        "what": "美联储可能加息或维持鹰派立场",
-        "assets": "📉 美股大盘 承压；📈 美元指数 走强",
-        "chain": "加息预期→风险资产（股票/加密货币）遭抛售→资金流入避险（美债/黄金）",
-        "watch": "美联储官员讲话及FOMC（联邦公开市场委员会）会议纪要"
-      }
-    },
-    {
-      "rank": 2,
       "title": " Inflation data threatens to derail market comeback. How the S&P 500 may react",
       "source": "CNBC",
       "detail": "Investors will be watching core inflation in May closely to see just how long higher prices from the U.S.-Iran war may last, according to JPMorgan.",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "通胀数据可能破坏美股反弹",
-        "assets": "📉 标普500指数 承压；📈 美债收益率 上行",
-        "chain": "通胀超预期→加息预期升温→成长股（科技/高估值）估值压缩→市场波动加剧",
-        "watch": "CPI（消费者物价指数）及PCE（个人消费支出）数据"
+        "what": "通胀数据可能破坏美股反弹，标普500面临回调",
+        "assets": "📉 标普500 承压",
+        "chain": "通胀超预期→加息预期升温（借钱成本上升）→科技股估值压缩（PE倍数降低）→大盘下跌",
+        "watch": "周三CPI数据实际值与预期偏差"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX employee group creates low-fee wealth management option with Choreo for post-IPO",
       "source": "CNBC",
       "detail": "The deal marks a bold experiment in the wealth management industry that could shift the balance of power from advisory firms to wealthy groups of investors.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX员工获低费理财选项，为IPO做准备",
-        "assets": "📈 私人公司股权（SpaceX） 利好；📉 传统投行/理财顾问 承压",
-        "chain": "员工持股流动性提升→IPO估值预期上调→带动私人航天板块热度",
-        "watch": "SpaceX IPO时间表及估值"
+        "what": "SpaceX员工与Choreo合作推出低费财富管理，备战IPO后套现",
+        "assets": "📈 SpaceX 股权流动性 利好",
+        "chain": "员工期权变现需求→低费财富管理吸引长期资金→降低IPO抛压（卖出压力）",
+        "watch": "SpaceX IPO时间表及估值变化"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Wise Group因涉嫌洗钱遭证券欺诈调查",
+      "source": "环球市场播报",
+      "detail": " 跨境支付平台Wise Group近日陷入危机。多家律师事务所宣布对该公司展开证券欺诈调查，原因涉及反洗钱合规问题及比利时检方的刑事调查。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "Wise Group因涉嫌洗钱遭证券欺诈调查",
+        "assets": "📉 Wise股价 利空",
+        "chain": "调查→罚款/诉讼风险→声誉受损→用户流失→营收下滑",
+        "watch": "调查进展及是否暂停跨境支付牌照"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国称霍尔木兹海峡油轮通行增加，油价暴跌",
-        "assets": "📉 原油 利空；📈 航运股 利好；📉 能源股 承压",
-        "chain": "供应中断担忧缓解→油价下行→通胀预期降温→利好消费股/债券",
-        "watch": "霍尔木兹海峡实际通行量及OPEC（石油输出国组织）产量数据"
+        "what": "美能源部长称霍尔木兹海峡船舶流量增加，油价暴跌近4%",
+        "assets": "📉 原油 利空",
+        "chain": "供应中断风险缓解→原油溢价（地缘溢价）回吐→炼油股承压→能源板块拖累大盘",
+        "watch": "伊朗局势及霍尔木兹海峡实际通行量"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "微软支持的D-Matrix挑战英伟达AI芯片",
-        "assets": "📉 英伟达 承压；📈 D-Matrix（未上市） 利好；📈 微软 利好",
-        "chain": "AI芯片竞争加剧→英伟达垄断溢价压缩→下游云服务商成本降低",
-        "watch": "D-Matrix产品性能测试及客户订单"
+        "what": "微软支持的D-Matrix等新创芯片公司持续挑战英伟达",
+        "assets": "📉 英伟达 承压 📈 AI芯片新贵 利好",
+        "chain": "竞争加剧→英伟达市场份额预期下降→AI芯片行业估值重构（龙头溢价消失）",
+        "watch": "D-Matrix产品性能对比及客户订单"
       }
     },
     {
@@ -80,9 +80,9 @@
       "score": 27,
       "insight": {
         "what": "比特币暴跌引发相关股票交易激增，出现大额看涨押注",
-        "assets": "📉 比特币 承压；📈 加密货币概念股（如Coinbase） 波动；📈 看涨期权 活跃",
-        "chain": "暴跌→散户恐慌抛售→机构抄底看涨期权→短期反弹预期升温",
-        "watch": "比特币关键支撑位（如2万美元）及交易所资金流入"
+        "assets": "📉 比特币 承压 📈 加密货币概念股 波动",
+        "chain": "恐慌抛售→波动率飙升→期权对冲需求增加→短期反弹概率上升（均值回归）",
+        "watch": "比特币能否守住3万美元整数关口"
       }
     },
     {
@@ -95,14 +95,6 @@
     },
     {
       "rank": 8,
-      "title": "欧盟监管机构表示，在围绕苹果Siri人工智能延期落地的争议中，苹果无法获得科技法规豁免待遇",
-      "source": "环球市场播报",
-      "detail": "欧盟监管机构周二批评苹果公司。苹果此前称，因受欧盟科技法规限制，暂不打算在欧盟地区推出升级后的人工智能语音助手Siri。监管方面表示...",
-      "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 9,
       "title": "Home sales surged in May to the highest level since December",
       "source": "CNBC",
       "detail": "Home sales rebounded in May as mortgage rates dropped back a bit in April, but prices are still rising.",
@@ -110,10 +102,18 @@
       "score": 20
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "JPMorgan Chase plans to deploy more powerful AI agents this year",
       "source": "CNBC",
       "detail": "JPMorgan Chase's move suggests long-running AI agents are close to clearing the security and governance hurdles that have slowed adoption inside big companies.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "Nuvalent shares surge 39% after UK's GSK agrees to buy the cancer drugmaker for $10.6 billion",
+      "source": "CNBC",
+      "detail": "The deal comes at a time of biotech dealmaking frenzy, driven by looming patent cliffs, newly buoyant public markets and drugmakers' race to bolster pipelines.",
       "lang": "en",
       "score": 20
     }
