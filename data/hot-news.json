@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 05:06",
+  "updateTime": "2026-06-10 05:10",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 55,
       "insight": {
         "what": "OpenAI提交IPO申请，估值8520亿美元",
-        "assets": "📈 AI概念股 利好\n📈 科技成长股 利好",
-        "chain": "AI泡沫再膨胀，资金从防御板块（如公用事业）流入AI赛道，推高风险偏好（risk-on情绪）",
-        "watch": "IPO定价及首日涨幅，后续AI公司融资节奏"
+        "assets": "📈 AI板块 利好",
+        "chain": "AI赛道估值中枢上移，引发科技股资金轮动（资金从传统科技流向AI）",
+        "watch": "IPO定价及首日涨幅"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "PicS因隐瞒IPO信贷缺陷面临集体诉讼",
-        "assets": "📉 金融科技股 承压\n📉 新股IPO板块 利空",
-        "chain": "监管审查收紧，投资者对新股内控（internal controls）信任度下降，IPO溢价（新股上市首日涨幅）缩水",
-        "watch": "诉讼进展及监管是否对金融科技出台新规"
+        "what": "PicS因IPO隐瞒信贷缺陷面临集体诉讼",
+        "assets": "📉 新股板块 承压",
+        "chain": "监管加强IPO审核，打击短线炒新情绪（IPO打新风险溢价上升）",
+        "watch": "诉讼进展及监管新规"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户配售待定",
-        "assets": "📈 太空概念股 利好\n📈 航天军工股 利好",
-        "chain": "散户无法大量参与则机构控盘，首日波动率（volatility）降低，但长期流动性溢价（liquidity premium）上升",
-        "watch": "散户配售比例及首日成交量"
+        "what": "SpaceX IPO定价确定，零售份额未定",
+        "assets": "📈 太空概念股 利好",
+        "chain": "SpaceX估值锚定效应，带动二级市场太空股估值重估（对标溢价）",
+        "watch": "零售配售比例及首日流动性"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX获1000亿美元级机构订单，募资750亿",
-        "assets": "📈 SpaceX直接标的 利好\n📈 卫星互联网概念 利好",
-        "chain": "巨额订单暗示机构押注航天商业化，资金从传统基建（如铁路）分流至太空赛道，推高估值倍数（P/E ratio）",
-        "watch": "超额认购倍数及上市后机构持仓变化"
+        "what": "SpaceX获100亿美元机构订单，募资750亿美元",
+        "assets": "📈 太空ETF 利好",
+        "chain": "巨额订单暗示机构看好，资金可能从科技股流出转向太空板块（板块轮动）",
+        "watch": "超额认购倍数及上市日期"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "GeneDx收购减值94%致股价暴跌49%遭诉讼",
-        "assets": "📉 基因检测板块 利空\n📉 生物科技并购 承压",
-        "chain": "商誉减值（goodwill impairment）风险暴露，市场对高溢价并购（如Fabric Genomics）的定价模型（DCF）产生怀疑",
-        "watch": "其他基因公司商誉规模及并购对价合理性"
+        "what": "GeneDx因收购减值94%暴跌49%面临诉讼",
+        "assets": "📉 基因检测板块 承压",
+        "chain": "并购商誉减值风险暴露，引发同板块估值下修（资产减值连锁反应）",
+        "watch": "其他基因公司商誉规模"
       }
     },
     {
@@ -79,22 +79,14 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic发布Mythos-like模型，私测后公测",
-        "assets": "📈 AI应用端 利好\n📈 大模型概念股 利好",
-        "chain": "模型能力超预期可能引发算力需求（GPU芯片）再次飙升，同时挤压传统SaaS（软件即服务）市场份额",
-        "watch": "模型基准测试（benchmark）成绩及API调用量"
+        "what": "Anthropic公开Mythos模型，此前私测震动华尔街",
+        "assets": "📈 AI大模型概念 利好",
+        "chain": "模型能力公开验证，强化AI应用落地预期，拉动算力需求（算力股跟涨）",
+        "watch": "模型测试基准及API定价"
       }
     },
     {
       "rank": 7,
-      "title": "Apple shares slide after big Siri AI reveal",
-      "source": "CNBC",
-      "detail": "Apple unveiled new artificial intelligence software at WWDC, highlighted by its long-awaited update to Siri.",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 8,
       "title": "Ademi LLP调查Ensign Group证券欺诈指控",
       "source": "环球市场播报",
       "detail": " 律师事务所Ademi LLP周二宣布，正在对The Ensign Group， Inc．进行可能的证券欺诈索赔调查。该公司以ENSG为代码在纳斯达克上市。",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "摩根士丹利G10外汇策略主管：美联储将维持利率不变 美元将走弱",
       "source": "环球市场播报",
       "detail": "摩根士丹利的G10外汇策略主管David Adams表示，随着美联储达不到市场预期并且在今年维持利率不变，美元可能走弱。 “从风险平衡来看，美元未来会下跌...",
@@ -110,10 +102,18 @@
       "score": 28
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Sportradar遭集体诉讼，被指业务模式非法致市值蒸发8亿美元",
       "source": "环球市场播报",
       "detail": " 体育数据巨头Sportradar Group AG正面临证券欺诈集体诉讼。此前做空机构指控该公司明知故犯地与黑市赌博运营商合作以增加收入，导致股价暴跌逾22%，市值蒸发约8亿美元。",
+      "lang": "zh",
+      "score": 25
+    },
+    {
+      "rank": 10,
+      "title": "尾盘：美股涨跌不一 芯片股拖累纳指下跌1.3%",
+      "source": "环球市场播报",
+      "detail": " 北京时间6月10日凌晨，美股周二尾盘涨跌不一。芯片股在经历一日反弹后失去了上涨势头。油价下跌推动原材料和非必需消费品板块逆势上扬。市场继续关注中东局势的最新发展。",
       "lang": "zh",
       "score": 25
     }
