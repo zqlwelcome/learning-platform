@@ -225,12 +225,14 @@ function renderCourseCenter() {
     
     if (typeof COURSES !== 'undefined') {
         COURSES.forEach(section => {
-            section.lessons.forEach(lesson => {
-                pmTotal++;
-                if (progress[lesson.id]) {
-                    pmCompleted++;
-                }
-            });
+            if (section.lessons) {
+                section.lessons.forEach(lesson => {
+                    pmTotal++;
+                    if (progress[lesson.id]) {
+                        pmCompleted++;
+                    }
+                });
+            }
         });
         pmProgress = pmTotal > 0 ? Math.round((pmCompleted / pmTotal) * 100) : 0;
     }
@@ -293,6 +295,7 @@ function getNextPMLesson(progress) {
     }
 
     for (const section of COURSES) {
+        if (!section.lessons) continue;
         const lesson = section.lessons.find(item => !progress[item.id]);
         if (lesson) {
             return {
@@ -302,7 +305,7 @@ function getNextPMLesson(progress) {
         }
     }
 
-    const firstSection = COURSES[0];
+    const firstSection = COURSES.find(s => s.lessons);
     const firstLesson = firstSection?.lessons?.[0];
     return {
         ...firstLesson,
@@ -672,12 +675,14 @@ function updateProgressDisplay() {
     
     if (typeof COURSES !== 'undefined') {
         COURSES.forEach(section => {
-            section.lessons.forEach(lesson => {
-                pmTotal++;
-                if (progress[lesson.id]) {
-                    pmCompleted++;
-                }
-            });
+            if (section.lessons) {
+                section.lessons.forEach(lesson => {
+                    pmTotal++;
+                    if (progress[lesson.id]) {
+                        pmCompleted++;
+                    }
+                });
+            }
         });
     }
     
