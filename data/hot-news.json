@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 07:05",
+  "updateTime": "2026-06-10 07:10",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 55,
       "insight": {
         "what": "OpenAI提交IPO申请，估值8520亿美元",
-        "assets": "📈 AI科技股 利好\n📈 美股IPO市场 提振",
-        "chain": "AI赛道估值锚定（参考基准），带动一级市场（未上市企业）融资活跃度",
-        "watch": "SEC（美国证监会）审批进展及发行价区间"
+        "assets": "📈 美股AI板块 利好；📈 科技成长股 利好",
+        "chain": "AI赛道估值锚提升，带动科技股风险偏好（投资者愿意承担更多风险）",
+        "watch": "OpenAI招股书细节及监管审批进展"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，散户配额存变数",
-        "assets": "📈 太空概念股 利好\n📉 散户交易量 承压",
-        "chain": "机构主导配售（大资金优先），压制二级市场（已上市股票）流动性预期",
-        "watch": "最终散户分配比例及首日换手率"
+        "what": "SpaceX IPO定价但散户分配不确定",
+        "assets": "📈 太空概念股 利好；📉 散户交易热情 承压",
+        "chain": "机构主导定价，散户参与受限或压制短期炒作情绪（投机性买盘减少）",
+        "watch": "SpaceX最终散户分配比例及上市日期"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "美元连续第二日走低，市场等待CPI数据",
-        "assets": "📉 美元指数 承压\n📈 非美货币 利好",
-        "chain": "美元走弱推动商品（如黄金、原油）计价上涨，利空进口国（成本降低）",
-        "watch": "周三美国CPI（消费者物价指数）同比数据"
+        "what": "美元连续两日走低，等待CPI数据",
+        "assets": "📉 美元指数 承压；📈 非美货币 利好",
+        "chain": "美元走弱预期推动商品和新兴市场资金流入（资本流向高收益资产）",
+        "watch": "美国CPI数据公布值及市场对联储利率路径的重新定价"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 40,
       "insight": {
         "what": "SpaceX获100亿美元机构订单，募资750亿美元",
-        "assets": "📈 太空ETF（交易所交易基金） 利好\n📈 科技成长股 联动",
-        "chain": "超额认购（需求远超供给）推高估值，催化其他私营航天公司估值重估",
-        "watch": "上市后锁定期（禁售期）解禁节奏"
+        "assets": "📈 太空及军工板块 利好；📈 私募股权 利好",
+        "chain": "大额机构订单强化IPO信心，可能带动同类科技公司估值重估（估值倍数扩张）",
+        "watch": "SpaceX上市后首日表现及订单撤销风险"
       }
     },
     {
@@ -66,27 +66,35 @@
       "score": 36,
       "insight": {
         "what": "美债交易员押注美联储加息，CPI数据成焦点",
-        "assets": "📈 美元 利好\n📉 美债价格 承压\n📉 美股成长股 利空",
-        "chain": "加息预期（借钱成本上升）压制风险资产（股票），推高短端利率（短期借贷利率）",
-        "watch": "CPI环比（月度变化）是否超预期0.3%"
+        "assets": "📉 美债价格 承压；📉 美股成长股 利空",
+        "chain": "加息预期推高短端利率（借钱成本上升），压缩高估值股票风险溢价（投资者要求更高回报）",
+        "watch": "周三CPI数据及联储官员讲话对加息预期的确认"
       }
     },
     {
       "rank": 6,
-      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
+      "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
-      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
+      "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic公开AI模型，此前私测震动华尔街",
-        "assets": "📈 AI概念股 利好\n📈 算力芯片 利好",
-        "chain": "模型开源（公开代码）加速AI应用落地，提升算力需求（英伟达等受益）",
-        "watch": "模型API（应用程序接口）调用量及企业客户签约数"
+        "what": "超微电脑因70亿融资计划股价暴跌",
+        "assets": "📉 超微电脑 利空；📉 AI硬件板块 承压",
+        "chain": "大规模融资稀释现有股东权益（每股价值降低），市场担忧现金流吃紧，拖累同类AI服务器股",
+        "watch": "超微电脑后续订单公告及融资条款细节"
       }
     },
     {
       "rank": 7,
+      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
+      "source": "CNBC",
+      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "6月10日外盘头条：美国对伊朗发动新一轮打击 SpaceX IPO获大幅超额认购 欧盟提议新一轮对俄制裁",
       "source": "环球市场播报",
       "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、美国在直升机被击落后对伊朗发动新一轮打击 2、欧盟提议新一轮对俄制裁 包括维持俄罗斯石油价格上限不变 3...",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil prices fall after U.S. Energy secretary says Hormuz ship traffic is increasing",
       "source": "CNBC",
       "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "摩根士丹利G10外汇策略主管：美联储将维持利率不变 美元将走弱",
-      "source": "环球市场播报",
-      "detail": "摩根士丹利的G10外汇策略主管David Adams表示，随着美联储达不到市场预期并且在今年维持利率不变，美元可能走弱。 “从风险平衡来看，美元未来会下跌...",
-      "lang": "zh",
-      "score": 28
     }
   ]
 }
