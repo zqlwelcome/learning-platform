@@ -155,45 +155,67 @@ const COURSE_SERIES = [
     title: 'AI数据分析师',
     icon: '📊',
     color: '#ff9500',
-    status: 'coming-soon',
+    status: 'active',
     progress: 0,
-    totalLessons: 10,
+    totalLessons: 16,
     completedLessons: 0,
-    description: '用AI提升数据分析效率10倍',
-    tags: ['数据', '效率'],
+    description: '2026最火岗位：从数据搬运工到AI应用构建者',
+    tags: ['高薪', 'AI原生', '热门'],
     modules: [
       {
-        id: 'ai-ana-basic',
+        id: 'ai-ana-foundation',
         title: '基础篇',
         subtitle: '第1-3天',
         icon: '📚',
         lessons: [
-          { id: 'ana-1', title: 'AI数据分析概述', time: '8分钟' },
-          { id: 'ana-2', title: '数据清洗自动化', time: '12分钟' },
-          { id: 'ana-3', title: 'SQL+AI联合查询', time: '10分钟' }
+          { id: 'ana-1', title: 'AI数据分析师的角色进化（2026版）', time: '10分钟' },
+          { id: 'ana-2', title: 'Python数据分析环境+AI辅助编码', time: '15分钟' },
+          { id: 'ana-3', title: 'SQL与数据仓库实战（ClickHouse/Doris）', time: '15分钟' }
+        ]
+      },
+      {
+        id: 'ai-ana-ai-tools',
+        title: 'AI工具篇',
+        subtitle: '第4-7天',
+        icon: '🛠️',
+        lessons: [
+          { id: 'ana-4', title: '大模型API调用+Prompt Engineering', time: '15分钟' },
+          { id: 'ana-5', title: 'Text-to-SQL：说人话就能查数据', time: '12分钟' },
+          { id: 'ana-6', title: 'RAG企业知识库构建实战', time: '18分钟' },
+          { id: 'ana-7', title: 'AI辅助数据可视化（自然语言出图）', time: '12分钟' }
         ]
       },
       {
         id: 'ai-ana-advanced',
-        title: '进阶篇',
-        subtitle: '第4-7天',
-        icon: '🚀',
+        title: '进阶实战篇',
+        subtitle: '第8-11天',
+        icon: '🔍',
         lessons: [
-          { id: 'ana-4', title: '自然语言转SQL', time: '15分钟' },
-          { id: 'ana-5', title: '自动化报表生成', time: '12分钟' },
-          { id: 'ana-6', title: '异常检测AI化', time: '10分钟' },
-          { id: 'ana-7', title: '数据可视化AI', time: '12分钟' }
+          { id: 'ana-8', title: 'AI Agent自动化数据流水线', time: '20分钟' },
+          { id: 'ana-9', title: '机器学习建模实战（XGBoost/LightGBM）', time: '18分钟' },
+          { id: 'ana-10', title: '异常检测+时序预测AI化', time: '15分钟' },
+          { id: 'ana-11', title: '大模型微调入门（LoRA/QLoRA）', time: '20分钟' }
         ]
       },
       {
-        id: 'ai-ana-practice',
-        title: '实战篇',
-        subtitle: '第8-10天',
-        icon: '💪',
+        id: 'ai-ana-business',
+        title: '业务决策篇',
+        subtitle: '第12-14天',
+        icon: '📊',
         lessons: [
-          { id: 'ana-8', title: '业务分析实战', time: '15分钟' },
-          { id: 'ana-9', title: '数据产品设计', time: '18分钟' },
-          { id: 'ana-10', title: '面试案例分析', time: '20分钟' }
+          { id: 'ana-12', title: '指标体系设计+AB测试实战', time: '15分钟' },
+          { id: 'ana-13', title: '因果推断实战（DID/PSM/IV）', time: '18分钟' },
+          { id: 'ana-14', title: '数据产品化与故事讲述', time: '12分钟' }
+        ]
+      },
+      {
+        id: 'ai-ana-career',
+        title: '求职实战篇',
+        subtitle: '第15-16天',
+        icon: '🎯',
+        lessons: [
+          { id: 'ana-15', title: '简历优化+GitHub作品集打造', time: '15分钟' },
+          { id: 'ana-16', title: '面试案例分析（大厂真题模拟）', time: '20分钟' }
         ]
       }
     ]
