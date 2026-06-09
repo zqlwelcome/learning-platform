@@ -1,108 +1,40 @@
 {
-  "updateTime": "2026-06-09 07:25",
+  "updateTime": "2026-06-09 22:50",
   "news": [
     {
       "rank": 1,
-      "title": "OpenAI confidentially files for IPO, prepping Wall Street for mega AI debut",
-      "source": "CNBC",
-      "detail": "OpenAI's confidential filing lands days before SpaceX is set to go public and a week after Anthropic announced its confidential disclosure with the SEC.",
-      "lang": "en",
-      "score": 62,
-      "insight": {
-        "what": "OpenAI秘密提交IPO申请，筹备华尔街首秀",
-        "assets": "📈 AI板块 利好\n📈 美股科技股 利好",
-        "chain": "AI赛道估值锚定效应（龙头上市带动同行业估值重估），可能分流资金",
-        "watch": "SEC审批进度及估值区间"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Oculis三期临床试验失败致股价暴跌，多家律所启动证券欺诈调查",
       "source": "环球市场播报",
       "detail": "生物制药公司Oculis Holding AG（纳斯达克代码：OCS）正面临多家股东权益律师事务所的证券欺诈调查。继2026年5月29日披露其核心候选药物OCS-01的两项三期临床试验失败后...",
       "lang": "zh",
-      "score": 50,
-      "insight": {
-        "what": "Oculis三期临床失败股价暴跌，律所启动证券欺诈调查",
-        "assets": "📉 Oculis 利空\n📉 生物科技板块 承压",
-        "chain": "临床失败触发做空（预期反转），律所调查加剧抛售，拖累板块情绪",
-        "watch": "是否出现集体诉讼及后续临床数据"
-      }
+      "score": 50
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Amplitude下调盈利展望引发股价暴跌，多家律所启动证券欺诈调查",
       "source": "环球市场播报",
       "detail": "数字分析平台Amplitude， Inc．（纳斯达克代码：AMPL）正面临多家股东权益律师事务所的证券欺诈调查。继5月初公布一季报并大幅下调全年盈利指引后...",
       "lang": "zh",
-      "score": 50,
-      "insight": {
-        "what": "Amplitude下调盈利展望股价暴跌，律所启动证券欺诈调查",
-        "assets": "📉 Amplitude 利空\n📉 SaaS板块 承压",
-        "chain": "盈利预警引发估值下修（成长股逻辑失效），律所调查强化恐慌",
-        "watch": "财报电话会细节及客户留存率"
-      }
+      "score": 50
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "6月9日外盘头条：SpaceX上市获大幅超额认购 OpenAI提交美国IPO申请 苹果WWDC26 库克谢幕 系统提速",
       "source": "环球市场播报",
       "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、亚马逊与康宁公司就数据中心光纤达成协议 2、一文看懂苹果WWDC26：库克谢幕，系统提速，Siri终于聪明了？",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX获超额认购，OpenAI提交IPO，苹果WWDC26库克谢幕",
-        "assets": "📈 太空概念股 利好\n📈 AI板块 利好\n📉 苹果供应链 中性偏空",
-        "chain": "IPO热潮可能吸走流动性（资金从老牌科技转向新经济），库克卸任引发战略不确定性",
-        "watch": "SpaceX上市定价及苹果新品反响"
-      }
+      "score": 45
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "继Anthropic之后，OpenAI也提交了美国IPO申请",
       "source": "环球市场播报",
       "detail": " ChatGPT开发商OpenAI于周一秘密提交了美国首次公开募股（IPO）申请，与竞争对手Anthropic一道进军股市，以满足投资者对人工智能热潮的投资需求。",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "继Anthropic后OpenAI也提交美国IPO申请",
-        "assets": "📈 AI板块 利好\n📈 美股科技股 利好",
-        "chain": "AI赛道IPO集中爆发（竞争加剧），或引发估值泡沫担忧",
-        "watch": "IPO定价及同行融资动态"
-      }
+      "score": 45
     },
     {
-      "rank": 6,
-      "title": "Tom Lee's clients are worried SpaceX IPO will mark a market top. He's not",
-      "source": "CNBC",
-      "detail": "The Fundstrat managing partner and head of research said that there's enough cash on the sidelines that public markets can absorb the Elon Musk company's debut.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "Tom Lee客户担心SpaceX上市预示市场见顶，他不同意",
-        "assets": "📈 美股大盘 中性偏多\n📈 太空概念股 利好",
-        "chain": "明星股IPO引发顶部讨论（情绪指标），但Lee认为资金仍充裕",
-        "watch": "市场资金流向及美联储政策信号"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Apple partnering with Google and Nvidia for most advanced AI model",
-      "source": "CNBC",
-      "detail": "Apple's artificial intelligence strategy took center stage at its Worldwide Developers Conference in Cupertino, Calif.",
-      "lang": "en",
-      "score": 44
-    },
-    {
-      "rank": 8,
-      "title": "Nvidia CEO Jensen Huang declines Senate testimony on AI, China and exports",
-      "source": "CNBC",
-      "detail": "Sen. Elizabeth Warren said Nvidia’s CEO should answer questions publicly as lawmakers scrutinize AI chip sales to China and export controls.",
-      "lang": "en",
-      "score": 44
-    },
-    {
-      "rank": 9,
+      "rank": 5,
       "title": "美国股市：纳斯达克100指数创逾一周最大涨幅 芯片股带动美股回升",
       "source": "环球市场播报",
       "detail": "标普500指数周一上涨，收复上周部分跌幅，芯片股大涨，同时投资者评估中东紧张局势缓和的影响。标普500指数上涨0.3%。上周五，强劲就业数据推动市场提高对美联储加息的预期...",
@@ -110,12 +42,44 @@
       "score": 37
     },
     {
-      "rank": 10,
+      "rank": 6,
       "title": "城堡证券：通胀压力或迫使美联储很快加息",
       "source": "环球市场播报",
       "detail": " 城堡证券认为，投资者面临的下一个重大风险是金融环境的收紧，因为美联储可能“很快”需要加息，以遏制日益加剧的通胀压力。",
       "lang": "zh",
       "score": 36
+    },
+    {
+      "rank": 7,
+      "title": "韩国一季度GDP环比增长1.8%，创五年多来最快增速",
+      "source": "环球市场播报",
+      "detail": "韩国央行周四公布的数据显示，受强劲出口和稳健内需的支撑，韩国今年第一季度增速创五年多来最快。 韩国央行初步数据显示，1月至3月实际国内生产总值（GDP）环比增长1.8%...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
+      "title": "渤健阿尔茨海默症新药二期试验未达主要终点，多家律所启动证券欺诈调查",
+      "source": "环球市场播报",
+      "detail": "生物技术巨头渤健公司（Biogen Inc．，纳斯达克代码：BIIB）正面临多家股东权益律师事务所的证券欺诈调查。继2026年5月14日披露其tau靶向反义寡核苷酸疗法diranersen的二期...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 9,
+      "title": "核心候选药临床试验现癌症病例，Abivax遭律所证券欺诈调查",
+      "source": "环球市场播报",
+      "detail": "法国临床阶段生物技术公司Abivax S.A．（纳斯达克代码：ABVX）正面临股东权益律师事务所The Schall Law Firm的证券欺诈调查。调查聚焦于公司是否就核心候选药物obefazimod...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 10,
+      "title": "业绩暴雷叠加战略突变，Angi Inc.遭多家律所证券欺诈调查",
+      "source": "环球市场播报",
+      "detail": "家居服务平台Angi Inc．（纳斯达克代码：ANGI）正面临多家股东权益律师事务所的证券欺诈调查。继5月初公布惨淡的一季报导致股价单日暴跌逾35%后...",
+      "lang": "zh",
+      "score": 30
     }
   ]
 }

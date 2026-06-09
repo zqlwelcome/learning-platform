@@ -1,49 +1,8 @@
 {
-  "updateTime": "2026-06-09 07:25",
-  "indices": {
-    "usIXIC": {
-      "name": "纳斯达克",
-      "region": "🇺🇸 美股",
-      "value": "25929.66",
-      "change": "0.86"
-    },
-    "usDJI": {
-      "name": "道琼斯",
-      "region": "🇺🇸 美股",
-      "value": "50786.01",
-      "change": "-0.16"
-    },
-    "sh000001": {
-      "name": "上证指数",
-      "region": "🇨🇳 A股",
-      "value": "3959.34",
-      "change": "-1.70"
-    },
-    "hkHSI": {
-      "name": "恒生指数",
-      "region": "🇭🇰 港股",
-      "value": "24657.060",
-      "change": "-1.22"
-    }
-  },
+  "updateTime": "2026-06-09 22:50",
+  "indices": {},
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": {
-    "time": "15:00",
-    "hgt": 0.0,
-    "sgt": 5200000.0,
-    "total": 0.0
-  },
-  "bank_news": [
-    {
-      "title": "韩国一季度GDP环比增长1.8%，创五年多来最快增速",
-      "source": "环球市场播报",
-      "keyword": "GDP"
-    },
-    {
-      "title": "城堡证券：通胀压力或迫使美联储很快加息",
-      "source": "环球市场播报",
-      "keyword": "美联储"
-    }
-  ]
+  "northbound": null,
+  "bank_news": []
 }
