@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 01:05",
+  "updateTime": "2026-06-10 01:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 65,
       "insight": {
-        "what": "Wix因AI平台问题暴跌27%，遭证券欺诈调查",
-        "assets": "📉 Wix股价 利空；📉 AI板块 承压",
-        "chain": "AI商业化（用AI赚钱）风险暴露，科技股估值（价格是否合理）可能重估",
-        "watch": "Wix后续财报及AI业务调整进展"
+        "what": "Wix因AI平台问题股价暴跌27%，遭证券欺诈调查",
+        "assets": "📉 Wix股票 利空；📉 AI概念股 承压",
+        "chain": "AI变现不及预期引发连锁抛售（仓位清算），做空机构可能瞄准其他高估值AI公司",
+        "watch": "Wix财报会议对AI收入指引的修正幅度"
       }
     },
     {
@@ -24,69 +24,77 @@
       "score": 33,
       "insight": {
         "what": "UHG证券欺诈诉讼首席原告申请周二夜间截止",
-        "assets": "📉 UHG股价 承压；📈 医疗板块 波动",
-        "chain": "诉讼风险（打官司亏钱）加剧，投资者避险（躲风险）可能抛售相关股",
-        "watch": "UHG诉讼进展及赔偿金额预期"
+        "assets": "📉 UHG股票 利空；📉 医疗保健板块 承压",
+        "chain": "诉讼风险增加（法律成本上升），可能触发机构减持（仓位调整）和做空头寸增加",
+        "watch": "法院是否指定原告及后续集体诉讼进展"
       }
     },
     {
       "rank": 3,
+      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
+      "source": "CNBC",
+      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "Anthropic公开发布类Mythos AI模型，此前私测引发华尔街震动",
+        "assets": "📈 AI概念股 利好；📈 科技板块 正面",
+        "chain": "AI竞争加剧（技术迭代加速），利好算力供应商（如英伟达），利空模型服务商（定价压力）",
+        "watch": "模型API定价和客户采用率数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX受热捧 IPO吸引到的机构投资者需求是供发售股份的数倍",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，SpaceX首次公开募股吸引到的机构投资者需求是供发售股份的数倍。这家由马斯克领导的火箭、卫星和人工智能公司上市日期日益临近。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SpaceX受热捧，IPO需求数倍于供给",
-        "assets": "📈 SpaceX 利好；📈 太空概念股 利好",
-        "chain": "高需求（抢着买）推高估值（价格），太空行业融资（借钱）环境改善",
-        "watch": "SpaceX IPO定价及首日涨幅"
+        "what": "SpaceX IPO获机构投资者数倍超额认购",
+        "assets": "📈 太空概念股 利好；📈 IPO市场 情绪提振",
+        "chain": "高需求暗示二级市场溢价（上市后股价上涨），可能带动太空ETF（交易所交易基金）资金流入",
+        "watch": "SpaceX最终发行价及首日涨幅"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "欧盟监管机构勒令元宇宙向竞品AI聊天机器人免费开放WhatsApp接口",
       "source": "环球市场播报",
       "detail": "欧盟反垄断监管机构周二向元平台（Meta）下达指令，要求其向竞品 AI 聊天机器人免费开放 WhatsApp 相关接口。目前监管部门仍在调查该企业是否通过屏蔽竞争对手接入这款通讯...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "欧盟勒令元宇宙向竞品AI聊天机器人开放WhatsApp接口",
-        "assets": "📉 元宇宙平台 承压；📈 竞品AI公司 利好",
-        "chain": "监管反垄断（限制一家独大）冲击社交网络护城河（竞争壁垒），数据互通（共享信息）或成趋势",
-        "watch": "元宇宙是否上诉及接口开放时间表"
+        "what": "欧盟勒令Meta向竞品免费开放WhatsApp接口",
+        "assets": "📉 Meta股票 利空；📉 社交平台板块 承压",
+        "chain": "监管反垄断（限制数据护城河），削弱Meta广告变现能力，利好竞品（如Telegram）",
+        "watch": "Meta是否上诉及欧盟最终执行期限"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Ensign集团遭做空报告重创，多家律所启动证券欺诈调查",
       "source": "环球市场播报",
       "detail": "专业养老护理机构运营商Ensign集团近日遭遇重大危机。做空机构Hunterbrook Media于6月8日发布报告，指控该公司的商业模式依赖于对患者的不充分护理...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Ensign集团遭做空报告重创，多家律所调查",
-        "assets": "📉 Ensign股价 利空；📉 中小盘股 承压",
-        "chain": "做空（赌股价跌）引发连锁抛售（跟风卖），企业治理（管理诚信）受质疑",
-        "watch": "做空报告具体指控及公司回应"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Wealthfront因存款流失与房贷关联交易遭多律所证券欺诈调查",
-      "source": "环球市场播报",
-      "detail": "数字财富管理平台Wealthfront近日接连遭遇两次重大信息披露冲击，引发多家律师事务所启动证券欺诈调查。 2026年1月12日，Wealthfront发布第三财季财报...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "Wealthfront遭多律所调查，涉存款流失与房贷关联交易",
-        "assets": "📉 Wealthfront 利空；📉 金融科技板块 承压",
-        "chain": "信任危机（用户不放心）导致存款加速外流，监管收紧（规则变严）风险上升",
-        "watch": "Wealthfront存款数据及监管处罚可能"
+        "what": "Ensign集团遭做空报告重创，多家律所启动证券欺诈调查",
+        "assets": "📉 Ensign股票 利空；📉 中小盘股 承压",
+        "chain": "做空报告引发信任危机（挤兑风险），可能触发其他被做空标的联动下跌（传染效应）",
+        "watch": "做空报告详细论据及公司回应"
       }
     },
     {
       "rank": 7,
+      "title": "Wealthfront因存款流失与房贷关联交易遭多律所证券欺诈调查",
+      "source": "环球市场播报",
+      "detail": "数字财富管理平台Wealthfront近日接连遭遇两次重大信息披露冲击，引发多家律师事务所启动证券欺诈调查。 2026年1月12日，Wealthfront发布第三财季财报...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "Truist says Meta has found its next $20 billion business, stock set to gain more than 40%",
       "source": "CNBC",
       "detail": "Analysts at Truist estimate Meta's new subscription model could generate over $20 billion in revenue by 2030.",
@@ -94,7 +102,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Bitcoin's brutal sell-off sparks a flurry of trading in related stocks, including one big bullish bet",
       "source": "CNBC",
       "detail": "The year has been a rocky one for the flagship cryptocurrency, but traders aren't backing away from the space.",
@@ -102,20 +110,12 @@
       "score": 27
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Energy Secretary Chris Wright says traffic in Strait of Hormuz is rising 'very meaningfully'",
       "source": "CNBC",
       "detail": "Wright said that describing the volume of oil exports out of Hormuz as increasing is a \"fair statement.\"",
       "lang": "en",
       "score": 27
-    },
-    {
-      "rank": 10,
-      "title": "午盘：美股回吐涨幅，芯片股再度下挫",
-      "source": "环球市场播报",
-      "detail": " 北京时间6月10日凌晨，美股周二午盘走低。芯片股在经历一日反弹后失去了上涨势头。油价下跌推动原材料和非必需消费品板块逆势上扬。市场继续关注中东局势的最新发展。",
-      "lang": "zh",
-      "score": 25
     }
   ]
 }
