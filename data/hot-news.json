@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 04:35",
+  "updateTime": "2026-06-10 04:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "OpenAI提交IPO，估值8520亿美元",
-        "assets": "📈 AI科技股 利好，📈 一级市场（未上市公司）科技股 看涨",
-        "chain": "OpenAI高估值上市将提振AI板块整体估值（市盈率倍数），吸引资金从传统科技股轮动至AI",
-        "watch": "IPO定价及超额认购倍数，后续AI公司IPO节奏"
+        "what": "OpenAI提交IPO申请，估值8520亿美元",
+        "assets": "📈 AI科技股 利好",
+        "chain": "AI赛道估值锚定效应（参照点），带动一级市场（未上市企业）融资溢价",
+        "watch": "IPO发行价及认购倍数"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 45,
       "insight": {
         "what": "PicS因IPO隐瞒信贷缺陷面临集体诉讼",
-        "assets": "📉 金融科技股 承压，📉 IPO市场信心 利空",
-        "chain": "诉讼暴露IPO尽职调查（上市审核）漏洞，或引发监管收紧，增加未来IPO合规成本（律师费、披露要求）",
-        "watch": "法院是否受理，SEC（美国证监会）是否调查其他类似案例"
+        "assets": "📉 科技IPO新股 承压",
+        "chain": "监管审查收紧（SEC查案），抑制散户打新（认购新股）热情",
+        "watch": "SEC是否扩大调查范围"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户配售未定",
-        "assets": "📈 SpaceX相关概念股 利好，📈 太空板块 看涨",
-        "chain": "定价确定但散户配售不确定，暗示机构主导，散户可能通过ETF（交易所交易基金）间接参与，推高太空ETF",
-        "watch": "散户配售比例公告，首日交易涨幅"
+        "what": "SpaceX IPO定价已定，散户分配待定",
+        "assets": "📈 航天军工股 利好",
+        "chain": "散户无法大量获配，推高二级市场（已上市股票）同类标的溢价",
+        "watch": "最终散户配售比例"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX获100亿美元机构订单，募资750亿",
-        "assets": "📈 太空及国防股 利好，📈 一级市场科技股 看涨",
-        "chain": "机构超额认购（需求远超供给）表明市场极度看好，将带动太空产业链（卫星、火箭）估值上修",
-        "watch": "最终IPO发行价是否上调，首日市值表现"
+        "what": "SpaceX获100亿美元级订单，募资750亿美元",
+        "assets": "📈 航天ETF 利好",
+        "chain": "巨额订单显示机构抢筹（争相买入），可能引发航天板块轮动（资金切换）",
+        "watch": "SpaceX上市首日涨幅"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "GeneDx因收购减值94%暴跌49%，面临诉讼",
-        "assets": "📉 基因检测股 承压，📉 生物科技并购 利空",
-        "chain": "减值（资产价值大幅缩水）暴露并购风险，投资者将重新评估生物科技公司并购溢价合理性（商誉减值风险）",
-        "watch": "其他基因检测公司是否下调业绩指引，诉讼进展"
+        "what": "GeneDx因并购减值94%暴跌49%，面临诉讼",
+        "assets": "📉 生物科技并购股 承压",
+        "chain": "商誉减值（收购溢价蒸发）风险暴露，打压并购溢价预期",
+        "watch": "GeneDx后续审计结果"
       }
     },
     {
@@ -79,14 +79,22 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic发布新AI模型，两个月前已震撼华尔街",
-        "assets": "📈 AI概念股 利好，📈 云计算/算力 看涨",
-        "chain": "新模型公开将加速AI应用落地，增加算力需求（GPU芯片订单），但可能加剧行业竞争（价格战）",
-        "watch": "模型性能基准测试（如MMLU）分数，API定价是否下调"
+        "what": "Anthropic公开Mythos模型，此前私测震动华尔街",
+        "assets": "📈 AI应用股 利好",
+        "chain": "模型公开加速商业化，可能挤压OpenAI市场份额（竞争加剧）",
+        "watch": "Mythos模型API调用量数据"
       }
     },
     {
       "rank": 7,
+      "title": "Apple shares slide after big Siri AI reveal",
+      "source": "CNBC",
+      "detail": "Apple unveiled new artificial intelligence software at WWDC, highlighted by its long-awaited update to Siri.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Ademi LLP调查Ensign Group证券欺诈指控",
       "source": "环球市场播报",
       "detail": " 律师事务所Ademi LLP周二宣布，正在对The Ensign Group， Inc．进行可能的证券欺诈索赔调查。该公司以ENSG为代码在纳斯达克上市。",
@@ -94,20 +102,12 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "摩根士丹利G10外汇策略主管：美联储将维持利率不变 美元将走弱",
       "source": "环球市场播报",
       "detail": "摩根士丹利的G10外汇策略主管David Adams表示，随着美联储达不到市场预期并且在今年维持利率不变，美元可能走弱。 “从风险平衡来看，美元未来会下跌...",
       "lang": "zh",
       "score": 28
-    },
-    {
-      "rank": 9,
-      "title": "S&P 500 and Nasdaq close lower as chip stock rebound fails",
-      "source": "CNBC",
-      "detail": "The S&P 500 and Nasdaq Composite dropped on Tuesday.",
-      "lang": "en",
-      "score": 27
     },
     {
       "rank": 10,
