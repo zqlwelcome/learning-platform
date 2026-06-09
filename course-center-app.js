@@ -468,7 +468,7 @@ function toggleModule(moduleId) {
 // 打开课程
 function openLesson(lessonId, seriesId) {
     // 支持所有已有课程内容的系列
-    if (seriesId === 'ai-pm' || seriesId === 'ai-engineer') {
+    if (seriesId === 'ai-pm' || seriesId === 'ai-engineer' || seriesId === 'ai-analyst') {
         openPMLesson(lessonId);
         return;
     }
@@ -490,11 +490,33 @@ function openPMLesson(lessonId) {
     let sectionTitle = '';
     
     for (const section of COURSES) {
-        const found = section.lessons.find(l => l.id === lessonId);
-        if (found) {
-            lesson = found;
-            sectionTitle = section.title;
-            break;
+        if (section.lessons) {
+            const found = section.lessons.find(l => l.id === lessonId);
+            if (found) {
+                lesson = found;
+                sectionTitle = section.title;
+                break;
+            }
+        }
+    }
+    
+    // Fallback: 直接查找顶层lesson（AI数据分析师等扁平结构）
+    if (!lesson) {
+        const directLesson = COURSES.find(l => l.id === lessonId && l.content);
+        if (directLesson) {
+            lesson = directLesson;
+            // 从COURSE_SERIES反向查找模块名
+            const series = COURSE_SERIES.find(s => 
+                s.modules.some(m => m.lessons.some(l => l.id === lessonId))
+            );
+            if (series) {
+                for (const mod of series.modules) {
+                    if (mod.lessons.some(l => l.id === lessonId)) {
+                        sectionTitle = mod.title;
+                        break;
+                    }
+                }
+            }
         }
     }
     
