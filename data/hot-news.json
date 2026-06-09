@@ -1,85 +1,121 @@
 {
-  "updateTime": "2026-06-09 22:50",
+  "updateTime": "2026-06-09 22:56",
   "news": [
     {
       "rank": 1,
-      "title": "Oculis三期临床试验失败致股价暴跌，多家律所启动证券欺诈调查",
-      "source": "环球市场播报",
-      "detail": "生物制药公司Oculis Holding AG（纳斯达克代码：OCS）正面临多家股东权益律师事务所的证券欺诈调查。继2026年5月29日披露其核心候选药物OCS-01的两项三期临床试验失败后...",
+      "title": "加息大消息！美联储，突传重磅！",
+      "source": "券商中国",
+      "detail": "沃什正面临重大挑战。 目前，规模达31万亿美元的美债市场已率先定价美联储加息预期，债券交易员押注，美联储最快可能在今年10月加息25个基点。",
       "lang": "zh",
-      "score": 50
+      "score": 51,
+      "insight": {
+        "what": "美联储可能加息或维持鹰派立场",
+        "assets": "📉 美股大盘 承压；📈 美元指数 走强",
+        "chain": "加息预期→风险资产（股票/加密货币）遭抛售→资金流入避险（美债/黄金）",
+        "watch": "美联储官员讲话及FOMC（联邦公开市场委员会）会议纪要"
+      }
     },
     {
       "rank": 2,
-      "title": "Amplitude下调盈利展望引发股价暴跌，多家律所启动证券欺诈调查",
-      "source": "环球市场播报",
-      "detail": "数字分析平台Amplitude， Inc．（纳斯达克代码：AMPL）正面临多家股东权益律师事务所的证券欺诈调查。继5月初公布一季报并大幅下调全年盈利指引后...",
-      "lang": "zh",
-      "score": 50
+      "title": " Inflation data threatens to derail market comeback. How the S&P 500 may react",
+      "source": "CNBC",
+      "detail": "Investors will be watching core inflation in May closely to see just how long higher prices from the U.S.-Iran war may last, according to JPMorgan.",
+      "lang": "en",
+      "score": 40,
+      "insight": {
+        "what": "通胀数据可能破坏美股反弹",
+        "assets": "📉 标普500指数 承压；📈 美债收益率 上行",
+        "chain": "通胀超预期→加息预期升温→成长股（科技/高估值）估值压缩→市场波动加剧",
+        "watch": "CPI（消费者物价指数）及PCE（个人消费支出）数据"
+      }
     },
     {
       "rank": 3,
-      "title": "6月9日外盘头条：SpaceX上市获大幅超额认购 OpenAI提交美国IPO申请 苹果WWDC26 库克谢幕 系统提速",
-      "source": "环球市场播报",
-      "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、亚马逊与康宁公司就数据中心光纤达成协议 2、一文看懂苹果WWDC26：库克谢幕，系统提速，Siri终于聪明了？",
-      "lang": "zh",
-      "score": 45
+      "title": "SpaceX employee group creates low-fee wealth management option with Choreo for post-IPO",
+      "source": "CNBC",
+      "detail": "The deal marks a bold experiment in the wealth management industry that could shift the balance of power from advisory firms to wealthy groups of investors.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "SpaceX员工获低费理财选项，为IPO做准备",
+        "assets": "📈 私人公司股权（SpaceX） 利好；📉 传统投行/理财顾问 承压",
+        "chain": "员工持股流动性提升→IPO估值预期上调→带动私人航天板块热度",
+        "watch": "SpaceX IPO时间表及估值"
+      }
     },
     {
       "rank": 4,
-      "title": "继Anthropic之后，OpenAI也提交了美国IPO申请",
-      "source": "环球市场播报",
-      "detail": " ChatGPT开发商OpenAI于周一秘密提交了美国首次公开募股（IPO）申请，与竞争对手Anthropic一道进军股市，以满足投资者对人工智能热潮的投资需求。",
-      "lang": "zh",
-      "score": 45
+      "title": "Oil prices fall nearly 4% after U.S. Energy Secretary says Hormuz ship traffic is increasing",
+      "source": "CNBC",
+      "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "美国称霍尔木兹海峡油轮通行增加，油价暴跌",
+        "assets": "📉 原油 利空；📈 航运股 利好；📉 能源股 承压",
+        "chain": "供应中断担忧缓解→油价下行→通胀预期降温→利好消费股/债券",
+        "watch": "霍尔木兹海峡实际通行量及OPEC（石油输出国组织）产量数据"
+      }
     },
     {
       "rank": 5,
-      "title": "美国股市：纳斯达克100指数创逾一周最大涨幅 芯片股带动美股回升",
-      "source": "环球市场播报",
-      "detail": "标普500指数周一上涨，收复上周部分跌幅，芯片股大涨，同时投资者评估中东紧张局势缓和的影响。标普500指数上涨0.3%。上周五，强劲就业数据推动市场提高对美联储加息的预期...",
-      "lang": "zh",
-      "score": 37
+      "title": "Upstart chipmakers keep challenging Nvidia. This time it's Microsoft-backed D-Matrix",
+      "source": "CNBC",
+      "detail": "Nvidia challenger D-Matrix is entering full production of an AI chip it says is 10 times faster than a GPU and bypasses the memory shortage.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "微软支持的D-Matrix挑战英伟达AI芯片",
+        "assets": "📉 英伟达 承压；📈 D-Matrix（未上市） 利好；📈 微软 利好",
+        "chain": "AI芯片竞争加剧→英伟达垄断溢价压缩→下游云服务商成本降低",
+        "watch": "D-Matrix产品性能测试及客户订单"
+      }
     },
     {
       "rank": 6,
-      "title": "城堡证券：通胀压力或迫使美联储很快加息",
-      "source": "环球市场播报",
-      "detail": " 城堡证券认为，投资者面临的下一个重大风险是金融环境的收紧，因为美联储可能“很快”需要加息，以遏制日益加剧的通胀压力。",
-      "lang": "zh",
-      "score": 36
+      "title": "Bitcoin's brutal sell-off sparks a flurry of trading in related stocks, including one big bullish bet",
+      "source": "CNBC",
+      "detail": "The year has been a rocky one for the flagship cryptocurrency, but traders aren't backing away from the space.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "比特币暴跌引发相关股票交易激增，出现大额看涨押注",
+        "assets": "📉 比特币 承压；📈 加密货币概念股（如Coinbase） 波动；📈 看涨期权 活跃",
+        "chain": "暴跌→散户恐慌抛售→机构抄底看涨期权→短期反弹预期升温",
+        "watch": "比特币关键支撑位（如2万美元）及交易所资金流入"
+      }
     },
     {
       "rank": 7,
-      "title": "韩国一季度GDP环比增长1.8%，创五年多来最快增速",
+      "title": "开盘：美股周二高开，油价回落，芯片股延续反弹势头",
       "source": "环球市场播报",
-      "detail": "韩国央行周四公布的数据显示，受强劲出口和稳健内需的支撑，韩国今年第一季度增速创五年多来最快。 韩国央行初步数据显示，1月至3月实际国内生产总值（GDP）环比增长1.8%...",
+      "detail": " 北京时间6月9日晚，美股周二高开。芯片股经历上周五暴跌之后连续第二天反弹，同时由于市场预期美伊协议接近达成，原油价格回落。",
       "lang": "zh",
-      "score": 30
+      "score": 25
     },
     {
       "rank": 8,
-      "title": "渤健阿尔茨海默症新药二期试验未达主要终点，多家律所启动证券欺诈调查",
+      "title": "欧盟监管机构表示，在围绕苹果Siri人工智能延期落地的争议中，苹果无法获得科技法规豁免待遇",
       "source": "环球市场播报",
-      "detail": "生物技术巨头渤健公司（Biogen Inc．，纳斯达克代码：BIIB）正面临多家股东权益律师事务所的证券欺诈调查。继2026年5月14日披露其tau靶向反义寡核苷酸疗法diranersen的二期...",
+      "detail": "欧盟监管机构周二批评苹果公司。苹果此前称，因受欧盟科技法规限制，暂不打算在欧盟地区推出升级后的人工智能语音助手Siri。监管方面表示...",
       "lang": "zh",
-      "score": 30
+      "score": 20
     },
     {
       "rank": 9,
-      "title": "核心候选药临床试验现癌症病例，Abivax遭律所证券欺诈调查",
-      "source": "环球市场播报",
-      "detail": "法国临床阶段生物技术公司Abivax S.A．（纳斯达克代码：ABVX）正面临股东权益律师事务所The Schall Law Firm的证券欺诈调查。调查聚焦于公司是否就核心候选药物obefazimod...",
-      "lang": "zh",
-      "score": 30
+      "title": "Home sales surged in May to the highest level since December",
+      "source": "CNBC",
+      "detail": "Home sales rebounded in May as mortgage rates dropped back a bit in April, but prices are still rising.",
+      "lang": "en",
+      "score": 20
     },
     {
       "rank": 10,
-      "title": "业绩暴雷叠加战略突变，Angi Inc.遭多家律所证券欺诈调查",
-      "source": "环球市场播报",
-      "detail": "家居服务平台Angi Inc．（纳斯达克代码：ANGI）正面临多家股东权益律师事务所的证券欺诈调查。继5月初公布惨淡的一季报导致股价单日暴跌逾35%后...",
-      "lang": "zh",
-      "score": 30
+      "title": "JPMorgan Chase plans to deploy more powerful AI agents this year",
+      "source": "CNBC",
+      "detail": "JPMorgan Chase's move suggests long-running AI agents are close to clearing the security and governance hurdles that have slowed adoption inside big companies.",
+      "lang": "en",
+      "score": 20
     }
   ]
 }

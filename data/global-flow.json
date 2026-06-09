@@ -1,8 +1,38 @@
 {
-  "updateTime": "2026-06-09 22:50",
-  "indices": {},
+  "updateTime": "2026-06-09 22:56",
+  "indices": {
+    "usIXIC": {
+      "name": "纳斯达克",
+      "region": "🇺🇸 美股",
+      "value": "25715.34",
+      "change": "-0.83"
+    },
+    "usDJI": {
+      "name": "道琼斯",
+      "region": "🇺🇸 美股",
+      "value": "50824.61",
+      "change": "0.08"
+    },
+    "sh000001": {
+      "name": "上证指数",
+      "region": "🇨🇳 A股",
+      "value": "4010.03",
+      "change": "1.28"
+    },
+    "hkHSI": {
+      "name": "恒生指数",
+      "region": "🇭🇰 港股",
+      "value": "24565.900",
+      "change": "-0.37"
+    }
+  },
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": null,
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0.0,
+    "sgt": 5200000.0,
+    "total": 0.0
+  },
   "bank_news": []
 }
