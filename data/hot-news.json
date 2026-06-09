@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 05:25",
+  "updateTime": "2026-06-10 05:31",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 55,
       "insight": {
         "what": "OpenAI提交IPO申请，估值8520亿美元",
-        "assets": "📈 AI科技股 利好，📉 传统软件股 承压",
-        "chain": "OpenAI上市将抽走市场流动性（资金从其他板块流入AI），加剧科技股估值泡沫风险",
-        "watch": "IPO定价及首日涨幅，是否触发AI板块轮动"
+        "assets": "📈 AI概念股 利好；📈 科技成长股 利好",
+        "chain": "高估值IPO或引发科技股泡沫担忧，但短期提振AI赛道风险偏好（市场情绪）。",
+        "watch": "IPO定价区间及机构认购倍数"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "PicS因IPO隐瞒信贷缺陷面临集体诉讼",
-        "assets": "📉 金融科技股 利空，📉 IPO市场情绪 承压",
-        "chain": "诉讼暴露风控漏洞（内控问题），可能导致监管收紧，增加IPO审核成本",
-        "watch": "法院是否受理及赔偿金额，其他金融科技IPO是否延迟"
+        "what": "PicS因IPO隐瞒信贷程序缺陷被集体诉讼",
+        "assets": "📉 PicS股票 利空；📉 新股发行市场 情绪承压",
+        "chain": "监管审查趋严，其他拟IPO公司可能面临更严格尽调（尽职调查），发行折价风险上升。",
+        "watch": "法院是否受理及和解金额"
       }
     },
     {
@@ -37,56 +37,64 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户分配未决",
-        "assets": "📈 太空概念股 利好，📉 散户交易平台 承压",
-        "chain": "机构主导定价（机构控盘）可能抑制散户热情，影响IPO后流动性（交易量）",
-        "watch": "散户分配比例及上市首日波动率"
+        "what": "SpaceX IPO定价确定，散户配售仍不确定",
+        "assets": "📈 SpaceX相关概念股 利好；📉 散户交易平台 中性偏空",
+        "chain": "机构主导配售可能推高上市首日溢价（开盘价超发行价），但散户参与度低或抑制流动性。",
+        "watch": "最终散户配售比例及首日涨幅"
       }
     },
     {
       "rank": 4,
+      "title": "纽约汇市：美元连续第二日小幅走低 交易员等待美国CPI数据",
+      "source": "环球市场播报",
+      "detail": " 美元周二连续第二个交易日小幅走低。此前，特朗普誓言回应伊朗对军用直升机的袭击，导致美元在纽约午间一度上涨。美国国债收益率和原油日间均下跌。",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "美元连续两日走低，市场等待美国CPI",
+        "assets": "📉 美元指数 承压；📈 非美货币 利好；📈 黄金 利好",
+        "chain": "CPI若低于预期，降息（借钱成本降低）预期升温，美元将进一步走弱，风险资产（如股市）受益。",
+        "watch": "美国CPI环比及核心CPI数据"
+      }
+    },
+    {
+      "rank": 5,
       "title": "SpaceX IPO已获100亿美元级机构订单，募资规模达750亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX的首次公开募股正在引发机构投资者的疯狂追捧。据多家媒体报道，在6月12日正式登陆纳斯达克之前，这家由马斯克创立的太空与AI巨头已获得大幅超额认购...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX获100亿美元机构订单，募资750亿",
-        "assets": "📈 太空ETF 利好，📈 国防科技股 联动",
-        "chain": "巨额订单显示机构追捧（需求强劲），或推动太空行业估值重估（PE倍数上调）",
-        "watch": "超额认购倍数及上市后机构持仓变化"
+        "what": "SpaceX IPO获100亿美元机构订单，募资750亿",
+        "assets": "📈 航天军工ETF 利好；📈 私募股权市场 情绪提振",
+        "chain": "超级订单显示机构强烈需求，或推高同类未上市科技公司估值，但可能挤压二级市场资金（流动性抽水）。",
+        "watch": "最终IPO规模及超额认购倍数"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "GeneDx因Fabric Genomics收购减值94%致股价暴跌49% 面临证券集体诉讼",
       "source": "环球市场播报",
       "detail": "基因检测公司GeneDx Holdings正面临证券欺诈集体诉讼。此前该公司披露其收购Fabric Genomics产生的商誉及无形资产减值达3130万美元，约占其3320万美元现金收购对价的94%...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "GeneDx因收购减值94%致股价暴跌49%",
-        "assets": "📉 基因检测股 利空，📉 生物科技ETF 承压",
-        "chain": "减值计提（资产缩水）暴露并购风险，可能引发做空（卖空）潮，拖累板块估值",
-        "watch": "是否触发更多集体诉讼，公司现金流及债务评级"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
-      "source": "CNBC",
-      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "Anthropic发布Mythos AI模型，华尔街震动",
-        "assets": "📈 AI芯片股 利好，📉 现有大模型公司 承压",
-        "chain": "模型性能超预期（技术突破）将加速AI应用落地，但增加竞争压力（市场份额争夺）",
-        "watch": "模型API定价及企业客户采用率，是否引发价格战"
+        "what": "GeneDx因收购减值94%股价暴跌49%遭诉讼",
+        "assets": "📉 GeneDx股票 利空；📉 基因检测板块 情绪承压",
+        "chain": "高溢价收购（高价买公司）减值风险暴露，市场将重新评估医疗科技并购案例的商誉（收购溢价部分）质量。",
+        "watch": "是否有其他生物科技公司发布减值预警"
       }
     },
     {
       "rank": 7,
+      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
+      "source": "CNBC",
+      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Ademi LLP调查Ensign Group证券欺诈指控",
       "source": "环球市场播报",
       "detail": " 律师事务所Ademi LLP周二宣布，正在对The Ensign Group， Inc．进行可能的证券欺诈索赔调查。该公司以ENSG为代码在纳斯达克上市。",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "摩根士丹利G10外汇策略主管：美联储将维持利率不变 美元将走弱",
       "source": "环球市场播报",
       "detail": "摩根士丹利的G10外汇策略主管David Adams表示，随着美联储达不到市场预期并且在今年维持利率不变，美元可能走弱。 “从风险平衡来看，美元未来会下跌...",
@@ -102,18 +110,10 @@
       "score": 28
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Sportradar遭集体诉讼，被指业务模式非法致市值蒸发8亿美元",
       "source": "环球市场播报",
       "detail": " 体育数据巨头Sportradar Group AG正面临证券欺诈集体诉讼。此前做空机构指控该公司明知故犯地与黑市赌博运营商合作以增加收入，导致股价暴跌逾22%，市值蒸发约8亿美元。",
-      "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "尾盘：美股涨跌不一 芯片股拖累纳指下跌1.3%",
-      "source": "环球市场播报",
-      "detail": " 北京时间6月10日凌晨，美股周二尾盘涨跌不一。芯片股在经历一日反弹后失去了上涨势头。油价下跌推动原材料和非必需消费品板块逆势上扬。市场继续关注中东局势的最新发展。",
       "lang": "zh",
       "score": 25
     }
