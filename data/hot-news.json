@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-09 23:01",
+  "updateTime": "2026-06-09 23:05",
   "news": [
     {
       "rank": 1,
+      "title": "Medline因FDA违规警告面临证券欺诈调查",
+      "source": "环球市场播报",
+      "detail": "医疗器械供应商Medline Industries近日陷入监管危机。美国食品药品监督管理局于5月28日向该公司发出警告信，指出其位于伊利诺伊州的工厂存在“严重违反成品药现行良好生产规...",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "Medline因FDA违规被调查，涉嫌证券欺诈",
+        "assets": "📉 医疗设备股 利空",
+        "chain": "FDA监管收紧预期升温，可能波及同类医疗合规股（如雅培）",
+        "watch": "FDA是否扩大调查范围"
+      }
+    },
+    {
+      "rank": 2,
       "title": " Inflation data threatens to derail market comeback. How the S&P 500 may react",
       "source": "CNBC",
       "detail": "Investors will be watching core inflation in May closely to see just how long higher prices from the U.S.-Iran war may last, according to JPMorgan.",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "通胀数据可能破坏美股反弹，标普500面临回调",
-        "assets": "📉 标普500 承压",
-        "chain": "通胀超预期→加息预期升温（借钱成本上升）→科技股估值压缩（PE倍数降低）→大盘下跌",
-        "watch": "周三CPI数据实际值与预期偏差"
+        "what": "通胀数据威胁市场反弹，标普500承压",
+        "assets": "📉 标普500指数 利空，📈 美债收益率 上行",
+        "chain": "通胀超预期→加息预期（借钱成本上升）→压制科技成长股估值",
+        "watch": "核心PCE（个人消费支出物价指数）月率"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "SpaceX employee group creates low-fee wealth management option with Choreo for post-IPO",
       "source": "CNBC",
       "detail": "The deal marks a bold experiment in the wealth management industry that could shift the balance of power from advisory firms to wealthy groups of investors.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX员工与Choreo合作推出低费财富管理，备战IPO后套现",
-        "assets": "📈 SpaceX 股权流动性 利好",
-        "chain": "员工期权变现需求→低费财富管理吸引长期资金→降低IPO抛压（卖出压力）",
-        "watch": "SpaceX IPO时间表及估值变化"
+        "what": "SpaceX员工与Choreo合作推出低费财富管理，为IPO做准备",
+        "assets": "📈 加密资产/另类投资 中性偏利好",
+        "chain": "员工持股变现需求→增加流动性（可交易资产），可能带动IPO前估值讨论",
+        "watch": "SpaceX上市时间表及员工持股计划细节"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Wise Group因涉嫌洗钱遭证券欺诈调查",
       "source": "环球市场播报",
       "detail": " 跨境支付平台Wise Group近日陷入危机。多家律师事务所宣布对该公司展开证券欺诈调查，原因涉及反洗钱合规问题及比利时检方的刑事调查。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Wise Group因涉嫌洗钱遭证券欺诈调查",
-        "assets": "📉 Wise股价 利空",
-        "chain": "调查→罚款/诉讼风险→声誉受损→用户流失→营收下滑",
-        "watch": "调查进展及是否暂停跨境支付牌照"
+        "what": "Wise Group因洗钱嫌疑遭证券欺诈调查",
+        "assets": "📉 金融科技股 利空，📉 跨境支付板块 承压",
+        "chain": "监管合规风险上升→资金成本增加（需增聘合规团队），可能拖累同类公司（如Revolut）",
+        "watch": "调查是否扩大至其他跨境支付平台"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Oil prices fall nearly 4% after U.S. Energy Secretary says Hormuz ship traffic is increasing",
       "source": "CNBC",
       "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美能源部长称霍尔木兹海峡船舶流量增加，油价暴跌近4%",
-        "assets": "📉 原油 利空",
-        "chain": "供应中断风险缓解→原油溢价（地缘溢价）回吐→炼油股承压→能源板块拖累大盘",
-        "watch": "伊朗局势及霍尔木兹海峡实际通行量"
+        "what": "油价暴跌近4%，因美能源部长称霍尔木兹海峡船运增加",
+        "assets": "📉 原油 利空，📉 能源股 承压",
+        "chain": "供应中断风险缓解→油价下跌→通胀预期降温（降低能源成本），利好航空股",
+        "watch": "霍尔木兹海峡实际船运数据及OPEC（石油输出国组织）产量变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Upstart chipmakers keep challenging Nvidia. This time it's Microsoft-backed D-Matrix",
       "source": "CNBC",
       "detail": "Nvidia challenger D-Matrix is entering full production of an AI chip it says is 10 times faster than a GPU and bypasses the memory shortage.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "微软支持的D-Matrix等新创芯片公司持续挑战英伟达",
-        "assets": "📉 英伟达 承压 📈 AI芯片新贵 利好",
-        "chain": "竞争加剧→英伟达市场份额预期下降→AI芯片行业估值重构（龙头溢价消失）",
-        "watch": "D-Matrix产品性能对比及客户订单"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Bitcoin's brutal sell-off sparks a flurry of trading in related stocks, including one big bullish bet",
-      "source": "CNBC",
-      "detail": "The year has been a rocky one for the flagship cryptocurrency, but traders aren't backing away from the space.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "比特币暴跌引发相关股票交易激增，出现大额看涨押注",
-        "assets": "📉 比特币 承压 📈 加密货币概念股 波动",
-        "chain": "恐慌抛售→波动率飙升→期权对冲需求增加→短期反弹概率上升（均值回归）",
-        "watch": "比特币能否守住3万美元整数关口"
+        "what": "微软支持的D-Matrix等新芯片商持续挑战英伟达",
+        "assets": "📈 半导体板块 分化，📉 英伟达 承压",
+        "chain": "AI芯片竞争加剧→英伟达市场份额可能被蚕食（估值溢价风险），利好下游云服务商（降低成本）",
+        "watch": "D-Matrix新品性能测试及客户订单情况"
       }
     },
     {
       "rank": 7,
+      "title": "Bitcoin's brutal sell-off sparks a flurry of trading in related stocks, including one big bullish bet",
+      "source": "CNBC",
+      "detail": "The year has been a rocky one for the flagship cryptocurrency, but traders aren't backing away from the space.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "开盘：美股周二高开，油价回落，芯片股延续反弹势头",
       "source": "环球市场播报",
       "detail": " 北京时间6月9日晚，美股周二高开。芯片股经历上周五暴跌之后连续第二天反弹，同时由于市场预期美伊协议接近达成，原油价格回落。",
@@ -94,7 +102,7 @@
       "score": 25
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Home sales surged in May to the highest level since December",
       "source": "CNBC",
       "detail": "Home sales rebounded in May as mortgage rates dropped back a bit in April, but prices are still rising.",
@@ -102,18 +110,10 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "JPMorgan Chase plans to deploy more powerful AI agents this year",
       "source": "CNBC",
       "detail": "JPMorgan Chase's move suggests long-running AI agents are close to clearing the security and governance hurdles that have slowed adoption inside big companies.",
-      "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "Nuvalent shares surge 39% after UK's GSK agrees to buy the cancer drugmaker for $10.6 billion",
-      "source": "CNBC",
-      "detail": "The deal comes at a time of biotech dealmaking frenzy, driven by looming patent cliffs, newly buoyant public markets and drugmakers' race to bolster pipelines.",
       "lang": "en",
       "score": 20
     }
