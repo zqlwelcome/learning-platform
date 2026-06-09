@@ -194,7 +194,7 @@ const COURSE_SERIES = [
           { id: 'ana-8', title: 'AI Agent自动化数据流水线', time: '20分钟' },
           { id: 'ana-9', title: '机器学习建模实战（XGBoost/LightGBM）', time: '18分钟' },
           { id: 'ana-10', title: '异常检测+时序预测AI化', time: '15分钟' },
-          { id: 'ana-11', title: '大模型微调入门（LoRA/QLoRA）', time: '20分钟' }
+          { id: 'ana-11', title: '⏳ 进阶选修：大模型微调入门（LoRA/QLoRA）', time: '20分钟' }
         ]
       },
       {
