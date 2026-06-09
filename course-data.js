@@ -3287,11 +3287,26 @@ GROUP BY f.first_date;</code></pre>
           </ul>
         </div>
         <div class="block">
+          <h4>☁️ 云数仓认知（面试加分）</h4>
+          <p>大厂数据栈不只是ClickHouse/Doris，云数仓是标配。面试提到以下任一平台都会加分：</p>
+          <table>
+            <tr><th>平台</th><th>谁在用</th><th>特点</th></tr>
+            <tr><td>Snowflake</td><td>外企、出海公司</td><td>存储计算分离，按用量付费，SQL标准</td></tr>
+            <tr><td>BigQuery</td><td>游戏、广告</td><td>Serverless，和GA/Firebase天然集成</td></tr>
+            <tr><td>Databricks</td><td>AI-heavy公司</td><td>Spark+ML+SQL一体，Notebook友好</td></tr>
+            <tr><td>MaxCompute</td><td>阿里系</td><td>国内云标配，和DataWorks/PAI打通</td></tr>
+            <tr><td>Hologres</td><td>阿里系实时</td><td>实时数仓，和Flink配合做秒级分析</td></tr>
+          </table>
+          <p>不需要全会，但要知道各自定位。面试时被问"你们公司用什么数仓"能聊两句就很加分。</p>
+        </div>
+        <div class="block">
           <h4>❓ 常见问题</h4>
           <p><strong>Q: 这么多SQL写法记不住怎么办？</strong></p>
           <p>A: 把常用模板存成笔记，写的时候复制改参数。面试手写常见题练3遍就熟了。</p>
           <p><strong>Q: 大厂真用ClickHouse吗？</strong></p>
           <p>A: 字节、快手、滴滴都在用。Doris在美团/京东更主流。两者语法接近，学一个即可触类旁通。</p>
+          <p><strong>Q: 我需要学Snowflake吗？国内也用吗？</strong></p>
+          <p>A: 国内偏MaxCompute/Doris/Hologres，但Snowflake的概念（存算分离、按量付费）是所有现代数仓的通用设计。理解概念就能迁移。</p>
         </div>
         `
   },
@@ -3492,6 +3507,28 @@ print(f"\n结果:\n{df}")</code></pre>
           </ul>
         </div>
         <div class="block">
+          <h4>📊 NL2SQL评估体系</h4>
+          <p>上线Text-to-SQL前必须建评估，否则不知道AI生成的SQL到底靠不靠谱：</p>
+          <table>
+            <tr><th>指标</th><th>含义</th><th>合格线</th></tr>
+            <tr><td>执行成功率</td><td>SQL能跑通不出语法错</td><td>>95%</td></tr>
+            <tr><td>结果一致性</td><td>AI生成的SQL结果和标准答案一致</td><td>>85%</td></tr>
+            <tr><td>Schema Linking</td><td>正确识别了哪些表和字段</td><td>>90%</td></tr>
+            <tr><td>SQL安全</td><td>没有注入风险、没越权查表</td><td>100%</td></tr>
+          </table>
+          <p>做法：准备100条标准问答对（问题+正确SQL），每次改Prompt或换模型后跑一遍评估集，看各项指标变化。</p>
+        </div>
+        <div class="block">
+          <h4>🔐 安全加固清单</h4>
+          <ul>
+            <li><strong>只读账号：</strong>AI生成的SQL只用只读数据库用户执行</li>
+            <li><strong>关键词拦截：</strong>代码层拦截 DROP/DELETE/TRUNCATE/ALTER</li>
+            <li><strong>表白名单：</strong>限制AI只能查授权表，防止越权访问敏感数据（如用户手机号表）</li>
+            <li><strong>PII脱敏：</strong>查询结果返回前对手机号/身份证等字段自动脱敏</li>
+            <li><strong>查询审计：</strong>记录每次AI生成的SQL和执行人，便于回溯</li>
+          </ul>
+        </div>
+        <div class="block">
           <h4>❓ 常见问题</h4>
           <p><strong>Q: AI生成的SQL不对怎么办？</strong></p>
           <p>A: 加验证层——先用EXPLAIN检查语法，再在测试库试跑。复杂查询建议用Few-shot（给AI几个正确示例）。</p>
@@ -3586,6 +3623,17 @@ print(ask_knowledge_base("GMV怎么计算？"))
             <li>RAG的核心优势：不用微调模型，更新文档即可更新知识</li>
             <li>生产环境注意：文档分块策略（chunk size 500-1000 tokens）影响检索质量</li>
           </ul>
+        </div>
+        <div class="block">
+          <h4>📊 RAG评估——不能只看"感觉准不准"</h4>
+          <table>
+            <tr><th>指标</th><th>测什么</th><th>怎么算</th></tr>
+            <tr><td>Recall@K</td><td>前K个结果里找到正确答案的比例</td><td>人工标注标准答案→跑检索→算命中率</td></tr>
+            <tr><td>MRR</td><td>第一个正确答案的排名越靠前越好</td><td>1/正确答案排名，取平均</td></tr>
+            <tr><td>Faithfulness</td><td>回答是否忠实于检索文档（有没有编造）</td><td>AI辅助判断回答中的每句话能否在文档中找到支撑</td></tr>
+            <tr><td>引用准确率</td><td>引用来源是否真的说了AI总结的内容</td><td>人工抽查+AI交叉验证</td></tr>
+          </table>
+          <p>上线前建50条标准问答对做评估集，每次调Prompt或换检索策略都跑一遍，看指标变化。</p>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
@@ -3754,6 +3802,18 @@ print(result['output'])</code></pre>
             <li>生产环境加人审环节——Agent输出建议，人做最终决策</li>
             <li>2026年面试高频：Agent设计模式（ReAct/Plan-Execute/多Agent）</li>
           </ul>
+        </div>
+        <div class="block">
+          <h4>🛡️ Agent守护栏（面试加分项）</h4>
+          <p>Agent越自主，越需要守护栏。大厂面试问到Agent肯定会追问安全：</p>
+          <table>
+            <tr><th>守护栏</th><th>作用</th><th>面试怎么说</th></tr>
+            <tr><td>工具权限白名单</td><td>Agent只能调用特定API，不能删库</td><td>"只给读权限工具，写操作走审批流"</td></tr>
+            <tr><td>人审环节</td><td>高风险操作（发报告/改配置）人工确认</td><td>"Agent产出的分析报告先发草稿，数据分析师审核后再发布"</td></tr>
+            <tr><td>审计日志</td><td>记录Agent每一步决策，可回溯</td><td>"用LangSmith/W&B记录每次tool call和理由"</td></tr>
+            <tr><td>Rate Limit</td><td>防止Agent陷入循环无限调用API</td><td>"设max_iterations=10，超时自动终止并通知人工"</td></tr>
+            <tr><td>数据脱敏</td><td>Agent不能看到原始PII数据</td><td>"在工具层做脱敏，Agent只接触聚合后的统计数据"</td></tr>
+          </table>
         </div>
         <div class="block">
           <h4>❓ 常见问题</h4>
@@ -3930,6 +3990,19 @@ prompt = f"""
           </ul>
         </div>
         <div class="block">
+          <h4>🧹 数据质量——异常检测的前提</h4>
+          <p>垃圾数据跑任何模型都是垃圾结果。数据质量监控是数据分析师的底线技能：</p>
+          <table>
+            <tr><th>检查项</th><th>工具/方法</th><th>触发条件示例</th></tr>
+            <tr><td>空值率</td><td>SQL定时查询</td><td>核心字段空值>5%告警</td></tr>
+            <tr><td>数据新鲜度</td><td>Airflow SLA</td><td>ETL任务延迟>2小时告警</td></tr>
+            <tr><td>分布漂移</td><td>Great Expectations</td><td>某字段均值偏离历史3σ告警</td></tr>
+            <tr><td>数据量波动</td><td>Soda SQL</td><td>日增数据量环比下降>30%告警</td></tr>
+            <tr><td>枚举值异常</td><td>自定义规则</td><td>出现了不存在的品类编码</td></tr>
+          </table>
+          <p>Great Expectations 和 Soda 是两个最主流的数据质量开源框架，都支持声明式规则（"这个字段不能为空"）和自动文档生成。面试提到其中任一个都能展示你有数据工程意识。</p>
+        </div>
+        <div class="block">
           <h4>❓ 常见问题</h4>
           <p><strong>Q: 异常检测误报太多怎么办？</strong></p>
           <p>A: 多方法投票（3-sigma + IForest + LOF三选二），加趋势判断（连续3天异常才报警）。</p>
@@ -3940,10 +4013,10 @@ prompt = f"""
   },
   {
     id: 'ana-11',
-    title: '🔧 大模型微调入门（LoRA/QLoRA）',
+    title: '🔧 进阶选修：大模型微调入门（LoRA/QLoRA）',
     content: `
         <div class="lesson-content">
-          <div class="lesson-goal">🎯 本节目标：理解大模型微调原理，掌握LoRA高效微调方法，让模型适配你的业务数据</div>
+          <div class="lesson-goal">🎯 本节目标（进阶选修）：理解大模型微调原理，掌握LoRA高效微调方法。初级岗位不要求，中高级加分项</div>
         </div>
         <div class="block">
           <h4>📝 微调 vs RAG：什么时候用哪个？</h4>
