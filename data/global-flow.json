@@ -1,17 +1,17 @@
 {
-  "updateTime": "2026-06-10 00:25",
+  "updateTime": "2026-06-10 00:30",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "25242.12",
-      "change": "-2.65"
+      "value": "25179.19",
+      "change": "-2.89"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "50502.39",
-      "change": "-0.56"
+      "value": "50473.38",
+      "change": "-0.62"
     },
     "sh000001": {
       "name": "上证指数",
@@ -34,5 +34,11 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "纽约梅隆银行首席投资官：预计通胀持续高企将拖累债券",
+      "source": "环球市场播报",
+      "keyword": "通胀"
+    }
+  ]
 }
