@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 20:25",
+  "updateTime": "2026-06-10 20:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "交易员押注美联储加息，避险资产遭抛售",
-        "assets": "📉 黄金 承压，📉 白银 承压，📉 比特币 承压",
-        "chain": "加息预期（借钱成本上升）→实际利率（名义利率减通胀）走高→无息资产吸引力下降",
-        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
+        "what": "交易员押注美联储加息，黄金、白银、比特币下跌",
+        "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
+        "chain": "加息预期（借钱成本上升）推高美元，压制无息资产（如贵金属和加密货币）估值",
+        "watch": "美联储官员讲话及利率期货定价变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户配售仍不确定",
-        "assets": "📈 SpaceX相关概念股 利好（若上市），📉 其他航天股 竞争压力",
-        "chain": "IPO定价→估值锚定（参考基准）→带动私人航天板块重估",
-        "watch": "SEC（美国证券交易委员会）注册文件及最终配售比例"
+        "what": "SpaceX IPO定价确定，散户分配仍不确定",
+        "assets": "📈 SpaceX概念股 利好, 📉 散户交易平台 承压",
+        "chain": "高估值IPO可能吸引资金从其他科技股流出（资金轮动），散户分配限制或引发不满",
+        "watch": "SpaceX最终上市日期及机构认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "A股芯片材料涨价概念暴涨超620%",
-        "assets": "📈 A股芯片材料板块 利好，📈 半导体设备 联动",
-        "chain": "材料涨价→供应链紧张（供给不足）→国产替代加速→资金涌入相关概念",
-        "watch": "材料现货价格及后续产能公告"
+        "what": "芯片关键材料涨价，A股相关板块暴涨超620%",
+        "assets": "📈 A股芯片材料股 利好, 📈 半导体ETF 利好",
+        "chain": "材料涨价传导至芯片成本上升（成本推动），利好国内替代厂商，但可能压缩下游利润",
+        "watch": "材料现货价格及下游芯片公司毛利率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "分析师密集覆盖Nvidia、Tesla等科技股",
-        "assets": "📈 Nvidia 利好（若上调），📈 Tesla 利好，📈 Netflix 利好",
-        "chain": "分析师评级→机构资金调仓（基金跟风操作）→个股波动率上升",
-        "watch": "实际评级变动及目标价调整幅度"
+        "what": "SpaceX IPO获中东基金数十亿美元认购",
+        "assets": "📈 SpaceX估值 利好, 📈 中东主权基金 利好",
+        "chain": "中东资金涌入科技赛道（避险转风险偏好），或带动其他科技公司IPO热度和估值溢价",
+        "watch": "SpaceX最终发行价及首日涨幅"
       }
     },
     {
@@ -63,16 +63,18 @@
       "source": "CNBC",
       "detail": "Here are the biggest calls on Wall Street on Wednesday.",
       "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "韩国清算约15亿美元SpaceX IPO需求",
-        "assets": "📉 SpaceX相关基金 承压，📈 其他一级市场标的 资金分流",
-        "chain": "清算需求→短期资金退出（抛售压力）→影响其他科技IPO热度",
-        "watch": "SpaceX二级市场交易价及后续投资者名单"
-      }
+      "score": 44
     },
     {
       "rank": 6,
+      "title": "SpaceX IPO获中东基金数十亿美元认购",
+      "source": "环球市场播报",
+      "detail": " 多位知情人士透露，海湾主权财富基金已大手笔认购SpaceX IPO股份，总额达数十亿美元，这也再度印证中东希望持续主导全球人工智能产业资金供给的宏大布局。",
+      "lang": "zh",
+      "score": 40
+    },
+    {
+      "rank": 7,
       "title": "消息人士：韩国已清算了与SpaceX IPO相关的约15亿美元需求",
       "source": "环球市场播报",
       "detail": " 一位知情人士周三透露，与SpaceX首次公开募股（IPO）相关的大规模外汇兑换需求已得到消化，此前数周这一需求曾对韩元构成沉重压力。",
@@ -80,7 +82,7 @@
       "score": 40
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Weekly mortgage demand surges nearly 11% higher, despite volatile interest rates",
       "source": "CNBC",
       "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates climbed as well.",
@@ -88,7 +90,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
@@ -96,18 +98,10 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "日本央行行长植田和男入院治疗 预计将缺席6月份货币政策会议",
       "source": "环球市场播报",
       "detail": "据日本央行，行长植田和男已住院，预计将缺席下周的政策会议。 日本央行周三在声明中表示：“行长目前因肝囊肿感染住院治疗。预计他将住院约两周。",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "校车科创企业Zum启动IPO前期筹备",
-      "source": "环球市场播报",
-      "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
       "lang": "zh",
       "score": 30
     }
