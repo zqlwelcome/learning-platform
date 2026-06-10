@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 11:36",
+  "updateTime": "2026-06-10 11:40",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -22,12 +22,104 @@
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24349.950",
-      "change": "-0.88"
+      "value": "24409.990",
+      "change": "-0.63"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
+  "etf_flows": [
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.757,
+      "change": 0.11,
+      "flow": 469682944.0,
+      "flow_str": "+4.70亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.501,
+      "change": 0.52,
+      "flow": 330029472.0,
+      "flow_str": "+3.30亿",
+      "direction": "in"
+    },
+    {
+      "name": "上证50ETF华夏",
+      "code": "510050",
+      "price": 2.934,
+      "change": 0.58,
+      "flow": 139908840.0,
+      "flow_str": "+1.40亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备ETF国泰",
+      "code": "159516",
+      "price": 1.295,
+      "change": 2.61,
+      "flow": 131946608.0,
+      "flow_str": "+1.32亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体ETF国联安",
+      "code": "512480",
+      "price": 2.112,
+      "change": 0.14,
+      "flow": 123645472.0,
+      "flow_str": "+1.24亿",
+      "direction": "in"
+    }
+  ],
+  "sector_flows": [
+    {
+      "name": "半导体设备",
+      "code": "BK1326",
+      "index": 45775.26,
+      "change": 1.58,
+      "flow": 1601967104.0,
+      "flow_str": "+16.02亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体材料",
+      "code": "BK1325",
+      "index": 13634.95,
+      "change": 4.34,
+      "flow": 1292918016.0,
+      "flow_str": "+12.93亿",
+      "direction": "in"
+    },
+    {
+      "name": "银行",
+      "code": "BK1283",
+      "index": 4182.14,
+      "change": 1.62,
+      "flow": 1063293184.0,
+      "flow_str": "+10.63亿",
+      "direction": "in"
+    },
+    {
+      "name": "银行Ⅱ",
+      "code": "BK0475",
+      "index": 4182.14,
+      "change": 1.62,
+      "flow": 1063293184.0,
+      "flow_str": "+10.63亿",
+      "direction": "in"
+    },
+    {
+      "name": "化学制品",
+      "code": "BK0538",
+      "index": 32661.73,
+      "change": 0.16,
+      "flow": 885694464.0,
+      "flow_str": "+8.86亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
