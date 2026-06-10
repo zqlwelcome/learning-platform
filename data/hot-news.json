@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 03:20",
+  "updateTime": "2026-06-11 03:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 82,
       "insight": {
-        "what": "华尔街需学习代币经济以应对AI公司IPO，SpaceX提供参考",
-        "assets": "📈 加密货币 结构性利好；📈 AI初创公司 估值参考",
-        "chain": "代币经济（基于区块链的激励模型）可能成为科技公司估值新范式，影响传统投行定价模型",
-        "watch": "SEC对代币化证券的监管表态"
+        "what": "华尔街缺乏代币经济经验，SpaceX IPO提供预演",
+        "assets": "📈 加密货币相关资产 利好; 📉 传统IPO承销商 承压",
+        "chain": "代币经济（用Token激励用户）可能重塑估值模型，传统投行需适应新定价逻辑",
+        "watch": "SpaceX IPO估值及代币化结构细节"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "做空报告指控SES AI存在幽灵交易，面临证券欺诈集体诉讼",
-        "assets": "📉 SES AI股票 利空；📉 锂电池板块 情绪承压",
-        "chain": "做空报告引发对AI公司收入真实性质疑（财务造假风险），波及同类高估值未盈利科技股",
-        "watch": "SES AI后续财报审计意见及做空机构后续报告"
+        "what": "SES AI因做空报告揭露幽灵交易，面临证券欺诈集体诉讼",
+        "assets": "📉 SES AI股票 利空; 📉 人工智能板块 情绪拖累",
+        "chain": "做空报告（揭露财务造假）引发监管审查，AI概念股信用溢价（风险补偿）上升",
+        "watch": "SEC是否对SES AI展开正式调查"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX独特IPO结构对华尔街构成对冲挑战，质疑做空NASA",
-        "assets": "📈 SpaceX 估值溢价；📉 传统航空航天股 相对吸引力下降",
-        "chain": "IPO估值难用传统模型（DCF现金流折现），可能推动另类资产定价（如卫星互联网收入预测）",
-        "watch": "SpaceX IPO定价及首日波动率"
+        "what": "SpaceX独特IPO结构对华尔街对冲构成挑战",
+        "assets": "📈 SpaceX IPO估值 利好; 📉 空头对冲工具 受限",
+        "chain": "无传统对标资产（如NASA不能做空），衍生品（期权期货）定价难度大增",
+        "watch": "SpaceX IPO后波动率及CDS（信用违约互换）市场反应"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "参议员Warren呼吁SEC推迟SpaceX IPO，担忧估值与治理",
-        "assets": "📉 SpaceX IPO 延迟风险；📈 监管收紧预期 利空科技股",
-        "chain": "政治干预IPO（首次公开募股）可能引发对独角兽公司（估值超10亿美元未上市企业）治理透明度的监管审查",
-        "watch": "SEC是否正式启动调查及SpaceX回应"
+        "what": "沃伦参议员呼吁SEC推迟SpaceX IPO，质疑估值与治理",
+        "assets": "📉 SpaceX IPO时间表 利空; 📉 科技股IPO情绪 承压",
+        "chain": "政治干预（监管不确定性）增加IPO折价（发行价低于预期）风险，影响后续科技公司上市节奏",
+        "watch": "SEC是否正式要求SpaceX补充披露文件"
       }
     },
     {
@@ -65,28 +65,44 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "巴西数字银行PicS因IPO隐瞒信贷缺陷，股价腰斩后遭集体诉讼",
-        "assets": "📉 PicS股票 利空；📉 新兴市场金融科技股 承压",
-        "chain": "信贷质量隐瞒（坏账风险）暴露风控缺陷，可能引发对同类数字银行（如Nubank）的做空潮",
-        "watch": "巴西央行对PicS的监管处罚及信贷资产包审计"
+        "what": "巴西数字银行PicS因隐瞒信贷缺陷，IPO后股价腰斩面临诉讼",
+        "assets": "📉 巴西金融科技股 利空; 📉 新兴市场银行板块 承压",
+        "chain": "信贷质量（坏账率）隐瞒导致估值崩塌，投资者对金融科技IPO尽调（尽职调查）信任度下降",
+        "watch": "巴西央行是否介入调查PicS信贷组合"
       }
     },
     {
       "rank": 6,
-      "title": "SailPoint股价大跌后，因潜在证券违规遭股东调查",
+      "title": "Phreesia营收指引突然下调约3700万美元， 因证券欺诈面临集体诉讼",
       "source": "环球市场播报",
-      "detail": "身份安全软件公司SailPoint， Inc．（NASDAQ： SAIL）近期面临投资者关注。在其发布最新财报后，股价出现大幅下跌，随后多家律师事务所宣布对公司发起调查...",
+      "detail": "医疗健康软件平台提供商Phreesia， Inc．（NYSE： PHR）正面临证券欺诈集体诉讼。该公司在2025年12月给出2027财年营收指引后，仅过约四个月便大幅下调预期约3700万美元...",
       "lang": "zh",
-      "score": 37,
+      "score": 43,
       "insight": {
-        "what": "SailPoint股价大跌后，因潜在证券违规遭股东调查",
-        "assets": "📉 SailPoint股票 利空；📉 网络安全板块 情绪拖累",
-        "chain": "证券违规调查（信息披露不实）增加退市风险，引发对高估值SaaS（软件即服务）公司财报真实性质疑",
-        "watch": "调查进展及是否涉及财务重述"
+        "what": "Phreesia营收指引下调3700万美元，因证券欺诈面临集体诉讼",
+        "assets": "📉 Phreesia股票 利空; 📉 医疗科技板块 情绪拖累",
+        "chain": "营收指引（未来收入预测）大幅下修触发诉讼，引发对医疗SaaS（软件即服务）公司客户留存率（续约能力）的质疑",
+        "watch": "Phreesia下一季度实际营收与指引偏差"
       }
     },
     {
       "rank": 7,
+      "title": "SailPoint股价大跌后，因潜在证券违规遭股东调查",
+      "source": "环球市场播报",
+      "detail": "身份安全软件公司SailPoint， Inc．（NASDAQ： SAIL）近期面临投资者关注。在其发布最新财报后，股价出现大幅下跌，随后多家律师事务所宣布对公司发起调查...",
+      "lang": "zh",
+      "score": 37
+    },
+    {
+      "rank": 8,
+      "title": "关键癌症试验因无效终止，Immutep股价暴跌83%后面临集体诉讼",
+      "source": "环球市场播报",
+      "detail": "生物技术公司Immutep Limited（NASDAQ： IMMP）正面临证券欺诈集体诉讼。此前该公司宣布，其针对一线非小细胞肺癌的关键三期临床试验TACTI-004因无效而被独立数据监测委员...",
+      "lang": "zh",
+      "score": 35
+    },
+    {
+      "rank": 9,
       "title": "Avis解约引发股价暴跌70%，Verra Mobility面临证券集体诉讼",
       "source": "环球市场播报",
       "detail": "智能出行技术提供商Verra Mobility Corporation（NASDAQ： VRRM）正面临证券欺诈集体诉讼。在最大商业客户Avis Budget Group终止合同、公司下调全年业绩指引...",
@@ -94,28 +110,12 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 9,
-      "title": "Volatility surge has trader eyeing one 'stable' stock",
-      "source": "CNBC",
-      "detail": "Mike Khouw is looking for a stable, cash-generating business where he can sell volatility instead of buying drama.",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "股价曾狂飙486倍，Regencell收到司法部传票后面临证券集体诉讼",
-      "source": "环球市场播报",
-      "detail": "一家仅有12名员工、没有任何营收的中药生物科技公司，市值一度飙升至140亿美元，股价在一年内从不足0.30美元暴涨至78.00美元，涨幅高达486倍。",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
