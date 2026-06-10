@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 19:16",
+  "updateTime": "2026-06-10 19:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价但散户配售不确定",
-        "assets": "📈 SpaceX未上市股权 利好\n📉 散户交易平台 承压",
-        "chain": "定价后需求集中机构，散户无法参与推高黑市溢价（灰色市场定价偏差），压制同类未上市科技股估值",
-        "watch": "SpaceX官方散户配售比例公告"
+        "what": "SpaceX IPO定价确定，散户配售待定",
+        "assets": "📈 SpaceX未上市股权 利好",
+        "chain": "散户无法大额参与→需求转向ETF或私募基金（间接投资渠道）→抬升相关产品溢价",
+        "watch": "IPO首日涨幅及散户配售比例"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 40,
       "insight": {
         "what": "韩国清算约15亿美元SpaceX IPO需求",
-        "assets": "📈 韩国股市 利好\n📉 SpaceX未上市股权 承压",
-        "chain": "资金回流韩国本土市场，推高韩股流动性；SpaceX需求减少暗示机构对IPO估值犹豫（估值泡沫风险），压制全球科技IPO情绪",
-        "watch": "韩国KOSPI指数及外资流入数据"
+        "assets": "📉 SpaceX未上市股权 承压",
+        "chain": "大额需求撤回→IPO认购倍数下降→估值可能回调（定价过高风险）",
+        "watch": "其他机构认购率及最终发行价调整"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "房贷需求周环比飙升近11%",
-        "assets": "📈 美国房地产股 利好\n📈 抵押贷款支持证券（MBS） 利好",
-        "chain": "利率波动中需求激增说明购房者锁定利率（提前锁定低息），推高MBS价格，但可能加剧美联储缩表压力（央行减持债券）",
-        "watch": "30年期抵押贷款利率变动及再融资指数"
+        "what": "房贷需求周环比激增近11%，无视利率波动",
+        "assets": "📈 美国房地产REITs 利好 📉 美债收益率 承压",
+        "chain": "房贷需求强→购房活动回暖→拉动经济（消费链）→降息预期降温（利率不跌反升风险）",
+        "watch": "30年期房贷利率及新屋销售数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑因70亿美元融资计划股价暴跌",
-        "assets": "📉 超微电脑（SMCI） 利空\n📈 AI服务器竞争对手 利好",
-        "chain": "融资稀释股权（每股价值下降），但订单增长或支撑长期收入；市场怀疑现金流缺口（现金紧张），打压整个AI硬件板块估值",
-        "watch": "超微电脑Q2财报及AI订单交付率"
+        "what": "超微电脑因70亿美元融资计划暴跌，同时大秀AI服务器订单",
+        "assets": "📉 超微电脑股价 利空 📈 AI芯片股 利好",
+        "chain": "融资摊薄（每股收益下降）→短期抛压，但AI订单增长→长期看多逻辑不变（稀释后估值仍合理）",
+        "watch": "融资用途细节及AI订单交付时间表"
       }
     },
     {
@@ -65,36 +65,28 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic向公众发布类Mythos AI模型",
-        "assets": "📈 AI芯片股（如英伟达） 利好\n📉 开源AI模型 承压",
-        "chain": "发布后增加推理计算需求（算力消耗），推高GPU订单；但公众版可能削弱企业级AI订阅（SaaS收入），引发定价战",
-        "watch": "Anthropic API定价及用户增长数据"
+        "what": "Anthropic公开Mythos级AI模型，此前内部测试已震动华尔街",
+        "assets": "📈 AI概念股 利好 📉 传统软件股 承压",
+        "chain": "新模型能力升级→企业AI应用加速（降本增效）→挤压传统软件市场份额（替代效应）",
+        "watch": "模型用户数及API定价对比"
       }
     },
     {
       "rank": 6,
-      "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
-      "source": "CNBC",
-      "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "网络安全公司称北京加大AI间谍活动",
-        "assets": "📈 美国网络安全股 利好\n📈 半导体出口管制 利好",
-        "chain": "地缘风险升级强化美国科技封锁（技术禁运），推高安全软件需求；但可能引发中国芯片自主化加速（国产替代），利空美光等存储股",
-        "watch": "美国商务部对华AI芯片出口限制更新"
-      }
-    },
-    {
-      "rank": 7,
       "title": "日本央行行长植田和男入院治疗 预计将缺席6月份货币政策会议",
       "source": "环球市场播报",
       "detail": "据日本央行，行长植田和男已住院，预计将缺席下周的政策会议。 日本央行周三在声明中表示：“行长目前因肝囊肿感染住院治疗。预计他将住院约两周。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "日本央行行长植田和男入院，缺席6月货币政策会议",
+        "assets": "📉 日元 承压 📈 日经225 短期利好",
+        "chain": "行长缺席→政策决策不确定性→市场押注加息推迟（宽松预期）→日元贬值，股市受外资追捧",
+        "watch": "副行长言论及6月会议纪要措辞"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "校车科创企业Zum启动IPO前期筹备",
       "source": "环球市场播报",
       "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
       "source": "环球市场播报",
       "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
@@ -110,12 +102,20 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "ATFX:美国5月CPI数据来袭 主流预期通胀继续升温",
       "source": "市场资讯",
       "detail": "6月10日，ATFX：美国五月份的CPI数据，将会在北京时间20点30分。五月份CPI年率的预期值是4.2%，高于前值3.8%，市场预期通胀继续升温。",
       "lang": "zh",
       "score": 30
+    },
+    {
+      "rank": 10,
+      "title": "Oil prices jump after Trump says Iran will 'pay the price' for failing at peace deal",
+      "source": "CNBC",
+      "detail": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
+      "lang": "en",
+      "score": 27
     }
   ]
 }
