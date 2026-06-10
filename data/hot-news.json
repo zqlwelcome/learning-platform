@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 13:05",
+  "updateTime": "2026-06-10 13:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美国5月通胀超预期，降息预期破灭",
-        "assets": "📉 美元指数 利好\n📉 美股科技股 承压\n📈 美债收益率 上行",
-        "chain": "加息（提高借钱成本）预期重燃，风险资产（股票、加密货币）遭抛售，避险资产（黄金）承压",
-        "watch": "今晚美CPI数据及美联储点阵图"
+        "what": "美国5月通胀超预期，市场降息预期破灭",
+        "assets": "📉 美股 承压，📈 美元 走强，📈 美债收益率 上行",
+        "chain": "加息预期升温（借钱成本提高），打压风险资产（如科技股），利好避险资产（如黄金短期承压但长期抗通胀）",
+        "watch": "今晚美CPI数据是否超预期及美联储官员讲话"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "中国5月PPI受伊朗战争及AI需求推至近四年高位",
-        "assets": "📈 中国工业品 利好\n📈 中国AI概念股 受益\n📉 中国债券 承压",
-        "chain": "PPI（生产者价格指数）高企传导至CPI（消费者价格指数），央行宽松空间收窄，债市利率上行",
-        "watch": "中国央行MLF（中期借贷便利）利率是否调整"
+        "what": "中国5月PPI创近4年新高，受伊朗战争和AI需求推升",
+        "assets": "📈 中国工业股 利好，📈 大宗商品（铜、油） 利好，📉 中国债券 承压",
+        "chain": "PPI走高（工业品出厂价上涨）挤压下游利润，但上游资源企业受益；AI芯片需求推升半导体（芯片制造）相关",
+        "watch": "中国6月CPI及央行是否收紧流动性（市场资金量）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，但散户配售不确定",
-        "assets": "📈 SpaceX相关概念股 利好\n📉 散户交易平台 承压",
-        "chain": "IPO（首次公开募股）热度高，机构主导定价，散户参与受限，可能转向二级市场（上市后交易）炒作",
-        "watch": "SpaceX IPO首日涨幅及散户配售比例"
+        "what": "SpaceX IPO定价确定，散户分配仍不确定",
+        "assets": "📈 SpaceX概念股（如卫星通信公司） 利好，📈 美股太空板块 情绪提振",
+        "chain": "IPO（首次公开募股）吸引资金流入太空赛道，但散户份额不明可能引发短期波动（价格起伏）",
+        "watch": "SpaceX上市首日表现及散户认购比例"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "黄金重挫，聚焦今晚美国CPI数据",
-        "assets": "📉 黄金 承压\n📈 美元指数 利好",
-        "chain": "CPI（消费者价格指数）若超预期，实际利率（名义利率减通胀）上升，黄金无息资产吸引力下降",
-        "watch": "今晚美国5月CPI同比数据"
+        "what": "黄金重挫，市场等待今晚美CPI数据",
+        "assets": "📉 黄金 承压，📈 美元 反弹",
+        "chain": "CPI（通胀数据）若高于预期，美联储加息（借钱成本提高）概率上升，黄金避险需求下降，实际利率（扣除通胀后利率）上行打压金价",
+        "watch": "今晚美国CPI数据及美联储利率预期"
       }
     },
     {
@@ -65,28 +65,36 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银警告日本央行鸽派加息或引发日元抛售",
-        "assets": "📉 日元 承压\n📈 美元/日元 上行\n📈 日本出口股 利好",
-        "chain": "鸽派加息（加息但态度软弱）不及市场预期，套利交易（借低息日元买高息资产）卷土重来，日元贬值",
-        "watch": "日本央行利率决议及植田和男讲话"
+        "what": "美银警告：日本央行鸽派加息可能引发日元抛售",
+        "assets": "📉 日元 承压，📈 美元/日元 上行，📈 日本出口股 利好",
+        "chain": "鸽派加息（加息但暗示宽松）市场解读为软信号，日元贬值（货币价值下跌）利好出口商，但可能触发日本官方干预（买入日元）",
+        "watch": "日本央行决议后汇率是否突破160关口及干预迹象"
       }
     },
     {
       "rank": 6,
-      "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
+      "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
       "source": "CNBC",
-      "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
+      "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Super Micro融资70亿美元，股价暴跌",
-        "assets": "📉 Super Micro股票 利空\n📈 AI服务器板块 分化",
-        "chain": "大规模融资（增发股票或发债）稀释现有股东权益，但资金用于AI订单，长期利好需看订单转化率",
-        "watch": "公司财报中AI服务器订单交付进度"
+        "what": "中国加大AI间谍活动以追赶美国技术",
+        "assets": "📉 中美科技股 承压，📈 中国AI芯片自主股 利好",
+        "chain": "地缘紧张升级（国家间关系恶化）打压外资信心，但刺激中国本土替代（国产化）和半导体设备需求",
+        "watch": "美国对华技术出口新限制及中国企业AI研发进展"
       }
     },
     {
       "rank": 7,
+      "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
+      "source": "CNBC",
+      "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
@@ -102,18 +110,10 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "星巴克据悉考虑日本业务相关选项 包括出售股权和IPO",
       "source": "环球市场播报",
       "detail": "据多位知情人士透露，星巴克正在考虑日本业务的相关选项，其中包括出售股权。此前，该公司已出售中国业务的多数股权。 知情人士称...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "国家统计局董莉娟解读5月CPI和PPI数据：2026年5月份CPI总体平稳 PPI继续上涨",
-      "source": "国家统计局网站",
-      "detail": "国家统计局城市司首席统计师董莉娟解读2026年5月份CPI和PPI数据 2026年5月份CPI总体平稳 PPI继续上涨 ——国家统计局城市司首席统计师董莉娟解读2026年5月份CPI和PPI数据...",
       "lang": "zh",
       "score": 30
     }
