@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 00:36",
+  "updateTime": "2026-06-11 00:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "沃伦要求SEC推迟SpaceX IPO",
-        "assets": "📉 SpaceX 估值 承压",
-        "chain": "监管审查加剧→IPO延后→一级市场（未上市企业融资）流动性收紧",
-        "watch": "SEC是否正式启动调查"
+        "what": "参议员沃伦施压SEC推迟SpaceX上市",
+        "assets": "📉 SpaceX估值 承压",
+        "chain": "监管风险上升，可能影响科技IPO（首次公开募股）情绪，传导至一级市场（未上市公司融资）估值",
+        "watch": "SEC是否正式推迟IPO审批"
       }
     },
     {
@@ -23,14 +23,28 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX IPO可能冲击科技七巨头和芯片股",
-        "assets": "📉 美股科技七巨头 承压；📉 半导体板块 承压",
-        "chain": "SpaceX吸筹（资金从现有科技股流向新IPO）→科技股资金流出→板块轮动",
-        "watch": "SpaceX IPO定价及认购倍数"
+        "what": "SpaceX IPO或冲击美股科技巨头及芯片股",
+        "assets": "📉 美股科技股（Magnificent Seven）承压 📉 芯片股 承压",
+        "chain": "SpaceX上市将分流资金（资金从现有科技股流向新标的），加剧科技板块轮动（资金在不同科技子板块间切换）",
+        "watch": "SpaceX IPO定价及认购需求"
       }
     },
     {
       "rank": 3,
+      "title": "欧洲股市持稳 市场静候欧洲央行利率决议",
+      "source": "环球市场播报",
+      "detail": "欧洲股市表现平淡，美国一项关键通胀报告令投资者稍感宽慰，市场注意力转向欧洲央行的利率决议。 斯托克欧洲600指数收盘基本持平，抹去盘中一度高达1%的跌幅。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "欧洲股市持稳，等待欧央行利率决议",
+        "assets": "📈 欧洲股市 中性 📉 欧元 承压",
+        "chain": "市场定价降息（借钱成本降低），若鸽派（偏向宽松）则利好股市但利空欧元汇率",
+        "watch": "欧央行降息幅度及前瞻指引（未来政策暗示）"
+      }
+    },
+    {
+      "rank": 4,
       "title": "PVH投资者可参与Schall律所发起的欺诈调查",
       "source": "环球市场播报",
       "detail": " 美国股东权利诉讼律所Schall Law Firm宣布，代表PVH Corp．的投资者对该公司发起证券欺诈调查，并邀请受损投资者加入。",
@@ -38,13 +52,13 @@
       "score": 30,
       "insight": {
         "what": "PVH投资者可参与Schall律所欺诈调查",
-        "assets": "📉 PVH（服装集团）股价 利空",
-        "chain": "集体诉讼（投资者联合索赔）→声誉受损→融资成本上升",
-        "watch": "法院是否受理及赔偿金额"
+        "assets": "📉 PVH集团 承压",
+        "chain": "集体诉讼风险上升，可能引发股价抛售，并波及服装板块投资者信心",
+        "watch": "法院是否受理集体诉讼及后续和解金额"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Federated Hermes市政收益基金宣布月度分红，每股派息0.045美元",
       "source": "环球市场播报",
       "detail": "Federated Hermes Premier Municipal Income Fund于6月10日宣布，该基金将于2026年7月1日向股东派发每股0.045美元的月度股息。基金旨在为投资者提供免征常规联邦所得税及替...",
@@ -52,13 +66,13 @@
       "score": 28,
       "insight": {
         "what": "Federated Hermes市政收益基金宣布月度分红",
-        "assets": "📈 市政债券基金 利好；📈 免税固收（市政债） 利好",
-        "chain": "分红吸引避险资金→市政债需求增加→收益率下行（价格涨）",
-        "watch": "基金净资产值（NAV）变化"
+        "assets": "📈 市政债券基金 利好",
+        "chain": "高分红（定期派息）吸引避险资金，压降同类基金收益率差（相对其他固定收益产品的利差）",
+        "watch": "基金净资产值（NAV）走势及分红率变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Appian最新调查：美国公共部门AI应用进入深化阶段",
       "source": "环球市场播报",
       "detail": "Appian于6月10日发布的一项最新调查显示，美国公共部门的人工智能应用正从实验性试点转向实际的政府运营部署。这项针对2000名美国公共部门员工的调查发现...",
@@ -66,27 +80,21 @@
       "score": 27,
       "insight": {
         "what": "Appian调查：美国公共部门AI应用深化",
-        "assets": "📈 AI软件（如Appian） 利好；📈 政府IT服务 利好",
-        "chain": "政府AI采购加速→AI公司订单增长→行业渗透率提升",
-        "watch": "美国联邦AI预算分配及合同金额"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "调查显示：半数美国人向AI寻求医疗建议，多数人信任AI给出的指导",
-      "source": "环球市场播报",
-      "detail": "eHealth最新发布的调查数据显示，人工智能正日益成为美国人寻求医疗建议的重要渠道。在参与调查的1000多名美国受访者中，有49%的人表示曾使用AI工具获取医疗建议...",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "调查：半数美国人向AI寻求医疗建议",
-        "assets": "📈 AI医疗板块 利好；📈 远程医疗 利好",
-        "chain": "AI医疗信任度提升→临床辅助决策需求增长→医疗IT支出增加",
-        "watch": "FDA对AI医疗设备的审批进展"
+        "assets": "📈 AI软件股（如Appian）利好 📈 政府IT服务商 利好",
+        "chain": "公共部门AI采购增加，利好企业级AI（面向公司的AI工具）和云计算（远程服务器服务）板块",
+        "watch": "后续政府AI预算拨款及合同签订情况"
       }
     },
     {
       "rank": 7,
+      "title": "调查显示：半数美国人向AI寻求医疗建议，多数人信任AI给出的指导",
+      "source": "环球市场播报",
+      "detail": "eHealth最新发布的调查数据显示，人工智能正日益成为美国人寻求医疗建议的重要渠道。在参与调查的1000多名美国受访者中，有49%的人表示曾使用AI工具获取医疗建议...",
+      "lang": "zh",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "Humaniod robotics company raises up to $1.4 billion from Nvidia, Amazon and others",
       "source": "CNBC",
       "detail": "Investors have rushed to back companies in the physical AI space",
@@ -94,7 +102,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
@@ -102,18 +110,10 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Here's the inflation breakdown for May 2026 — in one chart",
       "source": "CNBC",
       "detail": "Inflation jumped to a three-year high in May as the Iran war continued to fuel higher energy prices.",
-      "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "Beef prices finally fell, but cattle herd screwworm could eat into consumers' inflation relief ",
-      "source": "CNBC",
-      "detail": "The arrival of the invasive New World screwworm in Texas could hit consumers this summer with beef prices already an acute source of inflation. ",
       "lang": "en",
       "score": 20
     }
