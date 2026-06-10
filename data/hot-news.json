@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 17:26",
+  "updateTime": "2026-06-10 17:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "中国5月PPI（生产者价格指数）创近4年新高，因伊朗战争推高成本及AI需求",
-        "assets": "📈 中国工业商品 利好; 📉 中国制造业利润 承压",
-        "chain": "输入成本上升挤压中游利润，但AI基建需求支撑上游，可能引发政策微调（如定向降息）",
-        "watch": "中国6月PPI环比数据及伊朗局势"
+        "what": "中国5月PPI近4年新高，因伊朗战争推高成本及AI需求",
+        "assets": "📈 中国工业品期货 利好 📉 中国下游制造业 承压",
+        "chain": "输入性通胀（进口成本涨）挤压中游利润，但AI需求支撑上游材料（如铜、芯片）",
+        "watch": "6月中国PPI环比数据及伊朗局势"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美股IPO热潮可能逆转流通股本缩减趋势，增加供给",
-        "assets": "📉 美股大盘 承压; 📈 新股IPO 利好",
-        "chain": "流通股本增加稀释现有股东权益（每股收益下降），但新股上市吸引资金，短期压制指数",
-        "watch": "未来3个月IPO募资总额及撤单率"
+        "what": "美股IPO热潮可能逆转流通股本缩减趋势",
+        "assets": "📈 美股IPO相关标的 利好 📉 现有科技股 稀释风险",
+        "chain": "新股供应增加（股本扩张）压制估值，但提振投行收入（交易佣金增）",
+        "watch": "未来1个月IPO定价及认购率"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，但散户配售比例仍不确定",
-        "assets": "📈 太空概念股 利好; 📉 现有科技巨头 分流",
-        "chain": "高关注度IPO可能从科技股抽流动性（资金轮动），散户配售若高则增强买盘",
-        "watch": "SpaceX最终IPO定价及散户配售比例"
+        "what": "SpaceX IPO价格已定，但散户分配未明确",
+        "assets": "📈 SpaceX概念股 利好 📈 太空ETF 情绪提振",
+        "chain": "高定价暗示机构需求强劲（超买），散户若分配少或推高上市首日波动（炒新效应）",
+        "watch": "SpaceX最终散户配售比例及上市日期"
       }
     },
     {
@@ -51,50 +51,58 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "东北证券分析：美股押注AI先发优势，A股关注替代与全球配套",
-        "assets": "📈 美股AI龙头 利好; 📈 A股半导体/设备替代 利好",
-        "chain": "美股AI估值溢价（市盈率偏高）可能向A股传导，但A股更受益于国产替代与供应链转移",
-        "watch": "中美AI企业财报对比及技术禁令动向"
+        "what": "东北证券：美股科技看AI先发优势，A股看替代与配套",
+        "assets": "📈 美股AI龙头 利好 📈 A股半导体/设备 利好",
+        "chain": "美股AI（如英伟达）领涨，A股跟随逻辑是国产替代（如设备）和全球供应链（如封测）",
+        "watch": "A股半导体板块ETF资金流及美股AI财报"
       }
     },
     {
       "rank": 5,
+      "title": "消息人士：韩国已清算了与SpaceX IPO相关的约15亿美元需求",
+      "source": "环球市场播报",
+      "detail": " 一位知情人士周三透露，与SpaceX首次公开募股（IPO）相关的大规模外汇兑换需求已得到消化，此前数周这一需求曾对韩元构成沉重压力。",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "消息称韩国已清算约15亿美元SpaceX IPO需求",
+        "assets": "📉 SpaceX IPO认购热度 降温 📈 韩元 流动性压力缓解",
+        "chain": "清算意味着韩国机构减持或退出（抛压解除），短期减少韩元外流（本币支撑）",
+        "watch": "韩国央行资本流动数据及SpaceX最终认购规模"
+      }
+    },
+    {
+      "rank": 6,
       "title": "知情人士：韩国已消化与SpaceX IPO相关的约15亿美元买需",
       "source": "环球市场播报",
       "detail": " 一位知情人士周三表示，与SpaceX首次公开发行（IPO）相关的大规模外汇兑换需求已得到消化，此前这些需求在过去几周对韩元造成了沉重压力。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "知情人士称韩国已消化约15亿美元SpaceX IPO买需",
-        "assets": "📈 韩国科技股 利好; 📈 SpaceX IPO 需求确认",
-        "chain": "韩国机构提前锁仓（锁定仓位）减少二级市场抛压，暗示亚洲资金对太空资产配置意愿强",
-        "watch": "SpaceX IPO超额认购倍数及韩国后续资金流向"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "A股年内市值增减TOP10：建行市值破2.7万亿再创新高 中际旭创暴涨6000亿领跑",
-      "source": "新浪财经",
-      "detail": "6月10日，A股市场大金融领涨，建设银行盘中大涨再创历史新高总市值突破2.74万亿元，一跃成为A股新晋“股王”。中际旭创年内市值暴涨超6000亿元...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "A股年内市值变动：建行破2.7万亿创新高，中际旭创涨6000亿领跑",
-        "assets": "📈 银行股（建行） 利好; 📈 光模块（中际旭创） 利好",
-        "chain": "建行受益于高股息（分红收益率）避险，中际旭创受AI算力（数据计算能力）需求驱动，资金向防御+成长两极集中",
-        "watch": "银行股股息率与AI光模块订单数据"
+        "what": "知情人士确认韩国消化约15亿美元SpaceX IPO买需",
+        "assets": "📈 韩国机构投资者 利好 📉 韩国散户 竞争加剧",
+        "chain": "消化表示韩国机构已配置（完成下单），但散户份额或受挤压（跟风盘减少）",
+        "watch": "SpaceX IPO韩国散户中签率及后续交易量"
       }
     },
     {
       "rank": 7,
-      "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
+      "title": "A股年内市值增减TOP10：建行市值破2.7万亿再创新高 中际旭创暴涨6000亿领跑",
+      "source": "新浪财经",
+      "detail": "6月10日，A股市场大金融领涨，建设银行盘中大涨再创历史新高总市值突破2.74万亿元，一跃成为A股新晋“股王”。中际旭创年内市值暴涨超6000亿元...",
+      "lang": "zh",
+      "score": 35
+    },
+    {
+      "rank": 8,
+      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
-      "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
+      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
       "source": "CNBC",
       "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
@@ -102,18 +110,10 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "能源价格上涨推高通胀预期 美国5月CPI同比涨幅预计创三年新高",
       "source": "环球市场播报",
       "detail": "综合外电报道，美国劳工部即将于当地时间周三公布5月份消费者价格指数（CPI）。市场主流经济学家普遍预测，受国际地缘冲突及能源价格飙升等因素影响...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "“4字头”通胀要来了？今晚八点半 全球市场“决战”美国CPI……",
-      "source": "滚动播报",
-      "detail": "来源：财联社 财联社6月10日讯（编辑 潇湘）上周五，一份火热到爆表的美国非农就业数据，可以说成为了美股乃至全球市场投资者眼中最大的“梦魇”。",
       "lang": "zh",
       "score": 30
     }
