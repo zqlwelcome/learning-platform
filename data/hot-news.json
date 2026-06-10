@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 17:31",
+  "updateTime": "2026-06-10 17:35",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "中国5月PPI近4年新高，因伊朗战争推高成本及AI需求",
-        "assets": "📈 中国工业品期货 利好 📉 中国下游制造业 承压",
-        "chain": "输入性通胀（进口成本涨）挤压中游利润，但AI需求支撑上游材料（如铜、芯片）",
-        "watch": "6月中国PPI环比数据及伊朗局势"
+        "what": "中国5月PPI（生产者价格指数）创近4年新高",
+        "assets": "📈 中国工业品 利好，📉 中国债券 承压",
+        "chain": "输入成本上升挤压下游利润，央行可能收紧流动性（减少市场资金），利空债市",
+        "watch": "6月CPI（消费者价格指数）及央行公开市场操作"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 45,
       "insight": {
         "what": "美股IPO热潮可能逆转流通股本缩减趋势",
-        "assets": "📈 美股IPO相关标的 利好 📉 现有科技股 稀释风险",
-        "chain": "新股供应增加（股本扩张）压制估值，但提振投行收入（交易佣金增）",
-        "watch": "未来1个月IPO定价及认购率"
+        "assets": "📈 美股IPO相关股票 利好，📉 现有科技股 承压",
+        "chain": "新股供应增加稀释资金，压制现有股票估值（市盈率），但缓解流动性枯竭",
+        "watch": "未来两周IPO定价及认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO价格已定，但散户分配未明确",
-        "assets": "📈 SpaceX概念股 利好 📈 太空ETF 情绪提振",
-        "chain": "高定价暗示机构需求强劲（超买），散户若分配少或推高上市首日波动（炒新效应）",
-        "watch": "SpaceX最终散户配售比例及上市日期"
+        "what": "SpaceX IPO定价确定但散户分配未定",
+        "assets": "📈 SpaceX相关概念股 利好，📉 传统航天股 承压",
+        "chain": "散户参与度低或导致首日波动大（换手率异常），机构可能提前获利了结",
+        "watch": "IPO首日涨跌幅及散户中签率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "东北证券：美股科技看AI先发优势，A股看替代与配套",
-        "assets": "📈 美股AI龙头 利好 📈 A股半导体/设备 利好",
-        "chain": "美股AI（如英伟达）领涨，A股跟随逻辑是国产替代（如设备）和全球供应链（如封测）",
-        "watch": "A股半导体板块ETF资金流及美股AI财报"
+        "what": "东北证券：美股看AI先发优势，A股看替代与配套",
+        "assets": "📈 美股AI龙头 利好，📈 A股半导体/设备 利好",
+        "chain": "美股AI泡沫（估值过高）可能溢出至A股国产替代链，形成跨市场联动（相关性上升）",
+        "watch": "中美AI公司财报及技术突破新闻"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "消息称韩国已清算约15亿美元SpaceX IPO需求",
-        "assets": "📉 SpaceX IPO认购热度 降温 📈 韩元 流动性压力缓解",
-        "chain": "清算意味着韩国机构减持或退出（抛压解除），短期减少韩元外流（本币支撑）",
-        "watch": "韩国央行资本流动数据及SpaceX最终认购规模"
+        "what": "韩国清算约15亿美元SpaceX IPO需求",
+        "assets": "📉 SpaceX IPO 承压，📉 韩国科技股 承压",
+        "chain": "韩国机构清仓表明需求不及预期，或引发其他亚洲投资者跟风撤单（羊群效应）",
+        "watch": "SpaceX最终认购倍数及韩国资金流向"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "知情人士确认韩国消化约15亿美元SpaceX IPO买需",
-        "assets": "📈 韩国机构投资者 利好 📉 韩国散户 竞争加剧",
-        "chain": "消化表示韩国机构已配置（完成下单），但散户份额或受挤压（跟风盘减少）",
-        "watch": "SpaceX IPO韩国散户中签率及后续交易量"
+        "what": "韩国已消化约15亿美元SpaceX IPO买需",
+        "assets": "📈 SpaceX IPO 利好，📈 韩国科技股 利好",
+        "chain": "韩国机构完成配置显示需求强劲，可能带动亚太其他资金入场（资金轮动）",
+        "watch": "SpaceX上市首日成交量及韩国科技指数"
       }
     },
     {
@@ -103,19 +103,19 @@
     },
     {
       "rank": 9,
-      "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
-      "source": "CNBC",
-      "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 10,
       "title": "能源价格上涨推高通胀预期 美国5月CPI同比涨幅预计创三年新高",
       "source": "环球市场播报",
       "detail": "综合外电报道，美国劳工部即将于当地时间周三公布5月份消费者价格指数（CPI）。市场主流经济学家普遍预测，受国际地缘冲突及能源价格飙升等因素影响...",
       "lang": "zh",
       "score": 30
+    },
+    {
+      "rank": 10,
+      "title": "SoftBank sinks over 8% as Asia tech stocks tumble, tracking Wall Street losses",
+      "source": "CNBC",
+      "detail": "Asian semiconductor and technology stocks fell on Wednesday, tracking overnight losses on Wall Street.",
+      "lang": "en",
+      "score": 29
     }
   ]
 }
