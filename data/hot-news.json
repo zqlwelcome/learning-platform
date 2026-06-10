@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 14:24",
+  "updateTime": "2026-06-10 14:30",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美国5月CPI预计重回4%上方，加息预期升温",
-        "assets": "📉 美股 利空；📈 美元指数 利好",
-        "chain": "加息预期→风险资产承压→资金回流美元资产（避险/套息交易）",
+        "what": "美国5月CPI料重回4%以上，加息风险上升",
+        "assets": "📉 美股 承压；📉 美债 下跌",
+        "chain": "加息预期推高美债收益率（借钱成本），压制成长股估值，美元走强（资金流入）",
         "watch": "今晚CPI实际值及核心CPI环比"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "中国5月PPI同比创近4年新高，受伊朗战争及AI需求推升",
-        "assets": "📈 中国工业品期货 利好；📉 中国央行宽松空间 收窄",
-        "chain": "输入性通胀→中游制造业成本上升→利润压缩（利润表恶化）",
-        "watch": "后续PPI环比及政策利率调整信号"
+        "what": "中国5月PPI创近4年新高，受伊朗战争及AI需求推高",
+        "assets": "📈 中国工业品 利好；📉 中国债券 承压",
+        "chain": "PPI高企传导至CPI（消费者物价），限制宽松政策（央行放水空间），利好商品股",
+        "watch": "中国央行是否调整MLF（中期借贷便利）利率"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，但散户配售比例仍不确定",
-        "assets": "📈 SpaceX相关概念股 利好；📈 美科技股 情绪提振",
-        "chain": "明星IPO→散户资金分流→二级市场科技股流动性承压（流动性挤出效应）",
-        "watch": "IPO最终配售规则及首日涨幅"
+        "what": "SpaceX IPO定价确定，散户分配仍不确定",
+        "assets": "📈 SpaceX 利好；📈 太空概念股 联动",
+        "chain": "IPO吸引资金流入太空板块，零售份额不确定增加波动（散户追涨风险），利好一级市场",
+        "watch": "IPO首日涨幅及SEC（美国证监会）披露文件"
       }
     },
     {
@@ -51,50 +51,42 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "黄金因美CPI预期重挫，市场等待数据验证",
-        "assets": "📉 黄金 承压；📈 美元 利好",
-        "chain": "加息预期→实际利率上行→无息资产黄金吸引力下降（持有成本上升）",
-        "watch": "今晚CPI数据及美联储点阵图"
+        "what": "黄金重挫，市场等待今晚美CPI数据",
+        "assets": "📉 黄金 承压；📈 美元 走强",
+        "chain": "CPI预期高推升加息预期，实际利率（名义利率-通胀）上升，黄金无息资产吸引力下降",
+        "watch": "今晚CPI公布后黄金期货持仓变化"
       }
     },
     {
       "rank": 5,
-      "title": "腾讯发行24.5亿美元债券，盘中涨近3%，AI长跑再添粮草",
-      "source": "21世纪经济报道",
-      "detail": "21世纪经济报道记者 吴佳楠 6月10日，腾讯控股（0700.HK）盘中涨近3%，市值超4.2万亿港元。 消息面上，腾讯控股6月10日在港交所公告...",
-      "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "腾讯发行24.5亿美元债券加码AI，股价盘中涨近3%",
-        "assets": "📈 腾讯/中概科技股 利好；📈 恒生科技指数 利好",
-        "chain": "低成本融资→AI研发投入→长期盈利预期改善（资本开支周期启动）",
-        "watch": "债券认购倍数及后续AI产品落地进度"
-      }
-    },
-    {
-      "rank": 6,
       "title": "美银：若日本央行鸽派加息 则可能引发日元抛售及干预行动",
       "source": "环球市场播报",
       "detail": " 美银证券表示，如果日本央行在本月的会议上采取鸽派加息，日元抛售可能会加速，如果美元兑日元汇率升至161-165区间，当局可能会进行干预。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银警告日本鸽派加息可能引发日元抛售及干预",
-        "assets": "📉 日元 承压；📈 美元/日元 上行",
-        "chain": "鸽派加息→利差收窄不及预期→套息交易（借低息日元买高息资产）继续→干预风险",
-        "watch": "日央行决议措辞及日本财务省汇率干预行动"
+        "what": "美银警告：日央行鸽派加息可能引发日元抛售",
+        "assets": "📉 日元 承压；📈 日股 短期利好",
+        "chain": "鸽派加息（加息但暗示不持续）令套利交易（借低息日元买高息资产）重燃，日元贬值促出口",
+        "watch": "日央行决议声明及后续购债计划"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
       "source": "CNBC",
       "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "美网络安全公司称中国加强AI间谍活动以追赶美国",
+        "assets": "📉 中美科技股 承压；📈 网络安全股 利好",
+        "chain": "地缘紧张升级，美国可能扩大对华AI芯片出口限制（制裁），科技供应链风险上升",
+        "watch": "美国商务部是否更新实体清单"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
@@ -102,7 +94,7 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
@@ -110,12 +102,20 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
       "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "今夜美国CPI“喜忧参半”？整体通胀或破4创三年新高，核心通胀或显著低于预期！",
+      "source": "市场资讯",
+      "detail": "来源：华尔街见闻 北京时间今晚20：30，美国劳工统计局将公布5月CPI数据。这也是美联储新主席沃什下周政策利率会议前，市场最关注的重磅通胀数据。",
+      "lang": "zh",
+      "score": 30
     }
   ]
 }
