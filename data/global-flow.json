@@ -1,17 +1,17 @@
 {
-  "updateTime": "2026-06-11 00:30",
+  "updateTime": "2026-06-11 00:36",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "25350.46",
-      "change": "-1.28"
+      "value": "25386.93",
+      "change": "-1.14"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "50273.31",
-      "change": "-1.18"
+      "value": "50302.80",
+      "change": "-1.12"
     },
     "sh000001": {
       "name": "上证指数",
@@ -34,5 +34,11 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "摩根资管Kelly认为通胀或已见顶 美联储下周料按兵不动",
+      "source": "环球市场播报",
+      "keyword": "美联储"
+    }
+  ]
 }

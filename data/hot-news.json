@@ -1,22 +1,50 @@
 {
-  "updateTime": "2026-06-11 00:30",
+  "updateTime": "2026-06-11 00:36",
   "news": [
     {
       "rank": 1,
+      "title": "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance",
+      "source": "CNBC",
+      "detail": "Sen. Elizabeth Warren noted Elon Musk's \"uniquely unchecked\" power as SpaceX's majority shareholder and other concerns in a letter to the SEC.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "沃伦要求SEC推迟SpaceX IPO",
+        "assets": "📉 SpaceX 估值 承压",
+        "chain": "监管审查加剧→IPO延后→一级市场（未上市企业融资）流动性收紧",
+        "watch": "SEC是否正式启动调查"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "The SpaceX IPO could be coming for the Magnificent Seven and chip stocks",
+      "source": "CNBC",
+      "detail": "The Magnficent Seven is the market pocket that's most likely to see a rotation, analysts say.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "SpaceX IPO可能冲击科技七巨头和芯片股",
+        "assets": "📉 美股科技七巨头 承压；📉 半导体板块 承压",
+        "chain": "SpaceX吸筹（资金从现有科技股流向新IPO）→科技股资金流出→板块轮动",
+        "watch": "SpaceX IPO定价及认购倍数"
+      }
+    },
+    {
+      "rank": 3,
       "title": "PVH投资者可参与Schall律所发起的欺诈调查",
       "source": "环球市场播报",
       "detail": " 美国股东权利诉讼律所Schall Law Firm宣布，代表PVH Corp．的投资者对该公司发起证券欺诈调查，并邀请受损投资者加入。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "PVH遭投资者欺诈调查",
-        "assets": "📉 PVH(服装集团) 利空",
-        "chain": "诉讼风险→股价波动→投资者信心下降（市场情绪转弱）",
-        "watch": "诉讼进展及PVH财报披露"
+        "what": "PVH投资者可参与Schall律所欺诈调查",
+        "assets": "📉 PVH（服装集团）股价 利空",
+        "chain": "集体诉讼（投资者联合索赔）→声誉受损→融资成本上升",
+        "watch": "法院是否受理及赔偿金额"
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
       "title": "Federated Hermes市政收益基金宣布月度分红，每股派息0.045美元",
       "source": "环球市场播报",
       "detail": "Federated Hermes Premier Municipal Income Fund于6月10日宣布，该基金将于2026年7月1日向股东派发每股0.045美元的月度股息。基金旨在为投资者提供免征常规联邦所得税及替...",
@@ -24,98 +52,70 @@
       "score": 28,
       "insight": {
         "what": "Federated Hermes市政收益基金宣布月度分红",
-        "assets": "📈 市政债券基金 利好；📉 国债 承压",
-        "chain": "分红吸引资金流入→推高市政债价格→相对压低国债需求（避险偏好转移）",
-        "watch": "基金资产净值变化及资金流向"
+        "assets": "📈 市政债券基金 利好；📈 免税固收（市政债） 利好",
+        "chain": "分红吸引避险资金→市政债需求增加→收益率下行（价格涨）",
+        "watch": "基金净资产值（NAV）变化"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "Appian最新调查：美国公共部门AI应用进入深化阶段",
       "source": "环球市场播报",
       "detail": "Appian于6月10日发布的一项最新调查显示，美国公共部门的人工智能应用正从实验性试点转向实际的政府运营部署。这项针对2000名美国公共部门员工的调查发现...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "美国公共部门AI应用进入深化阶段",
-        "assets": "📈 AI软件(如Palantir) 利好；📈 云计算 利好",
-        "chain": "政府AI采购增加→带动企业级AI需求→提升相关公司营收预期（业绩驱动）",
-        "watch": "美国AI相关政府采购合同"
+        "what": "Appian调查：美国公共部门AI应用深化",
+        "assets": "📈 AI软件（如Appian） 利好；📈 政府IT服务 利好",
+        "chain": "政府AI采购加速→AI公司订单增长→行业渗透率提升",
+        "watch": "美国联邦AI预算分配及合同金额"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "调查显示：半数美国人向AI寻求医疗建议，多数人信任AI给出的指导",
       "source": "环球市场播报",
       "detail": "eHealth最新发布的调查数据显示，人工智能正日益成为美国人寻求医疗建议的重要渠道。在参与调查的1000多名美国受访者中，有49%的人表示曾使用AI工具获取医疗建议...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "半数美国人向AI寻求医疗建议且信任",
-        "assets": "📈 AI医疗 利好；📈 医疗IT 利好",
-        "chain": "用户信任度提升→AI医疗应用加速渗透→利好相关软件和数据服务商（需求增长）",
-        "watch": "AI医疗公司用户增长数据"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Here's the inflation breakdown for May 2026 — in one chart",
-      "source": "CNBC",
-      "detail": "Inflation jumped to a three-year high in May as the Iran war continued to fuel higher energy prices.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "2026年5月通胀数据图表发布",
-        "assets": "📈 美债 利好(若通胀回落)；📉 美元 承压(若通胀温和)",
-        "chain": "通胀读数→影响降息预期(借钱成本变化)→波动美债收益率和汇率",
-        "watch": "核心CPI环比及美联储官员讲话"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Palantir's Karp says businesses are 'unhappy' with the frontier AI labs",
-      "source": "CNBC",
-      "detail": "Palantir CEO Alex Karp says AI will drive the most important political decisions in the U.S. and shouldn't be decided by party lines.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "Palantir CEO称企业对前沿AI实验室不满",
-        "assets": "📈 Palantir 利好；📈 企业级AI应用 利好",
-        "chain": "企业不满通用AI→转向定制化方案→利好垂直领域AI公司（差异化竞争）",
-        "watch": "Palantir商业客户签约数"
+        "what": "调查：半数美国人向AI寻求医疗建议",
+        "assets": "📈 AI医疗板块 利好；📈 远程医疗 利好",
+        "chain": "AI医疗信任度提升→临床辅助决策需求增长→医疗IT支出增加",
+        "watch": "FDA对AI医疗设备的审批进展"
       }
     },
     {
       "rank": 7,
-      "title": "Beef prices finally fell, but cattle herd screwworm could eat into consumers' inflation relief ",
+      "title": "Humaniod robotics company raises up to $1.4 billion from Nvidia, Amazon and others",
       "source": "CNBC",
-      "detail": "The arrival of the invasive New World screwworm in Texas could hit consumers this summer with beef prices already an acute source of inflation. ",
+      "detail": "Investors have rushed to back companies in the physical AI space",
       "lang": "en",
-      "score": 20
+      "score": 27
     },
     {
       "rank": 8,
-      "title": "Private credit lenders say their big software bet faces an AI reckoning — but not a ‘SaaSpocalypse'",
+      "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
       "source": "CNBC",
-      "detail": "Private credit's exposure to software is being tested by AI, as lenders look past “SaaSpocalypse” fears to identify winners and losers.",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 20
     },
     {
       "rank": 9,
-      "title": "Mitek与Datos Insights报告：合成身份欺诈成为2026年核心欺诈威胁",
-      "source": "环球市场播报",
-      "detail": "Mitek Systems与Datos Insights联合发布的最新研究报告显示，合成身份欺诈正迅速成为金融机构面临的最重大系统性威胁之一。生成式人工智能的普及...",
-      "lang": "zh",
-      "score": 18
+      "title": "Here's the inflation breakdown for May 2026 — in one chart",
+      "source": "CNBC",
+      "detail": "Inflation jumped to a three-year high in May as the Iran war continued to fuel higher energy prices.",
+      "lang": "en",
+      "score": 20
     },
     {
       "rank": 10,
-      "title": "抗通胀之战再遇“压力测试”：欧央行和英央行能否走出历史阴影？",
-      "source": "环球市场播报",
-      "detail": " 欧洲央行行长克里斯蒂娜·拉加德和英国央行行长安德鲁·贝利今年夏天将忙于摆脱过去通胀失误的阴影，同时采取措施应对物价持续上涨。",
-      "lang": "zh",
-      "score": 18
+      "title": "Beef prices finally fell, but cattle herd screwworm could eat into consumers' inflation relief ",
+      "source": "CNBC",
+      "detail": "The arrival of the invasive New World screwworm in Texas could hit consumers this summer with beef prices already an acute source of inflation. ",
+      "lang": "en",
+      "score": 20
     }
   ]
 }
