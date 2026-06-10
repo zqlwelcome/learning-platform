@@ -1,50 +1,64 @@
 {
-  "updateTime": "2026-06-11 01:10",
+  "updateTime": "2026-06-11 01:15",
   "news": [
     {
       "rank": 1,
+      "title": "Wall Street needs a crash course in the token economy ahead of AI IPOs. SpaceX offers a preview",
+      "source": "CNBC",
+      "detail": "When OpenAI and Anthropic make their IPO prospectuses available to the public, investors are going to have to learn about a whole new economy.",
+      "lang": "en",
+      "score": 82,
+      "insight": {
+        "what": "华尔街需学习代币经济，SpaceX IPO或为AI上市铺路",
+        "assets": "📈 AI板块 利好；📈 SpaceX概念股 利好",
+        "chain": "代币化（资产数字化）降低融资门槛，推高科技股估值，挤压传统IPO溢价",
+        "watch": "SEC对代币经济监管立场及SpaceX上市时间表"
+      }
+    },
+    {
+      "rank": 2,
       "title": "The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks",
       "source": "CNBC",
       "detail": "The \"Magnificent Seven\" is the market pocket that's most likely to see a rotation, analysts say.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX IPO传闻冲击美股科技七巨头和芯片股",
-        "assets": "📉 美股科技七巨头 承压, 📉 芯片股 承压",
-        "chain": "SpaceX吸走流动性（资金从现有科技股转向新发标的），加剧板块轮动（科技股遭抛售）",
-        "watch": "SEC对IPO审批进展及SpaceX估值区间"
+        "what": "SpaceX IPO可能冲击科技七巨头和芯片股",
+        "assets": "📉 科技七巨头 承压；📉 芯片股 承压",
+        "chain": "资金从高估值科技股轮动至SpaceX，引发板块再平衡（资金转移）",
+        "watch": "SpaceX估值及IPO后资金流向"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance",
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren noted Elon Musk's \"uniquely unchecked\" power as SpaceX's majority shareholder and other concerns in a letter to the SEC.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "参议员沃伦要求SEC推迟SpaceX IPO，质疑估值和治理",
-        "assets": "📉 SpaceX IPO 利空, 📉 美股科技股 承压",
-        "chain": "监管风险升温（SEC可能审查更严），IPO延迟将缓解短期对科技股的流动性抽血",
-        "watch": "SEC是否正式介入调查及沃伦后续施压动作"
+        "what": "沃伦参议员要求SEC推迟SpaceX IPO，质疑估值和治理",
+        "assets": "📉 SpaceX IPO 利空；📉 科技IPO市场 承压",
+        "chain": "监管风险升温（审查变严），可能推迟其他科技公司IPO，拖累风险偏好",
+        "watch": "SEC是否采纳建议及SpaceX回应"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "欧洲股市持稳 市场静候欧洲央行利率决议",
       "source": "环球市场播报",
       "detail": "欧洲股市表现平淡，美国一项关键通胀报告令投资者稍感宽慰，市场注意力转向欧洲央行的利率决议。 斯托克欧洲600指数收盘基本持平，抹去盘中一度高达1%的跌幅。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "欧洲股市窄幅震荡，等待欧央行利率决议",
-        "assets": "📈 欧洲股市 中性, 📉 欧元 承压",
-        "chain": "市场押注降息（借钱成本降低）预期，若鸽派（偏宽松）则欧股涨欧元跌",
-        "watch": "欧央行利率决议及拉加德发布会措辞"
+        "what": "欧洲股市持稳，等待欧央行利率决议",
+        "assets": "📈 欧洲股市 中性；📈 欧元 中性",
+        "chain": "市场押注欧央行按兵不动（不降息），若意外降息则利好股市但利空欧元",
+        "watch": "欧央行利率决议及声明措辞"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "PVH投资者可参与Schall律所发起的欺诈调查",
       "source": "环球市场播报",
       "detail": " 美国股东权利诉讼律所Schall Law Firm宣布，代表PVH Corp．的投资者对该公司发起证券欺诈调查，并邀请受损投资者加入。",
@@ -52,41 +66,35 @@
       "score": 30,
       "insight": {
         "what": "PVH投资者可参与Schall律所发起的欺诈调查",
-        "assets": "📉 PVH（服饰集团） 承压",
-        "chain": "集体诉讼风险（投资者索赔）压制股价，短期波动加大，需关注和解或败诉赔偿",
-        "watch": "法院是否受理及PVH财报中相关披露"
+        "assets": "📉 PVH集团 利空",
+        "chain": "诉讼风险（法律纠纷）压低股价，可能引发其他股东集体诉讼，拖累零售板块",
+        "watch": "PVH是否披露实质性违规及诉讼进展"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Federated Hermes市政收益基金宣布月度分红，每股派息0.045美元",
       "source": "环球市场播报",
       "detail": "Federated Hermes Premier Municipal Income Fund于6月10日宣布，该基金将于2026年7月1日向股东派发每股0.045美元的月度股息。基金旨在为投资者提供免征常规联邦所得税及替...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "Federated Hermes市政收益基金宣布月度分红0.045美元/股",
+        "what": "Federated Hermes市政收益基金宣布月度分红每股0.045美元",
         "assets": "📈 市政债券基金 利好",
-        "chain": "稳定分红吸引避险资金（追求收益的投资者），但利率敏感（降息预期下更受追捧）",
-        "watch": "基金资产净值变动及后续分红可持续性"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Appian最新调查：美国公共部门AI应用进入深化阶段",
-      "source": "环球市场播报",
-      "detail": "Appian于6月10日发布的一项最新调查显示，美国公共部门的人工智能应用正从实验性试点转向实际的政府运营部署。这项针对2000名美国公共部门员工的调查发现...",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "Appian调查：美国公共部门AI应用进入深化阶段",
-        "assets": "📈 AI软件股（如Appian） 利好, 📈 政府IT服务股 利好",
-        "chain": "政府订单增长预期（AI落地加速），利好相关SaaS（软件即服务）和云计算供应商",
-        "watch": "美国联邦AI预算及后续采购合同公告"
+        "chain": "稳定分红吸引避险资金（追求收益），利好市政债需求，压低收益率（债券价格涨）",
+        "watch": "基金资产净值变化及后续分红稳定性"
       }
     },
     {
       "rank": 7,
+      "title": "Appian最新调查：美国公共部门AI应用进入深化阶段",
+      "source": "环球市场播报",
+      "detail": "Appian于6月10日发布的一项最新调查显示，美国公共部门的人工智能应用正从实验性试点转向实际的政府运营部署。这项针对2000名美国公共部门员工的调查发现...",
+      "lang": "zh",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "调查显示：半数美国人向AI寻求医疗建议，多数人信任AI给出的指导",
       "source": "环球市场播报",
       "detail": "eHealth最新发布的调查数据显示，人工智能正日益成为美国人寻求医疗建议的重要渠道。在参与调查的1000多名美国受访者中，有49%的人表示曾使用AI工具获取医疗建议...",
@@ -94,7 +102,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Stocks making the biggest moves midday: Super Micro, Cracker Barrel, Robinhood Markets, truckers & more",
       "source": "CNBC",
       "detail": "These are some of the stocks posting the largest moves midday.",
@@ -102,18 +110,10 @@
       "score": 27
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
       "source": "CNBC",
       "detail": "President Trump suggested that inflation would drop when the U.S. war against Iran ends, and said,  \"we've been taking out millions of barrels of oil.\"",
-      "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "Here's the inflation breakdown for May 2026 — in one chart",
-      "source": "CNBC",
-      "detail": "Inflation jumped to a three-year high in May as the Iran war continued to fuel higher energy prices.",
       "lang": "en",
       "score": 20
     }
