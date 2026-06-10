@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 20:40",
+  "updateTime": "2026-06-10 20:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "交易员押注美联储加息，贵金属和数字货币暴跌",
-        "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
-        "chain": "加息预期（借钱成本提高）推高美元，无息资产（黄金、比特币）吸引力下降",
-        "watch": "美联储官员讲话和通胀数据（CPI）"
+        "what": "交易员押注美联储加息，贵金属和比特币下跌",
+        "assets": "📉 黄金 承压\n📉 白银 承压\n📉 比特币 承压",
+        "chain": "加息预期推升实际利率（名义利率减通胀），无息资产（黄金/比特币）吸引力下降",
+        "watch": "周度初请失业金人数及CPI（通胀数据）"
       }
     },
     {
@@ -23,42 +23,50 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "SpaceX IPO定价确定，散户分配权仍不确定",
-        "assets": "📈 SpaceX 估值 利好, 📉 散户投资者 利空",
-        "chain": "IPO后机构（大资金）主导，散户（小资金）溢价买入，短期对冲基金（对冲风险）可能做空",
-        "watch": "SpaceX正式上市日期和零售券商（Robinhood）分配情况"
+        "what": "科技股因加息预期和等待通胀数据而回落",
+        "assets": "📉 美股科技股 承压\n📈 美元指数 走强",
+        "chain": "加息预期压制成长股估值（未来现金流折现率提高），美元走强利空新兴市场",
+        "watch": "美国8月CPI（消费者物价指数）及美联储9月点阵图"
       }
     },
     {
       "rank": 3,
+      "title": "科技股承压回落 市场静待通胀数据与重磅IPO",
+      "source": "环球市场播报",
+      "detail": "美国股指期货周三全线走低，科技板块跌幅居前。投资者在美国关键通胀数据公布前保持谨慎，同时地缘政治紧张局势持续压制市场风险偏好。",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO定价明确，但散户配售不确定",
+        "assets": "📈 SpaceX相关概念股 利好\n📉 其他太空股 分化",
+        "chain": "高估值IPO可能分流二级市场流动性（资金从现有股票流入新股），关注散户参与度",
+        "watch": "SpaceX正式上市日及首日涨跌幅"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Gold, silver and bitcoin fall as traders up Fed rate hike bets",
       "source": "CNBC",
       "detail": "Precious metals were firmly in negative territory, as fears about inflation and the Federal Reserve's interest rate path weighed on investor sentiment.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "华尔街分析师密集点评：看好Nvidia、Netflix，看空Tesla",
-        "assets": "📈 Nvidia 利好, 📉 Tesla 承压, 📈 Netflix 利好",
-        "chain": "分析师评级（机构观点）引发资金轮动（从汽车转向AI和流媒体），期权市场（赌涨跌）波动加大",
-        "watch": "Nvidia和Tesla的财报及期权未平仓量（持仓情况）"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
-      "source": "CNBC",
-      "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "中东基金数十亿美元认购SpaceX IPO",
-        "assets": "📈 SpaceX 估值 利好, 📉 其他太空股 承压",
-        "chain": "主权基金（国家资金）背书，提振SpaceX估值溢价，但分流其他太空股（如ASTS）资金",
-        "watch": "SpaceX IPO最终定价和认购倍数（超额认购比例）"
+        "what": "分析师针对Nvidia、特斯拉等明星股发布评级",
+        "assets": "📈 受看好个股 利好\n📉 受看空个股 承压",
+        "chain": "机构评级影响短期资金流向（被动型基金调仓），尤其是高贝塔（波动大）的成长股",
+        "watch": "个股期权隐含波动率及做空比率变化"
       }
     },
     {
       "rank": 5,
+      "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
+      "source": "CNBC",
+      "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
+      "lang": "en",
+      "score": 45
+    },
+    {
+      "rank": 6,
       "title": "Here are Wednesday's biggest analyst calls: Nvidia, Tesla, Cava, Netflix, Chipotle, Pfizer, Nike, SharkNinja & more",
       "source": "CNBC",
       "detail": "Here are the biggest calls on Wall Street on Wednesday.",
@@ -66,18 +74,10 @@
       "score": 44
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "SpaceX IPO获中东基金数十亿美元认购",
       "source": "环球市场播报",
       "detail": " 多位知情人士透露，海湾主权财富基金已大手笔认购SpaceX IPO股份，总额达数十亿美元，这也再度印证中东希望持续主导全球人工智能产业资金供给的宏大布局。",
-      "lang": "zh",
-      "score": 40
-    },
-    {
-      "rank": 7,
-      "title": "消息人士：韩国已清算了与SpaceX IPO相关的约15亿美元需求",
-      "source": "环球市场播报",
-      "detail": " 一位知情人士周三透露，与SpaceX首次公开募股（IPO）相关的大规模外汇兑换需求已得到消化，此前数周这一需求曾对韩元构成沉重压力。",
       "lang": "zh",
       "score": 40
     },
