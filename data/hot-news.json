@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 22:50",
+  "updateTime": "2026-06-10 22:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX利用星链技术打造AI卫星，IPO前淡化工程挑战",
-        "assets": "📈 太空科技股 利好; 📉 传统卫星运营商 承压",
-        "chain": "降低AI计算延迟（数据处理更快），吸引资本涌入太空AI赛道（风险投资增加），挤压传统通信卫星估值",
-        "watch": "SpaceX IPO估值及星链用户增长数据"
+        "what": "SpaceX利用星链技术造AI卫星，淡化工程挑战",
+        "assets": "📈 SpaceX估值（私人市场）利好",
+        "chain": "AI+卫星概念股（如ASTS）跟涨，星链供应链（如天线制造商）受关注",
+        "watch": "SpaceX IPO时间表及FAA（美国联邦航空管理局）发射许可"
       }
     },
     {
@@ -24,41 +24,27 @@
       "score": 45,
       "insight": {
         "what": "OpenAI秘密提交IPO申请，AI三巨头竞逐公开市场",
-        "assets": "📈 AI概念股 利好; 📈 科技IPO板块 情绪提振",
-        "chain": "AI估值泡沫（股价脱离基本面）风险上升，资金从传统科技股轮动（转移）至AI龙头，推高整体科技板块波动率（价格变动频率）",
-        "watch": "OpenAI招股书披露的营收增速及估值"
+        "assets": "📈 AI板块（如微软、谷歌）利好",
+        "chain": "AI算力需求激增，英伟达等GPU（图形处理器）供应商受益，科技股资金虹吸效应",
+        "watch": "SEC（美国证券交易委员会）审批进展及OpenAI估值区间"
       }
     },
     {
       "rank": 3,
-      "title": "科技股承压回落 市场静待通胀数据与重磅IPO",
-      "source": "环球市场播报",
-      "detail": "美国股指期货周三全线走低，科技板块跌幅居前。投资者在美国关键通胀数据公布前保持谨慎，同时地缘政治紧张局势持续压制市场风险偏好。",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "科技股承压回落，市场静待通胀数据与重磅IPO",
-        "assets": "📉 美股科技股 承压; 📈 防御性板块（如公用事业） 资金流入",
-        "chain": "通胀数据（物价涨幅）若超预期，将强化加息预期（借钱成本增加），进一步压制成长股（高估值股票）估值；IPO抽血效应（资金被新股吸走）加剧抛压",
-        "watch": "周四CPI（消费者物价指数）及核心PCE（个人消费支出价格）数据"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Gold, silver and bitcoin fall as traders up Fed rate hike bets",
       "source": "CNBC",
       "detail": "Precious metals were firmly in negative territory, as fears about inflation and the Federal Reserve's interest rate path weighed on investor sentiment.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "黄金、白银和比特币下跌，因交易员押注美联储加息",
-        "assets": "📉 黄金 承压; 📉 白银 承压; 📉 比特币 承压",
-        "chain": "加息预期（借钱成本上升）推高美元（美元指数走强），无息资产（如黄金、比特币）吸引力下降，资金转向美债（国债收益率上升）",
-        "watch": "美联储利率期货隐含加息概率（CME FedWatch）"
+        "what": "黄金、白银、比特币下跌，因交易员押注美联储加息",
+        "assets": "📉 黄金 承压；📉 比特币 承压；📈 美元指数 走强",
+        "chain": "加息预期推高实际利率（名义利率减去通胀），无息资产（黄金、加密货币）遭抛售",
+        "watch": "本周五PCE（个人消费支出）物价指数及美联储讲话"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "美联储官员表态：物价持续上涨，加息重回备选方案",
       "source": "环球市场播报",
       "detail": "原本期盼借贷成本回落的美国民众，或许还要再等一段时间。 就在几周前，市场投资者还普遍预期，信用卡、汽车贷款、房屋净值信贷额度等挂钩美联储短期基准利率的信贷产品利...",
@@ -66,35 +52,41 @@
       "score": 36,
       "insight": {
         "what": "美联储官员表态：物价持续上涨，加息重回备选方案",
-        "assets": "📉 美债 承压; 📉 美股 承压; 📈 美元 走强",
-        "chain": "加息预期（借钱成本增加）收紧金融条件（信贷变难），压制风险资产（股票、加密货币）估值，提升美元避险需求",
-        "watch": "下周美联储会议纪要及点阵图（利率预测）"
+        "assets": "📈 美元 走强；📉 美股 承压；📉 美债 收益率上行",
+        "chain": "加息预期打压风险偏好，高估值科技股首当其冲，银行股（净息差扩大）或受益",
+        "watch": "下周FOMC（联邦公开市场委员会）点阵图及鲍威尔措辞"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Weekly mortgage demand surges nearly 11% higher, despite volatile interest rates",
       "source": "CNBC",
       "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates climbed as well.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "尽管利率波动，周度抵押贷款需求激增近11%",
-        "assets": "📈 房地产板块 利好; 📈 银行股 利好",
-        "chain": "购房需求回暖（贷款申请增加）支撑房价，缓解银行信贷紧缩（放贷减少）压力，但若利率持续走高（房贷成本上升），后续需求可能回落",
-        "watch": "30年期固定抵押贷款利率走势及成屋销售数据"
+        "what": "抵押贷款需求周增近11%，尽管利率波动",
+        "assets": "📈 房地产股（如LEN、DHI）短期利好",
+        "chain": "购房需求韧性暗示经济未衰退，但利率持续高位可能压制后续需求，按揭贷款证券（MBS）价格承压",
+        "watch": "30年期固定抵押贷款利率能否跌破6.5%"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Investors are fleeing tech stocks in record numbers",
       "source": "CNBC",
       "detail": "Bank of America clients sold a record $14.2 billion in single stocks last week",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "投资者以创纪录速度逃离科技股",
+        "assets": "📉 科技股（如QQQ）承压；📈 防御板块（如公用事业XLU）利好",
+        "chain": "资金从成长股（科技）轮动至价值股（能源、金融），避险情绪推升VIX（波动率指数）",
+        "watch": "纳斯达克100指数能否守住200日均线及下周科技财报"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "美国参议员沃伦呼吁美国证券交易委员会推迟SpaceX的IPO",
       "source": "环球市场播报",
       "detail": " 马萨诸塞州民主党参议员伊丽莎白・沃伦成为最新一位对此次首次公开募股持质疑态度的人士，她认为该上市计划可能会给个人投资者带来风险。",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "美国5月CPI同比上涨4.2%，创三年新高",
       "source": "环球市场播报",
       "detail": "5 月美国通胀再度升温，能源价格上涨加重居民生活成本压力，但剔除波动项后的核心通胀压力有所缓和。 美国劳工统计局周三公布数据：衡量全美商品与服务综合价格的居民消费...",
@@ -110,12 +102,20 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美国股指期货跌幅收窄 核心CPI数据弱于预期",
       "source": "环球市场播报",
       "detail": " 美国股指期货在盘前触及日内低点后缩减跌幅，因美国5月一项关键消费者价格指标升幅低于预期，缓解了市场对美联储可能被迫在今年加息的担忧。",
       "lang": "zh",
       "score": 30
+    },
+    {
+      "rank": 10,
+      "title": "Oil prices jump after Trump says Iran will 'pay the price' for failing at peace deal",
+      "source": "CNBC",
+      "detail": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
+      "lang": "en",
+      "score": 27
     }
   ]
 }
