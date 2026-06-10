@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 19:20",
+  "updateTime": "2026-06-10 19:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，散户配售待定",
-        "assets": "📈 SpaceX未上市股权 利好",
-        "chain": "散户无法大额参与→需求转向ETF或私募基金（间接投资渠道）→抬升相关产品溢价",
-        "watch": "IPO首日涨幅及散户配售比例"
+        "what": "SpaceX IPO定价确定，散户配额待定",
+        "assets": "📈 SpaceX股票 利好",
+        "chain": "散户配额低→机构主导定价（承销商决定股价）→上市首日波动大",
+        "watch": "散户配售比例及首日交易量"
       }
     },
     {
@@ -24,69 +24,77 @@
       "score": 40,
       "insight": {
         "what": "韩国清算约15亿美元SpaceX IPO需求",
-        "assets": "📉 SpaceX未上市股权 承压",
-        "chain": "大额需求撤回→IPO认购倍数下降→估值可能回调（定价过高风险）",
-        "watch": "其他机构认购率及最终发行价调整"
+        "assets": "📉 SpaceX股票 利空",
+        "chain": "大额清算→需求骤降→IPO定价承压（买方力量减弱）",
+        "watch": "其他地区认购数据及最终定价"
       }
     },
     {
       "rank": 3,
+      "title": "“60后”姐夫携小舅子创业，给“芯片散热”年入7亿IPO",
+      "source": "市场资讯",
+      "detail": "来源：风云IPO 创业板 实控人IPO前夕套现1.15亿元。 作者|刘俊群 编辑|刘钦文 你手里那部手机、眼前这台电脑、数据中心里耗费高额电费、满载运行AI模型的服务器...",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "芯片散热公司年入7亿冲刺IPO",
+        "assets": "📈 A股散热概念 利好",
+        "chain": "散热需求增长→半导体产业链受益（上游材料/设备）→AI算力板块联动",
+        "watch": "IPO发行市盈率及募资用途"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Weekly mortgage demand surges nearly 11% higher, despite volatile interest rates",
       "source": "CNBC",
       "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates rose as well.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "房贷需求周环比激增近11%，无视利率波动",
-        "assets": "📈 美国房地产REITs 利好 📉 美债收益率 承压",
-        "chain": "房贷需求强→购房活动回暖→拉动经济（消费链）→降息预期降温（利率不跌反升风险）",
-        "watch": "30年期房贷利率及新屋销售数据"
+        "what": "房贷周申请量飙升近11%，无视利率波动",
+        "assets": "📈 美国房地产板块 利好",
+        "chain": "房贷需求增→住房市场回暖（库存消化）→消费信贷扩张（GDP拉动）",
+        "watch": "30年期房贷利率及成屋销售数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑因70亿美元融资计划暴跌，同时大秀AI服务器订单",
-        "assets": "📉 超微电脑股价 利空 📈 AI芯片股 利好",
-        "chain": "融资摊薄（每股收益下降）→短期抛压，但AI订单增长→长期看多逻辑不变（稀释后估值仍合理）",
-        "watch": "融资用途细节及AI订单交付时间表"
+        "what": "超微电脑宣布70亿美元融资计划，股价暴跌",
+        "assets": "📉 超微电脑 利空",
+        "chain": "融资稀释股权（增发股票摊薄每股收益）→AI服务器订单利好被对冲→科技硬件板块承压",
+        "watch": "融资定价及AI服务器订单执行情况"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic公开Mythos级AI模型，此前内部测试已震动华尔街",
-        "assets": "📈 AI概念股 利好 📉 传统软件股 承压",
-        "chain": "新模型能力升级→企业AI应用加速（降本增效）→挤压传统软件市场份额（替代效应）",
-        "watch": "模型用户数及API定价对比"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "日本央行行长植田和男入院治疗 预计将缺席6月份货币政策会议",
-      "source": "环球市场播报",
-      "detail": "据日本央行，行长植田和男已住院，预计将缺席下周的政策会议。 日本央行周三在声明中表示：“行长目前因肝囊肿感染住院治疗。预计他将住院约两周。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "日本央行行长植田和男入院，缺席6月货币政策会议",
-        "assets": "📉 日元 承压 📈 日经225 短期利好",
-        "chain": "行长缺席→政策决策不确定性→市场押注加息推迟（宽松预期）→日元贬值，股市受外资追捧",
-        "watch": "副行长言论及6月会议纪要措辞"
+        "what": "Anthropic发布类MythosAI模型，提前公测",
+        "assets": "📈 AI概念股 利好",
+        "chain": "新模型竞争→AI应用加速（企业降本增效）→算力需求激增（GPU/数据中心）",
+        "watch": "模型付费用户数及API调用量"
       }
     },
     {
       "rank": 7,
+      "title": "日本央行行长植田和男入院治疗 预计将缺席6月份货币政策会议",
+      "source": "环球市场播报",
+      "detail": "据日本央行，行长植田和男已住院，预计将缺席下周的政策会议。 日本央行周三在声明中表示：“行长目前因肝囊肿感染住院治疗。预计他将住院约两周。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "校车科创企业Zum启动IPO前期筹备",
       "source": "环球市场播报",
       "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
       "source": "环球市场播报",
       "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "ATFX:美国5月CPI数据来袭 主流预期通胀继续升温",
       "source": "市场资讯",
       "detail": "6月10日，ATFX：美国五月份的CPI数据，将会在北京时间20点30分。五月份CPI年率的预期值是4.2%，高于前值3.8%，市场预期通胀继续升温。",
       "lang": "zh",
       "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "Oil prices jump after Trump says Iran will 'pay the price' for failing at peace deal",
-      "source": "CNBC",
-      "detail": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
-      "lang": "en",
-      "score": 27
     }
   ]
 }
