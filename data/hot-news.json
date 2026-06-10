@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 18:16",
+  "updateTime": "2026-06-10 18:17",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO定价确定，散户配额未定",
+        "assets": "📈 SpaceX概念股 利好",
+        "chain": "定价明确降低不确定性，散户配额待定影响首日流动性（交易活跃度）",
+        "watch": "SEC文件确认散户分配比例"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "环球市场播报",
       "detail": " 一位知情人士周三透露，与SpaceX首次公开募股（IPO）相关的大规模外汇兑换需求已得到消化，此前数周这一需求曾对韩元构成沉重压力。",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "韩国清算约15亿美元SpaceX IPO需求",
+        "assets": "📉 SpaceX估值 承压",
+        "chain": "大额清算暗示需求不足，可能压低IPO定价（发行价）及后续估值",
+        "watch": "其他国家机构认购数据"
+      }
     },
     {
       "rank": 3,
@@ -23,7 +35,13 @@
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "超微电脑因70亿融资计划暴跌，但AI服务器订单强劲",
+        "assets": "📈 AI服务器板块 利好，📉 超微电脑 利空",
+        "chain": "融资稀释股权（每股价值降低）短期利空，但订单验证AI需求，利好英伟达等上游",
+        "watch": "超微电脑季度财报及融资用途"
+      }
     },
     {
       "rank": 4,
@@ -31,7 +49,13 @@
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Anthropic发布类Mythos开源AI模型，机构震动",
+        "assets": "📈 AI应用概念 利好，📉 OpenAI等闭源模型 承压",
+        "chain": "开源降低AI门槛，加速行业竞争，利好云计算（算力需求增加）",
+        "watch": "模型下载量及企业采用率"
+      }
     },
     {
       "rank": 5,
@@ -39,7 +63,13 @@
       "source": "环球市场播报",
       "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "校车科创企业Zum启动IPO筹备",
+        "assets": "📈 美股IPO市场 情绪提振",
+        "chain": "新经济IPO重启信号，利好一级市场（私募投资）及同类教育科技股",
+        "watch": "Zum招股书估值及路演反馈"
+      }
     },
     {
       "rank": 6,
@@ -47,7 +77,13 @@
       "source": "环球市场播报",
       "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "全球监管机构呼吁加强对AI智能体的管控",
+        "assets": "📉 AI概念股 承压",
+        "chain": "监管不确定性增加合规成本（法律支出），短期压制风险偏好，利好合规服务商",
+        "watch": "具体监管法案发布时间"
+      }
     },
     {
       "rank": 7,
