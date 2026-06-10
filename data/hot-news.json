@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 19:31",
+  "updateTime": "2026-06-10 19:35",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价完成，散户配售仍不确定",
-        "assets": "📈 太空概念股 利好；📉 私募市场SpaceX份额 承压",
-        "chain": "散户无法大规模参与，机构主导定价（压低初始估值），二级市场对标股（如ASTS）可能被炒作",
-        "watch": "SEC文件披露的最终配售比例"
+        "what": "SpaceX IPO定价确定，散户配售比例仍不确定",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
+        "chain": "散户准入受限可能推高机构需求，利好Pre-IPO基金（早期投资工具）和影子股（关联公司）。",
+        "watch": "散户配售比例及首日交易流动性"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "韩国金融界清算了约15亿美元SpaceX IPO需求",
-        "assets": "📉 韩国风险资产 流动性收紧；📈 美元兑韩元 走强",
-        "chain": "韩国机构抛售（撤单）反映监管或资金压力，可能引发亚太市场避险情绪（风险偏好下降）",
-        "watch": "韩国央行隔夜拆借利率及外资流向"
+        "what": "韩国清算约15亿美元SpaceX IPO相关需求",
+        "assets": "📉 SpaceX股票 承压；📉 韩国股市 承压",
+        "chain": "韩国机构抛售表明资金面收紧，可能引发亚洲科技股联动调整（beta效应）。",
+        "watch": "韩国资金流向及SpaceX认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "中国芯片散热公司年入7亿冲刺IPO",
-        "assets": "📈 A股半导体散热概念 利好；📈 科创板IPO活跃度 提振",
-        "chain": "国产替代逻辑强化（减少进口依赖），带动上游材料（导热硅脂）需求预期升温",
-        "watch": "证监会注册批复进度及可比公司估值"
+        "what": "60后创业者携亲属公司IPO，主营芯片散热年入7亿",
+        "assets": "📈 芯片散热概念股 利好；📈 半导体设备股 利好",
+        "chain": "散热需求随AI芯片功耗增长（TDP热设计功耗）而上升，利好液冷、热管等上游供应商。",
+        "watch": "IPO估值及行业可比公司毛利率"
       }
     },
     {
@@ -51,42 +51,50 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "美国房贷申请量周环比飙升近11%",
-        "assets": "📈 美国房地产板块 利好；📉 美国国债收益率 承压",
-        "chain": "利率波动下需求反弹（抄底情绪），若持续可能推高房价（通胀粘性），削弱降息预期",
-        "watch": "MBA抵押贷款购买指数及30年固定利率"
+        "what": "美国房贷申请量周环比飙升近11%，无视利率波动",
+        "assets": "📈 美国房地产股 利好；📈 抵押贷款支持证券（MBS） 利好",
+        "chain": "购房需求韧性暗示经济软着陆，可能推迟美联储降息（借钱成本降低）预期，利空债券。",
+        "watch": "30年期房贷利率及成屋销售数据"
       }
     },
     {
       "rank": 5,
+      "title": "苹果官宣AI升级+PCB涨价+芯片出口大增！电子三箭齐发，全年景气可期！半导体逆市领涨，海光信息涨超6%！",
+      "source": "新浪基金",
+      "detail": "或由于中东地缘扰动，叠加市场担忧将于当地时间周三出炉的美国5月CPI数据进一步走高，加剧美联储加息压力，今日（6月10日）市场盘整，A股三大指数悉数收绿...",
+      "lang": "zh",
+      "score": 35,
+      "insight": {
+        "what": "苹果AI升级+PCB涨价+芯片出口大增，电子板块领涨",
+        "assets": "📈 苹果供应链股 利好；📈 半导体ETF 利好；📈 PCB（印刷电路板）板块 利好",
+        "chain": "AI端侧（设备本地AI）需求拉动芯片和PCB（印刷电路板）订单，全年景气预期推高估值（PE市盈率）。",
+        "watch": "苹果AI功能落地进度及芯片出口数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑宣布70亿美元融资方案，股价暴跌",
-        "assets": "📉 超微电脑（SMCI） 利空；📈 英伟达AI服务器链 分化",
-        "chain": "股权稀释（每股收益下降）压低股价，但融资用于AI订单扩产，长期利好算力基础设施（数据中心）",
-        "watch": "融资具体债务/股权比例及后续订单公告"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
-      "source": "CNBC",
-      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "Anthropic向公众发布类MythosAI模型",
-        "assets": "📈 AI应用股（如C3.ai） 利好；📉 OpenAI/GPT竞品 承压",
-        "chain": "模型开源（降低使用成本）加速AI落地，利好企业级软件（自动化），但竞争加剧压缩头部公司利润",
-        "watch": "模型API定价及企业客户采用率数据"
+        "what": "Super Micro宣布70亿美元融资计划，股价暴跌",
+        "assets": "📉 Super Micro股票 利空；📉 AI服务器板块 承压",
+        "chain": "巨额融资稀释现有股东权益（每股收益下降），但资金用于AI服务器订单，长期利好数据中心上游。",
+        "watch": "融资用途细节及AI服务器订单交付率"
       }
     },
     {
       "rank": 7,
+      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
+      "source": "CNBC",
+      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "日本央行行长植田和男入院治疗 预计将缺席6月份货币政策会议",
       "source": "环球市场播报",
       "detail": "据日本央行，行长植田和男已住院，预计将缺席下周的政策会议。 日本央行周三在声明中表示：“行长目前因肝囊肿感染住院治疗。预计他将住院约两周。",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "校车科创企业Zum启动IPO前期筹备",
       "source": "环球市场播报",
       "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
       "source": "环球市场播报",
       "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
       "lang": "zh",
       "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "Oil prices jump after Trump says Iran will 'pay the price' for failing at peace deal",
-      "source": "CNBC",
-      "detail": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
-      "lang": "en",
-      "score": 27
     }
   ]
 }
