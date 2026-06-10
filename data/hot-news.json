@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 03:00",
+  "updateTime": "2026-06-11 03:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 82,
       "insight": {
-        "what": "华尔街需学习代币经济以应对AI IPO，SpaceX提供先例",
-        "assets": "📈 AI板块 利好",
-        "chain": "代币化（资产数字化）或成新融资工具，推高科技股估值泡沫风险",
-        "watch": "SEC对代币IPO的监管表态"
+        "what": "华尔街需学习代币经济应对AI IPO，SpaceX提供案例",
+        "assets": "📈 AI板块 利好\n📈 加密资产 利好",
+        "chain": "代币化（用代币代替股票）降低散户门槛，推高AI/太空股估值，但增加监管风险",
+        "watch": "SEC对代币发行的态度及AI公司招股书"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX独特IPO使对冲承压，类比做空NASA不现实",
-        "assets": "📈 SpaceX相关概念股 利好",
-        "chain": "高不确定性资产（如SpaceX）难对冲，或催生新衍生品（奇异期权）需求",
-        "watch": "SpaceX IPO估值及做空工具推出"
+        "what": "SpaceX独特IPO对冲难，类比做空NASA不现实",
+        "assets": "📉 SpaceX估值 承压\n📈 太空股波动性 上升",
+        "chain": "无传统对标（基准资产）导致做空（赌跌）成本高，期权（选择权）定价困难，波动率溢价（波动性风险补偿）上升",
+        "watch": "SpaceX二级市场交易价格及做空利率"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "参议员沃伦要求SEC推迟SpaceX IPO，质疑估值与治理",
-        "assets": "📉 SpaceX IPO预期 承压",
-        "chain": "政治干预延迟上市，打击风险偏好（投资者情绪），科技IPO整体或降温",
-        "watch": "SEC是否正式调查及IPO时间表"
+        "what": "参议员沃伦要求SEC延迟SpaceX IPO，质疑估值与治理",
+        "assets": "📉 SpaceX IPO进度 利空\n📉 太空板块 承压",
+        "chain": "监管延迟增加不确定性（风险溢价），可能压低一级市场估值，连带影响太空ETF（交易所交易基金）",
+        "watch": "SEC是否正式推迟及沃伦后续提案"
       }
     },
     {
@@ -51,42 +51,50 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "SailPoint股价暴跌后因证券违规遭股东调查",
-        "assets": "📉 SailPoint股票 承压",
-        "chain": "诉讼风险（集体诉讼）拖累股价，或引发网络安全板块抛售",
-        "watch": "调查进展及同行公司类似风险"
+        "what": "SailPoint股价大跌后因证券违规遭股东调查",
+        "assets": "📉 SailPoint股价 利空\n📉 网络安全板块 承压",
+        "chain": "集体诉讼（股东起诉）引发信任危机，做空机构可能加仓，同类高估值SaaS（软件即服务）股面临估值修正",
+        "watch": "诉讼进展及SailPoint财报修正"
       }
     },
     {
       "rank": 5,
+      "title": "Avis解约引发股价暴跌70%，Verra Mobility面临证券集体诉讼",
+      "source": "环球市场播报",
+      "detail": "智能出行技术提供商Verra Mobility Corporation（NASDAQ： VRRM）正面临证券欺诈集体诉讼。在最大商业客户Avis Budget Group终止合同、公司下调全年业绩指引...",
+      "lang": "zh",
+      "score": 35,
+      "insight": {
+        "what": "Avis解约致股价暴跌70%，Verra Mobility被集体诉讼",
+        "assets": "📉 Avis股价 利空\n📉 Verra Mobility 利空\n📉 租车/支付板块 承压",
+        "chain": "合同违约暴露收入集中风险（单一客户依赖），引发连锁抛售（margin call，追加保证金），后续可能波及支付处理商",
+        "watch": "Avis新合同签约及Verra诉讼和解概率"
+      }
+    },
+    {
+      "rank": 6,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "罕见衍生品押注SpaceX IPO成功：太空气体制造商",
-        "assets": "📈 太空气体公司 利好",
-        "chain": "关联资产（供应商）成间接对冲工具，推高小众行业（航天材料）投机",
-        "watch": "SpaceX IPO估值及气体公司订单"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Volatility surge has trader eyeing one 'stable' stock",
-      "source": "CNBC",
-      "detail": "Mike Khouw is looking for a stable, cash-generating business where he can sell volatility instead of buying drama.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "波动率飙升下，交易员关注一只‘稳定’股票",
-        "assets": "📈 防御性股票（如公用事业） 利好",
-        "chain": "恐慌情绪（VIX恐慌指数上升）驱动资金从高贝塔（高波动）转向低波动资产",
-        "watch": "VIX指数走势及防御板块资金流"
+        "what": "SpaceX IPO成功催生奇异衍生品：太空气体制造商",
+        "assets": "📈 太空气体公司 利好\n📈 SpaceX相关供应商 利好",
+        "chain": "衍生品（基于SpaceX成功设计的金融产品）吸引投机资金，推高上游材料（氦气、推进剂）期货（远期合约）价格",
+        "watch": "太空气体公司订单及氦气期货报价"
       }
     },
     {
       "rank": 7,
+      "title": "Volatility surge has trader eyeing one 'stable' stock",
+      "source": "CNBC",
+      "detail": "Mike Khouw is looking for a stable, cash-generating business where he can sell volatility instead of buying drama.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "SpaceX的IPO认购需求据悉超过发行规模四倍",
       "source": "环球市场播报",
       "detail": "据知情人士透露，在停止接受认购前，SpaceX首次公开募股（IPO）的认购规模已超过可供发行股份的四倍。 知情人士此前表示，负责承销的投行预计将在周三纽约市场下午4点收盘...",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "欧洲股市持稳 市场静候欧洲央行利率决议",
       "source": "环球市场播报",
       "detail": "欧洲股市表现平淡，美国一项关键通胀报告令投资者稍感宽慰，市场注意力转向欧洲央行的利率决议。 斯托克欧洲600指数收盘基本持平，抹去盘中一度高达1%的跌幅。",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Dow tumbles 700 points as oil jumps on Trump Iran threat, chip stocks continue falling: Live updates",
       "source": "CNBC",
       "detail": "U.S. forces launched “self-defense strikes” against Iran on Tuesday in retaliation for the downing of a helicopter, pushing up crude oil prices.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "Federated Hermes市政收益基金宣布月度分红，每股派息0.045美元",
-      "source": "环球市场播报",
-      "detail": "Federated Hermes Premier Municipal Income Fund于6月10日宣布，该基金将于2026年7月1日向股东派发每股0.045美元的月度股息。基金旨在为投资者提供免征常规联邦所得税及替...",
-      "lang": "zh",
-      "score": 28
     }
   ]
 }
