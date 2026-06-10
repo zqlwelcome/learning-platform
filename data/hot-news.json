@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 17:15",
+  "updateTime": "2026-06-10 17:21",
   "news": [
     {
       "rank": 1,
@@ -9,84 +9,92 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "东北证券称美联储年内加息概率低，但降息预期反复",
-        "assets": "📉 美元 承压，📈 美债 利好，📉 美股 短期波动",
-        "chain": "降息预期减弱推高短端利率（短期借贷成本），压制成长股估值（未来现金流折现率上升）",
-        "watch": "下周CPI（消费者物价指数）及PCE（个人消费支出）数据"
+        "what": "东北证券称美联储年内加息可能性低，降息预期反复",
+        "assets": "📉 美元指数 承压，📈 美股成长股 利好",
+        "chain": "降息预期（借钱成本降低）提振风险偏好，资金从避险资产（如美债）流向股市",
+        "watch": "美联储官员讲话及CPI（通胀）数据"
       }
     },
     {
       "rank": 2,
+      "title": "China May wholesale inflation hits near 4-year high on Iran war-led higher input costs, AI boom   ",
+      "source": "CNBC",
+      "detail": "The Middle East conflict has given China's economy a reflationary boost as energy and raw material disruptions deepened.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "中国5月PPI（工业品出厂价格）近4年新高，因伊朗战争推高成本及AI需求",
+        "assets": "📈 中国工业品 利好，📉 中国制造业利润 承压",
+        "chain": "输入性通胀（进口成本上升）挤压中游企业毛利，但AI相关上游（如芯片）受益",
+        "watch": "中国6月PPI及伊朗局势"
+      }
+    },
+    {
+      "rank": 3,
       "title": "美股 IPO 热潮或将终结美股流通股本持续缩减的局面",
       "source": "环球市场播报",
       "detail": " 随着三家巨头企业启动大规模首次公开募股，海量新股涌入市场，美股长达二十余年的股票供给收缩态势即将告终。投资者警示，这可能超出市场承接能力。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美股IPO热潮或结束流通股本缩减趋势",
-        "assets": "📈 美股大盘 中性偏空，📉 小盘股 承压",
-        "chain": "股本缩减减少供给（股票数量变少），但IPO增加稀释（每股价值下降），影响指数权重",
-        "watch": "未来3个月IPO定价规模及上市后锁定期（禁止卖出期）结束"
+        "what": "美股IPO热潮可能终结流通股本缩减趋势",
+        "assets": "📉 美股大盘 承压，📈 IPO相关个股 利好",
+        "chain": "新股供应增加稀释现有股票价值（股本扩张），压制指数上行空间",
+        "watch": "未来IPO募资规模及上市节奏"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户配售仍不确定",
-        "assets": "📈 SpaceX 潜在利好，📉 太空概念股 短期承压",
-        "chain": "零售资金（散户资金）分流至IPO，可能从其他科技股抽血（资金转移），推高波动率",
-        "watch": "SpaceX路演（向投资者推销股票）认购倍数及最终定价"
+        "what": "SpaceX IPO定价已定，但散户配售比例仍不确定",
+        "assets": "📈 SpaceX相关概念股 利好，📉 二级市场资金 分流",
+        "chain": "散户抢购IPO可能抽离存量资金（流动性挤压），尤其科技板块",
+        "watch": "SpaceX最终配售规则及认购倍数"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "知情人士：韩国已消化与SpaceX IPO相关的约15亿美元买需",
       "source": "环球市场播报",
       "detail": " 一位知情人士周三表示，与SpaceX首次公开发行（IPO）相关的大规模外汇兑换需求已得到消化，此前这些需求在过去几周对韩元造成了沉重压力。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "韩国消化约15亿美元SpaceX IPO买需",
-        "assets": "📈 韩国股市 资金外流压力，📉 韩元 短期承压",
-        "chain": "海外IPO抽走韩国内需流动性（可投资资金），可能导致韩股短期回调",
-        "watch": "韩国央行外汇干预数据及外资流向"
+        "what": "韩国已消化约15亿美元SpaceX IPO买需",
+        "assets": "📈 韩国股市 承压，📉 韩元 支撑减弱",
+        "chain": "韩国外资流出参与IPO，减少本土市场流动性（资金外流），韩元需求下降",
+        "watch": "韩国资本流动数据及SpaceX申购截止日"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "投资者锁定人工智能板块利润并备战SpaceX首次公开募股 美股科技板块遭遇持续抛售",
       "source": "环球市场播报",
       "detail": "受到投资者大举调整人工智能（AI）板块仓位，以及集中资金备战本周即将进行的美国太空探索技术公司（SpaceX）历史性首次公开募股（IPO）影响...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "科技股遭抛售，资金转向备战SpaceX IPO",
-        "assets": "📉 美股科技板块 利空，📈 太空概念股 利好",
-        "chain": "利润锁定触发踩踏（恐慌性卖出），SpaceX IPO吸引避险资金，加剧板块轮动（资金从科技转向太空）",
-        "watch": "纳斯达克100指数（科技股指数）支撑位及VIX（恐慌指数）"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "A股年内市值增减TOP10：建行市值破2.7万亿再创新高 中际旭创暴涨6000亿领跑",
-      "source": "新浪财经",
-      "detail": "6月10日，A股市场大金融领涨，建设银行盘中大涨再创历史新高总市值突破2.74万亿元，一跃成为A股新晋“股王”。中际旭创年内市值暴涨超6000亿元...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "A股市值变化：建行创新高，中际旭创暴涨领跑",
-        "assets": "📈 A股银行板块 利好，📈 光通信/算力 利好",
-        "chain": "银行股上涨反映避险情绪（资金寻求低波动），科技股暴涨显示AI（人工智能）产业链热度",
-        "watch": "建行股息率（分红与股价比）及中际旭创订单数据"
+        "what": "投资者抛售科技股，锁定AI利润备战SpaceX IPO",
+        "assets": "📉 美股科技股 承压，📈 SpaceX IPO 利好",
+        "chain": "资金从高风险AI板块轮动至IPO（新股申购），科技板块短期超卖（过度下跌）",
+        "watch": "科技板块RSI（相对强弱指标）及SpaceX上市后表现"
       }
     },
     {
       "rank": 7,
+      "title": "A股年内市值增减TOP10：建行市值破2.7万亿再创新高 中际旭创暴涨6000亿领跑",
+      "source": "新浪财经",
+      "detail": "6月10日，A股市场大金融领涨，建设银行盘中大涨再创历史新高总市值突破2.74万亿元，一跃成为A股新晋“股王”。中际旭创年内市值暴涨超6000亿元...",
+      "lang": "zh",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
       "source": "CNBC",
       "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
@@ -102,18 +110,10 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "能源价格上涨推高通胀预期 美国5月CPI同比涨幅预计创三年新高",
       "source": "环球市场播报",
       "detail": "综合外电报道，美国劳工部即将于当地时间周三公布5月份消费者价格指数（CPI）。市场主流经济学家普遍预测，受国际地缘冲突及能源价格飙升等因素影响...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "“4字头”通胀要来了？今晚八点半 全球市场“决战”美国CPI……",
-      "source": "滚动播报",
-      "detail": "来源：财联社 财联社6月10日讯（编辑 潇湘）上周五，一份火热到爆表的美国非农就业数据，可以说成为了美股乃至全球市场投资者眼中最大的“梦魇”。",
       "lang": "zh",
       "score": 30
     }
