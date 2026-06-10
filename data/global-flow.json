@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 10:06",
+  "updateTime": "2026-06-10 10:11",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,64 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3996.96",
-      "change": "-0.33"
+      "value": "3992.54",
+      "change": "-0.44"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24402.650",
-      "change": "-0.66"
+      "value": "24348.990",
+      "change": "-0.88"
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "半导体",
-      "code": "BK1036",
-      "index": 2821.33,
-      "change": 0.28,
-      "flow": 1567289600.0,
-      "flow_str": "+15.67亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备",
-      "code": "BK1326",
-      "index": 45704.44,
-      "change": 1.42,
-      "flow": 1285148576.0,
-      "flow_str": "+12.85亿",
-      "direction": "in"
-    },
-    {
-      "name": "数字芯片设计",
-      "code": "BK1331",
-      "index": 26553.36,
-      "change": -0.36,
-      "flow": 1000479232.0,
-      "flow_str": "+10.00亿",
-      "direction": "in"
-    },
-    {
-      "name": "锂",
-      "code": "BK1621",
-      "index": 18874.76,
-      "change": 1.31,
-      "flow": 562483984.0,
-      "flow_str": "+5.62亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信服务",
-      "code": "BK0736",
-      "index": 1154.21,
-      "change": 0.05,
-      "flow": 515934176.0,
-      "flow_str": "+5.16亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -82,8 +36,8 @@
   },
   "bank_news": [
     {
-      "title": "9月加息？华尔街开始押注美联储极限紧缩剧本……",
-      "source": "市场资讯",
+      "title": "美国5月通胀恐重回“4时代”！华尔街降息梦碎，美联储或被迫重拾“加息大棒”",
+      "source": "智通财经APP",
       "keyword": "美联储"
     }
   ]

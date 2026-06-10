@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-10 10:06",
+  "updateTime": "2026-06-10 10:11",
   "news": [
     {
       "rank": 1,
-      "title": "China May wholesale inflation hits near 4-year high on Iran war, AI costs; CPI misses   ",
-      "source": "CNBC",
-      "detail": "Price growth has been boosted by a surge in global commodity costs, as the Middle East conflict disrupted energy and raw material flows.",
-      "lang": "en",
-      "score": 77,
+      "title": "美国5月通胀恐重回“4时代”！华尔街降息梦碎，美联储或被迫重拾“加息大棒”",
+      "source": "智通财经APP",
+      "detail": "随着美国消费者的生活成本持续攀升，周三公布的通胀数据预计将突破另一个令人不悦的门槛。如果华尔街的共识预测准确，5月份美国 CPI 预计环比将上涨0.5%...",
+      "lang": "zh",
+      "score": 54,
       "insight": {
-        "what": "中国5月PPI（生产者价格指数）创近4年新高，CPI（消费者价格指数）不及预期",
-        "assets": "📈 工业品期货 利好，📉 消费类股票 承压",
-        "chain": "PPI高企压缩下游利润（企业成本增加），但CPI弱暗示内需不足，央行可能宽松（放水刺激经济）",
-        "watch": "6月PMI（采购经理指数）和工业利润数据"
+        "what": "美国5月通胀数据可能超预期回升至4%",
+        "assets": "📉 美股 承压；📈 美元指数 利好",
+        "chain": "通胀超预期→加息预期升温→风险资产（股票）估值承压→资金流入避险美元",
+        "watch": "下周三CPI（消费者物价指数）实际数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，但散户配额仍不确定",
-        "assets": "📈 太空概念股 利好，📉 散户交易平台 承压",
-        "chain": "IPO定价推高估值（公司价值），若散户配额少，资金可能转向相关ETF（交易所交易基金）套利",
-        "watch": "SEC（美国证监会）审批进度和最终分配方案"
+        "what": "SpaceX IPO定价已定，散户配售仍不确定",
+        "assets": "📈 太空概念股 情绪利好；📉 散户交易平台 不确定性",
+        "chain": "IPO定价明确→二级市场（交易所）对标估值（如卫星、航天公司）可能重估→散户资金分流",
+        "watch": "SEC（美国证监会）批准进度及最终配售比例"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "华尔街押注美联储9月加息，极限紧缩剧本再现",
-        "assets": "📉 美股大盘 承压，📈 美元指数 利好",
-        "chain": "加息预期推高美债收益率（借钱成本），压制科技股估值，资金流向防御板块（如公用事业）",
-        "watch": "本周美联储官员讲话和5月PCE（个人消费支出物价指数）数据"
+        "what": "华尔街开始押注美联储9月加息",
+        "assets": "📉 美债 承压；📈 美元 走强",
+        "chain": "加息预期→短端利率（如2年期国债收益率）飙升→压制成长股（高估值科技股）估值",
+        "watch": "联邦基金利率期货（预测加息概率的工具）9月合约定价"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Super Micro融资70亿美元股价暴跌，但AI服务器订单强劲",
-        "assets": "📉 Super Micro股票 利空，📈 AI芯片股 利好",
-        "chain": "融资稀释股权（每股价值下降），但订单验证AI需求，可能带动英伟达等上游供应商",
-        "watch": "融资用途细节和未来订单交付节奏"
+        "what": "Super Micro因70亿美元融资计划股价暴跌",
+        "assets": "📉 Super Micro 利空；📉 AI服务器板块 拖累",
+        "chain": "大规模融资→稀释现有股东权益（每股价值下降）→市场担忧现金流压力→拖累同类AI硬件股",
+        "watch": "公司Q2财报中订单转化率和毛利率"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic公开发布Mythos级AI模型，此前私下测试已震动华尔街",
-        "assets": "📈 AI软件股 利好，📉 传统科技股 承压",
-        "chain": "模型能力超预期加速AI应用（如自动化编程），挤压传统软件公司市场，推高算力需求",
-        "watch": "模型API（应用程序接口）定价和客户采用率"
+        "what": "Anthropic公开发布类似Mythos的AI模型",
+        "assets": "📈 AI概念股 利好；📉 传统软件股 承压",
+        "chain": "新模型落地→AI应用加速→资金从传统SaaS（软件即服务）转向AI基础设施（如GPU、云服务）",
+        "watch": "模型用户增长数据和API调用量"
       }
     },
     {
@@ -79,14 +79,22 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Jim Cramer称科技股已失去领涨特质，不再是市场龙头",
-        "assets": "📉 科技板块 承压，📈 价值股（如能源、金融） 利好",
-        "chain": "资金轮动（从高估值转向低估值），若科技盈利预期下调，可能引发板块深度回调",
-        "watch": "科技股财报季指引和资金流向周报"
+        "what": "Jim Cramer称科技股失去领涨特质",
+        "assets": "📉 美股科技股 承压；📈 防御性板块（公用事业、医疗） 利好",
+        "chain": "科技股动能减弱→资金轮动（rotation）至防御板块→指数（如纳斯达克）短期回调风险",
+        "watch": "纳斯达克100指数相对强弱指标（RSI，衡量超买超卖）"
       }
     },
     {
       "rank": 7,
+      "title": "国家统计局董莉娟解读5月CPI和PPI数据：2026年5月份CPI总体平稳 PPI继续上涨",
+      "source": "国家统计局网站",
+      "detail": "国家统计局城市司首席统计师董莉娟解读2026年5月份CPI和PPI数据 2026年5月份CPI总体平稳 PPI继续上涨 ——国家统计局城市司首席统计师董莉娟解读2026年5月份CPI和PPI数据...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "范式智能拟申请首次公开发行A股并在深交所创业板上市",
       "source": "新浪港股",
       "detail": "范式智能（06682）公布，公司计划申请首次公开发行人民币普通股（A股）股票并在深圳证券交易所创业板上市。本次发行的股票种类为人民币普通股（A股），每股面值为人民币1...",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
       "source": "CNBC",
       "detail": "The S&P 500 and Nasdaq Composite fell in Tuesday's trading as chip stocks went back to their losing ways.",
@@ -102,18 +110,10 @@
       "score": 27
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "软银寻求60亿美元OpenAI保证金贷款的计划陷入停滞",
       "source": "环球市场播报",
       "detail": "据媒体周三援引消息人士报道，软银集团正与潜在债权人就通过其持有的OpenAI股份作为抵押的保证金贷款筹集至少60亿美元一事进行的谈判，已陷入僵局。",
-      "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "港股芯片股盘初拉升，天数智芯涨超11%",
-      "source": "新浪港股",
-      "detail": "港股芯片股盘初拉升，天数智芯涨超11%，壁仞科技升逾8%，华虹宏力升逾5%，中芯国际涨近3%。 消息面上，上海两大国产GPU企业壁仞科技和天数智芯被纳入港股通标的名单...",
       "lang": "zh",
       "score": 25
     }
