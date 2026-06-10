@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 00:00",
+  "updateTime": "2026-06-11 00:15",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 30,
       "insight": {
         "what": "PVH面临投资者欺诈调查",
-        "assets": "📉 PVH股价 利空",
-        "chain": "诉讼风险压制估值，可能拖累零售板块情绪（行业联动效应）",
-        "watch": "案件是否进入集体诉讼阶段"
+        "assets": "📉 PVH股价 承压",
+        "chain": "可能引发做空机构关注，拖累同类服装股（板块联动效应）",
+        "watch": "PVH是否披露调查细节及股价波动"
       }
     },
     {
@@ -23,14 +23,28 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "Federated Hermes市政债基金月度分红0.045美元",
-        "assets": "📈 市政债基金 利好",
-        "chain": "稳定派息吸引避险资金，短期压低国债收益率（资金轮动）",
-        "watch": "基金资产净值变化及赎回率"
+        "what": "Federated市政基金宣布月度分红0.045美元",
+        "assets": "📈 市政债基金 中性偏利好",
+        "chain": "稳定派息提升固收类资产吸引力，可能分流部分风险资产（资金轮动）",
+        "watch": "市政债ETF资金流入情况"
       }
     },
     {
       "rank": 3,
+      "title": "Appian最新调查：美国公共部门AI应用进入深化阶段",
+      "source": "环球市场播报",
+      "detail": "Appian于6月10日发布的一项最新调查显示，美国公共部门的人工智能应用正从实验性试点转向实际的政府运营部署。这项针对2000名美国公共部门员工的调查发现...",
+      "lang": "zh",
+      "score": 27,
+      "insight": {
+        "what": "美国公共部门AI应用深化",
+        "assets": "📈 AI软件股 利好",
+        "chain": "政府订单增加预期，带动云计算和数据分析需求（B2G业务增长）",
+        "watch": "Palantir等政府合同商财报"
+      }
+    },
+    {
+      "rank": 4,
       "title": "调查显示：半数美国人向AI寻求医疗建议，多数人信任AI给出的指导",
       "source": "环球市场播报",
       "detail": "eHealth最新发布的调查数据显示，人工智能正日益成为美国人寻求医疗建议的重要渠道。在参与调查的1000多名美国受访者中，有49%的人表示曾使用AI工具获取医疗建议...",
@@ -38,37 +52,23 @@
       "score": 27,
       "insight": {
         "what": "半数美国人向AI寻求医疗建议",
-        "assets": "📈 AI医疗概念股 利好",
-        "chain": "AI应用场景拓宽，医疗数据需求上升，利好AI芯片（算力产业链）",
-        "watch": "FDA对AI医疗的监管动向"
+        "assets": "📈 AI医疗股 利好",
+        "chain": "加速医疗AI商业化，推动诊断软件和健康平台（AI+医疗赛道）",
+        "watch": "FDA对AI医疗产品的审批动态"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "indie公司推出边缘AI芯片，助力汽车与人形机器人感知系统",
       "source": "环球市场播报",
       "detail": "汽车半导体解决方案创新企业indie Semiconductor近日发布其下一代边缘人工智能系统级芯片iND881。该芯片集成了AI计算引擎，旨在为汽车和机器人领域的智能摄像头提供强大算...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "indie推出边缘AI芯片用于汽车与人形机器人",
-        "assets": "📈 边缘AI芯片股 利好",
-        "chain": "自动驾驶及机器人算力成本下降，加速商用落地（颠覆传统GPU依赖）",
-        "watch": "客户订单及量产时间表"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "5天大跌40%！北交所 \"金刚石第一股\"，股价过山车！曾4天斩获2个30cm涨停！又搭上比亚迪了！",
-      "source": "市场资讯",
-      "detail": "来源：上市之家 继4天录得2个30cm涨停、8个交易日暴涨超160%后，北交所 “金刚石第一股”惠丰钻石（920725.BJ）近期遭遇剧烈回调。 6月10日，该股大跌13.35%，报收64...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "金刚石第一股5天暴跌40%后搭上比亚迪",
-        "assets": "📉 北交所小盘股 利空",
-        "chain": "游资炒作退潮，消息面驱动反弹不可持续，警惕流动性风险（散户踩踏）",
-        "watch": "比亚迪合作公告细节及成交量变化"
+        "what": "indie推出边缘AI芯片用于汽车及机器人",
+        "assets": "📈 边缘计算芯片 利好",
+        "chain": "替代传统云端推理，利好自动驾驶和人形机器人产业链（低延迟需求）",
+        "watch": "英伟达等对手是否跟进同类产品"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "2026年5月通胀数据图表发布",
-        "assets": "📈 美债收益率 承压",
-        "chain": "若通胀回落，强化降息预期（借钱成本降低），利好成长股（估值修正）",
-        "watch": "核心PCE及美联储点阵图"
+        "what": "2026年5月通胀数据图表显示趋势",
+        "assets": "📈 美债 利空 / 📉 美联储降息预期 降温",
+        "chain": "通胀粘性强化紧缩预期，压制风险资产估值（利率敏感型）",
+        "watch": "核心PCE（个人消费支出物价指数）月率是否超预期"
       }
     },
     {
@@ -103,7 +103,7 @@
     },
     {
       "rank": 9,
-      "title": "North Carolina Treasurer passes on SpaceX citing valuation concerns; favors OpenAI, Anthropic",
+      "title": "North Carolina treasurer passes on SpaceX citing valuation concerns; favors OpenAI, Anthropic",
       "source": "CNBC",
       "detail": "North Carolina has invested heavily in AI startups OpenAI and Anthropic while avoiding a direct stake in SpaceX.",
       "lang": "en",
