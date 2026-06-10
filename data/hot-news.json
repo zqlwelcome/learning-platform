@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 23:45",
+  "updateTime": "2026-06-10 23:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储官员暗示加息可能，因物价持续上涨",
-        "assets": "📉 美股大盘 承压; 📈 美元指数 走强; 📉 美债（美国国债）价格 下跌",
-        "chain": "加息预期推高无风险利率（国债收益率），压制风险资产（股票、高息债）估值",
-        "watch": "下次CPI（消费者物价指数）数据及联储点阵图（利率预测）"
+        "what": "美联储暗示加息可能性，通胀压力未消",
+        "assets": "📉 美股科技股 承压，📈 美元指数 走强",
+        "chain": "加息预期推高美债收益率（无风险利率），压制成长股估值，新兴市场资金外流",
+        "watch": "下次CPI（消费者物价指数）数据和美联储会议纪要"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "PVH投资者可参与Schall律所发起的欺诈调查",
-        "assets": "📉 PVH（服装集团）股价 承压",
-        "chain": "集体诉讼风险增加，可能引发资金流出及管理层分心，影响财报",
-        "watch": "诉讼进展及PVH是否发布澄清公告"
+        "what": "PVH股东欺诈调查启动，律所介入",
+        "assets": "📉 PVH（服装集团）股价 利空",
+        "chain": "集体诉讼风险增加，短期投资者情绪恶化，可能拖累消费板块",
+        "watch": "法院是否受理及公司回应公告"
       }
     },
     {
       "rank": 3,
+      "title": "Federated Hermes市政收益基金宣布月度分红，每股派息0.045美元",
+      "source": "环球市场播报",
+      "detail": "Federated Hermes Premier Municipal Income Fund于6月10日宣布，该基金将于2026年7月1日向股东派发每股0.045美元的月度股息。基金旨在为投资者提供免征常规联邦所得税及替...",
+      "lang": "zh",
+      "score": 28,
+      "insight": {
+        "what": "市政收益基金月度分红每股0.045美元",
+        "assets": "📈 市政债券ETF 中性偏利好",
+        "chain": "稳定分红吸引避险资金（追求固定收益），但派息率低，对高收益债（风险债券）无影响",
+        "watch": "基金资产净值（NAV）变化和再投资率"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Oil prices rises after Trump says Iran will 'pay the price' for failing at peace deal",
       "source": "CNBC",
       "detail": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普威胁伊朗为和平协议失败‘付出代价’，油价上涨",
-        "assets": "📈 原油 上涨; 📈 能源股 利好; 📉 航空股 承压",
-        "chain": "地缘溢价（冲突风险带来的额外油价）推高能源成本，打击下游消费及运输业",
-        "watch": "伊朗是否反击或霍尔木兹海峡（关键输油通道）动向"
+        "what": "特朗普威胁伊朗，油价因地缘风险上涨",
+        "assets": "📈 原油 利好，📈 能源股 利好",
+        "chain": "油价上涨推升通胀预期（物价成本），利空航空/运输股，利好产油国货币",
+        "watch": "伊朗核谈判进展及美国战略储备释放情况"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "indie公司推出边缘AI芯片，助力汽车与人形机器人感知系统",
       "source": "环球市场播报",
       "detail": "汽车半导体解决方案创新企业indie Semiconductor近日发布其下一代边缘人工智能系统级芯片iND881。该芯片集成了AI计算引擎，旨在为汽车和机器人领域的智能摄像头提供强大算...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "indie推出边缘AI芯片，用于汽车和人形机器人",
-        "assets": "📈 边缘AI芯片股 利好; 📈 自动驾驶/机器人概念 利好",
-        "chain": "边缘计算（本地处理数据）降低延迟和云端依赖，加速AI硬件落地",
-        "watch": "indie芯片量产时间及大客户订单公告"
+        "what": "indie推出边缘AI芯片，主攻汽车和机器人",
+        "assets": "📈 边缘AI芯片股 利好，📈 自动驾驶概念 利好",
+        "chain": "降低终端设备对云端依赖（延迟减少），利好汽车电子供应链，利空传统MCU（微控制器）厂商",
+        "watch": "客户订单公告及与英伟达/高通竞争动态"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "5天大跌40%！北交所 \"金刚石第一股\"，股价过山车！曾4天斩获2个30cm涨停！又搭上比亚迪了！",
       "source": "市场资讯",
       "detail": "来源：上市之家 继4天录得2个30cm涨停、8个交易日暴涨超160%后，北交所 “金刚石第一股”惠丰钻石（920725.BJ）近期遭遇剧烈回调。 6月10日，该股大跌13.35%，报收64...",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "北交所金刚石股5天暴跌40%，此前曾因比亚迪概念暴涨",
-        "assets": "📉 北交所小盘股 承压; 📉 金刚石概念 回调",
-        "chain": "游资（短线热钱）快进快出导致流动性枯竭（没人接盘），引发踩踏（恐慌抛售）",
-        "watch": "北交所监管是否出手及比亚迪合作公告真实性"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Here's the inflation breakdown for May 2026 — in one chart",
-      "source": "CNBC",
-      "detail": "Inflation jumped to a three-year high in May as the Iran war continued to fuel higher energy prices.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "2026年5月通胀数据图表显示各分项变化",
-        "assets": "📈 通胀敏感资产（TIPS（通胀保值国债）） 利好; 📉 长期美债 承压",
-        "chain": "核心通胀（剔除食品能源）若超预期，将强化加息预期，压缩成长股估值",
-        "watch": "核心CPI环比及薪资增速数据"
+        "what": "北交所金刚石股5日跌40%，此前暴涨搭上比亚迪",
+        "assets": "📉 北交所小盘股 承压，📉 金刚石概念 利空",
+        "chain": "游资获利了结（短线资金撤退），情绪传导至同板块高位股，比亚迪合作利好已被消化",
+        "watch": "龙虎榜资金流向及公司是否有澄清公告"
       }
     },
     {
       "rank": 7,
+      "title": "Here's the inflation breakdown for May 2026 — in one chart",
+      "source": "CNBC",
+      "detail": "Inflation jumped to a three-year high in May as the Iran war continued to fuel higher energy prices.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 8,
       "title": "Dow falls 500 points on chip sell-off, Trump Iran threat and 3-year inflation high: Live updates",
       "source": "CNBC",
       "detail": "U.S. forces launched “self-defense strikes” against Iran on Tuesday in retaliation for the downing of a helicopter, pushing up crude oil prices.",
@@ -94,7 +102,7 @@
       "score": 20
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Palantir's Karp says businesses are 'unhappy' with the frontier AI labs",
       "source": "CNBC",
       "detail": "Palantir CEO Alex Karp says AI will drive the most important political decisions in the U.S. and shouldn't be decided by party lines.",
@@ -102,18 +110,10 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Private credit lenders say their big software bet faces an AI reckoning — but not a ‘SaaSpocalypse'",
       "source": "CNBC",
       "detail": "Private credit's exposure to software is being tested by AI, as lenders look past “SaaSpocalypse” fears to identify winners and losers.",
-      "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "North Carolina Treasurer passes on SpaceX citing valuation concerns; favors OpenAI, Anthropic",
-      "source": "CNBC",
-      "detail": "North Carolina has invested heavily in AI startups OpenAI and Anthropic while avoiding a direct stake in SpaceX.",
       "lang": "en",
       "score": 20
     }
