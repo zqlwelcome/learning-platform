@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 18:21",
+  "updateTime": "2026-06-10 18:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，散户配售不确定",
-        "assets": "📈 太空概念股 利好，📉 未上市科技公司 承压",
-        "chain": "定价吸引资金涌入，散户配售不确定性可能引发短期波动（价格震荡）",
-        "watch": "散户配售比例及首日交易量"
+        "what": "SpaceX IPO定价，散户分配仍不确定",
+        "assets": "📈 SpaceX 利好",
+        "chain": "若散户参与度高，推高首日涨幅，带动太空概念股（如Virgin Galactic）",
+        "watch": "IPO首日开盘价及散户配售比例"
       }
     },
     {
@@ -23,42 +23,56 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "韩国清算约15亿美元SpaceX IPO需求",
-        "assets": "📉 韩元 承压，📈 美元 利好",
-        "chain": "资金流出韩国，推高美元需求，可能压制韩元汇率（汇率走弱）",
-        "watch": "韩国外汇储备及资本流动数据"
+        "what": "韩国清算15亿美元SpaceX IPO相关需求",
+        "assets": "📉 SpaceX 承压",
+        "chain": "大单撤资暗示机构需求不足，可能压低IPO定价或首日表现",
+        "watch": "SpaceX最终发行价及超额认购倍数"
       }
     },
     {
       "rank": 3,
+      "title": "观点汇总｜东北证券廖博：人民币升值、中国资产重估、AI军备竞赛共振，A股向上窗口已开启",
+      "source": "新浪证券",
+      "detail": "6月10日，纳指暴跌、全球市场联动回调，美联储降息预期反复，市场拐点在哪？如何找准攻防主线？新浪证券对话东北证券宏观首席分析师廖博为投资者深度解析。",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "东北证券廖博：人民币升值、AI共振，A股向上",
+        "assets": "📈 人民币 利好 📈 A股 利好 📈 AI概念股 利好",
+        "chain": "人民币升值（本币走强）吸引外资流入，AI军备竞赛（科技竞争）推高科技板块估值",
+        "watch": "人民币兑美元汇率能否突破7.0关键位"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑因70亿美元融资计划股价下跌",
-        "assets": "📉 超微电脑股票 利空，📈 AI服务器板块 分化",
-        "chain": "融资稀释股权，但AI订单利好可能被市场消化为长期增长（估值调整），拖累科技硬件股",
-        "watch": "融资完成后的订单确认及毛利率"
+        "what": "超微电脑因70亿融资计划股价暴跌，同时宣布AI订单",
+        "assets": "📉 超微电脑 利空 📈 AI服务器板块 利好",
+        "chain": "融资稀释（增发股票）短期打压股价，但AI订单证实需求，或带动同行如戴尔、惠普",
+        "watch": "超微电脑融资后负债率和AI订单执行进度"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic向公众发布类似Mythos的AI模型",
-        "assets": "📈 AI概念股 利好，📉 传统软件 承压",
-        "chain": "模型公开加剧AI竞争，加速企业采用（技术渗透），利好算力需求，利空传统软件商",
-        "watch": "模型用户增长及API收入数据"
+        "what": "Anthropic发布Mythos级AI模型，两个月前已震动华尔街",
+        "assets": "📈 AI行业 利好",
+        "chain": "新模型强化AI能力，可能加速企业采用，利好英伟达等算力股（GPU需求）",
+        "watch": "模型付费用户数及企业合同签约量"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "校车科创企业Zum启动IPO前期筹备",
       "source": "环球市场播报",
       "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
@@ -66,27 +80,21 @@
       "score": 30,
       "insight": {
         "what": "校车科创企业Zum启动IPO前期筹备",
-        "assets": "📈 教育科技板块 利好，📉 传统校车公司 承压",
-        "chain": "IPO信号提振教育科技估值，可能引发跟风上市（IPO窗口），分流资金",
-        "watch": "Zum估值及监管审批进展"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
-      "source": "环球市场播报",
-      "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "全球监管机构呼吁加强AI智能体管控",
-        "assets": "📉 AI概念股 利空，📈 网络安全 利好",
-        "chain": "监管不确定性压制AI投资情绪，但推动合规需求（行业洗牌），利好安全服务商",
-        "watch": "具体监管草案及执行时间表"
+        "assets": "📈 校车科技股 利好",
+        "chain": "IPO启动信号提振电动校车板块，可能带动同行如Blue Bird（传统校车转型）",
+        "watch": "Zum招股书披露的营收增长率和客户数量"
       }
     },
     {
       "rank": 7,
+      "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
+      "source": "环球市场播报",
+      "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "能源价格上涨推高通胀预期 美国5月CPI同比涨幅预计创三年新高",
       "source": "环球市场播报",
       "detail": "综合外电报道，美国劳工部即将于当地时间周三公布5月份消费者价格指数（CPI）。市场主流经济学家普遍预测，受国际地缘冲突及能源价格飙升等因素影响...",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "SoftBank sinks over 8% as Asia tech stocks tumble, tracking Wall Street losses",
       "source": "CNBC",
       "detail": "Asian semiconductor and technology stocks fell on Wednesday, tracking overnight losses on Wall Street.",
@@ -102,18 +110,10 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "利好来了！工信部重磅发布！事关“人工智能+信息通信”创新发展",
       "source": "券商中国",
       "detail": "AI及信息通信产业，又迎来“利好”！ 6月10日下午消息，工信部印发《“人工智能+信息通信”创新发展实施意见（2026—2028年）》（以下简称《实施意见》）。",
-      "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "尾盘直线拉升！601012冲击涨停",
-      "source": "证券时报",
-      "detail": " 6月10日，A股主要股指再度回调，沪指失守4000点大关，创业板指跌近3%；港股走势疲弱，恒生指数盘中跌超1%，恒生科技指数一度跌超2%。",
       "lang": "zh",
       "score": 20
     }
