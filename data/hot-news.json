@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 20:36",
+  "updateTime": "2026-06-10 20:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "交易员押注美联储加息，黄金白银比特币下跌",
+        "what": "交易员押注美联储加息，贵金属和数字货币暴跌",
         "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
-        "chain": "加息预期推升美元（美元强），压制无息资产（如黄金、比特币）和风险偏好",
-        "watch": "美联储官员讲话及CME FedWatch（利率期货概率）数据"
+        "chain": "加息预期（借钱成本提高）推高美元，无息资产（黄金、比特币）吸引力下降",
+        "watch": "美联储官员讲话和通胀数据（CPI）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "SpaceX IPO定价确定，散户分配仍不确定",
-        "assets": "📈 SpaceX（非上市股权）潜在利好",
-        "chain": "高估值IPO或带动太空概念股（如维珍银河）跟涨，但散户参与受限",
-        "watch": "SpaceX上市日期及散户配售比例"
+        "what": "SpaceX IPO定价确定，散户分配权仍不确定",
+        "assets": "📈 SpaceX 估值 利好, 📉 散户投资者 利空",
+        "chain": "IPO后机构（大资金）主导，散户（小资金）溢价买入，短期对冲基金（对冲风险）可能做空",
+        "watch": "SpaceX正式上市日期和零售券商（Robinhood）分配情况"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO获中东基金数十亿美元认购",
-        "assets": "📈 SpaceX（非上市股权）利好, 📈 太空概念股 情绪利好",
-        "chain": "中东主权基金（如沙特PIF）入场，显示机构信心，或推高上市估值",
-        "watch": "SpaceX最终募资额及上市后首日表现"
+        "what": "华尔街分析师密集点评：看好Nvidia、Netflix，看空Tesla",
+        "assets": "📈 Nvidia 利好, 📉 Tesla 承压, 📈 Netflix 利好",
+        "chain": "分析师评级（机构观点）引发资金轮动（从汽车转向AI和流媒体），期权市场（赌涨跌）波动加大",
+        "watch": "Nvidia和Tesla的财报及期权未平仓量（持仓情况）"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "中东基金数十亿美元认购SpaceX IPO",
+        "assets": "📈 SpaceX 估值 利好, 📉 其他太空股 承压",
+        "chain": "主权基金（国家资金）背书，提振SpaceX估值溢价，但分流其他太空股（如ASTS）资金",
+        "watch": "SpaceX IPO最终定价和认购倍数（超额认购比例）"
+      }
     },
     {
       "rank": 5,
@@ -93,9 +99,9 @@
     },
     {
       "rank": 10,
-      "title": "日本央行行长植田和男入院治疗 预计将缺席6月份货币政策会议",
+      "title": "美国5月份CPI较上月上升0.5% 符合预期",
       "source": "环球市场播报",
-      "detail": "据日本央行，行长植田和男已住院，预计将缺席下周的政策会议。 日本央行周三在声明中表示：“行长目前因肝囊肿感染住院治疗。预计他将住院约两周。",
+      "detail": "根据美国劳工统计局的数据，5月份CPI较上月上升0.5%， 符合预期。 68位分析师的预测范围为上升0.4%至上升0.7%。 不包括食品和能源，CPI较前一个月上升0.2%，预估为0.3%。",
       "lang": "zh",
       "score": 30
     }
