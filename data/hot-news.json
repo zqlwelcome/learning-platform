@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 23:00",
+  "updateTime": "2026-06-10 23:05",
   "news": [
     {
       "rank": 1,
@@ -7,86 +7,42 @@
       "source": "环球市场播报",
       "detail": "本周五即将以史上最大IPO规模登陆纳斯达克之际，SpaceX首席执行官埃隆·马斯克对外阐释了公司轨道AI数据中心计划的技术路径。他表示...",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX用星链技术造AI卫星，淡化IPO风险",
-        "assets": "📈 SpaceX估值 利好",
-        "chain": "强化太空AI概念，带动卫星制造和AI芯片需求（上游供应商）",
-        "watch": "SpaceX IPO时间表及星链用户增长"
-      }
+      "score": 45
     },
     {
       "rank": 2,
-      "title": "OpenAI秘密提交IPO申请，AI三巨头竞逐公开市场",
-      "source": "环球市场播报",
-      "detail": "继SpaceX和Anthropic相继启动上市进程后，OpenAI也正式加入了这场史无前例的超级IPO竞逐赛。 当地时间6月8日，OpenAI宣布已向美国证券交易委员会秘密提交S-1招股书草案。",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "OpenAI秘密提交IPO，AI三巨头抢滩上市",
-        "assets": "📈 AI板块 利好",
-        "chain": "推动AI赛道估值重构，资本涌入算力（GPU/云计算）和模型公司",
-        "watch": "OpenAI估值区间及监管审批进展"
-      }
-    },
-    {
-      "rank": 3,
       "title": "美联储官员表态：物价持续上涨，加息重回备选方案",
       "source": "环球市场播报",
       "detail": "原本期盼借贷成本回落的美国民众，或许还要再等一段时间。 就在几周前，市场投资者还普遍预期，信用卡、汽车贷款、房屋净值信贷额度等挂钩美联储短期基准利率的信贷产品利...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美联储官员暗示加息备选，通胀压力未消",
-        "assets": "📉 美股大盘 承压；📈 美元 走强",
-        "chain": "加息预期升温→风险资产（如科技股）估值下杀→资金回流美元资产",
-        "watch": "下周CPI数据及美联储点阵图"
-      }
+      "score": 36
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Investors are fleeing tech stocks in record numbers",
       "source": "CNBC",
       "detail": "Bank of America clients sold a record $14.2 billion in single stocks last week",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "投资者创纪录逃离科技股",
-        "assets": "📉 美股科技股 利空",
-        "chain": "资金轮动至防御板块（公用事业/医疗），科技股面临EPS（每股盈利）下修风险",
-        "watch": "科技龙头Q2财报指引及资金流向数据"
-      }
+      "score": 32
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "美国参议员沃伦呼吁美国证券交易委员会推迟SpaceX的IPO",
       "source": "环球市场播报",
       "detail": " 马萨诸塞州民主党参议员伊丽莎白・沃伦成为最新一位对此次首次公开募股持质疑态度的人士，她认为该上市计划可能会给个人投资者带来风险。",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "参议员沃伦要求SEC推迟SpaceX IPO",
-        "assets": "📉 SpaceX IPO预期 利空",
-        "chain": "政治阻力增加IPO不确定性，或拖累太空/科技板块情绪",
-        "watch": "SEC回应及沃伦后续提案"
-      }
+      "score": 30
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "美国5月CPI同比上涨4.2%，创三年新高",
       "source": "环球市场播报",
       "detail": "5 月美国通胀再度升温，能源价格上涨加重居民生活成本压力，但剔除波动项后的核心通胀压力有所缓和。 美国劳工统计局周三公布数据：衡量全美商品与服务综合价格的居民消费...",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "美国5月CPI同比涨4.2%创三年新高",
-        "assets": "📉 美债 承压；📈 通胀对冲资产（黄金）利好",
-        "chain": "CPI超预期→加息概率上升→债券收益率攀升（价格下跌）→成长股估值受挤压",
-        "watch": "下周美联储利率决议及核心PCE（个人消费支出物价指数）"
-      }
+      "score": 30
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Oil prices jump after Trump says Iran will 'pay the price' for failing at peace deal",
       "source": "CNBC",
       "detail": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
@@ -94,7 +50,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "indie公司推出边缘AI芯片，助力汽车与人形机器人感知系统",
       "source": "环球市场播报",
       "detail": "汽车半导体解决方案创新企业indie Semiconductor近日发布其下一代边缘人工智能系统级芯片iND881。该芯片集成了AI计算引擎，旨在为汽车和机器人领域的智能摄像头提供强大算...",
@@ -102,7 +58,7 @@
       "score": 25
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "软银集团股价重挫逾8%，60亿美元AI融资计划遇阻",
       "source": "环球市场播报",
       "detail": "受60亿美元保证金贷款谈判陷入僵局及全球科技股普遍回调的双重打击，软银集团股价周三大幅下跌。截至收盘，这家日本科技投资巨头在东京交易所的股价跌幅超过8%...",
@@ -110,12 +66,20 @@
       "score": 25
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Meta投1.15亿美元培训蓝领技工，为AI数据中心建设输送人才",
       "source": "环球市场播报",
       "detail": " Meta Platforms近日宣布启动一项总投资1.15亿美元的技能培训计划，旨在应对AI数据中心大规模建设所面临的技术工人短缺问题。",
       "lang": "zh",
       "score": 25
+    },
+    {
+      "rank": 10,
+      "title": "5天大跌40%！北交所 \"金刚石第一股\"，股价过山车！曾4天斩获2个30cm涨停！又搭上比亚迪了！",
+      "source": "市场资讯",
+      "detail": "来源：上市之家 继4天录得2个30cm涨停、8个交易日暴涨超160%后，北交所 “金刚石第一股”惠丰钻石（920725.BJ）近期遭遇剧烈回调。 6月10日，该股大跌13.35%，报收64...",
+      "lang": "zh",
+      "score": 20
     }
   ]
 }
