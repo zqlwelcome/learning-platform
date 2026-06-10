@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 17:41",
+  "updateTime": "2026-06-10 17:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "中国5月PPI（生产者价格指数）同比涨至近4年高位",
-        "assets": "📈 工业商品 利好\n📉 A股制造业 承压",
-        "chain": "伊朗战争推高输入性成本，AI基建需求加剧上游涨价，挤压中下游利润（利润传导）",
-        "watch": "中国6月CPI（消费者物价指数）及央行是否加息"
+        "what": "中国5月PPI（生产者价格指数）创近4年新高，因伊朗战争推高成本及AI需求",
+        "assets": "📈 中国工业品期货（如铜、铝）利好，📉 中国制造业利润承压",
+        "chain": "PPI走高→央行可能收紧（减少市场钱量）→利空A股周期股，但AI需求支撑科技上游",
+        "watch": "中国6月CPI（居民消费价格指数）及央行政策信号"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美股IPO热潮可能逆转流通股本缩减趋势",
-        "assets": "📉 美股大盘 承压\n📈 IPO标的 利好",
-        "chain": "新股供应增加稀释存量资金（流动性抽水），压制现有高估值科技股（估值压缩）",
-        "watch": "未来3个月IPO定价及首日涨幅（需求热度）"
+        "what": "美股IPO热潮可能终结流通股本缩减趋势",
+        "assets": "📉 美股小盘股（如罗素2000指数）承压，📈 新股供给增加稀释存量",
+        "chain": "IPO增多→流通股增加→稀释现有股票价值（每股收益下降）→压制指数上涨动能",
+        "watch": "未来三个月IPO数量和定价规模"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户配售仍悬而未决",
-        "assets": "📈 太空概念股 利好\n📉 散户资金 承压",
-        "chain": "机构优先配售（优先购买权）导致散户抢筹难，可能推高上市首日波动（流动性溢价）",
-        "watch": "SEC（美国证监会）是否调整配售规则"
+        "what": "SpaceX IPO定价已定，但散户配售仍不确定",
+        "assets": "📈 太空概念股（如ASTS）利好，📉 散户投机热情降温",
+        "chain": "定价明确→机构抢筹→推高SpaceX估值→带动卫星通信板块，但散户份额低可能引发不满",
+        "watch": "SpaceX最终IPO日期及散户配售比例"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "东北证券称美股看AI先发优势，A股看替代与配套",
-        "assets": "📈 美股AI龙头 利好\n📈 A股半导体/设备 利好",
-        "chain": "美股AI靠技术壁垒（护城河），A股靠国产替代（政策驱动）和全球供应链（订单转移）",
-        "watch": "美国AI芯片出口管制及中国半导体设备招标"
+        "what": "东北证券认为美股看AI先发优势，A股看替代与配套",
+        "assets": "📈 美股AI龙头（如英伟达）利好，📈 A股半导体设备（替代逻辑）利好",
+        "chain": "AI先发优势→美股科技股溢价（估值更高）→A股受制于技术差距，但替代链（国产芯片）受益",
+        "watch": "中美AI企业财报对比及技术差距指标"
       }
     },
     {
@@ -65,28 +65,36 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "韩国清算约15亿美元SpaceX IPO相关需求",
-        "assets": "📉 SpaceX 承压\n📈 韩国债市 利好",
-        "chain": "韩国机构抛售IPO头寸（仓位了结），资金回流本土债市，暗示对SpaceX估值存疑（套利离场）",
-        "watch": "SpaceX最终认购倍数及首日破发风险"
+        "what": "韩国清算约15亿美元SpaceX IPO需求",
+        "assets": "📉 SpaceX IPO认购热度降温，📈 韩国股市资金回流",
+        "chain": "韩国清盘→减少SpaceX需求→可能压低定价或推迟上市→资金回流韩国本土科技股",
+        "watch": "SpaceX最终认购倍数及韩国资本流动数据"
       }
     },
     {
       "rank": 6,
-      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
+      "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
-      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
+      "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic发布新AI模型，私测后提前公测",
-        "assets": "📈 AI应用股 利好\n📉 传统软件 承压",
-        "chain": "模型能力超预期（技术颠覆）加速企业AI替代，挤压SaaS（软件即服务）和客服市场（行业洗牌）",
-        "watch": "模型API（应用程序接口）定价及客户采用率"
+        "what": "超微电脑因70亿美元融资计划暴跌，但声称AI服务器订单强劲",
+        "assets": "📉 超微电脑（SMCI）股价承压，📈 AI服务器同业（如戴尔）利好",
+        "chain": "融资稀释（增发股票）→股价下跌→但订单强劲暗示AI需求真实→利好整个AI硬件链",
+        "watch": "超微电脑下一季度订单增速及融资落地情况"
       }
     },
     {
       "rank": 7,
+      "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
+      "source": "CNBC",
+      "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
       "source": "环球市场播报",
       "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "能源价格上涨推高通胀预期 美国5月CPI同比涨幅预计创三年新高",
       "source": "环球市场播报",
       "detail": "综合外电报道，美国劳工部即将于当地时间周三公布5月份消费者价格指数（CPI）。市场主流经济学家普遍预测，受国际地缘冲突及能源价格飙升等因素影响...",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SoftBank sinks over 8% as Asia tech stocks tumble, tracking Wall Street losses",
       "source": "CNBC",
       "detail": "Asian semiconductor and technology stocks fell on Wednesday, tracking overnight losses on Wall Street.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "美股盘前：三大股指期货集体飘绿，芯片股全线下跌",
-      "source": "第一财经",
-      "detail": " 6月10日美股盘前，三大股指期货集体下跌，截至17：06，道指期货跌0.63%，标普500指数期货跌0.71%，纳指期货跌幅达1.11%。",
-      "lang": "zh",
-      "score": 25
     }
   ]
 }
