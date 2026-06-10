@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 14:36",
+  "updateTime": "2026-06-10 14:41",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3992.70",
-      "change": "-0.43"
+      "value": "3986.83",
+      "change": "-0.58"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24391.540",
-      "change": "-0.71"
+      "value": "24365.880",
+      "change": "-0.81"
     }
   },
   "etf_flows": [
     {
       "name": "科创50ETF华夏",
       "code": "588000",
-      "price": 1.747,
-      "change": -0.46,
-      "flow": 308579120.0,
-      "flow_str": "+3.09亿",
+      "price": 1.74,
+      "change": -0.85,
+      "flow": 300234768.0,
+      "flow_str": "+3.00亿",
       "direction": "in"
     },
     {
       "name": "科创芯片ETF嘉实",
       "code": "588200",
-      "price": 3.486,
-      "change": 0.09,
-      "flow": 220872736.0,
-      "flow_str": "+2.21亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备ETF国泰",
-      "code": "159516",
-      "price": 1.291,
-      "change": 2.3,
-      "flow": 133476752.0,
-      "flow_str": "+1.33亿",
+      "price": 3.466,
+      "change": -0.49,
+      "flow": 213926480.0,
+      "flow_str": "+2.14亿",
       "direction": "in"
     },
     {
       "name": "证券ETF国泰",
       "code": "512880",
-      "price": 1.018,
-      "change": 1.29,
-      "flow": 131881728.0,
-      "flow_str": "+1.32亿",
+      "price": 1.019,
+      "change": 1.39,
+      "flow": 134321488.0,
+      "flow_str": "+1.34亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备ETF国泰",
+      "code": "159516",
+      "price": 1.286,
+      "change": 1.9,
+      "flow": 129457376.0,
+      "flow_str": "+1.29亿",
       "direction": "in"
     },
     {
       "name": "上证50ETF华夏",
       "code": "510050",
-      "price": 2.933,
-      "change": 0.55,
-      "flow": 128881559.0,
-      "flow_str": "+1.29亿",
+      "price": 2.931,
+      "change": 0.48,
+      "flow": 128287779.0,
+      "flow_str": "+1.28亿",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "半导体材料",
       "code": "BK1325",
-      "index": 13629.15,
-      "change": 4.3,
-      "flow": 2089545984.0,
-      "flow_str": "+20.90亿",
+      "index": 13568.81,
+      "change": 3.84,
+      "flow": 2099304960.0,
+      "flow_str": "+20.99亿",
       "direction": "in"
     },
     {
       "name": "非银金融",
       "code": "BK1203",
-      "index": 2280.69,
-      "change": 0.75,
-      "flow": 1839783936.0,
-      "flow_str": "+18.40亿",
+      "index": 2280.8,
+      "change": 0.76,
+      "flow": 1900072704.0,
+      "flow_str": "+19.00亿",
       "direction": "in"
     },
     {
       "name": "半导体设备",
       "code": "BK1326",
-      "index": 45516.4,
-      "change": 1.0,
-      "flow": 1799462656.0,
-      "flow_str": "+17.99亿",
+      "index": 45389.75,
+      "change": 0.72,
+      "flow": 1839371008.0,
+      "flow_str": "+18.39亿",
       "direction": "in"
     },
     {
       "name": "锂",
       "code": "BK1621",
-      "index": 18541.43,
-      "change": -0.48,
-      "flow": 1144194912.0,
-      "flow_str": "+11.44亿",
+      "index": 18480.84,
+      "change": -0.81,
+      "flow": 1167250784.0,
+      "flow_str": "+11.67亿",
       "direction": "in"
     },
     {
       "name": "证券Ⅲ",
       "code": "BK1366",
-      "index": 129653.13,
-      "change": 1.07,
-      "flow": 1087805184.0,
-      "flow_str": "+10.88亿",
+      "index": 129629.97,
+      "change": 1.05,
+      "flow": 1110338560.0,
+      "flow_str": "+11.10亿",
       "direction": "in"
     }
   ],
