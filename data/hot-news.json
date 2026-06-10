@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 15:10",
+  "updateTime": "2026-06-10 15:15",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 48,
       "insight": {
         "what": "美国5月CPI预期重回4%以上，加息风险上升",
-        "assets": "📉 美股大盘 承压；📈 美元指数 走强",
-        "chain": "加息预期推高美债收益率（借钱成本），压制成长股估值（未来现金流折现更低），新兴市场资金外流",
-        "watch": "周三CPI实际数据；美联储点阵图（利率预测）"
+        "assets": "📉 美股大盘 承压 📈 美元指数 走强",
+        "chain": "加息预期推高实际利率（剔除通胀后的真实利率），压制风险资产估值（PE倍数）",
+        "watch": "周三CPI实际值 vs 预期，点阵图（美联储利率预测）"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 47,
       "insight": {
         "what": "中国5月PPI创近4年新高，因伊朗战争推高成本及AI需求",
-        "assets": "📈 中国工业品期货 利好；📉 中国制造业利润 承压",
-        "chain": "输入性通胀（进口原材料涨价）挤压下游企业利润，央行可能收紧流动性（减少市场资金），抑制股市",
-        "watch": "中国6月制造业PMI（采购经理人指数）；伊朗局势"
+        "assets": "📈 中国工业品 利好 📉 中国制造业利润 承压",
+        "chain": "输入性通胀（进口原材料涨价）挤压中下游企业毛利，但上游周期股受益",
+        "watch": "国内CPI传导情况，央行是否收紧流动性（减少市场资金）"
       }
     },
     {
@@ -37,14 +37,28 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，但散户配售份额仍不确定",
-        "assets": "📈 SpaceX相关概念股 利好；📉 其他太空股 承压",
-        "chain": "IPO抽血效应（资金从其他资产流入新股）或冲击科技板块，散户若配售少则上市后波动大",
-        "watch": "IPO正式上市日期；散户配售比例公告"
+        "what": "SpaceX IPO定价已定，但散户配售额度仍不确定",
+        "assets": "📈 太空概念股 利好 📈 美股IPO市场 情绪提振",
+        "chain": "高关注度IPO可能分流科技板块资金，但散户份额争议增加波动性",
+        "watch": "SEC（美国证监会）审批进展，最终配售比例"
       }
     },
     {
       "rank": 4,
+      "title": "港股互联网筑底，可灵AI全球用户突破1亿，快手-W涨近4%，微信AI按下加速键，腾讯控股涨超2%",
+      "source": "新浪基金",
+      "detail": "6月10日，港股低开震荡，互联网龙头走势分化，可灵AI成绩亮眼，快手-W涨近4%；微信AI生态开放内测，美团首批内测接入，腾讯控股、美图-W双双涨超2%。",
+      "lang": "zh",
+      "score": 42,
+      "insight": {
+        "what": "港股互联网板块反弹，快手腾讯因AI应用突破上涨",
+        "assets": "📈 港股互联网 利好 📈 腾讯控股 利好",
+        "chain": "AI应用落地（如可灵用户破亿）改善盈利预期，缓解监管担忧",
+        "watch": "港股成交量是否持续放大，AI产品付费转化率"
+      }
+    },
+    {
+      "rank": 5,
       "title": "投资者锁定人工智能板块利润并备战太空探索技术公司首次公开募股 美股科技板块遭遇持续抛售",
       "source": "环球市场播报",
       "detail": "受到投资者大举调整人工智能（AI）板块仓位，以及集中资金备战本周即将进行的美国太空探索技术公司（SpaceX）历史性首次公开募股（IPO）影响...",
@@ -52,41 +66,35 @@
       "score": 35,
       "insight": {
         "what": "投资者锁定AI利润并备战SpaceX IPO，科技板块遭抛售",
-        "assets": "📉 美股科技股 利空；📈 防御性板块（如公用事业） 利好",
-        "chain": "资金轮动（从高估值科技转向低估值防御），AI多头平仓（卖出获利）加剧回调，市场风格切换",
-        "watch": "纳指（科技股指数）支撑位；AI龙头股财报"
+        "assets": "📉 美股科技股 承压 📈 防御性板块（公用事业） 利好",
+        "chain": "板块轮动（资金从高估值转向低估值），IPO抽血效应（新股融资减少存量资金）短期利空",
+        "watch": "科技板块ETF（交易所交易基金）资金流向，SpaceX估值折价"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
       "source": "CNBC",
       "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "网络安全公司称中国用AI间谍活动追赶美国科技",
-        "assets": "📉 中概科技股 承压；📈 美国网络安全股 利好",
-        "chain": "地缘风险升温（贸易或制裁担忧），外资或减持中概股，美国防务/安全支出预期增加",
-        "watch": "美国对华科技政策声明；中国外交部回应"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
-      "source": "CNBC",
-      "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "Super Micro因70亿美元融资计划股价暴跌，但AI服务器订单强劲",
-        "assets": "📉 Super Micro股票 利空；📈 AI服务器同业（如戴尔） 利好",
-        "chain": "融资稀释股权（增发新股摊薄每股收益），但订单确认AI需求，利好供应链（芯片、存储），坏消息是好消息",
-        "watch": "融资完成后的债务/股权比例；AI服务器出货量"
+        "what": "网络安全公司称中国加强AI间谍活动以追赶美国技术",
+        "assets": "📉 中概科技股 承压 📈 网络安全板块 利好",
+        "chain": "地缘政治风险升级（中美科技脱钩）增加合规成本，但利好安全软件需求",
+        "watch": "美国是否扩大对华AI技术出口管制，中国官方回应"
       }
     },
     {
       "rank": 7,
+      "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
+      "source": "CNBC",
+      "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
@@ -102,20 +110,12 @@
       "score": 32
     },
     {
-      "rank": 9,
-      "title": "今夜美国CPI“喜忧参半”？整体通胀或破4创三年新高，核心通胀或显著低于预期！",
-      "source": "市场资讯",
-      "detail": "来源：华尔街见闻 北京时间今晚20：30，美国劳工统计局将公布5月CPI数据。这也是美联储新主席沃什下周政策利率会议前，市场最关注的重磅通胀数据。",
+      "rank": 10,
+      "title": "“4字头”通胀要来了？今晚八点半 全球市场“决战”美国CPI……",
+      "source": "滚动播报",
+      "detail": "来源：财联社 财联社6月10日讯（编辑 潇湘）上周五，一份火热到爆表的美国非农就业数据，可以说成为了美股乃至全球市场投资者眼中最大的“梦魇”。",
       "lang": "zh",
       "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "SoftBank sinks 10% as Asia tech stocks tumble, tracking Wall Street losses",
-      "source": "CNBC",
-      "detail": "Asian semiconductor and technology stocks fell on Wednesday, tracking overnight losses on Wall Street.",
-      "lang": "en",
-      "score": 29
     }
   ]
 }
