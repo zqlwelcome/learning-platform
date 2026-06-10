@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 09:50",
+  "updateTime": "2026-06-10 09:56",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,110 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4004.80",
-      "change": "-0.13"
+      "value": "4005.63",
+      "change": "-0.11"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24495.580",
-      "change": "-0.29"
+      "value": "24410.980",
+      "change": "-0.63"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
+  "etf_flows": [
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.8,
+      "change": 2.56,
+      "flow": 578334800.0,
+      "flow_str": "+5.78亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.589,
+      "change": 3.04,
+      "flow": 330861408.0,
+      "flow_str": "+3.31亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创50ETF易方达",
+      "code": "588080",
+      "price": 1.741,
+      "change": 2.35,
+      "flow": 144447936.0,
+      "flow_str": "+1.44亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体ETF国联安",
+      "code": "512480",
+      "price": 2.156,
+      "change": 2.23,
+      "flow": 105722415.0,
+      "flow_str": "+1.06亿",
+      "direction": "in"
+    },
+    {
+      "name": "上证50ETF华夏",
+      "code": "510050",
+      "price": 2.932,
+      "change": 0.51,
+      "flow": 101793251.0,
+      "flow_str": "+1.02亿",
+      "direction": "in"
+    }
+  ],
+  "sector_flows": [
+    {
+      "name": "半导体",
+      "code": "BK1036",
+      "index": 2854.03,
+      "change": 1.44,
+      "flow": 1959329536.0,
+      "flow_str": "+19.59亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备",
+      "code": "BK1326",
+      "index": 46114.46,
+      "change": 2.33,
+      "flow": 1246789104.0,
+      "flow_str": "+12.47亿",
+      "direction": "in"
+    },
+    {
+      "name": "数字芯片设计",
+      "code": "BK1331",
+      "index": 26846.24,
+      "change": 0.74,
+      "flow": 974425600.0,
+      "flow_str": "+9.74亿",
+      "direction": "in"
+    },
+    {
+      "name": "锂",
+      "code": "BK1621",
+      "index": 19002.49,
+      "change": 1.99,
+      "flow": 471732928.0,
+      "flow_str": "+4.72亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信服务",
+      "code": "BK0736",
+      "index": 1162.1,
+      "change": 0.74,
+      "flow": 446398960.0,
+      "flow_str": "+4.46亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -39,11 +131,6 @@
       "title": "9月加息？华尔街开始押注美联储极限紧缩剧本……",
       "source": "市场资讯",
       "keyword": "美联储"
-    },
-    {
-      "title": "日本5月批发通胀超预期，因中东冲突推高进口价格",
-      "source": "环球市场播报",
-      "keyword": "通胀"
     }
   ]
 }
