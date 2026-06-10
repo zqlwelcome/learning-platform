@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 08:15",
+  "updateTime": "2026-06-10 08:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，散户配售待定",
-        "assets": "📈 太空概念股 利好",
-        "chain": "IPO（新股发行）定价锚定估值，散户参与度影响首日流动性溢价（流动性越好股价越高）",
-        "watch": "散户配售比例及首日成交量"
+        "what": "SpaceX IPO定价，散户分配仍不确定",
+        "assets": "📈 太空概念股 利好，📉 散户交易平台 承压",
+        "chain": "若散户分配少，机构主导，可能推高IPO首日涨幅，但压制零售经纪商交易量",
+        "watch": "SpaceX最终散户配售比例及首日交易量"
       }
     },
     {
@@ -23,24 +23,24 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "280亿资金逆势买入股票ETF，全球AI巨头争相IPO",
-        "assets": "📈 科技ETF 利好；📈 港股AI板块 利好",
-        "chain": "ETF资金流入支撑大盘，AI巨头IPO（新股发行）加剧算力需求，利好芯片和云服务",
-        "watch": "AI公司IPO定价及后续融资规模"
+        "what": "280亿资金逆势流入股票型ETF，全球AI巨头竞速IPO",
+        "assets": "📈 A股ETF 资金流入利好，📈 AI科技股 利好",
+        "chain": "资金避险涌入ETF（交易所交易基金），显示机构抄底意愿；AI巨头IPO（首次公开募股）加速可能抽血存量流动性",
+        "watch": "ETF资金流向持续性及AI公司IPO定价"
       }
     },
     {
       "rank": 3,
-      "title": "美债交易员押注美联储加息临近，SOFR期权与期货仓位迅速转鹰",
+      "title": "加元跌至年内低点 市场押注加拿大央行加息落后于全球主要央行",
       "source": "市场资讯",
-      "detail": "文章来源：华尔街见闻 上周五发布的5月非农就业大超预期，直接推动SOFR期权市场涌现大量押注加息的新头寸，部分交易甚至指向最快9月即启动加息。",
+      "detail": "文章来源：新华财经 新华财经北京6月10日电 9日，加元跌至去年12月以来最低水平，市场预计加拿大央行加息步伐将慢于全球其他主要央行。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债交易员押注美联储加息临近，SOFR仓位转鹰",
-        "assets": "📉 美债价格 承压；📈 美元指数 走强",
-        "chain": "加息预期（借钱成本上升）推高短端利率，风险资产（股票）估值承压，新兴市场货币流出压力加大",
-        "watch": "下周三美联储利率决议声明措辞"
+        "what": "加元跌至年内低点，市场押注加拿大央行加息落后",
+        "assets": "📉 加元 承压，📈 美元 走强",
+        "chain": "利差扩大（加拿大利率预期低于美国），资本外流至美元资产，加元贬值压力加剧进口通胀",
+        "watch": "加拿大央行下次利率决议及美加利差变化"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "腾讯发行24.5亿美元及150亿人民币票据定价",
-        "assets": "📉 腾讯债券价格 承压；📈 腾讯股价 中性偏利好",
-        "chain": "新债供给增加压低存量债价，但融资用于回购或投资，缓解股权稀释（股票数量增加）风险",
-        "watch": "票据认购倍数及回购计划公告"
+        "what": "腾讯发行24.5亿美元及150亿人民币票据",
+        "assets": "📉 腾讯股票 短期承压，📈 中资美元债 供给增加",
+        "chain": "新债供给可能压低债券价格（收益率上升），但融资用于回购或投资可支撑股价",
+        "watch": "票据定价利率及腾讯后续回购计划"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑股价暴跌因70亿美元融资计划",
-        "assets": "📉 超微电脑 利空；📈 AI服务器板块 分化",
-        "chain": "大规模融资（借钱）稀释现有股东权益（每股收益下降），但订单强劲暗示AI算力需求持续",
-        "watch": "融资条款（是否折价发行）及后续订单增速"
+        "what": "超微电脑因70亿美元融资计划股价暴跌，AI服务器订单被提及",
+        "assets": "📉 超微电脑 利空，📈 AI服务器板块 分化",
+        "chain": "大规模融资稀释股权（每股收益下降），但订单利好暗示行业需求旺盛，可能拖累同类高估值硬件股",
+        "watch": "融资条款及后续AI服务器订单确认量"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic两个月后公开发布类Mythos AI模型",
-        "assets": "📈 AI应用股 利好；📉 传统软件 承压",
-        "chain": "模型公开化加速AI应用落地，利好云服务（算力需求），同时威胁传统软件订阅（替代效应）",
-        "watch": "模型API定价及企业客户采用率"
+        "what": "Anthropic发布类MythosAI模型，私测后公开上线",
+        "assets": "📈 AI应用股 利好，📉 传统软件股 承压",
+        "chain": "模型能力突破将加速AI商业化（如客服、内容生成），挤压传统SaaS（软件即服务）市场份额",
+        "watch": "模型API定价及用户采用率数据"
       }
     },
     {
@@ -95,27 +95,27 @@
     },
     {
       "rank": 8,
+      "title": "美债收益率集体回落 美联储政策路径预期持续转向",
+      "source": "市场资讯",
+      "detail": "文章来源：新华财经 新华财经北京6月10日电（王菁）在上日大幅攀升之后，当地时间6月9日，美债收益率震荡回落，2年期美债收益率下跌4.16BPs至4.118%...",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 9,
+      "title": "中信建投：美联储如何决定货币政策？——全球债市研究系列九",
+      "source": "市场资讯",
+      "detail": "文章来源：中信建投证券研究 文|曾羽曲远源 短期内，美联储加息概率仍低，市场对美联储紧缩的担忧主要在预期层面，建立在美国国内通胀粘性、就业持续火热的假设之上。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 10,
       "title": "Oil prices fall after U.S. Energy secretary says Hormuz ship traffic is increasing",
       "source": "CNBC",
       "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 9,
-      "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
-      "source": "CNBC",
-      "detail": "The S&P 500 and Nasdaq Composite fell in Tuesday's trading as chip stocks went back to their losing ways.",
-      "lang": "en",
-      "score": 27
-    },
-    {
-      "rank": 10,
-      "title": "映恩生物-B：就建议人民币股份于科创板上市通过上海监管局辅导验收",
-      "source": "新浪港股",
-      "detail": "映恩生物-B（09606）发布公告，有关拟发行将于上海证券交易所科创板上市并以人民币买卖的普通股（建议上市）。本公司现正接受中信证券股份有限公司的辅导...",
-      "lang": "zh",
-      "score": 25
     }
   ]
 }
