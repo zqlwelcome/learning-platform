@@ -1,36 +1,22 @@
 {
-  "updateTime": "2026-06-10 18:00",
+  "updateTime": "2026-06-10 18:06",
   "news": [
     {
       "rank": 1,
-      "title": "China May wholesale inflation hits near 4-year high on Iran war-led higher input costs, AI boom   ",
-      "source": "CNBC",
-      "detail": "The Middle East conflict has given China's economy a reflationary boost as energy and raw material disruptions deepened.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "中国5月PPI（生产者价格指数）同比涨至近4年新高",
-        "assets": "📈 中国工业品期货 利好；📉 中国债券 承压",
-        "chain": "输入成本上升传导至PPI，央行或维持紧缩（收紧货币），利空债市，利好周期股",
-        "watch": "下周中国CPI（消费者价格指数）数据及央行逆回购利率"
-      }
-    },
-    {
-      "rank": 2,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，但散户配售额仍不确定",
-        "assets": "📈 SpaceX相关影子股（如太空ETF） 利好",
-        "chain": "高需求或推高IPO首日涨幅，散户抢筹可能挤压机构份额，引发二级市场波动",
-        "watch": "正式上市日期及散户配售比例公告"
+        "what": "SpaceX IPO定价确定，散户分配待定",
+        "assets": "📈 SpaceX相关概念股 利好; 📉 散户空头（未获配） 承压",
+        "chain": "定价落地吸引机构配资（机构资金涌入），推高二级市场对标估值（对标企业市值），但散户需求未释放可能抑制短期流动性",
+        "watch": "散户配售比例及首日交易量"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "消息人士：韩国已清算了与SpaceX IPO相关的约15亿美元需求",
       "source": "环球市场播报",
       "detail": " 一位知情人士周三透露，与SpaceX首次公开募股（IPO）相关的大规模外汇兑换需求已得到消化，此前数周这一需求曾对韩元构成沉重压力。",
@@ -38,63 +24,69 @@
       "score": 40,
       "insight": {
         "what": "韩国清算约15亿美元SpaceX IPO需求",
-        "assets": "📉 SpaceX IPO认购热度 降温；📈 韩国本土科技股 资金回流",
-        "chain": "清算表明机构超额认购后回吐，减少IPO首日抛压，但暗示部分资金转投本土资产",
-        "watch": "SpaceX最终认购倍数及韩国KOSPI指数变动"
+        "assets": "📉 SpaceX IPO热度 降温; 📈 韩国本土科技股 资金回流",
+        "chain": "清算需求暗示机构套利（短期买卖赚差价）结束，资金可能转向亚洲科技债（企业债券）或防御性资产（避险品种），压制风险偏好",
+        "watch": "韩国资本流出数据及IPO最终认购倍数"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑宣布70亿美元融资计划，股价暴跌",
-        "assets": "📉 超微电脑（SMCI） 利空；📈 AI服务器同行（如戴尔） 资金轮动",
-        "chain": "融资稀释股权（每股收益降低），但资金用于AI订单扩产，长期利好但短期情绪杀跌",
-        "watch": "后续融资定价及AI服务器订单交付进度"
+        "what": "Super Micro因70亿美元融资计划暴跌，但强调AI服务器订单",
+        "assets": "📉 Super Micro股票 利空; 📈 AI服务器板块（如英伟达） 分化利好",
+        "chain": "融资稀释（发行新股摊薄每股价值）引发抛售，但AI订单确认强化供应链景气度（行业需求增长），利好上游芯片商",
+        "watch": "融资定价及AI服务器订单交付节奏"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic公测类似《神话》的AI模型，此前私测震动华尔街",
-        "assets": "📈 AI概念股（如英伟达） 利好；📉 OpenAI竞争压力 增大",
-        "chain": "新模型突破可能加速AI应用落地，利好算力需求，但加剧大模型厂商价格战",
-        "watch": "Anthropic模型用户增长及API定价对比"
+        "what": "Anthropic发布类Mythos AI模型，此前私测搅动华尔街",
+        "assets": "📈 AI概念股（如OpenAI竞争链） 利好; 📉 传统软件股（如CRM） 承压",
+        "chain": "模型公开加速企业AI应用落地（实际使用），提升算力需求（计算能力），但挤压传统SaaS（软件即服务）估值",
+        "watch": "模型API定价及企业客户采用率"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "校车科创企业Zum启动IPO前期筹备",
       "source": "环球市场播报",
       "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "校车科创企业Zum启动IPO前期准备",
-        "assets": "📈 美股教育科技板块 利好；📉 传统校车运营商 承压",
-        "chain": "Zum上市将提升市场对科技赋能交通的估值，可能引发跟风IPO，但需关注盈利模式",
-        "watch": "Zum招股书中的营收增速及客户续约率"
+        "what": "校车科创企业Zum启动IPO前期筹备",
+        "assets": "📈 教育科技/共享出行板块 利好; 📉 传统校车运营商 承压",
+        "chain": "IPO筹备吸引VC（风险投资）退出资金，可能带动同类科创股估值重估（重新定价），但需警惕流动性分流",
+        "watch": "Zum招股书披露的营收增速及亏损率"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
       "source": "环球市场播报",
       "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "全球监管机构呼吁加强金融领域AI管控",
+        "assets": "📉 AI金融科技股（如量化交易商） 利空; 📈 合规科技股 利好",
+        "chain": "监管收紧增加AI部署成本（合规费用），压制算法交易策略（程序化买卖）收益，但利好合规软件需求",
+        "watch": "欧盟AI法案金融条款修订进展"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "能源价格上涨推高通胀预期 美国5月CPI同比涨幅预计创三年新高",
       "source": "环球市场播报",
       "detail": "综合外电报道，美国劳工部即将于当地时间周三公布5月份消费者价格指数（CPI）。市场主流经济学家普遍预测，受国际地缘冲突及能源价格飙升等因素影响...",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "SoftBank sinks over 8% as Asia tech stocks tumble, tracking Wall Street losses",
       "source": "CNBC",
       "detail": "Asian semiconductor and technology stocks fell on Wednesday, tracking overnight losses on Wall Street.",
@@ -110,10 +102,18 @@
       "score": 29
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "尾盘直线拉升！601012冲击涨停",
       "source": "证券时报",
       "detail": " 6月10日，A股主要股指再度回调，沪指失守4000点大关，创业板指跌近3%；港股走势疲弱，恒生指数盘中跌超1%，恒生科技指数一度跌超2%。",
+      "lang": "zh",
+      "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "600593，盘中直线涨停！旅游板块，集体逆势拉升！",
+      "source": "",
+      "detail": "今日，A股小幅调整，上证指数再度失守4000点，深证成指也跌破15000点，大盘蓝筹股较为活跃，上证50小幅飘红。下跌个股远多于上涨个股，成交进一步萎缩至2.62万亿元...",
       "lang": "zh",
       "score": 20
     }
