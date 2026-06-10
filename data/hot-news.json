@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 15:20",
+  "updateTime": "2026-06-10 15:26",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 48,
       "insight": {
         "what": "美国5月CPI预期重回4%以上，加息风险上升",
-        "assets": "📉 美股成长股 承压\n📈 美元指数 走强\n📉 美债（美国国债） 价格下跌",
-        "chain": "通胀超预期→加息预期升温→风险资产（股票/债券）估值受压，资金转向现金",
-        "watch": "周三CPI实际数据及核心CPI环比"
+        "assets": "📉 美股大盘 承压, 📉 美债 下跌, 📈 美元 走强",
+        "chain": "加息预期（借钱成本增加）压制风险偏好，资金从股市流向债市（避险）",
+        "watch": "今晚CPI实际数据及美联储点阵图（利率预测）"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "中国5月PPI（工业品出厂价）因伊朗战争和AI需求创近4年新高",
-        "assets": "📈 中国工业商品 利好\n📉 中国制造业利润 承压",
-        "chain": "输入成本上升→中下游企业利润率压缩→央行可能收紧政策（减少放水）",
-        "watch": "中国6月PMI（采购经理人指数）及央行是否释放流动性"
+        "what": "中国5月PPI近四年新高，因伊朗战争推高成本及AI需求",
+        "assets": "📈 中国工业品 利好, 📉 中国制造业利润 承压",
+        "chain": "上游成本（原材料价格）传导至下游，挤压中游企业毛利（利润率），AI芯片需求支撑科技股",
+        "watch": "中国6月PMI（采购经理人指数）及PPI环比数据"
       }
     },
     {
       "rank": 3,
+      "title": "美股 IPO 热潮或将终结美股流通股本持续缩减的局面",
+      "source": "环球市场播报",
+      "detail": " 随着三家巨头企业启动大规模首次公开募股，海量新股涌入市场，美股长达二十余年的股票供给收缩态势即将告终。投资者警示，这可能超出市场承接能力。",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "美股IPO热潮可能结束流通股本缩减趋势",
+        "assets": "📉 美股大盘 承压, 📈 新股供应 增加",
+        "chain": "新股发行增加供给（股票数量变多），稀释现有股票价值，削弱回购（公司买回股票）支撑",
+        "watch": "接下来两周IPO定价及上市首日表现"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，但散户额度待定",
-        "assets": "📈 太空概念股 利好\n📈 SpaceX未上市股权 利好",
-        "chain": "IPO定价→现有股东套现需求→零售资金分流，科技股资金面承压",
-        "watch": "SEC（美国证监会）批准及散户认购比例公告"
+        "what": "SpaceX IPO定价确定，但散户份额分配不确定",
+        "assets": "📈 SpaceX 看涨, 📈 太空概念股 利好",
+        "chain": "机构主导定价（大资金控制），散户分配少可能推高首日炒作（投机），吸引资金从科技股流出",
+        "watch": "IPO认购倍数及首日开盘涨幅"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "港股互联网筑底，可灵AI全球用户突破1亿，快手-W涨近4%，微信AI按下加速键，腾讯控股涨超2%",
       "source": "新浪基金",
       "detail": "6月10日，港股低开震荡，互联网龙头走势分化，可灵AI成绩亮眼，快手-W涨近4%；微信AI生态开放内测，美团首批内测接入，腾讯控股、美图-W双双涨超2%。",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "港股互联网板块反弹，快手腾讯因AI产品突破上涨",
-        "assets": "📈 港股互联网 利好\n📈 快手-W 利好\n📈 腾讯控股 利好",
-        "chain": "AI用户增长→变现预期提升→资金从防御板块回流科技成长股",
-        "watch": "快手/腾讯下一季AI产品MAU（月活用户）数据"
+        "what": "港股互联网反弹，快手AI用户破亿，腾讯AI加速",
+        "assets": "📈 港股互联网 利好, 📈 快手 涨近4%, 📈 腾讯 涨超2%",
+        "chain": "AI应用（人工智能产品）用户增长提振收入预期，资金从防御股（保守型）轮动到成长股（高增长）",
+        "watch": "快手Q2财报及腾讯AI产品商业化数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "知情人士：韩国已消化与SpaceX IPO相关的约15亿美元买需",
       "source": "环球市场播报",
       "detail": " 一位知情人士周三表示，与SpaceX首次公开发行（IPO）相关的大规模外汇兑换需求已得到消化，此前这些需求在过去几周对韩元造成了沉重压力。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "韩国市场已消化约15亿美元SpaceX IPO买需",
-        "assets": "📈 韩国半导体 承压\n📉 韩国散户资金 分流",
-        "chain": "韩国资金外流→本土股市流动性收紧→科技股抛压加大",
-        "watch": "韩国KOSPI指数及散户资金流向"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "投资者锁定人工智能板块利润并备战太空探索技术公司首次公开募股 美股科技板块遭遇持续抛售",
-      "source": "环球市场播报",
-      "detail": "受到投资者大举调整人工智能（AI）板块仓位，以及集中资金备战本周即将进行的美国太空探索技术公司（SpaceX）历史性首次公开募股（IPO）影响...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "投资者锁定AI利润并备战SpaceX IPO，美股科技板块遭持续抛售",
-        "assets": "📉 美股科技板块 承压\n📉 半导体ETF 承压\n📈 SpaceX相关影子股 利好",
-        "chain": "AI获利了结→资金轮动到太空概念→科技板块短期调整但非趋势反转",
-        "watch": "科技板块RSI（相对强弱指标）及SpaceX上市日"
+        "what": "韩国消化约15亿美元SpaceX IPO买需",
+        "assets": "📈 SpaceX 利好, 📈 韩国股市 承压",
+        "chain": "韩国机构资金（养老金等）配置SpaceX，抽离本土股市流动性（资金减少），韩元有贬值压力",
+        "watch": "韩国KOSPI指数及外资流向"
       }
     },
     {
       "rank": 7,
+      "title": "投资者锁定人工智能板块利润并备战太空探索技术公司首次公开募股 美股科技板块遭遇持续抛售",
+      "source": "环球市场播报",
+      "detail": "受到投资者大举调整人工智能（AI）板块仓位，以及集中资金备战本周即将进行的美国太空探索技术公司（SpaceX）历史性首次公开募股（IPO）影响...",
+      "lang": "zh",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
       "source": "CNBC",
       "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
@@ -102,18 +110,10 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
-      "source": "CNBC",
-      "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
       "score": 32
     }
