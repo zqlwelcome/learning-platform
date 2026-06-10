@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 21:46",
+  "updateTime": "2026-06-10 21:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "交易员押注美联储加息，黄金白银比特币下跌",
+        "what": "交易员押注美联储加息，黄金白银比特币同步下跌",
         "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
-        "chain": "加息预期推高实际利率（扣除通胀后的真实利率），无息资产（如黄金）吸引力下降",
-        "watch": "今晚美国CPI数据（通胀指标）"
+        "chain": "加息预期推升美元（美元走强），压制无息资产（黄金/比特币）和风险偏好（Risk-off）。",
+        "watch": "美联储官员讲话及CPI（通胀数据）是否超预期"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "SpaceX拟用星链技术造AI卫星，淡化工程挑战",
-        "assets": "📈 太空概念股 利好, 📈 AI算力股 利好",
-        "chain": "星链+AI组合加速太空数据边缘计算（在卫星上处理数据），降低地面传输需求",
-        "watch": "SpaceX估值及IPO时间表"
+        "what": "交易员加大美联储加息押注，贵金属和加密货币下挫",
+        "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
+        "chain": "加息预期强化美元（美元指数上行），资金从避险资产转向高息资产（如美债）。",
+        "watch": "CME FedWatch（美联储加息概率工具）及非农数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI秘密提交IPO申请，AI三巨头竞逐上市",
-        "assets": "📈 AI板块 利好, 📈 科技成长股 利好",
-        "chain": "AI龙头上市将吸引资金涌入同类股，推高估值中枢（价格基准），但分流存量流动性",
-        "watch": "SEC（美国证监会）是否批准及发行定价"
+        "what": "SpaceX拟用星链技术打造AI卫星，淡化工程风险",
+        "assets": "📈 SpaceX（未上市） 利好, 📈 卫星通信概念股 利好",
+        "chain": "AI+卫星融合（边缘计算+低轨通信）提升太空基建估值，或带动军工/科技板块。",
+        "watch": "SpaceX IPO时间表及Starlink（星链）用户增长数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "科技股承压回落，市场等通胀数据和重磅IPO",
-        "assets": "📉 科技股 承压, 📉 纳指 承压",
-        "chain": "通胀数据若超预期，降息（借钱成本降低）延后，科技股估值（未来现金流折现）将遭重估",
-        "watch": "今晚CPI及Arm/Instacart等IPO认购情况"
+        "what": "OpenAI秘密提交IPO申请，AI三巨头竞逐公开市场",
+        "assets": "📈 AI科技股 利好, 📈 美股科技板块 利好",
+        "chain": "AI龙头上市（IPO）引发资金涌入AI赛道，推高科技股估值（PE倍数扩张）。",
+        "watch": "SEC（美国证监会）披露文件及AI监管政策动向"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "环球市场播报",
       "detail": "美国股指期货周三全线走低，科技板块跌幅居前。投资者在美国关键通胀数据公布前保持谨慎，同时地缘政治紧张局势持续压制市场风险偏好。",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "科技股承压回调，市场等待通胀数据和重磅IPO",
+        "assets": "📉 美股科技股 承压, 📈 美股防御板块（公用事业） 利好",
+        "chain": "通胀预期（CPI）不确定+IPO抽血（流动性收紧）压制成长股（高估值科技股）。",
+        "watch": "美国CPI（消费者物价指数）及Arm（芯片公司）IPO定价"
+      }
     },
     {
       "rank": 6,
@@ -71,7 +77,13 @@
       "source": "CNBC",
       "detail": "Precious metals were firmly in negative territory, as fears about inflation and the Federal Reserve's interest rate path weighed on investor sentiment.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "交易员押注美联储加息，黄金、白银、比特币下跌",
+        "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
+        "chain": "加息预期推高实际利率（名义利率-通胀），削弱黄金和加密货币的储值属性。",
+        "watch": "美联储点阵图（利率预测）及美元指数（DXY）走势"
+      }
     },
     {
       "rank": 7,
