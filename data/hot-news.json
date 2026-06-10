@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 21:26",
+  "updateTime": "2026-06-10 21:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储加息预期升温，贵金属和加密货币下跌",
-        "assets": "📉 黄金 承压；📉 白银 承压；📉 比特币 承压",
-        "chain": "加息预期推高实际利率（剔除通胀后的真实利率），削弱无息资产（黄金、比特币）吸引力",
-        "watch": "美联储官员讲话及利率期货定价（CME FedWatch）"
+        "what": "交易员押注美联储加息，贵金属和比特币齐跌",
+        "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
+        "chain": "加息预期推高实际利率（剔除通胀的借贷成本），压制无息资产（黄金/比特币）估值",
+        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -23,56 +23,42 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储加息预期降温，贵金属大幅拉升",
-        "assets": "📈 黄金 利好；📈 白银 利好",
-        "chain": "降息预期（借钱成本降低）压低美元，美元走弱（DXY跌）直接提振以美元计价的大宗商品",
-        "watch": "即将公布的通胀数据（CPI）及非农就业"
+        "what": "SpaceX计划用星链技术造AI卫星，淡化工程风险",
+        "assets": "📈 SpaceX估值 利好, 📈 AI卫星概念股 利好",
+        "chain": "星链数据（低轨卫星网络）赋能AI边缘计算（本地处理数据），降低延迟，吸引军工/通信订单",
+        "watch": "SpaceX IPO（首次公开募股）时间表及技术白皮书"
       }
     },
     {
       "rank": 3,
-      "title": "美联储，加息预期降温！黄金、白银拉升！",
-      "source": "证券时报",
-      "detail": "重磅数据披露。 当地时间周三，美国劳工统计局公布美国CPI数据。数据显示，美国5月消费者价格指数（CPI）同比增长4.2%，创2023年4月以来新高；预估为4.2%，前值为3.8%。",
-      "lang": "zh",
-      "score": 48,
-      "insight": {
-        "what": "SpaceX利用星链技术打造AI卫星，淡化工程风险",
-        "assets": "📈 太空概念股 利好；📈 卫星通信板块 利好",
-        "chain": "AI+卫星概念吸引IPO前估值（未上市股权定价），但工程挑战可能推迟商业化（盈利时间点）",
-        "watch": "SpaceX估值变动及星链用户增长数据"
-      }
-    },
-    {
-      "rank": 4,
       "title": "SpaceX拟利用现有星链技术打造AI卫星，IPO前淡化工程挑战",
       "source": "环球市场播报",
       "detail": "本周五即将以史上最大IPO规模登陆纳斯达克之际，SpaceX首席执行官埃隆·马斯克对外阐释了公司轨道AI数据中心计划的技术路径。他表示...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI秘密提交IPO申请，AI巨头竞逐公开市场",
-        "assets": "📈 AI概念股 利好；📈 科技IPO板块 利好",
-        "chain": "AI龙头上市将引爆一级市场（未上市企业）估值，并分流二级市场（已上市股票）资金",
-        "watch": "SEC披露文件及机构路演反馈"
+        "what": "OpenAI秘密提交IPO，AI三巨头争相上市",
+        "assets": "📈 AI板块 利好, 📈 科技IPO 利好",
+        "chain": "AI泡沫（估值过高）可能吸引热钱涌入，但需警惕上市后抛压（锁定期解禁的卖盘）",
+        "watch": "OpenAI招股书估值及监管审查进展"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "OpenAI秘密提交IPO申请，AI三巨头竞逐公开市场",
       "source": "环球市场播报",
       "detail": "继SpaceX和Anthropic相继启动上市进程后，OpenAI也正式加入了这场史无前例的超级IPO竞逐赛。 当地时间6月8日，OpenAI宣布已向美国证券交易委员会秘密提交S-1招股书草案。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "科技股承压回落，市场等待通胀数据和重磅IPO",
-        "assets": "📉 美股科技股 承压；📉 纳斯达克指数 承压",
-        "chain": "通胀预期（物价上涨速度）若超预期将加速加息，同时IPO抽血效应（新股发行吸走存量资金）加剧抛压",
-        "watch": "CPI数据及Arm、Instacart等IPO首日表现"
+        "what": "科技股回调，市场观望通胀数据和重磅IPO",
+        "assets": "📉 科技股 承压, 📈 防御性板块（公用事业/医疗） 利好",
+        "chain": "利率敏感型科技股（高估值依赖低息）遭抛售，资金轮动（板块切换）至防御股",
+        "watch": "美国CPI（消费者物价指数）及Arm/Instacart IPO定价"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "科技股承压回落 市场静待通胀数据与重磅IPO",
       "source": "环球市场播报",
       "detail": "美国股指期货周三全线走低，科技板块跌幅居前。投资者在美国关键通胀数据公布前保持谨慎，同时地缘政治紧张局势持续压制市场风险偏好。",
@@ -80,7 +66,7 @@
       "score": 45
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Gold, silver and bitcoin fall as traders up Fed rate hike bets",
       "source": "CNBC",
       "detail": "Precious metals were firmly in negative territory, as fears about inflation and the Federal Reserve's interest rate path weighed on investor sentiment.",
@@ -88,7 +74,7 @@
       "score": 45
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
@@ -96,7 +82,7 @@
       "score": 45
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Here are Wednesday's biggest analyst calls: Nvidia, Tesla, Cava, Netflix, Chipotle, Pfizer, Nike, SharkNinja & more",
       "source": "CNBC",
       "detail": "Here are the biggest calls on Wall Street on Wednesday.",
@@ -104,12 +90,20 @@
       "score": 44
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "SpaceX IPO获中东基金数十亿美元认购",
       "source": "环球市场播报",
       "detail": " 多位知情人士透露，海湾主权财富基金已大手笔认购SpaceX IPO股份，总额达数十亿美元，这也再度印证中东希望持续主导全球人工智能产业资金供给的宏大布局。",
       "lang": "zh",
       "score": 40
+    },
+    {
+      "rank": 10,
+      "title": "Weekly mortgage demand surges nearly 11% higher, despite volatile interest rates",
+      "source": "CNBC",
+      "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates climbed as well.",
+      "lang": "en",
+      "score": 35
     }
   ]
 }
