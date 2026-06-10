@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 11:31",
+  "updateTime": "2026-06-10 11:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 77,
       "insight": {
-        "what": "中国5月PPI创近4年新高，CPI不及预期",
-        "assets": "📉 中国国债 承压；📈 铜/原油 利多",
-        "chain": "PPI高企（生产者成本上升）→工业利润受挤压，但CPI低（物价弱）→央行宽松空间仍存，债市多空博弈加剧",
-        "watch": "今晚美国CPI数据及中国央行MLF（中期借贷便利）利率"
+        "what": "中国5月PPI（生产者价格）创近4年新高，CPI（居民消费）不及预期",
+        "assets": "📈 中国工业品期货 利好\n📉 中国消费股 承压",
+        "chain": "PPI走高推升企业成本，压缩利润率（盈利空间），若传导至CPI可能引发央行收紧",
+        "watch": "中国6月PMI（采购经理指数）及CPI数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美国5月通胀或重回4%，市场押注加息",
-        "assets": "📉 美股科技股 利空；📈 美元指数 利多；📉 美债 承压",
-        "chain": "通胀超预期（物价涨）→降息预期（借钱成本降低预期）破灭→加息预期（借钱成本提高）重燃→风险资产（股票/加密货币）抛售",
-        "watch": "今晚20:30美国CPI（消费者物价指数）实际值 vs 预期"
+        "what": "美国5月通胀预期重回4%，市场押注加息而非降息",
+        "assets": "📈 美元指数 利好\n📉 美股科技股 承压\n📉 黄金 承压",
+        "chain": "通胀超预期→加息预期升温（借钱成本上升）→风险资产（股票、商品）估值下杀",
+        "watch": "今晚美国5月CPI实际数据及美联储点阵图（利率预测）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价但散户配额未定",
-        "assets": "📈 太空概念股 情绪利多；📉 特斯拉 潜在分流",
-        "chain": "散户配额（个人投资者买入比例）不确定→若配比低→上市后波动大（抛压集中），同时分流科技板块资金",
-        "watch": "SEC（美国证监会）最终招股书中的零售配售比例"
+        "what": "SpaceX IPO定价已定，散户分配比例仍不确定",
+        "assets": "📈 SpaceX相关概念股 利好\n📉 其他未上市科技股 中性",
+        "chain": "IPO定价高→提振太空经济板块估值（估值锚定效应），但散户份额低可能引发首日波动",
+        "watch": "SpaceX正式上市首日成交量及散户参与率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "黄金重挫，聚焦今晚美国CPI数据",
-        "assets": "📉 黄金 承压；📉 白银 跟跌",
-        "chain": "CPI预期高（物价涨）→实际利率（名义利率-通胀）上行→持有黄金机会成本（放弃利息）增加→多头平仓（卖出持仓）",
-        "watch": "美国CPI环比及核心CPI（剔除食品能源）"
+        "what": "黄金重挫，市场等待今晚美国CPI数据",
+        "assets": "📉 黄金 承压\n📈 美元 利好",
+        "chain": "黄金暴跌因通胀预期升温→实际利率（名义利率减通胀）上升→无息资产（黄金）吸引力下降",
+        "watch": "今晚美国CPI实际数据及黄金持仓变化（CFTC报告）"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银警告：日本若鸽派加息或触发抛售",
-        "assets": "📉 日元 承压；📈 美元/日元 看涨；📉 日债 利空",
-        "chain": "鸽派加息（小幅加息但暗示未来不加）→预期差（市场原本期待鹰派）→日元贬值（日元跌）→日本央行干预（买入日元）但效果短暂",
-        "watch": "日本央行6月利率决议及植田和男讲话措辞"
+        "what": "美银警告：若日本央行鸽派加息（加息但态度温和），可能触发日元抛售",
+        "assets": "📉 日元 承压\n📈 日本出口股 利好",
+        "chain": "鸽派加息→市场预期加息不持续→套利交易（借低息日元买高息资产）卷土重来→日元贬值",
+        "watch": "日本央行利率决议及会后声明措辞"
       }
     },
     {
@@ -79,22 +79,14 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "华尔街押注美联储9月加息极限紧缩",
-        "assets": "📉 美股 利空；📉 新兴市场货币 承压；📈 美元 利多",
-        "chain": "加息预期（借钱成本提高）→隔夜利率（银行间拆借利率）飙升→风险资产估值（未来现金流折现）压缩→资金回流美元资产",
-        "watch": "联邦基金期货隐含利率（市场对加息概率的定价）"
+        "what": "华尔街开始押注美联储9月加息的极端紧缩情景",
+        "assets": "📈 美元 利好\n📉 美债 承压\n📉 全球股市 承压",
+        "chain": "加息预期→短端利率（短期国债收益率）飙升→压制风险偏好（避险情绪升温）→资金回流美元资产",
+        "watch": "美联储官员讲话及利率期货（Fed Funds Futures）隐含概率"
       }
     },
     {
       "rank": 7,
-      "title": "经济学家集体预计日本央行下周“拔剑”加息，10月或再加一次！",
-      "source": "市场资讯",
-      "detail": "文章来源：金十数据 围绕日本货币政策前景，市场对加息路径的判断正在迅速趋于一致。彭博的一项调查显示，在51位受访经济学家中，有49位预计日本央行将在6月16日结束为期两...",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 8,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
@@ -102,7 +94,7 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
@@ -110,12 +102,20 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
       "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "星巴克据悉考虑日本业务相关选项 包括出售股权和IPO",
+      "source": "环球市场播报",
+      "detail": "据多位知情人士透露，星巴克正在考虑日本业务的相关选项，其中包括出售股权。此前，该公司已出售中国业务的多数股权。 知情人士称...",
+      "lang": "zh",
+      "score": 30
     }
   ]
 }
