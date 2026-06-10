@@ -1,22 +1,36 @@
 {
-  "updateTime": "2026-06-10 19:35",
+  "updateTime": "2026-06-10 19:40",
   "news": [
     {
       "rank": 1,
+      "title": "Gold, silver and bitcoin fall as traders up Fed rate hike bets",
+      "source": "CNBC",
+      "detail": "Precious metals were firmly in negative territory, as fears about inflation and the Federal Reserve's interest rate path weighed on investor sentiment.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "交易员押注加息，黄金、白银、比特币齐跌",
+        "assets": "📉 黄金 承压\n📉 白银 承压\n📉 比特币 承压",
+        "chain": "加息预期→实际利率上升→无息资产（如黄金）吸引力下降→资金流向美元资产",
+        "watch": "美联储下次会议加息概率（Fed Watch工具）"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，散户配售比例仍不确定",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "散户准入受限可能推高机构需求，利好Pre-IPO基金（早期投资工具）和影子股（关联公司）。",
-        "watch": "散户配售比例及首日交易流动性"
+        "what": "SpaceX IPO定价已定，但散户配售份额仍不确定",
+        "assets": "📈 SpaceX 私募股权 利好（定价明确）\n📉 散户交易 不确定性",
+        "chain": "IPO定价→估值锚定→带动航天/商业航天板块估值重估（对标公司如维珍银河）",
+        "watch": "SEC文件确认的散户配售比例"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "消息人士：韩国已清算了与SpaceX IPO相关的约15亿美元需求",
       "source": "环球市场播报",
       "detail": " 一位知情人士周三透露，与SpaceX首次公开募股（IPO）相关的大规模外汇兑换需求已得到消化，此前数周这一需求曾对韩元构成沉重压力。",
@@ -24,69 +38,63 @@
       "score": 40,
       "insight": {
         "what": "韩国清算约15亿美元SpaceX IPO相关需求",
-        "assets": "📉 SpaceX股票 承压；📉 韩国股市 承压",
-        "chain": "韩国机构抛售表明资金面收紧，可能引发亚洲科技股联动调整（beta效应）。",
-        "watch": "韩国资金流向及SpaceX认购倍数"
+        "assets": "📉 SpaceX 私募股权 承压\n📉 韩国股市 资金外流",
+        "chain": "清算需求→IPO认购不足风险→影响SpaceX最终发行价和上市后流动性",
+        "watch": "SpaceX IPO最终认购倍数和上市首日表现"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "“60后”姐夫携小舅子创业，给“芯片散热”年入7亿IPO",
       "source": "市场资讯",
       "detail": "来源：风云IPO 创业板 实控人IPO前夕套现1.15亿元。 作者|刘俊群 编辑|刘钦文 你手里那部手机、眼前这台电脑、数据中心里耗费高额电费、满载运行AI模型的服务器...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "60后创业者携亲属公司IPO，主营芯片散热年入7亿",
-        "assets": "📈 芯片散热概念股 利好；📈 半导体设备股 利好",
-        "chain": "散热需求随AI芯片功耗增长（TDP热设计功耗）而上升，利好液冷、热管等上游供应商。",
-        "watch": "IPO估值及行业可比公司毛利率"
+        "what": "“60后”姐夫与小舅子创业，靠芯片散热年入7亿IPO",
+        "assets": "📈 芯片散热概念股 利好\n📈 科创板/A股IPO 活跃",
+        "chain": "芯片散热需求增长→AI算力功耗提升→散热技术（液冷/热管理）成产业链瓶颈→相关公司估值提升",
+        "watch": "该公司招股书中的毛利率和客户集中度"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Weekly mortgage demand surges nearly 11% higher, despite volatile interest rates",
       "source": "CNBC",
       "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates rose as well.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "美国房贷申请量周环比飙升近11%，无视利率波动",
-        "assets": "📈 美国房地产股 利好；📈 抵押贷款支持证券（MBS） 利好",
-        "chain": "购房需求韧性暗示经济软着陆，可能推迟美联储降息（借钱成本降低）预期，利空债券。",
-        "watch": "30年期房贷利率及成屋销售数据"
+        "what": "房贷利率波动，但周度申请量仍飙升近11%",
+        "assets": "📈 房地产REITs 利好\n📈 抵押贷款相关ETF 利好",
+        "chain": "房贷申请激增→购房需求回暖→提振建筑/家居板块→缓解经济衰退担忧",
+        "watch": "30年期固定房贷利率走势及成屋销售数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "苹果官宣AI升级+PCB涨价+芯片出口大增！电子三箭齐发，全年景气可期！半导体逆市领涨，海光信息涨超6%！",
       "source": "新浪基金",
       "detail": "或由于中东地缘扰动，叠加市场担忧将于当地时间周三出炉的美国5月CPI数据进一步走高，加剧美联储加息压力，今日（6月10日）市场盘整，A股三大指数悉数收绿...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "苹果AI升级+PCB涨价+芯片出口大增，电子板块领涨",
-        "assets": "📈 苹果供应链股 利好；📈 半导体ETF 利好；📈 PCB（印刷电路板）板块 利好",
-        "chain": "AI端侧（设备本地AI）需求拉动芯片和PCB（印刷电路板）订单，全年景气预期推高估值（PE市盈率）。",
-        "watch": "苹果AI功能落地进度及芯片出口数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
-      "source": "CNBC",
-      "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "Super Micro宣布70亿美元融资计划，股价暴跌",
-        "assets": "📉 Super Micro股票 利空；📉 AI服务器板块 承压",
-        "chain": "巨额融资稀释现有股东权益（每股收益下降），但资金用于AI服务器订单，长期利好数据中心上游。",
-        "watch": "融资用途细节及AI服务器订单交付率"
+        "what": "苹果AI升级+PCB涨价+芯片出口大增，电子三箭齐发",
+        "assets": "📈 苹果产业链 利好\n📈 PCB板块（印刷电路板） 利好\n📈 半导体（海光信息） 利好",
+        "chain": "AI升级→算力需求→PCB/芯片需求增加→行业景气度反转→资金从防御转向成长股",
+        "watch": "苹果AI功能落地时间表及半导体出口增速数据"
       }
     },
     {
       "rank": 7,
+      "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
+      "source": "CNBC",
+      "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "日本央行行长植田和男入院治疗 预计将缺席6月份货币政策会议",
       "source": "环球市场播报",
       "detail": "据日本央行，行长植田和男已住院，预计将缺席下周的政策会议。 日本央行周三在声明中表示：“行长目前因肝囊肿感染住院治疗。预计他将住院约两周。",
@@ -102,18 +110,10 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "校车科创企业Zum启动IPO前期筹备",
       "source": "环球市场播报",
       "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
-      "source": "环球市场播报",
-      "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
       "lang": "zh",
       "score": 30
     }
