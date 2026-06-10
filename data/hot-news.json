@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 00:20",
+  "updateTime": "2026-06-11 00:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "PVH面临投资者集体诉讼欺诈调查",
-        "assets": "📉 PVH股价 利空",
-        "chain": "诉讼风险增加，可能拖累零售板块情绪，引发对冲基金减持（做空）",
-        "watch": "法院是否受理及PVH财报修正"
+        "what": "PVH面临投资者欺诈诉讼调查",
+        "assets": "📉 PVH美股 利空",
+        "chain": "诉讼风险提升做空（押注下跌）情绪，可能拖累零售板块估值",
+        "watch": "诉讼立案进展及PVH财报电话会回应"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "Federated Hermes市政收益基金宣布月度分红",
+        "what": "Federated Hermes市政收益基金宣布月度分红0.045美元",
         "assets": "📈 市政债券基金 利好",
-        "chain": "分红吸引避险资金流入，固收类资产需求上升，压低市政债收益率（债券价格涨）",
-        "watch": "分红除息日前后资金流向"
+        "chain": "高分红吸引避险资金流入，压低收益率（债券价格上升），反映市场风险偏好下降",
+        "watch": "市政债ETF资金流向及利率曲线变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "美国公共部门AI应用进入深化阶段",
-        "assets": "📈 AI软件/云服务股 利好",
-        "chain": "政府订单增加，拉动AI基础设施支出，利好SaaS（软件即服务）和网络安全",
-        "watch": "政府AI采购合同金额"
+        "what": "美国公共部门AI应用深化，Appian调查显示",
+        "assets": "📈 AI软件股（如Appian） 利好",
+        "chain": "政府合同增加推动AI企业营收，但可能挤压传统IT服务商份额",
+        "watch": "美国联邦IT预算中AI支出占比"
       }
     },
     {
@@ -51,45 +51,45 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "半数美国人向AI寻求医疗建议且信任度高",
-        "assets": "📈 AI医疗诊断股 利好",
-        "chain": "用户习惯形成，推动AI医疗应用渗透率提升，利好相关软件和硬件",
+        "what": "半数美国人向AI寻求医疗建议，多数信任",
+        "assets": "📈 AI医疗股 利好",
+        "chain": "用户信任提升加速AI医疗产品落地，可能引发监管（政策风险）",
         "watch": "FDA对AI医疗设备的审批动态"
       }
     },
     {
       "rank": 5,
-      "title": "indie公司推出边缘AI芯片，助力汽车与人形机器人感知系统",
-      "source": "环球市场播报",
-      "detail": "汽车半导体解决方案创新企业indie Semiconductor近日发布其下一代边缘人工智能系统级芯片iND881。该芯片集成了AI计算引擎，旨在为汽车和机器人领域的智能摄像头提供强大算...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "indie推出边缘AI芯片用于汽车和人形机器人",
-        "assets": "📈 边缘AI芯片股 利好；📈 汽车/机器人传感器股 利好",
-        "chain": "降低延迟（响应时间短），提升自动驾驶和机器人感知能力，刺激上游晶圆代工需求",
-        "watch": "indie芯片量产时间表及客户订单"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Here's the inflation breakdown for May 2026 — in one chart",
       "source": "CNBC",
       "detail": "Inflation jumped to a three-year high in May as the Iran war continued to fuel higher energy prices.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "2026年5月通胀数据图表发布",
-        "assets": "📈 美债 利好（若通胀回落）；📉 美元 承压（若通胀超预期）",
-        "chain": "通胀读数影响美联储降息预期（借钱成本变化），进而波动股市和商品",
-        "watch": "核心CPI环比及美联储官员讲话"
+        "what": "2026年5月通胀数据图表公布",
+        "assets": "📈 美债收益率 承压；📉 美元 承压",
+        "chain": "若通胀超预期，降息（借钱成本降低）预期推迟，利空风险资产",
+        "watch": "核心CPI（剔除食品能源的通胀）月环比及美联储官员讲话"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Palantir's Karp says businesses are 'unhappy' with the frontier AI labs",
+      "source": "CNBC",
+      "detail": "Palantir CEO Alex Karp says AI will drive the most important political decisions in the U.S. and shouldn't be decided by party lines.",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "Palantir CEO称企业对前沿AI实验室不满",
+        "assets": "📉 AI概念股（如Palantir） 承压",
+        "chain": "企业需求疲软信号，可能引发AI板块获利了结（卖出），转向防御板块",
+        "watch": "Palantir财报中商业客户增速及AI平台订阅数据"
       }
     },
     {
       "rank": 7,
-      "title": "Palantir's Karp says businesses are 'unhappy' with the frontier AI labs",
+      "title": "Beef prices finally fell, but cattle herd screwworm could eat into consumers' inflation relief ",
       "source": "CNBC",
-      "detail": "Palantir CEO Alex Karp says AI will drive the most important political decisions in the U.S. and shouldn't be decided by party lines.",
+      "detail": "The arrival of the invasive New World screwworm in Texas could hit consumers this summer with beef prices already an acute source of inflation. ",
       "lang": "en",
       "score": 20
     },
