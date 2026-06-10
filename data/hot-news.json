@@ -1,22 +1,36 @@
 {
-  "updateTime": "2026-06-10 16:46",
+  "updateTime": "2026-06-10 16:50",
   "news": [
     {
       "rank": 1,
+      "title": "美联储降息预期反复，市场拐点在哪？东北证券廖博：年内加息可能性较低",
+      "source": "新浪证券",
+      "detail": "近期，美联储降息预期频频摇摆，全球资本市场随之震荡。市场关心的核心问题在于：政策拐点何时到来？在“东升西降”的宏观叙事下，投资者又该如何布局攻防主线？",
+      "lang": "zh",
+      "score": 54,
+      "insight": {
+        "what": "美联储降息预期反复，年内加息概率低",
+        "assets": "📈 美股大盘 利好",
+        "chain": "降息预期（借钱成本降低）支撑风险偏好，但反复波动增加市场波动率（价格上下震荡幅度）",
+        "watch": "下次CPI（消费者物价指数）数据及美联储官员讲话"
+      }
+    },
+    {
+      "rank": 2,
       "title": "China May wholesale inflation hits near 4-year high on Iran war-led higher input costs, AI boom   ",
       "source": "CNBC",
       "detail": "The Middle East conflict has given China's economy a reflationary boost as energy and raw material disruptions deepened.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "中国5月PPI（生产者价格指数）同比涨至近4年新高",
-        "assets": "📈 中国工业品期货 利多\n📉 中国国债 承压",
-        "chain": "输入成本上升压缩企业利润率（毛利空间），但AI需求对冲部分影响，关注PPI向CPI（消费者物价指数）传导",
-        "watch": "中国6月PMI（采购经理指数）及央行是否收紧流动性"
+        "what": "中国5月PPI（生产者价格指数）创近4年新高，因伊朗战争推高成本及AI需求",
+        "assets": "📈 中国大宗商品 利好\n📉 中国制造业 承压",
+        "chain": "输入性通胀（进口原材料涨价）挤压中游利润，但AI需求拉动部分科技硬件定价权",
+        "watch": "后续PPI环比增速及央行是否收紧信贷"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "美股 IPO 热潮或将终结美股流通股本持续缩减的局面",
       "source": "环球市场播报",
       "detail": " 随着三家巨头企业启动大规模首次公开募股，海量新股涌入市场，美股长达二十余年的股票供给收缩态势即将告终。投资者警示，这可能超出市场承接能力。",
@@ -24,27 +38,27 @@
       "score": 45,
       "insight": {
         "what": "美股IPO热潮可能终结流通股本缩减趋势",
-        "assets": "📉 美股小盘股 承压\n📈 新股供应 利空存量",
-        "chain": "新股上市增加股票供给（稀释现有股份），压制估值倍数（市盈率），资金从科技股流向IPO认购",
-        "watch": "本周新股上市首日涨幅及IPO定价折扣"
+        "assets": "📉 美股小盘股 承压\n📈 新股供应 增加",
+        "chain": "流通股本增加稀释现有持股，压制估值（股价/盈利倍数），但吸引增量资金入场",
+        "watch": "未来IPO定价及认购倍数"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户配售比例仍不确定",
-        "assets": "📈 太空概念股 联动\n📉 特斯拉 资金分流",
-        "chain": "散户资金从现有科技股抽离备战IPO，引发板块轮动（资金搬家）；SpaceX定价暗示估值锚定效应",
-        "watch": "SpaceX最终发行规模及零售配售比例"
+        "what": "SpaceX IPO价格已定，但散户分配份额未明确",
+        "assets": "📈 太空概念股 利好\n📉 特斯拉 承压",
+        "chain": "散户抢购可能分流科技板块资金，推高太空赛道估值（未来盈利预期）",
+        "watch": "SpaceX最终发行价及散户中签率"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "知情人士：韩国已消化与SpaceX IPO相关的约15亿美元买需",
       "source": "环球市场播报",
       "detail": " 一位知情人士周三表示，与SpaceX首次公开发行（IPO）相关的大规模外汇兑换需求已得到消化，此前这些需求在过去几周对韩元造成了沉重压力。",
@@ -52,41 +66,35 @@
       "score": 40,
       "insight": {
         "what": "韩国消化约15亿美元SpaceX IPO买需",
-        "assets": "📈 韩国券商 利好\n📉 韩国科技股 资金流出",
-        "chain": "韩国机构提前锁定份额，说明亚洲资金对SpaceX需求强劲，可能引发本地科技股减仓（腾仓位）",
-        "watch": "韩国KOSPI指数科技板块资金流向"
+        "assets": "📈 韩国股市 资金外流\n📉 韩国科技股 承压",
+        "chain": "资金从韩国本土科技股流向SpaceX，反映全球资金追逐高成长（高增长预期）标的",
+        "watch": "韩国KOSPI指数及外资净流入数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "投资者锁定人工智能板块利润并备战SpaceX首次公开募股 美股科技板块遭遇持续抛售",
       "source": "环球市场播报",
       "detail": "受到投资者大举调整人工智能（AI）板块仓位，以及集中资金备战本周即将进行的美国太空探索技术公司（SpaceX）历史性首次公开募股（IPO）影响...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "投资者锁定AI利润并备战SpaceX IPO，科技板块遭抛售",
-        "assets": "📉 美股科技股（NVDA等） 利空\n📈 防御性板块（公用事业） 避险",
-        "chain": "AI获利了结（止盈）叠加IPO抽资，形成双重卖压；资金轮动至低波动资产，科技股波动率（恐慌指数）上升",
-        "watch": "科技板块ETF资金净流出量及VIX（波动率指数）变化"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
-      "source": "CNBC",
-      "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "网络安全公司称中国利用AI间谍活动追赶美国技术",
-        "assets": "📉 中美科技合作股 利空\n📈 网络安全股 利多",
-        "chain": "地缘风险溢价上升，中国AI芯片进口限制可能加码（制裁风险），美国国防预算或增加网络安全开支",
-        "watch": "美国对华AI技术出口管制新规及中国半导体国产化进度"
+        "what": "投资者抛售AI股获利，备战SpaceX IPO，科技板块遭持续抛售",
+        "assets": "📉 美股AI科技股 承压\n📈 SpaceX相关股 利好",
+        "chain": "资金轮动（从一板块转移到另一板块）从AI撤出转向新股，短期科技板块面临回调（价格下跌）压力",
+        "watch": "科技板块ETF（交易所交易基金）资金流向及SpaceX申购数据"
       }
     },
     {
       "rank": 7,
+      "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
+      "source": "CNBC",
+      "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
@@ -102,20 +110,12 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
       "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "能源价格上涨推高通胀预期 美国5月CPI同比涨幅预计创三年新高",
-      "source": "环球市场播报",
-      "detail": "综合外电报道，美国劳工部即将于当地时间周三公布5月份消费者价格指数（CPI）。市场主流经济学家普遍预测，受国际地缘冲突及能源价格飙升等因素影响...",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
