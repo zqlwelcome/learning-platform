@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 18:26",
+  "updateTime": "2026-06-10 18:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价，散户分配仍不确定",
-        "assets": "📈 SpaceX 利好",
-        "chain": "若散户参与度高，推高首日涨幅，带动太空概念股（如Virgin Galactic）",
-        "watch": "IPO首日开盘价及散户配售比例"
+        "what": "SpaceX IPO定价确定，散户配售仍不明朗",
+        "assets": "📈 SpaceX 估值 利好\n📈 太空概念股 利好",
+        "chain": "若散户配售比例低，首日波动可能加剧（IPO定价与交易价差扩大），推高二级市场投机溢价",
+        "watch": "散户配售比例及首日开盘涨幅"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "韩国清算15亿美元SpaceX IPO相关需求",
-        "assets": "📉 SpaceX 承压",
-        "chain": "大单撤资暗示机构需求不足，可能压低IPO定价或首日表现",
-        "watch": "SpaceX最终发行价及超额认购倍数"
+        "what": "韩国清算约15亿美元SpaceX IPO需求",
+        "assets": "📉 SpaceX IPO 需求 承压\n📉 韩国资本市场 流动性 偏紧",
+        "chain": "韩国机构清仓或为应对本土流动性压力（资金回流），短期压制全球风险偏好（Risk-off）",
+        "watch": "韩国央行是否释放流动性信号"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "东北证券廖博：人民币升值、AI共振，A股向上",
-        "assets": "📈 人民币 利好 📈 A股 利好 📈 AI概念股 利好",
-        "chain": "人民币升值（本币走强）吸引外资流入，AI军备竞赛（科技竞争）推高科技板块估值",
-        "watch": "人民币兑美元汇率能否突破7.0关键位"
+        "what": "东北证券看多A股：人民币升值+AI军备竞赛共振",
+        "assets": "📈 A股 利好\n📈 人民币 升值预期 利好\n📈 AI概念股 利好",
+        "chain": "人民币升值吸引外资流入（北向资金），叠加AI军备竞赛提升科技股估值，形成戴维斯双击（盈利与估值双升）",
+        "watch": "人民币汇率及北向资金净流入量"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑因70亿融资计划股价暴跌，同时宣布AI订单",
-        "assets": "📉 超微电脑 利空 📈 AI服务器板块 利好",
-        "chain": "融资稀释（增发股票）短期打压股价，但AI订单证实需求，或带动同行如戴尔、惠普",
-        "watch": "超微电脑融资后负债率和AI订单执行进度"
+        "what": "Super Micro因70亿美元融资计划及AI订单暴跌",
+        "assets": "📉 Super Micro 股价 利空\n📉 AI服务器板块 承压",
+        "chain": "巨额融资引发稀释担忧（每股收益被摊薄），但AI订单验证需求，短期利空长期利好，需关注可转债对冲",
+        "watch": "融资细节（利率/转换价）及后续订单量"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic发布Mythos级AI模型，两个月前已震动华尔街",
-        "assets": "📈 AI行业 利好",
-        "chain": "新模型强化AI能力，可能加速企业采用，利好英伟达等算力股（GPU需求）",
-        "watch": "模型付费用户数及企业合同签约量"
+        "what": "Anthropic向公众发布类MythosAI模型",
+        "assets": "📈 AI大模型板块 利好\n📉 OpenAI 竞争 承压",
+        "chain": "模型公开化加速AI应用落地（如企业级部署），但可能引发价格战（API调用成本下降），压缩头部利润",
+        "watch": "API定价及企业客户采用率"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "校车科创企业Zum启动IPO前期筹备",
-        "assets": "📈 校车科技股 利好",
-        "chain": "IPO启动信号提振电动校车板块，可能带动同行如Blue Bird（传统校车转型）",
-        "watch": "Zum招股书披露的营收增长率和客户数量"
+        "what": "校车科创Zum启动IPO前期筹备",
+        "assets": "📈 教育科技/出行 板块 利好\n📈 美股IPO市场 回暖 利好",
+        "chain": "Zum作为校车SaaS（软件即服务）平台，IPO将强化市场对垂直科技服务的信心，带动同类标的估值修复",
+        "watch": "Zum营收增速及IPO估值区间"
       }
     },
     {
@@ -103,19 +103,19 @@
     },
     {
       "rank": 9,
+      "title": "ATFX:美国5月CPI数据来袭 主流预期通胀继续升温",
+      "source": "市场资讯",
+      "detail": "6月10日，ATFX：美国五月份的CPI数据，将会在北京时间20点30分。五月份CPI年率的预期值是4.2%，高于前值3.8%，市场预期通胀继续升温。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 10,
       "title": "SoftBank sinks over 8% as Asia tech stocks tumble, tracking Wall Street losses",
       "source": "CNBC",
       "detail": "Asian semiconductor and technology stocks fell on Wednesday, tracking overnight losses on Wall Street.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "利好来了！工信部重磅发布！事关“人工智能+信息通信”创新发展",
-      "source": "券商中国",
-      "detail": "AI及信息通信产业，又迎来“利好”！ 6月10日下午消息，工信部印发《“人工智能+信息通信”创新发展实施意见（2026—2028年）》（以下简称《实施意见》）。",
-      "lang": "zh",
-      "score": 20
     }
   ]
 }
