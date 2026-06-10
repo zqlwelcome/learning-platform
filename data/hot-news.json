@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 19:40",
+  "updateTime": "2026-06-10 19:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "交易员押注加息，黄金、白银、比特币齐跌",
+        "what": "交易员押注美联储加息，金银比特币下跌",
         "assets": "📉 黄金 承压\n📉 白银 承压\n📉 比特币 承压",
-        "chain": "加息预期→实际利率上升→无息资产（如黄金）吸引力下降→资金流向美元资产",
-        "watch": "美联储下次会议加息概率（Fed Watch工具）"
+        "chain": "加息预期推高实际利率（通胀调整后利率），压制无息资产（黄金、比特币）估值",
+        "watch": "今晚美国CPI（通胀数据）及Fed讲话"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，但散户配售份额仍不确定",
-        "assets": "📈 SpaceX 私募股权 利好（定价明确）\n📉 散户交易 不确定性",
-        "chain": "IPO定价→估值锚定→带动航天/商业航天板块估值重估（对标公司如维珍银河）",
-        "watch": "SEC文件确认的散户配售比例"
+        "what": "SpaceX IPO定价确定，散户分配比例未定",
+        "assets": "📈 SpaceX 关注",
+        "chain": "若散户分配少，首日涨幅可能大（供给稀缺）；若多，则压制上市后走势",
+        "watch": "最终散户配售比例及IPO首日涨幅"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "韩国清算约15亿美元SpaceX IPO相关需求",
-        "assets": "📉 SpaceX 私募股权 承压\n📉 韩国股市 资金外流",
-        "chain": "清算需求→IPO认购不足风险→影响SpaceX最终发行价和上市后流动性",
-        "watch": "SpaceX IPO最终认购倍数和上市首日表现"
+        "what": "韩国机构清算了约15亿美元SpaceX IPO需求",
+        "assets": "📉 SpaceX 承压",
+        "chain": "大额清算暗示机构对估值过高担忧，可能拖累二级市场认购情绪",
+        "watch": "其他机构是否跟进清算及上市后抛压"
       }
     },
     {
@@ -51,24 +51,24 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "“60后”姐夫与小舅子创业，靠芯片散热年入7亿IPO",
-        "assets": "📈 芯片散热概念股 利好\n📈 科创板/A股IPO 活跃",
-        "chain": "芯片散热需求增长→AI算力功耗提升→散热技术（液冷/热管理）成产业链瓶颈→相关公司估值提升",
-        "watch": "该公司招股书中的毛利率和客户集中度"
+        "what": "“60后”创业公司做芯片散热，年入7亿冲刺IPO",
+        "assets": "📈 A股半导体散热概念 利好",
+        "chain": "散热是芯片高性能化关键环节（技术瓶颈），IPO利好带动产业链估值",
+        "watch": "公司招股书毛利率及客户集中度"
       }
     },
     {
       "rank": 5,
       "title": "Weekly mortgage demand surges nearly 11% higher, despite volatile interest rates",
       "source": "CNBC",
-      "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates rose as well.",
+      "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates climbed as well.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "房贷利率波动，但周度申请量仍飙升近11%",
-        "assets": "📈 房地产REITs 利好\n📈 抵押贷款相关ETF 利好",
-        "chain": "房贷申请激增→购房需求回暖→提振建筑/家居板块→缓解经济衰退担忧",
-        "watch": "30年期固定房贷利率走势及成屋销售数据"
+        "what": "房贷利率波动下，周度抵押贷款需求飙升近11%",
+        "assets": "📈 美国房地产REITs（房地产信托） 利好",
+        "chain": "房贷需求上升暗示购房者适应利率，可能支撑房价（资产价格）",
+        "watch": "后续每周MBA（抵押贷款银行家协会）申请数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "苹果AI升级+PCB涨价+芯片出口大增，电子三箭齐发",
-        "assets": "📈 苹果产业链 利好\n📈 PCB板块（印刷电路板） 利好\n📈 半导体（海光信息） 利好",
-        "chain": "AI升级→算力需求→PCB/芯片需求增加→行业景气度反转→资金从防御转向成长股",
-        "watch": "苹果AI功能落地时间表及半导体出口增速数据"
+        "what": "苹果AI升级+PCB涨价+芯片出口大增，半导体领涨",
+        "assets": "📈 A股半导体 利好\n📈 苹果产业链 利好\n📈 PCB（印制电路板） 利好",
+        "chain": "AI算力需求（人工智能计算能力）拉动芯片，苹果创新（新产品）带动换机潮，涨价确认周期反转",
+        "watch": "苹果秋季发布会及半导体库存天数"
       }
     },
     {
