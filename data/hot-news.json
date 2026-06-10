@@ -1,32 +1,32 @@
 {
-  "updateTime": "2026-06-11 01:01",
+  "updateTime": "2026-06-11 01:05",
   "news": [
     {
       "rank": 1,
-      "title": "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance",
-      "source": "CNBC",
-      "detail": "Sen. Elizabeth Warren noted Elon Musk's \"uniquely unchecked\" power as SpaceX's majority shareholder and other concerns in a letter to the SEC.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "沃伦要求SEC延迟SpaceX IPO，质疑估值和治理",
-        "assets": "📉 SpaceX估值 承压；📈 竞争对手（如ULA） 利好",
-        "chain": "IPO延迟可能抑制太空板块风险偏好，资金转向防御性军工（如洛克希德·马丁）",
-        "watch": "SEC是否正式发起调查或SpaceX回应"
-      }
-    },
-    {
-      "rank": 2,
       "title": "The SpaceX IPO could be coming for the 'Magnificent Seven' and chip stocks",
       "source": "CNBC",
       "detail": "The \"Magnificent Seven\" is the market pocket that's most likely to see a rotation, analysts say.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX IPO可能冲击美股七巨头和芯片股",
-        "assets": "📉 七巨头（科技龙头） 承压；📉 芯片股（如英伟达） 承压",
-        "chain": "SpaceX IPO吸走流动性（资金从科技股流向太空概念），加剧科技板块轮动（sector rotation）",
-        "watch": "SpaceX上市时间表及机构认购规模"
+        "what": "SpaceX IPO可能冲击美股科技七巨头和芯片股",
+        "assets": "📉 美股科技七巨头 承压；📉 芯片股 承压",
+        "chain": "SpaceX上市吸走流动性（资金从现有科技股流向新股），拉低板块估值（PE倍数收缩）。",
+        "watch": "SpaceX IPO估值及发行时间表"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance",
+      "source": "CNBC",
+      "detail": "Sen. Elizabeth Warren noted Elon Musk's \"uniquely unchecked\" power as SpaceX's majority shareholder and other concerns in a letter to the SEC.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "参议员沃伦要求SEC推迟SpaceX IPO，质疑估值和治理",
+        "assets": "📉 SpaceX IPO 承压；📉 科技新股情绪 利空",
+        "chain": "监管审查延迟上市节奏，增加不确定性（风险溢价上升），压制一级市场（未上市企业）融资热度。",
+        "watch": "SEC是否受理调查及IPO时间表变更"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "欧洲股市持稳，等待欧央行利率决议",
-        "assets": "📈 欧洲股市 中性偏多；📉 欧元 承压（若鸽派）",
-        "chain": "欧央行若降息（借钱成本降低）利好欧债，但可能拉低欧元兑美元（EUR/USD）",
-        "watch": "欧央行声明措辞及通胀预测"
+        "what": "欧洲股市持稳，市场等待欧洲央行利率决议",
+        "assets": "📈 欧股 中性偏多；📈 欧元 波动加大",
+        "chain": "若欧央行鹰派（加息预期），欧股承压但欧元走强；若鸽派（降息预期），欧股获支撑但欧元贬值。",
+        "watch": "欧央行利率决议及拉加德讲话措辞"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "PVH投资者可参与欺诈调查诉讼",
-        "assets": "📉 PVH股价 承压；📈 做空机构 利好",
-        "chain": "诉讼风险增加PVH法律成本，可能引发零售板块估值重估（valuation re-rating）",
-        "watch": "法院是否受理集体诉讼及PVH财报透明度"
+        "what": "PVH投资者可参与Schall律所发起的欺诈调查",
+        "assets": "📉 PVH集团 利空；📉 服装零售板块 情绪承压",
+        "chain": "集体诉讼风险推高法律成本（诉讼费用增加），可能引发做空机构（对冲基金）跟进打压股价。",
+        "watch": "PVH财报及诉讼进展披露"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "Federated Hermes市政收益基金宣布月度分红0.045美元/股",
-        "assets": "📈 市政债基金 利好；📈 高收益债 中性偏多",
-        "chain": "稳定分红吸引寻求收益的资金（yield-seeking），但若利率上行（加息）可能侵蚀吸引力",
-        "watch": "美联储利率路径及市政债违约率"
+        "what": "Federated Hermes市政收益基金宣布月度分红每股0.045美元",
+        "assets": "📈 市政债基金 利好；📈 固定收益类资产 中性偏多",
+        "chain": "稳定分红吸引避险资金（追求现金流），推高基金净值但降低再投资收益率（分红后净值下降）。",
+        "watch": "基金分红除权日及再投资价格"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "美国公共部门AI应用进入深化阶段",
-        "assets": "📈 AI软件股（如Palantir） 利好；📈 云计算（如AWS） 利好",
-        "chain": "政府AI订单增加（催化剂）利好相关公司营收，但可能引发隐私监管风险（regulatory risk）",
-        "watch": "美国AI行政令进展及政府预算分配"
+        "what": "Appian调查显示美国公共部门AI应用进入深化阶段",
+        "assets": "📈 AI软件股 利好；📈 政府IT服务商 利好",
+        "chain": "政府AI采购增加（订单增长），利好Appian等低代码平台，带动云计算（云服务）和数据分析需求。",
+        "watch": "美国联邦AI预算及后续采购合同"
       }
     },
     {
@@ -95,9 +95,9 @@
     },
     {
       "rank": 8,
-      "title": "Humaniod robotics company raises up to $1.4 billion from Nvidia, Amazon and others",
+      "title": "Stocks making the biggest moves midday: Super Micro, Cracker Barrel, Robinhood Markets, truckers & more",
       "source": "CNBC",
-      "detail": "Investors have rushed to back companies in the physical AI space",
+      "detail": "These are some of the stocks posting the largest moves midday.",
       "lang": "en",
       "score": 27
     },
