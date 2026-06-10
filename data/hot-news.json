@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 08:21",
+  "updateTime": "2026-06-10 08:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价，散户分配仍不确定",
-        "assets": "📈 太空概念股 利好，📉 散户交易平台 承压",
-        "chain": "若散户分配少，机构主导，可能推高IPO首日涨幅，但压制零售经纪商交易量",
-        "watch": "SpaceX最终散户配售比例及首日交易量"
+        "what": "SpaceX IPO定价确定，散户配额未定",
+        "assets": "📈 SpaceX相关概念股 利好；📈 航天板块 情绪提振",
+        "chain": "IPO定价高暗示需求强，散户无法参与或转投其他航天ETF（交易所交易基金），推高板块估值",
+        "watch": "SpaceX最终散户配售比例及首日涨幅"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "280亿资金逆势流入股票型ETF，全球AI巨头竞速IPO",
-        "assets": "📈 A股ETF 资金流入利好，📈 AI科技股 利好",
-        "chain": "资金避险涌入ETF（交易所交易基金），显示机构抄底意愿；AI巨头IPO（首次公开募股）加速可能抽血存量流动性",
-        "watch": "ETF资金流向持续性及AI公司IPO定价"
+        "what": "280亿资金逆势涌入股票型ETF，全球AI公司争相IPO",
+        "assets": "📈 A股大盘ETF 利好；📈 全球AI板块 利好",
+        "chain": "资金借道ETF抄底（趁低买入）支撑指数，AI IPO热潮加剧科技股资金虹吸（吸走其他板块流动性）",
+        "watch": "ETF净申购量是否持续；AI新股上市首日表现"
       }
     },
     {
       "rank": 3,
-      "title": "加元跌至年内低点 市场押注加拿大央行加息落后于全球主要央行",
-      "source": "市场资讯",
-      "detail": "文章来源：新华财经 新华财经北京6月10日电 9日，加元跌至去年12月以来最低水平，市场预计加拿大央行加息步伐将慢于全球其他主要央行。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "加元跌至年内低点，市场押注加拿大央行加息落后",
-        "assets": "📉 加元 承压，📈 美元 走强",
-        "chain": "利差扩大（加拿大利率预期低于美国），资本外流至美元资产，加元贬值压力加剧进口通胀",
-        "watch": "加拿大央行下次利率决议及美加利差变化"
-      }
-    },
-    {
-      "rank": 4,
       "title": "腾讯控股：根据全球中期票据计划对24.5亿美元及人民币150亿元票据进行定价",
       "source": "新浪港股",
       "detail": "腾讯控股（00700）发布公告，于2026年6月9日（纽约时间），本公司已分别与美元票据经办人就根据计划发行本金总额24.5亿美元的美元票据订立认购协议；及人民币票据经办人就...",
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "腾讯发行24.5亿美元及150亿人民币票据",
-        "assets": "📉 腾讯股票 短期承压，📈 中资美元债 供给增加",
-        "chain": "新债供给可能压低债券价格（收益率上升），但融资用于回购或投资可支撑股价",
-        "watch": "票据定价利率及腾讯后续回购计划"
+        "what": "腾讯定价24.5亿美元及150亿人民币票据",
+        "assets": "📉 腾讯债券 承压（新债供给增加）；📉 中资美元债 利空",
+        "chain": "腾讯融资补充流动性，可能用于回购或投资，但债券供给增加压低现有债券价格（债券价格与收益率反向）",
+        "watch": "票据认购倍数及二级市场收益率变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑因70亿美元融资计划股价暴跌，AI服务器订单被提及",
-        "assets": "📉 超微电脑 利空，📈 AI服务器板块 分化",
-        "chain": "大规模融资稀释股权（每股收益下降），但订单利好暗示行业需求旺盛，可能拖累同类高估值硬件股",
-        "watch": "融资条款及后续AI服务器订单确认量"
+        "what": "超微电脑因70亿美元融资计划股价暴跌，同时称AI服务器订单强劲",
+        "assets": "📉 超微电脑 利空；📈 AI服务器板块 分化（订单利好被融资稀释）",
+        "chain": "巨额融资稀释现有股东权益（每股价值下降），但订单强劲支撑长期AI算力需求，板块内个股分化加剧",
+        "watch": "融资实际用途及后续订单披露"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic发布类MythosAI模型，私测后公开上线",
-        "assets": "📈 AI应用股 利好，📉 传统软件股 承压",
-        "chain": "模型能力突破将加速AI商业化（如客服、内容生成），挤压传统SaaS（软件即服务）市场份额",
-        "watch": "模型API定价及用户采用率数据"
+        "what": "Anthropic向公众发布类似Mythos的AI模型，此前已私下影响华尔街",
+        "assets": "📈 AI概念股 利好；📉 传统软件股 承压",
+        "chain": "新模型公开加剧AI军备竞赛（各公司加速投入），传统软件股面临AI替代威胁（如客服、编程工具）",
+        "watch": "模型用户量及API（应用程序接口）调用价格变化"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Jim Cramer称科技股失去领涨特质",
+        "assets": "📉 美股科技股 利空；📈 价值股/防御板块 轮动",
+        "chain": "明星分析师唱衰引发资金轮动（从科技转向能源、公用事业等低估值板块），加剧科技股抛售（卖压）",
+        "watch": "科技股ETF资金流出量及Cramer后续观点"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "美债收益率集体回落 美联储政策路径预期持续转向",
       "source": "市场资讯",
       "detail": "文章来源：新华财经 新华财经北京6月10日电（王菁）在上日大幅攀升之后，当地时间6月9日，美债收益率震荡回落，2年期美债收益率下跌4.16BPs至4.118%...",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "中信建投：美联储如何决定货币政策？——全球债市研究系列九",
       "source": "市场资讯",
       "detail": "文章来源：中信建投证券研究 文|曾羽曲远源 短期内，美联储加息概率仍低，市场对美联储紧缩的担忧主要在预期层面，建立在美国国内通胀粘性、就业持续火热的假设之上。",
@@ -110,12 +102,20 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Oil prices fall after U.S. Energy secretary says Hormuz ship traffic is increasing",
       "source": "CNBC",
       "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
       "lang": "en",
       "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
+      "source": "CNBC",
+      "detail": "The S&P 500 and Nasdaq Composite fell in Tuesday's trading as chip stocks went back to their losing ways.",
+      "lang": "en",
+      "score": 27
     }
   ]
 }
