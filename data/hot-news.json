@@ -1,92 +1,102 @@
 {
-  "updateTime": "2026-06-10 20:05",
+  "updateTime": "2026-06-10 20:11",
   "news": [
     {
       "rank": 1,
+      "title": "黄金、白银和比特币下跌 交易员加大对美联储加息的押注",
+      "source": "环球市场播报",
+      "detail": "周三，贵金属等资产大幅走低，因市场对通胀和美联储利率路径的担忧打压了投资者情绪。 美国东部时间上午7：05，现货黄金下跌2.4%，交易价格约为每盎司4，161.63美元。",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "交易员押注美联储加息，黄金、白银、比特币下跌",
+        "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
+        "chain": "加息预期推高实际利率（扣除通胀后的真实借贷成本），压制无息资产（如黄金）吸引力",
+        "watch": "美联储官员讲话及利率期货定价（市场对加息概率的押注）"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Gold, silver and bitcoin fall as traders up Fed rate hike bets",
       "source": "CNBC",
       "detail": "Precious metals were firmly in negative territory, as fears about inflation and the Federal Reserve's interest rate path weighed on investor sentiment.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "交易员押注美联储加息，黄金白银比特币暴跌",
-        "assets": "📉 黄金 承压; 📉 比特币 承压; 📉 白银 承压",
-        "chain": "加息预期升温（提高无风险利率），贵金属和加密货币的持有成本上升，资金流出避险资产",
-        "watch": "周五非农数据（就业报告），若超预期则加息概率再升"
+        "what": "SpaceX IPO定价已定，散户分配仍不确定",
+        "assets": "📈 SpaceX 利好, 📉 散户交易平台 承压",
+        "chain": "散户分配不确定性可能引发对经纪商（如Robinhood）的监管审查，影响新股发行生态",
+        "watch": "SEC关于散户IPO分配的声明或规则调整"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，但散户配额仍悬而未决",
-        "assets": "📈 SpaceX 利好; 📉 散户 承压",
-        "chain": "机构主导定价（大型基金优先），散户可能拿不到份额，短期压制投机情绪",
-        "watch": "SEC（美国证监会）审批进度及散户配售比例公告"
+        "what": "芯片关键材料涨价引爆A股，板块暴涨超620%",
+        "assets": "📈 A股芯片材料板块 利好, 📈 半导体ETF 利好",
+        "chain": "材料涨价传导至芯片制造成本（晶圆厂成本上升），或挤压下游消费电子（如手机）利润",
+        "watch": "芯片材料现货价格（如硅片、光刻胶）及下游客户库存数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "暴涨超620%，A股年内第一！芯片关键材料涨价引爆行情",
+      "source": "21世纪经济报道",
+      "detail": " 6月10日，中船特气（688146）逆市大涨，午后该股涨幅扩大，盘中一度涨超19%，收盘时涨幅回落至16.42%，最新收盘价创历史新高。",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "韩国清算与SpaceX IPO相关的约15亿美元需求",
+        "assets": "📉 SpaceX 承压, 📉 韩国股市 承压",
+        "chain": "韩国资金流出可能引发新兴市场（如亚太科技股）资金面紧张，影响美元/韩元汇率",
+        "watch": "韩国资本外流数据及韩元兑美元汇率"
+      }
+    },
+    {
+      "rank": 5,
       "title": "消息人士：韩国已清算了与SpaceX IPO相关的约15亿美元需求",
       "source": "环球市场播报",
       "detail": " 一位知情人士周三透露，与SpaceX首次公开募股（IPO）相关的大规模外汇兑换需求已得到消化，此前数周这一需求曾对韩元构成沉重压力。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "韩国清算了约15亿美元SpaceX IPO相关需求",
-        "assets": "📉 SpaceX 承压; 📉 韩国股市 承压",
-        "chain": "韩国机构抛售IPO额度（减少供应），可能暗示需求不足，拖累二级市场情绪",
-        "watch": "SpaceX最终认购倍数及韩国资本外流数据"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Weekly mortgage demand surges nearly 11% higher, despite volatile interest rates",
-      "source": "CNBC",
-      "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates climbed as well.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "尽管利率波动，周度抵押贷款需求飙升近11%",
-        "assets": "📈 美国房地产 利好; 📈 房贷抵押证券（MBS） 利好",
-        "chain": "房贷需求回暖（购房者趁利率回调入场），利好房地产板块和MBS（抵押贷款支持证券）价格",
-        "watch": "30年期固定房贷利率能否持续低于7%"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "苹果官宣AI升级+PCB涨价+芯片出口大增！电子三箭齐发，全年景气可期！半导体逆市领涨，海光信息涨超6%！",
-      "source": "新浪基金",
-      "detail": "或由于中东地缘扰动，叠加市场担忧将于当地时间周三出炉的美国5月CPI数据进一步走高，加剧美联储加息压力，今日（6月10日）市场盘整，A股三大指数悉数收绿...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "苹果AI升级+PCB涨价+芯片出口大增，电子三箭齐发",
-        "assets": "📈 半导体 利好; 📈 苹果 利好; 📈 印刷电路板（PCB） 利好",
-        "chain": "AI需求拉动芯片（海光信息涨超6%），消费电子景气度回升，产业链上下游受益",
-        "watch": "苹果AI落地效果及PCB厂商订单数据"
+        "what": "房贷利率波动下，周度房贷需求飙升近11%",
+        "assets": "📈 美国房地产板块 利好, 📈 抵押贷款相关ETF 利好",
+        "chain": "需求激增可能推高房价（供给刚性），但若利率持续上行将抑制后续购买力",
+        "watch": "30年期固定抵押贷款利率（美国房贷基准利率）及新屋销售数据"
       }
     },
     {
       "rank": 6,
+      "title": "Weekly mortgage demand surges nearly 11% higher, despite volatile interest rates",
+      "source": "CNBC",
+      "detail": "Mortgage demand from both current homeowners and potential buyers rose sharply, even  though interest rates climbed as well.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 7,
+      "title": "苹果官宣AI升级+PCB涨价+芯片出口大增！电子三箭齐发，全年景气可期！半导体逆市领涨，海光信息涨超6%！",
+      "source": "新浪基金",
+      "detail": "或由于中东地缘扰动，叠加市场担忧将于当地时间周三出炉的美国5月CPI数据进一步走高，加剧美联储加息压力，今日（6月10日）市场盘整，A股三大指数悉数收绿...",
+      "lang": "zh",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "超微电脑因70亿美元融资计划暴跌，尽管AI服务器订单强劲",
-        "assets": "📉 超微电脑 承压; 📉 AI服务器板块 承压",
-        "chain": "巨额融资稀释股权（增发股份摊薄每股收益），市场担忧现金流压力，拖累同行估值",
-        "watch": "融资具体条款（如定价折扣）及后续订单是否持续"
-      }
+      "score": 32
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "日本央行行长植田和男入院治疗 预计将缺席6月份货币政策会议",
       "source": "环球市场播报",
       "detail": "据日本央行，行长植田和男已住院，预计将缺席下周的政策会议。 日本央行周三在声明中表示：“行长目前因肝囊肿感染住院治疗。预计他将住院约两周。",
@@ -94,28 +104,12 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "校车科创企业Zum启动IPO前期筹备",
       "source": "环球市场播报",
       "detail": "本周市场目光全都聚焦 SpaceX 上市，看上去风头无二，但并非所有 IPO 都来自估值 1.75 万亿美元的航天巨头。普通散户投资者很快就能关注到一家更接地气的企业 ——...",
       "lang": "zh",
       "score": 30
-    },
-    {
-      "rank": 9,
-      "title": "全球监管机构呼吁加强对金融领域智能体化AI的管控",
-      "source": "环球市场播报",
-      "detail": " 随着人工智能（AI）加快普及，全球监管机构表示，自主性日益增强的AI形态可能加剧金融体系风险，并呼吁制定新的管控措施。",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "Oil prices jump after Trump says Iran will 'pay the price' for failing at peace deal",
-      "source": "CNBC",
-      "detail": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
-      "lang": "en",
-      "score": 27
     }
   ]
 }
