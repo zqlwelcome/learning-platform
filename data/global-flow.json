@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 13:41",
+  "updateTime": "2026-06-10 13:46",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,110 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3978.12",
-      "change": "-0.80"
+      "value": "3978.21",
+      "change": "-0.79"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24217.690",
-      "change": "-1.42"
+      "value": "24261.560",
+      "change": "-1.24"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
+  "etf_flows": [
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.733,
+      "change": -1.25,
+      "flow": 389836640.0,
+      "flow_str": "+3.90亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.45,
+      "change": -0.95,
+      "flow": 296778624.0,
+      "flow_str": "+2.97亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备ETF国泰",
+      "code": "159516",
+      "price": 1.274,
+      "change": 0.95,
+      "flow": 138638224.0,
+      "flow_str": "+1.39亿",
+      "direction": "in"
+    },
+    {
+      "name": "上证50ETF华夏",
+      "code": "510050",
+      "price": 2.929,
+      "change": 0.41,
+      "flow": 135066018.0,
+      "flow_str": "+1.35亿",
+      "direction": "in"
+    },
+    {
+      "name": "证券ETF国泰",
+      "code": "512880",
+      "price": 1.019,
+      "change": 1.39,
+      "flow": 133486144.0,
+      "flow_str": "+1.33亿",
+      "direction": "in"
+    }
+  ],
+  "sector_flows": [
+    {
+      "name": "半导体设备",
+      "code": "BK1326",
+      "index": 44916.18,
+      "change": -0.33,
+      "flow": 1546763264.0,
+      "flow_str": "+15.47亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体材料",
+      "code": "BK1325",
+      "index": 13387.85,
+      "change": 2.45,
+      "flow": 1438430208.0,
+      "flow_str": "+14.38亿",
+      "direction": "in"
+    },
+    {
+      "name": "非银金融",
+      "code": "BK1203",
+      "index": 2276.27,
+      "change": 0.56,
+      "flow": 1229596160.0,
+      "flow_str": "+12.30亿",
+      "direction": "in"
+    },
+    {
+      "name": "银行",
+      "code": "BK1283",
+      "index": 4194.09,
+      "change": 1.91,
+      "flow": 1054601728.0,
+      "flow_str": "+10.55亿",
+      "direction": "in"
+    },
+    {
+      "name": "银行Ⅱ",
+      "code": "BK0475",
+      "index": 4194.09,
+      "change": 1.91,
+      "flow": 1054601728.0,
+      "flow_str": "+10.55亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
