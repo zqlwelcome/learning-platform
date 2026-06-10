@@ -1,97 +1,97 @@
 {
-  "updateTime": "2026-06-10 09:41",
+  "updateTime": "2026-06-10 09:45",
   "news": [
     {
       "rank": 1,
+      "title": "China May wholesale prices hit near 4-year highs on Iran war, AI costs; consumer inflation misses   ",
+      "source": "CNBC",
+      "detail": "Price growth has been boosted by a surge in global commodity costs, as the Middle East conflict disrupted energy and raw material flows.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "中国5月PPI创近四年新高，CPI不及预期",
+        "assets": "📈 中国工业品期货 利多\n📉 中国消费股 承压",
+        "chain": "PPI上行挤压下游利润（企业成本增），CPI弱暗示内需不足，政策或加码宽松",
+        "watch": "中国央行是否降息（借钱成本降低）或降准"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX IPO explained: The price is set, but retail allocation still up in the air",
       "source": "CNBC",
       "detail": "Charles Schwab, Fidelity, Robinhood, SoFi and Morgan Stanley's E-Trade are among the brokerage platforms making SpaceX shares available.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价确定，散户配售比例未定",
-        "assets": "📈 特斯拉（关联科技股）利好，📈 太空概念股 利好",
-        "chain": "散户无法大量参与可能压低首日涨幅，但机构抢筹推高估值（估值倍数），利好马斯克系资产",
-        "watch": "SpaceX正式上市日期及散户配售比例公告"
+        "what": "SpaceX IPO定价确定，散户配售仍悬而未决",
+        "assets": "📈 SpaceX相关概念股 关注\n📉 散户交易平台 不确定性",
+        "chain": "若散户配售比例低，首日波动（价格跳动）或加剧，机构主导定价",
+        "watch": "SEC（美国证监会）对零售配售的最终批复"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "9月加息？华尔街开始押注美联储极限紧缩剧本……",
       "source": "市场资讯",
       "detail": "文章来源：财联社 最新迹象显示，华尔街的债券交易员近来正纷纷建仓，押注美联储未来数月将多次加息，其中部分交易员甚至预期最早在9月的政策会议上就会采取行动。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "华尔街押注美联储9月加息，极限紧缩剧本重燃",
-        "assets": "📉 美股大盘 承压，📈 美元指数 走强，📉 美债 利空（价格下跌）",
-        "chain": "加息预期推升短端利率（短期借贷成本），压制成长股估值（未来现金流折现率提高），新兴市场资金外流",
-        "watch": "下周非农数据及CPI（通胀指标）是否超预期"
+        "what": "华尔街开始押注美联储9月加息",
+        "assets": "📉 美国国债 承压\n📉 美股成长股 利空",
+        "chain": "加息预期推高短端利率（短期借钱成本），压制高估值科技股估值（未来现金流折现变低）",
+        "watch": "下周FOMC（美联储议息会议）点阵图及鲍威尔讲话"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "超微电脑因70亿美元融资计划暴跌，同时吹捧AI服务器订单",
-        "assets": "📉 超微电脑（SMCI）利空，📈 英伟达（AI芯片）利好（但情绪传染）",
-        "chain": "巨额融资稀释每股收益（EPS），市场担忧现金流吃紧，但AI订单增长确认行业景气度，短期利空个股",
-        "watch": "超微电脑Q2财报及AI服务器订单转化率"
+        "what": "超微电脑因70亿美元融资计划暴跌",
+        "assets": "📉 超微电脑 利空\n📉 AI服务器板块 情绪传导",
+        "chain": "巨额融资稀释每股收益（股东权益摊薄），但订单强劲暗示AI需求真实，关注后续订单执行",
+        "watch": "超微电脑Q2财报及毛利率变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Anthropic向公众发布类Mythos模型，此前私测已震动华尔街",
-        "assets": "📈 AI概念股（如微软、谷歌）利好，📈 算力芯片（英伟达）利好",
-        "chain": "新模型提升AI应用商业化预期，带动算力需求（训练和推理成本），但加剧行业竞争（资本开支增加）",
-        "watch": "Anthropic模型用户增长及API（应用程序接口）定价"
+        "what": "Anthropic发布类MythosAI模型，提前两个月公开",
+        "assets": "📈 AI概念股 利好\n📈 算力芯片 需求提振",
+        "chain": "模型能力升级加速AI军备竞赛（企业竞相投入），推高英伟达等算力硬件订单预期",
+        "watch": "OpenAI是否跟进发布更强模型"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Jim Cramer称科技股失去领涨特质，涨势动能衰减",
-        "assets": "📉 美股科技板块（如纳斯达克）承压，📉 半导体ETF（交易型开放式指数基金）利空",
-        "chain": "Cramer反向指标效应可能引发短线抛售，但若盈利支撑仍在，回调后资金转向防御板块（如公用事业）",
-        "watch": "科技股季报及罗素2000（小盘股指数）相对表现"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "范式智能拟申请首次公开发行A股并在深交所创业板上市",
-      "source": "新浪港股",
-      "detail": "范式智能（06682）公布，公司计划申请首次公开发行人民币普通股（A股）股票并在深圳证券交易所创业板上市。本次发行的股票种类为人民币普通股（A股），每股面值为人民币1...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "范式智能申请A股创业板IPO，拟募资上市",
-        "assets": "📈 A股AI概念股（如科大讯飞）利好，📈 创业板指数 利好",
-        "chain": "新股发行抽血流动性（资金分流），但提振科创板估值锚（市盈率参考），政策支持科技融资信号",
-        "watch": "证监会审核进度及发行市盈率（估值水平）"
+        "what": "Jim Cramer称科技股正失去领涨特性",
+        "assets": "📉 美股科技龙头 承压\n📈 价值股 轮动机会",
+        "chain": "资金从高估值科技流出转向能源、金融等周期板块（行业切换），防御性配置增强",
+        "watch": "纳指相对道指的强弱比变化"
       }
     },
     {
       "rank": 7,
-      "title": "Oil prices fall after U.S. Energy secretary says Hormuz ship traffic is increasing",
-      "source": "CNBC",
-      "detail": "President Donald Trump has repeatedly said a deal with Tehran to reopen Hormuz is close, but such an agreement still has not materialized.",
-      "lang": "en",
-      "score": 29
+      "title": "范式智能拟申请首次公开发行A股并在深交所创业板上市",
+      "source": "新浪港股",
+      "detail": "范式智能（06682）公布，公司计划申请首次公开发行人民币普通股（A股）股票并在深圳证券交易所创业板上市。本次发行的股票种类为人民币普通股（A股），每股面值为人民币1...",
+      "lang": "zh",
+      "score": 30
     },
     {
       "rank": 8,
