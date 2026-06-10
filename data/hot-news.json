@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 04:20",
+  "updateTime": "2026-06-11 04:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 82,
       "insight": {
-        "what": "华尔街需学习代币经济学应对AI公司IPO",
-        "assets": "📈 AI概念股 利好",
-        "chain": "代币经济（用代币激励用户）或成科技公司估值新逻辑，传统估值模型失效",
-        "watch": "SpaceX IPO定价及代币化细节"
+        "what": "华尔街需学习代币经济以应对AI IPO，SpaceX提供预览",
+        "assets": "📈 加密货币 利好\n📈 AI板块 利好",
+        "chain": "代币经济（基于区块链的激励系统）可能改变传统估值模型，增加波动性和流动性溢价",
+        "watch": "SEC对代币化证券的监管表态"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "SES AI因幽灵交易被控证券欺诈",
-        "assets": "📉 SES AI股票 承压",
-        "chain": "做空报告（揭露虚假交易）打击投资者信心，可能引发其他AI公司审查",
-        "watch": "SES AI股价是否跌破关键支撑位"
+        "what": "做空报告指控SES AI幽灵交易，面临证券欺诈集体诉讼",
+        "assets": "📉 SES AI股票 承压\n📉 锂电池板块 承压",
+        "chain": "做空报告引发信任危机，同类AI概念股可能遭连带抛售（情绪传导）",
+        "watch": "SES AI是否披露交易记录及做空机构下一步报告"
       }
     },
     {
@@ -37,64 +37,56 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX独特结构让华尔街对冲困难",
-        "assets": "📈 SpaceX相关ETF 中性",
-        "chain": "无法做空（借股票卖出）限制套利，波动率（价格波动幅度）可能放大",
-        "watch": "SpaceX上市后做空工具是否推出"
+        "what": "SpaceX独特IPO结构给华尔街对冲带来挑战",
+        "assets": "📈 太空股 利好\n📉 传统IPO对冲工具 承压",
+        "chain": "缺乏可对冲标的（如无直接竞争对手），导致做空困难，推高估值不确定性",
+        "watch": "SpaceX IPO定价及承销商对冲策略"
       }
     },
     {
       "rank": 4,
-      "title": "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance",
-      "source": "CNBC",
-      "detail": "Sen. Elizabeth Warren noted Elon Musk's \"uniquely unchecked\" power as SpaceX's majority shareholder and other concerns in a letter to the SEC.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "沃伦要求SEC推迟SpaceX IPO",
-        "assets": "📉 SpaceX估值 承压",
-        "chain": "监管审查（SEC调查）增加不确定性，可能推迟科技股IPO窗口",
-        "watch": "SEC是否正式启动调查"
-      }
-    },
-    {
-      "rank": 5,
       "title": "巴西数字银行PicS因IPO隐瞒信贷缺陷，股价腰斩后面临集体诉讼",
       "source": "环球市场播报",
       "detail": "巴西数字银行PicS N.V．（NASDAQ： PICS）正面临证券欺诈集体诉讼。该公司于2026年1月30日以每股19美元的价格完成首次公开募股，募资约4.34亿美元...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "巴西PicS因隐瞒信贷缺陷IPO后股价腰斩",
-        "assets": "📉 新兴市场金融科技股 承压",
-        "chain": "信贷风险（贷款违约率）暴露引发做空，可能拖累同类数字银行估值",
-        "watch": "PicS是否面临退市风险"
+        "what": "巴西数字银行PicS因隐瞒信贷缺陷，股价腰斩后面临集体诉讼",
+        "assets": "📉 巴西银行股 承压\n📉 新兴市场金融科技 承压",
+        "chain": "信贷质量恶化（坏账风险）暴露，可能引发监管收紧和资本外流",
+        "watch": "巴西央行对PicS的监管行动及信贷数据更新"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "错失10亿美元拉美转型目标，Globant因证券欺诈面临集体诉讼",
       "source": "环球市场播报",
       "detail": "IT和软件服务公司Globant S.A．（NYSE： GLOB）正面临证券欺诈集体诉讼。该公司此前号称要将其拉丁美洲业务打造成一个增长引擎，但实际上面临需求下降...",
       "lang": "zh",
       "score": 43,
       "insight": {
-        "what": "Globant因未达拉美增长目标被诉欺诈",
-        "assets": "📉 Globant股票 承压",
-        "chain": "增长叙事（高增速预期）破裂导致抛售，拉美科技板块可能重估",
-        "watch": "Globant财报中拉美业务指引"
+        "what": "Globant因错失10亿美元拉美转型目标，面临证券欺诈诉讼",
+        "assets": "📉 Globant股票 承压\n📉 拉美科技股 承压",
+        "chain": "业绩不达标（营收预期落空）暴露管理层夸大订单，拖累区域科技股估值",
+        "watch": "Globant最新季报及拉美IT支出数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Phreesia营收指引突然下调约3700万美元， 因证券欺诈面临集体诉讼",
       "source": "环球市场播报",
       "detail": "医疗健康软件平台提供商Phreesia， Inc．（NYSE： PHR）正面临证券欺诈集体诉讼。该公司在2025年12月给出2027财年营收指引后，仅过约四个月便大幅下调预期约3700万美元...",
       "lang": "zh",
-      "score": 43
+      "score": 43,
+      "insight": {
+        "what": "Phreesia营收指引下调约3700万美元，面临证券欺诈诉讼",
+        "assets": "📉 Phreesia股票 承压\n📉 医疗IT板块 承压",
+        "chain": "营收指引下调（未来收入预期减少）暗示客户流失或竞争加剧，引发板块估值重估",
+        "watch": "Phreesia客户留存率及同行财报对比"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Trump says U.S. secretly moved more than 100 million barrels of oil through Strait of Hormuz",
       "source": "CNBC",
       "detail": "Trump's comments come after Energy Secretary Chris Wright said Tuesday that oil exports through Hormuz are \"rising very meaningfully.\"",
@@ -102,7 +94,7 @@
       "score": 39
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "SailPoint股价大跌后，因潜在证券违规遭股东调查",
       "source": "环球市场播报",
       "detail": "身份安全软件公司SailPoint， Inc．（NASDAQ： SAIL）近期面临投资者关注。在其发布最新财报后，股价出现大幅下跌，随后多家律师事务所宣布对公司发起调查...",
@@ -110,10 +102,18 @@
       "score": 37
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "关键癌症试验因无效终止，Immutep股价暴跌83%后面临集体诉讼",
       "source": "环球市场播报",
       "detail": "生物技术公司Immutep Limited（NASDAQ： IMMP）正面临证券欺诈集体诉讼。此前该公司宣布，其针对一线非小细胞肺癌的关键三期临床试验TACTI-004因无效而被独立数据监测委员...",
+      "lang": "zh",
+      "score": 35
+    },
+    {
+      "rank": 10,
+      "title": "Avis解约引发股价暴跌70%，Verra Mobility面临证券集体诉讼",
+      "source": "环球市场播报",
+      "detail": "智能出行技术提供商Verra Mobility Corporation（NASDAQ： VRRM）正面临证券欺诈集体诉讼。在最大商业客户Avis Budget Group终止合同、公司下调全年业绩指引...",
       "lang": "zh",
       "score": 35
     }
