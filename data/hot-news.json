@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 15:46",
+  "updateTime": "2026-06-10 15:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美国5月CPI预计重回4%以上，加息风险上升",
-        "assets": "📉 美股科技股 承压；📈 美元指数 走强",
-        "chain": "通胀超预期→加息预期升温（提高借钱成本）→风险资产估值压缩（PE倍数下调）",
-        "watch": "周三CPI实际数据及核心通胀环比"
+        "what": "美国5月CPI料重回4%以上，加息风险上升",
+        "assets": "📉 美股大盘 承压；📈 美元指数 走强；📉 美债 价格下跌（收益率上升）",
+        "chain": "通胀超预期→加息预期升温（借钱成本增加）→风险资产（股票）遭抛售，避险资金流入美元",
+        "watch": "周三CPI实际数据及美联储点阵图（利率预测）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "中国5月PPI创近四年新高，受伊朗战争和AI需求推升",
-        "assets": "📈 中国工业商品 利好；📉 中国制造业利润 承压",
-        "chain": "输入性通胀（进口成本上升）→中游制造业成本压力→可能传导至CPI（消费品涨价）",
-        "watch": "中国6月PMI（采购经理指数）及PPI环比"
+        "what": "中国5月PPI创近4年新高，因伊朗战争推高成本及AI需求",
+        "assets": "📈 中国工业品 利好；📉 人民币 承压（输入性通胀）",
+        "chain": "输入性通胀（进口成本涨）→中国PPI走高→若传导至CPI，可能限制央行宽松（降息空间缩小）",
+        "watch": "中国6月CPI及央行是否收紧流动性（资金供给）"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 45,
       "insight": {
         "what": "美股IPO热潮可能结束流通股本缩减趋势",
-        "assets": "📉 美股流动性 承压；📈 新股供给 增加",
-        "chain": "IPO增加→流通股增多→稀释现有股东权益（每股收益下降）→压制指数上行空间",
-        "watch": "未来两周IPO定价及首日涨幅"
+        "assets": "📉 美股小盘股 承压（供给增加）；📈 次新股 利好（流动性改善）",
+        "chain": "IPO增多→股票供给增加→稀释现有股东价值，但结束股本缩减可能缓解做空压力（空头回补）",
+        "watch": "未来两周IPO锁定期到期（解禁）规模"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO定价已定，但散户配额仍不确定",
-        "assets": "📈 SpaceX相关太空ETF 利好；📉 美股科技板块 资金分流",
-        "chain": "散户抢购SpaceX→资金从AI等热门板块流出→科技股抛压加剧（板块轮动效应）",
-        "watch": "SpaceX IPO散户配售比例及首日交易量"
+        "what": "SpaceX IPO定价已定，散户配额仍存不确定性",
+        "assets": "📈 SpaceX 利好消息（上市在即）；📉 美股科技股 资金分流",
+        "chain": "SpaceX IPO吸金→散户资金从科技股撤出转投新股→科技板块短期承压，但长期看多（独角兽上市）",
+        "watch": "SpaceX最终发行价及散户认购比例"
       }
     },
     {
@@ -66,35 +66,27 @@
       "score": 40,
       "insight": {
         "what": "韩国消化约15亿美元SpaceX IPO买需",
-        "assets": "📈 韩国散户资金 流出；📉 韩国科技股 承压",
-        "chain": "韩国资金外流→本土股市流动性减少→科技股估值回调（资金虹吸效应）",
-        "watch": "韩国综合指数及外资流向"
+        "assets": "📈 韩国股市 利好（资金回流）；📉 韩国科技股 短期承压（资金分流）",
+        "chain": "韩国机构提前备资（预留资金）→SpaceX上市后资金回流→可能提振韩国本土市场流动性（资金供给）",
+        "watch": "韩国KOSPI指数（主板指数）及科技板块资金流向"
       }
     },
     {
       "rank": 6,
-      "title": "投资者锁定人工智能板块利润并备战太空探索技术公司首次公开募股 美股科技板块遭遇持续抛售",
+      "title": "投资者锁定人工智能板块利润并备战SpaceX首次公开募股 美股科技板块遭遇持续抛售",
       "source": "环球市场播报",
       "detail": "受到投资者大举调整人工智能（AI）板块仓位，以及集中资金备战本周即将进行的美国太空探索技术公司（SpaceX）历史性首次公开募股（IPO）影响...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "投资者锁定AI利润，备战SpaceX IPO，科技板块遭抛售",
-        "assets": "📉 美股AI概念股 承压；📉 纳斯达克指数 下跌",
-        "chain": "AI板块获利了结→资金转向太空概念→科技板块整体回调（板块轮动+资金搬家）",
-        "watch": "AI龙头股（如英伟达）5日均线支撑位"
+        "what": "投资者锁定AI利润并备战SpaceX IPO，科技板块遭抛售",
+        "assets": "📉 美股AI板块 承压；📉 科技股 整体下跌；📈 SpaceX IPO 利好（资金涌入）",
+        "chain": "获利了结（卖出盈利股）→科技资金流出→转向SpaceX打新（新股申购），短期科技板块回调（下跌）",
+        "watch": "SpaceX上市首日涨幅及AI板块是否出现恐慌性抛售（非理性卖出）"
       }
     },
     {
       "rank": 7,
-      "title": "投资者锁定人工智能板块利润并备战SpaceX首次公开募股 美股科技板块遭遇持续抛售",
-      "source": "环球市场播报",
-      "detail": "受到投资者大举调整人工智能（AI）板块仓位，以及集中资金备战本周即将进行的美国太空探索技术公司（SpaceX）历史性首次公开募股（IPO）影响...",
-      "lang": "zh",
-      "score": 35
-    },
-    {
-      "rank": 8,
       "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
       "source": "CNBC",
       "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
@@ -102,7 +94,7 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
@@ -110,10 +102,18 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
+      "source": "CNBC",
+      "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
       "score": 32
     }
