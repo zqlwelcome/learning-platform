@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 22:00",
+  "updateTime": "2026-06-10 22:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "交易员押注美联储加息，贵金属和比特币大跌",
-        "assets": "📉 黄金 承压; 📉 白银 承压; 📉 比特币 承压",
-        "chain": "加息预期推高美元（美元走强），风险资产（如科技股）资金外流，避险资产（黄金）受压制",
-        "watch": "美联储官员讲话及利率期货（加息概率指标）"
+        "what": "交易员加息押注增加，贵金属与比特币齐跌",
+        "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
+        "chain": "加息预期推高实际利率（剔除通胀后的真实利率），削弱无息资产吸引力。",
+        "watch": "美联储利率期货定价变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "SpaceX拟用星链技术造AI卫星，淡化工程难度",
-        "assets": "📈 SpaceX（未上市） 利好; 📈 卫星互联网概念 利好",
-        "chain": "AI+卫星降低通信成本，利好边缘计算（数据就近处理），但工程风险可能拖累IPO估值",
-        "watch": "SpaceX星链卫星发射进度及AI芯片采购动向"
+        "what": "加息预期升温导致贵金属和比特币下挫",
+        "assets": "📉 黄金 承压, 📉 白银 承压, 📉 比特币 承压",
+        "chain": "美元走强（加息预期支撑美元），新兴市场货币面临外流压力。",
+        "watch": "美元指数（DXY）走势"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI秘密提交IPO，AI三巨头竞逐上市",
-        "assets": "📈 AI行业（人工智能） 利好; 📈 科技股 利好",
-        "chain": "IPO热潮吸引资金涌入AI赛道（行业），挤压传统科技股流动性，估值泡沫风险上升",
-        "watch": "OpenAI招股书营收数据及监管审批进度"
+        "what": "SpaceX计划用星链技术开发AI卫星，淡化工程难度",
+        "assets": "📈 SpaceX相关概念股 利好",
+        "chain": "AI+卫星产业链（如边缘计算芯片）获关注，但技术风险可能被低估。",
+        "watch": "SpaceX IPO估值及技术路线图"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "科技股承压，市场等通胀数据和重磅IPO",
-        "assets": "📉 科技股 承压; 📈 通胀数据（如CPI消费者物价指数） 关注",
-        "chain": "通胀若超预期（高于预测），加息预期强化，科技股估值（未来现金流折现）进一步受压",
-        "watch": "美国CPI数据及科技巨头财报"
+        "what": "OpenAI秘密提交IPO申请，AI公司竞相上市",
+        "assets": "📈 AI板块 利好",
+        "chain": "引发AI估值泡沫担忧（过高定价），但吸引更多资金涌入赛道。",
+        "watch": "SEC（美国证监会）披露文件及定价区间"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Gold, silver and bitcoin fall as traders up Fed rate hike bets",
-        "assets": "📉 Gold 承压; 📉 Silver 承压; 📉 Bitcoin 承压",
-        "chain": "Rate hike expectations boost USD (美元走强), pressure risk assets and non-yielding metals",
-        "watch": "Fed minutes and CME FedWatch rate hike probability"
+        "what": "科技股回调，市场等待通胀与IPO数据",
+        "assets": "📉 科技股 承压",
+        "chain": "避险情绪升温，资金从成长股（高估值科技股）转向防御性板块（消费必需品）",
+        "watch": "CPI（消费者物价指数）数据及IPO认购情况"
       }
     },
     {
@@ -77,7 +77,13 @@
       "source": "CNBC",
       "detail": "Precious metals were firmly in negative territory, as fears about inflation and the Federal Reserve's interest rate path weighed on investor sentiment.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "Gold, silver and bitcoin fall as traders up Fed rate hike bets",
+        "assets": "📉 Gold bearish, 📉 Silver bearish, 📉 Bitcoin bearish",
+        "chain": "Real rates rise (nominal rate minus inflation), pressuring non-yielding assets.",
+        "watch": "Fed funds futures pricing"
+      }
     },
     {
       "rank": 7,
@@ -89,19 +95,19 @@
     },
     {
       "rank": 8,
-      "title": "Here are Wednesday's biggest analyst calls: Nvidia, Tesla, Cava, Netflix, Chipotle, Pfizer, Nike, SharkNinja & more",
-      "source": "CNBC",
-      "detail": "Here are the biggest calls on Wall Street on Wednesday.",
-      "lang": "en",
-      "score": 44
-    },
-    {
-      "rank": 9,
       "title": "SpaceX IPO获中东基金数十亿美元认购",
       "source": "环球市场播报",
       "detail": " 多位知情人士透露，海湾主权财富基金已大手笔认购SpaceX IPO股份，总额达数十亿美元，这也再度印证中东希望持续主导全球人工智能产业资金供给的宏大布局。",
       "lang": "zh",
       "score": 40
+    },
+    {
+      "rank": 9,
+      "title": "重要数据揭晓，美联储年内加息概率几何？",
+      "source": "中国证券报-中证网",
+      "detail": "北京时间6月10日晚，备受市场关注的美国最新通胀数据揭晓。美国劳工部发布数据显示，美国5月未季调CPI同比上升4.2%，显著高于4月份的3.8%，创下三年来新高，符合市场预期...",
+      "lang": "zh",
+      "score": 36
     },
     {
       "rank": 10,
