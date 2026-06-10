@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-10 23:20",
+  "updateTime": "2026-06-10 23:25",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX拟利用现有星链技术打造AI卫星，IPO前淡化工程挑战",
-      "source": "环球市场播报",
-      "detail": "本周五即将以史上最大IPO规模登陆纳斯达克之际，SpaceX首席执行官埃隆·马斯克对外阐释了公司轨道AI数据中心计划的技术路径。他表示...",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX将星链技术用于AI卫星，淡化IPO前工程风险",
-        "assets": "📈 SpaceX估值 利好\n📉 传统卫星通信股 承压",
-        "chain": "AI+卫星叙事吸引资金，挤压传统卫星运营商（如Iridium）估值，IPO前需关注技术验证",
-        "watch": "SpaceX IPO时间表及FAA发射许可"
-      }
-    },
-    {
-      "rank": 2,
       "title": "美联储官员表态：物价持续上涨，加息重回备选方案",
       "source": "环球市场播报",
       "detail": "原本期盼借贷成本回落的美国民众，或许还要再等一段时间。 就在几周前，市场投资者还普遍预期，信用卡、汽车贷款、房屋净值信贷额度等挂钩美联储短期基准利率的信贷产品利...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储官员称通胀持续，加息重回选项",
-        "assets": "📉 美股大盘 承压\n📈 美元 走强",
-        "chain": "加息预期（借钱成本提高）打压风险资产，美债收益率（国债利息）上升，成长股（高估值科技股）首当其冲",
-        "watch": "下周CPI数据及美联储点阵图变化"
+        "what": "美联储官员暗示可能再加息以抑制通胀",
+        "assets": "📉 美股大盘 承压\n📈 美元指数 走强",
+        "chain": "加息预期推高美债收益率→科技股估值承压（高利率压缩未来现金流现值）→新兴市场资本外流",
+        "watch": "下周CPI（消费者物价指数）数据及美联储点阵图"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Investors are fleeing tech stocks in record numbers",
       "source": "CNBC",
       "detail": "Bank of America clients sold a record $14.2 billion in single stocks last week",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "机构投资者创纪录抛售科技股",
-        "assets": "📉 纳斯达克100 承压\n📈 防御性板块（公用事业） 利好",
-        "chain": "资金轮动（Rotate）至防御资产，科技股估值收缩（PE倍数下降），波动率（VIX恐慌指数）可能飙升",
-        "watch": "科技股ETF资金流及VIX是否突破25"
+        "what": "投资者创纪录抛售科技股",
+        "assets": "📉 纳斯达克指数 利空\n📈 防御性板块（公用事业） 利好",
+        "chain": "资金从高估值科技股轮动至防御板块→波动率指数（恐慌指数VIX）可能飙升→量化基金触发止损",
+        "watch": "科技股ETF（交易所交易基金）资金流及美债收益率曲线"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "PVH投资者可参与Schall律所发起的欺诈调查",
       "source": "环球市场播报",
       "detail": " 美国股东权利诉讼律所Schall Law Firm宣布，代表PVH Corp．的投资者对该公司发起证券欺诈调查，并邀请受损投资者加入。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "PVH股东可参与Schall律所发起的欺诈调查",
-        "assets": "📉 PVH（Calvin Klein母公司） 承压",
-        "chain": "集体诉讼风险增加公司法律费用，可能拖累财报，且引发其他零售股（如Ralph Lauren）的行业合规审查",
-        "watch": "PVH是否披露SEC调查通知"
+        "what": "PVH面临证券欺诈集体诉讼调查",
+        "assets": "📉 PVH集团（服装股） 利空\n📉 纺织板块 情绪承压",
+        "chain": "诉讼风险→投资者抛售PVH→可能拖累同行业估值（如VF Corp）→法律成本侵蚀利润",
+        "watch": "法院是否受理及PVH财报中诉讼准备金披露"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "美国参议员沃伦呼吁美国证券交易委员会推迟SpaceX的IPO",
       "source": "环球市场播报",
       "detail": " 马萨诸塞州民主党参议员伊丽莎白・沃伦成为最新一位对此次首次公开募股持质疑态度的人士，她认为该上市计划可能会给个人投资者带来风险。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "参议员沃伦要求SEC推迟SpaceX的IPO",
-        "assets": "📉 SpaceX估值 承压\n📈 竞争对手（如Rocket Lab） 利好",
-        "chain": "政治干预延迟IPO窗口，SpaceX或被迫在二级市场（未上市股票交易）折价融资，竞争对手趁机抢客户",
-        "watch": "SEC是否正式受理沃伦请求"
+        "what": "参议员沃伦要求SEC（美国证监会）阻止SpaceX上市",
+        "assets": "📉 SpaceX相关概念股（如太空ETF） 利空\n📈 传统军工股 短期利好",
+        "chain": "IPO受阻→太空板块融资渠道收窄→资金转向已上市军工巨头（如洛克希德）→监管风险溢价上升",
+        "watch": "SEC官方回应及SpaceX后续上市计划声明"
       }
     },
     {
-      "rank": 6,
-      "title": "Oil prices jump after Trump says Iran will 'pay the price' for failing at peace deal",
+      "rank": 5,
+      "title": "Oil prices rises after Trump says Iran will 'pay the price' for failing at peace deal",
       "source": "CNBC",
       "detail": "Oil prices rose after the U.S. launched military strikes against Iran, raising concerns that renewed clashes may threaten shipping through the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普威胁伊朗将因和谈失败而‘付出代价’，油价跳涨",
-        "assets": "📈 原油 利好\n📉 全球航空股 承压",
-        "chain": "地缘溢价（战争风险）推高油价，航空燃油成本上升挤压利润，同时避险情绪利好黄金（避险资产）",
-        "watch": "伊朗是否封锁霍尔木兹海峡及美国战略石油储备释放"
+        "what": "特朗普威胁伊朗后油价上涨",
+        "assets": "📈 原油期货 利好\n📉 航空股 承压",
+        "chain": "地缘溢价推高油价→运输成本上升→通胀预期升温→美联储鹰派（倾向加息）压力增加",
+        "watch": "伊朗核谈判进展及美国战略石油储备（SPR）释放动态"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "indie公司推出边缘AI芯片，助力汽车与人形机器人感知系统",
       "source": "环球市场播报",
       "detail": "汽车半导体解决方案创新企业indie Semiconductor近日发布其下一代边缘人工智能系统级芯片iND881。该芯片集成了AI计算引擎，旨在为汽车和机器人领域的智能摄像头提供强大算...",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "indie推出边缘AI芯片用于汽车和机器人",
+        "assets": "📈 边缘计算芯片股 利好\n📈 自动驾驶概念股 利好",
+        "chain": "边缘AI降低延迟（不再依赖云端）→汽车/机器人智能化加速→英伟达等云端AI芯片需求可能被分流",
+        "watch": "indie芯片量产时间表及车企订单公告"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "5天大跌40%！北交所 \"金刚石第一股\"，股价过山车！曾4天斩获2个30cm涨停！又搭上比亚迪了！",
       "source": "市场资讯",
       "detail": "来源：上市之家 继4天录得2个30cm涨停、8个交易日暴涨超160%后，北交所 “金刚石第一股”惠丰钻石（920725.BJ）近期遭遇剧烈回调。 6月10日，该股大跌13.35%，报收64...",
@@ -102,7 +94,7 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Here's the inflation breakdown for May 2026 — in one chart",
       "source": "CNBC",
       "detail": "Inflation jumped to a three-year high in May as the Iran war continued to fuel higher energy prices.",
@@ -110,10 +102,18 @@
       "score": 20
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Dow falls 400 points on chip sell-off, Trump Iran threat and 3-year inflation high: Live updates",
       "source": "CNBC",
       "detail": "U.S. forces launched “self-defense strikes” against Iran on Tuesday in retaliation for the downing of a helicopter, pushing up crude oil prices.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "Palantir's Karp says businesses are 'unhappy' with the frontier AI labs",
+      "source": "CNBC",
+      "detail": "Palantir CEO Alex Karp says AI will drive the most important political decisions in the U.S. and shouldn't be decided by party lines.",
       "lang": "en",
       "score": 20
     }
