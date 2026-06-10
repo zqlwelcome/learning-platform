@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 14:30",
+  "updateTime": "2026-06-10 14:36",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,61 +16,107 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3990.99",
-      "change": "-0.47"
+      "value": "3992.70",
+      "change": "-0.43"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24354.440",
-      "change": "-0.86"
+      "value": "24391.540",
+      "change": "-0.71"
     }
   },
-  "etf_flows": [],
+  "etf_flows": [
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.747,
+      "change": -0.46,
+      "flow": 308579120.0,
+      "flow_str": "+3.09亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.486,
+      "change": 0.09,
+      "flow": 220872736.0,
+      "flow_str": "+2.21亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备ETF国泰",
+      "code": "159516",
+      "price": 1.291,
+      "change": 2.3,
+      "flow": 133476752.0,
+      "flow_str": "+1.33亿",
+      "direction": "in"
+    },
+    {
+      "name": "证券ETF国泰",
+      "code": "512880",
+      "price": 1.018,
+      "change": 1.29,
+      "flow": 131881728.0,
+      "flow_str": "+1.32亿",
+      "direction": "in"
+    },
+    {
+      "name": "上证50ETF华夏",
+      "code": "510050",
+      "price": 2.933,
+      "change": 0.55,
+      "flow": 128881559.0,
+      "flow_str": "+1.29亿",
+      "direction": "in"
+    }
+  ],
   "sector_flows": [
     {
       "name": "半导体材料",
       "code": "BK1325",
-      "index": 13643.48,
-      "change": 4.41,
-      "flow": 2088996608.0,
-      "flow_str": "+20.89亿",
+      "index": 13629.15,
+      "change": 4.3,
+      "flow": 2089545984.0,
+      "flow_str": "+20.90亿",
       "direction": "in"
     },
     {
       "name": "非银金融",
       "code": "BK1203",
-      "index": 2280.59,
+      "index": 2280.69,
       "change": 0.75,
-      "flow": 1748097792.0,
-      "flow_str": "+17.48亿",
+      "flow": 1839783936.0,
+      "flow_str": "+18.40亿",
       "direction": "in"
     },
     {
       "name": "半导体设备",
       "code": "BK1326",
-      "index": 45451.19,
-      "change": 0.86,
-      "flow": 1709484800.0,
-      "flow_str": "+17.09亿",
+      "index": 45516.4,
+      "change": 1.0,
+      "flow": 1799462656.0,
+      "flow_str": "+17.99亿",
       "direction": "in"
     },
     {
       "name": "锂",
       "code": "BK1621",
-      "index": 18531.68,
-      "change": -0.54,
-      "flow": 1066298160.0,
-      "flow_str": "+10.66亿",
+      "index": 18541.43,
+      "change": -0.48,
+      "flow": 1144194912.0,
+      "flow_str": "+11.44亿",
       "direction": "in"
     },
     {
       "name": "证券Ⅲ",
       "code": "BK1366",
-      "index": 129647.63,
-      "change": 1.06,
-      "flow": 1028878080.0,
-      "flow_str": "+10.29亿",
+      "index": 129653.13,
+      "change": 1.07,
+      "flow": 1087805184.0,
+      "flow_str": "+10.88亿",
       "direction": "in"
     }
   ],
@@ -95,11 +141,6 @@
       "title": "美联储将于6月24日公布华尔街银行压力测试结果",
       "source": "上海证券报",
       "keyword": "美联储"
-    },
-    {
-      "title": "非农数据强化加息预期，金价加速下行",
-      "source": "界面新闻",
-      "keyword": "加息"
     }
   ]
 }
