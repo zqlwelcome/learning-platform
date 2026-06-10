@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 13:50",
+  "updateTime": "2026-06-10 13:55",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,17 +16,63 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3963.96",
-      "change": "-1.15"
+      "value": "3979.85",
+      "change": "-0.75"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24273.920",
-      "change": "-1.19"
+      "value": "24320.240",
+      "change": "-1.00"
     }
   },
-  "etf_flows": [],
+  "etf_flows": [
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.737,
+      "change": -1.03,
+      "flow": 365453328.0,
+      "flow_str": "+3.65亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.457,
+      "change": -0.75,
+      "flow": 287416864.0,
+      "flow_str": "+2.87亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备ETF国泰",
+      "code": "159516",
+      "price": 1.273,
+      "change": 0.87,
+      "flow": 139326928.0,
+      "flow_str": "+1.39亿",
+      "direction": "in"
+    },
+    {
+      "name": "上证50ETF华夏",
+      "code": "510050",
+      "price": 2.93,
+      "change": 0.45,
+      "flow": 131429262.0,
+      "flow_str": "+1.31亿",
+      "direction": "in"
+    },
+    {
+      "name": "证券ETF国泰",
+      "code": "512880",
+      "price": 1.016,
+      "change": 1.09,
+      "flow": 119553216.0,
+      "flow_str": "+1.20亿",
+      "direction": "in"
+    }
+  ],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
@@ -35,6 +81,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "今夜美国CPI“喜忧参半”？整体通胀或破4创三年新高，核心通胀或显著低于预期！",
+      "source": "市场资讯",
+      "keyword": "通胀"
+    },
     {
       "title": "通胀阴霾再临！美国5月CPI料重回“4字头”，年内加息恐不得不防",
       "source": "市场资讯",
