@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-10 14:00",
+  "updateTime": "2026-06-10 14:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美国5月通胀或重回4%，加息预期骤升",
-        "assets": "📉 美股 承压\n📈 美元 走强",
-        "chain": "通胀超预期→紧缩预期升温→风险资产（股票）估值承压，美债收益率（借钱成本）上行",
-        "watch": "今晚美国5月CPI实际数据"
+        "what": "美国5月CPI预期重回4%，降息预期破灭",
+        "assets": "📉 美股科技股 承压；📈 美元指数 走强；📉 黄金 利空",
+        "chain": "通胀超预期→加息预期升温（借钱成本更高）→风险资产（股票/加密货币）抛售",
+        "watch": "今晚实际CPI数据及美联储点阵图"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "中国5月工业品通胀近4年新高，受伊朗战争与AI需求推动",
-        "assets": "📈 中国工业品期货 利好\n📈 铜/原油 看涨",
-        "chain": "输入性成本（进口原材料涨价）上升→企业利润受压，但AI基建（算力基建）需求支撑上游",
-        "watch": "中国PPI（工业品出厂价）环比增速及伊朗局势"
+        "what": "中国5月PPI受伊朗战争及AI需求推至近4年高位",
+        "assets": "📈 中国工业品期货 利多；📈 铜/原油 看涨；📉 中国制造业利润 承压",
+        "chain": "输入性通胀（进口涨价）→PPI传导至CPI→央行或收紧流动性（市场钱变少）",
+        "watch": "中国6月PMI及伊朗局势"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX IPO定价已定，散户配售待定",
-        "assets": "📈 SpaceX相关概念股 利好\n📉 其他太空股 分流",
-        "chain": "IPO定价落地→二级市场（公开交易市场）对标估值上调，但散户配售不确定性或引发波动",
-        "watch": "零售配售比例及首日上市表现"
+        "what": "SpaceX IPO定价已定，散户配售比例未明确",
+        "assets": "📈 SpaceX相关概念股 利好；📈 太空ETF 关注",
+        "chain": "IPO落地→机构抢筹→散户溢价买入→推高太空板块估值",
+        "watch": "SEC批准文件及最终配售规则"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "黄金重挫，聚焦今晚美CPI数据",
-        "assets": "📉 黄金 承压\n📈 美元 避险",
-        "chain": "通胀预期升温→实际利率（名义利率减通胀）上升→黄金持有成本增加，抛压释放",
-        "watch": "今晚CPI（消费者物价指数）实际值与预期偏差"
+        "what": "黄金重挫，市场聚焦今晚美国CPI数据",
+        "assets": "📉 黄金 看空；📉 白银 跟跌；📈 美元 避险",
+        "chain": "CPI预期高→实际利率（名义利率减通胀）上升→零收益黄金遭抛售",
+        "watch": "今晚CPI及美联储讲话"
       }
     },
     {
@@ -65,14 +65,22 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "美银警告：日本央行鸽派加息或引发日元抛售",
-        "assets": "📉 日元 承压\n📈 美/日利差 扩大",
-        "chain": "鸽派加息（加息幅度小但表态温和）→市场押注宽松延续→套利交易（借低息日元买高息资产）卷土重来，触发干预",
-        "watch": "日本央行利率决议及会后声明措辞"
+        "what": "腾讯发行24.5亿美元债券，股价盘中涨近3%",
+        "assets": "📈 腾讯股票 利好；📈 中概互联网ETF 联动；📉 腾讯债券收益率 走低",
+        "chain": "低成本融资（借钱成本低）→AI研发投入→长期盈利能力预期改善",
+        "watch": "腾讯AI项目进展及回购计划"
       }
     },
     {
       "rank": 6,
+      "title": "腾讯发行24.5亿美元债券，盘中涨近3%，AI长跑再添粮草",
+      "source": "21世纪经济报道",
+      "detail": "21世纪经济报道记者 吴佳楠 6月10日，腾讯控股（0700.HK）盘中涨近3%，市值超4.2万亿港元。 消息面上，腾讯控股6月10日在港交所公告...",
+      "lang": "zh",
+      "score": 37
+    },
+    {
+      "rank": 7,
       "title": "美银：若日本央行鸽派加息 则可能引发日元抛售及干预行动",
       "source": "环球市场播报",
       "detail": " 美银证券表示，如果日本央行在本月的会议上采取鸽派加息，日元抛售可能会加速，如果美元兑日元汇率升至161-165区间，当局可能会进行干预。",
@@ -80,7 +88,7 @@
       "score": 36
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Beijing escalating AI espionage to catch up with the U.S. on tech, cybersecurity firm says",
       "source": "CNBC",
       "detail": "U.S. cybersecurity giant CrowdStrike said China-based entities made over half of state-sponsored cyberattacks on tech firms for artificial intelligence assets.",
@@ -88,7 +96,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Super Micro stock tumbles on $7 billion financing plans as company touts AI server orders",
       "source": "CNBC",
       "detail": "Super Micro is the latest company tied to the AI boom to announce that it's tapping the capital markets.",
@@ -96,18 +104,10 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street",
       "source": "CNBC",
       "detail": "Anthropic said the broad release is possible because of new safeguards that block responses in specific high-risk areas. ",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "Jim Cramer says tech stocks are losing the qualities that made them the leaders of the rally",
-      "source": "CNBC",
-      "detail": "CNBC's Jim Cramer said tech stocks are losing key traits that fueled their leadership since 2023.",
       "lang": "en",
       "score": 32
     }
