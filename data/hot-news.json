@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 18:51",
+  "updateTime": "2026-06-11 18:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO被视为对马斯克的信任投票",
-        "assets": "📈 SpaceX 估值 利好",
-        "chain": "市场情绪若积极，将提振马斯克旗下其他公司（特斯拉、X）的估值",
-        "watch": "IPO估值区间及认购倍数"
+        "what": "SpaceX IPO被视为对马斯克信任投票",
+        "assets": "📈 SpaceX 估值 利好；📈 特斯拉 联动",
+        "chain": "若IPO成功，马斯克旗下公司溢价（估值高于同行）提升；失败则连锁抛售",
+        "watch": "SpaceX IPO定价及认购倍数"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期但计划再融资200亿美元致股价下跌",
-        "assets": "📉 甲骨文 承压；📈 美债收益率 上行",
-        "chain": "大规模发债（借新债）增加供给，推高利率，压制科技股估值（市盈率压缩）",
-        "watch": "甲骨文债券发行利率及后续回购计划"
+        "what": "甲骨文财报超预期但宣布再融资200亿美元",
+        "assets": "📉 甲骨文 股价 承压；📉 科技债 利空",
+        "chain": "增发稀释（每股收益被摊薄）打压股价，科技板块融资成本上升",
+        "watch": "甲骨文后续回购计划及债市收益率"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "马斯克打破IPO静默期惯例高调发言",
-        "assets": "📈 SpaceX 舆论热度 利好",
-        "chain": "SEC（美国证监会）可能调查违规，但散户注意力被吸引，短期推高炒作情绪",
-        "watch": "SEC是否发出警告或罚款"
+        "what": "马斯克高调打破IPO静默期惯例",
+        "assets": "📉 特斯拉 信誉 承压；📈 做空机构 利好",
+        "chain": "SEC（美国证监会）可能调查，增加监管风险，影响市场对合规性信心",
+        "watch": "SEC是否启动调查或发函警告"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "Anthropic、OpenAI等AI巨头在伦敦大规模扩张",
-        "assets": "📈 英国科技股 利好；📈 AI算力股（英伟达） 利好",
-        "chain": "人才争夺推高当地租金和工资，算力需求增加利好芯片和云服务（AWS、微软）",
-        "watch": "伦敦科技岗位招聘数量及AI公司财报资本开支"
+        "what": "AI巨头集体扩招伦敦团队争夺人才收入",
+        "assets": "📈 AI概念股 利好；📈 伦敦科技地产 利好",
+        "chain": "人才竞争推高AI成本，但伦敦成AI第二中心，利好本地科技生态",
+        "watch": "AI公司财报中人力成本占比变化"
       }
     },
     {
@@ -65,36 +65,28 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "分析称特朗普喜欢通胀，对潜在财长Warsh有利",
-        "assets": "📉 美债 承压；📈 通胀预期（盈亏平衡通胀率） 上行",
-        "chain": "通胀预期上升→美联储加息（收紧货币）概率增加→美元走强，新兴市场资金外流",
-        "watch": "特朗普经济团队任命及CPI（消费者物价指数）数据"
+        "what": "特朗普称热爱通胀，或利好潜在财长Warsh",
+        "assets": "📈 美元 承压；📈 黄金 避险",
+        "chain": "通胀预期升温（物价持续上涨）推高美债收益率，美元走弱，黄金走强",
+        "watch": "美国CPI（消费者物价指数）及Warsh政策表态"
       }
     },
     {
       "rank": 6,
-      "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
-      "source": "CNBC",
-      "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "推荐高股息股作为市场动荡的保险",
-        "assets": "📈 公用事业、消费必需品 利好；📉 成长股 承压",
-        "chain": "资金从高估值成长股轮动至防御板块（避险），债券收益率下行（避险需求）",
-        "watch": "VIX（恐慌指数）及防御板块资金流入"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Stock futures rise as U.S. completes strikes against Iran: Live updates",
       "source": "CNBC",
       "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "美国完成对伊朗打击后股指期货上涨",
+        "assets": "📈 美股 反弹；📈 原油 承压",
+        "chain": "地缘风险（冲突不确定性）短期解除，避险情绪消退，原油溢价回落",
+        "watch": "伊朗是否报复及原油库存数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "核心技术受制于人 苹果在人工智能领域深化对谷歌依赖引发市场重估与监管风险",
       "source": "环球市场播报",
       "detail": "苹果公司日前举行2026年全球开发者大会（WWDC），发布了由虚拟助手Siri领衔的“苹果智能”（Apple Intelligence）系统。值得注意的是...",
@@ -102,7 +94,7 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "尾盘异动！300505，“20cm”涨停！",
       "source": "",
       "detail": "6月11日，A股整体小幅震荡，科创综指在2000点附近获得支撑后反弹翻红，北证50低开低走跌逾3%，上证指数、深证成指、创业板指均小幅飘绿。",
@@ -110,10 +102,18 @@
       "score": 20
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "KKR says AI productivity boom to keep on going — but warns of 'extreme' trend not seen since the 19th century",
       "source": "CNBC",
       "detail": "KKR said in its mid-year outlook Thursday that AI will drive economic growth for years to come, but only in specific sectors.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
+      "source": "CNBC",
+      "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
       "lang": "en",
       "score": 20
     }
