@@ -1,50 +1,64 @@
 {
-  "updateTime": "2026-06-11 17:15",
+  "updateTime": "2026-06-11 17:20",
   "news": [
     {
       "rank": 1,
+      "title": "Bisignano says Social Security Administration's phone helpline wait times have reached a record low",
+      "source": "CNBC",
+      "detail": "Long waits when calling the Social Security Administration's 800 number have been a legacy issue. Commissioner Frank Bisignano said he's changing that.",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "社安局电话等待时间创历史新低",
+        "assets": "📉 美国政府效率相关ETF 中性偏空",
+        "chain": "行政效率提升减少财政浪费，间接利好长期美债（政府债券）信用",
+        "watch": "后续行政改革措施及财政赤字数据"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文业绩超预期但宣布再融资200亿美元",
-        "assets": "📉 甲骨文股票 利空",
-        "chain": "再融资稀释每股收益(EPS)，短期压制股价，云计算资本开支(CapEx)预期高导致市场担忧回报周期拉长。",
-        "watch": "甲骨文云业务营收增速及资本支出指引"
+        "what": "甲骨文财报超预期但宣布再融资200亿美元",
+        "assets": "📉 甲骨文股票 利空；📈 科技板块 情绪承压",
+        "chain": "融资稀释股权（每股价值下降），市场担忧科技巨头资本开支过度，拖累纳指（科技股指）",
+        "watch": "甲骨文后续资本开支指引及云业务增速"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "分析称特朗普喜欢通胀，利好潜在财长沃什",
+        "what": "分析称特朗普喜欢通胀对Warsh有利",
         "assets": "📈 美元 利好；📉 美债 承压",
-        "chain": "通胀预期上升推高加息概率，美元走强，美债收益率(借钱成本)上行，风险资产估值承压。",
-        "watch": "特朗普经济政策表态及美联储利率路径"
+        "chain": "通胀预期（物价持续上涨）升温→加息概率（借钱成本提高）上升→美元走强，风险资产承压",
+        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "部分高股息股票被视为市场动荡保险",
-        "assets": "📈 公用事业/消费必需品股 利好；📉 高成长科技股 利空",
-        "chain": "资金从高风险资产轮动至防御板块，股息率(分红收益率)提供缓冲，降低组合波动率(价格波动幅度)。",
-        "watch": "VIX指数(恐慌指数)及股息率相对国债收益率差"
+        "what": "高股息股提供'动荡保险'",
+        "assets": "📈 公用事业、消费必需品 利好；📉 成长股 利空",
+        "chain": "避险资金（追求安全）从高估值科技股轮动至防御性高股息板块",
+        "watch": "VIX（恐慌指数）及资金流向数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Stock futures rise as U.S. completes strikes against Iran: Live updates",
       "source": "CNBC",
       "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
@@ -52,53 +66,39 @@
       "score": 27,
       "insight": {
         "what": "美股期货上涨，美国完成对伊朗打击",
-        "assets": "📈 原油 承压；📈 标普500指数 利好",
-        "chain": "地缘风险短期缓解，避险情绪降温，风险偏好回升，原油供应中断预期减弱。",
-        "watch": "伊朗后续反应及中东局势升级可能性"
+        "assets": "📈 美股指数 利好；📉 原油 承压",
+        "chain": "地缘风险（战争不确定性）解除→避险情绪消退→资金回流股市，油价因供给担忧缓解下跌",
+        "watch": "伊朗后续反应及中东原油运输数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "港股收评：恒指跌0.65% 科指跌1.46% 科网股普跌 半导体板块走强 阿里巴巴跌超5%",
       "source": "新浪港股",
       "detail": "6月11日消息，港股三大指数集体下跌。截至收盘，恒生指数跌0.65%，报24249.29，恒生科技指数跌1.46%，国企指数跌1.22%。盘面上，科网股普跌，阿里巴巴跌超5%，百度跌超3%...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "港股恒指跌0.65%，科指跌1.46%，阿里跌超5%",
-        "assets": "📉 港股科技股 利空；📈 A股半导体 利好",
-        "chain": "科网股获利回吐，资金切换至半导体等政策受益板块，南向资金(内地资金)流向显示结构性轮动。",
-        "watch": "恒生科技指数支撑位及阿里巴巴财报预期"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "美股盘前：三大股指期货飘红，芯片股全线上涨",
-      "source": "第一财经",
-      "detail": " 6月11日美股盘前，三大股指期货集体飘红，截至16：25，道指期货涨0.65%，标普500指数期货涨0.77%，纳指期货涨幅达1.26%。",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "美股盘前三大期指上涨，芯片股全线走强",
-        "assets": "📈 美股芯片股 利好；📈 纳指期货 利好",
-        "chain": "AI需求预期提振半导体板块，带动科技股情绪，指数期货升水(高于现货)反映开盘看涨预期。",
-        "watch": "英伟达及AMD股价走势及费城半导体指数"
+        "what": "恒指跌0.65%，科指跌1.46%，科网股普跌",
+        "assets": "📉 港股科技股 利空；📉 恒生指数 承压",
+        "chain": "阿里巴巴跌超5%拖累科网板块，半导体走强显示资金轮动（从软件切向硬件）",
+        "watch": "南向资金（内地流入港股）及阿里巴巴财报后走势"
       }
     },
     {
       "rank": 7,
+      "title": "美股盘前：三大股指期货飘红，芯片股全线上涨",
+      "source": "第一财经",
+      "detail": " 6月11日美股盘前，三大股指期货集体飘红，截至16：25，道指期货涨0.65%，标普500指数期货涨0.77%，纳指期货涨幅达1.26%。",
+      "lang": "zh",
+      "score": 25
+    },
+    {
+      "rank": 8,
       "title": "尾盘异动！300505，“20cm”涨停！",
       "source": "",
       "detail": "6月11日，A股整体小幅震荡，科创综指在2000点附近获得支撑后反弹翻红，北证50低开低走跌逾3%，上证指数、深证成指、创业板指均小幅飘绿。",
       "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 8,
-      "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
-      "source": "CNBC",
-      "detail": "President Trump suggested that inflation would drop when the U.S. war against Iran ends, and said, \"We've been taking out millions of barrels of oil.\"",
-      "lang": "en",
       "score": 20
     },
     {
