@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-11 10:56",
+  "updateTime": "2026-06-11 11:00",
   "news": [
     {
       "rank": 1,
-      "title": "美国5月CPI大幅降温，通胀压力显著缓释！华宝基金有色ETF（159876）盘中涨超2.5%，海亮股份等3股涨停！",
-      "source": "新浪基金",
-      "detail": "今日（6月11日）有色金属板块领涨全市场，博威合金、海亮股份、金钼股份3股涨停，云南锗业、厦门钨业、湖南黄金等个股大幅跟涨，同标的指数规模最大*的有色ETF华宝（159876...",
-      "lang": "zh",
-      "score": 50,
-      "insight": {
-        "what": "美国5月CPI降温，降息预期升温",
-        "assets": "📈 美股科技股 利好；📈 黄金 利好",
-        "chain": "降息预期（借钱成本降低）推高风险资产，美元走弱支撑商品",
-        "watch": "美联储6月议息会议点阵图"
-      }
-    },
-    {
-      "rank": 2,
       "title": "凌晨，全线跳水，AI服务器巨头暴跌！霍尔木兹海峡，突发！",
       "source": "证券时报",
       "detail": "全线收跌。 当地时间6月10日，美股三大指数全线收跌，道指下挫超950点。板块方面，科技股多数走低，芯片股延续近期跌势。此外，AI服务器巨头超微电脑暴跌，收跌近28%。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "AI服务器巨头暴跌，霍尔木兹突发",
-        "assets": "📉 AI服务器股 利空；📈 原油 利好",
-        "chain": "地缘风险（霍尔木兹海峡封锁）推升油价，挤压AI企业利润",
-        "watch": "霍尔木兹海峡通行情况"
+        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发事件",
+        "assets": "📉 美股科技股 承压，📈 原油 利好",
+        "chain": "地缘风险（中东冲突概率上升）推升油价，科技股遭获利了结（止盈离场）",
+        "watch": "霍尔木兹海峡航运中断情况，VIX（恐慌指数）变化"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "长江有色：美国5月CPI数据 “靓丽”降息预期降温 11日镍价或小跌",
       "source": "市场资讯",
       "detail": "长江有色金属网 镍期货市场：美国5月CPI 数据反弹降息预期降温美指反弹施压，隔夜伦镍收跌1.47%；伦镍最新收盘报17730美元/吨，下跌265美元，跌幅为1.47%，成交量12574手...",
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美国CPI靓丽但降息预期降温，镍价承压",
-        "assets": "📉 镍期货 利空",
-        "chain": "降息延迟（紧缩政策持续）压制工业金属需求，美元走强拖累计价",
-        "watch": "LME镍库存变化"
+        "what": "美国5月CPI超预期，降息预期降温",
+        "assets": "📉 镍价 承压，📈 美元 走强",
+        "chain": "CPI强劲（通胀高企）→加息预期升温（借钱成本可能提高）→美元走强→大宗商品（如镍）需求受抑",
+        "watch": "美联储6月利率决议点阵图（利率预测）"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "溜溜果园港股IPO：青梅龙头收入增速放缓 利润增长靠销售费用压缩 上市前分红6730万 实控人家族拿走八成",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 2026年6月，中国青梅细分赛道的龙头——溜溜果园集团正式启动港股全球发售。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "溜溜果园港股IPO，利润靠压缩费用",
-        "assets": "📉 港股食品消费 利空",
-        "chain": "业绩增速放缓+高分红（抽血效应），削弱市场对消费新股信心",
-        "watch": "IPO认购倍数及首日表现"
+        "what": "溜溜果园港股IPO，利润靠压缩费用，上市前分红",
+        "assets": "📉 港股消费股 偏空",
+        "chain": "收入增速放缓+分红掏空（资金外流）→市场质疑成长性→估值承压（股价被压低）",
+        "watch": "IPO认购倍数（需求热度），首日破发风险"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期但计划再融资200亿",
-        "assets": "📉 Oracle股价 承压；📈 美债收益率 上行",
-        "chain": "大规模发债（增加供给）推高利率，科技股估值受压制",
-        "watch": "发债规模及定价"
+        "what": "甲骨文财报超预期，但计划再融资200亿美元",
+        "assets": "📉 甲骨文股票 承压，📉 科技板块 偏空",
+        "chain": "再融资（增发股票稀释现有股东权益）→每股收益（EPS）被摊薄→股价下跌",
+        "watch": "甲骨文云业务营收增速，融资具体用途"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX衍生品交易：太空气体制造商",
-        "assets": "📈 太空气体概念股 利好",
-        "chain": "SpaceX上市预期（IPO成功）拉动上游供应链，稀缺材料受益",
-        "watch": "SpaceX估值及上市时间表"
+        "what": "SpaceX IPO成功，衍生品聚焦太空气体公司",
+        "assets": "📈 太空概念股 利好",
+        "chain": "SpaceX估值飙升（市值上涨）→带动供应链（太空气体）需求预期→投机资金涌入",
+        "watch": "SpaceX上市时间表，太空气体订单数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "华泰期货：贵金属价格集体承压，关注欧央行政策利率",
       "source": "市场资讯",
       "detail": "来源：华泰期货 作者： 汪雅航 市场分析 伊朗局势仍存不确定性。2月28日美国以色列对伊朗进行了空袭，随后伊朗伊斯兰革命卫队展开大规模反击。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "贵金属集体承压，关注欧央行利率决议",
+        "assets": "📉 黄金 承压，📉 白银 承压",
+        "chain": "美元走强+欧央行可能鹰派（加息预期）→实际利率（名义利率减通胀）上升→贵金属无利息收益吸引力下降",
+        "watch": "欧央行利率决议，美国初请失业金人数"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
@@ -110,12 +102,20 @@
       "score": 29
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
       "source": "CNBC",
       "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
       "lang": "en",
       "score": 27
+    },
+    {
+      "rank": 10,
+      "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
+      "source": "CNBC",
+      "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
+      "lang": "en",
+      "score": 20
     }
   ]
 }
