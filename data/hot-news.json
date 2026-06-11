@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 19:20",
+  "updateTime": "2026-06-11 19:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO被视为对马斯克的公投",
-        "assets": "📈 SpaceX 估值 利好",
-        "chain": "若成功将强化马斯克个人品牌溢价(品牌价值)，带动特斯拉等关联公司情绪",
-        "watch": "SEC审核进度及马斯克公开表态"
+        "what": "SpaceX IPO被视为对马斯克个人信誉的公投",
+        "assets": "📈 SpaceX 看涨期权 利好\n📉 特斯拉 承压",
+        "chain": "若IPO成功，马斯克信用溢价上升，特斯拉融资成本（借贷利率）或降低；失败则反噬特斯拉估值",
+        "watch": "SpaceX IPO定价区间及马斯克个人持股变动"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期但宣布再融资200亿美元",
-        "assets": "📉 甲骨文 股价 利空",
-        "chain": "融资稀释EPS(每股收益)，市场担忧债务杠杆恶化，压制科技股整体情绪",
-        "watch": "甲骨文后续回购计划及现金流表现"
+        "what": "甲骨文财报超预期但宣布再融资200亿美元，股价下跌",
+        "assets": "📉 甲骨文 利空\n📈 科技债 利好",
+        "chain": "巨额发债增加供给压力，推高企业债收益率（借钱成本），科技股资金可能转向债务市场",
+        "watch": "甲骨文债发行利率及云计算业务增速能否匹配资本支出"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 30,
       "insight": {
         "what": "马斯克打破IPO静默期惯例高调发言",
-        "assets": "📈 特斯拉 波动 中性偏多",
-        "chain": "监管风险上升(静默期违规可能被SEC调查)，但短期吸引流量推高市场关注度",
-        "watch": "SEC是否正式警告及X平台舆情"
+        "assets": "📉 合规风险标的 利空\n📈 特斯拉波动率 利好",
+        "chain": "SEC（美国证监会）可能调查，增加监管风险溢价，影响其他未上市科技公司IPO策略",
+        "watch": "SEC是否发传票及特斯拉股价波动率（VIX）变化"
       }
     },
     {
@@ -51,38 +51,38 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普称喜欢通胀，利好潜在财长Warsh",
-        "assets": "📉 美元 承压 📈 美债 波动",
-        "chain": "通胀偏好暗示政策宽松倾向，市场押注降息(借钱成本降低)预期升温",
-        "watch": "Warsh表态及特朗普经济团队人选"
+        "what": "分析称特朗普偏爱通胀，利好潜在财长候选人沃什",
+        "assets": "📈 美元 利好\n📉 美债 承压",
+        "chain": "通胀预期上升→加息概率增加（借钱成本提高）→长端利率（10年期国债收益率）上行，利空科技成长股",
+        "watch": "特朗普经济顾问名单及CPI（消费者物价指数）数据"
       }
     },
     {
       "rank": 5,
-      "title": "Anthropic, OpenAI, other U.S. AI giants launch major London expansions amid talent and revenue scramble",
-      "source": "CNBC",
-      "detail": "The U.K. capital has become a key growth target for many of the world's most talked about AI companies.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "Anthropic、OpenAI等AI巨头大举扩张伦敦",
-        "assets": "📈 英国科技股 利好 📈 伦敦写字楼 利好",
-        "chain": "人才争夺推高AI薪资成本，但加速英国AI生态系统成熟，利好本地数据中心",
-        "watch": "伦敦AI岗位招聘增速及监管政策"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Dow futures rebound by 300 points as chip stocks bounce, oil prices ease: Live updates",
       "source": "CNBC",
       "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "道指期货反弹300点，芯片股反弹油价回落",
-        "assets": "📈 美股芯片股 利好 📉 原油 利空",
-        "chain": "油价回落缓解通胀预期(生产成本下降)，资金轮动回成长股，科技板块领涨",
-        "watch": "今晚美股开盘后芯片股实际成交量"
+        "what": "道指期货反弹300点，芯片股反弹且油价回落",
+        "assets": "📈 美股半导体 利好\n📉 原油 利空",
+        "chain": "油价下跌缓解通胀预期→降息预期升温（借钱成本降低）→资金从能源板块转向科技成长股",
+        "watch": "WTI原油是否跌破80美元及费城半导体指数（SOX）走势"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Here are the odds of bear markets in each stock index this summer",
+      "source": "CNBC",
+      "detail": "For the S&P 500, a technical bear market decline of 20% from the closing high of 7,610 would mean a slide to 6,088.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "各股指夏季出现熊市（跌超20%）的概率被量化",
+        "assets": "📉 标普500 承压\n📈 波动率指数 利好",
+        "chain": "高概率预期→投资者提前对冲（买入看跌期权）→增加市场抛压，形成自我实现预言",
+        "watch": "标普500是否跌破200日均线及VIX（恐慌指数）是否突破30"
       }
     },
     {
