@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 16:31",
+  "updateTime": "2026-06-11 16:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "欧元区一季度经济萎缩，滞胀风险上升",
-        "assets": "📉 欧元区股票 承压; 📉 欧元 承压",
-        "chain": "滞胀（经济停滞+通胀）打压企业盈利预期，欧央行加息（借钱成本增加）可能加剧衰退",
-        "watch": "欧元区PMI（采购经理人指数）和CPI（消费者物价指数）数据"
+        "what": "欧元区一季度经济萎缩，滞胀风险上升，加息争议加剧",
+        "assets": "📉 欧元 承压，📉 欧债 利空，📈 美元 间接利好",
+        "chain": "滞胀（经济停滞+通胀高）削弱加息效果，可能触发欧央行政策失误，推升避险情绪",
+        "watch": "欧洲央行本周加息幅度及后续指引"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期，但计划再融资200亿美元",
-        "assets": "📉 甲骨文股票 利空; 📉 科技股板块 承压",
-        "chain": "增发（发新股）稀释现有股东权益，引发抛售；融资用于AI投资，但短期资金面紧张",
-        "watch": "甲骨文股价走势及后续融资细节"
+        "what": "Oracle财报超预期，但宣布再融资200亿美元致股价下跌",
+        "assets": "📉 Oracle股价 利空，📉 科技股情绪 承压",
+        "chain": "增发稀释（新股发行降低每股价值），市场担忧现金流压力，拖累云板块估值",
+        "watch": "Oracle后续回购或债务削减计划"
       }
     },
     {
       "rank": 3,
-      "title": "应对通胀风险 交易员预计年内欧洲央行共将加息三次",
-      "source": "环球市场播报",
-      "detail": "面临中东冲突引发的通胀复苏压力，欧洲中央银行预计将于本周四（11日）举行的货币政策会议上宣布加息。目前，金融市场对欧洲央行本周加息的预期几近完全消化。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "交易员预计欧央行年内加息三次抗通胀",
-        "assets": "📈 欧元 利好; 📉 欧债 承压",
-        "chain": "加息（借钱成本增加）抑制经济，但强化欧元汇率；债券收益率（利息回报）上升，价格下跌",
-        "watch": "欧央行利率决议及通胀预期数据"
-      }
-    },
-    {
-      "rank": 4,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO成功后，太空气体制造商受关注",
-        "assets": "📈 太空概念股 利好; 📈 稀有气体 利好",
-        "chain": "SpaceX成功带动太空产业链估值，气体供应商作为上游（原材料）受益于需求增长",
-        "watch": "SpaceX IPO估值及气体公司订单"
+        "what": "SpaceX IPO带动航天气体衍生品（如氦气）交易活跃",
+        "assets": "📈 航天气体供应商 利好，📈 SpaceX相关衍生品 看涨",
+        "chain": "IPO成功提振航天产业链，气体需求预期上升，衍生品（期权/期货）对冲风险",
+        "watch": "SpaceX IPO定价及气体库存数据"
       }
     },
     {
-      "rank": 5,
-      "title": "四连板牛股天娱数科跌停，澄清无“物理AI”“世界杯”收入",
-      "source": "界面",
-      "detail": "6月11日，此前连续四个交易日涨停的天娱数科（002354.SZ）开盘即遭遇资金猛烈抛售，股价快速跳水，仅2分钟便封死跌停板。截至当天收盘，该股仍然处于跌停中，报7.98元/股...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "天娱数科四连板后跌停，澄清无相关收入",
-        "assets": "📉 天娱数科 利空; 📉 概念炒作股 承压",
-        "chain": "澄清公告（公司说没有）打破题材（主题）预期，游资（短线资金）撤退引发踩踏",
-        "watch": "天娱数科成交量及后续公告"
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 4,
       "title": "科技巨头IPO浪潮引市场抛售恐慌 分析师：资金充裕，历史经验显示牛市未尽",
       "source": "环球市场播报",
       "detail": "美国股市周三遭遇重挫，科技股跌势在太空探索技术公司（SpaceX）首次公开募股（IPO）前夕显著加速。纳斯达克综合指数与标普500指数连续两个交易日下滑，周三分别收跌2...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "科技巨头IPO潮引发市场抛售恐慌",
-        "assets": "📈 美股大盘 中性偏利好; 📈 科技股 利好",
-        "chain": "IPO抽血（吸走资金）短期压力，但资金充裕、牛市历史规律（过去经验）支持继续上涨",
-        "watch": "IPO上市首日表现及资金流向数据"
+        "what": "科技巨头IPO潮引发市场抛售担忧，但分析师称资金充裕",
+        "assets": "📉 科技股 短期承压，📈 大盘指数 中性偏多",
+        "chain": "IPO抽水（新股吸走流动性）短期利空，但机构资金充裕，历史显示牛市不改",
+        "watch": "IPO认购倍数及美联储流动性指标"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
+      "title": "炒金客懵了！国际金价单日暴跌188美元，国内沪金跌至每克885元， 三季度或将见底？",
+      "source": "市场资讯",
+      "detail": "文章来源：华夏时报 本报（chinatimes.net.cn）记者叶青 北京报道 6月11日，伦敦金价上演史诗级暴跌，日内振幅超80美元/盎司。截至14时19分，伦敦金现报4085美元/盎司...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "国际金价单日暴跌188美元，国内沪金跌至885元/克",
+        "assets": "📉 黄金 利空，📉 黄金股 承压，📈 美元 利好",
+        "chain": "美元走强与加息预期压制金价，技术性抛售（止损盘触发）加剧跌势，三季度或见底",
+        "watch": "美联储利率决议及美元指数走势"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "特朗普称热爱通胀，利好潜在财长Warsh的鹰派立场",
+        "assets": "📈 美元 利好，📉 美债 承压，📈 通胀预期 上行",
+        "chain": "政治信号暗示未来政策偏鹰（抗通胀），推高加息预期，利空风险资产",
+        "watch": "特朗普政策声明及Warsh货币政策表态"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
@@ -102,7 +94,7 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Stock futures rise as U.S. completes strikes against Iran: Live updates",
       "source": "CNBC",
       "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
@@ -110,11 +102,19 @@
       "score": 27
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Oil prices recede after earlier gains as traders weigh U.S.-Iran latest ",
       "source": "CNBC",
       "detail": "Oil prices edged lower on Thursday after Kuwait closed its airspace and Israel warned of launches from Lebanon.",
       "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 10,
+      "title": "3000亿爆仓！最牛股市，突发！强制平仓！",
+      "source": "券商中国",
+      "detail": "韩国股市强制平仓数量攀升！ 据Global Markets Investor称，在近期韩国股市调整的过程当中，因追缴保证金而被强制抛售的股票约为3000亿韩元，按提供的汇率换算，约合1...",
+      "lang": "zh",
       "score": 27
     }
   ]
