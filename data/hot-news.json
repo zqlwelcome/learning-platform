@@ -1,36 +1,22 @@
 {
-  "updateTime": "2026-06-11 23:10",
+  "updateTime": "2026-06-11 23:15",
   "news": [
     {
       "rank": 1,
-      "title": "中国证监会同意国仪量子IPO注册申请",
-      "source": "中证网",
-      "detail": " 6月11日，中国证监会网站显示，国仪量子首次公开发行股票的注册申请获得中国证监会通过。国仪量子IPO于2025年12月10日获得受理，并于2026年5月12日提交注册。",
-      "lang": "zh",
-      "score": 48,
-      "insight": {
-        "what": "国仪量子获证监会IPO注册批准",
-        "assets": "📈 科创板量子概念股 利好",
-        "chain": "国产替代（自主可控）预期升温，带动半导体设备板块估值修复（PE倍数提升）",
-        "watch": "国仪量子发行价及首日涨幅"
-      }
-    },
-    {
-      "rank": 2,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "市场认为SpaceX IPO是对马斯克信任投票",
-        "assets": "📉 特斯拉 承压",
-        "chain": "马斯克注意力分散风险（管理精力稀释），特斯拉估值溢价（高PE）可能回调",
-        "watch": "马斯克在特斯拉的持股变动"
+        "what": "SpaceX IPO被视为对马斯克信任投票",
+        "assets": "📈 SpaceX 利好, 📉 特斯拉 承压",
+        "chain": "若IPO成功，马斯克专注度或被分散（注意力溢价），特斯拉估值可能承压；失败则市场看空其领导力",
+        "watch": "SpaceX IPO定价与认购倍数，马斯克特斯拉持股变动"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
@@ -38,71 +24,69 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO不会终结牛市，但投资者担忧后续",
-        "assets": "📉 美股科技成长股 承压",
-        "chain": "科技股资金分流（IPO抽血效应），高估值品种面临获利了结（止盈）压力",
-        "watch": "纳斯达克指数及VIX（恐慌指数）变化"
+        "assets": "📈 美股大盘 中性, 📉 科技成长股 承压",
+        "chain": "大型IPO抽走流动性（资金从存量股流向新股），短期压制科技股；但若经济强劲则影响有限",
+        "watch": "IPO后资金流向（ETF vs 个股），美联储政策预期"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期但宣布再融资200亿美元",
-        "assets": "📉 甲骨文 利空",
-        "chain": "债务扩张（杠杆率上升）稀释每股收益（EPS），云计算板块估值承压",
-        "watch": "甲骨文债务评级及股价走势"
+        "what": "甲骨文财报超预期，但盘后跌4%因再融资200亿美元",
+        "assets": "📉 甲骨文(ORCL) 利空, 📈 科技债 利好",
+        "chain": "增发稀释每股收益（EPS被摊薄），投资者担心估值压力；债市需求增加可能推高科技债收益率",
+        "watch": "甲骨文融资用途（并购/回购），云业务营收增速"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "通胀再度升温 特朗普新任美联储主席或很快被迫加息",
       "source": "环球市场播报",
       "detail": " 唐纳德・特朗普总统任命的新任美联储主席凯文・沃什，此前曾主张美联储存在降息空间——这一立场令他深得总统青睐，而特朗普长期将降息视为首要政策目标。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "通胀升温，特朗普或被迫让新任美联储主席加息",
-        "assets": "📈 美元指数 利好 📉 美债 利空",
-        "chain": "加息预期（借钱成本上升）压制风险资产，新兴市场资金外流（资本外逃）",
-        "watch": "美国CPI（消费者物价指数）及美联储点阵图（利率预测）"
+        "what": "通胀回升，特朗普新美联储主席或被迫加息",
+        "assets": "📉 美债 利空, 📉 美股 承压, 📈 美元 利好",
+        "chain": "加息预期推高实际利率（名义利率减通胀），压制风险资产；新兴市场资本外流压力加大",
+        "watch": "核心PCE（个人消费支出物价指数）月率，美联储官员讲话"
       }
     },
     {
-      "rank": 6,
-      "title": "ATFX:欧央行或宣布加息25基点 高通胀风险已迫在眉睫",
-      "source": "市场资讯",
-      "detail": "6月11日，ATFX：北京时间今日20：15，欧央行将公布利率决议结果，市场预期加息25基点，存款机制利率和主要再融资利率分别升高至2.25%、2.40%。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "欧央行或加息25基点应对高通胀",
-        "assets": "📈 欧元 利好 📉 欧洲债券 利空",
-        "chain": "欧美利差（利率差）收窄，美元承压，全球风险偏好（Risk On）降温",
-        "watch": "欧央行利率决议及拉加德发布会措辞"
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "title": "韩国交易所理事长：韩国股市暴跌并非外资看空该国",
       "source": "环球市场播报",
       "detail": "核心要点韩国交易所理事长郑恩甫表示，外资抛售韩国股票，并非对韩国市场丧失信心。他在 CNBC 采访中称，韩国市场剧烈波动源于伊朗冲突...",
       "lang": "zh",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "韩国交易所理事长：暴跌非外资看空，或为技术性调整",
+        "assets": "📉 韩国KOSPI 中性, 📈 韩元 利好",
+        "chain": "若外资未大规模流出，抛售可能来自本土杠杆资金（融资盘爆仓），短期流动性风险可控",
+        "watch": "韩国散户杠杆率（信用交易余额），外资每日净买卖数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Bezos opens up about AI startup Prometheus after $12 billion raise: 'We're not being secretive'",
       "source": "CNBC",
       "detail": "Prometheus is Jeff Bezos' AI startup that launched in November with $6.2 billion in funding. Vik Bajaj is his co-CEO.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "贝索斯透露AI初创Prometheus融资120亿美元",
+        "assets": "📈 AI板块 利好, 📈 亚马逊 利好",
+        "chain": "大额融资显示AI资本开支（资本支出）加速，利好芯片和云服务；亚马逊AI布局强化，估值或获溢价",
+        "watch": "Prometheus产品落地时间线，亚马逊AI相关营收占比"
+      }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "查诺斯警告SpaceX估值过高，称其为“希望与梦想IPO”",
       "source": "环球市场播报",
       "detail": "知名做空投资者吉姆·查诺斯周三对SpaceX即将进行的首次公开募股发出严厉警告，称这家太空探索公司高达1.75万亿美元的估值建立在“希望与梦想”之上，缺乏基本面支撑。",
@@ -110,12 +94,28 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Trump might 'love the inflation,' but consumers are feeling the pain, experts say",
       "source": "CNBC",
       "detail": "For consumers, the Middle East conflict's impact on the cost of everyday goods has made it harder to make ends meet.",
       "lang": "en",
       "score": 30
+    },
+    {
+      "rank": 9,
+      "title": "Supreme Court rules against private suits brought under key securities law",
+      "source": "CNBC",
+      "detail": "The Supreme Court sided with a group of investment funds affiliated with BlackRock and other asset managers to fend off lawsuits brought by private plaintiffs.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 10,
+      "title": "Here are the odds of bear markets in each stock index this summer",
+      "source": "CNBC",
+      "detail": "For the S&P 500, a technical bear market decline of 20% from the closing high of 7,610 would mean a slide to 6,088.",
+      "lang": "en",
+      "score": 27
     }
   ]
 }
