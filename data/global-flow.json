@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 11:05",
+  "updateTime": "2026-06-11 11:10",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,64 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3974.07",
-      "change": "-0.48"
+      "value": "3966.21",
+      "change": "-0.68"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24068.740",
-      "change": "-1.39"
+      "value": "24053.410",
+      "change": "-1.45"
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "小金属",
-      "code": "BK1027",
-      "index": 4150.76,
-      "change": 3.99,
-      "flow": 4383268864.0,
-      "flow_str": "+43.83亿",
-      "direction": "in"
-    },
-    {
-      "name": "有色金属",
-      "code": "BK0478",
-      "index": 28580.33,
-      "change": 0.78,
-      "flow": 4037019648.0,
-      "flow_str": "+40.37亿",
-      "direction": "in"
-    },
-    {
-      "name": "钨",
-      "code": "BK1625",
-      "index": 10373.25,
-      "change": 8.38,
-      "flow": 2009869264.0,
-      "flow_str": "+20.10亿",
-      "direction": "in"
-    },
-    {
-      "name": "电子化学品Ⅲ",
-      "code": "BK1332",
-      "index": 3850.3,
-      "change": 3.98,
-      "flow": 1778744576.0,
-      "flow_str": "+17.79亿",
-      "direction": "in"
-    },
-    {
-      "name": "电子化学品Ⅱ",
-      "code": "BK1039",
-      "index": 3850.3,
-      "change": 3.98,
-      "flow": 1778744576.0,
-      "flow_str": "+17.79亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -81,6 +35,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "泰国央行排除举行非例行会议调整利率的可能性",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
     {
       "title": "长江有色：美国5月CPI数据 “靓丽”降息预期降温 11日镍价或小跌",
       "source": "市场资讯",

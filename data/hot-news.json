@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-11 11:05",
+  "updateTime": "2026-06-11 11:10",
   "news": [
     {
       "rank": 1,
-      "title": "凌晨，全线跳水，AI服务器巨头暴跌！霍尔木兹海峡，突发！",
-      "source": "证券时报",
-      "detail": "全线收跌。 当地时间6月10日，美股三大指数全线收跌，道指下挫超950点。板块方面，科技股多数走低，芯片股延续近期跌势。此外，AI服务器巨头超微电脑暴跌，收跌近28%。",
-      "lang": "zh",
-      "score": 50,
-      "insight": {
-        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发风险事件",
-        "assets": "📉 美股科技股 承压；📈 原油 利好",
-        "chain": "地缘风险推油价（能源成本上升），科技股避险抛售（资金流向防御板块）",
-        "watch": "霍尔木兹海峡航运中断情况；VIX（恐慌指数）变化"
-      }
-    },
-    {
-      "rank": 2,
       "title": "长江有色：美国5月CPI数据 “靓丽”降息预期降温 11日镍价或小跌",
       "source": "市场资讯",
       "detail": "长江有色金属网 镍期货市场：美国5月CPI 数据反弹降息预期降温美指反弹施压，隔夜伦镍收跌1.47%；伦镍最新收盘报17730美元/吨，下跌265美元，跌幅为1.47%，成交量12574手...",
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美国5月CPI数据强劲，降息预期降温，镍价承压",
-        "assets": "📉 沪镍 承压；📈 美元指数 利好",
-        "chain": "CPI超预期→加息预期升温（利率走高）→美元走强→大宗商品（如镍）估值下修",
-        "watch": "美联储6月点阵图（利率预测）及鲍威尔讲话"
+        "what": "美国CPI超预期，降息预期降温",
+        "assets": "📉 镍价 承压，📉 贵金属 承压",
+        "chain": "降息预期降温（借钱成本难降），美元走强，压制大宗商品（以美元计价资产）",
+        "watch": "今晚美国CPI详细分项（核心服务）"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "溜溜果园港股IPO：青梅龙头收入增速放缓 利润增长靠销售费用压缩 上市前分红6730万 实控人家族拿走八成",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 2026年6月，中国青梅细分赛道的龙头——溜溜果园集团正式启动港股全球发售。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "溜溜果园港股IPO，利润增长靠压缩费用，上市前大额分红",
-        "assets": "📉 港股消费新股 承压",
-        "chain": "利润质量差（非营收增长）→估值打折；大额分红（实控人套现）→IPO吸引力下降",
-        "watch": "港股IPO认购倍数；青梅行业消费数据"
+        "what": "溜溜果园港股IPO，利润靠压缩销售费用",
+        "assets": "📉 港股消费股 承压，📉 食品饮料板块 偏空",
+        "chain": "IPO前大额分红（实控人套现），增长放缓，市场对消费股估值（PE）下修",
+        "watch": "港股IPO超额认购倍数及首日表现"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期，但宣布再融资200亿美元，股价下跌",
-        "assets": "📉 Oracle 承压；📉 美股科技板块 情绪利空",
-        "chain": "融资计划稀释EPS（每股收益）→股价杀估值；市场担忧资本开支回报率（ROIC）",
-        "watch": "Oracle云业务营收增速；融资用途（回购/并购）"
+        "what": "Oracle业绩超预期但计划再融资200亿美元",
+        "assets": "📉 Oracle股价 承压，📉 科技股 偏空",
+        "chain": "再融资稀释（增发股票摊薄每股收益），市场担忧资本开支回报率（ROIC）",
+        "watch": "Oracle盘后交易量及云业务收入指引"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO成功带动衍生品交易，一家太空气体公司受关注",
-        "assets": "📈 太空概念股 利好；📈 工业气体板块 利好",
-        "chain": "SpaceX IPO（首次公开募股）→太空经济热度上升→供应链公司（如气体供应商）被炒作",
-        "watch": "SpaceX上市时间表；该气体公司订单数据"
+        "what": "SpaceX衍生品交易：太空气体公司受益",
+        "assets": "📈 太空概念股 利好，📈 特种气体（氦气） 利好",
+        "chain": "SpaceX IPO预期升温，带动上游供应链（太空气体）估值重估（P/E倍数扩张）",
+        "watch": "SpaceX二级市场估值及气体合同公告"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "华泰期货：贵金属价格集体承压，关注欧央行政策利率",
       "source": "市场资讯",
       "detail": "来源：华泰期货 作者： 汪雅航 市场分析 伊朗局势仍存不确定性。2月28日美国以色列对伊朗进行了空袭，随后伊朗伊斯兰革命卫队展开大规模反击。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "贵金属价格集体承压，市场关注欧央行利率决策",
-        "assets": "📉 黄金 承压；📉 白银 承压",
-        "chain": "欧央行若加息（紧缩政策）→美元相对走强→贵金属（无息资产）吸引力下降",
-        "watch": "欧央行6月利率决议；美国实际利率（TIPS收益率）走势"
+        "what": "贵金属集体承压，关注欧央行利率",
+        "assets": "📉 黄金 承压，📉 白银 承压",
+        "chain": "美元走强（非美货币贬值），贵金属避险需求减弱，欧央行若降息（借钱成本降低）可能缓解",
+        "watch": "欧央行利率决议及拉加德讲话"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "特朗普偏好通胀，利好凯文·沃什",
+        "assets": "📈 美元 利好，📈 美债收益率 上行",
+        "chain": "通胀预期（物价持续涨）推高利率，沃什作为鹰派（主张加息）候选人获提名概率上升",
+        "watch": "特朗普民调及沃什公开讲话"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
@@ -102,7 +94,7 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
       "source": "CNBC",
       "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
@@ -110,10 +102,18 @@
       "score": 27
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
       "source": "CNBC",
       "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
+      "source": "CNBC",
+      "detail": "President Trump suggested that inflation would drop when the U.S. war against Iran ends, and said, \"We've been taking out millions of barrels of oil.\"",
       "lang": "en",
       "score": 20
     }
