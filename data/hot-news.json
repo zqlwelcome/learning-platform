@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 23:30",
+  "updateTime": "2026-06-11 23:35",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO被视为对马斯克信任投票",
-        "assets": "📈 特斯拉 利好，📉 SpaceX估值 承压",
-        "chain": "马斯克声誉若受质疑，可能拖累特斯拉融资成本（借钱难度）上升",
-        "watch": "SpaceX IPO认购倍数及马斯克推特动态"
+        "what": "SpaceX IPO被视为对马斯克的信任投票。",
+        "assets": "📈 太空概念股 利好; 📉 特斯拉 承压",
+        "chain": "马斯克声誉溢价（名人效应）传导至SpaceX估值，特斯拉资金或分流。",
+        "watch": "SpaceX IPO定价与认购倍数"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不会终结牛市，但投资者担忧后续风险",
-        "assets": "📉 美股大盘 承压，📈 避险资产 利好",
-        "chain": "IPO抽血效应（资金流出）叠加不确定性，可能压制短期风险偏好（冒险情绪）",
-        "watch": "VIX指数（恐慌指标）及IPO首日涨跌幅"
+        "what": "SpaceX IPO不会打破牛市，但投资者担忧后续。",
+        "assets": "📈 美股大盘 中性; 📉 成长股 承压",
+        "chain": "IPO吸筹（资金抽离）压低流动性，成长股估值受挤压。",
+        "watch": "IPO后市场资金流向"
       }
     },
     {
       "rank": 3,
+      "title": "加密市场押注SpaceX上市首日较IPO价格溢价20% 估值达2.2万亿美元",
+      "source": "环球市场播报",
+      "detail": " 加密市场交易员正在无视SpaceX的预期IPO价格，在这家埃隆·马斯克旗下火箭、卫星和人工智能公司上市交易前，给出更高估值。",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "加密市场押注SpaceX上市首日溢价20%，估值2.2万亿美元。",
+        "assets": "📈 比特币 利好; 📈 SpaceX相关代币 利好",
+        "chain": "加密赌注（衍生品投机）放大风险溢价，或引发波动率飙升。",
+        "watch": "SpaceX首日涨幅与加密期权隐含波动率"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle业绩超预期，但计划再融资200亿美元致股价下跌",
-        "assets": "📉 Oracle 利空，📈 科技债 利好",
-        "chain": "大规模发债稀释股东权益，但增加并购弹药，或推高公司债收益率（借钱成本）",
-        "watch": "Oracle债券发行利率及后续收购标的"
+        "what": "甲骨文财报超预期，但宣布再融资200亿美元致股价下跌。",
+        "assets": "📉 甲骨文 利空; 📈 科技股 中性",
+        "chain": "增发（稀释股权）压低股价，云业务现金流预期恶化。",
+        "watch": "甲骨文云收入增速与债务评级"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "通胀再度升温 特朗普新任美联储主席或很快被迫加息",
       "source": "环球市场播报",
       "detail": " 唐纳德・特朗普总统任命的新任美联储主席凯文・沃什，此前曾主张美联储存在降息空间——这一立场令他深得总统青睐，而特朗普长期将降息视为首要政策目标。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "通胀升温，特朗普新美联储主席或被迫提前加息",
-        "assets": "📈 美元 利好，📉 美股 承压，📉 黄金 承压",
-        "chain": "加息（借钱成本上升）压制估值，企业利润缩水，债券收益率（利息）攀升",
-        "watch": "美国CPI（消费者物价指数）及美联储会议纪要"
+        "what": "通胀升温，特朗普新任美联储主席或被迫加息。",
+        "assets": "📉 美债 利空; 📉 美股 承压; 📈 美元 利好",
+        "chain": "加息预期（借钱成本上升）压制风险资产，美元走强施压新兴市场。",
+        "watch": "美国CPI数据与美联储官员讲话"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "韩国交易所理事长：韩国股市暴跌并非外资看空该国",
       "source": "环球市场播报",
       "detail": "核心要点韩国交易所理事长郑恩甫表示，外资抛售韩国股票，并非对韩国市场丧失信心。他在 CNBC 采访中称，韩国市场剧烈波动源于伊朗冲突...",
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "韩国交易所理事长否认外资看空致股市暴跌",
-        "assets": "📉 韩股 承压，📈 韩元 承压",
-        "chain": "内资抛售或引发流动性危机（钱不够），但外资未撤离则短期反弹概率大",
-        "watch": "韩国散户资金流向及外资持仓变化"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Bezos opens up about AI startup Prometheus after $12 billion raise: 'We're not being secretive'",
-      "source": "CNBC",
-      "detail": "Prometheus is Jeff Bezos' AI startup that launched in November with $6.2 billion in funding. Vik Bajaj is his co-CEO.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "贝索斯为AI初创公司Prometheus融资120亿美元",
-        "assets": "📈 AI板块 利好，📈 云计算 利好",
-        "chain": "巨额融资表明AI军备竞赛白热化，可能挤压传统云服务商利润空间（赚头变少）",
-        "watch": "Prometheus产品落地进度及竞品融资动态"
+        "what": "韩国交易所理事长称暴跌非外资看空，系内资恐慌。",
+        "assets": "📉 韩国KOSPI 利空; 📉 韩元 承压",
+        "chain": "内资抛售（恐慌性卖出）加剧流动性危机，或触发程序化交易止损。",
+        "watch": "韩国散户资金流向与波动率指数"
       }
     },
     {
       "rank": 7,
+      "title": "Bezos opens up about AI startup Prometheus after $12 billion raise: 'We're not being secretive'",
+      "source": "CNBC",
+      "detail": "Prometheus is Jeff Bezos' AI startup that launched in November with $6.2 billion in funding. Vik Bajaj is his co-CEO.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "Josh Brown says a new AI trade is emerging and this 'Best Stock' is benefitting ",
       "source": "CNBC",
       "detail": "Josh and Sean break down how another trade is taking the place of the chip stocks and other early AI trades — the AI customers. ",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Trump might 'love the inflation,' but consumers are feeling the pain, experts say",
       "source": "CNBC",
       "detail": "For consumers, the Middle East conflict's impact on the cost of everyday goods has made it harder to make ends meet.",
@@ -102,18 +110,10 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "AI机器人企业Theker获路威酩轩等投资方8500万美元融资",
       "source": "环球市场播报",
       "detail": " 总部位于巴塞罗那的人工智能机器人企业Theker于周四宣布完成一轮总额 8500 万美元的融资，此次融资也凸显出西班牙科技产业持续向好的发展态势。",
-      "lang": "zh",
-      "score": 25
-    },
-    {
-      "rank": 10,
-      "title": "贝索斯驳斥AI失业论预测 410亿美元押注AI实验室",
-      "source": "环球市场播报",
-      "detail": "杰夫・贝索斯驳斥了人工智能将造成大规模失业的预测，他认为这项技术反而会迎来多重黄金发展时代。 这位亚马逊创始人在接受采访时表示...",
       "lang": "zh",
       "score": 25
     }
