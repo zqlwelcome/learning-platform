@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-11 17:46",
+  "updateTime": "2026-06-11 17:51",
   "news": [
     {
       "rank": 1,
-      "title": "AI mega-listings are 'just the start,' Razer CEO says, ahead of historic SpaceX IPO",
-      "source": "CNBC",
-      "detail": "Blockbuster public offerings from AI companies could be an enduring feature of the industry, Razer CEO Min-Liang Tan said Thursday, ahead of several mega IPOs.",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "Razer CEO称AI巨头IPO潮刚开始，SpaceX上市在即",
-        "assets": "📈 AI/太空概念股 利好",
-        "chain": "科技股IPO（首次公开募股）升温→资金从防御板块抽离→推高成长股估值（市盈率扩张）",
-        "watch": "SpaceX IPO估值及后续AI公司上市进度"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期，但宣布再融资200亿美元致股价下跌",
-        "assets": "📉 Oracle 承压，📈 云服务板块 中性偏空",
-        "chain": "大规模发债（增加供给）→企业债收益率上行（借钱成本变高）→挤压科技股估值（折现率提高）",
-        "watch": "Oracle后续发债利率及云业务资本开支指引"
+        "what": "Oracle财报超预期但宣布再融资200亿美元",
+        "assets": "📉 甲骨文(ORCL) 承压, 📈 科技成长股 利空",
+        "chain": "融资稀释（增发股份降低每股收益）压制股价，拖累科技板块情绪",
+        "watch": "甲骨文盘后股价走势及后续融资细节"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "分析称特朗普偏好通胀对Kevin Warsh有利",
-        "assets": "📈 美债收益率 上行，📉 美元 短期承压",
-        "chain": "通胀预期升温（物价持续上涨）→美联储可能推迟降息（借钱成本居高不下）→利好价值股/商品（抗通胀资产）",
-        "watch": "美国CPI（消费者物价指数）及Warsh政策表态"
+        "what": "分析称特朗普偏爱通胀利好潜在财长Warsh",
+        "assets": "📈 美元指数 利好, 📉 美债长期利率 承压",
+        "chain": "通胀预期（物价持续上涨）提升加息概率（借钱成本上升），美元走强压制新兴市场",
+        "watch": "特朗普竞选表态及通胀数据（CPI/PPI）"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "推荐支付高股息且具避险属性的股票",
-        "assets": "📈 公用事业/消费必需品 利好，📉 成长股 承压",
-        "chain": "地缘风险+衰退担忧→资金涌入防御板块（高股息低波动）→压制风险偏好（科技股资金流出）",
-        "watch": "VIX（恐慌指数）及防御板块相对强度"
+        "what": "高股息股票被视作市场动荡的保险",
+        "assets": "📈 公用事业股 利好, 📈 消费必需品股 利好",
+        "chain": "避险资金（求稳资金）从成长股轮动到高股息防御板块（抗跌行业），降低组合波动",
+        "watch": "VIX指数（恐慌指数）及股息率对比"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Stock futures rise as U.S. completes strikes against Iran: Live updates",
       "source": "CNBC",
       "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美股期货上涨，美国完成对伊朗打击行动",
-        "assets": "📈 标普500期货 短期利好，📉 原油 承压",
-        "chain": "地缘冲突短期结束（风险事件落地）→避险情绪消退→风险资产反弹，油价回吐风险溢价（战争溢价消失）",
-        "watch": "伊朗后续表态及中东航运安全"
+        "what": "美股期货上涨，美国完成对伊朗打击",
+        "assets": "📈 标普500期货 利好, 📈 原油 承压",
+        "chain": "地缘风险（战争威胁）暂时解除，风险偏好（愿意冒险）回升，油价因供给担忧缓解下跌",
+        "watch": "伊朗后续反应及布伦特原油走势"
       }
     },
     {
-      "rank": 6,
-      "title": "港股收评：恒指跌0.65% 科指跌1.46% 科网股普跌 半导体板块走强 阿里巴巴跌超5%",
-      "source": "新浪港股",
-      "detail": "6月11日消息，港股三大指数集体下跌。截至收盘，恒生指数跌0.65%，报24249.29，恒生科技指数跌1.46%，国企指数跌1.22%。盘面上，科网股普跌，阿里巴巴跌超5%，百度跌超3%...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "港股恒指跌0.65%，科指跌1.46%，科网股普跌，半导体走强",
-        "assets": "📉 恒生科技股 承压，📈 港股半导体 利好",
-        "chain": "科网股回调（获利了结）→资金轮动至半导体（国产替代逻辑）→恒指分化加剧（行业轮动信号）",
-        "watch": "恒生科技指数200日线支撑及南向资金流向"
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "title": "尾盘异动！300505，“20cm”涨停！",
       "source": "",
       "detail": "6月11日，A股整体小幅震荡，科创综指在2000点附近获得支撑后反弹翻红，北证50低开低走跌逾3%，上证指数、深证成指、创业板指均小幅飘绿。",
       "lang": "zh",
-      "score": 20
+      "score": 20,
+      "insight": {
+        "what": "A股尾盘异动，300505川金诺20cm涨停",
+        "assets": "📈 川金诺(300505) 利好, 📈 磷化工板块 利好",
+        "chain": "游资（短线投机资金）借尾盘拉抬，可能带动化工小盘股跟风（跟涨），但持续性存疑",
+        "watch": "次日开盘成交量及板块内其他涨停股"
+      }
     },
     {
-      "rank": 8,
+      "rank": 6,
+      "title": "KKR says AI productivity boom to keep on going — but warns of 'extreme' trend not seen since the 19th century",
+      "source": "CNBC",
+      "detail": "KKR said in its mid-year outlook Thursday that AI will drive economic growth for years to come, but only in specific sectors.",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "KKR称AI生产力繁荣将持续但极端程度罕见",
+        "assets": "📈 AI芯片股 利好, 📉 传统科技股 承压",
+        "chain": "AI投资周期（资本开支扩张）类似19世纪铁路，龙头受益但泡沫风险（估值过高）加剧",
+        "watch": "AI企业资本开支指引及营收增速"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
       "source": "CNBC",
       "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
@@ -102,20 +94,28 @@
       "score": 20
     },
     {
-      "rank": 9,
-      "title": "KKR says AI productivity boom to keep on going — but warns of 'extreme' trend not seen since the 19th century",
+      "rank": 8,
+      "title": "OpenAI mulls slashing prices as it competes with Anthropic for users: WSJ ",
       "source": "CNBC",
-      "detail": "KKR said in its mid-year outlook Thursday that AI will drive economic growth for years to come, but only in specific sectors.",
+      "detail": "OpenAI is reportedly mulling drastic price cuts to its AI models, as it looks to woo consumers from rival AI company Anthropic, the WSJ reported on Wednesday.",
       "lang": "en",
       "score": 20
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "外汇交易员预计：欧洲央行决议落地后，欧元波动将受限",
       "source": "环球市场播报",
       "detail": "尽管今日德国国债大概率迎来上涨，但外汇市场普遍认为，即便欧洲央行本次会议释放鹰派立场，也难以扭转欧元走势。欧元兑美元一周期蝶式期权（用于衡量期权到期前汇率大幅波...",
       "lang": "zh",
       "score": 18
+    },
+    {
+      "rank": 10,
+      "title": "德国法院对谷歌作出判决，AI责任归属问题浮出水面",
+      "source": "环球市场播报",
+      "detail": "过去两天欧洲一桩针对谷歌的法院判决引发重磅关注。先别急着下判断，这并非欧洲以往常见的、条件反射式针对美国科技企业的裁决。",
+      "lang": "zh",
+      "score": 15
     }
   ]
 }
