@@ -1,17 +1,17 @@
 {
-  "updateTime": "2026-06-11 22:30",
+  "updateTime": "2026-06-11 22:36",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "25341.86",
+      "value": "25340.60",
       "change": "0.68"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "50245.60",
-      "change": "0.65"
+      "value": "50251.18",
+      "change": "0.67"
     },
     "sh000001": {
       "name": "上证指数",
@@ -34,5 +34,11 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "通胀再度升温 特朗普新任美联储主席或很快被迫加息",
+      "source": "环球市场播报",
+      "keyword": "美联储"
+    }
+  ]
 }
