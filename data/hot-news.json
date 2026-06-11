@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-11 21:30",
+  "updateTime": "2026-06-11 21:35",
   "news": [
     {
       "rank": 1,
+      "title": "重磅经济数据即将发布，发改委抓紧储备政策工具",
+      "source": "一财网",
+      "detail": "5月，人工智能等前沿领域的资本投资金额同比增长约5倍。 国家统计局将于6月16日发布5月份工业、消费、投资等经济数据。中国经济在经历了3...",
+      "lang": "zh",
+      "score": 57,
+      "insight": {
+        "what": "发改委储备政策工具应对经济数据",
+        "assets": "📈 A股 短期利好",
+        "chain": "若数据不及预期，可能触发降准（降存款准备金率），利好债市。",
+        "watch": "PMI（采购经理人指数）及社融（社会融资总量）数据"
+      }
+    },
+    {
+      "rank": 2,
       "title": "伊朗冲突推高能源成本，欧洲央行自2023年以来首次加息",
       "source": "环球市场播报",
       "detail": "受伊朗冲突持续推高通胀、使其偏离政策目标影响，欧洲央行于周四宣布加息 25 个基点，主要利率上调至 2.25%。 伦敦证券交易所集团的数据显示...",
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "伊朗冲突推高能源成本，欧央行2023年来首次加息",
-        "assets": "📈 欧洲债券 利空, 📈 能源股 利好, 📉 欧元 承压",
-        "chain": "能源成本上升→通胀粘性（物价难降）→欧央行加息抑制经济→风险资产（股票）承压",
-        "watch": "伊朗局势演变及欧央行后续会议点阵图（利率预测）"
+        "what": "伊朗冲突推高能源成本",
+        "assets": "📈 原油 利好\n📉 欧洲股市 承压",
+        "chain": "油价上涨→生产成本上升→欧央行加息（借钱成本增加）抑制通胀，加剧经济放缓。",
+        "watch": "布伦特原油（国际油价基准）价格及伊朗局势"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "欧洲央行自2023年以来首次加息",
       "source": "环球市场播报",
       "detail": " 在当前美以对伊战争持续导致欧洲通胀偏离目标水平的背景下，欧洲央行周四宣布加息25个基点，将其关键利率上调至2.25%。",
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "欧央行自2023年来首次加息，应对通胀压力",
-        "assets": "📉 欧洲国债 利空, 📈 欧元 短期利好",
-        "chain": "加息→借贷成本上升→企业投资放缓→股市估值（股价/盈利比）下修",
-        "watch": "欧元区CPI（消费者物价指数）及PMI（采购经理人指数）数据"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "欧洲央行在通胀压力加剧之下自2023年以来首次加息",
-      "source": "环球市场播报",
-      "detail": "欧洲央行在接近三年来首次提高利率，认为随着通胀压力加剧，不能再坐等伊朗战争结束。 该行将存款利率从2%上调至2.25%，符合预期。",
-      "lang": "zh",
-      "score": 51,
-      "insight": {
-        "what": "欧央行在通胀加剧下自2023年来首次加息",
-        "assets": "📉 欧洲高收益债（垃圾债）利空, 📈 欧洲银行股 利好",
-        "chain": "加息→银行净息差（贷款利率-存款利率）扩大→盈利改善，但经济放缓风险上升",
-        "watch": "欧央行官员讲话及欧元区失业率"
+        "what": "欧洲央行自2023年以来首次加息",
+        "assets": "📈 欧元 利好\n📉 欧洲债券 承压",
+        "chain": "加息→欧元走强→出口竞争力下降，欧洲经济增长放缓风险上升。",
+        "watch": "欧央行下次会议利率预期及欧元区CPI（消费者物价指数）"
       }
     },
     {
       "rank": 4,
+      "title": "中国证监会同意国仪量子IPO注册申请",
+      "source": "中证网",
+      "detail": " 6月11日，中国证监会网站显示，国仪量子首次公开发行股票的注册申请获得中国证监会通过。国仪量子IPO于2025年12月10日获得受理，并于2026年5月12日提交注册。",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "中国证监会同意国仪量子IPO",
+        "assets": "📈 量子计算概念股 利好",
+        "chain": "IPO获批→提振科技板块情绪，但可能分流存量资金（资金从其他股票流出）。",
+        "watch": "申购倍数及上市首日涨幅"
+      }
+    },
+    {
+      "rank": 5,
       "title": "雷蛇CEO：SpaceX迎来里程碑式IPO，大型AI企业上市潮“仅仅是开端”",
       "source": "环球市场播报",
       "detail": "核心要点雷蛇 CEO 陈民亮预计，一大批人工智能相关企业将接连掀起重磅上市浪潮。此番表态发布之际，SpaceX、安索帕、OpenAI 等多家头部企业即将迎来具有里程碑意义的集中上...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "雷蛇CEO称SpaceX迎里程碑IPO，AI企业上市潮开始",
-        "assets": "📈 SpaceX相关概念股 利好, 📈 AI初创公司估值 提振",
-        "chain": "SpaceX IPO成功→市场对高风险科技股风险偏好（愿意承担风险的意愿）上升→带动AI板块资金流入",
-        "watch": "SpaceX IPO定价及首日涨幅，AI行业融资动态"
+        "what": "雷蛇CEO称SpaceX等AI企业IPO潮开启",
+        "assets": "📈 AI/太空概念股 利好",
+        "chain": "IPO热潮→资金涌入成长股（高增长公司股票），但可能引发估值泡沫（价格远超实际价值）。",
+        "watch": "SpaceX IPO估值及后续AI公司上市计划"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不会打破牛市，但投资者担忧后续影响",
-        "assets": "📈 美股大盘 中性偏空, 📉 科技成长股 承压",
-        "chain": "IPO抽走流动性（市场资金）→短期压制其他科技股，但牛市趋势未改",
-        "watch": "IPO首日资金流向及纳斯达克指数波动"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
-      "source": "CNBC",
-      "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "市场观察者称SpaceX IPO是对马斯克的一次公投",
-        "assets": "📈 特斯拉 联动利好, 📉 马斯克关联公司 波动加大",
-        "chain": "IPO成功→市场对马斯克领导力信心增强→特斯拉估值（股价/盈利比）获得支撑",
-        "watch": "马斯克社交媒体动态及SpaceX IPO认购倍数（需求热度）"
+        "what": "SpaceX IPO引发市场担忧牛市拐点",
+        "assets": "📈 美股大盘 短期中性\n📉 科技股 承压",
+        "chain": "大型IPO吸走流动性（市场资金），若估值过高，可能触发科技板块回调。",
+        "watch": "IPO首日涨幅及机构认购数据"
       }
     },
     {
       "rank": 7,
+      "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
+      "source": "CNBC",
+      "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
+      "lang": "en",
+      "score": 45
+    },
+    {
+      "rank": 8,
       "title": "SpaceX IPO进入最后阶段 散户认购订单规模超700亿美元",
       "source": "环球市场播报",
       "detail": "据知情人士透露，有望创下募资纪录的SpaceX IPO已进入收尾阶段，其个人投资者认购订单规模突破700亿美元。 相关消息尚未对外公布，因此知情人士要求匿名。",
@@ -94,7 +102,7 @@
       "score": 40
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Parabilis完成6.7亿美元IPO，创风投支持生物科技公司募资纪录",
       "source": "环球市场播报",
       "detail": "临床阶段生物制药公司Parabilis Medicines本周完成了有史以来规模最大的风投支持生物科技首次公开募股，筹资约6.7亿美元，超出此前由Kailera...",
@@ -102,18 +110,10 @@
       "score": 40
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SpaceX将进行历史性IPO：筹资750亿美元，马斯克保留超80%投票权",
       "source": "环球市场播报",
       "detail": "埃隆·马斯克的火箭公司SpaceX即将于周五在纳斯达克进行首次公开募股，这将成为全球资本市场历史上规模最大的IPO事件。根据公司向美国证券交易委员会提交的文件...",
-      "lang": "zh",
-      "score": 40
-    },
-    {
-      "rank": 10,
-      "title": "邦达亚洲:CPI符合市场预期 美元指数小幅收涨",
-      "source": "市场资讯",
-      "detail": "6月11日，美国劳工统计局周三公布数据显示，5月消费者价格指数（CPI）同比上涨4.2%，为2023年初以来最高水平，符合市场预期，这也标志着CPI通胀三年来首次突破4%关口。",
       "lang": "zh",
       "score": 40
     }
