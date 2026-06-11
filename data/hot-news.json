@@ -1,92 +1,108 @@
 {
-  "updateTime": "2026-06-11 20:11",
+  "updateTime": "2026-06-11 20:16",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
+      "source": "CNBC",
+      "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO引发市场对后续走势担忧",
+        "assets": "📈 美股大盘 中性偏空; 📈 太空概念股 短期利好",
+        "chain": "IPO抽血效应（资金从二级市场流向一级市场）压制科技股流动性",
+        "watch": "SpaceX IPO定价及首日涨幅"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO被视为对马斯克本人的公投",
-        "assets": "📉 特斯拉 承压, 📈 SpaceX 估值 利好",
-        "chain": "若IPO表现差，市场对马斯克管理能力担忧会传导至特斯拉股价（风险溢价上升）",
-        "watch": "SpaceX IPO估值区间及首日涨跌幅"
+        "what": "市场视SpaceX IPO为对马斯克信任投票",
+        "assets": "📈 特斯拉 联动风险; 📈 马斯克相关概念股 情绪敏感",
+        "chain": "马斯克声誉溢价（个人品牌对股价的加成）直接影响投资者风险偏好",
+        "watch": "马斯克后续公开言论及特斯拉股价波动"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期但宣布再融资200亿美元，股价下跌",
-        "assets": "📉 Oracle 承压, 📈 科技债 利好",
-        "chain": "再融资稀释每股收益（EPS），市场抛售股票，但债券供应增加可能压低科技债收益率",
-        "watch": "Oracle后续资本开支计划及云业务增速"
+        "what": "甲骨文财报超预期但宣布再融资200亿美元致股价下跌",
+        "assets": "📉 甲骨文 利空; 📈 云计算板块 中性偏空",
+        "chain": "稀释效应（增发股份摊薄每股收益）抵消盈利利好，科技股融资潮可能蔓延",
+        "watch": "甲骨文融资用途及后续科技公司发债动向"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "As OpenAI leans into enterprise business, Apple and Google set sights on the masses",
+      "source": "CNBC",
+      "detail": "OpenAI's aggressive push into the enterprise, where it competes with Anthropic, coincides with efforts by Apple and Google to bring advanced AI to consumers.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "OpenAI专注企业市场，苹果谷歌瞄准大众消费者",
+        "assets": "📈 苹果 利好; 📈 谷歌 利好; 📉 OpenAI竞争对手 承压",
+        "chain": "AI赛道分化（B2B vs B2C）加剧，消费端AI应用渗透率将成关键",
+        "watch": "苹果/谷歌AI产品发布进度及用户增长数据"
+      }
+    },
+    {
+      "rank": 5,
       "title": "马斯克：高调打破IPO静默期惯例",
       "source": "环球市场播报",
       "detail": "作者：戴金・坎贝尔撰文：戴金・坎贝尔 上月月末，埃隆・马斯克在 X 平台发文，披露了太空探索技术公司（SpaceX）与人工智能企业安索帕（Anthropic）的合作细节...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "马斯克高调打破IPO静默期惯例",
-        "assets": "📉 特斯拉 承压, 📈 监管风险 利空",
-        "chain": "违规言论可能招致SEC（美国证监会）调查，增加法律成本，影响投资者信心",
-        "watch": "SEC是否启动调查及特斯拉股价波动"
+        "what": "马斯克违反IPO静默期惯例高调发言",
+        "assets": "📉 特斯拉 风险; 📈 SpaceX 关注度提升",
+        "chain": "监管风险（SEC可能调查）叠加市场对管理层纪律性质疑",
+        "watch": "SEC是否发出警告信及SpaceX招股书更新"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普称喜欢通胀，利好潜在财长人选Kevin Warsh",
-        "assets": "📈 美元 利好, 📉 美债 承压",
-        "chain": "通胀预期上升推高长期利率（长端收益率曲线陡化），美元走强，风险资产承压",
-        "watch": "特朗普经济团队提名及10年期美债收益率走势"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "关键材料引爆，热门龙头再创新高，年内暴涨超765%！科创芯片ETF华宝（589190）冲高2%，逆市3连涨",
-      "source": "新浪基金",
-      "detail": " 6月11日，芯片半导体整体延续强势，全“芯”布局芯片产业、成份股更硬核的科创芯片ETF华宝（589190）场内价格一度涨超2%，收涨1.34%，逆市3连涨。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "关键材料龙头股年内暴涨超765%，科创芯片ETF逆市三连涨",
-        "assets": "📈 科创芯片 利好, 📈 半导体材料 利好",
-        "chain": "龙头股赚钱效应吸引资金流入科创芯片ETF（交易所交易基金），带动板块估值修复",
-        "watch": "该材料龙头股成交量及后续业绩预告"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Dow futures rebound by 300 points as chip stocks bounce, oil prices ease: Live updates",
-      "source": "CNBC",
-      "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "道指期货反弹300点，芯片股反弹且油价回落",
-        "assets": "📈 美股大盘 利好, 📈 芯片股 利好, 📉 原油 利空",
-        "chain": "油价下跌缓解通胀担忧（成本端改善），芯片股反弹提振科技板块，带动指数期货修复",
-        "watch": "美国EIA（能源信息署）原油库存数据及芯片龙头股财报"
+        "what": "分析称特朗普支持通胀利好凯文·沃什（潜在美联储主席）",
+        "assets": "📈 美元 短期承压; 📉 美债 利率上行风险",
+        "chain": "通胀预期（物价持续上涨）推高加息概率，沃什若上位可能鹰派（倾向收紧政策）",
+        "watch": "特朗普民调及沃什对通胀的公开评论"
       }
     },
     {
       "rank": 7,
+      "title": "关键材料引爆，热门龙头再创新高，年内暴涨超765%！科创芯片ETF华宝（589190）冲高2%，逆市3连涨",
+      "source": "新浪基金",
+      "detail": " 6月11日，芯片半导体整体延续强势，全“芯”布局芯片产业、成份股更硬核的科创芯片ETF华宝（589190）场内价格一度涨超2%，收涨1.34%，逆市3连涨。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
+      "title": "Dow futures rebound by 300 points as chip stocks bounce, oil prices ease: Live updates",
+      "source": "CNBC",
+      "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 9,
       "title": "Stocks making the biggest moves premarket: Oracle, Intel, Applied Materials, Alcoa and more",
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves in the premarket.",
@@ -94,26 +110,10 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "人工智能板块轮动与新股吸金效应显现 美股面临结构性调整压力",
       "source": "环球市场播报",
       "detail": "野村证券（Nomura）日前发布最新跨资产策略报告指出，随着全球人工智能（AI）投资范式发生实质性转变，前期领涨的头部科技巨头因资金分流与大规模融资正由市场主力向阻力转...",
-      "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 9,
-      "title": "核心技术受制于人 苹果在人工智能领域深化对谷歌依赖引发市场重估与监管风险",
-      "source": "环球市场播报",
-      "detail": "苹果公司日前举行2026年全球开发者大会（WWDC），发布了由虚拟助手Siri领衔的“苹果智能”（Apple Intelligence）系统。值得注意的是...",
-      "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "算力金属走强！钨价反弹，小金属多股涨停！SK海力士，尝试“以钼代钨”！有色ETF华宝（159876）最高涨超3%",
-      "source": "新浪基金",
-      "detail": " 今日（6月11日）市场盘整，A股三大指数悉数回调，有色金属板块断层领涨，全天获主力资金净流入超154亿元，板块吸金额高居31个申万一级行业第二位！",
       "lang": "zh",
       "score": 20
     }
