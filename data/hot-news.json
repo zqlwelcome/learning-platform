@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 11:36",
+  "updateTime": "2026-06-11 11:41",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 48,
       "insight": {
         "what": "美国5月CPI超预期，降息预期降温",
-        "assets": "📉 镍价 承压；📉 贵金属 承压",
-        "chain": "美元走强（美元变贵）→大宗商品（以美元计价）价格下跌→风险资产（如股票）承压",
-        "watch": "今晚美国核心CPI数据及美联储点阵图"
+        "assets": "📉 镍价 利空；📉 贵金属 承压",
+        "chain": "CPI高→降息延后→美元走强→大宗商品（如镍、金）估值受压",
+        "watch": "今晚美国CPI实际数据 vs 预期"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "溜溜果园港股IPO，利润靠压缩费用，上市前大额分红",
-        "assets": "📉 港股消费股 谨慎；📉 青梅行业 估值承压",
-        "chain": "财务质量差（利润增长不可持续）→投资者用脚投票（抛售）→同行业新股估值被压",
-        "watch": "IPO首日破发与否及后续募资规模"
+        "what": "溜溜果园港股IPO，利润靠压缩费用，实控人分红多",
+        "assets": "📉 港股消费新股 偏空；📉 青梅行业 估值承压",
+        "chain": "增长放缓+大额分红→市场质疑公司治理→拖累同类消费股IPO情绪",
+        "watch": "IPO认购倍数及首日表现"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文业绩超预期，但计划再融资200亿美元，股价跌",
-        "assets": "📉 甲骨文（ORCL）股价 利空；📉 科技股情绪 承压",
-        "chain": "再融资（增发稀释）→每股收益被摊薄（EPS下降）→股价下跌；可能影响云服务板块",
-        "watch": "甲骨文云业务增速及融资用途细节"
+        "what": "Oracle盈利超预期，但计划再融资200亿美元致股价跌",
+        "assets": "📉 Oracle股票 利空；📉 科技股 情绪偏空",
+        "chain": "增发（稀释现有股东权益）→股价下跌→拖累云软件板块（如CRM、SAP）",
+        "watch": "Oracle盘后股价及融资用途细节"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "印尼央行加息后，债市重新下跌",
-        "assets": "📉 印尼国债 承压；📉 印尼盾 贬值",
-        "chain": "加息（借钱成本升）→债券价格跌→资金外流（资本外逃）→新兴市场风险偏好降低",
-        "watch": "印尼通胀数据及央行后续政策信号"
+        "what": "印尼央行加息效果短暂，债市再次下跌",
+        "assets": "📉 印尼国债 利空；📉 印尼盾 承压",
+        "chain": "加息未能遏制通胀→外资流出→债市抛售→印尼盾贬值压力加大",
+        "watch": "印尼汇率及外资持仓数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO炒作带动空间气体制造商的奇异期权交易",
-        "assets": "📈 太空概念股 利好；📈 工业气体制造商 情绪提振",
-        "chain": "SpaceX IPO预期（估值飙升）→太空供应链需求（如气体）→期权交易活跃（投机资金流入）",
-        "watch": "SpaceX上市时间表及该气体公司订单"
+        "what": "SpaceX IPO前出现奇特的‘太空气体’衍生品交易",
+        "assets": "📈 SpaceX相关太空概念股 利多；📈 稀有气体 看涨",
+        "chain": "衍生品押注SpaceX成功→推高太空经济估值→带动上游气体供应商（如氦气）",
+        "watch": "SpaceX IPO进度及该衍生品成交量"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "贵金属价格集体下跌，关注欧央行利率决议",
+        "what": "贵金属承压，市场关注欧央行利率决议",
         "assets": "📉 黄金 承压；📉 白银 承压",
-        "chain": "美元走强（美CPI超预期）→贵金属（无息资产）吸引力下降→欧央行若宽松（降息）则进一步压制",
-        "watch": "欧央行利率决议及拉加德讲话"
+        "chain": "欧央行若加息→美元相对走弱→贵金属短期反弹可能，但加息本身利空无息资产",
+        "watch": "欧央行利率决议及拉加德讲话措辞"
       }
     },
     {
@@ -95,6 +95,14 @@
     },
     {
       "rank": 8,
+      "title": "视频|李祝捷：IPO已经变成邀请制 不被邀请的创业者怎么办",
+      "source": "市场资讯",
+      "detail": "详细信息请关注后续报道。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 9,
       "title": "孚腾资本合伙人夏芳：今年是机构IPO退出的绝佳年份",
       "source": "睿见Economy",
       "detail": " 2026投资界SuperLink大会于6月10日-6月11日在苏州举行。孚腾资本合伙人夏芳表示，从退出来讲，2026年是比较适合各家股权投资机构通过IPO二级资本市场退出的一个年份。",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
-      "source": "CNBC",
-      "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
-      "lang": "en",
-      "score": 27
     }
   ]
 }
