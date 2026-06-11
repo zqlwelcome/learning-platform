@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 23:46",
+  "updateTime": "2026-06-11 23:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO临近，市场担忧后续影响",
-        "assets": "📉 美股科技股 承压；📈 SpaceX概念股 利好",
-        "chain": "IPO抽血效应（资金从其他板块流出）压制科技股，但SpaceX估值溢价（上市价高于预期）提振风险偏好",
-        "watch": "SpaceX IPO定价及首日交易量"
+        "what": "SpaceX IPO市场关注度高，但可能不影响整体牛市",
+        "assets": "📈 SpaceX相关概念股 利好",
+        "chain": "IPO抽血效应（资金从其他股票流向新股）有限，但市场担忧情绪可能压制风险偏好",
+        "watch": "SpaceX IPO定价及首日涨幅"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "市场视SpaceX IPO为对马斯克的信心投票",
-        "assets": "📈 特斯拉 利好；📉 马斯克相关债券 承压",
-        "chain": "若IPO成功，强化马斯克信用（降低其个人融资成本），特斯拉股价联动；失败则引发连锁抛售",
-        "watch": "马斯克推特活跃度及特斯拉财报"
+        "what": "市场视SpaceX IPO为对马斯克信任投票",
+        "assets": "📉 特斯拉 承压  📈 SpaceX 利好",
+        "chain": "马斯克个人声誉溢价（品牌信任度）影响关联公司估值，特斯拉可能受拖累",
+        "watch": "马斯克后续言论及SpaceX估值变化"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 40,
       "insight": {
         "what": "加密市场押注SpaceX上市首日溢价20%，估值2.2万亿",
-        "assets": "📈 比特币 利好；📈 以太坊 利好",
-        "chain": "加密衍生品（如期货）反映风险偏好，溢价预期推动资金流入加密市场，但若低于预期则触发回调",
-        "watch": "SpaceX上市首日涨幅及加密期权持仓"
+        "assets": "📈 加密货币 短期利好  📈 SpaceX 利好",
+        "chain": "加密市场投机情绪（高风险资产偏好）传导，可能推高相关代币价格",
+        "watch": "SpaceX上市首日实际涨幅及加密市场反应"
       }
     },
     {
@@ -51,50 +51,42 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "通胀升温，新美联储主席或被迫加息",
-        "assets": "📉 美股 承压；📈 美元指数 利好；📉 美债 利空",
-        "chain": "加息预期（提高借钱成本）压制股市估值，美元走强施压新兴市场（资金外流），美债收益率上升（价格下跌）",
-        "watch": "下月CPI数据及美联储官员讲话"
+        "what": "通胀升温，特朗普新任美联储主席或被迫加息",
+        "assets": "📉 美股 承压  📉 美债 利空  📈 美元 利好",
+        "chain": "加息预期（借钱成本提高）压制成长股估值，美元走强利空大宗商品",
+        "watch": "美国CPI（消费者物价指数）及美联储官员讲话"
       }
     },
     {
       "rank": 5,
-      "title": "韩国交易所理事长：韩国股市暴跌并非外资看空该国",
-      "source": "环球市场播报",
-      "detail": "核心要点韩国交易所理事长郑恩甫表示，外资抛售韩国股票，并非对韩国市场丧失信心。他在 CNBC 采访中称，韩国市场剧烈波动源于伊朗冲突...",
-      "lang": "zh",
-      "score": 32,
-      "insight": {
-        "what": "韩国交易所称股市暴跌非外资看空",
-        "assets": "📉 韩国KOSPI指数 承压；📈 韩元 利好",
-        "chain": "内资抛售（如散户恐慌）引发流动性危机，若外资未撤出，韩元贬值压力缓解，但需警惕后续外资动向",
-        "watch": "韩国散户资金流向及外资持仓数据"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
       "source": "CNBC",
       "detail": "The yellow metal is at lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "黄金跌至6个月低点，通胀担忧下失宠",
-        "assets": "📉 黄金 利空；📈 美元 利好；📈 美债收益率 利好",
-        "chain": "通胀预期推高美债实际收益率（名义收益率减通胀），削弱黄金避险属性（无息资产），资金转向美元",
-        "watch": "美国实际利率及黄金ETF持仓变化"
+        "what": "黄金跌至6个月低点，尽管通胀担忧上升",
+        "assets": "📉 黄金 承压  📈 美元 利好",
+        "chain": "实际利率（名义利率减通胀）上升，美元走强压制金价，避险资金流出",
+        "watch": "美国10年期TIPS收益率（通胀保值债券利率）及美元指数"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Josh Brown says a new AI trade is emerging and this 'Best Stock' is benefitting ",
       "source": "CNBC",
       "detail": "Josh and Sean break down how another trade is taking the place of the chip stocks and other early AI trades — the AI customers. ",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Josh Brown称新AI交易浮现，某'最佳股票'受益",
+        "assets": "📈 AI概念股 利好",
+        "chain": "AI主题轮动（资金从旧AI龙头流向新标的），可能带动算力、应用层个股",
+        "watch": "该'最佳股票'具体名称及AI板块资金流向"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Bezos opens up about AI startup Prometheus after $12 billion raise: 'We're not being secretive'",
       "source": "CNBC",
       "detail": "Prometheus is Jeff Bezos' AI startup that launched in November with $6.2 billion in funding. Vik Bajaj is his co-CEO.",
@@ -102,7 +94,7 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Trump might 'love the inflation,' but consumers are feeling the pain, experts say",
       "source": "CNBC",
       "detail": "For consumers, the Middle East conflict's impact on the cost of everyday goods has made it harder to make ends meet.",
@@ -110,10 +102,18 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "应用数字公司完成15.9亿美元AI债务融资",
       "source": "环球市场播报",
       "detail": "人工智能数据中心开发商应用数字公司本周通过其子公司APLD ComputeCo 3 LLC成功完成了一笔15.9亿美元优先担保票据的定价。该票据票面利率为7.000%，将于2031年到期...",
+      "lang": "zh",
+      "score": 25
+    },
+    {
+      "rank": 10,
+      "title": "AI机器人企业Theker获路威酩轩等投资方8500万美元融资",
+      "source": "环球市场播报",
+      "detail": " 总部位于巴塞罗那的人工智能机器人企业Theker于周四宣布完成一轮总额 8500 万美元的融资，此次融资也凸显出西班牙科技产业持续向好的发展态势。",
       "lang": "zh",
       "score": 25
     }
