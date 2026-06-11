@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 22:36",
+  "updateTime": "2026-06-11 22:41",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 57,
       "insight": {
-        "what": "发改委为应对经济数据，储备政策工具",
-        "assets": "📈 中国A股 利好预期",
-        "chain": "数据若弱，政策加码（财政刺激）预期升温，利好基建和消费板块",
-        "watch": "即将发布的GDP/PMI数据"
+        "what": "发改委储备政策工具，应对经济数据波动",
+        "assets": "📉 中国A股 短期承压；📈 中国国债 利好",
+        "chain": "弱数据若出台，政策加码预期升温，利好债市（资金避险），利空股市（盈利担忧）",
+        "watch": "即将公布的GDP/PMI数据是否低于预期"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "国仪量子获准IPO注册",
-        "assets": "📈 量子计算概念股 利好",
-        "chain": "IPO（首次公开募股）启动，吸引资金涌入相关科技赛道，带动估值抬升",
-        "watch": "国仪量子发行价及首日表现"
+        "what": "证监会批准国仪量子IPO注册",
+        "assets": "📈 量子计算板块 利好；📉 次新股板块 承压",
+        "chain": "IPO抽血效应（资金分流）压制市场流动性，但量子赛道获政策背书（政府支持）",
+        "watch": "国仪量子发行价及首日涨幅"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "市场认为SpaceX IPO是对马斯克的公投",
-        "assets": "📈 SpaceX 估值 承压",
-        "chain": "投资者关注马斯克争议（如推特）影响公司治理溢价（CEO风险折价）",
-        "watch": "马斯克个人品牌事件及监管动态"
+        "what": "市场认为SpaceX IPO是对马斯克信任投票",
+        "assets": "📈 SpaceX（未上市）估值 利好；📉 特斯拉 情绪关联",
+        "chain": "马斯克争议影响SpaceX定价，若IPO受热捧则提振特斯拉（同创始人光环效应）",
+        "watch": "SpaceX IPO认购倍数及马斯克最新言论"
       }
     },
     {
@@ -51,50 +51,42 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不会终结牛市，但投资者担忧后续",
-        "assets": "📈 美股科技股 中性偏空",
-        "chain": "巨型IPO（首次公开募股）抽血效应（资金从现有股票流出）有限，但情绪扰动科技板块",
-        "watch": "SpaceX上市后资金流向及波动率"
+        "what": "SpaceX IPO不会打破牛市，但投资者担忧后续风险",
+        "assets": "📉 科技成长股 情绪利空；📈 避险资产（黄金/美债） 利好",
+        "chain": "高估值IPO引发泡沫担忧（价格虚高），资金可能转向防御性资产（避险操作）",
+        "watch": "科技板块资金流向及VIX（恐慌指数）变化"
       }
     },
     {
       "rank": 5,
-      "title": "SpaceX IPO进入最后阶段 散户认购订单规模超700亿美元",
-      "source": "环球市场播报",
-      "detail": "据知情人士透露，有望创下募资纪录的SpaceX IPO已进入收尾阶段，其个人投资者认购订单规模突破700亿美元。 相关消息尚未对外公布，因此知情人士要求匿名。",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SpaceX IPO散户认购超700亿美元",
-        "assets": "📈 SpaceX 认购狂热",
-        "chain": "散户需求旺盛推高定价，但上市后可能面临获利回吐（卖压）",
-        "watch": "SpaceX最终发行价及首日涨幅"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期，但宣布再融资200亿致股价跌",
-        "assets": "📉 甲骨文(ORCL) 利空",
-        "chain": "融资（增发债券或股票）稀释现有股东权益，财报利好被对冲",
-        "watch": "甲骨文融资用途及债务评级变化"
+        "what": "甲骨文业绩超预期，但计划再融资200亿美元致股价下跌",
+        "assets": "📉 甲骨文(ORCL) 股价利空；📉 云计算板块 情绪拖累",
+        "chain": "大规模增发（发行新股）稀释现有股东权益，市场担忧资金用于并购而非回报",
+        "watch": "甲骨文实际融资用途及云业务增速"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "通胀再度升温 特朗普新任美联储主席或很快被迫加息",
       "source": "环球市场播报",
       "detail": " 唐纳德・特朗普总统任命的新任美联储主席凯文・沃什，此前曾主张美联储存在降息空间——这一立场令他深得总统青睐，而特朗普长期将降息视为首要政策目标。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "通胀反弹，特朗普新任美联储主席或被迫加息",
+        "assets": "📉 美股大盘 利空；📈 美元指数 利好；📉 美债 承压",
+        "chain": "加息（提高借钱成本）压制股市估值，美元走强施压新兴市场（资本外流）",
+        "watch": "美国CPI（消费者物价指数）数据及美联储官员讲话"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "ATFX:欧央行或宣布加息25基点 高通胀风险已迫在眉睫",
       "source": "市场资讯",
       "detail": "6月11日，ATFX：北京时间今日20：15，欧央行将公布利率决议结果，市场预期加息25基点，存款机制利率和主要再融资利率分别升高至2.25%、2.40%。",
@@ -102,7 +94,7 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "韩国交易所理事长：韩国股市暴跌并非外资看空该国",
       "source": "环球市场播报",
       "detail": "核心要点韩国交易所理事长郑恩甫表示，外资抛售韩国股票，并非对韩国市场丧失信心。他在 CNBC 采访中称，韩国市场剧烈波动源于伊朗冲突...",
@@ -110,12 +102,20 @@
       "score": 32
     },
     {
+      "rank": 9,
+      "title": "查诺斯警告SpaceX估值过高，称其为“希望与梦想IPO”",
+      "source": "环球市场播报",
+      "detail": "知名做空投资者吉姆·查诺斯周三对SpaceX即将进行的首次公开募股发出严厉警告，称这家太空探索公司高达1.75万亿美元的估值建立在“希望与梦想”之上，缺乏基本面支撑。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
       "rank": 10,
-      "title": "As OpenAI leans into enterprise business, Apple and Google set sights on the masses",
+      "title": "Trump might 'love the inflation,' but consumers are feeling the pain, experts say",
       "source": "CNBC",
-      "detail": "OpenAI's aggressive push into the enterprise, where it competes with Anthropic, coincides with efforts by Apple and Google to bring advanced AI to consumers.",
+      "detail": "For consumers, the Middle East conflict's impact on the cost of everyday goods has made it harder to make ends meet.",
       "lang": "en",
-      "score": 32
+      "score": 30
     }
   ]
 }
