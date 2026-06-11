@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-11 09:30",
+  "updateTime": "2026-06-11 09:35",
   "news": [
     {
       "rank": 1,
-      "title": "Wall Street needs a crash course in the token economy ahead of AI IPOs. SpaceX offers a preview",
-      "source": "CNBC",
-      "detail": "When OpenAI and Anthropic make their IPO prospectuses available to the public, investors are going to have to learn about a whole new economy.",
-      "lang": "en",
-      "score": 82,
-      "insight": {
-        "what": "华尔街需学习代币经济应对AI IPO，SpaceX提供先例",
-        "assets": "📈 AI概念股 利好",
-        "chain": "代币经济（用token激励用户）可能提升AI公司估值，吸引散户资金涌入相关IPO",
-        "watch": "AI公司IPO定价及代币发行细节"
-      }
-    },
-    {
-      "rank": 2,
       "title": "凌晨，全线跳水，AI服务器巨头暴跌！霍尔木兹海峡，突发！",
       "source": "证券时报",
       "detail": "全线收跌。 当地时间6月10日，美股三大指数全线收跌，道指下挫超950点。板块方面，科技股多数走低，芯片股延续近期跌势。此外，AI服务器巨头超微电脑暴跌，收跌近28%。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "凌晨AI服务器巨头暴跌，霍尔木兹海峡突发事件",
-        "assets": "📉 AI服务器股 承压；📈 原油 利好",
-        "chain": "地缘风险（霍尔木兹海峡封锁威胁）推高油价，抑制风险偏好（投资者避险），科技股遭抛售",
-        "watch": "海峡局势升级及科技股财报指引"
+        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发事件",
+        "assets": "📉 美股科技股 利空；📈 原油 利好",
+        "chain": "地缘风险（海峡冲突）推升油价，科技股恐慌性抛售（风险偏好下降）",
+        "watch": "霍尔木兹海峡封锁程度及科技股财报指引"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "6月11日隔夜要闻：美国再度打击伊朗 美股收低 油价走高 超微电脑暴跌 美国5月退还近220亿美元关税",
       "source": "环球市场播报",
       "detail": "市场 6月11日收盘：美股收跌道指下挫950点 市场关注通胀数据与中东局势 6月11日美股成交额前20：超微电脑拟进行70亿美元股权融资...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美国再打击伊朗，美股收低油价走高，退还关税",
-        "assets": "📉 美股 承压；📈 原油 利好；📉 人民币 承压",
-        "chain": "地缘紧张（美伊冲突）推升油价，关税退还（贸易缓和信号）但通胀预期（物价上涨压力）仍存",
-        "watch": "伊朗回应及美联储利率路径"
+        "what": "美国打击伊朗，美股收低油价走高，超微电脑暴跌，退还关税",
+        "assets": "📈 原油 利好；📉 美股科技股 利空；📈 美元 偏强",
+        "chain": "地缘冲突（油价涨）→通胀预期升温→降息（借钱成本降低）预期降温→科技股承压（高估值敏感）",
+        "watch": "伊朗后续反应及美国CPI（通胀数据）"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期，但计划再融资200亿美元致股价跌",
-        "assets": "📉 Oracle 承压；📉 科技板块 承压",
-        "chain": "再融资（发债或增发）稀释现有股东权益（每股价值下降），市场担忧资本开支过大",
-        "watch": "Oracle资本支出计划及债务评级"
+        "what": "Oracle财报超预期，但宣布募资200亿美元致股价下跌",
+        "assets": "📉 Oracle 利空；📈 美债收益率 上行",
+        "chain": "大规模发债（增加供给）→债券价格跌→收益率上升→科技股估值受压（折现率提高）",
+        "watch": "Oracle发债具体条款及科技板块资金流向"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX衍生品交易：太空气体制造商押注IPO成功",
-        "assets": "📈 太空概念股 利好；📈 衍生品市场 利好",
-        "chain": "衍生品（期权等）反映市场对SpaceX估值预期，太空气体需求（火箭燃料）随发射量增长",
-        "watch": "SpaceX IPO时间表及气体合同"
+        "what": "SpaceX成功IPO催生衍生品交易，太空气体制造商受关注",
+        "assets": "📈 太空概念股 利好；📈 工业气体 利好",
+        "chain": "SpaceX估值标杆（IPO成功）→太空经济热度上升→上游供应商（气体）需求预期增加",
+        "watch": "SpaceX上市后估值及气体合同落地"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普称喜爱通胀，利好凯文·沃什",
-        "assets": "📈 美元 利好；📈 美债收益率 上行",
-        "chain": "通胀偏好（物价上涨受支持）暗示宽松政策（印钱刺激经济），推高美债收益率（借钱成本），美元走强",
-        "watch": "特朗普经济政策及沃什美联储提名"
+        "what": "特朗普称喜欢通胀，暗示对美联储鹰派（加息派）有利",
+        "assets": "📈 美元 利好；📉 美债 利空；📈 通胀预期 升温",
+        "chain": "政治施压→美联储独立性受疑→通胀预期上升→加息（借美元成本提高）概率增大→风险资产承压",
+        "watch": "特朗普后续言论及美联储官员表态"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "推荐高股息股作为‘动荡保险’，防御性配置",
+        "assets": "📈 公用事业股 利好；📈 消费必需品股 利好；📉 成长股 利空",
+        "chain": "避险情绪（市场波动）→资金从高风险（科技）转向防御（高股息）→红利策略跑赢",
+        "watch": "VIX（恐慌指数）及高股息ETF资金流入"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
       "source": "CNBC",
       "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
@@ -102,7 +94,7 @@
       "score": 27
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "华商基金王毅文：紧扣高质量发展 布局半导体、AI与核心资产",
       "source": "新浪基金",
       "detail": "当前市场波动性逐步加大，投资难度随之攀升，能从产业演进中寻找确定性的基金经理显得愈发珍贵。华商基金王毅文正是这样一位从中观视角出发、稳中求进的践行者。",
@@ -110,12 +102,20 @@
       "score": 25
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "黑色星期三！道指重挫近千点，半导体板块跌近4%，特朗普威胁空袭原油飙升",
       "source": "一财网",
       "detail": "【相关阅读】 中东，突传“黑天鹅”！深夜，美股集体杀跌，科技股普跌！国际油价大涨！A股如何走？ 标普500指数科技板块进入技术性回调区间。",
       "lang": "zh",
       "score": 22
+    },
+    {
+      "rank": 10,
+      "title": "韩国6月前10天芯片出口达110亿美元，同比激增逾两倍",
+      "source": "环球市场播报",
+      "detail": "韩国海关周四公布的数据显示，6月前10天韩国出口额同比增长86%，创下新高，主要得益于半导体产品的强劲出货。 韩国海关的数据显示，6月1日至10日...",
+      "lang": "zh",
+      "score": 20
     }
   ]
 }
