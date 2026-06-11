@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 10:00",
+  "updateTime": "2026-06-11 10:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发事件",
-        "assets": "📉 AI服务器股 利空；📉 原油 利好",
-        "chain": "避险情绪升温，资金从科技股流向能源和防御板块（如公用事业）",
-        "watch": "霍尔木兹海峡通行情况"
+        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发紧张",
+        "assets": "📉 美股科技股 承压，📈 原油 利好",
+        "chain": "避险情绪升温，资金从风险资产流向商品（大宗商品），通胀预期上行",
+        "watch": "霍尔木兹海峡通行情况，AI公司财报指引"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 39,
       "insight": {
         "what": "Oracle盈利超预期但宣布再融资200亿美元",
-        "assets": "📉 Oracle股价 利空；📉 科技板块 承压",
-        "chain": "稀释担忧导致抛售，可能压制同板块估值（如云计算股）",
-        "watch": "Oracle后续融资用途及市场反应"
+        "assets": "📉 Oracle股价 承压，📈 美元债市场 供应增加",
+        "chain": "增发稀释（现有股东权益被摊薄），科技板块融资成本上升，拖累纳指",
+        "watch": "Oracle增发定价及市场认购情况"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO带动太空气体公司衍生品交易",
-        "assets": "📈 太空概念股 利好；📈 稀有气体期货 利好",
-        "chain": "IPO热度传导至供应链，衍生品（期权）交易量激增",
-        "watch": "SpaceX IPO时间表及气体价格"
+        "what": "SpaceX IPO带动罕见衍生品：太空气体制造商",
+        "assets": "📈 太空相关ETF 利好，📈 稀有气体供应商 利好",
+        "chain": "IPO溢出效应（一家公司上市带动同类标的），资金追逐稀缺概念，推高估值",
+        "watch": "SpaceX上市时间表，气体厂商订单数据"
       }
     },
     {
@@ -51,14 +51,28 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "分析：特朗普支持通胀对凯文·沃什有利",
-        "assets": "📈 美债收益率 利好；📈 美元 利好",
-        "chain": "通胀预期推高长端利率（10年期国债收益率），利好鹰派（倾向紧缩的）政策候选人",
-        "watch": "特朗普政策声明及CPI数据"
+        "what": "特朗普表态喜欢通胀，利好潜在财长人选Warsh",
+        "assets": "📉 美债 承压，📈 美元 利好",
+        "chain": "通胀偏好暗示政策容忍高物价，加息预期（借钱成本增加）升温，利空债券",
+        "watch": "Warsh是否被提名，CPI（消费者物价指数）数据"
       }
     },
     {
       "rank": 5,
+      "title": "美国通胀升至三年高位强化加息预期，黄金创去年11月以来新低",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——周四亚洲交易时段，国际现货黄金延续此前跌势，黄金价格一度下探至每盎司4050美元附近，刷新自2025年11月以来的最低水平。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "美国通胀升至三年高位，黄金创去年11月新低",
+        "assets": "📈 美元 利好，📉 黄金 承压",
+        "chain": "通胀超预期→加息预期强化→实际利率（名义利率减通胀）上升→无息资产黄金遭抛售",
+        "watch": "美联储下次议息会议点阵图（利率预测分布）"
+      }
+    },
+    {
+      "rank": 6,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
@@ -66,27 +80,21 @@
       "score": 29,
       "insight": {
         "what": "高股息股票提供市场动荡保险",
-        "assets": "📈 公用事业股 利好；📈 消费必需品股 利好",
-        "chain": "资金从高贝塔（高波动）资产转向防御，降低组合波动",
-        "watch": "VIX（恐慌指数）及股息率变化"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
-      "source": "CNBC",
-      "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美国对伊朗新打击，油价因供应担忧跳涨",
-        "assets": "📈 原油 利好；📈 能源股 利好；📉 航空股 利空",
-        "chain": "油价上涨推高通胀预期，利空债券和消费，利好能源板块",
-        "watch": "伊朗报复行动及EIA库存数据"
+        "assets": "📈 公用事业板块 利好，📈 必需消费品 利好",
+        "chain": "防御性轮动（资金从高成长转向稳定分红），波动率上升时股息策略受追捧",
+        "watch": "VIX（恐慌指数）是否持续高于20"
       }
     },
     {
       "rank": 7,
+      "title": "Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
+      "source": "CNBC",
+      "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 8,
       "title": "黑色星期三！道指重挫近千点，半导体板块跌近4%，特朗普威胁空袭原油飙升",
       "source": "一财网",
       "detail": "【相关阅读】 中东，突传“黑天鹅”！深夜，美股集体杀跌，科技股普跌！国际油价大涨！A股如何走？ 标普500指数科技板块进入技术性回调区间。",
@@ -94,7 +102,7 @@
       "score": 22
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
       "source": "CNBC",
       "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
@@ -102,19 +110,11 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
       "source": "CNBC",
       "detail": "President Trump suggested that inflation would drop when the U.S. war against Iran ends, and said, \"We've been taking out millions of barrels of oil.\"",
       "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "韩国6月前10天芯片出口达110亿美元，同比激增逾两倍",
-      "source": "环球市场播报",
-      "detail": "韩国海关周四公布的数据显示，6月前10天韩国出口额同比增长86%，创下新高，主要得益于半导体产品的强劲出货。 韩国海关的数据显示，6月1日至10日...",
-      "lang": "zh",
       "score": 20
     }
   ]
