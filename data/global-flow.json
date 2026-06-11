@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 14:20",
+  "updateTime": "2026-06-11 14:25",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,110 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3968.19",
-      "change": "-0.63"
+      "value": "3974.86",
+      "change": "-0.46"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24141.200",
-      "change": "-1.09"
+      "value": "24139.890",
+      "change": "-1.10"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
+  "etf_flows": [
+    {
+      "name": "科创半导体ETF华夏",
+      "code": "588170",
+      "price": 2.708,
+      "change": 4.52,
+      "flow": 222836528.0,
+      "flow_str": "+2.23亿",
+      "direction": "in"
+    },
+    {
+      "name": "A500ETF华夏",
+      "code": "512050",
+      "price": 1.237,
+      "change": -0.96,
+      "flow": 204069504.0,
+      "flow_str": "+2.04亿",
+      "direction": "in"
+    },
+    {
+      "name": "有色金属ETF南方",
+      "code": "512400",
+      "price": 1.88,
+      "change": 2.01,
+      "flow": 186322768.0,
+      "flow_str": "+1.86亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体设备ETF国泰",
+      "code": "159516",
+      "price": 1.342,
+      "change": 3.95,
+      "flow": 163051312.0,
+      "flow_str": "+1.63亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.489,
+      "change": 0.37,
+      "flow": 85771232.0,
+      "flow_str": "+8577.12万",
+      "direction": "in"
+    }
+  ],
+  "sector_flows": [
+    {
+      "name": "有色金属",
+      "code": "BK0478",
+      "index": 28775.31,
+      "change": 1.47,
+      "flow": 8844298496.0,
+      "flow_str": "+88.44亿",
+      "direction": "in"
+    },
+    {
+      "name": "小金属",
+      "code": "BK1027",
+      "index": 4166.93,
+      "change": 4.4,
+      "flow": 6037713664.0,
+      "flow_str": "+60.38亿",
+      "direction": "in"
+    },
+    {
+      "name": "其他小金属",
+      "code": "BK1624",
+      "index": 5446.05,
+      "change": 3.38,
+      "flow": 2846876448.0,
+      "flow_str": "+28.47亿",
+      "direction": "in"
+    },
+    {
+      "name": "能源金属",
+      "code": "BK1015",
+      "index": 1021.07,
+      "change": 3.88,
+      "flow": 2731423872.0,
+      "flow_str": "+27.31亿",
+      "direction": "in"
+    },
+    {
+      "name": "电子化学品Ⅲ",
+      "code": "BK1332",
+      "index": 3836.58,
+      "change": 3.61,
+      "flow": 2642950400.0,
+      "flow_str": "+26.43亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -42,11 +134,6 @@
     },
     {
       "title": "应对通胀风险 欧洲央行或将宣布加息25个基点",
-      "source": "环球市场播报",
-      "keyword": "央行"
-    },
-    {
-      "title": "物价飙升 欧洲央行或进行2023年以来首次加息",
       "source": "环球市场播报",
       "keyword": "央行"
     }
