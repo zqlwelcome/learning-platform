@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-11 10:20",
+  "updateTime": "2026-06-11 10:26",
   "news": [
     {
       "rank": 1,
+      "title": "美国5月CPI大幅降温，通胀压力显著缓释！华宝基金有色ETF（159876）盘中涨超2.5%，海亮股份等3股涨停！",
+      "source": "新浪基金",
+      "detail": "今日（6月11日）有色金属板块领涨全市场，博威合金、海亮股份、金钼股份3股涨停，云南锗业、厦门钨业、湖南黄金等个股大幅跟涨，同标的指数规模最大*的有色ETF华宝（159876...",
+      "lang": "zh",
+      "score": 50,
+      "insight": {
+        "what": "美国5月CPI降温，通胀压力缓解",
+        "assets": "📈 美股科技股 利好, 📈 黄金 利好",
+        "chain": "降息预期升温（借钱成本降低），利好风险资产（股票/商品），美元承压（美元指数走弱）",
+        "watch": "美联储6月议息会议点阵图（利率预测）"
+      }
+    },
+    {
+      "rank": 2,
       "title": "凌晨，全线跳水，AI服务器巨头暴跌！霍尔木兹海峡，突发！",
       "source": "证券时报",
       "detail": "全线收跌。 当地时间6月10日，美股三大指数全线收跌，道指下挫超950点。板块方面，科技股多数走低，芯片股延续近期跌势。此外，AI服务器巨头超微电脑暴跌，收跌近28%。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发事件",
-        "assets": "📉 AI服务器板块 利空; 📉 原油 上行风险",
-        "chain": "地缘风险（霍尔木兹海峡）推高油价，AI股回调引发科技板块抛售（大量卖出）",
-        "watch": "霍尔木兹海峡航运保险费用、AI公司财报指引"
+        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发",
+        "assets": "📉 AI服务器板块 利空, 📈 原油 利好",
+        "chain": "海峡风险推升油价（能源成本上涨），AI股回调拖累科技板块（资金轮动避险）",
+        "watch": "霍尔木兹海峡通航状态，VIX（恐慌指数）"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期但计划再融资200亿美元，股价下跌",
-        "assets": "📉 Oracle股票 利空; 📈 公司债 供给压力",
-        "chain": "增发稀释每股收益（EPS被摊薄），市场担忧资本开支回报率（投资效率），拖累云计算板块情绪",
-        "watch": "Oracle资本开支指引、债券发行定价"
+        "what": "甲骨文业绩超预期但计划再融资200亿美元",
+        "assets": "📉 甲骨文股价 利空, 📉 科技债 承压",
+        "chain": "融资稀释股权（每股价值下降），市场担忧现金流，科技板块情绪受抑",
+        "watch": "甲骨文云业务营收增速，融资条款"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO前出现稀有衍生品交易：空间气体制造商",
-        "assets": "📈 空间气体概念股 利好; 📈 SpaceX估值相关衍生品 投机性",
-        "chain": "SpaceX估值预期传导至上游供应商，衍生品市场定价反映IPO溢价（上市超额收益），但流动性差",
-        "watch": "SpaceX IPO时间表、气体合同签署情况"
+        "what": "SpaceX IPO利好传导至太空气体制造商",
+        "assets": "📈 太空气体股 利好, 📈 SpaceX相关概念股 利好",
+        "chain": "IPO成功预期推高产业链估值（太空经济想象空间），资金追逐稀缺标的",
+        "watch": "SpaceX IPO时间表，太空气体订单"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "华泰期货：贵金属价格集体承压，关注欧央行政策利率",
+      "source": "市场资讯",
+      "detail": "来源：华泰期货 作者： 汪雅航 市场分析 伊朗局势仍存不确定性。2月28日美国以色列对伊朗进行了空袭，随后伊朗伊斯兰革命卫队展开大规模反击。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "贵金属价格承压，关注欧央行政策",
+        "assets": "📉 黄金 承压, 📉 白银 承压",
+        "chain": "欧央行鹰派（加息预期强）推高欧元，美元走强压制贵金属（美元计价资产吸引力下降）",
+        "watch": "欧央行利率决议，美元指数"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "分析：特朗普偏爱通胀，利好潜在财长Warsh",
-        "assets": "📈 美国国债收益率 上行风险; 📉 美元 短期承压",
-        "chain": "特朗普支持通胀→市场加息预期升温→债券收益率曲线陡化（短端利率上升更快），Warsh鹰派（偏好紧缩政策）立场强化",
-        "watch": "特朗普经济顾问讲话、Warsh政策表态"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "美国通胀升至三年高位强化加息预期，黄金创去年11月以来新低",
-      "source": "滚动播报",
-      "detail": "汇通财经APP讯——周四亚洲交易时段，国际现货黄金延续此前跌势，黄金价格一度下探至每盎司4050美元附近，刷新自2025年11月以来的最低水平。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "美国通胀升至三年高位，强化加息预期，黄金创11月新低",
-        "assets": "📉 黄金 利空; 📈 美元 利好; 📉 美债 承压",
-        "chain": "通胀超预期→加息概率上升→实际利率（名义利率减通胀）走高→无息资产黄金被抛售，美元走强压制商品",
-        "watch": "核心PCE（个人消费支出物价指数）数据、美联储点阵图"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
-      "source": "CNBC",
-      "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "高股息股票提供市场动荡中的避险收益",
-        "assets": "📈 公用事业/消费必需品板块 利好; 📉 成长股 相对承压",
-        "chain": "市场波动（恐慌指数VIX）上升时资金涌入防御性资产（股息稳定），降低整体组合贝塔（波动敏感度）",
-        "watch": "VIX指数、股息率与国债收益率差值（利差）"
+        "what": "特朗普支持通胀，利好鹰派凯文·沃什",
+        "assets": "📈 美元 利好, 📉 美债 承压",
+        "chain": "通胀预期上升（物价持续涨），美联储或维持高利率，债券价格下跌（收益率上升）",
+        "watch": "特朗普民调，美联储官员讲话"
       }
     },
     {
       "rank": 7,
+      "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
+      "source": "CNBC",
+      "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 8,
       "title": "Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
       "source": "CNBC",
       "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
@@ -94,7 +102,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "黑色星期三！道指重挫近千点，半导体板块跌近4%，特朗普威胁空袭原油飙升",
       "source": "一财网",
       "detail": "【相关阅读】 中东，突传“黑天鹅”！深夜，美股集体杀跌，科技股普跌！国际油价大涨！A股如何走？ 标普500指数科技板块进入技术性回调区间。",
@@ -102,18 +110,10 @@
       "score": 22
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
       "source": "CNBC",
       "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
-      "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
-      "source": "CNBC",
-      "detail": "President Trump suggested that inflation would drop when the U.S. war against Iran ends, and said, \"We've been taking out millions of barrels of oil.\"",
       "lang": "en",
       "score": 20
     }
