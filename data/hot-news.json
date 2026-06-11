@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 23:15",
+  "updateTime": "2026-06-11 23:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO被视为对马斯克信任投票",
-        "assets": "📈 SpaceX 利好, 📉 特斯拉 承压",
-        "chain": "若IPO成功，马斯克专注度或被分散（注意力溢价），特斯拉估值可能承压；失败则市场看空其领导力",
-        "watch": "SpaceX IPO定价与认购倍数，马斯克特斯拉持股变动"
+        "what": "SpaceX IPO被视为对马斯克个人的信任投票",
+        "assets": "📈 SpaceX 估值 利好，📉 特斯拉 承压",
+        "chain": "若IPO成功，马斯克注意力分散至SpaceX，特斯拉（电动车公司）管理风险上升",
+        "watch": "IPO定价及马斯克是否减持特斯拉"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO不会终结牛市，但投资者担忧后续",
-        "assets": "📈 美股大盘 中性, 📉 科技成长股 承压",
-        "chain": "大型IPO抽走流动性（资金从存量股流向新股），短期压制科技股；但若经济强劲则影响有限",
-        "watch": "IPO后资金流向（ETF vs 个股），美联储政策预期"
+        "assets": "📈 美股大盘 中性，📉 科技成长股 承压",
+        "chain": "IPO抽血（吸走市场资金）压制小盘股，但系统性风险低",
+        "watch": "IPO后科技板块资金流向"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期，但盘后跌4%因再融资200亿美元",
-        "assets": "📉 甲骨文(ORCL) 利空, 📈 科技债 利好",
-        "chain": "增发稀释每股收益（EPS被摊薄），投资者担心估值压力；债市需求增加可能推高科技债收益率",
-        "watch": "甲骨文融资用途（并购/回购），云业务营收增速"
+        "what": "甲骨文财报超预期，但计划再融资200亿美元致股价下跌",
+        "assets": "📉 甲骨文 利空，📉 科技股 承压",
+        "chain": "大规模融资稀释每股收益（EPS被摊薄），市场担忧债务增加",
+        "watch": "甲骨文后续债务评级及资本开支计划"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "通胀回升，特朗普新美联储主席或被迫加息",
-        "assets": "📉 美债 利空, 📉 美股 承压, 📈 美元 利好",
-        "chain": "加息预期推高实际利率（名义利率减通胀），压制风险资产；新兴市场资本外流压力加大",
-        "watch": "核心PCE（个人消费支出物价指数）月率，美联储官员讲话"
+        "what": "通胀升温，特朗普新任美联储主席或被迫加息",
+        "assets": "📉 美股 承压，📈 美元 利好，📉 美债 利空",
+        "chain": "加息预期推高美债收益率（借钱成本），压制风险资产（股票、加密货币）估值",
+        "watch": "下月CPI（消费者物价指数）及美联储官员讲话"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "韩国交易所理事长：暴跌非外资看空，或为技术性调整",
-        "assets": "📉 韩国KOSPI 中性, 📈 韩元 利好",
-        "chain": "若外资未大规模流出，抛售可能来自本土杠杆资金（融资盘爆仓），短期流动性风险可控",
-        "watch": "韩国散户杠杆率（信用交易余额），外资每日净买卖数据"
+        "what": "韩国交易所理事长称股市暴跌非外资看空韩国",
+        "assets": "📉 韩国KOSPI 承压，📉 韩元 承压",
+        "chain": "内资恐慌性抛售（散户踩踏）加剧波动，外资观望等待企稳",
+        "watch": "韩国散户资金流向及韩元汇率"
       }
     },
     {
@@ -79,14 +79,22 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "贝索斯透露AI初创Prometheus融资120亿美元",
-        "assets": "📈 AI板块 利好, 📈 亚马逊 利好",
-        "chain": "大额融资显示AI资本开支（资本支出）加速，利好芯片和云服务；亚马逊AI布局强化，估值或获溢价",
-        "watch": "Prometheus产品落地时间线，亚马逊AI相关营收占比"
+        "what": "贝佐斯融资120亿美元后称AI初创公司Prometheus并非保密",
+        "assets": "📈 AI概念股 利好，📈 云计算 利好",
+        "chain": "大额融资显示AI赛道热度不减，可能引发云服务（AWS）竞争升级",
+        "watch": "Prometheus产品发布及AWS资本支出"
       }
     },
     {
       "rank": 7,
+      "title": "Josh Brown says a new AI trade is emerging and this 'Best Stock' is benefitting ",
+      "source": "CNBC",
+      "detail": "Josh and Sean break down how another trade is taking the place of the chip stocks and other early AI trades — the AI customers. ",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 8,
       "title": "查诺斯警告SpaceX估值过高，称其为“希望与梦想IPO”",
       "source": "环球市场播报",
       "detail": "知名做空投资者吉姆·查诺斯周三对SpaceX即将进行的首次公开募股发出严厉警告，称这家太空探索公司高达1.75万亿美元的估值建立在“希望与梦想”之上，缺乏基本面支撑。",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Trump might 'love the inflation,' but consumers are feeling the pain, experts say",
       "source": "CNBC",
       "detail": "For consumers, the Middle East conflict's impact on the cost of everyday goods has made it harder to make ends meet.",
@@ -102,18 +110,10 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Supreme Court rules against private suits brought under key securities law",
       "source": "CNBC",
       "detail": "The Supreme Court sided with a group of investment funds affiliated with BlackRock and other asset managers to fend off lawsuits brought by private plaintiffs.",
-      "lang": "en",
-      "score": 27
-    },
-    {
-      "rank": 10,
-      "title": "Here are the odds of bear markets in each stock index this summer",
-      "source": "CNBC",
-      "detail": "For the S&P 500, a technical bear market decline of 20% from the closing high of 7,610 would mean a slide to 6,088.",
       "lang": "en",
       "score": 27
     }
