@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-11 17:26",
+  "updateTime": "2026-06-11 17:30",
   "news": [
     {
       "rank": 1,
-      "title": "Bisignano says Social Security Administration's phone helpline wait times have reached a record low",
+      "title": "AI mega-listings are 'just the start,' Razer CEO says, ahead of historic SpaceX IPO",
       "source": "CNBC",
-      "detail": "Long waits when calling the Social Security Administration's 800 number have been a legacy issue. Commissioner Frank Bisignano said he's changing that.",
+      "detail": "Blockbuster public offerings from AI companies could be an enduring feature of the industry, Razer CEO Min-Liang Tan said Thursday, ahead of several mega IPOs.",
       "lang": "en",
-      "score": 42,
+      "score": 50,
       "insight": {
-        "what": "社保局电话等待时间创纪录新低，效率提升",
-        "assets": "📈 美国国债 利好",
-        "chain": "政府效率提升→减少财政赤字压力（政府支出更少）→长期利率下行预期",
-        "watch": "美国月度财政赤字数据"
+        "what": "Razer CEO称AI巨头上市潮只是开始，SpaceX历史性IPO在即",
+        "assets": "📈 AI科技股 利好\n📈 SpaceX相关概念 利好",
+        "chain": "IPO热潮提升市场风险偏好（risk-on情绪），资金从防御板块轮动至成长股（高估值高潜力股票）",
+        "watch": "SpaceX IPO估值及认购倍数"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 39,
       "insight": {
         "what": "Oracle财报超预期，但宣布再融资200亿美元致股价下跌",
-        "assets": "📉 Oracle股票 利空；📉 科技股板块 承压",
-        "chain": "增发（多发股票）稀释现有股东权益→股价下跌→可能引发科技股抛售潮（资金流出）",
-        "watch": "Oracle后续融资定价及市场认购反应"
+        "assets": "📉 Oracle 股价 利空\n📈 债券市场 利好（发债增加供给）",
+        "chain": "增发稀释现有股东权益（每股盈利被摊薄），市场预期科技巨头将加大资本开支（capex），或推高长期利率",
+        "watch": "Oracle新债发行利率及认购情况"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "分析称特朗普喜欢通胀，利好潜在美联储主席Warsh",
-        "assets": "📈 美元 利好；📈 美国国债收益率 上行",
-        "chain": "通胀偏好→鹰派（倾向加息）货币政策预期→美元走强，债市收益率上升",
-        "watch": "Warsh公开讲话及特朗普经济团队人选"
+        "what": "分析称特朗普偏爱通胀，对潜在财长Warsh有利",
+        "assets": "📈 美元 看涨\n📉 美债 承压",
+        "chain": "通胀预期上升（物价持续涨）→美联储加息预期升温（借钱成本提高）→美元走强，风险资产承压（股票等估值受压）",
+        "watch": "特朗普政策声明及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高股息股票被视为'动荡保险'，受资金青睐",
-        "assets": "📈 高股息防御股（如公用事业） 利好；📉 成长股 承压",
-        "chain": "避险情绪升温→资金从高估值成长股轮动（换仓）至防御性高股息资产",
-        "watch": "VIX指数（恐慌指数）及高股息ETF资金流入量"
+        "what": "部分高股息股票被视为‘动荡保险’，受资金追捧",
+        "assets": "📈 公用事业股 利好\n📈 必需消费品股 利好",
+        "chain": "避险情绪（risk-off）推动资金流入防御板块（抗周期行业），同时高股息提供下行保护（股价跌时仍有分红）",
+        "watch": "VIX（恐慌指数）及分红除权日"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美股期货上涨，因美国完成对伊朗打击",
-        "assets": "📈 美股期货 利好；📈 原油 利空",
-        "chain": "打击完成→地缘风险短期解除（不确定性下降）→油价回落，风险偏好回升",
-        "watch": "伊朗后续反应及中东原油产量变化"
+        "what": "美股期货上涨，美国完成对伊朗打击行动",
+        "assets": "📈 美股股指期货 利好\n📉 原油 利空（短期避险消退）",
+        "chain": "地缘风险短暂解除（不确定性降低）→资金回流风险资产，但需警惕后续报复行动（尾部风险）",
+        "watch": "伊朗反应及油价波动"
       }
     },
     {
@@ -77,13 +77,7 @@
       "source": "新浪港股",
       "detail": "6月11日消息，港股三大指数集体下跌。截至收盘，恒生指数跌0.65%，报24249.29，恒生科技指数跌1.46%，国企指数跌1.22%。盘面上，科网股普跌，阿里巴巴跌超5%，百度跌超3%...",
       "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "港股收跌，科指跌1.46%，科网股普跌，半导体走强",
-        "assets": "📉 恒生指数 利空；📉 港股科网股 利空；📈 港股半导体 利好",
-        "chain": "科网股遭抛售（如阿里跌超5%）→资金切换至半导体等政策受益板块（板块轮动）",
-        "watch": "恒生科技指数关键支撑位及南向资金流向"
-      }
+      "score": 25
     },
     {
       "rank": 7,
