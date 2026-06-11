@@ -1,36 +1,50 @@
 {
-  "updateTime": "2026-06-12 00:01",
+  "updateTime": "2026-06-12 00:21",
   "news": [
     {
       "rank": 1,
+      "title": "欧洲央行接近三年来首次加息 拉加德警告通胀扩散风险",
+      "source": "环球市场播报",
+      "detail": "欧洲央行在接近三年来首次加息，行长克里斯蒂娜·拉加德警告称，由伊朗战争引发的通胀正在扩散，不再局限于能源领域。 存款利率从2%上调至2.25%...",
+      "lang": "zh",
+      "score": 51,
+      "insight": {
+        "what": "欧洲央行接近三年来首次加息，拉加德警告通胀扩散",
+        "assets": "📈 欧元 利好\n📉 欧债 承压",
+        "chain": "加息（借钱成本提高）收紧流动性，利空股市，但抑制通胀预期，利好欧元汇率",
+        "watch": "7月欧央行利率决议及通胀数据"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO临近，市场担忧其冲击但非牛市终结者",
-        "assets": "📈 美股科技股 短期承压",
-        "chain": "资金虹吸效应（资金从其他科技股流入SpaceX），但大市流动性充裕",
-        "watch": "IPO首日涨幅及后续资金流向"
+        "what": "SpaceX IPO不会打破牛市，但投资者担忧后续影响",
+        "assets": "📉 美股科技股 承压\n📉 加密资产 联动利空",
+        "chain": "IPO抽血（资金从二级市场流向一级市场）压制流动性，高估值科技股面临抛压",
+        "watch": "SpaceX IPO定价及首日交易量"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO被视为对马斯克个人信誉的公投",
-        "assets": "📉 特斯拉股价 承压",
-        "chain": "马斯克声誉风险（负面新闻）会蔓延至特斯拉估值",
-        "watch": "马斯克社交媒体言论及公司财报"
+        "what": "市场视SpaceX IPO为对马斯克信心的公投",
+        "assets": "📉 特斯拉 承压\n📉 加密资产 联动利空",
+        "chain": "马斯克声誉溢价（个人品牌价值）影响特斯拉及Dogecoin等关联资产，负面情绪传导",
+        "watch": "马斯克社交媒体动态及特斯拉股价"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "加密市场押注SpaceX上市首日较IPO价格溢价20% 估值达2.2万亿美元",
       "source": "环球市场播报",
       "detail": " 加密市场交易员正在无视SpaceX的预期IPO价格，在这家埃隆·马斯克旗下火箭、卫星和人工智能公司上市交易前，给出更高估值。",
@@ -38,55 +52,57 @@
       "score": 40,
       "insight": {
         "what": "加密市场押注SpaceX上市首日溢价20%，估值2.2万亿美元",
-        "assets": "📈 比特币 短期利好",
-        "chain": "风险偏好传导（加密资金追逐高beta资产），但非基本面支撑",
-        "watch": "SpaceX实际估值与加密市场波动"
+        "assets": "📈 加密资产 投机利好\n📉 传统IPO 估值压力",
+        "chain": "加密赌注（衍生品合约）推高投机情绪，可能引发跨资产套利（价差交易）",
+        "watch": "SpaceX IPO首日涨幅及加密衍生品清算数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "欧洲央行官员认为下一次加息最早可能在7月进行",
+      "source": "环球市场播报",
+      "detail": "知情人士透露，欧洲央行官员不排除最早在下一次货币政策会议上再次加息的可能性。 尽管市场和经济学家普遍预计，欧洲央行决策者将在9月召开会议并更新季度预测时再次加息...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "欧洲央行官员认为最早7月加息",
+        "assets": "📈 欧元 利好\n📉 欧债 承压",
+        "chain": "加息预期提前（市场定价提前）推高短端利率（短期借贷成本），压制风险资产",
+        "watch": "6月欧元区CPI及PMI数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "欧洲央行决策者认为7月按兵不动的可能性比加息更大",
       "source": "环球市场播报",
       "detail": " 路透援引两位消息人士的话报道，欧洲央行决策者认为，如果能源价格维持在当前水平，7月政策会议上维持利率不变的可能性更大。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行决策者倾向7月按兵不动而非加息",
-        "assets": "📈 欧元区债券 利好",
-        "chain": "降息预期（借钱成本降低）推迟，但欧元走弱（利差收窄）",
-        "watch": "7月利率决议及通胀数据"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "通胀再度升温 特朗普新任美联储主席或很快被迫加息",
-      "source": "环球市场播报",
-      "detail": " 唐纳德・特朗普总统任命的新任美联储主席凯文・沃什，此前曾主张美联储存在降息空间——这一立场令他深得总统青睐，而特朗普长期将降息视为首要政策目标。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "通胀再起，特朗普新任美联储主席或被迫加息",
-        "assets": "📉 美国长债 承压",
-        "chain": "加息预期（借钱成本提高）打压债价，美元走强（资金回流）",
-        "watch": "特朗普提名美联储主席人选及CPI数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
-      "source": "CNBC",
-      "detail": "The yellow metal is at lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "金价跌至6个月低点，尽管通胀担忧升温",
-        "assets": "📉 黄金 承压",
-        "chain": "实际利率（名义利率减通胀）上升，美元走强（计价货币升值）压制金价",
-        "watch": "美国实际利率及美元指数"
+        "what": "欧洲央行决策者认为7月按兵不动概率更大",
+        "assets": "📉 欧元 承压\n📈 欧债 利好",
+        "chain": "鸽派信号（偏宽松政策）缓解紧缩担忧，短期利多债市但利空欧元汇率",
+        "watch": "欧央行会议纪要及官员讲话措辞"
       }
     },
     {
       "rank": 7,
+      "title": "通胀再度升温 特朗普新任美联储主席或很快被迫加息",
+      "source": "环球市场播报",
+      "detail": " 唐纳德・特朗普总统任命的新任美联储主席凯文・沃什，此前曾主张美联储存在降息空间——这一立场令他深得总统青睐，而特朗普长期将降息视为首要政策目标。",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
+      "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
+      "source": "CNBC",
+      "detail": "The yellow metal is at lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 9,
       "title": "Josh Brown says a new AI trade is emerging and this 'Best Stock' is benefitting ",
       "source": "CNBC",
       "detail": "Josh and Sean break down how another trade is taking the place of the chip stocks and other early AI trades — the AI customers. ",
@@ -94,28 +110,12 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Bezos opens up about AI startup Prometheus after $12 billion raise: 'We're not being secretive'",
       "source": "CNBC",
       "detail": "Prometheus is Jeff Bezos' AI startup that launched in November with $6.2 billion in funding. Vik Bajaj is his co-CEO.",
       "lang": "en",
       "score": 32
-    },
-    {
-      "rank": 9,
-      "title": "搭乘AI浪潮顺风车还是为美股严重回调布局 对冲基金看法不一",
-      "source": "环球市场播报",
-      "detail": "是搭乘AI浪潮的顺风车，还是为美股潜在的严重回调做好准备，就连对冲基金也看法不一。 Andreas Halvorsen旗下管理着超过500亿美元资产的Viking Global...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "Trump might 'love the inflation,' but consumers are feeling the pain, experts say",
-      "source": "CNBC",
-      "detail": "For consumers, the Middle East conflict's impact on the cost of everyday goods has made it harder to make ends meet.",
-      "lang": "en",
-      "score": 30
     }
   ]
 }
