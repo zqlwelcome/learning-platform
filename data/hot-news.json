@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 13:35",
+  "updateTime": "2026-06-11 13:40",
   "news": [
     {
       "rank": 1,
@@ -9,92 +9,84 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "欧洲央行或加息应对物价飙升",
+        "what": "欧洲央行因物价飙升或首次加息",
         "assets": "📈 欧元 利好\n📉 欧洲债券 承压",
-        "chain": "加息（借钱成本上升）推高欧元汇率，压制欧债价格，利空出口导向行业",
-        "watch": "欧央行会议声明及通胀数据"
+        "chain": "加息（提高借钱成本）抑制需求，利好欧元汇率，但打压债市和股市估值（PE倍数压缩）",
+        "watch": "欧元区CPI（消费者物价指数）数据及欧央行会议声明"
       }
     },
     {
       "rank": 2,
-      "title": "通胀最糟阶段已过？小摩：美国5月CPI或已达峰 美联储料按兵不动",
-      "source": "滚动播报",
-      "detail": " 财联社6月11日讯（编辑 卞纯）周三公布的CPI数据显示，美国通胀时隔三年重返“4时代”。不过，好的一面是，根据小摩策略师的预测，通胀最糟糕的阶段可能已经过去。",
-      "lang": "zh",
-      "score": 48,
-      "insight": {
-        "what": "小摩认为美国通胀已见顶，美联储或暂停加息",
-        "assets": "📈 美股 利好\n📉 美元 承压",
-        "chain": "通胀见顶预期削弱加息必要性（降低借钱成本），利好风险资产（股票），利空美元",
-        "watch": "美国5月CPI实际数据"
-      }
-    },
-    {
-      "rank": 3,
       "title": "溜溜果园港股IPO：青梅龙头收入增速放缓 利润增长靠销售费用压缩 上市前分红6730万 实控人家族拿走八成",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 2026年6月，中国青梅细分赛道的龙头——溜溜果园集团正式启动港股全球发售。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "溜溜果园港股IPO，利润靠压缩费用，上市前分红",
-        "assets": "📉 港股消费股 承压",
-        "chain": "利润质量差（非增长驱动），分红掏空现金，投资者警惕类似新股（IPO）风险",
-        "watch": "IPO认购倍数及首日表现"
+        "what": "溜溜果园港股IPO，收入放缓，利润靠压缩费用",
+        "assets": "📉 港股消费板块 利空\n📉 食品饮料新股 承压",
+        "chain": "利润依赖压缩销售费用而非增长，暗示护城河（竞争壁垒）弱，上市后可能因基本面恶化抛压",
+        "watch": "IPO首日破发概率及后续季度收入增速"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期，但计划再融资200亿美元致股价跌",
-        "assets": "📉 Oracle股票 利空\n📈 公司债 供给增加",
-        "chain": "再融资（发债借钱）稀释每股收益（EPS，每股利润），市场担忧债务负担，拖累科技板块",
-        "watch": "Oracle债发行利率及后续财报"
+        "what": "Oracle业绩超预期但计划再融资200亿美元致股价跌",
+        "assets": "📉 甲骨文(ORCL) 利空\n📈 科技债市 承压",
+        "chain": "再融资（发债或增发）稀释每股收益（EPS），市场担忧现金流用于收购而非回购，压制股价",
+        "watch": "实际融资方式（发债/增发）及资本支出计划"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "央行加息迅速退效 印尼债市重拾跌势",
       "source": "环球市场播报",
       "detail": " 印尼债券周四重拾跌势，本周早些时候的意外加息之举仅短暂缓解了压力，投资者的注意力再次转向引发市场动荡的整体经济问题。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "印尼央行加息效果消退，债市重回跌势",
-        "assets": "📉 印尼国债 承压\n📉 印尼盾 承压",
-        "chain": "加息（提高借钱成本）未稳住汇率，资本外流（外资撤出）加剧，新兴市场债市连锁反应",
-        "watch": "印尼央行干预措施及外汇储备"
+        "what": "印尼央行加息后债市继续下跌",
+        "assets": "📉 印尼国债 利空\n📉 印尼盾 承压",
+        "chain": "加息（提高利率）本应抑制通胀，但若市场预期经济衰退，资金外逃（资本外流）加剧债市抛售",
+        "watch": "印尼GDP增速及外资持有国债比例变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX成功带动太空气体衍生品交易",
-        "assets": "📈 太空气体供应商 利好\n📈 太空概念股 利好",
-        "chain": "SpaceX IPO成功（未上市但预期高）提振产业链，气体供应商（特种气体）成稀缺标的",
-        "watch": "SpaceX估值动态及气体订单"
+        "what": "SpaceX IPO衍生品炒作：太空气体制造商",
+        "assets": "📈 太空概念股 利好\n📈 工业气体板块 联动",
+        "chain": "SpaceX上市预期（首次公开募股）带动供应链企业估值，气体公司作为上游供应商受益于订单增长",
+        "watch": "SpaceX估值及太空气体公司营收合同"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "特朗普称爱通胀，或利好潜在财长Warsh",
+        "assets": "📈 美元 承压\n📉 美国国债 利空",
+        "chain": "通胀偏好（容忍物价上涨）暗示低利率（借钱成本低）政策，削弱美元，但推高通胀预期（盈亏平衡通胀率）打压债市",
+        "watch": "特朗普民调及Warsh政策表态"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "李想首次回应聊AI“不务正业”：下周一证明我们 “极务正业”",
       "source": "界面",
       "detail": "6月11日，理想汽车董事长兼CEO李想在社交平台发文，首次正面回应外界持续已久的 “不务正业” 的质疑。李想在文中表示，过去一段时间，只要他聊AI、聊具身智能相关话题...",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
@@ -110,11 +102,19 @@
       "score": 29
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "港股午评：恒指跌1.11% 科指跌2.01% 科网股、黄金股低迷 阿里巴巴跌近5% 极免速递跌超8%",
       "source": "新浪港股",
       "detail": "6月11日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.11%，报24136.04，恒生科技指数跌2.01%，国企指数跌1.37%。盘面上，科网股普跌，阿里巴巴跌超4%，百度...",
       "lang": "zh",
+      "score": 27
+    },
+    {
+      "rank": 10,
+      "title": "Oil jumps as U.S. strikes in Iran raise worries of extended disruption to energy flows",
+      "source": "CNBC",
+      "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
+      "lang": "en",
       "score": 27
     }
   ]
