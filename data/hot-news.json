@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 09:55",
+  "updateTime": "2026-06-11 10:00",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发冲突",
-        "assets": "📉 纳斯达克100 承压；📉 原油期货 暴涨",
-        "chain": "地缘风险推升油价（成本上升），科技股遭避险抛售（资金流向黄金/美债）",
-        "watch": "霍尔木兹海峡航运中断情况；VIX（恐慌指数）是否突破30"
+        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发事件",
+        "assets": "📉 AI服务器股 利空；📉 原油 利好",
+        "chain": "避险情绪升温，资金从科技股流向能源和防御板块（如公用事业）",
+        "watch": "霍尔木兹海峡通行情况"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期，但宣布再融资200亿美元致股价下跌",
-        "assets": "📉 Oracle股票 利空；📉 科技板块 情绪承压",
-        "chain": "增发稀释每股收益（EPS），市场担忧现金消耗（AI投资回报期拉长）",
-        "watch": "Oracle后续云业务营收增速；公司债发行利率"
+        "what": "Oracle盈利超预期但宣布再融资200亿美元",
+        "assets": "📉 Oracle股价 利空；📉 科技板块 承压",
+        "chain": "稀释担忧导致抛售，可能压制同板块估值（如云计算股）",
+        "watch": "Oracle后续融资用途及市场反应"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX上市引发太空气体制造商的期权异动",
-        "assets": "📈 太空气体概念股 利好；📈 SpaceX相关衍生品 波动率上升",
-        "chain": "市场押注太空供应链（火箭燃料需求），期权隐含波动率（IV）飙升预示投机资金涌入",
-        "watch": "SpaceX IPO时间表；气体公司合同公告"
+        "what": "SpaceX IPO带动太空气体公司衍生品交易",
+        "assets": "📈 太空概念股 利好；📈 稀有气体期货 利好",
+        "chain": "IPO热度传导至供应链，衍生品（期权）交易量激增",
+        "watch": "SpaceX IPO时间表及气体价格"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普表态支持通胀，利好潜在财长人选Kevin Warsh",
-        "assets": "📈 美国长债收益率 上行；📉 美元指数 承压",
-        "chain": "通胀容忍度提升→美联储降息预期降温（实际利率走高），Warsh鹰派立场（支持加息）可能加速政策转向",
-        "watch": "Warsh公开讲话；核心PCE（个人消费支出物价指数）数据"
+        "what": "分析：特朗普支持通胀对凯文·沃什有利",
+        "assets": "📈 美债收益率 利好；📈 美元 利好",
+        "chain": "通胀预期推高长端利率（10年期国债收益率），利好鹰派（倾向紧缩的）政策候选人",
+        "watch": "特朗普政策声明及CPI数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "推荐高股息股票作为市场动荡的保险策略",
-        "assets": "📈 公用事业股 利好；📈 必需消费品股 利好",
-        "chain": "防御性板块资金流入（对冲beta风险），股息率相对国债利差（credit spread）收窄显示避险需求",
-        "watch": "标普500股息率与10年期美债利差"
+        "what": "高股息股票提供市场动荡保险",
+        "assets": "📈 公用事业股 利好；📈 消费必需品股 利好",
+        "chain": "资金从高贝塔（高波动）资产转向防御，降低组合波动",
+        "watch": "VIX（恐慌指数）及股息率变化"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美国对伊朗新打击引发原油供应中断担忧，油价飙升",
-        "assets": "📈 WTI原油 暴涨；📈 能源股 利好；📉 航空股 承压",
-        "chain": "霍尔木兹海峡封锁风险→全球油价风险溢价（geopolitical risk premium）上升，运输成本传导至消费品通胀",
-        "watch": "美国API（美国石油协会）库存数据；伊朗报复行动声明"
+        "what": "美国对伊朗新打击，油价因供应担忧跳涨",
+        "assets": "📈 原油 利好；📈 能源股 利好；📉 航空股 利空",
+        "chain": "油价上涨推高通胀预期，利空债券和消费，利好能源板块",
+        "watch": "伊朗报复行动及EIA库存数据"
       }
     },
     {
@@ -95,14 +95,6 @@
     },
     {
       "rank": 8,
-      "title": "韩国6月前10天芯片出口达110亿美元，同比激增逾两倍",
-      "source": "环球市场播报",
-      "detail": "韩国海关周四公布的数据显示，6月前10天韩国出口额同比增长86%，创下新高，主要得益于半导体产品的强劲出货。 韩国海关的数据显示，6月1日至10日...",
-      "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 9,
       "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
       "source": "CNBC",
       "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
@@ -110,11 +102,19 @@
       "score": 20
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Trump says 'I love the inflation' after consumer price index hits 3-year high",
       "source": "CNBC",
       "detail": "President Trump suggested that inflation would drop when the U.S. war against Iran ends, and said, \"We've been taking out millions of barrels of oil.\"",
       "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 10,
+      "title": "韩国6月前10天芯片出口达110亿美元，同比激增逾两倍",
+      "source": "环球市场播报",
+      "detail": "韩国海关周四公布的数据显示，6月前10天韩国出口额同比增长86%，创下新高，主要得益于半导体产品的强劲出货。 韩国海关的数据显示，6月1日至10日...",
+      "lang": "zh",
       "score": 20
     }
   ]
