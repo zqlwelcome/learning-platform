@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 14:00",
+  "updateTime": "2026-06-11 14:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "欧洲央行可能首次加息应对物价飙升",
-        "assets": "📉 欧元区国债 承压; 📈 欧元 利好",
-        "chain": "加息（借钱成本提高）压缩企业利润，利空欧股，资金可能流入避险资产",
-        "watch": "欧洲央行下次会议声明及通胀数据"
+        "what": "欧洲央行或因物价飙升首次加息",
+        "assets": "📈 欧元 利好\n📉 欧洲债券 承压",
+        "chain": "加息（借钱成本提高）→抑制需求→利空股市；欧元走强（货币升值）压制出口",
+        "watch": "欧元区CPI（通胀率）及PMI（采购经理人指数）"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期但计划再融资200亿美元致股价下跌",
-        "assets": "📉 Oracle股票 利空; 📉 科技板块 承压",
-        "chain": "大规模发债（增加供给）推高公司债收益率，挤压其他科技股估值（市盈率）",
-        "watch": "Oracle发债细节及市场认购情况"
+        "what": "甲骨文财报超预期但宣布再融资200亿美元",
+        "assets": "📉 甲骨文股票 利空\n📈 美元债（企业债）供给增加",
+        "chain": "增发（发行新股）稀释每股收益→股价跌；发债（借钱）推高公司杠杆率（负债率）",
+        "watch": "甲骨文股价盘后走势及新债发行定价"
       }
     },
     {
       "rank": 3,
+      "title": "应对通胀风险 欧洲央行或将宣布加息25个基点",
+      "source": "环球市场播报",
+      "detail": "面临因伊朗局势动荡引发的能源成本飙升，欧洲中央银行预计将于本周四宣布加息，以遏制欧元区通胀进一步蔓延的风险。 目前，欧元区21国的通胀率已超过3%...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "欧洲央行预告加息25基点应对通胀",
+        "assets": "📈 欧元 利好\n📉 欧洲国债 承压",
+        "chain": "加息→短端利率（短期国债收益率）上升→资金回流欧元区；利空高估值成长股（未来现金流折现减少）",
+        "watch": "拉加德讲话措辞及通胀预期指标"
+      }
+    },
+    {
+      "rank": 4,
       "title": "央行加息迅速退效 印尼债市重拾跌势",
       "source": "环球市场播报",
       "detail": " 印尼债券周四重拾跌势，本周早些时候的意外加息之举仅短暂缓解了压力，投资者的注意力再次转向引发市场动荡的整体经济问题。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "印尼央行加息效果短暂，债市再次下跌",
-        "assets": "📉 印尼国债 承压; 📉 印尼盾 贬值压力",
-        "chain": "加息（借钱成本提高）未稳住信心，资金外流（资本外逃）加剧新兴市场风险",
-        "watch": "印尼央行后续干预措施及外汇储备变化"
+        "what": "印尼央行加息效果短暂，债市再跌",
+        "assets": "📉 印尼国债 承压\n📉 印尼盾 利空",
+        "chain": "加息（提高利率）未稳住汇率→资本外逃（外资撤出）→债市抛售加剧；新兴市场风险溢价（风险补偿）上升",
+        "watch": "印尼外汇储备及美债收益率（美国无风险利率）走势"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX上市成功催生太空气体制造商衍生品交易",
-        "assets": "📈 太空概念股 利好; 📈 特种气体供应商 利好",
-        "chain": "IPO（首次公开募股）成功带动供应链预期，衍生品（金融合约）放大杠杆投机",
-        "watch": "SpaceX估值及同类公司上市计划"
+        "what": "SpaceX上市带动太空气体衍生品交易",
+        "assets": "📈 太空气体相关ETF/期货 利好\n📈 SpaceX影子股 利好",
+        "chain": "IPO（首次公开募股）成功→带动供应链（气体供应商）估值重估→衍生品（期权/期货）交易量激增",
+        "watch": "SpaceX估值变动及气体供应商订单数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普支持通胀利好潜在财长Warsh",
-        "assets": "📈 黄金 利好; 📉 美元 承压",
-        "chain": "通胀预期（物价持续上涨）推高避险资产，若Warsh上任可能推动宽松政策（放水）",
-        "watch": "特朗普经济团队任命及CPI数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
-      "source": "CNBC",
-      "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "高股息股提供市场动荡中的保险功能",
-        "assets": "📈 公用事业股 利好; 📈 必需消费品股 利好",
-        "chain": "避险情绪（恐慌卖出）驱动资金流入稳定分红股，防御性板块跑赢大盘",
-        "watch": "VIX（恐慌指数）及股息率变化"
+        "what": "特朗普支持通胀，利好凯文·沃什",
+        "assets": "📈 美元 承压\n📈 黄金 利好",
+        "chain": "通胀预期（物价上涨预期）→美联储难降息（借钱成本不降）→美元弱（货币贬值）；沃什作为鹰派（主张加息）可能获支持",
+        "watch": "特朗普民调及美联储官员讲话"
       }
     },
     {
       "rank": 7,
+      "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
+      "source": "CNBC",
+      "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 8,
       "title": "港股午评：恒指跌1.11% 科指跌2.01% 科网股、黄金股低迷 阿里巴巴跌近5% 极免速递跌超8%",
       "source": "新浪港股",
       "detail": "6月11日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.11%，报24136.04，恒生科技指数跌2.01%，国企指数跌1.37%。盘面上，科网股普跌，阿里巴巴跌超4%，百度...",
@@ -94,7 +102,7 @@
       "score": 27
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Oil jumps as U.S. strikes in Iran raise worries of extended disruption to energy flows",
       "source": "CNBC",
       "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
@@ -102,20 +110,12 @@
       "score": 27
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "现货黄金跌破4100美元大关，创年内新低",
       "source": "21世纪经济报道",
       "detail": "6月11日，黄金白银再次大跌。 亚市早盘现货黄金一路走低，日内最低跌超1%，下探到4023.1美元/盎司，创至2025年11月以来的新低。COMEX黄金期货最低跌超过2%，下探到4046...",
       "lang": "zh",
       "score": 22
-    },
-    {
-      "rank": 10,
-      "title": "从历史高点暴跌超25% 金价后续走向关键看这些",
-      "source": "经济观察网",
-      "detail": "近日，国际金价持续走弱，较年内最高点回落超过25%，一举吞没此前年内强劲涨幅。 6月10日，国际金价延续跌势，伦敦金现货、COMEX黄金期货价格纷纷下破4100美元/盎司...",
-      "lang": "zh",
-      "score": 20
     }
   ]
 }
