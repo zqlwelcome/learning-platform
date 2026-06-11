@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 21:10",
+  "updateTime": "2026-06-11 21:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "伊朗冲突推高能源成本，欧央行自2023年首次加息",
-        "assets": "📈 欧洲债券 利空；📉 欧元 承压",
-        "chain": "加息（提高借贷成本）抑制经济，叠加能源涨价，企业利润受压，股市风险偏好下降",
-        "watch": "欧洲CPI（通胀率）及油价走势"
+        "what": "伊朗冲突推高能源成本，欧央行首次加息",
+        "assets": "📈 能源类股 利好；📉 欧洲债券 承压；📉 欧元 短期支撑",
+        "chain": "能源成本上升→通胀顽固→加息预期强化→风险资产（股票）承压，避险资产（美元）走强",
+        "watch": "布伦特原油价格是否突破95美元；欧央行下次会议点阵图（利率预测）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "雷蛇CEO称SpaceX等AI企业IPO潮仅是开始",
-        "assets": "📈 SpaceX相关概念股 利好；📈 AI科技股 利好",
-        "chain": "IPO（新股上市）增加供给，但吸引资金流入科技板块，推高估值，可能带动纳斯达克（科技股指）",
-        "watch": "SpaceX上市时间表及估值"
+        "what": "欧洲央行自2023年以来首次加息",
+        "assets": "📉 欧洲债券 承压；📉 欧洲股市 利空；📈 欧元 短期支撑",
+        "chain": "加息→借贷成本上升→企业盈利预期下调→资金从股市流向债市（股债跷跷板效应）",
+        "watch": "欧元区PMI（采购经理人指数）数据；欧央行行长讲话基调"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "SpaceX IPO引发市场担忧，但不会打破牛市",
-        "assets": "📈 美股大盘 中性；📉 空头仓位 承压",
-        "chain": "IPO（新股发行）吸走流动性，但牛市惯性支撑，投资者关注后续经济数据是否疲软",
-        "watch": "美联储（美国央行）利率决议及科技股财报"
+        "what": "欧洲央行在通胀压力下自2023年来首次加息",
+        "assets": "📉 欧洲国债 承压；📉 欧元区银行股 利空；📈 欧元 短期支撑",
+        "chain": "通胀顽固→加息→信贷收紧→经济放缓风险→大宗商品需求预期下降",
+        "watch": "欧元区CPI（消费者物价指数）环比数据；欧洲央行利率路径预测"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "市场视SpaceX IPO为对马斯克的公投",
-        "assets": "📈 特斯拉 关联风险；📉 SpaceX估值 承压",
-        "chain": "马斯克声誉影响投资者信心，若IPO失败可能拖累其关联公司，如特斯拉（电动车龙头）",
-        "watch": "马斯克社交媒体言论及监管动态"
+        "what": "雷蛇CEO称SpaceX及大型AI企业IPO潮仅是开端",
+        "assets": "📈 AI概念股 利好；📈 太空概念股 利好；📈 科技IPO（首次公开募股）市场 活跃",
+        "chain": "明星IPO（首次公开募股）示范效应→资金涌入一级市场（未上市企业）→推高科技股估值→带动纳斯达克（美国科技股指数）",
+        "watch": "SpaceX估值及上市时间表；AI企业IPO（首次公开募股）排队名单"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO不会打破牛市，但投资者担忧后续",
+        "assets": "📈 科技股 短期利好；📉 避险资产（如黄金） 承压",
+        "chain": "SpaceX上市→科技股吸金→资金从传统板块（如能源、金融）流出→市场风格切换（成长型 vs 价值型）",
+        "watch": "SpaceX IPO定价及首日涨幅；纳斯达克指数波动率（VIX恐慌指数）"
+      }
     },
     {
       "rank": 6,
@@ -71,7 +77,13 @@
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "市场观察者称SpaceX IPO是对马斯克的公投",
+        "assets": "📈 特斯拉 联动；📉 马斯克相关概念股 波动风险",
+        "chain": "马斯克个人声誉→特斯拉品牌溢价→若IPO（首次公开募股）失败→特斯拉估值承压；若成功→提振市场对科技领袖信心",
+        "watch": "马斯克社交媒体动态；SpaceX IPO认购倍数（需求热度指标）"
+      }
     },
     {
       "rank": 7,
