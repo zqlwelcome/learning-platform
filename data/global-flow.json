@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 14:55",
+  "updateTime": "2026-06-11 15:01",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,25 +16,30 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3985.90",
-      "change": "-0.18"
+      "value": "3987.01",
+      "change": "-0.16"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24119.320",
-      "change": "-1.18"
+      "value": "24152.330",
+      "change": "-1.05"
     }
   },
   "etf_flows": [],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
-    "hgt": 0,
-    "sgt": 0,
-    "total": 0
+    "hgt": 0.0,
+    "sgt": 5200000.0,
+    "total": 0.0
   },
   "bank_news": [
+    {
+      "title": "应对通胀风险 交易员预计年内欧洲央行共将加息三次",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
     {
       "title": "应对通胀压力 欧洲央行预计将宣布2023年以来首次加息",
       "source": "环球市场播报",
