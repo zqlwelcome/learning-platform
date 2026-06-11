@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 22:25",
+  "updateTime": "2026-06-11 22:30",
   "news": [
     {
       "rank": 1,
@@ -10,69 +10,55 @@
       "score": 57,
       "insight": {
         "what": "发改委储备政策工具应对经济数据",
-        "assets": "📈 中国A股 预期利好",
-        "chain": "数据若不及预期，政策加码（刺激措施）将提振基建和消费板块",
-        "watch": "即将发布的GDP/PMI（采购经理指数）数据"
+        "assets": "📈 A股 预期利好；📉 国债 短期承压",
+        "chain": "数据若不及预期，政策加码（财政刺激）概率上升，利好基建和消费板块。",
+        "watch": "即将发布的PMI（采购经理指数）和社融（社会融资规模）数据"
       }
     },
     {
       "rank": 2,
-      "title": "伊朗冲突推高能源成本，欧洲央行2023年以来首次加息",
-      "source": "环球市场播报",
-      "detail": "核心要点受伊朗冲突冲击，通胀大幅偏离目标，欧洲央行将关键利率上调至 2.25%。该行是全球主要央行中首个为应对能源冲击启动加息的机构。",
-      "lang": "zh",
-      "score": 51,
-      "insight": {
-        "what": "伊朗冲突推高能源，欧央行加息",
-        "assets": "📈 原油 利好 📉 欧洲债券 承压",
-        "chain": "能源成本上升传导至通胀（物价上涨），欧央行加息压制经济，利空欧元",
-        "watch": "伊朗局势升级及欧元区CPI（消费者物价指数）"
-      }
-    },
-    {
-      "rank": 3,
       "title": "中国证监会同意国仪量子IPO注册申请",
       "source": "中证网",
       "detail": " 6月11日，中国证监会网站显示，国仪量子首次公开发行股票的注册申请获得中国证监会通过。国仪量子IPO于2025年12月10日获得受理，并于2026年5月12日提交注册。",
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "证监会同意国仪量子IPO注册",
-        "assets": "📈 量子计算板块 利好 📈 A股科技股 情绪提振",
-        "chain": "量子概念获政策背书，吸引资金流入科创板块，带动相关ETF（交易所交易基金）",
-        "watch": "国仪量子发行价及首日涨幅"
+        "what": "国仪量子获证监会同意IPO注册",
+        "assets": "📈 量子计算概念股 利好；📈 A股科技板块 情绪提振",
+        "chain": "量子赛道获资本认可，可能带动硬科技（半导体、精密仪器）估值重估。",
+        "watch": "国仪量子发行价及上市首日表现"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO被视为对马斯克的公投",
-        "assets": "📈 SpaceX 估值波动 📉 特斯拉 情绪联动",
-        "chain": "马斯克个人声誉影响投资者信心，若IPO遇冷，特斯拉也可能遭抛售",
-        "watch": "马斯克近期社交媒体言论及公司财报"
+        "what": "市场视SpaceX IPO为对马斯克投票",
+        "assets": "📈 SpaceX 估值预期 利好；📉 特斯拉 间接承压",
+        "chain": "若认购火爆，马斯克个人信誉溢价上升，特斯拉融资成本（借债利息）可能降低。",
+        "watch": "马斯克近期公开言论及SpaceX估值区间"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不会打破牛市但引发担忧",
-        "assets": "📈 美股大盘 中性 📉 科技成长股 避险情绪",
-        "chain": "高估值IPO吸走流动性（资金），投资者转向防御性资产如公用事业",
-        "watch": "IPO定价及后续市场资金流向"
+        "what": "SpaceX IPO不会打破牛市但引担忧",
+        "assets": "📉 美股大盘 短期波动；📈 太空概念股 分化",
+        "chain": "资金分流效应（散户从其他科技股撤资打新）可能压制科技板块短期表现。",
+        "watch": "SpaceX上市后首日成交量与换手率"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "SpaceX IPO进入最后阶段 散户认购订单规模超700亿美元",
       "source": "环球市场播报",
       "detail": "据知情人士透露，有望创下募资纪录的SpaceX IPO已进入收尾阶段，其个人投资者认购订单规模突破700亿美元。 相关消息尚未对外公布，因此知情人士要求匿名。",
@@ -80,25 +66,39 @@
       "score": 40,
       "insight": {
         "what": "SpaceX散户认购订单超700亿美元",
-        "assets": "📈 SpaceX 需求旺盛 📈 美股散户经纪商 利好",
-        "chain": "散户狂热推高定价，但上市后可能遭遇获利回吐（卖压），影响科技板块热情",
-        "watch": "IPO首日开盘价及散户持仓变化"
+        "assets": "📈 SpaceX 需求火爆 利好；📈 太空ETF（交易所交易基金） 跟涨",
+        "chain": "散户狂热或推高发行价，但上市后抛压（获利了结）风险增加。",
+        "watch": "机构认购比例及最终定价"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
+      "source": "CNBC",
+      "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "甲骨文业绩超预期但宣布再融资200亿",
+        "assets": "📉 甲骨文股价 利空；📈 企业软件板块 分化",
+        "chain": "大规模发债（借新债）稀释每股收益（EPS，每股盈利），但资金用于并购或AI投入。",
+        "watch": "甲骨文财报电话会议关于资本开支的指引"
       }
     },
     {
       "rank": 7,
+      "title": "ATFX:欧央行或宣布加息25基点 高通胀风险已迫在眉睫",
+      "source": "市场资讯",
+      "detail": "6月11日，ATFX：北京时间今日20：15，欧央行将公布利率决议结果，市场预期加息25基点，存款机制利率和主要再融资利率分别升高至2.25%、2.40%。",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "韩国交易所理事长：韩国股市暴跌并非外资看空该国",
       "source": "环球市场播报",
       "detail": "核心要点韩国交易所理事长郑恩甫表示，外资抛售韩国股票，并非对韩国市场丧失信心。他在 CNBC 采访中称，韩国市场剧烈波动源于伊朗冲突...",
       "lang": "zh",
-      "score": 32
-    },
-    {
-      "rank": 8,
-      "title": "As OpenAI leans into enterprise business, Apple and Google set sights on the masses",
-      "source": "CNBC",
-      "detail": "OpenAI's aggressive push into the enterprise, where it competes with Anthropic, coincides with efforts by Apple and Google to bring advanced AI to consumers.",
-      "lang": "en",
       "score": 32
     },
     {
