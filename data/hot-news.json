@@ -1,92 +1,108 @@
 {
-  "updateTime": "2026-06-11 18:35",
+  "updateTime": "2026-06-11 18:40",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
+      "source": "CNBC",
+      "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "市场观察者称SpaceX IPO是对马斯克的公投",
+        "assets": "📉 特斯拉 利空\n📈 SpaceX未上市股权 利好",
+        "chain": "马斯克声誉风险（个人信誉波动）→特斯拉估值承压（投资者重估其领导力溢价）",
+        "watch": "SpaceX IPO估值及马斯克推特言论频率"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期但宣布再融资200亿美元，股价下跌",
-        "assets": "📉 甲骨文(ORCL) 利空；📉 科技股 承压",
-        "chain": "融资稀释现有股东权益，引发抛售；可能拖累云计算板块情绪（市场信心）",
-        "watch": "甲骨文后续资本开支计划及云业务增速"
+        "what": "Oracle财报超预期但宣布再融资200亿美元，股价下跌",
+        "assets": "📉 Oracle 利空\n📈 科技债 利好",
+        "chain": "增发稀释（股份数量增加）→现有股东权益摊薄→资金成本上升（融资利率走高）",
+        "watch": "Oracle融资用途及债务评级变动"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "马斯克：高调打破IPO静默期惯例",
       "source": "环球市场播报",
       "detail": "作者：戴金・坎贝尔撰文：戴金・坎贝尔 上月月末，埃隆・马斯克在 X 平台发文，披露了太空探索技术公司（SpaceX）与人工智能企业安索帕（Anthropic）的合作细节...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "马斯克高调打破IPO静默期惯例，引发市场关注",
-        "assets": "📈 特斯拉(TSLA) 波动；📉 相关IPO标的 不确定性",
-        "chain": "违规言论可能招致SEC（美国证监会）调查，增加合规风险；影响投资者对IPO流程信任",
-        "watch": "SEC是否启动调查及特斯拉股价反应"
+        "what": "马斯克高调打破IPO静默期惯例",
+        "assets": "📉 特斯拉 承压\n📈 做空波动率 利好",
+        "chain": "监管合规风险（SEC审查）→市场情绪恶化→IPO定价不确定性增加",
+        "watch": "SEC是否调查及IPO定价调整"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "Anthropic, OpenAI, other U.S. AI giants launch major London expansions amid talent and revenue scramble",
+      "source": "CNBC",
+      "detail": "The U.K. capital has become a key growth target for many of the world's most talked about AI companies.",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "Anthropic、OpenAI等AI巨头在伦敦大规模扩张",
+        "assets": "📈 伦敦商业地产 利好\n📉 欧洲AI初创 利空",
+        "chain": "人才争夺战（薪资通胀）→AI算力需求增加→数据中心基建股受益",
+        "watch": "伦敦AI岗位薪资中位数及数据中心资本开支"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "分析称特朗普喜爱通胀，利好潜在财长沃什",
-        "assets": "📈 美元 利好；📉 美债 承压",
-        "chain": "特朗普支持通胀政策预期推升利率（借钱成本），美元走强；沃什鹰派（偏紧缩）立场或强化此倾向",
-        "watch": "特朗普经济团队任命及通胀数据"
+        "what": "分析：特朗普称爱通胀，利好潜在美联储主席Warsh",
+        "assets": "📈 美元 承压\n📉 美债长端 利好",
+        "chain": "通胀预期升温（物价上涨预期）→加息预期强化→风险资产估值承压（贴现率上升）",
+        "watch": "Warsh提名概率及10年期TIPS收益率（通胀预期指标）"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "推荐高股息股作为市场动荡的保险资产",
-        "assets": "📈 公用事业股 利好；📈 消费必需品股 利好",
-        "chain": "资金从高成长股轮动至防御板块（避险），降低组合波动；股息率相对国债利差（收益差）扩大",
-        "watch": "VIX（恐慌指数）及高股息ETF资金流入"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Stock futures rise as U.S. completes strikes against Iran: Live updates",
-      "source": "CNBC",
-      "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美股期货上涨，因美国完成对伊朗打击行动",
-        "assets": "📈 美股股指期货 利好；📈 能源股 利空",
-        "chain": "地缘风险短期解除，风险偏好（冒险意愿）回升；油价回落缓解通胀担忧，利好消费",
-        "watch": "伊朗后续报复声明及原油库存数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "连跌4个月，国际金价跌回2025年，黄金进入技术性熊市！花旗预测金价可能跌到3500美元",
-      "source": "",
-      "detail": "来源：@中国经营报微博#金价连跌4个月#【连跌4个月，国际金价跌回2025年，黄金进入技术性熊市！花旗预测金价可能跌到3500美元】#金价较高点跌超26%#综合每日经济新闻...",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "国际金价连跌4月进入技术性熊市，花旗看至3500美元",
-        "assets": "📉 黄金 利空；📈 美元 利好",
-        "chain": "利率上升（加息预期）压制无息资产（黄金），美元走强加速资金流出；花旗看空加剧趋势",
-        "watch": "美联储下次会议点阵图（利率预测）及实际利率"
+        "what": "这些股票提供高股息且充当‘动荡保险’",
+        "assets": "📈 公用事业股 利好\n📈 必需消费品 利好",
+        "chain": "防御性轮动（资金从成长股转向避险）→波动率指数（VIX）上行→高息股获溢价",
+        "watch": "VIX指数及防御板块资金流入量"
       }
     },
     {
       "rank": 7,
+      "title": "Stock futures rise as U.S. completes strikes against Iran: Live updates",
+      "source": "CNBC",
+      "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 8,
+      "title": "连跌4个月，国际金价跌回2025年，黄金进入技术性熊市！花旗预测金价可能跌到3500美元",
+      "source": "",
+      "detail": "来源：@中国经营报微博#金价连跌4个月#【连跌4个月，国际金价跌回2025年，黄金进入技术性熊市！花旗预测金价可能跌到3500美元】#金价较高点跌超26%#综合每日经济新闻...",
+      "lang": "zh",
+      "score": 22
+    },
+    {
+      "rank": 9,
       "title": "核心技术受制于人 苹果在人工智能领域深化对谷歌依赖引发市场重估与监管风险",
       "source": "环球市场播报",
       "detail": "苹果公司日前举行2026年全球开发者大会（WWDC），发布了由虚拟助手Siri领衔的“苹果智能”（Apple Intelligence）系统。值得注意的是...",
@@ -94,27 +110,11 @@
       "score": 20
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "尾盘异动！300505，“20cm”涨停！",
       "source": "",
       "detail": "6月11日，A股整体小幅震荡，科创综指在2000点附近获得支撑后反弹翻红，北证50低开低走跌逾3%，上证指数、深证成指、创业板指均小幅飘绿。",
       "lang": "zh",
-      "score": 20
-    },
-    {
-      "rank": 9,
-      "title": "KKR says AI productivity boom to keep on going — but warns of 'extreme' trend not seen since the 19th century",
-      "source": "CNBC",
-      "detail": "KKR said in its mid-year outlook Thursday that AI will drive economic growth for years to come, but only in specific sectors.",
-      "lang": "en",
-      "score": 20
-    },
-    {
-      "rank": 10,
-      "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
-      "source": "CNBC",
-      "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
-      "lang": "en",
       "score": 20
     }
   ]
