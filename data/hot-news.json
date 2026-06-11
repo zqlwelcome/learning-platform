@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 12:15",
+  "updateTime": "2026-06-11 12:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美国5月CPI超预期，降息预期降温",
-        "assets": "📉 沪镍 承压",
-        "chain": "通胀韧性→降息推迟（借钱成本维持高位）→工业金属需求预期减弱",
-        "watch": "今晚美联储点阵图（利率路径预测）"
+        "what": "美国CPI数据超预期，降息预期降温",
+        "assets": "📉 镍价 承压；📈 美元 走强",
+        "chain": "通胀顽固→降息推迟（借钱成本维持高位）→需求端施压大宗商品（镍等工业金属）",
+        "watch": "今晚美联储点阵图（利率预测路径）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "溜溜果园港股IPO，利润增长靠压缩销售费用",
-        "assets": "📉 港股消费股 情绪偏空",
-        "chain": "上市前大额分红→实控人套现（管理层动机）→投资者对治理结构持疑",
-        "watch": "IPO认购倍数（反映市场信心）"
+        "what": "溜溜果园港股IPO：利润靠压缩销售费用，上市前大额分红",
+        "assets": "📉 港股消费新股 风险警示；📈 实控人套现 利空",
+        "chain": "收入放缓+分红掏空→上市后业绩可能变脸（盈利可持续性存疑）→机构配售意愿低",
+        "watch": "IPO定价区间及超额认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期但宣布再融资200亿美元",
-        "assets": "📉 甲骨文股价 利空",
-        "chain": "再融资（增发股票）稀释每股收益（EPS）→股价短期承压",
-        "watch": "今晚盘后期权波动率（IV，隐含波动率）变化"
+        "what": "Oracle财报超预期，但计划再融资200亿美元致股价下跌",
+        "assets": "📉 Oracle 股价 利空；📈 科技债供应 承压",
+        "chain": "再融资（发债或增发）稀释现有股东权益→市场解读为资本需求大→压制估值",
+        "watch": "融资具体用途（回购/并购/云投资）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "印尼央行加息后债市重拾跌势",
-        "assets": "📉 印尼国债 利空",
-        "chain": "加息（提高借贷成本）→债券价格下跌→外资流出（套利交易平仓）",
-        "watch": "印尼盾汇率（USD/IDR）是否继续走弱"
+        "what": "印尼央行加息后债市继续下跌，政策失效",
+        "assets": "📉 印尼国债 利空；📉 印尼盾 承压",
+        "chain": "加息（提高借钱成本）未能稳住汇率→资本外流加剧（套息交易平仓）→债市抛售螺旋",
+        "watch": "印尼央行是否入场干预（购买国债或汇市）"
       }
     },
     {
@@ -65,36 +65,28 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX相关稀有气体公司推出衍生品",
-        "assets": "📈 太空概念股 利好",
-        "chain": "SpaceX IPO预期→上游气体供应商受益（供应链溢价）",
-        "watch": "SpaceX二级市场估值（未上市股权交易价）"
+        "what": "SpaceX IPO衍生品：特种气体供应商获关注",
+        "assets": "📈 太空概念特种气体 利好；📈 SpaceX相关衍生品 投机",
+        "chain": "SpaceX成功→上游供应商（稀有气体/推进剂）需求预期上升→资金提前布局",
+        "watch": "SpaceX IPO时间表及估值"
       }
     },
     {
       "rank": 6,
-      "title": "4连板牛股天娱数科，2分钟封死跌停！昨夜刚澄清：没有物理AI业务，与2026年世界杯没有合作",
-      "source": "市场资讯",
-      "detail": "来源：华夏时报 6月11日，天娱数科开盘快速跳水，2分钟即封死跌停。截至发稿，该股报7.98元/股。值得注意的是，在此前6月5日至10日的四个交易日中，天娱数科连续涨停。",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "天娱数科4连板后跌停，澄清无物理AI业务",
-        "assets": "📉 A股AI概念股 利空",
-        "chain": "澄清（否认市场传闻）→概念炒作退潮（情绪反转）→板块联动回调",
-        "watch": "今日龙虎榜（游资席位净卖出额）"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "特朗普表态喜欢通胀，利好前美联储理事Warsh",
+        "assets": "📈 特朗普概念股 利好；📉 美债 承压",
+        "chain": "通胀偏好→暗示低利率容忍度（实际利率下降）→Warsh若掌美联储将延续鸽派（宽松政策）",
+        "watch": "特朗普民调及Warsh货币政策表态"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "视频|李祝捷：IPO已经变成邀请制 不被邀请的创业者怎么办",
       "source": "市场资讯",
       "detail": "详细信息请关注后续报道。",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
@@ -110,11 +102,19 @@
       "score": 29
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "港股午评：恒指跌1.11% 科指跌2.01% 科网股、黄金股低迷 阿里巴巴跌近5% 极免速递跌超8%",
       "source": "新浪港股",
       "detail": "6月11日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.11%，报24136.04，恒生科技指数跌2.01%，国企指数跌1.37%。盘面上，科网股普跌，阿里巴巴跌超4%，百度...",
       "lang": "zh",
+      "score": 27
+    },
+    {
+      "rank": 10,
+      "title": "Oil jumps as U.S. strikes in Iran raise worries of extended disruption to energy flows",
+      "source": "CNBC",
+      "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
+      "lang": "en",
       "score": 27
     }
   ]
