@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 11:01",
+  "updateTime": "2026-06-11 11:05",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,14 +16,14 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3975.32",
-      "change": "-0.45"
+      "value": "3974.07",
+      "change": "-0.48"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24030.970",
-      "change": "-1.54"
+      "value": "24068.740",
+      "change": "-1.39"
     }
   },
   "etf_flows": [],
@@ -31,46 +31,46 @@
     {
       "name": "小金属",
       "code": "BK1027",
-      "index": 4143.7,
-      "change": 3.81,
-      "flow": 4072658432.0,
-      "flow_str": "+40.73亿",
+      "index": 4150.76,
+      "change": 3.99,
+      "flow": 4383268864.0,
+      "flow_str": "+43.83亿",
       "direction": "in"
     },
     {
       "name": "有色金属",
       "code": "BK0478",
-      "index": 28556.25,
-      "change": 0.69,
-      "flow": 3709868544.0,
-      "flow_str": "+37.10亿",
+      "index": 28580.33,
+      "change": 0.78,
+      "flow": 4037019648.0,
+      "flow_str": "+40.37亿",
       "direction": "in"
     },
     {
       "name": "钨",
       "code": "BK1625",
-      "index": 10364.42,
-      "change": 8.28,
-      "flow": 1990116144.0,
-      "flow_str": "+19.90亿",
+      "index": 10373.25,
+      "change": 8.38,
+      "flow": 2009869264.0,
+      "flow_str": "+20.10亿",
       "direction": "in"
     },
     {
       "name": "电子化学品Ⅲ",
       "code": "BK1332",
-      "index": 3860.43,
-      "change": 4.25,
-      "flow": 1742058496.0,
-      "flow_str": "+17.42亿",
+      "index": 3850.3,
+      "change": 3.98,
+      "flow": 1778744576.0,
+      "flow_str": "+17.79亿",
       "direction": "in"
     },
     {
       "name": "电子化学品Ⅱ",
       "code": "BK1039",
-      "index": 3860.43,
-      "change": 4.25,
-      "flow": 1742058496.0,
-      "flow_str": "+17.42亿",
+      "index": 3850.3,
+      "change": 3.98,
+      "flow": 1778744576.0,
+      "flow_str": "+17.79亿",
       "direction": "in"
     }
   ],
@@ -90,11 +90,6 @@
       "title": "长江有色：美国通胀数据超预期反弹铅价窄幅震荡 11日铅价或涨跌不大",
       "source": "市场资讯",
       "keyword": "通胀"
-    },
-    {
-      "title": "华泰期货：贵金属价格集体承压，关注欧央行政策利率",
-      "source": "市场资讯",
-      "keyword": "央行"
     }
   ]
 }
