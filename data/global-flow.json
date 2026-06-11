@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 14:36",
+  "updateTime": "2026-06-11 14:41",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,14 +16,14 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3975.68",
-      "change": "-0.44"
+      "value": "3976.50",
+      "change": "-0.42"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24119.490",
-      "change": "-1.18"
+      "value": "24152.000",
+      "change": "-1.05"
     }
   },
   "etf_flows": [
@@ -32,8 +32,8 @@
       "code": "588170",
       "price": 2.71,
       "change": 4.59,
-      "flow": 236168352.0,
-      "flow_str": "+2.36亿",
+      "flow": 243137216.0,
+      "flow_str": "+2.43亿",
       "direction": "in"
     },
     {
@@ -41,35 +41,35 @@
       "code": "512050",
       "price": 1.237,
       "change": -0.96,
-      "flow": 207211984.0,
-      "flow_str": "+2.07亿",
+      "flow": 208433856.0,
+      "flow_str": "+2.08亿",
       "direction": "in"
     },
     {
       "name": "有色金属ETF南方",
       "code": "512400",
-      "price": 1.878,
-      "change": 1.9,
-      "flow": 196602496.0,
-      "flow_str": "+1.97亿",
+      "price": 1.877,
+      "change": 1.84,
+      "flow": 201146480.0,
+      "flow_str": "+2.01亿",
       "direction": "in"
     },
     {
       "name": "半导体设备ETF国泰",
       "code": "159516",
-      "price": 1.341,
-      "change": 3.87,
-      "flow": 161747536.0,
-      "flow_str": "+1.62亿",
+      "price": 1.343,
+      "change": 4.03,
+      "flow": 159731568.0,
+      "flow_str": "+1.60亿",
       "direction": "in"
     },
     {
       "name": "科创芯片ETF嘉实",
       "code": "588200",
-      "price": 3.494,
-      "change": 0.52,
-      "flow": 94224912.0,
-      "flow_str": "+9422.49万",
+      "price": 3.5,
+      "change": 0.69,
+      "flow": 99539568.0,
+      "flow_str": "+9953.96万",
       "direction": "in"
     }
   ],
