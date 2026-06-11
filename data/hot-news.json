@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 15:20",
+  "updateTime": "2026-06-11 15:26",
   "news": [
     {
       "rank": 1,
@@ -9,84 +9,100 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "欧洲央行预计启动2023年来首次加息抗通胀",
-        "assets": "📈 欧元 利好; 📉 欧债 承压",
-        "chain": "加息（提高借钱成本）→ 欧元走强 → 欧洲出口竞争力下降 → 欧股承压",
-        "watch": "欧央行利率决议及通胀数据"
+        "what": "欧央行预计首次加息应对通胀",
+        "assets": "📈 欧元 短期利好",
+        "chain": "欧元升值压制美元，利好非美资产但利空欧元区出口（海外收入占比高的企业）",
+        "watch": "欧央行利率决议及拉加德发布会措辞"
       }
     },
     {
       "rank": 2,
+      "title": "欧元区一季度经济萎缩凸显滞胀风险 欧洲央行本周加息箭在弦上引发“政策失误”质疑",
+      "source": "环球市场播报",
+      "detail": "欧洲央行（ECB）理事会将于本周四召开货币政策会议。目前市场已完全消化了加息预期。然而，在欧元区一季度经济萎缩、中东局势升级导致能源供应持续受阻的背景下...",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "欧元区经济萎缩叠加加息，引发滞胀担忧",
+        "assets": "📉 欧股 承压",
+        "chain": "滞胀（经济停滞+通胀）打压风险偏好，资金从股市流向债市，德债收益率可能上行",
+        "watch": "欧元区PMI（采购经理人指数）及GDP（国内生产总值）修正值"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "欧洲央行加息预期已被市场消化，政策依赖数据路径或推动德国10年期国债收益率回落",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——随着欧洲央行利率决议临近，金融市场已经充分计入本次加息预期。道明证券利率策略团队认为，欧洲央行在今晚会议上加息25个基点已经成为市场主流预期...",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "欧央行加息预期已消化，德债收益率或回落",
+        "assets": "📈 德债 利好",
+        "chain": "buy the rumor sell the fact（买预期卖事实），利率预期见顶后资金回补债券，压低收益率",
+        "watch": "德国10年期国债收益率走势及欧元区通胀数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "光大期货0611黄金点评：地缘升温叠加CPI高企 金价大幅下挫",
       "source": "市场资讯",
       "detail": " 6月10日，COMEX黄金大幅下挫，直逼4000点，报收4094.1美元/盎司，跌幅4.49%。国内SHFE金夜盘低开低走，下破900点，报收898.94元/克，跌幅3.37%。",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "地缘升温及CPI高企导致黄金大幅下挫",
-        "assets": "📉 黄金 利空; 📈 美元 利好",
-        "chain": "CPI高企（通胀超预期）→ 加息预期强化 → 实际利率（名义利率减通胀）上升 → 黄金无息资产吸引力下降",
-        "watch": "下周CPI数据及美联储表态"
+        "what": "地缘升温+CPI高企致金价大跌",
+        "assets": "📉 黄金 承压",
+        "chain": "CPI（消费者物价指数）高企强化加息预期，实际利率（名义利率减通胀）上升，持有黄金的机会成本（放弃的利息收入）增加",
+        "watch": "美国非农就业及核心PCE（个人消费支出物价指数）"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期，但因计划再融资200亿美元股价下跌",
-        "assets": "📉 甲骨文股票 利空; 📉 科技股 情绪利空",
-        "chain": "再融资（增发或发债）→ 稀释现有股东权益 → 股价承压 → 拖累科技板块情绪",
-        "watch": "甲骨文融资细节及云业务增速"
+        "what": "Oracle业绩超预期但因增发计划股价下跌",
+        "assets": "📉 甲骨文股票 利空",
+        "chain": "增发（发行新股）稀释每股收益（EPS，每股利润），市场解读为现金流紧张信号，拖累科技板块情绪",
+        "watch": "甲骨文财报电话会关于资本开支的指引"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "应对通胀风险 交易员预计年内欧洲央行共将加息三次",
       "source": "环球市场播报",
       "detail": "面临中东冲突引发的通胀复苏压力，欧洲中央银行预计将于本周四（11日）举行的货币政策会议上宣布加息。目前，金融市场对欧洲央行本周加息的预期几近完全消化。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "交易员押注年内欧央行共加息三次应对通胀",
-        "assets": "📈 欧元 利好; 📉 欧洲债券 利空",
-        "chain": "三次加息预期 → 欧债收益率（债券利息）上升 → 欧元区信贷收紧 → 经济放缓风险",
-        "watch": "欧央行会议纪要及通胀预期指标"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "应对通胀风险 欧洲央行或将宣布加息25个基点",
-      "source": "环球市场播报",
-      "detail": "面临因伊朗局势动荡引发的能源成本飙升，欧洲中央银行预计将于本周四宣布加息，以遏制欧元区通胀进一步蔓延的风险。 目前，欧元区21国的通胀率已超过3%...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "欧洲央行或宣布加息25个基点应对通胀风险",
-        "assets": "📈 欧元 利好; 📉 欧洲股市 利空",
-        "chain": "加息25bp → 欧洲债券收益率上升 → 借贷成本增加 → 企业利润承压",
-        "watch": "欧央行声明措辞及经济预测"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
-      "source": "CNBC",
-      "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO成功后出现罕见衍生品：太空气体制造商",
-        "assets": "📈 太空概念股 利好; 📈 特种气体供应商 利好",
-        "chain": "SpaceX上市效应（IPO造富）→ 资金寻找太空产业链下游 → 特种气体需求预期上升",
-        "watch": "SpaceX IPO估值及气体合同进展"
+        "what": "交易员预计欧央行年内加息三次",
+        "assets": "📈 欧元 利好",
+        "chain": "加息预期推高欧元区短端利率，欧元兑美元利差（两国利率差）扩大，欧元走强压制美元指数（美元对一篮子货币汇率）",
+        "watch": "欧洲央行点阵图（利率预测）及通胀预期数据"
       }
     },
     {
       "rank": 7,
+      "title": "应对通胀风险 欧洲央行或将宣布加息25个基点",
+      "source": "环球市场播报",
+      "detail": "面临因伊朗局势动荡引发的能源成本飙升，欧洲中央银行预计将于本周四宣布加息，以遏制欧元区通胀进一步蔓延的风险。 目前，欧元区21国的通胀率已超过3%...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
+      "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
+      "source": "CNBC",
+      "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 9,
       "title": "南新制药虚增业绩面临证监会的处罚，适格股民可索赔损失！",
       "source": "市场资讯",
       "detail": "2026年6月10日，湖南南新制药股份有限公司发布《关于收到&lt;行政处罚事先告知书&gt;的公告》。因南新制药虚增2023年度业绩，湖南证监局拟决定对南新制药及相关责任人给予...",
@@ -94,28 +110,12 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "南新制药收到证监会行政处罚事先告知书  投资者可参与索赔",
       "source": "市场资讯",
       "detail": "2026年6月9日晚间，南新制药发布关于收到《行政处罚事先告知书》的公告。公告显示：湖南南新制药股份有限公司于2025 年9 月29 日收到中国证券监督管理委员会出具的《立案告...",
       "lang": "zh",
       "score": 33
-    },
-    {
-      "rank": 9,
-      "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
-      "source": "CNBC",
-      "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
-      "lang": "en",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
-      "source": "CNBC",
-      "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
-      "lang": "en",
-      "score": 29
     }
   ]
 }
