@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 00:50",
+  "updateTime": "2026-06-12 00:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "欧洲央行接近三年来首次加息，警告通胀扩散",
-        "assets": "📈 欧元 利好，📉 欧洲债券 承压",
-        "chain": "加息（借钱成本提高）抑制需求，但通胀扩散迫使更多紧缩，利空消费股",
-        "watch": "欧元区核心CPI（扣除食品能源的通胀）是否继续攀升"
+        "what": "欧央行近三年来首次加息，拉加德警告通胀扩散",
+        "assets": "📈 欧元 短期利好；📉 欧洲债券 承压",
+        "chain": "加息（借钱成本提高）抑制需求，但银行股受益于利差扩大（存贷利差增加）",
+        "watch": "欧央行下次会议利率决议及通胀数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "欧洲股市结束四连跌，银行股因加息预期反弹",
-        "assets": "📈 欧洲银行股 利好",
-        "chain": "加息提升银行净息差（存贷利差扩大），但经济放缓风险压制整体涨幅",
-        "watch": "欧洲PMI（采购经理人指数）是否跌破50衰退线"
+        "what": "欧央行加息提振银行股，欧洲股市结束四连跌",
+        "assets": "📈 欧洲银行股 利好；📈 欧洲股指 短期反弹",
+        "chain": "银行净息差（贷款利率减存款利率）扩大，盈利预期改善，带动指数情绪",
+        "watch": "欧洲银行股EPS（每股盈利）指引及信贷数据"
       }
     },
     {
@@ -37,28 +37,14 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不会打破牛市，但投资者担忧后续风险",
-        "assets": "📈 SpaceX相关加密货币 利好，📉 太空概念股 分化",
-        "chain": "IPO抽血效应（资金从其他资产流出）有限，但高估值可能引发科技板块回调",
-        "watch": "SpaceX IPO定价最终估值是否超2万亿"
+        "what": "SpaceX IPO不打破牛市，但投资者担忧后续影响",
+        "assets": "📉 科技成长股 承压；📈 SpaceX估值 中性",
+        "chain": "IPO抽血（资金从二级市场流向一级市场），可能压制同板块流动性",
+        "watch": "IPO定价及首日交易量对比市场资金流向"
       }
     },
     {
       "rank": 4,
-      "title": "加密市场押注SpaceX上市首日较IPO价格溢价20% 估值达2.2万亿美元",
-      "source": "环球市场播报",
-      "detail": " 加密市场交易员正在无视SpaceX的预期IPO价格，在这家埃隆·马斯克旗下火箭、卫星和人工智能公司上市交易前，给出更高估值。",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "加密市场押注SpaceX上市首日较IPO溢价20%，估值2.2万亿美元",
-        "assets": "📈 SpaceX代币（如DOGE） 利好，📉 传统航天股 承压",
-        "chain": "溢价预期吸引投机资金，但若实际涨幅不及预期，将引发加密板块抛售",
-        "watch": "SpaceX IPO首日开盘价是否达预期溢价"
-      }
-    },
-    {
-      "rank": 5,
       "title": "贝莱德下单至少50亿美元认购SpaceX IPO股份",
       "source": "环球市场播报",
       "detail": "多家大型资管机构申报认购规模同样惊人，散户投资者认购热情高涨上月，SpaceX 星舰在得克萨斯州星基地发射升空 埃隆・马斯克旗下 SpaceX 筹备进行史上最大规模 IPO...",
@@ -66,9 +52,23 @@
       "score": 40,
       "insight": {
         "what": "贝莱德下单至少50亿美元认购SpaceX IPO股份",
-        "assets": "📈 SpaceX估值 利好，📈 美股大盘 中性偏多",
-        "chain": "机构大额认购信号（背书效应）提振IPO信心，但可能挤压散户配售份额",
-        "watch": "其他机构跟投比例是否超预期"
+        "assets": "📈 SpaceX估值 利好；📉 其他太空股 竞争承压",
+        "chain": "大机构认购推高估值，但可能挤压其他太空概念股的资金配置（仓位再平衡）",
+        "watch": "SpaceX实际融资额及认购倍数"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "加密市场押注SpaceX上市首日较IPO价格溢价20% 估值达2.2万亿美元",
+      "source": "环球市场播报",
+      "detail": " 加密市场交易员正在无视SpaceX的预期IPO价格，在这家埃隆·马斯克旗下火箭、卫星和人工智能公司上市交易前，给出更高估值。",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "加密市场押注SpaceX上市首日较IPO溢价20%",
+        "assets": "📈 SpaceX相关加密代币 投机利好；📉 比特币 资金分流",
+        "chain": "加密市场用期货/衍生品押注溢价，反映风险偏好（投机情绪）高企",
+        "watch": "SpaceX首日收盘价与IPO价差"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行加息后，IMF称或需进一步加息",
-        "assets": "📈 欧元 利好，📉 欧洲主权债 承压",
-        "chain": "进一步加息预期推高融资成本（借钱更贵），利空高负债国家（如意大利）债券",
-        "watch": "欧洲央行下次会议点阵图（利率预测）是否上调"
+        "what": "欧央行加息后IMF称或需进一步加息",
+        "assets": "📈 欧元 短期利好；📉 欧洲主权债 承压",
+        "chain": "进一步加息预期强化，提高借贷成本，压制企业投资和消费",
+        "watch": "IMF对欧元区GDP（国内生产总值）预测调整"
       }
     },
     {
@@ -103,17 +103,17 @@
     },
     {
       "rank": 9,
-      "title": "通胀再度升温 特朗普新任美联储主席或很快被迫加息",
-      "source": "环球市场播报",
-      "detail": " 唐纳德・特朗普总统任命的新任美联储主席凯文・沃什，此前曾主张美联储存在降息空间——这一立场令他深得总统青睐，而特朗普长期将降息视为首要政策目标。",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 10,
       "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
       "source": "CNBC",
       "detail": "The yellow metal is at lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Josh Brown says a new AI trade is emerging and this 'Best Stock' is benefitting ",
+      "source": "CNBC",
+      "detail": "Josh and Sean break down how another trade is taking the place of the chip stocks and other early AI trades — the AI customers. ",
       "lang": "en",
       "score": 32
     }
