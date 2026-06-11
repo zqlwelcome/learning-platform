@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 02:31",
+  "updateTime": "2026-06-12 02:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "欧央行近三年来首次加息，拉加德警告通胀扩散",
-        "assets": "📈 欧元 利好，📉 欧洲国债 承压",
-        "chain": "加息（借钱成本提高）压制经济，但利好银行净息差（存贷利差扩大），可能引发资金回流欧元区",
-        "watch": "欧元区CPI（消费者物价指数）数据及后续加息节奏"
+        "what": "欧央行近三年来首次加息，拉加德警告通胀扩散风险",
+        "assets": "📈 欧元 利好；📉 欧洲债券 承压",
+        "chain": "加息（借钱成本提高）抑制通胀，但可能放缓经济，利空高估值成长股（未来现金流折现减少）",
+        "watch": "欧元区PMI（采购经理人指数）及核心CPI（剔除食品能源的消费者物价指数）"
       }
     },
     {
@@ -23,28 +23,42 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "欧洲央行加息提振银行股，欧股结束四连跌",
-        "assets": "📈 欧洲银行股 利好，📈 欧洲股市 反弹",
-        "chain": "加息改善银行盈利预期，但经济放缓风险压制整体股市，短期反弹后需警惕获利盘（已盈利的卖盘）",
-        "watch": "欧洲PMI（采购经理人指数）及银行股资金流"
+        "what": "欧洲股市结束四连跌，欧央行加息提振银行股",
+        "assets": "📈 欧洲银行股 利好；📈 欧洲股市 短线反弹",
+        "chain": "加息扩大净息差（银行存贷利差），银行盈利预期改善，但利率敏感行业（如地产）承压",
+        "watch": "欧洲银行股相对强度（RSI，相对强弱指标）及后续加息路径"
       }
     },
     {
       "rank": 3,
+      "title": "SpaceX IPO will test how Wall Street prices ‘strategic tech’",
+      "source": "CNBC",
+      "detail": "Elon Musk's SpaceX defies typical market buckets, and the IPO will give Wall Street another chance to value \"strategic tech\" like Palantir.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "SpaceX IPO将测试华尔街如何定价‘战略科技’",
+        "assets": "📈 太空/国防科技股 利好；📉 传统科技股 相对承压",
+        "chain": "SpaceX作为‘战略科技’标的，可能获得防御溢价（地缘政治避险），分流资金至硬科技",
+        "watch": "IPO估值区间及机构认购倍数（超额认购比例）"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不会打破牛市，但投资者担忧后续影响",
-        "assets": "📉 科技成长股 承压，📈 加密市场 联动",
-        "chain": "SpaceX高估值（2.2万亿美元）可能分流科技股资金，IPO（首次公开募股）后解禁（锁定期结束）抛压风险",
-        "watch": "SpaceX估值变化及科技股资金流向"
+        "what": "SpaceX IPO不会‘打破’牛市，但投资者担忧后续风险",
+        "assets": "📉 加密货币 承压；📈 避险资产（黄金/美债） 利好",
+        "chain": "市场情绪偏谨慎，IPO后资金抽血效应（流动性收紧）可能压制投机性资产（如MEME股、垃圾债）",
+        "watch": "VIX（波动率指数）及IPO首日回报率"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "贝莱德下单至少50亿美元认购SpaceX IPO股份",
       "source": "环球市场播报",
       "detail": "多家大型资管机构申报认购规模同样惊人，散户投资者认购热情高涨上月，SpaceX 星舰在得克萨斯州星基地发射升空 埃隆・马斯克旗下 SpaceX 筹备进行史上最大规模 IPO...",
@@ -52,41 +66,35 @@
       "score": 40,
       "insight": {
         "what": "贝莱德下单至少50亿美元认购SpaceX IPO股份",
-        "assets": "📈 SpaceX 估值利好，📈 私募股权 情绪提振",
-        "chain": "机构大额认购推高IPO（首次公开募股）估值，但散户溢价（高于发行价买入）可能引发泡沫（价格脱离基本面）",
-        "watch": "SpaceX最终定价及认购倍数（超额认购比例）"
+        "assets": "📈 SpaceX 估值利好；📈 美股大盘 中性偏多",
+        "chain": "大机构锚定（基石投资者）增强市场信心，可能推高IPO定价，但锁定筹码减少二级流动性",
+        "watch": "贝莱德最终获配比例及锁定期（禁售期）条款"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "加密市场押注SpaceX上市首日较IPO价格溢价20% 估值达2.2万亿美元",
       "source": "环球市场播报",
       "detail": " 加密市场交易员正在无视SpaceX的预期IPO价格，在这家埃隆·马斯克旗下火箭、卫星和人工智能公司上市交易前，给出更高估值。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "加密市场押注SpaceX上市首日溢价20%，估值2.2万亿",
-        "assets": "📈 加密市场 投机情绪，📈 SpaceX 估值泡沫",
-        "chain": "加密资金赌IPO（首次公开募股）溢价，若低于预期可能引发加密市场回调，形成跨资产风险联动（相关性上升）",
-        "watch": "SpaceX上市首日涨幅及加密衍生品（如期货合约）持仓"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "欧洲央行周四加息后 IMF称或需进一步加息",
-      "source": "环球市场播报",
-      "detail": "国际货币基金组织（IMF）表示，欧洲央行将需要再次提高借贷成本。就在数小时前，欧洲央行刚刚加息25个基点。 “政策利率将需要上升，以遏制冲击对通胀的影响...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "IMF称欧央行加息后或需进一步加息",
-        "assets": "📈 欧元 利好，📉 欧洲股市 承压",
-        "chain": "IMF（国际货币基金组织）鹰派（倾向加息）指引强化紧缩预期，压制风险资产（如股票），利好欧元汇率",
-        "watch": "欧央行下次会议利率点阵图（预测利率路径）"
+        "what": "加密市场押注SpaceX上市首日较IPO价格溢价20%，估值达2.2万亿美元",
+        "assets": "📈 加密货币（BTC/ETH） 短线利好；📈 SpaceX相关概念股 利好",
+        "chain": "加密市场作为风险偏好（risk-on）指标，押注高溢价反映投机情绪，可能外溢至其他科技新股",
+        "watch": "SpaceX IPO首日涨跌幅及加密货币期货未平仓量（未结算合约数量）"
       }
     },
     {
       "rank": 7,
+      "title": "欧洲央行周四加息后 IMF称或需进一步加息",
+      "source": "环球市场播报",
+      "detail": "国际货币基金组织（IMF）表示，欧洲央行将需要再次提高借贷成本。就在数小时前，欧洲央行刚刚加息25个基点。 “政策利率将需要上升，以遏制冲击对通胀的影响...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "欧洲央行官员认为下一次加息最早可能在7月进行",
       "source": "环球市场播报",
       "detail": "知情人士透露，欧洲央行官员不排除最早在下一次货币政策会议上再次加息的可能性。 尽管市场和经济学家普遍预计，欧洲央行决策者将在9月召开会议并更新季度预测时再次加息...",
@@ -94,7 +102,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "欧洲央行决策者认为7月按兵不动的可能性比加息更大",
       "source": "环球市场播报",
       "detail": " 路透援引两位消息人士的话报道，欧洲央行决策者认为，如果能源价格维持在当前水平，7月政策会议上维持利率不变的可能性更大。",
@@ -102,20 +110,12 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Ahead of SpaceX IPO, Elon Musk addresses ASML employees as part of push into chip manufacturing",
       "source": "CNBC",
       "detail": "Elon Musk called ASML a great company in a fireside chat with CEO Christophe Fouquet, as the SpaceX CEO gears up to go big in chip manufacturing.",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
-      "source": "CNBC",
-      "detail": "The yellow metal is at lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
-      "lang": "en",
-      "score": 32
     }
   ]
 }
