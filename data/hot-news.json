@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-11 20:00",
+  "updateTime": "2026-06-11 20:05",
   "news": [
     {
       "rank": 1,
-      "title": "杨德龙：美股5月通胀数据创三年新高 导致美联储降息预期推迟 美股三大股指重挫",
-      "source": "新浪基金",
-      "detail": "近期市场风格发生了一定切换，前期涨幅较大的科技股出现较大幅度回调，而前期表现低迷的传统板块则受资金流入推动出现反弹。市场整体仍处于震荡调整阶段。",
-      "lang": "zh",
-      "score": 51,
-      "insight": {
-        "what": "美国5月通胀创三年新高，美联储降息预期推迟",
-        "assets": "📉 美股三大股指 承压；📈 美元指数 利好",
-        "chain": "降息预期推迟→融资成本（借钱利息）上升→压制高估值科技股（成长股估值模型分母变大）",
-        "watch": "下周美联储议息会议点阵图（利率预测）"
-      }
-    },
-    {
-      "rank": 2,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "市场观察人士认为SpaceX IPO是对马斯克的公投",
-        "assets": "📈 SpaceX相关概念股 利好；📉 特斯拉 承压",
-        "chain": "马斯克声誉分化→特斯拉品牌溢价（消费者好感度）可能受损→SpaceX估值依赖个人IP（创始人光环）",
-        "watch": "SpaceX IPO估值区间及马斯克社交媒体言论"
+        "what": "市场观察者称SpaceX IPO是对马斯克的公投",
+        "assets": "📈 SpaceX相关概念股 利好，📉 特斯拉 承压",
+        "chain": "若IPO成功，马斯克信用溢价上升，提振特斯拉（电动车）估值；失败则利空其所有关联资产。",
+        "watch": "SpaceX估值及IPO认购倍数"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "甲骨文财报超预期，但宣布再融资200亿美元导致股价下跌",
-        "assets": "📉 甲骨文 承压；📈 云计算板块 中性偏空",
-        "chain": "大规模融资→稀释每股收益（EPS被摊薄）→市场担忧资本开支回报率（每元投资赚多少）",
-        "watch": "甲骨文下一季度云业务营收增速"
+        "what": "甲骨文财报超预期，但因计划再融资200亿美元股价下跌",
+        "assets": "📉 甲骨文 承压，📈 云服务竞品 利好",
+        "chain": "增发（卖新股）稀释每股收益（EPS），引发抛售；资金可能转向微软/亚马逊云（AWS）等对手。",
+        "watch": "甲骨文资本开支指引及云业务增速"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Bank of America buys into agentic AI trade, double upgrades this stock",
       "source": "CNBC",
       "detail": "The bank thinks a growing market for CPUs will be a boon to the chipmaker that has surged more than 60% since its first quarter earnings report release.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "美国银行加倍看好某AI代理交易股票，上调评级",
-        "assets": "📈 AI代理概念股 利好；📈 美股科技板块 利好",
-        "chain": "机构资金（大钱）流入→推高AI股估值→带动整个AI产业链（芯片/软件/云）情绪",
-        "watch": "该股票后续成交量及机构持仓变化"
+        "what": "美银双重上调某股票评级，押注自主AI交易",
+        "assets": "📈 该AI股票 利好，📈 AI软件板块 利好",
+        "chain": "机构背书强化AI交易主题，资金从传统科技轮动至AI应用层（如自动化软件）。",
+        "watch": "该股财报及AI产品收入占比"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "马斯克：高调打破IPO静默期惯例",
       "source": "环球市场播报",
       "detail": "作者：戴金・坎贝尔撰文：戴金・坎贝尔 上月月末，埃隆・马斯克在 X 平台发文，披露了太空探索技术公司（SpaceX）与人工智能企业安索帕（Anthropic）的合作细节...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "马斯克高调打破IPO静默期惯例引发争议",
-        "assets": "📉 特斯拉 承压；📉 马斯克旗下其他公司 承压",
-        "chain": "违反SEC规则（美国证监会规定）→可能面临罚款或诉讼→打击投资者对马斯克企业治理（管理规则）的信心",
-        "watch": "SEC是否启动调查及特斯拉股价反应"
+        "what": "马斯克高调打破IPO静默期惯例",
+        "assets": "📉 特斯拉 承压，📈 做空机构 利好",
+        "chain": "违规言论可能引发SEC（美国证监会）调查，增加特斯拉监管风险，做空情绪升温。",
+        "watch": "SEC是否发起问询或调查"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
       "source": "CNBC",
       "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "分析称特朗普喜欢通胀，对凯文·沃什是利好",
-        "assets": "📈 美元 利好；📈 美债收益率 上行",
-        "chain": "通胀偏好→美联储独立性（央行不受政治干预）受质疑→市场押注更宽松政策（印钱变多）→长期通胀预期上升",
-        "watch": "特朗普民调数据及沃什货币政策表态"
+        "what": "分析称特朗普热爱通胀，对凯文·沃什是利好",
+        "assets": "📈 美元 利好，📉 美债 承压",
+        "chain": "通胀预期推高利率，利好美元（加息预期），利空长端国债（价格下跌）。",
+        "watch": "特朗普经济政策声明及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "关键材料引爆，热门龙头再创新高，年内暴涨超765%！科创芯片ETF华宝（589190）冲高2%，逆市3连涨",
       "source": "新浪基金",
       "detail": " 6月11日，芯片半导体整体延续强势，全“芯”布局芯片产业、成份股更硬核的科创芯片ETF华宝（589190）场内价格一度涨超2%，收涨1.34%，逆市3连涨。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "关键材料引爆热门龙头创新高，年内涨超765%",
+        "assets": "📈 科创芯片ETF 利好，📈 半导体材料 利好",
+        "chain": "龙头突破带动板块跟涨，资金涌入芯片ETF（交易型开放式指数基金），强化国产替代（自主可控）主题。",
+        "watch": "该龙头公司订单及产能利用率"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "超跌反弹？华宝基金医疗ETF逆市收涨！港股通医疗ETF华宝（159137）重磅调仓揭晓，涉及3600亿巨头！",
       "source": "新浪基金",
       "detail": " 6月11日，A股港股市场延续调整态势，沪指收跌0.16%报3987.01点，恒指七连跌。AH医疗主题板块分化，A股医疗逆市回暖，港股通随市收跌。",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "A股缩量回调！有色金属断层领涨，华宝基金有色ETF（159876）盘中涨超3%！AI应用全线走低",
       "source": "新浪基金",
       "detail": " A股三大指数今日（6月11日）集体回调，截至收盘，沪指跌0.16%，深证成指跌0.68%，创业板指跌1.13%。沪深京三市成交额25751亿元，较昨日缩量692亿元。",
@@ -110,12 +102,20 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Dow futures rebound by 300 points as chip stocks bounce, oil prices ease: Live updates",
       "source": "CNBC",
       "detail": "A rout in chip stocks and ramp-up in Middle East tensions pulled down the major averages on Wednesday.",
       "lang": "en",
       "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "Stocks making the biggest moves premarket: Oracle, Intel, Applied Materials, Alcoa and more",
+      "source": "CNBC",
+      "detail": "These are the stocks posting the largest moves in the premarket.",
+      "lang": "en",
+      "score": 27
     }
   ]
 }
