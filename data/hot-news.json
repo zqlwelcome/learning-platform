@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 07:40",
+  "updateTime": "2026-06-12 07:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "SpaceX创纪录750亿美元IPO定价，即将登陆纳斯达克",
-        "assets": "📈 美股科技股 利好; 📈 太空概念股 利好; 📉 传统航空航天股 承压",
-        "chain": "巨额抽血（资金从其他板块流入IPO），推高科技股估值，但加剧短期流动性紧张",
-        "watch": "IPO首日涨幅及成交量，SEC对定价过高的监管反应"
+        "what": "SpaceX创纪录750亿IPO，纳斯达克上市在即",
+        "assets": "📈 美股航天板块 利好\n📈 科技成长股 情绪提振",
+        "chain": "巨额IPO抽走流动性（市场资金），短期压制小盘股，但强化美股科技叙事",
+        "watch": "IPO首日涨幅及机构认购倍数"
       }
     },
     {
@@ -23,84 +23,86 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "华尔街股指期货微涨，市场聚焦SpaceX历史性IPO",
-        "assets": "📈 美股大盘指数 中性偏多; 📈 纳斯达克100 微幅利好",
-        "chain": "IPO情绪提振风险偏好（Risk-on），但机构可能减持其他科技股腾挪资金",
-        "watch": "标普500期货持仓变化，VIX（恐慌指数）是否走低"
+        "what": "美股期货走高，市场聚焦SpaceX历史性IPO",
+        "assets": "📈 美股大盘期货 小幅利好\n📈 风险资产（如比特币） 情绪联动",
+        "chain": "IPO热度推高风险偏好（愿意冒险），资金从债市流入股市，利空避险资产",
+        "watch": "标普500期货开盘后是否突破阻力位"
       }
     },
     {
       "rank": 3,
+      "title": "华创证券：美国CPI同比大概率见顶 美联储今年或维持利率不变",
+      "source": "滚动播报",
+      "detail": "华创证券发布研报称，5月份美国CPI继续上行突破4%，预计5月份大概率是本轮美国CPI同比的高点。对美联储而言，鉴于就业市场尚无过热迹象、经济K型分化并未收敛...",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "华创证券预测美国CPI见顶，美联储全年按兵不动",
+        "assets": "📉 美元指数 承压\n📈 美债（长期国债） 利好\n📈 黄金 利好",
+        "chain": "通胀见顶→降息预期升温（借钱成本降低预期）→实际利率下行，利好贵金属",
+        "watch": "下周CPI实际数据与预期差值"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Warren questions SpaceX IPO oversight in new letter to stock indexes",
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren seeking answers on changes to index provider waiting periods, protections for retail investors, in a letter obtained first by CNBC.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "沃伦质疑SpaceX IPO监管，致信股指成分股委员会",
-        "assets": "📉 太空概念股 短期承压; 📉 监管敏感股 利空",
-        "chain": "政治审查风险上升，可能延迟上市或增加合规成本，影响散户参与度",
-        "watch": "SEC是否介入调查，信件后续公开内容"
+        "what": "沃伦致信质疑SpaceX IPO监管，要求指数公司回应",
+        "assets": "📉 SpaceX估值 短期承压\n📉 其他高估值科技股 情绪波及",
+        "chain": "监管审查加码→IPO定价或打折→拖累同类未上市科技公司估值",
+        "watch": "SEC是否启动正式调查"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX将散户IPO配售比例压缩至20%出头",
-        "assets": "📉 散户交易平台 利空; 📈 机构投资者 中性偏多",
-        "chain": "散户中签率低抑制打新热情，短期抛压减轻，但长期筹码集中加剧波动",
-        "watch": "散户认购倍数及暗盘交易溢价"
+        "what": "SpaceX削减散户IPO配售比例至20%低位",
+        "assets": "📉 散户概念股（如GameStop） 情绪利空\n📈 机构重仓股 相对利好",
+        "chain": "机构拿货多→首日抛压小（筹码集中），但散户不满可能引发短期做空（押注跌）",
+        "watch": "上市后散户净买入/卖出量"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "分析师称SpaceX IPO不会终结牛市，但投资者担忧后续影响",
-        "assets": "📈 美股大盘 中性; 📉 高估值成长股 承压",
-        "chain": "IPO后资金分流效应（其他板块资金流出），若估值泡沫破裂可能引发连锁抛售",
-        "watch": "IPO后一周内科技股ETF（交易所交易基金）资金流向"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX确定发行价 募资750亿美元创史上最大IPO",
-      "source": "环球市场播报",
-      "detail": " SpaceX创下史上最大规模IPO，一举跻身全球市值最高上市公司行列，并使创始人埃隆·马斯克距离成为全球首位万亿美元富豪更近一步。",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SpaceX确定发行价，募资750亿美元创史上最大IPO",
-        "assets": "📈 美股科技板块 利好; 📈 新兴行业ETF 利好",
-        "chain": "创纪录规模吸引全球资金，推高同类公司估值，但可能挤压后续IPO空间",
-        "watch": "上市首日收盘价是否破发，机构认购超额倍数"
+        "what": "SpaceX IPO不会终结牛市，但投资者担忧后续风险",
+        "assets": "📉 科技ETF（如QQQ） 情绪偏空\n📈 防御板块（公用事业） 资金轮动",
+        "chain": "标志性事件后市场进入观望→波动率（VIX恐慌指数）可能上升，资金从高贝塔（高波动）转向防御",
+        "watch": "VIX指数是否突破20"
       }
     },
     {
       "rank": 7,
+      "title": "SpaceX确定发行价 募资750亿美元创史上最大IPO",
+      "source": "环球市场播报",
+      "detail": " SpaceX创下史上最大规模IPO，一举跻身全球市值最高上市公司行列，并使创始人埃隆·马斯克距离成为全球首位万亿美元富豪更近一步。",
+      "lang": "zh",
+      "score": 40
+    },
+    {
+      "rank": 8,
       "title": "SpaceX IPO定价为每股135美元 创史上最大规模IPO",
       "source": "环球市场播报",
       "detail": "SpaceX在其网站发布的新闻稿中确认，其首次公开募股（IPO）发行5.556亿股股票，定价为每股135美元。 股票预计将于6月12日在纳斯达克开始交易，股票代码为“SPCX”。",
       "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SpaceX IPO定价每股135美元，史上最大规模",
-        "assets": "📈 SpaceX股票 利好；📈 科技ETF 利好（权重股带动）",
-        "chain": "高定价提升科技板块估值天花板（市盈率参考），但若破发将引发科技股回调",
-        "watch": "首日收盘价是否站稳135美元"
-      }
+      "score": 40
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
@@ -108,18 +110,10 @@
       "score": 38
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "打响主要经济体第一枪！欧洲央行宣布重启加息",
       "source": "中国证券报",
       "detail": "北京时间6月11日晚，欧洲央行公布最新利率决议，如期加息25个基点，成为年内首家重启加息的全球主要经济体央行：欧洲央行宣布，将存款机制利率...",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 10,
-      "title": "野村：欧洲央行本周期将再加息三次 欧元将受到支撑",
-      "source": "环球市场播报",
-      "detail": " 野村经济学家表示，欧洲央行在本周期内还将加息三次。他们认为欧洲央行的鹰派立场将在未来几个月提振欧元兑英镑的汇率。",
       "lang": "zh",
       "score": 36
     }
