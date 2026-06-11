@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 11:10",
+  "updateTime": "2026-06-11 11:15",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,64 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3966.21",
-      "change": "-0.68"
+      "value": "3966.93",
+      "change": "-0.66"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24053.410",
-      "change": "-1.45"
+      "value": "24092.420",
+      "change": "-1.29"
     }
   },
   "etf_flows": [],
-  "sector_flows": [],
+  "sector_flows": [
+    {
+      "name": "小金属",
+      "code": "BK1027",
+      "index": 4138.88,
+      "change": 3.69,
+      "flow": 4489314048.0,
+      "flow_str": "+44.89亿",
+      "direction": "in"
+    },
+    {
+      "name": "有色金属",
+      "code": "BK0478",
+      "index": 28541.19,
+      "change": 0.64,
+      "flow": 4136569856.0,
+      "flow_str": "+41.37亿",
+      "direction": "in"
+    },
+    {
+      "name": "钨",
+      "code": "BK1625",
+      "index": 10341.45,
+      "change": 8.04,
+      "flow": 2055346912.0,
+      "flow_str": "+20.55亿",
+      "direction": "in"
+    },
+    {
+      "name": "电子化学品Ⅲ",
+      "code": "BK1332",
+      "index": 3839.25,
+      "change": 3.68,
+      "flow": 1875350016.0,
+      "flow_str": "+18.75亿",
+      "direction": "in"
+    },
+    {
+      "name": "电子化学品Ⅱ",
+      "code": "BK1039",
+      "index": 3839.25,
+      "change": 3.68,
+      "flow": 1875350016.0,
+      "flow_str": "+18.75亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
