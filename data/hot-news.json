@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-12 07:20",
+  "updateTime": "2026-06-12 07:26",
   "news": [
     {
       "rank": 1,
+      "title": "Stock futures tick higher as Wall Street gears up for SpaceX’s historic IPO: Live updates",
+      "source": "CNBC",
+      "detail": "Elon Musk's rocket maker is set to debut on the Nasdaq on Friday in what will be the largest IPO in history.",
+      "lang": "en",
+      "score": 59,
+      "insight": {
+        "what": "SpaceX IPO启动，期货微涨",
+        "assets": "📈 美股太空概念股 利好；📉 传统航天股 承压",
+        "chain": "资金涌入SpaceX，挤压其他IPO流动性；科技股风险偏好（市场愿意冒险的程度）提升",
+        "watch": "SpaceX首日涨幅及换手率"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Warren questions SpaceX IPO oversight in new letter to stock indexes",
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren seeking answers on changes to index provider waiting periods, protections for retail investors, in a letter obtained first by CNBC.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Warren质疑SpaceX IPO监管，致信指数公司",
-        "assets": "📉 SpaceX估值 承压，📉 科技IPO板块 情绪偏空",
-        "chain": "监管风险升温（SEC（美国证监会）可能审查），打压科技股IPO溢价，拖累成长股PE（市盈率）",
-        "watch": "SEC是否启动调查，指数公司回应"
+        "what": "参议员沃伦质疑SpaceX IPO监管",
+        "assets": "📉 SpaceX IPO 不确定性增加；📈 监管审查板块 关注",
+        "chain": "政治压力可能延迟IPO或增加披露成本，影响散户参与度（散户买到的比例）",
+        "watch": "SEC回应及是否调整发行规则"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX削减散户IPO配售至低20%区间",
-        "assets": "📈 机构投资者 利好，📉 散户交易情绪 承压",
-        "chain": "散户获配少→上市首日抛压小→推高开盘价，但可能引发散户对IPO公平性不满",
-        "watch": "上市首日换手率与波动率"
+        "what": "SpaceX削减散户IPO配售至20%出头",
+        "assets": "📉 散户投资者 不利；📈 机构投资者 相对利好",
+        "chain": "散户份额低→首日波动可能加大（抛压小），但长期持有者减少可能影响锁定期后走势",
+        "watch": "最终散户配售比例及上市后机构持仓变化"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不会打破牛市，但投资者担忧后续",
-        "assets": "📈 标普500 中性，📉 科技成长股 承压",
-        "chain": "巨额IPO吸走流动性（市场资金），加剧科技板块短期回调，但系统性风险有限",
-        "watch": "后续科技IPO认购倍数和资金流向"
+        "what": "SpaceX IPO不会打破牛市，但引发担忧",
+        "assets": "📉 市场情绪 偏谨慎；📈 避险资产（国债） 需求微增",
+        "chain": "巨型IPO抽血效应（吸走其他股票资金）短期压制指数，但非系统性风险",
+        "watch": "标普500资金流向及波动率指数（恐慌指数VIX）"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SpaceX确定发行价 募资750亿美元创史上最大IPO",
       "source": "环球市场播报",
       "detail": " SpaceX创下史上最大规模IPO，一举跻身全球市值最高上市公司行列，并使创始人埃隆·马斯克距离成为全球首位万亿美元富豪更近一步。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX确定发行价，募资750亿美元创历史最大IPO",
-        "assets": "📈 SpaceX 利好（定价落地），📉 现有空头仓位 承压",
-        "chain": "天量融资抽血二级市场（已上市股票），推高资金利率（借钱成本），短期利空大盘",
-        "watch": "上市首日收盘价与成交量"
+        "what": "SpaceX确定发行价，募资750亿美元创纪录",
+        "assets": "📈 美股大盘 短期资金面承压；📈 太空ETF 利好",
+        "chain": "创纪录IPO规模→市场流动性（可用资金）暂时收紧，但长期吸引资金进入科技板块",
+        "watch": "IPO超额认购倍数及首日资金净流入"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SpaceX IPO定价为每股135美元 创史上最大规模IPO",
       "source": "环球市场播报",
       "detail": "SpaceX在其网站发布的新闻稿中确认，其首次公开募股（IPO）发行5.556亿股股票，定价为每股135美元。 股票预计将于6月12日在纳斯达克开始交易，股票代码为“SPCX”。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX IPO定价每股135美元，创史上最大规模",
-        "assets": "📈 SpaceX 利好，📉 同板块股票（如AST SpaceMobile） 承压",
-        "chain": "定价低于预期→估值锚定效应（作为参考标准）压低太空股估值，资金轮动（资金转移）至SpaceX",
-        "watch": "太空ETF（交易所交易基金）资金流向"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX IPO最后冲刺 据称散户认购额超过1000亿美元",
-      "source": "环球市场播报",
-      "detail": "据知情人士透露，随着SpaceX有望创出历史纪录的IPO进入最后冲刺阶段，散户认购已经超过1000亿美元。 知情人士表示，预计散户将获得至少20%的IPO股份。",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SpaceX IPO冲刺，散户认购额超1000亿美元",
-        "assets": "📈 SpaceX 利好（需求旺盛），📉 短期利率 承压（资金冻结）",
-        "chain": "超额认购40倍→上市首日可能暴涨，但锁定期后抛压巨大，引发波动率飙升",
-        "watch": "散户中签率及上市首日波动率指数（VIX，恐慌指数）"
+        "what": "SpaceX每股135美元，史上最大IPO",
+        "assets": "📈 卫星互联网概念股 利好；📉 同业SpaceX竞争对手 利空",
+        "chain": "高估值（市盈率可能超百倍）→带动同类公司估值重估；但若破发将打击IPO市场信心",
+        "watch": "首日收盘价及第二天走势"
       }
     },
     {
       "rank": 7,
+      "title": "SpaceX IPO最后冲刺 据称散户认购额超过1000亿美元",
+      "source": "环球市场播报",
+      "detail": "据知情人士透露，随着SpaceX有望创出历史纪录的IPO进入最后冲刺阶段，散户认购已经超过1000亿美元。 知情人士表示，预计散户将获得至少20%的IPO股份。",
+      "lang": "zh",
+      "score": 40
+    },
+    {
+      "rank": 8,
       "title": "贝莱德据悉计划在SpaceX IPO中认购约50亿美元",
       "source": "环球市场播报",
       "detail": "据知情人士透露，贝莱德寻求参与SpaceX首次公开募股（IPO），目标认购规模约为50亿美元。 此前报道称，SpaceX此次IPO已获得数倍于发行规模的认购。",
@@ -94,7 +102,7 @@
       "score": 40
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
@@ -102,20 +110,12 @@
       "score": 38
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "野村：欧洲央行本周期将再加息三次 欧元将受到支撑",
       "source": "环球市场播报",
       "detail": " 野村经济学家表示，欧洲央行在本周期内还将加息三次。他们认为欧洲央行的鹰派立场将在未来几个月提振欧元兑英镑的汇率。",
       "lang": "zh",
       "score": 36
-    },
-    {
-      "rank": 10,
-      "title": "Ahead of SpaceX IPO, Elon Musk addresses ASML employees as part of push into chip manufacturing",
-      "source": "CNBC",
-      "detail": "Elon Musk called ASML a great company in a fireside chat with CEO Christophe Fouquet, as the SpaceX CEO gears up to go big in chip manufacturing.",
-      "lang": "en",
-      "score": 35
     }
   ]
 }
