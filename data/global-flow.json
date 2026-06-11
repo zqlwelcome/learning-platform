@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 11:21",
+  "updateTime": "2026-06-11 11:26",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,110 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "3963.34",
-      "change": "-0.75"
+      "value": "3965.77",
+      "change": "-0.69"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24105.900",
-      "change": "-1.24"
+      "value": "24085.290",
+      "change": "-1.32"
     }
   },
-  "etf_flows": [
-    {
-      "name": "A500ETF华夏",
-      "code": "512050",
-      "price": 1.234,
-      "change": -1.2,
-      "flow": 112010349.0,
-      "flow_str": "+1.12亿",
-      "direction": "in"
-    },
-    {
-      "name": "有色金属ETF南方",
-      "code": "512400",
-      "price": 1.867,
-      "change": 1.3,
-      "flow": 97446095.0,
-      "flow_str": "+9744.61万",
-      "direction": "in"
-    },
-    {
-      "name": "科创半导体ETF华夏",
-      "code": "588170",
-      "price": 2.671,
-      "change": 3.09,
-      "flow": 72806752.0,
-      "flow_str": "+7280.68万",
-      "direction": "in"
-    },
-    {
-      "name": "半导体设备ETF国泰",
-      "code": "159516",
-      "price": 1.33,
-      "change": 3.02,
-      "flow": 62411168.0,
-      "flow_str": "+6241.12万",
-      "direction": "in"
-    },
-    {
-      "name": "科创芯片ETF嘉实",
-      "code": "588200",
-      "price": 3.469,
-      "change": -0.2,
-      "flow": 54472064.0,
-      "flow_str": "+5447.21万",
-      "direction": "in"
-    }
-  ],
-  "sector_flows": [
-    {
-      "name": "小金属",
-      "code": "BK1027",
-      "index": 4148.43,
-      "change": 3.93,
-      "flow": 4595978752.0,
-      "flow_str": "+45.96亿",
-      "direction": "in"
-    },
-    {
-      "name": "有色金属",
-      "code": "BK0478",
-      "index": 28557.57,
-      "change": 0.7,
-      "flow": 4264340736.0,
-      "flow_str": "+42.64亿",
-      "direction": "in"
-    },
-    {
-      "name": "钨",
-      "code": "BK1625",
-      "index": 10343.79,
-      "change": 8.07,
-      "flow": 2040133232.0,
-      "flow_str": "+20.40亿",
-      "direction": "in"
-    },
-    {
-      "name": "电子化学品Ⅲ",
-      "code": "BK1332",
-      "index": 3833.48,
-      "change": 3.52,
-      "flow": 1886503168.0,
-      "flow_str": "+18.87亿",
-      "direction": "in"
-    },
-    {
-      "name": "电子化学品Ⅱ",
-      "code": "BK1039",
-      "index": 3833.48,
-      "change": 3.52,
-      "flow": 1886503168.0,
-      "flow_str": "+18.87亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
