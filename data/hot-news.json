@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-11 10:31",
+  "updateTime": "2026-06-11 10:35",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美国5月CPI降温，通胀缓解，有色ETF涨超2.5%",
-        "assets": "📈 有色金属 利好；📉 美元指数 承压",
-        "chain": "通胀降温→降息预期升温（借钱成本降低）→美元走弱→大宗商品（如铜）价格获支撑",
+        "what": "美国5月CPI大幅降温，通胀压力缓释",
+        "assets": "📈 黄金 利好；📈 有色ETF 利好",
+        "chain": "降息预期升温（借钱成本降低），美元走弱，利好大宗商品（如镍、铜）",
         "watch": "今晚美联储利率决议及点阵图"
       }
     },
@@ -23,70 +23,86 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发事件",
-        "assets": "📉 AI服务器板块 利空；📈 原油 短期利好",
-        "chain": "海峡风险→全球供应链中断担忧（运输成本上升）→原油避险买盘；AI股暴跌或引发科技板块抛售",
-        "watch": "霍尔木兹海峡局势及AI公司财报"
+        "what": "AI服务器巨头暴跌，霍尔木兹海峡突发",
+        "assets": "📉 AI概念股 承压；📈 原油 利好",
+        "chain": "地缘风险（霍尔木兹海峡）推高油价，AI股资金流出避险（Risk-off）",
+        "watch": "霍尔木兹海峡航运中断情况"
       }
     },
     {
       "rank": 3,
+      "title": "长江有色：美国5月CPI数据 “靓丽”降息预期降温 11日镍价或小跌",
+      "source": "市场资讯",
+      "detail": "长江有色金属网 镍期货市场：美国5月CPI 数据反弹降息预期降温美指反弹施压，隔夜伦镍收跌1.47%；伦镍最新收盘报17730美元/吨，下跌265美元，跌幅为1.47%，成交量12574手...",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "美国CPI数据靓丽，降息预期降温，镍价或小跌",
+        "assets": "📉 镍 承压；📈 美元 利好",
+        "chain": "降息降温（加息预期再起），美元走强，压制以美元计价的大宗商品（如镍）",
+        "watch": "LME镍库存及美元指数"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "溜溜果园港股IPO：青梅龙头收入增速放缓 利润增长靠销售费用压缩 上市前分红6730万 实控人家族拿走八成",
+      "source": "新浪证券",
+      "detail": "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 2026年6月，中国青梅细分赛道的龙头——溜溜果园集团正式启动港股全球发售。",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "溜溜果园港股IPO，收入增速放缓，上市前分红",
+        "assets": "📉 消费股 承压；📈 港股新股 利空",
+        "chain": "基本面弱（收入放缓）且大股东套现（分红），IPO估值承压，拖累同类消费股情绪",
+        "watch": "港股IPO认购倍数及首日表现"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Oracle beats on earnings, but stock drops on plans to raise another $20 billion",
       "source": "CNBC",
       "detail": "Oracle topped quarterly expectations, but free cash flow is negative, and the company plans to raise more capital for data center projects.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Oracle财报超预期，但计划再融资200亿美元致股价跌",
-        "assets": "📉 Oracle股票 利空；📈 美元债收益率 承压",
-        "chain": "再融资（发行新债）→稀释现有股东权益（每股收益下降）→股价回调；债市供给增加推高利率",
-        "watch": "Oracle新债发行条款及市场认购情况"
+        "what": "Oracle财报超预期，但宣布再融资200亿美元",
+        "assets": "📉 Oracle 承压；📈 科技债 利好",
+        "chain": "融资稀释股权（增发股份），股价下跌；债市供给增加，推高科技债收益率（借钱成本）",
+        "watch": "Oracle股价盘后及融资用途"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "An unusual derivative play off SpaceX’s IPO success: A maker of space gases",
       "source": "CNBC",
       "detail": "Rothschild & Co. Redburn sees industrial gas supplier Linde emerging as a potential beneficiary alongside SpaceX.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO前，做空气体供应商的奇异期权交易",
-        "assets": "📈 SpaceX估值 利好；📉 气体供应商股票 承压",
-        "chain": "期权押注（用杠杆赌方向）→市场预期SpaceX上市会挤压气体商利润（客户依赖风险）→股价波动",
-        "watch": "SpaceX IPO时间表及气体商财报"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "华泰期货：贵金属价格集体承压，关注欧央行政策利率",
-      "source": "市场资讯",
-      "detail": "来源：华泰期货 作者： 汪雅航 市场分析 伊朗局势仍存不确定性。2月28日美国以色列对伊朗进行了空袭，随后伊朗伊斯兰革命卫队展开大规模反击。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "华泰期货称贵金属承压，关注欧央行利率",
-        "assets": "📉 黄金 承压；📉 白银 承压",
-        "chain": "欧央行加息预期（借钱成本提高）→美元相对走强→贵金属（无息资产）吸引力下降",
-        "watch": "欧央行利率决议及美元指数"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
-      "source": "CNBC",
-      "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "特朗普支持通胀，利好潜在美联储主席Warsh",
-        "assets": "📉 美债 承压；📈 通胀预期 上升",
-        "chain": "特朗普言论→市场预期宽松政策（通胀容忍度提高）→长端利率（10年期国债收益率）上行",
-        "watch": "特朗普政策表态及Warsh获提名概率"
+        "what": "SpaceX IPO成功，衍生品押注太空气体公司",
+        "assets": "📈 太空概念股 利好；📈 特种气体 利好",
+        "chain": "SpaceX IPO提振太空经济情绪（Risk-on），供应链上游（气体）受益于需求预期",
+        "watch": "SpaceX上市时间表及气体合同"
       }
     },
     {
       "rank": 7,
+      "title": "华泰期货：贵金属价格集体承压，关注欧央行政策利率",
+      "source": "市场资讯",
+      "detail": "来源：华泰期货 作者： 汪雅航 市场分析 伊朗局势仍存不确定性。2月28日美国以色列对伊朗进行了空袭，随后伊朗伊斯兰革命卫队展开大规模反击。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
+      "title": "Analysis: Trump said he loves inflation. Why that should be music to Kevin Warsh's ears",
+      "source": "CNBC",
+      "detail": "The president said Wednesday he is happy with inflation at 4.2%. That will be welcome news for new Fed Chair Kevin Warsh.",
+      "lang": "en",
+      "score": 30
+    },
+    {
+      "rank": 9,
       "title": "These stocks pay attractive dividends and offer 'turmoil insurance'",
       "source": "CNBC",
       "detail": "Investors looking for stability in times of volatility often turn to dividend stocks — including real estate investment trusts. Here is one analyst's top picks.",
@@ -94,28 +110,12 @@
       "score": 29
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Oil jumps as U.S. fresh strikes on Iran raise worries of extended disruption to energy flows",
       "source": "CNBC",
       "detail": "Oil prices jumped on Thursday after the United States launched a fresh round of military strikes against targets in Iran.",
       "lang": "en",
       "score": 27
-    },
-    {
-      "rank": 9,
-      "title": "黑色星期三！道指重挫近千点，半导体板块跌近4%，特朗普威胁空袭原油飙升",
-      "source": "一财网",
-      "detail": "【相关阅读】 中东，突传“黑天鹅”！深夜，美股集体杀跌，科技股普跌！国际油价大涨！A股如何走？ 标普500指数科技板块进入技术性回调区间。",
-      "lang": "zh",
-      "score": 22
-    },
-    {
-      "rank": 10,
-      "title": "Inside India newsletter: Hollywood is debating AI. India's filmmakers are embracing it",
-      "source": "CNBC",
-      "detail": "Even as Hollywood remains the world's most influential storyteller, experiments in AI filmmaking are increasingly happening in India.",
-      "lang": "en",
-      "score": 20
     }
   ]
 }
