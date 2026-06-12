@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 06:20",
+  "updateTime": "2026-06-13 06:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX创纪录IPO首日上涨19%",
+        "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
         "assets": "📈 SpaceX股票 利好; 📈 太空概念股 利好",
-        "chain": "引发太空板块重估（估值提升），带动一级市场（未上市企业）对太空赛道关注度",
-        "watch": "SpaceX后续财报及产能扩张计划"
+        "chain": "IPO溢价（发行价与首日价差）吸引资金涌入，或拉升同赛道估值（如AST SpaceMobile）",
+        "watch": "SpaceX后续财报及订单增速"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "环球市场播报",
       "detail": "美股周五常规交易时段已经结束，截至收盘，SpaceX股价上涨25.95美元，涨幅为19.22%，收于160.95美元，公司市值达到21045.6亿美元。",
       "lang": "zh",
-      "score": 55
+      "score": 55,
+      "insight": {
+        "what": "美债交易员下调2026年加息押注，因和平协议预期",
+        "assets": "📈 美债 利好; 📉 美元 承压; 📈 风险资产 利好",
+        "chain": "加息预期降温（未来借钱成本降低）推高美债价格，风险偏好回升（资金从避险流向股市）",
+        "watch": "和平协议谈判进展及通胀数据"
+      }
     },
     {
       "rank": 3,
@@ -32,9 +38,9 @@
       "score": 50,
       "insight": {
         "what": "律所对Sleep Number发起证券欺诈调查",
-        "assets": "📉 Sleep Number股票 利空; 📉 消费类零售股 警惕",
-        "chain": "增加做空压力（卖空行为），可能引发其他家居零售商被调查风险",
-        "watch": "Sleep Number是否被集体诉讼及和解金额"
+        "assets": "📉 Sleep Number股票 承压; 📉 家居消费股 情绪利空",
+        "chain": "诉讼风险（法律赔偿）压低股价，引发做空资金关注，或拖累零售板块估值",
+        "watch": "Sleep Number是否面临集体诉讼及赔偿金额"
       }
     },
     {
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官维持Pirro在Fed调查中的损失记录",
+        "assets": "📉 相关金融股 承压",
+        "chain": "执法记录（监管处罚）增加合规成本，或引发其他机构自查，推高行业风险溢价",
+        "watch": "Fed是否扩大调查范围"
+      }
     },
     {
       "rank": 5,
@@ -51,13 +63,7 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📈 美债 利好（价格上涨）; 📉 美元 承压",
-        "chain": "降息预期（借钱成本降低）升温，利好风险资产（如股票），但可能推高通胀预期",
-        "watch": "美联储会议纪要及通胀数据（CPI，消费者物价指数）"
-      }
+      "score": 36
     },
     {
       "rank": 6,
@@ -65,7 +71,13 @@
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后投资者关注下一步动向",
+        "assets": "📈 SpaceX股票 利好; 📈 太空ETF 利好",
+        "chain": "IPO成功增强市场信心，可能加速星链（Starlink）分拆或新融资，带动产业链上游",
+        "watch": "SpaceX发射计划及星链用户增长"
+      }
     },
     {
       "rank": 7,
