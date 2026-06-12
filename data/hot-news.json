@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 17:01",
+  "updateTime": "2026-06-12 17:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 76,
       "insight": {
-        "what": "SpaceX创纪录IPO上市，融资750亿美元",
-        "assets": "📈 美股科技股 利好；📉 美元 承压",
-        "chain": "资金涌入美股IPO，抽离新兴市场流动性（资金外流），削弱美元需求（美元走弱）。",
-        "watch": "IPO首日涨幅及成交量（判断资金情绪）"
+        "what": "SpaceX创纪录IPO，募资750亿美元，纳斯达克上市",
+        "assets": "📈 美股科技股 利好；📉 美元指数 承压",
+        "chain": "外资热捧美资产→推高美股估值→但降息预期（借钱成本降低）落空→美元多头平仓",
+        "watch": "美联储6月点阵图（利率预测）与CPI数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 70,
       "insight": {
-        "what": "散户抛售AI股囤现金备战SpaceX IPO",
-        "assets": "📉 AI概念股 承压；📈 现金/短债 利好",
-        "chain": "散户抽离AI板块资金，转向IPO打新，短期打压科技成长股（高估值资产），推高短期利率（资金紧张）。",
-        "watch": "散户现金持仓比例及AI股资金流出量"
+        "what": "SpaceX IPO引爆华尔街AI淘金热，投行承销收入或达10亿美元",
+        "assets": "📈 AI概念股 利好；📈 投行股 利好",
+        "chain": "SpaceX估值飙升→资金涌入科技IPO→投行佣金收入激增→金融板块EPS（每股收益）上修",
+        "watch": "后续科技IPO定价倍数与认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX将散户配售比例降至20%以下",
-        "assets": "📉 散户参与度 利空；📈 机构投资者 利好",
-        "chain": "散户打新中签率降低，可能转投其他IPO或二级市场，机构控盘度提升（减少波动）。",
-        "watch": "散户中签率及IPO首日波动率（VIX）"
+        "what": "SpaceX IPO采用固定定价机制，与美股波动共振考验承销商",
+        "assets": "📉 美股波动率 中性偏空；📈 做市商 承压",
+        "chain": "固定定价→上市首日波动大→做市商需对冲库存风险→可能加剧日内回撤",
+        "watch": "首日换手率与做市商库存变化"
       }
     },
     {
@@ -51,36 +51,28 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "SpaceX固定定价机制与美股波动共振",
-        "assets": "📉 IPO承销商 承压；📈 波动率ETF 利好",
-        "chain": "固定价IPO若遇市场波动，破发风险上升（定价偏差），投行对冲成本增加（衍生品需求）。",
-        "watch": "美股波动率指数（VIX）及SpaceX破发与否"
+        "what": "SpaceX IPO零售散户配售比例降至20%区间",
+        "assets": "📈 机构持仓股 利好；📉 散户交易平台 承压",
+        "chain": "减少散户筹码→机构控盘力增强→首日抛压减轻→但流动性可能不足",
+        "watch": "首日开盘价与散户参与度指标"
       }
     },
     {
       "rank": 5,
-      "title": "散户抛售AI热门股、囤积现金 备战SpaceX等大型IPO",
-      "source": "环球市场播报",
-      "detail": "万达研究公司的数据显示，本次SpaceX IPO将面向普通投资者放出更多股份，散户们似乎已准备好抢抓机会、提前入局。 这家机构专门追踪个股与交易所交易基金（ETF）的散户资金...",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX创IPO引爆华尔街AI淘金热",
-        "assets": "📈 投行股 利好；📈 AI相关ETF 利好",
-        "chain": "投行承销收入激增（非利息收入），带动金融股；AI叙事强化（技术溢价），吸引资金轮动至科技。",
-        "watch": "投行承销收入报告及AI板块资金净流入"
-      }
-    },
-    {
-      "rank": 6,
       "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "市场视SpaceX IPO为对马斯克的信任投票",
+        "assets": "📈 特斯拉 联动利好；📉 SpaceX空头 承压",
+        "chain": "IPO成功→马斯克信誉溢价→特斯拉融资成本降低→但若破发则反向冲击",
+        "watch": "马斯克社交媒体动态与特斯拉期权隐含波动率"
+      }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
@@ -88,7 +80,7 @@
       "score": 45
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Proposed Iran-U.S. deal would reopen Hormuz strait and lift oil sanctions, Iran state media says",
       "source": "CNBC",
       "detail": "U.S. President Donald Trump said Thursday that the Strait of Hormuz would be reopened as soon as a deal is signed.",
@@ -96,7 +88,7 @@
       "score": 42
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "铜价暴涨1350击穿10.4万！涨停潮席卷有色，追还是撤？",
       "source": "市场资讯",
       "detail": "长江有色金属网 单日暴涨1350元，铜价彻底疯了。 据长江有色网最新报价，6月12日长江现货1#铜均价104720元/吨，较前日飙涨1350元/吨，涨幅1.31%。什么概念？",
@@ -104,10 +96,18 @@
       "score": 40
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "交易员下调英国央行加息预期，市场对美伊协议前景愈发乐观",
       "source": "环球市场播报",
       "detail": " 全球股市周五上涨，此前特朗普暗示，一项结束伊朗战争的协议可能即将达成。与此同时，美国正准备迎接埃隆・马斯克旗下SpaceX的重磅上市。",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 10,
+      "title": "交易员下调英国央行加息押注 对美伊协议的乐观情绪升温",
+      "source": "环球市场播报",
+      "detail": " 随着能源价格下跌，货币市场削减对英国央行加息的押注，目前更偏向预计英国央行到年底仅有一次25个基点的加息，这是6月1日以来首次出现这一预期。",
       "lang": "zh",
       "score": 36
     }
