@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 15:36",
+  "updateTime": "2026-06-12 15:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 76,
       "insight": {
-        "what": "SpaceX创纪录IPO，募资750亿美元，纳斯达克上市",
-        "assets": "📈 美股科技股 利好\n📈 SpaceX相关供应链 利好",
-        "chain": "IPO冻结资金（抽走流动性）→短期压制小盘股，但提振Nasdaq（科技指数）情绪，投行承销收入激增",
-        "watch": "IPO首日涨幅及认购倍数"
+        "what": "SpaceX创纪录750亿美元IPO上市",
+        "assets": "📈 美股科技股 利好\n📉 美元 承压",
+        "chain": "IPO吸走流动性（资金从债市流向股市），推高风险偏好（投资者更愿冒险），但美元因外资涌入被稀释",
+        "watch": "IPO首日涨幅及成交量"
       }
     },
     {
@@ -23,50 +23,70 @@
       "lang": "zh",
       "score": 70,
       "insight": {
-        "what": "前FED官员呼吁尽快加息，因通胀持续",
-        "assets": "📉 美债 承压\n📈 美元 短期利好",
-        "chain": "加息预期升温→美债收益率上升（借钱成本提高）→压制科技股估值，但吸引外资流入美元资产",
-        "watch": "FOMC（美联储议息会议）点阵图及通胀数据"
+        "what": "前美联储官员呼吁尽快加息应对通胀",
+        "assets": "📈 美元 短期反弹\n📉 美债 承压",
+        "chain": "加息预期（借钱成本上升）推高短端利率（短期国债收益率），压制成长股估值（未来现金流折现减少）",
+        "watch": "下周美联储官员讲话及CPI（通胀数据）"
       }
     },
     {
       "rank": 3,
+      "title": "SpaceX创纪录IPO今日挂牌：固定定价机制与美股波动共振考验华尔街承销商",
+      "source": "环球市场播报",
+      "detail": "美国太空探索技术公司（SpaceX）于周五（6月12日）正式登陆资本市场。作为有史以来规模最大的首次公开募股（IPO），SpaceX以每股135美元的固定价格发行，公司估值达1...",
+      "lang": "zh",
+      "score": 60,
+      "insight": {
+        "what": "SpaceX IPO固定定价机制引发波动风险",
+        "assets": "📉 美股大盘 短期波动\n📈 投行股 利好",
+        "chain": "固定定价（不随市调价）可能开盘即破发（跌破发行价），触发程序化抛售（电脑自动卖出），冲击纳指",
+        "watch": "开盘后30分钟价格走势及做市商（提供流动性机构）行为"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX raising $75 billion in record-setting IPO as Nasdaq debut awaits",
       "source": "CNBC",
       "detail": "SpaceX is selling 555.6 shares at $135 a piece, raising $75 billion in the largest IPO on record.",
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "散户抛售AI热门股、囤积现金备战SpaceX IPO",
-        "assets": "📉 AI概念股 承压\n📈 现金/货币基金 利好",
-        "chain": "散户去杠杆（卖出股票换现金）→AI板块短期回调，IPO资金分流削弱大盘买盘",
-        "watch": "散户资金流向及IPO申购数据"
+        "what": "SpaceX IPO引爆AI相关投行收入预期",
+        "assets": "📈 半导体股 利好\n📈 投行股 利好",
+        "chain": "AI淘金热（资本追逐AI公司）推高芯片需求（算力基础设施），投行承销费（帮公司上市赚钱）增厚利润",
+        "watch": "SpaceX AI业务营收占比及下季度指引"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Stock futures tick higher as Wall Street gears up for SpaceX’s historic IPO: Live updates",
       "source": "CNBC",
       "detail": "Elon Musk's rocket maker is set to debut on the Nasdaq on Friday in what will be the largest IPO in history.",
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "外资热捧美国资产，但美元走势难获加息支撑",
-        "assets": "📈 美股 利好\n📉 美元 中性偏弱",
-        "chain": "外资流入推高美股→但市场怀疑美联储（美国央行）加息持续性→美元多空博弈加剧，非美货币（如欧元）或反弹",
-        "watch": "美元指数及外资净流入数据"
+        "what": "外资热捧SpaceX但难撑美元走势",
+        "assets": "📈 美股 结构性利好\n📉 美元指数 承压",
+        "chain": "外资买美股需换汇（抛外币买美元），但美联储降息预期（借钱成本降低）压制美元长期升值动力",
+        "watch": "美元兑日元及欧元汇率关键位"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "沃什“首秀”应如何定调？FED前官员呼吁尽快加息：通胀持续是政策错误！",
       "source": "滚动播报",
       "detail": "财联社6月11日讯（编辑 黄君芝）下周，新上任的美联储主席凯文·沃什（Kevin Warsh）即将主持其任期内的第一次联邦公开市场委员会（FOMC）会议...",
       "lang": "zh",
-      "score": 48
+      "score": 48,
+      "insight": {
+        "what": "美股期货微涨等待SpaceX历史性IPO",
+        "assets": "📈 纳指期货 小幅反弹\n📉 恐慌指数VIX 回落",
+        "chain": "IPO前市场情绪偏多（乐观），但波动率（价格变动幅度）仍高，因固定定价机制可能引发开盘震荡",
+        "watch": "VIX是否跌破15（波动率低点）"
+      }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "散户抛售AI热门股、囤积现金 备战SpaceX等大型IPO",
       "source": "环球市场播报",
       "detail": "万达研究公司的数据显示，本次SpaceX IPO将面向普通投资者放出更多股份，散户们似乎已准备好抢抓机会、提前入局。 这家机构专门追踪个股与交易所交易基金（ETF）的散户资金...",
@@ -74,7 +94,7 @@
       "score": 45
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
@@ -82,7 +102,7 @@
       "score": 45
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
@@ -90,20 +110,12 @@
       "score": 45
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
       "score": 45
-    },
-    {
-      "rank": 10,
-      "title": "美国5月CPI重返4%、PPI飙至6.5%，黄金或连续第二周走弱",
-      "source": "市场资讯",
-      "detail": "文章来源：汇通财经 周五（6月12日）亚洲时段，现货黄金冲高回落遭遇新一轮抛售，当前价格运行于4182美元/盎司附近。 美伊和平协议的不确定性提振了美元需求...",
-      "lang": "zh",
-      "score": 42
     }
   ]
 }
