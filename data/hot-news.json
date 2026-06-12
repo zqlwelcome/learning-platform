@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 07:25",
+  "updateTime": "2026-06-13 07:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX上市首日暴涨19%，市值破2万亿美元",
-        "assets": "📈 美股太空股 利好；📈 风险偏好（投资者情绪） 提振",
-        "chain": "SpaceX高估值溢出至未上市科技股（pre-IPO科技股），推高板块beta（系统性风险敞口）",
-        "watch": "SPCX后续成交量及机构持仓变化"
+        "what": "SpaceX IPO首日大涨19%，市值破2万亿",
+        "assets": "📈 太空概念股 利好；📈 风险偏好（市场情绪） 提振",
+        "chain": "散户FOMO（害怕错过）涌入，推高科技IPO估值，可能带动一级市场（未上市企业融资）定价上移",
+        "watch": "SPCX后续成交量及分析师目标价调整"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌90%+",
-        "assets": "📉 Sleep Number（SNBR） 利空；📉 家居零售板块 承压",
-        "chain": "欺诈调查触发信用利差（公司债风险溢价）走阔，做空机构可能瞄准同类低估值股",
-        "watch": "SNBR是否面临集体诉讼及退市风险"
+        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌90%",
+        "assets": "📉 Sleep Number股票 利空；📉 家居零售板块 承压",
+        "chain": "触发投资者对高负债消费股（如家居、家具）的财报真实性审查，可能引发做空潮（押注下跌）",
+        "watch": "Sleep Number财报修正及集体诉讼进展"
       }
     },
     {
@@ -35,10 +35,24 @@
       "source": "CNBC",
       "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "华尔街对SpaceX目标价分歧极大，60-190美元",
+        "assets": "📈 太空ETF 波动；📉 空头（看跌者） 承压",
+        "chain": "多空博弈加剧导致期权隐含波动率（市场对价格波动预期）飙升，套利者（利用价差获利）活跃",
+        "watch": "SPCX空头持仓比例变化"
+      }
     },
     {
       "rank": 4,
+      "title": "华尔街对历史性SpaceX IPO极端两极分化！目标价60-190美元",
+      "source": "市场资讯",
+      "detail": "来源：华尔街见闻 SpaceX完成史上最大IPO之一，在华尔街掀起激烈“估值战争”：乐观派将其视作“世纪机遇”，喊出190美元目标价；悲观派则狠批估值透支...",
+      "lang": "zh",
+      "score": 40
+    },
+    {
+      "rank": 5,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
@@ -46,35 +60,27 @@
       "score": 38
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "美债交易员下调美联储2026年加息押注 因市场寄望和平协议",
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因和谈预期",
-        "assets": "📈 美债（长期国债） 利好；📉 美元 承压",
-        "chain": "降息预期（借钱成本降低）压低远期利率，资金从美元流向新兴市场（EM），利差交易（carry trade）活跃",
-        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
-      "source": "CNBC",
-      "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "散户狂热涌入SpaceX IPO，部分机构认为估值荒谬",
-        "assets": "📈 太空ETF（如ARKX） 利好；⚠️ 散户情绪指标 过热信号",
-        "chain": "散户追涨推高IPO首日波动率（价格波动幅度），机构或借机做空（short selling）套利",
-        "watch": "SPCX空头持仓比例及期权隐含波动率"
+        "what": "美债交易员下调美联储2026年加息押注",
+        "assets": "📈 美债（美国国债） 利好；📉 美元 承压"
       }
     },
     {
       "rank": 7,
+      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
+      "source": "CNBC",
+      "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
@@ -82,7 +88,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
@@ -90,20 +96,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "Call Kevin Warsh the Fed 'chairman'",
-      "source": "CNBC",
-      "detail": "Kevin Warsh's two immediate predecessors preferred to be called the Fed \"chair.\" For Warsh, it's \"chairman\" of the Federal Reserve.",
-      "lang": "en",
-      "score": 33
     }
   ]
 }
