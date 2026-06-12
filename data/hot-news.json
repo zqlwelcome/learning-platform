@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 17:26",
+  "updateTime": "2026-06-12 17:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 70,
       "insight": {
-        "what": "SpaceX创纪录IPO引发AI淘金热",
-        "assets": "📈 美股科技股 利好;📈 投行股 利好",
-        "chain": "吸引资金涌入科技板块，抬升风险偏好（风险资产需求），投行承销收入增厚",
-        "watch": "IPO首日涨幅及成交量"
+        "what": "SpaceX创纪录IPO，华尔街投行承销收入或达10亿美元",
+        "assets": "📈 SpaceX相关概念股 利好；📈 美股科技股 利好",
+        "chain": "科技股IPO热潮推高市场风险偏好（风险容忍度），资金可能从防御板块（如公用事业）轮动至成长股",
+        "watch": "SpaceX首日涨幅及换手率"
       }
     },
     {
@@ -23,70 +23,72 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX今日挂牌，固定定价机制与美股波动共振",
-        "assets": "📉 美股科技股 短期波动;📈 美股大盘 承压",
-        "chain": "固定定价（锁定发行价）若遇大盘下跌，首日破发风险上升，打击科技板块情绪",
-        "watch": "开盘价相对发行价偏离度"
+        "what": "SpaceX今日挂牌，固定定价机制遇美股波动考验",
+        "assets": "📉 美股波动率指数（VIX） 承压；📈 SpaceX普通股 不确定",
+        "chain": "固定定价+高波动可能导致首日大幅折价或溢价，影响后续科技股IPO定价策略（如Arm、Instacart）",
+        "watch": "首日开盘价与发行价偏差"
       }
     },
     {
       "rank": 3,
+      "title": "Warren questions SpaceX IPO oversight in new letter to stock indexes",
+      "source": "CNBC",
+      "detail": "Sen. Elizabeth Warren seeking answers on changes to index provider waiting periods, protections for retail investors, in a letter obtained first by CNBC.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "沃伦质疑SpaceX IPO监管，致信股指公司",
+        "assets": "📉 SpaceX相关ETF 承压；📉 美股监管敏感板块 利空",
+        "chain": "政治压力可能延迟指数纳入（如标普500），减少被动资金流入，压制短期估值",
+        "watch": "标普指数委员会是否回应"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX IPO live updates: Elon Musk's company set for biggest market debut ever",
       "source": "CNBC",
       "detail": "Follow SpaceX IPO live updates on price, ticker, broker access, valuation and what investors need to know before shares trade.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX创历史最大IPO，马斯克公司首秀",
-        "assets": "📈 美股科技股 利好;📈 波动率（恐慌指数VIX） 短期上升",
-        "chain": "巨量IPO抽走流动性（市场资金），短期压制其他科技股，但长期示范效应推升板块估值",
-        "watch": "IPO资金分流效应及后续科技股资金流向"
+        "what": "伊朗-美国协议拟重开霍尔木兹海峡并解除石油制裁",
+        "assets": "📉 原油 承压；📈 全球航运股 利好",
+        "chain": "原油供给增加预期压低油价，降低通胀压力（通胀预期），利好央行降息（借钱成本降低）空间",
+        "watch": "协议签署进展及OPEC+后续反应"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Proposed Iran-U.S. deal would reopen Hormuz strait and lift oil sanctions, Iran state media says",
       "source": "CNBC",
       "detail": "U.S. President Donald Trump said Thursday that the Strait of Hormuz would be reopened as soon as a deal is signed.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗提议重开霍尔木兹海峡并解除石油制裁",
-        "assets": "📉 原油 利空;📈 航运股 利好",
-        "chain": "原油供给增加预期压低油价，航运成本下降利好海运股，地缘风险（战争风险）溢价消退",
-        "watch": "美伊谈判进展及OPEC+产量决议"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "铜价暴涨1350击穿10.4万！涨停潮席卷有色，追还是撤？",
-      "source": "市场资讯",
-      "detail": "长江有色金属网 单日暴涨1350元，铜价彻底疯了。 据长江有色网最新报价，6月12日长江现货1#铜均价104720元/吨，较前日飙涨1350元/吨，涨幅1.31%。什么概念？",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "铜价暴涨至10.4万，有色涨停潮",
-        "assets": "📈 铜期货 利多;📈 有色股 利好;📉 下游制造业 利空",
-        "chain": "铜价飙升反映供需缺口（供不应求），利好矿商，但挤压下游成本，触发通胀预期（物价上涨）",
-        "watch": "LME铜库存及中国基建需求数据"
+        "what": "铜价暴涨至10.4万，有色板块涨停潮",
+        "assets": "📈 铜期货 利好；📈 有色板块股票 利好；📉 下游制造业 承压",
+        "chain": "铜价飙升反映全球再通胀（物价持续上涨）预期，推高PPI（工业品出厂价格），挤压家电、电缆企业利润",
+        "watch": "LME（伦敦金属交易所）铜库存数据"
       }
     },
     {
       "rank": 6,
+      "title": "铜价暴涨1350击穿10.4万！涨停潮席卷有色，追还是撤？",
+      "source": "市场资讯",
+      "detail": "长江有色金属网 单日暴涨1350元，铜价彻底疯了。 据长江有色网最新报价，6月12日长江现货1#铜均价104720元/吨，较前日飙涨1350元/吨，涨幅1.31%。什么概念？",
+      "lang": "zh",
+      "score": 40
+    },
+    {
+      "rank": 7,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "法官裁定Pirro在美联储调查中的损失应保留",
-        "assets": "📉 美股金融股 利空;📉 美联储 信誉受损",
-        "chain": "法律裁决加强监管预期，金融股面临合规成本上升，市场对美联储独立性产生疑虑",
-        "watch": "美联储后续监管政策及金融股财报"
-      }
+      "score": 38
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "交易员下调英国央行加息预期，市场对美伊协议前景愈发乐观",
       "source": "环球市场播报",
       "detail": " 全球股市周五上涨，此前特朗普暗示，一项结束伊朗战争的协议可能即将达成。与此同时，美国正准备迎接埃隆・马斯克旗下SpaceX的重磅上市。",
@@ -94,7 +96,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "交易员下调英国央行加息押注 对美伊协议的乐观情绪升温",
       "source": "环球市场播报",
       "detail": " 随着能源价格下跌，货币市场削减对英国央行加息的押注，目前更偏向预计英国央行到年底仅有一次25个基点的加息，这是6月1日以来首次出现这一预期。",
@@ -102,20 +104,12 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SpaceX's Gwynne Shotwell says IPO is one small step in 'very futuristic' journey",
       "source": "CNBC",
       "detail": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "SpaceX历史性IPO引发洛杉矶沿海学区豪宅抢购潮",
-      "source": "环球市场播报",
-      "detail": "全球商业航天巨头美国太空探索技术公司（SpaceX）于周五正式挂牌上市。多位美国房产投资机构分析师与资深从业人员指出，这场创下历史纪录的首次公开募股（IPO）正在转化为...",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
