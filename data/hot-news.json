@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 11:45",
+  "updateTime": "2026-06-12 11:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "SpaceX创纪录750亿美元IPO，即将纳斯达克上市",
-        "assets": "📈 太空/航天板块 利好；📈 美股IPO市场 情绪提振",
-        "chain": "巨额融资吸引资金，可能抽血其他科技成长股（资金轮动效应），并推高对标公司估值。",
-        "watch": "IPO首日涨幅及后续成交量（判断需求强度）"
+        "what": "SpaceX以750亿美元估值创纪录IPO，即将纳斯达克上市",
+        "assets": "📈 太空概念股 利好; 📈 美股IPO市场 提振",
+        "chain": "太空经济热潮升温，资金从传统科技股轮动至航天板块（行业轮动）",
+        "watch": "IPO首日涨幅及后续订单量"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "华尔街为SpaceX历史性IPO做准备，期指小幅走高",
-        "assets": "📈 美股期指 短期利好；📈 太空ETF（如ARKX） 联动上涨",
-        "chain": "IPO热度提振市场风险偏好（Risk-on），但需警惕过度乐观后的回调（获利了结）。",
-        "watch": "标普500实际开盘走势，是否突破前高"
+        "what": "华尔街备战SpaceX历史性IPO，股指期货小幅走高",
+        "assets": "📈 美股大盘 短期利好; 📈 纳斯达克指数 提振",
+        "chain": "IPO情绪带动风险偏好（Risk-on），资金涌入成长股，但需防获利了结",
+        "watch": "标普500期货及VIX（恐慌指数）变动"
       }
     },
     {
       "rank": 3,
+      "title": "中东停火CPI降温！金价重返4200美元，央行19连增持托底",
+      "source": "",
+      "detail": "文章来源：财闻 地缘冲突通过能源→通胀→央行政策传导为利率压力；在利率约束明显缓解前，黄金短线偏震荡偏弱/高波动整理，但全球央行持续购金为中长期定价提供支撑。",
+      "lang": "zh",
+      "score": 58,
+      "insight": {
+        "what": "中东停火+CPI降温，金价反弹至4200美元，央行连续19个月增持",
+        "assets": "📈 黄金 利好; 📉 美元 承压",
+        "chain": "避险需求回落但央行购金托底，实际利率（名义利率减通胀）下行支撑金价",
+        "watch": "美联储利率决议及中东停火进展"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Warren questions SpaceX IPO oversight in new letter to stock indexes",
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren seeking answers on changes to index provider waiting periods, protections for retail investors, in a letter obtained first by CNBC.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "沃伦质疑SpaceX IPO监管，致信指数公司",
-        "assets": "📉 SpaceX 短期承压（监管风险）；📈 监管合规股（如法律咨询） 利好",
-        "chain": "政治压力可能延迟上市或增加披露成本，引发投资者对监管收紧的担忧（系统性风险）。",
-        "watch": "SEC是否启动调查或要求补充文件"
+        "what": "沃伦质疑SpaceX IPO监管，致函指数公司",
+        "assets": "📉 SpaceX 短线利空; 📉 太空概念股 承压",
+        "chain": "监管不确定性增加，机构投资者或降低配置权重，拖累相关ETF",
+        "watch": "SEC（美国证监会）是否介入调查"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX将散户IPO配售比例砍至20%出头的低区间",
-        "assets": "📉 散户投资者 利空（难获分配）；📈 机构投资者 利好（份额更大）",
-        "chain": "散户抢筹推高首日溢价（IPO首日涨幅），但机构主导定价可能压低长期波动（减少散户抛压）。",
-        "watch": "首日换手率及散户参与度（如Robinhood数据）"
+        "what": "SpaceX将散户IPO配售比例降至20%低位",
+        "assets": "📉 散户投资者 利空; 📈 机构投资者 利好",
+        "chain": "散户参与度降低，首日波动性（Volatility）可能减小，但长期持有者减少",
+        "watch": "IPO首日机构与散户成交比"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不会终结牛市，但投资者担忧后续影响",
-        "assets": "📈 美股大盘 中性（短期无冲击）；📉 高估值成长股 承压（资金分流）",
-        "chain": "巨量IPO后市场流动性收紧（资金水位下降），可能触发科技板块轮动至价值股（板块切换）。",
-        "watch": "美国10年期国债收益率（利率敏感指标）及科技股资金流"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "芯片股，暴涨！黄金白银，大涨！",
-      "source": "滚动播报",
-      "detail": "文章来源：中国基金报 中国基金报记者 赵刚 综合整理 美东时间6月11日（周四），美股收高，道指涨约930点，芯片股表现强劲。特朗普暗示接近与伊朗达成协议后...",
-      "lang": "zh",
-      "score": 42,
-      "insight": {
-        "what": "芯片股暴涨，黄金白银也大涨",
-        "assets": "📈 半导体板块（如英伟达、AMD） 暴涨；📈 黄金/白银 大涨",
-        "chain": "芯片涨因AI需求（算力军备竞赛），金银涨因降息预期（实际利率下降）或避险（地缘风险），两者背离说明市场在押注不同逻辑。",
-        "watch": "美联储利率决议（降息概率）及芯片企业财报（如台积电营收）"
+        "what": "SpaceX IPO不会终结牛市，但投资者担忧后续风险",
+        "assets": "📉 美股大盘 长期中性偏空; 📈 避险资产 利好",
+        "chain": "IPO抽血效应（资金从其他股票流出）有限，但市场对估值泡沫和流动性收紧的担忧升温",
+        "watch": "美联储缩表（减少债券持有）节奏及科技股盈利预期"
       }
     },
     {
       "rank": 7,
+      "title": "芯片股，暴涨！黄金白银，大涨！",
+      "source": "滚动播报",
+      "detail": "文章来源：中国基金报 中国基金报记者 赵刚 综合整理 美东时间6月11日（周四），美股收高，道指涨约930点，芯片股表现强劲。特朗普暗示接近与伊朗达成协议后...",
+      "lang": "zh",
+      "score": 42
+    },
+    {
+      "rank": 8,
       "title": "SpaceX确定IPO发行价，募资近750亿美元创史上最大规模纪录",
       "source": "界面",
       "detail": "SpaceX IPO发行价正式确定，募资金额创史上最高纪录。当地时间6月11日，SpaceX 提交给美国证监会的文件显示，该公司IPO的公开发行价为每股135美元，将发行5.556亿股...",
@@ -94,7 +102,7 @@
       "score": 40
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "周末也能交易黄金和原油了！芝商所“重磅官宣”……",
       "source": "市场资讯",
       "detail": "文章来源：财联社 当地时间周四（6月11日），芝加哥商品交易所集团（CME）宣布，将在获得监管机构批准后，为新推出的、规格较小的原油和黄金合约提供24/7全天候交易服务。",
@@ -102,20 +110,12 @@
       "score": 39
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "韩国央行行长再次暗示加息以缓解通胀压力",
       "source": "环球市场播报",
       "detail": " 韩国央行行长申铉松周五重申，在即将召开的货币政策会议上，有必要提高关键利率，以缓解因中东冲突持续而加剧的通胀压力。",
       "lang": "zh",
       "score": 36
-    },
-    {
-      "rank": 10,
-      "title": "英伟达宣布与SK海力士等合作，加速物理AI应用落地！索辰科技20CM涨停，软件开发ETF华宝（159036）拉升2.7%",
-      "source": "新浪基金",
-      "detail": "今日（6月12日）软件开发方向强势反弹，索辰科技20CM涨停，麦迪科技10%涨停，赢时胜涨超12%，星环科技-U、中望软件等个股大幅跟涨...",
-      "lang": "zh",
-      "score": 35
     }
   ]
 }
