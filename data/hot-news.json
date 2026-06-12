@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 06:06",
+  "updateTime": "2026-06-13 06:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX IPO首日大涨19%，市值破2万亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 航天军工板块 利好",
-        "chain": "提振一级市场情绪，带动未上市科技公司估值上修（估值重估）",
-        "watch": "后续交易量及机构持仓变化"
+        "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
+        "assets": "📈 美股太空概念股 利好；📈 科技成长股 情绪提振",
+        "chain": "资金从防御板块（如公用事业）轮动至高风险成长股（高Beta股票），风险偏好上升",
+        "watch": "SpaceX后续财报及订单量（验证估值合理性）"
       }
     },
     {
@@ -32,9 +32,9 @@
       "score": 50,
       "insight": {
         "what": "律所对Sleep Number发起证券欺诈调查",
-        "assets": "📉 Sleep Number股票 利空；📉 家居消费板块 承压",
-        "chain": "引发投资者对高负债消费股的避险，可能触发做空机构关注（空头盯防）",
-        "watch": "调查进展及公司财报披露"
+        "assets": "📉 Sleep Number股票 利空；📉 家居零售板块 情绪拖累",
+        "chain": "投资者担忧行业盈利真实性，引发做空（押注下跌）情绪，带动同类股抛售",
+        "watch": "调查进展及公司是否修正财报（确认风险敞口）"
       }
     },
     {
@@ -43,7 +43,13 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在Fed调查中损失需保留",
+        "assets": "📉 金融监管股 利空；📉 银行股 合规成本上升",
+        "chain": "监管趋严增加银行法律准备金（计提坏账），压缩利润空间（EPS预期下调）",
+        "watch": "其他银行是否面临类似诉讼（系统性风险扩散）"
+      }
     },
     {
       "rank": 5,
@@ -54,9 +60,9 @@
       "score": 36,
       "insight": {
         "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📈 美债 利好；📉 美元 承压；📈 风险资产 利好",
-        "chain": "降息预期升温（借钱成本降低预期）推高股市，削弱美元吸引力",
-        "watch": "和平谈判进展及CPI数据"
+        "assets": "📈 美债 利好；📉 美元 承压；📈 风险资产（如新兴市场） 利好",
+        "chain": "加息预期降温→美债收益率下行（借钱成本降低）→美元走弱→资金流向新兴市场",
+        "watch": "和平协议谈判进展及美联储官员讲话（验证预期）"
       }
     },
     {
@@ -67,10 +73,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行官员Kazimir称需进一步加息",
-        "assets": "📈 欧元 利好；📉 欧债 承压；📉 欧洲股市 利空",
-        "chain": "欧央行鹰派（倾向加息）信号加剧全球紧缩担忧，压制风险偏好",
-        "watch": "欧央行下次会议利率决议"
+        "what": "欧洲央行Kazimir称需进一步加息",
+        "assets": "📈 欧元 利好；📉 欧洲债券 利空；📉 欧洲股市 承压",
+        "chain": "加息预期→欧元升值（汇率走强）→欧洲出口企业利润受损（盈利下调）",
+        "watch": "欧元区CPI数据（判断通胀是否顽固）及下次欧央行决议"
       }
     },
     {
