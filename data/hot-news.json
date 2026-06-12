@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 04:35",
+  "updateTime": "2026-06-13 04:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
-        "assets": "📈 SpaceX股票 利好；📈 航天军工板块 提振",
-        "chain": "推高太空经济估值（PE倍数），引发资金从传统军工流向新兴航天股（板块轮动）",
-        "watch": "SpaceX后续财报及订单数据"
+        "what": "SpaceX上市首日暴涨19%，市值破2万亿",
+        "assets": "📈 SpaceX股票 利好；📈 航天板块 情绪提振",
+        "chain": "高估值IPO（首次公开募股）成功可能引发航天赛道资金涌入，但需警惕回调风险（价格回跌）",
+        "watch": "SpaceX后续财报及订单量"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 55,
       "insight": {
         "what": "律所对Sleep Number发起证券欺诈调查",
-        "assets": "📉 Sleep Number股票 利空；📉 家居零售板块 承压",
-        "chain": "引发做空机构关注（空头增加），同类高负债消费股（如床垫、家具）面临抛售风险",
-        "watch": "Sleep Number是否收到集体诉讼"
+        "assets": "📉 Sleep Number股票 承压",
+        "chain": "法律风险加剧抛售，可能拖累消费电子板块情绪（市场信心），高负债公司成空头目标（做空对象）",
+        "watch": "调查进展及公司回应"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "法官裁定Pirro在美联储调查中的损失需保留",
-        "assets": "📉 Pirro相关股票 利空；📉 金融监管概念 承压",
-        "chain": "强化美联储监管执行力（合规成本上升），银行及金融股可能因预期更严罚则而下跌",
-        "watch": "美联储后续罚款及监管新规"
+        "what": "法官裁定Pirro在Fed调查中的亏损应保留",
+        "assets": "📉 相关金融股 承压",
+        "chain": "监管处罚（罚款）可能增加银行合规成本，削弱市场对金融板块信心",
+        "watch": "Fed后续监管政策动向"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "欧洲央行Kazimir称需进一步加息",
-        "assets": "📈 欧元 利好；📉 欧洲国债 利空；📉 欧洲科技股 承压",
-        "chain": "加息预期推高借贷成本（资金收紧），压制风险资产（估值下修），欧美国债利差可能收窄",
-        "watch": "下周欧央行利率决议及通胀数据"
+        "what": "欧洲央行官员Kazimir称需进一步加息",
+        "assets": "📈 欧元 走强；📉 欧洲债券 承压",
+        "chain": "加息（提高利率）预期推高欧元汇率，压制风险资产（如股票），欧洲经济放缓风险上升",
+        "watch": "欧元区通胀数据及ECB下次会议"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "环球市场播报",
       "detail": "欧洲央行管理委员会成员Peter Kazimir表示，通胀在整个经济领域的蔓延将迫使欧洲央行进一步提高利率。 这位斯洛伐克央行行长认为，价格压力在没有干预的情况下不会缓解。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "SpaceX IPO后投资者关注下一步战略",
+        "assets": "📈 SpaceX股票 情绪支撑；📈 太空概念股 联动",
+        "chain": "市场聚焦公司扩张计划（如星链），可能带动上下游产业链（卫星制造）估值重估",
+        "watch": "SpaceX星链用户增长及发射计划"
+      }
     },
     {
       "rank": 6,
@@ -75,6 +81,14 @@
     },
     {
       "rank": 7,
+      "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
+      "source": "CNBC",
+      "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
@@ -82,7 +96,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
@@ -90,20 +104,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "For Warsh as Fed chair, silence may be the point",
       "source": "CNBC",
       "detail": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
       "lang": "en",
       "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "马斯克成为世界首位万亿富豪，大致相当于瑞士或波兰一年的GDP",
-      "source": "环球市场播报",
-      "detail": "埃隆·马斯克刚刚成为世界上第一位万亿富豪。 随着SpaceX周五在纳斯达克以每股150美元的价格开盘，他在该公司的持股价值超过7660亿美元。",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
