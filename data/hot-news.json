@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 21:35",
+  "updateTime": "2026-06-12 21:40",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "欧洲央行三年来首次加息应对通胀",
-        "assets": "📉 欧元 短期承压，📈 欧洲银行股 利好",
-        "chain": "加息（提高借贷成本）抑制经济，利空欧债；美元相对走强，新兴市场资金外流",
+        "what": "欧洲央行加息应对通胀",
+        "assets": "📉 欧元区债券 承压, 📈 欧元 短期利好",
+        "chain": "加息（提高借钱成本）抑制需求，欧元区衰退风险上升，利空风险资产。",
         "watch": "欧元区CPI（消费者物价指数）及PMI（采购经理人指数）数据"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "美股开盘上涨，受伊朗协议和SpaceX IPO乐观情绪推动",
-        "assets": "📈 美股标普500 利好，📈 科技股 利好",
-        "chain": "风险偏好（投资者愿意冒险）上升，资金从避险资产流出，利好原油空头",
-        "watch": "伊朗协议进展及SpaceX IPO最终定价"
+        "what": "美股开盘上涨，因伊朗协议希望和SpaceX IPO",
+        "assets": "📈 美股标普500 利好, 📈 能源股 承压",
+        "chain": "伊朗协议预期压低油价（能源成本下降），利好消费和制造业，但利空能源板块。",
+        "watch": "伊朗谈判进展及油价走势"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗媒体称美伊协议将重开霍尔木兹海峡并解除石油制裁",
-        "assets": "📉 原油 利空，📈 航运股 利好",
-        "chain": "石油供应预期增加打压油价，降低通胀压力，利好消费股，利空能源债",
-        "watch": "霍尔木兹海峡实际通行情况及OPEC（石油输出国组织）反应"
+        "what": "伊朗协议拟重开霍尔木兹海峡并解除石油制裁",
+        "assets": "📉 原油 承压, 📈 航运股 利好",
+        "chain": "原油供应增加（油市宽松），油价下跌，通胀预期降温，利好利率敏感资产。",
+        "watch": "霍尔木兹海峡通行情况与OPEC（石油输出国组织）反应"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX 750亿美元IPO将造就4400位百万富翁",
-        "assets": "📈 太空概念股 利好，📈 科技IPO市场 利好",
-        "chain": "财富效应（资产增值刺激消费）利好高端消费，激励更多初创公司上市",
-        "watch": "SpaceX估值变化及SEC（美国证监会）审核进度"
+        "what": "SpaceX估值750亿美元IPO，将造4400位百万富翁",
+        "assets": "📈 太空概念股 利好, 📈 美股IPO市场 提振",
+        "chain": "SpaceX IPO吸引资金涌入太空板块，提振风险偏好（市场乐观情绪），科技股获支撑。",
+        "watch": "SpaceX招股书披露及认购倍数"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在美联储调查中的损失必须保留",
+        "assets": "📉 美联储相关金融股 承压",
+        "chain": "裁决增强监管审查（合规成本上升），银行盈利预期下调，利空金融板块。",
+        "watch": "美联储后续监管行动及银行财报"
+      }
     },
     {
       "rank": 6,
@@ -71,7 +77,13 @@
       "source": "CNBC",
       "detail": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX高管曾多年质疑IPO，现向投资者传递信心",
+        "assets": "📈 太空ETF（交易所交易基金） 利好",
+        "chain": "高管转鹰信号（转为积极态度），强化IPO确定性，吸引长期资金布局太空赛道。",
+        "watch": "SpaceX估值变化及投资者路演反馈"
+      }
     },
     {
       "rank": 7,
