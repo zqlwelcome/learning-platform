@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 17:56",
+  "updateTime": "2026-06-12 17:58",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "《财经》杂志",
       "detail": "欧洲央行加息25个基点，政策层面的核心意义在于，宣告欧元区降息周期暂停、紧缩态势重启；也向市场传递出信号：全球高通胀并未彻底结束...",
       "lang": "zh",
-      "score": 51
+      "score": 51,
+      "insight": {
+        "what": "欧央行近三年首次加息",
+        "assets": "📈 欧元 短期利好，📉 黄金 承压",
+        "chain": "欧央行加息（借钱成本提高）→美元相对走弱→但实际利率上升压制黄金避险需求",
+        "watch": "欧央行后续加息节奏及通胀数据"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren seeking answers on changes to index provider waiting periods, protections for retail investors, in a letter obtained first by CNBC.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "Warren质疑指数纳入SpaceX IPO是否合规",
+        "assets": "📈 美股指数基金 潜在风险，📉 SpaceX IPO 延迟风险",
+        "chain": "监管质疑→指数纳入标准收紧→高估值非盈利公司上市融资成本上升（融资更难）",
+        "watch": "SEC（美国证监会）对指数纳入规则的审查动向"
+      }
     },
     {
       "rank": 3,
@@ -23,7 +35,13 @@
       "source": "CNBC",
       "detail": "Follow SpaceX IPO live updates on price, ticker, broker access, valuation and what investors need to know before shares trade.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX准备进行史上最大规模IPO",
+        "assets": "📈 航空航天板块 利好，📉 传统防务股 承压",
+        "chain": "SpaceX上市→资金从传统军工（如洛克希德）转向商业航天→推高估值倍数（市盈率）",
+        "watch": "SpaceX招股书估值及机构认购倍数"
+      }
     },
     {
       "rank": 4,
@@ -31,18 +49,44 @@
       "source": "CNBC",
       "detail": "U.S. President Donald Trump said Thursday that the Strait of Hormuz would be reopened as soon as a deal is signed.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "伊朗称美伊协议将重开霍尔木兹海峡并解除石油制裁",
+        "assets": "📉 布伦特原油 承压，📈 航运股 利好",
+        "chain": "石油供应增加（OPEC+减产预期松动）→油价下跌→通胀预期降温→美债收益率下行",
+        "watch": "霍尔木兹海峡实际通航量及伊朗石油出口数据"
+      }
     },
     {
       "rank": 5,
+      "title": "传追觅正考虑明年赴港IPO，募资数亿美元",
+      "source": "市场资讯",
+      "detail": "来源：财通社 6月12日消息，追觅科技据报正考虑最早于明年在香港IPO。 彭博社引述知情人士报道称，追觅正在与顾问合作，可能通过潜在的股票发行筹集数亿美元资金。",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "追觅科技考虑明年赴港IPO，募资数亿美元",
+        "assets": "📈 港股智能家电板块 利好，📉 A股同类竞品 承压",
+        "chain": "追觅上市→港股流动性改善（新经济股吸金）→拉高智能清洁赛道估值区间（PE倍数）",
+        "watch": "港交所上市聆讯进度及基石投资者名单"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在美联储调查中的损失需保留在账面上",
+        "assets": "📉 美联储相关金融股 承压，📈 做空机构 利好",
+        "chain": "司法裁决→美联储监管权（金融监管权力）加强→银行合规成本上升→压缩利润空间",
+        "watch": "其他银行类似诉讼判决及美联储监管新规草案"
+      }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "SpaceX’s Gwynne Shotwell had IPO doubts for years, now she has a message for investors",
       "source": "CNBC",
       "detail": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
@@ -50,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "上半年A股11家上市公司退市 律师提醒：受损股民可索赔",
       "source": "市场资讯",
       "detail": "随着退市新规发力，A股市场的优胜劣汰机制显现出前所未有的威力。据统计，截至2026年6月中旬，今年以来A股退市或锁定退市的公司数量已突破20家...",
@@ -58,7 +102,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "SpaceX上市点燃航天投资热潮，塞拉太空、公理航天等筹备IPO",
       "source": "环球市场播报",
       "detail": "万众期待的时刻终于到来！SpaceX 于周四正式敲定 IPO 发行价，每股 135 美元，对应企业估值约 1.75 万亿美元。这场长达半年、打破诸多传统上市规则的资本狂欢迎来收官。",
@@ -66,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "央行：前五个月人民币贷款增加9.11万亿元 M2同比增长8.6%",
       "source": "央行",
       "detail": "2026年5月金融统计数据报告 一、社会融资规模存量同比增长7.7% 初步统计，2026年5月末社会融资规模存量为458.81万亿元，同比增长7.7%。",
       "lang": "zh",
       "score": 28
-    },
-    {
-      "rank": 10,
-      "title": "Trump picks former SEC Chairman Jay Clayton as national intelligence director",
-      "source": "CNBC",
-      "detail": "Trump's announcement came after House Democrats' objections to his pick of Bill Pulte as acting chief ensured that a key national security tool expires Friday.",
-      "lang": "en",
-      "score": 27
     }
   ]
 }
