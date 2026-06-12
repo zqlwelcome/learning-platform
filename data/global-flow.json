@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 14:51",
+  "updateTime": "2026-06-12 14:56",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,14 +16,14 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4030.62",
-      "change": "1.09"
+      "value": "4031.05",
+      "change": "1.10"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24643.410",
-      "change": "1.63"
+      "value": "24623.350",
+      "change": "1.54"
     }
   },
   "etf_flows": [
@@ -32,26 +32,26 @@
       "code": "510300",
       "price": 4.815,
       "change": 1.35,
-      "flow": 875826848.0,
-      "flow_str": "+8.76亿",
+      "flow": 877926864.0,
+      "flow_str": "+8.78亿",
       "direction": "in"
     },
     {
       "name": "证券ETF国泰",
       "code": "512880",
-      "price": 1.044,
-      "change": 3.57,
-      "flow": 646159392.0,
-      "flow_str": "+6.46亿",
+      "price": 1.045,
+      "change": 3.67,
+      "flow": 640139696.0,
+      "flow_str": "+6.40亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF华夏",
       "code": "510330",
-      "price": 5.007,
-      "change": 1.19,
-      "flow": 498667584.0,
-      "flow_str": "+4.99亿",
+      "price": 5.009,
+      "change": 1.23,
+      "flow": 508680736.0,
+      "flow_str": "+5.09亿",
       "direction": "in"
     },
     {
@@ -59,8 +59,8 @@
       "code": "510050",
       "price": 2.979,
       "change": 1.74,
-      "flow": 468513888.0,
-      "flow_str": "+4.69亿",
+      "flow": 466586096.0,
+      "flow_str": "+4.67亿",
       "direction": "in"
     },
     {
@@ -68,8 +68,8 @@
       "code": "159919",
       "price": 5.012,
       "change": 1.21,
-      "flow": 428385860.0,
-      "flow_str": "+4.28亿",
+      "flow": 438920692.0,
+      "flow_str": "+4.39亿",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "有色金属",
       "code": "BK0478",
-      "index": 29863.18,
-      "change": 3.57,
-      "flow": 14384914944.0,
-      "flow_str": "+143.85亿",
+      "index": 29874.39,
+      "change": 3.61,
+      "flow": 14451511040.0,
+      "flow_str": "+144.52亿",
       "direction": "in"
     },
     {
       "name": "电力设备",
       "code": "BK1200",
-      "index": 6681.36,
-      "change": 1.21,
-      "flow": 9021445632.0,
-      "flow_str": "+90.21亿",
+      "index": 6682.69,
+      "change": 1.23,
+      "flow": 9174237440.0,
+      "flow_str": "+91.74亿",
       "direction": "in"
     },
     {
       "name": "工业金属",
       "code": "BK1287",
-      "index": 3436.08,
-      "change": 4.89,
-      "flow": 8354560256.0,
-      "flow_str": "+83.55亿",
+      "index": 3437.3,
+      "change": 4.92,
+      "flow": 8381357824.0,
+      "flow_str": "+83.81亿",
       "direction": "in"
     },
     {
       "name": "电池",
       "code": "BK1033",
-      "index": 1549.12,
-      "change": 2.6,
-      "flow": 7250830080.0,
-      "flow_str": "+72.51亿",
+      "index": 1548.43,
+      "change": 2.56,
+      "flow": 7427018496.0,
+      "flow_str": "+74.27亿",
       "direction": "in"
     },
     {
       "name": "铜",
       "code": "BK1615",
-      "index": 3932.51,
-      "change": 7.0,
-      "flow": 6324377600.0,
-      "flow_str": "+63.24亿",
+      "index": 3932.86,
+      "change": 7.01,
+      "flow": 6317024000.0,
+      "flow_str": "+63.17亿",
       "direction": "in"
     }
   ],
