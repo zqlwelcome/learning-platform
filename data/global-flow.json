@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 14:40",
+  "updateTime": "2026-06-12 14:46",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,13 +16,13 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4031.84",
-      "change": "1.12"
+      "value": "4025.45",
+      "change": "0.96"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24639.600",
+      "value": "24638.950",
       "change": "1.61"
     }
   },
@@ -30,46 +30,46 @@
     {
       "name": "沪深300ETF华泰柏瑞",
       "code": "510300",
-      "price": 4.811,
-      "change": 1.26,
-      "flow": 847457824.0,
-      "flow_str": "+8.47亿",
+      "price": 4.806,
+      "change": 1.16,
+      "flow": 866845984.0,
+      "flow_str": "+8.67亿",
       "direction": "in"
     },
     {
       "name": "证券ETF国泰",
       "code": "512880",
-      "price": 1.045,
-      "change": 3.67,
-      "flow": 634309760.0,
-      "flow_str": "+6.34亿",
+      "price": 1.042,
+      "change": 3.37,
+      "flow": 637151264.0,
+      "flow_str": "+6.37亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF华夏",
       "code": "510330",
-      "price": 5.006,
-      "change": 1.17,
-      "flow": 466294095.0,
-      "flow_str": "+4.66亿",
+      "price": 5.001,
+      "change": 1.07,
+      "flow": 482542096.0,
+      "flow_str": "+4.83亿",
       "direction": "in"
     },
     {
       "name": "上证50ETF华夏",
       "code": "510050",
-      "price": 2.98,
-      "change": 1.78,
-      "flow": 451055056.0,
-      "flow_str": "+4.51亿",
+      "price": 2.976,
+      "change": 1.64,
+      "flow": 465955824.0,
+      "flow_str": "+4.66亿",
       "direction": "in"
     },
     {
-      "name": "创业板ETF易方达",
-      "code": "159915",
-      "price": 3.845,
-      "change": 0.39,
-      "flow": 396916704.0,
-      "flow_str": "+3.97亿",
+      "name": "沪深300ETF嘉实",
+      "code": "159919",
+      "price": 5.004,
+      "change": 1.05,
+      "flow": 413031412.0,
+      "flow_str": "+4.13亿",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "有色金属",
       "code": "BK0478",
-      "index": 29892.47,
-      "change": 3.67,
-      "flow": 14284861184.0,
-      "flow_str": "+142.85亿",
+      "index": 29811.09,
+      "change": 3.39,
+      "flow": 14280715520.0,
+      "flow_str": "+142.81亿",
       "direction": "in"
     },
     {
       "name": "电力设备",
       "code": "BK1200",
-      "index": 6682.57,
-      "change": 1.23,
-      "flow": 9172307456.0,
-      "flow_str": "+91.72亿",
+      "index": 6668.81,
+      "change": 1.02,
+      "flow": 9075162880.0,
+      "flow_str": "+90.75亿",
       "direction": "in"
     },
     {
       "name": "工业金属",
       "code": "BK1287",
-      "index": 3437.66,
-      "change": 4.93,
-      "flow": 8227902208.0,
-      "flow_str": "+82.28亿",
+      "index": 3431.39,
+      "change": 4.74,
+      "flow": 8279125504.0,
+      "flow_str": "+82.79亿",
       "direction": "in"
     },
     {
       "name": "电池",
       "code": "BK1033",
-      "index": 1548.52,
-      "change": 2.56,
-      "flow": 7076521728.0,
-      "flow_str": "+70.77亿",
+      "index": 1545.74,
+      "change": 2.38,
+      "flow": 7176837376.0,
+      "flow_str": "+71.77亿",
       "direction": "in"
     },
     {
-      "name": "数字芯片设计",
-      "code": "BK1331",
-      "index": 26102.59,
-      "change": -0.77,
-      "flow": 6308572416.0,
-      "flow_str": "+63.09亿",
+      "name": "铜",
+      "code": "BK1615",
+      "index": 3927.49,
+      "change": 6.86,
+      "flow": 6247676416.0,
+      "flow_str": "+62.48亿",
       "direction": "in"
     }
   ],
@@ -127,6 +127,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "欧洲央行官员Dolenc：数据发出通胀警报 加息是必要之举",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
     {
       "title": "欧洲央行管委称必要时准备7月份再次加息",
       "source": "环球市场播报",
