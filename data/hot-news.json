@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 17:16",
+  "updateTime": "2026-06-12 17:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 70,
       "insight": {
-        "what": "SpaceX创纪录IPO启动，投行承销收入或达10亿美元",
-        "assets": "📈 美股科技股 利好；📈 航天板块 利好",
-        "chain": "IPO巨额融资推高市场风险偏好（资金涌入高风险高回报资产），带动相关ETF（交易所交易基金）资金流入",
-        "watch": "SpaceX首日涨跌幅及成交量"
+        "what": "SpaceX创纪录IPO，华尔街AI淘金热",
+        "assets": "📈 SpaceX股票 利好；📈 投行股 利好",
+        "chain": "IPO火爆提升市场风险偏好（投资者愿意冒险），利好科技股和AI板块",
+        "watch": "首日涨幅及成交量"
       }
     },
     {
@@ -23,80 +23,70 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "固定定价机制与美股波动共振，考验承销商定价能力",
-        "assets": "📉 美股指数 波动风险；📈 投行股 承销收入预期",
-        "chain": "定价偏差或引发套利盘（利用价差盈利的交易），放大日内波动，间接影响VIX（波动率指数）期货",
-        "watch": "首日开盘价与发行价偏差及盘中振幅"
+        "what": "SpaceX固定定价机制与美股波动共振",
+        "assets": "📉 美股波动率 承压；📈 SpaceX股票 不确定性",
+        "chain": "固定定价可能引发套利（价差交易）和破发风险，影响新股定价模式",
+        "watch": "首日收盘价与发行价偏离度"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX raising $75 billion in record-setting IPO as Nasdaq debut awaits",
-      "source": "CNBC",
-      "detail": "SpaceX is selling 555.6 shares at $135 a piece, raising $75 billion in the largest IPO on record.",
-      "lang": "en",
-      "score": 60,
-      "insight": {
-        "what": "SpaceX融资750亿美元，创美股最大IPO纪录",
-        "assets": "📈 纳斯达克指数 资金流入；📈 太空概念股 联动",
-        "chain": "巨额融资抽离流动性（市场可用资金减少），短期压制其他中小盘股表现",
-        "watch": "纳斯达克指数当日资金流向"
-      }
-    },
-    {
-      "rank": 4,
       "title": "SpaceX IPO live updates: Elon Musk's company set for biggest market debut ever",
       "source": "CNBC",
       "detail": "Follow SpaceX IPO live updates on price, ticker, broker access, valuation and what investors need to know before shares trade.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX削减散户配售比例至20%区间",
-        "assets": "📉 散户投资者 参与度降低；📈 机构投资者 话语权增强",
-        "chain": "散户比例下降减少首日波动，但可能削弱短期炒作热情，影响期权隐含波动率（市场预期波动程度）",
-        "watch": "首日散户交易量占比及期权波动率"
+        "what": "SpaceX今日挂牌，史上最大上市",
+        "assets": "📈 全球IPO市场 利好；📈 太空概念股 利好",
+        "chain": "超级IPO吸走流动性（市场资金），可能压制其他新股表现",
+        "watch": "后续机构持仓变化"
       }
     },
     {
-      "rank": 5,
-      "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
-      "source": "CNBC",
-      "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "市场观察者称SpaceX IPO是对马斯克信任投票",
-        "assets": "📈 特斯拉 情绪联动；📈 马斯克概念股 情绪驱动",
-        "chain": "马斯克个人声誉与公司估值挂钩，若首日破发（跌破发行价）将利空特斯拉等关联资产",
-        "watch": "马斯克相关公司股价及社交媒体舆情"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
-      "source": "CNBC",
-      "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
-      "lang": "en",
-      "score": 45
-    },
-    {
-      "rank": 7,
+      "rank": 4,
       "title": "Proposed Iran-U.S. deal would reopen Hormuz strait and lift oil sanctions, Iran state media says",
       "source": "CNBC",
       "detail": "U.S. President Donald Trump said Thursday that the Strait of Hormuz would be reopened as soon as a deal is signed.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "伊朗-美国协议拟重开霍尔木兹海峡并解除石油制裁",
+        "assets": "📉 原油 利空；📈 航运股 利好",
+        "chain": "供给增加预期压低油价，利好炼油厂（成本降低）和消费国",
+        "watch": "协议签署进展及OPEC（石油输出国组织）反应"
+      }
     },
     {
-      "rank": 8,
+      "rank": 5,
       "title": "铜价暴涨1350击穿10.4万！涨停潮席卷有色，追还是撤？",
       "source": "市场资讯",
       "detail": "长江有色金属网 单日暴涨1350元，铜价彻底疯了。 据长江有色网最新报价，6月12日长江现货1#铜均价104720元/吨，较前日飙涨1350元/吨，涨幅1.31%。什么概念？",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "铜价暴涨至10.4万，涨停潮席卷有色",
+        "assets": "📈 铜期货 利好；📈 有色板块 利好",
+        "chain": "铜价飙升反映需求强劲（如新能源），但过高可能抑制下游需求",
+        "watch": "LME（伦敦金属交易所）库存及中国政策信号"
+      }
     },
     {
-      "rank": 9,
+      "rank": 6,
+      "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
+      "source": "CNBC",
+      "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
+      "lang": "en",
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在美联储调查中的损失维持原判",
+        "assets": "📉 涉事金融机构 利空；📉 法律合规股 承压",
+        "chain": "监管趋严信号，增加金融业合规成本，利空高风险业务",
+        "watch": "美联储后续执法行动及行业罚款案例"
+      }
+    },
+    {
+      "rank": 7,
       "title": "交易员下调英国央行加息预期，市场对美伊协议前景愈发乐观",
       "source": "环球市场播报",
       "detail": " 全球股市周五上涨，此前特朗普暗示，一项结束伊朗战争的协议可能即将达成。与此同时，美国正准备迎接埃隆・马斯克旗下SpaceX的重磅上市。",
@@ -104,12 +94,28 @@
       "score": 36
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "交易员下调英国央行加息押注 对美伊协议的乐观情绪升温",
       "source": "环球市场播报",
       "detail": " 随着能源价格下跌，货币市场削减对英国央行加息的押注，目前更偏向预计英国央行到年底仅有一次25个基点的加息，这是6月1日以来首次出现这一预期。",
       "lang": "zh",
       "score": 36
+    },
+    {
+      "rank": 9,
+      "title": "SpaceX's Gwynne Shotwell says IPO is one small step in 'very futuristic' journey",
+      "source": "CNBC",
+      "detail": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 10,
+      "title": "A股万亿巨头年内涨超88%，美股将推两倍做多基金",
+      "source": "21世纪经济报道",
+      "detail": "记者丨林健民 编辑丨叶映橙 港股有两倍做多SK海力士，如今美股亦在酝酿两倍做多中际旭创（300308.SZ）。 6月12日，中际旭创股价涨2.22%，报1149元/股，总市值为1...",
+      "lang": "zh",
+      "score": 30
     }
   ]
 }
