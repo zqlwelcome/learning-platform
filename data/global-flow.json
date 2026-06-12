@@ -1,17 +1,17 @@
 {
-  "updateTime": "2026-06-13 00:25",
+  "updateTime": "2026-06-13 00:30",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "25819.66",
-      "change": "0.04"
+      "value": "25836.44",
+      "change": "0.10"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "51119.21",
-      "change": "0.53"
+      "value": "51136.76",
+      "change": "0.57"
     },
     "sh000001": {
       "name": "上证指数",
@@ -34,5 +34,11 @@
     "sgt": 5200000.0,
     "total": 0.0
   },
-  "bank_news": []
+  "bank_news": [
+    {
+      "title": "欧洲央行官员Kazimir称需进一步加息以遏制通胀",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    }
+  ]
 }
