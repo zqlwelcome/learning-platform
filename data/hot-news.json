@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 16:46",
+  "updateTime": "2026-06-12 16:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 76,
       "insight": {
-        "what": "SpaceX创纪录IPO，外资热捧但美元承压",
+        "what": "SpaceX创纪录IPO，外资热捧但美元走弱",
         "assets": "📈 美股科技股 利好；📉 美元指数 承压",
-        "chain": "外资涌入推高美股，但降息预期（美联储宽松）压制美元，美债收益率（借钱成本）可能下行",
-        "watch": "美联储利率决议及外资流入数据"
+        "chain": "外资流入推高美股，但降息预期（借钱成本降低）压制美元，科技股与美元负相关（反向联动）",
+        "watch": "美联储利率决议及美元指数走势"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 70,
       "insight": {
-        "what": "SpaceX IPO引爆华尔街AI淘金热，投行收入或达10亿",
+        "what": "SpaceX IPO引爆AI淘金热，投行收入或达10亿美元",
         "assets": "📈 美股AI概念股 利好；📈 投行股 利好",
-        "chain": "AI热潮驱动资金从防御板块（如公用事业）轮动至科技成长股，承销费收入提振金融板块",
-        "watch": "AI板块ETF资金流及投行Q4财报"
+        "chain": "AI叙事（故事逻辑）吸引资金从传统板块轮动，投行承销费增加提振金融板块（银行收入上升）",
+        "watch": "AI板块资金流入及投行财报"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX IPO固定定价与美股波动共振，考验承销商",
-        "assets": "📉 美股波动率 上升；📉 承销商风险 承压",
-        "chain": "固定定价（锁定发行价）若遇市场下跌，承销商需兜售股份，增加做市商对冲（期权保护）成本",
-        "watch": "VIX指数（恐慌指标）及IPO首日破发概率"
+        "what": "SpaceX固定定价机制与美股波动共振，考验承销商",
+        "assets": "📈 美股波动率指数 短期波动；📉 新股发行市场 承压",
+        "chain": "固定定价（固定发行价）若偏离市价，承销商面临库存风险（持有未售股票亏损），可能拖累二级市场情绪",
+        "watch": "上市首日破发幅度及成交量"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "散户抛售AI股囤现金备战SpaceX IPO",
-        "assets": "📉 AI热门股 承压；📈 现金类资产 利好",
-        "chain": "资金从高贝塔（高波动）AI股流出，转向货币基金（短期国债），IPO后可能回流科技",
-        "watch": "散户资金流数据及AI板块成交量"
+        "what": "SpaceX募资750亿美元创纪录，纳斯达克上市在即",
+        "assets": "📈 美股科技大盘股 利好；📈 纳斯达克指数 利好",
+        "chain": "巨额募资抽血（吸走流动性）但长期吸引资金追逐龙头，科技股估值锚（参照基准）上移",
+        "watch": "上市首日市值及换手率"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX削减散户配售至20%区间",
-        "assets": "📈 机构投资者 利好；📉 散户参与度 受限",
-        "chain": "机构获更多份额，首日涨幅或更稳定，但散户情绪受挫，可能转向其他IPO（如Reddit）",
-        "watch": "SpaceX首日涨幅及散户申购其他IPO数据"
+        "what": "散户抛售AI股囤现金，备战SpaceX等大型IPO",
+        "assets": "📉 AI热门股 承压；📈 现金/货币基金 利好",
+        "chain": "散户从AI股撤资导致板块回调，资金转向防御（低风险资产），IPO后可能回流推高科技股",
+        "watch": "散户资金流向及AI板块跌幅"
       }
     },
     {
@@ -77,7 +77,13 @@
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX削减散户配售比例至20%出头",
+        "assets": "📈 美股科技股 间接利好；📉 散户情绪 受挫",
+        "chain": "机构主导定价（大资金控制发行价）减少波动，但散户参与度降低可能压制短期交易量（买卖活跃度）",
+        "watch": "机构认购倍数及首日散户买卖占比"
+      }
     },
     {
       "rank": 7,
@@ -97,19 +103,19 @@
     },
     {
       "rank": 9,
-      "title": "美国5月CPI重返4%、PPI飙至6.5%，黄金或连续第二周走弱",
-      "source": "市场资讯",
-      "detail": "文章来源：汇通财经 周五（6月12日）亚洲时段，现货黄金冲高回落遭遇新一轮抛售，当前价格运行于4182美元/盎司附近。 美伊和平协议的不确定性提振了美元需求...",
-      "lang": "zh",
-      "score": 42
-    },
-    {
-      "rank": 10,
       "title": "Proposed Iran-U.S. deal would reopen Hormuz strait and lift oil sanctions, Iran state media says",
       "source": "CNBC",
       "detail": "U.S. President Donald Trump said Thursday that the Strait of Hormuz would be reopened as soon as a deal is signed.",
       "lang": "en",
       "score": 42
+    },
+    {
+      "rank": 10,
+      "title": "铜价暴涨1350击穿10.4万！涨停潮席卷有色，追还是撤？",
+      "source": "市场资讯",
+      "detail": "长江有色金属网 单日暴涨1350元，铜价彻底疯了。 据长江有色网最新报价，6月12日长江现货1#铜均价104720元/吨，较前日飙涨1350元/吨，涨幅1.31%。什么概念？",
+      "lang": "zh",
+      "score": 40
     }
   ]
 }
