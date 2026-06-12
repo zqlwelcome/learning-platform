@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 03:21",
+  "updateTime": "2026-06-13 03:25",
   "news": [
     {
       "rank": 1,
@@ -9,84 +9,92 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX IPO获3500亿美元认购，散户占20%",
-        "assets": "📈 太空概念股 利好；📈 散户交易平台 受益",
-        "chain": "散户热情推高IPO首日涨幅（+25%），可能引发监管对散户配售的审查",
-        "watch": "SpaceX股价后续走势及散户持仓变化"
+        "what": "SpaceX IPO获3500亿美元认购，散户占20%，首日涨25%",
+        "assets": "📈 SpaceX股票 利好\n📈 太空概念股 情绪提振",
+        "chain": "天量认购显示资金追捧（饥渴），可能推高同类IPO估值（定价），短期分流其他科技股资金（抽血）",
+        "watch": "SPCX后续换手率（交易活跃度）及二次发售（再融资）公告"
       }
     },
     {
       "rank": 2,
+      "title": "律所对Sleep Number发起证券欺诈调查 股价已暴跌逾九成",
+      "source": "环球市场播报",
+      "detail": "Wolf Haldenstein Adler Freeman &amp; Herz LLP律师事务所宣布，代表Sleep Number Corporation（纳斯达克代码：SNBR）的股东，对该公司可能存在的证券欺诈行为发起调查。...",
+      "lang": "zh",
+      "score": 50,
+      "insight": {
+        "what": "律所对Sleep Number发起证券欺诈调查，股价已跌超90%",
+        "assets": "📉 Sleep Number股票 利空\n📉 家居零售板块 情绪拖累",
+        "chain": "欺诈调查触发集体诉讼（索赔风险），可能加速股价下跌甚至退市（摘牌），做空机构或借机布局（空头头寸）",
+        "watch": "法院是否批准集体诉讼，以及公司财报中现金（流动性）数据"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "法官裁定Pirro在Fed调查中的损失不能注销",
-        "assets": "📉 银行股 承压；📉 金融监管合规成本 上升",
-        "chain": "裁决强化监管追责，银行可能增加拨备（预留资金应对损失），压缩利润",
-        "watch": "其他类似案件判决及银行合规支出变化"
+        "what": "法官裁定Pirro在美联储调查中的亏损应保留账面",
+        "assets": "📉 金融监管相关股 承压\n📉 银行股 情绪利空",
+        "chain": "裁决强化监管追责（执法严苛），增加金融机构合规成本（罚款风险），可能引发更多类似调查连锁反应（波及同行）",
+        "watch": "美联储后续是否扩大调查范围，以及银行股（金融板块）波动率（恐慌指数）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "欧洲央行官员Kazimir称需进一步加息以遏制通胀",
       "source": "环球市场播报",
       "detail": "欧洲央行管理委员会成员Peter Kazimir表示，通胀在整个经济领域的蔓延将迫使欧洲央行进一步提高利率。 这位斯洛伐克央行行长认为，价格压力在没有干预的情况下不会缓解。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行Kazimir称需进一步加息以遏制通胀",
-        "assets": "📈 欧元 升值；📉 欧债 承压；📉 欧洲股市 利空",
-        "chain": "加息（借钱成本提高）抑制经济，企业融资成本上升，盈利预期下调",
-        "watch": "欧央行下次会议利率决议及通胀数据"
+        "what": "欧洲央行官员Kazimir称需进一步加息遏制通胀",
+        "assets": "📈 欧元 利好\n📉 欧洲债券 承压\n📉 欧洲股市 利空",
+        "chain": "鹰派（主张紧缩）言论强化加息预期（借钱成本升高），推高欧元汇率（升值），压制欧洲股市估值（杀估值）",
+        "watch": "欧洲央行下次会议（利率决议）点阵图（预测利率路径）及欧元区CPI（通胀）数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SpaceX IPO live updates: SPCX pops more than 25% on historic volume in Nasdaq debut",
       "source": "CNBC",
       "detail": "Follow SpaceX IPO live updates on price, ticker, broker access, valuation and what investors need to know before shares trade.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX首日涨25%，成交量创历史纪录",
-        "assets": "📈 太空概念股 利好；📈 科技IPO市场 情绪提振",
-        "chain": "首日暴涨吸引更多散户跟风，可能推高同类未上市企业估值（如Starlink）",
-        "watch": "SpaceX后续交易日波动率及机构持仓报告"
+        "what": "SpaceX IPO首日暴涨25%，成交量创历史纪录",
+        "assets": "📈 SpaceX股票 利好\n📈 纳斯达克指数 情绪提振",
+        "chain": "首日爆量上涨引发散户FOMO（害怕错过），可能吸引更多资金涌入新股（打新热情），但高波动（震荡）预示回调风险",
+        "watch": "SPX后续期权（衍生品）隐含波动率，以及机构持仓（大户动向）变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "投资者关注SpaceX IPO后下一步计划",
-        "assets": "📈 太空基建股 利好；📉 传统航天股 竞争压力",
-        "chain": "市场重点关注星链（Starlink）商业化进度和火星任务，影响长期估值模型（DCF）",
-        "watch": "SpaceX财报中星链收入及发射频率"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
-      "source": "CNBC",
-      "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "散户争抢SpaceX IPO，部分认为估值过高",
-        "assets": "📈 散户交易平台 受益；📉 机构投资者 谨慎观望",
-        "chain": "散户热情可能引发短期泡沫（价格偏离基本面），但机构做空压力增加",
-        "watch": "SpaceX空头头寸及散户持仓比例变化"
+        "what": "SpaceX IPO后投资者聚焦下一步战略，关注后续发展",
+        "assets": "📈 SpaceX股票 中性偏多\n📈 太空产业链 情绪催化",
+        "chain": "上市后融资能力增强（钱多），加速星链（卫星互联网）和火星计划（长期故事），但业绩兑现压力增大（盈利预期）",
+        "watch": "公司财报中卫星互联网用户数（变现指标）及下一轮融资计划（稀释风险）"
       }
     },
     {
       "rank": 7,
+      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
+      "source": "CNBC",
+      "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
@@ -94,7 +102,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "For Warsh as Fed chair, silence may be the point",
       "source": "CNBC",
       "detail": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
@@ -102,18 +110,10 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "马斯克成为世界首位万亿富豪，大致相当于瑞士或波兰一年的GDP",
       "source": "环球市场播报",
       "detail": "埃隆·马斯克刚刚成为世界上第一位万亿富豪。 随着SpaceX周五在纳斯达克以每股150美元的价格开盘，他在该公司的持股价值超过7660亿美元。",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "纳斯达克总裁解读交易所如何完成SpaceX这类巨型IPO挂牌",
-      "source": "环球市场播报",
-      "detail": "纳斯达克总裁尼尔森・格里格斯在接受 CNBC 采访时表示，完成这场创纪录规模的新股上市，敲钟只是形式，敲定合理的首笔成交价格才是核心...",
       "lang": "zh",
       "score": 30
     }
