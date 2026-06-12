@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 11:25",
+  "updateTime": "2026-06-12 11:31",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,14 +16,14 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4050.25",
-      "change": "1.59"
+      "value": "4049.29",
+      "change": "1.56"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24693.550",
-      "change": "1.83"
+      "value": "24681.250",
+      "change": "1.78"
     }
   },
   "etf_flows": [
@@ -32,44 +32,44 @@
       "code": "510300",
       "price": 4.83,
       "change": 1.66,
-      "flow": 454958960.0,
-      "flow_str": "+4.55亿",
+      "flow": 456320720.0,
+      "flow_str": "+4.56亿",
       "direction": "in"
     },
     {
       "name": "证券ETF国泰",
       "code": "512880",
-      "price": 1.034,
-      "change": 2.58,
-      "flow": 426623872.0,
-      "flow_str": "+4.27亿",
+      "price": 1.039,
+      "change": 3.08,
+      "flow": 455945456.0,
+      "flow_str": "+4.56亿",
       "direction": "in"
     },
     {
       "name": "创业板ETF易方达",
       "code": "159915",
-      "price": 3.883,
-      "change": 1.38,
-      "flow": 361536688.0,
-      "flow_str": "+3.62亿",
+      "price": 3.878,
+      "change": 1.25,
+      "flow": 355354320.0,
+      "flow_str": "+3.55亿",
       "direction": "in"
     },
     {
       "name": "有色金属ETF南方",
       "code": "512400",
-      "price": 2.013,
-      "change": 7.07,
-      "flow": 263421468.0,
-      "flow_str": "+2.63亿",
+      "price": 2.015,
+      "change": 7.18,
+      "flow": 269342412.0,
+      "flow_str": "+2.69亿",
       "direction": "in"
     },
     {
       "name": "上证指数ETF富国",
       "code": "510210",
-      "price": 1.018,
-      "change": 1.6,
-      "flow": 187218794.0,
-      "flow_str": "+1.87亿",
+      "price": 1.017,
+      "change": 1.5,
+      "flow": 190029734.0,
+      "flow_str": "+1.90亿",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "有色金属",
       "code": "BK0478",
-      "index": 30417.99,
-      "change": 5.5,
-      "flow": 12355422720.0,
-      "flow_str": "+123.55亿",
+      "index": 30388.15,
+      "change": 5.39,
+      "flow": 12655625984.0,
+      "flow_str": "+126.56亿",
       "direction": "in"
     },
     {
       "name": "电力设备",
       "code": "BK1200",
-      "index": 6790.15,
-      "change": 2.86,
-      "flow": 7391174400.0,
-      "flow_str": "+73.91亿",
+      "index": 6776.7,
+      "change": 2.65,
+      "flow": 7552139008.0,
+      "flow_str": "+75.52亿",
       "direction": "in"
     },
     {
       "name": "工业金属",
       "code": "BK1287",
-      "index": 3489.06,
-      "change": 6.5,
-      "flow": 6861124352.0,
-      "flow_str": "+68.61亿",
-      "direction": "in"
-    },
-    {
-      "name": "电子",
-      "code": "BK1201",
-      "index": 13960.74,
-      "change": 0.77,
-      "flow": 5748604928.0,
-      "flow_str": "+57.49亿",
+      "index": 3485.27,
+      "change": 6.39,
+      "flow": 6963127296.0,
+      "flow_str": "+69.63亿",
       "direction": "in"
     },
     {
       "name": "数字芯片设计",
       "code": "BK1331",
-      "index": 26586.63,
-      "change": 1.07,
-      "flow": 5010799104.0,
-      "flow_str": "+50.11亿",
+      "index": 26533.29,
+      "change": 0.87,
+      "flow": 5106598400.0,
+      "flow_str": "+51.07亿",
+      "direction": "in"
+    },
+    {
+      "name": "铜",
+      "code": "BK1615",
+      "index": 3983.91,
+      "change": 8.39,
+      "flow": 5097853952.0,
+      "flow_str": "+50.98亿",
       "direction": "in"
     }
   ],
@@ -129,11 +129,6 @@
   "bank_news": [
     {
       "title": "韩国央行行长呼吁及时提高利率",
-      "source": "环球市场播报",
-      "keyword": "央行"
-    },
-    {
-      "title": "韩国央行行长再次暗示加息以缓解通胀压力",
       "source": "环球市场播报",
       "keyword": "央行"
     }
