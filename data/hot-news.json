@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 10:30",
+  "updateTime": "2026-06-12 10:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "SpaceX创纪录750亿美元IPO，确定发行价",
-        "assets": "📈 美股科技股 利好；📈 太空概念股 联动",
-        "chain": "巨量IPO抽血流动性（资金从其他股票流出），短期压制大盘，但提振市场情绪",
-        "watch": "首日涨幅及成交量，是否触发超额配售"
+        "what": "SpaceX以创纪录750亿美元募资额确定IPO发行价",
+        "assets": "📈 美股IPO市场 利好；📈 航天国防板块 利好",
+        "chain": "巨额IPO吸走流动性（资金从其他板块流出），但提振风险偏好（投资者愿意冒险）",
+        "watch": "首日上市股价涨幅及成交量"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "Elon Musk's rocket maker is set to debut on the Nasdaq on Friday in what will be the largest IPO in history.",
       "lang": "en",
-      "score": 59
+      "score": 59,
+      "insight": {
+        "what": "华尔街准备迎接SpaceX历史性IPO，期指小幅走高",
+        "assets": "📈 美股大盘 短期利好；📈 标普500 中性",
+        "chain": "IPO情绪带动指数（大盘）高开，但实际资金分流（钱从其他股票流向新股）",
+        "watch": "开盘后指数能否守住涨幅"
+      }
     },
     {
       "rank": 3,
@@ -29,7 +35,13 @@
       "source": "CNBC",
       "detail": "Sen. Elizabeth Warren seeking answers on changes to index provider waiting periods, protections for retail investors, in a letter obtained first by CNBC.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "参议员沃伦质疑SpaceX IPO监管，致信股指公司",
+        "assets": "📉 SpaceX 利空；📈 监管风险 上升",
+        "chain": "政治干预增加IPO不确定性（上市过程可能受阻），压制机构参与热情（大资金不敢买）",
+        "watch": "SEC（美国证监会）是否介入调查"
+      }
     },
     {
       "rank": 4,
@@ -37,7 +49,13 @@
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX将零售投资者IPO配售比例降至20%出头",
+        "assets": "📉 散户投资者 利空；📈 机构投资者 利好",
+        "chain": "零售配售少导致散户买不到筹码，开盘后散户追高可能推高股价（供不应求）",
+        "watch": "首日散户交易量与机构持仓变化"
+      }
     },
     {
       "rank": 5,
@@ -45,7 +63,13 @@
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO不会终结牛市，但投资者担忧后续影响",
+        "assets": "📉 科技成长股 承压；📈 避险资产（如国债） 利好",
+        "chain": "巨大IPO吸金效应（钱从其他科技股流出）可能引发板块轮动（资金转向防御性资产）",
+        "watch": "后续科技股资金流出速度及VIX（恐慌指数）变化"
+      }
     },
     {
       "rank": 6,
@@ -73,18 +97,18 @@
     },
     {
       "rank": 9,
-      "title": "欧央行加息+美伊和平信号，欧元为何冲高回落？",
-      "source": "滚动播报",
-      "detail": "汇通财经APP讯——周五（6月12日）亚洲时段早盘，受欧洲央行自2023年以来首次加息以及市场风险情绪改善的双重推动，欧元兑美元一度震荡走高至1.1585附近，随后有所回落...",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 10,
       "title": "Gold slumps to 6-month low even as inflation fears rise. Here's why bullion is out of favor",
       "source": "CNBC",
       "detail": "The yellow metal is at its lowest level of the year as potential interest rate increases and faltering technical signals weigh on prices.",
       "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "日韩股市高开 韩股开盘暴涨6.4%",
+      "source": "环球市场播报",
+      "detail": "日经225指数高开1.5%，报65176.23点，全市场个股普涨。韩国综合股价指数（KOSPI）开盘上涨6.4%，至8263.85点。",
+      "lang": "zh",
       "score": 32
     }
   ]
