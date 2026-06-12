@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 10:00",
+  "updateTime": "2026-06-12 10:06",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,110 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4030.82",
-      "change": "1.10"
+      "value": "4039.53",
+      "change": "1.32"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24599.150",
-      "change": "1.44"
+      "value": "24591.740",
+      "change": "1.41"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
+  "etf_flows": [
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.818,
+      "change": 3.53,
+      "flow": 378590048.0,
+      "flow_str": "+3.79亿",
+      "direction": "in"
+    },
+    {
+      "name": "创业板ETF易方达",
+      "code": "159915",
+      "price": 3.901,
+      "change": 1.85,
+      "flow": 236687952.0,
+      "flow_str": "+2.37亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华泰柏瑞",
+      "code": "510300",
+      "price": 4.811,
+      "change": 1.26,
+      "flow": 211655999.0,
+      "flow_str": "+2.12亿",
+      "direction": "in"
+    },
+    {
+      "name": "证券ETF国泰",
+      "code": "512880",
+      "price": 1.021,
+      "change": 1.29,
+      "flow": 151754246.0,
+      "flow_str": "+1.52亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.647,
+      "change": 3.05,
+      "flow": 115145312.0,
+      "flow_str": "+1.15亿",
+      "direction": "in"
+    }
+  ],
+  "sector_flows": [
+    {
+      "name": "电子",
+      "code": "BK1201",
+      "index": 14150.99,
+      "change": 2.14,
+      "flow": 10073608192.0,
+      "flow_str": "+100.74亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体",
+      "code": "BK1036",
+      "index": 2956.13,
+      "change": 2.96,
+      "flow": 7126018048.0,
+      "flow_str": "+71.26亿",
+      "direction": "in"
+    },
+    {
+      "name": "数字芯片设计",
+      "code": "BK1331",
+      "index": 27059.55,
+      "change": 2.87,
+      "flow": 4674349824.0,
+      "flow_str": "+46.74亿",
+      "direction": "in"
+    },
+    {
+      "name": "印制电路板",
+      "code": "BK1340",
+      "index": 12802.41,
+      "change": 2.86,
+      "flow": 3178686976.0,
+      "flow_str": "+31.79亿",
+      "direction": "in"
+    },
+    {
+      "name": "国防军工",
+      "code": "BK1204",
+      "index": 6128.02,
+      "change": 4.86,
+      "flow": 2956025216.0,
+      "flow_str": "+29.56亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
