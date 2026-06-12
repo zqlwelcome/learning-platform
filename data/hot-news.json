@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 16:15",
+  "updateTime": "2026-06-12 16:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 76,
       "insight": {
-        "what": "SpaceX创纪录IPO，筹资750亿美元，外资热捧",
-        "assets": "📈 美股科技股 利好；📉 美元 承压",
-        "chain": "外资涌入推高美股，但降息预期（借钱成本降低预期）削弱美元，利空美元资产",
-        "watch": "美联储利率决议及外资流入数据"
+        "what": "SpaceX创纪录IPO，外资热捧但美元承压",
+        "assets": "📈 美股科技股 利好；📉 美元指数 承压",
+        "chain": "外资流入推高美股，但美联储加息预期（借钱成本上升）未提振美元，暗示流动性偏紧（资金面紧张）",
+        "watch": "美元指数是否跌破关键支撑位"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 70,
       "insight": {
-        "what": "SpaceX IPO引爆AI淘金热，投行承销收入或达10亿美元",
+        "what": "SpaceX IPO引爆AI投资热潮，投行赚10亿美元",
         "assets": "📈 美股AI概念股 利好；📈 投行股 利好",
-        "chain": "AI热潮吸引资金从防御板块（如公用事业）轮动至科技，承销收入增厚投行利润",
-        "watch": "AI板块资金流向及投行财报"
+        "chain": "AI淘金热（追逐AI相关公司）带动科技板块估值（公司市值/盈利比）上升，投行承销收入激增",
+        "watch": "AI板块ETF资金流入量"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "SpaceX固定定价机制与美股波动共振，考验承销商",
-        "assets": "📉 美股波动率 上升；📉 承销商风险 增加",
-        "chain": "固定定价在波动市易导致破发（上市首日跌），承销商需兜底，利空其短期盈利",
-        "watch": "SpaceX上市首日涨跌幅及波动率指数（VIX）"
+        "what": "SpaceX固定定价IPO，考验承销商应对波动能力",
+        "assets": "📉 美股波动率 承压；📈 承销商风险 上升",
+        "chain": "固定定价（发行价锁定）与盘中波动共振，可能引发破发（上市首日跌破发行价）或超额配售（多卖股票）风险",
+        "watch": "SpaceX首日收盘价与发行价差值"
       }
     },
     {
@@ -51,30 +51,28 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "散户抛售AI股囤积现金，备战SpaceX等大型IPO",
-        "assets": "📉 美股AI热门股 承压；📈 现金 利好",
-        "chain": "散户抛压导致AI股回调，现金需求推高短期利率（如回购利率），压制风险偏好",
-        "watch": "散户持仓变化及货币市场基金规模"
+        "what": "散户抛售AI股囤现金，备战SpaceX打新",
+        "assets": "📉 美股AI热门股 承压；📈 货币基金 利好",
+        "chain": "散户赎回（卖出基金）换现金，抽血AI板块流动性（交易资金），推高短期利率（借钱成本）",
+        "watch": "散户现金仓位比例变化"
       }
     },
     {
       "rank": 5,
-      "title": "Stock futures tick higher as Wall Street gears up for SpaceX’s historic IPO: Live updates",
-      "source": "CNBC",
-      "detail": "Elon Musk's rocket maker is set to debut on the Nasdaq on Friday in what will be the largest IPO in history.",
-      "lang": "en",
-      "score": 59
-    },
-    {
-      "rank": 6,
       "title": "散户抛售AI热门股、囤积现金 备战SpaceX等大型IPO",
       "source": "环球市场播报",
       "detail": "万达研究公司的数据显示，本次SpaceX IPO将面向普通投资者放出更多股份，散户们似乎已准备好抢抓机会、提前入局。 这家机构专门追踪个股与交易所交易基金（ETF）的散户资金...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX削减散户配售比例至20%出头",
+        "assets": "📉 散户IPO中签率 利空；📈 机构投资者 利好",
+        "chain": "机构拿更多份额，上市后抛压（卖出压力）可能减轻，但散户情绪降温（参与热情下降）",
+        "watch": "IPO首日机构持仓变动"
+      }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
@@ -82,7 +80,7 @@
       "score": 45
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
@@ -90,7 +88,7 @@
       "score": 45
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
@@ -98,11 +96,19 @@
       "score": 45
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美国5月CPI重返4%、PPI飙至6.5%，黄金或连续第二周走弱",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周五（6月12日）亚洲时段，现货黄金冲高回落遭遇新一轮抛售，当前价格运行于4182美元/盎司附近。 美伊和平协议的不确定性提振了美元需求...",
       "lang": "zh",
+      "score": 42
+    },
+    {
+      "rank": 10,
+      "title": "Proposed Iran-U.S. deal would reopen Hormuz strait and lift oil sanctions, Iran state media says",
+      "source": "CNBC",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
       "score": 42
     }
   ]
