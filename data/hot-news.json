@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 15:26",
+  "updateTime": "2026-06-12 15:30",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 76,
       "insight": {
-        "what": "SpaceX启动史上最大IPO，筹资750亿美元",
-        "assets": "📈 美股科技股 利好; 📉 美元 承压",
-        "chain": "外资涌入美股（资本流入）推高科技板块，但IPO抽血流动性（市场资金减少）加剧美元卖压",
-        "watch": "美股科技板块资金流向及美元指数（DXY）"
+        "what": "SpaceX创纪录IPO融资750亿，散户抢购但获配比例仅20%",
+        "assets": "📈 美股科技股 利好；📈 特斯拉(TSLA) 联动看涨",
+        "chain": "散户抛售AI股囤现金打新→科技板块短期流动性抽血（资金搬家效应）",
+        "watch": "SpaceX首日涨幅及散户中签率"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "散户抛售AI热门股、囤积现金备战SpaceX IPO",
-        "assets": "📉 AI概念股 承压; 📈 现金/货币基金 利好",
-        "chain": "散户资金从AI板块撤出（行业轮动）转为现金，短期压制AI股估值，IPO后可能回流",
-        "watch": "散户现金持仓比例及AI板块ETF资金流出"
+        "what": "前美联储官员呼吁尽快加息，警告通胀持续是政策失误",
+        "assets": "📉 美国国债 承压；📈 美元指数 短期走强",
+        "chain": "加息预期升温→长端利率上行（借钱成本上升）→压制成长股估值（折现率提高）",
+        "watch": "本周美联储官员讲话及CPI数据"
       }
     },
     {
@@ -37,28 +37,36 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "SpaceX削减散户IPO配售至低20%区间",
-        "assets": "📈 SpaceX新股 利好; 📉 零售交易平台 承压",
-        "chain": "减少散户份额（供给稀缺）推高首日溢价，但抑制散户交易量（零售券商佣金收入下降）",
-        "watch": "SpaceX首日涨幅及Robinhood等券商交易量"
+        "what": "散户抛售AI热门股囤积现金，备战SpaceX等大型IPO",
+        "assets": "📉 AI概念股 承压；📈 现金/货币基金 流入",
+        "chain": "散户抛压→AI板块回调→量化基金被迫止损（趋势跟踪策略）",
+        "watch": "AI板块成交量及散户资金流向"
       }
     },
     {
       "rank": 4,
-      "title": "散户抛售AI热门股、囤积现金 备战SpaceX等大型IPO",
-      "source": "环球市场播报",
-      "detail": "万达研究公司的数据显示，本次SpaceX IPO将面向普通投资者放出更多股份，散户们似乎已准备好抢抓机会、提前入局。 这家机构专门追踪个股与交易所交易基金（ETF）的散户资金...",
+      "title": "沃什“首秀”应如何定调？FED前官员呼吁尽快加息：通胀持续是政策错误！",
+      "source": "滚动播报",
+      "detail": "财联社6月11日讯（编辑 黄君芝）下周，新上任的美联储主席凯文·沃什（Kevin Warsh）即将主持其任期内的第一次联邦公开市场委员会（FOMC）会议...",
       "lang": "zh",
-      "score": 45,
+      "score": 48,
       "insight": {
-        "what": "市场观察者认为SpaceX IPO是对马斯克的公投",
-        "assets": "📈 SpaceX新股 利好; 📉 特斯拉 联动",
-        "chain": "IPO成功强化马斯克信用（市场信心），利好特斯拉估值（关联资产）；失败则反向冲击",
-        "watch": "马斯克社交媒体动态及特斯拉股价波动"
+        "what": "外资热捧美国资产但难挺美元，降息预期与IPO资金潮博弈",
+        "assets": "📉 美元指数 震荡偏弱；📈 新兴市场货币 反弹",
+        "chain": "外资流入美股→美元需求增加但降息预期压制→美元陷入区间（多空拉锯）",
+        "watch": "美联储利率期货定价及资金流向数据"
       }
     },
     {
       "rank": 5,
+      "title": "散户抛售AI热门股、囤积现金 备战SpaceX等大型IPO",
+      "source": "环球市场播报",
+      "detail": "万达研究公司的数据显示，本次SpaceX IPO将面向普通投资者放出更多股份，散户们似乎已准备好抢抓机会、提前入局。 这家机构专门追踪个股与交易所交易基金（ETF）的散户资金...",
+      "lang": "zh",
+      "score": 45
+    },
+    {
+      "rank": 6,
       "title": "SpaceX cuts retail IPO allocation to low 20% range, source says",
       "source": "CNBC",
       "detail": "The Elon Musk-led company plans to direct a percentage in the low 20s of the offering to retail buyers, according to a person familiar with the matter.",
@@ -66,7 +74,7 @@
       "score": 45
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "SpaceX IPO is a ‘referendum’ on Musk, say market watchers",
       "source": "CNBC",
       "detail": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets — and serve as a \"referendum\" on Elon Musk's leadership.",
@@ -74,7 +82,7 @@
       "score": 45
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "SpaceX IPO won’t ‘break’ the bull market. But investors are worried about what comes next",
       "source": "CNBC",
       "detail": "As far as Wall Street is concerned, the stock market has what it takes to absorb the new supply.",
@@ -82,7 +90,7 @@
       "score": 45
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美国5月CPI重返4%、PPI飙至6.5%，黄金或连续第二周走弱",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周五（6月12日）亚洲时段，现货黄金冲高回落遭遇新一轮抛售，当前价格运行于4182美元/盎司附近。 美伊和平协议的不确定性提振了美元需求...",
@@ -90,20 +98,12 @@
       "score": 42
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "科创板改革“1+6”政策措施发布以来 科创板IPO新增受理59家",
       "source": "证券时报网",
       "detail": "人民财讯6月12日电，中国证监会上海监管局副局长赵国富在6月12日举行的上海市新闻发布会上表示，一年来，中国证监会会同各方深入落实科创板改革“1+6”政策措施...",
       "lang": "zh",
       "score": 42
-    },
-    {
-      "rank": 10,
-      "title": "欧洲央行官员Dolenc：数据发出通胀警报 加息是必要之举",
-      "source": "环球市场播报",
-      "detail": "欧洲央行管理委员会成员Primoz Dolenc周四表示，加息是控制通胀的必要之举，官员们在评估中东冲突的更广泛影响。 这位斯洛文尼亚央行行长在欧洲央行宣布加息数小时后接受采...",
-      "lang": "zh",
-      "score": 36
     }
   ]
 }
