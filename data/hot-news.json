@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 17:46",
+  "updateTime": "2026-06-12 17:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Warren质疑SpaceX IPO监管，致信股指",
-        "assets": "📉 SpaceX估值 承压, 📈 竞争对手如波音 利好",
-        "chain": "监管审查加严可能推迟IPO，削弱市场对太空股风险偏好（投资者对高风险资产态度变保守）",
-        "watch": "SEC对SpaceX披露要求的新声明"
+        "what": "Warren质疑SpaceX IPO监管，要求指数剔除",
+        "assets": "📉 SpaceX 利空\n📈 传统航天股 利好",
+        "chain": "监管不确定性压制IPO估值，资金可能转向已上市航天股（替代效应）",
+        "watch": "SEC对SpaceX IPO审查进度"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO在即，或成史上最大上市",
-        "assets": "📈 太空概念股 利好, 📈 纳斯达克指数 短期提振",
-        "chain": "巨量IPO抽走流动性（市场资金），短期利空其他成长股，但长期提升太空产业链估值",
-        "watch": "IPO定价区间及认购倍数"
+        "what": "SpaceX IPO即将启动，史上最大规模",
+        "assets": "📈 SpaceX 利好\n📉 竞争对手（如波音）承压",
+        "chain": "巨额融资加速星链（卫星互联网）扩张，挤压传统通信股（竞争加剧）",
+        "watch": "IPO定价及认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗-美国协议拟重开霍尔木兹海峡并解除石油制裁",
-        "assets": "📉 原油 承压, 📈 航运股（海峡通行） 利好, 📈 新兴市场石油进口国 利好",
-        "chain": "油价下跌降低通胀预期（物价上涨压力），推升全球风险资产（如股票）和债券收益率（借钱成本）",
-        "watch": "OPEC+是否跟随减产应对油价下跌"
+        "what": "伊朗-美国协议拟重开霍尔木兹海峡并解除制裁",
+        "assets": "📉 原油 利空\n📈 航运股 利好\n📈 新兴市场货币 利好",
+        "chain": "油价下跌降低通胀预期（原材料成本下降），利好进口国（如印度）和航空股",
+        "watch": "OPEC+减产政策是否调整"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "法官裁定Pirro在美联储调查中的损失应保留记录",
-        "assets": "📉 美联储信誉 承压, 📉 银行股 短期利空",
-        "chain": "调查结果可能引发更严金融监管（如资本要求提高），抑制银行放贷意愿，利空经济",
-        "watch": "美联储后续是否修订监管规则"
+        "what": "法官裁定Pirro在美联储调查中的损失不能注销",
+        "assets": "📉 金融股（如银行）承压",
+        "chain": "增加金融机构法律合规成本（坏账风险），可能引发更多监管罚款",
+        "watch": "美联储后续监管报告"
       }
     },
     {
@@ -65,27 +65,33 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "交易员下调英国央行加息预期，因美伊协议乐观",
-        "assets": "📉 英镑 承压, 📈 英国国债 利好（价格上涨）",
-        "chain": "加息预期降温压低英镑汇率（贬值），同时油价下跌缓解英国通胀，利空能源股，利好消费股",
-        "watch": "英国CPI数据（消费者物价指数）"
+        "what": "交易员下调英央行加息预期，因美伊协议乐观",
+        "assets": "📉 英镑 承压\n📈 英国国债 利好",
+        "chain": "油价下跌（成本降低）缓解通胀，英央行可能推迟加息（货币政策宽松），利好债市",
+        "watch": "英国CPI数据及英央行下次会议"
       }
     },
     {
       "rank": 6,
-      "title": "交易员下调英国央行加息押注 对美伊协议的乐观情绪升温",
-      "source": "环球市场播报",
-      "detail": " 随着能源价格下跌，货币市场削减对英国央行加息的押注，目前更偏向预计英国央行到年底仅有一次25个基点的加息，这是6月1日以来首次出现这一预期。",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 7,
       "title": "SpaceX’s Gwynne Shotwell had IPO doubts for years, now she has a message for investors",
       "source": "CNBC",
       "detail": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "Shotwell曾质疑IPO，现向投资者传递信心",
+        "assets": "📈 SpaceX 利好",
+        "chain": "高管表态稳定市场情绪，但历史疑虑可能压制首日涨幅（预期差交易）",
+        "watch": "IPO路演中机构反馈"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "上半年A股11家上市公司退市 律师提醒：受损股民可索赔",
+      "source": "市场资讯",
+      "detail": "随着退市新规发力，A股市场的优胜劣汰机制显现出前所未有的威力。据统计，截至2026年6月中旬，今年以来A股退市或锁定退市的公司数量已突破20家...",
+      "lang": "zh",
+      "score": 33
     },
     {
       "rank": 8,
