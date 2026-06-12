@@ -1,8 +1,22 @@
 {
-  "updateTime": "2026-06-13 04:00",
+  "updateTime": "2026-06-13 04:05",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX stock closes at $161.11, jumping 19% after record IPO: Live updates",
+      "source": "CNBC",
+      "detail": "Follow SpaceX IPO live updates on price, ticker, broker access, valuation and what investors need to know before shares trade.",
+      "lang": "en",
+      "score": 62,
+      "insight": {
+        "what": "SpaceX上市首日暴涨19%",
+        "assets": "📈 SpaceX股票 利好, 📈 航天军工板块 利好",
+        "chain": "IPO（首次公开募股）成功提振风险偏好，可能带动资金涌入未上市科技公司（pre-IPO轮估值上调）",
+        "watch": "SpaceX后续财报及卫星互联网业务收入"
+      }
+    },
+    {
+      "rank": 2,
       "title": "律所对Sleep Number发起证券欺诈调查 股价已暴跌逾九成",
       "source": "环球市场播报",
       "detail": "Wolf Haldenstein Adler Freeman &amp; Herz LLP律师事务所宣布，代表Sleep Number Corporation（纳斯达克代码：SNBR）的股东，对该公司可能存在的证券欺诈行为发起调查。...",
@@ -10,51 +24,37 @@
       "score": 50,
       "insight": {
         "what": "律所对Sleep Number发起证券欺诈调查",
-        "assets": "📉 Sleep Number股价 利空; 📉 做空机构 利好",
-        "chain": "调查可能触发集体诉讼，增加公司法律成本，进一步打压股价（负反馈循环）。",
-        "watch": "Sleep Number是否收到SEC传票或集体诉讼立案"
+        "assets": "📉 Sleep Number股票 利空, 📉 家具零售板块 承压",
+        "chain": "调查引发投资者恐慌性抛售，同类高负债消费股可能面临做空压力（空头头寸增加）",
+        "watch": "SEC（美国证监会）是否正式立案及公司财报"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "法官裁定Pirro在美联储调查中的亏损应计入账目",
-        "assets": "📉 法律风险相关个股 承压; 📉 金融监管股 中性偏空",
-        "chain": "此裁决强化监管追溯力，可能增加其他金融机构的合规风险溢价（风险溢价升高）。",
-        "watch": "类似案件判决是否被援引，以及美联储后续执法态度"
+        "what": "法官裁定Pirro在美联储调查中的亏损需保留",
+        "assets": "📉 银行股 利空, 📉 金融监管板块 承压",
+        "chain": "裁决强化监管追责预期，银行合规成本上升，可能抑制信贷扩张（贷款增速放缓）",
+        "watch": "美联储后续对银行的罚款金额及新规"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "欧洲央行官员Kazimir称需进一步加息以遏制通胀",
       "source": "环球市场播报",
       "detail": "欧洲央行管理委员会成员Peter Kazimir表示，通胀在整个经济领域的蔓延将迫使欧洲央行进一步提高利率。 这位斯洛伐克央行行长认为，价格压力在没有干预的情况下不会缓解。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行官员Kazimir称需进一步加息以遏制通胀",
-        "assets": "📈 欧元 看涨; 📉 欧洲国债 承压; 📉 全球科技股 利空",
-        "chain": "加息预期推高欧元汇率，压制欧洲需求，同时全球资金成本上升（贴现率升高）打压成长股估值。",
-        "watch": "欧元区CPI数据及欧洲央行下次会议点阵图"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "SpaceX IPO live updates: SPCX pops more than 25% on historic volume in Nasdaq debut",
-      "source": "CNBC",
-      "detail": "Follow SpaceX IPO live updates on price, ticker, broker access, valuation and what investors need to know before shares trade.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX上市首日大涨25%，交易量创纪录",
-        "assets": "📈 SpaceX股票 利好; 📈 航天板块 利好; 📉 做空者 利空",
-        "chain": "IPO火爆吸引散户资金，推高同类空间概念股估值（板块轮动效应），但高估值可能引发回调风险。",
-        "watch": "SPCX后续成交量及机构持仓变化"
+        "what": "欧洲央行官员Kazimir称需进一步加息",
+        "assets": "📈 欧元 利好, 📉 欧债 利空, 📉 欧洲股市 承压",
+        "chain": "加息预期推高欧元汇率，欧债收益率（利息回报率）上升，可能压制欧洲地产和消费股",
+        "watch": "欧元区CPI（消费者物价指数）及下次欧央行会议声明"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX上市后关注焦点转向未来增长计划",
-        "assets": "📈 航天供应链 利好; 📉 传统航空股 承压",
-        "chain": "投资者将押注星链及火星计划，相关订单预期利好上游供应商（产业链传导），同时挤压传统航空股资金。",
-        "watch": "SpaceX财报中星链用户数和发射订单量"
+        "what": "SpaceX IPO后投资者聚焦未来计划",
+        "assets": "📈 SpaceX股票 中性偏多, 📈 卫星互联网板块 利好",
+        "chain": "市场关注星链商业化及火星任务进展，若超预期将带动产业链上游供应商订单（卫星零部件）",
+        "watch": "SpaceX星链用户数及火箭发射频率"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "散户抢购SpaceX IPO，部分机构认为估值过高",
-        "assets": "📈 SpaceX 短期看涨; 📉 估值敏感型投资者 利空",
-        "chain": "散户情绪驱动短期泡沫，但若盈利不及预期，可能引发踩踏（流动性危机），类似2021年SPAC泡沫。",
-        "watch": "SpaceQ财报毛利率及自由现金流是否转正"
+        "what": "散户争抢SpaceX IPO股份，部分认为估值过高",
+        "assets": "📈 SpaceX股票 短期利好, 📉 科技股估值 承压",
+        "chain": "散户狂热可能推高首日波动，若后续回调将打击市场对高估值科技股信心（泡沫风险）",
+        "watch": "SpaceX股票成交量及机构持仓变化"
       }
     },
     {
