@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 06:00",
+  "updateTime": "2026-06-13 06:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
-        "assets": "📈 SpaceX股票 利好; 📈 航天板块 情绪提振",
-        "chain": "资金涌入太空概念，可能挤压其他成长股（高估值板块）流动性，触发板块轮动（资金从旧经济流向新经济）",
-        "watch": "SpaceX后续财报及产能交付数据"
+        "what": "SpaceX IPO首日大涨19%，市值破2万亿美元",
+        "assets": "📈 SpaceX股票 利好；📈 航天军工板块 利好",
+        "chain": "提振一级市场情绪，带动未上市科技公司估值上修（估值重估）",
+        "watch": "后续交易量及机构持仓变化"
       }
     },
     {
@@ -32,9 +32,9 @@
       "score": 50,
       "insight": {
         "what": "律所对Sleep Number发起证券欺诈调查",
-        "assets": "📉 Sleep Number股票 利空; 📉 家居零售板块 承压",
-        "chain": "调查引发投资者对消费类公司财报真实性质疑，可能加剧做空（押注下跌）情绪，波及同类高负债零售商",
-        "watch": "SEC是否正式立案及公司回应"
+        "assets": "📉 Sleep Number股票 利空；📉 家居消费板块 承压",
+        "chain": "引发投资者对高负债消费股的避险，可能触发做空机构关注（空头盯防）",
+        "watch": "调查进展及公司财报披露"
       }
     },
     {
@@ -43,30 +43,38 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "法官裁定Pirro在Fed调查中的亏损继续入账",
-        "assets": "📉 相关金融股 利空; 📉 银行板块 情绪偏空",
-        "chain": "该裁决强化监管追责预期，银行可能计提更多法律拨备（预留赔偿金），压缩利润空间",
-        "watch": "其他银行类似案件进展"
-      }
+      "score": 38
     },
     {
       "rank": 5,
+      "title": "美债交易员下调美联储2026年加息押注 因市场寄望和平协议",
+      "source": "环球市场播报",
+      "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "美债交易员下调美联储2026年加息押注",
+        "assets": "📈 美债 利好；📉 美元 承压；📈 风险资产 利好",
+        "chain": "降息预期升温（借钱成本降低预期）推高股市，削弱美元吸引力",
+        "watch": "和平谈判进展及CPI数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "欧洲央行官员Kazimir称需进一步加息以遏制通胀",
       "source": "环球市场播报",
       "detail": "欧洲央行管理委员会成员Peter Kazimir表示，通胀在整个经济领域的蔓延将迫使欧洲央行进一步提高利率。 这位斯洛伐克央行行长认为，价格压力在没有干预的情况下不会缓解。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行Kazimir称需进一步加息遏制通胀",
-        "assets": "📈 欧元 利好; 📉 欧债 承压; 📉 欧洲科技股 利空",
-        "chain": "加息预期推升欧元汇率，压制欧洲出口竞争力，同时高利率（借钱成本高）打压成长股估值",
-        "watch": "欧央行下次会议加息幅度及通胀数据"
+        "what": "欧洲央行官员Kazimir称需进一步加息",
+        "assets": "📈 欧元 利好；📉 欧债 承压；📉 欧洲股市 利空",
+        "chain": "欧央行鹰派（倾向加息）信号加剧全球紧缩担忧，压制风险偏好",
+        "watch": "欧央行下次会议利率决议"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
@@ -74,7 +82,7 @@
       "score": 35
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
@@ -82,7 +90,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
@@ -90,20 +98,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "Call Kevin Warsh the Fed 'chairman'",
-      "source": "CNBC",
-      "detail": "Kevin Warsh's two immediate predecessors preferred to be called the Fed \"chair.\" For Warsh, it's \"chairman\" of the Federal Reserve.",
-      "lang": "en",
-      "score": 33
     }
   ]
 }
