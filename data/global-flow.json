@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-12 19:01",
+  "updateTime": "2026-06-12 19:06",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -27,53 +27,7 @@
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "有色金属",
-      "code": "BK0478",
-      "index": 29895.64,
-      "change": 3.69,
-      "flow": 14409043712.0,
-      "flow_str": "+144.09亿",
-      "direction": "in"
-    },
-    {
-      "name": "电力设备",
-      "code": "BK1200",
-      "index": 6689.61,
-      "change": 1.33,
-      "flow": 9175586560.0,
-      "flow_str": "+91.76亿",
-      "direction": "in"
-    },
-    {
-      "name": "工业金属",
-      "code": "BK1287",
-      "index": 3440.65,
-      "change": 5.02,
-      "flow": 8368950784.0,
-      "flow_str": "+83.69亿",
-      "direction": "in"
-    },
-    {
-      "name": "电池",
-      "code": "BK1033",
-      "index": 1549.65,
-      "change": 2.64,
-      "flow": 7436598528.0,
-      "flow_str": "+74.37亿",
-      "direction": "in"
-    },
-    {
-      "name": "铜",
-      "code": "BK1615",
-      "index": 3933.88,
-      "change": 7.03,
-      "flow": 6300585216.0,
-      "flow_str": "+63.01亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0.0,
@@ -81,6 +35,11 @@
     "total": 0.0
   },
   "bank_news": [
+    {
+      "title": "受食品与燃油价格上涨推动，印度5月零售通胀进一步走高",
+      "source": "环球市场播报",
+      "keyword": "通胀"
+    },
     {
       "title": "若沃什出任美联储主席，保持缄默或将成为其施政核心思路",
       "source": "环球市场播报",
