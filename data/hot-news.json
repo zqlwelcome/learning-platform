@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 01:25",
+  "updateTime": "2026-06-13 01:31",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 55,
       "insight": {
         "what": "SpaceX IPO获3500亿美元认购，散户配20%",
-        "assets": "📈 SpaceX股票（SPCX） 利好；📈 太空概念股 联动",
-        "chain": "散户热情推高开盘溢价（IPO首日涨幅），可能引发空头（押注下跌）关注估值泡沫",
-        "watch": "SPCX首日收盘价及成交量"
+        "assets": "📈 SpaceX股票 利好；📉 其他太空股 承压",
+        "chain": "散户狂热推高首日涨幅，可能触发空头回补（做空者被迫买入平仓）",
+        "watch": "首日收盘价及成交量，CFRA卖出评级影响"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "法官裁定Pirro在Fed调查中的亏损必须保留",
-        "assets": "📉 金融股 承压；📉 银行板块 监管风险",
-        "chain": "监管趋严（规则收紧）可能增加银行合规成本，利空银行盈利预期",
-        "watch": "Fed后续调查范围是否扩大"
+        "what": "法官裁定Pirro在Fed调查中的损失需保留账面",
+        "assets": "📉 金融监管股 承压；📈 法律合规服务 利好",
+        "chain": "此案加强监管机构（美联储）执法权，增加金融业诉讼风险（法律成本上升）",
+        "watch": "Pirro后续上诉及Fed其他调查进展"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行Kazimir称需进一步加息遏制通胀",
-        "assets": "📈 欧元 升值；📉 欧洲债券 承压；📉 欧洲股市 利空",
-        "chain": "加息（借钱成本提高）抑制经济，欧股估值（股价/盈利比）下修，欧元走强打压出口",
-        "watch": "欧央行下次会议点阵图（利率预测）"
+        "what": "欧洲央行Kazimir称需进一步加息对抗通胀",
+        "assets": "📈 欧元 利好；📉 欧洲债券 承压",
+        "chain": "加息预期（借钱成本提高）压制欧洲股市估值，推高欧元兑美元汇率（货币升值）",
+        "watch": "欧元区CPI数据及欧央行下次会议决议"
       }
     },
     {
@@ -51,42 +51,50 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO首日暴涨30%",
-        "assets": "📈 SpaceX股票（SPCX） 强势；📈 风投/私募 情绪提振",
-        "chain": "IPO赚钱效应吸引更多资金涌入一级市场（未上市企业），推高其他科技独角兽估值",
-        "watch": "SPCX后续是否回调及换手率"
+        "what": "SpaceX首日涨30%，创史上最大IPO",
+        "assets": "📈 SpaceX股票 利好；📈 科技IPO板块 情绪提振",
+        "chain": "暴涨吸引散户跟风，但CFRA卖出评级暗示估值泡沫（股价远超基本面）",
+        "watch": "后续机构持仓变化及锁定期（禁止卖股期）结束"
       }
     },
     {
       "rank": 5,
+      "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
+      "source": "CNBC",
+      "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "CFRA在SpaceX IPO后立即给出卖出评级",
+        "assets": "📉 SpaceX股票 承压；📉 科技新股 情绪利空",
+        "chain": "卖出评级可能抑制机构买入，增加短期抛压（卖盘压力），但散户热情或对冲",
+        "watch": "其他投行是否跟进评级及目标价调整"
+      }
+    },
+    {
+      "rank": 6,
       "title": "SpaceX’s Gwynne Shotwell had IPO doubts for years, now she has a message for investors",
       "source": "CNBC",
       "detail": "Gwynne Shotwell, long Elon Musk's second-in-command at SpaceX, spoke exclusively with CNBC ahead of her company's highly anticipated IPO.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX高管曾多年怀疑IPO，现向投资者喊话",
-        "assets": "📈 SpaceX长期持有者 信心；📈 航天供应链 利好",
-        "chain": "高管背书（官方支持）降低市场对估值争议的担忧，强化多头（看涨方）逻辑",
-        "watch": "管理层后续减持（卖出股票）公告"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
-      "source": "CNBC",
-      "detail": "While SpaceX's IPO has caused alarm that it may be overvalued, some retail investors still want in.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "散户抢购SpaceX IPO，尽管部分人认为估值愚蠢",
-        "assets": "📈 SpaceX散户持仓 集中；📉 理性投资者 谨慎",
-        "chain": "散户FOMO（害怕错过）情绪可能超买（买入过多），若基本面不及预期易引发踩踏（集体抛售）",
-        "watch": "SPCX做空比例（押注下跌的仓位）"
+        "what": "SpaceX高管曾对IPO存疑，现向投资者喊话",
+        "assets": "📈 SpaceX股票 情绪支撑；📈 太空板块 信心增强",
+        "chain": "高管表态缓解市场对管理层信心不足的担忧，但需验证后续财报（盈利数据）",
+        "watch": "公司首次财报及长期订单（长期合同）数据"
       }
     },
     {
       "rank": 7,
+      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
+      "source": "CNBC",
+      "detail": "While SpaceX's IPO has caused alarm that it may be overvalued, some retail investors still want in.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "For Warsh as Fed chair, silence may be the point",
       "source": "CNBC",
       "detail": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
@@ -94,7 +102,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "A Google AI project delay may have hurt chip stocks. But data center buildout remains on track",
       "source": "CNBC",
       "detail": "Computing infrastructure company Crusoe is no longer involved in a data center project being built in Wyoming.",
@@ -102,20 +110,12 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "纳斯达克总裁解读交易所如何完成SpaceX这类巨型IPO挂牌",
       "source": "环球市场播报",
       "detail": "纳斯达克总裁尼尔森・格里格斯在接受 CNBC 采访时表示，完成这场创纪录规模的新股上市，敲钟只是形式，敲定合理的首笔成交价格才是核心...",
       "lang": "zh",
       "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "午盘：美股涨跌不一 SpaceX市值超2万亿美元",
-      "source": "环球市场播报",
-      "detail": "北京时间6月13日凌晨，美股周五午盘涨跌不一。传美伊接近达成和平协议。伊朗官方媒体报道称该和平协议将使霍尔木兹海峡重新开放。",
-      "lang": "zh",
-      "score": 25
     }
   ]
 }
