@@ -65,6 +65,60 @@ const AI_PM_DEEPENING_PACKS = {
             ['Model Context Protocol Docs', 'https://modelcontextprotocol.io/docs']
         ]
     },
+    'adv-1': {
+        skills: ['高级Agent岗位拆解', '业务边界定义', '解决方案视角'],
+        output: '写一页《高级Agent解决方案岗位能力地图》：业务、架构、评估、交付、资产沉淀。',
+        practice: '选金融/汽车/电商/游戏一个行业，列3个Agent场景，并判断是否值得做PoC。',
+        readings: [
+            ['Google People + AI Guidebook', 'https://pair.withgoogle.com/guidebook/'],
+            ['Stanford AI Index Report', 'https://aiindex.stanford.edu/report/']
+        ]
+    },
+    'adv-2': {
+        skills: ['复杂Workflow', '多步骤规划', '人工确认点'],
+        output: '画一张Agent Workflow：Intent、Plan、Act、Check、Repair、Deliver。',
+        practice: '为退款客服Agent设计6步流程，标注失败重试、转人工和日志节点。',
+        readings: [
+            ['OpenAI Agents SDK', 'https://platform.openai.com/docs/guides/agents'],
+            ['Anthropic Building Effective Agents', 'https://www.anthropic.com/engineering/building-effective-agents']
+        ]
+    },
+    'adv-3': {
+        skills: ['Context Engineering', 'State Management', 'Memory设计'],
+        output: '设计一张Context卡片：系统上下文、任务上下文、业务上下文、用户上下文。',
+        practice: '给企业销售Agent设计短期状态和长期记忆，标注哪些信息可删除、会过期。',
+        readings: [
+            ['OpenAI Prompt Engineering', 'https://platform.openai.com/docs/guides/prompt-engineering'],
+            ['Model Context Protocol Docs', 'https://modelcontextprotocol.io/docs']
+        ]
+    },
+    'adv-4': {
+        skills: ['Tool Orchestration', 'Sandbox权限', 'Agent Harness'],
+        output: '写一份工具注册表：工具用途、权限等级、输入输出、失败策略、审计字段。',
+        practice: '为合同审查Agent设计工具清单，并区分只读、写入和必须人工确认的动作。',
+        readings: [
+            ['OpenAI Function Calling', 'https://platform.openai.com/docs/guides/function-calling'],
+            ['OWASP LLM Security', 'https://owasp.org/www-project-top-10-for-large-language-model-applications/']
+        ]
+    },
+    'adv-5': {
+        skills: ['Agent Evals', 'Bad Case归因', 'Prompt/RAG/SFT决策'],
+        output: '建立一套Agent评测集：任务、理想路径、允许工具、风险红线、成功标准。',
+        practice: '给招聘筛选Agent设计10条测试任务，并判断问题该用Prompt、RAG还是SFT解决。',
+        readings: [
+            ['OpenAI Evals Guide', 'https://platform.openai.com/docs/guides/evals'],
+            ['NIST AI Risk Management Framework', 'https://www.nist.gov/itl/ai-risk-management-framework']
+        ]
+    },
+    'adv-6': {
+        skills: ['To B方案', 'PoC验收', '商业化交付'],
+        output: '写一份Agent PoC方案：客户痛点、Workflow、数据源、验收指标、风险控制、ROI。',
+        practice: '把一篇Agent论文或Demo转成一个客户可买单的产品方案。',
+        readings: [
+            ['Google SRE Book', 'https://sre.google/sre-book/table-of-contents/'],
+            ['a16z AI Infrastructure', 'https://a16z.com/ai-infrastructure/']
+        ]
+    },
     'data-1': {
         skills: ['AI指标体系', '离线/在线评估', '业务指标映射'],
         output: '搭一套指标树：模型指标、产品指标、业务指标、风险指标各3个。',
