@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 04:11",
+  "updateTime": "2026-06-14 04:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX IPO首日大涨19%，市值破2万亿",
-        "assets": "📈 SpaceX 股票 利好；📈 太空概念股 利好",
-        "chain": "财富效应（资产增值）→ 高净值客户理财需求上升 → 利好财富管理股（如Baird推荐标的）",
-        "watch": "SpaceX后续财报及订单数据"
+        "what": "SpaceX IPO首日暴涨19%，市值破2万亿美元",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 联动上行",
+        "chain": "财富效应（资产增值）-> 财富管理公司（如Baird）客户资产增加，利好其股价",
+        "watch": "SpaceX后续交易日成交量及波动率（衡量资金流入持续性）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "高盛认为英伟达等科技股仍有上涨空间",
-        "assets": "📈 美股科技股 利好；📈 半导体ETF 利好",
-        "chain": "AI资本开支（企业投入）持续 → 芯片需求旺盛 → 科技板块估值（股价/盈利比）仍有支撑",
-        "watch": "英伟达财报及AI相关订单指引"
+        "what": "Baird称财富顾问股将受益于SpaceX IPO带来的客户财富增长",
+        "assets": "📈 财富管理板块（如Baird、摩根士丹利） 利好",
+        "chain": "SpaceX股东套现（卖出股票获利）-> 资金流入财富管理（委托投资）-> 管理费收入增加",
+        "watch": "财富管理公司Q1财报中AUM（管理资产规模）变化"
       }
     },
     {
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by revenue of tech's megacaps.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "高盛称英伟达等AI股仍有上涨空间",
+        "assets": "📈 英伟达 利好；📈 AI芯片板块 看多",
+        "chain": "AI资本开支（企业购买算力设备）持续扩张-> 英伟达订单能见度高（未来收入确定性）-> 估值（股价/盈利）仍有支撑",
+        "watch": "英伟达下季度营收指引（公司对未来的预测）及毛利率"
+      }
     },
     {
       "rank": 4,
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "Analysts at Goldman Sachs named several stocks that have defensive attributes that they say also offer plenty of upside.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "美债交易员下调2026年美联储加息押注，因和平协议预期",
+        "assets": "📈 美债价格 利好；📉 美元 承压；📈 新兴市场货币 利好",
+        "chain": "和平协议（地缘风险下降）-> 通胀预期降温（物价上涨压力减轻）-> 市场减少加息押注-> 长端美债收益率（长期利率）下行",
+        "watch": "俄乌/中东和平谈判进展及美国CPI（消费者物价指数）数据"
+      }
     },
     {
       "rank": 5,
@@ -51,13 +63,7 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📉 美元 承压；📈 美债 利好；📈 新兴市场货币 利好",
-        "chain": "加息预期降温 → 实际利率下行（扣除通胀的借贷成本）→ 风险资产（股市、商品）吸引力上升",
-        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
-      }
+      "score": 36
     },
     {
       "rank": 6,
