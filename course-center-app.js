@@ -498,7 +498,7 @@ function renderLesson(lesson, color, seriesId, progress) {
     const statusText = isCompleted ? '已完成' : '随缘看';
     
     return `
-        <div class="course-lesson" onclick="openLesson('${lesson.id}', '${seriesId}')">
+        <div class="course-lesson" data-lesson-id="${lesson.id}" onclick="openLesson('${lesson.id}', '${seriesId}')">
             <div class="course-lesson-check ${isCompleted ? 'completed' : ''}">
                 ${statusIcon}
             </div>
@@ -604,6 +604,9 @@ function openPMLesson(lessonId) {
         ${lesson.content}
         ${renderLessonDeepeningPack(lessonId)}
         <div class="lesson-actions">
+            <button class="lesson-nav-btn" onclick="returnToLessonNavigation('${lessonId}')">
+                回到章节导航
+            </button>
             <button class="done-btn ${isCompleted ? 'completed' : ''}" onclick="toggleLessonComplete('${lessonId}')">
                 ${isCompleted ? '已充过电（点击取消）' : '这节我看过了'}
             </button>
@@ -611,6 +614,28 @@ function openPMLesson(lessonId) {
     `;
     
     modal.classList.remove('hidden');
+    body.scrollTop = 0;
+}
+
+function getSeriesIdForLesson(lessonId) {
+    if (typeof COURSE_SERIES === 'undefined') return 'ai-pm';
+    const series = COURSE_SERIES.find(item =>
+        item.modules?.some(module => module.lessons?.some(lesson => lesson.id === lessonId))
+    );
+    return series?.id || 'ai-pm';
+}
+
+function returnToLessonNavigation(lessonId) {
+    const seriesId = getSeriesIdForLesson(lessonId);
+    closeModal();
+    openSeriesDetail(seriesId);
+    setTimeout(() => {
+        const lessonEl = document.querySelector(`.course-lesson[data-lesson-id="${lessonId}"]`);
+        if (!lessonEl) return;
+        lessonEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        lessonEl.classList.add('course-lesson-focus');
+        setTimeout(() => lessonEl.classList.remove('course-lesson-focus'), 1400);
+    }, 80);
 }
 
 function renderLessonDeepeningPack(lessonId) {
