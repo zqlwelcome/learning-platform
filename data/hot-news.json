@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 17:21",
+  "updateTime": "2026-06-13 17:22",
   "news": [
     {
       "rank": 1,
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "SpaceX IPO首日暴涨19%，收盘价161美元。",
+        "assets": "SPCX（看涨）",
+        "chain": "首日跳涨触发动量交易（追涨），但高估值引发多空分歧（波动率上升）。",
+        "watch": "SPCX后续交易量及机构持仓变化。"
+      }
     },
     {
       "rank": 4,
@@ -71,7 +77,13 @@
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "投资者关注SpaceX IPO后发展路径。",
+        "assets": "SPCX（中性）",
+        "chain": "市场聚焦公司基本面（如星链收入），影响长期估值（市盈率预期）。",
+        "watch": "SpaceX财报或星链用户增长数据。"
+      }
     },
     {
       "rank": 7,
@@ -79,7 +91,13 @@
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "散户争抢SpaceX IPO，部分认为估值愚蠢。",
+        "assets": "SPCX（看跌）",
+        "chain": "散户狂热推高短期价格（投机泡沫），但理性质疑暗示回调风险（均值回归）。",
+        "watch": "散户持仓比例及空头头寸变化。"
+      }
     },
     {
       "rank": 8,
@@ -87,7 +105,13 @@
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "众议院共和党领袖家族投资或从SpaceX IPO获利。",
+        "assets": "SPCX（看涨）",
+        "chain": "政治关联增强市场信心（内幕交易风险），但监管审查可能压制股价（合规成本）。",
+        "watch": "SEC是否调查内幕交易指控。"
+      }
     },
     {
       "rank": 9,
@@ -95,7 +119,13 @@
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "CFRA在SpaceX IPO后立即给予卖出评级。",
+        "assets": "SPCX（看跌）",
+        "chain": "卖方负面评级触发获利了结（卖压），加剧多空博弈（波动率上升）。",
+        "watch": "其他投行是否跟进下调评级。"
+      }
     },
     {
       "rank": 10,
@@ -103,7 +133,13 @@
       "source": "CNBC",
       "detail": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh任美联储主席可能保持沉默策略。",
+        "assets": "美元（看跌）、美债（看涨）",
+        "chain": "鸽派预期（低利率环境）削弱美元，推高债券价格（收益率曲线陡化）。",
+        "watch": "Warsh公开讲话或货币政策信号。"
+      }
     }
   ]
 }
