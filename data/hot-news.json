@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 01:15",
+  "updateTime": "2026-06-14 01:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值突破2万亿美元",
-        "assets": "📈 SpaceX股票 利好\n📈 太空概念股 利好",
-        "chain": "财富效应（资产增值）推高财富管理股，如Baird（券商）受益于客户资本利得",
-        "watch": "SpaceX后续财报及订单增长"
+        "what": "SpaceX IPO首日暴涨19%，市值破2万亿美元",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 联动",
+        "chain": "IPO成功提振一级市场（新股发行）情绪，利好券商股（如Baird）和科技IPO",
+        "watch": "SpaceX后续财报及订单量"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "高盛称英伟达等科技股仍有上涨空间",
-        "assets": "📈 美股科技股（英伟达等） 利好\n📈 半导体ETF 利好",
-        "chain": "AI资本开支（企业投钱买算力）预期强化，推动半导体供应链（如台积电、ASML）订单",
-        "watch": "英伟达下一季财报及AI芯片需求数据"
+        "what": "Baird认为财富顾问股受益于SpaceX IPO客户变富",
+        "assets": "📈 财富管理/券商股 利好",
+        "chain": "客户资产增值→管理费收入增加（AUM增长）→推升估值",
+        "watch": "财富管理公司AUM（管理资产规模）数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "美债交易员下调2026年美联储加息押注，因和平协议预期",
-        "assets": "📈 美债 利好（价格涨）\n📉 美元 承压\n📉 避险资产（黄金） 承压",
-        "chain": "风险偏好（愿意买风险资产）回升，资金从债市流向股市，同时美元走弱利好新兴市场货币",
-        "watch": "俄乌和平谈判进展及美联储利率点阵图"
+        "what": "高盛称英伟达等股票仍有上涨空间",
+        "assets": "📈 英伟达 利好；📈 AI芯片股 联动",
+        "chain": "AI需求持续超预期→算力（计算能力）投入不减→芯片股获估值支撑",
+        "watch": "英伟达下一季度订单指引"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "CNBC",
       "detail": "Analysts at Goldman Sachs named several stocks that have defensive attributes that they say also offer plenty of upside.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
+        "assets": "📈 美债 利好（价格涨）；📉 美元 承压",
+        "chain": "和平协议降低通胀预期→加息概率下降→长端利率（长期债券收益率）下行",
+        "watch": "俄乌/中东和平谈判进展"
+      }
     },
     {
       "rank": 5,
@@ -65,13 +71,7 @@
       "source": "CNBC",
       "detail": "Despite a large retail allocation and huge volume, volatility was moderate",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX从10%成功概率到2万亿市值，历史性IPO",
-        "assets": "📈 太空概念股 利好\n📈 风险投资（VC）板块 情绪提振",
-        "chain": "IPO市场回暖（新股发行活跃），吸引资金涌入一级市场（未上市企业投资），推高科技独角兽估值",
-        "watch": "后续科技公司IPO（如Stripe、Reddit）定价及首日表现"
-      }
+      "score": 35
     },
     {
       "rank": 7,
