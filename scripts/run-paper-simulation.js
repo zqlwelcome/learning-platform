@@ -71,6 +71,132 @@ function removeWeekendEntryTrades(trades) {
     return (trades || []).filter((trade) => !trade.entryDate || isPaperTradingDay(trade.entryDate));
 }
 
+function getTargetMetaMap(sandbox) {
+    try {
+        return new Map((sandbox.getTradeCandidateUniverse() || []).map((target) => [target.symbol, target]));
+    } catch (error) {
+        return new Map();
+    }
+}
+
+function hasAnyTheme(item, themes) {
+    return themes.some((theme) => (item.themes || []).includes(theme));
+}
+
+function getCandidateThreshold(candidate) {
+    let threshold = candidate.kind === 'Stock' ? 88 : 66;
+    if (candidate.eventType === '供需/地缘') {
+        threshold += hasAnyTheme(candidate, ['oil', 'energy', 'gold']) ? 16 : 8;
+    }
+    if (candidate.eventType === '宏观类') threshold += 4;
+    if (candidate.riskMode === '防御' && hasAnyTheme(candidate, ['ai', 'semiconductor', 'us-growth', 'hk-tech', 'a-tech'])) {
+        threshold += 6;
+    }
+    return threshold;
+}
+
+function passesCandidateQuality(candidate) {
+    const factors = candidate.entryFactors || {};
+    if (candidate.eventType === '供需/地缘' && hasAnyTheme(candidate, ['oil', 'energy', 'gold'])) {
+        return Number(candidate.confirmationScore || 0) >= 84 &&
+            Number(factors.price || 0) >= 12 &&
+            Number(factors.flow || 0) >= 16 &&
+            Number(factors.risk || 0) >= 14;
+    }
+    return Number(candidate.confirmationScore || 0) >= getCandidateThreshold(candidate);
+}
+
+function daysBetween(start, end) {
+    return Math.max(0, Math.floor((new Date(end) - new Date(start)) / 86400000));
+}
+
+function hasRecentSymbolTrade(trades, symbol, today, cooldownDays = 15) {
+    return (trades || []).some((trade) =>
+        trade.symbol === symbol &&
+        trade.status !== '重复剔除' &&
+        trade.entryDate &&
+        daysBetween(trade.entryDate, today) < cooldownDays
+    );
+}
+
+function getChinaDate() {
+    return new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Shanghai',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+    }).format(new Date());
+}
+
+function strengthenCandidates(candidates, sandbox, existingTrades) {
+    const metaMap = getTargetMetaMap(sandbox);
+    const symbolSeen = new Set();
+    const eventCounts = new Map();
+    const today = getChinaDate();
+
+    return (candidates || [])
+        .map((candidate) => ({
+            ...candidate,
+            themes: metaMap.get(candidate.symbol)?.themes || candidate.themes || []
+        }))
+        .filter(passesCandidateQuality)
+        .filter((candidate) => !hasRecentSymbolTrade(existingTrades, candidate.symbol, today, 15))
+        .filter((candidate) => {
+            if (symbolSeen.has(candidate.symbol)) return false;
+            const maxPerEvent = candidate.eventType === '供需/地缘' ? 1 : 2;
+            const current = eventCounts.get(candidate.eventType) || 0;
+            if (current >= maxPerEvent) return false;
+            symbolSeen.add(candidate.symbol);
+            eventCounts.set(candidate.eventType, current + 1);
+            return true;
+        })
+        .slice(0, 6);
+}
+
+function pruneDuplicateNoise(trades) {
+    const duplicates = [];
+    const clean = [];
+    (trades || []).forEach((trade) => {
+        if (trade.status === '重复剔除') duplicates.push(trade);
+        else clean.push(trade);
+    });
+    return clean.concat(duplicates.slice(0, 8));
+}
+
+function getBenchmarkComparison(trades, portfolio) {
+    const effective = (trades || []).filter((trade) => trade.status !== '重复剔除');
+    const latestBySymbol = new Map();
+    effective.forEach((trade) => {
+        if (!latestBySymbol.has(trade.symbol)) latestBySymbol.set(trade.symbol, trade);
+    });
+    const refs = [
+        ['usSPY', '标普500ETF SPY'],
+        ['usQQQ', '纳指100ETF QQQ'],
+        ['usGLD', '黄金ETF GLD'],
+        ['sh510300', '沪深300ETF 510300']
+    ].map(([symbol, label]) => {
+        const trade = latestBySymbol.get(symbol);
+        return {
+            symbol,
+            label,
+            samplePnlPct: typeof trade?.pnlPct === 'number' ? Number(trade.pnlPct.toFixed(2)) : null,
+            entryDate: trade?.entryDate || null
+        };
+    });
+    const available = refs.map((item) => item.samplePnlPct).filter((value) => typeof value === 'number');
+    const benchmarkAvgPct = available.length
+        ? Number((available.reduce((sum, value) => sum + value, 0) / available.length).toFixed(2))
+        : null;
+    const modelReturnPct = Number((((portfolio.equity || 100000) - 100000) / 100000 * 100).toFixed(2));
+    return {
+        modelReturnPct,
+        benchmarkAvgPct,
+        relativePct: benchmarkAvgPct === null ? null : Number((modelReturnPct - benchmarkAvgPct).toFixed(2)),
+        refs,
+        note: '基准为模拟盘内已有代表ETF样本的同期浮动，用于方向参考；后续可接历史行情做严格基准。'
+    };
+}
+
 async function main() {
     const previous = readJson(outputPath, { trades: [] });
     const hotNews = readHotNews();
@@ -82,8 +208,9 @@ async function main() {
 
     const quoteMap = await sandbox.loadTradeQuoteMap();
     const macro = sandbox.assessTradeMacroRegime(hotNews.news);
-    const candidates = sandbox.getPaperTradeCandidates(hotNews.news, quoteMap, macro);
-    const trades = sandbox.updatePaperTrades(candidates, quoteMap, macro);
+    const rawCandidates = sandbox.getPaperTradeCandidates(hotNews.news, quoteMap, macro);
+    const candidates = strengthenCandidates(rawCandidates, sandbox, existingTrades);
+    const trades = pruneDuplicateNoise(sandbox.updatePaperTrades(candidates, quoteMap, macro));
     const phaseStats = sandbox.getPaperPhaseStats(trades);
     const portfolio = sandbox.getPaperPortfolioStats(trades);
 
@@ -95,10 +222,16 @@ async function main() {
     const excludedCount = trades.filter(trade => trade.status === '重复剔除').length;
 
     const output = {
-        version: 2,
+        version: 3,
         mode: 'cloud-paper-simulator',
         updateTime: new Date().toISOString(),
         newsSource: hotNews.source,
+        modelTuning: {
+            duplicateCooldownDays: 15,
+            maxCandidatesPerRun: 6,
+            eventCaps: '供需/地缘每轮最多1个，其它事件每轮最多2个',
+            commodityRule: '油气/黄金/能源类必须确认分>=84，且价格、资金、风险三项同时过线。'
+        },
         tradingCalendar: {
             timezone: 'Asia/Shanghai',
             rule: '周一至周五允许新增模拟入场；周末只更新复盘和观察，不新增买入记录。'
@@ -135,7 +268,8 @@ async function main() {
             exposurePct: portfolio.exposurePct,
             portfolioCap: sandbox.getPaperPortfolioCap(macro),
             riskMode: sandbox.getPaperRiskMode(macro),
-            alerts: portfolio.alerts
+            alerts: portfolio.alerts,
+            benchmark: getBenchmarkComparison(trades, portfolio)
         },
         phaseStats,
         trades,
