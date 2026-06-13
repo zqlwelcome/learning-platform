@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 20:00",
+  "updateTime": "2026-06-13 20:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX首日暴涨19%，市值破2万亿",
-        "assets": "📈 太空概念股 利好; 📈 马斯克相关ETF 利好",
-        "chain": "IPO成功提振私人航天估值预期，带动相关板块风险偏好（资金流入高风险资产）",
-        "watch": "SpaceX后续财报能否支撑高估值"
+        "what": "SpaceX上市首日暴涨19%，市值破2万亿",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
+        "chain": "IPO溢价（首日涨幅）吸引资金涌入，推高同类科技股估值（市盈率），提振风险偏好（冒险情绪）",
+        "watch": "SpaceX后续财报及产能（发射频率）数据"
       }
     },
     {
@@ -24,23 +24,23 @@
       "score": 50,
       "insight": {
         "what": "律所对Sleep Number发起证券欺诈调查",
-        "assets": "📉 Sleep Number(SNBR) 利空; 📉 家居零售板块 承压",
-        "chain": "调查引发抛售，可能触发更多做空（押注下跌）和集体诉讼，拖累同类消费股",
-        "watch": "SNBR是否跌破前低及财报修正"
+        "assets": "📉 Sleep Number股票 承压；📉 家居消费股 联动利空",
+        "chain": "诉讼风险（法律成本）叠加股价暴跌，触发机构止损（强制卖出），波及同板块做市商（市场流动性）",
+        "watch": "Sleep Number是否面临集体诉讼及退市风险"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX IPO takeaways: SPCX closes at $161, jumping 19% after record debut",
+      "title": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
       "source": "CNBC",
-      "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
+      "detail": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by revenue of tech's megacaps.",
       "lang": "en",
-      "score": 50,
+      "score": 45,
       "insight": {
-        "what": "美债交易员下调2026年加息押注",
-        "assets": "📈 美债 利好; 📉 美元 承压; 📈 新兴市场 利好",
-        "chain": "降息预期升温（借钱成本预期降低）压低长端收益率，资金从美元流向非美资产",
-        "watch": "和平协议谈判进展与CPI（消费者物价指数）数据"
+        "what": "美债交易员下调2026年美联储加息押注",
+        "assets": "📈 美债 利好（价格上涨）；📉 美元 承压",
+        "chain": "加息预期降温（未来利率下降）→ 长端美债收益率下行（借钱成本更低）→ 利空美元汇率（资金外流）",
+        "watch": "和平协议谈判进展及美国CPI（通胀）数据"
       }
     },
     {
@@ -49,13 +49,7 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "法官裁定Pirro在Fed调查中的损失不得撤销",
-        "assets": "📉 相关法律/金融股 利空; 📉 信用衍生品 承压",
-        "chain": "裁决增加监管不确定性，可能引发类似案件索赔，提高金融合规成本",
-        "watch": "Fed后续执法行动及同类诉讼进展"
-      }
+      "score": 38
     },
     {
       "rank": 5,
@@ -71,7 +65,13 @@
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后市场聚焦未来增长路径",
+        "assets": "📈 SpaceX股票 中性偏多；📈 卫星通信板块 联动利好",
+        "chain": "市场关注点从首日交易转向基本面（营收/利润），若星链（卫星网络）盈利超预期，将带动上下游供应链（供应商）",
+        "watch": "SpaceX下一季度星链用户增长及发射合同"
+      }
     },
     {
       "rank": 7,
