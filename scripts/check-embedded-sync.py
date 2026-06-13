@@ -21,39 +21,45 @@ def repair_duplication(dd):
         dd = dd.replace(bad, good)
     return dd
 
+def strip_trailing_commas(js_str):
+    """Remove trailing commas (JS syntax) so json.loads can parse it."""
+    return re.sub(r',(\s*[}\]])', r'\1', js_str)
+
 def get_embedded_update_time(dd_path):
     with open(dd_path) as f:
         dd = f.read()
     dd = repair_duplication(dd)
     marker = 'const _EMBEDDED_DATA = '
     # Find the LAST occurrence to avoid any leftover prefix fragments
-    start = dd.rfind(marker)
-    if start == -1:
+    marker_start = dd.rfind(marker)
+    if marker_start == -1:
         raise ValueError("Could not find 'const _EMBEDDED_DATA = ' in daily-data.js")
-    start += len(marker)
+    data_start = marker_start + len(marker)
     depth = 0
-    for i in range(start, len(dd)):
+    for i in range(data_start, len(dd)):
         if dd[i] == '{': depth += 1
         elif dd[i] == '}':
             depth -= 1
             if depth == 0:
-                return json.loads(dd[start:i+1].rstrip(';')), dd, start, i+1
+                raw = dd[data_start:i+1].rstrip(';')
+                fixed = strip_trailing_commas(raw)
+                return json.loads(fixed), dd, marker_start, data_start, i+1
     raise ValueError("Could not find end of _EMBEDDED_DATA block")
 
-def sync_embedded(ev_path, dd_path, dd, start, end):
+def sync_embedded(ev_path, dd_path, dd, marker_start, end):
     ev = json.load(open(ev_path))
     new_data = {"updateTime": ev["updateTime"], "mood": ev["mood"], "experts": ev["experts"]}
     new_json = json.dumps(new_data, ensure_ascii=False, indent=4)
     new_block = f"const _EMBEDDED_DATA = {new_json};\n"
     with open(dd_path, 'w') as f:
-        f.write(dd[:start] + new_block + dd[end:])
+        f.write(dd[:marker_start] + new_block + dd[end:])
     return ev["updateTime"]
 
 ev_path = os.path.join(BASE, "data/expert-views.json")
 dd_path = os.path.join(BASE, "daily-data.js")
 
 try:
-    embedded, dd, start, end = get_embedded_update_time(dd_path)
+    embedded, dd, marker_start, data_start, end = get_embedded_update_time(dd_path)
     ev = json.load(open(ev_path))
     ev_time = ev["updateTime"]
     emb_time = embedded["updateTime"]
@@ -64,7 +70,7 @@ try:
     else:
         print(f"⚠️  STALE embedded data: {emb_time} (expected: {ev_time})")
         if "--fix" in sys.argv:
-            new_time = sync_embedded(ev_path, dd_path, dd, start, end)
+            new_time = sync_embedded(ev_path, dd_path, dd, marker_start, end)
             print(f"✅ Synced embedded data to: {new_time}")
             sys.exit(0)
         else:
