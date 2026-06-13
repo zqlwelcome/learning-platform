@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 09:20",
+  "updateTime": "2026-06-13 09:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX上市首日暴涨19%，市值破2万亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 太空板块ETF 利好",
-        "chain": "SpaceX高估值（市值>2万亿）提升太空赛道风险偏好（投资者愿意买相关资产），可能推高同类未上市企业估值",
-        "watch": "SpaceX后续股价能否站稳160美元上方"
+        "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
+        "assets": "📈 太空概念股 利好；📈 科技成长股 情绪提振",
+        "chain": "IPO溢价（上市首日涨幅）吸引散户资金涌入，可能挤压其他科技股流动性（资金流出效应）",
+        "watch": "SPCX后续成交量及分析师目标价调整"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "Sleep Number遭律所证券欺诈调查，股价暴跌超90%",
-        "assets": "📉 Sleep Number股票 利空；📉 家居消费板块 承压",
-        "chain": "欺诈调查引发流动性危机（投资者抛售），可能触发空头挤压（做空者被迫买入平仓）或退市风险",
-        "watch": "调查进展及是否出现集体诉讼索赔"
+        "what": "律所对Sleep Number发起证券欺诈调查",
+        "assets": "📉 Sleep Number 利空；📉 家居消费股 情绪承压",
+        "chain": "调查触发集体诉讼风险（投资者索赔），可能拖累同行业估值（板块轮动至防御性资产）",
+        "watch": "公司是否披露更多财务违规细节"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "华尔街对SpaceX目标价分歧极大，60-190美元",
-        "assets": "📈 SpaceX股票 波动；📈 科技成长股 分化",
-        "chain": "极端分歧（多空博弈）导致期权隐含波动率（预期价格波动幅度）飙升，可能吸引套利资金",
-        "watch": "机构研报后续是否收敛目标价"
+        "what": "华尔街对SpaceX目标价分歧极大（60-190美元）",
+        "assets": "📉 SPCX 波动率上升；📈 做空期权 需求增加",
+        "chain": "极端分歧引发多空博弈（对冲基金套利），加剧个股波动性，或带动太空ETF（交易所交易基金）资金流入",
+        "watch": "期权隐含波动率（IV）及空头持仓变化"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 SpaceX完成史上最大IPO之一，在华尔街掀起激烈“估值战争”：乐观派将其视作“世纪机遇”，喊出190美元目标价；悲观派则狠批估值透支...",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "交易员下调美联储2026年加息押注",
+        "assets": "📈 美债 看涨（价格涨）；📉 美元 承压",
+        "chain": "加息预期减弱推低长端利率（10年期美债收益率），利好风险资产（股市/商品），但利空银行净息差（借贷利差收窄）",
+        "watch": "美联储点阵图（利率预测）及CPI（通胀）数据"
+      }
     },
     {
       "rank": 5,
@@ -65,27 +71,21 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📉 美元指数 承压；📈 美债价格 上涨；📈 新兴市场货币 利好",
-        "chain": "加息预期降温（借钱成本不再上升）→美债收益率下行→资金流入风险资产（股票/商品）",
-        "watch": "4月非农就业数据和CPI（通胀指标）"
-      }
+      "score": 36
     },
     {
       "rank": 7,
-      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
+      "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
-      "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
+      "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
       "score": 35
     },
     {
       "rank": 8,
-      "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
+      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
       "source": "CNBC",
-      "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
+      "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
       "lang": "en",
       "score": 35
     },
