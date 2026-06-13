@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 16:18",
+  "updateTime": "2026-06-13 16:19",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "散户争相参与SpaceX IPO，尽管部分人认为估值过高。",
+        "assets": "SpaceX股票（看涨短期，看空长期）",
+        "chain": "散户情绪驱动（FOMO效应）推高首日交易量，但高估值可能引发机构获利回吐（均值回归）。",
+        "watch": "SpaceX首日收盘价及散户持仓变化。"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "众议院共和党高层家族投资预计从SpaceX IPO中获益。",
+        "assets": "SpaceX股票（看涨，政治关联利好）",
+        "chain": "政治关联信号（内幕信息风险）增强市场信心，但可能引发监管审查（政策风险）。",
+        "watch": "国会披露文件及SEC对关联交易的调查。"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "CFRA在SpaceX IPO后立即给予卖出评级。",
+        "assets": "SpaceX股票（看跌）",
+        "chain": "卖方负面评级（分析师共识）触发短期抛压，但若基本面强劲，可能形成买入机会（逆向指标）。",
+        "watch": "其他投行评级更新及SpaceX财报。"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh作为美联储主席候选人，沉默可能是关键策略。",
+        "assets": "美元（看涨）、美债收益率（看涨）",
+        "chain": "政策不确定性（鸽派/鹰派信号缺失）导致市场波动，沉默暗示维持现状（预期管理）。",
+        "watch": "Warsh公开讲话及美联储政策声明。"
+      }
     }
   ]
 }
