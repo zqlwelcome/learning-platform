@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 22:31",
+  "updateTime": "2026-06-13 22:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值突破2万亿美元",
-        "assets": "📈 SpaceX 股票 利好; 📈 太空概念股 利好",
-        "chain": "财富效应（市值膨胀→客户资产增值）利好财富管理股，如Baird推荐标的",
-        "watch": "SpaceX后续财报及机构持仓变化"
+        "what": "SpaceX IPO首日暴涨19%，市值破2万亿美元",
+        "assets": "📈 SpaceX 股票 利好; 📈 太空概念股 联动利好",
+        "chain": "财富效应（资产升值）→ 财富管理公司客户资产增值，Baird等股受益",
+        "watch": "SpaceX后续财报及太空产业链订单"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "高盛称英伟达等科技股仍有上涨空间",
-        "assets": "📈 美股科技股 利好; 📈 英伟达 利好",
-        "chain": "AI叙事（人工智能增长故事）延续→资金继续涌入半导体和云计算ETF",
-        "watch": "英伟达财报及AI相关资本开支数据"
+        "what": "Baird称SpaceX IPO使财富顾问股受益",
+        "assets": "📈 财富管理股（如Baird） 利好",
+        "chain": "高净值客户资产膨胀→管理费收入（AUM-based fee）上升→盈利预期上调",
+        "watch": "财富管理公司AUM（管理资产规模）数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
-        "assets": "📈 美债 利好（价格涨）; 📉 美元 承压",
-        "chain": "加息预期降温→长端利率（10年期国债收益率）下行→风险资产（股票）估值获支撑",
-        "watch": "俄乌/中东和平谈判进展及美联储官员讲话"
+        "what": "高盛称英伟达等股票仍有上涨空间",
+        "assets": "📈 英伟达 利好; 📈 AI芯片股 利好",
+        "chain": "AI资本开支（企业买GPU）未减速→芯片需求持续→估值（PE）可扩张",
+        "watch": "英伟达下季营收指引及AI云资本支出"
       }
     },
     {
@@ -57,7 +57,13 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美债交易员下调美联储2026年加息押注",
+        "assets": "📈 美债 利好（价格上涨）; 📉 美元 承压",
+        "chain": "和平协议预期→通胀（物价上涨）风险降→加息概率（Fed rate hike odds）跌→利率曲线（yield curve）陡峭化",
+        "watch": "俄乌谈判进展及美国CPI（消费者物价指数）数据"
+      }
     },
     {
       "rank": 6,
@@ -65,13 +71,7 @@
       "source": "CNBC",
       "detail": "Despite a large retail allocation and huge volume, volatility was moderate",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "财富管理股受益于SpaceX IPO带来的客户财富增值",
-        "assets": "📈 财富管理股 利好; 📈 私募股权 利好",
-        "chain": "IPO造富效应→高净值客户资产增加→管理费（AUM-based fee）收入预期上升",
-        "watch": "相关财富管理公司（如瑞银、摩根士丹利）客户资金流入数据"
-      }
+      "score": 35
     },
     {
       "rank": 7,
