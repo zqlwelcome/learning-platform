@@ -1,13 +1,14 @@
 {
-  "version": 3,
+  "version": 5,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-13T15:43:59.092Z",
+  "updateTime": "2026-06-13T16:10:07.019Z",
   "newsSource": "live-hot-news.json",
   "modelTuning": {
     "duplicateCooldownDays": 15,
     "maxCandidatesPerRun": 6,
     "eventCaps": "供需/地缘每轮最多1个，其它事件每轮最多2个",
-    "commodityRule": "油气/黄金/能源类必须确认分>=84，且价格、资金、风险三项同时过线。"
+    "commodityRule": "油气/黄金/能源类必须确认分>=84，且价格、资金、风险三项同时过线。",
+    "validationUpgrade": "按资产桶拆分复盘，商品/避险、科技成长、中国资产、防御资产不再混算胜率。"
   },
   "tradingCalendar": {
     "timezone": "Asia/Shanghai",
@@ -31,6 +32,7 @@
       "kind": "ETF",
       "eventType": "政策类",
       "score": 10,
+      "assetBucket": "科技成长",
       "confirmationScore": 83,
       "confirmationReasons": [
         "催化20/20",
@@ -64,6 +66,7 @@
       "kind": "ETF",
       "eventType": "政策类",
       "score": 10,
+      "assetBucket": "中国资产",
       "confirmationScore": 87,
       "confirmationReasons": [
         "催化20/20",
@@ -97,6 +100,7 @@
       "kind": "ETF",
       "eventType": "宏观类",
       "score": 10,
+      "assetBucket": "商品与避险",
       "confirmationScore": 90,
       "confirmationReasons": [
         "催化20/20",
@@ -130,6 +134,7 @@
       "kind": "ETF",
       "eventType": "宏观类",
       "score": 10,
+      "assetBucket": "中国资产",
       "confirmationScore": 90,
       "confirmationReasons": [
         "催化20/20",
@@ -159,22 +164,24 @@
   "stats": {
     "sampleCount": 9,
     "rawSampleCount": 17,
-    "activeCount": 6,
-    "closedCount": 2,
+    "activeCount": 5,
+    "closedCount": 3,
     "waitingCount": 1,
     "excludedCount": 8,
-    "reviewedCount": 2,
-    "winRate": 0,
-    "avgPnl": -2.005,
-    "equity": 99952.07360581242,
-    "exposurePct": 43,
+    "reviewedCount": 3,
+    "winRate": 33,
+    "avgPnl": -0.9566666666666667,
+    "equity": 99906.3936266947,
+    "exposurePct": 39,
     "portfolioCap": 45,
     "riskMode": "防御",
     "alerts": 0,
     "benchmark": {
-      "modelReturnPct": -0.05,
+      "modelReturnPct": -0.09,
       "benchmarkAvgPct": 0.9,
-      "relativePct": -0.95,
+      "relativePct": -0.99,
+      "quality": "sample-based",
+      "strictHistoryStatus": "pending-historical-price-ingestion",
       "refs": [
         {
           "symbol": "usSPY",
@@ -201,7 +208,170 @@
           "entryDate": "2026-06-09"
         }
       ],
-      "note": "基准为模拟盘内已有代表ETF样本的同期浮动，用于方向参考；后续可接历史行情做严格基准。"
+      "note": "当前基准来自模拟盘内代表ETF样本，已可做方向参考；严格版仍需稳定历史行情源记录每个入场日的基准价格。"
+    },
+    "costAdjusted": {
+      "modelReturnPctAfterCost": -0.21,
+      "avgNetPnlPct": -0.6,
+      "estimatedTotalCost": 116,
+      "assumptions": {
+        "ETF": "估算单次完整买卖成本/滑点 0.20%",
+        "Stock": "估算单次完整买卖成本/滑点 0.35%",
+        "note": "用于惩罚过度交易和纸面收益，不代表真实成交费用。"
+      },
+      "samples": [
+        {
+          "symbol": "usUSO",
+          "name": "美国原油基金",
+          "status": "复盘中",
+          "grossPnlPct": -4.47,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": -4.67
+        },
+        {
+          "symbol": "usXLE",
+          "name": "能源ETF",
+          "status": "仓位等待",
+          "grossPnlPct": 0.28,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": 0.08
+        },
+        {
+          "symbol": "usQQQ",
+          "name": "纳指100ETF",
+          "status": "复盘中",
+          "grossPnlPct": 1.91,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": 1.71
+        },
+        {
+          "symbol": "sh510300",
+          "name": "沪深300ETF",
+          "status": "复盘中",
+          "grossPnlPct": -0.17,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": -0.37
+        },
+        {
+          "symbol": "hk02800",
+          "name": "盈富基金",
+          "status": "复盘中",
+          "grossPnlPct": 0.72,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": 0.52
+        },
+        {
+          "symbol": "usSPY",
+          "name": "标普500ETF",
+          "status": "复盘中",
+          "grossPnlPct": 0.96,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": 0.76
+        },
+        {
+          "symbol": "usSMH",
+          "name": "半导体ETF",
+          "status": "时间退出",
+          "grossPnlPct": 1.14,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": 0.94
+        },
+        {
+          "symbol": "sh511010",
+          "name": "国债ETF",
+          "status": "时间退出",
+          "grossPnlPct": -0.21,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": -0.41
+        }
+      ]
+    },
+    "bucketValidation": [
+      {
+        "bucket": "商品与避险",
+        "count": 2,
+        "closedCount": 0,
+        "winRate": null,
+        "exposurePct": 16,
+        "grossAvgPnlPct": -2.1,
+        "netAvgPnlPct": -2.3,
+        "worst": {
+          "symbol": "usUSO",
+          "name": "美国原油基金",
+          "pnlPct": -4.47
+        },
+        "verdict": "商品类先降速验证：只接受价格、资金、风险三项同时确认。"
+      },
+      {
+        "bucket": "科技成长",
+        "count": 3,
+        "closedCount": 2,
+        "winRate": 50,
+        "exposurePct": 16,
+        "grossAvgPnlPct": -0.25,
+        "netAvgPnlPct": -0.45,
+        "worst": {
+          "symbol": "sh512760",
+          "name": "芯片ETF",
+          "pnlPct": -3.8
+        },
+        "verdict": "暂不扩大仓位，等待更多正样本。"
+      },
+      {
+        "bucket": "中国资产",
+        "count": 2,
+        "closedCount": 0,
+        "winRate": null,
+        "exposurePct": 16,
+        "grossAvgPnlPct": 0.28,
+        "netAvgPnlPct": 0.08,
+        "worst": {
+          "symbol": "sh510300",
+          "name": "沪深300ETF",
+          "pnlPct": -0.17
+        },
+        "verdict": "可继续按原仓位上限验证。"
+      },
+      {
+        "bucket": "防御资产",
+        "count": 1,
+        "closedCount": 1,
+        "winRate": 0,
+        "exposurePct": 10,
+        "grossAvgPnlPct": -0.21,
+        "netAvgPnlPct": -0.41,
+        "worst": {
+          "symbol": "sh511010",
+          "name": "国债ETF",
+          "pnlPct": -0.21
+        },
+        "verdict": "暂不扩大仓位，等待更多正样本。"
+      },
+      {
+        "bucket": "美股核心",
+        "count": 1,
+        "closedCount": 0,
+        "winRate": null,
+        "exposurePct": 8,
+        "grossAvgPnlPct": 0.96,
+        "netAvgPnlPct": 0.76,
+        "worst": {
+          "symbol": "usSPY",
+          "name": "标普500ETF",
+          "pnlPct": 0.96
+        },
+        "verdict": "可继续按原仓位上限验证。"
+      }
+    ],
+    "validationReport": {
+      "status": "继续小仓验证",
+      "nextAction": "不提高仓位上限，优先扩大样本和复盘失败原因。",
+      "warnings": [
+        "扣除交易成本后仍为负，不能扩大真实仓位。",
+        "当前跑输参考基准，需要先优化筛选和退出纪律。",
+        "商品/能源样本拖累明显，必须单独建模，不再与科技或指数样本混在一起判断胜率。"
+      ],
+      "minimumEvidence": "至少沉淀30-50个有效样本、覆盖上涨/震荡/回撤三类市场，再考虑把模拟信号转为真实投资参考。"
     }
   },
   "phaseStats": [
@@ -222,9 +392,9 @@
     {
       "key": "d10",
       "label": "10日",
-      "samples": 2,
-      "winRate": 0,
-      "avg": -2.005
+      "samples": 3,
+      "winRate": 33,
+      "avg": -0.9566666666666667
     }
   ],
   "trades": [
@@ -270,7 +440,7 @@
       "currentValue": 7642.345773038843,
       "currentPrice": 125.43,
       "pnlPct": -4.470677837014474,
-      "ageDays": 3,
+      "ageDays": 4,
       "checkpoints": {
         "d1": {
           "date": "2026-06-13",
@@ -280,7 +450,11 @@
           "date": "2026-06-13",
           "pnlPct": -4.47
         }
-      }
+      },
+      "themes": [
+        "oil"
+      ],
+      "assetBucket": "商品与避险"
     },
     {
       "symbol": "usXLE",
@@ -324,8 +498,21 @@
       "currentValue": 0,
       "currentPrice": 57.55,
       "pnlPct": 0.2787942150200324,
-      "ageDays": 3,
-      "checkpoints": {}
+      "ageDays": 4,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-14",
+          "pnlPct": 0.28
+        },
+        "d3": {
+          "date": "2026-06-14",
+          "pnlPct": 0.28
+        }
+      },
+      "themes": [
+        "energy"
+      ],
+      "assetBucket": "商品与避险"
     },
     {
       "symbol": "usQQQ",
@@ -369,7 +556,7 @@
       "currentValue": 7133.6055267507745,
       "currentPrice": 721.34,
       "pnlPct": 1.9086503821539056,
-      "ageDays": 4,
+      "ageDays": 5,
       "checkpoints": {
         "d1": {
           "date": "2026-06-13",
@@ -379,7 +566,13 @@
           "date": "2026-06-13",
           "pnlPct": 1.91
         }
-      }
+      },
+      "themes": [
+        "us-growth",
+        "ai",
+        "broad-us"
+      ],
+      "assetBucket": "科技成长"
     },
     {
       "symbol": "sh510300",
@@ -423,7 +616,7 @@
       "currentValue": 6988.396187318692,
       "currentPrice": 4.818,
       "pnlPct": -0.16576875259013693,
-      "ageDays": 4,
+      "ageDays": 5,
       "checkpoints": {
         "d1": {
           "date": "2026-06-13",
@@ -433,7 +626,11 @@
           "date": "2026-06-13",
           "pnlPct": -0.17
         }
-      }
+      },
+      "themes": [
+        "china-beta"
+      ],
+      "assetBucket": "中国资产"
     },
     {
       "symbol": "hk02800",
@@ -477,7 +674,7 @@
       "currentValue": 9065.060240963856,
       "currentPrice": 25.08,
       "pnlPct": 0.7228915662650591,
-      "ageDays": 4,
+      "ageDays": 5,
       "checkpoints": {
         "d1": {
           "date": "2026-06-13",
@@ -487,7 +684,13 @@
           "date": "2026-06-13",
           "pnlPct": 0.72
         }
-      }
+      },
+      "themes": [
+        "hk-beta",
+        "china-beta",
+        "quality"
+      ],
+      "assetBucket": "中国资产"
     },
     {
       "symbol": "usSPY",
@@ -531,7 +734,7 @@
       "currentValue": 8076.98589862253,
       "currentPrice": 741.75,
       "pnlPct": 0.962323732781626,
-      "ageDays": 4,
+      "ageDays": 5,
       "checkpoints": {
         "d1": {
           "date": "2026-06-13",
@@ -541,7 +744,12 @@
           "date": "2026-06-13",
           "pnlPct": 0.96
         }
-      }
+      },
+      "themes": [
+        "broad-us",
+        "quality"
+      ],
+      "assetBucket": "美股核心"
     },
     {
       "symbol": "usSMH",
@@ -556,13 +764,13 @@
       "score": 6,
       "id": "2026-06-04-usSMH-资金行为",
       "entryDate": "2026-06-04",
-      "status": "复盘中",
+      "status": "时间退出",
       "capital": 100000,
       "entryValue": 4000,
       "currentValue": 4045.6799791177236,
       "currentPrice": 619.96,
       "pnlPct": 1.1419994779430958,
-      "ageDays": 9,
+      "ageDays": 10,
       "checkpoints": {
         "d1": {
           "date": "2026-06-05",
@@ -571,9 +779,22 @@
         "d3": {
           "date": "2026-06-09",
           "pnlPct": -3.58
+        },
+        "d10": {
+          "date": "2026-06-14",
+          "pnlPct": 1.14
         }
       },
-      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低",
+      "exitDate": "2026-06-14",
+      "exitPrice": 619.96,
+      "finalPnlPct": 1.14,
+      "exitReason": "达到10日复盘窗口",
+      "themes": [
+        "semiconductor",
+        "ai"
+      ],
+      "assetBucket": "科技成长"
     },
     {
       "symbol": "sh511010",
@@ -613,7 +834,12 @@
       "exitDate": "2026-06-13",
       "exitPrice": 141.163,
       "finalPnlPct": -0.21,
-      "exitReason": "达到10日复盘窗口"
+      "exitReason": "达到10日复盘窗口",
+      "themes": [
+        "cash",
+        "bond"
+      ],
+      "assetBucket": "防御资产"
     },
     {
       "symbol": "sh512760",
@@ -653,7 +879,13 @@
       "exitDate": "2026-06-13",
       "exitPrice": 1.114,
       "finalPnlPct": -3.8,
-      "exitReason": "达到10日复盘窗口"
+      "exitReason": "达到10日复盘窗口",
+      "themes": [
+        "semiconductor",
+        "a-tech",
+        "china-tech"
+      ],
+      "assetBucket": "科技成长"
     },
     {
       "symbol": "sz159928",
@@ -676,7 +908,11 @@
       "pnlPct": 0,
       "ageDays": 0,
       "checkpoints": {},
-      "excludedReason": "10日冷却期内重复信号"
+      "excludedReason": "10日冷却期内重复信号",
+      "themes": [
+        "consumer"
+      ],
+      "assetBucket": "中国资产"
     },
     {
       "symbol": "sh512880",
@@ -699,7 +935,13 @@
       "pnlPct": -0.6842619745845451,
       "ageDays": 0,
       "checkpoints": {},
-      "excludedReason": "10日冷却期内重复信号"
+      "excludedReason": "10日冷却期内重复信号",
+      "themes": [
+        "broker",
+        "china-beta",
+        "a-financial"
+      ],
+      "assetBucket": "中国资产"
     },
     {
       "symbol": "sz159928",
@@ -722,7 +964,11 @@
       "pnlPct": -0.4538577912254164,
       "ageDays": 0,
       "checkpoints": {},
-      "excludedReason": "10日冷却期内重复信号"
+      "excludedReason": "10日冷却期内重复信号",
+      "themes": [
+        "consumer"
+      ],
+      "assetBucket": "中国资产"
     },
     {
       "symbol": "hk02800",
@@ -745,7 +991,13 @@
       "pnlPct": -0.3940110323088963,
       "ageDays": 0,
       "checkpoints": {},
-      "excludedReason": "10日冷却期内重复信号"
+      "excludedReason": "10日冷却期内重复信号",
+      "themes": [
+        "hk-beta",
+        "china-beta",
+        "quality"
+      ],
+      "assetBucket": "中国资产"
     },
     {
       "symbol": "hk03033",
@@ -768,7 +1020,13 @@
       "pnlPct": -0.5403158769742453,
       "ageDays": 0,
       "checkpoints": {},
-      "excludedReason": "10日冷却期内重复信号"
+      "excludedReason": "10日冷却期内重复信号",
+      "themes": [
+        "hk-tech",
+        "china-beta",
+        "ai"
+      ],
+      "assetBucket": "科技成长"
     },
     {
       "symbol": "sz159928",
@@ -796,7 +1054,11 @@
           "pnlPct": 0.3
         }
       },
-      "excludedReason": "10日冷却期内重复信号"
+      "excludedReason": "10日冷却期内重复信号",
+      "themes": [
+        "consumer"
+      ],
+      "assetBucket": "中国资产"
     },
     {
       "symbol": "usQQQ",
@@ -824,7 +1086,13 @@
           "pnlPct": 0
         }
       },
-      "excludedReason": "10日冷却期内重复信号"
+      "excludedReason": "10日冷却期内重复信号",
+      "themes": [
+        "us-growth",
+        "ai",
+        "broad-us"
+      ],
+      "assetBucket": "科技成长"
     },
     {
       "symbol": "sh512760",
@@ -852,7 +1120,13 @@
           "pnlPct": -2.54
         }
       },
-      "excludedReason": "10日冷却期内重复信号"
+      "excludedReason": "10日冷却期内重复信号",
+      "themes": [
+        "semiconductor",
+        "a-tech",
+        "china-tech"
+      ],
+      "assetBucket": "科技成长"
     }
   ],
   "note": "纸面模拟盘自动记录模型信号，不构成真实投资建议。"
