@@ -9,69 +9,59 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-06-13 22:31",
+    "updateTime": "2026-06-13 12:21",
     "mood": {
-        "mood": "乐观与分化并存，科技巨头引领但老牌退潮",
-        "icon": "🎢",
-        "color": "#FFD700",
-        "confidence": 7,
+        "mood": "谨慎乐观，分化加剧",
+        "icon": "😐",
+        "color": "#FFA500",
+        "confidence": 6,
         "dimensions": [
             {
                 "label": "📈 趋势",
-                "value": "科技成长股（如SpaceX、英伟达）持续走强，但传统壳股退市标志结构性分化，趋势偏向创新与颠覆领域。"
+                "value": "市场呈现极端分化，SpaceX等明星股IPO暴涨与华金资本等个股暴跌并存，显示资金向头部优质资产集中，投机性热点退潮趋势明显。"
             },
             {
                 "label": "💰 资金",
-                "value": "资金明显涌入SpaceX IPO及相关券商股，高盛看好英伟达，显示风险偏好回升；但美债交易员下调加息押注，暗示避险资金仍存。"
+                "value": "散户资金狂热追逐SpaceX，但机构已有负面评级（CFRA卖出评级），显示资金博弈激烈。美债市场显示降息预期减弱，资金从风险资产流向债市迹象初现。"
             },
             {
                 "label": "🌍 地缘",
-                "value": "和平协议预期缓解地缘紧张，但美国多州调查OpenAI显示监管风险上升，地缘政治对科技巨头形成双刃剑效应。"
+                "value": "和平协议预期推动美债交易员下调加息押注，地缘缓和信号对市场短期偏正面。但政治关联交易（如众议院共和党领袖家族投资SpaceX）可能引发监管关注，增加不确定性。"
             },
             {
                 "label": "🏭 热点",
-                "value": "热点集中在太空经济（SpaceX）、AI芯片（英伟达）及财富管理（受益IPO），而A股退市案例警示壳资源冷落。"
+                "value": "航天、AI仍是市场焦点，但内部分化严重。SpaceX代表硬科技突破，而华金资本等AI概念股遭问询，显示市场对实质性业绩要求提高，纯概念炒作遇冷。"
             },
             {
                 "label": "😊 情绪",
-                "value": "市场情绪亢奋，SpaceX首日暴涨19%激发散户热情，但超买信号和调查事件带来谨慎情绪，整体中性偏乐观。"
+                "value": "散户情绪亢奋（抢购SpaceX），但部分投资者认为估值‘愚蠢’，且律所调查Sleep Number等事件曝光，欺诈担忧抬头。整体情绪从极度乐观转向理性审视，恐慌与贪婪并存。"
             },
             {
                 "label": "🏦 宏观",
-                "value": "美联储加息预期下调利好成长股估值，但通胀与就业数据仍待观察，宏观环境支撑流动性宽松预期。"
+                "value": "美债交易员下调2026年加息押注，反映和平协议预期下的宽松预期，但通胀粘性仍在。宏观经济呈现‘软着陆’与‘滞胀’风险交织，宏观变量主导市场波动。"
             }
         ],
-        "summary": "今日市场情绪以科技驱动的乐观为主，SpaceX创纪录IPO点燃风险偏好，但地缘监管与老牌退市凸显结构性分化。投资者需平衡成长股机遇与监管不确定性，整体情绪积极但非全面狂热。"
+        "summary": "今日市场情绪整体偏向谨慎乐观，但结构性分化显著。SpaceX的创纪录IPO点燃了散户对硬科技的热情，但CFRA的卖出评级和部分‘愚蠢’估值言论提示风险。与此同时，华金资本、Sleep Number的暴跌和监管调查表明市场对缺乏基本面支撑的标的正在加速抛弃。宏观层面，和平预期缓和了加息担忧，但地缘政治和监管不确定性依然存在。投资者需在狂热中保持清醒，聚焦拥有护城河和真实现金流的公司。"
     },
     "experts": {
         "templeton": {
-            "insight": "市场正经历极端乐观，SpaceX从10%成功率到2万亿市值是典型过度投机信号。我曾在悲观时买入，但此刻需警惕众人贪婪。调查OpenAI和退市案例表明监管与基本面风险未消，投资者应逆向思考：当所有人追逐太空和AI时，或许被忽视的价值股或现金更有吸引力。",
-            "action": "建议减持涨幅过大的热门科技股，转向被低估的防御性资产或现金，等待市场回调后寻找下一个‘最大悲观点’。"
+            "insight": "从邓普顿‘极度悲观时买入’的逆向视角看，当前SpaceX的狂热恰恰是警示信号。首日暴涨19%、散户争抢、政治关联交易，这些情绪指标接近极端。相反，华金资本年内跌超28%、Sleep Number暴跌九成，市场对它们的悲观可能过度。邓普顿会建议投资者在无人问津处寻找价值，比如被AI问询打压但拥有实质IP的科技公司，或受诉讼拖累但业务稳健的标的。太空股虽热，但估值已透支未来数年增长。",
+            "action": "减持SpaceX等过热新股，获利了结。分批建仓华金资本等被错杀的AI概念股，或Sleep Number等暴跌后基本面未崩的消费股，等待市场情绪反转。"
         },
         "buffett": {
-            "insight": "SpaceX的IPO成功令人兴奋，但我不追逐热门。我更关注其长期护城河——可重复火箭技术是否可持续。英伟达仍有空间，但需确认客户粘性。A股退市提醒我：永远不买无持续竞争优势的公司。我宁可选财富管理股，因其从客户财富增长中稳定获益，类似保险浮存金模式。",
-            "action": "持有优质科技龙头（如英伟达）但不过度加仓；关注SpaceX上市后估值合理性；买入受益于IPO浪潮的稳健财富管理股。"
+            "insight": "巴菲特会坚持‘能力圈’和‘护城河’原则。SpaceX有技术优势和马斯克的管理，但2万亿美元市值对应天价市盈率，缺乏安全边际。他更关注Sleep Number的暴跌——若公司业务模式未毁、负债可控，这可能是买入机会。华金资本参股IPO但市场不买账，说明其投资组合质量存疑。巴菲特会避开复杂的高科技投机，转而研究美债收益率曲线变化对保险和银行股的影响，寻找确定性现金流。",
+            "action": "不参与SpaceX投机。若Sleep Number资产负债健康，可小仓位逆向买入。重点关注美债收益率下行受益的高股息公用事业股，如能源或电信龙头。"
         },
         "munger": {
-            "insight": "SpaceX IPO首日暴涨是市场愚蠢的例证——人们为故事支付溢价。2万亿市值需多少年利润支撑？调查OpenAI显示监管风险常被忽略。我欣赏马斯克，但投资需理性：避免复杂业务，聚焦简单易懂且现金流强劲的公司。英伟达有真实需求，但超买信号需警惕。",
-            "action": "远离估值过高的IPO炒作，持有英伟达但设置止损；增持低负债、高现金流的传统企业；耐心等待SpaceX回调后再评估。"
+            "insight": "芒格会强调‘常识’和‘避免愚蠢’。SpaceX IPO中散户‘抢到就是赚到’的心态，正是他警告的‘非理性繁荣’。华金资本下跌说明市场开始惩罚‘伪AI’公司，这是好事。Sleep Number被调查，若欺诈属实则应彻底回避。芒格会赞赏CFRA对SpaceX的卖出评级，认为这是理性声音。他建议投资者学习美债交易员下调加息押注的逻辑，聚焦宏观变量，避免参与情绪驱动的赌博。",
+            "action": "清仓所有依赖市场情绪的高估值科技股。增持现金或短期国债，等待SpaceX回调至合理估值。对华金资本等‘问询股’保持观望，直至管理层给出清晰解释。"
         },
         "duan": {
-            "insight": "SpaceX是伟大公司，但IPO首日追涨不是好生意。我在网易、苹果上赚过大钱，关键是买自己懂的好公司并长期持有。英伟达和SpaceX代表未来，但需理解其技术壁垒。调查OpenAI是短期噪音，不影响长期价值。段永平式做法：若相信马斯克，就等合理价格买入并持有十年。",
-            "action": "不参与首日追涨；若对太空经济有信心，可小仓位定投SpaceX相关ETF；继续持有英伟达，但避免杠杆；关注财富管理股作为稳健配置。"
+            "insight": "段永平会从‘买股票就是买公司’的视角分析。SpaceX的太空业务有长期价值，但IPO估值过高，段永平会等泡沫消退后再评估。他看好华金资本的投资逻辑——参股IPO是好事，但市场不买账可能因管理不善或退出机制不明。Sleep Number若因诉讼导致股价暴跌，但品牌和产品力仍在，就是好机会。段永平会结合自身经验，关注公司是否‘敢为天下后’，在成熟市场用差异化产品取胜。",
+            "action": "不追高SpaceX，等待回调至120美元以下再考虑。逢低买入Sleep Number，但需确认诉讼不影响核心业务。对华金资本保持跟踪，若其参股项目上市后业绩兑现，可逐步加仓。"
         }
     }
 };
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -519,60 +509,120 @@ function getTraderMoodLens(moodData) {
 function getForwardRadarHtml() {
     const events = [
         {
-            date: '2026-06-01',
-            label: '06/01',
-            event: '美国ISM制造业PMI',
-            region: '美国宏观',
-            impact: 'high',
-            result: '结论：这是本周开盘的第一张体检表，交易员会用它判断美国经济是软着陆，还是需求开始变冷。',
-            watch: '强于预期：周期股、工业股可能占优，降息预期降温；弱于预期：债券可能先开心，高估值科技要看利率怎么走。',
-            action: '小白看法：别只看数字高低，看市场反应。如果坏数据反而涨，说明资金在交易“降息”；如果好数据也涨，说明风险偏好还很强。'
-        },
-        {
-            date: '2026-06-03',
-            label: '06/03',
-            event: '美国ISM服务业 + 美联储褐皮书',
+            date: '2026-06-05',
+            label: '06/05 结果',
+            event: '美国5月非农就业',
             region: '利率预期',
             impact: 'high',
-            result: '结论：服务业更接近美国经济真实温度，褐皮书会告诉市场各地区工资、消费和企业信心有没有变弱。',
-            watch: '服务业强、工资粘：降息预期会被压；服务业弱、消费冷：市场会重新押注宽松。',
-            action: '小白看法：这天重点看美债收益率。收益率上行，成长股估值受压；收益率下行，科技和黄金更容易被资金盯上。'
+            summary: '结果+市场解读：BLS公布5月新增非农17.2万，失业率4.3%不变，3月和4月合计上修9.3万。就业没掉坑里，市场先下调了年内激进降息预期。',
+            thesis: '先改利率预期，再改风险偏好。就业偏硬，美联储没有被迫立刻转鸽。',
+            assets: '2年和10年美债收益率、美元、纳指、黄金、港股科技、高股息价值。',
+            flow: '快钱更容易先从长久期成长和黄金撤一点，回到美元现金、银行、能源、低估值价值。若2年美债和美元一起偏强，说明这条线还在被交易。',
+            plan: '如果后面通胀也偏强，倾向继续降低高估值成长暴露；如果收益率冲高后回落，再看科技和黄金的修复弹性。',
+            plain: '就业还没坏到逼央行救市，别把“数据一般”自动翻译成“股市一定涨”。'
         },
         {
-            date: '2026-06-05',
-            label: '06/05',
-            event: '美国非农就业报告',
-            region: '全球核心',
+            date: '2026-06-09',
+            label: '06/09 结果',
+            event: '中国5月出口和进口',
+            region: '中国盈利',
             impact: 'high',
-            result: '结论：这是本周最能改变热钱方向的数据。就业太强，市场担心降息推迟；就业太弱，市场又会担心经济衰退。',
-            watch: '最理想剧本是“温和降温”：就业不崩、工资不热，风险资产最舒服。',
-            action: '小白看法：非农当天别急着追第一根K线。交易员通常先看就业、工资、失业率三件套，再看市场是不是反应过度。'
+            summary: '结果+市场解读：海关数据显示，5月出口同比+19.4%，进口同比+27.4%。全球AI硬件、汽车、算力设备和上游原料需求，仍在给中国制造和航运链送钱。',
+            thesis: '先改盈利预期，再改人民币和风险偏好。出口链现金流暂时强过纯内需链。',
+            assets: 'A股和港股的AI硬件、半导体设备、汽车出海、航运港口、铜和工业品；对纯内需消费和地产链帮助有限。',
+            flow: '资金更愿意回到“有订单的中国资产”，不是无差别抄底中国。若港股科技硬件、出口制造、航运持续跑赢，说明热钱追的是盈利兑现，不是政策口号。',
+            plan: '如果后续中国月度数据继续弱、只有出口独强，倾向精选出口链，不把它误读成全面复苏；如果人民币同步走稳，港股弹性会更好。',
+            plain: '现在撑住中国市场脸面的，更多是海外订单，不是所有行业一起复活。'
         },
         {
             date: '2026-06-10',
-            label: '06/10',
-            event: '中国通胀和社融窗口期',
-            region: '中国资产',
-            impact: 'medium',
-            result: '结论：中国资产接下来要看政策和信用有没有接力。只靠情绪反弹不够，热钱更想看到真实需求或流动性改善。',
-            watch: '社融和信贷改善：A股、港股风险偏好更容易修复；通胀太弱：说明需求还要等政策加码。',
-            action: '小白看法：看中国新闻时别只看“利好”两个字，要问钱有没有真的进实体、进股市、进消费。'
+            label: '06/10 结果',
+            event: '美国5月CPI',
+            region: '全球定价锚',
+            impact: 'high',
+            summary: '结果+市场解读：BLS公布5月CPI同比4.2%，环比0.5%；核心CPI同比2.9%，环比0.2%。市场读成“油价把总通胀顶上去，但核心还没失控”，因此最鹰的加息担忧先缓了一口气。',
+            thesis: '先改利率预期和流动性定价。关键不是标题通胀多高，而是核心通胀有没有重新失控。',
+            assets: '美债收益率、美元、黄金、纳指、比特币、港股科技、人民币汇率。',
+            flow: '如果后续市场继续交易“能源冲击而非全面再通胀”，资金会优先回补科技和黄金，而不是全面回防美元。先盯2年美债、美元和黄金是否出现分化：收益率不大涨但黄金不倒，说明市场没把这份CPI看成最坏版本。',
+            plan: '如果后面的PPI和FOMC继续压住全面加息预期，可关注科技和黄金的反弹延续；如果收益率重新快速上冲，再把防守放回第一位。',
+            plain: '这次通胀更像“油价闹事”，不是所有物价都一起失控。'
+        },
+        {
+            date: '2026-06-11',
+            label: '06/11 结果',
+            event: '中国5月CPI和PPI',
+            region: '中国通胀',
+            impact: 'high',
+            summary: '结果+市场解读：5月CPI同比1.2%，环比-0.1%；PPI同比+3.9%，创近四年最快。上游被能源和大宗商品推着走，下游消费端仍偏弱，说明中国仍是“成本胀、需求不强”的组合。',
+            thesis: '先改盈利预期和政策预期。上游利润预期改善，但宽货币和稳增长诉求不会因为这点CPI就消失。',
+            assets: '中国债券、人民币、A股资源周期、化工、有色、煤油气、下游可选消费、港股原材料。',
+            flow: '热钱更可能先回资源、化工、有色和涨价链，不会因为PPI转强就全面撤出债券。如果国债不大跌、资源股却放量走强，说明市场交易的是“结构性通胀”，不是总需求复苏。',
+            plan: '如果后面社零和地产数据继续弱，倾向把资源涨价和内需复苏分开看；如果人民币承压而长债也转弱，要防输入性通胀交易扩大。',
+            plain: '贵的是上游原料，不是老百姓突然愿意猛花钱。'
+        },
+        {
+            date: '2026-06-15',
+            label: '06/15',
+            event: '中国5月社零、工业、固投、房价',
+            region: '中国内需',
+            impact: 'high',
+            summary: '预期窗口：市场通常在6月15日前后等国家统计局的月度增长数据。这是验证“出口强能不能带动国内需求”的关键一组数。',
+            thesis: '先改盈利预期和政策预期。核心看内需有没有接棒，而不是出口能不能继续一个人扛。',
+            assets: 'A股消费、顺周期、地产链、家电、白酒、建材、港股内需、国债、人民币。',
+            flow: '如果社零和工业偏弱，资金会继续抱团出口链和高股息，回避内需复苏交易；如果社零和房价都止跌，热钱才会愿意回补券商、消费、地产链这种弹性大的旧赛道。',
+            plan: '如果数据弱但政策口风转强，可先观察政策受益板块而不是一把梭内需；如果数据和人民币同时回稳，再提高对A股和港股内需修复的权重。',
+            plain: '这天就是看中国普通人和企业有没有真的开始多花钱。'
+        },
+        {
+            date: '2026-06-15',
+            label: '06/15-16',
+            event: '日本央行会议',
+            region: '套息资金',
+            impact: 'high',
+            summary: '预期窗口：日本央行会议在6月15日至16日。市场焦点不是日本经济本身，而是日元融资还能不能继续便宜、稳定地流向全球风险资产。',
+            thesis: '先改全球流动性和套息交易稳定性，其次才改日股本地逻辑。',
+            assets: '日元、日股、美国科技股、亚洲成长股、黄金、全球高波动资产。',
+            flow: '如果日银偏鹰、日元快速走强，套息盘可能从亚洲成长和高波动资产抽水；如果仍偏谨慎，便宜日元资金会继续托住全球风险偏好。先看美元兑日元和日债收益率怎么走。',
+            plan: '如果日元明显升值，倾向收缩高杠杆和高波动仓位；如果日银讲话比市场想的更温和，可继续关注科技和亚洲弹性资产的风险偏好延续。',
+            plain: '日本如果不再让钱这么便宜，全球很多爱冒险的资金就会先收手。'
         },
         {
             date: '2026-06-16',
             label: '06/16-17',
-            event: '美联储FOMC议息会议',
-            region: '全球定价锚',
+            event: '美联储FOMC + 点阵图',
+            region: '全球利率',
             impact: 'high',
-            result: '结论：这是未来两周最大事件。真正重要的不是降不降息，而是点阵图和鲍威尔讲话会不会改变下半年利率路径。',
-            watch: '偏鹰：美元和美债收益率上行，成长股承压；偏鸽：黄金、科技、港股和风险资产更容易喘口气。',
-            action: '小白看法：FOMC前不要把仓位打满。交易员会等“方向确认”，普通人更要留余地。'
+            summary: '预期窗口：6月16日至17日FOMC会议，是带点阵图的季度会议。市场不只看按不按兵不动，更看年底前利率路径有没有再往上抬。',
+            thesis: '核心是利率预期和流动性，其次才是风险偏好。点阵图和发布会，通常比“维持不变”四个字更重要。',
+            assets: '美债收益率曲线、美元、黄金、原油、纳指、A股和港股科技、REITs、高股息。',
+            flow: '如果点阵图偏鹰、主席继续压制降息预期，资金会回美元、短债和防御；如果点阵图没有继续上修，资金才更敢回补黄金、科技和港股弹性。看美元、2年美债和黄金能否走出一致性方向。',
+            plan: '如果会后美元和收益率一起走高，倾向继续控制高估值资产仓位；如果收益率回落且黄金、纳指同步转强，可顺着反弹做，但不要会前满仓赌一句话。',
+            plain: '这还是全球资产总开关，先听央行怎么说，再决定要不要追。'
+        },
+        {
+            date: '2026-06-22',
+            label: '06/22',
+            event: '中国6月LPR',
+            region: '中国政策',
+            impact: 'medium',
+            summary: '预期窗口：LPR通常每月20日公布，6月20日是周六，市场会把6月22日当观察点。重点不是标题有多大，而是1年期和5年期谁动、动完银行和地产有没有跟。',
+            thesis: '改的是政策预期和信用预期。1年期偏实体融资，5年期偏按揭和地产。',
+            assets: '银行、地产链、红利央国企、A股和港股券商、人民币汇率。',
+            flow: '如果只做口头支持不降价，资金更可能回高股息和出口链；如果5年期LPR下调幅度更大，地产链和港股本地金融才可能有短线回流。是否放量比标题更重要。',
+            plan: '如果LPR不动且前面月度数据偏弱，倾向继续观望内需总攻；如果5年期意外下调并伴随地产成交改善，再考虑低位政策受益板块。',
+            plain: '不是喊支持楼市就算数，要看贷款利率和成交量有没有真的动。'
         }
     ];
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    const upcoming = events.filter(item => new Date(`${item.date}T00:00:00`) >= today).slice(0, 4);
-    const visible = upcoming.length ? upcoming : events.slice(-3);
+    const recentStart = new Date(today);
+    recentStart.setDate(recentStart.getDate() - 7);
+    const futureEnd = new Date(today);
+    futureEnd.setDate(futureEnd.getDate() + 14);
+    const visible = events.filter(item => {
+        const eventDate = new Date(`${item.date}T00:00:00`);
+        return eventDate >= recentStart && eventDate <= futureEnd;
+    });
 
     return `<div class="a-calendar-list">${visible.map(item => `
         <div class="a-calendar-item expanded">
@@ -583,12 +633,17 @@ function getForwardRadarHtml() {
                 <span class="a-calendar-impact ${item.impact}">${item.impact}</span>
             </div>
             <div class="a-calendar-detail">
-                <div class="a-calendar-explain">${item.result}</div>
-                <div class="a-calendar-watch">交易员盯什么：${item.watch}</div>
-                <div class="a-calendar-impact-text">${item.action}</div>
+                <div class="a-calendar-explain">${item.summary}</div>
+                <div class="a-calendar-watch">交易员核心判断：${item.thesis}</div>
+                <div class="a-calendar-watch">资产映射：${item.assets}</div>
+                <div class="a-calendar-watch">热钱路径：${item.flow}</div>
+                <div class="a-calendar-impact-text">操作提示：${item.plan}</div>
+                <div class="a-calendar-impact-text">小白翻译：${item.plain}</div>
             </div>
         </div>
-    `).join('')}</div>`;
+    `).join('')}
+        <div class="a-flow-disclaimer">免责声明：这里只是学习和市场阅读框架，不构成个性化投资建议。真实交易请结合自己的风险承受力、仓位管理和资金期限执行。</div>
+    </div>`;
 }
 
 async function buildAutoTradePoolHtml(hotNews, quoteMap = null, macro = null) {
@@ -1177,7 +1232,8 @@ function getPaperActionPlan(trade, macro = {}) {
 
 function updatePaperTrades(candidates, quoteMap, macro = {}) {
     const key = 'paper_trade_signals_v1';
-    const today = new Date().toISOString().slice(0, 10);
+    const today = getPaperTradeToday();
+    const canOpenNewTrade = isPaperTradingDay(today);
     let trades = [];
     try {
         trades = JSON.parse(localStorage.getItem(key) || '[]');
@@ -1187,18 +1243,20 @@ function updatePaperTrades(candidates, quoteMap, macro = {}) {
 
     trades = markPaperDuplicateTrades(trades);
 
-    candidates.forEach(candidate => {
-        const id = `${today}-${candidate.symbol}-${candidate.eventType}`;
-        if (trades.some(trade => trade.id === id)) return;
-        if (hasPaperCooldownTrade(trades, candidate.symbol, today)) return;
-        trades.unshift({
-            ...candidate,
-            id,
-            entryDate: today,
-            status: '观察中',
-            capital: 100000
+    if (canOpenNewTrade) {
+        candidates.forEach(candidate => {
+            const id = `${today}-${candidate.symbol}-${candidate.eventType}`;
+            if (trades.some(trade => trade.id === id)) return;
+            if (hasPaperCooldownTrade(trades, candidate.symbol, today)) return;
+            trades.unshift({
+                ...candidate,
+                id,
+                entryDate: today,
+                status: '观察中',
+                capital: 100000
+            });
         });
-    });
+    }
 
     trades = trades.slice(0, 40).map(trade => {
         if (isPaperTradeClosed(trade) || trade.status === '重复剔除') return trade;
@@ -1235,6 +1293,20 @@ function updatePaperTrades(candidates, quoteMap, macro = {}) {
 
     localStorage.setItem(key, JSON.stringify(trades));
     return trades;
+}
+
+function getPaperTradeToday() {
+    return new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Shanghai',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+    }).format(new Date());
+}
+
+function isPaperTradingDay(dateText) {
+    const day = new Date(`${dateText}T12:00:00+08:00`).getDay();
+    return day >= 1 && day <= 5;
 }
 
 function markPaperDuplicateTrades(trades) {
