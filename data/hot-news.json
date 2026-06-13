@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 10:35",
+  "updateTime": "2026-06-13 10:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX上市首日暴涨19%，市值破2万亿",
-        "assets": "📈 SpaceX股票 利好；📉 传统航天股（如洛克希德马丁） 承压",
-        "chain": "SpaceX估值飙升会拉动太空ETF（交易所交易基金）和科技成长股风险偏好（Risk-on情绪），同时抽血传统军工板块",
-        "watch": "后续交易日成交量及机构持仓变化（判断是否持续）"
+        "what": "SpaceX上市首日暴涨19%，市值破2万亿美元",
+        "assets": "📈 SpaceX股票 利好，📈 太空概念股（如ASTS） 联动",
+        "chain": "巨额市值吸引资金涌入太空板块，推高同类估值（PE倍数），但需警惕IPO后回调",
+        "watch": "SpaceX后续财报能否支撑高估值"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "Sleep Number被律所调查，股价暴跌超90%",
-        "assets": "📉 Sleep Number股票 利空；📈 做空期权 利好",
-        "chain": "触发家居板块连锁恐慌（板块轮动），律所调查可能引发集体诉讼（Class Action），加速散户止损",
-        "watch": "公司财报修正及诉讼和解金额（判断底部）"
+        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌超90%",
+        "assets": "📉 Sleep Number股票 利空，📉 家居零售板块 情绪拖累",
+        "chain": "欺诈调查引发退市风险，空头（做空机构）加仓，同类高负债消费股遭抛售",
+        "watch": "调查进展及公司是否申请破产保护"
       }
     },
     {
@@ -37,58 +37,56 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "华尔街对SpaceX目标价分歧极端（60-190美元）",
-        "assets": "📉 SpaceX股票 波动性增大；📈 波动率衍生品（VIX期货） 利好",
-        "chain": "多空博弈加剧（多空对决），波动率溢价上升，期权策略（如跨式期权Straddle）需求激增",
-        "watch": "做空比例（Short Interest）及机构研报更新"
+        "what": "SpaceX IPO首日上涨19%，收盘价161美元",
+        "assets": "📈 SpaceX 利好，📈 纳斯达克指数 短期提振",
+        "chain": "科技IPO市场情绪回暖，资金从避险债市（国债）流向成长股，推高风险偏好",
+        "watch": "次日后股价能否守住160美元支撑位"
       }
     },
     {
       "rank": 4,
-      "title": "华尔街对历史性SpaceX IPO极端两极分化！目标价60-190美元",
-      "source": "市场资讯",
-      "detail": "来源：华尔街见闻 SpaceX完成史上最大IPO之一，在华尔街掀起激烈“估值战争”：乐观派将其视作“世纪机遇”，喊出190美元目标价；悲观派则狠批估值透支...",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "美债交易员下调2026年加息押注因和平协议预期",
-        "assets": "📈 美债 利好（价格涨）；📉 美元 承压；📉 风险资产（股票） 利好",
-        "chain": "降息预期（利率降低）推高债券价格，美元走弱利好大宗商品（黄金、原油），风险偏好回升",
-        "watch": "和平协议谈判进展及美联储点阵图（Dot Plot）调整"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "法官裁定Pirro在Fed调查中的亏损需保留记录",
-        "assets": "📉 银行股（如摩根大通） 承压；📈 法律咨询股 利好",
-        "chain": "监管趋严信号（Regulatory Risk），银行合规成本上升，可能引发罚款计提（Provisions）",
-        "watch": "Fed最终罚款金额及银行资本充足率变化"
+        "what": "法官裁定Pirro在美联储调查中的损失应维持原判",
+        "assets": "📉 美联储监管相关个股 承压，📉 金融合规板块 情绪利空",
+        "chain": "强化监管执法预期，银行及金融科技公司面临更高合规成本（如罚款），利空板块",
+        "watch": "美联储后续是否扩大调查范围"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "美债交易员下调美联储2026年加息押注 因市场寄望和平协议",
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
+        "assets": "📈 美债（长期国债） 利好，📉 美元指数 承压",
+        "chain": "和平协议降低通胀预期，降息（借钱成本降低）概率上升，资金流入债券，美元走弱",
+        "watch": "下周CPI数据（通胀指标）是否持续回落"
+      }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后投资者关注下一步动向",
+        "assets": "📈 SpaceX 中性偏多，📈 太空ETF（如ARKX） 联动",
+        "chain": "若SpaceX宣布星舰（Starship）商业化或Starlink（星链）分拆，将刺激科技股风险偏好",
+        "watch": "SpaceX下一轮融资或业务公告"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
@@ -96,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
@@ -104,12 +102,20 @@
       "score": 35
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
       "score": 35
+    },
+    {
+      "rank": 10,
+      "title": "Call Kevin Warsh the Fed 'chairman'",
+      "source": "CNBC",
+      "detail": "Kevin Warsh's two immediate predecessors preferred to be called the Fed \"chair.\" For Warsh, it's \"chairman\" of the Federal Reserve.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
