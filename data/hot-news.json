@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 18:00",
+  "updateTime": "2026-06-13 18:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX上市首日暴涨19%，市值突破2万亿美元",
-        "assets": "📈 SpaceX股票 利好; 📈 太空概念股 利好; 📉 传统军工股 承压",
-        "chain": "资金从传统行业轮动至太空经济（高增长赛道），推高同类IPO估值预期",
-        "watch": "SpaceX后续财报及订单量，关注太空ETF资金流入"
+        "what": "SpaceX上市首日大涨19%，市值破2万亿美元",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
+        "chain": "IPO（首次公开募股）火爆带动风险偏好，可能推高其他科技新股估值（市盈率）",
+        "watch": "SpaceX后续财报及订单增长"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌逾九成",
-        "assets": "📉 Sleep Number股票 利空; 📉 家居零售板块 承压",
-        "chain": "引发投资者对消费类公司财务真实性担忧（风险溢价上升），做空机构可能瞄准同类标的",
-        "watch": "调查进展及公司是否面临集体诉讼，关注家居零售同行财报"
+        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌超90%",
+        "assets": "📉 Sleep Number股票 利空",
+        "chain": "调查可能引发集体诉讼，导致公司融资成本上升（借贷利率提高），拖累家具板块",
+        "watch": "SEC（美国证监会）是否正式立案及索赔金额"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
-        "assets": "📈 美债 利好; 📉 美元 承压; 📈 新兴市场货币 利好",
-        "chain": "降息预期升温（利率下降）→美元走弱→资金流向新兴市场及风险资产",
-        "watch": "和平协议谈判进展，美联储官员讲话及通胀数据"
+        "what": "SpaceX IPO首日收涨19%，成交价161美元",
+        "assets": "📈 美股科技股 利好；📈 太空ETF 利好",
+        "chain": "IPO（首次公开募股）首日涨幅超预期，可能吸引资金从防御板块（如公用事业）轮动至成长股",
+        "watch": "下一个交易日成交量及机构持仓变化"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "法官裁定Pirro在美联储调查中损失需保留记录",
-        "assets": "📉 美联储公信力 承压; 📈 黄金 利好",
-        "chain": "监管不确定性增加（政策风险）→避险情绪升温→资金流入黄金等避险资产",
-        "watch": "美联储是否上诉，后续监管政策变化"
+        "what": "法官裁定Pirro在美联储调查中的损失应保留记录",
+        "assets": "📉 美联储监管银行股 承压",
+        "chain": "司法判决强化监管追溯，可能增加银行合规成本（法律费用），压制金融板块估值",
+        "watch": "美联储是否扩大调查范围至其他银行"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
+        "assets": "📈 美债 利好；📉 美元 承压；📈 新兴市场 利好",
+        "chain": "加息预期降温（利率下降）压低短端收益率，资金流出美元资产转向风险资产（如股票、商品）",
+        "watch": "和平协议谈判进展及CPI（消费者物价指数）数据"
+      }
     },
     {
       "rank": 6,
@@ -71,7 +77,13 @@
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后投资者聚焦下一步战略动向",
+        "assets": "📈 SpaceX股票 利好；📈 军工股 利好",
+        "chain": "IPO（首次公开募股）融资后可能加速卫星互联网（星链）和火箭回收业务，利好供应链（如半导体、航天材料）",
+        "watch": "SpaceX新融资计划或重大合同公告"
+      }
     },
     {
       "rank": 7,
@@ -99,10 +111,10 @@
     },
     {
       "rank": 10,
-      "title": "For Warsh as Fed chair, silence may be the point",
-      "source": "CNBC",
-      "detail": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
-      "lang": "en",
+      "title": "上市36年“A股活化石”退市，000004成老牌壳公司衰败样本",
+      "source": "中国证券报",
+      "detail": "1990年12月1日，深交所试营业，深发展、深万科、深金田、深安达、深原野五只股票率先登场——江湖称为“深市老五股”。 时隔36年，*ST国华（000004）——昔日老五股中最神秘也最“...",
+      "lang": "zh",
       "score": 33
     }
   ]
