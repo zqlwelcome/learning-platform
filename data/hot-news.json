@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "华尔街对SpaceX目标价分歧极大（60-190美元）",
-        "assets": "📈 SpaceX股票 波动；📉 空头仓位 增加",
-        "chain": "极端目标价差暗示多空（看涨vs看跌）激战，期权隐含波动率（未来价格波动预期）可能飙升，套利机会出现。",
-        "watch": "期权持仓量及隐含波动率"
+        "what": "SpaceX IPO首日暴涨19%，收盘价161美元，创纪录表现",
+        "assets": "SPCX股票（看涨）",
+        "chain": "IPO首日强劲需求推高股价，散户涌入和机构评级分歧加剧波动，短期情绪主导",
+        "watch": "后续交易日成交量及CFRA卖出评级是否引发回调"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "交易员下调美联储2026年加息押注",
-        "assets": "📈 美债 利好；📉 美元 承压；📈 风险资产 利好",
-        "chain": "降息预期升温（借钱成本降低）推高债券价格，美元走弱利好大宗商品（如黄金、原油），股市流动性改善。",
-        "watch": "美国CPI及就业数据"
+        "what": "华尔街对SpaceX目标价分歧极大（60-190美元）",
+        "assets": "📈 SpaceX股票 波动；📉 空头仓位 增加",
+        "chain": "极端目标价差暗示多空（看涨vs看跌）激战，期权隐含波动率（未来价格波动预期）可能飙升，套利机会出现。",
+        "watch": "期权持仓量及隐含波动率"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在美联储调查中的损失应保留记录",
+        "assets": "无直接影响资产",
+        "chain": "法律裁决可能影响相关方声誉或监管审查，但对金融市场传导有限",
+        "watch": "是否涉及更广泛金融监管政策变化"
+      }
     },
     {
       "rank": 6,
@@ -71,7 +77,13 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "交易员下调美联储2026年加息押注",
+        "assets": "📈 美债 利好；📉 美元 承压；📈 风险资产 利好",
+        "chain": "降息预期升温（借钱成本降低）推高债券价格，美元走弱利好大宗商品（如黄金、原油），股市流动性改善。",
+        "watch": "美国CPI及就业数据"
+      }
     },
     {
       "rank": 7,
@@ -79,7 +91,13 @@
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "散户争相买入SpaceX IPO，尽管部分人认为估值过高",
+        "assets": "SPCX股票（看涨短期，看空长期）",
+        "chain": "散户热情推高首日涨幅，但估值担忧可能引发后续获利回吐，波动性增加",
+        "watch": "散户持仓变化及机构后续评级调整"
+      }
     },
     {
       "rank": 8,
@@ -87,7 +105,13 @@
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后投资者关注下一步发展，关键观察点待定",
+        "assets": "SPCX股票（中性）",
+        "chain": "市场焦点转向公司基本面如发射合同和星链进展，决定长期股价走势",
+        "watch": "SpaceX业务里程碑及财报披露时间表"
+      }
     },
     {
       "rank": 9,
@@ -95,7 +119,13 @@
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "众议院共和党高层家族投资将从SpaceX IPO中获益",
+        "assets": "SPCX股票（看涨）",
+        "chain": "政治关联可能引发内幕交易审查，但短期提升市场信心，利好股价",
+        "watch": "监管机构是否调查相关交易合规性"
+      }
     },
     {
       "rank": 10,
@@ -103,7 +133,13 @@
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "CFRA在SpaceX IPO后立即给予卖出评级",
+        "assets": "SPCX股票（看跌）",
+        "chain": "机构看空信号可能压制股价，尤其在高估值背景下，引发部分投资者抛售",
+        "watch": "其他投行是否跟进下调评级及目标价"
+      }
     }
   ]
 }
