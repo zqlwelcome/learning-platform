@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 03:31",
+  "updateTime": "2026-06-14 03:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值破2万亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "财富效应（资产升值）利好财富管理股，可能带动科技股风险偏好（Risk-on情绪）",
-        "watch": "SpaceX后续股价走势及机构持仓变动"
+        "what": "SpaceX IPO首日大涨19%，市值破2万亿美元",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好；📉 传统军工股 承压",
+        "chain": "高估值IPO成功提振风投（风险投资）信心，资金可能从传统行业轮动至太空科技",
+        "watch": "SpaceX后续财报及订单增长"
       }
     },
     {
@@ -23,52 +23,50 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "高盛称英伟达等股票仍有上涨空间",
-        "assets": "📈 美股半导体（如英伟达） 利好",
-        "chain": "卖方研报（券商报告）提振多头信心，可能引发散户和机构追涨（FOMO效应）",
-        "watch": "英伟达财报及AI订单数据"
+        "what": "Baird称理财顾问股将因SpaceX IPO受益",
+        "assets": "📈 理财顾问股（如LPLA） 利好",
+        "chain": "新富豪客户资产增加→理财顾问管理费（按资产规模抽成）收入上升→股价获支撑",
+        "watch": "理财顾问公司新增客户资产数据"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX IPO takeaways: SPCX closes at $161, jumping 19% after record debut",
-      "source": "CNBC",
-      "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
-      "lang": "en",
-      "score": 50
-    },
-    {
-      "rank": 4,
       "title": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
       "source": "CNBC",
       "detail": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by revenue of tech's megacaps.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "高盛称英伟达等股票仍有上涨空间",
+        "assets": "📈 英伟达 利好；📈 AI芯片股 利好",
+        "chain": "投行背书→机构加仓（基金买入）→AI算力需求预期推高半导体估值",
+        "watch": "英伟达财报及AI订单指引"
+      }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Goldman says stocks like Nvidia have more room to run",
       "source": "CNBC",
       "detail": "Analysts at Goldman Sachs named several stocks that have defensive attributes that they say also offer plenty of upside.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "美债交易员下调2026年加息押注，因和平协议预期",
+        "assets": "📈 美债 利好；📉 美元 承压；📈 新兴市场货币 利好",
+        "chain": "和平协议→通胀（物价上涨）预期降温→降息（借钱成本降低）概率上升→美债收益率（利息）下行",
+        "watch": "俄乌谈判进展及美国CPI（消费者物价指数）数据"
+      }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "美债交易员下调美联储2026年加息押注 因市场寄望和平协议",
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📈 美债（国债） 利好；📉 美元 承压",
-        "chain": "加息预期降温→利率下行（借钱成本降低）→风险资产（如美股）受提振",
-        "watch": "美联储官员讲话及CPI（通胀数据）"
-      }
+      "score": 36
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "SpaceX IPO sticks the landing. Here's what investors are saying about its epic first trading day",
       "source": "CNBC",
       "detail": "Despite a large retail allocation and huge volume, volatility was moderate",
@@ -76,7 +74,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "上市36年“A股活化石”退市，000004成老牌壳公司衰败样本",
       "source": "中国证券报",
       "detail": "1990年12月1日，深交所试营业，深发展、深万科、深金田、深安达、深原野五只股票率先登场——江湖称为“深市老五股”。 时隔36年，*ST国华（000004）——昔日老五股中最神秘也最“...",
@@ -84,7 +82,7 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "SpaceX IPO“绿鞋”选择权罕见零费率 马斯克还让银行家真的穿上绿鞋",
       "source": "环球市场播报",
       "detail": "已经为创纪录的首次公开募股（IPO）拿下极低承销费率的SpaceX，竟然又从其投资银行家那里争取到了一项更优惠的条件。 如果此次发行的承销商同意行使超额配售权...",
@@ -92,12 +90,20 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
       "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "美国多州总检察长联合调查 OpenAI",
+      "source": "环球市场播报",
+      "detail": "据知情人士透露，美国多个州的总检察长已联合启动对OpenAI的调查。多位知情人士称，该人工智能企业于本周五收到一份范围广泛的传票...",
+      "lang": "zh",
+      "score": 27
     }
   ]
 }
