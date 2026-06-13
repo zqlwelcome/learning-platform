@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 10:15",
+  "updateTime": "2026-06-13 10:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX IPO首日涨19%，市值破2万亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 联动",
-        "chain": "IPO溢价（首日涨幅超预期）吸引资金涌入，推高同类高增长科技股估值",
-        "watch": "未来5日SPCX成交量及做空比例"
+        "what": "SpaceX上市首日暴涨19%，市值破2万亿",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
+        "chain": "估值极端分化（目标价60-190美元）引发波动率（价格波动风险）飙升，带动IPO市场情绪回暖",
+        "watch": "SPCX后续成交量及空头头寸变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌超90%",
+        "what": "律所对Sleep Number发起证券欺诈调查",
         "assets": "📉 Sleep Number股票 利空；📉 家居消费股 承压",
-        "chain": "欺诈调查引发恐慌抛售（卖出避险），或波及同行业财报可信度，触发做空（押注下跌）",
-        "watch": "调查进展及是否有集体诉讼"
+        "chain": "散户恐慌抛售（抛售压力）可能蔓延至其他高负债消费股，触发做空（押注下跌）潮",
+        "watch": "Sleep Number财报及做空比例变化"
       }
     },
     {
@@ -35,13 +35,7 @@
       "source": "CNBC",
       "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
       "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "华尔街对SpaceX目标价分歧极大，从60到190美元",
-        "assets": "📈 SpaceX股票 波动性高；📉 短期投机盘 风险",
-        "chain": "多空博弈（多空双方对抗）加剧股价震荡，期权（买卖权利合约）隐含波动率飙升",
-        "watch": "机构持仓报告及期权未平仓量"
-      }
+      "score": 50
     },
     {
       "rank": 4,
@@ -49,13 +43,7 @@
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 SpaceX完成史上最大IPO之一，在华尔街掀起激烈“估值战争”：乐观派将其视作“世纪机遇”，喊出190美元目标价；悲观派则狠批估值透支...",
       "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "美债交易员下调2026年加息押注，因和平协议预期",
-        "assets": "📈 美债 利好；📉 美元 承压；📈 风险资产 利好",
-        "chain": "降息押注（借钱成本降低预期）压低长端收益率（长期国债回报率），资金从避险转向股市",
-        "watch": "和平协议谈判进展及CPI（通胀数据）"
-      }
+      "score": 40
     },
     {
       "rank": 5,
@@ -65,10 +53,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "Pirro在Fed调查中损失维持原判，法官驳回上诉",
-        "assets": "📉 相关金融股 利空；📉 法律合规板块 关注",
-        "chain": "监管趋严→银行/交易商合规成本上升，可能引发更多罚单（罚款），短期压制金融股情绪",
-        "watch": "其他机构是否面临类似调查"
+        "what": "法官裁定Pirro在Fed调查中的损失不可撤销",
+        "assets": "📉 银行股 承压；📉 法律合规股 利空",
+        "chain": "监管风险（合规成本增加）上升，银行可能增加拨备（预留资金），压缩利润空间",
+        "watch": "Fed后续监管处罚金额及银行财报"
       }
     },
     {
@@ -79,10 +67,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因市场寄望和平协议。",
-        "assets": "美债（看涨），美元（看跌）",
-        "chain": "和平协议预期降低地缘风险，削弱通胀避险需求，导致加息押注减少，美债收益率下行（利率预期调整）。",
-        "watch": "关注和平协议谈判进展及美联储官员讲话。"
+        "what": "美债交易员下调美联储2026年加息押注",
+        "assets": "📈 美债价格 利好；📉 美元 承压；📈 风险资产 利好",
+        "chain": "加息预期降温（借钱成本预期降低）压低长端收益率（长期利率），资金从债市流向股市",
+        "watch": "美联储点阵图（利率预测）及和平协议进展"
       }
     },
     {
@@ -91,13 +79,7 @@
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO后投资者聚焦下一步计划，包括星链和火星任务。",
-        "assets": "SpaceX股票（看涨），太空概念股（看涨）",
-        "chain": "IPO后市场关注公司增长前景，星链商业化及火星任务可能提升估值，吸引资金流入（风险偏好驱动）。",
-        "watch": "关注SpaceX财报及星链用户增长数据。"
-      }
+      "score": 35
     },
     {
       "rank": 8,
@@ -105,13 +87,7 @@
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "散户争相买入SpaceX IPO，尽管部分人认为估值过高。",
-        "assets": "SpaceX股票（看涨），散户情绪指标（看涨）",
-        "chain": "散户涌入推高短期需求，但估值争议可能引发波动，需警惕过度投机后的回调风险（市场情绪驱动）。",
-        "watch": "关注散户资金流入量及后续股价波动率。"
-      }
+      "score": 35
     },
     {
       "rank": 9,
@@ -119,13 +95,7 @@
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "众议院共和党高层家族投资将从SpaceX IPO中受益。",
-        "assets": "SpaceX股票（看涨），政治关联股（看涨）",
-        "chain": "内幕消息或政策利好预期增强投资者信心，但可能引发监管审查，影响市场公平性（政治风险传导）。",
-        "watch": "关注相关监管调查及政治丑闻风险。"
-      }
+      "score": 35
     },
     {
       "rank": 10,
@@ -133,13 +103,7 @@
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "CFRA在SpaceX IPO后立即给予卖出评级。",
-        "assets": "SpaceX股票（看跌），太空板块（看跌）",
-        "chain": "机构看空信号压制股价，可能引发其他分析师跟风下调，导致短期抛压增加（卖方评级效应）。",
-        "watch": "关注其他投行评级调整及公司回应。"
-      }
+      "score": 35
     }
   ]
 }
