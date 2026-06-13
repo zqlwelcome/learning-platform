@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 03:51",
+  "updateTime": "2026-06-14 03:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
-        "assets": "📈 SpaceX 股票 利好；📈 太空概念股 利好",
-        "chain": "SpaceX上市创造新亿万富翁，财富效应（资产增值带动消费/投资）传导至财富管理公司",
-        "watch": "SpaceX后续财报及机构持仓变动"
+        "what": "SpaceX IPO首日大涨19%，市值破2万亿",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
+        "chain": "财富效应（投资者资产增值）→ 资金流入理财顾问股（如Baird推荐标的），但需警惕估值泡沫（价格偏离基本面）",
+        "watch": "SpaceX后续财报及订单增速"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "Baird称财富顾问股将受益于SpaceX IPO",
-        "assets": "📈 财富管理公司（如GS、MKTX） 利好",
-        "chain": "客户财富膨胀→管理资产（AUM，即客户托管资产）增长→顾问佣金收入上升",
-        "watch": "财富管理公司Q1财报AUM数据"
+        "what": "Baird称理财顾问股将受益于SpaceX IPO客户财富增长",
+        "assets": "📈 理财顾问股（如Baird推荐标的） 利好",
+        "chain": "客户资产增值→管理资产（AUM）扩大→顾问费收入增加→股价上行，但需关注客户赎回压力（变现后离场）",
+        "watch": "SpaceX股价走势及客户资金流向"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 45,
       "insight": {
         "what": "高盛称英伟达等股票仍有上涨空间",
-        "assets": "📈 英伟达 利好；📈 半导体板块 利好",
-        "chain": "高盛看多信号→机构资金增仓→AI算力需求预期强化，利好产业链",
-        "watch": "英伟达财报指引及AI芯片订单量"
+        "assets": "📈 英伟达及AI芯片股 利好",
+        "chain": "AI资本开支（企业买芯片建模型）预期持续→英伟达营收增长→带动半导体板块，但需关注地缘风险（芯片出口限制）",
+        "watch": "英伟达业绩及AI行业资本开支数据"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "CNBC",
       "detail": "Analysts at Goldman Sachs named several stocks that have defensive attributes that they say also offer plenty of upside.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
+        "assets": "📈 美债（价格） 利好；📉 美元 承压",
+        "chain": "和平协议→通胀预期降温（物价上涨减慢）→加息概率降低→美债收益率（借钱成本）下行→美元走弱",
+        "watch": "俄乌/中东和平谈判进展及CPI数据"
+      }
     },
     {
       "rank": 5,
@@ -57,13 +63,7 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📈 美债 利好（价格上涨）；📉 美元 承压",
-        "chain": "加息预期降温→长端利率（10年期国债收益率）下行→风险资产（股市）估值压力缓解",
-        "watch": "美联储点阵图及CPI（消费者物价指数）数据"
-      }
+      "score": 36
     },
     {
       "rank": 6,
