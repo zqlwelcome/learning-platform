@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 20:20",
+  "updateTime": "2026-06-13 20:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX上市首日暴涨19%，市值突破2万亿美元",
-        "assets": "📈 SpaceX股票 利好; 📈 太空概念股 利好; 📉 传统航空股 承压",
-        "chain": "资金从传统行业轮动至太空经济，风险偏好（市场愿意冒险程度）提升，利好IPO市场情绪",
-        "watch": "SpaceX后续财报及订单量；其他太空股联动性"
+        "what": "SpaceX上市首日暴涨19%，市值破2万亿",
+        "assets": "📈 太空概念股 利好\n📈 马斯克概念股 利好",
+        "chain": "提振风险偏好（Risk-on情绪），资金可能轮动到高Beta（波动大）成长股",
+        "watch": "SPCE（维珍银河）股价联动及后续机构评级变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "律所对Sleep Number发起证券欺诈调查，股价已暴跌逾九成",
-        "assets": "📉 Sleep Number股票 利空; 📉 家具零售板块 承压",
-        "chain": "调查引发投资者对行业财务造假担忧，做空（押注下跌）情绪升温，可能拖累同行估值",
-        "watch": "调查进展及是否有集体诉讼（联合起诉）；同行业财报透明度"
+        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌超90%",
+        "assets": "📉 Sleep Number 利空\n📉 家居消费股 承压",
+        "chain": "引发对消费贷坏账（Consumer Credit Risk）的担忧，做空盘可能增加",
+        "watch": "公司财报及诉讼进展，家居行业同行的信贷数据"
       }
     },
     {
@@ -37,28 +37,14 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
-        "assets": "📈 美债 利好; 📉 美元 承压; 📈 新兴市场货币 利好",
-        "chain": "降息预期升温（借钱成本降低）压低长端利率（长期国债收益率），资金流向风险资产",
-        "watch": "和平协议谈判进展；美联储官员讲话及通胀数据"
+        "what": "美债交易员下调2026年加息押注，因和平协议预期",
+        "assets": "📈 美债 利好（价格涨）\n📉 美元 承压",
+        "chain": "降息预期（借钱成本降低）推动风险资产，利空银行净息差（NIM，存贷利差）",
+        "watch": "俄乌/中东和平谈判进展及美联储官员最新讲话"
       }
     },
     {
       "rank": 4,
-      "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
-      "source": "CNBC",
-      "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "法官裁定Pirro在美联储调查中的损失记录应保留",
-        "assets": "📉 相关金融股 利空; 📈 合规科技股 利好",
-        "chain": "加强监管预期，金融机构合规成本上升，可能引发更多调查和罚款",
-        "watch": "美联储后续调查公告；金融板块股价波动"
-      }
-    },
-    {
-      "rank": 5,
       "title": "美债交易员下调美联储2026年加息押注 因市场寄望和平协议",
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
@@ -66,7 +52,7 @@
       "score": 36
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
@@ -74,15 +60,21 @@
       "score": 35
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "CFRA在SpaceX IPO后立即给予卖出评级",
+        "assets": "📉 SpaceX 短期承压\n📉 太空板块 情绪利空",
+        "chain": "首日暴涨后估值泡沫担忧（Valuation Concern），可能触发获利盘回吐",
+        "watch": "后续是否有更多投行降级，以及锁定期（Lock-up period）到期抛压"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "上市36年“A股活化石”退市，000004成老牌壳公司衰败样本",
       "source": "中国证券报",
       "detail": "1990年12月1日，深交所试营业，深发展、深万科、深金田、深安达、深原野五只股票率先登场——江湖称为“深市老五股”。 时隔36年，*ST国华（000004）——昔日老五股中最神秘也最“...",
@@ -90,20 +82,28 @@
       "score": 33
     },
     {
-      "rank": 9,
-      "title": "For Warsh as Fed chair, silence may be the point",
-      "source": "CNBC",
-      "detail": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "SpaceX IPO“绿鞋”选择权罕见零费率 马斯克还让银行家真的穿上绿鞋",
       "source": "环球市场播报",
       "detail": "已经为创纪录的首次公开募股（IPO）拿下极低承销费率的SpaceX，竟然又从其投资银行家那里争取到了一项更优惠的条件。 如果此次发行的承销商同意行使超额配售权...",
       "lang": "zh",
       "score": 30
+    },
+    {
+      "rank": 9,
+      "title": "美国多州总检察长联合调查 OpenAI",
+      "source": "环球市场播报",
+      "detail": "据知情人士透露，美国多个州的总检察长已联合启动对OpenAI的调查。多位知情人士称，该人工智能企业于本周五收到一份范围广泛的传票...",
+      "lang": "zh",
+      "score": 27
+    },
+    {
+      "rank": 10,
+      "title": "6月13日美股成交额前20：SpaceX登陆纳斯达克，市值突破2万亿美元",
+      "source": "环球市场播报",
+      "detail": "周五美股成交额第1名SpaceX收高19.34%，成交837.3亿美元。SpaceX纳斯达克首秀当日收盘股价上涨25.95美元，涨幅为19.22%，收于160.95美元，公司市值达到21045.6亿美元...",
+      "lang": "zh",
+      "score": 25
     }
   ]
 }
