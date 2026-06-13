@@ -197,6 +197,49 @@ function getBenchmarkComparison(trades, portfolio) {
     };
 }
 
+function getRoundTripCostPct(trade) {
+    if (trade.kind === 'Stock') return 0.35;
+    if (trade.kind === 'ETF') return 0.2;
+    return 0.25;
+}
+
+function getCostAdjustedStats(trades, portfolio) {
+    const effective = (trades || []).filter((trade) => trade.status !== '重复剔除');
+    const marked = effective
+        .filter((trade) => typeof trade.pnlPct === 'number')
+        .map((trade) => {
+            const roundTripCostPct = getRoundTripCostPct(trade);
+            return {
+                symbol: trade.symbol,
+                name: trade.name,
+                status: trade.status,
+                grossPnlPct: Number(trade.pnlPct.toFixed(2)),
+                roundTripCostPct,
+                netPnlPct: Number((trade.pnlPct - roundTripCostPct).toFixed(2))
+            };
+        });
+
+    const avgNetPnlPct = marked.length
+        ? Number((marked.reduce((sum, trade) => sum + trade.netPnlPct, 0) / marked.length).toFixed(2))
+        : null;
+    const estimatedTotalCost = effective.reduce((sum, trade) => {
+        const positionValue = Number(trade.entryValue || trade.currentValue || 0);
+        return sum + positionValue * (getRoundTripCostPct(trade) / 100);
+    }, 0);
+
+    return {
+        modelReturnPctAfterCost: Number((((portfolio.equity - estimatedTotalCost - 100000) / 100000) * 100).toFixed(2)),
+        avgNetPnlPct,
+        estimatedTotalCost: Number(estimatedTotalCost.toFixed(2)),
+        assumptions: {
+            ETF: '估算单次完整买卖成本/滑点 0.20%',
+            Stock: '估算单次完整买卖成本/滑点 0.35%',
+            note: '用于惩罚过度交易和纸面收益，不代表真实成交费用。'
+        },
+        samples: marked.slice(0, 8)
+    };
+}
+
 async function main() {
     const previous = readJson(outputPath, { trades: [] });
     const hotNews = readHotNews();
@@ -222,7 +265,7 @@ async function main() {
     const excludedCount = trades.filter(trade => trade.status === '重复剔除').length;
 
     const output = {
-        version: 3,
+        version: 4,
         mode: 'cloud-paper-simulator',
         updateTime: new Date().toISOString(),
         newsSource: hotNews.source,
@@ -269,7 +312,8 @@ async function main() {
             portfolioCap: sandbox.getPaperPortfolioCap(macro),
             riskMode: sandbox.getPaperRiskMode(macro),
             alerts: portfolio.alerts,
-            benchmark: getBenchmarkComparison(trades, portfolio)
+            benchmark: getBenchmarkComparison(trades, portfolio),
+            costAdjusted: getCostAdjustedStats(trades, portfolio)
         },
         phaseStats,
         trades,
