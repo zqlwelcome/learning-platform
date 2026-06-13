@@ -1,96 +1,92 @@
 {
-  "updateTime": "2026-06-13 09:31",
+  "updateTime": "2026-06-13 09:36",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX股票收于160.95美元，创纪录IPO首日上涨19.22%，市值突破2万亿美元",
-      "source": "环球市场播报",
-      "detail": "美股周五常规交易时段已经结束，截至收盘，SpaceX股价上涨25.95美元，涨幅为19.22%，收于160.95美元，公司市值达到21045.6亿美元。",
-      "lang": "zh",
-      "score": 55,
-      "insight": {
-        "what": "SpaceX首日涨19%市值破2万亿",
-        "assets": "📈 SpaceX股票 利好; 📉 传统军工股 承压",
-        "chain": "太空经济估值重塑，资金从传统制造流向新航天（资金轮动效应）",
-        "watch": "SpaceX后续财报及订单增速"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "律所对Sleep Number发起证券欺诈调查 股价已暴跌逾九成",
-      "source": "环球市场播报",
-      "detail": "Wolf Haldenstein Adler Freeman &amp; Herz LLP律师事务所宣布，代表Sleep Number Corporation（纳斯达克代码：SNBR）的股东，对该公司可能存在的证券欺诈行为发起调查。...",
-      "lang": "zh",
-      "score": 50,
-      "insight": {
-        "what": "Sleep Number遭证券欺诈调查，股价跌超90%",
-        "assets": "📉 Sleep Number股票 利空; 📉 家居零售板块 情绪承压",
-        "chain": "监管关注度上升，做空机构可能瞄准同类高负债消费股（空头信号）",
-        "watch": "律所调查进展及SEC是否介入"
-      }
-    },
-    {
-      "rank": 3,
       "title": "SpaceX IPO takeaways: SPCX closes at $161, jumping 19% after record debut",
       "source": "CNBC",
       "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "华尔街对SpaceX目标价分歧极大，60-190美元",
-        "assets": "📈 SpaceX股票 波动性高; 📊 科技成长股 分化",
-        "chain": "估值争议引发多空博弈，期权隐含波动率（未来价格波动预期）将飙升",
-        "watch": "机构研报调整及期权持仓变化"
+        "what": "SpaceX IPO首日暴涨19%，收盘价161美元",
+        "assets": "📈 SpaceX股票 利好\n📈 太空概念股 提振",
+        "chain": "高估值引发多空分歧，散户追涨但机构恐高（机构认为估值过高），可能加剧波动率",
+        "watch": "SPCX后续交易量及做空比例变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 2,
       "title": "华尔街对历史性SpaceX IPO极端两极分化！目标价60-190美元",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 SpaceX完成史上最大IPO之一，在华尔街掀起激烈“估值战争”：乐观派将其视作“世纪机遇”，喊出190美元目标价；悲观派则狠批估值透支...",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "华尔街对SpaceX目标价分歧极大，从60到190美元",
+        "assets": "📉 SpaceX股票 承压\n📈 波动率（期权隐含波动） 上升",
+        "chain": "极端分歧暗示多空博弈激烈，可能触发gamma squeeze（期权对冲引发加速上涨或下跌）",
+        "watch": "期权持仓分布及未平仓量变化"
+      }
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在美联储调查中的损失应保留",
+        "assets": "📉 美联储公信力 承压\n📈 银行股 不确定性",
+        "chain": "监管风险上升，银行合规成本增加，可能拖累金融板块（金融股）短期情绪",
+        "watch": "美联储后续调查进展及银行股资金流向"
+      }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "美债交易员下调美联储2026年加息押注 因市场寄望和平协议",
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📈 美债 利好; 📉 美元 承压; 📈 新兴市场货币 反弹",
-        "chain": "加息预期降温→长端利率（长期借贷成本）下行→风险资产（股票等）吸引力上升",
-        "watch": "美联储官员讲话及CPI（通胀指数）数据"
+        "what": "美债交易员下调2026年美联储加息押注，因和平协议预期",
+        "assets": "📈 美债（国债价格） 利好\n📉 美元 承压",
+        "chain": "加息预期降温→长端利率下行（长期借贷成本降低）→风险资产（如股票）吸引力上升",
+        "watch": "和平协议谈判进展及2年期/10年期美债利差"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后投资者关注未来方向，包括星链等业务",
+        "assets": "📈 SpaceX股票 利好\n📈 卫星通信板块 提振",
+        "chain": "星链商业化预期增强，可能带动上游供应链（如火箭零部件）和下游应用（如物联网）",
+        "watch": "SpaceX季度财报及星链用户增长数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "散户争抢SpaceX IPO，部分机构认为估值荒谬",
+        "assets": "📈 SpaceX股票 短期炒作\n📉 机构持仓 承压",
+        "chain": "散户情绪过热易引发回调（超买后抛售），机构做空可能增加，形成多空对峙",
+        "watch": "散户资金流入速度及机构做空比例变化"
+      }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
@@ -98,12 +94,28 @@
       "score": 35
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
       "score": 35
+    },
+    {
+      "rank": 9,
+      "title": "Call Kevin Warsh the Fed 'chairman'",
+      "source": "CNBC",
+      "detail": "Kevin Warsh's two immediate predecessors preferred to be called the Fed \"chair.\" For Warsh, it's \"chairman\" of the Federal Reserve.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "For Warsh as Fed chair, silence may be the point",
+      "source": "CNBC",
+      "detail": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
