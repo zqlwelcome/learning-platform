@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 13:35",
+  "updateTime": "2026-06-13 13:41",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX IPO首日大涨19%，市值超2万亿美元",
+        "what": "SpaceX IPO首日暴涨19%，市值突破2万亿美元",
         "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "IPO溢价（首日涨幅）吸引资金涌入太空赛道，推高相关ETF及竞争对手估值",
-        "watch": "SpaceX后续财报及订单增长"
+        "chain": "SpaceX估值飙升将带动太空产业链（卫星、火箭）资金流入，风险偏好（市场情绪）上升",
+        "watch": "SpaceX后续财报及太空订单量"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 50,
       "insight": {
         "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌超90%",
-        "assets": "📉 Sleep Number股票 利空；📉 家居零售板块 承压",
-        "chain": "欺诈指控引发信任危机，资金撤出低估值消费股，转向防御性资产（如公用事业）",
-        "watch": "调查进展及公司财报修正"
+        "assets": "📉 Sleep Number股票 承压；📉 家居消费股 承压",
+        "chain": "调查可能引发投资者对消费耐久品（家具、家电）行业盈利前景的担忧，拖累板块估值（股价与盈利的倍数）",
+        "watch": "Sleep Number季度营收及欺诈诉讼进展"
       }
     },
     {
@@ -37,52 +37,56 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "华金资本年内跌超28%，AI问询密集但市场不买账",
-        "assets": "📉 华金资本股票 利空；📉 A股创投板块 承压",
-        "chain": "监管问询（关于AI业务的合规质疑）压制风险偏好，参股IPO（首次公开募股）无法兑现收益预期",
-        "watch": "监管回复函及AI业务营收数据"
+        "what": "SpaceX IPO首日收涨19%，创纪录表现",
+        "assets": "📈 SpaceX股票 利好；📈 科技成长股 利好",
+        "chain": "IPO强劲表现提振科技IPO市场（新股发行）情绪，可能加速其他独角兽（未上市高估值公司）上市",
+        "watch": "后续科技IPO发行节奏及定价"
       }
     },
     {
       "rank": 4,
-      "title": "华金资本年内跌幅超28％！AI问询扎堆、参股IPO不少，为何市场不买账？",
-      "source": "滚动播报",
-      "detail": "来源：华夏时报 本报（chinatimes.net.cn）记者王兆寰 北京报道 近期，AI赛道行情持续火热，华金资本（000532.SZ）收获极高市场关注度，机构调研、投资者问询持续扎堆。",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
-        "assets": "📈 美债 利好（价格涨）；📉 美元 承压",
-        "chain": "和平协议（地缘风险缓解）降低通胀预期，削弱加息（借钱成本上升）逻辑，资金涌入国债",
-        "watch": "和平协议谈判进展及CPI（消费者物价指数）数据"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在美联储调查中的损失应继续记录",
+        "assets": "📉 银行股 承压；📉 金融监管股 承压",
+        "chain": "裁决强化美联储监管执行力（银行合规成本上升），增加金融业法律风险溢价（风险补偿要求）",
+        "watch": "美联储后续监管处罚公告及银行合规报告"
+      }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "美债交易员下调美联储2026年加息押注 因市场寄望和平协议",
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
+        "assets": "📈 美债 利好（价格上涨）；📉 美元 承压",
+        "chain": "加息预期降温降低长端利率（长期借贷成本），利好风险资产（股票、商品），但美元走弱",
+        "watch": "和平协议谈判进展及美联储官员讲话"
+      }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后市场关注其下一步战略动向",
+        "assets": "📈 SpaceX股票 利好；📈 卫星互联网股 利好",
+        "chain": "投资者将聚焦SpaceX星链（卫星互联网）商业化进度及火星计划，影响太空经济板块估值（股价与盈利的倍数）",
+        "watch": "SpaceX星链用户增长及发射计划"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
@@ -90,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
@@ -98,12 +102,20 @@
       "score": 35
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
       "score": 35
+    },
+    {
+      "rank": 10,
+      "title": "Call Kevin Warsh the Fed 'chairman'",
+      "source": "CNBC",
+      "detail": "Kevin Warsh's two immediate predecessors preferred to be called the Fed \"chair.\" For Warsh, it's \"chairman\" of the Federal Reserve.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
