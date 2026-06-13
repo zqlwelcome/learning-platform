@@ -62,10 +62,20 @@ function getJsonFromStorage(sandbox, key, fallback) {
     }
 }
 
+function isPaperTradingDay(dateText) {
+    const day = new Date(`${dateText}T12:00:00+08:00`).getDay();
+    return day >= 1 && day <= 5;
+}
+
+function removeWeekendEntryTrades(trades) {
+    return (trades || []).filter((trade) => !trade.entryDate || isPaperTradingDay(trade.entryDate));
+}
+
 async function main() {
     const previous = readJson(outputPath, { trades: [] });
     const hotNews = readHotNews();
-    const sandbox = buildSandbox(previous.trades || []);
+    const existingTrades = removeWeekendEntryTrades(previous.trades || []);
+    const sandbox = buildSandbox(existingTrades);
 
     vm.createContext(sandbox);
     vm.runInContext(fs.readFileSync(dailyDataPath, 'utf8'), sandbox, { filename: dailyDataPath });
@@ -89,6 +99,10 @@ async function main() {
         mode: 'cloud-paper-simulator',
         updateTime: new Date().toISOString(),
         newsSource: hotNews.source,
+        tradingCalendar: {
+            timezone: 'Asia/Shanghai',
+            rule: '周一至周五允许新增模拟入场；周末只更新复盘和观察，不新增买入记录。'
+        },
         macro,
         candidates: candidates.map(item => ({
             symbol: item.symbol,
