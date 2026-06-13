@@ -12,7 +12,7 @@ const COURSE_SERIES = [
     color: '#0071e3',
     status: 'active',
     progress: 0,
-    totalLessons: 17,
+    totalLessons: 23,
     completedLessons: 0,
     description: '从0到1掌握AI产品经理核心技能',
     tags: ['热门', '实战'],
@@ -41,8 +41,22 @@ const COURSE_SERIES = [
       },
       {
         id: 'ai-pm-data',
+        title: '高级 Agent 方案篇',
+        subtitle: 'Day 6-13',
+        icon: '🧩',
+        lessons: [
+          { id: 'adv-1', title: '高级 Agent 岗位要求拆解：从 PM 到解决方案负责人', time: '12分钟' },
+          { id: 'adv-2', title: '复杂任务 Workflow 与多步骤规划设计', time: '14分钟' },
+          { id: 'adv-3', title: 'Context Engineering、State 与 Memory 设计', time: '14分钟' },
+          { id: 'adv-4', title: 'Tool Orchestration、Sandbox 与 Agent Harness', time: '14分钟' },
+          { id: 'adv-5', title: 'Agent 效果评估：Prompt、RAG、SFT 怎么选', time: '14分钟' },
+          { id: 'adv-6', title: 'To B Agent 解决方案与商业化交付', time: '14分钟' }
+        ]
+      },
+      {
+        id: 'ai-pm-data',
         title: '数据篇',
-        subtitle: 'Day 6-7',
+        subtitle: 'Day 14-15',
         icon: '📊',
         lessons: [
           { id: 'data-1', title: 'AI功能指标体系设计', time: '10分钟' },
@@ -52,7 +66,7 @@ const COURSE_SERIES = [
       {
         id: 'ai-pm-design',
         title: '设计篇',
-        subtitle: 'Day 8-10',
+        subtitle: 'Day 16-18',
         icon: '🎨',
         lessons: [
           { id: 'des-1', title: 'AI产品交互设计原则', time: '10分钟' },
@@ -63,7 +77,7 @@ const COURSE_SERIES = [
       {
         id: 'ai-pm-practice',
         title: '实战篇',
-        subtitle: 'Day 11-20',
+        subtitle: 'Day 19-28',
         icon: '💪',
         lessons: [
           { id: 'prac-1', title: 'AI产品从0到1全流程', time: '10分钟' },
