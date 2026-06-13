@@ -1,8 +1,14 @@
 {
-  "version": 2,
+  "version": 3,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-13T15:30:21.337Z",
+  "updateTime": "2026-06-13T15:41:42.203Z",
   "newsSource": "live-hot-news.json",
+  "modelTuning": {
+    "duplicateCooldownDays": 15,
+    "maxCandidatesPerRun": 6,
+    "eventCaps": "供需/地缘每轮最多1个，其它事件每轮最多2个",
+    "commodityRule": "油气/黄金/能源类必须确认分>=84，且价格、资金、风险三项同时过线。"
+  },
   "tradingCalendar": {
     "timezone": "Asia/Shanghai",
     "rule": "周一至周五允许新增模拟入场；周末只更新复盘和观察，不新增买入记录。"
@@ -11,111 +17,12 @@
     "rateUp": true,
     "rateDown": false,
     "oilShock": true,
-    "aiCapex": true,
+    "aiCapex": false,
     "riskOff": true,
-    "chinaSupport": true,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认"
+    "chinaSupport": false,
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 风险偏好需要打折"
   },
   "candidates": [
-    {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 10,
-      "confirmationScore": 83,
-      "confirmationReasons": [
-        "催化20/20",
-        "资金18/20",
-        "价格16/20",
-        "质量15/20"
-      ],
-      "entryFactors": {
-        "catalyst": 20,
-        "price": 16,
-        "flow": 18,
-        "quality": 15,
-        "risk": 14
-      },
-      "allocationPct": 8,
-      "portfolioCap": 45,
-      "riskMode": "防御",
-      "allocationReason": "防御模式 / 成长降权",
-      "actionPlan": {
-        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
-        "buyWhat": "恒生科技ETF 3033，基金/ETF方向验证。",
-        "buyWhy": "入场确认 83/100，当前为防御模式；五因子：催化20/价格16/资金18/质量15/风险14。防御模式 / 成长降权。",
-        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
-      }
-    },
-    {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
-      "market": "港股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 10,
-      "confirmationScore": 94,
-      "confirmationReasons": [
-        "催化20/20",
-        "价格19/20",
-        "质量19/20",
-        "资金18/20"
-      ],
-      "entryFactors": {
-        "catalyst": 20,
-        "price": 19,
-        "flow": 18,
-        "quality": 19,
-        "risk": 18
-      },
-      "allocationPct": 12,
-      "portfolioCap": 45,
-      "riskMode": "防御",
-      "allocationReason": "防御模式 / 确认分高",
-      "actionPlan": {
-        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
-        "buyWhat": "盈富基金 2800，基金/ETF方向验证。",
-        "buyWhy": "入场确认 94/100，当前为防御模式；五因子：催化20/价格19/资金18/质量19/风险18。防御模式 / 确认分高。",
-        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
-      }
-    },
-    {
-      "symbol": "sz159928",
-      "code": "159928",
-      "name": "消费ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 10,
-      "confirmationScore": 87,
-      "confirmationReasons": [
-        "催化20/20",
-        "资金18/20",
-        "风险18/20",
-        "价格16/20"
-      ],
-      "entryFactors": {
-        "catalyst": 20,
-        "price": 16,
-        "flow": 18,
-        "quality": 15,
-        "risk": 18
-      },
-      "allocationPct": 12,
-      "portfolioCap": 45,
-      "riskMode": "防御",
-      "allocationReason": "防御模式 / 确认分高",
-      "actionPlan": {
-        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
-        "buyWhat": "消费ETF 159928，基金/ETF方向验证。",
-        "buyWhy": "入场确认 87/100，当前为防御模式；五因子：催化20/价格16/资金18/质量15/风险18。防御模式 / 确认分高。",
-        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
-      }
-    },
     {
       "symbol": "usGLD",
       "code": "GLD",
@@ -146,39 +53,6 @@
         "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
         "buyWhat": "黄金ETF GLD，基金/ETF方向验证。",
         "buyWhy": "入场确认 90/100，当前为防御模式；五因子：催化20/价格15/资金18/质量19/风险18。防御模式 / 防御保留 / 确认分高。",
-        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
-      }
-    },
-    {
-      "symbol": "sh512880",
-      "code": "512880",
-      "name": "证券ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 10,
-      "confirmationScore": 90,
-      "confirmationReasons": [
-        "催化20/20",
-        "资金20/20",
-        "风险18/20",
-        "价格17/20"
-      ],
-      "entryFactors": {
-        "catalyst": 20,
-        "price": 17,
-        "flow": 20,
-        "quality": 15,
-        "risk": 18
-      },
-      "allocationPct": 12,
-      "portfolioCap": 45,
-      "riskMode": "防御",
-      "allocationReason": "防御模式 / 确认分高",
-      "actionPlan": {
-        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
-        "buyWhat": "证券ETF 512880，基金/ETF方向验证。",
-        "buyWhy": "入场确认 90/100，当前为防御模式；五因子：催化20/价格17/资金20/质量15/风险18。防御模式 / 确认分高。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
@@ -216,87 +90,119 @@
       }
     },
     {
-      "symbol": "sh511010",
-      "code": "511010",
-      "name": "国债ETF",
+      "symbol": "sh512880",
+      "code": "512880",
+      "name": "证券ETF",
       "market": "A股",
       "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 9,
-      "confirmationScore": 81,
+      "eventType": "政策类",
+      "score": 10,
+      "confirmationScore": 82,
       "confirmationReasons": [
-        "质量19/20",
-        "催化18/20",
-        "资金18/20",
-        "风险18/20"
+        "催化20/20",
+        "资金20/20",
+        "价格17/20",
+        "质量15/20"
       ],
       "entryFactors": {
-        "catalyst": 18,
-        "price": 8,
-        "flow": 18,
-        "quality": 19,
-        "risk": 18
+        "catalyst": 20,
+        "price": 17,
+        "flow": 20,
+        "quality": 15,
+        "risk": 10
       },
-      "allocationPct": 12,
+      "allocationPct": 10,
       "portfolioCap": 45,
       "riskMode": "防御",
-      "allocationReason": "防御模式 / 防御保留",
+      "allocationReason": "防御模式",
       "actionPlan": {
         "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
-        "buyWhat": "国债ETF 511010，基金/ETF方向验证。",
-        "buyWhy": "入场确认 81/100，当前为防御模式；五因子：催化18/价格8/资金18/质量19/风险18。防御模式 / 防御保留。",
+        "buyWhat": "证券ETF 512880，基金/ETF方向验证。",
+        "buyWhy": "入场确认 82/100，当前为防御模式；五因子：催化20/价格17/资金20/质量15/风险10。防御模式。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     },
     {
-      "symbol": "usXLE",
-      "code": "XLE",
-      "name": "能源ETF",
-      "market": "美股",
+      "symbol": "hk03033",
+      "code": "3033",
+      "name": "恒生科技ETF",
+      "market": "港股",
       "kind": "ETF",
-      "eventType": "供需/地缘",
-      "score": 9,
-      "confirmationScore": 90,
+      "eventType": "政策类",
+      "score": 10,
+      "confirmationScore": 75,
       "confirmationReasons": [
         "催化20/20",
-        "价格19/20",
         "资金18/20",
-        "风险18/20"
+        "价格16/20",
+        "质量15/20"
       ],
       "entryFactors": {
         "catalyst": 20,
-        "price": 19,
+        "price": 16,
         "flow": 18,
         "quality": 15,
-        "risk": 18
+        "risk": 6
       },
-      "allocationPct": 11,
+      "allocationPct": 7,
       "portfolioCap": 45,
       "riskMode": "防御",
-      "allocationReason": "防御模式 / 确认分高",
+      "allocationReason": "防御模式 / 成长降权",
       "actionPlan": {
-        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
-        "buyWhat": "能源ETF XLE，基金/ETF方向验证。",
-        "buyWhy": "入场确认 90/100，当前为防御模式；五因子：催化20/价格19/资金18/质量15/风险18。防御模式 / 确认分高。",
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
+        "buyWhat": "恒生科技ETF 3033，基金/ETF方向验证。",
+        "buyWhy": "入场确认 75/100，当前为防御模式；五因子：催化20/价格16/资金18/质量15/风险6。防御模式 / 成长降权。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     }
   ],
   "stats": {
     "sampleCount": 9,
-    "rawSampleCount": 33,
+    "rawSampleCount": 17,
     "activeCount": 6,
     "closedCount": 2,
     "waitingCount": 1,
-    "excludedCount": 24,
+    "excludedCount": 8,
     "reviewedCount": 2,
     "winRate": 0,
     "avgPnl": -2.005,
-    "equity": 99952.07360581242,
-    "exposurePct": 43,
+    "equity": 99946.50237767567,
+    "exposurePct": 41,
     "portfolioCap": 45,
     "riskMode": "防御",
-    "alerts": 0
+    "alerts": 0,
+    "benchmark": {
+      "modelReturnPct": -0.05,
+      "benchmarkAvgPct": 0.9,
+      "relativePct": -0.95,
+      "refs": [
+        {
+          "symbol": "usSPY",
+          "label": "标普500ETF SPY",
+          "samplePnlPct": 0.96,
+          "entryDate": "2026-06-09"
+        },
+        {
+          "symbol": "usQQQ",
+          "label": "纳指100ETF QQQ",
+          "samplePnlPct": 1.91,
+          "entryDate": "2026-06-09"
+        },
+        {
+          "symbol": "usGLD",
+          "label": "黄金ETF GLD",
+          "samplePnlPct": null,
+          "entryDate": null
+        },
+        {
+          "symbol": "sh510300",
+          "label": "沪深300ETF 510300",
+          "samplePnlPct": -0.17,
+          "entryDate": "2026-06-09"
+        }
+      ],
+      "note": "基准为模拟盘内已有代表ETF样本的同期浮动，用于方向参考；后续可接历史行情做严格基准。"
+    }
   },
   "phaseStats": [
     {
@@ -482,7 +388,7 @@
       "market": "A股",
       "kind": "ETF",
       "entryPrice": 4.826,
-      "allocationPct": 7,
+      "allocationPct": 6,
       "portfolioCap": 58,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 确认分偏低",
@@ -513,8 +419,8 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 7000.000000000001,
-      "currentValue": 6988.396187318692,
+      "entryValue": 6000,
+      "currentValue": 5990.0538748445915,
       "currentPrice": 4.818,
       "pnlPct": -0.16576875259013693,
       "ageDays": 4,
@@ -536,7 +442,7 @@
       "market": "港股",
       "kind": "ETF",
       "entryPrice": 24.9,
-      "allocationPct": 9,
+      "allocationPct": 8,
       "portfolioCap": 58,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式",
@@ -567,8 +473,8 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 9000,
-      "currentValue": 9065.060240963856,
+      "entryValue": 8000,
+      "currentValue": 8057.831325301205,
       "currentPrice": 25.08,
       "pnlPct": 0.7228915662650591,
       "ageDays": 4,
@@ -636,6 +542,118 @@
           "pnlPct": 0.96
         }
       }
+    },
+    {
+      "symbol": "usSMH",
+      "code": "SMH",
+      "name": "半导体ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 612.96,
+      "allocationPct": 4,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 6,
+      "id": "2026-06-04-usSMH-资金行为",
+      "entryDate": "2026-06-04",
+      "status": "复盘中",
+      "capital": 100000,
+      "entryValue": 4000,
+      "currentValue": 4045.6799791177236,
+      "currentPrice": 619.96,
+      "pnlPct": 1.1419994779430958,
+      "ageDays": 9,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-05",
+          "pnlPct": 2.38
+        },
+        "d3": {
+          "date": "2026-06-09",
+          "pnlPct": -3.58
+        }
+      },
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
+    },
+    {
+      "symbol": "sh511010",
+      "code": "511010",
+      "name": "国债ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 141.464,
+      "allocationPct": 10,
+      "eventTitle": "6月4日外盘头条：美伊紧张局势再度加剧 太空公司...",
+      "eventType": "宏观类",
+      "score": 7,
+      "id": "2026-06-03-sh511010-宏观类",
+      "entryDate": "2026-06-03",
+      "status": "时间退出",
+      "capital": 100000,
+      "entryValue": 10000,
+      "currentValue": 9978.722501837925,
+      "currentPrice": 141.163,
+      "pnlPct": -0.21277498162075703,
+      "ageDays": 10,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 0.02
+        },
+        "d3": {
+          "date": "2026-06-06",
+          "pnlPct": 0.03
+        },
+        "d10": {
+          "date": "2026-06-13",
+          "pnlPct": -0.21
+        }
+      },
+      "allocationReason": "防御模式 / 防御保留 / 确认分偏低",
+      "exitDate": "2026-06-13",
+      "exitPrice": 141.163,
+      "finalPnlPct": -0.21,
+      "exitReason": "达到10日复盘窗口"
+    },
+    {
+      "symbol": "sh512760",
+      "code": "512760",
+      "name": "芯片ETF",
+      "market": "A股",
+      "kind": "ETF",
+      "entryPrice": 1.158,
+      "allocationPct": 5,
+      "eventTitle": "机构资金关注科技龙头",
+      "eventType": "资金行为",
+      "score": 8,
+      "id": "2026-06-03-sh512760-资金行为",
+      "entryDate": "2026-06-03",
+      "status": "时间退出",
+      "capital": 100000,
+      "entryValue": 5000,
+      "currentValue": 4810.017271157169,
+      "currentPrice": 1.114,
+      "pnlPct": -3.7996545768566334,
+      "ageDays": 10,
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-04",
+          "pnlPct": 1.99
+        },
+        "d3": {
+          "date": "2026-06-06",
+          "pnlPct": -3.2
+        },
+        "d10": {
+          "date": "2026-06-13",
+          "pnlPct": -3.8
+        }
+      },
+      "allocationReason": "防御模式 / 成长降权 / 确认分偏低",
+      "exitDate": "2026-06-13",
+      "exitPrice": 1.114,
+      "finalPnlPct": -3.8,
+      "exitReason": "达到10日复盘窗口"
     },
     {
       "symbol": "sz159928",
@@ -832,566 +850,6 @@
         "d1": {
           "date": "2026-06-05",
           "pnlPct": -2.54
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
-      "market": "港股",
-      "kind": "ETF",
-      "entryPrice": 25.54,
-      "allocationPct": 10,
-      "eventTitle": "收入波动 盈利承压燕文物流A股撤单三年后冲刺港股...",
-      "eventType": "政策类",
-      "score": 10,
-      "id": "2026-06-04-hk02800-政策类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 25.28,
-      "pnlPct": -1.0180109631949805,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": -0.63
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
-      "kind": "ETF",
-      "entryPrice": 4.87,
-      "allocationPct": 10,
-      "eventTitle": "收入波动 盈利承压燕文物流A股撤单三年后冲刺港股...",
-      "eventType": "政策类",
-      "score": 10,
-      "id": "2026-06-04-hk03033-政策类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 4.786,
-      "pnlPct": -1.7248459958932343,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": -1.19
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "usUSO",
-      "code": "USO",
-      "name": "美国原油基金",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 136.74,
-      "allocationPct": 8,
-      "eventTitle": "油价与地缘风险扰动",
-      "eventType": "供需/地缘",
-      "score": 5,
-      "id": "2026-06-04-usUSO-供需/地缘",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 133.02,
-      "pnlPct": -2.72049144361562,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 0
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "usSMH",
-      "code": "SMH",
-      "name": "半导体ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 612.96,
-      "allocationPct": 4,
-      "eventTitle": "机构资金关注科技龙头",
-      "eventType": "资金行为",
-      "score": 6,
-      "id": "2026-06-04-usSMH-资金行为",
-      "entryDate": "2026-06-04",
-      "status": "复盘中",
-      "capital": 100000,
-      "entryValue": 4000,
-      "currentValue": 4045.6799791177236,
-      "currentPrice": 619.96,
-      "pnlPct": 1.1419994779430958,
-      "ageDays": 9,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 2.38
-        },
-        "d3": {
-          "date": "2026-06-09",
-          "pnlPct": -3.58
-        }
-      },
-      "allocationReason": "防御模式 / 成长降权 / 确认分偏低"
-    },
-    {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
-      "kind": "ETF",
-      "entryPrice": 4.87,
-      "allocationPct": 8,
-      "eventTitle": "海外事件进入模型观察",
-      "eventType": "基本面类",
-      "score": 6,
-      "id": "2026-06-04-hk03033-基本面类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 4.786,
-      "pnlPct": -1.7248459958932343,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": -1.19
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "usQQQ",
-      "code": "QQQ",
-      "name": "纳指100ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 734.74,
-      "allocationPct": 8,
-      "eventTitle": "海外事件进入模型观察",
-      "eventType": "基本面类",
-      "score": 6,
-      "id": "2026-06-04-usQQQ-基本面类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 705.06,
-      "pnlPct": -4.039524185426146,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 0.8
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 407.87,
-      "allocationPct": 8,
-      "eventTitle": "“加息噩梦”愈发近了？美联储票委：或许就在今年晚...",
-      "eventType": "宏观类",
-      "score": 6,
-      "id": "2026-06-04-usGLD-宏观类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 396.24,
-      "pnlPct": -2.851398729987495,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 0.83
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "sh511010",
-      "code": "511010",
-      "name": "国债ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "entryPrice": 141.504,
-      "allocationPct": 8,
-      "eventTitle": "“加息噩梦”愈发近了？美联储票委：或许就在今年晚...",
-      "eventType": "宏观类",
-      "score": 6,
-      "id": "2026-06-04-sh511010-宏观类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 141.5,
-      "pnlPct": -0.0028267752148283284,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": -0.01
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "usXLE",
-      "code": "XLE",
-      "name": "能源ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 58.71,
-      "allocationPct": 8,
-      "eventTitle": "油价与地缘风险扰动",
-      "eventType": "供需/地缘",
-      "score": 5,
-      "id": "2026-06-04-usXLE-供需/地缘",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 57.67,
-      "pnlPct": -1.7714188383580294,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 0.07
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 407.87,
-      "allocationPct": 8,
-      "eventTitle": "油价与地缘风险扰动",
-      "eventType": "供需/地缘",
-      "score": 5,
-      "id": "2026-06-04-usGLD-供需/地缘",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 396.24,
-      "pnlPct": -2.851398729987495,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 0.83
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "sh511010",
-      "code": "511010",
-      "name": "国债ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "entryPrice": 141.493,
-      "allocationPct": 8,
-      "eventTitle": "油价与地缘风险扰动",
-      "eventType": "供需/地缘",
-      "score": 5,
-      "id": "2026-06-04-sh511010-供需/地缘",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 141.5,
-      "pnlPct": 0.004947241206282291,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 0
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "usSHV",
-      "code": "SHV",
-      "name": "短债ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 110.08,
-      "allocationPct": 8,
-      "eventTitle": "消息人士：日本央行考虑6月加息 并可能今年晚些时...",
-      "eventType": "宏观类",
-      "score": 6,
-      "id": "2026-06-04-usSHV-宏观类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 110.12,
-      "pnlPct": 0.03633720930233126,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 0.01
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "hk02800",
-      "code": "2800",
-      "name": "盈富基金",
-      "market": "港股",
-      "kind": "ETF",
-      "entryPrice": 25.56,
-      "allocationPct": 10,
-      "eventTitle": "人工智能公司竞争对手推进上市计划 软银股价在近期...",
-      "eventType": "基本面类",
-      "score": 7,
-      "id": "2026-06-04-hk02800-基本面类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 25.28,
-      "pnlPct": -1.0954616588419313,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": -0.7
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "sh512880",
-      "code": "512880",
-      "name": "证券ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "entryPrice": 1.022,
-      "allocationPct": 10,
-      "eventTitle": "人工智能公司竞争对手推进上市计划 软银股价在近期...",
-      "eventType": "基本面类",
-      "score": 7,
-      "id": "2026-06-04-sh512880-基本面类",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 1.016,
-      "pnlPct": -0.5870841487279849,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": 0.1
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
-      "kind": "ETF",
-      "entryPrice": 4.874,
-      "allocationPct": 10,
-      "eventTitle": "机构资金关注科技龙头",
-      "eventType": "资金行为",
-      "score": 8,
-      "id": "2026-06-04-hk03033-资金行为",
-      "entryDate": "2026-06-04",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 4.786,
-      "pnlPct": -1.8054985638079624,
-      "ageDays": 1,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-05",
-          "pnlPct": -1.27
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "sh511010",
-      "code": "511010",
-      "name": "国债ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "entryPrice": 141.464,
-      "allocationPct": 10,
-      "eventTitle": "6月4日外盘头条：美伊紧张局势再度加剧 太空公司...",
-      "eventType": "宏观类",
-      "score": 7,
-      "id": "2026-06-03-sh511010-宏观类",
-      "entryDate": "2026-06-03",
-      "status": "时间退出",
-      "capital": 100000,
-      "entryValue": 10000,
-      "currentValue": 9978.722501837925,
-      "currentPrice": 141.163,
-      "pnlPct": -0.21277498162075703,
-      "ageDays": 10,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-04",
-          "pnlPct": 0.02
-        },
-        "d3": {
-          "date": "2026-06-06",
-          "pnlPct": 0.03
-        },
-        "d10": {
-          "date": "2026-06-13",
-          "pnlPct": -0.21
-        }
-      },
-      "allocationReason": "防御模式 / 防御保留 / 确认分偏低",
-      "exitDate": "2026-06-13",
-      "exitPrice": 141.163,
-      "finalPnlPct": -0.21,
-      "exitReason": "达到10日复盘窗口"
-    },
-    {
-      "symbol": "usQQQ",
-      "code": "QQQ",
-      "name": "纳指100ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "entryPrice": 744.21,
-      "allocationPct": 8,
-      "eventTitle": "马斯克的太空公司拟通过史上最大上市筹资750亿美...",
-      "eventType": "基本面类",
-      "score": 5,
-      "id": "2026-06-03-usQQQ-基本面类",
-      "entryDate": "2026-06-03",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 705.06,
-      "pnlPct": -5.260611924053706,
-      "ageDays": 2,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-04",
-          "pnlPct": 0
-        }
-      },
-      "excludedReason": "10日冷却期内重复信号"
-    },
-    {
-      "symbol": "sh512760",
-      "code": "512760",
-      "name": "芯片ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "entryPrice": 1.158,
-      "allocationPct": 5,
-      "eventTitle": "机构资金关注科技龙头",
-      "eventType": "资金行为",
-      "score": 8,
-      "id": "2026-06-03-sh512760-资金行为",
-      "entryDate": "2026-06-03",
-      "status": "时间退出",
-      "capital": 100000,
-      "entryValue": 5000,
-      "currentValue": 4810.017271157169,
-      "currentPrice": 1.114,
-      "pnlPct": -3.7996545768566334,
-      "ageDays": 10,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-04",
-          "pnlPct": 1.99
-        },
-        "d3": {
-          "date": "2026-06-06",
-          "pnlPct": -3.2
-        },
-        "d10": {
-          "date": "2026-06-13",
-          "pnlPct": -3.8
-        }
-      },
-      "allocationReason": "防御模式 / 成长降权 / 确认分偏低",
-      "exitDate": "2026-06-13",
-      "exitPrice": 1.114,
-      "finalPnlPct": -3.8,
-      "exitReason": "达到10日复盘窗口"
-    },
-    {
-      "symbol": "sh511010",
-      "code": "511010",
-      "name": "国债ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "entryPrice": 141.464,
-      "allocationPct": 10,
-      "eventTitle": "油价暴涨引发“卖金救市”猜想？印度央行强硬自证：...",
-      "eventType": "供需/地缘",
-      "score": 8,
-      "id": "2026-06-03-sh511010-供需/地缘",
-      "entryDate": "2026-06-03",
-      "status": "重复剔除",
-      "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 141.5,
-      "pnlPct": 0.025448170559295203,
-      "ageDays": 2,
-      "checkpoints": {
-        "d1": {
-          "date": "2026-06-04",
-          "pnlPct": 0.02
         }
       },
       "excludedReason": "10日冷却期内重复信号"
