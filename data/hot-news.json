@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 16:35",
+  "updateTime": "2026-06-13 16:41",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 55,
       "insight": {
         "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
-        "assets": "📈 太空概念股 利好；📈 风险偏好（Risk-on情绪） 提振",
-        "chain": "高估值IPO成功可能引发太空板块热钱流入，但需警惕泡沫（估值过高风险）",
-        "watch": "SpaceX后续财报及订单数据"
+        "assets": "📈 太空/军工板块 利好；📉 传统航天股 承压",
+        "chain": "资金从传统板块流入高增长赛道，机构可能调仓（调整仓位）至SpaceX主题ETF",
+        "watch": "SPCX成交量及后续锁定期（禁售期）解禁压力"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 50,
       "insight": {
         "what": "Sleep Number遭证券欺诈调查，股价暴跌超90%",
-        "assets": "📉 Sleep Number 利空；📉 消费家居板块 承压",
-        "chain": "监管调查可能引发做空机构（Short sellers）狙击同类低估值消费股",
-        "watch": "调查进展及同类公司财报"
+        "assets": "📉 Sleep Number个股 利空；📉 家居消费股 情绪传导",
+        "chain": "监管风险升级，可能触发做空机构（押注下跌的基金）对同类高负债消费股的兴趣",
+        "watch": "调查进展及公司是否收到退市警告"
       }
     },
     {
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "美债交易员削减2026年加息押注，因和平协议预期",
+        "assets": "📈 美债 利好（价格上涨）；📉 美元 承压",
+        "chain": "降息预期（借钱成本降低预期）升温，风险资产（股票/商品）获得流动性支撑",
+        "watch": "和平协议谈判进展及美联储官员讲话"
+      }
     },
     {
       "rank": 4,
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在美联储调查中的损失维持原判",
+        "assets": "📉 相关金融机构 声誉风险；📉 法律服务业 监管关注",
+        "chain": "可能强化监管对金融机构合规（遵守规则）审查，增加行业诉讼成本",
+        "watch": "Pirro是否上诉及美联储后续行动"
+      }
     },
     {
       "rank": 5,
@@ -51,13 +63,7 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📈 美债 看涨（价格涨）；📉 美元 承压",
-        "chain": "降息预期升温（市场预期借钱成本降低）可能推高风险资产，但需确认和平协议细节",
-        "watch": "美联储官员讲话及CPI（通胀指标）数据"
-      }
+      "score": 36
     },
     {
       "rank": 6,
