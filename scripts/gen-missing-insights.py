@@ -97,6 +97,38 @@ content = response['choices'][0]['message']['content']
 print(f"API response ({len(content)} chars)")
 
 # === Multi-strategy JSON parser ===
+def parse_markdown_insights(content_str):
+    """Fallback parser: DeepSeek sometimes returns markdown-formatted insights
+    instead of JSON, ignoring explicit JSON format instructions.
+    
+    Format:
+        1. **what**：text here
+           **assets**：text here
+           **chain**：text here
+           **watch**：text here
+    
+    Returns (insights_list, None) on success, or (None, error_msg) on failure.
+    """
+    insights = []
+    # Split by numbered items: "1. **what**", "2. **what**", etc.
+    blocks = re.split(r'\n(?=\d+\.\s*\*\*what\*\*)', content_str.strip())
+    for block in blocks:
+        fields = {}
+        for field in ['what', 'assets', 'chain', 'watch']:
+            m = re.search(
+                rf'\*\*{field}\*\*[：:]\s*(.+?)(?=\n\s*\*\*|$)', 
+                block, re.DOTALL
+            )
+            if m:
+                val = m.group(1).strip()
+                val = re.sub(r'\*\*', '', val)  # strip bold markers from value
+                fields[field] = val
+        if fields:
+            insights.append(fields)
+    if insights:
+        return insights, None
+    return None, "No markdown-formatted insights found"
+
 def parse_json_response(content_str):
     """Parse JSON from LLM response with markdown fence, trailing comma,
     unescaped control chars, and truncation repair."""
@@ -158,9 +190,15 @@ def parse_json_response(content_str):
 insights, error = parse_json_response(content)
 
 if error:
-    print(f"Parse error: {error}")
-    print(f"Raw content: {content[:500]}")
-    sys.exit(1)
+    # Fallback: DeepSeek may return markdown instead of JSON
+    if "No JSON array" in error:
+        print("  ⚠️ No JSON found — trying markdown parser...")
+        insights, error = parse_markdown_insights(content)
+    
+    if error:
+        print(f"Parse error: {error}")
+        print(f"Raw content: {content[:500]}")
+        sys.exit(1)
 
 if not isinstance(insights, list):
     print(f"Expected array, got {type(insights)}")
