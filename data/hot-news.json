@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 06:00",
+  "updateTime": "2026-06-14 06:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
-        "assets": "📈 SpaceX股票 利好\n📈 财富管理股（如Baird推荐标的） 利好",
-        "chain": "财富管理客户资产增值→管理费收入预期上调→股价上涨（财富管理公司收入与客户资产规模挂钩）",
-        "watch": "SpaceX后续财报及财富管理公司AUM（管理资产规模）变化"
+        "what": "SpaceX IPO首日大涨19%，市值破2万亿美元",
+        "assets": "📈 SpaceX股票 利好; 📈 太空概念股 利好",
+        "chain": "财富效应（资产增值）推高财富管理公司收入预期，利好相关顾问股",
+        "watch": "SpaceX后续股价走势及机构持仓变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX成功上市，从10%成功率到2万亿市值",
-        "assets": "📈 太空经济板块（如卫星、火箭） 利好\n📈 风险投资/私募股权退出预期 利好",
-        "chain": "SpaceX估值神话→投资者重估太空赛道估值→相关未上市公司IPO窗口打开（IPO定价参照SpaceX）",
-        "watch": "其他太空公司（如Rocket Lab）股价及IPO申请动态"
+        "what": "Baird称财富顾问股将从SpaceX IPO中受益",
+        "assets": "📈 财富管理公司（如LPLA、AMP） 利好",
+        "chain": "客户财富增值→管理资产规模（AUM）扩大→顾问费收入增长→股价上行",
+        "watch": "财富管理公司Q1财报中的AUM数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "高盛称英伟达等股票仍有上涨空间",
-        "assets": "📈 英伟达 利好\n📈 半导体/人工智能板块 利好",
-        "chain": "顶级投行背书→机构加仓预期→资金流入推高股价（机构资金跟随高盛研报调仓）",
-        "watch": "英伟达财报及AI芯片订单数据"
+        "what": "高盛称英伟达等科技股仍有上涨空间",
+        "assets": "📈 英伟达 利好; 📈 美股半导体 利好",
+        "chain": "AI资本开支（投入资金）周期未结束→芯片需求持续→盈利预期上调→估值扩张",
+        "watch": "英伟达财报及AI相关资本开支指引"
       }
     },
     {
@@ -49,13 +49,7 @@
       "source": "CNBC",
       "detail": "Analysts at Goldman Sachs named several stocks that have defensive attributes that they say also offer plenty of upside.",
       "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
-        "assets": "📈 美债 利好（价格涨，收益率跌）\n📉 美元 承压\n📈 新兴市场货币/股市 利好",
-        "chain": "和平协议→地缘风险溢价下降→通胀预期降温→降息预期提前（利率期货定价修正）",
-        "watch": "俄乌/中东和平谈判进展及美联储官员讲话"
-      }
+      "score": 41
     },
     {
       "rank": 5,
@@ -63,7 +57,13 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美债交易员下调美联储2026年加息押注",
+        "assets": "📈 美债 利好; 📉 美元 承压",
+        "chain": "和平协议预期→风险偏好（投资者愿意冒险）回升→加息概率下降→利率曲线（长短期利率差）陡峭化",
+        "watch": "地缘谈判进展及美联储官员讲话"
+      }
     },
     {
       "rank": 6,
@@ -71,13 +71,7 @@
       "source": "CNBC",
       "detail": "Despite a large retail allocation and huge volume, volatility was moderate",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX上市首日表现获投资者热评",
-        "assets": "📈 SpaceX股票 利好\n📈 指数基金（纳入预期） 利好",
-        "chain": "首日交易量激增→流动性溢价消失→机构建仓加速→股价短期波动后寻找平衡（IPO后价格发现过程）",
-        "watch": "SpaceX纳入主要指数（如标普500）的时间表"
-      }
+      "score": 35
     },
     {
       "rank": 7,
