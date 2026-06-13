@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 02:45",
+  "updateTime": "2026-06-14 02:51",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 57,
       "insight": {
         "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "财富效应（资产增值）带动私人银行和财富管理股，如Baird推荐标的",
-        "watch": "SpaceX后续财报及机构持仓变化"
+        "assets": "📈 SpaceX 股票 利好；📈 太空概念股 利好",
+        "chain": "SpaceX高估值提振风险偏好，财富管理股（如Baird推荐）因客户资产升值受益",
+        "watch": "SpaceX后续股价能否守住160美元支撑位"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "环球市场播报",
       "detail": "美股周五常规交易时段已经结束，截至收盘，SpaceX股价上涨25.95美元，涨幅为19.22%，收于160.95美元，公司市值达到21045.6亿美元。",
       "lang": "zh",
-      "score": 55,
-      "insight": {
-        "what": "高盛称英伟达等股票仍有上涨空间",
-        "assets": "📈 英伟达及半导体股 利好",
-        "chain": "AI资本开支（企业投钱建算力）预期强化，刺激科技板块估值（股价/盈利比）",
-        "watch": "英伟达下一季营收指引及AI订单数据"
-      }
+      "score": 55
     },
     {
       "rank": 3,
@@ -51,7 +45,13 @@
       "source": "CNBC",
       "detail": "Analysts at Goldman Sachs named several stocks that have defensive attributes that they say also offer plenty of upside.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "高盛称Nvidia等股票仍有上涨空间",
+        "assets": "📈 美股科技股（尤其AI芯片） 利好",
+        "chain": "AI板块情绪回暖，资金可能从避险资产（如美债）轮动至科技成长股，推高估值",
+        "watch": "Nvidia财报及AI订单数据是否超预期"
+      }
     },
     {
       "rank": 6,
@@ -62,9 +62,9 @@
       "score": 36,
       "insight": {
         "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📈 美债 利好（价格上涨）；📉 美元 承压",
-        "chain": "加息预期降温（借钱成本预期下降）→降息预期提前，风险资产（如股票）吸引力上升",
-        "watch": "美联储官员讲话及CPI（通胀数据）"
+        "assets": "📉 美元 承压；📈 美债 利好；📈 新兴市场货币 利好",
+        "chain": "加息预期降温（借钱成本预期降低）→美元走弱→资金流入新兴市场（如人民币、墨西哥比索）和风险资产",
+        "watch": "美联储官员近期讲话对利率路径的暗示"
       }
     },
     {
