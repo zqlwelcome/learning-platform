@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 19:20",
+  "updateTime": "2026-06-13 19:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值破2万亿美元",
-        "assets": "📈 太空概念股 利好，📈 风险偏好（投资者情绪） 提振",
-        "chain": "SpaceX高估值带动太空板块重估（重新定价），可能引发IPO市场升温（更多公司上市）。",
-        "watch": "SpaceX后续财报及太空政策动向"
+        "what": "SpaceX IPO首日暴涨19%，市值破2万亿",
+        "assets": "📈 太空概念股 利好，📉 传统军工股 承压",
+        "chain": "风险偏好（市场情绪）升温，资金从防御性资产（如国债）流向高风险成长股",
+        "watch": "SpaceX后续财报及订单量"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "律所对Sleep Number发起证券欺诈调查，股价跌超90%",
-        "assets": "📉 Sleep Number股票 承压，📉 家具/消费股 板块情绪受损",
-        "chain": "证券欺诈调查引发投资者对消费类公司财务真实性担忧（信任危机），可能拖累同行业估值。",
-        "watch": "调查结果及公司是否面临集体诉讼"
+        "what": "律所对Sleep Number发起证券欺诈调查",
+        "assets": "📉 Sleep Number 利空，📉 家居零售板块 承压",
+        "chain": "做空情绪（押注下跌）扩散，同类低估值消费股或遭抛售（投资者避险）",
+        "watch": "调查进展及公司管理层回应"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "美债交易员下调2026年美联储加息押注，因和平协议预期",
-        "assets": "📈 美债（美国国债） 利好，📉 美元 承压",
-        "chain": "和平协议降低通胀担忧（物价上涨压力），市场押注加息概率下降，利好风险资产（股票等）。",
-        "watch": "和平协议谈判进展及CPI（消费者物价指数）数据"
+        "what": "美债交易员下调2026年加息押注",
+        "assets": "📈 美债 利好，📉 美元 承压",
+        "chain": "降息预期（借钱成本降低）升温，推高风险资产（如科技股）估值",
+        "watch": "美联储官员讲话及CPI（通胀）数据"
       }
     },
     {
@@ -65,21 +65,27 @@
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后市场聚焦下一步计划",
+        "assets": "📈 太空概念股 利好，📈 卫星通信板块 利好",
+        "chain": "IPO资金流入（增量资金）或用于星链扩张，带动相关供应链（如火箭零部件）",
+        "watch": "SpaceX产能扩张及新合同公告"
+      }
     },
     {
       "rank": 7,
-      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
+      "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
-      "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
+      "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
       "score": 35
     },
     {
       "rank": 8,
-      "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
+      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
       "source": "CNBC",
-      "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
+      "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
       "lang": "en",
       "score": 35
     },
