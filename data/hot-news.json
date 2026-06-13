@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 19:16",
+  "updateTime": "2026-06-13 19:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX上市首日暴涨19%，市值破2万亿",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 情绪提振",
-        "chain": "IPO（首次公开募股）高估值吸引资金流入太空赛道，推高相关ETF（交易型开放式指数基金）",
-        "watch": "后续财报及订单数据，验证估值合理性"
+        "what": "SpaceX IPO首日暴涨19%，市值破2万亿美元",
+        "assets": "📈 太空概念股 利好，📈 风险偏好（投资者情绪） 提振",
+        "chain": "SpaceX高估值带动太空板块重估（重新定价），可能引发IPO市场升温（更多公司上市）。",
+        "watch": "SpaceX后续财报及太空政策动向"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌",
-        "assets": "📉 Sleep Number股票 利空；📉 家居消费股 情绪拖累",
-        "chain": "欺诈调查引发市场对消费类公司财报真实性担忧，可能触发做空（押注下跌）",
-        "watch": "调查进展及公司管理层回应"
+        "what": "律所对Sleep Number发起证券欺诈调查，股价跌超90%",
+        "assets": "📉 Sleep Number股票 承压，📉 家具/消费股 板块情绪受损",
+        "chain": "证券欺诈调查引发投资者对消费类公司财务真实性担忧（信任危机），可能拖累同行业估值。",
+        "watch": "调查结果及公司是否面临集体诉讼"
       }
     },
     {
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "美债交易员下调2026年美联储加息押注，因和平协议预期",
+        "assets": "📈 美债（美国国债） 利好，📉 美元 承压",
+        "chain": "和平协议降低通胀担忧（物价上涨压力），市场押注加息概率下降，利好风险资产（股票等）。",
+        "watch": "和平协议谈判进展及CPI（消费者物价指数）数据"
+      }
     },
     {
       "rank": 4,
@@ -43,13 +49,7 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "Pirro在美联储调查中损失需保留，法官裁定",
-        "assets": "📉 银行股 情绪利空；📉 美元 信心承压",
-        "chain": "司法判决增加金融监管不确定性，可能引发银行合规成本上升，压制风险偏好",
-        "watch": "后续相关监管政策动向"
-      }
+      "score": 38
     },
     {
       "rank": 5,
@@ -57,13 +57,7 @@
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美债交易员下调美联储2026年加息押注",
-        "assets": "📈 美债 利好；📉 美元 承压；📈 风险资产 情绪提振",
-        "chain": "加息预期降温（借钱成本预期降低）压低长端利率（长期国债收益率），资金流向股市",
-        "watch": "和平协议谈判进展及美联储官员讲话"
-      }
+      "score": 36
     },
     {
       "rank": 6,
