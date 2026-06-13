@@ -1,14 +1,15 @@
 {
-  "version": 5,
+  "version": 6,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-13T16:10:07.019Z",
+  "updateTime": "2026-06-13T16:22:53.701Z",
   "newsSource": "live-hot-news.json",
   "modelTuning": {
     "duplicateCooldownDays": 15,
     "maxCandidatesPerRun": 6,
     "eventCaps": "供需/地缘每轮最多1个，其它事件每轮最多2个",
     "commodityRule": "油气/黄金/能源类必须确认分>=84，且价格、资金、风险三项同时过线。",
-    "validationUpgrade": "按资产桶拆分复盘，商品/避险、科技成长、中国资产、防御资产不再混算胜率。"
+    "validationUpgrade": "按资产桶拆分复盘，商品/避险、科技成长、中国资产、防御资产不再混算胜率。",
+    "failureLoop": "新增失败样本归因和事件-资产匹配过滤，避免错配新闻污染模拟盘。"
   },
   "tradingCalendar": {
     "timezone": "Asia/Shanghai",
@@ -33,6 +34,10 @@
       "eventType": "政策类",
       "score": 10,
       "assetBucket": "科技成长",
+      "eventAlignment": {
+        "pass": false,
+        "reason": "科技成长需要AI、芯片、软件或数据中心线索直接确认。"
+      },
       "confirmationScore": 83,
       "confirmationReasons": [
         "催化20/20",
@@ -67,6 +72,10 @@
       "eventType": "政策类",
       "score": 10,
       "assetBucket": "中国资产",
+      "eventAlignment": {
+        "pass": true,
+        "reason": "中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。"
+      },
       "confirmationScore": 87,
       "confirmationReasons": [
         "催化20/20",
@@ -101,6 +110,10 @@
       "eventType": "宏观类",
       "score": 10,
       "assetBucket": "商品与避险",
+      "eventAlignment": {
+        "pass": false,
+        "reason": "商品/避险需要油价、黄金、地缘或通胀线索直接确认。"
+      },
       "confirmationScore": 90,
       "confirmationReasons": [
         "催化20/20",
@@ -135,6 +148,10 @@
       "eventType": "宏观类",
       "score": 10,
       "assetBucket": "中国资产",
+      "eventAlignment": {
+        "pass": false,
+        "reason": "中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。"
+      },
       "confirmationScore": 90,
       "confirmationReasons": [
         "催化20/20",
@@ -363,6 +380,106 @@
         "verdict": "可继续按原仓位上限验证。"
       }
     ],
+    "failureReview": {
+      "count": 4,
+      "topIssues": [
+        {
+          "issue": "入场确认分偏低",
+          "count": 3
+        },
+        {
+          "issue": "商品类价格确认不够强",
+          "count": 1
+        },
+        {
+          "issue": "地缘/避险新闻容易滞后，不能只靠风险因子",
+          "count": 1
+        },
+        {
+          "issue": "亏损样本仓位偏高",
+          "count": 1
+        },
+        {
+          "issue": "成长类时间窗口过长后仍弱，说明催化没有转成价格趋势",
+          "count": 1
+        },
+        {
+          "issue": "事件和标的方向贴合度不足",
+          "count": 1
+        },
+        {
+          "issue": "防御资产不是天然赚钱，需要利率方向确认",
+          "count": 1
+        }
+      ],
+      "reviews": [
+        {
+          "symbol": "usUSO",
+          "name": "美国原油基金",
+          "assetBucket": "商品与避险",
+          "status": "复盘中",
+          "eventType": "供需/地缘",
+          "pnlPct": -4.47,
+          "netPnlPct": -4.67,
+          "ageDays": 4,
+          "confirmationScore": 79,
+          "issues": [
+            "商品类价格确认不够强",
+            "地缘/避险新闻容易滞后，不能只靠风险因子",
+            "亏损样本仓位偏高"
+          ],
+          "ruleFix": "商品/避险类继续维持高门槛，只允许价格、资金、风险同时确认的小仓验证。"
+        },
+        {
+          "symbol": "sh512760",
+          "name": "芯片ETF",
+          "assetBucket": "科技成长",
+          "status": "时间退出",
+          "eventType": "资金行为",
+          "pnlPct": -3.8,
+          "netPnlPct": -4,
+          "ageDays": 10,
+          "confirmationScore": null,
+          "issues": [
+            "成长类时间窗口过长后仍弱，说明催化没有转成价格趋势",
+            "入场确认分偏低"
+          ],
+          "ruleFix": "科技成长若7天后未形成趋势，优先时间退出，不追加仓位。"
+        },
+        {
+          "symbol": "sh511010",
+          "name": "国债ETF",
+          "assetBucket": "防御资产",
+          "status": "时间退出",
+          "eventType": "宏观类",
+          "pnlPct": -0.21,
+          "netPnlPct": -0.41,
+          "ageDays": 10,
+          "confirmationScore": null,
+          "issues": [
+            "事件和标的方向贴合度不足",
+            "防御资产不是天然赚钱，需要利率方向确认",
+            "入场确认分偏低"
+          ],
+          "ruleFix": "新增事件-资产匹配过滤：低匹配且确认分低于82的信号不再入池。"
+        },
+        {
+          "symbol": "sh510300",
+          "name": "沪深300ETF",
+          "assetBucket": "中国资产",
+          "status": "复盘中",
+          "eventType": "政策类",
+          "pnlPct": -0.17,
+          "netPnlPct": -0.37,
+          "ageDays": 5,
+          "confirmationScore": 67,
+          "issues": [
+            "入场确认分偏低"
+          ],
+          "ruleFix": "先记录为普通失败样本，等待更多样本后再调整权重。"
+        }
+      ]
+    },
     "validationReport": {
       "status": "继续小仓验证",
       "nextAction": "不提高仓位上限，优先扩大样本和复盘失败原因。",

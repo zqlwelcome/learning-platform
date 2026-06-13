@@ -92,6 +92,39 @@ function getAssetBucket(item) {
     return '其他';
 }
 
+function getEventAlignment(candidate) {
+    const text = `${candidate.eventTitle || ''} ${candidate.eventType || ''}`.toLowerCase();
+    const bucket = candidate.assetBucket || getAssetBucket(candidate);
+    const rules = {
+        '商品与避险': {
+            pattern: /油价|原油|黄金|能源|opec|oil|gold|地缘|战争|冲突|伊朗|hormuz|避险/,
+            reason: '商品/避险需要油价、黄金、地缘或通胀线索直接确认。'
+        },
+        '科技成长': {
+            pattern: /人工智能|芯片|半导体|数据中心|英伟达|微软|openai|nvidia|semiconductor|ai|software|科技/,
+            reason: '科技成长需要AI、芯片、软件或数据中心线索直接确认。'
+        },
+        '中国资产': {
+            pattern: /中国|a股|港股|人民币|证监会|稳增长|消费|券商|恒生|沪深|china|hong kong|政策/,
+            reason: '中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。'
+        },
+        '防御资产': {
+            pattern: /利率|降息|加息|收益率|美债|国债|现金|避险|通胀|fed|yield|bond|risk/,
+            reason: '防御资产需要利率、债券、现金或避险线索直接确认。'
+        },
+        '美股核心': {
+            pattern: /美股|标普|纳指|道指|美国|wall street|s&p|sp500|spx|us market/,
+            reason: '美股核心需要美国股市或大盘风险偏好线索直接确认。'
+        }
+    };
+    const rule = rules[bucket];
+    if (!rule) return { pass: true, reason: '未配置资产桶匹配规则。' };
+    return {
+        pass: rule.pattern.test(text),
+        reason: rule.reason
+    };
+}
+
 function getCandidateThreshold(candidate) {
     let threshold = candidate.kind === 'Stock' ? 88 : 66;
     if (candidate.eventType === '供需/地缘') {
@@ -106,6 +139,8 @@ function getCandidateThreshold(candidate) {
 
 function passesCandidateQuality(candidate) {
     const factors = candidate.entryFactors || {};
+    const alignment = getEventAlignment(candidate);
+    if (!alignment.pass && Number(candidate.confirmationScore || 0) < 82) return false;
     if (candidate.eventType === '供需/地缘' && hasAnyTheme(candidate, ['oil', 'energy', 'gold'])) {
         return Number(candidate.confirmationScore || 0) >= 84 &&
             Number(factors.price || 0) >= 12 &&
@@ -151,6 +186,10 @@ function strengthenCandidates(candidates, sandbox, existingTrades) {
         .map((candidate) => ({
             ...candidate,
             assetBucket: getAssetBucket(candidate)
+        }))
+        .map((candidate) => ({
+            ...candidate,
+            eventAlignment: getEventAlignment(candidate)
         }))
         .filter(passesCandidateQuality)
         .filter((candidate) => !hasRecentSymbolTrade(existingTrades, candidate.symbol, today, 15))
@@ -309,6 +348,60 @@ function getBucketValidation(trades) {
     }).sort((a, b) => b.exposurePct - a.exposurePct);
 }
 
+function diagnoseTradeFailure(trade) {
+    const factors = trade.entryFactors || {};
+    const alignment = getEventAlignment(trade);
+    const issues = [];
+    if (!alignment.pass) issues.push('事件和标的方向贴合度不足');
+    if (trade.assetBucket === '商品与避险' && Number(factors.price || 0) < 15) issues.push('商品类价格确认不够强');
+    if (trade.assetBucket === '商品与避险' && Number(factors.risk || 0) >= 16 && Number(trade.pnlPct || 0) < 0) issues.push('地缘/避险新闻容易滞后，不能只靠风险因子');
+    if (trade.assetBucket === '科技成长' && Number(trade.ageDays || 0) >= 7 && Number(trade.pnlPct || 0) < 0) issues.push('成长类时间窗口过长后仍弱，说明催化没有转成价格趋势');
+    if (trade.assetBucket === '防御资产' && Number(trade.pnlPct || 0) < 0) issues.push('防御资产不是天然赚钱，需要利率方向确认');
+    if (Number(trade.confirmationScore || 0) < 78) issues.push('入场确认分偏低');
+    if (Number(trade.allocationPct || 0) >= 8 && Number(trade.pnlPct || 0) < -2) issues.push('亏损样本仓位偏高');
+
+    return {
+        symbol: trade.symbol,
+        name: trade.name,
+        assetBucket: trade.assetBucket || getAssetBucket(trade),
+        status: trade.status,
+        eventType: trade.eventType,
+        pnlPct: Number(Number(trade.pnlPct || 0).toFixed(2)),
+        netPnlPct: Number((Number(trade.pnlPct || 0) - getRoundTripCostPct(trade)).toFixed(2)),
+        ageDays: trade.ageDays,
+        confirmationScore: trade.confirmationScore || null,
+        issues: issues.length ? issues : ['样本亏损较小，继续观察是否属于正常波动。'],
+        ruleFix: getFailureRuleFix(trade, issues)
+    };
+}
+
+function getFailureRuleFix(trade, issues) {
+    if (issues.includes('事件和标的方向贴合度不足')) return '新增事件-资产匹配过滤：低匹配且确认分低于82的信号不再入池。';
+    if (trade.assetBucket === '商品与避险') return '商品/避险类继续维持高门槛，只允许价格、资金、风险同时确认的小仓验证。';
+    if (trade.assetBucket === '科技成长') return '科技成长若7天后未形成趋势，优先时间退出，不追加仓位。';
+    if (trade.assetBucket === '防御资产') return '防御资产加入利率方向确认，不把避险标签当作买入理由。';
+    return '先记录为普通失败样本，等待更多样本后再调整权重。';
+}
+
+function getFailureReview(trades) {
+    const losers = (trades || [])
+        .filter((trade) => trade.status !== '重复剔除' && typeof trade.pnlPct === 'number' && trade.pnlPct < 0)
+        .sort((a, b) => Number(a.pnlPct) - Number(b.pnlPct))
+        .slice(0, 8);
+    const reviews = losers.map(diagnoseTradeFailure);
+    const issueCounts = new Map();
+    reviews.forEach((review) => {
+        review.issues.forEach((issue) => issueCounts.set(issue, (issueCounts.get(issue) || 0) + 1));
+    });
+    return {
+        count: reviews.length,
+        topIssues: Array.from(issueCounts.entries())
+            .map(([issue, count]) => ({ issue, count }))
+            .sort((a, b) => b.count - a.count),
+        reviews
+    };
+}
+
 function getModelValidationReport(trades, portfolio, benchmark, costAdjusted) {
     const afterCost = costAdjusted?.modelReturnPctAfterCost;
     const relative = benchmark?.relativePct;
@@ -344,6 +437,7 @@ async function main() {
     const benchmark = getBenchmarkComparison(trades, portfolio);
     const costAdjusted = getCostAdjustedStats(trades, portfolio);
     const bucketValidation = getBucketValidation(trades);
+    const failureReview = getFailureReview(trades);
 
     const effectiveTrades = trades.filter(trade => trade.status !== '重复剔除');
     const activeTrades = trades.filter(sandbox.isPaperTradeActive);
@@ -353,7 +447,7 @@ async function main() {
     const excludedCount = trades.filter(trade => trade.status === '重复剔除').length;
 
     const output = {
-        version: 5,
+        version: 6,
         mode: 'cloud-paper-simulator',
         updateTime: new Date().toISOString(),
         newsSource: hotNews.source,
@@ -362,7 +456,8 @@ async function main() {
             maxCandidatesPerRun: 6,
             eventCaps: '供需/地缘每轮最多1个，其它事件每轮最多2个',
             commodityRule: '油气/黄金/能源类必须确认分>=84，且价格、资金、风险三项同时过线。',
-            validationUpgrade: '按资产桶拆分复盘，商品/避险、科技成长、中国资产、防御资产不再混算胜率。'
+            validationUpgrade: '按资产桶拆分复盘，商品/避险、科技成长、中国资产、防御资产不再混算胜率。',
+            failureLoop: '新增失败样本归因和事件-资产匹配过滤，避免错配新闻污染模拟盘。'
         },
         tradingCalendar: {
             timezone: 'Asia/Shanghai',
@@ -378,6 +473,7 @@ async function main() {
             eventType: item.eventType,
             score: item.score,
             assetBucket: item.assetBucket || getAssetBucket(item),
+            eventAlignment: item.eventAlignment || getEventAlignment(item),
             confirmationScore: item.confirmationScore,
             confirmationReasons: item.confirmationReasons,
             entryFactors: item.entryFactors,
@@ -405,6 +501,7 @@ async function main() {
             benchmark,
             costAdjusted,
             bucketValidation,
+            failureReview,
             validationReport: getModelValidationReport(trades, portfolio, benchmark, costAdjusted)
         },
         phaseStats,
