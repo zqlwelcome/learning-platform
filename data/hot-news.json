@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 17:50",
+  "updateTime": "2026-06-13 17:56",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值破2万亿美元",
-        "assets": "📈 航天军工板块 利好；📈 太空概念ETF 利好",
-        "chain": "带动风险偏好（Risk-on情绪），资金从避险资产（如美债）流向成长股",
+        "what": "SpaceX IPO首日暴涨19%市值破2万亿",
+        "assets": "📈 SpaceX股票 利好; 📈 太空概念股 利好",
+        "chain": "SpaceX估值锚定效应（基准定价）推升太空板块，但需警惕获利了结（卖出）",
         "watch": "SpaceX后续财报及订单数据"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "Sleep Number遭证券欺诈调查，股价暴跌超90%",
-        "assets": "📉 Sleep Number个股 利空；📉 家居消费板块 承压",
-        "chain": "引发对高负债消费股的做空（Short）潮，律所集体诉讼风险上升",
-        "watch": "调查进展及公司债务违约风险"
+        "what": "律所对Sleep Number发起证券欺诈调查",
+        "assets": "📉 Sleep Number股票 利空; 📉 消费类股 承压",
+        "chain": "引发市场对消费疲软（需求下降）的担忧，做空（押注下跌）可能加剧",
+        "watch": "Sleep Number季度财报及消费者信心指数"
       }
     },
     {
@@ -35,13 +35,7 @@
       "source": "CNBC",
       "detail": "SpaceX rallied in its first day as a public company. CNBC provided updates throughout the day.",
       "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "SpaceX IPO首日涨19%，收于161美元",
-        "assets": "📈 美股科技IPO 利好；📈 纳斯达克指数 支撑",
-        "chain": "提振新股市场情绪，可能加速其他科技公司上市（IPO窗口期）",
-        "watch": "SpaceX后续股价波动率（IV）"
-      }
+      "score": 50
     },
     {
       "rank": 4,
@@ -51,10 +45,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "法官裁定Pirro在美联储调查中的损失不可豁免",
-        "assets": "📉 美联储信用 承压；📉 法律合规类个股 利空",
-        "chain": "增加金融机构合规成本（诉讼风险），削弱市场对监管宽松的预期",
-        "watch": "其他类似案件判决及美联储政策声明"
+        "what": "法官维持Pirro在美联储调查中的损失判决",
+        "assets": "📉 美联储相关法律风险资产 利空",
+        "chain": "法律不确定性（监管风险）增加，可能波及金融股及合规成本",
+        "watch": "美联储监管政策更新及同类案件判决"
       }
     },
     {
@@ -65,10 +59,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债交易员下调2026年加息押注，因和平协议预期",
-        "assets": "📈 美债 利好（收益率下行）；📉 美元 承压",
-        "chain": "风险偏好回升（Risk-on），资金从美元流向新兴市场（EM）和商品",
-        "watch": "和平协议谈判进展及美联储点阵图"
+        "what": "美债交易员下调美联储2026年加息押注",
+        "assets": "📈 美债 利好; 📉 美元 承压; 📈 美股 利好",
+        "chain": "加息预期降温（降息概率上升）压低长端利率（长期借贷成本），风险偏好回升",
+        "watch": "美联储会议纪要及CPI（通胀）数据"
       }
     },
     {
@@ -77,13 +71,7 @@
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO后投资者关注下一步动向",
-        "assets": "📈 太空经济板块 利好；📈 马斯克概念股 利好",
-        "chain": "可能推动发射合同和Starlink（星链）估值重估，利好供应链企业",
-        "watch": "SpaceX星链商业化进展及星舰测试"
-      }
+      "score": 35
     },
     {
       "rank": 7,
