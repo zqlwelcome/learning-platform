@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 10:30",
+  "updateTime": "2026-06-13 10:35",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值破2万亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "IPO火爆吸引巨量资金，可能分流科技股资金，加剧板块轮动（资金从旧科技股流向新热门股）。",
-        "watch": "后续交易日成交量及目标价区间60-190美元博弈"
+        "what": "SpaceX上市首日暴涨19%，市值破2万亿",
+        "assets": "📈 SpaceX股票 利好；📉 传统航天股（如洛克希德马丁） 承压",
+        "chain": "SpaceX估值飙升会拉动太空ETF（交易所交易基金）和科技成长股风险偏好（Risk-on情绪），同时抽血传统军工板块",
+        "watch": "后续交易日成交量及机构持仓变化（判断是否持续）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌超90%",
-        "assets": "📉 Sleep Number股票 利空；📉 家居消费股 承压",
-        "chain": "欺诈调查引发投资者对同类高估值消费股的信任危机，可能触发做空机构（对冲基金通过借股票卖出获利）跟进。",
-        "watch": "调查进展及公司是否面临集体诉讼索赔"
+        "what": "Sleep Number被律所调查，股价暴跌超90%",
+        "assets": "📉 Sleep Number股票 利空；📈 做空期权 利好",
+        "chain": "触发家居板块连锁恐慌（板块轮动），律所调查可能引发集体诉讼（Class Action），加速散户止损",
+        "watch": "公司财报修正及诉讼和解金额（判断底部）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
-        "assets": "📈 美债 利好；📉 美元 承压；📉 加息预期 降温",
-        "chain": "和平协议降低避险需求，市场押注美联储未来宽松（降息或暂停加息），利好风险资产（股票、大宗商品）。",
-        "watch": "和平协议谈判进展及美联储官员最新表态"
+        "what": "华尔街对SpaceX目标价分歧极端（60-190美元）",
+        "assets": "📉 SpaceX股票 波动性增大；📈 波动率衍生品（VIX期货） 利好",
+        "chain": "多空博弈加剧（多空对决），波动率溢价上升，期权策略（如跨式期权Straddle）需求激增",
+        "watch": "做空比例（Short Interest）及机构研报更新"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 SpaceX完成史上最大IPO之一，在华尔街掀起激烈“估值战争”：乐观派将其视作“世纪机遇”，喊出190美元目标价；悲观派则狠批估值透支...",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "美债交易员下调2026年加息押注因和平协议预期",
+        "assets": "📈 美债 利好（价格涨）；📉 美元 承压；📉 风险资产（股票） 利好",
+        "chain": "降息预期（利率降低）推高债券价格，美元走弱利好大宗商品（黄金、原油），风险偏好回升",
+        "watch": "和平协议谈判进展及美联储点阵图（Dot Plot）调整"
+      }
     },
     {
       "rank": 5,
@@ -57,7 +63,13 @@
       "source": "CNBC",
       "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "法官裁定Pirro在Fed调查中的亏损需保留记录",
+        "assets": "📉 银行股（如摩根大通） 承压；📈 法律咨询股 利好",
+        "chain": "监管趋严信号（Regulatory Risk），银行合规成本上升，可能引发罚款计提（Provisions）",
+        "watch": "Fed最终罚款金额及银行资本充足率变化"
+      }
     },
     {
       "rank": 6,
