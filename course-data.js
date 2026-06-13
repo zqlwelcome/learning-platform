@@ -237,6 +237,246 @@ const COURSES = [
  ]
  },
  {
+ id: 'advanced-agent',
+ title: '🧩 高级 Agent 方案篇',
+ lessons: [
+ {
+ id: 'adv-1',
+ title: '高级 Agent 岗位要求拆解：从 PM 到解决方案负责人',
+ content: `
+ <div class="lesson-content">
+ <h3>🎯 这类岗位到底在招什么人？</h3>
+ <p>截图里的岗位不是普通 AI PM，而是<strong>高级 AI Agent 产品解决方案负责人</strong>：既要懂业务价值，也要能把复杂 Agent 系统拆成可交付、可评估、可复用的方案。</p>
+
+ <h3>能力地图</h3>
+ <ul>
+ <li><strong>业务链路洞察：</strong>能进入金融、汽车、电商、游戏等行业，找到 Agent 真正能替人完成的高价值任务。</li>
+ <li><strong>方案架构：</strong>能定义 Agent 边界、Workflow、工具、上下文、状态、记忆和人工确认点。</li>
+ <li><strong>工程约束：</strong>理解延迟、权限、日志、沙箱、稳定性和成本，不写代码也能和架构师对齐。</li>
+ <li><strong>评估闭环：</strong>能设计任务成功率、工具调用准确率、人工接管率、成本和 Bad Case 复盘。</li>
+ <li><strong>商业化交付：</strong>能把论文、Demo、平台能力转成客户愿意付费的 PoC 和解决方案。</li>
+ </ul>
+
+ <h3>岗位要求翻译成人话</h3>
+ <table class="lesson-table">
+ <tr><th>JD 原话</th><th>真实能力</th></tr>
+ <tr><td>定义 Agent 业务边界</td><td>知道哪些任务适合自动化，哪些必须人工确认</td></tr>
+ <tr><td>端到端设计与实现</td><td>能画出从用户输入到工具执行再到反馈评估的完整链路</td></tr>
+ <tr><td>Agent 资产库</td><td>把 Skill、Prompt、Sandbox 配置、行业模板沉淀成可复用组件</td></tr>
+ <tr><td>To B 商业化</td><td>能用 ROI、验收指标、交付风险说服客户和老板</td></tr>
+ </table>
+
+ <h3>本节实战</h3>
+ <ol>
+ <li>选一个行业：金融投研、汽车售后、电商客服、游戏运营任选一个。</li>
+ <li>写出 3 个高价值 Agent 场景，并标注：用户、任务、是否高频、是否可衡量、是否有数据。</li>
+ <li>用一句话定义边界：这个 Agent 能做什么，绝对不能做什么。</li>
+ </ol>
+
+ <div class="lesson-tip">💡 面试回答要像解决方案负责人：先讲业务价值，再讲系统边界，最后讲验证指标。</div>
+ </div>
+ `
+ },
+ {
+ id: 'adv-2',
+ title: '复杂任务 Workflow 与多步骤规划设计',
+ content: `
+ <div class="lesson-content">
+ <h3>🧭 为什么高级 Agent 离不开 Workflow？</h3>
+ <p>复杂任务不能靠一句 Prompt 硬冲。高级 Agent 的核心是把任务拆成<strong>计划、执行、检查、修正、交付</strong>几个可控步骤。</p>
+
+ <h3>标准 Workflow 结构</h3>
+ <ol>
+ <li><strong>Intent：</strong>识别用户到底要完成什么任务。</li>
+ <li><strong>Plan：</strong>拆解步骤，判断需要哪些工具和数据。</li>
+ <li><strong>Act：</strong>调用工具、查询数据、生成中间结果。</li>
+ <li><strong>Check：</strong>验证结果是否满足约束，是否需要人工确认。</li>
+ <li><strong>Repair：</strong>失败时重试、换工具、降级或转人工。</li>
+ <li><strong>Deliver：</strong>输出结果、解释依据、记录日志。</li>
+ </ol>
+
+ <h3>设计复杂任务时必须问 6 个问题</h3>
+ <ul>
+ <li>任务是否可拆分？每一步的输入输出是什么？</li>
+ <li>哪一步最容易失败？失败后如何重试？</li>
+ <li>哪些动作会影响金钱、合同、账户或客户权益？这些必须人工确认。</li>
+ <li>Agent 是否需要并行调用多个工具？如何合并结果？</li>
+ <li>每一步如何留痕，方便复盘和审计？</li>
+ <li>用户什么时候应该看到进度，而不是傻等？</li>
+ </ul>
+
+ <h3>案例：金融投研 Agent</h3>
+ <ul>
+ <li><strong>目标：</strong>回答“某公司为什么今天大涨”。</li>
+ <li><strong>Workflow：</strong>抓行情 → 抓新闻 → 查公告 → 查财报 → 对比行业 → 生成结论 → 标注不确定性。</li>
+ <li><strong>人工确认：</strong>涉及买卖建议、目标价、收益承诺时必须降级成“仅供研究”。</li>
+ <li><strong>验收指标：</strong>来源覆盖率、事实错误率、生成延迟、用户采纳率。</li>
+ </ul>
+
+ <h3>本节实战</h3>
+ <p>画一个“AI 客服退款 Agent”的 Workflow，至少包含 6 个节点：识别问题、查订单、判断规则、调用退款工具、异常转人工、用户通知。</p>
+
+ <div class="lesson-tip">💡 高级岗位看重的不是你会说 Agent，而是你能把 Agent 拆成可上线的流程。</div>
+ </div>
+ `
+ },
+ {
+ id: 'adv-3',
+ title: 'Context Engineering、State 与 Memory 设计',
+ content: `
+ <div class="lesson-content">
+ <h3>🧠 Context Engineering 是什么？</h3>
+ <p>Context Engineering 不是“把资料都塞进 Prompt”。它是在有限上下文里，选择<strong>当前任务最需要的信息</strong>，并让 Agent 知道用户目标、业务规则、历史状态和可用工具。</p>
+
+ <h3>Context 四层结构</h3>
+ <ul>
+ <li><strong>System Context：</strong>角色、边界、安全红线、输出格式。</li>
+ <li><strong>Task Context：</strong>当前任务目标、约束、截止条件。</li>
+ <li><strong>Business Context：</strong>行业知识、规则、客户政策、数据口径。</li>
+ <li><strong>User Context：</strong>用户身份、偏好、历史行为、权限。</li>
+ </ul>
+
+ <h3>State Management：让 Agent 知道自己做到哪了</h3>
+ <ul>
+ <li><strong>短期状态：</strong>当前任务进度、已调用工具、待确认事项。</li>
+ <li><strong>长期状态：</strong>用户偏好、历史决策、组织知识、常用配置。</li>
+ <li><strong>状态风险：</strong>状态过期、冲突、权限变化、跨会话污染。</li>
+ </ul>
+
+ <h3>Memory 设计原则</h3>
+ <ol>
+ <li>不是所有内容都要记。只记对未来任务有价值的事实。</li>
+ <li>记忆必须可解释：为什么记、什么时候用、用户能否删除。</li>
+ <li>高风险行业要区分“用户偏好”和“合规事实”，不能混用。</li>
+ <li>长期记忆要有更新时间，过期记忆需要重新确认。</li>
+ </ol>
+
+ <h3>本节实战</h3>
+ <p>为“企业销售 Agent”设计一张 Context 卡片：客户背景、销售阶段、历史沟通、可用资料、禁用话术、下一步动作。</p>
+
+ <div class="lesson-tip">💡 面试里提到 Context、State、Memory 时，要马上接到权限、过期、审计和用户可控性，这才像做过生产系统。</div>
+ </div>
+ `
+ },
+ {
+ id: 'adv-4',
+ title: 'Tool Orchestration、Sandbox 与 Agent Harness',
+ content: `
+ <div class="lesson-content">
+ <h3>🛠️ Tool Orchestration：让 Agent 会用工具，但不乱用工具</h3>
+ <p>工具编排的难点不是“能不能调用 API”，而是<strong>什么时候调用、按什么顺序调用、失败后怎么处理、权限如何控制</strong>。</p>
+
+ <h3>工具设计清单</h3>
+ <ul>
+ <li><strong>工具描述：</strong>工具能做什么、不能做什么、输入输出格式。</li>
+ <li><strong>权限等级：</strong>只读、写入、支付、删除、外发消息必须分级。</li>
+ <li><strong>调用前检查：</strong>参数是否完整，用户是否授权，是否需要二次确认。</li>
+ <li><strong>调用后验证：</strong>返回结果是否可信，是否需要再次查询或人工审核。</li>
+ <li><strong>失败策略：</strong>重试、换工具、降级、转人工。</li>
+ </ul>
+
+ <h3>Sandbox：生产级 Agent 的安全边界</h3>
+ <ul>
+ <li>隔离用户输入，防止 Prompt 注入影响系统指令。</li>
+ <li>限制文件、网络、数据库和外部工具权限。</li>
+ <li>记录每次工具调用、参数、返回值和最终输出。</li>
+ <li>高风险操作必须先模拟，再由用户确认执行。</li>
+ </ul>
+
+ <h3>Agent Harness 是什么？</h3>
+ <p>Harness 可以理解为 Agent 的运行外壳：负责上下文装配、工具注册、状态管理、日志、评估、回放和安全策略。没有 Harness，Agent 很容易变成一次性 Demo。</p>
+
+ <h3>本节实战</h3>
+ <p>设计一个“合同审查 Agent”的工具清单：文档解析、条款检索、风险分类、法务知识库、生成修改建议。标出哪些工具只读，哪些需要人工确认。</p>
+
+ <div class="lesson-tip">💡 高级岗位会问“怎么稳定运行”，答案通常在 Harness、Sandbox、日志回放和权限设计里。</div>
+ </div>
+ `
+ },
+ {
+ id: 'adv-5',
+ title: 'Agent 效果评估：Prompt、RAG、SFT 怎么选',
+ content: `
+ <div class="lesson-content">
+ <h3>📏 Agent 不能只看回答好不好</h3>
+ <p>Agent 评估要看完整任务链路：是否理解任务、是否选对工具、是否按顺序执行、是否识别风险、是否最终完成用户目标。</p>
+
+ <h3>Agent 专属指标</h3>
+ <ul>
+ <li><strong>Task Success Rate：</strong>任务最终完成率。</li>
+ <li><strong>Tool Accuracy：</strong>工具选择和参数填写是否正确。</li>
+ <li><strong>Step Error Rate：</strong>多步骤中哪一步最容易出错。</li>
+ <li><strong>Human Takeover Rate：</strong>人工接管率，过高说明自动化价值不足。</li>
+ <li><strong>Cost per Success：</strong>每次成功任务的模型和工具成本。</li>
+ <li><strong>Risk Violation Rate：</strong>越权、幻觉、高风险输出比例。</li>
+ </ul>
+
+ <h3>Prompt、RAG、SFT 的决策顺序</h3>
+ <ol>
+ <li><strong>先 Prompt：</strong>问题是格式、步骤、角色或约束不清，先改 Prompt。</li>
+ <li><strong>再 RAG：</strong>问题是事实缺失、知识更新慢、企业知识答不准，上 RAG。</li>
+ <li><strong>最后 SFT：</strong>问题是稳定风格、行业动作模式、复杂意图分类长期不稳，再考虑微调。</li>
+ </ol>
+
+ <h3>闭环评估流程</h3>
+ <ul>
+ <li>建立 50-200 条真实任务评测集。</li>
+ <li>每条任务标注：理想路径、允许工具、风险红线、成功标准。</li>
+ <li>每次 Prompt、RAG 或模型变更都跑回归测试。</li>
+ <li>Bad Case 按原因归类：理解错、工具错、事实错、权限错、输出不可用。</li>
+ </ul>
+
+ <h3>本节实战</h3>
+ <p>给“招聘简历筛选 Agent”设计 10 条评测任务，并写出成功标准、禁用行为和人工审核条件。</p>
+
+ <div class="lesson-tip">💡 SFT 不是万能药。高级 PM 要能判断什么时候不用微调，省下的钱就是产品判断力。</div>
+ </div>
+ `
+ },
+ {
+ id: 'adv-6',
+ title: 'To B Agent 解决方案与商业化交付',
+ content: `
+ <div class="lesson-content">
+ <h3>🏢 To B Agent 和普通产品有什么不同？</h3>
+ <p>To B Agent 卖的不是功能，而是<strong>业务结果</strong>：降本、增效、控风险、提升交付质量。客户关心的是能不能落地、能不能验收、能不能持续运行。</p>
+
+ <h3>解决方案交付 7 步</h3>
+ <ol>
+ <li><strong>业务访谈：</strong>确认真实流程、痛点、数据来源、现有系统。</li>
+ <li><strong>场景筛选：</strong>优先选高频、高价值、低权限风险的任务。</li>
+ <li><strong>方案架构：</strong>定义 Workflow、工具、上下文、权限、评估指标。</li>
+ <li><strong>PoC 验证：</strong>用小范围真实数据验证任务完成率和成本。</li>
+ <li><strong>验收标准：</strong>明确准确率、时延、人工接管率、ROI、风险红线。</li>
+ <li><strong>上线运维：</strong>灰度、监控、回滚、审计、客户培训。</li>
+ <li><strong>资产沉淀：</strong>沉淀行业 Prompt、Skill、工具配置和案例复盘。</li>
+ </ol>
+
+ <h3>千万级项目更看重什么？</h3>
+ <ul>
+ <li>方案是否能和客户现有系统集成。</li>
+ <li>是否能证明 ROI，而不是展示炫酷 Demo。</li>
+ <li>是否有安全、权限、审计和责任边界。</li>
+ <li>是否能复制到同类客户，形成资产库。</li>
+ </ul>
+
+ <h3>前沿论文怎么转产品策略？</h3>
+ <ol>
+ <li>先判断论文解决的是能力问题、成本问题、稳定性问题，还是体验问题。</li>
+ <li>再判断它能否进入现有 Workflow，而不是单独做成噱头功能。</li>
+ <li>最后设计一个 PoC：目标、样本、指标、失败条件和商业价值。</li>
+ </ol>
+
+ <h3>本节实战</h3>
+ <p>写一份“金融投研 Agent PoC 方案”：客户痛点、目标用户、Workflow、数据源、验收指标、风险控制、预计 ROI。</p>
+
+ <div class="lesson-tip">💡 To B 高级岗位的核心表达：我不是来卖 AI 的，我是来把客户业务流程里最贵、最慢、最容易错的环节产品化。</div>
+ </div>
+ `
+ }
+ ]
+ },
+ {
  id: 'data',
  title: '📊 数据篇',
  lessons: [
