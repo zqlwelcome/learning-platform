@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-13 10:56",
+  "updateTime": "2026-06-13 11:00",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "SpaceX IPO首日暴涨19%，市值突破2万亿美元",
-        "assets": "📈 SpaceX股票 利好",
-        "chain": "资金从传统军工股（如洛克希德马丁）轮动至太空概念股，可能带动卫星互联网ETF（如ARKX）上涨",
-        "watch": "SpaceX后续财报及星舰（Starship）发射进度"
+        "what": "SpaceX上市首日暴涨19%，市值突破2万亿美元",
+        "assets": "📈 美股太空概念股 利好；📈 科技成长股 情绪提振",
+        "chain": "高估值IPO（首次公开募股）成功将吸引资金涌入太空和科技板块，挤压价值股（低估值股票）配置",
+        "watch": "SpaceX后续股价能否守住160美元支撑位"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌超90%",
-        "assets": "📉 Sleep Number股票 利空",
-        "chain": "引发市场对消费科技股（如智能家居）的信任危机，空头（做空者）可能加仓同类高估值小盘股",
-        "watch": "SEC（美国证监会）是否正式立案及同类公司财报"
+        "what": "律所对Sleep Number发起证券欺诈调查，股价暴跌逾九成",
+        "assets": "📉 Sleep Number股票 利空；📉 家居消费股 情绪传染",
+        "chain": "欺诈调查触发投资者对消费类股财报（公司业绩报告）信任危机，可能引发做空（押注下跌）潮",
+        "watch": "Sleep Number是否收到正式集体诉讼文件"
       }
     },
     {
@@ -37,28 +37,36 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
-        "assets": "📈 美债（国债） 利好；📉 美元 承压",
-        "chain": "降息预期（借钱成本降低）推高债券价格，美元走弱利好新兴市场（如MSCI新兴市场指数）和大宗商品（如黄金）",
-        "watch": "俄乌谈判进展及美联储官员讲话"
+        "what": "华金资本年内跌超28%，AI问询多但市场不买账",
+        "assets": "📉 华金资本 利空；📉 A股创投板块 承压",
+        "chain": "监管问询（交易所提问）密集压制估值，参股IPO（投资上市）利好被忽略，反映市场对政策风险（监管不确定性）定价",
+        "watch": "华金资本下一季度投资组合退出节奏"
       }
     },
     {
       "rank": 4,
-      "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
-      "source": "CNBC",
-      "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
-      "lang": "en",
-      "score": 38,
+      "title": "华金资本年内跌幅超28％！AI问询扎堆、参股IPO不少，为何市场不买账？",
+      "source": "滚动播报",
+      "detail": "来源：华夏时报 本报（chinatimes.net.cn）记者王兆寰 北京报道 近期，AI赛道行情持续火热，华金资本（000532.SZ）收获极高市场关注度，机构调研、投资者问询持续扎堆。",
+      "lang": "zh",
+      "score": 45,
       "insight": {
-        "what": "法官裁定Pirro在美联储调查中的损失需保留记录",
-        "assets": "📉 银行股（如摩根大通） 利空",
-        "chain": "增加监管不确定性（合规成本上升），银行可能收紧信贷（少放贷），压制经济复苏预期",
-        "watch": "其他银行是否面临类似调查及监管新规"
+        "what": "美债交易员下调美联储2026年加息押注，因和平协议预期",
+        "assets": "📈 美债 利好；📉 美元 承压；📉 美联储加息概率 下行",
+        "chain": "和平协议（停战协议）降低通胀（物价上涨）预期，削弱加息（提高利率）必要性，长端美债（长期国债）利率曲线陡峭化（长短利差扩大）",
+        "watch": "美国CPI（消费者物价指数）数据和停火谈判进展"
       }
     },
     {
       "rank": 5,
+      "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
+      "source": "CNBC",
+      "detail": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
+      "lang": "en",
+      "score": 38
+    },
+    {
+      "rank": 6,
       "title": "美债交易员下调美联储2026年加息押注 因市场寄望和平协议",
       "source": "环球市场播报",
       "detail": "随着市场对伊朗战争结束的乐观情绪升温，美债市场本周收官之际，交易员押注美联储将在明年初加息。 周五下午，利率互换交易显示，交易员目前预计，到2027年1月...",
@@ -66,21 +74,15 @@
       "score": 36
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "What comes next for SpaceX after the IPO will be in focus for investors. Here's what's ahead",
       "source": "CNBC",
       "detail": "Whether SpaceX can maintain the early enthusiasm in the coming days will be telling.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO后投资者聚焦下一步计划",
-        "assets": "📈 太空概念股（如维珍银河） 中性偏利好",
-        "chain": "IPO成功提振风险偏好（愿意冒险投资），资金可能流向未上市太空初创公司（如Rocket Lab）",
-        "watch": "SpaceX是否宣布星链（Starlink）分拆上市"
-      }
+      "score": 35
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
       "source": "CNBC",
       "detail": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
@@ -88,7 +90,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
       "source": "CNBC",
       "detail": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
@@ -96,20 +98,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SpaceX hit with sell rating by CFRA shortly after IPO",
       "source": "CNBC",
       "detail": "Reusable Starship rocket could prove to be a \"bottleneck\" for multiple segments, research firm says.",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "Call Kevin Warsh the Fed 'chairman'",
-      "source": "CNBC",
-      "detail": "Kevin Warsh's two immediate predecessors preferred to be called the Fed \"chair.\" For Warsh, it's \"chairman\" of the Federal Reserve.",
-      "lang": "en",
-      "score": 33
     }
   ]
 }
