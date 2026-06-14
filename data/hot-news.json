@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 07:35",
+  "updateTime": "2026-06-15 07:40",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 45,
       "insight": {
         "what": "SpaceX历史性IPO，估值或达2万亿美元",
-        "assets": "📈 太空概念股 利好\n📈 美股IPO市场 提振",
-        "chain": "SpaceX估值飙升→带动太空产业链估值重估（PE倍数扩张）→风险偏好上升",
-        "watch": "IPO定价区间及超额认购倍数"
+        "assets": "📈 太空概念股 利好\n📈 美股科技股 利好",
+        "chain": "IPO将吸引大量资金涌入航天板块，推高相关ETF（交易型开放式指数基金）和供应链公司估值",
+        "watch": "SpaceX IPO定价及认购倍数"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "新任美联储主席沃什面临特朗普施压与加息市场预期冲突",
-        "assets": "📉 美元 承压\n📈 美债 短期利好",
-        "chain": "政治干预→降息预期升温（借钱成本降低）→长端收益率下行→股市流动性改善",
-        "watch": "沃什公开讲话措辞及联邦基金利率期货定价"
+        "what": "新任美联储主席沃什面临特朗普与加息市场双重压力",
+        "assets": "📉 美元指数 承压\n📈 美债收益率 波动加大",
+        "chain": "政治干预（特朗普施压）与市场预期（押注加息）冲突，可能引发利率路径不确定性，压制风险资产",
+        "watch": "沃什公开讲话及美联储点阵图（利率预测）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街顶级分析师看好三只股票增长前景",
-        "assets": "📈 标的个股 利好\n📈 成长股板块 情绪提振",
-        "chain": "分析师上调评级→机构资金跟风买入（动量策略）→相关ETF资金流入",
-        "watch": "具体个股财报及机构持仓变动"
+        "what": "华尔街顶级分析师看好3只股票增长前景",
+        "assets": "📈 相关个股 利好",
+        "chain": "机构评级上调会引发跟风买盘（散户和量化基金追涨），短期推高股价和板块情绪",
+        "watch": "目标价调整及机构持仓变化"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街震荡周后部分股票超买或超卖",
-        "assets": "📉 超买个股 回调风险\n📈 超卖个股 反弹机会",
-        "chain": "RSI（相对强弱指标）极端值→均值回归交易（赌价格回到平均）→短期波动加剧",
-        "watch": "RSI能否回到50中性区间及成交量变化"
+        "what": "华尔街震荡一周后，多只股票超买或超卖",
+        "assets": "📈 超卖个股 反弹机会\n📉 超买个股 回调风险",
+        "chain": "超买标的可能触发量化基金（算法交易）减仓，超卖标的吸引价值投资者（低估值买入者）介入",
+        "watch": "RSI（相对强弱指标）及成交量变化"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "美伊达成协议，霍尔木兹海峡将开放",
-        "assets": "📉 原油 承压\n📉 美元 走低\n📈 航运股 利好",
-        "chain": "原油供给增加→油价下跌→通胀预期降温（物价涨速变慢）→降息概率上升",
-        "watch": "WTI（西德克萨斯中质原油）即期价差及伊朗产量数据"
+        "what": "美伊达成协议，霍尔木兹海峡将开放，原油下跌美元走低",
+        "assets": "📉 原油 利空\n📉 美元指数 承压\n📈 航运股 利好",
+        "chain": "原油供给增加预期压低油价（能源成本下降），美元走弱提振新兴市场货币（如人民币升值）",
+        "watch": "霍尔木兹海峡实际通航量及OPEC（石油输出国组织）产量数据"
       }
     },
     {
@@ -79,14 +79,22 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Meta要求Alexandr Wang团队构建新AI模型，扎克伯格需推动商业化",
-        "assets": "📈 AI基础设施股 利好\n📈 Meta股票 不确定",
-        "chain": "大模型投入→算力需求激增（GPU等硬件）→AI应用变现压力→估值分化",
-        "watch": "Meta AI产品收入披露及资本开支指引"
+        "what": "Meta要求CEO扎克伯格出售Alexandr Wang开发的新AI模型",
+        "assets": "📉 Meta 承压\n📈 AI竞争对手 利好",
+        "chain": "内部模型变现困难可能削弱Meta AI竞争力（研发投入回报率下降），利好OpenAI等对手抢占市场",
+        "watch": "Meta AI产品收入及开发者生态数据"
       }
     },
     {
       "rank": 7,
+      "title": "本周关注多家央行利率决议、中东局势以及G7峰会",
+      "source": "环球市场播报",
+      "detail": " 本周 一周，美国、英国、日本、澳洲、瑞士、瑞典和挪威的央行政策决议，以及中东局势和在法国举行的七国集团（G7）峰会，将令交易员们保持警惕。",
+      "lang": "zh",
+      "score": 18
+    },
+    {
+      "rank": 8,
       "title": "Stock futures jump after the U.S. and Iran reach a deal to end the war: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
@@ -94,7 +102,7 @@
       "score": 17
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "The World Cup could add $17 billion to the U.S. economy. Here are the stocks set to benefit",
       "source": "CNBC",
       "detail": "The 2026 World Cup could add $17 billion to the U.S. economy, largely driven by digital advertising, travel and consumer spending.",
@@ -102,18 +110,10 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "This Chinese consumer stock could double if its global industrial pivot succeeds, JPMorgan says ",
       "source": "CNBC",
       "detail": "A Chinese home appliance company has the chance to become a global player, JPMorgan analysts said in a report that gave several stocks an overweight rating.",
-      "lang": "en",
-      "score": 17
-    },
-    {
-      "rank": 10,
-      "title": "Social Security COLA for 2027 may jump to 4.7%, one estimate finds. This chart shows prices driving the increase",
-      "source": "CNBC",
-      "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
       "score": 17
     }
