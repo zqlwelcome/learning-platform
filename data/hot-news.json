@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 19:05",
+  "updateTime": "2026-06-14 19:07",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街震荡周后部分股票超买或超卖。",
+        "assets": "美股（个股，如科技股、周期股）",
+        "chain": "超买/超卖信号触发均值回归交易（技术面反转），资金轮动至防御板块（避险情绪）。",
+        "watch": "RSI指标及成交量变化，关注下周财报季指引。"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "2027年社安金生活成本调整或升至4.7%。",
+        "assets": "美国国债（通胀预期上升）",
+        "chain": "COLA上升反映通胀粘性（CPI传导），推高长期利率预期，压制债券价格（利率风险）。",
+        "watch": "美国CPI及PCE数据，关注美联储利率路径。"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Peter Haynes, TD Securities' head of index and market structure, suggests SpaceX's public debut is only a small part of the larger SpaceX timeline.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "道明证券预计SpaceX未来将有更大交易日。",
+        "assets": "SpaceX未上市股权（私募市场）",
+        "chain": "SpaceX估值预期上升（增长叙事），带动太空概念股（如ASTS）及ETF（投机情绪）。",
+        "watch": "SpaceX发射计划及融资动态，关注卫星互联网竞争。"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "环球市场播报",
       "detail": " 英国文化大臣莉萨・南迪周日接受天空新闻采访时表示，英国本周即将公布的16岁以下未成年人社交媒体使用禁令并非“万全之策”，但会在保护青少年安全方面发挥重要作用。",
       "lang": "zh",
-      "score": 15
+      "score": 15,
+      "insight": {
+        "what": "英国将出台未成年人社交媒体管控禁令，严于澳大利亚。",
+        "assets": "社交媒体股（如META、SNAP）",
+        "chain": "监管收紧增加合规成本（政策风险），用户增长受限，广告收入承压（盈利预期下调）。",
+        "watch": "英国立法进展及澳大利亚禁令执行效果。"
+      }
     }
   ]
 }
