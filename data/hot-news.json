@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 21:41",
+  "updateTime": "2026-06-14 21:46",
   "news": [
     {
       "rank": 1,
@@ -9,84 +9,92 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储加息传言再起，市场预期收紧",
-        "assets": "📉 美股大盘 承压; 📈 美元指数 走强",
-        "chain": "加息（借钱成本提高）抑制企业投资和消费，避险资金涌入美元资产（如美债）",
-        "watch": "本周FOMC会议声明及点阵图（利率预测）"
+        "what": "美联储加息预期升温",
+        "assets": "📉 美股大盘 承压",
+        "chain": "加息（借钱成本提高）压制估值，科技股首当其冲，美元指数走强",
+        "watch": "下次FOMC（美联储议息会议）点阵图变化"
       }
     },
     {
       "rank": 2,
+      "title": "“广州第一芯”迎IPO大考，盈利还得等两三年！",
+      "source": "市场资讯",
+      "detail": "来源：IPO日报 6月15日粤芯半导体将迎创业板IPO上会。作为广东首家量产12英寸晶圆企业，公司聚焦成熟制程，产能持续扩建。其营收连年高增，但成立八年累计亏损超百亿元...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "广州粤芯半导体IPO面临盈利延迟",
+        "assets": "📉 国内半导体板块 利空",
+        "chain": "晶圆代工产能过剩，估值逻辑从市梦率（靠预期定价）转向业绩兑现",
+        "watch": "粤芯IPO定价及后续产能利用率数据"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
       "source": "CNBC",
       "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街顶级分析师看好3只个股增长前景",
-        "assets": "📈 个股（如科技/金融） 利好",
-        "chain": "分析师评级上调（专业评估改善）吸引机构资金流入，带动同板块ETF（如QQQ）",
-        "watch": "这些个股财报及营收增速是否达标"
+        "what": "华尔街顶级分析师看好3只股票",
+        "assets": "📈 个股 利好（具体标的待查）",
+        "chain": "机构评级（分析师打分）触发程序化买入（算法自动下单），散户跟风",
+        "watch": "目标价（分析师设定预期价格）及财报季业绩"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街震荡后，部分股票超买或超卖",
-        "assets": "📉 超买股（如AI概念） 回调风险; 📈 超卖股 反弹机会",
-        "chain": "超买（涨过头）触发获利了结，超卖（跌过头）吸引价值投资者抄底，波动率（VIX恐慌指数）或飙升",
-        "watch": "RSI（相对强弱指标）及成交量变化"
+        "what": "部分股票超买/超卖后波动加剧",
+        "assets": "📈 超卖股 反弹机会 / 📉 超买股 回调风险",
+        "chain": "RSI（相对强弱指标）极端值触发均值回归（价格回到平均水平）策略",
+        "watch": "成交量是否放大确认反转信号"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
       "source": "CNBC",
       "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Meta要求AI初创公司Scale AI协助销售模型",
-        "assets": "📉 Meta 承压; 📈 企业AI服务商 利好",
-        "chain": "Meta自研变现难，转向合作，显示AI商业化竞争激烈，利好B端（企业端）AI基础设施供应商",
-        "watch": "Meta AI部门营收及客户签约数"
+        "what": "Meta要求Scale AI创始人出售新模型",
+        "assets": "📈 人工智能算力产业链 利好",
+        "chain": "大模型军备竞赛（各公司抢着开发AI）持续，算力需求刚性（必须持续投入）",
+        "watch": "Meta下一季度资本开支指引（投资计划）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "风格反转？又见券商股涨停，建设银行再创新高！顶流券商ETF华宝（512000）冲高近4%，银行ETF连续突破",
       "source": "新浪基金",
       "detail": "6月12日，A股放量反攻，大金融躁动，券商全天异动猛拉，规模356亿+的顶流券商ETF华宝（512000）场内涨幅最高上探近4%，放量收涨3.53%。",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "券商股涨停，建行创新高，银行ETF冲高",
-        "assets": "📈 A股券商 利好; 📈 A股银行 利好",
-        "chain": "券商是牛市风向标，银行创新高显示资金避险（低估值高股息），风格切换（从成长到价值）确认",
-        "watch": "券商板块成交量及银行股息率对比"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "6000亿买断式逆回购等量续作，央行终结三连回笼释放何信号？",
-      "source": "一财网",
-      "detail": "日前，人民银行发布公告称，将在15日以固定数量、利率招标、多重价位中标方式开展6000亿元买断式逆回购操作，期限为6个月（183天）。",
-      "lang": "zh",
-      "score": 18,
-      "insight": {
-        "what": "央行6000亿买断式逆回购等量续作，终结净回笼",
-        "assets": "📈 中国国债 利好; 📈 人民币汇率 企稳",
-        "chain": "逆回购（短期放水）缓解资金紧张，降低短端利率（SHIBOR），支撑债市和股市流动性",
-        "watch": "下周一MLF（中期借贷便利）续作利率及规模"
+        "what": "券商股涨停与银行股创新高",
+        "assets": "📈 A股券商板块 利好 / 📈 A股银行板块 利好",
+        "chain": "资金从成长股（科技类）切向金融权重（大市值股票），护盘信号（国家队托市）",
+        "watch": "券商ETF（交易型开放式指数基金）资金流入持续性"
       }
     },
     {
       "rank": 7,
+      "title": "6000亿买断式逆回购等量续作，央行终结三连回笼释放何信号？",
+      "source": "一财网",
+      "detail": "日前，人民银行发布公告称，将在15日以固定数量、利率招标、多重价位中标方式开展6000亿元买断式逆回购操作，期限为6个月（183天）。",
+      "lang": "zh",
+      "score": 18
+    },
+    {
+      "rank": 8,
       "title": "The World Cup could add $17 billion to the U.S. economy. Here are the stocks set to benefit",
       "source": "CNBC",
       "detail": "The 2026 World Cup could add $17 billion to the U.S. economy, largely driven by digital advertising, travel and consumer spending.",
@@ -94,7 +102,7 @@
       "score": 17
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "This Chinese consumer stock could double if its global industrial pivot succeeds, JPMorgan says ",
       "source": "CNBC",
       "detail": "A Chinese home appliance company has the chance to become a global player, JPMorgan analysts said in a report that gave several stocks an overweight rating.",
@@ -102,20 +110,12 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Social Security COLA for 2027 may jump to 4.7%, one estimate finds. This chart shows prices driving the increase",
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
       "score": 17
-    },
-    {
-      "rank": 10,
-      "title": "英国本周将出台未成年人社交媒体管控禁令 监管力度超越澳大利亚",
-      "source": "环球市场播报",
-      "detail": " 英国文化大臣莉萨・南迪周日接受天空新闻采访时表示，英国本周即将公布的16岁以下未成年人社交媒体使用禁令并非“万全之策”，但会在保护青少年安全方面发挥重要作用。",
-      "lang": "zh",
-      "score": 15
     }
   ]
 }
