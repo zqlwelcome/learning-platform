@@ -1,44 +1,8 @@
 {
-  "updateTime": "2026-06-15 03:56",
-  "indices": {
-    "usIXIC": {
-      "name": "纳斯达克",
-      "region": "🇺🇸 美股",
-      "value": "25888.84",
-      "change": "0.31"
-    },
-    "usDJI": {
-      "name": "道琼斯",
-      "region": "🇺🇸 美股",
-      "value": "51202.26",
-      "change": "0.70"
-    },
-    "sh000001": {
-      "name": "上证指数",
-      "region": "🇨🇳 A股",
-      "value": "4031.51",
-      "change": "1.12"
-    },
-    "hkHSI": {
-      "name": "恒生指数",
-      "region": "🇭🇰 港股",
-      "value": "24718.100",
-      "change": "1.93"
-    }
-  },
+  "updateTime": "2026-06-15 04:01",
+  "indices": {},
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": {
-    "time": "15:00",
-    "hgt": 0.0,
-    "sgt": 5200000.0,
-    "total": 0.0
-  },
-  "bank_news": [
-    {
-      "title": "夹在特朗普和押注加息的市场之间 新任美联储主席沃什迎来严峻考验",
-      "source": "环球市场播报",
-      "keyword": "美联储"
-    }
-  ]
+  "northbound": null,
+  "bank_news": []
 }
