@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 16:01",
+  "updateTime": "2026-06-14 16:05",
   "news": [
     {
       "rank": 1,
@@ -9,56 +9,70 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX IPO成功，市值2万亿美元，马斯克成首富。",
-        "assets": "📈 SpaceX概念股 利好；📈 财富管理股（如Baird推荐标的）利好",
-        "chain": "IPO抽血效应（资金从其他板块流向新股）压制科技成长股，但SpaceX产业链（卫星、航天）获溢价。",
-        "watch": "SpaceX后续财报及订单数据，A股卫星互联网板块异动。"
+        "what": "SpaceX IPO首日暴涨，估值达2万亿美元",
+        "assets": "📈 SpaceX股票 利好；📈 财富管理股 利好",
+        "chain": "财富顾问股受益于客户财富增值，带动金融服务板块（如嘉信理财、摩根士丹利）",
+        "watch": "SpaceX后续财报及机构持仓变化"
       }
     },
     {
       "rank": 2,
+      "title": "美联储，重磅来袭！加息，传来大消息！",
+      "source": "券商中国",
+      "detail": "“央行超级周”来袭。 未来一周，全球金融市场将迎来“央行超级周”。其中，美联储新任主席凯文·沃什（Kevin Warsh）将迎来其任期内首场联邦公开市场委员会（FOMC）会议。",
+      "lang": "zh",
+      "score": 51,
+      "insight": {
+        "what": "美联储释放加息信号，市场预期鹰派",
+        "assets": "📉 美股大盘 承压；📈 美元指数 走强；📉 美债价格 下跌",
+        "chain": "加息预期推高短期利率（借钱成本），压制成长股估值，资金转向防御板块",
+        "watch": "本周FOMC（美联储议息会议）声明及点阵图"
+      }
+    },
+    {
+      "rank": 3,
       "title": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
       "source": "CNBC",
       "detail": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by revenue of tech's megacaps.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "高盛称英伟达等股票仍有上涨空间。",
-        "assets": "📈 英伟达（NVDA）及AI芯片股 利好；📈 纳斯达克指数 偏多",
-        "chain": "AI资本开支（企业买芯片投入AI）预期强化，带动半导体设备、数据中心需求。",
-        "watch": "英伟达财报指引及AI公司资本开支数据。"
+        "what": "Baird称SpaceX IPO使财富顾问股受益",
+        "assets": "📈 财富管理股（如LPL Financial） 利好",
+        "chain": "客户资产膨胀提升管理费收入，资金可能流入高风险资产（如科技成长股）",
+        "watch": "财富管理公司AUM（管理资产规模）增长数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Goldman says stocks like Nvidia have more room to run",
       "source": "CNBC",
       "detail": "Analysts at Goldman Sachs named several stocks that have defensive attributes that they say also offer plenty of upside.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街震荡周后，部分股票超买或超卖。",
-        "assets": "📉 超买股（如部分科技股）回调风险；📈 超卖股（如能源股）反弹机会",
-        "chain": "超买/超卖触发均值回归（价格回归长期平均），波动率（VIX恐慌指数）可能上升。",
-        "watch": "RSI（相对强弱指标）及成交量变化，VIX指数。"
+        "what": "高盛称英伟达等科技股仍有上涨空间",
+        "assets": "📈 英伟达（NVDA） 利好；📈 半导体板块 利好",
+        "chain": "AI算力需求持续，拉动芯片供应链（如台积电、AMD），但需警惕超买回调风险",
+        "watch": "英伟达订单数据及RSI（相对强弱指标）是否超买"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SpaceX IPO sticks the landing. Here's what investors are saying about its epic first trading day",
       "source": "CNBC",
       "detail": "Despite a large retail allocation and huge volume, volatility was moderate",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX全球最大IPO，华尔街投行和A股板块受关注。",
-        "assets": "📈 A股航天/卫星/军工板块 利好；📈 美股太空概念股（如ASTS）利好",
-        "chain": "A股跟风炒作（资金追逐热点）航天概念，但需警惕高开低走（利好兑现）。",
-        "watch": "A股卫星互联网ETF资金流向，SpaceX供应链A股公司公告。"
+        "what": "华尔街经历震荡周，部分股票超买或超卖",
+        "assets": "📉 超买股（如特斯拉） 回调风险；📈 超卖股（如银行股） 反弹机会",
+        "chain": "超买股可能触发获利了结，资金轮动至价值股（如能源、金融），波动率（VIX）上升",
+        "watch": "RSI指标及成交量变化确认反转信号"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
@@ -66,7 +80,7 @@
       "score": 29
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "全球史上最大IP0落地，马斯克成人类首个万亿美元富豪，华尔街投行也赚得盆满钵满，A股哪些板块能借势上天？",
       "source": "每日经济新闻",
       "detail": "记者|彭水萍 编辑|程鹏叶峰向江林校对|张锦河 刚过去的交易周（6月8日至12日），A股告别此前数周的先扬后抑走势，主要指数多数在周一创出阶段新低后震荡攀升...",
@@ -74,7 +88,7 @@
       "score": 25
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Why TD Securities anticipates even bigger days ahead for SpaceX",
       "source": "CNBC",
       "detail": "Peter Haynes, TD Securities' head of index and market structure, suggests SpaceX's public debut is only a small part of the larger SpaceX timeline.",
@@ -82,7 +96,7 @@
       "score": 17
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Social Security COLA for 2027 may jump to 4.7%, one estimate finds. This chart shows prices driving the increase",
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
@@ -90,18 +104,10 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "美的集团于6月12日斥资1.2亿元回购144.5万股A股",
       "source": "新浪港股",
       "detail": " 美的集团（00300）发布公告，该公司于2026年6月12日斥资1.2亿元人民币回购144.5万股A股，每股回购价格为82.59-84.49元人民币。",
-      "lang": "zh",
-      "score": 15
-    },
-    {
-      "rank": 10,
-      "title": "海尔智家于6月12日斥资3285.56万元回购155万股A股",
-      "source": "新浪港股",
-      "detail": "海尔智家（06690）发布公告，于2026年6月12日斥资人民币3285.56万元回购155万股A股。",
       "lang": "zh",
       "score": 15
     }
