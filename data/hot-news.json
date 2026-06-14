@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 13:55",
+  "updateTime": "2026-06-14 13:56",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Peter Haynes, TD Securities' head of index and market structure, suggests SpaceX's public debut is only a small part of the larger SpaceX timeline.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "TD证券预测SpaceX未来将有更大发展。",
+        "assets": "SpaceX未上市股权（看涨）",
+        "chain": "券商看多信号→吸引资本流入（资金流效应）→推高估值预期（预期溢价）",
+        "watch": "SpaceX新一轮融资估值及发射计划"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "2027年社保COLA预计升至4.7%，受物价驱动。",
+        "assets": "美国国债（看跌）、通胀挂钩债券（看涨）",
+        "chain": "COLA预期上升→通胀预期升温（通胀预期）→美联储加息压力增大（货币政策收紧）→债券收益率上行",
+        "watch": "美国CPI及PCE数据走势"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "新浪港股",
       "detail": " 美的集团（00300）发布公告，该公司于2026年6月12日斥资1.2亿元人民币回购144.5万股A股，每股回购价格为82.59-84.49元人民币。",
       "lang": "zh",
-      "score": 15
+      "score": 15,
+      "insight": {
+        "what": "美的集团6月12日斥资1.2亿元回购144.5万股A股。",
+        "assets": "美的集团A股（看涨）",
+        "chain": "公司回购→减少流通股（供给收缩）→提升每股收益（EPS增厚）→股价支撑（价值信号）",
+        "watch": "后续回购计划及成交量变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "新浪港股",
       "detail": "海尔智家（06690）发布公告，于2026年6月12日斥资人民币3285.56万元回购155万股A股。",
       "lang": "zh",
-      "score": 15
+      "score": 15,
+      "insight": {
+        "what": "海尔智家6月12日斥资3285.56万元回购155万股A股。",
+        "assets": "海尔智家A股（看涨）",
+        "chain": "回购行为→管理层信心信号（信号效应）→吸引跟风买盘（羊群效应）→短期股价提振",
+        "watch": "回购进度及家电行业销售数据"
+      }
     }
   ]
 }
