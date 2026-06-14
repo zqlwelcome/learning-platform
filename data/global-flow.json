@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 04:16",
+  "updateTime": "2026-06-15 04:21",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -26,7 +26,53 @@
       "change": "1.93"
     }
   },
-  "etf_flows": [],
+  "etf_flows": [
+    {
+      "name": "沪深300ETF华泰柏瑞",
+      "code": "510300",
+      "price": 4.818,
+      "change": 1.41,
+      "flow": 878160256.0,
+      "flow_str": "+8.78亿",
+      "direction": "in"
+    },
+    {
+      "name": "证券ETF国泰",
+      "code": "512880",
+      "price": 1.045,
+      "change": 3.67,
+      "flow": 635705968.0,
+      "flow_str": "+6.36亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华夏",
+      "code": "510330",
+      "price": 5.012,
+      "change": 1.29,
+      "flow": 507854640.0,
+      "flow_str": "+5.08亿",
+      "direction": "in"
+    },
+    {
+      "name": "上证50ETF华夏",
+      "code": "510050",
+      "price": 2.982,
+      "change": 1.84,
+      "flow": 466488192.0,
+      "flow_str": "+4.66亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF嘉实",
+      "code": "159919",
+      "price": 5.013,
+      "change": 1.23,
+      "flow": 438935221.0,
+      "flow_str": "+4.39亿",
+      "direction": "in"
+    }
+  ],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
