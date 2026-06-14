@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 07:15",
+  "updateTime": "2026-06-15 07:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO概率从10%飙升，估值或达2万亿",
-        "assets": "📈 太空概念股 利好\n📈 国防军工板块 利好",
-        "chain": "IPO抽血效应（新股上市吸走流动性）压制科技股，但提振风险偏好（愿意冒险投资）",
-        "watch": "SpaceX上市时间表及SEC（美国证监会）文件"
+        "what": "SpaceX历史性IPO，市值冲击2万亿",
+        "assets": "📈 太空概念股 利好; 📈 美股科技股 利好",
+        "chain": "IPO抽血效应（资金从二级市场流向新股）压制短期流动性，但提振风险偏好（投资者愿意冒险）",
+        "watch": "IPO定价及首日涨幅"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "新美联储主席沃什面临特朗普施压与加息预期夹击",
-        "assets": "📉 美债收益率 上行\n📈 美元指数 走强",
-        "chain": "加息预期（借钱成本上升）打压风险资产，但避险资金流入美元，利空新兴市场",
-        "watch": "沃什讲话基调及FOMC（美联储议息会议）点阵图"
+        "what": "美联储新主席沃什面临特朗普施压与市场加息预期夹击",
+        "assets": "📉 美债 承压; 📈 美元 震荡偏强",
+        "chain": "加息预期（借钱成本提高）推高短端利率，压制股市估值（股价/盈利倍数），特朗普施压或引发政策不确定性",
+        "watch": "沃什首次讲话措辞及CPI数据（通胀指标）"
       }
     },
     {
       "rank": 3,
-      "title": "巨型IPO冲击全球市场 科技股估值面临重新校准",
-      "source": "",
-      "detail": "（来源：经济参考报） 在主要央行货币紧缩预期升温、地缘冲突加剧引发金融市场动荡的背景下，全球范围内的科技资产正在迎来新的变数——巨型IPO冲击。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "大型IPO密集发行，科技股估值面临重估压力",
-        "assets": "📉 科技股 承压\n📈 防御性板块（公用事业） 利好",
-        "chain": "IPO抽血（资金从旧股流向新股）导致科技股抛售，资金轮动至低估值板块",
-        "watch": "后续IPO定价及科技板块资金流出量"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
       "source": "CNBC",
       "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街顶级分析师看好这3只股票的增长前景",
-        "assets": "📈 相关个股（需具体代码） 利好\n📈 大盘情绪 中性偏多",
-        "chain": "分析师评级上调（专业机构背书）吸引资金流入，但需警惕评级泡沫（过度乐观）",
-        "watch": "这些股票财报及机构持仓变化"
+        "what": "顶级分析师看好3只股票增长前景",
+        "assets": "📈 对应个股 利好; 📈 美股大盘 中性",
+        "chain": "分析师评级上调（卖方推荐）吸引资金流入，但需警惕一致性预期过强后的回调（价格下跌）",
+        "watch": "个股财报及机构持仓变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街经历波动周后，部分股票超买或超卖",
-        "assets": "📉 超买股（如科技龙头） 回调风险\n📈 超卖股（如能源股） 反弹机会",
-        "chain": "超买触发获利了结（卖出锁定利润），超卖吸引抄底资金，短期均值回归（价格回归平均）",
-        "watch": "RSI（相对强弱指标）及成交量确认反转"
+        "what": "华尔街震荡一周后，部分股票超买或超卖",
+        "assets": "📉 超买股 承压; 📈 超卖股 反弹机会",
+        "chain": "超买（涨过头）可能触发获利了结（卖出锁定利润），超卖（跌过头）吸引均值回归（价格回到平均）资金抄底",
+        "watch": "RSI（相对强弱指标）及成交量变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
       "source": "CNBC",
       "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Meta一年后需向AI公司推销其新模型，扎克伯格亲自出马",
-        "assets": "📈 AI概念股 中性\n📉 Meta 承压（商业化不确定）",
-        "chain": "AI模型变现能力（赚钱能力）受质疑，若失败将拖累Meta广告收入预期，利好竞争方OpenAI",
-        "watch": "Meta AI模型客户签约数量及定价"
+        "what": "Meta利用Alexandr Wang开发新AI模型，扎克伯格需变现",
+        "assets": "📈 Meta 利好; 📈 AI概念股 利好",
+        "chain": "AI模型商业化（变现）提升广告收入预期，但研发成本（花钱）压制短期利润，需关注ROI（投资回报率）",
+        "watch": "Meta AI产品订阅率及广告收入增速"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Stock futures jump after the U.S. and Iran reach a deal to end the war: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "美伊达成结束战争协议，股指期货跳涨",
+        "assets": "📈 美股 利好; 📉 原油 承压; 📈 航空股 利好",
+        "chain": "地缘风险（打仗可能性）消退降低油价（能源成本），缓解通胀（物价上涨）压力，利好消费和航空板块",
+        "watch": "原油库存数据及中东后续协议执行"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "The World Cup could add $17 billion to the U.S. economy. Here are the stocks set to benefit",
       "source": "CNBC",
       "detail": "The 2026 World Cup could add $17 billion to the U.S. economy, largely driven by digital advertising, travel and consumer spending.",
@@ -102,7 +94,7 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "This Chinese consumer stock could double if its global industrial pivot succeeds, JPMorgan says ",
       "source": "CNBC",
       "detail": "A Chinese home appliance company has the chance to become a global player, JPMorgan analysts said in a report that gave several stocks an overweight rating.",
@@ -110,12 +102,20 @@
       "score": 17
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Social Security COLA for 2027 may jump to 4.7%, one estimate finds. This chart shows prices driving the increase",
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
       "score": 17
+    },
+    {
+      "rank": 10,
+      "title": "伊美协议落地 美股或迎上涨 协议细节仍不明朗",
+      "source": "环球市场播报",
+      "detail": "特朗普总统宣布美伊协议已正式达成，尽管协议细则尚不明确，伊朗也未完全表态认可，但美股股指期货开盘后大概率走高。典型风险偏好风向标澳元兑美元汇率上涨约0.5%...",
+      "lang": "zh",
+      "score": 15
     }
   ]
 }
