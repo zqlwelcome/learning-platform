@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-14 23:10",
+  "updateTime": "2026-06-14 23:15",
   "news": [
     {
       "rank": 1,
+      "title": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
+      "source": "CNBC",
+      "detail": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by revenue of tech's megacaps.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO概率从10%到估值2万亿",
+        "assets": "📈 太空概念股 利好\n📉 传统航天股 承压",
+        "chain": "IPO预期推高SpaceX估值，带动卫星互联网/商业航天板块（板块轮动效应），挤压波音等传统航天股",
+        "watch": "SEC备案文件 & IPO定价区间"
+      }
+    },
+    {
+      "rank": 2,
       "title": "“广州第一芯”迎IPO大考，盈利还得等两三年！",
       "source": "市场资讯",
       "detail": "来源：IPO日报 6月15日粤芯半导体将迎创业板IPO上会。作为广东首家量产12英寸晶圆企业，公司聚焦成熟制程，产能持续扩建。其营收连年高增，但成立八年累计亏损超百亿元...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "广州某芯片公司冲刺IPO，但盈利仍需数年",
-        "assets": "📉 半导体新股 承压；📉 科创板 情绪偏空",
-        "chain": "盈利预期推迟打击板块估值（市值/盈利比），拖累其他未盈利科技股IPO节奏",
-        "watch": "该公司招股书披露的客户订单及现金流（现金流入流出）"
+        "what": "广州粤芯半导体IPO面临盈利延迟",
+        "assets": "📉 半导体晶圆代工 利空\n📉 A股半导体板块 承压",
+        "chain": "盈利预期落空暴露产能利用率不足（单位成本高企），拖累国产替代（自主可控）叙事，利空半导体设备股",
+        "watch": "粤芯招股书盈利预测 & 产能利用率数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
       "source": "CNBC",
       "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街顶级分析师看好3只股票增长前景",
-        "assets": "📈 对应个股（需具体名称） 利好",
-        "chain": "分析师评级提升吸引资金流入（买盘增加），可能带动同行业ETF（交易所交易基金）跟涨",
-        "watch": "个股财报（公司业绩报告）及机构持仓变动"
+        "what": "顶级分析师看好3只股票增长前景",
+        "assets": "📈 高评级个股 利好",
+        "chain": "分析师共识形成资金流入（机构跟单），但需警惕过度拥挤（拥挤交易风险）后的回调",
+        "watch": "目标价调整 & 机构持仓变化（13F文件）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街震荡一周后，部分股票超买或超卖",
-        "assets": "📈 超卖板块（如能源） 反弹机会；📉 超买板块（如科技） 回调风险",
-        "chain": "超买触发获利了结（卖出盈利头寸），超卖吸引抄底资金，波动率（价格波动程度）可能放大",
-        "watch": "RSI（相对强弱指标）及成交量确认反转信号"
+        "what": "华尔街周度震荡后出现超买/超卖股票",
+        "assets": "📉 超买股 回调风险\n📈 超卖股 反弹机会",
+        "chain": "超买触发获利回吐（止盈压力），超卖吸引价值投资者（均值回归策略），加剧板块分化（行业轮动）",
+        "watch": "RSI指标（相对强弱指数） & 成交量变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
       "source": "CNBC",
       "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Meta用初创公司建AI模型后，扎克伯格需推销成果",
-        "assets": "📈 Meta 情绪中性偏多；📈 AI概念股（如Scale AI） 利好",
-        "chain": "Meta若成功变现AI（人工智能技术赚钱），将提振科技巨头AI投资信心，带动算力需求",
-        "watch": "Meta AI产品用户数及广告收入转化率"
+        "what": "Meta要求Scale AI创始人打造新模型后转售",
+        "assets": "📈 AI基础设施 利好\n📉 Meta AI 利空",
+        "chain": "模型转售显示Meta变现压力（货币化瓶颈），但利好Scale AI这类数据标注商（数据服务需求增长），拖累Meta自研AI叙事",
+        "watch": "Meta AI产品收入 & Scale AI新客户签约"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "The World Cup could add $17 billion to the U.S. economy. Here are the stocks set to benefit",
       "source": "CNBC",
       "detail": "The 2026 World Cup could add $17 billion to the U.S. economy, largely driven by digital advertising, travel and consumer spending.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "世界杯或为美国经济注入170亿美元，相关股票受益",
-        "assets": "📈 酒店/旅游股（如万豪） 利好；📈 体育用品股（如耐克） 利好",
-        "chain": "赛事刺激消费（服务业支出），推高通胀预期（物价上涨），间接利好美元",
-        "watch": "赛事门票预售数据及赞助商收入指引"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "This Chinese consumer stock could double if its global industrial pivot succeeds, JPMorgan says ",
-      "source": "CNBC",
-      "detail": "A Chinese home appliance company has the chance to become a global player, JPMorgan analysts said in a report that gave several stocks an overweight rating.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "摩根大通称某中国消费股若转型成功，股价可翻倍",
-        "assets": "📈 该中国消费股（需具体名称） 利好；📈 大消费板块 情绪提振",
-        "chain": "转型成功吸引外资回流（境外资金买入），但若失败将引发估值杀跌（市值暴跌）",
-        "watch": "该股海外业务营收占比及毛利率（盈利效率）变化"
+        "what": "世界杯预计为美国经济注入170亿美元",
+        "assets": "📈 体育/旅游/酒店 利好\n📈 媒体版权 利好",
+        "chain": "赛事刺激消费（非必需消费支出），带动广告（品牌营销）和转播权收入，但基建成本可能稀释收益（成本通胀）",
+        "watch": "门票预售数据 & 赞助商合同金额"
       }
     },
     {
       "rank": 7,
+      "title": "This Chinese consumer stock could double if its global industrial pivot succeeds, JPMorgan says ",
+      "source": "CNBC",
+      "detail": "A Chinese home appliance company has the chance to become a global player, JPMorgan analysts said in a report that gave several stocks an overweight rating.",
+      "lang": "en",
+      "score": 17
+    },
+    {
+      "rank": 8,
       "title": "Social Security COLA for 2027 may jump to 4.7%, one estimate finds. This chart shows prices driving the increase",
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
@@ -94,7 +102,7 @@
       "score": 17
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "英国本周将出台未成年人社交媒体管控禁令 监管力度超越澳大利亚",
       "source": "环球市场播报",
       "detail": " 英国文化大臣莉萨・南迪周日接受天空新闻采访时表示，英国本周即将公布的16岁以下未成年人社交媒体使用禁令并非“万全之策”，但会在保护青少年安全方面发挥重要作用。",
@@ -102,18 +110,10 @@
       "score": 15
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "美的集团于6月12日斥资1.2亿元回购144.5万股A股",
       "source": "新浪港股",
       "detail": " 美的集团（00300）发布公告，该公司于2026年6月12日斥资1.2亿元人民币回购144.5万股A股，每股回购价格为82.59-84.49元人民币。",
-      "lang": "zh",
-      "score": 15
-    },
-    {
-      "rank": 10,
-      "title": "海尔智家于6月12日斥资3285.56万元回购155万股A股",
-      "source": "新浪港股",
-      "detail": "海尔智家（06690）发布公告，于2026年6月12日斥资人民币3285.56万元回购155万股A股。",
       "lang": "zh",
       "score": 15
     }
