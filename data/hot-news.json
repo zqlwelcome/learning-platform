@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 17:55",
+  "updateTime": "2026-06-14 17:57",
   "news": [
     {
       "rank": 1,
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "Despite a large retail allocation and huge volume, volatility was moderate",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX首日上市表现强劲，投资者热议其史诗级交易",
+        "assets": "SpaceX股票(看涨)",
+        "chain": "IPO成功提振市场信心，可能引发(资金轮动)至航天板块，带动相关ETF和供应链股票上涨",
+        "watch": "SpaceX后续财报及订单数据"
+      }
     },
     {
       "rank": 6,
@@ -71,7 +77,13 @@
       "source": "CNBC",
       "detail": "The U.K.'s Ministry of Defence says the SMYRTOS was in the English Channel and will be held off the south coast during investigations.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "英国拦截俄罗斯影子舰队油轮，强化制裁执行",
+        "assets": "布伦特原油(看涨)、航运股(看跌)",
+        "chain": "制裁收紧减少(原油供应)，推高油价；航运风险溢价上升，但(地缘政治溢价)可能压制风险资产",
+        "watch": "俄罗斯原油出口量及制裁后续行动"
+      }
     },
     {
       "rank": 7,
@@ -79,7 +91,13 @@
       "source": "新浪证券",
       "detail": " 5月国民经济数据将公布；A股多个指数样本将调整；国内成品油再迎调价窗口；陆家嘴论坛将开幕；“超级央行周”来袭，美联储、日本央行等将公布利率决议。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "下周中国5月经济数据公布，陆家嘴论坛开幕",
+        "assets": "A股指数(看涨)、人民币(看涨)",
+        "chain": "经济数据若超预期，强化(复苏预期)利好股市；论坛政策信号可能推动(金融改革)相关板块",
+        "watch": "5月工业增加值及社零数据"
+      }
     },
     {
       "rank": 8,
@@ -87,7 +105,13 @@
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街震荡周后，部分股票超买或超卖",
+        "assets": "超买股(看跌)、超卖股(看涨)",
+        "chain": "超买股面临(均值回归)压力，超卖股可能吸引(价值投资者)抄底，引发板块轮动",
+        "watch": "RSI指标及成交量变化"
+      }
     },
     {
       "rank": 9,
@@ -95,7 +119,13 @@
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "2027年社安金COLA或升至4.7%，受物价驱动",
+        "assets": "美国国债(看跌)、消费股(看涨)",
+        "chain": "高COLA反映(通胀粘性)，推升加息预期利空债券；但增加(居民购买力)利好消费板块",
+        "watch": "CPI及PCE通胀数据"
+      }
     },
     {
       "rank": 10,
@@ -103,7 +133,13 @@
       "source": "CNBC",
       "detail": "Peter Haynes, TD Securities' head of index and market structure, suggests SpaceX's public debut is only a small part of the larger SpaceX timeline.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "道明证券预计SpaceX未来涨幅更大",
+        "assets": "SpaceX股票(看涨)、航天ETF(看涨)",
+        "chain": "机构看多强化(市场情绪)，吸引散户跟风；但需警惕(估值泡沫)风险，若盈利不及预期则回调",
+        "watch": "SpaceX订单及发射计划"
+      }
     }
   ]
 }
