@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 20:01",
+  "updateTime": "2026-06-14 20:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX IPO首日大涨，财富顾问股受益",
-        "assets": "📈 SpaceX 股票 利好; 📈 财富管理股 利好",
-        "chain": "高净值客户财富效应（净资产增加）→ 理财需求增 → 顾问佣金收入升",
-        "watch": "SpaceX后续财报及客户资产增长数据"
+        "what": "SpaceX IPO让客户变富，利好财富顾问股",
+        "assets": "📈 财富管理股 利好；📈 SpaceX未上市股权 溢价预期",
+        "chain": "高净值客户资产增值→顾问管理费（AUM-based fee）增加→股价重估",
+        "watch": "SpaceX IPO估值及上市时间表"
       }
     },
     {
@@ -23,52 +23,52 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "高盛称英伟达等科技股仍有上涨空间",
-        "assets": "📈 英伟达 利好; 📈 科技股 利好",
-        "chain": "机构看多信号（分析师评级上调）→ 资金流入科技ETF → 推高板块估值（市盈率）",
-        "watch": "英伟达下一季度营收指引是否超预期"
+        "what": "高盛称英伟达等股票仍有上涨空间",
+        "assets": "📈 英伟达 利好；📈 半导体ETF 利好",
+        "chain": "AI算力需求持续→盈利预期上修（EPS调高）→估值扩张（PE倍数提升）",
+        "watch": "英伟达下一季财报指引及数据中心收入"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX IPO sticks the landing. Here's what investors are saying about its epic first trading day",
-      "source": "CNBC",
-      "detail": "Despite a large retail allocation and huge volume, volatility was moderate",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO首日表现亮眼，投资者热议",
-        "assets": "📈 SpaceX 股票 利好; 📈 太空概念股 利好",
-        "chain": "IPO首日涨幅（首日收益率）→ 市场情绪提振 → 带动同类新股发行定价提升",
-        "watch": "SpaceX后续股价波动及散户认购热度"
-      }
-    },
-    {
-      "rank": 4,
       "title": "UK forces board sanctioned Russian shadow fleet oil tanker",
       "source": "CNBC",
       "detail": "The U.K.'s Ministry of Defence says the SMYRTOS was in the English Channel and will be held off the south coast during investigations.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英国扣押受制裁俄罗斯油轮",
-        "assets": "📉 原油 利好（供给收紧）; 📈 航运保险 利空（合规成本升）",
-        "chain": "制裁执行强化（执法力度）→ 俄油出口受阻 → 全球原油供应减少推油价",
-        "watch": "布伦特原油期货价格及后续扣押行动"
+        "what": "英国扣押受制裁俄罗斯影子舰队油轮",
+        "assets": "📈 原油 短期利多；📉 俄油影子船队 承压",
+        "chain": "供应收紧预期→布伦特（全球原油基准）上行→航运保险成本飙升",
+        "watch": "俄罗斯原油出口量变化及制裁执行力度"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街震荡周后，部分股票超买/超卖",
-        "assets": "📉 超买股（如特斯拉） 利空; 📈 超卖股 利好",
-        "chain": "技术指标（相对强弱指标RSI）触发 → 短期均值回归（价格回调到平均） → 资金轮动",
-        "watch": "RSI是否突破70/30阈值及成交量变化"
+        "what": "华尔街震荡周后部分股票超买/超卖",
+        "assets": "📉 超买个股（如科技龙头）回调风险；📈 超卖个股反弹机会",
+        "chain": "RSI（相对强弱指标）极端值→均值回归（价格回到平均）交易策略触发→波动率（市场波动程度）放大",
+        "watch": "超买/超卖名单及后续成交量变化"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
+      "source": "CNBC",
+      "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "Meta一年后需靠Alexandr Wang推销其AI模型",
+        "assets": "📉 Meta AI业务 不确定性；📈 Scale AI（Wang公司） 受益",
+        "chain": "内部开发转外包→Meta研发成本下降→竞争格局重塑",
+        "watch": "Meta AI模型商业采用率及收入贡献"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "A股风格反转：券商股涨停，建设银行创新高",
-        "assets": "📈 券商股 利好; 📈 银行股 利好",
-        "chain": "风格轮动（资金从成长转向价值）→ 低估值金融股获追捧 → 上证指数突破阻力位",
-        "watch": "券商ETF资金流向及银行股分红率变化"
+        "what": "A股风格切换：券商涨停、建行新高、银行ETF连续突破",
+        "assets": "📈 券商股 强势；📈 银行股 持续新高；📉 成长股 承压",
+        "chain": "资金从高估值（高PE）流向低估值（低PE）板块→银行/券商获得流动性溢价→指数权重股驱动",
+        "watch": "券商板块涨停持续性及银行股分红率（股息率）变化"
       }
     },
     {
@@ -95,14 +95,6 @@
     },
     {
       "rank": 8,
-      "title": "Why TD Securities anticipates even bigger days ahead for SpaceX",
-      "source": "CNBC",
-      "detail": "Peter Haynes, TD Securities' head of index and market structure, suggests SpaceX's public debut is only a small part of the larger SpaceX timeline.",
-      "lang": "en",
-      "score": 17
-    },
-    {
-      "rank": 9,
       "title": "英国本周将出台未成年人社交媒体管控禁令 监管力度超越澳大利亚",
       "source": "环球市场播报",
       "detail": " 英国文化大臣莉萨・南迪周日接受天空新闻采访时表示，英国本周即将公布的16岁以下未成年人社交媒体使用禁令并非“万全之策”，但会在保护青少年安全方面发挥重要作用。",
@@ -110,10 +102,18 @@
       "score": 15
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美的集团于6月12日斥资1.2亿元回购144.5万股A股",
       "source": "新浪港股",
       "detail": " 美的集团（00300）发布公告，该公司于2026年6月12日斥资1.2亿元人民币回购144.5万股A股，每股回购价格为82.59-84.49元人民币。",
+      "lang": "zh",
+      "score": 15
+    },
+    {
+      "rank": 10,
+      "title": "海尔智家于6月12日斥资3285.56万元回购155万股A股",
+      "source": "新浪港股",
+      "detail": "海尔智家（06690）发布公告，于2026年6月12日斥资人民币3285.56万元回购155万股A股。",
       "lang": "zh",
       "score": 15
     }
