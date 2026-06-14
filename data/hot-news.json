@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 17:20",
+  "updateTime": "2026-06-14 17:21",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "新浪证券",
       "detail": " 5月国民经济数据将公布；A股多个指数样本将调整；国内成品油再迎调价窗口；陆家嘴论坛将开幕；“超级央行周”来袭，美联储、日本央行等将公布利率决议。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "下周中国将公布5月国民经济数据，A股指数调整及陆家嘴论坛开幕。",
+        "assets": "A股大盘（+/-），人民币（+/-）",
+        "chain": "数据若超预期（经济复苏），利好A股；论坛政策信号（监管宽松）或提振金融板块（beta效应）。",
+        "watch": "5月工业增加值、社零数据及论坛政策表态。"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街震荡周后，部分股票超买或超卖。",
+        "assets": "美股个股（如超卖科技股+，超买防御股-）",
+        "chain": "超卖股可能反弹（均值回归），超买股面临获利回吐（动量反转），影响板块轮动（sector rotation）。",
+        "watch": "RSI指标及下周成交量确认反转信号。"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "每日经济新闻",
       "detail": "记者|彭水萍 编辑|程鹏叶峰向江林校对|张锦河 刚过去的交易周（6月8日至12日），A股告别此前数周的先扬后抑走势，主要指数多数在周一创出阶段新低后震荡攀升...",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "全球最大IPO（如SpaceX）使马斯克成万亿富豪，华尔街获利，A股相关板块或受益。",
+        "assets": "A股航天/科技板块（+），美股SpaceX概念股（+）",
+        "chain": "IPO热潮（流动性溢出）带动A股科技股估值（联动效应），但需警惕泡沫风险（过度投机）。",
+        "watch": "A股航天板块资金流入及IPO定价细节。"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "预计2027年社保COLA升至4.7%，受物价上涨推动。",
+        "assets": "美国国债（-），通胀挂钩债券（+）",
+        "chain": "COLA上升反映通胀粘性（成本推动），可能强化加息预期（利率风险），压制长债价格（duration效应）。",
+        "watch": "CPI及PCE数据验证通胀持续性。"
+      }
     }
   ]
 }
