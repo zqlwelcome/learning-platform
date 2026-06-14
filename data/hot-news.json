@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 06:51",
+  "updateTime": "2026-06-15 06:52",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "The 2026 World Cup could add $17 billion to the U.S. economy, largely driven by digital advertising, travel and consumer spending.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "世界杯或为美国经济注入170亿美元，相关股票受益。",
+        "assets": "美股消费、旅游、体育板块（看涨）",
+        "chain": "赛事刺激消费支出，利好酒店、航空、啤酒等（需求拉动效应），但需警惕前期炒作后的获利回吐。",
+        "watch": "世界杯门票销售及赞助商营收数据"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "A Chinese home appliance company has the chance to become a global player, JPMorgan analysts said in a report that gave several stocks an overweight rating.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "摩根大通称某中国消费股若全球工业转型成功，股价或翻倍。",
+        "assets": "该中国消费股（看涨）",
+        "chain": "转型成功提升全球市场份额，带动盈利增长（盈利驱动估值重估），但失败风险高，需关注执行进度。",
+        "watch": "公司季度财报及海外订单数据"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "2027年社保生活成本调整或升至4.7%，受物价驱动。",
+        "assets": "美国国债（看跌）、通胀敏感资产（看涨）",
+        "chain": "高COLA预示通胀粘性，强化美联储鹰派预期（利率路径上移），利空债券，利好TIPS。",
+        "watch": "CPI及PCE通胀数据月度变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "环球市场播报",
       "detail": "特朗普总统宣布美伊协议已正式达成，尽管协议细则尚不明确，伊朗也未完全表态认可，但美股股指期货开盘后大概率走高。典型风险偏好风向标澳元兑美元汇率上涨约0.5%...",
       "lang": "zh",
-      "score": 15
+      "score": 15,
+      "insight": {
+        "what": "伊美协议落地，美股或上涨，但协议细节不明。",
+        "assets": "美股（看涨）、原油（看跌）",
+        "chain": "协议缓解地缘风险，降低油价溢价（风险溢价压缩），利好股市，但细节缺失限制涨幅，需警惕反转。",
+        "watch": "协议具体条款及伊朗原油出口数据"
+      }
     }
   ]
 }
