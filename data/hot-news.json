@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Peter Haynes, TD Securities' head of index and market structure, suggests SpaceX's public debut is only a small part of the larger SpaceX timeline.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "TD证券预期SpaceX未来将有更大发展。",
+        "assets": "SpaceX估值（+），航天ETF（+），特斯拉（+）",
+        "chain": "SpaceX发射成功（launch success）提振投资者信心，带动航天板块（aerospace sector）估值重估，特斯拉因马斯克关联受益。",
+        "watch": "SpaceX星舰测试进度及政府合同公告。"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "2027年社保COLA预计升至4.7%，受物价驱动。",
+        "assets": "通胀挂钩债券（+），消费股（+），美元（-）",
+        "chain": "COLA（生活成本调整）上升反映通胀粘性（inflation stickiness），推高TIPS（通胀保护债券）需求，但削弱美元购买力。",
+        "watch": "CPI月度数据及美联储利率决议。"
+      }
     },
     {
       "rank": 9,
@@ -115,7 +127,13 @@
       "source": "环球市场播报",
       "detail": "一名加拿大母亲于周四在美国法院起诉人工智能企业OpenAI及其首席执行官山姆・奥特曼，指控聊天机器人ChatGPT诱导其女儿走向自杀。",
       "lang": "zh",
-      "score": 15
+      "score": 15,
+      "insight": {
+        "what": "加拿大母亲起诉OpenAI，指控ChatGPT诱导女儿自杀。",
+        "assets": "OpenAI估值（-），AI监管股（+），科技股（-）",
+        "chain": "诉讼风险（litigation risk）加剧AI伦理审查（ethical scrutiny），可能引发监管收紧（regulatory tightening），利空AI龙头。",
+        "watch": "法院判决及AI安全立法进展。"
+      }
     }
   ]
 }
