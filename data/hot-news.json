@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 07:45",
+  "updateTime": "2026-06-15 07:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX历史性IPO，从10%成功率到2万亿市值",
-        "assets": "📈 美股太空概念股 利好\n📈 风险资产（高波动品种） 情绪提振",
-        "chain": "太空经济估值重塑，带动卫星通信、发射服务等上下游板块（产业联动效应）",
-        "watch": "IPO定价及首日涨幅，后续订单和发射计划"
+        "what": "SpaceX IPO概率从10%升至市值2万亿",
+        "assets": "📈 太空概念股 利好; 📈 科技成长股 利好",
+        "chain": "私人航天估值飙升→对军工/卫星产业链形成估值溢出（同类资产比价效应）",
+        "watch": "IPO定价及认购倍数"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 36,
       "insight": {
         "what": "新任美联储主席沃什面临特朗普施压与加息预期夹击",
-        "assets": "📈 美元 短期承压\n📉 美债收益率 波动加大",
-        "chain": "政策不确定性推升避险情绪（资金流向黄金/日元），市场押注美联储独立性受挑战（政策可信度风险）",
-        "watch": "沃什公开讲话及利率决议措辞，特朗普干预言论频率"
+        "assets": "📉 美国国债 承压; 📈 美元指数 震荡",
+        "chain": "政策不确定性→收益率曲线陡化（长短期利率差扩大）→压制风险偏好",
+        "watch": "下周美联储会议措辞及点阵图"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街顶级分析师看好3只股票增长前景",
-        "assets": "📈 该3只个股 利好\n📈 对应行业板块 跟随上涨",
-        "chain": "分析师共识触发机构资金流入（羊群效应），可能带动同行业其他股票估值修复（比价效应）",
-        "watch": "个股财报及机构持仓变化，目标价调整情况"
+        "what": "华尔街顶级分析师看好3只个股增长前景",
+        "assets": "📈 所涉个股 利好; 📈 行业龙头 利好",
+        "chain": "分析师背书→资金集中流入→可能触发动量交易（追涨杀跌）",
+        "watch": "个股财报及机构持仓变化"
       }
     },
     {
@@ -51,42 +51,50 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街震荡一周后，部分股票超买或超卖",
-        "assets": "📉 超买股 短期回调风险\n📈 超卖股 反弹机会",
-        "chain": "超买股可能引发获利了结（技术性卖压），超卖股吸引抄底资金（均值回归策略）",
-        "watch": "RSI（相对强弱指标）及成交量变化，后续财报催化"
+        "what": "华尔街经历震荡周后，部分股票超买或超卖",
+        "assets": "📉 超买股 回调风险; 📈 超卖股 反弹机会",
+        "chain": "超买股面临获利回吐（止盈卖压）→超卖股或迎均值回归（价格回到平均水平）",
+        "watch": "RSI（相对强弱指标）及成交量变化"
       }
     },
     {
       "rank": 5,
+      "title": "机构：如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元",
+      "source": "环球市场播报",
+      "detail": "澳洲联邦银行的Vivek Dhar在一份研究报告中表示，如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元左右。“我们的预测隐含地假设...",
+      "lang": "zh",
+      "score": 22,
+      "insight": {
+        "what": "机构预测若霍尔木兹海峡解封，布伦特原油年底前跌至80美元",
+        "assets": "📉 布伦特原油 承压; 📉 能源股 利空",
+        "chain": "供应恢复预期→油价下行→压低通胀预期→利好债券（避险资产）",
+        "watch": "霍尔木兹海峡船运数据及OPEC产量"
+      }
+    },
+    {
+      "rank": 6,
       "title": "6月15日周末要闻：美伊达成协议 霍尔木兹海峡将开放 原油下跌 美元走低",
       "source": "环球市场播报",
       "detail": "上周国际市场回顾 6月13日收盘：美股收高道指涨0.7% 市场关注美伊谈判与SpaceX首秀 6月13日美股成交额前20：SpaceX登陆纳斯达克，市值突破2万亿美元...",
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "美伊达成协议，霍尔木兹海峡将开放，原油下跌",
-        "assets": "📉 原油 利空\n📉 能源股 承压\n📈 美元 走低",
-        "chain": "油价下跌降低通胀预期（缓解紧缩压力），利好消费和航空板块（成本下降），美元走弱支撑新兴市场",
-        "watch": "霍尔木兹海峡实际通行量，OPEC（石油输出国组织）产量调整"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
-      "source": "CNBC",
-      "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "Meta要求Alexandr Wang开发新AI模型，扎克伯格需兜售",
-        "assets": "📈 Meta（脸书母公司） 利好\n📈 AI概念股 情绪提振",
-        "chain": "AI模型商业化加速，带动算力需求（GPU/云计算）和AI应用落地（企业服务）",
-        "watch": "模型性能指标及客户采用率，Meta财报中AI收入占比"
+        "what": "美伊达成协议，霍尔木兹海峡将开放，原油下跌，美元走低",
+        "assets": "📉 原油 利空; 📉 美元指数 承压; 📈 风险资产 利好",
+        "chain": "地缘风险溢价消退→油价跌→通胀预期降温→降息预期升温（借钱成本降低预期）",
+        "watch": "原油库存及美元指数走势"
       }
     },
     {
       "rank": 7,
+      "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
+      "source": "CNBC",
+      "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 8,
       "title": "本周关注多家央行利率决议、中东局势以及G7峰会",
       "source": "环球市场播报",
       "detail": " 本周 一周，美国、英国、日本、澳洲、瑞士、瑞典和挪威的央行政策决议，以及中东局势和在法国举行的七国集团（G7）峰会，将令交易员们保持警惕。",
@@ -94,7 +102,7 @@
       "score": 18
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Stock futures jump after the U.S. and Iran reach a deal to end the war: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
@@ -102,18 +110,10 @@
       "score": 17
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "The World Cup could add $17 billion to the U.S. economy. Here are the stocks set to benefit",
       "source": "CNBC",
       "detail": "The 2026 World Cup could add $17 billion to the U.S. economy, largely driven by digital advertising, travel and consumer spending.",
-      "lang": "en",
-      "score": 17
-    },
-    {
-      "rank": 10,
-      "title": "This Chinese consumer stock could double if its global industrial pivot succeeds, JPMorgan says ",
-      "source": "CNBC",
-      "detail": "A Chinese home appliance company has the chance to become a global player, JPMorgan analysts said in a report that gave several stocks an overweight rating.",
       "lang": "en",
       "score": 17
     }
