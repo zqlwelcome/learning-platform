@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-14 13:06",
+  "updateTime": "2026-06-14 13:07",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Peter Haynes, TD Securities' head of index and market structure, suggests SpaceX's public debut is only a small part of the larger SpaceX timeline.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "TD证券预计SpaceX未来将有更大规模活动。",
+        "assets": "SpaceX估值（未上市）+ 看涨",
+        "chain": "投行乐观预期（分析师评级）→ 吸引私募资本（风险投资）→ 推高未上市股权估值（二级市场溢价）",
+        "watch": "SpaceX新一轮融资估值及发射合同进展"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12 months.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "2027年社保COLA可能升至4.7%，受物价驱动。",
+        "assets": "美国国债（短期）+ 看跌；通胀预期（TIPS）+ 看涨",
+        "chain": "通胀预期上升（CPI数据）→ 社保支出增加（财政压力）→ 美债收益率上行（利率敏感资产承压）",
+        "watch": "美国CPI月度数据及美联储政策信号"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "新浪港股",
       "detail": " 美的集团（00300）发布公告，该公司于2026年6月12日斥资1.2亿元人民币回购144.5万股A股，每股回购价格为82.59-84.49元人民币。",
       "lang": "zh",
-      "score": 15
+      "score": 15,
+      "insight": {
+        "what": "美的集团6月12日斥资1.2亿元回购144.5万股A股。",
+        "assets": "美的集团A股（000333）+ 看涨",
+        "chain": "公司回购（自有资金买入）→ 减少流通股（供给收缩）→ 支撑股价（EPS提升效应）",
+        "watch": "后续回购进度及家电行业销售数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "新浪港股",
       "detail": "海尔智家（06690）发布公告，于2026年6月12日斥资人民币3285.56万元回购155万股A股。",
       "lang": "zh",
-      "score": 15
+      "score": 15,
+      "insight": {
+        "what": "海尔智家6月12日斥资3285.56万元回购155万股A股。",
+        "assets": "海尔智家A股（600690）+ 看涨",
+        "chain": "公司回购（管理层信心信号）→ 提振市场情绪（护盘行为）→ 短期股价企稳（技术面支撑）",
+        "watch": "回购计划完成度及白色家电板块资金流向"
+      }
     }
   ]
 }
