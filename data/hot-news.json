@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-16 02:50",
+  "updateTime": "2026-06-16 02:56",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
-      "source": "Reuters",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "A US-Iran deal, SpaceX IPO afterglow, Kevin Warsh's first Fed meeting: What to watch this week - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 47,
+      "score": 53,
       "insight": {
-        "what": "道指飙升600点创新高，特朗普签署伊朗协议备忘录",
-        "assets": "📈 美股大盘 利好\n📈 原油 承压\n📉 避险资产（黄金） 承压",
-        "chain": "地缘风险缓和（伊朗协议降低战争溢价），风险偏好（Risk-On）上升，资金从黄金债市流入股市，油价因供应中断概率下降而回落",
-        "watch": "伊朗协议具体条款执行情况及OPEC（石油输出国组织）后续产量反应"
+        "what": "美伊达成协议，特朗普签署备忘录",
+        "assets": "📈 原油 承压；📈 美股大盘 利好",
+        "chain": "地缘风险溢价消退，油价跌→通胀预期降温→降息（借钱成本降低）预期升温，提振风险资产",
+        "watch": "伊朗原油出口量及WTI（西德克萨斯中质原油）价格是否跌破70美元"
       }
     },
     {
@@ -21,24 +21,44 @@
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "道指涨600点创历史新高，因美伊协议",
+        "assets": "📈 美股大盘 利好；📉 黄金 承压",
+        "chain": "风险偏好飙升，资金从避险资产（如黄金、美债）流向股票，美元可能走强",
+        "watch": "标普500能否突破前高及10年期美债收益率是否上行"
+      }
     },
     {
       "rank": 3,
+      "title": "SpaceX IPO leaves retail investors with too few shares and a tough hold-or-sell decision - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO散户获配少，面临持有或卖出抉择",
+        "assets": "📈 SpaceX股票 供不应求；📉 散户投资者 不利",
+        "chain": "散户份额低→首日抛压小，但机构主导→股价易被操纵（做市商控盘），散户追涨风险高",
+        "watch": "SpaceX首日换手率及锁定期（限制出售期）后机构减持节奏"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX IPO raises total of $85.7 billion as underwriters exercise 'greenshoe' overallotment option",
       "source": "CNBC",
       "detail": "Elon Musk's space and artificial intelligence company raised an initial $75 billion on Thursday.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO首日大涨，创华尔街纪录",
-        "assets": "📈 SpaceX股票 利好\n📈 航天板块ETF 利好",
-        "chain": "IPO热度推高估值，带动太空概念股（如维珍银河）跟涨，短期资金可能从科技股轮动至航天板块",
-        "watch": "SpaceX后续交易日成交量及股价能否守住发行价上方"
+        "what": "SpaceX IPO募资857亿美元，承销商行使绿鞋（超额配售权）",
+        "assets": "📈 SpaceX估值 支撑；📈 新股市场 情绪提振",
+        "chain": "绿鞋（额外发行15%股份）稳定股价→吸引更多科技公司IPO，但需警惕后续解禁（锁定期结束）压力",
+        "watch": "未来30天SpaceX股价是否稳定在发行价上方及科技IPO排队数量"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Dow jumps 600 points to record with rally gaining steam after Trump signs Iran deal memorandum: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
@@ -46,34 +66,20 @@
       "score": 45
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "承销商行使绿鞋超额配售权，SpaceX IPO募资总额达857亿美元",
       "source": "环球市场播报",
       "detail": "核心要点 承销商行使 “绿鞋” 超额配售权后，SpaceX 本次 IPO 募资总额升至 857 亿美元。 本次超额配售规模，超过史上绝大多数科技企业 IPO 的募资体量。",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SpaceX承销商行使绿鞋超额配售权，总募资857亿美元",
-        "assets": "📈 SpaceX股票 短期利好\n📈 承销商（投行）收入 利好",
-        "chain": "绿鞋机制（稳定股价的额外配股）表明需求强劲，减少上市后抛压，但超额配售稀释每股收益（EPS），长期需看盈利增速",
-        "watch": "SpaceX未来财报的营收增长是否匹配估值"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
-      "source": "环球市场播报",
-      "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
       "lang": "zh",
       "score": 40
     },
     {
       "rank": 7,
-      "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38
+      "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
+      "source": "环球市场播报",
+      "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
+      "lang": "zh",
+      "score": 40
     },
     {
       "rank": 8,
