@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 10:20",
+  "updateTime": "2026-06-15 10:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美伊达成和平协议，地缘风险下降",
-        "assets": "📉 黄金 承压；📈 美股期货 利好；📈 日经指数 利好",
-        "chain": "避险情绪消退，资金从黄金转向风险资产（如股票），美联储加息预期暂缓（借钱成本预期降低）",
-        "watch": "伊朗协议执行细节及美联储下次利率决议"
+        "what": "美伊和平协议达成，地缘风险下降",
+        "assets": "📈 黄金 短期反弹但承压；📉 原油 承压",
+        "chain": "避险情绪消退，风险资产（股票、新兴市场货币）获提振，但美联储加息（提高借钱成本）预期限制涨幅",
+        "watch": "美联储利率决议及通胀数据"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货跳涨，日经指数大涨5%",
-        "assets": "📈 美股科技股 利好；📈 日经指数 利好",
-        "chain": "风险偏好回升（资金更愿意买股票），亚太市场联动上涨，科技板块受益于情绪修复",
-        "watch": "美股开盘后科技板块成交量及资金流向"
+        "what": "美股期货跳涨，日经指数飙升5%",
+        "assets": "📈 美股科技股 利好；📈 日本股市 利好",
+        "chain": "地缘风险溢价（因不确定性导致的额外回报要求）消除，资金从避险资产（如美债）转向权益（股票）",
+        "watch": "美股开盘及VIX（恐慌指数）走势"
       }
     },
     {
       "rank": 3,
-      "title": "AI版支付宝来了？阿里巴巴涨超2%，腾讯控股获南向资金连续6日净买入，港股互联网ETF华宝早盘涨近2%",
-      "source": "新浪基金",
-      "detail": "6月15日，美伊达成和平协议，港股早盘高开，恒生科技指数涨1.78%。互联网龙头集体走强，阿里巴巴-W、腾讯控股、美团-W涨超2%，小米集团-W涨逾1%；此外，AI算力产品...",
-      "lang": "zh",
-      "score": 42,
-      "insight": {
-        "what": "阿里巴巴涨超2%，腾讯获南向资金净买入，港股互联网ETF上涨",
-        "assets": "📈 港股互联网股 利好；📈 恒生科技指数 利好",
-        "chain": "AI概念升温（人工智能主题），南向资金（内地资金）持续流入，带动板块估值修复",
-        "watch": "阿里巴巴AI产品发布进展及南向资金净流入额"
-      }
-    },
-    {
-      "rank": 4,
       "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
       "source": "环球市场播报",
       "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债收益率下跌，伊朗协议减少美联储加息押注",
-        "assets": "📈 美债价格 利好；📉 美元 承压",
-        "chain": "加息预期降温（借钱成本不再快速上升），债市上涨，美元走弱，风险资产吸引力增强",
-        "watch": "美联储官员讲话及美债收益率曲线（短期与长期利差）"
+        "what": "美债收益率全线上扬，加息押注减少",
+        "assets": "📉 美债价格 承压；📈 美债收益率 上行",
+        "chain": "伊朗协议降低通胀预期（油价下跌），交易员减少对美联储加息的押注，但收益率上行反映风险偏好改善",
+        "watch": "10年期美债收益率是否突破4.5%"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
       "source": "CNBC",
       "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "全球领导人欢迎美伊协议，欧洲信号放松制裁并呼吁霍尔木兹海峡重开",
-        "assets": "📈 原油 承压；📈 航运股 利好",
-        "chain": "制裁放松可能增加伊朗石油出口（供应增加），油价下行；霍尔木兹海峡重开降低航运风险",
-        "watch": "伊朗原油出口量及霍尔木兹海峡通行情况"
+        "what": "全球领导人欢迎美伊协议，欧洲解除制裁",
+        "assets": "📈 欧洲股市 利好；📈 航运股 利好",
+        "chain": "霍尔木兹海峡（全球石油运输要道）重开预期，降低能源成本（油价下跌），利好进口国和航运",
+        "watch": "霍尔木兹海峡实际通航情况"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "华尔街是如何操盘完成SpaceX这场史上最大规模IPO的？",
       "source": "环球市场播报",
       "detail": "美东时间周三深夜，高盛纽约总部41层一间会议室里，投行团队围坐在一起，分配这单史上最抢手的首次公开募股份额。 埃隆·马斯克通过视频全程远程督办...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "华尔街操盘SpaceX史上最大规模IPO",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "IPO定价和配售（初始发行价和分配）影响二级市场（上市后交易）情绪，资金可能轮动至太空板块",
-        "watch": "IPO首日涨幅及机构投资者认购倍数（申购量对比发行量）"
+        "what": "华尔街操盘完成SpaceX史上最大IPO",
+        "assets": "📈 SpaceX及相关航天股 利好；📈 科技IPO市场 利好",
+        "chain": "大规模IPO（首次公开发行）吸引流动性（资金从其他板块流入），可能压制其他科技股估值（资金分流效应）",
+        "watch": "SpaceX首日涨幅及认购倍数"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "新西兰经济学家下调GDP增长预期",
       "source": "环球市场播报",
       "detail": "新西兰经济研究所在其官网发布本土经济学家的季度综合预测报告。经济学家预计，2025至2026财年国内生产总值年均增速为0.6%。注：3月份调查预测值为0.8%。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "新西兰经济学家下调GDP增长预期",
+        "assets": "📉 新西兰元 承压；📉 新西兰股市 承压",
+        "chain": "经济放缓预期导致央行降息（降低借钱成本）概率上升，利空本币（汇率贬值），利好出口商（海外收入增加）",
+        "watch": "新西兰央行利率决议及CPI（消费者物价指数）"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
       "source": "CNBC",
       "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
@@ -102,7 +94,7 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
@@ -110,12 +102,20 @@
       "score": 29
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "快讯：恒指高开1.15% 科指涨1.78% 科网股、黄金股普涨 AI应用股高开 智谱涨超14% 溜溜梅上市首日高开118%",
       "source": "新浪港股",
       "detail": "美股上周五继续向上，据报美伊达成和平协议，油价大幅回落，带动大市向好。指数高开后升幅一度扩大，即使中段升势回吐，三大指数均录得升幅收市。",
       "lang": "zh",
       "score": 27
+    },
+    {
+      "rank": 10,
+      "title": "伊朗7月亚洲市场轻质原油定价：每桶溢价7.15美元",
+      "source": "环球市场播报",
+      "detail": " 伊朗国家石油公司官网公布的定价表显示，该公司将7月销往亚洲的伊朗轻质原油官方售价定为较阿曼-迪拜原油均价每桶溢价7.15美元，较6月每桶13美元的溢价有所下调。",
+      "lang": "zh",
+      "score": 22
     }
   ]
 }

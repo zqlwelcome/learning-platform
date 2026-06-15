@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 10:20",
+  "updateTime": "2026-06-15 10:26",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,63 +16,17 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4078.40",
-      "change": "1.16"
+      "value": "4074.00",
+      "change": "1.05"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24935.900",
-      "change": "0.88"
+      "value": "24925.830",
+      "change": "0.84"
     }
   },
-  "etf_flows": [
-    {
-      "name": "证券ETF国泰",
-      "code": "512880",
-      "price": 1.073,
-      "change": 2.68,
-      "flow": 533930992.0,
-      "flow_str": "+5.34亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信ETF国泰",
-      "code": "515880",
-      "price": 1.629,
-      "change": 2.84,
-      "flow": 338958624.0,
-      "flow_str": "+3.39亿",
-      "direction": "in"
-    },
-    {
-      "name": "创业板ETF易方达",
-      "code": "159915",
-      "price": 3.953,
-      "change": 2.78,
-      "flow": 286343872.0,
-      "flow_str": "+2.86亿",
-      "direction": "in"
-    },
-    {
-      "name": "科创50ETF华夏",
-      "code": "588000",
-      "price": 1.817,
-      "change": 3.47,
-      "flow": 254202224.0,
-      "flow_str": "+2.54亿",
-      "direction": "in"
-    },
-    {
-      "name": "券商ETF华宝",
-      "code": "512000",
-      "price": 0.513,
-      "change": 2.81,
-      "flow": 219305904.0,
-      "flow_str": "+2.19亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
