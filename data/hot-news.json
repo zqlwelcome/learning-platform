@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 14:20",
+  "updateTime": "2026-06-15 14:22",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "市场资讯",
       "detail": "上周黄金波动加剧，伦敦现货周内跌幅超过2%，SHFE黄金周跌超3%。本周为超级央行周，全球主要央行将召开议息会议，重点关注美联储议息会议...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "光大期货建议本周谨慎对待黄金波动，关注美联储议息会议。",
+        "assets": "黄金（中性偏空）",
+        "chain": "美联储利率决议影响美元实际利率和避险需求，若鹰派则压制金价（实际利率上升，持有成本增加）。",
+        "watch": "美联储利率决议及点阵图、鲍威尔讲话"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "世界领导人欢迎美伊协议，欧洲暗示制裁放松并呼吁霍尔木兹海峡重开。",
+        "assets": "原油（空头）、航运（多头）",
+        "chain": "制裁放松增加伊朗原油出口（供给增加），压低油价；霍尔木兹重开降低地缘风险溢价（风险偏好回升）。",
+        "watch": "伊朗原油出口数据、霍尔木兹海峡通行情况"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "新浪基金",
       "detail": "6月15日午后，港股硬科技持续领涨全市场。智谱涨超35%，建滔积层板、建滔集团、壁仞科技、英诺赛科、华虹宏力等多股涨超10%。同类规模最大...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "AI硬件股领涨，港股通信息技术ETF华宝大涨逾6%成市场涨幅第一。",
+        "assets": "港股科技股（多头）、AI硬件相关ETF（多头）",
+        "chain": "AI需求预期推动硬件订单增长（盈利预期上调），资金涌入科技板块（动量交易），带动ETF溢价。",
+        "watch": "AI公司财报、南向资金流向、半导体行业数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街震荡一周后，部分股票出现超买或超卖信号。",
+        "assets": "超买股（空头）、超卖股（多头）",
+        "chain": "超买暗示短期回调风险（均值回归），超卖可能吸引抄底资金（技术性反弹），需结合基本面验证。",
+        "watch": "RSI指标、成交量变化、公司财报或催化剂"
+      }
     }
   ]
 }
