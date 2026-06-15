@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 11:31",
+  "updateTime": "2026-06-15 11:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 66,
       "insight": {
-        "what": "美伊协议达成，市场情绪复杂，股市涨、油价跌、黄金涨",
-        "assets": "📈 美股期货 利好; 📉 原油期货 利空; 📈 黄金 利好",
-        "chain": "油价下跌→通胀预期降温→加息押注减少→风险资产（如股票）反弹",
-        "watch": "霍尔木兹海峡是否重新开放，原油库存数据"
+        "what": "美伊协议达成，市场情绪分化",
+        "assets": "📈 美股期货 利好；📉 原油 承压；📈 黄金 利好",
+        "chain": "地缘风险降级（战争概率降低）→避险需求减弱，但降息预期（借钱成本降低）撑黄金",
+        "watch": "美联储利率决议及伊朗协议执行细节"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 58,
       "insight": {
-        "what": "美伊和平协议正式签署，油价回落，加息预期缓和",
-        "assets": "📉 原油期货 利空; 📈 现货黄金 利好; 📈 美债 利好（收益率下降）",
-        "chain": "地缘风险溢价（因冲突额外加上的价格）消退→资金从避险（黄金）转向风险资产（股票）",
-        "watch": "美联储下次会议纪要，实际加息概率（CME FedWatch）"
+        "what": "美伊和平协议落地，油价与加息预期双降",
+        "assets": "📉 原油 承压；📈 现货黄金 利好；📈 美债 利好",
+        "chain": "油价跌→通胀预期缓（物价上涨压力减轻）→加息押注减（交易员减少加息赌注）→黄金反弹",
+        "watch": "美国CPI（消费者物价指数）数据及OPEC（石油输出国组织）反应"
       }
     },
     {
@@ -37,56 +37,64 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "黄金因协议反弹至周内高点，但加息预期仍压制涨幅",
-        "assets": "📈 黄金 短期利好; 📉 美元指数 承压（加息预期减弱的反作用）",
-        "chain": "地缘缓和→避险需求降→黄金上行受限，但美元走弱又给黄金支撑",
-        "watch": "美国PCE（个人消费支出物价指数）数据，鲍威尔讲话"
+        "what": "黄金反弹但受加息预期压制",
+        "assets": "📈 现货黄金 利好；📉 美元指数 承压",
+        "chain": "地缘风险缓→避险资金流出，但降息预期升（借钱成本降低）→黄金短期震荡",
+        "watch": "美联储官员讲话及非农就业数据"
       }
     },
     {
       "rank": 4,
+      "title": "日本央行加息预期升温叠加美元指数回落，美元兑日元维持高位震荡",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——周一亚洲交易时段，美元兑日元围绕160.20附近窄幅波动。随着美国与伊朗就结束持续近四个月的军事冲突达成和平框架，市场风险偏好明显改善...",
+      "lang": "zh",
+      "score": 46,
+      "insight": {
+        "what": "日本央行加息预期升温，美元兑日元震荡",
+        "assets": "📈 日元 利好；📉 美元指数 承压",
+        "chain": "日本加息预期（借钱成本上升）→利差缩窄（美日利率差变小）→日元买盘增加",
+        "watch": "日本央行会议纪要及美国PCE（个人消费支出）数据"
+      }
+    },
+    {
+      "rank": 5,
       "title": "U.S. stock futures jump on Iran deal to end the war; Japan's Nikkei surges 5%: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货因伊朗协议跳涨，日经指数飙升5%",
-        "assets": "📈 美股科技股 利好; 📈 日本日经指数 利好; 📉 原油 利空",
-        "chain": "日经大涨→亚洲市场情绪传染→全球风险偏好（愿意冒险投资）上升",
-        "watch": "亚洲其他市场（A股、港股）开盘表现，VIX恐慌指数"
+        "what": "美股期货因伊朗协议跳涨，日经指数大涨",
+        "assets": "📈 美股期货 利好；📈 日经指数 利好",
+        "chain": "战争风险降→全球风险偏好（投资者愿意冒险）回升→资金流入股市",
+        "watch": "美股开盘后波动率指数（VIX，恐慌指数）变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
       "source": "环球市场播报",
       "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债收益率下跌，交易员减少对美联储加息的押注",
-        "assets": "📈 美债 利好（价格上涨）; 📉 美元 承压; 📉 加息预期 利空",
-        "chain": "油价跌→通胀预期降温→美联储转鸽（不再激进加息）→美债收益率下行",
-        "watch": "美国CPI（消费者物价指数）数据，美联储点阵图"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
-      "source": "CNBC",
-      "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "多国领导人欢迎美伊协议，欧洲暗示解除制裁并呼吁重开霍尔木兹",
-        "assets": "📉 原油 利空; 📈 欧元区股市 利好; 📈 航运股 利好",
-        "chain": "制裁解除→伊朗原油出口增→供应过剩→油价进一步承压",
-        "watch": "霍尔木兹海峡实际通行情况，伊朗原油出口量数据"
+        "what": "美债上涨，伊朗协议减少加息押注",
+        "assets": "📈 美债 利好；📉 美联储加息预期 承压",
+        "chain": "地缘风险缓→避险需求弱，但降息预期升（借钱成本降低）→长端利率（长期国债收益率）下行",
+        "watch": "10年期美债收益率及美联储点阵图（利率预测图）"
       }
     },
     {
       "rank": 7,
+      "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
+      "source": "CNBC",
+      "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
+      "lang": "en",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "“史上最大IPO”SpaceX上市首秀惊艳！借道航空航天ETF华泰柏瑞（563380）助力把握大航天时代成长机遇",
       "source": "新浪基金",
       "detail": "6月12日，全球航天领域迎来标志性事件，行业巨头SpaceX正式登陆纳斯达克，上市首日市值突破2万亿美元，这场规模空前的IPO也让全球资本市场进一步聚焦航天赛道。",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "A股盈利结构向AI硬链集中！产业或持续上行？",
       "source": "新浪基金",
       "detail": "据Wind数据显示，2026年一季度万得全A指数的归母净利润增速达6.89%。其中，产业链盈利呈现出“TMT高景气”的特征，盈利结构向AI硬链集中。",
@@ -102,18 +110,10 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "华尔街是如何操盘完成SpaceX这场史上最大规模IPO的？",
       "source": "环球市场播报",
       "detail": "美东时间周三深夜，高盛纽约总部41层一间会议室里，投行团队围坐在一起，分配这单史上最抢手的首次公开募股份额。 埃隆·马斯克通过视频全程远程督办...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "新西兰经济学家下调GDP增长预期",
-      "source": "环球市场播报",
-      "detail": "新西兰经济研究所在其官网发布本土经济学家的季度综合预测报告。经济学家预计，2025至2026财年国内生产总值年均增速为0.6%。注：3月份调查预测值为0.8%。",
       "lang": "zh",
       "score": 30
     }
