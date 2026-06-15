@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 10:30",
+  "updateTime": "2026-06-15 10:35",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,110 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4080.33",
-      "change": "1.21"
+      "value": "4075.97",
+      "change": "1.10"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24916.300",
-      "change": "0.80"
+      "value": "24893.600",
+      "change": "0.71"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
+  "etf_flows": [
+    {
+      "name": "通信ETF国泰",
+      "code": "515880",
+      "price": 1.637,
+      "change": 3.35,
+      "flow": 501115376.0,
+      "flow_str": "+5.01亿",
+      "direction": "in"
+    },
+    {
+      "name": "证券ETF国泰",
+      "code": "512880",
+      "price": 1.067,
+      "change": 2.11,
+      "flow": 481587760.0,
+      "flow_str": "+4.82亿",
+      "direction": "in"
+    },
+    {
+      "name": "创业板ETF易方达",
+      "code": "159915",
+      "price": 3.963,
+      "change": 3.04,
+      "flow": 399695408.0,
+      "flow_str": "+4.00亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.822,
+      "change": 3.76,
+      "flow": 378180304.0,
+      "flow_str": "+3.78亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.646,
+      "change": 4.29,
+      "flow": 224452400.0,
+      "flow_str": "+2.24亿",
+      "direction": "in"
+    }
+  ],
+  "sector_flows": [
+    {
+      "name": "电子",
+      "code": "BK1201",
+      "index": 14300.08,
+      "change": 4.33,
+      "flow": 16625135616.0,
+      "flow_str": "+166.25亿",
+      "direction": "in"
+    },
+    {
+      "name": "元件",
+      "code": "BK0459",
+      "index": 65197.05,
+      "change": 7.23,
+      "flow": 7051567872.0,
+      "flow_str": "+70.52亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体",
+      "code": "BK1036",
+      "index": 2938.75,
+      "change": 4.01,
+      "flow": 5970566656.0,
+      "flow_str": "+59.71亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信网络设备及器件",
+      "code": "BK1591",
+      "index": 16271.05,
+      "change": 5.03,
+      "flow": 5501855232.0,
+      "flow_str": "+55.02亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信",
+      "code": "BK1215",
+      "index": 8238.98,
+      "change": 2.79,
+      "flow": 5229311232.0,
+      "flow_str": "+52.29亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -35,6 +127,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "长江有色: 美伊达成和平协议油价大跌压制加息预期 15日铝价或上涨",
+      "source": "市场资讯",
+      "keyword": "加息"
+    },
     {
       "title": "美伊和平协议缓解地缘风险，黄金反弹至周内高点但美联储加息预期仍限制上行空间",
       "source": "市场资讯",
@@ -49,11 +146,6 @@
       "title": "华泰期货：地缘通胀博弈 铜市震荡运行",
       "source": "市场资讯",
       "keyword": "通胀"
-    },
-    {
-      "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
-      "source": "环球市场播报",
-      "keyword": "美联储"
     }
   ]
 }
