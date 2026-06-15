@@ -1,50 +1,72 @@
 {
-  "updateTime": "2026-06-16 01:05",
+  "updateTime": "2026-06-16 01:10",
   "news": [
     {
       "rank": 1,
+      "title": "A US-Iran deal, SpaceX IPO afterglow, Kevin Warsh's first Fed meeting: What to watch this week - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 53,
+      "insight": {
+        "what": "特朗普签署伊朗协议备忘录，道指暴涨700点创新高",
+        "assets": "📈 美股大盘 利好，📉 原油 承压",
+        "chain": "地缘风险溢价消退，油价下跌（能源成本降低）利好航空、制造业等用油大户",
+        "watch": "WTI原油期货价格是否跌破70美元"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX continues to rise after record IPO. Jay Woods says watch these levels",
       "source": "CNBC",
       "detail": "SpaceX's Friday debut marked biggest initial public offering in history.",
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SpaceX IPO后持续上涨，分析师关注关键价位。",
-        "assets": "📈 SpaceX股票 利好",
-        "chain": "SpaceX强势可能提升风险偏好（市场情绪），带动太空概念股和科技IPO。",
-        "watch": "SpaceX股价是否突破前高，以及后续成交量变化。"
+        "what": "SpaceX IPO首日暴涨，超额配售权（绿鞋机制）全部执行",
+        "assets": "📈 SpaceX股票 利好，📈 太空概念股 联动",
+        "chain": "IPO资金超募（募资超预期）提振科技股IPO市场情绪，资金从避险资产流向成长股",
+        "watch": "SpaceX后续交易日是否守住发行价"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "What's next for SpaceX stock after IPO blastoff - Reuters",
+      "source": "Reuters",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "Kevin Warsh首次主持美联储会议，市场关注政策信号",
+        "assets": "📉 美元 承压，📈 美债 利好",
+        "chain": "新主席偏鸽派（更倾向降息）预期升温，美债收益率下行（借钱成本降低）推高债券价格",
+        "watch": "美联储会议纪要措辞及点阵图（利率预测）变化"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Dow jumps 700 points to record with rally gaining steam after Trump signs Iran deal memorandum: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "特朗普签署伊朗协议备忘录，道指暴涨700点创历史新高。",
-        "assets": "📈 美股大盘 利好；📉 原油 承压",
-        "chain": "地缘风险缓解（中东局势缓和），避险资产（如黄金、美债）遭抛售，资金涌入股市。",
-        "watch": "伊朗协议后续执行细节及油价是否持续下跌。"
+        "what": "伊朗协议备忘录签署，市场风险偏好全面回升",
+        "assets": "📈 新兴市场货币 利好，📈 全球股市 利好",
+        "chain": "地缘风险下降，资金从黄金、日元等避险资产流向高风险资产（如股票、新兴市场债）",
+        "watch": "VIX恐慌指数是否持续低于15"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "SpaceX IPO raises total of $85.7 billion as underwriters exercise 'greenshoe' overallotment option",
       "source": "CNBC",
       "detail": "Elon Musk's space and artificial intelligence company raised an initial $75 billion on Thursday.",
       "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "承销商行使绿鞋超额配售权，SpaceX IPO总募资857亿美元。",
-        "assets": "📈 SpaceX股票 利好；📈 科技IPO 情绪提振",
-        "chain": "绿鞋机制（稳定股价的期权）显示机构需求旺盛，可能引发跟风买盘，推升估值。",
-        "watch": "SpaceX上市后股价是否站稳发行价，以及超额配售是否完全执行。"
-      }
+      "score": 45
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Dow jumps 700 points to record with rally gaining steam after Trump signs Iran deal memorandum: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
@@ -52,21 +74,15 @@
       "score": 45
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Evercore ISI says landmark SpaceX IPO could reignite bull market, send S&P 500 to 9,000",
       "source": "CNBC",
       "detail": "Strategist Julian Emanuel likened the early enthusiasm around SpaceX to the Netscape IPO of 1995 that ushered in a period of optimism around the internet.",
       "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "Evercore ISI称SpaceX IPO可能重启牛市，标普500或冲9000点。",
-        "assets": "📈 标普500指数 利好；📈 科技股 利好",
-        "chain": "SpaceX作为标杆（行业龙头），若持续走强，可能带动成长股（高增长公司）估值扩张，推高指数。",
-        "watch": "标普500能否突破前高，以及科技板块资金流入情况。"
-      }
+      "score": 45
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "承销商行使绿鞋超额配售权，SpaceX IPO募资总额达857亿美元",
       "source": "环球市场播报",
       "detail": "核心要点 承销商行使 “绿鞋” 超额配售权后，SpaceX 本次 IPO 募资总额升至 857 亿美元。 本次超额配售规模，超过史上绝大多数科技企业 IPO 的募资体量。",
@@ -74,7 +90,7 @@
       "score": 40
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
@@ -82,28 +98,12 @@
       "score": 40
     },
     {
-      "rank": 8,
-      "title": "Warsh's debut Fed press conference may reveal his strategy for inflation, rates - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38
-    },
-    {
-      "rank": 9,
+      "rank": 10,
       "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38
-    },
-    {
-      "rank": 10,
-      "title": "美国股市开盘强劲上涨 芯片及AI板块跃升",
-      "source": "环球市场播报",
-      "detail": " 在美国与伊朗同意重新开放霍尔木兹海峡后，全球股市上涨、债券走强，油价则大幅下跌。市场对持续扰动金融市场的中东冲突有望结束抱持期待，美国股市开盘升势明显。",
-      "lang": "zh",
-      "score": 37
     }
   ]
 }

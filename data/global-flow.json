@@ -1,16 +1,16 @@
 {
-  "updateTime": "2026-06-16 01:06",
+  "updateTime": "2026-06-16 01:11",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "26664.89",
-      "change": "3.00"
+      "value": "26653.51",
+      "change": "2.95"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "51882.06",
+      "value": "51882.99",
       "change": "1.33"
     },
     "sh000001": {
@@ -28,7 +28,12 @@
   },
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": null,
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0.0,
+    "sgt": 5200000.0,
+    "total": 0.0
+  },
   "bank_news": [
     {
       "title": "特朗普给予沃什充足空间重塑美联储",
