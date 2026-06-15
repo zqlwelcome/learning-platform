@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 04:25",
+  "updateTime": "2026-06-16 04:30",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任联储主席Kevin Warsh",
-        "assets": "📉 美元 承压, 📈 美债 短期利好",
-        "chain": "市场押注Warsh更鸽派（偏向降息），压低美元和美债收益率（长期国债利率）",
-        "watch": "Warsh政策表态及美联储下次会议纪要"
+        "what": "Trump信任美联储主席Warsh，影响不止利率",
+        "assets": "📈 美元 利好; 📈 美债收益率 上行",
+        "chain": "鹰派（倾向加息）主席预期推高美元，压制风险资产（如新兴市场），但银行股受益于息差扩大",
+        "watch": "Warsh对通胀和利率的公开表态"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX首日交易涨19%，创纪录",
-        "assets": "📈 SpaceX股票 利好, 📈 美股航空航天板块 联动",
-        "chain": "IPO火爆提振风险偏好（投资者情绪），资金可能轮动（板块切换）至科技成长股",
-        "watch": "SpaceX后续成交量及板块资金流向"
+        "what": "SpaceX上市首日大涨19%，创纪录",
+        "assets": "📈 SpaceX股票 利好; 📈 航天板块 利好",
+        "chain": "IPO火爆提振IPO市场情绪，资金从防御板块（如公用事业）轮动至成长股，相关ETF（交易所交易基金）流入",
+        "watch": "SpaceX后续成交量及机构持仓变化"
       }
     },
     {
@@ -35,7 +35,13 @@
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO募资857亿美元，超预期",
+        "assets": "📈 SpaceX股票 利好; 📈 商业航天 利好",
+        "chain": "募资超额（超预期）强化行业估值锚，引发卫星通信、火箭制造等供应链公司跟涨",
+        "watch": "SpaceX财报中订单及发射计划"
+      }
     },
     {
       "rank": 4,
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "承销商行使绿鞋，SpaceX总融资857亿美元",
+        "assets": "📈 SpaceX股票 中性偏多; 📈 新股市场 利好",
+        "chain": "绿鞋（超额配售权）稳定股价，减少抛压（卖压），提振一级市场（新股发行）信心",
+        "watch": "绿鞋到期后股价是否跌破发行价"
+      }
     },
     {
       "rank": 5,
@@ -63,14 +75,6 @@
     },
     {
       "rank": 7,
-      "title": "Warsh's debut Fed press conference may reveal his strategy for inflation, rates - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38
-    },
-    {
-      "rank": 8,
       "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -78,7 +82,7 @@
       "score": 38
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "瑞银认为油价下跌将缓解美联储主席沃什面临的加息压力",
       "source": "环球市场播报",
       "detail": " 瑞银集团的Leslie Falconio表示，美国和伊朗宣称双方达成协议重新开放霍尔木兹海峡，抑制了油价并引发美国国债市场上涨之后，美联储今年加息的压力正在缓解。",
@@ -86,12 +90,20 @@
       "score": 36
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美债全线上扬 伊朗协议促使交易员削减对美联储的加息押注",
       "source": "环球市场播报",
       "detail": "美债上涨，伊朗临时协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
       "lang": "zh",
       "score": 36
+    },
+    {
+      "rank": 10,
+      "title": "Dow hits record high on US-Iran deal optimism, oil prices slide - Reuters",
+      "source": "Reuters",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
