@@ -1,36 +1,22 @@
 {
-  "updateTime": "2026-06-15 22:43",
+  "updateTime": "2026-06-15 22:51",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
-      "source": "Reuters",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "SpaceX创纪录首日涨幅后继续上涨",
-        "assets": "📈 SpaceX股票 利好\n📈 太空概念股 利好",
-        "chain": "SpaceX估值飙升→资金涌入风险资产（高风险高回报投资）→提振IPO市场情绪",
-        "watch": "SpaceX后续股价走势及成交量"
-      }
-    },
-    {
-      "rank": 2,
       "title": "SpaceX IPO raises total of $85.7 billion as underwriters exercise 'greenshoe' overallotment option",
       "source": "CNBC",
       "detail": "Elon Musk's space and artificial intelligence company raised an initial $75 billion on Thursday.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO总融资额达857亿美元，含绿鞋期权",
-        "assets": "📈 SpaceX股票 利好\n📈 一级市场（新股发行市场） 活跃",
-        "chain": "绿鞋（超额配售权）执行→承销商稳定股价→吸引更多机构参与IPO",
-        "watch": "SpaceX上市后30天内的股价支撑力度"
+        "what": "SpaceX IPO绿鞋超额配售，总融资857亿美元",
+        "assets": "📈 SpaceX 股票 利好，📉 其他未上市科技股（如OpenAI）流动性溢价承压",
+        "chain": "一级市场资金被SpaceX抽走，私募科技股估值面临回调（存量资金博弈）",
+        "watch": "SpaceX上市首日涨幅及后续锁定期解禁抛压"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX and OpenAI Are Ending Wall Street’s Era of Stock Scarcity - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -38,23 +24,37 @@
       "score": 44,
       "insight": {
         "what": "SpaceX和OpenAI终结华尔街股票稀缺时代",
-        "assets": "📈 科技股IPO 利好\n📈 成长股（高增长潜力股） 利好",
-        "chain": "高知名度公司上市→增加股票供给→缓解资金追逐少数标的的拥挤交易（扎堆买入）",
-        "watch": "后续科技巨头IPO排队情况"
+        "assets": "📉 传统IPO稀缺溢价股（如Palantir）承压，📈 私募股权二级市场交易量上升",
+        "chain": "高增长公司直接上市减少投行承销费，传统IPO流程价值下降（金融脱媒）",
+        "watch": "其他独角兽（如Stripe）是否跟进直接上市"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX IPO承销商行使绿鞋，总融资857亿美元",
-        "assets": "📈 SpaceX股票 利好\n📈 券商股 利好",
-        "chain": "绿鞋（稳定股价机制）执行→减少股价波动→增强投资者信心",
-        "watch": "承销商是否进一步增持或减持"
+        "what": "美伊协议后油价下跌，纳斯达克高开",
+        "assets": "📉 原油 承压，📈 美股科技股 利好，📈 航空公司 成本降低",
+        "chain": "油价下跌→通胀预期降温→美联储加息概率下降→风险资产估值修复（贴现率降低）",
+        "watch": "WTI原油是否跌破70美元/桶关键支撑位"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "美伊协议引发国债收益率下滑，市场重估加息路径",
+        "assets": "📈 美债 利好（价格上涨），📉 美元 承压，📈 黄金 利好",
+        "chain": "收益率下降→科技股久期（对利率敏感度）回升→成长股跑赢价值股（利率预期重置）",
+        "watch": "10年期美债收益率是否跌破4.0%关口"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "Warsh首次美联储发布会或揭示通胀利率策略",
-        "assets": "📈 美元 波动\n📈 美债收益率 波动",
-        "chain": "鹰派（倾向加息）或鸽派（倾向降息）措辞→影响加息预期→传导至风险资产定价",
-        "watch": "Warsh对核心通胀和就业数据的措辞"
+        "what": "Warsh首次美联储发布会或揭示通胀与利率策略",
+        "assets": "📉 美元 承压（若偏鸽），📈 美股 利好，📈 新兴市场货币 利好",
+        "chain": "鹰派发言→美元走强→新兴市场资金外流；鸽派则反转（利率预期差交易）",
+        "watch": "Warsh对中性利率（R-star）的具体表述"
       }
     },
     {
@@ -77,13 +77,7 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "伊朗协议推动美债收益率下跌，市场重估加息",
-        "assets": "📈 美债价格 利好\n📉 美元 承压\n📈 黄金 利好",
-        "chain": "伊朗协议→油价下跌预期→通胀预期降温→美联储加息概率降低→债券收益率下行",
-        "watch": "WTI原油（西德克萨斯中质原油）价格走势及伊朗谈判进展"
-      }
+      "score": 38
     },
     {
       "rank": 7,
