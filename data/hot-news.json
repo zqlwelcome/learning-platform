@@ -1,50 +1,36 @@
 {
-  "updateTime": "2026-06-16 02:08",
+  "updateTime": "2026-06-16 02:16",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
-      "source": "Reuters",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "SpaceX上市首日大涨，创华尔街纪录",
-        "assets": "📈 SpaceX股票 利好\n📈 太空概念股 利好",
-        "chain": "提振IPO市场情绪，可能带动科技股风险偏好（市场对风险资产的偏好）",
-        "watch": "SpaceX后续财报与订单数据"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Fiserv Stock Crashes On CEO's Sudden Departure. 'A Bad Look,' Says Analyst. - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Fiserv因CEO突然离职股价暴跌",
-        "assets": "📉 Fiserv股票 利空\n📉 金融科技板块 承压",
-        "chain": "管理层动荡引发信任危机，资金可能撤出同类高估值金融科技股",
-        "watch": "Fiserv新CEO任命及业绩指引"
+        "what": "Fiserv CEO突然离职，股价暴跌",
+        "assets": "📉 Fiserv(FI) 利空",
+        "chain": "管理层动荡引发治理担忧，可能拖累金融科技板块（FinTech ETF）",
+        "watch": "Fiserv是否立即任命新CEO及业绩指引"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Dow jumps 600 points to record with rally gaining steam after Trump signs Iran deal memorandum: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "特朗普签署伊朗协议备忘录，道指飙升600点创新高",
-        "assets": "📈 美股大盘 利好\n📈 能源股 利好\n📉 黄金 承压",
-        "chain": "地缘风险缓解（地区冲突概率下降）推动风险资产上涨，避险资产遭抛售",
-        "watch": "伊朗协议具体条款及油价走势"
+        "what": "特朗普签署伊朗协议备忘录，道指涨600点创新高",
+        "assets": "📈 美股大盘(DJIA) 利好；📉 原油(WTI) 承压",
+        "chain": "地缘风险缓和（中东紧张降温）压低油价，利好运输和消费板块",
+        "watch": "伊朗协议后续执行及油价是否跌破70美元关口"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SpaceX IPO raises total of $85.7 billion as underwriters exercise 'greenshoe' overallotment option",
       "source": "CNBC",
       "detail": "Elon Musk's space and artificial intelligence company raised an initial $75 billion on Thursday.",
@@ -52,94 +38,66 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO承销商行使绿鞋期权，总募资857亿美元",
-        "assets": "📈 SpaceX股票 利好\n📈 新股市场 利好",
-        "chain": "绿鞋（超额配售权）显示需求强劲，可能吸引更多机构配置太空赛道",
-        "watch": "SpaceX上市后股价稳定性及锁定期解禁"
+        "assets": "📈 SpaceX(未上市) 利好；📈 航天ETF(ARKX) 联动",
+        "chain": "超额配售（绿鞋）显示需求强劲，提振私人航天估值和IPO市场情绪",
+        "watch": "SpaceX上市首日涨幅及后续订单执行情况"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Dow jumps 600 points to record with rally gaining steam after Trump signs Iran deal memorandum: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
       "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "特朗普签署伊朗协议，道指跳涨600点至纪录高位",
-        "assets": "📈 美股道指 利好\n📈 原油 承压\n📉 避险国债 利空",
-        "chain": "地缘溢价消退（战争风险下降），资金从债市流向股市，油价下行",
-        "watch": "伊朗协议执行进度及OPEC反应"
-      }
+      "score": 45
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "承销商行使绿鞋超额配售权，SpaceX IPO募资总额达857亿美元",
       "source": "环球市场播报",
       "detail": "核心要点 承销商行使 “绿鞋” 超额配售权后，SpaceX 本次 IPO 募资总额升至 857 亿美元。 本次超额配售规模，超过史上绝大多数科技企业 IPO 的募资体量。",
       "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "承销商行使绿鞋期权，SpaceX IPO总募资达857亿美元",
-        "assets": "📈 SpaceX股票 利好\n📈 航天板块 利好",
-        "chain": "绿鞋（稳定股价机制）强化市场信心，可能引发对标公司估值重估",
-        "watch": "SpaceX后续订单及二级市场成交量"
-      }
+      "score": 40
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
       "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SpaceX IPO承销商行使绿鞋期权，总融资额达857亿美元。",
-        "assets": "SpaceX股票（看涨）",
-        "chain": "绿鞋机制稳定股价（价格稳定机制），超额配售暗示需求强劲，短期支撑股价上行。",
-        "watch": "SpaceX后续财报及营收目标兑现情况"
-      }
+      "score": 40
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "伊朗协议引发美债收益率下滑，市场重估美联储加息路径。",
-        "assets": "美国国债（看涨）、美元（看跌）",
-        "chain": "地缘缓和降低避险需求（风险偏好回升），加息预期降温压低长端利率（利率曲线平坦化）。",
-        "watch": "伊朗协议正式签署进展及美联储官员讲话"
-      }
+      "score": 38
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "SpaceX Stock Jumps Again as Elon Musk Unveils Meteoric Revenue Target - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "马斯克公布激进营收目标，SpaceX股价再次飙升。",
-        "assets": "SpaceX股票（看涨）",
-        "chain": "营收预期上调触发估值重估（市盈率扩张），市场情绪乐观推动资金流入（动量交易）。",
-        "watch": "营收目标具体数字及行业竞争动态"
-      }
+      "score": 37
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "瑞银认为油价下跌将缓解美联储主席沃什面临的加息压力",
       "source": "环球市场播报",
       "detail": " 瑞银集团的Leslie Falconio表示，美国和伊朗宣称双方达成协议重新开放霍尔木兹海峡，抑制了油价并引发美国国债市场上涨之后，美联储今年加息的压力正在缓解。",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "瑞银认为油价下跌将缓解沃什加息压力。",
-        "assets": "原油（看跌）、美国国债（看涨）",
-        "chain": "油价下行抑制通胀预期（成本推动型通胀减弱），美联储紧缩压力减轻（鸽派预期升温）。",
-        "watch": "WTI原油价格及美国CPI数据"
-      }
+      "score": 36
+    },
+    {
+      "rank": 10,
+      "title": "美债全线上扬 伊朗协议促使交易员削减对美联储的加息押注",
+      "source": "环球市场播报",
+      "detail": "美债上涨，伊朗临时协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
+      "lang": "zh",
+      "score": 36
     }
   ]
 }
