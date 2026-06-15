@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 12:10",
+  "updateTime": "2026-06-15 12:12",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "伊朗协议推动美债上涨，市场减少美联储加息押注",
+        "assets": "美债（+），美元（-）",
+        "chain": "地缘风险下降（避险情绪缓解）→加息预期减弱（利率期货调整）→美债收益率下行（价格上升）",
+        "watch": "美联储官员讲话及CPI数据"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "市场资讯",
       "detail": "来源：华夏时报 今日早盘，CPO概念日内持续走高，太辰光（300570.SZ）20cm涨停。 炬光科技（688167.SH）、长芯博创（300548.SZ）、光库科技（300620.SZ）、智立方（301312...",
       "lang": "zh",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "A股光伏板块走强，300570涨停20%",
+        "assets": "A股光伏板块（+），300570（+）",
+        "chain": "伊朗协议利好能源合作（地缘缓和）→光伏需求预期上升（行业景气度）→资金涌入龙头股（涨停效应）",
+        "watch": "光伏行业政策及订单数据"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Asian tech stocks surged Monday on news that Iran and the U.S. have reached a peace deal",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "软银股价涨超12%，伊朗和平协议提振亚洲股市",
+        "assets": "软银（+），亚洲股市（+），日经指数（+）",
+        "chain": "地缘风险缓解（风险偏好回升）→外资流入亚洲（资本回流）→科技股领涨（软银持仓受益）",
+        "watch": "软银愿景基金投资组合表现"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "全球领导人欢迎美伊协议，欧洲暗示解除制裁并呼吁霍尔木兹重开",
+        "assets": "原油（-），航运（+），欧洲股市（+）",
+        "chain": "制裁解除预期（供应增加）→油价下跌（地缘溢价消失）→霍尔木兹通航（航运成本下降）→经济复苏预期（股市上涨）",
+        "watch": "霍尔木兹海峡实际通航情况"
+      }
     }
   ]
 }
