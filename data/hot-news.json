@@ -1,94 +1,92 @@
 {
-  "updateTime": "2026-06-16 05:46",
+  "updateTime": "2026-06-16 05:51",
   "news": [
     {
       "rank": 1,
-      "title": "Stock Market Today: Dow Pops On Trump-Iran Deal; Elon Musk's SpaceX Rockets, Tesla Does This - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "特朗普与伊朗达成协议，道指上涨",
-        "assets": "📈 道琼斯工业指数 利好；📉 原油期货 承压",
-        "chain": "油价下跌→通胀预期降温→美联储降息（借钱成本降低）概率上升",
-        "watch": "伊朗原油出口量及WTI（西德克萨斯中质原油）价格"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席凯文·沃什",
-        "assets": "📈 美国国债 利好；📈 美元指数 利好",
-        "chain": "沃什偏鹰派（倾向加息）→市场预期利率维持高位→美元走强",
-        "watch": "美联储下次会议声明及点阵图（利率预测）"
+        "what": "Trump信任美联储主席Warsh，影响不止利率",
+        "assets": "📉 美元 承压，📈 美债 看涨",
+        "chain": "Warsh可能偏鸽（宽松），降低加息预期，利好风险资产（股票、加密货币）",
+        "watch": "Warsh公开讲话及FOMC（美联储议息会议）声明"
       }
     },
     {
-      "rank": 3,
-      "title": "US judge dismisses Musk's xAI trade secret lawsuit against OpenAI - Reuters",
-      "source": "Reuters",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "美国法官驳回马斯克xAI对OpenAI的诉讼",
-        "assets": "📈 OpenAI相关资产 利好；📉 xAI估值 承压",
-        "chain": "诉讼失败→AI竞争格局明朗→OpenAI融资或加速",
-        "watch": "xAI是否上诉及OpenAI新一轮估值"
-      }
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "title": "SpaceX IPO raised $10bn more than thought - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO募资总额达857亿美元，超预期",
-        "assets": "📈 SpaceX 利好；📈 太空概念股 利好",
-        "chain": "超额配售（绿鞋）→需求强劲→刺激投资者对太空经济板块配置",
-        "watch": "SpaceX上市首日成交量及股价波动"
+        "what": "SpaceX IPO实际融资比预期多100亿美元",
+        "assets": "📈 太空概念股 利好，📉 传统航空股 承压",
+        "chain": "超额认购显示市场对太空经济高估值，可能推高同行估值（二阶效应）",
+        "watch": "SpaceX后续财报及卫星发射进度"
       }
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "title": "SpaceX IPO leaves retail investors with too few shares and a tough hold-or-sell decision - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "散户在SpaceX IPO中获配极少，面临持有或卖出抉择",
+        "assets": "📈 SpaceX 短线承压（抛压），📉 散户情绪 利空",
+        "chain": "散户低配导致上市后抛压小，但若持有成本高，波动率（价格变动幅度）上升",
+        "watch": "SpaceX首日换手率及散户持仓数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "承销商行使绿鞋超额配售权，SpaceX IPO募资总额达857亿美元",
       "source": "环球市场播报",
       "detail": "核心要点 承销商行使 “绿鞋” 超额配售权后，SpaceX 本次 IPO 募资总额升至 857 亿美元。 本次超额配售规模，超过史上绝大多数科技企业 IPO 的募资体量。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "英伟达重新站上关键价位，计划发行债券",
-        "assets": "📈 英伟达 利好；📈 半导体ETF 利好",
-        "chain": "发债融资→增加研发/回购→强化AI芯片龙头地位",
+        "what": "承销商行使绿鞋，SpaceX IPO总募资达857亿美元",
+        "assets": "📈 SpaceX 稳定（护盘），📉 空头 承压",
+        "chain": "绿鞋（超额配售权）被行使说明需求强劲，短期抑制股价下跌，但稀释股权（每股价值下降）",
+        "watch": "SpaceX股价是否跌破发行价及后续增发计划"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Nvidia Stock Retakes Key Level As Chipmaker Plans Bond Offering - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "英伟达股价重回关键位，计划发行债券融资",
+        "assets": "📈 英伟达 利好，📉 科技债 承压（供给增加）",
+        "chain": "发债降低股权融资压力，但增加杠杆（负债率），若AI需求放缓，偿债风险上升",
         "watch": "英伟达债券评级及AI芯片订单数据"
       }
     },
     {
       "rank": 6,
-      "title": "Nvidia Stock Retakes Key Level As Chipmaker Plans Bond Offering - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 39
-    },
-    {
-      "rank": 7,
       "title": "城堡证券：利率上升将对风险资产构成挑战 美联储最快可能9月加息",
       "source": "环球市场播报",
       "detail": " 城堡证券表示，随着美联储逐步接近新一轮加息周期，加之投资者对人工智能造成经济影响的判断变得更加审慎，风险资产可能面临动荡。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "城堡证券警告利率上升风险，美联储最快9月加息",
+        "assets": "📉 全球股市 承压，📉 加密货币 利空，📈 美元 看涨",
+        "chain": "加息（借钱成本提高）压制风险偏好，资金回流美元资产，新兴市场（如A股）面临流出压力",
+        "watch": "美国CPI（通胀数据）及美联储点阵图（利率预测）"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "瑞银认为油价下跌将缓解美联储主席沃什面临的加息压力",
       "source": "环球市场播报",
       "detail": " 瑞银集团的Leslie Falconio表示，美国和伊朗宣称双方达成协议重新开放霍尔木兹海峡，抑制了油价并引发美国国债市场上涨之后，美联储今年加息的压力正在缓解。",
@@ -96,18 +94,26 @@
       "score": 36
     },
     {
-      "rank": 9,
-      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "rank": 8,
+      "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
+      "source": "CNBC",
+      "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
       "lang": "en",
-      "score": 33
+      "score": 32
+    },
+    {
+      "rank": 9,
+      "title": "Nvidia plans to raise at least $20 billion in first debt sale since start of AI boom",
+      "source": "CNBC",
+      "detail": "Nvidia is set raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
+      "lang": "en",
+      "score": 32
     },
     {
       "rank": 10,
-      "title": "Dow climbs more than 450 points for record close as oil tumbles on potential Iran deal - CNBC",
+      "title": "Dow climbs more than 450 points for record close as oil tumbles on potential Iran deal",
       "source": "CNBC",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "detail": "The three major indexes are coming off a winning week.",
       "lang": "en",
       "score": 32
     }
