@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-15 22:34",
+  "updateTime": "2026-06-15 22:41",
   "news": [
     {
       "rank": 1,
-      "title": "Stock Market Today: Stock Futures Rally, Oil Drops After U.S.-Iran Deal - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 54,
-      "insight": {
-        "what": "美伊协议推动美股期货涨、油价跌",
-        "assets": "📈 美股期货 利好\n📉 原油 承压",
-        "chain": "油价下跌缓解通胀预期，降低美联储加息（提高借钱成本）压力，利好利率敏感型资产",
-        "watch": "WTI原油期货价格是否跌破80美元"
-      }
-    },
-    {
-      "rank": 2,
       "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX上市首日大涨后继续走高",
-        "assets": "📈 SpaceX股票 利好\n📈 太空概念股 利好",
-        "chain": "IPO热度提升风险偏好（投资者愿意冒险），资金可能从防御板块（如公用事业）轮动至成长股",
-        "watch": "SpaceX后续财报及订单数据"
+        "what": "SpaceX和OpenAI终结华尔街股票稀缺",
+        "assets": "📈 科技成长股 需求增加；📉 传统蓝筹股 资金分流",
+        "chain": "优质科技标的供给增加（新股发行增多）压低存量大盘股（如FAANG）相对溢价，资金轮动（板块切换）",
+        "watch": "科技股IPO（首次公开募股）排队名单及资金流入速度"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX IPO raises total of $85.7 billion as underwriters exercise 'greenshoe' overallotment option",
       "source": "CNBC",
       "detail": "Elon Musk's space and artificial intelligence company raised an initial $75 billion on Thursday.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO承销商行使绿鞋权，总融资857亿美元",
-        "assets": "📈 SpaceX股票 利好\n📈 新股市场 利好",
-        "chain": "绿鞋（超额配售）稳定股价，增强投资者信心，可能带动其他科技IPO（如Arm）定价上调",
-        "watch": "后续是否有更多科技公司宣布IPO计划"
+        "what": "SpaceX IPO首日大涨，总融资857亿美元",
+        "assets": "📈 SpaceX股票 利好；📈 科技新股 情绪提振",
+        "chain": "SpaceX高估值（市值超预期）可能带动一级市场（未上市企业）估值上修，挤压传统IPO（首次公开募股）资金",
+        "watch": "SpaceX后续股价波动及锁定期（禁售期）到期抛压"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "SpaceX and OpenAI Are Ending Wall Street’s Era of Stock Scarcity - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "伊朗协议重燃，美债收益率因降息预期下滑",
+        "assets": "📉 美债收益率 承压；📈 原油 供给风险缓解；📉 美元 走弱",
+        "chain": "地缘缓和（伊朗协议）降低油价（原油成本）和通胀预期，市场押注美联储提前降息（借钱成本降低），利好风险资产（股市）",
+        "watch": "伊朗协议正式签署进展及美国CPI（消费者物价指数）数据"
       }
     },
     {
@@ -49,13 +49,7 @@
       "source": "环球市场播报",
       "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
       "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SpaceX IPO承销商行使绿鞋权，总融资857亿美元",
-        "assets": "📈 SpaceX股票 利好\n📈 新股市场 利好",
-        "chain": "绿鞋（超额配售）稳定股价，增强投资者信心，可能带动其他科技IPO（如Arm）定价上调",
-        "watch": "后续是否有更多科技公司宣布IPO计划"
-      }
+      "score": 40
     },
     {
       "rank": 5,
@@ -65,10 +59,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "Warsh首场联储发布会或透露通胀与利率策略",
-        "assets": "📈 美元 承压\n📈 美债 利好",
-        "chain": "若Warsh偏鸽（倾向宽松），市场将押注加息放缓，资金从美元流向新兴市场货币",
-        "watch": "发布会措辞中‘耐心’‘数据依赖’等关键词"
+        "what": "Warsh首次美联储发布会可能透露利率策略",
+        "assets": "📈 美元 不确定性；📉 美债收益率 波动",
+        "chain": "鹰派（倾向加息）或鸽派（倾向降息）措辞将修正市场对终端利率（加息终点）的预期，影响风险资产（股票、加密货币）",
+        "watch": "Warsh讲话中通胀（物价上涨）和就业（劳动力市场）关键词"
       }
     },
     {
@@ -77,13 +71,7 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "伊朗协议引发美债收益率下跌，降息预期升温",
-        "assets": "📈 美债 利好\n📉 美元 承压",
-        "chain": "收益率下跌（债券价格涨）反映市场押注美联储暂停加息，利空银行股（净息差缩窄）",
-        "watch": "10年期美债收益率是否跌破3.5%关键支撑位"
-      }
+      "score": 38
     },
     {
       "rank": 7,
@@ -91,13 +79,7 @@
       "source": "环球市场播报",
       "detail": " 在美国与伊朗同意重新开放霍尔木兹海峡后，全球股市上涨、债券走强，油价则大幅下跌。市场对持续扰动金融市场的中东冲突有望结束抱持期待，美国股市开盘升势明显。",
       "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "美国股市开盘强劲上涨，芯片及AI板块领涨。",
-        "assets": "美股（+），芯片ETF（+），AI概念股（+）",
-        "chain": "科技股受风险偏好回升及AI需求预期提振，资金轮动至成长板块（板块轮动），带动指数上行。",
-        "watch": "科技股财报及半导体行业数据"
-      }
+      "score": 37
     },
     {
       "rank": 8,
@@ -105,13 +87,7 @@
       "source": "环球市场播报",
       "detail": "据两名知情投资人士透露，腾讯控股已入股由阿里巴巴通义大模型前首席研究员林俊旸创立的全新人工智能实验室。 知情人士表示，该实验室首轮融资总规模达数亿美元...",
       "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "腾讯出资2000万美元入股阿里前研究员林俊旸的AI实验室。",
-        "assets": "腾讯（+），AI初创公司（+）",
-        "chain": "腾讯加码AI赛道，强化技术布局，可能引发行业并购预期（战略投资），提升市场对AI生态关注。",
-        "watch": "腾讯AI业务进展及行业竞争动态"
-      }
+      "score": 37
     },
     {
       "rank": 9,
@@ -127,13 +103,7 @@
       "source": "CNBC",
       "detail": "\"I think we're gonna make hundreds of billions of dollars,\" Baron said Monday on CNBC's \"Squawk Box.\"",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "Ron Baron以10亿美元购买SpaceX IPO股份，总持股增至250亿美元。",
-        "assets": "SpaceX（+），太空概念股（+）",
-        "chain": "大额投资显示机构对太空经济信心，提振相关资产估值（风险资本流入），可能带动二级市场跟风。",
-        "watch": "SpaceX IPO定价及太空行业监管动态"
-      }
+      "score": 35
     }
   ]
 }
