@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 20:03",
+  "updateTime": "2026-06-15 20:11",
   "news": [
     {
       "rank": 1,
@@ -9,56 +9,78 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX巨型IPO冲击指数纳入规则",
-        "assets": "📈 标普500指数 承压，📈 纳斯达克100指数 利好",
-        "chain": "市值过大迫使指数调整权重，资金从传统科技股轮动至SpaceX（股票轮动效应）",
-        "watch": "标普道琼斯指数公司是否修改纳入标准"
+        "what": "SpaceX登陆美股，巨型IPO冲击指数纳入规则",
+        "assets": "📈 SpaceX股票 利好，📉 标普500指数 承压，📈 纳斯达克指数 利好",
+        "chain": "SpaceX市值过大，可能迫使标普修改纳入规则（指数编制标准），导致资金从传统科技股轮动至SpaceX",
+        "watch": "标普500指数委员会是否调整纳入门槛"
       }
     },
     {
       "rank": 2,
+      "title": "SpaceX and OpenAI Are Ending Wall Street’s Era of Stock Scarcity - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "SpaceX和OpenAI终结华尔街股票稀缺时代",
+        "assets": "📈 一级市场（未上市股权） 承压，📉 二级市场存量股票 利空",
+        "chain": "大量高增长公司上市（IPO供应增加），稀释资金，压低现有股票估值（市盈率压缩）",
+        "watch": "未来6个月IPO数量和募资额"
+      }
+    },
+    {
+      "rank": 3,
       "title": "SpaceX gains 6% in premarket after record debut. Here's what's driving the valuation debate",
       "source": "CNBC",
       "detail": "SpaceX is now valued at over $2 trillion after its stock rallied on the first day of trade.",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "SpaceX首日盘前涨6%，估值争议升温",
-        "assets": "📈 SpaceX股票 利好，📉 传统航天股（如波音）承压",
-        "chain": "高估值引发多空博弈（多空对决），可能带动太空ETF（交易所交易基金）资金流入",
-        "watch": "首日收盘价及成交量是否超预期"
+        "what": "SpaceX盘前上涨6%，估值争议引发多空博弈",
+        "assets": "📈 SpaceX股票 短期利好，📉 做空机构 承压",
+        "chain": "估值争议（市盈率vs成长性）加剧波动，可能带动航天板块（如Rocket Lab）投机情绪",
+        "watch": "SpaceX首日收盘价及成交量"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes",
       "source": "CNBC",
       "detail": "The yield on the 10-year U.S. Treasury note — the key benchmark for U.S. government borrowing — fell over 4 basis points to 4.441%.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "伊朗协议致美债收益率下跌，降息预期重燃",
-        "assets": "📈 美国国债 利好，📉 美元指数 承压",
-        "chain": "收益率下行降低融资成本（借钱变便宜），利好成长股但利空银行净息差（存贷利差）",
-        "watch": "美联储下次会议点阵图（利率预测）变化"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Stocks making the biggest moves premarket: SpaceX, United Airlines, Roku & more",
-      "source": "CNBC",
-      "detail": "These are the stocks posting the largest moves premarket.",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "欧洲央行扩大私募信贷调查，防风险传导",
-        "assets": "📉 欧洲银行股 承压，📈 私募信贷基金 监管风险",
-        "chain": "监管收紧可能迫使银行缩减私募敞口（风险暴露），引发信贷紧缩（借钱更难）",
-        "watch": "欧洲央行是否出台资本金附加要求"
+        "what": "伊朗协议推动国债收益率下滑，降息预期重燃",
+        "assets": "📈 美国国债 利好，📉 美元指数 承压，📈 黄金 利好",
+        "chain": "伊朗协议降低地缘风险（油价下跌），缓解通胀，美联储降息（借钱成本降低）预期升温",
+        "watch": "WTI原油价格及美联储官员讲话"
       }
     },
     {
       "rank": 5,
+      "title": "Stocks making the biggest moves premarket: SpaceX, United Airlines, Roku & more - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "盘前异动：SpaceX、联合航空、Roku等股票波动剧烈",
+        "assets": "📈 SpaceX 利好，📈 联合航空 利好，📉 Roku 承压",
+        "chain": "SpaceX上市吸引流动性，联合航空受油价下跌提振，Roku可能因资金轮动被抛售",
+        "watch": "各股开盘后资金流向"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Stocks making the biggest moves premarket: SpaceX, United Airlines, Roku & more",
+      "source": "CNBC",
+      "detail": "These are the stocks posting the largest moves premarket.",
+      "lang": "en",
+      "score": 37
+    },
+    {
+      "rank": 7,
       "title": "欧洲央行扩大对银行私募信贷敞口调查 严防非银金融风险向银行体系蔓延",
       "source": "环球市场播报",
       "detail": "业内知情人士日前透露，鉴于当前私募信贷行业投资者信心下滑、非银行金融机构风险有所升温，欧洲央行已将针对商业银行与私募信贷关联度的专项调查范围扩大一倍。",
@@ -66,21 +88,15 @@
       "score": 30
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "小红书据悉已准备好本月在香港提交IPO申请",
       "source": "环球市场播报",
       "detail": "据知情人士透露，小红书科技有限公司正准备在本月底前秘密向香港提交首次公开募股（IPO）申请。 这些知情人士透露，这家总部位于上海的公司正与顾问就潜在上市事宜进行合作...",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "小红书本月提交香港IPO申请",
-        "assets": "📈 中概股板块 利好，📈 港交所 交易量利好",
-        "chain": "IPO（首次公开募股）抽血效应（吸走资金）短期利空港股流动性，但提振信心",
-        "watch": "招股价区间及基石投资者名单"
-      }
+      "score": 30
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "Zhipu Shares Surge 48% After JPMorgan Raises Price Target - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -88,28 +104,12 @@
       "score": 30
     },
     {
-      "rank": 8,
-      "title": "Oil Executives Are Sounding the Alarm Over Dwindling Stockpiles - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 29
-    },
-    {
-      "rank": 9,
+      "rank": 10,
       "title": "Sen. Warren asks Trump if administration plans to raise Social Security retirement age",
       "source": "CNBC",
       "detail": "In a new letter to President Donald Trump, Senator Elizabeth Warren, D-Mass., asks what the administration's plans are for Social Security reform.",
       "lang": "en",
       "score": 27
-    },
-    {
-      "rank": 10,
-      "title": "马斯克预测SpaceX将在2031年前实现万亿美元营收 或涉嫌违反美股“静默期”规定",
-      "source": "环球市场播报",
-      "detail": "SpaceX首席执行官埃隆·马斯克日前在社交媒体上预测，该公司有望在2031年前实现年营收超过1万亿美元。由于SpaceX刚刚完成首次公开募股（IPO）上市...",
-      "lang": "zh",
-      "score": 25
     }
   ]
 }
