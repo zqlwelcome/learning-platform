@@ -1,92 +1,96 @@
 {
-  "updateTime": "2026-06-15 11:21",
+  "updateTime": "2026-06-15 11:25",
   "news": [
     {
       "rank": 1,
+      "title": "股市狂欢、原油暴跌，黄金站上4300美元——市场对美伊协议“既信又不信”",
+      "source": "市场资讯",
+      "detail": "文章来源：金十数据 亚洲股市周一大幅上涨，而油价则大幅下挫，此前美国与伊朗达成和平协议，旨在结束近四个月的冲突，促使投资者平仓自2月以来一直主导市场的部分地缘政治...",
+      "lang": "zh",
+      "score": 66,
+      "insight": {
+        "what": "美伊达成和平协议，地缘风险缓解",
+        "assets": "📉 原油 利空；📈 美股期货 利好；📈 日经指数 利好",
+        "chain": "油价跌→通胀预期降→加息押注减少（美联储收紧预期减弱）→风险资产（股票）受益",
+        "watch": "霍尔木兹海峡（关键油运通道）是否重新开放"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "美伊达成和平协议，油价回落、美联储加息预期缓和，现货黄金重返4300美元/盎司",
+      "source": "界面新闻",
+      "detail": "2026年6月15日早盘，现货黄金重返4300美元/盎司，日内涨幅扩大至2%。最新消息，当地时间6月14日，美国总统特朗普表示，与伊朗的协议现已完成，全面开放霍尔木兹海峡...",
+      "lang": "zh",
+      "score": 58,
+      "insight": {
+        "what": "黄金重返4300美元，但加息预期仍限制涨幅",
+        "assets": "📈 现货黄金 利好；📉 美元指数 承压",
+        "chain": "避险（黄金）需求因协议部分消减，但加息预期（借钱成本上升）缓和支撑金价",
+        "watch": "美联储（美国央行）后续利率决议信号"
+      }
+    },
+    {
+      "rank": 3,
       "title": "美伊和平协议缓解地缘风险，黄金反弹至周内高点但美联储加息预期仍限制上行空间",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周一亚洲交易时段，现货黄金（XAU/USD）延续反弹走势，价格升至近期一周以来的高位。此前，美国与伊朗宣布达成结束持续近四个月军事冲突的协议...",
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美伊达成和平协议，地缘风险骤降",
-        "assets": "📉 黄金 承压, 📈 美股期货 利好, 📈 日经指数 大涨",
-        "chain": "避险资产（如黄金）遭抛售，风险偏好（投资者冒险意愿）回升，资金从债市流向股市",
-        "watch": "美联储加息预期是否重新升温"
+        "what": "美债收益率全线上扬，加息押注减少",
+        "assets": "📉 美国国债收益率 下行；📈 债券价格 利好",
+        "chain": "地缘风险降→资金从避险债市流出→收益率跌（价格涨）→降息预期（借钱成本降低）升温",
+        "watch": "10年期美债收益率（基准利率）走势"
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
       "title": "U.S. stock futures jump on Iran deal to end the war; Japan's Nikkei surges 5%: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货跳涨，日经指数飙升5%",
-        "assets": "📈 美股科技股 利好, 📈 日经指数 利好",
-        "chain": "地缘缓和提振全球风险情绪（投资者愿意冒险），亚太市场受资金流入推动",
-        "watch": "今晚美股开盘后实际走势及成交量确认"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
-      "source": "环球市场播报",
-      "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美债收益率上扬，加息押注减少",
-        "assets": "📈 美债 利好, 📉 美元 承压",
-        "chain": "美债买盘增加（买家更多），利率预期下降，削弱美元吸引力（美元相对贬值）",
-        "watch": "下周美联储官员讲话及CPI（通胀数据）"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
-      "source": "CNBC",
-      "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "全球欢迎美伊协议，欧洲酝酿制裁松绑",
-        "assets": "📈 欧洲原油进口股 利好, 📉 原油 承压",
-        "chain": "霍尔木兹海峡（关键石油通道）重开预期，增加原油供给，压低油价（供给增多）",
-        "watch": "OPEC（石油输出国组织）是否调整产量配额"
+        "what": "欧洲欢迎协议，暗示解除制裁并呼吁开放霍尔木兹",
+        "assets": "📈 欧洲股指 利好；📉 航运股 承压",
+        "chain": "制裁解除→伊朗原油出口增→油价承压（供给增加）→欧洲能源成本降→经济复苏预期",
+        "watch": "欧盟（欧洲联盟）具体制裁解除时间表"
       }
     },
     {
       "rank": 5,
+      "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
+      "source": "环球市场播报",
+      "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 6,
+      "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
+      "source": "CNBC",
+      "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
+      "lang": "en",
+      "score": 30
+    },
+    {
+      "rank": 7,
       "title": "A股盈利结构向AI硬链集中！产业或持续上行？",
       "source": "新浪基金",
       "detail": "据Wind数据显示，2026年一季度万得全A指数的归母净利润增速达6.89%。其中，产业链盈利呈现出“TMT高景气”的特征，盈利结构向AI硬链集中。",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "A股盈利结构向AI硬链集中，产业或持续上行",
-        "assets": "📈 A股AI硬件股 利好, 📈 半导体 利好",
-        "chain": "AI产业链（如芯片、服务器）业绩确定性增强，吸引机构资金（大资金）集中配置",
-        "watch": "下季AI相关公司财报及订单数据"
-      }
+      "score": 30
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "华尔街是如何操盘完成SpaceX这场史上最大规模IPO的？",
       "source": "环球市场播报",
       "detail": "美东时间周三深夜，高盛纽约总部41层一间会议室里，投行团队围坐在一起，分配这单史上最抢手的首次公开募股份额。 埃隆·马斯克通过视频全程远程督办...",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "华尔街操盘SpaceX完成史上最大IPO",
-        "assets": "📈 SpaceX相关概念股 利好, 📈 航天军工板块 利好",
-        "chain": "IPO定价和配售（股票分配）推高估值，带动太空经济产业链（卫星、发射）估值重估",
-        "watch": "上市首日涨幅及后续锁定期解禁抛压"
-      }
+      "score": 30
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "新西兰经济学家下调GDP增长预期",
       "source": "环球市场播报",
       "detail": "新西兰经济研究所在其官网发布本土经济学家的季度综合预测报告。经济学家预计，2025至2026财年国内生产总值年均增速为0.6%。注：3月份调查预测值为0.8%。",
@@ -94,28 +98,12 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
       "source": "CNBC",
       "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 9,
-      "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
-      "source": "CNBC",
-      "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
-      "lang": "en",
-      "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "快讯：恒指高开1.15% 科指涨1.78% 科网股、黄金股普涨 AI应用股高开 智谱涨超14% 溜溜梅上市首日高开118%",
-      "source": "新浪港股",
-      "detail": "美股上周五继续向上，据报美伊达成和平协议，油价大幅回落，带动大市向好。指数高开后升幅一度扩大，即使中段升势回吐，三大指数均录得升幅收市。",
-      "lang": "zh",
-      "score": 27
     }
   ]
 }
