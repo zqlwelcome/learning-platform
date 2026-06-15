@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 07:26",
+  "updateTime": "2026-06-16 07:31",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 50,
       "insight": {
         "what": "溜溜梅上市首日暴涨193%，对赌协议仅剩15天",
-        "assets": "📈 港股食品消费板块 利好；📉 A股零食股 资金分流承压",
-        "chain": "高涨幅触发打新（新股申购）情绪，但15天对赌（上市后股价承诺）到期可能引发大股东抛售",
-        "watch": "溜溜梅后续成交量及对赌到期日股价走势"
+        "assets": "📈 新股打新 利好; 📉 休闲食品板块 分化",
+        "chain": "高涨幅吸引散户跟风，但15天后对赌到期可能触发抛压（大股东需回购或减持）",
+        "watch": "溜溜梅15天后股价及对赌条款执行公告"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席沃什，影响超利率政策",
-        "assets": "📈 美元指数 走强预期；📉 新兴市场货币 承压",
-        "chain": "沃什偏鹰派（倾向加息），特朗普信任降低政治干预风险，加息预期升温压制风险资产",
-        "watch": "美联储下次会议点阵图（利率预测）及沃什言论"
+        "what": "市场押注特朗普信任美联储主席Warsh，影响超利率",
+        "assets": "📈 美元 走强; 📈 美债（美国国债）收益率 上行",
+        "chain": "鹰派（倾向紧缩）主席预期推高利率，压制科技股估值（高成长股对利率敏感）",
+        "watch": "Warsh公开讲话及美联储政策声明语气"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
-      "source": "Reuters",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "SpaceX华尔街首秀创纪录，股价延续涨势",
-        "assets": "📈 太空概念股 利好；📈 美股科技成长股 情绪提振",
-        "chain": "SpaceX估值飙升拉动太空ETF（交易所交易基金）资金流入，科技股风险偏好提升",
-        "watch": "SpaceX后续财报及订单数据"
-      }
-    },
-    {
-      "rank": 4,
       "title": "SpaceX IPO raised $10bn more than thought - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO实际募资比预期多100亿美元",
-        "assets": "📈 太空概念股 利好；📉 传统航天股 竞争压力",
-        "chain": "超额认购显示机构对高成长科技需求旺盛，可能推高同类未上市企业（如蓝色起源）估值",
-        "watch": "SpaceX后续融资计划及资本开支"
+        "what": "SpaceX IPO融资额比预期多100亿美元",
+        "assets": "📈 太空概念股 利好; 📈 一级市场（未上市企业股权） 活跃",
+        "chain": "巨额融资暗示机构高估值需求，可能挤压其他科技IPO资金池（流动性抽离）",
+        "watch": "SpaceX估值及后续科技股IPO定价"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "中国AI板块待拉升整体市场，观望情绪浓",
-        "assets": "📈 中概AI股 利好；📉 中国消费/地产股 资金分流",
-        "chain": "AI若放量突破将带动科技ETF（交易型开放式指数基金）资金流入，但需等催化剂（如应用落地）",
-        "watch": "中国AI龙头财报及政策支持力度"
+        "what": "CNBC：中国AI未带动整体市场，等待催化",
+        "assets": "📉 中国科技股 承压; 📉 恒生科技指数 震荡",
+        "chain": "AI板块盈利未兑现，拖累大盘情绪，资金转向防御性板块（如公用事业）",
+        "watch": "中国AI企业季报及政府科技刺激政策"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳指高开，美油下跌因美伊达成协议",
-        "assets": "📈 纳斯达克指数 利好；📉 原油期货 承压",
-        "chain": "油价下跌降低通胀预期（物价上涨速度），利好美联储降息（借钱成本降低）预期，科技股受益",
-        "watch": "美伊协议执行细节及OPEC（石油输出国组织）产量反应"
+        "what": "美伊协议推动纳指高开，原油下跌",
+        "assets": "📈 美股纳斯达克 走高; 📉 原油 承压",
+        "chain": "地缘缓和降低供应风险溢价，能源股获利了结，资金轮动至科技成长股",
+        "watch": "美伊协议细节及OPEC（石油输出国组织）产量调整"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Nvidia Stock Retakes Key Level As Chipmaker Plans Bond Offering - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 39
+      "score": 39,
+      "insight": {
+        "what": "英伟达股价重上关键位并计划发债",
+        "assets": "📈 英伟达 利好; 📈 芯片板块 跟随",
+        "chain": "发债融资可能用于回购或AI投资，降低股权稀释风险，提振投资者信心",
+        "watch": "英伟达债券发行利率及AI芯片订单数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "城堡证券：利率上升将对风险资产构成挑战 美联储最快可能9月加息",
       "source": "环球市场播报",
       "detail": " 城堡证券表示，随着美联储逐步接近新一轮加息周期，加之投资者对人工智能造成经济影响的判断变得更加审慎，风险资产可能面临动荡。",
@@ -102,7 +94,7 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
       "source": "CNBC",
       "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
@@ -110,12 +102,20 @@
       "score": 35
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
+      "source": "CNBC",
+      "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
