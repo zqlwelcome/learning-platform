@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 17:33",
+  "updateTime": "2026-06-15 17:41",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 75,
       "insight": {
         "what": "SpaceX创纪录IPO引发投机热潮",
-        "assets": "📈 美股科技股 利好；📈 加密货币 投机情绪升温",
-        "chain": "IPO吸走流动性（资金从其他资产流出），推高风险偏好（资金追逐高波动资产）",
-        "watch": "美联储利率决议（影响资本成本）"
+        "assets": "📈 太空概念股 利好，📈 美股科技股 利好",
+        "chain": "投机情绪升温（追涨资金涌入）→推高风险偏好（愿意承担风险）→可能分流债市资金（抛售国债）",
+        "watch": "IPO首日换手率及后续涨跌幅限制"
       }
     },
     {
@@ -23,86 +23,70 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "华尔街热议AI泡沫：多空均有理",
-        "assets": "📈 AI概念股 分化；📉 科技ETF 波动加剧",
-        "chain": "AI泡沫论引发避险（资金转向防御型资产），若破灭将冲击成长股估值",
-        "watch": "NVIDIA财报（AI需求风向标）"
+        "what": "美联储政策会议前夕华尔街紧盯资本成本",
+        "assets": "📉 美债收益率 承压，📉 美元指数 承压",
+        "chain": "降息预期（借钱成本降低）→压低短端利率（短期国债收益率）→刺激借贷和风险资产（如科技股）",
+        "watch": "美联储利率决议及点阵图（利率预测）"
       }
     },
     {
       "rank": 3,
-      "title": "Zhipu surges 33% as Wall Street raises bets on China AI after Anthropic curbs",
-      "source": "CNBC",
-      "detail": "Shares of Chinese AI model developer Zhipu surged as Wall Street banks raised bets on the company's ability to capture global AI demand.",
-      "lang": "en",
-      "score": 59,
-      "insight": {
-        "what": "智谱AI涨33%，因美国限制Anthropic",
-        "assets": "📈 中概AI股 利好；📉 美国AI芯片股 承压",
-        "chain": "中美AI脱钩（科技供应链重组）利好国产替代，但增加政策不确定性",
-        "watch": "美国对华AI芯片出口限制细则"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Surge in scams as fraudsters use AI to target people - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 53,
       "insight": {
-        "what": "诈骗者用AI实施欺诈激增",
-        "assets": "📉 网络安全股 利好；📈 监管科技 需求上升",
-        "chain": "AI滥用引发监管收紧（合规成本增加），压制AI应用股估值",
-        "watch": "美国AI监管法案进展"
+        "what": "市场辩论AI泡沫是否形成，两派观点",
+        "assets": "📈 英伟达等AI龙头 利好，📉 AI相关ETF 承压",
+        "chain": "泡沫争议→波动率上升（期权隐含波动率）→资金轮动至防御板块（如公用事业）",
+        "watch": "AI龙头财报及资本开支（投入金额）指引"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "SpaceX盘前股价上涨 势将延续创纪录IPO后的涨势",
       "source": "环球市场播报",
       "detail": "SpaceX在当地时间周一的盘前交易中一度上涨7.7%至173.30美元，势将延续上周五上市首日的涨势。 该公司股价上周五收涨逾19%，此前其IPO融资额创下了750亿美元的纪录。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX盘前续涨，延续IPO涨势",
-        "assets": "📈 太空概念股 利好；📈 散户交易量 上升",
-        "chain": "IPO首日涨幅吸引动量交易（追涨策略），可能引发短期回调风险",
-        "watch": "SpaceX锁定期结束后的抛压"
+        "what": "诈骗者利用AI技术增加欺诈案件",
+        "assets": "📉 网络安全板块 利好，📉 消费者信心 承压",
+        "chain": "AI诈骗增加→监管趋严（合规成本上升）→银行和支付平台利润承压（坏账和罚款）",
+        "watch": "各国AI监管法案进展及网络安全公司订单"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "U.S. stock futures jump on Iran deal to end the war; Japan's Nikkei surges 5%: Live updates - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗和谈协议刺激美股期货上涨",
-        "assets": "📈 全球股市 利好；📉 原油 承压；📈 日本日经 大涨",
-        "chain": "地缘风险溢价下降（油价下跌利好航空），避险资金回流风险资产",
-        "watch": "伊朗原油出口恢复速度"
+        "what": "SpaceX盘前上涨6%，延续IPO涨势",
+        "assets": "📈 太空概念股 利好，📈 纳斯达克指数 利好",
+        "chain": "IPO赚钱效应→吸引散户资金（追涨）→推高同类新股估值（如AST SpaceMobile）",
+        "watch": "SpaceX盘后交易量及机构持仓报告"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "SpaceX gains 6% in premarket after record debut. Here's what's driving the valuation debate",
       "source": "CNBC",
       "detail": "SpaceX is now valued at over $2 trillion after its stock rallied on the first day of trade.",
       "lang": "en",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "伊朗停战协议推动美股期货及日经大涨",
+        "assets": "📈 原油 承压，📈 日本股市 利好，📈 全球风险资产 利好",
+        "chain": "地缘风险缓解（战争溢价消失）→油价下跌（成本降低）→航空和制造业利润修复",
+        "watch": "伊朗协议执行细节及原油库存数据"
+      }
     },
     {
-      "rank": 8,
-      "title": "港股收评：恒指涨0.5% 科指涨1.28% 黄金股、航空股大涨 芯片股强势 智谱涨超32% 溜溜梅上市首日涨超193%",
-      "source": "新浪港股",
-      "detail": "6月15日消息，港股三大指数集体上涨。截至收盘，恒生指数涨0.5%，报24842.67，恒生科技指数涨1.28%，国企指数涨0.02%。盘面上，科网股涨跌不一，联想超9%...",
-      "lang": "zh",
-      "score": 37
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "欧洲央行管委Nagel：加息后利率仍处于中性区间",
       "source": "环球市场播报",
       "detail": "欧洲央行管委Joachim Nagel表示，周四加息25个基点后，欧元区利率仍处于“总体中性”区间。 这位德国央行行长周一讲话时表示：“因此...",
@@ -110,12 +94,28 @@
       "score": 36
     },
     {
+      "rank": 8,
+      "title": "SpaceX shows investors still want moonshots. The Fed may test that theory this week. - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "Microsoft CEO warns that a few AI winners could destroy 'entire industries' - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
+    },
+    {
       "rank": 10,
-      "title": "大摩策略师：伊朗协议或使债市解除对美联储加息的押注",
-      "source": "环球市场播报",
-      "detail": " 摩根士丹利的策略师们表示，针对中东局势一项稳定的解决方案，或能促使债市解除对美联储加息的押注，并提高当前牛市得以延续的几率。",
+      "title": "一周展望：和平协议叠加超级央行周，黄金开启反弹行情？",
+      "source": "市场资讯",
+      "detail": "撰文：嘉盛集团资深分析师Jerry Chen 上周美元、原油和黄金同步下跌，SpaceX上市首日上涨19%带动美股周线收高，比特币在关键的6万美元附近展开反弹收于65000美元上方。",
       "lang": "zh",
-      "score": 36
+      "score": 30
     }
   ]
 }
