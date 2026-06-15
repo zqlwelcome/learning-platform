@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 10:40",
+  "updateTime": "2026-06-15 10:42",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街顶级分析师看好3只股票增长前景。",
+        "assets": "个股（多头）",
+        "chain": "分析师评级提振市场信心，引发资金流入（资金流效应），可能推高股价。",
+        "watch": "个股财报及目标价调整"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "波动一周后，部分股票超买或超卖。",
+        "assets": "个股（多空分化）",
+        "chain": "超买暗示回调风险（均值回归），超卖可能触发反弹（技术性买盘），影响短期交易策略。",
+        "watch": "RSI指标及成交量变化"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "新浪港股",
       "detail": "美股上周五继续向上，据报美伊达成和平协议，油价大幅回落，带动大市向好。指数高开后升幅一度扩大，即使中段升势回吐，三大指数均录得升幅收市。",
       "lang": "zh",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "恒指高开1.15%，科指涨1.78%，科网、黄金、AI股普涨。",
+        "assets": "恒指、科指（多头）；黄金股（多头）；AI股（多头）",
+        "chain": "风险偏好回升（市场情绪改善），资金涌入科技和避险资产（板块轮动），智谱涨超14%强化AI主题。",
+        "watch": "恒指能否守住高开涨幅及成交量"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "环球市场播报",
       "detail": " 伊朗国家石油公司官网公布的定价表显示，该公司将7月销往亚洲的伊朗轻质原油官方售价定为较阿曼-迪拜原油均价每桶溢价7.15美元，较6月每桶13美元的溢价有所下调。",
       "lang": "zh",
-      "score": 22
+      "score": 22,
+      "insight": {
+        "what": "伊朗7月亚洲轻质原油定价溢价7.15美元/桶。",
+        "assets": "原油（多头）；亚洲炼油商（空头）",
+        "chain": "溢价推高进口成本（成本推动通胀），压缩炼油利润（利润挤压），可能加剧OPEC+供应紧张（地缘风险）。",
+        "watch": "伊朗原油出口量及OPEC+产量政策"
+      }
     }
   ]
 }
