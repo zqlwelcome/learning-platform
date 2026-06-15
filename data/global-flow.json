@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 10:16",
+  "updateTime": "2026-06-15 10:20",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,110 +16,64 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4085.36",
-      "change": "1.34"
+      "value": "4078.40",
+      "change": "1.16"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24953.800",
-      "change": "0.95"
+      "value": "24935.900",
+      "change": "0.88"
     }
   },
   "etf_flows": [
     {
       "name": "证券ETF国泰",
       "code": "512880",
-      "price": 1.077,
-      "change": 3.06,
-      "flow": 555198896.0,
-      "flow_str": "+5.55亿",
+      "price": 1.073,
+      "change": 2.68,
+      "flow": 533930992.0,
+      "flow_str": "+5.34亿",
       "direction": "in"
     },
     {
       "name": "通信ETF国泰",
       "code": "515880",
-      "price": 1.625,
-      "change": 2.59,
-      "flow": 267365408.0,
-      "flow_str": "+2.67亿",
+      "price": 1.629,
+      "change": 2.84,
+      "flow": 338958624.0,
+      "flow_str": "+3.39亿",
       "direction": "in"
     },
     {
       "name": "创业板ETF易方达",
       "code": "159915",
-      "price": 3.95,
-      "change": 2.7,
-      "flow": 247524048.0,
-      "flow_str": "+2.48亿",
-      "direction": "in"
-    },
-    {
-      "name": "券商ETF华宝",
-      "code": "512000",
-      "price": 0.514,
-      "change": 3.01,
-      "flow": 228224880.0,
-      "flow_str": "+2.28亿",
+      "price": 3.953,
+      "change": 2.78,
+      "flow": 286343872.0,
+      "flow_str": "+2.86亿",
       "direction": "in"
     },
     {
       "name": "科创50ETF华夏",
       "code": "588000",
-      "price": 1.815,
-      "change": 3.36,
-      "flow": 223898208.0,
-      "flow_str": "+2.24亿",
+      "price": 1.817,
+      "change": 3.47,
+      "flow": 254202224.0,
+      "flow_str": "+2.54亿",
+      "direction": "in"
+    },
+    {
+      "name": "券商ETF华宝",
+      "code": "512000",
+      "price": 0.513,
+      "change": 2.81,
+      "flow": 219305904.0,
+      "flow_str": "+2.19亿",
       "direction": "in"
     }
   ],
-  "sector_flows": [
-    {
-      "name": "电子",
-      "code": "BK1201",
-      "index": 14253.83,
-      "change": 3.99,
-      "flow": 12624441344.0,
-      "flow_str": "+126.24亿",
-      "direction": "in"
-    },
-    {
-      "name": "元件",
-      "code": "BK0459",
-      "index": 65019.67,
-      "change": 6.93,
-      "flow": 5650215680.0,
-      "flow_str": "+56.50亿",
-      "direction": "in"
-    },
-    {
-      "name": "非银金融",
-      "code": "BK1203",
-      "index": 2396.88,
-      "change": 3.04,
-      "flow": 4028868352.0,
-      "flow_str": "+40.29亿",
-      "direction": "in"
-    },
-    {
-      "name": "半导体",
-      "code": "BK1036",
-      "index": 2922.43,
-      "change": 3.44,
-      "flow": 3938515200.0,
-      "flow_str": "+39.39亿",
-      "direction": "in"
-    },
-    {
-      "name": "印制电路板",
-      "code": "BK1340",
-      "index": 13341.23,
-      "change": 6.44,
-      "flow": 3700962816.0,
-      "flow_str": "+37.01亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -127,6 +81,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "美伊和平协议缓解地缘风险，黄金反弹至周内高点但美联储加息预期仍限制上行空间",
+      "source": "市场资讯",
+      "keyword": "美联储"
+    },
     {
       "title": "华泰期货：加息预期降温 贵金属或迎反弹",
       "source": "市场资讯",
