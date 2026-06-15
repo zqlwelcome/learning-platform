@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 21:21",
+  "updateTime": "2026-06-15 21:26",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 57,
       "insight": {
         "what": "SpaceX IPO引发华尔街区块链挑战者关注",
-        "assets": "📈 区块链概念股 利好",
-        "chain": "区块链技术（分布式账本）可能取代传统IPO承销，冲击投行手续费收入（佣金下降）。",
-        "watch": "SpaceX上市后区块链股交易量变化"
+        "assets": "📈 区块链概念股 利好; 📉 传统券商股 承压",
+        "chain": "区块链技术（分布式账本）可能替代传统IPO承销（投行中介费），挤压券商利润",
+        "watch": "SEC对区块链证券化（代币发行）的监管态度"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "火箭股因SpaceX IPO抛售，KeyBanc建议抄底",
-        "assets": "📉 火箭股（如Rocket Lab） 承压",
-        "chain": "竞争加剧（SpaceX上市分流资金）导致短期卖压，但基本面未变可能吸引价值投资者（低估值买入）。",
-        "watch": "火箭股财报及订单数据"
+        "what": "火箭股因SpaceX IPO下跌，KeyBanc建议逢低买入",
+        "assets": "📉 火箭股（如Rocket Lab） 短期利空; 📈 火箭股 中期利好",
+        "chain": "SpaceX分流短期资金（流动性挤出），但行业龙头上市提升板块估值锚（参照系）",
+        "watch": "SpaceX上市后股价走势及订单增速"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX巨型IPO冲击标普纳指纳入规则，收益分化",
-        "assets": "📈 标普500指数 承压，📉 纳斯达克指数 利好",
-        "chain": "市值过大（总股本高）迫使指数调整权重，纳指科技股占比更高（科技集中度风险）受益，标普需平衡行业分布。",
-        "watch": "标普和纳指成分股调整公告"
+        "what": "SpaceX巨型IPO冲击标普纳指纳入规则",
+        "assets": "📈 标普500指数 承压; 📉 纳指 承压",
+        "chain": "大市值IPO（首次公开募股）导致指数基金被动调仓（再平衡），加剧成长股波动",
+        "watch": "标普委员会是否修改快速纳入门槛（市值前10）"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 44,
       "insight": {
         "what": "SpaceX和OpenAI终结华尔街股票稀缺时代",
-        "assets": "📈 美股新股（IPO） 利好，📉 私募股权 承压",
-        "chain": "优质资产上市（增加供给）降低估值溢价，私募退出通道打开（流动性改善），但二级市场资金分流。",
-        "watch": "后续科技公司IPO申请数量"
+        "assets": "📈 私募股权 承压; 📉 二级市场科技股 分化",
+        "chain": "私募独角兽（未上市高估值公司）加速上市，稀释存量科技股稀缺溢价（估值泡沫风险）",
+        "watch": "一级市场（未上市）估值与二级市场价差收敛速度"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "SpaceX盘前涨6%，估值争议驱动市场",
-        "assets": "📈 SpaceX（未上市估值） 利好，📈 太空ETF 利好",
-        "chain": "估值分歧（高增长vs盈利不确定）导致波动率上升（期权定价变贵），引发对冲基金多空博弈。",
-        "watch": "SpaceX首日收盘价及成交量"
+        "what": "SpaceX盘前涨6%，估值争议驱动交易",
+        "assets": "📈 SpaceX 短期看多; 📉 空头 承压",
+        "chain": "高估值争议引发多空博弈（对手盘），波动率上升可能触发期权Gamma（波动率杠杆）挤压",
+        "watch": "首日收盘涨跌幅及成交量（换手率）"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "伊朗协议导致美债收益率下滑，美联储加息预期降温",
-        "assets": "📈 美债 利好，📉 美元 承压",
-        "chain": "地缘缓和（油价预期下降）→通胀压力缓解→降息预期升温（借钱成本降低）→资金流向债券（避险需求）。",
-        "watch": "伊朗协议进展及CPI数据"
+        "what": "伊朗协议推动美债收益率下滑，降息预期重燃",
+        "assets": "📈 美债 利好; 📉 美元 承压; 📈 风险资产（股市/商品） 利好",
+        "chain": "伊朗协议压低油价（供给增加），缓解通胀（物价上涨），市场押注美联储降息（借钱成本降低）",
+        "watch": "WTI原油（西德州轻质原油）价格及美联储点阵图（利率预测）"
       }
     },
     {
@@ -95,11 +95,11 @@
     },
     {
       "rank": 8,
-      "title": "Stocks making the biggest moves premarket: SpaceX, United Airlines, Roku & more",
-      "source": "CNBC",
-      "detail": "These are the stocks posting the largest moves premarket.",
+      "title": "Why the SpaceX IPO Went to the Moon - The Free Press",
+      "source": "The Free Press",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 37
+      "score": 35
     },
     {
       "rank": 9,
