@@ -1,163 +1,82 @@
 #!/usr/bin/env python3
 """
-Generate AI insights ONLY for news items missing them.
-Calls DeepSeek API via curl (VPN-proxy compatible).
-Uses content-aware matching when LLM returns fewer insights than requested.
-
-Incremental approach — does NOT touch items that already have valid insights.
-This prevents the data degradation pitfall where regenerating ALL insights
-replaces good data with potentially worse data when the LLM merges items.
-
-Usage:
-    python3 scripts/gen-missing-insights.py [--dry-run]
+gen-missing-insights.py - Incremental AI insight generator
+Sends only MISSING news items to DeepSeek individually, avoiding the merging
+problem that plagues the batch approach in auto-update-full.py.
 """
-import json, subprocess, re, os, sys
+import json
+import os
+import re
+import sys
+import time
+import requests
 
-DRY_RUN = '--dry-run' in sys.argv
+# ---- Key loading (mirrors auto-update-full.py) ----
+def _load_deepseek_key():
+    env_key = os.environ.get('DEEPSEEK_API_KEY', '').strip()
+    if env_key:
+        return env_key
+    env_paths = [
+        os.path.expanduser('~/.hermes/.env'),
+        os.path.expanduser('~/.hermes/env/.env'),
+    ]
+    for env_path in env_paths:
+        try:
+            with open(env_path) as f:
+                for line in f:
+                    if line.startswith('DEEPSEEK_API_KEY='):
+                        key = line.strip().split('=', 1)[1].strip()
+                        if key:
+                            return key
+        except FileNotFoundError:
+            continue
+    return ''
 
-# === Load API key ===
-def load_key():
-    env_path = os.path.expanduser('~/.hermes/.env')
-    if os.path.exists(env_path):
-        with open(env_path) as f:
-            for line in f:
-                if line.startswith('DEEPSEEK_API_KEY='):
-                    return line.strip().split('=', 1)[1].strip('"').strip("'")
-    return os.environ.get('DEEPSEEK_API_KEY', '')
+DEEPSEEK_API_KEY = _load_deepseek_key()
+DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
 
-api_key = load_key()
-if not api_key:
-    print("ERROR: No DEEPSEEK_API_KEY found in ~/.hermes/.env or env var")
-    sys.exit(1)
+HOT_NEWS_FILE = "data/hot-news.json"
 
-# === Load news ===
-with open('data/hot-news.json') as f:
-    data = json.load(f)
-
-news = data['news']
-missing = [n for n in news if not n.get('insight')]
-print(f"Total: {len(news)} items, {len(missing)} missing insights")
-
-if not missing:
-    print("All items have insights — nothing to do")
-    sys.exit(0)
-
-# === Build prompt (missing items only) ===
-titles = [n['title'][:100] for n in missing]
-titles_text = '\n'.join(f"{i+1}. {t}" for i, t in enumerate(titles))
-
-system_prompt = (
-    "你是华尔街资深交易员，用交易员思维解读以下新闻。"
-    "每条输出4字段: what(一句话事实25字内), assets(受影响资产+方向), "
-    "chain(传导链/二阶效应40字内，术语括号解释), watch(下一步盯什么指标/事件25字内)。"
-    "JSON数组格式。"
-)
-
-payload = {
-    "model": "deepseek-chat",
-    "messages": [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": (
-            f"解读以下{len(missing)}条新闻:\n{titles_text}\n\n"
-            f"返回JSON数组，每条含what/assets/chain/watch四字段。"
-        )}
-    ],
-    "max_tokens": 2000,
-    "temperature": 0.3
-}
-
-# === Call DeepSeek via curl (VPN proxy compatible) ===
-with open('/tmp/ds_insight_payload.json', 'w') as f:
-    json.dump(payload, f)
-
-print(f"\nCalling DeepSeek API for {len(missing)} items...")
-result = subprocess.run([
-    'curl', '-s', '--connect-timeout', '30', '--max-time', '120',
-    'https://api.deepseek.com/v1/chat/completions',
-    '-H', 'Content-Type: application/json',
-    '-H', f'Authorization: Bearer {api_key}',
-    '-d', '@/tmp/ds_insight_payload.json'
-], capture_output=True, text=True)
-
-if result.returncode != 0:
-    print(f"curl failed: {result.stderr}")
-    sys.exit(1)
-
-try:
-    response = json.loads(result.stdout)
-except json.JSONDecodeError:
-    print(f"API response not valid JSON: {result.stdout[:300]}")
-    sys.exit(1)
-
-if 'choices' not in response:
-    print(f"API error: {response.get('error', result.stdout[:200])}")
-    sys.exit(1)
-
-content = response['choices'][0]['message']['content']
-print(f"API response ({len(content)} chars)")
-
-# === Multi-strategy JSON parser ===
-def parse_markdown_insights(content_str):
-    """Fallback parser: DeepSeek sometimes returns markdown-formatted insights
-    instead of JSON, ignoring explicit JSON format instructions.
-    
-    Format:
-        1. **what**：text here
-           **assets**：text here
-           **chain**：text here
-           **watch**：text here
-    
-    Returns (insights_list, None) on success, or (None, error_msg) on failure.
-    """
-    insights = []
-    # Split by numbered items: "1. **what**", "2. **what**", etc.
-    blocks = re.split(r'\n(?=\d+\.\s*\*\*what\*\*)', content_str.strip())
-    for block in blocks:
-        fields = {}
-        for field in ['what', 'assets', 'chain', 'watch']:
-            m = re.search(
-                rf'\*\*{field}\*\*[：:]\s*(.+?)(?=\n\s*\*\*|$)', 
-                block, re.DOTALL
-            )
-            if m:
-                val = m.group(1).strip()
-                val = re.sub(r'\*\*', '', val)  # strip bold markers from value
-                fields[field] = val
-        if fields:
-            insights.append(fields)
-    if insights:
-        return insights, None
-    return None, "No markdown-formatted insights found"
-
-def parse_json_response(content_str):
-    """Parse JSON from LLM response with markdown fence, trailing comma,
-    unescaped control chars, and truncation repair."""
-    # Strip markdown code blocks
+def _parse_json_response(content_str):
+    """Multi-strategy JSON parser (mirrors auto-update-full.py)."""
     content_str = re.sub(r'^```(?:json)?\s*', '', content_str.strip())
     content_str = re.sub(r'\s*```\s*$', '', content_str.strip())
-    
-    # Find boundaries (handle truncation)
-    start = content_str.find("[")
-    if start == -1:
-        return None, "No JSON array found"
-    end = content_str.rfind("]")
-    if end == -1 or end <= start:
-        end = len(content_str)  # truncated — let repair handle it
+
+    # Try to find a JSON object first (single item mode)
+    obj_start = content_str.find("{")
+    obj_end = content_str.rfind("}")
+    if obj_start != -1 and obj_end != -1 and obj_end > obj_start:
+        raw_obj = content_str[obj_start:obj_end + 1]
+        fixed_obj = re.sub(r',\s*([}\]])', r'\1', raw_obj)
+        try:
+            return json.loads(fixed_obj), None
+        except json.JSONDecodeError:
+            pass
+
+    # Fall back to array mode
+    arr_start = content_str.find("[")
+    if arr_start == -1:
+        return None, f"No JSON found in response (len={len(content_str)})"
+    arr_end = content_str.rfind("]")
+    if arr_end == -1 or arr_end <= arr_start:
+        arr_end = len(content_str)
     else:
-        end += 1
-    raw = content_str[start:end]
-    
-    # Strategy 1: Fix trailing commas, then parse
+        arr_end += 1
+
+    raw = content_str[arr_start:arr_end]
     fixed = re.sub(r',\s*([}\]])', r'\1', raw)
+
     try:
         return json.loads(fixed), None
     except json.JSONDecodeError:
         pass
-    
-    # Strategy 2: Char-by-char escape for unescaped control chars in strings
+
+    # Char-by-char escape repair
     escaped = []
     in_str = False
-    for i, ch in enumerate(fixed):
+    i = 0
+    while i < len(fixed):
+        ch = fixed[i]
         if ch == '"' and (i == 0 or fixed[i-1] != '\\'):
             in_str = not in_str
             escaped.append(ch)
@@ -169,107 +88,144 @@ def parse_json_response(content_str):
             escaped.append('\\t')
         else:
             escaped.append(ch)
-    
+        i += 1
     try:
         return json.loads(''.join(escaped)), None
-    except json.JSONDecodeError:
-        pass
-    
-    # Strategy 3: Repair truncated JSON
-    json_str = ''.join(escaped)
-    open_braces = json_str.count('{') - json_str.count('}')
-    open_brackets = json_str.count('[') - json_str.count(']')
-    if json_str.count('"') % 2 != 0:
-        json_str += '"'
-    repair = json_str + '}' * open_braces + ']' * open_brackets
-    try:
-        return json.loads(repair), None
     except json.JSONDecodeError as e:
-        return None, f"All parse strategies failed: {e}"
+        return None, f"JSON decode failed after repair: {e}"
 
-insights, error = parse_json_response(content)
+def generate_single_insight(title, detail=""):
+    """Generate insight for a single news item to avoid merging."""
+    prompt = f"""你是华尔街资深交易员，用交易员思维解读下面这条新闻。
 
-if error:
-    # Fallback: DeepSeek may return markdown instead of JSON
-    if "No JSON array" in error:
-        print("  ⚠️ No JSON found — trying markdown parser...")
-        insights, error = parse_markdown_insights(content)
-    
-    if error:
-        print(f"Parse error: {error}")
-        print(f"Raw content: {content[:500]}")
+输出一个JSON对象（不是数组），包含4个字段：
+- what: 一句话说清楚发生了什么（25字内）
+- assets: 受影响的资产及方向，格式如"📈 美股科技股 利好"或"📉 人民币 承压"（可多个）
+- chain: 传导链/二阶效应，这件事会怎么影响其他东西（40字内，术语括号解释）
+- watch: 下一步盯什么指标/事件来确认（25字内）
+
+要求：
+- 直接说结论，不要废话
+- 术语要括号解释（如"降息（借钱成本降低）"）
+- assets必须具体到资产类别，不要笼统说"市场"
+- 只输出JSON
+
+新闻标题: {title}
+{"补充信息: " + detail if detail else ""}
+
+格式：{{"what":"..","assets":"..","chain":"..","watch":".."}}"""
+
+    headers = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
+
+    for attempt in range(2):
+        max_tokens = 600 if attempt == 0 else 1000
+        try:
+            data = {
+                "model": "deepseek-chat",
+                "messages": [
+                    {"role": "system", "content": "资深交易员，简洁直接，术语括号解释。只输出JSON对象。"},
+                    {"role": "user", "content": prompt}
+                ],
+                "temperature": 0.7,
+                "max_tokens": max_tokens
+            }
+
+            response = requests.post(DEEPSEEK_API_URL, headers=headers, json=data, timeout=30)
+            response.raise_for_status()
+
+            result = response.json()
+            content_str = result["choices"][0]["message"]["content"]
+            finish_reason = result["choices"][0].get("finish_reason", "?")
+
+            insight, parse_error = _parse_json_response(content_str)
+            if insight is not None:
+                # If returned as array, take first element
+                if isinstance(insight, list) and len(insight) > 0:
+                    insight = insight[0]
+                # Validate required fields
+                required = ['what', 'assets', 'chain', 'watch']
+                if all(k in insight for k in required):
+                    return insight
+                else:
+                    missing_keys = [k for k in required if k not in insight]
+                    if attempt == 0:
+                        print(f"  ⚠️ Missing keys {missing_keys}, retrying...")
+                        continue
+                    else:
+                        print(f"  ⚠️ Missing keys {missing_keys} after retry, using partial")
+                        return insight
+
+            if attempt == 0:
+                print(f"  ⚠️ JSON解析失败 (finish={finish_reason}), retrying...")
+                continue
+            else:
+                print(f"  ⚠️ JSON解析失败 after retry: {parse_error}")
+                return None
+
+        except requests.exceptions.Timeout:
+            print(f"  ⚠️ API超时 (attempt {attempt+1})")
+        except requests.exceptions.HTTPError as e:
+            print(f"  ⚠️ API HTTP错误 (attempt {attempt+1}): {e}")
+        except Exception as e:
+            print(f"  ⚠️ API调用失败 (attempt {attempt+1}): {e}")
+
+    return None
+
+def main():
+    if not DEEPSEEK_API_KEY:
+        print("❌ DEEPSEEK_API_KEY not found")
         sys.exit(1)
 
-if not isinstance(insights, list):
-    print(f"Expected array, got {type(insights)}")
-    sys.exit(1)
+    # Read current data
+    with open(HOT_NEWS_FILE, 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
-print(f"Parsed {len(insights)} insights")
+    news = data['news']
+    # Find items missing insight
+    missing = [(i, item) for i, item in enumerate(news) if not item.get('insight')]
 
-# === Content-aware matching ===
-def tokenize(text):
-    text = re.sub(r'[^\w\s]', ' ', text.lower())
-    return set(t for t in text.split() if len(t) >= 2)
+    if not missing:
+        print("✅ All news items already have insights")
+        return 0
 
-# Entity keywords for matching boost
-ENTITIES = [
-    'spacex', 'fed', 'federal', 'cfra', 'congress', 'house', 'republican',
-    'pirro', 'sleep', 'number', 'ipo', '美债', '美联储', '加息', '和平',
-    'nvidia', 'apple', 'bofa', 'softbank', '软银', 'openai', '特斯拉', 'tesla'
-]
+    print(f"🔍 Found {len(missing)} items missing insights out of {len(news)} total")
+    print()
 
-def score_match(insight, news_item):
-    """Score how well an insight matches a news item by keyword overlap + entity boost."""
-    assets = insight.get('assets', '')
-    if isinstance(assets, list):
-        assets = ' '.join(assets)
-    chain = insight.get('chain', '')
-    if isinstance(chain, list):
-        chain = ' '.join(chain)
-    what = insight.get('what', '') + ' ' + assets + ' ' + chain
-    what_tokens = tokenize(what)
-    title_tokens = tokenize(news_item['title'])
-    overlap = len(what_tokens & title_tokens)
-    # Entity boost: specific company/person/institution names
-    for entity in ENTITIES:
-        if entity in news_item['title'].lower():
-            if entity in what.lower():
-                overlap += 15
-    return overlap
+    generated = 0
+    for idx, item in missing:
+        title = item.get('title', '')
+        rank = item.get('rank', '?')
+        detail = item.get('detail', '')
+        lang = item.get('lang', 'en')
 
-# Assign insights to missing items
-assigned = set()
-for insight in insights:
-    best_score = -1
-    best_idx = -1
-    for i, item in enumerate(missing):
-        if i in assigned:
-            continue
-        s = score_match(insight, item)
-        if s > best_score:
-            best_score = s
-            best_idx = i
-    if best_idx >= 0:
-        missing[best_idx]['insight'] = insight
-        assigned.add(best_idx)
-        print(f"  ✅ #{missing[best_idx]['rank']} (score={best_score}): {insight.get('what', '')[:50]}")
-    else:
-        print(f"  ❌ Could not match insight: {insight.get('what', '')[:50]}")
+        print(f"  [{idx+1}/{len(news)}] #{rank} [{lang}] {title[:70]}...")
+        insight = generate_single_insight(title, detail)
 
-# Update timestamp to ensure CDN picks up the change
-from datetime import datetime
-data['updateTime'] = datetime.now().strftime("%Y-%m-%d %H:%M")
+        if insight:
+            news[idx]['insight'] = insight
+            generated += 1
+            print(f"    ✅ {insight.get('what', '?')}")
+        else:
+            print(f"    ❌ Failed to generate insight")
 
-if DRY_RUN:
-    print("\n[Dry run — not saving]")
-else:
-    with open('data/hot-news.json', 'w') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"\n✅ Saved data/hot-news.json (updateTime: {data['updateTime']})")
+        # Small delay to avoid rate limits
+        if idx < len(news) - 1:
+            time.sleep(1)
 
-final_missing = [n for n in news if not n.get('insight')]
-print(f"Final: {len(news)-len(final_missing)}/{len(news)} have insights")
-if final_missing:
-    print("Still missing:")
-    for n in final_missing:
-        print(f"  #{n['rank']} {n['title'][:60]}")
+    print()
+    print(f"📊 Generated {generated}/{len(missing)} missing insights")
+
+    if generated > 0:
+        # Update timestamp
+        from datetime import datetime
+        data['updateTime'] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+        # Write back
+        with open(HOT_NEWS_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"✅ Updated {HOT_NEWS_FILE}")
+
+    return 0 if generated > 0 else 1
+
+if __name__ == "__main__":
+    sys.exit(main())
