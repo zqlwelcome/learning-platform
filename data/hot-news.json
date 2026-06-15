@@ -1,22 +1,36 @@
 {
-  "updateTime": "2026-06-16 00:04",
+  "updateTime": "2026-06-16 00:10",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX continues to rise after record IPO. Jay Woods says watch these levels",
+      "source": "CNBC",
+      "detail": "SpaceX's Friday debut marked biggest initial public offering in history.",
+      "lang": "en",
+      "score": 50,
+      "insight": {
+        "what": "SpaceX IPO后持续上涨，分析师关注关键阻力位",
+        "assets": "📈 SpaceX股票 利好",
+        "chain": "提振航天军工板块情绪，可能引发卫星通信ETF（交易基金）资金流入",
+        "watch": "SpaceX股价能否突破IPO首日高点"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Dow jumps 700 points to record with rally gaining steam after Trump signs Iran deal memorandum: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "特朗普签署伊朗协议备忘录，道指暴涨700点创新高",
-        "assets": "📈 美股大盘 利好；📉 原油 承压",
-        "chain": "地缘风险降低（战争概率下降）→ 避险情绪退潮 → 资金从原油、黄金流向股市",
-        "watch": "伊朗实际履约情况与后续制裁松绑细节"
+        "what": "道指暴涨700点创新高，特朗普签署伊朗备忘录",
+        "assets": "📈 美股大盘 利好，📉 原油 承压",
+        "chain": "地缘风险（中东冲突可能）缓解，资金从避险资产流向股市（风险偏好上升）",
+        "watch": "伊朗协议后续执行细节及原油库存数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "SpaceX IPO raises total of $85.7 billion as underwriters exercise 'greenshoe' overallotment option",
       "source": "CNBC",
       "detail": "Elon Musk's space and artificial intelligence company raised an initial $75 billion on Thursday.",
@@ -24,27 +38,21 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO承销商行使绿鞋超额配售权，总融资857亿美元",
-        "assets": "📈 SpaceX 估值 利好；📈 太空概念股 情绪提振",
-        "chain": "绿鞋（超额配售权）表明需求强劲 → 二级市场抛压减小 → 支撑股价短期上行",
-        "watch": "上市首日换手率及后续锁定期解禁安排"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "承销商行使绿鞋超额配售权，SpaceX IPO募资总额达857亿美元",
-      "source": "环球市场播报",
-      "detail": "核心要点 承销商行使 “绿鞋” 超额配售权后，SpaceX 本次 IPO 募资总额升至 857 亿美元。 本次超额配售规模，超过史上绝大多数科技企业 IPO 的募资体量。",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "美股开盘强劲上涨，芯片及AI板块领涨",
-        "assets": "📈 半导体指数 利好；📈 AI概念股 利好",
-        "chain": "资金轮动（从防御板块流入科技）→ 风险偏好回升 → 利好纳指期货和期权波动率",
-        "watch": "英伟达、AMD等龙头股成交量与期权隐含波动率"
+        "assets": "📈 SpaceX股票 利好",
+        "chain": "绿鞋（稳定股价机制）表明需求强劲，短期减少抛压（浮动筹码减少）",
+        "watch": "SpaceX后续财报及订单增长"
       }
     },
     {
       "rank": 4,
+      "title": "承销商行使绿鞋超额配售权，SpaceX IPO募资总额达857亿美元",
+      "source": "环球市场播报",
+      "detail": "核心要点 承销商行使 “绿鞋” 超额配售权后，SpaceX 本次 IPO 募资总额升至 857 亿美元。 本次超额配售规模，超过史上绝大多数科技企业 IPO 的募资体量。",
+      "lang": "zh",
+      "score": 40
+    },
+    {
+      "rank": 5,
       "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
@@ -52,21 +60,21 @@
       "score": 40
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Warsh's debut Fed press conference may reveal his strategy for inflation, rates - Reuters",
       "source": "Reuters",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "Warsh首次美联储发布会将透露通胀与利率政策路径",
-        "assets": "📈 美债收益率 波动；📉 美元 方向待定",
-        "chain": "鹰派（偏紧缩）表态→加息预期升温→利空成长股；鸽派→利好风险资产",
-        "watch": "点阵图（利率预测）中位数及通胀措辞变化"
+        "what": "Warsh首次美联储新闻发布会可能透露通胀与利率策略",
+        "assets": "📉 美债收益率 波动，📉 美元 承压",
+        "chain": "若偏鸽（倾向宽松），则降息预期升温，利好成长股（高估值科技股）",
+        "watch": "Warsh对通胀目标及利率路径的措辞"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "美国股市开盘强劲上涨 芯片及AI板块跃升",
       "source": "环球市场播报",
       "detail": " 在美国与伊朗同意重新开放霍尔木兹海峡后，全球股市上涨、债券走强，油价则大幅下跌。市场对持续扰动金融市场的中东冲突有望结束抱持期待，美国股市开盘升势明显。",
@@ -74,7 +82,7 @@
       "score": 37
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "SpaceX, Sandisk, and More Stocks That Explain Today's Market - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -82,7 +90,7 @@
       "score": 37
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "瑞银认为油价下跌将缓解美联储主席沃什面临的加息压力",
       "source": "环球市场播报",
       "detail": " 瑞银集团的Leslie Falconio表示，美国和伊朗宣称双方达成协议重新开放霍尔木兹海峡，抑制了油价并引发美国国债市场上涨之后，美联储今年加息的压力正在缓解。",
@@ -90,18 +98,10 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "美债全线上扬 伊朗协议促使交易员削减对美联储的加息押注",
       "source": "环球市场播报",
       "detail": "美债上涨，伊朗临时协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 10,
-      "title": "全球资本市场瞩目！超级央行周来袭，美联储新主席首秀，核心看点一文全梳理",
-      "source": "中国证券报",
-      "detail": "本周，全球主要央行将迎来密集议息窗口。 北京时间6月15日至16日，日本央行召开政策会议；6月18日凌晨，美联储将公布最新利率决议；英国央行、瑞士央行、挪威央行...",
       "lang": "zh",
       "score": 36
     }
