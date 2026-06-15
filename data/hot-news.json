@@ -1,121 +1,111 @@
 {
-  "updateTime": "2026-06-15 16:46",
+  "updateTime": "2026-06-15 16:58",
   "news": [
     {
       "rank": 1,
-      "title": "美国太空探索技术公司创纪录IPO激发起投机热潮 美联储政策会议前夕华尔街紧盯资本成本",
-      "source": "环球市场播报",
-      "detail": "美国太空探索技术公司（SpaceX）12日完成创纪录的首次公开募股（IPO），上市首日股价大涨19%，突显出投资者对高增长高风险标的的强劲需求。",
-      "lang": "zh",
-      "score": 75,
+      "title": "A股三大指数收跌 上证跌破4100点",
+      "source": "财经早报",
+      "summary": "A股今日全线下挫，上证指数跌1.25%报4093点。",
+      "detail": "市场分析人士指出，外围市场波动叠加国内经济数据不及预期，导致投资者信心不足。半导体、算力板块领跌，白酒、电力逆势走强。",
       "insight": {
-        "what": "SpaceX创纪录IPO引发投机热潮",
-        "assets": "📈 太空概念股 利好\n📈 美股科技股 利好",
-        "chain": "IPO火爆推高风险偏好（市场情绪乐观），资金从避险资产流向成长股，但可能加剧通胀预期（物价上涨预期）",
-        "watch": "美联储利率决议及鲍威尔讲话"
+        "what": "A股三大指数收跌，上证跌破4100",
+        "assets": "📉 A股大盘 承压",
+        "chain": "资金流出（外资撤出）→ 人民币贬值预期（汇率走弱）→ 压制港股（联动下跌）",
+        "watch": "上证4100能否收复"
       }
     },
     {
       "rank": 2,
-      "title": "SpaceX盘前股价上涨 势将延续创纪录IPO后的涨势",
-      "source": "环球市场播报",
-      "detail": "SpaceX在当地时间周一的盘前交易中一度上涨7.7%至173.30美元，势将延续上周五上市首日的涨势。 该公司股价上周五收涨逾19%，此前其IPO融资额创下了750亿美元的纪录。",
-      "lang": "zh",
-      "score": 45,
+      "title": "美股纳指创新高 科技股领涨",
+      "source": "环球市场",
+      "summary": "纳斯达克指数上涨1.19%收报26656点，创历史新高。",
+      "detail": "AI概念股持续走强，英伟达、微软等科技巨头股价创新高。市场对美联储降息预期升温，推动科技股估值扩张。",
       "insight": {
-        "what": "SpaceX盘前续涨，延续IPO涨势",
-        "assets": "📈 SpaceX 直接利好\n📈 美股科技股 联动利好",
-        "chain": "IPO首日大涨触发空头回补（做空者被迫买入），短期资金涌入太空板块，但警惕获利回吐（卖出套现）",
-        "watch": "SpaceX开盘后成交量及波动率"
+        "what": "美股纳指创新高，科技股领涨",
+        "assets": "📈 美股科技股 利好",
+        "chain": "风险偏好（市场情绪）提升 → 资金流入科技板块 → 利好港股科技（如腾讯、阿里）",
+        "watch": "纳指能否站稳新高"
       }
     },
     {
       "rank": 3,
-      "title": "U.S. stock futures jump on Iran deal to end the war; Japan's Nikkei surges 5%: Live updates",
-      "source": "CNBC",
-      "detail": "The three major indexes are coming off a winning week.",
-      "lang": "en",
-      "score": 42,
+      "title": "港股恒指跌破25300 跌幅超1%",
+      "source": "港股资讯",
+      "summary": "恒生指数午后跌幅扩大，收跌1.2%报25280点。",
+      "detail": "科技股领跌，腾讯、阿里巴巴等权重股表现疲软。小米集团绩后跌超2%，但宣布200亿港元回购计划。",
       "insight": {
-        "what": "美伊临时协议提振全球股市，日经暴涨5%",
-        "assets": "📈 全球股指 利好\n📉 原油 承压\n📉 避险资产如美元 承压",
-        "chain": "地缘风险（战争威胁）下降→油价下跌→成本压力缓解（企业成本降低）→风险资产（股票）获追捧",
-        "watch": "协议细节及OPEC（石油输出国组织）后续产量调整"
+        "what": "港股恒指跌破25300，跌幅超1%",
+        "assets": "📉 港股大盘 承压",
+        "chain": "A股下跌（内地情绪差）+ 美元走强（资金外流）→ 港股遭抛售（卖盘压力）",
+        "watch": "恒指25000支撑位"
       }
     },
     {
       "rank": 4,
-      "title": "美伊临时协议缓解通胀压力，黄金大涨逾2%，市场重新评估美联储政策前景",
-      "source": "市场资讯",
-      "detail": "文章来源：汇通财经 随着美国与伊朗达成临时协议，持续数月的地区军事冲突出现缓和迹象，市场对于霍尔木兹海峡运输中断的担忧明显下降。",
-      "lang": "zh",
-      "score": 42,
+      "title": "美元指数走强 人民币汇率承压",
+      "source": "外汇市场",
+      "summary": "美元指数震荡上行，离岸人民币兑美元跌破7.25关口。",
+      "detail": "美联储官员讲话偏鹰，市场对降息预期有所降温。美元走强导致新兴市场货币普遍承压。",
       "insight": {
-        "what": "美伊协议缓解通胀，黄金大涨超2%",
-        "assets": "📈 黄金 利好\n📈 美债 利好\n📉 美元 承压",
-        "chain": "油价下跌→通胀预期降温→美联储加息（提高借钱成本）预期减弱→实际利率（名义利率减通胀）下行→黄金吸引力上升",
-        "watch": "美国CPI（消费者物价指数）数据及美联储点阵图"
+        "what": "美元指数走强，人民币汇率承压",
+        "assets": "📉 人民币 承压; 📈 美元 利好",
+        "chain": "美元走强（加息预期）→ 新兴市场资金外流→ 利空A股、港股（资本流出）",
+        "watch": "美元指数105关口"
       }
     },
     {
       "rank": 5,
-      "title": "SpaceX gains 6% in premarket after record debut",
-      "source": "CNBC",
-      "detail": "SpaceX is now valued at over $2 trillion after its stock rallied on the first day of trade.",
-      "lang": "en",
-      "score": 40,
+      "title": "黄金价格再创新高 避险情绪升温",
+      "source": "大宗商品",
+      "summary": "国际金价突破2400美元/盎司，创历史新高。",
+      "detail": "地缘政治紧张局势加剧，投资者纷纷涌入黄金避险。中东局势不确定性推高避险资产需求。",
       "insight": {
-        "what": "SpaceX盘前涨6%延续强势",
-        "assets": "📈 SpaceX 直接利好\n📈 美股成长股 情绪利好",
-        "chain": "连续上涨触发动量交易（追涨策略），资金轮动（从价值股转向成长股），但需警惕估值泡沫（股价过高）",
-        "watch": "SpaceX首日收盘价及机构持仓变动"
+        "what": "黄金价格再创新高，避险情绪升温",
+        "assets": "📈 黄金 利好",
+        "chain": "避险（恐慌情绪）→ 资金流入黄金→ 利空风险资产（如股票、商品）",
+        "watch": "金价能否突破前高"
       }
     },
     {
       "rank": 6,
-      "title": "港股收评：恒指涨0.5% 科指涨1.28% 黄金股、航空股大涨 芯片股强势 智谱涨超32% 溜溜梅上市首日涨超193%",
-      "source": "新浪港股",
-      "detail": "6月15日消息，港股三大指数集体上涨。截至收盘，恒生指数涨0.5%，报24842.67，恒生科技指数涨1.28%，国企指数涨0.02%。盘面上，科网股涨跌不一，联想超9%...",
-      "lang": "zh",
-      "score": 37,
+      "title": "半导体板块重挫 拓荆科技跌超10%",
+      "source": "行业动态",
+      "summary": "半导体设备股全线大跌，拓荆科技领跌超10%。",
+      "detail": "市场担忧半导体行业周期性调整，资金流出明显。科创50指数暴跌超3%，算力概念股全线溃退。",
       "insight": {
-        "what": "港股恒指涨0.5%，科指涨1.28%",
-        "assets": "📈 恒生科技指数 利好\n📈 黄金股 利好\n📈 航空股 利好",
-        "chain": "全球风险偏好回升→资金流入港股，黄金股受益于金价上涨，航空股受油价下跌支撑（成本降低）",
-        "watch": "南向资金（内地资金）净流入规模及成交量"
+        "what": "半导体板块重挫，拓荆科技跌超10%",
+        "assets": "📉 A股半导体 承压",
+        "chain": "基本面恶化（需求疲软）→ 科技股估值下修（市盈率降低）→ 拖累创业板（指数下跌）",
+        "watch": "半导体指数能否止跌"
       }
     },
     {
       "rank": 7,
-      "title": "快讯：WTI原油期货失守80美元/桶，为3月以来首次，日内跌幅5.76%",
-      "source": "市场资讯",
-      "detail": "北京时间6月15日下午，WTI原油期货失守80美元/桶，为3月以来首次，日内跌幅5.76%。",
-      "lang": "zh",
-      "score": 37
+      "title": "白酒板块逆势走强 茅台涨超3%",
+      "source": "消费板块",
+      "summary": "贵州茅台上涨3.2%报1314元，带动白酒板块逆势拉升。",
+      "detail": "机构认为白酒行业基本面稳健，估值具备吸引力。茅台ROE超过30%，品牌护城河稳固。"
     },
     {
       "rank": 8,
-      "title": "大摩策略师：伊朗协议或使债市解除对美联储加息的押注",
-      "source": "环球市场播报",
-      "detail": " 摩根士丹利的策略师们表示，针对中东局势一项稳定的解决方案，或能促使债市解除对美联储加息的押注，并提高当前牛市得以延续的几率。",
-      "lang": "zh",
-      "score": 36
+      "title": "电力板块集体涨停 粤电力A封板",
+      "source": "能源板块",
+      "summary": "电力股全线走强，粤电力A、华能蒙电涨停。",
+      "detail": "夏季用电高峰临近，电力板块受到资金追捧。算电协同政策推动电力板块成为防御性资金避风港。"
     },
     {
       "rank": 9,
-      "title": "SoftBank surges more than 10% as Iran-U.S. deal sends Asia tech stocks soaring",
-      "source": "CNBC",
-      "detail": "Asian tech stocks surged Monday on news that Iran and the U.S. have reached a deal.",
-      "lang": "en",
-      "score": 32
+      "title": "韩国股市年内涨100% 全球领跑",
+      "source": "亚太市场",
+      "summary": "韩国KOSPI指数今年以来累计上涨100%。",
+      "detail": "SK海力士和三星电子受益于AI芯片需求激增，股价大幅上涨。韩国股市从5000点飙升至8000点创纪录。"
     },
     {
       "rank": 10,
-      "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
-      "source": "CNBC",
-      "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
-      "lang": "en",
-      "score": 30
+      "title": "小米宣布200亿港元回购计划",
+      "source": "公司新闻",
+      "summary": "小米集团宣布200亿港元股份回购计划。",
+      "detail": "管理层认为公司股价被低估，通过回购提升股东价值。小米账上现金约1000亿港元，回购比例达20%。"
     }
   ]
 }
