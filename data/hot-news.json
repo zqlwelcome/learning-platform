@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-16 07:35",
+  "updateTime": "2026-06-16 07:40",
   "news": [
     {
       "rank": 1,
-      "title": "上市首日暴涨193% 溜溜梅惊险“上岸”：4冲IPO，对赌大限仅剩15天",
-      "source": "21世纪经济报道",
-      "detail": "“你没事吧？你没事吧？” 这一魔性广告词背后的溜溜梅，上市了。 6月15日，溜溜梅股份有限公司（以下简称“溜溜梅”，06658.HK）在港交所上市。",
+      "title": "华尔街机构警告美股未来将面临更多挑战 美联储今年或连续加息三次",
+      "source": "智通财经APP",
+      "detail": " 随着市场对美联储重启加息周期的预期不断升温，以及投资者开始重新审视人工智能（AI）商业化前景，越来越多华尔街机构开始对风险资产未来走势发出警告。",
       "lang": "zh",
-      "score": 50,
+      "score": 51,
       "insight": {
-        "what": "溜溜梅上市首日暴涨193%，对赌协议仅剩15天",
-        "assets": "📈 港股新股 短期利好；📉 对赌方 风险暴露",
-        "chain": "暴涨触发对赌条款危机，若15天内未达标，可能引发回购（大股东需自掏腰包）或股权稀释",
-        "watch": "对赌截止日股价是否站稳发行价上方"
+        "what": "华尔街警告美联储今年或连续加息三次",
+        "assets": "📉 美股大盘 承压，📉 美债收益率 上行",
+        "chain": "加息预期强化→美元走强→新兴市场资金外流（资金从高风险资产撤出）",
+        "watch": "下次FOMC（美联储议息会议）点阵图及鲍威尔发言"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席Warsh，影响不止利率",
-        "assets": "📈 美元 短期走强；📉 美债收益率 承压",
-        "chain": "Warsh偏鹰（倾向加息），市场预期美联储独立性增强，风险资产（如科技股）可能受压制",
-        "watch": "Warsh是否暗示更激进的缩表（减少市场美元供应）"
+        "what": "特朗普信任美联储主席Kevin Warsh，影响不止利率",
+        "assets": "📈 美元 利好，📉 黄金 承压",
+        "chain": "央行独立性增强→政策可预测性提升→风险偏好改善（市场波动降低）",
+        "watch": "Warsh后续政策表态及通胀数据"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 太空概念股 利好；📉 传统航天股 利空",
-        "chain": "巨额融资暗示估值泡沫，可能引发监管关注（SEC调查），但短期提振风险偏好（投资者追高）",
-        "watch": "SpaceX估值是否突破3000亿美元"
+        "assets": "📈 太空概念股 利好，📈 科技成长股 情绪提振",
+        "chain": "超募反映市场对航天商业化热情→带动相关供应链估值（二级市场跟风效应）",
+        "watch": "SpaceX上市后股价走势及订单数据"
       }
     },
     {
@@ -51,42 +51,50 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "CNBC称AI未带动整体市场，等待催化剂",
-        "assets": "📉 中概科技股 承压；📈 AI芯片股 结构性利好",
-        "chain": "AI板块分化，资金从大盘蓝筹（如腾讯）流向算力（英伟达），但未形成板块轮动（资金切换）",
-        "watch": "中国AI大模型是否出现爆款应用"
+        "what": "CNBC称中国AI尚未全面提振市场",
+        "assets": "📉 中国科技股 中性偏空，📉 AI概念股 分化",
+        "chain": "AI落地慢于预期→资金转向防御板块（如消费、公用事业）→大盘震荡",
+        "watch": "中国AI公司财报及政策支持力度"
       }
     },
     {
       "rank": 5,
+      "title": "黄金交易提醒：金价暴冲破4300美元！美伊突然停战，美联储会议前夜，全球资产大洗牌",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——在全球地缘政治风云突变的背景下，黄金市场再次展现出其独特的敏感性。周一（6月15日），现货黄金连续第三个交易日强势上涨，盘中最高触及4369...",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "金价突破4300美元，美伊停战，美联储会议前资产洗牌",
+        "assets": "📈 黄金 利好，📉 原油 承压，📉 美元 转弱",
+        "chain": "地缘风险消退→避险资金从黄金撤出→但通胀预期支撑金价（实际利率下行）",
+        "watch": "美联储利率决议及中东后续停火执行"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳斯达克高开，石油因美伊协议下跌",
-        "assets": "📈 纳指 短期反弹；📉 原油 利空",
-        "chain": "美伊协议增加原油供应预期（OPEC可能减产对冲），同时科技股受油价下跌成本利好（航空、运输）",
-        "watch": "WTI原油是否跌破70美元/桶"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "日本央行周二料加息至31年来最高水平",
-      "source": "环球市场播报",
-      "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "日本央行周二料加息至31年最高水平",
-        "assets": "📈 日元 升值；📉 日本国债 承压；📉 日经指数 利空",
-        "chain": "加息引发套利交易（借日元买高息资产）平仓，全球风险资产（如新兴市场）短期波动加大",
-        "watch": "日本10年期国债收益率是否突破1.5%"
+        "what": "美伊协议达成，纳指高开，原油下跌",
+        "assets": "📈 美股科技股 利好，📉 原油 承压，📈 航空股 利好",
+        "chain": "油价下跌→运输成本降低→航空公司利润预期改善（成本端受益）",
+        "watch": "WTI（西德克萨斯中质原油）库存数据及协议细节"
       }
     },
     {
       "rank": 7,
+      "title": "日本央行周二料加息至31年来最高水平",
+      "source": "环球市场播报",
+      "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "城堡证券：利率上升将对风险资产构成挑战 美联储最快可能9月加息",
       "source": "环球市场播报",
       "detail": " 城堡证券表示，随着美联储逐步接近新一轮加息周期，加之投资者对人工智能造成经济影响的判断变得更加审慎，风险资产可能面临动荡。",
@@ -94,7 +102,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
       "source": "CNBC",
       "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
@@ -102,20 +110,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
-      "source": "CNBC",
-      "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
-      "lang": "en",
-      "score": 32
     }
   ]
 }

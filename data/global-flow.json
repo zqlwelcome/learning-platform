@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 07:35",
+  "updateTime": "2026-06-16 07:41",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -28,8 +28,18 @@
   },
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": null,
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0.0,
+    "sgt": 5200000.0,
+    "total": 0.0
+  },
   "bank_news": [
+    {
+      "title": "澳大利亚联储今日公布利率决议 澳债价格下跌",
+      "source": "环球市场播报",
+      "keyword": "利率"
+    },
     {
       "title": "日本央行周二料加息至31年来最高水平",
       "source": "环球市场播报",
