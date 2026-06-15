@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 08:15",
+  "updateTime": "2026-06-15 08:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX从10%成功率到2万亿市值，历史性IPO",
-        "assets": "📈 太空概念股 利好; 📈 航天军工ETF 利好",
-        "chain": "IPO定价将拉高整个商业航天板块估值（P/E倍数），并刺激资本涌入相关初创企业",
-        "watch": "SpaceX IPO具体定价区间及认购倍数"
+        "what": "SpaceX历史性IPO，估值达2万亿美元",
+        "assets": "📈 航天军工股 利好；📈 太空经济ETF 利好",
+        "chain": "私人航天公司估值飙升，引发一级市场（未上市企业）IPO热潮，资金从传统军工流向新兴航天",
+        "watch": "SpaceX上市首日涨跌幅及后续融资计划"
       }
     },
     {
@@ -23,14 +23,28 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "本周两只半导体公司IPO上会，新股申购1只",
-        "assets": "📈 半导体板块 情绪提振; 📈 A股次新股 短期活跃",
-        "chain": "半导体IPO密集过会显示政策支持（注册制加速），可能带动芯片产业链（设备/材料）的跟涨情绪",
-        "watch": "IPO审核结果及上市首日涨幅"
+        "what": "本周两只半导体明星公司IPO上会",
+        "assets": "📈 半导体板块 利好；📈 A股次新股 情绪提振",
+        "chain": "半导体IPO密集过会，暗示政策支持（国家大基金注资），资金可能从消费电子转向芯片设计",
+        "watch": "IPO过会成功率及募资规模"
       }
     },
     {
       "rank": 3,
+      "title": "华尔街如何操盘完成SpaceX史上最大规模IPO",
+      "source": "环球市场播报",
+      "detail": "美东时间周三深夜，高盛纽约总部41层一间会议室里，投行团队围坐在一起，分配这单史上最抢手的首次公开募股份额。 埃隆·马斯克通过视频全程远程督办...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "华尔街操盘SpaceX史上最大规模IPO",
+        "assets": "📈 券商投行股 利好；📈 高净值客户配售 受益",
+        "chain": "承销费（投行赚取的中介费）激增，高盛、摩根士丹利等投行收入预期上调，同时带动风险偏好（愿意冒险投资）",
+        "watch": "IPO定价及超额认购倍数"
+      }
+    },
+    {
+      "rank": 4,
       "title": "新西兰经济学家下调GDP增长预期",
       "source": "环球市场播报",
       "detail": "新西兰经济研究所在其官网发布本土经济学家的季度综合预测报告。经济学家预计，2025至2026财年国内生产总值年均增速为0.6%。注：3月份调查预测值为0.8%。",
@@ -38,55 +52,49 @@
       "score": 30,
       "insight": {
         "what": "新西兰经济学家下调GDP增长预期",
-        "assets": "📉 新西兰元 承压; 📉 新西兰国债 收益率下行预期",
-        "chain": "经济放缓预期推动降息定价（利率期货），利差收窄可能引发套利交易平仓（carry trade unwind）",
-        "watch": "新西兰联储下次利率决议及通胀数据"
+        "assets": "📉 新西兰元 承压；📉 新西兰国债 看跌",
+        "chain": "经济放缓打压央行加息预期（加息的概率降低），利差（不同国家利率差）收窄，资金可能流出新西兰流向高息货币",
+        "watch": "新西兰联储下次利率决议及CPI数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
       "source": "CNBC",
       "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街顶级分析师看好这三只股票的增长前景",
-        "assets": "📈 具体个股（需补全名称） 利好; 📈 分析师评级上调 短期催化剂",
-        "chain": "机构背书引发散户跟风（FOMO情绪），短期可能触发期权Gamma squeeze（期权对冲买盘）",
-        "watch": "个股财报及目标价调整动态"
+        "what": "华尔街顶级分析师看好这3只股票增长前景",
+        "assets": "📈 该3只个股 利好；📈 行业ETF 情绪提振",
+        "chain": "分析师评级上调触发量化基金（用电脑模型自动交易）买入，股价短期获动量（上涨趋势动能）支撑，但需警惕过度集中风险",
+        "watch": "3只股票后续财报及机构持仓变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "波动一周后，这些股票处于超买或超卖状态",
-        "assets": "📉 超买股 回调风险; 📈 超卖股 反弹机会",
-        "chain": "RSI（相对强弱指标）极端值预示均值回归，超买区可能触发程序化卖盘（量化抛售），超卖区吸引价值型资金",
-        "watch": "成交量变化及关键支撑/阻力位突破"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "机构：如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元",
-      "source": "环球市场播报",
-      "detail": "澳洲联邦银行的Vivek Dhar在一份研究报告中表示，如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元左右。“我们的预测隐含地假设...",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "机构预测若霍尔木兹海峡解封，布伦特年底跌至80美元",
-        "assets": "📉 布伦特原油 承压; 📉 能源股 利空; 📈 航空股 利好",
-        "chain": "地缘溢价（geopolitical risk premium）消退将压低油价，同时降低通胀预期，可能加速美联储转向鸽派（宽松政策）",
-        "watch": "海峡通行情况、OPEC+产量政策及EIA库存数据"
+        "what": "华尔街震荡一周后，这些股票超买或超卖",
+        "assets": "📉 超买股票 回调风险；📈 超卖股票 反弹机会",
+        "chain": "超买（涨太多）股票可能触发获利回吐（卖出盈利），超卖（跌太多）股票吸引均值回归（价格回到平均）策略入场，资金轮动",
+        "watch": "RSI（相对强弱指标）及成交量变化"
       }
     },
     {
       "rank": 7,
+      "title": "机构：如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元",
+      "source": "环球市场播报",
+      "detail": "澳洲联邦银行的Vivek Dhar在一份研究报告中表示，如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元左右。“我们的预测隐含地假设...",
+      "lang": "zh",
+      "score": 22
+    },
+    {
+      "rank": 8,
       "title": "6月15日周末要闻：美伊达成协议 霍尔木兹海峡将开放 原油下跌 美元走低",
       "source": "环球市场播报",
       "detail": "上周国际市场回顾 6月13日收盘：美股收高道指涨0.7% 市场关注美伊谈判与SpaceX首秀 6月13日美股成交额前20：SpaceX登陆纳斯达克，市值突破2万亿美元...",
@@ -94,7 +102,7 @@
       "score": 22
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
       "source": "CNBC",
       "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
@@ -102,20 +110,12 @@
       "score": 20
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "本周关注多家央行利率决议、中东局势以及G7峰会",
       "source": "环球市场播报",
       "detail": " 本周 一周，美国、英国、日本、澳洲、瑞士、瑞典和挪威的央行政策决议，以及中东局势和在法国举行的七国集团（G7）峰会，将令交易员们保持警惕。",
       "lang": "zh",
       "score": 18
-    },
-    {
-      "rank": 10,
-      "title": "Stock futures jump after the U.S. and Iran reach a deal to end the war: Live updates",
-      "source": "CNBC",
-      "detail": "The three major indexes are coming off a winning week.",
-      "lang": "en",
-      "score": 17
     }
   ]
 }
