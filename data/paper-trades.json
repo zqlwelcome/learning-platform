@@ -1,7 +1,7 @@
 {
   "version": 6,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-15T05:30:13.882Z",
+  "updateTime": "2026-06-15T12:45:10.861Z",
   "newsSource": "live-hot-news.json",
   "modelTuning": {
     "duplicateCooldownDays": 15,
@@ -18,20 +18,20 @@
   "macro": {
     "rateUp": true,
     "rateDown": false,
-    "oilShock": true,
+    "oilShock": false,
     "aiCapex": true,
     "riskOff": false,
-    "chinaSupport": true,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 中国资产等待政策和数据确认"
+    "chinaSupport": false,
+    "label": "利率压力偏高 / 人工智能资本开支仍是主线"
   },
   "candidates": [
     {
-      "symbol": "hk03033",
-      "code": "3033",
-      "name": "恒生科技ETF",
-      "market": "港股",
+      "symbol": "usXLK",
+      "code": "XLK",
+      "name": "科技精选ETF",
+      "market": "美股",
       "kind": "ETF",
-      "eventType": "政策类",
+      "eventType": "宏观类",
       "score": 10,
       "assetBucket": "科技成长",
       "eventAlignment": {
@@ -52,151 +52,37 @@
         "quality": 15,
         "risk": 14
       },
-      "allocationPct": 8,
-      "portfolioCap": 61,
+      "allocationPct": 7,
+      "portfolioCap": 62,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
       "actionPlan": {
         "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
-        "buyWhat": "恒生科技ETF 3033，基金/ETF方向验证。",
+        "buyWhat": "科技精选ETF XLK，基金/ETF方向验证。",
         "buyWhy": "入场确认 83/100，当前为谨慎模式；五因子：催化20/价格16/资金18/质量15/风险14。谨慎模式 / 成长降权。",
-        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
-      }
-    },
-    {
-      "symbol": "sz159928",
-      "code": "159928",
-      "name": "消费ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "政策类",
-      "score": 10,
-      "assetBucket": "中国资产",
-      "eventAlignment": {
-        "pass": true,
-        "reason": "中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。"
-      },
-      "confirmationScore": 83,
-      "confirmationReasons": [
-        "催化20/20",
-        "资金18/20",
-        "风险18/20",
-        "质量15/20"
-      ],
-      "entryFactors": {
-        "catalyst": 20,
-        "price": 12,
-        "flow": 18,
-        "quality": 15,
-        "risk": 18
-      },
-      "allocationPct": 11,
-      "portfolioCap": 61,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式",
-      "actionPlan": {
-        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
-        "buyWhat": "消费ETF 159928，基金/ETF方向验证。",
-        "buyWhy": "入场确认 83/100，当前为谨慎模式；五因子：催化20/价格12/资金18/质量15/风险18。谨慎模式。",
-        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
-      }
-    },
-    {
-      "symbol": "usGLD",
-      "code": "GLD",
-      "name": "黄金ETF",
-      "market": "美股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 10,
-      "assetBucket": "商品与避险",
-      "eventAlignment": {
-        "pass": false,
-        "reason": "商品/避险需要油价、黄金、地缘或通胀线索直接确认。"
-      },
-      "confirmationScore": 90,
-      "confirmationReasons": [
-        "催化20/20",
-        "质量19/20",
-        "资金18/20",
-        "风险18/20"
-      ],
-      "entryFactors": {
-        "catalyst": 20,
-        "price": 15,
-        "flow": 18,
-        "quality": 19,
-        "risk": 18
-      },
-      "allocationPct": 12,
-      "portfolioCap": 61,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 防御保留 / 确认分高",
-      "actionPlan": {
-        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
-        "buyWhat": "黄金ETF GLD，基金/ETF方向验证。",
-        "buyWhy": "入场确认 90/100，当前为谨慎模式；五因子：催化20/价格15/资金18/质量19/风险18。谨慎模式 / 防御保留 / 确认分高。",
-        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
-      }
-    },
-    {
-      "symbol": "sh512880",
-      "code": "512880",
-      "name": "证券ETF",
-      "market": "A股",
-      "kind": "ETF",
-      "eventType": "宏观类",
-      "score": 10,
-      "assetBucket": "中国资产",
-      "eventAlignment": {
-        "pass": false,
-        "reason": "中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。"
-      },
-      "confirmationScore": 93,
-      "confirmationReasons": [
-        "催化20/20",
-        "价格20/20",
-        "资金20/20",
-        "风险18/20"
-      ],
-      "entryFactors": {
-        "catalyst": 20,
-        "price": 20,
-        "flow": 20,
-        "quality": 15,
-        "risk": 18
-      },
-      "allocationPct": 12,
-      "portfolioCap": 61,
-      "riskMode": "谨慎",
-      "allocationReason": "谨慎模式 / 确认分高",
-      "actionPlan": {
-        "entryWindow": "模拟窗口：今日到下一个交易日，等待分时回落或收盘确认后记录。",
-        "buyWhat": "证券ETF 512880，基金/ETF方向验证。",
-        "buyWhy": "入场确认 93/100，当前为谨慎模式；五因子：催化20/价格20/资金20/质量15/风险18。谨慎模式 / 确认分高。",
         "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
       }
     }
   ],
   "stats": {
-    "sampleCount": 13,
-    "rawSampleCount": 21,
-    "activeCount": 7,
+    "sampleCount": 14,
+    "rawSampleCount": 22,
+    "activeCount": 8,
     "closedCount": 3,
     "waitingCount": 3,
     "excludedCount": 8,
     "reviewedCount": 3,
     "winRate": 33,
     "avgPnl": -0.9566666666666667,
-    "equity": 100069.25258907817,
-    "exposurePct": 55,
-    "portfolioCap": 61,
+    "equity": 100182.69700501036,
+    "exposurePct": 62,
+    "portfolioCap": 62,
     "riskMode": "谨慎",
     "alerts": 0,
     "benchmark": {
-      "modelReturnPct": 0.07,
-      "benchmarkAvgPct": 1.02,
-      "relativePct": -0.95,
+      "modelReturnPct": 0.18,
+      "benchmarkAvgPct": 1.2,
+      "relativePct": -1.02,
       "quality": "sample-based",
       "strictHistoryStatus": "pending-historical-price-ingestion",
       "refs": [
@@ -221,16 +107,16 @@
         {
           "symbol": "sh510300",
           "label": "沪深300ETF 510300",
-          "samplePnlPct": 1.22,
+          "samplePnlPct": 1.93,
           "entryDate": "2026-06-09"
         }
       ],
       "note": "当前基准来自模拟盘内代表ETF样本，已可做方向参考；严格版仍需稳定历史行情源记录每个入场日的基准价格。"
     },
     "costAdjusted": {
-      "modelReturnPctAfterCost": -0.08,
-      "avgNetPnlPct": -0.34,
-      "estimatedTotalCost": 148,
+      "modelReturnPctAfterCost": 0.02,
+      "avgNetPnlPct": -0.13,
+      "estimatedTotalCost": 162,
       "assumptions": {
         "ETF": "估算单次完整买卖成本/滑点 0.20%",
         "Stock": "估算单次完整买卖成本/滑点 0.35%",
@@ -238,12 +124,20 @@
       },
       "samples": [
         {
-          "symbol": "sh512880",
-          "name": "证券ETF",
+          "symbol": "usXLK",
+          "name": "科技精选ETF",
           "status": "仓位等待",
           "grossPnlPct": 0,
           "roundTripCostPct": 0.2,
           "netPnlPct": -0.2
+        },
+        {
+          "symbol": "sh512880",
+          "name": "证券ETF",
+          "status": "仓位等待",
+          "grossPnlPct": 0.94,
+          "roundTripCostPct": 0.2,
+          "netPnlPct": 0.74
         },
         {
           "symbol": "usGLD",
@@ -256,18 +150,18 @@
         {
           "symbol": "sz159928",
           "name": "消费ETF",
-          "status": "仓位等待",
-          "grossPnlPct": 0,
+          "status": "观察中",
+          "grossPnlPct": 0.62,
           "roundTripCostPct": 0.2,
-          "netPnlPct": -0.2
+          "netPnlPct": 0.42
         },
         {
           "symbol": "hk03033",
           "name": "恒生科技ETF",
           "status": "观察中",
-          "grossPnlPct": 0,
+          "grossPnlPct": 0.3,
           "roundTripCostPct": 0.2,
-          "netPnlPct": -0.2
+          "netPnlPct": 0.1
         },
         {
           "symbol": "usUSO",
@@ -292,14 +186,6 @@
           "grossPnlPct": 1.91,
           "roundTripCostPct": 0.2,
           "netPnlPct": 1.71
-        },
-        {
-          "symbol": "sh510300",
-          "name": "沪深300ETF",
-          "status": "复盘中",
-          "grossPnlPct": 1.22,
-          "roundTripCostPct": 0.2,
-          "netPnlPct": 1.02
         }
       ]
     },
@@ -309,15 +195,30 @@
         "count": 4,
         "closedCount": 0,
         "winRate": null,
-        "exposurePct": 39,
-        "grossAvgPnlPct": 0.61,
-        "netAvgPnlPct": 0.41,
+        "exposurePct": 35,
+        "grossAvgPnlPct": 1.21,
+        "netAvgPnlPct": 1.01,
         "worst": {
-          "symbol": "sh512880",
-          "name": "证券ETF",
-          "pnlPct": 0
+          "symbol": "sz159928",
+          "name": "消费ETF",
+          "pnlPct": 0.62
         },
         "verdict": "可继续按原仓位上限验证。"
+      },
+      {
+        "bucket": "科技成长",
+        "count": 5,
+        "closedCount": 2,
+        "winRate": 50,
+        "exposurePct": 30,
+        "grossAvgPnlPct": -0.09,
+        "netAvgPnlPct": -0.29,
+        "worst": {
+          "symbol": "sh512760",
+          "name": "芯片ETF",
+          "pnlPct": -3.8
+        },
+        "verdict": "暂不扩大仓位，等待更多正样本。"
       },
       {
         "bucket": "商品与避险",
@@ -333,21 +234,6 @@
           "pnlPct": -4.47
         },
         "verdict": "商品类先降速验证：只接受价格、资金、风险三项同时确认。"
-      },
-      {
-        "bucket": "科技成长",
-        "count": 4,
-        "closedCount": 2,
-        "winRate": 50,
-        "exposurePct": 24,
-        "grossAvgPnlPct": -0.19,
-        "netAvgPnlPct": -0.39,
-        "worst": {
-          "symbol": "sh512760",
-          "name": "芯片ETF",
-          "pnlPct": -3.8
-        },
-        "verdict": "暂不扩大仓位，等待更多正样本。"
       },
       {
         "bucket": "防御资产",
@@ -469,7 +355,6 @@
       "status": "继续小仓验证",
       "nextAction": "不提高仓位上限，优先扩大样本和复盘失败原因。",
       "warnings": [
-        "扣除交易成本后仍为负，不能扩大真实仓位。",
         "当前跑输参考基准，需要先优化筛选和退出纪律。",
         "商品/能源样本拖累明显，必须单独建模，不再与科技或指数样本混在一起判断胜率。"
       ],
@@ -501,13 +386,68 @@
   ],
   "trades": [
     {
+      "symbol": "usXLK",
+      "code": "XLK",
+      "name": "科技精选ETF",
+      "market": "美股",
+      "kind": "ETF",
+      "entryPrice": 184.8,
+      "allocationPct": 7,
+      "portfolioCap": 62,
+      "riskMode": "谨慎",
+      "allocationReason": "谨慎模式 / 成长降权",
+      "eventTitle": "巴基斯坦央行：未来几个月通胀率可能维持在两位数水...",
+      "eventType": "宏观类",
+      "score": 10,
+      "confirmationScore": 83,
+      "confirmationReasons": [
+        "催化20/20",
+        "资金18/20",
+        "价格16/20",
+        "质量15/20"
+      ],
+      "entryFactors": {
+        "catalyst": 20,
+        "price": 16,
+        "flow": 18,
+        "quality": 15,
+        "risk": 14
+      },
+      "actionPlan": {
+        "entryWindow": "模拟窗口：未来1-3个交易日，只在回踩不破时记录。",
+        "buyWhat": "科技精选ETF XLK，基金/ETF方向验证。",
+        "buyWhy": "入场确认 83/100，当前为谨慎模式；五因子：催化20/价格16/资金18/质量15/风险14。谨慎模式 / 成长降权。",
+        "sellWhen": "卖出纪律：ETF/基金盈利10%-18%复盘，亏损-8%退出，持有满10日必须给结论。"
+      },
+      "themes": [
+        "us-growth",
+        "software",
+        "ai"
+      ],
+      "assetBucket": "科技成长",
+      "eventAlignment": {
+        "pass": false,
+        "reason": "科技成长需要AI、芯片、软件或数据中心线索直接确认。"
+      },
+      "id": "2026-06-15-usXLK-宏观类",
+      "entryDate": "2026-06-15",
+      "status": "仓位等待",
+      "capital": 100000,
+      "entryValue": 0,
+      "currentValue": 0,
+      "currentPrice": 184.8,
+      "pnlPct": 0,
+      "ageDays": 0,
+      "checkpoints": {}
+    },
+    {
       "symbol": "sh512880",
       "code": "512880",
       "name": "证券ETF",
       "market": "A股",
       "kind": "ETF",
       "entryPrice": 1.062,
-      "allocationPct": 12,
+      "allocationPct": 11,
       "portfolioCap": 61,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 确认分高",
@@ -550,8 +490,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 1.062,
-      "pnlPct": 0,
+      "currentPrice": 1.072,
+      "pnlPct": 0.9416195856873831,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -615,7 +555,7 @@
       "market": "A股",
       "kind": "ETF",
       "entryPrice": 0.65,
-      "allocationPct": 11,
+      "allocationPct": 10,
       "portfolioCap": 61,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式",
@@ -652,12 +592,12 @@
       },
       "id": "2026-06-15-sz159928-政策类",
       "entryDate": "2026-06-15",
-      "status": "仓位等待",
+      "status": "观察中",
       "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 0.65,
-      "pnlPct": 0,
+      "entryValue": 10000,
+      "currentValue": 10061.538461538461,
+      "currentPrice": 0.654,
+      "pnlPct": 0.6153846153846159,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -668,7 +608,7 @@
       "market": "港股",
       "kind": "ETF",
       "entryPrice": 4.654,
-      "allocationPct": 8,
+      "allocationPct": 7,
       "portfolioCap": 61,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -709,10 +649,10 @@
       "entryDate": "2026-06-15",
       "status": "观察中",
       "capital": 100000,
-      "entryValue": 8000,
-      "currentValue": 8000,
-      "currentPrice": 4.654,
-      "pnlPct": 0,
+      "entryValue": 7000.000000000001,
+      "currentValue": 7021.057155135369,
+      "currentPrice": 4.668,
+      "pnlPct": 0.3008165019338254,
       "ageDays": 0,
       "checkpoints": {}
     },
@@ -899,7 +839,7 @@
       "market": "A股",
       "kind": "ETF",
       "entryPrice": 4.826,
-      "allocationPct": 7,
+      "allocationPct": 6,
       "portfolioCap": 58,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 确认分偏低",
@@ -930,10 +870,10 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 7000.000000000001,
-      "currentValue": 7085.57811852466,
-      "currentPrice": 4.885,
-      "pnlPct": 1.222544550352262,
+      "entryValue": 6000,
+      "currentValue": 6115.6237049316205,
+      "currentPrice": 4.919,
+      "pnlPct": 1.9270617488603394,
       "ageDays": 6,
       "checkpoints": {
         "d1": {
@@ -957,7 +897,7 @@
       "market": "港股",
       "kind": "ETF",
       "entryPrice": 24.9,
-      "allocationPct": 9,
+      "allocationPct": 8,
       "portfolioCap": 58,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式",
@@ -988,10 +928,10 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 9000,
-      "currentValue": 9108.43373493976,
-      "currentPrice": 25.2,
-      "pnlPct": 1.2048192771084365,
+      "entryValue": 8000,
+      "currentValue": 8109.236947791164,
+      "currentPrice": 25.24,
+      "pnlPct": 1.3654618473895577,
       "ageDays": 6,
       "checkpoints": {
         "d1": {
