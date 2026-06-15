@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 04:46",
+  "updateTime": "2026-06-16 04:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席Warsh，影响远超利率",
-        "assets": "📈 美元 利好；📉 美债 承压",
-        "chain": "市场押注Warsh偏鹰（收紧政策），推升美元，压制美债价格（收益率上行）",
-        "watch": "Warsh政策立场、美联储票委讲话"
+        "what": "特朗普信任美联储主席凯文·沃什，影响不止利率",
+        "assets": "📉 美元 承压, 📈 美债 利好",
+        "chain": "沃什偏鸽（倾向宽松），可能加速降息（借钱成本降低），压低美元并推高债价",
+        "watch": "沃什公开讲话及美联储利率决议"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX IPO创纪录首日大涨，涨势或延续",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "SpaceX估值飙升带动太空板块风险偏好（Risk-on），资金可能从传统航空流出",
-        "watch": "SpaceX成交量、太空ETF（如ARKX）资金流"
+        "what": "SpaceX创华尔街首秀纪录，涨势料持续",
+        "assets": "📈 SpaceX 股票 利好, 📈 航天板块 联动",
+        "chain": "首日暴涨提振IPO（首次公开募股）市场情绪，吸引资金涌入航天及科技股",
+        "watch": "SpaceX后续股价成交量及锁定期解禁"
       }
     },
     {
@@ -37,53 +37,47 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO实际融资额较预期高出100亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 一级市场 情绪提振",
-        "chain": "超额认购（需求旺盛）暗示机构抢筹，可能推高二级市场开盘溢价（开盘价高于发行价）",
-        "watch": "SpaceX首日收盘价、后续解禁（锁定期）安排"
+        "what": "SpaceX IPO募资额比预期多100亿美元",
+        "assets": "📈 SpaceX 股票 利好, 📉 其他航天股 竞争压力",
+        "chain": "超额募资显示需求强劲，但可能引发板块内资金虹吸（资金从同类股流出）",
+        "watch": "SpaceX财报及产能扩张计划"
       }
     },
     {
       "rank": 4,
+      "title": "SpaceX IPO leaves retail investors with too few shares and a tough hold-or-sell decision - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "散户在SpaceX IPO中获配极少，面临持有或卖出难题",
+        "assets": "📉 SpaceX 散户持仓 承压, 📈 机构持仓 集中",
+        "chain": "散户筹码少导致流动性不足，若多数选择持有可能推高波动率（价格剧烈波动）",
+        "watch": "SpaceX散户持股比例及换手率"
+      }
+    },
+    {
+      "rank": 5,
       "title": "承销商行使绿鞋超额配售权，SpaceX IPO募资总额达857亿美元",
       "source": "环球市场播报",
       "detail": "核心要点 承销商行使 “绿鞋” 超额配售权后，SpaceX 本次 IPO 募资总额升至 857 亿美元。 本次超额配售规模，超过史上绝大多数科技企业 IPO 的募资体量。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "承销商行使绿鞋，SpaceX总募资达857亿美元",
-        "assets": "📈 SpaceX股票 利好；📉 做空SpaceX 承压",
-        "chain": "绿鞋（超额配售权）稳定股价，防止破发（跌破发行价），短期空头（看跌者）被迫回补",
-        "watch": "SpaceX股价是否守住发行价、卖空比例"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
-      "source": "环球市场播报",
-      "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "承销商行使绿鞋，SpaceX总融资额857亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 科技IPO 情绪提振",
-        "chain": "绿鞋执行确认需求强劲，可能吸引更多科技公司加速IPO（首次公开募股）窗口",
-        "watch": "其他科技股IPO申请数量"
+        "what": "承销商行使绿鞋超额配售权，SpaceX IPO总融资857亿美元",
+        "assets": "📈 SpaceX 股票 稳定, 📉 空头 承压",
+        "chain": "绿鞋（超额配售选择权）增加供应但稳定股价，压制做空（押注下跌）空间",
+        "watch": "SpaceX股价是否跌破发行价"
       }
     },
     {
       "rank": 6,
-      "title": "Nvidia Stock Retakes Key Level As Chipmaker Plans Bond Offering - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "英伟达股价重上关键位，计划发行债券融资",
-        "assets": "📈 英伟达 利好；📈 半导体板块 利好",
-        "chain": "发债（借钱）而非发股（稀释股权），利好现有股东；股价重上关键均线（技术支撑）触发量化买盘",
-        "watch": "英伟达债券评级、AI芯片订单数据"
-      }
+      "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
+      "source": "环球市场播报",
+      "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
+      "lang": "zh",
+      "score": 40
     },
     {
       "rank": 7,
@@ -95,14 +89,6 @@
     },
     {
       "rank": 8,
-      "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38
-    },
-    {
-      "rank": 9,
       "title": "瑞银认为油价下跌将缓解美联储主席沃什面临的加息压力",
       "source": "环球市场播报",
       "detail": " 瑞银集团的Leslie Falconio表示，美国和伊朗宣称双方达成协议重新开放霍尔木兹海峡，抑制了油价并引发美国国债市场上涨之后，美联储今年加息的压力正在缓解。",
@@ -110,12 +96,20 @@
       "score": 36
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美债全线上扬 伊朗协议促使交易员削减对美联储的加息押注",
       "source": "环球市场播报",
       "detail": "美债上涨，伊朗临时协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
       "lang": "zh",
       "score": 36
+    },
+    {
+      "rank": 10,
+      "title": "Dow climbs more than 450 points for record close as oil tumbles on potential Iran deal - CNBC",
+      "source": "CNBC",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
