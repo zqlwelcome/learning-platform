@@ -1,36 +1,50 @@
 {
-  "updateTime": "2026-06-16 07:40",
+  "updateTime": "2026-06-16 07:46",
   "news": [
     {
       "rank": 1,
+      "title": "瑞银：油价回落缓解沃什加息压力 美联储或按兵不动直至2027年转向降息",
+      "source": "智通财经APP",
+      "detail": "瑞银全球财富管理固定收益策略主管莱斯利·法尔科尼奥表示，在美国和伊朗宣布达成协议、重开霍尔木兹海峡之后，油价受到抑制，美国国债市场随之上涨...",
+      "lang": "zh",
+      "score": 54,
+      "insight": {
+        "what": "瑞银预计油价回落缓解加息压力，美联储或暂停至2027年",
+        "assets": "📈 美股大盘 利好；📉 美元指数 承压",
+        "chain": "油价跌→通胀预期降→加息概率降→风险资产（股票、债券）估值修复",
+        "watch": "WTI原油（西德克萨斯中质原油）价格是否跌破70美元"
+      }
+    },
+    {
+      "rank": 2,
       "title": "华尔街机构警告美股未来将面临更多挑战 美联储今年或连续加息三次",
       "source": "智通财经APP",
       "detail": " 随着市场对美联储重启加息周期的预期不断升温，以及投资者开始重新审视人工智能（AI）商业化前景，越来越多华尔街机构开始对风险资产未来走势发出警告。",
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "华尔街警告美联储今年或连续加息三次",
-        "assets": "📉 美股大盘 承压，📉 美债收益率 上行",
-        "chain": "加息预期强化→美元走强→新兴市场资金外流（资金从高风险资产撤出）",
-        "watch": "下次FOMC（美联储议息会议）点阵图及鲍威尔发言"
+        "what": "华尔街机构警告美股面临更多挑战，美联储今年或连续加息三次",
+        "assets": "📉 美股科技股 利空；📈 美元指数 利好",
+        "chain": "加息预期升温→无风险利率（国债收益率）上升→高估值成长股（如科技股）承压",
+        "watch": "美联储点阵图（利率预测）及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席Kevin Warsh，影响不止利率",
-        "assets": "📈 美元 利好，📉 黄金 承压",
-        "chain": "央行独立性增强→政策可预测性提升→风险偏好改善（市场波动降低）",
-        "watch": "Warsh后续政策表态及通胀数据"
+        "what": "特朗普信任美联储主席沃什，影响超越利率决策",
+        "assets": "📈 美元指数 利好；📉 美债 承压",
+        "chain": "政治信任→沃什决策独立性存疑→市场定价包含政治风险→长期利率溢价上升",
+        "watch": "沃什公开讲话及特朗普政策表态"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX IPO raised $10bn more than thought - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -38,37 +52,23 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 太空概念股 利好，📈 科技成长股 情绪提振",
-        "chain": "超募反映市场对航天商业化热情→带动相关供应链估值（二级市场跟风效应）",
-        "watch": "SpaceX上市后股价走势及订单数据"
+        "assets": "📈 太空概念股 利好；📈 美股IPO市场 利好",
+        "chain": "巨额融资→太空经济估值提升→带动卫星、火箭相关供应链（如材料、电子）需求",
+        "watch": "SpaceX上市后首日涨幅及后续订单"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "CNBC称中国AI尚未全面提振市场",
-        "assets": "📉 中国科技股 中性偏空，📉 AI概念股 分化",
-        "chain": "AI落地慢于预期→资金转向防御板块（如消费、公用事业）→大盘震荡",
-        "watch": "中国AI公司财报及政策支持力度"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "黄金交易提醒：金价暴冲破4300美元！美伊突然停战，美联储会议前夜，全球资产大洗牌",
-      "source": "滚动播报",
-      "detail": "汇通财经APP讯——在全球地缘政治风云突变的背景下，黄金市场再次展现出其独特的敏感性。周一（6月15日），现货黄金连续第三个交易日强势上涨，盘中最高触及4369...",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "金价突破4300美元，美伊停战，美联储会议前资产洗牌",
-        "assets": "📈 黄金 利好，📉 原油 承压，📉 美元 转弱",
-        "chain": "地缘风险消退→避险资金从黄金撤出→但通胀预期支撑金价（实际利率下行）",
-        "watch": "美联储利率决议及中东后续停火执行"
+        "what": "CNBC报道中国AI尚未全面提振市场",
+        "assets": "📉 中国科技股 承压；📉 恒生指数 承压",
+        "chain": "AI落地慢→市场缺乏新增长点→资金转向防御性板块（如公用事业、消费）",
+        "watch": "中国AI企业财报及大模型应用渗透率数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "美伊协议达成，纳指高开，原油下跌",
-        "assets": "📈 美股科技股 利好，📉 原油 承压，📈 航空股 利好",
-        "chain": "油价下跌→运输成本降低→航空公司利润预期改善（成本端受益）",
-        "watch": "WTI（西德克萨斯中质原油）库存数据及协议细节"
+        "what": "纳斯达克高开，油价因美伊协议下跌",
+        "assets": "📈 纳斯达克指数 利好；📉 原油 利空",
+        "chain": "美伊协议→原油供给增加预期→油价跌→航空、运输成本降→相关板块（如航空股）受益",
+        "watch": "伊朗原油出口量及OPEC（石油输出国组织）后续产量决议"
       }
     },
     {
