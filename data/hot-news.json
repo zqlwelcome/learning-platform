@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 06:26",
+  "updateTime": "2026-06-16 06:29",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,17 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "美联储本周可能首次对特朗普通胀预期采取强硬措施。",
+        "assets": [
+          "美股",
+          "美债",
+          "美元"
+        ],
+        "chain": "美联储鹰派表态→市场加息预期升温→美元走强，美债收益率上升，美股承压。",
+        "watch": "关注FOMC声明措辞及点阵图变化。"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +109,16 @@
       "source": "CNBC",
       "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX上市首日股价飙升20%，市场热情高涨。",
+        "assets": [
+          "SpaceX股票",
+          "航天板块"
+        ],
+        "chain": "SpaceX成功上市且首日大涨→投资者看好其商业航天前景→短期追涨需谨慎，长期关注盈利模式。",
+        "watch": "后续财报及订单情况"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +126,13 @@
       "source": "CNBC",
       "detail": "Nvidia is set raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "英伟达计划首次大规模发债融资至少200亿美元",
+        "assets": "📈 英伟达股票 中性偏多（发债增加杠杆，但不稀释股权）\n📈 美国投资级债券 供应增加（高评级芯片龙头债券供给）",
+        "chain": "发债（借钱）增加杠杆，暗示对AI算力需求持续乐观，但可能挤压其他科技债发行空间（挤出效应）",
+        "watch": "发债利率定价（融资成本）及后续AI订单数据（验证需求）"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +140,13 @@
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "油价暴跌+伊朗和谈预期推动道指创历史新高",
+        "assets": "📈 美股道指 利好\n📉 原油期货 承压",
+        "chain": "油价下跌降低通胀预期（物价上涨压力减轻），利好消费和运输板块，但利空能源股；美元或走强（资金回流美元资产）",
+        "watch": "伊朗核协议进展及WTI原油（美国西德州轻质原油）价格是否跌破70美元"
+      }
     }
   ]
 }
