@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 03:10",
+  "updateTime": "2026-06-16 03:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "道指涨600点创历史新高，特朗普签署伊朗协议备忘录",
-        "assets": "📈 美股大盘 利好；📉 原油 承压；📈 美元 走强",
-        "chain": "地缘风险缓和（伊朗协议）压低油价，利好运输和消费板块；风险偏好（投资者愿意冒险）上升推高美股",
-        "watch": "伊朗协议执行细节及原油库存数据"
+        "what": "SpaceX上市首日大涨，承销商行使超额配售权",
+        "assets": "📈 SpaceX 股票 利好\n📈 美股航天板块 利好",
+        "chain": "IPO热钱涌入，利好一级市场（未上市公司融资环境），可能带动SPAC（特殊目的收购公司）活跃",
+        "watch": "SpaceX后续财报及订单量"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "特朗普签署伊朗协议备忘录，道指大涨600点创新高",
+        "assets": "📈 美股大盘 利好\n📉 原油 承压\n📈 新兴市场货币 利好",
+        "chain": "地缘风险（伊朗冲突）缓解，避险情绪降温，油价预期走低，利好进口国（如印度、日本）",
+        "watch": "伊朗协议后续执行及OPEC（石油输出国组织）产量调整"
+      }
     },
     {
       "rank": 3,
@@ -31,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO首日大涨，华尔街首秀创纪录",
-        "assets": "📈 SpaceX股票 利好；📈 航天军工板块 利好",
-        "chain": "SpaceX估值提升带动航天供应链（上游零部件商）需求预期；科技股IPO（新股上市）情绪回暖",
-        "watch": "SpaceX后续订单及发射任务进度"
+        "what": "伊朗协议导致美债收益率下滑，市场重估加息路径",
+        "assets": "📈 美债 利好\n📉 美元 承压\n📈 黄金 利好",
+        "chain": "降息预期（借钱成本降低）升温，利空银行股（净息差收窄），利好成长股（未来现金流折现率下降）",
+        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -47,57 +53,57 @@
     },
     {
       "rank": 5,
-      "title": "承销商行使绿鞋超额配售权，SpaceX IPO募资总额达857亿美元",
-      "source": "环球市场播报",
-      "detail": "核心要点 承销商行使 “绿鞋” 超额配售权后，SpaceX 本次 IPO 募资总额升至 857 亿美元。 本次超额配售规模，超过史上绝大多数科技企业 IPO 的募资体量。",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SpaceX承销商行使绿鞋（超额配售权），总募资857亿美元",
-        "assets": "📈 SpaceX股票 中性偏多；📉 二级市场流动性 承压",
-        "chain": "绿鞋机制（稳定股价的期权）增加供应但显示需求强劲；超额配售暗示机构（大资金）看好后市",
-        "watch": "SpaceX股价是否守住发行价及后续财报"
-      }
+      "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38
     },
     {
       "rank": 6,
-      "title": "SpaceX IPO承销商行使“绿鞋”超额配售权，总融资额达857亿美元",
-      "source": "环球市场播报",
-      "detail": "SpaceX首次公开募股（IPO）的承销商已正式行使了超额配售权，使本次IPO的总融资额达到857亿美元。 马斯克旗下的这家航天与人工智能公司上周四已通过首轮发行筹集了750亿美...",
-      "lang": "zh",
-      "score": 40
-    },
-    {
-      "rank": 7,
-      "title": "SpaceX Stock Jumps Again as Elon Musk Unveils Meteoric Revenue Target - Barron's",
-      "source": "Barron's",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 37
-    },
-    {
-      "rank": 8,
-      "title": "瑞银认为油价下跌将缓解美联储主席沃什面临的加息压力",
-      "source": "环球市场播报",
-      "detail": " 瑞银集团的Leslie Falconio表示，美国和伊朗宣称双方达成协议重新开放霍尔木兹海峡，抑制了油价并引发美国国债市场上涨之后，美联储今年加息的压力正在缓解。",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 9,
-      "title": "美债全线上扬 伊朗协议促使交易员削减对美联储的加息押注",
-      "source": "环球市场播报",
-      "detail": "美债上涨，伊朗临时协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 10,
       "title": "SpaceX IPO haul rises to $85.7 billion after underwriters exercise greenshoe - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO总规模达857亿美元，承销商行使绿鞋机制",
+        "assets": "📈 SpaceX 股票 利好\n📈 美股科技股 利好",
+        "chain": "绿鞋（超额配售权）执行显示需求强劲，可能引发机构追高，并提振同类高增长科技股估值",
+        "watch": "SpaceX上市后股价波动及锁定期（6个月）到期抛压"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 8,
+      "title": "3,600 stock trades in 3 months: Breaking down Trump's flurry of investment moves - CBS News",
+      "source": "CBS News",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 9,
+      "title": "'Mag 7' is no more, meet the 'FAB 10': Retail investors buy SpaceX in record numbers for their new portfolio plan",
+      "source": "CNBC",
+      "detail": "Single-stock retail buying was $117 million for SpaceX on its first day of trading, amounting to 56% of all retail purchases, Vanda Research found.",
+      "lang": "en",
+      "score": 30
+    },
+    {
+      "rank": 10,
+      "title": "Oil Executives Are Sounding the Alarm Over Dwindling Stockpiles - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 29
     }
   ]
 }
