@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 17:11",
+  "updateTime": "2026-06-15 17:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 75,
       "insight": {
-        "what": "SpaceX创纪录IPO引发投机热潮",
-        "assets": "📈 美股科技股 利好；📈 风险偏好 升温",
-        "chain": "资金从债市（避险资产）流入股市，推高波动率（市场震荡程度），美联储会议前杠杆（借钱投资）增加",
-        "watch": "美联储利率决议及鲍威尔讲话"
+        "what": "BBC报道AI诈骗激增",
+        "assets": "📉 AI概念股 承压，📉 网络安全股 利好",
+        "chain": "监管收紧风险（政府可能限制AI应用），消费者信心下降，网络安全支出预期增加",
+        "watch": "AI监管法案进展及网络安全公司财报"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 53,
       "insight": {
-        "what": "AI诈骗案激增，欺诈者利用AI技术",
-        "assets": "📉 网络安全股 利好；📈 反欺诈技术股 利好",
-        "chain": "监管压力上升，可能推高企业合规成本（遵守规定的费用），AI监管法案加速落地",
-        "watch": "各国AI监管政策及网络安全财报"
+        "what": "半导体牛股1分钟直线涨停，散户狂欢",
+        "assets": "📈 A股半导体板块 短线利好，📉 其他板块 资金分流",
+        "chain": "游资（短线投机资金）拉抬吸引跟风盘，量化基金（程序化交易）可能触发熔断，监管关注异动",
+        "watch": "该股龙虎榜（主力买卖数据）及交易所问询函"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX盘前股价上涨，延续IPO后涨势",
-        "assets": "📈 SpaceX 直接利好；📈 太空概念股 联动上涨",
-        "chain": "情绪外溢至IPO市场（新股发行），推高新股定价，但警惕获利了结（卖出止盈）",
-        "watch": "SpaceX首日收盘价及换手率（交易活跃度）"
+        "what": "SpaceX创纪录IPO引发投机热潮",
+        "assets": "📈 美股科技股 利好，📈 加密货币 投机情绪传导",
+        "chain": "IPO火爆推高科技股估值，资金从防御板块（如公用事业）流出，风险偏好（愿意冒险）上升",
+        "watch": "美联储利率决议及鲍威尔讲话"
       }
     },
     {
@@ -49,40 +49,34 @@
       "source": "21世纪经济报道",
       "detail": "记者丨林健民 编辑丨李燕娜 6月15日午后，中核科技突然直线拉升，1分钟后涨停，股价报18.06元/股，最新市值69.2亿元。Wind数据显示，中核科技最新股东户数为 86165户。",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "半导体牛股直线涨停，技术突破利好",
-        "assets": "📈 中国半导体板块 利好；📈 科技ETF 利好",
-        "chain": "资金涌入科技股，小盘股（市值小的股票）跟涨，但需防游资（短线投机资金）快进快出",
-        "watch": "涨停板封单量及后续成交量"
-      }
+      "score": 45
     },
     {
       "rank": 5,
-      "title": "U.S. stock futures jump on Iran deal to end the war; Japan's Nikkei surges 5%: Live updates",
-      "source": "CNBC",
-      "detail": "The three major indexes are coming off a winning week.",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "伊朗和谈推高美股期货，日经大涨5%",
-        "assets": "📈 美股期货 利好；📈 日经225 利好；📉 原油 承压",
-        "chain": "地缘风险（地区冲突）溢价消退，油价下跌利好航空和制造业，日元避险需求减弱",
-        "watch": "伊朗协议正式签署及油价走势"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX gains 6% in premarket after record debut",
+      "title": "SpaceX gains 6% in premarket after record debut. Here's what's driving the valuation debate",
       "source": "CNBC",
       "detail": "SpaceX is now valued at over $2 trillion after its stock rallied on the first day of trade.",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "SpaceX盘前涨6%，延续创纪录首日表现",
-        "assets": "📈 SpaceX 直接利好；📈 成长股（高增长公司） 情绪提振",
-        "chain": "散户（个人投资者）追涨情绪高涨，可能引发监管关注，但机构（大资金）或逢高减仓",
-        "watch": "盘前成交量及开盘后资金流向"
+        "what": "SpaceX盘前涨6%，估值争议持续",
+        "assets": "📈 SpaceX相关概念股 利好，📈 太空ETF 利好",
+        "chain": "高估值引发多空博弈，做空机构（押注股价下跌的基金）可能加仓，波动率（价格波动幅度）上升",
+        "watch": "SpaceX首日收盘价及成交量"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "粤芯半导体IPO，过会！创业板第二家未盈利过会企业",
+      "source": "中国证券报",
+      "detail": "6月15日，深交所网站显示，粤芯半导体创业板IPO申请通过深交所上市委审议。 回顾粤芯半导体上市历程，2025年12月19日，公司IPO申请获深交所受理；12月28日...",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "粤芯半导体IPO过会，创业板第二家未盈利企业",
+        "assets": "📈 A股半导体IPO 利好，📈 创业板 情绪提振",
+        "chain": "未盈利上市放宽门槛，利好硬科技公司融资，但增加二级市场（股票交易市场）估值压力",
+        "watch": "粤芯半导体发行市盈率及后续询价情况"
       }
     },
     {
