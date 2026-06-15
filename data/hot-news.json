@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 14:45",
+  "updateTime": "2026-06-15 14:51",
   "news": [
     {
       "rank": 1,
@@ -9,56 +9,42 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗和平协议推动美股期货和日股大涨",
-        "assets": "📈 美股期货 利好；📈 日经指数 利好",
-        "chain": "避险情绪降温（投资者不再恐慌），资金从债市（债券）回流股市（股票）",
-        "watch": "伊朗协议正式签署及执行进展"
+        "what": "伊朗-美国达成和平协议，风险资产飙升",
+        "assets": "📈 美股期货 利好; 📈 日经指数 利好; 📈 亚洲股市 利好",
+        "chain": "避险情绪消退（风险偏好上升），资金从黄金/债券流向股票，日元走弱（避险货币贬值）",
+        "watch": "协议细节及执行情况; 油价是否持续下跌"
       }
     },
     {
       "rank": 2,
-      "title": "港股午评：恒指涨0.45% 科指涨0.92% 黄金股普涨 芯片股强势 华虹宏力涨超11% 溜溜梅上市首日涨超189%",
-      "source": "新浪港股",
-      "detail": "6月15日消息，港股三大指数集体上涨。截至午间收盘，恒生指数涨0.45%，报24829.11，恒生科技指数涨0.92%，国企指数涨0.08%。盘面上，科网股涨跌不一，联想超9%...",
-      "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "港股午盘上涨，黄金和芯片股领涨",
-        "assets": "📈 恒生指数 利好；📈 港股芯片股 利好；📈 港股黄金股 利好",
-        "chain": "地缘缓和（战争风险下降）提振风险偏好（敢买股票），但黄金股涨因避险需求仍存",
-        "watch": "恒指能否突破前高及芯片板块持续性"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "前央行经济学家：伊和平协议不会改变日本央行加息计划",
+      "title": "前日本央行经济学家：美伊协议不会改变日央行加息计划",
       "source": "环球市场播报",
       "detail": "日本央行前首席经济学家龟田清作于周一表示，美伊达成和平协议，大概率不会动摇日本央行今年两次加息的既定预期。 龟田清作在接受采访时称，当前物价上行压力加剧...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "前央行经济学家称伊朗和平协议不影响日本央行加息",
-        "assets": "📈 日元 利好；📈 日本国债收益率 上行",
-        "chain": "加息预期强化（借钱成本升高），利好日元但利空日股（资金成本上升）",
-        "watch": "日本央行下次会议加息概率及通胀数据"
+        "what": "前日央行经济学家称美伊协议不影响加息计划",
+        "assets": "📈 日元 承压; 📈 日本国债收益率 上行",
+        "chain": "日央行维持鹰派预期（加息信号），利差交易（借日元买高息资产）可能回归，日元空头加仓",
+        "watch": "日央行7月会议加息概率; 日本通胀数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SoftBank surges more than 12% as Iran-U.S. peace deal sends Asia stocks soaring",
       "source": "CNBC",
       "detail": "Asian tech stocks surged Monday on news that Iran and the U.S. have reached a peace deal",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "软银因伊朗和平协议暴涨超12%",
-        "assets": "📈 软银股票 利好；📈 亚洲科技股 利好",
-        "chain": "风险偏好飙升（敢追高估值），软银作为科技投资风向标，带动整个板块",
-        "watch": "软银持仓公司（如Arm）股价反应"
+        "what": "软银因和平协议大涨12%，领涨亚洲科技股",
+        "assets": "📈 软银 利好; 📈 亚洲科技股 利好; 📈 日本科技板块 利好",
+        "chain": "风险偏好回升（市场情绪转好），资金轮动（从防御股到成长股），软银持仓（如Arm）估值修复",
+        "watch": "软银持仓组合市值变化; 亚洲科技板块成交量"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "盘点SpaceX IPO最大赢家",
       "source": "环球市场播报",
       "detail": "埃隆．马斯克（Elon Musk）并不是SpaceX IPO的唯一大赢家。凭借手中持有的这家火箭制造商股份，从资深高管到短期员工，再到大学捐赠基金与风投机构...",
@@ -66,35 +52,41 @@
       "score": 30,
       "insight": {
         "what": "盘点SpaceX IPO最大赢家",
-        "assets": "📈 SpaceX概念股 利好；📈 太空经济ETF 利好",
-        "chain": "IPO预期（公司上市）推高关联标的估值（未来价值），资金提前布局",
-        "watch": "SpaceX正式IPO时间表及估值变化"
+        "assets": "📈 SpaceX 上市预期 利好; 📈 太空概念股 利好",
+        "chain": "IPO情绪提振（新股上市热度），早期投资者退出套利，带动相关供应链（如卫星零部件）估值",
+        "watch": "SpaceX IPO时间表; 监管审批进展"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "新一波科技IPO浪潮有望为慈善界带来巨额红利",
       "source": "环球市场播报",
       "detail": "SpaceX、Anthropic和OpenAI的重磅上市活动将在一夜之间造就新一代百万富翁和亿万富翁，这笔新财富有望为美国的慈善组织带来一笔意外之财。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "科技IPO浪潮或为慈善界带来巨额红利",
-        "assets": "📈 科技IPO新股 利好；📈 慈善捐赠类基金 利好",
-        "chain": "IPO造富（股票上市变现金）→慈善捐赠增加→推动相关ETF（交易所交易基金）需求",
-        "watch": "科技公司（如Stripe、Databricks）上市进展"
+        "what": "科技IPO浪潮有望为慈善界带来巨额红利",
+        "assets": "📈 科技IPO板块 利好; 📈 慈善捐赠相关ETF 中性偏多",
+        "chain": "大股东减持（套现后捐赠），二级市场供给增加（短期抛压），但长期利好科技公司品牌价值",
+        "watch": "IPO锁定期到期后大宗交易; 捐赠基金持仓变化"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "光大期货0615黄金点评：本周关注美联储议息会议，谨慎对待黄金波动",
       "source": "市场资讯",
       "detail": "上周黄金波动加剧，伦敦现货周内跌幅超过2%，SHFE黄金周跌超3%。本周为超级央行周，全球主要央行将召开议息会议，重点关注美联储议息会议...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "光大期货：本周关注美联储议息会议，黄金波动谨慎",
+        "assets": "📉 黄金 承压; 📈 美元指数 中性偏强",
+        "chain": "议息会议前市场观望（不确定性高），若鹰派（加息预期）则黄金跌，若鸽派（降息预期）则黄金反弹",
+        "watch": "美联储利率决议及点阵图; 鲍威尔讲话措辞"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
       "source": "CNBC",
       "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "CNBC Daily Open: Iran deal fuels global relief rally",
       "source": "CNBC",
       "detail": "Iran peace deal sparks a global relief rally in stocks amid hopes that the end of the war will ease the energy crisis impacting economies worldwide.",
@@ -110,12 +102,20 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
       "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "金价突破4300美元！黄金类ETF普涨",
+      "source": "21世纪经济报道",
+      "detail": "美伊达成和平协议，激发了黄金投资者的热情。 COMEX黄金期货价格6月15日上午突破4300美元/盎司，上海黄金交易所Au99.99的价格重回940元/克之上，黄金ETF早盘普涨。",
+      "lang": "zh",
+      "score": 22
     }
   ]
 }
