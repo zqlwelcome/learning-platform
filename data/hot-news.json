@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-15 15:15",
+  "updateTime": "2026-06-15 15:21",
   "news": [
     {
       "rank": 1,
+      "title": "告别降息幻想：美联储本周或“鹰爪”毕露，加息大门重新叩响",
+      "source": "智通财经APP",
+      "detail": "美联储本周将迎来6月FOMC会议，此次决议或将成为关键转折点，美联储或删除政策声明中的“宽松倾向”，明确降息不再是政策路径。当前，美国核心通胀加速、就业市场企稳...",
+      "lang": "zh",
+      "score": 54,
+      "insight": {
+        "what": "美联储本周可能鹰派加息，市场降息预期受挫",
+        "assets": "📉 美股科技股 承压，📈 美元指数 上行",
+        "chain": "加息预期（借钱成本提高）打压风险偏好，可能触发股市回调（估值压缩），利好美债收益率上行",
+        "watch": "美联储利率决议声明及点阵图（利率预测）"
+      }
+    },
+    {
+      "rank": 2,
       "title": "U.S. stock futures jump on Iran deal to end the war; Japan's Nikkei surges 5%: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美伊协议推动美股期货和日经大涨",
-        "assets": "📈 美股期货 利好\n📈 日经指数 利好",
-        "chain": "地缘风险溢价下降→风险资产（股票）反弹→避险资产（黄金、美债）承压",
-        "watch": "美伊协议正式签署及执行细节"
+        "what": "伊朗和美国达成协议结束战争，全球股市大涨",
+        "assets": "📈 日本日经指数 大涨，📈 亚洲股市 利好",
+        "chain": "地缘风险（战争不确定性）消退，风险偏好（投资者乐观情绪）飙升，资金从避险资产（如黄金）转向股市",
+        "watch": "协议具体条款及执行情况"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "SpaceX IPO将为硅谷新阶层创造数十亿美元财富",
       "source": "环球市场播报",
       "detail": " SpaceX进行的首次公开募股（IPO），有望为那些早期投资埃隆·马斯克旗下这家火箭、卫星和人工智能公司的极少数幸运投资者带来数十亿美元的利润。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX IPO将造富硅谷新阶层",
-        "assets": "📈 SpaceX及相关科技股 利好\n📈 风投基金 间接利好",
-        "chain": "IPO造富→资金流向消费/慈善→推高相关行业估值（乘数效应）",
-        "watch": "SEC对SpaceX上市申请的审批进度"
+        "what": "SpaceX即将IPO，预计为早期投资者创造巨额财富",
+        "assets": "📈 SpaceX相关概念股 利好，📈 太空产业ETF 利好",
+        "chain": "IPO（新股上市）吸引资金涌入太空板块，但可能分流其他科技股流动性，估值溢价（股价高于基本面）风险增加",
+        "watch": "SpaceX IPO定价及认购倍数（需求热度）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "前日本央行经济学家：美伊协议不会改变日央行加息计划",
       "source": "环球市场播报",
       "detail": "日本央行前首席经济学家龟田清作于周一表示，美伊达成和平协议，大概率不会动摇日本央行今年两次加息的既定预期。 龟田清作在接受采访时称，当前物价上行压力加剧...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "前日央行经济学家称加息计划不受美伊协议影响",
-        "assets": "📉 日元 承压\n📈 日本国债收益率 上行",
-        "chain": "日央行加息预期（短期利率上升）→日元升值（套利交易平仓）→日股回调",
-        "watch": "日央行7月会议实际利率决议"
+        "what": "前日央行经济学家称美伊协议不影响日央行加息计划",
+        "assets": "📈 日元 承压，📉 日本国债 利空",
+        "chain": "日央行加息（提高利率）预期不变，利差（美日利率差）收窄，日元可能反弹，但股市资金外流压力加大",
+        "watch": "日央行7月会议加息概率及通胀数据"
       }
     },
     {
-      "rank": 4,
-      "title": "SoftBank surges more than 12% as Iran-U.S. deal sends Asia stocks soaring",
+      "rank": 5,
+      "title": "SoftBank surges more than 10% as Iran-U.S. deal sends Asia stocks soaring",
       "source": "CNBC",
       "detail": "Asian tech stocks surged Monday on news that Iran and the U.S. have reached a deal.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "软银因美伊协议暴涨12%，带动亚洲股市",
-        "assets": "📈 软银 利好\n📈 亚洲科技股 利好",
-        "chain": "软银（科技投资龙头）暴涨→市场风险偏好（愿意承担风险）回升→资金流入新兴市场",
-        "watch": "软银旗下Arm等资产估值变化"
+        "what": "软银股价因美伊协议和亚洲股市大涨而飙升超10%",
+        "assets": "📈 软银股票 利好，📈 日本科技股 利好",
+        "chain": "风险偏好（投资者情绪）改善，资金涌入成长股（高估值科技股），软银作为科技投资巨头受益于资产重估（估值提升）",
+        "watch": "软银旗下ARM IPO进展及持仓变动"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "盘点SpaceX IPO最大赢家",
       "source": "环球市场播报",
       "detail": "埃隆．马斯克（Elon Musk）并不是SpaceX IPO的唯一大赢家。凭借手中持有的这家火箭制造商股份，从资深高管到短期员工，再到大学捐赠基金与风投机构...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "盘点SpaceX IPO最大赢家",
-        "assets": "📈 SpaceX早期投资者 利好\n📈 太空概念股 利好",
-        "chain": "赢家套现→再投资于其他科技初创→推高一级市场（未上市企业）估值",
-        "watch": "SpaceX IPO定价及锁定期后抛售情况"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "新一波科技IPO浪潮有望为慈善界带来巨额红利",
-      "source": "环球市场播报",
-      "detail": "SpaceX、Anthropic和OpenAI的重磅上市活动将在一夜之间造就新一代百万富翁和亿万富翁，这笔新财富有望为美国的慈善组织带来一笔意外之财。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "科技IPO浪潮或为慈善界带来巨额红利",
-        "assets": "📈 科技股IPO 利好\n📈 慈善基金 间接利好",
-        "chain": "IPO造富→大额捐赠→慈善基金资产增加→长期投资科技股（正反馈循环）",
-        "watch": "科技公司IPO募资总额及创始人承诺捐赠比例"
+        "what": "盘点SpaceX IPO最大赢家，包括早期投资者和员工",
+        "assets": "📈 SpaceX员工股权 利好，📈 太空创业公司 利好",
+        "chain": "IPO造富效应（财富创造）吸引更多资本进入太空领域，可能推高相关公司估值，但需警惕泡沫（价格虚高）风险",
+        "watch": "SpaceX IPO后股价走势及锁定期（禁售期）到期"
       }
     },
     {
       "rank": 7,
+      "title": "新一波科技IPO浪潮有望为慈善界带来巨额红利",
+      "source": "环球市场播报",
+      "detail": "SpaceX、Anthropic和OpenAI的重磅上市活动将在一夜之间造就新一代百万富翁和亿万富翁，这笔新财富有望为美国的慈善组织带来一笔意外之财。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
       "title": "光大期货0615黄金点评：本周关注美联储议息会议，谨慎对待黄金波动",
       "source": "市场资讯",
       "detail": "上周黄金波动加剧，伦敦现货周内跌幅超过2%，SHFE黄金周跌超3%。本周为超级央行周，全球主要央行将召开议息会议，重点关注美联储议息会议...",
@@ -94,7 +102,7 @@
       "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
       "source": "CNBC",
       "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "CNBC Daily Open: Iran deal fuels global relief rally",
       "source": "CNBC",
       "detail": "Iran peace deal sparks a global relief rally in stocks amid hopes that the end of the war will ease the energy crisis impacting economies worldwide.",
       "lang": "en",
       "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
-      "source": "CNBC",
-      "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
-      "lang": "en",
-      "score": 29
     }
   ]
 }
