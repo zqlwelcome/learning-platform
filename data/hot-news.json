@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 21:48",
+  "updateTime": "2026-06-15 21:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX上市首日大涨，创纪录表现",
-        "assets": "📈 SpaceX 股票 利好；📈 太空概念股 利好",
-        "chain": "SpaceX高估值（市值）提振太空板块情绪，吸引资金从传统军工股轮动（资金流向变化）",
-        "watch": "SpaceX后续成交量及估值倍数（市盈率）"
+        "what": "SpaceX上市首日大涨，延续涨势",
+        "assets": "📈 SpaceX股票 利好；📈 太空概念股 联动",
+        "chain": "IPO（首次公开募股）成功会提升市场对私营科技公司估值，带动太空板块ETF（交易型开放式指数基金）资金流入",
+        "watch": "SpaceX后续财报及订单增长数据"
       }
     },
     {
@@ -23,42 +23,28 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX IPO导致其他火箭股下跌，KeyBanc建议抄底",
-        "assets": "📉 其他火箭股（如Rocket Lab） 承压；📈 火箭股 潜在反弹机会",
-        "chain": "短期资金分流（市场流动性转移）压低同行，但基本面未变，买入信号（Buy the dip）出现",
-        "watch": "火箭股财报及订单数据"
+        "what": "KeyBanc建议逢低买入因SpaceX上市而下跌的火箭股",
+        "assets": "📈 火箭股（如Rocket Lab） 反弹机会",
+        "chain": "SpaceX上市分流资金，但火箭股基本面未变，买入信号形成均值回归（价格回到合理水平）交易机会",
+        "watch": "火箭股成交量及机构持仓变化"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX IPO shines a light on the product set to disrupt Wall Street",
-      "source": "CNBC",
-      "detail": "Perp market traders had a form of early access to SpaceX, and the trading closely aligned with later prices in the stock market.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "SpaceX IPO凸显其颠覆华尔街产品",
-        "assets": "📈 SpaceX 股票 利好；📉 传统卫星通信股 利空",
-        "chain": "SpaceX星链（低轨卫星网络）威胁传统通信公司，引发行业估值重估（重新定价）",
-        "watch": "星链用户增长及营收数据"
-      }
-    },
-    {
-      "rank": 4,
       "title": "SpaceX登陆美股：巨型IPO冲击指数纳入规则 标普纳指收益分化",
       "source": "环球市场播报",
       "detail": " 埃隆・马斯克旗下SpaceX上周登陆美股，各大股票指数编制机构如今陷入两难：是恪守成分股纳入标准，还是修改规则以适配当下市场环境——两大目标时常相互冲突。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX巨型IPO冲击标普纳指纳入规则",
-        "assets": "📈 美股大盘指数 承压；📉 小型股 短期承压",
-        "chain": "大市值IPO改变指数权重（成分股比例），被动基金被迫调仓，加剧大小盘分化（市场风格切换）",
-        "watch": "标普和纳斯达克指数调整公告"
+        "what": "SpaceX巨型IPO冲击标普纳指纳入规则，收益分化",
+        "assets": "📉 标普500指数 承压；📈 纳斯达克指数 受益",
+        "chain": "大市值IPO（首次公开募股）迫使指数调整权重，资金从传统成分股流向新巨头，加剧指数间收益分化",
+        "watch": "标普委员会是否修改快速纳入规则"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "SpaceX and OpenAI Are Ending Wall Street’s Era of Stock Scarcity - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -66,32 +52,40 @@
       "score": 44,
       "insight": {
         "what": "SpaceX和OpenAI终结华尔街股票稀缺时代",
-        "assets": "📈 科技成长股 利好；📈 IPO市场 利好",
-        "chain": "大量优质新股供应缓解资金追逐少数股票（集中度风险），分散投资机会，降低科技股泡沫风险",
-        "watch": "后续大型科技公司IPO排队数量"
+        "assets": "📈 科技成长股 利好；📉 旧经济股 承压",
+        "chain": "优质资产供应增加，缓解资金追逐少数股票的泡沫风险（溢价过高），但分流传统板块流动性",
+        "watch": "后续其他私营巨头IPO（如Stripe）进展"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "伊朗协议推动美债收益率下滑，市场重估美联储加息",
-        "assets": "📈 美债 利好（价格上涨）；📉 美元 承压；📈 新兴市场货币 利好",
-        "chain": "地缘缓和（伊朗协议）降低避险需求，油价预期下跌，通胀预期降温，美联储加息预期减弱（利率预期下降）",
-        "watch": "伊朗协议正式签署情况及油价走势"
+        "what": "伊朗协议引发美债收益率下滑，市场重估美联储加息路径",
+        "assets": "📈 美国国债 利好；📉 美元 承压",
+        "chain": "地缘缓和降低避险需求，降息预期（借钱成本降低）升温，收益率曲线（短期和长期利率差）陡化交易活跃",
+        "watch": "伊朗协议正式签署及美联储官员最新讲话"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes",
       "source": "CNBC",
       "detail": "The yield on the 10-year U.S. Treasury note — the key benchmark for U.S. government borrowing — fell over 4 basis points to 4.441%.",
       "lang": "en",
       "score": 38
+    },
+    {
+      "rank": 7,
+      "title": "美国股市开盘强劲上涨 芯片及AI板块跃升",
+      "source": "环球市场播报",
+      "detail": " 在美国与伊朗同意重新开放霍尔木兹海峡后，全球股市上涨、债券走强，油价则大幅下跌。市场对持续扰动金融市场的中东冲突有望结束抱持期待，美国股市开盘升势明显。",
+      "lang": "zh",
+      "score": 37
     },
     {
       "rank": 8,
