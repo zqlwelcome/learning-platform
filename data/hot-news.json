@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 19:56",
+  "updateTime": "2026-06-15 20:01",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX启动巨型IPO，可能影响指数纳入规则",
-        "assets": "📈 标普500 承压\n📈 纳斯达克 利好",
-        "chain": "高市值公司IPO会稀释指数权重，促使ETF（指数基金）被动调仓，利好科技板块流动性溢价",
-        "watch": "标普和纳指是否调整纳入门槛"
+        "what": "SpaceX巨型IPO冲击标普纳指纳入规则",
+        "assets": "📈 美股科技股 利好; 📉 标普500指数 承压",
+        "chain": "大市值IPO迫使指数基金调仓（被动资金再平衡），拉大科技与非科技板块估值差（PE分化）",
+        "watch": "标普指数委员会是否调整纳入门槛"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 40,
       "insight": {
         "what": "SpaceX盘前涨6%，估值争议升温",
-        "assets": "📈 SpaceX 利好\n📈 太空概念股 利好",
-        "chain": "高估值预期吸引散户和机构资金涌入，可能引发对冲基金做空（押注下跌）以套利",
-        "watch": "SpaceX上市首日成交量及空头仓位"
+        "assets": "📈 SpaceX及相关太空概念股 利好; 📉 传统航空股 承压",
+        "chain": "高估值引发多空博弈（多空比上升），可能传导至IPO定价模型（折现率调整）",
+        "watch": "首日成交量及机构持仓变化"
       }
     },
     {
@@ -37,64 +37,72 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "伊朗协议推动美债收益率下跌，市场重估加息路径",
-        "assets": "📈 美债 利好\n📉 美元 承压",
-        "chain": "油价预期下降→通胀压力缓解→美联储加息（提高借钱成本）概率降低→风险资产（如股票）受追捧",
-        "watch": "本周CPI（消费者物价指数）数据及美联储官员讲话"
+        "what": "伊朗协议压低美债收益率，市场重估加息路径",
+        "assets": "📈 美债 利好; 📉 美元指数 承压; 📈 原油 承压",
+        "chain": "地缘缓和（风险溢价下降）→通胀预期回落→降息预期提前（利率期货定价上移）",
+        "watch": "美联储官员讲话及CPI数据"
       }
     },
     {
       "rank": 4,
-      "title": "Stocks making the biggest moves premarket: SpaceX, United Airlines, Fox & more",
+      "title": "Stocks making the biggest moves premarket: SpaceX, United Airlines, Roku & more",
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves premarket.",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "SpaceX、美联航等个股盘前异动",
-        "assets": "📈 SpaceX 利好\n📈 美联航 利好\n📈 Fox 利好",
-        "chain": "个股异动反映隔夜情绪，可能触发算法交易（电脑自动买卖）在开盘后放大波动",
-        "watch": "开盘后30分钟成交量及机构买卖报告"
+        "what": "SpaceX、联合航空、Roku盘前异动",
+        "assets": "📈 SpaceX 利好; 📈 联合航空 利好; 📈 Roku 利好",
+        "chain": "个股异动带动板块情绪（资金轮动），Roku或反映流媒体竞争格局变化（用户增长拐点）",
+        "watch": "各公司财报及指引"
       }
     },
     {
       "rank": 5,
-      "title": "小红书据悉已准备好本月在香港提交IPO申请",
-      "source": "环球市场播报",
-      "detail": "据知情人士透露，小红书科技有限公司正准备在本月底前秘密向香港提交首次公开募股（IPO）申请。 这些知情人士透露，这家总部位于上海的公司正与顾问就潜在上市事宜进行合作...",
-      "lang": "zh",
-      "score": 30,
+      "title": "Microsoft CEO warns that a few AI winners could destroy 'entire industries' - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
       "insight": {
-        "what": "小红书本月提交香港IPO申请",
-        "assets": "📈 中概互联网 利好\n📈 港股科技 利好",
-        "chain": "IPO重启标志监管环境放松，可能带动私募市场（非公开融资）估值修复，利好同类标的",
-        "watch": "港交所审核进度及募资规模"
+        "what": "微软CEO警告AI赢家将摧毁整个行业",
+        "assets": "📈 微软及AI龙头 利好; 📉 传统软件/服务股 承压",
+        "chain": "AI替代效应（生产力提升）→行业集中度上升（马太效应）→监管风险升温（反垄断审查）",
+        "watch": "AI相关企业资本支出及裁员数据"
       }
     },
     {
       "rank": 6,
-      "title": "Zhipu Shares Surge 48% After JPMorgan Raises Price Target - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
+      "title": "欧洲央行扩大对银行私募信贷敞口调查 严防非银金融风险向银行体系蔓延",
+      "source": "环球市场播报",
+      "detail": "业内知情人士日前透露，鉴于当前私募信贷行业投资者信心下滑、非银行金融机构风险有所升温，欧洲央行已将针对商业银行与私募信贷关联度的专项调查范围扩大一倍。",
+      "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "智谱AI股涨48%因摩根大通上调目标价",
-        "assets": "📈 智谱AI 利好\n📈 A股AI概念 利好",
-        "chain": "机构评级上调强化AI赛道信心，可能引发散户跟风买入，但需警惕获利盘（已赚钱的卖单）回吐",
-        "watch": "智谱AI后续成交量及机构研报更新"
+        "what": "欧央行扩大对银行私募信贷敞口调查",
+        "assets": "📉 欧洲银行股 承压; 📉 私募信贷市场 利空",
+        "chain": "监管收紧（风险加权资产上升）→银行收缩非标业务（流动性挤压）→传导至企业融资成本（信用利差走阔）",
+        "watch": "欧洲银行股及信用违约互换（CDS）利差"
       }
     },
     {
       "rank": 7,
-      "title": "欧洲央行扩大对银行私募信贷敞口调查 严防非银金融风险向银行体系蔓延",
+      "title": "小红书据悉已准备好本月在香港提交IPO申请",
       "source": "环球市场播报",
-      "detail": "业内知情人士日前透露，鉴于当前私募信贷行业投资者信心下滑、非银行金融机构风险有所升温，欧洲央行已将针对商业银行与私募信贷关联度的专项调查范围扩大一倍。",
+      "detail": "据知情人士透露，小红书科技有限公司正准备在本月底前秘密向香港提交首次公开募股（IPO）申请。 这些知情人士透露，这家总部位于上海的公司正与顾问就潜在上市事宜进行合作...",
       "lang": "zh",
       "score": 30
     },
     {
       "rank": 8,
+      "title": "Zhipu Shares Surge 48% After JPMorgan Raises Price Target - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30
+    },
+    {
+      "rank": 9,
       "title": "Oil Executives Are Sounding the Alarm Over Dwindling Stockpiles - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
@@ -102,20 +110,12 @@
       "score": 29
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Sen. Warren asks Trump if administration plans to raise Social Security retirement age",
       "source": "CNBC",
       "detail": "In a new letter to President Donald Trump, Senator Elizabeth Warren, D-Mass., asks what the administration's plans are for Social Security reform.",
       "lang": "en",
       "score": 27
-    },
-    {
-      "rank": 10,
-      "title": "马斯克预测SpaceX将在2031年前实现万亿美元营收 或涉嫌违反美股“静默期”规定",
-      "source": "环球市场播报",
-      "detail": "SpaceX首席执行官埃隆·马斯克日前在社交媒体上预测，该公司有望在2031年前实现年营收超过1万亿美元。由于SpaceX刚刚完成首次公开募股（IPO）上市...",
-      "lang": "zh",
-      "score": 25
     }
   ]
 }
