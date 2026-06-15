@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 14:11",
+  "updateTime": "2026-06-15 14:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 66,
       "insight": {
-        "what": "美伊达成和平协议，全球市场风险偏好飙升",
-        "assets": "📈 全球股市 利好\n📉 原油 承压\n📈 黄金 利好",
-        "chain": "油价下跌→通胀预期降温→美联储加息押注减少→美债收益率下行→科技股估值提升（折现率降低）",
-        "watch": "WTI原油是否跌破60美元/桶支撑位"
+        "what": "美伊协议达成，油价暴跌，股市狂欢，黄金创新高",
+        "assets": "📈 美股股指期货 利好；📉 原油 承压；📈 黄金 利好",
+        "chain": "油价跌→通胀预期降温→美联储加息概率下降→风险资产（如股票）获得支撑",
+        "watch": "美伊协议执行细节及OPEC（石油输出国组织）产量调整"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 58,
       "insight": {
-        "what": "美股期货与日经指数因伊朗协议暴涨",
-        "assets": "📈 美股科技股 利好\n📈 日经指数 利好\n📈 亚洲股市 利好",
-        "chain": "风险溢价（不确定性补偿）下降→资金从避险资产回流股市→日元贬值预期改善出口企业盈利",
-        "watch": "标普500期货能否站稳5200点"
+        "what": "和平协议推动日经飙涨5%，软银涨超12%",
+        "assets": "📈 日经指数 利好；📈 软银 利好",
+        "chain": "地缘风险溢价（战争不确定性带来的额外成本）消除→资金回流亚洲股市→科技股领涨",
+        "watch": "日元汇率及日本央行货币政策信号"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "港股黄金股与芯片股领涨，新股暴涨",
-        "assets": "📈 黄金股 利好\n📈 港股芯片股 利好\n📉 港股防御板块 承压",
-        "chain": "黄金上涨→金矿股盈利预期上调；芯片股受科技风险偏好驱动；防御板块（如公用事业）资金流出",
-        "watch": "恒生科技指数能否突破前高"
+        "what": "港股恒指涨0.45%，科指涨0.92%，黄金股芯片股强势",
+        "assets": "📈 恒生科技股 利好；📈 黄金股 利好；📈 芯片股 利好",
+        "chain": "美伊缓和→避险情绪下降但黄金仍创新高→资金轮动至科技和周期板块",
+        "watch": "南向资金（内地流入港股）净买入额及芯片行业库存数据"
       }
     },
     {
@@ -49,30 +49,10 @@
       "source": "新浪港股",
       "detail": "6月15日消息，港股三大指数集体上涨。截至午间收盘，恒生指数涨0.45%，报24829.11，恒生科技指数涨0.92%，国企指数涨0.08%。盘面上，科网股涨跌不一，联想超9%...",
       "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "美债收益率全线下跌，加息押注减少",
-        "assets": "📈 美债 利好\n📉 美元 承压\n📈 成长股 利好",
-        "chain": "加息预期缓和→短端利率下降→收益率曲线陡峭化（长端降幅小于短端）→银行净息差承压",
-        "watch": "2年期美债收益率是否跌破4.0%"
-      }
+      "score": 37
     },
     {
       "rank": 5,
-      "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
-      "source": "环球市场播报",
-      "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "软银暴涨12%，亚洲股市受伊朗协议提振",
-        "assets": "📈 软银 利好\n📈 亚洲科技股 利好\n📈 日元 承压",
-        "chain": "风险偏好回升→科技股估值扩张→软银持有资产（如Arm）价值重估→日元避险需求减弱",
-        "watch": "软银股价能否突破前高"
-      }
-    },
-    {
-      "rank": 6,
       "title": "SoftBank surges more than 12% as Iran-U.S. peace deal sends Asia stocks soaring",
       "source": "CNBC",
       "detail": "Asian tech stocks surged Monday on news that Iran and the U.S. have reached a peace deal",
@@ -80,19 +60,33 @@
       "score": 32
     },
     {
-      "rank": 7,
-      "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
-      "source": "CNBC",
-      "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
-      "lang": "en",
-      "score": 30
+      "rank": 6,
+      "title": "新一波科技IPO浪潮有望为慈善界带来巨额红利",
+      "source": "环球市场播报",
+      "detail": "SpaceX、Anthropic和OpenAI的重磅上市活动将在一夜之间造就新一代百万富翁和亿万富翁，这笔新财富有望为美国的慈善组织带来一笔意外之财。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "科技IPO浪潮有望为慈善界带来巨额红利",
+        "assets": "📈 科技新股IPO 利好；📈 慈善基金 间接利好",
+        "chain": "IPO（首次公开募股）活跃→风投退出渠道畅通→科技初创估值上升→慈善捐赠增加",
+        "watch": "下周科技公司IPO定价及首日涨幅"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "光大期货0615黄金点评：本周关注美联储议息会议，谨慎对待黄金波动",
       "source": "市场资讯",
       "detail": "上周黄金波动加剧，伦敦现货周内跌幅超过2%，SHFE黄金周跌超3%。本周为超级央行周，全球主要央行将召开议息会议，重点关注美联储议息会议...",
       "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
+      "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
+      "source": "CNBC",
+      "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
+      "lang": "en",
       "score": 30
     },
     {
