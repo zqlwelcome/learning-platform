@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 09:36",
+  "updateTime": "2026-06-15 09:38",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,16 @@
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街震荡周后部分股票超买或超卖。",
+        "assets": [
+          "美股指数",
+          "个股"
+        ],
+        "chain": "超买/超卖信号触发均值回归策略，短期资金流向反转，波动率上升（均值回归：价格向历史平均靠拢）。",
+        "watch": "RSI指标及成交量变化"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +108,18 @@
       "source": "新浪港股",
       "detail": "美股上周五继续向上，据报美伊达成和平协议，油价大幅回落，带动大市向好。指数高开后升幅一度扩大，即使中段升势回吐，三大指数均录得升幅收市。",
       "lang": "zh",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "恒指高开1.15%，科网股、黄金股及AI股普涨。",
+        "assets": [
+          "恒生指数",
+          "恒生科技指数",
+          "黄金",
+          "AI概念股"
+        ],
+        "chain": "风险偏好回升推高科网股，黄金股联动避险需求，AI股受智谱涨超14%带动（风险偏好：投资者愿意承担更高风险）。",
+        "watch": "恒指能否守住高开涨幅"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +127,15 @@
       "source": "环球市场播报",
       "detail": "澳洲联邦银行的Vivek Dhar在一份研究报告中表示，如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元左右。“我们的预测隐含地假设...",
       "lang": "zh",
-      "score": 22
+      "score": 22,
+      "insight": {
+        "what": "机构预测若霍尔木兹海峡解封，布伦特原油年底或跌至80美元。",
+        "assets": [
+          "布伦特原油"
+        ],
+        "chain": "地缘风险溢价消退，供应恢复预期压低油价，航运成本下降（风险溢价：因不确定性额外加价）。",
+        "watch": "霍尔木兹海峡通行情况"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +143,16 @@
       "source": "CNBC",
       "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
       "lang": "en",
-      "score": 20
+      "score": 20,
+      "insight": {
+        "what": "Meta一年后需销售Alexandr Wang开发的AI模型。",
+        "assets": [
+          "Meta股票",
+          "AI行业"
+        ],
+        "chain": "AI模型商业化压力增加，若销售不及预期或拖累Meta盈利，竞争加剧（商业化：将技术转化为收入）。",
+        "watch": "Meta AI模型客户签约进展"
+      }
     }
   ]
 }
