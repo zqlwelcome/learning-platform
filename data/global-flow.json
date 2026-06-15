@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 13:21",
+  "updateTime": "2026-06-15 13:26",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,18 +16,64 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4069.60",
-      "change": "0.94"
+      "value": "4070.50",
+      "change": "0.97"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24820.650",
-      "change": "0.41"
+      "value": "24833.720",
+      "change": "0.47"
     }
   },
   "etf_flows": [],
-  "sector_flows": [],
+  "sector_flows": [
+    {
+      "name": "电子",
+      "code": "BK1201",
+      "index": 14355.8,
+      "change": 4.73,
+      "flow": 27210407936.0,
+      "flow_str": "+272.10亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信",
+      "code": "BK1215",
+      "index": 8271.93,
+      "change": 3.2,
+      "flow": 10861979648.0,
+      "flow_str": "+108.62亿",
+      "direction": "in"
+    },
+    {
+      "name": "半导体",
+      "code": "BK1036",
+      "index": 2946.71,
+      "change": 4.3,
+      "flow": 10731915008.0,
+      "flow_str": "+107.32亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信设备",
+      "code": "BK0448",
+      "index": 25743.05,
+      "change": 3.85,
+      "flow": 10487775488.0,
+      "flow_str": "+104.88亿",
+      "direction": "in"
+    },
+    {
+      "name": "元件",
+      "code": "BK0459",
+      "index": 65696.64,
+      "change": 8.05,
+      "flow": 10355148288.0,
+      "flow_str": "+103.55亿",
+      "direction": "in"
+    }
+  ],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
