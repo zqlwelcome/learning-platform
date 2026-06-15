@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-15 17:46",
+  "updateTime": "2026-06-15 17:51",
   "news": [
     {
       "rank": 1,
-      "title": "美国太空探索技术公司创纪录IPO激发起投机热潮 美联储政策会议前夕华尔街紧盯资本成本",
-      "source": "环球市场播报",
-      "detail": "美国太空探索技术公司（SpaceX）12日完成创纪录的首次公开募股（IPO），上市首日股价大涨19%，突显出投资者对高增长高风险标的的强劲需求。",
-      "lang": "zh",
-      "score": 75,
-      "insight": {
-        "what": "SpaceX创纪录IPO引发投机热潮",
-        "assets": "📈 美股科技股 利好；📉 美国国债 承压",
-        "chain": "投机情绪推高风险偏好（追逐高收益），美联储会议前资本成本预期上升可能压制科技股估值（PE倍数）。",
-        "watch": "美联储利率决议及鲍威尔讲话（鹰鸽立场）"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Surge in scams as fraudsters use AI to target people - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 53,
       "insight": {
-        "what": "诈骗者利用AI技术实施欺诈激增",
-        "assets": "📉 网络安全板块 利好；📉 消费者信心 承压",
-        "chain": "AI欺诈（Deepfake语音/视频）侵蚀信任，监管收紧预期利好合规科技（RegTech），但短期增加企业合规成本。",
-        "watch": "美国/欧盟AI监管法案进展"
+        "what": "AI诈骗激增，欺诈者利用AI技术攻击目标",
+        "assets": "📉 网络安全股 利好；📉 消费者信心 承压",
+        "chain": "监管收紧预期（合规成本上升）→ 科技股波动，安全软件需求增加（防御性配置）",
+        "watch": "AI监管政策进展及网络安全公司财报"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX盘前股价上涨 势将延续创纪录IPO后的涨势",
       "source": "环球市场播报",
       "detail": "SpaceX在当地时间周一的盘前交易中一度上涨7.7%至173.30美元，势将延续上周五上市首日的涨势。 该公司股价上周五收涨逾19%，此前其IPO融资额创下了750亿美元的纪录。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX盘前股价上涨延续IPO涨势",
-        "assets": "📈 美股太空概念股 利好；📈 风险偏好（VIX恐慌指数）下行",
-        "chain": "IPO赚钱效应吸引资金从防御板块（公用事业）流向成长股，但估值争议（高PE vs 高增长）可能引发波动。",
-        "watch": "SpaceX首日成交量及机构持仓报告"
+        "what": "SpaceX盘前股价上涨，延续创纪录IPO后涨势",
+        "assets": "📈 太空概念股 利好；📈 风险偏好（资金追逐高风险资产） 提振",
+        "chain": "IPO热潮（新发股票增多）→ 资金从防御板块流出，推高成长股估值",
+        "watch": "SpaceX后续融资及美联储利率决议"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SpaceX gains 6% in premarket after record debut. Here's what's driving the valuation debate",
       "source": "CNBC",
       "detail": "SpaceX is now valued at over $2 trillion after its stock rallied on the first day of trade.",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "SpaceX盘前涨6%，估值争议持续",
-        "assets": "📈 美股科技ETF（XLK科技行业ETF） 利好；📉 价值股（银行） 承压",
-        "chain": "高估值依赖未来现金流折现（DCF模型），若美联储鹰派（加息预期升温），折现率上升将打压SpaceX估值。",
-        "watch": "美联储点阵图（利率预测中位数）"
+        "what": "SpaceX盘前涨6%，估值辩论升温",
+        "assets": "📈 太空股 利好；📈 风险资产（如科技ETF） 情绪提振",
+        "chain": "估值分歧（高PE vs 增长预期）→ 短期资金博弈，若利率走高则承压",
+        "watch": "美联储利率决策及科技股资金流向"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "欧洲央行管委Nagel：加息后利率仍处于中性区间",
       "source": "环球市场播报",
       "detail": "欧洲央行管委Joachim Nagel表示，周四加息25个基点后，欧元区利率仍处于“总体中性”区间。 这位德国央行行长周一讲话时表示：“因此...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行官员称加息后利率仍处中性区间",
-        "assets": "📉 欧元 承压；📈 欧洲债券 利好",
-        "chain": "中性利率（既不刺激也不抑制经济）暗示加息周期接近尾声，利差（欧美息差）收窄可能削弱欧元。",
-        "watch": "欧央行下次会议利率决议及通胀数据"
+        "what": "欧洲央行管委Nagel称加息后利率仍处中性区间",
+        "assets": "📉 欧元 承压；📉 欧债收益率（借钱成本） 下行",
+        "chain": "鸽派信号（加息放缓）→ 欧元走弱，欧洲出口股受益，但通胀担忧缓解",
+        "watch": "欧洲CPI数据及下次利率决议"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "SpaceX shows investors still want moonshots. The Fed may test that theory this week. - MarketWatch",
       "source": "MarketWatch",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "SpaceX上市证明投机需求旺盛，美联储或考验此逻辑",
-        "assets": "📈 美股成长股 利好；📉 美元指数 承压",
-        "chain": "投机热潮（IPO首日涨幅）与美联储紧缩（缩表减少流动性）形成对冲，若鹰派超预期，资金可能撤出风险资产（加密货币）。",
-        "watch": "美联储会议纪要及缩表速度（QT量化紧缩）"
+        "what": "SpaceX表明投资者仍愿押注高风险，美联储或测试此理论",
+        "assets": "📈 科技成长股 利好；📉 避险资产（如黄金） 承压",
+        "chain": "利率预期（美联储鹰派）→ 高估值资产回调，资金转向短债（短期债券）",
+        "watch": "美联储点阵图（利率预测）及科技股盈利报告"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Microsoft CEO warns that a few AI winners could destroy 'entire industries' - Business Insider",
       "source": "Business Insider",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "微软CEO警告AI赢家可能摧毁整个行业",
+        "assets": "📉 传统软件股 利空；📈 AI基础设施股（如芯片） 利好",
+        "chain": "颠覆效应（AI替代人力）→ 行业集中度提升，龙头受益，中小企业承压",
+        "watch": "AI应用落地速度及监管反垄断动向"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "一周展望：和平协议叠加超级央行周，黄金开启反弹行情？",
       "source": "市场资讯",
       "detail": "撰文：嘉盛集团资深分析师Jerry Chen 上周美元、原油和黄金同步下跌，SpaceX上市首日上涨19%带动美股周线收高，比特币在关键的6万美元附近展开反弹收于65000美元上方。",
@@ -102,7 +94,7 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
       "source": "CNBC",
       "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
@@ -110,9 +102,17 @@
       "score": 30
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Tentative deal on ending the Iran war sends stocks soaring while oil prices fall - AP News",
       "source": "AP News",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 10,
+      "title": "Oil Executives Are Sounding the Alarm Over Dwindling Stockpiles - WSJ",
+      "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 29
