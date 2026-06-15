@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 09:40",
+  "updateTime": "2026-06-15 09:51",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,110 +16,18 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4076.22",
-      "change": "1.11"
+      "value": "4084.49",
+      "change": "1.31"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "25001.420",
-      "change": "1.15"
+      "value": "24997.800",
+      "change": "1.13"
     }
   },
-  "etf_flows": [
-    {
-      "name": "证券ETF国泰",
-      "code": "512880",
-      "price": 1.085,
-      "change": 3.83,
-      "flow": 246572495.0,
-      "flow_str": "+2.47亿",
-      "direction": "in"
-    },
-    {
-      "name": "券商ETF华宝",
-      "code": "512000",
-      "price": 0.518,
-      "change": 3.81,
-      "flow": 96675971.0,
-      "flow_str": "+9667.60万",
-      "direction": "in"
-    },
-    {
-      "name": "证券ETF天弘",
-      "code": "159841",
-      "price": 0.984,
-      "change": 4.13,
-      "flow": 48172491.0,
-      "flow_str": "+4817.25万",
-      "direction": "in"
-    },
-    {
-      "name": "券商ETF银华",
-      "code": "159842",
-      "price": 1.033,
-      "change": 4.13,
-      "flow": 38440252.0,
-      "flow_str": "+3844.03万",
-      "direction": "in"
-    },
-    {
-      "name": "科创芯片ETF嘉实",
-      "code": "588200",
-      "price": 3.537,
-      "change": 1.17,
-      "flow": 29549420.0,
-      "flow_str": "+2954.94万",
-      "direction": "in"
-    }
-  ],
-  "sector_flows": [
-    {
-      "name": "有色金属",
-      "code": "BK0478",
-      "index": 30874.46,
-      "change": 3.27,
-      "flow": 2938613504.0,
-      "flow_str": "+29.39亿",
-      "direction": "in"
-    },
-    {
-      "name": "非银金融",
-      "code": "BK1203",
-      "index": 2417.12,
-      "change": 3.91,
-      "flow": 2198794656.0,
-      "flow_str": "+21.99亿",
-      "direction": "in"
-    },
-    {
-      "name": "工业金属",
-      "code": "BK1287",
-      "index": 3558.36,
-      "change": 3.42,
-      "flow": 1601530112.0,
-      "flow_str": "+16.02亿",
-      "direction": "in"
-    },
-    {
-      "name": "证券Ⅲ",
-      "code": "BK1366",
-      "index": 138265.35,
-      "change": 4.12,
-      "flow": 1475665584.0,
-      "flow_str": "+14.76亿",
-      "direction": "in"
-    },
-    {
-      "name": "证券Ⅱ",
-      "code": "BK0473",
-      "index": 138265.35,
-      "change": 4.12,
-      "flow": 1475665584.0,
-      "flow_str": "+14.76亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -127,6 +35,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "华泰期货：加息预期降温 贵金属或迎反弹",
+      "source": "市场资讯",
+      "keyword": "加息"
+    },
     {
       "title": "华泰期货：地缘通胀博弈 铜市震荡运行",
       "source": "市场资讯",

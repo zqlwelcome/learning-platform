@@ -1,60 +1,60 @@
 {
-  "updateTime": "2026-06-15 09:42",
+  "updateTime": "2026-06-15 09:51",
   "news": [
     {
       "rank": 1,
+      "title": "U.S. stock futures jump on Iran deal to end the war; Japan's Nikkei surges 5%: Live updates",
+      "source": "CNBC",
+      "detail": "The three major indexes are coming off a winning week.",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "伊朗停火协议达成，全球风险偏好急升",
+        "assets": "📈 美股期货 利好\n📈 日经指数 利好\n📉 原油 承压",
+        "chain": "油价下跌→通胀预期降温→美联储加息押注减少→美债收益率下行（借钱成本降低）",
+        "watch": "伊朗协议执行细节及霍尔木兹海峡复航情况"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "AI版支付宝来了？阿里巴巴涨超2%，腾讯控股获南向资金连续6日净买入，港股互联网ETF华宝早盘涨近2%",
+      "source": "新浪基金",
+      "detail": "6月15日，美伊达成和平协议，港股早盘高开，恒生科技指数涨1.78%。互联网龙头集体走强，阿里巴巴-W、腾讯控股、美团-W涨超2%，小米集团-W涨逾1%；此外，AI算力产品...",
+      "lang": "zh",
+      "score": 42,
+      "insight": {
+        "what": "阿里腾讯上涨，港股互联网ETF拉升",
+        "assets": "📈 港股互联网ETF 利好\n📈 阿里巴巴 利好\n📈 腾讯控股 利好",
+        "chain": "南向资金持续净流入→流动性改善→估值修复（股价从低估回归合理）→带动恒生科技指数",
+        "watch": "南向资金净流入持续性及AI业务落地进展"
+      }
+    },
+    {
+      "rank": 3,
       "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
       "source": "环球市场播报",
       "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债收益率下行，加息预期降温",
-        "assets": "📈 美债价格 上涨；📉 美元指数 承压",
-        "chain": "伊朗协议缓和通胀预期（物价上涨压力减小），降低加息概率（借钱成本提升概率），风险资产（股票）获支撑",
-        "watch": "伊朗协议执行细节及美联储官员讲话"
+        "what": "美债收益率全线下行，因伊朗协议降低加息预期",
+        "assets": "📈 美债价格 利好\n📉 美元 承压",
+        "chain": "油价下跌→通胀预期回落→美联储加息概率降低→长端美债收益率下行（债券价格上升）",
+        "watch": "美联储点阵图（利率预测）及CPI（通胀数据）"
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
       "title": "“超级央行周”来袭！沃什迎“首秀”，黄金后市怎么走？",
       "source": "滚动播报",
       "detail": "文章来源：财闻 美东时间本周三，美联储将公布最新利率决议，市场普遍预期美联储此次将“按兵不动”。 本周，全球资本市场将迎来“超级央行周”。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "超级央行周，沃什首秀影响黄金",
-        "assets": "📈 黄金 利多；📉 美元 承压",
-        "chain": "沃什若鹰派（倾向加息），黄金承压；若鸽派（倾向宽松），黄金走强；市场押注政策转向（方向改变）",
-        "watch": "沃什讲话措辞及利率决议（利率决定）"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "华尔街是如何操盘完成SpaceX这场史上最大规模IPO的？",
-      "source": "环球市场播报",
-      "detail": "美东时间周三深夜，高盛纽约总部41层一间会议室里，投行团队围坐在一起，分配这单史上最抢手的首次公开募股份额。 埃隆·马斯克通过视频全程远程督办...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "华尔街操盘SpaceX史上最大IPO",
-        "assets": "📈 SpaceX 估值 利好；📈 太空概念股 联动",
-        "chain": "大投行（大型金融机构）通过路演（向投资者推介）和订单分配（分配股份）推高需求，二级市场（上市后交易）溢价（价格超过发行价）",
-        "watch": "IPO定价及首日涨幅（上市首日价格变化）"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "新西兰经济学家下调GDP增长预期",
-      "source": "环球市场播报",
-      "detail": "新西兰经济研究所在其官网发布本土经济学家的季度综合预测报告。经济学家预计，2025至2026财年国内生产总值年均增速为0.6%。注：3月份调查预测值为0.8%。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "新西兰下调GDP增长预期",
-        "assets": "📉 新西兰元 承压；📉 新西兰国债 利好",
-        "chain": "增长放缓（经济增速变慢）增加降息预期（借钱成本降低概率），利空汇率但利好债市（债券市场）",
-        "watch": "新西兰联储利率决议（利率决定）及经济数据"
+        "what": "超级央行周来袭，沃什首秀影响黄金走势",
+        "assets": "📈 黄金 利好\n📉 美元 承压",
+        "chain": "新美联储主席沃什可能偏鸽（倾向宽松）→实际利率下行→黄金作为零息资产吸引力上升",
+        "watch": "沃什讲话措辞及利率决议声明"
       }
     },
     {
@@ -65,91 +65,57 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "全球欢迎美伊协议，欧洲暗示解除制裁",
-        "assets": "📉 原油 承压；📈 航运股 利好",
-        "chain": "制裁解除（限制措施取消）增加伊朗原油供给（供应量），油价下行；霍尔木兹海峡（重要石油通道）重开降低运输风险",
-        "watch": "伊朗原油出口量及OPEC（石油输出国组织）反应"
+        "what": "全球欢迎美伊协议，欧洲暗示解除制裁并呼吁复航",
+        "assets": "📈 全球股市 利好\n📉 原油 承压\n📈 航运股 利好",
+        "chain": "制裁解除→伊朗原油重回市场→供应增加压低油价→航运成本下降提振贸易",
+        "watch": "霍尔木兹海峡实际复航时间及欧洲制裁解除细节"
       }
     },
     {
       "rank": 6,
-      "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
-      "source": "CNBC",
-      "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
-      "lang": "en",
-      "score": 29,
+      "title": "华尔街是如何操盘完成SpaceX这场史上最大规模IPO的？",
+      "source": "环球市场播报",
+      "detail": "美东时间周三深夜，高盛纽约总部41层一间会议室里，投行团队围坐在一起，分配这单史上最抢手的首次公开募股份额。 埃隆·马斯克通过视频全程远程督办...",
+      "lang": "zh",
+      "score": 30,
       "insight": {
-        "what": "顶级分析师看好3只股票",
-        "assets": "📈 个股 利好；📈 相关板块 联动",
-        "chain": "分析师评级（评价）影响机构资金（大型投资者资金）流向，带动同行业估值（公司价值）重估",
-        "watch": "公司财报（财务报告）及机构持仓变化"
+        "what": "华尔街操盘SpaceX史上最大规模IPO",
+        "assets": "📈 SpaceX 利好\n📈 航天军工板块 利好\n📉 传统车企 承压",
+        "chain": "IPO融资→估值锚定（二级市场定价）→带动商业航天赛道估值提升→资金从传统行业外溢",
+        "watch": "IPO定价区间及超额认购倍数（需求热度）"
       }
     },
     {
       "rank": 7,
+      "title": "新西兰经济学家下调GDP增长预期",
+      "source": "环球市场播报",
+      "detail": "新西兰经济研究所在其官网发布本土经济学家的季度综合预测报告。经济学家预计，2025至2026财年国内生产总值年均增速为0.6%。注：3月份调查预测值为0.8%。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 8,
+      "title": "Top Wall Street analysts are confident about the growth prospects of these 3 stocks",
+      "source": "CNBC",
+      "detail": "Continued volatility presents an opportunity to find stocks trading at attractive prices and benefit from their long-term growth potential.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 9,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "华尔街震荡周后部分股票超买或超卖。",
-        "assets": [
-          "美股指数",
-          "个股"
-        ],
-        "chain": "超买/超卖信号触发均值回归策略，短期资金流向反转，波动率上升（均值回归：价格向历史平均靠拢）。",
-        "watch": "RSI指标及成交量变化"
-      }
+      "score": 29
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "快讯：恒指高开1.15% 科指涨1.78% 科网股、黄金股普涨 AI应用股高开 智谱涨超14% 溜溜梅上市首日高开118%",
       "source": "新浪港股",
       "detail": "美股上周五继续向上，据报美伊达成和平协议，油价大幅回落，带动大市向好。指数高开后升幅一度扩大，即使中段升势回吐，三大指数均录得升幅收市。",
       "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "恒指高开1.15%，科网股、黄金股及AI股普涨。",
-        "assets": [
-          "恒生指数",
-          "恒生科技指数",
-          "黄金",
-          "AI概念股"
-        ],
-        "chain": "风险偏好回升推高科网股，黄金股联动避险需求，AI股受智谱涨超14%带动（风险偏好：投资者愿意承担更高风险）。",
-        "watch": "恒指能否守住高开涨幅"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "伊朗7月亚洲市场轻质原油定价：每桶溢价7.15美元",
-      "source": "环球市场播报",
-      "detail": " 伊朗国家石油公司官网公布的定价表显示，该公司将7月销往亚洲的伊朗轻质原油官方售价定为较阿曼-迪拜原油均价每桶溢价7.15美元，较6月每桶13美元的溢价有所下调。",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "机构预测若霍尔木兹海峡解封，布伦特原油年底或跌至80美元。",
-        "assets": [
-          "布伦特原油"
-        ],
-        "chain": "地缘风险溢价消退，供应恢复预期压低油价，航运成本下降（风险溢价：因不确定性额外加价）。",
-        "watch": "霍尔木兹海峡通行情况"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "机构：如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元",
-      "source": "环球市场播报",
-      "detail": "澳洲联邦银行的Vivek Dhar在一份研究报告中表示，如果霍尔木兹海峡不再被封锁，布伦特原油期货年底前可能跌至每桶80美元左右。“我们的预测隐含地假设...",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "机构预测若霍尔木兹海峡解封，布伦特原油年底或跌至80美元",
-        "assets": "布伦特原油期货（看跌），中东产油国货币（看跌）",
-        "chain": "海峡解封→供应恢复（供给冲击缓解）→油价下行→通胀预期降温（二阶效应：降低能源成本，利好消费股）",
-        "watch": "霍尔木兹海峡通行量数据及中东地缘政治谈判进展"
-      }
+      "score": 27
     }
   ]
 }
