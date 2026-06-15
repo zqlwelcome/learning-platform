@@ -220,7 +220,13 @@ ENTITIES = [
 
 def score_match(insight, news_item):
     """Score how well an insight matches a news item by keyword overlap + entity boost."""
-    what = insight.get('what', '') + ' ' + insight.get('assets', '') + ' ' + insight.get('chain', '')
+    assets = insight.get('assets', '')
+    if isinstance(assets, list):
+        assets = ' '.join(assets)
+    chain = insight.get('chain', '')
+    if isinstance(chain, list):
+        chain = ' '.join(chain)
+    what = insight.get('what', '') + ' ' + assets + ' ' + chain
     what_tokens = tokenize(what)
     title_tokens = tokenize(news_item['title'])
     overlap = len(what_tokens & title_tokens)
