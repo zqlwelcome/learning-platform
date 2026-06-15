@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 06:15",
+  "updateTime": "2026-06-16 06:20",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 48,
       "insight": {
         "what": "特朗普信任美联储主席沃什，影响不止利率",
-        "assets": "📈 美元 利好，📉 美债收益率 承压",
-        "chain": "沃什偏鹰派（倾向加息），市场提前定价紧缩，压制风险偏好（股市承压）",
-        "watch": "沃什公开讲话及美联储点阵图（利率预测）"
+        "assets": "📉 美债收益率 承压，📈 美元指数 利好",
+        "chain": "沃什偏鹰（倾向收紧货币），市场押注更慢降息（借钱成本降低），风险资产（股票等）承压",
+        "watch": "沃什公开讲话措辞及美联储点阵图"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX在华尔街创纪录首秀后继续上涨",
-        "assets": "📈 太空概念股（如ASTS）利好，📉 传统航天股（如BA）承压",
-        "chain": "SpaceX估值飙升带动太空ETF（交易所交易基金）资金流入，但散户追高风险加剧",
-        "watch": "SpaceX财报及订单交付量"
+        "what": "SpaceX华尔街首秀创纪录，涨势料延续",
+        "assets": "📈 SpaceX股票 利好，📈 航天ETF 利好",
+        "chain": "IPO（新股上市）超募推高估值，带动私人航天板块估值重估（资产重新定价），吸引资金流入",
+        "watch": "SpaceX后续财报及订单披露"
       }
     },
     {
@@ -37,52 +37,52 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO实际筹资比预期多100亿美元",
-        "assets": "📈 太空板块 利好，📉 债券市场 资金分流",
-        "chain": "巨额IPO（首次公开募股）抽走流动性，科技股短期面临卖压（抛售压力）",
-        "watch": "后续融资计划及承销商报告"
+        "what": "SpaceX IPO募资比预期多100亿美元",
+        "assets": "📈 SpaceX股票 利好，📈 太空概念股 利好",
+        "chain": "超募显示机构需求旺盛，二级市场（上市后交易）溢价交易概率增加，提振相关ETF（交易所交易基金）",
+        "watch": "首日交易量及后续锁定期解禁"
       }
     },
     {
       "rank": 4,
-      "title": "SpaceX IPO leaves retail investors with too few shares and a tough hold-or-sell decision - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 45,
+      "score": 39,
       "insight": {
-        "what": "SpaceX IPO散户获配少，面临持有或卖出两难",
-        "assets": "📈 SpaceX股票 短期承压，📉 散户情绪 偏空",
-        "chain": "散户抛售可能压低开盘价，但机构接盘后或反弹，形成高波动（波动率上升）",
-        "watch": "首日换手率及散户持仓变化"
+        "what": "纳指高开，美伊协议致油价下跌",
+        "assets": "📈 纳斯达克指数 利好，📉 原油期货 利空",
+        "chain": "地缘风险缓解（战争威胁下降）压低油价，利好航空和消费股，但能源板块承压",
+        "watch": "伊朗石油出口数据及下周库存报告"
       }
     },
     {
       "rank": 5,
+      "title": "Nvidia Stock Retakes Key Level As Chipmaker Plans Bond Offering - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "英伟达重回关键点位，计划发行债券",
+        "assets": "📈 英伟达股票 利好，📈 半导体板块 利好",
+        "chain": "发债融资用于回购/扩张，提升每股收益（EPS，每股盈利），AI芯片需求支撑估值",
+        "watch": "债券定价及AI芯片订单更新"
+      }
+    },
+    {
+      "rank": 6,
       "title": "城堡证券：利率上升将对风险资产构成挑战 美联储最快可能9月加息",
       "source": "环球市场播报",
       "detail": " 城堡证券表示，随着美联储逐步接近新一轮加息周期，加之投资者对人工智能造成经济影响的判断变得更加审慎，风险资产可能面临动荡。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "城堡证券预测美联储最快9月加息，利率上升挑战风险资产",
-        "assets": "📉 美股 承压，📈 美元 利好，📉 比特币 利空",
-        "chain": "加息预期推高实际利率（剔除通胀后的利率），压制高估值科技股和加密货币",
-        "watch": "下周非农数据及CPI（消费者物价指数）"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Nvidia Joins AI Debt Boom With Bond Sale Targeting $20 Billion - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "英伟达加入AI债券热潮，目标发债200亿美元",
-        "assets": "📈 英伟达债券 利好，📉 美债收益率 上行压力",
-        "chain": "AI公司大规模发债推高企业债供给，压低债券价格，同时利好AI芯片需求",
-        "watch": "英伟达债评级及认购倍数"
+        "what": "城堡证券警告利率上升风险，美联储9月或加息",
+        "assets": "📉 美股风险资产 承压，📈 短期美债 利好",
+        "chain": "加息预期（借钱成本上升）打压高估值成长股，资金轮动（换仓）至防御板块（公用事业等）",
+        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
