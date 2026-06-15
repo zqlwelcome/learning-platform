@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 13:15",
+  "updateTime": "2026-06-15 13:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 66,
       "insight": {
-        "what": "美伊协议达成，市场情绪复杂，股市涨、原油跌、黄金涨",
-        "assets": "📈 美股期货 利好；📉 原油 承压；📈 黄金 利好",
-        "chain": "地缘风险消退（战争溢价消失）→ 油价跌 → 通胀预期降 → 美联储降息预期升温（借钱成本降低）",
-        "watch": "协议执行细节及伊朗原油出口恢复速度"
+        "what": "美伊协议传闻引发市场矛盾反应",
+        "assets": "📈 原油 利空；📉 黄金 承压",
+        "chain": "地缘风险溢价消退（额外风险成本），但市场质疑协议真实性，避险情绪仍存",
+        "watch": "美伊官方声明及原油库存数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 58,
       "insight": {
-        "what": "美伊和平协议推高股市，黄金重返4300美元",
-        "assets": "📈 日经225 利好；📈 现货黄金 利好；📉 原油 承压",
-        "chain": "避险情绪降温（资金从债市流出）→ 股市风险偏好回升（Risk-on）→ 美债收益率下行（债价涨）",
-        "watch": "美联储下次会议利率点阵图（加息路径信号）"
+        "what": "美伊和平协议确认，油价回落",
+        "assets": "📈 美股 利好；📉 原油 利空；📈 黄金 反弹",
+        "chain": "油价下跌降通胀预期（CPI压力减轻），美联储加息预期缓和，风险资产受益",
+        "watch": "美联储下周议息会议（FOMC）声明"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "黄金反弹但受美联储加息预期压制",
-        "assets": "📈 黄金 偏多；📈 美元 承压",
-        "chain": "地缘缓和（避险需求降）vs 加息预期（持有成本高）→ 黄金上行受限，需等待通胀数据（CPI）确认",
-        "watch": "美国CPI数据（通胀是否回落）"
+        "what": "黄金反弹但受加息预期压制",
+        "assets": "📈 黄金 反弹有限；📉 美元 承压",
+        "chain": "地缘风险缓解利多黄金，但加息预期（借钱成本上升）限制涨幅，实际利率（名义利率-通胀）是关键",
+        "watch": "美国PCE通胀数据（个人消费支出物价指数）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货因伊朗协议跳涨，日经大涨5%",
+        "what": "美伊协议刺激全球股市大涨",
         "assets": "📈 美股期货 利好；📈 日经225 利好",
-        "chain": "全球风险资产联动（Risk-on）→ 亚洲股市跟涨 → 日元走弱（避险货币流出）利好出口股",
-        "watch": "美股开盘后实际走势及VIX（恐慌指数）变化"
+        "chain": "地缘风险消退+油价下跌降成本（企业利润改善），资金从避险转向风险资产（Risk-On模式）",
+        "watch": "日经指数期货持仓变化"
       }
     },
     {
@@ -65,28 +65,36 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股午盘恒指涨0.45%，科指涨0.92%，黄金股、芯片股领涨",
-        "assets": "📈 恒生指数 利好；📈 港股科技股 利好；📈 港股黄金股 利好；📈 华虹半导体 利好",
-        "chain": "地缘缓和+科技板块轮动（资金从防御转进攻）→ 芯片需求预期改善（AI+周期复苏）→ 新股上市情绪提振IPO市场",
-        "watch": "港股成交量是否持续放大（确认反弹力度）"
+        "what": "港股午盘上涨，黄金股和芯片股领涨",
+        "assets": "📈 港股恒生指数 利好；📈 港股科技股 利好；📈 黄金股 利好；📈 芯片股 利好",
+        "chain": "全球风险情绪回暖（Risk-On）带动资金流入，芯片股受AI需求预期（人工智能算力需求）支撑",
+        "watch": "恒生科技指数成交量及南向资金净流入"
       }
     },
     {
       "rank": 6,
-      "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
-      "source": "环球市场播报",
-      "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
+      "title": "“超级央行周”来了！本周，美联储重要公布",
+      "source": "滚动播报",
+      "detail": "央视财经记者获悉，本周，全球资本市场将迎来“超级央行周”。 本周美联储将公布最新利率决议 新任主席沃什迎“首秀” 美东时间本周三，美联储将公布最新利率决议...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美债全线上扬，交易员减少对美联储加息押注",
-        "assets": "📈 美债 利好；📉 美联储加息概率 承压",
-        "chain": "油价跌（通胀预期降）→ 加息预期降温（利率期货反映）→ 长端美债收益率下行（债价涨）→ 科技股估值修复（低利率利好成长股）",
-        "watch": "2年期/10年期美债利差（倒挂程度反映衰退风险）"
+        "what": "超级央行周到来，美联储将公布利率决议",
+        "assets": "📈 美元 波动；📉 美股 承压",
+        "chain": "市场定价降息预期（借钱成本降低），若鹰派（偏紧缩）则压制风险资产，鸽派（偏宽松）则利好",
+        "watch": "美联储点阵图（利率预测）及鲍威尔讲话"
       }
     },
     {
       "rank": 7,
+      "title": "美债全线上扬 伊朗协议促使交易员减少对美联储的加息押注",
+      "source": "环球市场播报",
+      "detail": "美债全线上涨，伊朗协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "SoftBank surges more than 12% as Iran-U.S. peace deal sends Asia stocks soaring",
       "source": "CNBC",
       "detail": "Asian tech stocks surged Monday on news that Iran and the U.S. have reached a peace deal",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
       "source": "CNBC",
       "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
@@ -102,20 +110,12 @@
       "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
       "source": "CNBC",
       "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
       "lang": "en",
       "score": 29
-    },
-    {
-      "rank": 10,
-      "title": "A股黄金股集体上涨，金饰克价重返1300元",
-      "source": "21世纪经济报道",
-      "detail": "6月15日早盘，A股、港股黄金股大幅度上涨！ A股黄金板块集体上涨，截至发稿，Wind贵金属指数大涨超5%，板块内个股盛龙股份、招金黄金涨停，赤峰黄金涨幅超6%，紫金矿业...",
-      "lang": "zh",
-      "score": 27
     }
   ]
 }
