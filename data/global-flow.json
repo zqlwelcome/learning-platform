@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 11:15",
+  "updateTime": "2026-06-15 11:21",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,17 +16,63 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4069.05",
-      "change": "0.93"
+      "value": "4068.15",
+      "change": "0.91"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24816.470",
-      "change": "0.40"
+      "value": "24800.250",
+      "change": "0.33"
     }
   },
-  "etf_flows": [],
+  "etf_flows": [
+    {
+      "name": "通信ETF国泰",
+      "code": "515880",
+      "price": 1.652,
+      "change": 4.29,
+      "flow": 884569936.0,
+      "flow_str": "+8.85亿",
+      "direction": "in"
+    },
+    {
+      "name": "创业板ETF易方达",
+      "code": "159915",
+      "price": 3.976,
+      "change": 3.38,
+      "flow": 574491568.0,
+      "flow_str": "+5.74亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创50ETF华夏",
+      "code": "588000",
+      "price": 1.813,
+      "change": 3.25,
+      "flow": 430198672.0,
+      "flow_str": "+4.30亿",
+      "direction": "in"
+    },
+    {
+      "name": "证券ETF国泰",
+      "code": "512880",
+      "price": 1.063,
+      "change": 1.72,
+      "flow": 417046176.0,
+      "flow_str": "+4.17亿",
+      "direction": "in"
+    },
+    {
+      "name": "科创芯片ETF嘉实",
+      "code": "588200",
+      "price": 3.629,
+      "change": 3.8,
+      "flow": 242518816.0,
+      "flow_str": "+2.43亿",
+      "direction": "in"
+    }
+  ],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
