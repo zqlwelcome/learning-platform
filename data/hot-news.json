@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 22:51",
+  "updateTime": "2026-06-15 22:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO绿鞋超额配售，总融资857亿美元",
-        "assets": "📈 SpaceX 股票 利好，📉 其他未上市科技股（如OpenAI）流动性溢价承压",
-        "chain": "一级市场资金被SpaceX抽走，私募科技股估值面临回调（存量资金博弈）",
-        "watch": "SpaceX上市首日涨幅及后续锁定期解禁抛压"
+        "what": "SpaceX IPO承销商行使绿鞋（超额配售）权，总融资达857亿美元",
+        "assets": "📈 SpaceX估值 利好；📈 太空概念股 利好",
+        "chain": "绿鞋稳定股价（防止破发），吸引更多散户和机构资金涌入，推高新股需求",
+        "watch": "SpaceX上市首日涨跌幅及后续融资计划"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "SpaceX和OpenAI终结华尔街股票稀缺时代",
-        "assets": "📉 传统IPO稀缺溢价股（如Palantir）承压，📈 私募股权二级市场交易量上升",
-        "chain": "高增长公司直接上市减少投行承销费，传统IPO流程价值下降（金融脱媒）",
-        "watch": "其他独角兽（如Stripe）是否跟进直接上市"
+        "what": "沃什首次美联储记者会可能透露通胀及利率（借钱成本）策略",
+        "assets": "📉 美债收益率 波动；📈 美元指数 承压",
+        "chain": "鹰派（加息倾向）讲话推高短端利率（2年期美债），压制风险资产；鸽派（宽松倾向）则利好科技股",
+        "watch": "沃什对中性利率（既不刺激也不抑制经济）的估算值"
       }
     },
     {
@@ -37,50 +37,42 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "美伊协议后油价下跌，纳斯达克高开",
-        "assets": "📉 原油 承压，📈 美股科技股 利好，📈 航空公司 成本降低",
-        "chain": "油价下跌→通胀预期降温→美联储加息概率下降→风险资产估值修复（贴现率降低）",
-        "watch": "WTI原油是否跌破70美元/桶关键支撑位"
+        "what": "SpaceX和OpenAI打破华尔街股票稀缺（IPO供给不足）格局",
+        "assets": "📈 私募股权（PE）市场 承压；📈 科技成长股 资金分流",
+        "chain": "更多高增长公司直接上市（DPO/SPAC），减少传统IPO溢价（打新收益），资本从二级市场回流一级",
+        "watch": "其他独角兽（如Stripe）是否跟进上市"
       }
     },
     {
       "rank": 4,
-      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "美伊协议引发国债收益率下滑，市场重估加息路径",
-        "assets": "📈 美债 利好（价格上涨），📉 美元 承压，📈 黄金 利好",
-        "chain": "收益率下降→科技股久期（对利率敏感度）回升→成长股跑赢价值股（利率预期重置）",
-        "watch": "10年期美债收益率是否跌破4.0%关口"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Warsh's debut Fed press conference may reveal his strategy for inflation, rates - Reuters",
       "source": "Reuters",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "Warsh首次美联储发布会或揭示通胀与利率策略",
-        "assets": "📉 美元 承压（若偏鸽），📈 美股 利好，📈 新兴市场货币 利好",
-        "chain": "鹰派发言→美元走强→新兴市场资金外流；鸽派则反转（利率预期差交易）",
-        "watch": "Warsh对中性利率（R-star）的具体表述"
+        "what": "伊朗协议达成令市场押注降息，美债收益率（国债利息）大跌",
+        "assets": "📈 美债价格 利好；📉 美元 承压；📈 原油 承压",
+        "chain": "油价跌→通胀预期降→美联储加息预期降温→长端利率（10年期美债）下行→科技股估值（未来现金流折现）提升",
+        "watch": "WTI原油（西得州轻质原油）价格是否跌破70美元"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Treasury yields slide as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "美股开盘强劲上涨，芯片及AI板块领涨",
+        "assets": "📈 芯片股（NVDA、AMD） 利好；📈 AI概念股 利好",
+        "chain": "AI芯片需求预期（算力扩张）→科技板块资金轮动→带动纳指（纳斯达克指数）突破前高",
+        "watch": "费城半导体指数（SOX）能否站稳4000点"
+      }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "美国股市开盘强劲上涨 芯片及AI板块跃升",
       "source": "环球市场播报",
       "detail": " 在美国与伊朗同意重新开放霍尔木兹海峡后，全球股市上涨、债券走强，油价则大幅下跌。市场对持续扰动金融市场的中东冲突有望结束抱持期待，美国股市开盘升势明显。",
@@ -88,7 +80,7 @@
       "score": 37
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "知情人士：腾讯出资2000万美元入股阿里前明星研究员林俊旸的AI实验室",
       "source": "环球市场播报",
       "detail": "据两名知情投资人士透露，腾讯控股已入股由阿里巴巴通义大模型前首席研究员林俊旸创立的全新人工智能实验室。 知情人士表示，该实验室首轮融资总规模达数亿美元...",
@@ -96,7 +88,7 @@
       "score": 37
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "美债全线上扬 伊朗协议促使交易员削减对美联储的加息押注",
       "source": "环球市场播报",
       "detail": "美债上涨，伊朗临时协议达成的消息传出后，投资者降低对美联储加息的预期。 各期限美债收益率均下降，对货币政策变化最为敏感的短期债券收益率领跌。",
@@ -104,12 +96,20 @@
       "score": 36
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Ron Baron bought $1 billion of SpaceX shares in IPO, lifting stake to $25 billion",
       "source": "CNBC",
       "detail": "\"I think we're gonna make hundreds of billions of dollars,\" Baron said Monday on CNBC's \"Squawk Box.\"",
       "lang": "en",
       "score": 35
+    },
+    {
+      "rank": 10,
+      "title": "Dow jumps 600 points, hits fresh record on potential Iran deal to end the war; SpaceX rises in second day of trading: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
