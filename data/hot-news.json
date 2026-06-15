@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-15 19:06",
+  "updateTime": "2026-06-15 19:09",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX IPO引发AI泡沫争论",
-        "assets": "📈 SpaceX 利好\n📉 AI科技股 承压",
-        "chain": "SpaceX估值若高开可能带动风险偏好（Risk-On），但AI泡沫论会压制高估值科技股（PE压缩）",
+        "what": "SpaceX IPO引发市场对AI泡沫的辩论",
+        "assets": "📈 SpaceX 利好，📉 AI科技股 承压",
+        "chain": "若IPO定价过高，可能触发AI板块获利了结（sell-off），拖累纳斯达克指数",
         "watch": "SpaceX首日收盘涨幅及AI龙头财报"
       }
     },
@@ -23,38 +23,38 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "果纳半导体港股IPO，高溢价收购亏损企业无业绩承诺",
-        "assets": "📉 港股半导体 承压\n📉 果纳半导体 利空",
-        "chain": "无业绩承诺的高溢价收购（并购风险）损害投资者信心，拖累港股半导体板块估值（PE下调）",
-        "watch": "IPO认购倍数及首日破发与否"
+        "what": "果纳半导体港股IPO，高溢价收购亏损企业",
+        "assets": "📉 半导体板块 利空，📉 港股新股 情绪受挫",
+        "chain": "高溢价无业绩承诺，引发对关联交易和股东利益输送（tunneling）的担忧，降低IPO估值",
+        "watch": "港交所问询函及认购倍数"
       }
     },
     {
       "rank": 3,
+      "title": "Surge in scams as fraudsters use AI to target people - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 53,
+      "insight": {
+        "what": "诈骗激增，欺诈者使用AI技术针对个人",
+        "assets": "📈 网络安全股 利好，📉 金融科技股 承压",
+        "chain": "AI诈骗提升监管风险（regulatory risk），银行需增加反欺诈投入，压缩利润空间（margin compression）",
+        "watch": "美国FTC监管新规及网络安全公司订单"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX gains 6% in premarket after record debut. Here's what's driving the valuation debate",
       "source": "CNBC",
       "detail": "SpaceX is now valued at over $2 trillion after its stock rallied on the first day of trade.",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "SpaceX盘前涨6%，估值辩论持续",
-        "assets": "📈 SpaceX 利好\n📉 太空概念股 分化",
-        "chain": "盘前涨幅强化投机情绪（动量交易），但估值分歧（市盈率争议）可能引发获利回吐（获利了结）",
-        "watch": "正式开盘后成交量及机构评级"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Money stolen in four million UK fraud cases in a year as romance scams surge - BBC",
-      "source": "BBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "英国一年400万起欺诈案，浪漫诈骗激增",
-        "assets": "📉 英国支付股 承压\n📉 银行股 利空",
-        "chain": "欺诈案激增推高银行合规成本（运营风险），可能引发监管收紧（罚款风险），压制金融板块",
-        "watch": "英国金融监管局（FCA）新规动向"
+        "what": "SpaceX盘前涨6%，估值辩论升温",
+        "assets": "📈 SpaceX 利好，📉 太空概念股 分化",
+        "chain": "高估值吸引散户投机（retail frenzy），但机构可能做空相关ETF（如ARKX）对冲",
+        "watch": "SpaceX后市成交量及空头持仓变化"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "伊朗协议缓和，美债收益率下滑，美联储加息预期降温",
-        "assets": "📈 美债 利好\n📉 美元 承压\n📈 黄金 利好",
-        "chain": "地缘风险（伊朗协议）降低避险需求，收益率下行（债券价格上涨）暗示降息预期（借钱成本降低）",
-        "watch": "伊朗协议细节及美联储官员讲话"
+        "what": "伊朗协议推动美债收益率下跌，降息预期重燃",
+        "assets": "📈 美债 利好，📉 美元 承压，📈 黄金 利好",
+        "chain": "地缘缓和（geopolitical détente）降低避险需求，但收益率下行刺激风险资产（risk-on），科技股反弹",
+        "watch": "伊朗核谈判进展及美联储官员讲话"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行Nagel称加息后利率仍中性",
-        "assets": "📈 欧元 承压\n📈 欧债 利好",
-        "chain": "中性利率暗示加息空间有限（紧缩周期尾声），降低欧元区衰退风险（经济软着陆），支撑债券价格",
-        "watch": "欧元区通胀数据及下次议息会议"
+        "what": "欧央行管委称加息后利率仍中性",
+        "assets": "📈 欧元 利好，📉 欧洲债券 承压",
+        "chain": "中性利率暗示未来加息空间有限（dovish tilt），但若通胀顽固，可能延迟降息（rate cut delay），压制经济复苏",
+        "watch": "欧元区PMI及CPI数据"
       }
     },
     {
