@@ -1,96 +1,92 @@
 {
-  "updateTime": "2026-06-15 14:30",
+  "updateTime": "2026-06-15 14:36",
   "news": [
     {
       "rank": 1,
-      "title": "股市狂欢、原油暴跌，黄金站上4300美元——市场对美伊协议“既信又不信”",
-      "source": "市场资讯",
-      "detail": "文章来源：金十数据 亚洲股市周一大幅上涨，而油价则大幅下挫，此前美国与伊朗达成和平协议，旨在结束近四个月的冲突，促使投资者平仓自2月以来一直主导市场的部分地缘政治...",
-      "lang": "zh",
-      "score": 66,
-      "insight": {
-        "what": "美伊达成和平协议，市场反应矛盾",
-        "assets": "📈 原油 承压 📈 黄金 利好 📈 全球股市 利好",
-        "chain": "油价下跌→通胀预期降温→美联储降息（借贷成本降低）概率上升→风险资产（股票）获支撑",
-        "watch": "布伦特原油（国际油价基准）和10年期美债收益率（政府借钱成本）走势"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "美伊达成和平协议，油价回落、美联储加息预期缓和，现货黄金重返4300美元/盎司",
-      "source": "界面新闻",
-      "detail": "2026年6月15日早盘，现货黄金重返4300美元/盎司，日内涨幅扩大至2%。最新消息，当地时间6月14日，美国总统特朗普表示，与伊朗的协议现已完成，全面开放霍尔木兹海峡...",
-      "lang": "zh",
-      "score": 58,
-      "insight": {
-        "what": "港股科技股和黄金股大涨，芯片股强势",
-        "assets": "📈 港股科技股 利好 📈 港股黄金股 利好 📈 港股芯片股 利好",
-        "chain": "和平协议→避险情绪（怕亏钱心态）缓解→资金流入风险板块（如科技、芯片）",
-        "watch": "恒生科技指数（港股科技风向标）和费城半导体指数（全球芯片景气指标）"
-      }
-    },
-    {
-      "rank": 3,
       "title": "U.S. stock futures jump on Iran deal to end the war; Japan's Nikkei surges 5%: Live updates",
       "source": "CNBC",
       "detail": "The three major indexes are coming off a winning week.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "软银暴涨12%领涨亚洲股市",
-        "assets": "📈 日经指数 利好 📈 软银 利好",
-        "chain": "和平协议→地缘风险（战争不确定性）溢价消失→外资回流日本市场→日经指数（日本股市基准）飙升",
-        "watch": "日经225指数和软银期权（衍生品）隐含波动率（市场预期波动幅度）"
+        "what": "伊朗与美国达成和平协议，美股期货与日经暴涨",
+        "assets": "📈 美股期货 利好；📈 日经指数 利好",
+        "chain": "避险情绪消退（恐慌指数VIX下降），资金从黄金和原油流出，涌入风险资产（股票）",
+        "watch": "油价和VIX是否持续下跌"
       }
     },
     {
-      "rank": 4,
+      "rank": 2,
       "title": "港股午评：恒指涨0.45% 科指涨0.92% 黄金股普涨 芯片股强势 华虹宏力涨超11% 溜溜梅上市首日涨超189%",
       "source": "新浪港股",
       "detail": "6月15日消息，港股三大指数集体上涨。截至午间收盘，恒生指数涨0.45%，报24829.11，恒生科技指数涨0.92%，国企指数涨0.08%。盘面上，科网股涨跌不一，联想超9%...",
       "lang": "zh",
-      "score": 37
+      "score": 37,
+      "insight": {
+        "what": "港股恒指涨0.45%，科指涨0.92%，黄金股和芯片股领涨",
+        "assets": "📈 港股科技股 利好；📈 港股黄金股 利好；📈 华虹半导体 利好",
+        "chain": "科技股受益于风险偏好（投资者愿意买高风险资产）回升，黄金股跟随金价波动",
+        "watch": "港股成交量能否放大确认反弹"
+      }
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "SoftBank surges more than 12% as Iran-U.S. peace deal sends Asia stocks soaring",
       "source": "CNBC",
       "detail": "Asian tech stocks surged Monday on news that Iran and the U.S. have reached a peace deal",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "软银暴涨12%以上，因伊朗和平协议带动亚洲股市",
+        "assets": "📈 软银（日本科技股） 利好；📈 亚洲科技股 利好",
+        "chain": "软银作为科技风向标（市场标杆），上涨提振全球科技股情绪，降低风险溢价（额外回报要求）",
+        "watch": "软银股价能否守住涨幅"
+      }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "新一波科技IPO浪潮有望为慈善界带来巨额红利",
       "source": "环球市场播报",
       "detail": "SpaceX、Anthropic和OpenAI的重磅上市活动将在一夜之间造就新一代百万富翁和亿万富翁，这笔新财富有望为美国的慈善组织带来一笔意外之财。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "科技IPO潮或为慈善基金带来巨额收益",
-        "assets": "📈 科技IPO新股 利好 📈 慈善基金 间接利好",
-        "chain": "IPO（首次公开募股）活跃→风投退出（套现）顺畅→慈善捐赠（如盖茨基金会）资金池扩大→再投资科技板块",
-        "watch": "IPO首日涨幅（如溜溜梅189%）和后续锁定期（禁售期）抛压"
+        "what": "科技IPO潮有望为慈善界带来巨额红利",
+        "assets": "📈 科技IPO板块 利好；📈 私募股权（早期投资） 利好",
+        "chain": "IPO活跃（公司上市）带动一级市场（未上市股权）估值，利好风投和慈善基金退出变现",
+        "watch": "后续科技公司IPO定价和首日涨幅"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "光大期货0615黄金点评：本周关注美联储议息会议，谨慎对待黄金波动",
       "source": "市场资讯",
       "detail": "上周黄金波动加剧，伦敦现货周内跌幅超过2%，SHFE黄金周跌超3%。本周为超级央行周，全球主要央行将召开议息会议，重点关注美联储议息会议...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "光大期货：本周关注美联储议息会议，黄金波动需谨慎",
+        "assets": "📉 黄金 短期承压；📉 美元 可能波动",
+        "chain": "美联储加息预期（借钱成本上升）压制金价，若议息偏鹰（倾向收紧政策），黄金将进一步下跌",
+        "watch": "美联储利率决议及点阵图（官员利率预测）"
+      }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "World leaders welcome U.S.-Iran deal as Europe signals sanctions relief, urges Hormuz reopening",
       "source": "CNBC",
       "detail": "The agreement came after more than three months of stop-start negotiations and bouts of fighting since late February, roiling global energy and commodities markets.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "全球领导人欢迎美伊和平协议，欧洲暗示解除制裁并呼吁重开霍尔木兹",
+        "assets": "📉 原油 承压；📈 航运股 利好；📈 中东股市 利好",
+        "chain": "制裁解除增加伊朗原油供应（全球供给上升），压低油价；霍尔木兹重开降低运输风险溢价",
+        "watch": "伊朗原油出口量实际恢复速度"
+      }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "CNBC Daily Open: Iran deal fuels global relief rally",
       "source": "CNBC",
       "detail": "Iran peace deal sparks a global relief rally in stocks amid hopes that the end of the war will ease the energy crisis impacting economies worldwide.",
@@ -98,12 +94,28 @@
       "score": 30
     },
     {
-      "rank": 10,
-      "title": "AI硬件再度疯狂，港股硬科技霸气领涨！规模最大港股通信息技术ETF华宝（159131）大涨逾6% ，全市场涨幅第一",
-      "source": "新浪基金",
-      "detail": "6月15日午后，港股硬科技持续领涨全市场。智谱涨超35%，建滔积层板、建滔集团、壁仞科技、英诺赛科、华虹宏力等多股涨超10%。同类规模最大...",
+      "rank": 8,
+      "title": "These stocks are the most overbought or oversold after a choppy week on Wall Street",
+      "source": "CNBC",
+      "detail": "Reaction to earnings reports led Adobe to become oversold, while J.M. Smucker Company was left overbought.",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 9,
+      "title": "金价突破4300美元！黄金类ETF普涨",
+      "source": "上海证券报",
+      "detail": "美伊达成和平协议，激发了黄金投资者的热情。 COMEX黄金期货价格6月15日上午突破4300美元/盎司，上海黄金交易所Au99.99的价格重回940元/克之上，黄金ETF早盘普涨。",
       "lang": "zh",
-      "score": 30
+      "score": 22
+    },
+    {
+      "rank": 10,
+      "title": "A year after Meta tapped Alexandr Wang to build a new AI model, Zuckerberg has to sell it",
+      "source": "CNBC",
+      "detail": "Mark Zuckerberg's mega spending spree began a year ago, when he lured Alexandr Wang to oversee a new AI strategy. The results so far are underwhelming.",
+      "lang": "en",
+      "score": 20
     }
   ]
 }
