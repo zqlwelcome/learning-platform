@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 08:00",
+  "updateTime": "2026-06-16 08:06",
   "news": [
     {
       "rank": 1,
@@ -9,113 +9,113 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "瑞银预计油价回落缓解加息压力，美联储或按兵不动至2027年",
-        "assets": "📈 美债 利好；📉 美元指数 承压",
-        "chain": "油价跌→通胀预期降→加息概率降→风险资产（美股）估值压力缓解",
-        "watch": "WTI原油（美国西得州轻质原油）价格是否跌破70美元"
+        "what": "瑞银预计油价回落缓解加息压力，美联储或2027年才降息",
+        "assets": "📈 美股科技股 利好；📉 美元 承压",
+        "chain": "油价跌→通胀预期降→加息概率降→科技股估值（未来现金流折现）修复；美元走弱或提振新兴市场",
+        "watch": "WTI（西德克萨斯中质原油）原油价格是否持续低于70美元"
       }
     },
     {
       "rank": 2,
-      "title": "华尔街机构警告美股未来将面临更多挑战 美联储今年或连续加息三次",
-      "source": "智通财经APP",
-      "detail": " 随着市场对美联储重启加息周期的预期不断升温，以及投资者开始重新审视人工智能（AI）商业化前景，越来越多华尔街机构开始对风险资产未来走势发出警告。",
-      "lang": "zh",
-      "score": 51,
-      "insight": {
-        "what": "华尔街警告美股面临更多挑战，美联储今年或连续加息三次",
-        "assets": "📉 美股大盘（标普500） 利空；📈 美元 利好",
-        "chain": "加息预期升温→资金成本上升→压制成长股（高估值科技股）估值→避险情绪推升美元",
-        "watch": "美联储3月会议点阵图（利率预测）及非农数据"
-      }
-    },
-    {
-      "rank": 3,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席沃什，关系影响利率以外政策",
-        "assets": "📈 美元 中性偏强；📉 新兴市场货币 承压",
-        "chain": "政治关联→沃什可能更鹰派（收紧货币）→美元走强→新兴市场资本外流",
-        "watch": "沃什公开讲话中对通胀的表态"
+        "what": "特朗普信任美联储主席沃什，影响远超利率决策",
+        "assets": "📈 美元 偏强；📉 美债 波动加大",
+        "chain": "沃什获信任→政策连贯性（货币政策连续性）增强→美元吸引资金流入；但政治干预风险或扭曲市场预期",
+        "watch": "沃什国会证词中是否提及独立决策"
       }
     },
     {
-      "rank": 4,
-      "title": "Fiserv Stock Crashes On CEO's Sudden Departure. 'A Bad Look,' Says Analyst. - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "Fiserv因CEO突然离职股价暴跌，分析师称‘形象差’",
-        "assets": "📉 Fiserv股票 利空；📉 金融科技板块 承压",
-        "chain": "管理层动荡→市场质疑战略稳定性→资金流出个股→拖累同类支付股（如Square）",
-        "watch": "是否有高管回购（内部增持）或新CEO任命公告"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "title": "SpaceX IPO raised $10bn more than thought - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO融资额比预期多100亿美元，达超募水平",
-        "assets": "📈 太空概念股（如Virgin Galactic） 利好；📈 风险偏好 提升",
-        "chain": "超募→市场对太空商业信心增强→带动行业估值重估（对标特斯拉）→资金涌入相关ETF",
-        "watch": "SpaceX上市时间表及估值倍数"
+        "what": "SpaceX IPO（首次公开募股）融资额超预期100亿美元",
+        "assets": "📈 太空概念股 利好；📈 科技成长股 情绪提振",
+        "chain": "巨额融资→市场风险偏好（投资者愿意承担风险的程度）提升→资金从避险资产流入成长板块；或推高同类IPO估值",
+        "watch": "SpaceX上市首日涨幅及后续财报"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "CNBC称中国股市等待AI带动整体市场上涨",
-        "assets": "📈 A股AI板块 利好；📈 恒生科技指数 中性偏强",
-        "chain": "AI主题热→资金聚焦科技龙头→若盈利兑现（业绩增长）→扩散至消费、制造等板块",
-        "watch": "中国AI龙头（如百度、商汤）财报及大模型落地进展"
+        "what": "CNBC报道：中国等待AI带动全市场上涨",
+        "assets": "📈 中国AI概念股 利好；📉 传统板块 短期承压",
+        "chain": "AI主题集中→资金从消费/地产等旧经济流出→分化加剧；若AI应用落地慢，可能引发获利回吐（抛售）",
+        "watch": "中国AI龙头公司订单数据及政策支持"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 39
+      "score": 39,
+      "insight": {
+        "what": "纳斯达克高开，美伊协议后油价大跌",
+        "assets": "📈 纳斯达克指数 上涨；📉 原油 重挫",
+        "chain": "油价暴跌→运输/化工成本降→通胀预期缓→科技股估值修复；但能源股拖累道指",
+        "watch": "美伊协议执行细节及OPEC（石油输出国组织）反应"
+      }
     },
     {
-      "rank": 8,
-      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "title": "日本央行周二料加息至31年来最高水平",
       "source": "环球市场播报",
       "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "日本央行料加息至31年最高水平",
+        "assets": "📈 日元 大幅升值；📉 日本国债 下跌",
+        "chain": "加息→日元套利交易（借日元买高息资产）平仓→全球股市波动；日债收益率上升或吸引资金回流",
+        "watch": "日本央行利率决议及行长讲话措辞"
+      }
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
       "source": "CNBC",
       "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
       "lang": "en",
       "score": 35
+    },
+    {
+      "rank": 8,
+      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
+      "source": "CNBC",
+      "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom",
+      "source": "CNBC",
+      "detail": "Nvidia is set to raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
