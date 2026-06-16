@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-16 09:01",
+  "updateTime": "2026-06-16 09:06",
   "news": [
     {
       "rank": 1,
-      "title": "瑞银：油价回落缓解沃什加息压力 美联储或按兵不动直至2027年转向降息",
-      "source": "智通财经APP",
-      "detail": "瑞银全球财富管理固定收益策略主管莱斯利·法尔科尼奥表示，在美国和伊朗宣布达成协议、重开霍尔木兹海峡之后，油价受到抑制，美国国债市场随之上涨...",
-      "lang": "zh",
-      "score": 54,
-      "insight": {
-        "what": "瑞银预计油价下跌缓解加息压力，美联储或至2027年才降息",
-        "assets": "📈 美国国债 利好; 📉 美元指数 承压",
-        "chain": "油价跌→通胀预期降→加息概率降（借钱成本预期降低）→长端美债收益率下行",
-        "watch": "WTI原油期货价格及美联储点阵图变化"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席沃什，关系影响利率政策",
-        "assets": "📈 美股大盘 利好; 📉 美元 承压",
-        "chain": "政治信任→政策沟通成本降低→市场预期更稳定→风险溢价下降",
-        "watch": "特朗普对利率政策公开表态频率"
+        "what": "特朗普信任联储主席人选Kevin Warsh",
+        "assets": "📉 美国国债收益率 承压；📈 美元指数 走强预期",
+        "chain": "鹰派联储主席预期推高利率（借钱成本），压制长债（长期国债）价格，利好美元",
+        "watch": "Warsh公开政策立场及联储会议纪要"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX IPO raised $10bn more than thought - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 太空概念股 利好; 📉 传统航天股 承压",
-        "chain": "超募→资金充裕→加速研发→挤压竞争对手份额（传统航天企业）",
-        "watch": "SpaceX估值及后续发射合同数量"
+        "what": "SpaceX IPO筹资额超预期100亿美元",
+        "assets": "📈 太空概念股 利好；📈 美股科技IPO 情绪提振",
+        "chain": "巨额IPO吸走流动性（市场资金），但提振风险偏好（投资者情绪），可能带动卫星/航天板块",
+        "watch": "SpaceX上市时间表及估值"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide - Reuters",
+      "source": "Reuters",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "美伊协议+油价暴跌，华尔街创新高",
+        "assets": "📈 美股大盘 利好；📉 原油期货 承压；📈 航空股 利好",
+        "chain": "油价下跌降低通胀预期（物价上涨压力），推高降息（借钱成本降低）概率，资金涌入股市",
+        "watch": "美伊协议执行细节及OPEC（石油输出国组织）反应"
       }
     },
     {
@@ -51,58 +51,42 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "CNBC称市场等待AI带动整体上涨",
-        "assets": "📈 纳斯达克100 利好; 📉 传统板块 中性",
-        "chain": "AI叙事驱动资金轮动（板块切换）→科技股吸筹→拖累非科技股流动性",
-        "watch": "英伟达财报及AI相关资本支出数据"
+        "what": "AI尚未带动中国整体市场上涨",
+        "assets": "📉 中国科技股 中性偏空；📉 中概股 分化",
+        "chain": "AI主题资金集中但未扩散，市场等待盈利（公司赚钱）兑现，若不及预期可能回调",
+        "watch": "中国AI公司财报及政策支持信号"
       }
     },
     {
       "rank": 5,
-      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "纳斯达克高开，油价因美伊协议下跌",
-        "assets": "📈 美股科技股 利好; 📉 原油期货 承压",
-        "chain": "地缘风险降（美伊缓和）→原油供应预期增→能源股跌→资金流入科技成长股",
-        "watch": "伊朗原油出口量及WTI库存数据"
-      }
-    },
-    {
-      "rank": 6,
       "title": "日本央行周二料加息至31年来最高水平",
       "source": "环球市场播报",
       "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行料加息至31年最高水平",
-        "assets": "📈 日元 利好; 📉 日经225 承压",
-        "chain": "加息（借钱成本升）→日元套利交易平仓（抛售高息货币）→日本出口企业利润缩水",
-        "watch": "日本10年期国债收益率及通胀数据"
+        "what": "日本央行预计加息至31年最高",
+        "assets": "📈 日元 升值预期；📉 日本国债 承压；📉 日经指数 利空",
+        "chain": "加息缩窄美日利差（利率差），日元套利交易（借日元买高息资产）平仓，冲击全球风险资产",
+        "watch": "日本央行实际加息幅度及前瞻指引"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
       "source": "CNBC",
       "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "美空军B-52轰炸机坠毁，8人遇难",
+        "assets": "📉 国防军工股 短期承压；📉 航空保险 承压",
+        "chain": "事故引发安全审查，影响军机采购预期，但长期不改军费（国防开支）趋势",
+        "watch": "事故调查结果及波音（B-52制造商）股价反应"
+      }
     },
     {
-      "rank": 8,
-      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
       "source": "CNBC",
       "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
@@ -110,12 +94,28 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom",
       "source": "CNBC",
       "detail": "Nvidia is set to raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
       "lang": "en",
       "score": 32
+    },
+    {
+      "rank": 9,
+      "title": "Stock futures are little changed after Dow posts new record close on potential U.S.-Iran deal: Live updates",
+      "source": "CNBC",
+      "detail": "On Monday, the Dow Jones Industrial Average climbed to new intraday and closing records on a potential deal between the U.S. and Iran.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "美国零售券商的SpaceX投资者每人至少分到1股IPO股票",
+      "source": "环球市场播报",
+      "detail": " 美国几家头部零售券商的客户，每人都至少获配一股SpaceX新股。这一分配安排凸显出本次发行特意为个人投资者预留了充足参与份额。",
+      "lang": "zh",
+      "score": 30
     }
   ]
 }
