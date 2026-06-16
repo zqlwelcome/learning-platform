@@ -1,7 +1,7 @@
 {
   "version": 6,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-16T17:23:49.647Z",
+  "updateTime": "2026-06-16T21:21:55.272Z",
   "newsSource": "live-hot-news.json",
   "modelTuning": {
     "duplicateCooldownDays": 15,
@@ -17,52 +17,52 @@
   },
   "macro": {
     "rateUp": true,
-    "rateDown": false,
+    "rateDown": true,
     "oilShock": true,
     "aiCapex": true,
-    "riskOff": true,
+    "riskOff": false,
     "chinaSupport": false,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折"
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 利率下行利好长久期资产"
   },
   "candidates": [],
   "stats": {
     "sampleCount": 15,
     "rawSampleCount": 23,
-    "activeCount": 6,
+    "activeCount": 7,
     "closedCount": 4,
-    "waitingCount": 5,
+    "waitingCount": 4,
     "excludedCount": 8,
     "reviewedCount": 4,
     "winRate": 25,
     "avgPnl": -4.045,
-    "equity": 100103.32225126727,
-    "exposurePct": 44,
-    "portfolioCap": 45,
-    "riskMode": "防御",
+    "equity": 100277.02022524604,
+    "exposurePct": 57,
+    "portfolioCap": 63,
+    "riskMode": "均衡",
     "alerts": 0,
     "benchmark": {
-      "modelReturnPct": 0.1,
-      "benchmarkAvgPct": 2.63,
-      "relativePct": -2.53,
+      "modelReturnPct": 0.28,
+      "benchmarkAvgPct": 2.46,
+      "relativePct": -2.18,
       "quality": "sample-based",
       "strictHistoryStatus": "pending-historical-price-ingestion",
       "refs": [
         {
           "symbol": "usSPY",
           "label": "标普500ETF SPY",
-          "samplePnlPct": 2.39,
+          "samplePnlPct": 2.13,
           "entryDate": "2026-06-09"
         },
         {
           "symbol": "usQQQ",
           "label": "纳指100ETF QQQ",
-          "samplePnlPct": 3.66,
+          "samplePnlPct": 3.11,
           "entryDate": "2026-06-09"
         },
         {
           "symbol": "usGLD",
           "label": "黄金ETF GLD",
-          "samplePnlPct": 2.73,
+          "samplePnlPct": 2.87,
           "entryDate": "2026-06-15"
         },
         {
@@ -75,9 +75,9 @@
       "note": "当前基准来自模拟盘内代表ETF样本，已可做方向参考；严格版仍需稳定历史行情源记录每个入场日的基准价格。"
     },
     "costAdjusted": {
-      "modelReturnPctAfterCost": -0.04,
-      "avgNetPnlPct": -0.81,
-      "estimatedTotalCost": 142,
+      "modelReturnPctAfterCost": 0.11,
+      "avgNetPnlPct": -0.91,
+      "estimatedTotalCost": 168,
       "assumptions": {
         "ETF": "估算单次完整买卖成本/滑点 0.20%",
         "Stock": "估算单次完整买卖成本/滑点 0.35%",
@@ -88,22 +88,22 @@
           "symbol": "usSHV",
           "name": "短债ETF",
           "status": "仓位等待",
-          "grossPnlPct": 0.01,
+          "grossPnlPct": 0.02,
           "roundTripCostPct": 0.2,
-          "netPnlPct": -0.19
+          "netPnlPct": -0.18
         },
         {
           "symbol": "usXLK",
           "name": "科技精选ETF",
           "status": "仓位等待",
-          "grossPnlPct": 1.82,
+          "grossPnlPct": 0.89,
           "roundTripCostPct": 0.2,
-          "netPnlPct": 1.62
+          "netPnlPct": 0.69
         },
         {
           "symbol": "sh512880",
           "name": "证券ETF",
-          "status": "仓位等待",
+          "status": "观察中",
           "grossPnlPct": 1.88,
           "roundTripCostPct": 0.2,
           "netPnlPct": 1.68
@@ -112,9 +112,9 @@
           "symbol": "usGLD",
           "name": "黄金ETF",
           "status": "仓位等待",
-          "grossPnlPct": 2.73,
+          "grossPnlPct": 2.87,
           "roundTripCostPct": 0.2,
-          "netPnlPct": 2.53
+          "netPnlPct": 2.67
         },
         {
           "symbol": "sz159928",
@@ -144,9 +144,9 @@
           "symbol": "usXLE",
           "name": "能源ETF",
           "status": "复盘中",
-          "grossPnlPct": -3.71,
+          "grossPnlPct": -3.54,
           "roundTripCostPct": 0.2,
-          "netPnlPct": -3.91
+          "netPnlPct": -3.74
         }
       ]
     },
@@ -171,9 +171,9 @@
         "count": 5,
         "closedCount": 2,
         "winRate": 50,
-        "exposurePct": 30,
-        "grossAvgPnlPct": 0.17,
-        "netAvgPnlPct": -0.03,
+        "exposurePct": 33,
+        "grossAvgPnlPct": -0.13,
+        "netAvgPnlPct": -0.33,
         "worst": {
           "symbol": "sh512760",
           "name": "芯片ETF",
@@ -187,8 +187,8 @@
         "closedCount": 1,
         "winRate": 0,
         "exposurePct": 28,
-        "grossAvgPnlPct": -4.76,
-        "netAvgPnlPct": -4.96,
+        "grossAvgPnlPct": -4.66,
+        "netAvgPnlPct": -4.86,
         "worst": {
           "symbol": "usUSO",
           "name": "美国原油基金",
@@ -217,12 +217,12 @@
         "closedCount": 0,
         "winRate": null,
         "exposurePct": 8,
-        "grossAvgPnlPct": 2.39,
-        "netAvgPnlPct": 2.19,
+        "grossAvgPnlPct": 2.13,
+        "netAvgPnlPct": 1.93,
         "worst": {
           "symbol": "usSPY",
           "name": "标普500ETF",
-          "pnlPct": 2.39
+          "pnlPct": 2.13
         },
         "verdict": "可继续按原仓位上限验证。"
       }
@@ -303,8 +303,8 @@
           "assetBucket": "商品与避险",
           "status": "复盘中",
           "eventType": "供需/地缘",
-          "pnlPct": -3.71,
-          "netPnlPct": -3.91,
+          "pnlPct": -3.54,
+          "netPnlPct": -3.74,
           "ageDays": 7,
           "confirmationScore": 81,
           "issues": [
@@ -381,7 +381,6 @@
       "status": "继续小仓验证",
       "nextAction": "不提高仓位上限，优先扩大样本和复盘失败原因。",
       "warnings": [
-        "扣除交易成本后仍为负，不能扩大真实仓位。",
         "当前跑输参考基准，需要先优化筛选和退出纪律。",
         "商品/能源样本拖累明显，必须单独建模，不再与科技或指数样本混在一起判断胜率。"
       ],
@@ -460,8 +459,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 110.22,
-      "pnlPct": 0.009073586788862277,
+      "currentPrice": 110.23,
+      "pnlPct": 0.018147173577724555,
       "ageDays": 1,
       "checkpoints": {}
     },
@@ -472,7 +471,7 @@
       "market": "美股",
       "kind": "ETF",
       "entryPrice": 184.8,
-      "allocationPct": 7,
+      "allocationPct": 8,
       "portfolioCap": 62,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -515,8 +514,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 188.16,
-      "pnlPct": 1.8181818181818101,
+      "currentPrice": 186.44,
+      "pnlPct": 0.88744588744588,
       "ageDays": 2,
       "checkpoints": {}
     },
@@ -566,10 +565,10 @@
       },
       "id": "2026-06-15-sh512880-宏观类",
       "entryDate": "2026-06-15",
-      "status": "仓位等待",
+      "status": "观察中",
       "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
+      "entryValue": 11000,
+      "currentValue": 11207.156308851223,
       "currentPrice": 1.082,
       "pnlPct": 1.8832391713747663,
       "ageDays": 2,
@@ -623,8 +622,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 397.09,
-      "pnlPct": 2.729342370776622,
+      "currentPrice": 397.63,
+      "pnlPct": 2.8690433072903128,
       "ageDays": 2,
       "checkpoints": {}
     },
@@ -693,7 +692,7 @@
       "market": "港股",
       "kind": "ETF",
       "entryPrice": 4.654,
-      "allocationPct": 7,
+      "allocationPct": 8,
       "portfolioCap": 61,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -734,8 +733,8 @@
       "entryDate": "2026-06-15",
       "status": "观察中",
       "capital": 100000,
-      "entryValue": 7000.000000000001,
-      "currentValue": 6861.624409110444,
+      "entryValue": 8000,
+      "currentValue": 7841.856467554792,
       "currentPrice": 4.562,
       "pnlPct": -1.9767941555650974,
       "ageDays": 2,
@@ -847,9 +846,9 @@
       "status": "复盘中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 7703.084161003659,
-      "currentPrice": 55.26,
-      "pnlPct": -3.7114479874542647,
+      "currentValue": 7717.023871754661,
+      "currentPrice": 55.36,
+      "pnlPct": -3.5372016030667384,
       "ageDays": 7,
       "checkpoints": {
         "d1": {
@@ -873,7 +872,7 @@
       "market": "美股",
       "kind": "ETF",
       "entryPrice": 707.83,
-      "allocationPct": 7,
+      "allocationPct": 8,
       "portfolioCap": 57,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -904,10 +903,10 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 7000.000000000001,
-      "currentValue": 7256.03605385474,
-      "currentPrice": 733.72,
-      "pnlPct": 3.657657912210557,
+      "entryValue": 8000,
+      "currentValue": 8248.986338527611,
+      "currentPrice": 729.86,
+      "pnlPct": 3.1123292315951527,
       "ageDays": 8,
       "checkpoints": {
         "d1": {
@@ -1083,9 +1082,9 @@
       "status": "复盘中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 8190.994718789133,
-      "currentPrice": 752.22,
-      "pnlPct": 2.3874339848641695,
+      "currentValue": 8170.4143300484575,
+      "currentPrice": 750.33,
+      "pnlPct": 2.1301791256057183,
       "ageDays": 8,
       "checkpoints": {
         "d1": {
