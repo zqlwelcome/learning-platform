@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 08:10",
+  "updateTime": "2026-06-16 08:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "瑞银预计油价下跌缓解加息压力，美联储或至2027年才降息",
-        "assets": "📈 美股科技股 利好；📉 美元指数 承压",
-        "chain": "油价跌→通胀预期降→加息概率降→风险偏好回升（资金从避险资产流向股市）",
-        "watch": "WTI原油期货价格及美联储点阵图变化"
+        "what": "瑞银预计油价回落缓解加息压力，美联储或按兵不动至2027年",
+        "assets": "📈 美国国债 利好；📉 美元指数 承压",
+        "chain": "油价跌→通胀预期降温→沃什（美联储主席）加息概率降→长端利率（长期债券收益率）下行，利空美元",
+        "watch": "WTI（西得克萨斯中质原油）油价是否跌破70美元"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 48,
       "insight": {
         "what": "特朗普信任美联储主席沃什，影响远超利率政策",
-        "assets": "📈 美元 短期偏强；📉 美债收益率 波动加大",
-        "chain": "政治信任→货币政策独立性存疑→市场对长期利率路径重新定价（风险溢价上升）",
-        "watch": "沃什公开讲话及特朗普对美联储政策评论"
+        "assets": "📈 美元 短期支撑；📉 黄金 承压",
+        "chain": "沃什获政治背书→市场押注其政策连贯性（货币政策持续稳定）→美元信用增强，避险资产（黄金）遭抛售",
+        "watch": "沃什公开讲话中对通胀的措辞"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO实际募资额比预期高出100亿美元",
-        "assets": "📈 航天军工板块 利好；📈 私募股权 流动性改善",
-        "chain": "巨额IPO→资金从其他科技股分流→但提振整体IPO市场情绪（二级市场短期承压）",
-        "watch": "SpaceX上市首日表现及后续融资计划"
+        "what": "SpaceX IPO融资额远超预期，多筹100亿美元",
+        "assets": "📈 太空概念股 利好；📈 风险资本（VC） 活跃",
+        "chain": "SpaceX超募→私人市场估值膨胀→带动一级市场（未上市企业融资）对航天赛道风险偏好（投资者愿意承担风险）提升",
+        "watch": "SpaceX上市后首日涨幅及锁定期（禁售期）解禁节奏"
       }
     },
     {
@@ -51,42 +51,58 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "CNBC报道称市场等待AI带动整体行情上涨",
-        "assets": "📈 AI概念股 结构性利好；📉 传统科技股 相对承压",
-        "chain": "AI预期未兑现→资金集中炒作龙头→板块分化加剧（拥挤交易风险上升）",
-        "watch": "英伟达财报及AI相关资本支出数据"
+        "what": "CNBC称市场等待AI拉动整体行情，目前分化",
+        "assets": "📈 美股科技股 中性偏多；📉 周期股（经济敏感型股票） 承压",
+        "chain": "AI未普涨→资金集中抱团科技龙头（如英伟达）→其他板块流动性（资金供给）被抽离，形成跷跷板效应",
+        "watch": "标普500等权重指数（剔除市值偏见的指数）是否突破"
       }
     },
     {
       "rank": 5,
+      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "美伊协议后油价下跌，纳斯达克开盘走高",
+        "assets": "📈 纳斯达克指数 利好；📉 原油 利空",
+        "chain": "美伊协议→伊朗原油出口预期增→油价跌→通胀压力减→科技股估值（未来现金流折现）修复，能源股遭抛售",
+        "watch": "美国原油库存（EIA（美国能源信息署）周报）变化"
+      }
+    },
+    {
+      "rank": 6,
       "title": "日本央行周二料加息至31年来最高水平",
       "source": "环球市场播报",
       "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行周二预计加息至31年最高水平",
-        "assets": "📈 日元 升值；📉 日经指数 承压；📉 日本国债 收益率上升",
-        "chain": "日央行加息→日元套利交易（借日元买高息资产）平仓→全球风险资产波动加剧",
-        "watch": "日本央行利率决议及行长讲话措辞"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
-      "source": "CNBC",
-      "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "美军B-52轰炸机在加州坠毁，8名机组人员全部遇难",
-        "assets": "📉 国防军工板块 短期承压；📈 黄金 避险微升",
-        "chain": "军事事故→国防合同审查风险→但长期预算影响有限（情绪冲击为主）",
-        "watch": "事故调查结果及国防部后续安全审查措施"
+        "what": "日本央行预计周二加息至31年最高水平",
+        "assets": "📈 日元 利好；📉 日本国债 利空",
+        "chain": "日央行加息→日元套利交易（借日元买高息资产）平仓→全球风险资产（如美股）承压，日债收益率（债券利息回报）飙升",
+        "watch": "日本10年期国债收益率是否突破1.5%"
       }
     },
     {
       "rank": 7,
+      "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
+      "source": "CNBC",
+      "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
+      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 9,
       "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
       "source": "CNBC",
       "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
@@ -94,28 +110,12 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom",
       "source": "CNBC",
       "detail": "Nvidia is set to raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
       "lang": "en",
       "score": 32
-    },
-    {
-      "rank": 9,
-      "title": "Stock futures are little changed after Dow posts new record close on potential U.S.-Iran deal: Live updates",
-      "source": "CNBC",
-      "detail": "On Monday, the Dow Jones Industrial Average climbed to new intraday and closing records on a potential deal between the U.S. and Iran.",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "美国零售券商的SpaceX投资者每人至少分到1股IPO股票",
-      "source": "环球市场播报",
-      "detail": " 美国几家头部零售券商的客户，每人都至少获配一股SpaceX新股。这一分配安排凸显出本次发行特意为个人投资者预留了充足参与份额。",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
