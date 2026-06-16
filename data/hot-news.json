@@ -1,32 +1,32 @@
 {
-  "updateTime": "2026-06-16 13:46",
+  "updateTime": "2026-06-16 13:50",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX stock rises after record Nasdaq IPO debut - qz.com",
-      "source": "qz.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 62,
-      "insight": {
-        "what": "SpaceX纳斯达克上市首日股价大涨",
-        "assets": "📈 SpaceX股票 利好; 📈 太空概念股 利好",
-        "chain": "提振IPO市场情绪，资金可能从传统科技股轮动至新兴行业（板块轮动）",
-        "watch": "SpaceX后续财报及订单量"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席Kevin Warsh，影响不止利率",
-        "assets": "📈 美元 利好; 📉 美债 承压",
-        "chain": "市场预期政策更鹰派（加息倾向），推高美债收益率，压制风险资产（风险偏好下降）",
-        "watch": "Warsh讲话及美联储会议纪要"
+        "what": "特朗普信任美联储主席沃什，影响不止利率",
+        "assets": "📈 美元 利多；📈 美债收益率 上行",
+        "chain": "沃什鹰派（倾向加息）预期升温，美元走强，新兴市场资金外流（资本撤出高风险地区）",
+        "watch": "沃什后续讲话及美联储议息会议纪要"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
+      "source": "Reuters",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "SpaceX华尔街首秀后涨势延续",
+        "assets": "📈 SpaceX股票 利多；📈 太空概念股 联动",
+        "chain": "IPO（首次公开募股）超募推高估值，带动航天军工板块情绪，资金从传统能源轮动（资金转换板块）",
+        "watch": "SpaceX后续订单及发射计划"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "日经225指数突破7万点，日本央行加息至1%",
-        "assets": "📈 日经225 利好; 📉 日元 承压",
-        "chain": "加息预期已消化，日元贬值利好出口企业，但利空债券（债券价格下跌）",
-        "watch": "日本CPI及后续加息路径"
+        "what": "日经225突破7万点，日本央行加息至1%",
+        "assets": "📈 日经225 短期利多；📉 日元 承压",
+        "chain": "加息抑制通胀但经济韧性支撑股市，日元贬值（货币变便宜）利好出口企业，利空进口成本",
+        "watch": "日本核心CPI（消费者物价指数）及出口数据"
       }
     },
     {
@@ -51,42 +51,50 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO筹资额比预期多100亿美元",
-        "assets": "📈 SpaceX 利好; 📈 科技IPO板块 利好",
-        "chain": "超额认购显示市场风险偏好高，资金可能从避险资产（如美债）流出（风险追逐）",
-        "watch": "其他科技公司IPO定价及认购情况"
+        "what": "SpaceX IPO超额募资100亿美元",
+        "assets": "📈 SpaceX股票 利多；📈 风险投资 情绪回暖",
+        "chain": "超募显示机构追捧，推高一级市场估值，带动科技新股发行（IPO）活跃度",
+        "watch": "SpaceX估值及后续增发计划"
       }
     },
     {
       "rank": 5,
+      "title": "Japan Raises Rates to 31-Year High to Ward Off War Inflation - The New York Times",
+      "source": "The New York Times",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 40,
+      "insight": {
+        "what": "日本加息至31年高位以防战争通胀",
+        "assets": "📉 日本国债 利空；📈 日元 短期利多",
+        "chain": "加息抑制输入性通胀（进口涨价），但增加企业借贷成本，可能拖累GDP（国内生产总值）",
+        "watch": "日本制造业PMI（采购经理指数）及工资增速"
+      }
+    },
+    {
+      "rank": 6,
       "title": "US stock market jumps as US-Iran deal stirs hopes for end to energy turmoil - Al Jazeera",
       "source": "Al Jazeera",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "美国股市因伊朗协议跳涨，能源动荡结束希望",
-        "assets": "📈 美股大盘 利好; 📉 原油 承压",
-        "chain": "油价下跌降低通胀压力，降息预期升温（借钱成本降低），利好利率敏感股（如房地产）",
-        "watch": "伊朗原油出口量及OPEC反应"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "10年期美债收益率因伊朗协议下滑",
-        "assets": "📈 美债 利好; 📉 美元 承压",
-        "chain": "油价下跌压低通胀预期，美联储加息概率下降（鸽派信号），资金从美元流向新兴市场（套息交易）",
-        "watch": "美联储官员讲话及通胀数据"
+        "what": "美伊协议缓解能源动荡，美股大涨",
+        "assets": "📈 美股指数 利多；📉 原油 承压",
+        "chain": "油价下跌降低通胀预期，美联储鸽派（支持宽松）空间增大，周期股（如航空）受益",
+        "watch": "美伊协议执行细节及伊朗原油出口量"
       }
     },
     {
       "rank": 7,
+      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38
+    },
+    {
+      "rank": 8,
       "title": "澳洲央行维持利率不变，警告随时可能加息以抑制通胀",
       "source": "环球市场播报",
       "detail": "澳大利亚储备银行周二维持利率在4.35%不变，同时表示已做好准备，随时可能上调利率以稳定物价并实现充分就业。 这一一致通过的举措与经济学家们的预期相符...",
@@ -94,7 +102,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "机构：日本央行很可能继续以每六个月至一年一次的渐进节奏加息",
       "source": "环球市场播报",
       "detail": "SMBC东京外汇首席策略师HIROFUMI SUZUKI表示，出现一票反对确实有些出人意料，但鉴于反对票来自长期以鸽派立场着称的审议委员浅田统一郎...",
@@ -102,20 +110,12 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "日本央行如期加息25个基点 利率升至31年来最高水平",
       "source": "环球市场播报",
       "detail": " 日本央行加息25个基点，将目标利率由0.75%上调至1.00%，为31年来最高水平，符合市场预期，此前已连续三次会议按兵不动。",
       "lang": "zh",
       "score": 36
-    },
-    {
-      "rank": 10,
-      "title": "Biotech IPO window is opening but big pharma M&A still sets the pace, top bankers tell CNBC",
-      "source": "CNBC",
-      "detail": "Biopharma dealmaking is driven by pressure to top up drug pipelines ahead of major patent expirations later this decade.",
-      "lang": "en",
-      "score": 35
     }
   ]
 }
