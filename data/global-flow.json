@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 13:11",
+  "updateTime": "2026-06-16 13:15",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,20 +16,127 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4100.21",
-      "change": "0.09"
+      "value": "4098.32",
+      "change": "0.05"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24533.350",
-      "change": "-1.25"
+      "value": "24499.560",
+      "change": "-1.38"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
-  "northbound": null,
+  "etf_flows": [
+    {
+      "name": "沪深300ETF易方达",
+      "code": "510310",
+      "price": 4.765,
+      "change": 0.04,
+      "flow": 441429216.0,
+      "flow_str": "+4.41亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF嘉实",
+      "code": "159919",
+      "price": 5.126,
+      "change": 0.04,
+      "flow": 408375072.0,
+      "flow_str": "+4.08亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华泰柏瑞",
+      "code": "510300",
+      "price": 4.919,
+      "change": 0.0,
+      "flow": 311795984.0,
+      "flow_str": "+3.12亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华夏",
+      "code": "510330",
+      "price": 5.122,
+      "change": 0.08,
+      "flow": 294049061.0,
+      "flow_str": "+2.94亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信ETF国泰",
+      "code": "515880",
+      "price": 1.74,
+      "change": 3.02,
+      "flow": 190684880.0,
+      "flow_str": "+1.91亿",
+      "direction": "in"
+    }
+  ],
+  "sector_flows": [
+    {
+      "name": "电力设备",
+      "code": "BK1200",
+      "index": 7061.53,
+      "change": 2.9,
+      "flow": 9476441856.0,
+      "flow_str": "+94.76亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信设备",
+      "code": "BK0448",
+      "index": 26936.97,
+      "change": 3.61,
+      "flow": 5067177728.0,
+      "flow_str": "+50.67亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信",
+      "code": "BK1215",
+      "index": 8587.93,
+      "change": 2.84,
+      "flow": 4478692352.0,
+      "flow_str": "+44.79亿",
+      "direction": "in"
+    },
+    {
+      "name": "电池",
+      "code": "BK1033",
+      "index": 1663.71,
+      "change": 3.96,
+      "flow": 4194403328.0,
+      "flow_str": "+41.94亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信线缆及配套",
+      "code": "BK1592",
+      "index": 32838.29,
+      "change": 7.75,
+      "flow": 3753894144.0,
+      "flow_str": "+37.54亿",
+      "direction": "in"
+    }
+  ],
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0,
+    "sgt": 0,
+    "total": 0
+  },
   "bank_news": [
+    {
+      "title": "澳洲央行维持利率不变，警告随时可能加息以抑制通胀",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
+    {
+      "title": "光大期货0616黄金点评：地缘局势缓和支撑金价，关注今日日央行议息情况",
+      "source": "市场资讯",
+      "keyword": "央行"
+    },
     {
       "title": "机构：美联储会议在即，市场等待沃什对利率和经济的看法",
       "source": "环球市场播报",
@@ -44,16 +151,6 @@
       "title": "澳大利亚联储维持利率不变",
       "source": "环球市场播报",
       "keyword": "利率"
-    },
-    {
-      "title": "机构：日本央行很可能继续以每六个月至一年一次的渐进节奏加息",
-      "source": "环球市场播报",
-      "keyword": "央行"
-    },
-    {
-      "title": "日经指数首次突破70000点，日元在日本央行公布决议后走弱",
-      "source": "环球市场播报",
-      "keyword": "央行"
     }
   ]
 }
