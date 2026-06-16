@@ -1,78 +1,36 @@
 {
-  "updateTime": "2026-06-16 08:55",
+  "updateTime": "2026-06-16 09:01",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX stock rises after record Nasdaq IPO debut - qz.com",
-      "source": "qz.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 62,
-      "insight": {
-        "what": "SpaceX纳斯达克IPO首日大涨",
-        "assets": "📈 SpaceX股票 利好",
-        "chain": "提振科技IPO情绪，可能带动太空概念股跟涨（板块轮动）",
-        "watch": "SpaceX后续股价走势及市值变化"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "SpaceX Said to Allocate $600 Million to European Retail in Blockbuster IPO - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 55,
-      "insight": {
-        "what": "SpaceX向欧洲零售分配6亿美元IPO份额",
-        "assets": "📈 欧洲零售股 利好",
-        "chain": "资金流入欧洲市场，短期推高当地交易活跃度（流动性溢出）",
-        "watch": "欧洲IPO认购倍数及后续资金流向"
-      }
-    },
-    {
-      "rank": 3,
       "title": "瑞银：油价回落缓解沃什加息压力 美联储或按兵不动直至2027年转向降息",
       "source": "智通财经APP",
       "detail": "瑞银全球财富管理固定收益策略主管莱斯利·法尔科尼奥表示，在美国和伊朗宣布达成协议、重开霍尔木兹海峡之后，油价受到抑制，美国国债市场随之上涨...",
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "瑞银预计油价回落缓解加息压力，美联储2027年前不降息",
-        "assets": "📈 美国国债 利好；📉 原油 承压",
-        "chain": "油价跌降低通胀预期，美联储鹰派（倾向加息）立场松动，长端利率下行",
-        "watch": "WTI原油价格及美联储点阵图（利率预测图）"
+        "what": "瑞银预计油价下跌缓解加息压力，美联储或至2027年才降息",
+        "assets": "📈 美国国债 利好; 📉 美元指数 承压",
+        "chain": "油价跌→通胀预期降→加息概率降（借钱成本预期降低）→长端美债收益率下行",
+        "watch": "WTI原油期货价格及美联储点阵图变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 2,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席沃什，影响不止利率",
-        "assets": "📈 美元 利好；📉 美股 中性偏空",
-        "chain": "政策连贯性预期增强，美元走强；若沃什偏鹰，科技成长股估值承压（贴现率上升）",
-        "watch": "沃什公开讲话及特朗普政策表态"
+        "what": "特朗普信任美联储主席沃什，关系影响利率政策",
+        "assets": "📈 美股大盘 利好; 📉 美元 承压",
+        "chain": "政治信任→政策沟通成本降低→市场预期更稳定→风险溢价下降",
+        "watch": "特朗普对利率政策公开表态频率"
       }
     },
     {
-      "rank": 5,
-      "title": "Fiserv Stock Crashes On CEO's Sudden Departure. 'A Bad Look,' Says Analyst. - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "Fiserv股价因CEO突然离职暴跌",
-        "assets": "📉 Fiserv股票 利空",
-        "chain": "管理层动荡引发治理风险，支付板块短期受拖累（行业信心下降）",
-        "watch": "新任CEO任命进展及下一季度财报"
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 3,
       "title": "SpaceX IPO raised $10bn more than thought - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -80,42 +38,84 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 科技IPO市场 利好",
-        "chain": "超额认购显示需求强劲，推高整体科技股估值中枢（资金追逐成长股）",
-        "watch": "SpaceX上市后成交量及机构持仓变化"
+        "assets": "📈 太空概念股 利好; 📉 传统航天股 承压",
+        "chain": "超募→资金充裕→加速研发→挤压竞争对手份额（传统航天企业）",
+        "watch": "SpaceX估值及后续发射合同数量"
       }
     },
     {
-      "rank": 7,
+      "rank": 4,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "CNBC称市场等待AI带动整体上涨",
+        "assets": "📈 纳斯达克100 利好; 📉 传统板块 中性",
+        "chain": "AI叙事驱动资金轮动（板块切换）→科技股吸筹→拖累非科技股流动性",
+        "watch": "英伟达财报及AI相关资本支出数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 5,
       "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 39
+      "score": 39,
+      "insight": {
+        "what": "纳斯达克高开，油价因美伊协议下跌",
+        "assets": "📈 美股科技股 利好; 📉 原油期货 承压",
+        "chain": "地缘风险降（美伊缓和）→原油供应预期增→能源股跌→资金流入科技成长股",
+        "watch": "伊朗原油出口量及WTI库存数据"
+      }
     },
     {
-      "rank": 9,
-      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38
-    },
-    {
-      "rank": 10,
+      "rank": 6,
       "title": "日本央行周二料加息至31年来最高水平",
       "source": "环球市场播报",
       "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "日本央行料加息至31年最高水平",
+        "assets": "📈 日元 利好; 📉 日经225 承压",
+        "chain": "加息（借钱成本升）→日元套利交易平仓（抛售高息货币）→日本出口企业利润缩水",
+        "watch": "日本10年期国债收益率及通胀数据"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
+      "source": "CNBC",
+      "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
+      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
+      "source": "CNBC",
+      "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom",
+      "source": "CNBC",
+      "detail": "Nvidia is set to raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
