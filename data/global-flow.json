@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 11:16",
+  "updateTime": "2026-06-16 11:21",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,19 +16,24 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4098.97",
-      "change": "0.06"
+      "value": "4098.06",
+      "change": "0.04"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24507.700",
-      "change": "-1.35"
+      "value": "24503.650",
+      "change": "-1.36"
     }
   },
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": null,
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0,
+    "sgt": 0,
+    "total": 0
+  },
   "bank_news": [
     {
       "title": "高盛：预期美联储6月会议维持利率不变 加息的可能性不高",
