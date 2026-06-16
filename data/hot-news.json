@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 12:50",
+  "updateTime": "2026-06-16 12:54",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "散户通过券商获得SpaceX IPO（首次公开募股）份额，市场关注度提升。",
+        "assets": "📈 太空/航天概念股 利好\n📈 SpaceX未上市股权 估值上升\n📉 传统卫星通信股 承压",
+        "chain": "SpaceX上市预期升温→太空经济板块（航天、卫星相关股票）受资金追捧→可能分流AI/芯片（英伟达等）热点资金。",
+        "watch": "SpaceX IPO正式定价及散户认购倍数（反映需求热度）。"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "AI产业提振中国经济，但房地产和需求疲软",
+        "assets": "📈 港股/AI概念股 利好\n📉 人民币 承压\n📉 房地产板块 利空",
+        "chain": "AI投资（算力/基建）带动科技股上行，但内需不足拖累整体市场，形成结构性分化（板块涨跌不统一）",
+        "watch": "中国AI领域资本开支（企业投入）及房地产销售数据"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "日本央行加息至31年新高，收紧货币政策",
+        "assets": "📉 日经225指数 承压, 📈 日元 升值, 📉 全球债券 收益率上行压力",
+        "chain": "日元走强（日币变贵）→ 套利交易（借日元买高息资产）平仓 → 新兴市场股市资金流出",
+        "watch": "日本10年期国债收益率（JGB）及美元/日元汇率"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 39
+      "score": 39,
+      "insight": {
+        "what": "英伟达股价回升并计划发债融资",
+        "assets": "📈 英伟达股票 利好；📈 半导体板块 联动",
+        "chain": "发债（借钱）增加杠杆，提升AI芯片产能，拉动上游设备需求，但增加负债率（债务风险）。",
+        "watch": "英伟达发债定价及AI订单增速"
+      }
     }
   ]
 }
