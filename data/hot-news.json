@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 10:22",
+  "updateTime": "2026-06-16 10:30",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 57,
       "insight": {
         "what": "韩国未来资产因承诺SpaceX IPO股份落空被调查",
-        "assets": "📉 韩国金融股 承压，📉 SpaceX概念股 利空",
-        "chain": "监管风险上升（政府加大审查），或引发韩资机构赎回潮（资金流出）",
-        "watch": "韩国金融监督院调查进展及SpaceX IPO时间表"
+        "assets": "📉 SpaceX相关影子股 利空",
+        "chain": "监管审查加严会打击私募股权信心（PE/VC风险偏好下降），科技初创融资可能降温",
+        "watch": "SpaceX官方IPO时间表及估值变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席沃什，影响不止利率",
-        "assets": "📈 美元 利好，📉 黄金 承压",
-        "chain": "鹰派预期升温（加息概率增加），美债收益率上行（借钱成本提高）",
-        "watch": "沃什下周讲话及CPI（通胀）数据"
+        "what": "CNBC报道特朗普信任美联储主席Warsh，影响不止利率",
+        "assets": "📈 美元 利好\n📉 黄金 承压",
+        "chain": "Warsh偏鹰派（偏好加息/收紧货币），市场预期政策紧缩（流动性减少），推高美债收益率（长期国债利息）",
+        "watch": "Warsh后续公开讲话及美联储利率路径点阵图"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任沃什任美联储主席，政策影响超越利率",
-        "assets": "📈 美元 短期利好，📈 金融股 受益，📉 美债 承压",
-        "chain": "人事预期稳定市场信心（政策连续性保障），监管放松预期提振银行盈利（金融业受益）",
-        "watch": "沃什货币政策听证会证词及美联储独立性讨论"
+        "what": "特朗普信任美联储主席Warsh，影响不止利率（重复内容）",
+        "assets": "📈 美元 利好\n📉 黄金 承压",
+        "chain": "与上条相同，强化鹰派预期（加息概率上升），风险资产（股票、加密货币）可能回调",
+        "watch": "美国CPI（通胀数据）及非农就业数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "欧洲资管巨头研判加息、黄金及AI泡沫",
-        "assets": "📈 黄金 中性，📉 AI科技股 承压，📈 债券 利好",
-        "chain": "加息预期压制风险偏好（资金避险），黄金受实际利率（通胀调整后利率）影响",
-        "watch": "欧洲央行及美联储利率决议时间点"
+        "what": "欧洲资管巨头研判加息、黄金和AI泡沫",
+        "assets": "📈 黄金 中性偏多\n📉 AI科技股 承压",
+        "chain": "若加息持续（借钱成本提高），黄金避险需求上升；AI估值过高（市盈率泡沫）可能引发获利了结",
+        "watch": "欧洲央行（ECB）利率决议及AI龙头财报"
       }
     },
     {
@@ -65,81 +65,57 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO融资额超预期100亿美元",
-        "assets": "📈 太空概念股 利好，📈 风险投资（VC）市场 提振",
-        "chain": "高估值信号（市场信心增强），或带动私人公司估值上调（一级市场泡沫风险）",
-        "watch": "SpaceX后续营收及订单数据"
+        "what": "BBC报道SpaceX IPO融资额比预期多100亿美元",
+        "assets": "📈 SpaceX影子股 利好\n📈 太空科技板块 利好",
+        "chain": "超募（融资超预期）显示市场对太空经济狂热，可能带动上游供应商（火箭零件、卫星通信）估值重估",
+        "watch": "SpaceX估值及二级市场交易价格"
       }
     },
     {
       "rank": 6,
-      "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide - Reuters",
-      "source": "Reuters",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "美股反弹，道指因美伊协议及油价下跌创纪录新高",
-        "assets": "📈 美股大盘 利好，📉 原油 承压，📈 航空股 利好",
-        "chain": "油价下跌降低通胀预期（成本下降），地缘风险缓和（风险溢价消退）",
-        "watch": "美伊协议执行细节及OPEC（石油输出国组织）产量反应"
-      }
-    },
-    {
-      "rank": 7,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "AI产业提振中国经济，但房地产和内需依然疲弱",
-        "assets": "📈 中国AI相关股票（如百度/商汤） 利好；📉 中国房地产股 承压；📉 人民币（CNY） 承压",
-        "chain": "AI投资热带动科技出口（出口链），但内需不足拖累消费（消费链），政策可能加码刺激（财政宽松预期）",
-        "watch": "中国AI企业财报增速 vs 房地产销售数据（月度同比）"
+        "what": "CNBC中国连线：等待AI提振整个市场",
+        "assets": "📈 中国AI相关ETF 利好\n📉 中国消费股 中性",
+        "chain": "AI应用落地（如大模型商业化）若超预期，会带动芯片（算力需求）和云服务（数据中心）板块",
+        "watch": "中国AI企业财报及政策支持（如算力补贴）"
       }
+    },
+    {
+      "rank": 7,
+      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39
     },
     {
       "rank": 8,
-      "title": "Nvidia Stock Retakes Key Level As Chipmaker Plans Bond Offering - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "英伟达股价回关键位并计划发债",
-        "assets": "📈 英伟达股票 利好\n📈 半导体板块 利好\n📉 美债价格 承压",
-        "chain": "发债（借入资金）增加供给，短期拉低美债价格（债券跌=收益率升）；资金或用于回购/投资，提振科技股风险偏好。",
-        "watch": "英伟达发债条款（利率/规模）及后续资金用途"
-      }
-    },
-    {
-      "rank": 9,
       "title": "日本央行即将打出31年来最猛加息拳，日元贬值将终结？",
       "source": "滚动播报",
       "detail": "汇通财经APP讯——日本央行预计将在本周举行的货币政策会议上，将政策利率从当前的0.75%上调至1%。这一水平将是日本自1995年以来，即时隔三十一年的利率高位。",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "日本央行加息至1%，31年最高，日元或逆转贬值",
-        "assets": "📈 日元 升值预期\n📉 美元/日元 看空\n📈 日债收益率 上行\n📉 日本股市 承压",
-        "chain": "日元走强触发套利交易（借低息日元买高息资产）平仓，冲击新兴市场及风险资产；日债收益率上行压低全球长端利率。",
-        "watch": "日本央行会议声明及行长讲话，是否暗示后续加息路径"
-      }
+      "score": 36
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "霍尔木兹海峡重启，美联储会“鸽派转向”、市场会重定价“降息”？",
       "source": "滚动播报",
       "detail": "华尔街见闻 花旗表示，油价下行与核心CPI降温两大催化剂同步发酵——霍尔木兹海峡重开预期压低能源价格，5月核心CPI月环比仅录得0.21%，美联储鹰派逻辑正加速瓦解。",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "霍尔木兹海峡重开叠加CPI降温，市场押注美联储鸽派转向",
-        "assets": "📉 原油期货 利空\n📈 美债（美国国债） 利好\n📈 美股科技股 利好",
-        "chain": "油价跌→通胀预期降→降息（借钱成本降低）概率升→美元走弱→新兴市场资本回流",
-        "watch": "本周美联储点阵图（利率预测）及鲍威尔发布会措辞"
-      }
+      "score": 36
+    },
+    {
+      "rank": 10,
+      "title": "港股微幅低开 这家果汁饮料公司突然暴涨超70% 发生了什么？",
+      "source": "每日经济新闻",
+      "detail": "每经记者|曾子建每经编辑|袁东 今日（6月16日），港股市场微幅低开。 早间开盘，恒生指数报24826.19点，下跌16.48点，跌幅0.07%；恒生科技指数开盘报4765.49点，下跌0...",
+      "lang": "zh",
+      "score": 35
     }
   ]
 }
