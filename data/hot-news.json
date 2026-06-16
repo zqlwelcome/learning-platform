@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 12:40",
+  "updateTime": "2026-06-16 12:45",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 57,
       "insight": {
         "what": "韩国未来资产因承诺SpaceX IPO落空被调查",
-        "assets": "📉 SpaceX 非公开市场 利空，📉 韩国金融股 承压",
-        "chain": "监管风险上升→私募股权承诺可信度下降→科技股非公开交易溢价压缩",
-        "watch": "调查结果及SpaceX是否调整IPO计划"
+        "assets": "📉 韩国金融股 承压",
+        "chain": "监管风险上升，可能打击投资者对私募股权（非公开交易股权）的信心，影响相关基金流动性（资金进出难易度）",
+        "watch": "韩国金融监督院后续处罚措施"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "日经225突破7万点，日本央行加息至1%",
-        "assets": "📈 日经225 利好，📉 日本国债 承压",
-        "chain": "加息（借钱成本增加）短期压制债市→但经济强劲吸引外资→日元升值预期升温→出口股分化",
-        "watch": "日本GDP增速及企业盈利修正幅度"
+        "what": "日经225指数首次突破7万点，日本央行加息至1%",
+        "assets": "📈 日本股市 利好; 📉 日元 承压",
+        "chain": "加息（借钱成本提高）但股市新高，显示资金继续流入；日元贬值（货币价值下降）利好出口企业（如汽车股），但进口成本上升",
+        "watch": "日本央行下次会议是否暗示进一步加息"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 48,
       "insight": {
         "what": "美伊和平框架降低通胀担忧，美联储加息预期降温",
-        "assets": "📈 黄金 反弹，📉 美元指数 走弱",
-        "chain": "地缘风险溢价下降→油价预期回落→通胀预期降温→降息（借钱成本降低）预期升温",
-        "watch": "WTI原油期货价格及美联储点阵图变化"
+        "assets": "📈 黄金 利好; 📉 美元指数 承压",
+        "chain": "地缘风险（地区冲突）溢价消退，原油供应担忧缓解，油价（大宗商品价格）可能走低，间接利好航空股",
+        "watch": "美联储下次会议利率点阵图（官员利率预测）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席Warsh，影响不止利率",
-        "assets": "📈 美债 利好，📈 美元 短期偏强",
-        "chain": "政治信任增强→央行独立性预期稳定→长期利率预期下行→风险资产估值提升",
-        "watch": "Warsh公开讲话及美联储政策声明措辞"
+        "what": "特朗普信任美联储主席Kevin Warsh，影响不止利率",
+        "assets": "📈 美国长期国债 利好; 📈 美元 利好",
+        "chain": "Warsh可能主导监管放松（减少金融规则限制），利好银行股；市场押注更鹰派（倾向加息）的货币政策路径",
+        "watch": "Warsh公开讲话中关于通胀目标的措辞"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX上市首日创纪录后料继续上涨",
-        "assets": "📈 SpaceX 利好，📈 太空概念股 联动",
-        "chain": "IPO财富效应→资本涌入太空经济→相关ETF及供应商估值重估",
-        "watch": "SpaceX后续财报及订单积压数据"
+        "what": "SpaceX华尔街首秀后涨势延续",
+        "assets": "📈 SpaceX相关概念股 利好; 📈 美股太空ETF 利好",
+        "chain": "IPO（首次公开募股）成功提振风险偏好（投资意愿），可能带动其他未上市科技公司加速上市，利好一级市场（私募融资）",
+        "watch": "SpaceX下一季度订单及发射频率数据"
       }
     },
     {
@@ -89,14 +89,6 @@
     },
     {
       "rank": 8,
-      "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide - Reuters",
-      "source": "Reuters",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 44
-    },
-    {
-      "rank": 9,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
@@ -104,12 +96,20 @@
       "score": 42
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38
+    },
+    {
+      "rank": 10,
+      "title": "机构：日本央行很可能继续以每六个月至一年一次的渐进节奏加息",
+      "source": "环球市场播报",
+      "detail": "SMBC东京外汇首席策略师HIROFUMI SUZUKI表示，出现一票反对确实有些出人意料，但鉴于反对票来自长期以鸽派立场着称的审议委员浅田统一郎...",
+      "lang": "zh",
+      "score": 36
     }
   ]
 }
