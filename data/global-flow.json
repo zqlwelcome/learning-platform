@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 11:36",
+  "updateTime": "2026-06-16 11:41",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -22,58 +22,12 @@
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24506.440",
+      "value": "24506.080",
       "change": "-1.35"
     }
   },
   "etf_flows": [],
-  "sector_flows": [
-    {
-      "name": "电力设备",
-      "code": "BK1200",
-      "index": 7043.88,
-      "change": 2.64,
-      "flow": 8800537600.0,
-      "flow_str": "+88.01亿",
-      "direction": "in"
-    },
-    {
-      "name": "电池",
-      "code": "BK1033",
-      "index": 1662.94,
-      "change": 3.91,
-      "flow": 3969422848.0,
-      "flow_str": "+39.69亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信设备",
-      "code": "BK0448",
-      "index": 26837.34,
-      "change": 3.23,
-      "flow": 3959941888.0,
-      "flow_str": "+39.60亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信线缆及配套",
-      "code": "BK1592",
-      "index": 32687.82,
-      "change": 7.25,
-      "flow": 3653266688.0,
-      "flow_str": "+36.53亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信",
-      "code": "BK1215",
-      "index": 8548.35,
-      "change": 2.37,
-      "flow": 3401867520.0,
-      "flow_str": "+34.02亿",
-      "direction": "in"
-    }
-  ],
+  "sector_flows": [],
   "northbound": {
     "time": "15:00",
     "hgt": 0,
@@ -98,11 +52,6 @@
     },
     {
       "title": "华尔街最激进！沃什“首秀”在即 资管巨头PGIM料美联储今年加息三次",
-      "source": "市场资讯",
-      "keyword": "美联储"
-    },
-    {
-      "title": "美伊和平框架降低通胀担忧，美联储加息预期降温推动黄金小幅反弹",
       "source": "市场资讯",
       "keyword": "美联储"
     }

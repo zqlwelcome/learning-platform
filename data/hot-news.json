@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 11:35",
+  "updateTime": "2026-06-16 11:41",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 57,
       "insight": {
         "what": "韩国未来资产因SpaceX IPO承诺落空被调查",
-        "assets": "📉 韩国金融股 承压",
-        "chain": "信任受损→私募份额交易（非公开市场转让）监管收紧→投资者风险偏好下降",
-        "watch": "韩国金融监督院调查进展及处罚力度"
+        "assets": "📉 美股科技股 情绪利空；📉 韩国金融股 监管风险",
+        "chain": "削弱投资者对未上市科技公司（如SpaceX）的信任，打压私募股权估值（Pre-IPO溢价缩水）",
+        "watch": "韩国金融监管局调查进展及SpaceX后续IPO时间表"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 现货黄金（XAU/USD）周二亚洲早盘维持温和上涨走势，延续前一个交易日的反弹节奏。随着美国与伊朗就结束长期军事冲突达成全面框架协议...",
       "lang": "zh",
-      "score": 48
+      "score": 48,
+      "insight": {
+        "what": "美伊和平框架降低通胀预期，黄金反弹",
+        "assets": "📈 黄金 利好；📉 原油 承压；📉 美元指数 偏弱",
+        "chain": "地缘风险溢价（战争溢价）消退→油价跌→通胀预期走低→加息（借钱成本增加）预期降温→实际利率（名义利率减通胀）下行支撑黄金",
+        "watch": "美伊谈判细节及下周美联储官员讲话"
+      }
     },
     {
       "rank": 3,
@@ -31,10 +37,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "美伊和平框架降低通胀担忧，美联储加息预期降温",
-        "assets": "📈 黄金 利好；📉 美元 承压",
-        "chain": "地缘风险（战争不确定性）缓解→油价预期下行→加息概率（市场押注升息可能性）降低→实际利率（名义利率减通胀）下降",
-        "watch": "布伦特原油价格及美联储5月会议纪要"
+        "what": "特朗普信任美联储主席Warsh，不止影响利率",
+        "assets": "📈 美元指数 短期波动；📈 美债收益率 政策预期驱动",
+        "chain": "Warsh偏鹰（倾向加息）→市场押注更紧货币政策→美元走强、风险资产承压；但信任关系可能降低政策不确定性（政策透明度溢价）",
+        "watch": "Warsh近期公开讲话及特朗普对美联储政策的评论"
       }
     },
     {
@@ -43,13 +49,7 @@
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
       "lang": "en",
-      "score": 48,
-      "insight": {
-        "what": "特朗普信任美联储主席Warsh，影响超利率",
-        "assets": "📈 美国长期国债 利好；📉 美元 承压",
-        "chain": "政策连续性（货币政策稳定性）增强→市场定价美联储独立性→美元信用（全球储备货币地位）波动",
-        "watch": "Warsh关于通胀目标（物价稳定目标）的公开表态"
-      }
+      "score": 48
     },
     {
       "rank": 5,
@@ -59,10 +59,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX华尔街首秀后涨势延续",
-        "assets": "📈 太空概念股 利好；📈 科技成长股 联动",
-        "chain": "IPO（首次公开募股）超额认购→估值锚定（基准定价）上移→私募市场（非公开股权交易）溢价扩大",
-        "watch": "SpaceX后续融资估值及卫星发射合同"
+        "what": "SpaceX上市首日创纪录后涨势延续",
+        "assets": "📈 美股科技股 利好；📈 太空概念ETF（如ARKX） 联动上行",
+        "chain": "SpaceX估值飙升→提振一级市场（未上市科技公司）IPO定价→科技板块资金流入（资金轮动效应）",
+        "watch": "SpaceX后续财报及大股东减持公告"
       }
     },
     {
@@ -74,9 +74,9 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 太空ETF 利好；📉 传统航天股 承压",
-        "chain": "资金虹吸（资本从旧产业流向新赛道）→行业竞争加剧→供应链（火箭零部件厂商）受益",
-        "watch": "SpaceQ指数及商业发射订单积压量"
+        "assets": "📈 美股科技股 超预期利好；📈 风险偏好（VIX下降）",
+        "chain": "巨额融资暗示机构需求强劲→科技股流动性溢价（资金充裕支撑估值）→可能引发其他科技公司加速上市（IPO窗口打开）",
+        "watch": "SpaceX募资用途及后续路演反馈"
       }
     },
     {
@@ -97,19 +97,19 @@
     },
     {
       "rank": 9,
+      "title": "Nvidia Stock Retakes Key Level As Chipmaker Plans Bond Offering - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 39
+    },
+    {
+      "rank": 10,
       "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38
-    },
-    {
-      "rank": 10,
-      "title": "日本央行如期加息25个基点 利率升至31年来最高水平",
-      "source": "环球市场播报",
-      "detail": " 日本央行加息25个基点，将目标利率由0.75%上调至1.00%，为31年来最高水平，符合市场预期，此前已连续三次会议按兵不动。",
-      "lang": "zh",
-      "score": 36
     }
   ]
 }
