@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 09:40",
+  "updateTime": "2026-06-16 09:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 57,
       "insight": {
-        "what": "韩国未来资产因虚假承诺SpaceX IPO份额被调查",
-        "assets": "📉 韩国金融股 承压，📉 SpaceX影子股（关联概念股） 利空",
-        "chain": "监管严查私募销售（非公开产品分销），打击散户对未上市科技股（如SpaceX）的投机热情",
-        "watch": "韩国金融监督院调查进展及SpaceX正式IPO时间表"
+        "what": "韩国未来资产因SpaceX IPO承诺落空被调查",
+        "assets": "📉 韩国金融股 承压",
+        "chain": "监管风险（合规成本上升）压制券商声誉，可能引发韩国金融板块抛售",
+        "watch": "韩国金融监督院调查进展"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席沃什，影响远超利率",
-        "assets": "📈 美元指数 利好，📉 美债收益率 下行（避险情绪），📉 新兴市场货币 承压",
-        "chain": "沃什偏鹰（倾向加息）预期升温，但特朗普信任可降低政策冲突（央行独立性风险），短期压制通胀交易（押注物价上涨）",
-        "watch": "沃什下周讲话措辞及特朗普对货币政策的公开表态"
+        "what": "特朗普信任美联储主席Kevin Warsh，影响不止利率",
+        "assets": "📈 美元 走强 | 📉 美债 收益率上行",
+        "chain": "鹰派（倾向收紧政策）预期升温，美元走强压制新兴市场资产，美债收益率曲线陡化",
+        "watch": "Warsh公开讲话及美联储政策信号"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 47,
       "insight": {
-        "what": "美股存储芯片暴涨，黄金重回4300美元，油价暴跌",
-        "assets": "📈 美股存储芯片股（如美光、三星） 利好，📈 黄金 反弹，📉 原油 重挫",
-        "chain": "存储芯片需求复苏（AI算力带动HBM高带宽内存），黄金避险+美元走弱，油价受美伊协议（供给增加）打压",
-        "watch": "美光财报指引、美国EIA原油库存及伊朗石油出口量"
+        "what": "美股存储芯片暴涨，黄金重回4300美元，油价重挫",
+        "assets": "📈 美股存储芯片 利好 | 📈 黄金 上涨 | 📉 原油 承压",
+        "chain": "存储芯片需求复苏（周期反转信号）提振科技股；地缘缓和（油价跌）推升避险资产黄金",
+        "watch": "芯片厂商订单数据及OPEC（石油输出国组织）产量决策"
       }
     },
     {
@@ -51,38 +51,38 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 SpaceX估值 利好，📈 太空概念股（如Rocket Lab、Virgin Galactic） 联动",
-        "chain": "超额认购（需求远超供给）反映一级市场（未上市股票）狂热，可能推高同类未上市科技公司（如OpenAI）估值",
-        "watch": "SpaceX正式IPO定价及上市后首日表现"
+        "what": "SpaceX IPO融资额比预期高出100亿美元",
+        "assets": "📈 SpaceX相关概念股 利好",
+        "chain": "高融资额暗示估值泡沫（超买风险），但短期提振太空经济板块情绪",
+        "watch": "SpaceX估值及后续IPO定价"
       }
     },
     {
       "rank": 5,
+      "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide - Reuters",
+      "source": "Reuters",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "美股反弹，道指创纪录新高，因美伊协议及油价下跌",
+        "assets": "📈 美股大盘 利好 | 📉 能源股 承压",
+        "chain": "地缘风险溢价（冲突成本）消退，油价下跌利好航空、运输业，但能源板块拖累指数",
+        "watch": "美伊协议执行细节及原油库存数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "CNBC称中国AI未带动整体市场上涨",
-        "assets": "📉 中概科技股 承压，📉 恒生科技指数 偏空，📉 中国AI概念股 分化",
-        "chain": "AI主题交易过度集中（资金扎堆少数龙头），缺乏广泛盈利改善（财报验证），需等待应用落地（如AI变现）",
-        "watch": "百度/阿里AI业务收入占比及中国大模型商业化进展"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "纳指高开，原油因美伊协议大跌",
-        "assets": "📈 纳斯达克100指数 利好，📉 原油 承压，📈 航空股 利好（成本下降）",
-        "chain": "美伊解除制裁预期增加全球原油供给（OPEC+减产松动），压低通胀预期（油价降），利好科技股估值（利率敏感）",
-        "watch": "美国对伊朗制裁豁免细节及WTI原油60美元支撑位"
+        "what": "CNBC：等待AI带动整个市场上涨",
+        "assets": "📈 AI相关科技股 利好",
+        "chain": "AI主题（生产力提升预期）若扩散，可能引发板块轮动（从硬件到软件），但需业绩验证",
+        "watch": "AI龙头财报及资本支出指引"
       }
     },
     {
@@ -95,11 +95,11 @@
     },
     {
       "rank": 8,
-      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "3,600 stock trades in 3 months: Breaking down Trump's flurry of investment moves - CBS News",
+      "source": "CBS News",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 33
+      "score": 32
     },
     {
       "rank": 9,
