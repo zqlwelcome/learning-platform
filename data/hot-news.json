@@ -1,22 +1,50 @@
 {
-  "updateTime": "2026-06-16 08:50",
+  "updateTime": "2026-06-16 08:55",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX stock rises after record Nasdaq IPO debut - qz.com",
+      "source": "qz.com",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 62,
+      "insight": {
+        "what": "SpaceX纳斯达克IPO首日大涨",
+        "assets": "📈 SpaceX股票 利好",
+        "chain": "提振科技IPO情绪，可能带动太空概念股跟涨（板块轮动）",
+        "watch": "SpaceX后续股价走势及市值变化"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "SpaceX Said to Allocate $600 Million to European Retail in Blockbuster IPO - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 55,
+      "insight": {
+        "what": "SpaceX向欧洲零售分配6亿美元IPO份额",
+        "assets": "📈 欧洲零售股 利好",
+        "chain": "资金流入欧洲市场，短期推高当地交易活跃度（流动性溢出）",
+        "watch": "欧洲IPO认购倍数及后续资金流向"
+      }
+    },
+    {
+      "rank": 3,
       "title": "瑞银：油价回落缓解沃什加息压力 美联储或按兵不动直至2027年转向降息",
       "source": "智通财经APP",
       "detail": "瑞银全球财富管理固定收益策略主管莱斯利·法尔科尼奥表示，在美国和伊朗宣布达成协议、重开霍尔木兹海峡之后，油价受到抑制，美国国债市场随之上涨...",
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "瑞银预计油价回落缓解加息压力，美联储或按兵不动至2027年降息",
-        "assets": "📈 美国国债 利好; 📉 美元指数 承压",
-        "chain": "油价跌→通胀预期降→加息概率减→长端美债收益率（长期借贷成本）下行",
-        "watch": "WTI原油（美国原油期货）价格是否跌破70美元"
+        "what": "瑞银预计油价回落缓解加息压力，美联储2027年前不降息",
+        "assets": "📈 美国国债 利好；📉 原油 承压",
+        "chain": "油价跌降低通胀预期，美联储鹰派（倾向加息）立场松动，长端利率下行",
+        "watch": "WTI原油价格及美联储点阵图（利率预测图）"
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
@@ -24,13 +52,27 @@
       "score": 48,
       "insight": {
         "what": "特朗普信任美联储主席沃什，影响不止利率",
-        "assets": "📈 美股金融股 利好; 📉 美元 承压",
-        "chain": "政治信任→政策稳定性提升→银行监管（金融规则）可能放松→金融板块受益",
-        "watch": "沃什关于银行监管的公开表态"
+        "assets": "📈 美元 利好；📉 美股 中性偏空",
+        "chain": "政策连贯性预期增强，美元走强；若沃什偏鹰，科技成长股估值承压（贴现率上升）",
+        "watch": "沃什公开讲话及特朗普政策表态"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
+      "title": "Fiserv Stock Crashes On CEO's Sudden Departure. 'A Bad Look,' Says Analyst. - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "Fiserv股价因CEO突然离职暴跌",
+        "assets": "📉 Fiserv股票 利空",
+        "chain": "管理层动荡引发治理风险，支付板块短期受拖累（行业信心下降）",
+        "watch": "新任CEO任命进展及下一季度财报"
+      }
+    },
+    {
+      "rank": 6,
       "title": "SpaceX IPO raised $10bn more than thought - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -38,84 +80,42 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 太空概念股 利好; 📉 传统军工股 承压",
-        "chain": "IPO（首次公开募股）超募→资金涌入太空经济→挤压传统防务（军工）板块资金",
-        "watch": "SpaceX估值及后续融资节奏"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
-      "source": "CNBC",
-      "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "CNBC报道等待AI提振整体市场",
-        "assets": "📈 纳斯达克100指数 中性偏多; 📉 小盘科技股 分化",
-        "chain": "AI主题集中→资金追逐龙头（如英伟达）→小盘股流动性（交易资金）被抽离",
-        "watch": "AI相关ETF（交易型开放式指数基金）资金流入量"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "纳斯达克高开，油价因美伊协议下跌",
-        "assets": "📈 纳斯达克指数 利好; 📉 原油 承压",
-        "chain": "美伊协议→伊朗原油出口增→供应过剩→油价跌→航空股（燃油成本降低）受益",
-        "watch": "伊朗原油出口量周数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "日本央行周二料加息至31年来最高水平",
-      "source": "环球市场播报",
-      "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "日本央行周二料加息至31年来最高水平",
-        "assets": "📈 日元 利好; 📉 日本国债 承压; 📉 日经225指数 利空",
-        "chain": "加息（借钱成本升）→日元升值→出口企业（如丰田）利润缩水→日股承压",
-        "watch": "日本央行利率决议及后续指引"
+        "assets": "📈 SpaceX股票 利好；📈 科技IPO市场 利好",
+        "chain": "超额认购显示需求强劲，推高整体科技股估值中枢（资金追逐成长股）",
+        "watch": "SpaceX上市后成交量及机构持仓变化"
       }
     },
     {
       "rank": 7,
-      "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
+      "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
-      "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
+      "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
-      "score": 35
+      "score": 42
     },
     {
       "rank": 8,
-      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 33
+      "score": 39
     },
     {
       "rank": 9,
-      "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
+      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
-      "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 32
+      "score": 38
     },
     {
       "rank": 10,
-      "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom",
-      "source": "CNBC",
-      "detail": "Nvidia is set to raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
-      "lang": "en",
-      "score": 32
+      "title": "日本央行周二料加息至31年来最高水平",
+      "source": "环球市场播报",
+      "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
+      "lang": "zh",
+      "score": 36
     }
   ]
 }
