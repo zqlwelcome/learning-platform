@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 10:11",
+  "updateTime": "2026-06-16 10:16",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,115 +16,70 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4099.28",
-      "change": "0.07"
+      "value": "4095.18",
+      "change": "-0.03"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24616.360",
-      "change": "-0.91"
+      "value": "24604.940",
+      "change": "-0.96"
     }
   },
   "etf_flows": [
     {
       "name": "沪深300ETF易方达",
       "code": "510310",
-      "price": 4.765,
-      "change": 0.04,
-      "flow": 209724516.0,
-      "flow_str": "+2.10亿",
+      "price": 4.768,
+      "change": 0.1,
+      "flow": 228615858.0,
+      "flow_str": "+2.29亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF嘉实",
       "code": "159919",
-      "price": 5.126,
-      "change": 0.04,
-      "flow": 115064372.0,
-      "flow_str": "+1.15亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信ETF国泰",
-      "code": "515880",
-      "price": 1.714,
-      "change": 1.48,
-      "flow": 91000240.0,
-      "flow_str": "+9100.02万",
+      "price": 5.128,
+      "change": 0.08,
+      "flow": 146036574.0,
+      "flow_str": "+1.46亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF华夏",
       "code": "510330",
-      "price": 5.122,
-      "change": 0.08,
-      "flow": 84052542.0,
-      "flow_str": "+8405.25万",
+      "price": 5.126,
+      "change": 0.16,
+      "flow": 116245906.0,
+      "flow_str": "+1.16亿",
       "direction": "in"
     },
     {
-      "name": "创业板ETF易方达",
-      "code": "159915",
-      "price": 4.097,
-      "change": 1.29,
-      "flow": 82633824.0,
-      "flow_str": "+8263.38万",
+      "name": "沪深300ETF华泰柏瑞",
+      "code": "510300",
+      "price": 4.922,
+      "change": 0.06,
+      "flow": 107899149.0,
+      "flow_str": "+1.08亿",
+      "direction": "in"
+    },
+    {
+      "name": "通信ETF国泰",
+      "code": "515880",
+      "price": 1.717,
+      "change": 1.66,
+      "flow": 92328560.0,
+      "flow_str": "+9232.86万",
       "direction": "in"
     }
   ],
-  "sector_flows": [
+  "sector_flows": [],
+  "northbound": null,
+  "bank_news": [
     {
-      "name": "小金属",
-      "code": "BK1027",
-      "index": 4719.72,
-      "change": 3.58,
-      "flow": 2358376960.0,
-      "flow_str": "+23.58亿",
-      "direction": "in"
-    },
-    {
-      "name": "电力设备",
-      "code": "BK1200",
-      "index": 6944.98,
-      "change": 1.2,
-      "flow": 2280131328.0,
-      "flow_str": "+22.80亿",
-      "direction": "in"
-    },
-    {
-      "name": "稀土",
-      "code": "BK1626",
-      "index": 11824.25,
-      "change": 6.64,
-      "flow": 2243405520.0,
-      "flow_str": "+22.43亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信线缆及配套",
-      "code": "BK1592",
-      "index": 31898.6,
-      "change": 4.66,
-      "flow": 1211472896.0,
-      "flow_str": "+12.11亿",
-      "direction": "in"
-    },
-    {
-      "name": "金属新材料",
-      "code": "BK1288",
-      "index": 7221.19,
-      "change": 2.8,
-      "flow": 1101848112.0,
-      "flow_str": "+11.02亿",
-      "direction": "in"
+      "title": "是否会加息？黄金还涨不涨？AI有无泡沫？欧洲资管巨头最新研判",
+      "source": "第一财经",
+      "keyword": "加息"
     }
-  ],
-  "northbound": {
-    "time": "15:00",
-    "hgt": 0,
-    "sgt": 0,
-    "total": 0
-  },
-  "bank_news": []
+  ]
 }
