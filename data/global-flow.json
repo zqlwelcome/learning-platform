@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 10:31",
+  "updateTime": "2026-06-16 10:36",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,61 +16,107 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4095.22",
-      "change": "-0.03"
+      "value": "4101.61",
+      "change": "0.13"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24542.890",
-      "change": "-1.21"
+      "value": "24528.060",
+      "change": "-1.27"
     }
   },
-  "etf_flows": [],
+  "etf_flows": [
+    {
+      "name": "沪深300ETF易方达",
+      "code": "510310",
+      "price": 4.769,
+      "change": 0.13,
+      "flow": 345202593.0,
+      "flow_str": "+3.45亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华夏",
+      "code": "510330",
+      "price": 5.126,
+      "change": 0.16,
+      "flow": 215769362.0,
+      "flow_str": "+2.16亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF嘉实",
+      "code": "159919",
+      "price": 5.131,
+      "change": 0.14,
+      "flow": 212674564.0,
+      "flow_str": "+2.13亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华泰柏瑞",
+      "code": "510300",
+      "price": 4.923,
+      "change": 0.08,
+      "flow": 130226656.0,
+      "flow_str": "+1.30亿",
+      "direction": "in"
+    },
+    {
+      "name": "电网设备ETF华夏",
+      "code": "159326",
+      "price": 2.14,
+      "change": 3.73,
+      "flow": 118251556.0,
+      "flow_str": "+1.18亿",
+      "direction": "in"
+    }
+  ],
   "sector_flows": [
     {
       "name": "电力设备",
       "code": "BK1200",
-      "index": 6984.6,
-      "change": 1.78,
-      "flow": 4587325696.0,
-      "flow_str": "+45.87亿",
-      "direction": "in"
-    },
-    {
-      "name": "稀土",
-      "code": "BK1626",
-      "index": 11765.82,
-      "change": 6.11,
-      "flow": 2319987984.0,
-      "flow_str": "+23.20亿",
+      "index": 7001.37,
+      "change": 2.02,
+      "flow": 5218002432.0,
+      "flow_str": "+52.18亿",
       "direction": "in"
     },
     {
       "name": "通信线缆及配套",
       "code": "BK1592",
-      "index": 32308.0,
-      "change": 6.01,
-      "flow": 2225540864.0,
-      "flow_str": "+22.26亿",
+      "index": 32558.79,
+      "change": 6.83,
+      "flow": 2544425216.0,
+      "flow_str": "+25.44亿",
+      "direction": "in"
+    },
+    {
+      "name": "稀土",
+      "code": "BK1626",
+      "index": 11808.77,
+      "change": 6.5,
+      "flow": 2340949184.0,
+      "flow_str": "+23.41亿",
       "direction": "in"
     },
     {
       "name": "小金属",
       "code": "BK1027",
-      "index": 4704.06,
-      "change": 3.24,
-      "flow": 2081544960.0,
-      "flow_str": "+20.82亿",
+      "index": 4714.52,
+      "change": 3.46,
+      "flow": 2089425664.0,
+      "flow_str": "+20.89亿",
       "direction": "in"
     },
     {
       "name": "电池",
       "code": "BK1033",
-      "index": 1645.26,
-      "change": 2.81,
-      "flow": 1745945600.0,
-      "flow_str": "+17.46亿",
+      "index": 1645.61,
+      "change": 2.83,
+      "flow": 2008884480.0,
+      "flow_str": "+20.09亿",
       "direction": "in"
     }
   ],
