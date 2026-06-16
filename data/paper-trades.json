@@ -1,7 +1,7 @@
 {
   "version": 6,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-16T21:21:55.272Z",
+  "updateTime": "2026-06-16T23:50:05.617Z",
   "newsSource": "live-hot-news.json",
   "modelTuning": {
     "duplicateCooldownDays": 15,
@@ -20,30 +20,30 @@
     "rateDown": true,
     "oilShock": true,
     "aiCapex": true,
-    "riskOff": false,
+    "riskOff": true,
     "chinaSupport": false,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 利率下行利好长久期资产"
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 利率下行利好长久期资产"
   },
   "candidates": [],
   "stats": {
     "sampleCount": 15,
     "rawSampleCount": 23,
-    "activeCount": 7,
+    "activeCount": 6,
     "closedCount": 4,
-    "waitingCount": 4,
+    "waitingCount": 5,
     "excludedCount": 8,
     "reviewedCount": 4,
     "winRate": 25,
     "avgPnl": -4.045,
-    "equity": 100277.02022524604,
-    "exposurePct": 57,
-    "portfolioCap": 63,
-    "riskMode": "均衡",
+    "equity": 100069.86391639482,
+    "exposurePct": 46,
+    "portfolioCap": 51,
+    "riskMode": "谨慎",
     "alerts": 0,
     "benchmark": {
-      "modelReturnPct": 0.28,
+      "modelReturnPct": 0.07,
       "benchmarkAvgPct": 2.46,
-      "relativePct": -2.18,
+      "relativePct": -2.39,
       "quality": "sample-based",
       "strictHistoryStatus": "pending-historical-price-ingestion",
       "refs": [
@@ -75,9 +75,9 @@
       "note": "当前基准来自模拟盘内代表ETF样本，已可做方向参考；严格版仍需稳定历史行情源记录每个入场日的基准价格。"
     },
     "costAdjusted": {
-      "modelReturnPctAfterCost": 0.11,
+      "modelReturnPctAfterCost": -0.08,
       "avgNetPnlPct": -0.91,
-      "estimatedTotalCost": 168,
+      "estimatedTotalCost": 146,
       "assumptions": {
         "ETF": "估算单次完整买卖成本/滑点 0.20%",
         "Stock": "估算单次完整买卖成本/滑点 0.35%",
@@ -103,7 +103,7 @@
         {
           "symbol": "sh512880",
           "name": "证券ETF",
-          "status": "观察中",
+          "status": "仓位等待",
           "grossPnlPct": 1.88,
           "roundTripCostPct": 0.2,
           "netPnlPct": 1.68
@@ -381,6 +381,7 @@
       "status": "继续小仓验证",
       "nextAction": "不提高仓位上限，优先扩大样本和复盘失败原因。",
       "warnings": [
+        "扣除交易成本后仍为负，不能扩大真实仓位。",
         "当前跑输参考基准，需要先优化筛选和退出纪律。",
         "商品/能源样本拖累明显，必须单独建模，不再与科技或指数样本混在一起判断胜率。"
       ],
@@ -565,14 +566,19 @@
       },
       "id": "2026-06-15-sh512880-宏观类",
       "entryDate": "2026-06-15",
-      "status": "观察中",
+      "status": "仓位等待",
       "capital": 100000,
-      "entryValue": 11000,
-      "currentValue": 11207.156308851223,
+      "entryValue": 0,
+      "currentValue": 0,
       "currentPrice": 1.082,
       "pnlPct": 1.8832391713747663,
       "ageDays": 2,
-      "checkpoints": {}
+      "checkpoints": {
+        "d1": {
+          "date": "2026-06-17",
+          "pnlPct": 1.88
+        }
+      }
     },
     {
       "symbol": "usGLD",
