@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 10:43",
+  "updateTime": "2026-06-16 10:46",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,63 +16,17 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4102.52",
-      "change": "0.15"
+      "value": "4102.27",
+      "change": "0.14"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24506.780",
-      "change": "-1.35"
+      "value": "24505.780",
+      "change": "-1.36"
     }
   },
-  "etf_flows": [
-    {
-      "name": "沪深300ETF易方达",
-      "code": "510310",
-      "price": 4.776,
-      "change": 0.27,
-      "flow": 356855623.0,
-      "flow_str": "+3.57亿",
-      "direction": "in"
-    },
-    {
-      "name": "沪深300ETF华夏",
-      "code": "510330",
-      "price": 5.134,
-      "change": 0.31,
-      "flow": 247622289.0,
-      "flow_str": "+2.48亿",
-      "direction": "in"
-    },
-    {
-      "name": "沪深300ETF嘉实",
-      "code": "159919",
-      "price": 5.138,
-      "change": 0.27,
-      "flow": 231470737.0,
-      "flow_str": "+2.31亿",
-      "direction": "in"
-    },
-    {
-      "name": "沪深300ETF华泰柏瑞",
-      "code": "510300",
-      "price": 4.931,
-      "change": 0.24,
-      "flow": 149516768.0,
-      "flow_str": "+1.50亿",
-      "direction": "in"
-    },
-    {
-      "name": "通信ETF国泰",
-      "code": "515880",
-      "price": 1.733,
-      "change": 2.61,
-      "flow": 137665408.0,
-      "flow_str": "+1.38亿",
-      "direction": "in"
-    }
-  ],
+  "etf_flows": [],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",

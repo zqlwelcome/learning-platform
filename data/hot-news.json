@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 10:42",
+  "updateTime": "2026-06-16 10:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 57,
       "insight": {
-        "what": "韩国未来资产因承诺SpaceX IPO股份落空被调查",
-        "assets": "📉 SpaceX影子股（未上市股权） 利空；📉 韩国金融股 承压",
-        "chain": "监管风险上升→投资者对私募股权（非公开交易股权）信心下降→科技独角兽（估值超10亿美元初创公司）IPO溢价（上市后价格跳升）预期降温",
-        "watch": "SpaceX是否公开IPO时间表"
+        "what": "韩国未来资产因SpaceX IPO承诺落空被调查",
+        "assets": "📉 韩国金融股 利空; 📉 SpaceX影子股 承压",
+        "chain": "监管风险（调查可能引发罚款）冲击券商信誉，抑制散户对未上市科技股热情（风险偏好下降）",
+        "watch": "调查结果及SpaceX是否推迟上市"
       }
     },
     {
@@ -23,99 +23,93 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美伊和平框架降低通胀，美联储加息预期降温促黄金反弹",
-        "assets": "📈 黄金 利好；📉 原油 承压；📉 美元指数 承压",
-        "chain": "地缘风险（国家间冲突）溢价消退→油价下跌→通胀预期下行→实际利率（名义利率减通胀）走低→黄金吸引力上升",
-        "watch": "美伊谈判进展及WTI原油（西德克萨斯中质油）价格"
+        "what": "欧洲资管巨头研判：加息、黄金、AI泡沫",
+        "assets": "📈 黄金 中性; 📉 AI科技股 承压",
+        "chain": "加息预期（借钱成本上升）抑制黄金避险需求；AI泡沫论（估值过高）触发获利了结（卖盘压力）",
+        "watch": "欧洲央行利率决议及AI公司季度业绩"
       }
     },
     {
       "rank": 3,
+      "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 48,
+      "insight": {
+        "what": "美伊和平框架降低通胀担忧，美联储加息预期降温",
+        "assets": "📈 黄金 利好; 📉 美元指数 承压",
+        "chain": "地缘风险溢价（战争风险降低）→油价预期下行→通胀压力缓解→加息预期降温（利率下降）→美元走弱",
+        "watch": "美联储下次会议点阵图（利率预测）"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席Kevin Warsh，影响不止利率",
-        "assets": "📈 美元 利好；📉 长期美债收益率 承压",
-        "chain": "白宫与美联储政策协同预期→市场减少政治干预（政府施压央行）溢价→美元信用增强→新兴市场（发展中国家）货币承压",
-        "watch": "Warsh在公开讲话中的通胀立场"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "是否会加息？黄金还涨不涨？AI有无泡沫？欧洲资管巨头最新研判",
-      "source": "第一财经",
-      "detail": "本文字数：3455，阅读时长大约6分钟 作者 | 第一财经 杜卿卿 梁晓璇 全球资产似乎迎来全面“逆风”——加息预期升温、黄金分歧加大、AI（人工智能）巨头上市扰动市场...",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "欧洲资管巨头研判加息、黄金和AI泡沫",
-        "assets": "📈 黄金 中性偏多；📉 AI科技股 承压",
-        "chain": "机构分歧加剧→市场波动率（价格变动幅度）上升→资金从高估值成长股（如AI）流向避险资产（黄金）",
-        "watch": "欧洲资管巨头持仓变化及美联储点阵图（利率预测图）"
+        "what": "特朗普信任美联储主席Kevin Warsh，影响超利率",
+        "assets": "📈 美国国债 利好; 📉 美元 承压",
+        "chain": "政策连贯性（Warsh偏鸽派）→市场对降息预期（借钱成本降低）上升→长期利率下行（债券价格上涨）",
+        "watch": "Warsh关于通胀和就业的公开表态"
       }
     },
     {
       "rank": 5,
-      "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
-      "source": "CNBC",
-      "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
+      "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
+      "source": "Reuters",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 42,
+      "score": 47,
       "insight": {
-        "what": "CNBC称中国正等待AI拉动整个市场",
-        "assets": "📈 中国AI概念股 潜在利好；📉 中国非科技股 中性",
-        "chain": "AI产业化（技术落地赚钱）需政策验证→若突破则带动全市场估值（公司价值）重估→否则继续结构性分化（涨跌不同步）",
-        "watch": "中国AI企业财报及大模型商业化收入"
+        "what": "SpaceX上市首日创纪录，预计延续涨势",
+        "assets": "📈 SpaceX股票 利好; 📈 太空概念股 联动",
+        "chain": "IPO首日大涨→散户跟风（FOMO情绪）→推高同类标的（如航天ETF），但需警惕估值泡沫（市盈率过高）",
+        "watch": "SpaceX后续财报（营收/利润数据）"
       }
     },
     {
       "rank": 6,
-      "title": "分析师：AI泡沫威胁到美元，黄金将迎上万美元的超级行情",
-      "source": "市场资讯",
-      "detail": "来源：汇通网  汇通财经APP讯——随着美伊达成霍尔木兹海峡通航临时协议，全球资本市场迎来短期狂欢，国际油价回落至两个月低位，美股风险资产同步走高。",
+      "title": "是否会加息？黄金还涨不涨？AI有无泡沫？欧洲资管巨头最新研判",
+      "source": "第一财经",
+      "detail": "本文字数：3455，阅读时长大约6分钟 作者 | 第一财经 杜卿卿 梁晓璇 全球资产似乎迎来全面“逆风”——加息预期升温、黄金分歧加大、AI（人工智能）巨头上市扰动市场...",
       "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "分析师警告AI泡沫威胁美元，黄金或迎上万行情",
-        "assets": "📈 黄金 强烈利好；📉 美元指数 承压；📉 AI科技股 利空",
-        "chain": "AI泡沫破裂→资本外逃（资金撤离）→美元信用受损（避险属性下降）→实际利率下行→黄金作为终极货币（无主权风险）获超级溢价",
-        "watch": "VIX（恐慌指数）及AI龙头企业股价走势"
-      }
+      "score": 45
     },
     {
       "rank": 7,
-      "title": "日本央行即将打出31年来最猛加息拳，日元贬值将终结？",
-      "source": "滚动播报",
-      "detail": "汇通财经APP讯——日本央行预计将在本周举行的货币政策会议上，将政策利率从当前的0.75%上调至1%。这一水平将是日本自1995年以来，即时隔三十一年的利率高位。",
-      "lang": "zh",
-      "score": 36
+      "title": "SpaceX IPO raised $10bn more than thought - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 45
     },
     {
       "rank": 8,
-      "title": "港股微幅低开 这家果汁饮料公司突然暴涨超70% 发生了什么？",
-      "source": "每日经济新闻",
-      "detail": "每经记者|曾子建每经编辑|袁东 今日（6月16日），港股市场微幅低开。 早间开盘，恒生指数报24826.19点，下跌16.48点，跌幅0.07%；恒生科技指数开盘报4765.49点，下跌0...",
-      "lang": "zh",
-      "score": 35
+      "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
+      "source": "CNBC",
+      "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
+      "lang": "en",
+      "score": 42
     },
     {
       "rank": 9,
-      "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
-      "source": "CNBC",
-      "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
+      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 32
+      "score": 39
     },
     {
       "rank": 10,
-      "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom",
+      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
-      "detail": "Nvidia is set to raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 32
+      "score": 38
     }
   ]
 }
