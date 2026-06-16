@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 07:55",
+  "updateTime": "2026-06-16 08:00",
   "news": [
     {
       "rank": 1,
@@ -9,52 +9,52 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "瑞银预计油价回落缓解加息压力，美联储或按兵不动至2027年降息",
-        "assets": "📈 美国国债 利好；📉 美元指数 承压",
-        "chain": "油价跌→通胀预期降温→加息风险降→长债收益率（借钱成本）下行，利好风险资产",
-        "watch": "WTI原油（西德克萨斯中质原油）价格是否持续低于70美元"
+        "what": "瑞银预计油价回落缓解加息压力，美联储或按兵不动至2027年",
+        "assets": "📈 美债 利好；📉 美元指数 承压",
+        "chain": "油价跌→通胀预期降→加息概率降→风险资产（美股）估值压力缓解",
+        "watch": "WTI原油（美国西得州轻质原油）价格是否跌破70美元"
       }
     },
     {
       "rank": 2,
-      "title": "Markets News, June 15, 2026: Stocks Surge, Oil Prices Tumble on U.S.-Iran Deal; SpaceX Stock Soars in Day 2 of Trading - Investopedia",
-      "source": "Investopedia",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 54,
-      "insight": {
-        "what": "美伊协议达成，股市大涨、油价暴跌；SpaceX次日交易飙升",
-        "assets": "📈 美股大盘 利好；📉 原油 承压；📈 SpaceX股票 利好",
-        "chain": "油价暴跌→运输成本降→通胀压力缓→美联储政策宽松预期升温，刺激股市",
-        "watch": "WTI原油期货（未来油价）及VIX（恐慌指数）走势"
-      }
-    },
-    {
-      "rank": 3,
       "title": "华尔街机构警告美股未来将面临更多挑战 美联储今年或连续加息三次",
       "source": "智通财经APP",
       "detail": " 随着市场对美联储重启加息周期的预期不断升温，以及投资者开始重新审视人工智能（AI）商业化前景，越来越多华尔街机构开始对风险资产未来走势发出警告。",
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "华尔街警告美股面临更多挑战，预计美联储今年连续加息三次",
-        "assets": "📉 美股大盘 承压；📈 美元指数 利好",
-        "chain": "加息预期→借贷成本升→企业盈利（EPS，每股收益）承压→股市估值（PE，市盈率）压缩",
-        "watch": "下周FOMC（美联储议息会议）点阵图（利率预测）"
+        "what": "华尔街警告美股面临更多挑战，美联储今年或连续加息三次",
+        "assets": "📉 美股大盘（标普500） 利空；📈 美元 利好",
+        "chain": "加息预期升温→资金成本上升→压制成长股（高估值科技股）估值→避险情绪推升美元",
+        "watch": "美联储3月会议点阵图（利率预测）及非农数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
       "source": "CNBC",
       "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席沃什，影响远超利率政策",
-        "assets": "📈 美元指数 利好；📉 美国国债 承压",
-        "chain": "政治信任→沃什鹰派（倾向加息）空间大→加息预期升→长端利率（长期国债收益率）上行",
-        "watch": "沃什近期公开讲话基调及特朗普推特言论"
+        "what": "特朗普信任美联储主席沃什，关系影响利率以外政策",
+        "assets": "📈 美元 中性偏强；📉 新兴市场货币 承压",
+        "chain": "政治关联→沃什可能更鹰派（收紧货币）→美元走强→新兴市场资本外流",
+        "watch": "沃什公开讲话中对通胀的表态"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Fiserv Stock Crashes On CEO's Sudden Departure. 'A Bad Look,' Says Analyst. - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "Fiserv因CEO突然离职股价暴跌，分析师称‘形象差’",
+        "assets": "📉 Fiserv股票 利空；📉 金融科技板块 承压",
+        "chain": "管理层动荡→市场质疑战略稳定性→资金流出个股→拖累同类支付股（如Square）",
+        "watch": "是否有高管回购（内部增持）或新CEO任命公告"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO实际募资比预期多100亿美元",
-        "assets": "📈 SpaceX股票 利好；📈 太空概念股 利好",
-        "chain": "超募→市场对太空经济信心足→资金流入相关ETF（交易型开放式指数基金）→带动板块估值（市值/盈利）",
-        "watch": "SpaceX首日交易量及后续财报（营收利润）"
+        "what": "SpaceX IPO融资额比预期多100亿美元，达超募水平",
+        "assets": "📈 太空概念股（如Virgin Galactic） 利好；📈 风险偏好 提升",
+        "chain": "超募→市场对太空商业信心增强→带动行业估值重估（对标特斯拉）→资金涌入相关ETF",
+        "watch": "SpaceX上市时间表及估值倍数"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "CNBC聚焦中国AI能否带动整体市场上涨",
-        "assets": "📈 中国AI概念股 利好；📉 中国大盘 中性",
-        "chain": "AI局部热→若扩散至全行业（如制造业）→提振GDP（国内生产总值）增速→吸引外资流入A股",
-        "watch": "中国AI龙头公司（如百度、商汤）季度营收增速"
+        "what": "CNBC称中国股市等待AI带动整体市场上涨",
+        "assets": "📈 A股AI板块 利好；📈 恒生科技指数 中性偏强",
+        "chain": "AI主题热→资金聚焦科技龙头→若盈利兑现（业绩增长）→扩散至消费、制造等板块",
+        "watch": "中国AI龙头（如百度、商汤）财报及大模型落地进展"
       }
     },
     {
@@ -95,6 +95,14 @@
     },
     {
       "rank": 8,
+      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38
+    },
+    {
+      "rank": 9,
       "title": "日本央行周二料加息至31年来最高水平",
       "source": "环球市场播报",
       "detail": "日本央行周二将公布利率决策，市场普遍预计央行将在首次行长缺席的政策会议上加息至1995年以来的最高水平。 调查显示，几乎所有日本央行观察人士都预计...",
@@ -102,20 +110,12 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "US Air Force B-52 bomber crashes in California; 8-member crew presumed dead",
       "source": "CNBC",
       "detail": "A U.S. Air Force B-52 Stratofortress bomber crashed on Monday shortly after takeoff from Edwards Air Force Base.",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33
     }
   ]
 }
