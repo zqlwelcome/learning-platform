@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 11:21",
+  "updateTime": "2026-06-16 11:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 57,
       "insight": {
-        "what": "韩国未来资产因虚假承诺SpaceX IPO股份被调查",
-        "assets": "📉 韩国金融股 承压",
-        "chain": "监管风险升温，可能引发韩国监管机构对类似金融产品加强审查（合规成本上升）",
-        "watch": "韩国金融监督院调查进展及罚款金额"
+        "what": "韩国未来资产因承诺SpaceX IPO股份落空被调查",
+        "assets": "📉 SpaceX未上市股权 承压",
+        "chain": "监管打击私募股权（非公开交易）市场信心，影响未上市科技公司估值",
+        "watch": "韩国监管处罚结果及SpaceX上市时间表"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 48,
       "insight": {
         "what": "美伊和平框架降低通胀担忧，美联储加息预期降温",
-        "assets": "📈 黄金 利好，📉 美元指数 承压",
-        "chain": "通胀预期下降→降息（借钱成本降低）预期升温→风险偏好抬升，利好新兴市场（资金流入）",
-        "watch": "美联储官员讲话及美国CPI（消费者物价指数）数据"
+        "assets": "📈 黄金 利好；📉 美元 承压",
+        "chain": "地缘缓和→油价预期下跌→通胀（物价上涨）放缓→降息（借钱成本降低）预期升温→实际利率（名义利率减通胀）下降支撑黄金",
+        "watch": "伊朗核协议进展及下周CPI（消费者物价指数）数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席Kevin Warsh，影响超出利率",
-        "assets": "📈 美元 短期承压，📉 美债收益率 波动",
-        "chain": "政治信任增强可能削弱美联储独立性，市场押注更宽松政策（降息概率上升）",
-        "watch": "Warsh公开讲话及FOMC（联邦公开市场委员会）会议纪要"
+        "what": "特朗普信任美联储主席Kevin Warsh，意义超越利率政策",
+        "assets": "📈 美债 承压；📉 美元 利好",
+        "chain": "鹰派（倾向加息）主席预期→缩表（减少债券持有）加速→长端利率上升→美元走强",
+        "watch": "Warsh对通胀和银行监管的公开表态"
       }
     },
     {
@@ -51,58 +51,42 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席Kevin Warsh，影响超出利率",
-        "assets": "📈 美元 短期承压，📉 美债收益率 波动",
-        "chain": "政治信任增强可能削弱美联储独立性，市场押注更宽松政策（降息概率上升）",
-        "watch": "Warsh公开讲话及FOMC会议纪要"
+        "what": "特朗普信任美联储主席Kevin Warsh，影响不止利率",
+        "assets": "📈 美债 承压；📉 美股银行股 利好",
+        "chain": "Warsh放松金融监管预期→银行资本要求降低→盈利预期改善→银行股上涨",
+        "watch": "美联储监管改革提案及银行压力测试结果"
       }
     },
     {
       "rank": 5,
-      "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
-      "source": "Reuters",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "SpaceX在华尔街创纪录首日后涨势延续",
-        "assets": "📈 SpaceX相关科技股 利好",
-        "chain": "IPO火爆提振太空概念股估值，可能引发机构追仓（资金轮动至航天板块）",
-        "watch": "SpaceX后续融资计划及竞争对手股价表现"
-      }
-    },
-    {
-      "rank": 6,
       "title": "SpaceX IPO raised $10bn more than thought - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 太空概念ETF 利好",
-        "chain": "超额认购显示市场对太空经济信心，可能推高其他未上市太空公司估值（对标效应）",
-        "watch": "SpaceX估值变化及后续订单数据"
+        "what": "SpaceX IPO实际募资额比预期多100亿美元",
+        "assets": "📈 SpaceX估值 利好；📉 传统航天股 承压",
+        "chain": "超额认购（需求远超供给）→资金从传统板块（如波音）轮动至太空科技",
+        "watch": "SpaceX财报及后续融资轮次定价"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "CNBC分析：市场等待AI带动整体上涨",
+        "assets": "📈 AI概念股 利好；📉 非AI科技股 承压",
+        "chain": "AI算力需求→半导体（芯片）订单暴增→但应用端（如软件）盈利兑现慢→分化加剧",
+        "watch": "英伟达财报及AI企业资本开支指引"
+      }
     },
     {
-      "rank": 8,
-      "title": "Stock Market News, June 15, 2026: U.S. Stocks Jump, Oil Drops on Iran Pact - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -110,12 +94,28 @@
       "score": 38
     },
     {
-      "rank": 10,
+      "rank": 8,
+      "title": "日本央行如期加息25个基点 利率升至31年来最高水平",
+      "source": "环球市场播报",
+      "detail": " 日本央行加息25个基点，将目标利率由0.75%上调至1.00%，为31年来最高水平，符合市场预期，此前已连续三次会议按兵不动。",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 9,
       "title": "高盛：预期美联储6月会议维持利率不变 加息的可能性不高",
       "source": "智通财经APP",
       "detail": "高盛发表研究报告指出，自上次FOMC会议以来，经济数据最重要的变化是就业增长大幅回升，使劳动市场走上更稳健的轨道。这使得市场焦点转向通胀情况是否已严重到足以支持加息...",
       "lang": "zh",
       "score": 36
+    },
+    {
+      "rank": 10,
+      "title": "Stock futures are little changed after Dow posts new record close on potential U.S.-Iran deal: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
