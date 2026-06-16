@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 13:36",
+  "updateTime": "2026-06-16 13:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席凯文·沃什",
-        "assets": "📉 美元 承压，📈 美债 利好",
-        "chain": "降息预期（借钱成本降低）升温，风险资产（如股票）获支撑",
-        "watch": "沃什后续利率发言及特朗普政策动向"
+        "what": "特朗普信任美联储主席沃什，影响不止利率",
+        "assets": "📉 美元 承压，📈 美债 看涨",
+        "chain": "沃什立场偏鹰（加息派），但特朗普信任可能削弱美联储独立性，增加政策不确定性",
+        "watch": "沃什后续讲话及美联储利率决议"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "日本央行将政策利率上调至1%",
-        "assets": "📈 日元 走强，📉 日经225 承压",
-        "chain": "套利交易（借低息货币买高息资产）平仓，全球资金回流日本",
-        "watch": "日本通胀数据及出口企业财报"
+        "what": "日本央行加息至1%，31年来最高水平",
+        "assets": "📈 日元 看涨，📉 日股 承压",
+        "chain": "加息抑制通胀（物价上涨），但推高融资成本，利空出口股和房地产",
+        "watch": "日本CPI（通胀率）及GDP（经济增长）数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX在华尔街首秀后预计继续上涨",
-        "assets": "📈 SpaceX概念股 利好，📉 传统航天股 承压",
-        "chain": "IPO（首次公开募股）热度提升，带动科技新股估值上调",
-        "watch": "SpaceX订单及发射计划更新"
+        "what": "SpaceX华尔街首秀后涨势延续",
+        "assets": "📈 SpaceX 股票 利好，📈 太空概念股 跟涨",
+        "chain": "IPO（首次公开募股）成功提振市场信心，吸引资金流入航天板块",
+        "watch": "SpaceX财报及订单量"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "日经225指数突破7万点，日本央行加息至1%",
-        "assets": "📈 日经225 利好，📈 日元 走强",
-        "chain": "加息（借钱成本提高）抑制通胀，但企业盈利增长支撑股市",
-        "watch": "日本GDP及企业出口数据"
+        "what": "日经225突破7万点，日本央行如期加息",
+        "assets": "📈 日经225 利好，📉 日本国债 承压",
+        "chain": "加息预期已消化，股市创新高反映流动性充裕，但后续加息或压制估值",
+        "watch": "日本央行下次会议及企业盈利报告"
       }
     },
     {
@@ -65,28 +65,36 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX散户投资者至少获得一股IPO股份",
-        "assets": "📈 SpaceX 散户关注度 利好，📉 其他未上市科技股 承压",
-        "chain": "散户参与度提升，二级市场（交易所交易）流动性改善",
-        "watch": "SpaceX上市首日换手率"
+        "what": "散户通过美国券商至少获一股SpaceX IPO",
+        "assets": "📈 SpaceX 股票 利好，📈 散户交易平台 利好",
+        "chain": "散户参与度增加，推高IPO首日波动性，可能吸引更多科技公司上市",
+        "watch": "SpaceX股价走势及散户持仓变化"
       }
     },
     {
       "rank": 6,
-      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide - Reuters",
+      "source": "Reuters",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 38,
+      "score": 44,
       "insight": {
-        "what": "10年期美债收益率因伊朗协议下跌",
-        "assets": "📈 美债 利好，📉 原油 承压",
-        "chain": "地缘风险（战争不确定性）降温，资金从风险资产（如股票）流入债市",
-        "watch": "伊朗协议进展及美联储利率决议"
+        "what": "美股因美伊协议及油价下跌创纪录新高",
+        "assets": "📈 美股大盘 利好，📉 能源股 承压，📉 原油 下跌",
+        "chain": "油价下跌降低生产成本，利好航空和制造业，但地缘风险缓解削弱避险需求",
+        "watch": "伊朗协议执行情况及OPEC（石油输出国组织）产量"
       }
     },
     {
       "rank": 7,
+      "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38
+    },
+    {
+      "rank": 8,
       "title": "澳洲央行维持利率不变，警告随时可能加息以抑制通胀",
       "source": "环球市场播报",
       "detail": "澳大利亚储备银行周二维持利率在4.35%不变，同时表示已做好准备，随时可能上调利率以稳定物价并实现充分就业。 这一一致通过的举措与经济学家们的预期相符...",
@@ -94,7 +102,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "机构：日本央行很可能继续以每六个月至一年一次的渐进节奏加息",
       "source": "环球市场播报",
       "detail": "SMBC东京外汇首席策略师HIROFUMI SUZUKI表示，出现一票反对确实有些出人意料，但鉴于反对票来自长期以鸽派立场着称的审议委员浅田统一郎...",
@@ -102,20 +110,12 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "日本央行如期加息25个基点 利率升至31年来最高水平",
       "source": "环球市场播报",
       "detail": " 日本央行加息25个基点，将目标利率由0.75%上调至1.00%，为31年来最高水平，符合市场预期，此前已连续三次会议按兵不动。",
       "lang": "zh",
       "score": 36
-    },
-    {
-      "rank": 10,
-      "title": "Biotech IPO window is opening but big pharma M&A still sets the pace, top bankers tell CNBC",
-      "source": "CNBC",
-      "detail": "Biopharma dealmaking is driven by pressure to top up drug pipelines ahead of major patent expirations later this decade.",
-      "lang": "en",
-      "score": 35
     }
   ]
 }
