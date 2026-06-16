@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 09:06",
+  "updateTime": "2026-06-16 09:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任联储主席人选Kevin Warsh",
-        "assets": "📉 美国国债收益率 承压；📈 美元指数 走强预期",
-        "chain": "鹰派联储主席预期推高利率（借钱成本），压制长债（长期国债）价格，利好美元",
-        "watch": "Warsh公开政策立场及联储会议纪要"
+        "what": "特朗普信任美联储主席凯文·沃什，影响不止利率",
+        "assets": "📈 美元 利好\n📉 美债 承压",
+        "chain": "市场押注更鹰派（紧缩）货币政策，抬升短端利率（短期借款成本），压制风险资产（如科技股估值）。",
+        "watch": "沃什后续讲话及美联储票委（有投票权的委员）立场变化"
       }
     },
     {
@@ -23,38 +23,38 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO筹资额超预期100亿美元",
-        "assets": "📈 太空概念股 利好；📈 美股科技IPO 情绪提振",
-        "chain": "巨额IPO吸走流动性（市场资金），但提振风险偏好（投资者情绪），可能带动卫星/航天板块",
-        "watch": "SpaceX上市时间表及估值"
+        "what": "SpaceX IPO规模比预期多100亿美元",
+        "assets": "📈 太空/军工板块 利好\n📉 传统航天股 承压",
+        "chain": "IPO超募（超额融资）说明风险偏好（投资者愿意承担风险）高，资金可能从旧经济（传统行业）流入新经济（创新领域）。",
+        "watch": "SpaceX估值及后续上市日期"
       }
     },
     {
       "rank": 3,
-      "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide - Reuters",
-      "source": "Reuters",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "美伊协议+油价暴跌，华尔街创新高",
-        "assets": "📈 美股大盘 利好；📉 原油期货 承压；📈 航空股 利好",
-        "chain": "油价下跌降低通胀预期（物价上涨压力），推高降息（借钱成本降低）概率，资金涌入股市",
-        "watch": "美伊协议执行细节及OPEC（石油输出国组织）反应"
-      }
-    },
-    {
-      "rank": 4,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "AI尚未带动中国整体市场上涨",
-        "assets": "📉 中国科技股 中性偏空；📉 中概股 分化",
-        "chain": "AI主题资金集中但未扩散，市场等待盈利（公司赚钱）兑现，若不及预期可能回调",
-        "watch": "中国AI公司财报及政策支持信号"
+        "what": "CNBC：中国AI尚未带动整体市场上涨",
+        "assets": "📈 A股AI板块 中性\n📉 中国大盘股 承压",
+        "chain": "AI主题（概念）资金集中，但未扩散至其他板块，市场缺乏普涨动力，需等盈利（公司利润）改善确认。",
+        "watch": "AI相关公司财报及中国PMI（采购经理指数）数据"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "纳指高开，油价因美伊协议下跌",
+        "assets": "📈 纳斯达克指数 利好\n📉 原油期货 承压",
+        "chain": "地缘风险（地区冲突可能性）下降降低原油溢价（额外成本），同时利好航空和制造业成本端（降低生产开支）。",
+        "watch": "美伊协议细节及OPEC（石油输出国组织）产量变化"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行预计加息至31年最高",
-        "assets": "📈 日元 升值预期；📉 日本国债 承压；📉 日经指数 利空",
-        "chain": "加息缩窄美日利差（利率差），日元套利交易（借日元买高息资产）平仓，冲击全球风险资产",
-        "watch": "日本央行实际加息幅度及前瞻指引"
+        "what": "日本央行周二料加息至31年最高水平",
+        "assets": "📈 日元 利好\n📉 日本国债 承压",
+        "chain": "加息（提高借钱成本）缩小美日利差（利率差），日元套利交易（借日元买高息资产）可能平仓（反向操作），冲击全球风险资产。",
+        "watch": "日本央行加息幅度及会后声明"
       }
     },
     {
@@ -79,14 +79,22 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "美空军B-52轰炸机坠毁，8人遇难",
-        "assets": "📉 国防军工股 短期承压；📉 航空保险 承压",
-        "chain": "事故引发安全审查，影响军机采购预期，但长期不改军费（国防开支）趋势",
-        "watch": "事故调查结果及波音（B-52制造商）股价反应"
+        "what": "美空军B-52轰炸机在加州坠毁，8名机组人员遇难",
+        "assets": "📈 军工股 利好\n📉 航空保险 承压",
+        "chain": "坠机事件可能加速旧机队退役和新订单，利好军工制造商（如波音），但增加航空保险索赔（理赔）风险。",
+        "watch": "事故原因调查及国防部订单更新"
       }
     },
     {
       "rank": 7,
+      "title": "Fed Chair Kevin Warsh and the FOMC Will Likely Take the First Step Toward Dropping the Hammer on Trumpflation This Week - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 8,
       "title": "SpaceX stock jumps 20% in first full day of trading after record debut",
       "source": "CNBC",
       "detail": "SpaceX is valued at over $2 trillion after its stock rallied on the first day of trading last week.",
@@ -94,7 +102,7 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Nvidia plans to raise at least $20 billion in its first debt sale since start of AI boom",
       "source": "CNBC",
       "detail": "Nvidia is set to raise capital in a debt sale for the first time since 2021, when the chipmaker was a fraction of its current size.",
@@ -102,20 +110,12 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Stock futures are little changed after Dow posts new record close on potential U.S.-Iran deal: Live updates",
       "source": "CNBC",
       "detail": "On Monday, the Dow Jones Industrial Average climbed to new intraday and closing records on a potential deal between the U.S. and Iran.",
       "lang": "en",
       "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "美国零售券商的SpaceX投资者每人至少分到1股IPO股票",
-      "source": "环球市场播报",
-      "detail": " 美国几家头部零售券商的客户，每人都至少获配一股SpaceX新股。这一分配安排凸显出本次发行特意为个人投资者预留了充足参与份额。",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
