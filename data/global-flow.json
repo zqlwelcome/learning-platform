@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 14:54",
+  "updateTime": "2026-06-16 15:01",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,25 +16,25 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4090.94",
-      "change": "-0.13"
+      "value": "4091.89",
+      "change": "-0.11"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24399.630",
-      "change": "-1.78"
+      "value": "24388.570",
+      "change": "-1.83"
     }
   },
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": {
-    "time": "15:00",
-    "hgt": 0,
-    "sgt": 0,
-    "total": 0
-  },
+  "northbound": null,
   "bank_news": [
+    {
+      "title": "日本央行副行长内田真一：考虑加息步伐时将观察中东局势",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
     {
       "title": "日本央行副行长内田：将根据经济情况决定是否继续加息",
       "source": "环球市场播报",
@@ -53,11 +53,6 @@
     {
       "title": "澳洲央行维持利率不变，警告随时可能加息以抑制通胀",
       "source": "环球市场播报",
-      "keyword": "央行"
-    },
-    {
-      "title": "光大期货0616黄金点评：地缘局势缓和支撑金价，关注今日日央行议息情况",
-      "source": "市场资讯",
       "keyword": "央行"
     }
   ]
