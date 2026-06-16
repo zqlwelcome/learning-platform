@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 10:36",
+  "updateTime": "2026-06-16 10:41",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,60 +16,60 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4101.61",
-      "change": "0.13"
+      "value": "4100.38",
+      "change": "0.10"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24528.060",
-      "change": "-1.27"
+      "value": "24512.870",
+      "change": "-1.33"
     }
   },
   "etf_flows": [
     {
       "name": "沪深300ETF易方达",
       "code": "510310",
-      "price": 4.769,
-      "change": 0.13,
-      "flow": 345202593.0,
-      "flow_str": "+3.45亿",
+      "price": 4.774,
+      "change": 0.23,
+      "flow": 353937041.0,
+      "flow_str": "+3.54亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF华夏",
       "code": "510330",
-      "price": 5.126,
-      "change": 0.16,
-      "flow": 215769362.0,
-      "flow_str": "+2.16亿",
+      "price": 5.129,
+      "change": 0.21,
+      "flow": 237564722.0,
+      "flow_str": "+2.38亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF嘉实",
       "code": "159919",
-      "price": 5.131,
-      "change": 0.14,
-      "flow": 212674564.0,
-      "flow_str": "+2.13亿",
+      "price": 5.133,
+      "change": 0.18,
+      "flow": 223815969.0,
+      "flow_str": "+2.24亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF华泰柏瑞",
       "code": "510300",
-      "price": 4.923,
-      "change": 0.08,
-      "flow": 130226656.0,
-      "flow_str": "+1.30亿",
+      "price": 4.927,
+      "change": 0.16,
+      "flow": 141963776.0,
+      "flow_str": "+1.42亿",
       "direction": "in"
     },
     {
-      "name": "电网设备ETF华夏",
-      "code": "159326",
-      "price": 2.14,
-      "change": 3.73,
-      "flow": 118251556.0,
-      "flow_str": "+1.18亿",
+      "name": "创业板ETF易方达",
+      "code": "159915",
+      "price": 4.12,
+      "change": 1.85,
+      "flow": 124922448.0,
+      "flow_str": "+1.25亿",
       "direction": "in"
     }
   ],
@@ -77,46 +77,46 @@
     {
       "name": "电力设备",
       "code": "BK1200",
-      "index": 7001.37,
-      "change": 2.02,
-      "flow": 5218002432.0,
-      "flow_str": "+52.18亿",
+      "index": 7008.92,
+      "change": 2.13,
+      "flow": 5888118784.0,
+      "flow_str": "+58.88亿",
       "direction": "in"
     },
     {
       "name": "通信线缆及配套",
       "code": "BK1592",
-      "index": 32558.79,
-      "change": 6.83,
-      "flow": 2544425216.0,
-      "flow_str": "+25.44亿",
+      "index": 32526.37,
+      "change": 6.72,
+      "flow": 2547711744.0,
+      "flow_str": "+25.48亿",
       "direction": "in"
     },
     {
       "name": "稀土",
       "code": "BK1626",
-      "index": 11808.77,
-      "change": 6.5,
-      "flow": 2340949184.0,
-      "flow_str": "+23.41亿",
-      "direction": "in"
-    },
-    {
-      "name": "小金属",
-      "code": "BK1027",
-      "index": 4714.52,
-      "change": 3.46,
-      "flow": 2089425664.0,
-      "flow_str": "+20.89亿",
+      "index": 11824.14,
+      "change": 6.64,
+      "flow": 2365761568.0,
+      "flow_str": "+23.66亿",
       "direction": "in"
     },
     {
       "name": "电池",
       "code": "BK1033",
-      "index": 1645.61,
-      "change": 2.83,
-      "flow": 2008884480.0,
-      "flow_str": "+20.09亿",
+      "index": 1647.22,
+      "change": 2.93,
+      "flow": 2263200512.0,
+      "flow_str": "+22.63亿",
+      "direction": "in"
+    },
+    {
+      "name": "小金属",
+      "code": "BK1027",
+      "index": 4717.96,
+      "change": 3.54,
+      "flow": 2088742400.0,
+      "flow_str": "+20.89亿",
       "direction": "in"
     }
   ],
@@ -127,6 +127,11 @@
     "total": 0
   },
   "bank_news": [
+    {
+      "title": "美伊和平框架降低通胀担忧，美联储加息预期降温推动黄金小幅反弹",
+      "source": "市场资讯",
+      "keyword": "美联储"
+    },
     {
       "title": "长江有色：美联储主席首秀来袭多头减仓观望 16日锡价或小涨",
       "source": "市场资讯",
