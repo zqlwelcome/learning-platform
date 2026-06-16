@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 11:45",
+  "updateTime": "2026-06-16 11:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 57,
       "insight": {
-        "what": "韩国未来资产因虚假承诺SpaceX IPO股份遭调查",
-        "assets": "📉 韩国金融股 利空",
-        "chain": "监管打击投行业务（投行卖假份额）→削弱韩国券商信誉",
-        "watch": "调查结果及SpaceX IPO实际分配情况"
+        "what": "韩国未来资产涉SpaceX IPO承诺落空被调查",
+        "assets": "📉 韩国金融股 承压",
+        "chain": "投资者信任受损，可能引发更多监管对另类投资（非公开市场）的审查",
+        "watch": "韩国金融监督院调查进展"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美伊和平框架缓解通胀担忧，黄金小幅反弹",
-        "assets": "📈 黄金 利好；📉 原油 承压",
-        "chain": "地缘溢价消退→油价下跌→通胀预期降温→加息概率降低（借钱成本下降）",
-        "watch": "美联储下次议息会议（FOMC）声明及CPI数据"
+        "what": "美伊和平框架降低通胀担忧，美联储加息预期降温",
+        "assets": "📈 黄金 利好；📉 美元 承压",
+        "chain": "避险需求减弱+利率预期下降（借钱成本预期降低），推动非收益资产（黄金）反弹",
+        "watch": "本周美国CPI数据（通胀指标）"
       }
     },
     {
@@ -37,42 +37,64 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普信任美联储主席沃什，影响远超利率",
-        "assets": "📈 美元 看涨；📉 美债 波动",
-        "chain": "沃什鹰派（倾向加息）→美元走强→新兴市场资金外流",
-        "watch": "特朗普对沃什的公开表态及美联储政策路径"
+        "what": "Trump信任Fed主席Warsh，影响远超利率",
+        "assets": "📈 美元 偏强；📉 美债收益率 波动",
+        "chain": "市场解读为政策延续性（央行独立性）增强，可能压制降息预期（借钱成本降低预期）",
+        "watch": "Warsh后续公开讲话及美联储会议纪要"
       }
     },
     {
       "rank": 4,
+      "title": "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest rates",
+      "source": "CNBC",
+      "detail": "New Fed Chair Kevin Warsh is expected to hold interest rates steady this week, but President Donald Trump’s trust gives him room to pursue longer-term changes.",
+      "lang": "en",
+      "score": 48,
+      "insight": {
+        "what": "Trump信任Fed主席Warsh，影响远超利率",
+        "assets": "📈 美元 偏强；📉 美债收益率 波动",
+        "chain": "市场解读为政策延续性（央行独立性）增强，可能压制降息预期",
+        "watch": "Warsh后续公开讲话及美联储会议纪要"
+      }
+    },
+    {
+      "rank": 5,
       "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX上市首日创纪录后或延续涨势",
-        "assets": "📈 SpaceX股票 利好；📈 航天ETF 利好",
-        "chain": "IPO溢价（新股涨超发行价）→散户追涨→带动航天板块估值重估",
-        "watch": "SpaceX后续财报及订单量"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "SpaceX IPO raised $10bn more than thought - BBC",
-      "source": "BBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX IPO融资额比预期多100亿美元",
-        "assets": "📈 SpaceX 估值提升；📈 一级市场（私募） 利好",
-        "chain": "超募（融资金额超预期）→资金充裕→加速星链（Starlink）扩张",
-        "watch": "SpaceX发射频率及星链用户增长数据"
+        "what": "SpaceX上市首日创纪录，预计继续上涨",
+        "assets": "📈 太空概念股 利好；📈 科技成长股 联动",
+        "chain": "IPO（首次公开募股）热潮升温，资金从传统板块轮动至高风险高回报标的",
+        "watch": "SpaceX后续财报及订单数据"
       }
     },
     {
       "rank": 6,
+      "title": "日经225指数首次突破7万点大关，日本央行如预期将政策利率上调至1%",
+      "source": "环球市场播报",
+      "detail": "16日在东京证券交易所日经平均股价指数该股股价一度上涨近700点，首次突破7万点大关。日本央行决定将政策利率上调至1%。这一决定符合市场预期，消息公布后...",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "日经225首次突破7万点，日本央行加息至1%",
+        "assets": "📈 日经225 利好；📈 日元 短线走强",
+        "chain": "加息（借钱成本提高）验证经济复苏，但高估值可能引发获利了结（卖出锁定利润）",
+        "watch": "日本央行下次加息时点及企业盈利增速"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "SpaceX IPO raised $10bn more than thought - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 45
+    },
+    {
+      "rank": 8,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
@@ -80,28 +102,20 @@
       "score": 42
     },
     {
-      "rank": 7,
-      "title": "Stock Market Today: Nasdaq Opens Higher, Oil Drops After U.S.-Iran Deal - WSJ",
+      "rank": 9,
+      "title": "Stock Market News, June 15, 2026: U.S. Stocks Jump, Oil Drops on Iran Pact - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38
-    },
-    {
-      "rank": 9,
-      "title": "日本央行如期加息25个基点 利率升至31年来最高水平",
-      "source": "环球市场播报",
-      "detail": " 日本央行加息25个基点，将目标利率由0.75%上调至1.00%，为31年来最高水平，符合市场预期，此前已连续三次会议按兵不动。",
-      "lang": "zh",
-      "score": 36
     }
   ]
 }

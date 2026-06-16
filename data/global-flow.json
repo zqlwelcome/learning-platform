@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 11:46",
+  "updateTime": "2026-06-16 11:51",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -22,11 +22,57 @@
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24491.890",
-      "change": "-1.41"
+      "value": "24530.730",
+      "change": "-1.26"
     }
   },
-  "etf_flows": [],
+  "etf_flows": [
+    {
+      "name": "沪深300ETF易方达",
+      "code": "510310",
+      "price": 4.768,
+      "change": 0.1,
+      "flow": 416314880.0,
+      "flow_str": "+4.16亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF嘉实",
+      "code": "159919",
+      "price": 5.13,
+      "change": 0.12,
+      "flow": 376427688.0,
+      "flow_str": "+3.76亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华夏",
+      "code": "510330",
+      "price": 5.124,
+      "change": 0.12,
+      "flow": 281983984.0,
+      "flow_str": "+2.82亿",
+      "direction": "in"
+    },
+    {
+      "name": "沪深300ETF华泰柏瑞",
+      "code": "510300",
+      "price": 4.923,
+      "change": 0.08,
+      "flow": 208768224.0,
+      "flow_str": "+2.09亿",
+      "direction": "in"
+    },
+    {
+      "name": "电网设备ETF华夏",
+      "code": "159326",
+      "price": 2.137,
+      "change": 3.59,
+      "flow": 154017672.0,
+      "flow_str": "+1.54亿",
+      "direction": "in"
+    }
+  ],
   "sector_flows": [],
   "northbound": {
     "time": "15:00",
@@ -36,6 +82,11 @@
   },
   "bank_news": [
     {
+      "title": "日经225指数首次突破7万点大关，日本央行如预期将政策利率上调至1%",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
+    {
       "title": "日本央行30年来首次将利率上调至1%",
       "source": "环球市场播报",
       "keyword": "央行"
@@ -44,11 +95,6 @@
       "title": "日本央行如期加息25个基点 利率升至31年来最高水平",
       "source": "环球市场播报",
       "keyword": "央行"
-    },
-    {
-      "title": "高盛：预期美联储6月会议维持利率不变 加息的可能性不高",
-      "source": "智通财经APP",
-      "keyword": "美联储"
     }
   ]
 }
