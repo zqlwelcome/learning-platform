@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 13:05",
+  "updateTime": "2026-06-16 13:10",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "特朗普信任美联储主席沃什，影响远超利率",
         "assets": "📈 美元 利好，📈 美债收益率 上行",
-        "chain": "市场押注沃什配合减税（企业盈利预期）及放松监管（金融股），推高风险偏好",
-        "watch": "沃什后续公开讲话及美联储会议纪要"
+        "chain": "信任增强→政策连贯性预期→降低不确定性溢价（风险补偿），利好美元资产",
+        "watch": "沃什后续讲话及美联储会议纪要"
       }
     },
     {
@@ -23,28 +23,42 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "日经225指数首次突破7万点，日央行加息至1%",
-        "assets": "📈 日经225 利好，📉 日元 承压，📈 日本银行股 利好",
-        "chain": "加息确认经济复苏（企业盈利预期），但日元升值压力（套利交易平仓）可能抑制出口",
-        "watch": "日本GDP增速及10年期国债收益率走势"
+        "what": "日本央行加息至1%，31年来最高水平",
+        "assets": "📈 日元 利好，📉 日债价格 承压",
+        "chain": "加息（借钱成本上升）→套利交易（借日元买高息资产）平仓→全球风险资产波动",
+        "watch": "日本通胀数据及薪资谈判结果"
       }
     },
     {
       "rank": 3,
+      "title": "日本央行加息应对输入性通胀，政策利率31年来首度升至1%",
+      "source": "界面",
+      "detail": "界面新闻记者 | 刘婷 日本央行周二宣布加息25个基点，将政策利率上调至1.0%，创下1995年以来的最高水平。 分析人士指出，本次加息符合市场预期...",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "日经225指数突破7万点，央行加息同步",
+        "assets": "📈 日经225 利好，📈 日本金融股 受益",
+        "chain": "加息与指数新高→反映经济过热预期→银行净息差（存贷利差）扩大利好金融股",
+        "watch": "日经成分股盈利修正及外资流向"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX set to extend rally after record Wall Street debut - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "CNBC中国连线：等待AI拉动整个市场",
-        "assets": "📈 中国AI概念股（如百度、商汤）利好，📉 传统行业（消费、地产）中性偏空",
-        "chain": "AI若落地（应用层突破），将带动半导体（算力）及云计算（基建）需求，但需财报验证",
-        "watch": "中国AI公司季度营收增速及政策支持力度"
+        "what": "SpaceX在华尔街首秀后涨势延续",
+        "assets": "📈 SpaceX 股票 利好，📈 太空概念股 联动",
+        "chain": "IPO（首次公开募股）需求强劲→估值锚定效应（参照物）→提振私人航天板块",
+        "watch": "SpaceX后续订单及发射频率"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "日经225指数首次突破7万点大关，日本央行如预期将政策利率上调至1%",
       "source": "环球市场播报",
       "detail": "16日在东京证券交易所日经平均股价指数该股股价一度上涨近700点，首次突破7万点大关。日本央行决定将政策利率上调至1%。这一决定符合市场预期，消息公布后...",
@@ -52,21 +66,21 @@
       "score": 45
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SpaceX Investors at US Retail Brokers Got at Least One IPO Share - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX在华尔街首秀后散户获配至少一股IPO",
-        "assets": "📈 SpaceX相关概念股（如太空ETF）利好，📈 科技IPO市场 回暖",
-        "chain": "散户获配信号强化IPO信心（认购需求），带动二级市场科技股估值（PE倍数）修复",
-        "watch": "SpaceX后续财报及发射订单数据"
+        "what": "散户经纪商至少获配1股SpaceX IPO",
+        "assets": "📈 SpaceX 零售流动性 利好，📈 券商股 受益",
+        "chain": "散户参与→交易量激增→券商佣金收入增加，但可能加剧波动性（价格起伏）",
+        "watch": "SpaceX锁定期结束后抛压情况"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "CNBC's The China Connection newsletter: Waiting for AI to lift the whole market",
       "source": "CNBC",
       "detail": "China's economy sees a lift from artificial intelligence-related industries, while real estate and domestic demand remain lackluster.",
@@ -74,7 +88,7 @@
       "score": 42
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "10-year Treasury yield slides as Iran deal drives rethink on Fed interest rate hikes - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -82,7 +96,7 @@
       "score": 38
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "机构：日本央行很可能继续以每六个月至一年一次的渐进节奏加息",
       "source": "环球市场播报",
       "detail": "SMBC东京外汇首席策略师HIROFUMI SUZUKI表示，出现一票反对确实有些出人意料，但鉴于反对票来自长期以鸽派立场着称的审议委员浅田统一郎...",
@@ -90,20 +104,12 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "日本央行如期加息25个基点 利率升至31年来最高水平",
       "source": "环球市场播报",
       "detail": " 日本央行加息25个基点，将目标利率由0.75%上调至1.00%，为31年来最高水平，符合市场预期，此前已连续三次会议按兵不动。",
       "lang": "zh",
       "score": 36
-    },
-    {
-      "rank": 10,
-      "title": "澳大利亚联储今年以来首次按兵不动 经济在三次加息后显现降温迹象",
-      "source": "环球市场播报",
-      "detail": "澳大利亚联储今年以来首次维持政策利率不变，有迹象表明，此前的三次加息开始对该国经济构成压力。 周二，澳大利亚联储货币政策委员会一致决定将现金利率维持在4.35%...",
-      "lang": "zh",
-      "score": 33
     }
   ]
 }
