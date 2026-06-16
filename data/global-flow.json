@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 10:16",
+  "updateTime": "2026-06-16 10:21",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -16,70 +16,75 @@
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4095.18",
-      "change": "-0.03"
+      "value": "4092.59",
+      "change": "-0.09"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24604.940",
-      "change": "-0.96"
+      "value": "24594.180",
+      "change": "-1.00"
     }
   },
   "etf_flows": [
     {
       "name": "沪深300ETF易方达",
       "code": "510310",
-      "price": 4.768,
-      "change": 0.1,
-      "flow": 228615858.0,
-      "flow_str": "+2.29亿",
+      "price": 4.764,
+      "change": 0.02,
+      "flow": 237170387.0,
+      "flow_str": "+2.37亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF嘉实",
       "code": "159919",
-      "price": 5.128,
-      "change": 0.08,
-      "flow": 146036574.0,
-      "flow_str": "+1.46亿",
+      "price": 5.124,
+      "change": 0.0,
+      "flow": 168022175.0,
+      "flow_str": "+1.68亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF华夏",
       "code": "510330",
-      "price": 5.126,
-      "change": 0.16,
-      "flow": 116245906.0,
-      "flow_str": "+1.16亿",
+      "price": 5.119,
+      "change": 0.02,
+      "flow": 141454850.0,
+      "flow_str": "+1.41亿",
       "direction": "in"
     },
     {
       "name": "沪深300ETF华泰柏瑞",
       "code": "510300",
-      "price": 4.922,
-      "change": 0.06,
-      "flow": 107899149.0,
+      "price": 4.918,
+      "change": -0.02,
+      "flow": 107676051.0,
       "flow_str": "+1.08亿",
       "direction": "in"
     },
     {
-      "name": "通信ETF国泰",
-      "code": "515880",
-      "price": 1.717,
-      "change": 1.66,
-      "flow": 92328560.0,
-      "flow_str": "+9232.86万",
+      "name": "创业板ETF易方达",
+      "code": "159915",
+      "price": 4.096,
+      "change": 1.26,
+      "flow": 94216512.0,
+      "flow_str": "+9421.65万",
       "direction": "in"
     }
   ],
   "sector_flows": [],
-  "northbound": null,
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0,
+    "sgt": 0,
+    "total": 0
+  },
   "bank_news": [
     {
-      "title": "是否会加息？黄金还涨不涨？AI有无泡沫？欧洲资管巨头最新研判",
-      "source": "第一财经",
-      "keyword": "加息"
+      "title": "长江有色：美联储主席首秀来袭多头减仓观望 16日锡价或小涨",
+      "source": "市场资讯",
+      "keyword": "美联储"
     }
   ]
 }
