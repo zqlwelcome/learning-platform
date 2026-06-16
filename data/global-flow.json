@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 12:01",
+  "updateTime": "2026-06-16 12:06",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -22,14 +22,24 @@
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24538.050",
-      "change": "-1.23"
+      "value": "24540.820",
+      "change": "-1.22"
     }
   },
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": null,
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0,
+    "sgt": 0,
+    "total": 0
+  },
   "bank_news": [
+    {
+      "title": "机构：日本央行很可能继续以每六个月至一年一次的渐进节奏加息",
+      "source": "环球市场播报",
+      "keyword": "央行"
+    },
     {
       "title": "日经指数首次突破70000点，日元在日本央行公布决议后走弱",
       "source": "环球市场播报",
