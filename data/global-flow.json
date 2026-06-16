@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-16 12:36",
+  "updateTime": "2026-06-16 12:41",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
@@ -28,8 +28,18 @@
   },
   "etf_flows": [],
   "sector_flows": [],
-  "northbound": null,
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0,
+    "sgt": 0,
+    "total": 0
+  },
   "bank_news": [
+    {
+      "title": "澳大利亚联储维持利率不变",
+      "source": "环球市场播报",
+      "keyword": "利率"
+    },
     {
       "title": "机构：日本央行很可能继续以每六个月至一年一次的渐进节奏加息",
       "source": "环球市场播报",
@@ -47,11 +57,6 @@
     },
     {
       "title": "日本央行30年来首次将利率上调至1%",
-      "source": "环球市场播报",
-      "keyword": "央行"
-    },
-    {
-      "title": "日本央行如期加息25个基点 利率升至31年来最高水平",
       "source": "环球市场播报",
       "keyword": "央行"
     }
