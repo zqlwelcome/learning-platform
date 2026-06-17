@@ -1,7 +1,7 @@
 {
   "version": 7,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-17T08:11:02.025Z",
+  "updateTime": "2026-06-17T11:19:05.883Z",
   "newsSource": "live-hot-news.json",
   "modelTuning": {
     "duplicateCooldownDays": 15,
@@ -18,33 +18,33 @@
   },
   "macro": {
     "rateUp": true,
-    "rateDown": true,
+    "rateDown": false,
     "oilShock": true,
     "aiCapex": true,
-    "riskOff": true,
+    "riskOff": false,
     "chinaSupport": true,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 中国资产等待政策和数据确认 / 利率下行利好长久期资产"
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 中国资产等待政策和数据确认"
   },
   "candidates": [],
   "stats": {
     "sampleCount": 15,
     "rawSampleCount": 23,
-    "activeCount": 6,
+    "activeCount": 7,
     "closedCount": 4,
-    "waitingCount": 5,
+    "waitingCount": 4,
     "excludedCount": 8,
     "reviewedCount": 4,
     "winRate": 25,
     "avgPnl": -4.045,
-    "equity": 100082.06082549976,
-    "exposurePct": 49,
-    "portfolioCap": 51,
+    "equity": 100280.66762381724,
+    "exposurePct": 59,
+    "portfolioCap": 61,
     "riskMode": "谨慎",
     "alerts": 0,
     "benchmark": {
-      "modelReturnPct": 0.08,
+      "modelReturnPct": 0.28,
       "benchmarkAvgPct": 2.71,
-      "relativePct": -2.63,
+      "relativePct": -2.43,
       "quality": "sample-based",
       "strictHistoryStatus": "pending-historical-price-ingestion",
       "refs": [
@@ -76,9 +76,9 @@
       "note": "当前基准来自模拟盘内代表ETF样本，已可做方向参考；严格版仍需稳定历史行情源记录每个入场日的基准价格。"
     },
     "costAdjusted": {
-      "modelReturnPctAfterCost": -0.07,
+      "modelReturnPctAfterCost": 0.11,
       "avgNetPnlPct": -0.95,
-      "estimatedTotalCost": 152,
+      "estimatedTotalCost": 172,
       "assumptions": {
         "ETF": "估算单次完整买卖成本/滑点 0.20%",
         "Stock": "估算单次完整买卖成本/滑点 0.35%",
@@ -104,7 +104,7 @@
         {
           "symbol": "sh512880",
           "name": "证券ETF",
-          "status": "仓位等待",
+          "status": "观察中",
           "grossPnlPct": 1.79,
           "roundTripCostPct": 0.2,
           "netPnlPct": 1.59
@@ -129,9 +129,9 @@
           "symbol": "hk03033",
           "name": "恒生科技ETF",
           "status": "观察中",
-          "grossPnlPct": -1.85,
+          "grossPnlPct": -1.89,
           "roundTripCostPct": 0.2,
-          "netPnlPct": -2.05
+          "netPnlPct": -2.09
         },
         {
           "symbol": "usUSO",
@@ -172,9 +172,9 @@
         "count": 5,
         "closedCount": 2,
         "winRate": 50,
-        "exposurePct": 34,
-        "grossAvgPnlPct": -0.1,
-        "netAvgPnlPct": -0.3,
+        "exposurePct": 31,
+        "grossAvgPnlPct": -0.11,
+        "netAvgPnlPct": -0.31,
         "worst": {
           "symbol": "sh512760",
           "name": "芯片ETF",
@@ -331,8 +331,8 @@
           "assetBucket": "科技成长",
           "status": "观察中",
           "eventType": "政策类",
-          "pnlPct": -1.85,
-          "netPnlPct": -2.05,
+          "pnlPct": -1.89,
+          "netPnlPct": -2.09,
           "ageDays": 2,
           "confirmationScore": 83,
           "issues": [
@@ -376,9 +376,9 @@
     },
     "factorModelReport": {
       "model": "Qlib-inspired multi-factor ranker",
-      "rawCandidateCount": 6,
+      "rawCandidateCount": 5,
       "selectedCount": 0,
-      "rejectedCount": 6,
+      "rejectedCount": 5,
       "factorWeights": {
         "macroFit": "20%",
         "trend": "20%",
@@ -397,14 +397,14 @@
           "kind": "ETF",
           "confirmationScore": 94,
           "confirmationThreshold": 70,
-          "factorScore": 83,
+          "factorScore": 80,
           "factorThreshold": 78,
           "eventAlignment": {
             "pass": false,
             "reason": "商品/避险需要油价、黄金、地缘或通胀线索直接确认。"
           },
           "factorComponents": {
-            "macroFit": 20,
+            "macroFit": 17,
             "trend": 12,
             "flow": 20,
             "eventCatalyst": 19,
@@ -420,24 +420,24 @@
           "passed": false
         },
         {
-          "symbol": "sh511010",
-          "name": "国债ETF",
-          "assetBucket": "防御资产",
+          "symbol": "hk02800",
+          "name": "盈富基金",
+          "assetBucket": "中国资产",
           "kind": "ETF",
-          "confirmationScore": 85,
-          "confirmationThreshold": 70,
-          "factorScore": 78,
+          "confirmationScore": 87,
+          "confirmationThreshold": 66,
+          "factorScore": 77,
           "factorThreshold": 68,
           "eventAlignment": {
             "pass": true,
-            "reason": "防御资产需要利率、债券、现金或避险线索直接确认。"
+            "reason": "中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。"
           },
           "factorComponents": {
-            "macroFit": 20,
+            "macroFit": 16,
             "trend": 8,
-            "flow": 19,
+            "flow": 18,
             "eventCatalyst": 20,
-            "riskControl": 9,
+            "riskControl": 15,
             "assetFit": 17
           },
           "factorWarnings": [],
@@ -460,15 +460,18 @@
             "reason": "中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。"
           },
           "factorComponents": {
-            "macroFit": 14,
-            "trend": 8,
+            "macroFit": 16,
+            "trend": 6,
             "flow": 16,
             "eventCatalyst": 20,
             "riskControl": 15,
             "assetFit": 17
           },
-          "factorWarnings": [],
+          "factorWarnings": [
+            "价格趋势确认不足"
+          ],
           "rejectedReasons": [
+            "多因子门槛未过线",
             "15天冷却期内已有同标的信号"
           ],
           "passed": false
@@ -479,33 +482,6 @@
           "assetBucket": "中国资产",
           "kind": "ETF",
           "confirmationScore": 79,
-          "confirmationThreshold": 66,
-          "factorScore": 74,
-          "factorThreshold": 68,
-          "eventAlignment": {
-            "pass": true,
-            "reason": "中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。"
-          },
-          "factorComponents": {
-            "macroFit": 14,
-            "trend": 11,
-            "flow": 18,
-            "eventCatalyst": 20,
-            "riskControl": 9,
-            "assetFit": 17
-          },
-          "factorWarnings": [],
-          "rejectedReasons": [
-            "15天冷却期内已有同标的信号"
-          ],
-          "passed": false
-        },
-        {
-          "symbol": "hk02800",
-          "name": "盈富基金",
-          "assetBucket": "中国资产",
-          "kind": "ETF",
-          "confirmationScore": 87,
           "confirmationThreshold": 70,
           "factorScore": 70,
           "factorThreshold": 68,
@@ -514,17 +490,20 @@
             "reason": "中国资产需要中国政策、港股/A股、人民币或内需线索直接确认。"
           },
           "factorComponents": {
-            "macroFit": 14,
-            "trend": 8,
+            "macroFit": 16,
+            "trend": 11,
             "flow": 18,
-            "eventCatalyst": 18,
-            "riskControl": 11,
+            "eventCatalyst": 17,
+            "riskControl": 5,
             "assetFit": 17
           },
           "factorWarnings": [
+            "风险控制分偏低",
             "事件和资产方向弱匹配"
           ],
           "rejectedReasons": [
+            "确认分/事件匹配未过线",
+            "多因子门槛未过线",
             "15天冷却期内已有同标的信号"
           ],
           "passed": false
@@ -535,8 +514,8 @@
           "assetBucket": "科技成长",
           "kind": "ETF",
           "confirmationScore": 79,
-          "confirmationThreshold": 70,
-          "factorScore": 64,
+          "confirmationThreshold": 66,
+          "factorScore": 67,
           "factorThreshold": 68,
           "eventAlignment": {
             "pass": false,
@@ -544,14 +523,13 @@
           },
           "factorComponents": {
             "macroFit": 11,
-            "trend": 6,
+            "trend": 8,
             "flow": 20,
-            "eventCatalyst": 17,
+            "eventCatalyst": 18,
             "riskControl": 11,
             "assetFit": 13
           },
           "factorWarnings": [
-            "价格趋势确认不足",
             "事件和资产方向弱匹配"
           ],
           "rejectedReasons": [
@@ -567,7 +545,6 @@
       "status": "继续小仓验证",
       "nextAction": "不提高仓位上限，优先扩大样本和复盘失败原因。",
       "warnings": [
-        "扣除交易成本后仍为负，不能扩大真实仓位。",
         "当前跑输参考基准，需要先优化筛选和退出纪律。",
         "商品/能源样本拖累明显，必须单独建模，不再与科技或指数样本混在一起判断胜率。"
       ],
@@ -578,9 +555,9 @@
     {
       "key": "d1",
       "label": "1日",
-      "samples": 10,
-      "winRate": 80,
-      "avg": 0.392
+      "samples": 11,
+      "winRate": 82,
+      "avg": 0.5272727272727272
     },
     {
       "key": "d3",
@@ -658,7 +635,7 @@
       "market": "美股",
       "kind": "ETF",
       "entryPrice": 184.8,
-      "allocationPct": 8,
+      "allocationPct": 7,
       "portfolioCap": 62,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -752,10 +729,10 @@
       },
       "id": "2026-06-15-sh512880-宏观类",
       "entryDate": "2026-06-15",
-      "status": "仓位等待",
+      "status": "观察中",
       "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
+      "entryValue": 12000,
+      "currentValue": 12214.689265536721,
       "currentPrice": 1.081,
       "pnlPct": 1.7890772128060173,
       "ageDays": 2,
@@ -884,7 +861,7 @@
       "market": "港股",
       "kind": "ETF",
       "entryPrice": 4.654,
-      "allocationPct": 9,
+      "allocationPct": 8,
       "portfolioCap": 61,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -925,10 +902,10 @@
       "entryDate": "2026-06-15",
       "status": "观察中",
       "capital": 100000,
-      "entryValue": 9000,
-      "currentValue": 8833.691448216587,
-      "currentPrice": 4.568,
-      "pnlPct": -1.8478727975934743,
+      "entryValue": 8000,
+      "currentValue": 7848.732273313279,
+      "currentPrice": 4.566,
+      "pnlPct": -1.8908465835840154,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -1064,7 +1041,7 @@
       "market": "美股",
       "kind": "ETF",
       "entryPrice": 707.83,
-      "allocationPct": 8,
+      "allocationPct": 7,
       "portfolioCap": 57,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -1095,8 +1072,8 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 8000,
-      "currentValue": 8248.986338527611,
+      "entryValue": 7000.000000000001,
+      "currentValue": 7217.863046211661,
       "currentPrice": 729.86,
       "pnlPct": 3.1123292315951527,
       "ageDays": 8,
