@@ -2091,6 +2091,88 @@ body {
     font-size: 10px;
     line-height: 1.35;
 }
+.paper-factor-panel {
+    margin: 0 0 12px;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--bg);
+}
+.paper-factor-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 7px;
+}
+.paper-factor-head span {
+    color: var(--text3);
+    font-size: 11px;
+    font-weight: 700;
+}
+.paper-factor-head b {
+    color: var(--text);
+    font-size: 14px;
+}
+.paper-factor-copy {
+    color: var(--text2);
+    font-size: 11px;
+    line-height: 1.55;
+    margin-bottom: 9px;
+}
+.paper-factor-weights,
+.paper-factor-bars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.paper-factor-weights span,
+.paper-factor-bars span {
+    border-radius: 999px;
+    background: var(--tag-bg);
+    color: var(--text2);
+    padding: 4px 8px;
+    font-size: 11px;
+}
+.paper-factor-audit {
+    display: grid;
+    gap: 8px;
+    margin-top: 10px;
+}
+.paper-factor-item {
+    padding: 10px;
+    border-radius: 9px;
+    background: var(--card);
+    border: 0.5px solid var(--border);
+}
+.paper-factor-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 7px;
+}
+.paper-factor-title b {
+    color: var(--text);
+    font-size: 13px;
+}
+.paper-factor-title span {
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.paper-factor-bars em {
+    margin-left: 4px;
+    color: var(--text);
+    font-style: normal;
+    font-weight: 700;
+}
+.paper-factor-reason {
+    margin-top: 7px;
+    color: var(--text2);
+    font-size: 11px;
+    line-height: 1.5;
+}
 .paper-lock {
     padding: 4px 0;
 }
