@@ -534,18 +534,33 @@ function renderExpertContent() {
     const ex = expertsData[_currentExpert];
     
     if (ex && ex.insight) {
+        const brief = getExpertBrief(_currentExpert, window._marketContext);
         el.innerHTML = `
             <div class="a-banner">
                 <span class="a-bi">${m.icon}</span>
                 <div class="a-bn">${m.name}今天怎么想</div>
             </div>
-            <div class="a-card" style="border-left-color:${m.color}">
-                <div class="a-card-body">${ex.insight.replace(/\n/g, '<br>')}</div>
+            <div class="expert-brief-card" style="border-left-color:${m.color}">
+                <div class="expert-brief-title">${safeText(brief.one)}</div>
+                <div class="expert-brief-grid">
+                    <div><span>先看</span><b>${safeText(brief.watch)}</b></div>
+                    <div><span>别急</span><b>${safeText(brief.avoid)}</b></div>
+                </div>
+                <div class="expert-brief-trigger">${safeText(brief.trigger)}</div>
             </div>
-            ${renderExpertContextCard(_currentExpert, m.color)}
-            <div class="a-card a-action" style="border-left-color:${m.color}">
-                <div class="a-card-label">如果非要做点什么</div>
-                <div class="a-card-body" style="font-weight:500;color:#664d03;">${ex.action || '等待数据更新，先别硬操作。'}</div>
+            <div class="expert-full-toggle" onclick="toggleExpertFullView()">
+                <span>展开完整观点</span>
+                <b id="expertFullArrow">›</b>
+            </div>
+            <div class="expert-full-view" id="expertFullView">
+                <div class="a-card" style="border-left-color:${m.color}">
+                    <div class="a-card-label">完整逻辑</div>
+                    <div class="a-card-body">${ex.insight.replace(/\n/g, '<br>')}</div>
+                </div>
+                <div class="a-card a-action" style="border-left-color:${m.color}">
+                    <div class="a-card-label">如果非要做点什么</div>
+                    <div class="a-card-body" style="font-weight:500;color:#664d03;">${ex.action || '等待数据更新，先别硬操作。'}</div>
+                </div>
             </div>
             <div class="a-feedback">
                 <span class="a-fb-label">这个判断</span>
@@ -556,6 +571,42 @@ function renderExpertContent() {
     } else {
         el.innerHTML = '<div style="text-align:center;padding:24px 0;color:var(--text2);">高手还没到场，茶先泡着。</div>';
     }
+}
+
+function getExpertBrief(expertKey, context) {
+    const mainline = context?.mainlines?.[0]?.name || '当前主线';
+    const radar = context?.radarEvents?.[0]?.event || '关键事件';
+    const targets = (context?.tradeTargets || []).slice(0, 2).map(item => `${item.name}${item.code}`).join('、') || '交易池候选';
+    const paper = context?.paper?.selectedCount > 0
+        ? `模拟盘已有 ${context.paper.selectedCount} 个信号，继续看复盘表现。`
+        : `模拟盘未放行，先等价格和风控确认。`;
+    const map = {
+        templeton: {
+            one: `逆向看：${mainline} 热了，但不等于现在就追。`,
+            watch: `${radar} 后有没有被错杀的资产。`,
+            avoid: `只因为新闻热就追 ${targets}。`,
+            trigger: paper
+        },
+        buffett: {
+            one: `价值看：先看现金流和护城河，再看涨跌。`,
+            watch: `${mainline} 里谁能把利润做出来。`,
+            avoid: `买入只靠估值故事、没有盈利兑现的标的。`,
+            trigger: paper
+        },
+        munger: {
+            one: `风险看：先找反证，别把热闹当确定性。`,
+            watch: `${radar} 会不会改变利率、油价或流动性。`,
+            avoid: `看不懂、太拥挤、没有退出纪律。`,
+            trigger: paper
+        },
+        duan: {
+            one: `好生意看：能懂、能等、价格舒服才动。`,
+            watch: `${targets} 是否真符合好生意和好价格。`,
+            avoid: `把新闻催化当成买入理由。`,
+            trigger: paper
+        }
+    };
+    return map[expertKey] || map.templeton;
 }
 
 function buildMarketContext(hotNews = [], globalFlow = {}, quoteMap = {}, macro = {}, paperTrades = null, moodData = {}) {
@@ -653,50 +704,6 @@ function renderMarketLinkMap(context) {
             </div>
         </div>
     `;
-}
-
-function renderExpertContextCard(expertKey, color) {
-    const context = window._marketContext;
-    if (!context) return '';
-    const take = getExpertContextTake(expertKey, context);
-    return `
-        <div class="expert-context-card" style="border-left-color:${color}">
-            <div class="expert-context-kicker">基于今日投研闭环</div>
-            <div class="expert-context-title">${safeText(take.title)}</div>
-            <div class="expert-context-body">${safeText(take.body)}</div>
-            <div class="expert-context-check">${safeText(take.check)}</div>
-        </div>
-    `;
-}
-
-function getExpertContextTake(expertKey, context) {
-    const mainline = context.mainlines?.[0]?.name || '主线';
-    const radar = context.radarEvents?.[0]?.event || '关键事件';
-    const targets = (context.tradeTargets || []).slice(0, 2).map(item => `${item.name}${item.code}`).join('、') || '候选资产';
-    const paper = context.paper?.selectedCount > 0 ? `模拟盘已有 ${context.paper.selectedCount} 个信号` : `模拟盘没有放行，主要卡在：${context.paper?.topRejectedReason || '确认不足'}`;
-    const map = {
-        templeton: {
-            title: `逆向看：${mainline} 是否已经被过度定价`,
-            body: `他会先看 ${radar} 有没有制造错杀机会，再看 ${targets} 是否只是情绪下跌而不是基本面坏掉。`,
-            check: `追问：如果市场情绪再冷一档，这个资产是否还能活得很好？${paper}。`
-        },
-        buffett: {
-            title: `护城河看：先问现金流，再问涨跌`,
-            body: `他会把 ${targets} 放回商业模式里看，只有能把宏观压力传导给客户、现金流稳定的标的，才值得长期跟踪。`,
-            check: `追问：这条 ${mainline} 里谁不是靠估值故事，而是靠真实利润？${paper}。`
-        },
-        munger: {
-            title: `风险看：别把热闹当确定性`,
-            body: `他会先找反证：${radar} 会不会让市场误判利率、油价或流动性，然后再决定 ${mainline} 是趋势还是拥挤交易。`,
-            check: `否决项：看不懂、太拥挤、没有安全边际。${paper}。`
-        },
-        duan: {
-            title: `好生意看：能懂才可能重仓`,
-            body: `他会要求 ${targets} 先满足好生意、好管理、好价格，新闻只是提醒，不是买入理由。`,
-            check: `观察：如果价格回到舒服区，再让交易池和模拟盘复核。${paper}。`
-        }
-    };
-    return map[expertKey] || map.templeton;
 }
 
 function getTraderMoodLens(moodData) {
@@ -2292,6 +2299,15 @@ function toggleMarketLinkMap() {
     const arrow = document.getElementById('marketLinkArrow');
     if (!map || !detail) return;
     const isOpen = map.classList.toggle('expanded');
+    detail.style.display = isOpen ? 'block' : 'none';
+    if (arrow) arrow.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
+}
+
+function toggleExpertFullView() {
+    const detail = document.getElementById('expertFullView');
+    const arrow = document.getElementById('expertFullArrow');
+    if (!detail) return;
+    const isOpen = detail.classList.toggle('expanded');
     detail.style.display = isOpen ? 'block' : 'none';
     if (arrow) arrow.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
 }
