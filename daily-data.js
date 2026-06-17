@@ -1034,6 +1034,7 @@ function scoreSectorProfile(profile, text, indices, quoteMap, macro) {
 
 function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
     const hasCloudTrades = Array.isArray(cloudSnapshot?.trades);
+    const modelVersion = cloudSnapshot?.version || 7;
     const candidates = hasCloudTrades ? cloudSnapshot.candidates || [] : getPaperTradeCandidates(hotNews, quoteMap, macro);
     const trades = hasCloudTrades ? refreshPaperTradesForDisplay(cloudSnapshot.trades, quoteMap, macro) : updatePaperTrades(candidates, quoteMap, macro);
     const effectiveTrades = trades.filter(trade => trade.status !== '重复剔除');
@@ -1048,7 +1049,7 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v9 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-kicker">模型模拟盘 v${safeText(modelVersion)} · ${hasCloudTrades ? '云端自动' : '本地预览'}</div>
             <div class="a-radar-copy">用10万元虚拟本金验证模型：新闻只做催化线索，入池要同时看催化、价格、资金、质量、风险五因子。目标是训练投研助手，不承诺固定收益。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
@@ -2166,7 +2167,11 @@ function xhrFetch(url) {
         xhr.open('GET', url + '?_=' + Date.now() + Math.random(), true);
         xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         xhr.timeout = 8000;
-        xhr.onload = () => { if (xhr.status === 200) { try { resolve(JSON.parse(xhr.responseText)); } catch(e) { reject(e); } } else reject(); };
+        xhr.onload = () => {
+            if (xhr.status === 200 || (xhr.status === 0 && xhr.responseText)) {
+                try { resolve(JSON.parse(xhr.responseText)); } catch(e) { reject(e); }
+            } else reject();
+        };
         xhr.onerror = () => reject();
         xhr.ontimeout = () => reject();
         xhr.send();
