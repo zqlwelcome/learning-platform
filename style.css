@@ -1913,7 +1913,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .market-link-head span {
@@ -1925,6 +1925,49 @@ body {
 .market-link-head b {
     font-size: 13px;
     color: var(--blue);
+    margin-left: auto;
+}
+
+.market-link-head em {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    color: var(--text2);
+    font-style: normal;
+    transition: transform 0.2s ease;
+}
+
+.market-link-compact {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 0.5px solid rgba(0,0,0,0.08);
+}
+
+.market-link-compact span,
+.market-link-compact b {
+    min-width: 0;
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.market-link-compact span {
+    color: var(--text2);
+}
+
+.market-link-compact b {
+    color: var(--text);
+    text-align: right;
+}
+
+.market-link-detail {
+    display: none;
+    margin-top: 10px;
 }
 
 .market-link-chain {
@@ -2944,6 +2987,65 @@ body {
 }
 
 @media (max-width: 430px) {
+    .a-insights {
+        border-radius: 14px;
+    }
+
+    .a-insights-tabs-wrapper {
+        position: sticky;
+        top: 0;
+        z-index: 12;
+        background: var(--card);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    }
+
+    .a-insights-tabs {
+        overflow-x: auto;
+        scroll-snap-type: x proximity;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .a-insights-tab {
+        flex: 0 0 auto;
+        min-width: 92px;
+        padding: 11px 10px;
+        scroll-snap-align: start;
+    }
+
+    .a-insights-content {
+        padding: 12px;
+    }
+
+    .a-quick,
+    .a-mood,
+    .market-link-map {
+        margin: 10px 0;
+    }
+
+    .a-quick-head {
+        padding-bottom: 4px;
+    }
+
+    .a-quick-title {
+        font-size: 16px;
+        line-height: 1.35;
+    }
+
+    .a-quick-preview {
+        font-size: 12px;
+        line-height: 1.45;
+    }
+
+    .a-btns {
+        position: sticky;
+        top: 45px;
+        z-index: 10;
+        background: rgba(255,255,255,0.94);
+        backdrop-filter: blur(14px);
+        padding: 8px 0;
+        margin: 0 -2px 8px;
+    }
+
     .market-link-grid {
         grid-template-columns: 1fr;
     }
