@@ -180,6 +180,7 @@ function xhrFetchAlerts() {
 
 function fallbackAlerts() {
     renderAlerts({
+        updateTime: '本地兜底',
         forex: { icon: '💱', title: '外汇提示', text: '日元跌破160关口', detail: '日元兑美元汇率跌破160心理关口，创34年新低。' },
         stock: { icon: '📈', title: '股市动向', text: 'A股放量上涨', detail: 'A股三大指数全线收涨，沪指重返3400点。' }
     });
@@ -189,11 +190,12 @@ function fallbackAlerts() {
 function renderAlerts(data) {
     const el = document.getElementById('alertArea');
     if (!el) return;
+    const meta = getAlertUpdateMeta(data.updateTime);
     el.innerHTML = `
         <div class="alert-card forex ${expandedAlert === 'forex' ? 'expanded' : ''}" onclick="toggleAlert('forex')">
             <div class="alert-icon">${data.forex.icon}</div>
             <div class="alert-content">
-                <div class="alert-title">${data.forex.title}</div>
+                <div class="alert-title">${data.forex.title}<span class="alert-sync ${meta.isStale ? 'stale' : ''}">${meta.label}</span></div>
                 <div class="alert-text">${data.forex.text}</div>
                 <div class="alert-detail">${data.forex.detail || '详情还在路上，先别急着下单。'}</div>
             </div>
@@ -202,13 +204,23 @@ function renderAlerts(data) {
         <div class="alert-card stock ${expandedAlert === 'stock' ? 'expanded' : ''}" onclick="toggleAlert('stock')">
             <div class="alert-icon">${data.stock.icon}</div>
             <div class="alert-content">
-                <div class="alert-title">${data.stock.title}</div>
+                <div class="alert-title">${data.stock.title}<span class="alert-sync ${meta.isStale ? 'stale' : ''}">${meta.label}</span></div>
                 <div class="alert-text">${data.stock.text}</div>
                 <div class="alert-detail">${data.stock.detail || '详情还在路上，先别急着下单。'}</div>
             </div>
             <div class="alert-arrow">›</div>
         </div>
     `;
+}
+
+function getAlertUpdateMeta(updateTime) {
+    if (!updateTime || updateTime === '本地兜底') return { label: '兜底', isStale: true };
+    const text = String(updateTime);
+    const parsed = Date.parse(text.replace(/-/g, '/'));
+    if (Number.isNaN(parsed)) return { label: text.slice(5), isStale: false };
+    const ageMinutes = Math.max(0, Math.round((Date.now() - parsed) / 60000));
+    const label = ageMinutes > 180 ? `待刷新 ${text.slice(5)}` : `同步 ${text.slice(5)}`;
+    return { label, isStale: ageMinutes > 180 };
 }
 
 // ===== 渲染新闻列表 =====
