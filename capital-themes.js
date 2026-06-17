@@ -5,7 +5,7 @@
  */
 
 (function () {
-    function buildDynamicCapitalThemesHtml(hotNews, globalFlow, quoteMap, macro) {
+    function buildDynamicCapitalThemesHtml(hotNews, globalFlow, quoteMap, macro, marketContext) {
         const text = (hotNews || []).map(n => `${n.title || ''} ${n.detail || ''} ${n.summary || ''}`).join(' ').toLowerCase();
         const indices = globalFlow?.indices || {};
         const sectors = getSectorProfiles().map(profile => scoreSectorProfile(profile, text, indices, quoteMap, macro))
@@ -20,9 +20,21 @@
             </div>
             <div class="a-sector-list">
                 <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。榜单由热门新闻、全球指数、交易池候选和实时行情共同生成；用于判断主线，不是直接买入指令。</div>
+                ${renderCapitalLinkNote(marketContext)}
                 ${sectors.map((sector, index) => renderDynamicCapitalThemeCard(sector, index)).join('')}
             </div>
         `;
+    }
+
+    function renderCapitalLinkNote(marketContext) {
+        if (!marketContext) return '';
+        const paper = marketContext.paper?.selectedCount > 0
+            ? `模拟盘已放行 ${marketContext.paper.selectedCount} 个信号。`
+            : `模拟盘暂缓，主要卡点：${safeText(marketContext.paper?.topRejectedReason || '确认不足')}。`;
+        const radar = marketContext.radarEvents?.[0]
+            ? `本周先盯 ${safeText(marketContext.radarEvents[0].event)}。`
+            : '本周雷达等待刷新。';
+        return `<div class="capital-link-note">联动判断：${radar}${paper} 主线升温只代表资金关注，不等于交易池自动买入。</div>`;
     }
 
     function renderDynamicCapitalThemeCard(sector, index) {
