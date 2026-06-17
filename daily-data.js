@@ -437,7 +437,7 @@ async function renderSummaryContent() {
         `;
     }).join('');
     
-    el.innerHTML = quickHtml + moodHtml + renderMarketLinkMap(marketContext) + `
+    el.innerHTML = `
         <!-- 统一卡片：智囊团 + 市场日历 + 资金流向 + 板块轮动 -->
         <div class="a-insights">
             <div class="a-insights-tabs-wrapper">
@@ -457,6 +457,9 @@ async function renderSummaryContent() {
             
             <!-- 智囊团内容 -->
             <div class="a-insights-content active" id="insight-braintrust">
+                ${quickHtml}
+                ${moodHtml}
+                ${renderMarketLinkMap(marketContext)}
                 <div class="a-btns">${btnsHtml}</div>
                 <div id="expertContent"></div>
             </div>
@@ -620,26 +623,33 @@ function renderMarketLinkMap(context) {
         : `模拟盘暂缓：${context.paper?.topRejectedReason || '等待确认'}`;
     return `
         <div class="market-link-map">
-            <div class="market-link-head">
+            <div class="market-link-head" onclick="toggleMarketLinkMap()">
                 <span>今日投研闭环</span>
                 <b>${safeText(context.riskMode)}</b>
+                <em id="marketLinkArrow">›</em>
             </div>
-            <div class="market-link-chain">
-                <span>本周雷达</span>
-                <i></i>
-                <span>资金主线</span>
-                <i></i>
-                <span>交易池</span>
-                <i></i>
-                <span>模拟盘</span>
-                <i></i>
-                <span>高手解读</span>
+            <div class="market-link-compact">
+                <span>${safeText(topEvent ? topEvent.event : '等待雷达刷新')}</span>
+                <b>${safeText(topLine ? `${topLine.name} ${topLine.bias}` : context.macroLabel)}</b>
             </div>
-            <div class="market-link-grid">
-                <div><small>最该盯</small><b>${safeText(topEvent ? `${topEvent.event}｜${topEvent.region}` : '等待雷达刷新')}</b></div>
-                <div><small>资金主线</small><b>${safeText(topLine ? `${topLine.name} ${topLine.bias}` : context.macroLabel)}</b></div>
-                <div><small>候选资产</small><b>${safeText(topTargets)}</b></div>
-                <div><small>模型纪律</small><b>${safeText(paperText)}</b></div>
+            <div class="market-link-detail" id="marketLinkDetail">
+                <div class="market-link-chain">
+                    <span>本周雷达</span>
+                    <i></i>
+                    <span>资金主线</span>
+                    <i></i>
+                    <span>交易池</span>
+                    <i></i>
+                    <span>模拟盘</span>
+                    <i></i>
+                    <span>高手解读</span>
+                </div>
+                <div class="market-link-grid">
+                    <div><small>最该盯</small><b>${safeText(topEvent ? `${topEvent.event}｜${topEvent.region}` : '等待雷达刷新')}</b></div>
+                    <div><small>资金主线</small><b>${safeText(topLine ? `${topLine.name} ${topLine.bias}` : context.macroLabel)}</b></div>
+                    <div><small>候选资产</small><b>${safeText(topTargets)}</b></div>
+                    <div><small>模型纪律</small><b>${safeText(paperText)}</b></div>
+                </div>
             </div>
         </div>
     `;
@@ -2274,6 +2284,16 @@ function toggleExpertMoodBanner() {
     const isOpen = banner.classList.toggle('expanded');
     detail.style.display = isOpen ? 'block' : 'none';
     arrow.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
+}
+
+function toggleMarketLinkMap() {
+    const map = document.querySelector('.market-link-map');
+    const detail = document.getElementById('marketLinkDetail');
+    const arrow = document.getElementById('marketLinkArrow');
+    if (!map || !detail) return;
+    const isOpen = map.classList.toggle('expanded');
+    detail.style.display = isOpen ? 'block' : 'none';
+    if (arrow) arrow.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
 }
 
 // ===== 用户反馈 =====
