@@ -1,7 +1,7 @@
 {
   "version": 6,
   "mode": "cloud-paper-simulator",
-  "updateTime": "2026-06-16T23:50:05.617Z",
+  "updateTime": "2026-06-17T05:19:23.725Z",
   "newsSource": "live-hot-news.json",
   "modelTuning": {
     "duplicateCooldownDays": 15,
@@ -17,33 +17,33 @@
   },
   "macro": {
     "rateUp": true,
-    "rateDown": true,
+    "rateDown": false,
     "oilShock": true,
     "aiCapex": true,
-    "riskOff": true,
-    "chinaSupport": false,
-    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 风险偏好需要打折 / 利率下行利好长久期资产"
+    "riskOff": false,
+    "chinaSupport": true,
+    "label": "利率压力偏高 / 能源和地缘风险升温 / 人工智能资本开支仍是主线 / 中国资产等待政策和数据确认"
   },
   "candidates": [],
   "stats": {
     "sampleCount": 15,
     "rawSampleCount": 23,
-    "activeCount": 6,
+    "activeCount": 7,
     "closedCount": 4,
-    "waitingCount": 5,
+    "waitingCount": 4,
     "excludedCount": 8,
     "reviewedCount": 4,
     "winRate": 25,
     "avgPnl": -4.045,
-    "equity": 100069.86391639482,
-    "exposurePct": 46,
-    "portfolioCap": 51,
+    "equity": 100239.98528145085,
+    "exposurePct": 59,
+    "portfolioCap": 61,
     "riskMode": "谨慎",
     "alerts": 0,
     "benchmark": {
-      "modelReturnPct": 0.07,
-      "benchmarkAvgPct": 2.46,
-      "relativePct": -2.39,
+      "modelReturnPct": 0.24,
+      "benchmarkAvgPct": 2.5,
+      "relativePct": -2.26,
       "quality": "sample-based",
       "strictHistoryStatus": "pending-historical-price-ingestion",
       "refs": [
@@ -68,16 +68,16 @@
         {
           "symbol": "sh510300",
           "label": "沪深300ETF 510300",
-          "samplePnlPct": 1.74,
+          "samplePnlPct": 1.91,
           "entryDate": "2026-06-09"
         }
       ],
       "note": "当前基准来自模拟盘内代表ETF样本，已可做方向参考；严格版仍需稳定历史行情源记录每个入场日的基准价格。"
     },
     "costAdjusted": {
-      "modelReturnPctAfterCost": -0.08,
-      "avgNetPnlPct": -0.91,
-      "estimatedTotalCost": 146,
+      "modelReturnPctAfterCost": 0.07,
+      "avgNetPnlPct": -1.01,
+      "estimatedTotalCost": 172,
       "assumptions": {
         "ETF": "估算单次完整买卖成本/滑点 0.20%",
         "Stock": "估算单次完整买卖成本/滑点 0.35%",
@@ -103,10 +103,10 @@
         {
           "symbol": "sh512880",
           "name": "证券ETF",
-          "status": "仓位等待",
-          "grossPnlPct": 1.88,
+          "status": "观察中",
+          "grossPnlPct": 1.6,
           "roundTripCostPct": 0.2,
-          "netPnlPct": 1.68
+          "netPnlPct": 1.4
         },
         {
           "symbol": "usGLD",
@@ -120,17 +120,17 @@
           "symbol": "sz159928",
           "name": "消费ETF",
           "status": "仓位等待",
-          "grossPnlPct": -1.38,
+          "grossPnlPct": -2.62,
           "roundTripCostPct": 0.2,
-          "netPnlPct": -1.58
+          "netPnlPct": -2.82
         },
         {
           "symbol": "hk03033",
           "name": "恒生科技ETF",
           "status": "观察中",
-          "grossPnlPct": -1.98,
+          "grossPnlPct": -1.93,
           "roundTripCostPct": 0.2,
-          "netPnlPct": -2.18
+          "netPnlPct": -2.13
         },
         {
           "symbol": "usUSO",
@@ -156,24 +156,24 @@
         "count": 4,
         "closedCount": 0,
         "winRate": null,
-        "exposurePct": 35,
-        "grossAvgPnlPct": 0.52,
-        "netAvgPnlPct": 0.32,
+        "exposurePct": 39,
+        "grossAvgPnlPct": 0.12,
+        "netAvgPnlPct": -0.08,
         "worst": {
           "symbol": "sz159928",
           "name": "消费ETF",
-          "pnlPct": -1.38
+          "pnlPct": -2.62
         },
-        "verdict": "可继续按原仓位上限验证。"
+        "verdict": "暂不扩大仓位，等待更多正样本。"
       },
       {
         "bucket": "科技成长",
         "count": 5,
         "closedCount": 2,
         "winRate": 50,
-        "exposurePct": 33,
-        "grossAvgPnlPct": -0.13,
-        "netAvgPnlPct": -0.33,
+        "exposurePct": 31,
+        "grossAvgPnlPct": -0.12,
+        "netAvgPnlPct": -0.32,
         "worst": {
           "symbol": "sh512760",
           "name": "芯片ETF",
@@ -231,15 +231,15 @@
       "count": 7,
       "topIssues": [
         {
+          "issue": "亏损样本仓位偏高",
+          "count": 3
+        },
+        {
           "issue": "入场确认分偏低",
           "count": 3
         },
         {
           "issue": "地缘/避险新闻容易滞后，不能只靠风险因子",
-          "count": 2
-        },
-        {
-          "issue": "亏损样本仓位偏高",
           "count": 2
         },
         {
@@ -252,10 +252,6 @@
         },
         {
           "issue": "成长类时间窗口过长后仍弱，说明催化没有转成价格趋势",
-          "count": 1
-        },
-        {
-          "issue": "样本亏损较小，继续观察是否属于正常波动。",
           "count": 1
         },
         {
@@ -314,13 +310,28 @@
           "ruleFix": "商品/避险类继续维持高门槛，只允许价格、资金、风险同时确认的小仓验证。"
         },
         {
+          "symbol": "sz159928",
+          "name": "消费ETF",
+          "assetBucket": "中国资产",
+          "status": "仓位等待",
+          "eventType": "政策类",
+          "pnlPct": -2.62,
+          "netPnlPct": -2.82,
+          "ageDays": 2,
+          "confirmationScore": 83,
+          "issues": [
+            "亏损样本仓位偏高"
+          ],
+          "ruleFix": "先记录为普通失败样本，等待更多样本后再调整权重。"
+        },
+        {
           "symbol": "hk03033",
           "name": "恒生科技ETF",
           "assetBucket": "科技成长",
           "status": "观察中",
           "eventType": "政策类",
-          "pnlPct": -1.98,
-          "netPnlPct": -2.18,
+          "pnlPct": -1.93,
+          "netPnlPct": -2.13,
           "ageDays": 2,
           "confirmationScore": 83,
           "issues": [
@@ -329,17 +340,17 @@
           "ruleFix": "新增事件-资产匹配过滤：低匹配且确认分低于82的信号不再入池。"
         },
         {
-          "symbol": "sz159928",
-          "name": "消费ETF",
+          "symbol": "hk02800",
+          "name": "盈富基金",
           "assetBucket": "中国资产",
-          "status": "仓位等待",
+          "status": "复盘中",
           "eventType": "政策类",
-          "pnlPct": -1.38,
-          "netPnlPct": -1.58,
-          "ageDays": 2,
-          "confirmationScore": 83,
+          "pnlPct": -0.4,
+          "netPnlPct": -0.6,
+          "ageDays": 8,
+          "confirmationScore": 74,
           "issues": [
-            "样本亏损较小，继续观察是否属于正常波动。"
+            "入场确认分偏低"
           ],
           "ruleFix": "先记录为普通失败样本，等待更多样本后再调整权重。"
         },
@@ -359,21 +370,6 @@
             "入场确认分偏低"
           ],
           "ruleFix": "新增事件-资产匹配过滤：低匹配且确认分低于82的信号不再入池。"
-        },
-        {
-          "symbol": "hk02800",
-          "name": "盈富基金",
-          "assetBucket": "中国资产",
-          "status": "复盘中",
-          "eventType": "政策类",
-          "pnlPct": -0.16,
-          "netPnlPct": -0.36,
-          "ageDays": 8,
-          "confirmationScore": 74,
-          "issues": [
-            "入场确认分偏低"
-          ],
-          "ruleFix": "先记录为普通失败样本，等待更多样本后再调整权重。"
         }
       ]
     },
@@ -381,7 +377,6 @@
       "status": "继续小仓验证",
       "nextAction": "不提高仓位上限，优先扩大样本和复盘失败原因。",
       "warnings": [
-        "扣除交易成本后仍为负，不能扩大真实仓位。",
         "当前跑输参考基准，需要先优化筛选和退出纪律。",
         "商品/能源样本拖累明显，必须单独建模，不再与科技或指数样本混在一起判断胜率。"
       ],
@@ -392,9 +387,9 @@
     {
       "key": "d1",
       "label": "1日",
-      "samples": 10,
-      "winRate": 80,
-      "avg": 0.392
+      "samples": 11,
+      "winRate": 82,
+      "avg": 0.5272727272727272
     },
     {
       "key": "d3",
@@ -472,7 +467,7 @@
       "market": "美股",
       "kind": "ETF",
       "entryPrice": 184.8,
-      "allocationPct": 8,
+      "allocationPct": 7,
       "portfolioCap": 62,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -527,7 +522,7 @@
       "market": "A股",
       "kind": "ETF",
       "entryPrice": 1.062,
-      "allocationPct": 11,
+      "allocationPct": 12,
       "portfolioCap": 61,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 确认分高",
@@ -566,12 +561,12 @@
       },
       "id": "2026-06-15-sh512880-宏观类",
       "entryDate": "2026-06-15",
-      "status": "仓位等待",
+      "status": "观察中",
       "capital": 100000,
-      "entryValue": 0,
-      "currentValue": 0,
-      "currentPrice": 1.082,
-      "pnlPct": 1.8832391713747663,
+      "entryValue": 12000,
+      "currentValue": 12192.090395480223,
+      "currentPrice": 1.079,
+      "pnlPct": 1.6007532956685409,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -640,7 +635,7 @@
       "market": "A股",
       "kind": "ETF",
       "entryPrice": 0.65,
-      "allocationPct": 10,
+      "allocationPct": 11,
       "portfolioCap": 61,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式",
@@ -681,8 +676,8 @@
       "capital": 100000,
       "entryValue": 0,
       "currentValue": 0,
-      "currentPrice": 0.641,
-      "pnlPct": -1.384615384615386,
+      "currentPrice": 0.633,
+      "pnlPct": -2.6153846153846176,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -740,9 +735,9 @@
       "status": "观察中",
       "capital": 100000,
       "entryValue": 8000,
-      "currentValue": 7841.856467554792,
-      "currentPrice": 4.562,
-      "pnlPct": -1.9767941555650974,
+      "currentValue": 7845.294370434035,
+      "currentPrice": 4.564,
+      "pnlPct": -1.9338203695745564,
       "ageDays": 2,
       "checkpoints": {
         "d1": {
@@ -878,7 +873,7 @@
       "market": "美股",
       "kind": "ETF",
       "entryPrice": 707.83,
-      "allocationPct": 8,
+      "allocationPct": 7,
       "portfolioCap": 57,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 成长降权",
@@ -909,8 +904,8 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 8000,
-      "currentValue": 8248.986338527611,
+      "entryValue": 7000.000000000001,
+      "currentValue": 7217.863046211661,
       "currentPrice": 729.86,
       "pnlPct": 3.1123292315951527,
       "ageDays": 8,
@@ -938,7 +933,7 @@
       "market": "A股",
       "kind": "ETF",
       "entryPrice": 4.826,
-      "allocationPct": 6,
+      "allocationPct": 7,
       "portfolioCap": 58,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式 / 确认分偏低",
@@ -969,10 +964,10 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 6000,
-      "currentValue": 6104.434314131787,
-      "currentPrice": 4.91,
-      "pnlPct": 1.7405719021964468,
+      "entryValue": 7000.000000000001,
+      "currentValue": 7133.443845835062,
+      "currentPrice": 4.918,
+      "pnlPct": 1.9063406547865838,
       "ageDays": 8,
       "checkpoints": {
         "d1": {
@@ -996,7 +991,7 @@
       "market": "港股",
       "kind": "ETF",
       "entryPrice": 24.9,
-      "allocationPct": 8,
+      "allocationPct": 9,
       "portfolioCap": 58,
       "riskMode": "谨慎",
       "allocationReason": "谨慎模式",
@@ -1027,10 +1022,10 @@
       "entryDate": "2026-06-09",
       "status": "复盘中",
       "capital": 100000,
-      "entryValue": 8000,
-      "currentValue": 7987.148594377511,
-      "currentPrice": 24.86,
-      "pnlPct": -0.16064257028112108,
+      "entryValue": 9000,
+      "currentValue": 8963.855421686747,
+      "currentPrice": 24.8,
+      "pnlPct": -0.4016064257028027,
       "ageDays": 8,
       "checkpoints": {
         "d1": {
