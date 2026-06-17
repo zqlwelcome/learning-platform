@@ -6,6 +6,7 @@ import path from 'node:path';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outputPath = path.join(root, 'data', 'live-hot-news.json');
+const alertsPath = path.join(root, 'data', 'alerts.json');
 
 const SINA_LIDS = [
   { lid: 2517, weight: 22, label: '新浪全球市场' },
@@ -136,6 +137,62 @@ function insightFor(item) {
   };
 }
 
+function scoreAlertCandidate(item, kind) {
+  const text = `${item?.title || ''} ${item?.detail || ''} ${item?.insight?.assets || ''} ${item?.insight?.watch || ''}`;
+  let score = 0;
+  if (kind === 'forex') {
+    if (/美元|人民币|日元|欧元|汇率|外汇|美元指数/.test(text)) score += 40;
+    if (/黄金|美债|收益率|通胀|央行|欧洲央行|美联储|利率/.test(text)) score += 28;
+    if (/原油|油价|能源|地缘|避险|霍尔木兹/.test(text)) score += 18;
+    if (/可转债|个股|公司公告|IPO|基金募集/.test(text) && !/美元|利率|通胀|央行/.test(text)) score -= 30;
+  } else {
+    if (/股市|美股|A股|港股|纳指|标普|道指|上证|恒生|沪深|证券/.test(text)) score += 40;
+    if (/科技股|人工智能|AI|芯片|IPO|估值|财报|回购|基金|资本市场/.test(text)) score += 24;
+    if (/公司公告|可转债/.test(text)) score += 8;
+    if (/初创|风投|创投|私募|募集新一期基金|基金募集/.test(text) && !/上市|IPO|股市|美股|港股|A股|资本市场/.test(text)) score -= 24;
+  }
+  return score + Math.min(20, Number(item?.score || 0) / 5);
+}
+
+function pickNews(news, kind, excludeTitle = '') {
+  const ranked = news
+    .filter((item) => item?.title && item.title !== excludeTitle)
+    .map((item) => ({ item, score: scoreAlertCandidate(item, kind) }))
+    .sort((a, b) => b.score - a.score);
+  return ranked[0]?.item || news[0];
+}
+
+function shortText(text, limit = 34) {
+  const cleaned = cleanText(text);
+  return cleaned.length > limit ? `${cleaned.slice(0, limit)}…` : cleaned;
+}
+
+function alertDetail(item, angle, updateTime, watchOverride = '') {
+  const insight = item?.insight || insightFor(item || {});
+  const watch = String(watchOverride || insight.watch || '看价格、成交量和后续消息是否确认').replace(/[。.!！]+$/, '');
+  return `${angle}。看什么：${watch}。`;
+}
+
+function buildAlerts(news, updateTime) {
+  const forex = pickNews(news, 'forex');
+  const stock = pickNews(news, 'stock', forex?.title || '');
+  return {
+    updateTime,
+    forex: {
+      icon: '💱',
+      title: '外汇提示',
+      text: shortText(forex?.title || '美元、人民币、黄金等待新信号'),
+      detail: alertDetail(forex, '外汇卡重点看美元、人民币、黄金、原油和美债收益率的联动，不把单日涨跌当趋势', updateTime, '美元指数、离岸人民币、黄金/原油是否同向确认')
+    },
+    stock: {
+      icon: '📈',
+      title: '股市动向',
+      text: shortText(stock?.title || '主要股指等待方向确认'),
+      detail: alertDetail(stock, '股市卡重点看哪个市场在带节奏，以及上涨是否有成交量、政策或盈利逻辑支持', updateTime, 'A股、港股、美股谁先放量，相关板块是否从新闻热度变成价格确认')
+    }
+  };
+}
+
 async function fetchSina() {
   const items = [];
   for (const { lid, weight, label } of SINA_LIDS) {
@@ -233,4 +290,6 @@ const payload = {
 };
 
 await writeFile(outputPath, JSON.stringify(payload, null, 2) + '\n', 'utf8');
+await writeFile(alertsPath, JSON.stringify(buildAlerts(news, updateTime), null, 2) + '\n', 'utf8');
 console.log(`Wrote ${news.length} live hot news items to ${outputPath}`);
+console.log(`Wrote live alerts to ${alertsPath}`);
