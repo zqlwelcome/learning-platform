@@ -2024,7 +2024,7 @@ body {
     line-height: 1.35;
 }
 
-.expert-context-card {
+.expert-brief-card {
     margin: 10px 0;
     padding: 12px;
     border-left: 4px solid var(--blue);
@@ -2032,31 +2032,72 @@ body {
     background: rgba(0,0,0,0.025);
 }
 
-.expert-context-kicker {
-    font-size: 12px;
-    font-weight: 800;
-    color: var(--text2);
-    margin-bottom: 4px;
-}
-
-.expert-context-title {
-    font-size: 14px;
-    font-weight: 800;
+.expert-brief-title {
     color: var(--text);
+    font-size: 15px;
+    font-weight: 800;
     line-height: 1.45;
-    margin-bottom: 6px;
 }
 
-.expert-context-body,
-.expert-context-check {
+.expert-brief-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.expert-brief-grid div {
+    padding: 9px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.expert-brief-grid span {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--text2);
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.expert-brief-grid b {
+    display: block;
+    color: var(--text);
     font-size: 13px;
-    line-height: 1.55;
-    color: var(--text-body);
+    line-height: 1.4;
 }
 
-.expert-context-check {
-    margin-top: 6px;
+.expert-brief-trigger {
+    margin-top: 9px;
+    padding-top: 8px;
+    border-top: 0.5px solid rgba(0,0,0,0.08);
     color: #664d03;
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+.expert-full-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 10px 12px;
+    border-radius: 11px;
+    background: var(--bg);
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.expert-full-toggle b {
+    font-size: 18px;
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+
+.expert-full-view {
+    display: none;
 }
 .a-calendar-list {
     display: flex;
@@ -3044,6 +3085,14 @@ body {
         backdrop-filter: blur(14px);
         padding: 8px 0;
         margin: 0 -2px 8px;
+    }
+
+    .expert-brief-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .expert-brief-title {
+        font-size: 14px;
     }
 
     .market-link-grid {
