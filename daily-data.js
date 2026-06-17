@@ -1044,6 +1044,7 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
     const avgPnl = closedTrades.length ? closedTrades.reduce((sum, trade) => sum + Number(trade.finalPnlPct ?? trade.pnlPct ?? 0), 0) / closedTrades.length : null;
     const portfolio = getPaperPortfolioStats(trades);
     const phaseStats = getPaperPhaseStats(trades);
+    const factorReport = cloudSnapshot?.stats?.factorModelReport || null;
 
     return `
         <div class="a-radar-intro">
@@ -1079,6 +1080,7 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
         <div class="paper-phase-grid">
             ${phaseStats.map(renderPaperPhaseCard).join('')}
         </div>
+        ${renderPaperFactorReport(factorReport)}
         <div class="a-flow-list">
             <div class="paper-toolbar">
                 <span>纪律：单标的≤15%，动态权益≤${getPaperPortfolioCap(macro)}%，10日必须复盘。</span>
@@ -1562,6 +1564,60 @@ function renderPaperPhaseCard(phase) {
             <small>${phase.avg === null ? '暂无完成信号' : `均值 ${phase.avg >= 0 ? '+' : ''}${phase.avg.toFixed(2)}% · ${phase.samples}条`}</small>
         </div>
     `;
+}
+
+function renderPaperFactorReport(report) {
+    if (!report) return '';
+    const audit = Array.isArray(report.audit) ? report.audit.slice(0, 6) : [];
+    const weights = report.factorWeights || {};
+    return `
+        <div class="paper-factor-panel">
+            <div class="paper-factor-head">
+                <span>多因子模型审计</span>
+                <b>${safeText(report.selectedCount ?? 0)}/${safeText(report.rawCandidateCount ?? 0)} 入选</b>
+            </div>
+            <div class="paper-factor-copy">${safeText(report.gate || '模型会同时检查宏观、趋势、资金、事件、风险和资产适配，不强行每天给信号。')}</div>
+            <div class="paper-factor-weights">
+                ${Object.entries(weights).map(([key, value]) => `<span>${safeText(getPaperFactorLabel(key))} ${safeText(value)}</span>`).join('')}
+            </div>
+            ${audit.length ? `
+                <div class="paper-factor-audit">
+                    ${audit.map(renderPaperFactorAuditItem).join('')}
+                </div>
+            ` : '<div class="a-flow-disclaimer">当前没有候选审计数据，等待云端下一次模型运行。</div>'}
+        </div>
+    `;
+}
+
+function renderPaperFactorAuditItem(item) {
+    const passed = item.passed ? '通过' : '未入选';
+    const reasons = Array.isArray(item.rejectedReasons) && item.rejectedReasons.length ? item.rejectedReasons.join(' / ') : '已通过全部门槛';
+    const components = item.factorComponents || {};
+    return `
+        <div class="paper-factor-item">
+            <div class="paper-factor-title">
+                <b>${safeText(item.name)} ${safeText(item.symbol)}</b>
+                <span>${safeText(item.factorScore ?? '-')}/${safeText(item.factorThreshold ?? '-')} · ${safeText(passed)}</span>
+            </div>
+            <div class="paper-factor-bars">
+                ${Object.entries(components).map(([key, value]) => `
+                    <span>${safeText(getPaperFactorLabel(key))}<em>${safeText(value)}</em></span>
+                `).join('')}
+            </div>
+            <div class="paper-factor-reason">${safeText(reasons)}</div>
+        </div>
+    `;
+}
+
+function getPaperFactorLabel(key) {
+    return {
+        macroFit: '宏观',
+        trend: '趋势',
+        flow: '资金',
+        eventCatalyst: '事件',
+        riskControl: '风控',
+        assetFit: '适配'
+    }[key] || key;
 }
 
 function getPaperPortfolioStats(trades) {
