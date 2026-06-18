@@ -1,131 +1,121 @@
 {
-  "updateTime": "2026-06-19 05:33",
+  "updateTime": "2026-06-19 05:40",
   "news": [
     {
       "rank": 1,
-      "title": "Stock market today: Dow, S&P 500, Nasdaq rally as Iran deal optimism offsets Fed hike worries - Yahoo Finance",
+      "title": "Stocks market today: Dow, S&P 500, Nasdaq rally amid Iran deal optimism as AI chip trade reignites - Yahoo Finance",
       "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 60,
+      "score": 57,
       "insight": {
-        "what": "伊朗局势缓和推动美股反弹，抵消加息担忧",
-        "assets": "📈 美股大盘 利好\n📉 原油 承压",
-        "chain": "地缘风险降低→风险偏好（投资者愿意冒险）回升→资金从避险资产（如黄金）回流股市",
-        "watch": "伊朗核协议进展及美联储下周利率决议"
+        "what": "美股三大指数因伊朗协议乐观情绪和AI芯片交易复苏上涨",
+        "assets": "📈 美股科技股 利好\n📈 AI芯片板块 利好",
+        "chain": "风险偏好（市场冒险情绪）回升，资金从避险资产（如美债）流出，推高风险资产价格。",
+        "watch": "伊朗协议谈判进展及AI芯片公司财报"
       }
     },
     {
       "rank": 2,
+      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program - Federal Reserve (.gov)",
+      "source": "Federal Reserve (.gov)",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 51,
+      "insight": {
+        "what": "美联储要求稳定币发行商实施客户身份识别计划",
+        "assets": "📉 加密货币 承压\n📈 合规稳定币 利好",
+        "chain": "监管收紧增加合规成本，短期压制小型加密项目（山寨币），但长期利好合规龙头（如USDC）。",
+        "watch": "美联储最终规则及稳定币市场反应"
+      }
+    },
+    {
+      "rank": 3,
       "title": "美元延续涨势 美联储鹰派信号提振加息押注",
       "source": "环球市场播报",
       "detail": "美元连续第二天延续涨势，重新迈向3月下旬的高点，交易员纷纷押注美联储最早将于下月底开始加息。 这一进展推动彭博美元指数较周三美联储举行会议前走高约1%。",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美联储鹰派信号推高美元，加息押注升温",
-        "assets": "📈 美元指数 利好\n📉 新兴市场货币 承压\n📉 美债 利空（收益率上行）",
-        "chain": "加息预期增强→美元走强→新兴市场资金外流（资本流出），同时压缩美股估值（PE倍数下降）",
-        "watch": "本周美国CPI（消费者物价指数）数据及点阵图（利率预测）"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "监管令电网提速，优先供电AI数据中心",
-        "assets": "📈 AI相关科技股 利好\n📈 电力基建股 利好",
-        "chain": "电力需求激增→电网升级加速→利好电力设备及AI算力（计算能力）供应商，但可能推高电价",
-        "watch": "数据中心电力合同及电网投资计划"
+        "what": "美元因美联储鹰派信号（偏紧缩政策）延续涨势，加息押注增加",
+        "assets": "📈 美元 利好\n📉 新兴市场货币 承压",
+        "chain": "美元走强（升值）使大宗商品（以美元计价）价格承压，新兴市场资金外流（资本流出）。",
+        "watch": "美联储官员讲话及非农就业数据"
       }
     },
     {
       "rank": 4,
+      "title": "Why Apple Price Hikes Just Sent Micron Stock to a New Record High - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "苹果提价推动美光科技股价创新高",
+        "assets": "📈 美光科技 利好\n📈 存储芯片板块 利好",
+        "chain": "苹果提价（手机涨价）反映需求韧性，带动上游存储（内存）需求预期，利好半导体供应链。",
+        "watch": "苹果及美光下一季度营收指引"
+      }
+    },
+    {
+      "rank": 5,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州IPO税收预期受多重因素拖累",
-        "assets": "📈 加州债券 中性偏空\n📉 科技股IPO 承压",
-        "chain": "IPO放缓→州政府税收缺口扩大→可能加税或削减支出→影响科技公司注册地选择",
-        "watch": "加州财政预算更新及科技公司上市日程"
+        "what": "加州IPO税收入预期因多重因素复杂化",
+        "assets": "📉 加州地方政府债券 承压\n📈 科技初创公司 中性偏空",
+        "chain": "IPO（首次公开募股）延迟或估值下降减少税收，加州财政缺口可能通过加税或削减支出弥补。",
+        "watch": "加州预算更新及IPO市场活跃度"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX股价连续两日大跌，散户接近浮亏",
-        "assets": "📉 SpaceX（非上市交易） 承压\n📉 太空概念股 联动利空",
-        "chain": "散户追高被套→情绪恶化→可能引发二级市场（非公开市场）抛售，拖累太空行业估值",
-        "watch": "SpaceX后续融资估值及发射任务进展"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
-      "source": "CNBC",
-      "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普罢免美联储理事Cook计划致其损失超百万",
-        "assets": "📉 美元 中性偏空\n📉 美债 中性偏空",
-        "chain": "政治干预央行独立性→削弱降息预期（政策不确定性）→长期美债收益率（利息）可能上行",
-        "watch": "美联储理事辞职风险及国会听证会动态"
+        "what": "SpaceX散户投资者在股价两日下跌后接近亏损",
+        "assets": "📉 SpaceX 短期利空\n📉 散户投资者 情绪承压",
+        "chain": "散户抛压（卖出行为）可能加剧跌势，但SpaceX基本面（火箭发射业务）未变，长期价值仍存。",
+        "watch": "SpaceX融资动态及估值变化"
       }
     },
     {
       "rank": 7,
+      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
+      "source": "CNBC",
+      "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预期Warsh美联储比预期更鹰派。",
-        "assets": "美元指数（上行），美债收益率（上行），美股（下行）",
-        "chain": "鹰派预期推高利率，压制风险资产估值，资金流向避险。",
-        "watch": "Warsh正式发言及点阵图变化。"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "White House talks with Anthropic shift to setting AI security rules - Politico",
-      "source": "Politico",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "白宫与Anthropic转向制定AI安全规则。",
-        "assets": "AI概念股（中性偏空），网络安全ETF（利好）",
-        "chain": "监管趋严增加合规成本，但利好安全服务商，科技巨头或承压。",
-        "watch": "具体规则草案及国会立法进展。"
-      }
+      "score": 33
     },
     {
       "rank": 9,
-      "title": "SanDisk and Micron surge as Apple confirms memory price pass-through - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "Mortgage Rates Spike in Response to Fed - Mortgage News Daily",
+      "source": "Mortgage News Daily",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "Apple确认存储涨价传导，SanDisk和Micron大涨。",
-        "assets": "存储芯片股（利好），苹果供应链（中性）",
-        "chain": "涨价确认强化存储周期反转逻辑，下游成本压力或转嫁消费者。",
-        "watch": "存储芯片现货价格及苹果财报毛利率。"
-      }
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
+      "source": "CNBC",
+      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
