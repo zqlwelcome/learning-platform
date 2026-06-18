@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 01:40",
+  "updateTime": "2026-06-19 01:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "美股从美联储抛售中反弹，油价下跌，芯片股领涨",
-        "assets": "📈 美股科技股 利好; 📉 原油 承压",
-        "chain": "油价下跌缓解通胀预期（物价上涨压力），削弱加息（借钱成本提高）紧迫性，利好风险资产",
-        "watch": "WTI原油期货价格及美联储官员讲话"
+        "what": "油价下跌和芯片股反弹推动美股从抛售中回升",
+        "assets": "📈 美股科技股 利好; 📉 原油期货 承压",
+        "chain": "油价跌（能源成本下降）→缓解通胀预期→科技股估值（未来现金流折现）修复",
+        "watch": "伊朗核协议谈判进展及OPEC+产量决策"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号走强，加息押注增加",
-        "assets": "📈 美元 利好; 📉 新兴市场货币 承压",
-        "chain": "美元走强通过套利交易（借低息货币买高息资产）回流，压制大宗商品（以美元计价）和新兴市场资产",
-        "watch": "美元指数及美联储点阵图（利率预测）"
+        "what": "美元因美联储鹰派信号（强硬加息立场）延续涨势",
+        "assets": "📈 美元指数 利好; 📉 新兴市场货币 承压",
+        "chain": "美元走强→新兴市场资本外流（资金流向高息资产）→大宗商品价格（以美元计价）下跌",
+        "watch": "美联储官员讲话及点阵图（利率预测）变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "美股三大指数上涨，聚焦伊朗协议和加息路径",
-        "assets": "📈 美股大盘 利好; 📉 能源股 分化",
-        "chain": "伊朗协议若达成将增加原油供给（OPEC+减产压力），压低油价，利好消费和科技股",
-        "watch": "伊朗核谈判进展及CPI（消费者物价指数）数据"
+        "what": "美股三大指数上涨，市场关注伊朗协议和加息路径",
+        "assets": "📈 美股大盘 利好; 📉 石油股 中性偏空",
+        "chain": "伊朗协议若达成→原油供给增加→油价下跌→降低生产成本利好消费股",
+        "watch": "伊朗核协议签署进展及美联储6月加息概率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美监管层支持特朗普计划加快AI数据中心供电",
-        "assets": "📈 人工智能板块 利好; 📈 电力公用事业 利好",
-        "chain": "AI算力需求激增，电力基础设施投资增加，推动电网升级和核电/天然气需求",
-        "watch": "AI企业资本开支指引及电力股走势"
+        "what": "美监管机构支持特朗普计划加速供电AI数据中心",
+        "assets": "📈 美国公用事业股 利好; 📈 AI芯片股 利好",
+        "chain": "电力基建加速→AI算力扩张（计算能力增长）→数据中心需求激增→芯片/电力设备订单增加",
+        "watch": "能源部项目审批时间表及AI资本支出指引"
       }
     },
     {
@@ -65,36 +65,28 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni警告美联储可能加息以控通胀",
-        "assets": "📉 美股 承压; 📈 美元 利好",
-        "chain": "加息预期推高短端利率（短期国债收益率），压制成长股估值（未来现金流折现率提高）",
-        "watch": "美联储利率期货定价及核心PCE（个人消费支出物价指数）"
+        "what": "策略师Yardeni警告美联储可能加息以打击通胀",
+        "assets": "📉 美债 承压; 📈 美元 利好",
+        "chain": "加息预期（借贷成本上升）→债券价格下跌（收益率上行）→风险资产（股票）估值受压",
+        "watch": "下周CPI（消费者物价指数）数据及美联储会议纪要措辞"
       }
     },
     {
       "rank": 6,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州依赖IPO税收收入，但多重因素使计算复杂",
-        "assets": "📈 加州地方债 中性偏空; 📉 科技初创公司 承压",
-        "chain": "IPO放缓减少州政府税收，可能引发预算缺口，增加地方债风险溢价（投资者要求更高回报）",
-        "watch": "科技公司IPO申请数量及加州财政报告"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普罢免美联储理事Lisa Cook致其法律安保费超百万",
+        "assets": "📈 美元 中性; 📉 美联储独立性 承压",
+        "chain": "政治干预（白宫施压）→美联储决策可信度下降→市场对利率路径预期混乱",
+        "watch": "国会听证会及美联储官员辞职动向"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected",
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
@@ -102,7 +94,7 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
@@ -110,12 +102,20 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
       "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
