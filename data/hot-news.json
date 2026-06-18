@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 04:45",
+  "updateTime": "2026-06-19 04:48",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图罢免美联储理事库克",
+        "assets": "美元/美债/美股",
+        "chain": "政治干预美联储→独立性担忧→市场波动",
+        "watch": "美联储官员后续表态"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期沃什领导的美联储将更鹰派",
+        "assets": "美元/美债/纳斯达克",
+        "chain": "鹰派预期→加息风险→科技股承压",
+        "watch": "沃什政策立场确认"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期沃什领导的美联储将更鹰派",
+        "assets": "美元/美债/纳斯达克",
+        "chain": "鹰派预期→加息风险→科技股承压",
+        "watch": "沃什政策立场确认"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "苹果确认存储芯片价格传导",
+        "assets": "美光/闪迪/半导体",
+        "chain": "成本转嫁→存储涨价→芯片股受益",
+        "watch": "苹果后续产品定价"
+      }
     }
   ]
 }
