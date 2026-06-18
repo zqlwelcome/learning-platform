@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 04:35",
+  "updateTime": "2026-06-19 04:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号持续走强",
-        "assets": "📈 美元指数 利好；📉 黄金 承压；📉 新兴市场货币 承压",
-        "chain": "美元走强压制大宗商品（以美元计价），加息预期推高美债收益率（债券回报率），利空风险资产",
-        "watch": "美联储下次会议纪要及点阵图（利率预测）"
+        "what": "美元因美联储鹰派信号延续涨势",
+        "assets": "📈 美元 利好; 📉 黄金 承压; 📉 新兴市场货币 承压",
+        "chain": "美元走强压制大宗商品（如原油、铜），新兴市场资本外流（资金流出），风险资产波动",
+        "watch": "美联储官员讲话及加息概率（CME FedWatch工具）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳指跳涨，油价跌至伊朗战争前水平",
-        "assets": "📈 纳斯达克指数 利好；📉 原油 利空",
-        "chain": "油价下跌缓解通胀压力（物价上涨），利好科技股估值（未来现金流折现），但可能反映需求疲软",
-        "watch": "美国EIA原油库存及OPEC+产量决策"
+        "what": "纳斯达克大涨，油价跌回伊朗战前水平",
+        "assets": "📈 美股科技股 利好; 📉 原油 承压",
+        "chain": "油价下跌缓解通胀预期（物价上涨压力），利好消费和科技股，但可能反映需求疲软",
+        "watch": "美国EIA原油库存及OPEC+产量决议"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX股价连续两日下跌，市值被亚马逊超越",
-        "assets": "📉 SpaceX 利空；📈 亚马逊 利好",
-        "chain": "SpaceX下跌或引发私有市场估值回调（未上市股票定价），拖累太空概念股和IPO情绪",
-        "watch": "SpaceX后续融资估值及发射计划进展"
+        "what": "SpaceX股价连跌两日，市值低于亚马逊",
+        "assets": "📉 SpaceX（未上市但黑市交易）承压; 📈 亚马逊 利好",
+        "chain": "航天股情绪受挫，但亚马逊云业务（AWS）竞争加剧可能分流投资（资金转向），影响太空ETF",
+        "watch": "SpaceX融资估值及Starlink用户增长数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国监管令电网加速供电给AI数据中心",
-        "assets": "📈 公用事业股 利好；📈 电力设备 利好",
-        "chain": "AI算力需求推高电力消耗（能源使用），利好电网升级和可再生能源，但可能推高电价",
-        "watch": "美国数据中心电力合同及电网投资计划"
+        "what": "联邦监管令电网运营商加速为AI数据中心供电",
+        "assets": "📈 公用事业股（电力）利好; 📈 AI相关科技股 利好",
+        "chain": "电力需求激增推高电价，利好核电、天然气供应商，但增加碳排放压力（环境成本）",
+        "watch": "美国能源部电网升级计划及AI数据中心建设进度"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州预期IPO税收收入，但多重因素复杂化",
-        "assets": "📉 加州地方债 承压；📈 科技IPO 中性",
-        "chain": "IPO推迟或估值下降减少税收（政府收入），可能加剧加州财政赤字，影响地方债信用",
-        "watch": "科技公司IPO上市进度及加州财政报告"
+        "what": "加州依赖IPO税收，但多重因素使预测复杂",
+        "assets": "📉 加州地方债 承压; 📉 科技IPO新股 承压",
+        "chain": "IPO延迟或减少导致加州财政缺口（税收不足），可能削减开支或增税，影响当地经济",
+        "watch": "科技公司IPO排队数量及加州预算修正案"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO后平均买家接近亏损",
-        "assets": "📉 SpaceX 承压；📉 科技IPO 情绪利空",
-        "chain": "IPO后股价下跌打击散户信心（投资者情绪），可能压低其他高估值科技公司上市定价",
-        "watch": "SpaceX后续交易量及私募市场报价"
+        "what": "SpaceX散户买家在两天暴跌后接近浮亏",
+        "assets": "📉 SpaceX黑市交易 承压; 📈 二级市场新股 承压",
+        "chain": "散户信心受挫，可能引发恐慌性抛售（卖盘增加），影响未上市公司估值及IPO定价",
+        "watch": "SpaceX员工股票出售平台（如Forge Global）价格"
       }
     },
     {
@@ -95,6 +95,14 @@
     },
     {
       "rank": 8,
+      "title": "Markets are set for a much more hawkish Warsh Fed than expected - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 9,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected",
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
@@ -102,20 +110,12 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SanDisk and Micron surge as Apple confirms memory price pass-through - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "加州指望从IPO税收中获得巨额意外收入，但多重因素让实际税收收益充满变数",
-      "source": "环球市场播报",
-      "detail": "核心要点太空探索技术公司（SpaceX）、开放人工智能研究中心（OpenAI）以及安索帕（Anthropic）的上市，有望为加利福尼亚州带来巨额税收收入。",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
