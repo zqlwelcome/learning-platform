@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 10:05",
+  "updateTime": "2026-06-18 10:11",
   "news": [
     {
       "rank": 1,
@@ -9,24 +9,24 @@
       "lang": "zh",
       "score": 63,
       "insight": {
-        "what": "证监会质疑花物堂IPO，涉及突击入股和经营问题",
-        "assets": "📉 花物堂（半亩花田母公司）股价 承压",
-        "chain": "监管审查趋严，可能推迟IPO或降低估值，影响消费股IPO情绪（首次公开募股）",
-        "watch": "证监会后续问询及IPO审核进展"
+        "what": "花物堂IPO遭证监会质询，聚焦突击入股与跨界经营",
+        "assets": "📉 花物堂（半亩花田母公司）IPO估值 承压",
+        "chain": "监管收紧（审核趋严）→其他消费类拟上市公司（如完美日记）估值可能下调，打新（新股申购）热情降温",
+        "watch": "证监会后续反馈意见及招股书更新"
       }
     },
     {
       "rank": 2,
-      "title": "Futures Rise After Fed Hits Market; These AI Stocks Flash Buy Signals - Investor's Business Daily",
-      "source": "Investor's Business Daily",
+      "title": "Federal Reserve issues FOMC statement - Federal Reserve (.gov)",
+      "source": "Federal Reserve (.gov)",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 60,
+      "score": 41,
       "insight": {
-        "what": "美股期货上涨，AI股出现买入信号",
-        "assets": "📈 美股科技股 利好；📈 AI概念股 利好",
-        "chain": "AI股涨势带动科技板块，资金从防御股转向成长股（高估值高预期股票）",
-        "watch": "AI股成交量及科技板块资金流入"
+        "what": "美联储维持利率不变，FOMC声明偏鹰（暗示未来加息）",
+        "assets": "📈 美元指数 利好；📉 美股 承压；📉 黄金 承压",
+        "chain": "鹰派声明→加息预期升温（借钱成本上升）→美债收益率（债券利息）上行，挤压风险资产（如股票）估值",
+        "watch": "美联储点阵图（利率预测）及鲍威尔讲话措辞"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "美联储决议后，对冲基金买入美元看涨期权",
-        "assets": "📈 美元指数 利好；📉 非美货币（欧元/日元） 承压",
-        "chain": "美元走强压制大宗商品（如黄金），新兴市场资金外流风险",
-        "watch": "美元指数及非美货币汇率变化"
+        "what": "对冲基金在美联储决议后大举买入美元看涨期权（赌美元涨）",
+        "assets": "📈 美元 利好；📉 新兴市场货币 承压",
+        "chain": "美元看涨期权激增→美元流动性收紧（借钱变贵）→新兴市场资金外流（资本流出），人民币等货币贬值压力加大",
+        "watch": "美元指数走势及期权隐含波动率（市场预期波动程度）"
       }
     },
     {
@@ -52,49 +52,57 @@
       "score": 40,
       "insight": {
         "what": "中国大搜车赴美IPO，目标估值9.01亿美元",
-        "assets": "📈 中概股（二手车） 利好；📈 美股IPO市场 情绪偏暖",
-        "chain": "IPO活跃提振中概股板块，但估值低于预期可能拖累同类公司",
-        "watch": "大搜车IPO定价及首日表现"
+        "assets": "📈 中概股二手车板块 利好；📈 美股IPO市场 情绪提振",
+        "chain": "IPO定价（发行价）若成功→带动二手车电商（如瓜子）估值修复，但需警惕中概股监管风险（退市不确定性）",
+        "watch": "发行价及首日涨幅，SEC（美国证监会）对中概股审核动态"
       }
     },
     {
       "rank": 5,
-      "title": "Fed 'dot plot': Almost half of FOMC members project at least one interest rate hike this year - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "美联储点阵图显示近半数成员预计今年至少加息一次",
-        "assets": "📈 美元 利好；📉 美债价格 承压；📉 黄金 承压",
-        "chain": "加息预期推高短端利率（短期国债收益率），打压风险资产（如股票）",
-        "watch": "FOMC（联邦公开市场委员会）下次会议纪要及通胀数据"
-      }
-    },
-    {
-      "rank": 6,
       "title": "沃什首秀引发美债市场剧烈震荡 交易员对美联储加息押注激增",
       "source": "环球市场播报",
       "detail": "凯文·沃什没用多少时间就引起了债券市场的关注。 交易员抛售短期美债，导致部分债券收益率创下一年多来的最大涨幅，期货交易员纷纷押注最早下个月就会加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "沃什首秀引发美债震荡，交易员押注加息",
-        "assets": "📉 美债（长期） 承压；📈 美元 利好",
-        "chain": "加息押注推高收益率曲线（长短期利差），银行股等受益于利率上升",
-        "watch": "沃什后续讲话及美债收益率走势"
+        "what": "沃什（美联储新主席）首秀引发美债剧烈波动，加息押注激增",
+        "assets": "📈 美债收益率（价格下跌） 承压；📈 美元 利好；📉 美股 承压",
+        "chain": "沃什鹰派言论（偏紧缩）→加息概率飙升→长端收益率（长期利率）上行，压制成长股（如科技股）估值",
+        "watch": "沃什后续讲话及CME FedWatch（加息概率工具）数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "美联储新主席没降息，特朗普回应还好：尊重他的判断",
       "source": "环球市场播报",
       "detail": "美国总统特朗普对美联储主席凯文·沃什表达了信心。此前，这位新任央行行长结束了他的首次利率决策会议，决定维持利率不变，同时美联储公布的利率预期点阵图显示...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "特朗普回应美联储新主席未降息：尊重其判断",
+        "assets": "📈 美元 稳定；📈 美股 情绪缓和",
+        "chain": "特朗普不施压（不干预）→美联储独立性（自主决策）获确认，市场减少政策不确定性（风险溢价降低）",
+        "watch": "特朗普后续对美联储政策的任何评论"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "存储芯片涨价潮延续！港股半导体板块逆市上涨，兆易创新股价创历史新高",
+      "source": "新浪港股",
+      "detail": "港股半导体板块逆市上涨，兆易创新盘中涨9%股价创历史新高，英诺赛科、天数智芯涨超7%，澜起科技、纳芯微涨超5%。 消息面上，根据ComputerBase对内存...",
+      "lang": "zh",
+      "score": 35
     },
     {
       "rank": 8,
+      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Nikkei hits 71,000 for the first time: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 9,
       "title": "日韩股市齐创新高，日元创近两年新低，现货黄金向上触及4300美元",
       "source": "市场资讯",
       "detail": "文章来源：华尔街见闻 日韩股市双双刷新历史纪录，日经225指数首破71000点，韩国Kospi逼近9000关口；与此同时，日元跌至近两年低位，干预风险升温。",
@@ -102,18 +110,10 @@
       "score": 34
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
-      "source": "CNBC",
-      "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
       "lang": "en",
       "score": 33
     }
