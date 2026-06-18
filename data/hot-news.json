@@ -1,100 +1,86 @@
 {
-  "updateTime": "2026-06-19 06:35",
+  "updateTime": "2026-06-19 06:41",
   "news": [
     {
       "rank": 1,
-      "title": "Stock market today: Dow, S&P 500, Nasdaq rally as Iran deal optimism offsets Fed hike worries - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 60,
-      "insight": {
-        "what": "伊朗和谈乐观情绪盖过加息担忧，美股反弹",
-        "assets": "📈 美股大盘 利好；📉 原油 承压",
-        "chain": "伊朗供应增加预期打压油价（能源成本降低），缓解通胀（物价上涨），减弱美联储加息（借钱成本上升）动机",
-        "watch": "伊朗核协议谈判进展及WTI原油（西德克萨斯中质原油）库存数据"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "文章探讨SpaceX IPO（首次公开募股）投资策略",
-        "assets": "📈 SpaceX相关概念股 中性偏多",
-        "chain": "IPO热度可能带动太空经济板块估值（公司市值）重估，但需警惕二级市场（股票交易市场）溢价风险",
-        "watch": "SpaceX官方IPO时间表及估值变化"
+        "what": "SpaceX IPO后股价连续两日下跌，新买家接近亏损",
+        "assets": "📉 美股太空概念股 承压\n📉 未上市科技公司估值 下行风险",
+        "chain": "IPO狂热退潮→散户情绪降温→科技股估值承压（P/E倍数压缩）",
+        "watch": "SpaceX能否守住发行价；后续锁定期解禁（股东可卖出）抛压"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好；📉 美光 利空；📈 半导体板块 分化",
-        "chain": "AI（人工智能）芯片需求分化：英伟达受益于AI算力（计算能力）爆发，美光面临存储芯片（内存）周期下行压力",
-        "watch": "英伟达数据中心营收及美光DRAM（动态随机存取存储器）价格走势"
+        "what": "分析师建议买入英伟达卖出美光",
+        "assets": "📈 英伟达 利好\n📉 美光 承压",
+        "chain": "AI芯片需求分化→英伟达主导AI训练（模型学习）市场→美光受存储芯片（数据记忆部件）周期拖累",
+        "watch": "英伟达财报指引（未来业绩预测）；美光库存数据"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices — Live Updates - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "纳斯达克大涨，原油价格跌回伊朗冲突前水平",
+        "assets": "📈 美股科技股 利好\n📉 原油 承压",
+        "chain": "地缘溢价（战争风险附加价）消退→油价下跌→通胀预期（物价上涨预期）降温→降息预期（借钱成本降低）升温→科技股受益",
+        "watch": "WTI原油（美国西得州轻质原油）是否跌破70美元；美联储官员讲话"
       }
     },
     {
       "rank": 4,
-      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "联邦监管机构要求电网运营商加速为AI数据中心供电",
-        "assets": "📈 公用事业股 利好；📈 核电/天然气 利好",
-        "chain": "AI电力需求激增推高能源消费，利好电力基础设施（发电输电）投资，但可能推升电价",
-        "watch": "美国能源部电力需求预测及可再生能源项目审批进度"
-      }
-    },
-    {
-      "rank": 5,
       "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX股价下跌，IPO后狂热消退",
-        "assets": "📉 SpaceX估值 承压；📉 太空概念股 利空",
-        "chain": "IPO溢价（上市后超涨部分）回吐，反映市场对太空公司盈利前景（赚钱能力）重新定价，可能拖累同类未上市企业估值",
-        "watch": "SpaceX发射任务订单量及二级市场交易量变化"
+        "what": "加州依赖IPO税收收入，但多重因素使预期复杂化",
+        "assets": "📉 加州市政债券 承压\n📉 美股科技IPO 不确定性",
+        "chain": "IPO税（上市交易税）收入不及预期→加州财政赤字（支出>收入）扩大→可能加税或削减开支→地方经济放缓",
+        "watch": "加州预算修正案；大型科技公司IPO进度（如Stripe）"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州依赖IPO税收收入，但多重因素使情况复杂",
-        "assets": "📉 加州地方债 承压；📉 科技IPO 不确定性",
-        "chain": "IPO推迟或减少将导致加州税收缺口（政府收入不足），可能引发预算削减（政府支出减少），影响科技企业营商环境（经营环境）",
-        "watch": "加州季度税收数据及主要科技公司IPO计划更新"
-      }
+      "score": 35
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "华尔街指南：如何投资SpaceX IPO及后续机会",
+        "assets": "📈 太空经济ETF（交易所交易基金） 关注\n📈 私募股权（非公开公司投资） 关注",
+        "chain": "散户无法直接买SpaceX→转向太空主题ETF→推高相关上市卫星公司股价",
+        "watch": "SpaceX二级市场（非公开交易）价格；Rocket Lab等可比公司股价"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
@@ -102,7 +88,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -110,10 +96,18 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Mortgage Rates Spike in Response to Fed - Mortgage News Daily",
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
+      "source": "CNBC",
+      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
       "score": 33
     }
