@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 03:51",
+  "updateTime": "2026-06-19 03:52",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价两日下跌，IPO后买家接近亏损",
+        "assets": "SpaceX股票（看跌）",
+        "chain": "散户信心受挫→可能引发更大抛售→估值回调",
+        "watch": "SpaceX是否发布基本面更新"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期Warsh任美联储主席将更鹰派",
+        "assets": "美元（看涨）、美债收益率（看涨）、黄金（看跌）、美股（看跌）",
+        "chain": "鹰派预期→加息加速→流动性收紧→风险资产承压",
+        "watch": "Warsh政策表态及FOMC会议纪要"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX股价连涨三日后回落",
+        "assets": "SpaceX股票（看跌）",
+        "chain": "获利回吐→短期调整→可能测试前低支撑",
+        "watch": "成交量变化及关键价位突破情况"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "苹果确认内存涨价传导，SanDisk和美光大涨",
+        "assets": "SanDisk（看涨）、美光（看涨）、苹果（中性偏弱）、内存板块（看涨）",
+        "chain": "成本转嫁→存储芯片议价能力增强→行业利润修复→带动半导体ETF",
+        "watch": "苹果后续产品定价及DRAM/NAND现货价格"
+      }
     }
   ]
 }
