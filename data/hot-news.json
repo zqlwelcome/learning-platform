@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 22:26",
+  "updateTime": "2026-06-18 22:29",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州预计IPO税收大增，但多重因素干扰",
+        "assets": "美股科技股（利空），加州地方债（利空）",
+        "chain": "IPO不及预期→税收缺口→州财政紧缩→科技公司运营成本上升",
+        "watch": "加州实际IPO数量和税收数据"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "新任美联储主席Warsh的工作组揭示政策方向",
+        "assets": "美元指数（利多），美债收益率（上行）",
+        "chain": "Warsh鹰派工作组→市场解读为紧缩信号→短期利率预期上升→美元走强",
+        "watch": "工作组具体政策建议和后续会议纪要"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh首次会议五大要点：强调通胀和独立性",
+        "assets": "美股（利空），黄金（利空），美元（利多）",
+        "chain": "鹰派基调→加息预期升温→风险资产承压→避险资金流向美元",
+        "watch": "下次FOMC会议点阵图和通胀数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Accenture",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "埃森哲推端到端网络安全平台应对AI威胁",
+        "assets": "网络安全股（利多），科技股（中性偏多）",
+        "chain": "AI攻击激增→企业安全支出刚性→埃森哲订单增长→板块估值提升",
+        "watch": "网络安全ETF资金流向和埃森哲财报"
+      }
     }
   ]
 }
