@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-18 17:20",
+  "updateTime": "2026-06-18 17:26",
   "news": [
     {
       "rank": 1,
-      "title": "India’s largest stock exchange files for IPO as mega-listings gather pace",
-      "source": "CNBC",
-      "detail": "India's largest stock exchange sets the ball rolling for mega IPOs this year as it files papers to go public.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "印度最大交易所申请IPO，大型上市潮加速",
-        "assets": "📈 印度股市 利好",
-        "chain": "推高印度市场估值（PE倍数），吸引全球资金流入新兴市场（资本流入）",
-        "watch": "印度IPO定价及首日表现"
-      }
-    },
-    {
-      "rank": 2,
       "title": "U.S.-Iran deal sparks record highs for Asian stocks, drags on oil - Reuters",
       "source": "Reuters",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "美伊协议推动亚洲股市创新高，油价承压",
-        "assets": "📈 亚洲股市 利好\n📉 原油 承压",
-        "chain": "地缘风险溢价（战争风险补偿）消退，油价下跌利好交通运输和制造业（成本下降）",
-        "watch": "伊朗原油出口量变化及协议细节"
+        "what": "美伊协议推动亚洲股市创纪录新高，油价承压",
+        "assets": "📈 亚洲股市 利好，📉 原油 承压",
+        "chain": "地缘风险溢价消退，资金从避险资产（如黄金）流向风险资产（股票），能源股可能回调",
+        "watch": "WTI原油期货价格及中东后续协议执行情况"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "业内人士：黄金短期走势仍将受美联储货币政策、通胀变化及地缘政治等因素影响",
       "source": "e公司",
       "detail": " 人民财讯6月18日电，近期国际金价在经历大幅波动后有所企稳，国际黄金期货重新站上4300美元/盎司关口，引发市场对黄金资产配置价值的再度关注。",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "黄金短期走势受美联储政策、通胀和地缘政治影响",
+        "what": "业内人士称黄金短期受美联储政策、通胀和地缘因素影响",
         "assets": "📈 黄金 中性偏多",
-        "chain": "若美联储鸽派（偏向宽松）或通胀超预期，黄金避险需求（保值功能）上升",
-        "watch": "下周美联储会议纪要及CPI数据"
+        "chain": "若美联储鹰派（倾向加息）则利空黄金，通胀高企（物价上涨）支撑金价，地缘风险提供避险买盘",
+        "watch": "美联储下次会议声明及美国CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "挪威央行维持基准利率不变 暗示今年或再次加息",
       "source": "环球市场播报",
       "detail": "挪威央行维持基准利率不变，但试图为进一步收紧政策做铺垫，以缓解该地区高涨的通胀压力。 挪威央行周四将存款利率维持在4.25%，与彭博调查的17位分析师预期一致。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "挪威央行维持利率不变，暗示今年可能再加息",
-        "assets": "📈 挪威克朗 利好\n📈 北欧债券 承压",
-        "chain": "加息预期（借钱成本上升）推高克朗汇率，压制债券价格（利率与价格反向）",
-        "watch": "挪威通胀数据及下次利率决议"
+        "what": "挪威央行维持利率不变，暗示今年可能再次加息",
+        "assets": "📈 挪威克朗 利好，📉 挪威国债 承压",
+        "chain": "暗示加息支撑本币，但紧缩预期（借钱成本将上升）会抑制经济活动和股市",
+        "watch": "挪威下次利率决议及通胀数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "美联储暗示2026年可能加息，美股期指上涨",
-        "assets": "📈 美股期指 利好\n📉 长期美债 承压",
-        "chain": "远期加息预期（未来借钱成本上升）压低长债价格，股市因短期宽松预期（流动性充裕）上涨",
-        "watch": "今晚美股开盘及2年期/10年期美债利差"
+        "what": "美联储暗示2026年可能加息，美股期货上涨，韩国Kospi首破9000点",
+        "assets": "📈 美股期货 利好，📈 韩国Kospi 利好",
+        "chain": "远期加息预期短期被市场消化为经济强劲信号，资金涌入风险资产，新兴市场跟涨",
+        "watch": "美联储点阵图（利率预测）及下次会议措辞"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "美联储暗示2026年可能加息，韩国KOSPI首次突破9000点",
-        "assets": "📈 韩国股市 利好\n📉 美元/韩元 承压",
-        "chain": "韩国出口导向型经济受益于全球宽松（流动性充裕），韩元走强（货币升值）",
-        "watch": "韩国出口数据及外资流入规模"
+        "what": "美联储暗示2026年可能加息，美股期货上涨，韩国Kospi首破9000点",
+        "assets": "📈 美股期货 利好，📈 韩国Kospi 利好",
+        "chain": "远期加息预期被解读为经济过热需降温，但短期流动性充裕（资金多）推动股市",
+        "watch": "美国非农就业数据及美联储官员后续讲话"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "美股三大期指全线走高，存储芯片盘前大涨，英特尔涨超9%，三倍做多半导体ETF飙涨11%",
       "source": "21世纪经济报道",
       "detail": "6月18日下午，美股三大指数期货全线上涨，截至17点，道指期货涨0.42%，纳指期货涨1.36%，标普500指数期货涨0.77%。 美股半导体及存储概念股在盘前全面走高：英特尔涨超9%...",
       "lang": "zh",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "美股三大期指走高，存储芯片盘前大涨，英特尔涨超9%，三倍做多半导体ETF涨11%",
+        "assets": "📈 美股科技股 利好，📈 半导体板块 利好",
+        "chain": "芯片需求预期回暖，带动科技权重股，资金轮动（从防御转进攻）至成长股（高估值高增长股）",
+        "watch": "英伟达等龙头股财报及半导体行业订单数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
@@ -102,20 +94,28 @@
       "score": 33
     },
     {
-      "rank": 9,
-      "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
+      "rank": 8,
+      "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
-      "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
+      "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "沃什首次参会，美联储维持利率不变",
       "source": "环球市场播报",
       "detail": " 美联储本次会议维持利率不变，官员们已做好应对借贷成本进一步走高的准备。这是沃什出任美联储主席后的首次议息会议，整场会议的核心议题围绕通胀担忧展开。",
       "lang": "zh",
       "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
+      "source": "CNBC",
+      "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
