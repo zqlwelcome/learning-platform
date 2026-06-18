@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 00:26",
+  "updateTime": "2026-06-19 00:31",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 62,
       "insight": {
         "what": "股市反弹，油价下跌，芯片股领涨",
-        "assets": "📈 美股科技股 利好；📉 原油期货 承压",
-        "chain": "油价降缓解通胀（物价上涨），科技股受益于降息预期（借钱成本降低）",
-        "watch": "今晚美油库存数据及美联储官员讲话"
+        "assets": "📈 美股科技股 利好；📉 原油 承压",
+        "chain": "油价下跌缓解通胀预期（物价上涨压力），削弱美联储鹰派（倾向加息）立场，利好风险资产",
+        "watch": "EIA（美国能源信息署）原油库存数据"
       }
     },
     {
@@ -23,24 +23,24 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元走强，因美联储鹰派信号（偏紧缩）",
-        "assets": "📈 美元指数 利好；📉 非美货币（如欧元）承压",
-        "chain": "美元走强压制大宗商品（以美元计价），新兴市场资金外流（资本流出）",
-        "watch": "今晚美国PMI（采购经理人指数）数据"
+        "what": "美国监管支持特朗普加速AI数据中心供电计划",
+        "assets": "📈 AI概念股 利好；📈 公用事业股 利好",
+        "chain": "电力需求激增推动核电、天然气等能源基建投资，电网升级利好电力设备商",
+        "watch": "FERC（联邦能源监管委员会）具体审批进度"
       }
     },
     {
       "rank": 3,
-      "title": "Oil prices fall, stocks rally as US, Iran sign framework to end war - Al Jazeera",
-      "source": "Al Jazeera",
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices - WSJ",
+      "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 44,
+      "score": 39,
       "insight": {
-        "what": "美伊框架协议推动油价跌、股市涨",
-        "assets": "📈 全球股指 利好；📉 原油期货 承压",
-        "chain": "地缘风险（战争风险）溢价消退，能源股获利回吐，运输成本降低",
-        "watch": "协议签署细节及伊朗出口数据"
+        "what": "纳斯达克大涨，油价接近伊朗冲突前水平",
+        "assets": "📈 纳斯达克 利好；📉 能源股 承压",
+        "chain": "油价回落降低企业成本（特别是运输和制造业），提振科技等成长股估值（未来现金流折现价值）",
+        "watch": "中东地缘政治局势及OPEC（石油输出国组织）产量政策"
       }
     },
     {
@@ -51,42 +51,44 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美监管机构支持特朗普为AI数据中心加速供电",
-        "assets": "📈 AI芯片股 利好；📈 电力公用事业 利好",
-        "chain": "AI算力需求（计算能力）拉动电力基建投资，半导体订单增加",
-        "watch": "下周AI公司资本开支（资本支出）指引"
+        "what": "美元因美联储鹰派信号持续走强",
+        "assets": "📈 美元 利好；📉 新兴市场货币 承压",
+        "chain": "美元走强压制大宗商品（如石油、金属）价格，新兴市场资本外流（资金流出）风险上升",
+        "watch": "美联储官员讲话及点阵图（利率预测）变化"
       }
     },
     {
       "rank": 5,
-      "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
-      "source": "环球市场播报",
-      "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
-      "lang": "zh",
-      "score": 36,
+      "title": "Federal regulators back Trump's plan to speed power to energy-hungry AI data centers",
+      "source": "CNBC",
+      "detail": "As tech companies and developers welcome faster power supply connections, states and operators worry that the plan would dim their authority.",
+      "lang": "en",
+      "score": 38,
       "insight": {
-        "what": "策略师Yardeni称美联储可能加息",
-        "assets": "📉 美债（债券） 承压；📉 美股成长股 利空",
-        "chain": "加息预期（借钱成本上升）压制估值（股票价值），美元走强",
-        "watch": "本周五核心PCE（个人消费支出物价指数）数据"
+        "what": "策略师Yardeni警告美联储可能加息",
+        "assets": "📉 美债 承压；📉 美股 承压",
+        "chain": "加息预期推高长端利率（长期借贷成本），压制股市估值并提升企业融资成本",
+        "watch": "美国CPI（消费者物价指数）及PCE（个人消费支出）数据"
       }
     },
     {
       "rank": 6,
+      "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
+      "source": "环球市场播报",
+      "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 7,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普解雇美联储理事Cook致其法律安保费超百万",
-        "assets": "📉 美元 承压；📉 美联储独立性 受损",
-        "chain": "政治干预央行（中央银行）削弱市场信心，长期推高通胀预期（物价上涨预期）",
-        "watch": "其他美联储理事辞职风险及国会听证"
-      }
+      "score": 35
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Mortgage Rates Spike in Response to Fed - Mortgage News Daily",
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -94,7 +96,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
@@ -102,20 +104,12 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
       "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "加州指望从IPO税收中获得巨额意外收入，但多重因素让实际税收收益充满变数",
-      "source": "环球市场播报",
-      "detail": "核心要点太空探索技术公司（SpaceX）、开放人工智能研究中心（OpenAI）以及安索帕（Anthropic）的上市，有望为加利福尼亚州带来巨额税收收入。",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
