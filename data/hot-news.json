@@ -1,60 +1,60 @@
 {
-  "updateTime": "2026-06-19 05:45",
+  "updateTime": "2026-06-19 05:51",
   "news": [
     {
       "rank": 1,
-      "title": "Stocks market today: Dow, S&P 500, Nasdaq rally amid Iran deal optimism as AI chip trade reignites - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "美股三大指数因伊朗协议乐观情绪和AI芯片交易回暖而上涨",
-        "assets": "📈 美股大盘 利好",
-        "chain": "避险情绪降温，资金从黄金流向股市，科技股领涨（风险偏好回升）",
-        "watch": "伊朗协议谈判进展及AI芯片龙头财报"
-      }
-    },
-    {
-      "rank": 2,
       "title": "美元延续涨势 美联储鹰派信号提振加息押注",
       "source": "环球市场播报",
       "detail": "美元连续第二天延续涨势，重新迈向3月下旬的高点，交易员纷纷押注美联储最早将于下月底开始加息。 这一进展推动彭博美元指数较周三美联储举行会议前走高约1%。",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号和加息押注而延续涨势",
-        "assets": "📈 美元指数 利好\n📉 新兴市场货币 承压",
-        "chain": "美元走强压制大宗商品（如黄金、原油）价格，新兴市场资本外流风险加大",
-        "watch": "美联储6月议息会议点阵图及通胀数据"
+        "what": "美元因美联储鹰派信号走强，加息押注升温",
+        "assets": "📈 美元指数 利好; 📉 黄金 承压; 📉 美股科技股 利空",
+        "chain": "美元走强→新兴市场资本外流（资金流出）→大宗商品（以美元计价）价格下跌",
+        "watch": "本周美联储官员讲话及非农就业数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，但上市后两日股价下跌",
-        "assets": "📈 SpaceX未上市股权 中性\n📉 二级市场新股 承压",
-        "chain": "IPO热度降温，投资者需关注估值消化，可能拖累其他科技新股发行节奏",
-        "watch": "SpaceX二次上市及散户认购数据"
+        "what": "SpaceX IPO投资指南发布，但上市后股价两日下跌",
+        "assets": "📈 太空概念股 中性; 📉 SpaceX估值 承压",
+        "chain": "IPO热度高→散户追高→短期回调风险（回撤）→影响私人市场估值",
+        "watch": "SpaceX上市后锁定期解禁及后续财报"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices — Live Updates - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "纳斯达克上涨，油价跌至伊朗冲突前水平",
+        "assets": "📈 纳斯达克指数 利好; 📉 原油 承压",
+        "chain": "油价下跌→通胀预期降温→降息（借钱成本降低）预期升温→科技股受益",
+        "watch": "OPEC+产量决议及美国EIA原油库存数据"
       }
     },
     {
       "rank": 4,
-      "title": "Why Apple Price Hikes Are Sending Micron Stock Toward a Record High - Barron's",
-      "source": "Barron's",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
+      "source": "AP News",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 44,
+      "score": 38,
       "insight": {
-        "what": "苹果提价推动美光股价逼近历史新高",
-        "assets": "📈 美光科技 利好\n📈 半导体板块 利好",
-        "chain": "苹果提价反映需求韧性，存储芯片（如DRAM）价格跟涨，供应链利润预期上调",
-        "watch": "苹果下一代iPhone出货量及美光财报指引"
+        "what": "联邦监管机构要求电网运营商加快为AI数据中心供电",
+        "assets": "📈 新能源电力股 利好; 📈 AI算力基建 利好",
+        "chain": "电力需求激增→电网升级投资→新能源发电（如光伏、风能）与储能需求上升",
+        "watch": "美国能源部电网投资计划及AI数据中心建设进度"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收但面临多重因素干扰",
-        "assets": "📉 加州地方债 承压",
-        "chain": "IPO税收不及预期将加剧州财政赤字，可能推高地方债收益率（发债成本上升）",
-        "watch": "加州预算修正案及主要科技公司上市进度"
+        "what": "加州依赖IPO税收，但多重因素使预测复杂",
+        "assets": "📈 加州地方债券 承压; 📉 科技初创企业 中性偏空",
+        "chain": "IPO税收低于预期→州财政缺口→削减公共支出或增税→科技企业成本上升",
+        "watch": "加州Q2税收数据及大型科技公司IPO进展"
       }
     },
     {
@@ -77,7 +77,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后普通买家两日亏损，接近浮亏",
+        "assets": "📉 SpaceX股票 承压; 📉 太空概念ETF 利空",
+        "chain": "散户亏损→市场情绪转悲观→抑制后续科技IPO需求（上市融资意愿降低）",
+        "watch": "SpaceX股价是否跌破发行价及机构持仓变化"
+      }
     },
     {
       "rank": 7,
