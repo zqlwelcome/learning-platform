@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 20:50",
+  "updateTime": "2026-06-18 20:52",
   "news": [
     {
       "rank": 1,
@@ -87,35 +87,45 @@
     },
     {
       "rank": 7,
-      "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
-      "source": "CNBC",
-      "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 8,
       "title": "亚马逊高性价比AI芯片产品深受企业青睐",
       "source": "环球市场播报",
       "detail": "对于正在为自有数据中心甄选 AI 服务器芯片的企业而言，相比英伟达，亚马逊拥有一大核心优势：价格。 爱尔兰咨询机构 Co Driver Labs 专注为企业提供 AI...",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "亚马逊AI芯片受企业青睐，性价比高",
+        "assets": "做多AMZN、做多AI芯片股（如NVDA替代风险）",
+        "chain": "亚马逊芯片抢占市场份额→AI算力成本下降→科技股估值提升",
+        "watch": "亚马逊芯片订单量及客户采用率"
+      }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "ETF日报：我们认为此轮AI是二十年以上周期的科技革命，半导体产业此轮成长的机会也是史诗级的",
       "source": "新浪基金",
       "detail": "三大指数涨跌不一，沪深两市成交额3.31万亿，较上一个交易日放量2183亿。截至收盘，沪指跌0.43%，深成指涨0.94%，创业板指涨2.05%。",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "ETF日报称AI为二十年周期科技革命",
+        "assets": "做多半导体ETF（SMH）、做多AI概念股",
+        "chain": "长期叙事吸引资金流入→半导体需求持续增长→产业链溢价",
+        "watch": "半导体行业资本支出及AI应用落地速度"
+      }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Bank of England holds interest rates at 3.75% amid Iran war peace prospects - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 20
+      "score": 20,
+      "insight": {
+        "what": "英央行维持利率3.75%，伊朗和平前景",
+        "assets": "做多英债、做空英镑、做多原油（和平预期压制）",
+        "chain": "利率不变→英镑承压→伊朗和平降低地缘风险→油价下行",
+        "watch": "英国通胀数据及伊朗谈判进展"
+      }
     }
   ]
 }
