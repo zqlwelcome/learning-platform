@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 05:05",
+  "updateTime": "2026-06-19 05:11",
   "news": [
     {
       "rank": 1,
@@ -9,92 +9,84 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "伊核协议乐观情绪推动美股三大指数反弹",
-        "assets": "📈 美股大盘 利好；📉 原油 承压",
-        "chain": "风险偏好回升（投资者愿意买风险资产）→资金从避险资产（如美债）流出→美债收益率上行",
-        "watch": "伊核谈判进展及下周美联储会议纪要"
+        "what": "伊朗协议乐观情绪推动美股上涨",
+        "assets": "📈 美股大盘 利好；📈 能源板块 承压",
+        "chain": "伊朗供应恢复→油价预期下行→缓解通胀压力→降低加息概率（借钱成本预期下降）",
+        "watch": "伊朗核谈判进展及EIA（美国能源信息署）原油库存"
       }
     },
     {
       "rank": 2,
-      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program - Federal Reserve (.gov)",
-      "source": "Federal Reserve (.gov)",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 51,
-      "insight": {
-        "what": "美联储要求稳定币发行人实施客户身份识别",
-        "assets": "📉 加密货币 利空；📈 美元 利好",
-        "chain": "监管收紧→稳定币发行成本上升→资金可能回流法币（美元）→加密市场流动性承压",
-        "watch": "美联储最终规则落地时间及合规成本"
-      }
-    },
-    {
-      "rank": 3,
       "title": "美元延续涨势 美联储鹰派信号提振加息押注",
       "source": "环球市场播报",
       "detail": "美元连续第二天延续涨势，重新迈向3月下旬的高点，交易员纷纷押注美联储最早将于下月底开始加息。 这一进展推动彭博美元指数较周三美联储举行会议前走高约1%。",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元走强因美联储鹰派信号强化加息押注",
-        "assets": "📈 美元 利好；📉 新兴市场货币 承压；📉 黄金 承压",
-        "chain": "加息预期（借钱成本更高）→美元升值→新兴市场资本外流（资金流出新兴市场）→大宗商品价格下行",
-        "watch": "本周美联储官员讲话及非农就业数据"
+        "what": "美联储鹰派信号提振加息押注，美元走强",
+        "assets": "📈 美元指数 利好；📉 新兴市场货币 承压",
+        "chain": "加息预期升温→美元资产吸引力上升→资本回流美国→新兴市场面临外流压力（资金外逃）",
+        "watch": "本周五PCE（个人消费支出物价指数）数据及鲍威尔讲话"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
       "source": "CNBC",
       "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX市值连续两日下跌，被亚马逊反超",
-        "assets": "📉 SpaceX（未上市股票） 利空；📉 航天板块 承压",
-        "chain": "竞争加剧→SpaceX估值下修→可能影响其融资成本（借钱更贵）→拖累私人航天赛道情绪",
-        "watch": "SpaceX下一轮融资估值及星舰发射时间表"
+        "what": "SpaceX连续两日下跌，市值被亚马逊超越",
+        "assets": "📉 SpaceX 利空；📈 亚马逊（AMZN） 相对利好",
+        "chain": "估值回调→科技成长股风险偏好下降→可能拖累相关卫星/航天板块（如ASTS）",
+        "watch": "SpaceX后续融资估值及财报季科技股表现"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦监管要求电网运营商加速为AI数据中心供电",
-        "assets": "📈 电力公用事业 利好；📈 AI算力 利好；📈 核能/天然气 利好",
-        "chain": "电力需求激增→电网建设加速→上游设备商（变压器、电缆）订单增加→电价可能上行",
-        "watch": "美国电网投资计划及AI数据中心资本开支指引"
+        "what": "联邦监管机构要求电网运营商加速为AI数据中心供电",
+        "assets": "📈 AI算力板块 利好；📈 电力基建股 利好",
+        "chain": "AI需求激增→电力瓶颈缓解→加速数据中心建设→利好芯片（NVDA）及电力设备（GEV）",
+        "watch": "FERC（联邦能源监管委员会）具体执行时间表及电力招标结果"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收但多重因素使收入不确定",
-        "assets": "📉 加州政府债券 承压；📉 科技IPO板块 利空",
-        "chain": "IPO延迟（新股上市推迟）→州财政收入不及预期→可能削减开支或增税→影响当地经济",
-        "watch": "加州财政预算修正案及大型科技公司IPO进展"
+        "what": "加州依赖IPO税收，但多个因素使前景复杂",
+        "assets": "📉 加州政府财政 承压；📈 美股IPO市场 中性偏空",
+        "chain": "IPO延迟→税收缺口→州支出削减或加税→可能影响科技企业营商环境",
+        "watch": "高估值科技公司（如Stripe）上市时间表及SEC（美国证监会）监管政策"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX散户买家在连续下跌后接近亏损",
+        "assets": "📉 SpaceX 利空；📉 散户情绪 承压",
+        "chain": "散户浮亏→减少风险敞口→可能抛售其他高beta（高波动）科技股→引发连锁反应",
+        "watch": "SpaceX二级市场交易量及科技股散户持仓变化"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
@@ -102,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -110,12 +102,20 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected",
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
       "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "White House talks with Anthropic shift to setting AI security rules - Politico",
+      "source": "Politico",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
