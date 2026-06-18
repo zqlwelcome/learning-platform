@@ -1,92 +1,94 @@
 {
-  "updateTime": "2026-06-18 18:15",
+  "updateTime": "2026-06-18 18:21",
   "news": [
     {
       "rank": 1,
+      "title": "Fed’s Warsh Rocks Bond Market in Debut, Sparks Surge in Rate-Hike Bets - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 48,
+      "insight": {
+        "what": "ST赛隆退市不影响投资者索赔进程",
+        "assets": "📉 *ST赛隆 利空（退市）, 📈 其他问题股 承压（警惕退市风险）",
+        "chain": "退市常态化压制垃圾股（低质量股票）估值，但索赔机制完善利好投资者保护，资金可能流向蓝筹股（优质大盘股）",
+        "watch": "退市股索赔进度及监管层对问题公司的问询函"
+      }
+    },
+    {
+      "rank": 2,
       "title": "挪威央行维持基准利率不变 暗示今年或再次加息",
       "source": "环球市场播报",
       "detail": "挪威央行维持基准利率不变，但试图为进一步收紧政策做铺垫，以缓解该地区高涨的通胀压力。 挪威央行周四将存款利率维持在4.25%，与彭博调查的17位分析师预期一致。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "挪威央行维持利率不变，暗示今年可能加息",
-        "assets": "📈 挪威克朗 利好",
-        "chain": "加息预期推升克朗，压低通胀预期，欧债或受连带影响（利率联动）",
-        "watch": "挪威CPI数据及央行下次会议声明"
+        "what": "Warsh首次会议五大要点：鹰派（倾向加息）转向信号明确",
+        "assets": "📉 美债 承压, 📈 美元 走强, 📉 黄金 承压",
+        "chain": "鹰派信号推高实际利率（剔除通胀的利率），利空无息资产（如黄金），资金从新兴市场回流美元资产",
+        "watch": "Warsh后续讲话措辞及点阵图（利率预测图）中位数变化"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "美联储暗示2026年可能加息，美股期货上涨",
-        "assets": "📈 美股期货 短期利好，📉 美债 承压",
-        "chain": "远期加息预期压制长端债券价格，但短期流动性宽松支撑风险资产（风险偏好提升）",
-        "watch": "美联储官员讲话及就业/通胀数据"
+        "what": "挪威央行维持利率不变但暗示年内可能加息",
+        "assets": "📈 挪威克朗 利好, 📉 挪威主权债 承压",
+        "chain": "暗示加息推高克朗汇率，压制挪威股市（借贷成本上升），但利好银行股（净息差改善）",
+        "watch": "挪威CPI（消费者物价指数）数据及央行下次会议声明"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "Kospi首次突破9000点",
-        "assets": "📈 韩国Kospi指数 利好",
-        "chain": "外资涌入推高韩元，半导体出口股领涨，亚洲新兴市场或跟涨（资金轮动）",
-        "watch": "韩国出口数据及外资流向"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "*ST赛隆告别A股，退市不影响索赔",
-      "source": "市场资讯",
-      "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
-      "lang": "zh",
-      "score": 33,
-      "insight": {
-        "what": "*ST赛隆退市，不影响索赔",
-        "assets": "📉 A股ST板块 承压",
-        "chain": "退市常态化打击炒壳（重组炒作），资金转向蓝筹，维权成本上升（诉讼风险）",
-        "watch": "退市新规执行力度及索赔案例"
+        "what": "美联储暗示2026年可能加息，美股期货上涨且韩国Kospi创新高",
+        "assets": "📈 美股期货 利好, 📈 韩国Kospi 利好",
+        "chain": "远期加息暗示经济强劲，风险偏好（投资意愿）上升，资金从债市流入股市，新兴市场（如韩国）受益于全球增长预期",
+        "watch": "美国非农就业（就业人数变化）及韩国出口数据"
       }
     },
     {
       "rank": 5,
+      "title": "*ST赛隆告别A股，退市不影响索赔",
+      "source": "市场资讯",
+      "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
+      "lang": "zh",
+      "score": 33
+    },
+    {
+      "rank": 6,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "Kevin Warsh首次美联储会议五大要点",
-        "assets": "📈 美元 利好",
-        "chain": "Warsh偏鹰派（倾向加息），市场重估2026年加息路径，利空高估值成长股",
-        "watch": "Warsh后续讲话及FOMC（联邦公开市场委员会）点阵图"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
-      "source": "CNBC",
-      "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Gundlach称Warsh不会成为‘宽松钱’主席",
-        "assets": "📉 美股成长股 承压",
-        "chain": "鹰派预期压低科技股估值，美元走强，新兴市场资金外流（套利交易平仓）",
-        "watch": "美债收益率曲线及科技股财报"
+        "what": "新任美联储主席Warsh首次会议引发加息预期飙升",
+        "assets": "📉 美债（美国国债） 承压, 📈 美元 走强",
+        "chain": "加息预期推高短端利率（短期债券收益率），利空成长股（高估值股票），利好银行股（净息差扩大）",
+        "watch": "FedWatch工具（利率期货隐含概率）显示的加息概率变化"
       }
     },
     {
       "rank": 7,
+      "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
+      "source": "CNBC",
+      "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 8,
       "title": "Asia stocks rise with Nikkei, KOSPI at record highs as US, Iran sign peace deal - Investing.com",
       "source": "Investing.com",
       "detail": "国际财经动态，关注后续发展。",
@@ -94,18 +96,10 @@
       "score": 32
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
       "source": "CNBC",
       "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 9,
-      "title": "Allbirds continues AI pivot with name change and CEO hire, sending stock soaring",
-      "source": "CNBC",
-      "detail": "Allbirds became NewBird AI in April and said it would trade shoes for AI compute infrastructure.",
       "lang": "en",
       "score": 32
     },
