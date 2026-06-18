@@ -1,22 +1,36 @@
 {
-  "updateTime": "2026-06-19 07:01",
+  "updateTime": "2026-06-19 07:06",
   "news": [
     {
       "rank": 1,
+      "title": "Stock market today: Dow, S&P 500, Nasdaq rally as Iran deal optimism offsets Fed hike worries - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 60,
+      "insight": {
+        "what": "伊朗和谈预期提振风险偏好，美股三大指数反弹",
+        "assets": "📈 美股大盘 利好\n📉 原油 承压",
+        "chain": "油价下跌→通胀预期降温→美债收益率回落→科技股估值压力缓解",
+        "watch": "伊朗核协议进展及WTI原油价格"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后股价暴跌24%，散户浮亏",
-        "assets": "📉 SpaceX 利空",
-        "chain": "IPO（首次公开募股）后炒作退潮，影响一级市场（未上市企业）估值和IPO定价",
-        "watch": "SpaceX后续锁定期（禁售期）到期抛压"
+        "what": "媒体讨论SpaceX IPO后如何投资，暗示长期价值",
+        "assets": "📈 SpaceX概念股 利好\n📈 太空板块ETF 利好",
+        "chain": "IPO热度→带动一级市场估值→相关供应链标的受关注",
+        "watch": "SpaceX上市时间表及监管审批"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -24,23 +38,9 @@
       "score": 41,
       "insight": {
         "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好，📉 美光 承压",
-        "chain": "AI（人工智能）芯片需求分化，英伟达受益于AI资本开支（企业投资），美光受困于存储芯片周期（供需波动）",
-        "watch": "英伟达财报指引、美光库存数据"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "Stock Market Today: Nasdaq, Russell 2000 Pace Rebound; SpaceX Slumps 24% Off Its Peak - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "纳指和罗素2000反弹，SpaceX跌24%",
-        "assets": "📈 纳指 利好，📈 罗素2000（小盘股） 利好",
-        "chain": "风险偏好（愿意冒险）回升，资金从热门IPO流向小盘成长股",
-        "watch": "纳指能否守住200日均线（技术面支撑）"
+        "assets": "📈 英伟达 利好\n📉 美光 承压\n📉 半导体行业 分化",
+        "chain": "AI算力需求支撑英伟达→存储芯片周期下行利空美光→资金轮动",
+        "watch": "英伟达财报及美光库存数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州指望IPO税收，但多种因素复杂化",
-        "assets": "📉 加州地方债 承压",
-        "chain": "IPO税减少→州财政收入缺口→可能增税或削减开支→利空地方经济",
-        "watch": "加州下季度税收预估数据"
+        "what": "SpaceX股价下跌，IPO后炒作退潮",
+        "assets": "📉 SpaceX 利空\n📉 新股板块 承压",
+        "chain": "获利盘抛售→散户信心受挫→影响后续科技IPO定价",
+        "watch": "SpaceX成交量及锁定期到期日"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州依赖IPO税收，但多重因素增加不确定性",
+        "assets": "📉 加州市政债 承压\n📉 地方财政预期 利空",
+        "chain": "IPO税收不及预期→加州赤字扩大→可能削减支出或加税",
+        "watch": "加州税收数据及新IPO规模"
+      }
     },
     {
       "rank": 6,
@@ -73,10 +79,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX散户买家两天内接近亏损",
-        "assets": "📉 SpaceX 利空",
-        "chain": "散户被套→杠杆爆仓（借钱投资被迫卖出）→可能引发其他科技股连锁抛售",
-        "watch": "SpaceX期权隐含波动率（市场对价格波动的预期）"
+        "what": "SpaceX IPO后买家平均接近亏损，抛压持续",
+        "assets": "📉 SpaceX 利空\n📉 散户情绪 利空",
+        "chain": "追高被套→止损卖出→形成负反馈循环，压制反弹",
+        "watch": "SpaceX股价支撑位及空头持仓变化"
       }
     },
     {
