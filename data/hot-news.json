@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 07:24",
+  "updateTime": "2026-06-19 07:25",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "美伊签署初步和平协议，美股连续两周上涨",
         "assets": "📈 美股大盘 利好；📉 原油 承压",
-        "chain": "地缘风险溢价消退，油价下跌利好航空/运输板块，资金从避险资产（如黄金）流出",
-        "watch": "WTI原油期货价格及伊朗后续执行情况"
+        "chain": "地缘风险溢价消退，资金从避险资产（如美债）转向风险资产（股票），油价受供给预期缓解拖累",
+        "watch": "WTI原油期货价格；美伊后续正式谈判进展"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，市场关注其上市",
-        "assets": "📈 SpaceX相关概念股/太空ETF 利好",
-        "chain": "IPO热度可能带动太空板块估值重估，但需警惕高估值泡沫（市值过高风险）",
-        "watch": "SpaceX官方IPO时间表及承销商名单"
+        "what": "SpaceX IPO后热潮降温，股价两日下跌",
+        "assets": "📉 SpaceX股票 利空；📈 做空/对冲策略 利好",
+        "chain": "散户追高后套牢（买在高点被套），动量资金（追涨杀跌的短线资金）撤出，可能拖累同类高风险IPO估值",
+        "watch": "SpaceX成交量变化；持仓成本分布（看有多少人亏钱）"
       }
     },
     {
@@ -37,109 +37,73 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入英伟达，卖出美光",
+        "what": "华尔街建议买入英伟达、卖出美光",
         "assets": "📈 英伟达 利好；📉 美光 承压",
-        "chain": "AI芯片需求分化，英伟达GPU（图形处理器）主导地位强化，美光存储芯片面临库存过剩",
-        "watch": "英伟达/美光最新财报及AI资本开支指引"
+        "chain": "AI算力需求分化，英伟达受益于数据中心（服务器机房）资本开支，美光受制于存储芯片（内存）周期下行",
+        "watch": "英伟达数据中心营收指引；美光库存/毛利率数据"
       }
     },
     {
       "rank": 4,
-      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "联邦监管机构要求电网运营商加速为AI数据中心供电",
-        "assets": "📈 电力公用事业股/核电 利好；📈 AI硬件股 利好",
-        "chain": "AI算力需求爆发推高电力需求，核能/天然气发电商受益，但可能拉高电价引发通胀（物价上涨）",
-        "watch": "电网审批进度及电力容量扩建计划"
-      }
-    },
-    {
-      "rank": 5,
       "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX上市后涨势消退，股价下跌",
-        "assets": "📉 SpaceX 承压；📉 太空概念股 情绪利空",
-        "chain": "IPO狂热退潮，早期投资者获利了结，可能拖累其他高估值未盈利科技股（如太空初创公司）",
-        "watch": "SpaceX成交量及后续财报盈利预期"
+        "what": "加州押注IPO税收，但面临多重不确定性",
+        "assets": "📉 加州政府债券 承压；📈 其他州债 相对利好",
+        "chain": "IPO税（资本利得税）波动大，若科技股IPO推迟或下跌，加州财政缺口扩大，可能推高其发债成本（借钱利息）",
+        "watch": "加州财政收入预测；大型科技公司IPO（如Reddit）进度"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州依赖IPO税收，但多重因素使预算复杂化",
-        "assets": "📉 加州地方债 承压；📉 科技IPO板块 情绪利空",
-        "chain": "IPO减少导致州税收入缺口，可能引发地方政府削减开支或增税，间接影响科技公司上市环境",
-        "watch": "加州预算修正案及IPO市场融资总额"
-      }
+      "score": 35
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO后买家在连续两日下跌后几乎亏损",
-        "assets": "SPCE, ARKK, RKLB",
-        "chain": "SpaceX未上市但情绪传导至太空概念股及成长股，IPO溢价消退引发抛售",
-        "watch": "关注SpaceX后续融资估值及太空板块联动效应"
-      }
+      "score": 35
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普试图解雇美联储理事Lisa Cook致其法律安保费超百万美元",
-        "assets": "TLT, ZQ, DXY",
-        "chain": "政治干预美联储独立性的威胁削弱市场对利率路径的可信度，推升长期美债波动",
-        "watch": "关注Cook是否留任及美联储独立性辩论对12月议息会议的影响"
-      }
+      "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预期Warsh领导的美联储将比预期更鹰派",
-        "assets": "SPY, QQQ, USD, 2YY",
-        "chain": "鹰派联储预期推高短端利率，压制成长股估值，美元走强",
-        "watch": "关注Warsh政策立场细节及点阵图利率路径上调风险"
-      }
+      "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Mortgage Rates Spike in Response to Fed - Mortgage News Daily",
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "抵押贷款利率因美联储政策飙升",
-        "assets": "MBB, XHB, ITB, US10Y",
-        "chain": "美联储鹰派信号推升长端美债收益率，房贷利率敏感跟随，打压住房需求",
-        "watch": "关注30年期固定利率能否突破7%关键心理位及楼市数据"
-      }
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
+      "source": "CNBC",
+      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
