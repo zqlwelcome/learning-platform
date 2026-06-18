@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 09:45",
+  "updateTime": "2026-06-18 09:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "对冲基金大量买入美元看涨期权",
-        "assets": "📈 美元 看涨",
-        "chain": "美元走强将压制新兴市场货币和大宗商品（以美元计价）",
-        "watch": "美元指数是否突破前高"
+        "what": "对冲基金买入美元看涨期权押注美联储加息",
+        "assets": "📈 美元指数 看涨；📉 非美货币 承压",
+        "chain": "美元走强压制大宗商品价格，新兴市场资金外流（资本流出）风险上升",
+        "watch": "美联储点阵图（利率预测图）及非农就业数据"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "中国大搜车赴美IPO估值9亿美元",
-        "assets": "📈 中概股 利好",
-        "chain": "中概股IPO回暖（中国企业赴美上市窗口重开）",
-        "watch": "SEC中概股审计进展"
+        "what": "中国大搜车赴美IPO目标估值9.01亿美元",
+        "assets": "📈 中概股IPO 利好；📈 二手车板块 关注",
+        "chain": "中概股融资环境改善，或带动同类公司上市窗口（上市时机）打开",
+        "watch": "SEC审核进展及首日涨幅"
       }
     },
     {
       "rank": 3,
+      "title": "Fed 'dot plot': Almost half of FOMC members project at least one interest rate hike this year - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38,
+      "insight": {
+        "what": "近半FOMC（美联储议息会议）成员预测今年至少加息一次",
+        "assets": "📈 美元 看涨；📉 美债 承压；📉 黄金 承压",
+        "chain": "加息预期推高短端利率（短期国债收益率），利空成长股估值（未来现金流折现率上升）",
+        "watch": "联邦基金利率期货隐含概率（市场对加息概率的定价）"
+      }
+    },
+    {
+      "rank": 4,
       "title": "沃什首秀引发美债市场剧烈震荡 交易员对美联储加息押注激增",
       "source": "环球市场播报",
       "detail": "凯文·沃什没用多少时间就引起了债券市场的关注。 交易员抛售短期美债，导致部分债券收益率创下一年多来的最大涨幅，期货交易员纷纷押注最早下个月就会加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "沃什言论引发美债收益率飙升",
-        "assets": "📈 美元 看涨；📉 美债 承压",
-        "chain": "加息预期升温（Fed tightening）打压风险资产（科技股、新兴市场）",
-        "watch": "美联储点阵图（利率预测）"
+        "what": "沃什首秀引发美债波动，交易员增加加息押注",
+        "assets": "📈 2年期美债收益率 上行；📉 长端美债 波动加大",
+        "chain": "短端利率上行（借钱成本变贵）压制风险资产，利差走阔（长短债利差变大）或引发对冲平仓",
+        "watch": "沃什后续讲话措辞及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "美联储新主席没降息，特朗普回应还好：尊重他的判断",
       "source": "环球市场播报",
       "detail": "美国总统特朗普对美联储主席凯文·沃什表达了信心。此前，这位新任央行行长结束了他的首次利率决策会议，决定维持利率不变，同时美联储公布的利率预期点阵图显示...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "特朗普表示尊重美联储不降息决定",
-        "assets": "📈 美元 利好",
-        "chain": "减少政治干预风险（Fed independence）稳定市场预期",
-        "watch": "后续特朗普对利率表态"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "日韩股市齐创新高，日元创近两年新低，现货黄金向上触及4300美元",
-      "source": "市场资讯",
-      "detail": "文章来源：华尔街见闻 日韩股市双双刷新历史纪录，日经225指数首破71000点，韩国Kospi逼近9000关口；与此同时，日元跌至近两年低位，干预风险升温。",
-      "lang": "zh",
-      "score": 34,
-      "insight": {
-        "what": "日韩股市新高，日元新低，黄金破4300",
-        "assets": "📈 日韩股市 利好；📉 日元 承压；📈 黄金 利好",
-        "chain": "日元贬值（Carry trade套利交易）支撑日股，避险情绪推黄金",
-        "watch": "日本央行是否干预汇率"
+        "what": "特朗普尊重美联储新主席不降息决定",
+        "assets": "📈 美元 中性偏强；📉 美股 短期承压",
+        "chain": "政治干预风险下降，货币政策独立性（美联储自主决策权）增强支撑美元信用",
+        "watch": "特朗普后续推特或行政命令"
       }
     },
     {
       "rank": 6,
-      "title": "Warsh kicks off Fed chief era with sweeping review as rates remain unchanged - Reuters",
-      "source": "Reuters",
+      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Nikkei hits 71,000 for the first time: Live updates - CNBC",
+      "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
+      "score": 35,
       "insight": {
-        "what": "沃什开启美联储主席时代，维持利率不变",
-        "assets": "📈 美元 看涨；📉 美债 承压",
-        "chain": "政策审查（policy review）预示未来鹰派（加息倾向）",
-        "watch": "下周美联储会议纪要措辞"
+        "what": "美联储暗示2026年可能加息，日经指数首破71000点",
+        "assets": "📈 日经225 利好；📈 美元 看涨；📉 美债 承压",
+        "chain": "日股受益于日本央行宽松（持续放水）与美股科技溢出效应（科技股上涨带动），但远期加息预期压制高估值板块",
+        "watch": "日本央行政策声明及美日利差（美债与日债收益率之差）"
       }
     },
     {
       "rank": 7,
+      "title": "日韩股市齐创新高，日元创近两年新低，现货黄金向上触及4300美元",
+      "source": "市场资讯",
+      "detail": "文章来源：华尔街见闻 日韩股市双双刷新历史纪录，日经225指数首破71000点，韩国Kospi逼近9000关口；与此同时，日元跌至近两年低位，干预风险升温。",
+      "lang": "zh",
+      "score": 34
+    },
+    {
+      "rank": 8,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
@@ -94,7 +102,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
       "source": "CNBC",
       "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
@@ -102,18 +110,10 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Chairman Warsh drastically alters Fed rate statement. Here's what's changed",
-      "source": "CNBC",
-      "detail": "This is a comparison of Wednesday's Federal Open Market Committee statement with the one issued after the Fed's previous policymaking meeting in April.",
       "lang": "en",
       "score": 33
     }
