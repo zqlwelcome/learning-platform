@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 06:25",
+  "updateTime": "2026-06-19 06:27",
   "news": [
     {
       "rank": 1,
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "纳斯达克上涨，油价跌回伊朗冲突前水平",
-        "assets": "📈 纳斯达克科技股 利好；📉 原油 利空；📉 能源股 承压",
-        "chain": "油价下跌降低通胀预期（物价上涨压力），利好降息（借钱成本降低）预期，资金从能源轮动至科技",
-        "watch": "WTI原油是否跌破70美元支撑位"
+        "what": "华尔街建议买入英伟达、卖出美光",
+        "assets": "📈 英伟达 利好；📉 美光 利空；📉 半导体板块 分化",
+        "chain": "AI算力需求（训练大模型需要）持续利好英伟达，存储芯片周期见顶（供过于求）压制美光，板块内部轮动",
+        "watch": "英伟达财报指引及美光库存数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好；📉 美光 利空；📉 半导体板块 分化",
-        "chain": "AI算力需求（训练大模型需要）持续利好英伟达，存储芯片周期见顶（供过于求）压制美光，板块内部轮动",
-        "watch": "英伟达财报指引及美光库存数据"
+        "what": "纳斯达克上涨，油价跌回伊朗冲突前水平",
+        "assets": "📈 纳斯达克科技股 利好；📉 原油 利空；📉 能源股 承压",
+        "chain": "油价下跌降低通胀预期（物价上涨压力），利好降息（借钱成本降低）预期，资金从能源轮动至科技",
+        "watch": "WTI原油是否跌破70美元支撑位"
       }
     },
     {
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普解雇Fed理事库克导致其百万法律安保费",
+        "assets": "美元多头，国债空头",
+        "chain": "政治干预Fed独立性→市场定价更高风险溢价→美元走强、收益率上行",
+        "watch": "Fed官员公开表态及国会反应"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期沃什领导Fed将更鹰派",
+        "assets": "美元多头，美股空头，国债空头",
+        "chain": "鹰派沃什预期→加息概率上升→风险资产承压、美元走强",
+        "watch": "沃什正式提名及首次政策信号"
+      }
     },
     {
       "rank": 9,
@@ -107,15 +119,13 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "抵押贷款利率因Fed鹰派信号飙升",
+        "assets": "房地产ETF空头，国债空头",
+        "chain": "Fed紧缩预期→利率上升→房贷成本增加→房市需求降温",
+        "watch": "美国30年固定抵押贷款利率及新房销售数据"
+      }
     }
   ]
 }
