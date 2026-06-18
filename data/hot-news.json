@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 11:20",
+  "updateTime": "2026-06-18 11:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "美联储鹰派信号致美元走强，港股黄金股普跌",
-        "assets": "📉 港股黄金股 承压\n📈 美元 利好",
-        "chain": "美元走强压制金价（黄金以美元计价），黄金股盈利预期下调，资金从贵金属流向美元资产。",
-        "watch": "美联储后续讲话及美国CPI（通胀）数据"
+        "what": "港股黄金股因美联储鹰派言论普跌",
+        "assets": "📉 港股黄金股 利空; 📈 美元指数 利好",
+        "chain": "美元走强压制金价（黄金以美元计价），利空黄金股，避险资金可能转向美债",
+        "watch": "美联储后续利率路径信号"
       }
     },
     {
@@ -23,28 +23,14 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "印度最大交易所申请IPO，大型上市潮加速",
-        "assets": "📈 印度股市 情绪利好\n📈 新兴市场IPO板块 活跃",
-        "chain": "交易所上市吸引全球资金关注印度市场，提升流动性（交易活跃度），可能推高本地券商和科技股估值。",
-        "watch": "印度监管审批进展及后续IPO定价"
+        "what": "印度最大交易所申请IPO，上市潮加速",
+        "assets": "📈 印度股市 利好; 📈 新兴市场ETF 情绪提振",
+        "chain": "IPO活跃吸引全球资金流入印度，提升市场流动性和估值，可能带动同类新兴市场",
+        "watch": "印度IPO定价及首日表现"
       }
     },
     {
       "rank": 3,
-      "title": "Federal Reserve issues FOMC statement - Federal Reserve (.gov)",
-      "source": "Federal Reserve (.gov)",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "美联储发布FOMC声明，维持利率但保留加息选项",
-        "assets": "📈 美元 短期利好\n📉 美债 承压",
-        "chain": "鹰派声明推高加息预期（借钱成本上升），长端利率（长期国债收益率）上行，利空成长股估值。",
-        "watch": "点阵图（利率预测）及鲍威尔发布会措辞"
-      }
-    },
-    {
-      "rank": 4,
       "title": "交易员：美联储政策决议后 对冲基金纷纷买入美元看涨期权",
       "source": "环球市场播报",
       "detail": " 根据交易员，鉴于美联储点阵图释放的鹰派信号以及2026年核心CPI预测上调，对冲基金买入美元兑G10和新兴市场货币的看涨期权。交易员称，期权期限从1周到3个月不等。",
@@ -52,49 +38,55 @@
       "score": 40,
       "insight": {
         "what": "对冲基金在美联储决议后大举买入美元看涨期权",
-        "assets": "📈 美元 利好\n📉 非美货币 承压",
-        "chain": "期权（未来买卖权利）押注美元升值，资金流出新兴市场，亚洲货币如人民币、韩元面临贬值压力。",
-        "watch": "美元指数（DXY）是否突破关键阻力位"
+        "assets": "📈 美元 利好; 📉 非美货币 承压",
+        "chain": "美元看涨期权（押注美元升值）激增预示短期美元强势，利空欧元/日元等对手盘",
+        "watch": "美元指数能否突破前高"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "高盛副董事长称美联储今秋或加息 并有进一步紧缩的风险",
       "source": "环球市场播报",
       "detail": "高盛集团副董事长、达拉斯联储行前行长卡普兰表示，如果通胀持续高企，美联储最快可能在9月就需要提高利率。 卡普兰在接受采访时表示...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "高盛副董事长警告美联储今秋可能加息并进一步紧缩",
-        "assets": "📈 美元 利好\n📉 美股 承压",
-        "chain": "加息预期抑制风险偏好（risk-off），资金从股市转向现金或短债，科技股高估值受利率敏感冲击。",
-        "watch": "联邦基金利率期货（市场加息概率定价）变动"
+        "what": "高盛副董事长警告美联储今秋可能加息",
+        "assets": "📈 美元 利好; 📉 美股 承压; 📉 美债 利空",
+        "chain": "加息预期推高短端利率（短期借贷成本），压制成长股估值，债券收益率曲线趋平",
+        "watch": "9月CPI及就业数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "沃什首秀暗示美联储加息转向！震荡行情可关注标的指数高股息的央企红利ETF华泰柏瑞（561580）",
       "source": "新浪基金",
       "detail": "今日全球资本市场目光齐聚美联储利率决议发布会。新任主席沃什在首场发布会宣布维持当前利率水平不变，这也是自去年9月开启降息周期后...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "沃什暗示美联储加息转向，推荐高股息央企红利ETF",
-        "assets": "📈 央企红利ETF 利好\n📈 高股息板块 避险",
-        "chain": "加息预期下高股息资产（稳定分红）成防御选择，资金轮动从成长股转向价值股，央企业绩稳健受追捧。",
-        "watch": "ETF资金流入量和成分股分红政策变化"
+        "what": "沃什暗示美联储转向加息，高股息央企ETF被提及",
+        "assets": "📈 高股息央企ETF 利好; 📉 成长股 承压",
+        "chain": "加息预期下防御性资产（高股息）受青睐，资金从科技股轮动至红利板块（稳定派息股票）",
+        "watch": "红利ETF资金流入量"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "沃什首秀引发美债市场剧烈震荡 交易员对美联储加息押注激增",
       "source": "环球市场播报",
       "detail": "凯文·沃什没用多少时间就引起了债券市场的关注。 交易员抛售短期美债，导致部分债券收益率创下一年多来的最大涨幅，期货交易员纷纷押注最早下个月就会加息...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "沃什言论引发美债剧烈震荡，加息押注激增",
+        "assets": "📈 美元 利好; 📉 美债 利空; 📉 美股 承压",
+        "chain": "美债收益率飙升（价格下跌）推高企业融资成本，风险资产（股票）遭抛售，波动率指数或跳升",
+        "watch": "2年期/10年期美债利差变化"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "存储芯片涨价潮延续！港股半导体板块逆市上涨，兆易创新股价创历史新高",
       "source": "新浪港股",
       "detail": "港股半导体板块逆市上涨，兆易创新盘中涨9%股价创历史新高，英诺赛科、天数智芯涨超7%，澜起科技、纳芯微涨超5%。 消息面上，根据ComputerBase对内存...",
@@ -102,19 +94,27 @@
       "score": 35
     },
     {
-      "rank": 9,
-      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Nikkei hits 71,000 for the first time: Live updates - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "澳洲监管机构拟对汇丰处以3500万澳元罚款 指其未尽责防范欺诈",
       "source": "环球市场播报",
       "detail": "澳大利亚证券和投资委员会（ASIC）发布声明称，汇丰承认在保护客户免受欺诈方面存在严重不足，导致客户蒙受损失。 ASIC将请求联邦法院认定汇丰违反法律...",
       "lang": "zh",
+      "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "source": "CNBC",
+      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
+      "source": "CNBC",
+      "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
+      "lang": "en",
       "score": 33
     }
   ]
