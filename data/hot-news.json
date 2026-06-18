@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 05:25",
+  "updateTime": "2026-06-19 05:30",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "伊朗和谈预期推动美股三大指数反弹",
-        "assets": "📈 美股大盘 利好; 📉 美元指数 承压",
-        "chain": "和谈降低油价（能源成本）预期，缓解通胀压力，压制美联储加息（提高借钱成本）概率",
-        "watch": "伊朗核协议进展及WTI原油（西得州轻质原油）价格"
+        "what": "伊朗局势缓和推动美股反弹，抵消加息担忧",
+        "assets": "📈 美股大盘 利好\n📉 原油 承压",
+        "chain": "地缘风险降低→风险偏好（投资者愿意冒险）回升→资金从避险资产（如黄金）回流股市",
+        "watch": "伊朗核协议进展及美联储下周利率决议"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美联储鹰派信号强化加息押注，美元走强",
-        "assets": "📈 美元指数 利好; 📉 黄金 承压; 📉 新兴市场货币 承压",
-        "chain": "美元升值导致新兴市场资本外流（资金撤出），同时压低大宗商品（如黄金）以美元计价的价格",
-        "watch": "美联储下次会议点阵图（利率预测）及非农就业数据"
+        "what": "美联储鹰派信号推高美元，加息押注升温",
+        "assets": "📈 美元指数 利好\n📉 新兴市场货币 承压\n📉 美债 利空（收益率上行）",
+        "chain": "加息预期增强→美元走强→新兴市场资金外流（资本流出），同时压缩美股估值（PE倍数下降）",
+        "watch": "本周美国CPI（消费者物价指数）数据及点阵图（利率预测）"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
-      "source": "CNBC",
-      "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "SpaceX连续两日下跌，市值被亚马逊超越",
-        "assets": "📉 SpaceX（私人公司估值） 利空; 📈 亚马逊 利好",
-        "chain": "SpaceX估值回落可能影响其IPO（新股上市）定价，同时削弱太空板块投机情绪（风险偏好降低）",
-        "watch": "SpaceX后续融资或IPO时间表"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国监管要求电网运营商加速为AI数据中心供电",
-        "assets": "📈 电力公用事业股 利好; 📈 AI芯片股（如英伟达） 间接利好",
-        "chain": "电力需求激增推高公用事业利润，同时缓解AI算力瓶颈（运算能力限制），利好科技产业链",
-        "watch": "电网投资法案进展及电力批发价格"
+        "what": "监管令电网提速，优先供电AI数据中心",
+        "assets": "📈 AI相关科技股 利好\n📈 电力基建股 利好",
+        "chain": "电力需求激增→电网升级加速→利好电力设备及AI算力（计算能力）供应商，但可能推高电价",
+        "watch": "数据中心电力合同及电网投资计划"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收收入，但多重因素使预期复杂化",
-        "assets": "📉 加州地方债 承压; 📉 美国科技IPO板块 情绪利空",
-        "chain": "IPO延迟或减少导致加州财政缺口（预算不足），可能引发地方债抛售，间接压制科技股估值",
-        "watch": "加州财政预算报告及近期IPO案例数量"
+        "what": "加州IPO税收预期受多重因素拖累",
+        "assets": "📈 加州债券 中性偏空\n📉 科技股IPO 承压",
+        "chain": "IPO放缓→州政府税收缺口扩大→可能加税或削减支出→影响科技公司注册地选择",
+        "watch": "加州财政预算更新及科技公司上市日程"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX下跌后，IPO后买入的散户平均接近亏损",
-        "assets": "📉 SpaceX（私人市场交易） 利空; 📉 散户投资情绪 利空",
-        "chain": "散户亏损会抑制私人公司交易流动性（买卖困难），并降低对未上市科技公司的投机热情",
-        "watch": "SpaceX二级市场交易价格及散户资金流向"
+        "what": "SpaceX股价连续两日大跌，散户接近浮亏",
+        "assets": "📉 SpaceX（非上市交易） 承压\n📉 太空概念股 联动利空",
+        "chain": "散户追高被套→情绪恶化→可能引发二级市场（非公开市场）抛售，拖累太空行业估值",
+        "watch": "SpaceX后续融资估值及发射任务进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普罢免美联储理事Cook计划致其损失超百万",
+        "assets": "📉 美元 中性偏空\n📉 美债 中性偏空",
+        "chain": "政治干预央行独立性→削弱降息预期（政策不确定性）→长期美债收益率（利息）可能上行",
+        "watch": "美联储理事辞职风险及国会听证会动态"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -102,7 +94,7 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected",
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
@@ -110,10 +102,18 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "White House talks with Anthropic shift to setting AI security rules - Politico",
       "source": "Politico",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "SanDisk and Micron surge as Apple confirms memory price pass-through - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 32
     }
