@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 05:30",
+  "updateTime": "2026-06-19 05:33",
   "news": [
     {
       "rank": 1,
@@ -91,31 +91,41 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期Warsh美联储比预期更鹰派。",
+        "assets": "美元指数（上行），美债收益率（上行），美股（下行）",
+        "chain": "鹰派预期推高利率，压制风险资产估值，资金流向避险。",
+        "watch": "Warsh正式发言及点阵图变化。"
+      }
     },
     {
       "rank": 8,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 9,
       "title": "White House talks with Anthropic shift to setting AI security rules - Politico",
       "source": "Politico",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "白宫与Anthropic转向制定AI安全规则。",
+        "assets": "AI概念股（中性偏空），网络安全ETF（利好）",
+        "chain": "监管趋严增加合规成本，但利好安全服务商，科技巨头或承压。",
+        "watch": "具体规则草案及国会立法进展。"
+      }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "SanDisk and Micron surge as Apple confirms memory price pass-through - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Apple确认存储涨价传导，SanDisk和Micron大涨。",
+        "assets": "存储芯片股（利好），苹果供应链（中性）",
+        "chain": "涨价确认强化存储周期反转逻辑，下游成本压力或转嫁消费者。",
+        "watch": "存储芯片现货价格及苹果财报毛利率。"
+      }
     }
   ]
 }
