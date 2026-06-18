@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 20:16",
+  "updateTime": "2026-06-18 20:25",
   "news": [
     {
       "rank": 1,
@@ -9,109 +9,97 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "“物理AI第一股”暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI板块 利好；📈 港股新股市场 情绪提振",
-        "chain": "带动AI硬件/机器人板块估值重估（重新定价），吸引更多科技股赴港上市（IPO）",
-        "watch": "下周一正式开盘价及成交量"
+        "what": "物理AI第一股暗盘暴涨262%，周一港股上市",
+        "assets": "📈 港股AI板块 利好; 📈 同赛道未上市物理AI公司估值 上调",
+        "chain": "IPO（首次公开募股）赚钱效应吸引资金涌入AI硬件，可能拉动恒生科技指数（港股科技股整体指标）",
+        "watch": "周一港股开盘成交量及后续IPO（新股发行）定价"
       }
     },
     {
       "rank": 2,
+      "title": "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "美股期货上涨，市场试图反弹；英特尔领涨芯片股",
+        "assets": "📈 美股半导体 利好; 📈 纳斯达克100指数 反弹",
+        "chain": "Fed（美联储）鹰派（偏向加息）抛售后，科技股领涨修复风险偏好（市场情绪），降低避险资产需求",
+        "watch": "今晚美股开盘实际走势及美联储官员讲话"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "*ST赛隆退市，不影响投资者索赔",
-        "assets": "📉 A股ST板块 利空；📉 中小盘股 情绪压制",
-        "chain": "退市常态化（制度成熟）打击壳价值投机，资金转向蓝筹；索赔案例增多将强化监管威慑（震慑违规）",
-        "watch": "后续ST股退市数量及索赔诉讼进展"
+        "what": "美股期货上涨，市场从美联储抛售中反弹",
+        "assets": "📈 美股大盘 反弹; 📉 美债 承压",
+        "chain": "风险资产（股票）反弹削弱美债避险买盘，长端利率（10年期国债收益率）可能回升",
+        "watch": "10年期美债收益率是否突破4.5%"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "*ST赛隆告别A股，退市不影响索赔",
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Kevin Warsh首次美联储主席会议五大要点",
-        "assets": "📉 美股 承压；📈 美元 走强",
-        "chain": "Warsh偏鹰派（倾向加息），市场预期加息路径更陡，压制风险资产（股票、商品），利好美元（吸引资本流入）",
-        "watch": "会议纪要措辞及下次利率决议预期"
+        "what": "ST赛隆退市，不影响投资者索赔",
+        "assets": "📉 A股ST板块 利空; 📉 退市风险股 承压",
+        "chain": "退市常态化强化监管预期，资金从垃圾股（ST股）撤离转向蓝筹（大盘绩优股）",
+        "watch": "ST板块指数是否持续下跌"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "美股期货上涨，市场试图从美联储引发的抛售中反弹",
-        "assets": "📈 美股大盘 反弹；📉 美债收益率 承压",
-        "chain": "美联储鹰派（偏紧缩）信号被消化，资金回补科技股；若反弹持续，美元可能走强（资金回流）",
-        "watch": "今晚美股开盘后标普500走势及美联储官员讲话"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "英特尔与苹果合作设计美国芯片，股价大涨9%",
-        "assets": "📈 英特尔 利好；📈 半导体板块 情绪提振",
-        "chain": "强化美国本土芯片制造（供应链回流），利空台积电等代工厂（竞争加剧）；苹果供应链多元化（分散风险）",
-        "watch": "合作协议细节及台积电股价反应"
+        "what": "新任美联储主席Kevin Warsh首次会议五大要点",
+        "assets": "📈 美元 偏强; 📉 黄金 承压",
+        "chain": "Warsh暗示鹰派（偏向紧缩）路径，推高短期利率预期（加息概率），压制通胀敏感资产（如黄金）",
+        "watch": "联邦基金利率期货隐含的加息概率变化"
       }
     },
     {
       "rank": 6,
-      "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
+      "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
-      "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
+      "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 32,
+      "score": 33,
       "insight": {
-        "what": "Intel与苹果合作美国芯片设计，股价涨9%",
-        "assets": "Intel +9%，苹果供应链看涨，AMD/台积电承压",
-        "chain": "利好Intel晶圆代工叙事，冲击台积电美国产能，苹果自研芯片风险降低",
-        "watch": "Intel Q3晶圆代工客户签约数及苹果财报指引"
+        "what": "分析：Warsh的特别工作组是理解新美联储的关键",
+        "assets": "📈 美元 走强; 📉 新兴市场货币 承压",
+        "chain": "工作组可能推动更激进缩表（减少债券持有），抽走流动性（市场资金），全球风险资产承压",
+        "watch": "美联储资产负债表规模周度变化"
       }
     },
     {
       "rank": 7,
-      "title": "This AI infrastructure stock has soared nearly 500% in a year. Jefferies says it can go higher",
+      "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design - CNBC",
       "source": "CNBC",
-      "detail": "The investment bank initiated the stock at buy.",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "Jefferies上调AI基建股目标价，年涨近500%",
-        "assets": "该AI基建股看涨，英伟达/AMD/半导体设备联动",
-        "chain": "AI资本开支预期强化，利好数据中心与电力股，但估值泡沫风险上升",
-        "watch": "该股后续订单量及AI芯片出货数据"
-      }
+      "score": 32
     },
     {
       "rank": 8,
-      "title": "Stock Market Today: Nasdaq Set to Rebound, Gasoline Prices Fall Below $4 — Live Updates - WSJ",
-      "source": "WSJ",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
+      "source": "CNBC",
+      "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
       "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "纳指反弹，汽油跌破4美元，市场情绪回暖",
-        "assets": "纳指/标普看涨，能源股承压，消费股受益",
-        "chain": "汽油降价提振消费支出，缓解通胀压力，美联储降息预期升温",
-        "watch": "周五PCE数据及下周美联储会议纪要"
-      }
+      "score": 32
     },
     {
       "rank": 9,
@@ -119,13 +107,7 @@
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves in the premarket.",
       "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "盘前异动：Intel/美光/嘉年华等波动显著",
-        "assets": "Intel+9%（苹果合作），美光/嘉年华看涨，SpaceX概念股关注",
-        "chain": "芯片股领涨市场，旅游消费股获资金轮动，军工股受SpaceX动态影响",
-        "watch": "开盘后成交量及板块轮动持续性"
-      }
+      "score": 27
     },
     {
       "rank": 10,
@@ -133,13 +115,7 @@
       "source": "环球市场播报",
       "detail": "对于正在为自有数据中心甄选 AI 服务器芯片的企业而言，相比英伟达，亚马逊拥有一大核心优势：价格。 爱尔兰咨询机构 Co Driver Labs 专注为企业提供 AI...",
       "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "亚马逊高性价比AI芯片获企业青睐",
-        "assets": "亚马逊看涨，英伟达/AMD受竞争压力，AI云计算成本下行",
-        "chain": "自研芯片降低大模型推理成本，利好AWS生态，威胁英伟达市场份额",
-        "watch": "亚马逊芯片出货量及客户迁移速度"
-      }
+      "score": 25
     }
   ]
 }
