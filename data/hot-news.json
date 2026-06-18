@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 02:50",
+  "updateTime": "2026-06-19 02:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "股市反弹，油价下跌，芯片股领涨",
-        "assets": "📈 美股芯片股 利好, 📉 原油期货 承压",
-        "chain": "油价下跌缓解通胀担忧，降息预期升温，利好成长股（如科技股）",
-        "watch": "WTI原油期货价格及下周美联储官员讲话"
+        "what": "油价下跌与芯片股反弹推动股市回升",
+        "assets": "📈 美股科技股 利好；📉 原油 承压",
+        "chain": "油价下跌降低通胀预期（物价上涨压力减轻），缓解加息担忧（借钱成本上升风险），利好成长股（如科技股）估值",
+        "watch": "WTI原油（美国原油期货）价格走势及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "道指涨200点，伊朗和谈利好，英特尔等芯片股上涨",
-        "assets": "📈 美股大盘 利好, 📈 英特尔等芯片股 利好, 📉 国防股 承压",
-        "chain": "地缘风险溢价下降，避险需求减弱，资金从防御板块（如国防）转向风险资产",
-        "watch": "伊朗核协议进展及芯片板块成交量"
+        "what": "道指涨200点，伊朗和平协议预期及芯片股领涨",
+        "assets": "📈 美股大盘 利好；📈 半导体股 利好",
+        "chain": "地缘风险（中东冲突）缓和提振风险偏好（投资者愿意冒险），芯片股因AI（人工智能）需求及财报预期走强",
+        "watch": "伊朗核谈判进展及费城半导体指数（衡量芯片股表现）"
       }
     },
     {
@@ -37,56 +37,64 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元走强，因美联储鹰派信号强化加息押注",
-        "assets": "📈 美元指数 利好, 📉 非美货币（如欧元、日元） 承压, 📉 黄金 承压",
-        "chain": "美元升值压制大宗商品价格，新兴市场资金外流（资本流出）压力增大",
-        "watch": "CME FedWatch工具加息概率变化"
+        "what": "美元走强，美联储鹰派信号（暗示加息）推升加息押注",
+        "assets": "📈 美元 利好；📉 新兴市场货币 承压",
+        "chain": "美元升值压制大宗商品（以美元计价）价格，同时收紧全球流动性（资金回流美元资产），新兴市场面临资本外流",
+        "watch": "美联储点阵图（官员利率预测）及非农就业数据"
       }
     },
     {
       "rank": 4,
-      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
+      "title": "Intel Stock Jumps On Reported Apple Chip Business - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "英特尔股价因苹果芯片业务转单传闻大涨",
+        "assets": "📈 英特尔 利好；📉 台积电 承压",
+        "chain": "英特尔代工业务（为其他公司制造芯片）获得大客户认可，或重塑芯片制造竞争格局，削弱台积电垄断地位",
+        "watch": "英特尔财报中代工业务营收及苹果供应商声明"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Federal regulators back Trump’s plan to speed power to energy-hungry AI data centers - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦监管机构要求电网运营商加速向AI数据中心供电",
-        "assets": "📈 AI算力基建 利好, 📈 电力公用事业股 利好",
-        "chain": "电力需求激增推高电价，利好能源股，但可能加剧电力短缺（供给瓶颈）",
-        "watch": "美国电力监管委员会（FERC）具体政策细则"
+        "what": "监管层支持特朗普计划加速AI数据中心供电",
+        "assets": "📈 人工智能基建 利好；📈 电力公用事业 利好",
+        "chain": "AI（人工智能）算力需求激增，推动电力基础设施投资（如电网升级），但可能短期推高电价（用电成本增加）",
+        "watch": "美国能源部电力项目审批进度及AI企业资本开支计划"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni称美联储可能加息以实现通胀目标",
-        "assets": "📈 美元 利好, 📉 美股 承压, 📉 美债 承压",
-        "chain": "加息预期升温压制股市估值（PE压缩），短期利率上升，债券价格下跌（收益率上行）",
-        "watch": "下周美国CPI数据及美联储会议纪要"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州预期IPO税收大增，但多种因素使情况复杂",
-        "assets": "📉 加州政府财政 承压, 📈 科技IPO市场 中性偏空",
-        "chain": "IPO放缓或税收不及预期，可能引发地方债券（市政债）风险溢价上升，影响科技公司融资环境",
-        "watch": "加州财政预算更新及主要科技公司IPO进展"
+        "what": "策略师Yardeni警告美联储或加息以打压通胀",
+        "assets": "📉 美债 承压；📉 美股 承压",
+        "chain": "加息预期（借钱成本上升）会压低资产估值（折现率提高），尤其打击高估值科技股和长期债券价格",
+        "watch": "美联储官员讲话及核心PCE（个人消费支出物价指数）数据"
       }
     },
     {
       "rank": 7,
+      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
@@ -94,7 +102,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected",
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
@@ -102,18 +110,10 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
-      "source": "CNBC",
-      "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
       "score": 33
     }
