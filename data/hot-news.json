@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 00:43",
+  "updateTime": "2026-06-19 00:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "油价下跌及芯片股反弹推动美股从美联储抛售中回升",
-        "assets": "📈 美股科技股 利好, 📉 油价 承压",
-        "chain": "油价跌降低通胀预期（物价上涨速度），缓解加息压力，利好成长股估值",
-        "watch": "今晚EIA原油库存数据及美联储官员讲话"
+        "what": "油价下跌和芯片股反弹推动美股从抛售中回升",
+        "assets": "📈 美股芯片股 利好;📉 原油期货 承压",
+        "chain": "油价跌缓解通胀预期（物价压力变小），美联储加息概率下降（借钱成本预期降低），科技股估值压力减轻",
+        "watch": "今晚EIA原油库存数据（库存变化影响油价）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号（偏紧缩政策）延续涨势，加息押注增加",
-        "assets": "📈 美元指数 利好, 📉 新兴市场货币 承压, 📉 黄金 承压",
-        "chain": "美元走强压制大宗商品（以美元计价资产）价格，新兴市场资金外流（资本撤离）",
-        "watch": "本周美联储点阵图（利率预测）及非农就业数据"
+        "what": "联邦监管机构支持特朗普计划加速为AI数据中心供电",
+        "assets": "📈 AI概念股 利好;📈 电力公用事业股 利好",
+        "chain": "AI算力需求推高电力消耗（能源需求激增），核电/天然气发电企业受益（发电设备利用率提升），电网升级利好基建股",
+        "watch": "美国能源部审批进度（许可发放速度影响项目落地）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳斯达克大涨，油价跌至接近伊朗战前水平",
-        "assets": "📈 纳斯达克指数 利好, 📉 原油 承压",
-        "chain": "油价下行缓解运输成本（物流开支），利好航空、制造板块，但暗示需求疲软",
-        "watch": "下周OPEC+产量决策及美国PMI（采购经理人指数）"
+        "what": "纳斯达克大涨，油价跌至接近伊朗冲突前水平",
+        "assets": "📈 纳斯达克指数 利好;📉 原油期货 承压",
+        "chain": "油价下跌降低运输和化工成本（企业利润改善），通胀预期回落利好成长股（未来现金流折现价值提升），能源股可能跟跌",
+        "watch": "美国API原油库存数据（库存增减预示油价方向）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联邦监管机构支持特朗普计划，加速向AI数据中心供电",
-        "assets": "📈 AI基建股 利好, 📈 电力公用事业 利好",
-        "chain": "AI算力需求拉动电网投资（资本开支），利好变压器、核电等上游设备商",
-        "watch": "能源部电网升级招标公告及AI公司资本开支指引"
+        "what": "美元因美联储鹰派信号（暗示加息）而走强",
+        "assets": "📈 美元指数 利好;📉 新兴市场货币 承压",
+        "chain": "美元走强压制大宗商品（以美元计价），新兴市场债务偿还成本上升（利息负担加重），套利交易（借低息货币买高息资产）平仓",
+        "watch": "周五鲍威尔讲话措辞（确认加息路径）"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联邦监管机构支持特朗普计划，加速向AI数据中心供电",
-        "assets": "📈 AI基建股 利好, 📈 电力公用事业 利好",
-        "chain": "AI算力需求拉动电网投资（资本开支），利好变压器、核电等上游设备商",
-        "watch": "能源部电网升级招标公告及AI公司资本开支指引"
+        "what": "资深策略师Yardeni称美联储若真想控通胀就可能加息",
+        "assets": "📈 美元指数 利好;📉 美债期货 承压",
+        "chain": "加息预期推高短端利率（短期国债收益率），风险资产估值承压（折现率上升），银行净息差扩大（贷款利息收入增加）",
+        "watch": "周五核心PCE（个人消费支出物价指数）数据（通胀风向标）"
       }
     },
     {
@@ -77,69 +77,39 @@
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美联储鹰派信号提振加息押注，美元延续涨势",
-        "assets": "📈 美元 利好, 📉 新兴市场债券 承压, 📉 美股 承压",
-        "chain": "强美元压缩跨国企业海外利润（汇兑损失），新兴市场债务偿还成本上升",
-        "watch": "周四美国初请失业金人数及美联储会议纪要"
-      }
+      "score": 36
     },
     {
       "rank": 7,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州预期IPO税收大幅增加，但面临多重阻碍",
-        "assets": "美国科技股（短期承压）",
-        "chain": "IPO减少→加州财政缺口→削减支出或增税→影响科技企业信心",
-        "watch": "加州IPO申请数量及州财政预算修正"
-      }
-    },
-    {
-      "rank": 8,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普罢免美联储理事Cook致其损失超百万美元",
-        "assets": "美元（短期偏弱）、美债收益率（上行风险）",
-        "chain": "政治干预美联储→独立性受疑→市场对货币政策信任度下降→美元承压",
-        "watch": "美联储理事辞职/任命动态及国会听证"
-      }
+      "score": 35
     },
     {
-      "rank": 9,
-      "title": "Mortgage Rates Spike in Response to Fed - Mortgage News Daily",
-      "source": "Mortgage News Daily",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "房贷利率因美联储政策大幅飙升",
-        "assets": "美国房地产ETF（看跌）、抵押贷款REITs（承压）",
-        "chain": "利率上升→购房成本增加→需求萎缩→房价回调→建筑/银行板块受损",
-        "watch": "30年期固定房贷利率及成屋销售数据"
-      }
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "分析称沃什主席的特别工作组是新美联储核心",
-        "assets": "美元（中期走强）、美债收益率（陡峭化）",
-        "chain": "沃什鹰派团队→政策沟通更透明→加息预期提前→美元资产吸引力上升",
-        "watch": "沃什公开发言及FOMC会议纪要中的政策路径暗示"
-      }
+      "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "source": "CNBC",
+      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "SpaceX stock sinks 5%, continuing to cool after three-day rally - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
