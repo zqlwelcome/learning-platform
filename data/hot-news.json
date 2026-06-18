@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 04:41",
+  "updateTime": "2026-06-19 04:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号延续涨势",
-        "assets": "📈 美元 利好; 📉 黄金 承压; 📉 新兴市场货币 承压",
-        "chain": "美元走强压制大宗商品（如原油、铜），新兴市场资本外流（资金流出），风险资产波动",
-        "watch": "美联储官员讲话及加息概率（CME FedWatch工具）"
+        "what": "美元上涨，因美联储放鹰（偏紧缩）推动加息预期升温",
+        "assets": "📈 美元指数 利好\n📉 美股 承压\n📉 黄金 承压",
+        "chain": "美元走强→资金回流美元资产→新兴市场（如亚洲股市）资金外流，风险资产承压",
+        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳斯达克大涨，油价跌回伊朗战前水平",
-        "assets": "📈 美股科技股 利好; 📉 原油 承压",
-        "chain": "油价下跌缓解通胀预期（物价上涨压力），利好消费和科技股，但可能反映需求疲软",
-        "watch": "美国EIA原油库存及OPEC+产量决议"
+        "what": "纳斯达克上涨，油价跌至接近伊朗战争前水平",
+        "assets": "📈 纳斯达克 利好\n📉 原油 承压",
+        "chain": "油价下跌→通胀预期降温→科技股（高估值成长股）反弹，能源股（如埃克森美孚）走弱",
+        "watch": "伊朗局势变化及OPEC（石油输出国组织）产量决策"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX股价连跌两日，市值低于亚马逊",
-        "assets": "📉 SpaceX（未上市但黑市交易）承压; 📈 亚马逊 利好",
-        "chain": "航天股情绪受挫，但亚马逊云业务（AWS）竞争加剧可能分流投资（资金转向），影响太空ETF",
-        "watch": "SpaceX融资估值及Starlink用户增长数据"
+        "what": "SpaceX股价连跌两天，市值被亚马逊反超",
+        "assets": "📉 SpaceX 承压\n📈 亚马逊 利好",
+        "chain": "SpaceX下跌→太空概念股（如Virgin Galactic）情绪受挫，科技巨头（如亚马逊）资金吸引力增强",
+        "watch": "SpaceX后续订单及融资动态"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦监管令电网运营商加速为AI数据中心供电",
-        "assets": "📈 公用事业股（电力）利好; 📈 AI相关科技股 利好",
-        "chain": "电力需求激增推高电价，利好核电、天然气供应商，但增加碳排放压力（环境成本）",
-        "watch": "美国能源部电网升级计划及AI数据中心建设进度"
+        "what": "美监管机构命令电网运营商加速为AI数据中心供电",
+        "assets": "📈 公用事业股（如电力公司） 利好\n📈 AI芯片股（如英伟达） 利好",
+        "chain": "电力需求激增→电网投资增加→推高铜价（电网用金属）及电力设备（如变压器）需求",
+        "watch": "FERC（联邦能源监管委员会）具体执行方案及AI公司资本开支"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收，但多重因素使预测复杂",
-        "assets": "📉 加州地方债 承压; 📉 科技IPO新股 承压",
-        "chain": "IPO延迟或减少导致加州财政缺口（税收不足），可能削减开支或增税，影响当地经济",
-        "watch": "科技公司IPO排队数量及加州预算修正案"
+        "what": "加州依赖IPO税收（如新股上市相关）面临不确定性",
+        "assets": "📉 加州地方债 承压\n📉 科技IPO（首次公开募股） 承压",
+        "chain": "IPO减少→加州财政赤字扩大→可能提高州税或削减支出，压制科技股估值",
+        "watch": "未来科技公司上市时间表及加州预算修正案"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX散户买家在两天暴跌后接近浮亏",
-        "assets": "📉 SpaceX黑市交易 承压; 📈 二级市场新股 承压",
-        "chain": "散户信心受挫，可能引发恐慌性抛售（卖盘增加），影响未上市公司估值及IPO定价",
-        "watch": "SpaceX员工股票出售平台（如Forge Global）价格"
+        "what": "SpaceX散户（上市后买入者）平均接近亏损，因股价连跌",
+        "assets": "📉 SpaceX 承压\n📉 散户情绪 承压",
+        "chain": "散户亏损→减少对未盈利科技公司（如Rivian）的投机→资金转向蓝筹股（如苹果）",
+        "watch": "SpaceX后续融资或回购计划"
       }
     },
     {
@@ -91,13 +91,7 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普解雇美联储理事库克致其法律安保费超百万美元。",
-        "assets": "美元利空，美债收益率下行",
-        "chain": "政治干预美联储独立性，市场定价货币宽松预期升温，压制美元。",
-        "watch": "库克是否提前辞职及美联储后续人事变动。"
-      }
+      "score": 35
     },
     {
       "rank": 8,
@@ -105,27 +99,23 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "CNBC称市场预期沃什任美联储主席将更鹰派。",
-        "assets": "美元利多，黄金利空，美债收益率上行",
-        "chain": "鹰派美联储预期推高利率预期，压制风险资产，利好美元。",
-        "watch": "沃什正式提名概率及首次政策表态。"
-      }
+      "score": 33
     },
     {
       "rank": 9,
+      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
+      "source": "CNBC",
+      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 10,
       "title": "SanDisk and Micron surge as Apple confirms memory price pass-through - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "苹果确认存储芯片涨价传导，闪迪和美光股价大涨。",
-        "assets": "闪迪和多美光利多，苹果利空",
-        "chain": "成本转嫁提升存储厂毛利率，但压缩苹果利润，半导体板块看涨。",
-        "watch": "存储芯片现货价格及苹果后续财报毛利率。"
-      }
+      "score": 32
     }
   ]
 }
