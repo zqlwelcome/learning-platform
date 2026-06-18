@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 03:01",
+  "updateTime": "2026-06-19 03:05",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州押注IPO税收，但多重因素扰动预期",
+        "assets": "美股科技IPO（利空），加州市政债（利空）",
+        "chain": "IPO税收不及预期→加州财政恶化→市政债风险溢价上升",
+        "watch": "加州税收数据及IPO市场活跃度"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普施压Fed理事Lisa Cook致其法律安保费超百万",
+        "assets": "美元（中性偏空），美债（中性偏空）",
+        "chain": "政治干预Fed→市场担忧独立性→美元及美债承压",
+        "watch": "Fed官员辞职情况或国会听证会"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预计Warsh领导Fed将比预期更鹰派",
+        "assets": "美元（利好），美债收益率（上行），美股（利空）",
+        "chain": "鹰派Fed→加息预期升温→流动性收紧→风险资产承压",
+        "watch": "Warsh首次讲话措辞及点阵图变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Kevin Warsh首次Fed会议释放五大关键信号",
+        "assets": "美元（看涨），美债短端（利空），黄金（利空）",
+        "chain": "鹰派基调→加息路径陡峭→实际利率上升→黄金承压",
+        "watch": "会议纪要中的通胀评估及前瞻指引"
+      }
     }
   ]
 }
