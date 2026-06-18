@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-18 23:07",
+  "updateTime": "2026-06-18 23:11",
   "news": [
     {
       "rank": 1,
+      "title": "Stocks rebound from Fed sell-off as oil prices slide, chip stocks rally: Live updates",
+      "source": "CNBC",
+      "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
+      "lang": "en",
+      "score": 62,
+      "insight": {
+        "what": "美股反弹，油价下跌，芯片股领涨",
+        "assets": "📈 美股科技股 利好；📉 原油 承压",
+        "chain": "油价下跌降低通胀预期（物价上涨压力），缓解美联储加息（借钱成本提高）担忧，利好成长股",
+        "watch": "EIA（美国能源情报署）原油库存数据"
+      }
+    },
+    {
+      "rank": 2,
       "title": "“物理AI第一股”暗盘暴涨262%，下周一港股上市",
       "source": "21世纪经济报道",
       "detail": " 6月18日傍晚，被称为“物理AI第一股”的海清智元暗盘暴涨，截至18：29分涨幅达到262%。下周一（6月22日），该股将在港股挂牌上市。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI板块 利好; 📈 相关Pre-IPO基金 利好",
-        "chain": "AI概念股估值中枢上移（PE扩张），资金从传统科技股轮动至AI硬件标的",
-        "watch": "下周一开盘换手率及首日收盘涨幅"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "Stocks rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates",
-      "source": "CNBC",
-      "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "美股反弹，英特尔领涨芯片股，试图收复美联储抛售失地",
-        "assets": "📈 美股半导体（芯片股） 利好; 📈 纳斯达克指数 利好",
-        "chain": "市场从利率恐慌（加息担忧）转向基本面交易（buy the dip），科技股beta（波动弹性）放大",
-        "watch": "今晚美国10年期国债收益率是否回落至4.2%以下"
+        "what": "“物理AI第一股”暗盘暴涨262%，下周一港股上市",
+        "assets": "📈 港股AI板块 利好；📈 次新股情绪 提振",
+        "chain": "暗盘暴涨吸引散户追涨（FOMO情绪），可能带动港股科技IPO（新股发行）估值抬升",
+        "watch": "上市首日成交量及换手率"
       }
     },
     {
       "rank": 3,
-      "title": "Stock market today: Dow, S&P 500, Nasdaq climb with focus on Iran deal, Fed hike path - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 45,
+      "score": 39,
       "insight": {
-        "what": "美股三大指数上涨，关注伊朗核协议及美联储加息路径",
-        "assets": "📈 美股大盘 利好; 📉 原油 承压",
-        "chain": "伊朗协议若达成，原油供给增加（利空油价），降低通胀预期（利多成长股）",
-        "watch": "伊朗核谈判进展及美联储6月点阵图"
+        "what": "纳斯达克大涨，油价跌回伊朗战争前水平",
+        "assets": "📈 纳斯达克指数 利好；📉 原油 承压",
+        "chain": "油价回落降低生产成本，企业盈利预期改善（EPS（每股收益）上修），科技股获资金流入",
+        "watch": "布伦特原油是否跌破75美元"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "A股市值前十强半数科技股，中际旭创市值首超茅台",
-        "assets": "📈 A股科技股（光模块） 利好; 📉 A股消费股（白酒） 承压",
-        "chain": "资金从防御性消费（低增长）轮动至AI算力（高景气），市场风险偏好（risk-on）回升",
-        "watch": "中际旭创下周是否能站稳万亿市值"
+        "what": "A股前十强半数科技股，中际旭创市值超茅台",
+        "assets": "📈 A股科技股 利好；📉 消费白酒板块 承压",
+        "chain": "资金从消费转向科技，反映市场风险偏好（愿意冒险）提升，AI算力需求成主线",
+        "watch": "科技ETF（交易型开放式指数基金）资金流入量"
       }
     },
     {
@@ -65,53 +65,41 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "Yardeni策略师称美联储若真想实现通胀目标可能加息",
-        "assets": "📉 美股大盘 承压; 📉 黄金 承压; 📈 美元 利好",
-        "chain": "加息预期升温（利率上升）→ 压制风险资产估值（DCF折现率提高），美元走强（资金回流美元资产）",
-        "watch": "5月CPI数据（6月12日公布）及美联储官员鹰派言论频率"
+        "what": "资深策略师称美联储若想降通胀可能加息",
+        "assets": "📉 美股整体 利空；📈 美元 利好",
+        "chain": "加息预期推高美债收益率（无风险收益），压制股票估值（PE（市盈率）收缩），利空成长股",
+        "watch": "美联储官员本周讲话措辞"
       }
     },
     {
       "rank": 6,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州财政依赖IPO税收，多重因素使预期复杂化",
-        "assets": "📉 加州市政债 承压; 📈 美国科技IPO 中性偏空",
-        "chain": "IPO降温→加州税收缺口扩大→州政府可能削减开支或增税（利空本地经济及债券评级）",
-        "watch": "下半年科技IPO排队数量（如Reddit、Arm等）及加州税收修正案"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Goldman’s Kaplan Says Fed May Hike by Fall, Sees Risk of More - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "高盛卡普兰预计美联储可能在秋季加息，并警告存在更多加息风险",
-        "assets": "美元（看涨）、美债收益率（上行）、美股（承压）",
-        "chain": "加息预期升温→美元走强→新兴市场资本外流压力加大→全球风险资产承压",
-        "watch": "本周美联储官员讲话及CPI数据"
+        "what": "高盛Kaplan预测美联储秋季加息，风险偏上行",
+        "assets": "📉 美股 利空；📈 美元 利好；📉 黄金 承压",
+        "chain": "加息预期强化美元走强，新兴市场资金外流（资本回流美国），大宗商品需求受抑",
+        "watch": "6月CPI（消费者物价指数）数据公布"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普试图解雇美联储理事丽莎·库克，导致其承担超100万美元法律及安保费用",
-        "assets": "美债（轻微负面，政治干预风险）、美元（短期情绪承压）",
-        "chain": "政治干预美联储独立性担忧→市场对政策可信度打折→长期美债收益率波动加剧",
-        "watch": "国会是否启动对美联储独立性调查"
-      }
+      "score": 35
+    },
+    {
+      "rank": 8,
+      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
+      "source": "CNBC",
+      "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
+      "lang": "en",
+      "score": 35
     },
     {
       "rank": 9,
@@ -119,13 +107,15 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "分析认为凯文·沃什主席的特别工作组是理解新美联储的关键",
-        "assets": "美债收益率曲线（陡化预期）、美元（中期看涨）、黄金（承压）",
-        "chain": "沃什工作组主导政策框架改革→更鹰派立场预期→实际利率上升→压制贵金属",
-        "watch": "沃什公开讲话及工作组组成名单"
-      }
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "source": "CNBC",
+      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
