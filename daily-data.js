@@ -352,11 +352,13 @@ async function renderSummaryContent() {
     const briefingData = await loadBriefingData();
     const quoteMap = await loadTradeQuoteMap();
     const macro = assessTradeMacroRegime(briefingData.hotNews || []);
-    const tradePoolHtml = await buildAutoTradePoolHtml(briefingData.hotNews || [], quoteMap, macro);
-    const sectorHeatHtml = buildSectorHeatHtml(briefingData.hotNews || [], briefingData.globalFlow || {}, quoteMap, macro);
+    const marketContext = buildMarketContext(briefingData.hotNews || [], briefingData.globalFlow || {}, quoteMap, macro, briefingData.paperTrades || null, moodData);
+    const tradePoolHtml = await buildAutoTradePoolHtml(briefingData.hotNews || [], quoteMap, macro, marketContext);
+    const sectorHeatHtml = buildSectorHeatHtml(briefingData.hotNews || [], briefingData.globalFlow || {}, quoteMap, macro, marketContext);
     window._paperTradeContext = { hotNews: briefingData.hotNews || [], quoteMap, macro, paperTrades: briefingData.paperTrades || null };
-    const paperTradeHtml = isPaperTradeAuthorized() ? buildPaperTradeHtml(briefingData.hotNews || [], quoteMap, macro, briefingData.paperTrades) : getPaperTradeGateHtml();
+    const paperTradeHtml = isPaperTradeAuthorized() ? buildPaperTradeHtml(briefingData.hotNews || [], quoteMap, macro, briefingData.paperTrades, marketContext) : getPaperTradeGateHtml();
     window._expertsData = expertsData;
+    window._marketContext = marketContext;
     
     const conf = Math.min(10, Math.max(0, moodData.confidence || 5));
     const bars = Array.from({length: 10}, (_, i) => `<span class="a-bar${i < conf ? ' fill' : ''}"></span>`).join('');
@@ -380,7 +382,7 @@ async function renderSummaryContent() {
         munger:    { name: '芒格',   icon: '🧠', color: '#34c759' },
         duan:      { name: '段永平', icon: '🧑‍💼', color: '#0071e3' }
     };
-    const radarHtml = getForwardRadarHtml();
+    const radarHtml = getForwardRadarHtml(marketContext);
 
     const quickHtml = `
         <div class="a-quick" id="expertMoodBanner">
@@ -435,7 +437,7 @@ async function renderSummaryContent() {
         `;
     }).join('');
     
-    el.innerHTML = quickHtml + moodHtml + `
+    el.innerHTML = `
         <!-- 统一卡片：智囊团 + 市场日历 + 资金流向 + 板块轮动 -->
         <div class="a-insights">
             <div class="a-insights-tabs-wrapper">
@@ -455,6 +457,9 @@ async function renderSummaryContent() {
             
             <!-- 智囊团内容 -->
             <div class="a-insights-content active" id="insight-braintrust">
+                ${quickHtml}
+                ${moodHtml}
+                ${renderMarketLinkMap(marketContext)}
                 <div class="a-btns">${btnsHtml}</div>
                 <div id="expertContent"></div>
             </div>
@@ -472,7 +477,7 @@ async function renderSummaryContent() {
             <div class="a-insights-content" id="insight-flow">
                 <div class="a-radar-intro">
                     <div class="a-radar-kicker">自动交易池 v5</div>
-                    <div class="a-radar-copy">新闻事件自动进模型，覆盖美股、港股、A股，叠加实时涨跌、成交额、5日趋势和热度过滤；单股财报排雷未通过前只进监控。</div>
+                    <div class="a-radar-copy">新闻事件不是唯一入口，会叠加本周雷达、全球资金主线、实时涨跌、成交额、5日趋势和模拟盘冷却期；单股财报排雷未通过前只进监控。</div>
                 </div>
                 ${tradePoolHtml}
             </div>
@@ -529,17 +534,33 @@ function renderExpertContent() {
     const ex = expertsData[_currentExpert];
     
     if (ex && ex.insight) {
+        const brief = getExpertBrief(_currentExpert, window._marketContext);
         el.innerHTML = `
             <div class="a-banner">
                 <span class="a-bi">${m.icon}</span>
                 <div class="a-bn">${m.name}今天怎么想</div>
             </div>
-            <div class="a-card" style="border-left-color:${m.color}">
-                <div class="a-card-body">${ex.insight.replace(/\n/g, '<br>')}</div>
+            <div class="expert-brief-card" style="border-left-color:${m.color}">
+                <div class="expert-brief-title">${safeText(brief.one)}</div>
+                <div class="expert-brief-grid">
+                    <div><span>先看</span><b>${safeText(brief.watch)}</b></div>
+                    <div><span>别急</span><b>${safeText(brief.avoid)}</b></div>
+                </div>
+                <div class="expert-brief-trigger">${safeText(brief.trigger)}</div>
             </div>
-            <div class="a-card a-action" style="border-left-color:${m.color}">
-                <div class="a-card-label">如果非要做点什么</div>
-                <div class="a-card-body" style="font-weight:500;color:#664d03;">${ex.action || '等待数据更新，先别硬操作。'}</div>
+            <div class="expert-full-toggle" onclick="toggleExpertFullView()">
+                <span>展开完整观点</span>
+                <b id="expertFullArrow">›</b>
+            </div>
+            <div class="expert-full-view" id="expertFullView">
+                <div class="a-card" style="border-left-color:${m.color}">
+                    <div class="a-card-label">完整逻辑</div>
+                    <div class="a-card-body">${ex.insight.replace(/\n/g, '<br>')}</div>
+                </div>
+                <div class="a-card a-action" style="border-left-color:${m.color}">
+                    <div class="a-card-label">如果非要做点什么</div>
+                    <div class="a-card-body" style="font-weight:500;color:#664d03;">${ex.action || '等待数据更新，先别硬操作。'}</div>
+                </div>
             </div>
             <div class="a-feedback">
                 <span class="a-fb-label">这个判断</span>
@@ -550,6 +571,139 @@ function renderExpertContent() {
     } else {
         el.innerHTML = '<div style="text-align:center;padding:24px 0;color:var(--text2);">高手还没到场，茶先泡着。</div>';
     }
+}
+
+function getExpertBrief(expertKey, context) {
+    const mainline = context?.mainlines?.[0]?.name || '当前主线';
+    const radar = context?.radarEvents?.[0]?.event || '关键事件';
+    const targets = (context?.tradeTargets || []).slice(0, 2).map(item => `${item.name}${item.code}`).join('、') || '交易池候选';
+    const paper = context?.paper?.selectedCount > 0
+        ? `模拟盘已有 ${context.paper.selectedCount} 个信号，继续看复盘表现。`
+        : `模拟盘未放行，先等价格和风控确认。`;
+    const map = {
+        templeton: {
+            one: `逆向看：${mainline} 热了，但不等于现在就追。`,
+            watch: `${radar} 后有没有被错杀的资产。`,
+            avoid: `只因为新闻热就追 ${targets}。`,
+            trigger: paper
+        },
+        buffett: {
+            one: `价值看：先看现金流和护城河，再看涨跌。`,
+            watch: `${mainline} 里谁能把利润做出来。`,
+            avoid: `买入只靠估值故事、没有盈利兑现的标的。`,
+            trigger: paper
+        },
+        munger: {
+            one: `风险看：先找反证，别把热闹当确定性。`,
+            watch: `${radar} 会不会改变利率、油价或流动性。`,
+            avoid: `看不懂、太拥挤、没有退出纪律。`,
+            trigger: paper
+        },
+        duan: {
+            one: `好生意看：能懂、能等、价格舒服才动。`,
+            watch: `${targets} 是否真符合好生意和好价格。`,
+            avoid: `把新闻催化当成买入理由。`,
+            trigger: paper
+        }
+    };
+    return map[expertKey] || map.templeton;
+}
+
+function buildMarketContext(hotNews = [], globalFlow = {}, quoteMap = {}, macro = {}, paperTrades = null, moodData = {}) {
+    const text = (hotNews || []).map(n => `${n.title || ''} ${n.summary || ''} ${n.detail || ''}`).join(' ').toLowerCase();
+    const indices = globalFlow?.indices || {};
+    const radarEvents = getVisibleForwardRadarEvents().slice(0, 3);
+    const tradeCards = uniqueTradeCards((hotNews || [])
+        .map(news => scoreTradeEvent(news, quoteMap, macro))
+        .filter(item => item.score >= 4)
+        .sort((a, b) => b.score - a.score))
+        .slice(0, 4);
+    const tradeTargets = getTradePoolUniqueTargets(tradeCards).slice(0, 5).map(({ target, card }) => ({
+        name: target.name,
+        code: target.code,
+        market: target.market,
+        type: card.type
+    }));
+    const mainlines = getSectorProfiles()
+        .map(profile => scoreSectorProfile(profile, text, indices, quoteMap, macro))
+        .filter(item => item.score >= 35)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 3);
+    const factorReport = paperTrades?.stats?.factorModelReport || null;
+    const audit = Array.isArray(factorReport?.audit) ? factorReport.audit : [];
+    const topRejected = audit.find(item => item.rejectedReasons?.length) || null;
+    const selectedCount = Array.isArray(paperTrades?.candidates) ? paperTrades.candidates.length : 0;
+    const tradeCount = Array.isArray(paperTrades?.trades) ? paperTrades.trades.length : 0;
+    const closedTrades = Array.isArray(paperTrades?.trades) ? paperTrades.trades.filter(isPaperTradeClosed) : [];
+    const wins = closedTrades.filter(trade => Number(trade.finalPnlPct ?? trade.pnlPct) > 0).length;
+    return {
+        mood: moodData?.mood || '等待情绪更新',
+        macroLabel: macro?.label || '宏观待确认',
+        riskMode: getMarketContextRiskMode(macro, mainlines, factorReport),
+        radarEvents,
+        mainlines,
+        tradeTargets,
+        paper: {
+            version: paperTrades?.version || 7,
+            selectedCount,
+            tradeCount,
+            rawCandidateCount: factorReport?.rawCandidateCount ?? audit.length,
+            topRejectedReason: topRejected?.rejectedReasons?.[0] || '暂无主要否决项',
+            winRate: closedTrades.length ? Math.round((wins / closedTrades.length) * 100) : null
+        }
+    };
+}
+
+function getMarketContextRiskMode(macro, mainlines, factorReport) {
+    const label = macro?.label || '';
+    const topScore = mainlines?.[0]?.score || 0;
+    const selected = factorReport?.selectedCount || 0;
+    if (/防守|收缩|高利率|避险/.test(label)) return '防守优先';
+    if (selected === 0 && factorReport) return '机会观察';
+    if (topScore >= 75) return '顺势但控仓';
+    return '均衡观察';
+}
+
+function renderMarketLinkMap(context) {
+    if (!context) return '';
+    const topLine = context.mainlines?.[0];
+    const topEvent = context.radarEvents?.[0];
+    const topTargets = (context.tradeTargets || []).slice(0, 3).map(item => `${item.name} ${item.code}`).join(' / ') || '等待交易池确认';
+    const paperText = context.paper?.selectedCount > 0
+        ? `模拟盘本轮入选 ${context.paper.selectedCount} 个信号`
+        : `模拟盘暂缓：${context.paper?.topRejectedReason || '等待确认'}`;
+    return `
+        <div class="market-link-map">
+            <div class="market-link-head" onclick="toggleMarketLinkMap()">
+                <span>今日投研闭环</span>
+                <b>${safeText(context.riskMode)}</b>
+                <em id="marketLinkArrow">›</em>
+            </div>
+            <div class="market-link-compact">
+                <span>${safeText(topEvent ? topEvent.event : '等待雷达刷新')}</span>
+                <b>${safeText(topLine ? `${topLine.name} ${topLine.bias}` : context.macroLabel)}</b>
+            </div>
+            <div class="market-link-detail" id="marketLinkDetail">
+                <div class="market-link-chain">
+                    <span>本周雷达</span>
+                    <i></i>
+                    <span>资金主线</span>
+                    <i></i>
+                    <span>交易池</span>
+                    <i></i>
+                    <span>模拟盘</span>
+                    <i></i>
+                    <span>高手解读</span>
+                </div>
+                <div class="market-link-grid">
+                    <div><small>最该盯</small><b>${safeText(topEvent ? `${topEvent.event}｜${topEvent.region}` : '等待雷达刷新')}</b></div>
+                    <div><small>资金主线</small><b>${safeText(topLine ? `${topLine.name} ${topLine.bias}` : context.macroLabel)}</b></div>
+                    <div><small>候选资产</small><b>${safeText(topTargets)}</b></div>
+                    <div><small>模型纪律</small><b>${safeText(paperText)}</b></div>
+                </div>
+            </div>
+        </div>
+    `;
 }
 
 function getTraderMoodLens(moodData) {
@@ -569,8 +723,8 @@ function getTraderMoodLens(moodData) {
     ];
 }
 
-function getForwardRadarHtml() {
-    const events = [
+function getForwardRadarEvents() {
+    return [
         {
             date: '2026-06-05',
             label: '06/05 结果',
@@ -676,17 +830,26 @@ function getForwardRadarHtml() {
             plain: '不是喊支持楼市就算数，要看贷款利率和成交量有没有真的动。'
         }
     ];
+}
+
+function getVisibleForwardRadarEvents(events = getForwardRadarEvents()) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     const recentStart = new Date(today);
     recentStart.setDate(recentStart.getDate() - 7);
     const futureEnd = new Date(today);
     futureEnd.setDate(futureEnd.getDate() + 14);
-    const visible = events.filter(item => {
+    return events.filter(item => {
         const eventDate = new Date(`${item.date}T00:00:00`);
         return eventDate >= recentStart && eventDate <= futureEnd;
     });
+}
 
+function getForwardRadarHtml(context = null) {
+    const visible = getVisibleForwardRadarEvents();
+    const contextLine = context?.mainlines?.[0]
+        ? `联动提示：这批事件会优先影响「${safeText(context.mainlines[0].name)}」，交易池和模拟盘会继续用价格、成交和风控过滤。`
+        : '联动提示：本周雷达先定事件，交易池和模拟盘再用价格、成交和风控确认。';
     return `<div class="a-calendar-list">${visible.map(item => `
         <div class="a-calendar-item expanded">
             <div class="a-calendar-main">
@@ -705,11 +868,12 @@ function getForwardRadarHtml() {
             </div>
         </div>
     `).join('')}
+        <div class="a-flow-disclaimer">${contextLine}</div>
         <div class="a-flow-disclaimer">免责声明：这里只是学习和市场阅读框架，不构成个性化投资建议。真实交易请结合自己的风险承受力、仓位管理和资金期限执行。</div>
     </div>`;
 }
 
-async function buildAutoTradePoolHtml(hotNews, quoteMap = null, macro = null) {
+async function buildAutoTradePoolHtml(hotNews, quoteMap = null, macro = null, marketContext = null) {
     quoteMap = quoteMap || await loadTradeQuoteMap();
     macro = macro || assessTradeMacroRegime(hotNews || []);
     const cards = uniqueTradeCards((hotNews || [])
@@ -729,7 +893,7 @@ async function buildAutoTradePoolHtml(hotNews, quoteMap = null, macro = null) {
     return `
         <div class="a-flow-list">
             <div class="a-flow-hint" onclick="this.style.display='none'"><span class="a-flow-hint-icon">👇</span><span class="a-flow-hint-text">点击情报卡，查看模型判断</span></div>
-            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。交易池情报分成核心池、机会池、防御池；只有通过入场确认分的标的才会进入模拟盘验证。</div>
+            <div class="a-flow-disclaimer">当前宏观底色：${safeText(macro.label)}。交易池情报分成核心池、机会池、防御池；只有通过入场确认分的标的才会进入模拟盘验证。${marketContext?.mainlines?.[0] ? `今日优先和「${safeText(marketContext.mainlines[0].name)}」主线交叉验证。` : ''}</div>
             ${renderTradePoolLayerSummary(cards, macro)}
             ${cards.map(card => renderTradePoolCard(card, macro)).join('')}
             <div class="a-flow-item">
@@ -1032,8 +1196,9 @@ function scoreSectorProfile(profile, text, indices, quoteMap, macro) {
     };
 }
 
-function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
+function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null, marketContext = null) {
     const hasCloudTrades = Array.isArray(cloudSnapshot?.trades);
+    const modelVersion = cloudSnapshot?.version || 7;
     const candidates = hasCloudTrades ? cloudSnapshot.candidates || [] : getPaperTradeCandidates(hotNews, quoteMap, macro);
     const trades = hasCloudTrades ? refreshPaperTradesForDisplay(cloudSnapshot.trades, quoteMap, macro) : updatePaperTrades(candidates, quoteMap, macro);
     const effectiveTrades = trades.filter(trade => trade.status !== '重复剔除');
@@ -1044,10 +1209,11 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
     const avgPnl = closedTrades.length ? closedTrades.reduce((sum, trade) => sum + Number(trade.finalPnlPct ?? trade.pnlPct ?? 0), 0) / closedTrades.length : null;
     const portfolio = getPaperPortfolioStats(trades);
     const phaseStats = getPaperPhaseStats(trades);
+    const factorReport = cloudSnapshot?.stats?.factorModelReport || null;
 
     return `
         <div class="a-radar-intro">
-            <div class="a-radar-kicker">模型模拟盘 v9 · ${hasCloudTrades ? '云端自动' : '本地试跑'}</div>
+            <div class="a-radar-kicker">模型模拟盘 v${safeText(modelVersion)} · ${hasCloudTrades ? '云端自动' : '本地预览'}</div>
             <div class="a-radar-copy">用10万元虚拟本金验证模型：新闻只做催化线索，入池要同时看催化、价格、资金、质量、风险五因子。目标是训练投研助手，不承诺固定收益。${hasCloudTrades ? `云端最近更新：${formatPaperUpdateTime(cloudSnapshot.updateTime)}` : '打开网页时本地生成，云端数据可用后会自动接管。'}</div>
         </div>
         <div class="paper-score-grid">
@@ -1079,9 +1245,10 @@ function buildPaperTradeHtml(hotNews, quoteMap, macro, cloudSnapshot = null) {
         <div class="paper-phase-grid">
             ${phaseStats.map(renderPaperPhaseCard).join('')}
         </div>
+        ${renderPaperFactorReport(factorReport)}
         <div class="a-flow-list">
             <div class="paper-toolbar">
-                <span>纪律：单标的≤15%，动态权益≤${getPaperPortfolioCap(macro)}%，10日必须复盘。</span>
+                <span>纪律：单标的≤15%，动态权益≤${getPaperPortfolioCap(macro)}%，10日必须复盘。${marketContext?.riskMode ? `当前模式：${safeText(marketContext.riskMode)}` : ''}</span>
                 <button onclick="resetPaperTrades()">清空重测</button>
             </div>
             <div class="a-flow-disclaimer">${hasCloudTrades ? '云端模拟盘每个交易日约每2小时自动跑一次；旧信号保留复盘，新信号按模型规则加入。' : '模拟盘会自动记录“观察池”标的。'}桥水式思路只借鉴公开原则：先分散风险，再用纪律验证，不把单条新闻当神谕。这里是模型验证，不是真实交易建议。</div>
@@ -1562,6 +1729,60 @@ function renderPaperPhaseCard(phase) {
             <small>${phase.avg === null ? '暂无完成信号' : `均值 ${phase.avg >= 0 ? '+' : ''}${phase.avg.toFixed(2)}% · ${phase.samples}条`}</small>
         </div>
     `;
+}
+
+function renderPaperFactorReport(report) {
+    if (!report) return '';
+    const audit = Array.isArray(report.audit) ? report.audit.slice(0, 6) : [];
+    const weights = report.factorWeights || {};
+    return `
+        <div class="paper-factor-panel">
+            <div class="paper-factor-head">
+                <span>多因子模型审计</span>
+                <b>${safeText(report.selectedCount ?? 0)}/${safeText(report.rawCandidateCount ?? 0)} 入选</b>
+            </div>
+            <div class="paper-factor-copy">${safeText(report.gate || '模型会同时检查宏观、趋势、资金、事件、风险和资产适配，不强行每天给信号。')}</div>
+            <div class="paper-factor-weights">
+                ${Object.entries(weights).map(([key, value]) => `<span>${safeText(getPaperFactorLabel(key))} ${safeText(value)}</span>`).join('')}
+            </div>
+            ${audit.length ? `
+                <div class="paper-factor-audit">
+                    ${audit.map(renderPaperFactorAuditItem).join('')}
+                </div>
+            ` : '<div class="a-flow-disclaimer">当前没有候选审计数据，等待云端下一次模型运行。</div>'}
+        </div>
+    `;
+}
+
+function renderPaperFactorAuditItem(item) {
+    const passed = item.passed ? '通过' : '未入选';
+    const reasons = Array.isArray(item.rejectedReasons) && item.rejectedReasons.length ? item.rejectedReasons.join(' / ') : '已通过全部门槛';
+    const components = item.factorComponents || {};
+    return `
+        <div class="paper-factor-item">
+            <div class="paper-factor-title">
+                <b>${safeText(item.name)} ${safeText(item.symbol)}</b>
+                <span>${safeText(item.factorScore ?? '-')}/${safeText(item.factorThreshold ?? '-')} · ${safeText(passed)}</span>
+            </div>
+            <div class="paper-factor-bars">
+                ${Object.entries(components).map(([key, value]) => `
+                    <span>${safeText(getPaperFactorLabel(key))}<em>${safeText(value)}</em></span>
+                `).join('')}
+            </div>
+            <div class="paper-factor-reason">${safeText(reasons)}</div>
+        </div>
+    `;
+}
+
+function getPaperFactorLabel(key) {
+    return {
+        macroFit: '宏观',
+        trend: '趋势',
+        flow: '资金',
+        eventCatalyst: '事件',
+        riskControl: '风控',
+        assetFit: '适配'
+    }[key] || key;
 }
 
 function getPaperPortfolioStats(trades) {
@@ -2072,6 +2293,25 @@ function toggleExpertMoodBanner() {
     arrow.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
 }
 
+function toggleMarketLinkMap() {
+    const map = document.querySelector('.market-link-map');
+    const detail = document.getElementById('marketLinkDetail');
+    const arrow = document.getElementById('marketLinkArrow');
+    if (!map || !detail) return;
+    const isOpen = map.classList.toggle('expanded');
+    detail.style.display = isOpen ? 'block' : 'none';
+    if (arrow) arrow.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
+}
+
+function toggleExpertFullView() {
+    const detail = document.getElementById('expertFullView');
+    const arrow = document.getElementById('expertFullArrow');
+    if (!detail) return;
+    const isOpen = detail.classList.toggle('expanded');
+    detail.style.display = isOpen ? 'block' : 'none';
+    if (arrow) arrow.style.transform = isOpen ? 'rotate(90deg)' : 'rotate(0deg)';
+}
+
 // ===== 用户反馈 =====
 function fbFeedback(expert, type) {
     const key = 'fb_' + expert + '_' + type;
@@ -2110,7 +2350,11 @@ function xhrFetch(url) {
         xhr.open('GET', url + '?_=' + Date.now() + Math.random(), true);
         xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         xhr.timeout = 8000;
-        xhr.onload = () => { if (xhr.status === 200) { try { resolve(JSON.parse(xhr.responseText)); } catch(e) { reject(e); } } else reject(); };
+        xhr.onload = () => {
+            if (xhr.status === 200 || (xhr.status === 0 && xhr.responseText)) {
+                try { resolve(JSON.parse(xhr.responseText)); } catch(e) { reject(e); }
+            } else reject();
+        };
         xhr.onerror = () => reject();
         xhr.ontimeout = () => reject();
         xhr.send();

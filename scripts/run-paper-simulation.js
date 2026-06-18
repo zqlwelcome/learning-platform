@@ -5,7 +5,7 @@ const path = require('path');
 const vm = require('vm');
 
 const root = path.resolve(__dirname, '..');
-const dailyDataPath = path.join(root, 'daily-data.js');
+const dailyDataPath = process.env.DAILY_DATA_PATH || path.join(root, 'daily-data.js');
 const liveHotNewsPath = path.join(root, 'data', 'live-hot-news.json');
 const hotNewsPath = path.join(root, 'data', 'hot-news.json');
 const outputPath = path.join(root, 'data', 'paper-trades.json');
@@ -125,6 +125,186 @@ function getEventAlignment(candidate) {
     };
 }
 
+function clampScore(value, max = 20) {
+    return Math.max(0, Math.min(max, Math.round(value)));
+}
+
+function getQuoteForCandidate(candidate, quoteMap) {
+    return quoteMap?.[candidate.symbol] || {};
+}
+
+function scoreMacroFit(candidate, macro = {}) {
+    const bucket = candidate.assetBucket || getAssetBucket(candidate);
+    let score = 8;
+    if (bucket === '商品与避险') {
+        if (macro.oilShock) score += 7;
+        if (macro.riskOff) score += 4;
+        if (macro.rateUp && hasAnyTheme(candidate, ['gold'])) score += 2;
+    } else if (bucket === '科技成长') {
+        if (macro.aiCapex) score += 8;
+        if (macro.rateDown) score += 4;
+        if (macro.rateUp) score -= 5;
+        if (macro.riskOff) score -= 4;
+    } else if (bucket === '中国资产') {
+        if (macro.chinaSupport) score += 8;
+        if (macro.riskOff) score -= 2;
+    } else if (bucket === '防御资产') {
+        if (macro.riskOff) score += 6;
+        if (macro.rateUp && hasAnyTheme(candidate, ['cash'])) score += 5;
+        if (macro.rateDown && hasAnyTheme(candidate, ['bond'])) score += 5;
+    } else if (bucket === '美股核心') {
+        if (macro.rateDown) score += 4;
+        if (macro.rateUp) score -= 3;
+        if (macro.riskOff) score -= 2;
+    }
+    return clampScore(score);
+}
+
+function scoreTrend(candidate, quote = {}) {
+    const pct = Number(quote.pct);
+    const fiveDayPct = Number(quote.fiveDayPct);
+    let score = 8;
+    if (Number.isFinite(fiveDayPct)) {
+        if (fiveDayPct >= 0.8 && fiveDayPct <= 6) score += 7;
+        else if (fiveDayPct > 6 && fiveDayPct <= 10) score += 3;
+        else if (fiveDayPct > 10) score -= 5;
+        else if (fiveDayPct < -6) score -= 5;
+        else if (fiveDayPct < -2) score -= 2;
+    }
+    if (Number.isFinite(pct)) {
+        if (pct >= 0.2 && pct <= 3) score += 4;
+        else if (pct > 3 && pct <= 5) score += 1;
+        else if (pct > 5) score -= 5;
+        else if (pct < -4) score -= 4;
+    }
+    return clampScore(score);
+}
+
+function scoreFlow(candidate, quote = {}) {
+    const flowFactor = Number(candidate.entryFactors?.flow || 0);
+    const amount = Number(quote.amount || 0);
+    const pct = Number(quote.pct);
+    let score = Math.round(flowFactor * 0.55) + 4;
+    if (amount > 0) score += amount >= 50000 ? 4 : amount >= 10000 ? 2 : -2;
+    if (Number.isFinite(pct) && pct > 0) score += 2;
+    return clampScore(score);
+}
+
+function scoreEventCatalyst(candidate) {
+    const alignment = candidate.eventAlignment || getEventAlignment(candidate);
+    let score = Math.round(Number(candidate.confirmationScore || 0) * 0.12) + Math.round(Number(candidate.score || 0) * 0.8);
+    if (alignment.pass) score += 4;
+    if (candidate.eventType === '基本面类' || candidate.eventType === '政策类') score += 1;
+    return clampScore(score);
+}
+
+function scoreRiskControl(candidate, quote = {}, macro = {}) {
+    const pct = Number(quote.pct);
+    const fiveDayPct = Number(quote.fiveDayPct);
+    const heat = Number(quote.heat);
+    let score = 15;
+    if (Number.isFinite(heat) && heat > 0.88) score -= 6;
+    if (Number.isFinite(pct) && Math.abs(pct) > 5) score -= 5;
+    if (Number.isFinite(fiveDayPct) && fiveDayPct > 10) score -= 5;
+    if (Number.isFinite(fiveDayPct) && fiveDayPct < -8) score -= 4;
+    if (candidate.kind === 'Stock') score -= 2;
+    if (macro.riskOff && candidate.kind === 'Stock') score -= 4;
+    if (!(candidate.eventAlignment || getEventAlignment(candidate)).pass) score -= 4;
+    return clampScore(score);
+}
+
+function scoreAssetFit(candidate, macro = {}) {
+    const bucket = candidate.assetBucket || getAssetBucket(candidate);
+    let score = candidate.kind === 'ETF' ? 13 : 9;
+    if (bucket === '商品与避险' && (macro.oilShock || macro.riskOff)) score += 4;
+    if (bucket === '科技成长' && macro.aiCapex && !macro.rateUp) score += 4;
+    if (bucket === '中国资产' && macro.chinaSupport) score += 4;
+    if (bucket === '防御资产' && (macro.riskOff || macro.rateUp || macro.rateDown)) score += 4;
+    if (bucket === '美股核心' && !macro.riskOff) score += 2;
+    return clampScore(score);
+}
+
+function getFactorModel(candidate, quoteMap, macro) {
+    const quote = getQuoteForCandidate(candidate, quoteMap);
+    const components = {
+        macroFit: scoreMacroFit(candidate, macro),
+        trend: scoreTrend(candidate, quote),
+        flow: scoreFlow(candidate, quote),
+        eventCatalyst: scoreEventCatalyst(candidate),
+        riskControl: scoreRiskControl(candidate, quote, macro),
+        assetFit: scoreAssetFit(candidate, macro)
+    };
+    const weighted = components.macroFit * 0.2 +
+        components.trend * 0.2 +
+        components.flow * 0.15 +
+        components.eventCatalyst * 0.2 +
+        components.riskControl * 0.15 +
+        components.assetFit * 0.1;
+    const totalScore = Math.round(weighted * 5);
+    const warnings = [];
+    if (components.riskControl < 8) warnings.push('风险控制分偏低');
+    if (components.trend < 7) warnings.push('价格趋势确认不足');
+    if (components.eventCatalyst < 10) warnings.push('事件催化不够强');
+    if (!(candidate.eventAlignment || getEventAlignment(candidate)).pass) warnings.push('事件和资产方向弱匹配');
+    return {
+        style: 'Qlib-inspired multi-factor ranker',
+        totalScore,
+        components,
+        weights: {
+            macroFit: 0.2,
+            trend: 0.2,
+            flow: 0.15,
+            eventCatalyst: 0.2,
+            riskControl: 0.15,
+            assetFit: 0.1
+        },
+        quoteSnapshot: {
+            pct: Number.isFinite(Number(quote.pct)) ? Number(quote.pct) : null,
+            fiveDayPct: Number.isFinite(Number(quote.fiveDayPct)) ? Number(quote.fiveDayPct) : null,
+            heat: Number.isFinite(Number(quote.heat)) ? Number(quote.heat) : null
+        },
+        warnings
+    };
+}
+
+function getFactorThreshold(candidate) {
+    let threshold = candidate.kind === 'Stock' ? 82 : 68;
+    if (candidate.assetBucket === '商品与避险') threshold = Math.max(threshold, 78);
+    if (candidate.assetBucket === '科技成长' && candidate.riskMode === '防御') threshold += 4;
+    return threshold;
+}
+
+function passesFactorGate(candidate) {
+    const factor = candidate.factorModel || {};
+    const score = Number(factor.totalScore || 0);
+    const components = factor.components || {};
+    const threshold = getFactorThreshold(candidate);
+    if (score < threshold) return false;
+    if (Number(components.riskControl || 0) < 8) return false;
+    if (Number(components.eventCatalyst || 0) < 10) return false;
+    if (candidate.assetBucket !== '防御资产' && Number(components.trend || 0) < 7) return false;
+    return true;
+}
+
+function decorateCandidate(candidate, metaMap, quoteMap, macro) {
+    const withThemes = {
+        ...candidate,
+        themes: metaMap.get(candidate.symbol)?.themes || candidate.themes || []
+    };
+    const withBucket = {
+        ...withThemes,
+        assetBucket: getAssetBucket(withThemes)
+    };
+    const withAlignment = {
+        ...withBucket,
+        eventAlignment: getEventAlignment(withBucket)
+    };
+    return {
+        ...withAlignment,
+        factorModel: getFactorModel(withAlignment, quoteMap, macro)
+    };
+}
+
 function getCandidateThreshold(candidate) {
     let threshold = candidate.kind === 'Stock' ? 88 : 66;
     if (candidate.eventType === '供需/地缘') {
@@ -172,26 +352,17 @@ function getChinaDate() {
     }).format(new Date());
 }
 
-function strengthenCandidates(candidates, sandbox, existingTrades) {
+function strengthenCandidates(candidates, sandbox, existingTrades, quoteMap, macro) {
     const metaMap = getTargetMetaMap(sandbox);
     const symbolSeen = new Set();
     const eventCounts = new Map();
     const today = getChinaDate();
 
     return (candidates || [])
-        .map((candidate) => ({
-            ...candidate,
-            themes: metaMap.get(candidate.symbol)?.themes || candidate.themes || []
-        }))
-        .map((candidate) => ({
-            ...candidate,
-            assetBucket: getAssetBucket(candidate)
-        }))
-        .map((candidate) => ({
-            ...candidate,
-            eventAlignment: getEventAlignment(candidate)
-        }))
+        .map((candidate) => decorateCandidate(candidate, metaMap, quoteMap, macro))
         .filter(passesCandidateQuality)
+        .filter(passesFactorGate)
+        .sort((a, b) => Number(b.factorModel?.totalScore || 0) - Number(a.factorModel?.totalScore || 0))
         .filter((candidate) => !hasRecentSymbolTrade(existingTrades, candidate.symbol, today, 15))
         .filter((candidate) => {
             if (symbolSeen.has(candidate.symbol)) return false;
@@ -402,6 +573,65 @@ function getFailureReview(trades) {
     };
 }
 
+function getCandidateAudit(rawCandidates, sandbox, existingTrades, quoteMap, macro) {
+    const metaMap = getTargetMetaMap(sandbox);
+    const today = getChinaDate();
+    return (rawCandidates || [])
+        .map((candidate) => decorateCandidate(candidate, metaMap, quoteMap, macro))
+        .map((candidate) => {
+            const reasons = [];
+            if (!passesCandidateQuality(candidate)) reasons.push('确认分/事件匹配未过线');
+            if (!passesFactorGate(candidate)) reasons.push('多因子门槛未过线');
+            if (hasRecentSymbolTrade(existingTrades, candidate.symbol, today, 15)) reasons.push('15天冷却期内已有同标的信号');
+            return {
+                symbol: candidate.symbol,
+                name: candidate.name,
+                assetBucket: candidate.assetBucket,
+                kind: candidate.kind,
+                confirmationScore: candidate.confirmationScore,
+                confirmationThreshold: getCandidateThreshold(candidate),
+                factorScore: candidate.factorModel?.totalScore ?? null,
+                factorThreshold: getFactorThreshold(candidate),
+                eventAlignment: candidate.eventAlignment,
+                factorComponents: candidate.factorModel?.components || {},
+                factorWarnings: candidate.factorModel?.warnings || [],
+                rejectedReasons: reasons,
+                passed: reasons.length === 0
+            };
+        })
+        .sort((a, b) => Number(b.factorScore || 0) - Number(a.factorScore || 0));
+}
+
+function getFactorModelReport(rawCandidates, candidates, candidateAudit) {
+    const ranked = (candidates || [])
+        .map((candidate) => ({
+            symbol: candidate.symbol,
+            name: candidate.name,
+            assetBucket: candidate.assetBucket,
+            totalScore: candidate.factorModel?.totalScore ?? null,
+            components: candidate.factorModel?.components || {},
+            warnings: candidate.factorModel?.warnings || []
+        }))
+        .sort((a, b) => Number(b.totalScore || 0) - Number(a.totalScore || 0));
+    return {
+        model: 'Qlib-inspired multi-factor ranker',
+        rawCandidateCount: (rawCandidates || []).length,
+        selectedCount: (candidates || []).length,
+        rejectedCount: Math.max(0, (rawCandidates || []).length - (candidates || []).length),
+        factorWeights: {
+            macroFit: '20%',
+            trend: '20%',
+            flow: '15%',
+            eventCatalyst: '20%',
+            riskControl: '15%',
+            assetFit: '10%'
+        },
+        gate: '候选必须同时通过确认分、事件匹配、风险分、趋势分和总因子分；股票门槛高于ETF，商品/避险单独高门槛。',
+        ranked,
+        audit: (candidateAudit || []).slice(0, 12)
+    };
+}
+
 function getModelValidationReport(trades, portfolio, benchmark, costAdjusted) {
     const afterCost = costAdjusted?.modelReturnPctAfterCost;
     const relative = benchmark?.relativePct;
@@ -430,7 +660,8 @@ async function main() {
     const quoteMap = await sandbox.loadTradeQuoteMap();
     const macro = sandbox.assessTradeMacroRegime(hotNews.news);
     const rawCandidates = sandbox.getPaperTradeCandidates(hotNews.news, quoteMap, macro);
-    const candidates = strengthenCandidates(rawCandidates, sandbox, existingTrades);
+    const candidateAudit = getCandidateAudit(rawCandidates, sandbox, existingTrades, quoteMap, macro);
+    const candidates = strengthenCandidates(rawCandidates, sandbox, existingTrades, quoteMap, macro);
     const trades = addAssetBuckets(pruneDuplicateNoise(sandbox.updatePaperTrades(candidates, quoteMap, macro)), sandbox);
     const phaseStats = sandbox.getPaperPhaseStats(trades);
     const portfolio = sandbox.getPaperPortfolioStats(trades);
@@ -447,7 +678,7 @@ async function main() {
     const excludedCount = trades.filter(trade => trade.status === '重复剔除').length;
 
     const output = {
-        version: 6,
+        version: 7,
         mode: 'cloud-paper-simulator',
         updateTime: new Date().toISOString(),
         newsSource: hotNews.source,
@@ -457,7 +688,8 @@ async function main() {
             eventCaps: '供需/地缘每轮最多1个，其它事件每轮最多2个',
             commodityRule: '油气/黄金/能源类必须确认分>=84，且价格、资金、风险三项同时过线。',
             validationUpgrade: '按资产桶拆分复盘，商品/避险、科技成长、中国资产、防御资产不再混算胜率。',
-            failureLoop: '新增失败样本归因和事件-资产匹配过滤，避免错配新闻污染模拟盘。'
+            failureLoop: '新增失败样本归因和事件-资产匹配过滤，避免错配新闻污染模拟盘。',
+            factorModel: '新增Qlib风格多因子评分：宏观匹配、价格趋势、资金强度、事件催化、风险控制、资产适配。'
         },
         tradingCalendar: {
             timezone: 'Asia/Shanghai',
@@ -474,6 +706,7 @@ async function main() {
             score: item.score,
             assetBucket: item.assetBucket || getAssetBucket(item),
             eventAlignment: item.eventAlignment || getEventAlignment(item),
+            factorModel: item.factorModel,
             confirmationScore: item.confirmationScore,
             confirmationReasons: item.confirmationReasons,
             entryFactors: item.entryFactors,
@@ -502,6 +735,7 @@ async function main() {
             costAdjusted,
             bucketValidation,
             failureReview,
+            factorModelReport: getFactorModelReport(rawCandidates, candidates, candidateAudit),
             validationReport: getModelValidationReport(trades, portfolio, benchmark, costAdjusted)
         },
         phaseStats,
