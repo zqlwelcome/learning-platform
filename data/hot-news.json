@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 19:35",
+  "updateTime": "2026-06-18 19:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "物理AI第一股暗盘暴涨262%，周一港股上市",
-        "assets": "📈 港股AI板块 利好；📈 相关IPO标的 情绪提振",
-        "chain": "暗盘暴涨→带动打新热潮→资金涌入AI赛道→推高同类估值（PE倍数）",
-        "watch": "下周一上市首日成交量及换手率"
+        "what": "物理AI第一股暗盘暴涨262%，下周港股上市",
+        "assets": "📈 港股AI板块 利好；📈 相关新股IPO 情绪提振",
+        "chain": "高估值上市引发跟风炒作，资金从传统科技股轮动至AI硬件（物理AI指与硬件结合的AI）",
+        "watch": "下周一港股开盘成交量及首日涨幅"
       }
     },
     {
@@ -23,123 +23,99 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "Fed's Warsh言论引发债市波动，加息押注骤升",
-        "assets": "📉 美债 承压；📉 美股 利空；📈 美元 走强",
-        "chain": "加息预期升温→长端利率（10年期美债收益率）上行→压制成长股估值（DCF模型折现率提高）",
-        "watch": "本周五PCE（个人消费支出物价指数）数据"
+        "what": "Fed官员Warsh首秀言论引发加息押注飙升",
+        "assets": "📉 美国国债 承压；📉 美股大盘 利空；📈 美元指数 走强",
+        "chain": "加息预期（借钱成本提高）导致风险资产抛售，资金涌入债券避险，压制成长股估值",
+        "watch": "CME FedWatch工具显示的加息概率变化"
       }
     },
     {
       "rank": 3,
-      "title": "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "美股期货上涨，英特尔领涨芯片股反弹",
-        "assets": "📈 美股半导体 利好；📈 纳斯达克指数 反弹",
-        "chain": "Fed抛售后超跌反弹→芯片股领涨→提振科技板块情绪→带动大盘企稳（beta效应）",
-        "watch": "英伟达财报后股价走势及费城半导体指数"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美股期货反弹，英特尔领涨芯片股，试图收复Fed抛售跌幅",
-        "assets": "📈 美股科技股 利好",
-        "chain": "Fed鹰派打压后超卖反弹，科技股受AI叙事支撑（风险情绪修复）",
-        "watch": "道指能否守住前高及芯片板块资金流向"
+        "what": "美股期货反弹，英特尔领涨芯片股",
+        "assets": "📈 美股半导体 利好；📈 纳斯达克指数 反弹",
+        "chain": "超卖后技术性修复（价格跌过头后的反弹），英特尔利好带动板块情绪，但需警惕加息阴影",
+        "watch": "美联储官员后续讲话基调"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "国产AI芯片或迎涨价窗口！工业富联登顶A股吸金榜首！电子ETF华宝（515260）最高上探5%，续创历史新高！",
       "source": "新浪基金",
       "detail": "今日（6月18日）电子板块延续猛烈涨势，全天获主力资金净流入331亿元，拉长时间看，近5日、近20日分别吸金1996亿元、3793亿元，板块吸金额持续断层高居31个申万一级行业首...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "国产AI芯片涨价预期升温，工业富联资金涌入",
-        "assets": "📈 国产AI芯片 利好；📈 工业富联 吸金；📈 电子ETF 创新高",
-        "chain": "涨价预期→国产替代加速→供应链龙头受益→资金集中流入（板块轮动效应）",
-        "watch": "国产AI芯片厂商订单及产能利用率"
+        "what": "国产AI芯片涨价预期，工业富联吸金，电子ETF创新高",
+        "assets": "📈 国产AI芯片 利好；📈 A股电子板块 资金流入",
+        "chain": "供需缺口（芯片不够用）推动涨价，资金从消费电子的半导体设备迁移，ETF溢价（基金价格高于净值）暗示散户追涨",
+        "watch": "工业富联成交量及AI芯片现货价格"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Stock futures tick higher after Fed's hint of possible rate hike in 2026 spurs a sell-off: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "美联储暗示2026年可能加息，美股再度承压",
+        "assets": "📉 美股大盘 利空；📉 高估值科技股 承压；📈 短期美债 避险",
+        "chain": "远期加息预期压制风险偏好（不敢买高风险资产），资金转向防御板块（如公用事业），期限利差（长短债利率差）走阔",
+        "watch": "10年期美债收益率是否突破4.5%"
       }
     },
     {
       "rank": 6,
-      "title": "Qantas picks London for first record-breaking non-stop flights - Reuters",
-      "source": "Reuters",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "澳航开通伦敦直飞创纪录航线",
-        "assets": "📈 澳航 利好；📈 航空燃油需求 微幅提振",
-        "chain": "长途航线恢复→航空业复苏信号→但需关注燃油成本对冲（hedging）比例",
-        "watch": "布伦特原油价格及澳航远期订座率"
-      }
-    },
-    {
-      "rank": 7,
       "title": "*ST赛隆告别A股，退市不影响索赔",
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "*ST赛隆退市，A股医药股退市案例增加",
-        "assets": "📉 A股ST板块 利空",
-        "chain": "退市常态化加速，资金向龙头集中（市场出清，壳价值缩水）",
-        "watch": "其他ST股退市风险及索赔进展"
+        "what": "*ST赛隆退市，但不影响投资者索赔",
+        "assets": "📉 *ST赛隆 利空；📈 退市概念股 风险警示",
+        "chain": "退市常态化强化垃圾股出清（淘汰差公司），索赔机制利好法律服务业，资金从ST板块流出至蓝筹",
+        "watch": "ST板块整体资金流向及退市数量"
       }
     },
     {
-      "rank": 8,
-      "title": "What smart people are saying after Fed chair Kevin Warsh's debut - Business Insider",
-      "source": "Business Insider",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场热议美联储主席Warsh首次政策会议言论",
-        "assets": "📉 美债收益率 利空",
-        "chain": "Warsh偏鹰信号推高利率预期，压制风险资产（利率敏感型板块承压）",
-        "watch": "2年期美债收益率及FedWatch加息概率"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Warsh首次会议五大要点：按剧本维持紧缩立场",
-        "assets": "📉 全球股市 利空",
-        "chain": "紧缩预期强化美元，新兴市场资金外流（利差扩大，套利交易平仓）",
-        "watch": "美元指数及新兴市场ETF资金流"
-      }
+      "score": 33
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
       "source": "CNBC",
       "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Gundlach称Warsh不会如市场期望成为'宽松'主席",
-        "assets": "📉 黄金/加密货币 利空",
-        "chain": "鹰派立场削弱通胀对冲需求，风险偏好下降（实际利率上升）",
-        "watch": "黄金期货持仓及比特币现货ETF资金流向"
-      }
+      "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "Asia stocks rise with Nikkei, KOSPI at record highs as US, Iran sign peace deal - Investing.com",
+      "source": "Investing.com",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
+      "source": "CNBC",
+      "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
