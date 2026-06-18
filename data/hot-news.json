@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-19 03:05",
+  "updateTime": "2026-06-19 03:10",
   "news": [
     {
       "rank": 1,
-      "title": "Stocks rebound from Fed sell-off as oil prices slide, chip stocks rally: Live updates",
+      "title": "Stocks rebound from Fed sell-off as chipmakers rally: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
-      "score": 62,
+      "score": 50,
       "insight": {
-        "what": "油价下跌和芯片股反弹推动美股回升",
-        "assets": "📈 美股科技股 利好; 📉 原油 承压",
-        "chain": "油价跌→通胀预期降温→降息（借钱成本降低）预期回升→科技股获提振",
-        "watch": "今晚EIA原油库存数据"
+        "what": "芯片股反弹带动美股从美联储抛售中回升",
+        "assets": "📈 美股半导体指数 利好",
+        "chain": "美联储鹰派（主张加息）信号被市场消化，科技股抄底资金流入，风险偏好（愿意冒险）回升",
+        "watch": "今晚纳指期货能否站稳前高"
       }
     },
     {
       "rank": 2,
-      "title": "Stock Market Today: Dow Up 200 Points On Iran Peace Deal; Intel, Sandisk, Teradyne Shares Rally (Live Coverage) - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 52,
-      "insight": {
-        "what": "道指涨200点因伊朗和平协议传闻，芯片股领涨",
-        "assets": "📈 美股半导体 利好; 📉 地缘风险溢价 消退",
-        "chain": "中东缓和→避险情绪降温→资金从黄金/债券流向股票",
-        "watch": "伊朗官方表态及WTI原油价格"
-      }
-    },
-    {
-      "rank": 3,
       "title": "美元延续涨势 美联储鹰派信号提振加息押注",
       "source": "环球市场播报",
       "detail": "美元连续第二天延续涨势，重新迈向3月下旬的高点，交易员纷纷押注美联储最早将于下月底开始加息。 这一进展推动彭博美元指数较周三美联储举行会议前走高约1%。",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元走强因美联储鹰派信号强化加息押注",
-        "assets": "📈 美元指数 利好; 📉 非美货币 承压",
-        "chain": "美元强→新兴市场资金外流（资本外逃）→大宗商品（以美元计价）价格下跌",
-        "watch": "美联储官员讲话及联邦基金利率期货"
+        "what": "美元因美联储鹰派信号延续涨势",
+        "assets": "📈 美元指数 利好；📉 非美货币 承压",
+        "chain": "加息预期推高美元，新兴市场资金外流（资本流出），大宗商品（如原油）计价压力增大",
+        "watch": "本周美联储官员讲话措辞"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices — Live Updates - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "纳斯达克大涨，油价接近伊朗冲突前水平",
+        "assets": "📈 纳指 利好；📉 原油期货 承压",
+        "chain": "地缘风险（伊朗局势）溢价消退，油价下跌降低通胀预期，利好利率敏感（受利率影响大）科技股",
+        "watch": "EIA原油库存数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "英特尔因苹果芯片业务传闻大涨",
-        "assets": "📈 英特尔 利好; 📉 台积电 承压",
-        "chain": "英特尔获苹果订单→代工份额增加→挤压台积电（竞争对手）估值",
-        "watch": "苹果官方确认及英特尔代工财报"
+        "what": "英特尔因苹果芯片业务传闻股价跳涨",
+        "assets": "📈 英特尔 利好；📉 台积电 承压",
+        "chain": "苹果供应链（上下游公司）可能分流订单，英特尔代工（替别人造芯片）业务获验证，芯片竞争格局重估",
+        "watch": "苹果财报中供应商名单变化"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦监管支持特朗普加速AI数据中心供电计划",
-        "assets": "📈 美国电力股 利好; 📉 清洁能源股 中性偏空",
-        "chain": "AI耗电激增→电网升级需求→核电/天然气（基荷电源）受益",
-        "watch": "FERC具体审批时间表"
+        "what": "美监管机构支持特朗普AI数据中心用电计划",
+        "assets": "📈 AI基建股 利好；📈 电力公用事业 利好",
+        "chain": "AI算力（处理数据能力）扩张推高电力需求，核电/天然气等能源股受益，科技巨头资本开支（花钱投资）增加",
+        "watch": "AI数据中心项目审批进度"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni警告美联储可能加息",
-        "assets": "📈 美元 利好; 📉 美债 承压",
-        "chain": "加息预期→短端利率飙升（短期借款成本上升）→科技股估值受压（折现率提高）",
-        "watch": "下周CPI（通胀数据）及PCE（个人消费支出）"
+        "what": "策略师预测美联储可能加息以实现通胀目标",
+        "assets": "📈 美元 利好；📉 美债 承压；📉 风险资产 承压",
+        "chain": "加息预期升温（借钱成本变高），压制股市估值（股价/盈利比例），短期利率（如2年期国债收益率）跳升",
+        "watch": "本周CPI（消费者物价指数）数据"
       }
     },
     {
@@ -91,13 +91,7 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州押注IPO税收，但多重因素扰动预期",
-        "assets": "美股科技IPO（利空），加州市政债（利空）",
-        "chain": "IPO税收不及预期→加州财政恶化→市政债风险溢价上升",
-        "watch": "加州税收数据及IPO市场活跃度"
-      }
+      "score": 35
     },
     {
       "rank": 8,
@@ -105,41 +99,23 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普施压Fed理事Lisa Cook致其法律安保费超百万",
-        "assets": "美元（中性偏空），美债（中性偏空）",
-        "chain": "政治干预Fed→市场担忧独立性→美元及美债承压",
-        "watch": "Fed官员辞职情况或国会听证会"
-      }
+      "score": 35
     },
     {
       "rank": 9,
+      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
+      "source": "CNBC",
+      "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 10,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected",
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预计Warsh领导Fed将比预期更鹰派",
-        "assets": "美元（利好），美债收益率（上行），美股（利空）",
-        "chain": "鹰派Fed→加息预期升温→流动性收紧→风险资产承压",
-        "watch": "Warsh首次讲话措辞及点阵图变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
-      "source": "CNBC",
-      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Kevin Warsh首次Fed会议释放五大关键信号",
-        "assets": "美元（看涨），美债短端（利空），黄金（利空）",
-        "chain": "鹰派基调→加息路径陡峭→实际利率上升→黄金承压",
-        "watch": "会议纪要中的通胀评估及前瞻指引"
-      }
+      "score": 33
     }
   ]
 }
