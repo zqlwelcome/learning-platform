@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 22:06",
+  "updateTime": "2026-06-18 22:08",
   "news": [
     {
       "rank": 1,
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "苹果与英特尔合作，美股芯片股普涨",
-        "assets": "📈 英特尔 利好，📈 美股芯片板块 利好",
-        "chain": "苹果合作→英特尔代工（外包制造）业务预期改善→芯片周期（行业景气度）复苏信号→带动半导体ETF",
-        "watch": "英特尔Q3代工收入指引（是否超预期）"
+        "what": "美股反弹，英特尔领涨芯片股",
+        "assets": "美股（+），芯片股（+）",
+        "chain": "Fed抛售恐慌缓解，资金回补科技板块，提升风险偏好",
+        "watch": "Fed后续讲话及CPI数据"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 39
+      "score": 39,
+      "insight": {
+        "what": "苹果与英特尔合作，美股芯片股普涨",
+        "assets": "📈 英特尔 利好，📈 美股芯片板块 利好",
+        "chain": "苹果合作→英特尔代工（外包制造）业务预期改善→芯片周期（行业景气度）复苏信号→带动半导体ETF",
+        "watch": "英特尔Q3代工收入指引（是否超预期）"
+      }
     },
     {
       "rank": 5,
@@ -85,7 +91,13 @@
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "*ST赛隆退市，投资者索赔通道开启",
+        "assets": "A股退市股（-），壳资源（-）",
+        "chain": "退市常态化压制小盘垃圾股，索赔增加公司负债风险",
+        "watch": "其他ST股退市进展及索赔案例"
+      }
     },
     {
       "rank": 8,
@@ -93,7 +105,13 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "分析指沃什工作组是新Fed核心",
+        "assets": "美元（+），美债（+）",
+        "chain": "工作组强化政策预期管理，市场聚焦沃什鹰派立场",
+        "watch": "沃什首次会议纪要及利率指引"
+      }
     },
     {
       "rank": 9,
@@ -101,7 +119,13 @@
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "沃什首次会议五大要点出炉",
+        "assets": "美元（+），美债收益率（+），美股（-）",
+        "chain": "鹰派信号推高利率预期，压制股市估值，提振美元",
+        "watch": "下次会议点阵图及缩表节奏"
+      }
     },
     {
       "rank": 10,
@@ -109,7 +133,13 @@
       "source": "Accenture",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "埃森哲推网络安全平台应对AI威胁",
+        "assets": "网络安全股（+），埃森哲（+）",
+        "chain": "AI攻击升级驱动企业安全支出，利好网络安全板块",
+        "watch": "企业安全预算及AI监管政策"
+      }
     }
   ]
 }
