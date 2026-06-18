@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-18 14:31",
+  "updateTime": "2026-06-18 14:35",
   "news": [
     {
       "rank": 1,
-      "title": "港股黄金股普跌，潼关黄金跌超7%，美联储放鹰美元站上100关口",
-      "source": "新浪港股",
-      "detail": " 6月18日消息，港股黄金股集体下跌，其中，潼关黄金、招金矿业跌超7%，中国黄金国际、山东黄金、赤峰黄金、灵宝黄金、紫金黄金国际跌超6%。",
-      "lang": "zh",
-      "score": 55,
-      "insight": {
-        "what": "美联储放鹰，美元指数站上100，港股黄金股普跌",
-        "assets": "📉 港股黄金股 利空；📈 美元 利好",
-        "chain": "美元走强压制金价（黄金以美元计价），资金从新兴市场回流美元资产，港股承压",
-        "watch": "美联储后续讲话及美元指数能否站稳100上方"
-      }
-    },
-    {
-      "rank": 2,
       "title": "India’s largest stock exchange files for IPO as mega-listings gather pace",
       "source": "CNBC",
       "detail": "India's largest stock exchange sets the ball rolling for mega IPOs this year as it files papers to go public.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "印度最大交易所申请IPO，大型上市潮加速",
-        "assets": "📈 印度股市 利好；📈 新兴市场IPO板块 情绪提振",
-        "chain": "交易所IPO反映市场流动性充裕（资金活跃），可能带动更多科技公司跟随上市，推高估值",
-        "watch": "印度IPO定价及首日表现，其他新兴市场交易所是否跟进"
+        "what": "印度最大交易所申请IPO，大型IPO加速",
+        "assets": "📈 印度股市 利好；📈 全球IPO市场 情绪提振",
+        "chain": "大型IPO活跃（新股发行增多）→资金从二级市场抽水（流动性分流），但提振投行和券商股（受益于承销费）。",
+        "watch": "印度交易所上市首日表现及后续IPO定价"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "How Elon Musk's second-in-command Gwynne Shotwell helped turn SpaceX into an IPO giant",
       "source": "CNBC",
       "detail": "CNBC spoke to people who've worked with SpaceX's president and chief operating officer.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX二把手助公司成IPO巨头，市场关注上市预期",
-        "assets": "📈 SpaceX相关概念股（如太空ETF） 利好",
-        "chain": "SpaceX上市预期升温，可能带动太空经济板块估值重估（P/E倍数提升），并吸引资金涌入",
-        "watch": "SpaceX官方上市时间表及SEC文件"
+        "what": "SpaceX二把手推动公司成为IPO巨头",
+        "assets": "📈 太空概念股 情绪利好；📈 美股科技股 间接提振",
+        "chain": "SpaceX上市预期（首次公开募股）→带动商业航天板块估值重估（市盈率提升），并吸引风险资本涌入相关初创。",
+        "watch": "SpaceX官方IPO时间表及估值变化"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "视频|杨德龙：美联储货币政策并不确定会转向 AI科技行情仍是当前投资主线",
+      "source": "新浪基金",
+      "detail": "央行政策对市场流动性有重要影响，关注后续政策信号。",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "杨德龙：美联储转向不确定，AI科技仍是主线",
+        "assets": "📈 美股AI科技股 利好；📈 中国AI概念股 联动利好",
+        "chain": "AI主线延续（人工智能主题投资）→资金集中流入科技成长股，传统价值板块（银行、能源）相对承压（资金轮动）。",
+        "watch": "美联储下次会议声明及AI龙头财报"
       }
     },
     {
@@ -51,9 +51,9 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "摩根大通预计中国8月重返主要石油买家，并推荐个股",
-        "assets": "📈 原油 利好；📈 中国石油股（如中石油） 利好",
-        "chain": "中国需求回升支撑油价（供需基本面改善），炼油及勘探企业利润预期上调",
+        "what": "摩根大通：中国8月将重返主要原油买家",
+        "assets": "📈 原油 需求利好；📉 全球油轮运价 承压（航线调整）",
+        "chain": "中国需求回升（石油进口增加）→推高布伦特原油价格，但OPEC+可能增产（供应对冲），炼油厂利润（裂解价差）走阔。",
         "watch": "中国8月原油进口数据及炼厂开工率"
       }
     },
@@ -65,44 +65,28 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "美联储决议后，对冲基金大量买入美元看涨期权",
-        "assets": "📈 美元 利好；📉 非美货币（如欧元、日元） 承压",
-        "chain": "看涨期权押注美元走强，触发做空非美货币的套利交易（carry trade），新兴市场资金外流",
-        "watch": "美元指数及期权隐含波动率变化"
+        "what": "对冲基金在美联储决议后买入美元看涨期权",
+        "assets": "📈 美元指数 看涨；📉 非美货币（欧元/日元）承压",
+        "chain": "美元看涨期权（押注美元升值的合约）激增→美元走强（汇率上升），新兴市场资金外流（套利交易平仓），大宗商品承压（计价效应）。",
+        "watch": "美联储官员后续讲话及美元指数突破105关口"
       }
     },
     {
       "rank": 6,
-      "title": "港股午评：恒指跌1.7%失守24000点 科指跌1.38% 科网股、黄金股低迷 半导体板块逆势走强",
-      "source": "新浪港股",
-      "detail": "6月18日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.7%，报23899.25，恒生科技指数跌1.38%，国企指数跌1.99%。盘面上，科网股普跌，阿里巴巴、小米跌超3%...",
-      "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "港股恒指跌1.7%失守24000，科网黄金股低迷，半导体逆势走强",
-        "assets": "📉 港股恒指/科指 利空；📈 港股半导体板块 利好",
-        "chain": "资金从科网和黄金股轮动至半导体，反映避险情绪但技术自主主题受追捧（国产替代逻辑）",
-        "watch": "恒指能否守住24000关口及半导体板块持续性"
-      }
-    },
-    {
-      "rank": 7,
       "title": "花旗将美联储降息预期时点延至2026年10月，因官员们更偏鹰派",
       "source": "环球市场播报",
       "detail": "花旗集团将美联储降息的预估时点延后一个月，理由是美联储官员的立场转向更为鹰派。 这家华尔街投行目前预期，美联储将在2026年10月和12月降息...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "花旗将美联储降息预期推迟至2026年10月",
+        "assets": "📈 美元 利好；📉 美债 利空（收益率上行）；📉 黄金 承压",
+        "chain": "降息预期推迟（借钱成本长期高企）→长端美债收益率（10年期国债利率）攀升，科技成长股估值承压（折现率提高），避险资产（黄金）吸引力下降。",
+        "watch": "美国CPI（消费者物价指数）和PCE（个人消费支出物价指数）数据"
+      }
     },
     {
-      "rank": 8,
-      "title": "机构：回调中寻找分批布局机会，美联储沃什删除降息指引，金价承压回调",
-      "source": "界面",
-      "detail": "消息面上，北京时间6月18日凌晨2时，美联储联邦公开市场委员会（FOMC）以12票全票赞成，决定将联邦基金利率目标区间维持在3.5%至3.75%不变，为连续第四次暂停利率调整...",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "高盛副董事长称美联储今秋或加息 并有进一步紧缩的风险",
       "source": "环球市场播报",
       "detail": "高盛集团副董事长、达拉斯联储行前行长卡普兰表示，如果通胀持续高企，美联储最快可能在9月就需要提高利率。 卡普兰在接受采访时表示...",
@@ -110,12 +94,28 @@
       "score": 36
     },
     {
-      "rank": 10,
-      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates - CNBC",
+      "rank": 8,
+      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates",
       "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
       "score": 35
+    },
+    {
+      "rank": 9,
+      "title": "沃什上任“首秀”，人狠话不多！股市、黄金、美元，着了三把火",
+      "source": "市场资讯",
+      "detail": "文章来源：中新经纬 北京时间18日凌晨，凯文·沃什以美联储主席身份主持了他上任后的首次利率决议会议（下称议息会议）。 这次议息会议也释放出更多超预期信号。",
+      "lang": "zh",
+      "score": 34
+    },
+    {
+      "rank": 10,
+      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "source": "CNBC",
+      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
