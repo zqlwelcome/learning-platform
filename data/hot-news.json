@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 15:44",
+  "updateTime": "2026-06-18 15:49",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "英国央行维持利率不变，油价下跌可能改变政策路径",
-        "assets": "📉 英镑 承压, 📈 英国国债 利好",
-        "chain": "油价暴跌（能源成本下降）降低通胀预期，或提前宽松（货币放水）时点",
-        "watch": "英国CPI（消费者物价指数）及油价走势"
+        "what": "英国央行维持利率不变，油价暴跌或改变政策路径",
+        "assets": "📉 英镑 承压; 📈 英国国债 利好",
+        "chain": "油价下跌降低通胀（物价上涨压力），可能提前英央行降息（借钱成本降低），利好债市",
+        "watch": "布伦特原油是否跌破70美元"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "印度最大交易所NSE申请IPO，大型上市潮加速",
-        "assets": "📈 印度股市 利好, 📈 印度交易所板块 利好",
-        "chain": "IPO（新股发行）活跃提升市场流动性，吸引外资流入（海外资金进场）",
-        "watch": "NSE IPO定价及首日表现"
+        "what": "印度最大交易所NSE提交IPO申请，大型上市潮加速",
+        "assets": "📈 印度股市 利好; 📈 印度交易所概念股 利好",
+        "chain": "IPO活跃提升交易量（成交量），利好券商和交易所收入，吸引外资流入",
+        "watch": "NSE IPO定价及认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX二把手肖特维尔助力公司成为IPO巨头",
-        "assets": "📈 太空相关ETF（交易所交易基金）利好, 📈 SpaceX概念股 利好",
-        "chain": "SpaceX上市预期提振商业航天板块估值，带动风险偏好（投资意愿）",
-        "watch": "SpaceX官方IPO时间表"
+        "what": "SpaceX二号人物Shotwell推动公司成为IPO巨头",
+        "assets": "📈 SpaceX估值 利好; 📈 太空概念股 利好",
+        "chain": "SpaceX上市预期提振商业航天板块（航天产业），可能引发IPO热潮",
+        "watch": "SpaceX是否提交S-1文件（上市申请）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "华创新材港股IPO：依赖加工费，利润薄，负债百亿现金紧张",
-        "assets": "📉 华创新材 利空, 📉 港股材料板块 承压",
-        "chain": "高负债（债务压力大）和低毛利（利润空间小）削弱投资者信心，或拖累同类IPO（新股发行）",
-        "watch": "华创IPO认购情况及债务偿还计划"
+        "what": "华创新材港股IPO，依赖加工费，利润薄且负债百亿",
+        "assets": "📉 华创新材 利空; 📉 锂电材料板块 承压",
+        "chain": "高负债（欠债多）和低毛利（利润薄）暴露现金流（手头现金）风险，可能拖累产业链",
+        "watch": "IPO是否推迟或认购不足"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "摩根大通预计中国8月重返主要石油买家，并点名首选股",
-        "assets": "📈 原油 利好, 📈 中国石油股 利好",
-        "chain": "中国需求回升（进口增加）支撑油价，利好能源板块及相关ETF（交易所交易基金）",
-        "watch": "中国7月原油进口数据及炼厂开工率"
+        "what": "摩根大通称中国8月将重回主要原油买家，点名推荐个股",
+        "assets": "📈 原油 利好; 📈 中国石油股 利好",
+        "chain": "中国需求回升支撑油价（原油价格），利好能源股和炼化企业",
+        "watch": "中国7月原油进口数据"
       }
     },
     {
@@ -80,29 +80,13 @@
       "score": 36,
       "insight": {
         "what": "花旗将美联储降息预期推迟至2026年10月，因鹰派立场",
-        "assets": "📉 美股 承压, 📈 美元 利好, 📉 黄金 利空",
-        "chain": "利率维持高位（资金成本高）压制风险资产（股票等），美元走强（汇率上升）利空大宗商品（原材料）",
-        "watch": "美联储点阵图（利率预测）及PCE（个人消费支出）通胀数据"
+        "assets": "📉 美股 承压; 📈 美元 走强; 📉 黄金 利空",
+        "chain": "高利率（借钱成本高）持续压制风险资产（股票等），美元走强利空大宗商品",
+        "watch": "美联储点阵图（利率预测）是否上移"
       }
     },
     {
       "rank": 7,
-      "title": "高盛副董事长称美联储今秋或加息 并有进一步紧缩的风险",
-      "source": "环球市场播报",
-      "detail": "高盛集团副董事长、达拉斯联储行前行长卡普兰表示，如果通胀持续高企，美联储最快可能在9月就需要提高利率。 卡普兰在接受采访时表示...",
-      "lang": "zh",
-      "score": 36
-    },
-    {
-      "rank": 8,
-      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35
-    },
-    {
-      "rank": 9,
       "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
@@ -110,12 +94,28 @@
       "score": 35
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "沃什上任“首秀”，人狠话不多！股市、黄金、美元，着了三把火",
       "source": "市场资讯",
       "detail": "文章来源：中新经纬 北京时间18日凌晨，凯文·沃什以美联储主席身份主持了他上任后的首次利率决议会议（下称议息会议）。 这次议息会议也释放出更多超预期信号。",
       "lang": "zh",
       "score": 34
+    },
+    {
+      "rank": 9,
+      "title": "沃什首次参会，美联储维持利率不变",
+      "source": "环球市场播报",
+      "detail": " 美联储本次会议维持利率不变，官员们已做好应对借贷成本进一步走高的准备。这是沃什出任美联储主席后的首次议息会议，整场会议的核心议题围绕通胀担忧展开。",
+      "lang": "zh",
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "source": "CNBC",
+      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
