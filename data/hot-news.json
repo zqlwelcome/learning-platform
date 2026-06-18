@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 22:40",
+  "updateTime": "2026-06-18 22:46",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 50,
       "insight": {
         "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI概念股 利好；📈 打新资金 活跃",
-        "chain": "首日溢价（上市价高于发行价）吸引散户追涨，可能带动港股科技板块情绪（市场风险偏好）",
-        "watch": "下周一开盘价及成交量是否持续放大"
+        "assets": "📈 港股AI概念股 利好；📈 独角兽IPO 情绪提振",
+        "chain": "暗盘暴涨→吸引散户打新（申购新股）→推高同类AI公司估值（PE倍数）",
+        "watch": "下周一开盘涨幅及成交量是否持续"
       }
     },
     {
@@ -23,86 +23,70 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美股反弹，英特尔领涨芯片股，市场试图从美联储抛售中恢复",
-        "assets": "📈 美股半导体 利好；📈 标普500 反弹",
-        "chain": "芯片股领涨（行业龙头业绩预期改善）提振科技板块，但反弹可持续性取决于美联储政策信号（利率预期）",
-        "watch": "今晚美联储官员讲话及10年期美债收益率（长期借贷成本）"
+        "what": "美股反弹，英特尔领涨芯片股，试图收复联储抛售失地",
+        "assets": "📈 美股半导体 利好；📈 美股大盘 短期反弹",
+        "chain": "芯片领涨→科技股情绪修复→对冲基金回补空头（平仓做空仓位）→指数企稳",
+        "watch": "今晚CPI（消费者物价指数）数据是否超预期"
       }
     },
     {
       "rank": 3,
-      "title": "Stock market today: Dow, S&P 500, Nasdaq climb with focus on Iran deal, Fed hike path - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "美股道指、标普、纳指上涨，关注伊朗协议及美联储加息路径",
-        "assets": "📈 美股大盘 反弹；📈 能源股 承压（若伊朗协议达成）",
-        "chain": "伊朗协议（石油供应增加）可能压低油价，缓解通胀，降低美联储加息压力（政策宽松预期）",
-        "watch": "伊朗核谈判进展及WTI原油价格（全球油价基准）"
-      }
-    },
-    {
-      "rank": 4,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni：美联储为达通胀目标很可能加息",
-        "assets": "📉 美债 承压；📉 美股成长股 利空",
-        "chain": "加息（借钱成本升高）会压低风险资产估值，尤其高估值科技股（折现率上升）",
-        "watch": "下周CPI数据（消费者物价指数）是否超预期"
+        "what": "策略师Yardeni称美联储若真想控通胀很可能加息",
+        "assets": "📉 美债 承压；📉 美股 利空；📈 美元 走强",
+        "chain": "加息预期升温→债券收益率上升（借钱成本提高）→成长股估值压缩（DCF模型现值下降）",
+        "watch": "下周FOMC（美联储议息会议）点阵图（利率预测）变化"
       }
     },
     {
-      "rank": 5,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州依赖IPO税收，但多个因素使情况复杂化",
-        "assets": "📉 加州地方债 承压；📉 美国地方政府财政 风险",
-        "chain": "IPO税收不及预期（企业上市减少）会恶化加州预算，引发地方债收益率上升（信用风险溢价）",
-        "watch": "加州下一季度税收数据及IPO市场活跃度"
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 4,
       "title": "Goldman’s Kaplan Says Fed May Hike by Fall, Sees Risk of More - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "高盛Kaplan：美联储可能在秋季加息，并存在更多风险",
-        "assets": "📉 美股 利空；📉 新兴市场货币 承压",
-        "chain": "加息预期（政策收紧）推高美元，资金从新兴市场回流美国，新兴市场货币贬值（资本外流压力）",
-        "watch": "美联储9月会议点阵图（利率预测）及非农就业数据"
+        "what": "高盛Kaplan称美联储可能在秋季前加息，存在更多风险",
+        "assets": "📉 美股 利空；📈 美元指数 走强；📉 新兴市场 承压",
+        "chain": "加息预期→风险资产抛售→资金回流美元→新兴市场货币贬值压力",
+        "watch": "CME FedWatch（利率期货隐含概率）加息概率是否突破20%"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图解雇联储理事Lisa Cook致其法律安保费超百万美元",
+        "assets": "📉 美元信誉 承压；📉 美债 短期避险",
+        "chain": "政治干预央行（美联储）独立性→市场担忧政策不可预测→美债遭抛售",
+        "watch": "国会是否通过保护联储独立性的法案"
+      }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
       "source": "CNBC",
       "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州指望IPO税收意外之财，但多重因素使计算复杂化",
+        "assets": "📉 加州地方债 利空；📉 科技IPO 预期降温",
+        "chain": "IPO税收入不敷出→加州财政赤字扩大→地方债信用利差（风险溢价）走阔",
+        "watch": "加州2024年税收实际数据及IPO上市节奏"
+      }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
@@ -110,12 +94,28 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
       "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Accenture to Strengthen Critical Infrastructure Defense with End-to-End Cybersecurity Platform in Age of AI-Driven Cyber Threats and Geopolitical Risk - Accenture",
+      "source": "Accenture",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
