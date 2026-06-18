@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 21:01",
+  "updateTime": "2026-06-18 21:02",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Apple plans price hikes, and Intel is surging on comments from President Donald Trump.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "Cramer列出周四市场十大关注点",
+        "assets": "美股整体（中性）、个股波动（高）",
+        "chain": "市场情绪受Cramer观点影响，短期交易量或放大",
+        "watch": "美股开盘后个股异动及成交量"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "环球市场播报",
       "detail": "对于正在为自有数据中心甄选 AI 服务器芯片的企业而言，相比英伟达，亚马逊拥有一大核心优势：价格。 爱尔兰咨询机构 Co Driver Labs 专注为企业提供 AI...",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "亚马逊低成本AI芯片获企业大量采用",
+        "assets": "亚马逊（看涨）、英伟达（看跌）、AI芯片板块（分化）",
+        "chain": "削弱英伟达垄断地位，降低AI部署成本，利好云服务商",
+        "watch": "亚马逊云收入增速及英伟达订单变化"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "新浪基金",
       "detail": "三大指数涨跌不一，沪深两市成交额3.31万亿，较上一个交易日放量2183亿。截至收盘，沪指跌0.43%，深成指涨0.94%，创业板指涨2.05%。",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "ETF报告称AI是超20年周期科技革命",
+        "assets": "半导体ETF（看涨）、AI相关科技股（看涨）",
+        "chain": "强化长期资金配置逻辑，短期情绪催化板块轮动",
+        "watch": "半导体指数及AI龙头股财报"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 20
+      "score": 20,
+      "insight": {
+        "what": "英央行维持利率3.75%因伊朗和平前景",
+        "assets": "英镑（看跌）、英国国债（看涨）、油价（看跌）",
+        "chain": "和平预期压低能源成本，英央行宽松空间打开，利空英镑",
+        "watch": "伊朗局势进展及英国CPI数据"
+      }
     }
   ]
 }
