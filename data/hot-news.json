@@ -1,36 +1,50 @@
 {
-  "updateTime": "2026-06-18 10:51",
+  "updateTime": "2026-06-18 11:00",
   "news": [
     {
       "rank": 1,
+      "title": "India’s largest stock exchange files for IPO as mega-listings gather pace",
+      "source": "CNBC",
+      "detail": "India's largest stock exchange sets the ball rolling for mega IPOs this year as it files papers to go public.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "印度最大交易所申请IPO，大型上市潮加速",
+        "assets": "📈 印度股市 利好",
+        "chain": "提振新兴市场IPO情绪，可能分流资金至印度（资金从其他新兴市场流入印度）",
+        "watch": "其他印度交易所IPO进展及外资流入数据"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Federal Reserve issues FOMC statement - Federal Reserve (.gov)",
       "source": "Federal Reserve (.gov)",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储发布最新政策声明，维持利率不变",
-        "assets": "📈 美元指数 看涨；📉 美债 承压",
-        "chain": "紧缩预期强化，风险资产（如股票）面临流动性收紧压力，资金回流美元资产",
-        "watch": "美联储点阵图（利率预测）及鲍威尔讲话措辞"
+        "what": "美联储发布FOMC声明，维持利率不变",
+        "assets": "📈 美元 中性偏强",
+        "chain": "市场预期偏鹰（偏向加息），推升美债收益率（国债利率），压制黄金",
+        "watch": "美联储主席讲话措辞及点阵图（利率预测）"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "交易员：美联储政策决议后 对冲基金纷纷买入美元看涨期权",
       "source": "环球市场播报",
       "detail": " 根据交易员，鉴于美联储点阵图释放的鹰派信号以及2026年核心CPI预测上调，对冲基金买入美元兑G10和新兴市场货币的看涨期权。交易员称，期权期限从1周到3个月不等。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "对冲基金在美联储决议后大举买入美元看涨期权",
-        "assets": "📈 美元 利好；📉 新兴市场货币 承压",
-        "chain": "美元走强将压制大宗商品（以美元计价）和新兴市场资本流入（资金外逃风险）",
-        "watch": "美元指数突破关键阻力位（如105）及期权隐含波动率变化"
+        "what": "对冲基金在美联储决议后买入美元看涨期权",
+        "assets": "📈 美元 看涨",
+        "chain": "美元走强将施压新兴市场货币（如人民币），并利空大宗商品（以美元计价）",
+        "watch": "美元指数（DXY）是否突破关键阻力位"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "中国大搜车赴美IPO目标估值9.01亿美元",
       "source": "环球市场播报",
       "detail": "中国汽车经销平台大搜车周三表示，公司在美国进行首次公开发行（IPO）的目标估值9.01亿美元。大搜车计划发行300万股美国存托股份（ADS），每股定价在16至18美元之间...",
@@ -38,82 +52,68 @@
       "score": 40,
       "insight": {
         "what": "中国大搜车赴美IPO，目标估值9.01亿美元",
-        "assets": "📈 中概股IPO板块 情绪利好；📉 二手车行业 竞争加剧",
-        "chain": "若IPO成功，将提振中概股赴美上市信心，但需警惕估值泡沫（过高定价）",
-        "watch": "IPO首日涨跌幅及路演认购倍数"
+        "assets": "📈 中概股 利好",
+        "chain": "提振中概股IPO信心，可能带动汽车电商板块（大搜车主营）",
+        "watch": "IPO定价及首日表现，其他中概股上市动向"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "高盛：通胀如不降温 预计美联储最早9月加息",
+      "source": "中国金融信息网",
+      "detail": " 新华财经北京6月18日电 高盛集团副董事长、前达拉斯联邦储备主席卡普兰表示，如果通胀持续高企，美联储可能最早需要在9月加息。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "高盛警告若通胀不降，美联储最早9月加息",
+        "assets": "📈 美债收益率 上行预期",
+        "chain": "加息预期推高短期利率（短端国债利率），利空科技股（高估值承压）",
+        "watch": "下周CPI（消费者物价指数）数据及美联储官员讲话"
+      }
+    },
+    {
+      "rank": 6,
       "title": "沃什首秀引发美债市场剧烈震荡 交易员对美联储加息押注激增",
       "source": "环球市场播报",
       "detail": "凯文·沃什没用多少时间就引起了债券市场的关注。 交易员抛售短期美债，导致部分债券收益率创下一年多来的最大涨幅，期货交易员纷纷押注最早下个月就会加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "沃什讲话引发美债剧烈波动，加息押注激增",
-        "assets": "📈 美元 利好；📉 美债价格 暴跌；📈 银行股 利好（净息差扩大）",
-        "chain": "加息预期升温→短端利率飙升（2年期美债收益率）→压制科技成长股估值（折现率提高）",
-        "watch": "联邦基金利率期货（定价加息概率）及收益率曲线形态"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "美联储新主席没降息，特朗普回应还好：尊重他的判断",
-      "source": "环球市场播报",
-      "detail": "美国总统特朗普对美联储主席凯文·沃什表达了信心。此前，这位新任央行行长结束了他的首次利率决策会议，决定维持利率不变，同时美联储公布的利率预期点阵图显示...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "特朗普回应美联储新主席未降息，表示尊重其判断",
-        "assets": "📉 美元 短期承压（政治干预风险缓解）；📈 美股 情绪稳定",
-        "chain": "政治压力减弱，美联储独立性（货币政策自主权）获得支撑，市场波动率下降",
-        "watch": "特朗普后续推特言论及美联储官员表态"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "存储芯片涨价潮延续！港股半导体板块逆市上涨，兆易创新股价创历史新高",
-      "source": "新浪港股",
-      "detail": "港股半导体板块逆市上涨，兆易创新盘中涨9%股价创历史新高，英诺赛科、天数智芯涨超7%，澜起科技、纳芯微涨超5%。 消息面上，根据ComputerBase对内存...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "存储芯片涨价潮延续，港股半导体板块逆市上涨",
-        "assets": "📈 港股半导体 利好；📈 兆易创新 创新高；📉 消费电子 成本承压",
-        "chain": "芯片涨价→下游制造商（如手机、PC）利润压缩→可能转嫁消费者（终端涨价）",
-        "watch": "DRAM/NAND现货价格（如DDR4 8Gb）及台积电月度营收数据"
+        "what": "沃什首秀引发美债震荡，交易员加息押注激增",
+        "assets": "📈 美元 利好；📉 美债价格 承压",
+        "chain": "沃什偏鹰立场（支持加息）推高加息概率，导致美债收益率曲线陡化（长短期利差扩大）",
+        "watch": "沃什后续言论及联邦基金期货（利率期货）定价变化"
       }
     },
     {
       "rank": 7,
-      "title": "Stock futures tick higher after Fed's hint of possible rate hike in 2026 spurs a sell-off: Live updates - CNBC",
+      "title": "美联储新主席没降息，特朗普回应还好：尊重他的判断",
+      "source": "环球市场播报",
+      "detail": "美国总统特朗普对美联储主席凯文·沃什表达了信心。此前，这位新任央行行长结束了他的首次利率决策会议，决定维持利率不变，同时美联储公布的利率预期点阵图显示...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
+      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Nikkei hits 71,000 for the first time: Live updates - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35
     },
     {
-      "rank": 8,
-      "title": "日韩股市齐创新高，日元创近两年新低，现货黄金向上触及4300美元",
-      "source": "市场资讯",
-      "detail": "文章来源：华尔街见闻 日韩股市双双刷新历史纪录，日经225指数首破71000点，韩国Kospi逼近9000关口；与此同时，日元跌至近两年低位，干预风险升温。",
-      "lang": "zh",
-      "score": 34
-    },
-    {
       "rank": 9,
-      "title": "澳洲监管机构拟对汇丰处以3500万澳元罚款 指其未尽责防范欺诈",
-      "source": "环球市场播报",
-      "detail": "澳大利亚证券和投资委员会（ASIC）发布声明称，汇丰承认在保护客户免受欺诈方面存在严重不足，导致客户蒙受损失。 ASIC将请求联邦法院认定汇丰违反法律...",
-      "lang": "zh",
+      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "source": "CNBC",
+      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+      "lang": "en",
       "score": 33
     },
     {
       "rank": 10,
-      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
       "source": "CNBC",
-      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+      "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
       "lang": "en",
       "score": 33
     }
