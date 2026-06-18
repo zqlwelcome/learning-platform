@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 23:17",
+  "updateTime": "2026-06-18 23:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "美股反弹，油价下跌，芯片股领涨",
-        "assets": "📈 美股科技股 利好；📉 原油 承压",
-        "chain": "油价跌缓解通胀预期，科技股受益于利率预期稳定（加息概率下降）",
-        "watch": "今晚CPI数据及美联储官员讲话"
+        "what": "美股从美联储抛售中反弹，油价跌芯片股涨",
+        "assets": "📈 美股科技股 利好，📉 原油 承压",
+        "chain": "油价跌降低通胀预期（物价上涨压力减轻），缓解加息（借钱成本提高）担忧，利好科技成长股",
+        "watch": "今晚美国CPI（消费者物价指数）数据"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 50,
       "insight": {
         "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI概念股 利好；📈 次新股板块 情绪提振",
-        "chain": "高估值IPO带动科技股风险偏好（Risk-on），但暗盘波动大需警惕获利了结",
-        "watch": "下周一开盘走势及港股通资金流向"
+        "assets": "📈 港股AI板块 利好，📈 物理AI概念股 利好",
+        "chain": "首日赚钱效应吸引热钱涌入港股科技IPO（新股上市），带动整个AI板块估值重估（重新定价）",
+        "watch": "下周一上市首日成交量及换手率"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "A股市值前十半数为科技股，中际旭创超茅台",
-        "assets": "📈 A股科技股 趋势利好；📉 白酒板块 相对承压",
-        "chain": "资金从消费转向科技，反映AI产业链（算力光模块）景气度替代传统蓝筹",
-        "watch": "中际旭创Q2业绩及科技ETF资金流入变化"
+        "what": "A股市值前10强半数科技股，中际旭创超茅台",
+        "assets": "📈 A股科技股 强势，📉 消费白马股 相对弱势",
+        "chain": "资金从消费转向科技，市场风格切换（资金偏好变化），科技龙头获得流动性溢价（资金愿意出更高价）",
+        "watch": "中际旭创后续订单及毛利率趋势"
       }
     },
     {
@@ -51,95 +51,71 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "Yardeni：美联储若真想控通胀，可能加息",
-        "assets": "📉 美股 承压；📉 美债 收益率上行",
-        "chain": "加息预期升温（借钱成本提高）压制估值，尤其高成长股（科技/生物科技）",
-        "watch": "美联储6月点阵图及核心PCE（个人消费支出物价指数）数据"
+        "what": "资深策略师称美联储若真想控通胀可能加息",
+        "assets": "📉 美股 承压，📈 美元 走强，📉 美债 利空",
+        "chain": "加息预期升温（市场猜测利率会提高）推高美元和债券收益率（借钱成本），压制风险资产（如股票）估值",
+        "watch": "美联储官员近期讲话基调变化"
       }
     },
     {
       "rank": 5,
-      "title": "Goldman’s Kaplan Says Fed May Hike by Fall, Sees Risk of More - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "高盛Kaplan：美联储可能在秋季前加息",
-        "assets": "📉 全球股市 承压；📈 美元 走强",
-        "chain": "加息预期推高美元，新兴市场（EM）资金外流，大宗商品（以美元计价）价格下跌",
-        "watch": "美联储会议纪要及美国非农就业数据"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "特朗普试图解雇美联储理事Lisa Cook，导致其法律安保费用超百万",
-        "assets": "📉 美联储独立性 风险；📈 美元 不确定性",
-        "chain": "政治干预央行（央行独立性受损）可能削弱市场对通胀控制的信心，长期利空美元",
-        "watch": "后续国会听证及美联储官员表态"
+        "what": "特朗普试图解雇美联储理事Lisa Cook，致其损失百万美元法律安保费",
+        "assets": "📉 美元 轻微承压，📉 美联储独立性 受质疑",
+        "chain": "政治干预央行（美联储）削弱政策可信度，长期可能推高通胀预期（物价上涨预期），利空债券",
+        "watch": "国会是否通过保护美联储独立性的法案"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
       "source": "CNBC",
       "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州预期IPO税收大增，但多重因素使情况复杂化",
-        "assets": "📉 加州地方债 利空; 📈 美股科技股 波动",
-        "chain": "IPO税收不及预期→加州财政赤字扩大→地方债收益率上升（风险溢价增加）→压制科技股估值（市场信心减弱）",
-        "watch": "加州财政预算报告及IPO上市进度"
+        "what": "加州指望IPO税收意外之财，但多重因素令情况复杂",
+        "assets": "📉 加州地方债 承压，📉 美股IPO市场 不确定性",
+        "chain": "IPO推迟或减少导致州财政缺口（收入不足），可能引发地方债抛售（卖出债券），压制科技公司上市意愿",
+        "watch": "加州下季度税收实际数据及IPO日历"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "分析指沃什领导的工作组是理解新美联储的关键",
-        "assets": "📈 美元指数 利好; 📉 美债 短期承压",
-        "chain": "沃什工作组偏向鹰派（收紧政策）→加息预期升温→美元走强→新兴市场资金外流（资本外逃）",
-        "watch": "沃什公开讲话及FOMC会议纪要"
-      }
+      "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "沃什首次会议释放五大要点，政策方向明确",
-        "assets": "📈 美元 利好; 📉 黄金 承压",
-        "chain": "沃什鹰派立场→实际利率上升（扣除通胀后的利息）→美元升值→黄金避险需求下降（替代资产吸引力减弱）",
-        "watch": "美联储点阵图及通胀数据"
-      }
+      "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "002217，违规信披处罚落地，前董事长终身禁入",
+      "source": "上海证券报",
+      "detail": " 6月18日，合力泰（002217）披露收到福建证监局出具的《行政处罚事先告知书》（以下简称“告知书”），前期信息披露违法违规事项迎来监管处理结果。",
+      "lang": "zh",
+      "score": 30
     },
     {
       "rank": 10,
-      "title": "Accenture to Strengthen Critical Infrastructure Defense with End-to-End Cybersecurity Platform in Age of AI-Driven Cyber Threats and Geopolitical Risk - Accenture",
-      "source": "Accenture",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "埃森哲推网络安全平台，强化关键基础设施防御",
-        "assets": "📈 网络安全板块 利好; 📈 埃森哲 利好",
-        "chain": "AI威胁升级→企业安全支出增加→网络安全股盈利预期上调（收入增长）→带动科技服务板块轮动（资金流入）",
-        "watch": "埃森哲季度财报及政府安全合同公告"
-      }
+      "title": "艾柯医疗IPO：主导产品单价腰斩，营收增速面临放缓风险",
+      "source": "市场资讯",
+      "detail": "来源：雷达Finance 雷达财经出品 文|李亦辉 编|深海 艾柯医疗正在进行IPO二次闯关。3月24日晚间，上交所官网显示，艾柯医疗器械（北京）股份有限公司（以下简称“艾柯医疗”...",
+      "lang": "zh",
+      "score": 30
     }
   ]
 }
