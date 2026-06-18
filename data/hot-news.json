@@ -1,100 +1,92 @@
 {
-  "updateTime": "2026-06-18 15:10",
+  "updateTime": "2026-06-18 15:15",
   "news": [
     {
       "rank": 1,
-      "title": "港股黄金股普跌，潼关黄金跌超7%，美联储放鹰美元站上100关口",
-      "source": "新浪港股",
-      "detail": " 6月18日消息，港股黄金股集体下跌，其中，潼关黄金、招金矿业跌超7%，中国黄金国际、山东黄金、赤峰黄金、灵宝黄金、紫金黄金国际跌超6%。",
-      "lang": "zh",
-      "score": 55,
-      "insight": {
-        "what": "港股黄金股普跌，因美联储放鹰美元走强",
-        "assets": "📉 港股黄金股 承压；📈 美元 利好",
-        "chain": "美元走强（美元升值）压制黄金（避险资产）价格，利空金矿股盈利预期",
-        "watch": "美联储官员讲话及美元指数DXY走势"
-      }
-    },
-    {
-      "rank": 2,
       "title": "英国央行按兵不动已成定局，油价暴跌或重构政策前景",
       "source": "滚动播报",
       "detail": "金十数据 中东停火带动油价下行，英国输入型通胀压力降温，市场一致预判英国央行将维持利率不变，投票大概率呈现7：2鹰鸽分化格局。地缘政治不确定性持续扰动政策节奏。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "英国央行按兵不动预期强，油价暴跌或改变政策",
+        "what": "英国央行维持利率不变，油价暴跌或改变政策路径",
         "assets": "📉 英镑 承压；📈 英国国债 利好",
-        "chain": "油价暴跌（能源成本下降）降低通胀（物价上涨压力），英国央行可能提前降息（借钱成本降低）",
-        "watch": "英国CPI（消费者物价指数）及油价WTI（西得州原油）走势"
+        "chain": "油价跌→通胀预期降温→英央行或提前降息（借钱成本降低）→英镑走弱",
+        "watch": "英国CPI（消费者物价指数）及下次议息会议声明"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "India’s largest stock exchange files for IPO as mega-listings gather pace",
       "source": "CNBC",
       "detail": "India's largest stock exchange sets the ball rolling for mega IPOs this year as it files papers to go public.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "印度最大交易所申请IPO，大型上市潮加速",
-        "assets": "📈 印度股市 利好；📈 印度券商股 利好",
-        "chain": "交易所IPO（首次公开募股）吸引资金流入，提振市场流动性（资金充裕程度），利好相关金融板块",
-        "watch": "印度监管机构SEBI（印度证券交易委员会）审批进度"
+        "what": "印度最大交易所NSE提交IPO申请，大型上市潮加速",
+        "assets": "📈 印度股市 利好；📈 新兴市场IPO板块 利好",
+        "chain": "NSE上市→吸引全球资金流入印度→推高本地估值（市盈率）→带动其他新兴市场IPO",
+        "watch": "NSE IPO定价及认购倍数"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "How Elon Musk's second-in-command Gwynne Shotwell helped turn SpaceX into an IPO giant",
       "source": "CNBC",
       "detail": "CNBC spoke to people who've worked with SpaceX's president and chief operating officer.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX二把手肖特韦尔助其成为IPO巨头",
-        "assets": "📈 美股太空概念股 利好；📈 SpaceX估值 利好",
-        "chain": "SpaceX上市预期（IPO预期）提振太空板块估值（公司价值），可能引发资金轮动（资金调仓）",
-        "watch": "SpaceX官方上市声明及估值报告"
+        "what": "SpaceX总裁Shotwell推动公司成为IPO巨头",
+        "assets": "📈 太空概念股 利好；📈 风险投资（VC）退出预期 利好",
+        "chain": "SpaceX上市预期→提振私人航天估值→带动卫星通信、发射服务相关股票",
+        "watch": "SpaceX官方上市时间表及SEC（美国证监会）文件"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "China to return as major oil buyer in August, JPMorgan says, naming its top stock picks",
       "source": "CNBC",
       "detail": "The pullback in oil imports by the world's largest oil importer has helped absorb the global energy shock and cap the surge in oil prices since the war began.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "摩根大通称中国8月将重返主要石油买家",
-        "assets": "📈 原油 利好；📈 中国石油股 利好",
-        "chain": "中国需求回升（经济复苏信号）支撑油价，利好能源股和石油出口国货币",
-        "watch": "中国原油进口数据及PMI（采购经理人指数）"
+        "what": "摩根大通称中国8月将重返主要石油买家，并推荐选股",
+        "assets": "📉 美元 承压（需求增加推油价）",
+        "chain": "中国需求回升→油价企稳→能源板块盈利改善→通胀预期微升",
+        "watch": "中国8月原油进口数据及炼厂开工率"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "港股午评：恒指跌1.7%失守24000点 科指跌1.38% 科网股、黄金股低迷 半导体板块逆势走强",
       "source": "新浪港股",
       "detail": "6月18日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.7%，报23899.25，恒生科技指数跌1.38%，国企指数跌1.99%。盘面上，科网股普跌，阿里巴巴、小米跌超3%...",
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股恒指失守24000点，科网黄金股低迷，半导体逆势走强",
-        "assets": "📉 恒生指数 承压；📉 港股科网股 承压；📈 港股半导体 利好",
-        "chain": "科技股抛售（资金流出）因政策风险，半导体逆势受国产替代（自主生产替代进口）预期提振",
-        "watch": "恒指24000点支撑位及南向资金（内地资金）流向"
+        "what": "港股恒指跌1.7%失守24000点，科指跌1.38%，半导体逆势走强",
+        "assets": "📉 恒生指数 承压；📉 科网股 承压；📈 半导体板块 逆势利好",
+        "chain": "科网股走弱→资金轮动至半导体→恒指破位（跌破关键位）触发止损盘",
+        "watch": "恒指能否收复24000点及南向资金（内地买港股）流向"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "花旗将美联储降息预期时点延至2026年10月，因官员们更偏鹰派",
       "source": "环球市场播报",
       "detail": "花旗集团将美联储降息的预估时点延后一个月，理由是美联储官员的立场转向更为鹰派。 这家华尔街投行目前预期，美联储将在2026年10月和12月降息...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "花旗将美联储降息预期推迟至2026年10月，因官员偏鹰派",
+        "assets": "📈 美元 利好；📉 美债 承压；📉 新兴市场货币 承压",
+        "chain": "降息推迟→高利率持续→美元走强→新兴市场资本外流（资金流出）",
+        "watch": "美联储点阵图（利率预测）及下次非农就业数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "机构：回调中寻找分批布局机会，美联储沃什删除降息指引，金价承压回调",
       "source": "界面",
       "detail": "消息面上，北京时间6月18日凌晨2时，美联储联邦公开市场委员会（FOMC）以12票全票赞成，决定将联邦基金利率目标区间维持在3.5%至3.75%不变，为连续第四次暂停利率调整...",
@@ -102,12 +94,20 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "高盛副董事长称美联储今秋或加息 并有进一步紧缩的风险",
       "source": "环球市场播报",
       "detail": "高盛集团副董事长、达拉斯联储行前行长卡普兰表示，如果通胀持续高企，美联储最快可能在9月就需要提高利率。 卡普兰在接受采访时表示...",
       "lang": "zh",
       "score": 36
+    },
+    {
+      "rank": 9,
+      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35
     },
     {
       "rank": 10,
