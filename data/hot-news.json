@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 12:21",
+  "updateTime": "2026-06-18 12:25",
   "news": [
     {
       "rank": 1,
@@ -7,34 +7,86 @@
       "source": "新浪港股",
       "detail": " 6月18日消息，港股黄金股集体下跌，其中，潼关黄金、招金矿业跌超7%，中国黄金国际、山东黄金、赤峰黄金、灵宝黄金、紫金黄金国际跌超6%。",
       "lang": "zh",
-      "score": 55
+      "score": 55,
+      "insight": {
+        "what": "美联储鹰派声明，美元指数突破100关口",
+        "assets": "📈 美元指数 利好; 📉 港股黄金股 承压",
+        "chain": "美元走强→黄金计价成本上升→金价回调（资产重定价），利空黄金股",
+        "watch": "美元指数是否站稳100；美联储后续讲话"
+      }
     },
     {
       "rank": 2,
+      "title": "India’s largest stock exchange files for IPO as mega-listings gather pace",
+      "source": "CNBC",
+      "detail": "India's largest stock exchange sets the ball rolling for mega IPOs this year as it files papers to go public.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "印度最大交易所启动IPO，大型上市潮加速",
+        "assets": "📈 印度交易所板块 利好",
+        "chain": "IPO活跃→交易量上升（流动性增加）→券商和交易所收入预期上调",
+        "watch": "印度交易所IPO定价及首日表现"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Federal Reserve issues FOMC statement - Federal Reserve (.gov)",
       "source": "Federal Reserve (.gov)",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "美联储FOMC声明发布，政策立场偏鹰",
+        "assets": "📈 美元 利好; 📉 贵金属 承压",
+        "chain": "鹰派信号→加息预期升温（资金成本上升）→风险资产估值承压",
+        "watch": "FOMC点阵图（利率预测）及鲍威尔记者会措辞"
+      }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "交易员：美联储政策决议后 对冲基金纷纷买入美元看涨期权",
+      "source": "环球市场播报",
+      "detail": " 根据交易员，鉴于美联储点阵图释放的鹰派信号以及2026年核心CPI预测上调，对冲基金买入美元兑G10和新兴市场货币的看涨期权。交易员称，期权期限从1周到3个月不等。",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "对冲基金在美联储决议后大量买入美元看涨期权",
+        "assets": "📈 美元 利好; 📉 新兴市场货币 承压",
+        "chain": "期权市场押注→美元多头拥挤→非美货币贬值压力（资本外流）",
+        "watch": "美元看涨期权持仓变化；新兴市场资金流向"
+      }
+    },
+    {
+      "rank": 5,
       "title": "港股午评：恒指跌1.7%失守24000点 科指跌1.38% 科网股、黄金股低迷 半导体板块逆势走强",
       "source": "新浪港股",
       "detail": "6月18日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.7%，报23899.25，恒生科技指数跌1.38%，国企指数跌1.99%。盘面上，科网股普跌，阿里巴巴、小米跌超3%...",
       "lang": "zh",
-      "score": 37
+      "score": 37,
+      "insight": {
+        "what": "港股恒指跌1.7%失守24000点，科网及黄金股低迷，半导体逆势走强",
+        "assets": "📉 恒生指数 承压; 📉 港股科网股 承压; 📈 港股半导体 利好",
+        "chain": "美元走强+科技监管担忧→外资撤离港股（资金外流）→避险资金轮动至半导体（防御性科技）",
+        "watch": "恒指24000点支撑；南向资金净买入额"
+      }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "机构：回调中寻找分批布局机会，美联储沃什删除降息指引，金价承压回调",
       "source": "界面",
       "detail": "消息面上，北京时间6月18日凌晨2时，美联储联邦公开市场委员会（FOMC）以12票全票赞成，决定将联邦基金利率目标区间维持在3.5%至3.75%不变，为连续第四次暂停利率调整...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "机构称逢低布局，美联储沃什删除降息指引，金价承压回调",
+        "assets": "📉 黄金 承压; 📈 美元 利好",
+        "chain": "删除降息指引→紧缩预期强化（实际利率上升）→黄金持有成本增加（无息资产劣势）",
+        "watch": "COMEX黄金期货持仓（投机多头/空头比）；美国实际利率走势"
+      }
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "高盛副董事长称美联储今秋或加息 并有进一步紧缩的风险",
       "source": "环球市场播报",
       "detail": "高盛集团副董事长、达拉斯联储行前行长卡普兰表示，如果通胀持续高企，美联储最快可能在9月就需要提高利率。 卡普兰在接受采访时表示...",
@@ -42,7 +94,7 @@
       "score": 36
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "存储芯片涨价潮延续！港股半导体板块逆市上涨，兆易创新股价创历史新高",
       "source": "新浪港股",
       "detail": "港股半导体板块逆市上涨，兆易创新盘中涨9%股价创历史新高，英诺赛科、天数智芯涨超7%，澜起科技、纳芯微涨超5%。 消息面上，根据ComputerBase对内存...",
@@ -50,7 +102,7 @@
       "score": 35
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "DOJ Defends Musk’s xAI in Data-Center Pollution Lawsuit - WSJ",
       "source": "WSJ",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -58,28 +110,12 @@
       "score": 35
     },
     {
-      "rank": 8,
-      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Nikkei hits 71,000 for the first time: Live updates - CNBC",
+      "rank": 10,
+      "title": "Stock futures tick higher after Fed's hint of possible rate hike in 2026 spurs a sell-off: Live updates - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 9,
-      "title": "澳洲监管机构拟对汇丰处以3500万澳元罚款 指其未尽责防范欺诈",
-      "source": "环球市场播报",
-      "detail": "澳大利亚证券和投资委员会（ASIC）发布声明称，汇丰承认在保护客户免受欺诈方面存在严重不足，导致客户蒙受损失。 ASIC将请求联邦法院认定汇丰违反法律...",
-      "lang": "zh",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "韩国金融当局：美联储可能转向更紧缩的货币政策",
-      "source": "环球市场播报",
-      "detail": "韩国金融当局周四表示，鉴于美联储强调其抑制通胀的决心，华盛顿可能会转向更紧缩的货币政策。 当天，韩国财政部长具润哲与韩国央行行长申铉松...",
-      "lang": "zh",
-      "score": 30
     }
   ]
 }
