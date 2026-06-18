@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 07:21",
+  "updateTime": "2026-06-19 07:24",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后买家在连续两日下跌后几乎亏损",
+        "assets": "SPCE, ARKK, RKLB",
+        "chain": "SpaceX未上市但情绪传导至太空概念股及成长股，IPO溢价消退引发抛售",
+        "watch": "关注SpaceX后续融资估值及太空板块联动效应"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图解雇美联储理事Lisa Cook致其法律安保费超百万美元",
+        "assets": "TLT, ZQ, DXY",
+        "chain": "政治干预美联储独立性的威胁削弱市场对利率路径的可信度，推升长期美债波动",
+        "watch": "关注Cook是否留任及美联储独立性辩论对12月议息会议的影响"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期Warsh领导的美联储将比预期更鹰派",
+        "assets": "SPY, QQQ, USD, 2YY",
+        "chain": "鹰派联储预期推高短端利率，压制成长股估值，美元走强",
+        "watch": "关注Warsh政策立场细节及点阵图利率路径上调风险"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "抵押贷款利率因美联储政策飙升",
+        "assets": "MBB, XHB, ITB, US10Y",
+        "chain": "美联储鹰派信号推升长端美债收益率，房贷利率敏感跟随，打压住房需求",
+        "watch": "关注30年期固定利率能否突破7%关键心理位及楼市数据"
+      }
     }
   ]
 }
