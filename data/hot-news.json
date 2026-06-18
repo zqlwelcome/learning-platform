@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 02:07",
+  "updateTime": "2026-06-19 02:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "股市反弹，油价下跌，芯片股领涨",
-        "assets": "📈 美股芯片股 利好; 📉 原油期货 承压",
-        "chain": "油价跌缓解通胀预期，利好风险资产（股票），但美联储鹰派信号压制反弹空间",
-        "watch": "WTI原油价格是否跌破前低"
+        "what": "美股从美联储抛售中反弹，油价下跌且芯片股领涨",
+        "assets": "📈 美股科技股 利好；📉 原油 承压",
+        "chain": "油价下跌缓解通胀（物价上涨）压力，降低加息预期（借钱成本上升概率），利好成长股估值",
+        "watch": "今晚EIA（美国能源信息署）原油库存数据"
       }
     },
     {
@@ -23,123 +23,99 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号延续涨势",
-        "assets": "📈 美元指数 利好; 📉 新兴市场货币 承压",
-        "chain": "美元走强压低大宗商品价格（以美元计价），并加大新兴市场资本外流压力",
-        "watch": "美联储点阵图（利率预期）是否进一步上移"
+        "what": "美元延续涨势，美联储鹰派信号（偏向加息言论）提振加息押注",
+        "assets": "📈 美元指数 走强；📉 新兴市场货币 承压",
+        "chain": "美元走强导致资金回流美国（资本外逃），新兴市场资产面临抛售压力，大宗商品（如黄金）价格受抑",
+        "watch": "本周美联储官员讲话及点阵图（利率预测）"
       }
     },
     {
       "rank": 3,
-      "title": "Tesla's $25 Billion Capex Plan Is No Longer About Cars. Here's Why Tesla Could Be the Most Undervalued AI and Robotics Stock of 2026. - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "特斯拉2500亿美元资本开支转向AI和机器人",
-        "assets": "📈 特斯拉 利好; 📈 AI/机器人板块 利好",
-        "chain": "资本开支转向AI暗示传统汽车需求放缓，但强化特斯拉作为AI概念股的估值逻辑",
-        "watch": "特斯拉AI产品商业化进展及财报资本开支细节"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices - WSJ",
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳斯达克大涨，油价接近伊朗冲突前水平",
-        "assets": "📈 纳斯达克 利好; 📉 原油期货 承压",
-        "chain": "油价下跌缓解成本压力，利好科技股（高耗能行业），同时削弱能源股盈利预期",
-        "watch": "伊朗局势是否升级导致油价反弹"
+        "what": "纳斯达克跳涨，油价接近伊朗战争前水平",
+        "assets": "📈 纳指 反弹；📉 WTI原油 接近支撑位",
+        "chain": "油价下跌降低企业成本（运输、原料），利好航空、制造业；同时削弱能源股（利润压缩）",
+        "watch": "布伦特原油是否跌破70美元关键位"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Federal regulators back Trump’s plan to speed power to energy-hungry AI data centers - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美监管机构支持特朗普加快AI数据中心供电计划",
-        "assets": "📈 美国电力/公用事业股 利好; 📈 AI基建板块 利好",
-        "chain": "加速供电审批降低AI数据中心建设成本，利好电力需求增长，但可能推高电价",
-        "watch": "电力基建项目审批进度及电网容量数据"
+        "what": "美国监管机构支持特朗普计划加快为AI数据中心供电",
+        "assets": "📈 AI芯片股（英伟达等） 利好；📈 电力公用事业 利好",
+        "chain": "AI基建需求拉动电力投资（资本开支），利好电网设备商；但可能推高电价（成本传导）",
+        "watch": "AI数据中心电力招标合同规模"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni称美联储若想实现通胀目标可能加息",
-        "assets": "📈 美元 利好; 📉 美股成长股 承压",
-        "chain": "加息预期升温压制高估值成长股（利率敏感），并强化美元避险需求",
-        "watch": "美国CPI（消费者物价指数）及PCE（个人消费支出物价指数）数据"
+        "what": "策略师Yardeni称美联储若真实现通胀目标可能加息",
+        "assets": "📈 短端美债收益率 上行；📉 美股成长股 承压",
+        "chain": "加息预期（借钱成本上升）压制科技股估值（未来现金流折现率提高），利好银行股（净息差扩大）",
+        "watch": "下周CPI（消费者物价指数）数据是否超预期"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "特朗普试图解雇美联储理事库克，致其法律安保费超百万",
-        "assets": "美元利空，美债收益率下行",
-        "chain": "政治干预美联储独立性，削弱市场对央行信任，风险溢价上升",
-        "watch": "库克是否离职及后续美联储独立性表态"
+        "what": "特朗普试图解雇美联储理事Lisa Cook，致其法律和安全费用超百万美元",
+        "assets": "📉 美元 承压；📈 黄金 避险",
+        "chain": "政治干预美联储独立性（央行决策自主权）削弱市场信心，引发美元卖盘（抛售），避险资金流入黄金",
+        "watch": "美联储主席鲍威尔是否公开表态捍卫独立性"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected",
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预期沃什执掌美联储将比预想更鹰派",
-        "assets": "美元利多，美债收益率上行，黄金利空",
-        "chain": "鹰派预期推高利率定价，压制风险资产估值，资金回流美元",
-        "watch": "沃什公开讲话及点阵图（利率预测）变化"
-      }
+      "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "沃什的特别工作组是解读新美联储的关键",
-        "assets": "美元中性，美债波动率上升",
-        "chain": "工作组架构预示政策决策去中心化，增加政策不可预测性",
-        "watch": "工作组名单及分工细节公布"
-      }
+      "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "沃什首次会议释放五大关键信号",
-        "assets": "美元偏多，美股短空长多",
-        "chain": "信号包括缩表加速、通胀目标调整，短期冲击流动性偏好",
-        "watch": "会议纪要中关于通胀和就业的措辞"
-      }
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
