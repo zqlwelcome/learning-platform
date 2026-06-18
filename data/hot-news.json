@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 05:51",
+  "updateTime": "2026-06-19 05:56",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 46,
       "insight": {
         "what": "美元因美联储鹰派信号走强，加息押注升温",
-        "assets": "📈 美元指数 利好; 📉 黄金 承压; 📉 美股科技股 利空",
-        "chain": "美元走强→新兴市场资本外流（资金流出）→大宗商品（以美元计价）价格下跌",
-        "watch": "本周美联储官员讲话及非农就业数据"
+        "assets": "📈 美元指数 利好；📉 黄金 承压；📉 新兴市场货币 承压",
+        "chain": "美元走强→大宗商品（以美元计价）承压→新兴市场外债压力加大",
+        "watch": "美联储下次会议点阵图（利率预测）及CPI数据"
       }
     },
     {
@@ -23,38 +23,38 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，但上市后股价两日下跌",
-        "assets": "📈 太空概念股 中性; 📉 SpaceX估值 承压",
-        "chain": "IPO热度高→散户追高→短期回调风险（回撤）→影响私人市场估值",
-        "watch": "SpaceX上市后锁定期解禁及后续财报"
+        "what": "SpaceX IPO投资指南发布，关注上市机会",
+        "assets": "📈 太空概念股 利好；📈 私人航天公司 利好",
+        "chain": "IPO热度→资金从公开市场流入私人科技公司→推高估值（公司价值）",
+        "watch": "SpaceX上市时间表及估值区间"
       }
     },
     {
       "rank": 3,
+      "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "华尔街建议买入英伟达，卖出美光",
+        "assets": "📈 英伟达 利好；📉 美光 承压",
+        "chain": "AI芯片需求分化→英伟达受益于算力（计算能力）需求，美光受存储芯片库存过剩拖累",
+        "watch": "英伟达财报及美光库存周期数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳斯达克上涨，油价跌至伊朗冲突前水平",
-        "assets": "📈 纳斯达克指数 利好; 📉 原油 承压",
-        "chain": "油价下跌→通胀预期降温→降息（借钱成本降低）预期升温→科技股受益",
-        "watch": "OPEC+产量决议及美国EIA原油库存数据"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "联邦监管机构要求电网运营商加快为AI数据中心供电",
-        "assets": "📈 新能源电力股 利好; 📈 AI算力基建 利好",
-        "chain": "电力需求激增→电网升级投资→新能源发电（如光伏、风能）与储能需求上升",
-        "watch": "美国能源部电网投资计划及AI数据中心建设进度"
+        "what": "纳斯达克上涨，油价接近伊朗战争前水平",
+        "assets": "📈 纳斯达克指数 利好；📉 原油 承压",
+        "chain": "风险偏好（投资者情绪）回升→科技股领涨→地缘溢价（战争恐慌带来的额外成本）消退拖累油价",
+        "watch": "伊朗局势及OPEC+产量决策"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收，但多重因素使预测复杂",
-        "assets": "📈 加州地方债券 承压; 📉 科技初创企业 中性偏空",
-        "chain": "IPO税收低于预期→州财政缺口→削减公共支出或增税→科技企业成本上升",
-        "watch": "加州Q2税收数据及大型科技公司IPO进展"
+        "what": "加州依赖IPO税收，但多重因素使预测复杂化",
+        "assets": "📉 加州政府债券 承压；📉 科技股IPO 观望",
+        "chain": "IPO推迟→州财政赤字扩大→可能削减支出或增税，影响地方经济",
+        "watch": "加州预算提案及大型科技公司上市进度"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO后普通买家两日亏损，接近浮亏",
-        "assets": "📉 SpaceX股票 承压; 📉 太空概念ETF 利空",
-        "chain": "散户亏损→市场情绪转悲观→抑制后续科技IPO需求（上市融资意愿降低）",
-        "watch": "SpaceX股价是否跌破发行价及机构持仓变化"
+        "what": "SpaceX IPO后平均买家在两天下跌中接近亏损",
+        "assets": "📉 SpaceX股票 承压；📉 新上市科技股 承压",
+        "chain": "IPO首日涨幅过高→获利了结（卖出赚差价）→散户追高被套，打击市场情绪",
+        "watch": "SpaceX股价能否站稳发行价及锁定期（禁止卖出期）结束后的抛压"
       }
     },
     {
