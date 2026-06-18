@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 23:56",
+  "updateTime": "2026-06-19 00:01",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "美股从美联储抛售中反弹，油价下跌芯片股领涨",
-        "assets": "📈 美股科技股 利好；📉 原油期货 承压",
-        "chain": "油价跌降低通胀预期（物价上涨速度），缓解加息（提高借钱成本）压力，利好成长股估值",
-        "watch": "今晚CPI（消费者物价指数）数据及科技股财报"
+        "what": "美股反弹，油价下跌，芯片股领涨",
+        "assets": "📈 美股科技股 利好；📉 原油 承压",
+        "chain": "油价跌→通胀预期降温→美债收益率下行→科技股估值修复（高PE股票更贵）",
+        "watch": "今晚美国CPI数据（通胀验证）"
       }
     },
     {
@@ -23,70 +23,78 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号（偏紧缩立场）延续涨势",
-        "assets": "📈 美元指数 利好；📉 非美货币（欧元/日元） 承压",
-        "chain": "美元走强压制大宗商品（黄金/铜）价格，新兴市场资金外流风险上升",
-        "watch": "美联储点阵图（利率预测）及非农就业数据"
+        "what": "美元走强，美联储鹰派信号推高加息押注",
+        "assets": "📈 美元 利好；📉 新兴市场货币 承压",
+        "chain": "美元涨→新兴市场资本外流→本地资产下跌（汇率贬值压力）",
+        "watch": "美联储官员讲话（确认加息路径）"
       }
     },
     {
       "rank": 3,
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "纳斯达克大涨，油价跌至接近伊朗战前水平",
+        "assets": "📈 纳斯达克 利好；📉 能源股 承压",
+        "chain": "油价跌→运输成本降→消费股受益（成本下降）",
+        "watch": "WTI原油库存数据（供需平衡）"
+      }
+    },
+    {
+      "rank": 4,
       "title": "A股市值前10强半数是科技股，中际旭创市值首超贵州茅台",
       "source": "每日经济新闻",
       "detail": "每经记者|王海慜每经编辑|彭水萍 以往A股市场市值排名长期被传统金融、消费、能源巨头霸榜的格局正迎来深刻变化。2026年6月18日收盘，A股市值前10强中，科技股占据5席...",
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "A股市值前十强半数科技股，中际旭创超越茅台",
-        "assets": "📈 A股科技板块（光通信/半导体） 利好；📉 消费蓝筹（茅台） 相对承压",
-        "chain": "科技股估值扩张（市盈率上升）可能吸引资金从传统板块切换，加剧风格分化",
-        "watch": "科技股业绩增速及北向资金（外资）流向"
+        "what": "A股市值前十半数为科技股，中际旭创超茅台",
+        "assets": "📈 A股科技股 利好；📉 消费蓝筹 承压",
+        "chain": "科技股吸金→资金轮动→传统板块失血（板块切换）",
+        "watch": "中际旭创业绩指引（估值锚定）"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni称美联储若真控通胀可能加息",
-        "assets": "📉 美股大盘 承压；📈 短期美债收益率 上行",
-        "chain": "加息预期推高无风险利率（国债收益），压制股票和风险资产估值",
-        "watch": "美联储官员讲话及PCE（个人消费支出）物价指数"
+        "what": "策略师认为美联储为降通胀可能再加息",
+        "assets": "📈 美元 利好；📉 美股 承压",
+        "chain": "加息预期→借贷成本升→企业盈利压缩（EPS下滑）",
+        "watch": "点阵图（利率路径信号）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收意外收入，但多重因素复杂化",
-        "assets": "📉 加州市政债券 承压；📈 科技IPO（首次公开募股）窗口 不确定性",
-        "chain": "IPO放缓减少州税收，可能引发财政紧缩，间接影响科技公司上市节奏",
-        "watch": "下半年科技公司IPO排队数量及加州预算修正案"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
-      "source": "CNBC",
-      "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普解雇美联储理事库克致其法律安保费超百万",
-        "assets": "📉 美联储独立性 受损；📈 政治风险溢价（不确定性） 上升",
-        "chain": "政治干预削弱央行（中央银行）公信力，长期可能推高通胀预期（物价上涨预期）",
-        "watch": "美联储理事辞职事件及国会听证会进展"
+        "what": "加州依赖IPO税收遇阻，多因素复杂化",
+        "assets": "📉 美股IPO 承压；📉 加州地方债 利空",
+        "chain": "IPO减少→州税收缺口→地方债风险溢价上升（信用利差扩大）",
+        "watch": "未来IPO定价（市场情绪指标）"
       }
     },
     {
       "rank": 7,
+      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
+      "source": "CNBC",
+      "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
@@ -94,7 +102,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
@@ -102,18 +110,10 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "002217，违规信披处罚落地，前董事长终身禁入",
       "source": "上海证券报",
       "detail": " 6月18日，合力泰（002217）披露收到福建证监局出具的《行政处罚事先告知书》（以下简称“告知书”），前期信息披露违法违规事项迎来监管处理结果。",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "艾柯医疗IPO：主导产品单价腰斩，营收增速面临放缓风险",
-      "source": "市场资讯",
-      "detail": "来源：雷达Finance 雷达财经出品 文|李亦辉 编|深海 艾柯医疗正在进行IPO二次闯关。3月24日晚间，上交所官网显示，艾柯医疗器械（北京）股份有限公司（以下简称“艾柯医疗”...",
       "lang": "zh",
       "score": 30
     }
