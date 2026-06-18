@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 23:13",
+  "updateTime": "2026-06-18 23:16",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "美股反弹，油价下跌，芯片股领涨",
         "assets": "📈 美股科技股 利好；📉 原油 承压",
-        "chain": "油价下跌降低通胀预期（物价上涨压力），缓解美联储加息（借钱成本提高）担忧，利好成长股",
-        "watch": "EIA（美国能源情报署）原油库存数据"
+        "chain": "油价跌缓解通胀预期，科技股受益于利率预期稳定（加息概率下降）",
+        "watch": "今晚CPI数据及美联储官员讲话"
       }
     },
     {
@@ -23,123 +23,99 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "“物理AI第一股”暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI板块 利好；📈 次新股情绪 提振",
-        "chain": "暗盘暴涨吸引散户追涨（FOMO情绪），可能带动港股科技IPO（新股发行）估值抬升",
-        "watch": "上市首日成交量及换手率"
+        "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
+        "assets": "📈 港股AI概念股 利好；📈 次新股板块 情绪提振",
+        "chain": "高估值IPO带动科技股风险偏好（Risk-on），但暗盘波动大需警惕获利了结",
+        "watch": "下周一开盘走势及港股通资金流向"
       }
     },
     {
       "rank": 3,
-      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "纳斯达克大涨，油价跌回伊朗战争前水平",
-        "assets": "📈 纳斯达克指数 利好；📉 原油 承压",
-        "chain": "油价回落降低生产成本，企业盈利预期改善（EPS（每股收益）上修），科技股获资金流入",
-        "watch": "布伦特原油是否跌破75美元"
-      }
-    },
-    {
-      "rank": 4,
       "title": "A股市值前10强半数是科技股，中际旭创市值首超贵州茅台",
       "source": "每日经济新闻",
       "detail": "每经记者|王海慜每经编辑|彭水萍 以往A股市场市值排名长期被传统金融、消费、能源巨头霸榜的格局正迎来深刻变化。2026年6月18日收盘，A股市值前10强中，科技股占据5席...",
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "A股前十强半数科技股，中际旭创市值超茅台",
-        "assets": "📈 A股科技股 利好；📉 消费白酒板块 承压",
-        "chain": "资金从消费转向科技，反映市场风险偏好（愿意冒险）提升，AI算力需求成主线",
-        "watch": "科技ETF（交易型开放式指数基金）资金流入量"
+        "what": "A股市值前十半数为科技股，中际旭创超茅台",
+        "assets": "📈 A股科技股 趋势利好；📉 白酒板块 相对承压",
+        "chain": "资金从消费转向科技，反映AI产业链（算力光模块）景气度替代传统蓝筹",
+        "watch": "中际旭创Q2业绩及科技ETF资金流入变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "资深策略师称美联储若想降通胀可能加息",
-        "assets": "📉 美股整体 利空；📈 美元 利好",
-        "chain": "加息预期推高美债收益率（无风险收益），压制股票估值（PE（市盈率）收缩），利空成长股",
-        "watch": "美联储官员本周讲话措辞"
+        "what": "Yardeni：美联储若真想控通胀，可能加息",
+        "assets": "📉 美股 承压；📉 美债 收益率上行",
+        "chain": "加息预期升温（借钱成本提高）压制估值，尤其高成长股（科技/生物科技）",
+        "watch": "美联储6月点阵图及核心PCE（个人消费支出物价指数）数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Goldman’s Kaplan Says Fed May Hike by Fall, Sees Risk of More - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "高盛Kaplan预测美联储秋季加息，风险偏上行",
-        "assets": "📉 美股 利空；📈 美元 利好；📉 黄金 承压",
-        "chain": "加息预期强化美元走强，新兴市场资金外流（资本回流美国），大宗商品需求受抑",
-        "watch": "6月CPI（消费者物价指数）数据公布"
+        "what": "高盛Kaplan：美联储可能在秋季前加息",
+        "assets": "📉 全球股市 承压；📈 美元 走强",
+        "chain": "加息预期推高美元，新兴市场（EM）资金外流，大宗商品（以美元计价）价格下跌",
+        "watch": "美联储会议纪要及美国非农就业数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "特朗普试图解雇美联储理事库克，致其法律安保费超百万",
-        "assets": "美元短期看涨，美债收益率微升",
-        "chain": "政治干预美联储独立性，市场避险情绪升温",
-        "watch": "特朗普后续对美联储人事的公开表态"
+        "what": "特朗普试图解雇美联储理事Lisa Cook，导致其法律安保费用超百万",
+        "assets": "📉 美联储独立性 风险；📈 美元 不确定性",
+        "chain": "政治干预央行（央行独立性受损）可能削弱市场对通胀控制的信心，长期利空美元",
+        "watch": "后续国会听证及美联储官员表态"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
       "source": "CNBC",
       "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州依赖IPO税收入，但多重因素使预测复杂化",
-        "assets": "加州市政债受压，科技股波动性增加",
-        "chain": "IPO放缓减少税收，可能引发州财政紧缩",
-        "watch": "科技公司IPO上市进度及加州税收报告"
-      }
+      "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "新任美联储主席沃什的工作组是理解其政策关键",
-        "assets": "美元走强，短期利率预期上调",
-        "chain": "工作组结构暗示鹰派倾向，紧缩政策风险上升",
-        "watch": "沃什工作组发布的政策框架文件"
-      }
+      "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "沃什首次美联储会议五大要点出炉",
-        "assets": "美元上涨，美股承压，国债收益率陡峭化",
-        "chain": "鹰派信号增强加息预期，压制风险资产",
-        "watch": "下次会议纪要及点阵图利率预测"
-      }
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Accenture to Strengthen Critical Infrastructure Defense with End-to-End Cybersecurity Platform in Age of AI-Driven Cyber Threats and Geopolitical Risk - Accenture",
+      "source": "Accenture",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
