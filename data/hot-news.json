@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 18:26",
+  "updateTime": "2026-06-18 18:31",
   "news": [
     {
       "rank": 1,
@@ -9,52 +9,52 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "美股期货因Fed暗示2026年加息上涨",
-        "assets": "📈 美股期指 利好；📈 韩国KOSPI 利好",
-        "chain": "远期加息预期被消化，短期流动性宽松（资金充裕）支撑风险偏好（愿意投资高风险资产）。",
-        "watch": "实际联邦基金利率（银行间拆借利率）路径"
+        "what": "新任美联储主席Warsh首次会议引发加息押注飙升",
+        "assets": "📈 美元 走强; 📉 美债 利空",
+        "chain": "加息预期推高长端利率（长期借贷成本），压制科技股估值（未来现金流折现减少）",
+        "watch": "关注本周FOMC会议点阵图及Warsh讲话措辞"
       }
     },
     {
       "rank": 2,
+      "title": "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates",
+      "source": "CNBC",
+      "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "美股期货反弹，英特尔领涨芯片股，试图收复Fed引发的跌幅",
+        "assets": "📈 美股半导体 利好; 📈 纳指期货 反弹",
+        "chain": "超卖后技术性修复（短期资金回流），但若利率持续走高，反弹可能昙花一现（流动性收紧）",
+        "watch": "观察标普500能否守住200日均线（趋势支撑位）"
+      }
+    },
+    {
+      "rank": 3,
       "title": "挪威央行维持基准利率不变 暗示今年或再次加息",
       "source": "环球市场播报",
       "detail": "挪威央行维持基准利率不变，但试图为进一步收紧政策做铺垫，以缓解该地区高涨的通胀压力。 挪威央行周四将存款利率维持在4.25%，与彭博调查的17位分析师预期一致。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "*ST赛隆退市不影响索赔",
-        "assets": "📉 A股退市板块 中性偏空；📈 维权律师业务 利好",
-        "chain": "退市常态化（公司退出机制成熟）削弱壳价值（借壳上市溢价），但索赔案例增加。",
-        "watch": "退市公司数量及索赔立案进度"
+        "what": "挪威央行维持利率不变，暗示年内或再加息一次",
+        "assets": "📈 挪威克朗 走强; 📉 挪威国债 利空",
+        "chain": "紧缩信号强化（借贷成本高企），可能拖累挪威经济增速（消费和投资放缓）",
+        "watch": "关注下次CPI数据（通胀是否支持加息）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "沃什首秀引发加息预期飙升",
-        "assets": "📉 美国国债 承压；📈 美元指数 利好",
-        "chain": "加息预期推高短端利率（短期借钱成本），压制科技股估值（折现率上升）。",
-        "watch": "FedWatch工具显示的加息概率变化"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates",
-      "source": "CNBC",
-      "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "挪威央行暗示今年或再次加息",
-        "assets": "📈 挪威克朗 利好；📉 挪威国债 承压",
-        "chain": "欧系央行偏鹰（倾向加息）可能带动欧元区加息预期，利空欧债。",
-        "watch": "挪威CPI（消费者物价指数）及欧央行表态"
+        "what": "美联储暗示2026年可能加息，韩国Kospi首次突破9000点",
+        "assets": "📈 韩国KOSPI 利好; 📉 新兴市场债 承压",
+        "chain": "外资流入韩股对冲Fed风险（避险资金），但远期加息预期压制新兴市场（资本外流压力）",
+        "watch": "关注韩元兑美元汇率及外资流入数据"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "*ST赛隆退市，投资者索赔不受影响",
+        "assets": "📉 A股ST板块 利空; 📉 中小盘股 承压",
+        "chain": "退市常态化（监管收紧），资金向蓝筹集中（流动性分化），索赔机制完善但执行周期长（法律风险）",
+        "watch": "关注退市公司数量及索赔诉讼进展"
+      }
     },
     {
       "rank": 6,
@@ -71,7 +77,13 @@
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh首次联储会议五大要点：通胀仍高，政策转向审慎",
+        "assets": "📈 美元 走强; 📉 黄金 承压",
+        "chain": "鹰派基调（偏紧缩）推高实际利率（名义利率减通胀），压制风险资产（股票和商品）",
+        "watch": "盯紧10年期美债收益率是否突破4.5%关键阻力"
+      }
     },
     {
       "rank": 7,
