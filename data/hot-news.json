@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 20:10",
+  "updateTime": "2026-06-18 20:11",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "The investment bank initiated the stock at buy.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "AI基建股一年暴涨500%，Jefferies看多续涨",
+        "assets": "多头：AI基建板块；空头：传统硬件股",
+        "chain": "AI资本开支预期升温，带动芯片及数据中心需求，挤压传统IT支出",
+        "watch": "Jefferies目标价及同行评级变化"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "纳指反弹，汽油价格跌破4美元",
+        "assets": "多头：纳指、科技股；空头：能源股",
+        "chain": "油价下跌缓解通胀压力，增强降息预期，利好成长股估值修复",
+        "watch": "美国CPI数据及OPEC产量决策"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves in the premarket.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "盘前异动：Intel、SpaceX、美光、嘉年华等",
+        "assets": "多头：美光（存储反弹）；空头：Intel（竞争压力），关注SpaceX（未上市）",
+        "chain": "个股财报或消息驱动板块轮动，存储股或引领半导体反弹",
+        "watch": "各公司财报指引及行业订单数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "环球市场播报",
       "detail": "对于正在为自有数据中心甄选 AI 服务器芯片的企业而言，相比英伟达，亚马逊拥有一大核心优势：价格。 爱尔兰咨询机构 Co Driver Labs 专注为企业提供 AI...",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "亚马逊高性价比AI芯片获企业青睐",
+        "assets": "多头：亚马逊云、定制芯片；空头：英伟达、AMD",
+        "chain": "自研芯片降低客户成本，加速AI推理部署，削弱GPU巨头定价权",
+        "watch": "亚马逊Re:Invent大会及客户迁移案例"
+      }
     }
   ]
 }
