@@ -1,131 +1,121 @@
 {
-  "updateTime": "2026-06-18 21:42",
+  "updateTime": "2026-06-18 21:45",
   "news": [
     {
       "rank": 1,
+      "title": "Stock Market Today: Dow Brushes Off Fed, Rises After Jobless Claims; Trump Spurs Intel Shares (Live Coverage) - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 55,
+      "insight": {
+        "what": "初请失业金人数低于预期，道指反弹",
+        "assets": "📈 道指 利好 📉 美国国债 承压",
+        "chain": "就业强劲→降息预期降温→长端利率（10年期美债收益率）上行，压制成长股估值",
+        "watch": "下周非农就业数据（NFP）"
+      }
+    },
+    {
+      "rank": 2,
       "title": "“物理AI第一股”暗盘暴涨262%，下周一港股上市",
       "source": "21世纪经济报道",
       "detail": " 6月18日傍晚，被称为“物理AI第一股”的海清智元暗盘暴涨，截至18：29分涨幅达到262%。下周一（6月22日），该股将在港股挂牌上市。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI板块 利好；📈 新股市场情绪 提振",
-        "chain": "暗盘涨幅超预期，可能推高港股IPO估值中枢，吸引打新资金（上市前认购资金）流入",
-        "watch": "下周一港股开盘涨幅及成交量"
+        "what": "物理AI公司暗盘暴涨262%，下周一港股上市",
+        "assets": "📈 港股AI板块 利好 📈 港股IPO市场 情绪提振",
+        "chain": "IPO暴涨→吸引散户资金→推高同类AI标的估值，但需警惕首日获利回吐（sell-off）",
+        "watch": "首日成交量及换手率"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Stocks rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美股反弹，英特尔领涨芯片股，试图从美联储抛售中恢复",
-        "assets": "📈 美股科技股 反弹；📈 半导体板块 领涨",
-        "chain": "科技股反弹是空头回补（之前做空的买回股票），但若加息预期（借钱成本上升）持续，反弹可能短暂",
-        "watch": "今晚美国CPI数据（通胀指标）及美联储官员讲话"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "Oil prices fall, stocks rally as US, Iran sign framework to end war - Al Jazeera",
-      "source": "Al Jazeera",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "美伊签署框架协议结束战争，油价跌，股市涨",
-        "assets": "📉 原油 承压；📈 全球股市 风险偏好回升",
-        "chain": "油价下跌降低通胀预期（物价上涨压力），利好央行暂停紧缩（减少印钞），股市获得喘息",
-        "watch": "下周OPEC产量数据及伊朗石油出口恢复进度"
+        "what": "华尔街反弹，英特尔领涨芯片股",
+        "assets": "📈 半导体板块（SOX） 利好 📈 英特尔 利好",
+        "chain": "英特尔反弹→芯片周期触底预期升温→带动费城半导体指数（SOX）修复，但需验证基本面",
+        "watch": "英特尔下季度营收指引"
       }
     },
     {
       "rank": 4,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
+      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
       "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
+      "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州指望IPO税收意外收入，但多重因素使计算复杂",
-        "assets": "📉 加州政府债券 承压；📈 科技公司IPO 不确定性",
-        "chain": "若税收落空，州财政赤字扩大，可能被迫加税或削减支出，拖累地方经济和企业税负",
-        "watch": "加州4月税收实际数据及大型科技公司IPO时间表"
+        "what": "加州依赖IPO税收入，但多个因素使计算复杂",
+        "assets": "📉 加州市政债券 承压 📉 科技IPO估值 不确定性",
+        "chain": "IPO税收入不确定→加州财政赤字风险上升→市政债信用利差（风险溢价）走阔",
+        "watch": "加州下一财年预算提案"
       }
     },
     {
       "rank": 5,
-      "title": "Goldman’s Kaplan Says Fed May Hike by Fall, Sees Risk of More - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "高盛Kaplan称美联储可能在秋季加息，风险更大",
-        "assets": "📉 美债 承压；📉 美股 利空；📈 美元 走强",
-        "chain": "加息预期（借钱成本上升）推高美债收益率（债券利息），压制股市估值，资金回流美元资产",
-        "watch": "下周美联储点阵图（利率预测）及核心PCE（个人消费支出物价指数）"
-      }
-    },
-    {
-      "rank": 6,
       "title": "*ST赛隆告别A股，退市不影响索赔",
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "*ST赛隆退市，投资者索赔不受影响",
-        "assets": "A股ST板块利空；退市风险标的承压",
-        "chain": "退市常态化加速，壳价值缩水，低价股流动性恐慌",
-        "watch": "退市股后续索赔案例及ST板块资金流向"
+        "what": "*ST赛隆退市，投资者可索赔",
+        "assets": "📉 A股ST板块 利空 📈 退市风险警示 强化",
+        "chain": "退市常态化→壳价值（上市资格溢价）继续缩水→资金向绩优蓝筹集中",
+        "watch": "后续退市公司数量及索赔进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "Kevin Warsh任美联储主席，公布工作组五大要点",
-        "assets": "美元看涨，美债收益率上行；美股短期波动",
-        "chain": "监管松绑利好金融股，但鹰派政策预期压制科技成长股",
-        "watch": "3月FOMC会议声明及点阵图变化"
+        "what": "解读新美联储：Kevin Warsh工作组是关键",
+        "assets": "📈 美元指数 利好 📉 黄金 承压",
+        "chain": "Warsh偏鹰派（倾向紧缩）→市场预期加息周期延长→实际利率（名义利率减通胀）上升，压制黄金",
+        "watch": "Warsh关于通胀目标的公开讲话"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Kevin Warsh任美联储主席，公布工作组五大要点",
-        "assets": "美元看涨，美债收益率上行；美股短期波动",
-        "chain": "监管松绑利好金融股，但鹰派政策预期压制科技成长股",
-        "watch": "3月FOMC会议声明及点阵图变化"
-      }
+      "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Intel surges 11% after Trump says company will partner with Apple on U.S. chip design",
       "source": "CNBC",
       "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "特朗普宣布与苹果合作美国芯片设计，Intel暴涨11%",
-        "assets": "Intel多头，费城半导体指数看涨；AMD及台积电承压",
-        "chain": "地缘政治重塑芯片供应链，美国本土制造溢价上升",
-        "watch": "苹果与Intel合作具体协议及台积电美国厂进展"
-      }
+      "score": 32
+    },
+    {
+      "rank": 9,
+      "title": "002217，违规信披处罚落地，前董事长终身禁入",
+      "source": "上海证券报",
+      "detail": " 6月18日，合力泰（002217）披露收到福建证监局出具的《行政处罚事先告知书》（以下简称“告知书”），前期信息披露违法违规事项迎来监管处理结果。",
+      "lang": "zh",
+      "score": 30
+    },
+    {
+      "rank": 10,
+      "title": "Should You Buy SpaceX Stock This Week or Wait for the Hype to Die Down? - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27
     }
   ]
 }
