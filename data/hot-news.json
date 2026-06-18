@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 06:55",
+  "updateTime": "2026-06-19 06:57",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图解雇美联储理事Lisa Cook",
+        "assets": "美元、美债",
+        "chain": "政治干预美联储独立性，削弱政策可信度",
+        "watch": "美联储独立性声明及后续政治博弈"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期Warsh领导美联储将更鹰派",
+        "assets": "美元、美债、纳指",
+        "chain": "鹰派预期推高利率，压制风险资产",
+        "watch": "Warsh政策表态及通胀数据"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "抵押贷款利率因美联储鹰派信号飙升",
+        "assets": "美债、房地产ETF",
+        "chain": "利率上升抑制房贷需求，拖累经济",
+        "watch": "30年固定抵押贷款利率及新屋销售数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期Warsh领导美联储将更鹰派",
+        "assets": "美元、美债、纳指",
+        "chain": "鹰派预期推高利率，压制风险资产",
+        "watch": "Warsh政策表态及通胀数据"
+      }
     }
   ]
 }
