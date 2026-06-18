@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 02:45",
+  "updateTime": "2026-06-19 02:47",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh首秀五大要点，鹰派信号明显",
+        "assets": "美元指数, 美国国债, 标普500",
+        "chain": "加息预期升温，美元走强，股市承压",
+        "watch": "关注Warsh后续政策细节及通胀数据"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh工作组揭示美联储新方向",
+        "assets": "美元指数, 美国国债, 金融股",
+        "chain": "工作组结构暗示监管松绑，银行股受益",
+        "watch": "关注工作组具体成员及政策倾向"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX股价大跌，尽管获两大目标价",
+        "assets": "SpaceX, 太空概念股",
+        "chain": "利好出尽或获利了结，高价股波动加剧",
+        "watch": "关注SpaceX后续业绩及机构评级变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX连跌7%，三日涨势终结",
+        "assets": "SpaceX, 太空概念股",
+        "chain": "短期回调压力增大，散户情绪转向谨慎",
+        "watch": "关注SpaceX技术面支撑位及市场情绪"
+      }
     }
   ]
 }
