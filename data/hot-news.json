@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 13:16",
+  "updateTime": "2026-06-18 13:21",
   "news": [
     {
       "rank": 1,
@@ -9,56 +9,70 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "港股黄金股因美联储鹰派及美元走强而下跌",
-        "assets": "📉 港股黄金股 利空, 📈 美元 走强",
-        "chain": "美元走强压制黄金价格（以美元计价），黄金股盈利预期下修，资金流出避险资产",
-        "watch": "美联储官员讲话及美元指数能否守住100关口"
+        "what": "港股黄金股下跌，美联储鹰派言论推高美元",
+        "assets": "📉 港股黄金股 利空；📈 美元指数 利好",
+        "chain": "美元走强（DXY上涨）压制金价（XAU/USD），黄金股跟随回调（风险资产承压）",
+        "watch": "美元指数是否突破101关口及非农数据"
       }
     },
     {
       "rank": 2,
+      "title": "美联储鹰声嘹亮，带着“降息使命”上任的沃什下一步是加息？",
+      "source": "澎湃新闻",
+      "detail": "澎湃新闻记者 荣迅 以改革者自居的美联储新任主席沃什在其首个新闻发布会上提出了涉及货币政策流程的五大改革领域。 北京时间6月18日凌晨...",
+      "lang": "zh",
+      "score": 54,
+      "insight": {
+        "what": "美联储鹰声嘹亮，沃什可能转向加息",
+        "assets": "📉 美债 利空；📈 美元 利好",
+        "chain": "加息预期升温（提高借贷成本）→ 美债收益率曲线陡峭化（长端利率上升），风险资产受压（如科技股）",
+        "watch": "沃什后续讲话及联邦基金利率期货隐含概率"
+      }
+    },
+    {
+      "rank": 3,
       "title": "India’s largest stock exchange files for IPO as mega-listings gather pace",
       "source": "CNBC",
       "detail": "India's largest stock exchange sets the ball rolling for mega IPOs this year as it files papers to go public.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "印度最大交易所申请IPO，大型上市潮加速",
-        "assets": "📈 印度股市 利好, 📈 印度交易所 估值提升",
-        "chain": "IPO（首次公开募股）吸走流动性，但交易所上市提升市场信心，吸引外资流入印度资本市场",
-        "watch": "印度IPO定价及后续上市节奏"
+        "what": "印度最大交易所NSE申请IPO，大型上市潮加速",
+        "assets": "📈 印度股市 利好",
+        "chain": "交易所IPO（新股发行）吸引资金流入印度市场，提升估值中枢（PE倍数），带动券商股（如MCX）",
+        "watch": "NSE IPO定价及印度证监会的审批进度"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "营收三连降利润止步不前 IPO前分掉1.7亿 安得医疗转战港股能否走出增长“死胡同”？",
       "source": "新浪证券",
       "detail": "近日，山东安得医疗用品股份有限公司（以下简称“安得医疗”）向港交所递交招股书，由中信建投国际担任独家保荐人。资料显示，安得医疗在药物输送产品市场份额位居国内第二...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "安得医疗营收利润双降，IPO前分红1.7亿转战港股",
-        "assets": "📉 港股医疗板块 承压, 📉 安得医疗 估值风险",
-        "chain": "分红抽血（公司上市前把钱分给老股东）削弱IPO吸引力，市场质疑增长前景，可能拖累同类医疗股估值",
-        "watch": "安得医疗招股书中的增长指引及机构认购情况"
+        "what": "安得医疗营收下滑、利润停滞，IPO前分红1.7亿",
+        "assets": "📉 港股医疗板块 承压",
+        "chain": "高分红（消耗现金）削弱基本面（ROE下降），IPO定价可能偏低，拖累医疗新股情绪（行业估值下修）",
+        "watch": "安得医疗招股首日认购倍数及营收指引"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "China to return as a major oil buyer in August, JPMorgan says, naming its top stock picks",
       "source": "CNBC",
       "detail": "The pullback in oil imports by the world's largest oil importer has helped absorb the global energy shock and cap the surge in oil prices since the war began.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "摩根大通预计中国8月将重返主要原油买家",
-        "assets": "📈 原油 利好, 📈 中国石油股 利好",
-        "chain": "中国需求回升支撑油价（原油供需平衡改善），利好炼油商及能源股，但可能推高通胀预期",
-        "watch": "中国8月原油进口数据及炼厂开工率"
+        "what": "摩根大通称中国8月将重回主要原油买家",
+        "assets": "📈 原油 利好；📈 中国石油股 利好",
+        "chain": "中国需求回升（炼厂开工率提高）→ 原油库存去化（API/EIA数据），推升WTI/布伦特油价，利好中石油等",
+        "watch": "中国7月原油进口数据及炼厂开工率"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "交易员：美联储政策决议后 对冲基金纷纷买入美元看涨期权",
       "source": "环球市场播报",
       "detail": " 根据交易员，鉴于美联储点阵图释放的鹰派信号以及2026年核心CPI预测上调，对冲基金买入美元兑G10和新兴市场货币的看涨期权。交易员称，期权期限从1周到3个月不等。",
@@ -66,27 +80,21 @@
       "score": 40,
       "insight": {
         "what": "对冲基金在美联储决议后大举买入美元看涨期权",
-        "assets": "📈 美元 看涨, 📉 新兴市场货币 承压",
-        "chain": "美元看涨期权（押注美元升值）激增暗示资金回流美元资产，新兴市场面临资本外流和汇率贬值压力",
-        "watch": "美元指数及新兴市场货币汇率走势"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Fed 'dot plot': Almost half of FOMC members project at least one interest rate hike this year - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "美联储点阵图显示近半官员预计年内至少加息一次",
-        "assets": "📈 美元 利好, 📉 美股 承压, 📉 黄金 利空",
-        "chain": "加息预期（借钱成本更高）推高美债收益率（国债利率），压制股市估值，黄金吸引力下降",
-        "watch": "下次美联储会议前的CPI（消费者物价指数）及就业数据"
+        "assets": "📈 美元 利好；📉 新兴市场货币 利空",
+        "chain": "看涨期权（押注美元升值）→ 美元多头头寸增加（CFTC持仓），新兴市场货币（如CNH、INR）承压，资金外流",
+        "watch": "美元指数走势及期权隐含波动率（IV）"
       }
     },
     {
       "rank": 7,
+      "title": "Fed 'dot plot': Almost half of FOMC members project at least one interest rate hike this year - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38
+    },
+    {
+      "rank": 8,
       "title": "港股午评：恒指跌1.7%失守24000点 科指跌1.38% 科网股、黄金股低迷 半导体板块逆势走强",
       "source": "新浪港股",
       "detail": "6月18日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.7%，报23899.25，恒生科技指数跌1.38%，国企指数跌1.99%。盘面上，科网股普跌，阿里巴巴、小米跌超3%...",
@@ -94,7 +102,7 @@
       "score": 37
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "机构：回调中寻找分批布局机会，美联储沃什删除降息指引，金价承压回调",
       "source": "界面",
       "detail": "消息面上，北京时间6月18日凌晨2时，美联储联邦公开市场委员会（FOMC）以12票全票赞成，决定将联邦基金利率目标区间维持在3.5%至3.75%不变，为连续第四次暂停利率调整...",
@@ -102,20 +110,12 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "高盛副董事长称美联储今秋或加息 并有进一步紧缩的风险",
       "source": "环球市场播报",
       "detail": "高盛集团副董事长、达拉斯联储行前行长卡普兰表示，如果通胀持续高企，美联储最快可能在9月就需要提高利率。 卡普兰在接受采访时表示...",
       "lang": "zh",
       "score": 36
-    },
-    {
-      "rank": 10,
-      "title": "存储芯片涨价潮延续！港股半导体板块逆市上涨，兆易创新股价创历史新高",
-      "source": "新浪港股",
-      "detail": "港股半导体板块逆市上涨，兆易创新盘中涨9%股价创历史新高，英诺赛科、天数智芯涨超7%，澜起科技、纳芯微涨超5%。 消息面上，根据ComputerBase对内存...",
-      "lang": "zh",
-      "score": 35
     }
   ]
 }
