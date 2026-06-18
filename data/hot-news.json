@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 19:25",
+  "updateTime": "2026-06-18 19:30",
   "news": [
     {
       "rank": 1,
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "*ST赛隆退市，不影响投资者索赔",
-        "assets": "📉 A股ST板块 承压；📉 小市值壳股 承压",
-        "chain": "退市常态化（不符合上市条件的公司被强制摘牌）打击壳价值炒作，资金可能向蓝筹股（市值大、业绩稳定的龙头股）迁移",
-        "watch": "退市后索赔诉讼进展及监管是否收紧退市标准"
+        "what": "美股期货反弹，英特尔领涨芯片股，从美联储引发的抛售中恢复",
+        "assets": "📈 美股科技股 利好, 📈 半导体板块 利好",
+        "chain": "美联储鹰派信号（加息或高利率持续）引发的恐慌情绪被消化，风险偏好（投资者对高风险资产的兴趣）回升，资金可能回流成长股",
+        "watch": "今晚美联储官员讲话，以及明天CPI（消费者物价指数）数据"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "*ST赛隆退市，不影响投资者索赔",
+        "assets": "📉 A股ST板块 承压；📉 小市值壳股 承压",
+        "chain": "退市常态化（不符合上市条件的公司被强制摘牌）打击壳价值炒作，资金可能向蓝筹股（市值大、业绩稳定的龙头股）迁移",
+        "watch": "退市后索赔诉讼进展及监管是否收紧退市标准"
+      }
     },
     {
       "rank": 6,
@@ -85,7 +91,13 @@
       "source": "CNBC",
       "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Gundlach警告Warsh非鸽派主席",
+        "assets": "📉 美元/美债",
+        "chain": "Warsh偏鹰（倾向紧缩）→ 加息预期升温 → 风险资产承压（股市/黄金）",
+        "watch": "美联储官员讲话及利率路径信号"
+      }
     },
     {
       "rank": 8,
@@ -93,7 +105,13 @@
       "source": "Investing.com",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "美伊和平协议推升亚洲股市",
+        "assets": "📈 日经/韩国KOSPI",
+        "chain": "地缘风险溢价下降（冲突溢价）→ 资金回流风险资产 → 日元/韩元走强",
+        "watch": "中东后续执行情况及油价波动"
+      }
     },
     {
       "rank": 9,
@@ -101,7 +119,13 @@
       "source": "CNBC",
       "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "英特尔与苹果合作传闻引爆股价",
+        "assets": "📈 英特尔(INTC)",
+        "chain": "特朗普背书+苹果代工预期 → 芯片产能利用率提升 → 半导体板块联动（AMD/台积电）",
+        "watch": "苹果官方确认及英特尔财报指引"
+      }
     },
     {
       "rank": 10,
@@ -109,7 +133,13 @@
       "source": "CNBC",
       "detail": "The bank has an overweight rating on the AI infrastructure name.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "KeyBanc看好AI基建股续涨",
+        "assets": "📈 AI基建股（如英伟达/超微电脑）",
+        "chain": "AI资本开支（CapEx）加速 → 算力需求爆发 → 估值扩张但盈利增速支撑",
+        "watch": "云巨头资本开支指引及毛利率变化"
+      }
     }
   ]
 }
