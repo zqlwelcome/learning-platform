@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 09:35",
+  "updateTime": "2026-06-18 09:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "对冲基金大量买入美元看涨期权",
-        "assets": "📈 美元指数 利好\n📉 非美货币 承压",
-        "chain": "美元走强→新兴市场资金外流（资本外逃）→风险资产承压",
-        "watch": "美元指数是否突破前高及期权到期行权情况"
+        "what": "对冲基金大举买入美元看涨期权，押注美元走强",
+        "assets": "📈 美元指数 利好；📉 非美货币（如欧元、日元）承压",
+        "chain": "美元走强→新兴市场资金外流（资本流出）→风险资产（如股市）承压",
+        "watch": "美元指数是否突破前高，以及美联储官员后续讲话"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "中国大搜车赴美IPO估值9.01亿美元",
-        "assets": "📈 中概股 情绪利好\n📈 二手车板块 关注",
-        "chain": "新股发行活跃→资金分流（二级市场流动性收紧）→科技股估值锚定",
-        "watch": "IPO首日涨幅及后续融资计划"
+        "what": "中国大搜车赴美IPO，目标估值9.01亿美元",
+        "assets": "📈 中国二手车/汽车金融板块 利好；📈 美股中概股 情绪提振",
+        "chain": "IPO成功→中概股融资回暖→提振一级市场（未上市企业）信心，但需关注定价",
+        "watch": "IPO定价及首日涨幅，后续同类标的上市计划"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "近半FOMC成员预计今年至少加息一次",
-        "assets": "📈 美元 加息预期利好\n📉 美债价格 承压",
-        "chain": "加息预期升温→短端利率上行（资金成本提高）→压制股市估值",
-        "watch": "CME FedWatch工具加息概率变化"
+        "what": "美联储点阵图显示近半数委员预计年内至少加息一次",
+        "assets": "📈 美元 利好；📉 美债 利空（收益率上行）；📉 美股 承压",
+        "chain": "加息预期升温→短端利率（2年期国债收益率）上行→压制成长股（高估值科技股）估值",
+        "watch": "CME FedWatch工具对6月加息概率的变动"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "沃什首秀引发美债剧烈震荡，加息押注激增",
-        "assets": "📉 美债 价格承压\n📈 美元 加息预期利好",
-        "chain": "债市波动→波动率上升（VIX恐慌指数）→风险资产减仓",
-        "watch": "10年期美债收益率是否突破关键阻力位"
+        "what": "沃什首秀引发美债市场剧烈震荡，加息押注激增",
+        "assets": "📈 美元 利好；📉 美债价格 利空；📉 美股 承压",
+        "chain": "鹰派信号（倾向加息）→长端利率（10年期国债收益率）飙升→风险偏好（股市）下降",
+        "watch": "沃什后续讲话措辞及美债收益率曲线（2s10s利差）变化"
       }
     },
     {
@@ -65,28 +65,36 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "特朗普尊重美联储新主席不降息决定",
-        "assets": "📈 美元 政策独立利好\n📈 美股 短期稳定",
-        "chain": "政治干预风险降低→美联储信誉（公信力）修复→长期利率预期平稳",
-        "watch": "特朗普后续是否再度施压美联储"
+        "what": "特朗普回应美联储新主席未降息：尊重其判断",
+        "assets": "📈 美元 中性偏稳；📈 美债 短期稳定",
+        "chain": "特朗普未施压降息→市场对美联储独立性信心增强→政策预期稳定",
+        "watch": "特朗普后续是否再次口头干预汇率或利率"
       }
     },
     {
       "rank": 6,
-      "title": "Warsh kicks off Fed chief era with sweeping review as rates remain unchanged - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33,
+      "title": "日韩股市齐创新高，日元创近两年新低，现货黄金向上触及4300美元",
+      "source": "市场资讯",
+      "detail": "文章来源：华尔街见闻 日韩股市双双刷新历史纪录，日经225指数首破71000点，韩国Kospi逼近9000关口；与此同时，日元跌至近两年低位，干预风险升温。",
+      "lang": "zh",
+      "score": 34,
       "insight": {
-        "what": "沃什开启全面政策审查，利率维持不变",
-        "assets": "📈 美元 政策不确定性利好\n📉 美股 短期观望",
-        "chain": "审查信号→市场定价新框架（预期调整）→波动率上升",
-        "watch": "审查结果公布时间及具体政策方向"
+        "what": "日韩股市创新高，日元创近两年新低，黄金触及4300美元",
+        "assets": "📈 日韩股市 利好；📉 日元 承压；📈 黄金 利好",
+        "chain": "日元贬值→日本出口企业盈利改善（财报利好）→日股上涨；黄金避险+通胀对冲需求",
+        "watch": "美元兑日元是否突破前高，以及黄金ETF持仓量变化"
       }
     },
     {
       "rank": 7,
+      "title": "Warsh kicks off Fed chief era with sweeping review as rates remain unchanged - Reuters",
+      "source": "Reuters",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 8,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
@@ -94,7 +102,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
       "source": "CNBC",
       "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
@@ -102,18 +110,10 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Chairman Warsh drastically alters Fed rate statement. Here's what's changed",
-      "source": "CNBC",
-      "detail": "This is a comparison of Wednesday's Federal Open Market Committee statement with the one issued after the Fed's previous policymaking meeting in April.",
       "lang": "en",
       "score": 33
     }
