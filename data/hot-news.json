@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 04:51",
+  "updateTime": "2026-06-19 04:53",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价连跌两日，市值被亚马逊超越",
+        "assets": "📉 SpaceX 利空; 📈 亚马逊 利好; 📉 航空航天板块 承压",
+        "chain": "SpaceX估值回调反映资本竞争加剧，亚马逊卫星业务（Project Kuiper）受关注",
+        "watch": "SpaceX融资动态及星链（Starlink）用户增长数据"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图解雇美联储理事Lisa Cook，致其法律安保费超百万美元",
+        "assets": "美元利空，美债收益率下行",
+        "chain": "政治干预美联储独立性→市场恐慌→避险资产短期获青睐",
+        "watch": "后续是否还有更多美联储官员被施压"
+      }
     },
     {
       "rank": 9,
@@ -107,15 +119,13 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期Warsh领导的美联储将比预期更鹰派",
+        "assets": "美元利多，美股利空，黄金承压",
+        "chain": "鹰派预期→加息概率上升→风险资产抛售，资金回流美元",
+        "watch": "Warsh正式提名后的首次公开讲话措辞"
+      }
     }
   ]
 }
