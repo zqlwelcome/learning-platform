@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 22:31",
+  "updateTime": "2026-06-18 22:33",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Bloomberg.com",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "高盛卡普兰称美联储秋季或加息，风险上升",
+        "assets": "📉 美元指数利好；📉 美股承压；📉 美债收益率上行",
+        "chain": "加息预期推高短端利率（短期国债收益率），压制风险资产（股票/加密货币），强化美元（DXY指数）",
+        "watch": "FOMC点阵图（利率预测）及CPI数据（通胀指标）"
+      }
     },
     {
       "rank": 8,
@@ -99,23 +105,27 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普解雇美联储理事库克致其损失超百万美元",
+        "assets": "📈 政治不确定性承压；📉 美联储独立性受损",
+        "chain": "政治干预央行（美联储独立性受质疑）或削弱市场对利率政策可信度，长期推高通胀预期（盈亏平衡通胀率）",
+        "watch": "美联储官员辞职/任命动态及国会听证"
+      }
     },
     {
       "rank": 9,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
-      "source": "CNBC",
-      "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
-      "lang": "en",
-      "score": 35
-    },
-    {
-      "rank": 10,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "分析：沃什主席的特别工作组是新美联储关键",
+        "assets": "📈 美元指数利好；📉 长期美债收益率承压",
+        "chain": "沃什鹰派（倾向紧缩）工作组主导政策，或加速缩表（减少资产负债表规模）并提前加息，强化紧缩预期",
+        "watch": "沃什公开讲话及FOMC会议纪要措辞变化"
+      }
     }
   ]
 }
