@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 04:00",
+  "updateTime": "2026-06-19 04:01",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后买家持仓接近亏损，股价两日大跌",
+        "assets": "📉 SpaceX股票 看跌；📉 科技股风险偏好 受抑",
+        "chain": "IPO热情消退→科技股估值承压→资金或转向防御资产",
+        "watch": "SpaceX后续融资或回购计划"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期Warsh鹰派领导美联储，政策收紧超预期",
+        "assets": "📈 美元 看涨；📈 美债收益率 看涨；📉 黄金 看跌",
+        "chain": "鹰派预期→利率上行→压制成长股（科技股），利好银行股",
+        "watch": "Warsh正式提名及首次政策表态"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX IPO后买家持仓接近亏损，股价两日大跌",
+        "assets": "📉 SpaceX股票 看跌；📉 科技股风险偏好 受抑",
+        "chain": "IPO热情消退→科技股估值承压→资金或转向防御资产",
+        "watch": "SpaceX后续融资或回购计划"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "苹果确认内存涨价传导，SanDisk与美光大涨",
+        "assets": "📈 SanDisk/美光 看涨；📉 苹果成本端 承压",
+        "chain": "内存涨价→存储厂商盈利改善→科技硬件股联动上涨",
+        "watch": "苹果下季度毛利率及定价策略"
+      }
     }
   ]
 }
