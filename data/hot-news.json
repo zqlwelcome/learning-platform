@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 23:31",
+  "updateTime": "2026-06-18 23:32",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州依赖IPO税收，但多重因素使情况复杂化",
+        "assets": "美股科技IPO（利空）、加州市政债（利空）",
+        "chain": "IPO税收不及预期→加州财政赤字扩大→市政债信用利差走阔",
+        "watch": "加州季度税收数据及IPO上市节奏"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "分析认为凯文·沃什的任务组是理解新美联储的关键",
+        "assets": "美元指数（利多）、美债收益率（利空）",
+        "chain": "沃什任务组可能推动政策透明化→市场预期管理加强→美元短期走强",
+        "watch": "沃什任务组政策声明及会议纪要"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "沃什首次美联储会议释放五大政策信号",
+        "assets": "美元（利多）、美股（利空）、黄金（利空）",
+        "chain": "鹰派信号→加息预期升温→美元升值打压风险资产和贵金属",
+        "watch": "下次FOMC会议及点阵图变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "上海证券报",
       "detail": " 6月18日，合力泰（002217）披露收到福建证监局出具的《行政处罚事先告知书》（以下简称“告知书”），前期信息披露违法违规事项迎来监管处理结果。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "002217因违规信披被处罚，前董事长终身市场禁入",
+        "assets": "002217股价（利空）、A股信披监管（利多）",
+        "chain": "处罚落地→短期抛压加剧→监管趋严降低同类公司估值",
+        "watch": "公司后续是否面临退市风险警示"
+      }
     }
   ]
 }
