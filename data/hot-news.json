@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 13:50",
+  "updateTime": "2026-06-18 13:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "港股黄金股因美联储鹰派信号和美元走强而下跌",
-        "assets": "📉 港股黄金股 利空\n📈 美元指数 利好",
-        "chain": "美元走强->黄金承压（美元计价资产吸引力下降）->避险资金转向美元资产",
-        "watch": "美联储下次利率决议及点阵图变化"
+        "what": "美联储鹰派言论致美元走强，港股黄金股下跌",
+        "assets": "📉 港股黄金股 利空；📈 美元 走强",
+        "chain": "美元走强（美元指数上升）压制金价（以美元计价资产），传导至港股黄金股估值承压",
+        "watch": "美元指数及美联储后续官员讲话"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "国产AI芯片受字节、智谱采购推动，寒武纪等大涨",
-        "assets": "📈 国产AI芯片（寒武纪等） 利好\n📈 科创AI ETF 利好",
-        "chain": "国产替代加速->AI芯片量价齐升（需求增长+价格上行）->半导体设备及材料受益",
-        "watch": "寒武纪订单确认及科创50指数资金流入"
+        "what": "字节加购、智谱适配，寒武纪创新高，科创AI ETF暴涨5%",
+        "assets": "📈 国产AI芯片股 利好；📈 科创板AI ETF 利好",
+        "chain": "国产替代加速（减少对外依赖）推升AI芯片需求，机构预期量价齐升（订单和单价双增）",
+        "watch": "寒武纪后续订单及AI芯片产能数据"
       }
     },
     {
@@ -38,55 +38,63 @@
       "score": 47,
       "insight": {
         "what": "印度最大交易所申请IPO，大型上市潮加速",
-        "assets": "📈 印度股市 利好\n📈 印度券商及交易所概念 利好",
-        "chain": "IPO活跃->市场流动性增加（资金涌入）->印度卢比资产吸引力提升",
-        "watch": "印度监管审批进度及后续大型IPO定价"
+        "assets": "📈 印度股市 利好；📈 印度券商股 利好",
+        "chain": "大型IPO吸引外资流入（增量资金），提振印度市场流动性和估值中枢",
+        "watch": "印度交易所IPO定价及认购倍数"
       }
     },
     {
       "rank": 4,
+      "title": "How Elon Musk's second-in-command Gwynne Shotwell helped turn SpaceX into an IPO giant",
+      "source": "CNBC",
+      "detail": "CNBC spoke to people who've worked with SpaceX's president and chief operating officer.",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "SpaceX二把手助公司成IPO巨头，暗示潜在上市",
+        "assets": "📈 SpaceX相关概念股 利好；📈 太空经济板块 利好",
+        "chain": "SpaceX上市预期带动太空产业链估值重估（对标特斯拉效应）",
+        "watch": "SpaceX官方上市时间表"
+      }
+    },
+    {
+      "rank": 5,
       "title": "China to return as a major oil buyer in August, JPMorgan says, naming its top stock picks",
       "source": "CNBC",
       "detail": "The pullback in oil imports by the world's largest oil importer has helped absorb the global energy shock and cap the surge in oil prices since the war began.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "摩根大通预测中国8月将重返主要原油买家",
-        "assets": "📈 原油价格 利好\n📈 中国石油股 利好",
-        "chain": "中国需求回升->原油库存去化（供给过剩缓解）->炼化及运输板块受益",
-        "watch": "中国原油进口数据及8月炼厂开工率"
+        "what": "摩根大通称中国8月将回归成主要石油买家，并点名首选股",
+        "assets": "📈 国际油价 利好；📈 中国石油股 利好",
+        "chain": "中国需求回升（全球最大原油进口国）支撑油价，利好石油公司盈利",
+        "watch": "中国8月原油进口数据及炼厂开工率"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "交易员：美联储政策决议后 对冲基金纷纷买入美元看涨期权",
       "source": "环球市场播报",
       "detail": " 根据交易员，鉴于美联储点阵图释放的鹰派信号以及2026年核心CPI预测上调，对冲基金买入美元兑G10和新兴市场货币的看涨期权。交易员称，期权期限从1周到3个月不等。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "对冲基金在美联储决议后大量买入美元看涨期权",
-        "assets": "📈 美元指数 利好\n📉 新兴市场货币 承压",
-        "chain": "美元看涨情绪升温->资金回流美元资产（套利交易）->非美货币及大宗商品承压",
-        "watch": "美元指数是否突破前高及期权隐含波动率变化"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Fed 'dot plot': Almost half of FOMC members project at least one interest rate hike this year - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "近半数美联储官员预测今年至少加息一次",
-        "assets": "📈 美元 利好\n📉 美股成长股 承压",
-        "chain": "加息预期升温->利率上行（借贷成本提高）->科技股估值受压制",
-        "watch": "美联储点阵图修正及后续CPI（消费者物价指数）数据"
+        "what": "美联储决议后，对冲基金大举买入美元看涨期权",
+        "assets": "📈 美元 利好；📉 非美货币 承压",
+        "chain": "看涨期权（押注美元升值）增加多头仓位，强化美元上行趋势，压制新兴市场资产",
+        "watch": "美元指数及期权隐含波动率变化"
       }
     },
     {
       "rank": 7,
+      "title": "Fed 'dot plot': Almost half of FOMC members project at least one interest rate hike this year - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38
+    },
+    {
+      "rank": 8,
       "title": "港股午评：恒指跌1.7%失守24000点 科指跌1.38% 科网股、黄金股低迷 半导体板块逆势走强",
       "source": "新浪港股",
       "detail": "6月18日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.7%，报23899.25，恒生科技指数跌1.38%，国企指数跌1.99%。盘面上，科网股普跌，阿里巴巴、小米跌超3%...",
@@ -94,26 +102,18 @@
       "score": 37
     },
     {
-      "rank": 8,
-      "title": "机构：回调中寻找分批布局机会，美联储沃什删除降息指引，金价承压回调",
-      "source": "界面",
-      "detail": "消息面上，北京时间6月18日凌晨2时，美联储联邦公开市场委员会（FOMC）以12票全票赞成，决定将联邦基金利率目标区间维持在3.5%至3.75%不变，为连续第四次暂停利率调整...",
-      "lang": "zh",
-      "score": 36
-    },
-    {
       "rank": 9,
-      "title": "高盛副董事长称美联储今秋或加息 并有进一步紧缩的风险",
+      "title": "花旗将美联储降息预期时点延至2026年10月，因官员们更偏鹰派",
       "source": "环球市场播报",
-      "detail": "高盛集团副董事长、达拉斯联储行前行长卡普兰表示，如果通胀持续高企，美联储最快可能在9月就需要提高利率。 卡普兰在接受采访时表示...",
+      "detail": "花旗集团将美联储降息的预估时点延后一个月，理由是美联储官员的立场转向更为鹰派。 这家华尔街投行目前预期，美联储将在2026年10月和12月降息...",
       "lang": "zh",
       "score": 36
     },
     {
       "rank": 10,
-      "title": "高盛Kaplan：美联储或在秋季“连环加息”",
-      "source": "滚动播报",
-      "detail": "华尔街见闻 高盛副董事长Kaplan发出严厉警告：若通胀数据持续顽固，美联储最早秋季重启加息，且极可能连续出手2至3次。叠加新任主席沃什鹰派转向、官方PCE通胀预期骤升至3...",
+      "title": "机构：回调中寻找分批布局机会，美联储沃什删除降息指引，金价承压回调",
+      "source": "界面",
+      "detail": "消息面上，北京时间6月18日凌晨2时，美联储联邦公开市场委员会（FOMC）以12票全票赞成，决定将联邦基金利率目标区间维持在3.5%至3.75%不变，为连续第四次暂停利率调整...",
       "lang": "zh",
       "score": 36
     }
