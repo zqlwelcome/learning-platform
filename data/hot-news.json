@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 02:00",
+  "updateTime": "2026-06-19 02:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "科技股领涨反弹，油价下跌缓解通胀担忧",
-        "assets": "📈 美股科技股 利好；📉 原油期货 承压",
-        "chain": "油价下跌降低生产成本，利好消费和科技板块；资金从能源股轮动至成长股（高估值高增长公司）。",
-        "watch": "WTI原油（西德克萨斯中质原油）是否跌破70美元；科技股财报季指引"
+        "what": "股市反弹，油价下跌，芯片股领涨",
+        "assets": "📈 美股芯片股 利好; 📉 原油期货 承压",
+        "chain": "油价跌缓解通胀预期，利好风险资产（股票），但美联储鹰派信号压制反弹空间",
+        "watch": "WTI原油价格是否跌破前低"
       }
     },
     {
@@ -23,14 +23,28 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元走强，市场押注美联储加息概率上升",
-        "assets": "📈 美元指数 利好；📉 新兴市场货币 承压；📉 黄金 承压",
-        "chain": "强美元压缩新兴市场流动性，利空大宗商品（以美元计价）；加息预期推高美债收益率（国债利率），打压风险资产（股票、加密货币）。",
-        "watch": "美联储官员讲话；CME FedWatch（芝加哥商品交易所加息概率工具）加息概率变化"
+        "what": "美元因美联储鹰派信号延续涨势",
+        "assets": "📈 美元指数 利好; 📉 新兴市场货币 承压",
+        "chain": "美元走强压低大宗商品价格（以美元计价），并加大新兴市场资本外流压力",
+        "watch": "美联储点阵图（利率预期）是否进一步上移"
       }
     },
     {
       "rank": 3,
+      "title": "Tesla's $25 Billion Capex Plan Is No Longer About Cars. Here's Why Tesla Could Be the Most Undervalued AI and Robotics Stock of 2026. - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "特斯拉2500亿美元资本开支转向AI和机器人",
+        "assets": "📈 特斯拉 利好; 📈 AI/机器人板块 利好",
+        "chain": "资本开支转向AI暗示传统汽车需求放缓，但强化特斯拉作为AI概念股的估值逻辑",
+        "watch": "特斯拉AI产品商业化进展及财报资本开支细节"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
@@ -38,51 +52,37 @@
       "score": 39,
       "insight": {
         "what": "纳斯达克大涨，油价接近伊朗冲突前水平",
-        "assets": "📈 纳斯达克指数 利好；📉 原油期货 承压",
-        "chain": "地缘溢价（冲突带来的价格上涨）消退，缓解通胀预期，利好利率敏感型科技股；能源股遭抛售。",
-        "watch": "中东局势是否反复；美国API（美国石油协会）原油库存数据"
+        "assets": "📈 纳斯达克 利好; 📉 原油期货 承压",
+        "chain": "油价下跌缓解成本压力，利好科技股（高耗能行业），同时削弱能源股盈利预期",
+        "watch": "伊朗局势是否升级导致油价反弹"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Federal regulators back Trump’s plan to speed power to energy-hungry AI data centers - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国监管层加速审批AI数据中心电力项目",
-        "assets": "📈 AI概念股 利好；📈 电力公用事业股 利好",
-        "chain": "政策松绑降低AI基建成本，利好英伟达等算力龙头；电力需求激增，推高公用事业板块估值（市盈率）。",
-        "watch": "AI数据中心资本开支指引；美国能源部电力审批进度"
+        "what": "美监管机构支持特朗普加快AI数据中心供电计划",
+        "assets": "📈 美国电力/公用事业股 利好; 📈 AI基建板块 利好",
+        "chain": "加速供电审批降低AI数据中心建设成本，利好电力需求增长，但可能推高电价",
+        "watch": "电力基建项目审批进度及电网容量数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni警告：美联储可能被迫加息",
-        "assets": "📉 美股大盘 承压；📉 美债 承压；📈 美元 利好",
-        "chain": "加息预期导致无风险利率（国债收益率）上升，打压股票估值（折现率提高）；企业融资成本增加，利空高杠杆行业（房地产、小盘股）。",
-        "watch": "核心PCE（个人消费支出物价指数）通胀数据；美联储点阵图（利率预测散点图）"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州税收依赖IPO，但多重因素使预期复杂化",
-        "assets": "📉 加州地方债 承压；📉 美股IPO板块 中性偏空",
-        "chain": "IPO推迟减少州政府收入，可能引发地方财政紧缩（削减支出），间接影响当地基建和科技企业税收优惠。",
-        "watch": "加州财政预算修正案；大型科技公司IPO（首次公开募股）时间表"
+        "what": "策略师Yardeni称美联储若想实现通胀目标可能加息",
+        "assets": "📈 美元 利好; 📉 美股成长股 承压",
+        "chain": "加息预期升温压制高估值成长股（利率敏感），并强化美元避险需求",
+        "watch": "美国CPI（消费者物价指数）及PCE（个人消费支出物价指数）数据"
       }
     },
     {
