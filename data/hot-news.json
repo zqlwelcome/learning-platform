@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 19:16",
+  "updateTime": "2026-06-18 19:17",
   "news": [
     {
       "rank": 1,
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "*ST赛隆退市，不影响投资者索赔",
-        "assets": "📉 A股ST板块 承压；📉 小市值垃圾股 利空",
-        "chain": "退市常态化→壳价值（上市资格溢价）继续缩水→资金向蓝筹（大市值龙头）迁移",
-        "watch": "后续ST股退市公告频率及索赔进展"
+        "what": "美股期货反弹，英特尔领涨芯片股带动反弹",
+        "assets": "📈 美股期货 反弹；📈 英特尔 利好；📈 费城半导体指数 走强",
+        "chain": "芯片股领涨→科技板块情绪修复→对冲前日Fed鹰派抛售的超跌反弹",
+        "watch": "今晚美股开盘后英特尔量价及纳指走势"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "*ST赛隆因财务问题被强制退市",
+        "assets": "📉 A股ST板块（风险警示股） 利空\n📉 医药行业小市值公司 承压",
+        "chain": "退市风险（公司摘牌）→ 壳价值（上市资格）缩水 → 垃圾股（基本面差股票）遭抛售，资金转向蓝筹（大市值优质股）",
+        "watch": "退市股数量及监管是否收紧退市标准"
+      }
     },
     {
       "rank": 6,
@@ -85,7 +91,13 @@
       "source": "CNBC",
       "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "冈拉克称Warsh不会成为市场期待的宽松主席",
+        "assets": "📉 美国长债 利空，📉 成长股/科技股 承压，📈 美元指数 走强",
+        "chain": "鹰派预期 → 长端利率（10年期国债收益率）上行 → 挤压股票估值（折现率提高）→ 避险情绪升温",
+        "watch": "Warsh后续政策讲话、10年期美债收益率是否突破4.5%"
+      }
     },
     {
       "rank": 8,
@@ -93,7 +105,13 @@
       "source": "CNBC",
       "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "英特尔将与苹果合作设计美国芯片，股价大涨9%",
+        "assets": "📈 英特尔 利好\n📈 美股芯片板块 利好\n📈 苹果供应链 中性偏利好",
+        "chain": "提振美国半导体本土化预期，挤压台积电（晶圆代工龙头）份额，可能引发科技股板块轮动（资金从软件转向硬件）",
+        "watch": "英特尔财报指引及苹果合作具体条款公告"
+      }
     },
     {
       "rank": 9,
@@ -101,7 +119,13 @@
       "source": "CNBC",
       "detail": "The bank has an overweight rating on the AI infrastructure name.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "KeyBanc上调AI基建股评级，称年内涨幅超200%仍有空间",
+        "assets": "📈 AI基建股 利好\n📈 美股科技板块 联动利好",
+        "chain": "AI基建需求（算力/数据中心）→ 上游芯片（如英伟达）受益 → 资金从防御板块（公用事业）轮出",
+        "watch": "AI基建板块资金流入量（机构持仓变化）及财报订单数据"
+      }
     },
     {
       "rank": 10,
@@ -109,7 +133,13 @@
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 自2019年7月22日开市至今，科创板已走过近七年历程。这七年，不仅是中国多层次资本市场改革深化的七年...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "高凯技术科创板IPO，财务数据矛盾引发质疑。",
+        "assets": "📉 科创板IPO 利空；📉 半导体设备板块 承压",
+        "chain": "财务异常或致IPO审核趋严（上市门槛提高），影响其他高毛利低周转公司（存货周转慢）估值。",
+        "watch": "上交所问询函回复及存货周转率数据"
+      }
     }
   ]
 }
