@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "Fed独立性受威胁，政策不确定性↑",
+        "assets": "美元，美债，纳指",
+        "chain": "政治干预→Fed鹰派预期↑→美元↑，债市波动↑",
+        "watch": "Fed官员后续表态"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "沃什鹰派预期超市场定价",
+        "assets": "美元，国债，纳指",
+        "chain": "沃什鹰派→加息预期↑→美元↑，美股↓",
+        "watch": "沃什政策立场细节"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "房贷利率飙升，楼市需求受压制",
+        "assets": "房地产，国债，银行股",
+        "chain": "Fed紧缩→利率↑→房贷↑→购房需求↓",
+        "watch": "下周新房销售数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "沃什鹰派预期超市场定价",
+        "assets": "美元，国债，纳指",
+        "chain": "沃什鹰派→加息预期↑→美元↑，美股↓",
+        "watch": "沃什政策立场细节"
+      }
     }
   ]
 }
