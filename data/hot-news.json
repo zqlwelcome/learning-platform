@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-19 06:32",
+  "updateTime": "2026-06-19 06:35",
   "news": [
     {
       "rank": 1,
-      "title": "Stocks market today: Dow, S&P 500, Nasdaq rally amid Iran deal optimism as AI chip trade reignites - Yahoo Finance",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq rally as Iran deal optimism offsets Fed hike worries - Yahoo Finance",
       "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 57,
+      "score": 60,
       "insight": {
-        "what": "美股三大指数因伊朗协议乐观情绪及AI芯片交易回暖而上涨",
-        "assets": "📈 美股科技股 利好",
-        "chain": "风险偏好回升（投资者更愿冒险）→资金流入成长股（如AI芯片）→半导体ETF（交易型开放式指数基金）受追捧",
-        "watch": "伊朗协议进展及Nvidia财报"
+        "what": "伊朗和谈乐观情绪盖过加息担忧，美股反弹",
+        "assets": "📈 美股大盘 利好；📉 原油 承压",
+        "chain": "伊朗供应增加预期打压油价（能源成本降低），缓解通胀（物价上涨），减弱美联储加息（借钱成本上升）动机",
+        "watch": "伊朗核协议谈判进展及WTI原油（西德克萨斯中质原油）库存数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "文章提供SpaceX IPO（首次公开募股）投资指南",
-        "assets": "📈 SpaceX相关概念股 利好",
-        "chain": "IPO热度→资金关注太空经济→卫星通信、国防承包商估值提升",
-        "watch": "SpaceX上市时间表及估值"
+        "what": "文章探讨SpaceX IPO（首次公开募股）投资策略",
+        "assets": "📈 SpaceX相关概念股 中性偏多",
+        "chain": "IPO热度可能带动太空经济板块估值（公司市值）重估，但需警惕二级市场（股票交易市场）溢价风险",
+        "watch": "SpaceX官方IPO时间表及估值变化"
       }
     },
     {
@@ -37,109 +37,85 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入Nvidia并卖出美光",
-        "assets": "📈 Nvidia 利好；📉 美光 承压",
-        "chain": "AI芯片需求分化（资金从存储芯片转向GPU）→半导体板块轮动",
-        "watch": "Nvidia与美光Q2营收指引"
+        "what": "华尔街建议买入英伟达、卖出美光",
+        "assets": "📈 英伟达 利好；📉 美光 利空；📈 半导体板块 分化",
+        "chain": "AI（人工智能）芯片需求分化：英伟达受益于AI算力（计算能力）爆发，美光面临存储芯片（内存）周期下行压力",
+        "watch": "英伟达数据中心营收及美光DRAM（动态随机存取存储器）价格走势"
       }
     },
     {
       "rank": 4,
+      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
+      "source": "AP News",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38,
+      "insight": {
+        "what": "联邦监管机构要求电网运营商加速为AI数据中心供电",
+        "assets": "📈 公用事业股 利好；📈 核电/天然气 利好",
+        "chain": "AI电力需求激增推高能源消费，利好电力基础设施（发电输电）投资，但可能推升电价",
+        "watch": "美国能源部电力需求预测及可再生能源项目审批进度"
+      }
+    },
+    {
+      "rank": 5,
       "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX股价因IPO（首次公开募股）后狂热消退而下跌",
-        "assets": "📉 SpaceX 承压",
-        "chain": "IPO后获利回吐（早期投资者卖股套现）→散户接盘亏损→太空股情绪降温",
-        "watch": "SpaceX锁定期结束及后续融资"
+        "what": "SpaceX股价下跌，IPO后狂热消退",
+        "assets": "📉 SpaceX估值 承压；📉 太空概念股 利空",
+        "chain": "IPO溢价（上市后超涨部分）回吐，反映市场对太空公司盈利前景（赚钱能力）重新定价，可能拖累同类未上市企业估值",
+        "watch": "SpaceX发射任务订单量及二级市场交易量变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO（首次公开募股）税收，但多个因素使计算复杂化",
-        "assets": "📉 加州地方债 承压",
-        "chain": "IPO税收不及预期→州财政缺口（赤字）→可能削减开支或增税→影响地方经济",
-        "watch": "加州税收实际数据及新IPO数量"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
-      "source": "CNBC",
-      "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO（首次公开募股）后平均买家在两天下跌中几乎亏损",
-        "assets": "📉 SpaceX 承压",
-        "chain": "追高散户被套（买入后亏损）→恐慌性抛售→股价进一步下跌→打击新股市场信心",
-        "watch": "SpaceX股价支撑位及成交量"
+        "what": "加州依赖IPO税收收入，但多重因素使情况复杂",
+        "assets": "📉 加州地方债 承压；📉 科技IPO 不确定性",
+        "chain": "IPO推迟或减少将导致加州税收缺口（政府收入不足），可能引发预算削减（政府支出减少），影响科技企业营商环境（经营环境）",
+        "watch": "加州季度税收数据及主要科技公司IPO计划更新"
       }
     },
     {
       "rank": 7,
+      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
+      "source": "CNBC",
+      "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普试图解雇美联储理事库克，致其损失超百万美元。",
-        "assets": "美元指数（利空），美债（波动加大）",
-        "chain": "政治干预美联储独立性，削弱市场对央行可信度，推高风险溢价。",
-        "watch": "美联储后续人事变动及政策表态"
-      }
+      "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预期沃什领导的美联储将更鹰派。",
-        "assets": "美债收益率（上行），美股（利空），美元（利多）",
-        "chain": "鹰派预期收紧金融条件，压制风险资产，美元走强。",
-        "watch": "沃什政策立场及通胀数据"
-      }
+      "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Mortgage Rates Spike in Response to Fed - Mortgage News Daily",
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "房贷利率因美联储鹰派信号大幅攀升。",
-        "assets": "房地产ETF（利空），抵押贷款相关资产（利空），短债（利多）",
-        "chain": "利率上升抑制购房需求，拖累经济，加剧信贷紧缩。",
-        "watch": "每周抵押贷款申请数据及房价指数"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预期沃什领导的美联储将更鹰派。",
-        "assets": "美债收益率（上行），美股（利空），美元（利多）",
-        "chain": "鹰派预期收紧金融条件，压制风险资产，美元走强。",
-        "watch": "沃什政策立场及通胀数据"
-      }
+      "score": 33
     }
   ]
 }
