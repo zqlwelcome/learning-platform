@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 00:41",
+  "updateTime": "2026-06-19 00:43",
   "news": [
     {
       "rank": 1,
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "策略师Yardeni警告：美联储若想实现通胀目标，可能被迫加息",
-        "assets": "📉 美债 承压, 📉 美股 承压",
-        "chain": "加息预期推高短期利率（借钱成本），抑制企业融资和消费者支出（经济活动）",
-        "watch": "本周CPI（消费者物价指数）及核心PCE（个人消费支出价格）数据"
+        "what": "美联邦监管机构支持特朗普计划，加速向AI数据中心供电",
+        "assets": "📈 AI基建股 利好, 📈 电力公用事业 利好",
+        "chain": "AI算力需求拉动电网投资（资本开支），利好变压器、核电等上游设备商",
+        "watch": "能源部电网升级招标公告及AI公司资本开支指引"
       }
     },
     {
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州预期IPO税收大幅增加，但面临多重阻碍",
+        "assets": "美国科技股（短期承压）",
+        "chain": "IPO减少→加州财政缺口→削减支出或增税→影响科技企业信心",
+        "watch": "加州IPO申请数量及州财政预算修正"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普罢免美联储理事Cook致其损失超百万美元",
+        "assets": "美元（短期偏弱）、美债收益率（上行风险）",
+        "chain": "政治干预美联储→独立性受疑→市场对货币政策信任度下降→美元承压",
+        "watch": "美联储理事辞职/任命动态及国会听证"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "房贷利率因美联储政策大幅飙升",
+        "assets": "美国房地产ETF（看跌）、抵押贷款REITs（承压）",
+        "chain": "利率上升→购房成本增加→需求萎缩→房价回调→建筑/银行板块受损",
+        "watch": "30年期固定房贷利率及成屋销售数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "分析称沃什主席的特别工作组是新美联储核心",
+        "assets": "美元（中期走强）、美债收益率（陡峭化）",
+        "chain": "沃什鹰派团队→政策沟通更透明→加息预期提前→美元资产吸引力上升",
+        "watch": "沃什公开发言及FOMC会议纪要中的政策路径暗示"
+      }
     }
   ]
 }
