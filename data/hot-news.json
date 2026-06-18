@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 07:56",
+  "updateTime": "2026-06-19 07:57",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图解雇美联储理事库克，致其法务安保费用超百万",
+        "assets": "美元利空，美债收益率下行",
+        "chain": "政治干预美联储独立性→市场担忧降息受阻→风险资产承压",
+        "watch": "美联储理事后续辞职/弹劾进展"
+      }
     },
     {
       "rank": 8,
@@ -99,23 +105,27 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期沃什任美联储主席将比预期更鹰派",
+        "assets": "美元利多，美债收益率上行，美股利空",
+        "chain": "鹰派预期→加息节奏加快→流动性收紧压制权益估值",
+        "watch": "沃什公开讲话及提名人选确认听证会"
+      }
     },
     {
       "rank": 9,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
       "title": "美国股市：芯片股大涨推动大盘走高 半导体指数创历史新高",
       "source": "环球市场播报",
       "detail": "美国股市周四上涨，芯片股延续前一日涨势，费城半导体指数上涨6.4%，触及纪录高点。 标普500指数上涨1.1%，以科技股为主的纳斯达克100指数上涨2.5%。",
       "lang": "zh",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "芯片股领涨推动美股大盘，半导体指数创新高",
+        "assets": "美股（纳指/芯片ETF）利多，避险资产利空",
+        "chain": "AI需求预期+财报超预期→资金涌入科技板块→压制防御性资产",
+        "watch": "英伟达/AMD财报指引及芯片出口限制政策"
+      }
     }
   ]
 }
