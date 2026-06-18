@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 02:47",
+  "updateTime": "2026-06-19 02:50",
   "news": [
     {
       "rank": 1,
@@ -9,137 +9,113 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "股市反弹，科技股领涨，油价下跌",
-        "assets": "📈 美股科技股 利好；📉 原油 承压",
-        "chain": "油价下跌缓解通胀预期（物价上涨压力），削弱加息（借钱成本提高）逻辑",
-        "watch": "今晚美国CPI（消费者物价指数）数据"
+        "what": "股市反弹，油价下跌，芯片股领涨",
+        "assets": "📈 美股芯片股 利好, 📉 原油期货 承压",
+        "chain": "油价下跌缓解通胀担忧，降息预期升温，利好成长股（如科技股）",
+        "watch": "WTI原油期货价格及下周美联储官员讲话"
       }
     },
     {
       "rank": 2,
+      "title": "Stock Market Today: Dow Up 200 Points On Iran Peace Deal; Intel, Sandisk, Teradyne Shares Rally (Live Coverage) - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 52,
+      "insight": {
+        "what": "道指涨200点，伊朗和谈利好，英特尔等芯片股上涨",
+        "assets": "📈 美股大盘 利好, 📈 英特尔等芯片股 利好, 📉 国防股 承压",
+        "chain": "地缘风险溢价下降，避险需求减弱，资金从防御板块（如国防）转向风险资产",
+        "watch": "伊朗核协议进展及芯片板块成交量"
+      }
+    },
+    {
+      "rank": 3,
       "title": "美元延续涨势 美联储鹰派信号提振加息押注",
       "source": "环球市场播报",
       "detail": "美元连续第二天延续涨势，重新迈向3月下旬的高点，交易员纷纷押注美联储最早将于下月底开始加息。 这一进展推动彭博美元指数较周三美联储举行会议前走高约1%。",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号（暗示加息）而走强",
-        "assets": "📈 美元指数 利好；📉 新兴市场货币 承压",
-        "chain": "美元走强压制大宗商品（如黄金、铜）价格，风险资产资金外流",
-        "watch": "美联储点阵图（利率预测路径）变化"
+        "what": "美元走强，因美联储鹰派信号强化加息押注",
+        "assets": "📈 美元指数 利好, 📉 非美货币（如欧元、日元） 承压, 📉 黄金 承压",
+        "chain": "美元升值压制大宗商品价格，新兴市场资金外流（资本流出）压力增大",
+        "watch": "CME FedWatch工具加息概率变化"
       }
     },
     {
-      "rank": 3,
-      "title": "Federal regulators back Trump’s plan to speed power to energy-hungry AI data centers - AP News",
+      "rank": 4,
+      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "监管机构加速批建AI数据中心电力项目",
-        "assets": "📈 AI概念股 利好；📈 电力公用事业 利好",
-        "chain": "AI算力需求推高电力消费，带动电网基建投资和能源股",
-        "watch": "拜登政府对AI能源政策的具体拨款"
+        "what": "联邦监管机构要求电网运营商加速向AI数据中心供电",
+        "assets": "📈 AI算力基建 利好, 📈 电力公用事业股 利好",
+        "chain": "电力需求激增推高电价，利好能源股，但可能加剧电力短缺（供给瓶颈）",
+        "watch": "美国电力监管委员会（FERC）具体政策细则"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师警告美联储可能因通胀加息",
-        "assets": "📉 美债 承压；📉 成长股 承压",
-        "chain": "加息预期推高国债收益率（政府借钱成本），压制高估值股票",
-        "watch": "美联储官员近期讲话措辞"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
-      "source": "CNBC",
-      "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普试图解雇美联储理事Lisa Cook引发法律费用",
-        "assets": "📉 美元 承压；📉 美债 承压",
-        "chain": "政治干预美联储独立性（央行决策不受政府影响）削弱市场信心",
-        "watch": "美联储独立性相关诉讼进展"
+        "what": "策略师Yardeni称美联储可能加息以实现通胀目标",
+        "assets": "📈 美元 利好, 📉 美股 承压, 📉 美债 承压",
+        "chain": "加息预期升温压制股市估值（PE压缩），短期利率上升，债券价格下跌（收益率上行）",
+        "watch": "下周美国CPI数据及美联储会议纪要"
       }
     },
     {
       "rank": 6,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
+      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 33,
+      "score": 35,
       "insight": {
-        "what": "市场预期沃什领导的美联储将更鹰派（更激进加息）",
-        "assets": "📈 美元 利好；📉 美股 承压",
-        "chain": "鹰派预期推高短期利率，压制风险偏好（投资者冒险意愿），利好避险资产",
-        "watch": "沃什货币政策表态及提名听证会"
+        "what": "加州预期IPO税收大增，但多种因素使情况复杂",
+        "assets": "📉 加州政府财政 承压, 📈 科技IPO市场 中性偏空",
+        "chain": "IPO放缓或税收不及预期，可能引发地方债券（市政债）风险溢价上升，影响科技公司融资环境",
+        "watch": "加州财政预算更新及主要科技公司IPO进展"
       }
     },
     {
       "rank": 7,
+      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
+      "source": "CNBC",
+      "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
+      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
+      "source": "CNBC",
+      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 9,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Warsh首秀五大要点，鹰派信号明显",
-        "assets": "美元指数, 美国国债, 标普500",
-        "chain": "加息预期升温，美元走强，股市承压",
-        "watch": "关注Warsh后续政策细节及通胀数据"
-      }
+      "score": 33
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Warsh工作组揭示美联储新方向",
-        "assets": "美元指数, 美国国债, 金融股",
-        "chain": "工作组结构暗示监管松绑，银行股受益",
-        "watch": "关注工作组具体成员及政策倾向"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
-      "source": "Barron's",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "SpaceX股价大跌，尽管获两大目标价",
-        "assets": "SpaceX, 太空概念股",
-        "chain": "利好出尽或获利了结，高价股波动加剧",
-        "watch": "关注SpaceX后续业绩及机构评级变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "SpaceX stock sinks 7%, continuing to cool after three-day rally",
-      "source": "CNBC",
-      "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "SpaceX连跌7%，三日涨势终结",
-        "assets": "SpaceX, 太空概念股",
-        "chain": "短期回调压力增大，散户情绪转向谨慎",
-        "watch": "关注SpaceX技术面支撑位及市场情绪"
-      }
+      "score": 33
     }
   ]
 }
