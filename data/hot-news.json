@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 16:51",
+  "updateTime": "2026-06-18 16:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "英国央行维持利率不变，油价暴跌改变政策预期",
-        "assets": "📈 英镑 承压; 📉 英国国债 利好; 📉 原油 利空",
-        "chain": "油价跌→通胀预期降→英央行可能提前降息（借钱成本降低）→英镑走弱",
-        "watch": "英国CPI（通胀数据）和下次会议利率决议"
+        "what": "英国央行维持利率不变，油价暴跌或改变政策预期",
+        "assets": "📉 英镑 承压，📈 英债 利好",
+        "chain": "油价下跌降低通胀（物价上涨），可能加速英央行降息（借钱成本降低），利空英镑",
+        "watch": "英国CPI（消费者物价指数）及油价走势"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储加息预期升温，黄金回落收跌",
-        "assets": "📈 美元 利好; 📉 黄金 承压",
-        "chain": "加息预期→实际利率（名义利率减通胀）上升→持有黄金机会成本增加→资金流出黄金",
-        "watch": "美国非农就业数据和美联储下次会议纪要"
+        "what": "美联储加息预期升温，黄金价格回落",
+        "assets": "📉 黄金 承压，📈 美元 走强",
+        "chain": "加息预期推高美元实际利率（扣除通胀后的真实利率），黄金作为零息资产吸引力下降",
+        "watch": "美联储官员讲话及非农就业数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "印度最大交易所NSE申请IPO，大型上市潮加速",
-        "assets": "📈 印度股市 利好; 📈 印度卢比 利好",
-        "chain": "IPO增多→市场流动性（资金量）增加→吸引外资→推高印度股指和汇率",
-        "watch": "NSE IPO定价和认购倍数"
+        "what": "印度最大交易所申请IPO，大型上市潮加速",
+        "assets": "📈 印度股市 利好，📈 新兴市场IPO 活跃",
+        "chain": "交易所上市反映市场信心，吸引更多资本流入印度，提振整体估值（股价相对盈利的倍数）",
+        "watch": "印度证交所IPO定价及后续认购情况"
       }
     },
     {
@@ -51,42 +51,50 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX二把手Shotwell推动公司成为IPO巨头",
-        "assets": "📈 SpaceX概念股 利好; 📈 太空经济ETF 利好",
-        "chain": "SpaceX上市预期→带动私人太空公司估值→相关供应链（卫星制造）和ETF资金流入",
-        "watch": "SpaceX官方上市时间表和SEC（美国证监会）文件"
+        "what": "SpaceX二号人物推动公司成为IPO巨头",
+        "assets": "📈 太空概念股 利好，📈 科技IPO 情绪提振",
+        "chain": "SpaceX上市预期将带动太空产业链（卫星、火箭制造）估值重估，并提振科技IPO市场",
+        "watch": "SpaceX官方IPO时间表及估值传闻"
       }
     },
     {
       "rank": 5,
+      "title": "U.S.-Iran deal sparks record highs for Asian stocks, drags on oil - Reuters",
+      "source": "Reuters",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "美伊协议推动亚洲股市创新高，油价承压",
+        "assets": "📈 亚洲股指 利好，📉 原油 利空",
+        "chain": "地缘风险（战争威胁）缓解，风险偏好（投资者愿意冒险的程度）上升，油价因供应增加预期下跌",
+        "watch": "美伊协议正式签署及OPEC（石油输出国组织）产量调整"
+      }
+    },
+    {
+      "rank": 6,
       "title": "业内人士：黄金短期走势仍将受美联储货币政策、通胀变化及地缘政治等因素影响",
       "source": "e公司",
       "detail": " 人民财讯6月18日电，近期国际金价在经历大幅波动后有所企稳，国际黄金期货重新站上4300美元/盎司关口，引发市场对黄金资产配置价值的再度关注。",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "黄金短期走势受美联储政策、通胀和地缘政治影响",
-        "assets": "📈 黄金 中性偏多; 📈 避险资产 利好",
-        "chain": "地缘风险升→避险买盘→但加息预期压制→黄金区间震荡",
-        "watch": "美国CPI（通胀数据）和地缘冲突新闻"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "China to return as major oil buyer in August, JPMorgan says, naming its top stock picks",
-      "source": "CNBC",
-      "detail": "The pullback in oil imports by the world's largest oil importer has helped absorb the global energy shock and cap the surge in oil prices since the war began.",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "摩根大通预计中国8月重返主要石油买家，并推荐个股",
-        "assets": "📈 中国石油股 利好; 📈 原油 利好; 📈 人民币 利好",
-        "chain": "中国需求回升→原油进口增→推高油价→利好能源板块和人民币汇率（贸易顺差扩大）",
-        "watch": "中国7月原油进口数据和PMI（采购经理指数）"
+        "what": "黄金短期走势受美联储政策、通胀及地缘政治影响",
+        "assets": "📉 黄金 震荡",
+        "chain": "美联储政策主导实际利率（扣除通胀的利率），通胀决定避险需求，地缘事件引发脉冲式波动",
+        "watch": "美联储会议纪要及美国CPI数据"
       }
     },
     {
       "rank": 7,
+      "title": "China to return as major oil buyer in August, JPMorgan says, naming its top stock picks",
+      "source": "CNBC",
+      "detail": "The pullback in oil imports by the world's largest oil importer has helped absorb the global energy shock and cap the surge in oil prices since the war began.",
+      "lang": "en",
+      "score": 41
+    },
+    {
+      "rank": 8,
       "title": "黄力晨:美联储立场转向鹰派 加息预期升温打压金价",
       "source": "市场资讯",
       "detail": "6月18日，昨日周三我们认为，由于美国与伊朗达成和平协议，导致油价承压下跌，通胀压力骤降，市场部对美联储加息的预期有所降温，拖累美元走弱，直接提振了黄金金价...",
@@ -94,7 +102,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "花旗将美联储降息预期时点延至2026年10月，因官员们更偏鹰派",
       "source": "环球市场播报",
       "detail": "花旗集团将美联储降息的预估时点延后一个月，理由是美联储官员的立场转向更为鹰派。 这家华尔街投行目前预期，美联储将在2026年10月和12月降息...",
@@ -102,18 +110,10 @@
       "score": 36
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates",
-      "source": "CNBC",
-      "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
       "score": 35
     }
