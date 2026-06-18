@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 23:37",
+  "updateTime": "2026-06-18 23:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "美股从抛售中反弹，油价下跌且芯片股领涨",
+        "what": "美股反弹，油价下跌，芯片股领涨",
         "assets": "📈 美股科技股 利好；📉 原油期货 承压",
-        "chain": "油价下跌缓解通胀预期（物价上涨压力），降息概率上升，利好成长股（高估值科技股）",
-        "watch": "今晚美国CPI数据（消费者物价指数）及美联储官员讲话"
+        "chain": "油价下跌缓解通胀（物价上涨）压力，提升降息（借钱成本降低）预期，利好成长股（高估值公司）",
+        "watch": "原油库存数据及美联储官员讲话"
       }
     },
     {
@@ -24,122 +24,98 @@
       "score": 50,
       "insight": {
         "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI概念股 利好；📈 中国科技股 情绪提振",
-        "chain": "暗盘（上市前交易）暴涨引发打新（新股申购）热潮，短期资金从其他板块涌入AI赛道",
-        "watch": "下周一开盘成交量及首日涨幅能否维持"
+        "assets": "📈 港股相关AI概念股 利好",
+        "chain": "散户FOMO（害怕错过）情绪蔓延，可能带动港股科技IPO（新股上市）估值泡沫",
+        "watch": "下周一上市首日成交量及换手率"
       }
     },
     {
       "rank": 3,
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "纳指跳涨，油价接近伊朗战争前水平",
+        "assets": "📈 纳斯达克指数 利好；📉 能源板块 承压",
+        "chain": "地缘风险溢价（因战争不确定性加的价格）消退，资金从能源股轮动（转移）至科技股",
+        "watch": "中东局势及OPEC（石油输出国组织）产量声明"
+      }
+    },
+    {
+      "rank": 4,
       "title": "A股市值前10强半数是科技股，中际旭创市值首超贵州茅台",
       "source": "每日经济新闻",
       "detail": "每经记者|王海慜每经编辑|彭水萍 以往A股市场市值排名长期被传统金融、消费、能源巨头霸榜的格局正迎来深刻变化。2026年6月18日收盘，A股市值前10强中，科技股占据5席...",
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "A股市值前10强半数科技股，中际旭创市值首超茅台",
-        "assets": "📈 A股光模块/算力股 利好；📉 消费蓝筹（白酒） 相对承压",
-        "chain": "资金从消费防御板块（避险品种）切换至科技进攻板块（高成长），市场风险偏好（冒险意愿）提升",
-        "watch": "中际旭创后续订单量及光模块出口数据"
+        "what": "A股市值前10强半数科技股，中际旭创超茅台",
+        "assets": "📈 A股科技股 利好；📉 消费蓝筹（如白酒） 承压",
+        "chain": "资金从防御性（稳定但低增长）板块切换至进攻性（高成长）板块，市场风险偏好（愿意冒险程度）提升",
+        "watch": "科技股EPS（每股收益）增速及北向资金流向"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni警告美联储可能加息以控通胀",
-        "assets": "📉 美股整体 承压；📈 美元指数 利好",
-        "chain": "加息预期推高债券收益率（借钱成本），压制股票估值（PE倍数），资金转向现金（避险）",
-        "watch": "美联储点阵图（利率预测）及核心PCE（个人消费支出物价指数）"
+        "what": "资深策略师Yardeni警告美联储可能加息",
+        "assets": "📉 美债 利空；📉 美股 承压",
+        "chain": "加息预期推高长端利率（长期借贷成本），压制科技股估值，美元走强冲击新兴市场（发展中国家）",
+        "watch": "本周美联储点阵图（利率预测）及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "特朗普试图解雇美联储理事Lisa Cook，致其产生百万美元法律费用",
-        "assets": "📉 美元 短期承压；📈 黄金 避险情绪提振",
-        "chain": "政治干预央行独立性（自主决策权）引发市场对政策不确定性担忧，避险资产（黄金）受捧",
-        "watch": "国会是否会通过法案限制总统罢免美联储理事"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
-      "source": "CNBC",
-      "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州依赖IPO税收，但多个因素使预期复杂化",
-        "assets": "📉 加州市政债券 承压；📈 美国国债 相对利好",
-        "chain": "IPO延迟导致州财政缺口（预算不足），或提高地方债风险溢价（额外利息），资金流向联邦债（更安全）",
-        "watch": "加州下一季度税收报告及IPO排队公司上市进度"
+        "what": "特朗普试图解雇美联储理事Lisa Cook反致其损失超百万美元",
+        "assets": "📉 美元 承压；📉 美联储独立性 利空",
+        "chain": "政治干预央行（控制货币的机构）动摇市场对利率决策可信度，引发通胀预期（未来物价上涨看法）波动",
+        "watch": "美联储主席鲍威尔后续发言及国会听证"
       }
     },
     {
       "rank": 7,
+      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
+      "source": "CNBC",
+      "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "新任美联储主席Kevin Warsh主导改革工作组",
-        "assets": "美元(美元指数)看涨，美债(美国国债)收益率看涨",
-        "chain": "鹰派(倾向紧缩)主席强化政策透明度预期，短期提振美元，但可能加剧市场波动",
-        "watch": "Warsh首次政策会议纪要细节及利率点阵图(美联储官员利率预测)"
-      }
+      "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Warsh首次会议释放五大关键信号",
-        "assets": "美股(标普500)看跌，黄金看跌",
-        "chain": "市场解读为鹰派，加息预期升温，风险资产承压，避险情绪推高美债收益",
-        "watch": "后续会议声明措辞变化及通胀数据"
-      }
+      "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "002217，违规信披处罚落地，前董事长终身禁入",
       "source": "上海证券报",
       "detail": " 6月18日，合力泰（002217）披露收到福建证监局出具的《行政处罚事先告知书》（以下简称“告知书”），前期信息披露违法违规事项迎来监管处理结果。",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "002217因违规信披遭处罚，前董事长终身市场禁入",
-        "assets": "002217(合力泰)看跌，ST板块(风险警示板块)承压",
-        "chain": "个股流动性骤降，小盘股信用风险溢价上升，监管趋严信号利空壳资源",
-        "watch": "公司后续退市风险及索赔诉讼进展"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "艾柯医疗IPO：主导产品单价腰斩，营收增速面临放缓风险",
-      "source": "市场资讯",
-      "detail": "来源：雷达Finance 雷达财经出品 文|李亦辉 编|深海 艾柯医疗正在进行IPO二次闯关。3月24日晚间，上交所官网显示，艾柯医疗器械（北京）股份有限公司（以下简称“艾柯医疗”...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "艾柯医疗核心产品价格腰斩，营收增速放缓",
-        "assets": "艾柯医疗(拟IPO)看跌，医疗器械板块偏空",
-        "chain": "集采(集中采购)压力传导至估值，IPO定价可能下修，一级市场医疗投资降温",
-        "watch": "发审委反馈及可比公司三季报毛利率"
-      }
+      "score": 30
     }
   ]
 }
