@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 10:00",
+  "updateTime": "2026-06-18 10:05",
   "news": [
     {
       "rank": 1,
@@ -9,92 +9,100 @@
       "lang": "zh",
       "score": 63,
       "insight": {
-        "what": "花物堂IPO遭证监会六问，聚焦突击入股与跨界经营",
-        "assets": "📉 半亩花田母公司 利空",
-        "chain": "监管收紧（查资金来源和业务合理性）→IPO审核周期拉长，壳资源贬值",
-        "watch": "花物堂招股书更新及发审会结果"
+        "what": "证监会质疑花物堂IPO，涉及突击入股和经营问题",
+        "assets": "📉 花物堂（半亩花田母公司）股价 承压",
+        "chain": "监管审查趋严，可能推迟IPO或降低估值，影响消费股IPO情绪（首次公开募股）",
+        "watch": "证监会后续问询及IPO审核进展"
       }
     },
     {
       "rank": 2,
+      "title": "Futures Rise After Fed Hits Market; These AI Stocks Flash Buy Signals - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 60,
+      "insight": {
+        "what": "美股期货上涨，AI股出现买入信号",
+        "assets": "📈 美股科技股 利好；📈 AI概念股 利好",
+        "chain": "AI股涨势带动科技板块，资金从防御股转向成长股（高估值高预期股票）",
+        "watch": "AI股成交量及科技板块资金流入"
+      }
+    },
+    {
+      "rank": 3,
       "title": "交易员：美联储政策决议后 对冲基金纷纷买入美元看涨期权",
       "source": "环球市场播报",
       "detail": " 根据交易员，鉴于美联储点阵图释放的鹰派信号以及2026年核心CPI预测上调，对冲基金买入美元兑G10和新兴市场货币的看涨期权。交易员称，期权期限从1周到3个月不等。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "对冲基金在美联储决议后大举买入美元看涨期权",
-        "assets": "📈 美元指数 利好",
-        "chain": "美元走强（因加息预期）→非美货币承压，新兴市场资金外流",
-        "watch": "美联储点阵图（利率预测）及非农数据"
+        "what": "美联储决议后，对冲基金买入美元看涨期权",
+        "assets": "📈 美元指数 利好；📉 非美货币（欧元/日元） 承压",
+        "chain": "美元走强压制大宗商品（如黄金），新兴市场资金外流风险",
+        "watch": "美元指数及非美货币汇率变化"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "中国大搜车赴美IPO目标估值9.01亿美元",
       "source": "环球市场播报",
       "detail": "中国汽车经销平台大搜车周三表示，公司在美国进行首次公开发行（IPO）的目标估值9.01亿美元。大搜车计划发行300万股美国存托股份（ADS），每股定价在16至18美元之间...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "中国大搜车赴美IPO目标估值9.01亿美元",
-        "assets": "📈 中概股汽车板块 利好",
-        "chain": "中概股IPO回暖（融资通道重启）→提振同行业估值，但需警惕破发风险",
-        "watch": "SEC（美国证监会）对中概股审计底稿审查进展"
+        "what": "中国大搜车赴美IPO，目标估值9.01亿美元",
+        "assets": "📈 中概股（二手车） 利好；📈 美股IPO市场 情绪偏暖",
+        "chain": "IPO活跃提振中概股板块，但估值低于预期可能拖累同类公司",
+        "watch": "大搜车IPO定价及首日表现"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "Fed 'dot plot': Almost half of FOMC members project at least one interest rate hike this year - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38,
+      "insight": {
+        "what": "美联储点阵图显示近半数成员预计今年至少加息一次",
+        "assets": "📈 美元 利好；📉 美债价格 承压；📉 黄金 承压",
+        "chain": "加息预期推高短端利率（短期国债收益率），打压风险资产（如股票）",
+        "watch": "FOMC（联邦公开市场委员会）下次会议纪要及通胀数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "沃什首秀引发美债市场剧烈震荡 交易员对美联储加息押注激增",
       "source": "环球市场播报",
       "detail": "凯文·沃什没用多少时间就引起了债券市场的关注。 交易员抛售短期美债，导致部分债券收益率创下一年多来的最大涨幅，期货交易员纷纷押注最早下个月就会加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "沃什首秀引发美债震荡，交易员激增加息押注",
-        "assets": "📈 美债收益率 上行；📈 美元 利好",
-        "chain": "加息预期升温（沃什鹰派言论）→长端利率（10年期国债收益率）飙升→科技股承压（贴现率提高）",
-        "watch": "沃什后续讲话及FOMC（美联储公开市场委员会）会议纪要"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "美联储新主席没降息，特朗普回应还好：尊重他的判断",
-      "source": "环球市场播报",
-      "detail": "美国总统特朗普对美联储主席凯文·沃什表达了信心。此前，这位新任央行行长结束了他的首次利率决策会议，决定维持利率不变，同时美联储公布的利率预期点阵图显示...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "特朗普尊重美联储新主席不降息决定",
-        "assets": "📈 美元 短期利好",
-        "chain": "政治干预风险降低→美联储独立性获认可→市场预期稳定，美元获支撑",
-        "watch": "特朗普是否改变立场及经济数据对降息预期的修正"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "日韩股市齐创新高，日元创近两年新低，现货黄金向上触及4300美元",
-      "source": "市场资讯",
-      "detail": "文章来源：华尔街见闻 日韩股市双双刷新历史纪录，日经225指数首破71000点，韩国Kospi逼近9000关口；与此同时，日元跌至近两年低位，干预风险升温。",
-      "lang": "zh",
-      "score": 34,
-      "insight": {
-        "what": "日韩股市齐创新高，日元创近两年新低，黄金触及4300美元",
-        "assets": "📈 日韩股市 利好；📉 日元 承压；📈 黄金 利好",
-        "chain": "日元贬值（日本央行宽松）→出口企业盈利改善→日股上行；黄金避险（全球通胀预期）与美元走强形成对冲",
-        "watch": "日本央行收益率曲线控制政策及美国PCE（个人消费支出）数据"
+        "what": "沃什首秀引发美债震荡，交易员押注加息",
+        "assets": "📉 美债（长期） 承压；📈 美元 利好",
+        "chain": "加息押注推高收益率曲线（长短期利差），银行股等受益于利率上升",
+        "watch": "沃什后续讲话及美债收益率走势"
       }
     },
     {
       "rank": 7,
-      "title": "Warsh kicks off Fed chief era with sweeping review as rates remain unchanged - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33
+      "title": "美联储新主席没降息，特朗普回应还好：尊重他的判断",
+      "source": "环球市场播报",
+      "detail": "美国总统特朗普对美联储主席凯文·沃什表达了信心。此前，这位新任央行行长结束了他的首次利率决策会议，决定维持利率不变，同时美联储公布的利率预期点阵图显示...",
+      "lang": "zh",
+      "score": 36
     },
     {
       "rank": 8,
+      "title": "日韩股市齐创新高，日元创近两年新低，现货黄金向上触及4300美元",
+      "source": "市场资讯",
+      "detail": "文章来源：华尔街见闻 日韩股市双双刷新历史纪录，日经225指数首破71000点，韩国Kospi逼近9000关口；与此同时，日元跌至近两年低位，干预风险升温。",
+      "lang": "zh",
+      "score": 34
+    },
+    {
+      "rank": 9,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
@@ -102,18 +110,10 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
       "source": "CNBC",
       "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
-      "source": "CNBC",
-      "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
       "score": 33
     }
