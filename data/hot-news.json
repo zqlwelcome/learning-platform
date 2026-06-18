@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 23:45",
+  "updateTime": "2026-06-18 23:47",
   "news": [
     {
       "rank": 1,
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "特朗普解雇美联储理事库克致其损失超百万",
-        "assets": "📉 美联储独立性 风险；📈 美元 短期波动",
-        "chain": "政治干预央行（美联储）削弱市场信任，可能推高通胀预期，美元避险情绪升温",
-        "watch": "后续美联储理事辞职动向"
+        "what": "策略师Yardeni称美联储可能加息",
+        "assets": "📉 美债 利空；📉 美股大盘 承压",
+        "chain": "加息预期（借钱成本升高）会压制股市和债券价格，但若通胀顽固，市场需重新定价（调整预期）",
+        "watch": "下周FOMC（美联储会议）点阵图"
       }
     },
     {
@@ -65,51 +65,67 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "策略师Yardeni称美联储可能加息",
-        "assets": "📉 美债 利空；📉 美股大盘 承压",
-        "chain": "加息预期（借钱成本升高）会压制股市和债券价格，但若通胀顽固，市场需重新定价（调整预期）",
-        "watch": "下周FOMC（美联储会议）点阵图"
+        "what": "特朗普解雇美联储理事库克致其损失超百万",
+        "assets": "📉 美联储独立性 风险；📈 美元 短期波动",
+        "chain": "政治干预央行（美联储）削弱市场信任，可能推高通胀预期，美元避险情绪升温",
+        "watch": "后续美联储理事辞职动向"
       }
     },
     {
       "rank": 6,
-      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
-      "source": "CNBC",
-      "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
-      "lang": "en",
-      "score": 35
-    },
-    {
-      "rank": 7,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "新美联储主席Warsh设立工作组，市场关注政策转向",
+        "assets": "📉 美元利空，📈 美债利多",
+        "chain": "工作组暗示鸽派倾向，降息预期升温，美元走弱，美债收益率下行（债券价格与收益率反向）",
+        "watch": "Warsh后续讲话及FOMC票委立场"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh首次会议五大要点：强调数据依赖与沟通",
+        "assets": "📈 美股中性偏多，📉 黄金短期波动",
+        "chain": "市场解读为渐进式政策，风险偏好回升，资金从避险资产流出（如黄金）",
+        "watch": "下次会议点阵图及通胀数据"
+      }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "002217，违规信披处罚落地，前董事长终身禁入",
       "source": "上海证券报",
       "detail": " 6月18日，合力泰（002217）披露收到福建证监局出具的《行政处罚事先告知书》（以下简称“告知书”），前期信息披露违法违规事项迎来监管处理结果。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "002217信披违规处罚落地，前董事长终身禁入",
+        "assets": "📉 002217股票利空",
+        "chain": "处罚落地后短期抛压，但利空出尽可能引发短线反弹，需关注退市风险（ST股流动性差）",
+        "watch": "公司是否触发强制退市条件"
+      }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "艾柯医疗IPO：主导产品单价腰斩，营收增速面临放缓风险",
       "source": "市场资讯",
       "detail": "来源：雷达Finance 雷达财经出品 文|李亦辉 编|深海 艾柯医疗正在进行IPO二次闯关。3月24日晚间，上交所官网显示，艾柯医疗器械（北京）股份有限公司（以下简称“艾柯医疗”...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "艾柯医疗IPO：主导产品单价腰斩，营收增速放缓",
+        "assets": "📉 艾柯医疗（未上市）利空，📉 医疗板块情绪利空",
+        "chain": "单价腰斩反映集采压力，营收增速放缓削弱估值逻辑，IPO定价或下修（可比公司承压）",
+        "watch": "发行市盈率及同行股价反应"
+      }
     }
   ]
 }
