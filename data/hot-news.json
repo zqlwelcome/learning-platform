@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 22:33",
+  "updateTime": "2026-06-18 22:40",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 50,
       "insight": {
         "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI板块 利好；📈 港股新股市场 情绪提振",
-        "chain": "暗盘暴涨吸引散户打新（新股申购）资金，可能推高同类AI标的估值（估值倍数提升）",
-        "watch": "下周一港股开盘价及成交量，是否触发套利（价差交易）"
+        "assets": "📈 港股AI概念股 利好；📈 打新资金 活跃",
+        "chain": "首日溢价（上市价高于发行价）吸引散户追涨，可能带动港股科技板块情绪（市场风险偏好）",
+        "watch": "下周一开盘价及成交量是否持续放大"
       }
     },
     {
@@ -23,95 +23,83 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美股反弹，英特尔领涨芯片股，市场试图修复美联储抛售影响",
-        "assets": "📈 美股芯片股 利好；📈 美股大盘 短期反弹",
-        "chain": "芯片股走强带动科技板块，但美联储鹰派（偏向加息）言论可能限制反弹空间",
-        "watch": "美联储官员讲话及本周CPI（通胀数据）"
+        "what": "美股反弹，英特尔领涨芯片股，市场试图从美联储抛售中恢复",
+        "assets": "📈 美股半导体 利好；📈 标普500 反弹",
+        "chain": "芯片股领涨（行业龙头业绩预期改善）提振科技板块，但反弹可持续性取决于美联储政策信号（利率预期）",
+        "watch": "今晚美联储官员讲话及10年期美债收益率（长期借贷成本）"
       }
     },
     {
       "rank": 3,
-      "title": "Stock Market Today: Nasdaq Jumps at Open, Oil Is Now Close to Pre-Iran War Prices - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq climb with focus on Iran deal, Fed hike path - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 39,
+      "score": 45,
       "insight": {
-        "what": "纳指高开，油价接近伊朗冲突前水平",
-        "assets": "📈 纳指 利好；📉 原油 承压（地缘溢价消退）",
-        "chain": "油价回落缓解通胀预期（物价上涨压力），可能降低美联储加息概率，利好成长股（高估值股票）",
-        "watch": "中东局势及EIA（美国能源信息署）库存数据"
+        "what": "美股道指、标普、纳指上涨，关注伊朗协议及美联储加息路径",
+        "assets": "📈 美股大盘 反弹；📈 能源股 承压（若伊朗协议达成）",
+        "chain": "伊朗协议（石油供应增加）可能压低油价，缓解通胀，降低美联储加息压力（政策宽松预期）",
+        "watch": "伊朗核谈判进展及WTI原油价格（全球油价基准）"
       }
     },
     {
       "rank": 4,
-      "title": "US chip stocks gain after Apple-Intel partnership - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "苹果-英特尔合作消息推动美国芯片股上涨",
-        "assets": "📈 英特尔 利好；📈 美国芯片股 板块跟涨",
-        "chain": "合作可能加速英特尔代工业务（芯片制造外包）复苏，挤压台积电份额，但需看具体条款",
-        "watch": "合作细节公布后的市场反应及英特尔财报"
-      }
-    },
-    {
-      "rank": 5,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni称美联储若想实现通胀目标可能加息",
-        "assets": "📉 美股 承压；📉 美债 收益率上行（债券价格下跌）",
-        "chain": "加息预期（借钱成本增加）压制风险偏好（投资情绪），短期美元走强，新兴市场资金外流",
-        "watch": "美联储5月会议纪要及PCE（个人消费支出物价指数）"
+        "what": "策略师Yardeni：美联储为达通胀目标很可能加息",
+        "assets": "📉 美债 承压；📉 美股成长股 利空",
+        "chain": "加息（借钱成本升高）会压低风险资产估值，尤其高估值科技股（折现率上升）",
+        "watch": "下周CPI数据（消费者物价指数）是否超预期"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收，但多重因素使预估复杂化",
-        "assets": "📉 加州地方债 承压；📉 美国科技IPO 预期降温",
-        "chain": "税收不及预期可能引发加州财政紧缩（削减开支），间接影响科技企业上市节奏和估值",
-        "watch": "加州财政报告及科技公司IPO备案进度"
+        "what": "加州依赖IPO税收，但多个因素使情况复杂化",
+        "assets": "📉 加州地方债 承压；📉 美国地方政府财政 风险",
+        "chain": "IPO税收不及预期（企业上市减少）会恶化加州预算，引发地方债收益率上升（信用风险溢价）",
+        "watch": "加州下一季度税收数据及IPO市场活跃度"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Goldman’s Kaplan Says Fed May Hike by Fall, Sees Risk of More - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "高盛卡普兰称美联储秋季或加息，风险上升",
-        "assets": "📉 美元指数利好；📉 美股承压；📉 美债收益率上行",
-        "chain": "加息预期推高短端利率（短期国债收益率），压制风险资产（股票/加密货币），强化美元（DXY指数）",
-        "watch": "FOMC点阵图（利率预测）及CPI数据（通胀指标）"
+        "what": "高盛Kaplan：美联储可能在秋季加息，并存在更多风险",
+        "assets": "📉 美股 利空；📉 新兴市场货币 承压",
+        "chain": "加息预期（政策收紧）推高美元，资金从新兴市场回流美国，新兴市场货币贬值（资本外流压力）",
+        "watch": "美联储9月会议点阵图（利率预测）及非农就业数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普解雇美联储理事库克致其损失超百万美元",
-        "assets": "📈 政治不确定性承压；📉 美联储独立性受损",
-        "chain": "政治干预央行（美联储独立性受质疑）或削弱市场对利率政策可信度，长期推高通胀预期（盈亏平衡通胀率）",
-        "watch": "美联储官员辞职/任命动态及国会听证"
-      }
+      "score": 35
+    },
+    {
+      "rank": 8,
+      "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
+      "source": "CNBC",
+      "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
+      "lang": "en",
+      "score": 35
     },
     {
       "rank": 9,
@@ -119,13 +107,15 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "分析：沃什主席的特别工作组是新美联储关键",
-        "assets": "📈 美元指数利好；📉 长期美债收益率承压",
-        "chain": "沃什鹰派（倾向紧缩）工作组主导政策，或加速缩表（减少资产负债表规模）并提前加息，强化紧缩预期",
-        "watch": "沃什公开讲话及FOMC会议纪要措辞变化"
-      }
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
+      "source": "CNBC",
+      "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
