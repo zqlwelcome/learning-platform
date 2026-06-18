@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 02:12",
+  "updateTime": "2026-06-19 02:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "美股从美联储抛售中反弹，油价下跌且芯片股领涨",
-        "assets": "📈 美股科技股 利好；📉 原油 承压",
-        "chain": "油价下跌缓解通胀（物价上涨）压力，降低加息预期（借钱成本上升概率），利好成长股估值",
-        "watch": "今晚EIA（美国能源信息署）原油库存数据"
+        "what": "油价下跌和芯片股反弹推动股市回升",
+        "assets": "📈 美股芯片股 利好; 📉 原油 承压",
+        "chain": "油价跌→通胀预期降温→美联储鹰派压力减小→科技股估值修复",
+        "watch": "WTI原油（西德克萨斯中质原油）是否跌破70美元"
       }
     },
     {
@@ -23,123 +23,99 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元延续涨势，美联储鹰派信号（偏向加息言论）提振加息押注",
-        "assets": "📈 美元指数 走强；📉 新兴市场货币 承压",
-        "chain": "美元走强导致资金回流美国（资本外逃），新兴市场资产面临抛售压力，大宗商品（如黄金）价格受抑",
-        "watch": "本周美联储官员讲话及点阵图（利率预测）"
+        "what": "美元因美联储鹰派信号延续涨势",
+        "assets": "📈 美元指数 走强; 📉 新兴市场货币 承压",
+        "chain": "美元强→进口成本降→非美国家通胀压力减→新兴市场央行降息（借钱成本降低）空间打开",
+        "watch": "今晚美国CPI（消费者物价指数）数据"
       }
     },
     {
       "rank": 3,
-      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices — Live Updates - WSJ",
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳斯达克跳涨，油价接近伊朗战争前水平",
-        "assets": "📈 纳指 反弹；📉 WTI原油 接近支撑位",
-        "chain": "油价下跌降低企业成本（运输、原料），利好航空、制造业；同时削弱能源股（利润压缩）",
-        "watch": "布伦特原油是否跌破70美元关键位"
+        "what": "纳斯达克大涨，油价接近伊朗冲突前水平",
+        "assets": "📈 纳斯达克100 利好; 📉 能源股 承压",
+        "chain": "油价跌→企业成本降→科技股盈利预期改善→资金从能源板块轮动至科技",
+        "watch": "EIA（美国能源信息署）原油库存周报"
       }
     },
     {
       "rank": 4,
-      "title": "Federal regulators back Trump’s plan to speed power to energy-hungry AI data centers - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "美国监管机构支持特朗普计划加快为AI数据中心供电",
-        "assets": "📈 AI芯片股（英伟达等） 利好；📈 电力公用事业 利好",
-        "chain": "AI基建需求拉动电力投资（资本开支），利好电网设备商；但可能推高电价（成本传导）",
-        "watch": "AI数据中心电力招标合同规模"
-      }
-    },
-    {
-      "rank": 5,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni称美联储若真实现通胀目标可能加息",
-        "assets": "📈 短端美债收益率 上行；📉 美股成长股 承压",
-        "chain": "加息预期（借钱成本上升）压制科技股估值（未来现金流折现率提高），利好银行股（净息差扩大）",
-        "watch": "下周CPI（消费者物价指数）数据是否超预期"
+        "what": "策略师Yardeni警告美联储可能加息",
+        "assets": "📉 美债 承压; 📉 美股整体 风险",
+        "chain": "加息预期→短端利率（短期国债收益率）飙升→压制成长股估值→避险资金涌入美元",
+        "watch": "美联储点阵图（利率预测）6月更新"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "特朗普试图解雇美联储理事Lisa Cook，致其法律和安全费用超百万美元",
-        "assets": "📉 美元 承压；📈 黄金 避险",
-        "chain": "政治干预美联储独立性（央行决策自主权）削弱市场信心，引发美元卖盘（抛售），避险资金流入黄金",
-        "watch": "美联储主席鲍威尔是否公开表态捍卫独立性"
+        "what": "特朗普试图解雇美联储理事Lisa Cook，致其损失超百万",
+        "assets": "📉 美元 短期情绪利空; 📉 政治不确定性 利空",
+        "chain": "政治干预→美联储独立性受质疑→市场定价通胀溢价（风险补偿）→长期美债收益率上行",
+        "watch": "参议院对Cook连任投票结果"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Markets are set for a much more hawkish Warsh Fed than expected",
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "市场预期沃什美联储鹰派程度超预期",
-        "assets": "美元看涨，美债收益率上行，美股承压",
-        "chain": "鹰派预期推高利率，压制风险资产，美元走强",
-        "watch": "沃什首次FOMC会议声明措辞"
+        "what": "市场预期Warsh领导的美联储将更鹰派",
+        "assets": "📉 美股 承压; 📈 美元 利好",
+        "chain": "鹰派预期→加息路径陡峭（加息速度更快）→压制风险资产→资金转向现金和短债",
+        "watch": "Warsh若获提名后的首次公开讲话"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "沃什美联储工作组成为理解新政策核心",
-        "assets": "美元波动，金融股关注度上升",
-        "chain": "工作组构成预示监管与利率路径，影响银行盈利预期",
-        "watch": "工作组名单及政策授权范围"
-      }
+      "score": 33
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "沃什首次会议释放五大关键信号",
-        "assets": "美债收益率曲线陡化，美元指数看多",
-        "chain": "缩表加速预期压制长端，短端加息预期强化",
-        "watch": "点阵图分布及通胀预测调整"
-      }
+      "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "SpaceX股价暴跌，尽管获两个高目标价",
-        "assets": "SpaceX看跌，太空概念股承压",
-        "chain": "高目标价未提振信心，或反映基本面担忧及估值泡沫",
-        "watch": "SpaceX后续融资计划及发射延迟情况"
-      }
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "SpaceX stock sinks 7%, continuing to cool after three-day rally",
+      "source": "CNBC",
+      "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
