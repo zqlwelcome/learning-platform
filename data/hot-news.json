@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "The investment bank initiated the stock at buy.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "AI基础设施股一年涨500%，杰富瑞看涨",
+        "assets": "📈 AI基础设施股 利好",
+        "chain": "股价飙升吸引动量资金（趋势交易），但估值偏高或引发获利回吐（均值回归）",
+        "watch": "杰富瑞目标价与当前价差"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "纳指反弹，汽油价格跌破4美元",
+        "assets": "📈 美股科技股 利好；📉 能源股 利空",
+        "chain": "油价下跌降通胀预期（成本推动），利好消费和科技估值（折现率下降）",
+        "watch": "明日CPI数据及汽油期货走势"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves in the premarket.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "盘前异动：英特尔、SpaceX、美光、嘉年华等",
+        "assets": "📈 个股波动 中性（分化行情）",
+        "chain": "个股异动反映板块轮动（资金切换），需结合财报预期和订单数据（基本面验证）",
+        "watch": "盘前成交量及开盘后动量延续性"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "环球市场播报",
       "detail": "对于正在为自有数据中心甄选 AI 服务器芯片的企业而言，相比英伟达，亚马逊拥有一大核心优势：价格。 爱尔兰咨询机构 Co Driver Labs 专注为企业提供 AI...",
       "lang": "zh",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "亚马逊高性价比AI芯片受企业青睐",
+        "assets": "📈 亚马逊 利好；📉 英伟达 利空",
+        "chain": "自研芯片降低云成本（毛利率提升），挤压第三方GPU份额（竞争格局恶化）",
+        "watch": "AWS客户部署量及英伟达数据中心收入指引"
+      }
     }
   ]
 }
