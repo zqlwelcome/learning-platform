@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 04:40",
+  "updateTime": "2026-06-19 04:41",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普解雇美联储理事库克致其法律安保费超百万美元。",
+        "assets": "美元利空，美债收益率下行",
+        "chain": "政治干预美联储独立性，市场定价货币宽松预期升温，压制美元。",
+        "watch": "库克是否提前辞职及美联储后续人事变动。"
+      }
     },
     {
       "rank": 8,
@@ -99,23 +105,27 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "CNBC称市场预期沃什任美联储主席将更鹰派。",
+        "assets": "美元利多，黄金利空，美债收益率上行",
+        "chain": "鹰派美联储预期推高利率预期，压制风险资产，利好美元。",
+        "watch": "沃什正式提名概率及首次政策表态。"
+      }
     },
     {
       "rank": 9,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
       "title": "SanDisk and Micron surge as Apple confirms memory price pass-through - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "苹果确认存储芯片涨价传导，闪迪和美光股价大涨。",
+        "assets": "闪迪和多美光利多，苹果利空",
+        "chain": "成本转嫁提升存储厂毛利率，但压缩苹果利润，半导体板块看涨。",
+        "watch": "存储芯片现货价格及苹果后续财报毛利率。"
+      }
     }
   ]
 }
