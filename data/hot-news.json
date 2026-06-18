@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 06:57",
+  "updateTime": "2026-06-19 07:01",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后股价连续下跌，买家接近亏损",
-        "assets": "📉 SpaceX 利空；📉 太空概念股 承压",
-        "chain": "IPO后抛压（解禁盘出货）导致短期超卖，可能拖累其他高估值未上市科技股估值下修",
-        "watch": "SpaceX成交量是否放大企稳"
+        "what": "SpaceX IPO后股价暴跌24%，散户浮亏",
+        "assets": "📉 SpaceX 利空",
+        "chain": "IPO（首次公开募股）后炒作退潮，影响一级市场（未上市企业）估值和IPO定价",
+        "watch": "SpaceX后续锁定期（禁售期）到期抛压"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 41,
       "insight": {
         "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好；📉 美光 承压；📈 半导体板块 分化",
-        "chain": "AI芯片需求（算力投资）强于存储芯片周期（库存去化），资金可能从存储转向AI芯片",
-        "watch": "英伟达/美光财报指引及毛利率变化"
+        "assets": "📈 英伟达 利好，📉 美光 承压",
+        "chain": "AI（人工智能）芯片需求分化，英伟达受益于AI资本开支（企业投资），美光受困于存储芯片周期（供需波动）",
+        "watch": "英伟达财报指引、美光库存数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美股反弹，纳斯达克和罗素2000领涨，SpaceX跌24%",
-        "assets": "📈 纳斯达克 反弹；📈 罗素2000 反弹；📉 SpaceX 承压",
-        "chain": "小盘股（罗素2000）反弹暗示风险偏好（愿意冒险）回升，但SpaceX暴跌压制市场情绪",
-        "watch": "VIX（恐慌指数）是否回落至20以下"
+        "what": "纳指和罗素2000反弹，SpaceX跌24%",
+        "assets": "📈 纳指 利好，📈 罗素2000（小盘股） 利好",
+        "chain": "风险偏好（愿意冒险）回升，资金从热门IPO流向小盘成长股",
+        "watch": "纳指能否守住200日均线（技术面支撑）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX股价因IPO后热潮消退而下跌",
-        "assets": "📉 SpaceX 利空；📉 太空ETF 承压",
-        "chain": "IPO后获利回吐（早期投资者卖股）导致价格回归基本面，可能影响后续科技IPO定价",
-        "watch": "SpaceX估值是否回落到合理区间"
+        "what": "加州指望IPO税收，但多种因素复杂化",
+        "assets": "📉 加州地方债 承压",
+        "chain": "IPO税减少→州财政收入缺口→可能增税或削减开支→利空地方经济",
+        "watch": "加州下季度税收预估数据"
       }
     },
     {
@@ -63,13 +63,7 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州指望IPO税收暴利，但多种因素使情况复杂化",
-        "assets": "📉 加州政府债券 承压；📈 科技股IPO 不确定性",
-        "chain": "IPO税收不及预期（科技公司上市推迟）会恶化加州财政赤字，增加地方债风险溢价（借钱成本上升）",
-        "watch": "加州预算缺口及科技公司上市节奏"
-      }
+      "score": 35
     },
     {
       "rank": 6,
@@ -79,10 +73,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO后买家平均持仓接近亏损",
-        "assets": "📉 SpaceX 利空；📉 新股IPO板块 承压",
-        "chain": "IPO后追涨（高价买入）被套，削弱散户对新股热情，可能压制后续科技公司IPO估值",
-        "watch": "SpaceX能否守住IPO发行价"
+        "what": "SpaceX散户买家两天内接近亏损",
+        "assets": "📉 SpaceX 利空",
+        "chain": "散户被套→杠杆爆仓（借钱投资被迫卖出）→可能引发其他科技股连锁抛售",
+        "watch": "SpaceX期权隐含波动率（市场对价格波动的预期）"
       }
     },
     {
@@ -91,13 +85,7 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普试图解雇美联储理事Lisa Cook",
-        "assets": "美元、美债",
-        "chain": "政治干预美联储独立性，削弱政策可信度",
-        "watch": "美联储独立性声明及后续政治博弈"
-      }
+      "score": 35
     },
     {
       "rank": 8,
@@ -105,13 +93,7 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预期Warsh领导美联储将更鹰派",
-        "assets": "美元、美债、纳指",
-        "chain": "鹰派预期推高利率，压制风险资产",
-        "watch": "Warsh政策表态及通胀数据"
-      }
+      "score": 33
     },
     {
       "rank": 9,
@@ -119,13 +101,7 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "抵押贷款利率因美联储鹰派信号飙升",
-        "assets": "美债、房地产ETF",
-        "chain": "利率上升抑制房贷需求，拖累经济",
-        "watch": "30年固定抵押贷款利率及新屋销售数据"
-      }
+      "score": 33
     },
     {
       "rank": 10,
@@ -133,13 +109,7 @@
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预期Warsh领导美联储将更鹰派",
-        "assets": "美元、美债、纳指",
-        "chain": "鹰派预期推高利率，压制风险资产",
-        "watch": "Warsh政策表态及通胀数据"
-      }
+      "score": 33
     }
   ]
 }
