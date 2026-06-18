@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 22:02",
+  "updateTime": "2026-06-18 22:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "美初请失业金人数低于预期，道指反弹",
-        "assets": "📈 美股道指 利好",
-        "chain": "劳动力紧俏降低降息预期（借钱成本难降），但市场选择忽略，风险偏好（愿意买股票）回升",
-        "watch": "今晚非农数据及美联储官员讲话"
+        "what": "美股无视美联储鹰派信号，失业金数据提振反弹",
+        "assets": "📈 美股大盘 利好，📈 英特尔 利好",
+        "chain": "失业金走低→劳动力市场韧性→消费支出（个人花钱）支撑→短期利率（借钱成本）预期上修，但市场买入",
+        "watch": "下周美联储会议纪要措辞（鹰鸽程度）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "物理AI第一股暗盘暴涨262%，周一港股上市",
-        "assets": "📈 港股AI板块 利好",
-        "chain": "资金追逐AI硬件标的，可能带动A股机器人/传感器概念（相关产业链）",
-        "watch": "周一开盘换手率及后续IPO定价"
+        "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
+        "assets": "📈 港股AI板块 利好，📈 物理AI相关标的 利好",
+        "chain": "暗盘暴涨→IPO估值溢价（上市定价高于预期）→吸引资金涌入AI硬件/机器人→带动港股科技情绪",
+        "watch": "下周一首日涨幅及成交量（流动性确认）"
       }
     },
     {
@@ -37,109 +37,79 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美股反弹，英特尔领涨芯片股",
-        "assets": "📈 美股半导体 利好",
-        "chain": "英特尔受特朗普关税传闻（贸易限制）刺激，但基本面（公司业绩）疑虑仍存，需防获利了结",
-        "watch": "英特尔财报指引及芯片法案进展"
+        "what": "苹果与英特尔合作，美股芯片股普涨",
+        "assets": "📈 英特尔 利好，📈 美股芯片板块 利好",
+        "chain": "苹果合作→英特尔代工（外包制造）业务预期改善→芯片周期（行业景气度）复苏信号→带动半导体ETF",
+        "watch": "英特尔Q3代工收入指引（是否超预期）"
       }
     },
     {
       "rank": 4,
+      "title": "US chip stocks gain after Apple-Intel partnership - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 39
+    },
+    {
+      "rank": 5,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "特朗普欲解雇美联储理事Lisa Cook致其损失百万",
-        "assets": "📉 美元 承压",
-        "chain": "政治干预美联储独立（央行决策不受政府影响）引发市场对政策可信度担忧，短期国债（避险资产）或受追捧",
-        "watch": "美联储独立性声明及后续人事变动"
+        "what": "特朗普试图解雇美联储理事Lisa Cook，致其法律安保费用超百万",
+        "assets": "📉 美元 承压，📉 美联储独立性 利空",
+        "chain": "政治干预联储→市场担忧货币政策（利率调整）独立性受损→美元信用风险溢价（额外风险补偿）上升→美债收益率波动",
+        "watch": "Lisa Cook是否辞职或遭解雇（触发政策不确定性）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation",
       "source": "CNBC",
       "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收，但多重因素使征税复杂化",
-        "assets": "📉 美股IPO市场 利空",
-        "chain": "高利率（借钱成本高）和监管不确定性压制新股发行，州财政缺口或被迫加税，进一步打击企业上市意愿",
-        "watch": "Q3 IPO数量及加州预算修正案"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "*ST赛隆告别A股，退市不影响索赔",
-      "source": "市场资讯",
-      "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
-      "lang": "zh",
-      "score": 33,
-      "insight": {
-        "what": "*ST赛隆退市，不影响投资者索赔",
-        "assets": "📉 A股ST板块 利空",
-        "chain": "退市常态化强化壳价值（上市公司名额的溢价）贬值，资金向绩优蓝筹（业绩稳定的龙头股）集中",
-        "watch": "退市股索赔案例及监管退市新规执行"
+        "what": "加州依赖IPO税收，但多因素使预期复杂化",
+        "assets": "📉 加州地方债 承压，📉 美股IPO板块 中性偏空",
+        "chain": "IPO税收依赖→科技公司上市放缓→州财政赤字（收入少于支出）扩大→地方债利差（风险溢价）走阔→拖累科技股情绪",
+        "watch": "加州Q3预算报告（实际税收vs预期差距）"
       }
     },
     {
       "rank": 7,
+      "title": "*ST赛隆告别A股，退市不影响索赔",
+      "source": "市场资讯",
+      "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
+      "lang": "zh",
+      "score": 33
+    },
+    {
+      "rank": 8,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "凯文·沃什任美联储主席，其工作组揭示政策方向",
-        "assets": "美元→走强 美债→承压",
-        "chain": "沃什鹰派立场可能加速缩表，推高长期利率，压制风险资产",
-        "watch": "沃什首次政策声明及缩表细节"
-      }
+      "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "沃什首次会议五大要点：鹰派信号明确",
-        "assets": "标普500→承压 黄金→下跌",
-        "chain": "加息预期升温，美元流动性收紧，新兴市场资金外流风险加大",
-        "watch": "下次会议点阵图及通胀数据"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Intel surges 11% after Trump says company will partner with Apple on U.S. chip design",
-      "source": "CNBC",
-      "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "英特尔与苹果合作设计芯片，股价飙升11%",
-        "assets": "英特尔→涨 苹果→稳 芯片板块→跟涨",
-        "chain": "合作提振英特尔代工业务预期，可能重塑芯片供应链格局",
-        "watch": "英特尔财报及苹果芯片订单规模"
-      }
+      "score": 33
     },
     {
       "rank": 10,
-      "title": "002217，违规信披处罚落地，前董事长终身禁入",
-      "source": "上海证券报",
-      "detail": " 6月18日，合力泰（002217）披露收到福建证监局出具的《行政处罚事先告知书》（以下简称“告知书”），前期信息披露违法违规事项迎来监管处理结果。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "002217违规信披处罚落地，前董事长终身禁入",
-        "assets": "该股→跌 壳资源→承压",
-        "chain": "监管趋严打击信披违规，退市风险上升，投资者索赔概率增加",
-        "watch": "后续退市进展及索赔诉讼结果"
-      }
+      "title": "Accenture to Strengthen Critical Infrastructure Defense with End-to-End Cybersecurity Platform in Age of AI-Driven Cyber Threats and Geopolitical Risk - Accenture",
+      "source": "Accenture",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
