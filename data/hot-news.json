@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 03:30",
+  "updateTime": "2026-06-19 03:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "芯片股领涨，美股从美联储抛售中反弹",
-        "assets": "📈 美股科技股 利好；📈 半导体ETF 利好",
-        "chain": "科技股上涨带动纳斯达克（科技股指数）反弹，缓解市场恐慌情绪（恐慌指数VIX下降），资金从避险资产回流",
-        "watch": "芯片股后续成交量及美联储官员讲话"
+        "what": "美股从美联储抛售中反弹，芯片股领涨",
+        "assets": "📈 美股科技股 利好；📈 半导体板块 利好",
+        "chain": "芯片股强势带动纳指（科技股指数）反弹，可能引发空头回补（做空者买入平仓）",
+        "watch": "今晚美国PMI（采购经理人指数）数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元走强，美联储鹰派信号强化加息押注",
-        "assets": "📈 美元指数 利好；📉 非美货币（如欧元、日元）承压",
-        "chain": "美元走强压降大宗商品（以美元计价资产）价格，新兴市场资金外流（资本外逃），美债收益率（债券利息）上升",
-        "watch": "美联储下次会议点阵图（利率预测图）及通胀数据"
+        "what": "美元因美联储鹰派信号走强，加息押注升温",
+        "assets": "📈 美元指数 利好；📉 新兴市场货币 承压；📉 黄金 承压",
+        "chain": "美元走强压制大宗商品（以美元计价），新兴市场资金外流风险上升",
+        "watch": "美联储官员讲话及联邦基金利率期货（加息概率）"
       }
     },
     {
@@ -37,69 +37,69 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "纳指跳涨，油价跌近伊朗战前水平",
-        "assets": "📈 纳斯达克指数 利好；📉 原油期货 利空",
-        "chain": "油价下跌降低通胀预期（物价上涨压力），利好消费和运输板块，但打压能源股和产油国货币",
-        "watch": "WTI原油（美国原油）是否跌破70美元及OPEC（石油输出国组织）产量政策"
+        "what": "纳指大涨，油价跌至接近伊朗战争前水平",
+        "assets": "📈 纳斯达克指数 利好；📉 原油 利空",
+        "chain": "油价下跌缓解通胀预期，利好消费类股（成本降低）但利空能源股",
+        "watch": "OPEC+（石油输出国组织及盟友）产量政策"
       }
     },
     {
       "rank": 4,
-      "title": "Federal regulators back Trump’s plan to speed power to energy-hungry AI data centers - AP News",
+      "title": "US chip stocks gain after Apple-Intel partnership - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "苹果与英特尔合作，美国芯片股上涨",
+        "assets": "📈 苹果 利好；📈 英特尔 利好；📈 半导体ETF（交易所交易基金） 利好",
+        "chain": "合作可能加速芯片供应链整合，利好台积电等代工厂（制造服务商），利空高通等竞争者",
+        "watch": "苹果发布会及英特尔财报"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美监管机构支持特朗普加速AI数据中心供电计划",
-        "assets": "📈 AI板块 利好；📈 电力公用事业股 利好",
-        "chain": "AI算力需求推高电力基建（电网升级）投资，利好铜等工业金属（电线原料），但增加碳排放监管风险",
-        "watch": "数据中心建设审批进度及电力公司资本开支指引"
+        "what": "美国监管要求电网提速为AI数据中心供电",
+        "assets": "📈 公用事业股 利好；📈 AI算力相关 利好；📉 化石燃料股 利空",
+        "chain": "电力需求激增推高电价，利好核电和可再生能源（清洁能源），同时加剧电网升级投资",
+        "watch": "FERC（联邦能源监管委员会）具体执行时间表"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收，但多重因素使预期复杂化",
-        "assets": "📉 加州地方债 承压；📉 科技IPO板块 不确定性",
-        "chain": "IPO（新股上市）延迟将导致加州财政赤字扩大，可能削减科技补贴，间接利空初创企业估值",
-        "watch": "科技公司IPO排队数量及加州税收预测报告"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
-      "source": "CNBC",
-      "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普罢免美联储理事库克致其损失超百万美元",
-        "assets": "📉 美联储独立性 承压；📉 美元短期 利空",
-        "chain": "政治干预央行（中央银行）削弱市场信心，增加政策不确定性，可能推高长期利率（债券收益率）",
-        "watch": "美联储官员辞职率及国会听证会动向"
+        "what": "加州依赖IPO税收，但多重因素使预算复杂化",
+        "assets": "📉 加州市政债 承压；📉 科技初创公司 利空",
+        "chain": "IPO延迟减少州财政收入，可能引发信用评级下调（债务违约风险），拖累地方经济",
+        "watch": "加州税收数据及大型科技公司IPO（首次公开募股）进展"
       }
     },
     {
       "rank": 7,
-      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
+      "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
-      "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
+      "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
       "score": 35
     },
     {
       "rank": 8,
-      "title": "Mortgage Rates Spike in Response to Fed - Mortgage News Daily",
-      "source": "Mortgage News Daily",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
+      "source": "CNBC",
+      "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 33
+      "score": 35
     },
     {
       "rank": 9,
