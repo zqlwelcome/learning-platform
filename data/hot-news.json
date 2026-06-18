@@ -1,32 +1,92 @@
 {
-  "updateTime": "2026-06-18 16:21",
+  "updateTime": "2026-06-18 16:25",
   "news": [
     {
       "rank": 1,
+      "title": "英国央行按兵不动已成定局，油价暴跌或重构政策前景",
+      "source": "滚动播报",
+      "detail": "金十数据 中东停火带动油价下行，英国输入型通胀压力降温，市场一致预判英国央行将维持利率不变，投票大概率呈现7：2鹰鸽分化格局。地缘政治不确定性持续扰动政策节奏。",
+      "lang": "zh",
+      "score": 50,
+      "insight": {
+        "what": "英国央行维持利率不变，油价暴跌或改变政策路径",
+        "assets": "📈 英国国债 利好，📉 英镑 承压",
+        "chain": "油价跌→通胀预期降→英央行可能提前降息（借钱成本降低）→英镑走弱",
+        "watch": "WTI原油价格是否跌破70美元"
+      }
+    },
+    {
+      "rank": 2,
       "title": "India’s largest stock exchange files for IPO as mega-listings gather pace",
       "source": "CNBC",
       "detail": "India's largest stock exchange sets the ball rolling for mega IPOs this year as it files papers to go public.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "印度最大交易所NSE申请IPO，大额上市潮加速",
+        "assets": "📈 印度股市 利好，📈 印度券商股 利好",
+        "chain": "NSE上市→提升市场流动性（交易量增加）→吸引外资（国际热钱流入）",
+        "watch": "SEBI（印度证监会）审批进展"
+      }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "How Elon Musk's second-in-command Gwynne Shotwell helped turn SpaceX into an IPO giant",
       "source": "CNBC",
       "detail": "CNBC spoke to people who've worked with SpaceX's president and chief operating officer.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "SpaceX二号人物Shotwell推动公司成为IPO巨头",
+        "assets": "📈 航天概念股 利好，📈 私募股权 利好",
+        "chain": "SpaceX上市预期→提振航天板块估值（市盈率参考）→带动供应商股价",
+        "watch": "SpaceX是否提交S-1（招股说明书）"
+      }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "业内人士：黄金短期走势仍将受美联储货币政策、通胀变化及地缘政治等因素影响",
+      "source": "e公司",
+      "detail": " 人民财讯6月18日电，近期国际金价在经历大幅波动后有所企稳，国际黄金期货重新站上4300美元/盎司关口，引发市场对黄金资产配置价值的再度关注。",
+      "lang": "zh",
+      "score": 42,
+      "insight": {
+        "what": "黄金短期走势受美联储政策、通胀及地缘政治影响",
+        "assets": "📈 黄金 中性偏多",
+        "chain": "美联储偏鹰→美元走强→压制金价；地缘风险（战争/制裁）→避险需求支撑",
+        "watch": "美国CPI（消费者物价指数）数据及联储会议"
+      }
+    },
+    {
+      "rank": 5,
       "title": "China to return as major oil buyer in August, JPMorgan says, naming its top stock picks",
       "source": "CNBC",
       "detail": "The pullback in oil imports by the world's largest oil importer has helped absorb the global energy shock and cap the surge in oil prices since the war began.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "摩根大通：中国8月将重返主要石油买家，并列出首选股",
+        "assets": "📈 原油 利好，📈 中国能源股 利好",
+        "chain": "中国需求回升→油价反弹（供需再平衡）→利好石油公司利润",
+        "watch": "中国7月原油进口数据"
+      }
     },
     {
-      "rank": 4,
+      "rank": 6,
+      "title": "花旗将美联储降息预期时点延至2026年10月，因官员们更偏鹰派",
+      "source": "环球市场播报",
+      "detail": "花旗集团将美联储降息的预估时点延后一个月，理由是美联储官员的立场转向更为鹰派。 这家华尔街投行目前预期，美联储将在2026年10月和12月降息...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "花旗将美联储降息预期推迟至2026年10月，因官员鹰派",
+        "assets": "📈 美元 利好，📉 美股科技股 承压，📉 新兴市场 承压",
+        "chain": "降息推迟→高利率持续→企业融资成本高→压制成长股估值（折现率上升）",
+        "watch": "美联储点阵图（利率预测）及非农就业数据"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
@@ -34,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "沃什首次参会，美联储维持利率不变",
       "source": "环球市场播报",
       "detail": " 美联储本次会议维持利率不变，官员们已做好应对借贷成本进一步走高的准备。这是沃什出任美联储主席后的首次议息会议，整场会议的核心议题围绕通胀担忧展开。",
@@ -42,7 +102,7 @@
       "score": 33
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "Warsh Overhauls How the Fed Talks and Keeps Markets Guessing on Rates - WSJ",
       "source": "WSJ",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -50,36 +110,12 @@
       "score": 33
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
       "score": 33
-    },
-    {
-      "rank": 8,
-      "title": "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' chairman many hoped for",
-      "source": "CNBC",
-      "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
-      "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 9,
-      "title": "Asia stocks rise with Nikkei, KOSPI at record highs as US, Iran sign peace deal - Investing.com",
-      "source": "Investing.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 10,
-      "title": "Allbirds continues AI pivot with name change and CEO hire, sending stock soaring",
-      "source": "CNBC",
-      "detail": "Allbirds became NewBird AI in April and said it would trade shoes for AI compute infrastructure.",
-      "lang": "en",
-      "score": 32
     }
   ]
 }
