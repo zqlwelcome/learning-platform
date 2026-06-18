@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 19:10",
+  "updateTime": "2026-06-18 19:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "物理AI第一股暗盘暴涨262%，下周一港股上市",
-        "assets": "📈 港股AI板块 利好；📈 港股次新股 情绪提振",
-        "chain": "暗盘暴涨引散户FOMO（害怕错过），首日可能高开低走；AI概念股估值锚定上升",
-        "watch": "首日成交量及换手率，是否触发熔断"
+        "what": "暗盘暴涨262%，下周一港股上市",
+        "assets": "📈 港股机器人板块 利好；📈 打新资金 活跃",
+        "chain": "高估值（PE市盈率）引发散户FOMO（害怕错过），推升港股科技新股炒作情绪",
+        "watch": "下周一上市首日成交量及换手率"
       }
     },
     {
@@ -23,38 +23,38 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "Fed理事Warsh首秀引发债市动荡，加息押注激增",
-        "assets": "📉 美国国债 承压；📈 美元指数 走强；📉 美股 承压",
-        "chain": "加息预期升温→短端利率急升→科技股估值（未来现金流折现）承压；风险资产遭抛售",
-        "watch": "2年期美债收益率是否突破5%；Warsh后续讲话基调"
+        "what": "Warsh言论引发加息押注飙升，债市震荡",
+        "assets": "📉 美债价格 承压；📈 美元指数 走强；📉 黄金 承压",
+        "chain": "加息预期→实际利率上升（剔除通胀后的真实收益）→风险资产（如科技股）估值承压",
+        "watch": "FedWatch工具显示的加息概率变化"
       }
     },
     {
       "rank": 3,
+      "title": "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "美股期货反弹，英特尔领涨芯片股",
+        "assets": "📈 美股半导体ETF（SMH） 利好；📈 纳斯达克100 反弹",
+        "chain": "芯片股领涨→科技板块情绪修复→对冲前期Fed（美联储）鹰派抛售",
+        "watch": "今晚美股开盘后英特尔的量价表现"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Stock futures rise as Wall Street tries to rebound from Fed-led sell-off; Intel leads chips higher: Live updates",
       "source": "CNBC",
       "detail": "After hitting a fresh intraday all-time high, the Dow Jones Industrial Average ultimately closed more than 500 points lower on Wednesday.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美股期货反弹，英特尔领涨芯片股，试图从Fed抛售中修复",
-        "assets": "📈 美股半导体 反弹；📉 美债 波动延续",
-        "chain": "期货反弹多为空头回补（平仓买入），若成交量不足则反弹难持续；芯片板块成情绪风向标",
-        "watch": "标普500能否收复5日均线；费城半导体指数日内走势"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Stock futures rise as Fed hints at possible rate hike in 2026; Kospi hits over 9,000 for the first time: Live updates - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "Fed暗示2026年可能加息，韩国Kospi首次突破9000点",
-        "assets": "📈 韩国Kospi指数 利好；📉 新兴市场货币 承压；📉 美债 承压",
-        "chain": "韩国市场与Fed政策脱钩（独立走强），但强美元可能压制韩元（汇率贬值），外资流入或放缓",
-        "watch": "韩元兑美元汇率是否跌破1300；韩国央行是否干预汇市"
+        "what": "*ST赛隆退市，不影响投资者索赔",
+        "assets": "📉 A股ST板块 承压；📉 小市值垃圾股 利空",
+        "chain": "退市常态化→壳价值（上市资格溢价）继续缩水→资金向蓝筹（大市值龙头）迁移",
+        "watch": "后续ST股退市公告频率及索赔进展"
       }
     },
     {
@@ -63,13 +63,7 @@
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
-      "score": 33,
-      "insight": {
-        "what": "*ST赛隆正式退市，不影响投资者索赔诉讼",
-        "assets": "📉 A股ST板块 情绪利空；📈 退市股维权概念 中性",
-        "chain": "退市常态化加速，壳价值（上市资格）继续缩水；索赔案例增加或推动集体诉讼制度完善",
-        "watch": "后续索赔案件数量及法院判决赔偿比例"
-      }
+      "score": 33
     },
     {
       "rank": 6,
@@ -79,10 +73,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "Warsh首次Fed会议释放五大鹰派信号，市场重新定价加息路径",
-        "assets": "📉 美股科技股 承压；📈 美元指数 走强；📉 黄金 承压",
-        "chain": "鹰派信号→实际利率（名义利率减通胀）上升→黄金无息资产吸引力下降；高估值科技股首当其冲",
-        "watch": "联邦基金期货隐含的2026年加息概率；下周CPI数据是否超预期"
+        "what": "Warsh首次会议五大要点，鹰派信号明显",
+        "assets": "📉 美股大盘 承压；📈 短期利率期货 波动",
+        "chain": "鹰派（倾向加息）立场→市场重新定价降息预期→波动率（VIX恐慌指数）上升",
+        "watch": "下周FOMC（美联储会议）纪要措辞及点阵图（利率预测）"
       }
     },
     {
@@ -95,14 +89,6 @@
     },
     {
       "rank": 8,
-      "title": "Asia stocks rise with Nikkei, KOSPI at record highs as US, Iran sign peace deal - Investing.com",
-      "source": "Investing.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 32
-    },
-    {
-      "rank": 9,
       "title": "Intel surges 9% after Trump says company will partner with Apple on U.S. chip design",
       "source": "CNBC",
       "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
@@ -110,12 +96,20 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "This AI infrastructure stock up more than 200% this year has more room to run, KeyBanc says",
       "source": "CNBC",
       "detail": "The bank has an overweight rating on the AI infrastructure name.",
       "lang": "en",
       "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "高凯技术再次IPO：高毛利率与低存货周转率背离 重要信披前后矛盾|科创板国产替代",
+      "source": "新浪证券",
+      "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 自2019年7月22日开市至今，科创板已走过近七年历程。这七年，不仅是中国多层次资本市场改革深化的七年...",
+      "lang": "zh",
+      "score": 30
     }
   ]
 }
