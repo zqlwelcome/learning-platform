@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 23:16",
+  "updateTime": "2026-06-18 23:17",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州预期IPO税收大增，但多重因素使情况复杂化",
+        "assets": "📉 加州地方债 利空; 📈 美股科技股 波动",
+        "chain": "IPO税收不及预期→加州财政赤字扩大→地方债收益率上升（风险溢价增加）→压制科技股估值（市场信心减弱）",
+        "watch": "加州财政预算报告及IPO上市进度"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "分析指沃什领导的工作组是理解新美联储的关键",
+        "assets": "📈 美元指数 利好; 📉 美债 短期承压",
+        "chain": "沃什工作组偏向鹰派（收紧政策）→加息预期升温→美元走强→新兴市场资金外流（资本外逃）",
+        "watch": "沃什公开讲话及FOMC会议纪要"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "沃什首次会议释放五大要点，政策方向明确",
+        "assets": "📈 美元 利好; 📉 黄金 承压",
+        "chain": "沃什鹰派立场→实际利率上升（扣除通胀后的利息）→美元升值→黄金避险需求下降（替代资产吸引力减弱）",
+        "watch": "美联储点阵图及通胀数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Accenture",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "埃森哲推网络安全平台，强化关键基础设施防御",
+        "assets": "📈 网络安全板块 利好; 📈 埃森哲 利好",
+        "chain": "AI威胁升级→企业安全支出增加→网络安全股盈利预期上调（收入增长）→带动科技服务板块轮动（资金流入）",
+        "watch": "埃森哲季度财报及政府安全合同公告"
+      }
     }
   ]
 }
