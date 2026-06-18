@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 00:10",
+  "updateTime": "2026-06-19 00:16",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 62,
       "insight": {
         "what": "美股从美联储抛售中反弹，油价下跌芯片股领涨",
-        "assets": "📈 美股科技股 利好; 📉 原油期货 承压",
-        "chain": "油价下跌缓解通胀预期（物价上涨压力），削弱加息理由，利好风险资产（股票等）",
-        "watch": "下周CPI数据（消费者物价指数）及科技股财报"
+        "assets": "📈 美股科技股 利好；📉 原油期货 承压",
+        "chain": "油价下跌缓解通胀预期（物价上涨速度），削弱加息紧迫感，利好风险资产（股票等波动性资产）",
+        "watch": "油价是否持续下行及美联储官员表态"
       }
     },
     {
@@ -23,95 +23,83 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元因美联储鹰派信号（偏紧缩）延续涨势，加息押注升温",
-        "assets": "📈 美元指数 利好; 📉 新兴市场货币 承压; 📉 黄金 承压",
-        "chain": "美元走强压制大宗商品（以美元计价），新兴市场资本外流（资金流出），美债收益率（利息）上行",
-        "watch": "美联储官员讲话及联邦基金利率期货定价"
+        "what": "美元延续涨势，美联储鹰派信号强化加息押注",
+        "assets": "📈 美元指数 利好；📉 新兴市场货币 承压",
+        "chain": "美元走强压制大宗商品（如黄金、铜）价格，新兴市场资本外流（资金流出）风险上升",
+        "watch": "美国国债收益率曲线（长短期利率差）变化"
       }
     },
     {
       "rank": 3,
-      "title": "A股市值前10强半数是科技股，中际旭创市值首超贵州茅台",
-      "source": "每日经济新闻",
-      "detail": "每经记者|王海慜每经编辑|彭水萍 以往A股市场市值排名长期被传统金融、消费、能源巨头霸榜的格局正迎来深刻变化。2026年6月18日收盘，A股市值前10强中，科技股占据5席...",
-      "lang": "zh",
-      "score": 39,
-      "insight": {
-        "what": "A股市值前十半数为科技股，中际旭创市值首超贵州茅台",
-        "assets": "📈 A股科技股 利好; 📉 A股消费股 承压",
-        "chain": "资金轮动（板块切换）从防御性消费转向成长科技，反映市场风险偏好（冒险意愿）提升",
-        "watch": "科技板块资金流入持续性及茅台股价走势"
-      }
-    },
-    {
-      "rank": 4,
       "title": "资深策略师Yardeni：美联储若真想实现通胀目标就很可能加息",
       "source": "环球市场播报",
       "detail": "资深市场策略师Ed Yardeni表示，如果美联储真打算将通胀率降至2%的目标水平，那很有可能会上调利率。 周三美联储维持利率不变，新任主席凯文·沃什在随后的新闻发布会上展现...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "策略师Yardeni称美联储若真想实现通胀目标可能加息",
-        "assets": "📈 美元 利好; 📉 美股 承压; 📉 美债 承压",
-        "chain": "加息预期（借钱成本提高）压制高估值资产，触发风险资产回调（下跌），强化紧缩交易（押注利率上升）",
-        "watch": "美联储点阵图（利率预测）及PCE（个人消费支出）数据"
+        "what": "策略师Yardeni认为美联储可能加息以实现通胀目标",
+        "assets": "📉 美国国债 承压；📈 美元 利好",
+        "chain": "加息预期推高短期利率（借钱成本），压制股市估值（股价/盈利比例），债市抛售风险加大",
+        "watch": "CPI（消费者物价指数）数据及点阵图（利率预测）"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州指望IPO税收入，但多重因素使情况复杂化",
-        "assets": "📉 加州市政债 承压; 📉 美股IPO板块 中性偏空",
-        "chain": "IPO税收不及预期（收入减少）可能引发财政缺口，导致地方政府削减支出或增税，间接拖累区域经济",
-        "watch": "加州预算提案及IPO上市节奏"
+        "what": "加州IPO税收预期复杂化，多重因素干扰财政计划",
+        "assets": "📉 加州市政债券 承压；📈 科技股IPO 中性偏利好",
+        "chain": "IPO延迟或减少影响税收，削弱地方财政，可能推高市政债收益率（借钱成本），但科技股IPO回暖预期仍存",
+        "watch": "科技公司IPO进度及加州财政赤字报告"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "特朗普罢免美联储理事Lisa Cook致其法律安保费用超百万",
-        "assets": "📉 美元 中性偏空; 📉 美联储独立性 承压",
-        "chain": "政治干预美联储（央行决策机构）削弱央行信誉，长期可能推高通胀预期（物价上涨预期）",
-        "watch": "美联储官员辞职动向及国会相关法案"
+        "what": "特朗普试图解雇美联储理事Lisa Cook，致其承担超百万美元法律安全费用",
+        "assets": "📉 美元 短期承压；📈 美国国债 短期利好",
+        "chain": "政治干预削弱美联储独立性，市场对货币政策（利率决策）可预测性存疑，避险资金涌入国债",
+        "watch": "美联储独立性相关法案进展及Cook去留"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Analysis: Chairman Kevin Warsh’s task forces are the key to understanding the new Fed",
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "华什任美联储主席，其工作组成政策核心",
-        "assets": "美元看跌，美股看涨",
-        "chain": "新班子偏向宽松，市场提前定价降息预期，风险偏好上升",
-        "watch": "美联储下次会议声明措辞"
+        "what": "分析：新任美联储主席Warsh的工作组是理解新政策的关键",
+        "assets": "📈 美国国债 中性偏利好；📉 美元 中性",
+        "chain": "工作组聚焦监管改革（银行规则）和通胀框架（目标设定），可能推动政策透明化，降低市场不确定性（未知风险）",
+        "watch": "Warsh关于货币政策的公开讲话及工作组报告"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Here are the five big takeaways from Kevin Warsh's first meeting as Fed chairman",
       "source": "CNBC",
       "detail": "The Federal Reserve and Chairman Kevin Warsh on Wednesday followed the script on interest rates closely.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "华什首会释放五大信号，市场解读偏鸽",
-        "assets": "美债收益率下行，黄金看涨",
-        "chain": "鸽派信号压低实际利率，资金从美元流向贵金属和新兴市场",
-        "watch": "后续官员讲话及点阵图变化"
-      }
+      "score": 33
+    },
+    {
+      "rank": 8,
+      "title": "加州指望从IPO税收中获得巨额意外收入，但多重因素让实际税收收益充满变数",
+      "source": "环球市场播报",
+      "detail": "核心要点太空探索技术公司（SpaceX）、开放人工智能研究中心（OpenAI）以及安索帕（Anthropic）的上市，有望为加利福尼亚州带来巨额税收收入。",
+      "lang": "zh",
+      "score": 30
     },
     {
       "rank": 9,
@@ -119,27 +107,15 @@
       "source": "上海证券报",
       "detail": " 6月18日，合力泰（002217）披露收到福建证监局出具的《行政处罚事先告知书》（以下简称“告知书”），前期信息披露违法违规事项迎来监管处理结果。",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "002217信披违规处罚落地，前董事长终身禁入",
-        "assets": "002217股价承压，小盘股监管风险溢价上升",
-        "chain": "处罚强化监管威慑，ST板块资金避险，壳价值进一步压缩",
-        "watch": "公司后续退市风险及同类违规股反应"
-      }
+      "score": 30
     },
     {
       "rank": 10,
-      "title": "加州指望从IPO税收中获得巨额意外收入，但多重因素让实际税收收益充满变数",
+      "title": "特朗普试图解雇美联储官员莉萨・库克，后者法律与安保支出超100万美元",
       "source": "环球市场播报",
-      "detail": "核心要点太空探索技术公司（SpaceX）、开放人工智能研究中心（OpenAI）以及安索帕（Anthropic）的上市，有望为加利福尼亚州带来巨额税收收入。",
+      "detail": "核心要点美国总统唐纳德・特朗普去年曾试图解雇美联储理事莉萨・库克，最高法院预计即将对该案作出裁决。最新一份伦理申报文件显示...",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "加州IPO税收预期乐观但实际收益不确定",
-        "assets": "美科技股中性偏空，加州地方债承压",
-        "chain": "税收不及预期可能引发地方财政紧缩，拖累科技企业区域经济",
-        "watch": "加州主要IPO公司上市后股价及税收数据"
-      }
+      "score": 28
     }
   ]
 }
