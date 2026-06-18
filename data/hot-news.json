@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 22:10",
+  "updateTime": "2026-06-18 22:12",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普罢免美联储理事库克致其法律安保费超百万，上诉最高院保卫美联储独立性",
+        "assets": "📉 美元 承压 | 📉 美股 承压",
+        "chain": "政治干预美联储独立性→市场恐慌加息预期紊乱→美元及风险资产承压",
+        "watch": "最高法院是否受理及裁决结果"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "The IPOs of SpaceX, OpenAI and Anthropic could create a tax windfall for the state of California. But experts say the revenue impact may be blunted.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州依赖IPO税收，但科技IPO管道放缓令收入预测复杂化",
+        "assets": "📉 科技股 承压 | 📉 美元 承压",
+        "chain": "IPO减速→加州税收缺口→地方债风险上升→间接拖累美元信用",
+        "watch": "加州财政调整及科技IPO重启信号"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "市场资讯",
       "detail": " 曾经的医药上市公司赛隆药业正式走完了其在A股的旅程。2026年6月17日，*ST赛隆发布公告称，公司已收到深圳证券交易所关于股票终止上市的决定。",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "ST赛隆因财务造假强制退市，投资者仍可索赔",
+        "assets": "📉 ST板块 承压 | 📉 壳资源 承压",
+        "chain": "退市常态化→壳价值缩水→垃圾股流动性枯竭→资金转向蓝筹",
+        "watch": "退市机制执行力度及索赔进展"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "The new leader of the Fed left interest rates alone but made clear how he plans to rewire the central bank.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "沃什内部审查小组预示美联储重大政策转向",
+        "assets": "📈 美元 利好 | 📈 美债 利好",
+        "chain": "新鹰派主导审查→收紧预期升温→利率上行→利好美元及短债",
+        "watch": "审查小组具体政策建议及会议纪要"
+      }
     }
   ]
 }
