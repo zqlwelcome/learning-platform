@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-18 18:36",
+  "updateTime": "2026-06-18 18:37",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Gundlach said Warsh's stance reduces the risk of overly accommodative monetary policy that could reignite inflation and push longer-term borrowing costs higher.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "冈拉克警告沃什不会成为鸽派（宽松）美联储主席",
+        "assets": "📉 美债收益率 上行；📉 美股科技股 承压",
+        "chain": "沃什偏鹰（倾向收紧货币）→长端利率（10年期国债利率）上升→压制高估值成长股（科技股估值回调）",
+        "watch": "沃什国会听证会发言；10年期美债收益率是否突破4.5%"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "Investing.com",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "美伊签署和平协议，亚洲股市创新高",
+        "assets": "📈 日经225 利好\n📈 韩国KOSPI 利好\n📈 亚股大盘 利好",
+        "chain": "地缘风险溢价消退（战争概率降低），资金从避险资产（黄金、美债）回流股市，推高风险偏好。",
+        "watch": "协议执行细节及伊朗石油出口恢复进度"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "The boost continues Intel's recent rally as the chipmaker bounces back from years of headwinds.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "英特尔与苹果合作美国芯片设计，股价大涨9%",
+        "assets": "📈 英特尔股票 利好；📈 半导体行业ETF 情绪提振；📉 台积电ADR 竞争承压",
+        "chain": "美芯本土化加速（供应链回流），挤压台积电代工份额，利好美光（存储芯片）但利空AMD（若苹果转单英特尔）",
+        "watch": "苹果官方确认合作细节及英特尔晶圆厂产能利用率"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 自2019年7月22日开市至今，科创板已走过近七年历程。这七年，不仅是中国多层次资本市场改革深化的七年...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "高凯技术科创板IPO，毛利率与周转率背离，信披矛盾",
+        "assets": "📉 科创板IPO审核 利空；📉 国产替代概念股 承压",
+        "chain": "信披问题或致监管收紧（从严审查），影响科创板新股溢价（上市后股价上涨空间）",
+        "watch": "上交所问询函及财务数据修正公告"
+      }
     }
   ]
 }
