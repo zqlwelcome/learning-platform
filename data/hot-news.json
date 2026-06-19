@@ -1,60 +1,60 @@
 {
-  "updateTime": "2026-06-19 10:35",
+  "updateTime": "2026-06-19 10:41",
   "news": [
     {
       "rank": 1,
-      "title": "Stock Market News, June 18, 2026: Dow, S&P 500 and Nasdaq post weekly gains for second week in a row, stocks climb after U.S. and Iran sign initial peace deal - MarketWatch",
-      "source": "MarketWatch",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "美伊签署初步和平协议，美股三大指数连续两周上涨",
-        "assets": "📈 美股大盘 利好；📉 原油 承压",
-        "chain": "地缘风险溢价回落（战争风险降低），油价下跌利好航空/消费，但能源股承压",
-        "watch": "WTI原油期货价格是否跌破70美元"
-      }
-    },
-    {
-      "rank": 2,
       "title": "百万美元“外援”保住美联储理事饭碗？一场关乎央行独立的法庭决战",
       "source": "滚动播报",
       "detail": "来源：汇通网 汇通财经APP讯——美联储理事莉莎·库克在与美国总统特朗普的职务冲突中，获得外部非营利组织提供的巨额法律和安保支持。",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美联储理事或受百万美元外部资助，央行独立性遭司法挑战",
-        "assets": "📉 美元 承压；📉 美债 波动性上升",
-        "chain": "央行独立性受损（政策受政治干扰）将削弱美元信用，长端美债（10年期以上）收益率可能走高",
-        "watch": "美联储官员后续公开讲话立场是否软化"
+        "what": "美联储理事独立性受挑战，外部资金介入",
+        "assets": "📉 美元指数 承压",
+        "chain": "削弱央行独立性（决策不受政治干预）→市场对货币政策可信度下降→美债收益率波动",
+        "watch": "美联储官员后续表态及国会听证进展"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，散户关注入市门槛",
-        "assets": "📈 太空概念股（如维珍银河） 情绪利好",
-        "chain": "IPO热度提升（新股上市吸引资金），可能分流二级市场资金，关注估值泡沫风险",
-        "watch": "SpaceX官方IPO时间表及估值区间"
+        "what": "SpaceX IPO投资指南及市场关注度提升",
+        "assets": "📈 SpaceX相关概念股 利好",
+        "chain": "IPO预期升温→资金涌入太空经济板块→带动卫星通信、火箭制造等子行业",
+        "watch": "SpaceX官方IPO时间表及估值更新"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光，分歧加剧",
-        "assets": "📈 英伟达 利好；📉 美光 承压",
-        "chain": "AI芯片需求分化（算力vs存储），英伟达受益于AI基建（人工智能基础设施建设），美光受困于库存过剩",
-        "watch": "英伟达与美光下季度财报营收增速"
+        "what": "华尔街建议买入英伟达、卖出美光",
+        "assets": "📈 英伟达 利好；📉 美光 利空",
+        "chain": "机构评级分化→资金从存储芯片流向AI芯片→半导体行业内部轮动（资金在不同板块间切换）",
+        "watch": "英伟达财报指引及美光库存数据"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices — Live Updates - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "纳指大涨，油价回落至伊朗冲突前水平",
+        "assets": "📈 纳斯达克100 利好；📉 原油期货 利空",
+        "chain": "地缘风险溢价消退（因冲突预期降低）→油价下跌→通胀预期降温→科技股受益于利率压力缓解",
+        "watch": "中东局势后续发展及EIA（美国能源信息署）库存报告"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX市值跌破亚马逊，连续两日下跌",
-        "assets": "📉 SpaceX（未上市股权） 利空；📈 亚马逊 相对利好",
-        "chain": "科技巨头估值重估（市场偏好转向盈利确定性），可能拖累其他未盈利太空股",
-        "watch": "SpaceX星舰下一次试射进展"
+        "what": "SpaceX市值跌破亚马逊，股价连续两日下跌",
+        "assets": "📉 SpaceX 利空；📈 亚马逊 利好",
+        "chain": "估值回调→投资者重新评估太空业务盈利前景→资金转向云计算等确定性板块",
+        "watch": "SpaceX发射计划及订单数据变化"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行副行长称将继续加息，防范通胀超目标",
-        "assets": "📈 日元 利好；📉 日经225 承压",
-        "chain": "加息预期升温（借钱成本提高）推升日元，利空出口股；套利交易（借低息日元买高息资产）平仓风险加剧",
-        "watch": "日本7月CPI（消费者物价指数）数据是否高于3%"
+        "what": "日本央行副行长明确将继续加息",
+        "assets": "📈 日元 利好；📉 日本国债 承压",
+        "chain": "加息（提高借钱成本）→日元套利交易（借低息日元投高息资产）平仓→全球风险资产波动",
+        "watch": "日本CPI（消费者物价指数）及下次议息会议点阵图"
       }
     },
     {
