@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 21:40",
+  "updateTime": "2026-06-19 21:42",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场引导美联储，而非反之",
+        "assets": "美元空头，美债收益率上行",
+        "chain": "市场定价权增强→降息预期自我修正→波动率上升",
+        "watch": "联邦基金期货定价变化"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Roth Capital看好核电股受益AI数据中心能源需求",
+        "assets": "铀矿/核电股多头，科技股间接利好",
+        "chain": "AI算力扩张→电力缺口→核电重启预期→铀价上行",
+        "watch": "AI资本支出指引及核电监管审批"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "市场资讯",
       "detail": "6月19日，昨日周四我们认为，美联储周三维持利率不变，但释放了明确的鹰派信号，市场对美联储加息的预期大幅升温，直接打压黄金价格...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "美联储鹰派信号打压黄金价格",
+        "assets": "黄金空头，美元多头",
+        "chain": "鹰派言论→实际利率预期上升→无息资产承压",
+        "watch": "周五PCE数据及点阵图修正"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Barron's",
       "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "美光面临财报考验，历史显示后续走势偏弱",
+        "assets": "美光/半导体板块空头，芯片ETF承压",
+        "chain": "财报不及预期→库存修正→DRAM价格下跌→资金外流",
+        "watch": "美光营收指引及存储芯片现货价"
+      }
     }
   ]
 }
