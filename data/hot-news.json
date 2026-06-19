@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 16:45",
+  "updateTime": "2026-06-19 16:51",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 48,
       "insight": {
         "what": "日央行前委员暗示3月底前两次加息",
-        "assets": "📈 日元 利好；📉 日本国债 承压",
-        "chain": "套利交易（借日元买高息资产）平仓，全球风险资产承压",
-        "watch": "日本1月CPI（通胀数据）及央行会议纪要"
+        "assets": "📉 日元 升值预期  📉 日股 承压",
+        "chain": "日元套利交易（借日元买高息资产）平仓，冲击全球风险资产（股票、新兴市场）",
+        "watch": "日本央行1月会议纪要及官员讲话"
       }
     },
     {
@@ -23,78 +23,70 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Safeguards文章讨论SpaceX IPO投资策略",
-        "assets": "📈 SpaceX相关私募股权 中性偏利好",
-        "chain": "散户资金涌入IPO前交易（Pre-IPO），推高估值泡沫风险",
-        "watch": "SpaceX官方IPO时间表及SEC（美国证监会）备案"
+        "what": "报道称SpaceX IPO后投资者需谨慎",
+        "assets": "📈 太空概念股 利好预期  📉 未上市SpaceX 估值承压",
+        "chain": "IPO估值炒作（上市前高估值）后回调风险，影响私人市场（未上市股权）定价",
+        "watch": "SpaceX二次上市公告及估值变化"
       }
     },
     {
       "rank": 3,
-      "title": "Indian IT stocks slump up to 7% as Accenture cuts revenue outlook, fueling fresh concerns over sector growth",
-      "source": "CNBC",
-      "detail": "Shares of major Indian IT companies fall up to 7% after global sector leader Accenture cuts its revenue guidance.",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "Accenture下调营收指引，印度IT股暴跌7%",
-        "assets": "📉 印度IT股 利空；📉 全球IT外包板块 承压",
-        "chain": "企业削减IT支出（资本开支减少），拖累科技服务需求预期",
-        "watch": "印度IT巨头（Infosys、TCS）季度财报及订单指引"
-      }
-    },
-    {
-      "rank": 4,
       "title": "What the Fed rate pause could mean for mortgage interest rates now - CBS News",
       "source": "CBS News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储暂停降息，房贷利率可能维持高位",
-        "assets": "📉 美国房地产ETF 利空；📉 抵押贷款相关证券 承压",
-        "chain": "高利率抑制购房需求（借贷成本上升），经济放缓风险增加",
-        "watch": "美国30年期固定房贷利率及成屋销售数据"
+        "what": "美联储暂停降息可能影响房贷利率",
+        "assets": "📈 美国房贷利率 上行风险  📉 美国房地产 承压",
+        "chain": "利率高位（借钱成本高）抑制购房需求，传导至建筑商和建材板块",
+        "watch": "美国30年期房贷利率周度数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行管委暗示若通胀扩散将再加息",
-        "assets": "📈 欧元 利好；📉 欧洲债券 承压",
-        "chain": "加息预期（借钱成本上升）压制股市估值，欧股资金外流",
-        "watch": "欧元区1月服务业PMI（采购经理人指数）及核心CPI"
+        "what": "欧央行管委支持若通胀蔓延则下月加息",
+        "assets": "📈 欧元 升值  📉 欧洲债券 价格下跌",
+        "chain": "加息（借钱成本提高）压制欧洲股市，尤其高估值成长股（科技、消费）",
+        "watch": "欧元区1月CPI（消费者物价指数）及能源分项"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO后买家平均持仓接近盈亏线",
-        "assets": "📉 SpaceX相关私募股权 利空",
-        "chain": "散户恐慌抛售（止损盘涌出），Pre-IPO市场流动性恶化",
-        "watch": "SpaceX二级市场价格及新融资轮估值变动"
+        "what": "SpaceX IPO后两日下跌，平均买家接近亏损",
+        "assets": "📉 SpaceX 股价 承压  📉 太空ETF (如ARKX) 利空",
+        "chain": "IPO炒作（上市后短期追高）退潮，打击市场对新股信心，影响后续科技IPO",
+        "watch": "SpaceX成交量及机构持仓变化"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "White House talks with Anthropic shift to setting AI security rules - Politico",
       "source": "Politico",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "白宫与Anthropic讨论AI安全规则",
+        "assets": "📈 AI监管合规股 利好  📉 无监管AI公司 承压",
+        "chain": "监管风险（政府干预）增加AI开发成本，利好已合规大厂（如谷歌、微软），利空初创",
+        "watch": "美国AI行政令进展及国会听证"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Accenture CEO Julie Sweet says AI transformation will 'take some time' as stock price takes another hit - Business Insider",
       "source": "Business Insider",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -102,7 +94,7 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
@@ -110,12 +102,20 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Midjourney pivots from AI image generation to body scanning medical spa where patients bathe in 'golden light' - The Register",
       "source": "The Register",
       "detail": "黄金价格受避险情绪和美元走势影响，关注地缘局势变化。",
       "lang": "en",
       "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Japan core inflation holds steady in May, matching expectations despite energy price concerns - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 30
     }
   ]
 }
