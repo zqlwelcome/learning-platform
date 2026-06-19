@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 09:01",
+  "updateTime": "2026-06-19 09:02",
   "news": [
     {
       "rank": 1,
@@ -63,7 +63,13 @@
       "source": "环球市场播报",
       "detail": " 日本央行4月货币政策会议纪要显示，央行政策委员会委员达成共识，认为有必要根据经济、通胀及金融环境形势持续上调利率。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "日本央行委员暗示将继续加息",
+        "assets": "📈 日元 升值；📉 日股（东证指数）承压；📉 日本国债收益率上行",
+        "chain": "加息（借钱成本提高）抑制国内消费，日元走强利空出口股（如丰田），但吸引外资回流日元资产",
+        "watch": "日本CPI（消费者物价指数）及薪资增长数据"
+      }
     },
     {
       "rank": 6,
@@ -85,7 +91,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州IPO税收预期存变数",
+        "assets": "美元指数、标普500",
+        "chain": "加州依赖IPO税收，若上市放缓或税收不及预期，可能引发州财政压力，间接影响美元信用和市场整体风险偏好。",
+        "watch": "后续关注加州实际税收数据及大型科技公司IPO进展。"
+      }
     },
     {
       "rank": 8,
@@ -93,7 +105,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后买家接近亏损",
+        "assets": "纳斯达克100、SpaceX相关私募股权基金",
+        "chain": "SpaceX股价两日下跌，反映市场对高估值科技公司IPO后风险厌恶情绪，可能拖累纳指及类似高成长股。",
+        "watch": "关注SpaceX后续财报及市场对新股估值调整。"
+      }
     },
     {
       "rank": 9,
@@ -101,7 +119,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普解雇美联储理事引发成本",
+        "assets": "美元/日元、美债收益率",
+        "chain": "政治干预美联储独立性增加市场不确定性，可能削弱美元信用，推高美债收益率，同时避险情绪支撑日元。",
+        "watch": "后续关注美联储独立性争议进展及政策决策变化。"
+      }
     },
     {
       "rank": 10,
@@ -109,7 +133,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场引导美联储",
+        "assets": "标普500、黄金",
+        "chain": "若美联储转向市场导向政策，可能减少干预，利好风险资产如标普500，但削弱美元信用，推升黄金避险需求。",
+        "watch": "关注Warsh言论对美联储政策预期的影响及市场反应。"
+      }
     }
   ]
 }
