@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 21:21",
+  "updateTime": "2026-06-19 21:22",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "欧央行管委暗示若通胀扩散，下月或再加息",
+        "assets": "EUR/USD↑，德国国债↓",
+        "chain": "加息预期强化推升欧元，利空欧债，风险资产承压",
+        "watch": "欧元区CPI及能源价格走势"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场引导美联储，非反之",
+        "assets": "美元指数↓，美股↑",
+        "chain": "削弱鹰派预期，美债收益率下行，风险偏好回暖",
+        "watch": "美联储官员后续讲话立场"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX股价暴跌，尽管获得两大目标价",
+        "assets": "SpaceX↓（未上市），同业航空/航天股↓",
+        "chain": "目标价利好被估值泡沫担忧抵消，资金流出私营科技",
+        "watch": "SpaceX财报或发射进度更新"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Roth Capital看好核能股受益AI数据中心需求",
+        "assets": "铀矿/核能股↑，科技股↑",
+        "chain": "AI算力扩张推升能源需求，核能作为清洁基荷资产受追捧",
+        "watch": "AI公司资本开支指引及核能政策动态"
+      }
     }
   ]
 }
