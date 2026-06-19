@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 23:05",
+  "updateTime": "2026-06-19 23:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "美联储拟要求稳定币发行商实施客户识别计划",
-        "assets": "📉 加密货币 利空",
-        "chain": "监管趋严（合规成本上升）→ 稳定币流动性收缩 → 比特币等波动加大",
-        "watch": "美联储最终规则文本及执行时间表"
+        "what": "前日本央行委员暗示3月底前可能两次加息",
+        "assets": "📈 日元 看涨；📉 日本国债 收益率上行",
+        "chain": "加息预期（借钱成本提高）→ 套利交易（借低息日元买高息资产）平仓 → 全球风险资产承压",
+        "watch": "日本央行1月会议及通胀数据"
       }
     },
     {
@@ -23,24 +23,24 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日央行委员预计3月底前两次加息",
-        "assets": "📈 日元 升值预期；📉 日本国债 承压",
-        "chain": "加息（借钱成本提高）→ 套利交易（借低息日元买高息资产）平仓 → 全球风险资产波动",
-        "watch": "日本1月CPI数据及央行会议纪要"
+        "what": "美联储暂停降息可能影响抵押贷款利率",
+        "assets": "📉 美国房地产 承压；📈 抵押贷款利率 短期高位",
+        "chain": "利率不降（融资成本不变）→ 购房需求抑制 → 房价增速放缓（供需再平衡）",
+        "watch": "美联储1月会议声明及房贷申请数据"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX stock sinks 7%. The IPO honeymoon is over - qz.com",
+      "title": "SpaceX stock sinks another 7%. The IPO honeymoon is over - qz.com",
       "source": "qz.com",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX股价跌7%，IPO热度消退",
-        "assets": "📉 SpaceX相关ETF/影子股 利空",
-        "chain": "二级市场（已上市股票）估值回调 → 一级市场（未上市股权）估值重估 → 太空概念板块承压",
-        "watch": "SpaceX下一轮融资估值及发射计划"
+        "what": "SpaceX股价再跌7%，IPO后涨势消退",
+        "assets": "📉 SpaceX 股价 利空；📉 太空概念股 情绪拖累",
+        "chain": "估值回归（炒作退潮）→ 投资者转向基本面 → 二级市场定价修正（市盈率压缩）",
+        "watch": "SpaceX未来财报及星舰发射进展"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Momenta拟赴港IPO筹资10亿美元",
-        "assets": "📈 港股自动驾驶板块 利好",
-        "chain": "IPO（首次公开募股）提振板块关注度 → 同业估值对标（如小马智行）→ 资金流入自动驾驶赛道",
-        "watch": "港交所聆讯进度及招股定价区间"
+        "what": "Momenta拟在港IPO筹资10亿美元",
+        "assets": "📈 港股IPO市场 利好；📈 自动驾驶板块 情绪提振",
+        "chain": "融资需求（现金注入）→ 研发加速（技术迭代）→ 行业估值锚定（同行对标）",
+        "watch": "招股书定价及基石投资者名单"
       }
     },
     {
@@ -63,16 +63,24 @@
       "source": "环球市场播报",
       "detail": "知情人士称，自动驾驶公司Momenta正准备在中国香港上市，其估值已达到约90亿美元。 上述知情人士称，获General Motors支持的Momenta料将通过此次首次公开募股筹集约10亿美...",
       "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "欧洲央行管委支持若通胀扩散则再次加息",
-        "assets": "📈 欧元 短期偏强；📉 欧债 利空",
-        "chain": "加息预期（借钱成本上升）→ 欧元区经济放缓担忧 → 股市（如STOXX 600）承压",
-        "watch": "欧元区1月核心CPI及能源价格走势"
-      }
+      "score": 40
     },
     {
       "rank": 6,
+      "title": "What the Fed rate pause could mean for mortgage interest rates now - CBS News",
+      "source": "CBS News",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 38,
+      "insight": {
+        "what": "美联储拟要求稳定币发行人执行客户身份识别计划",
+        "assets": "📉 加密货币 利空；📈 美元稳定币 合规成本上升",
+        "chain": "监管收紧（KYC/AML要求）→ 稳定币发行受限 → 加密流动性承压（交易量减少）",
+        "watch": "美联储最终规则及国会立法进展"
+      }
+    },
+    {
+      "rank": 7,
       "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
@@ -80,7 +88,7 @@
       "score": 36
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -88,7 +96,7 @@
       "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "This nuclear stock will benefit from AI datacenter buildout and soaring energy demand, Roth Capital says",
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
@@ -96,20 +104,12 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "黄力晨:美联储释放鹰派信号 继续打压黄金价格",
       "source": "市场资讯",
       "detail": "6月19日，昨日周四我们认为，美联储周三维持利率不变，但释放了明确的鹰派信号，市场对美联储加息的预期大幅升温，直接打压黄金价格...",
       "lang": "zh",
       "score": 30
-    },
-    {
-      "rank": 10,
-      "title": "Micron Stock Faces Tough Earnings Test. What History Says Happens Next. - Barron's",
-      "source": "Barron's",
-      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
-      "lang": "en",
-      "score": 29
     }
   ]
 }
