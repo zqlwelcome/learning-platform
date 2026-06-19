@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-19 10:05",
+  "updateTime": "2026-06-19 10:10",
   "news": [
     {
       "rank": 1,
-      "title": "Stocks market today: Dow, S&P 500, Nasdaq rally amid Iran deal optimism as AI chip trade reignites - Yahoo Finance",
-      "source": "Yahoo Finance",
+      "title": "Stock Market News, June 18, 2026: Dow, S&P 500 and Nasdaq post weekly gains for second week in a row, stocks climb after U.S. and Iran sign initial peace deal - MarketWatch",
+      "source": "MarketWatch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57,
+      "score": 49,
       "insight": {
-        "what": "美股三大指数因伊朗协议乐观和AI芯片交易热度回升而上涨",
-        "assets": "📈 美股指数（标普500、纳指）利好；📈 AI芯片股（如Nvidia）利好",
-        "chain": "风险偏好（资金愿意冒险）上升，资金从避险资产（如美债）流向股票，科技板块领涨",
-        "watch": "伊朗协议谈判进展及AI芯片龙头财报"
+        "what": "美伊签署初步和平协议，美股三大指数连续两周上涨",
+        "assets": "📈 美股大盘 利好；📉 原油 承压",
+        "chain": "地缘风险溢价消退，油价下跌利好运输和消费股，但能源板块承压",
+        "watch": "协议后续执行情况、WTI原油价格是否跌破70美元"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "市场关注SpaceX IPO投资规则及未来机会",
-        "assets": "📈 太空探索概念股（如SpaceX相关ETF）利好",
-        "chain": "IPO情绪（新股上市热度）升温，可能带动风投和成长股（高增长但风险大的股票）估值",
-        "watch": "SpaceX上市时间表及监管批准"
+        "what": "投资者关注如何参与SpaceX IPO，但公司市值已跌至亚马逊以下",
+        "assets": "📈 太空概念股 关注；📉 SpaceX估值 承压",
+        "chain": "IPO热度或推高相关卫星和航天ETF（交易所交易基金），但估值下滑暗示二级市场谨慎",
+        "watch": "SpaceX IPO定价及认购倍数、亚马逊股价走势"
       }
     },
     {
@@ -37,109 +37,73 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入Nvidia、卖出Micron，分歧明显",
-        "assets": "📈 Nvidia（AI芯片龙头）利好；📉 Micron（存储芯片公司）承压",
-        "chain": "AI芯片需求（如训练大模型需要的高端芯片）强劲，但存储芯片面临库存过剩（供应太多卖不掉）",
-        "watch": "Nvidia和Micron下一季度营收指引"
+        "what": "华尔街建议买入英伟达、卖出美光，芯片股分化",
+        "assets": "📈 英伟达 利好；📉 美光 利空",
+        "chain": "AI芯片需求支撑英伟达，但存储芯片周期见顶打压美光，资金可能从美光流向英伟达",
+        "watch": "英伟达财报指引、美光库存数据"
       }
     },
     {
       "rank": 4,
-      "title": "日本央行副行长称将继续加息，以防范潜在通胀率超过目标",
-      "source": "环球市场播报",
-      "detail": "日本央行副行长冰见野良三周五表示，日本央行将继续加息，以防范潜在通胀率超过2%的目标。 冰见野良三指出，由于企业将中东冲突带来的成本上涨转嫁给消费者...",
-      "lang": "zh",
-      "score": 36,
+      "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
+      "source": "CNBC",
+      "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
+      "lang": "en",
+      "score": 39,
       "insight": {
-        "what": "日本央行副行长称将继续加息以防范通胀超目标",
-        "assets": "📈 日元 利好；📉 日本国债 承压；📉 日股 承压",
-        "chain": "加息（借钱成本提高）推高日元，削弱出口企业（如丰田）利润，同时债市收益率上升（债券价格下跌）",
-        "watch": "日本CPI（消费者物价指数）数据及下次议息会议"
+        "what": "日本央行副行长及委员均表态将继续加息以应对通胀",
+        "assets": "📈 日元 利好；📉 日本国债 承压；📉 日股 利空",
+        "chain": "加息（提高借钱成本）推高日元，压制出口股，同时债券价格下跌（收益率上升）",
+        "watch": "日本7月CPI（消费者物价指数）数据、下次利率决议"
       }
     },
     {
       "rank": 5,
+      "title": "日本央行副行长称将继续加息，以防范潜在通胀率超过目标",
+      "source": "环球市场播报",
+      "detail": "日本央行副行长冰见野良三周五表示，日本央行将继续加息，以防范潜在通胀率超过2%的目标。 冰见野良三指出，由于企业将中东冲突带来的成本上涨转嫁给消费者...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 6,
       "title": "日本央行审议委员：将根据经济和通胀情况继续加息",
       "source": "环球市场播报",
       "detail": "日本央行4月份政策会议纪要显示，央行审议委员认同，根据当前经济、通胀和金融状况继续加息是合适的。关于调整货币政策的时机和步伐，审议委员一致认为...",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "日本央行审议委员强调将根据经济和通胀继续加息",
-        "assets": "📈 日元 利好；📉 日本国债 承压",
-        "chain": "加息预期（市场猜测下次加息概率）强化，套利交易（借低息日元买高息资产）可能平仓",
-        "watch": "日本GDP（国内生产总值）增长及工资数据"
-      }
+      "score": 36
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "日本央行委员：将依据经济与物价形势持续加息",
       "source": "环球市场播报",
       "detail": " 日本央行4月货币政策会议纪要显示，央行政策委员会委员达成共识，认为有必要根据经济、通胀及金融环境形势持续上调利率。",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "日本央行委员确认将依据经济物价形势持续加息",
-        "assets": "📈 日元 利好；📉 日股 承压",
-        "chain": "政策紧缩（央行收紧钱袋子）信号明确，日债收益率曲线（短期和长期利率差）可能陡峭化",
-        "watch": "日本通胀预期及出口数据"
-      }
+      "score": 36
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX股价在IPO后狂热消退中下跌",
-        "assets": "SpaceX股票、科技新股",
-        "chain": "IPO短期炒作资金离场 → 抛压增加 → 股价回调 → 散户浮亏扩大",
-        "watch": "是否有机构逢低建仓，以及后续锁定期解禁节奏"
-      }
+      "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州预期从IPO获得税收收入，但多重因素使前景复杂化",
-        "assets": "加州市政债券、地方财政相关资产",
-        "chain": "IPO税收预期下滑 → 加州财政收入可能不及预期 → 地方债信用利差或走阔",
-        "watch": "加州实际税收数据及发债成本变化"
-      }
+      "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO后两日暴跌，平均买家已接近亏损",
-        "assets": "SpaceX股票、散户交易情绪指标",
-        "chain": "追高买入 → 股价连续下跌 → 多数投资者浮亏 → 可能触发止损卖压",
-        "watch": "是否形成恐慌性抛售，以及做空比率变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "事关未来5年就业，国务院重磅印发！",
-      "source": "21世纪经济报道",
-      "detail": "记者丨王峰 编辑丨张星 日前，国务院印发《实施就业优先战略“十五五”规划》（以下简称《规划》）。劳动密集型行业、服务业、新兴领域里，轻工、纺织、外贸、养老、托育...",
-      "lang": "zh",
-      "score": 33,
-      "insight": {
-        "what": "国务院印发未来五年就业规划文件",
-        "assets": "A股教育、人力资源、消费相关板块",
-        "chain": "政策稳就业预期 → 提振居民收入信心 → 利好可选消费及服务业",
-        "watch": "具体就业目标及补贴措施细节，以及后续配套财政支出"
-      }
+      "score": 35
     }
   ]
 }
