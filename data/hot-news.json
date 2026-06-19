@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-19 08:30",
+  "updateTime": "2026-06-19 08:36",
   "news": [
     {
       "rank": 1,
-      "title": "Stock Market News, June 18, 2026: Dow, S&P 500 and Nasdaq post weekly gains for second week in a row, stocks climb after U.S. and Iran sign initial peace deal - MarketWatch",
-      "source": "MarketWatch",
+      "title": "Stocks market today: Dow, S&P 500, Nasdaq rally amid Iran deal optimism as AI chip trade reignites - Yahoo Finance",
+      "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 49,
+      "score": 57,
       "insight": {
-        "what": "美伊达成初步和平协议，美股连续两周上涨",
-        "assets": "📈 美股大盘 利好；📈 原油 承压",
-        "chain": "地缘风险溢价消退，油价下跌利好航空运输成本（航空股），但能源股遭抛售",
-        "watch": "WTI原油期货价格是否跌破70美元"
+        "what": "美股三大指数因伊朗协议乐观情绪和AI芯片交易回暖上涨",
+        "assets": "📈 美股科技股 利好；📈 半导体ETF 利好",
+        "chain": "避险情绪降温（风险偏好提升）可能压制黄金和原油，资金回流成长股",
+        "watch": "伊朗谈判进展及AI芯片龙头财报指引"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后投机潮降温，股价两日暴跌",
-        "assets": "📉 SpaceX 股价 利空；📉 太空概念股 承压",
-        "chain": "散户追高被套引发恐慌抛售，可能拖累未上市科技公司估值（一级市场估值泡沫）",
-        "watch": "SpaceX成交量是否放大企稳"
+        "what": "SpaceX IPO投资指南发布，引发市场关注",
+        "assets": "📈 SpaceX相关影子股（如太空概念ETF） 利好",
+        "chain": "高增长未上市企业估值可能被重估（二级市场对标效应），带动私募市场流动性",
+        "watch": "SpaceX正式IPO时间表及监管审批"
       }
     },
     {
@@ -37,36 +37,56 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "分析师建议买入英伟达，卖出美光",
-        "assets": "📈 英伟达 利好；📉 美光 利空",
-        "chain": "AI芯片需求集中度提升（英伟达占优），存储芯片周期见顶（美光面临去库存压力）",
-        "watch": "英伟达H100出货量及美光财报库存数据"
+        "what": "华尔街建议买入英伟达、卖出美光科技",
+        "assets": "📈 英伟达（NVDA） 利好；📉 美光科技（MU） 利空",
+        "chain": "英伟达受AI需求拉动（数据中心芯片），美光库存过剩（存储芯片周期下行），板块分化加剧",
+        "watch": "英伟达和台积电的AI芯片出货量数据"
       }
     },
     {
       "rank": 4,
+      "title": "日本央行委员：将依据经济与物价形势持续加息",
+      "source": "环球市场播报",
+      "detail": " 日本央行4月货币政策会议纪要显示，央行政策委员会委员达成共识，认为有必要根据经济、通胀及金融环境形势持续上调利率。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "日本央行委员暗示将根据经济和通胀持续加息",
+        "assets": "📈 日元 利好；📉 日本国债 承压",
+        "chain": "日元套利交易（借低息日元买高息资产）可能平仓，冲击新兴市场及美股",
+        "watch": "日本CPI（消费者物价指数）及薪资谈判结果"
+      }
+    },
+    {
+      "rank": 5,
       "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州依赖IPO税收，但SpaceX暴跌后不确定性增加",
-        "assets": "📉 加州市政债券 承压；📉 科技IPO板块 利空",
-        "chain": "IPO税收预期落空会恶化加州财政赤字，可能引发地方债抛售（信用利差走阔）",
-        "watch": "加州10年期市政债收益率是否跳升"
+        "what": "SpaceX股价下跌，IPO后炒作热情降温",
+        "assets": "📉 SpaceX相关影子股 利空；📈 做空太空股头寸 利好",
+        "chain": "IPO后获利了结（卖盘压力）可能压制太空板块信心，但长期投资者或逢低买入",
+        "watch": "SpaceX后续发射合同及估值变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "California’s counting on an IPO tax windfall. Several factors are complicating the equation - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州依赖IPO税收收入，但多种因素使预算复杂化",
+        "assets": "📉 加州市政债券 利空；📈 其他州债券 中性偏利好",
+        "chain": "IPO延迟（如SpaceX）导致税收缺口（财政赤字风险），可能推高地方债收益率（借钱成本上升）",
+        "watch": "加州财政报告及大型科技公司IPO进度"
+      }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
@@ -74,7 +94,7 @@
       "score": 35
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
@@ -82,17 +102,9 @@
       "score": 35
     },
     {
-      "rank": 8,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33
-    },
-    {
       "rank": 9,
-      "title": "Mortgage Rates Spike in Response to Fed - Mortgage News Daily",
-      "source": "Mortgage News Daily",
+      "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
+      "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33
