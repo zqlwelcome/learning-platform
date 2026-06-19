@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 10:31",
+  "updateTime": "2026-06-19 10:35",
   "news": [
     {
       "rank": 1,
@@ -9,84 +9,92 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "美伊签署初步和平协议，美股连续第二周上涨",
-        "assets": "📈 美股大盘（标普500） 利好\n📉 原油 承压",
-        "chain": "地缘风险溢价消退（战争风险降低），油价下跌利好航空/消费，避险资产（黄金、美元）遭抛售",
-        "watch": "WTI原油是否跌破70美元/桶"
+        "what": "美伊签署初步和平协议，美股三大指数连续两周上涨",
+        "assets": "📈 美股大盘 利好；📉 原油 承压",
+        "chain": "地缘风险溢价回落（战争风险降低），油价下跌利好航空/消费，但能源股承压",
+        "watch": "WTI原油期货价格是否跌破70美元"
       }
     },
     {
       "rank": 2,
+      "title": "百万美元“外援”保住美联储理事饭碗？一场关乎央行独立的法庭决战",
+      "source": "滚动播报",
+      "detail": "来源：汇通网 汇通财经APP讯——美联储理事莉莎·库克在与美国总统特朗普的职务冲突中，获得外部非营利组织提供的巨额法律和安保支持。",
+      "lang": "zh",
+      "score": 46,
+      "insight": {
+        "what": "美联储理事或受百万美元外部资助，央行独立性遭司法挑战",
+        "assets": "📉 美元 承压；📉 美债 波动性上升",
+        "chain": "央行独立性受损（政策受政治干扰）将削弱美元信用，长端美债（10年期以上）收益率可能走高",
+        "watch": "美联储官员后续公开讲话立场是否软化"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，关注其上市机会",
-        "assets": "📈 SpaceX（未上市股权） 利好\n📉 传统航天股（如洛克希德） 承压",
-        "chain": "IPO热度提升可能带动太空板块估值（市盈率）重估，并分流资金从现有个股至新股",
-        "watch": "SpaceX估值是否突破2500亿美元"
+        "what": "SpaceX IPO投资指南发布，散户关注入市门槛",
+        "assets": "📈 太空概念股（如维珍银河） 情绪利好",
+        "chain": "IPO热度提升（新股上市吸引资金），可能分流二级市场资金，关注估值泡沫风险",
+        "watch": "SpaceX官方IPO时间表及估值区间"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好\n📉 美光 利空",
-        "chain": "AI芯片需求分化（算力vs存储），英伟达受益于训练/推理订单，美光面临库存积压（供过于求）",
-        "watch": "英伟达Q2财报指引（营收增速）"
+        "what": "华尔街建议买入英伟达、卖出美光，分歧加剧",
+        "assets": "📈 英伟达 利好；📉 美光 承压",
+        "chain": "AI芯片需求分化（算力vs存储），英伟达受益于AI基建（人工智能基础设施建设），美光受困于库存过剩",
+        "watch": "英伟达与美光下季度财报营收增速"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
       "source": "CNBC",
       "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX市值连续两日下跌，被亚马逊反超",
-        "assets": "📉 SpaceX 利空\n📈 亚马逊 利好",
-        "chain": "市场对SpaceX盈利前景（利润率）担忧加剧，资金轮动至云计算/电商巨头（避险偏好）",
-        "watch": "SpaceX星链用户数是否加速增长"
+        "what": "SpaceX市值跌破亚马逊，连续两日下跌",
+        "assets": "📉 SpaceX（未上市股权） 利空；📈 亚马逊 相对利好",
+        "chain": "科技巨头估值重估（市场偏好转向盈利确定性），可能拖累其他未盈利太空股",
+        "watch": "SpaceX星舰下一次试射进展"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "日本央行副行长称将继续加息，以防范潜在通胀率超过目标",
       "source": "环球市场播报",
       "detail": "日本央行副行长冰见野良三周五表示，日本央行将继续加息，以防范潜在通胀率超过2%的目标。 冰见野良三指出，由于企业将中东冲突带来的成本上涨转嫁给消费者...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行副行长称将继续加息以防通胀超标",
-        "assets": "📈 日元 利好\n📉 日本国债 承压",
-        "chain": "加息预期（借钱成本上升）推高日元汇率，利空出口股（丰田等），同时债券价格下跌（收益率上升）",
-        "watch": "日本7月CPI（消费者物价指数）是否超过3%"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "日本央行审议委员：将根据经济和通胀情况继续加息",
-      "source": "环球市场播报",
-      "detail": "日本央行4月份政策会议纪要显示，央行审议委员认同，根据当前经济、通胀和金融状况继续加息是合适的。关于调整货币政策的时机和步伐，审议委员一致认为...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "日本央行委员称将根据经济通胀情况继续加息",
-        "assets": "📈 日元 利好\n📉 日经225指数 承压",
-        "chain": "加息路径明确（政策紧缩）压制股市估值（市盈率），但银行股受益于净息差（贷款利润）扩大",
-        "watch": "下次加息幅度是否达25基点"
+        "what": "日本央行副行长称将继续加息，防范通胀超目标",
+        "assets": "📈 日元 利好；📉 日经225 承压",
+        "chain": "加息预期升温（借钱成本提高）推升日元，利空出口股；套利交易（借低息日元买高息资产）平仓风险加剧",
+        "watch": "日本7月CPI（消费者物价指数）数据是否高于3%"
       }
     },
     {
       "rank": 7,
+      "title": "日本央行审议委员：将根据经济和通胀情况继续加息",
+      "source": "环球市场播报",
+      "detail": "日本央行4月份政策会议纪要显示，央行审议委员认同，根据当前经济、通胀和金融状况继续加息是合适的。关于调整货币政策的时机和步伐，审议委员一致认为...",
+      "lang": "zh",
+      "score": 36
+    },
+    {
+      "rank": 8,
       "title": "日本央行委员：将依据经济与物价形势持续加息",
       "source": "环球市场播报",
       "detail": " 日本央行4月货币政策会议纪要显示，央行政策委员会委员达成共识，认为有必要根据经济、通胀及金融环境形势持续上调利率。",
@@ -94,7 +102,7 @@
       "score": 36
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
@@ -102,20 +110,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "事关未来5年就业，国务院重磅印发！",
-      "source": "21世纪经济报道",
-      "detail": "记者丨王峰 编辑丨张星 日前，国务院印发《实施就业优先战略“十五五”规划》（以下简称《规划》）。劳动密集型行业、服务业、新兴领域里，轻工、纺织、外贸、养老、托育...",
-      "lang": "zh",
-      "score": 33
     }
   ]
 }
