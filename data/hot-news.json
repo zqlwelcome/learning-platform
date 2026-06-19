@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 08:40",
+  "updateTime": "2026-06-19 08:42",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价两日下跌，IPO后买家接近亏损",
+        "assets": "SpaceX股票📉",
+        "chain": "科技股情绪受挫，可能波及太空和私募市场估值",
+        "watch": "SpaceX是否推迟上市或调整估值"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图解雇美联储理事Lisa Cook，致其法律安全成本超百万",
+        "assets": "美元📉，美债📈",
+        "chain": "政治干预美联储独立性，削弱政策可信度，推升风险溢价",
+        "watch": "美联储后续独立性声明或国会反应"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张由市场引导美联储，而非相反",
+        "assets": "美元📉，美股📈",
+        "chain": "若政策转向市场导向，利率波动性上升，短期利好风险资产",
+        "watch": "美联储官员后续讲话对政策框架的表态"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "抵押贷款利率因美联储政策飙升",
+        "assets": "美债📉，房地产板块📉",
+        "chain": "高利率抑制购房需求，拖累建筑和消费信贷，经济放缓风险",
+        "watch": "未来几周抵押贷款申请数据及房价指数"
+      }
     }
   ]
 }
