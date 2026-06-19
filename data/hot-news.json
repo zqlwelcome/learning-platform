@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 19:26",
+  "updateTime": "2026-06-19 19:28",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价两日暴跌，IPO买家接近亏损",
+        "assets": "SpaceX股票(利空)",
+        "chain": "估值泡沫破裂→市场对未盈利科技股信心下降→波及私人科技公司估值",
+        "watch": "SpaceX后续交易量及分析师评级调整"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "印度最大电信商Jio Platforms申请IPO",
+        "assets": "印度股市(利好)、电信板块(利好)、Jio母公司Reliance股票(利好)",
+        "chain": "大规模IPO吸引资金→推高印度市场流动性→可能提振新兴市场科技板块",
+        "watch": "IPO定价区间及超额认购倍数"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "前美联储官员Warsh主张市场引导美联储政策",
+        "assets": "美元(利空)、美债收益率(利空)、美股(利好)",
+        "chain": "市场主导预期→削弱美联储独立性→通胀预期波动→风险资产短期反弹",
+        "watch": "美联储官员后续讲话及市场利率预期变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX股价两日暴跌，IPO买家接近亏损",
+        "assets": "SpaceX股票(利空)",
+        "chain": "估值泡沫破裂→市场对未盈利科技股信心下降→波及私人科技公司估值",
+        "watch": "SpaceX后续交易量及分析师评级调整"
+      }
     }
   ]
 }
