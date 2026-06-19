@@ -1,145 +1,121 @@
 {
-  "updateTime": "2026-06-19 15:41",
+  "updateTime": "2026-06-19 15:46",
   "news": [
     {
       "rank": 1,
-      "title": "Elon Musk’s SpaceX plots $20bn bond deal after record IPO - Financial Times",
-      "source": "Financial Times",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "SpaceX计划发行200亿美元债券，此前IPO创纪录",
-        "assets": "📈 SpaceX债券 利好，📈 SpaceX股权 利好",
-        "chain": "债券发行增加杠杆（借钱放大投资），可能推高SpaceX估值，利好相关太空ETF",
-        "watch": "债券发行认购倍数（需求热度）和利率"
-      }
-    },
-    {
-      "rank": 2,
       "title": "前日本央行政策委员：日本央行或于3月底前两次加息",
       "source": "环球市场播报",
       "detail": " 日本央行前审议委员樱井诚周五表示，在政策重心发生标志性转变、聚焦日益加剧的通胀风险后，日本央行或在本财年末前完成两次加息。",
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日央行委员预计3月底前两次加息",
-        "assets": "📈 日元 升值，📉 日本国债 承压",
-        "chain": "加息（提高借钱成本）收紧流动性，利空日本股市，套利交易（借日元买高息资产）可能平仓",
-        "watch": "日本CPI（通胀）和央行会议纪要"
+        "what": "前日央行委员暗示3月底前可能两次加息",
+        "assets": "📈 日元 利好；📉 日股 承压",
+        "chain": "加息（借钱成本提高）推高日元，利空出口股（海外收入缩水），触发套利交易（借日元买高息资产）平仓",
+        "watch": "日本央行1月会议声明及通胀数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "投资者指南讨论如何参与SpaceX IPO及后续",
-        "assets": "📈 SpaceX相关基金 利好，📈 太空股 利好",
-        "chain": "散户无法直接买SpaceX，资金转向太空ETF或私募股权（非公开交易），推高板块估值",
-        "watch": "SpaceX IPO定价和上市日期"
+        "what": "散户关注SpaceX IPO投资指南及长期机会",
+        "assets": "📈 SpaceX 未上市股权 情绪利好",
+        "chain": "媒体炒作抬高散户预期，可能加剧IPO后波动（买入需求前置），但未上市股权流动性差（难快速买卖）",
+        "watch": "SpaceX IPO估值及认购倍数"
       }
     },
     {
-      "rank": 4,
-      "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "华尔街建议买入英伟达股票，卖出美光股票",
-        "assets": "📈 英伟达 利好，📉 美光 承压",
-        "chain": "英伟达受益于AI芯片需求（算力核心），美光受存储芯片周期拖累（供过于求），分化加剧",
-        "watch": "英伟达财报指引和美光库存数据"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "title": "Indian IT stocks slump up to 7% as Accenture cuts revenue outlook, fueling fresh concerns over sector growth",
       "source": "CNBC",
       "detail": "Shares of major Indian IT companies fall up to 7% after global sector leader Accenture cuts its revenue guidance.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "印度IT股暴跌7%，因埃森哲下调收入预期",
-        "assets": "📉 印度IT股 承压，📉 全球IT服务股 承压",
-        "chain": "埃森哲预示全球IT支出放缓（需求疲软），印度外包公司依赖欧美客户，利润预期下调",
-        "watch": "塔塔咨询（TCS）财报和欧美企业IT预算"
+        "what": "Accenture下调营收指引，印度IT股暴跌7%",
+        "assets": "📉 印度IT股 利空；📉 美股科技服务股 承压",
+        "chain": "Accenture是行业风向标（反映企业IT支出），下调指引暗示需求疲软，拖累整个IT外包板块（如Infosys、TCS）",
+        "watch": "Accenture下一季财报及企业IT支出数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
       "source": "CNBC",
       "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX股价连跌两日，市值低于亚马逊",
-        "assets": "📉 SpaceX 承压，📉 太空股 承压",
-        "chain": "估值泡沫担忧（高增长预期破灭），资金转向亚马逊等稳定科技股，板块轮动（资金切换）",
-        "watch": "SpaceX估值变动和太空行业融资动态"
+        "what": "SpaceX股价连续两日下跌，市值被亚马逊超越",
+        "assets": "📉 SpaceX 利空；📉 太空概念股 承压",
+        "chain": "市值被亚马逊超越引发情绪抛售（比价效应），可能触发散户止损（自动卖出），加剧短期跌势",
+        "watch": "SpaceX后续融资估值及Kuiper项目进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行暗示若通胀扩散可能再加息",
-        "assets": "EUR/USD看多，欧洲债券看空",
-        "chain": "加息预期推升欧元，压制欧债价格，利差扩大影响美元",
-        "watch": "欧元区核心CPI及能源价格走势"
+        "what": "欧洲央行管委暗示若通胀扩散将再次加息",
+        "assets": "📈 欧元 利好；📉 欧债 承压",
+        "chain": "加息预期推高欧元，压制欧洲出口竞争力（产品变贵），同时提高企业融资成本（借钱更贵），利空股市",
+        "watch": "欧元区能源及核心通胀数据"
       }
     },
     {
-      "rank": 8,
-      "title": "全球央行竞相加息，英央行为何按兵不动？3.75%背后的两难抉择",
-      "source": "滚动播报",
-      "detail": "来源：汇通网 汇通财经APP讯——周五（6月19日）亚洲时段，英镑兑美元低位徘徊，当前汇价运行于1.3195附近。此前已两个交易日下跌。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "英央行维持利率3.75%不变，面临两难",
-        "assets": "GBP/USD看空，英国国债看多",
-        "chain": "按兵不动导致英镑承压，英债收益率下行，市场押注未来宽松",
-        "watch": "英国通胀及薪资数据，下次会议声明"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX上市后股价连跌，平均买家接近亏损",
-        "assets": "SpaceX股票看空，科技IPO情绪偏弱",
-        "chain": "股价回调打击散户信心，可能拖累未上市科技公司估值，资金转向避险",
-        "watch": "SpaceX订单及发射计划，市场流动性变化"
+        "what": "SpaceX IPO买家平均持仓接近浮亏",
+        "assets": "📉 SpaceX 情绪利空；📉 新股IPO板块 承压",
+        "chain": "散户在高位接盘后亏损，抑制后续IPO申购热情（打新意愿下降），可能引发更多抛售（恐慌连锁反应）",
+        "watch": "SpaceX股价是否跌破IPO发行价"
       }
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Warsh主张市场引导美联储而非反向",
-        "assets": "美元看空，美债收益率波动加大",
-        "chain": "若市场主导政策，美联储独立性削弱，利率路径不确定性上升，风险资产承压",
-        "watch": "美联储官员讲话，市场隐含利率预期"
-      }
+      "score": 33
+    },
+    {
+      "rank": 8,
+      "title": "Accenture CEO Julie Sweet says AI transformation will 'take some time' as stock price takes another hit - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 9,
+      "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Midjourney pivots from AI image generation to body scanning medical spa where patients bathe in 'golden light' - The Register",
+      "source": "The Register",
+      "detail": "黄金价格受避险情绪和美元走势影响，关注地缘局势变化。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
