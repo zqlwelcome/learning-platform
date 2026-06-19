@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 15:55",
+  "updateTime": "2026-06-19 16:00",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "日央行前委员预测3月底前两次加息",
-        "assets": "📉 日元 升值压力；📉 日债 收益率上行",
-        "chain": "日元套利交易（借低息日元买高息资产）平仓，利空全球股市",
-        "watch": "日本1月CPI数据及央行1月会议纪要"
+        "what": "日本央行前委员预计3月底前两次加息",
+        "assets": "📈 日元 升值预期\n📉 日经225 承压",
+        "chain": "日元走强→出口企业利润缩水（海外收入换回更少日元）→外资抛售日股",
+        "watch": "日本1月CPI（消费者物价指数）及央行会议纪要"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "媒体介绍如何参与SpaceX IPO",
-        "assets": "📈 SpaceX相关概念股 利好",
-        "chain": "IPO预期升温，资金可能从传统军工股流入太空概念（SpaceX产业链）",
-        "watch": "SpaceX正式IPO申请日期"
+        "what": "SpaceX IPO后股价连续两日下跌，平均买家接近亏损",
+        "assets": "📉 SpaceX私募股权 看跌\n📉 太空概念股 承压",
+        "chain": "IPO定价过高→散户接盘亏损→打击风险偏好→拖累其他高估值科技IPO",
+        "watch": "SpaceX后续融资估值及二级市场成交量"
       }
     },
     {
@@ -37,64 +37,50 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Accenture下调营收展望，印度IT股暴跌7%",
-        "assets": "📉 印度IT板块 利空；📉 全球IT服务股 承压",
-        "chain": "IT外包需求放缓信号，可能蔓延至其他新兴市场IT企业（利润增速预期下修）",
-        "watch": "Infosys、TCS下一季度财报"
+        "what": "Accenture下调营收指引，印度IT股暴跌7%",
+        "assets": "📉 印度IT股 利空\n📉 全球科技外包 承压",
+        "chain": "IT支出放缓→外包需求萎缩→印度IT公司利润下降→拖累卢比（印度货币）",
+        "watch": "美股科技巨头Q1财报及IT服务订单数据"
       }
     },
     {
       "rank": 4,
-      "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
-      "source": "CNBC",
-      "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "SpaceX连续两日下跌，市值被亚马逊超越",
-        "assets": "📉 SpaceX 利空；📈 亚马逊 相对利好",
-        "chain": "SpaceX估值泡沫（市值远超盈利支撑）破裂，拖累太空ETF（如ARKX）",
-        "watch": "SpaceX是否宣布回购或新合同"
-      }
-    },
-    {
-      "rank": 5,
       "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行管委暗示若能源通胀扩散则再加息",
-        "assets": "📈 欧元 升值；📉 欧债 收益率上行",
-        "chain": "加息预期（借钱成本提高）压制欧洲消费和PMI（制造业景气度），利空欧股",
-        "watch": "欧元区1月核心CPI及能源价格"
+        "what": "欧洲央行管委：若能源外通胀扩散，下月将加息",
+        "assets": "📈 欧元 走强预期\n📉 欧债（欧洲国债） 收益率上升",
+        "chain": "加息预期→欧元升值→欧洲出口竞争力下降→压制欧股",
+        "watch": "欧元区1月核心CPI（剔除能源后的通胀）"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO买家平均浮亏",
-        "assets": "📉 SpaceX 利空；📉 散户投机情绪 承压",
-        "chain": "IPO后暴跌打击打新（新股申购）信心，可能影响其他高估值IPO（如Reddit）",
-        "watch": "SpaceX是否跌破发行价及成交量变化"
-      }
+      "score": 35
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场引导美联储，而非相反",
+        "assets": "📈 美元 波动加大\n📈 美债收益率 双向波动",
+        "chain": "政策不确定性上升→市场定价美联储路径→资产价格随数据剧烈摆动",
+        "watch": "美联储官员近期讲话及市场隐含利率预期"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Accenture CEO Julie Sweet says AI transformation will 'take some time' as stock price takes another hit - Business Insider",
       "source": "Business Insider",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -102,7 +88,7 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
@@ -110,12 +96,20 @@
       "score": 32
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Midjourney pivots from AI image generation to body scanning medical spa where patients bathe in 'golden light' - The Register",
       "source": "The Register",
       "detail": "黄金价格受避险情绪和美元走势影响，关注地缘局势变化。",
       "lang": "en",
       "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Japan core inflation holds steady in May, matching expectations despite energy price concerns - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 30
     }
   ]
 }
