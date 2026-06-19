@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-20 01:06",
+  "updateTime": "2026-06-20 01:08",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Roth Capital看好核电股受益AI数据中心能源需求",
+        "assets": "核电股（看涨），AI数据中心概念股（正相关），传统能源股（潜在承压）",
+        "chain": "AI算力扩张推高电力需求→核电作为基荷电源受追捧→核电股估值提升",
+        "watch": "美国核电项目审批进展及AI公司电力采购协议"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "环球市场播报",
       "detail": "日本财务大臣片山皋月在外汇领域正愈发陷入进退两难的尴尬处境。 4 至 5 月，日本动用逾 11.7 万亿日元（折合 728 亿美元）外汇储备托举日元...",
       "lang": "zh",
-      "score": 28
+      "score": 28,
+      "insight": {
+        "what": "日本超700亿美元干预+加息未能有效提振日元",
+        "assets": "日元（看跌），日本国债（承压），美元/日元（看涨）",
+        "chain": "干预规模不足抵消利差劣势→市场对日本央行信誉质疑→套利交易持续压制日元",
+        "watch": "日本央行下次会议利率决议及美日利差变化"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "全球股市因美伊和平协议持久性存疑周五收跌",
+        "assets": "全球股指（看跌），原油（看涨），避险资产黄金（看涨）",
+        "chain": "协议执行不确定性→地缘风险溢价回升→资金从股市流向避险资产",
+        "watch": "美伊后续谈判进展及中东军事部署变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "The U.S.-Iran deal has raised questions about how the Strait of Hormuz will be governed after the toll-free period ends.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "霍尔木兹海峡油轮运输量激增因美伊协议开放航道",
+        "assets": "原油（看跌），航运股（看涨），中东产油国货币（看涨）",
+        "chain": "航道恢复通行→原油供给预期增加→油价承压但航运成本下降",
+        "watch": "海峡通行量周度数据及OPEC+产量调整声明"
+      }
     }
   ]
 }
