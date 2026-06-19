@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 17:10",
+  "updateTime": "2026-06-19 17:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "日本央行前委员预计3月底前两次加息",
-        "assets": "📈 日元 升值，📉 日本国债 承压，📉 日经225 利空",
-        "chain": "日元套利交易（借低息日元买高息资产）平仓，冲击全球风险资产",
-        "watch": "日本央行1月会议纪要及通胀数据"
+        "what": "日央行前委员预计3月底前两次加息",
+        "assets": "📉 日元 利好\n📉 日本国债 承压\n📉 全球套息交易（借日元买高息资产） 利空",
+        "chain": "日元升值（日元走强）→套息交易平仓（卖出高息资产还日元）→新兴市场/美股波动加大",
+        "watch": "日本央行1月会议纪要及2月CPI数据（通胀是否持续）"
       }
     },
     {
@@ -23,75 +23,75 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布",
-        "assets": "📈 SpaceX 未上市股权 利好，📈 太空概念股 利好",
-        "chain": "IPO热度提升，带动私募市场（非公开交易股权）估值重估",
-        "watch": "SpaceX上市估值及认购倍数"
+        "what": "媒体发布SpaceX IPO投资指南",
+        "assets": "📈 SpaceX未上市股权/相关ETF 情绪利好\n📉 传统航天股（如洛克希德马丁） 分流资金",
+        "chain": "IPO预期升温→散户资金涌入（通过特殊目的收购公司或私募）→推高估值，但流动性风险大（难随时卖出）",
+        "watch": "SpaceX官方IPO时间表及SEC（美国证监会）文件"
       }
     },
     {
       "rank": 3,
+      "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "华尔街建议买入英伟达、卖出美光",
+        "assets": "📈 英伟达（NVDA） 利好\n📉 美光（MU） 利空",
+        "chain": "英伟达受益于AI算力需求（用于训练大模型）→美光受制于存储芯片周期下行（供过于求）→资金从存储转向AI芯片板块",
+        "watch": "英伟达财报指引（毛利率趋势）及美光库存数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "What the Fed rate pause could mean for mortgage interest rates now - CBS News",
       "source": "CBS News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储暂停降息可能影响房贷利率",
-        "assets": "📉 美国房贷利率 承压，📉 房地产REITs 利空",
-        "chain": "利率高位抑制购房需求，传导至建筑和家居行业",
-        "watch": "美国30年期房贷利率及成屋销售数据"
+        "what": "美联储暂停降息，房贷利率或维持高位",
+        "assets": "📉 美国房地产板块 承压\n📈 美元 利好\n📉 抵押贷款支持证券 利空",
+        "chain": "利率高位（借钱成本高）→购房需求下降（买房人数减少）→房价增速放缓，但租金可能上涨（租不如买）",
+        "watch": "30年期固定房贷利率是否突破7%及成屋销售数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行管委支持若通胀扩散则下月加息",
-        "assets": "📈 欧元 升值，📉 欧股 承压，📉 欧洲债券 利空",
-        "chain": "加息预期收紧流动性（市场钱变少），压制消费和投资",
-        "watch": "欧元区核心CPI及能源价格走势"
+        "what": "欧央行管委暗示若通胀蔓延则再加息",
+        "assets": "📈 欧元 利好\n📉 欧洲债券 利空\n📉 欧洲高估值成长股 承压",
+        "chain": "加息预期（借钱成本提高）→企业融资成本上升（贷款利息增加）→压缩利润（公司赚的钱变少）→股市回调",
+        "watch": "欧元区核心CPI（剔除能源食品的物价）及工资增速"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX IPO后买家平均亏损，股价两日下挫",
-        "assets": "📉 SpaceX 股价 利空，📉 科技新股 情绪面利空",
-        "chain": "新股破发打击散户信心，可能拖累后续科技IPO定价",
-        "watch": "SpaceX锁定期到期后抛压及成交量"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Warsh主张市场引导美联储而非相反",
-        "assets": "📉 美元 承压，📈 美股 短期利好（预期更鸽派）",
-        "chain": "若市场主导政策，利率波动性加大，利好做多波动率策略（赌价格大幅变动）",
-        "watch": "美联储官员讲话及市场定价隐含利率路径"
+        "what": "SpaceX上市后两日下跌，散户接近亏损",
+        "assets": "📉 SpaceX股票 利空\n📉 太空概念ETF（如ARKX） 承压",
+        "chain": "IPO首日冲高（上市第一天涨太多）→获利盘抛售（赚了钱的人卖出）→散户追高被套（在高价买入后跌了）→情绪打压其他热门IPO",
+        "watch": "SpaceX锁定期（内部人不能卖股票的时间）到期日及后续融资计划"
       }
     },
     {
       "rank": 7,
-      "title": "Accenture CEO Julie Sweet says AI transformation will 'take some time' as stock price takes another hit - Business Insider",
-      "source": "Business Insider",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 32
+      "score": 33
     },
     {
       "rank": 8,
@@ -103,17 +103,17 @@
     },
     {
       "rank": 9,
-      "title": "Japan core inflation holds steady in May, matching expectations despite energy price concerns - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "Accenture CEO Julie Sweet says AI transformation will 'take some time' as stock price takes another hit - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 30
+      "score": 32
     },
     {
       "rank": 10,
-      "title": "Next week's inflation data just got even more important. Here's what's ahead for the market",
+      "title": "Japan core inflation holds steady in May, matching expectations despite energy price concerns - CNBC",
       "source": "CNBC",
-      "detail": "Investors will now laser in on any signs that the central bank could hike interest rates against a backdrop of a buoyant stock market.",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 30
     }
