@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 14:20",
+  "updateTime": "2026-06-19 14:21",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价连跌两日，IPO后狂热消退，买家濒临亏损。",
+        "assets": "SpaceX股票（利空）；科技股情绪（偏空）",
+        "chain": "一级市场估值泡沫破裂，拖累未上市科技公司估值预期，影响私募市场流动性。",
+        "watch": "SpaceX二次上市计划及估值变动；科技IPO市场热度"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价连跌两日，IPO后狂热消退，买家濒临亏损。",
+        "assets": "SpaceX股票（利空）；科技股情绪（偏空）",
+        "chain": "一级市场估值泡沫破裂，拖累未上市科技公司估值预期，影响私募市场流动性。",
+        "watch": "SpaceX二次上市计划及估值变动；科技IPO市场热度"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "21世纪经济报道",
       "detail": "记者丨王峰 编辑丨张星 日前，国务院印发《实施就业优先战略“十五五”规划》（以下简称《规划》）。劳动密集型行业、服务业、新兴领域里，轻工、纺织、外贸、养老、托育...",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "国务院印发未来5年就业规划，重点稳就业。",
+        "assets": "中国A股就业概念股（利好）；消费/服务业（间接利好）",
+        "chain": "政策刺激就业市场，提升居民收入预期，利好内需消费，降低社会风险溢价。",
+        "watch": "失业率数据；就业政策落地执行力度"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场应引导美联储，而非美联储引导市场。",
+        "assets": "美元（利空）；美债收益率（波动加剧）；美股（短期利好）",
+        "chain": "市场主导利率预期，削弱美联储政策可信度，可能引发利率路径不确定性，推高波动率。",
+        "watch": "美联储官员后续讲话；市场隐含利率路径变化"
+      }
     }
   ]
 }
