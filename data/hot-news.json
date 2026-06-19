@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 12:55",
+  "updateTime": "2026-06-19 12:57",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "环球市场播报",
       "detail": " 日本央行4月货币政策会议纪要显示，央行政策委员会委员达成共识，认为有必要根据经济、通胀及金融环境形势持续上调利率。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "日本央行确认将持续加息",
+        "assets": "📉 日元 升值预期增强；📉 日本国债 价格承压；📈 日本金融股 利好",
+        "chain": "日元走强（汇率上升）→ 套利交易（借日元买高息资产）平仓 → 新兴市场流动性收紧（资金流出）",
+        "watch": "日本CPI（通胀）数据和下次利率决议"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价因IPO热潮降温而下跌",
+        "assets": "📉 SpaceX股票/非上市科技股 利空",
+        "chain": "IPO降温（打新热度下降）→影响私募估值（未上市企业价值）→科技板块风险偏好（投资者情绪）承压",
+        "watch": "SpaceX后续融资估值及科技股IPO定价变化"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价大跌，IPO后买家接近盈亏平衡",
+        "assets": "📉 SpaceX股票 利空",
+        "chain": "私人公司股价波动影响二级市场交易量，可能拖累整体科技股IPO估值预期",
+        "watch": "SpaceX后续融资计划及订单数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "21世纪经济报道",
       "detail": "记者丨王峰 编辑丨张星 日前，国务院印发《实施就业优先战略“十五五”规划》（以下简称《规划》）。劳动密集型行业、服务业、新兴领域里，轻工、纺织、外贸、养老、托育...",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "国务院发布“十五五”就业优先规划",
+        "assets": "📈 A股消费服务业（养老、托育）利好\n📈 轻工纺织出口链 利好",
+        "chain": "政策倾斜（资源倾斜）→劳动密集型行业扩产→带动就业与消费→利好相关板块",
+        "watch": "后续财政补贴（政府给钱）细则及行业用工数据"
+      }
     }
   ]
 }
