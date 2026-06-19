@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 15:40",
+  "updateTime": "2026-06-19 15:41",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "欧央行暗示若通胀扩散可能再加息",
+        "assets": "EUR/USD看多，欧洲债券看空",
+        "chain": "加息预期推升欧元，压制欧债价格，利差扩大影响美元",
+        "watch": "欧元区核心CPI及能源价格走势"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "滚动播报",
       "detail": "来源：汇通网 汇通财经APP讯——周五（6月19日）亚洲时段，英镑兑美元低位徘徊，当前汇价运行于1.3195附近。此前已两个交易日下跌。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "英央行维持利率3.75%不变，面临两难",
+        "assets": "GBP/USD看空，英国国债看多",
+        "chain": "按兵不动导致英镑承压，英债收益率下行，市场押注未来宽松",
+        "watch": "英国通胀及薪资数据，下次会议声明"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX上市后股价连跌，平均买家接近亏损",
+        "assets": "SpaceX股票看空，科技IPO情绪偏弱",
+        "chain": "股价回调打击散户信心，可能拖累未上市科技公司估值，资金转向避险",
+        "watch": "SpaceX订单及发射计划，市场流动性变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场引导美联储而非反向",
+        "assets": "美元看空，美债收益率波动加大",
+        "chain": "若市场主导政策，美联储独立性削弱，利率路径不确定性上升，风险资产承压",
+        "watch": "美联储官员讲话，市场隐含利率预期"
+      }
     }
   ]
 }
