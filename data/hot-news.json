@@ -1,64 +1,78 @@
 {
-  "updateTime": "2026-06-19 20:10",
+  "updateTime": "2026-06-19 20:16",
   "news": [
     {
       "rank": 1,
+      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program - Federal Reserve (.gov)",
+      "source": "Federal Reserve (.gov)",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 51,
+      "insight": {
+        "what": "美联储要求稳定币发行商实施客户识别计划",
+        "assets": "📉 加密货币 承压",
+        "chain": "监管收紧（合规成本上升）→ 稳定币流动性下降 → 加密市场波动加剧",
+        "watch": "美联储最终规则及稳定币发行商合规进展"
+      }
+    },
+    {
+      "rank": 2,
       "title": "前日本央行政策委员：日本央行或于3月底前两次加息",
       "source": "环球市场播报",
       "detail": " 日本央行前审议委员樱井诚周五表示，在政策重心发生标志性转变、聚焦日益加剧的通胀风险后，日本央行或在本财年末前完成两次加息。",
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "日本央行或于3月底前两次加息",
-        "assets": "📉 日元 升值预期 📉 日本国债 承压",
-        "chain": "日元走强压制日本出口股，套利交易（借低息日元买高息资产）平仓风险上升",
-        "watch": "日本央行1月会议纪要及2月CPI数据"
+        "what": "前日央行委员暗示3月底前两次加息",
+        "assets": "📈 日元 利好 | 📉 日本国债 承压",
+        "chain": "加息预期升温 → 日元升值（利差交易反转）→ 日本股市（出口商）承压",
+        "watch": "日本央行1月会议及通胀数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布",
-        "assets": "📈 SpaceX相关概念股 利好 📈 太空ETF 关注",
-        "chain": "IPO热度提振一级市场情绪，可能带动军工/航天板块（国防和太空领域）估值重估",
-        "watch": "SpaceX官方IPO时间表及SEC文件"
+        "what": "文章提供SpaceX IPO投资指南",
+        "assets": "📈 太空概念股 利好",
+        "chain": "IPO热度（资金追逐）→ 推高相关ETF（交易所交易基金）及私营估值",
+        "watch": "SpaceX上市时间表及估值"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好 📉 美光 利空",
-        "chain": "AI芯片需求分化，英伟达GPU（图形处理器）主导地位强化，美光存储芯片面临周期下行压力",
-        "watch": "英伟达财报指引及美光库存数据"
+        "what": "华尔街建议买入美光、卖出英伟达",
+        "assets": "📈 美光科技 利好 | 📉 英伟达 承压",
+        "chain": "资金轮动（从AI龙头转向存储芯片）→ 半导体板块分化",
+        "watch": "美光财报及英伟达GPU（图形处理器）需求数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "知情人士：Momenta拟在香港IPO筹资10亿美元",
       "source": "环球市场播报",
       "detail": "知情人士称，自动驾驶公司Momenta正准备在中国香港上市，其估值已达到约90亿美元。 上述知情人士称，获General Motors支持的Momenta料将通过此次首次公开募股筹集约10亿美...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "Momenta拟赴港IPO筹资10亿美元",
-        "assets": "📈 港股科技板块 利好 📈 自动驾驶概念股 关注",
-        "chain": "中概股IPO回暖信号，自动驾驶赛道估值锚（定价基准）形成，可能带动相关供应链",
-        "watch": "港交所上市聆讯及招股书估值区间"
+        "what": "Momenta计划香港IPO筹资10亿美元",
+        "assets": "📈 港股自动驾驶板块 利好",
+        "chain": "IPO融资（资金注入）→ 提升行业估值 → 带动同业上市预期",
+        "watch": "Momenta招股书及港股流动性"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "What the Fed rate pause could mean for mortgage interest rates now - CBS News",
       "source": "CBS News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -66,32 +80,18 @@
       "score": 38,
       "insight": {
         "what": "美联储暂停降息或影响房贷利率",
-        "assets": "📈 美元 走强 📉 美国REITs（房地产信托） 承压",
-        "chain": "利率高位抑制购房需求，30年期房贷利率（长期借贷成本）可能维持6%以上，挤压地产板块",
-        "watch": "美联储1月会议声明及新屋销售数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
-      "source": "环球市场播报",
-      "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "欧洲央行管委支持若通胀扩散则加息",
-        "assets": "📈 欧元 走强 📉 欧洲债券 承压",
-        "chain": "能源通胀外溢（能源价格推高其他商品成本）迫使欧央行鹰派（倾向加息），压制欧洲股市估值",
-        "watch": "欧元区1月CPI分项数据及能源价格走势"
+        "assets": "📉 美国房地产ETF 承压 | 📈 美元 利好",
+        "chain": "利率高位（借钱成本高）→ 房贷利率难降 → 抑制购房需求",
+        "watch": "30年期房贷利率及美联储点阵图（利率预测）"
       }
     },
     {
       "rank": 7,
-      "title": "Goldman Sachs Lops $500 Off Gold Target on No Fed Cuts This Year - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35
+      "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
+      "source": "环球市场播报",
+      "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
+      "lang": "zh",
+      "score": 36
     },
     {
       "rank": 8,
