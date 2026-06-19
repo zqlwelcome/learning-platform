@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 17:47",
+  "updateTime": "2026-06-19 17:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日央行委员暗示3月底前两次加息",
-        "assets": "📉 日元 升值预期；📉 日经225 承压",
-        "chain": "日元套利交易（借低息日元买高息资产）平仓，冲击新兴市场及美股科技",
-        "watch": "日本央行1月会议纪要及2月通胀数据"
+        "what": "前日央行委员预计3月底前两次加息",
+        "assets": "📈 日元 升值；📉 日经指数 承压",
+        "chain": "套利交易（借低息日元买高息资产）平仓，冲击全球风险资产",
+        "watch": "日本1月CPI（消费者物价指数）及央行会议纪要"
       }
     },
     {
@@ -23,123 +23,99 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，关注长期机会",
-        "assets": "📈 SpaceX相关概念股 利好；📉 传统航空航天 竞争压力",
-        "chain": "散户资金涌入IPO前私募份额（Pre-IPO），推高估值，二级市场波动加剧",
-        "watch": "SpaceX官方IPO时间表及SEC（美国证监会）备案"
+        "what": "SpaceX IPO（首次公开募股）投资指南发布",
+        "assets": "📈 太空概念股（如ASTS） 利好；📉 传统航天股 资金分流",
+        "chain": "IPO热度推高私人市场估值，可能带动SPAC（特殊目的收购公司）板块情绪",
+        "watch": "SpaceX IPO定价及认购倍数"
       }
     },
     {
       "rank": 3,
+      "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "华尔街建议买入英伟达、卖出美光",
+        "assets": "📈 英伟达 利好；📉 美光 利空",
+        "chain": "AI芯片需求分化，英伟达受益于数据中心，美光受困于存储芯片周期",
+        "watch": "英伟达财报及美光DRAM（动态随机存取存储器）价格走势"
+      }
+    },
+    {
+      "rank": 4,
       "title": "What the Fed rate pause could mean for mortgage interest rates now - CBS News",
       "source": "CBS News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储暂停降息，房贷利率受关注",
-        "assets": "📉 美国房地产REITs（房地产信托基金） 承压；📈 美债 利率高位",
-        "chain": "利率高企抑制购房需求，银行信贷收紧，拖累消费和建筑板块",
-        "watch": "本周30年期抵押贷款利率及成屋销售数据"
+        "what": "美联储暂停降息可能影响房贷利率",
+        "assets": "📈 美元 利好；📉 美国房地产ETF 承压",
+        "chain": "利率高位抑制抵押贷款发放，降低购房需求（利率敏感型资产受冲击）",
+        "watch": "30年期房贷利率及成屋销售数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行管委支持若能源通胀扩散则加息",
-        "assets": "📈 欧元 走强；📉 欧洲债券 收益率上行",
-        "chain": "加息预期推高融资成本，压制欧洲制造业和出口企业利润",
-        "watch": "欧元区1月CPI（消费者物价指数）及能源价格"
+        "what": "欧洲央行管委支持若通胀扩散则再次加息",
+        "assets": "📈 欧元 利好；📉 欧股（特别是消费类） 承压",
+        "chain": "加息预期推高融资成本，压制企业利润（尤其高杠杆行业）",
+        "watch": "欧元区1月CPI（消费者物价指数）及PPI（生产者物价指数）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX上市后买家平均浮亏，两日大跌",
-        "assets": "📉 SpaceX 股价 承压；📉 太空概念股 情绪恐慌",
-        "chain": "IPO定价过高引发抛售，或拖累其他高估值科技公司上市节奏",
-        "watch": "SpaceX后续大宗交易量及做空比例"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "India's largest telecom and digital service Jio Platforms files for IPO",
-      "source": "CNBC",
-      "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "印度最大电信商Jio Platforms申请IPO",
-        "assets": "📈 印度股市 资金流入；📉 印度电信竞争加剧",
-        "chain": "巨型IPO吸走流动性，短期压制中小盘股；长期提升数字基建估值",
-        "watch": "IPO定价区间及散户认购倍数"
+        "what": "SpaceX IPO买家在两天下跌后接近亏损",
+        "assets": "📉 SpaceX相关ETF 利空；📈 做空工具 利好",
+        "chain": "新股破发削弱散户信心，可能波及后续科技IPO（首次公开募股）定价",
+        "watch": "SpaceX股价支撑位及市场情绪指标（如恐慌指数VIX）"
       }
     },
     {
       "rank": 7,
+      "title": "India's largest telecom and digital service Jio Platforms files for IPO",
+      "source": "CNBC",
+      "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Warsh主张市场引导美联储，而非相反",
-        "assets": "美元指数（利空）、美国国债收益率（下行）、美股（利多）",
-        "chain": "市场主导预期→削弱美联储政策可信度→增加资产价格波动",
-        "watch": "美联储官员讲话及市场利率预期变化"
-      }
+      "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Accenture CEO Julie Sweet says AI transformation will 'take some time' as stock price takes another hit - Business Insider",
       "source": "Business Insider",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "埃森哲CEO称AI转型需时间，股价再跌",
-        "assets": "埃森哲股价（利空）、AI/科技板块（利空）",
-        "chain": "AI商业化慢于预期→企业IT支出放缓→科技股估值承压",
-        "watch": "埃森哲财报及AI相关企业资本开支指引"
-      }
+      "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "SpaceX上市后买家平均浮亏，两日大跌",
-        "assets": "📉 SpaceX 股价 承压；📉 太空概念股 情绪恐慌",
-        "chain": "IPO定价过高引发抛售，或拖累其他高估值科技公司上市节奏",
-        "watch": "SpaceX后续大宗交易量及做空比例"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Japan core inflation holds steady in May, matching expectations despite energy price concerns - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "日本5月核心通胀持平预期，能源压力未改",
-        "assets": "日元（中性偏弱）、日本国债收益率（窄幅波动）",
-        "chain": "通胀稳定→日本央行加息预期不变→日元套利交易持续",
-        "watch": "日本央行7月会议及能源价格走势"
-      }
+      "score": 32
     }
   ]
 }
