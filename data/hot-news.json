@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 13:30",
+  "updateTime": "2026-06-19 13:26",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 50,
       "insight": {
         "what": "SpaceX计划发行200亿美元债券，此前创纪录IPO",
-        "assets": "📈 SpaceX估值 利好，📉 债券市场供应压力",
-        "chain": "大规模发债推高信用利差（高风险债券收益率差），可能抑制其他科技公司发债需求",
-        "watch": "债券发行定价及认购倍数（需求热度）"
+        "assets": "📈 SpaceX债券 利好\n📉 特斯拉 承压",
+        "chain": "SpaceX大规模融资可能挤压科技债市场，特斯拉等科技股资金面受拖累（流动性抽水效应）",
+        "watch": "债券发行利率及认购倍数"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 49,
       "insight": {
         "what": "美股三大指数连续两周上涨，因美伊签署初步和平协议",
-        "assets": "📈 美股大盘 利好，📉 原油 承压",
-        "chain": "地缘风险（战争可能性）降低→油价下跌→降低通胀预期→利好美联储降息（借钱成本降低）预期",
-        "watch": "WTI原油价格及美联储利率会议信号"
+        "assets": "📈 美股标普500 利好\n📈 原油 承压",
+        "chain": "地缘风险消退（美伊和平）降低油价溢价，利好航空、运输板块（成本下降）",
+        "watch": "WTI原油期货价格及中东后续协议细节"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "文章介绍如何投资SpaceX IPO及后续保障措施",
-        "assets": "📈 未上市科技公司 利好",
-        "chain": "SpaceX上市预期提振一级市场（非公开市场）估值，带动相关ETF及散户投资渠道关注",
-        "watch": "SpaceX IPO最终定价及上市日期"
+        "what": "投资者指南：如何参与SpaceX IPO及后续投资",
+        "assets": "📈 SpaceX相关ETF 利好\n📈 私人科技公司估值 利好",
+        "chain": "SpaceX IPO吸引资金涌入太空经济板块，推高同类未上市企业估值（示范效应）",
+        "watch": "IPO首日定价及散户认购热度"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光，两股分化",
-        "assets": "📈 英伟达 利好，📉 美光 承压",
-        "chain": "AI芯片需求持续强劲支撑英伟达；美光受存储芯片周期下行（供过于求）拖累",
-        "watch": "英伟达数据中心收入及美光库存天数（存货周转）"
+        "what": "华尔街建议买入英伟达、卖出美光，两者走势分化",
+        "assets": "📈 英伟达 利好\n📉 美光 承压",
+        "chain": "AI芯片需求强劲（英伟达）vs存储芯片周期下行（美光），资金从半导体板块内轮动（板块内分化）",
+        "watch": "英伟达、美光财报及AI资本开支指引"
       }
     },
     {
@@ -66,9 +66,9 @@
       "score": 39,
       "insight": {
         "what": "印度IT股暴跌7%，因埃森哲下调营收展望引发行业担忧",
-        "assets": "📉 印度IT股 承压，📉 全球IT服务板块 承压",
-        "chain": "埃森哲作为行业风向标，展望下调预示企业IT支出放缓（经济疲软信号），拖累新兴市场科技外包",
-        "watch": "埃森哲财报后其他IT巨头（如Infosys）指引"
+        "assets": "📉 印度IT股 承压\n📉 全球IT服务板块 承压",
+        "chain": "埃森哲作为行业龙头（IT外包风向标）下调指引，预示企业IT支出放缓（需求疲软），波及亚太同行",
+        "watch": "Infosys、塔塔咨询后续财报"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX连续第二日下跌，市值被亚马逊反超",
-        "assets": "📉 SpaceX 承压，📈 亚马逊 利好相对",
-        "chain": "估值回调反映市场对航天业务盈利可持续性（现金流）的担忧，可能引发科技板块轮动（资金转向更稳定资产）",
-        "watch": "SpaceX下一季度发射合同收入及运营利润率"
+        "what": "SpaceX股价连跌两日，市值被亚马逊反超",
+        "assets": "📉 SpaceX 承压\n📈 亚马逊 利好",
+        "chain": "资金从SpaceX流向亚马逊等综合科技巨头，反映市场对太空商业化的短期盈利担忧（估值回归）",
+        "watch": "SpaceX发射频率及订单数据"
       }
     },
     {
@@ -91,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "日本央行副行长冰见野良三周五表示，日本央行将继续加息，以防范潜在通胀率超过2%的目标。 冰见野良三指出，由于企业将中东冲突带来的成本上涨转嫁给消费者...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "日本央行官员密集表态将坚持加息",
+        "assets": "日元多头，日本国债收益率上行，日股承压",
+        "chain": "加息预期强化→日元升值→套利交易平仓→全球风险资产波动",
+        "watch": "日本7月CPI数据及下次议息会议点阵图"
+      }
     },
     {
       "rank": 8,
@@ -99,23 +105,41 @@
       "source": "环球市场播报",
       "detail": "日本央行4月份政策会议纪要显示，央行审议委员认同，根据当前经济、通胀和金融状况继续加息是合适的。关于调整货币政策的时机和步伐，审议委员一致认为...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "日本央行官员密集表态将坚持加息",
+        "assets": "日元多头，日本国债收益率上行，日股承压",
+        "chain": "加息预期强化→日元升值→套利交易平仓→全球风险资产波动",
+        "watch": "日本7月CPI数据及下次议息会议点阵图"
+      }
     },
     {
       "rank": 9,
+      "title": "日本央行委员：将依据经济与物价形势持续加息",
+      "source": "环球市场播报",
+      "detail": " 日本央行4月货币政策会议纪要显示，央行政策委员会委员达成共识，认为有必要根据经济、通胀及金融环境形势持续上调利率。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "日本央行官员密集表态将坚持加息",
+        "assets": "日元多头，日本国债收益率上行，日股承压",
+        "chain": "加息预期强化→日元升值→套利交易平仓→全球风险资产波动",
+        "watch": "日本7月CPI数据及下次议息会议点阵图"
+      }
+    },
+    {
+      "rank": 10,
       "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
-      "source": "CNBC",
-      "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
-      "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价连跌两日，市值被亚马逊反超",
+        "assets": "📉 SpaceX 承压\n📈 亚马逊 利好",
+        "chain": "资金从SpaceX流向亚马逊等综合科技巨头，反映市场对太空商业化的短期盈利担忧（估值回归）",
+        "watch": "SpaceX发射频率及订单数据"
+      }
     }
   ]
 }
