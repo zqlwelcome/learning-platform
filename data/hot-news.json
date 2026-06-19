@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 18:21",
+  "updateTime": "2026-06-19 18:22",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储暂停降息，房贷利率可能维持高位",
-        "assets": "📉 美国房地产 承压\n📈 美元 利好",
-        "chain": "利率高企抑制购房需求，传导至建筑商和家居板块；美元走强压制大宗商品",
-        "watch": "美国30年期房贷利率及新屋开工数据"
+        "what": "日本央行前委员暗示3月底前两次加息",
+        "assets": "📉 日元 利好\n📉 日本国债 承压",
+        "chain": "日元走强压制日股，套利交易（借日元买高息资产）平仓，冲击新兴市场",
+        "watch": "日本央行1月会议纪要及官员讲话"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "日本央行前委员暗示3月底前两次加息",
-        "assets": "📉 日元 利好\n📉 日本国债 承压",
-        "chain": "日元走强压制日股，套利交易（借日元买高息资产）平仓，冲击新兴市场",
-        "watch": "日本央行1月会议纪要及官员讲话"
+        "what": "美联储暂停降息，房贷利率可能维持高位",
+        "assets": "📉 美国房地产 承压\n📈 美元 利好",
+        "chain": "利率高企抑制购房需求，传导至建筑商和家居板块；美元走强压制大宗商品",
+        "watch": "美国30年期房贷利率及新屋开工数据"
       }
     },
     {
@@ -77,7 +77,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO投资指南发布，但上市后股价两日跌近破发",
+        "assets": "📉 SpaceX 股票 利空\n📈 太空概念股 情绪提振",
+        "chain": "IPO热度降温，散户资金回流二级市场；太空板块估值锚定效应（以SpaceX为基准）减弱",
+        "watch": "SpaceX IPO定价及首日涨幅"
+      }
     },
     {
       "rank": 7,
@@ -85,7 +91,13 @@
       "source": "CNBC",
       "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "印度最大电信数字平台Jio申请IPO",
+        "assets": "印度股市看涨，电信板块正面",
+        "chain": "IPO吸走流动性，推高印度市场估值，外资可能增配印度资产",
+        "watch": "IPO定价及认购倍数，印度电信竞争格局"
+      }
     },
     {
       "rank": 8,
@@ -93,7 +105,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场应引导美联储而非相反",
+        "assets": "美元看跌，美债收益率曲线陡化",
+        "chain": "市场定价加息预期，美联储独立性受挑战，波动率上升",
+        "watch": "美联储官员讲话，市场隐含利率路径"
+      }
     },
     {
       "rank": 9,
@@ -101,7 +119,13 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX IPO投资指南发布，但上市后股价两日跌近破发",
+        "assets": "📉 SpaceX 股票 利空\n📈 太空概念股 情绪提振",
+        "chain": "IPO热度降温，散户资金回流二级市场；太空板块估值锚定效应（以SpaceX为基准）减弱",
+        "watch": "SpaceX IPO定价及首日涨幅"
+      }
     },
     {
       "rank": 10,
@@ -109,7 +133,13 @@
       "source": "Business Insider",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "埃森哲CEO称AI转型需时，股价再跌",
+        "assets": "埃森哲股票看跌，AI概念股承压",
+        "chain": "AI商业化预期降温，科技服务板块估值回调，资金转向防御",
+        "watch": "埃森哲财报指引，其他咨询公司AI收入占比"
+      }
     }
   ]
 }
