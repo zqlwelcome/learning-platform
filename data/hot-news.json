@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 22:36",
+  "updateTime": "2026-06-19 22:37",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX股价暴跌",
+        "assets": "SpaceX股票",
+        "chain": "尽管获高价目标，但市场预期转弱或利空出尽，引发抛售",
+        "watch": "后续是否有利好消息或订单更新"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "核电股受益AI数据中心需求",
+        "assets": "核电股",
+        "chain": "AI数据中心能耗激增，核电作为基荷能源需求上升，利好核电企业",
+        "watch": "AI公司资本开支计划及核电项目进展"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "市场资讯",
       "detail": "6月19日，昨日周四我们认为，美联储周三维持利率不变，但释放了明确的鹰派信号，市场对美联储加息的预期大幅升温，直接打压黄金价格...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "美联储鹰派信号打压金价",
+        "assets": "黄金",
+        "chain": "鹰派信号暗示加息或紧缩，实际利率上升，黄金吸引力下降",
+        "watch": "美联储官员后续讲话及通胀数据"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "环球市场播报",
       "detail": "日本财务大臣片山皋月在外汇领域正愈发陷入进退两难的尴尬处境。 4 至 5 月，日本动用逾 11.7 万亿日元（折合 728 亿美元）外汇储备托举日元...",
       "lang": "zh",
-      "score": 28
+      "score": 28,
+      "insight": {
+        "what": "日本干预+加息未提振日元",
+        "assets": "日元",
+        "chain": "市场对干预持续性存疑，且利差仍大，日元贬值压力未消",
+        "watch": "日本央行政策转向信号及美日利差变化"
+      }
     }
   ]
 }
