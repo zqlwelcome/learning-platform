@@ -1,64 +1,36 @@
 {
-  "updateTime": "2026-06-19 18:16",
+  "updateTime": "2026-06-19 18:21",
   "news": [
     {
       "rank": 1,
-      "title": "Elon Musk’s SpaceX plots $20bn bond deal after record IPO - Financial Times",
-      "source": "Financial Times",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "SpaceX计划发行200亿美元债券，此前创纪录IPO",
-        "assets": "📈 SpaceX债券 利好，📉 传统航天股 承压",
-        "chain": "高评级债供给增加，可能推升企业债收益率（借钱成本），挤压其他科技债需求",
-        "watch": "债券定价利率及认购倍数"
-      }
-    },
-    {
-      "rank": 2,
       "title": "前日本央行政策委员：日本央行或于3月底前两次加息",
       "source": "环球市场播报",
       "detail": " 日本央行前审议委员樱井诚周五表示，在政策重心发生标志性转变、聚焦日益加剧的通胀风险后，日本央行或在本财年末前完成两次加息。",
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日本央行委员预计3月底前两次加息",
-        "assets": "📈 日元 升值，📉 日本国债 承压",
-        "chain": "日元走强利空出口股（如丰田），套利交易（借日元买高息资产）可能平仓，冲击新兴市场",
-        "watch": "日本央行1月会议及通胀数据"
+        "what": "美联储暂停降息，房贷利率可能维持高位",
+        "assets": "📉 美国房地产 承压\n📈 美元 利好",
+        "chain": "利率高企抑制购房需求，传导至建筑商和家居板块；美元走强压制大宗商品",
+        "watch": "美国30年期房贷利率及新屋开工数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Investor's Business Daily讨论SpaceX IPO投资指南",
-        "assets": "📈 SpaceX相关私募股权 利好，📉 其他未上市科技股 承压",
-        "chain": "散户关注度提升，可能推高SpaceX估值，但挤占其他一级市场资金",
-        "watch": "SpaceX二次交易价格及上市时间表"
+        "what": "SpaceX IPO投资指南发布，但上市后股价两日跌近破发",
+        "assets": "📉 SpaceX 股票 利空\n📈 太空概念股 情绪提振",
+        "chain": "IPO热度降温，散户资金回流二级市场；太空板块估值锚定效应（以SpaceX为基准）减弱",
+        "watch": "SpaceX IPO定价及首日涨幅"
       }
     },
     {
-      "rank": 4,
-      "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好，📉 美光 利空",
-        "chain": "英伟达AI芯片需求强劲，美光存储芯片库存过剩，分化加剧半导体板块轮动（资金从存储转向AI）",
-        "watch": "英伟达财报指引及美光库存数据"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "title": "知情人士：Momenta拟在香港IPO筹资10亿美元",
       "source": "环球市场播报",
       "detail": "知情人士称，自动驾驶公司Momenta正准备在中国香港上市，其估值已达到约90亿美元。 上述知情人士称，获General Motors支持的Momenta料将通过此次首次公开募股筹集约10亿美...",
@@ -66,35 +38,41 @@
       "score": 40,
       "insight": {
         "what": "Momenta拟香港IPO筹资10亿美元",
-        "assets": "📈 港股自动驾驶板块 利好，📉 其他未上市AI公司 承压",
-        "chain": "IPO活跃提振港股情绪，但可能分流资金，同类公司估值面临比较压力",
-        "watch": "Momenta招股定价及基石投资者名单"
+        "assets": "📈 港股科技板块 中性偏多\n📉 自动驾驶同行 竞争压力",
+        "chain": "IPO吸走流动性，但提振港股IPO市场信心；自动驾驶赛道估值对标（Momenta vs 百度Apollo）",
+        "watch": "Momenta招股书估值及基石投资者名单"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "What the Fed rate pause could mean for mortgage interest rates now - CBS News",
       "source": "CBS News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储暂停降息可能影响抵押贷款利率",
-        "assets": "📈 美元 走强，📉 美国房地产信托 承压",
-        "chain": "利率高企抑制购房需求，房贷相关证券（MBS）价格下跌，银行净息差（存贷利差）扩大",
-        "watch": "美联储1月会议声明及房贷申请数据"
+        "what": "日本央行前委员暗示3月底前两次加息",
+        "assets": "📉 日元 利好\n📉 日本国债 承压",
+        "chain": "日元走强压制日股，套利交易（借日元买高息资产）平仓，冲击新兴市场",
+        "watch": "日本央行1月会议纪要及官员讲话"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "欧洲央行管委：若通胀蔓延至能源领域以外，将支持下月再次加息",
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "欧洲央行管委支持若能源外通胀扩散则继续加息",
+        "assets": "📈 欧元 利好\n📉 欧洲国债 承压",
+        "chain": "加息预期推高融资成本，压制欧洲股市，利差（美欧利差）收窄支撑欧元",
+        "watch": "欧元区核心CPI（剔除能源）及PMI数据"
+      }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
@@ -102,7 +80,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "India's largest telecom and digital service Jio Platforms files for IPO",
       "source": "CNBC",
       "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
@@ -110,12 +88,28 @@
       "score": 35
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33
+    },
+    {
+      "rank": 9,
+      "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Accenture CEO Julie Sweet says AI transformation will 'take some time' as stock price takes another hit - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
