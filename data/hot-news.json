@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 08:21",
+  "updateTime": "2026-06-19 08:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "美伊签署初步和平协议，美股连续两周上涨",
-        "assets": "📈 美股大盘（标普500） 利好；📈 原油 承压",
-        "chain": "地缘风险溢价消退，资金从避险（黄金/国债）回流风险资产（股票），油价下跌利好航空业",
-        "watch": "后续伊朗原油出口量及OPEC（石油输出国组织）减产动向"
+        "what": "美伊签署初步和平协议，美股连涨两周",
+        "assets": "📈 美股大盘 利好；📉 原油 承压",
+        "chain": "地缘风险溢价（战争不确定性）消退，油价下跌，降低通胀预期，利好利率敏感股",
+        "watch": "伊朗原油出口量及OPEC（石油输出国组织）后续减产表态"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO（首次公开募股）后投资指南发布",
-        "assets": "📈 SpaceX相关概念股 利好",
-        "chain": "媒体炒作吸引散户关注，可能推高SpaceX估值，并带动太空ETF（交易型开放式指数基金）资金流入",
-        "watch": "SpaceX下一轮融资估值及订单披露"
+        "what": "SpaceX IPO后热潮降温，股价两日下跌",
+        "assets": "📉 SpaceX 股票 利空；📈 太空概念股 分化",
+        "chain": "散户FOMO（害怕错过）退潮，短线获利盘抛压，估值回归基本面，影响后续科技IPO定价",
+        "watch": "SpaceX 成交量及锁定期（禁售期）后内部人减持情况"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达（NVDA） 利好；📉 美光（MU） 承压",
-        "chain": "AI芯片需求分化，英伟达受益于数据中心支出，美光受制于存储芯片库存过剩（供大于求）",
-        "watch": "英伟达财报指引及美光库存周转率数据"
+        "what": "华尔街看好英伟达、看衰美光",
+        "assets": "📈 英伟达（NVDA）利好；📉 美光（MU）利空",
+        "chain": "AI（人工智能）芯片需求分化，英伟达受益于算力军备竞赛，美光面临存储芯片周期下行（供需过剩）",
+        "watch": "英伟达数据中心营收及美光库存天数（过剩指标）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX股价下跌，IPO后狂热消退",
-        "assets": "📉 SpaceX 承压；📉 太空概念股 利空",
-        "chain": "首日炒作后获利盘涌出（抛售），流动性不足导致波动，可能拖累其他未盈利科技股IPO情绪",
-        "watch": "SpaceX锁定期（禁售期）结束后的抛压"
+        "what": "加州预期IPO税收大增，但面临多重风险",
+        "assets": "📉 加州财政 承压；📈 科技公司 税收不确定性",
+        "chain": "IPO（首次公开募股）延迟或破发导致资本利得税（炒股盈利税）不及预期，可能引发州预算削减，间接影响科技行业监管",
+        "watch": "加州GDP（经济产出）增速及科技公司IPO实际数量"
       }
     },
     {
@@ -63,13 +63,7 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "加州依赖IPO税收，但多种因素复杂化",
-        "assets": "📉 加州地方债 承压；📉 科技股 利空",
-        "chain": "IPO放缓减少州政府收入（税收），可能引发财政赤字，导致地方政府削减开支或增税，间接压制消费",
-        "watch": "加州季度税收报告及新IPO上市节奏"
-      }
+      "score": 35
     },
     {
       "rank": 6,
@@ -77,13 +71,7 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO买家平均接近亏损，连跌两日",
-        "assets": "📉 SpaceX 承压；📉 散户情绪 利空",
-        "chain": "追高散户被套（亏损），可能引发监管对IPO定价公平性的关注，并抑制其他高估值IPO需求",
-        "watch": "SpaceX成交量及做空比例（空头头寸）变化"
-      }
+      "score": 35
     },
     {
       "rank": 7,
@@ -91,13 +79,7 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "特朗普解雇美联储理事库克致其承担百万法律安全费",
-        "assets": "美元短期偏弱，美债收益率下行",
-        "chain": "削弱美联储独立性预期→市场押注更鸽派政策→美元承压",
-        "watch": "特朗普是否继续施压其他美联储官员"
-      }
+      "score": 35
     },
     {
       "rank": 8,
@@ -105,13 +87,7 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "市场预计沃什领导的美联储将比预期更鹰派",
-        "assets": "美元走强，美债收益率上行，黄金承压",
-        "chain": "鹰派预期→加息概率上升→风险资产估值压力增大",
-        "watch": "沃什正式提名后的政策表态与国会听证"
-      }
+      "score": 33
     },
     {
       "rank": 9,
@@ -119,13 +95,15 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "抵押贷款利率因美联储政策鹰派信号飙升",
-        "assets": "房地产板块利空，美元走强，国债收益率上行",
-        "chain": "利率上升→购房需求降温→经济放缓预期增强",
-        "watch": "30年期抵押贷款利率是否突破7.5%关口"
-      }
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
+      "source": "CNBC",
+      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
+      "lang": "en",
+      "score": 33
     }
   ]
 }
