@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-20 03:21",
+  "updateTime": "2026-06-20 03:25",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 52,
       "insight": {
         "what": "SpaceX IPO造富，高管持股市值超10亿美元",
-        "assets": "📈 SpaceX未上市股权 利好",
-        "chain": "激发一级市场（未上市企业）估值泡沫，推高SpaceX估值及科技股IPO热度",
-        "watch": "SpaceX IPO定价及首日表现"
+        "assets": "📈 太空概念股 利好; 📈 私募股权 情绪提振",
+        "chain": "IPO造富效应（员工持股变现）→ 吸引资本涌入商业航天赛道，推高估值",
+        "watch": "SpaceX官方IPO时间表及估值更新"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 51,
       "insight": {
         "what": "美联储要求稳定币发行人建立客户识别程序",
-        "assets": "📉 加密货币 承压",
-        "chain": "监管收紧（KYC/AML合规成本增加），削弱稳定币流动性，利空DeFi（去中心化金融）",
-        "watch": "稳定币市值变化及合规进展"
+        "assets": "📉 稳定币（如USDT/USDC）承压; 📈 合规加密交易所 利好",
+        "chain": "监管收紧（KYC/反洗钱）→ 降低稳定币匿名性，增加运营成本，可能抑制投机需求",
+        "watch": "最终规则发布时间及市场流动性变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日本央行委员：或于3月底前两次加息",
-        "assets": "📈 日元 利好；📉 日本国债 承压",
-        "chain": "加息预期推高日元，利空日股（借贷成本上升），触发套利交易（借低息货币投高息资产）平仓",
-        "watch": "日本央行会议及通胀数据"
+        "what": "前日本央行官员预计3月底前两次加息",
+        "assets": "📈 日元 升值预期; 📉 日本国债 承压; 📉 日本股市 短期利空",
+        "chain": "加息预期（借钱成本上升）→ 日元套利交易（借日元买高息资产）平仓，全球风险资产波动",
+        "watch": "日本央行1月会议纪要及通胀数据"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 40,
       "insight": {
         "what": "Momenta拟香港IPO筹资10亿美元",
-        "assets": "📈 港股自动驾驶板块 利好",
-        "chain": "提振港股IPO情绪，带动AI/自动驾驶板块估值重估（估值修复），吸引资金流入",
-        "watch": "Momenta招股书及市场认购倍数"
+        "assets": "📈 自动驾驶概念股 利好; 📈 香港IPO市场 情绪提振",
+        "chain": "大型IPO（融资10亿）→ 吸引机构跟投，提升行业估值锚，但分流市场流动性",
+        "watch": "招股书估值区间及基石投资者名单"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "交易员提高美联储加息押注，因伊朗和沃什鹰派立场",
-        "assets": "📉 美股 承压；📈 美元 利好",
-        "chain": "加息预期推高美债收益率（借钱成本），压降风险资产（股票、加密货币），强化美元避险需求",
-        "watch": "美联储会议纪要及非农数据"
+        "what": "伊朗担忧叠加沃什鹰派言论，市场押注美联储加息",
+        "assets": "📉 美债 承压（收益率上升）; 📉 美股 整体利空; 📈 美元 走强",
+        "chain": "加息押注（借钱成本上升）→ 风险资产（如股票）估值压缩，美元套利（借低息货币买美元）升温",
+        "watch": "美联储官员讲话及通胀预期指标（5年盈亏平衡通胀率）"
       }
     },
     {
       "rank": 6,
+      "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33,
+      "insight": {
+        "what": "沃什主张市场引导美联储，而非相反",
+        "assets": "📉 美债 波动率上升; 📉 美股 政策不确定性利空",
+        "chain": "鹰派立场（倾向加息）→ 市场预期美联储更被动，加剧利率路径不确定性，压制风险偏好",
+        "watch": "沃什是否被提名美联储主席及市场反应"
+      }
+    },
+    {
+      "rank": 7,
       "title": "This nuclear stock will benefit from AI datacenter buildout and soaring energy demand, Roth Capital says",
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "核能股受益AI数据中心电力需求，Roth Capital看好",
-        "assets": "📈 核能板块 利好",
-        "chain": "AI算力扩张推升电力需求，利好核电（稳定基荷），但可能压制可再生能源（间歇性）",
-        "watch": "核电运营商新增订单及AI巨头电力合同"
+        "what": "Roth Capital看好核电股受益AI数据中心能源需求",
+        "assets": "📈 核电股（如CCJ/URG） 利好; 📈 铀矿ETF 利好",
+        "chain": "AI算力扩张（耗电需求）→ 核电基荷电源（稳定供电）价值重估，吸引ESG（环保）资金流入",
+        "watch": "美国核电站新建/重启审批进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "为何日本耗资超700亿美元汇市干预叠加加息，仍未能显著提振日元",
       "source": "环球市场播报",
       "detail": "日本财务大臣片山皋月在外汇领域正愈发陷入进退两难的尴尬处境。 4 至 5 月，日本动用逾 11.7 万亿日元（折合 728 亿美元）外汇储备托举日元...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "日本耗资超700亿美元干预+加息，仍未能提振日元",
-        "assets": "📉 日元 承压",
-        "chain": "干预失效表明市场看空日元（利差交易主导），可能引发更多干预或政策转向（收益率曲线控制）",
-        "watch": "日本央行政策声明及美日利差变化"
+        "what": "日本耗资700亿美元干预与加息仍未能提振日元",
+        "assets": "📉 日元 持续承压; 📈 美日利差 扩大风险",
+        "chain": "干预失效（市场不买账）→ 利差交易（借日元买美元）持续，日元贬值压力传导至进口通胀",
+        "watch": "日本央行实际利率及美日10年期国债利差"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Global stock markets close lower on Friday as investors assess durability of U.S.-Iran peace deal - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "全球股市周五收低，因投资者评估美伊和平协议持续性",
-        "assets": "📉 全球股指 承压",
-        "chain": "地缘风险（中东局势）不确定性打压风险偏好，资金流向黄金、美债等避险资产",
-        "watch": "美伊谈判进展及霍尔木兹海峡航运数据"
+        "what": "全球股市周五下跌，投资者评估美伊和平协议",
+        "assets": "📉 全球股指（标普/日经） 承压; 📈 原油 不确定性下降",
+        "chain": "和平协议（地缘风险降低）→ 避险情绪缓解，但市场聚焦协议执行细节，短期资金流出风险资产",
+        "watch": "美伊后续谈判及原油库存数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
       "source": "CNBC",
       "detail": "The U.S.-Iran deal has raised questions about how the Strait of Hormuz will be governed after the toll-free period ends.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美伊协议后霍尔木兹海峡油轮运输大增",
-        "assets": "📉 原油 承压",
-        "chain": "供应恢复（航运畅通）压低油价，利好炼油厂（成本下降），但利空能源股",
-        "watch": "OPEC+产量政策及美国原油库存"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Global stock markets close lower on Friday as investors assess durability of U.S.-Iran peace deal",
-      "source": "CNBC",
-      "detail": "U.S. Vice President JD Vance on Thursday defended Trump's interim agreement with Iran, saying any economic relief for Tehran would depend on the country complying with the terms of the deal.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "全球股市周五收低，因投资者评估美伊和平协议持续性",
-        "assets": "📉 全球股指 承压",
-        "chain": "地缘风险（中东局势）不确定性打压风险偏好，资金流向黄金、美债等避险资产",
-        "watch": "美伊谈判进展及霍尔木兹海峡航运数据"
+        "what": "美伊协议后霍尔木兹海峡油轮运输量激增",
+        "assets": "📉 原油 短期承压（供应恢复）; 📈 航运股（油轮） 利好",
+        "chain": "海峡通行恢复（供应增加）→ 油价回落，但运输成本下降利好炼油厂利润，库存重建加速",
+        "watch": "OPEC+产量政策及伊朗原油出口量"
       }
     }
   ]
