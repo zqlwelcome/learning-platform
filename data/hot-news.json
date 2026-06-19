@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-20 06:06",
+  "updateTime": "2026-06-20 06:11",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 52,
       "insight": {
         "what": "SpaceX IPO造富，高管持股市值超10亿美元",
-        "assets": "📈 太空概念股 利好；📈 私募股权 关注度提升",
-        "chain": "IPO造富效应（员工套现）将吸引资金涌入太空赛道，推高同类估值",
-        "watch": "SpaceX正式IPO时间表及估值水平"
+        "assets": "📈 太空概念股 利好；📉 传统航空股 承压",
+        "chain": "SpaceX上市预期推高太空板块估值（PE，市盈率），吸引资金从传统航空流出",
+        "watch": "SpaceX IPO估值及认购倍数"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日本央行委员称3月底前可能两次加息",
-        "assets": "📈 日元 升值；📉 日本国债 收益率上行",
-        "chain": "加息预期（提高借钱成本）→日元走强→日股承压（出口企业盈利受汇率影响）",
-        "watch": "日本央行1月会议及通胀数据"
+        "what": "前日央行官员暗示3月底前两次加息",
+        "assets": "📈 日元 升值；📉 日本国债 下跌",
+        "chain": "加息（提高借贷成本）压缩套利交易（借日元买高息资产），利空日经指数",
+        "watch": "日本央行1月会议措辞及通胀数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "核能股受益AI数据中心电力需求，Roth Capital看好",
-        "assets": "📈 核电股；📈 铀矿ETF；📉 传统能源 竞争压力",
-        "chain": "AI算力扩张→电力需求激增→核电作为清洁基荷电源受益（替代煤炭/天然气）",
-        "watch": "AI巨头数据中心建设资本开支及核电站审批进度"
+        "what": "Warsh主张市场引导美联储政策",
+        "assets": "📈 美元 波动；📉 黄金 承压",
+        "chain": "鹰派（倾向加息）言论强化紧缩预期，削弱黄金抗通胀吸引力（实际利率上升）",
+        "watch": "Warsh是否被提名为美联储主席"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "环球市场播报",
       "detail": "知情人士称，自动驾驶公司Momenta正准备在中国香港上市，其估值已达到约90亿美元。 上述知情人士称，获General Motors支持的Momenta料将通过此次首次公开募股筹集约10亿美...",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "核能股受益于AI数据中心电力需求",
+        "assets": "📈 核能ETF（如URA） 利好；📈 铀矿股 利好",
+        "chain": "AI算力扩张拉动电力需求，核能作为低碳基荷电源（全天候发电）成受益标的",
+        "watch": "美国核电监管审批及数据中心订单"
+      }
     },
     {
       "rank": 5,
@@ -57,7 +63,13 @@
       "source": "环球市场播报",
       "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、美伊核谈因黎巴嫩问题未能举行 尚未启动便陷入停滞 2、伊朗提出“保险费” 宣示对霍尔木兹海峡的控制权 3...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美伊谈判推迟，油价周线下跌",
+        "assets": "📈 原油 短期波动；📉 能源股 承压",
+        "chain": "谈判僵局支撑油价，但需求担忧（全球经济放缓）限制涨幅，库存数据成关键",
+        "watch": "EIA原油库存及OPEC+产量决议"
+      }
     },
     {
       "rank": 6,
@@ -75,14 +87,28 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "交易员提高美联储加息押注，因伊朗忧虑和沃什鹰派立场",
-        "assets": "📈 美元 走强；📉 美股 利率敏感板块 承压",
-        "chain": "加息预期（收紧货币）→风险资产（如科技股）估值压缩→美债收益率曲线（长期vs短期利率）陡化",
-        "watch": "美联储官员讲话及PCE（个人消费支出）通胀数据"
+        "what": "交易员提高美联储加息押注",
+        "assets": "📈 美元 走强；📉 美债 下跌；📉 新兴市场 承压",
+        "chain": "加息预期（紧缩货币）推高短端利率（2年期国债收益率），资金回流美元资产",
+        "watch": "美联储点阵图及非农就业数据"
       }
     },
     {
       "rank": 8,
+      "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "SpaceX股价下跌，尽管获两大目标价",
+        "assets": "📉 SpaceX 承压；📈 做空期权 活跃",
+        "chain": "二级市场抛售反映估值分歧（高增长 vs 高利率），影响私人市场定价",
+        "watch": "SpaceX发射成功率和融资轮估值"
+      }
+    },
+    {
+      "rank": 9,
       "title": "This nuclear stock will benefit from AI datacenter buildout and soaring energy demand, Roth Capital says",
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
@@ -90,31 +116,17 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "U.S.-Iran talks postponed; oil on pace for weekly decline - what’s moving markets - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "霍尔木兹海峡油轮量激增，美伊协议开放航道",
-        "assets": "📉 原油 供应溢价回落；📈 航运股 通行效率提升",
-        "chain": "航道开放（供给恢复）→油价下跌→通胀预期降温→美联储加息压力缓解",
-        "watch": "伊朗原油出口量及OPEC（石油输出国组织）产量政策"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Oil tanker traffic in Strait of Hormuz jumps after U.S. and Iran implement deal to open sea lane",
-      "source": "CNBC",
-      "detail": "The U.S.-Iran deal has raised questions about how the Strait of Hormuz will be governed after the toll-free period ends.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美伊核谈因黎巴嫩问题停滞，伊朗提“保险费”",
-        "assets": "📈 原油 供应风险溢价；📉 美元 避险需求",
-        "chain": "地缘紧张（供给中断风险）→油价上行→通胀预期升温→美联储加息押注增加",
-        "watch": "美伊谈判重启日期及伊朗油轮动向"
+        "what": "美伊核谈因黎巴嫩问题暂停",
+        "assets": "📈 原油 上涨；📉 美股能源板块 波动",
+        "chain": "地缘风险溢价（战争不确定性推高价）提振油价，但加息预期压制风险偏好",
+        "watch": "伊朗铀浓缩进度及海湾局势"
       }
     }
   ]
