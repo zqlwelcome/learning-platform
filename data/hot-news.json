@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 19:42",
+  "updateTime": "2026-06-19 19:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "日本央行前委员预测3月底前两次加息",
-        "assets": "📉 日元 升值 📉 日债 承压 📉 日本股市 利空",
-        "chain": "日元走强→套利交易平仓（借日元买其他资产）→新兴市场流动性收紧",
-        "watch": "日本央行1月会议纪要及2月CPI数据"
+        "what": "日本央行或3月底前两次加息",
+        "assets": "📉 日元 升值预期, 📉 日债 收益率上行",
+        "chain": "利差收窄（日美利差缩小）→日元套利交易平仓→全球风险资产波动",
+        "watch": "日本1月CPI数据及央行会议纪要"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，关注后续认购",
-        "assets": "📈 SpaceX相关概念股 利好 📈 太空ETF 利好",
-        "chain": "SpaceX上市预期→提振风险偏好→带动太空经济板块估值重估",
-        "watch": "SpaceX官方IPO时间表及SEC文件"
+        "what": "SpaceX IPO投资指南发布",
+        "assets": "📈 太空概念股 利好, 📈 私募股权 关注",
+        "chain": "IPO热度（新股上市吸引力）→资金从二级市场抽离→科技股短期承压",
+        "watch": "SpaceX官方IPO时间表及估值"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "分析师建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好 📉 美光 利空 📈 半导体板块 分化",
-        "chain": "AI芯片需求强劲→英伟达受益；存储芯片周期见顶→美光承压",
-        "watch": "英伟达财报及美光DRAM（动态随机存取存储器）价格走势"
+        "what": "华尔街建议买入英伟达卖出美光",
+        "assets": "📈 英伟达 看涨, 📉 美光 看跌",
+        "chain": "AI芯片需求结构分化（算力优于存储）→资金轮动至GPU相关ETF",
+        "watch": "英伟达财报及美光库存数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "Momenta计划赴港IPO筹资10亿美元",
-        "assets": "📈 港交所 利好 📈 自动驾驶板块 利好",
-        "chain": "自动驾驶独角兽上市→提振港股IPO市场情绪→带动相关科技股估值",
-        "watch": "Momenta招股书估值及自动驾驶政策动态"
+        "what": "Momenta拟赴港IPO筹资10亿美元",
+        "assets": "📈 港股新股市场 活跃, 📈 自动驾驶板块 利好",
+        "chain": "IPO抽资（新股融资抽走流动性）→港股短期流动性偏紧→科技股估值承压",
+        "watch": "港交所审批进度及路演反馈"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储暂停降息可能影响房贷利率",
-        "assets": "📉 美国房地产 承压 📈 美元 利好",
-        "chain": "利率高位→购房成本增加→房市需求下滑→拖累经济增速",
-        "watch": "美联储1月会议声明及30年期房贷利率走势"
+        "what": "美联储暂停降息或影响房贷利率",
+        "assets": "📉 美国房贷利率 上行风险, 📉 地产股 承压",
+        "chain": "利率传导（政策利率→抵押贷款利率）→购房成本上升→地产需求放缓",
+        "watch": "美国30年期房贷利率及成屋销售数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行管委暗示若通胀扩散将再加息",
-        "assets": "📈 欧元 升值 📉 欧债 承压 📉 欧洲股市 利空",
-        "chain": "加息预期→欧元走强→欧洲出口竞争力下降→企业盈利承压",
-        "watch": "欧元区1月CPI（消费者物价指数）及能源价格走势"
+        "what": "欧央行或再次加息应对通胀扩散",
+        "assets": "📈 欧元 升值预期, 📉 欧洲债券 收益率上行",
+        "chain": "利差扩大（欧美利差）→欧元走强→欧洲出口企业利润率受压",
+        "watch": "欧元区1月CPI及核心通胀数据"
       }
     },
     {
@@ -91,13 +91,7 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX股价两日跌7%至178美元，IPO买家接近亏损。",
-        "assets": "SpaceX股票（看跌）",
-        "chain": "IPO后抛压持续，私人市场估值泡沫或破裂，影响未上市科技股情绪。",
-        "watch": "SpaceX后续融资或回购动态"
-      }
+      "score": 35
     },
     {
       "rank": 8,
@@ -105,13 +99,7 @@
       "source": "CNBC",
       "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "印度最大电信及数字服务商Jio Platforms提交IPO申请。",
-        "assets": "印度股市（看涨）、电信板块（看涨）、Reliance Industries（看涨）",
-        "chain": "大规模IPO吸引资金流入，提振印度市场流动性，利好相关产业链。",
-        "watch": "IPO定价及超额认购倍数"
-      }
+      "score": 35
     },
     {
       "rank": 9,
@@ -119,13 +107,7 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "Warsh主张市场应引导美联储政策，而非相反。",
-        "assets": "美元（看跌）、美债收益率（看涨）、美股（看涨）",
-        "chain": "若市场主导，利率路径将更依赖通胀/就业数据，波动率上升。",
-        "watch": "美联储官员讲话及市场定价分歧"
-      }
+      "score": 33
     },
     {
       "rank": 10,
@@ -133,13 +115,7 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "SpaceX股价两日跌7%至178美元，IPO买家接近亏损。",
-        "assets": "SpaceX股票（看跌）",
-        "chain": "IPO后抛压持续，私人市场估值泡沫或破裂，影响未上市科技股情绪。",
-        "watch": "SpaceX后续融资或回购动态"
-      }
+      "score": 32
     }
   ]
 }
