@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 09:31",
+  "updateTime": "2026-06-19 09:36",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "环球市场播报",
       "detail": " 日本央行4月货币政策会议纪要显示，央行政策委员会委员达成共识，认为有必要根据经济、通胀及金融环境形势持续上调利率。",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "日本央行委员重申根据经济和通胀继续加息",
+        "assets": "📈 日元 利好 📉 日本股市 承压",
+        "chain": "鹰派信号（偏紧缩政策）强化日元升值，出口型企业（如丰田）盈利受汇率拖累，资金可能流出日股",
+        "watch": "日本GDP修正值及工资增长数据"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价两日暴跌，IPO后狂热消退",
+        "assets": "SpaceX股票做空（利空），私人科技股估值承压",
+        "chain": "IPO炒作退潮→高估值科技股信心受挫→资金转向防御",
+        "watch": "SpaceX后续交易量及是否启动正式IPO"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州预期IPO税收被多重因素拖累",
+        "assets": "加州市政债券做空（利空），科技股IPO情绪偏空",
+        "chain": "IPO延迟/缩量→州财政缺口→市场担忧地方信用",
+        "watch": "加州实际税收数据及IPO上市进度"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价两日暴跌，IPO后狂热消退",
+        "assets": "SpaceX股票做空（利空），私人科技股估值承压",
+        "chain": "IPO炒作退潮→高估值科技股信心受挫→资金转向防御",
+        "watch": "SpaceX后续交易量及是否启动正式IPO"
+      }
     }
   ]
 }
