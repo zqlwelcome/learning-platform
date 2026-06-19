@@ -1,60 +1,60 @@
 {
-  "updateTime": "2026-06-19 11:35",
+  "updateTime": "2026-06-19 11:41",
   "news": [
     {
       "rank": 1,
-      "title": "Stock Market News, June 18, 2026: Dow, S&P 500 and Nasdaq post weekly gains for second week in a row, stocks climb after U.S. and Iran sign initial peace deal - MarketWatch",
-      "source": "MarketWatch",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "美伊签署初步和平协议，美股三大指数连续两周上涨",
-        "assets": "📈 美股大盘 利好\n📈 原油 承压",
-        "chain": "地缘风险溢价（战争风险补偿）回落，油价下跌利好运输、航空板块，资金从避险资产回流股市",
-        "watch": "WTI原油期货价格是否跌破70美元/桶"
-      }
-    },
-    {
-      "rank": 2,
       "title": "百万美元“外援”保住美联储理事饭碗？一场关乎央行独立的法庭决战",
       "source": "滚动播报",
       "detail": "来源：汇通网 汇通财经APP讯——美联储理事莉莎·库克在与美国总统特朗普的职务冲突中，获得外部非营利组织提供的巨额法律和安保支持。",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美联储理事职位受百万美元外部资金影响，引发央行独立性质疑",
-        "assets": "📉 美元 承压\n📉 美债 承压",
-        "chain": "央行独立性受损（决策受政治干预）削弱市场对利率政策可信度，美元和美债可能遭抛售",
-        "watch": "美联储下次会议声明中对独立性的表态"
+        "what": "美地方法院审理美联储理事任命合法性与央行独立性",
+        "assets": "📉 美元指数 承压, 📉 美债收益率 下行",
+        "chain": "央行独立受质疑→降息预期（市场押注政策更宽松）升温→美元走弱，美债价格上升",
+        "watch": "法院裁决结果及美联储官员后续表态"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Safeguards For How To Invest In The SpaceX IPO And Beyond - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，引发市场关注",
-        "assets": "📈 太空概念股 利好\n📈 私募股权 利好",
-        "chain": "IPO预期升温（首次公开募股）将推高SpaceX估值，并带动卫星、航天产业链个股联动",
-        "watch": "SpaceX官方IPO时间表是否公布"
+        "what": "SpaceX IPO投资指南发布，市场关注其上市进展",
+        "assets": "📈 太空概念股（如ASTS） 利好",
+        "chain": "IPO预期升温→一级市场估值对标→二级市场太空板块估值重估（风险偏好提升）",
+        "watch": "SpaceX官方上市时间表及SEC文件"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Nvidia Stock vs. Micron Stock: Wall Street Says Buy One and Sell the Other - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好\n📉 美光 承压",
-        "chain": "AI芯片需求（人工智能算力）分化，英伟达受益于数据中心扩张，美光受存储芯片库存过剩压制",
-        "watch": "英伟达数据中心业务季度营收增速和美光库存周转率"
+        "what": "华尔街建议买入美光、卖出英伟达，分歧明显",
+        "assets": "📈 美光科技（MU） 利好, 📉 英伟达（NVDA） 承压",
+        "chain": "资金轮动（从AI龙头转向存储周期股）→半导体ETF（SMH）成分股分化加剧",
+        "watch": "美光财报及英伟达Blackwell芯片出货量数据"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Stock Market Today: Nasdaq Jumps, Oil Is Now Close to Pre-Iran War Prices — Live Updates - WSJ",
+      "source": "WSJ",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "纳斯达克大涨，油价回落至伊朗冲突前水平",
+        "assets": "📈 纳斯达克100 利好, 📉 原油（WTI/布伦特） 承压",
+        "chain": "地缘溢价消退（伊朗未实质断供）→通胀预期下行→科技股（久期长，对利率敏感）反弹",
+        "watch": "美国EIA原油库存及伊朗局势后续"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX市值两日连跌，被亚马逊超越",
-        "assets": "📉 SpaceX 承压\n📈 亚马逊 利好",
-        "chain": "估值回调引发科技成长股情绪波动，亚马逊云业务（AWS）市场份额预期提升，但整体科技板块风险偏好下降",
-        "watch": "SpaceX下一次发射任务成功率和亚马逊星链项目进展"
+        "what": "SpaceX市值连续两日下跌，被亚马逊超越",
+        "assets": "📉 SpaceX（私募市场估值） 承压, 📈 亚马逊（AMZN） 利好",
+        "chain": "资金从太空概念股流向科技巨头（避险）→二级市场太空ETF（ARKX）遭赎回",
+        "watch": "SpaceX融资轮估值及亚马逊Kuiper项目进展"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行副行长暗示继续加息以防范通胀超调",
-        "assets": "📈 日元 利好\n📉 日本国债 承压",
-        "chain": "加息预期（提高政策利率）推高日元汇率，日债收益率上行，全球套利交易（借低息货币买高息资产）可能平仓",
-        "watch": "日本核心CPI（消费者物价指数）是否持续高于2%目标"
+        "what": "日本央行副行长称将继续加息以防范通胀超调",
+        "assets": "📈 日元（JPY） 利好, 📉 日经225 承压",
+        "chain": "加息预期（借钱成本上升）→套利交易（借日元买高息资产）平仓→全球风险资产波动",
+        "watch": "日本CPI数据及下月利率决议"
       }
     },
     {
