@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 08:20",
+  "updateTime": "2026-06-19 08:21",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普解雇美联储理事库克致其承担百万法律安全费",
+        "assets": "美元短期偏弱，美债收益率下行",
+        "chain": "削弱美联储独立性预期→市场押注更鸽派政策→美元承压",
+        "watch": "特朗普是否继续施压其他美联储官员"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预计沃什领导的美联储将比预期更鹰派",
+        "assets": "美元走强，美债收益率上行，黄金承压",
+        "chain": "鹰派预期→加息概率上升→风险资产估值压力增大",
+        "watch": "沃什正式提名后的政策表态与国会听证"
+      }
     },
     {
       "rank": 9,
@@ -107,15 +119,13 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "抵押贷款利率因美联储政策鹰派信号飙升",
+        "assets": "房地产板块利空，美元走强，国债收益率上行",
+        "chain": "利率上升→购房需求降温→经济放缓预期增强",
+        "watch": "30年期抵押贷款利率是否突破7.5%关口"
+      }
     }
   ]
 }
