@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 16:26",
+  "updateTime": "2026-06-19 16:30",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日央行委员暗示3月底前两次加息",
-        "assets": "📈 日元 升值; 📉 日本国债 承压",
-        "chain": "套息交易（借低息日元投高息资产）逆转，抛售美股/新兴市场资产",
-        "watch": "日本央行1月会议纪要及下次利率决议"
+        "what": "前日央行委员暗示3月底前可能两次加息",
+        "assets": "📈 日元 升值预期；📉 日本国债 承压",
+        "chain": "套利交易（借低息日元买高息资产）平仓，冲击新兴市场及美股科技股",
+        "watch": "日本央行1月会议纪要及通胀数据（CPI，消费者物价指数）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后两日下跌，平均买家接近亏损",
-        "assets": "📉 SpaceX相关概念股 利空; 📉 太空ETF 承压",
-        "chain": "IPO热度降温，打压一级市场估值（未上市公司定价），拖累风投信心",
-        "watch": "SpaceX股价是否跌破IPO发行价"
+        "what": "SpaceX IPO后股价连续两日下跌，平均买家接近亏损",
+        "assets": "📉 太空概念股 承压；📉 高风险IPO 情绪利空",
+        "chain": "IPO估值泡沫（发行价过高）引发回调，抑制散户对新股追涨热情",
+        "watch": "SpaceX后续财报及锁定期（禁售期）到期后抛压"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Accenture下调营收指引，印度IT股暴跌7%",
-        "assets": "📉 印度IT股 利空; 📉 全球科技服务股 承压",
-        "chain": "企业IT支出放缓（Accenture是行业风向标），拖累软件和咨询板块",
-        "watch": "Accenture财报后其他IT服务商（如Infosys）的指引"
+        "what": "Accenture下调营收展望，印度IT股暴跌7%",
+        "assets": "📉 印度IT股 利空；📉 全球科技外包 承压",
+        "chain": "企业IT支出放缓（客户砍预算）传导至外包需求萎缩，拖累纳斯达克科技股",
+        "watch": "Accenture下一季度财报及美国企业资本开支数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行管委：若通胀扩散，支持下月加息",
-        "assets": "📈 欧元 升值; 📉 欧洲债券 承压",
-        "chain": "加息预期推高融资成本（借钱更贵），压制欧元区消费和地产",
-        "watch": "欧元区1月CPI数据及工资谈判结果"
+        "what": "欧洲央行管委称若通胀扩散将支持下月加息",
+        "assets": "📈 欧元 走强预期；📉 欧洲债券 收益率上行",
+        "chain": "加息（借钱成本提高）抑制经济，利空欧股及出口导向型行业",
+        "watch": "欧元区核心通胀（剔除能源食品）及服务业PMI（采购经理人指数）"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后股价两日下跌，平均买家接近亏损",
+        "assets": "📉 太空概念股 利空；📉 散户情绪 转弱",
+        "chain": "IPO破发（上市后跌破发行价）风险上升，打压一级市场融资热度",
+        "watch": "SpaceX后续订单及火箭发射成功率"
+      }
     },
     {
       "rank": 6,
@@ -73,10 +79,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "Warsh主张市场引导美联储，而非相反",
-        "assets": "📈 美股 波动加剧; 📉 美债收益率 上行风险",
-        "chain": "市场定价主导政策（交易员决定利率预期），削弱美联储前瞻指引可信度",
-        "watch": "联邦基金期货隐含利率路径变化"
+        "what": "Warsh主张由市场引导美联储而非相反",
+        "assets": "📈 美债收益率 波动加大；📉 美元 不确定性上升",
+        "chain": "市场定价（交易员预期）主导政策路径，削弱美联储前瞻指引（预期管理）可信度",
+        "watch": "美联储官员讲话及点阵图（利率预测）变化"
       }
     },
     {
