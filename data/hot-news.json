@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 09:16",
+  "updateTime": "2026-06-19 09:18",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价因IPO后热潮消退而下跌",
+        "assets": "SpaceX股票（看跌），科技IPO市场（看跌）",
+        "chain": "IPO后抛售潮→散户亏损→压制市场情绪→科技股估值承压",
+        "watch": "SpaceX成交量及后续IPO锁定期到期情况"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州依赖IPO税收面临多重不确定性",
+        "assets": "加州市政债（看跌），科技股（看跌）",
+        "chain": "IPO税收预期落空→州财政缺口→削减支出或增税→利空本地经济",
+        "watch": "加州税收数据及IPO上市节奏"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价因IPO后热潮消退而下跌",
+        "assets": "SpaceX股票（看跌），科技IPO市场（看跌）",
+        "chain": "IPO后抛售潮→散户亏损→压制市场情绪→科技股估值承压",
+        "watch": "SpaceX成交量及后续IPO锁定期到期情况"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图解雇美联储理事Lisa Cook致其损失逾百万美元",
+        "assets": "美元（看跌），美债（看涨），美联储独立性（看跌）",
+        "chain": "政治干预美联储→削弱公信力→市场定价政策风险→美元走弱",
+        "watch": "美联储官员公开表态及国会听证会"
+      }
     }
   ]
 }
