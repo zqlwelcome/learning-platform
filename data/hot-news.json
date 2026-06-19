@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 08:51",
+  "updateTime": "2026-06-19 08:52",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX上市后热度消退，股价下跌",
+        "assets": "📉 SpaceX 利空; 📉 太空概念股 承压",
+        "chain": "散户获利了结（卖出锁定利润）引发抛售，可能拖累同类新股情绪",
+        "watch": "SpaceX成交量变化及机构持仓报告"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普试图解雇美联储理事库克，致其损失超百万美元",
+        "assets": "美元利空，美债收益率下行",
+        "chain": "削弱美联储独立性→市场押注更鸽派政策→美元走弱",
+        "watch": "库克是否提前离职及后续理事任命"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "沃什主张市场主导美联储，鹰派预期升温",
+        "assets": "美元利多，美股利空，美债收益率上行",
+        "chain": "鹰派沃什上任→加息预期提前→风险资产承压",
+        "watch": "沃什正式提名进展及首次政策表态"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "沃什主张市场主导美联储，鹰派预期升温",
+        "assets": "美元利多，美股利空，美债收益率上行",
+        "chain": "鹰派沃什上任→加息预期提前→风险资产承压",
+        "watch": "沃什正式提名进展及首次政策表态"
+      }
     }
   ]
 }
