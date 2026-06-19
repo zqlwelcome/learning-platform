@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 18:50",
+  "updateTime": "2026-06-19 18:52",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "欧洲央行管委、比利时央行行长皮埃尔·温施（Pierre Wunsch）周五表示，如果看到欧元区通胀蔓延至能源以外的更多迹象，欧洲央行最早可能在下个月再次加息...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "欧央行管委暗示若通胀扩散将再加息",
+        "assets": "EUR多头，欧洲债券空头",
+        "chain": "加息预期推高欧元汇率，压制欧洲股市和债券价格",
+        "watch": "欧元区通胀数据及能源价格走势"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后股价两日暴跌，买家接近亏损",
+        "assets": "SpaceX股票空头，科技IPO市场情绪偏空",
+        "chain": "高估值泡沫破裂风险蔓延至其他未盈利科技股，打压IPO信心",
+        "watch": "SpaceX后续交易日成交量及机构持仓变动"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "印度最大电信商Jio Platforms提交IPO申请",
+        "assets": "印度股市多头，电信板块看涨",
+        "chain": "大规模IPO吸走流动性，短期压制指数；长期增强市场深度",
+        "watch": "IPO定价区间及印度监管审批进度"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场应引导美联储而非相反",
+        "assets": "美元空头，美债收益率曲线陡化",
+        "chain": "若市场主导政策，利率预期波动加剧，削弱央行可信度",
+        "watch": "美联储官员后续讲话及市场定价分歧"
+      }
     }
   ]
 }
