@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 10:00",
+  "updateTime": "2026-06-19 10:05",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价在IPO后狂热消退中下跌",
+        "assets": "SpaceX股票、科技新股",
+        "chain": "IPO短期炒作资金离场 → 抛压增加 → 股价回调 → 散户浮亏扩大",
+        "watch": "是否有机构逢低建仓，以及后续锁定期解禁节奏"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州预期从IPO获得税收收入，但多重因素使前景复杂化",
+        "assets": "加州市政债券、地方财政相关资产",
+        "chain": "IPO税收预期下滑 → 加州财政收入可能不及预期 → 地方债信用利差或走阔",
+        "watch": "加州实际税收数据及发债成本变化"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后两日暴跌，平均买家已接近亏损",
+        "assets": "SpaceX股票、散户交易情绪指标",
+        "chain": "追高买入 → 股价连续下跌 → 多数投资者浮亏 → 可能触发止损卖压",
+        "watch": "是否形成恐慌性抛售，以及做空比率变化"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "21世纪经济报道",
       "detail": "记者丨王峰 编辑丨张星 日前，国务院印发《实施就业优先战略“十五五”规划》（以下简称《规划》）。劳动密集型行业、服务业、新兴领域里，轻工、纺织、外贸、养老、托育...",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "国务院印发未来五年就业规划文件",
+        "assets": "A股教育、人力资源、消费相关板块",
+        "chain": "政策稳就业预期 → 提振居民收入信心 → 利好可选消费及服务业",
+        "watch": "具体就业目标及补贴措施细节，以及后续配套财政支出"
+      }
     }
   ]
 }
