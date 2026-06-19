@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 20:16",
+  "updateTime": "2026-06-19 20:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "美联储要求稳定币发行商实施客户识别计划",
-        "assets": "📉 加密货币 承压",
-        "chain": "监管收紧（合规成本上升）→ 稳定币流动性下降 → 加密市场波动加剧",
-        "watch": "美联储最终规则及稳定币发行商合规进展"
+        "what": "美联储拟要求稳定币发行人执行客户识别程序",
+        "assets": "📉 加密货币 承压, 📈 美元 利好",
+        "chain": "监管收紧增加合规成本，资金或从稳定币流向国债等避险资产（risk-off）",
+        "watch": "美联储最终规则发布时间及豁免条款"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日央行委员暗示3月底前两次加息",
-        "assets": "📈 日元 利好 | 📉 日本国债 承压",
-        "chain": "加息预期升温 → 日元升值（利差交易反转）→ 日本股市（出口商）承压",
-        "watch": "日本央行1月会议及通胀数据"
+        "what": "前日央行委员预测3月底前两次加息",
+        "assets": "📈 日元 升值, 📉 日本国债 收益率上行",
+        "chain": "日元套利交易（借低息日元买高息资产）平仓，冲击全球风险资产",
+        "watch": "日本央行1月会议纪要及通胀数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "文章提供SpaceX IPO投资指南",
-        "assets": "📈 太空概念股 利好",
-        "chain": "IPO热度（资金追逐）→ 推高相关ETF（交易所交易基金）及私营估值",
-        "watch": "SpaceX上市时间表及估值"
+        "what": "SpaceX IPO投资指南发布，关注二级市场机会",
+        "assets": "📈 太空概念股 利好, 📈 私人科技公司估值 上行",
+        "chain": "SpaceX高估值或带动卫星/航天ETF（交易所交易基金）资金流入，并推高未上市科技公司溢价",
+        "watch": "SpaceX上市时间表及二级市场交易价格"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街建议买入美光、卖出英伟达",
-        "assets": "📈 美光科技 利好 | 📉 英伟达 承压",
-        "chain": "资金轮动（从AI龙头转向存储芯片）→ 半导体板块分化",
-        "watch": "美光财报及英伟达GPU（图形处理器）需求数据"
+        "what": "华尔街建议买入英伟达、卖出美光",
+        "assets": "📈 英伟达 利好, 📉 美光 承压",
+        "chain": "AI芯片需求分化：英伟达受益于数据中心扩张（capex），美光受制于存储芯片周期下行（库存过剩）",
+        "watch": "英伟达Q4财报指引及美光DRAM/NAND价格走势"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "Momenta计划香港IPO筹资10亿美元",
-        "assets": "📈 港股自动驾驶板块 利好",
-        "chain": "IPO融资（资金注入）→ 提升行业估值 → 带动同业上市预期",
-        "watch": "Momenta招股书及港股流动性"
+        "what": "Momenta拟香港IPO筹资10亿美元",
+        "assets": "📈 自动驾驶板块 利好, 📈 港股IPO市场 回暖",
+        "chain": "自动驾驶赛道估值修复，带动产业链（激光雷达、芯片）资金流入，港股流动性改善",
+        "watch": "Momenta招股书估值及基石投资者名单"
       }
     },
     {
@@ -80,9 +80,9 @@
       "score": 38,
       "insight": {
         "what": "美联储暂停降息或影响房贷利率",
-        "assets": "📉 美国房地产ETF 承压 | 📈 美元 利好",
-        "chain": "利率高位（借钱成本高）→ 房贷利率难降 → 抑制购房需求",
-        "watch": "30年期房贷利率及美联储点阵图（利率预测）"
+        "assets": "📈 美国国债收益率 上行, 📉 房地产板块 承压",
+        "chain": "利率高位抑制购房需求（按揭成本上升），但可能推高租金通胀（CPI（消费者物价指数）分项）",
+        "watch": "30年期抵押贷款利率及成屋销售数据"
       }
     },
     {
@@ -95,6 +95,14 @@
     },
     {
       "rank": 8,
+      "title": "Goldman Sachs Lops $500 Off Gold Target on No Fed Cuts This Year - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 9,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
@@ -102,20 +110,12 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "India's largest telecom and digital service Jio Platforms files for IPO",
       "source": "CNBC",
       "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
       "lang": "en",
       "score": 35
-    },
-    {
-      "rank": 10,
-      "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33
     }
   ]
 }
