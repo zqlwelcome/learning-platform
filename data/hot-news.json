@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 16:41",
+  "updateTime": "2026-06-19 16:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "Accenture下调营收展望，印度IT股暴跌7%",
-        "assets": "📉 印度IT股 利空, 📉 全球IT服务板块 承压",
-        "chain": "Accenture作为行业风向标，下调指引预示企业IT支出放缓（企业减少科技投入），拖累新兴市场科技外包",
-        "watch": "Accenture下一季财报及印度IT巨头TCS/Infosys业绩"
+        "what": "日央行前委员暗示3月底前两次加息",
+        "assets": "📈 日元 利好；📉 日本国债 承压",
+        "chain": "套利交易（借日元买高息资产）平仓，全球风险资产承压",
+        "watch": "日本1月CPI（通胀数据）及央行会议纪要"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，但股价两日下跌",
-        "assets": "📉 SpaceX 相关概念股 承压",
-        "chain": "IPO后抛压（上市后获利了结）显示估值过高，可能影响后续太空股融资情绪",
-        "watch": "SpaceX IPO锁定期到期及后续财报"
+        "what": "Safeguards文章讨论SpaceX IPO投资策略",
+        "assets": "📈 SpaceX相关私募股权 中性偏利好",
+        "chain": "散户资金涌入IPO前交易（Pre-IPO），推高估值泡沫风险",
+        "watch": "SpaceX官方IPO时间表及SEC（美国证监会）备案"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "美联储暂停降息或影响房贷利率",
-        "assets": "📈 美国房贷利率 承压, 📉 房地产板块 利空",
-        "chain": "降息暂停（借钱成本不变）使房贷利率难以下降，抑制购房需求，拖累建筑和抵押贷款股",
-        "watch": "美联储下次利率决议及30年房贷利率走势"
+        "what": "Accenture下调营收指引，印度IT股暴跌7%",
+        "assets": "📉 印度IT股 利空；📉 全球IT外包板块 承压",
+        "chain": "企业削减IT支出（资本开支减少），拖累科技服务需求预期",
+        "watch": "印度IT巨头（Infosys、TCS）季度财报及订单指引"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "日本央行或于3月底前两次加息",
-        "assets": "📉 日元 利好, 📉 日本国债 承压",
-        "chain": "加息（借钱成本提高）推高日元，利空日股出口商，可能引发套利交易（借低息货币投高息资产）平仓",
-        "watch": "日本央行1月会议纪要及下次利率决议"
+        "what": "美联储暂停降息，房贷利率可能维持高位",
+        "assets": "📉 美国房地产ETF 利空；📉 抵押贷款相关证券 承压",
+        "chain": "高利率抑制购房需求（借贷成本上升），经济放缓风险增加",
+        "watch": "美国30年期固定房贷利率及成屋销售数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行管委：若能源通胀扩散，将支持再次加息",
-        "assets": "📈 欧元 利好, 📉 欧洲债券 承压",
-        "chain": "加息预期（提高借贷成本）推高欧元汇率，利空欧洲出口商，同时压制欧洲股市估值",
-        "watch": "欧元区核心CPI（剔除能源的物价）及能源价格走势"
+        "what": "欧央行管委暗示若通胀扩散将再加息",
+        "assets": "📈 欧元 利好；📉 欧洲债券 承压",
+        "chain": "加息预期（借钱成本上升）压制股市估值，欧股资金外流",
+        "watch": "欧元区1月服务业PMI（采购经理人指数）及核心CPI"
       }
     },
     {
@@ -77,15 +77,21 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX IPO后买家平均持仓接近盈亏线",
+        "assets": "📉 SpaceX相关私募股权 利空",
+        "chain": "散户恐慌抛售（止损盘涌出），Pre-IPO市场流动性恶化",
+        "watch": "SpaceX二级市场价格及新融资轮估值变动"
+      }
     },
     {
       "rank": 7,
-      "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "White House talks with Anthropic shift to setting AI security rules - Politico",
+      "source": "Politico",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 33
+      "score": 32
     },
     {
       "rank": 8,
