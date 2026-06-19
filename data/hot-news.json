@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 08:15",
+  "updateTime": "2026-06-19 08:17",
   "news": [
     {
       "rank": 1,
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州预期IPO税收大增，但面临多重不确定性",
-        "assets": "📉 加州地方债 承压\n📉 美股IPO 情绪偏空",
-        "chain": "IPO降温减少州政府财政收入，可能引发加州财政缺口，推高市政债（地方政府债券）收益率",
-        "watch": "加州2026年IPO实际税收数据"
+        "what": "SpaceX股价下跌，IPO后热潮降温",
+        "assets": "SpaceX（利空），私人科技股（利空）",
+        "chain": "IPO炒作退潮，科技股估值承压，资金流向防御资产",
+        "watch": "SpaceX是否推迟IPO及二级市场交易量"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州预期IPO税收大增，但面临多重不确定性",
+        "assets": "📉 加州地方债 承压\n📉 美股IPO 情绪偏空",
+        "chain": "IPO降温减少州政府财政收入，可能引发加州财政缺口，推高市政债（地方政府债券）收益率",
+        "watch": "加州2026年IPO实际税收数据"
+      }
     },
     {
       "rank": 6,
@@ -85,7 +91,13 @@
       "source": "CNBC",
       "detail": "A financial disclosure from Federal Reserve Governor Lisa Cook details large legal and security expenses",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "特朗普罢免美联储理事Cook致其损失超百万",
+        "assets": "美元（利空），美联储独立性（利空）",
+        "chain": "政治干预削弱央行信誉，市场预期政策不确定性溢价上升",
+        "watch": "Cook是否留任及国会反应"
+      }
     },
     {
       "rank": 8,
@@ -93,7 +105,13 @@
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "市场预期Warsh领导美联储将更鹰派",
+        "assets": "美债收益率（利多），美元（利多），股市（利空）",
+        "chain": "鹰派预期推升加息概率，风险资产承压，美元走强",
+        "watch": "Warsh政策表态及美联储会议纪要"
+      }
     },
     {
       "rank": 9,
@@ -101,15 +119,13 @@
       "source": "Mortgage News Daily",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Markets are set for a much more hawkish Warsh Fed than expected",
-      "source": "CNBC",
-      "detail": "Fed Chairman Kevin Warsh's tough talk on inflation Wednesday reverberated through financial markets.",
-      "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "房贷利率因美联储政策飙升",
+        "assets": "房地产（利空），抵押贷款REITs（利空），建材股（利空）",
+        "chain": "高利率抑制购房需求，经济放缓风险上升，信用利差扩大",
+        "watch": "30年固定利率房贷申请量及房价指数"
+      }
     }
   ]
 }
