@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 19:52",
+  "updateTime": "2026-06-19 19:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日央行官员暗示3月底前可能两次加息",
-        "assets": "📉 日元 利好; 📈 日本国债收益率 上行",
-        "chain": "利差收窄推升日元（套息交易平仓），冲击新兴市场资金流（资本外流压力）",
-        "watch": "日本央行1月会议纪要及官员后续讲话"
+        "what": "日央行前委员暗示3月底前两次加息",
+        "assets": "📉 日元 利好\n📉 日本国债 承压",
+        "chain": "日元升值→套利交易平仓（借日元买高息资产）→全球风险资产承压",
+        "watch": "日本1月CPI数据及央行会议纪要"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，市场关注度升温",
-        "assets": "📈 SpaceX未上市股权（私募市场） 利好; 📉 传统航天股（如洛克希德马丁） 承压",
-        "chain": "IPO预期抬高估值（价格倍数），带动太空ETF（交易所交易基金）资金流入",
-        "watch": "SEC（美国证监会）文件及私募交易价格"
+        "what": "SpaceX IPO投资指南发布，关注非公开市场",
+        "assets": "📈 SpaceX概念股 利好\n📉 传统航天股 承压",
+        "chain": "IPO热度→资金从传统板块轮动→推高私人科技公司估值",
+        "watch": "SpaceX官方IPO时间表及SEC文件"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 41,
       "insight": {
         "what": "华尔街建议买入英伟达、卖出美光",
-        "assets": "📈 英伟达 利好; 📉 美光 承压",
-        "chain": "AI芯片需求分化（英伟达GPU（图形处理器）主导，美光存储库存过剩），引导资金轮动",
-        "watch": "英伟达/美光财报及AI资本开支数据"
+        "assets": "📈 英伟达 利好\n📉 美光 承压",
+        "chain": "AI芯片需求分化→英伟达主导GPU（图形处理器），美光存储过剩→半导体板块内轮动",
+        "watch": "英伟达财报及美光库存数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "Momenta计划港股IPO筹资10亿美元",
-        "assets": "📈 港股自动驾驶板块 利好; 📉 其他未上市自动驾驶公司 估值承压",
-        "chain": "IPO定价锚定行业估值（市盈率），可能引发同类公司跟风上市（供给增加）",
-        "watch": "港交所聆讯进展及基石投资者名单"
+        "what": "Momenta拟赴港IPO筹资10亿美元",
+        "assets": "📈 港股自动驾驶板块 利好\n📉 其他中概股IPO 分流",
+        "chain": "自动驾驶赛道热度→资金涌入港股科技→提振恒生科技指数流动性",
+        "watch": "港交所审批进度及Momenta估值区间"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储暂停降息可能维持房贷利率高位",
-        "assets": "📉 美国房地产REITs（房地产信托基金） 承压; 📈 美元 利好",
-        "chain": "利率高企抑制购房需求（抵押贷款成本上升），传导至建材及家具需求放缓",
-        "watch": "30年期抵押贷款利率及新房销售数据"
+        "what": "美联储暂停降息，房贷利率或维持高位",
+        "assets": "📉 美国房地产 承压\n📈 美元 利好",
+        "chain": "利率高位→购房成本上升→抑制需求→抵押贷款支持证券（MBS）下跌",
+        "watch": "美国30年期房贷利率及成屋销售数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行官员暗示若能源通胀扩散则再次加息",
-        "assets": "📈 欧元 利好; 📉 欧债（短期） 承压; 📉 欧洲股市 承压",
-        "chain": "加息预期推高融资成本（企业借贷利率），压制消费和投资，欧元走强冲击出口",
-        "watch": "欧元区CPI（消费者物价指数）及能源价格走势"
+        "what": "欧央行管委暗示若能源通胀扩散则加息",
+        "assets": "📈 欧元 利好\n📉 欧洲债券 承压",
+        "chain": "加息预期→欧元走强→欧洲出口竞争力下降→拖累制造业PMI（采购经理指数）",
+        "watch": "欧元区1月CPI及能源价格走势"
       }
     },
     {
@@ -91,13 +91,7 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX IPO投资指南发布，市场关注度升温",
-        "assets": "📈 SpaceX未上市股权（私募市场） 利好; 📉 传统航天股（如洛克希德马丁） 承压",
-        "chain": "IPO预期抬高估值（价格倍数），带动太空ETF（交易所交易基金）资金流入",
-        "watch": "SEC（美国证监会）文件及私募交易价格"
-      }
+      "score": 35
     },
     {
       "rank": 8,
@@ -105,13 +99,7 @@
       "source": "CNBC",
       "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
       "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "印度最大电信数字平台Jio申请IPO",
-        "assets": "印度股市看涨，电信板块走强",
-        "chain": "IPO吸走流动性，但提升印度科技估值，外资或增配",
-        "watch": "发行定价及认购倍数，后续其他印度科技股反应"
-      }
+      "score": 35
     },
     {
       "rank": 9,
@@ -119,13 +107,7 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "沃什主张市场引导美联储而非相反",
-        "assets": "美债收益率下行，美元承压",
-        "chain": "市场预期美联储更被动，降息押注升温，风险资产获支撑",
-        "watch": "美联储官员后续讲话及市场定价的降息概率变化"
-      }
+      "score": 33
     },
     {
       "rank": 10,
@@ -133,13 +115,7 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "SpaceX IPO投资指南发布，市场关注度升温",
-        "assets": "📈 SpaceX未上市股权（私募市场） 利好; 📉 传统航天股（如洛克希德马丁） 承压",
-        "chain": "IPO预期抬高估值（价格倍数），带动太空ETF（交易所交易基金）资金流入",
-        "watch": "SEC（美国证监会）文件及私募交易价格"
-      }
+      "score": 32
     }
   ]
 }
