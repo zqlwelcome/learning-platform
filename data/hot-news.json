@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 09:46",
+  "updateTime": "2026-06-19 09:48",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价因IPO热潮降温而下跌，买家濒临亏损。",
+        "assets": "SpaceX股票（看跌），科技IPO板块（看跌）",
+        "chain": "IPO市场情绪恶化，私人科技公司估值承压，可能拖累整体风险资产。",
+        "watch": "SpaceX后续交易量及是否跌破买入均价。"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "加州预期IPO税收大幅增加，但多重因素使计算复杂化。",
+        "assets": "加州地方政府债券（看跌），科技股IPO（看跌）",
+        "chain": "IPO放缓减少税收，可能加剧加州财政赤字，推高市政债收益率。",
+        "watch": "加州季度税收报告及IPO上市节奏。"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX股价因IPO热潮降温而下跌，买家濒临亏损。",
+        "assets": "SpaceX股票（看跌），科技IPO板块（看跌）",
+        "chain": "IPO市场情绪恶化，私人科技公司估值承压，可能拖累整体风险资产。",
+        "watch": "SpaceX后续交易量及是否跌破买入均价。"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "21世纪经济报道",
       "detail": "记者丨王峰 编辑丨张星 日前，国务院印发《实施就业优先战略“十五五”规划》（以下简称《规划》）。劳动密集型行业、服务业、新兴领域里，轻工、纺织、外贸、养老、托育...",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "国务院印发未来5年就业规划，强调稳就业政策。",
+        "assets": "A股消费/教育板块（看涨），国债（看涨）",
+        "chain": "政策利好提升就业预期，刺激内需消费，但可能增加财政支出压力。",
+        "watch": "后续配套措施及失业率数据。"
+      }
     }
   ]
 }
