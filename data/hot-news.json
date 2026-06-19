@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-20 00:45",
+  "updateTime": "2026-06-20 00:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "美联储拟要求稳定币发行商执行客户识别程序",
-        "assets": "📉 加密货币 利空；📉 稳定币 承压",
-        "chain": "监管收紧（类似银行KYC）→稳定币流动性下降→DeFi（去中心化金融）借贷利率上行",
-        "watch": "美联储最终规则是否豁免小型发行商"
+        "what": "美联储要求稳定币发行人建立客户识别程序",
+        "assets": "📉 加密货币 承压",
+        "chain": "监管收紧增加合规成本，可能抑制稳定币发行和交易（流动性收缩）。",
+        "watch": "美联储最终规则及稳定币市场份额变化"
       }
     },
     {
@@ -23,24 +23,24 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日央行委员预计3月底前两次加息",
-        "assets": "📈 日元 利好；📉 日本国债 承压",
-        "chain": "加息预期→日元套利交易（借日元买高息资产）平仓→新兴市场货币/美股承压",
-        "watch": "日本12月CPI（消费者物价指数）数据及植田讲话"
+        "what": "前日央行委员暗示3月底前两次加息",
+        "assets": "📈 日元 利好；📉 日债 承压",
+        "chain": "日本加息预期推升日元，利差收窄（美日利差缩小）导致套利交易平仓，全球风险资产承压。",
+        "watch": "日本央行会议及通胀数据"
       }
     },
     {
       "rank": 3,
-      "title": "SpaceX stock sinks 7%. The IPO honeymoon is over - qz.com",
+      "title": "SpaceX stock sinks another 7%. The IPO honeymoon is over - qz.com",
       "source": "qz.com",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "SpaceX股价跌7%，IPO热度消退",
-        "assets": "📉 SpaceX 利空；📉 太空概念股 承压",
-        "chain": "IPO溢价（上市初期虚高）回落→私人市场估值重估→影响未上市科技公司融资定价",
-        "watch": "SpaceX二次发售或Starlink（星链）用户增长数据"
+        "what": "SpaceX股价再跌7%，IPO热度消退",
+        "assets": "📉 SpaceX股票 利空；📉 太空概念股 承压",
+        "chain": "IPO后抛售潮反映估值修正（市盈率回归均值），可能拖累私募市场科技股估值。",
+        "watch": "SpaceX后续财报及订单数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Momenta拟香港IPO筹资10亿美元",
-        "assets": "📈 港股IPO市场 利好；📉 自动驾驶同业 承压",
-        "chain": "融资扩产→行业竞争加剧→挤压同行（如小马智行）估值空间",
-        "watch": "Momenta招股书毛利率及客户集中度"
+        "what": "知情人士称Momenta拟香港IPO筹资10亿美元",
+        "assets": "📈 港股IPO市场 利好；📈 自动驾驶概念 利好",
+        "chain": "大额IPO吸引资金流入港股，提振板块情绪（风险偏好上升），但可能分流流动性。",
+        "watch": "招股书细节及基石投资者名单"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "伊朗局势及沃什鹰派言论推高美联储加息押注",
-        "assets": "📈 美元 利好；📉 黄金 承压；📉 美债 利空",
-        "chain": "地缘冲突（伊朗）推油价→通胀预期上行→加息预期强化（沃什为前理事）→风险资产（美股）回调",
-        "watch": "美国11月PCE（个人消费支出物价指数）及伊以冲突进展"
+        "what": "伊朗局势和鹰派言论下交易员押注美联储加息",
+        "assets": "📈 美元 利好；📉 美股 承压；📉 黄金 承压",
+        "chain": "地缘风险叠加加息预期推高实际利率（名义利率减通胀），压制风险资产和贵金属。",
+        "watch": "美联储会议纪要及伊朗局势升级情况"
       }
     },
     {
@@ -89,6 +89,14 @@
     },
     {
       "rank": 8,
+      "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 9,
       "title": "This nuclear stock will benefit from AI datacenter buildout and soaring energy demand, Roth Capital says",
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
@@ -96,20 +104,12 @@
       "score": 32
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "为何日本耗资超700亿美元汇市干预叠加加息，仍未能显著提振日元",
       "source": "环球市场播报",
       "detail": "日本财务大臣片山皋月在外汇领域正愈发陷入进退两难的尴尬处境。 4 至 5 月，日本动用逾 11.7 万亿日元（折合 728 亿美元）外汇储备托举日元...",
       "lang": "zh",
       "score": 28
-    },
-    {
-      "rank": 10,
-      "title": "Global stock markets mixed as investors assess durability of U.S.-Iran peace deal - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27
     }
   ]
 }
