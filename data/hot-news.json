@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-20 00:26",
+  "updateTime": "2026-06-20 00:28",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Warsh主张市场引导美联储，而非相反",
+        "assets": "美元指数看空，美股看多",
+        "chain": "市场预期美联储独立性减弱，削弱美元，利好风险资产",
+        "watch": "美联储下一次利率决议措辞"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX股价暴跌，尽管获得两大目标价",
+        "assets": "SPCE看空，太空ETF看空",
+        "chain": "目标价未能提振信心，反映市场对估值或基本面担忧，拖累板块",
+        "watch": "SpaceX后续融资或订单消息"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Roth Capital称核电股受益于AI数据中心和能源需求",
+        "assets": "核电股（如CCJ、UEC）看多，铀矿ETF看多",
+        "chain": "AI算力扩张推升电力需求，核电作为基荷能源获长期利好",
+        "watch": "美国核监管委员会新许可证审批进展"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "市场资讯",
       "detail": "6月19日，昨日周四我们认为，美联储周三维持利率不变，但释放了明确的鹰派信号，市场对美联储加息的预期大幅升温，直接打压黄金价格...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "美联储鹰派信号打压黄金价格",
+        "assets": "黄金看空，白银看空，美元看多",
+        "chain": "利率预期上升提升美元和债券收益率，削弱无息资产黄金吸引力",
+        "watch": "美国CPI及非农就业数据"
+      }
     }
   ]
 }
