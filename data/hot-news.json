@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 17:26",
+  "updateTime": "2026-06-19 17:31",
   "news": [
     {
       "rank": 1,
@@ -10,8 +10,8 @@
       "score": 50,
       "insight": {
         "what": "SpaceX计划发行200亿美元债券，此前IPO创纪录",
-        "assets": "📈 太空概念股 利好；📉 债券市场 供给压力",
-        "chain": "SpaceX高杠杆融资（借钱扩张）可能推高企业债利率，挤压其他高风险资产估值",
+        "assets": "📈 SpaceX债券 利好\n📉 传统航天股 承压",
+        "chain": "高收益债（高风险债券）市场扩容，可能挤压其他科技债需求",
         "watch": "债券发行定价及认购倍数"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储暂停加息可能影响房贷利率",
-        "assets": "📈 美国房地产REITs 利好；📉 抵押贷款证券 波动",
-        "chain": "暂停加息（利率不变）降低购房成本，但通胀粘性（物价难降）可能限制利率下行空间",
-        "watch": "30年期房贷利率及CPI数据"
+        "what": "前日央行委员预计3月底前两次加息",
+        "assets": "📈 日元 升值\n📉 日本国债 承压",
+        "chain": "日元套利交易（借日元买高息资产）平仓，冲击新兴市场",
+        "watch": "日本CPI（消费者物价指数）及薪资数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后散户平均浮亏，两日下跌",
-        "assets": "📉 SpaceX相关ETF 承压；📉 新股市场 情绪降温",
-        "chain": "散户亏损（浮亏）可能抑制投机情绪，拖累其他高估值成长股（如科技股）回调",
-        "watch": "SpaceX股价是否跌破发行价"
+        "what": "SpaceX IPO后投资者指南发布",
+        "assets": "📈 SpaceX相关ETF 利好\n📉 空头仓位 承压",
+        "chain": "散户资金涌入，推高估值，但波动率（价格变动幅度）上升",
+        "watch": "SEC（美国证监会）对SPAC（特殊目的收购公司）监管动态"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "前日央行委员预计3月底前两次加息",
-        "assets": "📈 日元 升值；📉 日本国债 承压",
-        "chain": "日本加息（借钱成本提高）可能引发套利交易（借日元买高息资产）平仓，冲击全球风险资产",
-        "watch": "日本央行1月会议纪要及通胀数据"
+        "what": "美联储暂停降息，房贷利率可能维持高位",
+        "assets": "📈 美元 利好\n📉 美国房地产 承压",
+        "chain": "按揭利率（房贷成本）高企抑制购房需求，拖累建筑股",
+        "watch": "30年期固定房贷利率及成屋销售数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行管委：若能源外通胀蔓延，支持下月加息",
-        "assets": "📈 欧元 升值；📉 欧洲债券 承压",
-        "chain": "加息预期（借钱成本上升）收紧金融条件（流动性减少），抑制欧元区消费和投资",
-        "watch": "欧元区核心CPI及服务业通胀数据"
+        "what": "欧央行管委称若能源通胀扩散将再次加息",
+        "assets": "📈 欧元 升值\n📉 欧洲国债 承压",
+        "chain": "加息预期推高融资成本（借钱成本），压制欧洲股市",
+        "watch": "欧元区核心CPI（剔除能源食品的物价）及PMI（采购经理人指数）"
       }
     },
     {
@@ -77,7 +77,13 @@
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "SpaceX散户平均持仓在两天下跌后接近亏损",
+        "assets": "📉 SpaceX概念股 承压\n📈 做空期权 利好",
+        "chain": "散户情绪恶化，可能引发连锁抛售，影响科技IPO市场",
+        "watch": "SpaceX股价及散户杠杆率（借钱比例）"
+      }
     },
     {
       "rank": 7,
