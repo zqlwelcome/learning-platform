@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-20 00:30",
+  "updateTime": "2026-06-20 00:32",
   "news": [
     {
       "rank": 1,
@@ -91,7 +91,13 @@
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "SpaceX股价大跌，尽管获两机构上调目标价",
+        "assets": "📉 SpaceX 利空；📈 做空动能增强",
+        "chain": "利好消息无法提振股价，市场担忧估值过高或基本面恶化，科技板块情绪承压",
+        "watch": "SpaceX后续订单及发射计划"
+      }
     },
     {
       "rank": 8,
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "Stock in Nano Nuclear Energy should appreciate as it nears commercialization of its reactor plans while energy demand is surging, Roth Capital said.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Roth Capital称核电股将受益于AI数据中心能源需求",
+        "assets": "📈 核电股 利好；📉 传统能源 承压",
+        "chain": "AI算力扩张推高电力需求，核电作为基荷电源受追捧，公用事业板块轮动",
+        "watch": "AI公司数据中心建设进度及核电项目审批"
+      }
     },
     {
       "rank": 9,
@@ -107,7 +119,13 @@
       "source": "市场资讯",
       "detail": "6月19日，昨日周四我们认为，美联储周三维持利率不变，但释放了明确的鹰派信号，市场对美联储加息的预期大幅升温，直接打压黄金价格...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "美联储鹰派信号打压黄金，黄力晨分析称金价承压",
+        "assets": "📉 黄金 利空；📈 美元 走强",
+        "chain": "鹰派暗示推迟降息，实际利率上升，贵金属无息资产吸引力下降",
+        "watch": "本周美国PCE数据及美联储官员讲话"
+      }
     },
     {
       "rank": 10,
@@ -115,7 +133,13 @@
       "source": "环球市场播报",
       "detail": "日本财务大臣片山皋月在外汇领域正愈发陷入进退两难的尴尬处境。 4 至 5 月，日本动用逾 11.7 万亿日元（折合 728 亿美元）外汇储备托举日元...",
       "lang": "zh",
-      "score": 28
+      "score": 28,
+      "insight": {
+        "what": "日本耗资700亿美元干预汇市及加息，日元仍疲软",
+        "assets": "📉 日元 承压；📈 美元/日元 上行",
+        "chain": "市场对日本央行政策可持续性存疑，套利交易仍主导，干预效果有限",
+        "watch": "日本央行7月会议及美国10年期收益率走势"
+      }
     }
   ]
 }
