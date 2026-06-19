@@ -1,92 +1,100 @@
 {
-  "updateTime": "2026-06-19 13:51",
+  "updateTime": "2026-06-19 13:56",
   "news": [
     {
       "rank": 1,
+      "title": "视频|洗护网红半亩花田冲刺港股IPO 被证监会六连问质疑业务真实性",
+      "source": "滚动播报",
+      "detail": "港股市场受A股和外围市场双重影响，关注南向资金流向。",
+      "lang": "zh",
+      "score": 63,
+      "insight": {
+        "what": "半亩花田港股IPO遭证监会质疑业务真实性",
+        "assets": "📉 港股消费股 利空",
+        "chain": "IPO审核收紧信号，可能拖累其他消费品牌港股上市节奏（上市难度增加）",
+        "watch": "证监会后续问询回复及IPO撤否情况"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Elon Musk’s SpaceX plots $20bn bond deal after record IPO - Financial Times",
       "source": "Financial Times",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SpaceX计划发债200亿美元，IPO后创纪录",
-        "assets": "📈 SpaceX债券 利好\n📉 SpaceX股票 承压",
-        "chain": "发债稀释股权，股价短期承压；但融资用于扩张，长期利好（企业成长性）",
-        "watch": "债券发行利率及认购倍数"
+        "what": "SpaceX计划200亿美元债券融资，IPO后创纪录",
+        "assets": "📈 太空概念股 利好",
+        "chain": "SpaceX高负债扩张可能推高其信用利差（债券风险溢价），但提振商业航天板块估值",
+        "watch": "债券发行利率及认购倍率"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Indian IT stocks slump up to 7% as Accenture cuts revenue outlook, fueling fresh concerns over sector growth",
       "source": "CNBC",
       "detail": "Shares of major Indian IT companies fall up to 7% after global sector leader Accenture cuts its revenue guidance.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "印度IT股因Accenture下调营收预期暴跌7%",
-        "assets": "📉 印度IT股 利空\n📉 全球IT外包 承压",
-        "chain": "Accenture是行业风向标，预示企业IT支出放缓，拖累新兴市场IT股（同行业绩联动）",
-        "watch": "Accenture后续财报及全球企业IT支出数据"
+        "what": "Accenture下调营收指引，印度IT股暴跌7%",
+        "assets": "📉 印度IT股 利空，📉 全球科技外包股 承压",
+        "chain": "Accenture作为行业风向标，预示企业IT支出放缓，可能波及美股科技服务股（如埃森哲自身）",
+        "watch": "Accenture财报电话会及IT服务行业PMI（采购经理指数）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX stock sinks for a second day as company slips below Amazon in market cap",
       "source": "CNBC",
       "detail": "Investor bullishness showed signs of waning on Wednesday, as shares sank 5%.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "SpaceX股价连跌两日，市值被亚马逊反超",
-        "assets": "📉 SpaceX股票 利空\n📈 亚马逊 相对利好",
-        "chain": "IPO热度消退，资金从高风险成长股流向科技巨头（板块轮动）",
-        "watch": "SpaceX后续订单及发射计划"
+        "what": "SpaceX市值跌破亚马逊，连续两日下跌",
+        "assets": "📉 SpaceX估值 承压，📈 亚马逊 相对利好",
+        "chain": "SpaceX估值回调可能压制太空板块情绪，但亚马逊卫星业务（Kuiper）获得相对优势",
+        "watch": "SpaceX后续融资估值及发射合同进展"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "日本央行副行长称将继续加息，以防范潜在通胀率超过目标",
       "source": "环球市场播报",
       "detail": "日本央行副行长冰见野良三周五表示，日本央行将继续加息，以防范潜在通胀率超过2%的目标。 冰见野良三指出，由于企业将中东冲突带来的成本上涨转嫁给消费者...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行副行长：将继续加息以防通胀超标",
-        "assets": "📈 日元 利好\n📉 日本国债 承压",
-        "chain": "加息预期推升日元，压低债价；利差收窄可能引发套利交易平仓（Carry Trade）",
-        "watch": "日本CPI及薪资数据"
+        "what": "日本央行副行长称将继续加息防范通胀",
+        "assets": "📈 日元 升值，📉 日本国债 承压",
+        "chain": "加息预期推高日本国债收益率（借钱成本上升），可能引发全球套利交易平仓（carry trade unwind）",
+        "watch": "日本CPI（消费者物价指数）及下次会议加息幅度"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "日本央行审议委员：将根据经济和通胀情况继续加息",
       "source": "环球市场播报",
       "detail": "日本央行4月份政策会议纪要显示，央行审议委员认同，根据当前经济、通胀和金融状况继续加息是合适的。关于调整货币政策的时机和步伐，审议委员一致认为...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行委员：根据经济和通胀继续加息",
-        "assets": "📈 日元 利好\n📉 日经225 承压",
-        "chain": "鹰派信号强化加息路径，日股资金可能回流债市（股债跷跷板）",
-        "watch": "日本央行会议纪要及利率决议"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
-      "source": "Reuters",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX股价回落，IPO后涨势消退",
-        "assets": "📉 SpaceX股票 利空\n📈 竞争对手 相对利好",
-        "chain": "投机情绪降温，资金转向确定性资产；可能引发其他IPO股回调（板块情绪传染）",
-        "watch": "SpaceX估值及后续融资动态"
+        "what": "日本央行委员称将根据通胀继续加息",
+        "assets": "📈 日元 看涨，📉 日经225 利空",
+        "chain": "持续加息压缩企业利润（融资成本上升），可能促使资金从日本股市流向债市",
+        "watch": "日本薪资增长数据及通胀预期调查"
       }
     },
     {
       "rank": 7,
+      "title": "SpaceX shares fall as post-IPO frenzy loses steam - Reuters",
+      "source": "Reuters",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
@@ -94,7 +102,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "事关未来5年就业，国务院重磅印发！",
       "source": "21世纪经济报道",
       "detail": "记者丨王峰 编辑丨张星 日前，国务院印发《实施就业优先战略“十五五”规划》（以下简称《规划》）。劳动密集型行业、服务业、新兴领域里，轻工、纺织、外贸、养老、托育...",
@@ -102,20 +110,12 @@
       "score": 33
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "White House talks with Anthropic shift to setting AI security rules - Politico",
-      "source": "Politico",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32
     }
   ]
 }
