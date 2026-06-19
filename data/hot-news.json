@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-19 19:30",
+  "updateTime": "2026-06-19 19:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "前日央行委员预计3月底前两次加息",
-        "assets": "📈 日元 利多；📉 日经225 承压",
-        "chain": "日元走强压制出口股，套利交易（借日元买高息资产）平仓风险升温",
-        "watch": "日本央行1月会议纪要及官员讲话"
+        "what": "美联储暂停降息，房贷利率可能维持高位",
+        "assets": "📉 美国REITs（房地产信托基金） 承压, 📈 美元 短期利好",
+        "chain": "高利率抑制购房需求，但房贷利率已提前定价，实际影响有限",
+        "watch": "美国30年期抵押贷款利率及新屋开工数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO投资指南发布，关注私营市场",
-        "assets": "📈 SpaceX相关私募股权 利多；📉 传统航天股 竞争压力",
-        "chain": "IPO预期升温推高SpaceX估值，带动太空ETF（交易所交易基金）资金流入",
-        "watch": "SpaceX官方IPO时间表及SEC（美国证监会）文件"
+        "what": "SpaceX IPO投资指南发布，但上市后两日下跌",
+        "assets": "📉 SpaceX概念股 承压, 📈 私人航天板块 分化",
+        "chain": "IPO后散户浮亏，打击新股情绪，但长期看航天赛道仍受追捧",
+        "watch": "SpaceX财报及后续融资估值"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 40,
       "insight": {
         "what": "Momenta拟香港IPO筹资10亿美元",
-        "assets": "📈 港股自动驾驶板块 利多；📉 其他自动驾驶初创 竞争加剧",
-        "chain": "IPO定价反映行业热度，可能带动港股科技新股发行潮",
-        "watch": "Momenta招股书估值及基石投资者名单"
+        "assets": "📈 港股自动驾驶板块 利好, 📉 其他自动驾驶初创 竞争加剧",
+        "chain": "自动驾驶赛道融资窗口打开，但高估值或引发再融资压力",
+        "watch": "Momenta招股定价及首日表现"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储暂停降息影响房贷利率",
-        "assets": "📈 美国国债收益率 上行；📉 房地产REITs（房地产信托基金） 承压",
-        "chain": "房贷利率维持高位抑制购房需求，拖累建筑商和按揭贷款股",
-        "watch": "30年期固定房贷利率及成屋销售数据"
+        "what": "前日银官员暗示3月底前两次加息",
+        "assets": "📈 日元 利好, 📉 日经225 承压",
+        "chain": "套息交易（借日元买高息资产）平仓，利空全球风险资产",
+        "watch": "日本央行1月会议及2月CPI数据"
       }
     },
     {
@@ -65,28 +65,14 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行管委：若能源外通胀扩散将再加息",
-        "assets": "📈 欧元 利多；📉 欧洲高收益债 承压",
-        "chain": "加息预期推升欧元，压制欧洲出口股，边缘国家国债利差（与德国国债收益率差）扩大",
-        "watch": "欧元区核心CPI（剔除能源食品的消费者物价指数）及薪资数据"
+        "what": "欧央行管委：若能源外通胀扩散，下月将加息",
+        "assets": "📈 欧元 利好, 📉 欧洲债券 承压",
+        "chain": "加息预期推高欧债收益率，利空高估值成长股，利好银行股",
+        "watch": "欧元区1月核心CPI及服务业通胀数据"
       }
     },
     {
       "rank": 6,
-      "title": "Goldman Sachs Lops $500 Off Gold Target on No Fed Cuts This Year - Bloomberg",
-      "source": "Bloomberg",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "高盛因美联储不降息下调黄金目标价500美元",
-        "assets": "📈 美元 利多；📉 黄金 利空",
-        "chain": "实际利率（名义利率减通胀）维持高位削弱黄金吸引力，资金流向美元资产",
-        "watch": "美联储点阵图（利率预测中位数）及美国CPI数据"
-      }
-    },
-    {
-      "rank": 7,
       "title": "The average SpaceX buyer post-IPO is almost under water after two-day slide",
       "source": "CNBC",
       "detail": "Shares of SpaceX fell as much as 7% Thursday to $178, leaving the stock trading roughly in line with its volume-weighted average price of just under $180.",
@@ -94,7 +80,7 @@
       "score": 35
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "India's largest telecom and digital service Jio Platforms files for IPO",
       "source": "CNBC",
       "detail": "India's largest wireless operator and digital service provider, Jio Platforms files for IPO",
@@ -102,7 +88,7 @@
       "score": 35
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Warsh wants markets to guide the Fed, not the other way around - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -110,10 +96,18 @@
       "score": 33
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "SpaceX Stock Plunges Despite Getting 2 Big Price Targets - Barron's",
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 10,
+      "title": "Accenture CEO Julie Sweet says AI transformation will 'take some time' as stock price takes another hit - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32
     }
