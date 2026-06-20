@@ -1,6 +1,6 @@
 /**
  * 新闻和提示 - 稳定版
- * 数据来源：hot-news.json（由cron job每5分钟更新）
+ * 数据来源：live-hot-news.json（自动更新），hot-news.json 仅作兜底
  * 交互逻辑：默认显示来源+标题，点击展开详情，再次点击收起
  */
 
@@ -10,6 +10,8 @@ let alertsCache = null;
 let lastRefreshTime = 0;
 let _lastUpdateTime = '';
 const REFRESH_INTERVAL = 5 * 60 * 1000;
+const TOP_NEWS_COUNT = 10;
+const TOP_NEWS_PREVIEW_COUNT = 3;
 const NEWS_FINGERPRINT_KEY = 'hot_news_title_fingerprint_v1';
 const NEWS_SOURCE_TIME_KEY = 'hot_news_source_update_time_v1';
 const NEWS_ANALYSIS_TIME_KEY = 'hot_news_analysis_update_time_v1';
@@ -92,7 +94,7 @@ async function loadHotNews(forceRefresh = false) {
 function xhrFetch() {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
-        const url = 'data/hot-news.json?_=' + Date.now() + Math.random();
+        const url = 'data/live-hot-news.json?_=' + Date.now() + Math.random();
         xhr.open('GET', url, true);
         xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         xhr.setRequestHeader('Pragma', 'no-cache');
@@ -115,7 +117,7 @@ function xhrFetch() {
 function xhrFetchFallback() {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
-        const url = 'data/live-hot-news.json?_=' + Date.now() + Math.random();
+        const url = 'data/hot-news.json?_=' + Date.now() + Math.random();
         xhr.open('GET', url, true);
         xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         xhr.setRequestHeader('Pragma', 'no-cache');
@@ -227,10 +229,31 @@ function getAlertUpdateMeta(updateTime) {
 let _newsAllShown = false;
 
 function prepareNewsList(news) {
+    const rawNews = (news || []).filter(item => getNewsDisplay(item).title);
+    const result = [];
+    const seenEvents = new Set();
+    const seenTitles = new Set();
+
+    const addUnique = (item) => {
+        if (!item || result.length >= TOP_NEWS_COUNT) return false;
+        const display = getNewsDisplay(item);
+        const event = getNewsEventKey(item, display);
+        const titleKey = normalizeTitleKey(display.title);
+        if (!titleKey || seenEvents.has(event) || seenTitles.has(titleKey)) return false;
+        seenEvents.add(event);
+        seenTitles.add(titleKey);
+        result.push(item);
+        return true;
+    };
+
+    diversifyNewsList(rankNewsItems(rawNews.filter(isAllowedTopNews))).forEach(addUnique);
+    rankNewsItems(rawNews).forEach(addUnique);
+    return result.slice(0, TOP_NEWS_COUNT);
+}
+
+function rankNewsItems(news) {
     const unique = new Map();
-    const candidates = (news || []).filter(isAllowedTopNews);
-    const source = candidates.length >= 6 ? candidates : (news || []);
-    source.forEach((item, index) => {
+    (news || []).forEach((item, index) => {
         const display = getNewsDisplay(item);
         const key = getNewsEventKey(item, display);
         const score = getNewsPriorityScore(item, display, index);
@@ -239,16 +262,7 @@ function prepareNewsList(news) {
         if (!current || score > current._rankScore) unique.set(key, candidate);
     });
 
-    const seenTitles = new Set();
-    const sorted = Array.from(unique.values()).sort((a, b) => b._rankScore - a._rankScore);
-    return diversifyNewsList(sorted)
-        .filter(item => {
-            const titleKey = normalizeTitleKey(getNewsDisplay(item).title);
-            if (seenTitles.has(titleKey)) return false;
-            seenTitles.add(titleKey);
-            return true;
-        })
-        .slice(0, 10);
+    return Array.from(unique.values()).sort((a, b) => b._rankScore - a._rankScore);
 }
 
 function isAllowedTopNews(item) {
@@ -385,12 +399,13 @@ function renderNewsList(news) {
     if (!el) return;
     updateHeadlineBrief(news);
 
-    const displayNews = _newsAllShown ? news : news.slice(0, 3);
+    const displayNews = _newsAllShown ? news : news.slice(0, TOP_NEWS_PREVIEW_COUNT);
 
     let html = displayNews.map((item, index) => {
         const display = getNewsDisplay(item);
         const insight = getNewsInsight(item, display);
         const articleAction = getArticleAction(item, display);
+        const articleLink = articleAction ? `<a class="news-original-link" href="${escapeHtml(articleAction.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(articleAction.label)}</a>` : '';
         return `
         <div class="news-item ${expandedNews === index ? 'expanded' : ''}" onclick="toggleNews(${index})">
             <div class="news-rank ${index < 3 ? 'hot' : ''}">${index + 1}</div>
@@ -402,7 +417,7 @@ function renderNewsList(news) {
                     <div class="news-insight">
                         ${insight.map(line => `<p>${escapeHtml(line)}</p>`).join('')}
                     </div>
-                    <a class="news-original-link" href="${escapeHtml(articleAction.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(articleAction.label)}</a>
+                    ${articleLink}
                 </div>
             </div>
             <div class="news-arrow">›</div>
@@ -410,11 +425,11 @@ function renderNewsList(news) {
     }).join('');
 
     // 展开/收起按钮
-    if (news.length > 3) {
+    if (news.length > TOP_NEWS_PREVIEW_COUNT) {
         html += `
         <div class="news-expand-wrap">
             <button class="news-expand-btn" onclick="_newsAllShown=!_newsAllShown;renderNewsList(newsCache);">
-                ${_newsAllShown ? '收起，脑子先缓存一下 <span class="hl-arrow">‹</span>' : `再看 ${news.length - 3} 条热闹 <span class="hl-arrow">›</span>`}
+                ${_newsAllShown ? '收起，脑子先缓存一下 <span class="hl-arrow">‹</span>' : `展开全部 ${Math.min(news.length, TOP_NEWS_COUNT)} 条 <span class="hl-arrow">›</span>`}
             </button>
         </div>`;
     }
@@ -519,14 +534,8 @@ function getNewsDisplay(item) {
 }
 
 function getNewsInsight(item, display) {
-    // 优先使用AI生成的交易员视角解读
     if (item.insight && item.insight.what) {
-        const lines = [];
-        lines.push(`📰 ${item.insight.what}`);
-        if (item.insight.assets) lines.push(`📊 ${item.insight.assets}`);
-        if (item.insight.chain) lines.push(`🔗 ${item.insight.chain}`);
-        if (item.insight.watch) lines.push(`👁️ 下一步：${item.insight.watch}`);
-        return lines;
+        return getHumanNewsTake(item, display);
     }
 
     // fallback到模板解读
@@ -583,6 +592,35 @@ function getNewsInsight(item, display) {
     ];
 }
 
+function getHumanNewsTake(item, display) {
+    const text = getFullNewsText(item, display);
+    const what = shortText(item.insight?.what || display.detail || display.summary, 92);
+    const watch = String(item.insight?.watch || getTraderLens(item, display).replace(/^交易员视角：/, '')).replace(/[。.!！]+$/, '');
+
+    let why = '这类消息先影响市场情绪，再慢慢传到估值、成交量和资金流向。别只看标题，要看相关资产有没有同步反应。';
+    if (isMacroText(text)) {
+        why = '它真正重要的地方不是“又有一条宏观新闻”，而是会不会改变降息、汇率和估值的预期。';
+    } else if (isChinaNewsText(text)) {
+        why = '这会直接影响A股、港股和人民币资产的风险偏好。普通投资者更该看政策能不能变成资金回流。';
+    } else if (isLegalPolicyText(text)) {
+        why = '监管和规则会重新分配行业利润，有的公司估值上限被压，有的公司反而拿到新机会。';
+    } else if (isCommodityText(text)) {
+        why = '大宗商品牵着通胀、成本和避险情绪。油价或黄金的变化，往往会把很多板块一起带动。';
+    } else if (isInstitutionText(text)) {
+        why = '机构观点可以当线索，但不能当答案。真正值得跟的是价格、成交量和资金是否开始投票。';
+    } else if (isTechText(text)) {
+        why = '科技新闻最容易热闹，关键要分清它是在讲订单、利润和资本开支，还是只是在讲想象空间。';
+    } else if (isGlobalEventText(text)) {
+        why = '全球事件会先改变风险偏好和避险需求，再影响美元、黄金、原油和股市开盘情绪。';
+    }
+
+    return [
+        `一句话：${what}`,
+        `为什么市场在意：${why}`,
+        `接下来盯：${watch}。`
+    ];
+}
+
 function getTraderLens(item, display) {
     const text = getFullNewsText(item, display);
     if (isGlobalEventText(text)) {
@@ -612,14 +650,11 @@ function getTraderLens(item, display) {
 function getArticleAction(item, display) {
     const url = item.url || item.link || item.href;
     if (/^https?:\/\//.test(url || '')) {
-        return { label: '看原文', url };
+        const isSourceHome = item.sourceUrlType === 'source-home' || /^https?:\/\/(www\.)?jin10\.com\/?$/.test(url);
+        return { label: isSourceHome ? '打开来源站' : '看原文', url };
     }
 
-    const query = encodeURIComponent(`${display.source} ${display.title}`);
-    return {
-        label: '搜原文',
-        url: `https://www.bing.com/search?q=${query}`
-    };
+    return null;
 }
 
 function toChineseNewsSummary(item) {
