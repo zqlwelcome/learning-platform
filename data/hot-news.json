@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-21 07:16",
+  "updateTime": "2026-06-21 07:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 66,
       "insight": {
-        "what": "美联储沟通减少，市场波动和利率可能上升",
-        "assets": "📈 美债收益率 上涨，📉 美股 承压",
-        "chain": "美联储沉默（减少前瞻指引）→ 市场不确定性上升 → 波动率（VIX恐慌指数）飙升",
-        "watch": "美联储官员讲话频率及利率期货定价"
+        "what": "美联储更安静可能引发市场波动和利率上升",
+        "assets": "📉 美股 承压, 📈 美债收益率 上升",
+        "chain": "联储沉默（减少前瞻指引）→ 不确定性升→ 波动率（VIX恐慌指数）飙，长端利率（10年期国债收益率）上行",
+        "watch": "美联储官员讲话频率及市场预期变化"
       }
     },
     {
@@ -23,28 +23,42 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购案推动某旅游股大涨",
-        "assets": "📈 该旅游股 利好，📈 旅游板块 联动",
-        "chain": "并购预期（企业整合）→ 估值重估（PE倍数提升）→ 资金流入相关行业ETF",
-        "watch": "并购公告进展及高盛研报评级"
+        "what": "高盛押注并购将推升某旅游股",
+        "assets": "📈 旅游股 利好",
+        "chain": "并购（公司合并）→ 协同效应（成本节省+收入增）→ 盈利预期上修，股价涨",
+        "watch": "并购交易完成进度及财报数据"
       }
     },
     {
       "rank": 3,
+      "title": "Apple's Tim Cook and many others say the AI boom is spiking costs — so their prices will spike, too. - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "AI热潮推高成本，苹果等公司计划提价",
+        "assets": "📈 科技股 中性偏空, 📉 消费者支出 承压",
+        "chain": "AI成本（算力+芯片）升→ 终端涨价→ 需求可能放缓，通胀预期（CPI消费者物价指数）上行",
+        "watch": "苹果等公司产品定价变化及消费者需求数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让科技投资者关注债券市场",
-        "assets": "📈 科技股 受利率影响，📉 长期美债 波动",
-        "chain": "AI资本开支（数据中心等）→ 融资需求大 → 债券收益率上行（借钱成本升高）→ 科技股估值承压",
-        "watch": "10年期美债收益率及AI公司资本开支指引"
+        "what": "AI建设让科技投资者关注债市",
+        "assets": "📈 美债收益率 敏感, 📉 科技股 波动",
+        "chain": "AI基建（数据中心+芯片）需大量资金→ 债市融资成本（利率）影响科技股估值（贴现率模型）",
+        "watch": "10年期美债收益率及科技公司资本开支计划"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "以色列再次发动袭击！巴基斯坦突发连环爆炸！伊朗：正在做两手准备！原油怎么走",
       "source": "市场资讯",
       "detail": "期货日报 大家好，来看一下最新消息。 以色列再次袭击黎巴嫩南部奈拜提耶 据新华社援引黎巴嫩真主党旗下灯塔电视台20日报道，以色列炮击并空袭了黎巴嫩南部奈拜提耶地区哈...",
@@ -52,55 +66,55 @@
       "score": 27,
       "insight": {
         "what": "以色列再袭，巴基斯坦爆炸，伊朗备战",
-        "assets": "📈 原油 上涨，📉 风险资产 承压",
-        "chain": "地缘冲突（供给中断风险）→ 油价飙升 → 通胀预期抬头 → 避险资金涌入黄金",
-        "watch": "伊朗是否封锁霍尔木兹海峡及原油库存数据"
+        "assets": "📈 原油 利好, 📉 风险资产 承压",
+        "chain": "中东地缘风险（冲突升级）→ 供应中断担忧→ 油价飙，避险（黄金、美元）升",
+        "watch": "伊朗是否封锁霍尔木兹海峡（原油运输要道）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Claude Guillemot, co-founder of video game maker Ubisoft, dies in plane crash - CBS News",
       "source": "CBS News",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "育碧联合创始人Claude Guillemot坠机身亡",
+        "what": "育碧联合创始人死于飞机失事",
         "assets": "📉 育碧股价 承压",
-        "chain": "创始人意外离世 → 管理层不确定性 → 短期抛售（恐慌性卖出）",
-        "watch": "育碧董事会声明及继任计划"
+        "chain": "创始人意外离世→ 管理层不确定性→ 投资者信心降，股价短期下挫",
+        "watch": "育碧管理权交接及股价波动"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "A Humble 3-Wheel Electric Vehicle Lands Toyota in Federal Court - The New York Times",
       "source": "The New York Times",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 23,
       "insight": {
-        "what": "丰田因三轮电动车专利纠纷被起诉",
+        "what": "丰田因三轮电动车被联邦法院起诉",
         "assets": "📉 丰田股价 承压",
-        "chain": "专利诉讼（法律风险）→ 赔偿或和解成本 → 利润预期下调",
-        "watch": "法院受理进展及索赔金额"
+        "chain": "专利侵权诉讼（法律风险）→ 可能的赔偿或禁令→ 盈利预期下修，汽车股板块情绪受拖累",
+        "watch": "诉讼进展及丰田电动车业务影响"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Did Anthropic talk its way into an AI export ban? - Financial Times",
       "source": "Financial Times",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Anthropic或因其言论触发AI出口禁令",
-        "assets": "📉 AI概念股 承压，📈 国产替代 利好",
-        "chain": "出口管制（政策风险）→ 供应链中断 → 国内AI芯片/软件替代需求增加",
-        "watch": "美国商务部是否更新实体清单"
+        "what": "Anthropic可能因言论面临AI出口禁令",
+        "assets": "📉 AI芯片股 承压, 📉 Anthropic 利空",
+        "chain": "出口管制（限制AI技术外流）→ 供应链中断→ 美国AI公司竞争力受损，芯片需求降",
+        "watch": "美国商务部是否出台具体禁令措施"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "OpenAI Just Hired a Guy Accused of Terrible Things - Futurism",
       "source": "Futurism",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -108,13 +122,13 @@
       "score": 20,
       "insight": {
         "what": "OpenAI雇佣被指控不当行为的人",
-        "assets": "📉 OpenAI估值 承压",
-        "chain": "声誉风险（负面舆情）→ 合作伙伴或客户流失 → 估值下调",
-        "watch": "媒体后续报道及微软等投资方反应"
+        "assets": "📉 OpenAI声誉 利空, 📉 AI行业 情绪承压",
+        "chain": "负面新闻（道德风险）→ 监管审查加严→ 投资者信心降，AI板块短期波动",
+        "watch": "OpenAI官方回应及用户/合作伙伴反应"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "AI data centers just got a government-mandated fast lane to the grid - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -122,23 +136,9 @@
       "score": 20,
       "insight": {
         "what": "政府强制电网优先接入AI数据中心",
-        "assets": "📈 AI基建股 利好，📉 其他工业用电 承压",
-        "chain": "政策倾斜（行政干预）→ 电力需求集中 → 电力股受益，其他行业成本上升",
-        "watch": "电网扩容投资计划及电价政策"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Sanders bills AI companies for $7T public fund, aims $1,000 payments for US citizens - Interesting Engineering",
-      "source": "Interesting Engineering",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "桑德斯提议向AI公司征税7000亿美元用于全民分红",
-        "assets": "📉 大型科技股 承压，📈 消费股 利好",
-        "chain": "加税预期（政策风险）→ 科技企业利润压缩 → 资金转向防御性消费板块",
-        "watch": "法案在国会通过概率及税率细节"
+        "assets": "📈 AI基建股 利好, 📈 电力/能源股 利好",
+        "chain": "政策支持（电网优先权）→ 数据中心加速建设→ 电力需求增，相关设备供应商受益",
+        "watch": "电网容量扩张进度及AI公司资本开支"
       }
     }
   ]
