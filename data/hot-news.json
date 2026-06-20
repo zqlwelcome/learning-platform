@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-21 05:20",
+  "updateTime": "2026-06-21 05:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 66,
       "insight": {
-        "what": "美联储静默期或引发市场波动和利率上升",
-        "assets": "📉 美股大盘 承压; 📈 美债收益率 上行",
-        "chain": "美联储不干预（不降息/不加码宽松）→利率波动率上升→风险资产（股票）估值承压，对冲基金被迫减仓",
-        "watch": "美联储官员讲话及利率期货隐含加息概率"
+        "what": "美联储静默期延长，市场波动和利率预期上升",
+        "assets": "📈 美国国债收益率 上行 📉 美股 承压",
+        "chain": "市场不确定性增加，推高期限溢价（长期债券额外回报），压制风险资产估值",
+        "watch": "下周PCE和GDP数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 52,
       "insight": {
-        "what": "黄金连跌六周，PCE和GDP数据决定4000美元关口",
-        "assets": "📉 黄金 承压; 📈 美元指数 走强",
-        "chain": "若PCE（个人消费支出物价指数）超预期→降息预期降温→美元走强→黄金进一步下跌",
-        "watch": "本周四PCE数据及GDP修正值"
+        "what": "黄金连跌六周，面临PCE和GDP数据考验",
+        "assets": "📉 黄金 承压",
+        "chain": "若数据强劲，加息预期升温（借钱成本增加），黄金无息资产吸引力下降",
+        "watch": "4000美元关口是否失守"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购后旅游股将大涨",
-        "assets": "📈 该旅游股 利好; 📈 并购套利策略 活跃",
-        "chain": "并购完成→协同效应（成本节约+收入增长）→EPS（每股收益）跳升→吸引对冲基金做多",
-        "watch": "并购完成进度及目标公司季度财报"
+        "what": "高盛押注并购将推动某旅游股大涨",
+        "assets": "📈 旅游板块个股 利好",
+        "chain": "并购溢价（收购价高于市价）提振股价，可能引发板块轮动（资金从其他板块流入旅游）",
+        "watch": "并购交易完成进展"
       }
     },
     {
@@ -52,93 +52,93 @@
       "score": 36,
       "insight": {
         "what": "美伊核谈因黎巴嫩问题停滞，交易员押注美联储加息",
-        "assets": "📈 原油 上行; 📈 美元 走强; 📉 美债 承压",
-        "chain": "地缘风险（中东紧张）→油价上涨→通胀预期升温→交易员押注加息→美债收益率上升",
-        "watch": "美伊谈判重启时间及美联储6月点阵图"
+        "assets": "📈 原油 上行风险 📈 美元 走强",
+        "chain": "地缘风险推高油价，加息预期支撑美元，新兴市场货币承压（资金回流美元资产）",
+        "watch": "美伊谈判后续声明"
       }
     },
     {
       "rank": 5,
+      "title": "Apple's Tim Cook and many others say the AI boom is spiking costs — so their prices will spike, too. - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "苹果库克称AI热潮推高成本，产品将涨价",
+        "assets": "📈 苹果股价 短期承压 📈 芯片股 利好",
+        "chain": "成本转嫁（涨价）或影响消费需求，但AI基建需求利好上游芯片商",
+        "watch": "苹果下季度毛利率"
+      }
+    },
+    {
+      "rank": 6,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让科技投资者关注债市信号",
-        "assets": "📈 AI科技股 利好; 📉 长端美债 承压",
-        "chain": "AI资本开支（数据中心等）→长期通胀预期上升→长端利率上行→科技股估值（依赖远期现金流折现）承压",
-        "watch": "10年期美债收益率及科技巨头资本开支指引"
+        "what": "AI建设支出使科技投资者关注债市",
+        "assets": "📈 科技股 波动加大 📈 长期国债收益率 上行",
+        "chain": "AI投资依赖低成本融资（借钱便宜），债市利率上升将收紧科技股估值（折现率提高）",
+        "watch": "10年期美债收益率走势"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Why odds of SpaceX merger with Tesla keep climbing every time the stock shoots up - Fortune",
       "source": "Fortune",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "特斯拉股价上涨提升与SpaceX合并概率",
-        "assets": "📈 特斯拉 利好; 📈 SpaceX估值 上行",
-        "chain": "特斯拉股价涨→马斯克资产增加→合并交易更易通过股东投票→特斯拉估值获得太空业务溢价",
-        "watch": "特斯拉股价及合并传闻官方确认"
+        "what": "SpaceX与特斯拉合并传闻随股价上涨升温",
+        "assets": "📈 特斯拉 利好 📈 SpaceX 估值提升",
+        "chain": "合并预期推动股价投机（短线炒作），但基本面协同存疑，警惕利好出尽（消息落地后下跌）",
+        "watch": "马斯克公开表态"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "以色列再次发动袭击！巴基斯坦突发连环爆炸！伊朗：正在做两手准备！原油怎么走",
       "source": "市场资讯",
       "detail": "期货日报 大家好，来看一下最新消息。 以色列再次袭击黎巴嫩南部奈拜提耶 据新华社援引黎巴嫩真主党旗下灯塔电视台20日报道，以色列炮击并空袭了黎巴嫩南部奈拜提耶地区哈...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "以色列再袭击，巴基斯坦连环爆炸，伊朗两手准备",
-        "assets": "📈 原油 上行; 📈 黄金 避险; 📈 美元 避险",
-        "chain": "中东+南亚多线地缘冲突→供给中断风险（霍尔木兹海峡）→油价冲高→避险资金涌入黄金和美元",
-        "watch": "WTI原油价格是否突破80美元及停火协议进展"
+        "what": "以色列袭击、巴基斯坦爆炸，伊朗准备应对，油价走势待定",
+        "assets": "📈 原油 上行风险 📉 避险资产 黄金 利好",
+        "chain": "地缘冲突升级威胁供应（产油区风险溢价），避险情绪提振黄金和美债",
+        "watch": "霍尔木兹海峡通行情况"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Claude Guillemot, co-founder of video game maker Ubisoft, dies in plane crash - CBS News",
       "source": "CBS News",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "育碧联合创始人Claude Guillemot因飞机坠毁去世",
-        "assets": "📉 育碧 承压; 📉 游戏板块 情绪利空",
-        "chain": "创始人意外去世→管理权交接不确定性→投资者担忧战略连续性→股价短期承压",
-        "watch": "育碧管理层继任计划及公司运营声明"
+        "what": "育碧联合创始人因飞机失事去世",
+        "assets": "📉 育碧股价 承压",
+        "chain": "创始人离世引发管理层不确定性（决策风险），游戏板块短期情绪利空",
+        "watch": "育碧新任CEO任命"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "芯片股狂欢周！美股基金流入创新高，日经7万点，韩股一年涨两倍",
       "source": "一财网",
       "detail": "市场聚焦下周三美光科技财报。 本周，芯片股再次成为了全球股市的焦点。 受益于美伊签署谅解备忘录，霍尔木兹海峡恢复通航，缓解全球通胀与加息恐慌，资金回流风险资产...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "芯片股狂欢，美股基金流入创纪录，日韩股市大涨",
-        "assets": "📈 全球芯片股 利好; 📈 日经225 利好; 📈 韩国KOSPI 利好",
-        "chain": "AI算力需求爆发→芯片订单激增→半导体板块盈利上修→全球资金轮动至科技股→被动基金（ETF）持续买入",
-        "watch": "费城半导体指数及台积电月度营收数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Did Anthropic talk its way into an AI export ban? - Financial Times",
-      "source": "Financial Times",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "Anthropic可能因言论导致AI出口禁令",
-        "assets": "📉 AI芯片股 承压; 📉 中国AI概念 利空",
-        "chain": "AI公司公开讨论风险→监管层加强出口管制→限制芯片/模型出口→影响英伟达等供应链收入",
-        "watch": "美国商务部AI芯片出口新规及Anthropic后续声明"
+        "what": "芯片股狂欢，美股基金流入创新高，日韩股市飙升",
+        "assets": "📈 全球芯片股 利好 📈 日经指数 上行 📈 韩股 上行",
+        "chain": "AI需求驱动资金涌入半导体（产业链上游），日韩受益于存储芯片和代工出口",
+        "watch": "费城半导体指数（SOX）后续走势"
       }
     }
   ]
