@@ -196,7 +196,7 @@ function buildAlerts(news, updateTime) {
 async function fetchSina() {
   const items = [];
   for (const { lid, weight, label } of SINA_LIDS) {
-    const url = `https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=${lid}&num=25&page=1`;
+    const url = `https://feed.mix.sina.com.cn/api/roll/get?pageid=153&lid=${lid}&num=50&page=1`;
     try {
       const data = await fetchJson(url);
       (data.result?.data || []).forEach((entry, index) => {
@@ -243,19 +243,35 @@ async function fetchJin10() {
 }
 
 function buildTopNews(items) {
-  const deduped = new Map();
-  items
+  const ranked = items
     .filter((item) => item.title && item.title.length >= 8)
     .map((item) => ({ ...item, score: scoreItem(item, item.score) }))
     .filter((item) => item.score > 20)
-    .forEach((item) => {
-      const key = eventKey(item.title);
-      const current = deduped.get(key);
-      if (!current || item.score > current.score) deduped.set(key, item);
-    });
+    .map((item) => ({
+      ...item,
+      score: item.score + (/^https?:\/\/finance\.sina\.com\.cn\//.test(item.url || '') ? 8 : 0)
+    }))
+    .sort((a, b) => b.score - a.score);
 
-  return Array.from(deduped.values())
-    .sort((a, b) => b.score - a.score)
+  const result = [];
+  const seenEvents = new Set();
+  const seenTitles = new Set();
+
+  const add = (item, strict = true) => {
+    if (result.length >= 10) return false;
+    const key = strict ? eventKey(`${item.title} ${item.detail}`) : eventKey(item.title);
+    const titleKey = eventKey(item.title);
+    if (!key || seenEvents.has(key) || seenTitles.has(titleKey)) return false;
+    seenEvents.add(key);
+    seenTitles.add(titleKey);
+    result.push(item);
+    return true;
+  };
+
+  ranked.forEach((item) => add(item, true));
+  ranked.forEach((item) => add(item, false));
+
+  return result
     .slice(0, 10)
     .map((item, index) => ({
       rank: index + 1,
@@ -263,6 +279,7 @@ function buildTopNews(items) {
       source: item.source,
       detail: item.detail || item.title,
       url: item.url,
+      sourceUrlType: /^https?:\/\/(www\.)?jin10\.com\/?$/.test(item.url || '') ? 'source-home' : 'article',
       lang: 'zh',
       score: Math.round(item.score),
       insight: insightFor(item)
@@ -274,7 +291,7 @@ function titleFingerprint(news) {
 }
 
 const news = buildTopNews([...(await fetchJin10()), ...(await fetchSina())]);
-if (news.length < 6) {
+if (news.length < 10) {
   throw new Error(`Only collected ${news.length} usable news items`);
 }
 
