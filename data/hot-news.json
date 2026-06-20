@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-21 07:00",
+  "updateTime": "2026-06-21 07:06",
   "news": [
     {
       "rank": 1,
@@ -9,126 +9,112 @@
       "lang": "en",
       "score": 66,
       "insight": {
-        "what": "美联储沉默可能加剧市场波动和利率上升",
-        "assets": "📉 美股大盘 承压；📈 美债收益率 上行",
-        "chain": "央行前瞻指引（未来政策信号）减弱→波动率（价格变动幅度）飙升→风险溢价（额外回报要求）上升，压制风险资产",
-        "watch": "美联储官员讲话频率及市场隐含利率路径"
+        "what": "美联储可能更安静，市场波动加大",
+        "assets": "📈 美债收益率 上行，📉 美股 承压",
+        "chain": "美联储不干预（鸽派缺席）→ 市场自行定价（price in）→ 波动率飙升（VIX恐慌指数）",
+        "watch": "本周美联储官员讲话及会议纪要"
       }
     },
     {
       "rank": 2,
-      "title": "Tesla allegedly in autopilot mode crashes into Texas house, woman killed: Investigators - ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 52,
-      "insight": {
-        "what": "特斯拉Autopilot模式下撞入房屋致人死亡",
-        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
-        "chain": "监管调查（政府审查）→消费者信任下降→订单延迟，拖累新能源车板块估值（未来盈利预期）",
-        "watch": "NHTSA（美国公路安全局）是否启动正式调查"
-      }
-    },
-    {
-      "rank": 3,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购交易将推升某旅游股",
-        "assets": "📈 旅游板块 利好；📈 并购套利策略 受益",
-        "chain": "并购溢价（收购价与市价差）→资金流入相关行业ETF→带动整个出行链（航空/酒店）情绪",
-        "watch": "该并购交易监管审批进展及对手方报价"
+        "what": "高盛押注并购推升旅游股",
+        "assets": "📈 特定旅游股（如Booking） 利好",
+        "chain": "并购（合并）→ 规模效应（synergy）→ 盈利预期上调（EPS增长）",
+        "watch": "并购交易完成及财报验证"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Apple's Tim Cook and many others say the AI boom is spiking costs — so their prices will spike, too. - Business Insider",
       "source": "Business Insider",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "库克称AI热潮推高成本，苹果将提价",
-        "assets": "📈 苹果股价 短期利好；📈 半导体/AI芯片 需求支撑",
-        "chain": "成本转嫁（涨价）→毛利率（赚钱效率）维持→但可能抑制终端销量，需看需求弹性（涨价后购买变化）",
-        "watch": "苹果财报中服务收入及iPhone均价变化"
+        "what": "AI热潮推高成本，苹果等计划涨价",
+        "assets": "📈 苹果/AI硬件股 短期中性，📈 通胀预期 上升",
+        "chain": "AI投入（算力成本）→ 企业提价（转嫁）→ 消费者支出（CPI消费者物价指数）",
+        "watch": "苹果下季度财报定价策略"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让科技投资者紧盯债市",
-        "assets": "📉 科技成长股 承压；📈 美债收益率 敏感",
-        "chain": "AI投资需巨额资本→债券利率上升→折现率（未来钱变现值）提高→压制高估值科技股",
-        "watch": "10年期美债收益率是否突破关键阻力位"
+        "what": "AI建设让科技股关注债市",
+        "assets": "📈 科技股 与美债收益率负相关",
+        "chain": "AI基建融资（发债）→ 利率敏感（借贷成本）→ 科技股估值（折现率DCF）",
+        "watch": "10年期美债收益率及科技债发行"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Why odds of SpaceX merger with Tesla keep climbing every time the stock shoots up - Fortune",
       "source": "Fortune",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "SpaceX与特斯拉合并预期随股价上涨升温",
-        "assets": "📈 特斯拉股价 投机利好；📈 太空概念股 联动",
-        "chain": "股价上涨→合并概率（期权隐含）上升→资金炒作跨板块协同（能源+太空）",
-        "watch": "马斯克公开表态及特斯拉期权隐含波动率"
+        "what": "特斯拉股价上涨推高SpaceX合并概率",
+        "assets": "📈 特斯拉 利好，📈 SpaceX未上市估值 上行",
+        "chain": "股价上涨（市值）→ 并购溢价（换股）→ 特斯拉股东稀释（dilution）",
+        "watch": "特斯拉股价是否突破前高"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "以色列再次发动袭击！巴基斯坦突发连环爆炸！伊朗：正在做两手准备！原油怎么走",
       "source": "市场资讯",
       "detail": "期货日报 大家好，来看一下最新消息。 以色列再次袭击黎巴嫩南部奈拜提耶 据新华社援引黎巴嫩真主党旗下灯塔电视台20日报道，以色列炮击并空袭了黎巴嫩南部奈拜提耶地区哈...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "以色列再袭，巴基斯坦连环爆炸，伊朗两手准备",
-        "assets": "📈 原油 看涨；📈 黄金 避险利好",
-        "chain": "地缘风险（战争不确定性）→供应中断担忧→油价溢价，同时避险资金流入贵金属",
-        "watch": "伊朗是否封锁霍尔木兹海峡（石油运输要道）"
+        "what": "以色列袭击，巴基斯坦爆炸，伊朗备战",
+        "assets": "📈 原油 看涨，📈 黄金 避险",
+        "chain": "地缘冲突（供给中断）→ 油价飙升（通胀压力）→ 避险资产（黄金/美元）",
+        "watch": "霍尔木兹海峡（原油要道）通行情况"
       }
     },
     {
-      "rank": 8,
-      "title": "Claude Guillemot, co-founder of video game maker Ubisoft, dies in plane crash - CBS News",
-      "source": "CBS News",
+      "rank": 7,
+      "title": "Ubisoft's co-founder Claude Guillemot dies in plane crash - Reuters",
+      "source": "Reuters",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "育碧联合创始人死于飞机失事",
-        "assets": "📉 育碧股价 短期利空；📉 游戏板块 情绪承压",
-        "chain": "创始人去世→管理层不确定性→投资者抛售，但影响有限，因公司运营已职业化",
-        "watch": "育碧董事会是否宣布管理层变动"
+        "what": "育碧联合创始人因飞机失事去世",
+        "assets": "📉 育碧 股价承压",
+        "chain": "创始人去世（管理层不确定性）→ 战略调整风险（游戏开发）→ 股价波动",
+        "watch": "育碧管理层变动及财报"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Did Anthropic talk its way into an AI export ban? - Financial Times",
       "source": "Financial Times",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Anthropic或因其言论导致AI出口禁令",
-        "assets": "📉 AI芯片股（英伟达等） 利空；📉 美国AI公司 政策风险",
-        "chain": "出口管制（技术限制）→供应链中断→中国AI替代加速，全球AI产业链分化",
-        "watch": "BIS（美国商务部工业安全局）是否更新实体清单"
+        "what": "Anthropic可能因言论面临AI出口禁令",
+        "assets": "📉 AI芯片（英伟达） 承压，📉 Anthropic 利空",
+        "chain": "出口管制（限制AI技术）→ 供应链中断（GPU显卡）→ 科技股估值（增长预期）",
+        "watch": "美国商务部出口管制清单更新"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "OpenAI Just Hired a Guy Accused of Terrible Things - Futurism",
       "source": "Futurism",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -136,9 +122,23 @@
       "score": 20,
       "insight": {
         "what": "OpenAI雇佣被指控不当行为者",
-        "assets": "📉 OpenAI声誉 利空；📉 AI伦理概念股 情绪压力",
-        "chain": "人才丑闻→监管审查加强→AI行业合规成本上升，可能拖累融资估值",
-        "watch": "OpenAI董事会是否发布内部调查报告"
+        "assets": "📉 OpenAI声誉 受损，📉 AI行业监管 风险上升",
+        "chain": "用人争议（道德风险）→ 监管施压（合规成本）→ AI公司估值（溢价下降）",
+        "watch": "OpenAI董事会及监管机构回应"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "AI data centers just got a government-mandated fast lane to the grid - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "政府为AI数据中心提供电网快速通道",
+        "assets": "📈 AI基建股（电力/数据中心） 利好",
+        "chain": "政策支持（简化审批）→ 电力需求激增（能源股）→ 建设加速（capex资本支出）",
+        "watch": "电网投资及AI公司资本开支计划"
       }
     }
   ]
