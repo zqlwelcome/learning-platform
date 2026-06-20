@@ -1,8 +1,22 @@
 {
-  "updateTime": "2026-06-21 02:11",
+  "updateTime": "2026-06-21 02:15",
   "news": [
     {
       "rank": 1,
+      "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 66,
+      "insight": {
+        "what": "美联储保持沉默可能引发市场波动和利率上升",
+        "assets": "📈 美债收益率 上行 📉 美股大盘 承压",
+        "chain": "美联储不沟通→市场猜测加息→波动率上升→风险资产抛售（risk-off）",
+        "watch": "下周FOMC会议声明及点阵图"
+      }
+    },
+    {
+      "rank": 2,
       "title": "黄金连跌六周后迎关键一周！PCE、GDP双双来袭，4000美元关口能否守住？",
       "source": "市场资讯",
       "detail": "24K99 24K99讯 国际黄金市场本周再度经历剧烈震荡。尽管周初金价在4000美元关键支撑位附近获得买盘推动并大幅跳空高开，但随着美联储释放更为鹰派的政策信号...",
@@ -10,121 +24,107 @@
       "score": 52,
       "insight": {
         "what": "黄金连跌六周，面临PCE和GDP数据考验",
-        "assets": "📉 黄金 承压；📈 美元指数 利好",
-        "chain": "若PCE（个人消费支出）超预期，加息预期升温，美元走强压制黄金；GDP强劲则避险需求下降。",
-        "watch": "周三PCE数据及美国GDP修正值"
+        "assets": "📉 黄金 承压 📈 美元指数 走强",
+        "chain": "通胀数据若超预期→实际利率上升→黄金作为无息资产吸引力下降",
+        "watch": "周五美国PCE（个人消费支出物价指数）数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推涨某旅游股",
-        "assets": "📈 旅游股 利好；📉 并购标的竞争对手 承压",
-        "chain": "并购预期提升行业集中度，旅游板块估值重估，可能引发对冲基金（投机基金）跟风买入。",
-        "watch": "并购交易完成进度及监管审批"
+        "what": "高盛押注并购交易将推动某旅游股大涨",
+        "assets": "📈 旅游板块个股 利好",
+        "chain": "并购预期→EPS（每股收益）增厚→估值重估→资金流入该股",
+        "watch": "该并购交易监管审批进展"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "6月20日外盘头条：美伊核谈尚未开始即因黎巴嫩问题陷入停滞 伊朗提出“保险费” 交易员提高美联储加息押注",
       "source": "环球市场播报",
       "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、美伊核谈因黎巴嫩问题未能举行 尚未启动便陷入停滞 2、伊朗提出“保险费” 宣示对霍尔木兹海峡的控制权 3...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美伊核谈因黎巴嫩问题停滞，伊朗提出保险费",
-        "assets": "📈 原油 利好；📉 中东风险资产 承压",
-        "chain": "地缘溢价上升，原油供给端不确定性增加，交易员押注美联储加息（提高借钱成本）以应对通胀。",
-        "watch": "美伊谈判进展及伊朗石油出口数据"
+        "what": "美伊核谈因黎巴嫩问题停滞，交易员押注美联储加息",
+        "assets": "📈 原油 上行 📈 美元 走强",
+        "chain": "地缘风险→油价上涨→通胀预期升温→加息押注增加→美元升值",
+        "watch": "下周美联储利率决议及伊朗核协议动态"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Apple's Tim Cook and many others say the AI boom is spiking costs — so their prices will spike, too. - Business Insider",
       "source": "Business Insider",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "库克等称AI成本飙升，产品将提价",
-        "assets": "📈 AI硬件股 利好；📉 消费者可选消费 承压",
-        "chain": "成本推动型通胀（企业成本上升导致涨价）传导至终端，可能削弱消费电子需求。",
-        "watch": "苹果等公司财报中的毛利率指引"
+        "what": "苹果库克称AI热潮推高成本，产品将涨价",
+        "assets": "📈 苹果股价 承压 📈 芯片股 利好",
+        "chain": "AI成本上升→终端产品涨价→消费者需求可能放缓→但芯片需求持续增长",
+        "watch": "苹果秋季发布会定价策略及AI芯片订单数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让科技投资者关注债市",
-        "assets": "📈 科技股 波动；📉 债券收益率 上行",
-        "chain": "AI资本开支（花钱建基础设施）推高融资需求，债券收益率上升（借钱成本增加）可能压制高估值科技股。",
-        "watch": "10年期美债收益率及科技股资金流向"
+        "what": "AI建设热潮让科技投资者重新关注债市",
+        "assets": "📈 科技股 承压 📈 美债收益率 上行",
+        "chain": "AI投资需要大量融资→债市利率上升→科技公司资本成本增加→估值受压",
+        "watch": "10年期美债收益率是否突破4.5%"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "以色列再次发动袭击！巴基斯坦突发连环爆炸！伊朗：正在做两手准备！原油怎么走",
       "source": "市场资讯",
       "detail": "期货日报 大家好，来看一下最新消息。 以色列再次袭击黎巴嫩南部奈拜提耶 据新华社援引黎巴嫩真主党旗下灯塔电视台20日报道，以色列炮击并空袭了黎巴嫩南部奈拜提耶地区哈...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "以色列再袭加沙，巴基斯坦爆炸，伊朗两手准备",
-        "assets": "📈 原油 利好；📉 新兴市场货币 承压",
-        "chain": "中东地缘风险升级，原油供给溢价上升；避险情绪推高美元，新兴市场资金外流。",
-        "watch": "布伦特原油价格及伊朗核协议进展"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Ubisoft Co-Founder Killed in France Plane Crash - Insider Gaming",
-      "source": "Insider Gaming",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "育碧联合创始人因飞机失事去世",
-        "assets": "📉 育碧股价 承压；📉 法国游戏板块 波动",
-        "chain": "领导层不确定性增加，短期抛压；长期看战略方向可能受影响。",
-        "watch": "育碧董事会声明及股价流动性"
+        "what": "以色列再袭加沙，巴基斯坦爆炸，伊朗备战",
+        "assets": "📈 原油 上行 📉 全球股市 承压",
+        "chain": "中东冲突升级→原油供应中断风险→通胀预期上升→风险偏好下降",
+        "watch": "布伦特原油是否突破90美元关口"
       }
     },
     {
       "rank": 8,
+      "title": "Ubisoft Co-Founder Dead In Plane Crash - TheGamer",
+      "source": "TheGamer",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 25,
+      "insight": {
+        "what": "育碧联合创始人因飞机坠毁身亡",
+        "assets": "📉 育碧股价 承压",
+        "chain": "创始人意外死亡→市场担忧管理层稳定性→股价短期波动",
+        "watch": "育碧董事会声明及继任计划"
+      }
+    },
+    {
+      "rank": 9,
       "title": "芯片股狂欢周！美股基金流入创新高，日经7万点，韩股一年涨两倍",
       "source": "一财网",
       "detail": "市场聚焦下周三美光科技财报。 本周，芯片股再次成为了全球股市的焦点。 受益于美伊签署谅解备忘录，霍尔木兹海峡恢复通航，缓解全球通胀与加息恐慌，资金回流风险资产...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "芯片股狂欢周，美股基金流入创新高，日韩股市大涨",
-        "assets": "📈 芯片股 利好；📈 日经225 利好；📈 韩国KOSPI 利好",
-        "chain": "AI需求驱动全球半导体周期（芯片需求上升），资金涌入亚洲科技股，形成正反馈（涨了继续买）。",
-        "watch": "费城半导体指数及亚洲科技ETF资金流"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "The Fed's Warsh era clearly has a new vibe — and that's not all bad for investors - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 23,
-      "insight": {
-        "what": "美联储Warsh时代新氛围，对投资者并非全坏",
-        "assets": "📈 美国国债 波动；📉 风险资产 承压",
-        "chain": "加息预期升温（借钱成本提高）压制股市，但债券收益率上升为长期投资者提供入场机会。",
-        "watch": "美联储官员讲话及利率期货定价"
+        "what": "芯片股狂欢，美股基金流入创新高，亚洲股市飙升",
+        "assets": "📈 芯片股 利好 📈 日经指数 利好 📈 韩国KOSPI 利好",
+        "chain": "AI需求爆发→芯片订单激增→相关指数上涨→资金从防御型板块轮出",
+        "watch": "下周英伟达财报及台积电产能利用率数据"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 23,
       "insight": {
-        "what": "政府暗中推进学生债务减免",
-        "assets": "📉 美国国债 承压；📈 消费信贷 利好",
-        "chain": "债务减免增加财政赤字（政府借钱更多），推高国债供给，收益率上行；但减轻学生负担可提振消费。",
-        "watch": "国会预算办公室赤字预测及学生贷款政策细则"
+        "what": "美国政府通过后门操作进行学生债务减免",
+        "assets": "📈 美国财政赤字 扩大 📉 美元 承压",
+        "chain": "债务减免→财政支出增加→国债供给压力→长期利率上行→美元贬值",
+        "watch": "国会预算办公室（CBO）赤字预测更新"
       }
     }
   ]
