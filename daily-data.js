@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-06-21 22:59",
+    "updateTime": "2026-06-21 23:17",
     "mood": {
-        "mood": "偏谨慎，先控风险",
-        "icon": "😐",
-        "color": "#ff9500",
-        "confidence": 8,
+        "mood": "震荡分化，等确认",
+        "icon": "🧭",
+        "color": "#0071e3",
+        "confidence": 6,
         "dimensions": [
             {
                 "label": "趋势",
@@ -38,7 +38,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "风险",
-                "value": "金十整理：下周重要事件与数据预告——中国一年期LPR将公布；美国核心PCE数… 说明地缘和政策仍会突然改变风险偏好，仓位要留余地。"
+                "value": "有矿小涨、没订单暴涨，市场爆炒AI铜箔概念，监管出手降温 说明地缘和政策仍会突然改变风险偏好，仓位要留余地。"
             }
         ],
         "summary": "今天的市场不是单边行情，而是“科技叙事、利率预期、黄金波动、地缘/政策风险”一起拉扯。对小白投资者更重要的是先判断新闻影响的是情绪、利率、盈利还是资金流，再看价格是否确认。"
