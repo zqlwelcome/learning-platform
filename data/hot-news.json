@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-21 08:01",
+  "updateTime": "2026-06-21 08:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 66,
       "insight": {
-        "what": "美联储更安静可能导致市场波动和利率上升。",
-        "assets": "📈 美国国债收益率 上行；📉 美股 承压",
-        "chain": "央行沟通减少→预期不确定性增加→波动率上升（VIX恐慌指数）→风险资产抛售。",
-        "watch": "美联储官员讲话频率及市场隐含利率（联邦基金期货）变化。"
+        "what": "美联储沟通减少可能引发市场波动和利率上升",
+        "assets": "📉 美股 承压, 📈 美债收益率 上行",
+        "chain": "美联储沉默（减少前瞻指引）→ 市场不确定性增加 → 风险资产（股票）波动加大，利率（借贷成本）上升",
+        "watch": "美联储官员讲话频次及市场波动率指数（VIX）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "45%央行计划增持黄金，购金意愿创新高。",
-        "assets": "📈 黄金 利好；📉 美元 承压",
-        "chain": "央行购金→实物需求强→金价支撑→美元储备地位削弱（去美元化）。",
-        "watch": "全球央行季度购金量数据及美元指数（DXY）。"
+        "what": "45%央行计划增持黄金，购金意愿创新高",
+        "assets": "📈 黄金 利好, 📉 美元 承压",
+        "chain": "央行增持黄金 → 去美元化（减少美元依赖）趋势强化 → 美元吸引力下降，金价获支撑",
+        "watch": "各国央行黄金储备月度报告"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注近期并购将推动某旅游股大涨。",
-        "assets": "📈 旅游股（如Expedia、Booking） 利好",
-        "chain": "并购协同效应→盈利预期上调（EPS每股收益）→股价上行→资金流入旅游板块。",
-        "watch": "并购交易完成进展及公司季度财报。"
+        "what": "高盛押注并购将推动旅游股大涨",
+        "assets": "📈 旅游股 利好",
+        "chain": "并购（公司合并）带来协同效应（成本节省+收入增长）→ 盈利预期上调 → 股价上涨",
+        "watch": "并购交易完成进度及标的公司季度财报"
       }
     },
     {
@@ -51,94 +51,94 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "苹果库克称AI热潮推高成本，产品将提价。",
-        "assets": "📈 苹果股价 短期承压；📉 消费者支出 负面",
-        "chain": "AI成本上升→产品涨价→需求弹性（销量可能下降）→科技股估值调整（PE市盈率）。",
-        "watch": "苹果产品定价及下季度营收指引。"
+        "what": "库克称AI成本飙升将导致苹果提价",
+        "assets": "📈 苹果 成本承压, 📈 通胀预期 升温",
+        "chain": "AI算力（计算资源）成本上升 → 企业转嫁消费者 → 终端产品涨价，推高通胀（物价上涨）",
+        "watch": "苹果产品定价公告及消费者物价指数（CPI）"
       }
     },
     {
       "rank": 5,
+      "title": "Social media declared Cursor dead. Then SpaceX handed the AI startup a $60 billion lifeline. - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "社交媒体唱衰Cursor，SpaceX注资600亿",
+        "assets": "📈 AI初创Cursor 利好",
+        "chain": "SpaceX背书（品牌信任）→ 市场情绪反转 → 资金流入AI赛道，估值修复",
+        "watch": "Cursor融资轮估值及产品用户增长数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让科技投资者更关注债市。",
-        "assets": "📈 科技股 与债券收益率联动增强；📉 成长股 估值敏感",
-        "chain": "AI投资需巨额资本→融资成本影响（利率上升）→科技股估值模型（DCF折现现金流）承压。",
-        "watch": "美国10年期国债收益率及科技股相对表现。"
+        "what": "AI建设让科技投资者紧盯债市",
+        "assets": "📈 科技股 与债市关联加强, 📉 债券价格 承压",
+        "chain": "AI资本开支（建数据中心）需大量借贷 → 债市利率（融资成本）影响科技公司利润 → 股债联动（股票与债券同涨跌）",
+        "watch": "美国10年期国债收益率及科技公司资本开支指引"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "以色列再次发动袭击！巴基斯坦突发连环爆炸！伊朗：正在做两手准备！原油怎么走",
       "source": "市场资讯",
       "detail": "期货日报 大家好，来看一下最新消息。 以色列再次袭击黎巴嫩南部奈拜提耶 据新华社援引黎巴嫩真主党旗下灯塔电视台20日报道，以色列炮击并空袭了黎巴嫩南部奈拜提耶地区哈...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "以色列再袭，巴基斯坦连环爆炸，伊朗准备。",
-        "assets": "📈 原油 利好；📉 风险资产（新兴市场） 承压",
-        "chain": "地缘冲突升级→供应中断风险（霍尔木兹海峡）→油价上行→通胀预期再起（CPI）。",
-        "watch": "原油库存数据（EIA周报）及冲突相关方表态。"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "A Humble 3-Wheel Electric Vehicle Lands Toyota in Federal Court - The New York Times",
-      "source": "The New York Times",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 23,
-      "insight": {
-        "what": "丰田因一款三轮电动车被联邦法院起诉。",
-        "assets": "📉 丰田股价 承压；📈 电动车竞争对手 利好",
-        "chain": "诉讼风险→合规成本增加→电动车转型受阻→市场份额可能流失（如特斯拉）。",
-        "watch": "诉讼进展及丰田电动车销售数据。"
+        "what": "以色列袭击、巴基斯坦爆炸，伊朗两手准备",
+        "assets": "📈 原油 利好（地缘风险溢价）",
+        "chain": "中东冲突升级 → 原油供应中断担忧 → 油价上涨，避险资产（黄金/美元）受捧",
+        "watch": "霍尔木兹海峡通行量及伊朗核协议谈判进展"
       }
     },
     {
       "rank": 8,
+      "title": "Big Tech is borrowing like never before and the Fed just made that a lot more expensive - Startup Fortune",
+      "source": "Startup Fortune",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 23,
+      "insight": {
+        "what": "科技巨头大规模借贷，美联储加息推高成本",
+        "assets": "📉 科技股 承压, 📈 企业债利率 上行",
+        "chain": "高负债（借钱多）→ 利率上升（美联储加息）→ 利息支出增加 → 利润压缩，股价下跌",
+        "watch": "科技公司债务到期结构及季度利息支出"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’ - TechCrunch",
       "source": "TechCrunch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Signal高管提醒AI聊天机器人不是朋友。",
-        "assets": "📉 AI概念股（如OpenAI相关） 情绪负面",
-        "chain": "隐私担忧→监管风险增加→AI应用用户增长放缓→行业估值调整。",
-        "watch": "AI监管政策动向及用户隐私投诉数据。"
+        "what": "Signal提醒AI聊天机器人并非朋友",
+        "assets": "📉 AI聊天机器人 情绪利空",
+        "chain": "隐私担忧（数据安全）→ 用户信任下降 → 监管压力增加 → AI应用商业化受阻",
+        "watch": "AI监管法案进展及用户隐私投诉数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Did Anthropic talk its way into an AI export ban? - Financial Times",
       "source": "Financial Times",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Anthropic可能因言论导致AI出口禁令。",
-        "assets": "📉 AI芯片股（如英伟达） 承压；📈 替代技术 利好",
-        "chain": "出口管制收紧→供应链中断→AI算力成本上升→中国AI公司受冲击。",
-        "watch": "美国商务部出口管制清单更新及Anthropic后续声明。"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "OpenAI Just Hired a Guy Accused of Terrible Things - Futurism",
-      "source": "Futurism",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "OpenAI雇佣被指控恶劣行为的人。",
-        "assets": "📉 OpenAI相关公司（如微软） 声誉风险",
-        "chain": "人才争议→监管审查加强→AI行业信任度下降→合作方可能重新评估关系。",
-        "watch": "OpenAI员工变动及监管机构调查动态。"
+        "what": "Anthropic或因言论面临AI出口禁令",
+        "assets": "📉 AI出口股（如英伟达）承压, 📉 Anthropic 利空",
+        "chain": "出口管制（限制技术外流）→ 美国AI公司海外收入减少 → 供应链（芯片）需求萎缩",
+        "watch": "美国商务部出口管制清单更新及Anthropic融资情况"
       }
     }
   ]
