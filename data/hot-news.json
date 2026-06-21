@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-21 09:20",
+  "updateTime": "2026-06-21 09:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 66,
       "insight": {
-        "what": "美联储或保持沉默，市场波动和利率上升",
-        "assets": "📉 美股 承压, 📈 美债收益率 上行",
-        "chain": "美联储不干预（不降息）→ 市场不确定性增加 → 风险资产（股票）下跌，避险资产（美债）收益率走高",
-        "watch": "美联储下次会议声明措辞"
+        "what": "美联储沉默可能引发市场波动和利率上升",
+        "assets": "📈 美国国债收益率 上行; 📉 美股大盘 承压",
+        "chain": "央行沟通减少→不确定性溢价（市场要求的额外风险补偿）上升→风险资产（如股票）估值被压缩",
+        "watch": "美联储官员讲话频率及市场隐含波动率指数（VIX，恐慌指数）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "全球央行购金意愿创新高，45%计划增持",
-        "assets": "📈 黄金 利好",
-        "chain": "央行增持黄金（实物需求）→ 金价上涨 → 美元信用（美元资产吸引力）相对减弱",
-        "watch": "央行实际购金量和金价走势"
+        "what": "全球央行购金意愿创历史新高，45%计划增持",
+        "assets": "📈 黄金 利好; 📉 美元 承压",
+        "chain": "央行增持黄金→去美元化（减少对美元依赖）加速→金价获长期买盘支撑，美元储备地位削弱",
+        "watch": "全球央行季度黄金储备数据及美元指数（DXY）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "上海存储芯片公司完成IPO辅导",
-        "assets": "📈 中国芯片板块 利好",
-        "chain": "IPO推进（融资扩张）→ 国产替代预期（政策支持）→ 半导体设备/材料需求增加",
-        "watch": "招股书披露和发行进度"
+        "what": "上海存储芯片公司完成IPO辅导，准备上市",
+        "assets": "📈 中国存储芯片板块 利好; 📈 科创板 情绪提振",
+        "chain": "IPO辅导完成→国产替代（国内自给率提升）预期加强→半导体设备及材料需求增长",
+        "watch": "公司招股书披露及行业产能利用率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注近期并购将推升旅游股",
-        "assets": "📈 旅游板块 利好, 📈 并购标的公司 利好",
-        "chain": "并购整合（协同效应）→ 成本降低+收入增长 → 股价上涨预期",
-        "watch": "并购交易完成率和财报"
+        "what": "高盛押注近期并购将推升某旅游股大涨",
+        "assets": "📈 该旅游股 利好; 📈 旅游板块 情绪提振",
+        "chain": "并购价差（收购价与现股价差）收窄→套利资金涌入→板块联动效应（同行业其他股票跟涨）",
+        "watch": "并购交易审批进展及目标公司股价与收购价差"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "库克称AI成本飙升，产品将涨价",
-        "assets": "📈 苹果股价 中性偏空, 📉 消费者支出 承压",
-        "chain": "AI成本增加（算力/研发）→ 终端涨价 → 需求可能放缓（弹性需求）",
-        "watch": "苹果发布会定价和销量数据"
+        "what": "库克等表示AI成本飙升，产品将涨价",
+        "assets": "📈 科技硬件股 成本端承压; 📈 消费者价格指数（CPI，通胀指标） 上行风险",
+        "chain": "AI算力投入（购买芯片和数据中心）→成本转嫁（涨价给消费者）→终端需求可能受抑制",
+        "watch": "科技公司毛利率变化及消费者信心指数"
       }
     },
     {
       "rank": 6,
+      "title": "一放一严！机构热议科创新政：AI“六小虎”或加速上市回流，题材炒作监管全面收紧",
+      "source": "滚动播报",
+      "detail": "华夏时报记者 王兆寰 北京报道 近日，2026陆家嘴论坛上证监会主席吴清的表态，将A股的“含科量”推向新的高度。 值得注意的是，此次表态形成资本市场全新治理逻辑：一边放开...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "科创新政：AI企业加速上市，题材炒作监管收紧",
+        "assets": "📈 AI“六小虎”等拟IPO企业 利好; 📉 题材炒作概念股 利空",
+        "chain": "上市通道放宽→一级市场（未上市企业融资）退出预期改善→二级市场资金从题材股分流至新股",
+        "watch": "科创板IPO受理数量及题材股换手率（交易活跃度）"
+      }
+    },
+    {
+      "rank": 7,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让投资者关注债市",
-        "assets": "📈 科技股 中性, 📈 美债收益率 上行",
-        "chain": "AI投资（资本开支）→ 企业发债融资（供给增加）→ 利率上升（资金成本）→ 科技股估值受压",
-        "watch": "科技公司债券发行量和利率"
+        "what": "AI基建热潮使科技投资者关注债市动态",
+        "assets": "📈 科技股 与债券收益率关联加强; 📉 长期国债 需求可能增加",
+        "chain": "AI建设需长期融资→企业债发行量上升→利率敏感度提高（利率涨则科技股估值承压）",
+        "watch": "科技公司债券发行计划及10年期美债收益率"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "Micron Stock Faces Tough Earnings Test. What History Says Happens Next. - Barron's",
+      "source": "Barron's",
+      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "美光面临财报考验，历史数据暗示方向",
+        "assets": "📈 美光股价 波动加剧; 📈 存储芯片板块 联动",
+        "chain": "财报超预期/不及预期→存储芯片价格预期调整→上下游产业链（设备、封测）盈利预测修正",
+        "watch": "美光财报营收及下季度指引（未来业绩预期）"
+      }
+    },
+    {
+      "rank": 9,
       "title": "以色列再次发动袭击！巴基斯坦突发连环爆炸！伊朗：正在做两手准备！原油怎么走",
       "source": "市场资讯",
       "detail": "期货日报 大家好，来看一下最新消息。 以色列再次袭击黎巴嫩南部奈拜提耶 据新华社援引黎巴嫩真主党旗下灯塔电视台20日报道，以色列炮击并空袭了黎巴嫩南部奈拜提耶地区哈...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "以色列再袭击，巴基斯坦爆炸，伊朗备战",
-        "assets": "📈 原油 利好, 📈 黄金 利好",
-        "chain": "地缘冲突（供给中断风险）→ 油价上涨 → 避险情绪提升黄金",
-        "watch": "霍尔木兹海峡通行情况和伊朗行动"
+        "what": "以色列再袭加沙，巴基斯坦爆炸，伊朗备战",
+        "assets": "📈 原油 利好; 📈 黄金 避险需求上升; 📉 新兴市场货币 承压",
+        "chain": "地缘冲突升级→供应中断风险（霍尔木兹海峡封锁担忧）→油价飙升，避险资金涌入黄金",
+        "watch": "伊朗是否封锁海峡及美国原油库存变化（API/EIA周报）"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "A Humble 3-Wheel Electric Vehicle Lands Toyota in Federal Court - The New York Times",
       "source": "The New York Times",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 23,
       "insight": {
-        "what": "丰田三轮电动车涉专利诉讼至联邦法院",
-        "assets": "📉 丰田股价 承压",
-        "chain": "诉讼（法律风险）→ 赔偿或禁售（成本增加）→ 股价下跌",
-        "watch": "法院判决和和解进展"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’ - TechCrunch",
-      "source": "TechCrunch",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "Signal总裁警告AI聊天机器人不是朋友",
-        "assets": "📉 AI概念股 利空",
-        "chain": "隐私担忧（数据安全）→ 监管趋严（合规成本）→ AI商业化受挫",
-        "watch": "AI监管政策和用户数据泄露事件"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Did Anthropic talk its way into an AI export ban? - Financial Times",
-      "source": "Financial Times",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "Anthropic或因其言论导致AI出口禁令",
-        "assets": "📉 AI芯片股 利空, 📉 云计算板块 利空",
-        "chain": "出口限制（供给收缩）→ 算力成本上升 → AI公司盈利预期下调",
-        "watch": "美国政府出口管制清单更新"
+        "what": "丰田三轮电动车专利纠纷被诉至联邦法院",
+        "assets": "📉 丰田股价 利空; 📈 竞争对手电动车股 情绪提振",
+        "chain": "诉讼风险→潜在赔偿或禁售（产品被禁止销售）→丰田电动车布局受挫，对手抢占份额",
+        "watch": "法院是否发布临时禁令及丰田法律应对声明"
       }
     }
   ]
