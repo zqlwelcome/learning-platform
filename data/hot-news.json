@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-21 19:16",
+  "updateTime": "2026-06-21 19:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 66,
       "insight": {
-        "what": "美联储保持沉默可能引发市场波动和利率上升",
-        "assets": "📉 美国国债 利空，📈 波动率指数 利好",
-        "chain": "央行不干预（不提供流动性）→ 利率波动加剧 → 风险资产（如股票）承压",
-        "watch": "美联储官员讲话及市场波动率指数（VIX）走势"
+        "what": "美联储沉默期可能引发市场波动和利率上升",
+        "assets": "📉 美国国债 利空，📈 美元指数 利好",
+        "chain": "联储不干预（按兵不动）→ 波动率飙升（恐慌指数VIX升）→ 风险资产（股票）承压",
+        "watch": "美联储官员讲话及点阵图（利率预测）"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 39,
       "insight": {
         "what": "高盛押注并购将推动某旅游股大涨",
-        "assets": "📈 旅游板块 利好，📈 并购概念股 利好",
-        "chain": "并购预期（公司合并）→ 行业整合加速 → 提振板块估值和资金流入",
-        "watch": "并购交易完成进度及目标公司股价表现"
+        "assets": "📈 旅游板块个股 利好",
+        "chain": "并购预期（公司合并）→ 股价溢价（涨超目标价）→ 板块跟风（同业估值重估）",
+        "watch": "并购案进展及目标公司财报"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉车主称车祸前开启Autopilot",
-        "assets": "📉 特斯拉 利空，📉 自动驾驶概念 承压",
-        "chain": "安全争议→监管审查加严（如NHTSA调查）→ 自动驾驶商业化预期降温",
-        "watch": "美国国家公路交通安全管理局（NHTSA）调查结果和后续监管动态"
+        "what": "特斯拉Autopilot被指涉及致命车祸",
+        "assets": "📉 特斯拉股价 利空，📉 自动驾驶概念股 承压",
+        "chain": "事故调查（监管审查）→ 自动驾驶信心受损（消费者信任下降）→ 行业估值回调（技术溢价缩水）",
+        "watch": "NHTSA（美国交管局）调查结论及诉讼进展"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让科技投资者关注债券市场",
-        "assets": "📈 科技股 利好，📈 债券收益率 敏感",
-        "chain": "AI投入高（资本开支大）→ 融资需求增 → 债券收益率（借钱成本）影响科技股估值（折现率上升）",
-        "watch": "长期美债收益率（10年期）和科技巨头资本开支指引"
+        "what": "AI建设热潮让科技投资者紧盯债券市场",
+        "assets": "📈 科技股 联动，📉 美国长债 承压",
+        "chain": "AI投资需巨额资本（烧钱）→ 发债融资（供给增加）→ 长端利率（长期借贷成本）上升",
+        "watch": "10年期美债收益率及科技公司融资公告"
       }
     },
     {
@@ -66,9 +66,9 @@
       "score": 30,
       "insight": {
         "what": "寒武纪暴涨14%逼近万亿市值，科创芯片ETF涨4.46%",
-        "assets": "📈 寒武纪 利好，📈 科创芯片板块 利好",
-        "chain": "资金逼空（空头被迫买入）→ 板块情绪亢奋 → 带动整个半导体ETF（指数基金）上涨",
-        "watch": "成交量变化和监管是否关注异常波动"
+        "assets": "📈 A股芯片板块 利好，📈 科创50指数 利好",
+        "chain": "资金追逐（逼空式上涨）→ 高估值溢价（泡沫风险）→ 监管关注（波动加剧）",
+        "watch": "寒武纪成交量及板块轮动信号"
       }
     },
     {
@@ -80,65 +80,65 @@
       "score": 30,
       "insight": {
         "what": "深交所史上最大规模IPO明日上市",
-        "assets": "📈 大盘 承压，📈 新股申购 利好",
-        "chain": "大额IPO（首次公开募股）抽血→ 市场流动性紧张 → 中小盘股资金分流",
-        "watch": "IPO首日涨幅及市场资金面（如逆回购利率）"
+        "assets": "📉 A股流动性 承压，📈 新股首日溢价 利好",
+        "chain": "巨量抽资（资金虹吸效应）→ 指数短期下跌（卖压）→ 打新收益（中签者获利）",
+        "watch": "首日换手率及大盘资金流向"
       }
     },
     {
       "rank": 7,
+      "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
+      "source": "CNBC",
+      "detail": "TipRanks discusses three dividend-paying stocks.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "华尔街顶级分析师推荐三只高股息股",
+        "assets": "📈 公用事业/消费类高股息股 利好",
+        "chain": "防御配置（避险情绪）→ 股息率（分红收益）吸引资金→ 低波动策略（抗跌）受宠",
+        "watch": "这些个股的派息率及财报"
+      }
+    },
+    {
+      "rank": 8,
       "title": "Each $1 gain in SpaceX stock adds $4.76B to Elon Musk’s net worth. Here’s what $1K, $7K or $15K invested could earn you - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "SpaceX股价每涨1美元，马斯克身家增47.6亿",
-        "assets": "📈 SpaceX 利好，📈 太空概念 利好",
-        "chain": "估值膨胀→财富效应→吸引散户跟风投资太空板块",
-        "watch": "SpaceX二级市场交易价格和太空ETF资金流入"
+        "what": "SpaceX每涨1美元，马斯克身家增47.6亿美元",
+        "assets": "📈 SpaceX估值 利好，📈 太空概念股 联动",
+        "chain": "估值膨胀（未上市股权）→ 财富效应（马斯克套现预期）→ 特斯拉股价波动（关联交易）",
+        "watch": "SpaceX二次上市传闻及融资轮"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "The initial SpaceX frenzy is cooling off — but a new wave of cash is waiting to strike - MarketWatch",
       "source": "MarketWatch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "SpaceX初期热潮降温，但新资金等待入场",
-        "assets": "📉 太空概念 短期承压，📈 长期利好",
-        "chain": "情绪冷却→短期回调→机构资金逢低布局（等待估值合理）",
-        "watch": "SpaceX新一轮融资估值及太空股财报"
+        "what": "SpaceX炒作降温，但新资金蓄势待发",
+        "assets": "📉 太空板块 短期利空，📈 私募市场 资金流入",
+        "chain": "热度退潮（获利了结）→ 机构建仓（长期资金入场）→ 估值理性回归（折价机会）",
+        "watch": "SpaceX发射计划及客户订单量"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Claude Guillemot, Ubisoft Co-Founder, Is Dead After Plane Crash in France - The New York Times",
       "source": "The New York Times",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "育碧联合创始人因飞机失事去世",
-        "assets": "📉 育碧 利空，📉 欧洲游戏板块 承压",
-        "chain": "创始人离世→管理层不确定性→投资者担忧战略方向变化",
-        "watch": "育碧股价波动及管理层继任公告"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "多家有色龙头涨停！板块高估值风险释放，有公司股息率超3%",
-      "source": "证券市场周刊",
-      "detail": "文丨惠凯 在年初创历史新高后，有色板块2月以来走出深度回调行情，部分上市公司股价跌幅超30%-40%，由此触发监管要求及公司制度的市值管理机制...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "多家有色龙头涨停，板块高估值风险释放",
-        "assets": "📈 有色金属 利好，📈 高股息有色股 利好",
-        "chain": "估值回调（价格回到合理水平）→吸引价值投资者→股息率超3%提供安全垫（下跌保护）",
-        "watch": "大宗商品价格（如铜、铝期货）和有色板块成交量"
+        "what": "育碧联合创始人Claude Guillemot因飞机失事去世",
+        "assets": "📉 育碧股价 短期利空，📉 游戏板块 情绪承压",
+        "chain": "创始人意外（管理层变动）→ 战略不确定性（业务方向）→ 股价波动（抛售避险）",
+        "watch": "育碧董事会声明及接班人安排"
       }
     }
   ]
