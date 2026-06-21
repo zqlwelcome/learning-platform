@@ -1,36 +1,22 @@
 {
-  "updateTime": "2026-06-21 20:20",
+  "updateTime": "2026-06-21 20:25",
   "news": [
     {
       "rank": 1,
-      "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 66,
-      "insight": {
-        "what": "美联储可能更安静，导致市场波动和利率上升",
-        "assets": "📉 美股大盘 承压, 📈 美债收益率 上行",
-        "chain": "利率上升（借钱成本增加）压制股市估值，高波动性（价格大幅摆动）引发避险情绪，利好美元",
-        "watch": "美联储会议纪要及官员讲话措辞"
-      }
-    },
-    {
-      "rank": 2,
       "title": "手握2万只实验猴，鼎泰药研再度冲刺港股IPO！连亏两年后，去年随猴价回升公司实现扭亏为盈",
       "source": "红星资本局",
       "detail": " 手握2万只实验猴，鼎泰药研再度冲刺港股IPO！连亏两年后，去年随猴价回升公司实现扭亏为盈，2022年每只猴曾飙升至18.4万元高位",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "鼎泰药研手握2万只实验猴，扭亏为盈后冲刺港股IPO",
-        "assets": "📈 生物医药CRO（研发外包）板块 利好",
-        "chain": "实验猴短缺推高猴价（核心成本），利好拥有猴源的CRO企业，但IPO抽血（融资分流资金）或压制板块",
-        "watch": "港股IPO认购倍数及实验猴价格走势"
+        "what": "鼎泰药研手握2万只实验猴，扭亏为盈冲刺港股IPO",
+        "assets": "📈 港股医药股 利好；📈 实验猴价格 看涨",
+        "chain": "猴价回升→公司盈利改善→IPO可能带动CRO（医药研发外包）板块估值修复",
+        "watch": "港股IPO认购倍数及猴价后续走势"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
@@ -38,41 +24,41 @@
       "score": 39,
       "insight": {
         "what": "高盛押注并购将推动某旅游股大涨",
-        "assets": "📈 旅游板块 利好",
-        "chain": "并购（公司合并）预期刺激股价，高盛背书（信用背书）吸引跟风资金，板块情绪扩散至航空和酒店",
-        "watch": "并购进展公告及高盛目标价调整"
+        "assets": "📈 美股旅游股 利好",
+        "chain": "并购预期→股价提前反应→可能带动板块轮动（资金从科技转向消费）",
+        "watch": "并购完成进展及高盛目标价是否上调"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Tesla driver says it was on Autopilot before fatal Texas home crash - Electrek",
       "source": "Electrek",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉称Autopilot未启用，但事故引发安全质疑",
-        "assets": "📉 特斯拉股价 承压, 📉 自动驾驶板块 利空",
-        "chain": "事故调查（监管风险）可能推迟FSD（全自动驾驶）审批，打击市场对自动驾驶商业化信心，利空激光雷达等供应商",
-        "watch": "NTSB（美国运输安全委员会）调查报告及特斯拉FSD更新"
+        "what": "特斯拉司机称自动驾驶导致致命车祸",
+        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
+        "chain": "事故调查→监管审查加严→FSD（完全自动驾驶）商业化进程受阻",
+        "watch": "NHTSA（美国公路安全管理局）调查结果"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设潮让科技投资者紧盯债券市场",
-        "assets": "📈 科技股 联动, 📉 长端美债 承压",
-        "chain": "AI数据中心耗资巨大，企业发债融资（借债成本）推高利率，科技股估值与利率负相关（利率升估值降）",
-        "watch": "科技公司债券发行规模及10年期美债收益率"
+        "what": "AI建设让科技投资者关注债券市场",
+        "assets": "📉 科技股 承压；📈 美债收益率 上行",
+        "chain": "AI基建融资需求→债券供应增加→利率上升→科技股高估值受挤压",
+        "watch": "10年期美债收益率及科技股估值变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "创多项纪录！华润新能源启动申购，超200亿巨无霸IPO来了",
       "source": "市场资讯",
       "detail": "来源：资本秘闻 新能源龙头华润新能源上市在即。根据安排，华润新能源将于6月22日启动申购，即将登陆深交所主板。据了解，华润新能源系港股上市公司华润电力的全资子公司...",
@@ -80,65 +66,79 @@
       "score": 30,
       "insight": {
         "what": "华润新能源超200亿巨无霸IPO启动申购",
-        "assets": "📉 A股新能源板块 承压, 📉 市场流动性 抽血",
-        "chain": "巨量IPO（首次公开募股）冻结资金，分流存量资金（资金搬家），压制新能源板块估值，利好电力股",
-        "watch": "申购中签率及上市首日涨幅"
+        "assets": "📈 新能源板块 利好；📈 A股电力股 利好",
+        "chain": "大规模融资→市场流动性抽血（资金被吸收）→短期压制其他题材股",
+        "watch": "申购倍数及上市首日表现"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "逼空式暴涨！寒武纪猛攻14%望向万亿市值，10余股历史新高，费率较低的科创芯片ETF华宝（589190）再涨4.46%",
       "source": "新浪基金",
       "detail": "6月18日，科创芯片上演极限逼空行情，9000亿巨头寒武纪放量猛攻，涨幅最高超16%，收涨逾14%，股价站上1500元新高，收盘市值近9500亿元，距离“万亿俱乐部”仅一步之遥。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "寒武纪逼空暴涨14%，科创芯片ETF跟涨",
-        "assets": "📈 寒武纪 利好, 📈 科创芯片板块 利好",
-        "chain": "逼空（空头被迫平仓）推高股价，ETF（交易型开放式指数基金）资金流入放大涨幅，连带效应利好半导体设备",
-        "watch": "寒武纪成交量及融券余额变化"
+        "what": "寒武纪暴涨14%逼近万亿市值，科创芯片ETF跟涨",
+        "assets": "📈 寒武纪 利好；📈 科创芯片ETF 利好",
+        "chain": "逼空行情（空头被迫买入）→资金涌入半导体→带动整个AI芯片产业链估值拉升",
+        "watch": "成交量及空头持仓变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
       "source": "CNBC",
       "detail": "TipRanks discusses three dividend-paying stocks.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师推荐3只高股息股",
-        "assets": "📈 高股息（分红）板块 利好",
-        "chain": "防御性策略（避险）受青睐，资金从成长股轮动（板块切换）至公用事业和消费必需品，压低利率敏感资产",
-        "watch": "股息率与10年期美债利差"
+        "what": "华尔街分析师推荐三只高股息股票",
+        "assets": "📈 美股高股息股 利好",
+        "chain": "防御性配置（避开高风险资产）→资金从成长股流向价值股→股息策略受追捧",
+        "watch": "标普500股息率与国债利差"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "The initial SpaceX frenzy is cooling off — but a new wave of cash is waiting to strike - MarketWatch",
       "source": "MarketWatch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "SpaceX热度降温，但新资金等待入场",
-        "assets": "📈 SpaceX相关概念 中性偏多, 📉 太空板块 短期承压",
-        "chain": "初期泡沫（价格虚高）消退后，长期资金（耐心资本）逢低布局，利好二级市场（已上市）太空ETF",
-        "watch": "SpaceX估值及后续发射计划"
+        "what": "SpaceX热度降温，但新资金等待进场",
+        "assets": "📉 SpaceX概念股 承压；📈 太空板块 长期利好",
+        "chain": "短期获利了结→新资金观望→下一轮发射任务催化（如星舰测试）",
+        "watch": "SpaceX新一轮融资估值及发射日程"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Claude Guillemot, Ubisoft Co-Founder, Is Dead After Plane Crash in France - The New York Times",
       "source": "The New York Times",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "育碧联合创始人Claude Guillemot因飞机失事去世",
-        "assets": "📉 育碧股价 承压",
-        "chain": "创始人意外去世引发管理层不确定性（决策风险），影响游戏开发和并购战略，利空法国游戏板块",
-        "watch": "育碧董事会声明及新任CEO任命"
+        "what": "育碧联合创始人飞机坠毁身亡",
+        "assets": "📉 育碧股价 利空",
+        "chain": "创始人意外→管理层不确定性→可能加速公司出售或重组",
+        "watch": "育碧董事会声明及股价波动"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 23,
+      "insight": {
+        "what": "Kevin Warsh以‘天鹅绒手套’改革美联储",
+        "assets": "📉 美元 承压；📈 美债 看涨",
+        "chain": "鸽派改革（宽松政策倾向）→降息预期升温→美元走弱，债券价格上涨",
+        "watch": "美联储下次会议政策声明及点阵图变化"
       }
     }
   ]
