@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-22 06:20",
+  "updateTime": "2026-06-22 06:25",
   "news": [
     {
       "rank": 1,
-      "title": "Stock futures fall as investors await key reading on inflation: Live updates",
+      "title": "Stock futures fall as oil prices rise; investors await key reading on inflation: Live updates",
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
-      "score": 42,
+      "score": 54,
       "insight": {
-        "what": "美股期指下跌，等待通胀数据",
+        "what": "油价上涨导致美股期货下跌，市场等待通胀数据",
         "assets": "📉 美股大盘 承压",
-        "chain": "通胀若超预期→加息预期升温（借钱成本增加）→风险资产抛售",
-        "watch": "CPI（消费者物价指数）数据公布值"
+        "chain": "油价→通胀预期→加息（提高借钱成本）预期升温→股市估值承压",
+        "watch": "核心CPI（剔除食品能源的通胀数据）及美联储官员讲话"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购推动某旅游股大涨",
-        "assets": "📈 旅游股（如Booking） 利好",
-        "chain": "并购协同效应（成本削减+客户导流）→盈利预期上调→股价上行",
-        "watch": "并购完成进度及Q2财报"
+        "what": "高盛押注近期并购将提振某旅游股",
+        "assets": "📈 旅游板块 利好",
+        "chain": "并购→协同效应（成本节省+收入增长）→盈利预期上调→股价上涨",
+        "watch": "并购交易完成进度及目标公司财报"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉司机称Autopilot涉致命事故",
+        "what": "特斯拉称Autopilot涉及致命车祸",
         "assets": "📉 特斯拉股价 利空",
-        "chain": "监管审查加严→自动驾驶信心受挫→特斯拉估值承压",
-        "watch": "NHTSA（美国公路安全局）调查结论"
+        "chain": "事故→监管审查（安全调查）→自动驾驶技术前景质疑→股价承压",
+        "watch": "NHTSA（美国国家公路安全局）调查结论及后续诉讼"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "深交所最大IPO明日申购，高中签率",
-        "assets": "📉 深市资金面 承压",
-        "chain": "新股抽血效应（资金冻结）→短期流动性收紧→小盘股回调",
-        "watch": "申购冻结资金规模及首日涨幅"
+        "what": "深交所最大IPO明日申购，高中学签率，含复兴号供应商",
+        "assets": "📈 A股新股 利好；📉 存量资金 分流",
+        "chain": "IPO（首次公开募股）申购→资金冻结→二级市场流动性收紧→大盘短期承压",
+        "watch": "中签率及上市首日涨幅"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设使科技投资者关注债市",
-        "assets": "📈 科技股 间接利空",
-        "chain": "AI资本开支大→长期利率上升→科技股估值（折现率提高）承压",
-        "watch": "10年期美债收益率走势"
+        "what": "AI建设热潮让科技投资者重新关注债市",
+        "assets": "📈 科技股 偏多；📉 长期国债 收益率上行",
+        "chain": "AI投资需大量资本→发债融资→债券供给增加→收益率上升→科技股（高估值）受利率敏感",
+        "watch": "科技公司债券发行规模及10年期美债收益率"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美伊协议传闻致原油暴跌，空头回归",
+        "what": "美伊协议后油价下跌，做空石油押注重回",
         "assets": "📉 原油 利空",
-        "chain": "伊朗原油回归市场→供应过剩→油价下行→能源股跟跌",
-        "watch": "美伊谈判进展及OPEC（石油输出国组织）产量决策"
+        "chain": "美伊协议→伊朗石油出口增加→供应过剩预期→油价下跌→能源股承压",
+        "watch": "伊朗石油出口量及OPEC+（石油输出国组织及盟友）产量决策"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街看好3只高股息股票",
-        "assets": "📈 高股息股（如公用事业） 利好",
-        "chain": "防御性配置（避险资金流入）→股息率溢价→股价稳定",
-        "watch": "个股分红率及财报"
+        "what": "华尔街顶级分析师看好3只高股息股",
+        "assets": "📈 高股息板块 利好",
+        "chain": "防御性配置（避险资金）→股息股需求增加→股价获得支撑",
+        "watch": "股息率及公司现金流稳定性"
       }
     },
     {
@@ -107,24 +107,24 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "SpaceX早期热度降温，新资金待入",
-        "assets": "📉 SpaceX 短期利空",
-        "chain": "估值回调→二级市场溢价收窄→新资金等待低位入场",
-        "watch": "下一轮融资估值及发射任务频率"
+        "what": "SpaceX狂热降温，但新资金等待入场",
+        "assets": "📈 航天板块 中性偏多",
+        "chain": "短期获利回吐→新资金（机构/散户）等待回调→长期估值仍有支撑",
+        "watch": "SpaceX估值及后续融资轮次"
       }
     },
     {
       "rank": 9,
-      "title": "Polymarket reportedly paid people to post fake videos of themselves placing bets - The Verge",
-      "source": "The Verge",
+      "title": "Polymarket reportedly paid creators to post deceptive videos about fake bets - TechCrunch",
+      "source": "TechCrunch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "Polymarket被曝付费造虚假投注视频",
+        "what": "Polymarket被曝付费制作虚假投注视频",
         "assets": "📉 预测市场平台 利空",
-        "chain": "监管打击（虚假宣传）→用户信任下降→平台交易量萎缩",
-        "watch": "CFTC（美国商品期货委员会）是否介入"
+        "chain": "欺诈指控→监管风险（合规审查）→用户信任下降→平台交易量萎缩",
+        "watch": "监管机构调查进展及平台回应"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 23,
       "insight": {
-        "what": "凯文·沃什推动取消美联储指引，或推高借贷成本",
-        "assets": "📈 美债收益率 上行",
-        "chain": "政策不确定性增→市场定价加息风险→企业融资成本上升",
-        "watch": "美联储官员讲话及点阵图变化"
+        "what": "Warsh推动取消美联储前瞻指引可能推高借贷成本",
+        "assets": "📈 美元 利好；📉 美债 利空",
+        "chain": "取消前瞻指引→政策不确定性增加→利率预期上行→美元走强，美债收益率攀升",
+        "watch": "美联储官员讲话及FOMC（联邦公开市场委员会）会议纪要"
       }
     }
   ]
