@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-21 19:01",
+  "updateTime": "2026-06-21 19:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 66,
       "insight": {
-        "what": "美联储沉默可能引发市场波动和高利率",
-        "assets": "📉 美股大盘 承压",
-        "chain": "美联储不发声→市场猜测加息（收紧钱袋子）→波动率上升，债券收益率（借钱成本）走高",
-        "watch": "美联储官员讲话及点阵图（利率预测）"
+        "what": "美联储静默期可能引发市场波动和利率上升",
+        "assets": "📈 美国国债收益率 上行 | 📉 美股大盘 承压",
+        "chain": "美联储不干预（不喊话）→市场自由定价→波动率（价格跳动幅度）上升→风险溢价（额外回报要求）提高",
+        "watch": "美联储官员讲话及CME FedWatch（利率期货概率）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推高某旅游股",
+        "what": "高盛预测近期并购将推动某旅游股大涨",
         "assets": "📈 旅游板块个股 利好",
-        "chain": "并购预期→资金流入该股→带动旅游板块估值（股价/盈利比）重估",
-        "watch": "该股并购交易公告及财报"
+        "chain": "并购（公司合并）带来协同效应（成本节省/收入增长）→盈利预期上调→股价上涨",
+        "watch": "该旅行股并购完成进度及财报"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉司机称致命事故前开启Autopilot",
-        "assets": "📉 特斯拉股价 承压",
-        "chain": "事故调查→监管收紧（自动驾驶限制）→特斯拉销量及技术估值受损",
-        "watch": "NHTSA（美国安全机构）调查结论及诉讼进展"
+        "what": "特斯拉司机称事故时启用Autopilot，致命车祸调查中",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "Autopilot（自动驾驶辅助）安全性受质疑→监管审查（调查/召回）风险上升→市场情绪打压",
+        "watch": "NTSB（美国交通安全委员会）调查结论及监管措施"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让科技投资者关注债市",
-        "assets": "📉 科技股 承压",
-        "chain": "AI投资需巨额资金→债市利率（融资成本）上升→科技股高估值（未来现金流折现）受打击",
-        "watch": "美国10年期国债收益率走势"
+        "what": "AI基建热潮让科技投资者重新关注债市信号",
+        "assets": "📈 AI相关科技股 利好 | 📈 长期国债收益率 上行",
+        "chain": "AI资本开支（投入资金）大→企业借贷增加→利率敏感→债市收益率（借钱成本）影响科技股估值",
+        "watch": "美国10年期国债收益率及AI公司资本开支指引"
       }
     },
     {
@@ -65,56 +65,42 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "深交所最大规模IPO明日上市",
-        "assets": "📉 A股资金面 承压",
-        "chain": "巨额IPO吸走流动性（市场资金）→其他股票被抛售→指数短期调整",
-        "watch": "IPO首日涨幅及成交量"
+        "what": "深交所史上最大IPO明日上市",
+        "assets": "📈 A股大盘 短期承压（抽血效应）",
+        "chain": "大规模IPO（首次公开发行）→从市场吸走大量资金→流动性收紧→其他股票承压",
+        "watch": "IPO首日涨幅及市场成交量变化"
       }
     },
     {
       "rank": 6,
-      "title": "Each $1 gain in SpaceX stock adds $4.76B to Elon Musk’s net worth. Here’s what $1K, $7K or $15K invested could earn you - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "SpaceX股价每涨1美元，马斯克身家增47.6亿美元",
-        "assets": "📈 SpaceX估值 利好",
-        "chain": "估值飙升→私人市场追捧→带动太空概念股（如ASTS）热炒",
-        "watch": "SpaceX二级市场交易价格及融资动态"
-      }
-    },
-    {
-      "rank": 7,
       "title": "The initial SpaceX frenzy is cooling off — but a new wave of cash is waiting to strike - MarketWatch",
       "source": "MarketWatch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "SpaceX初始热潮降温，但新资金即将涌入",
-        "assets": "📉 短期SpaceX估值 承压",
-        "chain": "热度退潮→部分投资者获利了结→但新资金（机构）入场可支撑中期估值",
-        "watch": "SpaceX新一轮融资估值及订单量"
+        "what": "SpaceX狂热降温，但新资金等待入场",
+        "assets": "📈 SpaceX相关概念股 中性偏多",
+        "chain": "初期炒作退潮→估值回调→长期资本（耐心资金）逢低布局→二级市场后续有支撑",
+        "watch": "SpaceX估值变动及新资金入场信号"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Claude Guillemot, Ubisoft Co-Founder, Is Dead After Plane Crash in France - The New York Times",
       "source": "The New York Times",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "育碧联合创始人Claude Guillemot在法国坠机身亡",
-        "assets": "📉 育碧股价 承压",
-        "chain": "创始人去世→管理层不确定性→市场抛售，但长期影响有限",
-        "watch": "育碧新任管理层任命及游戏发售计划"
+        "what": "育碧联合创始人Claude Guillemot因飞机失事去世",
+        "assets": "📉 育碧股价 短期利空",
+        "chain": "创始人意外离世→管理层不确定性→市场情绪负面→股价短期承压",
+        "watch": "育碧管理层变动公告及股价反应"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "多家有色龙头涨停！板块高估值风险释放，有公司股息率超3%",
       "source": "证券市场周刊",
       "detail": "文丨惠凯 在年初创历史新高后，有色板块2月以来走出深度回调行情，部分上市公司股价跌幅超30%-40%，由此触发监管要求及公司制度的市值管理机制...",
@@ -122,23 +108,37 @@
       "score": 20,
       "insight": {
         "what": "多家有色龙头涨停，板块高估值风险释放",
-        "assets": "📈 有色金属板块 利好",
-        "chain": "涨停→资金涌入→股息率超3%吸引价值投资者（买便宜股）→板块估值修复",
-        "watch": "有色金属期货价格（如铜、铝）及上市公司分红公告"
+        "assets": "📈 有色金属板块 短期利好",
+        "chain": "涨停（涨幅达上限）→估值泡沫部分消化→股息率（分红收益）吸引价值投资者→板块分化",
+        "watch": "有色期货价格（如铜、铝）及公司后续财报"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Did Anthropic talk its way into an AI export ban? - Financial Times",
       "source": "Financial Times",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Anthropic或因其言论被纳入AI出口禁令",
-        "assets": "📉 AI芯片股（如英伟达） 承压",
-        "chain": "出口禁令扩大→限制AI模型出口→影响AI芯片需求→利空相关硬件股",
-        "watch": "美国商务部对AI出口管制的新规细则"
+        "what": "Anthropic或因其游说导致AI出口禁令",
+        "assets": "📉 AI芯片股（如英伟达） 利空 | 📈 非美AI公司 利好",
+        "chain": "出口禁令（限制技术外流）→芯片供应受限→美国AI公司成本上升→竞争对手受益",
+        "watch": "美国商务部对AI出口管制细则"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Why an AI company cleaned my New York City apartment for free - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "AI公司免费给我打扫纽约公寓",
+        "assets": "📈 AI服务类公司 利好",
+        "chain": "AI+家政（机器人/服务）落地→验证商业模式→市场对AI应用场景信心增强",
+        "watch": "该AI公司用户增长及服务定价策略"
       }
     }
   ]
