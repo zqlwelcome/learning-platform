@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 07:51",
+  "updateTime": "2026-06-22 07:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 54,
       "insight": {
-        "what": "油价上涨致美股期货下跌，等待通胀数据",
-        "assets": "📉 美股期货 承压，📈 原油 利好",
-        "chain": "油价涨推高通胀预期（物价上升），削弱降息（借钱成本降低）押注，利空成长股",
-        "watch": "CPI（消费者物价指数）数据公布值"
+        "what": "油价上涨引发美股期货下跌，通胀数据待公布",
+        "assets": "📉 美股期货 承压; 📈 原油 利好",
+        "chain": "油价涨→通胀预期升温→加息预期（借钱成本提高）→压制风险资产估值",
+        "watch": "美国CPI（消费者物价指数）数据公布"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购交易推升这只旅游股",
+        "what": "高盛押注并购交易将推动某旅游股大涨",
         "assets": "📈 旅游股 利好",
-        "chain": "并购预期（公司合并）吸引资金流入，板块轮动（资金从科技转向旅游）可能加速",
-        "watch": "并购完成公告或监管审批"
+        "chain": "并购预期→资金流入旅游板块→带动行业情绪回暖（市场信心）",
+        "watch": "并购交易完成公告及股价突破"
       }
     },
     {
@@ -37,28 +37,14 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉自动驾驶撞死76岁老人",
-        "assets": "📉 特斯拉股价 利空，📉 自动驾驶板块 承压",
-        "chain": "监管审查（政府调查）风险上升，消费者信心受损，拖累电动车及AI（人工智能）概念",
-        "watch": "NHTSA（美国国家公路安全局）调查结果"
+        "what": "特斯拉自动驾驶汽车撞死76岁女性",
+        "assets": "📉 特斯拉 利空; 📉 自动驾驶概念股 承压",
+        "chain": "事故→监管审查（政策收紧风险）→特斯拉股价下跌→拖累科技板块",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结果"
       }
     },
     {
       "rank": 4,
-      "title": "伊朗代表团暂停伊美谈判，国际油价拉升近3%，黄金跌破4150美元，美股期指集体下跌",
-      "source": "21世纪经济报道",
-      "detail": " 6月22日早盘，美油布油双双高开，截至6点12分，纽约原油涨2.77%，报77.95美元/桶，布伦特原油涨1.68%，报81.39美元/桶。",
-      "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "伊朗暂停伊美谈判，油价拉升，黄金跌，美股期指跌",
-        "assets": "📈 原油 利好，📉 黄金 承压，📉 美股期指 承压",
-        "chain": "地缘风险（中东冲突）推油价，避险资金流出黄金转向美元，风险资产遭抛售",
-        "watch": "伊美谈判重启时间"
-      }
-    },
-    {
-      "rank": 5,
       "title": "高中签率，深交所最大IPO明日申购！“复兴号”供应商也来了",
       "source": "21世纪经济报道",
       "detail": "A股打新投资者注意啦！ 6月22日共有2只新股可申购，分别主板的华润新能源（001248.SZ），以及北交所的益坤电气（920222.BJ）。 预期“高中签率”新股 深交所最大IPO来啦...",
@@ -66,65 +52,79 @@
       "score": 30,
       "insight": {
         "what": "深交所最大IPO明日申购，高中签率",
-        "assets": "📈 A股新股 利好，📉 A股流动性 承压",
-        "chain": "IPO（新股上市）抽血效应（资金被冻结），短期压制大盘，但中签率高吸引打新资金",
-        "watch": "中签率及上市首日涨幅"
+        "assets": "📈 A股新股 利好; 📉 资金面 承压",
+        "chain": "IPO抽血（资金从二级市场流出）→短期流动性紧张→压制大盘",
+        "watch": "中签率及首日涨幅"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设让科技投资者关注债市",
-        "assets": "📈 科技股 利好，📈 美债收益率 承压",
-        "chain": "AI投资需巨额资本，债市利率（借钱成本）影响融资成本，若利率升则科技股估值（未来利润折现值）受压",
-        "watch": "10年期美债收益率走势"
+        "what": "AI建设让科技投资者关注债券市场",
+        "assets": "📈 科技股 利空; 📈 债券 利好",
+        "chain": "AI投入成本高→企业借贷需求增→债券收益率（借钱成本）上升→科技股估值受压",
+        "watch": "10年期美债收益率（长期借贷成本）走势"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Oil Glut Bets Are Back in Play as Crude Sinks After US-Iran Deal - Bloomberg",
       "source": "Bloomberg",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美伊协议后油价下跌，空头回潮",
-        "assets": "📉 原油 利空，📈 美股 利好",
-        "chain": "供应增加预期（伊朗石油重返市场）压低油价，降低通胀（物价）压力，利好降息预期",
-        "watch": "伊朗石油出口量数据"
+        "what": "美伊协议后原油下跌，做空仓位增加",
+        "assets": "📈 原油 承压; 📉 能源股 利空",
+        "chain": "供应增加预期→油价跌→能源股盈利下调→大宗商品整体走弱",
+        "watch": "OPEC（石油输出国组织）产量及伊朗出口数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "霍尔木兹危机催生中东管道建设热潮",
-        "assets": "📈 能源基建股 利好，📉 航运股 承压",
-        "chain": "管道绕开霍尔木兹海峡（关键航道），降低运输风险，利好管道公司，利空油轮运费",
-        "watch": "新管道项目获批进度"
+        "what": "霍尔木兹危机刺激中东管道建设",
+        "assets": "📈 管道基建股 利好; 📈 原油 承压",
+        "chain": "地缘风险→替代运输方式需求增→管道投资热→长期油价压力",
+        "watch": "霍尔木兹海峡通行费及管道项目进度"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
       "source": "CNBC",
       "detail": "TipRanks discusses three dividend-paying stocks.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师推荐3只高股息股",
-        "assets": "📈 高股息股 利好，📈 公用事业板块 利好",
-        "chain": "降息预期（借钱成本降低）下，资金转向稳定股息（分红）资产，防御性板块受追捧",
-        "watch": "美联储利率决议"
+        "what": "华尔街分析师推荐三只高股息股票",
+        "assets": "📈 高股息股 利好; 📉 成长股 承压",
+        "chain": "避险情绪→资金从高估值成长股转向防御性股息股→板块轮动",
+        "watch": "股息率（分红比例）及公司财报"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Dow Jones Futures Fall After U.S.-Iran Talks; Nvidia, SpaceX, Micron In Focus - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "美伊谈判致道指期货下跌，英伟达等受关注",
+        "assets": "📉 美股 承压; 📈 科技股 分化",
+        "chain": "地缘缓和→油价跌→能源股拖累大盘→科技股成焦点",
+        "watch": "英伟达财报及美伊谈判后续"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "SpaceX热度降温，但新资金待入场",
-        "assets": "📉 SpaceX概念股 承压，📈 太空板块 长期利好",
-        "chain": "初期炒作消退，但机构资金（大基金）等待估值回调后布局，行业基本面（订单/发射频率）仍强",
-        "watch": "SpaceX下一次发射或融资公告"
+        "what": "SpaceX热度降温，但新资金等待入场",
+        "assets": "📉 太空概念股 短期承压; 📈 长期 利好",
+        "chain": "初期炒作消退→估值回调→机构资金低位布局→下一轮上涨蓄力",
+        "watch": "SpaceX发射成功次数及IPO传闻"
       }
     }
   ]
