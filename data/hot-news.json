@@ -1,64 +1,120 @@
 {
-  "updateTime": "2026-06-21 21:40",
+  "updateTime": "2026-06-21 21:46",
   "news": [
     {
       "rank": 1,
+      "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 66,
+      "insight": {
+        "what": "美联储沉默可能引发市场波动和高利率",
+        "assets": "📈 美债收益率 上行，📉 美股 承压",
+        "chain": "央行沟通减少→不确定性上升→风险溢价（市场要求的额外回报）增加→股债双杀",
+        "watch": "美联储官员讲话频率和市场波动率指数（VIX）"
+      }
+    },
+    {
+      "rank": 2,
       "title": "有矿小涨、没订单暴涨，市场爆炒AI铜箔概念，监管出手降温",
       "source": "一财网",
       "detail": "沾铜就涨，估值离谱 6月以来，A股铜箔概念掀起一轮超级行情。 铜箔是印制电路板（PCB）的关键原材料，截至6月18日当周，PCB概念板块持续掀起涨停潮。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "AI铜箔概念被爆炒，监管出手降温",
-        "assets": "📉 AI铜箔概念股 利空；📈 其他AI材料股 或有轮动",
-        "chain": "监管降温（政策打压投机）→资金流出概念股→小盘科技股承压（风险偏好下降）",
-        "watch": "铜箔龙头股明日开盘是否跌停"
+        "what": "AI铜箔概念遭爆炒，监管出手降温",
+        "assets": "📈 铜箔股 短期利好但回调风险，📉 概念炒作股 承压",
+        "chain": "监管问询→投机资金撤离→相关板块流动性（交易活跃度）下降",
+        "watch": "铜箔龙头股成交量变化和监管后续措施"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "SpaceX Stock's Biggest Test Isn't Its Post-IPO Drop. It's Coming in Late July. - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "SpaceX股价最大考验在7月底，非IPO后下跌",
+        "assets": "📉 SpaceX 承压",
+        "chain": "关键测试（如星舰发射）失败→市场信心崩塌→估值下调（预期价值降低）",
+        "watch": "7月底星舰发射结果和订单数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "手握2万只实验猴，鼎泰药研再度冲刺港股IPO！连亏两年后，去年随猴价回升公司实现扭亏为盈",
       "source": "红星资本局",
       "detail": " 手握2万只实验猴，鼎泰药研再度冲刺港股IPO！连亏两年后，去年随猴价回升公司实现扭亏为盈，2022年每只猴曾飙升至18.4万元高位",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "鼎泰药研手握2万只实验猴，冲刺港股IPO",
-        "assets": "📈 实验猴概念 利好；📉 其他CXO（医药外包） 资金分流",
-        "chain": "猴价回升（实验动物成本上涨）→药企研发费用承压（成本上升）→生物科技股估值受压制",
-        "watch": "港股IPO认购倍数及猴价后续走势"
+        "what": "鼎泰药研持2万只猴冲刺港股IPO，扭亏为盈",
+        "assets": "📈 实验猴供应商 利好，📉 生物医药股 中性",
+        "chain": "猴价回升→公司盈利改善→IPO吸引资金→带动CRO（医药研发外包）板块情绪",
+        "watch": "IPO发行价和首日涨幅"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
+      "title": "Rate cuts? Even the Fed's new chair admits companies are easily raising capital on financial markets - Fortune",
+      "source": "Fortune",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 43,
+      "insight": {
+        "what": "新主席承认企业融资容易，暗示不急于降息",
+        "assets": "📈 美元 利好，📉 黄金 承压",
+        "chain": "融资环境宽松→降息预期降低→实际利率（通胀调整后利率）上升→黄金吸引力下降",
+        "watch": "联邦基金期货隐含的降息概率"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注旅游股因并购大涨",
-        "assets": "📈 旅游板块 利好；📉 航空股 利空",
-        "chain": "并购（企业整合）→协同效应（成本节省+收入增长）→旅游股估值重估（PE（市盈率）扩张）",
-        "watch": "并购交易是否获监管批准及财报营收增速"
+        "what": "高盛押注并购将推动某旅游股大涨",
+        "assets": "📈 该旅游股 利好，📈 旅游板块 联动",
+        "chain": "并购协同效应（合并后成本节省或收入增长）→盈利预期上调→股价上涨→板块跟风",
+        "watch": "并购交易完成进度和旅游行业需求数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 7,
+      "title": "Tesla driver says it was on Autopilot before fatal Texas home crash - Electrek",
+      "source": "Electrek",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "特斯拉司机称事故时开启Autopilot，致死调查升级",
+        "assets": "📉 特斯拉 承压，📉 自动驾驶概念股 利空",
+        "chain": "监管调查→Autopilot安全性质疑→销量和股价双重压力→拖累行业前景",
+        "watch": "监管处罚结果和特斯拉保险成本变化"
+      }
+    },
+    {
+      "rank": 8,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI基建投资让科技投资者关注债券市场",
-        "assets": "📈 科技股 利好；📉 长期国债 利空",
-        "chain": "AI算力投入（资本开支）→企业借贷需求增（发债融资）→长端利率上行（债券收益率走高）",
-        "watch": "美国10年期国债收益率是否突破4.5%"
+        "what": "AI建设让科技投资者盯紧债市",
+        "assets": "📈 美债 中性，📈 AI基建股 利好",
+        "chain": "AI资本开支（如数据中心）增加→企业债供给上升→长端利率（长期借贷成本）波动→科技股估值敏感",
+        "watch": "10年期美债收益率和AI公司资本开支指引"
       }
     },
     {
-      "rank": 5,
+      "rank": 9,
       "title": "巨无霸来袭！深市史上最大IPO，明日申购！",
       "source": "券商中国",
       "detail": "新能源巨无霸来了！ 根据安排，华润新能源将于6月22日启动申购，申购代码为“001248”。公司发行价为10.11元/股，网上申购上限63.20万股，顶格申购需配深市市值632万元。",
@@ -66,79 +122,23 @@
       "score": 30,
       "insight": {
         "what": "深市史上最大IPO明日申购",
-        "assets": "📈 新股申购 利好；📉 深市存量股 资金分流",
-        "chain": "IPO巨量（抽血效应）→二级市场流动性收紧（资金搬家）→中小盘股承压（估值压缩）",
-        "watch": "申购中签率及首日涨跌幅"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
-      "source": "CNBC",
-      "detail": "TipRanks discusses three dividend-paying stocks.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "华尔街顶级分析师推荐3只高股息股",
-        "assets": "📈 公用事业/能源 高股息股 利好；📉 成长股 利空",
-        "chain": "避险情绪（市场不确定）→资金转向高分红（股息率（年分红/股价））→防御板块相对跑赢（低波动）",
-        "watch": "高股息ETF（交易所交易基金）资金流入量"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
-      "source": "CNBC",
-      "detail": "The first big announced changes point toward a quiet revolution, with task forces set up to rethink virtually everything done at the Fed.",
-      "lang": "en",
-      "score": 23,
-      "insight": {
-        "what": "Kevin Warsh以“天鹅绒手套”方式重塑美联储",
-        "assets": "📈 美元 利好；📉 黄金 承压",
-        "chain": "鹰派（收紧政策）预期→加息（借钱成本上升）→美元走强（汇率升值）→大宗商品承压（计价货币升值）",
-        "watch": "Warsh下月公开讲话中是否暗示加息路径"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Five top tech stocks with major upside, Bank of America says",
-      "source": "CNBC",
-      "detail": "Bank of America reveals its top tech stocks heading into the second half.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "美银推荐5只科技股有大幅上涨空间",
-        "assets": "📈 科技龙头股 利好；📉 中小盘科技股 利空",
-        "chain": "机构评级（卖方推荐）→资金集中流入（抱团效应）→龙头股估值溢价（PE扩张）",
-        "watch": "这5只股本周资金流向及财报季指引"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "光大证券：美图公司维持“买入”评级 影像节发布8款AI产品",
-      "source": "新浪港股",
-      "detail": "光大证券发布研报称，维持美图公司（01357）“买入”评级，26-28年经调整归母净利润预测13.5 /16.8/20.0亿元不变。2026年美图影像节期间，美图公司对其战略布局进行了更新...",
-      "lang": "zh",
-      "score": 15,
-      "insight": {
-        "what": "光大证券维持美图买入评级，发8款AI产品",
-        "assets": "📈 美图公司 利好；📉 图像处理竞品 承压",
-        "chain": "AI产品矩阵（技术落地）→用户增长（流量变现）→估值切换（从工具到平台，PS（市销率）提升）",
-        "watch": "新产品月活数据及付费转化率"
+        "assets": "📈 大盘股 短期利好，📉 小盘股 承压",
+        "chain": "巨量IPO抽血（资金从其他股票流出）→市场流动性收紧→小盘股抛压加大",
+        "watch": "申购倍数和上市首日换手率"
       }
     },
     {
       "rank": 10,
-      "title": "富瑞：智谱GLM 5.2排名全球第三成中国AI里程碑",
-      "source": "新浪港股",
-      "detail": "富瑞发布研报称，智谱（02513）旗下GLM 5.2模型在Artificial Analysis模型智能指数中排名全球第三，为中国模型首次打入前三位，在编程及智能体能力上分别排名全球第四及第...",
-      "lang": "zh",
-      "score": 15,
+      "title": "While the World Scrambles for Oil, China Sits on Full Tanks - The New York Times",
+      "source": "The New York Times",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 29,
       "insight": {
-        "what": "富瑞称智谱GLM 5.2全球第三，中国AI里程碑",
-        "assets": "📈 中国AI概念股 利好；📉 海外AI巨头 情绪利空",
-        "chain": "技术突破（模型性能）→国产替代预期（政策扶持）→科技股估值提升（AI溢价）",
-        "watch": "GLM API（应用程序接口）调用量及商业化进展"
+        "what": "全球抢油之际，中国原油库存满罐",
+        "assets": "📈 油价 承压，📉 原油股 利空",
+        "chain": "中国需求放缓→原油进口减少→全球供需宽松（供应过剩）→油价下行压力",
+        "watch": "中国原油进口量和商业库存周报"
       }
     }
   ]
