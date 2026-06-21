@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-21 12:10",
+  "updateTime": "2026-06-21 12:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 66,
       "insight": {
-        "what": "美联储沉默可能引发市场波动和利率上升",
-        "assets": "📈 美债收益率 上行 📉 美股 承压",
-        "chain": "降息预期减弱（借贷成本高企）->股市估值回调（PE压缩）->科技股敏感",
-        "watch": "下周FOMC会议声明措辞变化"
+        "what": "美联储静默期可能推高波动率和利率",
+        "assets": "📉 美债 承压，📈 美股波动率 利好",
+        "chain": "利率上行（借钱成本增加）压制风险资产（股票、高收益债），波动率上升利好做空波动率策略",
+        "watch": "美联储官员讲话及利率期货定价变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购交易提振某旅游股大涨",
-        "assets": "📈 旅游板块 利好",
-        "chain": "并购溢价（收购价高于市价）->股价跳涨->带动行业估值重估",
-        "watch": "并购完成进度及监管审批"
+        "what": "高盛押注并购案推升旅游股",
+        "assets": "📈 旅游股（如Booking等） 利好",
+        "chain": "并购预期（公司合并）提升行业集中度，股价上涨吸引跟风盘（追涨资金）",
+        "watch": "并购案进展及目标公司股价走势"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉撞入民宅致1死1伤",
-        "assets": "📉 特斯拉 负面情绪",
-        "chain": "自动驾驶安全争议（FSD系统可靠性）->监管审查风险->股价短期承压",
-        "watch": "NHTSA是否启动调查"
+        "what": "特斯拉车祸致一死一伤",
+        "assets": "📉 特斯拉 利空，📉 自动驾驶概念 承压",
+        "chain": "事故引发监管审查（政府调查）担忧，消费者信心（买车意愿）下滑",
+        "watch": "NHTSA（美国安全机构）是否发起调查"
       }
     },
     {
@@ -51,94 +51,94 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "科创新政：AI公司加速上市，题材炒作收紧",
-        "assets": "📈 AI概念股 利好 📉 投机小票 利空",
-        "chain": "IPO门槛降低（融资便利）->资金向头部AI集中->炒小炒差资金出逃",
-        "watch": "科创板IPO受理数量变化"
+        "what": "科创新政：AI企业上市加速，题材股监管收紧",
+        "assets": "📈 AI概念股（六小虎等） 利好，📉 题材炒作股 利空",
+        "chain": "资金从纯题材（无业绩支撑）转向基本面（有营收利润）AI公司，科创板流动性（交易资金）改善",
+        "watch": "科创板IPO（首次公开募股）过会数量及题材股跌幅"
       }
     },
     {
       "rank": 5,
+      "title": "Google shake-up highlights how human brains may be the scarcest AI resource of all - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "谷歌调整结构：人才成AI最稀缺资源",
+        "assets": "📈 AI人才密集型公司（如OpenAI） 利好，📉 传统科技公司 承压",
+        "chain": "人力成本（工资）上升压缩利润率，AI军备竞赛（竞争）推高并购溢价（收购价过高）",
+        "watch": "科技公司员工薪酬及离职率数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI基建让科技投资者紧盯债市",
-        "assets": "📈 AI芯片股 联动 📉 长端美债 波动",
-        "chain": "AI算力投入（资本开支大）->融资成本上升（利率敏感）->科技股估值承压",
-        "watch": "10年期美债收益率是否突破4.5%"
+        "what": "AI建设使科技投资者关注债市",
+        "assets": "📈 科技股 承压，📈 美债收益率 利好",
+        "chain": "AI基础设施（数据中心）融资需求推高利率（借钱成本），科技股估值（未来利润折现）受压制",
+        "watch": "10年期美债收益率及科技板块资金流向"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "鹰派美联储“吓坏”市场，芯片股行情将迎关键考验",
       "source": "一财网",
       "detail": "美光科技的财报能否不负众望。 受美伊签署谅解备忘录、有望结束冲突利好提振，本周美股整体收涨，三大股指在科技股带动下创出历史新高，但行情过程充满剧烈波动。",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "鹰派美联储引发芯片股关键考验",
-        "assets": "📉 半导体板块 承压",
-        "chain": "利率预期走高（加息风险）->成长股贴现率上升（DCF估值压低）->芯片股回调",
-        "watch": "费城半导体指数能否守住前低"
+        "what": "鹰派美联储言论打压芯片股",
+        "assets": "📉 芯片股（如英伟达） 承压，📉 半导体ETF 利空",
+        "chain": "高利率（资金成本）压制成长股（未来现金流折现），芯片需求预期（订单）降温",
+        "watch": "美联储下次会议点阵图（利率预测）及芯片企业财报"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "The initial SpaceX frenzy is cooling off — but a new wave of cash is waiting to strike - MarketWatch",
       "source": "MarketWatch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "SpaceX热度降温但新资金等待入场",
-        "assets": "📈 SpaceX概念股 中性偏多",
-        "chain": "散户炒作退潮（情绪冷却）->机构资金低吸（估值回归）->长期利好",
-        "watch": "SpaceX新一轮融资估值变化"
+        "what": "SpaceX热潮降温，但新资金等待入场",
+        "assets": "📉 SpaceX相关概念股 承压，📈 太空ETF 中性偏多",
+        "chain": "短期获利盘（赚钱的人卖出）离场，长期资金（养老金等）逢低吸纳（低价买入）",
+        "watch": "SpaceX估值及发射计划进度"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "A Humble 3-Wheel Electric Vehicle Lands Toyota in Federal Court - The New York Times",
       "source": "The New York Times",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 23,
       "insight": {
-        "what": "丰田因三轮电动车被联邦法院起诉",
-        "assets": "📉 丰田 负面",
-        "chain": "知识产权纠纷（专利侵权）->赔偿风险->影响电动车战略布局",
-        "watch": "法院是否颁发销售禁令"
+        "what": "丰田因三轮电动车专利被诉至联邦法院",
+        "assets": "📉 丰田 利空，📉 电动车板块 承压",
+        "chain": "专利诉讼（法律纠纷）增加研发成本（开发费用），可能阻碍低端电动车（低价车型）布局",
+        "watch": "法院裁决及丰田电动车战略调整"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Big Tech is borrowing like never before and the Fed just made that a lot more expensive - Startup Fortune",
       "source": "Startup Fortune",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 23,
       "insight": {
-        "what": "科技巨头借贷创纪录，美联储加息推高成本",
-        "assets": "📉 科技债 利空 📈 企业债利差 扩大",
-        "chain": "融资成本上升（利息支出增加）->回购减少（EPS支撑弱化）->科技股承压",
-        "watch": "大型科技公司Q2财报利息支出"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "多家有色龙头涨停！板块高估值风险释放，有公司股息率超3%",
-      "source": "证券市场周刊",
-      "detail": "文丨惠凯 在年初创历史新高后，有色板块2月以来走出深度回调行情，部分上市公司股价跌幅超30%-40%，由此触发监管要求及公司制度的市值管理机制...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "有色龙头涨停，板块估值释放，股息率超3%",
-        "assets": "📈 有色金属板块 利好",
-        "chain": "供给收缩（矿端减产）->价格上涨（通胀对冲）->高股息吸引防御资金",
-        "watch": "LME铜价能否突破前高"
+        "what": "科技巨头大量发债，加息后利息成本飙升",
+        "assets": "📉 科技公司债券 利空，📉 科技股 承压",
+        "chain": "债务再融资（借新还旧）成本上升，挤压利润（净利润），杠杆率（负债比例）过高公司风险加大",
+        "watch": "科技公司信用评级及利息覆盖率（利润覆盖利息的能力）"
       }
     }
   ]
