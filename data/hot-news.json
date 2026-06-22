@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 22:00",
+  "updateTime": "2026-06-22 22:05",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 72,
       "insight": {
         "what": "SpaceX股价盘前下跌，延续IPO后抛售",
-        "assets": "📉 SpaceX 承压",
-        "chain": "IPO后获利回吐（selloff）可能打压科技新股情绪，影响后续上市定价",
-        "watch": "SpaceX成交量及机构持仓变化"
+        "assets": "📉 SpaceX股票 利空",
+        "chain": "科技IPO（首次公开募股）热潮或降温，打压风险偏好（投资者愿意冒险的程度）",
+        "watch": "SpaceX后续股价及成交量变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SpaceX发债筹资，披露超千亿现金储备",
-        "assets": "📈 高收益债 利好",
-        "chain": "现金充裕降低违约风险，可能推高债价、压低收益率（借钱成本），吸引避险资金",
-        "watch": "债券评级及发行利率"
+        "what": "SpaceX发债融资，披露超千亿现金储备",
+        "assets": "📈 高收益债 利好；📉 科技股 中性偏空",
+        "chain": "现金充裕说明扩张放缓，债市（债券市场）可能吸引资金从股票流出",
+        "watch": "SpaceX债券收益率及现金使用计划"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "致命车祸质疑特斯拉Autopilot安全性",
-        "assets": "📉 特斯拉 利空",
-        "chain": "监管风险上升（regulatory risk），可能拖累股价并引发自动驾驶行业审查",
-        "watch": "NHTSA调查结果及特斯拉声明"
+        "what": "特斯拉致命事故引发Autopilot（自动驾驶辅助系统）安全质疑",
+        "assets": "📉 特斯拉股票 利空；📉 自动驾驶板块 承压",
+        "chain": "监管（政府规则）收紧预期升温，拖累电动车及AI（人工智能）概念股",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元 短期承压",
-        "chain": "市场缅怀其影响力，但实际政策影响有限，可能引发短暂避险情绪（risk-off）",
-        "watch": "美元指数及美债收益率变动"
+        "what": "前美联储主席艾伦·格林斯潘去世，享年100岁",
+        "assets": "📈 美债 短期利好；📉 美元 中性",
+        "chain": "市场或短暂怀念其宽松（低利率）时代，但影响有限",
+        "watch": "美联储官员评论及市场反应"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "科技IPO或引发加州居民财富外流至佛罗里达",
-        "assets": "📈 佛州房地产 利好",
-        "chain": "高净值人群迁移推高当地资产需求，加州税收承压（tax base shrink）",
-        "watch": "加州vs佛州人口流动数据"
+        "what": "SpaceX等科技IPO或引发加州富人向佛罗里达迁移",
+        "assets": "📈 佛州房地产 利好；📉 加州税收 承压",
+        "chain": "财富转移加剧加州财政压力，利好佛州本地消费和债市",
+        "watch": "加州与佛州人口迁徙数据"
       }
     },
     {
@@ -80,9 +80,9 @@
       "score": 33,
       "insight": {
         "what": "欧洲央行研究：AI热潮对美国就业与薪资影响有限",
-        "assets": "📈 美股AI板块 中性偏利好",
-        "chain": "缓解AI替代担忧（automation fear），支撑科技股估值，但影响需数据验证",
-        "watch": "美国非农就业及薪资增长数据"
+        "assets": "📉 AI概念股 利空；📈 传统就业 中性",
+        "chain": "削弱AI颠覆经济的叙事，资金或回流传统板块（如工业）",
+        "watch": "美国ADP（自动数据处理公司）就业报告"
       }
     },
     {
@@ -91,48 +91,54 @@
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📈 美债 短期利好；📉 美元 中性",
+        "chain": "历史人物离世引发政策回顾，但无实质市场冲击",
+        "watch": "美联储利率决议预期变化"
+      }
     },
     {
       "rank": 8,
+      "title": "拉加德认为欧洲央行暂无必要对伊朗战争采取更强力的政策应对",
+      "source": "环球市场播报",
+      "detail": " 欧洲央行行长克里斯蒂娜·拉加德表示，尽管中东冲突带来影响，但欧洲央行目前无需采取更为强力的应对措施，因为从中期来看，通胀仍将回到目标水平。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "拉加德称欧洲央行暂无必要因伊朗战争调整政策",
+        "assets": "📈 欧元 利好；📉 能源股 承压",
+        "chain": "暗示地缘风险可控，欧央行（欧洲中央银行）维持鹰派（倾向于加息）立场",
+        "watch": "伊朗局势升级或油价突破关键位"
+      }
+    },
+    {
+      "rank": 9,
       "title": "防务巨头KNDS完成法德股权协议，距离IPO再进一步",
       "source": "环球市场播报",
       "detail": "核心要点 德国政府于周一发布声明称，计划收购坦克制造商 KNDS 公司 40% 的股份，与法国政府持股比例持平。 本次股权协议落地之际，该公司正筹备首次公开募股（IPO）...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "防务巨头KNDS完成股权协议，推进IPO",
-        "assets": "📈 欧洲防务股 利好",
-        "chain": "IPO预期提升板块流动性（liquidity），可能带动同行估值重估",
+        "what": "防务巨头KNDS完成法德股权协议，接近IPO",
+        "assets": "📈 军工板块 利好；📈 欧洲防务ETF（交易所交易基金） 利好",
+        "chain": "欧洲国防支出预期增加，刺激供应商和上下游企业估值",
         "watch": "KNDS IPO定价及认购倍数"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "AI监管乱象丛生，Anthropic深陷舆论漩涡",
       "source": "环球市场播报",
       "detail": "安索帕推出其迄今为止功能最强大的公开版人工智能模型后没几天，这款产品就被紧急下架，不再向用户开放使用权限。 美方监管部门接到该模型出现越狱漏洞（可绕过系统内置安...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "AI监管混乱，Anthropic陷入舆论争议",
-        "assets": "📉 AI概念股 承压",
-        "chain": "监管不确定性（regulatory uncertainty）增加，可能拖累板块情绪并引发抛售",
-        "watch": "美国国会AI法案进展及Anthropic回应"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Here are Monday's biggest analyst calls: SpaceX, Tesla, Apple, Micron, Estee Lauder, Pinterest, Visteon & more",
-      "source": "CNBC",
-      "detail": "Here are the biggest calls on Wall Street on Monday.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "分析师发布多只股票最新观点（SpaceX、特斯拉等）",
-        "assets": "📈 个股波动 分化",
-        "chain": "评级调整（upgrade/downgrade）引发短期资金流动，影响板块轮动（sector rotation）",
-        "watch": "各股目标价变化及成交量"
+        "what": "AI监管乱象，Anthropic陷入舆论危机",
+        "assets": "📉 AI概念股 利空；📉 科技监管 利好",
+        "chain": "监管不确定性上升，资金从AI撤向防御性资产（如国债）",
+        "watch": "美国国会AI法案进展"
       }
     }
   ]
