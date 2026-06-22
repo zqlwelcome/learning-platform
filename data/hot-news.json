@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 10:16",
+  "updateTime": "2026-06-22 10:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 54,
       "insight": {
-        "what": "油价上涨致美股期货下跌，等待通胀数据",
-        "assets": "📉 美股大盘 承压，📈 能源股 利好",
-        "chain": "油价涨推高通胀预期（物价上升），降息（借钱成本降低）推迟，压制成长股估值（股价/盈利比）。",
-        "watch": "CPI（消费者物价指数）数据及美联储（美国央行）表态"
+        "what": "油价上涨致美股期货下跌，市场等待通胀数据",
+        "assets": "📉 美股大盘 承压\n📈 原油 利好",
+        "chain": "油价涨推高成本（通胀预期），压制风险偏好，资金或短债避险（美债收益率下行）",
+        "watch": "今晚CPI（消费者物价指数）实际值 vs 预期"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美光财报被视为AI反弹动力检验",
-        "assets": "📈 美光科技 利好，📈 AI芯片股 联动",
-        "chain": "美光业绩好则AI需求确认（订单增长），带动半导体资本开支（设备投资）和算力股（如英伟达）。",
-        "watch": "美光营收指引及数据中心客户订单"
+        "what": "投资者视美光财报为AI行情动能检验",
+        "assets": "📈 美光科技 关键\n📈 AI芯片股 联动",
+        "chain": "美光业绩若超预期，确认AI需求（算力芯片订单），利好半导体ETF；反之引发AI板块回调",
+        "watch": "美光营收指引及数据中心业务增速"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将提振某旅游股",
-        "assets": "📈 旅游股 利好，📈 并购标的 利好",
-        "chain": "并购后协同效应（成本节省+收入增长）推升EPS（每股盈利），吸引资金流入板块。",
-        "watch": "并购细节及目标公司财务数据"
+        "what": "高盛押注并购将推动某旅游股大涨",
+        "assets": "📈 该旅游股 利好\n📉 其他旅游股 分化",
+        "chain": "并购协同效应（降低成本+扩大份额）提升ROE（净资产收益率），吸引价值型资金流入板块",
+        "watch": "并购交易完成进度及整合后利润率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉撞入民宅致1死1伤",
-        "assets": "📉 特斯拉股价 承压",
-        "chain": "事故引发对自动驾驶安全性质疑，可能拖累FSD（全自动驾驶）商业化进程及监管审查。",
-        "watch": "NHTSA（美国交通安全局）调查结论"
+        "what": "特斯拉失控撞入住宅致1死1伤",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "事故引发自动驾驶安全质疑，监管审查风险上升（NHTSA调查），压制电动车板块情绪",
+        "watch": "NHTSA是否启动正式调查及事故原因报告"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "科技ETF创新高，光纤概念股涨停",
-        "assets": "📈 科技ETF 利好，📈 光纤/算力股 利好",
-        "chain": "AI算力需求拉动光模块（数据传输硬件）和光纤基建，资金从宽基ETF流向细分赛道。",
-        "watch": "长飞光纤后续订单及算力资本开支"
+        "what": "科技ETF创新高，光纤概念引爆AI算力涨停",
+        "assets": "📈 A股科技ETF 利好\n📈 长飞光纤 强势\n📈 AI算力股 利好",
+        "chain": "光纤作为算力基础设施（数据中心互联），需求爆发带动产业链（光模块、服务器）估值重估",
+        "watch": "光纤光缆订单数据及AI资本开支指引"
       }
     },
     {
@@ -79,14 +79,28 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经225突破72000点，AI热潮驱动",
-        "assets": "📈 日经225 利好，📈 日本AI/科技股 利好",
-        "chain": "AI出口（如半导体设备）推高日本企业盈利，外资回流（海外资金买入）日元走强。",
-        "watch": "日本科技股财报及日元汇率"
+        "what": "日经225首次突破72000点，AI热潮驱动",
+        "assets": "📈 日经225 利好\n📈 日本AI/半导体股 利好",
+        "chain": "日本受益于AI芯片供应链（东京电子、信越化学），外资涌入推高日元资产，但日元升值或压制出口",
+        "watch": "日本半导体设备出口数据及日元汇率"
       }
     },
     {
       "rank": 7,
+      "title": "AI buildout gives tech investors new reasons to watch bond market",
+      "source": "CNBC",
+      "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "AI建设让科技投资者关注债市信号",
+        "assets": "📈 科技股 受债市影响\n📉 长期美债 波动",
+        "chain": "AI基建耗资巨大（资本开支），若融资成本（长端利率）上升，会压缩科技公司FCF（自由现金流）估值",
+        "watch": "10年期美债收益率及科技公司资本开支计划"
+      }
+    },
+    {
+      "rank": 8,
       "title": "共享电单车公司Lime据悉拟将优步列为其IPO的基石投资者",
       "source": "环球市场播报",
       "detail": " 据知情人士称，电动自行车和滑板车运营商Lime计划在其首次公开募股（IPO）中将网约车巨头优步（Uber）列为基石投资者。",
@@ -94,23 +108,9 @@
       "score": 30,
       "insight": {
         "what": "Lime拟将优步列为IPO基石投资者",
-        "assets": "📈 共享电单车股 利好，📈 优步 利好",
-        "chain": "优步背书提升Lime估值（公司价值），共享出行板块获信心，IPO后优步可能战略合作。",
-        "watch": "Lime招股书及优步投资细节"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "AI buildout gives tech investors new reasons to watch bond market",
-      "source": "CNBC",
-      "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "AI建设让科技投资者关注债券市场",
-        "assets": "📈 科技股 联动，📈 长债收益率 承压",
-        "chain": "AI基建需大量融资（借钱），企业债发行增加推高利率（借钱成本），债市波动影响科技估值。",
-        "watch": "公司债发行规模及科技企业资本开支"
+        "assets": "📈 优步 利好\n📈 Lime估值 利好",
+        "chain": "优步背书增强LimeIPO信心（共享经济整合），可能带动其他共享出行公司估值修复（如Bird）",
+        "watch": "Lime IPO定价及优步持股比例"
       }
     },
     {
@@ -122,9 +122,9 @@
       "score": 30,
       "insight": {
         "what": "软银投资的机器人公司Coowa筹备香港IPO",
-        "assets": "📈 机器人股 利好，📈 港股IPO 利好",
-        "chain": "软银背书吸引资金关注机器人赛道，港股流动性（交易活跃度）获提振，可能带动同类公司上市。",
-        "watch": "Coowa估值及香港IPO认购情况"
+        "assets": "📈 软银 间接利好\n📈 港股机器人板块 利好",
+        "chain": "Coowa上市检验AI+机器人商业化，若成功将提振港股科技IPO情绪，利好港交所交易量",
+        "watch": "Coowa招股书营收及亏损数据"
       }
     },
     {
@@ -136,9 +136,9 @@
       "score": 29,
       "insight": {
         "what": "霍尔木兹危机引发中东管道建设热潮",
-        "assets": "📈 原油 承压，📈 管道/基建股 利好",
-        "chain": "管道绕开海峡降低运输风险（地缘溢价），长期增加供应，短期油价波动但基建投资激增。",
-        "watch": "中东管道项目进度及霍尔木兹海峡通行量"
+        "assets": "📈 原油 供应风险溢价\n📈 管道建设股 利好\n📉 航运股 利空",
+        "chain": "绕行霍尔木兹的管道（替代海运）降低地缘断供风险，但建设期推高资本开支，长期压制油轮需求",
+        "watch": "霍尔木兹海峡通行量及新管道投产时间表"
       }
     }
   ]
