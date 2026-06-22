@@ -1,22 +1,8 @@
 {
-  "updateTime": "2026-06-23 06:11",
+  "updateTime": "2026-06-23 06:15",
   "news": [
     {
       "rank": 1,
-      "title": "Exclusive | Fatal Tesla Crash Into Texas Home Now Under Federal Safety Investigation - WSJ",
-      "source": "WSJ",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 70,
-      "insight": {
-        "what": "特斯拉撞入民宅致死案遭联邦调查",
-        "assets": "📉 特斯拉股价 利空",
-        "chain": "监管风险升温和安全质疑传导，可能拖累电动车板块整体估值",
-        "watch": "NHTSA（美国国家公路安全局）最终报告及处罚决定"
-      }
-    },
-    {
-      "rank": 2,
       "title": "SpaceX stock tanks 16%, extending slump following post-IPO rally",
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past three days of trading.",
@@ -24,7 +10,7 @@
       "score": 62
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX stock tumbles 16.4%, shaving off most IPO gains since debut - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -32,40 +18,54 @@
       "score": 57
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100 - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📈 美债 中性",
-        "chain": "象征性事件，短期市场情绪波动有限，但可能引发对央行独立性讨论",
-        "watch": "美联储官员讲话及政策基调变化"
+        "what": "前美联储主席艾伦·格林斯潘去世，享年100岁",
+        "assets": "📈 美国国债 短期利好（纪念性买盘）",
+        "chain": "市场短暂关注其政策遗产，但实际影响有限，长期利率中枢（基准利率水平）不受影响",
+        "watch": "美联储官员讲话及政策声明"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets, higher rates - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "沃什警告：美联储沉默可能加剧市场波动和利率上行",
-        "assets": "📉 美债 承压 📈 波动率 上升",
-        "chain": "市场对央行路径不确定，预期加息（借钱成本增加）概率提升，压制风险资产",
-        "watch": "美联储下次会议措辞及点阵图（利率预测图）"
+        "what": "Warsh警告：美联储更安静可能意味着市场波动和更高利率",
+        "assets": "📉 美股大盘 承压 📈 美债收益率 上行预期",
+        "chain": "市场重新定价美联储政策路径（加息路径），避险情绪升温，波动率（VIX恐慌指数）上升",
+        "watch": "美联储下次会议点阵图（利率预测）及鲍威尔措辞"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Tesla faces federal probe after Model 3 slams into Texas home, killing 76-year-old",
       "source": "CNBC",
       "detail": "Harris County authorities said that the driver, Michael Butler, said that he had been using Tesla's partially automated driving systems.",
       "lang": "en",
       "score": 47
+    },
+    {
+      "rank": 6,
+      "title": "1 person killed after Tesla on autopilot crashes through Texas home - NBC News",
+      "source": "NBC News",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "特斯拉Model 3自动驾驶撞入德州住宅致1死，遭联邦调查",
+        "assets": "📉 特斯拉股票 利空 📉 自动驾驶板块 承压",
+        "chain": "监管风险上升，可能推迟FSD（全自动驾驶）商业化，拖累相关供应商",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论及后续监管法规"
+      }
     },
     {
       "rank": 7,
@@ -75,10 +75,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "SpaceX股价暴跌16%，IPO涨幅几乎全失",
-        "assets": "📉 SpaceX 利空",
-        "chain": "私营企业估值回调可能影响太空概念股（如维珍银河）及风险偏好",
-        "watch": "SpaceX后续融资估值及发射计划进展"
+        "what": "SpaceX上市后股价暴跌16%，回吐大部分IPO涨幅",
+        "assets": "📉 SpaceX股票 利空",
+        "chain": "科技股IPO情绪降温，可能传导至未盈利高估值公司（高风险成长股）估值压缩",
+        "watch": "SpaceX后续订单及发射计划"
       }
     },
     {
@@ -97,10 +97,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达称AI用水问题基本解决",
-        "assets": "📈 英伟达 利好 📉 水处理股 承压",
-        "chain": "利好AI算力扩张预期，降低环保监管对数据中心建设的拖累",
-        "watch": "英伟达数据中心业务用水成本数据及客户反馈"
+        "what": "英伟达称AI的水资源挑战已基本解决",
+        "assets": "📈 英伟达股票 利好 📈 AI数据中心 情绪提振",
+        "chain": "降低AI扩张的ESG（环境社会治理）风险，缓解市场对算力瓶颈的担忧",
+        "watch": "AI芯片订单及数据中心能耗数据"
       }
     },
     {
@@ -111,10 +111,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "美光财报预期飙升987%，AI大趋势驱动",
-        "assets": "📈 美光 利好 📈 半导体 利好",
-        "chain": "存储芯片需求爆发确认AI硬件周期，带动芯片设备和材料股",
-        "watch": "美光实际财报及下季度指引（未来业绩预测）"
+        "what": "美光预计营收暴增987%，受AI大趋势驱动",
+        "assets": "📈 美光股票 利好 📈 半导体/存储芯片 板块利好",
+        "chain": "AI需求拉动存储周期反转（周期反转），验证AI资本开支（资本支出）上行逻辑",
+        "watch": "美光财报电话会指引及DRAM（动态随机存取存储器）/NAND（闪存）价格走势"
       }
     }
   ]
