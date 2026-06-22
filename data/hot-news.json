@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 21:46",
+  "updateTime": "2026-06-22 21:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 72,
       "insight": {
-        "what": "SpaceX股价盘前下跌，延续IPO后回调",
+        "what": "SpaceX股价盘前下跌，IPO后涨势回调",
         "assets": "📉 SpaceX股票 利空",
-        "chain": "IPO热度降温可能拖累其他科技新股估值（估值倍数压缩），避险情绪蔓延至科技板块",
-        "watch": "SpaceX后续交易日成交量与支撑位"
+        "chain": "科技股IPO热潮可能降温，影响一级市场估值（初创公司融资难度）",
+        "watch": "SpaceX股价是否跌破IPO发行价"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX股价7%连跌三天，IPO暴涨后回吐",
-        "assets": "📉 SpaceX股票 利空；📉 科技新股 承压",
-        "chain": "涨幅过大触发获利了结（卖出获利仓位），短期情绪转弱可能打压IPO市场信心",
-        "watch": "股价是否跌破IPO首日开盘价"
+        "what": "SpaceX连续三日下跌，跌幅达7%",
+        "assets": "📉 SpaceX股票 利空",
+        "chain": "获利盘（早期投资者卖股）涌出，或拖累其他科技IPO首日表现",
+        "watch": "成交量是否放大及机构持仓变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SpaceX IPO后发债，披露超千亿美元现金",
-        "assets": "📈 高收益债（垃圾债）供给增加；📉 SpaceX股票 中性偏空",
-        "chain": "发债显示融资需求，现金充裕但选择债务或暗示股权融资成本高（股权稀释风险），债市利率可能小幅上行",
-        "watch": "债券发行利率与认购倍数"
+        "what": "SpaceX发债融资，披露超千亿现金储备",
+        "assets": "📉 高收益债（垃圾债）供给增加 利空债券价格",
+        "chain": "现金充裕却发债，可能为回购或并购铺路，信用市场警惕（信用利差扩大）",
+        "watch": "债券评级及认购倍数"
       }
     },
     {
@@ -51,28 +51,14 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉致命车祸，Autopilot安全性遭质疑",
-        "assets": "📉 特斯拉股票 利空；📉 自动驾驶板块 承压",
-        "chain": "监管审查风险升温（监管收紧），可能拖累自动驾驶技术商业化预期，避险资金流出成长股",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查进展"
+        "what": "特斯拉致命事故引发Autopilot安全质疑",
+        "assets": "📉 特斯拉股票 利空，📉 自动驾驶板块 承压",
+        "chain": "监管审查（美国NHTSA调查）风险上升，或拖累自动驾驶商业化预期",
+        "watch": "NHTSA是否发起正式调查及召回令"
       }
     },
     {
       "rank": 5,
-      "title": "SpaceX仅用74天完成 IPO，为OpenAI、Anthropic树立榜样",
-      "source": "环球市场播报",
-      "detail": "SpaceX 上市首周股价表现强劲，充分印证一件事：以极快节奏推进 IPO 并未让公司付出任何代价。证券申报文件分析显示，该企业从首次保密递交上市申请到正式挂牌仅耗时 74...",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX 74天完成IPO，为AI公司树立榜样",
-        "assets": "📈 科技IPO市场 利好；📈 AI概念股 情绪提振",
-        "chain": "快速IPO路径验证，激励OpenAI等独角兽加速上市（首次公开募股），一级市场估值向二级传导",
-        "watch": "OpenAI等公司IPO传闻进展"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Alan Greenspan, economist and longtime head of the Federal Reserve, dies at 100 - NBC News",
       "source": "NBC News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -80,65 +66,79 @@
       "score": 41,
       "insight": {
         "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元 短期情绪承压；📈 美债 避险需求微升",
-        "chain": "市场缅怀其时代政策，但实际影响有限，可能短暂引发对美联储独立性讨论（央行政策自主性）",
-        "watch": "美联储官员是否有相关评论"
+        "assets": "📈 美债 利好（避险情绪），📉 美元 短期波动",
+        "chain": "市场短暂缅怀，但政策影响有限，关注后续联储官员发言（鸽派or鹰派）",
+        "watch": "10年期美债收益率走势"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "美联储鹰派发言 但加息概率将大幅低于预期",
       "source": "市场资讯",
       "detail": "汇通网 汇通财经APP讯——2026年6月22日，美联储释放的政策信号成为全球金融市场焦点——新任主席凯文·沃什在6月议息会议上删除了之前偏向宽松指引的语句...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储鹰派发言但加息概率低于预期",
-        "assets": "📈 美债 利好（利率预期下降）；📈 美股 利好",
-        "chain": "鹰派言论被市场定价打折扣（预期差），实际宽松预期主导，风险资产（股票等）获得支撑",
-        "watch": "下周CPI（消费者物价指数）数据"
+        "what": "美联储鹰派发言，但加息概率低于预期",
+        "assets": "📈 美股 利好（降息预期升温），📉 美元 承压",
+        "chain": "市场解读为‘口头鹰派’（嘴上强硬实际宽松），推动风险资产（股票、商品）反弹",
+        "watch": "本周美联储会议纪要及PCE数据（通胀指标）"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "California exodus 2.0: How SpaceX, tech IPOs could trigger the next massive wealth flight to Florida - Fox Business",
       "source": "Fox Business",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "科技IPO引发加州财富外流至佛罗里达",
-        "assets": "📈 佛罗里达房地产 利好；📉 加州房地产 承压",
-        "chain": "高净值人群迁移（资本迁徙）推升佛州资产价格，加州税收基础削弱（财政收入减少），区域经济分化加剧",
-        "watch": "加州与佛州个人所得税变化"
+        "what": "加州人口外流，科技IPO可能加速富人迁往佛罗里达",
+        "assets": "📉 加州房地产 利空，📈 佛州房地产 利好",
+        "chain": "税收收入转移（加州流失高净值人群），科技人才流向低税州（劳动力成本变化）",
+        "watch": "加州与佛州税收数据对比"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "欧洲央行研究：AI热潮对美国就业与薪资影响有限",
       "source": "环球市场播报",
       "detail": "欧洲央行周一发布的一项研究显示，人工智能应用热潮或造成部分岗位人员被替代，但截至目前，其对美国整体就业水平与薪资的冲击尚不明显。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "欧洲央行研究：AI热潮对美国就业影响有限",
-        "assets": "📈 美国科技股 中性利好；📉 AI替代概念 承压",
-        "chain": "AI对就业冲击低于预期，缓解劳动力市场恐慌（劳动供给担忧），但可能压制AI自动化投资热度",
-        "watch": "美国JOLTS（职位空缺）数据"
+        "what": "欧洲央行研究称AI对美国就业冲击有限",
+        "assets": "📉 AI概念股 短期利空（预期降温），📈 蓝领股 利好",
+        "chain": "削弱AI替代就业的恐慌，利好劳动密集型行业（如物流、零售）",
+        "watch": "美国ADP就业数据（非农就业先行指标）"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "前美联储主席格林斯潘逝世，享年100岁",
-        "assets": "📉 美元 短期情绪承压；📈 黄金 避险微升",
-        "chain": "市场回顾其宽松政策遗产（低利率时代），但无实质政策影响，短期避险资金流入黄金",
-        "watch": "美联储历史政策讨论是否升温"
+        "what": "前美联储主席格林斯潘去世",
+        "assets": "📈 美债 短期避险，📉 美股 情绪扰动",
+        "chain": "市场回顾其任期政策（如低利率），但无实质影响，关注现任主席鲍威尔讲话",
+        "watch": "标普500指数是否出现异常波动"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "防务巨头KNDS完成法德股权协议，距离IPO再进一步",
+      "source": "环球市场播报",
+      "detail": "核心要点 德国政府于周一发布声明称，计划收购坦克制造商 KNDS 公司 40% 的股份，与法国政府持股比例持平。 本次股权协议落地之际，该公司正筹备首次公开募股（IPO）...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "防务巨头KNDS完成法德股权协议，接近IPO",
+        "assets": "📈 欧洲防务股 利好，📈 军工板块 看涨",
+        "chain": "地缘紧张下（俄乌冲突）军工IPO受追捧，或带动同行（如莱茵金属）估值提升",
+        "watch": "KNDS IPO定价及超额认购倍数"
       }
     }
   ]
