@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 05:35",
+  "updateTime": "2026-06-23 05:35 (fixed)",
   "news": [
     {
       "rank": 1,
@@ -35,7 +35,13 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "美股三大股指涨跌不一，SpaceX暴跌16%",
+        "assets": "📉 SpaceX 利空; 📈 防御板块 中性",
+        "chain": "分化行情显示资金轮动（从成长股转向价值股），高贝塔（波动大）个股风险释放",
+        "watch": "纳指相对道指强弱"
+      }
     },
     {
       "rank": 4,
@@ -73,10 +79,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美联储主席沃什强硬表态，华尔街承压",
-        "assets": "📉 美股大盘 利空；📈 美元 利好",
-        "chain": "鹰派（倾向加息）信号强化，短期利率预期上行，压制股市估值，利好美元多头",
-        "watch": "下次FOMC（联邦公开市场委员会）会议点阵图（利率预测）"
+        "what": "特斯拉Model 3撞入德州住宅致人死亡，遭联邦调查",
+        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
+        "chain": "监管收紧风险上升，可能推迟FSD（全自动驾驶）商业化，拖累科技股估值",
+        "watch": "NHTSA（国家公路交通安全管理局）是否升级调查或召回"
       }
     },
     {
@@ -85,7 +91,13 @@
       "source": "The Motley Fool",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "美联储主席沃什强硬表态，华尔街承压",
+        "assets": "📉 美股大盘 利空；📈 美元 利好",
+        "chain": "鹰派（倾向加息）信号强化，短期利率预期上行，压制股市估值，利好美元多头",
+        "watch": "下次FOMC（联邦公开市场委员会）会议点阵图（利率预测）"
+      }
     },
     {
       "rank": 8,
@@ -121,7 +133,13 @@
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📉 美债 微幅承压",
+        "chain": "象征性事件，短期影响有限，但或引发对过去宽松政策（低利率）的反思，长期利率预期波动",
+        "watch": "美联储政策回顾及市场评论"
+      }
     }
   ]
 }
