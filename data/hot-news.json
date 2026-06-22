@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 17:35",
+  "updateTime": "2026-06-22 17:41",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 72,
       "insight": {
-        "what": "SpaceX IPO后回调，股价下跌",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "科技股IPO情绪降温，后续科技新股估值可能承压（估值压力）",
-        "watch": "SpaceX成交量及后续财报"
+        "what": "SpaceX上市后回调，IPO后涨幅回吐",
+        "assets": "📉 SpaceX 利空",
+        "chain": "可能拖累太空概念股，但IPO成功为科技IPO（新股上市）提供正面参照",
+        "watch": "SpaceX后续订单及发射计划"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "本周关注美联储通胀数据及存储芯片股财报",
-        "assets": "📉 美股大盘 承压 📈 存储芯片股 利好",
-        "chain": "通胀数据若超预期，降息预期（借钱成本降低）将推迟，利空成长股",
-        "watch": "美国CPI（消费者物价指数）及美光财报"
+        "what": "本周关注美联储通胀数据及芯片公司财报",
+        "assets": "📉 美股大盘 承压",
+        "chain": "通胀高则加息（借钱成本增加）预期升温，压制科技股；财报超预期则提振芯片板块",
+        "watch": "CPI（消费者物价指数）及美光财报"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "高盛大幅下调黄金目标价至4900，美联储降息预期归零",
-        "assets": "📉 黄金 利空 📈 美元 利好",
-        "chain": "降息预期消失推高实际利率（扣除通胀的利率），黄金无息资产吸引力下降",
-        "watch": "美联储官员讲话及非农数据"
+        "what": "高盛下调黄金目标价至4900，联储降息预期归零",
+        "assets": "📉 黄金 利空",
+        "chain": "实际利率（名义利率减通胀）上升，美元走强，黄金配置吸引力下降",
+        "watch": "美联储官员讲话及美债收益率（国债利息率）"
       }
     },
     {
@@ -51,38 +51,38 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX仅74天完成IPO，为AI公司树立快速上市标杆",
-        "assets": "📈 科技IPO板块 利好 📈 OpenAI概念股 利好",
-        "chain": "缩短上市周期将吸引更多风投资本涌入AI赛道，推高科技股估值（估值倍数）",
-        "watch": "OpenAI上市进展及科技IPO申请数量"
+        "what": "SpaceX 74天完成IPO，为AI公司树立快速上市榜样",
+        "assets": "📈 科技IPO 利好",
+        "chain": "缩短上市周期可能引发更多科技公司跟风，增加供给，但提振风投退出信心",
+        "watch": "OpenAI、Anthropic上市进展"
       }
     },
     {
       "rank": 5,
+      "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "美股期货下跌，市场权衡伊朗协议进展及通胀数据",
+        "assets": "📉 美股大盘 承压",
+        "chain": "伊朗协议若达成，油价可能下跌，但通胀数据若超预期则强化加息预期",
+        "watch": "伊朗核协议谈判结果及CPI数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates",
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Monday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货下跌，投资者关注伊朗协议进展及通胀数据",
-        "assets": "📉 美股期货 承压 📈 能源股 利好",
-        "chain": "伊朗协议若达成将增加原油供应，压低油价（供给冲击）；通胀数据影响利率预期",
-        "watch": "伊朗谈判声明及美国CPI"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
-      "source": "Barron's",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "霍尔木兹海峡关闭，油价跳涨，美股期货下跌",
-        "assets": "📈 原油 暴涨 📉 美股大盘 承压",
-        "chain": "海峡关闭导致全球石油供应中断（地缘风险溢价），推高成本并压制消费股",
-        "watch": "海峡通行状态及美国战略石油储备释放"
+        "what": "美股期货下跌，等待通胀数据及伊朗协议信号",
+        "assets": "📉 美股大盘 承压",
+        "chain": "风险偏好降温，避险资产如美债（美国国债）可能受追捧",
+        "watch": "CPI及伊朗谈判声明"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购推动某旅游股大涨",
-        "assets": "📈 旅游板块 利好 📈 并购目标股 利好",
-        "chain": "并购信号将引发行业整合预期，带动航空酒店等关联板块估值修复（协同效应）",
-        "watch": "目标公司公告及高盛持仓披露"
+        "what": "高盛押注并购将推动某旅游股大涨",
+        "assets": "📈 旅游股 利好",
+        "chain": "并购协同（合并后成本节省）效应提升盈利预期，可能带动酒店、航空板块",
+        "watch": "并购完成进度及旅游需求数据"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "黄金四日来首涨，在4200美元下方徘徊",
-        "assets": "📈 黄金 反弹 📉 美元 承压",
-        "chain": "技术性买盘介入，但若实际利率（扣除通胀的利率）持续走高，反弹难持续",
-        "watch": "美国10年期TIPS（通胀保值债券）收益率"
+        "what": "黄金四日来首涨，在4200美元附近徘徊",
+        "assets": "📈 黄金 短期利好",
+        "chain": "技术性反弹，但若美元走强则反弹空间有限，关注实际利率走势",
+        "watch": "美元指数及美联储政策信号"
       }
     },
     {
@@ -122,9 +122,9 @@
       "score": 37,
       "insight": {
         "what": "特斯拉自动驾驶撞死76岁老人，引发安全质疑",
-        "assets": "📉 特斯拉股票 利空 📉 自动驾驶板块 承压",
-        "chain": "监管风险升级，可能推迟全自动驾驶（FSD）审批，打击相关供应商股价",
-        "watch": "NHTSA（美国交通安全局）调查进展及监管新规"
+        "assets": "📉 特斯拉 利空",
+        "chain": "监管收紧风险上升，可能拖累自动驾驶板块估值",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结果"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "华尔街评估凯文·沃什美联储首秀，称'新警长来了'",
-        "assets": "📉 美股大盘 承压 📈 美元 利好",
-        "chain": "沃什若偏鹰派（倾向加息），将加速缩表（减少市场资金），压制风险资产",
-        "watch": "沃什首次公开讲话及FOMC（美联储议息会议）声明"
+        "what": "华尔街评估Kevin Warsh接任美联储主席影响",
+        "assets": "📈 美元 利好",
+        "chain": "Warsh偏鹰派（倾向加息），加息预期升温，美元走强，新兴市场承压",
+        "watch": "Warsh政策表态及美联储会议纪要"
       }
     }
   ]
