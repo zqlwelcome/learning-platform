@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 03:35",
+  "updateTime": "2026-06-23 03:37",
   "news": [
     {
       "rank": 1,
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "SpaceX股价跌12%，连跌三日",
+        "assets": "📉 SpaceX股票 利空；📉 科技成长股 情绪受压",
+        "chain": "IPO热度退潮（新股追捧消失）触发获利了结（卖出盈利头寸），拖累同类高估值标的",
+        "watch": "成交量是否放大；支撑位（技术面关键价格）"
+      }
     },
     {
       "rank": 4,
@@ -73,10 +79,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "油价跌破74美元，美股分化",
-        "assets": "📈 道指 利好；📉 纳指 承压",
-        "chain": "油价下跌利好运输及消费板块（成本下降），但伊朗油销售60天豁免打压能源股，科技股受利率预期压制",
-        "watch": "伊朗原油出口量及EIA库存周报"
+        "what": "分析师警告中国石油需求或难恢复",
+        "assets": "📉 原油 承压",
+        "chain": "需求端疲软叠加OPEC+减产松动风险，能源股及产油国货币（如加元）受拖累",
+        "watch": "中国PMI（采购经理人指数）及炼厂开工率"
       }
     },
     {
@@ -101,10 +107,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "分析师警告中国石油需求或难恢复",
-        "assets": "📉 原油 承压",
-        "chain": "需求端疲软叠加OPEC+减产松动风险，能源股及产油国货币（如加元）受拖累",
-        "watch": "中国PMI（采购经理人指数）及炼厂开工率"
+        "what": "油价跌破74美元，美股分化",
+        "assets": "📈 道指 利好；📉 纳指 承压",
+        "chain": "油价下跌利好运输及消费板块（成本下降），但伊朗油销售60天豁免打压能源股，科技股受利率预期压制",
+        "watch": "伊朗原油出口量及EIA库存周报"
       }
     },
     {
@@ -127,7 +133,13 @@
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📉 市场情绪 短期波动；📈 美元 中性",
+        "chain": "历史人物离世→引发政策反思（回顾其宽松政策），但对当前利率路径影响有限",
+        "watch": "市场反应是否过度；美联储声明"
+      }
     }
   ]
 }
