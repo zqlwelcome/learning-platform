@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 06:00",
+  "updateTime": "2026-06-23 06:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 70,
       "insight": {
-        "what": "特斯拉事故致人死亡，遭联邦调查",
+        "what": "特斯拉Model 3撞入德州房屋致死，遭联邦调查",
         "assets": "📉 特斯拉股价 利空",
-        "chain": "自动驾驶监管收紧（影响整个行业估值），短期避险情绪压制科技股",
-        "watch": "NHTSA（美国公路安全管理局）是否扩大调查范围"
+        "chain": "监管收紧预期升温，可能拖累电动车板块（行业情绪）及自动驾驶技术（技术路线）估值",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论及后续召回风险"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past three days of trading.",
       "lang": "en",
-      "score": 62,
-      "insight": {
-        "what": "SpaceX股价暴跌16%，回吐IPO后涨幅，投资者担忧高估值与盈利可持续性",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "SpaceX作为近期IPO明星股，连续两日大幅回调，引发市场对高成长科技股估值重估的担忧",
-        "watch": "关注SpaceX后续是否企稳、是否有大股东减持或做空报告"
-      }
+      "score": 62
     },
     {
       "rank": 3,
@@ -35,13 +29,7 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "SpaceX股价暴跌16%，回吐IPO后涨幅，投资者担忧高估值与盈利可持续性",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "SpaceX作为近期IPO明星股，连续两日大幅回调，引发市场对高成长科技股估值重估的担忧",
-        "watch": "关注SpaceX后续是否企稳、是否有大股东减持或做空报告"
-      }
+      "score": 57
     },
     {
       "rank": 4,
@@ -51,10 +39,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "RBC策略师称美股能承受两次加息",
-        "assets": "📈 美股大盘 利好",
-        "chain": "市场对加息定价（利率预期）已部分消化，短期恐慌缓解，但需验证经济韧性",
-        "watch": "美联储下次会议点阵图（利率预测）及通胀数据"
+        "what": "RBC策略师称美股能承受美联储两次加息",
+        "assets": "📈 美股大盘 中性偏利好；📉 美债收益率 上行压力",
+        "chain": "加息预期（借钱成本上升）已被定价，但若超过两次可能引发流动性（资金面）收紧恐慌",
+        "watch": "CME FedWatch（美联储利率预测工具）显示的加息概率变化"
       }
     },
     {
@@ -66,9 +54,9 @@
       "score": 51,
       "insight": {
         "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美债收益率 短期波动",
-        "chain": "市场缅怀其宽松政策时代（低利率），可能短暂引发对当前高利率的反思",
-        "watch": "美联储官员是否发表纪念言论及政策暗示"
+        "assets": "📈 美元 短期波动；📈 美债 避险买盘",
+        "chain": "市场缅怀其宽松政策（低利率时代），但无实质政策影响，情绪驱动短暂交易",
+        "watch": "美联储官员对格林斯潘遗产的评论是否暗示政策转向"
       }
     },
     {
@@ -79,10 +67,10 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "沃什称美联储沉默可能引发市场波动",
-        "assets": "📉 美股波动率指数（VIX） 利好",
-        "chain": "央行沟通减少导致预期混乱（不确定性溢价），利率路径更陡峭，债券收益率上行",
-        "watch": "美联储下次讲话及纪要措辞变化"
+        "what": "Warsh警告：美联储沉默可能引发市场波动与高利率",
+        "assets": "📉 美股 承压；📈 美债收益率 上行",
+        "chain": "沟通缺失（前瞻指引失效）导致不确定性溢价（风险补偿），资金从风险资产流向现金",
+        "watch": "美联储下次会议声明措辞及点阵图（利率预测）"
       }
     },
     {
@@ -91,13 +79,7 @@
       "source": "CNBC",
       "detail": "Harris County authorities said that the driver, Michael Butler, said that he had been using Tesla's partially automated driving systems.",
       "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "特斯拉事故致人死亡，遭联邦安全调查，可能影响自动驾驶监管进程",
-        "assets": "📉 特斯拉股价 利空",
-        "chain": "联邦调查可能带来召回、罚款或更严格的自动驾驶监管，对特斯拉FSD商业化进程构成阻力",
-        "watch": "关注NHTSA调查结果、是否会扩大调查范围至其他车型"
-      }
+      "score": 47
     },
     {
       "rank": 8,
@@ -107,10 +89,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "SpaceX股价暴跌16%，回吐IPO后涨幅",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "私人市场估值泡沫破裂信号（可能传导至其他未上市科技公司），投资者风险偏好下降",
-        "watch": "SpaceX后续融资估值及二级市场交易量"
+        "what": "SpaceX股价暴跌16%，回吐IPO后大部分涨幅",
+        "assets": "📉 SpaceX股价 利空；📉 太空概念股 承压",
+        "chain": "IPO（首次公开募股）泡沫破裂信号，可能引发私有科技股估值回调（二级市场传导）",
+        "watch": "SpaceX后续融资或订单消息，以及同行（如RKLB）股价表现"
       }
     },
     {
@@ -119,13 +101,7 @@
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁，市场回顾其38年美联储生涯",
-        "assets": "📉 美债收益率 短期波动",
-        "chain": "格林斯潘是美联储历史上最具影响力的人物之一，其去世可能引发市场对美联储历史政策路径的回顾",
-        "watch": "市场情绪面影响，不会改变当前利率路径，但可能引发短期避险情绪"
-      }
+      "score": 33
     },
     {
       "rank": 10,
@@ -135,10 +111,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达称AI用水问题基本解决",
-        "assets": "📈 英伟达股价 利好",
-        "chain": "降低AI数据中心运营成本（能耗限制放松），利好AI算力产业链，但需验证技术可行性",
-        "watch": "英伟达数据中心营收指引及水冷技术商用进展"
+        "what": "英伟达称AI的水资源问题已基本解决",
+        "assets": "📈 英伟达股价 利好；📈 AI数据中心股 提振",
+        "chain": "降低运营成本（冷却用水减少），缓解ESG（环境社会治理）监管压力，加速AI算力部署",
+        "watch": "英伟达财报中数据中心毛利率及水冷技术订单数据"
       }
     }
   ]
