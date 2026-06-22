@@ -1,144 +1,126 @@
 {
-  "updateTime": "2026-06-22 12:05",
+  "updateTime": "2026-06-22 12:10",
   "news": [
     {
       "rank": 1,
+      "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "高盛押注并购案将提振某旅游股",
+        "assets": "📈 该旅游股 利好；📈 旅游板块 情绪提振",
+        "chain": "并购溢价带动板块估值重估（Re-rating），资金轮动至价值股（Value stocks）",
+        "watch": "并购案监管审批进展"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates",
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗关闭霍尔木兹海峡，油价飙升",
-        "assets": "📈 原油 利好\n📉 美股大盘 承压",
-        "chain": "油价涨→通胀预期升温→加息（借钱成本提高）预期强化，压制风险资产（如股票）",
-        "watch": "伊朗海峡通行状态及美国战略储备释放"
+        "what": "特斯拉自动驾驶事故致人死亡",
+        "assets": "📉 特斯拉 承压；📉 自动驾驶概念股 情绪利空",
+        "chain": "监管审查风险上升，消费者信任度下降，可能延缓FSD（完全自动驾驶）商业化进程",
+        "watch": "NHTSA（美国公路交通安全管理局）调查结论"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
       "source": "Barron's",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "伊朗核协议进展及通胀数据待公布，期指下跌",
-        "assets": "📉 美股期指 承压\n📈 避险资产如黄金 利好",
-        "chain": "通胀数据若超预期→加息预期升温→科技股估值承压（未来现金流折现减少）",
-        "watch": "周三CPI数据及美联储官员讲话"
+        "what": "伊朗关闭霍尔木兹海峡，油价跳涨，期指下跌",
+        "assets": "📈 原油 利好；📉 美股期指 承压",
+        "chain": "能源成本上升推高通胀预期（CPI），压制风险偏好（Risk-off），利好避险资产（黄金）",
+        "watch": "霍尔木兹海峡航运恢复情况"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推高某旅游股",
-        "assets": "📈 该旅游股 利好\n📈 旅游板块 情绪利好",
-        "chain": "并购协同效应（合并后成本降低+收入增长）→业绩预期上调→股价上涨",
-        "watch": "并购完成进度及季度财报"
+        "what": "日本首相暗示认可央行加息决定",
+        "assets": "📈 日元 利好；📉 日债收益率 上行",
+        "chain": "加息预期强化（Hawkish），套息交易（Carry trade）平仓，利空日经指数",
+        "watch": "日本央行下次会议加息概率"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Tesla Driver Using Autopilot Crashes Into Home, Killing a Woman, Officials Say - The New York Times",
       "source": "The New York Times",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉Autopilot车祸致人死亡",
-        "assets": "📉 特斯拉 利空\n📉 自动驾驶板块 承压",
-        "chain": "事故引发监管审查（如NHTSA调查）→自动驾驶商业化预期降温→相关供应链（如传感器）受挫",
-        "watch": "NHTSA调查结论及特斯拉股价波动"
+        "what": "钽锭价格暴涨158%，AI算力金属受追捧",
+        "assets": "📈 钽相关小金属 利好；📈 AI硬件供应链 利好",
+        "chain": "供给刚性+AI需求爆发，引发库存囤积（Hoarding），传导至电容器等元器件涨价",
+        "watch": "钽矿主要产地（刚果）出口政策"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "日本首相重申协调配合立场 暗示认可央行上周加息决定",
       "source": "环球市场播报",
       "detail": "日本首相高市早苗重申政府与央行保持协调的一贯表态，暗示认可日本央行上周的加息决定。 高市早苗周一在国会表示：“我们期望央行与政府密切配合，并综合考虑经济...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本首相暗示认可央行加息，日元走强",
-        "assets": "📈 日元 利好\n📉 日经225 承压",
-        "chain": "加息（借钱成本提高）→日元升值→出口企业（如汽车）盈利预期下调→日经承压",
-        "watch": "日本央行下次会议及日元汇率走势"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "钽锭暴涨158%！AI算力金属迎景气共振，小金属战略地位确立，谁能穿越周期？",
-      "source": "新浪基金",
-      "detail": "自2026年起，受供给收紧与需求爆发双重驱动，“算力金属”市场迎来景气共振期，其中与AI产业深度绑定的锡、钽、铟价格显著飙升，涨幅分别达40%、158%和约60%...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "钽锭价格暴涨158%，AI算力金属受追捧",
-        "assets": "📈 钽相关小金属股 利好\n📈 AI硬件供应链 利好",
-        "chain": "AI算力需求（如电容器用钽）→供给弹性小（开采周期长）→价格暴涨→上游矿企利润飙升",
-        "watch": "钽现货价格及AI资本开支数据"
+        "what": "日经225指数突破72000点，AI热潮推动",
+        "assets": "📈 日经225 利好；📈 日本半导体设备股 利好",
+        "chain": "AI资本开支（CapEx）周期拉动日本芯片设备出口，外资流入（Inflows）推高指数",
+        "watch": "日本半导体设备月度出货额"
       }
     },
     {
       "rank": 7,
+      "title": "钽锭暴涨158%！AI算力金属迎景气共振，小金属战略地位确立，谁能穿越周期？",
+      "source": "新浪基金",
+      "detail": "自2026年起，受供给收紧与需求爆发双重驱动，“算力金属”市场迎来景气共振期，其中与AI产业深度绑定的锡、钽、铟价格显著飙升，涨幅分别达40%、158%和约60%...",
+      "lang": "zh",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "日经225指数首次突破72000点大关，得益于AI热潮",
       "source": "环球市场播报",
       "detail": "日本股市周一首次突破72000点大关，因人工智能（AI）投资热情高涨，盖过美伊和平谈判的不确定性。 日经225指数早盘上涨1.4%，报72，247.21点，此前一度触及72，269...",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "日经225突破72000点，AI热潮驱动",
-        "assets": "📈 日经225 利好\n📈 日本AI相关科技股 利好",
-        "chain": "AI算力需求（如半导体设备）→日本科技龙头盈利上调→外资涌入→指数创新高",
-        "watch": "日本半导体设备出口数据及美股科技股走势"
-      }
+      "score": 30
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Next week's inflation data just got even more important. Here's what's ahead for the market",
       "source": "CNBC",
       "detail": "Investors will now laser in on any signs that the central bank could hike interest rates against a backdrop of a buoyant stock market.",
       "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "通胀数据重要性提升，市场聚焦下周",
-        "assets": "📈 美债收益率 波动\n📉 成长股 承压",
-        "chain": "通胀若超预期→加息预期强化→美债收益率（无风险利率）上升→成长股估值压缩",
-        "watch": "下周CPI及PPI数据"
-      }
+      "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "共享电单车公司Lime据悉拟将优步列为其IPO的基石投资者",
       "source": "环球市场播报",
       "detail": " 据知情人士称，电动自行车和滑板车运营商Lime计划在其首次公开募股（IPO）中将网约车巨头优步（Uber）列为基石投资者。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Lime拟邀优步作为IPO基石投资者",
-        "assets": "📈 Lime 利好\n📈 共享出行板块 情绪利好",
-        "chain": "优步背书（信誉+生态协同）→增强投资者信心→IPO定价及后续股价支撑",
-        "watch": "Lime招股书及优步战略合作细节"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "知情人士：软银投资的机器人制造商Coowa正筹备香港IPO",
-      "source": "环球市场播报",
-      "detail": "知情人士称，中国机器人公司Coowa正筹备在香港上市，加入了机器人和科技公司赴港融资的浪潮。这些知情人士称，这家获软银集团支持的公司在最新一轮融资中筹集了超过6亿美元...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "软银投资的机器人公司Coowa筹备香港IPO",
-        "assets": "📈 港股IPO市场 情绪利好\n📈 机器人板块 利好",
-        "chain": "软银背书（技术+资本）→机器人赛道热度升温→相关供应链（如传感器）估值提升",
-        "watch": "Coowa招股书估值及港股流动性"
+        "what": "Lime拟将优步列为IPO基石投资者",
+        "assets": "📈 Lime 利好；📈 共享出行板块 情绪提振",
+        "chain": "优步背书增强IPO估值锚定（Anchor），可能带动优步股价上涨（交叉持股）",
+        "watch": "Lime招股书估值区间"
       }
     }
   ]
