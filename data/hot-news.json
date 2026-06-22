@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 00:31",
+  "updateTime": "2026-06-23 00:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX股价下跌并确认发行债券",
-        "assets": "📉 SpaceX 利空，📈 债券市场 利好",
-        "chain": "发债（借钱）补充流动性，稀释股权，短期压制股价；现金储备高说明资本开支大",
-        "watch": "债券发行定价及认购情况"
+        "what": "SpaceX股价持续下跌，确认债务融资",
+        "assets": "📉 SpaceX股票 利空；📈 债券市场 利好",
+        "chain": "股权融资成本上升，转向债市，或推高信用利差（风险溢价），影响科技股估值",
+        "watch": "SpaceX债券发行利率及认购情况"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "RBC策略师称美股可承受两次加息",
-        "assets": "📈 美股大盘 利好",
-        "chain": "暗示市场已定价加息风险（已提前下跌消化），若加息落地可能利空出尽",
-        "watch": "美联储点阵图（利率预测）变化"
+        "what": "RBC策略师称美股能承受两次加息",
+        "assets": "📈 美股大盘 中性偏多；📉 债券价格 承压",
+        "chain": "政策韧性预期（加息不崩盘）支撑风险偏好，但利率上行压制成长股估值",
+        "watch": "美联储点阵图（利率预测）及通胀数据"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "Warsh警告美联储沉默将导致市场波动和利率上升",
-        "assets": "📉 美债 承压，📉 美股 波动加大",
-        "chain": "政策不透明（沟通不足）会引发不确定性溢价，推高长期利率，压制风险资产",
-        "watch": "美联储官员讲话频率及措辞"
+        "what": "Warsh警告美联储沉默或引发高利率和波动",
+        "assets": "📉 美股 利空；📉 美债 利空（收益率上行）",
+        "chain": "政策不确定性（鸽派信号缺失）推升波动率（VIX恐慌指数），资金转向避险资产",
+        "watch": "美联储官员讲话及VIX指数变化"
       }
     },
     {
       "rank": 4,
+      "title": "SpaceX makes bond sale days after record IPO, discloses over $100 billion cash pile - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 50,
+      "insight": {
+        "what": "SpaceX IPO后发行债券，现金储备超千亿",
+        "assets": "📉 SpaceX股票 利空（稀释担忧）；📈 高收益债 利好",
+        "chain": "现金充裕却发债，暗示股权融资贵，债市流动性宽松，或压低信用风险溢价",
+        "watch": "SpaceX债券评级及二级市场交易价格"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Deadly Tesla crash raises questions about Autopilot use after woman killed - NewsNation",
       "source": "NewsNation",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "致命特斯拉车祸引发Autopilot安全质疑",
-        "assets": "📉 特斯拉 利空",
-        "chain": "监管审查（政府调查）风险升高，可能限制自动驾驶推广速度，拖累股价",
-        "watch": "NHTSA（美国公路安全局）是否发起正式调查"
+        "what": "致命特斯拉事故质疑Autopilot安全性",
+        "assets": "📉 特斯拉股票 利空；📉 自动驾驶板块 承压",
+        "chain": "监管风险（调查升级）打击市场信心，拖累电动车及科技板块情绪",
+        "watch": "NHTSA调查结果及特斯拉回应"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "US stocks drift near their records in mixed trading after oil prices fall - AP News",
       "source": "AP News",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "美股在油价下跌后涨跌互现接近历史高位",
-        "assets": "📉 能源股 承压，📈 消费股 利好",
-        "chain": "油价下跌降低通胀预期（物价压力），利好降息预期，但能源板块拖累指数",
-        "watch": "WTI原油价格是否跌破80美元"
+        "what": "美股油价下跌后窄幅震荡，接近纪录高位",
+        "assets": "📈 美股大盘 中性；📉 能源股 承压",
+        "chain": "油价下跌缓解通胀预期，利好消费股，但能源板块拖累指数",
+        "watch": "WTI原油期货价格及CPI数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Oil Declines After US-Iran Deal Progress, Sanctions Waiver - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "油价下跌因美伊协议进展及制裁豁免",
-        "assets": "📉 原油 利空，📈 航空股 利好",
-        "chain": "供应增加预期（伊朗石油重返市场）压低油价，降低运输成本，利好航空物流",
-        "watch": "美伊谈判后续及伊朗原油出口量"
+        "what": "美伊和谈进展及制裁豁免致油价下跌",
+        "assets": "📉 原油 利空；📈 航空/运输股 利好",
+        "chain": "地缘风险溢价消退（供应增加预期），压低能源成本，利好下游行业利润",
+        "watch": "美伊谈判进展及OPEC产量数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Micron Earnings Will Likely Whip Up AI Frenzy. Why That’s Bad for Markets. - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美光财报可能引爆AI热潮但对市场不利",
-        "assets": "📈 半导体/美光 短期利好，📉 大盘 承压",
-        "chain": "AI概念过热（资金过度集中）可能引发板块轮动，若业绩不及预期将导致剧烈回调",
-        "watch": "美光营收指引及AI相关收入占比"
+        "what": "美光财报或引爆AI狂热，但对市场不利",
+        "assets": "📈 美光/半导体 短期利好；📉 大盘 利空（过度集中风险）",
+        "chain": "AI炒作推高估值，但资金虹吸效应（抽走其他板块流动性）加剧市场脆弱性",
+        "watch": "美光财报后股价波动及资金流向"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX周一宣布启动优先无担保票据发行，并披露其目前持有约1008亿美元的现金储备。 受此消息影响，公司股价下跌约7%。 这家涉足航天与人工智能领域的公司计划将此次募资用...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX创纪录IPO后发债，现金储备超千亿",
-        "assets": "📉 SpaceX 利空，📈 债券市场 利好",
-        "chain": "高现金仍发债暗示巨额投入（星舰等），债务增加可能稀释股东权益",
-        "watch": "发债利率及后续资本开支计划"
+        "what": "SpaceX创纪录IPO后发债，现金超千亿",
+        "assets": "📉 SpaceX股权 利空；📈 债市 利好",
+        "chain": "股权融资受限，债市流动性充裕，或带动科技企业发债潮",
+        "watch": "SpaceX债券收益率及后续融资动作"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "多家外资巨头一致看好A股AI和半导体板块",
       "source": "21世纪经济报道",
       "detail": "记者丨易妍君 编辑丨张星 近期，摩根士丹利、景顺、富达国际、贝莱德等外资巨头陆续发布2026年中期投资展望。 多家外资机构一致看好中国AI与半导体产业链的中长期价值。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "外资巨头看好A股AI和半导体板块",
-        "assets": "📈 A股AI/半导体 利好",
-        "chain": "外资流入（北向资金）预期增加，带动估值修复，但需警惕短期过热",
-        "watch": "北向资金净流入数据及板块成交量"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Bank of America expects three Fed hikes this year, says inflation is getting 'unambiguously worse'",
-      "source": "CNBC",
-      "detail": "The bank's economists reversed their position held as recently as last week that the central bank would stay on hold this year.",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "美银预测今年加息三次，通胀恶化",
-        "assets": "📉 美股 承压，📈 美元 利好",
-        "chain": "激进加息预期（借钱成本上升）打压估值，美元走强利空新兴市场",
-        "watch": "下周CPI（消费者物价指数）数据是否超预期"
+        "what": "外资巨头一致看好A股AI和半导体",
+        "assets": "📈 A股AI/半导体 利好；📈 科创50指数 利好",
+        "chain": "外资流入预期（全球资金再配置）推高板块估值，带动科技主题ETF申购",
+        "watch": "北向资金净流入及半导体ETF份额变化"
       }
     }
   ]
