@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 22:31",
+  "updateTime": "2026-06-22 22:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 72,
       "insight": {
-        "what": "SpaceX盘前下跌，延续IPO后抛售",
+        "what": "SpaceX股价盘前下跌，延续IPO后涨势的抛售",
         "assets": "📉 SpaceX股票 承压",
-        "chain": "IPO后获利了结（卖股套现）压制股价，可能拖累科技新股情绪",
-        "watch": "SpaceX股价是否跌破IPO发行价"
+        "chain": "IPO后获利回吐（卖出获利），债券发行稀释股权预期，现金充裕但市场担忧估值",
+        "watch": "SpaceX后续财报及订单数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SpaceX发债并披露超1000亿现金储备",
-        "assets": "📈 SpaceX债券 利好；📉 高收益债市场 资金分流",
-        "chain": "现金充裕仍发债，暗示融资用于扩张或回购（买回股票），降低杠杆（负债率）",
-        "watch": "债券评级及发行利率"
+        "what": "SpaceX创纪录IPO后发行债券，披露现金超1000亿美元",
+        "assets": "📈 SpaceX债券 利好；📉 SpaceX股票 承压",
+        "chain": "发债（借钱）补充流动性，现金充裕降低信用风险，但股权稀释预期压制股价",
+        "watch": "债券发行利率及认购情况"
       }
     },
     {
@@ -37,14 +37,28 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉致命事故引发Autopilot安全质疑",
-        "assets": "📉 特斯拉股票 承压；📈 自动驾驶竞争对手 利好",
-        "chain": "监管风险（可能更严法规）上升，消费者信心受损，拖累电动车板块",
-        "watch": "NHTSA（美国公路安全局）调查结果"
+        "what": "致命特斯拉车祸引发Autopilot安全质疑",
+        "assets": "📉 特斯拉股票 承压；📉 自动驾驶板块 承压",
+        "chain": "监管风险（可能加强审查）上升，消费者信心受挫，技术股情绪传导",
+        "watch": "NHTSA（美国公路安全管理局）调查进展"
       }
     },
     {
       "rank": 4,
+      "title": "US stocks drift near their records after oil prices fall - AP News",
+      "source": "AP News",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "美股维持纪录高位，因油价下跌",
+        "assets": "📈 美股大盘 利好；📉 原油 承压",
+        "chain": "油价下跌降低企业成本（运输/能源），通胀预期缓和，支撑风险偏好",
+        "watch": "美国CPI（消费者物价指数）数据"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Alan Greenspan, economist and longtime head of the Federal Reserve, dies at 100 - NBC News",
       "source": "NBC News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -52,93 +66,79 @@
       "score": 41,
       "insight": {
         "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美国国债 短期情绪承压",
-        "chain": "纪念性抛售（投资者调整仓位）短暂影响债市，但基本面不变",
-        "watch": "美联储官员是否发表相关评论"
+        "assets": "📈 美债 短期波动；📉 美元 短期承压",
+        "chain": "市场短期缅怀情绪，但无政策影响，历史政策记忆或引发对通胀的讨论",
+        "watch": "美联储官员讲话及市场反应"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX周一宣布启动优先无担保票据发行，并披露其目前持有约1008亿美元的现金储备。 受此消息影响，公司股价下跌约7%。 这家涉足航天与人工智能领域的公司计划将此次募资用...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX创纪录IPO后发债，现金储备超千亿",
-        "assets": "📈 SpaceX债券 利好；📉 科技股IPO市场 资金分流",
-        "chain": "发债融资替代股权融资（不稀释股东），现金充裕支撑未来项目",
-        "watch": "债券发行规模和利率"
+        "what": "SpaceX创纪录IPO后发债，现金超1000亿美元",
+        "assets": "📈 SpaceX债券 利好；📉 SpaceX股票 承压",
+        "chain": "现金充裕降低违约风险，但发债稀释股权，暗示未来投资需求大",
+        "watch": "债券评级及资金用途公告"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Stock Market Today: Stocks Advance, Oil Slides on Signs of Progress in U.S.-Iran Talks — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "美股上涨，油价因美伊谈判进展下跌",
+        "what": "美股上涨，油价因美伊谈判进展而下跌",
         "assets": "📈 美股大盘 利好；📉 原油 承压",
-        "chain": "美伊谈判缓和（地缘风险下降）压低油价，降通胀预期利好股市",
-        "watch": "美伊谈判后续声明及油价走势"
+        "chain": "油价下跌缓解通胀，降息预期（借钱成本降低）升温，利好消费和科技股",
+        "watch": "美伊谈判结果及伊朗石油出口数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "美银、德意志银行预计美联储将于9月加息",
+      "source": "环球市场播报",
+      "detail": " 美国银行全球研究部和德意志银行预计，由于经济韧性以及新任主席凯文·沃什采取更鹰派的立场，美联储将在2026年加息，这与其此前关于利率将保持稳定的预测有所不同。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "美银、德银预计美联储9月加息",
+        "assets": "📈 美元 利好；📉 美股 承压；📈 美债收益率 上行",
+        "chain": "加息预期推高融资成本，压制风险资产，但美元走强吸引资本流入",
+        "watch": "美联储点阵图及非农就业数据"
+      }
+    },
+    {
+      "rank": 9,
       "title": "California exodus 2.0: How SpaceX, tech IPOs could trigger the next massive wealth flight to Florida - Fox Business",
       "source": "Fox Business",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州人才外流2.0：科技IPO可能引发财富向佛罗里达迁移",
-        "assets": "📈 佛州房地产 利好；📉 加州税收 承压",
-        "chain": "高净值人群（富人）搬离加州，降低当地消费和税收，推高佛州资产价格",
-        "watch": "加州人口净流出数据"
+        "what": "SpaceX等科技IPO或引发加州富豪迁往佛罗里达",
+        "assets": "📈 佛罗里达房地产 利好；📉 加州经济 承压",
+        "chain": "资本外流（资金转移）降低加州税收，佛州吸引高净值人群，推动当地消费",
+        "watch": "加州与佛州人口迁移数据及税收政策变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "欧洲央行研究：AI热潮对美国就业与薪资影响有限",
       "source": "环球市场播报",
       "detail": "欧洲央行周一发布的一项研究显示，人工智能应用热潮或造成部分岗位人员被替代，但截至目前，其对美国整体就业水平与薪资的冲击尚不明显。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "欧洲央行研究：AI热潮对美国就业和薪资影响有限",
-        "assets": "📉 美国AI概念股 情绪承压；📈 传统行业 利好",
-        "chain": "AI替代效应（机器取代人）被夸大，市场可能重新评估AI投资回报",
-        "watch": "美国非农就业数据中AI相关岗位变化"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
-      "source": "CNBC",
-      "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美国国债 短期情绪承压",
-        "chain": "纪念性抛售短暂影响，但格林斯潘已离任多年，政策影响有限",
-        "watch": "美联储是否会降半旗等象征性动作"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "拉加德认为欧洲央行暂无必要对伊朗战争采取更强力的政策应对",
-      "source": "环球市场播报",
-      "detail": " 欧洲央行行长克里斯蒂娜·拉加德表示，尽管中东冲突带来影响，但欧洲央行目前无需采取更为强力的应对措施，因为从中期来看，通胀仍将回到目标水平。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "拉加德称欧洲央行无需因伊朗战争加码政策",
-        "assets": "📈 欧元 利好；📉 欧洲避险资产 承压",
-        "chain": "欧央行按兵不动（不降息），维持当前利率路径，支撑欧元汇率",
-        "watch": "伊朗局势升级程度及欧元区通胀数据"
+        "what": "欧央行研究：AI热潮对美国就业与薪资影响有限",
+        "assets": "📈 美股科技股 中性；📉 AI板块 短期承压",
+        "chain": "AI替代效应（自动化取代岗位）被低估，市场对AI泡沫预期降温",
+        "watch": "美国ADP（小非农）就业数据及AI企业财报"
       }
     }
   ]
