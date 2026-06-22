@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 21:10",
+  "updateTime": "2026-06-22 21:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 72,
       "insight": {
-        "what": "SpaceX股价盘前下跌，延续IPO后抛售",
+        "what": "SpaceX股价盘前下跌，延续IPO后回调",
         "assets": "📉 SpaceX股票 利空",
-        "chain": "科技IPO信心受挫，新发股票可能面临更严估值（定价压力）",
-        "watch": "SpaceX后续交易量及科技IPO定价变化"
+        "chain": "IPO锁定期（禁售期）结束后卖压（抛售压力）增加，可能拖累其他热门科技IPO",
+        "watch": "SpaceX成交量及锁定期到期日"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 72,
       "insight": {
-        "what": "SpaceX股价盘前下跌，延续涨后回调",
+        "what": "SpaceX股价盘前下跌，IPO后涨势终结",
         "assets": "📉 SpaceX股票 利空",
-        "chain": "散户跟风盘出逃，科技板块波动率（价格变动幅度）上升",
-        "watch": "SpaceX股价是否跌破关键支撑位"
+        "chain": "科技新股情绪降温，可能抑制后续AI/太空公司IPO估值（上市定价）",
+        "watch": "科技新股首日涨幅及认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储加息预期升温，黄金小幅收跌",
-        "assets": "📉 黄金 承压；📈 美元 利好",
-        "chain": "加息（提高借钱成本）→实际利率（扣除通胀的利率）上升→黄金吸引力下降",
-        "watch": "美联储下次会议利率决议及通胀数据"
+        "what": "美联储加息预期升温，黄金承压收跌",
+        "assets": "📉 黄金 利空；📈 美元 利好",
+        "chain": "加息（提高借钱成本）预期推高实际利率（扣除通胀后的利率），削弱黄金吸引力",
+        "watch": "美联储会议纪要及非农就业数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉致命事故引发Autopilot质疑",
-        "assets": "📉 特斯拉股票 利空；📉 自动驾驶板块 承压",
-        "chain": "监管审查加强→自动驾驶技术推广受阻→相关供应链（零部件商）需求放缓",
-        "watch": "美国国家公路交通安全管理局调查进展"
+        "what": "特斯拉致命事故引发Autopilot安全性质疑",
+        "assets": "📉 特斯拉股票 利空；📈 传统车企 中性偏利空",
+        "chain": "监管风险（调查/召回）上升，可能推迟自动驾驶商业化进程",
+        "watch": "NHTSA（美国公路安全局）调查结果及监管声明"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX仅74天完成IPO，为AI公司树立榜样",
-        "assets": "📈 SpaceX股票 利好；📈 科技IPO板块 情绪提振",
-        "chain": "快速IPO路径吸引更多初创公司上市→增加市场供应（股票数量），但短期资金分流",
-        "watch": "OpenAI、Anthropic是否跟进IPO计划"
+        "what": "SpaceX仅用74天完成IPO，为AI公司树立标杆",
+        "assets": "📈 科技IPO板块 利好；📉 未上市科技公司 估值压力",
+        "chain": "加快上市节奏可能引发一级市场（私募融资）抢跑，推高Pre-IPO交易溢价",
+        "watch": "OpenAI及Anthropic上市时间表"
       }
     },
     {
       "rank": 6,
+      "title": "Micron Earnings Will Likely Whip Up AI Frenzy. Why That’s Bad for Markets and 4 Other Things to Know Today. - Barron's",
+      "source": "Barron's",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "美光财报或点燃AI狂热，但对大盘不利",
+        "assets": "📈 半导体（美光） 利好；📉 标普500 承压",
+        "chain": "AI资金虹吸（从其他板块抽血），导致市场分化加剧（科技涨、其他跌）",
+        "watch": "美光财报后AI相关资本开支指引"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Alan Greenspan, economist and longtime head of the Federal Reserve, dies at 100 - NBC News",
       "source": "NBC News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 短期承压；📈 避险资产（如美债） 利好",
-        "chain": "市场缅怀其政策风格，短期波动源于情绪面（非基本面），政策预期无直接影响",
-        "watch": "美联储官方声明及市场利率走势"
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📈 美债 短期情绪利好；📉 美元 中性",
+        "chain": "市场缅怀其任期低通胀（物价稳定）环境，但政策遗产对当前利率路径无实质影响",
+        "watch": "美联储官员对通胀目标的评论"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "California exodus 2.0: How SpaceX, tech IPOs could trigger the next massive wealth flight to Florida - Fox Business",
       "source": "Fox Business",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "加州科技企业外迁，财富向佛罗里达转移",
-        "assets": "📉 加州房地产 利空；📈 佛州房地产 利好",
-        "chain": "资本外流→加州税收基础削弱（财政收入下降）→佛州经济活跃度提升",
-        "watch": "加州与佛州人口及企业迁移数据"
+        "what": "加州科技外流2.0：SpaceX等IPO或引发财富大迁移",
+        "assets": "📈 佛罗里达地产 利好；📉 加州债券 承压",
+        "chain": "高净值人群迁移降低加州税基（税收收入），可能推高地方债风险溢价（额外收益率）",
+        "watch": "加州个人所得税收入及佛州地产成交数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "欧洲央行研究：AI热潮对美国就业与薪资影响有限",
+      "source": "环球市场播报",
+      "detail": "欧洲央行周一发布的一项研究显示，人工智能应用热潮或造成部分岗位人员被替代，但截至目前，其对美国整体就业水平与薪资的冲击尚不明显。",
+      "lang": "zh",
+      "score": 33,
+      "insight": {
+        "what": "欧洲央行研究：AI热潮对美国就业与薪资影响有限",
+        "assets": "📈 AI相关股票 中性偏利空；📉 传统周期股 中性",
+        "chain": "削弱AI替代就业的恐慌叙事，但未改变资本开支（企业投资）转向AI的趋势",
+        "watch": "美国JOLTS（职位空缺）数据及AI岗位招聘率"
+      }
+    },
+    {
+      "rank": 10,
       "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 短期承压；📈 美债 利好",
-        "chain": "短期情绪扰动，历史政策风格被讨论，但实际利率路径不变",
-        "watch": "美联储官员讲话及通胀预期指标"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "AI监管乱象丛生，Anthropic深陷舆论漩涡",
-      "source": "环球市场播报",
-      "detail": "安索帕推出其迄今为止功能最强大的公开版人工智能模型后没几天，这款产品就被紧急下架，不再向用户开放使用权限。 美方监管部门接到该模型出现越狱漏洞（可绕过系统内置安...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "AI监管乱象，Anthropic陷入舆论漩涡",
-        "assets": "📉 AI板块 承压；📉 Anthropic估值 利空",
-        "chain": "监管不确定性增加→AI公司合规成本上升（法律支出）→投资者风险偏好下降",
-        "watch": "美国国会AI立法进展及Anthropic客户流失情况"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "莱姆出行拟将优步列为IPO基石投资者",
-      "source": "环球市场播报",
-      "detail": " 曾是 2010 年代末初创行业标杆企业的电动滑板车与共享单车租赁公司莱姆出行（Lime），此次 IPO 将迎来老合作伙伴优步的资金加持。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "莱姆出行拟将优步列为IPO基石投资者",
-        "assets": "📈 优步股票 利好；📈 出行板块 情绪提振",
-        "chain": "基石投资（大额锁定）增强IPO信心→优步获得战略合作机会→共享经济板块联动",
-        "watch": "莱姆出行IPO定价及超额认购倍数"
+        "what": "美联储前主席格林斯潘去世",
+        "assets": "📈 美债 短期情绪利好；📉 美元 中性",
+        "chain": "历史低通胀时期（格林斯潘任期）被重温，但当前高利率环境不受影响",
+        "watch": "美联储主席鲍威尔对通胀前景的讲话"
       }
     }
   ]
