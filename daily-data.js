@@ -9,7 +9,7 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-06-22 13:13",
+    "updateTime": "2026-06-22 13:18",
     "mood": {
         "mood": "偏乐观但拥挤",
         "icon": "😊",
@@ -34,7 +34,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "中国资产",
-                "value": "视频丨手握2万只实验猴，鼎泰药研再度冲刺港股IPO！ 更适合作为结构性线索，看港股/A股是否有资金跟进。"
+                "value": "A股券商股震荡走强，长江证券涨停，广发证券此前涨停，中信建投涨超8%，华泰证… 更适合作为结构性线索，看港股/A股是否有资金跟进。"
             },
             {
                 "label": "风险",
