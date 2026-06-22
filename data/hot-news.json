@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 04:05",
+  "updateTime": "2026-06-23 04:11",
   "news": [
     {
       "rank": 1,
@@ -11,22 +11,22 @@
       "insight": {
         "what": "特斯拉致命车祸遭联邦安全调查",
         "assets": "📉 特斯拉股价 承压",
-        "chain": "监管风险上升，可能拖累电动车板块估值（市盈率），保险公司理赔成本增加",
-        "watch": "NHTSA调查结论及是否召回"
+        "chain": "可能引发自动驾驶监管收紧，拖累科技股（风险偏好下降）",
+        "watch": "调查结论及NHTSA（国家公路交通安全管理局）后续行动"
       }
     },
     {
       "rank": 2,
-      "title": "SpaceX stock tanks 16%, extending three-day slump following post-IPO rally",
+      "title": "SpaceX stock tanks 16%, extending slump following post-IPO rally",
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past three days of trading.",
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX股价暴跌16%，延续三日跌势",
-        "assets": "📉 SpaceX 利空",
-        "chain": "IPO后获利回吐（投资者卖出锁利），债务发行暗示资金需求，二级市场情绪恶化",
-        "watch": "SpaceX债券定价及后续融资动态"
+        "what": "SpaceX股价暴跌16%，IPO后涨势回落",
+        "assets": "📉 SpaceX股票 利空",
+        "chain": "高估值泡沫破裂信号，可能扩散至其他科技IPO（资金外逃）",
+        "watch": "SpaceX债券发行需求及现金储备使用情况"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX股价续跌，确认债务发行",
-        "assets": "📉 SpaceX 利空",
-        "chain": "债股双杀（融资成本上升），稀释现有股东权益，现金储备虽高但市场担忧扩张烧钱",
-        "watch": "债务发行规模及利率"
+        "what": "SpaceX股价继续下跌，确认债券发行",
+        "assets": "📉 SpaceX股票 利空；📈 SpaceX债券 利好",
+        "chain": "股权融资转债权融资，降低稀释风险，但暗示现金流紧张（债务成本上升）",
+        "watch": "债券收益率及评级变动"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 51,
       "insight": {
         "what": "RBC策略师称美股能承受两次加息",
-        "assets": "📈 美股大盘 利好",
-        "chain": "安抚市场紧缩预期（加息抑制通胀），降低恐慌性抛售概率，但需验证企业盈利韧性",
-        "watch": "美联储点阵图及通胀数据"
+        "assets": "📈 美股大盘 中性偏多",
+        "chain": "市场消化加息预期，若实际加息少于两次则反弹（风险溢价下降）",
+        "watch": "美联储点阵图（利率预测）及通胀数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "沃什警告美联储沉默将导致市场波动",
-        "assets": "📉 美债 承压 📈 波动率指数 利好",
-        "chain": "政策不确定性推高利率预期（远期利率），风险资产波动率上升，避险资金流入黄金",
-        "watch": "美联储官员讲话及会议纪要"
+        "what": "Warsh：美联储更安静可能带来市场波动和更高利率",
+        "assets": "📉 美债 承压；📉 美股 波动",
+        "chain": "沟通减少增加不确定性，导致风险溢价上升（VIX恐慌指数可能飙升）",
+        "watch": "美联储官员讲话频率及市场波动率指标"
       }
     },
     {
@@ -79,24 +79,24 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX创纪录IPO后发债，现金超千亿",
-        "assets": "📉 SpaceX 利空",
-        "chain": "高现金仍融资暗示激进投资（星舰/星链），债务增加财务杠杆，稀释债权优先级",
-        "watch": "债券评级及未来资本开支计划"
+        "what": "SpaceX创纪录IPO后发债，现金储备超1000亿美元",
+        "assets": "📈 SpaceX债券 利好；📉 SpaceX股票 中性",
+        "chain": "现金充裕但发债，暗示为大规模投资（如星舰）筹资（杠杆率上升）",
+        "watch": "星舰发射进展及债务条款"
       }
     },
     {
       "rank": 7,
-      "title": "Stock Market Today: Dow rises 150 points, S&P 500 and Nasdaq fall as U.S. oil prices drop below $74 a barrel after Treasury allows Iran oil sales for 60 days - MarketWatch",
+      "title": "Stock Market Today: Dow edges up, S&P 500 and Nasdaq fall as U.S. oil prices fall after Treasury allows Iran oil sales for 60 days - MarketWatch",
       "source": "MarketWatch",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "美股分化：道指涨，标普纳指跌，油价破74",
-        "assets": "📈 道指 利好 📉 能源股 承压 📉 科技股 承压",
-        "chain": "油价下跌缓解通胀（CPI能源分项），利好消费股，但拖累能源板块，科技受伊朗供应冲击",
-        "watch": "伊朗石油出口实际增量及WTI库存"
+        "what": "美股涨跌互现：道指微涨，标普和纳指因油价下跌走低",
+        "assets": "📈 道指 利好；📉 标普500/纳指 承压；📉 原油 利空",
+        "chain": "伊朗石油销售许可压低油价，利好运输业但利空能源股（板块轮动）",
+        "watch": "伊朗石油出口量及OPEC（石油输出国组织）反应"
       }
     },
     {
@@ -108,9 +108,9 @@
       "score": 36,
       "insight": {
         "what": "美银、德银预计美联储9月加息",
-        "assets": "📉 美债 承压 📈 美元 利好",
-        "chain": "加息预期推高短期利率（2年期美债收益率），压制成长股估值，新兴市场资本外流",
-        "watch": "非农就业及核心PCE数据"
+        "assets": "📉 美债 承压；📉 美股 利空",
+        "chain": "加息预期强化，美元走强，新兴市场资金外流（利差扩大）",
+        "watch": "非农就业及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -122,9 +122,9 @@
       "score": 33,
       "insight": {
         "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📈 美债 短期波动",
-        "chain": "纪念性交易可能短暂推高长端利率（10年期美债），但无实质政策影响，市场反应有限",
-        "watch": "美联储官方声明及市场反应"
+        "assets": "📈 美元 短期波动",
+        "chain": "市场缅怀其时代政策，但无即时影响，关注继任者言论（历史参照）",
+        "watch": "美联储当前政策立场是否变化"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "交易员关注三只AI股，预期巨幅波动",
-        "assets": "📈 AI概念股 利好",
-        "chain": "资金轮动至AI赛道，期权隐含波动率（IV）上升，可能带动半导体ETF（如SMH）跟涨",
-        "watch": "个股期权持仓量及财报预告"
+        "what": "本周关注三只AI股票，交易员预期巨幅波动",
+        "assets": "📈 AI板块 波动加大",
+        "chain": "AI热度延续，期权隐含波动率（IV）上升，可能带动科技ETF（交易所交易基金）",
+        "watch": "个股财报及AI行业催化剂（如新品发布）"
       }
     }
   ]
