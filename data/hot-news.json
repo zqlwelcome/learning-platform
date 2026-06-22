@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 05:25",
+  "updateTime": "2026-06-23 05:30",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 70,
       "insight": {
-        "what": "特斯拉致命车祸遭联邦调查",
+        "what": "特斯拉致命事故遭联邦调查",
         "assets": "📉 特斯拉股价 利空",
-        "chain": "自动驾驶（无人驾驶技术）安全性受质疑，可能拖累整个电动车板块（如Rivian、Lucid）。",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否扩大调查范围"
+        "chain": "自动驾驶安全受质疑，拖累科技股情绪，或引发监管收紧（更严法规）",
+        "watch": "NHTSA调查结论及后续召回风险"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX发债融资，披露千亿现金储备",
-        "assets": "📈 SpaceX债券 利好；📉 SpaceX股票 中性偏空（稀释风险）",
-        "chain": "现金充裕说明偿债风险低，但发债可能为回购股票或投资新项目（如星舰），需关注资金用途。",
-        "watch": "债券评级及发行利率（融资成本）"
+        "what": "SpaceX启动债券发行，披露千亿现金",
+        "assets": "📈 SpaceX债券 利好; 📉 高收益债 承压",
+        "chain": "现金充裕降低违约风险，但大量发债可能抽走流动性（市场资金），利空其他风险债",
+        "watch": "债券定价及超额认购倍数"
       }
     },
     {
@@ -35,7 +35,13 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "美股三大股指涨跌不一，SpaceX暴跌16%",
+        "assets": "📉 SpaceX 利空; 📈 防御板块 中性",
+        "chain": "分化行情显示资金轮动（从成长股转向价值股），高贝塔（波动大）个股风险释放",
+        "watch": "纳指相对道指强弱"
+      }
     },
     {
       "rank": 4,
@@ -46,23 +52,23 @@
       "score": 51,
       "insight": {
         "what": "RBC策略师称美股能承受两次加息",
-        "assets": "📈 美股大盘（标普500）利好；📉 美债（国债价格）承压",
-        "chain": "加息预期（借钱成本上升）已被部分消化，市场焦点转向经济韧性（GDP数据），而非利率本身。",
-        "watch": "美联储点阵图（利率预测）及CPI（通胀）数据"
+        "assets": "📈 美股大盘 中性偏多",
+        "chain": "市场消化收紧预期（借钱成本上升），但若超两次则触发回调（下跌）",
+        "watch": "美联储点阵图（利率预测）及通胀数据"
       }
     },
     {
       "rank": 5,
-      "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100 - AP News",
+      "title": "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets, higher rates - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 情绪利空；📈 美债 避险利好",
-        "chain": "市场短暂缅怀，但政策影响有限；可能引发对美联储独立性（央行不受政治干预）的讨论。",
-        "watch": "美联储官员讲话中是否提及格林斯潘遗产"
+        "what": "美银、德银预计美联储9月加息",
+        "assets": "📉 美股 承压; 📈 美元 利好",
+        "chain": "加息预期升温（借钱成本上升），压制成长股估值（未来现金流折现减少），利好银行股（净息差扩大）",
+        "watch": "8月非农就业及CPI数据"
       }
     },
     {
@@ -75,16 +81,16 @@
     },
     {
       "rank": 7,
-      "title": "In 6 Words, Fed Chair Kevin Warsh Just Dropped the Hammer on Wall Street - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "Oil Declines After US-Iran Deal Progress, Sanctions Waiver - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 45,
+      "score": 42,
       "insight": {
-        "what": "美联储主席沃什强硬表态，6字重击华尔街",
-        "assets": "📉 美股 利空；📈 美元 利好；📉 黄金 承压",
-        "chain": "鹰派信号（倾向于加息）推高利率预期，科技股（高估值）首当其冲，银行股（净息差扩大）或受益。",
-        "watch": "沃什后续讲话及FOMC（美联储会议）纪要"
+        "what": "油价因美伊协议进展和制裁豁免下跌",
+        "assets": "📉 原油 利空; 📈 航空股 利好",
+        "chain": "供应增加预期压低油价，运输成本下降利好航空，但炼油毛利（加工利润）受挤压",
+        "watch": "伊朗原油出口量及OPEC+产量调整"
       }
     },
     {
@@ -95,10 +101,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银、德银预计美联储9月加息",
-        "assets": "📉 美股 承压；📈 美元指数 利好；📈 美债收益率（利率）上行",
-        "chain": "加息预期升温（资金成本提高）将压制风险偏好（投资者不愿冒险），利好现金类资产（货币基金）。",
-        "watch": "7月非农就业数据（劳动力市场热度）"
+        "what": "美联储更安静可能引发市场波动和加息",
+        "assets": "📉 美债 利空; 📈 美元 利好",
+        "chain": "沟通减少导致不确定性上升，波动率（VIX恐慌指数）走高，利率预期上行",
+        "watch": "美联储官员讲话频率及市场隐含利率"
       }
     },
     {
@@ -109,10 +115,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "SpaceX股价暴跌16%，回吐IPO后涨幅",
-        "assets": "📉 SpaceX股票 利空；📉 太空概念股（如Virgin Galactic）承压",
-        "chain": "估值泡沫（股价远超基本面）破裂，可能引发市场对高成长科技股（如AI、太空股）的重新定价。",
-        "watch": "SpaceX债券发行结果及财报（营收数据）"
+        "what": "SpaceX股价暴跌16%，回吐IPO涨幅",
+        "assets": "📉 SpaceX股价 利空; 📉 太空概念股 承压",
+        "chain": "高估值（价格远超盈利）遭抛售，资金可能转向防御板块（如公用事业）",
+        "watch": "SpaceX债券发行认购情况"
       }
     },
     {
@@ -121,7 +127,13 @@
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📉 美债 微幅承压",
+        "chain": "象征性事件，短期影响有限，但或引发对过去宽松政策（低利率）的反思，长期利率预期波动",
+        "watch": "美联储政策回顾及市场评论"
+      }
     }
   ]
 }
