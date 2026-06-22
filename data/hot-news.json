@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 05:41 (fixed)",
+  "updateTime": "2026-06-23 05:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 70,
       "insight": {
-        "what": "特斯拉Model 3撞入德州房屋致人死亡，遭联邦调查",
-        "assets": "📉 特斯拉股票 利空",
-        "chain": "监管风险上升（可能面临罚款/召回），压制电动车板块估值（PE倍数压缩）",
-        "watch": "NHTSA（美国国家公路安全局）调查结论及后续处罚"
+        "what": "特斯拉Model 3撞入德州房屋致死，遭联邦调查",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "监管风险升温，可能拖累电动车板块（行业情绪）及自动驾驶概念",
+        "watch": "调查结论及NHTSA（美国公路安全局）后续行动"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past three days of trading.",
       "lang": "en",
-      "score": 62,
-      "insight": {
-        "what": "美股三大股指涨跌不一，SpaceX暴跌16%",
-        "assets": "📉 纳斯达克 偏弱；📈 道指 中性",
-        "chain": "科技股分化加剧，资金从高估值成长股轮动至价值股（如能源、金融），防御策略占优",
-        "watch": "VIX（恐慌指数）是否突破20，及科技板块资金流向"
-      }
+      "score": 62
     },
     {
       "rank": 3,
@@ -35,13 +29,7 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "美股三大股指涨跌不一，SpaceX暴跌16%",
-        "assets": "📉 SpaceX 利空; 📈 防御板块 中性",
-        "chain": "分化行情显示资金轮动（从成长股转向价值股），高贝塔（波动大）个股风险释放",
-        "watch": "纳指相对道指强弱"
-      }
+      "score": 57
     },
     {
       "rank": 4,
@@ -52,9 +40,9 @@
       "score": 51,
       "insight": {
         "what": "RBC策略师称美股能承受美联储两次加息",
-        "assets": "📈 美股大盘 利好 📉 美债 承压",
-        "chain": "市场定价加息预期（利率期货走高），但企业盈利韧性支撑股指",
-        "watch": "CME FedWatch（美联储观察工具）加息概率变化"
+        "assets": "📈 美股大盘 中性偏多",
+        "chain": "市场消化加息预期（借贷成本上升），但若超两次则利空债市和成长股",
+        "watch": "美联储点阵图（利率预测）及通胀数据"
       }
     },
     {
@@ -66,9 +54,9 @@
       "score": 51,
       "insight": {
         "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美债波动率 短期上升",
-        "chain": "市场缅怀其政策遗产，但无即时政策影响，VIX（恐慌指数）或小幅脉冲",
-        "watch": "联储官员是否发表纪念言论及政策暗示"
+        "assets": "📈 美债 短期波动",
+        "chain": "纪念性交易（情绪驱动）可能短暂扰动债市，但不改政策路径",
+        "watch": "市场对美联储独立性的讨论"
       }
     },
     {
@@ -77,13 +65,7 @@
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 51,
-      "insight": {
-        "what": "Warsh警告：更安静的联储可能带来市场波动和更高利率",
-        "assets": "📉 美债 承压 📉 美股 承压",
-        "chain": "预期沟通减少→政策不确定性上升→风险溢价（额外回报要求）提高→股债双杀",
-        "watch": "下次FOMC（美联储议息会议）声明措辞变化"
-      }
+      "score": 51
     },
     {
       "rank": 7,
@@ -91,13 +73,7 @@
       "source": "CNBC",
       "detail": "Harris County authorities said that the driver, Michael Butler, said that he had been using Tesla's partially automated driving systems.",
       "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "特斯拉Model 3撞入德州住宅致人死亡，遭联邦调查",
-        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
-        "chain": "监管收紧风险上升，可能推迟FSD（全自动驾驶）商业化，拖累科技股估值",
-        "watch": "NHTSA（国家公路交通安全管理局）是否升级调查或召回"
-      }
+      "score": 47
     },
     {
       "rank": 8,
@@ -107,10 +83,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银、德银预计美联储将于9月加息",
-        "assets": "📈 美元指数 利好 📉 黄金 承压",
-        "chain": "加息预期强化→实际利率（名义利率减通胀）上行→美元走强压制金价",
-        "watch": "8月CPI（消费者物价指数）及非农数据"
+        "what": "美银、德银预计美联储9月加息",
+        "assets": "📉 美债收益率 上行\n📉 科技股 承压",
+        "chain": "加息预期推高短端利率（短期借贷成本），压制高估值成长股",
+        "watch": "8月非农及CPI数据"
       }
     },
     {
@@ -122,9 +98,9 @@
       "score": 35,
       "insight": {
         "what": "SpaceX股价暴跌16%，回吐IPO后大部分涨幅",
-        "assets": "📉 太空概念股 利空",
-        "chain": "高估值科技股（PE>50倍）资金出逃，避险情绪蔓延至卫星/航天板块",
-        "watch": "SpaceX后续融资估值及订单数据"
+        "assets": "📉 SpaceX 利空\n📉 太空概念股 承压",
+        "chain": "高估值成长股（如科技股）面临回调压力，市场风险偏好（投资者情绪）下降",
+        "watch": "SpaceX后续融资及订单数据"
       }
     },
     {
@@ -133,13 +109,7 @@
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "美联储前主席格林斯潘去世，享年100岁",
-        "assets": "📉 美债 微幅承压",
-        "chain": "象征性事件，短期影响有限，但或引发对过去宽松政策（低利率）的反思，长期利率预期波动",
-        "watch": "美联储政策回顾及市场评论"
-      }
+      "score": 33
     }
   ]
 }
