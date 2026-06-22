@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 01:35",
+  "updateTime": "2026-06-23 01:40",
   "news": [
     {
       "rank": 1,
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "美银、德银预计美联储9月加息",
-        "assets": "📈 美元 利好；📉 美股成长股 利空",
-        "chain": "加息预期升温→美债收益率上升→高估值成长股（如科技）承压，价值股（如银行）相对受益",
-        "watch": "美国非农就业及CPI（消费者物价指数）数据"
+        "what": "SpaceX股价连续下跌，确认债券发行",
+        "assets": "📉 SpaceX股票 承压；📈 SpaceX债券 利好",
+        "chain": "IPO后套现潮+发债稀释股权，利空股价；但现金充裕降低违约风险，债券受追捧",
+        "watch": "SpaceX债券认购倍数及后续股价支撑位"
       }
     },
     {
@@ -63,7 +63,13 @@
       "source": "CNBC",
       "detail": "SpaceX on Monday unveiled a senior unsecured notes offering and said it held about $100.8 billion in cash.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "SpaceX发债融资，披露现金储备超1000亿美元",
+        "assets": "📈 SpaceX债券 利好；📉 同业企业债 利空",
+        "chain": "现金充裕仍发债，暗示投资需求大，可能挤压其他高收益债（垃圾债）需求，拉大信用利差（风险溢价）",
+        "watch": "SpaceX债券评级及后续资本开支计划"
+      }
     },
     {
       "rank": 6,
@@ -99,7 +105,13 @@
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "分析师警告中国石油需求或永远无法完全恢复",
+        "assets": "📉 原油 利空；📉 中国能源股 承压",
+        "chain": "需求结构性萎缩（电动车替代+经济放缓）→长期油价中枢下移，利空产油国货币（如加元、卢布）",
+        "watch": "中国原油进口量及新能源汽车渗透率"
+      }
     },
     {
       "rank": 9,
@@ -123,10 +135,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "分析师警告中国石油需求或永远无法完全恢复",
-        "assets": "📉 原油 利空；📉 中国能源股 承压",
-        "chain": "需求结构性萎缩（电动车替代+经济放缓）→长期油价中枢下移，利空产油国货币（如加元、卢布）",
-        "watch": "中国原油进口量及新能源汽车渗透率"
+        "what": "美银、德银预计美联储9月加息",
+        "assets": "📈 美元 利好；📉 美股成长股 利空",
+        "chain": "加息预期升温→美债收益率上升→高估值成长股（如科技）承压，价值股（如银行）相对受益",
+        "watch": "美国非农就业及CPI（消费者物价指数）数据"
       }
     }
   ]
