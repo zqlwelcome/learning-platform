@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 15:16",
+  "updateTime": "2026-06-22 15:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "期指下跌，因伊朗核协议进展及等待通胀数据",
-        "assets": "📉 美股期指 承压",
-        "chain": "避险情绪升温，资金可能从风险资产（股票）流向避险资产（黄金、美债）",
-        "watch": "今晚CPI数据（消费者物价指数）及伊朗核谈判结果"
+        "what": "美股期指下跌，等待通胀数据及伊朗协议进展",
+        "assets": "📉 美股大盘 承压",
+        "chain": "通胀数据若超预期→加息预期升温→股债双杀（股票跌、债券收益率涨）",
+        "watch": "CPI（消费者物价指数）实际读数及美联储官员讲话"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "期指下跌，因伊朗核协议进展及等待通胀数据",
-        "assets": "📉 美股期指 承压",
-        "chain": "避险情绪升温，资金可能从风险资产（股票）流向避险资产（黄金、美债）",
-        "watch": "今晚CPI数据（消费者物价指数）及伊朗核谈判结果"
-      }
+      "score": 42
     },
     {
       "rank": 3,
@@ -37,10 +31,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "伊朗封锁霍尔木兹海峡，油价飙升，期指下跌",
-        "assets": "📈 原油 强烈利好; 📉 美股期指 承压",
-        "chain": "油价飙升推高通胀预期（物价上涨），加息（借钱成本增加）预期升温，压制风险资产（股票等）估值",
-        "watch": "霍尔木兹海峡通行情况，美国释放战略石油储备（SPR）"
+        "what": "伊朗关闭霍尔木兹海峡，油价跳涨，期指下跌",
+        "assets": "📈 原油 强利好；📉 美股大盘 承压",
+        "chain": "能源成本飙升→通胀预期升温→加息（借钱成本提高）预期强化→成长股估值压缩",
+        "watch": "霍尔木兹海峡是否重新开放及美国战略石油储备（SPR）释放消息"
       }
     },
     {
@@ -51,10 +45,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推动某旅游股大涨",
-        "assets": "📈 该旅游股 利好; 📈 并购板块 情绪提振",
-        "chain": "并购预期吸引资金流入，可能带动同行业估值重估（股价调整），但需警惕交易风险",
-        "watch": "该股成交量及并购完成进度"
+        "what": "高盛押注某旅游股因近期并购大涨",
+        "assets": "📈 标普旅游板块 偏利好",
+        "chain": "并购（公司合并）带来协同效应（成本节省+收入增长）→盈利预期上调→估值重估",
+        "watch": "该并购交易完成进度及季度财报数据"
       }
     },
     {
@@ -63,55 +57,31 @@
       "source": "The Independent",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "特斯拉自动驾驶撞死76岁老妇",
-        "assets": "📉 特斯拉股价 利空; 📉 自动驾驶板块 情绪打压",
-        "chain": "事故引发监管收紧担忧（政策风险），增加公司诉讼和赔偿成本，拖累板块信心",
-        "watch": "NHTSA（美国国家公路安全局）调查进展"
-      }
+      "score": 37
     },
     {
       "rank": 6,
+      "title": "Fed Chair Kevin Warsh Just Subtly Threw President Donald Trump and Jerome Powell Under the Bus in His First FOMC Meeting - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 7,
       "title": "日经指数收涨1.5% 创纪录新高 盘中首次突破72000点大关",
       "source": "环球市场播报",
       "detail": " 日经225指数收涨1.5%，报创纪录新高的72353.96点。该指数周一盘中首次突破72，000点大关，因人工智能（AI）投资热情高涨，盖过美伊和平谈判的不确定性。",
       "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "日经指数收涨1.5%创历史新高，突破72000点",
-        "assets": "📈 日经指数 利好; 📈 日本出口股 利好",
-        "chain": "日元走弱（货币贬值）推升出口企业盈利，外资流入加速，但需警惕超买回调",
-        "watch": "日本央行政策动向及日元汇率"
-      }
+      "score": 30
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "霍尔木兹危机刺激中东管道建设热潮",
-        "assets": "📈 中东管道股 利好; 📈 能源基建 利好",
-        "chain": "地缘风险推高替代运输需求，管道投资增加，长期降低对海峡依赖，但短期资本开支上升",
-        "watch": "新管道项目融资及建设进度"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "央行在港发行400亿元央票 专家：常态化发行有利于离岸人民币市场发展",
-      "source": "上海证券报·中国证券网",
-      "detail": "中国人民银行6月22日公告，当天通过香港金融管理局债务工具中央结算系统（CMU）债券投标平台，以利率招标方式发行了2026年第六期央行票据。",
-      "lang": "zh",
-      "score": 28,
-      "insight": {
-        "what": "央行在港发行400亿元央票，常态化操作",
-        "assets": "📈 离岸人民币 支撑; 📉 离岸流动性 收紧",
-        "chain": "央票回收离岸流动性（市场资金变少），稳定汇率预期，抑制做空投机（借入卖出）",
-        "watch": "离岸人民币汇率及CNH Hibor（香港银行间拆借利率）"
-      }
+      "score": 29
     },
     {
       "rank": 9,
@@ -119,13 +89,7 @@
       "source": "CNBC",
       "detail": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
       "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "本周美股三大关注点待观察",
-        "assets": "美股指数（标普500、纳指、道指）多头",
-        "chain": "市场情绪驱动波动，科技股领涨或领跌，避险资产（黄金）或承压",
-        "watch": "美联储官员讲话及经济数据发布"
-      }
+      "score": 27
     },
     {
       "rank": 10,
@@ -133,13 +97,7 @@
       "source": "TechCrunch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "Polymarket被指付费制作虚假押注视频",
-        "assets": "📉 Polymarket平台 利空; 📉 预测市场板块 情绪打压",
-        "chain": "虚假宣传损害平台信誉（信任危机），可能引发监管调查，拖累行业合规成本上升",
-        "watch": "监管机构是否介入及用户流失数据"
-      }
+      "score": 25
     }
   ]
 }
