@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 05:41",
+  "updateTime": "2026-06-23 05:41 (fixed)",
   "news": [
     {
       "rank": 1,
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past three days of trading.",
       "lang": "en",
-      "score": 62
+      "score": 62,
+      "insight": {
+        "what": "美股三大股指涨跌不一，SpaceX暴跌16%",
+        "assets": "📉 纳斯达克 偏弱；📈 道指 中性",
+        "chain": "科技股分化加剧，资金从高估值成长股轮动至价值股（如能源、金融），防御策略占优",
+        "watch": "VIX（恐慌指数）是否突破20，及科技板块资金流向"
+      }
     },
     {
       "rank": 3,
@@ -29,7 +35,13 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "美股三大股指涨跌不一，SpaceX暴跌16%",
+        "assets": "📉 SpaceX 利空; 📈 防御板块 中性",
+        "chain": "分化行情显示资金轮动（从成长股转向价值股），高贝塔（波动大）个股风险释放",
+        "watch": "纳指相对道指强弱"
+      }
     },
     {
       "rank": 4,
@@ -79,7 +91,13 @@
       "source": "CNBC",
       "detail": "Harris County authorities said that the driver, Michael Butler, said that he had been using Tesla's partially automated driving systems.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "特斯拉Model 3撞入德州住宅致人死亡，遭联邦调查",
+        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
+        "chain": "监管收紧风险上升，可能推迟FSD（全自动驾驶）商业化，拖累科技股估值",
+        "watch": "NHTSA（国家公路交通安全管理局）是否升级调查或召回"
+      }
     },
     {
       "rank": 8,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📉 美债 微幅承压",
+        "chain": "象征性事件，短期影响有限，但或引发对过去宽松政策（低利率）的反思，长期利率预期波动",
+        "watch": "美联储政策回顾及市场评论"
+      }
     }
   ]
 }
