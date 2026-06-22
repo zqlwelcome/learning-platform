@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 04:47",
+  "updateTime": "2026-06-23 04:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 70,
       "insight": {
-        "what": "特斯拉致命事故遭联邦调查",
+        "what": "特斯拉致命车祸遭联邦安全调查",
         "assets": "📉 特斯拉股价 承压",
-        "chain": "调查可能揭示自动驾驶缺陷，引发监管收紧，拖累整个电动车板块（板块联动效应）。",
-        "watch": "调查结论及后续监管政策变化"
+        "chain": "调查可能引发监管收紧，利空自动驾驶概念股（如谷歌Waymo）",
+        "watch": "调查结论及是否涉及Autopilot（自动驾驶系统）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX股价暴跌16%，延续IPO后涨势的回落",
-        "assets": "SpaceX股票（空头）、太空概念股（利空）、科技成长股（偏空）",
-        "chain": "IPO后获利回吐叠加市场对估值泡沫担忧，可能引发科技新股连锁抛售",
-        "watch": "SpaceX下一季度发射合同进展及机构持仓变化"
+        "what": "SpaceX发债筹资，披露超千亿现金储备",
+        "assets": "📈 SpaceX债券 利好  📉 竞争对手（如蓝色起源） 承压",
+        "chain": "现金充裕降低违约风险，但发债可能稀释现有股东权益（股权价值下降）",
+        "watch": "债券评级及认购倍数"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX股价暴跌16%，回吐IPO以来大部分涨幅",
-        "assets": "📉 SpaceX股票 利空；📉 太空概念股 承压",
-        "chain": "暴跌可能因估值过高或获利回吐，引发市场对科技IPO泡沫的担忧（风险偏好下降）。",
-        "watch": "SpaceX后续财报及资金流向"
+        "what": "美股三大股指涨跌不一，SpaceX暴跌16%",
+        "assets": "📉 科技股 承压  📈 能源股 避险",
+        "chain": "科技板块资金外流转投防御性板块（如公用事业），市场风格切换（成长转价值）",
+        "watch": "纳斯达克指数支撑位及板块轮动资金流"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "RBC策略师称美股能承受美联储两次加息",
-        "assets": "📈 美股大盘 利好；📉 美债收益率 上行压力",
-        "chain": "加息预期若被消化，股市维持韧性，但债市会提前定价（利率敏感型资产承压）。",
-        "watch": "美联储下次议息会议点阵图"
+        "what": "RBC策略师称美股能承受两次加息",
+        "assets": "📈 美股大盘 利好  📉 美债 利空",
+        "chain": "加息预期（借钱成本上升）被消化，资金可能从债市回流股市（股债轮动）",
+        "watch": "美联储点阵图（利率预测）及CPI（通胀数据）"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "沃什警告美联储沉默可能引发市场波动和更高利率",
-        "assets": "📉 美股波动率 上升；📈 美元 走强",
-        "chain": "美联储沟通不足将增加不确定性，导致风险溢价（投资者要求的额外回报）上升，长端利率走高。",
-        "watch": "美联储官员讲话频率及措辞"
+        "what": "前美联储官员Warsh警告：美联储沉默或引市场波动",
+        "assets": "📉 美债 承压  📈 美元 走强",
+        "chain": "政策不确定性推高期限溢价（长期债券的风险补偿），压制风险资产（如科技股）",
+        "watch": "美联储官员讲话及市场隐含波动率（VIX恐慌指数）"
       }
     },
     {
@@ -77,30 +77,10 @@
       "source": "CNBC",
       "detail": "SpaceX on Monday unveiled a senior unsecured notes offering and said it held about $100.8 billion in cash.",
       "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "SpaceX在IPO后数日发债，披露超千亿现金",
-        "assets": "📉 SpaceX债券 供给压力；📈 现金储备 利好信用",
-        "chain": "发债融资可能用于扩张或回购，但大量现金也暗示高估值下股权融资更贵（资本结构优化）。",
-        "watch": "债券发行利率及认购倍数"
-      }
+      "score": 50
     },
     {
       "rank": 7,
-      "title": "Stock Market Today: Dow edges up, S&P 500 and Nasdaq fall as U.S. oil prices fall after Treasury allows Iran oil sales for 60 days - MarketWatch",
-      "source": "MarketWatch",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "美国允许伊朗石油销售60天，油价下跌",
-        "assets": "📉 原油 利空；📈 美股航空/运输 利好",
-        "chain": "供应增加压低油价，降低通胀预期，削弱美联储加息紧迫性（成本推动型通胀缓解）。",
-        "watch": "伊朗石油出口量及OPEC+反应"
-      }
-    },
-    {
-      "rank": 8,
       "title": "美银、德意志银行预计美联储将于9月加息",
       "source": "环球市场播报",
       "detail": " 美国银行全球研究部和德意志银行预计，由于经济韧性以及新任主席凯文·沃什采取更鹰派的立场，美联储将在2026年加息，这与其此前关于利率将保持稳定的预测有所不同。",
@@ -108,37 +88,51 @@
       "score": 36,
       "insight": {
         "what": "美银、德银预计美联储9月加息",
-        "assets": "📉 美债 承压；📈 美元 走强",
-        "chain": "加息预期推高短端利率，压制风险资产（贴现率上升），银行股因息差扩大受益。",
-        "watch": "美国CPI及非农就业数据"
+        "assets": "📈 美元 走强  📉 黄金 承压",
+        "chain": "加息预期（借钱成本上升）推高实际利率（经通胀调整的利率），压制贵金属（无息资产）",
+        "watch": "非农就业数据及PCE（个人消费支出物价指数）"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "6月23日收盘：美股三大股指涨跌不一 SpaceX暴跌16%",
       "source": "环球市场播报",
       "detail": " 北京时间23日凌晨，美股周一三大股指涨跌不一，顶尖人才流失引发AI担忧，Alphabet跌超5%，遭遇一年来最差单日表现，拖累纳指。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "美股三大股指涨跌不一，SpaceX暴跌16%",
-        "assets": "📈 道指 微涨；📉 纳指 承压；📉 SpaceX 利空",
-        "chain": "科技股拖累纳指，资金轮动至防御板块（公用事业、医疗），市场避险情绪升温。",
-        "watch": "科技股后续资金流向及VIX指数"
+        "what": "SpaceX股价暴跌16%，IPO涨幅几乎回吐",
+        "assets": "📉 SpaceX（未上市但相关ETF） 利空",
+        "chain": "科技股IPO情绪降温，可能拖累其他未盈利科技公司估值（如Palantir）",
+        "watch": "SpaceX债券发行定价及认购情况"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "前美联储主席艾伦·格林斯潘去世，享年100岁",
-        "assets": "📉 美元 短期承压；📈 美债 波动率上升",
-        "chain": "市场可能短暂缅怀其政策遗产，但实际影响有限（历史人物事件，非当前政策变量）。",
-        "watch": "美联储官方声明及市场反应"
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📉 美元 短期承压",
+        "chain": "市场情绪短暂波动，但政策影响有限；可能引发对美联储独立性（不受政治干预）的讨论",
+        "watch": "美联储现任主席鲍威尔讲话是否提及货币政策"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Three key AI stocks to watch this week with traders expecting giant moves",
+      "source": "CNBC",
+      "detail": "Micron and Cerebras report this week. Also there's heavy options activity in Super Micro.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "交易员押注三只AI股本周有大波动",
+        "assets": "📈 AI概念股（如英伟达、AMD） 利好",
+        "chain": "AI热潮（人工智能热度）吸引投机资金，可能带动半导体ETF（交易所交易基金）上涨",
+        "watch": "期权隐含波动率及成交量变化"
       }
     }
   ]
