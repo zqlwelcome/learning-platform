@@ -1,145 +1,133 @@
 {
-  "updateTime": "2026-06-23 03:30",
+  "updateTime": "2026-06-23 03:35",
   "news": [
     {
       "rank": 1,
+      "title": "Exclusive | Fatal Tesla Crash Into Texas Home Now Under Federal Safety Investigation - WSJ",
+      "source": "WSJ",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 70,
+      "insight": {
+        "what": "特斯拉致命车祸遭联邦调查",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "监管收紧预期升温，可能拖累电动车板块整体估值（PE倍数压缩）",
+        "watch": "调查结论及NHTSA（国家公路交通安全管理局）是否发布召回令"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX stock down again, shaving off some IPO gains; confirms debt offering - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX股价持续下跌，确认发行债券",
-        "assets": "📉 SpaceX股票 利空；📉 太空概念股 承压",
-        "chain": "股价跌+发债=稀释股权（股权价值被摊薄），引发IPO溢价回吐（上市后涨幅回调）",
-        "watch": "SpaceX债券认购情况；后续财报现金流"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "SpaceX stock falls 12%, pacing for third-straight day of losses after red-hot IPO start",
-      "source": "CNBC",
-      "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
-      "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "SpaceX股价跌12%，连跌三日",
-        "assets": "📉 SpaceX股票 利空；📉 科技成长股 情绪受压",
-        "chain": "IPO热度退潮（新股追捧消失）触发获利了结（卖出盈利头寸），拖累同类高估值标的",
-        "watch": "成交量是否放大；支撑位（技术面关键价格）"
+        "what": "SpaceX发债披露现金超千亿",
+        "assets": "📈 SpaceX债券 利好",
+        "chain": "高现金储备降低违约风险，但发债稀释股权预期压制股价，科技债利差可能收窄",
+        "watch": "债券认购倍数及评级机构行动"
       }
     },
     {
       "rank": 3,
+      "title": "SpaceX stock falls 14%, pacing for third-straight day of losses after red-hot IPO start",
+      "source": "CNBC",
+      "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
+      "lang": "en",
+      "score": 57
+    },
+    {
+      "rank": 4,
       "title": "RBC策略师称美股能够承受美联储进行两次左右的加息",
       "source": "环球市场播报",
       "detail": "RBC Capital Markets的Lori Calvasina表示，只要美联储的紧缩周期保持适度，美国股市应该能够承受加息。 “只要未来12个月内进行两次左右幅度分别为25个基点的加息...",
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "RBC称美股能承受美联储两次加息",
-        "assets": "📈 美股大盘 利好；📉 美债 承压",
-        "chain": "加息预期消化（市场已计入风险）→减少恐慌抛售（系统性卖出），但利率上升压制估值（股价/盈利比）",
-        "watch": "美联储点阵图（利率预测图）；CPI数据"
+        "what": "RBC称美股能承受两次加息",
+        "assets": "📈 美股大盘 偏中性",
+        "chain": "市场消化加息预期，但若超两次则触发估值修正（earnings yield vs 10Y yield）",
+        "watch": "美联储点阵图及非农数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets, higher rates - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "Warsh称美联储沉默可能引发市场波动",
-        "assets": "📉 美股波动率 升高；📈 美债收益率 上行",
-        "chain": "政策不透明（缺乏沟通）→不确定性溢价（风险补偿）→风险资产承压，利率走高",
-        "watch": "美联储讲话频率；VIX指数（恐慌指标）"
+        "what": "美联储更安静可能导致市场波动加剧",
+        "assets": "📉 美债利率 上行风险",
+        "chain": "沟通减少增加不确定性，期限溢价（term premium）走阔，压制风险资产",
+        "watch": "美联储会议纪要及官员讲话频率"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Analysts Warn China's Oil Demand May Never Fully Recover - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "分析师称中国石油需求或永久性下降",
-        "assets": "📉 原油价格 利空；📈 新能源板块 利好",
-        "chain": "需求萎缩（消费减少）→油价下行压力，加速能源转型（从化石燃料转向清洁能源）",
-        "watch": "中国PMI（采购经理指数）；原油库存数据"
+        "what": "油价跌破74美元，美股分化",
+        "assets": "📈 道指 利好；📉 纳指 承压",
+        "chain": "油价下跌利好运输及消费板块（成本下降），但伊朗油销售60天豁免打压能源股，科技股受利率预期压制",
+        "watch": "伊朗原油出口量及EIA库存周报"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX周一宣布启动优先无担保票据发行，并披露其目前持有约1008亿美元的现金储备。 受此消息影响，公司股价下跌约7%。 这家涉足航天与人工智能领域的公司计划将此次募资用...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX创纪录IPO后发债，现金储备超千亿",
-        "assets": "📉 SpaceX债券 供给增加；📈 现金充裕 信用利好",
-        "chain": "发债融资（借钱）用于扩张→稀释现有债券价值（旧债价格下跌），但高现金缓冲违约风险",
-        "watch": "债券评级变动；资本开支计划"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Doorbell cam filmed Tesla Autopilot crash that killed woman in her home - Ars Technica",
-      "source": "Ars Technica",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "门铃摄像头拍到特斯拉自动驾驶致死事故",
-        "assets": "📉 特斯拉股票 利空；📉 自动驾驶板块 承压",
-        "chain": "安全丑闻→监管审查（政府调查）升级→可能限制技术部署，拖累行业信心",
-        "watch": "NHTSA（美国公路安全局）调查结果"
+        "what": "SpaceX股价连跌三日，确认发债融资",
+        "assets": "📉 SpaceX股票 利空",
+        "chain": "IPO后高位抛压加大，发债暗示现金需求，可能压低科技新股风险偏好（risk-off）",
+        "watch": "SpaceX债券定价及后续二次发行公告"
       }
     },
     {
       "rank": 8,
+      "title": "Stock Market Today: Dow rises 200 points, S&P 500 and Nasdaq fall as U.S. oil prices drop below $74 a barrel after Treasury allows Iran oil sales for 60 days - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "分析师警告中国石油需求或难恢复",
+        "assets": "📉 原油 承压",
+        "chain": "需求端疲软叠加OPEC+减产松动风险，能源股及产油国货币（如加元）受拖累",
+        "watch": "中国PMI（采购经理人指数）及炼厂开工率"
+      }
+    },
+    {
+      "rank": 9,
       "title": "美银、德意志银行预计美联储将于9月加息",
       "source": "环球市场播报",
       "detail": " 美国银行全球研究部和德意志银行预计，由于经济韧性以及新任主席凯文·沃什采取更鹰派的立场，美联储将在2026年加息，这与其此前关于利率将保持稳定的预测有所不同。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银、德银预计美联储9月加息",
-        "assets": "📉 美股 承压；📈 美元 走强",
-        "chain": "加息预期（借钱成本上升）→资金成本增加→压制风险偏好，美元升值冲击新兴市场",
-        "watch": "非农就业数据；美联储会议纪要"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
-      "source": "CNBC",
-      "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 市场情绪 短期波动；📈 美元 中性",
-        "chain": "历史人物离世→引发政策反思（回顾其宽松政策），但对当前利率路径影响有限",
-        "watch": "市场反应是否过度；美联储声明"
+        "what": "美银、德银预计9月加息",
+        "assets": "📉 美债 利空；📈 美元 利好",
+        "chain": "加息预期推高短端利率（2年期），倒挂加深可能引发衰退担忧（yield curve inversion）",
+        "watch": "7月CPI及8月非农数据"
       }
     },
     {
       "rank": 10,
-      "title": "Google Backs $3.2B AI Chip Push Against Nvidia - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
+      "source": "CNBC",
+      "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "谷歌投资32亿美元AI芯片对抗英伟达",
-        "assets": "📈 谷歌 利好；📉 英伟达 竞争压力",
-        "chain": "芯片竞争加剧（争夺AI算力市场）→压低毛利率（利润空间），但推动行业创新",
-        "watch": "谷歌TPU（张量处理器）性能对比；订单量"
-      }
+      "score": 33
     }
   ]
 }
