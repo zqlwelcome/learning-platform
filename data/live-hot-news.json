@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-06-22 22:54",
-  "newsUpdateTime": "2026-06-22 22:54",
-  "analysisUpdateTime": "2026-06-22 22:54",
+  "updateTime": "2026-06-22 23:23",
+  "newsUpdateTime": "2026-06-22 23:23",
+  "analysisUpdateTime": "2026-06-22 23:23",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "美银德意志银行预计美联储将于9月加息|spacex创下纪录的ipo数日后发行债券披露现金储备超1000亿美元|券商大涨a股开始风格切换|受益政策红利券商板块从估值底部迎来强势修复|spacex发债交易预计筹资至少200亿美元|券商板块单日暴涨752估值与业绩背离牛市旗手要回来了|spacex宣布发债计划后股价一度下挫10|盈利暴增1000存储巨头深夜大涨|拉加德认为欧洲央行暂无必要对伊朗战争采取更强力的政策应对|前美联储主席格林斯潘逝世享年100岁",
+  "titleFingerprint": "美银德意志银行预计美联储将于9月加息|spacex创下纪录的ipo数日后发行债券披露现金储备超1000亿美元|spacex与reflectionai签署价值逾60亿美元算力协议|wti原油跌破74美元桶日内跌422|四家a股公司退市即将摘牌|券商大涨a股开始风格切换|受益政策红利券商板块从估值底部迎来强势修复|spacex发债交易预计筹资至少200亿美元|spacex宣布发债计划后股价一度下挫10|券商板块单日暴涨752估值与业绩背离牛市旗手要回来了",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
@@ -14,7 +14,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-22/doc-inieiatp9146621.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 102,
+      "score": 101,
       "insight": {
         "what": "美银、德意志银行预计美联储将于9月加息",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -30,7 +30,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-22/doc-inieiatk0084156.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 94,
+      "score": 93,
       "insight": {
         "what": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -40,6 +40,54 @@
     },
     {
       "rank": 3,
+      "title": "SpaceX与Reflection AI签署价值逾60亿美元算力协议",
+      "source": "金十快讯",
+      "detail": "【SpaceX与Reflection AI签署价值逾60亿美元算力协议】金十数据6月22日讯，据CNBC查阅的材料显示，SpaceX已与Reflection AI签署了一项重要的算力合作协议，使这家开源人工智能初创公司成为最新一家接入马斯克旗下Colossus基础设施的外部企业。根据协议，Reflection将立即获得英伟达GB300芯片的使用，并同意自2026年7月1日起至2029年，每月向SpaceX支付1.5亿美元。如果协议履行完毕，付款总额将达到约63亿美元。在协议生效三个月后，任一方均可在提前90天通知的情况下终止合同。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 90,
+      "insight": {
+        "what": "SpaceX与Reflection AI签署价值逾60亿美元算力协议",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "WTI原油跌破74美元/桶，日内跌4.22%",
+      "source": "金十快讯",
+      "detail": "WTI原油跌破74美元/桶，日内跌4.22%；布伦特原油跌破77美元/桶，日内跌3.91%。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 88,
+      "insight": {
+        "what": "WTI原油跌破74美元/桶，日内跌4.22%",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "四家A股公司退市，即将摘牌",
+      "source": "中国证券报-中证网",
+      "detail": "6月22日晚，退市国化、退市岩石公告称，公司退市整理期已于6月22日结束，上海证券交易所将于6月29日对公司股票予以摘牌。",
+      "url": "https://finance.sina.com.cn/jjxw/2026-06-22/doc-inieiatn2384570.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 86,
+      "insight": {
+        "what": "四家A股公司退市，即将摘牌",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 6,
       "title": "券商大涨，A股开始风格切换？",
       "source": "《财经》杂志",
       "detail": "券商板块的大幅修复，由政策红利、基本面改善、估值低位三重逻辑共振驱动 文|《财经》记者 张欣培 编辑|郭楠 当市场热议AI（人工智能）抱团与行情分化，A股风格悄然生变...",
@@ -55,7 +103,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 7,
       "title": "受益政策红利 券商板块从估值底部迎来强势修复",
       "source": "大众证券报",
       "detail": "6月22日，A股券商板块迎来久违的大涨。券商指数当日上涨7.52%，居行业涨幅榜首位。证券类ETF同步放量拉升，资金借道指数产品批量涌入。",
@@ -71,7 +119,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "SpaceX发债交易预计筹资至少200亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX今日宣布进行有史以来的首次发债，将其资本市场首秀的舞台转向债券市场。 这家火箭制造商刚刚通过首次公开募股（IPO）筹集了逾850亿美元资金...",
@@ -87,30 +135,14 @@
       }
     },
     {
-      "rank": 6,
-      "title": "券商板块单日暴涨7.52%！估值与业绩背离，“牛市旗手”要回来了？",
-      "source": "券商中国",
-      "detail": "6月22日，沉寂已久的券商板块突然爆发，成为A股市场最亮眼的焦点。截至收盘，券商指数大涨7.52%，板块成交额突破900亿元。",
-      "url": "https://finance.sina.com.cn/wm/2026-06-22/doc-inieiatp9151365.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 83,
-      "insight": {
-        "what": "券商板块单日暴涨7.52%！估值与业绩背离，“牛市旗手”要回来了？",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 9,
       "title": "SpaceX宣布发债计划后股价一度下挫10%",
       "source": "环球市场播报",
       "detail": "SpaceX股价连续第三个交易日下跌，此前这家由埃隆·马斯克领导的公司表示将首次发行投资级债券。外界预计此次发债是该公司为资助其人工智能雄心而进行的大规模举债行动的一...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-22/doc-inieiatn2379390.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 82,
+      "score": 80,
       "insight": {
         "what": "SpaceX宣布发债计划后股价一度下挫10%",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -119,51 +151,19 @@
       }
     },
     {
-      "rank": 8,
-      "title": "盈利暴增1000%？存储巨头，深夜大涨！",
-      "source": "证券时报",
-      "detail": "当地时间周一（6月22日），美股三大指数均小幅低开，纳指跌0.15%，道指跌0.02%，标普500指数跌0.01%。 存储、芯片股走高。美光科技股价高开高走，盘中涨超6%...",
-      "url": "https://finance.sina.com.cn/wm/2026-06-22/doc-inieiatp9147501.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 77,
-      "insight": {
-        "what": "盈利暴增1000%？存储巨头，深夜大涨！",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "拉加德认为欧洲央行暂无必要对伊朗战争采取更强力的政策应对",
-      "source": "环球市场播报",
-      "detail": "欧洲央行行长克里斯蒂娜·拉加德表示，尽管中东冲突带来影响，但欧洲央行目前无需采取更为强力的应对措施，因为从中期来看，通胀仍将回到目标水平。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-22/doc-inieiatn2356710.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 77,
-      "insight": {
-        "what": "拉加德认为欧洲央行暂无必要对伊朗战争采取更强力的政策应对",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
       "rank": 10,
-      "title": "前美联储主席格林斯潘逝世 享年100岁",
-      "source": "环球市场播报",
-      "detail": "艾伦・格林斯潘的妻子在一份声明中证实，这位极具影响力的经济学家于周一离世。他曾五度出任美联储主席，在四任美国总统任期内执掌美国货币政策。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-22/doc-iniehscr7045598.shtml",
+      "title": "券商板块单日暴涨7.52%！估值与业绩背离，“牛市旗手”要回来了？",
+      "source": "券商中国",
+      "detail": "6月22日，沉寂已久的券商板块突然爆发，成为A股市场最亮眼的焦点。截至收盘，券商指数大涨7.52%，板块成交额突破900亿元。",
+      "url": "https://finance.sina.com.cn/wm/2026-06-22/doc-inieiatp9151365.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 75,
+      "score": 79,
       "insight": {
-        "what": "前美联储主席格林斯潘逝世 享年100岁",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+        "what": "券商板块单日暴涨7.52%！估值与业绩背离，“牛市旗手”要回来了？",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     }
   ]
