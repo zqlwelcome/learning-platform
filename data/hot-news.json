@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 15:56",
+  "updateTime": "2026-06-22 15:59",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "本周关注三大关键事件：通胀、财报、美联储",
-        "assets": "📈 美股 整体波动；📉 美债 利率敏感",
-        "chain": "CPI（消费者物价指数）若超预期，将强化加息预期（借钱成本上升），利空科技成长股",
-        "watch": "周三CPI数据、周五银行财报、美联储官员讲话"
+        "what": "伊朗核协议进展与通胀数据前，美股期指下跌",
+        "assets": "美股（跌）、原油（跌，因协议或增加供应）、黄金（涨，避险）",
+        "chain": "地缘缓和压低油价→降低通胀预期→美债收益率下行→成长股获支撑",
+        "watch": "今晚CPI实际值及伊朗谈判是否达成初步协议"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Monday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "伊朗核协议进展与通胀数据前，美股期指下跌",
+        "assets": "美股（跌）、原油（跌，因协议或增加供应）、黄金（涨，避险）",
+        "chain": "地缘缓和压低油价→降低通胀预期→美债收益率下行→成长股获支撑",
+        "watch": "今晚CPI实际值及伊朗谈判是否达成初步协议"
+      }
     },
     {
       "rank": 3,
@@ -127,7 +133,13 @@
       "source": "CNBC",
       "detail": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "本周关注三大关键事件：通胀、财报、美联储",
+        "assets": "📈 美股 整体波动；📉 美债 利率敏感",
+        "chain": "CPI（消费者物价指数）若超预期，将强化加息预期（借钱成本上升），利空科技成长股",
+        "watch": "周三CPI数据、周五银行财报、美联储官员讲话"
+      }
     }
   ]
 }
