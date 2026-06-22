@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 21:35",
+  "updateTime": "2026-06-22 21:41",
   "news": [
     {
       "rank": 1,
@@ -10,23 +10,23 @@
       "score": 72,
       "insight": {
         "what": "SpaceX股价盘前下跌，延续IPO后回调",
-        "assets": "📉 SpaceX股票 利空；📉 科技新股 情绪承压",
-        "chain": "IPO后获利了结（卖压）触发短线资金流出，可能压制其他热门新股估值",
-        "watch": "SpaceX股价是否跌破IPO首日低点"
+        "assets": "📉 SpaceX股票 承压",
+        "chain": "IPO后抛售（获利了结）可能传导至科技新股，压制市场情绪",
+        "watch": "SpaceX股价是否跌破发行价"
       }
     },
     {
       "rank": 2,
-      "title": "SpaceX stock falls 5%, pacing for third-straight day of losses after red-hot IPO start",
+      "title": "SpaceX stock falls 6%, pacing for third-straight day of losses after red-hot IPO start",
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX股价连跌三日，较IPO高点回落",
-        "assets": "📉 SpaceX股票 利空；📉 太空概念股 跟跌",
-        "chain": "连续抛售（连续卖盘）显示动能衰竭，或引发止损盘（自动卖出）放大跌幅",
-        "watch": "成交量是否放大确认抛压是否持续"
+        "what": "SpaceX股价连跌三日，IPO后涨幅回吐",
+        "assets": "📉 SpaceX股票 承压",
+        "chain": "连跌触发止损（自动卖出），可能放大科技股波动",
+        "watch": "成交量变化及机构持仓动向"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SpaceX IPO后快速发债，现金储备超千亿",
-        "assets": "📈 SpaceX债券 利好；📉 科技债收益率 承压",
-        "chain": "发债融资（借钱）增加杠杆，市场解读为扩张信号，但高现金储备降低信用风险（违约可能）",
-        "watch": "债券定价及认购倍数"
+        "what": "SpaceX发债且披露超千亿现金储备",
+        "assets": "📈 SpaceX债券 利好；📉 SpaceX股票 中性偏空",
+        "chain": "发债（借钱）暗示股权融资需求下降，现金充裕支撑估值，但稀释担忧缓解",
+        "watch": "债券评级及后续融资计划"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉致命事故质疑Autopilot安全性",
-        "assets": "📉 特斯拉股票 利空；📉 自动驾驶板块 承压",
-        "chain": "监管审查（调查）风险升温，可能推迟自动驾驶商业化进程，影响供应链预期",
-        "watch": "NHTSA是否启动正式调查"
+        "what": "致命特斯拉事故引发Autopilot安全质疑",
+        "assets": "📉 特斯拉股票 承压；📈 传统车企 利好",
+        "chain": "监管审查（调查）风险上升，可能拖累自动驾驶板块估值，资金转向传统车企",
+        "watch": "NHTSA（美国公路安全局）是否启动调查"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX 74天闪电IPO，为AI公司树立标杆",
-        "assets": "📈 OpenAI/Anthropic 估值预期 利好；📈 科技IPO市场 活跃",
-        "chain": "快速IPO（上市）路径缩短融资周期，激励更多初创公司加速上市，增加二级市场供给",
-        "watch": "后续AI公司IPO申请节奏"
+        "what": "SpaceX 74天完成IPO，为AI公司树立标杆",
+        "assets": "📈 SpaceX股票 利好；📈 AI科技股 利好",
+        "chain": "快速IPO（上市）路径激励AI公司加速上市，提升市场流动性预期",
+        "watch": "OpenAI、Anthropic的IPO进展"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📈 美元 短期无影响；📈 美债 情绪中性",
-        "chain": "象征性事件，市场关注其遗产对央行独立性（政策自主）的长期影响，但无即时交易信号",
-        "watch": "美联储官员是否发表纪念声明"
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📈 美债 利好；📉 美元 承压",
+        "chain": "市场缅怀其政策，短期避险情绪升温，美债收益率（借钱成本）可能下行",
+        "watch": "美联储官员是否发表纪念评论"
       }
     },
     {
@@ -94,9 +94,9 @@
       "score": 36,
       "insight": {
         "what": "美联储鹰派发言但加息概率低于预期",
-        "assets": "📈 美股 利好；📈 美债 收益率下行；📉 美元 承压",
-        "chain": "鹰派口吻（强硬立场）但实际加息概率低，市场解读为鸽派信号（宽松预期），推高风险资产",
-        "watch": "联邦基金期货隐含加息概率"
+        "assets": "📈 美股 利好；📈 美债 利好",
+        "chain": "鹰派（偏紧缩）言论被市场解读为“嘴炮”，实际加息（升息）概率低，风险偏好回升",
+        "watch": "美联储点阵图（利率预测）及PCE（个人消费支出）数据"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SpaceX等科技IPO或引发加州富人迁往佛州",
-        "assets": "📈 佛州房地产 利好；📉 加州税收 利空",
-        "chain": "财富迁移（资金搬家）导致加州税基收缩，佛州资产需求上升，但短期对股市影响有限",
-        "watch": "加州与佛州人口净流动数据"
+        "what": "科技IPO可能引发加州富人外逃至佛罗里达",
+        "assets": "📉 加州房地产 承压；📈 佛州房地产 利好",
+        "chain": "财富迁徙（资本流动）降低加州税收，推高佛州资产价格，科技业税收压力加大",
+        "watch": "加州与佛州人口迁移数据"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "欧洲央行研究称AI对美国就业冲击有限",
-        "assets": "📈 美股科技股 利好；📉 AI替代概念 承压",
-        "chain": "数据缓解市场对AI导致失业（岗位消失）的担忧，降低监管风险，利好AI应用落地",
-        "watch": "美国劳工部AI相关岗位数据"
+        "what": "欧洲央行研究称AI对美国就业影响有限",
+        "assets": "📈 美股科技股 利好；📈 AI板块 利好",
+        "chain": "AI威胁论（技术取代岗位）被证伪，缓解科技股监管（政策限制）担忧，利好AI投资",
+        "watch": "美国劳工部AI相关就业数据"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📈 美元 短期无影响；📈 美债 情绪中性",
-        "chain": "历史人物离世引发对央行政策回顾，但无直接市场冲击，关注其遗产对通胀目标（物价控制）的讨论",
-        "watch": "美联储是否调整政策框架"
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📈 美债 利好；📉 美元 承压",
+        "chain": "市场避险情绪短期上升，资金涌入美债，美元指数（美元强弱）可能走弱",
+        "watch": "10年期美债收益率走势"
       }
     }
   ]
