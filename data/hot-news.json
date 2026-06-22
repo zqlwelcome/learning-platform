@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 15:00",
+  "updateTime": "2026-06-22 15:06",
   "news": [
     {
       "rank": 1,
@@ -7,13 +7,7 @@
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "期指下跌，因伊朗核协议进展及等待通胀数据",
-        "assets": "📉 美股期指 承压",
-        "chain": "避险情绪升温，资金可能从风险资产（股票）流向避险资产（黄金、美债）",
-        "watch": "今晚CPI数据（消费者物价指数）及伊朗核谈判结果"
-      }
+      "score": 42
     },
     {
       "rank": 2,
@@ -21,13 +15,7 @@
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "期指下跌，因伊朗核协议进展及等待通胀数据",
-        "assets": "📉 美股期指 承压",
-        "chain": "同上，市场在等通胀数据确认加息（提高借钱成本）路径",
-        "watch": "CPI数据及美联储官员讲话"
-      }
+      "score": 42
     },
     {
       "rank": 3,
@@ -37,10 +25,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "伊朗关闭霍尔木兹海峡，期指下跌、油价跳涨",
-        "assets": "📈 原油 利好；📉 美股期指 承压",
-        "chain": "油价飙升推高通胀预期（物价上涨），打压股市估值（未来利润折现减少）",
-        "watch": "霍尔木兹海峡通航状态及美国战略储备释放"
+        "what": "伊朗关闭霍尔木兹海峡，油价跳涨",
+        "assets": "📈 原油 利好\n📉 全球股市 承压",
+        "chain": "油价暴涨推高通胀预期（物价上涨压力），央行可能加速紧缩（减少印钱），压制风险资产估值（股票价值重估）",
+        "watch": "伊朗后续声明及美国是否军事介入"
       }
     },
     {
@@ -51,10 +39,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推升某旅游股",
-        "assets": "📈 该旅游股 利好",
-        "chain": "并购（公司合并）可能带来协同效应（成本节约、收入增长），吸引跟风盘",
-        "watch": "该旅游股成交量及并购完成进度"
+        "what": "高盛押注并购推动某旅游股大涨",
+        "assets": "📈 该旅游股 利好\n📈 旅游板块 利好",
+        "chain": "并购溢价（收购价高于市价）带动同板块估值重估（其他股票跟着涨），但需警惕内幕交易风险（提前买入调查）",
+        "watch": "并购交易是否获批及该股成交量"
       }
     },
     {
@@ -66,9 +54,9 @@
       "score": 37,
       "insight": {
         "what": "特斯拉自动驾驶撞死76岁老妇",
-        "assets": "📉 特斯拉 承压；📉 自动驾驶板块 承压",
-        "chain": "监管风险（可能出台更严法规）上升，消费者信心受损",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查结果"
+        "assets": "📉 特斯拉股价 承压\n📉 自动驾驶概念 承压",
+        "chain": "事故引发监管审查（政府调查）和诉讼风险（赔钱），可能推迟全自动驾驶（FSD）商业化进程，利空产业链",
+        "watch": "NHTSA（美国安全机构）是否升级调查及特斯拉声明"
       }
     },
     {
@@ -79,10 +67,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经指数创历史新高，突破72000点",
-        "assets": "📈 日经指数 利好；📈 日元 承压",
-        "chain": "日股走强吸引外资流入，但日元贬值（日本央行宽松政策）支撑出口企业利润",
-        "watch": "日本央行利率决议及日元汇率"
+        "what": "日经指数创新高，盘中突破72000点",
+        "assets": "📈 日经指数 利好\n📈 日元 承压",
+        "chain": "日股创新高吸引外资流入，但可能触发获利了结（卖盘），日元贬值（钱变便宜）利好出口股继续走强",
+        "watch": "日本央行是否干预汇率及后续外资流向"
       }
     },
     {
@@ -91,13 +79,7 @@
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "霍尔木兹危机引发中东管道建设热潮",
-        "assets": "📈 中东管道股 利好；📈 原油 利好",
-        "chain": "绕过海峡的管道降低运输风险（地缘溢价），长期可能削弱油价波动性",
-        "watch": "中东管道项目融资及开工进展"
-      }
+      "score": 29
     },
     {
       "rank": 8,
@@ -107,10 +89,10 @@
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "央行在港发行400亿元央票（中央银行票据）",
-        "assets": "📈 离岸人民币 利好",
-        "chain": "央票回笼离岸流动性（减少市场上的人民币），支撑汇率稳定",
-        "watch": "离岸人民币拆借利率（CNH Hibor）及汇率走势"
+        "what": "央行在港发行400亿元央票，常态化",
+        "assets": "📈 离岸人民币 利好\n📈 人民币债券 利好",
+        "chain": "央票回笼离岸流动性（收回市场钱），提高做空人民币成本（借人民币变贵），稳定汇率预期，利好债市外资流入",
+        "watch": "离岸人民币汇率及央票中标利率"
       }
     },
     {
@@ -119,27 +101,15 @@
       "source": "CNBC",
       "detail": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
       "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "本周美股三大关注点：通胀、财报、美联储",
-        "assets": "📉 美股 波动性上升",
-        "chain": "通胀数据影响降息预期（借钱成本降低），财报决定个股方向，美联储讲话定调政策",
-        "watch": "CPI、企业盈利及美联储会议纪要"
-      }
+      "score": 27
     },
     {
       "rank": 10,
-      "title": "The initial SpaceX frenzy is cooling off — but a new wave of cash is waiting to strike - MarketWatch",
-      "source": "MarketWatch",
+      "title": "Polymarket reportedly paid creators to post deceptive videos about fake bets - TechCrunch",
+      "source": "TechCrunch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "SpaceX热度降温，但新资金等待进场",
-        "assets": "📉 SpaceX相关股 承压；📈 太空板块 长期利好",
-        "chain": "短期获利了结（卖出套现），但机构资金（养老金等）可能在回调后建仓",
-        "watch": "SpaceX估值及新融资轮次"
-      }
+      "score": 25
     }
   ]
 }
