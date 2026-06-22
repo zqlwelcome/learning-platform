@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 08:41",
+  "updateTime": "2026-06-22 08:51",
   "news": [
     {
       "rank": 1,
@@ -9,123 +9,125 @@
       "lang": "en",
       "score": 54,
       "insight": {
-        "what": "霍尔木兹海峡关闭，油价跳涨，美股期指下跌",
-        "assets": "📈 原油 利好; 📉 美股大盘 承压",
-        "chain": "油价涨→通胀预期升温→降息（借钱成本降低）预期推迟→科技股估值承压（高估值股票更怕利率上升）",
-        "watch": "霍尔木兹海峡何时重开；今晚CPI（消费者物价指数）数据"
+        "what": "油价因霍尔木兹海峡关闭跳涨，美股期指下跌",
+        "assets": "📈 原油 利好\n📉 美股大盘 承压",
+        "chain": "油价飙升推高通胀预期（物价上涨压力），压制风险偏好（投资者避险），利好能源股，利空航空/运输股",
+        "watch": "美国CPI（消费者物价指数）数据及伊朗局势进展"
       }
     },
     {
       "rank": 2,
+      "title": "Stock futures fall as oil prices rise; investors await key reading on inflation: Live updates",
+      "source": "CNBC",
+      "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
+      "lang": "en",
+      "score": 54,
+      "insight": {
+        "what": "高盛押注并购将推升某旅游股",
+        "assets": "📈 该旅游股 利好\n📈 并购相关板块 利好",
+        "chain": "并购预期提振个股估值（公司价值），引发资金轮动（资金从其他板块流入），可能带动旅游行业ETF（交易所交易基金）",
+        "watch": "并购完成进度及该股Q2财报（季度业绩）"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
       "source": "Barron's",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "霍尔木兹海峡关闭，油价跳涨，美股期指下跌",
-        "assets": "📈 原油 利好; 📉 美股大盘 承压",
-        "chain": "油价涨→通胀预期升温→降息（借钱成本降低）预期推迟→科技股估值承压（高估值股票更怕利率上升）",
-        "watch": "霍尔木兹海峡何时重开；今晚CPI（消费者物价指数）数据"
+        "what": "特斯拉Autopilot致死事故，官方确认",
+        "assets": "📉 特斯拉 利空\n📈 传统车企/保险股 利好",
+        "chain": "事故打击自动驾驶信心，监管（政府审查）或收紧，特斯拉交付量预期下调（销量减少），资金转向传统安全概念",
+        "watch": "NHTSA（美国公路安全管理局）调查结果及特斯拉股价反应"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注某旅游股因并购将大涨",
-        "assets": "📈 该旅游股 利好; 📈 旅游板块 情绪提振",
-        "chain": "并购溢价（收购方出高价）→目标公司股价跳涨→带动板块估值重估（同行被收购预期）",
-        "watch": "并购交易能否通过反垄断审查"
+        "what": "AI建设潮使科技投资者关注债市信号",
+        "assets": "📈 AI硬件/基建股 中性\n📈 长期国债收益率 联动",
+        "chain": "AI资本开支（公司花钱投资）推高融资需求，债市利率（借钱成本）上升或压制科技股估值，形成股债联动（两者一起波动）",
+        "watch": "10年期美债收益率（长期利率）及AI公司资本支出指引"
       }
     },
     {
-      "rank": 4,
-      "title": "Tesla Driver Using Autopilot Crashes Into Home in Texas and Kills a Woman, Officials Say - The New York Times",
+      "rank": 5,
+      "title": "Tesla Driver Using Autopilot Crashes Into Home, Killing a Woman, Officials Say - The New York Times",
       "source": "The New York Times",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉Autopilot（自动驾驶系统）在德州撞死一人",
-        "assets": "📉 特斯拉 利空; 📉 自动驾驶板块 情绪利空",
-        "chain": "事故→监管审查趋严→自动驾驶商用进程推迟→相关供应商订单风险",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否立案调查"
+        "what": "霍尔木兹危机催生中东管道建设潮",
+        "assets": "📈 管道/基建股 利好\n📉 油轮运输 利空",
+        "chain": "地缘风险推高替代运输需求，管道投资增加（资本开支上升），长期降低对霍尔木兹依赖，利好中东基建公司",
+        "watch": "中东管道项目签约进展及伊朗封锁持续性"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "共享电单车公司Lime据悉拟将优步列为其IPO的基石投资者",
       "source": "环球市场播报",
       "detail": " 据知情人士称，电动自行车和滑板车运营商Lime计划在其首次公开募股（IPO）中将网约车巨头优步（Uber）列为基石投资者。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Lime拟让优步做其IPO基石投资者",
-        "assets": "📈 共享出行板块 利好; 📈 优步 间接利好",
-        "chain": "优步背书→Lime估值信心增强→共享经济IPO窗口打开（更多公司敢上市）",
-        "watch": "Lime招股书披露的估值和营收增速"
+        "what": "Lime拟邀优步作为IPO基石投资者",
+        "assets": "📈 Lime 利好\n📉 共享出行板块 中性",
+        "chain": "优步背书提升Lime估值（公司价值），暗示共享出行赛道资本回暖，可能带动其他共享经济IPO（首次公开募股）",
+        "watch": "Lime招股书估值及优步是否确认投资"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "知情人士：软银投资的机器人制造商Coowa正筹备香港IPO",
       "source": "环球市场播报",
       "detail": "知情人士称，中国机器人公司Coowa正筹备在香港上市，加入了机器人和科技公司赴港融资的浪潮。这些知情人士称，这家获软银集团支持的公司在最新一轮融资中筹集了超过6亿美元...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "软银投资的机器人公司Coowa筹备香港IPO",
-        "assets": "📈 机器人板块 利好; 📈 港股IPO市场 情绪提振",
-        "chain": "Coowa上市→软银退出路径清晰→刺激其他机器人公司加速IPO→港股流动性改善",
-        "watch": "Coowa招股估值；港股IPO审批进度"
+        "what": "软银投资机器人Coowa筹备香港IPO",
+        "assets": "📈 机器人/AI板块 利好\n📈 港股IPO市场 利好",
+        "chain": "软银背书提振机器人板块情绪（市场信心），港股IPO流动性（资金活跃度）改善，可能引发同类企业跟风上市",
+        "watch": "Coowa招股书细节及港交所审批进度"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设热潮让科技投资者紧盯债市",
-        "assets": "📈 科技股 间接利空; 📈 债券收益率 波动加大",
-        "chain": "AI数据中心耗电→能源成本推高通胀→债市收益率上升→科技股折现率（未来现金流折算现值的利率）提高→估值承压",
-        "watch": "10年期美债收益率（国债利率）是否突破4.5%"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "霍尔木兹危机催生中东管道建设潮",
-        "assets": "📈 管道建设股 利好; 📉 油轮运输 利空",
-        "chain": "封锁风险→石油公司转投陆上管道→减少对海峡依赖→管道投资周期长→利好基建股",
-        "watch": "中东各国管道项目融资进展"
+        "what": "华尔街分析师看好3只高股息股",
+        "assets": "📈 公用事业/消费防御股 利好\n📉 成长股 承压",
+        "chain": "股息股受青睐反映避险情绪（资金寻求安全），资金从高估值成长股流出，防御性板块（稳定行业）获得超额收益（跑赢大盘）",
+        "watch": "这些个股的股息率（分红比例）及财报盈利稳定性"
       }
     },
     {
       "rank": 9,
+      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 10,
       "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
       "source": "CNBC",
       "detail": "TipRanks discusses three dividend-paying stocks.",
       "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "华尔街分析师推荐3只高股息股票",
-        "assets": "📈 防御性高股息股 利好; 📉 成长股 相对利空",
-        "chain": "避险情绪→资金从高估值成长股转向高股息（分红稳定）→公用事业、消费必需品板块受追捧",
-        "watch": "这些个股的股息率（分红/股价）是否高于国债收益率"
-      }
+      "score": 29
     }
   ]
 }
