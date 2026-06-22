@@ -21,7 +21,13 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "SpaceX发债披露现金超千亿",
+        "assets": "📈 SpaceX债券 利好",
+        "chain": "高现金储备降低违约风险，但发债稀释股权预期压制股价，科技债利差可能收窄",
+        "watch": "债券认购倍数及评级机构行动"
+      }
     },
     {
       "rank": 3,
@@ -29,7 +35,13 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "SpaceX股价跌15%，连跌三日",
+        "assets": "📉 SpaceX股票 利空；📉 科技成长股 情绪受压",
+        "chain": "IPO热度退潮（新股追捧消失）触发获利了结（卖出盈利头寸），拖累同类高估值标的",
+        "watch": "成交量是否放大；支撑位（技术面关键价格）"
+      }
     },
     {
       "rank": 4,
@@ -51,7 +63,13 @@
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 51
+      "score": 51,
+      "insight": {
+        "what": "美联储更安静可能导致市场波动加剧",
+        "assets": "📉 美债利率 上行风险",
+        "chain": "沟通减少增加不确定性，期限溢价（term premium）走阔，压制风险资产",
+        "watch": "美联储会议纪要及官员讲话频率"
+      }
     },
     {
       "rank": 6,
@@ -89,10 +107,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "前联储主席格林斯潘去世",
-        "assets": "📉 美债 短期波动；📈 美元 中性",
-        "chain": "市场缅怀其时代政策，可能短暂引发对通胀管控的讨论（历史情绪冲击）",
-        "watch": "联储官员是否发表纪念言论及政策立场"
+        "what": "美银、德银预计联储9月加息",
+        "assets": "📉 美债收益率 上行；📈 美元 走强",
+        "chain": "加息预期推高短端利率（短期借贷成本），压制成长股估值（折现率上升）",
+        "watch": "8月非农就业及核心PCE（个人消费支出物价指数）数据"
       }
     },
     {
@@ -103,10 +121,10 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "美银、德银预计联储9月加息",
-        "assets": "📉 美债收益率 上行；📈 美元 走强",
-        "chain": "加息预期推高短端利率（短期借贷成本），压制成长股估值（折现率上升）",
-        "watch": "8月非农就业及核心PCE（个人消费支出物价指数）数据"
+        "what": "前联储主席格林斯潘去世",
+        "assets": "📉 美债 短期波动；📈 美元 中性",
+        "chain": "市场缅怀其时代政策，可能短暂引发对通胀管控的讨论（历史情绪冲击）",
+        "watch": "联储官员是否发表纪念言论及政策立场"
       }
     },
     {
