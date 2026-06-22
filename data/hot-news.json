@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 16:21",
+  "updateTime": "2026-06-22 16:26",
   "news": [
     {
       "rank": 1,
@@ -9,56 +9,42 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗核协议谈判进展与通胀数据公布前，期指下跌",
-        "assets": "📉 美股股指期货 承压",
-        "chain": "风险偏好降温，资金可能流入避险资产（如黄金、美债），但通胀数据超预期将加剧加息（收紧货币）预期",
-        "watch": "今晚CPI（消费者物价指数）数据及美联储官员讲话"
+        "what": "期指下跌，市场权衡伊朗协议进展并等待通胀数据",
+        "assets": "📉 美股期指 承压；📈 原油 利好",
+        "chain": "伊朗协议若达成（地缘风险缓解）将压低油价，但通胀若超预期（物价涨速过快）可能加速加息（借钱成本提高）压制风险资产",
+        "watch": "CPI数据（消费者物价指数）及伊朗谈判结果"
       }
     },
     {
       "rank": 2,
-      "title": "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
-      "source": "Barron's",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "伊朗关闭霍尔木兹海峡，期指下跌油价跳涨",
-        "assets": "📈 原油 大涨；📉 美股股指期货 承压",
-        "chain": "能源成本飙升推高通胀预期，打压消费股和航空股，同时利好能源板块和替代能源基建",
-        "watch": "霍尔木兹海峡航运恢复情况、美国SPR（战略石油储备）释放计划"
-      }
-    },
-    {
-      "rank": 3,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推升某旅游股大涨",
-        "assets": "📈 该旅游股（如Expedia等） 利好",
-        "chain": "并购溢价（收购价高于市价）吸引套利资金，可能带动在线旅游板块估值重估，但需警惕交易终止风险",
-        "watch": "并购进展、监管审批、目标公司财报"
+        "what": "高盛押注并购交易将提振旅游股",
+        "assets": "📈 旅游股 利好；📈 并购相关板块 利好",
+        "chain": "并购预期（企业合并预期）推高个股估值，可能带动行业ETF（交易所交易基金）资金流入，二阶效应是市场风险偏好（投资者冒险意愿）提升",
+        "watch": "并购完成进度及高盛目标价是否上调"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "76-year-old woman killed when a Tesla ‘running on auto-pilot’ crashed into her Texas home - The Independent",
       "source": "The Independent",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉自动驾驶撞死76岁妇女",
-        "assets": "📉 特斯拉股价 承压；📉 自动驾驶概念股 利空",
-        "chain": "监管审查（NHTSA调查）可能加强，拖累自动驾驶产业链（激光雷达、芯片），消费者信心受损",
-        "watch": "NHTSA（美国国家公路安全局）调查结果、特斯拉FSD（全自动驾驶）功能是否被召回"
+        "what": "76岁女性被自动驾驶特斯拉撞死",
+        "assets": "📉 特斯拉 承压；📉 自动驾驶概念 承压",
+        "chain": "事故引发监管审查（政府调查）风险，可能拖累自动驾驶技术商业化预期，影响相关供应商（如激光雷达厂商）估值",
+        "watch": "NHTSA（美国国家公路交通安全管理局）是否启动调查"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "英国央行发布英国境内发行方稳定币监管规则",
       "source": "市场资讯",
       "detail": "英格兰银行（英国央行）6月22日发布针对系统重要性稳定币发行商的政策声明及《行为准则》（规则）草案，标志着英国稳定币监管框架建设迈出关键一步。",
@@ -66,41 +52,69 @@
       "score": 33,
       "insight": {
         "what": "英国央行发布稳定币监管规则",
-        "assets": "📈 合规稳定币（如USDC） 利好；📉 隐私币/去中心化稳定币 利空",
-        "chain": "监管明确化降低不确定性，吸引机构入场，但合规成本增加，可能淘汰小型项目",
-        "watch": "英国央行具体执行细则、其他央行跟进情况"
+        "assets": "📈 合规稳定币 利好；📉 非法加密资产 承压",
+        "chain": "监管明确化（规则清晰）降低合规成本，利好正规加密交易平台，同时抑制无监管代币（如匿名币）流动性",
+        "watch": "英国FCA（金融行为监管局）后续执行细则"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Fed Chair Kevin Warsh Just Subtly Threw President Donald Trump and Jerome Powell Under the Bus in His First FOMC Meeting - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "美联储沃什首次FOMC会议暗示批评特朗普和鲍威尔",
-        "assets": "📉 美债收益率 承压；📉 美元 承压",
-        "chain": "市场解读为美联储可能转向鸽派（更宽松），利好风险资产，但政治干预风险增加长期不确定性",
-        "watch": "沃什后续政策表态、FOMC（联邦公开市场委员会）会议纪要措辞"
+        "what": "美联储主席沃什在首次FOMC会议中暗讽特朗普和鲍威尔",
+        "assets": "📉 美元 承压；📉 美股 承压",
+        "chain": "政策不确定性（官员言论矛盾）增加市场波动，可能削弱美联储公信力（市场信任度），导致长期利率预期（未来借贷成本）混乱",
+        "watch": "下次FOMC会议声明措辞及点阵图（利率预测）"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "突然！2000亿巨头，暴涨超33%！股市“吹哨人”，发出预警！",
+      "source": "券商中国",
+      "detail": "产业趋势显著增强！ 今天，市值超2000亿元的光纤巨头——长飞光纤在港股市场一度暴涨超33%，其A股也是封死涨停板。相关概念股特发信息、通鼎互联、亨通光电...",
+      "lang": "zh",
+      "score": 32,
+      "insight": {
+        "what": "2000亿巨头暴涨超33%，股市‘吹哨人’预警",
+        "assets": "📈 该巨头 利好；📉 大盘 承压",
+        "chain": "个股暴涨可能引发监管关注（如内幕交易调查），同时‘吹哨人’预警暗示系统性风险（整体市场隐患），短期资金可能从该股获利了结",
+        "watch": "该股成交量及监管是否发布问询函"
       }
     },
     {
       "rank": 7,
+      "title": "近半数央行计划增持黄金！2026年全球央行黄金储备调研藏着哪些亮点？",
+      "source": "市场资讯",
+      "detail": "一分钟划重点 89%受访央行储备管理者预计，未来12个月内全球央行黄金储备将继续增加。 45%受访央行储备管理者预计，其所在机构将在未来12个月内增加黄金储备（这一比例打破...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "近半数央行计划增持黄金，2026年调研显示",
+        "assets": "📈 黄金 利好；📉 美元 承压",
+        "chain": "央行增持（官方买入）推高金价，反映去美元化（减少美元依赖）趋势，长期削弱美债需求（国债价格下跌）",
+        "watch": "全球央行季度黄金储备数据及美元指数（美元强弱）"
+      }
+    },
+    {
+      "rank": 8,
       "title": "日经指数收涨1.5% 创纪录新高 盘中首次突破72000点大关",
       "source": "环球市场播报",
       "detail": " 日经225指数收涨1.5%，报创纪录新高的72353.96点。该指数周一盘中首次突破72，000点大关，因人工智能（AI）投资热情高涨，盖过美伊和平谈判的不确定性。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经指数收涨1.5%创历史新高，盘中首破72000点",
-        "assets": "📈 日经225指数 利好；📈 日本ETF 利好",
-        "chain": "外资流入、日元贬值（出口企业利润增厚）和宽松货币环境推动，可能引发亚太市场资金轮动",
-        "watch": "日本央行（BOJ）利率决议、日元兑美元汇率"
+        "what": "日经指数收涨1.5%创历史新高，盘中突破72000点",
+        "assets": "📈 日经指数 利好；📈 日本金融股 利好",
+        "chain": "突破关键心理位（整数关口）触发趋势交易者（追涨策略）买入，外资回流日本股市，日元可能因资本流入（外资换汇）走强",
+        "watch": "日本央行是否干预汇率及外资净流入数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
@@ -108,37 +122,23 @@
       "score": 29,
       "insight": {
         "what": "霍尔木兹危机引发中东管道建设热潮",
-        "assets": "📈 中东管道建设股 利好；📈 原油运输替代路线 利好",
-        "chain": "地缘风险推动能源基础设施投资，长期削弱海峡瓶颈效应，短期油价仍有波动",
-        "watch": "管道项目融资进展、伊朗局势是否缓和"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Here are 3 big things to watch in the stock market this coming week",
-      "source": "CNBC",
-      "detail": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "本周美股三大关注点：通胀数据、财报季、美联储动向",
-        "assets": "📈 美股整体 中性偏多",
-        "chain": "数据决定短期方向：CPI高于预期则打压成长股，财报季业绩指引成关键，美联储讲话影响利率预期",
-        "watch": "周三CPI、周四初请失业金、大型银行财报"
+        "assets": "📈 原油 利好；📈 中东基建股 利好",
+        "chain": "危机推高油价（运输风险溢价），管道投资（替代海运）长期降低运输成本，但短期地缘溢价（战争风险加价）持续",
+        "watch": "霍尔木兹海峡通行量及OPEC（石油输出国组织）产量政策"
       }
     },
     {
       "rank": 10,
-      "title": "Federal Regulators Want Stablecoins to Keep Working Without ID Checks - Gizmodo",
-      "source": "Gizmodo",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "Market News From June 21: Futures Fall, Oil Jumps - Barron's",
+      "source": "Barron's",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 23,
+      "score": 27,
       "insight": {
-        "what": "美监管机构拟允许稳定币无ID验证运行",
-        "assets": "📈 隐私型稳定币 利好；📈 加密货币交易所 利好",
-        "chain": "降低使用门槛，可能推动DeFi（去中心化金融）交易量回升，但反洗钱风险增加长期监管不确定性",
-        "watch": "最终规则发布时间、国会立法动向"
+        "what": "期指下跌，油价跳涨",
+        "assets": "📉 美股期指 承压；📈 原油 利好",
+        "chain": "油价飙升（能源成本上升）压制企业利润（利润率下降），导致股市估值下修（市盈率降低），同时推高通胀预期（物价上涨），强化加息押注",
+        "watch": "EIA（美国能源信息署）库存数据及美联储官员讲话"
       }
     }
   ]
