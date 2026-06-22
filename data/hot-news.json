@@ -1,32 +1,32 @@
 {
-  "updateTime": "2026-06-22 11:00",
+  "updateTime": "2026-06-22 11:06",
   "news": [
     {
       "rank": 1,
-      "title": "Stock futures fall as oil prices rise; investors await key reading on inflation: Live updates - CNBC",
-      "source": "CNBC",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 54,
-      "insight": {
-        "what": "油价上涨致美股期指下跌，通胀数据待公布",
-        "assets": "📉 美股期指 承压；📈 原油 利好",
-        "chain": "油价涨→运输成本升→通胀预期升→降息（借钱成本降低）概率降→科技股估值承压",
-        "watch": "今晚CPI数据（通胀指标）及EIA库存"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates",
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗协议进展叠加通胀观望，美股期指下跌",
-        "assets": "📉 美股期指 承压；📈 原油 短期承压",
-        "chain": "伊朗协议预期→原油供给增加预期→油价跌→缓解通胀→但地缘风险降也压制避险资产",
-        "watch": "伊朗协议签署进度及CPI数据"
+        "what": "伊朗关闭霍尔木兹海峡，油价跳涨，美股期指下跌",
+        "assets": "📈 原油 利好\n📉 美股大盘 承压",
+        "chain": "能源成本上升→通胀预期升温→加息预期强化（借钱成本预期提高）→风险资产抛售",
+        "watch": "霍尔木兹海峡通航情况及OPEC（石油输出国组织）紧急会议"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
+      "source": "Barron's",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "伊朗谈判取得进展，但通胀数据前市场谨慎，期指下跌",
+        "assets": "📉 美股期指 承压\n📈 美元 避险买盘",
+        "chain": "通胀数据若超预期→降息（借钱成本降低）预期降温→成长股（高估值科技股）估值承压",
+        "watch": "今晚CPI（消费者物价指数）数据及美联储官员讲话"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推升某旅游股",
-        "assets": "📈 该旅游股 利好；📈 旅游板块 情绪提振",
-        "chain": "并购→协同效应（成本节省+收入增长）→EPS（每股盈利）提升→分析师上调目标价",
-        "watch": "并购完成条件及Q2财报"
+        "what": "高盛押注并购推升某旅游股大涨",
+        "assets": "📈 该旅游股 利好\n📈 旅游板块 情绪提振",
+        "chain": "并购溢价→目标公司股价短期跳升→板块内并购预期升温（其他公司可能被收购）",
+        "watch": "并购交易完成进展及目标公司财报"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉撞入民宅致1死1伤，事故调查中",
-        "assets": "📉 特斯拉 情绪利空",
-        "chain": "事故→自动驾驶安全争议→监管审查风险→股价短期承压，但基本面影响有限",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否介入调查"
+        "what": "特斯拉失控撞入住宅致1死1伤",
+        "assets": "📉 特斯拉 利空\n📉 自动驾驶概念 情绪承压",
+        "chain": "安全事件→监管审查加强（如NHTSA调查）→自动驾驶商业化预期推迟→板块估值下调",
+        "watch": "NHTSA（美国国家公路交通安全管理局）是否启动正式调查"
       }
     },
     {
@@ -66,55 +66,69 @@
       "score": 36,
       "insight": {
         "what": "日本首相暗示认可央行加息决定",
-        "assets": "📈 日元 升值；📉 日经225 承压",
-        "chain": "加息→日元套利交易（借低息日元买高息资产）平仓→日股资金外流→出口企业盈利受汇率拖累",
-        "watch": "日本央行下次会议利率决议"
+        "assets": "📈 日元 利好\n📈 日本国债收益率 上行",
+        "chain": "加息（借钱成本提高）→日元套利交易（借日元买高息资产）平仓→全球风险资产波动",
+        "watch": "日央行下次会议加息幅度及日元汇率走势"
       }
     },
     {
       "rank": 6,
+      "title": "Fed Chair Kevin Warsh Just Subtly Threw President Donald Trump and Jerome Powell Under the Bus in His First FOMC Meeting - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33,
+      "insight": {
+        "what": "美联储主席Warsh在FOMC会议上暗批特朗普和鲍威尔",
+        "assets": "📉 美股 承压\n📈 美元 走强",
+        "chain": "鹰派言论→加息预期升温（借钱成本预期提高）→风险偏好下降→债市收益率上行",
+        "watch": "FOMC会议纪要及下月加息概率（CME FedWatch工具）"
+      }
+    },
+    {
+      "rank": 7,
       "title": "日经225指数首次突破72000点大关，得益于AI热潮",
       "source": "环球市场播报",
       "detail": "日本股市周一首次突破72000点大关，因人工智能（AI）投资热情高涨，盖过美伊和平谈判的不确定性。 日经225指数早盘上涨1.4%，报72，247.21点，此前一度触及72，269...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经225首次突破72000点，AI热潮驱动",
-        "assets": "📈 日经225 利好；📈 AI相关半导体股 利好",
-        "chain": "AI需求→半导体出口增长→企业盈利上修→外资流入→指数新高，但估值偏高需警惕回调",
-        "watch": "AI相关公司财报及英伟达指引"
+        "what": "日经225指数突破72000点，受AI热潮推动",
+        "assets": "📈 日经225 利好\n📈 日本AI科技股 利好",
+        "chain": "AI资本开支（如半导体设备）→日本芯片设备商受益→盈利上修→指数权重股涨",
+        "watch": "日本半导体设备出货量及AI龙头财报"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设浪潮使科技投资者关注债市",
-        "assets": "📈 科技股 间接利好；📈 长期美债收益率 敏感",
-        "chain": "AI投入大→企业债发行增→利率敏感度升→若收益率上升则科技股融资成本增，反之利好",
-        "watch": "10年期美债收益率及企业债发行量"
+        "what": "AI建设使科技投资者关注债市",
+        "assets": "📈 AI基建相关债券 利好\n📈 科技股 融资成本敏感",
+        "chain": "AI需大量借贷投入（如数据中心）→利率（借钱成本）上升影响项目回报→投资者盯紧债市",
+        "watch": "10年期美债收益率及企业债发行规模"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "共享电单车公司Lime据悉拟将优步列为其IPO的基石投资者",
       "source": "环球市场播报",
       "detail": " 据知情人士称，电动自行车和滑板车运营商Lime计划在其首次公开募股（IPO）中将网约车巨头优步（Uber）列为基石投资者。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "共享电单车Lime拟将优步列为IPO基石投资者",
-        "assets": "📈 Lime 估值利好；📈 优步 情绪提振",
-        "chain": "基石投资者背书→IPO认购信心增→估值提升→优步投资回报预期升",
-        "watch": "Lime IPO定价及优步持股比例"
+        "what": "Lime拟邀优步作为IPO基石投资者",
+        "assets": "📈 共享电单车板块 利好\n📈 优步 战略协同",
+        "chain": "优步背书→Lime估值提升→共享出行板块IPO热度升温→资本涌入",
+        "watch": "Lime招股书估值及优步持股比例"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "知情人士：软银投资的机器人制造商Coowa正筹备香港IPO",
       "source": "环球市场播报",
       "detail": "知情人士称，中国机器人公司Coowa正筹备在香港上市，加入了机器人和科技公司赴港融资的浪潮。这些知情人士称，这家获软银集团支持的公司在最新一轮融资中筹集了超过6亿美元...",
@@ -122,23 +136,9 @@
       "score": 30,
       "insight": {
         "what": "软银投资的机器人公司Coowa筹备香港IPO",
-        "assets": "📈 机器人板块 情绪利好；📈 软银 间接利好",
-        "chain": "IPO→机器人赛道热度升→软银退出路径清晰→提振其投资组合估值",
-        "watch": "Coowa招股书披露及软银财报"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "霍尔木兹危机引发中东输油管道建设热潮",
-        "assets": "📈 中东输油管道股 利好；📈 原油 短期波动",
-        "chain": "危机→管道替代海运→降低运输风险溢价→长期油价中枢或下移，但建设期刺激基建需求",
-        "watch": "霍尔木兹海峡通行数据及管道建设合同"
+        "assets": "📈 机器人板块 利好\n📈 港股IPO市场 情绪提振",
+        "chain": "软银背书→机器人赛道受关注→港股科技IPO回暖→相关概念股（如AI机器人）跟涨",
+        "watch": "Coowa招股书营收及软银是否继续增持"
       }
     }
   ]
