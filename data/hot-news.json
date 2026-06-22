@@ -1,22 +1,30 @@
 {
-  "updateTime": "2026-06-22 23:40",
+  "updateTime": "2026-06-22 23:46",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX stock falls 9%, pacing for third-straight day of losses after red-hot IPO start",
-      "source": "CNBC",
-      "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
+      "title": "SpaceX stock down again, shaving off some IPO gains; confirms debt offering - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX股价连跌三日，IPO后回调9%",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "IPO后获利回吐（卖出获利），可能拖累其他热门科技新股估值",
-        "watch": "SpaceX后续财报及锁定期（持股人可卖股）到期"
+        "what": "外资巨头看好A股AI和半导体板块",
+        "assets": "📈 A股AI/半导体 利好；📈 芯片ETF 利好",
+        "chain": "资金流入预期（外资加仓），估值修复（科技股被低估后反弹）",
+        "watch": "北向资金（外资流入A股）净买入额及半导体行业财报"
       }
     },
     {
       "rank": 2,
+      "title": "SpaceX stock falls 9%, pacing for third-straight day of losses after red-hot IPO start",
+      "source": "CNBC",
+      "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
+      "lang": "en",
+      "score": 57
+    },
+    {
+      "rank": 3,
       "title": "RBC策略师称美股能够承受美联储进行两次左右的加息",
       "source": "环球市场播报",
       "detail": "RBC Capital Markets的Lori Calvasina表示，只要美联储的紧缩周期保持适度，美国股市应该能够承受加息。 “只要未来12个月内进行两次左右幅度分别为25个基点的加息...",
@@ -24,121 +32,89 @@
       "score": 51,
       "insight": {
         "what": "RBC策略师称美股能承受两次加息",
-        "assets": "📈 美股大盘 利好",
-        "chain": "加息预期（借钱成本上升）被消化，缓解市场恐慌，支撑风险偏好（愿意冒险投资）",
-        "watch": "美联储下次会议加息概率（CME FedWatch）"
+        "assets": "📈 美股大盘 中性偏多；📉 美债 承压",
+        "chain": "加息预期（借钱成本上升）打压成长股估值，但经济韧性支撑价值股",
+        "watch": "美联储点阵图（利率预测）及CPI数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Deadly Tesla crash raises questions about Autopilot use after woman killed - NewsNation",
       "source": "NewsNation",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉致命事故引发Autopilot质疑",
-        "assets": "📉 特斯拉股票 利空",
-        "chain": "监管风险（政府调查）上升，可能打击自动驾驶行业信心，拖累相关供应链",
-        "watch": "NHTSA（美国公路安全局）调查结果及诉讼进展"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "In 6 Words, Fed Chair Kevin Warsh Just Dropped the Hammer on Wall Street - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "美联储主席沃什强硬表态，暗示收紧政策",
-        "assets": "📉 美债 利空；📈 美元 利好",
-        "chain": "鹰派言论（主张加息）推高利率预期，压制股市估值（未来现金流折现价值降低）",
-        "watch": "下周美联储会议声明及点阵图（利率预测）"
+        "what": "特斯拉致命事故质疑Autopilot安全",
+        "assets": "📉 特斯拉股票 利空；📉 自动驾驶概念 承压",
+        "chain": "监管风险上升（可能出台更严安全法规），消费者信心受挫",
+        "watch": "NHTSA（美国公路安全管理局）调查结果及特斯拉声明"
       }
     },
     {
       "rank": 5,
+      "title": "In 6 Words, Fed Chair Kevin Warsh Just Dropped the Hammer on Wall Street - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 45
+    },
+    {
+      "rank": 6,
       "title": "US stocks drift near their records in mixed trading after oil prices fall - AP News",
       "source": "AP News",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "美股高位震荡，油价下跌拖累能源股",
-        "assets": "📉 能源股 利空；📈 美股科技股 利好",
-        "chain": "油价跌降低通胀压力（物价上涨），支撑降息预期，资金从能源转向成长股",
-        "watch": "EIA（美国能源信息署）库存数据及OPEC产量"
-      }
+      "score": 44
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Oil Declines After US-Iran Deal Progress, Sanctions Waiver - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "油价因美伊协议进展及制裁豁免下跌",
-        "assets": "📉 原油 利空",
-        "chain": "供应增加预期（伊朗石油重返市场）压低油价，利好交通运输和消费行业",
-        "watch": "美伊谈判后续及伊朗实际出口量"
+        "what": "美伊协议进展致油价下跌",
+        "assets": "📉 原油 利空；📈 航空股 利好",
+        "chain": "供给增加预期（制裁放松推高产量），通胀压力缓解（油价降则成本降）",
+        "watch": "美伊谈判最终协议签署及OPEC（石油输出国组织）产量政策"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "Analysts Warn China's Oil Demand May Never Fully Recover - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 41
+    },
+    {
+      "rank": 9,
       "title": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX周一宣布启动优先无担保票据发行，并披露其目前持有约1008亿美元的现金储备。 受此消息影响，公司股价下跌约7%。 这家涉足航天与人工智能领域的公司计划将此次募资用...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX发行债券，现金储备超1000亿美元",
-        "assets": "📈 SpaceX债券 利好；📉 高收益债 利空",
-        "chain": "发债融资（借新钱）显示资本需求，可能分流市场资金，压低其他高风险债价格",
-        "watch": "债券评级及发行利率（票息）对比市场"
+        "what": "SpaceX IPO后连跌三日，确认发债",
+        "assets": "📉 SpaceX股票 利空；📈 债券市场 供给增加",
+        "chain": "发债稀释股权（股权价值被摊薄），现金储备高但市场担忧估值泡沫",
+        "watch": "SpaceX债券发行认购率及后续股价支撑位"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "多家外资巨头一致看好A股AI和半导体板块",
       "source": "21世纪经济报道",
       "detail": "记者丨易妍君 编辑丨张星 近期，摩根士丹利、景顺、富达国际、贝莱德等外资巨头陆续发布2026年中期投资展望。 多家外资机构一致看好中国AI与半导体产业链的中长期价值。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "多家外资机构看好A股AI和半导体板块",
-        "assets": "📈 A股AI及半导体板块 利好",
-        "chain": "外资流入（北向资金）增加，带动科技股估值修复（价格回归合理水平），提振市场情绪",
-        "watch": "外资每日净买入数据及AI行业政策"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "美银、德意志银行预计美联储将于9月加息",
-      "source": "环球市场播报",
-      "detail": " 美国银行全球研究部和德意志银行预计，由于经济韧性以及新任主席凯文·沃什采取更鹰派的立场，美联储将在2026年加息，这与其此前关于利率将保持稳定的预测有所不同。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美银、德银预计美联储9月加息",
-        "assets": "📉 美股 承压；📈 美元 利好",
-        "chain": "加息预期（借钱成本上升）提前反映，压制成长股估值，推高短端利率（短期国债收益率）",
-        "watch": "美国CPI（消费者物价指数）及非农就业数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "California exodus 2.0: How SpaceX, tech IPOs could trigger the next massive wealth flight to Florida - Fox Business",
-      "source": "Fox Business",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX等科技IPO引发加州富豪迁往佛罗里达",
-        "assets": "📈 佛州地产 利好；📉 加州税收 利空",
-        "chain": "财富转移（高净值人群搬离）推高佛州房价，减少加州税基（政府收入来源），影响地方债",
-        "watch": "加州和佛州人口流动数据及税收报告"
+        "what": "分析师警告中国石油需求或难恢复",
+        "assets": "📉 原油 长期利空；📉 能源股 承压",
+        "chain": "需求端疲软（经济转型减少化石燃料依赖），拖累全球油价中枢（长期均价下移）",
+        "watch": "中国PMI（采购经理指数）及原油进口数据"
       }
     }
   ]
