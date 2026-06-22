@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 02:31",
+  "updateTime": "2026-06-23 02:33",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "SpaceX股价连跌三日，确认发行债券",
+        "assets": "📉 SpaceX股票 利空，📈 债券市场 利好",
+        "chain": "股权融资成本上升（发债稀释股东权益），短期压制科技股风险偏好（Risk-off情绪）",
+        "watch": "SpaceX债券收益率及认购倍数"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "SpaceX股价连跌三日，确认发行债券",
+        "assets": "📉 SpaceX股票 利空，📈 债券市场 利好",
+        "chain": "股权融资成本上升（发债稀释股东权益），短期压制科技股风险偏好（Risk-off情绪）",
+        "watch": "SpaceX债券收益率及认购倍数"
+      }
     },
     {
       "rank": 3,
@@ -51,7 +63,13 @@
       "source": "Yahoo Finance",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "油价下跌因美伊协议进展及制裁豁免",
+        "assets": "📉 原油 利空，📈 航空股 利好",
+        "chain": "伊朗供应增加（OPEC+减产效果削弱）压低油价，降低通胀预期（CPI压力缓解）",
+        "watch": "伊朗原油出口量及OPEC+产量决议"
+      }
     },
     {
       "rank": 6,
@@ -75,10 +93,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "油价下跌因美伊协议进展及制裁豁免",
-        "assets": "📉 原油 利空，📈 航空股 利好",
-        "chain": "伊朗供应增加（OPEC+减产效果削弱）压低油价，降低通胀预期（CPI压力缓解）",
-        "watch": "伊朗原油出口量及OPEC+产量决议"
+        "what": "美股涨跌互现，原油价格跌破74美元，美财政部允许伊朗石油销售60天。",
+        "assets": "美股（道指涨，标普/纳指跌），原油（空头），能源板块（空头）",
+        "chain": "伊朗石油供应增加预期打压油价，能源股下跌拖累大盘，但道指受防御板块支撑。",
+        "watch": "WTI原油价格走势，伊朗石油出口量变化"
       }
     },
     {
@@ -87,7 +105,13 @@
       "source": "Ars Technica",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 37
+      "score": 37,
+      "insight": {
+        "what": "门铃摄像头拍到特斯拉自动驾驶撞死屋内女性事故。",
+        "assets": "特斯拉（空头），自动驾驶概念股（空头），监管风险资产",
+        "chain": "事故引发公众对自动驾驶安全性质疑，可能加剧监管审查，影响特斯拉销量和行业信心。",
+        "watch": "NHTSA调查进展，特斯拉股价反应"
+      }
     },
     {
       "rank": 9,
