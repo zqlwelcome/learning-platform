@@ -1,144 +1,144 @@
 {
-  "updateTime": "2026-06-23 00:15",
+  "updateTime": "2026-06-23 00:21",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX stock falls 9%, pacing for third-straight day of losses after red-hot IPO start - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "SpaceX IPO后股价连跌3日",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "冲击科技IPO板块情绪，或拖累私有科技公司估值",
-        "watch": "SpaceX后续财报及订单数据"
-      }
-    },
-    {
-      "rank": 2,
       "title": "RBC策略师称美股能够承受美联储进行两次左右的加息",
       "source": "环球市场播报",
       "detail": "RBC Capital Markets的Lori Calvasina表示，只要美联储的紧缩周期保持适度，美国股市应该能够承受加息。 “只要未来12个月内进行两次左右幅度分别为25个基点的加息...",
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "RBC称美股能承受两次加息",
-        "assets": "📈 美股大盘 偏多",
-        "chain": "缓解加息恐慌，利好利率敏感（对利率变化反应大）的科技和成长股",
-        "watch": "美联储点阵图（利率预测图）及CPI数据"
+        "what": "RBC策略师称美股能承受两次加息",
+        "assets": "📈 美股大盘 中性偏多",
+        "chain": "市场消化加息预期（price in），短期波动有限，但加息施压高估值成长股",
+        "watch": "美联储官员讲话及通胀数据（CPI）"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets, higher rates - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "美联储更安静可能导致市场波动",
-        "assets": "📉 美债 承压 📈 波动率指数 上升",
-        "chain": "政策不确定性推高期限溢价（长期债券额外收益），股市波动加剧",
-        "watch": "美联储官员讲话频率及市场隐含利率路径"
+        "what": "美联储更安静可能导致市场波动和利率上升（Warsh观点）",
+        "assets": "📉 美债 承压\n📉 美股 波动加剧",
+        "chain": "减少前瞻指引（forward guidance）→ 不确定性上升 → 风险溢价（risk premium）提高 → 股债双杀",
+        "watch": "美联储会议纪要沟通措辞变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Deadly Tesla crash raises questions about Autopilot use after woman killed - NewsNation",
       "source": "NewsNation",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉致命事故引发Autopilot质疑",
-        "assets": "📉 特斯拉股票 利空",
-        "chain": "监管风险升温，可能拖累自动驾驶产业链（如激光雷达股）",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查进展"
+        "what": "特斯拉致命事故质疑Autopilot安全性",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "监管调查风险上升（regulatory risk）→ 自动驾驶行业信心受挫 → 供应商股价承压",
+        "watch": "NHTSA调查结果及后续诉讼"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "US stocks drift near their records in mixed trading after oil prices fall - AP News",
       "source": "AP News",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "美股在油价下跌后高位震荡",
-        "assets": "📈 美股大盘 中性",
-        "chain": "油价下跌利好运输和消费板块，但通胀预期缓和或压制能源股",
-        "watch": "WTI（西德克萨斯中质原油）原油期货走势"
+        "what": "油价下跌后美股涨跌互现，接近纪录高位",
+        "assets": "📈 标普500 中性\n📉 能源股 承压",
+        "chain": "油价回落→通胀预期降温（inflation expectation）→ 降息预期升温，但能源板块拖累指数",
+        "watch": "WTI原油走势及美联储利率路径"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Micron Earnings Will Likely Whip Up AI Frenzy. Why That’s Bad for Markets. - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美光财报或引爆AI狂热但不利市场",
-        "assets": "📈 AI芯片股 利好 📉 大盘 承压",
-        "chain": "AI过度投机推高估值，资金从其他板块流出，引发轮动（资金在不同板块间转移）",
-        "watch": "美光营收指引及AI相关订单增速"
+        "what": "美光财报可能激发AI热潮，但Barron's认为对市场不利",
+        "assets": "📈 AI芯片股 短期利好\n📉 市场整体 利空",
+        "chain": "AI情绪过度乐观（hype）→ 资金集中涌入→ 其他板块失血（crowding effect）→ 市场脆弱性增加",
+        "watch": "美光财报指引及AI ETF资金流向"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX周一宣布启动优先无担保票据发行，并披露其目前持有约1008亿美元的现金储备。 受此消息影响，公司股价下跌约7%。 这家涉足航天与人工智能领域的公司计划将此次募资用...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX发债并披露千亿现金储备",
-        "assets": "📈 SpaceX债券 偏多",
-        "chain": "强现金储备降低信用风险，或吸引固收（固定收益）投资者，但稀释股权",
-        "watch": "债券发行利率及认购倍数"
+        "what": "SpaceX创纪录IPO后发行债券，披露现金超1000亿美元",
+        "assets": "📈 SpaceX债券 利好\n📉 高收益债市场 中性",
+        "chain": "现金充裕仍发债→ 利用低利率融资（cheap debt）→ 市场流动性充裕信号，但警惕过度杠杆",
+        "watch": "债券定价及后续融资计划"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "多家外资巨头一致看好A股AI和半导体板块",
       "source": "21世纪经济报道",
       "detail": "记者丨易妍君 编辑丨张星 近期，摩根士丹利、景顺、富达国际、贝莱德等外资巨头陆续发布2026年中期投资展望。 多家外资机构一致看好中国AI与半导体产业链的中长期价值。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "外资看好A股AI和半导体",
-        "assets": "📈 A股AI板块 利好 📈 半导体ETF 利好",
-        "chain": "外资流入预期提振板块情绪，但需警惕短期过热后的回调",
-        "watch": "北向资金（外资通过陆股通流入A股）净买入额"
+        "what": "多家外资巨头看好A股AI和半导体板块",
+        "assets": "📈 A股AI及半导体板块 利好",
+        "chain": "外资流入（hot money inflow）→ 板块估值提升（re-rating）→ 带动科创板及创业板情绪",
+        "watch": "北向资金净买入额及板块成交量"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Bank of America expects three Fed hikes this year, says inflation is getting 'unambiguously worse'",
       "source": "CNBC",
       "detail": "The bank's economists reversed their position held as recently as last week that the central bank would stay on hold this year",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美银预计今年三次加息，通胀恶化",
-        "assets": "📉 美债 承压 📉 成长股 利空",
-        "chain": "加息预期推高贴现率（未来现金流折现率），打压高估值科技股",
-        "watch": "美国核心PCE（个人消费支出物价指数）月度数据"
+        "what": "美银预计今年三次加息，通胀明显恶化",
+        "assets": "📉 美股 利空\n📈 美元 利好",
+        "chain": "加息预期强化→ 风险资产承压（risk-off）→ 美元走强（DXY up）→ 新兴市场资金外流",
+        "watch": "CPI及非农就业数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美银、德意志银行预计美联储将于9月加息",
       "source": "环球市场播报",
       "detail": " 美国银行全球研究部和德意志银行预计，由于经济韧性以及新任主席凯文·沃什采取更鹰派的立场，美联储将在2026年加息，这与其此前关于利率将保持稳定的预测有所不同。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银和德银预计9月加息",
-        "assets": "📉 美股 承压 📈 美元 走强",
-        "chain": "加息预期提前，短期利率上升，新兴市场资金外流风险加大",
-        "watch": "9月FOMC（美联储公开市场委员会）会议概率"
+        "what": "美银、德银预计美联储9月加息",
+        "assets": "📉 美债 承压\n📈 美元 利好",
+        "chain": "加息预期提前→ 短端利率抬升（short-end yield up）→ 银行股受益（net interest margin扩大），科技股承压",
+        "watch": "9月FOMC会议概率（CME FedWatch）"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Alan Greenspan, Fed Chairman Through Prosperity and Crisis, Dies at 100 - The New York Times",
+      "source": "The New York Times",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 33,
+      "insight": {
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📈 美元 短期中性\n📉 市场情绪 短期扰动",
+        "chain": "市场缅怀其任期（1987-2006）→ 短期评论回顾其政策（如低利率）→ 对当前美联储政策讨论无实质影响",
+        "watch": "美联储主席鲍威尔是否会发表悼念声明"
       }
     }
   ]
