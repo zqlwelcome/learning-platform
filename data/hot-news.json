@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 11:31",
+  "updateTime": "2026-06-22 11:35",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗核协议进展与通胀数据预期致期指下跌",
+        "what": "伊朗核协议进展与通胀数据前美股期货下跌",
         "assets": "📉 美股大盘 承压",
-        "chain": "避险情绪升温，美债收益率（国债利率）可能下行，美元走强",
-        "watch": "今晚CPI（消费者物价指数）数据公布"
+        "chain": "避险情绪升温→资金流出风险资产→债券（避险资产）受追捧",
+        "watch": "CPI（消费者物价指数）数据公布"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注某并购案推动旅游股大涨",
-        "assets": "📈 该旅游股 利好",
-        "chain": "并购溢价（收购价高于市价）带动板块估值（股价/盈利比）重估，资金可能轮动至航空酒店",
-        "watch": "并购交易完成进度及监管审批"
+        "what": "高盛押注并购将推动某旅游股大涨",
+        "assets": "📈 旅游板块个股 利好",
+        "chain": "并购预期→EPS（每股收益）增厚→估值重估→吸引机构资金",
+        "watch": "并购交易完成公告"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本首相暗示认可央行加息，协调立场不变",
-        "assets": "📈 日元 升值",
-        "chain": "加息预期强化，日债利率（日本国债收益率）上行，利差交易（借低息货币投高息）可能平仓",
-        "watch": "日本央行下次会议是否加息25bp（基点）"
+        "what": "日本首相暗示认可央行加息，立场协调",
+        "assets": "📈 日元 走强；📉 日债收益率 上行",
+        "chain": "政策协同→加息预期巩固→利差收窄（美日利差缩小）→日元升值",
+        "watch": "日本央行下次会议声明"
       }
     },
     {
       "rank": 4,
+      "title": "钽锭暴涨158%！AI算力金属迎景气共振，小金属战略地位确立，谁能穿越周期？",
+      "source": "新浪基金",
+      "detail": "自2026年起，受供给收紧与需求爆发双重驱动，“算力金属”市场迎来景气共振期，其中与AI产业深度绑定的锡、钽、铟价格显著飙升，涨幅分别达40%、158%和约60%...",
+      "lang": "zh",
+      "score": 35,
+      "insight": {
+        "what": "钽锭暴涨158%，AI算力金属景气上行",
+        "assets": "📈 小金属（钽、稀土） 利好",
+        "chain": "AI算力扩张→钽电容需求激增→供给刚性→价格持续上行",
+        "watch": "钽矿新增产能释放节奏"
+      }
+    },
+    {
+      "rank": 5,
       "title": "日经225指数首次突破72000点大关，得益于AI热潮",
       "source": "环球市场播报",
       "detail": "日本股市周一首次突破72000点大关，因人工智能（AI）投资热情高涨，盖过美伊和平谈判的不确定性。 日经225指数早盘上涨1.4%，报72，247.21点，此前一度触及72，269...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经225指数突破72000点，AI热潮驱动",
-        "assets": "📈 日股半导体/AI股 利好",
-        "chain": "AI资本开支（企业投资）预期推高日本芯片设备商，全球科技股联动估值提升",
-        "watch": "英伟达财报及日本半导体出口数据"
+        "what": "日经225突破72000点，AI热潮推动",
+        "assets": "📈 日经225指数 利好；📈 日本AI相关股 利好",
+        "chain": "AI叙事驱动→半导体（芯片）与设备需求→外资流入→指数创新高",
+        "watch": "日本半导体出口数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI基建热潮使科技投资者关注债市信号",
-        "assets": "📈 美债收益率 上行",
-        "chain": "AI算力需求推高长期利率预期（融资成本），科技股估值（未来现金流折现）承压",
-        "watch": "10年期美债收益率是否突破4.5%"
+        "what": "AI建设让科技投资者关注债市动态",
+        "assets": "📈 科技股 与债券收益率联动",
+        "chain": "AI基建融资需求→利率（借钱成本）敏感→收益率曲线（长短期利差）变动影响估值",
+        "watch": "10年期美债收益率走势"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "共享电单车公司Lime据悉拟将优步列为其IPO的基石投资者",
       "source": "环球市场播报",
       "detail": " 据知情人士称，电动自行车和滑板车运营商Lime计划在其首次公开募股（IPO）中将网约车巨头优步（Uber）列为基石投资者。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "共享电单车Lime拟请优步作为IPO基石投资者",
-        "assets": "📈 优步 利好（投行收入预期）",
-        "chain": "IPO热度提升，共享经济板块估值修复（PEG比率），后续可能带动其他出行公司上市",
-        "watch": "Lime估值及募资规模"
+        "what": "Lime拟邀优步为IPO基石投资者",
+        "assets": "📈 共享出行板块 利好",
+        "chain": "优步背书→增强IPO（首次公开募股）信心→推高估值→带动同类公司上市预期",
+        "watch": "Lime招股书定价区间"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "知情人士：软银投资的机器人制造商Coowa正筹备香港IPO",
       "source": "环球市场播报",
       "detail": "知情人士称，中国机器人公司Coowa正筹备在香港上市，加入了机器人和科技公司赴港融资的浪潮。这些知情人士称，这家获软银集团支持的公司在最新一轮融资中筹集了超过6亿美元...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "软银投资的机器人公司Coowa筹备香港IPO",
-        "assets": "📈 港股科技新股 利好",
-        "chain": "机器人赛道受关注，软银资产变现（减持老股）改善流动性，港股IPO市场回暖信号",
-        "watch": "Coowa招股书及基石投资者名单"
+        "what": "软银投资机器人公司Coowa筹备香港IPO",
+        "assets": "📈 港股机器人板块 利好",
+        "chain": "软银背书→AI+机器人题材→吸引亚洲资金→港股科技IPO重启信号",
+        "watch": "Coowa招股书披露营收数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
       "source": "CNBC",
       "detail": "TipRanks discusses three dividend-paying stocks.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师看好3只高股息股稳定回报",
-        "assets": "📈 公用事业/消费防御股 利好",
-        "chain": "防御性配置（低波动高分红）增加，资金从成长股（科技）轮出，债市收益率下行时更受青睐",
-        "watch": "股息率（分红/股价）与国债利差变化"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
-      "source": "CNBC",
-      "detail": "The first big announced changes point toward a quiet revolution, with task forces set up to rethink virtually everything done at the Fed.",
-      "lang": "en",
-      "score": 23,
-      "insight": {
-        "what": "Kevin Warsh欲以'丝绒手套'方式重塑美联储",
-        "assets": "📉 美债 承压",
-        "chain": "鹰派（倾向加息）预期加强，美元走强，风险资产（股票）波动率上升",
-        "watch": "Warsh正式提名及首次政策讲话"
+        "what": "华尔街分析师看好3只高股息股",
+        "assets": "📉 成长股 相对承压",
+        "chain": "降息预期→股息率（分红/股价）相对吸引力上升→资金轮动至防御板块",
+        "watch": "美联储利率决议"
       }
     },
     {
       "rank": 10,
-      "title": "No one wants AI data centers on Earth. Do they make sense in space?",
-      "source": "CNBC",
-      "detail": "Elon Musk's SpaceX is betting big on orbital AI data centers. The public doesn't want them on Earth, but the economic case for space-based is questionable.",
-      "lang": "en",
-      "score": 20,
+      "title": "从铝土矿到黄金！几内亚矿产政策再收紧：将禁止出口黄金原矿",
+      "source": "滚动播报",
+      "detail": "来源：财联社 财联社6月22日讯（编辑 潇湘）西非国家几内亚总统马马迪·敦布亚周末宣布，该国将禁止出口原金（从矿山或河底直接开采出来、没经过熔化提纯的黄金）...",
+      "lang": "zh",
+      "score": 24,
       "insight": {
-        "what": "AI数据中心建在太空是否可行引发争议",
-        "assets": "📉 地面数据中心/能源股 承压",
-        "chain": "若技术可行，太空AI降低地球能源成本（电力消耗减少），颠覆传统IDC（互联网数据中心）估值",
-        "watch": "SpaceX等太空基建进展及能耗对比报告"
+        "what": "几内亚禁止出口黄金原矿，矿产政策收紧",
+        "assets": "📈 黄金 利好；📉 几内亚矿业股 利空",
+        "chain": "供给收缩→黄金溢价→全球金矿股受益→几内亚风险溢价上升",
+        "watch": "几内亚其他矿产（铝土矿）政策动向"
       }
     }
   ]
