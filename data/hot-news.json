@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 09:50",
+  "updateTime": "2026-06-22 09:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 54,
       "insight": {
-        "what": "油价上涨拖累美股期货，通胀数据待公布",
-        "assets": "📉 美股股指期货 承压\n📈 原油 利好",
-        "chain": "油价涨→通胀预期升温→降息（借钱成本降低）推迟→科技股估值承压",
-        "watch": "今晚CPI（消费者物价指数）数据及美联储表态"
+        "what": "油价上涨引发美股期货下跌，关注通胀数据",
+        "assets": "📉 美股大盘 承压，📈 原油 利好",
+        "chain": "油价涨推高通胀预期，降息（借钱成本降低）概率下降，压制股市估值",
+        "watch": "今晚CPI（消费者物价指数）数据公布"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 47,
       "insight": {
         "what": "美光财报被视为AI行情动能检验",
-        "assets": "📈 美光科技 关键\n📉 AI概念股 波动",
-        "chain": "美光业绩→AI芯片需求信号→若不及预期或引发AI板块获利了结（卖出盈利仓位）",
-        "watch": "美光盘后营收及下季度指引"
+        "assets": "📈 美光科技 利好，📉 其他AI芯片股 承压",
+        "chain": "美光业绩将验证AI需求（AI芯片订单强度），影响半导体板块资金流向",
+        "watch": "美光营收指引及AI业务占比"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "伊朗关闭霍尔木兹海峡，油价跳涨美股期货跌",
-        "assets": "📈 原油 暴涨\n📉 美股股指期货 承压\n📉 航运股 利空",
-        "chain": "海峡关闭→全球石油供应中断→能源成本飙升→通胀压力加大→央行加息（提高借钱成本）风险",
-        "watch": "伊朗官方声明及美国是否释放战略石油储备"
+        "what": "伊朗关闭霍尔木兹海峡，油价飙升，期指下跌",
+        "assets": "📈 原油 暴涨，📉 美股大盘 暴跌",
+        "chain": "海峡封锁（全球石油运输要道）引发供应中断恐慌，推高能源成本，打击消费股",
+        "watch": "海峡重新开放时间及美国战略储备释放"
       }
     },
     {
@@ -51,24 +51,24 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推动某旅游股大涨",
-        "assets": "📈 旅游股（高盛标的） 利好",
-        "chain": "并购→协同效应（合并节省成本）→盈利提升→股价上涨→吸引跟风买盘",
-        "watch": "并购交易完成进度及Q2财报"
+        "what": "高盛押注某旅游股因并购大涨",
+        "assets": "📈 该旅游股 利好",
+        "chain": "并购（公司合并）带来协同效应（成本节省+收入增长），吸引其他投行跟进评级",
+        "watch": "并购交易完成日期及目标公司财报"
       }
     },
     {
       "rank": 5,
-      "title": "Tesla Driver Using Autopilot Crashes Into Home in Texas and Kills a Woman, Officials Say - The New York Times",
-      "source": "The New York Times",
+      "title": "Woman killed, driver injured after Tesla crashes through Katy-area home, Harris County Sheriff's Office says - ABC13 Houston",
+      "source": "ABC13 Houston",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉司机使用Autopilot撞死一名妇女",
-        "assets": "📉 特斯拉 利空\n📉 自动驾驶概念股 承压",
-        "chain": "事故→监管审查加强→自动驾驶商业化延迟→特斯拉及行业估值下调",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否展开调查"
+        "what": "特斯拉撞穿民宅致1死1伤",
+        "assets": "📉 特斯拉 利空",
+        "chain": "事故引发自动驾驶安全质疑（FSD（全自动驾驶）可靠性），可能拖累股价及监管审查",
+        "watch": "特斯拉事故调查结果及NHTSA（美国国家公路交通安全管理局）是否介入"
       }
     },
     {
@@ -79,14 +79,28 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "共享电单车Lime拟让优步做IPO基石投资者",
-        "assets": "📈 优步 利好\n📈 共享出行板块 情绪提振",
-        "chain": "优步背书→Lime IPO信心增强→共享经济估值修复→优步投资组合增值",
+        "what": "Lime拟邀优步作为IPO基石投资者",
+        "assets": "📈 Lime 利好，📈 优步 中性",
+        "chain": "基石投资（IPO前锁定大额订单）增强市场信心，优步可获共享电单车生态协同",
         "watch": "Lime IPO定价及优步持股比例"
       }
     },
     {
       "rank": 7,
+      "title": "AI buildout gives tech investors new reasons to watch bond market",
+      "source": "CNBC",
+      "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "AI建设潮使科技投资者关注债市",
+        "assets": "📈 科技股 中性，📈 美债收益率 承压",
+        "chain": "AI数据中心（高耗能设施）推高长期利率预期，科技股估值（未来现金流折现）受债市波动影响",
+        "watch": "10年期美债收益率走势及AI资本开支指引"
+      }
+    },
+    {
+      "rank": 8,
       "title": "知情人士：软银投资的机器人制造商Coowa正筹备香港IPO",
       "source": "环球市场播报",
       "detail": "知情人士称，中国机器人公司Coowa正筹备在香港上市，加入了机器人和科技公司赴港融资的浪潮。这些知情人士称，这家获软银集团支持的公司在最新一轮融资中筹集了超过6亿美元...",
@@ -94,23 +108,9 @@
       "score": 30,
       "insight": {
         "what": "软银投资的机器人公司Coowa筹备香港IPO",
-        "assets": "📈 机器人板块 利好\n📈 港交所 情绪提振",
-        "chain": "Coowa上市→机器人赛道获资本关注→软银投资退出（变现）路径清晰→提振科技IPO市场",
-        "watch": "Coowa招股书估值及软银减持计划"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "AI buildout gives tech investors new reasons to watch bond market",
-      "source": "CNBC",
-      "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "AI建设让科技投资者关注债市信号",
-        "assets": "📈 科技股 联动\n📈 长期国债收益率 关键",
-        "chain": "AI基建需大量资本→企业发债融资→债市收益率上升→若收益率过高将挤压科技股估值",
-        "watch": "10年期美债收益率及科技公司发债计划"
+        "assets": "📈 机器人板块 利好，📈 软银 中性",
+        "chain": "IPO（首次公开募股）提振机器人行业估值，软银通过上市退出获利",
+        "watch": "Coowa招股书估值及认购倍数"
       }
     },
     {
@@ -122,9 +122,9 @@
       "score": 29,
       "insight": {
         "what": "霍尔木兹危机催生中东管道建设热潮",
-        "assets": "📈 原油管道股 利好\n📈 中东基建股 利好",
-        "chain": "海峡封锁→替代运输路线需求→管道投资激增→相关工程公司订单增长",
-        "watch": "管道建设合同签署及伊朗局势演变"
+        "assets": "📈 中东管道股 利好，📈 原油 承压",
+        "chain": "管道替代海运（降低海峡风险）降低原油运输溢价，长期压制油价",
+        "watch": "新管道项目开工及霍尔木兹局势缓和"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街顶级分析师看好3只高股息股",
-        "assets": "📈 高股息股（如公用事业、消费防御） 利好",
-        "chain": "避险情绪→资金从成长股轮动（资金转移）至防御性高股息资产→股息率（分红/股价）吸引力上升",
-        "watch": "这些个股的股息率及财报分红政策"
+        "what": "华尔街分析师推荐3只高股息股",
+        "assets": "📈 公用事业/消费股息股 利好",
+        "chain": "高股息（稳定分红）股在利率波动中提供防御性，吸引避险资金",
+        "watch": "个股派息率及盈利稳定性"
       }
     }
   ]
