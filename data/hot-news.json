@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 02:00",
+  "updateTime": "2026-06-23 02:05",
   "news": [
     {
       "rank": 1,
@@ -7,13 +7,7 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "SpaceX股价继续下跌，确认发行债券",
-        "assets": "📉 SpaceX股票 利空；📈 债券市场 利好",
-        "chain": "股权融资成本上升，转向债市压低利率，科技股IPO溢价消退",
-        "watch": "债券发行定价和认购倍数"
-      }
+      "score": 57
     },
     {
       "rank": 2,
@@ -21,13 +15,7 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
       "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "SpaceX股价连跌三日，IPO涨幅回吐",
-        "assets": "📉 SpaceX股票 利空；📉 科技IPO板块 承压",
-        "chain": "IPO溢价（首日涨幅）回吐，暗示二级市场对高估值容忍度下降",
-        "watch": "其他近期IPO个股走势"
-      }
+      "score": 57
     },
     {
       "rank": 3,
@@ -37,10 +25,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "RBC策略师称美股能承受两次加息",
-        "assets": "📈 美股大盘 中性偏利好；📉 利率敏感股 承压",
-        "chain": "加息预期（借钱成本上升）已被定价，但两次加息可能压制高估值成长股",
-        "watch": "美联储点阵图和市场隐含加息概率"
+        "what": "RBC策略师称美股可承受两次加息",
+        "assets": "📈 美股大盘 利好; 📉 美债 承压",
+        "chain": "加息预期（借钱成本上升）已部分定价，风险偏好回升，资金从债市回流股市",
+        "watch": "美联储点阵图（利率预测）及CPI数据"
       }
     },
     {
@@ -51,10 +39,10 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "美联储更安静可能引发市场波动和利率上升",
-        "assets": "📉 美债 利空；📈 波动率指数 利好",
-        "chain": "央行沟通减少（鸽派信号缺失）增加不确定性，推高风险溢价和长端利率",
-        "watch": "美联储官员讲话频率和措辞"
+        "what": "沃什警告美联储沉默或引发市场波动",
+        "assets": "📉 美股 承压; 📈 美债收益率 上行",
+        "chain": "政策透明度下降（央行沟通减少），市场不确定性溢价上升，波动率（VIX恐慌指数）可能跳升",
+        "watch": "美联储官员讲话频率及市场隐含利率"
       }
     },
     {
@@ -65,10 +53,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "致命特斯拉事故质疑Autopilot安全性",
-        "assets": "📉 特斯拉股票 利空；📉 自动驾驶板块 承压",
-        "chain": "监管审查风险上升（安全丑闻），可能拖累行业估值并引发诉讼",
-        "watch": "NHTSA调查结果和后续召回事件"
+        "what": "特斯拉致命事故引发Autopilot质疑",
+        "assets": "📉 特斯拉 利空; 📈 传统车企 利好",
+        "chain": "监管风险升温（自动驾驶安全审查），消费者信心受损，竞争对手可能抢占市场份额",
+        "watch": "NHTSA（美国公路安全局）调查进展及召回公告"
       }
     },
     {
@@ -77,13 +65,7 @@
       "source": "AP News",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "美股在油价下跌后涨跌互现，接近历史高位",
-        "assets": "📈 标普500指数 中性；📉 能源股 利空",
-        "chain": "油价下跌（通胀压力缓解）利好消费板块，但能源股拖累指数",
-        "watch": "后续油价走势和CPI数据"
-      }
+      "score": 44
     },
     {
       "rank": 7,
@@ -93,52 +75,52 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "油价因美伊协议进展和制裁豁免下跌",
-        "assets": "📉 原油 利空；📈 航空/运输股 利好",
-        "chain": "供应增加（伊朗原油入市）压低油价，降低成本端压力，但OPEC+或减产对冲",
-        "watch": "伊朗原油出口量和OPEC+会议声明"
+        "what": "美国伊朗协议进展及制裁豁免令油价下跌",
+        "assets": "📉 原油 利空; 📈 航空股 利好",
+        "chain": "供应增加预期（伊朗石油回归），通胀压力缓解，运输成本下降利好下游行业",
+        "watch": "伊朗原油出口量及OPEC（石油输出国组织）产量调整"
       }
     },
     {
       "rank": 8,
-      "title": "Analysts Warn China's Oil Demand May Never Fully Recover - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "分析师警告中国石油需求或无法完全恢复",
-        "assets": "📉 原油 利空；📉 中国能源股 承压",
-        "chain": "需求端疲软（经济复苏不及预期）持续压制油价，全球原油库存可能攀升",
-        "watch": "中国PMI数据和原油进口量"
-      }
-    },
-    {
-      "rank": 9,
       "title": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX周一宣布启动优先无担保票据发行，并披露其目前持有约1008亿美元的现金储备。 受此消息影响，公司股价下跌约7%。 这家涉足航天与人工智能领域的公司计划将此次募资用...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX披露现金储备超1000亿美元后发债",
-        "assets": "📉 SpaceX股票 利空；📈 高收益债 中性",
-        "chain": "现金充裕却发债暗示股权融资受阻，或为后续投资储备弹药，但稀释风险降低",
-        "watch": "SpaceX估值和二级市场价格"
+        "what": "SpaceX股价连跌三日，确认发债融资",
+        "assets": "📉 SpaceX 利空; 📈 债券市场 利好",
+        "chain": "发债稀释股权（增发债券增加负债），现金储备充裕但IPO热度消退，科技股估值承压",
+        "watch": "SpaceX债券发行利率及认购倍数"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美银、德意志银行预计美联储将于9月加息",
       "source": "环球市场播报",
       "detail": " 美国银行全球研究部和德意志银行预计，由于经济韧性以及新任主席凯文·沃什采取更鹰派的立场，美联储将在2026年加息，这与其此前关于利率将保持稳定的预测有所不同。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银和德银预计美联储9月加息",
-        "assets": "📈 美元 利好；📉 美债 利空",
-        "chain": "加息预期（借钱成本上升）推高短端利率，美元走强压制新兴市场和大宗商品",
-        "watch": "下周非农就业和CPI数据"
+        "what": "美银及德银预计美联储9月加息",
+        "assets": "📉 美债 利空; 📈 美元 利好",
+        "chain": "加息预期强化（借贷成本上升），成长股估值承压，新兴市场资金外流风险加大",
+        "watch": "非农就业数据及核心PCE（个人消费支出物价指数）"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
+      "source": "CNBC",
+      "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
+      "lang": "en",
+      "score": 33,
+      "insight": {
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📈 美股 短期中性; 📉 无直接冲击",
+        "chain": "历史人物逝世引发货币政策讨论，但无即时市场影响，可能短暂提振避险情绪",
+        "watch": "美联储官方声明及市场纪念性交易行为"
       }
     }
   ]
