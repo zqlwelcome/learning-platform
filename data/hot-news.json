@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 04:00",
+  "updateTime": "2026-06-23 04:05",
   "news": [
     {
       "rank": 1,
@@ -10,37 +10,37 @@
       "score": 70,
       "insight": {
         "what": "特斯拉致命车祸遭联邦安全调查",
-        "assets": "📉 特斯拉股价 利空",
-        "chain": "监管风险上升，电动车板块承压，或推高保险成本",
-        "watch": "NHTSA调查结论及召回可能性"
+        "assets": "📉 特斯拉股价 承压",
+        "chain": "监管风险上升，可能拖累电动车板块估值（市盈率），保险公司理赔成本增加",
+        "watch": "NHTSA调查结论及是否召回"
       }
     },
     {
       "rank": 2,
+      "title": "SpaceX stock tanks 16%, extending three-day slump following post-IPO rally",
+      "source": "CNBC",
+      "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past three days of trading.",
+      "lang": "en",
+      "score": 62,
+      "insight": {
+        "what": "SpaceX股价暴跌16%，延续三日跌势",
+        "assets": "📉 SpaceX 利空",
+        "chain": "IPO后获利回吐（投资者卖出锁利），债务发行暗示资金需求，二级市场情绪恶化",
+        "watch": "SpaceX债券定价及后续融资动态"
+      }
+    },
+    {
+      "rank": 3,
       "title": "SpaceX stock down again, shaving off some IPO gains; confirms debt offering - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "SpaceX发债披露现金超千亿美元",
-        "assets": "📈 SpaceX债券 中性，📉 科技股 利空",
-        "chain": "高现金储备仍发债，暗示扩张需求，市场担忧流动性收紧",
-        "watch": "SpaceX后续融资计划及估值变化"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "SpaceX stock falls 15%, pacing for third-straight day of losses after red-hot IPO start",
-      "source": "CNBC",
-      "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
-      "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "前美联储主席格林斯潘逝世",
-        "assets": "📈 美债 中性，📉 美元 短期情绪利空",
-        "chain": "市场短暂缅怀，但政策影响有限，关注其遗产对监管讨论",
-        "watch": "联储官员评论及市场情绪指标"
+        "what": "SpaceX股价续跌，确认债务发行",
+        "assets": "📉 SpaceX 利空",
+        "chain": "债股双杀（融资成本上升），稀释现有股东权益，现金储备虽高但市场担忧扩张烧钱",
+        "watch": "债务发行规模及利率"
       }
     },
     {
@@ -51,9 +51,9 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "RBC策略师称美股可承受两次加息",
-        "assets": "📈 美股大盘 中性偏多",
-        "chain": "市场消化加息预期，短期波动可控，但若超两次则承压",
+        "what": "RBC策略师称美股能承受两次加息",
+        "assets": "📈 美股大盘 利好",
+        "chain": "安抚市场紧缩预期（加息抑制通胀），降低恐慌性抛售概率，但需验证企业盈利韧性",
         "watch": "美联储点阵图及通胀数据"
       }
     },
@@ -65,74 +65,80 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "美联储理事Warsh暗示更安静美联储或致市场波动",
-        "assets": "📉 美债收益率 上行",
-        "chain": "沟通减少增加不确定性，利率波动率（VIX）上升，风险资产承压",
-        "watch": "美联储会议纪要及官员讲话频率"
+        "what": "沃什警告美联储沉默将导致市场波动",
+        "assets": "📉 美债 承压 📈 波动率指数 利好",
+        "chain": "政策不确定性推高利率预期（远期利率），风险资产波动率上升，避险资金流入黄金",
+        "watch": "美联储官员讲话及会议纪要"
       }
     },
     {
       "rank": 6,
-      "title": "Analysts Warn China's Oil Demand May Never Fully Recover - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 41
-    },
-    {
-      "rank": 7,
       "title": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX周一宣布启动优先无担保票据发行，并披露其目前持有约1008亿美元的现金储备。 受此消息影响，公司股价下跌约7%。 这家涉足航天与人工智能领域的公司计划将此次募资用...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX股价连跌三日，确认发债融资",
-        "assets": "📉 SpaceX股价 利空",
-        "chain": "IPO热度消退，发债（借钱）暗示资金需求，科技成长股估值承压",
-        "watch": "SpaceX债券发行利率及认购情况"
+        "what": "SpaceX创纪录IPO后发债，现金超千亿",
+        "assets": "📉 SpaceX 利空",
+        "chain": "高现金仍融资暗示激进投资（星舰/星链），债务增加财务杠杆，稀释债权优先级",
+        "watch": "债券评级及未来资本开支计划"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Stock Market Today: Dow rises 150 points, S&P 500 and Nasdaq fall as U.S. oil prices drop below $74 a barrel after Treasury allows Iran oil sales for 60 days - MarketWatch",
       "source": "MarketWatch",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "分析师警告中国石油需求或无法完全恢复",
-        "assets": "📉 原油价格 利空",
-        "chain": "需求预期下调，OPEC+减产压力增大，能源股及产油国货币承压",
-        "watch": "中国原油进口数据及PMI"
+        "what": "美股分化：道指涨，标普纳指跌，油价破74",
+        "assets": "📈 道指 利好 📉 能源股 承压 📉 科技股 承压",
+        "chain": "油价下跌缓解通胀（CPI能源分项），利好消费股，但拖累能源板块，科技受伊朗供应冲击",
+        "watch": "伊朗石油出口实际增量及WTI库存"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "美银、德意志银行预计美联储将于9月加息",
       "source": "环球市场播报",
       "detail": " 美国银行全球研究部和德意志银行预计，由于经济韧性以及新任主席凯文·沃什采取更鹰派的立场，美联储将在2026年加息，这与其此前关于利率将保持稳定的预测有所不同。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美股涨跌互现，WTI跌破74美元因伊朗获准售油",
-        "assets": "📉 原油价格 利空，📈 美股能源股 利空，📈 美股消费股 利好",
-        "chain": "油价下跌缓解通胀，美联储加息压力减轻，但能源板块受冲击",
-        "watch": "伊朗石油出口量及OPEC反应"
+        "what": "美银、德银预计美联储9月加息",
+        "assets": "📉 美债 承压 📈 美元 利好",
+        "chain": "加息预期推高短期利率（2年期美债收益率），压制成长股估值，新兴市场资本外流",
+        "watch": "非农就业及核心PCE数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "美银和德银预计美联储9月加息",
-        "assets": "📈 美元指数 利好，📉 美股成长股 利空",
-        "chain": "加息预期推高短端利率（2年期美债），成长股估值压缩，银行股受益",
-        "watch": "8月非农就业及CPI数据"
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📈 美债 短期波动",
+        "chain": "纪念性交易可能短暂推高长端利率（10年期美债），但无实质政策影响，市场反应有限",
+        "watch": "美联储官方声明及市场反应"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Three key AI stocks to watch this week with traders expecting giant moves",
+      "source": "CNBC",
+      "detail": "Micron and Cerebras report this week. Also there's heavy options activity in Super Micro.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "交易员关注三只AI股，预期巨幅波动",
+        "assets": "📈 AI概念股 利好",
+        "chain": "资金轮动至AI赛道，期权隐含波动率（IV）上升，可能带动半导体ETF（如SMH）跟涨",
+        "watch": "个股期权持仓量及财报预告"
       }
     }
   ]
