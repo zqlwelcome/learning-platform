@@ -1,64 +1,50 @@
 {
-  "updateTime": "2026-06-22 14:26",
+  "updateTime": "2026-06-22 14:31",
   "news": [
     {
       "rank": 1,
-      "title": "Investors see Micron earnings as pulse check of AI rally momentum - KSL News",
-      "source": "KSL News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "美光财报被视为AI涨势的脉搏检查",
-        "assets": "📈 美股半导体 利好; 📉 美股AI概念 承压",
-        "chain": "若美光业绩不及预期，AI板块（人工智能相关股票）将回调，拖累纳指（科技股指数）。",
-        "watch": "美光营收指引及数据中心DRAM（内存芯片）需求"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗核协议进展和通胀数据前美股期货下跌",
-        "assets": "📉 美股大盘 承压",
-        "chain": "地缘缓和（伊朗协议）压制油价，但通胀预期（物价上涨）推高美债收益率（借钱成本），挤压成长股估值。",
-        "watch": "CPI（消费者物价指数）数据及伊朗谈判结果"
+        "what": "伊朗核谈判进展，市场等待通胀数据，期指下跌",
+        "assets": "📉 美股期货 承压",
+        "chain": "通胀数据若超预期，紧缩预期（央行收紧钱袋子）升温，利空成长股",
+        "watch": "CPI数据公布值"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates",
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "伊朗核协议进展和通胀数据前美股期货下跌",
-        "assets": "📉 美股大盘 承压",
-        "chain": "地缘缓和（伊朗协议）压制油价，但通胀预期（物价上涨）推高美债收益率（借钱成本），挤压成长股估值。",
-        "watch": "CPI（消费者物价指数）数据及伊朗谈判结果"
+        "what": "伊朗核谈判进展，市场等待通胀数据，期指下跌",
+        "assets": "📉 美股期货 承压",
+        "chain": "通胀数据若超预期，紧缩预期（央行收紧钱袋子）升温，利空成长股",
+        "watch": "CPI数据公布值"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
       "source": "Barron's",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "伊朗关闭霍尔木兹海峡后油价跳涨，美股期货跌",
-        "assets": "📈 原油 利好; 📉 美股能源以外板块 承压",
-        "chain": "海峡封锁冲击全球石油供应（每天约2000万桶），推高通胀，迫使央行收紧（加息），利空消费和科技股。",
-        "watch": "霍尔木兹海峡通行状况及美国SPR（战略石油储备）释放"
+        "what": "伊朗关闭霍尔木兹海峡，期指跌，油价跳涨",
+        "assets": "📈 原油 利好 📉 美股期指 承压",
+        "chain": "油价飙升推高通胀预期，打压风险资产（股票），利好能源股",
+        "watch": "海峡通行恢复时间"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
@@ -66,79 +52,93 @@
       "score": 39,
       "insight": {
         "what": "高盛押注并购将推动某旅游股大涨",
-        "assets": "📈 旅游股（个股） 利好",
-        "chain": "并购溢价（收购价高于市价）提升目标公司估值，可能引发同类旅游资产（如酒店、OTA在线旅行社）重估。",
-        "watch": "该并购交易是否获监管批准及目标公司财报"
+        "assets": "📈 该旅游股 利好",
+        "chain": "并购溢价（收购价高于市价）吸引套利资金，提升板块并购预期",
+        "watch": "并购交易完成进度"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "76-year-old woman killed when a Tesla ‘running on auto-pilot’ crashed into her Texas home - The Independent",
       "source": "The Independent",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "76岁妇女被特斯拉自动驾驶撞死",
-        "assets": "📉 特斯拉 承压; 📉 自动驾驶概念 承压",
-        "chain": "事故引发监管审查（NHTSA调查），打击消费者信任，可能推迟FSD（全自动驾驶）商业化进程。",
-        "watch": "NHTSA（美国公路安全局）调查结论及特斯拉回应"
+        "what": "特斯拉自动驾驶撞死76岁老妇",
+        "assets": "📉 特斯拉 利空",
+        "chain": "自动驾驶安全丑闻引发监管收紧（更严法规），冲击科技股情绪",
+        "watch": "NHTSA调查结果"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Micron Must Do This on June 24, or Its Stock Could Crash - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "美光6月24日需有动作，否则股价可能暴跌",
+        "assets": "📉 美光科技 利空",
+        "chain": "若财报或指引不及预期，存储芯片需求疲软确认，拖累半导体板块",
+        "watch": "美光财报及业绩指引"
       }
     },
     {
       "rank": 7,
+      "title": "日本首相重申协调配合立场 暗示认可央行上周加息决定",
+      "source": "环球市场播报",
+      "detail": "日本首相高市早苗重申政府与央行保持协调的一贯表态，暗示认可日本央行上周的加息决定。 高市早苗周一在国会表示：“我们期望央行与政府密切配合，并综合考虑经济...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "日本首相暗示认可央行加息决定",
+        "assets": "📈 日元 利好 📉 日股 承压",
+        "chain": "加息（借钱成本提高）收流动性，利空股市，利好日元升值",
+        "watch": "日本央行下次议息会议"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "日经225指数首次突破72000点大关，得益于AI热潮",
+      "source": "环球市场播报",
+      "detail": "日本股市周一首次突破72000点大关，因人工智能（AI）投资热情高涨，盖过美伊和平谈判的不确定性。 日经225指数早盘上涨1.4%，报72，247.21点，此前一度触及72，269...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "日经225突破72000点，AI热潮推动",
+        "assets": "📈 日本科技股 利好",
+        "chain": "AI算力需求拉动日本半导体设备商，外资流入推高指数",
+        "watch": "AI相关公司财报"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "霍尔木兹危机催生中东石油管道热潮",
-        "assets": "📈 中东基建股 利好; 📈 管道运输 利好",
-        "chain": "替代海运（绕过海峡）降低地缘风险溢价（战争风险成本），长期削弱原油波动性，利好炼油厂。",
-        "watch": "管道建设合同签署及保险费用变化"
+        "what": "霍尔木兹危机引发中东管道建设潮",
+        "assets": "📈 中东管道股 利好 📉 油轮 利空",
+        "chain": "管道替代海运降低运输风险，推高管道运营商利润，削弱油轮需求",
+        "watch": "管道项目签约进展"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "Here are 3 big things to watch in the stock market this coming week",
       "source": "CNBC",
       "detail": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "下周美股三大关注点",
-        "assets": "📈 美股大盘 中性",
-        "chain": "关注点包括通胀数据、财报季（企业盈利）和地缘事件，这些决定美联储（美国央行）利率路径和风险偏好（投资者情绪）。",
-        "watch": "CPI、PPI（生产者价格指数）及银行股财报"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "The initial SpaceX frenzy is cooling off — but a new wave of cash is waiting to strike - MarketWatch",
-      "source": "MarketWatch",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "SpaceX热潮降温，但新资金等待入场",
-        "assets": "📈 太空概念股 中性偏多",
-        "chain": "初期投机（短线交易）退潮后，长期资本（如主权基金）可能布局，推动行业整合（并购），利好技术领先者。",
-        "watch": "SpaceX估值变化及Starlink（卫星互联网）IPO动态"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Polymarket reportedly paid creators to post deceptive videos about fake bets - TechCrunch",
-      "source": "TechCrunch",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "Polymarket被曝付费制作虚假投注视频",
-        "assets": "📉 预测市场概念 承压",
-        "chain": "监管风险（SEC调查）增加，用户信任下降，可能限制此类平台增长，利空相关代币（如POLY）。",
-        "watch": "CFTC（商品期货交易委员会）是否介入及平台回应"
+        "what": "下周美股市场三大关注点",
+        "assets": "📈 美股整体 中性",
+        "chain": "宏观事件（CPI、零售数据）决定方向，财报季个股波动加大",
+        "watch": "CPI、零售销售、美联储讲话"
       }
     }
   ]
