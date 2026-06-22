@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 15:06",
+  "updateTime": "2026-06-22 15:07",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "期指下跌，因伊朗核协议进展及等待通胀数据",
+        "assets": "📉 美股期指 承压",
+        "chain": "避险情绪升温，资金可能从风险资产（股票）流向避险资产（黄金、美债）",
+        "watch": "今晚CPI数据（消费者物价指数）及伊朗核谈判结果"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "期指下跌，因伊朗核协议进展及等待通胀数据",
+        "assets": "📉 美股期指 承压",
+        "chain": "同上，市场在等通胀数据确认加息（提高借钱成本）路径",
+        "watch": "CPI数据及美联储官员讲话"
+      }
     },
     {
       "rank": 3,
@@ -79,7 +91,13 @@
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "霍尔木兹危机引发中东管道建设热潮",
+        "assets": "📈 中东管道股 利好；📈 原油 利好",
+        "chain": "绕过海峡的管道降低运输风险（地缘溢价），长期可能削弱油价波动性",
+        "watch": "中东管道项目融资及开工进展"
+      }
     },
     {
       "rank": 8,
@@ -101,7 +119,13 @@
       "source": "CNBC",
       "detail": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "本周美股三大关注点：通胀、财报、美联储",
+        "assets": "📉 美股 波动性上升",
+        "chain": "通胀数据影响降息预期（借钱成本降低），财报决定个股方向，美联储讲话定调政策",
+        "watch": "CPI、企业盈利及美联储会议纪要"
+      }
     },
     {
       "rank": 10,
@@ -109,7 +133,13 @@
       "source": "TechCrunch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "Polymarket被曝付费制作虚假赌注视频",
+        "assets": "Polymarket相关代币",
+        "chain": "信任受损，用户流失，代币下跌",
+        "watch": "平台回应及监管动态"
+      }
     }
   ]
 }
