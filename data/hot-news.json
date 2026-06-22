@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 18:36",
+  "updateTime": "2026-06-22 18:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 72,
       "insight": {
-        "what": "SpaceX IPO后股价回调",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "IPO热度消退+获利回吐，可能压制近期科技新股（新上市公司）情绪",
-        "watch": "SpaceX后续订单及Starlink用户增长数据"
+        "what": "SpaceX IPO后上涨，随后股价回落",
+        "assets": "📉 SpaceX股票 利空; 📈 太空概念股 联动",
+        "chain": "IPO热情消退，短期获利盘（投机者卖出）打压股价，影响其他科技IPO定价",
+        "watch": "SpaceX后续财报和订单数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 60,
       "insight": {
-        "what": "本周关注美联储通胀数据及美光财报",
-        "assets": "📈 美股半导体 中性偏多",
-        "chain": "通胀数据影响降息预期（借钱成本降低），美光财报指引存储芯片需求",
-        "watch": "周三CPI（消费者物价指数）及美光营收指引"
+        "what": "本周关注美联储通胀数据和美光财报",
+        "assets": "📉 美股大盘 承压; 📈 半导体股 事件驱动",
+        "chain": "通胀数据影响降息预期（借钱成本），进而波动债券收益率（国债利率）和科技股估值",
+        "watch": "CPI（消费者物价指数）和美光业绩指引"
       }
     },
     {
@@ -37,42 +37,56 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX 74天完成IPO，为AI公司树立榜样",
-        "assets": "📈 AI初创公司 利好",
-        "chain": "快速IPO路径缩短退出周期，刺激一级市场（未上市企业融资）投资热情",
-        "watch": "OpenAI、Anthropic上市进展及监管态度"
+        "what": "SpaceX仅74天完成IPO，为AI公司树立榜样",
+        "assets": "📈 科技IPO市场 利好; 📈 OpenAI相关资产 情绪提振",
+        "chain": "快速IPO路径激励一级市场（未上市企业融资），加速风险资本（VC）退出和再投资",
+        "watch": "OpenAI和Anthropic的IPO计划进展"
       }
     },
     {
       "rank": 4,
+      "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "美股期货下跌，因伊朗协议进展和通胀数据待出",
+        "assets": "📉 美股期货 承压; 📈 原油 潜在利好",
+        "chain": "伊朗协议缓和地缘风险（降低油价波动），但通胀数据决定美联储政策路径（加息或降息）",
+        "watch": "伊朗核协议谈判结果和CPI数据"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛看好合并后旅行股上涨",
-        "assets": "📈 旅游板块 利好",
-        "chain": "合并预期驱动行业整合（企业并购重组），提升定价权和协同效应",
-        "watch": "合并案监管审批及Q2旅游需求数据"
+        "what": "高盛押注合并案推升旅游股",
+        "assets": "📈 特定旅游股 利好; 📈 旅游板块 情绪提振",
+        "chain": "并购（公司合并）预期提升行业集中度，带动同行估值重估（市盈率上调）",
+        "watch": "合并案监管审批和旅游股财报"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "黄金四日来首次上涨！4200美元下方徘徊，能追吗？",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周一（6月22日）欧洲时段，现货黄金部分回吐日内强劲涨幅，交投于4200美元下方，但仍保持四个交易日以来的首次上涨。",
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "黄金四日首涨，徘徊4200美元下方",
-        "assets": "📈 黄金 中性",
-        "chain": "美元指数（美元强弱）回调+避险情绪短暂支撑，但4200阻力位（价格压力线）未破",
-        "watch": "美联储官员讲话及美国实际利率（通胀调整后利率）走势"
+        "what": "黄金四日来首涨，徘徊4200美元下方",
+        "assets": "📈 黄金 短期反弹; 📉 美元 承压",
+        "chain": "美元走弱（贬值）推升金价，但4200美元为关键阻力位（卖压集中区），突破需催化剂",
+        "watch": "美元指数和美联储利率决议"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "76-year-old woman killed when a Tesla ‘running on auto-pilot’ crashed into her Texas home - The Independent",
       "source": "The Independent",
       "detail": "国际财经动态，关注后续发展。",
@@ -80,65 +94,51 @@
       "score": 37,
       "insight": {
         "what": "特斯拉自动驾驶撞死76岁老人",
-        "assets": "📉 特斯拉 利空",
-        "chain": "事故重燃自动驾驶安全争议，或引发监管调查及赔偿诉讼",
-        "watch": "NHTSA（美国公路安全局）调查结论及FSD（全自动驾驶）召回进展"
+        "assets": "📉 特斯拉股票 利空; 📉 自动驾驶板块 监管风险",
+        "chain": "事故引发监管收紧（更严安全标准），增加技术落地成本，拖累行业估值（市盈率下降）",
+        "watch": "NHTSA（美国公路安全局）调查进展和特斯拉股价反应"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "Micron Must Do This on June 24, or Its Stock Could Crash - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "美光6月24日前必须行动，否则股价或暴跌",
+        "assets": "📉 美光股票 承压; 📉 半导体板块 联动风险",
+        "chain": "业绩指引（未来盈利预测）若不及预期，引发行业库存修正（供过于求），拖累芯片股",
+        "watch": "美光财报和存储芯片价格走势"
+      }
+    },
+    {
+      "rank": 9,
       "title": "加息也不怕？美联储“新政”或难阻牛市脚步！",
       "source": "市场资讯",
       "detail": "来源：金十数据 沃什时代的美联储可能意味着一个更高波动、但更少干预的市场环境。虽然加息可能损害美联储的短期人气，但可能在长期巩固市场的信用基石。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储新政或难阻牛市",
-        "assets": "📈 美股大盘 中性偏多",
-        "chain": "市场预期政策宽松（流动性增加）对冲加息，资金从债券轮动（资产转移）至股票",
-        "watch": "下周FOMC（美联储议息会议）点阵图及鲍威尔措辞"
+        "what": "美联储新政或难阻牛市，加息不惧",
+        "assets": "📈 美股大盘 看多; 📉 美债 收益率上行",
+        "chain": "市场定价乐观，忽略加息（借钱成本提高）影响，资金从债券流向股票，支持估值扩张（市盈率上升）",
+        "watch": "美联储实际利率决议和就业数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "'There's a new sheriff in town': Wall Street weighs Kevin Warsh's Fed debut - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "华尔街评估Kevin Warsh任美联储主席影响",
-        "assets": "📉 美债收益率 承压",
-        "chain": "Warsh偏鹰派（倾向加息），市场提前定价更紧的货币（减少市场资金）政策",
-        "watch": "Warsh政策表态及美联储理事提名进展"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Defense giant KNDS moves closer to IPO after France-Germany stake deal",
-      "source": "CNBC",
-      "detail": "France and Germany agreed on a KNDS framework as Germany seeks a 40% stake ahead of a potential multibillion-euro IPO.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "防务巨头KNDS法德股权交易后接近IPO",
-        "assets": "📈 军工板块 利好",
-        "chain": "地缘紧张+国防预算增加，军工资产上市吸引避险资金（追求安全资产）",
-        "watch": "KNDS招股书估值及欧洲国防订单增速"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "AI监管乱象丛生，Anthropic深陷舆论漩涡",
-      "source": "环球市场播报",
-      "detail": "安索帕推出其迄今为止功能最强大的公开版人工智能模型后没几天，这款产品就被紧急下架，不再向用户开放使用权限。 美方监管部门接到该模型出现越狱漏洞（可绕过系统内置安...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "AI监管乱象，Anthropic陷舆论漩涡",
-        "assets": "📉 AI概念股 利空",
-        "chain": "监管不确定性（政策风险）打压AI板块估值，或引发行业合规成本上升",
-        "watch": "美国AI法案进展及Anthropic用户数据披露"
+        "what": "华尔街评估Kevin Warsh美联储首秀",
+        "assets": "📈 美元 政策预期; 📉 美股 不确定性",
+        "chain": "新任美联储主席（央行行长）立场影响利率路径，鹰派（倾向加息）打压风险资产，鸽派（倾向降息）提振股市",
+        "watch": "Warsh公开讲话和政策表态"
       }
     }
   ]
