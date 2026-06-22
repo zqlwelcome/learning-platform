@@ -1,50 +1,64 @@
 {
-  "updateTime": "2026-06-22 20:01",
+  "updateTime": "2026-06-22 20:05",
   "news": [
     {
       "rank": 1,
+      "title": "SpaceX stock drops again after rally following blockbuster IPO - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 72,
+      "insight": {
+        "what": "SpaceX IPO后股价回调，此前大涨",
+        "assets": "📉 SpaceX股票 承压",
+        "chain": "科技新股情绪降温，可能拖累其他IPO（首次公开募股）定价",
+        "watch": "SpaceX后续交易日成交量及支撑位"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SpaceX stock falls premarket, continuing selloff after rally and blockbuster IPO",
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
       "lang": "en",
       "score": 72,
       "insight": {
-        "what": "SpaceX股价盘前下跌，延续涨后回调",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "科技IPO估值泡沫担忧升温，可能压制近期新股定价",
-        "watch": "SpaceX后续交易量及机构持仓变化"
+        "what": "加州财富外流2.0：科技IPO引发向佛罗里达迁移",
+        "assets": "📉 加州房地产 承压  📈 佛州房地产 利好",
+        "chain": "高净值人群转移，加州税基萎缩，佛州消费和信贷需求上升",
+        "watch": "加州和佛州人口及税收数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Deadly Tesla crash raises questions about Autopilot use after woman killed - NewsNation",
       "source": "NewsNation",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉致命事故引发对Autopilot安全性质疑",
-        "assets": "📉 特斯拉股票 利空；📉 自动驾驶概念股 承压",
-        "chain": "监管收紧风险增加，可能拖累车企技术路线估值",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否启动正式调查"
+        "what": "特斯拉致命事故再引Autopilot安全质疑",
+        "assets": "📉 特斯拉股票 承压",
+        "chain": "监管风险上升，影响自动驾驶板块估值（市场定价）",
+        "watch": "NHTSA（美国公路安全管理局）是否启动正式调查"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX仅用74天完成 IPO，为OpenAI、Anthropic树立榜样",
       "source": "环球市场播报",
       "detail": "SpaceX 上市首周股价表现强劲，充分印证一件事：以极快节奏推进 IPO 并未让公司付出任何代价。证券申报文件分析显示，该企业从首次保密递交上市申请到正式挂牌仅耗时 74...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "SpaceX仅用74天完成IPO，为AI公司树立快速上市范例",
-        "assets": "📈 科技IPO市场 利好；📈 OpenAI/Anthropic估值预期 利好",
-        "chain": "缩短上市周期（从私募到公开交易的时间）将加速科技股供给，分流资金",
-        "watch": "后续科技公司IPO申报节奏及定价水平"
+        "what": "SpaceX仅74天完成IPO，创纪录速度",
+        "assets": "📈 科技IPO市场 利好",
+        "chain": "加速独角兽（估值超10亿美元未上市企业）上市潮，二级市场资金分流",
+        "watch": "OpenAI、Anthropic IPO时间表"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Alan Greenspan, economist and longtime head of the Federal Reserve, dies at 100 - NBC News",
       "source": "NBC News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -52,69 +66,57 @@
       "score": 41,
       "insight": {
         "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美债波动率 短期上升",
-        "chain": "市场缅怀其任期政策，可能引发对当前利率路径的讨论",
-        "watch": "美联储官员是否发表相关评论"
+        "assets": "📉 美元指数 承压  📈 美债 短期利好",
+        "chain": "市场缅怀宽松时代，短期避险情绪推国债，美元走弱",
+        "watch": "美联储官员是否发表纪念性言论影响预期"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "黄金四日来首次上涨！4200美元下方徘徊，能追吗？",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周一（6月22日）欧洲时段，现货黄金部分回吐日内强劲涨幅，交投于4200美元下方，但仍保持四个交易日以来的首次上涨。",
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "黄金四日来首次上涨，在4200美元下方徘徊",
-        "assets": "📈 黄金 短期利好",
-        "chain": "避险买盘（担心经济或地缘风险的资金进入黄金）支撑，但技术面阻力仍强",
-        "watch": "COMEX（纽约商品交易所）黄金期货持仓及美元指数走势"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "California exodus 2.0: How SpaceX, tech IPOs could trigger the next massive wealth flight to Florida - Fox Business",
-      "source": "Fox Business",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SpaceX及科技IPO或引发加州财富大规模外逃至佛罗里达",
-        "assets": "📈 佛州房地产 利好；📉 加州地方债 承压",
-        "chain": "高净值人群迁移（搬离高税州）将重塑区域税收基础与资本流动",
-        "watch": "加州与佛州个人收入税差变化及迁入数据"
+        "what": "黄金四日来首次上涨，徘徊4200美元下方",
+        "assets": "📈 黄金 利好",
+        "chain": "避险需求回升，美债收益率（国债利息）可能下行，利空美元",
+        "watch": "COMEX（纽约商品交易所）黄金持仓变化"
       }
     },
     {
       "rank": 7,
+      "title": "California exodus 2.0: How SpaceX, tech IPOs could trigger the next massive wealth flight to Florida - Fox Business",
+      "source": "Fox Business",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 35
+    },
+    {
+      "rank": 8,
       "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
       "source": "CNBC",
       "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
       "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美债收益率曲线 短期波动",
-        "chain": "市场回顾其通胀管理经验，可能影响对当前抗通胀政策的预期",
-        "watch": "10年期美债收益率日波动幅度"
-      }
+      "score": 33
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "AI监管乱象丛生，Anthropic深陷舆论漩涡",
       "source": "环球市场播报",
       "detail": "安索帕推出其迄今为止功能最强大的公开版人工智能模型后没几天，这款产品就被紧急下架，不再向用户开放使用权限。 美方监管部门接到该模型出现越狱漏洞（可绕过系统内置安...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "AI监管混乱，Anthropic陷入舆论漩涡",
-        "assets": "📉 AI板块 利空；📉 Anthropic估值预期 承压",
-        "chain": "监管不确定性（政策规则不明朗）增加，可能延缓AI商业化落地进度",
-        "watch": "美国国会AI立法听证会日程"
+        "what": "AI监管乱象，Anthropic陷入舆论漩涡",
+        "assets": "📉 AI板块 承压  📉 Anthropic估值 承压",
+        "chain": "监管不确定性增加，投资者可能转向合规成本低的传统科技股",
+        "watch": "美国国会AI法案进展及Anthropic回应"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "莱姆出行拟将优步列为IPO基石投资者",
       "source": "环球市场播报",
       "detail": " 曾是 2010 年代末初创行业标杆企业的电动滑板车与共享单车租赁公司莱姆出行（Lime），此次 IPO 将迎来老合作伙伴优步的资金加持。",
@@ -122,23 +124,9 @@
       "score": 30,
       "insight": {
         "what": "莱姆出行拟将优步列为IPO基石投资者",
-        "assets": "📈 优步股票 利好；📈 共享出行板块 利好",
-        "chain": "基石投资（上市前锁定大额订单）显示行业信心，可能带动同类公司估值",
-        "watch": "莱姆出行IPO定价及优步披露的认购细节"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "霍尔木兹危机引发中东管道建设热潮",
-        "assets": "📈 原油运输管道股 利好；📉 霍尔木兹海峡通行费 承压",
-        "chain": "替代运输路线（绕过海峡的管道）降低地缘风险溢价，但建设周期长",
-        "watch": "中东各国管道项目融资进展及伊朗局势"
+        "assets": "📈 优步股票 利好  📈 共享出行板块 利好",
+        "chain": "优步背书增强市场信心，可能带动其他出行公司估值重估",
+        "watch": "莱姆出行IPO定价及优步投资金额"
       }
     }
   ]
