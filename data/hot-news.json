@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 16:55",
+  "updateTime": "2026-06-22 17:00",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "高盛下调黄金年末目标价至4900，美联储降息预期归零",
-        "assets": "📉 黄金 承压\n📈 美元指数 走强",
-        "chain": "降息预期消失→实际利率（名义利率减通胀）上升→持有黄金机会成本（放弃的利息）增加",
-        "watch": "周五非农就业数据（劳动力市场强弱）"
+        "what": "高盛下调黄金目标价至4900，并预期美联储年内不降息",
+        "assets": "📉 黄金 承压，📈 美元指数 利好",
+        "chain": "降息预期归零（借钱成本难降）→实际利率（债券收益减通胀）走高→金价承压",
+        "watch": "美联储点阵图（利率预测）及非农就业数据"
       }
     },
     {
@@ -23,84 +23,56 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货下跌，投资者权衡伊朗协议进展及通胀数据",
-        "assets": "📉 美股大盘 承压\n📈 原油 利好",
-        "chain": "伊朗协议缓解地缘风险→油价回落→通胀预期降温（物价上涨预期减弱）",
-        "watch": "CPI（消费者物价指数）数据公布"
+        "what": "美股期货下跌，市场权衡伊朗协议进展和通胀数据",
+        "assets": "📉 美股指数 承压，📈 能源股 利好",
+        "chain": "伊朗协议（地缘缓和）→油价下行预期→能源板块承压，但通胀数据（物价涨速）决定加息节奏",
+        "watch": "CPI（消费者物价指数）及伊朗核谈判声明"
       }
     },
     {
       "rank": 3,
-      "title": "Stock Futures Are Falling, Oil Jumps After Iran Closed Strait of Hormuz - Barron's",
-      "source": "Barron's",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "美股期货下跌，伊朗关闭霍尔木兹海峡后油价跳涨",
-        "assets": "📈 原油 暴涨\n📉 美股能源板块 利好\n📉 航空股 利空",
-        "chain": "海峡封锁→全球石油供应中断风险（供给缺口）→航运成本飙升→经济衰退预期升温",
-        "watch": "霍尔木兹海峡通航状态及美国战略储备释放"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推动某旅游股大幅上涨",
-        "assets": "📈 该旅游股 利好\n📈 旅游板块 联动",
-        "chain": "并购协同效应（成本节约+收入增长）→盈利预期上调→估值（市盈率）扩张",
-        "watch": "并购交易完成进度及季度财报"
+        "what": "高盛押注近期并购将推动某旅游股大涨",
+        "assets": "📈 旅游板块 利好，📈 并购标的股 利好",
+        "chain": "并购（公司合并）→协同效应（成本节省+收入增长）→股价重估（市盈率提升）",
+        "watch": "并购完成公告及目标公司季度财报"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "黄金四日来首次上涨！4200美元下方徘徊，能追吗？",
+      "source": "市场资讯",
+      "detail": "文章来源：汇通财经 周一（6月22日）欧洲时段，现货黄金部分回吐日内强劲涨幅，交投于4200美元下方，但仍保持四个交易日以来的首次上涨。",
+      "lang": "zh",
+      "score": 37,
+      "insight": {
+        "what": "黄金四日来首次上涨，仍在4200美元下方徘徊",
+        "assets": "📈 黄金 短线反弹，📉 美元 承压",
+        "chain": "超卖反弹（短期跌太多）→空头回补（做空者买入平仓）→金价企稳",
+        "watch": "COMEX黄金期货持仓（投机仓位变化）及4200美元阻力位"
       }
     },
     {
       "rank": 5,
-      "title": "76-year-old woman killed when a Tesla ‘running on auto-pilot’ crashed into her Texas home - The Independent",
-      "source": "The Independent",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "76岁妇女被自动驾驶特斯拉撞死",
-        "assets": "📉 特斯拉 利空\n📉 自动驾驶概念 承压",
-        "chain": "事故调查→监管审查加强（安全标准提高）→技术推广受阻→行业估值下调",
-        "watch": "NHTSA（美国公路安全管理局）调查结论"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "'There's a new sheriff in town': Wall Street weighs Kevin Warsh's Fed debut - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "华尔街评估凯文·沃什担任美联储主席的影响",
-        "assets": "📉 美债收益率 波动\n📈 银行股 利好",
-        "chain": "沃什偏鹰派（倾向加息）→紧缩预期（借贷成本上升）→金融股受益于利率上升",
-        "watch": "沃什首次政策讲话基调"
-      }
-    },
-    {
-      "rank": 7,
       "title": "英国央行发布英国境内发行方稳定币监管规则",
       "source": "市场资讯",
       "detail": "英格兰银行（英国央行）6月22日发布针对系统重要性稳定币发行商的政策声明及《行为准则》（规则）草案，标志着英国稳定币监管框架建设迈出关键一步。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "英国央行发布稳定币监管规则",
-        "assets": "📈 合规稳定币 利好\n📉 非合规加密资产 利空",
-        "chain": "监管清晰化→机构资金入场（养老金、银行）→但合规成本上升→小玩家出清",
-        "watch": "英国稳定币牌照申请数量"
+        "what": "英国央行发布稳定币监管规则，聚焦境内发行方",
+        "assets": "📈 英镑 利好，📈 合规稳定币 利好",
+        "chain": "监管明确（法律框架）→机构入场（银行、支付商）→加密货币（数字资产）与传统金融融合",
+        "watch": "英国金融行为监管局（FCA）牌照发放数量"
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "近半数央行计划增持黄金！2026年全球央行黄金储备调研藏着哪些亮点？",
       "source": "市场资讯",
       "detail": "一分钟划重点 89%受访央行储备管理者预计，未来12个月内全球央行黄金储备将继续增加。 45%受访央行储备管理者预计，其所在机构将在未来12个月内增加黄金储备（这一比例打破...",
@@ -108,37 +80,65 @@
       "score": 30,
       "insight": {
         "what": "近半数央行计划增持黄金，2026年储备调研显示需求强劲",
-        "assets": "📈 黄金 长期利好\n📉 美元储备地位 削弱",
-        "chain": "央行购金→去美元化（减少对美元依赖）→黄金作为储备资产需求刚性（不可替代性）",
-        "watch": "全球央行季度购金数据"
+        "assets": "📈 黄金 长期利好，📉 美元储备地位 承压",
+        "chain": "央行购金（储备多元化）→金价底部支撑（买盘托底）→美元信用（美国国债需求）受质疑",
+        "watch": "世界黄金协会月度央行购金数据及美国赤字规模"
       }
     },
     {
-      "rank": 9,
-      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "霍尔木兹危机刺激中东管道建设热潮",
-        "assets": "📈 中东油气管道股 利好\n📈 原油运输替代路线 利好",
-        "chain": "海运风险上升→管道运输溢价（安全溢价）→基础设施投资增加→能源贸易路线重塑",
-        "watch": "管道项目融资及建设进度"
-      }
-    },
-    {
-      "rank": 10,
+      "rank": 7,
       "title": "Here are 3 big things to watch in the stock market this coming week",
       "source": "CNBC",
       "detail": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "本周美股市场需关注三大关键事件",
-        "assets": "📉 美股大盘 波动",
-        "chain": "事件驱动型波动（数据、政策、地缘）→隐含波动率（VIX恐慌指数）上升→期权对冲成本增加",
-        "watch": "本周CPI、零售销售及美联储会议纪要"
+        "what": "本周美股三大关注点：通胀数据、财报季、美联储讲话",
+        "assets": "📈 美股指数 波动，📈 成长股 敏感",
+        "chain": "通胀（物价）→加息（利率）→估值（未来现金流折现）→科技股波动",
+        "watch": "周三CPI数据及联储官员发言的鹰鸽程度"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
+      "source": "CNBC",
+      "detail": "The first big announced changes point toward a quiet revolution, with task forces set up to rethink virtually everything done at the Fed.",
+      "lang": "en",
+      "score": 23,
+      "insight": {
+        "what": "Kevin Warsh以“天鹅绒手套下的政权更迭”重塑美联储",
+        "assets": "📉 美债收益率 下行，📈 风险资产 利好",
+        "chain": "新主席风格偏鸽（宽松）→利率预期走低→股市（贴现率下降）及黄金受益",
+        "watch": "Warsh首次FOMC（联邦公开市场委员会）声明措辞"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "大单涌入，1900亿龙头涨停！“坚持了3年，今天卖了……”",
+      "source": "中国证券报-中证网",
+      "detail": " 今日午后，A股三大指数强势上攻。截至收盘，上证指数涨1.78%，深证成指涨2.13%；创业板指涨2.52%，站上4300点，创历史新高；科创综指涨0.48%。",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "大单涌入导致1900亿龙头涨停，投资者称坚持三年后卖出",
+        "assets": "📈 A股龙头 利好，📈 资金流入 信号",
+        "chain": "大单（机构买入）→涨停（封板）→散户跟风（情绪驱动）→短期超买（技术回调风险）",
+        "watch": "龙虎榜机构席位及次日成交量能"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Oil falls as Qatar, Pakistan announce 60-day roadmap for U.S.-Iran deal",
+      "source": "CNBC",
+      "detail": "Oil prices fluctuated on Monday after U.S. President Donald Trump threatened renewed military action against Iran.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "油价下跌因卡塔尔和巴基斯坦宣布美伊协议60天路线图",
+        "assets": "📉 原油 承压，📈 航空股 利好",
+        "chain": "地缘缓和（伊朗增产）→供给预期增加→油价下行→运输成本降低（航空、航运利润改善）",
+        "watch": "伊朗原油出口量及OPEC+（产油国联盟）产量决议"
       }
     }
   ]
