@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 03:46",
+  "updateTime": "2026-06-23 03:52",
   "news": [
     {
       "rank": 1,
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past two full days of trading.",
       "lang": "en",
-      "score": 57
+      "score": 57,
+      "insight": {
+        "what": "SpaceX股价跌15%，连跌三日",
+        "assets": "📉 SpaceX股票 利空；📉 科技成长股 情绪受压",
+        "chain": "IPO热度退潮（新股追捧消失）触发获利了结（卖出盈利头寸），拖累同类高估值标的",
+        "watch": "成交量是否放大；支撑位（技术面关键价格）"
+      }
     },
     {
       "rank": 4,
@@ -73,10 +79,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美国允许伊朗石油销售60天，油价跌破74",
-        "assets": "📉 原油 利空，📈 航空股 利好",
-        "chain": "供应增加预期压低油价，降低通胀压力，利好消费股但利空能源板块",
-        "watch": "伊朗实际出口量和OPEC（石油输出国组织）反应"
+        "what": "分析师警告中国石油需求或无法完全恢复",
+        "assets": "📉 原油 利空，📉 中国能源股 承压",
+        "chain": "需求预期下调抑制油价，拖累产油国货币（如加元），利好航空股成本端",
+        "watch": "中国PMI（采购经理人指数）和原油进口数据"
       }
     },
     {
@@ -101,10 +107,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "分析师警告中国石油需求或无法完全恢复",
-        "assets": "📉 原油 利空，📉 中国能源股 承压",
-        "chain": "需求预期下调抑制油价，拖累产油国货币（如加元），利好航空股成本端",
-        "watch": "中国PMI（采购经理人指数）和原油进口数据"
+        "what": "美国允许伊朗石油销售60天，油价跌破74",
+        "assets": "📉 原油 利空，📈 航空股 利好",
+        "chain": "供应增加预期压低油价，降低通胀压力，利好消费股但利空能源板块",
+        "watch": "伊朗实际出口量和OPEC（石油输出国组织）反应"
       }
     },
     {
