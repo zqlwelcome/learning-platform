@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 15:20",
+  "updateTime": "2026-06-22 15:22",
   "news": [
     {
       "rank": 1,
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Sunday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "美股期指下跌，等待通胀数据及伊朗协议进展",
+        "assets": "📉 美股大盘 承压",
+        "chain": "伊朗协议进展减弱避险需求 → 但通胀读数或触发政策收紧预期 → 双重不确定性令股市承压",
+        "watch": "CPI（消费者物价指数）实际读数及美联储官员讲话"
+      }
     },
     {
       "rank": 3,
@@ -57,7 +63,13 @@
       "source": "The Independent",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 37
+      "score": 37,
+      "insight": {
+        "what": "特斯拉自动驾驶撞死76岁老妇",
+        "assets": "📉 特斯拉股价 利空; 📉 自动驾驶板块 情绪打压",
+        "chain": "事故引发监管收紧担忧（政策风险），增加公司诉讼和赔偿成本，拖累板块信心",
+        "watch": "NHTSA（美国国家公路安全局）调查进展"
+      }
     },
     {
       "rank": 6,
@@ -65,7 +77,13 @@
       "source": "The Motley Fool",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "美联储主席Kevin Warsh在首次讲话中微妙地批评了特朗普总统和前任主席鲍威尔，暗示货币政策独立性可能面临政治压力。",
+        "assets": "美元📉、美股📉、美债📈",
+        "chain": "政治干预预期升温 → 市场对美联储独立性信心下降 → 美元走弱 → 风险资产承压 → 避险资金流入国债",
+        "watch": "后续Warsh讲话措辞、白宫对货币政策的公开评论、美联储利率路径预期变化"
+      }
     },
     {
       "rank": 7,
@@ -73,7 +91,13 @@
       "source": "环球市场播报",
       "detail": " 日经225指数收涨1.5%，报创纪录新高的72353.96点。该指数周一盘中首次突破72，000点大关，因人工智能（AI）投资热情高涨，盖过美伊和平谈判的不确定性。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "日经指数收涨1.5%创历史新高，突破72000点",
+        "assets": "📈 日经指数 利好; 📈 日本出口股 利好",
+        "chain": "日元走弱（货币贬值）推升出口企业盈利，外资流入加速，但需警惕超买回调",
+        "watch": "日本央行政策动向及日元汇率"
+      }
     },
     {
       "rank": 8,
@@ -81,7 +105,13 @@
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "霍尔木兹危机刺激中东管道建设热潮",
+        "assets": "📈 中东管道股 利好; 📈 能源基建 利好",
+        "chain": "地缘风险推高替代运输需求，管道投资增加，长期降低对海峡依赖，但短期资本开支上升",
+        "watch": "新管道项目融资及建设进度"
+      }
     },
     {
       "rank": 9,
@@ -89,7 +119,13 @@
       "source": "CNBC",
       "detail": "FedEx reports earnings, and the Fed's preferred inflation gauge is due out.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "本周美股三大关注点待观察",
+        "assets": "美股指数（标普500、纳指、道指）多头",
+        "chain": "市场情绪驱动波动，科技股领涨或领跌，避险资产（黄金）或承压",
+        "watch": "美联储官员讲话及经济数据发布"
+      }
     },
     {
       "rank": 10,
@@ -97,7 +133,13 @@
       "source": "TechCrunch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "Polymarket被指付费制作虚假押注视频",
+        "assets": "📉 Polymarket平台 利空; 📉 预测市场板块 情绪打压",
+        "chain": "虚假宣传损害平台信誉（信任危机），可能引发监管调查，拖累行业合规成本上升",
+        "watch": "监管机构是否介入及用户流失数据"
+      }
     }
   ]
 }
