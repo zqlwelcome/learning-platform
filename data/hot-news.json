@@ -1,78 +1,36 @@
 {
-  "updateTime": "2026-06-22 17:05",
+  "updateTime": "2026-06-22 17:10",
   "news": [
     {
       "rank": 1,
-      "title": "高盛大砍黄金年末目标价至4900，美联储年内降息预期清零",
-      "source": "21世纪经济报道",
-      "detail": "周五，高盛集团大幅下调年末黄金价格预测，核心逻辑是市场已不再预期美联储2026年启动降息周期。 分析师莉娜・托马斯（Lina Thomas）与达恩・斯特鲁伊文（Daan...",
-      "lang": "zh",
-      "score": 48,
-      "insight": {
-        "what": "高盛下调黄金目标价至4900，美联储降息预期归零",
-        "assets": "📉 黄金 承压；📈 美元 走强",
-        "chain": "降息预期消失→实际利率（名义利率减通胀）走高→无息资产（黄金）吸引力下降；美元走强打压大宗商品",
-        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Stock futures fall as investors weigh Iran deal progress and await key reading on inflation: Live updates",
       "source": "CNBC",
       "detail": "U.S. equity futures were lower on Monday as Wall Street awaited the release of inflation data that is closely watched by the Federal Reserve.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货下跌，市场评估伊朗协议进展及通胀数据",
-        "assets": "📉 美股指数 承压；📈 原油 波动",
-        "chain": "伊朗协议进展→原油供应增加预期→油价下跌；通胀数据影响降息预期→美股估值（股价/盈利比）调整",
-        "watch": "伊朗核谈判声明及美国CPI数据"
+        "what": "伊朗核协议谈判进展，通胀数据待公布，期指下跌",
+        "assets": "📉 美股期指 承压",
+        "chain": "避险情绪升温，资金或流入美债（避险资产）和黄金",
+        "watch": "今晚CPI数据是否超预期"
       }
     },
     {
-      "rank": 3,
-      "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
-      "source": "CNBC",
-      "detail": "The bank this week upgraded the airline to buy from neutral.",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "高盛押注并购将推动某旅游股大涨",
-        "assets": "📈 旅游板块个股 利好",
-        "chain": "并购（公司合并）预期→协同效应（成本节约/收入增长）→盈利上调→股价上涨",
-        "watch": "并购交易完成公告及目标公司财报"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "黄金四日来首次上涨！4200美元下方徘徊，能追吗？",
-      "source": "市场资讯",
-      "detail": "文章来源：汇通财经 周一（6月22日）欧洲时段，现货黄金部分回吐日内强劲涨幅，交投于4200美元下方，但仍保持四个交易日以来的首次上涨。",
-      "lang": "zh",
-      "score": 37,
-      "insight": {
-        "what": "黄金四日来首次上涨，在4200美元下方徘徊",
-        "assets": "📈 黄金 短期反弹",
-        "chain": "超跌（价格跌太多）后技术性买盘→空头回补（做空者平仓）→短暂反弹",
-        "watch": "黄金ETF（交易所交易基金）持仓变化及美元指数"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 2,
       "title": "Micron Must Do This on June 24, or Its Stock Could Crash - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美光6月24日需采取行动，否则股价可能暴跌",
-        "assets": "📉 美光科技 承压",
-        "chain": "关键日期（如财报/产品发布）前不确定性→若不及预期→盈利下调→股价下跌",
-        "watch": "美光财报及存储芯片行业需求数据"
+        "what": "美光6月24日财报若不及预期，股价可能暴跌",
+        "assets": "📉 美光科技 利空",
+        "chain": "半导体行业（芯片股）受拖累，做空期权（看跌合约）成本上升",
+        "watch": "美光营收指引及库存数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 3,
       "title": "76-year-old woman killed when a Tesla ‘running on auto-pilot’ crashed into her Texas home - The Independent",
       "source": "The Independent",
       "detail": "国际财经动态，关注后续发展。",
@@ -80,65 +38,107 @@
       "score": 37,
       "insight": {
         "what": "特斯拉自动驾驶撞死76岁老人",
-        "assets": "📉 特斯拉 承压；📉 自动驾驶板块 利空",
-        "chain": "事故引发监管审查→自动驾驶技术信心下降→相关公司估值（未来现金流折现）下调",
-        "watch": "NHTSA（国家公路交通安全管理局）调查进展及诉讼消息"
+        "assets": "📉 特斯拉 利空",
+        "chain": "自动驾驶监管收紧，利空其他自动驾驶概念股（如Waymo）",
+        "watch": "NHTSA（美国公路安全局）是否发起调查"
       }
     },
     {
-      "rank": 7,
-      "title": "英国央行发布英国境内发行方稳定币监管规则",
-      "source": "市场资讯",
-      "detail": "英格兰银行（英国央行）6月22日发布针对系统重要性稳定币发行商的政策声明及《行为准则》（规则）草案，标志着英国稳定币监管框架建设迈出关键一步。",
-      "lang": "zh",
-      "score": 33,
-      "insight": {
-        "what": "英国央行发布稳定币监管规则",
-        "assets": "📈 合规稳定币 利好；📉 不合规稳定币 承压",
-        "chain": "监管明确→合规成本增加→行业整合；合法化（取得官方认可）吸引机构资金",
-        "watch": "英国央行后续细则及稳定币发行方合规声明"
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 4,
       "title": "Fed Chair Kevin Warsh Just Subtly Threw President Donald Trump and Jerome Powell Under the Bus in His First FOMC Meeting - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "美联储主席暗示批评特朗普和鲍威尔",
-        "assets": "📉 美元 波动；📈 美债 避险",
-        "chain": "政治干预（政府影响央行）担忧→美联储独立性受损→市场对政策信任度下降→风险资产（如股票）承压",
-        "watch": "后续美联储官员讲话及政治反应"
+        "what": "美联储主席沃什首次会议微妙批评特朗普和鲍威尔",
+        "assets": "📉 美元 承压",
+        "chain": "市场预期美联储独立性受损，降息（借钱成本降低）概率上升",
+        "watch": "联邦基金期货（利率预测工具）隐含利率变化"
       }
     },
     {
-      "rank": 9,
-      "title": "近半数央行计划增持黄金！2026年全球央行黄金储备调研藏着哪些亮点？",
-      "source": "市场资讯",
-      "detail": "一分钟划重点 89%受访央行储备管理者预计，未来12个月内全球央行黄金储备将继续增加。 45%受访央行储备管理者预计，其所在机构将在未来12个月内增加黄金储备（这一比例打破...",
+      "rank": 5,
+      "title": "莱姆出行拟将优步列为IPO基石投资者",
+      "source": "环球市场播报",
+      "detail": " 曾是 2010 年代末初创行业标杆企业的电动滑板车与共享单车租赁公司莱姆出行（Lime），此次 IPO 将迎来老合作伙伴优步的资金加持。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "近半数央行计划增持黄金",
-        "assets": "📈 黄金 长期利好",
-        "chain": "央行（各国中央银行）购金→官方储备多元化（减少美元依赖）→黄金需求结构性上升",
-        "watch": "世界黄金协会季度央行购金数据"
+        "what": "莱姆出行拟邀优步作为IPO基石投资者",
+        "assets": "📈 优步 利好",
+        "chain": "优步股价获短期提振，共享出行板块（如Lyft）联动上涨",
+        "watch": "莱姆IPO定价及优步持股比例"
       }
     },
     {
-      "rank": 10,
+      "rank": 6,
       "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "霍尔木兹危机推动中东管道建设热潮",
-        "assets": "📈 中东能源基建股 利好；📉 原油运输 承压",
-        "chain": "地缘风险（战争/封锁）→替代运输路线需求→管道投资增加；绕开霍尔木兹海峡降低原油供应中断风险",
-        "watch": "霍尔木兹海峡安全局势及管道项目合同签署"
+        "what": "霍尔木兹危机引发中东管道建设热潮",
+        "assets": "📈 原油 利好；📈 基建股 利好",
+        "chain": "石油运输成本下降，炼油厂（如瓦莱罗）利润或改善",
+        "watch": "中东管道项目融资进度"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Market News From June 21: Futures Fall, Oil Jumps - Barron's",
+      "source": "Barron's",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "6月21日市场：期指下跌，油价跳涨",
+        "assets": "📉 美股期指 承压；📈 原油 利好",
+        "chain": "通胀担忧加剧，风险资产（股票）遭抛售，能源股（如埃克森美孚）受益",
+        "watch": "WTI（西德克萨斯中质原油）是否突破80美元"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Federal Regulators Want Stablecoins to Keep Working Without ID Checks - Gizmodo",
+      "source": "Gizmodo",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 23,
+      "insight": {
+        "what": "监管机构拟允许稳定币无需身份验证运行",
+        "assets": "📈 加密货币 利好",
+        "chain": "合规成本降低，DeFi（去中心化金融）交易量可能回升",
+        "watch": "美联储对稳定币法案的最终立场"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "'Regime change but in a velvet glove': How Kevin Warsh has set out to remake the Fed",
+      "source": "CNBC",
+      "detail": "The first big announced changes point toward a quiet revolution, with task forces set up to rethink virtually everything done at the Fed.",
+      "lang": "en",
+      "score": 23,
+      "insight": {
+        "what": "沃什以“天鹅绒手套”方式重塑美联储",
+        "assets": "📉 美债 承压",
+        "chain": "市场预期沃什偏鹰（倾向加息），长期利率（10年期国债收益率）上行",
+        "watch": "FOMC（联邦公开市场委员会）点阵图变化"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "What is GLM-5.2? Another open-source Chinese AI model has Silicon Valley's attention. - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "中国开源AI模型GLM-5.2引发硅谷关注",
+        "assets": "📈 中国AI概念股 利好",
+        "chain": "AI算力需求增加，利好英伟达（芯片）和云计算（如阿里云）",
+        "watch": "GLM-5.2在基准测试（如MMLU）中的表现"
       }
     }
   ]
