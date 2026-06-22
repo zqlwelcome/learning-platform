@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-22 10:31",
+  "updateTime": "2026-06-22 10:36",
   "news": [
     {
       "rank": 1,
@@ -9,84 +9,126 @@
       "lang": "en",
       "score": 54,
       "insight": {
-        "what": "油价上涨，美股期指下跌，等待通胀数据",
-        "assets": "📉 美股期指 承压；📈 原油 利好",
-        "chain": "油价涨推高通胀预期（物价持续涨），降息（借钱成本降低）概率下降，科技股估值承压",
-        "watch": "CPI（消费者物价指数）数据是否超预期"
+        "what": "油价上涨拖累美股期货，等待通胀数据",
+        "assets": "📉 美股期货 承压",
+        "chain": "油价涨→通胀预期（物价上涨预期）升温→美联储降息预期（借钱成本降低预期）降温→股市估值压力",
+        "watch": "今晚CPI（消费者物价指数）数据"
       }
     },
     {
       "rank": 2,
+      "title": "Investors see Micron earnings as pulse check of AI rally momentum - KSL News",
+      "source": "KSL News",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "美光财报被视为AI涨势风向标",
+        "assets": "📈 半导体/美光 利好",
+        "chain": "AI需求→存储芯片（数据存储芯片）需求→科技股盈利预期→美股科技板块",
+        "watch": "美光Q2营收指引"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "美联储鹰派信号提振美元，黄金维持区间震荡，等待企稳",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——国际黄金价格周一亚洲交易时段先抑后扬，现货黄金（XAU/USD）回落至4150美元附近后快速反弹至4200美元附近。在此前美国与伊朗签署相关协议推动避险情绪降温...",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "美联储鹰派言论推高美元，黄金区间波动",
+        "assets": "📈 美元 利好；📉 黄金 承压",
+        "chain": "鹰派（偏收紧货币）信号→美元走强→黄金（以美元计价）持有成本上升→震荡等待方向",
+        "watch": "美联储下次会议点阵图（利率预测图）"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Goldman Sachs is betting that a recent merger will drive sharp gains for this travel stock",
       "source": "CNBC",
       "detail": "The bank this week upgraded the airline to buy from neutral.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛押注并购将推动某旅游股大涨",
-        "assets": "📈 旅游股 利好",
-        "chain": "并购预期提升行业集中度（公司合并减少竞争），资金可能轮动（换仓）至旅游板块",
-        "watch": "并购交易是否获监管批准"
+        "what": "高盛押注并购将提振旅游股",
+        "assets": "📈 旅游股（如Booking） 利好",
+        "chain": "并购（企业收购）→协同效应（合并后效率提升）→盈利增长→股价上行",
+        "watch": "该并购交易完成进度"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "Woman killed, driver injured after Tesla crashes through Katy-area home, Harris County Sheriff's Office says - ABC13 Houston",
       "source": "ABC13 Houston",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉撞入民宅致一死一伤",
-        "assets": "📉 特斯拉 情绪利空",
-        "chain": "事故引发自动驾驶安全质疑，可能拖累板块情绪（市场信心），监管风险（政府加强审查）升温",
-        "watch": "NHTSA（美国公路安全局）是否启动调查"
+        "what": "特斯拉自动驾驶事故致1死1伤",
+        "assets": "📉 特斯拉 利空",
+        "chain": "安全事件→监管审查（政府检查）风险→自动驾驶信心受挫→特斯拉股价压力",
+        "watch": "NHTSA（美国公路安全局）是否调查"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "再涨3%！近1年跑赢科创50的“宽基”科技ETF继续新高！光纤概念引爆AI算力，长飞光纤强势涨停",
       "source": "新浪基金",
       "detail": " 6月22日，截至9时40分，科技龙头强者恒强，国内首只*科技龙头先锋——科技ETF华宝（515000）场内涨超3%，日线五连阳再创上市近7年新高！",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "光纤概念股涨停，科技ETF创新高",
-        "assets": "📈 光纤/通信 利好；📈 科技ETF 利好",
-        "chain": "AI算力需求拉动光纤基建（数据传输网络），资金从宽基ETF（广泛指数基金）涌入细分科技",
-        "watch": "光纤龙头订单增速及算力资本开支"
+        "what": "光纤概念引爆AI算力，科技ETF创新高",
+        "assets": "📈 光纤股/长飞光纤 利好；📈 科技ETF 利好",
+        "chain": "AI算力（计算能力）需求→光纤（数据传输介质）升级→相关公司业绩→板块资金流入",
+        "watch": "光纤订单量及AI资本开支"
       }
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "日经225指数首次突破72000点大关，得益于AI热潮",
       "source": "环球市场播报",
       "detail": "日本股市周一首次突破72000点大关，因人工智能（AI）投资热情高涨，盖过美伊和平谈判的不确定性。 日经225指数早盘上涨1.4%，报72，247.21点，此前一度触及72，269...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经225指数突破72000点，受AI热潮推动",
-        "assets": "📈 日股 利好；📈 AI相关股 利好",
-        "chain": "AI需求提振日本半导体及设备商（芯片制造公司），外资流入推高日元资产（以日元计价的投资品）",
-        "watch": "日本半导体设备出口数据"
+        "what": "日经225突破72000点，AI热潮推动",
+        "assets": "📈 日经225指数 利好；📈 日本半导体股 利好",
+        "chain": "AI投资→日本半导体设备（芯片制造设备）出口→日企盈利→外资流入日股",
+        "watch": "日本央行（央行）利率政策变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "AI buildout gives tech investors new reasons to watch bond market",
       "source": "CNBC",
       "detail": "Tech giants are depleting cash reserves and raising debt in their ambitious data center buildouts, a dynamic that's forcing investors to watch interest rates.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI建设使科技投资者关注债券市场",
-        "assets": "📈 科技股 间接利好；📉 债券收益率 承压",
-        "chain": "AI高资本开支（大量投资）需融资，债券利率上升（借钱更贵）会压缩科技股利润",
-        "watch": "科技公司发债规模及利率变化"
+        "what": "AI建设让科技投资者关注债市",
+        "assets": "📈 科技股 利好；📈 长端美债（长期国债） 关注",
+        "chain": "AI基建（基础设施）投入大→企业发债融资（借钱）→债市利率波动→科技股估值（未来现金流折现）调整",
+        "watch": "科技公司债券发行量及利率"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "title": "柔性改革颠覆旧体系，沃什开启美联储货币政策全新变革时代",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——新任美联储主席凯文·沃什（Kevin Warsh）在首场议息会议落地后，正式公布美联储全方位改革方案，以五大专项工作组为核心，对货币政策制定、对外沟通...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "沃什启动美联储货币政策改革",
+        "assets": "📈 美元 利好；📉 美股 承压",
+        "chain": "改革（规则变化）→政策透明度（政策可预测性）提升→市场波动→短期不确定性",
+        "watch": "具体改革细则及时间表"
+      }
+    },
+    {
+      "rank": 10,
       "title": "共享电单车公司Lime据悉拟将优步列为其IPO的基石投资者",
       "source": "环球市场播报",
       "detail": " 据知情人士称，电动自行车和滑板车运营商Lime计划在其首次公开募股（IPO）中将网约车巨头优步（Uber）列为基石投资者。",
@@ -94,51 +136,9 @@
       "score": 30,
       "insight": {
         "what": "Lime拟邀优步作为IPO基石投资者",
-        "assets": "📈 共享电单车 利好；📈 优步 中性偏利好",
-        "chain": "优步背书提升Lime估值（公司价值），共享出行赛道（短途交通）获资金关注",
-        "watch": "IPO定价及优步是否正式确认"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "知情人士：软银投资的机器人制造商Coowa正筹备香港IPO",
-      "source": "环球市场播报",
-      "detail": "知情人士称，中国机器人公司Coowa正筹备在香港上市，加入了机器人和科技公司赴港融资的浪潮。这些知情人士称，这家获软银集团支持的公司在最新一轮融资中筹集了超过6亿美元...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "软银投资的机器人公司Coowa筹备香港IPO",
-        "assets": "📈 机器人 利好；📉 港股 中性",
-        "chain": "机器人赛道受AI赋能（技术加持），港股IPO回暖吸引科技资金",
-        "watch": "Coowa招股书披露估值及营收"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "霍尔木兹危机引发中东管道建设热潮",
-        "assets": "📈 原油 利好；📈 基建股 利好",
-        "chain": "地缘风险推高油价（石油价格），管道投资替代海运（船只运输）降低运输成本",
-        "watch": "霍尔木兹海峡通行量及油价波动"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Top Wall Street analysts like these 3 dividend stocks for solid returns",
-      "source": "CNBC",
-      "detail": "TipRanks discusses three dividend-paying stocks.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "华尔街分析师看好3只高股息股",
-        "assets": "📈 高股息股 利好",
-        "chain": "防御性配置（避险投资）增加，资金从成长股（高增长但风险大）轮动至价值股（低估值稳健股）",
-        "watch": "股息率（分红比例）是否维持高位"
+        "assets": "📈 共享电单车板块 利好；📈 优步 中性",
+        "chain": "基石投资（大额认购）→IPO（首次公开募股）信心增强→共享出行估值提升→板块联动",
+        "watch": "Lime招股书估值及定价"
       }
     }
   ]
