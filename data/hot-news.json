@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 05:45",
+  "updateTime": "2026-06-23 05:50",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 70,
       "insight": {
         "what": "特斯拉Model 3撞入德州房屋致死，遭联邦调查",
-        "assets": "📉 特斯拉股价 利空",
-        "chain": "监管风险升温，可能拖累电动车板块（行业情绪）及自动驾驶概念",
-        "watch": "调查结论及NHTSA（美国公路安全局）后续行动"
+        "assets": "📉 特斯拉股票 利空",
+        "chain": "监管风险上升（SEC（美国证监会）可能介入），电动车板块情绪承压",
+        "watch": "NHTSA（国家公路交通安全管理局）调查结论及召回公告"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past three days of trading.",
       "lang": "en",
-      "score": 62
+      "score": 62,
+      "insight": {
+        "what": "美股三大股指涨跌不一，SpaceX暴跌拖累",
+        "assets": "📉 SpaceX 利空 📊 纳斯达克 偏弱",
+        "chain": "个股风险事件引发板块轮动，资金从高Beta（高波动）股转向防御板块",
+        "watch": "科技股财报季及VIX（恐慌指数）水平"
+      }
     },
     {
       "rank": 3,
@@ -39,41 +45,53 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "RBC策略师称美股能承受美联储两次加息",
-        "assets": "📈 美股大盘 中性偏多",
-        "chain": "市场消化加息预期（借贷成本上升），但若超两次则利空债市和成长股",
-        "watch": "美联储点阵图（利率预测）及通胀数据"
+        "what": "RBC策略师称美股能承受两次加息",
+        "assets": "📈 美股大盘 中性偏利好",
+        "chain": "市场对加息（借钱成本提高）的恐慌缓解，资金或继续流入股市",
+        "watch": "美联储官员讲话及通胀数据（CPI（消费者物价指数））"
       }
     },
     {
       "rank": 5,
-      "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100 - AP News",
+      "title": "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets, higher rates - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📈 美债 短期波动",
-        "chain": "纪念性交易（情绪驱动）可能短暂扰动债市，但不改政策路径",
-        "watch": "市场对美联储独立性的讨论"
+        "what": "Warsh暗示美联储更安静可能导致市场波动和更高利率",
+        "assets": "📉 美国国债 利空 📉 美股 承压",
+        "chain": "政策不确定性增加（预期混乱），风险溢价上升，利率波动率（VIX（恐慌指数））可能走高",
+        "watch": "美联储下次会议声明措辞及点阵图（利率预测）"
       }
     },
     {
       "rank": 6,
-      "title": "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets, higher rates - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 51
-    },
-    {
-      "rank": 7,
       "title": "Tesla faces federal probe after Model 3 slams into Texas home, killing 76-year-old",
       "source": "CNBC",
       "detail": "Harris County authorities said that the driver, Michael Butler, said that he had been using Tesla's partially automated driving systems.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📊 美元/美债 短期无直接影响",
+        "chain": "历史性人物离世可能引发对货币政策（利率调控）的回顾性讨论，但市场反应有限",
+        "watch": "市场情绪指标及美联储政策表态"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Oil Falls After US-Iran Deal Progress, Sanctions Waiver - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "油价下跌因美伊协议进展及制裁豁免",
+        "assets": "📉 原油 利空 📈 航空/运输股 利好",
+        "chain": "供应增加预期压制油价，通胀压力缓解利好消费和降息预期（借钱成本降低）",
+        "watch": "伊朗原油出口量及OPEC（石油输出国组织）产量数据"
+      }
     },
     {
       "rank": 8,
@@ -84,9 +102,9 @@
       "score": 36,
       "insight": {
         "what": "美银、德银预计美联储9月加息",
-        "assets": "📉 美债收益率 上行\n📉 科技股 承压",
-        "chain": "加息预期推高短端利率（短期借贷成本），压制高估值成长股",
-        "watch": "8月非农及CPI数据"
+        "assets": "📉 美股 承压 📈 美元 利好",
+        "chain": "加息预期升温，科技成长股估值受压制（折现率提高），资金回流美元资产",
+        "watch": "非农就业数据及核心PCE（个人消费支出物价指数）"
       }
     },
     {
@@ -98,9 +116,9 @@
       "score": 35,
       "insight": {
         "what": "SpaceX股价暴跌16%，回吐IPO后大部分涨幅",
-        "assets": "📉 SpaceX 利空\n📉 太空概念股 承压",
-        "chain": "高估值成长股（如科技股）面临回调压力，市场风险偏好（投资者情绪）下降",
-        "watch": "SpaceX后续融资及订单数据"
+        "assets": "📉 SpaceX股票 利空 📉 太空概念股 承压",
+        "chain": "高估值科技股抛售蔓延（获利了结），市场风险偏好下降",
+        "watch": "SpaceX后续融资动态及行业板块资金流向"
       }
     },
     {
