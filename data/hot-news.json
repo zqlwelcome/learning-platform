@@ -1,22 +1,8 @@
 {
-  "updateTime": "2026-06-23 00:51",
+  "updateTime": "2026-06-23 00:56",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX stock down again, shaving off some IPO gains; confirms debt offering - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "SpaceX股价下跌并确认债券发行",
-        "assets": "📉 SpaceX 利空",
-        "chain": "市场解读为流动性需求，可能影响科技股风险偏好（风险偏好降低）",
-        "watch": "债券发行定价及认购情况"
-      }
-    },
-    {
-      "rank": 2,
       "title": "RBC策略师称美股能够承受美联储进行两次左右的加息",
       "source": "环球市场播报",
       "detail": "RBC Capital Markets的Lori Calvasina表示，只要美联储的紧缩周期保持适度，美国股市应该能够承受加息。 “只要未来12个月内进行两次左右幅度分别为25个基点的加息...",
@@ -24,37 +10,51 @@
       "score": 51,
       "insight": {
         "what": "RBC策略师称美股能承受两次加息",
-        "assets": "📈 美股 中性偏多",
-        "chain": "若加息落地，科技股估值（市盈率）可能承压，但金融股受益",
-        "watch": "美联储点阵图（利率预测）及通胀数据"
+        "assets": "📈 美股大盘 中性偏空",
+        "chain": "加息（借钱成本提高）压制估值，但盈利韧性支撑，市场可能先跌后稳",
+        "watch": "美联储点阵图（利率预测）变化"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Alan Greenspan, chair of Federal Reserve under 4 U.S. presidents, dies at age 100 - CBS News",
       "source": "CBS News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "前美联储主席格林斯潘去世",
-        "assets": "📉 美元 短期情绪利空",
-        "chain": "历史性人物离世引发货币政策反思，但实际影响有限",
-        "watch": "市场对美联储独立性讨论是否升温"
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📉 美国国债 短期情绪扰动",
+        "chain": "象征性事件，可能引发对美联储独立性的讨论，但实质影响有限",
+        "watch": "市场对央行独立性评论"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets, higher rates - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "Warsh称美联储沉默或导致市场波动和高利率",
-        "assets": "📉 美债 利空",
-        "chain": "政策不确定性增加，投资者要求更高期限溢价（持有长债的额外回报）",
-        "watch": "美联储官员讲话及通胀预期指标"
+        "what": "Warsh警告美联储沉默可能引发高利率和波动",
+        "assets": "📉 美股波动率指数（VIX） 看涨",
+        "chain": "市场预期政策不确定性上升，风险资产（股票、高收益债）承压，避险情绪升温",
+        "watch": "美联储下次会议声明措辞"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "SpaceX makes bond sale days after record IPO, discloses over $100 billion cash pile - CNBC",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 50,
+      "insight": {
+        "what": "SpaceX发行债券并披露超1000亿美元现金",
+        "assets": "📈 SpaceX债券 利好",
+        "chain": "强现金储备降低违约风险，债券需求旺盛，可能拉低同等级科技债收益率（借钱成本）",
+        "watch": "债券定价及认购倍数"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉致命事故引发Autopilot质疑",
-        "assets": "📉 特斯拉 利空",
-        "chain": "监管审查风险上升，可能拖累电动汽车板块情绪",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查进展"
+        "what": "特斯拉致命事故再引Autopilot质疑",
+        "assets": "📉 特斯拉股票 承压",
+        "chain": "监管风险上升，消费者信心受挫，可能拖累自动驾驶板块整体估值",
+        "watch": "NHTSA（美国公路安全局）调查结果"
       }
     },
     {
@@ -79,56 +79,28 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "美股涨跌互现，油价下跌",
-        "assets": "📈 美股 中性 📉 能源股 承压",
-        "chain": "油价下跌缓解通胀预期，利好消费股但压制能源板块",
-        "watch": "WTI原油（美国西得克萨斯中质原油）价格走势"
+        "what": "美股涨跌互现，油价下跌拖累能源板块",
+        "assets": "📈 科技股 利好；📉 能源股 承压",
+        "chain": "油价下跌降低通胀压力（物价上涨放缓），利好利率敏感资产（成长股），但能源行业盈利预期下调",
+        "watch": "WTI原油期货价格走势"
       }
     },
     {
       "rank": 7,
-      "title": "Micron Earnings Will Likely Whip Up AI Frenzy. Why That’s Bad for Markets. - Barron's",
-      "source": "Barron's",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "美光财报或加剧AI狂热但不利市场",
-        "assets": "📈 AI芯片股 利好 📉 整体市场 利空",
-        "chain": "AI交易过度拥挤（资金集中），其他板块资金流出",
-        "watch": "美光营收指引及AI相关收入占比"
-      }
-    },
-    {
-      "rank": 8,
       "title": "SpaceX创下纪录的IPO数日后发行债券，披露现金储备超1000亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX周一宣布启动优先无担保票据发行，并披露其目前持有约1008亿美元的现金储备。 受此消息影响，公司股价下跌约7%。 这家涉足航天与人工智能领域的公司计划将此次募资用...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX披露现金超千亿后发行债券",
-        "assets": "📈 SpaceX 中性偏空",
-        "chain": "现金充裕仍融资表明资本开支（如星舰项目）巨大，可能稀释股权",
-        "watch": "SpaceX二级市场估值变化"
+        "what": "SpaceX发债，现金储备超1000亿美元",
+        "assets": "📈 SpaceX债券 利好",
+        "chain": "强现金储备吸引避险资金，可能推高同类债券价格，降低科技企业融资成本",
+        "watch": "债券评级及发行利率"
       }
     },
     {
-      "rank": 9,
-      "title": "多家外资巨头一致看好A股AI和半导体板块",
-      "source": "21世纪经济报道",
-      "detail": "记者丨易妍君 编辑丨张星 近期，摩根士丹利、景顺、富达国际、贝莱德等外资巨头陆续发布2026年中期投资展望。 多家外资机构一致看好中国AI与半导体产业链的中长期价值。",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "外资巨头看好A股AI和半导体",
-        "assets": "📈 A股AI/半导体 利好",
-        "chain": "外资流入预期推高板块，但需注意中美科技博弈风险",
-        "watch": "北向资金（外资通过沪港通买A股）净流入数据"
-      }
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "Bank of America expects three Fed hikes this year, says inflation is getting 'unambiguously worse'",
       "source": "CNBC",
       "detail": "The bank's economists reversed their position held as recently as last week that the central bank would stay on hold this year.",
@@ -136,9 +108,37 @@
       "score": 38,
       "insight": {
         "what": "美银预计今年加息三次，通胀恶化",
-        "assets": "📉 美股 承压 📈 美元 利好",
-        "chain": "加息预期压制成长股估值，高息环境利好银行股净息差（存贷利差）",
-        "watch": "CPI（消费者物价指数）及非农就业数据"
+        "assets": "📉 美债 承压；📉 美股 利空",
+        "chain": "加息预期升温推高利率（借钱成本），打压股票估值，美元可能走强（资金流入）",
+        "watch": "CPI（消费者物价指数）数据"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "美银、德意志银行预计美联储将于9月加息",
+      "source": "环球市场播报",
+      "detail": " 美国银行全球研究部和德意志银行预计，由于经济韧性以及新任主席凯文·沃什采取更鹰派的立场，美联储将在2026年加息，这与其此前关于利率将保持稳定的预测有所不同。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "美银和德银预计美联储9月加息",
+        "assets": "📉 美股 利空；📈 美元 利好",
+        "chain": "提前加息预期收紧流动性（钱变少），风险资产承压，新兴市场资金外流",
+        "watch": "8月非农就业数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Alan Greenspan, former chairman of the Fed, dies at age 100",
+      "source": "CNBC",
+      "detail": "Alan Greenspan presided over the Federal Reserve for 19 years under four presidents and mastered the art of obfuscation known as Fedspeak.",
+      "lang": "en",
+      "score": 33,
+      "insight": {
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📉 美国国债 短期情绪扰动",
+        "chain": "历史人物离世引发政策回顾，但无即时政策影响，市场波动有限",
+        "watch": "美联储官员评论"
       }
     }
   ]
