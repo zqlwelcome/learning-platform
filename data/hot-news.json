@@ -1,8 +1,22 @@
 {
-  "updateTime": "2026-06-24 05:15",
+  "updateTime": "2026-06-24 05:21",
   "news": [
     {
       "rank": 1,
+      "title": "Stock Market Today: SpaceX Inches Up After Post-IPO Slump; AI Spending Jitters Drags Tech Stocks Lower - WSJ",
+      "source": "WSJ",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 72,
+      "insight": {
+        "what": "OpenAI在IPO前向戛纳营销人推介ChatGPT广告业务",
+        "assets": "📈 OpenAI 估值利好；📈 数字广告股 竞争加剧",
+        "chain": "AI广告变现（赚钱）新路径，可能冲击传统广告巨头，但IPO前急于创收显示盈利压力",
+        "watch": "OpenAI IPO估值，广告收入数据"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100 - AP News",
       "source": "AP News",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -10,79 +24,59 @@
       "score": 51,
       "insight": {
         "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 短期承压；📈 美债 避险需求上升",
-        "chain": "市场可能短暂交易'格林斯潘看跌期权'（央行救市预期），但影响有限",
-        "watch": "美联储官员是否发表纪念性政策评论"
+        "assets": "📉 美元 短期承压；📈 美债 短期利好",
+        "chain": "市场缅怀其通胀（物价上涨）管理，短期避险情绪（求稳）推升美债，美元小幅走弱",
+        "watch": "美联储官员讲话，通胀预期指标"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "An AI price war could steal the thunder from pending Anthropic, OpenAI IPOs",
       "source": "CNBC",
       "detail": "Companies are bemoaning AI's hefty price tag, and some are looking at cheaper models that are nearly as good.",
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "AI价格战可能冲击Anthropic和OpenAI的IPO估值",
-        "assets": "📉 AI概念股 利空；📉 科技IPO市场 情绪降温",
-        "chain": "价格战压缩利润率（赚钱能力），导致一级市场（未上市融资）估值下调，拖累二级市场（已上市股票）AI板块",
-        "watch": "Anthropic/OpenAI最新融资估值变化"
+        "what": "CFTC起诉肯塔基州对预测市场的限制，成首个被查红州",
+        "assets": "📈 预测市场 利好；📉 监管不确定性 增加",
+        "chain": "联邦与州监管冲突（法律打架），可能为预测市场（如Polymarket）合法化铺路，但短期波动",
+        "watch": "法院裁决，其他州监管动向"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash - The Verge",
       "source": "The Verge",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称德州致命车祸中司机手动接管了FSD",
-        "assets": "📉 特斯拉股价 承压；📉 自动驾驶板块 监管风险上升",
-        "chain": "事故责任争议加剧监管审查（SEC调查），可能推迟FSD全量推送，打击市场对自动驾驶商业化预期",
-        "watch": "NTSB（美国交通安全委员会）最终调查结论"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Cerebras falls 8% after chipmaker forecasts shrinking margin in first earnings report since IPO",
-      "source": "CNBC",
-      "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "Cerebras财报后暴跌8%，因毛利率指引收缩",
-        "assets": "📉 Cerebras 利空；📉 AI芯片板块 情绪传染",
-        "chain": "毛利率收缩（赚得少了）反映AI芯片竞争加剧，可能引发市场对英伟达等龙头毛利率保护的担忧",
-        "watch": "Cerebras下季度毛利率实际数据"
+        "what": "特斯拉称司机‘手动接管’导致致命事故，质疑FSD安全性",
+        "assets": "📉 特斯拉 利空；📉 自动驾驶板块 承压",
+        "chain": "FSD（全自动驾驶）安全性再受质疑，可能延迟监管审批（政府许可），影响合作伙伴",
+        "watch": "NHTSA（美国安全机构）调查进展，特斯拉FSD事故率数据"
       }
     },
     {
       "rank": 5,
+      "title": "Cerebras falls 8% after chipmaker forecasts shrinking margin in first earnings report since IPO",
+      "source": "CNBC",
+      "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
+      "lang": "en",
+      "score": 47
+    },
+    {
+      "rank": 6,
       "title": "IPO前夕 OpenAI向戛纳营销从业者推介ChatGPT广告业务",
       "source": "环球市场播报",
       "detail": "OpenAI首次亮相全球顶级广告盛会。本周，该公司面向各大营销人员与广告代理机构推介其刚起步的ChatGPT广告业务以及Codex编程工具...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向戛纳广告主推销ChatGPT广告业务",
-        "assets": "📈 数字广告股 竞争加剧；📈 OpenAI估值 利好",
-        "chain": "AI广告变现（赚钱模式）验证，可能分流谷歌/Meta广告份额，同时强化OpenAI IPO（首次公开募股）叙事",
-        "watch": "OpenAI广告业务营收数据披露"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX在IPO后两周内通过债券发行融资250亿美元",
-        "assets": "📈 SpaceX债券 需求旺盛；📈 太空板块 信心提振",
-        "chain": "IPO后快速发债显示资本结构优化（借钱成本低），可能加速星链等业务扩张，利好太空供应链",
-        "watch": "SpaceX债券评级及后续融资计划"
+        "what": "AI价格战可能削弱Anthropic和OpenAI的IPO前景",
+        "assets": "📉 AI概念股 利空；📉 未上市AI公司 估值承压",
+        "chain": "价格战压缩利润率（赚钱空间），降低IPO估值预期（上市定价），拖累AI产业链",
+        "watch": "OpenAI/Anthropic IPO定价，AI服务定价变化"
       }
     },
     {
@@ -93,10 +87,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX在IPO后不到两周发行250亿美元债券",
-        "assets": "📈 SpaceX估值 支撑；📉 竞争对手 融资压力",
-        "chain": "低成本债券融资（借钱便宜）增强SpaceX现金流，可能挤压波音等对手市场份额",
-        "watch": "SpaceX债券利率及认购倍数"
+        "what": "SpaceX在IPO后不到两周通过债券发行筹资250亿美元",
+        "assets": "📈 SpaceX 债务利好；📉 太空股 资金分流",
+        "chain": "IPO后快速发债（借钱），显示资本需求大，可能稀释（减少）现有股东权益，但巩固资产负债表",
+        "watch": "SpaceX债券利率（借钱成本），后续融资计划"
       }
     },
     {
@@ -105,40 +99,34 @@
       "source": "CNBC",
       "detail": "The commission has now sued nine states in total in its battle to defend what it sees as its exclusive right to regulate event contracts.",
       "lang": "en",
-      "score": 43,
-      "insight": {
-        "what": "CFTC起诉肯塔基州，首次对红州预测市场采取行动",
-        "assets": "📉 预测市场板块 监管利空；📈 合规交易所 相对利好",
-        "chain": "联邦vs州监管冲突升级（法律风险），可能迫使预测市场退出一州，利好Coinbase等持牌平台",
-        "watch": "法院判决是否确立联邦管辖权"
-      }
+      "score": 43
     },
     {
       "rank": 9,
-      "title": "Stock Market Today: SpaceX Inches Up; Nasdaq, S&P 500 Fall as AI Fears Grow - WSJ",
-      "source": "WSJ",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "美股：SpaceX微涨，纳指和标普500因AI担忧下跌",
-        "assets": "📉 纳指 利空；📉 标普500 承压；📈 SpaceX 独立走强",
-        "chain": "AI担忧（价格战/监管）压制科技权重，但SpaceX等硬科技标的因基本面独立获资金轮动（资金转移）",
-        "watch": "纳指关键技术支撑位（如50日均线）"
-      }
-    },
-    {
-      "rank": 10,
       "title": "SpaceX在IPO后不到两周，通过债券发行筹集250亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX在创纪录的首次公开募股（IPO）后不到两周，便通过债券发行筹集了250亿美元。 SpaceX于周一宣布发行优先无担保票据，消息人士称，公司最初计划筹资200亿美元。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX IPO后不到两周即发行250亿美元债券",
-        "assets": "📈 SpaceX 利好；📉 太空股 估值分化",
-        "chain": "快速发债显示管理层对资本需求紧迫（扩张信号），可能加速星舰或星链商用，拉大与同行差距",
-        "watch": "SpaceX星链用户增长数据"
+        "what": "Cerebras首份财报后暴跌8%，因利润率预期收缩",
+        "assets": "📉 Cerebras 利空；📉 芯片股 承压",
+        "chain": "AI芯片公司利润率恶化（赚钱能力下降），引发对AI硬件竞争加剧的担忧",
+        "watch": "Cerebras后续季报，芯片行业毛利率（毛利占收入比）数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Stock Market News, June 23, 2026: The Nasdaq and S&P 500 end sharply lower as tech selloff stretches into a second day; Micron results loom - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "AI支出担忧导致科技股连续两日大跌，纳指标普重挫",
+        "assets": "📉 纳斯达克指数 利空；📉 科技股 利空",
+        "chain": "科技股抛售（卖出股票）可能引发成长股（高估值股票）估值收缩，半导体股承压",
+        "watch": "美光财报指引，AI资本开支（投资）数据"
       }
     }
   ]
