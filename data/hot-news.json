@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 02:41",
+  "updateTime": "2026-06-24 02:45",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 51,
       "insight": {
         "what": "美联储前主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 短期情绪利空",
-        "chain": "市场或短暂关注美联储历史政策，但影响有限，需防波动率（价格变动幅度）上升",
-        "watch": "美元指数及美债收益率是否异常波动"
+        "assets": "📉 美元指数 情绪利空",
+        "chain": "市场或短暂避险（买美债/黄金），但影响有限，因其早已淡出",
+        "watch": "美元/美债短期波动"
       }
     },
     {
@@ -25,8 +25,8 @@
       "insight": {
         "what": "OpenAI向营销从业者推介ChatGPT广告业务",
         "assets": "📈 AI广告概念股 利好",
-        "chain": "AI商业化加速，利好SaaS（软件即服务）及数字广告平台，传统广告公司承压",
-        "watch": "OpenAI广告收入数据及竞品跟进"
+        "chain": "AI商业化加速（变现逻辑），冲击传统广告平台（如Meta/Google）",
+        "watch": "OpenAI广告收入数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉承认FSD在致命事故中启用，归咎驾驶员",
-        "assets": "📉 特斯拉 利空",
-        "chain": "自动驾驶监管风险升温，或拖累整个自动驾驶板块，利多传统车企",
-        "watch": "NHTSA（美国公路安全局）是否发起调查"
+        "what": "特斯拉承认FSD（全自动驾驶）在致命事故中启用，归咎驾驶员",
+        "assets": "📉 特斯拉股价 承压",
+        "chain": "监管审查风险上升（FSD审批可能推迟），利空自动驾驶板块",
+        "watch": "NHTSA（美国公路安全局）调查结论"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美债 利好",
-        "chain": "降低加息预期，利多风险资产（股票/商品），美元或承压",
-        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
+        "what": "瑞银预计美联储短期内不会加息",
+        "assets": "📈 美债 利好，📉 美元 承压",
+        "chain": "降息预期（借钱成本降低预期）推高风险资产（科技股/黄金）",
+        "watch": "美联储官员讲话及CPI数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内可绕过网络安全系统",
+        "what": "五眼联盟警告AI数月内将突破网络安全系统",
         "assets": "📈 网络安全股 利好",
-        "chain": "AI安全需求激增，利好网安龙头，利空无防护的AI应用",
-        "watch": "各国网络安全政策及AI安全支出数据"
+        "chain": "AI攻击威胁升级，企业安全支出增加（如CrowdStrike/Palo Alto）",
+        "watch": "网络安全ETF（交易所交易基金）资金流向"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "AI政治行动委员会投入2000万美元影响纽约初选",
-        "assets": "📈 AI监管概念股 利好",
-        "chain": "AI监管立法预期升温，利好合规科技，利空无监管的AI公司",
-        "watch": "纽约初选结果及后续立法进程"
+        "what": "支持AI的PAC（政治行动委员会）向纽约民主党初选注资2000万",
+        "assets": "📈 AI监管相关股 不确定性",
+        "chain": "政治游说加剧，监管政策或延迟（利好AI公司短期），但长期风险未消",
+        "watch": "纽约初选结果及后续法案"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加息担忧冲击贵金属市场，金银价格大跌",
-        "assets": "📉 黄金、白银 利空",
-        "chain": "实际利率（名义利率减通胀）上升，利空无息资产，美元走强强化压力",
-        "watch": "美联储利率决议及实际利率走势"
+        "what": "加息担忧冲击贵金属，黄金白银大幅下挫",
+        "assets": "📉 黄金 承压，📉 白银 承压",
+        "chain": "实际利率（名义利率减通胀）上升预期，压制无息资产（如贵金属）",
+        "watch": "美联储利率决议及黄金ETF持仓变化"
       }
     },
     {
@@ -108,27 +108,13 @@
       "score": 28,
       "insight": {
         "what": "美元指数创11月新高，交易员上调加息押注",
-        "assets": "📈 美元指数 利好，📉 新兴市场货币 承压",
-        "chain": "强美元利空新兴市场资产（股市/债市），大宗商品（以美元计价）承压",
-        "watch": "美联储点阵图（利率预测）及非农就业数据"
+        "assets": "📈 美元 利好，📉 新兴市场货币 承压",
+        "chain": "美元走强压制大宗商品（原油/铜），新兴市场资金外流（资本外逃）",
+        "watch": "非农就业及PCE（个人消费支出物价指数）"
       }
     },
     {
       "rank": 9,
-      "title": "MU Stock Is Down 10% — But BofA Just Raised Its Price Target By 58% - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美光科技股价跌10%，但美银上调目标价58%",
-        "assets": "📉 美光 短期利空，📈 半导体 长期利好",
-        "chain": "短期盈利担忧vs长期AI存储需求，利好存储芯片产业链",
-        "watch": "美光财报及AI芯片需求指引"
-      }
-    },
-    {
-      "rank": 10,
       "title": "Meta is building a prediction markets app. These stocks are falling in response",
       "source": "CNBC",
       "detail": "The report said that CEO Mark Zuckerberg directed staff to develop a prediction markets platform, internally known as \"Arena.\"",
@@ -136,9 +122,23 @@
       "score": 27,
       "insight": {
         "what": "Meta开发预测市场应用，相关股票下跌",
-        "assets": "📉 预测市场概念股（如Polymarket）利空",
-        "chain": "Meta入局加剧竞争，利空现有平台，利好区块链（技术底层）",
+        "assets": "📉 预测市场概念股 承压",
+        "chain": "Meta入场加剧竞争，小型平台（如Polymarket）用户流失风险",
         "watch": "Meta应用上线时间及用户增长"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "聚焦降低词元成本的AI记忆初创企业完成9800万美元融资",
+      "source": "环球市场播报",
+      "detail": "核心要点 AI 记忆初创企业 Engram（记忆印迹）完成近 1 亿美元融资，旨在提升模型运行效率、遏制暴涨的 AI 使用成本。 该公司称，旗下模型最高可节省 99% 的词元用量...",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "AI记忆初创获9800万美元融资，聚焦降低词元成本",
+        "assets": "📈 AI基础设施股 利好",
+        "chain": "降低大模型推理成本（词元即Token），加速应用落地（利好英伟达/存储）",
+        "watch": "公司客户及技术发布会"
       }
     }
   ]
