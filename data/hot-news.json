@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "Cerebras财报营收增92%，但预警利润率下滑",
-        "assets": "📉 Cerebras股票 利空；📉 AI芯片板块 承压",
-        "chain": "利润率收缩信号引发对AI芯片定价能力担忧，可能拖累同类高估值标的（如英伟达）",
-        "watch": "Cerebras下季毛利率指引及客户订单变化"
+        "what": "Cerebras财报显示营收增长92%",
+        "assets": "📈 芯片股 利好",
+        "chain": "提振AI芯片需求预期，利好英伟达（GPU巨头）等同类股",
+        "watch": "Cerebras毛利率趋势及订单数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称德州致命车祸中驾驶员手动干预自动驾驶",
-        "assets": "📉 特斯拉股票 利空；📉 自动驾驶概念股 承压",
-        "chain": "事故责任争议加剧监管不确定性，可能延缓FSD（全自动驾驶）审批进程",
-        "watch": "NHTSA（美国公路安全管理局）是否启动调查"
+        "what": "特斯拉称司机手动干预致死车祸",
+        "assets": "📉 特斯拉股价 承压",
+        "chain": "加剧自动驾驶监管风险，利空自动驾驶概念股（如Waymo）",
+        "watch": "NHTSA（美国公路安全局）调查结论"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "联邦快递财报超预期，货运业务表现强劲",
-        "assets": "📈 FedEx股票 利好；📈 物流板块 利好；📈 道琼斯指数 支撑",
-        "chain": "货运需求回暖暗示经济韧性，可能缓解衰退担忧（经济降温风险），利好周期股",
-        "watch": "美国ISM制造业PMI（采购经理人指数）及零售数据"
+        "what": "Cerebras预警毛利率下滑，股价跌8%",
+        "assets": "📉 芯片股 承压",
+        "chain": "反映AI芯片竞争激烈，利润压力向整个半导体板块传导",
+        "watch": "Cerebras下季度毛利率指引"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO后不到两周发债250亿美元",
+        "assets": "📈 太空概念股 利好；📉 国债收益率 承压",
+        "chain": "大规模发债信号显示融资需求强劲，但可能稀释股权价值，同时抽走市场流动性",
+        "watch": "债券评级及认购倍数（需求强弱指标）"
+      }
     },
     {
       "rank": 5,
@@ -57,7 +63,13 @@
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX发债250亿美元",
+        "assets": "📈 债市 资金流入",
+        "chain": "高评级债供给增加，可能推高企业债收益率（借钱成本）",
+        "watch": "SpaceX债券评级及认购倍数"
+      }
     },
     {
       "rank": 6,
@@ -67,10 +79,10 @@
       "lang": "en",
       "score": 43,
       "insight": {
-        "what": "瑞银预计美联储短期内不会加息",
-        "assets": "📈 美股成长股 利好；📉 美元 承压；📈 美债 反弹",
-        "chain": "降息预期（借钱成本降低）推迟提振风险偏好，资金从避险资产回流股市",
-        "watch": "美国CPI（消费者物价指数）及非农数据"
+        "what": "CFTC起诉肯塔基州限制预测市场",
+        "assets": "📈 预测市场 利好",
+        "chain": "联邦监管支持创新，可能推动Polymarket（预测平台）等资产",
+        "watch": "其他州类似诉讼结果"
       }
     },
     {
@@ -79,7 +91,13 @@
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "韩国股市暴跌但摩根士丹利不认为崩盘",
+        "assets": "📉 韩国KOSPI 承压",
+        "chain": "短期恐慌抛售，但低估值可能吸引外资抄底",
+        "watch": "韩国半导体出口数据及外资流向"
+      }
     },
     {
       "rank": 8,
@@ -89,10 +107,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX在IPO后不到两周通过债券融资250亿美元",
-        "assets": "📈 SpaceX债券 利好；📉 太空概念股 资金分流",
-        "chain": "巨额债务融资暗示高资本开支需求，可能挤压其他太空初创企业融资渠道",
-        "watch": "SpaceX估值变化及后续IPO定价"
+        "what": "SpaceX发债250亿美元",
+        "assets": "📈 债市 资金流入",
+        "chain": "高评级债供给增加，可能推高企业债收益率",
+        "watch": "SpaceX债券评级及认购倍数"
       }
     },
     {
@@ -103,10 +121,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "CFTC起诉肯塔基州限制预测市场，首例红州监管冲突",
-        "assets": "📈 预测市场代币（如Polymarket） 利好；📉 监管不确定性 承压",
-        "chain": "联邦vs州监管权博弈升级，可能加速全美统一加密/预测市场法规出台",
-        "watch": "法院判决及SEC（美国证监会）是否跟进"
+        "what": "瑞银称美联储短期不会加息",
+        "assets": "📈 美债 利好",
+        "chain": "降息预期（借钱成本降低）升温，利好科技股和贵金属",
+        "watch": "美联储官员讲话及CPI（通胀数据）"
       }
     },
     {
@@ -117,10 +135,11 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "摩根士丹利称韩国股市暴跌非结构性崩溃",
-        "assets": "📉 韩国KOSPI指数 短期承压；📈 韩元 贬值压力",
-        "chain": "外资流出触发恐慌性抛售，但机构认为估值已到支撑位，可能触发技术性反弹",
-        "watch": "韩国央行是否干预汇率及外资流向"
+        "rank": 10,
+        "what": "FedEx货运业务强劲，盈利超预期",
+        "assets": "📈 FedEx 利好",
+        "chain": "提振运输板块，暗示经济需求强",
+        "watch": "其他运输公司财报及经济数据"
       }
     }
   ]
