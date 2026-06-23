@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 20:36",
+  "updateTime": "2026-06-23 20:40",
   "news": [
     {
       "rank": 1,
@@ -9,56 +9,70 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
-        "assets": "📉 原油 承压\n📈 伊朗相关企业 利好",
-        "chain": "原油供给预期增加，油价下行；豁免或缓解中东地缘溢价（地缘政治风险带来的价格升水）",
-        "watch": "伊朗原油出口量及OPEC+（石油输出国组织及盟友）后续产量决策"
+        "what": "美国放松对伊朗石油制裁，解冻数十亿美元收入",
+        "assets": "📉 原油 承压",
+        "chain": "伊朗石油增产预期压低油价，OPEC+（产油国联盟）减产压力增加，利空能源股",
+        "watch": "伊朗实际出口量及OPEC+后续会议"
       }
     },
     {
       "rank": 2,
+      "title": "突发！新赛股份涉嫌信披违规被证监会立案，符合条件投资者可登记索赔",
+      "source": "市场资讯",
+      "detail": "根据最新消息，新疆赛里木现代农业股份有限公司（以下简称“新赛股份”）因涉嫌信披违法违规被证监会立案，该事件或与此前会计差错更正有关。",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "新赛股份因信披违规被证监会立案调查",
+        "assets": "📉 A股新赛股份 利空",
+        "chain": "信披违规引发退市风险，拖累同板块及小盘股情绪，投资者索赔增加抛压",
+        "watch": "证监会调查结果及公司回应"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Stock market today: Nasdaq, S&P 500 futures dive as global chip sell-off spurs AI doubts - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "全球芯片股抛售引发AI疑虑，纳指期货大跌",
+        "assets": "📉 美股科技股/半导体 利空",
+        "chain": "芯片需求放缓预期传导至AI产业链（如云计算、数据中心），避险资金流入债市",
+        "watch": "英伟达等龙头财报及费城半导体指数"
+      }
+    },
+    {
+      "rank": 4,
       "title": "BTC analysis: SpaceX’s $600 billion plunge erased nearly half of bitcoin’s market cap in three days - CoinDesk",
       "source": "CoinDesk",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "SpaceX资产暴跌6000亿，比特币市值三天蒸发近半",
-        "assets": "📉 BTC 利空\n📉 加密货币板块 承压",
-        "chain": "风险资产联动抛售，加密货币波动率飙升（价格波动幅度加大），杠杆多头面临清算（强制平仓）",
-        "watch": "比特币期货持仓量及稳定币资金流向"
+        "what": "SpaceX暴跌6000亿致比特币市值三天腰斩",
+        "assets": "📉 比特币 利空",
+        "chain": "机构持仓（如SpaceX）抛售引发流动性恐慌，加密市场杠杆爆仓，拖累Coinbase等",
+        "watch": "比特币期货持仓及交易所提币数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
       "source": "NBC News",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉自动驾驶撞入德州房屋致1死",
-        "assets": "📉 特斯拉 利空\n📉 自动驾驶板块 承压",
-        "chain": "监管审查风险上升（政策收紧可能性），消费者信心受损，短期拖累股价",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查进展及后续事故报告"
+        "what": "特斯拉自动驾驶撞入德州房屋致1人死亡",
+        "assets": "📉 特斯拉 利空",
+        "chain": "自动驾驶安全担忧升温，监管收紧预期打压特斯拉及自动驾驶板块（如Waymo）",
+        "watch": "NHTSA（美国公路安全局）调查进展"
       }
     },
     {
-      "rank": 4,
-      "title": "港股硬科技暴跌，危还是机？规模最大港股通信息技术ETF华宝（159131）重挫5.13% ，资金狂扫1亿份！",
-      "source": "新浪基金",
-      "detail": "黑色星期二（6月23日），或受芯片股近期大涨后投资者获利了结影响，韩国股市KOSPI指数收跌9.99%，创3月4日以来最大单日跌幅，一度触发交易限制机制，亚太市场跟跌。",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "港股硬科技ETF暴跌5%，资金却逆势买入1亿份",
-        "assets": "📉 港股硬科技 承压\n📈 港股通科技板块 潜在支撑",
-        "chain": "恐慌抛售与抄底资金博弈，短期波动剧烈；资金流入暗示机构逢低建仓（低价买入）",
-        "watch": "恒生科技指数技术位（关键支撑/阻力位）及南向资金持续流入量"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
@@ -66,65 +80,51 @@
       "score": 30,
       "insight": {
         "what": "特朗普威胁起诉ABC关于其言论的报道",
-        "assets": "📉 媒体板块 承压\n📉 特朗普相关概念股 不确定",
-        "chain": "法律风险升级，媒体行业面临言论限制担忧，市场避险情绪升温",
-        "watch": "ABC母公司Disney股价反应及诉讼进展"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Micron’s Stock Keeps Hitting New Highs. Here’s How Much Traders Expect It Could Move After Earnings - Investopedia",
-      "source": "Investopedia",
-      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "美光股价创新高，交易员押注财报后大幅波动",
-        "assets": "📈 美光 利好预期\n📈 半导体板块 联动",
-        "chain": "财报预期推升股价，隐含波动率（期权定价中的预期波动）暗示双向大波动，关注业绩指引",
-        "watch": "美光财报营收/毛利率及下季度指引"
+        "assets": "📉 媒体类股 承压",
+        "chain": "政治风险加剧媒体法律成本，广告收入下滑预期，利空新闻集团等",
+        "watch": "ABC母公司财报及诉讼进展"
       }
     },
     {
       "rank": 7,
+      "title": "Alphabet Stock Set to Fall for Second Day as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "谷歌DeepMind诺奖得主跳槽Anthropic，股价两连跌",
+        "assets": "📉 谷歌 利空；📈 人工智能初创企业 利好",
+        "chain": "人才流失削弱谷歌AI竞争力，Anthropic获顶级人才提升估值，AI竞赛加剧",
+        "watch": "谷歌AI产品发布及Anthropic融资动态"
+      }
+    },
+    {
+      "rank": 8,
       "title": "Here are Tuesday's biggest analyst calls: SpaceX, Micron, Nvidia, Tesla, IBM, Broadcom, Target, Netflix & more",
       "source": "CNBC",
       "detail": "Here are Tuesday's biggest calls on Wall Street.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "分析师集中上调SpaceX、美光、英伟达等评级",
-        "assets": "📈 科技股 利好\n📈 半导体 利好",
-        "chain": "卖方情绪（券商研究部门观点）转为乐观，资金轮动至成长股，带动风险偏好",
-        "watch": "个股期权隐含波动率及机构持仓变化"
+        "what": "分析师集中调整SpaceX、美光、英伟达等评级",
+        "assets": "📈 英伟达/美光 利好；📉 特斯拉/Netflix 承压",
+        "chain": "评级变动驱动资金轮动（如从消费转向半导体），短期波动加大",
+        "watch": "实际目标价变化及成交量异动"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "A $1.8 Million 401(k) and Social Security Coming Up? Drain It Before 70 to Dodge the IRMAA Cliff - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "建议提前取出401(k)以规避社保税悬崖",
-        "assets": "📉 退休金管理板块 承压\n📈 个人理财服务 利好",
-        "chain": "政策预期扰动，投资者可能提前赎回，影响养老金基金流动性",
-        "watch": "IRA（个人退休账户）及401(k)资金流出数据"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "SpaceX Just Launched Its First Bond Sale. The Stock Market Doesn’t Like It. - Barron's",
-      "source": "Barron's",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "SpaceX首次发债，股市反应负面",
-        "assets": "📉 太空探索板块 利空\n📉 高收益债 承压",
-        "chain": "发债稀释现有股东权益（每股价值降低），市场担忧SpaceX估值过高，压制板块情绪",
-        "watch": "债券收益率及SpaceX估值调整"
+        "what": "建议退休前提取401(k)以规避医保附加费",
+        "assets": "📉 美股消费/医疗股 承压",
+        "chain": "提前提取减少长期资金池（如401k），利空消费，但短期推高理财顾问需求",
+        "watch": "实际提取率及IRMAA（医保保费附加）调整政策"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "IBM、高通、甲骨文等盘前异动",
-        "assets": "📈 IBM 利好\n📈 高通 利好\n📈 甲骨文 利好",
-        "chain": "个股财报或消息驱动，资金轮动至大型科技，带动指数期货（股指未来价格合约）波动",
-        "watch": "盘前成交量及财报/新闻催化剂确认"
+        "what": "盘前IBM、高通、甲骨文等个股异动",
+        "assets": "📈 IBM/高通 利好；📉 甲骨文/Energy Fuels 承压",
+        "chain": "财报或订单预期驱动个股分化，资金从能源转向科技，关注后续财报验证",
+        "watch": "各公司财报及订单指引"
       }
     }
   ]
