@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 00:46",
+  "updateTime": "2026-06-24 00:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "AI股遭抛售，韩国市场暴跌10%",
-        "assets": "📉 美股AI板块 利空；📉 韩国KOSPI 承压",
-        "chain": "AI泡沫担忧引发避险情绪，资金涌向国债（避险资产），科技股估值面临重估",
-        "watch": "AI龙头财报及美联储利率决议"
+        "what": "AI板块遭抛售，韩国股市暴跌10%",
+        "assets": "📉 全球AI科技股 承压；📉 韩国KOSPI 利空",
+        "chain": "AI泡沫担忧蔓延，资金避险（逃向安全资产），或触发程序化抛售（算法自动止损）",
+        "watch": "今晚美股AI龙头（如英伟达）是否破位"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国豁免伊朗石油制裁，解锁数十亿美元收入",
-        "assets": "📈 原油 利空；📈 伊朗经济 利好",
-        "chain": "伊朗石油供应增加压低油价（黑金价格），OPEC+减产压力加大，通胀预期降温",
-        "watch": "伊朗实际出口量及OPEC+反应"
+        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
+        "assets": "📈 原油 承压；📉 地缘风险溢价 下降",
+        "chain": "伊朗增产预期压低油价（供应增加），缓解通胀（物价上涨压力），但利空能源股",
+        "watch": "OPEC（石油输出国组织）是否调整产量配额"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股AI深夜暴跌，高盛警告风险",
-        "assets": "📉 美股科技股 利空；📉 半导体ETF 承压",
-        "chain": "AI估值过高触发获利了结，科技板块抛售蔓延至纳指（科技股指），资金轮动至防御板块",
-        "watch": "高盛后续报告及科技股资金流向"
+        "what": "高盛警告AI泡沫，美股AI深夜暴跌",
+        "assets": "📉 美股AI板块 利空；📈 避险资产（美债/黄金）利好",
+        "chain": "高盛看空触发恐慌性抛售（恐慌指数VIX飙升），资金轮动至防御性板块（公用事业/医疗）",
+        "watch": "高盛是否下调AI行业评级"
       }
     },
     {
@@ -51,42 +51,28 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向戛纳营销从业者推介ChatGPT广告业务",
-        "assets": "📈 AI广告概念 利好；📉 传统广告股 承压",
-        "chain": "AI广告效率提升冲击传统广告代理（中间商），数字广告市场格局重塑，谷歌等面临竞争",
-        "watch": "OpenAI广告收入及客户签约情况"
+        "what": "OpenAI向戛纳营销人员推介ChatGPT广告业务",
+        "assets": "📈 AI广告概念股 利好；📉 传统广告公司 承压",
+        "chain": "AI广告商业化加速，或将颠覆广告定价模式（按效果付费），利好Meta、谷歌等平台",
+        "watch": "OpenAI广告产品定价及客户签约量"
       }
     },
     {
       "rank": 5,
-      "title": "Stocks drop as Fed rate bets hit tech royalty; dollar gains - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "美联储利率预期打击科技股，美元走强",
-        "assets": "📉 美股科技股 利空；📈 美元 利好",
-        "chain": "利率维持高位压制高估值科技股（久期敏感），美元升值（避险货币）施压新兴市场",
-        "watch": "美联储点阵图及CPI数据"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Tesla admits FSD was on in fatal Texas crash, blames driver for ‘overriding’ it - Electrek",
       "source": "Electrek",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉承认FSD在致命车祸中开启，归咎司机",
-        "assets": "📉 特斯拉 利空；📉 自动驾驶板块 承压",
-        "chain": "FSD安全性质疑打压自动驾驶商业化预期，监管审查风险上升，保险公司可能提高保费",
-        "watch": "NHTSA调查结果及FSD事故率数据"
+        "what": "特斯拉承认FSD（全自动驾驶）在致命车祸中开启，归咎司机",
+        "assets": "📉 特斯拉股价 利空；📈 自动驾驶监管风险 上升",
+        "chain": "事故引发监管收紧预期（更严测试要求），利空自动驾驶产业链（激光雷达/芯片）",
+        "watch": "NHTSA（美国公路安全管理局）是否发起正式调查"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "瑞银认为美联储短期内不会加息",
       "source": "环球市场播报",
       "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
@@ -94,51 +80,65 @@
       "score": 36,
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美股 利好；📈 美债 利好",
-        "chain": "不加息预期降低借贷成本（资金价格），风险偏好回升，黄金（无息资产）吸引力减弱",
-        "watch": "美联储官员讲话及瑞银后续报告"
+        "assets": "📈 美债 利好；📈 科技成长股 利好",
+        "chain": "不加息预期降低借贷成本（融资成本下降），支撑高估值资产，但通胀若反弹则信号反转",
+        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 8,
-      "title": "Alan Greenspan, Fed Chairman Through Prosperity and Crisis, Dies at 100 - The New York Times",
-      "source": "The New York Times",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📈 美元 短期波动；📈 美债 短期波动",
-        "chain": "市场可能回顾其政策遗产（如低利率时代），但实际影响有限，象征性纪念交易",
-        "watch": "市场对格林斯潘政策的评论反应"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
       "source": "CBS News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "AI系统数月内将突破网络安全防线",
-        "assets": "📈 网络安全股 利好；📉 AI监管风险 利空",
-        "chain": "AI攻击升级迫使企业增加安全预算（防御支出），监管收紧可能限制AI应用，科技股承压",
-        "watch": "网络安全公司订单及AI监管法案进展"
+        "what": "五眼联盟警告AI数月内将攻破网络安全系统",
+        "assets": "📈 网络安全股 利好；📉 AI应用股 承压",
+        "chain": "AI攻击威胁推动安全支出（企业加大预算），但监管加码可能抑制AI技术应用速度",
+        "watch": "美国是否会出台AI安全法案"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "AI PACs pour $20 million into New York Democratic primary in AI regulation battle",
       "source": "CNBC",
       "detail": "Companies are spending big to shape AI policies at the federal level. And the Manhattan House Democratic primary will be a test of where voters stand.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "AI政治行动委员会向纽约民主党初选投入2000万美元",
-        "assets": "📈 AI监管概念 利好；📉 科技股 承压",
-        "chain": "AI监管博弈升温，政治献金影响政策走向，科技巨头面临更多合规成本（法律支出）",
-        "watch": "初选结果及AI监管法案投票"
+        "what": "AI政治行动委员会向纽约民主党初选注资2000万美元",
+        "assets": "📈 AI监管概念股 利好；📉 无监管AI企业 承压",
+        "chain": "政治资金流入预示AI监管立法加速（合规成本上升），利好合规技术公司（如Palantir）",
+        "watch": "纽约初选结果及候选人AI政策立场"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "加息担忧冲击贵金属市场，黄金、白银价格大幅下挫",
+      "source": "环球市场播报",
+      "detail": "核心要点 受加息恐慌引发市场避险情绪降温影响，全球科技股走低，黄金、白银价格周二同步下行。 自 2 月 28 日美伊冲突爆发以来，黄金作为动荡时期 “避险资产”...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "加息担忧导致黄金、白银价格大幅下挫",
+        "assets": "📉 黄金 利空；📉 白银 利空；📈 美元 利好",
+        "chain": "实际利率（名义利率减通胀）上升压制贵金属（无息资产），资金流向美元及美债",
+        "watch": "今晚美国10年期国债收益率是否突破4.5%"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
+      "source": "CNBC",
+      "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "特朗普威胁起诉ABC关于其行为的报道",
+        "assets": "📉 媒体股（ABC母公司迪士尼） 承压；📈 特朗普关联公司 利好",
+        "chain": "法律风险引发媒体股抛售（诉讼成本担忧），但政治不确定性或利好避险资产（黄金）",
+        "watch": "ABC是否撤回报道及特朗普支持率变化"
       }
     }
   ]
