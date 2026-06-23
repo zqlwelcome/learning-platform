@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 22:41",
+  "updateTime": "2026-06-23 22:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
-        "assets": "📉 原油 承压，📈 伊朗相关资产 利好",
-        "chain": "原油供给增加预期打压油价（能源成本下降），利空能源股但利好炼油厂和消费者",
-        "watch": "伊朗实际石油出口量及OPEC+反应"
+        "what": "美国解除伊朗石油制裁豁免，释放数十亿美元",
+        "assets": "📉 原油 承压；📉 能源股 利空",
+        "chain": "伊朗出口增加→原油供给上升→油价下跌→能源板块盈利预期下调",
+        "watch": "伊朗实际石油出口量及OPEC+（石油输出国组织及盟友）反应"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "美国监管机构调查特斯拉撞车致死事件",
-        "assets": "📉 特斯拉 承压",
-        "chain": "自动驾驶安全争议再起，可能拖累自动驾驶板块（如Waymo、Uber），监管收紧预期升温",
-        "watch": "NHTSA调查结论及特斯拉FSD（全自动驾驶）更新进度"
+        "what": "特斯拉撞入德州民宅致女性死亡，美监管机构调查",
+        "assets": "📉 特斯拉 利空；📉 电动汽车板块 承压",
+        "chain": "监管调查可能触发召回或罚款→特斯拉股价承压→拖累电动车行业情绪",
+        "watch": "调查结果及特斯拉自动驾驶系统更新"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内可绕过网络安全系统",
-        "assets": "📈 网络安全股 利好，📉 AI芯片股 承压",
-        "chain": "网络安全需求激增（提升企业IT预算），但AI监管风险上升可能压制AI应用股估值",
-        "watch": "各国AI监管法案进展及网络安全公司订单数据"
+        "what": "五眼联盟警告AI数月内可突破网络安全系统",
+        "assets": "📈 网络安全股 利好；📉 AI应用股 分化",
+        "chain": "威胁升级→企业加大网安支出→网安公司营收增长；AI监管风险上升→AI股承压",
+        "watch": "网安公司订单增长及AI监管法案进展"
       }
     },
     {
@@ -51,94 +51,94 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC新闻，因报道其水池言论",
-        "assets": "📉 媒体股 承压",
-        "chain": "政治干预媒体风险升温，可能引发传媒行业估值折价（广告收入不确定性），利好保守派媒体",
-        "watch": "ABC法律回应及特朗普其他诉讼进展"
+        "what": "特朗普威胁起诉ABC关于反映池报道",
+        "assets": "📉 传媒股 承压；📉 新闻行业 利空",
+        "chain": "法律威胁增加媒体合规成本→传媒股风险溢价（额外风险回报）上升",
+        "watch": "ABC是否撤回报道及诉讼实际立案"
       }
     },
     {
       "rank": 5,
+      "title": "Alphabet Stock Set to Fall for Second Day as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "Alphabet因DeepMind诺奖得主跳槽Anthropic连续下跌",
+        "assets": "📉 Alphabet 利空；📈 Anthropic 利好",
+        "chain": "人才流失削弱谷歌AI竞争力→Alphabet估值下调；Anthropic获得顶级人才→估值提升",
+        "watch": "Alphabet后续AI人才招聘及Anthropic融资进展"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Here are Tuesday's biggest analyst calls: SpaceX, Micron, Nvidia, Tesla, IBM, Broadcom, Target, Netflix & more",
       "source": "CNBC",
       "detail": "Here are Tuesday's biggest calls on Wall Street.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "分析师聚焦SpaceX、美光、英伟达等个股",
-        "assets": "📈 英伟达、美光 利好，📉 特斯拉 承压",
-        "chain": "分析师喊单引发资金轮动（factor rotation），半导体板块获关注，特斯拉负面情绪扩散",
-        "watch": "具体目标价调整及后续研报发布"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "A $1.8 Million 401(k) and Social Security Coming Up? Drain It Before 70 to Dodge the IRMAA Cliff - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "建议提前提取401(k)以规避医保附加费",
-        "assets": "📈 退休规划服务 利好，📉 长期国债 承压",
-        "chain": "提前提取增加当前消费（短期经济刺激），但减少长期储蓄（压低债券需求），推高利率预期",
-        "watch": "IRS关于IRMAA（收入相关月保费调整）的调整公告"
+        "what": "分析师密集发布SpaceX、英伟达等公司研报",
+        "assets": "📈 英伟达 利好；📈 特斯拉 分化",
+        "chain": "分析师评级影响机构持仓（大型基金配置）→个股股价波动",
+        "watch": "具体研报评级及目标价调整"
       }
     },
     {
       "rank": 7,
-      "title": "Alphabet (GOOGL) Stock Falls Again as Anthropic Poaches DeepMind Nobel Winner - Barron's",
-      "source": "Barron's",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "谷歌股价下跌，因Anthropic挖走DeepMind诺奖得主",
-        "assets": "📉 谷歌 承压，📈 Anthropic 利好",
-        "chain": "AI人才争夺战加剧（劳动力成本上升），谷歌AI竞争力受质疑，利好竞争对手如微软、OpenAI",
-        "watch": "谷歌后续AI人才招聘及Anthropic融资进展"
-      }
-    },
-    {
-      "rank": 8,
       "title": "聚焦降低词元成本的AI记忆初创企业完成9800万美元融资",
       "source": "环球市场播报",
       "detail": "核心要点 AI 记忆初创企业 Engram（记忆印迹）完成近 1 亿美元融资，旨在提升模型运行效率、遏制暴涨的 AI 使用成本。 该公司称，旗下模型最高可节省 99% 的词元用量...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "AI记忆初创公司融资9800万美元，聚焦降低词元成本",
-        "assets": "📈 AI基础设施 利好，📉 传统云存储 承压",
-        "chain": "降低词元成本（token cost）提升AI应用经济性（加速商业化），但冲击传统数据存储需求",
-        "watch": "该公司技术落地及客户签约情况"
+        "what": "AI记忆初创公司获9800万美元融资",
+        "assets": "📈 AI基础设施 利好；📈 存储芯片 利好",
+        "chain": "降低AI记忆成本→推动AI应用普及→存储芯片需求增长",
+        "watch": "该公司技术商业化进展及客户签约"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Alan Greenspan, US Fed 'maestro' through years of boom and bust, dies at 100 - Reuters",
       "source": "Reuters",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 23,
       "insight": {
-        "what": "美联储前主席格林斯潘逝世，享年100岁",
-        "assets": "📈 美债 短期利好",
-        "chain": "市场缅怀其宽松政策（低利率环境），可能短暂提振债券需求，但无实际政策影响",
-        "watch": "美联储官员悼词及政策评论"
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📉 美元 短期承压；📉 美债 波动",
+        "chain": "历史人物离世引发市场对货币政策回顾→短期风险偏好（投资者承担风险意愿）下降",
+        "watch": "美联储官员是否发表纪念性政策评论"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "3200亿光纤巨头紧急风险提示，“924”行情以来暴涨24倍，年内涨幅跑赢超99%个股",
       "source": "21世纪经济报道",
       "detail": " 6月23日晚间，长飞光纤（601869.SH）最新公告称，公司股票连续两个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动。",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "光纤巨头暴涨24倍后发布风险提示",
-        "assets": "📉 该光纤股 承压，📉 通信板块 联动",
-        "chain": "暴涨后风险提示引发获利回吐（profit-taking），高估值个股面临回调压力，可能拖累整个通信板块",
-        "watch": "该股成交量变化及监管是否介入"
+        "what": "光纤巨头暴涨24倍后发布紧急风险提示",
+        "assets": "📉 光纤股 利空；📉 通信设备 承压",
+        "chain": "暴涨后风险提示→获利盘抛售（卖出盈利头寸）→板块跟风下跌",
+        "watch": "该股成交量及后续监管问询"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "盘前：纳指期货跌2.59% 全球科技股疯狂暴跌",
+      "source": "环球市场播报",
+      "detail": "周二，全球市场出现连锁抛售，投资者对高涨的科技股和泡沫化估值感到不安。韩国Kospi指数暴跌10%，纳斯达克指数期货下跌逾2%，全球科技股抛售加速。",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "纳指期货暴跌2.59%，全球科技股崩盘",
+        "assets": "📉 科技股 利空；📉 纳指 利空",
+        "chain": "恐慌情绪蔓延→投资者抛售科技股→转向避险资产如美债",
+        "watch": "VIX（恐慌指数）及美联储是否释放稳定信号"
       }
     }
   ]
