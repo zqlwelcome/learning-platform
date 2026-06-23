@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 06:16",
+  "updateTime": "2026-06-24 06:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称司机手动干预致致命车祸",
-        "assets": "📉 特斯拉股价 承压",
-        "chain": "自动驾驶信任度下降，可能拖累整个自动驾驶板块（如Waymo、Cruise）估值",
-        "watch": "NHTSA（美国公路安全管理局）是否启动正式调查"
+        "what": "特斯拉德州致命车祸，司机被指手动接管FSD",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "FSD（全自动驾驶）安全性受质疑，可能导致监管收紧，削弱自动驾驶赛道情绪（利空同行）。",
+        "watch": "NHTSA（美国国家公路安全局）是否发起正式调查"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "联邦快递财报强劲，货运业务表现亮眼",
-        "assets": "📈 物流/运输板块 利好",
-        "chain": "货运需求强劲暗示经济韧性，利好工业股（如卡特彼勒）和零售库存周期（补库存）",
-        "watch": "UPS、亚马逊物流季度财报及零售销售数据"
+        "what": "Cerebras财报预测利润率缩窄，股价暴跌8%-10%",
+        "assets": "📉 芯片板块 承压；📉 Cerebras 利空",
+        "chain": "毛利率指引恶化暗示竞争加剧（如英伟达挤压），可能引发AI芯片股估值下修（杀估值）。",
+        "watch": "下一季度毛利率实际数及订单指引"
       }
     },
     {
@@ -39,20 +39,6 @@
     },
     {
       "rank": 4,
-      "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX IPO后不到两周发债250亿美元",
-        "assets": "📈 太空经济板块 利好",
-        "chain": "高负债融资显示资本开支（花钱投资）强劲，利好商业航天供应链（如卫星零部件商）",
-        "watch": "SpaceX估值是否再创新高及后续融资轮次"
-      }
-    },
-    {
-      "rank": 5,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
@@ -60,21 +46,7 @@
       "score": 45
     },
     {
-      "rank": 6,
-      "title": "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
-      "source": "CNBC",
-      "detail": "The commission has now sued nine states in its battle to defend what it sees as its exclusive right to regulate event contracts.",
-      "lang": "en",
-      "score": 43,
-      "insight": {
-        "what": "瑞银称美联储短期内不会加息",
-        "assets": "📈 美债 利好",
-        "chain": "利率预期稳定利好成长股（如科技股），但通胀预期若反弹可能压制债券价格",
-        "watch": "下次CPI（消费者物价指数）数据及美联储点阵图（利率预测）"
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
@@ -82,46 +54,68 @@
       "score": 42
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "SpaceX在IPO后不到两周，通过债券发行筹集250亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX在创纪录的首次公开募股（IPO）后不到两周，便通过债券发行筹集了250亿美元。 SpaceX于周一宣布发行优先无担保票据，消息人士称，公司最初计划筹资200亿美元。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "Cerebras业绩指引利润率收缩，盘后跌8%-10%",
-        "assets": "📉 AI芯片板块 承压",
-        "chain": "AI芯片高估值面临修正，可能传导至其他AI概念股（如英伟达）回调",
-        "watch": "Cerebras下一季度毛利率数据及大客户订单"
+        "what": "SpaceX在IPO后两周内通过债券融资250亿美元",
+        "assets": "📈 SpaceX债券 利好；📈 太空概念股 情绪提振",
+        "chain": "高额债务融资显示资本开支需求大，但IPO后快速发债可能稀释股权（利空现有股东），并推高太空板块风险溢价。",
+        "watch": "债券的票息和认购倍数"
       }
     },
     {
-      "rank": 9,
-      "title": "瑞银认为美联储短期内不会加息",
-      "source": "环球市场播报",
-      "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "CFTC起诉肯塔基州干预预测市场",
-        "assets": "📈 加密货币/预测市场平台 利好",
-        "chain": "联邦层面支持去中心化市场（不受州限制），可能推动Polymarket等平台交易量上升",
-        "watch": "其他州是否跟进或联邦立法动态"
-      }
-    },
-    {
-      "rank": 10,
+      "rank": 7,
       "title": "FedEx posts strong earnings results in last quarter with freight business - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "韩国股市创单日最大跌幅之一",
-        "assets": "📉 韩国KOSPI指数 承压",
-        "chain": "外资流出（资金撤走）可能触发亚洲新兴市场连锁抛售，尤其半导体出口依赖股（如三星、SK海力士）",
-        "watch": "韩国央行是否干预汇率及外资净流出数据"
+        "what": "摩根士丹利称韩国股市大跌并非趋势性破位",
+        "assets": "📉 韩国综合指数 短期承压；📈 新兴市场ETF 中性",
+        "chain": "大行看多信号可能缓解恐慌抛售，但外资流出压力仍在（韩元贬值预期），需观察技术位支撑。",
+        "watch": "韩国KOSPI指数200日均线得失"
       }
+    },
+    {
+      "rank": 8,
+      "title": "FedEx posts strong earnings results in last quarter with freight business",
+      "source": "CNBC",
+      "detail": "FedEx posted strong fiscal fourth quarter earnings on Tuesday in the company's last quarter that included the freight business before its spin-off.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "联邦快递财报强劲，货运业务表现超预期",
+        "assets": "📈 联邦快递 利好；📈 物流板块 看涨",
+        "chain": "货运需求回暖暗示美国经济韧性（软着陆概率上升），可能利好工业股和消费股，但需警惕通胀反弹。",
+        "watch": "其他物流公司（如UPS）财报及PMI（采购经理人指数）"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Stocks making the biggest moves after hours: FedEx, Cerebras, KB Home & more",
+      "source": "CNBC",
+      "detail": "See which stocks are posting big moves after the bell.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "Alphabet股价下跌，第二位AI核心高管跳槽",
+        "assets": "📉 谷歌 利空；📉 科技股 情绪偏空",
+        "chain": "人才流失加剧市场对谷歌AI竞争力担忧（落后于OpenAI），可能拖累云计算和搜索广告收入预期。",
+        "watch": "谷歌AI产品发布节奏及竞品动态"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Alphabet Shares Drop After Second AI Star Departs for a Rival - Bloomberg",
+      "source": "Bloomberg",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
