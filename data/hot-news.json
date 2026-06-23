@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 02:55",
+  "updateTime": "2026-06-24 03:00",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 51,
       "insight": {
         "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 情绪承压",
-        "chain": "市场缅怀其任期，短期或引发对美联储独立性讨论，但影响有限",
-        "watch": "美联储官员讲话基调"
+        "assets": "📉 美元 短期承压",
+        "chain": "纪念性抛售（情绪驱动）可能短暂压低美元，但政策影响有限",
+        "watch": "美联储官员是否发表悼念言论"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向戛纳营销从业者推介ChatGPT广告业务",
-        "assets": "📈 AI广告股 利好",
-        "chain": "AI商业化加速，广告支出从传统平台分流（结构性转移），利好AI应用层",
-        "watch": "AI广告平台客户转化率数据"
+        "what": "OpenAI向广告营销业推介ChatGPT广告业务",
+        "assets": "📈 AI广告概念股 利好",
+        "chain": "AI商业化加速，降低营销成本（广告主支出效率提升），挤压传统广告商份额",
+        "watch": "OpenAI广告收入数据及客户签约"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉承认FSD在致命车祸中启用，归咎司机干预",
-        "assets": "📉 特斯拉股价 承压",
-        "chain": "监管风险升温，自动驾驶信任度下降，可能拖累整个电动车板块（板块联动效应）",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查结果"
+        "what": "特斯拉承认FSD在致命事故中激活，归咎司机干预",
+        "assets": "📉 特斯拉 利空",
+        "chain": "监管风险上升（FSD安全性受质疑），可能推迟自动驾驶审批进程",
+        "watch": "NHTSA（美国国家公路安全局）调查进展"
       }
     },
     {
@@ -53,8 +53,8 @@
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
         "assets": "📈 美债 利好",
-        "chain": "加息预期降温，风险资产（如科技股）吸引力回升，美元可能走弱",
-        "watch": "美联储点阵图（利率预测）变化"
+        "chain": "加息预期降温（借贷成本稳定），支撑风险资产（股市）估值",
+        "watch": "后续美联储官员讲话及CPI数据"
       }
     },
     {
@@ -65,70 +65,42 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内可能绕过网络安全系统",
-        "assets": "📉 网络安全股 承压",
-        "chain": "AI威胁加剧，企业安全支出预期上升，但现有方案有效性受质疑（技术替代风险）",
-        "watch": "网络安全公司Q2财报指引"
+        "what": "五眼联盟警告AI数月内可绕过网络安全系统",
+        "assets": "📈 网络安全ETF 利好",
+        "chain": "AI攻击威胁升级，企业安全支出增加（预算转向防御），利好安全软件商",
+        "watch": "各国是否出台AI安全法规"
       }
     },
     {
       "rank": 6,
-      "title": "AI PACs pour $20 million into New York Democratic primary in AI regulation battle",
-      "source": "CNBC",
-      "detail": "Companies are spending big to shape AI policies at the federal level. And the Manhattan House Democratic primary will be a test of where voters stand.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "AI政治行动委员会向纽约民主党初选注资2000万美元",
-        "assets": "📈 AI监管股 利好",
-        "chain": "监管政策博弈加剧，合规成本增加，利好合规技术提供商",
-        "watch": "AI监管法案投票进展"
-      }
-    },
-    {
-      "rank": 7,
       "title": "加息担忧冲击贵金属市场，黄金、白银价格大幅下挫",
       "source": "环球市场播报",
       "detail": "核心要点 受加息恐慌引发市场避险情绪降温影响，全球科技股走低，黄金、白银价格周二同步下行。 自 2 月 28 日美伊冲突爆发以来，黄金作为动荡时期 “避险资产”...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加息担忧冲击贵金属，黄金白银价格大幅下挫",
-        "assets": "📉 黄金 承压  📉 白银 承压",
-        "chain": "实际利率（名义利率减通胀）上升，持有黄金机会成本增加，资金流出避险资产",
-        "watch": "美国CPI（消费者物价指数）数据"
+        "what": "加息担忧冲击贵金属，黄金白银大幅下挫",
+        "assets": "📉 黄金 利空；📉 白银 利空",
+        "chain": "实际利率预期上升（持有无息资产机会成本增加），资金流向美元",
+        "watch": "美联储利率决议及通胀数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "美元指数创11月以来最高水平 交易员上调美联储升息押注",
       "source": "环球市场播报",
       "detail": "美元即期指数周二升至去年11月以来最高水平，交易员进一步强化了对美联储今年加息的预期。 美元即期指数上涨0.4%。随着美联储政策前景与全球其他主要央行日益背离...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "美元指数创11个月新高，交易员上调美联储升息押注",
-        "assets": "📈 美元 利好  📉 新兴市场货币 承压",
-        "chain": "美元走强压制大宗商品价格（以美元计价），新兴市场面临资本外流压力",
-        "watch": "美联储FOMC（联邦公开市场委员会）会议纪要"
+        "what": "美元指数创11月新高，加息押注增加",
+        "assets": "📈 美元 利好；📉 新兴市场货币 承压",
+        "chain": "美元走强（资本回流美国），大宗商品（以美元计价）价格受压",
+        "watch": "美元指数是否突破前高及美联储点阵图"
       }
     },
     {
-      "rank": 9,
-      "title": "MU Stock Is Down 10% — But BofA Just Raised Its Price Target By 58% - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美光科技股价跌10%，但美银上调目标价58%",
-        "assets": "📉 美光 短期承压  📈 半导体 长期利好",
-        "chain": "短期情绪悲观，但分析师看好AI驱动存储需求，可逢低布局（逆向交易机会）",
-        "watch": "美光Q3财报营收指引"
-      }
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "Meta is building a prediction markets app. These stocks are falling in response",
       "source": "CNBC",
       "detail": "The report said that CEO Mark Zuckerberg directed staff to develop a prediction markets platform, internally known as \"Arena.\"",
@@ -136,9 +108,37 @@
       "score": 27,
       "insight": {
         "what": "Meta开发预测市场应用，相关股票下跌",
-        "assets": "📉 预测市场概念股 承压",
-        "chain": "Meta入场可能挤压现有平台市场份额（竞争加剧），但长期或推动行业规范化",
-        "watch": "Meta应用上线时间与监管回应"
+        "assets": "📉 预测市场概念股 利空",
+        "chain": "巨头入局挤压初创公司（竞争加剧），用户和流动性可能转移",
+        "watch": "Meta应用上线时间及监管态度"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "聚焦降低词元成本的AI记忆初创企业完成9800万美元融资",
+      "source": "环球市场播报",
+      "detail": "核心要点 AI 记忆初创企业 Engram（记忆印迹）完成近 1 亿美元融资，旨在提升模型运行效率、遏制暴涨的 AI 使用成本。 该公司称，旗下模型最高可节省 99% 的词元用量...",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "AI记忆初创公司融资9800万美元，聚焦降低词元成本",
+        "assets": "📈 AI基础设施 利好",
+        "chain": "降低AI推理成本（词元即token，处理单位），加速大模型商业化应用",
+        "watch": "融资后产品定价及客户采用率"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Inside Kevin Warsh's selection process for the next Atlanta Fed president",
+      "source": "CNBC",
+      "detail": "Choosing a new head for the Federal Reserve Bank of Atlanta is an opportunity for new Fed Chairman Kevin Warsh to reshape the central bank.",
+      "lang": "en",
+      "score": 23,
+      "insight": {
+        "what": "凯文·沃什进入亚特兰大联储主席遴选流程",
+        "assets": "📈 鹰派政策预期 利好美元",
+        "chain": "沃什偏鹰（主张加息），若当选可能强化紧缩预期，推高短期利率",
+        "watch": "最终任命结果及首次政策表态"
       }
     }
   ]
