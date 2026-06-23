@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-24 04:06",
+  "updateTime": "2026-06-24 04:10",
   "news": [
     {
       "rank": 1,
-      "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100 - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "title": "An AI price war could take the thunder out of pending IPOs",
+      "source": "CNBC",
+      "detail": "Companies are bemoaning the hefty AI price tag, and some are looking at cheaper models that are nearly as good.",
       "lang": "en",
-      "score": 51,
+      "score": 50,
       "insight": {
-        "what": "美联储前主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 短期情绪承压",
-        "chain": "缅怀情绪可能短暂压制风险偏好（Risk-off），但政策记忆影响有限",
-        "watch": "市场是否有纪念性抛售"
+        "what": "AI价格战可能削弱即将进行的IPO吸引力",
+        "assets": "📉 科技股IPO 利空",
+        "chain": "价格战压低AI初创估值，拖累一级市场融资情绪（资本退出路径变窄）",
+        "watch": "AI龙头定价策略及IPO认购率"
       }
     },
     {
@@ -23,42 +23,84 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向戛纳营销从业者推广ChatGPT广告业务",
-        "assets": "📈 AI应用股 利好；📉 传统广告股 承压",
-        "chain": "AI广告替代效应加速（生成式AI降低广告制作成本），冲击传统广告商份额",
-        "watch": "OpenAI广告收入数据及客户签约进展"
+        "what": "OpenAI在IPO前向戛纳广告主推广ChatGPT广告业务",
+        "assets": "📈 数字广告股 利好",
+        "chain": "AI广告变现提速，或分流传统搜索广告份额（如谷歌）",
+        "watch": "OpenAI广告收入数据及客户转化率"
       }
     },
     {
       "rank": 3,
+      "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "SpaceX在IPO后两周内通过债券发行筹集250亿美元",
+        "assets": "📈 太空科技股 利好",
+        "chain": "巨额发债显示市场对太空经济信心，但增加杠杆风险（负债率上升）",
+        "watch": "SpaceX债券评级及后续融资需求"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX在IPO后不到两周完成250亿美元债务融资",
-        "assets": "📈 太空概念股 利好；📉 债券市场 承压",
-        "chain": "高杠杆融资显示市场风险偏好（Risk-on），但增加利率敏感行业（如科技债）的再融资成本",
-        "watch": "SpaceX估值变化及后续融资计划"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Tesla admits FSD was on in fatal Texas crash, blames driver for ‘overriding’ it - Electrek",
-      "source": "Electrek",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "特斯拉承认FSD在致命车祸中激活，归咎司机‘接管’",
-        "assets": "📉 特斯拉 利空；📈 自动驾驶竞争对手 利好",
-        "chain": "监管审查风险上升（SEC或NHTSA调查），削弱FSD商业化预期，对手或获窗口期",
-        "watch": "NHTSA调查进展及FSD订阅数据变化"
+        "what": "SpaceX在IPO后不到两周发行债券融资250亿美元",
+        "assets": "📈 太空科技债 利好",
+        "chain": "高杠杆扩张模式可能引发对其他科技公司债务可持续性的担忧",
+        "watch": "债券收益率及信用利差变化"
       }
     },
     {
       "rank": 5,
+      "title": "Stock market today: Nasdaq, S&P 500 fall as global chip sell-off spurs AI doubts - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "全球芯片抛售引发AI疑虑，纳指和标普500下跌",
+        "assets": "📉 全球半导体 利空",
+        "chain": "芯片需求预期降温拖累科技股，避险资金流向国债（利率敏感资产）",
+        "watch": "费城半导体指数及芯片财报前瞻"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "SpaceX在IPO后不到两周，通过债券发行筹集250亿美元",
+      "source": "环球市场播报",
+      "detail": "SpaceX在创纪录的首次公开募股（IPO）后不到两周，便通过债券发行筹集了250亿美元。 SpaceX于周一宣布发行优先无担保票据，消息人士称，公司最初计划筹资200亿美元。",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "SpaceX在IPO后不到两周通过债券发行筹集250亿美元",
+        "assets": "📈 太空科技股 利好",
+        "chain": "大规模发债暗示扩张加速，但增加财务风险，或影响其他高负债科技公司估值",
+        "watch": "SpaceX债券评级及杠杆率变化"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Tesla pushes back as fatal Texas crash reignites self-driving scrutiny - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "特斯拉因得州致命事故面临自动驾驶审查",
+        "assets": "📉 特斯拉 利空",
+        "chain": "监管收紧风险上升，可能拖累无人驾驶板块整体估值（如Waymo）",
+        "watch": "NHTSA调查进展及特斯拉股价反应"
+      }
+    },
+    {
+      "rank": 8,
       "title": "瑞银认为美联储短期内不会加息",
       "source": "环球市场播报",
       "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
@@ -66,79 +108,37 @@
       "score": 36,
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美债 利好；📉 美元 短期承压",
-        "chain": "降息预期（借钱成本降低）提振风险资产，但若通胀反弹则预期易反转",
-        "watch": "本周CPI及PCE（个人消费支出物价）数据"
+        "assets": "📈 美债 利好",
+        "chain": "加息预期降温支撑风险资产（如股票），但通胀数据若反弹将反转预期",
+        "watch": "美国CPI及PCE通胀数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
       "source": "CBS News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内可能突破网络安全系统",
-        "assets": "📈 网络安全股 利好；📉 AI应用股 承压",
-        "chain": "安全需求激增（AI攻防升级），但监管加码可能限制AI商业化速度",
-        "watch": "网络安全公司订单及AI监管法案进展"
+        "what": "五眼联盟警告AI可能在数月而非数年内突破网络安全系统",
+        "assets": "📈 网络安全股 利好",
+        "chain": "AI威胁升级推动企业安全支出增加，但可能引发AI监管趋严（政策风险）",
+        "watch": "网络安全公司订单及AI监管立法动态"
       }
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "加息担忧冲击贵金属市场，黄金、白银价格大幅下挫",
       "source": "环球市场播报",
       "detail": "核心要点 受加息恐慌引发市场避险情绪降温影响，全球科技股走低，黄金、白银价格周二同步下行。 自 2 月 28 日美伊冲突爆发以来，黄金作为动荡时期 “避险资产”...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加息担忧冲击贵金属，黄金白银价格大幅下挫",
-        "assets": "📉 黄金 利空；📉 白银 利空",
-        "chain": "实际利率上升（名义利率减通胀）压制无息资产，美元走强加速资金流出",
-        "watch": "美联储利率点阵图及实际利率走势"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "美元指数创11月以来最高水平 交易员上调美联储升息押注",
-      "source": "环球市场播报",
-      "detail": "美元即期指数周二升至去年11月以来最高水平，交易员进一步强化了对美联储今年加息的预期。 美元即期指数上涨0.4%。随着美联储政策前景与全球其他主要央行日益背离...",
-      "lang": "zh",
-      "score": 28,
-      "insight": {
-        "what": "美元指数创11月新高，交易员上调加息押注",
-        "assets": "📈 美元 利好；📉 新兴市场货币 承压",
-        "chain": "强美元压制大宗商品（以美元计价），新兴市场资本外流压力增加",
-        "watch": "美联储官员讲话及非农就业数据"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Quantum Computing Stocks Gain Amid Trump Executive Orders, 2028 Target - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "特朗普行政令推动量子计算目标2028年，相关股上涨",
-        "assets": "📈 量子计算股 利好；📉 传统芯片股 承压",
-        "chain": "政策催化（政府资金投入）加速技术落地，但商业化时间表仍不确定",
-        "watch": "量子计算公司财报及政府拨款明细"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Meta is building a prediction markets app. These stocks are falling in response",
-      "source": "CNBC",
-      "detail": "The report said that CEO Mark Zuckerberg directed staff to develop a prediction markets platform, internally known as \"Arena.\"",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "Meta开发预测市场应用，相关股票下跌",
-        "assets": "📈 预测市场概念股 利好；📉 博彩股 承压",
-        "chain": "Meta流量优势（用户基数大）冲击现有预测平台（如Polymarket），监管风险或上升",
-        "watch": "Meta应用上线时间及监管回应"
+        "what": "加息担忧导致黄金、白银价格大幅下跌",
+        "assets": "📉 黄金/白银 利空",
+        "chain": "实际利率（名义利率-通胀）上升压制无息资产，美元走强加剧抛压",
+        "watch": "美联储利率预期及美元指数走势"
       }
     }
   ]
