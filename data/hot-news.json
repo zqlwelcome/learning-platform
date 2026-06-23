@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 23:35",
+  "updateTime": "2026-06-23 23:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "AI股遭抛售，韩国市场暴跌10%",
-        "assets": "📉 美股AI板块 利空；📉 韩国KOSPI 承压",
-        "chain": "风险偏好（Risk Appetite）急降，资金从新兴市场流向避险资产，如美债、黄金",
-        "watch": "AI龙头股财报及技术面支撑位"
+        "what": "AI板块遭抛售，韩国股市暴跌10%",
+        "assets": "📉 全球AI科技股 承压, 📉 韩国KOSPI指数 承压",
+        "chain": "AI泡沫担忧引发风险偏好（愿意买风险资产的情绪）骤降，资金流向避险资产（如美债）",
+        "watch": "今晚美股AI龙头股（如英伟达）是否企稳"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "联邦监管机构调查特斯拉致死车祸",
-        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
-        "chain": "监管收紧（Regulatory Crackdown）风险上升，可能拖累整个电动车产业链估值",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论及后续法规"
+        "what": "特斯拉致死事故遭联邦监管机构调查",
+        "assets": "📉 特斯拉股价 承压, 📉 自动驾驶概念股 承压",
+        "chain": "监管风险（被政府查）上升，可能拖累电动车板块整体情绪（市场心态）",
+        "watch": "NHTSA（美国国家公路安全局）调查结果及后续处罚"
       }
     },
     {
@@ -37,56 +37,84 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国豁免伊朗石油制裁，释放数十亿美元",
-        "assets": "📈 原油价格 承压；📉 地缘政治风险溢价 下降",
-        "chain": "供给增加预期压低油价，利好炼油和运输板块，但削弱美以关系",
-        "watch": "伊朗实际出口量及OPEC+（石油输出国组织及盟友）反应"
+        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
+        "assets": "📉 原油价格 承压, 📈 伊朗经济 利好",
+        "chain": "原油供给预期增加，OPEC+（石油输出国组织）减产压力缓解，通胀（物价上涨）预期降温",
+        "watch": "伊朗实际出口量及布伦特原油（全球基准油价）走势"
       }
     },
     {
       "rank": 4,
+      "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100 - AP News",
+      "source": "AP News",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 51,
+      "insight": {
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📉 美债市场 短期波动",
+        "chain": "市场缅怀其政策遗产，但无即时政策影响，属于情绪性事件（非基本面驱动）",
+        "watch": "无，事件已消化"
+      }
+    },
+    {
+      "rank": 5,
       "title": "深夜暴跌！美股AI崩了，高盛重大警告",
       "source": "券商中国",
       "detail": "美股AI交易遭遇重挫。 今晚，美股开盘后，AI相关概念股——半导体、光通信等板块全线大跌，费城半导体指数一度暴跌超7%，三倍做多半导体ETF-Direxion一度暴跌超22%。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股AI板块深夜暴跌，高盛发出警告",
-        "assets": "📉 美股AI科技股 利空；📉 纳斯达克指数 承压",
-        "chain": "估值泡沫（Valuation Bubble）担忧蔓延，资金轮动至防御性板块如公用事业",
-        "watch": "高盛后续研报及AI公司盈利指引"
+        "what": "深夜美股AI板块暴跌，高盛发出重大警告",
+        "assets": "📉 全球AI科技股 承压, 📉 纳斯达克指数 承压",
+        "chain": "高盛看空信号加剧获利回吐（卖出盈利仓位），可能引发科技板块连锁抛售",
+        "watch": "高盛报告细节及AI股财报（如微软、谷歌）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "IPO前夕 OpenAI向戛纳营销从业者推介ChatGPT广告业务",
       "source": "环球市场播报",
       "detail": "OpenAI首次亮相全球顶级广告盛会。本周，该公司面向各大营销人员与广告代理机构推介其刚起步的ChatGPT广告业务以及Codex编程工具...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向戛纳营销从业者推介ChatGPT广告业务",
-        "assets": "📈 AI广告技术公司 利好；📈 数字营销板块 受益",
-        "chain": "AI商业化加速，广告支出结构从传统媒体转向AI驱动平台",
-        "watch": "OpenAI广告业务收入数据及客户签约进展"
+        "what": "OpenAI在IPO前向戛纳营销者推介ChatGPT广告业务",
+        "assets": "📈 OpenAI（未上市）估值 利好, 📉 传统广告巨头 承压",
+        "chain": "AI广告商业化加速，侵蚀谷歌、Meta等数字广告份额（市场占有率）",
+        "watch": "OpenAI上市进展及广告主反馈"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Stocks drop as Fed rate bets hit tech royalty; dollar gains - Reuters",
       "source": "Reuters",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "美联储利率预期冲击科技股，美元走强",
-        "assets": "📉 美股科技股 利空；📈 美元指数 利好",
-        "chain": "利率上升（更高借贷成本）压制成长股估值，美元走强施压新兴市场货币",
-        "watch": "美联储下次会议点阵图（利率预测）及CPI（消费者物价指数）数据"
+        "what": "美联储降息预期打压科技股，美元走强",
+        "assets": "📉 美股科技股 承压, 📈 美元指数 利好",
+        "chain": "降息延后（借钱成本不降）压制高估值科技股，美元升值利空新兴市场（如亚洲股市）",
+        "watch": "本周美联储会议纪要及非农就业数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "十四年上市路，三闯港股IPO！它走的累！",
+      "source": "市场资讯",
+      "detail": "来源：IPO日报 深耕光储领域的古瑞瓦特历经十四年资本长跑，三度闯关港股。公司业绩高度绑定海外能源周期，盈利波动剧烈，本次IPO是其穿越行业周期...",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "某公司十四年三次冲击港股IPO，过程艰难",
+        "assets": "📉 港股IPO市场 情绪承压",
+        "chain": "上市受阻反映港股流动性（资金量）不足，可能拖累其他拟IPO公司估值",
+        "watch": "该公司最终上市定价及认购情况"
+      }
+    },
+    {
+      "rank": 9,
       "title": "瑞银认为美联储短期内不会加息",
       "source": "环球市场播报",
       "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
@@ -94,51 +122,23 @@
       "score": 36,
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美股成长股 利好；📉 美元指数 承压",
-        "chain": "利率稳定预期缓解估值压力，资金回流科技板块，但通胀数据若超预期将反转",
-        "watch": "美联储官员讲话及核心PCE（个人消费支出物价指数）"
+        "assets": "📈 美股整体 利好, 📈 美债 利好",
+        "chain": "利率稳定（借钱成本不变）支撑风险资产，但需警惕通胀（物价上涨）反弹风险",
+        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "AI memory, chip stocks tumble as AI woes hit global peers; Wedbush sees sell-off an opportunity - Seeking Alpha",
       "source": "Seeking Alpha",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "AI芯片股下跌，Wedbush视抛售为机会",
-        "assets": "📉 AI芯片股 利空；📈 逢低买入者 潜在利好",
-        "chain": "短期恐慌抛售（Panic Sell-off）后，长期看AI需求增长逻辑未变，但需确认基本面",
-        "watch": "芯片库存数据及AI基建资本支出计划"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
-      "source": "CBS News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "五眼联盟警告AI数月内可绕过网络安全系统",
-        "assets": "📈 网络安全股 利好；📉 AI监管风险 上升",
-        "chain": "安全需求激增利好网安公司，但AI行业面临更严监管（Regulatory Headwind）",
-        "watch": "各国AI安全立法进展及网络安全支出数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Global tech sell-off intensifies, led by AI and chip stocks - NBC News",
-      "source": "NBC News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "全球科技抛售加剧，AI和芯片股领跌",
-        "assets": "📉 全球科技股 利空；📉 半导体ETF 承压",
-        "chain": "恐慌情绪（Fear Sentiment）跨市场传染，资金从风险资产涌入美债和日元",
-        "watch": "VIX（波动率指数）及主要央行政策动向"
+        "what": "AI存储芯片股暴跌，Wedbush认为抛售是机会",
+        "assets": "📉 AI存储芯片股 承压, 📈 长期AI主题 潜在机会",
+        "chain": "短期恐慌性抛售（非理性卖出）提供逢低买入（跌时买）窗口，但需确认基本面未恶化",
+        "watch": "半导体行业订单数据及AI需求指标"
       }
     }
   ]
