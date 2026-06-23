@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-23 21:55",
+  "updateTime": "2026-06-23 22:01",
   "news": [
     {
       "rank": 1,
-      "title": "Stock market today: Nasdaq, S&P 500 plunge as global chip sell-off spurs AI doubts - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "全球芯片抛售引发AI疑虑，纳指和标普暴跌",
-        "assets": "📉 纳斯达克100 利空; 📉 费城半导体指数 利空",
-        "chain": "AI泡沫担忧升温，资金可能轮动至防御板块（如公用事业），科技股估值面临重估（PE压缩）",
-        "watch": "今晚美债收益率走势及芯片龙头财报指引"
-      }
-    },
-    {
-      "rank": 2,
       "title": "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
       "source": "CNBC",
       "detail": "The U.S. issued a sweeping rollback of sanctions on Iranian oil, offering Tehran an economic lifeline as negotiations toward a peace deal proceed.",
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国对伊朗石油制裁发布广泛豁免，释放数十亿收入",
-        "assets": "📉 原油 承压; 📉 能源股 利空",
-        "chain": "伊朗原油供给预期增加，OPEC+减产效果被稀释，通胀预期或缓和（CPI（消费者物价指数）下行）",
-        "watch": "WTI原油是否跌破75美元关键支撑"
+        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
+        "assets": "📉 原油 承压\n📉 能源股 利空",
+        "chain": "伊朗增产预期压低油价（商品价格），利空能源股（相关公司利润），但利好炼油厂（成本降低）",
+        "watch": "伊朗实际出口量及OPEC+（石油输出国组织）后续反应"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "US watchdog opens probe after Tesla crashes into Texas home, killing woman - Al Jazeera",
       "source": "Al Jazeera",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "美国监管机构对特斯拉德州致命车祸展开调查",
-        "assets": "📉 特斯拉 利空; 📉 自动驾驶概念股 承压",
-        "chain": "可能强化FSD（完全自动驾驶）监管审查，拖累电动车板块情绪，资金或转向传统车企",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否升级调查至召回"
+        "what": "特斯拉撞入德州住宅致人死亡，美监管机构调查",
+        "assets": "📉 特斯拉 承压\n📉 自动驾驶概念股 利空",
+        "chain": "监管风险升温（可能加强法规限制），拖累特斯拉股价（市场信心），连带影响自动驾驶供应链（相关公司订单预期）",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论及召回公告"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
+      "source": "CBS News",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "五眼联盟警告AI数月内可绕过网络安全系统",
+        "assets": "📈 网络安全股 利好\n📉 AI应用股 承压",
+        "chain": "网络安全支出预期上升（防御需求），AI监管风险加剧（可能限制开发），利空无防护的AI公司（合规成本）",
+        "watch": "各国AI安全法规进展及网络安全公司财报"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "美光财报预期利润飙升987%，AI需求驱动业绩",
-        "assets": "📈 美光科技 利好; 📈 存储芯片 利好",
-        "chain": "HBM（高带宽内存）订单强劲，验证AI硬件需求未减，可能带动半导体设备股反弹",
-        "watch": "美光下季营收指引是否超市场预期"
+        "what": "美光财报预期飙升987%，AI大趋势驱动",
+        "assets": "📈 美光 利好\n📈 半导体板块 利好",
+        "chain": "AI芯片需求爆发（算力要求），带动存储芯片涨价（供需紧张），利好美光及同行（利润增长），但估值可能透支",
+        "watch": "美光实际财报指引及DRAM（动态随机存取存储器）现货价格"
       }
     },
     {
@@ -65,38 +65,38 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC关于其喷泉报道，称喜欢对方钱",
-        "assets": "📉 迪士尼（ABC母公司） 承压; 📉 媒体股 利空",
-        "chain": "政治干预媒体风险上升，广告收入或受不确定性影响，法律成本增加",
-        "watch": "ABC母公司是否发布和解声明"
+        "what": "特朗普威胁起诉ABC关于Reflecting Pool报道",
+        "assets": "📉 媒体股 承压\n📈 特朗普概念股 利好",
+        "chain": "法律诉讼风险增加媒体合规成本（运营压力），政治不确定性上升（政策波动），利好特朗普相关公司（游说预期）",
+        "watch": "ABC法律回应及案件进展"
       }
     },
     {
       "rank": 6,
-      "title": "Alphabet Stock Set to Fall for Second Day as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
-      "source": "Barron's",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "谷歌DeepMind诺奖得主跳槽Anthropic，股价连跌两日",
-        "assets": "📉 谷歌 利空; 📈 人工智能概念股（Anthropic相关） 利好",
-        "chain": "人才流失加剧市场对谷歌AI竞争力的担忧，资金可能流向OpenAI/Anthropic阵营",
-        "watch": "谷歌Gemini产品发布节奏是否加速"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Here are Tuesday's biggest analyst calls: SpaceX, Micron, Nvidia, Tesla, IBM, Broadcom, Target, Netflix & more",
       "source": "CNBC",
       "detail": "Here are Tuesday's biggest calls on Wall Street.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "分析师集中调整评级：SpaceX、美光、英伟达、特斯拉等",
-        "assets": "📈 英伟达 利好; 📉 特斯拉 承压; 📈 美光 利好",
-        "chain": "分析师共识分化，AI硬件获看好但电动车受质疑，板块轮动信号增强",
-        "watch": "目标价修正幅度与成交量变化"
+        "what": "分析师密集调仓：SpaceX、美光、英伟达等受关注",
+        "assets": "📈 英伟达 利好\n📈 美光 利好\n📉 特斯拉 承压",
+        "chain": "机构资金轮动（仓位调整），AI/半导体获增配（增长预期），特斯拉遭减配（监管风险），短期加剧板块分化",
+        "watch": "大型基金13F（持仓报告）及期权持仓变化"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Stock Market Today: Nasdaq Opens Lower as Tech Selloff Deepens - WSJ",
+      "source": "WSJ",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "纳斯达克低开，科技股抛售加剧",
+        "assets": "📉 纳指 承压\n📉 科技股 普跌",
+        "chain": "资金从高估值科技股流出（避险情绪），转向防御板块（公用事业等），若持续可能触发系统性回调（市场连锁反应）",
+        "watch": "VIX（恐慌指数）及科技巨头财报"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "建议在70岁前提取退休金以避免IRMAA税崖",
-        "assets": "📈 国债 利好; 📉 消费股 承压",
-        "chain": "提前取款增加短期消费能力但推高税务成本，可能刺激TINA（没有其他选择）资金涌入债券",
-        "watch": "401(k)提取趋势与IRS（美国国税局）政策调整"
+        "what": "建议提前取401(k)避税，社保与IRMAA冲突",
+        "assets": "📈 退休规划服务 利好\n📉 消费股 承压",
+        "chain": "提前取款增加当前消费（短期经济刺激），但减少长期投资（市场资金供给），利空依赖储蓄的资产管理公司",
+        "watch": "401(k)提款率数据及IRS（美国国税局）政策变动"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "SpaceX股价跌破150美元发行价，市值失守2万亿",
-        "assets": "📉 SpaceX（未上市交易） 利空; 📉 太空概念股 承压",
-        "chain": "二级市场定价反映估值泡沫破裂，可能拖累其他未上市科技公司IPO估值",
-        "watch": "是否触发私募市场回购条款"
+        "what": "SpaceX股价跌破150美元，市值低于2万亿",
+        "assets": "📉 SpaceX 承压\n📉 太空概念股 利空",
+        "chain": "估值泡沫破裂（前期涨幅过大），利空太空行业融资（投资者信心），但可能吸引价值投资者（逢低买入）",
+        "watch": "SpaceX发射合同及星链（卫星互联网）用户增长"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "AI记忆初创公司获9800万美元融资，聚焦降低词元成本",
-        "assets": "📈 人工智能基础设施 利好; 📈 自然语言处理概念股 利好",
-        "chain": "降低LLM（大语言模型）推理成本将加速应用落地，利好云计算和SaaS（软件即服务）公司",
-        "watch": "该初创公司是否与云巨头签订大额合同"
+        "what": "AI记忆初创公司获9800万美元融资，聚焦降词元成本",
+        "assets": "📈 AI基础设施 利好\n📈 大语言模型公司 利好",
+        "chain": "降低AI推理成本（技术突破），加速应用落地（企业采用），利好上游算力（需求增加）及下游AI应用（利润提升）",
+        "watch": "融资方技术路线及客户签约情况"
       }
     }
   ]
