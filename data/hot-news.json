@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "CFTC起诉肯塔基州限制预测市场",
-        "assets": "📈 加密货币 利好；📉 监管概念股 承压",
-        "chain": "联邦vs州监管冲突，可能为预测市场（如Polymarket）打开合规空间，利好去中心化金融",
-        "watch": "法院判决结果及更多州是否效仿"
+        "what": "Cerebras财报显示营收增长92%",
+        "assets": "📈 芯片股 利好",
+        "chain": "提振AI芯片需求预期，利好英伟达（GPU巨头）等同类股",
+        "watch": "Cerebras毛利率趋势及订单数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称司机手动干预致德州致命事故",
-        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
-        "chain": "事故责任归因削弱FSD（全自动驾驶）安全叙事，监管收紧风险上升，拖累板块情绪",
-        "watch": "NHTSA（美国公路安全局）是否展开正式调查"
+        "what": "特斯拉称司机手动干预致死车祸",
+        "assets": "📉 特斯拉股价 承压",
+        "chain": "加剧自动驾驶监管风险，利空自动驾驶概念股（如Waymo）",
+        "watch": "NHTSA（美国公路安全局）调查结论"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "韩国股市暴跌，摩根士丹利称非趋势性",
-        "assets": "📈 韩国KOSPI 短期利空；📉 新兴市场ETF 承压",
-        "chain": "单日暴跌可能触发程序化抛售（量化止损），但基本面未恶化，外资或逢低买入",
-        "watch": "韩国出口数据及外资净流向"
+        "what": "Cerebras预警毛利率下滑，股价跌8%",
+        "assets": "📉 芯片股 承压",
+        "chain": "反映AI芯片竞争激烈，利润压力向整个半导体板块传导",
+        "watch": "Cerebras下季度毛利率指引"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Cerebras上市后首份财报营收增92%",
-        "assets": "📈 AI芯片股 利好；📉 传统芯片股 承压",
-        "chain": "营收增长验证AI训练需求，但成本上升压缩利润，可能引发芯片板块分化（估值重估）",
-        "watch": "Cerebras毛利率趋势及下一季度指引"
+        "what": "OpenAI向广告业推广ChatGPT业务",
+        "assets": "📈 OpenAI相关概念 利好",
+        "chain": "AI商业化落地加速，利好AI营销公司（如AppLovin）",
+        "watch": "ChatGPT广告收入数据"
       }
     },
     {
@@ -77,7 +77,13 @@
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX发债250亿美元",
+        "assets": "📈 债市 资金流入",
+        "chain": "高评级债供给增加，可能推高企业债收益率（借钱成本）",
+        "watch": "SpaceX债券评级及认购倍数"
+      }
     },
     {
       "rank": 7,
@@ -87,10 +93,10 @@
       "lang": "en",
       "score": 43,
       "insight": {
-        "what": "瑞银称美联储短期不会加息",
-        "assets": "📈 美国国债 利好；📈 成长股 利好",
-        "chain": "利率预期稳定，降低借贷成本，支撑高估值科技股，美元可能走弱（套利交易增加）",
-        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
+        "what": "CFTC起诉肯塔基州限制预测市场",
+        "assets": "📈 预测市场 利好",
+        "chain": "联邦监管支持创新，可能推动Polymarket（预测平台）等资产",
+        "watch": "其他州类似诉讼结果"
       }
     },
     {
@@ -99,7 +105,13 @@
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "韩国股市暴跌但摩根士丹利不认为崩盘",
+        "assets": "📉 韩国KOSPI 承压",
+        "chain": "短期恐慌抛售，但低估值可能吸引外资抄底",
+        "watch": "韩国半导体出口数据及外资流向"
+      }
     },
     {
       "rank": 9,
@@ -109,10 +121,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "Cerebras预警利润率收缩，盘后跌8%",
-        "assets": "📉 AI芯片股 利空；📈 空头仓位 获利",
-        "chain": "利润率收缩暗示竞争加剧或成本失控，引发对AI硬件盈利可持续性的质疑（估值杀）",
-        "watch": "Cerebras下一季度毛利率数据及客户集中度"
+        "what": "SpaceX发债250亿美元",
+        "assets": "📈 债市 资金流入",
+        "chain": "高评级债供给增加，可能推高企业债收益率",
+        "watch": "SpaceX债券评级及认购倍数"
       }
     },
     {
@@ -123,10 +135,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "OpenAI向戛纳广告界推介ChatGPT广告业务",
-        "assets": "📈 数字广告股 利好；📉 传统广告代理 承压",
-        "chain": "AI生成广告降低制作成本，可能颠覆广告行业价值链（中间商被挤压）",
-        "watch": "OpenAI广告产品定价及客户签约进展"
+        "what": "瑞银称美联储短期不会加息",
+        "assets": "📈 美债 利好",
+        "chain": "降息预期（借钱成本降低）升温，利好科技股和贵金属",
+        "watch": "美联储官员讲话及CPI（通胀数据）"
       }
     }
   ]
