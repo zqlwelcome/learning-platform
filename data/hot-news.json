@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 22:01",
+  "updateTime": "2026-06-23 22:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
-        "assets": "📉 原油 承压\n📉 能源股 利空",
-        "chain": "伊朗增产预期压低油价（商品价格），利空能源股（相关公司利润），但利好炼油厂（成本降低）",
-        "watch": "伊朗实际出口量及OPEC+（石油输出国组织）后续反应"
+        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
+        "assets": "📉 原油 承压；📉 能源股 利空",
+        "chain": "伊朗出口增→供给宽松→油价跌→OPEC+可能减产（协调石油输出国组织产量）",
+        "watch": "伊朗实际出口量及OPEC+会议声明"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特斯拉撞入德州住宅致人死亡，美监管机构调查",
-        "assets": "📉 特斯拉 承压\n📉 自动驾驶概念股 利空",
-        "chain": "监管风险升温（可能加强法规限制），拖累特斯拉股价（市场信心），连带影响自动驾驶供应链（相关公司订单预期）",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论及召回公告"
+        "what": "美国监管机构调查特斯拉撞入民宅致死事故",
+        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
+        "chain": "FSD（全自动驾驶）安全质疑→监管收紧风险→车企成本增",
+        "watch": "NHTSA（国家公路安全局）最终调查报告及处罚"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内可绕过网络安全系统",
-        "assets": "📈 网络安全股 利好\n📉 AI应用股 承压",
-        "chain": "网络安全支出预期上升（防御需求），AI监管风险加剧（可能限制开发），利空无防护的AI公司（合规成本）",
-        "watch": "各国AI安全法规进展及网络安全公司财报"
+        "what": "五眼联盟警告AI数月内可突破网络安全系统",
+        "assets": "📈 网络安全股 利好；📉 AI应用股 承压",
+        "chain": "安全威胁升级→企业/政府加码安全预算→AI监管加速",
+        "watch": "CrowdStrike等网安公司订单及美国AI行政令"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "美光财报预期飙升987%，AI大趋势驱动",
-        "assets": "📈 美光 利好\n📈 半导体板块 利好",
-        "chain": "AI芯片需求爆发（算力要求），带动存储芯片涨价（供需紧张），利好美光及同行（利润增长），但估值可能透支",
-        "watch": "美光实际财报指引及DRAM（动态随机存取存储器）现货价格"
+        "what": "美光财报预期盈利暴增987%因AI大趋势",
+        "assets": "📈 美光股价 利好；📈 半导体/存储芯片 利好",
+        "chain": "HBM（高带宽内存）需求旺→DRAM涨价→芯片设备商受益",
+        "watch": "美光下季度营收指引及HBM产能扩张"
       }
     },
     {
@@ -66,37 +66,37 @@
       "score": 30,
       "insight": {
         "what": "特朗普威胁起诉ABC关于Reflecting Pool报道",
-        "assets": "📉 媒体股 承压\n📈 特朗普概念股 利好",
-        "chain": "法律诉讼风险增加媒体合规成本（运营压力），政治不确定性上升（政策波动），利好特朗普相关公司（游说预期）",
-        "watch": "ABC法律回应及案件进展"
+        "assets": "📉 媒体股 承压；📉 特朗普媒体科技集团 波动",
+        "chain": "法律战升级→媒体审查风险→政治不确定性上升",
+        "watch": "ABC母公司迪士尼股价及诽谤案进展"
       }
     },
     {
       "rank": 6,
+      "title": "Alphabet Stock Set to Fall for Second Day as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "谷歌DeepMind诺奖得主跳槽Anthropic",
+        "assets": "📉 Alphabet 利空；📈 Anthropic（未上市）利好",
+        "chain": "人才流失→AI竞争加剧→谷歌云（云计算业务）或失客户",
+        "watch": "谷歌AI产品发布节奏及Anthropic融资动态"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Here are Tuesday's biggest analyst calls: SpaceX, Micron, Nvidia, Tesla, IBM, Broadcom, Target, Netflix & more",
       "source": "CNBC",
       "detail": "Here are Tuesday's biggest calls on Wall Street.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "分析师密集调仓：SpaceX、美光、英伟达等受关注",
-        "assets": "📈 英伟达 利好\n📈 美光 利好\n📉 特斯拉 承压",
-        "chain": "机构资金轮动（仓位调整），AI/半导体获增配（增长预期），特斯拉遭减配（监管风险），短期加剧板块分化",
-        "watch": "大型基金13F（持仓报告）及期权持仓变化"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Stock Market Today: Nasdaq Opens Lower as Tech Selloff Deepens - WSJ",
-      "source": "WSJ",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "纳斯达克低开，科技股抛售加剧",
-        "assets": "📉 纳指 承压\n📉 科技股 普跌",
-        "chain": "资金从高估值科技股流出（避险情绪），转向防御板块（公用事业等），若持续可能触发系统性回调（市场连锁反应）",
-        "watch": "VIX（恐慌指数）及科技巨头财报"
+        "what": "分析师密集调仓：SpaceX、美光、英伟达、特斯拉等",
+        "assets": "📈 英伟达/美光 利好；📉 特斯拉/SpaceX 承压",
+        "chain": "机构调仓（资金转移到高确定性标的）→半导体获资金流入",
+        "watch": "个股期权隐含波动率及机构持仓变化"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "建议提前取401(k)避税，社保与IRMAA冲突",
-        "assets": "📈 退休规划服务 利好\n📉 消费股 承压",
-        "chain": "提前取款增加当前消费（短期经济刺激），但减少长期投资（市场资金供给），利空依赖储蓄的资产管理公司",
-        "watch": "401(k)提款率数据及IRS（美国国税局）政策变动"
+        "what": "建议70岁前取完401(k)避IRMAA（退休医保附加费）悬崖",
+        "assets": "📈 美国国债 利好；📉 消费股 承压",
+        "chain": "提前取款→税收收入提前→消费减少→GDP（国内生产总值）短期拖累",
+        "watch": "401(k)提前支取数据及IRS（国税局）IRMAA调整"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "SpaceX股价跌破150美元，市值低于2万亿",
-        "assets": "📉 SpaceX 承压\n📉 太空概念股 利空",
-        "chain": "估值泡沫破裂（前期涨幅过大），利空太空行业融资（投资者信心），但可能吸引价值投资者（逢低买入）",
-        "watch": "SpaceX发射合同及星链（卫星互联网）用户增长"
+        "what": "SpaceX股价跌破150美元发行价，市值跌破2万亿",
+        "assets": "📉 SpaceX 利空；📉 太空概念股 承压",
+        "chain": "估值泡沫破裂→二级市场冷却→IPO（首次公开募股）窗口关闭",
+        "watch": "SpaceX发射合同及Starlink（星链）用户增长数据"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "AI记忆初创公司获9800万美元融资，聚焦降词元成本",
-        "assets": "📈 AI基础设施 利好\n📈 大语言模型公司 利好",
-        "chain": "降低AI推理成本（技术突破），加速应用落地（企业采用），利好上游算力（需求增加）及下游AI应用（利润提升）",
-        "watch": "融资方技术路线及客户签约情况"
+        "what": "AI记忆初创公司融资9800万美元降词元成本",
+        "assets": "📈 AI基础设施 利好；📈 云计算 利好",
+        "chain": "记忆优化→推理成本降→AI应用爆发→算力需求反升",
+        "watch": "该初创公司客户签约及大模型API调用成本变化"
       }
     }
   ]
