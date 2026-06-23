@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 22:21",
+  "updateTime": "2026-06-23 22:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
-        "assets": "📉 原油 承压\n📈 伊朗相关资产 利好",
-        "chain": "伊朗石油出口增加→全球供给宽松→油价下跌→能源股（油气公司股票）承压",
-        "watch": "OPEC+是否减产对冲"
+        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
+        "assets": "📉 原油 承压\n📉 能源股 利空",
+        "chain": "伊朗原油出口增→OPEC+减产（石油输出国组织及其盟友协同减产）松动→油价下行→通胀预期降",
+        "watch": "WTI原油（美国西德克萨斯中质原油）库存及OPEC+最新产量数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特斯拉撞民宅致死，美国监管机构调查",
-        "assets": "📉 特斯拉 利空\n📈 传统车企 短期利好",
-        "chain": "调查可能发现Autopilot（自动驾驶系统）缺陷→监管收紧→特斯拉交付量预期下修",
-        "watch": "NHTSA（美国国家公路交通安全管理局）最终报告结论"
+        "what": "特斯拉撞入民宅致人死亡，美监管机构调查",
+        "assets": "📉 特斯拉 利空\n📉 自动驾驶板块 承压",
+        "chain": "监管审查升级→FSD（完全自动驾驶）审批延迟→特斯拉交付预期下调→做空动能增强",
+        "watch": "NHTSA（美国国家公路交通安全管理局）最终调查结论及召回风险"
       }
     },
     {
@@ -37,42 +37,28 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内可绕过网络安全系统",
-        "assets": "📈 网络安全股 利好\n📉 AI应用股 短期承压",
-        "chain": "AI攻击威胁升级→企业增加安全预算→网络安全公司订单激增→AI监管政策加速",
-        "watch": "CrowdStrike等网络安全公司财报指引"
+        "what": "五眼联盟警告AI数月内将绕过网络安全系统",
+        "assets": "📈 网络安全股 利好\n📈 AI安全初创 利好",
+        "chain": "威胁升级→企业及政府安全支出增加→CrowdStrike（网安龙头）等订单加速→估值重估",
+        "watch": "CrowdStrike、Palo Alto Networks等龙头财报安全支出指引"
       }
     },
     {
       "rank": 4,
-      "title": "Micron Earnings Seen Rising 987% Amid AI Megatrend - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "美光盈利预计飙升987%，AI驱动存储需求",
-        "assets": "📈 美光 利好\n📈 半导体ETF 利好",
-        "chain": "AI大模型训练需要大量HBM（高带宽内存）→存储芯片量价齐升→拉动晶圆代工（芯片制造）产能",
-        "watch": "美光下季度营收指引是否超预期"
-      }
-    },
-    {
-      "rank": 5,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC关于水池报道",
-        "assets": "📉 媒体股 承压\n📈 特朗普媒体(DJT) 短期利好",
-        "chain": "政治诉讼风险上升→媒体公司法律成本增加→压制新闻类股票估值",
-        "watch": "ABC母公司迪士尼股价反应"
+        "what": "特朗普威胁起诉ABC关于其喷泉报道",
+        "assets": "📉 传媒板块 承压\n📈 特朗普媒体 利好",
+        "chain": "法律风险→媒体自我审查→新闻自由度降→传统媒体广告收入受冲击",
+        "watch": "ABC母公司迪士尼股价及媒体行业诉讼案例追踪"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Alphabet Stock Set to Fall for Second Day as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
@@ -80,65 +66,79 @@
       "score": 29,
       "insight": {
         "what": "谷歌DeepMind诺奖得主跳槽Anthropic",
-        "assets": "📉 谷歌 利空\n📈 Anthropic/OpenAI 利好",
-        "chain": "顶级AI人才流失→谷歌AI研发进度受质疑→Anthropic获得人才优势→AI竞争格局生变",
-        "watch": "谷歌AI产品发布节奏是否延迟"
+        "assets": "📉 Alphabet 利空\n📈 Anthropic 利好",
+        "chain": "人才流失→谷歌AI研发进度受挫→Anthropic（AI初创公司）估值提升→AI竞争格局生变",
+        "watch": "Alphabet股价及Anthropic新一轮融资估值"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Here are Tuesday's biggest analyst calls: SpaceX, Micron, Nvidia, Tesla, IBM, Broadcom, Target, Netflix & more",
       "source": "CNBC",
       "detail": "Here are Tuesday's biggest calls on Wall Street.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "分析师密集调仓：SpaceX、英伟达、特斯拉等",
-        "assets": "📈 英伟达 利好\n📈 特斯拉 中性偏多",
-        "chain": "分析师评级变动→机构资金跟随调仓→放大个股波动→影响板块轮动（资金在不同行业间转移）",
-        "watch": "目标价调整幅度及后续机构持仓变动"
+        "what": "分析师重磅评级：SpaceX、英伟达、特斯拉等",
+        "assets": "📈 英伟达 利好\n📈 特斯拉 中性\n📈 美光 利好",
+        "chain": "机构评级调升→资金流入预期→个股波动率（期权隐含波动率）上升→对冲策略调整",
+        "watch": "具体评级目标价变化及期权成交量异常信号"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "A $1.8 Million 401(k) and Social Security Coming Up? Drain It Before 70 to Dodge the IRMAA Cliff - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "建议401k提前提取以规避医保附加费",
-        "assets": "📉 退休金管理公司 利空\n📈 税务顾问业务 利好",
-        "chain": "提前提取增加应税收入→推高IRMAA（收入相关月费调整）→高净值人群调整财务规划",
-        "watch": "IRA（个人退休账户）提款率数据"
+        "what": "建议62岁前耗尽401(k)避税，因社安金IRMAA",
+        "assets": "📈 消费股 利好\n📈 理财顾问 利好",
+        "chain": "提前取款→消费能力增→可选消费（汽车、旅游）需求提振→但税收递延损失需权衡",
+        "watch": "401(k)提前支取率及个人储蓄率月度数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "SpaceX stock falls below $150 debut price, sending market cap under $2 trillion",
       "source": "CNBC",
       "detail": "Gains have been pared back at the space and AI company following an initial surge after its record-breaking IPO.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "SpaceX股价跌破150美元发行价",
+        "what": "SpaceX股价跌破150美元发行价，市值<2万亿",
         "assets": "📉 SpaceX 利空\n📉 太空概念股 承压",
-        "chain": "估值回调引发二级市场抛售→影响SpaceX后续融资能力→拖累太空ETF（交易所交易基金）",
-        "watch": "SpaceX是否启动股票回购计划"
+        "chain": "估值回调→IPO（首次公开募股）窗口收紧→二级市场对未盈利科技公司风险偏好降",
+        "watch": "SpaceX二次发行定价及Starlink（星链）营收数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "聚焦降低词元成本的AI记忆初创企业完成9800万美元融资",
       "source": "环球市场播报",
       "detail": "核心要点 AI 记忆初创企业 Engram（记忆印迹）完成近 1 亿美元融资，旨在提升模型运行效率、遏制暴涨的 AI 使用成本。 该公司称，旗下模型最高可节省 99% 的词元用量...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "AI记忆初创公司融资9800万美元降词元成本",
-        "assets": "📈 AI基础设施 利好\n📈 算力芯片 间接利好",
-        "chain": "降低词元（AI处理文本的最小单位）成本→AI应用更易盈利→刺激更多初创企业入局→增加算力需求",
-        "watch": "该初创公司客户采用率及后续融资估值"
+        "what": "AI记忆公司融9800万美元，专注降词元成本",
+        "assets": "📈 AI基础设施 利好\n📈 存储芯片 利好",
+        "chain": "词元成本降→AI应用规模化提速→推理需求（模型运行计算）增→拉动HBM（高带宽内存）及SSD",
+        "watch": "该公司客户名单及词元成本下降幅度对比"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Alan Greenspan, US Fed 'maestro' through years of boom and bust, dies at 100 - Reuters",
+      "source": "Reuters",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 23,
+      "insight": {
+        "what": "美联储前主席格林斯潘去世，享年100岁",
+        "assets": "📈 美债 短期利好\n📉 美元 中性",
+        "chain": "传奇人物离世→市场怀念其政策风格→短期避险情绪升温→但长期货币框架影响有限",
+        "watch": "美联储官员讲话及10年期美债收益率波动"
       }
     }
   ]
