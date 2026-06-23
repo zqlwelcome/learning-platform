@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 21:46",
+  "updateTime": "2026-06-23 21:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "全球芯片抛售致纳指和标普500暴跌，AI前景存疑",
-        "assets": "📉 美股科技股 利空；📉 半导体板块 承压",
-        "chain": "芯片需求下滑→AI概念股估值回调→避险资金涌入国债（收益率下行）",
-        "watch": "今晚美国CPI数据及英伟达财报指引"
+        "what": "全球芯片抛售引发AI疑虑，纳指和标普500暴跌",
+        "assets": "📉 美股科技股 利空；📉 英伟达等AI芯片股 承压",
+        "chain": "AI泡沫担忧升温，科技板块资金流出，转向防御性资产（如公用事业）避险。",
+        "watch": "今晚美国CPI数据（通胀率）及芯片龙头财报"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国对伊朗石油制裁发布广泛豁免，释放数十亿美元收入",
-        "assets": "📈 原油 利空；📉 地缘风险溢价 下降",
-        "chain": "伊朗原油供给增加预期→OPEC+减产压力加大→能源股承压（油价走低）",
-        "watch": "布伦特原油是否跌破75美元关键支撑位"
+        "what": "美国放宽伊朗石油制裁豁免，释放数十亿美元收入",
+        "assets": "📈 原油 承压（供应增加预期）；📉 能源股 利空",
+        "chain": "油价下跌缓解通胀压力，间接降低美联储加息（提高借钱成本）紧迫性，利好美债。",
+        "watch": "下周OPEC+产量决策及伊朗出口数据"
       }
     },
     {
@@ -37,14 +37,28 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特斯拉撞入德州民宅致死，美国监管机构启动调查",
-        "assets": "📉 特斯拉 承压；📈 自动驾驶监管风险 上升",
-        "chain": "事故强化监管收紧预期→FSD（全自动驾驶）商业化进程受阻→竞争对手股价相对受益",
-        "watch": "NHTSA（国家公路交通安全管理局）是否发布召回令"
+        "what": "美国监管机构调查特斯拉德州致命车祸",
+        "assets": "📉 特斯拉 利空；📉 自动驾驶概念股 承压",
+        "chain": "监管收紧风险上升，可能拖累自动驾驶行业估值，并引发投资者对安全性的诉讼担忧。",
+        "watch": "NHTSA（美国公路安全管理局）调查结论及后续处罚"
       }
     },
     {
       "rank": 4,
+      "title": "芯片巨头涨薪或推高物价，韩国央行要加息？",
+      "source": "21世纪经济报道",
+      "detail": "南方财经 21世纪经济报道记者胡慧茵 报道 6月23日，亚洲科技股子板块遭遇重创，终结了八日连涨势头，其中以韩国股市跌势最猛。截至收盘，韩国KOSPI指数下跌9.99%，报8203...",
+      "lang": "zh",
+      "score": 46,
+      "insight": {
+        "what": "芯片巨头涨薪推高物价，韩国央行或加息",
+        "assets": "📈 韩元 走强（加息预期）；📉 韩国芯片股 承压",
+        "chain": "通胀预期升温，韩国央行可能提前加息（收紧货币），压制消费电子需求。",
+        "watch": "韩国央行利率决议及半导体出口数据"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Stocks drop as Fed rate bets hit tech royalty; dollar gains - Reuters",
       "source": "Reuters",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
@@ -52,23 +66,9 @@
       "score": 45,
       "insight": {
         "what": "美联储降息预期打压科技股，美元走强",
-        "assets": "📉 美股科技成长股 利空；📈 美元指数 利好",
-        "chain": "降息推迟→高久期（长期）资产估值压缩→资金转向银行等价值股（利率敏感）",
-        "watch": "本周美联储官员讲话及点阵图预期变化"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Quantum Computing Stocks Rally After Trump Signs New Industry Support Measures - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "特朗普签新产业支持措施，量子计算股大涨",
-        "assets": "📈 量子计算概念股 利好；📈 国防科技 间接利好",
-        "chain": "政策补贴预期→量子赛道融资加速→与传统计算巨头（英伟达）形成竞争替代",
-        "watch": "具体拨款金额及落地时间表"
+        "assets": "📉 美股科技股 利空；📈 美元 利好",
+        "chain": "美元升值令新兴市场资金外流（资本外逃），大宗商品（如铜、金）承压。",
+        "watch": "美联储官员讲话及下周非农就业数据"
       }
     },
     {
@@ -79,52 +79,52 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC关于其水池报道，称‘喜欢他们的钱’",
-        "assets": "📉 媒体股 利空；📈 特朗普媒体科技集团 利好",
-        "chain": "法律风险增加→媒体审查趋严→广告收入波动（政治化舆论环境）",
-        "watch": "ABC母公司迪士尼股价及诉讼进展"
+        "what": "特朗普威胁起诉ABC报道，称“喜欢他们的钱”",
+        "assets": "📉 媒体股（如ABC母公司迪士尼） 承压；📈 特朗普媒体科技集团 利好",
+        "chain": "政治风险升温，媒体行业法律成本增加，避险情绪推升黄金（避险资产）。",
+        "watch": "案件诉讼进展及相关媒体广告收入变化"
       }
     },
     {
       "rank": 7,
-      "title": "爱士惟IPO二番战，如何把沪港两地信披规则运用到极致？",
-      "source": "市场资讯",
-      "detail": "来源：赶碳号科技 重构电新产业价值 前番在A股IPO时，爱士惟在交易所首轮问询函就被问卡壳答不出、急急忙忙主动撤销了上市申请。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "爱士惟重启IPO，利用沪港信披规则差异优化上市",
-        "assets": "📈 光伏概念股 中性；📉 港股IPO流动性 承压",
-        "chain": "跨市场套利（规则差异）→监管关注信披一致性→影响中概股回流路径选择",
-        "watch": "港交所是否出台新规限制信披差异"
-      }
-    },
-    {
-      "rank": 8,
       "title": "Here are Tuesday's biggest analyst calls: SpaceX, Micron, Nvidia, Tesla, IBM, Broadcom, Target, Netflix & more",
       "source": "CNBC",
       "detail": "Here are Tuesday's biggest calls on Wall Street.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师密集调仓，聚焦SpaceX、英伟达、特斯拉等",
-        "assets": "📈 英伟达 利好；📉 特斯拉 利空；📈 SpaceX 利好",
-        "chain": "分析师评级变动→机构资金调仓→相关期权隐含波动率上升（对冲需求增加）",
-        "watch": "实际资金流向及成交量变化"
+        "what": "分析师集中调评级，涉及SpaceX、英伟达、特斯拉等",
+        "assets": "📈 英伟达 利好（若评级上调）；📉 特斯拉 承压（若下调）",
+        "chain": "机构评级分化加剧波动，散户跟风交易（动量策略）放大单边走势。",
+        "watch": "具体评级报告内容及目标价调整幅度"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "A $1.8 Million 401(k) and Social Security Coming Up? Drain It Before 70 to Dodge the IRMAA Cliff - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "建议401k和社保在70岁前用完以规避IRMAA悬崖税",
-        "assets": "📈 个人退休规划 利好；📉 医疗保健股 中性",
-        "chain": "提前支取策略→增加当期消费/投资→推高通胀预期（短期需求刺激）",
-        "watch": "美国财政部是否调整IRMAA（收入相关调整保费）门槛"
+        "what": "建议退休账户在70岁前提取以规避IRMAA税档",
+        "assets": "📈 消费类股 利好（提取资金可能流入消费）；📉 债券 承压（赎回资金）",
+        "chain": "提前提款增加市场流动性，但可能推高个人税负，影响退休基金持仓结构。",
+        "watch": "税法调整提案及退休账户资金流向数据"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "SpaceX Just Launched Its First Bond Sale. The Stock Market Doesn’t Like It. - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "SpaceX首次发债，股市反应负面",
+        "assets": "📉 SpaceX 利空；📉 太空概念股 承压",
+        "chain": "债券发行稀释股权（增发债务），市场担忧其估值过高，拖累整个太空行业融资环境。",
+        "watch": "SpaceX债券评级及后续融资计划"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "SpaceX股价跌破150美元发行价，市值跌破2万亿",
-        "assets": "📉 SpaceX 利空；📈 太空概念股 承压",
-        "chain": "估值回调→一级市场融资难度上升→拖累马斯克旗下其他公司（特斯拉）情绪",
-        "watch": "SpaceX下次发射任务及融资动态"
+        "what": "SpaceX股价跌破150美元发行价，市值低于2万亿",
+        "assets": "📉 SpaceX 利空；📉 太空板块ETF（交易所交易基金） 承压",
+        "chain": "IPO（首次公开募股）破发打击投资者信心，可能引发连锁抛售，影响其他未上市科技公司估值。",
+        "watch": "SpaceX订单量及未来发射计划公告"
       }
     }
   ]
