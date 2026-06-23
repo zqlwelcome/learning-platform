@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 06:20",
+  "updateTime": "2026-06-24 06:23",
   "news": [
     {
       "rank": 1,
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "Cerebras财报预测利润率缩窄，股价暴跌8%-10%",
+        "assets": "📉 芯片板块 承压；📉 Cerebras 利空",
+        "chain": "毛利率指引恶化暗示竞争加剧（如英伟达挤压），可能引发AI芯片股估值下修（杀估值）。",
+        "watch": "下一季度毛利率实际数及订单指引"
+      }
     },
     {
       "rank": 4,
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX在IPO后两周内通过债券融资250亿美元",
+        "assets": "📈 SpaceX债券 利好；📈 太空概念股 情绪提振",
+        "chain": "高额债务融资显示资本开支需求大，但IPO后快速发债可能稀释股权（利空现有股东），并推高太空板块风险溢价。",
+        "watch": "债券的票息和认购倍数"
+      }
     },
     {
       "rank": 5,
@@ -51,7 +63,13 @@
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "摩根士丹利称韩国股市大跌并非趋势性破位",
+        "assets": "📉 韩国综合指数 短期承压；📈 新兴市场ETF 中性",
+        "chain": "大行看多信号可能缓解恐慌抛售，但外资流出压力仍在（韩元贬值预期），需观察技术位支撑。",
+        "watch": "韩国KOSPI指数200日均线得失"
+      }
     },
     {
       "rank": 6,
@@ -75,10 +93,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "摩根士丹利称韩国股市大跌并非趋势性破位",
-        "assets": "📉 韩国综合指数 短期承压；📈 新兴市场ETF 中性",
-        "chain": "大行看多信号可能缓解恐慌抛售，但外资流出压力仍在（韩元贬值预期），需观察技术位支撑。",
-        "watch": "韩国KOSPI指数200日均线得失"
+        "what": "联邦快递财报强劲，货运业务表现超预期",
+        "assets": "📈 联邦快递 利好；📈 物流板块 看涨",
+        "chain": "货运需求回暖暗示美国经济韧性（软着陆概率上升），可能利好工业股和消费股，但需警惕通胀反弹。",
+        "watch": "其他物流公司（如UPS）财报及PMI（采购经理人指数）"
       }
     },
     {
@@ -103,10 +121,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "Alphabet股价下跌，第二位AI核心高管跳槽",
-        "assets": "📉 谷歌 利空；📉 科技股 情绪偏空",
-        "chain": "人才流失加剧市场对谷歌AI竞争力担忧（落后于OpenAI），可能拖累云计算和搜索广告收入预期。",
-        "watch": "谷歌AI产品发布节奏及竞品动态"
+        "what": "盘后异动股汇总：FedEx、Cerebras、KB Home等领涨/领跌",
+        "assets": "📈 FedEx 利好；📉 Cerebras 利空；📈 KB Home 关注",
+        "chain": "盘后行情反映财报季情绪分化：FedEx（货运强劲）支撑经济韧性叙事，Cerebras（毛利缩窄）压制芯片估值，KB Home（地产数据）提供地产板块信号，次日开盘可关注跳空幅度。",
+        "watch": "次日开盘价格跳空幅度及整体交易量"
       }
     },
     {
@@ -115,7 +133,13 @@
       "source": "Bloomberg",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Alphabet股价下跌，第二位AI核心高管跳槽",
+        "assets": "📉 谷歌 利空；📉 科技股 情绪偏空",
+        "chain": "人才流失加剧市场对谷歌AI竞争力担忧（落后于OpenAI），可能拖累云计算和搜索广告收入预期。",
+        "watch": "谷歌AI产品发布节奏及竞品动态"
+      }
     }
   ]
 }
