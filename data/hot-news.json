@@ -1,100 +1,78 @@
 {
-  "updateTime": "2026-06-24 04:20",
+  "updateTime": "2026-06-24 04:25",
   "news": [
     {
       "rank": 1,
-      "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100 - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 51,
-      "insight": {
-        "what": "美联储前主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 情绪承压",
-        "chain": "市场缅怀鸽派（偏宽松货币政策）前主席，短期压低长端美债（长期国债）收益率",
-        "watch": "美联储官员讲话基调"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "Commentary: How the coming AI-related IPOs could puncture the AI bubble - Los Angeles Times",
-      "source": "Los Angeles Times",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "AI价格战威胁Anthropic和OpenAI的IPO前景",
-        "assets": "📉 AI初创公司估值 承压；📉 科技IPO市场 利空",
-        "chain": "降价侵蚀利润率（赚钱能力），降低IPO估值预期，拖累整个AI板块风险偏好（投资情绪）",
-        "watch": "OpenAI和Anthropic的定价及客户流失率"
-      }
-    },
-    {
-      "rank": 3,
       "title": "An AI price war could steal the thunder from pending Anthropic, OpenAI IPOs",
       "source": "CNBC",
       "detail": "Companies are bemoaning AI's hefty price tag, and some are looking at cheaper models that are nearly as good.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "五眼联盟警告AI数月内可绕过网络安全系统",
+        "assets": "📈 网络安全板块 利好",
+        "chain": "AI威胁升级推升企业安全支出，利好网安公司；利空AI公司，因监管收紧风险",
+        "watch": "网络安全ETF（交易所交易基金）资金流入"
+      }
     },
     {
-      "rank": 4,
+      "rank": 2,
       "title": "IPO前夕 OpenAI向戛纳营销从业者推介ChatGPT广告业务",
       "source": "环球市场播报",
       "detail": "OpenAI首次亮相全球顶级广告盛会。本周，该公司面向各大营销人员与广告代理机构推介其刚起步的ChatGPT广告业务以及Codex编程工具...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "评论警告AI相关IPO可能刺破AI泡沫",
-        "assets": "📉 AI概念股 利空；📈 做空AI板块 利好",
-        "chain": "IPO集中上市（首次公开募股）引发供给过剩，估值回调风险传导至科技大盘（纳斯达克指数）",
-        "watch": "Anthropic和OpenAI IPO定价及首日表现"
+        "what": "AI价格战威胁Anthropic和OpenAI的IPO前景",
+        "assets": "📉 AI初创公司估值 承压",
+        "chain": "定价压力（价格战）挤压利润率，推迟IPO窗口，利空一级市场（未上市企业融资）",
+        "watch": "OpenAI/Anthropic融资轮估值变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX在IPO后两周内通过债券发行筹集250亿美元",
-        "assets": "📈 SpaceX债券 利好；📈 太空概念股 情绪利好",
-        "chain": "债务融资（借钱）显示市场信心，强化SpaceX现金流（手头现金），但高负债率（欠债多）增加财务风险",
-        "watch": "SpaceX债券评级及后续融资计划"
+        "what": "SpaceX在IPO后不到两周发行250亿美元债券",
+        "assets": "📉 SpaceX债券 承压",
+        "chain": "IPO后快速发债表明资本需求大，可能稀释股权（股份价值），利空SpaceX现有股东；债券供给增加推高利率",
+        "watch": "SpaceX债券收益率走势"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "SpaceX在IPO后不到两周，通过债券发行筹集250亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX在创纪录的首次公开募股（IPO）后不到两周，便通过债券发行筹集了250亿美元。 SpaceX于周一宣布发行优先无担保票据，消息人士称，公司最初计划筹资200亿美元。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "OpenAI在IPO前向戛纳营销从业者推介ChatGPT广告业务",
-        "assets": "📈 数字广告股 利好；📈 OpenAI估值 利好",
-        "chain": "变现渠道拓宽（多赚钱），提升IPO吸引力，但可能加剧广告市场竞争，挤压Meta（脸书母公司）份额",
-        "watch": "OpenAI广告收入数据及广告主反馈"
+        "what": "OpenAI在戛纳向广告主推销ChatGPT广告业务",
+        "assets": "📈 AI广告技术 利好",
+        "chain": "AI变现渠道拓宽，利好OpenAI营收，但可能加剧广告科技（AdTech）竞争，利空传统广告平台",
+        "watch": "OpenAI广告业务营收数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Tesla admits FSD was on in fatal Texas crash, blames driver for ‘overriding’ it - Electrek",
       "source": "Electrek",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉承认FSD在得州致命事故中启用，归咎驾驶员干预",
-        "assets": "📉 特斯拉股价 利空；📉 自动驾驶板块 承压",
-        "chain": "监管审查（被查）风险上升，拖累全自动驾驶商业化预期，利空激光雷达（激光探测技术）供应商",
-        "watch": "NHTSA（美国公路安全局）调查进展及诉讼结果"
+        "what": "特斯拉承认FSD在致命事故中开启，归咎驾驶员干预",
+        "assets": "📉 特斯拉股价 承压",
+        "chain": "自动驾驶安全争议升级，可能引发监管审查（监管风险），利空特斯拉及自动驾驶板块",
+        "watch": "NHTSA（美国国家公路安全局）调查进展"
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "瑞银认为美联储短期内不会加息",
       "source": "环球市场播报",
       "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
@@ -102,37 +80,59 @@
       "score": 36,
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美股 利好；📈 美债 利好；📉 美元 承压",
-        "chain": "利率维持不变（借钱成本稳定），支撑风险资产（股票），但通胀（物价上涨）若反弹将打脸瑞银观点",
-        "watch": "下周CPI（消费者物价指数）数据及美联储点阵图（利率预测）"
+        "assets": "📈 美股大盘 利好",
+        "chain": "加息预期降温（利率不变），降低企业融资成本，利好股市，但需警惕通胀数据反复",
+        "watch": "美国CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "FedEx posts strong earnings results in last quarter with freight business",
       "source": "CNBC",
       "detail": "FedEx posted strong fiscal fourth quarter earnings on Tuesday in the company's last quarter that included the freight business before its spin-off.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递货运业务强劲，上季度盈利超预期",
-        "assets": "📈 物流股 利好；📈 工业板块 情绪利好",
-        "chain": "货运需求旺盛暗示经济韧性（抗衰退能力），利好运输ETF（交易所交易基金），但高油价（能源成本）仍是风险",
-        "watch": "联邦快递下季度指引及零售销售数据"
+        "what": "美元指数创11月新高，交易员押注美联储加息",
+        "assets": "📈 美元 利好；📉 新兴市场货币 承压",
+        "chain": "美元走强（汇率上升）压制大宗商品价格，新兴市场资本外流（资金流出），利空新兴市场股市债市",
+        "watch": "美联储降息概率（CME FedWatch工具）"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
       "source": "CBS News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32,
+      "score": 32
+    },
+    {
+      "rank": 9,
+      "title": "加息担忧冲击贵金属市场，黄金、白银价格大幅下挫",
+      "source": "环球市场播报",
+      "detail": "核心要点 受加息恐慌引发市场避险情绪降温影响，全球科技股走低，黄金、白银价格周二同步下行。 自 2 月 28 日美伊冲突爆发以来，黄金作为动荡时期 “避险资产”...",
+      "lang": "zh",
+      "score": 30,
       "insight": {
-        "what": "五眼联盟警告AI将在数月而非数年突破网络安全系统",
-        "assets": "📈 网络安全股 利好；📉 AI监管 政策利空",
-        "chain": "安全威胁升级（黑客攻击风险）迫使企业增加网安预算，利好Palo Alto（网络安全公司）等，但可能引发AI使用限制（法规收紧）",
-        "watch": "各国网络安全法规进展及AI攻击事件频率"
+        "what": "加息担忧冲击贵金属，金银价格大跌",
+        "assets": "📉 黄金/白银 承压",
+        "chain": "加息预期推高实际利率（名义利率减通胀），增加持有贵金属的机会成本（放弃利息），利空金银",
+        "watch": "美国PCE（个人消费支出）通胀数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "美元指数创11月以来最高水平 交易员上调美联储升息押注",
+      "source": "环球市场播报",
+      "detail": "美元即期指数周二升至去年11月以来最高水平，交易员进一步强化了对美联储今年加息的预期。 美元即期指数上涨0.4%。随着美联储政策前景与全球其他主要央行日益背离...",
+      "lang": "zh",
+      "score": 28,
+      "insight": {
+        "what": "联邦快递货运业务强劲，上季度盈利超预期",
+        "assets": "📈 物流/货运板块 利好",
+        "chain": "货运需求韧性（经济活跃度指标），利好运输业，但可能反映库存回补而非终端消费强劲",
+        "watch": "FedEx下季度指引"
       }
     }
   ]
