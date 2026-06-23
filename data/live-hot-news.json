@@ -1,25 +1,25 @@
 {
-  "updateTime": "2026-06-23 21:59",
-  "newsUpdateTime": "2026-06-23 21:59",
-  "analysisUpdateTime": "2026-06-23 21:59",
+  "updateTime": "2026-06-24 00:29",
+  "newsUpdateTime": "2026-06-24 00:29",
+  "analysisUpdateTime": "2026-06-24 00:29",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "芯片巨头涨薪或推高物价韩国央行要加息|多家人工智能政治行动委员会豪掷2000万美元角逐纽约国会选区选举|spacex抹去跌幅转为上涨市值在2万亿美元附近波动|视频合作多年如今却对簿公堂富国基金起诉光大银行南京分行|spacex股价跌破150美元上市开盘价市值失守2万亿美元关口|美能源部推出175亿美元核能项目贷款加速10台反应堆建设|存储芯片全线跳水闪迪美光科技盘前一度跌超10|主力大调仓109亿资金撤出易中天|特朗普儿童储蓄账户注册量已超600万个|spacex股价失血不止市值或跌破2万亿美元",
+  "titleFingerprint": "富国银行将罗斯百货的股票评级从增持下调至中性|多家人工智能政治行动委员会豪掷2000万美元角逐纽约国会选区选举|美股必需消费品板块逆势走强|欧洲央行副行长预计通胀将在更长时间内维持高位|市场消息spacexspcxo高评级债券发行获得890亿美元认购|总投资200亿元688469扩产芯片|spacex抹去跌幅转为上涨市值在2万亿美元附近波动|高盛二季度股票交易业务营收据悉将突破50亿美元再创行业纪录|瑞银认为美联储短期内不会加息|特朗普政府将提供175亿美元贷款推动美国大型核电站建设",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
-      "title": "芯片巨头涨薪或推高物价，韩国央行要加息？",
-      "source": "21世纪经济报道",
-      "detail": "南方财经 21世纪经济报道记者胡慧茵 报道 6月23日，亚洲科技股子板块遭遇重创，终结了八日连涨势头，其中以韩国股市跌势最猛。截至收盘，韩国KOSPI指数下跌9.99%，报8203...",
-      "url": "https://finance.sina.com.cn/roll/2026-06-23/doc-iniemfsm6351498.shtml",
+      "title": "富国银行将罗斯百货的股票评级从增持下调至中性",
+      "source": "环球市场播报",
+      "detail": "尽管过去一年罗斯百货股价表现亮眼，富国银行仍将其股票评级从增持下调至中性。分析师艾克・博鲁乔维持 245 美元的目标价不变，相较该股周一收盘价仍有 3.4% 的上涨空间。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-24/doc-iniemmyi6283985.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 99,
+      "score": 91,
       "insight": {
-        "what": "芯片巨头涨薪或推高物价，韩国央行要加息？",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
+        "what": "富国银行将罗斯百货的股票评级从增持下调至中性",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
@@ -40,13 +40,77 @@
     },
     {
       "rank": 3,
+      "title": "美股必需消费品板块逆势走强",
+      "source": "环球市场播报",
+      "detail": "资金周二从芯片板块撤离，必需消费品板块因此受益迎来上涨。 午盘交易时段，标普 500 必需消费品板块上涨 1.7%，在大盘 11 个行业板块中涨幅领跑；同期标普 500...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-24/doc-iniemmym8598923.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 82,
+      "insight": {
+        "what": "美股必需消费品板块逆势走强",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "欧洲央行副行长：预计通胀将在更长时间内维持高位",
+      "source": "环球市场播报",
+      "detail": "欧洲央行副行长Boris Vujcic表示，考虑到通胀将在更长时间内维持高位，央行加息的决定是“稳健的”。 他周二在伦敦表示，与此同时，大多数长期通胀预期仍与欧洲央行2%的目标...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-24/doc-iniemmym8597439.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 79,
+      "insight": {
+        "what": "欧洲央行副行长：预计通胀将在更长时间内维持高位",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "市场消息：SpaceX(SPCX.O)高评级债券发行获得890亿美元认购",
+      "source": "金十快讯",
+      "detail": "市场消息：SpaceX(SPCX.O)高评级债券发行获得890亿美元认购。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 78,
+      "insight": {
+        "what": "市场消息：SpaceX(SPCX.O)高评级债券发行获得890亿美元认购",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "总投资200亿元，688469扩产芯片",
+      "source": "上海证券报",
+      "detail": "6月23日晚间，芯联集成（688469）发布对外投资进展公告。近日，公司与芯联先进集成电路制造（绍兴）有限公司（简称“芯联先进”）、绍兴柯桥芯合先进集成创业投资基金合伙企...",
+      "url": "https://finance.sina.com.cn/wm/2026-06-23/doc-iniemmyi6272335.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 76,
+      "insight": {
+        "what": "总投资200亿元，688469扩产芯片",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 7,
       "title": "SpaceX抹去跌幅转为上涨 市值在2万亿美元附近波动",
       "source": "环球市场播报",
       "detail": "SpaceX股价在盘前交易中转为上涨，抹去了此前的跌幅。该跌势原本会让马斯克领导的这家火箭、卫星和人工智能公司遭遇四日连跌。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-23/doc-iniemfsn1884229.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 81,
+      "score": 72,
       "insight": {
         "what": "SpaceX抹去跌幅转为上涨 市值在2万亿美元附近波动",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -55,80 +119,16 @@
       }
     },
     {
-      "rank": 4,
-      "title": "视频 | 合作多年如今却对簿公堂，富国基金起诉光大银行南京分行",
-      "source": "市场资讯",
-      "detail": "视频 | 合作多年如今却对簿公堂，富国基金起诉光大银行南京分行",
-      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-06-23/doc-iniemfsi9571728.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 75,
-      "insight": {
-        "what": "视频 | 合作多年如今却对簿公堂，富国基金起诉光大银行南京分行",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "SpaceX股价跌破150美元上市开盘价，市值失守2万亿美元关口",
+      "rank": 8,
+      "title": "高盛二季度股票交易业务营收据悉将突破50亿美元 再创行业纪录",
       "source": "环球市场播报",
-      "detail": "核心要点SpaceX 股价周二继续下行，即将迎来连续第四个交易日下跌。市场对该公司原本高涨的看多情绪降温，该股周一暴跌 16%。周二，SpaceX 市值跌破 2 万亿美元。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-23/doc-iniemfsi9581932.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 73,
-      "insight": {
-        "what": "SpaceX股价跌破150美元上市开盘价，市值失守2万亿美元关口",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "美能源部推出175亿美元核能项目贷款 加速10台反应堆建设",
-      "source": "环球市场播报",
-      "detail": "特朗普政府极力推动核电复兴，计划投入数百亿美元资金支持反应堆采购项目。 一项定于周二公布的新方案显示，美国能源部将提供总额175亿美元低息贷款...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-23/doc-iniemfsm6355486.shtml",
+      "detail": "知情人士透露，高盛集团的股票交易业务即将在第二季度创下另一项纪录，营收额有望超过50亿美元。 在本季度仅剩最后一周之际，高管们预计高盛股票交易业务营收可能超过第一...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-24/doc-iniemmyi6283664.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
       "score": 71,
       "insight": {
-        "what": "美能源部推出175亿美元核能项目贷款 加速10台反应堆建设",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "存储芯片，全线跳水！闪迪、美光科技盘前一度跌超10%",
-      "source": "滚动播报",
-      "detail": "（来源：中国基金报） 【导读】美股存储芯片盘前全线重挫，费城半导体指数30只成份股集体大跌 中国基金报记者 张舟 北京时间6月23日，美股存储芯片盘前全线重挫...",
-      "url": "https://finance.sina.com.cn/wm/2026-06-23/doc-iniekzkq1974179.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 70,
-      "insight": {
-        "what": "存储芯片，全线跳水！闪迪、美光科技盘前一度跌超10%",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "主力大调仓，109亿资金撤出“易中天”",
-      "source": "中国证券报",
-      "detail": "6月23日，A股市场大幅调整，三大指数集体下跌。截至收盘，上证指数跌1.37%，深证成指跌3.17%，创业板指跌3.84%。 资金面上，今日沪深两市主力资金净流出981.07亿元...",
-      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-06-23/doc-iniemfsi9578580.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 69,
-      "insight": {
-        "what": "主力大调仓，109亿资金撤出“易中天”",
+        "what": "高盛二季度股票交易业务营收据悉将突破50亿美元 再创行业纪录",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
@@ -136,31 +136,31 @@
     },
     {
       "rank": 9,
-      "title": "特朗普儿童储蓄账户注册量已超600万个",
+      "title": "瑞银认为美联储短期内不会加息",
       "source": "环球市场播报",
-      "detail": "核心要点 美国财政部最新数据显示，已有超过 600 万名儿童完成特朗普账户注册。其中约 140 万名儿童可申领财政部提供的 1000 美元试点启动资金。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-23/doc-iniemfsm6352701.shtml",
+      "detail": "上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-23/doc-iniemfsp8699469.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 69,
+      "score": 70,
       "insight": {
-        "what": "特朗普儿童储蓄账户注册量已超600万个",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
+        "what": "瑞银认为美联储短期内不会加息",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
       }
     },
     {
       "rank": 10,
-      "title": "SpaceX股价失血不止 市值或跌破2万亿美元",
+      "title": "特朗普政府将提供175亿美元贷款 推动美国大型核电站建设",
       "source": "环球市场播报",
-      "detail": "SpaceX股价在盘前交易中延续跌势，此前一天该公司市值蒸发规模创美股史上第二大‌。 该股一度下跌5%至147美元左右，已低于150美元的首日开盘价。",
-      "url": "https://finance.sina.com.cn/world/2026-06-23/doc-iniekvap9690354.shtml",
+      "detail": "-特朗普政府将提供175亿美元贷款，用于支持公用事业公司订购西屋电气公司（Westinghouse Electric Co．）设计的反应堆设备，此举旨在重振美国大型核电站建设。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-23/doc-iniemmyk1812221.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
       "score": 68,
       "insight": {
-        "what": "SpaceX股价失血不止 市值或跌破2万亿美元",
+        "what": "特朗普政府将提供175亿美元贷款 推动美国大型核电站建设",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
