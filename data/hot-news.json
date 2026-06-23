@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "Cerebras财报显示利润率收窄，股价首日跌8%",
+        "assets": "📉 Cerebras 利空；📉 AI芯片板块 承压",
+        "chain": "AI芯片竞争加剧（英伟达挤压），市场重新定价AI硬件估值（市盈率压缩）。",
+        "watch": "Cerebras下季度毛利率指引及客户订单量"
+      }
     },
     {
       "rank": 3,
@@ -31,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称德州致命车祸中司机手动接管了FSD",
-        "assets": "📉 特斯拉 股票 利空；📉 自动驾驶概念 承压",
-        "chain": "事故责任争议增加监管风险（可能收紧自动驾驶审批），拖累行业情绪",
-        "watch": "NHTSA调查进展及特斯拉FSD事故数据"
+        "what": "特斯拉声称德州致命事故中司机手动接管FSD",
+        "assets": "📉 特斯拉 利空；📉 自动驾驶概念 承压",
+        "chain": "监管审查风险上升（FSD安全记录），可能推迟全自动驾驶法规批准。",
+        "watch": "NHTSA（美国公路安全局）是否启动正式调查"
       }
     },
     {
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "Cerebras因利润率指引恶化，股价再跌10%",
+        "assets": "📉 Cerebras 利空；📉 半导体行业 偏空",
+        "chain": "毛利率收缩引发市场对AI芯片定价权的担忧（非英伟达厂商议价能力弱）。",
+        "watch": "Cerebras管理层是否下调全年营收预测"
+      }
     },
     {
       "rank": 5,
@@ -51,7 +63,13 @@
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "SpaceX在IPO后两周通过发债融资250亿美元",
+        "assets": "📈 SpaceX 利好；📉 债券市场 承压（供给冲击）",
+        "chain": "高评级企业债供给增加（信用利差走阔），但显示SpaceX资本扩张信心（估值支撑）。",
+        "watch": "SpaceX债券认购倍数及二级市场收益率"
+      }
     },
     {
       "rank": 6,
@@ -59,7 +77,13 @@
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "韩国股市暴跌，但摩根士丹利称非趋势性破位",
+        "assets": "📉 韩国KOSPI指数 利空；📈 新兴市场 分化",
+        "chain": "韩股受全球科技股抛售拖累（半导体周期），但估值低吸引抄底资金（均值回归交易）。",
+        "watch": "韩国出口数据（尤其是半导体出口同比）"
+      }
     },
     {
       "rank": 7,
@@ -69,10 +93,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX IPO后股价下跌，但发行250亿美元债券",
-        "assets": "📉 SpaceX 股票 承压；📈 太空概念债 利好",
-        "chain": "债务融资增加杠杆（借钱成本变高），可能摊薄现有股东权益，拖累估值",
-        "watch": "SpaceX后续订单及发射合同数据"
+        "what": "SpaceX在IPO后不足两周，发债筹资250亿美元",
+        "assets": "📈 SpaceX 利好；📉 高收益债 承压",
+        "chain": "债券供给增加推高融资成本（利率上升），但SpaceX现金流预期改善（商业航天订单）。",
+        "watch": "SpaceX后续融资计划及Starlink收入数据"
       }
     },
     {
@@ -83,10 +107,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "Cerebras财报预测利润率缩窄，股价跌8%-10%",
-        "assets": "📉 Cerebras 股票 利空；📉 AI芯片板块 承压",
-        "chain": "利润率缩窄=盈利预期下修，引发半导体行业估值重估（PE倍数压缩）",
-        "watch": "Cerebras下季度毛利率指引及竞品财报"
+        "what": "联邦快递财报强劲，货运业务超预期",
+        "assets": "📈 FedEx 利好；📈 美国运输板块 利好",
+        "chain": "货运需求回暖暗示经济韧性（库存周期），利好工业股和GDP预期（鸽派加息预期）。",
+        "watch": "FedEx下季度营收指引及零售库存数据"
       }
     },
     {
@@ -97,10 +121,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "韩国股市遭遇最差交易日之一，但摩根士丹利认为未破位",
-        "assets": "📉 KOSPI指数 承压；📉 新兴市场ETF 利空",
-        "chain": "韩股暴跌触发新兴市场资金外流（risk-off），但技术面未破位暗示可能反弹",
-        "watch": "韩国出口数据及外资流向"
+        "what": "联邦快递财报超预期，货运业务表现强劲",
+        "assets": "📈 FedEx 利好；📈 美国航空货运 利好",
+        "chain": "物流需求旺盛提振消费信心（可选消费），支撑美联储软着陆叙事（利率预期稳定）。",
+        "watch": "FedEx资本开支计划及美国ISM（采购经理人指数）数据"
       }
     },
     {
@@ -111,10 +135,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递财报强劲，货运业务表现突出",
-        "assets": "📈 联邦快递 股票 利好；📈 物流板块 利好",
-        "chain": "强劲财报=经济需求坚挺，利好航运及消费股（供应链景气）",
-        "watch": "FedEx下季度指引及零售数据"
+        "what": "盘后异动：FedEx涨、Cerebras跌、KB Home等波动",
+        "assets": "📈 FedEx 利好；📉 Cerebras 利空；📉 KB Home 中性偏弱",
+        "chain": "个股分化反映板块轮动（从AI硬件转向传统经济），财报季波动率（VIX）上升。",
+        "watch": "美股期货盘前走势及财报季整体盈利超预期比例"
       }
     }
   ]
