@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 22:51",
+  "updateTime": "2026-06-23 22:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
-        "assets": "📈 原油 承压；📉 地缘政治风险 缓解",
-        "chain": "豁免增加供应预期，压低油价；伊朗收入增加可能缓解中东紧张（地缘溢价下降）",
-        "watch": "伊朗原油出口量及OPEC+后续产量决策"
+        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
+        "assets": "📉 原油 承压\n📈 伊朗相关资产 利好",
+        "chain": "油价下跌→降低通胀预期→减缓美联储加息（收紧货币）压力，利空能源股",
+        "watch": "伊朗原油出口量及OPEC（石油输出国组织）后续产量调整"
       }
     },
     {
@@ -23,14 +23,28 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "美国监管机构调查特斯拉撞入德州民宅致死事故",
-        "assets": "📉 特斯拉 利空；📈 传统车企 相对利好",
-        "chain": "自动驾驶安全担忧升温，可能延缓监管审批（FSD（完全自动驾驶）商业化受阻）；竞争格局短期倾斜",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论及特斯拉股价反应"
+        "what": "美国监管机构调查特斯拉撞车致死事故",
+        "assets": "📉 特斯拉 利空",
+        "chain": "监管升级→自动驾驶技术审查趋严→拖累自动驾驶概念股（如Waymo）",
+        "watch": "NHTSA（美国国家公路安全管理局）调查结论及后续召回"
       }
     },
     {
       "rank": 3,
+      "title": "IPO前夕 OpenAI向戛纳营销从业者推介ChatGPT广告业务",
+      "source": "环球市场播报",
+      "detail": "OpenAI首次亮相全球顶级广告盛会。本周，该公司面向各大营销人员与广告代理机构推介其刚起步的ChatGPT广告业务以及Codex编程工具...",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "OpenAI向广告商推介ChatGPT广告业务，准备IPO",
+        "assets": "📈 AI广告概念股 利好\n📉 传统广告平台 承压",
+        "chain": "AI广告效率提升→挤压谷歌、Meta（社交平台）广告份额→广告行业重新定价",
+        "watch": "OpenAI广告定价及客户签约数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
       "source": "CBS News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -38,107 +52,93 @@
       "score": 32,
       "insight": {
         "what": "五眼联盟警告AI数月内可绕过网络安全系统",
-        "assets": "📈 网络安全股 利好；📉 AI应用股 承压",
-        "chain": "安全需求激增利好CrowdStrike等；监管收紧风险压制AI算力（如英伟达）估值",
-        "watch": "美国AI监管法案进展及网络安全ETF资金流向"
+        "assets": "📈 网络安全股 利好\n📉 AI应用股 承压",
+        "chain": "AI攻击威胁升级→企业加大安全预算→利好CrowdStrike等安全厂商",
+        "watch": "各国网络安全法规动向及安全软件订单增速"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC关于其喷泉报道",
-        "assets": "📈 媒体股 承压；📉 政治不确定性 上升",
-        "chain": "法律风险压制媒体行业情绪；政治极化可能拖累政策推进（如财政刺激）",
-        "watch": "ABC母公司迪士尼股价及新闻自由相关诉讼动态"
+        "what": "特朗普威胁起诉ABC关于华盛顿水池的报道",
+        "assets": "📉 媒体股 承压\n📈 保守派媒体 利好",
+        "chain": "法律风险上升→媒体自我审查加剧→政治极化推高特定媒体收视率",
+        "watch": "ABC诉讼进展及媒体行业法律成本变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "科金明IPO：募投产能是在手订单百倍以上 经营净现金流“腰斩”应收账款大增",
       "source": "新浪证券",
       "detail": "北交所上市委员会将于6月26日审议深圳市科金明电子股份有限公司（以下简称“科金明”）的首发申请。这家以智能微投、智能云相框为核心产品的消费电子企业...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "科金明IPO募投产能为在手订单百倍，现金流腰斩",
-        "assets": "📉 科金明 利空；📈 次新股板块 承压",
-        "chain": "产能过剩担忧削弱投资者信心；应收账款大增暗示下游回款困难（流动性风险）",
-        "watch": "IPO发行价及首日涨跌幅；监管问询回复"
+        "what": "科金明IPO：募投产能是订单百倍，现金流腰斩",
+        "assets": "📉 新股市场 利空\n📉 科金明 看空",
+        "chain": "产能过剩风险→市场质疑IPO质量→拖累次新股估值（市盈率）",
+        "watch": "科金明招股书修订及机构认购率"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "信诺维IPO：实控人配偶套现超3亿元 供应商突击入股采购额激增67倍",
       "source": "新浪证券",
       "detail": "苏州信诺维医药科技股份有限公司（下称“信诺维”）将于6月26日迎来科创板上会大考。这家由前中金公司医药行业首席分析师强静创办的创新药企...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "信诺维IPO实控人配偶套现3亿，供应商突击入股",
-        "assets": "📉 信诺维 利空；📈 监管核查 压力",
-        "chain": "关联交易和利益输送嫌疑损害IPO诚信（公司治理风险）；供应商采购激增67倍或为粉饰业绩",
-        "watch": "证监会是否启动现场检查及保荐机构责任认定"
+        "what": "信诺维IPO：实控人配偶套现，供应商突击入股",
+        "assets": "📉 信诺维 看空\n📉 生物医药板块 承压",
+        "chain": "关联交易嫌疑→监管问询风险→打压IPO审批通过率",
+        "watch": "证监会问询函及供应商采购数据真实性"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "Alphabet Stock Set to Fall for Second Day as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
+      "source": "Barron's",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "谷歌DeepMind诺奖得主跳槽Anthropic，股价连跌",
+        "assets": "📉 Alphabet 利空\n📈 Anthropic 利好",
+        "chain": "人才流失→AI竞争劣势→谷歌云（云服务）业务增长放缓",
+        "watch": "谷歌AI团队剩余核心成员留存及Anthropic新模型发布"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Micron’s Stock Keeps Hitting New Highs. Here’s How Much Traders Expect It Could Move After Earnings - Investopedia",
       "source": "Investopedia",
       "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光股价新高，交易员押注财报后大幅波动",
-        "assets": "📈 美光 利好；📉 半导体板块 波动",
-        "chain": "存储芯片景气度预期已price in（计入价格）；期权隐含波动率暗示财报后或回调（获利了结）",
-        "watch": "美光财报营收及HBM（高带宽内存）订单指引"
+        "what": "美光股价创新高，交易员押注财报后大涨",
+        "assets": "📈 美光 利好\n📈 存储芯片板块 利好",
+        "chain": "AI存储需求爆发→推高DRAM（动态随机存取存储器）价格→利好三星、SK海力士",
+        "watch": "美光财报营收指引及HBM（高带宽存储器）出货量"
       }
     },
     {
-      "rank": 8,
-      "title": "Alphabet (GOOGL) Stock Falls Again as Anthropic Poaches DeepMind Nobel Winner - Barron's",
-      "source": "Barron's",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "谷歌股价下跌，Anthropic挖走DeepMind诺奖得主",
-        "assets": "📉 Alphabet 利空；📈 Anthropic 利好",
-        "chain": "AI人才流失削弱谷歌竞争力；Anthropic估值提升可能加速AI军备竞赛（算力需求）",
-        "watch": "谷歌AI模型Gemini迭代进度及Anthropic融资情况"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 10,
       "title": "聚焦降低词元成本的AI记忆初创企业完成9800万美元融资",
       "source": "环球市场播报",
       "detail": "核心要点 AI 记忆初创企业 Engram（记忆印迹）完成近 1 亿美元融资，旨在提升模型运行效率、遏制暴涨的 AI 使用成本。 该公司称，旗下模型最高可节省 99% 的词元用量...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "AI记忆初创公司融资9800万，聚焦降低词元成本",
-        "assets": "📈 AI基础设施 利好；📉 传统数据库 承压",
-        "chain": "词元成本降低推动大模型普及（AI应用爆发）；传统存储技术面临替代风险（如甲骨文）",
-        "watch": "该初创公司用户增长及大模型API价格走势"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Alan Greenspan, US Fed 'maestro' through years of boom and bust, dies at 100 - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 23,
-      "insight": {
-        "what": "美联储前主席格林斯潘去世，享年100岁",
-        "assets": "📈 美元 短期承压；📉 长期利率 波动",
-        "chain": "市场缅怀其货币政策遗产，但无实质影响；可能引发对美联储独立性讨论（政治干预风险）",
-        "watch": "美联储官员讲话及美元指数短期波动"
+        "what": "AI记忆初创公司融资9800万美元，专注降低词元成本",
+        "assets": "📈 AI基础设施 利好\n📉 传统数据库股 承压",
+        "chain": "词元成本下降→AI应用普及加速→利好大模型公司（如OpenAI），利空甲骨文等传统数据存储",
+        "watch": "该公司技术落地案例及大模型API（应用程序接口）降价趋势"
       }
     }
   ]
