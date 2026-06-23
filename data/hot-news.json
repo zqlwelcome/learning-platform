@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 20:25",
+  "updateTime": "2026-06-23 20:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国豁免伊朗石油制裁，释放数十亿美元",
-        "assets": "📈 原油 利空；📉 地缘政治风险 降低",
-        "chain": "原油供给增加预期压低油价，利多进口国（如印度），但利空能源股",
-        "watch": "OPEC+后续产量决策及伊朗实际出口量"
+        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
+        "assets": "📉 原油 承压",
+        "chain": "伊朗出口增加→OPEC+减产效果打折→油价下行，利空能源股",
+        "watch": "WTI原油（西德克萨斯中质原油）期货价格"
       }
     },
     {
@@ -23,112 +23,98 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "新赛股份因信披违规被证监会立案",
-        "assets": "📉 新赛股份 利空；📉 农业板块 情绪承压",
-        "chain": "信披违规引发退市风险，散户抛售，同类问题股（如ST板块）受牵连",
-        "watch": "证监会调查进展及索赔登记人数"
+        "what": "新赛股份因信披违规被证监会立案调查",
+        "assets": "📉 A股新赛股份 利空",
+        "chain": "信披违规→投资者索赔→股价承压，监管趋严影响其他有瑕疵标的",
+        "watch": "证监会后续处罚公告及索赔进展"
       }
     },
     {
       "rank": 3,
-      "title": "Tesla faces federal probe after Model 3 slams into Texas home, killing 76-year-old",
-      "source": "CNBC",
-      "detail": "Harris County authorities said that the driver, Michael Butler, said that he had been using Tesla's partially automated driving systems.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "特斯拉Model 3撞入德州房屋致1死，面临联邦调查",
-        "assets": "📉 特斯拉 利空；📉 自动驾驶概念股 承压",
-        "chain": "自动驾驶安全性受质疑，监管加码预期（更严测试要求）拖累行业估值",
-        "watch": "NHTSA（美国公路安全管理局）调查结论及后续法规变化"
-      }
-    },
-    {
-      "rank": 4,
       "title": "BTC analysis: SpaceX’s $600 billion plunge erased nearly half of bitcoin’s market cap in three days - CoinDesk",
       "source": "CoinDesk",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "SpaceX市值暴跌6000亿抹去比特币近半市值",
-        "assets": "📉 比特币 利空；📉 加密货币 整体承压",
-        "chain": "科技巨头资产减值引发流动性恐慌，加密市场杠杆多头被迫平仓（清算）",
-        "watch": "比特币能否守住30000美元关键支撑位"
+        "what": "SpaceX市值暴跌6000亿，抹去比特币近半市值",
+        "assets": "📉 比特币 承压",
+        "chain": "科技巨头抛售→风险资产（如加密货币）流动性收紧→比特币跟随下跌",
+        "watch": "比特币24小时交易量与资金费率"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "国际金价跌破4100美元整数关口，A股黄金股全线重挫",
       "source": "澎湃新闻",
       "detail": "国际金价周二再度急挫，一度跌破4100美元整数关口。 Wind数据显示，6月23日，现货黄金（伦敦金现，下同）跌超2%，跌破4100美元/盎司关口，跌幅一度达2.16%，最低报4090...",
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "国际金价跌破4100美元，A股黄金股暴跌",
-        "assets": "📉 黄金 利空；📉 黄金股（如山东黄金） 利空",
-        "chain": "美债收益率上升（持有黄金机会成本增加）导致资金流出，避险需求转向美元",
-        "watch": "美联储下次利率决议及实际利率走势"
+        "what": "国际金价跌破4100美元，A股黄金股重挫",
+        "assets": "📉 黄金 承压，📉 A股黄金股 利空",
+        "chain": "金价破位→避险情绪降温→黄金股跟随下跌，关注美元走势",
+        "watch": "COMEX（纽约商品交易所）黄金期货持仓与美元指数"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
       "source": "NBC News",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉自动驾驶撞车致1死",
-        "assets": "📉 特斯拉 利空；📉 自动驾驶板块 承压",
-        "chain": "事故引发集体诉讼风险，特斯拉FSD（全自动驾驶）订阅率可能下滑",
-        "watch": "特斯拉官方回应及事故详细报告"
+        "what": "特斯拉自动驾驶撞毁房屋致1人死亡",
+        "assets": "📉 特斯拉 利空",
+        "chain": "自动驾驶事故→监管审查风险上升→特斯拉股价短期承压",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查声明"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "港股硬科技暴跌，危还是机？规模最大港股通信息技术ETF华宝（159131）重挫5.13% ，资金狂扫1亿份！",
       "source": "新浪基金",
       "detail": "黑色星期二（6月23日），或受芯片股近期大涨后投资者获利了结影响，韩国股市KOSPI指数收跌9.99%，创3月4日以来最大单日跌幅，一度触发交易限制机制，亚太市场跟跌。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "港股硬科技暴跌，华宝ETF遭资金逆势抄底",
-        "assets": "📉 港股科技股 利空；📈 华宝ETF 资金流入",
-        "chain": "恐慌性抛售后，聪明钱（机构）逢低买入，但短期仍可能受外资流出压力",
-        "watch": "恒生科技指数能否在3000点企稳"
+        "what": "港股硬科技暴跌，资金逆势抄底ETF",
+        "assets": "📉 港股科技股 承压",
+        "chain": "板块恐慌抛售→ETF折价（交易价低于净值）→资金抄底，但短期波动大",
+        "watch": "恒生科技指数及南向资金（内地流入港股资金）流向"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC报道其国会言论",
-        "assets": "📉 传媒股（如迪士尼） 承压；📈 特朗普媒体 利好",
-        "chain": "政治紧张升级，媒体面临法律风险，资金可能转向保守派平台（Truth Social）",
-        "watch": "ABC是否撤回报道及诉讼立案进展"
+        "what": "特朗普威胁起诉ABC关于喷泉报道",
+        "assets": "📉 媒体股 承压",
+        "chain": "政治人物施压→媒体法律风险上升→相关新闻平台股价短期波动",
+        "watch": "ABC母公司迪士尼股价及诉讼进展"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Micron’s Stock Keeps Hitting New Highs. Here’s How Much Traders Expect It Could Move After Earnings - Investopedia",
       "source": "Investopedia",
       "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光股价创新高，期权市场押注财报后波动",
-        "assets": "📈 美光 利好；📈 半导体板块 偏多",
-        "chain": "AI芯片需求旺盛（HBM高带宽内存）推高估值，财报超预期则带动行业反弹",
-        "watch": "美光财报营收及下季指引"
+        "what": "美光股价创新高，交易员押注财报波动",
+        "assets": "📈 美光科技 利好",
+        "chain": "存储芯片需求强劲→财报预期乐观→期权市场隐含波动（预期价格变动）高",
+        "watch": "美光财报后盘后价格及指引"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Alphabet Stock Set to Fall for Second Day as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
       "source": "Barron's",
       "detail": "国际财经动态，关注后续发展。",
@@ -136,9 +122,23 @@
       "score": 29,
       "insight": {
         "what": "谷歌DeepMind诺奖得主跳槽Anthropic",
-        "assets": "📉 Alphabet 利空；📈 Anthropic 利好",
-        "chain": "AI人才争夺白热化，谷歌AI研发能力受质疑，竞争对手（如OpenAI）获得先发优势",
-        "watch": "谷歌能否快速填补职位或推出新模型"
+        "assets": "📉 Alphabet 承压",
+        "chain": "AI人才流失→谷歌AI竞争力受损→股价连跌两天",
+        "watch": "Alphabet股价及AI相关产品发布"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Here are Tuesday's biggest analyst calls: SpaceX, Micron, Nvidia, Tesla, IBM, Broadcom, Target, Netflix & more",
+      "source": "CNBC",
+      "detail": "Here are Tuesday's biggest calls on Wall Street.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "分析师密集调仓：SpaceX、美光、英伟达等",
+        "assets": "📈 英伟达 利好，📈 美光 利好",
+        "chain": "机构评级上调→资金流入预期→相关个股短期有支撑",
+        "watch": "目标价变化及成交量放大情况"
       }
     }
   ]
