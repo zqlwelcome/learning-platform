@@ -1,33 +1,27 @@
 {
-  "updateTime": "2026-06-24 07:41",
+  "updateTime": "2026-06-24 07:46",
   "news": [
     {
       "rank": 1,
-      "title": "Former Federal Reserve Chairman Alan Greenspan dies at 100 - AP News",
-      "source": "AP News",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 51,
-      "insight": {
-        "what": "前美联储主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元 短期承压，📈 美债 避险需求",
-        "chain": "市场可能解读为鸽派（支持宽松政策）象征性损失，短期美债收益率（国债利率）下行",
-        "watch": "美联储官员讲话及市场风险偏好变化"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash - The Verge",
       "source": "The Verge",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称致命车祸中司机手动接管了自动驾驶",
-        "assets": "📉 特斯拉(TSLA) 利空，📉 自动驾驶概念股 承压",
-        "chain": "监管审查风险上升，可能延迟FSD（全自动驾驶）商业化进程，拖累板块估值",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查进展及特斯拉股价"
+        "what": "特斯拉致命车祸，司机被指手动超控自动驾驶",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "引发监管审查风险（SEC调查），利空自动驾驶概念股（如Waymo）",
+        "watch": "NHTSA（美国公路安全局）是否启动正式调查"
       }
+    },
+    {
+      "rank": 2,
+      "title": "Cerebras falls 8% after chipmaker forecasts shrinking margin in first earnings report since IPO - CNBC",
+      "source": "CNBC",
+      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
+      "lang": "en",
+      "score": 47
     },
     {
       "rank": 3,
@@ -35,13 +29,7 @@
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "Cerebras首份财报后因利润率预期收缩暴跌10%",
-        "assets": "📉 Cerebras(AI芯片股) 利空，📉 半导体板块 情绪拖累",
-        "chain": "市场对AI芯片竞争加剧和毛利率（收入减成本后占比）承压的担忧扩散到同行",
-        "watch": "Cerebras下季度毛利率指引及英伟达财报"
-      }
+      "score": 47
     },
     {
       "rank": 4,
@@ -51,10 +39,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "利率市场完全消化美联储加息预期，美元升至11月来新高",
-        "assets": "📈 美元 利好，📉 新兴市场货币 承压，📉 黄金 利空",
-        "chain": "加息预期推高实际利率（名义利率减通胀），压制贵金属和风险资产，新兴市场资本外流",
-        "watch": "美联储点阵图（利率预测）及CPI（消费者物价指数）数据"
+        "what": "Cerebras财报预测利润率下滑，盘后跌8-10%",
+        "assets": "📉 Cerebras股价 利空；📉 芯片板块 承压",
+        "chain": "AI芯片竞争加剧（英伟达挤压），削弱市场对AI硬件盈利信心",
+        "watch": "Cerebras下季度毛利率指引及大客户订单变化"
       }
     },
     {
@@ -63,13 +51,7 @@
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX在IPO后两周内通过债券融资250亿美元",
-        "assets": "📈 太空概念股 情绪利好，📉 债券市场 供给压力",
-        "chain": "高债务融资显示市场对SpaceX信心强，但可能分流其他高风险债券资金",
-        "watch": "SpaceX债券定价及后续融资用途"
-      }
+      "score": 45
     },
     {
       "rank": 6,
@@ -77,13 +59,7 @@
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "韩国股市经历最差单日之一，摩根士丹利称非结构性崩溃",
-        "assets": "📉 韩国KOSPI指数 利空，📈 韩国科技股 短期承压",
-        "chain": "短期恐慌可能触发程序化交易（量化策略抛售），但基本面未恶化，或为回调买入机会",
-        "watch": "韩国出口数据及外资流向"
-      }
+      "score": 42
     },
     {
       "rank": 7,
@@ -93,10 +69,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX在IPO后不到两周通过债券发行筹资250亿美元",
-        "assets": "📈 太空板块 情绪利好，📉 债券市场 供给压力",
-        "chain": "巨额债券发行暗示市场流动性充裕，但可能挤占其他信用债（公司债）空间",
-        "watch": "SpaceX债券收益率及评级变化"
+        "what": "SpaceX IPO不到两周后发行250亿美元债券",
+        "assets": "📈 SpaceX债券 利好；📉 太空股（如RKLB）资金分流",
+        "chain": "高负债融资暗示扩张需求，可能挤压同类公司（如ASTS）融资空间",
+        "watch": "债券认购倍数及二级市场交易价格"
       }
     },
     {
@@ -107,10 +83,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "FedEx上季度财报强劲，货运业务表现突出",
-        "assets": "📈 FedEx(FDX) 利好，📈 物流/货运板块 利好",
-        "chain": "强劲财报暗示经济需求韧性，可能提振运输ETF（交易所交易基金）和工业股",
-        "watch": "FedEx下季度指引及美国PMI（采购经理人指数）数据"
+        "what": "美联储加息预期被消化，美元升至去年11月高位",
+        "assets": "📈 美元指数 利好；📉 新兴市场货币 承压",
+        "chain": "美债收益率上行（借钱成本增加），风险资产（如科技股）估值受压",
+        "watch": "本周美国CPI（通胀数据）及美联储官员讲话"
       }
     },
     {
@@ -121,10 +97,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "FedEx财报强劲，货运业务驱动盈利超预期",
-        "assets": "📈 FedEx(FDX) 利好，📈 航空货运 利好",
-        "chain": "货运需求走强利好供应链股，但需警惕是否因节假日季节性脉冲（短期波动）",
-        "watch": "FedEx管理层对需求持续性的评论"
+        "what": "韩国股市大跌但摩根士丹利称未破位",
+        "assets": "📉 韩国KOSPI指数 承压；📉 亚洲科技股 联动",
+        "chain": "半导体出口疲软（内存芯片价格走低），拖累台韩科技供应链",
+        "watch": "韩国半导体出口数据及外资流向"
       }
     },
     {
@@ -135,10 +111,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "盘后异动：FedEx涨、Cerebras跌、KB Home等波动",
-        "assets": "📈 FedEx 利好，📉 Cerebras 利空，📈 KB Home 待确认",
-        "chain": "盘后流动性低，波动可能放大，次日开盘需观察成交量确认趋势有效性",
-        "watch": "次日开盘价及成交量配合情况"
+        "what": "FedEx货运业务强劲，财报超预期",
+        "assets": "📈 FedEx股价 利好；📈 物流板块 利好",
+        "chain": "货运需求回暖信号，利多经济晴雨表（如航空、航运股）",
+        "watch": "FedEx上调全年指引幅度及零售库存数据"
       }
     }
   ]
