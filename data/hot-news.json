@@ -1,36 +1,22 @@
 {
-  "updateTime": "2026-06-23 20:45",
+  "updateTime": "2026-06-23 20:51",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX stock tumbles 16.4%, shaving off most IPO gains since debut - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 57,
-      "insight": {
-        "what": "SpaceX股价暴跌16.4%，回吐大部分IPO涨幅",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "二级市场（已上市交易）估值压力传导至一级市场（未上市）科技股估值，可能引发科技IPO（首次公开募股）降温",
-        "watch": "SpaceX下周成交量及卖空比例（做空仓位）"
-      }
-    },
-    {
-      "rank": 2,
       "title": "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
       "source": "CNBC",
       "detail": "The U.S. issued a sweeping rollback of sanctions on Iranian oil, offering Tehran an economic lifeline as negotiations toward a peace deal proceed.",
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
-        "assets": "📉 原油 承压 | 📈 伊朗经济 利好",
-        "chain": "豁免增加全球原油供应预期，OPEC+（石油输出国组织及盟友）减产效果被对冲，油价下行压力加大",
-        "watch": "WTI（西得克萨斯中质原油）原油期货持仓报告"
+        "what": "美国豁免伊朗石油制裁，德黑兰获数十亿美元收入",
+        "assets": "📉 原油 利空",
+        "chain": "油价下跌→能源股承压→通胀预期降温（物价上涨压力减轻）→美联储降息预期升温（借钱成本可能降低）",
+        "watch": "伊朗原油出口量及OPEC+后续产量政策"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "突发！新赛股份涉嫌信披违规被证监会立案，符合条件投资者可登记索赔",
       "source": "市场资讯",
       "detail": "根据最新消息，新疆赛里木现代农业股份有限公司（以下简称“新赛股份”）因涉嫌信披违法违规被证监会立案，该事件或与此前会计差错更正有关。",
@@ -38,37 +24,51 @@
       "score": 48,
       "insight": {
         "what": "新赛股份因信披违规被证监会立案调查",
-        "assets": "📉 新赛股份 利空 | 📉 A股ST板块（风险警示股） 承压",
-        "chain": "监管趋严（证监会加强执法）引发中小市值股抛售，投资者索赔预期压制股价",
-        "watch": "证监会后续处罚公告及索赔登记进展"
+        "assets": "📉 新赛股份 利空；📉 A股小盘股 情绪承压",
+        "chain": "监管趋严→小盘股流动性风险（资金抽离）→投资者避险转向蓝筹",
+        "watch": "证监会调查结果及后续处罚力度"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
       "source": "NBC News",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉自动驾驶撞穿得州房屋致1人死亡",
-        "assets": "📉 特斯拉股票 利空 | 📉 自动驾驶板块 承压",
-        "chain": "事故加剧监管审查（NHTSA（美国国家公路交通安全管理局）可能调查），特斯拉FSD（完全自动驾驶）商业化预期推迟",
-        "watch": "NHTSA调查结论及特斯拉股价盘后反应"
+        "what": "特斯拉自动驾驶撞穿德州民宅致1人死亡",
+        "assets": "📉 特斯拉 利空；📉 自动驾驶板块 情绪打压",
+        "chain": "事故引发监管审查（安全标准收紧）→消费者信心下滑→特斯拉订单可能放缓",
+        "watch": "NHTSA（美国公路安全管理局）是否开启正式调查"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC因报道其言论",
-        "assets": "📉 传媒板块 承压",
-        "chain": "政治干预媒体（言论管控风险）增加不确定，广告收入预期下降，避险资金流出传媒股",
-        "watch": "ABC母公司迪士尼股价及诉讼进展"
+        "what": "特朗普威胁起诉ABC新闻关于反映池的报道",
+        "assets": "📉 媒体股 情绪承压；📉 特朗普媒体科技集团 波动",
+        "chain": "政治干预媒体→媒体行业合规成本上升→广告收入可能受影响",
+        "watch": "ABC母公司华特迪士尼股价反应及诉讼进展"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "栽了！“纵容”老员工违规，国泰海通被监管点名",
+      "source": "市场资讯",
+      "detail": " 时隔月余，行家的猜测得以实锤：继对“失联”的时任国泰君安经纪人公告送达拟“禁业”处罚后，涉事的营业部，因“未采取有效措施规范从业人员执业行为”，也被监管追责。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "国泰海通因纵容老员工违规被监管点名",
+        "assets": "📉 国泰海通 利空；📉 券商板块 情绪承压",
+        "chain": "监管处罚→券商合规成本上升→行业利润预期下调",
+        "watch": "证监会是否进一步扩大调查范围"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光股价创新高，交易员押注财报后大波动",
-        "assets": "📈 美光科技 利好 | 📈 半导体板块 利好",
-        "chain": "财报预期（盈利超预期）强化AI（人工智能）芯片需求逻辑，带动存储芯片及设备股",
-        "watch": "美光财报营收及下季度指引（未来业绩预测）"
+        "what": "美光股价创新高，交易员押注财报后大幅波动",
+        "assets": "📈 美光科技 利好；📉 半导体板块 波动加剧",
+        "chain": "AI需求驱动（人工智能芯片订单激增）→存储芯片涨价→行业景气度提升",
+        "watch": "美光财报营收及下季度指引"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "油价因伊朗获准用美元卖油而下跌",
-        "assets": "📉 原油 利空 | 📈 航空股 利好",
-        "chain": "伊朗出口增加（供给上升）压低油价，降低航空燃油成本，利好航空板块利润",
-        "watch": "伊朗原油出口量及OPEC+产量数据"
+        "what": "伊朗获准用美元卖油，油价应声下跌",
+        "assets": "📉 原油 利空；📉 能源股 承压",
+        "chain": "供应增加预期（伊朗重返市场）→油价下跌→通胀预期降温→美联储鸽派（偏向宽松）",
+        "watch": "伊朗实际出口量及OPEC+减产执行率"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "谷歌DeepMind首席科学家跳槽Anthropic，股价连跌",
-        "assets": "📉 谷歌股票 利空 | 📈 Anthropic（AI初创） 利好",
-        "chain": "人才流失（核心团队出走）削弱谷歌AI竞争力，竞争对手Anthropic估值提升，AI军备竞赛（技术人才争夺加剧）",
-        "watch": "谷歌AI业务季度财报及Anthropic融资动态"
+        "what": "谷歌DeepMind诺奖得主跳槽Anthropic，股价连跌",
+        "assets": "📉 Alphabet 利空；📈 人工智能竞争 加剧",
+        "chain": "人才流失→AI研发进度放缓→市场份额可能下滑→云计算收入承压",
+        "watch": "谷歌AI新品发布节奏及Anthropic估值变化"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "分析师集中发布对SpaceX、美光、英伟达等评级",
-        "assets": "📈 美光/英伟达 利好 | 📉 特斯拉/IBM 承压",
-        "chain": "机构评级（分析师建议）引导资金轮动，高评级股获买入，低评级股遭卖出，板块间分化加剧",
-        "watch": "目标价（分析师预测股价）调整幅度及实际成交变化"
+        "what": "华尔街分析师密集调仓：SpaceX、美光、英伟达等",
+        "assets": "📈 美光/英伟达 利好；📉 特斯拉/IBM 承压",
+        "chain": "分析师评级调整→机构资金调仓（重新配置仓位）→板块轮动（资金从传统科技流向AI）",
+        "watch": "目标价变动及实际资金流向数据"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "建议提前提取401(k)以规避IRMAA（收入相关月保费调整）悬崖",
-        "assets": "📈 消费板块 利好 | 📉 债券 承压",
-        "chain": "退休账户提前取现（流动性释放）增加消费支出，同时减少长期投资资金，推高短期利率",
-        "watch": "401(k)取款数据及10年期美债收益率（长期借贷成本）"
+        "what": "建议退休前耗尽401(k)以规避IRMAA医保附加费",
+        "assets": "📈 退休规划板块 利好；📉 长期债券 承压",
+        "chain": "提前取款→税收收入增加→医保政策调整预期→消费支出可能短期提振",
+        "watch": "IRS（美国国税局）是否修改IRMAA门槛"
       }
     }
   ]
