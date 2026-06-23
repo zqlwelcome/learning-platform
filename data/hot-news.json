@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 23:26",
+  "updateTime": "2026-06-23 23:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 57,
       "insight": {
-        "what": "美股AI板块暴跌，韩国股市跟跌10%",
-        "assets": "📉 美股AI科技股 利空；📉 韩国KOSPI指数 承压",
-        "chain": "AI抛售引发风险偏好（市场情绪）恶化，资金从新兴市场（如韩国）流出，避险买美债",
-        "watch": "今晚美股AI龙头财报及高盛报告细节"
+        "what": "AI板块遭抛售，韩国股市暴跌10%",
+        "assets": "📉 全球AI科技股 承压；📉 韩国KOSPI指数 承压",
+        "chain": "AI泡沫担忧蔓延，资金撤出风险资产（高贝塔股票），涌入避险资产（如美债/黄金）",
+        "watch": "美国科技股期货（如纳斯达克100期货）开盘表现"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
-        "assets": "📉 原油 利空；📈 伊朗里亚尔 短期利好",
-        "chain": "豁免增加全球石油供应预期，压制油价；伊朗经济获喘息，但地缘风险（地缘政治不确定性）下降",
-        "watch": "OPEC+（石油输出国组织及其盟友）产量决策及伊朗出口数据"
+        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
+        "assets": "📈 原油 承压（供给增加预期）；📉 地缘政治风险溢价 下降",
+        "chain": "油价下行缓解通胀压力，间接利好美联储降息预期（加息概率降低），但鹰派会担忧伊朗资金流向反美势力",
+        "watch": "WTI原油价格是否跌破80美元关口"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "高盛警告美股AI崩盘风险，引发深夜暴跌",
-        "assets": "📉 美股AI科技股 利空；📉 纳斯达克100指数 承压",
-        "chain": "高盛喊话触发获利了结，AI估值泡沫（价格远超基本面）被质疑，资金轮动至防御板块",
-        "watch": "高盛后续研报及VIX（恐慌指数）是否飙升"
+        "what": "高盛警告美股AI泡沫，引发深夜暴跌",
+        "assets": "📉 美股AI龙头（如英伟达） 承压；📉 全球半导体ETF 承压",
+        "chain": "AI估值回调触发量化基金（程序化交易）止损，恐慌情绪蔓延至科技权重股，拖累指数",
+        "watch": "英伟达股价是否跌破50日均线（技术面关键支撑）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特斯拉撞入德州房屋致人死亡，美国监管机构调查",
-        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
-        "chain": "事故强化自动驾驶安全担忧，监管收紧预期升温，挤压特斯拉估值（市场定价）",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查结果及特斯拉FSD（全自动驾驶）更新"
+        "what": "特斯拉撞入德州民宅致人死亡，美国监管调查",
+        "assets": "📉 特斯拉股价 承压（自动驾驶安全争议）",
+        "chain": "监管收紧预期打压自动驾驶板块（如Waymo），消费者信心受损可能推迟FSD（全自动驾驶）商业化",
+        "watch": "NHTSA（美国国家公路交通安全管理局）是否升级调查至召回级别"
       }
     },
     {
@@ -65,28 +65,42 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向戛纳广告业推销ChatGPT广告业务",
-        "assets": "📈 广告科技股 利好；📈 OpenAI估值 正面",
-        "chain": "AI商业化加速，广告行业成本降低，可能挤压传统广告代理（中间商）份额",
-        "watch": "OpenAI广告收入数据及竞品谷歌、Meta反应"
+        "what": "OpenAI在戛纳向营销商推介ChatGPT广告业务",
+        "assets": "📈 数字广告股（如Meta、谷歌） 承压（竞争加剧）；📈 OpenAI估值 利好",
+        "chain": "AI商业化提速，广告行业成本结构面临重构，传统广告代理公司（如WPP）利润率承压",
+        "watch": "OpenAI广告收入数据或客户签约数量"
       }
     },
     {
       "rank": 6,
+      "title": "Stocks drop as Fed rate bets hit tech royalty; dollar gains - Reuters",
+      "source": "Reuters",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "美联储降息预期受挫，科技股下跌美元走强",
+        "assets": "📉 美股科技股 承压；📈 美元指数 利好",
+        "chain": "降息推迟（借钱成本维持高位）压制成长股估值（DCF模型折现率上升），美元走强施压新兴市场货币",
+        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
+      }
+    },
+    {
+      "rank": 7,
       "title": "十四年上市路，三闯港股IPO！它走的累！",
       "source": "市场资讯",
       "detail": "来源：IPO日报 深耕光储领域的古瑞瓦特历经十四年资本长跑，三度闯关港股。公司业绩高度绑定海外能源周期，盈利波动剧烈，本次IPO是其穿越行业周期...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "某公司十四年三次冲击港股IPO，进程艰难",
-        "assets": "📉 港股新股市场 承压；📉 该拟上市公司 利空",
-        "chain": "IPO（首次公开募股）失败信号暗示港股流动性紧张，投资者信心不足，影响其他拟上市企业",
-        "watch": "港交所审核结果及市场资金流向"
+        "what": "某公司三闯港股IPO，上市路长达十四年",
+        "assets": "📉 港股新股市场 情绪偏弱（流动性不足）",
+        "chain": "多次递表反映港股估值低迷及监管趋严，二级市场破发率（上市首日下跌比例）上升抑制打新热情",
+        "watch": "该股IPO定价折价幅度及首日表现"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "瑞银认为美联储短期内不会加息",
       "source": "环球市场播报",
       "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
@@ -94,13 +108,27 @@
       "score": 36,
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美股 利好；📈 美债 利好；📉 美元 承压",
-        "chain": "加息预期降温，降低企业融资成本，利好风险资产（如股票），但美元走弱可能推升商品",
-        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
+        "assets": "📈 美债 利好（利率预期稳定）；📉 美元 承压",
+        "chain": "不加息预期缓解市场恐慌，但高利率持续（Higher for Longer）仍压制风险资产，利差交易（Carry Trade）继续",
+        "watch": "美联储点阵图（利率预测中位数）是否上调终端利率"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "AI memory, chip stocks tumble as AI woes hit global peers; Wedbush sees sell-off an opportunity - Seeking Alpha",
+      "source": "Seeking Alpha",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "AI存储芯片股暴跌，Wedbush视为抄底机会",
+        "assets": "📉 存储芯片股（如三星、美光） 承压；📈 抄底资金 潜在利好",
+        "chain": "AI硬件需求放缓担忧扩散至供应链，但机构逆势看多暗示短期超卖后技术性反弹可能",
+        "watch": "存储芯片现货价格（如DRAM/NAND合约价）是否企稳"
+      }
+    },
+    {
+      "rank": 10,
       "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
       "source": "CBS News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -108,37 +136,9 @@
       "score": 32,
       "insight": {
         "what": "五眼联盟警告AI数月内可能绕过网络安全系统",
-        "assets": "📈 网络安全股 利好；📉 AI应用股 承压",
-        "chain": "安全威胁升级催生政府和企业采购需求，利好网安公司，但AI监管加码风险压制AI股",
-        "watch": "五眼联盟政策声明及网安公司订单"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "加息担忧冲击贵金属市场，黄金、白银价格大幅下挫",
-      "source": "环球市场播报",
-      "detail": "核心要点 受加息恐慌引发市场避险情绪降温影响，全球科技股走低，黄金、白银价格周二同步下行。 自 2 月 28 日美伊冲突爆发以来，黄金作为动荡时期 “避险资产”...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "加息担忧导致黄金、白银价格大幅下跌",
-        "assets": "📉 黄金 利空；📉 白银 利空",
-        "chain": "加息预期推高实际利率（剔除通胀的利率），无息资产（黄金）吸引力下降，资金流向美元",
-        "watch": "美联储会议纪要及非农就业数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
-      "source": "CNBC",
-      "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "特朗普威胁起诉ABC报道其涉水池言论",
-        "assets": "📉 ABC母公司迪士尼 利空；📉 媒体股 承压",
-        "chain": "诉讼风险增加媒体合规成本，可能引发保守派抵制，广告收入面临不确定性",
-        "watch": "ABC是否撤稿及特朗普竞选团队后续行动"
+        "assets": "📈 网络安全股（如CrowdStrike） 利好",
+        "chain": "AI攻击威胁升级推动企业安全预算增加，但监管加码可能增加科技公司合规成本，利空小型AI初创",
+        "watch": "美国CISA（网络安全和基础设施安全局）是否发布新AI安全指南"
       }
     }
   ]
