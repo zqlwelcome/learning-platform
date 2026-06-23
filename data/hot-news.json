@@ -1,32 +1,32 @@
 {
-  "updateTime": "2026-06-23 21:11",
+  "updateTime": "2026-06-23 21:15",
   "news": [
     {
       "rank": 1,
+      "title": "AI stocks are getting trampled. South Korean market plunges 10% - CNN",
+      "source": "CNN",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 57,
+      "insight": {
+        "what": "韩国股市暴跌10%，AI股领跌",
+        "assets": "📉 韩国KOSPI 承压，📉 全球AI科技股 利空",
+        "chain": "恐慌情绪蔓延，引发risk-off（避险模式），资金从高估值科技股流向防御资产",
+        "watch": "韩国政府是否出台救市措施，以及今夜美股AI股开盘表现"
+      }
+    },
+    {
+      "rank": 2,
       "title": "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
       "source": "CNBC",
       "detail": "The U.S. issued a sweeping rollback of sanctions on Iranian oil, offering Tehran an economic lifeline as negotiations toward a peace deal proceed.",
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国豁免伊朗石油制裁，德黑兰获数十亿收入",
-        "assets": "📉 原油 承压",
-        "chain": "供给增加预期打压油价，OPEC+减产效果被稀释（供给冲击）",
-        "watch": "伊朗实际出口量及美方后续政策"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "US watchdog opens probe after Tesla crashes into Texas home, killing woman - Al Jazeera",
-      "source": "Al Jazeera",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "美国监管机构调查特斯拉撞车致死事件",
-        "assets": "📉 特斯拉 利空",
-        "chain": "监管风险升温，可能拖累自动驾驶概念股（如英伟达），引发做空动能",
-        "watch": "调查结论及是否涉及系统故障"
+        "what": "美国豁免伊朗石油制裁，释放数十亿美元",
+        "assets": "📉 原油 承压，📈 伊朗经济 利好",
+        "chain": "伊朗石油供应增加，压制油价（能源成本下降），间接利好航空、化工等用油行业",
+        "watch": "OPEC+是否调整产量以应对油价下行压力"
       }
     },
     {
@@ -38,41 +38,83 @@
       "score": 48,
       "insight": {
         "what": "新赛股份因信披违规被证监会立案调查",
-        "assets": "📉 A股新赛股份 利空",
-        "chain": "小盘股流动性冲击，同类信披瑕疵股可能遭抛售（风险溢价上升）",
-        "watch": "后续处罚力度及索赔进展"
+        "assets": "📉 新赛股份 利空，📉 A股信披违规概念股 承压",
+        "chain": "监管趋严，投资者索赔增加，公司面临罚款和声誉损失，拖累板块情绪",
+        "watch": "证监会后续处罚力度及公司是否停牌"
       }
     },
     {
       "rank": 4,
+      "title": "Markets tumble worldwide as Fed resets expectations: $400 billion wiped off SpaceX stock - Fortune",
+      "source": "Fortune",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "美联储鹰派预期导致全球市场暴跌，SpaceX市值蒸发4000亿",
+        "assets": "📉 全球股市 承压，📉 美股科技股 利空",
+        "chain": "利率预期上行（借钱成本增加），打压高估值成长股，资金转向短债和现金",
+        "watch": "美联储下周议息会议点阵图（利率预测）和鲍威尔讲话"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
+      "source": "NBC News",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "特斯拉Autopilot撞毁民宅致1人死亡",
+        "assets": "📉 特斯拉 利空，📉 自动驾驶概念股 承压",
+        "chain": "安全质疑升温，可能引发监管调查和更严法规，拖累自动驾驶板块估值",
+        "watch": "NHTSA（美国国家公路交通安全管理局）是否启动正式调查"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Tech stocks face wipeout as investors ask if AI boom is worth it - qz.com",
       "source": "qz.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "投资者质疑AI泡沫，科技股面临大跌",
-        "assets": "📉 美股科技股 承压",
-        "chain": "AI资本开支预期降温，半导体、云计算板块联动下跌（估值修正）",
-        "watch": "科技巨头财报及AI营收指引"
+        "what": "投资者质疑AI泡沫，科技股面临清仓式下跌",
+        "assets": "📉 美股AI科技股 利空，📉 半导体 承压",
+        "chain": "AI资本开支回报率（ROI）受质疑，引发获利了结，资金轮动至价值股和防御板块",
+        "watch": "英伟达等AI龙头财报指引及资本开支计划"
       }
     },
     {
-      "rank": 5,
+      "rank": 7,
+      "title": "Quantum Computing Stocks Rally After Trump Signs New Industry Support Measures - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "特朗普签署支持措施，量子计算股大涨",
+        "assets": "📈 量子计算概念股 利好",
+        "chain": "政策催化行业预期（政府补贴+研发支持），吸引投机资金，但短期商业化仍远",
+        "watch": "后续是否公布具体拨款金额和项目时间表"
+      }
+    },
+    {
+      "rank": 8,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC报道不实",
-        "assets": "📉 媒体股 承压",
-        "chain": "政治干预媒体风险上升，广告商可能撤单，拖累传媒板块",
-        "watch": "ABC是否和解及诉讼进展"
+        "what": "特朗普威胁起诉ABC新闻，因其报道反射池事件",
+        "assets": "📉 ABC母公司迪士尼 承压，📉 媒体板块 利空",
+        "chain": "政治干预媒体风险上升，可能压制新闻自由和投资者对媒体股的信心",
+        "watch": "ABC是否撤稿或和解，以及特朗普支持率变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "栽了！“纵容”老员工违规，国泰海通被监管点名",
       "source": "市场资讯",
       "detail": " 时隔月余，行家的猜测得以实锤：继对“失联”的时任国泰君安经纪人公告送达拟“禁业”处罚后，涉事的营业部，因“未采取有效措施规范从业人员执业行为”，也被监管追责。",
@@ -80,65 +122,23 @@
       "score": 30,
       "insight": {
         "what": "国泰海通因纵容老员工违规被监管点名",
-        "assets": "📉 券商股 承压",
-        "chain": "合规成本上升，券商板块估值受压制，龙头也可能被波及（监管收紧）",
-        "watch": "后续罚款金额及行业自查公告"
+        "assets": "📉 国泰海通 利空，📉 券商板块 承压",
+        "chain": "监管加强券商合规检查，可能引发行业罚款和业务整顿，降低券商盈利预期",
+        "watch": "证监会是否进一步处罚，以及公司是否整改并追责"
       }
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "Micron’s Stock Keeps Hitting New Highs. Here’s How Much Traders Expect It Could Move After Earnings - Investopedia",
       "source": "Investopedia",
       "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光股价创新高，期权显示财报后波动大",
-        "assets": "📈 美光 利好预期",
-        "chain": "存储芯片景气预期强化，带动半导体ETF（如SMH）及同行（三星）",
-        "watch": "美光财报营收及下季指引"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Oil Prices Drop After Iran Cleared to Sell Crude in Dollars - WSJ",
-      "source": "WSJ",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "伊朗获准用美元卖油，油价下跌",
-        "assets": "📉 原油 承压",
-        "chain": "美元结算增加流动性，OPEC+减产压力加大，能源股联动下跌",
-        "watch": "伊朗实际出口量及OPEC+回应"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Here are Tuesday's biggest analyst calls: SpaceX, Micron, Nvidia, Tesla, IBM, Broadcom, Target, Netflix & more",
-      "source": "CNBC",
-      "detail": "Here are Tuesday's biggest calls on Wall Street.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "分析师集中调仓，涉及SpaceX、英伟达等",
-        "assets": "📈 英伟达 利好 📉 特斯拉 承压",
-        "chain": "资金轮动：AI芯片获追捧，电动车遭减持，板块分化加剧",
-        "watch": "目标价调整幅度及后续评级"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "A $1.8 Million 401(k) and Social Security Coming Up? Drain It Before 70 to Dodge the IRMAA Cliff - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "建议提前提取401(k)以避IRMAA税",
-        "assets": "📈 国债 利好（资金流出股市）",
-        "chain": "退休资金转向债券或现金，股市流动性收紧，消费股承压（收入效应）",
-        "watch": "401(k)提取量及零售数据"
+        "what": "美光股价新高，交易员押注财报后大幅波动",
+        "assets": "📈 美光科技 利好，📈 存储芯片 利好",
+        "chain": "AI需求拉动存储涨价（DRAM/NAND），财报若超预期将带动整个半导体板块",
+        "watch": "美光财报营收和指引，以及行业库存周期（供需变化）"
       }
     }
   ]
