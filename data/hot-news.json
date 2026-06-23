@@ -1,88 +1,70 @@
 {
-  "updateTime": "2026-06-24 07:00",
+  "updateTime": "2026-06-24 07:06",
   "news": [
     {
       "rank": 1,
-      "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash - The Verge",
-      "source": "The Verge",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "特斯拉称致命车祸中司机手动接管了自动驾驶",
-        "assets": "📉 特斯拉股价 利空",
-        "chain": "加剧自动驾驶安全争议，可能拖累监管审批节奏（监管风险），利空自动驾驶概念",
-        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报后预测利润率下滑，股价跌10%",
-        "assets": "📉 Cerebras股价 利空；📉 AI芯片板块 利空",
-        "chain": "高投入竞争（AI军备竞赛）挤压毛利率，市场担忧盈利可持续性（盈利预期下调）",
-        "watch": "Cerebras下季度毛利率指引"
+        "what": "Cerebras财报首秀，毛利率指引收缩，股价暴跌10%",
+        "assets": "📉 Cerebras 利空; 📉 AI芯片板块 承压",
+        "chain": "毛利率收缩信号AI芯片竞争加剧，可能引发板块估值重估（P/E压缩）",
+        "watch": "Cerebras下季度毛利率实际数据；竞品英伟达财报"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX IPO后不到两周发行250亿美元债券",
-        "assets": "📈 债券市场 供给增加；📉 风险偏好 承压",
-        "chain": "高收益债（风险较高的公司债）供给冲击，可能推高利率（借钱成本上升），挤压其他科技债",
-        "watch": "债券发行利率及认购倍数"
-      }
+      "score": 45
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Cerebras Stock Sinks After First Earnings Report. AI Demand Is Forcing Tough Choices. - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "Cerebras上市首份财报因AI需求迫使艰难抉择",
-        "assets": "📉 Cerebras股价 利空；📉 AI芯片板块 承压",
-        "chain": "AI需求虽旺但成本高企（研发/产能投入），盈利拐点（利润由亏转盈的时点）推迟",
-        "watch": "Cerebras客户订单及资本开支（购买设备等投资）计划"
-      }
+      "score": 44
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "摩根士丹利称韩国股市大跌但未崩溃",
-        "assets": "📉 韩国KOSPI指数 利空；📉 新兴市场 承压",
-        "chain": "外部冲击（如汇率波动、资金外流）引发恐慌，但本土基本面尚稳（估值支撑）",
-        "watch": "韩国出口数据及外资流向"
-      }
+      "score": 42
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "SpaceX在IPO后不到两周，通过债券发行筹集250亿美元",
       "source": "环球市场播报",
       "detail": "SpaceX在创纪录的首次公开募股（IPO）后不到两周，便通过债券发行筹集了250亿美元。 SpaceX于周一宣布发行优先无担保票据，消息人士称，公司最初计划筹资200亿美元。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX IPO后两周内通过债券融资250亿美元",
-        "assets": "📈 债券供给 增加；📉 科技债利差 可能走阔",
-        "chain": "大规模发债吸收流动性（市场资金），推高同类企业融资成本（替代效应）",
-        "watch": "债券定价及后续评级调整"
+        "what": "SpaceX在IPO后不到两周通过债券发行筹资250亿美元",
+        "assets": "📈 SpaceX 利好; 📉 美债收益率 上行压力",
+        "chain": "高评级公司债供给增加，可能推高信用利差（企业债相对国债的溢价）",
+        "watch": "债券发行利率；SpaceX后续融资计划"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
+      "source": "NBC News",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "韩国股市创近年最大单日跌幅，但摩根士丹利称非趋势性崩溃",
+        "assets": "📉 KOSPI指数 承压; 📈 韩元 贬值风险",
+        "chain": "韩国出口数据恶化预期+科技股回调，可能触发亚洲新兴市场资金外流",
+        "watch": "韩国半导体出口数据；韩元兑美元汇率"
       }
     },
     {
@@ -93,10 +75,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递财报强劲，货运业务表现亮眼",
-        "assets": "📈 联邦快递股价 利好；📈 物流板块 利好",
-        "chain": "货运需求旺盛暗示经济韧性（实体经济活跃度），利好工业/消费周期股（顺周期资产）",
-        "watch": "联邦快递下季度营收指引及通胀数据"
+        "what": "特斯拉自动驾驶汽车撞入德州民宅致1人死亡",
+        "assets": "📉 特斯拉 利空; 📈 自动驾驶监管 收紧预期",
+        "chain": "事故可能加速NHTSA（美国国家公路交通安全管理局）调查，增加监管不确定性",
+        "watch": "NHTSA调查进展；特斯拉自动驾驶事故率数据"
       }
     },
     {
@@ -107,10 +89,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递财报强劲，货运业务超预期",
-        "assets": "📈 联邦快递股价 利好；📈 运输ETF 利好",
-        "chain": "货运量上升预示供应链压力缓解（运费可能下降），利好制造业和零售",
-        "watch": "美国PMI（采购经理人指数）及零售库存"
+        "what": "联邦快递财报超预期，货运业务表现强劲",
+        "assets": "📈 联邦快递 利好; 📈 物流运输板块 利好",
+        "chain": "强劲货运数据暗示经济需求韧性，可能提振周期股（与经济周期相关股票）",
+        "watch": "联邦快递下季度指引；美国ISM制造业PMI（采购经理人指数）"
       }
     },
     {
@@ -121,25 +103,19 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "盘后异动：联邦快递涨、Cerebras跌、KB Home波动",
-        "assets": "📈 联邦快递 利好；📉 Cerebras 利空；📉 房地产板块 待观察",
-        "chain": "财报分化引发板块轮动（资金从科技转向周期/价值股），地产受利率敏感（房贷成本影响）",
-        "watch": "次日开盘成交量及板块资金流向"
+        "what": "Alphabet第二位AI明星离职加入竞争对手，股价盘后下跌",
+        "assets": "📉 Alphabet 利空; 📈 AI初创公司 利好",
+        "chain": "人才流失加剧市场对谷歌AI领先地位的担忧，可能拖累科技巨头估值",
+        "watch": "谷歌AI产品发布节奏；竞品OpenAI融资动态"
       }
     },
     {
       "rank": 10,
-      "title": "Wall Street ends lower on semiconductor selloff as AI spending concerns mount - Reuters",
-      "source": "Reuters",
+      "title": "Alphabet Shares Drop After Second AI Star Departs for a Rival - Bloomberg.com",
+      "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "AI支出担忧加剧，半导体抛售拖累华尔街收跌",
-        "assets": "📉 美股半导体指数 利空；📉 纳斯达克 承压",
-        "chain": "AI资本开支（购买芯片/设备）回报存疑，引发估值修正（盈利预期下调），扩散至科技整体",
-        "watch": "英伟达等龙头下季度资本开支指引"
-      }
+      "score": 32
     }
   ]
 }
