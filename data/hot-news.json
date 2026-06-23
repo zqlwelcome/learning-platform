@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 01:20",
+  "updateTime": "2026-06-24 01:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国豁免伊朗石油制裁，德黑兰获数十亿美元收入",
-        "assets": "📉 油价 承压；📈 伊朗相关资产 利好",
-        "chain": "全球原油供给增加预期压低油价，利空能源股（产油企业股票）；地缘风险溢价下降",
-        "watch": "OPEC+（产油国组织）后续产量决策及伊朗实际出口量"
+        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
+        "assets": "📉 原油 承压；📉 能源股 利空",
+        "chain": "伊朗出口增加压低油价，利好炼油商（原油成本降低），利空页岩油生产商。",
+        "watch": "伊朗实际出口量及OPEC+（石油输出国组织及盟友）反应"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向戛纳营销界推介ChatGPT广告业务",
-        "assets": "📈 AI广告概念股 利好；📉 传统广告平台 承压",
-        "chain": "AI商业化加速，广告行业成本结构（广告投放成本）面临重塑，利好算力需求（计算资源）",
-        "watch": "OpenAI广告收入数据及客户签约进展"
+        "what": "OpenAI在戛纳向营销人员推介ChatGPT广告业务",
+        "assets": "📈 人工智能概念股 利好；📈 数字广告板块 利好",
+        "chain": "AI商业化提速，将挤压传统广告公司份额，提升算力需求（英伟达等芯片股）。",
+        "watch": "OpenAI广告收入增速及竞品（谷歌、Meta）应对策略"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉承认FSD在致命事故中开启，归咎司机干预",
-        "assets": "📉 特斯拉股价 承压；📉 自动驾驶板块 利空",
-        "chain": "监管审查（法规调查）风险上升，可能推迟FSD全面商用，利空激光雷达等供应链（零部件供应商）",
-        "watch": "NHTSA（美国交通安全局）调查结论及FSD监管更新"
+        "what": "特斯拉承认FSD（全自动驾驶）在致命事故中开启，归咎驾驶员",
+        "assets": "📉 特斯拉 承压；📉 自动驾驶概念 利空",
+        "chain": "监管审查风险升温，可能延迟FSD获批进度，利好传统车企（安全冗余优势）。",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结论及后续监管规则"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 36,
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美股成长股 利好；📉 美元 承压",
-        "chain": "利率预期稳定降低融资成本（借钱成本），利好科技股（高估值股票），新兴市场资金流入（资本流动）",
-        "watch": "本周FOMC（美联储会议）点阵图及鲍威尔讲话"
+        "assets": "📈 美债 利好；📈 成长股 利好",
+        "chain": "加息暂停预期压低长端利率（长期借贷成本），利好高估值科技股和房地产信托。",
+        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -65,14 +65,28 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内可突破网络安全系统",
-        "assets": "📈 网络安全股 利好；📉 AI监管不确定性 利空",
-        "chain": "安全需求激增推升网安支出（企业预算），但可能加速AI限制法规出台，利空无防护的AI应用",
-        "watch": "各国AI安全法案进展及网安企业订单数据"
+        "what": "五眼联盟警告AI数月内将突破网络安全防线",
+        "assets": "📈 网络安全股 利好；📈 AI安全概念 利好",
+        "chain": "企业被迫加速采购安全软件，利好CrowdStrike等，利空未加固AI的云服务商。",
+        "watch": "CISA（美国网络安全与基础设施安全局）新规及安全公司订单指引"
       }
     },
     {
       "rank": 6,
+      "title": "Want to diversify a bit away from the AI theme? Try Evercore ISI's 'negative beta' stocks",
+      "source": "CNBC",
+      "detail": "Evercore ISI's 'negative beta' stocks, including Exxon Mobil and Mondelez International, offer a way to hedge against a potential AI bubble burst.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "Evercore ISI推荐‘负贝塔’股票以对冲AI主题",
+        "assets": "📈 防御性板块（公用事业、医疗） 利好；📈 低波动ETF 利好",
+        "chain": "资金轮动从AI转向防御，压低科技股估值，推高必需消费品板块的避险溢价。",
+        "watch": "VIX（恐慌指数）走势及防御板块相对强弱指标"
+      }
+    },
+    {
+      "rank": 7,
       "title": "AI PACs pour $20 million into New York Democratic primary in AI regulation battle",
       "source": "CNBC",
       "detail": "Companies are spending big to shape AI policies at the federal level. And the Manhattan House Democratic primary will be a test of where voters stand.",
@@ -80,65 +94,51 @@
       "score": 32,
       "insight": {
         "what": "AI政治行动委员会向纽约民主党初选注资2000万",
-        "assets": "📈 AI监管游说股 利好；📉 无监管AI平台 承压",
-        "chain": "政治资金流入预示AI立法加速（法律制定），合规成本（遵守规则费用）上升利好头部科技企业",
-        "watch": "纽约初选结果及后续AI法案投票"
+        "assets": "📈 AI监管概念 利好；📉 科技巨头 承压",
+        "chain": "监管收紧风险升温，可能限制AI模型训练数据使用，利好合规成本低的小型AI公司。",
+        "watch": "纽约州AI法案投票进展及主要科技公司游说支出"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "加息担忧冲击贵金属市场，黄金、白银价格大幅下挫",
       "source": "环球市场播报",
       "detail": "核心要点 受加息恐慌引发市场避险情绪降温影响，全球科技股走低，黄金、白银价格周二同步下行。 自 2 月 28 日美伊冲突爆发以来，黄金作为动荡时期 “避险资产”...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加息担忧致黄金白银价格大幅下挫",
-        "assets": "📉 黄金 承压；📉 白银 承压；📉 贵金属矿业股 利空",
-        "chain": "实际利率（扣除通胀的利率）上升预期削弱贵金属吸引力（无息资产），美元走强压制大宗商品",
-        "watch": "本周美国CPI（消费者物价指数）及美联储利率决议"
+        "what": "加息担忧打压贵金属，金银价格大跌",
+        "assets": "📉 黄金 承压；📉 白银 承压；📈 美元 利好",
+        "chain": "实际利率（名义利率减通胀预期）上升削弱贵金属吸引力，资金流向短期美债。",
+        "watch": "明日PCE（个人消费支出物价指数）数据及美联储点阵图变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC报道其政治言论",
-        "assets": "📉 ABC母公司迪士尼 承压；📈 保守派媒体 利好",
-        "chain": "法律风险增加媒体行业不确定性（诉讼成本），可能推动舆论两极化，利好替代信息平台",
-        "watch": "诉讼立案进展及ABC收视率变化"
+        "what": "特朗普威胁起诉ABC关于倒影池的报道",
+        "assets": "📉 媒体板块 承压；📉 ABC母公司迪士尼 利空",
+        "chain": "法律风险打压媒体股估值，可能引发其他媒体因诉讼成本而削减调查报道预算。",
+        "watch": "案件是否立案及特朗普支持率波动对媒体广告收入影响"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "聚焦降低词元成本的AI记忆初创企业完成9800万美元融资",
       "source": "环球市场播报",
       "detail": "核心要点 AI 记忆初创企业 Engram（记忆印迹）完成近 1 亿美元融资，旨在提升模型运行效率、遏制暴涨的 AI 使用成本。 该公司称，旗下模型最高可节省 99% 的词元用量...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "AI记忆初创公司融资9800万美元降低词元成本",
-        "assets": "📈 AI基础设施股 利好；📉 传统数据库 承压",
-        "chain": "词元成本（AI计算基本单位）下降加速AI应用普及（使用量增长），利好大模型训练效率",
-        "watch": "该公司客户采纳率及成本降低数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Alan Greenspan, US Fed 'maestro' through years of boom and bust, dies at 100 - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 23,
-      "insight": {
-        "what": "美联储前主席格林斯潘去世，享年100岁",
-        "assets": "📈 美联储独立性讨论 中性；📉 无直接冲击",
-        "chain": "市场情绪短期波动（纪念交易），长期影响有限，或引发对货币政策历史（利率调控）的反思",
-        "watch": "美联储主席鲍威尔是否发表纪念声明"
+        "what": "AI记忆初创公司融资9800万美元聚焦降低词元成本",
+        "assets": "📈 AI基础设施 利好；📈 半导体（存储芯片） 利好",
+        "chain": "词元成本降低将加速AI应用普及，利好大模型API（应用程序编程接口）提供商，利空高成本模型。",
+        "watch": "该公司客户获取速度及词元成本降幅对比行业基准"
       }
     }
   ]
