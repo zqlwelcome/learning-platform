@@ -1,78 +1,92 @@
 {
-  "updateTime": "2026-06-23 23:20",
+  "updateTime": "2026-06-23 23:26",
   "news": [
     {
       "rank": 1,
+      "title": "Wall Street is getting trampled by an AI sell-off. South Korean market plunges 10% - CNN",
+      "source": "CNN",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 57,
+      "insight": {
+        "what": "美股AI板块暴跌，韩国股市跟跌10%",
+        "assets": "📉 美股AI科技股 利空；📉 韩国KOSPI指数 承压",
+        "chain": "AI抛售引发风险偏好（市场情绪）恶化，资金从新兴市场（如韩国）流出，避险买美债",
+        "watch": "今晚美股AI龙头财报及高盛报告细节"
+      }
+    },
+    {
+      "rank": 2,
       "title": "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
       "source": "CNBC",
       "detail": "The U.S. issued a sweeping rollback of sanctions on Iranian oil, offering Tehran an economic lifeline as negotiations toward a peace deal proceed.",
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国全面豁免伊朗石油制裁，释放数十亿美元资金",
-        "assets": "📉 原油 承压；📈 伊朗经济 利好",
-        "chain": "油价下行→通胀预期降温→美联储降息概率上升（利率降低）",
-        "watch": "伊朗石油出口量及OPEC+反应"
+        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
+        "assets": "📉 原油 利空；📈 伊朗里亚尔 短期利好",
+        "chain": "豁免增加全球石油供应预期，压制油价；伊朗经济获喘息，但地缘风险（地缘政治不确定性）下降",
+        "watch": "OPEC+（石油输出国组织及其盟友）产量决策及伊朗出口数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "深夜暴跌！美股AI崩了，高盛重大警告",
       "source": "券商中国",
       "detail": "美股AI交易遭遇重挫。 今晚，美股开盘后，AI相关概念股——半导体、光通信等板块全线大跌，费城半导体指数一度暴跌超7%，三倍做多半导体ETF-Direxion一度暴跌超22%。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股AI板块深夜暴跌，高盛发出重大警告",
-        "assets": "📉 美股AI科技股 利空；📉 纳斯达克指数 承压",
-        "chain": "AI估值泡沫破裂→科技股资金外流→避险资产（如美债）需求上升",
-        "watch": "AI龙头股财报及高盛后续研报"
+        "what": "高盛警告美股AI崩盘风险，引发深夜暴跌",
+        "assets": "📉 美股AI科技股 利空；📉 纳斯达克100指数 承压",
+        "chain": "高盛喊话触发获利了结，AI估值泡沫（价格远超基本面）被质疑，资金轮动至防御板块",
+        "watch": "高盛后续研报及VIX（恐慌指数）是否飙升"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "US watchdog opens probe after Tesla crashes into Texas home, killing woman - Al Jazeera",
+      "source": "Al Jazeera",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 49,
+      "insight": {
+        "what": "特斯拉撞入德州房屋致人死亡，美国监管机构调查",
+        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
+        "chain": "事故强化自动驾驶安全担忧，监管收紧预期升温，挤压特斯拉估值（市场定价）",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结果及特斯拉FSD（全自动驾驶）更新"
+      }
+    },
+    {
+      "rank": 5,
       "title": "IPO前夕 OpenAI向戛纳营销从业者推介ChatGPT广告业务",
       "source": "环球市场播报",
       "detail": "OpenAI首次亮相全球顶级广告盛会。本周，该公司面向各大营销人员与广告代理机构推介其刚起步的ChatGPT广告业务以及Codex编程工具...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI在IPO前向戛纳营销从业者推介ChatGPT广告业务",
-        "assets": "📈 OpenAI估值 利好；📈 数字广告股 关注",
-        "chain": "AI商业化加速→广告行业效率提升→传统广告公司（如WPP）面临竞争",
-        "watch": "OpenAI IPO估值及广告收入数据"
+        "what": "OpenAI向戛纳广告业推销ChatGPT广告业务",
+        "assets": "📈 广告科技股 利好；📈 OpenAI估值 正面",
+        "chain": "AI商业化加速，广告行业成本降低，可能挤压传统广告代理（中间商）份额",
+        "watch": "OpenAI广告收入数据及竞品谷歌、Meta反应"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "十四年上市路，三闯港股IPO！它走的累！",
       "source": "市场资讯",
       "detail": "来源：IPO日报 深耕光储领域的古瑞瓦特历经十四年资本长跑，三度闯关港股。公司业绩高度绑定海外能源周期，盈利波动剧烈，本次IPO是其穿越行业周期...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "某公司十四年三闯港股IPO，上市之路艰难",
-        "assets": "📉 港股IPO市场 情绪承压；📈 同行业未上市企业 估值下调",
-        "chain": "IPO失败案例增多→一级市场（未上市企业）融资难度加大→投资者风险偏好降低",
-        "watch": "该公司招股书更新及港交所审批动态"
+        "what": "某公司十四年三次冲击港股IPO，进程艰难",
+        "assets": "📉 港股新股市场 承压；📉 该拟上市公司 利空",
+        "chain": "IPO（首次公开募股）失败信号暗示港股流动性紧张，投资者信心不足，影响其他拟上市企业",
+        "watch": "港交所审核结果及市场资金流向"
       }
     },
     {
-      "rank": 5,
-      "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
-      "source": "NBC News",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "特斯拉自动驾驶撞穿德州房屋致1人死亡",
-        "assets": "📉 特斯拉股价 利空；📈 自动驾驶监管 风险上升",
-        "chain": "安全事件→监管审查加严→自动驾驶行业商业化进程放缓",
-        "watch": "NHTSA（美国公路安全局）调查结果及特斯拉事故率"
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "title": "瑞银认为美联储短期内不会加息",
       "source": "环球市场播报",
       "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
@@ -80,65 +94,51 @@
       "score": 36,
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美股 利好；📈 美债 利好",
-        "chain": "不加息预期→资金成本稳定→风险资产（股票）吸引力上升",
+        "assets": "📈 美股 利好；📈 美债 利好；📉 美元 承压",
+        "chain": "加息预期降温，降低企业融资成本，利好风险资产（如股票），但美元走弱可能推升商品",
         "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
       "source": "CBS News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内将突破网络安全系统",
-        "assets": "📈 网络安全股 利好；📉 依赖AI的企业 风险",
-        "chain": "AI攻击能力增强→企业安全支出上升→网络安全公司（如CrowdStrike）受益",
-        "watch": "网络安全漏洞报告及AI防御技术进展"
+        "what": "五眼联盟警告AI数月内可能绕过网络安全系统",
+        "assets": "📈 网络安全股 利好；📉 AI应用股 承压",
+        "chain": "安全威胁升级催生政府和企业采购需求，利好网安公司，但AI监管加码风险压制AI股",
+        "watch": "五眼联盟政策声明及网安公司订单"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "加息担忧冲击贵金属市场，黄金、白银价格大幅下挫",
+      "source": "环球市场播报",
+      "detail": "核心要点 受加息恐慌引发市场避险情绪降温影响，全球科技股走低，黄金、白银价格周二同步下行。 自 2 月 28 日美伊冲突爆发以来，黄金作为动荡时期 “避险资产”...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "加息担忧导致黄金、白银价格大幅下跌",
+        "assets": "📉 黄金 利空；📉 白银 利空",
+        "chain": "加息预期推高实际利率（剔除通胀的利率），无息资产（黄金）吸引力下降，资金流向美元",
+        "watch": "美联储会议纪要及非农就业数据"
+      }
+    },
+    {
+      "rank": 10,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC涉Reflecting Pool报道",
-        "assets": "📉 媒体股 承压；📈 保守派媒体 利好",
-        "chain": "法律诉讼风险→媒体内容审核趋严→言论自由相关ETF波动",
-        "watch": "ABC回应及法院是否受理"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "科金明IPO：募投产能是在手订单百倍以上 经营净现金流“腰斩”应收账款大增",
-      "source": "新浪证券",
-      "detail": "北交所上市委员会将于6月26日审议深圳市科金明电子股份有限公司（以下简称“科金明”）的首发申请。这家以智能微投、智能云相框为核心产品的消费电子企业...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "科金明IPO募投产能为在手订单百倍，经营现金流腰斩",
-        "assets": "📉 科金明估值 利空；📈 同行业新股 风险警示",
-        "chain": "产能过剩风险→投资者质疑募资合理性→IPO市场审核趋严",
-        "watch": "科金明产能利用率及应收账款变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "信诺维IPO：实控人配偶套现超3亿元 供应商突击入股采购额激增67倍",
-      "source": "新浪证券",
-      "detail": "苏州信诺维医药科技股份有限公司（下称“信诺维”）将于6月26日迎来科创板上会大考。这家由前中金公司医药行业首席分析师强静创办的创新药企...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "信诺维IPO实控人配偶套现超3亿，供应商突击入股",
-        "assets": "📉 信诺维估值 利空；📈 监管关注 风险",
-        "chain": "利益输送嫌疑→IPO审查加严→关联交易披露要求提高",
-        "watch": "证监会问询函及供应商采购数据"
+        "what": "特朗普威胁起诉ABC报道其涉水池言论",
+        "assets": "📉 ABC母公司迪士尼 利空；📉 媒体股 承压",
+        "chain": "诉讼风险增加媒体合规成本，可能引发保守派抵制，广告收入面临不确定性",
+        "watch": "ABC是否撤稿及特朗普竞选团队后续行动"
       }
     }
   ]
