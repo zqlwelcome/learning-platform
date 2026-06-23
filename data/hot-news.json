@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-06-24 00:20",
+  "updateTime": "2026-06-24 00:26",
   "news": [
     {
       "rank": 1,
+      "title": "Wall Street is getting trampled by an AI sell-off. South Korean market plunges 10% - CNN",
+      "source": "CNN",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 57,
+      "insight": {
+        "what": "AI板块遭抛售，韩国股市暴跌10%",
+        "assets": "📉 美股AI板块 利空, 📉 韩国KOSPI 利空",
+        "chain": "AI恐慌蔓延至亚洲，资金避险（Risk-off）涌入美债和黄金，科技股估值承压",
+        "watch": "今晚美股AI龙头（如英伟达）是否继续破位"
+      }
+    },
+    {
+      "rank": 2,
       "title": "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
       "source": "CNBC",
       "detail": "The U.S. issued a sweeping rollback of sanctions on Iranian oil, offering Tehran an economic lifeline as negotiations toward a peace deal proceed.",
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "美国对伊朗石油制裁豁免，释放数十亿美元收入",
-        "assets": "📉 原油 承压；📈 伊朗经济 利好",
-        "chain": "降低全球原油供应中断风险，油价下行压力增大，地缘溢价缩水（冲突带来的价格提升）",
-        "watch": "伊朗石油出口量及OPEC（石油输出国组织）后续产量决策"
+        "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
+        "assets": "📈 国际油价 利空, 📈 伊朗经济 利好",
+        "chain": "油价下行（供应增加预期）压低通胀，削弱美联储鹰派（加息倾向）逻辑，利好风险资产",
+        "watch": "OPEC+是否调整产量应对伊朗石油回归"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "深夜暴跌！美股AI崩了，高盛重大警告",
       "source": "券商中国",
       "detail": "美股AI交易遭遇重挫。 今晚，美股开盘后，AI相关概念股——半导体、光通信等板块全线大跌，费城半导体指数一度暴跌超7%，三倍做多半导体ETF-Direxion一度暴跌超22%。",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "美股AI板块暴跌，高盛发出重大警告",
-        "assets": "📉 美股AI科技股 利空；📉 半导体ETF 承压",
-        "chain": "AI估值泡沫（股价远超实际价值）担忧触发抛售，资金可能轮动至防御板块（如公用事业），整体风险偏好（愿意冒险买股票的情绪）降温",
-        "watch": "AI龙头财报及高盛后续研报具体内容"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "US watchdog opens probe after Tesla crashes into Texas home, killing woman - Al Jazeera",
-      "source": "Al Jazeera",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "特斯拉撞入德州民宅致人死亡，美监管机构调查",
-        "assets": "📉 特斯拉 利空；📉 自动驾驶概念股 承压",
-        "chain": "监管风险（被罚款或限制）上升，可能延缓自动驾驶技术商用进程，拖累相关供应链",
-        "watch": "NHTSA（美国国家公路安全局）调查结论及特斯拉回应"
+        "what": "高盛警告AI泡沫，美股AI板块深夜崩盘",
+        "assets": "📉 美股AI股 利空, 📉 科技ETF 利空",
+        "chain": "AI叙事受质疑触发获利了结（Take profit），资金轮动至防御板块（如公用事业），波动率（VIX恐慌指数）飙升",
+        "watch": "高盛是否下调AI相关公司评级"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向戛纳营销从业者推介ChatGPT广告业务",
-        "assets": "📈 人工智能应用 利好；📈 数字广告平台 利好",
-        "chain": "AI商业化加速，广告行业成本结构可能重构，传统广告代理商面临颠覆（被取代）风险",
-        "watch": "OpenAI广告业务具体收费模式和客户签约情况"
+        "what": "OpenAI向戛纳营销者推介ChatGPT广告业务",
+        "assets": "📈 广告科技股 利好, 📈 OpenAI估值 利好",
+        "chain": "AI商业化加速（变现能力增强），冲击传统广告平台（如谷歌）份额，但提升AI应用板块情绪",
+        "watch": "OpenAI广告定价和客户签约率"
       }
     },
     {
@@ -65,14 +65,28 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "美联储降息预期遭打击，美元走强股市下跌",
-        "assets": "📉 美股科技股 利空；📈 美元指数 利好",
-        "chain": "利率维持高位（借钱成本不降）压制科技股估值（未来现金流折现价值降低），资金回流美元资产",
-        "watch": "本周美联储官员讲话及美国CPI（消费者物价指数）数据"
+        "what": "美联储降息预期受挫，科技股跌美元涨",
+        "assets": "📉 美股科技股 利空, 📈 美元指数 利好",
+        "chain": "降息（借钱成本降低）推迟，科技股高估值受压（折现率上升），美元走强施压新兴市场货币",
+        "watch": "本周美联储官员讲话及CPI（通胀）数据"
       }
     },
     {
       "rank": 6,
+      "title": "Tesla admits FSD was on in fatal Texas crash, blames driver for ‘overriding’ it - Electrek",
+      "source": "Electrek",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "特斯拉承认FSD在致命车祸中开启，归咎司机",
+        "assets": "📉 特斯拉股价 利空, 📉 自动驾驶板块 利空",
+        "chain": "监管风险升温（FSD审批或收紧），消费者信心受挫，竞争对手（如Waymo）或受益于安全对比",
+        "watch": "NHTSA（美国交通安全局）是否启动正式调查"
+      }
+    },
+    {
+      "rank": 7,
       "title": "瑞银认为美联储短期内不会加息",
       "source": "环球市场播报",
       "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
@@ -80,65 +94,51 @@
       "score": 36,
       "insight": {
         "what": "瑞银认为美联储短期内不会加息",
-        "assets": "📈 美债 利好；📈 美股 利好",
-        "chain": "打消市场加息恐慌，缓解利率上行压力，风险资产估值压力减轻，但降息预期仍存不确定性",
-        "watch": "美联储点阵图（利率预测图）及瑞银后续报告细节"
+        "assets": "📈 美股科技股 利好, 📈 美债 利好",
+        "chain": "加息暂停预期支撑风险偏好（Risk-on），科技股估值压力缓解，美元走弱利好大宗商品",
+        "watch": "美联储会议纪要中关于通胀和就业的措辞"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Alan Greenspan, Fed Chairman Through Prosperity and Crisis, Dies at 100 - The New York Times",
       "source": "The New York Times",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "前美联储主席格林斯潘逝世，享年100岁",
-        "assets": "📈 美元 中性；📈 美债 中性",
-        "chain": "历史人物事件，短期情绪冲击有限，但引发对美联储独立性及货币政策框架的讨论",
-        "watch": "市场对格林斯潘时期政策回顾及美联储声明"
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📈 美元 短期波动, 📈 金融股 情绪影响",
+        "chain": "市场短期缅怀其政策遗产（如低通胀时代），但无实质政策冲击，历史人物事件通常仅引发日内波动",
+        "watch": "本周美元指数是否因纪念情绪异动"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
       "source": "CBS News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "五眼联盟警告AI数月内可突破网络安全系统",
-        "assets": "📉 网络安全股 利空；📉 AI安全概念 承压",
-        "chain": "AI威胁升级引发安全支出增加，但现有防护体系可能失效，利好新兴AI防御技术公司",
-        "watch": "各国网络安全法规动态及AI安全公司融资情况"
+        "what": "五眼联盟警告AI数月内可突破网络安全",
+        "assets": "📈 网络安全股 利好, 📉 AI监管股 利空",
+        "chain": "安全需求激增（CrowdStrike等受益），AI开发受监管压力（合规成本上升），对冲基金或做多安全做空AI",
+        "watch": "各国是否出台AI安全新法规"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "AI PACs pour $20 million into New York Democratic primary in AI regulation battle",
       "source": "CNBC",
       "detail": "Companies are spending big to shape AI policies at the federal level. And the Manhattan House Democratic primary will be a test of where voters stand.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "AI政治行动委员会向纽约民主党初选注资2000万美元",
-        "assets": "📈 AI监管概念 利好；📈 政治咨询股 利好",
-        "chain": "AI监管成为政治筹码（影响选举的工具），立法进程可能加速，合规成本上升利好法律科技公司",
-        "watch": "纽约初选结果及后续AI监管法案进展"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "加息担忧冲击贵金属市场，黄金、白银价格大幅下挫",
-      "source": "环球市场播报",
-      "detail": "核心要点 受加息恐慌引发市场避险情绪降温影响，全球科技股走低，黄金、白银价格周二同步下行。 自 2 月 28 日美伊冲突爆发以来，黄金作为动荡时期 “避险资产”...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "加息担忧冲击贵金属，黄金白银价格大跌",
-        "assets": "📉 黄金 利空；📉 白银 利空",
-        "chain": "利率预期上升（借钱成本可能增加）推高实际利率（扣除通胀后的利率），无息资产黄金吸引力下降，美元走强进一步施压",
-        "watch": "美国实际利率走势及COMEX（纽约商品交易所）持仓数据"
+        "what": "AI政治行动委员会注资2000万介入纽约初选",
+        "assets": "📈 AI监管股 利空, 📈 政治咨询股 利好",
+        "chain": "AI监管辩论升温（政策不确定性），竞选相关广告支出增加，科技巨头游说压力上升",
+        "watch": "纽约初选结果及后续AI立法进展"
       }
     }
   ]
