@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-23 22:56",
+  "updateTime": "2026-06-23 23:05",
   "news": [
     {
       "rank": 1,
@@ -10,41 +10,69 @@
       "score": 52,
       "insight": {
         "what": "美国豁免伊朗石油制裁，释放数十亿美元收入",
-        "assets": "📉 原油 承压\n📈 伊朗相关资产 利好",
-        "chain": "油价下跌→降低通胀预期→减缓美联储加息（收紧货币）压力，利空能源股",
-        "watch": "伊朗原油出口量及OPEC（石油输出国组织）后续产量调整"
+        "assets": "📉 原油 承压\n📉 能源股 利空",
+        "chain": "原油供应增加预期压低油价，能源板块盈利预期下调，通胀预期降温（物价上涨放缓）",
+        "watch": "伊朗实际原油出口量及OPEC+减产执行率"
       }
     },
     {
       "rank": 2,
-      "title": "US watchdog opens probe after Tesla crashes into Texas home, killing woman - Al Jazeera",
-      "source": "Al Jazeera",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "美国监管机构调查特斯拉撞车致死事故",
-        "assets": "📉 特斯拉 利空",
-        "chain": "监管升级→自动驾驶技术审查趋严→拖累自动驾驶概念股（如Waymo）",
-        "watch": "NHTSA（美国国家公路安全管理局）调查结论及后续召回"
-      }
-    },
-    {
-      "rank": 3,
       "title": "IPO前夕 OpenAI向戛纳营销从业者推介ChatGPT广告业务",
       "source": "环球市场播报",
       "detail": "OpenAI首次亮相全球顶级广告盛会。本周，该公司面向各大营销人员与广告代理机构推介其刚起步的ChatGPT广告业务以及Codex编程工具...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI向广告商推介ChatGPT广告业务，准备IPO",
-        "assets": "📈 AI广告概念股 利好\n📉 传统广告平台 承压",
-        "chain": "AI广告效率提升→挤压谷歌、Meta（社交平台）广告份额→广告行业重新定价",
-        "watch": "OpenAI广告定价及客户签约数据"
+        "what": "OpenAI向戛纳营销从业者推介ChatGPT广告业务",
+        "assets": "📈 AI应用/广告科技股 利好\n📉 传统广告公司 承压",
+        "chain": "AI广告效率提升挤压传统广告份额，营销预算向AI工具转移（替代效应）",
+        "watch": "OpenAI广告业务收入数据及客户签约数量"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "十四年上市路，三闯港股IPO！它走的累！",
+      "source": "市场资讯",
+      "detail": "来源：IPO日报 深耕光储领域的古瑞瓦特历经十四年资本长跑，三度闯关港股。公司业绩高度绑定海外能源周期，盈利波动剧烈，本次IPO是其穿越行业周期...",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "某公司三闯港股IPO，上市路长达十四年",
+        "assets": "📉 港股新股市场 信心承压\n📈 做空/对冲工具 关注",
+        "chain": "多次失败反映港股融资环境收紧，投资者对低质IPO抛售避险（流动性挤出）",
+        "watch": "该公司招股书估值及基石投资者参与情况"
       }
     },
     {
       "rank": 4,
+      "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
+      "source": "NBC News",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "特斯拉自动驾驶汽车撞穿德州房屋致1死",
+        "assets": "📉 特斯拉 负面情绪\n📉 自动驾驶板块 监管风险",
+        "chain": "事故加剧自动驾驶安全争议，监管审查收紧预期上升，保险成本或增加（责任风险）",
+        "watch": "NHTSA（美国公路安全管理局）调查结论及后续法规变动"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "瑞银认为美联储短期内不会加息",
+      "source": "环球市场播报",
+      "detail": " 上周美联储刚刚召开了利率制定会议，这也是新任主席沃什履新以来的首次会议。市场目前的定价显示，美联储到明年4月将加息两次。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "瑞银认为美联储短期内不会加息",
+        "assets": "📈 美股 利好\n📈 美债 利好\n📉 美元 承压",
+        "chain": "降息预期（借钱成本降低）维持风险偏好，美元走弱利好新兴市场资金流入",
+        "watch": "美联储官员讲话及通胀数据PCE（个人消费支出物价指数）"
+      }
+    },
+    {
+      "rank": 6,
       "title": "AI on pace to bypass cybersecurity systems in months, not years, \"Five Eyes\" spy partners warn - CBS News",
       "source": "CBS News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -52,93 +80,65 @@
       "score": 32,
       "insight": {
         "what": "五眼联盟警告AI数月内可绕过网络安全系统",
-        "assets": "📈 网络安全股 利好\n📉 AI应用股 承压",
-        "chain": "AI攻击威胁升级→企业加大安全预算→利好CrowdStrike等安全厂商",
-        "watch": "各国网络安全法规动向及安全软件订单增速"
+        "assets": "📈 网络安全股 利好\n📉 云服务/数据公司 承压",
+        "chain": "AI攻击威胁提升安全投入需求，企业防御成本上升挤压利润（安全溢价）",
+        "watch": "网络安全公司订单量及AI攻击事件频率"
       }
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
       "source": "CNBC",
       "detail": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普威胁起诉ABC关于华盛顿水池的报道",
-        "assets": "📉 媒体股 承压\n📈 保守派媒体 利好",
-        "chain": "法律风险上升→媒体自我审查加剧→政治极化推高特定媒体收视率",
-        "watch": "ABC诉讼进展及媒体行业法律成本变化"
+        "what": "特朗普威胁起诉ABC报道其言论",
+        "assets": "📈 媒体股 短期波动\n📉 政治不确定性 避险资产",
+        "chain": "诉讼威胁加剧媒体合规成本，政治风险推升黄金等避险资产需求",
+        "watch": "ABC回应及法律诉讼进展"
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "科金明IPO：募投产能是在手订单百倍以上 经营净现金流“腰斩”应收账款大增",
       "source": "新浪证券",
       "detail": "北交所上市委员会将于6月26日审议深圳市科金明电子股份有限公司（以下简称“科金明”）的首发申请。这家以智能微投、智能云相框为核心产品的消费电子企业...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "科金明IPO：募投产能是订单百倍，现金流腰斩",
-        "assets": "📉 新股市场 利空\n📉 科金明 看空",
-        "chain": "产能过剩风险→市场质疑IPO质量→拖累次新股估值（市盈率）",
-        "watch": "科金明招股书修订及机构认购率"
+        "what": "科金明IPO募投产能为在手订单百倍以上",
+        "assets": "📉 科金明 高估值风险\n📈 做空机构 关注",
+        "chain": "产能过剩担忧引发估值泡沫质疑，投资者或抛售同类高估值新股（连锁反应）",
+        "watch": "公司订单增长真实性及行业产能利用率"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "信诺维IPO：实控人配偶套现超3亿元 供应商突击入股采购额激增67倍",
       "source": "新浪证券",
       "detail": "苏州信诺维医药科技股份有限公司（下称“信诺维”）将于6月26日迎来科创板上会大考。这家由前中金公司医药行业首席分析师强静创办的创新药企...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "信诺维IPO：实控人配偶套现，供应商突击入股",
-        "assets": "📉 信诺维 看空\n📉 生物医药板块 承压",
-        "chain": "关联交易嫌疑→监管问询风险→打压IPO审批通过率",
-        "watch": "证监会问询函及供应商采购数据真实性"
+        "what": "信诺维IPO：实控人配偶套现3亿，供应商突击入股",
+        "assets": "📉 信诺维 治理风险\n📈 监管审查 利空",
+        "chain": "内幕交易嫌疑打击IPO信心，供应商入股关联交易或虚增采购额（财务粉饰）",
+        "watch": "证监会问询函及保荐机构核查报告"
       }
     },
     {
-      "rank": 8,
-      "title": "Alphabet Stock Set to Fall for Second Day as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
-      "source": "Barron's",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "谷歌DeepMind诺奖得主跳槽Anthropic，股价连跌",
-        "assets": "📉 Alphabet 利空\n📈 Anthropic 利好",
-        "chain": "人才流失→AI竞争劣势→谷歌云（云服务）业务增长放缓",
-        "watch": "谷歌AI团队剩余核心成员留存及Anthropic新模型发布"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 10,
       "title": "Micron’s Stock Keeps Hitting New Highs. Here’s How Much Traders Expect It Could Move After Earnings - Investopedia",
       "source": "Investopedia",
       "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光股价创新高，交易员押注财报后大涨",
-        "assets": "📈 美光 利好\n📈 存储芯片板块 利好",
-        "chain": "AI存储需求爆发→推高DRAM（动态随机存取存储器）价格→利好三星、SK海力士",
-        "watch": "美光财报营收指引及HBM（高带宽存储器）出货量"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "聚焦降低词元成本的AI记忆初创企业完成9800万美元融资",
-      "source": "环球市场播报",
-      "detail": "核心要点 AI 记忆初创企业 Engram（记忆印迹）完成近 1 亿美元融资，旨在提升模型运行效率、遏制暴涨的 AI 使用成本。 该公司称，旗下模型最高可节省 99% 的词元用量...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "AI记忆初创公司融资9800万美元，专注降低词元成本",
-        "assets": "📈 AI基础设施 利好\n📉 传统数据库股 承压",
-        "chain": "词元成本下降→AI应用普及加速→利好大模型公司（如OpenAI），利空甲骨文等传统数据存储",
-        "watch": "该公司技术落地案例及大模型API（应用程序接口）降价趋势"
+        "what": "美光科技股价连创新高，期权市场预期财报波动大",
+        "assets": "📈 美光/半导体 利好\n📈 期权波动率 溢价",
+        "chain": "财报前期权隐含波动率（预期价格波动幅度）飙升，存储芯片需求强劲或带动产业链",
+        "watch": "美光财报营收及HBM（高带宽内存）出货指引"
       }
     }
   ]
