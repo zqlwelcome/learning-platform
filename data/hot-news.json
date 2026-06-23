@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 07:20",
+  "updateTime": "2026-06-24 07:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 51,
       "insight": {
-        "what": "美联储前主席格林斯潘去世，享年100岁",
-        "assets": "📉 美元指数 短期承压",
-        "chain": "市场或重估其任内政策遗产，但实际影响有限，因已淡出多年",
-        "watch": "美元指数是否出现异常波动"
+        "what": "前美联储主席格林斯潘去世，享年100岁",
+        "assets": "📉 美元指数 承压",
+        "chain": "市场或重估其政策遗产，短期增加美联储鸽派（倾向宽松）预期，利空美元",
+        "watch": "美联储官员讲话基调变化"
       }
     },
     {
@@ -23,9 +23,9 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报预测利润率下滑，股价暴跌10%",
-        "assets": "📉 芯片股 利空",
-        "chain": "AI芯片竞争加剧（如英伟达），可能引发行业估值重估（PE压缩）",
+        "what": "Cerebras财报预测利润率收缩，股价跌10%",
+        "assets": "📉 Cerebras 利空；📉 AI芯片板块 承压",
+        "chain": "AI芯片盈利担忧蔓延，或拖累半导体ETF（交易所交易基金）及纳指",
         "watch": "Cerebras下季度毛利率指引"
       }
     },
@@ -35,13 +35,7 @@
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX在IPO后两周内发行250亿美元债券",
-        "assets": "📈 太空概念股 利好",
-        "chain": "高负债融资显示扩张信心，可能提振相关板块风险偏好（risk-on）",
-        "watch": "债券评级及认购倍数"
-      }
+      "score": 45
     },
     {
       "rank": 4,
@@ -49,13 +43,7 @@
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "韩国股市暴跌，但摩根士丹利认为未破位",
-        "assets": "📉 韩国综合指数 短期利空",
-        "chain": "半导体出口疲软（如存储芯片需求下滑）拖累指数，但技术面支撑未破",
-        "watch": "韩国半导体出口数据"
-      }
+      "score": 42
     },
     {
       "rank": 5,
@@ -65,10 +53,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SpaceX通过债券发行筹集250亿美元",
-        "assets": "📈 太空概念股 利好",
-        "chain": "巨额融资显示资本开支加速，可能引发行业并购预期（M&A）",
-        "watch": "SpaceX估值变化及债券收益率"
+        "what": "SpaceX在IPO后不到两周通过债券融资250亿美元",
+        "assets": "📈 SpaceX债券 利好；📉 国债收益率 上行",
+        "chain": "高评级科技债供给增加，推高企业债收益率，挤压投机级（高风险）债券需求",
+        "watch": "SpaceX债券评级及认购倍数"
       }
     },
     {
@@ -79,10 +67,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉自动驾驶汽车撞入德州房屋致1死",
-        "assets": "📉 特斯拉 利空",
-        "chain": "监管风险升温（自动驾驶安全性审查），可能拖累新能源车板块",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否展开调查"
+        "what": "摩根士丹利称韩国股市暴跌但不破位",
+        "assets": "📉 韩国KOSPI指数 承压",
+        "chain": "韩股下跌或因外资流出，但机构认为非结构性崩溃，或吸引逢低买入（价值投资）",
+        "watch": "韩国出口数据及外资流向"
       }
     },
     {
@@ -93,10 +81,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递货运业务强劲，财报超预期",
-        "assets": "📈 物流股 利好",
-        "chain": "经济需求韧性（货运量增长）支撑运输板块，或提振工业股",
-        "watch": "联邦快递下季度营收指引"
+        "what": "特斯拉自动驾驶撞毁房屋致1人死亡",
+        "assets": "📉 特斯拉 利空；📉 自动驾驶概念股 承压",
+        "chain": "监管风险升温，或拖累自动驾驶技术估值及保险成本",
+        "watch": "NHTSA（美国国家公路安全管理局）调查进展"
       }
     },
     {
@@ -107,10 +95,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递盈利超预期，货运业务表现强劲",
-        "assets": "📈 工业股 利好",
-        "chain": "货运需求强劲暗示经济软着陆（经济降温但未衰退），利好周期股",
-        "watch": "美国ISM制造业PMI（采购经理人指数）"
+        "what": "联邦快递财报强劲，货运业务超预期",
+        "assets": "📈 联邦快递 利好；📈 物流板块 利好",
+        "chain": "货运需求强劲暗示经济韧性，或提振工业股及通胀预期",
+        "watch": "联邦快递下季度营收指引"
       }
     },
     {
@@ -121,10 +109,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "盘后异动：联邦快递涨、Cerebras跌、KB Home上涨",
-        "assets": "📈 物流股 利好；📉 芯片股 利空",
-        "chain": "个股分化反映行业轮动（资金从科技转向价值周期股）",
-        "watch": "标普500板块资金流向"
+        "what": "盘后异动股：联邦快递涨、Cerebras跌、KB Home涨",
+        "assets": "📈 联邦快递 利好；📉 Cerebras 利空；📈 KB Home 利好",
+        "chain": "个股波动反映板块分化：物流强、AI弱、住宅建筑受利率预期影响",
+        "watch": "盘后交易量及盘前期货变化"
       }
     },
     {
@@ -135,10 +123,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "华尔街因半导体抛售收跌，AI支出担忧加剧",
-        "assets": "📉 美股科技股 利空；📉 AI概念股 承压",
-        "chain": "AI投资回报率（ROI）存疑，拖累芯片及云服务商（如英伟达、微软）",
-        "watch": "英伟达财报及AI资本开支指引"
+        "what": "华尔街收跌，半导体抛售因AI支出担忧",
+        "assets": "📉 美股半导体 利空；📉 纳指 承压",
+        "chain": "AI资本开支回报存疑，或引发科技股估值回调，拖累整体风险偏好",
+        "watch": "英伟达等龙头股财报及资本开支指引"
       }
     }
   ]
