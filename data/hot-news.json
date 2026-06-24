@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 17:40",
+  "updateTime": "2026-06-24 17:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "特斯拉致死事故家属起诉，指控自动驾驶辅助缺陷",
-        "assets": "📉 特斯拉股价 承压",
-        "chain": "监管（SEC/NHTSA）可能收紧自动驾驶审批，拖累整个电动车板块估值",
-        "watch": "NHTSA是否发起正式调查"
+        "what": "德州特斯拉致死事故家属起诉自动驾驶辅助",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "自动驾驶监管趋严（监管收紧），特斯拉FSD（全自动驾驶）商用进程受阻",
+        "watch": "NHTSA（美交管局）是否升级调查"
       }
     },
     {
@@ -23,52 +23,52 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报后暴跌10%，指引毛利率持续收缩",
+        "what": "Cerebras财报后跌10%，利润率指引收缩",
         "assets": "📉 AI芯片板块 承压",
-        "chain": "市场对AI芯片竞争加剧（英伟达/AMD）的担忧升温，半导体ETF（SMH）或遭抛售",
-        "watch": "Cerebras下季度毛利率实际数据"
+        "chain": "高估值AI芯片股面临盈利证伪（业绩不达预期），资金转向防御",
+        "watch": "Cerebras下季度毛利率能否企稳"
       }
     },
     {
       "rank": 3,
+      "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
+      "source": "CNBC",
+      "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "SpaceX IPO后不到两周融资250亿美元",
+        "assets": "📈 太空概念股 利好",
+        "chain": "SpaceX高融资热度提振太空经济估值（市场定价），但债务规模暗示杠杆风险",
+        "watch": "SpaceX估值变化及后续发射订单"
+      }
+    },
+    {
+      "rank": 4,
       "title": "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
       "source": "CNBC",
       "detail": "The commission has now sued nine states in its battle to defend what it sees as its exclusive right to regulate event contracts.",
       "lang": "en",
       "score": 43,
       "insight": {
-        "what": "CFTC起诉肯塔基州，首次对红州预测市场采取联邦行动",
-        "assets": "📉 政治预测代币（如PolyMarket相关） 承压",
-        "chain": "监管不确定性打击去中心化预测平台（Polymarket）合规预期，加密概念股受牵连",
-        "watch": "法院是否禁止肯塔基州内预测市场运营"
+        "what": "CFTC起诉肯塔基州限制预测市场",
+        "assets": "📈 预测市场平台 利好",
+        "chain": "联邦法院可能推翻州禁令，为Polymarket等平台打开合规空间（法律确定性）",
+        "watch": "CFTC与各州博弈的判决结果"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "黄金徘徊于4100美元下方：油价跌了、加息预期却升温，PCE数据成关键",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周三（6月24日）欧洲时段，现货黄金从近两周低点小幅反弹，但整体仍维持在4100美元关口下方，负面偏压未改。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "金价徘徊4100美元下方，油价跌但加息预期升温，PCE成焦点",
-        "assets": "📈 黄金 震荡偏强，📉 原油 偏弱",
-        "chain": "加息预期（美联储紧缩）压制风险偏好，但油价下跌缓解通胀预期，黄金作为避险资产获得支撑",
-        "watch": "周五PCE（个人消费支出物价指数）实际值与预期差值"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "FedEx posts strong earnings results in last quarter with freight business",
-      "source": "CNBC",
-      "detail": "FedEx posted strong fiscal fourth quarter earnings on Tuesday in the company's last quarter that included the freight business before its spin-off.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "联邦快递财报超预期，货运业务强劲",
-        "assets": "📈 美股物流/货运板块 利好",
-        "chain": "经济软着陆预期增强（消费需求韧性），利好道指周期股（CAT/UNP）",
-        "watch": "联邦快递下季度指引是否上调"
+        "what": "金价4100美元下方震荡，油价跌但加息预期升温",
+        "assets": "📈 黄金 中性偏多 📉 原油 承压",
+        "chain": "加息预期抑制通胀预期（抗通胀需求），但油价下跌缓解成本，金价短期盘整",
+        "watch": "周五PCE（个人消费支出）数据是否超预期"
       }
     },
     {
@@ -79,24 +79,24 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "A股某股尾盘涨停突破700元，从70元持续上涨",
-        "assets": "📈 A股该标的 利好（但需警惕炒作）",
-        "chain": "游资（短线资金）情绪亢奋，可能推动同板块跟风，但监管（证监会）或关注涨幅异常",
-        "watch": "该股成交量是否异常放大及龙虎榜席位"
+        "what": "A股某股尾盘涨停突破700元",
+        "assets": "📈 该股所属板块 利好",
+        "chain": "龙头股突破带动板块情绪（资金跟风），但需警惕高位回调风险",
+        "watch": "该股龙虎榜（主力资金动向）及成交量"
       }
     },
     {
       "rank": 7,
-      "title": "Tech Stocks Set to Bounce After $1.3 Trillion Rout on AI Jitters - Bloomberg",
-      "source": "Bloomberg",
+      "title": "Tech Stocks Set to Bounce After $1.3 Trillion Rout on AI Jitters - Bloomberg.com",
+      "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股因AI恐慌蒸发1.3万亿后反弹",
-        "assets": "📈 美股科技股 短期反弹，📉 AI概念股 波动大",
-        "chain": "超跌后空头回补（空头平仓买入），但基本面（AI盈利兑现）疑虑未消，反弹持续性存疑",
-        "watch": "英伟达/微软等龙头能否收复关键均线"
+        "what": "科技股在1.3万亿美元抛售后反弹",
+        "assets": "📈 美股科技股 反弹",
+        "chain": "AI恐慌过度释放（超卖），资金回补（买入）但持续性需看财报",
+        "watch": "英伟达等AI龙头财报及资金流向"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "机构称美联储政策标尺转温和，中长期看好金价",
+        "what": "机构认为美联储转向温和，金价中长期看涨",
         "assets": "📈 黄金 中长期利好",
-        "chain": "实际利率（名义利率-通胀）预期下行，美元承压（DXY下跌），资金流入黄金ETF（GLD）",
-        "watch": "美联储点阵图（利率预测）是否下移"
+        "chain": "降息预期（借钱成本降低）推升金价中枢（长期均价），短期受PCE扰动",
+        "watch": "美联储官员讲话及实际利率走势"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "安永：上半年香港IPO募资超2000亿港元，全球第二",
-        "assets": "📈 香港恒生指数 情绪利好，📈 港交所 利好",
-        "chain": "资金流入（IPO申购冻结资金）短期提振流动性，但需关注后续新股破发率",
-        "watch": "下月IPO认购倍数是否维持高位"
+        "what": "安永：香港上半年IPO募资超2000亿港元全球第二",
+        "assets": "📈 港股IPO市场 利好 📈 港交所 利好",
+        "chain": "IPO活跃提升港交所交易费收入（业绩驱动），吸引资金回流港股",
+        "watch": "后续大型IPO企业排队情况"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "永康防务IPO：账面现金充裕仍巨额募资，毛利率异常高，Q4收入占比超80%",
-        "assets": "📉 该IPO标的 利空（基本面存疑）",
-        "chain": "审计（会计师事务所）可能质疑收入确认时点，监管（证监会）或问询募资必要性，拖累军工板块估值",
-        "watch": "证监会是否要求补充披露回款及客户集中度"
+        "what": "永康防务IPO：账面现金充裕仍募资，毛利率异常高",
+        "assets": "📉 该股 利空 📉 军工板块 谨慎",
+        "chain": "高毛利率和Q4收入占比超80%可能存财务粉饰（业绩造假风险），监管问询压力大",
+        "watch": "交易所问询函及审计意见"
       }
     }
   ]
