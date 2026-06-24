@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 01:13",
+  "updateTime": "2026-06-25 01:22",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Bessent预测GDP强劲增长，但Kalshi（预测市场）交易员不买账",
-        "assets": "📉 美股大盘 承压，📈 美债 利好",
-        "chain": "市场对增长预期分歧加大，可能引发避险（risk-off）情绪，压制风险资产",
-        "watch": "本周GDP修正值（实际数据）"
+        "what": "财长Bessent预计GDP强劲增长，但Kalshi押注概率低",
+        "assets": "📉 美国国债 承压；📉 美元 偏弱",
+        "chain": "市场不信官方增长预测（预期差），或引发长端利率（10年期国债收益率）下行",
+        "watch": "本周GDP修正值及密歇根消费者信心"
       }
     },
     {
@@ -23,42 +23,28 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电叠加欧洲创纪录热浪",
-        "assets": "📈 欧洲天然气 利好，📉 法国核电 承压",
-        "chain": "电力短缺推高能源需求，电价飙升（电力成本上升），拖累工业产出",
-        "watch": "法国电力恢复进度及气温预报"
+        "what": "法国大停电叠加欧洲创纪录高温",
+        "assets": "📈 欧洲电力期货 暴涨；📉 法国核电板块 承压",
+        "chain": "电力短缺推高能源成本（通胀压力），利空欧债（债券价格下跌）",
+        "watch": "法国电力恢复时间及欧洲天然气库存变化"
       }
     },
     {
       "rank": 3,
-      "title": "SK海力士已提交美国IPO申请，拟募集超290亿美元",
-      "source": "21世纪经济报道",
-      "detail": "韩国市值最高的“新晋股王”赴美上市时间定了！ 6月24日，据中国基金报报道，SK海力士披露，公司计划发行总规模最高达45.45万亿韩元（约合294亿美元）的存托凭证（ADR）...",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "SK海力士提交美国IPO申请，拟募资超290亿美元",
-        "assets": "📈 美股半导体 利好，📈 韩国芯片股 承压",
-        "chain": "融资扩大产能，加剧存储芯片（DRAM/NAND）竞争，短期稀释现有股东利益",
-        "watch": "IPO定价及Micron（美光）财报指引"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "S&P 500 rises as oil slides, traders await Micron earnings: Live updates",
+      "title": "S&P 500 is little changed as oil slides, traders await Micron earnings: Live updates",
       "source": "CNBC",
       "detail": "The S&P 500 moved higher on Wednesday as oil prices fell, with investors looking ahead to the release of Micron Technology's earnings after the bell.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "油价下跌推动标普500上涨，市场等待美光财报",
-        "assets": "📈 美股大盘 利好，📉 能源股 承压",
-        "chain": "油价走低（能源成本下降）利好消费和制造业，但美光财报将定调科技股情绪",
-        "watch": "美光营收指引及库存数据"
+        "what": "标普500持平，油价下跌，市场等待美光财报",
+        "assets": "📊 标普500 中性；📉 原油 承压",
+        "chain": "油价下跌缓解通胀预期（成本下降），利好消费股（如零售）但利空能源股",
+        "watch": "美光财报指引及EIA（美国能源信息署）原油库存"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "U.S. crude oil dips below $70 as tankers transit Strait of Hormuz",
       "source": "CNBC",
       "detail": "U.S. President Donald Trump intensified pressure on oil companies to lower gasoline prices following the recent decline in crude.",
@@ -66,79 +52,93 @@
       "score": 39,
       "insight": {
         "what": "美国原油跌破70美元，因油轮顺利通过霍尔木兹海峡",
-        "assets": "📉 原油 承压，📈 航空股 利好",
-        "chain": "供应担忧缓解（地缘风险溢价下降），运输成本降低，通胀预期（物价上涨预期）降温",
-        "watch": "霍尔木兹海峡通行量及OPEC（石油输出国组织）产量"
+        "assets": "📉 WTI原油 利空；📈 航空股 利好",
+        "chain": "地缘溢价消退（供应风险下降），压低能源成本，利好运输板块",
+        "watch": "霍尔木兹海峡通行量及OPEC+（石油输出国组织及其盟友）产量决策"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦学生贷款利率折扣新规公布，部分借款人受益",
-        "assets": "📉 消费信贷 承压，📈 教育股 利好",
-        "chain": "降低学生负担，释放消费潜力（可支配收入增加），但银行利息收入减少",
-        "watch": "贷款申请量变化及违约率"
+        "what": "联邦学生贷款利率新折扣，部分借款人受益",
+        "assets": "📈 教育金融股 利好；📊 消费信贷 中性偏正",
+        "chain": "降低学生还款压力（可支配收入增加），利好消费类资产（如非必需消费股）",
+        "watch": "贷款申请量及还款违约率变化"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "欧洲央行执委Schnabel称或需继续加息 以实现2%通胀目标",
       "source": "环球市场播报",
       "detail": "欧洲央行执委Isabel Schnabel告诉德国《时代周报》，央行可能不得不进一步提高借贷成本，以抑制通胀压力。 这位德国官员在周三刊发的采访中表示：“从目前来看...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行执委Schnabel暗示可能继续加息以达成2%通胀目标",
-        "assets": "📈 欧元 利好，📉 欧债 承压",
-        "chain": "加息预期（借钱成本上升）推高欧元汇率，压制欧洲股市和债券价格",
-        "watch": "欧元区CPI（消费者物价指数）数据及下次会议点阵图"
+        "what": "欧央行执委Schnabel称或需继续加息以实现通胀目标",
+        "assets": "📈 欧元 利好；📉 欧债 承压",
+        "chain": "鹰派信号（收紧政策）推高短期利率，利空欧洲成长股（科技股）",
+        "watch": "欧元区CPI（消费者物价指数）及欧央行下次会议点阵图"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "交易员不再充分押注英国央行年内将加息25个基点",
       "source": "环球市场播报",
       "detail": "随着油价和通胀预期下滑，货币市场削减对英国央行加息的押注，不再完全计入年底前加息25个基点的预期。 利率互换显示，市场目前预计英国央行年内加息24个基点...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "交易员不再押注英国央行年内加息25基点",
-        "assets": "📉 英镑 承压，📈 英债 利好",
-        "chain": "加息预期消退（宽松信号），英镑贬值，但债券价格上涨（利率下降预期）",
-        "watch": "英国CPI及GDP数据"
+        "what": "交易员不再押注英央行年内加息25基点",
+        "assets": "📉 英镑 承压；📈 英国国债 利好",
+        "chain": "加息预期降温（货币宽松预期），利空银行股（净息差缩小）",
+        "watch": "英国CPI及服务业PMI（采购经理人指数）"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "日本拟未来14年投资2.3万亿美元 大举押注AI与半导体",
       "source": "环球市场播报",
       "detail": " 日本首相高市早苗公布了日本经济长期发展愿景，计划大规模投资人工智能和半导体，以及国防、太空和造船等其他关键领域。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "日本计划未来14年投资2.3万亿美元押注AI和半导体",
-        "assets": "📈 日本芯片股 利好，📈 日元 承压",
-        "chain": "大规模财政刺激（政府花钱）可能推高债务，短期日元贬值，长期提升科技竞争力",
-        "watch": "日本GDP及半导体出口数据"
+        "what": "日本拟14年投资2.3万亿美元押注AI与半导体",
+        "assets": "📈 日本半导体股 利好；📈 日元 长期利好",
+        "chain": "政府主导产业投资（财政刺激），推高日经指数，但短期可能推升国债收益率",
+        "watch": "日本政府具体补贴细则及企业资本开支计划"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "着手勾勒经济议程 伯纳姆团队酝酿拆分财政部并推动英国央行改革",
       "source": "环球市场播报",
       "detail": " 安迪·伯纳姆身边颇具影响力的人士敦促这位有望成为英国首相的政治人物拆分财政部，以便让政府议程重新聚焦于经济增长。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "伯纳姆团队提议拆分财政部并改革英国央行",
-        "assets": "📉 英镑 承压，📈 英债 波动",
-        "chain": "政策不确定性（监管风险）打击信心，可能削弱央行独立性（央行决策受政治影响）",
-        "watch": "改革提案细节及议会投票进展"
+        "what": "伯纳姆团队酝酿拆分财政部并推动英央行改革",
+        "assets": "📉 英国国债 承压；📉 英镑 利空",
+        "chain": "政策不确定性上升（制度风险），可能削弱英国资产吸引力，利空金融股",
+        "watch": "改革法案进展及英国主权信用评级"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "OpenAI和博通开发首款定制化人工智能芯片 比传统GPU节省约50%成本",
+      "source": "环球市场播报",
+      "detail": "OpenAI发布与博通合作开发的首款定制人工智能芯片，试图通过优化硬件来获取竞争优势。 两家公司周三表示，OpenAI已收到这款名为“Jalapeno”的芯片的首批样品...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "OpenAI与博通开发定制AI芯片，成本比GPU低50%",
+        "assets": "📈 博通 利好；📉 英伟达 承压",
+        "chain": "AI算力成本下降（行业竞争加剧），利好AI应用股，利空传统GPU厂商",
+        "watch": "芯片量产时间表及英伟达H100订单变化"
       }
     }
   ]
