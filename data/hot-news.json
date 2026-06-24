@@ -1,8 +1,22 @@
 {
-  "updateTime": "2026-06-25 07:35",
+  "updateTime": "2026-06-25 07:40",
   "news": [
     {
       "rank": 1,
+      "title": "黄金交易提醒：金价惊现七个月新低！美元狂飙+美联储加息预期双重暴击，多头梦碎4000关口？",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——全球黄金市场正上演一场戏剧性转折。周三（6月24日），现货黄金价格大幅下挫2.7%，最终报收于每盎司3998.95美元，不仅跌破4000美元这一关键心理关口...",
+      "lang": "zh",
+      "score": 58,
+      "insight": {
+        "what": "金价跌至七个月新低，美元走强和加息预期打压",
+        "assets": "📉 黄金 利空",
+        "chain": "美元走强→黄金作为替代资产（避险+抗通胀）需求下降→资金流向美元资产",
+        "watch": "美联储7月加息概率及美元指数"
+      }
+    },
+    {
+      "rank": 2,
       "title": "South Korea’s IPO bust clouds equity markets as Chaebol structure restrains listings",
       "source": "CNBC",
       "detail": "South Korea's IPO activity has lagged that of its regional peers as the structure of the market and governance reforms collide.",
@@ -11,110 +25,110 @@
       "insight": {
         "what": "韩国IPO市场低迷，财阀结构限制上市",
         "assets": "📉 韩国股市 承压",
-        "chain": "财阀（大型家族企业）控制市场，小公司上市难，削弱流动性，拖累指数",
-        "watch": "韩国综合指数及IPO募资数据"
+        "chain": "IPO减少→企业融资难→经济活力下降→韩元可能贬值（汇率承压）",
+        "watch": "韩国综合指数及新上市企业数量"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "纽约汇市：美元指数升至七个月高点 美联储加息押注盖过油价影响",
       "source": "环球市场播报",
       "detail": "美元延续近期涨势，尽管油价下挫，但市场对美联储政策路径的鹰派押注为美元提供了支撑。 彭博美元即期指数连续第三个交易日上涨，盘中一度上涨0.3%...",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元指数升至七个月高点，加息押注增强",
+        "what": "美元指数升至七个月高点，加息押注主导",
         "assets": "📈 美元指数 利好；📉 非美货币 承压",
-        "chain": "加息预期（借钱成本提高）推高美元，压降大宗商品价格和新兴市场资产",
-        "watch": "美联储利率决议及CPI（通胀率）数据"
+        "chain": "美元走强→进口成本上升→新兴市场外债压力（偿债成本增加）→资金回流美国",
+        "watch": "美国通胀数据及美联储官员讲话"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
       "source": "CNBC",
       "detail": "The announcements followed the release of the Federal Reserve's annual stress test, which found that all 32 large banks weathered a hypothetical recession.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "摩根大通500亿回购，高盛提高股息",
+        "what": "摩根大通宣布500亿美元回购，高盛提高股息",
         "assets": "📈 美股银行股 利好",
-        "chain": "回购（公司买回股票）和股息提高信号资本充足，提振金融板块估值",
-        "watch": "银行板块ETF（交易所交易基金）及后续回购执行"
+        "chain": "回购+股息→提升股东回报→吸引资金流入金融板块→推高银行指数",
+        "watch": "银行股股价及回购执行进度"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电，欧洲遭创纪录热浪",
-        "assets": "📈 能源股（电力） 利好；📉 欧洲经济 承压",
-        "chain": "热浪推高电力需求，停电冲击工业产出，增加通胀压力（物价上涨）",
-        "watch": "欧洲电力期货价格及天气预警"
+        "what": "法国大停电，欧洲遭遇创纪录热浪",
+        "assets": "📈 能源股 利好；📉 欧洲经济 承压",
+        "chain": "停电+热浪→能源需求激增→电价飙升→工业产出受损（GDP拖累）",
+        "watch": "欧洲天然气库存及电力价格"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
       "source": "CNBC",
       "detail": "The Fed's annual exercise comes at a pivotal moment for bank regulation because, unlike previous years, the results will not affect capital requirements.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储称银行可承受7080亿损失，资本规则改革",
-        "assets": "📈 美股银行股 中性偏利好",
-        "chain": "压力测试（模拟极端情景）通过增强信心，但新资本规则可能限制股息和回购",
-        "watch": "美联储最终资本规则草案"
+        "what": "美联储称美国银行可承受7080亿美元损失",
+        "assets": "📈 美股银行股 利好",
+        "chain": "压力测试通过→银行抗风险能力确认→资本要求可能放宽→回购和分红增加",
+        "watch": "银行资本充足率及监管政策更新"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "WTI原油失守70美元：地缘溢价彻底清零，通胀与加息预期形成“双杀”",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 WTI原油周三下跌4.6%至69.87美元/桶，为3月2日以来最低；布伦特原油跌4.1%至73.22美元，逼近2月27日收盘价。油价下行缓和通胀担忧...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "WTI原油跌破70美元，地缘溢价消失",
-        "assets": "📉 WTI原油 利空",
-        "chain": "通胀（物价上涨）和加息（借钱成本提高）双杀需求预期，油价与库存背离显示市场混乱",
-        "watch": "OPEC+产量决策及美国原油库存数据"
+        "what": "WTI原油跌破70美元，地缘溢价消退",
+        "assets": "📉 原油 利空；📈 航空股 利好",
+        "chain": "油价下跌→通胀预期降温→美联储加息压力缓解→运输成本降低（航空利润提升）",
+        "watch": "OPEC+产量决策及美国EIA库存数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦学生贷款推出新利率折扣",
-        "assets": "📈 美国消费信贷 利好",
-        "chain": "降低借贷成本（借钱更便宜）可释放消费力，但幅度有限，影响温和",
-        "watch": "学生贷款申请量及消费者支出数据"
+        "what": "联邦学生贷款利率打折，部分借款人受益",
+        "assets": "📉 消费贷款 利空",
+        "chain": "利率折扣→学生还款压力减轻→可支配收入增加→消费支出可能上升（经济刺激）",
+        "watch": "学生贷款违约率及消费数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "比特币跌破6万！AI吸走资金、散户缺席，华尔街接管市场后，谁来接住暴跌？",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 比特币正在为机构化转型付出代价。散户买盘萎缩、ETF资金持续外流、企业持仓者潜在抛售压力上升，加之AI基础设施投资持续虹吸风险资产资金...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "比特币跌破6万，AI吸走资金",
-        "assets": "📉 比特币 利空",
-        "chain": "AI投资热潮分流资金，散户缺席，华尔街控盘后缺乏接盘侠，加剧下跌",
-        "watch": "比特币ETF（交易所交易基金）资金流向及哈希率（挖矿算力）"
+        "what": "比特币跌破6万美元，AI吸走资金",
+        "assets": "📉 比特币 利空；📈 AI相关股 利好",
+        "chain": "资金从加密流向AI→散户缺席→机构主导市场→波动性降低（流动性减少）",
+        "watch": "比特币ETF资金流及AI板块指数"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "美股科技股承压，纳指三连阴，美光盘后大涨12%，国际油价大跌，金银暴跌",
       "source": "第一财经",
       "detail": "2026.06．25 作者 |第一财经樊志菁 周三美股涨跌互现，纳斯达克、标普500指数下跌，科技股因市场持续担忧板块估值过高遭到拖累，但国际原油价格大幅走低利好航空...",
@@ -122,23 +136,9 @@
       "score": 35,
       "insight": {
         "what": "美股科技股承压，纳指三连阴",
-        "assets": "📉 美股科技股 利空；📈 美光 利好（盘后涨12%）",
-        "chain": "科技股回调，但美光（内存制造商）业绩超预期可能带动芯片板块反弹",
-        "watch": "纳指期货及美光开盘后走势"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "跌懵了！无视大幅降库！WTI暴跌失守70美元，油价于库存的极端背离显示市场的混乱",
-      "source": "市场资讯",
-      "detail": "来源：能源研发中心 后市观点 周三油价再次大跌，WTI原油跌破了70美元，各大原油期货全线跌回了美伊战争爆发之前。布伦特近端已经再次呈现贴水结构...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "WTI暴跌破70美元，库存与油价极端背离",
-        "assets": "📉 WTI原油 利空",
-        "chain": "库存大幅下降但油价跌，显示需求恐慌和流动性（交易活跃度）问题，市场定价混乱",
-        "watch": "WTI持仓报告及美元指数走势"
+        "assets": "📉 美股科技股 利空；📉 黄金 利空",
+        "chain": "科技股下跌→避险情绪升温→资金流向债券→美债收益率下降（利率敏感）",
+        "watch": "纳指技术支撑位及科技公司财报"
       }
     }
   ]
