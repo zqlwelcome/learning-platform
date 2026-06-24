@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 17:31",
+  "updateTime": "2026-06-24 17:35",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 52,
       "insight": {
         "what": "德州特斯拉致命事故家属起诉自动驾驶辅助系统",
-        "assets": "📉 特斯拉股价 承压；📉 自动驾驶板块 利空",
-        "chain": "诉讼风险（法律成本）增加，可能拖累特斯拉交付预期，进而影响科技股情绪",
-        "watch": "特斯拉股价是否跌破关键支撑位"
+        "assets": "📉 特斯拉股价 利空\n📉 自动驾驶板块 承压",
+        "chain": "诉讼加剧监管审查（SEC调查），可能拖累特斯拉交付和FSD（全自动驾驶）订阅收入",
+        "watch": "NHTSA（美国国家公路交通安全管理局）是否发起正式调查"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras首份财报后因利润率预期收缩暴跌10%",
-        "assets": "📉 Cerebras 个股 利空；📉 AI芯片板块 承压",
-        "chain": "利润率恶化（赚钱能力下降）引发对AI芯片竞争加剧的担忧，可能传导至英伟达等龙头",
-        "watch": "Cerebras后续毛利率指引及同行财报"
+        "what": "Cerebras首份财报后跌10%，因利润率预期收缩",
+        "assets": "📉 Cerebras股价 利空\n📉 AI芯片板块 承压",
+        "chain": "利润率收缩信号暗示竞争加剧（如英伟达），可能引发AI芯片股估值重估（PE倍数下调）",
+        "watch": "下一季度毛利率指引及客户订单变化"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX在IPO后不到两周通过债务融资250亿美元",
-        "assets": "📈 SpaceX 估值 利好；📈 私人信贷市场 活跃",
-        "chain": "巨额债务融资（借钱扩张）显示资本市场对其信心，可能提振卫星通信板块估值",
-        "watch": "SpaceX债务条款及未来IPO定价"
+        "what": "SpaceX在IPO后两周内通过债务融资250亿美元",
+        "assets": "📈 SpaceX估值 利好\n📉 火箭发射股 承压",
+        "chain": "低成本债务融资扩大资本优势，挤压小型竞争对手（如Rocket Lab），推高行业进入壁垒",
+        "watch": "SpaceX星舰下一次试飞进度及政府合同动向"
       }
     },
     {
       "rank": 4,
+      "title": "CFTC sues Kentucky over actions against prediction markets, making it first red state to face federal scrutiny",
+      "source": "CNBC",
+      "detail": "The commission has now sued nine states in its battle to defend what it sees as its exclusive right to regulate event contracts.",
+      "lang": "en",
+      "score": 43,
+      "insight": {
+        "what": "CFTC起诉肯塔基州限制预测市场，首开红州先例",
+        "assets": "📈 预测市场板块 利好\n📉 监管不确定性 承压",
+        "chain": "联邦干预压制州级禁令，可能推动Polymarket等平台合法化，增加散户参与度（波动率上升）",
+        "watch": "其他红州是否跟进或反对，以及CFTC后续执法行动"
+      }
+    },
+    {
+      "rank": 5,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "韩国股市遭遇历史性暴跌，但摩根士丹利认为未破位",
-        "assets": "📉 韩国KOSPI指数 承压；📈 韩元 承压",
-        "chain": "指数暴跌但未破位（技术面支撑），可能吸引抄底资金，但需关注外资流出（资本外逃）",
-        "watch": "KOSPI 200日均线是否守住"
+        "what": "韩国股市暴跌但摩根士丹利称非结构性崩溃",
+        "assets": "📉 KOSPI指数 利空\n📈 韩国半导体 中性偏空",
+        "chain": "短期抛售由外资流出驱动（汇率贬值压力），但基本面（出口数据）未恶化，可能触发技术性反弹",
+        "watch": "韩国10年期国债收益率及半导体出口月率"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "黄金徘徊于4100美元下方：油价跌了、加息预期却升温，PCE数据成关键",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周三（6月24日）欧洲时段，现货黄金从近两周低点小幅反弹，但整体仍维持在4100美元关口下方，负面偏压未改。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "黄金在4100美元下方震荡，油价跌但加息预期升温",
-        "assets": "📉 黄金 承压；📉 原油 利空；📈 美元 走强",
-        "chain": "加息预期升温（借钱成本更高）压制金价，油价下跌缓解通胀，但PCE数据（个人消费支出物价指数）将定方向",
-        "watch": "周五美国PCE数据公布值"
+        "what": "黄金跌破4100美元，油价跌但加息预期升温",
+        "assets": "📉 黄金 承压\n📈 美元指数 利好\n📉 原油 利空",
+        "chain": "加息预期（实际利率上升）压制黄金，油价下跌缓解通胀，但PCE若超预期会强化加息逻辑（利空风险资产）",
+        "watch": "周五PCE（个人消费支出物价指数）数据是否超预期"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "日本央行行长重申通胀存在超过2%目标的风险 并称将会适时进一步加息",
       "source": "环球市场播报",
       "detail": " 日本央行行长植田和男周三在讲话中表示，日本央行认为通胀存在超过其2%目标的风险，并称将会适时进一步加息，重申了政策制定者最近传达的信息。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行行长重申通胀超2%风险，将适时加息",
-        "assets": "📈 日元 升值；📉 日债收益率 上行",
-        "chain": "加息（借钱成本提高）预期推升日元，可能引发套利交易平仓（借日元买资产的策略反转），冲击全球风险资产",
-        "watch": "日本央行下次会议加息概率"
+        "what": "日本央行行长称通胀超2%风险，将适时加息",
+        "assets": "📈 日元 利好\n📉 日本国债 承压\n📉 日经225 利空",
+        "chain": "加息预期推高日元（carry trade（套利交易）平仓），利空出口股，但银行股受益于息差扩大",
+        "watch": "日本10年期国债收益率是否突破1.0%及下次议息会议时间"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "FedEx posts strong earnings results in last quarter with freight business - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "联邦快递财报强劲，货运业务表现亮眼",
+        "assets": "📈 FedEx股价 利好\n📈 物流板块 利好\n📈 道琼斯 利好",
+        "chain": "强劲财报暗示经济需求韧性（B2B（企业间交易）订单回升），可能提振运输ETF及零售股",
+        "watch": "美国ISM制造业PMI（采购经理人指数）及同行UPS财报"
+      }
+    },
+    {
+      "rank": 9,
       "title": "FedEx posts strong earnings results in last quarter with freight business",
       "source": "CNBC",
       "detail": "FedEx posted strong fiscal fourth quarter earnings on Tuesday in the company's last quarter that included the freight business before its spin-off.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递财报强劲，货运业务表现突出",
-        "assets": "📈 联邦快递 个股 利好；📈 物流板块 利好",
-        "chain": "货运需求强劲（经济活力指标）暗示消费韧性，可能提振运输ETF及整体经济复苏预期",
-        "watch": "联邦快递后续季度指引"
+        "what": "联邦快递财报强劲，货运业务表现亮眼",
+        "assets": "📈 FedEx股价 利好\n📈 物流板块 利好\n📈 道琼斯 利好",
+        "chain": "强劲财报暗示经济需求韧性（B2B订单回升），可能提振运输ETF及零售股",
+        "watch": "美国ISM制造业PMI及同行UPS财报"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "尾盘涨停，A股第一！“从70元就看着它”，今天突破700元",
       "source": "中国证券报-中证网",
       "detail": "今日午后，A股三大指数集体拉升，深证成指快速拉升翻红，涨超1%。截至收盘，上证指数涨0.11%，深证成指涨1.24%，创业板指涨1.41%；科创综指涨2.8%，创历史新高。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "A股某股尾盘涨停突破700元，市场关注",
-        "assets": "📈 该个股 利好；📈 A股高价股板块 情绪提振",
-        "chain": "高价股突破（资金抱团）可能带动同类标的跟风，但需警惕流动性风险（交易量不足）",
-        "watch": "该股成交额及龙虎榜资金动向"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Tech Stocks Set to Bounce After $1.3 Trillion Rout on AI Jitters - Bloomberg",
-      "source": "Bloomberg",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "科技股在1.3万亿美元AI暴跌后预计反弹",
-        "assets": "📈 美股科技股 反弹；📈 AI相关ETF 利好",
-        "chain": "超卖反弹（跌多了涨）可能触发空头回补（做空者买入平仓），但需确认AI需求是否真放缓",
-        "watch": "纳斯达克100指数能否站上50日均线"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "机构：美联储政策观察标尺转向温和，中长期看好金价中枢抬升",
-      "source": "滚动播报",
-      "detail": "文章来源：财闻 报告指出，贵金属承压，中长期看好金价中枢上行。 2026年6月24日，财信证券发布了一篇有色金属行业的研究报告，报告指出，贵金属承压...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "机构认为美联储政策标尺温和，中长期看好金价",
-        "assets": "📈 黄金 中长期利好；📈 贵金属板块 利好",
-        "chain": "政策温和（降息预期）利好金价，但短期受PCE数据扰动，机构增持（配置需求）支撑中枢上移",
-        "watch": "美联储官员讲话及实际利率（通胀调整后利率）走势"
+        "what": "A股某股尾盘涨停，从70元涨至突破700元",
+        "assets": "📈 该A股 利好\n📈 题材炒作 利好\n📉 小盘股 承压",
+        "chain": "10倍涨幅吸引散户跟风（动量交易），但高估值易引发监管问询，可能带动同概念股轮动",
+        "watch": "公司是否发布异动公告及龙虎榜资金流向"
       }
     }
   ]
