@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 10:20",
+  "updateTime": "2026-06-24 10:26",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 47,
       "insight": {
         "what": "SpaceX上市后股价下跌",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "科技IPO情绪转弱，可能拖累其他太空股（如AST SpaceMobile）及IPO市场整体估值",
-        "watch": "SpaceX后续财报及订单量"
+        "assets": "📉 SpaceX股票 利空，📉 太空概念股 承压",
+        "chain": "IPO后抛售（获利了结）引发市场对估值过高的担忧，可能拖累其他新上市科技股",
+        "watch": "SpaceX后续财报及订单数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称致命车祸中司机手动干预自动驾驶",
-        "assets": "📉 特斯拉股票 利空",
-        "chain": "监管审查风险上升，可能影响FSD（全自动驾驶）推广及保险成本，利空自动驾驶板块",
-        "watch": "NHTSA（美国公路安全局）调查结果"
+        "what": "特斯拉称司机手动干预致德克萨斯致命事故",
+        "assets": "📉 特斯拉股票 利空，📉 自动驾驶概念股 承压",
+        "chain": "事故引发监管审查风险（监管收紧），可能拖累全自动驾驶（FSD）技术商业化预期",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查进展"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报预测利润率缩窄，股价跌10%",
-        "assets": "📉 芯片股（Cerebras） 利空",
-        "chain": "AI芯片竞争加剧，英伟达、AMD等龙头可能承压，但利空小盘芯片公司估值",
-        "watch": "Cerebras毛利率趋势及客户订单"
+        "what": "Cerebras首份财报预测利润率收缩，股价跌10%",
+        "assets": "📉 Cerebras股票 利空，📉 AI芯片板块 承压",
+        "chain": "利润率收缩信号（盈利恶化）暗示竞争加剧，可能引发AI硬件股估值下调（市盈率压缩）",
+        "watch": "Cerebras下季度毛利率指引"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报预测利润率缩窄，股价跌10%",
-        "assets": "📉 芯片股（Cerebras） 利空",
-        "chain": "AI芯片竞争加剧，英伟达、AMD等龙头可能承压，但利空小盘芯片公司估值",
-        "watch": "Cerebras毛利率趋势及客户订单"
+        "what": "Cerebras首份财报预测利润率收缩，股价跌10%（重复）",
+        "assets": "📉 Cerebras股票 利空，📉 AI芯片板块 承压",
+        "chain": "利润率收缩信号（盈利恶化）暗示竞争加剧，可能引发AI硬件股估值下调（市盈率压缩）",
+        "watch": "Cerebras下季度毛利率指引"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后不到两周发债250亿美元",
-        "assets": "📈 SpaceX债券 利好；📉 科技债市场 承压",
-        "chain": "大规模发债可能抽走市场流动性，推高科技企业融资成本（借贷利率上升），利空高杠杆科技股",
-        "watch": "SpaceX债券收益率及认购率"
+        "what": "SpaceX上市不到两周发行250亿美元债券",
+        "assets": "📈 SpaceX债券 利好，📉 高收益债市场 承压",
+        "chain": "大规模发债（债务融资）稀释股权，增加财务杠杆（债务风险），可能压制股价反弹空间",
+        "watch": "债券评级及后续融资计划"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "华尔街质疑Alphabet是否仍是AI赢家，股价续跌",
-        "assets": "📉 Alphabet（谷歌）股票 利空；📉 科技股 承压",
-        "chain": "市场对AI变现能力担忧扩散，可能拖累微软、Meta等AI相关股，资金转向防御板块（如公用事业）",
-        "watch": "谷歌AI产品营收增速及云业务表现"
+        "what": "华尔街质疑Alphabet是否仍是AI赢家，股价持续下跌",
+        "assets": "📉 Alphabet股票 利空，📉 AI概念股 承压",
+        "chain": "竞争加剧（对手追赶）和AI变现瓶颈（盈利模式不明），可能引发科技巨头估值重估（市盈率下调）",
+        "watch": "Alphabet云业务及AI产品收入增速"
       }
     },
     {
@@ -93,24 +93,24 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "科技股暴跌致黄金遭抽血跌破4100美元",
-        "assets": "📉 黄金 承压；📉 科技股 利空",
-        "chain": "流动性挤压（margin call保证金追缴）迫使抛售黄金补仓，短期避险资产变现金源，利空所有非美元资产",
-        "watch": "VIX（恐慌指数）及美元流动性指标"
+        "what": "科技股暴跌致黄金遭抛售，避险资产变流动性血库",
+        "assets": "📉 黄金 利空，📉 科技股 利空，📈 美元 利好",
+        "chain": "恐慌性抛售（流动性挤兑）触发黄金补仓（margin call），美元走强压制大宗商品",
+        "watch": "VIX（恐慌指数）及黄金ETF（交易所交易基金）资金流向"
       }
     },
     {
       "rank": 8,
-      "title": "AI stock slump raises the question if investors are just taking profits or getting very nervous - AP News",
-      "source": "AP News",
+      "title": "AI stock slump raises the question if investors are just taking profits or getting very nervous - Yahoo Finance",
+      "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 42,
       "insight": {
         "what": "AI股下跌引发投资者是获利了结还是恐慌的疑问",
-        "assets": "📉 AI相关股 承压",
-        "chain": "若为恐慌，可能触发系统性抛售（量化基金减仓），拖累纳指及成长股；若为获利了结，回调后资金回流",
-        "watch": "AI板块资金流向及期权波动率"
+        "assets": "📉 AI板块 承压，📉 纳指 利空",
+        "chain": "短期获利回吐（profit-taking）可能演变为系统性风险（恐慌抛售），若持续将拖累成长股",
+        "watch": "AI板块成交量及期权隐含波动率（IV）"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "韩国股市经历最差单日之一，摩根士丹利称非崩溃",
-        "assets": "📉 韩国KOSPI指数 承压；📉 新兴市场 利空",
-        "chain": "韩国出口疲软（半导体、汽车）可能预示全球需求放缓，利空亚洲出口导向经济体及大宗商品",
-        "watch": "韩国半导体出口数据及汇率走势"
+        "what": "韩国股市暴跌但摩根士丹利称非趋势性崩溃",
+        "assets": "📉 韩国KOSPI指数 利空，📉 新兴市场 承压",
+        "chain": "短期抛售（外资撤出）与估值修正（市盈率压缩），但基本面未恶化，可能吸引逢低买入",
+        "watch": "韩国出口数据及外资流向"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "FedEx货运业务强劲，财报表现优异",
-        "assets": "📈 FedEx股票 利好；📈 物流/运输板块 利好",
-        "chain": "货运需求强劲暗示经济韧性，利好工业股及零售库存回补，但可能加剧通胀预期（运费上涨传导至商品价格）",
-        "watch": "FedEx下季营收指引及美国PMI（采购经理人指数）"
+        "what": "联邦快递货运业务强劲，财报超预期",
+        "assets": "📈 联邦快递股票 利好，📈 物流板块 利好",
+        "chain": "强劲盈利（经济需求信号）缓解衰退担忧，可能提振运输和消费股（顺周期板块）",
+        "watch": "UPS及亚马逊物流财报确认趋势"
       }
     }
   ]
