@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 20:00",
+  "updateTime": "2026-06-24 20:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "Cerebras财报后股价暴跌",
+        "what": "Cerebras财报后股价大跌",
         "assets": "📉 Cerebras股票 利空",
-        "chain": "AI芯片新贵估值承压，可能拖累其他未盈利AI公司IPO情绪（新股发行市场）",
-        "watch": "Cerebras后续指引及同行财报"
+        "chain": "AI芯片竞争加剧，市场担忧其盈利能力，可能拖累其他AI新贵估值",
+        "watch": "Cerebras下一季度营收指引"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "特斯拉自动驾驶致死事故家属起诉",
-        "assets": "📉 特斯拉股价 利空；📉 自动驾驶相关ETF 承压",
-        "chain": "诉讼增加监管审查风险（监管收紧），可能影响FSD（完全自动驾驶）商业化进度",
-        "watch": "监管机构是否发起调查"
+        "what": "特斯拉自动驾驶致死事故被诉",
+        "assets": "📉 特斯拉股票 利空\n📉 自动驾驶板块 承压",
+        "chain": "监管风险升温，可能延缓自动驾驶商业化进程，利空激光雷达等供应链",
+        "watch": "NHTSA（美国国家公路交通安全管理局）是否发起正式调查"
       }
     },
     {
@@ -37,28 +37,42 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "智谱AI年内暴涨1771%后计划再融资",
-        "assets": "📈 中国AI概念股 利好；📈 智谱估值 看涨",
-        "chain": "大额融资显示资本持续涌入AI赛道，但高估值可能引发泡沫担忧（估值脱离基本面）",
-        "watch": "融资规模及估值定价"
+        "what": "智谱AI考虑巨额融资，年内暴涨1771%",
+        "assets": "📈 中国AI概念股 利好\n📈 一级市场AI投资 活跃",
+        "chain": "高估值吸引资本涌入，可能引发AI行业IPO热潮，但需警惕泡沫风险",
+        "watch": "智谱融资估值及后续上市计划"
       }
     },
     {
       "rank": 4,
+      "title": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "财长贝森特称美国GDP年底前可回3%",
+        "assets": "📈 美元 利好\n📈 美股大盘 利好",
+        "chain": "经济增长预期推升风险偏好，但可能延缓降息（借钱成本降低）节奏，压制债券价格",
+        "watch": "下周GDP修正值及非农就业数据"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Stocks making the biggest moves premarket: Cerebras, Micron, FedEx, Wendy's & more",
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves premarket.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "Cerebras、美光、联邦快递等盘前异动",
-        "assets": "📉 Cerebras 利空；📈 美光 利好（财报预期）；📉 联邦快递 承压（经济放缓信号）",
-        "chain": "个股异动反映板块轮动：科技股分化，物流股暗示消费需求疲软（经济指标）",
-        "watch": "美光财报及联邦快递指引"
+        "what": "美股盘前Cerebras、美光等异动",
+        "assets": "📈 美光科技 利好（财报预期）\n📉 Cerebras 利空",
+        "chain": "美光财报为半导体行业定调，若超预期将提振芯片股及AI硬件链",
+        "watch": "美光财报营收及HBM（高带宽内存）业务指引"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
@@ -66,23 +80,9 @@
       "score": 45,
       "insight": {
         "what": "法国大停电叠加欧洲热浪",
-        "assets": "📈 欧洲天然气/电力期货 利好；📉 法国核电股 承压",
-        "chain": "停电加剧能源紧张（供给冲击），推高通胀预期，欧央行可能更鹰派（加息压力）",
-        "watch": "法国电网恢复时间及电价走势"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "尾盘突发，兆易创新涨停，天孚通信急拉！华宝基金科技ETF收涨3.67%创新高，159363单日大举吸金",
-      "source": "新浪基金",
-      "detail": "周三（6月24日），A股低开高走，市场热点聚焦于AI硬件端，半导体、PCB、光通信方向集体走强。半导体产业链方面，先进封装、存储芯片方向领涨，兆易创新尾盘涨停创新高...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "兆易创新涨停，华宝科技ETF创新高",
-        "assets": "📈 兆易创新 利好；📈 中国科技ETF 利好",
-        "chain": "资金集中涌入半导体，反映国产替代逻辑强化（自主可控），但需警惕短期过热（追高风险）",
-        "watch": "科技ETF资金流及板块成交量"
+        "assets": "📈 欧洲天然气 利好\n📉 法国电力股 利空",
+        "chain": "电力短缺推高能源价格，可能加剧欧洲通胀，影响欧央行（欧洲央行）政策",
+        "watch": "法国电网恢复时间及电价期货走势"
       }
     },
     {
@@ -94,9 +94,9 @@
       "score": 32,
       "insight": {
         "what": "美国施压Meta接受AI安全审查",
-        "assets": "📉 Meta 利空；📈 AI监管合规股 利好",
-        "chain": "监管加强增加AI公司合规成本（运营压力），可能延缓模型发布节奏（供给受限）",
-        "watch": "Meta回应及白宫AI行政令进展"
+        "assets": "📉 Meta股票 承压\n📈 网络安全概念股 利好",
+        "chain": "监管趋严增加AI公司合规成本，可能限制模型发布速度，利好安全服务商",
+        "watch": "Meta是否同意审查及后续监管细则"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股反弹，AI抛售潮暂歇",
-        "assets": "📈 美股科技股 利好；📈 半导体ETF 反弹",
-        "chain": "抛售后的技术性反弹（超卖修复），但AI估值过高风险仍在，需关注基本面支撑",
-        "watch": "美光财报及纳指200日均线"
+        "what": "科技股反弹，全球AI抛售潮暂停",
+        "assets": "📈 美股科技股 反弹\n📈 费城半导体指数 利好",
+        "chain": "超跌后空头回补（平仓买入），但需关注基本面能否支撑，警惕二次探底",
+        "watch": "美光财报及英伟达股价能否站稳支撑位"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "标普500期货上涨，聚焦美光财报",
-        "assets": "📈 标普500期货 利好；📈 美光 利好预期",
-        "chain": "美光作为芯片风向标（行业景气度指标），若财报超预期将提振整个半导体板块",
-        "watch": "美光营收及HBM（高带宽内存）需求数据"
+        "what": "标普500期货上涨，美光财报成焦点",
+        "assets": "📈 标普500指数 利好\n📈 美光科技 利好预期",
+        "chain": "财报季关键指引，若美光乐观将缓解AI需求担忧，带动芯片股及纳指（纳斯达克指数）",
+        "watch": "美光财报后盘后股价及CEO电话会措辞"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美股反弹，科技股关注美光财报",
-        "assets": "📈 纳斯达克 利好；📈 美光 利好预期",
-        "chain": "市场从AI抛售中恢复，但反弹持续性取决于美光能否证明AI需求真实（业绩验证）",
-        "watch": "美光财报后盘后股价走势"
+        "what": "美股科技股反弹，美光财报成焦点",
+        "assets": "📈 纳斯达克100指数 反弹\n📈 美光科技 利好预期",
+        "chain": "市场从技术性抛售中修复，但成交量若不足则反弹难持续，需观察资金流向",
+        "watch": "美光财报及10年期美债收益率（借贷成本）变化"
       }
     }
   ]
