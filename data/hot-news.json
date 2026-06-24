@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 13:36",
+  "updateTime": "2026-06-24 13:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储加息威胁，投行下调黄金目标价",
-        "assets": "📉 黄金 承压",
-        "chain": "加息（借钱成本提高）推高美元，黄金避险吸引力下降，资金流向美债",
-        "watch": "美联储议息会议及非农数据"
+        "what": "投行集体下调黄金目标价，因美联储加息威胁",
+        "assets": "📉 黄金 承压；📈 美元指数 利好",
+        "chain": "加息预期→实际利率（名义利率减通胀）上升→持有黄金机会成本（放弃利息）增加→抛售",
+        "watch": "美联储下次议息会议（FOMC）点阵图（利率预测）"
       }
     },
     {
@@ -23,122 +23,116 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称司机手动干预致德州致命事故",
-        "assets": "📉 特斯拉 承压",
-        "chain": "事故引发监管审查（政府调查），自动驾驶信心受挫，影响股价",
-        "watch": "NHTSA（美国公路安全局）调查结论"
+        "what": "特斯拉称致命车祸中司机手动接管了自动驾驶",
+        "assets": "📉 特斯拉 利空；📉 自动驾驶概念股 承压",
+        "chain": "事故争议→监管审查（NHTSA调查）加严→技术信任度下降→股价承压",
+        "watch": "NHTSA（美国公路安全局）是否发起正式调查"
       }
     },
     {
       "rank": 3,
+      "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO - CNBC",
+      "source": "CNBC",
+      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "Cerebras财报预测利润率缩水，股价跌10%",
+        "assets": "📉 Cerebras 利空；📉 AI芯片板块 承压",
+        "chain": "利润率恶化→盈利预期下修→估值（PE市盈率）收缩→板块情绪传染",
+        "watch": "下周Cerebras是否发布业绩指引修正"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报后跌10%，利润率预期收缩",
-        "assets": "📉 AI芯片股 承压",
-        "chain": "盈利前景恶化（利润预期变差），拖累AI板块估值，资金撤向防御资产",
-        "watch": "下季度毛利率及营收指引"
+        "what": "亚洲股市因AI芯片股抛售扩大而下跌",
+        "assets": "📉 亚洲科技股 承压；📉 半导体ETF 利空",
+        "chain": "AI芯片需求预期降温→全球半导体周期（库存周期）转弱→出口导向型经济体（韩国、台湾）股市联动下跌",
+        "watch": "费城半导体指数（SOX）是否破位"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后不足两周完成250亿美元债务融资",
-        "assets": "📈 太空概念股 利好",
-        "chain": "高融资需求显示扩张信心，但债务增加（借钱增多）可能推高杠杆，影响信用评级",
-        "watch": "后续融资成本及估值变化"
+        "what": "韩国股市暴跌但摩根士丹利认为非结构性崩溃",
+        "assets": "📉 韩国KOSPI 承压；📈 韩国出口股 短期超卖",
+        "chain": "单日暴跌→恐慌情绪（VIX波动率）飙升→但基本面（贸易顺差、盈利）未恶化→技术性反弹可能",
+        "watch": "韩国10年期国债收益率（资金外流指标）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Alphabet Stock Extends Losses as Wall Street Asks if It Remains an AI Winner - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "华尔街质疑Alphabet是否仍是AI赢家",
-        "assets": "📉 Alphabet 承压",
-        "chain": "AI竞争加剧（对手如微软、OpenAI），市场份额担忧引发抛售，拖累科技大盘",
-        "watch": "谷歌云收入及AI产品发布节奏"
+        "what": "立讯精密评估投资者对其30亿美元香港IPO兴趣",
+        "assets": "📈 立讯精密 利好；📉 港股消费电子板块 承压",
+        "chain": "IPO募资→扩大产能（苹果供应链）→稀释现有股东（增发股份）→但增强现金储备",
+        "watch": "港股IPO超额认购倍数（需求热度）"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Asian Stocks Set to Extend AI Chip-Fueled Selloff: Markets Wrap - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "亚洲股市因AI芯片抛售扩大跌幅",
-        "assets": "📉 亚洲科技股 承压",
-        "chain": "AI芯片需求放缓（芯片卖不动），出口导向型经济体（如韩国、台湾）受冲击，资金外流",
-        "watch": "台积电、三星营收数据"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
-      "source": "CNBC",
-      "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "韩国股市暴跌，摩根士丹利称非趋势性崩溃",
-        "assets": "📉 韩国KOSPI 承压",
-        "chain": "科技股重挫拖累整体，但非系统性风险（不会全面崩盘），可能吸引逢低买盘",
-        "watch": "韩国出口数据及外资流向"
+        "what": "日本央行纪要鹰派，暗示以数月间隔继续加息",
+        "assets": "📈 日元 利好；📉 日经225 承压",
+        "chain": "加息预期→日元升值（利差收窄）→出口企业利润（汇兑损失）承压→套利交易（Carry Trade）平仓",
+        "watch": "日本10月CPI（消费者物价指数）数据"
       }
     },
     {
       "rank": 8,
+      "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
+      "source": "CNBC",
+      "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
+      "lang": "en",
+      "score": 42
+    },
+    {
+      "rank": 9,
       "title": "立讯精密据悉评估投资者对其30亿美元香港IPO的兴趣",
       "source": "环球市场播报",
       "detail": "据知情人士透露，立讯精密工业股份有限公司开始就其香港上市进行投资者意向摸底，此次IPO预计募集约30亿美元。 该交易若成行，可能成为今年香港规模最大的发行上市之一。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "立讯精密评估30亿美元香港IPO投资者兴趣",
-        "assets": "📈 立讯精密 利好",
-        "chain": "融资用于扩张，但港股流动性不足（资金紧张）可能压低定价，影响供应链信心",
-        "watch": "IPO定价及认购倍数"
+        "what": "SpaceX在IPO后不到两周完成250亿美元债务融资",
+        "assets": "📈 SpaceX 利好；📉 传统航天股 承压",
+        "chain": "债务融资能力强→资金充裕加速扩张→挤压竞争对手（如波音、洛克希德）市场份额",
+        "watch": "SpaceX星舰下次试飞时间及融资用途"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "日本央行纪要释放鹰派信号：通胀风险持续积聚 需以数月为间隔继续加息",
       "source": "智通财经APP",
       "detail": "日本央行上周召开货币政策会议，决定将政策利率上调至1995年以来最高水平。本周三发布的6月15日至16日会议意见摘要显示，央行明确释放信号...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行纪要鹰派，暗示数月内继续加息",
-        "assets": "📈 日元 利好，📉 日本股市 承压",
-        "chain": "加息（借钱成本提高）推高日元，出口企业盈利受损，日股资金外流",
-        "watch": "日本CPI（消费者物价指数）及央行下次会议"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "澳大利亚5月通胀率继续低于预期 澳央行可能8月继续加息",
-      "source": "中国金融信息网",
-      "detail": " 新华财经悉尼6月24日电（记者李晓渝）澳大利亚统计局24日宣布，2026年5月该国整体消费者价格指数同比涨幅为4%，相比前一个月的4.2%继续回落，也低于市场此前预期的4.4%。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "澳大利亚通胀低于预期，但央行可能8月加息",
-        "assets": "📉 澳元 承压，📈 澳债 利好",
-        "chain": "通胀低但加息预期（借钱成本提高）压制经济，消费疲软，澳元先跌后稳",
-        "watch": "8月央行利率决议及三季度通胀数据"
+        "what": "华尔街质疑Alphabet是否仍是AI赢家，股价续跌",
+        "assets": "📉 Alphabet 利空；📉 AI科技股 承压",
+        "chain": "AI竞争加剧（OpenAI、微软）→谷歌搜索份额担忧→广告收入增长放缓→估值下修",
+        "watch": "谷歌云AI营收增速及搜索市场份额数据"
       }
     }
   ]
