@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 23:58",
+  "updateTime": "2026-06-25 00:14",
   "news": [
     {
       "rank": 1,
@@ -9,28 +9,14 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "财长称美国GDP增速年底前可回升至3%",
-        "assets": "📈 美股大盘 利好\n📉 美债 承压",
-        "chain": "增长预期升温→加息预期（借钱成本提高）重燃→科技股估值（未来现金流折现）受压制",
-        "watch": "亚特兰大联储GDPNow模型预测"
+        "what": "美财长称年底GDP增速可回3%",
+        "assets": "📈 美元 利好\n📈 美股大盘 利好",
+        "chain": "GDP增速预期上升→加息（借钱成本增加）预期重燃→美债收益率（国债利息）走高，压制成长股估值",
+        "watch": "Q2/Q3实际GDP初值及非农就业数据"
       }
     },
     {
       "rank": 2,
-      "title": "Kalshi CEO says prediction market thinking about IPO, but not for this year ",
-      "source": "CNBC",
-      "detail": "Tarek Mansour said to CNBC's \"Squawk Box\" it made sense for the company at the stage to think about a debut on public markets.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "Kalshi CEO考虑IPO但今年不会进行",
-        "assets": "📈 预测市场概念股 中性偏利好",
-        "chain": "IPO延迟→短期投机情绪降温→但长期合规化预期支撑行业估值（市场定价）",
-        "watch": "美国CFTC对预测市场的监管动向"
-      }
-    },
-    {
-      "rank": 3,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
@@ -38,9 +24,23 @@
       "score": 45,
       "insight": {
         "what": "法国大停电叠加欧洲创纪录高温",
-        "assets": "📈 欧洲天然气 利多\n📈 电力股 利多",
-        "chain": "热浪（极端天气）→制冷需求激增→电网过载→电价飙升（电力现货价格）→通胀预期（物价上涨）升温",
-        "watch": "法国电网运营商RTE恢复时间表"
+        "assets": "📉 法国电力股 利空\n📈 欧洲天然气 利多",
+        "chain": "停电+热浪→电力需求激增→天然气发电需求上升→TTF（荷兰天然气期货）价格短期冲高",
+        "watch": "法国电网恢复时间及欧洲天然气库存变化"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Kalshi CEO says prediction market thinking about IPO, but not for this year ",
+      "source": "CNBC",
+      "detail": "Tarek Mansour said to CNBC's \"Squawk Box\" it made sense for the company at the stage to think about a debut on public markets.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "Kalshi CEO称考虑IPO但非今年",
+        "assets": "📈 预测市场概念股 中性偏多",
+        "chain": "IPO预期升温→市场关注监管合规→利好同类平台（如Polymarket）估值对标（参照物）",
+        "watch": "SEC（美国证监会）对预测市场的监管动向"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SK海力士申请美股IPO，募资超290亿美元",
-        "assets": "📈 美股芯片股 利好\n📈 韩国半导体 承压",
-        "chain": "巨额募资→稀释现有股东权益→但提升全球流动性（资金供给）→利好AI硬件需求预期",
-        "watch": "SEC审核进度及发行定价区间"
+        "what": "SK海力士提交美国IPO，拟募超290亿美元",
+        "assets": "📈 全球半导体股 中性偏多\n📉 韩国半导体股 资金分流",
+        "chain": "巨额IPO抽走流动性→短期利空美股科技板块→但强化AI（人工智能）存储需求叙事，长期利多HBM（高带宽内存）产业链",
+        "watch": "IPO定价区间及机构认购倍数"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "美国原油跌破70美元，油轮通过霍尔木兹海峡",
-        "assets": "📉 原油 利空\n📈 航空股 利好",
-        "chain": "海峡通行（关键航道畅通）→供给中断风险（地缘风险溢价）消退→油价下跌→运输成本降低",
-        "watch": "霍尔木兹海峡油轮通行量数据"
+        "what": "美国原油跌破70美元，油轮继续过霍尔木兹",
+        "assets": "📉 原油 利空\n📈 航空/航运股 利好",
+        "chain": "油价跌→通胀（物价上涨）预期降温→降息预期回升→美债收益率下行，利好长久期资产（如科技股）",
+        "watch": "霍尔木兹海峡通航量及OPEC+（石油输出国组织及盟友）产量决议"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "标普500上涨，油价下跌，等待美光财报",
-        "assets": "📈 美股大盘 利好\n📈 科技股 偏多",
-        "chain": "油价跌→通胀预期（物价上涨）降温→降息（借钱成本降低）预期升温→风险资产（股票）偏好回升",
-        "watch": "美光财报中存储芯片需求指引"
+        "what": "标普500因油价下跌上涨，市场等待美光财报",
+        "assets": "📈 美股大盘 利好\n📉 能源股 利空",
+        "chain": "油价跌→成本下降→企业盈利预期改善→支撑大盘→但美光财报若不及预期将打压芯片板块",
+        "watch": "美光营收指引及库存周期数据"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦学生贷款推出新利率折扣",
-        "assets": "📉 消费金融股 利空\n📈 教育股 利好",
-        "chain": "利率折扣→学生贷款成本降低→还款压力减轻→消费支出（可选消费）可能回升",
-        "watch": "学生贷款违约率变化"
+        "what": "联邦学生贷款新利率折扣，部分人受益",
+        "assets": "📈 消费信贷ABS（资产支持证券） 中性偏多",
+        "chain": "利率折扣→降低借款人违约风险→利好学生贷款相关证券→但减少政府利息收入，财政赤字扩大",
+        "watch": "学生贷款还款率及ABS发行量"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "交易员不再押注英国央行年内加息25个基点",
-        "assets": "📉 英镑 承压\n📈 英国国债 利好",
-        "chain": "加息预期消退→利差（两国利率差异）收窄→英镑贬值→出口竞争力（海外销售价格）提升",
-        "watch": "英国CPI（通胀率）数据发布"
+        "what": "交易员不再押注英央行年内加息25基点",
+        "assets": "📉 英镑 利空\n📈 英国国债 利好",
+        "chain": "加息预期消退→英镑贬值压力→英国出口竞争力提升→但通胀可能反弹，央行政策空间收窄",
+        "watch": "英国CPI（消费者物价指数）及薪资增长数据"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "日本计划14年投2.3万亿美元押注AI与半导体",
-        "assets": "📈 日本半导体股 利好\n📈 日元 利好",
-        "chain": "巨额财政刺激→产业政策（政府扶持）预期→吸引外资流入→日元需求增加→汇率（货币价格）走强",
-        "watch": "日本半导体设备出货数据"
+        "what": "日本计划14年投资2.3万亿美元押注AI与半导体",
+        "assets": "📈 日本半导体设备股 利好\n📈 日元 中性偏多",
+        "chain": "财政刺激→政府债务扩张→日元长期承压→但产业政策利好出口型企业，日经指数（日本股票指数）获得结构性支撑",
+        "watch": "日本政府债券发行计划及半导体出口数据"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "沃伦参议员称美联储主席沃什陷政策两难",
-        "assets": "📉 美股 利空\n📈 美债 利好",
-        "chain": "政治压力（国会干预）→美联储独立性（决策自主权）受质疑→市场不确定性（波动率）上升→避险（安全资产）偏好",
-        "watch": "美联储下次会议纪要措辞"
+        "what": "沃伦称美联储主席沃什陷入政策两难",
+        "assets": "📉 美元 利空\n📈 黄金 利好",
+        "chain": "政策两难→市场质疑独立性→降息预期提前→美元走弱→黄金作为避险资产受益",
+        "watch": "沃什公开讲话及美联储点阵图（利率预测图）"
       }
     }
   ]
