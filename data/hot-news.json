@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 16:01",
+  "updateTime": "2026-06-24 16:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "特斯拉自动驾驶致死案家属起诉公司",
+        "what": "特斯拉致命事故家属起诉自动驾驶辅助系统",
         "assets": "📉 特斯拉股价 利空",
-        "chain": "监管压力上升，可能限制自动驾驶部署速度（技术落地风险）",
-        "watch": "NHTSA（美国公路安全管理局）是否启动正式调查"
+        "chain": "诉讼风险上升，可能影响自动驾驶监管（政府管理）和保险定价（保费成本）",
+        "watch": "NHTSA调查结果及类似诉讼判决"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报后暴跌10%，利润率恶化",
-        "assets": "📉 Cerebras股价 利空；📉 AI芯片板块 承压",
-        "chain": "高估值AI芯片股面临盈利验证（P/E市盈率收缩风险），拖累半导体ETF（交易所交易基金）",
-        "watch": "下周AMD/英伟达财报指引是否同样疲软"
+        "what": "Cerebras首份财报后跌10%，利润率预期收缩",
+        "assets": "📉 AI芯片股 承压",
+        "chain": "市场对AI硬件盈利（赚钱能力）担忧加剧，或拖累半导体板块",
+        "watch": "Cerebras下一季度毛利率数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "日央行释放加息信号，美元兑日元震荡",
-        "assets": "📈 日元 走强；📈 日本国债收益率 上升",
-        "chain": "日元套利交易（借日元买高息资产）平仓，冲击新兴市场货币和风险资产",
-        "watch": "日本CPI（消费者物价指数）数据能否支撑加息"
+        "what": "日本央行释放进一步加息信号支撑日元",
+        "assets": "📈 日元 利好；📉 日债收益率 上行",
+        "chain": "加息预期推高日本利率，利差交易（借低息日元投高息资产）或平仓",
+        "watch": "日本CPI（物价指数）及央行政策会议"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美联储加息预期升温，白银跌至半年新低",
-        "assets": "📉 白银 承压；📈 美元 走强",
-        "chain": "实际利率（名义利率减通胀）上升压制无息资产（如贵金属），工业需求担忧加剧",
-        "watch": "本周美国PCE（个人消费支出）通胀数据是否超预期"
+        "what": "美联储加息预期升温叠加美元走强，白银跌至新低",
+        "assets": "📉 白银 承压；📈 美元指数 利好",
+        "chain": "美元走强压制大宗商品（原材料），白银工业需求（电子、光伏）也疲软",
+        "watch": "美联储点阵图（利率预测）及非农数据"
       }
     },
     {
@@ -65,28 +65,14 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后不足两周发行250亿美元债务",
-        "assets": "📈 SpaceX信用债 利好；📈 太空概念股 情绪提振",
-        "chain": "高杠杆融资显示市场对SpaceX现金流信心，可能压低其未来股权融资成本",
-        "watch": "债务评级机构是否上调SpaceX信用评级"
+        "what": "SpaceX IPO后不足两周完成250亿美元债务融资",
+        "assets": "📈 SpaceX估值 利好",
+        "chain": "高杠杆融资显示市场信心，或推动太空行业（卫星、发射）估值重估",
+        "watch": "SpaceX后续订单及Starlink收入"
       }
     },
     {
       "rank": 6,
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures slip as AI trade doubts grow - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "AI交易疑虑蔓延，美股三大期指下跌",
-        "assets": "📉 纳斯达克指数 承压；📉 AI相关个股（如英伟达） 利空",
-        "chain": "资金从科技股轮动至防御板块（如公用事业），导致大盘波动率（VIX恐慌指数）上升",
-        "watch": "明天科技巨头财报能否扭转市场情绪"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Asian Stocks Set to Extend AI Chip-Fueled Selloff: Markets Wrap - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -94,51 +80,65 @@
       "score": 42,
       "insight": {
         "what": "亚洲股市因AI芯片抛售扩大跌幅",
-        "assets": "📉 韩国KOSPI指数 承压；📉 台积电ADR（美国存托凭证） 利空",
-        "chain": "亚洲半导体供应链（存储芯片、代工）盈利预期下调，外资流出加速",
-        "watch": "韩国出口数据（尤其是芯片出口）是否恶化"
+        "assets": "📉 亚洲科技股 承压",
+        "chain": "AI泡沫（过高估值）担忧蔓延，半导体出口国（韩国、台湾）受冲击",
+        "watch": "NVIDIA财报及费城半导体指数"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "摩根士丹利称韩国股市虽大跌但未崩盘",
-        "assets": "📉 韩国KOSPI指数 短期承压；📈 韩国金融股 相对抗跌",
-        "chain": "大行唱多可能吸引价值投资者抄底，但需关注外资抛售持续性（资金流向指标）",
-        "watch": "韩国央行是否干预汇市或释放流动性"
+        "what": "韩国股市暴跌但摩根士丹利称非趋势逆转",
+        "assets": "📉 韩国KOSPI 承压",
+        "chain": "短期抛售或为机构调仓（换股），需关注出口数据（芯片、汽车）",
+        "watch": "韩国出口同比及外资资金流向"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "日本央行行长重申通胀存在超过2%目标的风险 并称将会适时进一步加息",
       "source": "环球市场播报",
       "detail": " 日本央行行长植田和男周三在讲话中表示，日本央行认为通胀存在超过其2%目标的风险，并称将会适时进一步加息，重申了政策制定者最近传达的信息。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日央行行长重申通胀超2%风险，将适时加息",
-        "assets": "📈 日元 走强；📈 日本10年期国债收益率 上升",
-        "chain": "日元升值压缩出口企业利润（丰田等），但利好银行股（息差扩大）",
-        "watch": "日本4月全国CPI（消费者物价指数）是否高于预期"
+        "what": "日本央行行长重申通胀超2%风险，将适时加息",
+        "assets": "📈 日元 利好；📉 日债 利空",
+        "chain": "加息预期强化，日本国债收益率曲线陡化（短端涨更快），利差交易风险",
+        "watch": "日本核心CPI及薪资谈判结果"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "FedEx posts strong earnings results in last quarter with freight business - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递财报强劲，货运业务表现亮眼",
-        "assets": "📈 联邦快递股价 利好；📈 物流/货运板块 情绪提振",
-        "chain": "货运需求回暖暗示经济软着陆（经济放缓但未衰退），利好工业股和周期股",
-        "watch": "下周UPS财报是否同样超预期"
+        "what": "FedEx财报超预期，货运业务强劲",
+        "assets": "📈 美国物流股 利好",
+        "chain": "经济需求（消费、制造业）韧性信号，或提振运输与工业板块",
+        "watch": "FedEx下季度指引及零售数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Defense giant KNDS plans IPO in Paris and Frankfurt",
+      "source": "CNBC",
+      "detail": "KNDS plans to list shares in Paris and Frankfurt, with current shareholders expected to sell up to 20% of existing share capital.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "防务巨头KNDS计划在巴黎和法兰克福IPO",
+        "assets": "📈 欧洲防务股 利好",
+        "chain": "地缘紧张（俄乌冲突）推动军费开支，IPO或吸引资金流入国防行业",
+        "watch": "IPO定价及欧洲防务预算政策"
       }
     }
   ]
