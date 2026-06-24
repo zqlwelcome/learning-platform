@@ -1,144 +1,144 @@
 {
-  "updateTime": "2026-06-25 05:00",
+  "updateTime": "2026-06-25 05:05",
   "news": [
     {
       "rank": 1,
+      "title": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
+      "source": "CNBC",
+      "detail": "The announcements followed the release of the Federal Reserve's annual stress test, which found that all 32 large banks weathered a hypothetical recession.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "摩根大通回购500亿美元，高盛提高股息",
+        "assets": "📈 美国银行股 利好",
+        "chain": "银行资本充足（抗风险能力强），回购提振ROE（股东回报率），吸引资金流入金融板块",
+        "watch": "银行股后续回购执行节奏及资本金新规落地"
+      }
+    },
+    {
+      "rank": 2,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电，欧洲创纪录热浪",
-        "assets": "📉 欧洲电力股 利空；📈 天然气期货 利好",
-        "chain": "电价飙升→通胀预期升温→欧央行加息压力加大（收紧货币）",
-        "watch": "法国电力恢复时间及欧洲天然气库存"
+        "what": "法国大停电叠加欧洲创纪录热浪",
+        "assets": "📈 欧洲电价 飙升 📉 法国核电 承压",
+        "chain": "电力短缺推高能源成本（通胀压力），可能拖累工业生产（制造业PMI），利空欧元",
+        "watch": "法国电力公司修复进度及欧洲天然气库存变化"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
       "source": "CNBC",
       "detail": "The Fed's annual exercise comes at a pivotal moment for bank regulation because, unlike previous years, the results will not affect capital requirements.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储压力测试：银行可承受7080亿美元损失",
+        "what": "美联储压力测试显示银行可承受7080亿亏损",
         "assets": "📈 美国银行股 利好",
-        "chain": "资本规则改革落地→银行风险缓冲加强→信贷紧缩预期缓解（放贷意愿）",
-        "watch": "本周银行财报及资本充足率数据"
+        "chain": "测试通过为资本新规松绑（降低合规成本），银行利润预期改善，信贷供给或扩大",
+        "watch": "美联储最终资本规则版本及银行资本充足率"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国联邦学生贷款利率折扣新规",
-        "assets": "📈 消费金融股 利好；📉 学生贷款ABS 承压",
-        "chain": "降低借贷成本→刺激消费→通胀韧性（物价难降）→美联储鹰派（维持高利率）",
+        "what": "美国联邦学生贷款利率打折，部分借款人受益",
+        "assets": "📉 消费信贷 承压",
+        "chain": "降息减轻学生债务负担（释放消费力），但减少银行利息收入，利空教育贷款ABS（资产支持证券）",
         "watch": "学生贷款违约率及消费支出数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "欧洲央行执委Schnabel称或需继续加息 以实现2%通胀目标",
       "source": "环球市场播报",
       "detail": "欧洲央行执委Isabel Schnabel告诉德国《时代周报》，央行可能不得不进一步提高借贷成本，以抑制通胀压力。 这位德国官员在周三刊发的采访中表示：“从目前来看...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行Schnabel：或需继续加息至2%通胀",
-        "assets": "📈 欧元 利好；📉 欧洲债券 利空",
-        "chain": "加息预期→欧元走强→欧洲出口承压→经济放缓风险（增长与通胀权衡）",
-        "watch": "本周欧元区CPI及GDP初值"
+        "what": "欧洲央行Schnabel暗示可能继续加息至2%目标",
+        "assets": "📈 欧元 利好 📉 欧债 承压",
+        "chain": "加息预期推高欧元汇率（利差扩大），但压制欧洲股市（资金成本上升），利空高杠杆企业",
+        "watch": "欧元区CPI（通胀）数据及下次欧央行会议"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "日本拟未来14年投资2.3万亿美元 大举押注AI与半导体",
       "source": "环球市场播报",
       "detail": " 日本首相高市早苗公布了日本经济长期发展愿景，计划大规模投资人工智能和半导体，以及国防、太空和造船等其他关键领域。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "日本拟14年投2.3万亿美元押注AI与半导体",
-        "assets": "📈 日本半导体股 利好；📈 日元 利好",
-        "chain": "政府补贴→企业资本开支增加→日本GDP上行→日元升值（吸引外资）",
-        "watch": "日本半导体设备订单及日元汇率"
+        "what": "日本计划14年投2.3万亿美元押注AI与半导体",
+        "assets": "📈 日本半导体股 利好 📈 日元 利好",
+        "chain": "政府投资刺激产业升级（带动资本开支），吸引外资流入（推高日股），但增加财政赤字（国债风险）",
+        "watch": "日本半导体企业财报及日元汇率走势"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "着手勾勒经济议程 伯纳姆团队酝酿拆分财政部并推动英国央行改革",
       "source": "环球市场播报",
       "detail": " 安迪·伯纳姆身边颇具影响力的人士敦促这位有望成为英国首相的政治人物拆分财政部，以便让政府议程重新聚焦于经济增长。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "伯纳姆团队计划拆分财政部并改革英国央行",
-        "assets": "📉 英镑 承压；📉 英国国债 利空",
-        "chain": "政策不确定性→市场避险→英国资产抛售→央行独立性风险（信誉受损）",
-        "watch": "英国央行利率决议及政治博弈进展"
+        "what": "伯纳姆团队拟拆分财政部并改革英国央行",
+        "assets": "📉 英镑 承压 📉 英国国债 承压",
+        "chain": "政策不确定性（机构重组）削弱市场信心，可能推高英国信用利差（国债收益率上升），利空金融股",
+        "watch": "英国大选民调及央行独立性声明"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "OpenAI和博通开发首款定制化人工智能芯片 比传统GPU节省约50%成本",
       "source": "环球市场播报",
       "detail": "OpenAI发布与博通合作开发的首款定制人工智能芯片，试图通过优化硬件来获取竞争优势。 两家公司周三表示，OpenAI已收到这款名为“Jalapeno”的芯片的首批样品...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "OpenAI与博通合作开发定制AI芯片，成本降50%",
-        "assets": "📈 博通 利好；📉 英伟达 承压",
-        "chain": "替代传统GPU→AI算力成本下降→英伟达市占率受威胁→芯片竞争加剧（格局重塑）",
-        "watch": "博通AI芯片量产时间表及英伟达财报"
+        "what": "OpenAI与博通开发定制AI芯片，成本降50%",
+        "assets": "📈 博通 利好 📉 英伟达 承压",
+        "chain": "定制芯片替代通用GPU（图形处理器），削弱英伟达垄断地位，利好AI应用成本下降（云计算股）",
+        "watch": "博通芯片量产时间及英伟达订单变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "沃伦参议员称美联储主席沃什已陷入政策两难困局",
       "source": "环球市场播报",
       "detail": " 马萨诸塞州民主党联邦参议员伊丽莎白・沃伦于周三表示，美联储主席凯文・沃什在利率政策上已然进退维谷，没有理想的可选方案。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "沃伦称美联储主席沃什陷入政策两难",
-        "assets": "📉 美股 承压；📈 黄金 利好",
-        "chain": "政策分歧→市场不确定性→避险情绪升温→美元走弱（黄金替代）",
-        "watch": "美联储官员讲话及点阵图变化"
+        "what": "沃伦称美联储主席沃什陷入政策两难困局",
+        "assets": "📉 美元 承压 📉 美股 承压",
+        "chain": "政策分歧加剧（鹰派vs鸽派），市场对降息预期混乱（利率波动），利空风险资产",
+        "watch": "美联储会议纪要及官员公开讲话"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Cerebras CEO says margin forecast was 'misunderstood' as stock plummets after earnings",
       "source": "CNBC",
       "detail": "AI chipmaker Cerebras has a staggered lock-up expiration that includes some shares becoming available for trading this week.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Cerebras CEO称利润率预测被误解，股价暴跌",
-        "assets": "📉 Cerebras 利空；📉 AI芯片板块 承压",
-        "chain": "财报不及预期→市场质疑盈利能力→AI泡沫担忧加剧（估值修正）",
-        "watch": "Cerebras下一季度营收指引及同行财报"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "美联储压力测试显示：在资本规则改革之际，美国银行业可承受7080亿美元的损失",
-      "source": "环球市场播报",
-      "detail": " 根据美联储周三发布的年度压力测试结果，在严重的全球性衰退中，美国最大的银行将能够吸收超过7080亿美元的损失，并继续向家庭和企业提供贷款。",
-      "lang": "zh",
-      "score": 28,
-      "insight": {
-        "what": "美联储压力测试：银行业可承受7080亿损失",
-        "assets": "📈 美国银行股 利好",
-        "chain": "资本缓冲增强→银行回购股票预期上升→金融板块领涨（资金流入）",
-        "watch": "银行股息及回购计划公告"
+        "what": "Cerebras CEO称利润率预期被误解，股价暴跌",
+        "assets": "📉 Cerebras 承压 📉 AI芯片板块 承压",
+        "chain": "财报不及预期引发抛售（恐慌情绪），或拖累其他AI概念股（估值回调），利空半导体ETF",
+        "watch": "Cerebras下季度营收指引及同行财报"
       }
     }
   ]
