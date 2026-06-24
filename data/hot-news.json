@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 13:58",
+  "updateTime": "2026-06-24 14:01",
   "news": [
     {
       "rank": 1,
@@ -9,28 +9,42 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "特斯拉自动驾驶致死事故被家属起诉",
-        "assets": "📉 特斯拉股价 利空\n📉 自动驾驶板块 承压",
-        "chain": "监管审查（SEC调查）风险上升，可能拖累整个EV（电动车）板块估值",
-        "watch": "NHTSA（美国公路安全局）是否展开正式调查"
+        "what": "德州特斯拉致命车祸家属起诉，涉自动驾驶辅助",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "监管审查趋严→自动驾驶技术估值折价→拖累整个电动车板块（行业beta）",
+        "watch": "NHTSA（美国国家公路安全局）是否升级调查"
       }
     },
     {
       "rank": 2,
+      "title": "美联储加息是头号威胁！继高盛、德银后，又一投行下调黄金目标价",
+      "source": "滚动播报",
+      "detail": "文章来源：财联社 财联社6月24日讯（编辑 卞纯）随着美联储最新鹰派倾向对市场造成冲击，黄金价格继续在年内低位附近徘徊，而与此同时，继高盛、德银之后...",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "又一投行下调黄金目标价，因美联储加息威胁",
+        "assets": "📉 黄金 承压 📈 美元指数 利好",
+        "chain": "加息（借钱成本增加）→实际利率上升→黄金持有成本高（无息资产劣势）→资金流向美元",
+        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报后暴跌10%，利润率指引收缩",
-        "assets": "📉 Cerebras个股 利空\n📉 AI芯片板块 承压",
-        "chain": "AI芯片竞争加剧（英伟达主导），资本开支（CapEx）压力可能挤压中小玩家利润",
-        "watch": "Cerebras下季度毛利率（Gross Margin）数据"
+        "what": "Cerebras上市首份财报后暴跌10%，利润率指引收缩",
+        "assets": "📉 Cerebras股票 利空 📉 AI芯片板块 承压",
+        "chain": "利润率收缩→AI芯片竞争加剧（英伟达挤压）→市场质疑AI硬件护城河→资金转向软件层",
+        "watch": "Cerebras下一季度毛利率及大客户订单变化"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
@@ -38,107 +52,93 @@
       "score": 45,
       "insight": {
         "what": "SpaceX IPO后不到两周完成250亿美元债务融资",
-        "assets": "📈 SpaceX估值 利好\n📈 太空经济板块 情绪提振",
-        "chain": "债务融资成本低（利率未变），显示机构信心，但杠杆（借钱）增加未来偿债风险",
-        "watch": "SpaceX后续估值及二级市场交易价格"
+        "assets": "📈 SpaceX估值 利好 📉 太空概念股 分化",
+        "chain": "债务融资（低成本杠杆）→强化资产负债表→降低IPO稀释预期→提振SpaceX关联供应链（二级传导）",
+        "watch": "SpaceX后续IPO时间表及估值变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Alphabet Stock Extends Losses as Wall Street Asks if It Remains an AI Winner - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "Alphabet股价持续下跌，华尔街质疑其AI领先地位",
-        "assets": "📉 Alphabet个股 利空\n📉 大型科技股（Magnificent 7） 承压",
-        "chain": "AI竞赛中谷歌落后（如ChatGPT冲击搜索），广告收入增速可能放缓（广告主转向竞品）",
-        "watch": "谷歌云（Google Cloud）AI收入增长及搜索市场份额"
+        "what": "Alphabet股价续跌，华尔街质疑其AI领导者地位",
+        "assets": "📉 Alphabet股票 利空 📈 微软/OpenAI 利好",
+        "chain": "AI竞赛落后→广告收入增长放缓（核心业务）→市场资金轮动至AI赢家（如微软）",
+        "watch": "Google Cloud（云业务）增速及Gemini（大模型）使用率"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Cerebras Stock Sinks After First Earnings Report. AI Demand Is Forcing Tough Choices. - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "Cerebras财报显示AI需求迫使公司做艰难选择",
-        "assets": "📉 Cerebras个股 利空\n📉 定制AI芯片（ASIC）板块 分化",
-        "chain": "需求旺盛但利润率薄，可能引发行业价格战（Price War），利好英伟达生态",
-        "watch": "Cerebras客户集中度及订单取消率"
+        "what": "Cerebras财报显示AI需求迫使公司做出艰难抉择",
+        "assets": "📉 Cerebras股票 利空 📈 ASML/台积电 利好",
+        "chain": "需求爆发但产能受限→资本开支（设备投资）增加→利好上游设备商（台积电/ASML）",
+        "watch": "Cerebras是否削减资本开支指引"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Asian Stocks Set to Extend AI Chip-Fueled Selloff: Markets Wrap - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "亚洲股市因AI芯片股抛售扩大跌幅",
-        "assets": "📉 亚洲科技股（台积电、三星） 利空\n📉 半导体ETF（SMH） 承压",
-        "chain": "AI芯片泡沫担忧（估值过高），资金轮动至防御资产（如公用事业、债券）",
-        "watch": "费城半导体指数（SOX）是否跌破关键支撑位"
+        "what": "亚洲股市因AI芯片抛售延续下跌，市场恐慌",
+        "assets": "📉 亚洲科技股 承压 📉 韩国KOSPI指数 利空",
+        "chain": "AI芯片股暴跌→传导至亚洲供应链（SK海力士/三星）→引发避险抛售→新兴市场资金流出",
+        "watch": "今晚美国科技股期货及韩国出口数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "韩国股市创最差单日之一，摩根士丹利称非崩盘",
-        "assets": "📉 韩国KOSPI指数 利空\n📉 韩国科技/存储芯片股 承压",
-        "chain": "外资流出（美元走强），但大摩认为估值回调（PE压缩）而非结构性危机",
-        "watch": "韩国出口数据（尤其半导体出口）"
+        "what": "韩国股市暴跌，但摩根士丹利称未破位",
+        "assets": "📉 韩国KOSPI 短期承压 📈 韩国半导体 长期利好",
+        "chain": "AI芯片抛售导致恐慌性卖盘→但基本面未变（存储需求强劲）→技术性回调后买点出现",
+        "watch": "KOSPI 200指数支撑位及外资净流向"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "立讯精密据悉评估投资者对其30亿美元香港IPO的兴趣",
       "source": "环球市场播报",
       "detail": "据知情人士透露，立讯精密工业股份有限公司开始就其香港上市进行投资者意向摸底，此次IPO预计募集约30亿美元。 该交易若成行，可能成为今年香港规模最大的发行上市之一。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "立讯精密评估投资者对其30亿美元香港IPO兴趣",
-        "assets": "📈 立讯精密（港股IPO） 利好\n📈 苹果供应链板块 情绪提振",
-        "chain": "IPO募资用于扩产（苹果订单），但港股流动性不足（成交量低）可能压低估值",
-        "watch": "IPO定价区间及超额认购倍数"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "FedEx posts strong earnings results in last quarter with freight business - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "FedEx财报强劲，货运业务表现超预期",
-        "assets": "📈 FedEx个股 利好\n📈 物流/运输板块 利好\n📈 美国经济（消费） 信号积极",
-        "chain": "货运量上升暗示零售需求韧劲（通胀降温），但可能推高物流成本（油价联动）",
-        "watch": "FedEx下季度营收指引及燃油附加费变化"
+        "what": "立讯精密评估30亿美元香港IPO投资者兴趣",
+        "assets": "📈 立讯精密港股 利好 📉 歌尔股份等同行 承压",
+        "chain": "港股IPO（首次公开募股）融资→扩大苹果供应链份额→挤压竞争对手（歌尔）→港股科技板块流动性改善",
+        "watch": "IPO定价区间及基石投资者名单"
       }
     },
     {
       "rank": 10,
-      "title": "Elon Musk loses his trillionaire status as SpaceX stock comes back to Earth - Business Insider",
-      "source": "Business Insider",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
+      "title": "日本央行纪要释放鹰派信号：通胀风险持续积聚 需以数月为间隔继续加息",
+      "source": "智通财经APP",
+      "detail": "日本央行上周召开货币政策会议，决定将政策利率上调至1995年以来最高水平。本周三发布的6月15日至16日会议意见摘要显示，央行明确释放信号...",
+      "lang": "zh",
+      "score": 36,
       "insight": {
-        "what": "马斯克因SpaceX股价回落失去万亿富翁地位",
-        "assets": "📉 SpaceX估值 利空\n📉 马斯克相关概念股（TSLA） 情绪拖累",
-        "chain": "SpaceX估值回调（从二级市场交易价看），可能影响其融资条款（债务成本上升）",
-        "watch": "SpaceX未来融资轮估值及特斯拉股价联动"
+        "what": "日本央行纪要鹰派：通胀风险积聚，需继续加息",
+        "assets": "📈 日元 利好 📉 日本国债 承压 📉 日经指数 利空",
+        "chain": "加息（借钱成本增加）→日元升值→出口企业盈利受损（丰田等）→资金从股市流向债市",
+        "watch": "日本央行7月会议是否加息及通胀数据"
       }
     }
   ]
