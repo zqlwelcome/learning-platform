@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 16:16",
+  "updateTime": "2026-06-24 16:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "德州特斯拉致命事故家属起诉自动驾驶辅助",
-        "assets": "📉 特斯拉股价 承压",
-        "chain": "监管审查（SEC/FDA类似机构）趋严，拖累自动驾驶板块估值",
-        "watch": "NHTSA（美国公路安全局）调查进展"
+        "what": "德州致命车祸家属起诉特斯拉辅助驾驶系统",
+        "assets": "📉 特斯拉股价 利空；📉 自动驾驶概念股 承压",
+        "chain": "诉讼或加剧监管审查，拖累自动驾驶商业化进度（技术落地延迟），避险资金流出汽车科技板块",
+        "watch": "特斯拉季度财报中自动驾驶收入指引"
       }
     },
     {
@@ -23,98 +23,70 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras首份财报后因利润率收缩预期跌10%",
-        "assets": "📉 芯片股 承压",
-        "chain": "AI芯片竞争加剧（英伟达等对手），高资本开支侵蚀利润",
-        "watch": "Cerebras下季度毛利率指引"
+        "what": "Cerebras财报毛利率萎缩，股价暴跌10%",
+        "assets": "📉 Cerebras 利空；📉 AI芯片板块 承压",
+        "chain": "毛利率恶化暗示竞争加剧（如英伟达挤压），投资者或减仓中小芯片股，转向龙头避险",
+        "watch": "Cerebras下一季毛利率指引及客户订单"
       }
     },
     {
       "rank": 3,
-      "title": "日本央行释放进一步加息信号支撑日元，美元兑日元维持高位震荡",
-      "source": "市场资讯",
-      "detail": "文章来源：汇通财经 美元兑日元（USD/JPY）周三维持高位整理走势，欧洲交易时段运行于161.60附近。尽管日本央行释放更多收紧货币政策信号...",
-      "lang": "zh",
-      "score": 46,
-      "insight": {
-        "what": "日本央行加息信号支撑日元，美元兑日元高位震荡",
-        "assets": "📈 日元 利好；📉 美元/日元 震荡偏弱",
-        "chain": "套利交易（借低息日元买高息资产）面临平仓风险，日股承压",
-        "watch": "日本央行下次会议利率决议"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "美联储加息预期升温叠加美元走强，白银跌至逾六个月新低",
-      "source": "市场资讯",
-      "detail": "文章来源：汇通财经 现货白银（XAG/USD）周三亚洲交易时段继续承压下行，价格最低跌至60.74美元附近，创下去年12月以来最低水平。",
-      "lang": "zh",
-      "score": 46,
-      "insight": {
-        "what": "美联储加息预期叠加美元走强，白银跌至6个月新低",
-        "assets": "📉 白银 利空；📉 贵金属板块 承压",
-        "chain": "美元走强（资金流向美元资产）压制大宗商品，金银比（黄金/白银比值）扩大",
-        "watch": "美国PCE（个人消费支出）数据及美联储讲话"
-      }
-    },
-    {
-      "rank": 5,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不到两周后通过债务融资250亿美元",
-        "assets": "📈 SpaceX 利好；📈 私人航天板块 情绪提振",
-        "chain": "债务融资稀释股权少，显示机构信心，或拉高同类公司估值",
-        "watch": "SpaceX后续IPO时间表更新"
+        "what": "SpaceX IPO前两周完成250亿美元债务融资",
+        "assets": "📈 太空概念股 间接利好；📉 债券市场 供应压力",
+        "chain": "高额债务融资显示市场对SpaceX信心，但增加杠杆风险（负债率上升），IPO定价或受债务成本拖累",
+        "watch": "SpaceX IPO估值及债务条款利率"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
+      "title": "Alphabet Stock Extends Losses as Wall Street Asks if It Remains an AI Winner - Barron's",
+      "source": "Barron's",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "Alphabet股价续跌，华尔街质疑其AI竞争力",
+        "assets": "📉 Alphabet 利空；📉 AI概念股 分化",
+        "chain": "市场担忧谷歌在AI竞赛落后（如OpenAI/微软领先），资金或从广告科技转向纯AI平台，拖累大盘科技股",
+        "watch": "Alphabet云业务AI收入增速"
+      }
+    },
+    {
+      "rank": 5,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "摩根士丹利称韩国股市暴跌但未崩溃",
-        "assets": "📉 韩国KOSPI指数 短期承压；📈 韩元 中性",
-        "chain": "外资流出（新兴市场资金轮动）但非系统性风险，关注科技出口",
-        "watch": "韩国半导体出口数据及外资流向"
+        "what": "韩股暴跌但摩根士丹利称非趋势逆转",
+        "assets": "📉 韩国KOSPI 短期利空；📈 韩国出口股 分化",
+        "chain": "单日暴跌或触发技术性抛售（止损单），但大行看多暗示逢低买盘，半导体出口基本面未恶化",
+        "watch": "韩国半导体出口月度数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "日本央行行长重申通胀存在超过2%目标的风险 并称将会适时进一步加息",
       "source": "环球市场播报",
       "detail": " 日本央行行长植田和男周三在讲话中表示，日本央行认为通胀存在超过其2%目标的风险，并称将会适时进一步加息，重申了政策制定者最近传达的信息。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行行长重申通胀超2%风险，将适时加息",
-        "assets": "📈 日元 利好；📉 日本国债价格 承压",
-        "chain": "加息预期（借钱成本上升）推高债券收益率，利空日股估值",
-        "watch": "日本CPI（消费者物价指数）及工资谈判结果"
+        "what": "日央行行长暗示通胀超2%风险，将适时加息",
+        "assets": "📈 日元 利好；📉 日债 收益率上行；📉 日本股市 承压",
+        "chain": "加息预期推高日元（套利交易平仓），利空出口股，但利好银行股（净息差扩大），外资或回流日本债市",
+        "watch": "日本10年期国债收益率及下次会议加息概率"
       }
     },
     {
-      "rank": 8,
-      "title": "FedEx posts strong earnings results in last quarter with freight business - CNBC",
-      "source": "CNBC",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "FedEx货运业务推动财报强劲，超预期",
-        "assets": "📈 快递物流板块 利好；📈 美股工业股 情绪提振",
-        "chain": "货运需求强劲（经济晴雨表）暗示消费韧性，利多周期股",
-        "watch": "FedEx下季度营收指引及美国零售数据"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "Defense giant KNDS plans IPO in Paris and Frankfurt",
       "source": "CNBC",
       "detail": "KNDS plans to list shares in Paris and Frankfurt, with current shareholders expected to sell up to 20% of existing share capital.",
@@ -122,23 +94,51 @@
       "score": 35,
       "insight": {
         "what": "防务巨头KNDS计划在巴黎和法兰克福IPO",
-        "assets": "📈 欧洲防务板块 利好；📈 军工ETF 情绪提振",
-        "chain": "地缘风险（俄乌冲突等）驱动国防开支，新上市增加板块流动性",
-        "watch": "IPO定价及欧洲国防预算政策"
+        "assets": "📈 欧洲防务股 利好；📈 欧洲IPO市场 提振",
+        "chain": "防务板块IPO吸引资金流入（地缘风险溢价），或推动同类公司估值重估（如莱茵金属），但分散军工ETF流动性",
+        "watch": "KNDS招股定价及欧洲防务预算政策"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "Stock market today: S&P 500, Nasdaq hit pause after tech rout with Micron in focus - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克暂停科技股抛售，聚焦美光",
-        "assets": "📈 美股大盘 企稳；📉 科技股 短期中性",
-        "chain": "科技股超卖后反弹（技术面修复），但美光财报决定芯片方向",
-        "watch": "美光财报及AI相关营收指引"
+        "what": "标普和纳指暂停跌势，市场聚焦美光科技",
+        "assets": "📈 美光科技 焦点；📉 科技股 波动",
+        "chain": "美光财报将指引存储芯片需求（AI服务器/PC），若超预期则带动半导体反弹，否则加剧科技回调",
+        "watch": "美光季度营收及下季指引"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Elon Musk loses his trillionaire status as SpaceX stock comes back to Earth - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "马斯克因SpaceX股价回落失去万亿富豪地位",
+        "assets": "📉 SpaceX估值 利空；📉 特斯拉 情绪拖累",
+        "chain": "SpaceX估值回调反映市场对太空业务盈利担忧，马斯克财富缩水或影响其融资能力，间接利空特斯拉",
+        "watch": "SpaceX二次交易估值及特斯拉股价关联性"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "港股收评：恒指涨0.33% 科指涨1.81% 科网股涨多跌少 半导体股强势 麦科医药上市首日大涨102%",
+      "source": "新浪港股",
+      "detail": "6月24日消息，港股三大指数集体上涨。截至收盘，恒生指数涨0.33%，报23412.18，恒生科技指数涨1.81%，国企指数涨0.07%。盘面上，科网股涨多跌少，腾讯涨超3%...",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "港股恒指微涨0.33%，科指涨1.81%，半导体强势",
+        "assets": "📈 港股科技股 利好；📈 半导体板块 强势",
+        "chain": "科网股反弹受AI叙事支撑（如百度/腾讯），半导体受益国产替代预期，但恒指涨幅有限显示大盘仍谨慎",
+        "watch": "港股成交量及南向资金流向"
       }
     }
   ]
