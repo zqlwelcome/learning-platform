@@ -1,36 +1,78 @@
 {
-  "updateTime": "2026-06-24 21:41",
+  "updateTime": "2026-06-24 21:46",
   "news": [
     {
       "rank": 1,
+      "title": "Micron Earnings: Why a Tenfold Profit Surge May Not Save the Stock From a Crash - Barron's",
+      "source": "Barron's",
+      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
+      "lang": "en",
+      "score": 74,
+      "insight": {
+        "what": "美光利润暴增10倍但股价可能崩",
+        "assets": "📉 美光（存储芯片） 承压",
+        "chain": "存储芯片周期见顶担忧（供需拐点），拖累半导体ETF（如SMH）",
+        "watch": "美光下季指引及存储芯片价格走势"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Cerebras Stock Tumbles After First Earnings Report Since IPO - Barron's",
+      "source": "Barron's",
+      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
+      "lang": "en",
+      "score": 59,
+      "insight": {
+        "what": "Cerebras上市后首份财报股价暴跌",
+        "assets": "📉 AI芯片股 承压",
+        "chain": "AI芯片竞争加剧（英伟达主导），市场质疑Cerebras盈利能力",
+        "watch": "Cerebras营收增长及客户集中度"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Victim’s family in fatal Texas Tesla ‘automated driving assistance’ crash files lawsuit - NBC News",
+      "source": "NBC News",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 52,
+      "insight": {
+        "what": "特斯拉自动驾驶致死案家属起诉",
+        "assets": "📉 特斯拉 承压",
+        "chain": "监管审查风险上升（自动驾驶安全），可能影响FSD（完全自动驾驶）商业化",
+        "watch": "NHTSA（美国公路安全局）调查进展"
+      }
+    },
+    {
+      "rank": 4,
       "title": "年内暴涨1771%！智谱又考虑融一大笔钱，规模远超IPO募资",
       "source": "市场资讯",
       "detail": "来源：财通社 最新消息称，智谱（02513.HK）正考虑配售H股，以筹集数十亿美元资金。 彭博社6月24日援引知情人士报道，智谱正在与顾问合作...",
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "智谱AI再融资，规模远超IPO，年内涨1771%",
-        "assets": "📈 AI概念股 利好",
-        "chain": "AI赛道吸金效应增强，可能挤压其他科技板块流动性（资金流向）",
-        "watch": "智谱IPO估值及后续融资落地情况"
+        "what": "智谱AI年内暴涨1771%再融巨资",
+        "assets": "📈 中国AI概念股 利好",
+        "chain": "AI融资热潮持续（资本涌入），但估值泡沫风险（高估值回调）",
+        "watch": "智谱IPO（首次公开募股）定价及同行估值"
       }
     },
     {
-      "rank": 2,
+      "rank": 5,
       "title": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
       "source": "CNBC",
       "detail": "Bessent sees his \"3-3-3\" plan as still in reach — 3% growth, a 3% deficit-to-GDP rate and a 3 million barrels per day increase in oil production.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美财长称年底前GDP增速可达3%",
-        "assets": "📈 美元 走强\n📉 美债 承压",
-        "chain": "经济增长预期推高加息概率（借钱成本上升），压制风险资产估值",
-        "watch": "周五非农数据及Q2 GDP修正值"
+        "what": "美财长称GDP增速年底前可达3%",
+        "assets": "📈 美元 利好；📈 美股 利好",
+        "chain": "经济强韧推迟降息（借钱成本降低预期减弱），美债收益率（国债利息）上行",
+        "watch": "下周非农数据及GDP修正值"
       }
     },
     {
-      "rank": 3,
+      "rank": 6,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
@@ -38,107 +80,65 @@
       "score": 45,
       "insight": {
         "what": "法国大停电叠加欧洲创纪录高温",
-        "assets": "📈 天然气 利好\n📉 欧洲电力股 承压",
-        "chain": "能源短缺推高电价，欧央行抗通胀难度加大（物价压力），欧股或受拖累",
-        "watch": "法国电力恢复时间及欧洲天然气库存变化"
+        "assets": "📈 欧洲天然气/电力 利好；📉 欧元 承压",
+        "chain": "能源短缺推高通胀（物价上涨），欧央行降息（借钱成本降低）空间收窄",
+        "watch": "法国电力恢复时间及欧洲电价期货"
       }
     },
     {
-      "rank": 4,
+      "rank": 7,
       "title": "黄金、白银、原油，集体暴跌",
       "source": "滚动播报",
       "detail": "来源：中国基金报 【导读】原油、黄金、白银，集体暴跌，金价跌破4000美元关口 中国基金报记者 泰勒 大家好，简单关注一下原油、黄金、白银集体暴跌的消息。",
       "lang": "zh",
       "score": 44,
       "insight": {
-        "what": "黄金、白银、原油集体暴跌",
-        "assets": "📉 黄金 承压\n📉 原油 承压",
-        "chain": "美元走强+需求担忧引发大宗商品抛售（risk-off），铜等工业金属或跟跌",
-        "watch": "今晚美国EIA原油库存及美元指数走势"
+        "what": "黄金白银原油集体暴跌",
+        "assets": "📉 黄金/白银/原油 承压",
+        "chain": "美元走强+风险偏好下降（避险需求减弱），大宗商品多头平仓",
+        "watch": "美元指数（衡量美元强弱）及OPEC（石油输出国组织）产量决策"
       }
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "Chief of staff to former NYC Mayor Eric Adams arrested in federal bribery probe, AP source says",
       "source": "CNBC",
       "detail": "A chief of staff to former New York City Mayor Eric Adams and several other people have been arrested as part of an investigation into an alleged bribery scheme.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "纽约市长幕僚长因联邦贿赂调查被捕",
-        "assets": "📉 纽约市政债 利空",
-        "chain": "政治丑闻或影响联邦对纽约拨款，基建相关板块情绪受挫",
-        "watch": "后续起诉细节及市长是否被牵连"
+        "what": "前纽约市长幕僚长因联邦贿赂案被捕",
+        "assets": "📉 纽约市政债 承压",
+        "chain": "政治丑闻冲击地方信用，短期增加市政债（地方政府债券）风险溢价（额外收益要求）",
+        "watch": "案件扩大范围及信用评级调整"
       }
     },
     {
-      "rank": 6,
+      "rank": 9,
+      "title": "US presses Meta to agree to AI reviews as security concerns rise, NYT reports - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "美国施压Meta接受AI安全审查",
+        "assets": "📉 Meta 承压；📉 AI概念股 承压",
+        "chain": "监管收紧增加AI研发成本，科技企业合规风险上升",
+        "watch": "白宫AI行政令细则及Meta回应"
+      }
+    },
+    {
+      "rank": 10,
       "title": "IPO上会在即，高分红后，先歌国际募资补流临时取消",
       "source": "市场资讯",
       "detail": "来源：IPO日报 6月25日，先歌国际影音股份有限公司（下称“先歌国际”）北交所IPO上会。 IPO日报注意到，这家专业音响企业却在问询阶段接连遭遇监管层三大核心质疑：经销收入...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "先歌国际IPO上会前临时取消，高分红后募资补流",
-        "assets": "📉 A股新股情绪 利空",
-        "chain": "监管对募资用途审查趋严，高分红公司再融资或受阻（政策风险）",
-        "watch": "后续IPO撤单数量及分红政策调整"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "A股重磅！3只大牛股，拟扩产先进封装、PCB、MLCC",
-      "source": "证券时报",
-      "detail": "3家A股上市公司纷纷发布对外投资公告。 长电科技（600584）6月24日晚间公告，公司拟通过投资设立控股子公司，在上海临港新片区建设高端先进封测工厂...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "3只A股大牛股拟扩产先进封装、PCB、MLCC",
-        "assets": "📈 半导体设备 利好\n📈 被动元件 利好",
-        "chain": "国产替代加速，上游材料需求预期提升，但需防产能过剩（供给冲击）",
-        "watch": "扩产计划审批进度及下游订单数据"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "S&P 500 ticks higher as chip stocks bounce from sell-off, oil slides: Live updates",
-      "source": "CNBC",
-      "detail": "The S&P 500 moved slightly higher on Wednesday after oil prices fell and technology stocks rebounded.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "标普500微涨，芯片股反弹，油价下跌",
-        "assets": "📈 美股芯片股 反弹\n📉 能源股 承压",
-        "chain": "科技与能源板块轮动（资金切换），若油价持续跌，通胀预期降温利好成长股",
-        "watch": "今晚英伟达股价及API原油库存"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "软银孙正义寄望“超级AI” 瞄准6.189万亿美元净资产价值",
-      "source": "环球市场播报",
-      "detail": " 软银（SoftBank）创始人孙正义（Masayoshi Son）希望在未来十年将这家科技巨头的资产净值提升至6.189万亿美元，基于人工“超级智能”的前景设定了这一大胆目标。",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "软银孙正义瞄准6.189万亿美元净资产，押注超级AI",
-        "assets": "📈 AI芯片股 利好\n📉 软银债券 承压",
-        "chain": "孙正义激进投资加剧软银杠杆风险（债务压力），但Arm估值或受益",
-        "watch": "Arm财报及软银资产负债表变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Slate Auto says each $24,950 electric pickup truck will be profitable as it aims to be cash-flow positive next year",
-      "source": "CNBC",
-      "detail": "EV startup Slate Auto CEO Peter Faricy told CNBC that every vehicle the company produces will be gross margin positive.",
-      "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "Slate Auto称2.5万美元电动皮卡可盈利，目标明年正现金流",
-        "assets": "📈 低价电动车股 利好\n📉 传统车企 承压",
-        "chain": "低价电动车型可能挤压特斯拉份额（竞争加剧），但刺激整体EV渗透率",
-        "watch": "Slate Auto订单量及毛利率数据"
+        "what": "先歌国际IPO上会前因高分红临时取消",
+        "assets": "📉 港股IPO市场 承压",
+        "chain": "监管对分红后募资（上市融资）严查，打击新股信心",
+        "watch": "后续IPO审核标准变化及先歌国际重新上市计划"
       }
     }
   ]
