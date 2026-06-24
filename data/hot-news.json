@@ -1,78 +1,106 @@
 {
-  "updateTime": "2026-06-24 16:51",
+  "updateTime": "2026-06-24 16:53",
   "news": [
     {
       "rank": 1,
+      "title": "Victim’s family in fatal Texas Tesla ‘automated driving assistance’ crash files lawsuit - NBC News",
+      "source": "NBC News",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 52,
+      "insight": {
+        "what": "特斯拉自动驾驶致死事故家属起诉",
+        "assets": "📉 特斯拉股价 承压; 📉 自动驾驶板块 利空",
+        "chain": "监管审查（SEC调查）风险上升，可能拖累整个电动车板块估值（PE倍数）",
+        "watch": "NHTSA（美国国家公路交通安全管理局）是否发起正式调查"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报后跌10%，利润率前景堪忧",
-        "assets": "📉 AI芯片股 利空",
-        "chain": "削弱AI芯片板块情绪，可能拖累英伟达等高估值标的（连锁反应）",
-        "watch": "下季度毛利率数据及订单指引"
+        "what": "Cerebras财报后暴跌10%，利润率预期收窄",
+        "assets": "📉 Cerebras股价 利空; 📉 AI芯片板块 承压",
+        "chain": "高估值芯片股面临盈利验证压力（PEG指标），可能引发AI泡沫担忧扩散",
+        "watch": "下一季度毛利率指引是否进一步恶化"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后不到两周发债250亿美元",
-        "assets": "📈 太空概念股 利好",
-        "chain": "显示投资者信心强劲，可能提振相关ETF资金流入（资金轮动）",
-        "watch": "后续SpaceX估值及二级市场交易量"
+        "what": "SpaceX上市不到两周后发行250亿美元债务",
+        "assets": "📈 SpaceX债券 利好; 📉 科技成长股 资金分流",
+        "chain": "高收益债（垃圾债）供给增加，可能推高信用利差（风险溢价），挤压二级市场流动性",
+        "watch": "债券认购倍数及定价利率"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "摩根士丹利称韩国股市暴跌非崩盘",
-        "assets": "📉 韩国KOSPI指数 承压",
-        "chain": "短期恐慌或触发止损盘，但机构视其为回调而非趋势反转（均值回归）",
-        "watch": "韩国央行利率决议及外资流向"
+        "what": "韩国股市暴跌但摩根士丹利称未破位",
+        "assets": "📉 韩国KOSPI指数 承压; 📈 韩元 贬值预期",
+        "chain": "外资流出新兴市场（EM），但技术面支撑位有效，等待宏观催化剂（如中国刺激政策）",
+        "watch": "韩国综合指数2000点整数关口是否守住"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "黄金徘徊于4100美元下方：油价跌了、加息预期却升温，PCE数据成关键",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周三（6月24日）欧洲时段，现货黄金从近两周低点小幅反弹，但整体仍维持在4100美元关口下方，负面偏压未改。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "黄金在4100美元下震荡，油价跌但加息预期升温",
-        "assets": "📉 黄金 承压；📉 原油 利空",
-        "chain": "加息预期推高实际利率（持有黄金机会成本），压制金价；油价跌缓解通胀（物价上涨压力）",
-        "watch": "周五美国PCE（个人消费支出物价）数据"
+        "what": "黄金在4100美元下方震荡，油价跌但加息预期升温",
+        "assets": "📉 黄金 承压; 📉 原油 利空; 📈 美元指数 走强",
+        "chain": "实际利率（名义利率-通胀预期）上升压制黄金，油价下跌反映需求疲软（衰退交易）",
+        "watch": "周五美国PCE（个人消费支出物价指数）数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "日本央行行长重申通胀存在超过2%目标的风险 并称将会适时进一步加息",
       "source": "环球市场播报",
       "detail": " 日本央行行长植田和男周三在讲话中表示，日本央行认为通胀存在超过其2%目标的风险，并称将会适时进一步加息，重申了政策制定者最近传达的信息。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行行长暗示可能进一步加息",
-        "assets": "📈 日元 利好；📉 日债 利空",
-        "chain": "加息预期推高日元，利差交易（借低息货币买高息资产）可能平仓，冲击风险资产",
-        "watch": "日本央行会议纪要及通胀数据"
+        "what": "日本央行行长重申通胀超2%风险，暗示加息",
+        "assets": "📈 日元 升值; 📉 日本国债 收益率上行; 📉 日股 承压",
+        "chain": "利差交易（carry trade）平仓，资金从日股流向债券，套息头寸面临挤压",
+        "watch": "日本央行下次会议加息概率及幅度"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "FedEx posts strong earnings results in last quarter with freight business - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "FedEx财报强劲，货运业务表现亮眼",
+        "assets": "📈 FedEx股价 利好; 📈 物流板块 利好; 📈 美国经济 软着陆信号",
+        "chain": "货运量上升预示工业产出（PMI）改善，可能带动运输ETF（如IYT）走强",
+        "watch": "下季度全球贸易量数据（如波罗的海干散货指数）"
+      }
+    },
+    {
+      "rank": 8,
       "title": "Defense giant KNDS plans IPO in Paris and Frankfurt",
       "source": "CNBC",
       "detail": "KNDS plans to list shares in Paris and Frankfurt, with current shareholders expected to sell up to 20% of existing share capital.",
@@ -80,65 +108,37 @@
       "score": 35,
       "insight": {
         "what": "防务巨头KNDS计划在巴黎和法兰克福IPO",
-        "assets": "📈 欧洲防务股 利好",
-        "chain": "防务板块获资金关注，可能带动军工ETF（交易所交易基金）及同类新股估值",
-        "watch": "IPO定价及认购倍数"
+        "assets": "📈 欧洲防务板块 利好; 📈 欧洲IPO市场 情绪提振",
+        "chain": "地缘政治风险溢价（国防开支增长）推动估值，可能引发同类军工股二次上市",
+        "watch": "IPO定价区间及机构认购倍数"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "永康防务IPO：账面“不差钱”仍巨额募资 毛利率显著高于同行 第四季度收入占比超80%",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 2026年6月18日，江苏永康智能防务科技股份有限公司（以下简称“永康防务”）创业板IPO获深交所受理，拟募资14.6亿元...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "永康防务IPO：账面现金充裕仍募资，毛利率高但Q4收入占比超80%",
-        "assets": "📉 永康防务 利空",
-        "chain": "高毛利率存季节性操纵嫌疑，募资用途不明引发治理担忧，可能压低发行价",
-        "watch": "监管问询及路演反馈"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "港股收评：恒指涨0.33% 科指涨1.81% 科网股涨多跌少 半导体股强势 麦科医药上市首日大涨102%",
-      "source": "新浪港股",
-      "detail": "6月24日消息，港股三大指数集体上涨。截至收盘，恒生指数涨0.33%，报23412.18，恒生科技指数涨1.81%，国企指数涨0.07%。盘面上，科网股涨多跌少，腾讯涨超3%...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "港股收涨：科指涨1.8%，半导体强势，麦科医药首日涨102%",
-        "assets": "📈 港股科技股 利好；📈 港股医药股 利好",
-        "chain": "科技板块情绪回暖，半导体受国产替代预期推动；医药新股赚钱效应吸引散户资金",
-        "watch": "恒指能否站稳20日均线及南向资金净流入"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "美国柴油价格自3月来首次跌破每加仑5美元 减缓通胀压力",
-      "source": "环球市场播报",
-      "detail": "美国柴油价格自3月中旬以来首次跌破每加仑5美元，缓和了全球经济最重要的投入要素之一。 根据美国汽车协会，全国平均零售价周三降至4.98美元。",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "美国柴油价格跌破5美元/加仑，为3月来首次",
-        "assets": "📈 消费股 利好；📉 能源股 利空",
-        "chain": "柴油成本下降缓解运输通胀，利好零售和物流板块；但压制炼油商利润",
-        "watch": "EIA（美国能源信息署）库存数据及取暖油需求"
+        "what": "永康防务IPO账面现金充裕仍募资，毛利率异常高",
+        "assets": "📉 永康防务 估值虚高; 📉 A股军工板块 情绪利空",
+        "chain": "监管层可能加强IPO审核（问询函），高第四季度收入占比暗示财务操纵风险（审计关注点）",
+        "watch": "证监会是否发函询问收入确认合理性"
       }
     },
     {
       "rank": 10,
-      "title": "长江有色：24日锌价暴跌 整体交投清淡",
-      "source": "市场资讯",
-      "detail": "长江有色金属网 6月24日沪期锌走势：今日沪期锌主力月2608合约震荡下探；开盘价24385元/吨，最高价24480元/吨，最低价24280元/吨，昨日结算价24765元/吨...",
-      "lang": "zh",
-      "score": 20,
+      "title": "Stock market today: S&P 500, Nasdaq hit pause after tech rout with Micron in focus - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
       "insight": {
-        "what": "长江有色：锌价暴跌，成交清淡",
-        "assets": "📉 锌矿股 利空；📉 基本金属 利空",
-        "chain": "锌价下跌反映工业需求疲软，可能传导至铜铝等金属，拖累资源国货币（如澳元）",
-        "watch": "中国PMI（采购经理人指数）及LME（伦敦金属交易所）库存变化"
+        "what": "标普和纳指暂停下跌，市场聚焦美光科技",
+        "assets": "📈 标普500 横盘; 📈 纳指 技术性反弹; 📉 半导体板块 待观察",
+        "chain": "科技股超卖后（RSI<30）有修复需求，但美光财报若不及预期将加剧板块抛售（止损盘涌出）",
+        "watch": "美光盘后财报营收指引及库存数据"
       }
     }
   ]
