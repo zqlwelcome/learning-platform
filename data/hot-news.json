@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 21:16",
+  "updateTime": "2026-06-24 21:20",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "Cerebras财报后股价大跌",
         "assets": "📉 Cerebras 利空",
-        "chain": "AI芯片新贵估值承压，可能拖累整个AI芯片板块（行业联动效应）",
-        "watch": "Cerebras后续财报及AI芯片板块资金流向"
+        "chain": "AI芯片公司盈利不及预期，拖累AI硬件板块情绪（市场信心）",
+        "watch": "AI芯片板块其他公司财报"
       }
     },
     {
@@ -25,26 +25,40 @@
       "insight": {
         "what": "特斯拉自动驾驶致死案家属起诉",
         "assets": "📉 特斯拉 利空",
-        "chain": "自动驾驶安全争议升温，可能引发监管收紧（政策风险），利空相关概念股",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否启动调查"
+        "chain": "自动驾驶安全争议升温，监管收紧风险（政策风险），利空自动驾驶概念",
+        "watch": "NHTSA（美国监管机构）调查进展"
       }
     },
     {
       "rank": 3,
+      "title": "年内暴涨1771%！智谱又考虑融一大笔钱，规模远超IPO募资",
+      "source": "市场资讯",
+      "detail": "来源：财通社 最新消息称，智谱（02513.HK）正考虑配售H股，以筹集数十亿美元资金。 彭博社6月24日援引知情人士报道，智谱正在与顾问合作...",
+      "lang": "zh",
+      "score": 50,
+      "insight": {
+        "what": "智谱AI考虑融资，规模远超IPO",
+        "assets": "📈 智谱AI 利好",
+        "chain": "AI大模型赛道资本热，估值泡沫化可能（高估值风险），但短期提振板块",
+        "watch": "融资落地金额及估值"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
       "source": "CNBC",
       "detail": "Bessent sees his \"3-3-3\" plan as still in reach — 3% growth, a 3% deficit-to-GDP rate and a 3 million barrels per day increase in oil production.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美财长称GDP增速可回3%",
-        "assets": "📈 美元 利好 📈 美股 利好",
-        "chain": "强经济预期支撑风险偏好，但可能推迟降息（货币政策收紧），压制债券",
-        "watch": "下周GDP修正值及非农数据"
+        "what": "贝森特称美国GDP年底前可达3%",
+        "assets": "📈 美元 利好",
+        "chain": "强增长预期推高美债收益率（借钱成本），压制黄金和新兴市场",
+        "watch": "美国GDP修正值、非农数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
@@ -52,13 +66,13 @@
       "score": 45,
       "insight": {
         "what": "法国大停电叠加欧洲热浪",
-        "assets": "📈 天然气 利好 📈 电力股 利好",
-        "chain": "能源短缺加剧，推升电价和天然气需求（供需失衡），利好能源板块",
-        "watch": "欧洲天然气库存及法国电网恢复时间"
+        "assets": "📈 欧洲天然气 利多",
+        "chain": "电力短缺推高能源需求，天然气价格飙升，通胀压力（物价上涨）",
+        "watch": "法国电力恢复时间、欧洲电价"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "黄金、白银、原油，集体暴跌",
       "source": "滚动播报",
       "detail": "来源：中国基金报 【导读】原油、黄金、白银，集体暴跌，金价跌破4000美元关口 中国基金报记者 泰勒 大家好，简单关注一下原油、黄金、白银集体暴跌的消息。",
@@ -67,36 +81,22 @@
       "insight": {
         "what": "黄金、白银、原油集体暴跌",
         "assets": "📉 黄金 利空 📉 白银 利空 📉 原油 利空",
-        "chain": "风险资产抛售潮，美元走强或流动性紧张（资金避险转向现金），大宗商品承压",
-        "watch": "美元指数及COMEX（纽约商品交易所）持仓数据"
+        "chain": "风险偏好回升（资金从避险资产流出），美元走强压制大宗商品",
+        "watch": "美元指数、美联储官员讲话"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Chief of staff to former NYC Mayor Eric Adams arrested in federal bribery probe, AP source says",
       "source": "CNBC",
       "detail": "A chief of staff to former New York City Mayor Eric Adams and several other people have been arrested as part of an investigation into an alleged bribery scheme.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "纽约前市长幕僚因受贿被捕",
-        "assets": "📉 纽约市政债 利空",
-        "chain": "政治丑闻可能冲击地方债信用利差（风险溢价上升），短期避险情绪",
-        "watch": "纽约市政债收益率走势"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Micron Earnings Are Next Major Test for AI Trade - Barron's",
-      "source": "Barron's",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "美光财报成AI交易关键考验",
-        "assets": "📈 美光 关注 📉 AI芯片 不确定",
-        "chain": "美光若不及预期，AI硬件链（存储芯片）将遭获利了结，拖累半导体板块",
-        "watch": "美光营收指引及HBM（高带宽内存）订单数据"
+        "what": "纽约市长幕僚长因受贿被逮捕",
+        "assets": "📉 纽约市政债券 承压",
+        "chain": "地方政治丑闻增加市政债风险溢价（信用风险），利空纽约相关资产",
+        "watch": "司法部起诉细节、评级机构反应"
       }
     },
     {
@@ -108,9 +108,9 @@
       "score": 32,
       "insight": {
         "what": "美国要求Meta接受AI安全审查",
-        "assets": "📉 Meta 利空 📉 AI监管概念 利好",
-        "chain": "AI监管加码，科技巨头合规成本上升（政策风险），可能拖累AI应用板块",
-        "watch": "白宫AI行政令进展及Meta回应"
+        "assets": "📉 Meta 利空",
+        "chain": "AI监管趋严，增加合规成本，利空大型科技股",
+        "watch": "白宫AI行政令进展、Meta回应"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "科技股反弹，AI板块抛售暂缓",
-        "assets": "📈 美股科技股 利好 📈 半导体 利好",
-        "chain": "超卖后技术性反弹，但AI泡沫担忧未消，需确认资金是否回流（资金面修复）",
-        "watch": "SOX（费城半导体指数）能否站稳支撑位"
+        "what": "科技股反弹，AI抛售潮结束",
+        "assets": "📈 美股科技股 利好",
+        "chain": "超跌反弹，市场情绪修复，但基本面未变（业绩支撑不足）",
+        "watch": "芯片股龙头如英伟达股价走势"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "A股三牛股扩产先进封装等",
-        "assets": "📈 A股半导体 利好 📈 PCB板块 利好",
-        "chain": "国产替代逻辑强化，扩产信号提振产业链（先进封装、MLCC），吸引资金流入",
-        "watch": "扩产项目落地进度及下游需求数据"
+        "what": "A股三只牛股拟扩产先进封装等",
+        "assets": "📈 A股先进封装 利好 📈 PCB 利好 📈 MLCC 利好",
+        "chain": "半导体国产替代加速，产业链上游受益（设备材料需求）",
+        "watch": "扩产公告细节、板块资金流入"
       }
     }
   ]
