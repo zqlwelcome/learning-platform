@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 10:05",
+  "updateTime": "2026-06-24 10:10",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "SpaceX IPO后股价下跌",
         "assets": "📉 SpaceX股票 利空",
-        "chain": "市场对估值过高担忧，拖累太空概念股及IPO板块情绪",
-        "watch": "SpaceX Q2财报及订单数据"
+        "chain": "IPO热情消退，二级市场抛压可能传导至其他未盈利科技股（高估值标的遭获利了结）",
+        "watch": "SpaceX后续订单及发射合同进度"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 47,
       "insight": {
         "what": "特斯拉称司机手动干预致死事故",
-        "assets": "📉 特斯拉股票 利空；📉 自动驾驶概念股 利空",
-        "chain": "监管审查加强（SEC/FDA调查），自动驾驶商业化进程受阻",
-        "watch": "NHTSA是否启动正式调查"
+        "assets": "📉 特斯拉股票 利空；📉 自动驾驶板块 承压",
+        "chain": "监管审查风险上升，可能拖累自动驾驶技术商业化预期（成本增加，法规收紧）",
+        "watch": "NHTSA（美国国家公路交通安全管理局）调查结果"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报预测利润率收窄，股价跌10%",
-        "assets": "📉 Cerebras股票 利空；📉 AI芯片板块 承压",
-        "chain": "AI芯片竞争加剧（英伟达挤压），市场对AI硬件利润预期下调",
-        "watch": "Cerebras Q2毛利率及客户订单变化"
+        "what": "Cerebras财报指引利润率收缩，股价跌10%",
+        "assets": "📉 AI芯片股 利空；📉 Cerebras股票 利空",
+        "chain": "毛利率恶化引发对AI芯片行业定价能力担忧，可能蔓延至同行（如英伟达）",
+        "watch": "Cerebras下季度毛利率及订单指引"
       }
     },
     {
       "rank": 4,
-      "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
-      "source": "CNBC",
-      "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "Cerebras财报预测利润率收窄，股价跌10%",
-        "assets": "📉 Cerebras股票 利空；📉 AI芯片板块 承压",
-        "chain": "AI芯片竞争加剧（英伟达挤压），市场对AI硬件利润预期下调",
-        "watch": "Cerebras Q2毛利率及客户订单变化"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
-      "source": "CNBC",
-      "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "SpaceX IPO后两周内发行250亿美元债券",
-        "assets": "📈 SpaceX债券 利好；📈 高收益债市场 利好",
-        "chain": "高杠杆融资显示信心，但增加偿债压力（债务/EBITDA比率上升）",
-        "watch": "债券评级及认购倍数"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Alphabet Stock Extends Losses as Wall Street Asks if It Remains an AI Winner - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "Alphabet股价续跌，华尔街质疑AI地位",
-        "assets": "📉 Alphabet股票 利空；📉 美股科技巨头 承压",
-        "chain": "AI竞争格局变化（微软/OpenAI领先），广告收入增速放缓",
-        "watch": "谷歌云AI收入及Gemini日活数据"
+        "what": "华尔街质疑Alphabet是否仍是AI赢家",
+        "assets": "📉 Alphabet股票 承压；📉 科技股 承压",
+        "chain": "AI竞争加剧（如微软、OpenAI），资本支出压力上升，估值可能收缩（PE倍数下调）",
+        "watch": "Alphabet云业务营收及AI产品落地数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "科技股暴跌引燃“多米诺骨牌”！黄金惨遭抽血跌破4100美元，避险资产变身流动性血库",
       "source": "智通财经APP",
       "detail": "由于华尔街科技股引发的抛售促使投资者削减黄金持仓，以填补其投资组合中其他领域的亏损，金价进一步扩大跌幅。 现货金跌破每盎司 4100 美元，此前在上一交易日下跌 1.7%...",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "科技股暴跌引发黄金遭抛售，跌破4100美元",
-        "assets": "📉 黄金 利空；📉 科技股 利空；📈 美元 利好",
-        "chain": "流动性危机（margin call）迫使抛售黄金补仓，避险资产失效",
-        "watch": "VIX指数及黄金ETF持仓变化"
+        "what": "科技股暴跌引发黄金被抛售，跌穿4100美元",
+        "assets": "📉 黄金 利空；📉 科技股 利空",
+        "chain": "恐慌情绪下流动性需求（margin call追加保证金）迫使投资者抛售黄金，避险资产失效",
+        "watch": "VIX（恐慌指数）及黄金ETF（交易所交易基金）资金流向"
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
+      "title": "Asian Stocks Set to Extend AI Chip-Fueled Selloff: Markets Wrap - Bloomberg",
+      "source": "Bloomberg",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "亚洲股市因AI芯片抛售延续跌势",
+        "assets": "📉 亚洲科技股 利空；📉 半导体股 利空",
+        "chain": "AI支出担忧从美股传导至亚洲，台积电、三星等供应链股价承压（全球科技周期联动）",
+        "watch": "亚洲市场开盘后半导体板块跌幅及成交量"
+      }
+    },
+    {
+      "rank": 7,
       "title": "AI stock slump raises the question if investors are just taking profits or getting very nervous - AP News",
       "source": "AP News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "AI股下跌引发投资者是获利还是恐慌的疑问",
-        "assets": "📉 AI板块 利空；📉 纳指 承压",
-        "chain": "获利回吐（止盈卖出）vs 恐慌抛售，需看板块轮动（资金转向防御股）",
-        "watch": "AI板块期权隐含波动率及资金流向"
+        "what": "AI股票下跌，投资者质疑是获利了结还是恐慌",
+        "assets": "📉 AI概念股 承压",
+        "chain": "若为恐慌，可能引发更广泛科技股抛售（系统性风险）；若为获利了结，回调后或反弹",
+        "watch": "科技股资金流向及期权隐含波动率"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Wall Street ends lower on semiconductor selloff as AI spending concerns mount - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "华尔街因半导体抛售收跌，AI支出担忧加剧",
+        "assets": "📉 美股半导体 利空；📉 纳斯达克 利空",
+        "chain": "AI资本支出回报率（ROI）存疑，导致高估值芯片股遭重估（戴维斯双杀：盈利预期下调+估值收缩）",
+        "watch": "英伟达、AMD财报及资本支出指引"
       }
     },
     {
       "rank": 9,
-      "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
-      "source": "CNBC",
-      "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
+      "title": "Quantum Computing Stocks Mixed Amid Trump Executive Orders, 2028 Target - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 42,
+      "score": 27,
       "insight": {
-        "what": "韩国股市遭遇最差日，摩根士丹利称非崩盘",
-        "assets": "📉 KOSPI指数 利空；📉 韩国半导体股 承压",
-        "chain": "外资流出（美元走强+中国竞争），但估值支撑（PE低于历史均值）",
-        "watch": "韩国出口数据及外资净买卖额"
+        "what": "量子计算股涨跌互现，受特朗普行政令影响",
+        "assets": "📈 量子计算股 利好（政策支持）；📉 部分个股 承压",
+        "chain": "行政令设定2028年目标，短期政策红利但长期技术不确定性，资金可能轮动至确定性更高的AI",
+        "watch": "量子计算相关政府合同及研发投入数据"
       }
     },
     {
       "rank": 10,
-      "title": "日本央行6月会议记录显示：部分委员呼吁进一步加息",
-      "source": "环球市场播报",
-      "detail": "周三公布的日本央行6月政策会议意见摘要显示，部分日本央行政策委员会成员呼吁进一步加息，以将政策利率推至接近被视为对经济中性的水平。",
-      "lang": "zh",
-      "score": 36,
+      "title": "Energy secretary says $17.5B in loans will help 'unleash the next American nuclear renaissance' for reactors - Fox Business",
+      "source": "Fox Business",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
       "insight": {
-        "what": "日本央行会议记录显示部分委员支持加息",
-        "assets": "📈 日元 利好；📉 日经225 利空；📈 日本国债收益率 上行",
-        "chain": "加息预期升温（收紧货币），套利交易（借日元买高息资产）面临平仓风险",
-        "watch": "7月会议是否实际加息及通胀数据"
+        "what": "能源部175亿美元贷款推动核能复兴",
+        "assets": "📈 核电股 利好；📈 铀矿ETF（交易所交易基金） 利好",
+        "chain": "核能作为AI数据中心电力解决方案（稳定基荷），利好铀供应商及反应堆建设商",
+        "watch": "核电站许可审批进度及贷款发放细节"
       }
     }
   ]
