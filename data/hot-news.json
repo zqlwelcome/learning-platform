@@ -1,144 +1,144 @@
 {
-  "updateTime": "2026-06-25 07:01",
+  "updateTime": "2026-06-25 07:11",
   "news": [
     {
       "rank": 1,
+      "title": "South Korea’s IPO bust clouds equity markets as Chaebol structure restrains listings",
+      "source": "CNBC",
+      "detail": "South Korea's IPO activity has lagged that of its regional peers as the structure of the market and governance reforms collide.",
+      "lang": "en",
+      "score": 55,
+      "insight": {
+        "what": "韩国IPO市场低迷，财阀结构限制上市",
+        "assets": "📉 韩国股市 承压",
+        "chain": "削弱韩国股市流动性，资金转向ETF或海外市场（资金外流）",
+        "watch": "韩国综合指数（KOSPI）成交量变化"
+      }
+    },
+    {
+      "rank": 2,
       "title": "纽约汇市：美元指数升至七个月高点 美联储加息押注盖过油价影响",
       "source": "环球市场播报",
       "detail": "美元延续近期涨势，尽管油价下挫，但市场对美联储政策路径的鹰派押注为美元提供了支撑。 彭博美元即期指数连续第三个交易日上涨，盘中一度上涨0.3%...",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元指数升至七个月高点，加息预期盖过油价影响",
+        "what": "美元指数升至七个月高点，加息押注主导",
         "assets": "📈 美元指数 利好；📉 非美货币（欧元/日元）承压",
-        "chain": "美元走强压制大宗商品价格（以美元计价资产），新兴市场资金外流（套利交易平仓）",
-        "watch": "美联储7月议息会议点阵图（利率预测）"
+        "chain": "美元走强压制大宗商品（以美元计价），新兴市场资本外流（资本外逃）",
+        "watch": "美联储利率决议（FOMC）点阵图"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
       "source": "CNBC",
       "detail": "The announcements followed the release of the Federal Reserve's annual stress test, which found that all 32 large banks weathered a hypothetical recession.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "摩根大通公布500亿美元回购，高盛提高股息",
-        "assets": "📈 美国银行股 利好；📈 标普500金融板块 利好",
-        "chain": "银行资本充足率提升（风险缓冲能力增强），回购支撑股价，可能传导至金融ETF（行业基金）",
-        "watch": "美国银行股后续回购公告及Q2财报"
+        "what": "摩根大通500亿回购，高盛提高股息",
+        "assets": "📈 美国银行股（JPM/GS）利好",
+        "chain": "回购（公司买自己股票）提振EPS（每股收益），银行板块吸引资金（价值投资）",
+        "watch": "美国银行股ETF（KBE）走势"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大规模停电，欧洲热浪创纪录",
-        "assets": "📉 欧洲电力股 承压；📈 天然气/煤炭 利好",
-        "chain": "电力短缺推高能源需求（制冷负荷），加剧通胀压力（生产成本上升），利空欧元区消费",
-        "watch": "欧洲电力批发价格及法国核电恢复进度"
+        "what": "法国大停电叠加欧洲高温破纪录",
+        "assets": "📈 欧洲天然气/电力期货 利好；📉 法国经济 承压",
+        "chain": "电力短缺推高能源成本，通胀预期升温（物价上涨），法国企业利润受挤压",
+        "watch": "欧洲电力价格（Phelix）和法国核电产出"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
       "source": "CNBC",
       "detail": "The Fed's annual exercise comes at a pivotal moment for bank regulation because, unlike previous years, the results will not affect capital requirements.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储压力测试：银行可承受7080亿美元损失",
-        "assets": "📈 美国银行股 中性偏利好；📈 金融监管放松预期",
-        "chain": "测试结果增强市场信心（估值修复），但资本规则改革可能提高合规成本（监管风险）",
-        "watch": "美联储最终资本规则修订细节"
+        "what": "美联储称银行可承受7080亿亏损",
+        "assets": "📈 美国大型银行股 利好",
+        "chain": "压力测试（模拟危机）通过暗示资本充足（抗风险），银行回购和分红空间加大",
+        "watch": "银行资本充足率（CET1）数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦学生贷款利率新折扣，部分借款人受益",
-        "assets": "📉 消费信贷资产 中性；📈 教育股 轻微利好",
-        "chain": "降低学生负担可能释放消费（可支配收入增加），但减少银行利息收入（利差收窄）",
-        "watch": "学生贷款违约率及消费者支出数据"
+        "what": "联邦学生贷款利率折扣新规",
+        "assets": "📈 美国消费信贷 中性偏利好",
+        "chain": "降低借款人负担，可支配收入增加，消费板块（零售）受益（消费刺激）",
+        "watch": "学生贷款违约率变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "欧洲央行执委Schnabel称或需继续加息 以实现2%通胀目标",
       "source": "环球市场播报",
       "detail": "欧洲央行执委Isabel Schnabel告诉德国《时代周报》，央行可能不得不进一步提高借贷成本，以抑制通胀压力。 这位德国官员在周三刊发的采访中表示：“从目前来看...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行执委暗示可能继续加息以实现2%通胀目标",
+        "what": "欧央行执委暗示可能继续加息",
         "assets": "📈 欧元 利好；📉 欧洲债券 承压",
-        "chain": "加息预期推高欧元汇率（利差交易），抑制欧洲股市估值（折现率上升）",
-        "watch": "欧元区6月CPI（消费者物价指数）及欧央行7月利率决议"
+        "chain": "加息（借钱成本提高）抑制通胀，但可能拖累欧洲经济复苏（衰退风险）",
+        "watch": "欧元区CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "着手勾勒经济议程 伯纳姆团队酝酿拆分财政部并推动英国央行改革",
       "source": "环球市场播报",
       "detail": " 安迪·伯纳姆身边颇具影响力的人士敦促这位有望成为英国首相的政治人物拆分财政部，以便让政府议程重新聚焦于经济增长。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "伯纳姆团队计划拆分财政部并推动英国央行改革",
-        "assets": "📉 英镑 承压；📈 英国国债 波动",
-        "chain": "政策不确定性增加（制度风险），可能削弱央行独立性（通胀预期失控）",
-        "watch": "英国首相支持度及改革提案具体时间表"
+        "what": "英国拟拆分财政部并推动央行改革",
+        "assets": "📉 英镑 承压；📉 英国国债 利空",
+        "chain": "政策不确定性增加，市场担忧财政纪律（政府债务管理）削弱，避险情绪升温",
+        "watch": "英国10年期国债收益率（Gilt）波动"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "跌懵了！无视大幅降库！WTI暴跌失守70美元，油价于库存的极端背离显示市场的混乱",
+      "source": "市场资讯",
+      "detail": "来源：能源研发中心 后市观点 周三油价再次大跌，WTI原油跌破了70美元，各大原油期货全线跌回了美伊战争爆发之前。布伦特近端已经再次呈现贴水结构...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "WTI暴跌失守70美元，与库存数据背离",
+        "assets": "📉 WTI原油 利空；📉 能源股（XLE）承压",
+        "chain": "库存下降但油价跌，显示需求预期悲观（衰退交易），做空动能（空头力量）主导",
+        "watch": "WTI主力合约持仓报告（COT）"
+      }
+    },
+    {
+      "rank": 10,
       "title": "Cerebras CEO says margin forecast was 'misunderstood' as stock plummets after earnings",
       "source": "CNBC",
       "detail": "AI chipmaker Cerebras has a staggered lock-up expiration that includes some shares becoming available for trading this week.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Cerebras CEO称利润率预测被误解，财报后股价暴跌",
-        "assets": "📉 AI芯片股 承压；📉 半导体板块 负面情绪",
-        "chain": "市场对AI硬件盈利预期下调（估值修正），可能拖累相关ETF（如SMH）",
-        "watch": "Cerebras下一季度毛利率及竞争对手财报"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "美联储压力测试显示：在资本规则改革之际，美国银行业可承受7080亿美元的损失",
-      "source": "环球市场播报",
-      "detail": " 根据美联储周三发布的年度压力测试结果，在严重的全球性衰退中，美国最大的银行将能够吸收超过7080亿美元的损失，并继续向家庭和企业提供贷款。",
-      "lang": "zh",
-      "score": 28,
-      "insight": {
-        "what": "美联储压力测试：银行可承受7080亿美元损失",
-        "assets": "📈 美国银行股 中性偏利好；📈 金融监管放松预期",
-        "chain": "测试结果增强市场信心（估值修复），但资本规则改革可能提高合规成本（监管风险）",
-        "watch": "美联储最终资本规则修订细节"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
-      "source": "CNBC",
-      "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美光股价跳涨15%，存储芯片涨价推动收入翻四倍",
-        "assets": "📈 美光 利好；📈 半导体存储板块 利好",
-        "chain": "存储周期上行（供需缺口），带动产业链（设备/材料）需求，利空下游电子制造商（成本上升）",
-        "watch": "美光下一季度指引及DRAM/NAND现货价格"
+        "what": "Cerebras CEO澄清盈利预测，股价暴跌",
+        "assets": "📉 Cerebras（AI芯片股） 利空",
+        "chain": "市场对AI芯片盈利预期过度乐观，估值（PE市盈率）回调，拖累半导体板块",
+        "watch": "AI芯片ETF（SMH）资金流向"
       }
     }
   ]
