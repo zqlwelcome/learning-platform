@@ -1,92 +1,50 @@
 {
-  "updateTime": "2026-06-24 11:03",
+  "updateTime": "2026-06-24 11:11",
   "news": [
     {
       "rank": 1,
-      "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash - The Verge",
-      "source": "The Verge",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "特斯拉车祸证实人为干预自动驾驶",
-        "assets": "📉 特斯拉股价 利空",
-        "chain": "削弱FSD（全自动驾驶）可信度，拖累自动驾驶概念股估值",
-        "watch": "NHTSA（美国公路安全管理局）是否启动调查"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报后跌10%，毛利率指引收缩",
-        "assets": "📉 AI芯片板块 承压",
-        "chain": "AI芯片竞争加剧，高研发投入挤压利润，引发市场对AI资本开支回报的担忧",
-        "watch": "Cerebras下季毛利率能否企稳"
+        "what": "Cerebras财报后跌10%，利润率预期恶化",
+        "assets": "📉 Cerebras股票 利空",
+        "chain": "AI芯片股承压，可能拖累板块情绪（市场情绪）",
+        "watch": "Cerebras下一季利润率指引"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后不到两周发行250亿债券",
-        "assets": "📈 太空概念债 利好",
-        "chain": "高评级企业债供给增加，可能分流科技股资金，但显示SpaceX融资能力强劲",
-        "watch": "债券认购倍数及利率定价"
+        "what": "SpaceX IPO后两周内发行250亿美元债券",
+        "assets": "📈 航天军工债 利好",
+        "chain": "高杠杆扩张信号，风险溢价上升（信用利差走阔）",
+        "watch": "债券评级和认购倍数"
       }
     },
     {
-      "rank": 4,
-      "title": "Alphabet Stock Extends Losses as Wall Street Asks if It Remains an AI Winner - Barron's",
-      "source": "Barron's",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "Alphabet股价续跌，华尔街质疑AI龙头地位",
-        "assets": "📉 Alphabet 利空",
-        "chain": "AI竞争格局恶化（微软Azure/OpenAI追赶），削弱云业务增长预期",
-        "watch": "谷歌云下季营收增速及AI产品商业化进展"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Cerebras Stock Sinks After First Earnings Report. AI Demand Is Forcing Tough Choices. - Barron's",
-      "source": "Barron's",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 44,
-      "insight": {
-        "what": "Cerebras财报后暴跌，AI需求迫使艰难抉择",
-        "assets": "📉 AI芯片板块 承压",
-        "chain": "AI芯片厂商需平衡规模扩张与利润率，可能引发行业性资本开支缩减",
-        "watch": "英伟达财报及AI芯片订单数据"
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 3,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "韩国股市创单日暴跌纪录，摩根士丹利称非趋势反转",
-        "assets": "📉 韩国KOSPI 利空",
-        "chain": "韩股暴跌或触发新兴市场避险，但若未跌破技术支撑，可能吸引价值投资者抄底",
-        "watch": "韩国央行是否干预汇率及外资流向"
+        "what": "韩国股市暴跌但摩根士丹利认为未破位",
+        "assets": "📉 韩国KOSPI 承压",
+        "chain": "避险情绪外溢至亚太市场，但技术面支撑（支撑位）",
+        "watch": "KOSPI 2400点支撑位"
       }
     },
     {
-      "rank": 7,
+      "rank": 4,
       "title": "立讯精密据悉评估投资者对其30亿美元香港IPO的兴趣",
       "source": "环球市场播报",
       "detail": "据知情人士透露，立讯精密工业股份有限公司开始就其香港上市进行投资者意向摸底，此次IPO预计募集约30亿美元。 该交易若成行，可能成为今年香港规模最大的发行上市之一。",
@@ -94,51 +52,93 @@
       "score": 40,
       "insight": {
         "what": "立讯精密评估30亿美元香港IPO投资者兴趣",
-        "assets": "📈 港股IPO市场 利好",
-        "chain": "消费电子供应链融资活跃，可能带动立讯估值重估，并提振港股科技板块流动性",
-        "watch": "IPO定价区间及基石投资者阵容"
+        "assets": "📈 港股电子制造 利好",
+        "chain": "中资科技股融资潮，或分流资金（流动性挤出）",
+        "watch": "IPO定价和超额认购倍数"
       }
     },
     {
-      "rank": 8,
-      "title": "Wall Street ends lower on semiconductor selloff as AI spending concerns mount - Reuters",
-      "source": "Reuters",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "华尔街收跌，半导体抛售因AI支出担忧加剧",
-        "assets": "📉 美股半导体板块 利空",
-        "chain": "AI资本开支增速放缓预期压制芯片需求，传导至云计算和硬件设备板块",
-        "watch": "美光财报及数据中心资本开支指引"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 5,
       "title": "和谈“暖”难掩加息“寒” 黄金多头纷纷“变脸”",
       "source": "21世纪经济报道",
       "detail": "受美伊和谈取得进展提振，国际金价自6月11日阶段低点反弹。然而，美联储的鹰派预期给市场泼了冷水，6月23日，美元指数再度站上101关口，伦敦现货黄金价格日内急跌逾2%...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "和谈缓和与加息预期交织，黄金多头撤退",
+        "what": "和谈缓和但加息预期压制，黄金多头撤退",
         "assets": "📉 黄金 承压",
-        "chain": "地缘风险溢价消退叠加实际利率（扣除通胀后的利率）上升，削弱黄金避险吸引力",
-        "watch": "美联储利率决议及CPI（消费者物价指数）数据"
+        "chain": "实际利率上升（通胀调整后利率）削弱黄金吸引力",
+        "watch": "美联储加息概率和美元指数"
       }
     },
     {
-      "rank": 10,
+      "rank": 6,
       "title": "Stock futures steady ahead of Micron earnings as traders debate how far tech sell-off will go, Kospi jumps over 3%: Live updates",
       "source": "CNBC",
       "detail": "A rout in chipmaker names, including Micron, weighed on the S&P 500 and Nasdaq Composite on Tuesday.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美股期货企稳等待美光财报，韩KOSPI大涨3%",
-        "assets": "📈 韩KOSPI 利好",
-        "chain": "韩股反弹由芯片股（三星/海力士）领涨，暗示市场对AI需求不悲观，但需美光财报确认",
-        "watch": "美光营收指引及半导体库存周期数据"
+        "what": "美股期货稳定，美光财报前科技股卖压待解",
+        "assets": "📉 美股科技股 承压",
+        "chain": "财报季波动率上升，期权隐含波动（IV）可能走高",
+        "watch": "美光财报和存储芯片需求"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "AI算力硬件仍是最强共识！半导体+PCB走强，跑赢科创50的“宽基”科技ETF继续冲高，3天吸金2亿元",
+      "source": "新浪基金",
+      "detail": " 6月24日盘中，科技龙头反包上攻，国内首只*科技龙头先锋——科技ETF华宝（515000）场内冲高近2%，逼近前期历史高点，资金近3日连续加仓，累计净流入超2亿元。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "AI算力硬件共识强，半导体和PCB走强，科技ETF吸金",
+        "assets": "📈 AI芯片股 利好",
+        "chain": "资金集中涌入，推高板块估值（PE扩张）",
+        "watch": "英伟达和台积电股价表现"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "韩国央行：考虑通胀经济金融等因素，需要在适当时候提高利率",
+      "source": "环球市场播报",
+      "detail": " 韩国央行重申了其向鹰派转向的立场，随着房价上涨、家庭债务增加和杠杆投资带来加剧金融失衡的风险，在适当的时候需要提高利率。",
+      "lang": "zh",
+      "score": 18,
+      "insight": {
+        "what": "韩国央行暗示需适时加息",
+        "assets": "📉 韩元 承压",
+        "chain": "紧缩预期（借钱成本上升）抑制内需和股市",
+        "watch": "韩国CPI和央行利率决议"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "马来西亚央行承诺采取更有力措施促进资金流入",
+      "source": "环球市场播报",
+      "detail": "马来西亚央行周三表示，将加大力度鼓励外汇流入，包括努力促进企业海外收益的汇回和兑换。 马来西亚央行周三发表声明称，该国稳健的经济基本面将继续支撑林吉特。",
+      "lang": "zh",
+      "score": 18,
+      "insight": {
+        "what": "马来西亚央行承诺加强资金流入措施",
+        "assets": "📈 马币 利好",
+        "chain": "资本管制预期（限制流出），新兴市场资金回流",
+        "watch": "马币汇率和外资流入数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "澳大利亚5月核心通胀率超预估 强化了澳央行维持鹰派立场的预期",
+      "source": "环球市场播报",
+      "detail": "澳大利亚5月份核心通胀率仍高于央行目标区间的上限，强化了市场对于决策者将维持鹰派立场的预期。 澳大利亚统计局周三公布的数据显示，5月份核心消费者价格同比上涨3.6%...",
+      "lang": "zh",
+      "score": 18,
+      "insight": {
+        "what": "澳大利亚5月核心通胀超预期，强化鹰派预期",
+        "assets": "📈 澳元 利好",
+        "chain": "加息概率上升（利率期货定价），债券收益率走陡（陡化）",
+        "watch": "澳联储下次利率决定和CPI数据"
       }
     }
   ]
