@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 22:38",
+  "updateTime": "2026-06-24 22:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 52,
       "insight": {
-        "what": "韩国股市异常波动，疑似散户杠杆爆仓",
-        "assets": "📉 韩国KOSPI指数 承压，📉 韩元 贬值压力",
-        "chain": "散户强制平仓（爆仓）引发连锁抛售，可能传导至亚太新兴市场ETF（交易所交易基金）",
-        "watch": "韩国金融监督院是否出台限制做空措施"
+        "what": "韩国股市因程序化交易和杠杆爆仓引发暴涨暴跌",
+        "assets": "📉 韩国KOSPI 利空；📉 韩国金融股 承压",
+        "chain": "杠杆踩踏（强制平仓）引发流动性枯竭，可能波及亚洲新兴市场ETF",
+        "watch": "韩国监管是否限制做空或调整保证金比例"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "智谱AI启动新一轮大规模融资，金额超IPO",
-        "assets": "📈 A股AI概念股 利好，📈 智谱未上市股权 估值提升",
-        "chain": "一级市场（未上市股权）热钱涌入AI赛道，挤压二级市场（已上市股票）科技股流动性",
-        "watch": "本轮融资估值倍数及投资方名单"
+        "what": "智谱AI再融资，年内涨幅1771%，规模超IPO",
+        "assets": "📈 智谱AI 利好；📈 中国AI概念股 利好",
+        "chain": "大额融资（烧钱换市场）推高估值，但盈利预期存疑，可能引发一级市场跟投",
+        "watch": "智谱下一轮估值及营收增速"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美财长称GDP增速年内可达3%",
-        "assets": "📈 美元指数 利好，📉 黄金 承压",
-        "chain": "经济增长预期强化，降息（借钱成本降低）预期降温，长端美债收益率（长期国债利率）上行",
-        "watch": "下周公布的美国一季度GDP修正值"
+        "what": "美国财长Bessent称GDP年底前可重回3%",
+        "assets": "📈 美元指数 利好；📈 美股大盘 利好",
+        "chain": "增长预期提振风险偏好（投资者愿意冒险），但需实际数据验证，否则可能反转",
+        "watch": "美国Q2 GDP初值及消费者信心指数"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "预测市场平台Kalshi考虑IPO，但今年不会",
-        "assets": "📈 预测市场概念股 情绪利好，📈 加密代币（如POLY） 投机",
-        "chain": "IPO预期提升市场对另类数据（非传统金融数据）平台的估值，利好相关SaaS（软件即服务）公司",
-        "watch": "SEC（美国证监会）对预测市场的监管表态"
+        "what": "Kalshi CEO称预测市场考虑IPO但非今年",
+        "assets": "📈 预测市场概念股 中性偏利好",
+        "chain": "IPO预期（上市融资）提升行业关注度，但短期无实质影响，可能利好相关区块链股",
+        "watch": "Kalshi估值及监管动态"
       }
     },
     {
@@ -65,52 +65,52 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电叠加欧洲极端高温",
-        "assets": "📈 欧洲天然气期货 利好，📉 法国核电板块 承压",
-        "chain": "能源短缺推高电价，工业减产，欧元区通胀预期（物价上涨预期）升温，欧央行加息（提高借钱成本）概率上升",
-        "watch": "法国电力公司恢复供电时间表"
+        "what": "法国大停电叠加欧洲热浪，电力系统承压",
+        "assets": "📈 欧洲电力股 利好；📈 天然气期货 利好",
+        "chain": "电力短缺推高能源价格（供给不足），可能加剧通胀压力（物价上涨），利空欧元",
+        "watch": "法国电力恢复时间及欧洲电价走势"
       }
     },
     {
       "rank": 6,
+      "title": "今夜，全线暴跌！黄金、白银、原油，大跳水",
+      "source": "券商中国",
+      "detail": "今夜市场不平静。 北京时间6月24日晚间，贵金属市场、国际油价全线跳水，现货黄金一度暴跌超3%，现货白银一度暴跌超5%；WTI原油期货跌破70美元/桶整数关口，暴跌超4%...",
+      "lang": "zh",
+      "score": 44,
+      "insight": {
+        "what": "黄金、白银、原油全线大跌",
+        "assets": "📉 黄金 利空；📉 白银 利空；📉 原油 利空",
+        "chain": "商品回调（价格下跌）因美元走强或需求预期降温，可能引发大宗商品ETF赎回",
+        "watch": "美元指数及美国原油库存数据"
+      }
+    },
+    {
+      "rank": 7,
       "title": "S&P 500 rises as oil slides, traders await Micron earnings: Live updates",
       "source": "CNBC",
       "detail": "The S&P 500 moved higher on Wednesday as oil prices fell, with investors looking ahead to the release of Micron Technology's earnings after the bell.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "油价下跌推动标普500上涨，等待美光财报",
-        "assets": "📈 标普500指数 利好，📈 航空/运输股 利好，📉 能源股 承压",
-        "chain": "油价下跌降低企业成本（输入性通胀缓解），利好消费和制造业，但能源板块拖累指数",
-        "watch": "美光科技财报后的存储芯片指引"
+        "what": "标普500上涨，油价下跌，等待美光财报",
+        "assets": "📈 标普500 利好；📉 原油 利空；📈 美光科技 中性",
+        "chain": "油价下跌利好运输和消费板块（成本降低），但美光财报若不及预期将拖累半导体",
+        "watch": "美光营收及指引"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "交易员不再充分押注英国央行年内将加息25个基点",
       "source": "环球市场播报",
       "detail": "随着油价和通胀预期下滑，货币市场削减对英国央行加息的押注，不再完全计入年底前加息25个基点的预期。 利率互换显示，市场目前预计英国央行年内加息24个基点...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "交易员不再押注英国央行年内加息",
-        "assets": "📉 英镑 承压，📈 英国国债 利好",
-        "chain": "加息预期消退意味着英国经济疲软，利差（两国利率差）收窄，英镑兑美元可能破位",
-        "watch": "英国4月CPI（消费者物价指数）数据"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Chief of staff to former NYC Mayor Eric Adams arrested in federal bribery probe, AP source says",
-      "source": "CNBC",
-      "detail": "A chief of staff to former New York City Mayor Eric Adams and several other people have been arrested as part of an investigation into an alleged bribery scheme.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "纽约市长幕僚长因联邦贿赂调查被捕",
-        "assets": "📉 纽约市政债 情绪承压，📉 民主党相关政治概念股 利空",
-        "chain": "政治丑闻增加政策不确定性，可能拖累纽约本地基建股和房地产投资信托（REITs）",
-        "watch": "调查是否牵连市长本人及联邦起诉书细节"
+        "what": "交易员不再押注英国央行年内加息25基点",
+        "assets": "📈 英国国债 利好；📉 英镑 承压",
+        "chain": "加息预期消退（利率不变）降低借贷成本，但英镑贬值（汇率下跌）可能输入通胀",
+        "watch": "英国CPI（通胀数据）及央行下次会议声明"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "Slate Auto称2.5万美元电动皮卡可盈利",
-        "assets": "📈 电动车整车股 情绪利好，📈 锂/电池材料 需求预期",
-        "chain": "低价电动车盈利预期若实现，将加速传统车企（如福特、通用）电动化转型，挤压特斯拉高端市场份额",
-        "watch": "Slate Auto下季度毛利率及预订单数"
+        "what": "Slate Auto称2.5万美元电动皮卡将盈利，目标明年正向现金流",
+        "assets": "📈 Slate Auto 利好；📈 电动车板块 中性",
+        "chain": "低价车盈利（成本控制）挑战传统车企，但需验证产量和订单，可能引发行业价格战",
+        "watch": "Slate Auto订单量及毛利率"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "AI芯片新贵股价突然暴跌，疑似爆雷",
-        "assets": "📉 AI芯片股 利空，📉 半导体ETF 承压",
-        "chain": "个股崩盘引发对AI芯片估值泡沫的担忧，资金可能从AI板块轮动至防御性板块（如公用事业、医疗）",
-        "watch": "公司公告或传闻的利空细节（如客户砍单或技术问题）"
+        "what": "AI芯片新贵股价直线跳水，疑似爆雷",
+        "assets": "📉 AI芯片股 利空；📉 半导体板块 承压",
+        "chain": "个股崩盘（暴跌）引发市场对AI泡沫的担忧，可能拖累其他高估值科技股",
+        "watch": "该公司官方声明及营收数据"
       }
     }
   ]
