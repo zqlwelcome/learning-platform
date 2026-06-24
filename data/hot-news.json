@@ -1,132 +1,144 @@
 {
-  "updateTime": "2026-06-24 08:16",
+  "updateTime": "2026-06-24 08:20",
   "news": [
     {
       "rank": 1,
-      "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO - CNBC",
-      "source": "CNBC",
-      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "欧洲央行副行长：通胀更高更久，加息需稳妥",
-        "assets": "📈 欧元 利好，📈 欧洲债券收益率 上行",
-        "chain": "鹰派（倾向加息）言论推升欧元汇率（汇率走强），可能压制欧洲出口股（如汽车）",
-        "watch": "欧元区CPI（消费者物价指数）及欧央行下次利率决议"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "FedEx财报强劲，货运业务表现亮眼",
-        "assets": "📈 FedEx股票 利好，📈 物流/运输板块 正面",
-        "chain": "货运需求回暖信号，可能带动工业股和供应链相关ETF（如物流ETF）",
-        "watch": "FedEx下季度指引及美国零售销售数据"
+        "what": "Cerebras财报后暴跌10%，利润率指引收缩",
+        "assets": "📉 AI芯片股 承压",
+        "chain": "利空AI板块情绪，可能拖累同类未盈利芯片公司估值（PE倍数压缩）",
+        "watch": "Cerebras下季毛利率数据及大客户订单"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "利率市场已消化美联储加息预期 美元升至去年11月来最高水平",
       "source": "智通财经APP",
       "detail": "随着市场进一步强化对美联储年内加息的预期，美元周二延续涨势，并升至去年11月以来最高水平。分析人士认为，美联储与全球主要央行之间日益扩大的政策分化...",
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "Cerebras财报预测利润率缩水，股价跌10%",
-        "assets": "📉 Cerebras股票 利空，📉 AI芯片板块 承压",
-        "chain": "AI芯片公司盈利预警，可能拖累半导体ETF（交易基金）和AI概念股估值",
-        "watch": "Cerebras下季度毛利率指引及同行英伟达财报"
+        "what": "利率市场定价美联储加息，美元创11月新高",
+        "assets": "📈 美元 走强；📉 新兴市场货币 承压",
+        "chain": "美元升值压制大宗商品价格（铜/油以美元计价），美债收益率上行（借钱成本上升）",
+        "watch": "本周美联储官员讲话及CPI数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX在IPO后不到两周完成250亿美元债务融资",
-        "assets": "📈 SpaceX估值 利好，📈 太空/军工板块 正面",
-        "chain": "巨额债务融资显示机构信心，可能引发对太空赛道（高风险高回报领域）的跟投",
-        "watch": "SpaceX星舰发射进展及债务条款细节"
+        "what": "SpaceX在IPO后不到两周发行250亿美元债务",
+        "assets": "📈 SpaceX 融资利好；📉 商业航天板块 竞争压力",
+        "chain": "高杠杆融资反映资本开支需求，可能推高航天产业链成本（供应链涨价）",
+        "watch": "SpaceX估值变动及后续IPO进展"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Alphabet Stock Extends Losses as Wall Street Asks if It Remains an AI Winner - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 44
+      "score": 44,
+      "insight": {
+        "what": "Alphabet下跌，华尔街质疑其AI领导者地位",
+        "assets": "📉 谷歌 承压；📈 微软/OpenAI 相对利好",
+        "chain": "AI军备竞赛中市场偏好转向有明确变现路径的玩家，云服务竞争格局生变",
+        "watch": "谷歌AI产品收入增速及微软Copilot渗透率"
+      }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "韩国股市暴跌引发投资者重新审视2900亿美元杠杆ETF热潮",
       "source": "环球市场播报",
       "detail": "在韩国股市AI驱动的抛售中，市场的目光重新聚焦于散户投资增长最快的领域之一：杠杆交易所交易基金（ETF）。 这些产品多年来一直是日内交易员的常用工具...",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "华尔街质疑Alphabet是否仍是AI赢家，股价续跌",
-        "assets": "📉 Alphabet股票 利空，📉 AI搜索引擎板块 承压",
-        "chain": "AI竞争加剧（如OpenAI、微软），可能促使对冲基金（快速买卖的基金）减持科技巨头",
-        "watch": "谷歌云AI收入增速及搜索市场份额变化"
+        "what": "韩国股市暴跌，杠杆ETF热潮遭重新评估",
+        "assets": "📉 韩国KOSPI 承压；📉 杠杆ETF相关标的 利空",
+        "chain": "去杠杆（减少借钱炒股）可能引发连锁抛售，亚洲新兴市场风险偏好降温",
+        "watch": "韩国散户融资余额及KOSPI200波动率"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "摩根士丹利称韩国股市暴跌非趋势性破位",
+        "assets": "📈 韩国KOSPI 短期反弹预期",
+        "chain": "大行观点可能缓解恐慌，但需确认技术支撑位（支撑线）是否有效",
+        "watch": "KOSPI能否守住200日均线及外资流向"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
       "source": "NBC News",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉自动驾驶撞车致1死，引发安全质疑",
-        "assets": "📉 特斯拉股票 利空，📉 自动驾驶概念股 承压",
-        "chain": "监管调查风险上升（可能限制自动驾驶推广），短期利空汽车科技板块",
-        "watch": "美国NHTSA（国家公路安全局）调查进展及事故细节"
+        "what": "特斯拉自动驾驶撞入德州民宅致1死",
+        "assets": "📉 特斯拉 利空；📉 自动驾驶板块 监管风险",
+        "chain": "事故可能加速监管收紧（限制自动驾驶功能），影响行业商业化进程",
+        "watch": "NHTSA调查结果及特斯拉FSD测试许可"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "欧洲央行副行长：通胀面临“更高更久”，加息决策“稳妥”以应对长期冲击",
       "source": "智通财经APP",
       "detail": "欧洲中央银行副行长鲍里斯·武伊契奇表示，鉴于通胀将在更长时间内保持在较高水平，欧洲央行加息的决定是“稳妥的”。 他周二在伦敦表示，与此同时...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "利率市场消化美联储加息预期，美元升至11月来最高",
-        "assets": "📈 美元 利好，📉 黄金/新兴市场货币 承压",
-        "chain": "加息（提高借钱成本）预期推高美债收益率（国债利息），资金从风险资产回流美元",
-        "watch": "美联储点阵图（利率预测）及非农就业数据"
+        "what": "欧洲央行副行长暗示加息更高更久以应对通胀",
+        "assets": "📈 欧元 短期利好；📉 欧洲债券 承压",
+        "chain": "欧央行鹰派（主张加息）推高欧洲利率，利空欧洲股市估值（借钱成本上升）",
+        "watch": "欧元区CPI及PMI数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "FedEx posts strong earnings results in last quarter with freight business - CNBC",
       "source": "CNBC",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "韩国股市暴跌，引发2900亿美元杠杆ETF热潮审视",
-        "assets": "📉 韩国KOSPI指数 利空，📉 杠杆ETF（借钱放大收益的基金） 承压",
-        "chain": "杠杆ETF爆仓风险（强制卖出）可能加剧韩股抛售，并传染至亚洲新兴市场",
-        "watch": "韩国散户杠杆率及ETF赎回量"
+        "what": "联邦快递财报超预期，货运业务强劲",
+        "assets": "📈 联邦快递 利好；📈 物流/运输板块 利好",
+        "chain": "货运需求强劲暗示经济韧性（经济活动活跃），可能提振周期股（经济敏感股）",
+        "watch": "联邦快递下季指引及美国ISM制造业数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "FedEx posts strong earnings results in last quarter with freight business",
+      "source": "CNBC",
+      "detail": "FedEx posted strong fiscal fourth quarter earnings on Tuesday in the company's last quarter that included the freight business before its spin-off.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "联邦快递财报超预期，货运业务强劲",
+        "assets": "📈 联邦快递 利好；📈 物流/运输板块 利好",
+        "chain": "货运需求强劲暗示经济韧性，可能提振周期股和工业金属需求",
+        "watch": "联邦快递下季指引及美国ISM制造业数据"
       }
     }
   ]
