@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 12:50",
+  "updateTime": "2026-06-24 12:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉德州致命车祸，司机手动接管自动驾驶",
-        "assets": "📉 特斯拉 利空，📉 自动驾驶板块 承压",
-        "chain": "监管审查风险上升（SEC调查），可能拖累EV（电动车）板块估值",
-        "watch": "NHTSA（美国公路安全局）是否展开正式调查"
+        "what": "特斯拉称致命车祸中司机手动接管了自动驾驶",
+        "assets": "📉 特斯拉股价 利空",
+        "chain": "自动驾驶信任度下降，可能拖累FSD（全自动驾驶）订阅率和监管审批进度",
+        "watch": "NTSB（美国国家运输安全委员会）调查报告"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报首秀，毛利率预期收缩，股价跌10%",
-        "assets": "📉 Cerebras 利空，📉 AI芯片板块 承压",
-        "chain": "AI芯片竞争加剧（英伟达主导），中小芯片商盈利压力传导至估值收缩",
-        "watch": "Cerebras下季度毛利率指引是否继续恶化"
+        "what": "Cerebras首份财报预测利润率缩窄，股价跌10%",
+        "assets": "📉 Cerebras股价 利空\n📉 AI芯片板块 承压",
+        "chain": "毛利率收窄引发估值担忧，可能传导至其他未盈利AI硬件股（如算力租赁商）",
+        "watch": "下季度毛利率指引和客户订单量"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO不到两周，完成250亿美元债务融资",
-        "assets": "📈 太空概念股 利好，📈 高收益债市场 受关注",
-        "chain": "SpaceX杠杆增加（债务成本上升），但融资能力强化，提振IPO前信心",
-        "watch": "SpaceX估值是否突破3000亿美元"
+        "what": "SpaceX在IPO后不到两周完成250亿美元债务融资",
+        "assets": "📈 SpaceX估值 利好\n📉 商业航天债 供给压力",
+        "chain": "高杠杆债务融资显示资本需求旺盛，可能挤压其他科技债发行空间",
+        "watch": "SpaceX后续IPO进展及债务评级"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "华尔街质疑Alphabet AI领先地位，股价持续下跌",
-        "assets": "📉 Alphabet 利空，📉 美股科技股 承压",
-        "chain": "AI竞争格局变化（微软OpenAI领先），广告收入增速放缓预期压制股价",
-        "watch": "Alphabet下一季云收入增速是否低于预期"
+        "what": "Alphabet股价续跌，华尔街质疑其AI领先地位",
+        "assets": "📉 Alphabet股价 承压\n📉 美股AI概念 分化",
+        "chain": "AI军备竞赛中资本开支（Capex）压力增大，若份额流失可能拖累云业务估值",
+        "watch": "Google Cloud季度增速和Gemini（大模型）采用率"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "Cerebras财报后股价暴跌，AI需求迫使艰难取舍",
-        "assets": "📉 Cerebras 利空，📉 AI半导体板块 承压",
-        "chain": "AI投资回报率（ROI）存疑，资本开支（CapEx）压力向产业链传导",
-        "watch": "Cerebras是否下调全年收入指引"
+        "what": "Cerebras首份财报后股价重挫，AI需求迫使艰难抉择",
+        "assets": "📉 Cerebras股价 利空\n📉 定制芯片板块 承压",
+        "chain": "AI芯片竞争加剧导致定价权下降，可能引发市场对ASIC（专用集成电路）盈利模式重新定价",
+        "watch": "大客户（如G42）订单续约率"
       }
     },
     {
       "rank": 6,
-      "title": "Asian Stocks Set to Extend AI Chip-Fueled Selloff: Markets Wrap - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "亚洲股市因AI芯片抛售潮扩大跌幅",
-        "assets": "📉 亚洲科技股 承压，📉 韩国KOSPI 利空",
-        "chain": "AI芯片需求降温预期（库存调整）拖累出口导向型市场（韩国半导体占40%出口）",
-        "watch": "费城半导体指数（SOX）是否跌破关键支撑位"
-      }
-    },
-    {
-      "rank": 7,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "韩国股市暴跌，摩根士丹利认为非结构性下跌",
-        "assets": "📉 韩国KOSPI 承压，📉 韩元 利空",
-        "chain": "AI泡沫担忧引发技术性回调（超买修正），但基本面（半导体周期）仍健康",
-        "watch": "韩国半导体出口数据（月度同比增速）"
+        "what": "韩国股市遭遇历史级大跌，但摩根士丹利称未破位",
+        "assets": "📉 韩国KOSPI指数 承压\n📉 韩元 贬值",
+        "chain": "外资流出压力加大，可能传导至亚洲新兴市场（如台湾、印度）出现联动抛售",
+        "watch": "韩国央行是否干预汇率及外资净流出数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "立讯精密据悉评估投资者对其30亿美元香港IPO的兴趣",
       "source": "环球市场播报",
       "detail": "据知情人士透露，立讯精密工业股份有限公司开始就其香港上市进行投资者意向摸底，此次IPO预计募集约30亿美元。 该交易若成行，可能成为今年香港规模最大的发行上市之一。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "立讯精密评估30亿美元香港IPO投资者兴趣",
-        "assets": "📈 立讯精密 利好，📈 港股IPO市场 受关注",
-        "chain": "苹果供应链融资需求增加（立讯为AirPods代工），可能带动消费电子板块情绪",
+        "what": "立讯精密评估投资者对其30亿美元香港IPO兴趣",
+        "assets": "📈 立讯精密股价 利好\n📉 港股流动性 承压",
+        "chain": "大规模IPO可能分流市场资金，但若成功将提振苹果供应链板块信心",
         "watch": "IPO定价区间及超额认购倍数"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "日本央行纪要释放鹰派信号：通胀风险持续积聚 需以数月为间隔继续加息",
       "source": "智通财经APP",
       "detail": "日本央行上周召开货币政策会议，决定将政策利率上调至1995年以来最高水平。本周三发布的6月15日至16日会议意见摘要显示，央行明确释放信号...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本央行纪要鹰派：通胀风险积聚，需持续加息",
-        "assets": "📈 日元 利好，📉 日债收益率 上行，📉 日本股市 承压",
-        "chain": "加息预期（利率走高）推升日元，利差交易（carry trade）平仓风险传导至全球风险资产",
-        "watch": "日本10年期国债收益率是否突破1.0%"
+        "what": "日本央行纪要鹰派：通胀风险积聚，需数月间隔加息",
+        "assets": "📈 日元 升值\n📉 日本国债 承压",
+        "chain": "套利交易（Carry Trade）平仓风险上升，可能引发全球资金从高息资产回流日本",
+        "watch": "日本10年期国债收益率和日元兑美元汇率"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "FedEx posts strong earnings results in last quarter with freight business - CNBC",
+      "source": "CNBC",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "联邦快递货运业务强劲，财报超预期",
+        "assets": "📈 联邦快递股价 利好\n📈 物流板块 利好",
+        "chain": "货运需求复苏信号，可能提前反映美国经济软着陆预期，利好工业股",
+        "watch": "FedEx下季度营收指引和全球贸易数据"
       }
     },
     {
       "rank": 10,
-      "title": "和谈“暖”难掩加息“寒” 黄金多头纷纷“变脸”",
-      "source": "21世纪经济报道",
-      "detail": "受美伊和谈取得进展提振，国际金价自6月11日阶段低点反弹。然而，美联储的鹰派预期给市场泼了冷水，6月23日，美元指数再度站上101关口，伦敦现货黄金价格日内急跌逾2%...",
-      "lang": "zh",
-      "score": 30,
+      "title": "IonQ (IONQ) Lands In Trump Quantum Orders With 2028 Federal Security Deadline - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
       "insight": {
-        "what": "和谈暖意难掩加息压力，黄金多头获利了结",
-        "assets": "📉 黄金 承压，📈 美元 利好",
-        "chain": "避险需求下降（地缘缓和）叠加实际利率（名义利率减通胀）上行，压制无息资产（黄金）",
-        "watch": "COMEX黄金期货持仓变化及美联储利率路径"
+        "what": "IonQ获特朗普量子订单，2028年联邦安全截止期",
+        "assets": "📈 IonQ股价 利好\n📈 量子计算板块 利好",
+        "chain": "政府订单锁定长期收入，可能加速量子计算商业化进程，利好相关ETF（交易所交易基金）",
+        "watch": "美国国防部后续合同金额及技术里程碑"
       }
     }
   ]
