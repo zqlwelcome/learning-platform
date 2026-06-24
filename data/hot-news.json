@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 20:21",
+  "updateTime": "2026-06-24 20:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "Cerebras财报后股价大跌",
+        "what": "Cerebras上市后首份财报不及预期，股价暴跌",
         "assets": "📉 Cerebras 利空",
-        "chain": "AI芯片竞争加剧，市场对单一客户依赖的初创公司估值重新定价（风险溢价上升）",
-        "watch": "Cerebras后续营收指引及客户集中度变化"
+        "chain": "AI芯片股情绪受压，或拖累其他未盈利AI硬件公司估值（PE倍数）",
+        "watch": "Cerebras下季度营收指引及客户订单变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "特斯拉自动驾驶致死事故家属起诉",
-        "assets": "📉 特斯拉 利空",
-        "chain": "监管审查压力上升，可能拖累FSD（全自动驾驶）商业化进程，影响自动驾驶板块情绪",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否发起正式调查"
+        "what": "特斯拉自动驾驶致死案家属起诉，指控系统缺陷",
+        "assets": "📉 特斯拉 承压",
+        "chain": "监管风险上升，可能拖慢FSD（全自动驾驶）审批进程，利空自动驾驶板块",
+        "watch": "美国NHTSA（国家公路交通安全管理局）是否发起正式调查"
       }
     },
     {
@@ -37,52 +37,52 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "智谱AI年内暴涨1771%后考虑再融资",
-        "assets": "📈 智谱 AI 利好",
-        "chain": "一级市场对国产大模型热度不减，资金涌入可能推高估值泡沫（虚高定价），但IPO节奏或受影响",
-        "watch": "融资规模及估值对比上一轮变化"
+        "what": "智谱AI暴涨后计划再融资，规模远超IPO",
+        "assets": "📈 中国AI概念股 利好",
+        "chain": "巨额融资预示资本开支扩张，利好上游算力供应商（如GPU、服务器），但稀释现有股东权益",
+        "watch": "融资估值及参与方（是否有主权基金）"
       }
     },
     {
       "rank": 4,
       "title": "Treasury Secretary Bessent says U.S. GDP growth can return to 3% before end of the year",
       "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
+      "detail": "Bessent sees his \"3-3-3\" plan as still in reach — 3% growth, a 3% deficit-to-GDP rate, and a 3 million barrels per day increase in oil production.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美财长贝森特称GDP增速年底可达3%",
-        "assets": "📈 美元 利好 📉 美债 承压",
-        "chain": "经济增长预期提振风险偏好，但可能延缓降息（借钱成本降低）节奏，美债收益率上行",
-        "watch": "下周美国GDP修正值及非农数据"
+        "what": "美财长贝森特称GDP增速年底前可达3%",
+        "assets": "📈 美元 利好 📈 美股大盘 利好",
+        "chain": "增长预期升温降低降息概率（加息概率上升），美债收益率（债券利息）上行，压制成长股估值",
+        "watch": "下周美国GDP修正值及ISM（制造业指数）数据"
       }
     },
     {
       "rank": 5,
-      "title": "Stocks making the biggest moves premarket: Cerebras, Micron, FedEx, Wendy's & more",
-      "source": "CNBC",
-      "detail": "These are the stocks posting the largest moves premarket.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "盘前异动：Cerebras、美光、联邦快递等",
-        "assets": "📉 Cerebras 利空 📈 美光 利好",
-        "chain": "个股财报驱动分化，美光受AI存储需求支撑，联邦快递反映经济放缓信号（需求疲软）",
-        "watch": "各公司财报电话会管理层指引"
-      }
-    },
-    {
-      "rank": 6,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电叠加欧洲高温纪录",
-        "assets": "📉 欧洲电力股 利空 📈 天然气 利好",
-        "chain": "能源供应紧张推高电价，可能加剧通胀（物价上涨）压力，欧央行加息预期升温",
-        "watch": "法国电力恢复时间及欧洲天然气库存数据"
+        "what": "法国大停电叠加欧洲创纪录热浪",
+        "assets": "📈 欧洲天然气 利好 📉 欧洲电力股 承压",
+        "chain": "停电推高短期电价，热浪增加制冷需求，利多能源与电力对冲基金做多仓位",
+        "watch": "法国电网恢复时间及核电站重启进度"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Stocks making the biggest moves premarket: Cerebras, Micron, FedEx, Wendy's & more",
+      "source": "CNBC",
+      "detail": "These are the stocks posting the largest moves premarket.",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "盘前异动：Cerebras、美光、联邦快递等波动大",
+        "assets": "📈 美光 利好（若财报预期好） 📉 联邦快递 承压（若经济放缓）",
+        "chain": "联邦快递作为经济晴雨表，若下跌暗示消费需求疲软，利空零售和运输ETF",
+        "watch": "各公司盘前成交量及财报电话会指引"
       }
     },
     {
@@ -93,52 +93,52 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "美国施压Meta接受AI安全审查",
-        "assets": "📉 Meta 利空",
-        "chain": "监管升级增加合规成本（法律和运营开支），可能拖累AI模型迭代速度，影响科技板块估值",
-        "watch": "Meta是否妥协及审查结果发布时间"
+        "what": "美国施压Meta接受AI安全审查，安全担忧加剧",
+        "assets": "📉 Meta 承压 📈 AI监管合规股 利好",
+        "chain": "审查增加合规成本，可能延缓Meta的AI产品发布，利好竞争对手如OpenAI",
+        "watch": "白宫行政令细节及国会听证会时间"
       }
     },
     {
       "rank": 8,
-      "title": "'No cracks in the armor': Tech stocks rebound after global AI selloff batters chip stocks",
-      "source": "CNBC",
-      "detail": "Technology stocks mostly rebounded on Wednesday amid choppy trading following a global selloff in the previous session.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "科技股反弹，AI抛售潮暂缓",
-        "assets": "📈 美股科技股 利好",
-        "chain": "超卖后技术性反弹（短期价格修复），但芯片股波动率仍高，市场等待美光财报验证需求",
-        "watch": "美光盘后财报及AI资本开支指引"
-      }
-    },
-    {
-      "rank": 9,
       "title": "Here are Wednesday's biggest analyst calls: Nvidia, Tesla, AMD, Reddit, Blackberry, Arm, Take-Two, Barclays & more",
       "source": "CNBC",
       "detail": "Here are the biggest calls on Wall Street on Wednesday.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "分析师集中关注英伟达、特斯拉等",
-        "assets": "📈 英伟达 利好 📉 AMD 承压",
-        "chain": "评级调整引发资金轮动，英伟达受益于AI龙头地位，特斯拉面临交付量担忧",
-        "watch": "目标价调整幅度及机构持仓变化"
+        "what": "华尔街分析师集中更新NVDA、TSLA、AMD等评级",
+        "assets": "📈 英伟达 利好（若上调） 📉 特斯拉 承压（若下调）",
+        "chain": "分析师共识变化引导机构资金流向（如从TSLA转向NVDA），影响板块轮动",
+        "watch": "实际目标价调整幅度及技术面支撑位"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Stock market today: S&P 500, Nasdaq eye rebound from tech rout with Micron in focus - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳指反弹，美光成焦点",
-        "assets": "📈 标普500 利好 📈 纳指 利好",
-        "chain": "科技股修复带动大盘，但成交量若不足则反弹不可持续（缺乏买盘支撑），美光业绩决定方向",
-        "watch": "美光财报后AI存储需求信号及纳指能否站稳5日均线"
+        "what": "标普和纳指因科技股抛售反弹，美光成焦点",
+        "assets": "📈 美股科技股 反弹（短期） 📉 美光 关键变量",
+        "chain": "美光财报若超预期将提振半导体板块，反之可能加剧抛售，形成二次下跌（double top）",
+        "watch": "美光盘后财报及内存价格走势"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Elon Musk loses his trillionaire status as SpaceX stock comes back to Earth - Business Insider",
+      "source": "Business Insider",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "马斯克因SpaceX估值回调失去万亿富豪地位",
+        "assets": "📉 SpaceX相关概念股 承压 📉 马斯克旗下公司（TSLA/SPCE）情绪利空",
+        "chain": "首富财富缩水影响市场对其企业信心，可能引发对冲基金做空联动仓位",
+        "watch": "SpaceX二级市场交易价格及媒体融资报道"
       }
     }
   ]
