@@ -1,32 +1,32 @@
 {
-  "updateTime": "2026-06-24 08:20",
+  "updateTime": "2026-06-24 08:25",
   "news": [
     {
       "rank": 1,
+      "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash - The Verge",
+      "source": "The Verge",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "特斯拉称德州致命车祸中司机手动接管了自动驾驶",
+        "assets": "📉 特斯拉股价 承压",
+        "chain": "自动驾驶安全受质疑，拖累板块情绪，可能引发监管审查（监管检查）",
+        "watch": "NHTSA（美国国家公路安全局）是否启动调查"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "Cerebras财报后暴跌10%，利润率指引收缩",
-        "assets": "📉 AI芯片股 承压",
-        "chain": "利空AI板块情绪，可能拖累同类未盈利芯片公司估值（PE倍数压缩）",
-        "watch": "Cerebras下季毛利率数据及大客户订单"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "利率市场已消化美联储加息预期 美元升至去年11月来最高水平",
-      "source": "智通财经APP",
-      "detail": "随着市场进一步强化对美联储年内加息的预期，美元周二延续涨势，并升至去年11月以来最高水平。分析人士认为，美联储与全球主要央行之间日益扩大的政策分化...",
-      "lang": "zh",
-      "score": 46,
-      "insight": {
-        "what": "利率市场定价美联储加息，美元创11月新高",
-        "assets": "📈 美元 走强；📉 新兴市场货币 承压",
-        "chain": "美元升值压制大宗商品价格（铜/油以美元计价），美债收益率上行（借钱成本上升）",
-        "watch": "本周美联储官员讲话及CPI数据"
+        "what": "Cerebras财报后利润率预期下滑，股价暴跌10%",
+        "assets": "📉 半导体板块 利空",
+        "chain": "AI芯片高估值面临盈利考验，拖累其他AI芯片公司（如英伟达）估值",
+        "watch": "Cerebras下季度毛利率指引是否进一步恶化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX在IPO后不到两周发行250亿美元债务",
-        "assets": "📈 SpaceX 融资利好；📉 商业航天板块 竞争压力",
-        "chain": "高杠杆融资反映资本开支需求，可能推高航天产业链成本（供应链涨价）",
-        "watch": "SpaceX估值变动及后续IPO进展"
+        "what": "SpaceX在IPO后不到两周通过债务融资250亿美元",
+        "assets": "📈 太空/军工板块 利好",
+        "chain": "高杠杆融资暗示需求旺盛，提振SpaceX估值（估值），但债务增加可能推高融资成本",
+        "watch": "SpaceX后续IPO估值及债务评级变动"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "Alphabet下跌，华尔街质疑其AI领导者地位",
-        "assets": "📉 谷歌 承压；📈 微软/OpenAI 相对利好",
-        "chain": "AI军备竞赛中市场偏好转向有明确变现路径的玩家，云服务竞争格局生变",
-        "watch": "谷歌AI产品收入增速及微软Copilot渗透率"
+        "what": "Alphabet股价续跌，华尔街质疑其AI领先地位",
+        "assets": "📉 谷歌母公司 承压",
+        "chain": "AI竞赛中落后风险引发资金流出，拖累其他大型科技股（如微软、Meta）",
+        "watch": "谷歌AI产品（如Gemini）市场份额数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "韩国股市暴跌，杠杆ETF热潮遭重新评估",
-        "assets": "📉 韩国KOSPI 承压；📉 杠杆ETF相关标的 利空",
-        "chain": "去杠杆（减少借钱炒股）可能引发连锁抛售，亚洲新兴市场风险偏好降温",
-        "watch": "韩国散户融资余额及KOSPI200波动率"
+        "what": "韩国股市暴跌，2900亿美元杠杆ETF热潮受审视",
+        "assets": "📉 韩国KOSPI指数 利空",
+        "chain": "杠杆ETF（借钱炒股）集中平仓引发连锁抛售，拖累亚洲新兴市场（新兴市场）",
+        "watch": "韩国金融监管是否收紧杠杆ETF规则"
       }
     },
     {
@@ -79,24 +79,24 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "摩根士丹利称韩国股市暴跌非趋势性破位",
-        "assets": "📈 韩国KOSPI 短期反弹预期",
-        "chain": "大行观点可能缓解恐慌，但需确认技术支撑位（支撑线）是否有效",
-        "watch": "KOSPI能否守住200日均线及外资流向"
+        "what": "摩根士丹利认为韩国股市暴跌非趋势性崩溃",
+        "assets": "📈 韩国KOSPI指数 短期反弹",
+        "chain": "机构抄底可能支撑指数，但需关注宏观风险（如美国利率），二阶效应是新兴市场情绪分化",
+        "watch": "韩国出口数据和外资流向"
       }
     },
     {
       "rank": 7,
-      "title": "1 person killed as Tesla on autopilot crashes through Texas home - NBC News",
-      "source": "NBC News",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 37,
+      "title": "日本央行6月会议记录显示：部分委员呼吁进一步加息",
+      "source": "环球市场播报",
+      "detail": "周三公布的日本央行6月政策会议意见摘要显示，部分日本央行政策委员会成员呼吁进一步加息，以将政策利率推至接近被视为对经济中性的水平。",
+      "lang": "zh",
+      "score": 36,
       "insight": {
-        "what": "特斯拉自动驾驶撞入德州民宅致1死",
-        "assets": "📉 特斯拉 利空；📉 自动驾驶板块 监管风险",
-        "chain": "事故可能加速监管收紧（限制自动驾驶功能），影响行业商业化进程",
-        "watch": "NHTSA调查结果及特斯拉FSD测试许可"
+        "what": "日本央行会议记录显示部分委员呼吁进一步加息",
+        "assets": "📈 日元 利好 📉 日经225 承压",
+        "chain": "加息预期（借钱成本上升）推高日元，利空出口企业（出口企业），资金可能回流日本",
+        "watch": "日本央行7月会议是否实际加息"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行副行长暗示加息更高更久以应对通胀",
-        "assets": "📈 欧元 短期利好；📉 欧洲债券 承压",
-        "chain": "欧央行鹰派（主张加息）推高欧洲利率，利空欧洲股市估值（借钱成本上升）",
-        "watch": "欧元区CPI及PMI数据"
+        "what": "欧洲央行副行长称通胀‘更高更久’，加息决策稳妥",
+        "assets": "📈 欧元 利好 📉 欧洲债券 承压",
+        "chain": "加息预期（借钱成本上升）支撑欧元，但压制股市和债券价格（债券价格），延缓降息周期",
+        "watch": "欧元区核心CPI（核心消费者物价指数）数据"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递财报超预期，货运业务强劲",
-        "assets": "📈 联邦快递 利好；📈 物流/运输板块 利好",
-        "chain": "货运需求强劲暗示经济韧性（经济活动活跃），可能提振周期股（经济敏感股）",
-        "watch": "联邦快递下季指引及美国ISM制造业数据"
+        "what": "联邦快递财报强劲，货运业务表现亮眼",
+        "assets": "📈 运输/物流板块 利好",
+        "chain": "经济需求韧性（需求韧性）提振行业信心，利好零售和制造业（制造业），但需警惕运费成本上升",
+        "watch": "联邦快递下季度营收指引是否超预期"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "联邦快递财报超预期，货运业务强劲",
-        "assets": "📈 联邦快递 利好；📈 物流/运输板块 利好",
-        "chain": "货运需求强劲暗示经济韧性，可能提振周期股和工业金属需求",
-        "watch": "联邦快递下季指引及美国ISM制造业数据"
+        "what": "联邦快递财报强劲，货运业务表现亮眼",
+        "assets": "📈 运输/物流板块 利好",
+        "chain": "经济需求韧性（需求韧性）提振行业信心，利好零售和制造业（制造业），但需警惕运费成本上升",
+        "watch": "联邦快递下季度营收指引是否超预期"
       }
     }
   ]
