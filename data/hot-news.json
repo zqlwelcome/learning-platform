@@ -1,138 +1,144 @@
 {
-  "updateTime": "2026-06-24 10:51",
+  "updateTime": "2026-06-24 10:56",
   "news": [
     {
       "rank": 1,
-      "title": "SpaceX Stock Price Is Slumping After Its Blockbuster IPO - The New York Times",
-      "source": "The New York Times",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "SpaceX IPO后股价下跌",
-        "assets": "📉 SpaceX股票 利空",
-        "chain": "IPO后获利了结（卖出赚钱的股票），短期压制科技股情绪，影响后续科技IPO定价",
-        "watch": "SpaceX下周订单数据"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Tesla claims driver ‘manually overrode self-driving’ in deadly Texas crash - The Verge",
       "source": "The Verge",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "特斯拉称司机手动干预致致命车祸",
-        "assets": "📉 特斯拉股价 利空；📉 自动驾驶板块 承压",
-        "chain": "监管审查（政府查安全问题）可能加严，拖累自动驾驶技术商业化预期",
-        "watch": "NHTSA（美国公路安全局）调查进展"
+        "what": "特斯拉致命事故中驾驶员手动接管自动驾驶",
+        "assets": "📉 特斯拉股价 承压",
+        "chain": "监管审查加剧（SEC调查披露真实性），拖累自动驾驶板块估值",
+        "watch": "NHTSA（美国国家公路交通安全管理局）是否发起正式调查"
       }
     },
     {
-      "rank": 3,
-      "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO - CNBC",
-      "source": "CNBC",
-      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "Cerebras财报预测利润率缩水，股价跌10%",
-        "assets": "📉 Cerebras股票 利空；📉 AI芯片板块 利空",
-        "chain": "利润率指引（未来赚钱能力）差，暗示AI芯片竞争激烈，资金可能撤出高估值科技股",
-        "watch": "Cerebras下季度毛利率数据"
-      }
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "title": "Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO",
       "source": "CNBC",
       "detail": "Cerebras went public on the Nasdaq in May, giving Wall Street access to a pureplay AI company.",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "AI股暴跌引发投资者获利了结或恐慌疑虑",
-        "assets": "📉 AI板块 利空；📉 纳斯达克指数 承压",
-        "chain": "恐慌情绪蔓延（大家害怕继续跌），可能触发程序化抛售（电脑自动卖股票），加剧市场波动",
-        "watch": "VIX（恐慌指数）是否突破30"
+        "what": "Cerebras财报后利润率预警，股价暴跌10%",
+        "assets": "📉 Cerebras股价 利空；📉 AI芯片板块 承压",
+        "chain": "AI芯片竞争加剧（英伟达挤压），毛利率收缩信号引发市场对行业盈利担忧",
+        "watch": "Cerebras下季度毛利率指引是否继续恶化"
       }
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO",
       "source": "CNBC",
       "detail": "SpaceX raised $25 billion in a debt sale, after seeing nearly $90 billion worth of orders, sources say.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX IPO后两周内发行250亿债务",
-        "assets": "📈 SpaceX债券 利好；📉 现有股东 承压",
-        "chain": "债务融资（借钱）补充现金流，缓解IPO后资金压力，但增加杠杆（负债比例）风险",
-        "watch": "债券评级及认购率"
+        "what": "SpaceX IPO两周后完成250亿美元债务融资",
+        "assets": "📈 SpaceX估值 利好；📉 火箭发射相关债券 利空",
+        "chain": "债务融资替代股权稀释，但增加杠杆（财务风险），可能推高同类企业融资成本",
+        "watch": "SpaceX后续债务评级及偿债能力指标"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "Alphabet Stock Extends Losses as Wall Street Asks if It Remains an AI Winner - Barron's",
       "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "韩国股市创历史最差单日表现，摩根士丹利称未破位",
-        "assets": "📉 韩国KOSPI指数 利空；📉 新兴市场 承压",
-        "chain": "外资流出（外国资金撤走）拖累韩元，但技术面（图表走势）未确认熊市（持续下跌趋势）",
-        "watch": "韩国出口数据及外资净买卖"
+        "what": "Alphabet股价续跌，华尔街质疑其AI领先地位",
+        "assets": "📉 Alphabet股价 利空；📉 AI概念股 承压",
+        "chain": "AI竞争格局恶化（微软OpenAI追赶），资本开支过高（烧钱）侵蚀利润，引发科技股抛售",
+        "watch": "Google Cloud（云业务）季度增速及AI产品商业化进展"
       }
     },
     {
-      "rank": 7,
-      "title": "AI stock slump raises the question if investors are just taking profits or getting very nervous - Yahoo Finance",
-      "source": "Yahoo Finance",
+      "rank": 5,
+      "title": "Cerebras Stock Sinks After First Earnings Report. AI Demand Is Forcing Tough Choices. - Barron's",
+      "source": "Barron's",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 42,
+      "score": 44,
       "insight": {
-        "what": "沃尔玛旗下Flipkart计划IPO前拓展印度快商务",
-        "assets": "📈 印度电商板块 利好；📈 沃尔玛 间接利好",
-        "chain": "快商务（极速配送）抢占市场份额，推高IPO估值，但烧钱（亏损扩大）可能拖累沃尔玛财报",
-        "watch": "Flipkart市场份额及亏损率"
+        "what": "Cerebras财报显示AI需求迫使艰难抉择",
+        "assets": "📉 Cerebras股价 利空；📉 AI芯片板块 承压",
+        "chain": "AI需求虽旺但成本高企（研发、产能），毛利率压缩信号传导至整个半导体供应链",
+        "watch": "英伟达/AMD财报中AI芯片毛利率对比"
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "South Korea's stock market just had one of its worst days ever. Why Morgan Stanley says it's not breaking down",
       "source": "CNBC",
       "detail": "The Kospi index fell about 10% in Tuesday's session, marking its worst session since March.",
       "lang": "en",
-      "score": 42
+      "score": 42,
+      "insight": {
+        "what": "韩国股市创最差日跌幅，摩根士丹利称非崩盘",
+        "assets": "📉 韩国KOSPI指数 承压；📉 韩元 承压",
+        "chain": "外资流出（汇率贬值压力）、芯片出口放缓（全球需求疲软），但估值低或吸引抄底",
+        "watch": "韩国半导体出口月度数据及韩元兑美元走势"
+      }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Wall Street ends lower on semiconductor selloff as AI spending concerns mount - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "华尔街因半导体抛售及AI支出担忧收跌",
-        "assets": "📉 半导体板块 利空；📉 美股大盘 承压",
-        "chain": "AI资本支出（公司花钱买AI设备）减速预期，拖累芯片需求，利空台积电等供应链",
-        "watch": "费城半导体指数（SOX）能否守住支撑位"
+        "what": "美股收低，半导体抛售因AI支出担忧",
+        "assets": "📉 美股半导体板块 利空；📉 纳斯达克指数 承压",
+        "chain": "AI资本开支过高（烧钱）引发盈利担忧，传导至科技股整体估值下修（PE压缩）",
+        "watch": "Micron财报后半导体行业资本开支指引"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "和谈“暖”难掩加息“寒” 黄金多头纷纷“变脸”",
+      "source": "21世纪经济报道",
+      "detail": "受美伊和谈取得进展提振，国际金价自6月11日阶段低点反弹。然而，美联储的鹰派预期给市场泼了冷水，6月23日，美元指数再度站上101关口，伦敦现货黄金价格日内急跌逾2%...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "和谈暖风吹但加息预期寒，黄金多头转空",
+        "assets": "📉 黄金 承压；📈 美元 利好",
+        "chain": "加息预期升温（实际利率上行），和谈降低避险需求，资金从贵金属流向美债",
+        "watch": "美联储下月利率决议及点阵图（利率预测）"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Stock futures steady ahead of Micron earnings as traders debate how far tech sell-off will go, Kospi jumps over 3%: Live updates",
+      "source": "CNBC",
+      "detail": "A rout in chipmaker names, including Micron, weighed on the S&P 500 and Nasdaq Composite on Tuesday.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "美股期货持稳，Micron财报前科技抛售深度待定",
+        "assets": "📈 美股期货 中性；📉 半导体板块 承压",
+        "chain": "Micron业绩决定存储芯片方向，若不及预期将加剧AI支出担忧，带动大盘波动",
+        "watch": "Micron财报营收及下一季度指引"
       }
     },
     {
       "rank": 10,
-      "title": "沃尔玛旗下的Flipkart计划在IPO前拓展印度快速商务业务",
-      "source": "环球市场播报",
-      "detail": " 沃尔玛旗下的Flipkart正在加速其在印度的“快速商务”业务扩张，计划在全国范围内新增500个社区仓库，重点布局中小城市，以在这一快速增长的110亿美元市场中展开竞争。",
-      "lang": "zh",
-      "score": 30,
+      "title": "Quantum Computing Stocks Mixed Amid Trump Executive Orders, 2028 Target - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
       "insight": {
-        "what": "华尔街质疑Alphabet仍是AI赢家，股价续跌",
-        "assets": "📉 Alphabet股票 利空；📉 AI概念股 承压",
-        "chain": "AI投入回报（花钱买技术赚不赚钱）存疑，资金可能流向防御性资产（如国债）",
-        "watch": "Alphabet下季度AI收入占比"
+        "what": "量子计算股涨跌互现，受特朗普行政令及2028目标影响",
+        "assets": "📈 量子计算概念股 利好（长期）；📉 短线波动 中性",
+        "chain": "政策支持（行政令）提振长期预期，但商业化时间表（2028）遥远，短线资金博弈",
+        "watch": "量子计算相关法案进展及龙头企业技术突破新闻"
       }
     }
   ]
