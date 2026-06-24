@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 19:11",
+  "updateTime": "2026-06-24 19:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "Cerebras财报后股价大跌",
-        "assets": "📉 Cerebras股票 利空",
-        "chain": "AI芯片股承压，IPO后业绩不及预期引发估值重估（市盈率收缩）。",
-        "watch": "Cerebras下季度营收指引及客户订单"
+        "what": "Cerebro上市后首份财报不佳，股价暴跌",
+        "assets": "📉 AI芯片股 承压",
+        "chain": "削弱市场对AI硬件初创的估值信心，拖累半导体ETF（如SMH）",
+        "watch": "Cerebro下周的营收指引及大客户订单"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "特斯拉自动驾驶致死案家属起诉",
-        "assets": "📉 特斯拉股票 利空",
-        "chain": "监管风险升温，可能拖累自动驾驶行业估值（自动驾驶许可收紧）。",
-        "watch": "诉讼进展及NHTSA（美国国家公路交通安全管理局）调查结果"
+        "what": "特斯拉自动驾驶致死案家属起诉，指控系统缺陷",
+        "assets": "📉 特斯拉股价 承压，📉 自动驾驶板块 利空",
+        "chain": "监管审查加码（SEC/DOJ调查），可能推迟FSD（全自动驾驶）商业化进程",
+        "watch": "法院是否受理及NHTSA（美国公路安全局）调查进展"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "智谱AI考虑新一轮融资，规模超IPO",
-        "assets": "📈 智谱AI 利好",
-        "chain": "一级市场AI估值泡沫加剧，二级市场AI股或获情绪提振（风险偏好上升）。",
-        "watch": "融资落地估值及投资者阵容"
+        "what": "智谱AI考虑新一轮融资，规模远超IPO募资",
+        "assets": "📈 中国AI概念股 利好",
+        "chain": "吸引风险资本（VC）加注大模型赛道，推高一级市场估值，但稀释IPO估值",
+        "watch": "融资估值及是否有战略投资者入局"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电伴随欧洲热浪",
-        "assets": "📈 欧洲电力期货 利好\n📉 法国核电站运营 利空",
-        "chain": "电价飙升推高通胀预期（CPI），欧央行加息压力增加（紧缩政策）。",
-        "watch": "法国电网恢复时间及欧洲天然气库存"
+        "what": "法国大停电叠加欧洲创纪录高温",
+        "assets": "📈 欧洲天然气期货 飙升，📉 法国核电板块 承压",
+        "chain": "推高能源价格（电力/天然气），加剧通胀预期，法国国债利差（OAT-Bund spread）走阔",
+        "watch": "法国电网恢复时间及欧洲电价曲线"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "SpaceX发债250亿美元，IPO后不到两周",
-        "assets": "📈 SpaceX债券 利好\n📉 其他太空概念股 承压",
-        "chain": "债务融资成本低显示市场信心，但稀释股权预期压制二级太空股（资本结构变化）。",
-        "watch": "债市认购倍数及SpaceX估值变动"
+        "what": "SpaceX发债250亿美元，距IPO仅两周",
+        "assets": "📈 太空概念股 利好，📈 高收益债（垃圾债）市场 需求",
+        "chain": "显示机构对SpaceX估值信心，可能加速其IPO，并提振太空ETF（如ARKX）",
+        "watch": "债券定价及认购倍数"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "传音控股港股IPO面临三重压力",
-        "assets": "📉 传音控股股票 利空",
-        "chain": "新兴市场手机需求疲软（库存积压），现金流恶化引发抛售（机构出逃）。",
-        "watch": "港股IPO定价及首日表现"
+        "what": "传音控股港股IPO面临利润腰斩、现金流恶化等压力",
+        "assets": "📉 传音控股 承压，📉 非洲手机概念股 利空",
+        "chain": "IPO定价或下修，拖累港股科技板块情绪，控股股东减持加剧抛压",
+        "watch": "传音港股招股价及首日表现"
       }
     },
     {
@@ -93,28 +93,14 @@
       "lang": "en",
       "score": 43,
       "insight": {
-        "what": "CFTC起诉肯塔基州限制预测市场",
-        "assets": "📈 预测市场平台（如Polymarket） 利好",
-        "chain": "联邦监管优先于州法，可能推动预测市场合法化（监管套利）。",
-        "watch": "法院判决及其他州跟进情况"
+        "what": "CFTC起诉肯塔基州，首次对红州预测市场采取行动",
+        "assets": "📈 预测市场平台（如Polymarket） 承压",
+        "chain": "监管不确定性上升，可能限制美国用户参与，资金转向离岸平台",
+        "watch": "法院判决及CFTC是否扩大执法范围"
       }
     },
     {
       "rank": 8,
-      "title": "Tech Stocks Set to Bounce After $1.3 Trillion Rout on AI Jitters - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "科技股在1.3万亿美元抛售后反弹",
-        "assets": "📈 美股科技股 利好",
-        "chain": "AI恐慌过度，资金回补（空头平仓）带动反弹，但波动率仍高。",
-        "watch": "纳斯达克100指数能否站稳200日均线"
-      }
-    },
-    {
-      "rank": 9,
       "title": "'No cracks in the armor': Tech stocks rebound after global AI selloff batters chip stocks",
       "source": "CNBC",
       "detail": "Technology stocks mostly rebounded on Wednesday amid choppy trading following a global selloff in the previous session.",
@@ -122,23 +108,37 @@
       "score": 32,
       "insight": {
         "what": "科技股反弹，全球AI抛售后芯片股回升",
-        "assets": "📈 芯片股（如英伟达） 利好",
-        "chain": "AI需求叙事未破，超卖后技术性修复（RSI指标反弹）。",
-        "watch": "费城半导体指数成交量及AI资本开支数据"
+        "assets": "📈 美股科技股 反弹，📈 半导体ETF（SMH） 反弹",
+        "chain": "空头回补（short squeeze）驱动短期上涨，但基本面未变，警惕二次探底",
+        "watch": "NVDA（英伟达）及AMD的股价是否站稳关键均线"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "机构：美联储政策观察标尺转向温和，中长期看好金价中枢抬升",
       "source": "滚动播报",
       "detail": "文章来源：财闻 报告指出，贵金属承压，中长期看好金价中枢上行。 2026年6月24日，财信证券发布了一篇有色金属行业的研究报告，报告指出，贵金属承压...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "机构称美联储转向温和，看好金价",
-        "assets": "📈 黄金 利好\n📈 美债 利好",
-        "chain": "降息预期升温（实际利率下行），美元走弱支撑金价中枢上移。",
-        "watch": "美国CPI数据及美联储点阵图"
+        "what": "机构认为美联储政策转向温和，黄金长期看涨",
+        "assets": "📈 黄金 利好，📈 美债 利好",
+        "chain": "降息预期（借钱成本降低）推动金价中枢上移，美元指数（DXY）承压",
+        "watch": "美联储7月FOMC（议息会议）点阵图及鲍威尔讲话"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "安永：上半年香港IPO募资已超2000亿港元 位居全球第二",
+      "source": "市场资讯",
+      "detail": "来源：智通财经网 安永发布2026年上半年《中国内地和香港IPO市场》报告，指出全球IPO活动程增长态势，内地及香港市场IPO数量在全球占比增加。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "安永报告：上半年香港IPO募资超2000亿港元，全球第二",
+        "assets": "📈 港股 利好，📈 港交所（388.HK） 利好",
+        "chain": "资金回流港股，提振流动性，但需警惕大量解禁抛压",
+        "watch": "下半年IPO储备数量及中概股回归节奏"
       }
     }
   ]
