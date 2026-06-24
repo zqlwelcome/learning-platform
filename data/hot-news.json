@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 20:45",
+  "updateTime": "2026-06-24 20:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 59,
       "insight": {
-        "what": "Cerebras上市后首份财报不佳，股价大跌",
-        "assets": "📉 Cerebras股票 利空; 📉 AI芯片板块 承压",
-        "chain": "市场担忧AI芯片竞争加剧（英伟达主导），资金可能从二线标的撤出，转向龙头",
-        "watch": "Cerebras下一季营收指引及客户订单变动"
+        "what": "Cerebras财报后股价暴跌",
+        "assets": "📉 Cerebras 利空",
+        "chain": "AI芯片板块信心受挫，可能拖累其他未盈利AI公司估值（市值定价）",
+        "watch": "Cerebras后续指引及营收增速"
       }
     },
     {
@@ -24,8 +24,8 @@
       "score": 52,
       "insight": {
         "what": "特斯拉自动驾驶致死案家属起诉",
-        "assets": "📉 特斯拉股票 利空; 📉 自动驾驶概念股 承压",
-        "chain": "监管风险升温（SEC/FTC调查概率上升），可能拖累FSD（全自动驾驶）商业化进程",
+        "assets": "📉 特斯拉 利空",
+        "chain": "监管审查趋严（监管收紧），可能影响FSD（全自动驾驶）审批进度",
         "watch": "NHTSA（美国公路安全局）是否启动正式调查"
       }
     },
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "智谱AI年内暴涨1771%后拟再融资，规模超IPO",
-        "assets": "📈 AI概念股 利好; 📈 一级市场AI赛道 情绪提振",
-        "chain": "二级市场AI估值锚定效应（类似OpenAI），但高融资额暗示烧钱速度加快，需警惕泡沫",
-        "watch": "智谱估值水平及后续IPO或SPAC（特殊目的收购公司）传闻"
+        "what": "智谱AI股价年内暴涨1771%后考虑再融资",
+        "assets": "📈 智谱AI 利好",
+        "chain": "AI大模型赛道估值膨胀，可能带动一级市场（未上市公司）融资热潮",
+        "watch": "新融资规模及估值是否超过前轮"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美财长贝森特称年底前GDP增长可达3%",
-        "assets": "📈 美元指数 利好; 📈 美股大盘 短期提振",
-        "chain": "强增长预期降低降息概率（借钱成本维持高位），长端美债收益率可能上行",
-        "watch": "本周首次申领失业金人数及零售数据"
+        "what": "美财长称GDP年底前可重回3%",
+        "assets": "📈 美元 利好 📉 美债 利空",
+        "chain": "强增长预期推高利率定价（加息预期），压制科技股成长股估值",
+        "watch": "下周GDP修正值及消费数据"
       }
     },
     {
@@ -65,38 +65,38 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电叠加欧洲创纪录高温",
-        "assets": "📈 欧洲天然气期货 利多; 📈 法国电力股 利空",
-        "chain": "能源短缺推高电价，工业产出受限，欧元区通胀预期抬头",
-        "watch": "法国电网恢复时间及核电出力数据"
+        "what": "法国大停电欧洲热浪破纪录",
+        "assets": "📈 欧洲天然气 利好 📉 法国核电 利空",
+        "chain": "电力缺口推高能源价格（通胀压力），欧央行降息空间收窄（降息可能性降低）",
+        "watch": "法国电力恢复时间及欧洲电价走势"
       }
     },
     {
       "rank": 6,
-      "title": "Stocks making the biggest moves premarket: Cerebras, Micron, FedEx, Wendy's & more",
-      "source": "CNBC",
-      "detail": "These are the stocks posting the largest moves premarket.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "盘前异动：Cerebras、美光、联邦快递等波动大",
-        "assets": "📈 美光科技 利好（财报预期）; 📉 Cerebras 利空",
-        "chain": "个股分化反映市场聚焦财报季，资金从亏损AI股转向盈利确定的存储/物流龙头",
-        "watch": "美光财报后盘后走势及FedEx业绩指引"
-      }
-    },
-    {
-      "rank": 7,
       "title": "US presses Meta to agree to AI reviews as security concerns rise, NYT reports - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "美政府施压Meta接受AI安全审查",
-        "assets": "📉 Meta股票 利空; 📈 AI监管合规股 利好",
-        "chain": "科技巨头面临更多行政干预（类似反垄断），可能拖累AI部署速度，利好合规咨询公司",
-        "watch": "Meta回应及国会AI法案进展"
+        "what": "美国施压Meta同意AI审查",
+        "assets": "📉 Meta 利空",
+        "chain": "科技巨头合规成本上升（法律风险），可能拖累AI研发投入效率",
+        "watch": "Meta是否妥协及国会AI法案进展"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "'No cracks in the armor': Tech stocks rebound after global AI selloff batters chip companies",
+      "source": "CNBC",
+      "detail": "Technology stocks mostly rebounded on Wednesday amid choppy trading following a global selloff in the previous session.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "科技股反弹芯片板块回血",
+        "assets": "📈 纳斯达克 利好 📈 英伟达 利好",
+        "chain": "AI算力需求叙事（故事逻辑）重获认可，资金从防御板块回流科技",
+        "watch": "美光财报及半导体出货量数据"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "分析师密集评级：英伟达、特斯拉等受关注",
-        "assets": "📈 英伟达 利好（重申买入）; 📉 特斯拉 承压（下调）",
-        "chain": "机构观点分化加剧，半导体与汽车板块资金轮动（从电动车转向算力）",
-        "watch": "英伟达GTC大会前期权隐含波动率"
+        "what": "分析师密集调整Nvidia、特斯拉等评级",
+        "assets": "📈 美股科技股 中性波动",
+        "chain": "多空分歧加大，期权隐含波动率（预期波动幅度）可能上升",
+        "watch": "各家公司财报前机构持仓变化"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克因科技股回调后反弹，聚焦美光",
-        "assets": "📈 美股科技股 短期反弹; 📈 美光 情绪提振",
-        "chain": "超卖后技术性修复（RSI低于30），但若美光指引不及预期，反弹可能夭折",
-        "watch": "美光盘后财报及半导体ETF（SMH）资金流向"
+        "what": "标普纳指反弹聚焦美光财报",
+        "assets": "📈 美光 利多预期",
+        "chain": "存储芯片需求回暖信号（库存周期），将指引整个半导体周期走向",
+        "watch": "美光营收指引及DRAM/NAND价格"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "马斯克因SpaceX估值下跌失去万亿富豪地位",
-        "assets": "📉 SpaceX估值 承压; 📉 特斯拉股票 情绪利空",
-        "chain": "个人财富缩水可能引发质押风险（马斯克持有大量特斯拉股票抵押贷款），增加抛售压力",
-        "watch": "SpaceX二级市场交易价格及特斯拉股票质押率"
+        "what": "马斯克因SpaceX估值下跌失万亿身价",
+        "assets": "📉 SpaceX 利空 📉 特斯拉 间接利空",
+        "chain": "科技富豪财富缩水影响个人杠杆（抵押融资），可能引发连锁抛售",
+        "watch": "SpaceX二级市场交易价格及马斯克质押情况"
       }
     }
   ]
