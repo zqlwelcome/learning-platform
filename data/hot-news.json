@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-24 21:01",
+  "updateTime": "2026-06-24 21:06",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "Cerebras财报后股价大跌",
         "assets": "📉 Cerebras 利空",
-        "chain": "AI芯片股情绪承压，市场对高估值无盈利公司重新定价",
-        "watch": "Cerebras后续订单及毛利率"
+        "chain": "AI芯片股情绪受挫，资金可能转向已盈利的英伟达（龙头效应）",
+        "watch": "Cerebras后续营收指引及订单数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "特斯拉自动驾驶致死事故家属起诉",
-        "assets": "📉 特斯拉 利空\n📉 自动驾驶板块 承压",
-        "chain": "监管（政府审查）风险上升，消费者信心受挫，可能拖累FSD（完全自动驾驶）商业化进程",
-        "watch": "NHTSA（美国国家公路交通安全管理局）是否启动调查"
+        "what": "特斯拉自动驾驶致死案被诉",
+        "assets": "📉 特斯拉 利空",
+        "chain": "自动驾驶监管审查趋严，拖累特斯拉估值（PE倍数压缩）",
+        "watch": "NHTSA（美国交通安全局）调查进展及诉讼结果"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 50,
       "insight": {
-        "what": "智谱AI年内暴涨1771%后拟再融资",
-        "assets": "📈 智谱AI 利好\n📈 中国AI概念股 情绪提振",
-        "chain": "一级市场（未上市公司融资）热度传导至二级市场，资金追逐AI赛道，但高估值需盈利验证",
-        "watch": "智谱融资估值及IPO（首次公开募股）进展"
+        "what": "智谱AI拟再融资，规模超IPO",
+        "assets": "📈 智谱AI 利好",
+        "chain": "大模型赛道烧钱加速，利好算力供应商（GPU需求），但稀释老股东权益",
+        "watch": "融资估值及投资方名单"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "美财长称GDP增速年底前可达3%",
-        "assets": "📈 美元 利好\n📈 美股 情绪提振",
-        "chain": "软着陆（经济温和降温）预期增强，降息预期降温，美债收益率（借钱成本）可能上行",
-        "watch": "后续GDP数据及非农就业"
+        "what": "美财长称GDP增速年内可达3%",
+        "assets": "📈 美元 利好 📉 美债 承压",
+        "chain": "强增长预期推高加息（提高利率）概率，美元走强，新兴市场资金外流",
+        "watch": "下周非农就业数据及Q2 GDP修正值"
       }
     },
     {
@@ -65,38 +65,38 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电叠加欧洲热浪破纪录",
-        "assets": "📈 欧洲天然气 利好\n📈 电力股 利好",
-        "chain": "能源供需紧张推高电价，工业产出受限，通胀预期（物价上涨）升温",
-        "watch": "法国电力恢复时间及欧洲天然气库存"
+        "what": "法国大停电叠加欧洲热浪",
+        "assets": "📈 欧洲电力股 利好 📉 欧元 承压",
+        "chain": "电价飙升推高通胀预期，欧央行降息（借钱成本降低）空间收窄",
+        "watch": "法国核电站恢复进度及电价期货价格"
       }
     },
     {
       "rank": 6,
+      "title": "Micron Earnings Are Next Major Test for AI Trade - Barron's",
+      "source": "Barron's",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "美光财报成AI交易关键测试",
+        "assets": "📈 美光 事件驱动 📉 半导体板块 波动",
+        "chain": "若指引逊于预期，AI芯片需求逻辑受质疑，拖累英伟达等（板块联动）",
+        "watch": "美光HBM（高带宽内存）订单及毛利率"
+      }
+    },
+    {
+      "rank": 7,
       "title": "US presses Meta to agree to AI reviews as security concerns rise, NYT reports - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "美国施压Meta接受AI安全审查",
-        "assets": "📉 Meta 利空\n📉 AI监管板块 承压",
-        "chain": "全球AI监管趋严，科技巨头合规成本上升，开源模型（如Llama）可能面临限制",
-        "watch": "Meta是否妥协及欧盟AI法案执行情况"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "'No cracks in the armor': Tech stocks rebound after global AI selloff batters chip companies",
-      "source": "CNBC",
-      "detail": "Technology stocks mostly rebounded on Wednesday amid choppy trading following a global selloff in the previous session.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "科技股反弹，AI抛售潮后回暖",
-        "assets": "📈 美股科技股 利好\n📈 芯片股 反弹",
-        "chain": "超跌反弹（短期跌幅过大后的修复），市场等待业绩验证，资金从防御股回流成长股",
-        "watch": "NVDA（英伟达）及AMD财报指引"
+        "what": "美国要求Meta同意AI安全审查",
+        "assets": "📉 Meta 利空",
+        "chain": "科技巨头面临更严AI监管，合规成本上升，可能限制模型迭代速度",
+        "watch": "白宫AI行政令细则及国会听证会"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "A股三只牛股拟扩产先进封装等",
-        "assets": "📈 先进封装 利好\n📈 PCB（印制电路板） 利好\n📈 MLCC（多层陶瓷电容） 利好",
-        "chain": "国产替代（本土供应链自主化）逻辑强化，半导体设备及材料需求增加",
-        "watch": "扩产项目落地时间及产能利用率"
+        "what": "A股3只大牛股扩产先进封装/PCB/MLCC",
+        "assets": "📈 先进封装/PCB/MLCC 利好",
+        "chain": "扩产信号验证下游需求（AI算力/消费电子），带动设备材料股跟涨",
+        "watch": "扩产项目落地时间及下游客户订单"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "韩国股市暴跌10%后反弹，聚焦盈利",
-        "assets": "📈 韩国KOSPI 反弹\n📈 韩国芯片股 利好",
-        "chain": "恐慌抛售后估值修复，外资回流，但需警惕二次探底（再次下跌风险）",
-        "watch": "韩国出口数据及半导体库存周期"
+        "what": "韩国股市从10%暴跌中反弹",
+        "assets": "📈 韩国KOSPI 反弹",
+        "chain": "超卖后修复，关注三星/海力士等科技龙头财报能否支撑估值（业绩验证）",
+        "watch": "韩国半导体出口数据及外资流向"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师密集调评科技股",
-        "assets": "📈 NVDA 利好\n📈 AMD 利好\n📈 特斯拉 中性",
-        "chain": "机构观点分化加剧波动，目标价调整影响短期资金流向（资金流动方向）",
-        "watch": "实际财报与分析师预期差距"
+        "what": "华尔街投行密集更新个股评级",
+        "assets": "📈 英伟达/特斯拉/AMD 事件驱动",
+        "chain": "评级调整引发短期波动，机构资金调仓（如上调目标价则利好）",
+        "watch": "实际目标价变化及期权隐含波动率"
       }
     }
   ]
