@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 16:06",
+  "updateTime": "2026-06-25 16:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 77,
       "insight": {
-        "what": "韩国IPO市场低迷，AI企业成潜在主力",
-        "assets": "📉 韩国IPO市场 承压; 📈 AI概念股 利好",
-        "chain": "财阀（大型企业集团）结构抑制上市供给，AI企业若上市将带动科技板块资金流入",
-        "watch": "韩国AI企业上市进展及IPO审批速度"
+        "what": "韩国IPO市场低迷，财阀结构抑制上市",
+        "assets": "📉 韩国KOSPI 承压；📈 AI企业 潜在利好",
+        "chain": "财阀（大型家族企业）挤压中小企业融资，资金转向AI等新经济板块（板块轮动）",
+        "watch": "韩国IPO审批政策变化及AI企业上市进度"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国财阀结构限制上市，股市低迷",
-        "assets": "📉 韩国综合指数 承压; 📉 财阀相关个股 利空",
-        "chain": "财阀控股（交叉持股）导致流动性差，抑制市场活力，拖累整体估值",
-        "watch": "韩国政府改革财阀政策动向"
+        "what": "油价回吐战争涨幅，霍尔木兹油轮恢复通行",
+        "assets": "📉 原油 利空",
+        "chain": "供应担忧缓解（油轮通行恢复）压低油价，利好航空运输（燃油成本下降），但OPEC+可能减产对冲（供应管理）",
+        "watch": "霍尔木兹海峡通行量及OPEC+会议"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "美元强势压制黄金短期走势",
-        "assets": "📉 黄金 承压; 📈 美元指数 利好",
-        "chain": "美元走强（汇率上升）使黄金持有成本增加，但央行购金（避险需求）提供中长期支撑",
-        "watch": "美元指数及央行黄金储备数据"
+        "what": "美元强势压制黄金，央行购金支撑配置",
+        "assets": "📉 黄金 短期承压；📈 央行黄金储备 长期利好",
+        "chain": "美元走强（美元指数上升）削弱黄金吸引力，但央行购金（去美元化）提供底部支撑（多空博弈）",
+        "watch": "美元指数及全球央行黄金购买量数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "印度黄金出口商被曝支付极低薪酬",
-        "assets": "📉 印度黄金出口企业 利空",
-        "chain": "会计问题（财务造假风险）引发合规担忧，可能影响出口信用和股价",
-        "watch": "监管调查结果及公司回应"
+        "what": "印度黄金出口商高管月薪仅180美元，调查中",
+        "assets": "📉 印度黄金股 短期利空",
+        "chain": "会计问题（财务造假嫌疑）引发市场对印度黄金行业信任危机，可能拖累出口（声誉风险）",
+        "watch": "调查进展及公司股价波动"
       }
     },
     {
@@ -63,82 +63,76 @@
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "美国联邦学生贷款利率折扣新政",
-        "assets": "📈 学生贷款相关ETF 利好; 📉 消费信贷 承压",
-        "chain": "降息（借钱成本降低）刺激借贷，但减少银行利息收入，影响信贷需求",
-        "watch": "新利率折扣申请量及学生贷款违约率"
-      }
+      "score": 38
     },
     {
       "rank": 6,
+      "title": "港股收评：恒指跌1.43% 科指跌1.63% 科网股、黄金股普跌 内银股承压 芯片股逆势走强",
+      "source": "新浪港股",
+      "detail": "6月25日消息，港股三大指数低开低走。截至收盘，恒生指数跌1.43%，报23076.91，恒生科技指数跌1.63%，国企指数跌2.02%。盘面上，科网股跌多涨少，联想涨超4%...",
+      "lang": "zh",
+      "score": 37,
+      "insight": {
+        "what": "港股恒指跌1.43%，科网黄金股普跌",
+        "assets": "📉 恒生指数 承压；📉 港股科技股 利空；📉 港股黄金股 利空",
+        "chain": "科网股（互联网平台）受监管风险拖累，黄金股跟跌国际金价，内银股（内地银行）受息差收窄（贷款利息收入减少）冲击",
+        "watch": "南向资金流向及金价走势"
+      }
+    },
+    {
+      "rank": 7,
       "title": "欧洲央行执委施纳贝尔称需要进一步加息",
       "source": "环球市场播报",
       "detail": " 欧洲央行执委伊莎贝尔·施纳贝尔周四表示，由于能源价格居高不下，欧洲央行仍需继续提高利率，中东停火并不意味着政策制定者可以放松警惕。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行执委暗示需进一步加息",
-        "assets": "📈 欧元 利好; 📉 欧债 承压",
-        "chain": "加息（提高借贷成本）抑制通胀，但推高债券收益率，利空股市估值",
-        "watch": "欧洲央行下次会议利率决议"
+        "what": "欧央行执委施纳贝尔称需进一步加息",
+        "assets": "📈 欧元 利好；📉 欧洲债券 利空",
+        "chain": "加息（提高借钱成本）抑制通胀但打压经济，欧元走强（汇率上升）利空出口，债券收益率上行（价格下跌）",
+        "watch": "欧元区CPI及PMI数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "SK Hynix surges 12% after Micron earnings; blockbuster Nasdaq listing",
       "source": "CNBC",
       "detail": "Shares of South Korean chip giant SK Hynix surged 12% on Thursday after the company said it is seeking to raise as much as $29.4 billion.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "SK海力士因美光财报大涨12%",
-        "assets": "📈 韩国半导体股 利好; 📈 美光 利好",
-        "chain": "存储芯片涨价（供需紧张）带动产业链，纳指上市（流动性提升）提振情绪",
-        "watch": "美光下季度营收指引及DRAM/NAND价格"
+        "what": "SK海力士涨12%后美光财报，纳斯达克上市",
+        "assets": "📈 SK海力士 利好；📈 全球半导体 利好",
+        "chain": "存储芯片（内存）需求回暖信号，AI驱动增长，带动科技股情绪（板块共振）",
+        "watch": "美光财报指引及芯片库存周期"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "三重利空致金价螺旋式下跌 港股黄金股重挫多股跌超7%",
       "source": "市场资讯",
       "detail": "文章来源：财联社 受国际金价连创阶段新低影响，港股黄金股也集体重挫。 截至发稿，招金矿业、中国黄金国际双双跌超9%，灵宝黄金等多只个股也跌7%以上。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "三重利空致金价螺旋下跌，港股黄金股重挫",
-        "assets": "📉 黄金 利空; 📉 港股黄金股 利空",
-        "chain": "美元走强+风险偏好回升+实物需求下降，形成下跌螺旋（自我强化），拖累矿业股",
-        "watch": "黄金ETF持仓变化及非农数据"
+        "what": "美国联邦学生贷款利率打折，部分人受益",
+        "assets": "📈 美国消费信贷 利好",
+        "chain": "降低学生贷款成本（减轻还款压力）可释放消费力，利好可选消费板块（消费刺激）",
+        "watch": "学生贷款违约率及零售销售数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming ",
       "source": "CNBC",
       "detail": "Oil prices fell as investors bet global crude supplies will improve, as tankers stranded in the Persian Gulf for months have begun leaving the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "原油价格因霍尔木兹航运恢复而下跌",
-        "assets": "📉 原油 利空; 📉 能源股 承压",
-        "chain": "供给担忧缓解（地缘风险溢价消退），油价回吐涨幅，利好航空和运输成本",
-        "watch": "霍尔木兹海峡油轮通行量及OPEC产量"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
-      "source": "CNBC",
-      "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美光因存储芯片涨价营收翻倍，股价涨15%",
-        "assets": "📈 美光 利好; 📈 半导体行业 利好",
-        "chain": "存储芯片短缺（供不应求）推高价格，驱动营收增长，利好产业链上下游",
-        "watch": "美光毛利率及库存周转率"
+        "what": "三重利空致金价下跌，港股黄金股重挫",
+        "assets": "📉 黄金 利空；📉 港股黄金股 利空",
+        "chain": "美元走强、加息预期（借钱成本上升）、风险偏好回升（资金从避险转向风险资产）三重压制（多重利空叠加）",
+        "watch": "美联储利率决议及地缘局势变化"
       }
     }
   ]
