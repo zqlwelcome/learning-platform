@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 04:35",
+  "updateTime": "2026-06-26 04:41",
   "news": [
     {
       "rank": 1,
@@ -9,112 +9,98 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀过高，纽约联储主席认为压力缓解",
-        "assets": "📈 美债利率 上行；📉 美股 承压",
-        "chain": "鹰派（偏紧缩）言论强化加息预期，压制风险资产（股票/债券），资金转向防御",
-        "watch": "周五PCE（个人消费支出物价指数）数据"
+        "what": "美联储官员对通胀看法分歧，古尔斯比偏鹰，威廉姆斯偏鸽",
+        "assets": "📉 美股 承压；📈 美债 短端利好",
+        "chain": "鹰派言论推升降息预期（市场押注降息时间延后），美元走强，压制风险资产",
+        "watch": "周五PCE（个人消费支出物价指数）数据是否超预期"
       }
     },
     {
       "rank": 2,
-      "title": "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
-      "source": "CNBC",
-      "detail": "The personal consumption expenditures price index was expected to show a 4.1% annual increase.",
-      "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "5月核心PCE（美联储首选通胀指标）同比3.4%，创去年10月新高",
-        "assets": "📈 美元指数 利好；📉 黄金 承压",
-        "chain": "通胀粘性（持续高位）推迟降息（借钱成本降低）预期，实际利率上升打压黄金",
-        "watch": "下周CPI（消费者物价指数）及美联储讲话"
-      }
-    },
-    {
-      "rank": 3,
       "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
       "source": "CNBC",
       "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "法官阻止特朗普限制研究生贷款的规定",
-        "assets": "📈 学生贷款ABS（资产支持证券）利好；📉 教育股 中性",
-        "chain": "政策放松增加贷款发放量，利好ABS（资产支持证券）现金流入，但对教育公司直接影响有限",
-        "watch": "后续上诉进展"
+        "what": "法官阻止特朗普限制部分研究生贷款规则",
+        "assets": "📈 教育类股 利好；📉 联邦预算 承压",
+        "chain": "政策不确定性降低，学生贷款ABS（资产支持证券）风险溢价收窄，但财政赤字担忧升温",
+        "watch": "最高法院是否受理上诉"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "美国第一季度GDP环比折年率增速上修至2.1% 第二次估算值为1.6%",
       "source": "环球市场播报",
       "detail": "美国经济分析局数据显示，美国第一季度GDP环比折年率增速上修至2.1%，第二次估算值为1.6%。 44位经济学家的预测中值为增长1.6%（预测范围在+1.4%至+2.5%）。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国一季度GDP增速上修至2.1%",
-        "assets": "📈 美元 利好；📈 美股 利好",
-        "chain": "经济韧性（GDP超预期）支撑企业盈利，降低衰退概率，利好风险资产",
-        "watch": "二季度GDP初值"
+        "what": "美国一季度GDP增速上修至2.1%，但低于初值1.6%",
+        "assets": "📈 美元 短期利好；📉 黄金 承压",
+        "chain": "经济韧性削弱降息紧迫性，10年期美债收益率（长期借贷成本）上行，压制贵金属",
+        "watch": "下周ISM（供应管理协会）制造业PMI（采购经理人指数）"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Ariel’s John Rogers likes these small-cap names as the market rally broadens",
       "source": "CNBC",
       "detail": "Ariel Investments' John Rogers highlighted for-profit education company Covista as a small-cap stock he's currently bullish on.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "Ariel基金经理看好小盘股，认为市场反弹将扩散",
-        "assets": "📈 罗素2000小盘股 利好；📉 科技巨头 承压",
-        "chain": "资金轮动（从大市值转向小市值）暗示风险偏好回升，但需流动性（市场资金量）支撑",
-        "watch": "小盘股ETF（交易型开放式指数基金）资金流"
+        "what": "Ariel基金经理看好小盘股，因市场涨势扩散",
+        "assets": "📈 美股小盘股（罗素2000指数）利好",
+        "chain": "资金从科技巨头轮动至小盘，价值因子（低估值股票）跑赢成长因子，对冲基金增加多空仓位",
+        "watch": "小盘股相对大盘股的相对强度（RSI，相对强弱指标）"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "法官允许起诉特朗普司法部‘反武器化’基金",
-        "assets": "📈 法律合规股 利好；📉 特朗普概念股 承压",
-        "chain": "监管不确定性增加，利空与特朗普关联的SPAC（特殊目的收购公司）和媒体股",
-        "watch": "基金资金冻结裁决"
+        "what": "法官允许对特朗普司法部反武器化基金诉讼继续审理",
+        "assets": "📉 特朗普概念股 承压",
+        "chain": "法律风险加剧政治不确定性，削弱特朗普交易（押注其政策受益板块），避险资金流向国债",
+        "watch": "案件是否进入证据开示阶段（discovery）"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Nasdaq falls for a fourth day as a drop in Apple overshadows Micron's booming earnings: Live updates",
       "source": "CNBC",
       "detail": "The Nasdaq Composite fell on Thursday, even after a blowout Micron Technology earnings report, as traders moved out of key technology stocks.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "纳斯达克连跌四日，苹果拖累抵消美光利好",
-        "assets": "📉 纳斯达克 承压；📈 存储芯片 利好",
-        "chain": "科技板块分化：AI硬件（存储芯片）强劲，但消费电子（苹果）疲软，指数受权重股拖累",
-        "watch": "苹果下周财报"
+        "what": "纳指四连跌，苹果拖累抵消美光强劲财报",
+        "assets": "📉 纳指 承压；📈 存储芯片股 利好",
+        "chain": "苹果需求疲软信号（iPhone销售下滑）压制科技权重，但AI芯片需求（美光HBM，高带宽内存）支撑半导体板块分化",
+        "watch": "苹果下周WWDC（全球开发者大会）AI进展"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "SK海力士和美光本周接连报喜 巩固了存储芯片作为AI明星板块的地位",
       "source": "环球市场播报",
       "detail": "本周SK海力士和美光科技连续宣布的两项重磅消息，巩固了存储芯片市场作为AI产业最炙手可热板块的地位。 SK海力士周三披露了赴美大规模上市筹资的计划。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "SK海力士和美光财报强劲，巩固存储芯片AI地位",
-        "assets": "📈 存储芯片股 利好；📈 半导体ETF 利好",
-        "chain": "AI需求拉动HBM（高带宽内存）订单，产业链传导至设备商（应用材料）和材料商",
-        "watch": "三星存储业务指引"
+        "what": "SK海力士和美光财报确认存储芯片为AI核心板块",
+        "assets": "📈 存储芯片股（SK海力士、美光）利好；📈 英伟达 间接利好",
+        "chain": "HBM（高带宽内存）供不应求，AI算力瓶颈转向存储，拉动上游设备（ASML，阿斯麦）和材料订单",
+        "watch": "三星存储业务季度指引是否上调"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "亚马逊拟于2030年前在印度新增130亿美元投资 用于AI领域",
       "source": "环球市场播报",
       "detail": "据一份公司声明，亚马逊宣布将增加130亿美元投资，用于扩展和支持印度的人工智能（AI）及云基础设施。 这笔新增投资将扩大AWS在孟买和海得拉巴的数据中心容量。",
@@ -122,13 +108,13 @@
       "score": 25,
       "insight": {
         "what": "亚马逊计划2030年前在印度追加130亿美元AI投资",
-        "assets": "📈 亚马逊 利好；📈 印度IT股 利好",
-        "chain": "资本支出（建数据中心）利好印度基建和云服务，但短期挤压自由现金流（公司可自由支配现金）",
-        "watch": "亚马逊AWS（云计算）印度营收"
+        "assets": "📈 亚马逊 长期利好；📈 印度IT股 利好",
+        "chain": "印度数据中心和云服务需求激增，推升当地地产基建需求，但加剧与本土企业（Reliance，信实工业）竞争",
+        "watch": "印度政府AI监管政策草案"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "美国寻求与欧盟建立人工智能伙伴关系 聚焦监管与供应链合作",
       "source": "环球市场播报",
       "detail": "美国提议欧盟加入一项人工智能伙伴关系，以构建保障半导体供应链安全的联盟。 声明草案称：“考虑到从关键矿产、能源到计算机与半导体制造等人工智能物理支柱的至关重要性...",
@@ -136,9 +122,23 @@
       "score": 20,
       "insight": {
         "what": "美国寻求与欧盟建立AI伙伴关系，聚焦监管与供应链",
-        "assets": "📈 AI概念股 利好；📈 芯片股 利好",
-        "chain": "政策协同降低合规成本（跨国企业法律费用），供应链合作利好英伟达等芯片厂商",
-        "watch": "欧盟AI法案最终文本"
+        "assets": "📈 AI芯片股（英伟达、AMD）利好；📈 欧盟科技股 利好",
+        "chain": "跨大西洋AI标准统一降低合规成本，供应链合作缓解芯片出口限制，但可能加剧中美科技脱钩风险",
+        "watch": "欧盟AI法案最终文本谈判进展"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Democrats probe Trump's troubled $16 million reflecting pool renovation",
+      "source": "CNBC",
+      "detail": "President Donald Trump has attempted to spruce up Washington in advance of the country's 250th anniversary.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "民主党调查特朗普耗资1600万美元的喷泉翻新项目",
+        "assets": "📉 特朗普媒体科技集团 承压",
+        "chain": "政治开支丑闻加剧2024大选不确定性，削弱特朗普连任概率，利好拜登政策受益板块（清洁能源、基建）",
+        "watch": "众议院监督委员会是否传唤相关文件"
       }
     }
   ]
