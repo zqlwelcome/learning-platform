@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 01:05",
+  "updateTime": "2026-06-26 01:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美国核心PCE通胀数据高于预期",
-        "assets": "📉 美股 承压\n📈 黄金 短线走高",
-        "chain": "通胀超预期→降息预期降温（借钱成本难降）→风险资产承压，避险资产获支撑",
-        "watch": "美联储官员讲话及后续CPI数据"
+        "what": "中科闻歌港股IPO，收入增速低于行业且减亏靠压缩费用",
+        "assets": "📉 中科闻歌 利空 📉 AI板块 情绪偏空",
+        "chain": "基本面薄弱（收入增速慢、减亏靠砍销售费）叠加基石投资者质量低，可能影响港股科技IPO情绪",
+        "watch": "中科闻歌首日破发幅度及后续融资计划"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "中科闻歌港股IPO，收入增速慢且减亏靠压缩费用",
-        "assets": "📉 中科闻歌（新股） 利空\n📉 中科院系科技股 情绪承压",
-        "chain": "IPO基本面弱→打新热情低→或带动科技新股估值下修（同类公司估值降低）",
-        "watch": "IPO认购倍数及首日表现"
+        "what": "Wendy's meme行情未能延续，股价回落",
+        "assets": "📉 Wendy's 利空 📉 散户抱团股 情绪降温",
+        "chain": "meme股（散户炒作股）投机资金快进快出，缺乏基本面支撑，热度消退后可能拖累其他散户股",
+        "watch": "Wendy's成交量及Reddit论坛讨论热度"
       }
     },
     {
@@ -35,13 +35,7 @@
       "source": "CNBC",
       "detail": "The stock's volatile run appeared largely disconnected from company fundamentals and instead reflected a burst of social media enthusiasm.",
       "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "Wendy's未能延续Meme股涨势，股价回落",
-        "assets": "📉 Wendy's（美股餐饮） 利空\n📉 其他Meme股 情绪承压",
-        "chain": "Meme行情一日游→散户投机情绪退潮（短期资金撤离）→餐饮板块跟跌",
-        "watch": "Wendy's成交量及Reddit讨论热度"
-      }
+      "score": 42
     },
     {
       "rank": 4,
@@ -51,10 +45,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "比特币ETF遭遇创纪录资金流出，BTC创年内新低",
-        "assets": "📉 比特币 利空\n📉 比特币ETF 资金流出",
-        "chain": "ETF抛售→BTC供需失衡（卖盘大于买盘）→加密市场恐慌蔓延至其他币种",
-        "watch": "比特币ETF每日净流入/流出数据"
+        "what": "比特币ETF创纪录资金外流，BTC跌至2024低点",
+        "assets": "📉 比特币 承压 📉 加密货币ETF 利空",
+        "chain": "风险偏好退潮叠加监管担忧，资金出逃加密货币，可能蔓延至Coinbase等关联股票",
+        "watch": "比特币能否守住3万美元关键支撑位"
       }
     },
     {
@@ -65,10 +59,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国核心通胀率升至3.4%，创2023年10月以来新高",
-        "assets": "📉 美股 承压\n📈 美元 利好\n📈 美债收益率 上行",
-        "chain": "通胀顽固→美联储降息推迟（利率维持高位）→科技股估值承压，美元走强",
-        "watch": "美联储6月点阵图及利率决议"
+        "what": "美国核心PCE通胀5月升至3.4%，超预期",
+        "assets": "📈 黄金 短线走高 📉 美元 承压",
+        "chain": "通胀顽固降低降息预期（借钱成本难降），但数据公布后市场反押注经济放缓，避险推升黄金",
+        "watch": "今晚美联储官员讲话及CME FedWatch（利率期货工具）降息概率变化"
       }
     },
     {
@@ -79,10 +73,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国一季度GDP终值上修至2.1%",
-        "assets": "📈 美元 利好\n📈 美股 短期提振",
-        "chain": "经济韧性→软着陆预期升温（经济不衰退）→风险偏好改善，但降息空间缩小",
-        "watch": "后续GDP修正值及消费数据"
+        "what": "美国一季度GDP上修至2.1%，高于初值1.6%",
+        "assets": "📈 美股大盘 短期利好 📉 美债收益率 上行",
+        "chain": "经济韧性削弱降息紧迫性，但通胀数据才是主导，GDP上修可能被忽视",
+        "watch": "后续PCE通胀数据是否确认经济过热"
       }
     },
     {
@@ -91,13 +85,7 @@
       "source": "CNBC",
       "detail": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
       "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "苹果因内存涨价下调MacBook及iPad价格，股价跌6%",
-        "assets": "📉 苹果（美股科技） 利空\n📉 内存供应商 短期利好",
-        "chain": "成本压力→苹果提价抑制需求（销量下滑担忧）→供应链利润再分配",
-        "watch": "苹果下季度营收指引及内存价格走势"
-      }
+      "score": 29
     },
     {
       "rank": 8,
@@ -105,13 +93,7 @@
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves midday.",
       "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "黑莓、Kymera等个股盘中异动，苹果Wendy's领跌",
-        "assets": "📉 苹果 利空\n📉 Wendy's 利空\n📈 黑莓 短期波动",
-        "chain": "个股消息驱动→板块轮动（资金从消费电子流向医药）→波动率上升",
-        "watch": "各公司财报及重大公告"
-      }
+      "score": 29
     },
     {
       "rank": 9,
@@ -121,10 +103,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光财报超预期，股价暴涨16%带动芯片股",
-        "assets": "📈 美光（美股存储芯片） 利好\n📈 其他芯片股 跟涨",
-        "chain": "存储需求强劲→AI驱动半导体周期（芯片景气度提升）→产业链上下游受益",
-        "watch": "美光下季度营收指引及HBM（高带宽内存）订单"
+        "what": "美光飙涨16%，存储芯片成AI明星板块",
+        "assets": "📈 美光 利好 📈 SK海力士 利好",
+        "chain": "AI需求驱动HBM（高带宽内存）供不应求，存储芯片成为AI硬件新风口，带动费城半导体指数",
+        "watch": "美光下季营收指引及HBM产能扩张进度"
       }
     },
     {
@@ -135,10 +117,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "SK海力士和美光财报利好，巩固存储芯片AI板块地位",
-        "assets": "📈 SK海力士（韩股） 利好\n📈 美光（美股） 利好\n📈 存储芯片板块 整体利好",
-        "chain": "AI算力需求→HBM供不应求（高带宽内存涨价）→存储厂商利润弹性大",
-        "watch": "三星电子存储业务财报及HBM产能扩张计划"
+        "what": "苹果跌6%，因存储芯片涨价推高Mac/iPad成本",
+        "assets": "📉 苹果 利空 📈 存储芯片股 利好",
+        "chain": "DRAM/NAND涨价（存储芯片价格上升）挤压下游利润，但利好美光、SK海力士等上游",
+        "watch": "苹果能否转嫁成本，及存储芯片合约价走势"
       }
     }
   ]
