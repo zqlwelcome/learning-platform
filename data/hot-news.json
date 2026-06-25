@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 03:36",
+  "updateTime": "2026-06-26 03:40",
   "news": [
     {
       "rank": 1,
@@ -9,95 +9,77 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美国5月PCE通胀超预期，美联储加息预期升温",
-        "assets": "📈 美元指数；📉 黄金；📉 美股",
-        "chain": "通胀数据高于预期，强化美联储继续加息或维持高利率的预期，推升美元，打压无息资产黄金，同时利空股市估值。",
-        "watch": "关注后续美联储官员讲话及6月非农就业数据"
+        "what": "法官阻止特朗普限制部分研究生贷款规则",
+        "assets": "📈 教育板块 利好；📉 美国政府债券 承压",
+        "chain": "政策不确定性增加，助学贷款相关ABS（资产支持证券）风险溢价上升，财政支出或扩大",
+        "watch": "最高法院上诉进展"
       }
     },
     {
       "rank": 2,
+      "title": "Nasdaq dragged lower by Apple, Dow notches record as market divides: Live updates",
+      "source": "CNBC",
+      "detail": "The Nasdaq Composite fell on Thursday, even after a blowout Micron Technology earnings report, as traders moved out of key technology stocks.",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "纳指因苹果下跌拖累，道指创新高",
+        "assets": "📉 纳斯达克指数 利空；📈 道琼斯工业指数 利好",
+        "chain": "市场轮动（资金从科技转向价值股），防御型板块受追捧，科技股高估值面临回调风险",
+        "watch": "苹果股价及下周财报"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Chicago Fed President Goolsbee says inflation is too high, calls Warsh 'a serious guy'",
       "source": "CNBC",
       "detail": "In a live CNBC interview from his home district, the policymaker declined to speculate on where he thinks interest rates are headed.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "Goolsbee称通胀过高，特朗普顾问人选获认可",
-        "assets": "📈 美元 偏强；📉 美股 政策不确定性",
-        "chain": "鹰派言论强化不降息预期，银行股或受益于利率维持高位",
-        "watch": "下周美联储官员讲话基调"
+        "what": "美联储官员Goolsbee称通胀过高，支持Warsh",
+        "assets": "📈 美元 利好；📉 美股科技股 利空",
+        "chain": "鹰派（偏向加息）言论强化紧缩预期，科技股估值受压，长端美债（长期国债）收益率上行",
+        "watch": "下次FOMC（联邦公开市场委员会）点阵图"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
+      "source": "CNBC",
+      "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
+      "lang": "en",
+      "score": 33
+    },
+    {
+      "rank": 5,
       "title": "美国第一季度GDP环比折年率增速上修至2.1% 第二次估算值为1.6%",
       "source": "环球市场播报",
       "detail": "美国经济分析局数据显示，美国第一季度GDP环比折年率增速上修至2.1%，第二次估算值为1.6%。 44位经济学家的预测中值为增长1.6%（预测范围在+1.4%至+2.5%）。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国GDP上修至2.1%，但美联储仍关注通胀",
-        "assets": "📈 美元 短期走强；📉 黄金 短线承压",
-        "chain": "GDP上修降低降息预期，推高美债收益率（借钱成本），利空风险资产",
-        "watch": "今晚PCE（个人消费支出物价指数）数据"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
-      "source": "CNBC",
-      "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "特朗普诉IRS案和解基金诉讼被法院允许继续",
-        "assets": "📉 美元；📈 避险资产如黄金",
-        "chain": "司法部设立反武器化基金引发法律争议，政治不确定性上升，可能削弱市场对美国政府稳定性的信心，短期资金流入避险资产。",
-        "watch": "关注案件后续进展及是否影响财政部资金分配"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Apple stock drops 6% on MacBook and iPad price hikes due to memory crunch",
-      "source": "CNBC",
-      "detail": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "苹果因内存涨价跌6%",
-        "assets": "📉 苹果 股价；📈 美光 等存储芯片",
-        "chain": "消费电子成本上升压制利润，但存储芯片（DRAM/NAND）需求利好上游",
-        "watch": "苹果下季度毛利率指引"
+        "what": "美国GDP上修至2.1%，初值为1.6%",
+        "assets": "📈 美元指数 利好；📉 黄金 承压",
+        "chain": "增长上修降低降息（借钱成本降低）预期，美元走强压制黄金和新兴市场",
+        "watch": "下周PCE（个人消费支出物价指数）数据"
       }
     },
     {
       "rank": 6,
+      "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
+      "source": "CNBC",
+      "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
+      "lang": "en",
+      "score": 30
+    },
+    {
+      "rank": 7,
       "title": "Stocks making the biggest moves midday: BlackBerry, Kymera Therapeutics, Apple, Wendy's & more",
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves midday.",
       "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "黑莓、苹果等个股盘中异动，涨跌幅显著",
-        "assets": "📈 黑莓；📉 温蒂汉堡；📈 苹果",
-        "chain": "个股异动通常由财报预期、行业消息或资金轮动驱动，短期影响相关板块情绪，但整体市场方向需结合宏观因素判断。",
-        "watch": "关注异动个股的后续成交量及公司公告"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Micron soars 16% after blockbuster earnings, lifting some chip stocks",
-      "source": "CNBC",
-      "detail": "The company's revenue more than quadrupled from $9.3 billion a year earlier to $41.46 billion, it reported on Wednesday",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "美光飙升16%，存储芯片成AI明星",
-        "assets": "📈 美光、SK海力士 利好; 📈 AI芯片板块 联动",
-        "chain": "AI算力需求拉动HBM（高带宽内存）订单，带动整个半导体周期复苏（芯片涨价）",
-        "watch": "美光下一季营收指引"
-      }
+      "score": 29
     },
     {
       "rank": 8,
@@ -107,10 +89,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美光飙升16%，存储芯片成AI明星",
-        "assets": "📈 美光、SK海力士 利好; 📈 AI芯片板块 联动",
-        "chain": "AI算力需求拉动HBM（高带宽内存）订单，带动整个半导体周期复苏（芯片涨价）",
-        "watch": "美光下一季营收指引"
+        "what": "SK海力士和美光财报报喜，AI存储芯片需求强劲",
+        "assets": "📈 存储芯片板块 利好；📈 半导体ETF 利好",
+        "chain": "AI资本开支（企业投入）加速，存储芯片供需趋紧，上游设备商如应用材料受益",
+        "watch": "三星电子及台积电后续营收"
       }
     },
     {
@@ -121,10 +103,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "亚马逊拟2030年前在印度投130亿美元",
-        "assets": "📈 亚马逊 长期利好; 📈 印度IT股 利好",
-        "chain": "AI基建扩张（数据中心）提升云服务收入，但短期资本开支（花钱）增加压制利润",
-        "watch": "AWS（亚马逊云）季度增速"
+        "what": "亚马逊计划2030年前在印度追加130亿美元AI投资",
+        "assets": "📈 亚马逊 利好；📈 印度IT板块 利好",
+        "chain": "云计算和AI基建扩张，印度数据中心和电力需求上升，利好当地REITs（房地产信托）",
+        "watch": "印度政府对外资AI政策"
       }
     },
     {
@@ -135,10 +117,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美国去年慈善捐赠总额首破6000亿美元",
-        "assets": "📈 美股大盘；📈 高净值消费股",
-        "chain": "股市上涨带动慈善捐赠规模创新高，反映富人财富效应强劲，进一步支撑消费和资产价格，形成正反馈循环。",
-        "watch": "关注美股企业财报中高净值客户消费趋势"
+        "what": "美国慈善捐赠首次突破6000亿美元",
+        "assets": "📈 非营利组织 利好；📈 高净值财富管理 利好",
+        "chain": "税收优惠刺激捐赠，家族办公室（富豪理财平台）资产配置增加，利好另类投资（如私募股权）",
+        "watch": "税法改革动向"
       }
     }
   ]
