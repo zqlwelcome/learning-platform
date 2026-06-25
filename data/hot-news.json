@@ -1,144 +1,138 @@
 {
-  "updateTime": "2026-06-25 15:41",
+  "updateTime": "2026-06-25 15:45",
   "news": [
     {
       "rank": 1,
+      "title": "财阀拖累？股市暴涨下韩国IPO市场今年低迷乏力，AI企业为潜在上市主力",
+      "source": "一财网",
+      "detail": "市场希望，接下来人工智能（AI）类企业将成为韩国上市的主要后备军。 虽然韩国股市市值在过去一年节节攀升，但韩国首次公开募股（IPO）活动今年大幅下降。",
+      "lang": "zh",
+      "score": 77,
+      "insight": {
+        "what": "韩国IPO市场低迷，财阀结构抑制上市",
+        "assets": "📉 韩国KOSPI指数 承压",
+        "chain": "财阀压制供给→IPO融资减少→企业扩张受限(资本开支下降)",
+        "watch": "AI企业上市进度及监管政策变化"
+      }
+    },
+    {
+      "rank": 2,
       "title": "South Korea’s IPO bust clouds equity markets as Chaebol structure restrains listings",
       "source": "CNBC",
       "detail": "South Korea's IPO activity has lagged that of its regional peers as the structure of the market and governance reforms collide.",
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO市场疲软，财阀结构限制上市",
-        "assets": "📉 韩国股市 承压",
-        "chain": "IPO遇冷降低市场流动性（资金面收紧），拖累中小盘股估值",
-        "watch": "韩国综合指数（KOSPI）及新股破发率"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
-      "source": "CNBC",
-      "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "法国大停电，欧洲遭遇破纪录热浪",
-        "assets": "📈 欧洲天然气 看涨 | 📉 欧洲电力股 利空",
-        "chain": "停电加剧能源供需失衡（供给缺口），推高电价和通胀预期（物价上涨压力）",
-        "watch": "欧洲天然气库存（TTF基准价）及电力恢复进度"
+        "what": "油价抹去战争涨幅，霍尔木兹油轮恢复通行",
+        "assets": "📉 原油 利空",
+        "chain": "供应担忧缓解→油轮恢复→油价回落→能源股承压(油气公司)",
+        "watch": "霍尔木兹海峡通行量及OPEC产量"
       }
     },
     {
       "rank": 3,
+      "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
+      "source": "CNBC",
+      "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
+      "lang": "en",
+      "score": 45
+    },
+    {
+      "rank": 4,
       "title": "黄金短期受美元强势压制，央行购金支撑中长期配置价值",
       "source": "界面",
       "detail": "现货黄金跌破4000美元/盎司关口，较今年所创下的5598美元/盎司的历史高位已跌去约1600美元。消息面上，近期美元指数走强、美联储加息预期升温以及美债收益率上行持续压制贵...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "美元强势压制黄金，但央行购金支撑",
-        "assets": "📉 黄金 短期承压 | 📈 央行黄金储备 长期利好",
-        "chain": "美元走强（汇率升值）打压金价，但央行购金（官方储备行为）提供底部支撑",
-        "watch": "美元指数（DXY）及各国央行黄金持仓报告"
+        "what": "黄金短期受美元压制，但央行购金支撑",
+        "assets": "📉 黄金 短期承压；📈 黄金 中长期利好",
+        "chain": "美元强→金价弱→但央行购金(避险需求)→支撑长期配置价值",
+        "watch": "美元指数及央行购金数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国联邦学贷利率折扣，部分借款人受益",
-        "assets": "📉 美国消费信贷 利好",
-        "chain": "降低学生贷款成本（借贷支出减少），释放消费能力（可支配收入增加）",
-        "watch": "美国消费者支出数据（PCE指标）"
+        "what": "欧洲央行施纳贝尔称需进一步加息",
+        "assets": "📈 欧元 利好；📉 欧洲债券 利空",
+        "chain": "加息预期→欧元走强→欧债收益率升(融资成本增)→压制股市",
+        "watch": "欧央行7月会议纪要及通胀数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "港股午评：恒指跌1.38% 科指跌1.67% 科网股、黄金股低迷 半导体板块逆势走强",
       "source": "新浪港股",
       "detail": "6月25日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.38%，报23088.87，恒生科技指数跌1.67%，国企指数跌1.89%。盘面上，科网股跌多涨少，哔哩哔哩涨超2%...",
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股恒指跌1.38%，科指跌1.67%",
-        "assets": "📉 恒生指数 承压 | 📉 科技股 利空 | 📈 半导体板块 利好",
-        "chain": "科网股低迷拖累大盘（权重股下跌），半导体逆势显示行业景气度（周期复苏）",
-        "watch": "恒生科技指数（HSTECH）及半导体板块成交量"
+        "what": "港股午盘恒指跌1.38%，科网股黄金股低迷",
+        "assets": "📉 恒生科技股 利空；📉 港股黄金股 利空",
+        "chain": "科网股跌→资金流出→半导体逆势(避险轮动)→但整体情绪弱",
+        "watch": "南向资金流向及恒指20000点支撑"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "欧洲央行执委施纳贝尔称需要进一步加息",
       "source": "环球市场播报",
       "detail": " 欧洲央行执委伊莎贝尔·施纳贝尔周四表示，由于能源价格居高不下，欧洲央行仍需继续提高利率，中东停火并不意味着政策制定者可以放松警惕。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行执委施纳贝尔称需进一步加息",
-        "assets": "📈 欧元 看涨 | 📉 欧洲债券 承压",
-        "chain": "鹰派言论（偏紧缩政策信号）强化加息预期，推升欧元汇率，压低债价（收益率上升）",
-        "watch": "欧洲央行下次会议利率决议（9月）"
+        "what": "法国大停电叠加欧洲创纪录热浪",
+        "assets": "📈 欧洲天然气 利好；📉 法国核电股 利空",
+        "chain": "停电+热浪→电力需求激增→天然气价格反弹(能源通胀风险)",
+        "watch": "欧洲电力价格及法国电网恢复时间"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "SK Hynix surges 12% after Micron earnings; blockbuster Nasdaq listing",
       "source": "CNBC",
       "detail": "Shares of South Korean chip giant SK Hynix surged 12% on Thursday after the company said it is seeking to raise as much as $29.4 billion.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "SK海力士涨12%，因美光财报及纳斯达克上市",
-        "assets": "📈 全球半导体 利好 | 📈 韩国半导体股 看涨",
-        "chain": "美光业绩超预期（盈利增长）带动存储板块，上市融资（资本扩张）提振行业信心",
-        "watch": "美光（MU）后续股价及存储芯片价格指数（DRAMeXchange）"
+        "what": "SK海力士因美光财报涨12%，美股IPO火爆",
+        "assets": "📈 全球半导体股 利好；📈 韩国半导体 利好",
+        "chain": "美光财报超预期→存储芯片需求旺→SK海力士跟涨→AI产业链(算力)",
+        "watch": "美光下季度指引及存储芯片价格"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "三重利空致金价螺旋式下跌 港股黄金股重挫多股跌超7%",
       "source": "市场资讯",
       "detail": "文章来源：财联社 受国际金价连创阶段新低影响，港股黄金股也集体重挫。 截至发稿，招金矿业、中国黄金国际双双跌超9%，灵宝黄金等多只个股也跌7%以上。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "三重利空致金价螺旋下跌，港股黄金股重挫",
-        "assets": "📉 黄金 承压 | 📉 港股黄金股 利空",
-        "chain": "利空叠加（美元走强、风险情绪、流动性收紧）触发卖盘，黄金股估值（市盈率）被压缩",
-        "watch": "黄金现货价格（XAU/USD）及港股黄金板块指数"
+        "what": "美国联邦学生贷款利率折扣新政策",
+        "assets": "📈 美国消费信贷 利好",
+        "chain": "利率折扣→学生还款压力减→可支配收入增→消费支出(可选消费)",
+        "watch": "学生贷款违约率及零售销售数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming ",
       "source": "CNBC",
       "detail": "Oil prices fell as investors bet global crude supplies will improve, as tankers stranded in the Persian Gulf for months have begun leaving the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "油价回吐战争涨幅，霍尔木兹油轮恢复通行",
-        "assets": "📉 原油 承压 | 📈 航运股 利好",
-        "chain": "供应缓解（航道恢复）打压油价，降低通胀压力（能源成本下降），利好运输成本",
-        "watch": "布伦特原油（Brent）及霍尔木兹海峡通行量"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
-      "source": "CNBC",
-      "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美光股价涨15%，内存短缺使营收翻四倍",
-        "assets": "📈 存储芯片 利好 | 📈 美股科技 看涨",
-        "chain": "内存涨价（供需失衡）推高毛利（盈利能力），带动科技板块风险偏好（资金流入）",
-        "watch": "美光（MU）下季指引及存储芯片现货价格"
+        "what": "三重利空致金价下跌，港股黄金股重挫",
+        "assets": "📉 黄金 利空；📉 港股黄金股 利空",
+        "chain": "美元强+风险偏好升+实物需求弱→金价螺旋跌→黄金股跟跌",
+        "watch": "黄金ETF持仓量及美元走势"
       }
     }
   ]
