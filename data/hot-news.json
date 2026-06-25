@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 06:00",
+  "updateTime": "2026-06-26 06:06",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储官员对通胀看法分歧，鸽鹰交织",
-        "assets": "📉 美股大盘 承压；📈 美债 短期波动",
-        "chain": "鹰派言论强化加息预期（收紧流动性），压制风险资产；鸽派言论缓解恐慌，但方向不明增加波动率（价格震荡幅度）",
+        "what": "芝加哥联储主席称通胀仍高，纽约联储主席认为压力缓解",
+        "assets": "📉 美债利率 承压（短期），📈 美股 分化",
+        "chain": "鹰鸽分歧暗示美联储内部分裂，市场押注降息（借钱成本降低）时点将推迟，短端利率（短期债券收益率）波动加大",
         "watch": "周五PCE（个人消费支出物价指数）数据"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "美股涨跌互现，纳指四连跌，非AI股走强",
-        "assets": "📉 纳斯达克指数 承压；📈 中小盘股 利好",
-        "chain": "资金从高估值AI龙头轮动至价值股（防御性板块），市场广度改善但指数承压，隐含降息预期降温",
-        "watch": "罗素2000（小盘股指数）相对表现"
+        "what": "美股涨跌不一，纳指四连跌，非AI板块走强",
+        "assets": "📉 纳指 承压，📈 小盘股/价值股 利好",
+        "chain": "资金从AI龙头轮动至非科技板块，市场风格切换（rotation），防御性和周期股（如工业、金融）获青睐",
+        "watch": "罗素2000指数（小盘股指数）相对纳指表现"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "Ariel看好小盘股，市场反弹扩散",
-        "assets": "📈 美股中小盘股 利好",
-        "chain": "小盘股上涨预示资金从科技巨头流出（均值回归），若持续则利好经济敏感周期股（如工业、金融）",
-        "watch": "小盘股ETF（如IWM）成交量放大"
+        "what": "Ariel基金经理看好小盘股，市场涨势扩散",
+        "assets": "📈 小盘股 利好",
+        "chain": "涨势扩散（broadening）暗示资金从超买的大盘科技股流向估值洼地，小盘股有补涨空间",
+        "watch": "小盘股ETF（如IWM）资金流入量"
       }
     },
     {
@@ -51,66 +51,66 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普DOJ反武器化基金诉讼继续",
-        "assets": "📉 美元 承压；📈 黄金 避险",
-        "chain": "政治不确定性增加，削弱美元信用（储备货币信心），资金可能逃向避险资产如黄金",
-        "watch": "案件进展及美元指数（DXY）"
+        "what": "法官裁定针对特朗普DOJ‘反武器化’基金的诉讼可继续",
+        "assets": "📉 政治不确定性 利空",
+        "chain": "诉讼推进可能加剧两党对立，影响财政支出预期，但短期对市场冲击有限，更多是情绪扰动",
+        "watch": "诉讼后续裁决时间表"
       }
     },
     {
       "rank": 5,
-      "title": "Nasdaq falls for a fourth day as a drop in Apple overshadows Micron's booming earnings: Live updates",
-      "source": "CNBC",
-      "detail": "The Nasdaq Composite fell on Thursday, even after a blowout Micron Technology earnings report, as traders moved out of key technology stocks.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "苹果下跌拖累纳指，美光业绩利好被抵消",
-        "assets": "📉 苹果及科技股 承压；📈 半导体 分化",
-        "chain": "权重股（苹果）的负面消息压制指数，即使芯片股（美光）财报亮眼也无法提振，显示市场情绪脆弱",
-        "watch": "苹果股价能否守住200日均线"
-      }
-    },
-    {
-      "rank": 6,
       "title": "美国股市：标普500指数四连跌 苹果涨价削弱芯片股利好",
       "source": "环球市场播报",
       "detail": " 标普500指数在震荡交投中收盘基本持平，苹果上调部分产品售价的举动在一定程度上削弱了围绕芯片制造商强劲业绩展望的乐观情绪。",
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "标普500四连跌，苹果涨价削弱芯片利好",
-        "assets": "📉 标普500 承压；📉 苹果 利空",
-        "chain": "苹果涨价（需求疲软信号）抵消芯片股（美光）的盈利利好，科技板块内部出现负反馈（利润预期下调）",
-        "watch": "苹果iPhone出货量数据"
+        "what": "标普500四连跌，苹果涨价抵消芯片股利好",
+        "assets": "📉 标普500 承压，📉 苹果 利空，📈 芯片股 利好被抵消",
+        "chain": "苹果涨价（iPhone高价策略）引发需求担忧，拖累消费电子板块，芯片股受益于AI需求但无法独撑大盘",
+        "watch": "苹果下季度财报指引"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "美国寻求与欧盟建立人工智能伙伴关系 聚焦监管与供应链合作",
       "source": "环球市场播报",
       "detail": "美国提议欧盟加入一项人工智能伙伴关系，以构建保障半导体供应链安全的联盟。 声明草案称：“考虑到从关键矿产、能源到计算机与半导体制造等人工智能物理支柱的至关重要性...",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "美国寻求与欧盟建立AI伙伴关系",
-        "assets": "📈 AI概念股 利好；📈 半导体供应链 利好",
-        "chain": "跨大西洋合作降低监管不确定性，利好AI基础设施（芯片、云服务），但可能引发中国供应链替代风险",
-        "watch": "欧盟AI法案（人工智能监管）最终文本"
+        "what": "美国寻求与欧盟建立AI伙伴关系，聚焦监管与供应链",
+        "assets": "📈 全球AI产业链 利好",
+        "chain": "美欧合作降低监管壁垒（如数据跨境流动），利好AI芯片、云计算供应商，但可能加速对华技术限制",
+        "watch": "欧盟AI法案（人工智能监管法规）最终文本"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "On Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
       "source": "CNBC",
       "detail": "On Semiconductor said the deal bumps up its total addressable market by $30 billion to $243 billion by 2030.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "安森美70亿美元收购Synaptics布局物理AI",
-        "assets": "📈 安森美 利好；📈 传感器/边缘计算 利好",
-        "chain": "并购显示产业资本押注物理AI（机器人、自动驾驶），将提振相关芯片及软件需求，但溢价收购可能压低短期利润率",
-        "watch": "交易监管审批及Synaptics财报"
+        "what": "安森美半导体70亿美元收购Synaptics，押注物理AI",
+        "assets": "📈 安森美 利好，📈 半导体并购板块 利好",
+        "chain": "物理AI（如机器人、自动驾驶）成为新热点，并购溢价（收购价高于市价）提振行业估值，但需警惕整合风险",
+        "watch": "Synaptics股价反应与监管审批"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Stock futures are little changed after Nasdaq posts four-day losing run: Live updates",
+      "source": "CNBC",
+      "detail": "The technology-dominant Nasdaq Composite and broad S&P 500 index are both on pace to end the trading week in the red.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "美股期货小幅波动，纳指四连跌后市场观望",
+        "assets": "📉 美股期货 中性偏弱",
+        "chain": "期货横盘暗示多头犹豫，短线交易者等待方向确认，若纳指继续下跌可能触发程序化止损（算法自动卖出）",
+        "watch": "今晚美股开盘后纳指方向"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "民主党调查特朗普16万美元喷泉翻新",
-        "assets": "📉 特朗普媒体股 承压；📉 美元 情绪利空",
-        "chain": "政治丑闻增加特朗普竞选不确定性，可能引发市场对政策延续性的担忧，短期利空相关概念股",
-        "watch": "民调支持率变化"
+        "what": "民主党调查特朗普1600万美元泳池翻新工程",
+        "assets": "📉 政治风险 利空",
+        "chain": "调查可能影响特朗普竞选资金（campaign finance），增加选举不确定性，但市场对此类消息反应通常滞后",
+        "watch": "调查是否升级为国会听证"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "部分议员呼吁对高收入者加税以挽救社保基金",
-        "assets": "📉 美股消费股 承压；📈 美债 长期利好",
-        "chain": "加税预期抑制高收入群体消费（可选消费承压），但可能缓解社保破产恐慌，利好长端美债（国债）信用",
-        "watch": "税收提案投票进展"
+        "what": "社会保障信托基金面临耗尽，部分议员呼吁对高收入者加税",
+        "assets": "📉 高收入阶层消费 承压，📉 股市 利空",
+        "chain": "加税预期（如提高工资税上限）将压制高收入者消费和投资，同时增加政府收入缓解赤字，但短期冲击市场情绪",
+        "watch": "两党预算谈判进展"
       }
     }
   ]
