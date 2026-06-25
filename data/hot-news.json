@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 08:25",
+  "updateTime": "2026-06-25 08:30",
   "news": [
     {
       "rank": 1,
@@ -10,97 +10,83 @@
       "score": 55,
       "insight": {
         "what": "韩国IPO市场低迷，财阀结构限制上市",
-        "assets": "📉 韩国股市 承压",
-        "chain": "企业融资受阻 → 二级市场流动性下降（资金更难退出） → 韩元或走弱",
-        "watch": "韩国综合指数及IPO获批数量变化"
+        "assets": "📉 韩国综合指数 承压",
+        "chain": "企业融资渠道收窄，资金转向国债等避险资产（安全资产）",
+        "watch": "韩国财阀改革政策动向"
       }
     },
     {
       "rank": 2,
-      "title": "纽约汇市：美元指数升至七个月高点 美联储加息押注盖过油价影响",
-      "source": "环球市场播报",
-      "detail": "美元延续近期涨势，尽管油价下挫，但市场对美联储政策路径的鹰派押注为美元提供了支撑。 彭博美元即期指数连续第三个交易日上涨，盘中一度上涨0.3%...",
-      "lang": "zh",
-      "score": 46,
-      "insight": {
-        "what": "美元指数升至七个月高点，加息押注增强",
-        "assets": "📈 美元指数 利好；📉 非美货币（欧元/日元） 承压",
-        "chain": "强美元 → 新兴市场资金外流（资本回流美国） → 大宗商品（以美元计价）价格受压",
-        "watch": "美联储利率决议及点阵图（利率预测）"
-      }
-    },
-    {
-      "rank": 3,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电叠加欧洲创纪录热浪",
-        "assets": "📈 欧洲天然气/电力 利好；📉 欧洲工业股 承压",
-        "chain": "能源短缺 → 生产成本上升（电价飙升） → 通胀预期升温 → 欧央行加息压力增大",
-        "watch": "欧洲电力期货价格及法国核电恢复进度"
+        "what": "法国大停电，欧洲遭遇创纪录高温",
+        "assets": "📈 欧洲天然气期货 利好；📉 法国电力股 利空",
+        "chain": "能源需求激增推高电价（电力价格），核电站产能受扰拖累供给",
+        "watch": "欧洲气温预报及核电恢复进度"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
       "source": "CNBC",
       "detail": "The announcements followed the release of the Federal Reserve's annual stress test, which found that all 32 large banks weathered a hypothetical recession.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "摩根大通500亿美元回购，高盛提高股息",
-        "assets": "📈 摩根大通/高盛 利好；📈 美国银行板块 利好",
-        "chain": "银行资本充裕（压力测试通过） → 股东回报提升 → 吸引资金流入金融板块",
-        "watch": "银行股股价及回购执行进度"
+        "what": "摩根大通5000亿回购，高盛提高股息",
+        "assets": "📈 美国银行股 利好",
+        "chain": "银行资本充足率（资本缓冲）预期改善，提振金融板块估值",
+        "watch": "美联储后续压力测试结果"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "美国芯片巨头发布“炸裂”财报：单季度营收暴增346%！股价盘后暴涨近16%，带动美股芯片股集体大涨",
       "source": "每日经济新闻",
       "detail": "美国芯片巨头美光科技周三美股盘后公布财报显示，第三财季经调整营收414.6亿美元，上年同期93.0亿美元，同比增长约346%；第三财季调整后运营收益336.8亿美元，上年同期24...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美国芯片巨头营收暴增346%，盘后暴涨16%",
-        "assets": "📈 美股芯片股（英伟达/AMD） 利好；📈 科技股 利好",
-        "chain": "AI需求爆发 → 芯片订单超预期（供应链紧张） → 带动半导体设备及云服务商",
-        "watch": "芯片公司财报及AI相关资本开支指引"
+        "what": "美国芯片巨头财报超预期，营收暴增346%",
+        "assets": "📈 全球芯片股 利好；📈 费城半导体指数 利好",
+        "chain": "AI算力需求驱动半导体周期（芯片供需周期）上行，科技股风险偏好提升",
+        "watch": "芯片巨头下季度指引及AI资本开支数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
       "source": "CNBC",
       "detail": "The Fed's annual exercise comes at a pivotal moment for bank regulation because, unlike previous years, the results will not affect capital requirements.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储压力测试：美国银行可承受7080亿损失",
-        "assets": "📈 美国银行板块 利好",
-        "chain": "银行抗风险能力确认 → 资本返还（回购/分红）增加 → 股价支撑",
-        "watch": "大型银行资本充足率及回购计划"
+        "what": "美联储称美国银行可承受7080亿损失",
+        "assets": "📈 美元指数 利好",
+        "chain": "银行系统韧性增强，降低系统性风险（金融体系崩溃风险），支撑美元信用",
+        "watch": "新资本规则最终版细节"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦学生贷款利率折扣新政策",
-        "assets": "📈 美国消费信贷 利好；📉 政府财政 承压",
-        "chain": "学生贷款成本降低 → 可支配收入增加（消费潜力上升） → 短期利好消费股",
-        "watch": "学生贷款拖欠率及消费者支出数据"
+        "what": "联邦学生贷款利率新折扣，部分人可享",
+        "assets": "📉 美国消费信贷 利好",
+        "chain": "降低借款人违约风险（债务违约），间接支撑消费类股",
+        "watch": "学生贷款还款率数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "阿波罗首席经济学家：油价下跌或将进一步推高美国通胀，迫使美联储很快加息",
       "source": "环球市场播报",
       "detail": "原油价格正回落至伊朗冲突前的水平附近，但一位经济学家认为，这并不意味着美国的通胀会下降。 当地时间周三，美国原油价格下跌约4%，一度跌破每桶70美元...",
@@ -108,37 +94,51 @@
       "score": 36,
       "insight": {
         "what": "阿波罗首席经济学家：油价下跌或推高通胀",
-        "assets": "📈 美国通胀预期 承压；📉 美联储降息预期 承压",
-        "chain": "油价跌 → 能源成本降 → 消费支出转向其他商品 → 核心通胀难降 → 加息风险",
-        "watch": "美国CPI（消费者物价指数）及PCE（个人消费支出）数据"
+        "assets": "📈 美国通胀预期 上升；📉 WTI原油 利空",
+        "chain": "油价降→运输成本降→需求反弹→推高核心通胀（剔除能源食品的物价），倒逼加息",
+        "watch": "美联储官员讲话及CPI数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "比特币跌破6万！AI吸走资金、散户缺席，华尔街接管市场后，谁来接住暴跌？",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 比特币正在为机构化转型付出代价。散户买盘萎缩、ETF资金持续外流、企业持仓者潜在抛售压力上升，加之AI基础设施投资持续虹吸风险资产资金...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "比特币跌破6万，AI吸走资金，散户缺席",
-        "assets": "📉 比特币/加密货币 承压；📈 AI相关股票 利好",
-        "chain": "资金从加密市场流向AI（风险偏好转移） → 加密流动性下降 → 波动率上升",
-        "watch": "比特币ETF资金流及AI股估值变化"
+        "what": "比特币跌破6万，AI吸金散户离场",
+        "assets": "📉 比特币 承压；📉 加密货币概念股 承压",
+        "chain": "资金从加密资产轮动至AI等科技成长股（高风险高回报资产），流动性收缩",
+        "watch": "比特币ETF资金流及监管动态"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "跌懵了！无视大幅降库！WTI暴跌失守70美元，油价于库存的极端背离显示市场的混乱",
       "source": "市场资讯",
       "detail": "来源：能源研发中心 后市观点 周三油价再次大跌，WTI原油跌破了70美元，各大原油期货全线跌回了美伊战争爆发之前。布伦特近端已经再次呈现贴水结构...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "WTI暴跌失守70美元，库存与油价严重背离",
-        "assets": "📉 WTI原油 承压；📈 美国炼油股 利好",
-        "chain": "库存高但油价跌 → 需求疲软预期（衰退担忧） → 能源股承压，但炼油利润扩大",
-        "watch": "EIA（能源信息署）库存周报及OPEC+产量决议"
+        "what": "WTI暴跌失守70美元，库存降油价反跌",
+        "assets": "📉 WTI原油 利空；📉 能源股 承压",
+        "chain": "市场担忧需求衰退（经济放缓）压倒库存利好，原油期货期限结构（远期溢价）恶化",
+        "watch": "OPEC+产量政策及美国EIA库存"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
+      "source": "CNBC",
+      "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "美光股价涨15%，内存涨价营收翻四倍",
+        "assets": "📈 全球存储芯片 利好；📈 美光科技 利好",
+        "chain": "存储周期（内存供需周期）进入涨价潮，带动整个半导体行业盈利预期上修",
+        "watch": "三星、SK海力士等同行财报及DRAM价格"
       }
     }
   ]
