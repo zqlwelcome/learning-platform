@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 05:50",
+  "updateTime": "2026-06-26 05:55",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 38,
       "insight": {
         "what": "芝加哥联储主席称通胀仍高，纽约联储主席认为压力缓解",
-        "assets": "📈 美元 短期偏强；📉 美债 短端承压",
-        "chain": "鹰鸽分歧加大市场波动，降息（借钱成本降低）预期摇摆影响风险资产",
-        "watch": "周五PCE（个人消费支出物价指数）数据"
+        "assets": "📉 美元指数 偏强；📈 美债 短端承压",
+        "chain": "鹰鸽分歧（政策立场矛盾）削弱降息预期（借钱成本降低），短端利率（短期国债收益率）上行压制成长股估值",
+        "watch": "本周PCE（个人消费支出物价指数）数据及下周非农"
       }
     },
     {
@@ -23,98 +23,56 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "美股涨跌互现，纳指四连跌，非AI板块走强",
-        "assets": "📈 美股中小盘股 利好；📉 美股科技七巨头 承压",
-        "chain": "资金从AI龙头轮动至价值股（低估值板块），风格切换信号",
-        "watch": "罗素2000（小盘股指数）相对表现"
+        "what": "美股涨跌不一，纳指四连跌，非AI股走强",
+        "assets": "📉 纳斯达克指数 承压；📈 美股小盘股 利好",
+        "chain": "资金从AI龙头（如苹果）轮动至周期股（经济复苏敏感股），反映市场广度（上涨股票数量）改善但指数承压",
+        "watch": "苹果及英伟达后续走势，罗素2000指数（小盘股指数）相对强度"
       }
     },
     {
       "rank": 3,
-      "title": "美国第一季度GDP环比折年率增速上修至2.1% 第二次估算值为1.6%",
-      "source": "环球市场播报",
-      "detail": "美国经济分析局数据显示，美国第一季度GDP环比折年率增速上修至2.1%，第二次估算值为1.6%。 44位经济学家的预测中值为增长1.6%（预测范围在+1.4%至+2.5%）。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "美国一季度GDP增速上修至2.1%，高于初值",
-        "assets": "📈 美元 短线走强；📉 美债 收益率上行",
-        "chain": "经济韧性削弱降息预期（借钱成本难降），利空利率敏感型资产",
-        "watch": "二季度GDP初值（7月25日）"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Ariel’s John Rogers likes these small-cap names as the market rally broadens",
       "source": "CNBC",
       "detail": "Ariel Investments' John Rogers highlighted for-profit education company Covista as a small-cap stock he's currently bullish on.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "Ariel基金经理看好小盘股，认为市场上涨范围扩大",
-        "assets": "📈 美股小盘股 利好；📉 美股大盘成长股 承压",
-        "chain": "资金轮动至小盘价值（低估值、高周期敏感），确认广度改善",
-        "watch": "小盘股ETF（IWM）资金流"
+        "what": "Ariel基金经理看好小盘股，因市场涨势扩散",
+        "assets": "📈 美股小盘股 利好；📉 科技巨头 承压",
+        "chain": "降息预期（借钱成本降低）和AI估值过高促使资金轮动至小盘价值股（低价周期股），对冲基金可能减仓科技权重",
+        "watch": "小盘股ETF（如IWM）资金流及制造业PMI（采购经理人指数）"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "法官裁定针对特朗普司法部反武器化基金的诉讼继续",
-        "assets": "📉 美国政治风险 短期不确定；📈 美元 避险属性微升",
-        "chain": "法律纠纷可能干扰政策推进，增加市场波动率（隐含波动率VIX）",
-        "watch": "案件审理进度及政治反应"
+        "what": "法官裁定针对特朗普司法部反武器化基金的诉讼可继续",
+        "assets": "📉 美元 短期政治风险；📈 美债避险需求",
+        "chain": "法律不确定性增加政治动荡溢价，可能削弱投资者对财政纪律（政府支出控制）的信心，推升长端利率（长期国债收益率）",
+        "watch": "案件进展及特朗普民调变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Nasdaq falls for a fourth day as a drop in Apple overshadows Micron's booming earnings: Live updates",
       "source": "CNBC",
       "detail": "The Nasdaq Composite fell on Thursday, even after a blowout Micron Technology earnings report, as traders moved out of key technology stocks.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "纳指四连跌，苹果下跌盖过美光强劲财报",
-        "assets": "📉 苹果 利空；📈 存储芯片（美光、SK海力士） 利好",
-        "chain": "苹果需求疲软拖累科技板块，但AI芯片需求支撑存储股分化",
-        "watch": "苹果7月财报及iPhone出货量"
+        "what": "苹果下跌拖累纳指四连跌，美光财报强劲但难掩市场疲态",
+        "assets": "📉 苹果 利空；📈 美光 利好但被掩盖",
+        "chain": "苹果作为权重股（指数中占比高）下跌引发指数级卖压，暗示市场对消费电子需求疲软的担忧超过芯片周期（半导体行业景气）",
+        "watch": "苹果下季营收指引及iPhone销量数据"
       }
     },
     {
-      "rank": 7,
-      "title": "SK海力士和美光本周接连报喜 巩固了存储芯片作为AI明星板块的地位",
-      "source": "环球市场播报",
-      "detail": "本周SK海力士和美光科技连续宣布的两项重磅消息，巩固了存储芯片市场作为AI产业最炙手可热板块的地位。 SK海力士周三披露了赴美大规模上市筹资的计划。",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "SK海力士和美光财报报喜，巩固存储芯片AI明星地位",
-        "assets": "📈 存储芯片股（美光、SK海力士） 利好；📉 其他芯片股 分化",
-        "chain": "AI驱动HBM（高带宽存储）需求爆发，但传统存储库存仍高",
-        "watch": "HBM产能扩张及订单指引"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "亚马逊拟于2030年前在印度新增130亿美元投资 用于AI领域",
-      "source": "环球市场播报",
-      "detail": "据一份公司声明，亚马逊宣布将增加130亿美元投资，用于扩展和支持印度的人工智能（AI）及云基础设施。 这笔新增投资将扩大AWS在孟买和海得拉巴的数据中心容量。",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "亚马逊拟2030年前在印度新增130亿美元AI投资",
-        "assets": "📈 亚马逊 长期利好；📈 印度IT基础设施 利好",
-        "chain": "云计算和AI基建需求确认，新兴市场数据中心概念受益",
-        "watch": "亚马逊资本支出指引及印度外资政策"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "title": "美国股市：标普500指数四连跌 苹果涨价削弱芯片股利好",
       "source": "环球市场播报",
       "detail": " 标普500指数在震荡交投中收盘基本持平，苹果上调部分产品售价的举动在一定程度上削弱了围绕芯片制造商强劲业绩展望的乐观情绪。",
@@ -122,13 +80,13 @@
       "score": 22,
       "insight": {
         "what": "标普500四连跌，苹果涨价削弱芯片股利好",
-        "assets": "📉 苹果 利空；📉 标普500指数 承压",
-        "chain": "苹果作为权重股拖累指数，但芯片股分化显示AI主题仍强",
-        "watch": "苹果股价与科技板块资金流向"
+        "assets": "📉 标普500 承压；📉 苹果 利空",
+        "chain": "苹果提价（涨价）可能抑制需求，拖累供应链（如台积电）预期，市场从板块轮动（行业切换）转向全面调整",
+        "watch": "标普500关键支撑位及VIX（恐慌指数）是否突破20"
       }
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "美国寻求与欧盟建立人工智能伙伴关系 聚焦监管与供应链合作",
       "source": "环球市场播报",
       "detail": "美国提议欧盟加入一项人工智能伙伴关系，以构建保障半导体供应链安全的联盟。 声明草案称：“考虑到从关键矿产、能源到计算机与半导体制造等人工智能物理支柱的至关重要性...",
@@ -136,9 +94,51 @@
       "score": 20,
       "insight": {
         "what": "美国寻求与欧盟建立AI伙伴关系，聚焦监管与供应链",
-        "assets": "📈 全球AI概念股 中长期利好；📈 半导体供应链 利好",
-        "chain": "跨国监管协同降低不确定性，供应链合作利好设备商（ASML等）",
-        "watch": "美欧AI联合声明及出口管制细则"
+        "assets": "📈 AI芯片股（如英伟达） 利好；📈 半导体供应链 利好",
+        "chain": "美欧联合监管降低政策不确定性（政策风险），供应链合作提振设备商（如ASML）预期，但可能增加合规成本",
+        "watch": "欧盟AI法案最终文本及美欧联合声明细节"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "On Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
+      "source": "CNBC",
+      "detail": "On Semiconductor said the deal bumps up its total addressable market by $30 billion to $243 billion by 2030.",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "安森美以70亿美元收购Synaptics，押注物理AI",
+        "assets": "📈 安森美 利好；📈 模拟芯片（传感器类） 利好",
+        "chain": "并购溢价（收购价高于市价）推升同类标的估值，反映AI从软件向硬件落地趋势，关注汽车和工业芯片需求",
+        "watch": "收购审批进展及Synaptics股东投票结果"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Democrats probe Trump's troubled $16 million reflecting pool renovation",
+      "source": "CNBC",
+      "detail": "President Donald Trump has attempted to spruce up Washington in advance of the country's 250th anniversary.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "民主党调查特朗普16万美元镜面泳池翻新问题",
+        "assets": "📉 美元 轻微政治不确定性",
+        "chain": "调查可能分散国会注意力，但影响有限；若涉及资金挪用，或加剧财政支出（政府花钱）争议",
+        "watch": "调查委员会是否传唤更多证人"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "As Social Security faces trust fund depletion, some Washington lawmakers call for taxing high earners",
+      "source": "CNBC",
+      "detail": "High earners may only contribute Social Security payroll taxes for part of the year. As the program faces funding woes, some lawmakers say that should change.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "社保基金面临耗尽，部分议员呼吁对高收入者加税",
+        "assets": "📉 美股消费股 利空；📈 美债 长期利好",
+        "chain": "加税预期（高收入者税负增加）压制可选消费（如奢侈品），但社保可持续性改善或提振长期国债需求",
+        "watch": "加税提案投票进展及社保精算报告更新"
       }
     }
   ]
