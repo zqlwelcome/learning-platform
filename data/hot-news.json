@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 03:05",
+  "updateTime": "2026-06-26 03:10",
   "news": [
     {
       "rank": 1,
@@ -7,21 +7,21 @@
       "source": "上海证券报",
       "detail": "美联储最青睐的通胀指标最新出炉！ 北京时间6月25日晚间，美国商务部公布的数据显示，美国5月个人消费支出（PCE）价格指数同比上涨4.1%，高于4月的3.8%...",
       "lang": "zh",
-      "score": 48
+      "score": 48,
+      "insight": {
+        "what": "芝加哥联储主席称通胀仍高，但支持沃什",
+        "assets": "📈 美国国债收益率 上行，📉 美股 承压",
+        "chain": "鹰派言论（偏紧缩政策立场）强化加息预期，压制风险偏好，利好避险资产",
+        "watch": "下周CPI（消费者物价指数）数据"
+      }
     },
     {
       "rank": 2,
-      "title": "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
+      "title": "Chicago Fed President Goolsbee says inflation is too high, calls Warsh 'a serious guy'",
       "source": "CNBC",
-      "detail": "The personal consumption expenditures price index was expected to show a 4.1% annual increase.",
+      "detail": "In a live CNBC interview from his home district, the policymaker declined to speculate on where he thinks interest rates are headed.",
       "lang": "en",
-      "score": 38,
-      "insight": {
-        "what": "美核心通胀5月升至3.4%，超预期",
-        "assets": "📈 黄金 短线利好;📉 美元 承压",
-        "chain": "通胀顽固→降息预期降温→实际利率（名义利率减通胀）走高压制风险资产",
-        "watch": "美联储6月点阵图（利率预测）"
-      }
+      "score": 38
     },
     {
       "rank": 3,
@@ -39,10 +39,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美GDP上修至2.1%，初值1.6%",
-        "assets": "📈 美股大盘 利好;📉 美债 承压",
-        "chain": "经济韧性→软着陆概率上升→企业盈利预期改善，但长端利率（长期国债收益率）难下",
-        "watch": "下周非农就业数据"
+        "what": "美国GDP上修至2.1%，加息预期降温",
+        "assets": "📈 黄金 短线走高，📉 美元指数 承压",
+        "chain": "GDP上修缓解衰退担忧，降息预期（借钱成本降低预期）升温，利好风险资产",
+        "watch": "今晚PCE（个人消费支出物价指数）数据"
       }
     },
     {
@@ -51,7 +51,13 @@
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "法官阻止特朗普限制部分研究生贷款规则",
+        "assets": "📈 教育板块 利好，📉 政府监管 承压",
+        "chain": "政策不确定性增加，教育股短期受益，但司法博弈可能拖累市场情绪",
+        "watch": "后续上诉进展"
+      }
     },
     {
       "rank": 6,
@@ -77,10 +83,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光财报强劲暴涨16%，芯片股跟涨",
-        "assets": "📈 美光/存储芯片 利好;📈 AI芯片 利好",
-        "chain": "AI驱动存储需求→HBM（高带宽内存）供不应求→产业链上游设备/材料受益",
-        "watch": "SK海力士下季度HBM出货量"
+        "what": "美光财报亮眼涨16%，带动芯片股走强",
+        "assets": "📈 存储芯片 利好，📈 AI硬件 利好",
+        "chain": "存储需求强劲验证AI资本开支（资本支出）周期，提振半导体整个板块",
+        "watch": "SK海力士后续财报"
       }
     },
     {
@@ -91,10 +97,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "苹果因内存涨价导致MacBook/iPad提价",
-        "assets": "📉 苹果 利空;📈 美光/存储芯片 利好",
-        "chain": "内存供需紧→苹果成本转嫁→消费电子需求可能受抑，但存储厂商利润扩张",
-        "watch": "苹果Q3财报指引"
+        "what": "苹果因内存涨价跌6%，MacBook和iPad提价",
+        "assets": "📉 苹果 利空，📈 美光/三星 存储股 利好",
+        "chain": "存储芯片涨价传导至下游消费电子，压缩利润率，拖累苹果产业链",
+        "watch": "苹果下一季毛利率指引"
       }
     },
     {
@@ -105,10 +111,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "亚马逊计划2030年前在印度投资130亿美元",
-        "assets": "📈 亚马逊 利好;📈 印度IT/云服务 利好",
-        "chain": "新兴市场布局→AWS（云服务）份额扩张→印度数字基建需求爆发",
-        "watch": "印度数字支付渗透率数据"
+        "what": "亚马逊2030年前在印度追加130亿美元AI投资",
+        "assets": "📈 印度科技股 利好，📈 亚马逊 长期利好",
+        "chain": "AI基建扩张利好云服务，但短期增加资本支出，压制利润率",
+        "watch": "印度数字基建政策动向"
       }
     }
   ]
