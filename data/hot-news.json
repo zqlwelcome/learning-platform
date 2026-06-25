@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 15:20",
+  "updateTime": "2026-06-25 15:26",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "韩国IPO市场低迷，财阀结构抑制上市",
         "assets": "📉 韩国股市 承压",
-        "chain": "财阀（家族控股集团）低效抑制新股供应，削弱市场信心，资金外流至美股",
-        "watch": "韩国综合指数（KOSPI）及IPO认购率变化"
+        "chain": "IPO冷清→融资收缩→企业扩张放缓（资本开支减少）→拖累经济增速",
+        "watch": "韩国综合指数及IPO募资额月度数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储加息预期打压黄金白银，机构建议不要对抗",
-        "assets": "📉 黄金 承压\n📉 白银 承压",
-        "chain": "加息（借钱成本上升）提升美元实际利率（扣除通胀后的利率），降低无息资产黄金吸引力",
-        "watch": "美联储利率决议及美国CPI（通胀数据）"
+        "what": "加息预期打压金银，机构建议勿逆势做多",
+        "assets": "📉 黄金 承压 📉 白银 承压",
+        "chain": "加息（借钱成本提高）→美元走强→贵金属（无息资产）吸引力下降→资金流出",
+        "watch": "美联储利率决议及非农就业数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电叠加欧洲创纪录热浪",
-        "assets": "📈 欧洲天然气 利好\n📉 法国核电 利空",
-        "chain": "停电加剧电力短缺，推高能源需求，天然气价格（TTF基准）上升；核电产能受限",
-        "watch": "法国电力公司（EDF）恢复进度及欧洲电价"
+        "what": "法国高温导致大规模停电，欧洲能源承压",
+        "assets": "📈 欧洲天然气 利好 📉 法国电力股 利空",
+        "chain": "停电→电力供应紧张→推高电价（电力期货上涨）→依赖电力的工业成本上升",
+        "watch": "法国电力恢复进度及欧洲天然气库存"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国联邦学生贷款利率折扣新规",
-        "assets": "📉 美国消费信贷 温和利空",
-        "chain": "利率折扣降低学生负担，减少违约风险，但可能抑制私人贷款需求",
-        "watch": "学生贷款申请量及违约率数据"
+        "what": "美国联邦学生贷款推出新利率折扣",
+        "assets": "📈 美国消费信贷 利好",
+        "chain": "折扣降低借贷成本→刺激教育消费→短期提振可选消费（非必需消费品）",
+        "watch": "学生贷款申请量及消费者信心指数"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股恒指跌1.38%，科指跌1.67%，黄金股低迷，半导体逆势走强",
-        "assets": "📉 恒生指数 承压\n📉 港股科技股 承压\n📈 港股半导体 利好",
-        "chain": "科网股受全球加息（借钱成本上升）压制；半导体受AI需求（人工智能算力）拉动逆势上涨",
-        "watch": "恒生科技指数及费城半导体指数（SOX）走势"
+        "what": "港股恒指跌1.38%，科指跌1.67%，半导体逆势走强",
+        "assets": "📉 港股科技股 承压 📈 港股半导体 利好",
+        "chain": "科网股抛售→资金轮动至半导体→板块分化加剧（风格切换至防御性成长）",
+        "watch": "恒生科技指数及南向资金流向"
       }
     },
     {
       "rank": 6,
-      "title": "澳洲5月就业数据超预期+通胀压力难消，央行加息窗口或再度打开",
-      "source": "滚动播报",
-      "detail": "汇通财经APP讯——周四（6月25日），澳大利亚统计局对外披露5月就业核心数据，尽管澳洲数据显示消费者需求和就业市场具有韧性，但随着美元普遍走强...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "澳洲就业数据超预期，通胀难消，加息窗口可能重开",
-        "assets": "📈 澳元 利好\n📉 澳洲国债 利空",
-        "chain": "就业强劲（劳动力市场紧张）推高薪资通胀，加息（借钱成本上升）预期支撑澳元，打压债价",
-        "watch": "澳洲央行（RBA）下次利率决议及CPI"
-      }
-    },
-    {
-      "rank": 7,
       "title": "SK Hynix surges 12% after Micron earnings; blockbuster Nasdaq listing",
       "source": "CNBC",
       "detail": "Shares of South Korean chip giant SK Hynix surged 12% on Thursday after the company said it is seeking to raise as much as $29.4 billion.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "SK海力士因美光财报涨12%，纳斯达克上市在即",
-        "assets": "📈 全球存储芯片 利好\n📈 美股半导体 利好",
-        "chain": "美光业绩（营收翻四倍）确认存储芯片短缺（内存紧缩），SK海力士受益于行业景气",
-        "watch": "美光（MU）股价及存储芯片现货价格"
+        "what": "SK海力士因美光财报及纳斯达克上市涨12%",
+        "assets": "📈 全球半导体股 利好 📈 韩国存储芯片 利好",
+        "chain": "美光营收暴增→存储芯片景气确认→产业链上游（设备材料）订单预期上调",
+        "watch": "美光及SK海力士下一季度营收指引"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming ",
       "source": "CNBC",
       "detail": "Oil prices fell as investors bet global crude supplies will improve, as tankers stranded in the Persian Gulf for months have begun leaving the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "油价回吐战争涨幅，霍尔木兹海峡油轮恢复通行",
-        "assets": "📉 原油 承压",
-        "chain": "供应担忧（地缘风险）缓解，原油现货溢价（近期价格高于远期）回落，炼厂利润压缩",
-        "watch": "布伦特原油（Brent）及霍尔木兹海峡通行量"
+        "what": "霍尔木兹油轮恢复通行，油价回吐战争溢价",
+        "assets": "📉 原油 承压 📉 能源股 承压",
+        "chain": "供应中断缓解→原油库存预期回升→炼油利润（裂解价差）压缩→下游化工成本下降",
+        "watch": "霍尔木兹海峡通行量及OPEC产量数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
       "source": "CNBC",
       "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美光股价涨15%，内存紧缩导致营收翻四倍",
-        "assets": "📈 美股半导体 利好\n📈 存储芯片 利好",
-        "chain": "AI需求（人工智能训练）和供应短缺（产能不足）推高DRAM（动态随机存取存储器）价格，利好产业链",
-        "watch": "美光下季度营收指引及DDR5价格"
+        "what": "美光营收因存储涨价四倍，股价跳涨15%",
+        "assets": "📈 存储芯片 利好 📈 美股科技 利好",
+        "chain": "存储涨价→芯片厂利润飙升→资本开支（建厂设备）扩张→利好半导体设备商",
+        "watch": "DRAM/NAND现货价格及美光资本开支计划"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "去年韩国在美金融资产首次突破1万亿美元，创历史新高",
       "source": "环球市场播报",
       "detail": " 韩国央行周四发布的一份报告显示，受华尔街股市上涨吸引，韩国投资者加大对美国股市的投资，导致韩国在美国的金融资产去年创下历史新高。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "韩国在美金融资产首破1万亿美元",
-        "assets": "📈 美元资产 利好\n📉 韩元 承压",
-        "chain": "资本外流（韩国资金涌入美国）推高美元需求，韩元贬值压力增大，美股受益",
-        "watch": "韩元兑美元汇率及韩国资本流出数据"
+        "what": "去年韩国在美金融资产首破1万亿美元",
+        "assets": "📈 美元资产 利好 📈 韩元 承压",
+        "chain": "资本外流→韩元贬值压力→韩国央行可能干预汇市（抛美元买韩元）",
+        "watch": "韩元汇率及韩国国际收支平衡表"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "沪指涨0.23%，创指涨2.84%：半导体、AI硬件端持续发酵",
+      "source": "澎湃新闻",
+      "detail": "A股三大股指6月25日开盘涨跌互现。盘初指数分化，沪指窄幅震荡，深市冲高回落创指更是一度转跌。午前券商股的拉升，带动两市携手上涨。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "沪指微涨，创指大涨2.84%，半导体AI硬件领涨",
+        "assets": "📈 A股半导体 利好 📈 A股AI硬件 利好",
+        "chain": "政策+业绩驱动→资金涌入半导体AI→带动创业板（成长股指数）估值扩张",
+        "watch": "半导体板块成交量及AI硬件订单数据"
       }
     }
   ]
