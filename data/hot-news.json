@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 03:10",
+  "updateTime": "2026-06-26 03:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "芝加哥联储主席称通胀仍高，但支持沃什",
-        "assets": "📈 美国国债收益率 上行，📉 美股 承压",
-        "chain": "鹰派言论（偏紧缩政策立场）强化加息预期，压制风险偏好，利好避险资产",
-        "watch": "下周CPI（消费者物价指数）数据"
+        "what": "法官阻止特朗普限制研究生贷款规则",
+        "assets": "📈 教育类股 利好，📉 学生贷款ABS（资产支持证券） 承压",
+        "chain": "政策不确定性增加，信贷市场（贷款市场）风险偏好短期改善",
+        "watch": "上诉法院裁决进展"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "In a live CNBC interview from his home district, the policymaker declined to speculate on where he thinks interest rates are headed.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "古尔斯比称通胀过高，沃什受关注",
+        "assets": "📈 美元 利好，📉 黄金 承压",
+        "chain": "鹰派言论（主张加息）强化紧缩预期，削弱风险资产（股票）吸引力",
+        "watch": "美联储下次会议点阵图（利率预测）"
+      }
     },
     {
       "rank": 3,
@@ -39,10 +45,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国GDP上修至2.1%，加息预期降温",
-        "assets": "📈 黄金 短线走高，📉 美元指数 承压",
-        "chain": "GDP上修缓解衰退担忧，降息预期（借钱成本降低预期）升温，利好风险资产",
-        "watch": "今晚PCE（个人消费支出物价指数）数据"
+        "what": "美国GDP增速上修至2.1%，超预期",
+        "assets": "📈 美元指数 利好，📈 美债收益率 上行",
+        "chain": "经济韧性降低降息预期（加息预期升温），美元走强施压非美货币",
+        "watch": "下周PCE物价指数（通胀数据）"
       }
     },
     {
@@ -51,13 +57,7 @@
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "法官阻止特朗普限制部分研究生贷款规则",
-        "assets": "📈 教育板块 利好，📉 政府监管 承压",
-        "chain": "政策不确定性增加，教育股短期受益，但司法博弈可能拖累市场情绪",
-        "watch": "后续上诉进展"
-      }
+      "score": 30
     },
     {
       "rank": 6,
@@ -83,10 +83,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光财报亮眼涨16%，带动芯片股走强",
-        "assets": "📈 存储芯片 利好，📈 AI硬件 利好",
-        "chain": "存储需求强劲验证AI资本开支（资本支出）周期，提振半导体整个板块",
-        "watch": "SK海力士后续财报"
+        "what": "美光财报强劲，带动存储芯片上涨",
+        "assets": "📈 存储芯片（美光、SK海力士） 利好，📈 AI算力股 利好",
+        "chain": "HBM（高带宽内存）需求爆发，AI硬件（服务器）成本上升但算力瓶颈缓解",
+        "watch": "英伟达H100出货量数据"
       }
     },
     {
@@ -97,10 +97,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "苹果因内存涨价跌6%，MacBook和iPad提价",
-        "assets": "📉 苹果 利空，📈 美光/三星 存储股 利好",
-        "chain": "存储芯片涨价传导至下游消费电子，压缩利润率，拖累苹果产业链",
-        "watch": "苹果下一季毛利率指引"
+        "what": "苹果因存储涨价下跌6%",
+        "assets": "📉 苹果股价 利空，📈 存储芯片股（美光） 利好",
+        "chain": "成本传导压制消费电子（手机电脑）利润，但存储周期（供需周期）上行确认",
+        "watch": "苹果下季度毛利率指引"
       }
     },
     {
@@ -111,10 +111,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "亚马逊2030年前在印度追加130亿美元AI投资",
-        "assets": "📈 印度科技股 利好，📈 亚马逊 长期利好",
-        "chain": "AI基建扩张利好云服务，但短期增加资本支出，压制利润率",
-        "watch": "印度数字基建政策动向"
+        "what": "亚马逊拟在印度追加130亿美元AI投资",
+        "assets": "📈 印度IT服务股 利好，📉 中国云计算股 承压",
+        "chain": "全球AI基建（数据中心）向新兴市场转移，推高当地电力/土地成本",
+        "watch": "印度政府AI政策细则"
       }
     }
   ]
