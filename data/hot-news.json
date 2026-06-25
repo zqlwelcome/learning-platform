@@ -1,88 +1,88 @@
 {
-  "updateTime": "2026-06-25 20:40",
+  "updateTime": "2026-06-25 20:45",
   "news": [
     {
       "rank": 1,
-      "title": "Micron stock jumps over 16% in premarket trading after blockbuster earnings ",
-      "source": "CNBC",
-      "detail": "The company's revenue more than quadrupled from $9.3 billion a year earlier to $41.46 billion, it reported on Wednesday",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "美光财报超预期，盘前涨超16%",
-        "assets": "📈 美股半导体 利好",
-        "chain": "提振AI芯片需求预期，利好英伟达、AMD等产业链（二阶效应）",
-        "watch": "美光盘后走势及同行财报"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
       "source": "CNBC",
       "detail": "The personal consumption expenditures price index was expected to show a 4.1% annual increase.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国5月核心通胀率3.4%，创去年10月新高",
-        "assets": "📉 美债 承压",
-        "chain": "通胀顽固，降息预期降温，美元走强，新兴市场资本外流（传导链）",
-        "watch": "下周FOMC（美联储议息会议）点阵图"
+        "what": "美5月核心通胀3.4%，创去年10月新高",
+        "assets": "📉 美股科技股 承压 📈 美元 走强",
+        "chain": "通胀顽固→降息预期推迟→美债收益率（借钱成本）上升→压制高估值成长股",
+        "watch": "今晚PCE（个人消费支出）数据及美联储官员讲话"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "英特尔参投AI芯片企业SambaNova估值增至五倍，达到100亿美元",
       "source": "环球市场播报",
       "detail": " 当下，人工智能开发企业与云服务商都在寻找可以替代行业龙头英伟达的高性价比方案，能够与英伟达正面竞争的 AI 服务器芯片迎来前所未有的市场需求。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "英特尔参投AI芯片公司SambaNova估值达100亿美元",
-        "assets": "📈 AI芯片板块 利好",
-        "chain": "资本涌入AI基础设施，加速算力竞争，利好上游芯片设计（二阶效应）",
-        "watch": "SambaNova后续融资及客户签约"
+        "what": "英特尔参投SambaNova估值达100亿美元",
+        "assets": "📈 美股AI芯片 利好 📈 英特尔 情绪提振",
+        "chain": "资本涌入AI初创→算力需求（对芯片的购买力）预期升温→带动芯片产业链",
+        "watch": "SambaNova下一轮融资及客户订单"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "新晋A股第6！001309午后涨停",
       "source": "证券时报",
       "detail": "科技股表现活跃。 6月25日，A股主要股指全线走高，创业板指大涨近3%，科创综指涨超2%；港股弱势下探，恒生指数、恒生科技指数均跌超1%。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "A股新股001309午后涨停，成A股第6",
-        "assets": "📈 次新股 短线利好",
-        "chain": "资金追逐稀缺标的，可能带动打新情绪回暖（传导链）",
-        "watch": "次日换手率及封单量"
+        "what": "新晋A股第6！001309午后涨停",
+        "assets": "📈 A股次新股 短线利好",
+        "chain": "游资（短期投机资金）炒作次新→带动小盘股情绪→但无基本面支撑易回调",
+        "watch": "次日成交量及龙虎榜（主力资金动向）数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "鹏博士多项违规最后退市，已有区间胜诉需抓紧索赔",
       "source": "市场资讯",
       "detail": " 鹏博士曾在2024年8月16日告收到证监会《行政处罚决定书》，经查明，鹏博士未按规定披露关联交易和重大合同，同时2012年-2022年年报存在虚假记载。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "鹏博士多项违规退市，已有胜诉索赔",
-        "assets": "📉 问题股/ST板块 利空",
-        "chain": "监管趋严，退市常态化，资金向绩优股避险（二阶效应）",
-        "watch": "其他ST股退市风险公告"
+        "what": "鹏博士多项违规退市，投资者可索赔",
+        "assets": "📉 A股ST板块 利空 📉 中小盘股 情绪承压",
+        "chain": "退市常态化→资金逃离问题股→转向蓝筹（大盘绩优股）避险",
+        "watch": "其他ST股是否跟跌及索赔进度"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Micron topped lofty earnings expectations. Wall Street sees even more momentum as chipmaker announces a slew of deals",
       "source": "CNBC",
       "detail": "Micron delivered a strong earnings beat on Wednesday in addition to unveiling a slew of new deals that have analysts even more excited about the stock's future.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光业绩超预期，华尔街看好后续动能",
-        "assets": "📈 存储芯片 利好",
-        "chain": "HBM（高带宽内存）需求强劲，拉动设备商应用材料等（传导链）",
-        "watch": "美光季度指引及订单量"
+        "what": "美光超预期并宣布多项交易，华尔街看多",
+        "assets": "📈 美股存储芯片 利好 📈 费城半导体指数 走强",
+        "chain": "存储涨价（供不应求）→AI服务器需求→带动整个半导体周期向上",
+        "watch": "美光下季度指引及DRAM（内存芯片）现货价格"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Apple raises prices on MacBook and iPad due to memory crunch, hints at more to come",
+      "source": "CNBC",
+      "detail": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "苹果因内存短缺上调MacBook/iPad价格",
+        "assets": "📈 存储芯片 利好 📉 苹果供应链 成本承压",
+        "chain": "内存短缺→苹果转嫁成本→消费者或延迟换机→但利好美光等存储厂",
+        "watch": "苹果下一季出货量及存储合约价"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "温蒂汉堡成新meme股，散户连续两日推涨",
-        "assets": "📈 餐饮板块 短线异动",
-        "chain": "散户情绪炒作，类似游戏驿站，但基本面弱，波动大（二阶效应）",
-        "watch": "Reddit论坛热度及空头仓位"
+        "what": "Wendy's因散户追捧连续两日大涨",
+        "assets": "📈 美股meme股 短线利好",
+        "chain": "散户情绪（非理性乐观）蔓延→空头（做空者）被迫回补→但无业绩支撑",
+        "watch": "Reddit论坛热度及做空比例变化"
       }
     },
     {
@@ -107,38 +107,38 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "盘前异动股：美光、高通、IBM、温蒂等",
-        "assets": "📈 科技股 分化",
-        "chain": "财报驱动个股，大盘受宏观数据压制，资金轮动（传导链）",
-        "watch": "开盘后成交量及板块轮动"
+        "what": "盘前异动：美光、高通、IBM等涨跌不一",
+        "assets": "📈 美光 利好 📉 IBM 承压",
+        "chain": "财报季预期差（实际与预测差距）主导盘前波动→影响开盘后板块轮动",
+        "watch": "各股开盘后成交量及趋势延续性"
       }
     },
     {
       "rank": 9,
+      "title": "美光Q3营收暴涨346%，投资者再度押注人工智能赛道",
+      "source": "环球市场播报",
+      "detail": " 本周二，投资者纷纷抛售人工智能概念股，担忧行业估值泡沫严重、已经脱离基本面。但到了周四，市场情绪再度反转，投资者重新看多 AI 赛道。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "美光Q3营收暴涨346%，AI押注再升温",
+        "assets": "📈 美股AI芯片 利好 📈 存储板块 走强",
+        "chain": "AI训练（模型学习）需求→HBM（高带宽内存）供不应求→带动整个存储涨价周期",
+        "watch": "美光HBM产能扩张及英伟达订单"
+      }
+    },
+    {
+      "rank": 10,
       "title": "易捷航空拒绝64.9亿美元修正报价后，同意向卡斯尔莱克开放尽职调查资料",
       "source": "环球市场播报",
       "detail": "本次收购报价截止日期延长 9 天至 7 月 5 日易捷航空表示，公司仍对本次收购的股权架构以及对方能否顺利完成要约收购存有顾虑。 英国廉航易捷航空（股价上涨 7...",
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "易捷航空拒绝64.9亿美元报价后开放尽职调查",
-        "assets": "📈 航空板块 并购预期利好",
-        "chain": "并购溢价可能推高同行估值，如瑞安航空（二阶效应）",
-        "watch": "卡斯尔莱克是否提价或放弃"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "现货黄金失守4000美元、白银跌破60美元关口：贵金属牛市行情是否已然褪色？",
-      "source": "环球市场播报",
-      "detail": "核心要点周四，现货黄金价格徘徊在 4000 美元 / 盎司关口下方，现货白银交易价格跌破 60 美元 / 盎司。今年以来黄金价格累计下跌近 8%，白银跌幅超 20%。",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "现货黄金失守4000美元，白银跌破60美元",
-        "assets": "📉 贵金属 承压",
-        "chain": "通胀高企+美元走强，实际利率上升，贵金属避险需求下降（传导链）",
-        "watch": "下周非农数据及美联储讲话"
+        "what": "易捷航空拒绝收购后开放尽职调查",
+        "assets": "📈 英国航空股 并购利好 📈 易捷航空 估值提升",
+        "chain": "收购方让步→行业整合预期（公司合并）→航空板块估值重估",
+        "watch": "卡斯尔莱克是否提价及监管审批进展"
       }
     }
   ]
