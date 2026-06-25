@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 09:41",
+  "updateTime": "2026-06-25 09:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO市场低迷，财阀结构制约上市",
-        "assets": "📉 韩国KOSPI指数 承压",
-        "chain": "抑制股权融资（公司上市融资能力），资金流向债市避险",
-        "watch": "韩国财阀改革政策及IPO审批节奏"
+        "what": "韩国IPO市场低迷，财阀结构限制上市",
+        "assets": "📉 韩国股市 利空",
+        "chain": "IPO减少→流动性收缩→中小盘股承压（资金面收紧）",
+        "watch": "韩国综合指数及新股破发率"
       }
     },
     {
@@ -23,70 +23,84 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电，欧洲遭遇创纪录高温",
-        "assets": "📉 欧洲电力股 利空；📈 天然气期货 利多",
-        "chain": "电力短缺推高能源价格（电力和天然气成本），加剧通胀压力",
-        "watch": "法国电力恢复时间及极端天气持续时间"
+        "what": "法国大停电叠加欧洲创纪录高温",
+        "assets": "📈 欧洲电力股 利好；📉 法国制造业 利空",
+        "chain": "电力短缺→电价飙升→通胀预期升温（成本推升型通胀）",
+        "watch": "法国电力恢复时间及电价期货"
       }
     },
     {
       "rank": 3,
+      "title": "群策科技港股IPO：突击清仓式分红28亿控股股东拿走九成 产销高度依赖关联方25年业绩转弱背离行业趋势",
+      "source": "新浪证券",
+      "detail": "出品：新浪财经上市公司研究院 作者：渚 2026年6月8日，苏州群策科技股份有限公司（以下简称“群策科技”）首次向联交所主板提交上市申请，中信证券担任独家保荐人。",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "群策科技港股IPO前突击分红28亿，控股股东拿走九成",
+        "assets": "📉 港股新股市场 利空",
+        "chain": "清仓式分红→投资者质疑公司治理→IPO认购冷清（散户避险）",
+        "watch": "群策科技IPO认购倍数及首日表现"
+      }
+    },
+    {
+      "rank": 4,
       "title": "美国芯片巨头发布“炸裂”财报：单季度营收暴增346%！股价盘后暴涨近16%，带动美股芯片股集体大涨",
       "source": "每日经济新闻",
       "detail": "美国芯片巨头美光科技周三美股盘后公布财报显示，第三财季经调整营收414.6亿美元，上年同期93.0亿美元，同比增长约346%；第三财季调整后运营收益336.8亿美元，上年同期24...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美国芯片巨头营收暴增346%，股价盘后涨16%",
+        "what": "美国芯片巨头财报营收暴增346%，盘后涨近16%",
         "assets": "📈 美股芯片股 利好",
-        "chain": "业绩超预期提振科技板块情绪（风险偏好上升），资金从防御股轮动",
-        "watch": "次日开盘成交量及同业财报跟进"
+        "chain": "AI需求爆发→芯片订单暴增→带动半导体产业链（如设备、材料）",
+        "watch": "AMD、英伟达等同行财报及AI资本开支指引"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
       "source": "CNBC",
       "detail": "The Fed's annual exercise comes at a pivotal moment for bank regulation because, unlike previous years, the results will not affect capital requirements.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储压力测试：银行可承受7080亿美元损失",
-        "assets": "📈 美股银行股 利好",
-        "chain": "银行资本缓冲充足（抗风险能力强），降低监管收紧预期",
-        "watch": "新资本规则最终版本及银行分红回购计划"
+        "what": "美联储压力测试显示银行可承受7080亿美元损失",
+        "assets": "📈 美国银行股 利好",
+        "chain": "资本规则改革落地→银行风险缓冲充足→分红回购预期升温（股东回报改善）",
+        "watch": "银行股股息及回购公告"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦学生贷款利率新折扣，部分人可享优惠",
-        "assets": "📉 美国消费信贷 承压",
-        "chain": "教育贷款成本降低（利息支出减少），可能刺激消费但压制银行利息收入",
-        "watch": "学生贷款申请量及银行消费贷坏账率"
+        "what": "美国联邦学生贷款利率折扣新政策公布",
+        "assets": "📈 消费信贷 中性偏利好",
+        "chain": "利率下降→学生贷款负担减轻→可支配收入增加→消费支出（可选消费）",
+        "watch": "学生贷款违约率及零售销售数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "阿波罗首席经济学家：油价下跌或将进一步推高美国通胀，迫使美联储很快加息",
       "source": "环球市场播报",
       "detail": "原油价格正回落至伊朗冲突前的水平附近，但一位经济学家认为，这并不意味着美国的通胀会下降。 当地时间周三，美国原油价格下跌约4%，一度跌破每桶70美元...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "阿波罗首席经济学家：油价下跌或推高通胀，迫使美联储加息",
-        "assets": "📉 美股大盘 利空；📈 美元指数 利多",
-        "chain": "油价跌→需求回升预期→通胀顽固（物价上涨）→加息预期升温",
-        "watch": "美国CPI及核心PCE（个人消费支出物价指数）数据"
+        "what": "阿波罗首席经济学家警告油价下跌可能推高通胀",
+        "assets": "📈 美债收益率 上行；📉 美股成长股 利空",
+        "chain": "油价跌→通胀预期反弹→美联储加息概率上升→风险资产承压（利率敏感型）",
+        "watch": "美国CPI数据及美联储官员讲话"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
       "source": "CNBC",
       "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
@@ -94,13 +108,13 @@
       "score": 27,
       "insight": {
         "what": "美光股价涨15%，存储芯片价格飙升致营收翻四倍",
-        "assets": "📈 美股存储芯片股 利好",
-        "chain": "内存短缺（供需失衡）推高价格，利好供应商但压制下游电子成本",
-        "watch": "DRAM/NAND（存储芯片）现货价格及产能扩张计划"
+        "assets": "📈 存储芯片股 利好；📈 科技硬件 利好",
+        "chain": "存储涨价→AI服务器成本上升→云厂商资本开支增加（产业链传导）",
+        "watch": "美光下一季指引及DRAM/NAND现货价格"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Qualcomm stock pops 15% after chipmaker almost doubles projection for 2029 non-handset revenue",
       "source": "CNBC",
       "detail": "Qualcomm's primary business has been smartphones, which accounted for two-thirds of the company's product revenue in it's most recent quarter.",
@@ -108,37 +122,23 @@
       "score": 27,
       "insight": {
         "what": "高通股价涨15%，非手机业务营收预期翻倍",
-        "assets": "📈 高通及物联网芯片股 利好",
-        "chain": "汽车/边缘计算（非手机芯片）需求爆发，估值逻辑从周期股转向成长",
-        "watch": "高通汽车芯片订单及竞争对手财报"
+        "assets": "📈 高通 利好；📈 物联网/汽车芯片 利好",
+        "chain": "IoT及汽车芯片需求爆发→高通多元化成功→估值重塑（成长溢价）",
+        "watch": "高通汽车及物联网业务具体营收数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
       "source": "CNBC",
       "detail": "A decline in chip stocks dragged down the Nasdaq Composite on Wednesday. The S&P 500 ended the session slightly lower.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "周四美股大故事：关注下个交易日潜在波动",
-        "assets": "📈 标普500指数 中性",
-        "chain": "市场消化财报和宏观数据，波动率（VIX恐慌指数）可能上升",
-        "watch": "美联储官员讲话及ISM制造业PMI（采购经理人指数）"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Trump meets defense CEOs as Iran operations strain U.S. missile stockpiles",
-      "source": "CNBC",
-      "detail": "The White House is pressing major defense firms to expand missile and munitions output as Iran talks and weapons stockpile concerns put new pressure on the Pentagon’s industrial base.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "特朗普会晤国防CEO，伊朗行动消耗美国导弹库存",
-        "assets": "📈 美股军工股 利好",
-        "chain": "地缘紧张（中东局势）刺激国防开支，供应链（导弹零部件）受益",
-        "watch": "美国国防预算追加及伊朗冲突升级信号"
+        "what": "明日美股市场焦点：大型科技股财报及宏观数据",
+        "assets": "📈 美股整体 中性",
+        "chain": "财报季关键节点→市场波动率上升→期权隐含波动率（VIX）",
+        "watch": "盘前PMI数据及亚马逊、谷歌财报"
       }
     }
   ]
