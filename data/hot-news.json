@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 20:26",
+  "updateTime": "2026-06-25 20:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 84,
       "insight": {
-        "what": "美光财报超预期，股价盘前大涨16%",
-        "assets": "📈 半导体板块 利好；📈 纳指期货 上涨",
-        "chain": "DRAM（内存芯片）供需改善→科技股risk-on（风险偏好提升）→纳指走强",
-        "watch": "美光正式开盘价及成交量确认"
+        "what": "美光财报超预期，纳指期货上涨",
+        "assets": "📈 纳指期货 利好; 📈 美光 利好",
+        "chain": "科技股情绪提振，AI芯片需求预期升温（AI算力投资增加），可能带动半导体ETF上涨",
+        "watch": "今晚PCE（个人消费支出物价指数）数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "Wendy's成新meme股，散户连续推涨",
-        "assets": "📈 Wendy's 脉冲；📈 散户概念股 联动",
-        "chain": "WSB（散户论坛）情绪点燃→空头挤压（逼空）→短期波动率飙升",
-        "watch": "Reddit论坛提及频率及空头持仓变化"
+        "what": "美光盘前涨超16%，财报强劲",
+        "assets": "📈 美光 利好; 📈 半导体行业 利好",
+        "chain": "存储器价格预期走高（供需紧张），利好三星、海力士等同业，但对下游硬件厂商成本承压",
+        "watch": "美光下一季度指引和HBM（高带宽内存）订单量"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "英特尔参投SambaNova估值升至100亿",
-        "assets": "📈 AI芯片板块 利好；📈 英特尔 战略利好",
-        "chain": "AI算力需求验证→资本涌入AI初创→推高芯片股估值（市盈率）",
-        "watch": "SambaNova后续融资或上市进展"
+        "what": "英特尔参投SambaNova估值升至100亿美元",
+        "assets": "📈 AI芯片初创 利好; 📉 英特尔 中性",
+        "chain": "AI芯片赛道竞争加剧（英伟达、AMD等），英特尔布局多元化，但主业仍面临压力",
+        "watch": "SambaNova后续融资或IPO动态"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "A股001309午后涨停成新晋第6",
-        "assets": "📈 A股次新股 脉冲；📈 游资情绪 提振",
-        "chain": "游资（短线资金）封板→散户跟风→次新板块短期投机热度上升",
-        "watch": "次日开盘溢价及换手率"
+        "what": "A股001309午后涨停，成新晋第6",
+        "assets": "📈 该个股 利好; 📈 次新股板块 情绪提振",
+        "chain": "资金集中炒作单一标的，可能引发游资跟风（短线交易活跃），但高波动风险增加",
+        "watch": "次日开盘量能及换手率"
       }
     },
     {
@@ -65,19 +65,25 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "鹏博士违规退市，投资者可索赔",
-        "assets": "📉 退市风险股 警示；📉 散户信心 承压",
-        "chain": "监管趋严（退市常态化）→垃圾股流动性枯竭→资金向蓝筹（优质大盘股）迁移",
-        "watch": "后续索赔案例数量及判决"
+        "what": "鹏博士因多项违规退市，投资者索赔",
+        "assets": "📉 鹏博士 利空; 📉 退市风险股 承压",
+        "chain": "监管趋严（退市常态化），资金从ST板块流出，转向绩优股避险",
+        "watch": "后续索赔进展及监管处罚力度"
       }
     },
     {
       "rank": 6,
-      "title": "Gold hovers around $4,000, silver holds below $60 — has the shimmer worn off the precious metal rally? ",
+      "title": "Micron topped lofty earnings expectations. Wall Street sees even more momentum as chipmaker announces a slew of deals",
       "source": "CNBC",
-      "detail": "Gold is down almost 8% so far this year, while silver has shed more than 20%.",
+      "detail": "Micron delivered a strong earnings beat on Wednesday in addition to unveiling a slew of new deals that have analysts even more excited about the stock's future.",
       "lang": "en",
-      "score": 32
+      "score": 29,
+      "insight": {
+        "what": "美光超预期且宣布多项交易，华尔街看多",
+        "assets": "📈 美光 利好; 📈 存储芯片 利好",
+        "chain": "数据中心和AI需求强劲（企业资本开支增加），带动上游设备商如应用材料",
+        "watch": "美光新客户订单和库存水平"
+      }
     },
     {
       "rank": 7,
@@ -85,7 +91,13 @@
       "source": "CNBC",
       "detail": "The stock's advance appeared largely disconnected from company fundamentals and instead reflected a burst of social-media enthusiasm.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "Wendy's因散户追捧成新meme股，连涨两日",
+        "assets": "📈 Wendy's 利好; 📈 散户抱团股 情绪提振",
+        "chain": "meme股（网红股）现象重燃，可能带动其他低流通股波动，但基本面未变",
+        "watch": "Reddit等论坛讨论热度及空头头寸变化"
+      }
     },
     {
       "rank": 8,
@@ -93,7 +105,13 @@
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves in the premarket.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "盘前波动股：美光、高通、IBM、Wendy's",
+        "assets": "📈 美光 利好; 📈 高通 波动; 📈 IBM 波动; 📈 Wendy's 利好",
+        "chain": "科技股分化，资金聚焦财报和消息面，短期交易机会增多",
+        "watch": "各股开盘后实际表现及成交量"
+      }
     },
     {
       "rank": 9,
@@ -103,10 +121,10 @@
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "易捷航空拒绝报价但开放尽职调查",
-        "assets": "📈 易捷航空 收购溢价；📉 欧洲航空业 整合预期",
-        "chain": "潜在收购→航空业整合加速→竞对如瑞安航空可能受竞争压力",
-        "watch": "卡斯尔莱克正式报价是否提高"
+        "what": "易捷航空拒绝64.9亿美元收购，但开放尽职调查",
+        "assets": "📈 易捷航空 利好; 📈 航空板块 并购情绪",
+        "chain": "收购溢价预期升温（潜在提价），可能引发其他航空股并购猜测",
+        "watch": "卡斯尔莱克是否提高报价或放弃"
       }
     },
     {
@@ -117,10 +135,10 @@
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "金银价格回调：黄金跌破4000，白银失守60",
-        "assets": "📉 黄金 承压；📉 白银 承压；📈 美元 走强",
-        "chain": "贵金属多头获利了结→避险需求降温→实际利率（通胀调整后利率）预期走升",
-        "watch": "今晚PCE（个人消费支出物价指数）数据公布"
+        "what": "现货黄金失守4000美元，白银跌破60美元",
+        "assets": "📉 黄金 利空; 📉 白银 利空; 📉 贵金属板块 承压",
+        "chain": "美元走强或利率预期上升（实际利率提高），资金从避险资产流出，转向风险资产",
+        "watch": "美联储下次会议利率预期及美元指数"
       }
     }
   ]
