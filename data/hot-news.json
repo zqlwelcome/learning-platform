@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 06:06",
+  "updateTime": "2026-06-26 06:11",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀仍高，纽约联储主席认为压力缓解",
-        "assets": "📉 美债利率 承压（短期），📈 美股 分化",
-        "chain": "鹰鸽分歧暗示美联储内部分裂，市场押注降息（借钱成本降低）时点将推迟，短端利率（短期债券收益率）波动加大",
+        "what": "芝加哥联储主席称通胀过高，威廉姆斯认为压力缓解",
+        "assets": "📉 美债收益率 上行",
+        "chain": "鹰鸽分歧加大，市场对降息（借钱成本降低）预期摇摆，短端利率波动",
         "watch": "周五PCE（个人消费支出物价指数）数据"
       }
     },
@@ -23,14 +23,28 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "美股涨跌不一，纳指四连跌，非AI板块走强",
-        "assets": "📉 纳指 承压，📈 小盘股/价值股 利好",
-        "chain": "资金从AI龙头轮动至非科技板块，市场风格切换（rotation），防御性和周期股（如工业、金融）获青睐",
-        "watch": "罗素2000指数（小盘股指数）相对纳指表现"
+        "what": "美股涨跌互现，纳指四连跌，非AI板块走强",
+        "assets": "📉 纳指 承压；📈 美股小盘股 利好",
+        "chain": "资金从AI（人工智能）龙头轮动至价值股，小盘股补涨（涨幅落后后的追赶行情）",
+        "watch": "纳指是否跌破50日均线（50天平均价格）"
       }
     },
     {
       "rank": 3,
+      "title": "美联储威廉姆斯“放鸽”：当前货币政策立场足以推动通胀回落至2%",
+      "source": "市场资讯",
+      "detail": "转自：财联社财联社6月26日讯（编辑 牛占林）纽约联储主席威廉姆斯周四表示，当前的货币政策立场能够有效推动通胀持续回落至美联储2%的目标水平，但他同时承认...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "威廉姆斯鸽派表态：当前利率足以压制通胀",
+        "assets": "📈 美股 利好",
+        "chain": "强化9月降息预期，美元走弱，风险资产（股票、商品）偏好提升",
+        "watch": "下周美联储会议纪要（会议记录）措辞"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Ariel’s John Rogers likes these small-cap names as the market rally broadens",
       "source": "CNBC",
       "detail": "Ariel Investments' John Rogers highlighted for-profit education company Covista as a small-cap stock he's currently bullish on.",
@@ -38,27 +52,27 @@
       "score": 30,
       "insight": {
         "what": "Ariel基金经理看好小盘股，市场涨势扩散",
-        "assets": "📈 小盘股 利好",
-        "chain": "涨势扩散（broadening）暗示资金从超买的大盘科技股流向估值洼地，小盘股有补涨空间",
-        "watch": "小盘股ETF（如IWM）资金流入量"
+        "assets": "📈 美股小盘股 利好",
+        "chain": "小盘股跑赢大盘，资金从科技巨头流出，美股宽度（上涨股票数量占比）改善",
+        "watch": "罗素2000指数（小盘股指数）相对标普500走势"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "法官裁定针对特朗普DOJ‘反武器化’基金的诉讼可继续",
-        "assets": "📉 政治不确定性 利空",
-        "chain": "诉讼推进可能加剧两党对立，影响财政支出预期，但短期对市场冲击有限，更多是情绪扰动",
-        "watch": "诉讼后续裁决时间表"
+        "what": "针对特朗普司法部反武器化基金的诉讼被允许继续",
+        "assets": "📉 特朗普相关股 承压",
+        "chain": "政治不确定性增加，法律风险可能影响特朗普媒体等关联公司估值",
+        "watch": "案件是否进入证据开示阶段（证据交换）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "美国股市：标普500指数四连跌 苹果涨价削弱芯片股利好",
       "source": "环球市场播报",
       "detail": " 标普500指数在震荡交投中收盘基本持平，苹果上调部分产品售价的举动在一定程度上削弱了围绕芯片制造商强劲业绩展望的乐观情绪。",
@@ -66,13 +80,13 @@
       "score": 22,
       "insight": {
         "what": "标普500四连跌，苹果涨价抵消芯片股利好",
-        "assets": "📉 标普500 承压，📉 苹果 利空，📈 芯片股 利好被抵消",
-        "chain": "苹果涨价（iPhone高价策略）引发需求担忧，拖累消费电子板块，芯片股受益于AI需求但无法独撑大盘",
-        "watch": "苹果下季度财报指引"
+        "assets": "📉 标普500 承压；📉 苹果 承压",
+        "chain": "苹果估值过高引发获利了结，拖累科技权重板块，市场情绪转弱",
+        "watch": "苹果股价是否跌破180美元支撑位"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "美国寻求与欧盟建立人工智能伙伴关系 聚焦监管与供应链合作",
       "source": "环球市场播报",
       "detail": "美国提议欧盟加入一项人工智能伙伴关系，以构建保障半导体供应链安全的联盟。 声明草案称：“考虑到从关键矿产、能源到计算机与半导体制造等人工智能物理支柱的至关重要性...",
@@ -80,65 +94,51 @@
       "score": 20,
       "insight": {
         "what": "美国寻求与欧盟建立AI伙伴关系，聚焦监管与供应链",
-        "assets": "📈 全球AI产业链 利好",
-        "chain": "美欧合作降低监管壁垒（如数据跨境流动），利好AI芯片、云计算供应商，但可能加速对华技术限制",
-        "watch": "欧盟AI法案（人工智能监管法规）最终文本"
+        "assets": "📈 AI芯片股 利好",
+        "chain": "供应链合作利好半导体设备商，监管协调降低合规成本，加速AI商业化",
+        "watch": "欧盟AI法案（人工智能法规）最终文本"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "On Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
       "source": "CNBC",
       "detail": "On Semiconductor said the deal bumps up its total addressable market by $30 billion to $243 billion by 2030.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "安森美半导体70亿美元收购Synaptics，押注物理AI",
-        "assets": "📈 安森美 利好，📈 半导体并购板块 利好",
-        "chain": "物理AI（如机器人、自动驾驶）成为新热点，并购溢价（收购价高于市价）提振行业估值，但需警惕整合风险",
-        "watch": "Synaptics股价反应与监管审批"
+        "what": "安森美以70亿美元收购新思，押注物理AI",
+        "assets": "📈 安森美 利好；📈 半导体 利好",
+        "chain": "并购显示行业整合加速，物理AI（结合硬件的人工智能）成新赛道，利好汽车芯片",
+        "watch": "收购是否面临反垄断审查"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Stock futures are little changed after Nasdaq posts four-day losing run: Live updates",
       "source": "CNBC",
       "detail": "The technology-dominant Nasdaq Composite and broad S&P 500 index are both on pace to end the trading week in the red.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "美股期货小幅波动，纳指四连跌后市场观望",
-        "assets": "📉 美股期货 中性偏弱",
-        "chain": "期货横盘暗示多头犹豫，短线交易者等待方向确认，若纳指继续下跌可能触发程序化止损（算法自动卖出）",
-        "watch": "今晚美股开盘后纳指方向"
+        "what": "美股期货持平，纳指四连跌后市场观望",
+        "assets": "📉 纳指期货 承压",
+        "chain": "超买（买入过多）回调后市场缺乏方向，等待催化剂，波动率（价格变动幅度）可能上升",
+        "watch": "VIX（恐慌指数）是否突破15"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Democrats probe Trump's troubled $16 million reflecting pool renovation",
       "source": "CNBC",
       "detail": "President Donald Trump has attempted to spruce up Washington in advance of the country's 250th anniversary.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "民主党调查特朗普1600万美元泳池翻新工程",
-        "assets": "📉 政治风险 利空",
-        "chain": "调查可能影响特朗普竞选资金（campaign finance），增加选举不确定性，但市场对此类消息反应通常滞后",
-        "watch": "调查是否升级为国会听证"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "As Social Security faces trust fund depletion, some Washington lawmakers call for taxing high earners",
-      "source": "CNBC",
-      "detail": "High earners may only contribute Social Security payroll taxes for part of the year. As the program faces funding woes, some lawmakers say that should change.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "社会保障信托基金面临耗尽，部分议员呼吁对高收入者加税",
-        "assets": "📉 高收入阶层消费 承压，📉 股市 利空",
-        "chain": "加税预期（如提高工资税上限）将压制高收入者消费和投资，同时增加政府收入缓解赤字，但短期冲击市场情绪",
-        "watch": "两党预算谈判进展"
+        "what": "民主党调查特朗普16亿美元泳池翻新项目",
+        "assets": "📉 特朗普媒体 承压",
+        "chain": "财务问题再受关注，可能影响特朗普竞选资金，增加政治风险溢价",
+        "watch": "调查是否传唤特朗普财务记录"
       }
     }
   ]
