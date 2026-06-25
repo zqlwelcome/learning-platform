@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 02:11",
+  "updateTime": "2026-06-26 02:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美联储加息预期生变，黄金短线走高",
-        "assets": "📈 黄金 利好",
-        "chain": "避险需求上升，美元承压，美债收益率（债券价格与利率反向）可能回落",
-        "watch": "美联储官员讲话及PCE（个人消费支出）数据"
+        "what": "重要数据低于预期，市场押注美联储加息暂停",
+        "assets": "📈 黄金 短线利多",
+        "chain": "加息预期降温（借钱成本不再涨）→ 美元走弱（美元指数承压）→ 非美资产（新兴市场股债）获支撑",
+        "watch": "今晚美联储官员讲话及利率期货（加息概率）变动"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "比特币ETF创纪录资金外流，币价跌至2024年低点",
-        "assets": "📉 比特币 利空",
-        "chain": "风险偏好恶化，资金涌入美债避险，加密股（如Coinbase）承压",
-        "watch": "比特币持仓数据及监管动态"
+        "what": "比特币ETF遭遇创纪录资金外流，币价跌至2024年低点",
+        "assets": "📉 比特币 利空；📉 加密货币ETF 利空",
+        "chain": "ETF赎回（机构抛售）→ 流动性紧缩（买卖差价扩大）→ 矿工和交易所收入（Coinbase）承压",
+        "watch": "比特币现货ETF净流出额是否持续扩大"
       }
     },
     {
@@ -37,52 +37,52 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国核心通胀率5月升至3.4%，创去年10月新高",
-        "assets": "📉 美国国债 利空；📈 美元 利好",
-        "chain": "降息预期降温，科技成长股（对利率敏感）估值受压，避险资金流入美元",
-        "watch": "下周CPI（消费者物价指数）及美联储会议纪要"
+        "what": "美联储最关注的核心通胀率5月升至3.4%，创去年10月新高",
+        "assets": "📉 美股成长股 利空；📈 美元 利好",
+        "chain": "通胀顽固（物价涨不停）→ 降息预期（借钱成本降低希望）延后→ 科技股估值（未来现金流折现）承压",
+        "watch": "下周PCE（个人消费支出）数据及美联储点阵图"
       }
     },
     {
       "rank": 4,
+      "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
+      "source": "CNBC",
+      "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
+      "lang": "en",
+      "score": 33,
+      "insight": {
+        "what": "法官阻止特朗普限制部分研究生联邦贷款的规定",
+        "assets": "📈 美国教育类股 利好；📈 学生贷款ABS（资产支持证券）利好",
+        "chain": "贷款限制取消→ 学生借款需求恢复→ 教育机构收入（如Apollo Education）改善→ 消费信贷（贷款发放量）回暖",
+        "watch": "上诉法院是否发布临时禁制令"
+      }
+    },
+    {
+      "rank": 5,
       "title": "美国第一季度GDP环比折年率增速上修至2.1% 第二次估算值为1.6%",
       "source": "环球市场播报",
       "detail": "美国经济分析局数据显示，美国第一季度GDP环比折年率增速上修至2.1%，第二次估算值为1.6%。 44位经济学家的预测中值为增长1.6%（预测范围在+1.4%至+2.5%）。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国一季度GDP上修至2.1%，高于预期",
-        "assets": "📈 美股周期股 利好；📈 美元 利好",
-        "chain": "经济韧性削弱降息预期，美债收益率上行，新兴市场货币承压",
-        "watch": "二季度GDP初值及制造业PMI（采购经理指数）"
+        "what": "美国一季度GDP增速上修至2.1%高于初值",
+        "assets": "📈 美元 利好；📈 美股周期股 利好",
+        "chain": "GDP上修（经济更强）→ 衰退担忧（经济下滑风险）缓解→ 企业盈利预期（利润增长）上调→ 工业股（卡特彼勒）受益",
+        "watch": "二季度GDPNow（实时预测）数据是否维持高位"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普司法部反武器化基金诉讼案继续推进",
-        "assets": "📉 特朗普相关政治敏感资产 承压",
-        "chain": "政策不确定性上升，资金可能从政治风险资产撤出，转向防御板块",
-        "watch": "案件进展及中期选举动态"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
-      "source": "CNBC",
-      "detail": "Bond investors are abandoning aggregate benchmarks in favor of a broad mix of fixed-income investments to maximize yield with the stock market on edge.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "债券ETF资金流入激增，BlackRock高管称市场嗅到信号",
-        "assets": "📈 美国国债ETF 利好",
-        "chain": "追逐收益推高债券价格，压低利率，资金从股市轮动至债市",
-        "watch": "10年期美债收益率及信用利差变化"
+        "what": "法官允许就特朗普司法部‘反武器化’基金提起的诉讼继续",
+        "assets": "📉 美国司法相关ETF 利空；📈 法律诉讼服务股 利好",
+        "chain": "诉讼推进→ 司法部政策不确定性（政策变动风险）→ 相关行业（如科技公司）合规成本（法律开支）上升",
+        "watch": "案件是否进入证据开示阶段"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "苹果因内存成本上涨提价MacBook/iPad，股价跌6%",
-        "assets": "📉 苹果 利空；📈 存储芯片股（如美光） 利好",
-        "chain": "消费电子需求疲软信号，供应链成本压力传导至终端，拖累科技板块",
-        "watch": "苹果财报及存储芯片价格走势"
+        "what": "苹果因内存涨价导致MacBook和iPad提价，股价跌6%",
+        "assets": "📉 苹果股票 利空；📈 存储芯片股 利好",
+        "chain": "内存成本上升（芯片涨价）→ 苹果产品提价→ 需求可能下滑（消费者少买）→ 供应链（立讯精密）订单承压；存储厂（美光）盈利改善",
+        "watch": "苹果Q3财报中毛利率及Mac/iPad出货量指引"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "黑莓、Kymera等个股午盘异动，苹果跌幅居前",
-        "assets": "📉 苹果 利空；📈 黑莓（波动性） 中性",
-        "chain": "个股波动反映市场情绪分化，资金从大盘科技向小盘题材股轮动",
-        "watch": "各公司财报及催化剂事件"
+        "what": "黑莓、Kymera等个股盘中异动",
+        "assets": "📈 黑莓 盘中利好；📈 Kymera Therapeutics 盘中利好",
+        "chain": "个股消息驱动（公司公告/财报）→ 板块轮动（资金从大盘流向小盘）→ 波动率（VIX恐慌指数）短期上升",
+        "watch": "收盘前成交量是否持续放大"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美光财报亮眼涨16%，带动部分芯片股走强",
-        "assets": "📈 存储芯片 利好；📈 半导体板块 利好",
-        "chain": "AI需求拉动存储周期，提振科技股风险偏好，但需警惕估值过高",
-        "watch": "美光指引及AI芯片订单数据"
+        "what": "美光财报超预期暴涨16%，带动部分芯片股上涨",
+        "assets": "📈 美光 利好；📈 存储芯片板块 利好",
+        "chain": "AI需求（人工智能算力）拉动HBM（高带宽内存）订单→ 存储芯片周期（价格涨跌周期）反转确认→ 半导体设备（应用材料）间接受益",
+        "watch": "美光下季度营收指引是否继续超预期"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "SK海力士和美光财报报喜，巩固存储芯片AI明星地位",
-        "assets": "📈 存储芯片 利好；📈 AI相关科技股 利好",
-        "chain": "AI资本开支扩张，拉动上游设备及材料需求，半导体周期复苏确认",
-        "watch": "英伟达财报及云服务商资本开支计划"
+        "what": "SK海力士和美光财报均报喜，存储芯片成AI明星板块",
+        "assets": "📈 存储芯片股 利好；📈 AI相关硬件股 利好",
+        "chain": "AI训练（大模型运算）需要大量存储→ 存储芯片量价齐升（出货增、价格涨）→ 数据中心资本开支（云厂商建服务器）扩大→ 英伟达等GPU（图形处理器）需求同步受益",
+        "watch": "三星电子存储业务季度利润及HBM产能扩张进度"
       }
     }
   ]
