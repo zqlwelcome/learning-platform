@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 03:55",
+  "updateTime": "2026-06-26 04:01",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 42,
       "insight": {
         "what": "苹果拖累纳指，道指创新高，市场分化",
-        "assets": "📉 纳指 承压，📈 道指 利好",
-        "chain": "资金轮动至防御板块，科技股估值压力显现",
-        "watch": "苹果股价及纳指支撑位"
+        "assets": "📉 纳斯达克指数 承压\n📈 道琼斯指数 利好",
+        "chain": "资金从科技股轮动至周期股，防御性板块（如公用事业）受追捧",
+        "watch": "科技股财报及资金流向数据"
       }
     },
     {
@@ -23,66 +23,66 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联储官员对通胀看法不一，Goolsbee偏鹰，Williams偏鸽",
-        "assets": "📉 美债 承压，📈 美元 波动",
-        "chain": "市场降息预期分歧加大，短期利率波动率上升",
-        "watch": "下周CPI数据及联储讲话"
+        "what": "芝加哥联储主席称通胀过高，纽约联储主席认为压力缓解",
+        "assets": "📈 美元 利好\n📉 美债 承压",
+        "chain": "鹰派（支持紧缩）言论推高加息预期，短期利率上升压制风险资产",
+        "watch": "下周CPI（消费者物价指数）数据及美联储官员讲话"
       }
     },
     {
       "rank": 3,
+      "title": "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
+      "source": "CNBC",
+      "detail": "The personal consumption expenditures price index was expected to show a 4.1% annual increase.",
+      "lang": "en",
+      "score": 38,
+      "insight": {
+        "what": "5月核心通胀率3.4%，创去年10月新高",
+        "assets": "📉 美股 承压\n📈 美元 利好",
+        "chain": "通胀粘性增强加息预期，利率敏感板块（如房地产）受冲击",
+        "watch": "PCE（个人消费支出）数据及美联储6月点阵图"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
       "source": "CNBC",
       "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "法官阻止特朗普限制部分研究生助学贷款规定",
-        "assets": "📈 教育板块 利好",
-        "chain": "政策不确定性降低，学生贷款机构风险缓解",
-        "watch": "后续法院裁决及教育部回应"
+        "what": "法官阻止特朗普限制研究生贷款规则",
+        "assets": "📈 教育板块 利好\n📉 学生贷款ABS（资产支持证券） 承压",
+        "chain": "政策不确定性降低，贷款机构风险偏好改善，但财政赤字担忧上升",
+        "watch": "后续法院裁决及教育部政策调整"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "美国第一季度GDP环比折年率增速上修至2.1% 第二次估算值为1.6%",
       "source": "环球市场播报",
       "detail": "美国经济分析局数据显示，美国第一季度GDP环比折年率增速上修至2.1%，第二次估算值为1.6%。 44位经济学家的预测中值为增长1.6%（预测范围在+1.4%至+2.5%）。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国一季度GDP上修至2.1%，高于初值1.6%",
-        "assets": "📈 美元 利好，📉 黄金 承压",
-        "chain": "经济韧性降低降息预期，风险资产压力增加",
-        "watch": "二季度GDP初值及消费数据"
+        "what": "美国Q1 GDP上修至2.1%，高于预期",
+        "assets": "📈 美元 利好\n📈 美股 利好",
+        "chain": "经济韧性削弱降息预期，周期股（如工业）受益，但长端利率承压",
+        "watch": "Q2 GDP初值及ISM（供应管理协会）制造业指数"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "法官允许对特朗普司法部反武器化基金的诉讼继续",
-        "assets": "📉 政治风险 承压",
-        "chain": "法律纠纷延长增加政策不确定性，避险情绪升温",
-        "watch": "案件进展及中期选举影响"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Stocks making the biggest moves midday: BlackBerry, Kymera Therapeutics, Apple, Wendy's & more",
-      "source": "CNBC",
-      "detail": "These are the stocks posting the largest moves midday.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "黑莓、Kymera等个股盘中异动，苹果、温蒂等波动",
-        "assets": "📈 黑莓 利好，📉 苹果 承压",
-        "chain": "个股消息驱动交易，科技板块资金流向分散",
-        "watch": "财报及机构评级调整"
+        "what": "法官允许诉讼继续，针对特朗普司法部反武器化基金",
+        "assets": "📉 政治风险资产 承压",
+        "chain": "司法不确定性增加，影响政策透明度，避险情绪或推高黄金",
+        "watch": "案件进展及2024大选相关民调"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "SK海力士和美光财报利好，巩固存储芯片AI地位",
-        "assets": "📈 存储芯片 利好，📈 AI板块 利好",
-        "chain": "AI需求拉动存储周期，上游设备商受益",
-        "watch": "HBM（高带宽内存）订单及产能扩张"
+        "what": "SK海力士和美光报喜，巩固存储芯片AI地位",
+        "assets": "📈 存储芯片 利好\n📈 AI半导体 利好",
+        "chain": "AI需求拉动HBM（高带宽内存）订单，供应链企业（如设备商）受益",
+        "watch": "三星电子财报及AI芯片订单数据"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "亚马逊计划2030年前在印度追加130亿美元AI投资",
-        "assets": "📈 亚马逊 利好，📈 印度科技 利好",
-        "chain": "云服务(AWS)竞争加剧，印度数据中心需求激增",
-        "watch": "印度外资政策及亚马逊云收入增速"
+        "what": "亚马逊计划2030年前在印度新增130亿美元AI投资",
+        "assets": "📈 印度科技股 利好\n📈 云计算板块 利好",
+        "chain": "海外资本涌入，印度AI基础设施扩张，利好本地数据中心和云服务",
+        "watch": "亚马逊印度营收及AWS（亚马逊云）亚太市场份额"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美国慈善捐赠首次突破6000亿美元",
+        "what": "美国去年慈善捐赠首次突破6000亿美元",
         "assets": "📈 非营利板块 利好",
-        "chain": "高净值人群财富效应，消费和投资信心增强",
-        "watch": "税收政策及股市财富效应"
+        "chain": "高净值人群资产增值，捐赠增加或带动税收优惠相关资产（如DTC（捐赠者建议基金））",
+        "watch": "S&P 500走势及高净值人群财富报告"
       }
     },
     {
@@ -136,9 +136,9 @@
       "score": 20,
       "insight": {
         "what": "美国寻求与欧盟建立AI伙伴关系，聚焦监管与供应链",
-        "assets": "📈 AI板块 利好，📈 芯片 利好",
-        "chain": "跨大西洋合作降低监管风险，供应链本土化加速",
-        "watch": "欧盟AI法案进展及联合投资公告"
+        "assets": "📈 AI板块 利好\n📈 半导体 利好",
+        "chain": "跨大西洋合作降低监管风险，供应链协同利好设备商和芯片设计商",
+        "watch": "美欧AI联合声明及出口管制细则"
       }
     }
   ]
