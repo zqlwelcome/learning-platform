@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 21:16",
+  "updateTime": "2026-06-25 21:21",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 39,
       "insight": {
         "what": "美光财报超预期，盘前涨18%",
-        "assets": "📈 美光股价 利好；📈 半导体板块 利好",
-        "chain": "AI算力需求验证，带动存储芯片（内存）涨价预期，利好NVDA等AI产业链",
-        "watch": "美光Q4营收指引及AI芯片订单量"
+        "assets": "📈 美光科技 利好\n📈 半导体板块 利好",
+        "chain": "AI算力需求验证（AI训练需要大量存储芯片），带动存储芯片价格上行预期",
+        "watch": "美光Q3指引及AI相关收入占比"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国5月核心通胀3.4%，创去年10月新高",
-        "assets": "📉 美债 承压；📉 美股成长股 承压；📈 美元 走强",
-        "chain": "通胀顽固推迟降息（借钱成本降低），加息预期升温，风险资产估值承压",
-        "watch": "周三CPI数据及美联储官员讲话"
+        "what": "美国核心通胀率5月升至3.4%",
+        "assets": "📉 美股大盘 承压\n📈 美元指数 利好",
+        "chain": "通胀顽固（物价持续上涨）→降息延后（借钱成本维持高位）→科技股估值受压（未来现金流折现减少）",
+        "watch": "本周PCE（个人消费支出）数据及Fed官员讲话"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 35,
       "insight": {
         "what": "英特尔参投SambaNova估值达100亿美元",
-        "assets": "📈 AI芯片赛道 利好；📉 传统芯片 中性",
-        "chain": "大厂资本开支转向AI推理芯片，挤压传统CPU/GPU（中央/图形处理器）份额",
-        "watch": "SambaNova是否启动IPO（首次公开募股）"
+        "assets": "📈 AI芯片板块 利好\n📈 英特尔 利好",
+        "chain": "AI芯片赛道资本涌入（资金追逐高增长）→估值泡沫风险累积（价格脱离基本面）",
+        "watch": "SambaNova下一轮融资估值及营收数据"
       }
     },
     {
@@ -51,66 +51,66 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "A股新股票001309午后涨停",
-        "assets": "📈 该新股 利好；📉 次新股板块 中性偏空",
-        "chain": "游资短线炒作，可能引发次新股跟风，但风险较高，注意监管问询",
-        "watch": "次日开盘换手率及龙虎榜资金流向"
+        "what": "001309午后涨停成A股第6",
+        "assets": "📈 001309 利好\n📈 次新股板块 利好",
+        "chain": "资金炒作（游资短期博弈）→市场情绪升温（散户跟风）→监管关注风险（可能打压）",
+        "watch": "交易所问询函及龙虎榜数据"
       }
     },
     {
       "rank": 5,
-      "title": "Micron topped lofty earnings expectations. Wall Street sees even more momentum as chipmaker announces a slew of deals",
-      "source": "CNBC",
-      "detail": "Micron delivered a strong earnings beat on Wednesday in addition to unveiling a slew of new deals that have analysts even more excited about the stock's future.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "美光宣布多项交易，华尔街看好后续动能",
-        "assets": "📈 美光 利好；📈 存储芯片ETF 利好",
-        "chain": "订单能见度提升，DRAM（动态随机存取存储器）涨价周期确认，拉动三星等同行估值",
-        "watch": "美光与云厂商的长期合同细节"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Apple raises prices on MacBook and iPad due to memory crunch, hints at more to come",
       "source": "CNBC",
       "detail": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "苹果因内存短缺上调MacBook和iPad价格",
-        "assets": "📈 苹果股价 短期承压；📈 存储芯片 利好",
-        "chain": "成本转嫁消费者，可能抑制销量；但利好美光等存储供应商提价逻辑",
-        "watch": "苹果下季度出货量指引及毛利率变化"
+        "what": "苹果因内存成本上涨提高Mac/iPad售价",
+        "assets": "📈 苹果 利好（利润率维持）\n📉 消费者电子需求 承压",
+        "chain": "成本转嫁（涨价保利润）→需求可能下滑（高价抑制购买）→供应链压力（代工厂订单波动）",
+        "watch": "苹果下季度销量及毛利率数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Wendy's shares soar for a second day as retail investors pile into their new meme darling",
       "source": "CNBC",
       "detail": "The stock's advance appeared largely disconnected from company fundamentals and instead reflected a burst of social-media enthusiasm.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Wendy's因散户追捧连续两日大涨",
-        "assets": "📈 Wendy's 利好；📉 做空机构 承压",
-        "chain": "Meme股（散户抱团股）情绪扩散，但基本面未变，警惕轧空后快速回落",
+        "what": "温迪股价二日连涨成散户新宠",
+        "assets": "📈 温迪 利好\n📈 散户抱团股 利好",
+        "chain": "WSB（华尔街赌徒论坛）情绪传导（散户集中炒作）→空头回补（做空者被迫买入）→波动率飙升",
         "watch": "Reddit论坛热度及空头持仓比例变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "The world’s top-performing stock market still isn’t a developed market. Here’s why, according to the MSCI chief",
       "source": "CNBC",
       "detail": "MSCI CEO Henry Fernandez said South Korea's stock market still falls short of developed market standards.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "MSCI称全球最佳股市仍非发达市场",
-        "assets": "📈 新兴市场 利好；📉 发达市场 中性",
-        "chain": "资金从高估值发达市场轮动至低估值新兴市场，如印度、墨西哥等",
-        "watch": "MSCI新兴市场指数相对强弱比"
+        "what": "MSCI称全球表现最佳股市非发达市场",
+        "assets": "📈 新兴市场股市 利好\n📉 发达市场股市 承压",
+        "chain": "资金轮动（从贵到便宜）→新兴市场估值优势（低市盈率）→汇率风险（本币贬值压力）",
+        "watch": "MSCI新兴市场指数资金流向及各国GDP增速"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "The Club's top 10 things to watch in the stock market Thursday",
+      "source": "CNBC",
+      "detail": "Another monster quarter from Micron has ignited a chip stock rally.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "俱乐部周四关注十大股票市场事件",
+        "assets": "📈 美股大盘 中性",
+        "chain": "短线交易者关注（信息密集）→市场波动放大（多空博弈）→板块轮动加速（资金快进快出）",
+        "watch": "具体事件清单及市场反应"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美光Q3营收暴增346%，AI押注再升温",
-        "assets": "📈 美光 利好；📈 AI概念股 利好",
-        "chain": "HBM（高带宽内存）需求爆发，验证AI算力资本开支周期，利好AMD、NVDA",
-        "watch": "美光HBM3E产品量产时间及客户认证"
+        "what": "美光Q3营收暴涨346%",
+        "assets": "📈 美光科技 利好\n📈 AI存储板块 利好",
+        "chain": "AI需求爆发（大模型训练需要大量内存）→存储价格回升（供需改善）→芯片周期反转（行业走出低谷）",
+        "watch": "美光Q4营收指引及HBM（高带宽内存）出货量"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "易捷航空拒绝报价后向卡斯尔莱克开放尽职调查",
-        "assets": "📈 易捷航空 利好；📉 竞争对手 承压",
-        "chain": "收购溢价预期升温，航空业整合加速，可能推升瑞安等公司估值",
-        "watch": "尽职调查结果及最终收购价格是否上调"
+        "what": "易捷航空拒绝报价后开放尽职调查",
+        "assets": "📈 易捷航空 利好\n📉 航空板块 中性",
+        "chain": "并购预期升温（潜在收购溢价）→尽职调查（买方核查财务）→可能提价（谈判博弈）",
+        "watch": "卡斯尔莱克最终报价及监管审批进展"
       }
     }
   ]
