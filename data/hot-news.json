@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 15:16",
+  "updateTime": "2026-06-25 15:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO市场低迷，财阀结构限制上市",
+        "what": "韩国IPO市场低迷，财阀结构抑制上市",
         "assets": "📉 韩国股市 承压",
-        "chain": "抑制企业融资（IPO减少），削弱韩元流动性，利空韩元汇率",
-        "watch": "韩国综合指数成交量及IPO撤回数量"
+        "chain": "财阀（家族控股集团）低效抑制新股供应，削弱市场信心，资金外流至美股",
+        "watch": "韩国综合指数（KOSPI）及IPO认购率变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "加息预期打压金银，机构建议别逆势做多",
-        "assets": "📉 黄金 承压；📉 白银 承压",
-        "chain": "实际利率（扣除通胀后的利率）上升，削弱贵金属持有价值",
-        "watch": "美联储7月加息概率及美元指数"
+        "what": "美联储加息预期打压黄金白银，机构建议不要对抗",
+        "assets": "📉 黄金 承压\n📉 白银 承压",
+        "chain": "加息（借钱成本上升）提升美元实际利率（扣除通胀后的利率），降低无息资产黄金吸引力",
+        "watch": "美联储利率决议及美国CPI（通胀数据）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电，欧洲高温创纪录",
-        "assets": "📈 欧洲天然气 利好；📉 法国电力股 利空",
-        "chain": "停电推高电力短缺预期，增加天然气需求（替代发电），利空欧元",
-        "watch": "法国电力恢复时间及高温持续时间"
+        "what": "法国大停电叠加欧洲创纪录热浪",
+        "assets": "📈 欧洲天然气 利好\n📉 法国核电 利空",
+        "chain": "停电加剧电力短缺，推高能源需求，天然气价格（TTF基准）上升；核电产能受限",
+        "watch": "法国电力公司（EDF）恢复进度及欧洲电价"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国联邦学生贷款新增利率折扣",
-        "assets": "📉 美国消费信贷 利好（减少违约风险）",
-        "chain": "降低学生还款负担，释放可支配收入（用于消费），利好零售股",
-        "watch": "学生贷款违约率及零售销售数据"
+        "what": "美国联邦学生贷款利率折扣新规",
+        "assets": "📉 美国消费信贷 温和利空",
+        "chain": "利率折扣降低学生负担，减少违约风险，但可能抑制私人贷款需求",
+        "watch": "学生贷款申请量及违约率数据"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股恒指跌1.38%，科指跌1.67%",
-        "assets": "📉 恒生指数 承压；📉 科网股 承压；📈 半导体板块 利好",
-        "chain": "资金从科网股轮动至防御性板块（如半导体），反映风险偏好下降",
-        "watch": "恒生科技指数期货持仓及南向资金流向"
+        "what": "港股恒指跌1.38%，科指跌1.67%，黄金股低迷，半导体逆势走强",
+        "assets": "📉 恒生指数 承压\n📉 港股科技股 承压\n📈 港股半导体 利好",
+        "chain": "科网股受全球加息（借钱成本上升）压制；半导体受AI需求（人工智能算力）拉动逆势上涨",
+        "watch": "恒生科技指数及费城半导体指数（SOX）走势"
       }
     },
     {
       "rank": 6,
+      "title": "澳洲5月就业数据超预期+通胀压力难消，央行加息窗口或再度打开",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——周四（6月25日），澳大利亚统计局对外披露5月就业核心数据，尽管澳洲数据显示消费者需求和就业市场具有韧性，但随着美元普遍走强...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "澳洲就业数据超预期，通胀难消，加息窗口可能重开",
+        "assets": "📈 澳元 利好\n📉 澳洲国债 利空",
+        "chain": "就业强劲（劳动力市场紧张）推高薪资通胀，加息（借钱成本上升）预期支撑澳元，打压债价",
+        "watch": "澳洲央行（RBA）下次利率决议及CPI"
+      }
+    },
+    {
+      "rank": 7,
       "title": "SK Hynix surges 12% after Micron earnings; blockbuster Nasdaq listing",
       "source": "CNBC",
       "detail": "Shares of South Korean chip giant SK Hynix surged 12% on Thursday after the company said it is seeking to raise as much as $29.4 billion.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "SK海力士涨12%，受美光财报及纳斯达克上市提振",
-        "assets": "📈 韩国半导体股 利好；📈 全球存储芯片 利好",
-        "chain": "存储芯片涨价（供不应求）推高盈利预期，利好相关ETF（如SMH）",
-        "watch": "美光下周财报及DRAM现货价格"
+        "what": "SK海力士因美光财报涨12%，纳斯达克上市在即",
+        "assets": "📈 全球存储芯片 利好\n📈 美股半导体 利好",
+        "chain": "美光业绩（营收翻四倍）确认存储芯片短缺（内存紧缩），SK海力士受益于行业景气",
+        "watch": "美光（MU）股价及存储芯片现货价格"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming ",
       "source": "CNBC",
       "detail": "Oil prices fell as investors bet global crude supplies will improve, as tankers stranded in the Persian Gulf for months have begun leaving the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "油价回吐涨幅，霍尔木兹海峡油轮恢复通行",
-        "assets": "📉 原油 承压；📈 全球航运 利好（成本下降）",
-        "chain": "供应风险（地缘溢价）消退，降低通胀预期，利空能源股",
-        "watch": "霍尔木兹海峡通行量及OPEC产量数据"
+        "what": "油价回吐战争涨幅，霍尔木兹海峡油轮恢复通行",
+        "assets": "📉 原油 承压",
+        "chain": "供应担忧（地缘风险）缓解，原油现货溢价（近期价格高于远期）回落，炼厂利润压缩",
+        "watch": "布伦特原油（Brent）及霍尔木兹海峡通行量"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
       "source": "CNBC",
       "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美光股价涨15%，因芯片短缺收入翻四倍",
-        "assets": "📈 美光 利好；📈 全球半导体 利好",
-        "chain": "存储芯片涨价周期（供不应求）强化，利好AI算力相关硬件股",
-        "watch": "美光下季度营收指引及DRAM合约价"
+        "what": "美光股价涨15%，内存紧缩导致营收翻四倍",
+        "assets": "📈 美股半导体 利好\n📈 存储芯片 利好",
+        "chain": "AI需求（人工智能训练）和供应短缺（产能不足）推高DRAM（动态随机存取存储器）价格，利好产业链",
+        "watch": "美光下季度营收指引及DDR5价格"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "去年韩国在美金融资产首次突破1万亿美元，创历史新高",
       "source": "环球市场播报",
       "detail": " 韩国央行周四发布的一份报告显示，受华尔街股市上涨吸引，韩国投资者加大对美国股市的投资，导致韩国在美国的金融资产去年创下历史新高。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "韩国在美金融资产首破1万亿美元创纪录",
-        "assets": "📈 美元资产 利好；📉 韩元 承压（资金外流）",
-        "chain": "韩国资本外流至美国，推高美元需求，利空新兴市场汇率",
-        "watch": "韩国资本外流速度及韩元兑美元汇率"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "美国最大蛋商Cal-Maine有望就蛋价操纵调查达成和解",
-      "source": "环球市场播报",
-      "detail": " 据知情人士透露，美国最大鸡蛋供应商Cal-Maine Foods和其他供应商即将了结美国司法部与一个跨党派州政府联盟发起的调查，该调查指控相关企业涉嫌非法串通操纵蛋价。",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "美国最大蛋商Cal-Maine拟就蛋价操纵和解",
-        "assets": "📉 美国食品股 承压（行业监管风险）",
-        "chain": "和解增加合规成本（罚款），可能引发更多反垄断调查，利空农业板块",
-        "watch": "和解金额及同类公司诉讼进展"
+        "what": "韩国在美金融资产首破1万亿美元",
+        "assets": "📈 美元资产 利好\n📉 韩元 承压",
+        "chain": "资本外流（韩国资金涌入美国）推高美元需求，韩元贬值压力增大，美股受益",
+        "watch": "韩元兑美元汇率及韩国资本流出数据"
       }
     }
   ]
