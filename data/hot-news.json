@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 16:31",
+  "updateTime": "2026-06-25 16:35",
   "news": [
     {
       "rank": 1,
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "South Korea's IPO activity has lagged that of its regional peers as the structure of the market and governance reforms collide.",
       "lang": "en",
-      "score": 55
+      "score": 55,
+      "insight": {
+        "what": "韩国IPO市场受财阀结构拖累，AI企业成主力",
+        "assets": "📉 韩国KOSPI指数 承压；📈 AI半导体股 利好",
+        "chain": "财阀（大型家族企业集团）抑制新股供应，AI企业IPO吸引资金，分流传统板块流动性",
+        "watch": "韩国AI企业IPO认购倍数及首日涨幅"
+      }
     },
     {
       "rank": 3,
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "Indian authorities have found accounting discrepancies in books of Indian gold company Rajesh Exports, and owner of Swiss refiner Valcambi.",
       "lang": "en",
-      "score": 39
+      "score": 39,
+      "insight": {
+        "what": "印度黄金出口商高管月薪仅180美元，涉嫌会计造假",
+        "assets": "📉 印度黄金矿业股 利空；📈 黄金ETF 避险",
+        "chain": "会计调查（财务造假风险）引发信用担忧，资金可能从个股转向黄金ETF等安全资产",
+        "watch": "印度证监会调查结果及公司股价波动"
+      }
     },
     {
       "rank": 5,
@@ -53,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储6月会议降息预期延后，黄金回调",
-        "assets": "📉 黄金期货 承压；📈 美元指数 利好",
-        "chain": "降息延后（利率维持高位）提升美元吸引力，黄金作为无息资产（不产生利息）遭抛售",
-        "watch": "美联储主席讲话及非农就业数据"
+        "what": "美国联邦学生贷款新利率折扣，部分借款人受益",
+        "assets": "📈 美国消费信贷 利好；📉 教育类股 中性",
+        "chain": "降低贷款成本（减少借款人负担）可释放消费力，但教育行业需求受影响有限",
+        "watch": "学生贷款申请量及消费数据"
       }
     },
     {
@@ -95,10 +107,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "美国联邦学生贷款新利率折扣，部分借款人受益",
-        "assets": "📈 美国消费信贷 利好；📉 教育类股 中性",
-        "chain": "降低贷款成本（减少借款人负担）可释放消费力，但教育行业需求受影响有限",
-        "watch": "学生贷款申请量及消费数据"
+        "what": "美光财报超预期带动AI板块暴涨，但市场分化严重",
+        "assets": "美光科技（MU）多头、AI芯片股多头、中小盘股空头",
+        "chain": "美光业绩利好→AI产业链预期改善→资金集中涌入龙头→挤压其他板块流动性",
+        "watch": "美光后续订单指引及美联储利率决议"
       }
     },
     {
@@ -123,10 +135,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "印度黄金出口商高管月薪仅180美元，涉嫌会计造假",
-        "assets": "📉 印度黄金矿业股 利空；📈 黄金ETF 避险",
-        "chain": "会计调查（财务造假风险）引发信用担忧，资金可能从个股转向黄金ETF等安全资产",
-        "watch": "印度证监会调查结果及公司股价波动"
+        "what": "美联储6月会议降息预期延后，黄金回调",
+        "assets": "📉 黄金期货 承压；📈 美元指数 利好",
+        "chain": "降息延后（利率维持高位）提升美元吸引力，黄金作为无息资产（不产生利息）遭抛售",
+        "watch": "美联储主席讲话及非农就业数据"
       }
     }
   ]
