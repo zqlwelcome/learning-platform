@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 10:11",
+  "updateTime": "2026-06-25 10:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO遇冷，财阀结构限制上市",
-        "assets": "📉 韩国股市 承压；📉 韩元 承压",
-        "chain": "财阀（大型家族企业）控制抑制新股供给，二级市场流动性折价，外资或减配韩股",
-        "watch": "韩国综合指数（KOSPI）IPO数量及认购率"
+        "what": "韩国IPO市场低迷，财阀结构抑制上市",
+        "assets": "📉 韩国股市 承压",
+        "chain": "IPO冻结打击散户情绪，财阀（家族控制大型集团）结构限制新股供给，削弱市场流动性",
+        "watch": "韩国综合指数及IPO申请数量变化"
       }
     },
     {
@@ -23,56 +23,42 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国因高温纪录遭遇大停电",
-        "assets": "📉 欧洲电力股 利空；📈 天然气期货 利多",
-        "chain": "极端天气推升电力需求，核电供应受损，电价飙升（电力现货价格暴涨），天然气补缺",
-        "watch": "法国电力公司（EDF）核电恢复进度及电价曲线"
+        "what": "法国大规模停电，欧洲遭遇创纪录热浪",
+        "assets": "📈 欧洲天然气 利好\n📉 法国核电 利空",
+        "chain": "热浪推高制冷用电需求，停电加剧能源紧张，核电产能受损（发电效率下降）推高电价",
+        "watch": "法国电力恢复时间及欧洲天然气库存"
       }
     },
     {
       "rank": 3,
-      "title": "群策科技港股IPO：突击清仓式分红28亿控股股东拿走九成 产销高度依赖关联方25年业绩转弱背离行业趋势",
-      "source": "新浪证券",
-      "detail": "出品：新浪财经上市公司研究院 作者：渚 2026年6月8日，苏州群策科技股份有限公司（以下简称“群策科技”）首次向联交所主板提交上市申请，中信证券担任独家保荐人。",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "群策科技港股IPO前突击分红28亿，关联交易占比高",
-        "assets": "📉 港股新股 情绪利空；📉 关联公司 承压",
-        "chain": "清仓式分红（将利润几乎全部分掉）实控人套现，关联交易（与控股股东业务往来）暴露治理风险，IPO定价打折",
-        "watch": "港股IPO认购倍数及首日破发率"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
       "source": "CNBC",
       "detail": "The Fed's annual exercise comes at a pivotal moment for bank regulation because, unlike previous years, the results will not affect capital requirements.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储压力测试：银行可承受7080亿损失",
-        "assets": "📈 美股银行股 利好；📈 金融板块 ETF",
-        "chain": "监管背书（官方确认抗风险能力）降低资本新规（更严格的资本要求）不确定性，银行回购空间打开",
-        "watch": "大型银行（如摩根大通）资本返还计划"
+        "what": "美联储称银行可承受7080亿美元损失，资本规则改革",
+        "assets": "📈 美国银行股 利好",
+        "chain": "压力测试（模拟极端风险）结果强劲，降低市场对银行系统性风险（连锁倒闭风险）的担忧",
+        "watch": "美联储最终资本规则细节及银行股走势"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "三年牛市告一段落，现货黄金跌破4000美元！全球央行却“越跌越买”？",
       "source": "每日经济新闻",
       "detail": "消息面上，随着美元走强及加息预期升温，黄金长达三年的牛市行情告一段落，金价自去年11月以来首次跌破每盎司4000美元。截至收盘，现货黄金下跌2.73%，报3998...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "现货黄金跌破4000美元，央行逆势增持",
-        "assets": "📉 黄金 承压；📈 美元指数 利多",
-        "chain": "实际利率（名义利率减通胀）上升压制金价，央行购金（官方储备多元化）提供底部支撑，多空博弈加剧",
-        "watch": "美国10年期TIPS（通胀保值债券）收益率及全球央行黄金储备数据"
+        "what": "现货黄金跌破4000美元，三年牛市结束",
+        "assets": "📉 黄金 利空",
+        "chain": "全球央行增持（买入）形成底部支撑，但美元强势（加息预期）压制金价，投机多头（押注上涨）平仓加速下跌",
+        "watch": "美元指数及全球央行购金数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
@@ -80,65 +66,79 @@
       "score": 38,
       "insight": {
         "what": "美国联邦学生贷款利率折扣新规",
-        "assets": "📈 消费信贷 利好；📉 助学贷款ABS 中性",
-        "chain": "利率折扣降低借款人负担，提升可支配收入，但ABS（资产支持证券）现金流变薄",
-        "watch": "学生贷款违约率及再融资申请量"
+        "assets": "📈 美国消费信贷 利好",
+        "chain": "降低借贷成本（借钱更便宜）提振学生还款能力，间接支撑消费支出（可支配收入增加）",
+        "watch": "学生贷款违约率变化"
       }
     },
     {
-      "rank": 7,
-      "title": "20%跌停！62岁A股女董事长被刑拘",
-      "source": "滚动播报",
-      "detail": "【导读】华恒生物实控人被公安机关刑事拘留 来源：中国基金报 中国基金报记者 莫琳 6月24日深夜，华恒生物发布公告称，6月24日收到公司实际控制人、董事长...",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "62岁A股女董事长被刑拘，股价跌停",
-        "assets": "📉 该A股 利空；📉 中小盘股 情绪承压",
-        "chain": "实控人风险（核心人物出事）引发治理担忧，质押盘（股票质押融资）爆仓风险，板块避险情绪升温",
-        "watch": "公司公告及质押平仓线"
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 6,
       "title": "光大期货0625黄金点评：美元强势预期得到政策层面背书，金价继续走低",
       "source": "市场资讯",
       "detail": " 6月24日，COMEX黄金延续跌势，盘中一度跌破4000点，报收4016.4美元/盎司，跌幅3.21%。国内SHFE金夜盘低开震荡，报收875.16元/克，跌幅2.45%。",
       "lang": "zh",
       "score": 34,
       "insight": {
-        "what": "光大期货：美元强势获政策背书，金价承压",
-        "assets": "📉 黄金 利空；📈 美元 利多",
-        "chain": "美联储鹰派（倾向加息）言论强化美元，实际利率走高，黄金持有成本（机会成本）上升",
-        "watch": "美联储官员讲话及美元指数（DXY）"
+        "what": "光大期货：美元强势获政策背书，金价走低",
+        "assets": "📉 黄金 利空",
+        "chain": "美联储鹰派（偏紧缩）立场强化美元，实际利率（名义利率减通胀）上升，黄金零收益资产吸引力下降",
+        "watch": "美联储官员讲话及美国通胀数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "日本央行认为AI出口繁荣可以缓冲油价冲击对经济的影响",
       "source": "环球市场播报",
       "detail": " 日本央行日益强调全球人工智能繁荣带来的经济效益，认为人工智能相关产品的强劲需求可以缓冲中东冲突导致的能源价格上涨带来的拖累。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "日本央行：AI出口繁荣可缓冲油价冲击",
-        "assets": "📈 日本半导体股 利好；📉 日元 承压",
-        "chain": "AI出口（如芯片设备）拉动GDP，抵消能源进口成本，但日元贬值（日元走弱）恶化贸易条件",
-        "watch": "日本半导体设备出口数据及日元汇率"
+        "what": "日本央行：AI出口可缓冲油价冲击",
+        "assets": "📈 日本半导体 利好\n📉 日本能源进口 利空",
+        "chain": "AI需求提振出口（赚钱），抵消油价上涨成本（输入性通胀），维持贸易平衡",
+        "watch": "日本半导体出口数据及油价走势"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
+      "title": "黄金大跳水！金饰克价年内暴跌近500元",
+      "source": "市场资讯",
+      "detail": "文章来源：中新经纬 25日，现货黄金盘中震荡，截至发稿，报3985.070美元/盎司，跌0.17%。 当地时间24日，现货黄金大幅跳水，盘中跌破4000美元关口，当日收盘报3991...",
+      "lang": "zh",
+      "score": 32,
+      "insight": {
+        "what": "黄金大跳水，金饰克价年内暴跌近500元",
+        "assets": "📉 黄金 利空\n📉 金饰消费 利空",
+        "chain": "金价下跌拖累零售价，消费者观望（等待更低价格）减少购买，珠宝商库存减值（资产缩水）",
+        "watch": "中国黄金ETF持仓及零售销售数据"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
       "source": "CNBC",
       "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美光股价涨15%，存储芯片涨价四倍营收翻倍",
-        "assets": "📈 美光科技 利好；📈 全球半导体 利好",
-        "chain": "存储芯片（DRAM/NAND）供需失衡（供给受限+AI需求），涨价周期（价格上升阶段）确认，产业链（设备/封测）联动",
-        "watch": "美光下季营收指引及行业库存水平"
+        "what": "美光股价涨15%，存储芯片短缺营收翻四倍",
+        "assets": "📈 全球半导体 利好\n📈 美光 利好",
+        "chain": "内存（存储芯片）价格飙升反映供需缺口（供不应求），带动整个芯片周期（行业景气度）上行",
+        "watch": "美光下一季度指引及DRAM/NAND价格"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Qualcomm stock pops 15% after chipmaker almost doubles projection for 2029 non-handset revenue",
+      "source": "CNBC",
+      "detail": "Qualcomm's primary business has been smartphones, which accounted for two-thirds of the company's product revenue in it's most recent quarter.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "高通股价涨15%，非手机业务营收预期翻倍",
+        "assets": "📈 高通 利好\n📈 物联网芯片 利好",
+        "chain": "多元化（不依赖手机）降低风险，汽车/边缘计算（设备端处理数据）需求爆发，打开新增长曲线",
+        "watch": "高通汽车及IoT客户订单数据"
       }
     }
   ]
