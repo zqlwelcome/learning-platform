@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 11:21",
+  "updateTime": "2026-06-25 11:26",
   "news": [
     {
       "rank": 1,
@@ -9,28 +9,42 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO市场低迷，财阀结构限制上市",
+        "what": "韩国IPO市场因财阀结构受限遇冷",
         "assets": "📉 韩国股市 承压",
-        "chain": "企业融资渠道收窄，资金转向债市或海外，韩元流动性可能收紧",
-        "watch": "韩国综合指数及IPO融资额变化"
+        "chain": "IPO减少→企业融资受阻→散户资金外流（资本外逃）",
+        "watch": "韩国综合指数（KOSPI）走势"
       }
     },
     {
       "rank": 2,
+      "title": "加息阴影下黄金白银双双“栽了”，又一家机构砍价：别跟美联储对着干",
+      "source": "市场资讯",
+      "detail": "文章来源：金十数据 黄金与白银近日持续承压，价格双双跌破关键关口。现货黄金已下探至每盎司4000美元以下，创下年内新低；白银也跌破每盎司60美元。",
+      "lang": "zh",
+      "score": 48,
+      "insight": {
+        "what": "加息预期打压金银，机构建议别逆势做多",
+        "assets": "📉 黄金 承压\n📉 白银 承压",
+        "chain": "利率上升→持有金银无息成本高（机会成本）→资金流向美元资产",
+        "watch": "美联储（美国央行）下次议息会议声明"
+      }
+    },
+    {
+      "rank": 3,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国因创纪录热浪遭遇大停电",
-        "assets": "📉 欧洲电力股 承压，📈 天然气 需求预期上升",
-        "chain": "能源短缺推高电价，挤压工业利润，欧元区通胀预期升温",
-        "watch": "法国电力恢复进度及TTF天然气价格"
+        "what": "法国因热浪出现大规模停电",
+        "assets": "📉 欧洲电力股 利空\n📈 天然气 利好",
+        "chain": "高温→电力需求激增→电网过载→推高能源价格（能源通胀）",
+        "watch": "法国电力公司（EDF）恢复供电时间"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "三年牛市告一段落，现货黄金跌破4000美元！全球央行却“越跌越买”？",
       "source": "每日经济新闻",
       "detail": "消息面上，随着美元走强及加息预期升温，黄金长达三年的牛市行情告一段落，金价自去年11月以来首次跌破每盎司4000美元。截至收盘，现货黄金下跌2.73%，报3998...",
@@ -38,107 +52,93 @@
       "score": 40,
       "insight": {
         "what": "现货黄金跌破4000美元，全球央行逆势增持",
-        "assets": "📉 黄金 短期承压，📈 央行购金 支撑长期",
-        "chain": "央行买入提供底部支撑，但强美元（美元升值）压制金价，避险需求转向美债",
-        "watch": "美联储利率决议及全球央行黄金储备数据"
+        "assets": "📉 黄金 承压\n📈 央行购金 利好",
+        "chain": "金价下跌→央行逢低买入→支撑实物需求（去美元化）",
+        "watch": "央行月度黄金储备数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国联邦学生贷款利率折扣政策调整",
-        "assets": "📈 美国消费信贷 利好",
-        "chain": "降低学生负担，可支配收入增加，利好零售和可选消费板块",
-        "watch": "美国消费者信贷及零售销售数据"
+        "what": "美国联邦学生贷款利率新折扣公布",
+        "assets": "📈 消费信贷 利好\n📉 学生贷款违约风险 降低",
+        "chain": "利率折扣→还款成本降→可支配收入增→刺激消费（经济韧性）",
+        "watch": "美国学生贷款违约率变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "光大期货0625黄金点评：美元强势预期得到政策层面背书，金价继续走低",
       "source": "市场资讯",
       "detail": " 6月24日，COMEX黄金延续跌势，盘中一度跌破4000点，报收4016.4美元/盎司，跌幅3.21%。国内SHFE金夜盘低开震荡，报收875.16元/克，跌幅2.45%。",
       "lang": "zh",
       "score": 34,
       "insight": {
-        "what": "美元强势预期获政策背书，金价承压下行",
-        "assets": "📉 黄金 承压，📈 美元指数 强势",
-        "chain": "强美元削弱黄金替代吸引力（美元与金价负相关），资金流入美元资产",
-        "watch": "美联储点阵图及美元指数DXY走势"
+        "what": "光大期货：美元强势确认，金价持续承压",
+        "assets": "📉 黄金 承压\n📈 美元指数 利好",
+        "chain": "美元走强→以美元计价黄金更贵（汇率效应）→压制需求",
+        "watch": "美元指数（DXY）能否站稳105"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "日本央行认为AI出口繁荣可以缓冲油价冲击对经济的影响",
       "source": "环球市场播报",
       "detail": " 日本央行日益强调全球人工智能繁荣带来的经济效益，认为人工智能相关产品的强劲需求可以缓冲中东冲突导致的能源价格上涨带来的拖累。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "日本央行认为AI出口可缓冲油价冲击",
-        "assets": "📈 日本AI相关出口股 利好，📉 日本能源进口成本 承压",
-        "chain": "AI出口拉动GDP，抵消输入性通胀（进口成本上升），但日元贬值风险仍存",
-        "watch": "日本出口数据及布伦特原油价格"
+        "what": "日本央行：AI出口可缓冲油价冲击",
+        "assets": "📈 日本AI相关股 利好\n📉 日元 承压",
+        "chain": "AI出口增长→贸易顺差改善→对冲能源成本（经常账户）",
+        "watch": "日本5月贸易收支数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "黄金大跳水！金饰克价年内暴跌近500元",
       "source": "市场资讯",
       "detail": "文章来源：中新经纬 25日，现货黄金盘中震荡，截至发稿，报3985.070美元/盎司，跌0.17%。 当地时间24日，现货黄金大幅跳水，盘中跌破4000美元关口，当日收盘报3991...",
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "金饰克价年内暴跌近500元",
-        "assets": "📉 黄金零售消费 承压，📈 黄金回收 活跃",
-        "chain": "价格下跌刺激实物需求，但投机盘（短线交易者）抛压加剧波动，央行购金或对冲",
-        "watch": "上海黄金交易所Au99.99价格及ETF持仓变化"
+        "what": "金饰价格年内暴跌近500元/克",
+        "assets": "📉 黄金饰品 利空\n📈 黄金消费 潜在利好",
+        "chain": "金饰降价→刺激零售购买→但投资需求仍弱（实物需求）",
+        "watch": "中国黄金协会月度销售数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "长江有色: 强美元、加息及地缘出清交织共振施压 25日铝价或大跌",
       "source": "市场资讯",
       "detail": "长江有色金属网 长江铝价alu.ccmn.cn短评：美元探至新高叠加美联储年内加息预期升温，隔夜伦铝暴跌超4%创四月低点；地缘溢价出清叠加全球产能修复，内外铝价同步走弱...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "强美元、加息及地缘风险施压铝价大跌",
-        "assets": "📉 铝期货 承压，📈 美元 强势",
-        "chain": "美元计价商品承压，加息抑制需求，地缘风险扰动供应链，铝库存可能累积",
-        "watch": "LME铝库存及美联储利率决议"
+        "what": "长江有色：强美元与加息施压铝价大跌",
+        "assets": "📉 铝 承压\n📉 有色金属板块 利空",
+        "chain": "美元走强→商品计价成本升（汇率压制）→工业需求放缓",
+        "watch": "LME（伦敦金属交易所）铝库存变化"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming ",
       "source": "CNBC",
       "detail": "Oil prices fell as investors bet global crude supplies will improve, as tankers stranded in the Persian Gulf for months have begun leaving the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "霍尔木兹油轮恢复通行，油价回吐地缘溢价",
-        "assets": "📉 原油 承压，📈 航运股 利好",
-        "chain": "供应风险缓解，油价回调，降低通胀预期，利好航空和化工板块",
-        "watch": "WTI原油库存及中东局势后续动态"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
-      "source": "CNBC",
-      "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美光科技因内存短缺营收翻四倍，股价涨15%",
-        "assets": "📈 美光科技 利好，📈 存储芯片板块 利好",
-        "chain": "AI需求驱动存储涨价（供不应求），带动产业链如设备商、封测企业受益",
-        "watch": "美光下季度指引及DRAM/NAND现货价格"
+        "what": "霍尔木兹油轮恢复通行，油价回吐战争溢价",
+        "assets": "📉 原油 承压\n📈 航空股 利好",
+        "chain": "供应中断风险解除→油价回落→运输成本降（通胀压力缓解）",
+        "watch": "霍尔木兹海峡每日通行量数据"
       }
     }
   ]
