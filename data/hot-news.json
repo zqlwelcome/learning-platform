@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 12:15",
+  "updateTime": "2026-06-25 12:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO市场低迷，财阀结构限制新股上市",
+        "what": "韩国IPO市场低迷，财阀结构限制上市",
         "assets": "📉 韩国股市 承压",
-        "chain": "IPO冷清→企业融资难→拖累经济复苏（GDP增速）",
-        "watch": "韩国综合指数及新股发行规模变化"
+        "chain": "IPO减少→流动性收缩→小盘股估值受压（小公司更难融资）",
+        "watch": "韩国综合指数成交量变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "保德信预计美联储鹰派增强，秋季首次加息",
-        "assets": "📉 美债 利空；📈 美元 利好",
-        "chain": "加息预期→美债收益率上行→压制风险资产（股票/商品）",
-        "watch": "美联储会议纪要及点阵图"
+        "what": "保德信预计美联储鹰派转强，秋季首次加息",
+        "assets": "📈 美元 利好 📉 美债 承压",
+        "chain": "加息预期→长端利率上行（借钱成本涨）→科技股估值折价（未来现金流折现率提高）",
+        "watch": "美联储点阵图（利率预测）调整"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "加息预期打压金银，机构建议别做空美联储",
-        "assets": "📉 黄金 承压；📉 白银 承压",
-        "chain": "实际利率（名义利率减通胀）上升→无息资产吸引力下降→资金流出贵金属",
-        "watch": "美国CPI（通胀数据）及非农就业"
+        "what": "加息预期打压金银，机构建议别对抗美联储",
+        "assets": "📉 黄金 承压 📉 白银 承压",
+        "chain": "实际利率上行（名义利率-通胀）→贵金属持有成本增加→投机多头平仓",
+        "watch": "COMEX黄金期货净多头持仓（CFTC数据）"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大面积停电，欧洲遭遇创纪录热浪",
-        "assets": "📉 欧洲电力股 利空；📈 天然气 利好",
-        "chain": "停电→工业停产→经济产出下滑；热浪→制冷需求激增→能源价格飙升",
-        "watch": "法国电力恢复时间及欧洲天然气库存"
+        "what": "法国大停电叠加欧洲高温破纪录",
+        "assets": "📈 天然气 利好 📈 电力股 利好",
+        "chain": "停电→能源需求激增→天然气库存消耗加速→电价飙升（欧洲电力期货看涨）",
+        "watch": "法国电网频率（RTE数据）及天然气库存率"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦学生贷款新增利率折扣，部分人受益",
+        "what": "美国联邦学生贷款新增利率折扣",
         "assets": "📈 消费信贷 利好",
-        "chain": "利率折扣→月供减少→可支配收入增加→利好零售消费（可选消费）",
-        "watch": "学生贷款还款违约率及消费支出数据"
+        "chain": "还款成本降低→可支配收入增加→可选消费（如汽车、电子）边际改善",
+        "watch": "学生贷款还款违约率变化"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股午盘恒指跌1.38%，科指跌1.67%，黄金股低迷，半导体逆势走强",
-        "assets": "📉 恒生指数 承压；📉 港股科技股 利空；📈 港股半导体 利好",
-        "chain": "科技股拖累大盘→市场情绪悲观；半导体逆势→资金追逐国产替代逻辑",
-        "watch": "恒生科技指数及半导体板块成交量"
+        "what": "港股午盘恒指跌1.38%，科指跌1.67%，科网黄金低迷，半导体逆势走强",
+        "assets": "📉 恒生指数 承压 📈 港股半导体 利好",
+        "chain": "科网股抛售→资金轮动至防御性板块（半导体受AI需求支撑）",
+        "watch": "恒生科技指数成分股资金流向（南向资金）"
       }
     },
     {
@@ -94,51 +94,51 @@
       "score": 33,
       "insight": {
         "what": "日本央行认为AI出口可缓冲油价冲击",
-        "assets": "📈 日本半导体 利好；📉 日元 承压",
-        "chain": "AI出口增长→贸易逆差收窄→对冲油价上涨成本（进口通胀）",
-        "watch": "日本贸易收支及AI相关出口数据"
+        "assets": "📈 日元 利好 📈 日本半导体 利好",
+        "chain": "AI出口增长→贸易逆差收窄→日元贬值压力缓解（经常账户改善）",
+        "watch": "日本5月贸易收支数据（财务省发布）"
       }
     },
     {
       "rank": 8,
+      "title": "SK Hynix surges 12% after Micron earnings; blockbuster Nasdaq listing",
+      "source": "CNBC",
+      "detail": "Shares of South Korean chip giant SK Hynix surged 12% on Thursday after the company said it is seeking to raise as much as $29.4 billion.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "SK海力士因美光财报涨12%，纳斯达克IPO火爆",
+        "assets": "📈 全球半导体 利好 📈 韩国股市 利好",
+        "chain": "存储芯片需求超预期→产业链上游（设备、材料）跟涨→科技股风险偏好回升",
+        "watch": "美光下一季度营收指引（毛利率变化）"
+      }
+    },
+    {
+      "rank": 9,
       "title": "长江有色: 强美元、加息及地缘出清交织共振施压 25日铝价或大跌",
       "source": "市场资讯",
       "detail": "长江有色金属网 长江铝价alu.ccmn.cn短评：美元探至新高叠加美联储年内加息预期升温，隔夜伦铝暴跌超4%创四月低点；地缘溢价出清叠加全球产能修复，内外铝价同步走弱...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "强美元、加息和地缘风险施压，铝价或大跌",
-        "assets": "📉 铝 承压",
-        "chain": "强美元→以美元计价商品承压；加息→制造业需求放缓→工业金属抛售",
-        "watch": "LME铝库存及美联储利率决议"
+        "what": "铝价因强美元、加息及地缘风险大跌",
+        "assets": "📉 LME铝 承压 📉 中国铝业 承压",
+        "chain": "美元走强→大宗商品定价承压（以美元计价）→铝库存增加→冶炼厂减产预期",
+        "watch": "LME铝库存变化及美元指数DXY"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming ",
       "source": "CNBC",
       "detail": "Oil prices fell as investors bet global crude supplies will improve, as tankers stranded in the Persian Gulf for months have begun leaving the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "霍尔木兹海峡油轮恢复通行，油价回吐战事涨幅",
-        "assets": "📉 原油 利空",
-        "chain": "供应中断风险解除→地缘溢价消退→油价回归基本面（供需平衡）",
-        "watch": "OPEC+产量配额及伊朗核协议进展"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
-      "source": "CNBC",
-      "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美光股价暴涨15%，存储芯片涨价推动营收翻四倍",
-        "assets": "📈 美光科技 利好；📈 全球半导体 利好",
-        "chain": "存储涨价→芯片企业盈利改善→带动科技股估值（PE倍数）上调",
-        "watch": "美光季度财报指引及DRAM/NAND现货价格"
+        "what": "油价回吐战争涨幅，霍尔木兹海峡油轮恢复通行",
+        "assets": "📉 原油 承压 📉 航运股 承压",
+        "chain": "供应担忧缓解→地缘溢价消退→炼厂利润收窄（裂解价差缩小）",
+        "watch": "霍尔木兹海峡通行量（MarineTraffic数据）"
       }
     }
   ]
