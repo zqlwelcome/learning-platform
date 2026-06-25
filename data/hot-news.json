@@ -1,88 +1,88 @@
 {
-  "updateTime": "2026-06-26 04:01",
+  "updateTime": "2026-06-26 04:06",
   "news": [
     {
       "rank": 1,
-      "title": "Nasdaq dragged lower by Apple, Dow notches record as market divides: Live updates",
-      "source": "CNBC",
-      "detail": "The Nasdaq Composite fell on Thursday, even after a blowout Micron Technology earnings report, as traders moved out of key technology stocks.",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "苹果拖累纳指，道指创新高，市场分化",
-        "assets": "📉 纳斯达克指数 承压\n📈 道琼斯指数 利好",
-        "chain": "资金从科技股轮动至周期股，防御性板块（如公用事业）受追捧",
-        "watch": "科技股财报及资金流向数据"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
       "source": "CNBC",
       "detail": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀过高，纽约联储主席认为压力缓解",
-        "assets": "📈 美元 利好\n📉 美债 承压",
-        "chain": "鹰派（支持紧缩）言论推高加息预期，短期利率上升压制风险资产",
-        "watch": "下周CPI（消费者物价指数）数据及美联储官员讲话"
+        "what": "芝加哥联储主席称通胀仍高，纽约联储主席认为压力缓解",
+        "assets": "📉 美股 承压；📈 美债 利好",
+        "chain": "鹰鸽分歧（观点对立）加剧市场波动，降息预期（借钱成本降低）摇摆",
+        "watch": "下周CPI数据及美联储官员讲话"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s preferred gauge shows",
       "source": "CNBC",
       "detail": "The personal consumption expenditures price index was expected to show a 4.1% annual increase.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "5月核心通胀率3.4%，创去年10月新高",
-        "assets": "📉 美股 承压\n📈 美元 利好",
-        "chain": "通胀粘性增强加息预期，利率敏感板块（如房地产）受冲击",
-        "watch": "PCE（个人消费支出）数据及美联储6月点阵图"
+        "what": "美联储首选通胀指标核心PCE（个人消费支出物价指数）5月升至3.4%",
+        "assets": "📉 美股 承压；📈 美元 利好",
+        "chain": "通胀顽固推迟降息（借钱成本降低），高利率（借钱成本高）压制风险资产（股票等高风险投资）",
+        "watch": "6月PCE数据及7月FOMC（美联储会议）声明"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
       "source": "CNBC",
       "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "法官阻止特朗普限制研究生贷款规则",
-        "assets": "📈 教育板块 利好\n📉 学生贷款ABS（资产支持证券） 承压",
-        "chain": "政策不确定性降低，贷款机构风险偏好改善，但财政赤字担忧上升",
-        "watch": "后续法院裁决及教育部政策调整"
+        "what": "法官阻止特朗普限制研究生助学贷款的规定",
+        "assets": "📈 教育板块 利好",
+        "chain": "政策不确定性增加，学生贷款公司（如Navient）股价可能波动",
+        "watch": "后续上诉进展及教育部新规"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "美国第一季度GDP环比折年率增速上修至2.1% 第二次估算值为1.6%",
       "source": "环球市场播报",
       "detail": "美国经济分析局数据显示，美国第一季度GDP环比折年率增速上修至2.1%，第二次估算值为1.6%。 44位经济学家的预测中值为增长1.6%（预测范围在+1.4%至+2.5%）。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国Q1 GDP上修至2.1%，高于预期",
-        "assets": "📈 美元 利好\n📈 美股 利好",
-        "chain": "经济韧性削弱降息预期，周期股（如工业）受益，但长端利率承压",
-        "watch": "Q2 GDP初值及ISM（供应管理协会）制造业指数"
+        "what": "美国Q1 GDP增速上修至2.1%，高于初值1.6%",
+        "assets": "📈 美元 利好；📉 黄金 承压",
+        "chain": "经济韧性（抗衰退能力）降低降息（借钱成本降低）紧迫性，美元走强",
+        "watch": "下周ISM制造业PMI（采购经理人指数）"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "法官允许诉讼继续，针对特朗普司法部反武器化基金",
-        "assets": "📉 政治风险资产 承压",
-        "chain": "司法不确定性增加，影响政策透明度，避险情绪或推高黄金",
-        "watch": "案件进展及2024大选相关民调"
+        "what": "法官允许针对特朗普司法部反武器化基金的诉讼继续",
+        "assets": "📉 政治不确定性 利空",
+        "chain": "法律风险增加，可能影响共和党竞选资金及政策推进",
+        "watch": "案件审理时间表及中期选举动态"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Nasdaq falls for a fourth day as a drop in Apple overshadows Micron's booming earnings: Live updates",
+      "source": "CNBC",
+      "detail": "The Nasdaq Composite fell on Thursday, even after a blowout Micron Technology earnings report, as traders moved out of key technology stocks.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "纳指连续第四日下跌，苹果下跌盖过美光强劲财报",
+        "assets": "📉 纳指 承压；📉 苹果 利空",
+        "chain": "科技股轮动（资金从涨多板块流出），苹果估值（价格与盈利比）过高引发获利了结（卖出盈利持仓）",
+        "watch": "苹果下周新品发布会及纳指支撑位"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "SK海力士和美光报喜，巩固存储芯片AI地位",
-        "assets": "📈 存储芯片 利好\n📈 AI半导体 利好",
-        "chain": "AI需求拉动HBM（高带宽内存）订单，供应链企业（如设备商）受益",
-        "watch": "三星电子财报及AI芯片订单数据"
+        "what": "SK海力士和美光财报亮眼，巩固存储芯片AI龙头地位",
+        "assets": "📈 存储芯片 利好；📈 半导体 利好",
+        "chain": "AI需求推动HBM（高带宽内存）供不应求，利好三星、西部数据等同行",
+        "watch": "三星电子下周财报及AI资本开支指引"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "亚马逊计划2030年前在印度新增130亿美元AI投资",
-        "assets": "📈 印度科技股 利好\n📈 云计算板块 利好",
-        "chain": "海外资本涌入，印度AI基础设施扩张，利好本地数据中心和云服务",
-        "watch": "亚马逊印度营收及AWS（亚马逊云）亚太市场份额"
+        "what": "亚马逊计划2030年前在印度追加130亿美元AI投资",
+        "assets": "📈 亚马逊 利好；📈 印度科技股 利好",
+        "chain": "扩大云计算（AWS）和AI基础设施，利好印度数据中心和AI初创企业",
+        "watch": "亚马逊Q2财报中印度业务营收增速"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美国去年慈善捐赠首次突破6000亿美元",
-        "assets": "📈 非营利板块 利好",
-        "chain": "高净值人群资产增值，捐赠增加或带动税收优惠相关资产（如DTC（捐赠者建议基金））",
-        "watch": "S&P 500走势及高净值人群财富报告"
+        "what": "美国去年慈善捐赠总额首次突破6000亿美元",
+        "assets": "📈 非盈利板块 利好",
+        "chain": "高净值人群（富豪）避税需求增加，利好财富管理（理财服务）和遗产规划公司",
+        "watch": "2024年捐赠数据及税收政策变化"
       }
     },
     {
@@ -136,9 +136,9 @@
       "score": 20,
       "insight": {
         "what": "美国寻求与欧盟建立AI伙伴关系，聚焦监管与供应链",
-        "assets": "📈 AI板块 利好\n📈 半导体 利好",
-        "chain": "跨大西洋合作降低监管风险，供应链协同利好设备商和芯片设计商",
-        "watch": "美欧AI联合声明及出口管制细则"
+        "assets": "📈 AI板块 利好",
+        "chain": "监管协调（统一规则）降低合规成本（遵守规定的费用），利好英伟达、AMD等芯片出口",
+        "watch": "欧美AI合作框架具体条款及中国反应"
       }
     }
   ]
