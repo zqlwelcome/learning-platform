@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 14:16",
+  "updateTime": "2026-06-25 14:20",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO市场低迷，财阀结构限制上市",
-        "assets": "📉 韩国股市 利空",
-        "chain": "抑制市场流动性（资金池），拖累韩元及亚洲新兴市场情绪",
-        "watch": "韩国财阀旗下子公司上市进度及IPO认购率"
+        "what": "韩国IPO市场低迷，财阀结构阻碍上市",
+        "assets": "📉 韩国股市 承压",
+        "chain": "企业融资困难→经济活力下降→韩元贬值压力（资本外流）",
+        "watch": "韩国综合指数及IPO融资额"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "保德信预计美联储鹰派倾向增强，秋季首次加息",
-        "assets": "📈 美元 利好；📉 美股 承压",
-        "chain": "加息预期（借钱成本上升）推高美债收益率（债券利息），压制成长股估值",
-        "watch": "美联储官员讲话及通胀数据（CPI/PCE）"
+        "what": "保德信预计美联储鹰派增强，秋季首次加息",
+        "assets": "📈 美元 利好；📉 美债 承压",
+        "chain": "加息预期→美元走强→新兴市场资金外流（套利交易平仓）",
+        "watch": "美联储官员讲话及点阵图"
       }
     },
     {
@@ -37,56 +37,84 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "加息阴影下金银大跌，机构建议不要对抗美联储",
-        "assets": "📉 黄金、白银 利空",
-        "chain": "实际利率（名义利率减通胀）上升，削弱贵金属吸引力（持有无息资产机会成本高）",
-        "watch": "美联储点阵图（利率预测）及非农就业数据"
+        "what": "加息预期打压金银，机构建议不要对抗美联储",
+        "assets": "📉 黄金 承压；📉 白银 承压",
+        "chain": "实际利率上升→持有成本增加→贵金属抛售（机会成本逻辑）",
+        "watch": "美国实际利率及美元指数"
       }
     },
     {
       "rank": 4,
+      "title": "美国PCE数据公布前美元高位整理，市场押注美联储年内加息概率升至82%",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——周四欧洲时段前，美国美元指数（DXY）维持高位整理走势，最新交投于101.52附近，虽然较前一交易日高点略有回落，但整体依然处于近一年多来的高位区域。",
+      "lang": "zh",
+      "score": 46,
+      "insight": {
+        "what": "PCE数据前美元高位整理，加息概率升至82%",
+        "assets": "📈 美元 利好；📉 美股 承压",
+        "chain": "通胀预期强化→加息押注升温→风险资产回调（估值重估）",
+        "watch": "美国核心PCE年率"
+      }
+    },
+    {
+      "rank": 5,
       "title": "France suffers major power outage as Europe sizzles in record-breaking heat",
       "source": "CNBC",
       "detail": "A heat-related power outage left around 68,000 homes without electricity in western France as record-breaking heat sweeps Europe.",
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电，欧洲热浪破纪录",
-        "assets": "📈 欧洲天然气 利多；📉 欧元区电力股 利空",
-        "chain": "能源紧张加剧通胀（电价飙升），欧元区经济衰退风险（增长放缓）上升",
-        "watch": "欧洲天然气库存及法国核电恢复进度"
+        "what": "法国大规模停电，欧洲遭遇创纪录热浪",
+        "assets": "📈 欧洲天然气 利好；📉 欧洲工业股 利空",
+        "chain": "能源供应紧张→电价飙升→工业生产受限（成本推升）",
+        "watch": "欧洲电力期货及气温预报"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国联邦学贷推出新利率折扣",
-        "assets": "📈 消费信贷 利好",
-        "chain": "降低学生负担（可支配收入增加），可能提振零售消费（可选消费板块）",
-        "watch": "学贷申请量及消费支出数据"
+        "what": "联邦学生贷款利率打折，部分借款人受益",
+        "assets": "📈 美国消费股 利好",
+        "chain": "学生还款减少→可支配收入增加→消费支出提振（需求侧刺激）",
+        "watch": "美国零售销售数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "港股午评：恒指跌1.38% 科指跌1.67% 科网股、黄金股低迷 半导体板块逆势走强",
       "source": "新浪港股",
       "detail": "6月25日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌1.38%，报23088.87，恒生科技指数跌1.67%，国企指数跌1.89%。盘面上，科网股跌多涨少，哔哩哔哩涨超2%...",
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股午盘恒指跌1.38%，科指跌1.67%，黄金股低迷，半导体逆势走强",
-        "assets": "📉 港股科网股、黄金股 承压；📈 港股半导体 走强",
-        "chain": "科技股受加息预期压制（估值杀），半导体受AI需求拉动（国产替代逻辑）",
-        "watch": "美联储利率决议及台积电营收指引"
+        "what": "港股午盘恒指跌1.38%，科网与黄金股低迷",
+        "assets": "📉 恒生科技 承压；📈 半导体板块 利好",
+        "chain": "科网估值回调→资金轮动至防御板块→半导体逆势（板块轮动）",
+        "watch": "恒指支撑位及南向资金流向"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "美联储最爱的通胀指标或升至三年新高，警惕新一轮加息押注“炸翻”全场！",
+      "source": "滚动播报",
+      "detail": "金十数据 尽管推动整体通胀走高的油价已逐步回落，但剔除能源的核心通胀有望同步走强，或意味着当前利率不再具备约束性，债市行情已复刻2022年美联储启动激进加息初期走势...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "美联储最关注通胀指标或升至三年新高",
+        "assets": "📈 美元 利好；📉 美债 承压",
+        "chain": "通胀超预期→加息预期飙升→风险资产抛售（波动率上升）",
+        "watch": "核心PCE月率及美联储反应"
+      }
+    },
+    {
+      "rank": 9,
       "title": "日本央行认为AI出口繁荣可以缓冲油价冲击对经济的影响",
       "source": "环球市场播报",
       "detail": " 日本央行日益强调全球人工智能繁荣带来的经济效益，认为人工智能相关产品的强劲需求可以缓冲中东冲突导致的能源价格上涨带来的拖累。",
@@ -94,51 +122,23 @@
       "score": 33,
       "insight": {
         "what": "日本央行认为AI出口繁荣可缓冲油价冲击",
-        "assets": "📈 日本半导体股 利好；📉 日本能源股 中性偏空",
-        "chain": "AI出口提升贸易顺差（赚外汇），对冲进口能源成本（油价上涨压力）",
-        "watch": "日本贸易收支数据及AI芯片出口订单"
+        "assets": "📈 日本半导体 利好；📉 日本能源股 利空",
+        "chain": "AI需求拉动出口→抵消能源成本→日元企稳（贸易条件改善）",
+        "watch": "日本半导体出口数据及油价走势"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "SK Hynix surges 12% after Micron earnings; blockbuster Nasdaq listing",
       "source": "CNBC",
       "detail": "Shares of South Korean chip giant SK Hynix surged 12% on Thursday after the company said it is seeking to raise as much as $29.4 billion.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "SK海力士因美光财报大涨12%，纳斯达克上市火爆",
-        "assets": "📈 全球存储芯片股 利好",
-        "chain": "存储涨价周期（供不应求）确认，带动AI算力相关硬件需求（数据中心）",
-        "watch": "美光下季度指引及存储芯片现货价格"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming ",
-      "source": "CNBC",
-      "detail": "Oil prices fell as investors bet global crude supplies will improve, as tankers stranded in the Persian Gulf for months have begun leaving the Strait of Hormuz.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "霍尔木兹海峡油轮恢复通行，油价回吐战事涨幅",
-        "assets": "📉 原油 利空",
-        "chain": "供应中断风险解除（地缘溢价消失），缓解全球通胀预期（能源成本下降）",
-        "watch": "OPEC+产量及伊朗核协议谈判进展"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
-      "source": "CNBC",
-      "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美光营收因存储涨价四倍，股价跳涨15%",
-        "assets": "📈 全球存储芯片 利好",
-        "chain": "确认存储周期向上（供需缺口），带动AI服务器及半导体设备需求",
-        "watch": "三星、海力士财报及DRAM/NAND合约价"
+        "what": "SK海力士涨12%，受美光财报及纳斯达克上市提振",
+        "assets": "📈 全球半导体 利好；📈 韩股 利好",
+        "chain": "HBM（高带宽内存）需求强劲→芯片产业链受益→资金流入韩国（产业联动）",
+        "watch": "SK海力士营收指引及美光财报"
       }
     }
   ]
