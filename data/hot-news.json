@@ -7,7 +7,13 @@
       "source": "上海证券报",
       "detail": "美联储最青睐的通胀指标最新出炉！ 北京时间6月25日晚间，美国商务部公布的数据显示，美国5月个人消费支出（PCE）价格指数同比上涨4.1%，高于4月的3.8%...",
       "lang": "zh",
-      "score": 48
+      "score": 48,
+      "insight": {
+        "what": "美国核心PCE（个人消费支出物价指数）升至3.4%超预期",
+        "assets": "📉 美债 承压 📈 黄金 短线利好",
+        "chain": "降息预期（借钱成本降低）推迟→美元走强→新兴市场资金外流压力增大",
+        "watch": "下月PCE数据及美联储官员讲话"
+      }
     },
     {
       "rank": 2,
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
       "lang": "en",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "法官阻止特朗普限制某些研究生联邦学生贷款的规定",
+        "assets": "📈 教育贷款服务商 利好\n📉 特朗普政策预期 利空",
+        "chain": "法院裁决阻止了限制性规定，降低教育贷款违约风险，利好贷款服务商；同时削弱特朗普去监管政策可信度，增加市场不确定性。",
+        "watch": "后续上诉进展及教育部政策调整"
+      }
     },
     {
       "rank": 5,
@@ -65,7 +77,13 @@
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "法官允许针对特朗普司法部‘反武器化’基金的诉讼继续",
+        "assets": "📉 特朗普政治概念股 利空\n📈 法律咨询公司 利好",
+        "chain": "诉讼推进增加司法部政策不确定性，可能影响执法基金分配，削弱特朗普政治议程，利好法律相关服务需求。",
+        "watch": "诉讼后续判决及基金使用限制"
+      }
     },
     {
       "rank": 7,
@@ -73,7 +91,13 @@
       "source": "CNBC",
       "detail": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "苹果因内存涨价，MacBook和iPad价格上调，股价跌6%",
+        "assets": "📉 苹果 利空，📈 存储芯片股（如美光） 利好",
+        "chain": "内存涨价→苹果成本转嫁消费者→销量可能下滑→供应链（台积电、鸿海）订单预期下调",
+        "watch": "苹果下季度财报指引及存储芯片现货价格走势"
+      }
     },
     {
       "rank": 8,
@@ -81,7 +105,13 @@
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves midday.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "黑莓、Kymera Therapeutics、苹果、温蒂汉堡等股票盘中大幅波动",
+        "assets": "📈 BlackBerry 利好（盘中大涨）\n📉 Kymera Therapeutics 利空（盘中大跌）\n📈 Apple 利好（盘中上涨）\n📉 Wendy's 利空（盘中下跌）",
+        "chain": "个股波动由财报、行业消息或市场情绪驱动，反映短期交易机会和资金轮动。",
+        "watch": "各公司后续财报、分析师评级及行业催化剂"
+      }
     },
     {
       "rank": 9,
@@ -105,10 +135,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "苹果因内存涨价，MacBook和iPad价格上调，股价跌6%",
-        "assets": "📉 苹果 利空，📈 存储芯片股（如美光） 利好",
-        "chain": "内存涨价→苹果成本转嫁消费者→销量可能下滑→供应链（台积电、鸿海）订单预期下调",
-        "watch": "苹果下季度财报指引及存储芯片现货价格走势"
+        "what": "美光和SK海力士财报亮眼，存储芯片成AI明星板块",
+        "assets": "📈 存储芯片股（美光、海力士） 利好，📈 AI硬件板块 利好",
+        "chain": "AI需求爆发→HBM（高带宽内存）供不应求→涨价周期启动→带动晶圆代工和封装设备股",
+        "watch": "HBM产能扩张进展及英伟达下一代芯片订单确认"
       }
     }
   ]
