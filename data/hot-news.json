@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 07:50",
+  "updateTime": "2026-06-26 07:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "货船在阿曼湾遭袭，伊朗警告",
-        "assets": "📈 原油 利多",
-        "chain": "地缘溢价（冲突风险推油价）→航运保险成本升→通胀预期升温",
-        "watch": "霍尔木兹海峡通行量"
+        "what": "货船在阿曼湾遭袭，伊朗警告，油价承压",
+        "assets": "📈 原油 短期看涨",
+        "chain": "地缘风险溢价上升，推高油价，但需求端疲软限制涨幅（供需博弈）",
+        "watch": "伊朗是否封锁霍尔木兹海峡"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "Goolsbee称通胀过高，Williams认为物价压力缓解",
+        "what": "美联储官员讲话分歧：古尔斯比说通胀高，威廉姆斯说通胀缓解",
         "assets": "📉 美元 承压",
-        "chain": "鸽派（倾向宽松）言论→降息预期（借钱成本降低预期）升温→美债收益率下行",
-        "watch": "周五PCE（个人消费支出物价指数）数据"
+        "chain": "鸽派（支持宽松）信号强化降息预期（借钱成本降低），利空美元，利好风险资产",
+        "watch": "周五PCE（个人消费支出）数据"
       }
     },
     {
@@ -37,98 +37,84 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "东京通胀加速，支持日央行加息",
-        "assets": "📈 日元 利多",
-        "chain": "通胀上行→日央行加息预期（收紧货币）→日元套利交易（借低息日元买高息资产）平仓",
-        "watch": "日本央行7月会议前瞻指引"
+        "what": "东京通胀加速，支持日本央行加息",
+        "assets": "📈 日元 看涨",
+        "chain": "日美利差收窄（日本加息，美国降息预期），套利交易（借低息日元买高息资产）平仓",
+        "watch": "日本央行7月会议是否加息"
       }
     },
     {
       "rank": 4,
-      "title": "6月26日财经早餐：美联储加息过度担忧缓解，金价重回4000关口上方",
-      "source": "滚动播报",
-      "detail": "汇通财经APP讯——周五（北京时间6月26日）亚市早盘，现货黄金交投于4029.30美元/盎司附近，金价周四重回4000美元/盎司上方，因美国5月PCE创2023年4月以来最大涨幅且首次突破...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "美联储加息过度担忧缓解，金价重回4000",
-        "assets": "📈 黄金 利多",
-        "chain": "加息担忧缓解→实际利率（名义利率减通胀）预期下降→黄金持有成本降低",
-        "watch": "美元指数走势"
-      }
-    },
-    {
-      "rank": 5,
       "title": "6月26日收盘：美股三大指数收盘涨跌不一 纳指今年二月以来首次四连跌 非人工智能板块个股走强",
       "source": "环球市场播报",
       "detail": "周四纳斯达克综合指数收跌。苹果领跌纳斯达克，受MacBook与iPad涨价消息影响，该股大跌6%。苹果称芯片等零部件成本大幅上涨是调价主因。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "美股涨跌不一，纳指四连跌，非AI股走强",
-        "assets": "📈 美股小盘股 利好 📉 美股科技股 承压",
-        "chain": "轮动（资金从AI板块转向价值股）→小盘股补涨→市场广度改善",
-        "watch": "罗素2000指数（小盘股指数）相对表现"
+        "what": "美股涨跌不一，纳指四连跌，非AI板块走强",
+        "assets": "📉 纳斯达克指数 承压；📈 美股小盘股 利好",
+        "chain": "资金从AI龙头轮动（板块切换）至价值股和小盘股，市场广度改善（非集中少数股）",
+        "watch": "下周科技巨头财报"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "美联储威廉姆斯“放鸽”：当前货币政策立场足以推动通胀回落至2%",
       "source": "市场资讯",
       "detail": "财联社6月26日讯（编辑 牛占林）纽约联储主席威廉姆斯周四表示，当前的货币政策立场能够有效推动通胀持续回落至美联储2%的目标水平，但他同时承认...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "威廉姆斯鸽派：当前政策足以降通胀",
-        "assets": "📉 美元 承压",
-        "chain": "鸽派信号→降息预期提前→风险资产（如股票）偏好回升",
-        "watch": "CME FedWatch（美联储观察工具）降息概率"
+        "what": "威廉姆斯放鸽：当前利率足以压制通胀",
+        "assets": "📈 美股科技股 利好",
+        "chain": "降息预期升温，成长股估值压力缓解（贴现率降低），但通胀粘性仍是风险",
+        "watch": "美联储7月会议纪要"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Ariel’s John Rogers likes these small-cap names as the market rally broadens",
       "source": "CNBC",
       "detail": "Ariel Investments' John Rogers highlighted for-profit education company Covista as a small-cap stock he's currently bullish on.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "Ariel基金看好小盘股，市场涨势扩散",
+        "what": "Ariel基金看好小盘股，市场上涨范围扩大",
         "assets": "📈 美股小盘股 利好",
-        "chain": "轮动逻辑（资金从大盘科技转向小盘）→低估值修复→周期性行业受益",
-        "watch": "小盘股ETF（交易型开放式指数基金）资金流入"
+        "chain": "资金从大盘股分散至小盘，罗素2000指数（小盘股基准）或跑赢标普",
+        "watch": "小盘股相对强弱指标"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "特朗普DOJ‘反武器化’基金诉讼继续",
-        "assets": "📉 美元 中性偏空",
-        "chain": "政治不确定性→监管风险上升→市场避险情绪可能升温",
-        "watch": "案件进展及最高法院动态"
+        "what": "特朗普司法部反武器化基金诉讼继续",
+        "assets": "📉 美元 承压",
+        "chain": "政治不确定性增加，避险情绪升温，但美元作为避险货币可能短期走强",
+        "watch": "诉讼是否影响财政政策"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "华尔街对美元重拾信心 沃什领导下的美联储激活多头",
       "source": "环球市场播报",
       "detail": "随着华尔街多家银行认为美元前景将出现逆转，美元本月有望创下过去一年最强月度表现之一。 包括摩根大通、美国银行和高盛集团在内的大型银行策略师对美元重拾信心...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "华尔街重拾美元信心，沃什领导美联储激活多头",
-        "assets": "📈 美元 利多",
-        "chain": "鹰派（倾向紧缩）预期→美元走强→新兴市场资本外流压力",
-        "watch": "美联储人事变动及政策声明"
+        "what": "华尔街对美元重拾信心，沃什领导美联储激活多头",
+        "assets": "📈 美元 看涨",
+        "chain": "鹰派（支持紧缩）美联储预期推高美元，利空新兴市场和大宗商品",
+        "watch": "沃什是否正式接任美联储主席"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "6月26日隔夜要闻：黄金跌破4000美元 油价回吐战时涨幅 比特币跌破6万美元 非人工智能板块个股走强",
       "source": "环球市场播报",
       "detail": "市场 6月26日收盘：美股三大指数收盘涨跌不一 纳指今年二月以来首次四连跌 非人工智能板块个股走强 6月26日美股成交额前20：苹果股价收盘下跌6...",
@@ -136,9 +122,23 @@
       "score": 27,
       "insight": {
         "what": "黄金跌破4000，油价回吐涨幅，比特币跌破6万",
-        "assets": "📉 黄金 承压 📉 原油 承压 📉 比特币 承压",
-        "chain": "获利回吐（前期涨幅过大）→风险偏好降温→资金流向现金或美债",
-        "watch": "VIX（恐慌指数）及美元走势"
+        "assets": "📉 黄金 承压；📉 原油 承压；📉 比特币 承压",
+        "chain": "风险资产集体回调，美元走强和流动性收紧（钱变贵）打压所有非美资产",
+        "watch": "全球央行是否干预市场"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "source": "CNBC",
+      "detail": "On Thursday, the Nasdaq Composite fell for a fourth straight day as shares of Apple and Microsoft slid.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "周五重大股票新闻将影响下一交易日",
+        "assets": "📈 美股 波动加大",
+        "chain": "财报和宏观数据密集发布，隐含波动率（预期价格跳动幅度）上升，期权定价高",
+        "watch": "标普500指数能否守住5500点"
       }
     }
   ]
