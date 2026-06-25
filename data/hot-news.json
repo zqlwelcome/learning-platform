@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "美国核心PCE（个人消费支出物价指数）升至3.4%超预期",
-        "assets": "📉 美债 承压 📈 黄金 短线利好",
-        "chain": "降息预期（借钱成本降低）推迟→美元走强→新兴市场资金外流压力增大",
-        "watch": "下月PCE数据及美联储官员讲话"
+        "what": "美联储加息预期生变，黄金短线走高",
+        "assets": "📈 黄金 利好",
+        "chain": "避险需求上升，美元承压，美债收益率（债券价格与利率反向）可能回落",
+        "watch": "美联储官员讲话及PCE（个人消费支出）数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "比特币ETF（交易所交易基金）创纪录资金流出，币价跌至2024年低点",
-        "assets": "📉 比特币 承压 📉 加密货币ETF 利空",
-        "chain": "风险偏好（投资者冒险意愿）下降→科技股连带承压→加密相关股票如Coinbase（加密货币交易所）受拖累",
-        "watch": "比特币能否守住前低支撑位"
+        "what": "比特币ETF创纪录资金外流，币价跌至2024年低点",
+        "assets": "📉 比特币 利空",
+        "chain": "风险偏好恶化，资金涌入美债避险，加密股（如Coinbase）承压",
+        "watch": "比特币持仓数据及监管动态"
       }
     },
     {
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "The personal consumption expenditures price index was expected to show a 4.1% annual increase.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "美国核心通胀率5月升至3.4%，创去年10月新高",
+        "assets": "📉 美国国债 利空；📈 美元 利好",
+        "chain": "降息预期降温，科技成长股（对利率敏感）估值受压，避险资金流入美元",
+        "watch": "下周CPI（消费者物价指数）及美联储会议纪要"
+      }
     },
     {
       "rank": 4,
@@ -45,10 +51,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国Q1 GDP（国内生产总值）上修至2.1%",
-        "assets": "📈 美元 利好 📉 美债 承压",
-        "chain": "经济韧性（增长强劲）→降息预期降温→美股周期股（与经济周期相关股票）相对受益",
-        "watch": "下周初请失业金人数及ISM（供应管理协会）PMI"
+        "what": "美国一季度GDP上修至2.1%，高于预期",
+        "assets": "📈 美股周期股 利好；📈 美元 利好",
+        "chain": "经济韧性削弱降息预期，美债收益率上行，新兴市场货币承压",
+        "watch": "二季度GDP初值及制造业PMI（采购经理指数）"
       }
     },
     {
@@ -57,7 +63,13 @@
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "特朗普司法部反武器化基金诉讼案继续推进",
+        "assets": "📉 特朗普相关政治敏感资产 承压",
+        "chain": "政策不确定性上升，资金可能从政治风险资产撤出，转向防御板块",
+        "watch": "案件进展及中期选举动态"
+      }
     },
     {
       "rank": 6,
@@ -65,7 +77,13 @@
       "source": "CNBC",
       "detail": "Bond investors are abandoning aggregate benchmarks in favor of a broad mix of fixed-income investments to maximize yield with the stock market on edge.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "债券ETF资金流入激增，BlackRock高管称市场嗅到信号",
+        "assets": "📈 美国国债ETF 利好",
+        "chain": "追逐收益推高债券价格，压低利率，资金从股市轮动至债市",
+        "watch": "10年期美债收益率及信用利差变化"
+      }
     },
     {
       "rank": 7,
@@ -73,7 +91,13 @@
       "source": "CNBC",
       "detail": "Tim Cook said last week that Apple would hike prices due to surging memory and storage costs.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "苹果因内存成本上涨提价MacBook/iPad，股价跌6%",
+        "assets": "📉 苹果 利空；📈 存储芯片股（如美光） 利好",
+        "chain": "消费电子需求疲软信号，供应链成本压力传导至终端，拖累科技板块",
+        "watch": "苹果财报及存储芯片价格走势"
+      }
     },
     {
       "rank": 8,
@@ -81,7 +105,13 @@
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves midday.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "黑莓、Kymera等个股午盘异动，苹果跌幅居前",
+        "assets": "📉 苹果 利空；📈 黑莓（波动性） 中性",
+        "chain": "个股波动反映市场情绪分化，资金从大盘科技向小盘题材股轮动",
+        "watch": "各公司财报及催化剂事件"
+      }
     },
     {
       "rank": 9,
@@ -91,10 +121,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "苹果因存储芯片涨价下调MacBook/iPad价格，股价跌6%",
-        "assets": "📉 苹果 利空 📈 存储芯片股 利好",
-        "chain": "内存成本上升→苹果毛利（利润率）受压→其他消费电子如戴尔、惠普可能跟涨",
-        "watch": "苹果Q3财报毛利率指引"
+        "what": "美光财报亮眼涨16%，带动部分芯片股走强",
+        "assets": "📈 存储芯片 利好；📈 半导体板块 利好",
+        "chain": "AI需求拉动存储周期，提振科技股风险偏好，但需警惕估值过高",
+        "watch": "美光指引及AI芯片订单数据"
       }
     },
     {
@@ -105,10 +135,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美光财报超预期涨16%，SK海力士确认存储芯片AI需求强劲",
-        "assets": "📈 美光 利好 📈 存储芯片板块 利好",
-        "chain": "AI算力（人工智能运算能力）需求爆发→HBM（高带宽内存）供不应求→上游设备商如应用材料受益",
-        "watch": "美光下季度营收指引及HBM产能扩张"
+        "what": "SK海力士和美光财报报喜，巩固存储芯片AI明星地位",
+        "assets": "📈 存储芯片 利好；📈 AI相关科技股 利好",
+        "chain": "AI资本开支扩张，拉动上游设备及材料需求，半导体周期复苏确认",
+        "watch": "英伟达财报及云服务商资本开支计划"
       }
     }
   ]
