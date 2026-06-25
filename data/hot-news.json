@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 08:36",
+  "updateTime": "2026-06-25 08:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO市场疲软，财阀结构抑制上市",
-        "assets": "📉 韩国综合股价指数 承压",
-        "chain": "IPO冷清→流动性收紧→中小盘股估值承压（估值缩水）",
-        "watch": "韩国财阀是否调整上市政策"
+        "what": "韩国IPO市场低迷，财阀结构限制上市",
+        "assets": "📉 韩国综合指数 承压",
+        "chain": "IPO冷清→二级市场流动性（资金流动性）抽紧→韩元贬值压力",
+        "watch": "韩国央行利率决议及外资流向"
       }
     },
     {
@@ -23,112 +23,84 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大规模停电，欧洲遭遇创纪录高温",
-        "assets": "📈 欧洲天然气期货 看涨；📉 法国核电板块 利空",
-        "chain": "高温→电力需求激增→天然气价格反弹（能源成本上升）",
-        "watch": "欧洲电力批发价格走势"
+        "what": "法国遭遇大停电，欧洲创纪录高温",
+        "assets": "📈 欧洲天然气期货 利好\n📉 法国核电股 利空",
+        "chain": "高温+停电→能源需求激增→电价飙升（电力现货价格）→通胀预期升温",
+        "watch": "法国电力恢复进度及欧洲天然气库存"
       }
     },
     {
       "rank": 3,
-      "title": "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises dividend after Fed stress test",
-      "source": "CNBC",
-      "detail": "The announcements followed the release of the Federal Reserve's annual stress test, which found that all 32 large banks weathered a hypothetical recession.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "摩根大通5000亿美元回购，高盛提高股息",
-        "assets": "📈 摩根大通股票 利好；📈 高盛股票 利好",
-        "chain": "回购缩股→EPS增厚（每股盈利提高）→银行股板块获追捧",
-        "watch": "美联储后续资本规则最终版"
-      }
-    },
-    {
-      "rank": 4,
       "title": "美国芯片巨头发布“炸裂”财报：单季度营收暴增346%！股价盘后暴涨近16%，带动美股芯片股集体大涨",
       "source": "每日经济新闻",
       "detail": "美国芯片巨头美光科技周三美股盘后公布财报显示，第三财季经调整营收414.6亿美元，上年同期93.0亿美元，同比增长约346%；第三财季调整后运营收益336.8亿美元，上年同期24...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "美国芯片巨头营收暴增346%，股价盘后涨16%",
-        "assets": "📈 美股半导体板块 利好；📈 费城半导体指数 看涨",
-        "chain": "AI芯片需求爆发→供应链上游受益（如设备商）→科技股轮动",
-        "watch": "其他芯片股财报及AI资本开支指引"
+        "what": "美国芯片巨头营收暴增346%，盘后涨16%",
+        "assets": "📈 美股半导体ETF 利好\n📈 费城半导体指数 利好",
+        "chain": "AI芯片需求爆发→产业链订单上调（晶圆代工、设备）→科技股估值重估",
+        "watch": "AMD及英伟达下周财报指引"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Federal Reserve says U.S. banks can withstand $708 billion in losses amid overhaul of capital rules",
       "source": "CNBC",
       "detail": "The Fed's annual exercise comes at a pivotal moment for bank regulation because, unlike previous years, the results will not affect capital requirements.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储压力测试：银行可承受7080亿美元损失",
+        "what": "美联储称银行可承受7080亿美元损失",
         "assets": "📈 美国银行股 利好",
-        "chain": "压力测试通过→资本规则软化预期→银行加大回购（股东回报提升）",
-        "watch": "美联储资本规则修订细节"
+        "chain": "压力测试通过→资本新规（Basel III终局）宽松预期→银行回购（股票回购）增加",
+        "watch": "美联储最终资本规则发布"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Federal student loans have a new interest rate discount — here's who qualifies",
       "source": "CNBC",
       "detail": "To qualify for the U.S. Department of Education's new interest rate discount on student loans, borrowers must meet several requirements. Here's what to know.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "联邦学生贷款利率折扣新规，部分借款人受益",
-        "assets": "📉 消费信贷ABS（资产支持证券） 承压",
-        "chain": "利率折扣→学生贷款偿付压力减轻→消费信贷违约率下降",
+        "what": "联邦学生贷款利率折扣新规出台",
+        "assets": "📉 美国消费信贷ABS 利空",
+        "chain": "利率折扣→学生贷款偿还率下降→ABS（资产支持证券）现金流风险上升",
         "watch": "学生贷款违约率数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "阿波罗首席经济学家：油价下跌或将进一步推高美国通胀，迫使美联储很快加息",
       "source": "环球市场播报",
       "detail": "原油价格正回落至伊朗冲突前的水平附近，但一位经济学家认为，这并不意味着美国的通胀会下降。 当地时间周三，美国原油价格下跌约4%，一度跌破每桶70美元...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "阿波罗首席经济学家：油价下跌或推高通胀，迫使加息",
-        "assets": "📉 WTI原油 看跌；📈 美元指数 看涨",
-        "chain": "油价跌→运输成本降→但实际通胀因基数效应上升→美联储被迫紧缩（加息概率上升）",
-        "watch": "美国CPI（消费者物价指数）及PCE（个人消费支出）数据"
+        "what": "阿波罗首席经济学家：油价下跌或推高通胀",
+        "assets": "📈 美国十年期国债收益率 上行\n📉 原油期货 承压",
+        "chain": "油价跌→消费者支出转移→服务业通胀（核心CPI）顽固→加息预期（利率上调）重燃",
+        "watch": "下周美国CPI及PCE（个人消费支出）数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "比特币跌破6万！AI吸走资金、散户缺席，华尔街接管市场后，谁来接住暴跌？",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 比特币正在为机构化转型付出代价。散户买盘萎缩、ETF资金持续外流、企业持仓者潜在抛售压力上升，加之AI基础设施投资持续虹吸风险资产资金...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "比特币跌破6万美元，AI吸走散户资金",
-        "assets": "📉 比特币 承压；📉 加密货币板块 利空",
-        "chain": "散户离场→流动性枯竭→机构主导但缺乏接盘→波动加剧（价格闪崩风险）",
-        "watch": "比特币ETF（交易所交易基金）资金流入量"
+        "what": "比特币跌破6万，AI吸走资金且散户缺席",
+        "assets": "📉 BTC现货ETF 承压\n📉 加密货币概念股 利空",
+        "chain": "AI投资挤占→风险偏好（市场情绪）转向科技→稳定币（USDT）需求下降→流动性危机",
+        "watch": "Coinbase交易量及比特币ETF净流出"
       }
     },
     {
-      "rank": 9,
-      "title": "跌懵了！无视大幅降库！WTI暴跌失守70美元，油价于库存的极端背离显示市场的混乱",
-      "source": "市场资讯",
-      "detail": "来源：能源研发中心 后市观点 周三油价再次大跌，WTI原油跌破了70美元，各大原油期货全线跌回了美伊战争爆发之前。布伦特近端已经再次呈现贴水结构...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "WTI暴跌失守70美元，与库存数据严重背离",
-        "assets": "📉 WTI原油 利空；📉 能源股 承压",
-        "chain": "库存降但油价跌→需求预期恶化（衰退交易）→通胀预期下滑",
-        "watch": "OPEC+（石油输出国组织及盟友）产量政策及EIA（美国能源信息署）库存周报"
-      }
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
       "source": "CNBC",
       "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
@@ -136,9 +108,37 @@
       "score": 27,
       "insight": {
         "what": "美光股价涨15%，内存价格飙升致营收翻四倍",
-        "assets": "📈 美光科技 利好；📈 存储芯片板块 看涨",
-        "chain": "HBM（高带宽内存）需求爆发→DRAM（动态随机存取存储器）涨价→半导体周期上行确认",
-        "watch": "三星及SK海力士存储芯片报价"
+        "assets": "📈 美光科技 利好\n📈 全球存储芯片 利好",
+        "chain": "HBM（高带宽内存）供不应求→DRAM（动态随机存取存储器）涨价→服务器成本上升",
+        "watch": "三星及SK海力士HBM产能指引"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Qualcomm stock pops 15% after chipmaker almost doubles projection for 2029 non-handset revenue",
+      "source": "CNBC",
+      "detail": "Qualcomm's primary business has been smartphones, which accounted for two-thirds of the company's product revenue in it's most recent quarter.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "高通股价涨15%，非手机营收预期翻倍",
+        "assets": "📈 高通 利好\n📈 物联网芯片 利好",
+        "chain": "汽车+IoT（物联网）业务爆发→单一手机依赖下降→多元估值（PE扩张）",
+        "watch": "汽车芯片季度出货量"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+      "source": "CNBC",
+      "detail": "A decline in chip stocks dragged down the Nasdaq Composite on Wednesday. The S&P 500 ended the session slightly lower.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "周四美股大事件：哪些可能影响下一交易日",
+        "assets": "📈 标普500指数 波动",
+        "chain": "财报+宏观数据密集→隐含波动率（VIX恐慌指数）上升→期权对冲成本增加",
+        "watch": "初请失业金人数及美联储官员讲话"
       }
     }
   ]
