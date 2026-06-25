@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-25 13:21",
+  "updateTime": "2026-06-25 13:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 55,
       "insight": {
-        "what": "韩国IPO市场低迷，财阀结构限制上市",
+        "what": "韩国IPO市场冷清，财阀结构压制上市",
         "assets": "📉 韩国股市 承压",
-        "chain": "IPO减少→企业融资渠道收窄→抑制资本开支（Capex）和经济增长",
-        "watch": "韩国综合指数（KOSPI）及新股上市数量"
+        "chain": "IPO减少→企业融资受限→经济活力下降（企业扩张慢）",
+        "watch": "韩国综合指数走势及新股认购率"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "保德信预计美联储鹰派倾向增强，秋季首次加息",
-        "assets": "📉 美债 承压；📈 美元 利好",
-        "chain": "加息预期（借钱成本上升）→风险资产（如科技股）估值受压→资金回流美元资产",
-        "watch": "美联储利率决议及点阵图（利率预测）"
+        "what": "保德信预计美联储鹰派，秋季首次加息",
+        "assets": "📉 美债 承压；📈 美元 走强",
+        "chain": "加息预期→利率上升→风险资产估值压缩（股票跌）",
+        "watch": "美联储官员讲话及CPI数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "加息阴影下金银大跌，机构建议别与美联储对抗",
+        "what": "加息预期打压金银，机构建议别逆势做多",
         "assets": "📉 黄金 承压；📉 白银 承压",
-        "chain": "实际利率（名义利率减通胀）上升→无息资产（黄金）吸引力下降→避险需求转向美元",
-        "watch": "美国实际利率（TIPS收益率）及CPI数据"
+        "chain": "加息→实际利率上升→无息资产吸引力下降（黄金跌）",
+        "watch": "美国实际利率及美元指数"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 45,
       "insight": {
-        "what": "法国大停电，欧洲遭遇创纪录热浪",
+        "what": "法国大停电叠加欧洲热浪，电力危机加剧",
         "assets": "📈 欧洲天然气 利好；📉 欧洲电力股 承压",
-        "chain": "电力短缺→能源价格飙升→推高通胀（CPI）并压制工业生产",
-        "watch": "法国电价及欧洲天然气库存水平"
+        "chain": "停电+热浪→能源需求激增→电价飙升（通胀压力）",
+        "watch": "法国电力恢复情况及天然气库存"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美国联邦学生贷款新利率折扣，部分借款人受益",
+        "what": "美国联邦学生贷款利率新折扣，部分人受益",
         "assets": "📈 美国消费信贷 利好",
-        "chain": "贷款成本降低→可支配收入增加→支撑消费支出（个人消费支出PCE）",
-        "watch": "学生贷款违约率及零售销售数据"
+        "chain": "降息折扣→学生还款压力减轻→消费支出可能增加（刺激经济）",
+        "watch": "美国学生贷款违约率变化"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 37,
       "insight": {
-        "what": "港股午盘恒指跌1.38%，科指跌1.67%，科网黄金低迷",
-        "assets": "📉 港股科技股 承压；📉 港股黄金股 承压",
-        "chain": "科网股拖累→市场情绪悲观→资金转向避险资产（如公用事业）",
-        "watch": "恒生科技指数及南向资金流向"
+        "what": "港股午盘恒指跌1.38%，科指跌1.67%",
+        "assets": "📉 港股科技股 承压；📈 港股半导体 逆势",
+        "chain": "科网股低迷→市场情绪悲观→资金转向防御板块（半导体避险）",
+        "watch": "恒指20000点支撑及科技股财报"
       }
     },
     {
@@ -95,8 +95,8 @@
       "insight": {
         "what": "日本央行认为AI出口繁荣可缓冲油价冲击",
         "assets": "📈 日本AI相关股 利好；📉 日元 承压",
-        "chain": "AI出口增长→贸易逆差改善→缓冲输入性通胀（进口成本上升）",
-        "watch": "日本出口数据及日元兑美元汇率"
+        "chain": "AI出口增长→贸易逆差缩小→经济抗压增强（对冲油价）",
+        "watch": "日本AI企业出口数据及油价走势"
       }
     },
     {
@@ -107,38 +107,38 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "SK海力士因美光财报大涨12%，纳斯达克上市热潮",
-        "assets": "📈 韩国半导体股 利好；📈 美股半导体 利好",
-        "chain": "美光财报超预期→存储芯片需求强劲→带动AI芯片产业链估值重估",
-        "watch": "美光科技（MU）及SK海力士（000660.KS）股价"
+        "what": "SK海力士涨12%，受美光财报及纳斯达克上市推动",
+        "assets": "📈 全球半导体 利好；📈 韩国半导体股 利好",
+        "chain": "美光业绩超预期→内存需求强劲→产业链上游受益（设备商）",
+        "watch": "美光下季度指引及内存价格走势"
       }
     },
     {
       "rank": 9,
-      "title": "长江有色: 强美元、加息及地缘出清交织共振施压 25日铝价或大跌",
-      "source": "市场资讯",
-      "detail": "长江有色金属网 长江铝价alu.ccmn.cn短评：美元探至新高叠加美联储年内加息预期升温，隔夜伦铝暴跌超4%创四月低点；地缘溢价出清叠加全球产能修复，内外铝价同步走弱...",
-      "lang": "zh",
-      "score": 28,
-      "insight": {
-        "what": "强美元、加息及地缘风险交织，铝价或大跌",
-        "assets": "📉 铝 承压；📉 有色金属 承压",
-        "chain": "美元走强（DXY上升）→大宗商品计价效应（美元计价商品更贵）→需求萎缩",
-        "watch": "LME铝价及美元指数（DXY）"
-      }
-    },
-    {
-      "rank": 10,
       "title": "Oil prices erase wartime gains as supply concerns ease with Hormuz tanker traffic resuming ",
       "source": "CNBC",
       "detail": "Oil prices fell as investors bet global crude supplies will improve, as tankers stranded in the Persian Gulf for months have begun leaving the Strait of Hormuz.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "霍尔木兹海峡油轮恢复通行，油价回吐涨幅",
-        "assets": "📉 原油 承压",
-        "chain": "供应担忧缓解→油价回落→降低通胀预期（CPI）→利好消费股",
-        "watch": "布伦特原油价格及霍尔木兹海峡通航数据"
+        "what": "油价回吐地缘溢价，霍尔木兹航运恢复缓解供应",
+        "assets": "📉 原油 承压；📈 航运股 利好",
+        "chain": "供应恢复→油价下跌→通胀预期降温（利好债市）",
+        "watch": "霍尔木兹海峡通行量及OPEC产量"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Micron stock jumps 15% as soaring prices from memory crunch lead to quadrupling of revenue ",
+      "source": "CNBC",
+      "detail": "Micron's quarterly earnings report follows a 700% surge in the memory maker's stock price over the past year.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "美光股价涨15%，内存短缺导致收入翻四倍",
+        "assets": "📈 全球内存股 利好；📈 科技硬件 利好",
+        "chain": "内存涨价→厂商利润暴增→资本开支增加（设备需求）",
+        "watch": "内存合约价及美光库存数据"
       }
     }
   ]
