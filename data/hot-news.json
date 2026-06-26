@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 01:41",
+  "updateTime": "2026-06-27 01:45",
   "news": [
     {
       "rank": 1,
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "OpenAI尚未召开IPO前投资者会议，上市进程不明",
+        "assets": "📉 AI概念股（如微软、英伟达）情绪短期承压",
+        "chain": "IPO进程不明→市场对AI商业化节奏存疑→相关高估值科技股面临调整",
+        "watch": "OpenAI官方IPO时间表声明或SEC备案更新"
+      }
     },
     {
       "rank": 3,
@@ -73,10 +79,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "花旗下调科技股权重，称AI赛道难全员受益",
-        "assets": "📉 AI/科技板块（如英伟达、AMD）利空；📈 防御板块（如公用事业）利好",
-        "chain": "机构减仓→科技股资金流出→板块轮动至低估值（市盈率低）行业",
-        "watch": "花旗科技股持仓报告及AI公司财报指引"
+        "what": "OpenAI推迟IPO，Kalshi交易员预测2027年3月前官宣",
+        "assets": "📉 科技IPO市场 情绪承压；📈 私募股权市场 短期活跃",
+        "chain": "OpenAI推迟IPO反映AI行业估值泡沫担忧及监管不确定性，削弱科技板块短期IPO供给预期，资金可能转向已上市科技巨头或私募市场。Kalshi预测数据暗示市场对AI公司上市节奏趋于保守，风险偏好下降。",
+        "watch": "关注OpenAI官方IPO时间表声明、SEC对AI公司上市监管动态、以及Kalshi预测合约价格变化"
       }
     },
     {
@@ -85,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "OpenAI倾向于2027年IPO，时间线后移",
+        "assets": "📉 私有AI公司（OpenAI）估值预期承压；📈 竞争对手Anthropic相对利好",
+        "chain": "IPO推迟→晚期投资者流动性受限→市场关注Anthropic等竞对上市节奏",
+        "watch": "OpenAI董事会正式上市决议或投行承销商选定公告"
+      }
     },
     {
       "rank": 8,
@@ -121,7 +133,13 @@
       "source": "CNBC",
       "detail": "The tech trade is becoming rocky, and Citi thinks it's time for investors to trim positions in the sector.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "花旗下调科技股权重，称AI赛道难全员受益",
+        "assets": "📉 AI/科技板块（如英伟达、AMD）利空；📈 防御板块（如公用事业）利好",
+        "chain": "机构减仓→科技股资金流出→板块轮动至低估值（市盈率低）行业",
+        "watch": "花旗科技股持仓报告及AI公司财报指引"
+      }
     }
   ]
 }
