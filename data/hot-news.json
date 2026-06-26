@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 17:25",
+  "updateTime": "2026-06-26 17:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "存储芯片价格担忧+OpenAI IPO推迟，美国芯片股盘前下跌",
-        "assets": "📉 美国芯片股 利空；📉 半导体ETF 承压",
-        "chain": "芯片需求预期恶化→拖累AI服务器、数据中心板块（风险偏好降低）",
-        "watch": "存储芯片合约价格走势；OpenAI IPO时间表"
+        "what": "存储芯片降价担忧及OpenAI IPO推迟，芯片股盘前走低",
+        "assets": "📉 美股芯片股 承压；📉 存储芯片期货 看跌",
+        "chain": "AI资本开支预期降温，拖累科技股，避险情绪推升美债（国债价格涨）",
+        "watch": "存储芯片现货价格及OpenAI IPO时间表"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "AI股继续暴跌，科技板块再陷动荡",
-        "assets": "📉 科技股 利空；📉 纳斯达克指数 承压",
-        "chain": "AI泡沫担忧→资金从成长股轮动至防御板块（避险情绪升温）",
-        "watch": "AI龙头财报及盈利指引；VIX（恐慌指数）变化"
+        "what": "AI股暴跌，科技板块持续动荡",
+        "assets": "📉 美股科技股 承压；📉 纳斯达克指数 看跌",
+        "chain": "市场风险偏好（愿意冒险的程度）下降，资金轮动至防御板块（如公用事业）",
+        "watch": "VIX恐慌指数及科技龙头财报"
       }
     },
     {
@@ -37,52 +37,52 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "Red Lobster‘无限虾’促销被起诉，称导致公司灾难",
-        "assets": "📉 Red Lobster母公司 利空",
-        "chain": "促销策略失败→餐饮业警惕过度折扣风险（利润率压缩）",
-        "watch": "餐饮行业同店销售数据；消费者支出报告"
+        "what": "Red Lobster无限吃虾活动被诉为‘公司车祸’",
+        "assets": "📉 Red Lobster母公司 利空；📉 餐饮板块 情绪承压",
+        "chain": "促销策略失误引发利润率担忧，可能拖累同类餐饮股估值（股价/盈利比）",
+        "watch": "Red Lobster季度同店销售及诉讼进展"
       }
     },
     {
       "rank": 4,
+      "title": "意大利监管机构就“Microsoft 365”涨价一事对微软展开调查",
+      "source": "环球市场播报",
+      "detail": " 意大利反垄断监管机构周五表示，已针对微软公司展开调查，原因是该公司涉嫌在“Microsoft 365”订阅服务涨价过程中存在不公平商业行为。",
+      "lang": "zh",
+      "score": 39,
+      "insight": {
+        "what": "意大利监管调查微软365涨价",
+        "assets": "📉 微软 承压；📉 欧洲科技股 情绪利空",
+        "chain": "反垄断风险升温，可能影响云服务（软件即服务）定价弹性，竞品或受益",
+        "watch": "欧盟反垄断裁决及微软合规回应"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
       "source": "CNBC",
       "detail": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀过高，纽约联储主席认为物价压力缓解",
-        "assets": "📉 美元 短期承压；📈 美债 利好",
-        "chain": "鹰鸽分歧→市场降息预期波动（短期利率不确定性增加）",
-        "watch": "本周CPI（消费者物价指数）数据；美联储官员讲话"
+        "what": "芝加哥联储主席称通胀过高，纽约联储主席认为压力缓解",
+        "assets": "📉 美股 情绪利空；📈 美元 短期承压",
+        "chain": "联储内部分歧加大，市场降息预期（借钱成本降低）波动，短债收益率（短期利率）波动",
+        "watch": "周五PCE通胀数据及联储官员讲话"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
       "source": "CNBC",
       "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while digesting a flurry of news from the region.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国原油跌破70美元，阿曼附近油轮遇袭后继续下跌",
-        "assets": "📉 原油 利空；📉 能源股 承压",
-        "chain": "地缘风险短暂脉冲→需求疲软主导趋势（OPEC+减产失效）",
-        "watch": "OPEC+产量政策；美国原油库存周报"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Goldman says private credit may invest a lot of 'dry powder' in this sector",
-      "source": "CNBC",
-      "detail": "Private credit may use its sizable amount of \"dry powder\" to combat potential financing market dislocations in this sector, according to Goldman Sachs.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "高盛称私募信贷大量‘干火药’将投向某行业",
-        "assets": "📈 私募信贷 利好；📈 目标行业 利好",
-        "chain": "资本涌入→目标行业估值提升（杠杆收购活跃）",
-        "watch": "高盛报告具体行业；私募信贷基金部署速度"
+        "what": "阿曼附近货船遇袭后，美原油跌破70美元",
+        "assets": "📉 原油 承压；📈 黄金 避险利好",
+        "chain": "地缘风险未能支撑油价，需求担忧主导，汽油期货（成品油）跟跌",
+        "watch": "OPEC+产量决策及中东局势升级信号"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "德国监管机构调查账务，Zalando股价跌4.4%",
-        "assets": "📉 Zalando 利空；📉 欧洲电商板块 承压",
-        "chain": "监管风险→投资者抛售电商股（合规成本上升）",
-        "watch": "调查结果公告；Zalando财报透明度"
+        "what": "德国监管调查账务，扎兰多股价跌4.4%",
+        "assets": "📉 扎兰多 利空；📉 欧洲电商股 情绪承压",
+        "chain": "监管合规风险暴露，可能引发做空（赌股价跌）资金流入同类电商股",
+        "watch": "调查结果及扎兰多财务披露"
       }
     },
     {
@@ -108,37 +108,37 @@
       "score": 25,
       "insight": {
         "what": "港股恒指跌1.76%，科指跌3.41%，科网芯片股普跌",
-        "assets": "📉 恒生指数 利空；📉 港股科技股 利空",
-        "chain": "外资流出+AI退潮→港股承压（中美利差扩大）",
-        "watch": "南向资金净买入额；恒指20000点支撑"
+        "assets": "📉 恒生指数 看跌；📉 恒生科技指数 承压；📉 中概股 利空",
+        "chain": "外资流出压力加大，人民币汇率（美元兑人民币）承压，A股科技板块跟跌",
+        "watch": "南下资金流向及中美利率差变化"
       }
     },
     {
       "rank": 9,
+      "title": "Binance to stop providing services to European clients after failing to obtain license: Financial Times",
+      "source": "CNBC",
+      "detail": "All crypto companies have to obtain a license under the bloc's Markets in Crypto-Assets Regulation by July 1, or risk penalties.",
+      "lang": "en",
+      "score": 25,
+      "insight": {
+        "what": "币安因未获牌照将停止对欧洲客户服务",
+        "assets": "📉 比特币 承压；📉 加密货币交易所 利空",
+        "chain": "监管收紧打击合规预期，资金可能转向合规交易所（如Coinbase），DeFi（去中心化金融）代币承压",
+        "watch": "币安欧洲替代方案及MiCA法规实施"
+      }
+    },
+    {
+      "rank": 10,
       "title": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
       "source": "CNBC",
       "detail": "ON Semiconductor said the deal bumps up its total addressable market by $30 billion, to $243 billion by 2030.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "安森美收购新思科技，押注物理AI，交易额70亿美元",
-        "assets": "📈 安森美 利好；📈 半导体行业 利好",
-        "chain": "并购整合→物理AI赛道加速（边缘计算芯片需求）",
-        "watch": "收购监管审批进展；安森美整合后财报"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "NBA targets Asian resurgence with technology and talent push",
-      "source": "CNBC",
-      "detail": "Southeast Asia has emerged as one of the NBA's fastest-growing markets for fan engagement, making the region a focal point for both player development and business expansion. ",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "NBA以科技和人才策略瞄准亚洲复兴",
-        "assets": "📈 NBA相关科技股 利好；📈 亚洲体育媒体 利好",
-        "chain": "体育科技投入→VR直播、数据分析需求增长（变现渠道拓宽）",
-        "watch": "NBA亚洲转播权合同；科技合作公告"
+        "what": "安森美以70亿美元收购新思，押注物理AI",
+        "assets": "📈 安森美 利好；📈 半导体并购板块 看涨",
+        "chain": "行业整合加速，汽车芯片（车用半导体）及边缘AI（端侧人工智能）估值获提振",
+        "watch": "收购案监管审批及安森美Q3营收指引"
       }
     }
   ]
