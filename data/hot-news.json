@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 03:05",
+  "updateTime": "2026-06-27 03:11",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 54,
       "insight": {
         "what": "美联储官员卡什卡里称通胀广泛，或需加息",
-        "assets": "📈 美元 利好; 📉 美国国债 承压; 📉 美股 利空",
-        "chain": "加息预期推高利率（借钱成本），压制股市估值，美元走强施压新兴市场",
-        "watch": "下次CPI（消费者物价指数）数据是否超预期"
+        "assets": "📉 美股大盘 承压; 📈 美元指数 走强",
+        "chain": "加息预期升温→风险资产抛售（Risk-off）→美债收益率（长期国债利率）上行",
+        "watch": "下周CPI（消费者物价指数）数据及点阵图（利率预测）"
       }
     },
     {
@@ -37,7 +37,13 @@
       "source": "CNBC",
       "detail": "President Donald Trump's economic advisors are giving Warsh space, as the new Fed chairman, on interest rates as the president repeats calls to cut.",
       "lang": "en",
-      "score": 48
+      "score": 48,
+      "insight": {
+        "what": "特朗普施压美联储主席，通胀超4%",
+        "assets": "📉 美元指数 承压; 📈 黄金 利好",
+        "chain": "政治干预→美联储独立性（央行决策自主性）受疑→通胀预期脱锚（失控）",
+        "watch": "美联储下次会议声明及通胀保值债券（TIPS）收益率"
+      }
     },
     {
       "rank": 5,
@@ -47,10 +53,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI否认近期IPO，称未设定时间表",
-        "assets": "📉 AI概念股 短期利空; 📈 未上市AI公司 估值承压",
-        "chain": "IPO推迟减少市场供应，但削弱短期炒作热情，资金转向已上市AI标的",
-        "watch": "OpenAI官方声明或SEC（美国证监会）文件"
+        "what": "OpenAI消息人士称尚未安排IPO前会议或时间表",
+        "assets": "📉 未上市AI公司估值 承压; 📉 科技股情绪 偏空",
+        "chain": "IPO推迟→一级市场（私募融资）流动性收紧→AI板块热度降温",
+        "watch": "OpenAI官方声明及Anthropic上市进展"
       }
     },
     {
@@ -61,10 +67,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI考虑2027年IPO，晚于Anthropic",
-        "assets": "📉 AI板块 情绪利空; 📈 竞争对手Anthropic 相对利好",
-        "chain": "上市时间差使Anthropic先获流动性溢价（更早变现），OpenAI估值或面临折价",
-        "watch": "Anthropic上市进展及估值对比"
+        "what": "OpenAI考虑最早2027年IPO，或晚于Anthropic",
+        "assets": "📉 未上市AI公司估值 偏弱; 📈 竞品Anthropic 利好",
+        "chain": "推迟上市→二级市场（公开交易）AI标的稀缺→资金转向已上市科技股",
+        "watch": "Anthropic上市时间表及OpenAI融资轮次"
       }
     },
     {
@@ -92,9 +98,9 @@
       "score": 36,
       "insight": {
         "what": "卡什卡里预计美联储今年加息一次",
-        "assets": "📈 美元 利好; 📉 黄金 利空; 📉 长期美债 承压",
-        "chain": "加息信号强化紧缩预期（钱更贵），抑制风险资产，短端利率（短期国债）上行更快",
-        "watch": "美联储点阵图（利率预测）及下次会议纪要"
+        "assets": "📉 美股成长股 承压; 📈 短期美债 利好",
+        "chain": "加息预期→贴现率（资金成本）上升→压制高估值科技股",
+        "watch": "联邦基金期货（利率衍生品）隐含加息概率"
       }
     },
     {
@@ -106,9 +112,9 @@
       "score": 30,
       "insight": {
         "what": "Momenta香港IPO基石投资者含奔驰和GIC",
-        "assets": "📈 自动驾驶板块 利好; 📈 港股IPO 情绪提振",
-        "chain": "顶级机构背书提升IPO信心，吸引跟风资金，自动驾驶赛道估值或上调",
-        "watch": "Momenta招股价及超额认购倍数"
+        "assets": "📈 自动驾驶板块 利好; 📈 港股IPO市场 活跃",
+        "chain": "知名机构背书→提振投资者信心→带动同类科技IPO估值",
+        "watch": "Momenta定价区间及首日涨幅"
       }
     }
   ]
