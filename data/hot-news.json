@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 18:40",
+  "updateTime": "2026-06-26 18:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "AI股暴跌，科技板块恐慌蔓延",
-        "assets": "📉 美股科技股 利空；📉 半导体ETF 承压",
-        "chain": "科技股抛售引发资金避险，美债（无风险资产）需求上升，收益率（借钱成本）下行",
-        "watch": "今晚美股指期货开盘及VIX（恐慌指数）走势"
+        "what": "AI股大跌引发科技板块动荡",
+        "assets": "📉 美股科技股 承压",
+        "chain": "科技股抛售→避险情绪升温→资金涌入国债（避险资产）",
+        "watch": "今晚美股科技龙头财报"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "美银报告美股3月来首现资金净流出，科技基金外流创纪录",
-        "assets": "📉 美股大盘 利空；📉 科技基金 承压",
-        "chain": "资金外流加剧市场回调，可能触发量化基金（程序化交易）的止损卖盘",
-        "watch": "本周后续资金流向数据及FOMC（美联储会议）声明"
+        "what": "美银：美股3月来首次资金净流出，科技基金外流创纪录",
+        "assets": "📉 美股科技基金 利空",
+        "chain": "资金流出→科技股估值压缩→对冲基金可能追加保证金（抵押品不足）",
+        "watch": "下周资金流向数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "Red Lobster无限虾促销被诉称灾难性亏损",
-        "assets": "📉 餐饮股 利空；📉 消费类股 承压",
-        "chain": "促销失败反映消费降级，高成本转嫁能力弱，利空餐饮及休闲行业",
-        "watch": "该公司财报及同行业促销策略调整"
+        "what": "Red Lobster无限虾促销被诉称为‘车祸’",
+        "assets": "📉 Red Lobster股票 利空",
+        "chain": "促销亏损→餐饮股盈利预期下修→消费者支出疲软信号",
+        "watch": "公司Q2财报"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "意大利调查微软365涨价涉嫌违规",
-        "assets": "📉 微软 利空；📉 欧洲科技股 承压",
-        "chain": "监管升级增加科技巨头合规成本，可能引发欧盟其他成员国跟进调查",
-        "watch": "微软是否调整定价及欧盟后续裁决"
+        "what": "意大利监管机构调查Microsoft 365涨价",
+        "assets": "📉 微软股票 承压",
+        "chain": "监管风险→科技巨头合规成本上升→欧洲科技股溢价（估值偏高）",
+        "watch": "欧盟类似调查进展"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀过高，纽约联储主席称压力缓解",
-        "assets": "📈 美债 中性；📉 美股 承压",
-        "chain": "分歧信号加剧利率路径不确定性，市场波动率（期权隐含波动）上升",
-        "watch": "周三CPI（消费者物价指数）数据及点阵图变化"
+        "what": "芝加哥联储主席：通胀过高；威廉姆斯：压力缓解",
+        "assets": "📉 美债收益率 波动",
+        "chain": "鹰鸽分歧→市场加息预期反复（利率预期）→美元指数震荡",
+        "watch": "周五PCE（个人消费支出物价）数据"
       }
     },
     {
       "rank": 6,
+      "title": "首次重大资产重组！股价却跌停……",
+      "source": "市场资讯",
+      "detail": "来源：IPO日报 6月25日晚间，*ST帅电（605336.SH）发布公告称，公司计划以支付现金方式收购杭州惠嘉信息科技有限公司（简称“惠嘉科技”）100%股权，惠嘉科技的初步估值为4...",
+      "lang": "zh",
+      "score": 35,
+      "insight": {
+        "what": "首次重大资产重组，股价却跌停",
+        "assets": "📉 A股重组方 利空",
+        "chain": "重组预期落空→套利资金出逃→小盘股流动性风险（难卖出）",
+        "watch": "公司后续公告"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
       "source": "CNBC",
       "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "法官阻止特朗普限制部分研究生联邦贷款规则",
-        "assets": "📈 教育类股 利好；📈 学生贷款ABS（资产支持证券） 利好",
-        "chain": "政策放松提升高等教育需求，利好营利性大学和贷款机构",
-        "watch": "教育部是否上诉及国会立法动态"
+        "what": "法官阻止特朗普限制研究生助学贷款规定",
+        "assets": "📉 学生贷款服务商 承压",
+        "chain": "政策松动→教育类股受益→但政府财政赤字扩大（借债增加）",
+        "watch": "最高法院上诉结果"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
       "source": "CNBC",
       "detail": "Bond investors are abandoning aggregate benchmarks in favor of a broad mix of fixed-income investments to maximize yield with the stock market on edge.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "贝莱德高管称债券ETF资金流入激增，市场嗅到风险",
-        "assets": "📈 债券ETF 利好；📈 长端美债 利好",
-        "chain": "资金涌入债市预示衰退预期升温，股市风险溢价（股票相对债券的超额收益）扩大",
-        "watch": "10年期美债收益率能否跌破4%"
+        "what": "债券ETF资金流激增，贝莱德高管称‘市场嗅到异样’",
+        "assets": "📈 债券ETF 利好",
+        "chain": "资金涌入债市→长端收益率下行（利率降）→科技股估值压力缓解",
+        "watch": "10年期美债收益率走势"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
       "source": "CNBC",
       "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while digesting a flurry of news from the region.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "阿曼附近货轮遇袭后油价跌破70美元",
-        "assets": "📉 原油 利空；📉 能源股 承压",
-        "chain": "地缘冲突未能提振油价，暗示需求担忧主导，利空产油国货币及能源板块",
-        "watch": "今晚EIA（美国能源信息署）库存数据及OPEC（石油输出国组织）产量表态"
+        "what": "美国原油跌破70美元，阿曼附近货船遇袭后继续下跌",
+        "assets": "📉 原油 承压",
+        "chain": "地缘溢价消退→OPEC+减产效果存疑→能源股利润预期下修",
+        "watch": "今晚EIA（美国能源信息署）库存数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Micron falls 5% in premarket, paring earlier gains amid tech rout",
       "source": "CNBC",
       "detail": "Micron Technology's shares tumbled on Friday amid a global sell-off in technology stocks.",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "美光科技盘前跌5%，科技股抛售中涨幅回吐",
-        "assets": "📉 美光 利空；📉 存储芯片 承压",
-        "chain": "个股回调反映科技板块系统性风险，拖累整个半导体行业指数",
-        "watch": "今晚美股开盘后美光成交量及机构评级变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "阿曼附近货轮遇袭后油价再度下挫，美国原油跌破每桶70美元",
-      "source": "环球市场播报",
-      "detail": "核心要点一名美国官员向 MS NOW 证实，霍尔木兹海峡阿曼海岸附近的货轮袭击事件系伊朗所为。美伊双方就谅解备忘录中涉及的资金使用问题产生分歧...",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "阿曼货轮遇袭后油价续跌，美国原油破70美元",
-        "assets": "📉 原油 利空；📉 能源股 承压",
-        "chain": "事件验证需求疲软压倒供应风险，利空能源债及高收益债（垃圾债）",
-        "watch": "布伦特原油是否跌破75美元关键支撑"
+        "what": "美光科技盘前跌5%，科技股抛售中回吐涨幅",
+        "assets": "📉 美光股票 利空",
+        "chain": "芯片股跟跌→存储芯片需求担忧→半导体周期下行风险（行业低迷）",
+        "watch": "今晚美股芯片指数"
       }
     }
   ]
