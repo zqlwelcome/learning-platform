@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 04:40",
+  "updateTime": "2026-06-27 04:41",
   "news": [
     {
       "rank": 1,
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "Oracle遭遇2001年互联网泡沫以来最差周表现",
-        "assets": "📉 甲骨文股票 利空；📉 云计算板块 承压",
-        "chain": "AI融资担忧→企业IT支出预期下调→云服务商（AWS、微软Azure）增速放缓",
-        "watch": "Oracle财报及AI基建投资计划"
+        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
+        "assets": "📈 美元指数 利好；📉 美股 承压",
+        "chain": "加息预期→美元走强→新兴市场资金外流→大宗商品（原油、铜）承压",
+        "watch": "本周CPI（消费者物价指数）数据及点阵图（利率预测）"
       }
     },
     {
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "OpenAI否认近期IPO，称未设定时间表",
+        "assets": "📉 AI概念股 利空；📈 竞争对手Anthropic 利好",
+        "chain": "IPO推迟→科技股流动性预期减弱→VC（风投）退出路径收窄→打压市场风险偏好",
+        "watch": "OpenAI官方声明及SEC（美国证监会）注册文件"
+      }
     },
     {
       "rank": 4,
@@ -85,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "Kalshi交易员押注OpenAI推迟IPO官宣",
+        "assets": "📉 AI概念股 承压, 📈 期权波动率（预期波动） 上升",
+        "chain": "预测市场信号→对冲基金（投机机构）调仓→科技股波动加大",
+        "watch": "Kalshi合约价格及OpenAI官方动态"
+      }
     },
     {
       "rank": 8,
@@ -93,7 +105,13 @@
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "OpenAI考虑最早2027年IPO，或晚于Anthropic",
+        "assets": "📉 AI板块 中性偏空；📈 Anthropic估值 利好",
+        "chain": "推迟上市→一级市场（未上市）估值压力→AI独角兽（高估值初创）融资难度上升",
+        "watch": "Anthropic上市时间表及AI行业并购活动"
+      }
     },
     {
       "rank": 9,
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "甲骨文股价因AI融资担忧创2001年来最差周表现",
+        "assets": "📉 甲骨文股票 利空；📉 科技板块AI相关股 承压",
+        "chain": "甲骨文巨额资本开支和负自由现金流加剧市场对AI投资回报的担忧，叠加1300亿美元债务压力，投资者抛售股票。这反映AI行业融资成本上升和盈利不确定性，可能拖累其他高负债科技股。",
+        "watch": "后续关注甲骨文下一季度现金流改善信号、AI业务营收增速及债务再融资计划，以及科技板块整体融资环境变化。"
+      }
     }
   ]
 }
