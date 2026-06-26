@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 01:35",
+  "updateTime": "2026-06-27 01:41",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
-        "assets": "📉 美股大盘 承压 📈 美元指数 利好",
-        "chain": "加息预期升温→美债收益率（借钱成本）上行→科技股估值受压，美元走强利空新兴市场",
-        "watch": "本周CPI（消费者物价指数）数据及鲍威尔讲话"
+        "what": "卡什卡里称通胀广泛，暗示或需加息",
+        "assets": "📉 美股大盘 承压；📈 美元指数 走强",
+        "chain": "加息预期升温→风险资产（股票）估值受压→资金流向避险（如美债）",
+        "watch": "本周CPI（消费者物价指数）数据是否超预期"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "OpenAI未召开IPO前投资者会，上市时间表未定",
-        "assets": "📉 AI/科技股 情绪偏空 📈 私有市场估值 承压",
-        "chain": "IPO延迟→一二级市场价差（估值差距）扩大，削弱AI板块炒作热情，资金转向确定性标的",
-        "watch": "OpenAI官方上市声明及Anthropic IPO进展"
-      }
+      "score": 50
     },
     {
       "rank": 3,
@@ -37,10 +31,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普施压美联储主席沃什，通胀超4%",
-        "assets": "📉 美元指数 承压 📈 美债 利好",
-        "chain": "政治干预美联储独立性（央行决策自主性）→市场预期降息（借钱成本降低）提前，短端利率下行",
-        "watch": "沃什公开讲话及下月FOMC（美联储利率会议）声明"
+        "what": "特朗普施压美联储主席，通胀超4%",
+        "assets": "📉 美元指数 承压；📉 美债收益率 下行",
+        "chain": "政治干预→美联储独立性受质疑→市场预期降息概率上升→美元走弱",
+        "watch": "美联储下次会议声明中关于通胀措辞"
       }
     },
     {
@@ -51,10 +45,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI未召开IPO前投资者会，上市时间表未定",
-        "assets": "📉 AI/科技股 情绪偏空 📈 私有市场估值 承压",
-        "chain": "IPO延迟→一二级市场价差（估值差距）扩大，削弱AI板块炒作热情，资金转向确定性标的",
-        "watch": "OpenAI官方上市声明及Anthropic IPO进展"
+        "what": "OpenAI尚未召开IPO前会议，上市时间未定",
+        "assets": "📉 AI概念股（如微软、英伟达）情绪利空",
+        "chain": "IPO推迟→市场对AI商业化节奏疑虑增加→相关科技股（高估值标的）承压",
+        "watch": "OpenAI官方上市时间声明或Anthropic上市进展"
       }
     },
     {
@@ -65,10 +59,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI考虑最早2027年IPO，晚于Anthropic",
-        "assets": "📉 AI概念股 利空 📈 竞争对手估值 利好",
-        "chain": "上市时间差→Anthropic先发优势（优先融资），OpenAI需维持私有融资热度，科技板块资金分流",
-        "watch": "Anthropic上市时间表及OpenAI融资轮次"
+        "what": "OpenAI考虑最早2027年IPO，或晚于Anthropic",
+        "assets": "📉 私有AI公司估值预期下调；📈 竞争对手（如Anthropic）上市预期利好",
+        "chain": "IPO延迟→私募市场（未上市股权）流动性风险增加→相关股东（软银等）减持压力",
+        "watch": "Anthropic是否提前提交上市文件"
       }
     },
     {
@@ -79,10 +73,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI考虑最早2027年IPO，晚于Anthropic",
-        "assets": "📉 AI概念股 利空 📈 竞争对手估值 利好",
-        "chain": "上市时间差→Anthropic先发优势（优先融资），OpenAI需维持私有融资热度，科技板块资金分流",
-        "watch": "Anthropic上市时间表及OpenAI融资轮次"
+        "what": "花旗下调科技股权重，称AI赛道难全员受益",
+        "assets": "📉 AI/科技板块（如英伟达、AMD）利空；📈 防御板块（如公用事业）利好",
+        "chain": "机构减仓→科技股资金流出→板块轮动至低估值（市盈率低）行业",
+        "watch": "花旗科技股持仓报告及AI公司财报指引"
       }
     },
     {
@@ -91,13 +85,7 @@
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "OpenAI未召开IPO前投资者会，上市时间表未定",
-        "assets": "📉 AI/科技股 情绪偏空 📈 私有市场估值 承压",
-        "chain": "IPO延迟→一二级市场价差（估值差距）扩大，削弱AI板块炒作热情，资金转向确定性标的",
-        "watch": "OpenAI官方上市声明及Anthropic IPO进展"
-      }
+      "score": 45
     },
     {
       "rank": 8,
@@ -107,10 +95,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "Red Lobster无限虾促销被诉为‘车祸’",
-        "assets": "📉 餐饮/零售股 利空 📈 成本控制板块 利好",
-        "chain": "促销策略失败→利润挤压（毛利率下降），引发市场对消费行业定价能力和成本管理的担忧",
-        "watch": "公司季度财报及同行促销策略调整"
+        "what": "Red Lobster无限虾活动被诉为'车祸'",
+        "assets": "📉 餐饮行业（如Darden Restaurants）消费情绪利空",
+        "chain": "促销亏损→行业现金流压力→可能引发更多折扣战（利润压缩）",
+        "watch": "Red Lobster母公司季度同店销售数据"
       }
     },
     {
@@ -121,10 +109,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
-        "assets": "📉 美股大盘 承压 📈 美元指数 利好",
-        "chain": "加息预期升温→美债收益率（借钱成本）上行→科技股估值受压，美元走强利空新兴市场",
-        "watch": "本周CPI（消费者物价指数）数据及鲍威尔讲话"
+        "what": "卡什卡里预计美联储今年加息一次",
+        "assets": "📉 美股科技股 承压；📈 短期美债收益率 上行",
+        "chain": "加息预期→科技股高估值受利率敏感（贴现率上升）→资金轮动至价值股",
+        "watch": "联邦基金利率期货隐含加息概率变化"
       }
     },
     {
@@ -133,13 +121,7 @@
       "source": "CNBC",
       "detail": "The tech trade is becoming rocky, and Citi thinks it's time for investors to trim positions in the sector.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "花旗减持科技股仓位，认为AI赛道难以全赢",
-        "assets": "📉 美股科技板块 利空; 📉 AI芯片股 承压",
-        "chain": "机构调仓引发科技股抛压（卖出压力），资金轮动至防御板块（如公用事业），板块轮动加速",
-        "watch": "科技股ETF（交易所交易基金）资金流及财报季指引"
-      }
+      "score": 32
     }
   ]
 }
