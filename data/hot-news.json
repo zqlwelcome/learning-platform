@@ -1,60 +1,60 @@
 {
-  "updateTime": "2026-06-26 20:16",
+  "updateTime": "2026-06-26 20:21",
   "news": [
     {
       "rank": 1,
-      "title": "Stock futures decline with chip stocks weak after OpenAI IPO delay report: Live updates",
+      "title": "S&P 500 futures decline with chip stocks weak after OpenAI IPO delay report: Live updates",
       "source": "CNBC",
       "detail": "The technology-dominant Nasdaq Composite and broad S&P 500 index are both on pace to end the trading week in the red.",
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "OpenAI IPO推迟致芯片股下跌，期指承压",
-        "assets": "📉 美股芯片股 利空",
-        "chain": "AI叙事降温→科技股估值修正→资金转向防御板块（如公用事业）",
-        "watch": "OpenAI IPO时间表及芯片龙头财报"
+        "what": "OpenAI IPO推迟，芯片股拖累标普500期货下跌",
+        "assets": "📉 美股芯片股 承压; 📉 标普500指数期货 下跌",
+        "chain": "AI叙事降温（市场对AI盈利预期下调），资金或轮动至防御板块（如公用事业）",
+        "watch": "OpenAI IPO时间表更新及芯片股财报"
       }
     },
     {
       "rank": 2,
+      "title": "Here are Friday's biggest analyst calls: SpaceX, Nvidia, Apple, Tesla, Crocs, Microsoft, Robinhood & more",
+      "source": "CNBC",
+      "detail": "Here are Friday's biggest calls on Wall Street.",
+      "lang": "en",
+      "score": 53,
+      "insight": {
+        "what": "多家投行发布SpaceX、NVDA等明星股评级调整",
+        "assets": "📈 SpaceX（未上市期权）看涨; 📈 英伟达 利好; 📉 苹果 中性偏弱",
+        "chain": "分析师共识强化AI算力主线（英伟达GPU需求），苹果消费电子疲软拖累供应链",
+        "watch": "NVDA期权隐含波动率及苹果下周财报"
+      }
+    },
+    {
+      "rank": 3,
       "title": "美银：美国股市录得3月以来首次资金净流出 科技基金外流规模创纪录",
       "source": "环球市场播报",
       "detail": "投资者三个月来首次从美国股市撤资，科技基金出现创纪录资金流出，显示人工智能交易正在降温。 美国银行援引EPFR Global数据在一份报告中称，截至6月24日当周...",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "美银报告美股3月以来首次资金净流出，科技基金外流创纪录",
-        "assets": "📉 美股科技基金 利空；📈 美债 利好",
-        "chain": "科技股资金外逃→美元流动性收紧→新兴市场（如A股）承压",
-        "watch": "下周资金流向数据及美联储表态"
+        "what": "美银报告称美股3月以来首次净流出，科技基金外流创纪录",
+        "assets": "📉 美股科技板块 资金外流; 📈 债券/现金 避险流入",
+        "chain": "资金从科技股撤出（risk-off情绪），推高美债价格（收益率下行），利空成长股估值",
+        "watch": "本周美股ETF资金流向及VIX指数（恐慌指数）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash' for the company, lawsuit says",
       "source": "CNBC",
       "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "Red Lobster无限虾促销被诉为“车祸”级亏损",
-        "assets": "📉 餐饮股 利空；📉 海鲜供应链 利空",
-        "chain": "促销失败→餐饮业成本控制担忧→消费降级信号（可选消费疲软）",
-        "watch": "Red Lobster母公司财务状况"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "意大利监管机构就“Microsoft 365”涨价一事对微软展开调查",
-      "source": "环球市场播报",
-      "detail": " 意大利反垄断监管机构周五表示，已针对微软公司展开调查，原因是该公司涉嫌在“Microsoft 365”订阅服务涨价过程中存在不公平商业行为。",
-      "lang": "zh",
-      "score": 39,
-      "insight": {
-        "what": "意大利监管机构调查微软365涨价",
-        "assets": "📉 微软 利空；📉 欧洲科技股 承压",
-        "chain": "反垄断调查→科技巨头定价权受限→云计算服务降价风险",
-        "watch": "调查结果及欧盟其他监管动向"
+        "what": "Red Lobster促销被诉为'车祸'，或面临财务危机",
+        "assets": "📉 Red Lobster母公司 信用风险上升; 📈 餐饮竞争对手（如Darden） 利好",
+        "chain": "消费者支出疲软（可选消费承压），但低端快餐可能受益于'消费降级'",
+        "watch": "Red Lobster债券利差及美国餐饮同店销售数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "高盛建议买入某博彩股，预测其延续2026年涨势",
-        "assets": "📈 博彩股 利好",
-        "chain": "投行背书→博彩板块资金流入→澳门/拉斯维加斯经济复苏预期",
-        "watch": "高盛研报具体标的及博彩收入数据"
+        "what": "高盛建议买入某赌博股，预计2026年继续上涨",
+        "assets": "📈 赌博板块（如拉斯维加斯博彩股） 利好",
+        "chain": "高盛背书提振赌博行业情绪（beta交易），但需警惕监管风险（中国澳门政策）",
+        "watch": "该赌博股期权持仓变化及澳门博彩收入数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "某公司首次重大资产重组公告后股价跌停",
-        "assets": "📉 A股重组概念 利空",
-        "chain": "重组利好出尽→市场对资产质量存疑→壳价值贬值（垃圾股风险释放）",
-        "watch": "重组方案细节及监管审批进度"
+        "what": "A股公司首次重大资产重组公告后股价跌停",
+        "assets": "📉 A股该上市公司 利空; 📉 重组相关板块（如并购概念） 承压",
+        "chain": "市场对重组预期过高（buy the rumor, sell the news），或引发其他重组股回调",
+        "watch": "公司后续公告及监管问询函"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "海光芯港股IPO踩中AI光模块风口，营收增7倍但JDM模式承压",
-        "assets": "📈 AI光模块 利好；📉 海光芯估值 承压",
-        "chain": "JDM模式（联合设计制造）利润薄→对比头部企业估值折价→打新热情降温",
-        "watch": "IPO定价及首日涨幅"
+        "what": "海光芯港股上市在即，营收增7倍但JDM模式利润薄",
+        "assets": "📈 港股AI光模块板块 短期利好; 📉 公司估值 承压（对标龙头溢价不足）",
+        "chain": "IPO抽血效应（港股流动性压力），JDM（联合开发制造）模式压低毛利率，对标中际旭创等",
+        "watch": "海光芯IPO发行价及首日涨幅"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "阿曼附近货船遭袭后美原油跌破70美元",
-        "assets": "📉 原油 利空；📈 航运避险 利好",
-        "chain": "地缘事件短期恐慌→需求疲软主导→OPEC+减产决策压力增大",
-        "watch": "中东局势升级及EIA库存数据"
+        "what": "阿曼附近货船遇袭后油价跌破70美元",
+        "assets": "📉 原油 利空（地缘溢价消退）; 📈 航运保险 费率上升",
+        "chain": "地缘风险短期脉冲（但未影响供应），OPEC+减产执行力成焦点，油价或测试65支撑",
+        "watch": "中东局势升级风险及EIA库存数据"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "韩国AI股大起大落，行情混乱",
-        "assets": "📉 韩国AI股 利空；📉 韩元 承压",
-        "chain": "AI泡沫波动→韩股外资流出→亚洲科技股联动下跌",
-        "watch": "韩国半导体出口数据及美股AI龙头走势"
+        "what": "韩国AI股一周内大起大落，市场情绪混乱",
+        "assets": "📉 韩国AI芯片股（如SK海力士） 波动加剧; 📈 韩国KOSPI指数 承压",
+        "chain": "AI股波动传染至整体市场（beta系数放大），外资流出风险上升，韩元或贬值",
+        "watch": "韩国半导体出口数据及外资流向"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "盘前异动：Sandisk、On Semi、Rocket Lab等个股波动",
-        "assets": "📈 存储股 利好；📈 半导体设备 利好；📈 航天股 利好",
-        "chain": "个股异动→板块轮动信号→资金从大盘转向中小盘成长股",
-        "watch": "个股财报及交易量确认趋势"
+        "what": "盘前异动：Sandisk、On Semi、Rocket Lab等个股波动大",
+        "assets": "📈 Sandisk（存储） 利好; 📉 On Semi（汽车芯片） 承压; 📈 Rocket Lab（太空） 利好",
+        "chain": "个股消息驱动（财报/订单），存储周期复苏（Sandisk），汽车芯片需求放缓（On Semi）",
+        "watch": "各公司财报电话会及订单指引"
       }
     }
   ]
