@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 05:55",
+  "updateTime": "2026-06-27 06:00",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "卡什卡里称通胀广泛，或需加息",
-        "assets": "📉 美股 承压；📈 美元 走强",
-        "chain": "加息预期→风险资产（股票、债券）抛售→美元流动性收紧",
+        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
+        "assets": "📈 美元指数 利好\n📉 美股科技股 利空",
+        "chain": "加息预期升温→风险资产（如股票）承压→短端美债收益率（短期国债利息）上升",
         "watch": "周五PCE（个人消费支出物价指数）数据"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "卡什卡里再提广泛通胀及加息可能性",
-        "assets": "📉 标普500 利空；📈 美元指数 利好",
-        "chain": "鹰派信号（偏紧缩言论）→加息押注上升→科技股估值承压",
-        "watch": "CME FedWatch（芝加哥商品交易所美联储观察工具）加息概率"
+        "what": "美联储官员卡什卡里称出现广泛通胀，或需加息",
+        "assets": "📈 美元指数 利好\n📉 美股科技股 利空",
+        "chain": "加息预期→风险偏好（投资意愿）下降→资金流向避险资产（如美债）",
+        "watch": "下周CPI（消费者物价指数）数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "OpenAI未安排IPO前会议，无时间表",
-        "assets": "📉 AI概念股 利空；📉 科技IPO市场 承压",
-        "chain": "IPO延迟→AI融资情绪降温→相关初创估值下调",
-        "watch": "OpenAI官方声明或融资动态"
+        "what": "OpenAI尚未召开IPO前投资者会议或确定时间表",
+        "assets": "📉 AI概念股 利空\n📈 同业竞争股（如Anthropic）利好",
+        "chain": "IPO延期→市场对AI变现能力（盈利能力）存疑→科技股估值（股价相对盈利）承压",
+        "watch": "OpenAI官方IPO时间表更新"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普对美联储主席Kevin Warsh施压，通胀超4%",
-        "assets": "📈 黄金 利好；📉 美元 承压",
-        "chain": "政治干预→降息预期升温→实际利率（名义利率减通胀）下降→避险资产（黄金）受益",
-        "watch": "白宫与美联储沟通口径变化"
+        "what": "特朗普向美联储主席凯文·沃什施压，通胀超4%",
+        "assets": "📈 美元指数 承压\n📉 美债收益率 上行",
+        "chain": "政治干预央行独立性（央行自主决策）→市场恐慌通胀失控→风险资产（如股票）遭抛售",
+        "watch": "美联储下次会议声明措辞"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元指数微跌，交易员下调加息预期",
-        "assets": "📉 美元 利空；📈 新兴市场货币 利好",
-        "chain": "加息预期减弱→利差缩小（美元与其他货币的收益率差）→资金流向非美资产",
-        "watch": "美联储官员后续讲话"
+        "what": "交易员下调美联储加息预期，美元指数微跌",
+        "assets": "📉 美元指数 利空\n📈 美股 利好",
+        "chain": "加息预期降温→美元走弱→大宗商品（如黄金、原油）价格反弹",
+        "watch": "今晚美联储理事讲话"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI未开IPO前会议，无上市时间表",
-        "assets": "📉 AI板块 利空；📉 科技股 承压",
-        "chain": "IPO冷清→市场对AI商业化信心不足→相关ETF（交易所交易基金）资金流出",
-        "watch": "OpenAI融资轮次或估值更新"
+        "what": "OpenAI尚未召开IPO前投资者会议或确定时间表",
+        "assets": "📉 AI概念股 利空\n📈 同业竞争股（如Anthropic）利好",
+        "chain": "IPO延期→市场对AI变现能力存疑→科技股估值承压",
+        "watch": "OpenAI官方IPO时间表更新"
       }
     },
     {
@@ -93,52 +93,52 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI考虑2027年IPO，晚于Anthropic",
-        "assets": "📉 科技IPO 利空；📉 美股成长股 承压",
-        "chain": "推迟上市→风险资本（VC）退出周期拉长→AI估值泡沫担忧升温",
-        "watch": "Anthropic IPO进展及定价"
+        "what": "OpenAI据悉考虑最早2027年IPO，或晚于Anthropic",
+        "assets": "📉 AI概念股 利空\n📈 Anthropic 利好",
+        "chain": "IPO推迟→市场对AI行业资本化（融资上市）节奏失望→同业提前上市者获先发优势",
+        "watch": "Anthropic IPO进展"
       }
     },
     {
       "rank": 8,
-      "title": "据报道OpenAI推迟 IPO，Kalshi交易所交易员预判其官宣时间",
-      "source": "环球市场播报",
-      "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "OpenAI推迟IPO，Kalshi交易员押注官宣时间",
-        "assets": "📉 AI概念股 利空；📉 加密货币 承压",
-        "chain": "IPO延迟→投机情绪降温→高风险资产（如加密货币）抛售",
-        "watch": "Kalshi市场预测变化"
-      }
-    },
-    {
-      "rank": 9,
       "title": "卡什卡里：目前预计美联储今年将加息一次",
       "source": "环球市场播报",
       "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "卡什卡里预计今年加息一次",
-        "assets": "📉 美股 利空；📈 短期国债收益率 上行",
-        "chain": "加息预期→借贷成本上升→企业盈利预期下调→股市下跌",
-        "watch": "下周FOMC（联邦公开市场委员会）会议纪要"
+        "what": "卡什卡里：预计美联储今年将加息一次",
+        "assets": "📈 美元指数 利好\n📉 美股 利空",
+        "chain": "加息预期→借贷成本（借钱利息）上升→企业盈利压力增大→股市回调",
+        "watch": "下周FOMC（美联储公开市场委员会）会议纪要"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
       "source": "CNBC",
       "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Oracle股价创2001年互联网泡沫以来最差周",
-        "assets": "📉 科技股 利空；📉 AI算力股 承压",
-        "chain": "AI融资担忧→云服务支出放缓→Oracle业绩下滑→板块连锁抛售",
-        "watch": "Oracle下一季财报及AI资本开支指引"
+        "what": "甲骨文股价创2001年互联网泡沫后最差周，AI融资担忧加剧",
+        "assets": "📉 甲骨文 利空\n📉 AI概念股 承压",
+        "chain": "AI融资收紧（资金减少）→科技股估值重估→云计算需求预期下调",
+        "watch": "甲骨文下季度云业务营收"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Momenta香港IPO基石投资者据悉包括梅赛德斯-奔驰和新加坡GIC",
+      "source": "环球市场播报",
+      "detail": " 据知情人士透露，自动驾驶初创公司Momenta Global Ltd．已引入梅赛德斯-奔驰集团和新加坡政府投资公司（GIC Pte）作为香港IPO的基石投资者。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "Momenta香港IPO基石投资者包括梅赛德斯-奔驰和新加坡GIC",
+        "assets": "📈 自动驾驶概念股 利好\n📈 港股IPO市场 利好",
+        "chain": "知名机构背书（信用支持）→自动驾驶赛道信心增强→港股流动性（资金活跃度）改善",
+        "watch": "Momenta招股书发行定价区间"
       }
     }
   ]
