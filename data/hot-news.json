@@ -1,8 +1,22 @@
 {
-  "updateTime": "2026-06-26 19:30",
+  "updateTime": "2026-06-26 19:36",
   "news": [
     {
       "rank": 1,
+      "title": "Stock futures decline with chip stocks weak after OpenAI IPO delay report: Live updates",
+      "source": "CNBC",
+      "detail": "The technology-dominant Nasdaq Composite and broad S&P 500 index are both on pace to end the trading week in the red.",
+      "lang": "en",
+      "score": 62,
+      "insight": {
+        "what": "OpenAI IPO推迟，芯片股随期货下跌",
+        "assets": "📉 美股芯片股 利空",
+        "chain": "AI泡沫担忧升温，资金可能从科技股轮动至防御板块（如公用事业）",
+        "watch": "OpenAI最新融资进展及芯片股财报"
+      }
+    },
+    {
+      "rank": 2,
       "title": "邦达亚洲:美联储加息预期有所降温 美元指数小幅收跌",
       "source": "市场资讯",
       "detail": "6月26日，美国经济分析局公布数据显示，5月核心PCE物价指数同比增长3.4%，符合预期，为2023年10月以来新高，前值为增长3.3%；环比增长0.3%，符合预期。",
@@ -11,134 +25,120 @@
       "insight": {
         "what": "美联储加息预期降温，美元指数小幅收跌",
         "assets": "📉 美元指数 承压；📈 非美货币 利好",
-        "chain": "美元走弱→大宗商品（以美元计价）上涨→能源、金属股受益",
-        "watch": "关注美联储官员后续讲话及CPI（消费者物价指数）数据"
+        "chain": "降息预期（借钱成本降低）推高风险资产，但通胀数据若反弹会逆转",
+        "watch": "本周CPI及美联储官员讲话"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "美银：美国股市录得3月以来首次资金净流出 科技基金外流规模创纪录",
       "source": "环球市场播报",
       "detail": "投资者三个月来首次从美国股市撤资，科技基金出现创纪录资金流出，显示人工智能交易正在降温。 美国银行援引EPFR Global数据在一份报告中称，截至6月24日当周...",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "美银数据显示美国科技基金外流创纪录",
-        "assets": "📉 美股科技股 承压；📈 防御性板块（如公用事业）利好",
-        "chain": "资金流出科技→板块轮动至价值股（低估值股票）→波动率上升",
-        "watch": "跟踪本周科技ETF（交易型开放式指数基金）资金流向"
+        "what": "美银：美股3月以来首次净流出，科技基金外流创纪录",
+        "assets": "📉 美股科技股 利空；📉 纳斯达克指数 承压",
+        "chain": "资金转向价值股或债券，科技股高估值面临修正风险（估值回归均值）",
+        "watch": "下周科技巨头财报及资金流向数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash' for the company, lawsuit says",
       "source": "CNBC",
       "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "Red Lobster无限虾促销被指导致公司危机",
-        "assets": "📉 餐饮股（Red Lobster母公司）利空",
-        "chain": "促销亏损→消费者预期低价→行业利润受压→股价下行",
-        "watch": "关注公司季度财报及同店销售数据"
+        "what": "红龙虾‘无限虾’促销被诉为‘车祸’，拖累公司",
+        "assets": "📉 红龙虾（餐饮股） 利空",
+        "chain": "消费降级（消费者减少支出）背景下，低价促销策略可能引发行业利润压缩",
+        "watch": "公司季度同店销售及诉讼进展"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "意大利监管机构就“Microsoft 365”涨价一事对微软展开调查",
       "source": "环球市场播报",
       "detail": " 意大利反垄断监管机构周五表示，已针对微软公司展开调查，原因是该公司涉嫌在“Microsoft 365”订阅服务涨价过程中存在不公平商业行为。",
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "意大利监管机构调查微软365涨价",
-        "assets": "📉 微软 承压；📈 竞争对手（如谷歌）利好",
-        "chain": "监管调查→科技巨头反垄断风险升温→欧洲科技股波动",
-        "watch": "关注调查进展及微软是否调整定价策略"
+        "what": "意大利监管调查微软365涨价，涉嫌垄断",
+        "assets": "📉 微软 承压；📈 欧洲科技监管 政策风险",
+        "chain": "反垄断罚款或限制涨价，影响云计算行业定价策略（SaaS服务利润率）",
+        "watch": "欧盟后续调查决定及微软回应"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
       "source": "CNBC",
       "detail": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀过高，纽约联储主席认为压力缓解",
-        "assets": "📈 美债收益率 上行；📉 美股 承压",
-        "chain": "鹰派言论（主张加息）→加息预期升温→科技成长股估值受压",
-        "watch": "关注美联储6月点阵图（利率预测）及PCE（个人消费支出）数据"
+        "what": "芝加哥联储主席称通胀过高，纽约联储主席认为压力缓和",
+        "assets": "📉 美股 短期承压；📈 美债 利率预期分化",
+        "chain": "鹰鸽分歧（官员意见不一）导致市场波动，降息时点不确定性增加",
+        "watch": "周五PCE数据及下周美联储会议纪要"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "首次重大资产重组！股价却跌停……",
       "source": "市场资讯",
       "detail": "来源：IPO日报 6月25日晚间，*ST帅电（605336.SH）发布公告称，公司计划以支付现金方式收购杭州惠嘉信息科技有限公司（简称“惠嘉科技”）100%股权，惠嘉科技的初步估值为4...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "某公司首次重大资产重组公告后股价跌停",
-        "assets": "📉 该重组公司 利空",
-        "chain": "市场对重组方案失望→套利资金出逃→同行业并购预期降温",
-        "watch": "关注重组细节公告及交易所问询函"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
-      "source": "CNBC",
-      "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
-      "lang": "en",
-      "score": 33,
-      "insight": {
-        "what": "法官阻止特朗普限制研究生助学贷款规则",
-        "assets": "📈 教育股（如大学运营方）利好；📉 金融股（贷款机构）承压",
-        "chain": "贷款政策放宽→学生消费能力提升→可选消费受益",
-        "watch": "关注教育部后续政策及最高法院上诉动向"
+        "what": "首例重大资产重组公告后股价跌停",
+        "assets": "📉 A股该重组标的 利空",
+        "chain": "市场质疑重组估值或整合风险，可能拖累同板块并购预期（套利空间收窄）",
+        "watch": "重组方案细节及监管审批进展"
       }
     },
     {
       "rank": 8,
-      "title": "森合高科IPO状态变更为注册",
-      "source": "",
-      "detail": "根据北交所最新披露的信息，2026年6月26日，广西森合高新科技股份有限公司IPO的状态从提交注册变更为注册。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "森合高科IPO状态变更为注册",
-        "assets": "📈 森合高科 利好；📉 同行业次新股 承压",
-        "chain": "IPO注册→新股供应增加→资金分流→市场情绪谨慎",
-        "watch": "关注发行价及首日涨幅"
-      }
-    },
-    {
-      "rank": 9,
       "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
       "source": "CNBC",
       "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while digesting a flurry of news from the region.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国原油跌破70美元，阿曼附近遇袭后继续下跌",
-        "assets": "📉 原油 利空；📈 航空股（成本下降）利好",
-        "chain": "地缘冲突未提振油价→需求疲软主导→能源股承压",
-        "watch": "关注OPEC+（石油输出国组织及其盟友）产量及库存数据"
+        "what": "阿曼附近货船遇袭后原油跌破70美元",
+        "assets": "📉 原油 承压",
+        "chain": "地缘溢价消退（战争风险未推高油价），需求疲软主导，炼厂利润或恶化",
+        "watch": "今晚EIA库存数据及中东局势后续"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Nike's turnaround 'not enough' to remain bullish on the stock, KeyBanc says",
       "source": "CNBC",
       "detail": "Nike has made some progress under its \"Win Now\" strategy, but signs of opportunities to drive considerable upside to the stock are still missing, per KeyBanc.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "KeyBanc称耐克转型力度不足，不再看多",
-        "assets": "📉 耐克 承压；📈 竞争对手（如阿迪达斯）利好",
-        "chain": "机构下调评级→消费品牌估值重估→零售板块分化",
-        "watch": "关注耐克季度财报及大中华区销售数据"
+        "what": "KeyBanc称耐克转型不足以维持看涨",
+        "assets": "📉 耐克（运动服饰） 利空",
+        "chain": "消费品牌去库存周期（库存积压）持续，行业估值下修风险",
+        "watch": "耐克下季度营收指引及库存周转率"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "马来西亚海关查获8837万元AI芯片走私案！最终目的地指向亚洲国家",
+      "source": "快科技",
+      "detail": "快科技6月26日消息，马来西亚皇家海关署宣布，6月5日在吉隆坡国际机场自由贸易区查获72台装有先进AI芯片的服务器，总价值约1293万美元（约合人民币8837万元）...",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "马来西亚查获8837万元AI芯片走私，目的地指向亚洲",
+        "assets": "📈 芯片管制相关股（如英伟达） 政策风险",
+        "chain": "出口管制（技术限制）收紧，灰色市场冲击合规供应链，亚洲科技股承压",
+        "watch": "美国对华芯片出口新规及走私调查结果"
       }
     }
   ]
