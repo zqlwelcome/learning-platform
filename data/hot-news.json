@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 00:15",
+  "updateTime": "2026-06-27 00:25",
   "news": [
     {
       "rank": 1,
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "OpenAI尚未召开IPO前投资者会议，未设定时间表",
+        "assets": "📉 OpenAI相关概念股 承压；📉 AI板块 情绪偏空",
+        "chain": "IPO推迟削弱AI叙事热度，资金可能转向已上市AI龙头（如英伟达）避险",
+        "watch": "OpenAI官方是否发布融资或上市时间表"
+      }
     },
     {
       "rank": 3,
@@ -29,7 +35,13 @@
       "source": "CNBC",
       "detail": "Speculators think the OpenAI IPO will come early next year, with only one-in-three odds it happens in 2026 but a high likelihood it is done by June 2027.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "OpenAI延迟IPO至2027年6月前",
+        "assets": "📉 AI科技股（如微软、英伟达）短期承压；📈 私有股权市场（如二级交易平台）活跃度上升",
+        "chain": "IPO延迟降低市场对AI商业化变现的预期（估值压力），可能拖累纳斯达克科技板块（指数基金QQQ），但利好未上市AI公司估值（稀缺性溢价）",
+        "watch": "关注微软（OpenAI最大股东）财报中对AI收入指引，以及Kalshi合约价格变化"
+      }
     },
     {
       "rank": 4,
@@ -51,7 +63,13 @@
       "source": "环球市场播报",
       "detail": " 据知情人士透露，OpenAI考虑最早于2027年进行首次公开募股（IPO）。这意味着该公司可能会在AI竞争对手Anthropic PBC之后上市。",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "OpenAI最早2027年IPO，晚于Anthropic",
+        "assets": "📈 AI概念股（如英伟达）利好，📉 未上市AI公司（如Anthropic估值）承压",
+        "chain": "IPO延迟推高AI赛道稀缺性溢价（估值泡沫预期），短期利好已上市AI硬件股（算力需求刚需）",
+        "watch": "Anthropic上市时间表及AI企业财报（验证盈利模式）"
+      }
     },
     {
       "rank": 6,
@@ -61,10 +79,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI尚未召开IPO前投资者会议，未设定时间表",
-        "assets": "📉 OpenAI相关概念股 承压；📉 AI板块 情绪偏空",
-        "chain": "IPO推迟削弱AI叙事热度，资金可能转向已上市AI龙头（如英伟达）避险",
-        "watch": "OpenAI官方是否发布融资或上市时间表"
+        "what": "OpenAI延迟IPO至2027年6月前",
+        "assets": "📉 AI科技股（如微软、英伟达）短期承压；📈 私有股权市场（如二级交易平台）活跃度上升",
+        "chain": "IPO延迟降低市场对AI商业化变现的预期（估值压力），可能拖累纳斯达克科技板块（指数基金QQQ），但利好未上市AI公司估值（稀缺性溢价）",
+        "watch": "关注微软（OpenAI最大股东）财报中对AI收入指引，以及Kalshi合约价格变化"
       }
     },
     {
@@ -73,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "OpenAI推迟IPO至2027年",
+        "assets": "📉 一级市场科技股（非上市科技公司估值）承压，📈 已上市AI概念股（如英伟达）利好",
+        "chain": "推迟IPO减少供给分流（资金流出），短期提振已上市AI股；但暗示公司对估值和波动性担忧（市场情绪谨慎）",
+        "watch": "SpaceX上市后股价波动及科技股IPO窗口变化"
+      }
     },
     {
       "rank": 8,
@@ -95,7 +119,13 @@
       "source": "环球市场播报",
       "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美联储官员卡什卡里预计今年将加息一次",
+        "assets": "📈 美元指数 利好；📉 美债 承压；📉 美股 短期利空",
+        "chain": "卡什卡里作为美联储官员，其加息预期表态强化了市场对紧缩政策的预期，可能推高美元汇率和美债收益率，同时压制风险资产如美股的表现。加息预期升温会减少流动性，对依赖低利率的科技股等成长板块形成压力。",
+        "watch": "后续关注美联储其他官员的表态是否一致、通胀数据及就业报告，以及市场对加息概率的定价变化。"
+      }
     },
     {
       "rank": 10,
