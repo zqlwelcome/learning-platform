@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 19:41",
+  "updateTime": "2026-06-26 19:46",
   "news": [
     {
       "rank": 1,
@@ -9,84 +9,70 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "OpenAI推迟IPO，芯片股期货下跌",
+        "what": "OpenAI推迟IPO，芯片股盘前下跌",
         "assets": "📉 美股芯片股 承压",
-        "chain": "AI融资环境收紧→科技股估值下修→纳斯达克指数回调",
-        "watch": "OpenAI IPO时间表及芯片股财报"
+        "chain": "AI叙事受挫→科技股估值调整→纳斯达克回调（技术股指数下跌）",
+        "watch": "OpenAI官方声明及芯片公司财报指引"
       }
     },
     {
       "rank": 2,
-      "title": "邦达亚洲:美联储加息预期有所降温 美元指数小幅收跌",
-      "source": "市场资讯",
-      "detail": "6月26日，美国经济分析局公布数据显示，5月核心PCE物价指数同比增长3.4%，符合预期，为2023年10月以来新高，前值为增长3.3%；环比增长0.3%，符合预期。",
-      "lang": "zh",
-      "score": 46,
-      "insight": {
-        "what": "美联储加息预期降温，美元指数小跌",
-        "assets": "📉 美元指数 承压",
-        "chain": "降息预期升温→美债收益率下行→风险资产（如新兴市场股票）反弹",
-        "watch": "本周美联储官员讲话及非农数据"
-      }
-    },
-    {
-      "rank": 3,
       "title": "美银：美国股市录得3月以来首次资金净流出 科技基金外流规模创纪录",
       "source": "环球市场播报",
       "detail": "投资者三个月来首次从美国股市撤资，科技基金出现创纪录资金流出，显示人工智能交易正在降温。 美国银行援引EPFR Global数据在一份报告中称，截至6月24日当周...",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "美银：美股3月以来资金净流出，科技基金外流创纪录",
-        "assets": "📉 美股科技股 承压",
-        "chain": "机构减仓科技→板块轮动至防御性资产（如公用事业）→波动率（VIX恐慌指数）上升",
-        "watch": "下周资金流向及FAANG（五大科技巨头）财报"
+        "what": "美银报告：美股3月以来首次资金净流出，科技基金外流创纪录",
+        "assets": "📉 美股科技基金 利空",
+        "chain": "资金流出→流动性收紧→科技股抛压加剧（卖盘增加）→避险资产如美债受追捧",
+        "watch": "下周资金流向数据及VIX（恐慌指数）变动"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash' for the company, lawsuit says",
       "source": "CNBC",
       "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "Red Lobster无限虾促销被诉为‘车祸’",
-        "assets": "📉 餐饮股 承压",
-        "chain": "成本失控（原材料涨价）→利润率暴跌→同行业（如Darden Restaurants）估值重估",
-        "watch": "Red Lobster母公司财报及行业成本数据"
+        "what": "Red Lobster因无限虾促销被诉为‘车祸’",
+        "assets": "📉 Red Lobster母公司股票 利空",
+        "chain": "促销亏损→盈利预警→餐饮板块成本压力上升→消费者信心可能受挫",
+        "watch": "公司季报及同店销售数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "意大利监管机构就“Microsoft 365”涨价一事对微软展开调查",
       "source": "环球市场播报",
       "detail": " 意大利反垄断监管机构周五表示，已针对微软公司展开调查，原因是该公司涉嫌在“Microsoft 365”订阅服务涨价过程中存在不公平商业行为。",
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "意大利监管调查微软365涨价",
-        "assets": "📉 微软 承压",
-        "chain": "反垄断风险→科技巨头合规成本增加→欧洲科技股监管溢价下降",
-        "watch": "调查进展及微软欧洲营收占比"
+        "what": "意大利监管机构对微软365涨价展开调查",
+        "assets": "📉 微软股价 承压",
+        "chain": "反垄断调查→罚款或限制措施→科技巨头监管风险上升→欧洲科技股估值受压",
+        "watch": "调查进展及欧盟数字市场法案（DMA）执行情况"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
       "source": "CNBC",
       "detail": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席：通胀过高；威廉姆斯：物价压力缓和",
-        "assets": "📉 美债 承压",
-        "chain": "鹰鸽分歧（官员观点不一）→降息预期摇摆→短期利率期货波动",
-        "watch": "CME FedWatch（美联储观察工具）概率变化"
+        "what": "古尔斯比称通胀过高，威廉姆斯认为物价压力缓解",
+        "assets": "📉 美元指数 震荡",
+        "chain": "鹰鸽分歧→降息预期摇摆（降息概率不确定）→债券收益率波动→美股风险偏好受影响",
+        "watch": "下周CPI（消费者物价指数）及PCE（个人消费支出）数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "首次重大资产重组！股价却跌停……",
       "source": "市场资讯",
       "detail": "来源：IPO日报 6月25日晚间，*ST帅电（605336.SH）发布公告称，公司计划以支付现金方式收购杭州惠嘉信息科技有限公司（简称“惠嘉科技”）100%股权，惠嘉科技的初步估值为4...",
@@ -94,23 +80,37 @@
       "score": 35,
       "insight": {
         "what": "公司首次重大资产重组，股价却跌停",
-        "assets": "📉 A股重组概念股 承压",
-        "chain": "市场对重组预期兑现（利好出尽）→资金获利了结→板块情绪转冷",
-        "watch": "后续重组公告及成交量变化"
+        "assets": "📉 A股该股票 利空",
+        "chain": "重组预期落空→市场信心不足→资金出逃→小盘股流动性风险上升",
+        "watch": "重组细节公告及停复牌时间"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "海光芯正港股上市在即：踩中AI光模块风口 营收两年涨七倍 但JDM模式难增利 估值对标头部企业或欠底气",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 在AI算力需求爆发式增长的浪潮中，光模块作为数据中心高速互联的核心器件，已成为A股和港股市场最炙手可热的赛道之一...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "海光芯港股上市：AI光模块风口，营收涨七倍，JDM模式难增利",
-        "assets": "📈 AI光模块 利好",
-        "chain": "AI算力需求（训练大模型）→光模块订单爆发→但JDM（联合开发制造）模式限制利润→估值承压",
-        "watch": "IPO定价及首日表现，JDM合同条款"
+        "what": "海光芯正港股上市在即，AI光模块风口但JDM模式利润薄",
+        "assets": "📈 AI光模块板块 利好",
+        "chain": "IPO融资→行业关注度提升→但JDM（联合设计制造）模式低利润率压制估值→对标公司估值承压",
+        "watch": "IPO定价及首日表现、机构研报"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "科金明IPO状态变更为通过",
+      "source": "",
+      "detail": "根据北交所最新披露的信息，2026年6月26日，深圳市科金明电子股份有限公司IPO的状态从已问询变更为通过。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "科金明IPO状态变更为通过",
+        "assets": "📈 科金明及同类新股 利好",
+        "chain": "过会→新股供给增加→市场资金分流→次新股板块可能承压",
+        "watch": "发行市盈率及申购情况"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国原油跌至70美元以下，阿曼附近货船遇袭",
-        "assets": "📉 原油 承压",
-        "chain": "地缘避险（中东冲突）短暂拉升→需求疲软（库存增加）压制价格→航运保险成本上升",
-        "watch": "EIA（美国能源信息署）库存数据及OPEC产量"
+        "what": "美国原油跌破70美元，阿曼附近货船遇袭后延续跌势",
+        "assets": "📉 原油期货 利空",
+        "chain": "地缘风险短期支撑→但需求担忧主导→OPEC+（石油输出国组织及盟友）减产效果减弱→能源股跟跌",
+        "watch": "EIA（美国能源信息署）库存数据及中东局势升级"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "盘前异动：Sandisk、On Semi、Rocket Lab等",
-        "assets": "📈 Sandisk 利好",
-        "chain": "个股消息驱动（如财报/订单）→板块轮动（半导体、航天）→资金流向波动",
-        "watch": "盘前成交量及开盘后股价方向"
+        "what": "盘前异动：Sandisk、安森美、Rocket Lab等",
+        "assets": "📈 Sandisk等个股 利好或利空（待查）",
+        "chain": "个股异动→板块轮动信号→资金流向半导体或航天军工→大盘波动率上升",
+        "watch": "盘后财报及机构评级调整"
       }
     }
   ]
