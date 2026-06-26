@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 17:50",
+  "updateTime": "2026-06-26 17:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "存储芯片价格担忧及OpenAI IPO推迟，芯片股盘前走低",
-        "assets": "📉 美国芯片股 利空",
-        "chain": "科技股抛售→纳指承压→风险偏好下降（投资者避险情绪升温）",
-        "watch": "存储芯片现货价格及OpenAI IPO时间表"
+        "what": "存储芯片价格担忧及OpenAI IPO推迟，美国芯片股盘前下跌",
+        "assets": "📉 美国存储芯片股 利空；📉 科技板块 承压",
+        "chain": "科技股下跌引发避险情绪，资金转向防御板块（如公用事业），或拖累纳指（科技股指数）",
+        "watch": "存储芯片厂商财报及OpenAI IPO时间表更新"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "AI股暴跌引发科技板块持续动荡",
-        "assets": "📉 纳斯达克指数 利空",
-        "chain": "AI股暴跌→科技基金赎回→流动性收紧（资金从高beta资产撤出）",
-        "watch": "VIX恐慌指数及科技股ETF资金流"
+        "what": "AI股持续下跌，科技公司面临新一轮动荡",
+        "assets": "📉 AI相关科技股 利空；📉 纳斯达克指数 承压",
+        "chain": "AI泡沫担忧蔓延，资金从科技股流出，可能加剧成长股（高估值股票）回调，利好价值股（低估值）",
+        "watch": "AI公司盈利指引及机构持仓变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "美银报告：美国股市3月来首现资金净流出，科技基金外流创纪录",
-        "assets": "📉 美股大盘 利空",
-        "chain": "资金外流→卖压加剧→市场情绪恶化（动量反转信号）",
-        "watch": "下周资金流数据及FOMC会议纪要"
+        "what": "美国股市3月以来首次资金净流出，科技基金外流创纪录",
+        "assets": "📉 美国科技基金 利空；📉 美股大盘 承压",
+        "chain": "资金流出反映风险偏好下降，可能触发程序化抛售（量化交易），美元走强，新兴市场承压",
+        "watch": "下周资金流向数据及VIX（恐慌指数）变动"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "红龙虾‘终极无限虾’促销被诉称‘公司车祸’",
-        "assets": "📉 餐饮板块 利空",
-        "chain": "促销亏损→利润预警→消费降级（可选消费支出疲软）",
-        "watch": "同店销售数据及诉讼进展"
+        "what": "诉讼称Red Lobster无限虾促销导致公司财务危机",
+        "assets": "📉 Red Lobster母公司 利空；📉 餐饮连锁股 间接承压",
+        "chain": "促销策略失败案例警示行业，餐饮股估值可能下调，消费者支出疲软信号（二阶效应）",
+        "watch": "Red Lobster财报及行业同店销售数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "意大利监管机构就Microsoft 365涨价对微软展开调查",
-        "assets": "📉 微软股价 利空",
-        "chain": "监管风险→科技巨头估值承压→欧盟反垄断趋严（合规成本上升）",
-        "watch": "欧盟数字市场法案执法动态"
+        "what": "意大利监管机构调查微软Microsoft 365涨价",
+        "assets": "📉 微软 利空；📉 欧洲科技监管风险 上升",
+        "chain": "反垄断调查可能迫使微软调整定价，影响云服务（云计算）收入，利好竞争对手",
+        "watch": "调查进展及微软合规声明"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀过高，威廉姆斯认为物价压力缓解",
-        "assets": "📉 美债收益率 利好",
-        "chain": "鹰派言论→加息预期升温→美元走强（利率路径分歧）",
-        "watch": "周五PCE通胀数据及点阵图"
+        "what": "芝加哥联储主席称通胀过高，纽约联储主席预计物价压力放缓",
+        "assets": "📉 美国国债 承压；📈 美元 短期波动",
+        "chain": "官员分歧加剧市场对利率路径的不确定性，短期利率预期（联邦基金期货）波动，风险资产承压",
+        "watch": "本周CPI（消费者物价指数）及美联储会议纪要"
       }
     },
     {
@@ -94,51 +94,51 @@
       "score": 33,
       "insight": {
         "what": "法官阻止特朗普限制部分研究生联邦贷款的规定",
-        "assets": "📉 教育板块 承压",
-        "chain": "政策松绑→学生贷款违约风险→消费信贷收缩（次级债压力）",
-        "watch": "最高法院上诉裁决及贷款发放数据"
+        "assets": "📈 教育股 利好；📈 学生贷款ABS（资产支持证券） 企稳",
+        "chain": "贷款限制解除增加教育需求，利好营利性大学和贷款服务商，财政赤字可能扩大",
+        "watch": "最高法院裁决及教育部后续政策"
       }
     },
     {
       "rank": 8,
-      "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
-      "source": "CNBC",
-      "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "法官允许对特朗普司法部‘反武器化’基金诉讼继续",
-        "assets": "📉 政治风险 承压",
-        "chain": "法律纠纷→政策不确定性→避险资产需求（黄金/美债）",
-        "watch": "11月大选辩论及民调变化"
-      }
-    },
-    {
-      "rank": 9,
       "title": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
       "source": "CNBC",
       "detail": "Bond investors are abandoning aggregate benchmarks in favor of a broad mix of fixed-income investments to maximize yield with the stock market on edge.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "贝莱德高管称债券ETF资金流入激增，市场在嗅探机会",
-        "assets": "📈 债券ETF 利好",
-        "chain": "追逐收益→信用利差收窄→久期风险（利率敏感型资产）",
-        "watch": "10年期美债收益率及信用评级变动"
+        "what": "债券ETF资金涌入追逐收益，贝莱德高管称市场嗅到信号",
+        "assets": "📈 美国债券ETF 利好；📈 长期国债 需求上升",
+        "chain": "资金涌入债市暗示衰退预期（经济下行），收益率曲线（长短期利差）可能进一步倒挂，股市资金外流",
+        "watch": "10年期美债收益率及就业数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "央行拟修订同业存单管理暂行办法，适应货币政策调控和利率市场化改革的新形势",
       "source": "澎湃新闻",
       "detail": "6月26日，中国人民银行发布消息称，为进一步规范引导同业存单市场发展，加强金融监管，中国人民银行对《同业存单管理暂行办法》（中国人民银行公告〔2013〕第20号）...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "央行拟修订同业存单管理办法，适应利率市场化",
-        "assets": "📈 银行间流动性 利好",
-        "chain": "管理优化→存单利率波动加大→短端利率传导（货币政策工具调整）",
-        "watch": "1年期AAA存单利率及MLF操作量"
+        "what": "中国央行拟修订同业存单管理暂行办法，推进利率市场化",
+        "assets": "📈 银行股 利好；📈 同业存单 流动性改善",
+        "chain": "新规降低银行负债成本（借钱成本），缓解息差（贷款利率减存款利率）压力，短端利率（隔夜拆借）可能下行",
+        "watch": "央行细则及银行间市场利率走势"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
+      "source": "CNBC",
+      "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while digesting a flurry of news from the region.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "美国原油跌破70美元，阿曼附近货船遭袭后恢复跌势",
+        "assets": "📉 WTI原油 利空；📉 能源股 承压",
+        "chain": "地缘事件（袭击）影响短暂，需求疲软主导油价，利好航空股（成本下降），利空产油国货币",
+        "watch": "OPEC+产量决策及EIA（能源信息署）库存数据"
       }
     }
   ]
