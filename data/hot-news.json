@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 17:41",
+  "updateTime": "2026-06-26 17:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "存储芯片价格担忧及OpenAI IPO推迟致芯片股盘前走低",
-        "assets": "📉 美股半导体板块 承压；📉 存储芯片期货 看跌",
-        "chain": "芯片需求预期减弱→科技股估值（PE，市盈率）回调→纳指（纳斯达克）承压",
-        "watch": "今晚美股开盘半导体ETF（SMH）走势"
+        "what": "美国芯片股盘前走低，存储芯片价格担忧和OpenAI IPO推迟",
+        "assets": "📉 美股半导体板块 利空",
+        "chain": "存储芯片库存积压→芯片价格下跌（降价）→拖累AI产业链上游需求",
+        "watch": "今晚美光科技财报及存储芯片现货价格"
       }
     },
     {
@@ -23,122 +23,122 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "AI股暴跌预示科技股再遭动荡",
-        "assets": "📉 AI概念股 利空；📉 科技板块ETF（XLK） 承压",
-        "chain": "AI泡沫（过高预期）破灭→资金轮动至防御板块（公用事业）→波动率（VIX恐慌指数）飙升",
-        "watch": "明天VIX指数是否突破20"
+        "what": "AI科技股暴跌，科技公司面临又一波动荡",
+        "assets": "📉 纳斯达克指数 利空",
+        "chain": "AI泡沫担忧→科技股抛售→避险资金流入国债（国债价格上涨）",
+        "watch": "VIX（恐慌指数）是否突破20"
       }
     },
     {
       "rank": 3,
+      "title": "美银：美国股市录得3月以来首次资金净流出 科技基金外流规模创纪录",
+      "source": "环球市场播报",
+      "detail": "投资者三个月来首次从美国股市撤资，科技基金出现创纪录资金流出，显示人工智能交易正在降温。 美国银行援引EPFR Global数据在一份报告中称，截至6月24日当周...",
+      "lang": "zh",
+      "score": 42,
+      "insight": {
+        "what": "美银报告美国股市3月以来首次资金净流出，科技基金外流创纪录",
+        "assets": "📉 美股科技股 利空；📈 美债 利好",
+        "chain": "资金逃离科技→涌入防御板块（如公用事业）→美元承压（汇率下跌）",
+        "watch": "下周美国CPI（消费者物价指数）数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash for the company, lawsuit says",
       "source": "CNBC",
       "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "红龙虾无限虾促销被诉称公司灾难",
-        "assets": "📉 餐饮股（DRI，达登餐厅） 负面情绪传导",
-        "chain": "促销失败→餐饮毛利率（毛利/收入）恶化→行业定价策略受质疑",
-        "watch": "红龙虾母公司财报中同店销售数据"
+        "what": "红龙虾无限虾促销被诉为'公司车祸'",
+        "assets": "📉 餐饮股 利空",
+        "chain": "成本失控→利润压缩→可能引发其他连锁餐厅降价促销战",
+        "watch": "Darden Restaurants（达登餐饮）财报指引"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "意大利监管机构就“Microsoft 365”涨价一事对微软展开调查",
       "source": "环球市场播报",
       "detail": " 意大利反垄断监管机构周五表示，已针对微软公司展开调查，原因是该公司涉嫌在“Microsoft 365”订阅服务涨价过程中存在不公平商业行为。",
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "意大利监管调查微软365涨价",
-        "assets": "📉 微软（MSFT） 利空；📈 欧洲云服务竞争对手 利好",
-        "chain": "反垄断（监管限制市场支配）风险→科技巨头合规成本上升→欧洲本地SaaS（软件即服务）受益",
-        "watch": "调查是否升级为正式诉讼"
+        "what": "意大利监管机构调查微软365涨价",
+        "assets": "📉 微软股价 承压",
+        "chain": "反垄断风险→科技巨头监管加码→欧洲SaaS（软件即服务）板块估值下调",
+        "watch": "欧盟是否跟进调查"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
       "source": "CNBC",
       "detail": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀过高，威廉姆斯认为压力缓和",
-        "assets": "📈 美债收益率 短期上行；📉 黄金 承压",
-        "chain": "鹰派（偏紧缩）言论→加息预期（利率走高）升温→美元走强压制大宗商品",
-        "watch": "周五PCE（个人消费支出物价指数）数据"
+        "what": "芝加哥联储主席称通胀过高，威廉姆斯认为物价压力缓解",
+        "assets": "📈 美元指数 震荡",
+        "chain": "鹰派（偏紧缩）讲话→加息预期升温→美债收益率上行（债券价格下跌）",
+        "watch": "周五PCE（个人消费支出）数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "央行拟修订同业存单管理暂行办法，适应货币政策调控和利率市场化改革的新形势",
+      "source": "澎湃新闻",
+      "detail": "6月26日，中国人民银行发布消息称，为进一步规范引导同业存单市场发展，加强金融监管，中国人民银行对《同业存单管理暂行办法》（中国人民银行公告〔2013〕第20号）...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "中国央行拟修订同业存单管理暂行办法",
+        "assets": "📈 银行间利率 承压",
+        "chain": "规范同业存单→银行负债成本下降→利好债市（债券价格上涨）",
+        "watch": "下周央行公开市场操作利率"
+      }
+    },
+    {
+      "rank": 8,
       "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
       "source": "CNBC",
       "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while digesting a flurry of news from the region.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "原油跌至70美元下方，无视阿曼附近油轮遇袭",
-        "assets": "📉 WTI原油 承压；📈 炼油股 成本下降利好",
-        "chain": "需求担忧（全球经济放缓）>地缘风险（中东冲突）→油价下行→通胀预期回落",
-        "watch": "今晚EIA（美国能源信息署）库存报告"
+        "what": "美国原油跌破70美元，阿曼附近货船遇袭后继续下跌",
+        "assets": "📉 WTI原油 利空",
+        "chain": "地缘溢价消退→OPEC+（石油输出国组织）减产压力→炼油利润收窄",
+        "watch": "今晚EIA（美国能源信息署）库存数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "德国监管机构启动账务调查，扎兰多股价下跌4.4%",
       "source": "环球市场播报",
       "detail": "监管机构指控该公司或遗漏了一笔与收购 About You 相关的交易信息扎兰多表示，所有与收购 About You 股权相关的信息，均已在公开要约收购文件中完整披露。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "德国监管启动账务调查，扎兰多跌4.4%",
-        "assets": "📉 欧洲电商股（ZAL，扎兰多） 利空",
-        "chain": "财务造假（账务违规）风险→投资者信心受损→板块估值折价",
-        "watch": "调查是否涉及管理层刑事责任"
+        "what": "德国监管机构启动账务调查，Zalando股价下跌4.4%",
+        "assets": "📉 Zalando 利空",
+        "chain": "财务造假疑云→欧洲电商板块承压→投资者转向合规性更强的平台（如亚马逊）",
+        "watch": "调查是否扩大至其他电商"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "崔泰源天价离婚案将于7月宣判 SK海力士等股暴涨后集团控制权料已无虞",
       "source": "环球市场播报",
       "detail": "SK海力士的亿万富翁崔泰源与前妻的离婚案将于下月迎来判决，意味着这起打了近十年的官司可能结束在即。 在周五重启审讯之后，首尔高等法院在其网站上表示...",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "崔泰源离婚案7月宣判，SK海力士等暴涨后集团控制权无虞",
-        "assets": "📈 SK海力士（000660） 利好；📈 韩国半导体板块 情绪提振",
-        "chain": "控制权稳固（管理层稳定）→战略连续性→资本开支（建厂投资）预期不变",
-        "watch": "离婚案判决后SK集团股价波动"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
-      "source": "CNBC",
-      "detail": "ON Semiconductor said the deal bumps up its total addressable market by $30 billion, to $243 billion by 2030.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "安森美70亿美元收购Synaptics，押注物理AI",
-        "assets": "📈 安森美（ON） 收购利好；📈 边缘计算（端侧AI）板块 利好",
-        "chain": "并购溢价（收购价高于市价）→相关芯片股估值重估→AI硬件需求扩张",
-        "watch": "收购案是否通过反垄断审查"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "NBA targets Asian resurgence with technology and talent push",
-      "source": "CNBC",
-      "detail": "Southeast Asia has emerged as one of the NBA's fastest-growing markets for fan engagement, making the region a focal point for both player development and business expansion. ",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "NBA以科技和人才推动亚洲市场复兴",
-        "assets": "📈 体育媒体股（DIS，迪士尼） 长期利好；📈 亚洲流媒体（腾讯视频） 受益",
-        "chain": "全球化（海外扩张）→版权收入增长→赛事转播权溢价",
-        "watch": "NBA亚洲区订阅用户增长数据"
+        "what": "崔泰源天价离婚案7月宣判，SK海力士等股暴涨后集团控制权无忧",
+        "assets": "📈 SK海力士 利好",
+        "chain": "控制权风险解除→管理层稳定→存储芯片产能扩张预期升温",
+        "watch": "SK海力士是否宣布回购计划"
       }
     }
   ]
