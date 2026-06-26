@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 06:05",
+  "updateTime": "2026-06-27 06:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
+        "what": "卡什卡里称通胀广泛，美联储或需加息",
         "assets": "📉 美股 承压\n📈 美元指数 利好",
-        "chain": "加息预期升温→风险资产（如股票）估值受压→资金流向美元避险资产",
-        "watch": "美国CPI（消费者物价指数）数据"
+        "chain": "加息预期升温→风险资产（股票/债券）抛售→避险资产（黄金）承压",
+        "watch": "今晚美国CPI数据（通胀指标）"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "环球市场播报",
       "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的经济预测中预计今年将加息一次。",
       "lang": "zh",
-      "score": 54
+      "score": 54,
+      "insight": {
+        "what": "卡什卡里再次强调通胀广泛，加息风险",
+        "assets": "📉 科技股 承压\n📈 短期美债收益率 上行",
+        "chain": "加息预期→科技股估值（未来现金流折现）受压→资金转向防御板块",
+        "watch": "美联储点阵图（利率预测）"
+      }
     },
     {
       "rank": 3,
@@ -31,10 +37,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "Momenta香港IPO获梅赛德斯-奔驰和GIC基石投资",
-        "assets": "📈 中国自动驾驶概念股 利好\n📈 港股新股市场 利好",
-        "chain": "巨头背书→自动驾驶赛道信心回升→相关供应商（如芯片股）受关注",
-        "watch": "Momenta上市首日表现及估值"
+        "what": "OpenAI未开IPO前会议，上市无时间表",
+        "assets": "📉 AI概念股 承压\n📈 一级市场（私募） 活跃",
+        "chain": "IPO推迟→AI板块流动性（交易资金）减少→私募估值可能回调",
+        "watch": "OpenAI官方上市声明"
       }
     },
     {
@@ -45,10 +51,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普施压美联储主席Warsh，通胀超4%",
-        "assets": "📉 美元指数 承压\n📈 黄金 利好",
-        "chain": "政治干预→央行独立性受疑→降息预期（借钱成本降低）升温→通胀预期走高",
-        "watch": "美联储下次利率决议声明"
+        "what": "特朗普施压美联储主席，通胀超4%",
+        "assets": "📈 黄金 避险\n📉 美元指数 承压",
+        "chain": "政治干预→央行独立性（自主决策）受疑→美元贬值预期→贵金属走强",
+        "watch": "美联储独立性声明及CPI走势"
       }
     },
     {
@@ -59,10 +65,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "交易员下调美联储加息预期，美元微跌",
-        "assets": "📉 美元指数 承压\n📈 美股科技股 利好",
-        "chain": "降息预期升温→美元走弱→风险资产（如科技股）估值修复",
-        "watch": "美国就业和薪资数据"
+        "what": "美元指数微跌，交易员下调加息预期",
+        "assets": "📈 新兴市场货币 利好\n📉 美元指数 承压",
+        "chain": "加息预期降温→美元走弱→新兴市场资产（股票/债券）资金流入",
+        "watch": "今晚美联储官员讲话"
       }
     },
     {
@@ -73,60 +79,66 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI称尚未召开IPO投资者会议",
-        "assets": "📉 AI概念股 利空",
-        "chain": "IPO推迟→市场对AI融资信心减弱→科技股（如微软）估值调整",
-        "watch": "OpenAI正式IPO公告或融资轮"
+        "what": "OpenAI未定IPO时间表",
+        "assets": "📉 AI概念股 承压\n📈 一级市场 活跃",
+        "chain": "IPO延迟→AI估值锚（参照标准）缺失→市场转向基本面验证",
+        "watch": "OpenAI财报或营收数据"
       }
     },
     {
       "rank": 7,
-      "title": "OpenAI据悉考虑最早于2027年IPO 或晚于Anthropic上市",
-      "source": "环球市场播报",
-      "detail": " 据知情人士透露，OpenAI考虑最早于2027年进行首次公开募股（IPO）。这意味着该公司可能会在AI竞争对手Anthropic PBC之后上市。",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "OpenAI考虑最早2027年IPO，或晚于Anthropic",
-        "assets": "📉 AI概念股 利空",
-        "chain": "上市时间表拉长→市场对AI盈利前景担忧→竞争对手（如Anthropic）估值承压",
-        "watch": "Anthropic IPO进展"
-      }
-    },
-    {
-      "rank": 8,
       "title": "卡什卡里：目前预计美联储今年将加息一次",
       "source": "环球市场播报",
       "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "卡什卡里预计美联储今年加息一次",
-        "assets": "📉 美股 承压\n📈 美元指数 利好",
-        "chain": "加息信号→短期利率上升→债券收益率（借钱成本）走高→股市资金流出",
-        "watch": "美联储点阵图（利率预测）更新"
+        "what": "卡什卡里预计今年加息一次",
+        "assets": "📈 短期美债收益率 上行\n📉 美股 承压",
+        "chain": "加息一次预期→债券收益率曲线（长短端利差）平坦化→银行股受压",
+        "watch": "下周FOMC会议声明"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
       "source": "CNBC",
       "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "Oracle跌至2001年来最差周，AI融资担忧",
+        "assets": "📉 甲骨文 承压\n📉 AI基建股 承压",
+        "chain": "AI融资担忧→科技股抛售→市场风险偏好（投资者情绪）下降",
+        "watch": "甲骨文云业务财报"
+      }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Momenta香港IPO基石投资者据悉包括梅赛德斯-奔驰和新加坡GIC",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，自动驾驶初创公司Momenta Global Ltd．已引入梅赛德斯-奔驰集团和新加坡政府投资公司（GIC Pte）作为香港IPO的基石投资者。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Oracle股价创2001年来最差周，AI融资担忧加剧",
-        "assets": "📉 美股科技股 承压\n📉 AI概念股 利空",
-        "chain": "融资紧张→AI资本开支（投资）放缓→云服务（如Oracle）需求预期下滑",
-        "watch": "Oracle财报及AI融资新闻"
+        "what": "Momenta港股IPO获奔驰和GIC基石投资",
+        "assets": "📈 自动驾驶板块 利好\n📈 港股IPO市场 活跃",
+        "chain": "知名基石（基础投资者）背书→行业信心增强→相关供应链（激光雷达）走强",
+        "watch": "Momenta招股书定价区间"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "金价升破4000美元 美国通胀数据削弱加息预期",
+      "source": "环球市场播报",
+      "detail": " 黄金周五延续涨势，升破每盎司4，000美元，因为最新美国通胀数据抑制了对美联储加息的预期。金价经历了剧烈波动的一周，曾一度触及11月以来的最低水平。",
+      "lang": "zh",
+      "score": 28,
+      "insight": {
+        "what": "金价突破4000美元，通胀削弱加息预期",
+        "assets": "📈 黄金 利好\n📉 美元指数 承压",
+        "chain": "通胀超预期→实际利率（名义利率-通胀）下降→黄金作为抗通胀资产受追捧",
+        "watch": "今晚美国CPI环比数据"
       }
     }
   ]
