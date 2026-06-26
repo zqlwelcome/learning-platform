@@ -1,106 +1,90 @@
 {
-  "updateTime": "2026-06-27 03:01",
+  "updateTime": "2026-06-27 03:05",
   "news": [
     {
       "rank": 1,
-      "title": "美联储官员卡什卡里称出现广泛通胀迹象 央行或需加息",
+      "title": "美联储官员卡什卡里称通胀压力更趋广泛 央行或需加息",
       "source": "环球市场播报",
-      "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的经济预测中预计今年将加息一次。",
+      "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的预测中预计今年将加息一次。",
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀广泛，可能需加息",
-        "assets": "📉 美股 承压，📈 美元 走强",
-        "chain": "加息预期升温→美债收益率上行→风险资产（股票）估值承压",
-        "watch": "下次CPI（消费者物价指数）数据"
+        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
+        "assets": "📈 美元 利好; 📉 美国国债 承压; 📉 美股 利空",
+        "chain": "加息预期推高利率（借钱成本），压制股市估值，美元走强施压新兴市场",
+        "watch": "下次CPI（消费者物价指数）数据是否超预期"
       }
     },
     {
       "rank": 2,
+      "title": "美联储官员卡什卡里称出现广泛通胀迹象 央行或需加息",
+      "source": "环球市场播报",
+      "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的经济预测中预计今年将加息一次。",
+      "lang": "zh",
+      "score": 54
+    },
+    {
+      "rank": 3,
       "title": "OpenAI hasn't held pre-IPO investor meetings or set timeline yet, sources say",
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "OpenAI未召开IPO前会议，上市时间未定",
-        "assets": "📉 AI概念股 情绪利空",
-        "chain": "IPO延迟→市场对AI商业化节奏预期降温→相关科技股估值调整",
-        "watch": "OpenAI官方上市时间表更新"
-      }
+      "score": 50
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4%",
       "source": "CNBC",
       "detail": "President Donald Trump's economic advisors are giving Warsh space, as the new Fed chairman, on interest rates as the president repeats calls to cut.",
       "lang": "en",
-      "score": 48,
-      "insight": {
-        "what": "特朗普缓和压力，通胀超4%但主席Warsh获支持",
-        "assets": "📉 美元 承压，📈 黄金 利好",
-        "chain": "政治干预削弱美联储独立性→通胀预期失控→避险资产（黄金）受益",
-        "watch": "美联储下次利率决议声明"
-      }
+      "score": 48
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "消息人士称：OpenAI尚未召开IPO前投资者沟通会，也未确定上市时间表",
       "source": "环球市场播报",
       "detail": "核心要点 据消息人士透露，OpenAI 尚未对外公布正式上市时间表，也未召开 IPO 前投资者沟通会议，商议潜在发行定价与市场认购需求。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI未召开IPO前会议，上市时间未定",
-        "assets": "📉 AI概念股 情绪利空",
-        "chain": "IPO延迟→市场对AI商业化节奏预期降温→相关科技股估值调整",
-        "watch": "OpenAI官方上市时间表更新"
+        "what": "OpenAI否认近期IPO，称未设定时间表",
+        "assets": "📉 AI概念股 短期利空; 📈 未上市AI公司 估值承压",
+        "chain": "IPO推迟减少市场供应，但削弱短期炒作热情，资金转向已上市AI标的",
+        "watch": "OpenAI官方声明或SEC（美国证监会）文件"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "OpenAI据悉考虑最早于2027年IPO 或晚于Anthropic上市",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，OpenAI考虑最早于2027年进行首次公开募股（IPO）。这意味着该公司可能会在AI竞争对手Anthropic PBC之后上市。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI最早2027年IPO，可能晚于Anthropic",
-        "assets": "📉 AI概念股 情绪偏空",
-        "chain": "上市时间拉长→流动性退出窗口延后→一级市场（私募）估值承压",
-        "watch": "Anthropic上市进展"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "据报道OpenAI推迟 IPO，Kalshi交易所交易员预判其官宣时间",
-      "source": "环球市场播报",
-      "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "OpenAI推迟IPO，交易员预判官宣时间。",
-        "assets": "📉 OpenAI相关概念股 不确定性；📈 人工智能板块 短期波动",
-        "chain": "OpenAI推迟IPO意味着市场对其估值和上市节奏的预期落空，可能导致相关概念股短期承压。交易员预判官宣时间反映市场对事件驱动型交易机会的关注，但不确定性增加会抑制投机热情。",
-        "watch": "关注OpenAI官方后续声明及IPO时间表更新，以及人工智能板块整体资金流向变化。"
+        "what": "OpenAI考虑2027年IPO，晚于Anthropic",
+        "assets": "📉 AI板块 情绪利空; 📈 竞争对手Anthropic 相对利好",
+        "chain": "上市时间差使Anthropic先获流动性溢价（更早变现），OpenAI估值或面临折价",
+        "watch": "Anthropic上市进展及估值对比"
       }
     },
     {
       "rank": 7,
+      "title": "据报道OpenAI推迟 IPO，Kalshi交易所交易员预判其官宣时间",
+      "source": "环球市场播报",
+      "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
+      "lang": "zh",
+      "score": 45
+    },
+    {
+      "rank": 8,
       "title": "报道：OpenAI倾向于等到2027年再进行IPO",
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "OpenAI最早2027年IPO或晚于Anthropic",
-        "assets": "📉 AI概念股 情绪偏空",
-        "chain": "上市时间拉长→流动性退出窗口延后→一级市场（私募）估值承压",
-        "watch": "Anthropic上市进展"
-      }
+      "score": 45
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "卡什卡里：目前预计美联储今年将加息一次",
       "source": "环球市场播报",
       "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
@@ -108,37 +92,23 @@
       "score": 36,
       "insight": {
         "what": "卡什卡里预计美联储今年加息一次",
-        "assets": "📈 美元 利好; 📉 新兴市场货币 承压; 📉 大宗商品 承压",
-        "chain": "加息预期推升美元指数（美元兑一篮子货币），新兴市场资本外流，商品以美元计价走弱",
-        "watch": "美联储点阵图（利率预测分布）及非农就业数据"
+        "assets": "📈 美元 利好; 📉 黄金 利空; 📉 长期美债 承压",
+        "chain": "加息信号强化紧缩预期（钱更贵），抑制风险资产，短端利率（短期国债）上行更快",
+        "watch": "美联储点阵图（利率预测）及下次会议纪要"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Momenta香港IPO基石投资者据悉包括梅赛德斯-奔驰和新加坡GIC",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，自动驾驶初创公司Momenta Global Ltd．已引入梅赛德斯-奔驰集团和新加坡政府投资公司（GIC Pte）作为香港IPO的基石投资者。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Momenta香港IPO获奔驰和GIC等基石投资",
-        "assets": "📈 港股自动驾驶板块 利好",
-        "chain": "大机构背书→提升IPO信心→吸引资金流入相关中概股",
-        "watch": "Momenta首日上市表现"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "金价升破4000美元 美国通胀数据削弱加息预期",
-      "source": "环球市场播报",
-      "detail": " 黄金周五延续涨势，升破每盎司4，000美元，因为最新美国通胀数据抑制了对美联储加息的预期。金价经历了剧烈波动的一周，曾一度触及11月以来的最低水平。",
-      "lang": "zh",
-      "score": 28,
-      "insight": {
-        "what": "金价突破4000美元，因通胀数据削弱加息预期",
-        "assets": "📈 黄金 强势，📉 美元 承压",
-        "chain": "通胀降温→加息预期减弱→实际利率下行→无息资产（黄金）吸引力上升",
-        "watch": "美国PCE（个人消费支出）通胀数据"
+        "what": "Momenta香港IPO基石投资者含奔驰和GIC",
+        "assets": "📈 自动驾驶板块 利好; 📈 港股IPO 情绪提振",
+        "chain": "顶级机构背书提升IPO信心，吸引跟风资金，自动驾驶赛道估值或上调",
+        "watch": "Momenta招股价及超额认购倍数"
       }
     }
   ]
