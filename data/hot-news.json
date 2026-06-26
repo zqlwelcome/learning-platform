@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 04:26",
+  "updateTime": "2026-06-27 04:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "卡什卡里称通胀广泛，美联储或需加息",
-        "assets": "📈 美元 利好\n📉 美股 承压\n📉 美债 承压",
-        "chain": "加息预期升温→风险资产（股票/加密货币）抛售→美债收益率（国债利息）上行",
-        "watch": "美国CPI（消费者物价指数）数据及点阵图（利率预测）"
+        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
+        "assets": "📉 美股整体 承压；📈 美元指数 走强",
+        "chain": "加息预期推高短端利率（短期借款成本），压制成长股估值（未来现金流折现价值降低）",
+        "watch": "今晚美国CPI（消费者物价指数）数据是否超预期"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "环球市场播报",
       "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的经济预测中预计今年将加息一次。",
       "lang": "zh",
-      "score": 54
+      "score": 54,
+      "insight": {
+        "what": "甲骨文股价创2001年互联网泡沫以来最差周表现",
+        "assets": "📉 甲骨文 利空；📉 AI融资相关股（如Palantir）承压",
+        "chain": "AI融资担忧（资金链紧张）引发科技股抛售潮，波及云计算和SaaS（软件即服务）板块",
+        "watch": "甲骨文下季财报及AI资本开支指引"
+      }
     },
     {
       "rank": 3,
@@ -39,10 +45,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普施压美联储主席，通胀超4%",
-        "assets": "📉 美元 承压\n📈 黄金 利好\n📈 美股 短期利好",
-        "chain": "政治干预→美联储独立性（决策自主性）受质疑→通胀预期上升→避险资产（黄金）受追捧",
-        "watch": "美联储下次利率决议及特朗普公开表态"
+        "what": "特朗普施压美联储主席沃什，通胀超4%",
+        "assets": "📉 美元指数 承压；📈 黄金 避险利好；📈 美债收益率 上行",
+        "chain": "政治干预削弱美联储独立性（独立决策能力），通胀预期（未来物价上涨预期）失控风险上升",
+        "watch": "沃什是否公开回应及下次FOMC（美联储利率决策会议）声明措辞"
       }
     },
     {
@@ -53,10 +59,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI否认近期IPO，上市时间未定",
-        "assets": "📉 AI概念股 承压\n📈 私募股权 利好",
-        "chain": "IPO延迟→一级市场（未上市）估值承压→二级AI股（已上市）炒作降温",
-        "watch": "OpenAI官方IPO公告或SEC（美国证监会）文件"
+        "what": "OpenAI否认近期IPO计划，上市时间未定",
+        "assets": "📉 AI概念股（如微软、英伟达）情绪面偏空；📈 私有科技公司估值承压",
+        "chain": "一级市场（未上市企业融资）情绪降温，削弱AI板块风险偏好（投资者冒险意愿）",
+        "watch": "OpenAI是否发布官方IPO时间表声明"
       }
     },
     {
@@ -67,10 +73,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI考虑2027年IPO，晚于Anthropic",
-        "assets": "📉 AI板块 中性偏空\n📈 竞争对手 利好",
-        "chain": "推迟上市→市场对AI变现（盈利模式）担忧→资金转向已上市AI或竞品",
-        "watch": "Anthropic上市时间表及OpenAI收入数据"
+        "what": "OpenAI考虑最早2027年IPO，晚于Anthropic",
+        "assets": "📉 AI板块（如Anthropic相关股）竞争格局利好；📈 长期AI基金 中性偏空",
+        "chain": "IPO延迟减少短期套利机会（上市后快速获利），资金转向已上市AI巨头",
+        "watch": "Anthropic上市进展及估值变动"
       }
     },
     {
@@ -97,25 +103,19 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "卡什卡里预计今年加息一次",
-        "assets": "📈 美元 利好\n📉 美股 承压\n📉 新兴市场 承压",
-        "chain": "加息预期→信贷收紧（借钱更难）→经济放缓风险→大宗商品（原油/铜）需求减弱",
-        "watch": "美联储会议纪要及PCE（个人消费支出）数据"
+        "what": "卡什卡里预计美联储今年加息一次",
+        "assets": "📉 美股科技股 承压；📈 美元 短期走强",
+        "chain": "加息预期推高实际利率（扣除通胀后的借贷成本），压制高负债科技企业盈利",
+        "watch": "CME FedWatch工具（利率期货预测）加息概率变化"
       }
     },
     {
       "rank": 10,
-      "title": "Momenta香港IPO基石投资者据悉包括梅赛德斯-奔驰和新加坡GIC",
-      "source": "环球市场播报",
-      "detail": " 据知情人士透露，自动驾驶初创公司Momenta Global Ltd．已引入梅赛德斯-奔驰集团和新加坡政府投资公司（GIC Pte）作为香港IPO的基石投资者。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "Momenta香港IPO基石投资者含奔驰和GIC",
-        "assets": "📈 自动驾驶板块 利好\n📈 港股 中性偏多",
-        "chain": "知名机构背书→IPO热度提升→带动港股科技IPO（首次公开募股）情绪回暖",
-        "watch": "Momenta发行定价及首日表现"
-      }
+      "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
+      "source": "CNBC",
+      "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
+      "lang": "en",
+      "score": 32
     }
   ]
 }
