@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 10:15",
+  "updateTime": "2026-06-26 10:20",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "美联储加息预期降温，黄金止跌回升",
         "assets": "📈 黄金 利好；📉 美元指数 承压",
-        "chain": "降息预期（借钱成本降低）→实际利率下降→贵金属吸引力上升，美元走弱",
-        "watch": "今晚美国PCE（个人消费支出）通胀数据"
+        "chain": "利率预期下降→实际利率走低（持有黄金的机会成本降低）→金价反弹",
+        "watch": "本周五PCE（个人消费支出物价指数）数据"
       }
     },
     {
@@ -23,122 +23,110 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "芝加哥联储主席称通胀过高，纽约联储认为压力缓解",
-        "assets": "📉 美债收益率 承压；📈 美股 利好",
-        "chain": "鸽派（支持宽松）与鹰派（支持紧缩）分歧→市场押注降息路径（未来利率走向）→风险资产（股票等）情绪改善",
-        "watch": "下周三美联储会议纪要措辞"
+        "what": "Goolsbee称通胀过高，Williams预计物价压力缓解",
+        "assets": "📉 美股 承压；📈 美债 短期波动",
+        "chain": "鹰派言论（倾向加息）→加息预期升温→风险资产（股票）估值受压",
+        "watch": "后续FOMC（美联储议息会议）点阵图变化"
       }
     },
     {
       "rank": 3,
-      "title": "东京通胀加速 对日本央行进一步加息构成支撑",
-      "source": "环球市场播报",
-      "detail": "东京关键通胀指标八个月来首次加速，这将使日本央行继续保持在进一步加息的道路上。 据周五公布的数据显示，东京6月不包括新鲜食品的消费者价格指数（CPI）同比上涨1.6%...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "东京通胀加速，支持日本央行加息",
-        "assets": "📈 日元 利好；📉 日本国债 承压",
-        "chain": "通胀加速→加息预期升温（借钱成本增加）→日元升值，日债收益率上行",
-        "watch": "日本央行行长下周讲话信号"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Ariel’s John Rogers likes these small-cap names as the market rally broadens",
       "source": "CNBC",
       "detail": "Ariel Investments' John Rogers highlighted for-profit education company Covista as a small-cap stock he's currently bullish on.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "Ariel基金看好小盘股，市场涨势扩散",
-        "assets": "📈 美股小盘股（如罗素2000）利好；📉 大盘科技股 承压",
-        "chain": "资金轮动（从大市值转向小市值）→小盘股流动性改善，但大盘股相对估值溢价收窄",
-        "watch": "罗素2000指数相对标普500表现"
+        "what": "Ariel看好小盘股，市场反弹范围扩大",
+        "assets": "📈 美股小盘股 利好；📉 大盘成长股 相对承压",
+        "chain": "资金从AI龙头轮动（板块切换）→小盘股流动性改善→罗素2000指数（小盘股指数）跑赢",
+        "watch": "小盘股相对强弱指标（RSI）及成交量"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "法官允许对特朗普司法部'反武器化'基金诉讼继续",
-        "assets": "📉 美国政治不确定性 利空；📉 美元 承压",
-        "chain": "法律风险增加→政策不确定性（政府行动受阻）→避险情绪（投资者转向安全资产）",
-        "watch": "案件进展及下周听证会"
+        "what": "小盘股今年大涨，华尔街精选个股曝光",
+        "assets": "📈 美股小盘股 利好；📈 罗素2000指数 利好",
+        "chain": "资金轮动（从大市值转向小市值）→小盘股流动性改善→做多小盘股策略获利",
+        "watch": "小盘股相对大盘股的表现（相对强弱）"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
       "source": "CNBC",
       "detail": "On Thursday, the Nasdaq Composite fell for a fourth straight day as shares of Apple and Microsoft slid.",
       "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "周五重大股票新闻：关注下一交易日可能影响市场的因素",
-        "assets": "📈 美股整体 中性；📈 波动率指数（VIX） 利好",
-        "chain": "事件驱动→短期波动（价格上下震荡）→期权交易活跃（买卖合约增加）",
-        "watch": "盘前个股财报及经济数据"
-      }
+      "score": 27
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "美法官裁定马斯克需就“百万美元抽奖骗局”的集体诉讼出庭作证",
       "source": "环球市场播报",
       "detail": " 美国一位联邦法官周四裁定埃隆·马斯克需在两起拟议的集体诉讼中宣誓作证。这两起诉讼指控马斯克在2024年大选前，通过承诺每天发放100万美元的奖金来欺骗摇摆州的选民。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美法官裁定马斯克需就百万美元抽奖诉讼出庭作证",
-        "assets": "📉 特斯拉 利空；📉 马斯克相关概念股 承压",
-        "chain": "法律纠纷扩大→CEO时间分散（精力被占用）→公司治理风险（管理不确定性）上升",
-        "watch": "特斯拉股价及下周听证会结果"
+        "what": "法官裁定马斯克需就抽奖诉讼出庭作证",
+        "assets": "📉 特斯拉 短期利空",
+        "chain": "诉讼风险→管理层注意力分散→股价波动率上升",
+        "watch": "案件进展及特斯拉期权隐含波动率（IV）"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "ON Semiconductor strikes $7 billion deal for Synaptics in physical AI push",
       "source": "CNBC",
       "detail": "ON Semiconductor said the deal bumps up its total addressable market by $30 billion, to $243 billion by 2030.",
       "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "安森美以70亿美元收购新思，布局物理AI",
-        "assets": "📈 安森美 利好；📈 半导体行业 利好",
-        "chain": "并购整合（公司合并）→AI芯片需求增长→产业链上下游（如设备商）受益",
-        "watch": "交易监管审批及安森美Q2财报"
-      }
+      "score": 20
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "规模突破10亿元！电子ETF华宝（515260）标的指数自“9.24”以来暴涨252%！电子板块涨价潮持续引爆！",
       "source": "新浪基金",
       "detail": "或受益于电子板块涨价潮，周四（6月25日）囊括PCB、存储芯片等热门概念的电子ETF华宝（515260）场内价格豪涨4.65%，续创历史新高，上交所数据显示...",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "电子ETF规模突破10亿元，指数自9.24暴涨252%",
-        "assets": "📈 电子板块（如芯片股） 利好；📈 半导体ETF 利好",
-        "chain": "涨价潮（成本上升）→盈利预期改善（公司利润增加）→资金涌入相关ETF",
-        "watch": "电子板块市盈率（估值水平）及库存数据"
+        "what": "安森美70亿美元收购Synaptics，押注物理AI",
+        "assets": "📈 安森美 利好；📈 半导体并购板块 利好",
+        "chain": "并购溢价（收购价高于市价）→行业整合预期→AI芯片产业链估值重估",
+        "watch": "收购完成率及Synaptics股东投票结果"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Democrats probe Trump's troubled $16 million reflecting pool renovation",
       "source": "CNBC",
       "detail": "President Donald Trump has attempted to spruce up Washington in advance of the country's 250th anniversary.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "民主党调查特朗普耗资1600万美元的喷泉翻新工程",
-        "assets": "📉 政治不确定性 利空；📉 特朗普媒体科技 承压",
-        "chain": "调查升级→政府支出争议（资金使用问题）→投资者担忧监管风险（政策变化）",
-        "watch": "调查进展及中期选举相关民调"
+        "what": "电子ETF规模破10亿，标的指数自9.24暴涨252%",
+        "assets": "📈 A股电子板块 利好；📈 半导体ETF 利好",
+        "chain": "资金涌入→板块拥挤度（持仓集中度）上升→短期回调风险增加",
+        "watch": "电子板块成交额占比及融资余额变化"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Small-caps are booming this year. Here are some of Wall Street's top smaller picks",
+      "source": "CNBC",
+      "detail": "Small-cap stocks are on pace to notch their best first half of the year since 1991, and TD Cowen and Bank of America have ideas about how to play the trend.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "民主党调查特朗普16亿美元泳池翻新",
+        "assets": "📉 特朗普媒体科技集团 情绪利空",
+        "chain": "政治丑闻曝光→舆论压力→关联公司股价承压",
+        "watch": "调查听证会时间及民调变化"
       }
     }
   ]
