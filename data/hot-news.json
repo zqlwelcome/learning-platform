@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 08:25",
+  "updateTime": "2026-06-26 08:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 48,
       "insight": {
-        "what": "货船在阿曼湾遭袭，伊朗警告，油价波动",
-        "assets": "📈 原油 利多；📉 全球股市 承压",
-        "chain": "地缘风险溢价上升，避险情绪推高油价，但可能压制风险资产（如股票）",
-        "watch": "伊朗官方回应及霍尔木兹海峡通航情况"
+        "what": "货船遭袭，伊朗警告，美联储发言，油价下跌",
+        "assets": "📈 原油 承压",
+        "chain": "地缘风险推高运费和保险成本，短期油价波动加剧（波动率上升）",
+        "watch": "伊朗后续行动及美国库存数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "Goolsbee称通胀过高，Williams认为通胀压力缓解",
-        "assets": "📉 美元 短多长空；📈 美债 分化",
-        "chain": "鸽鹰分歧暗示美联储内部分化，市场降息预期（借钱成本降低）可能推迟但方向不变",
-        "watch": "周五PCE（个人消费支出物价指数）数据"
+        "what": "Goolsbee称通胀过高，Williams认为压力缓和",
+        "assets": "📉 美股 承压",
+        "chain": "鹰派言论（倾向加息）压制风险偏好，美元短期走强（资金流入美元资产）",
+        "watch": "下周三CPI数据及美联储点阵图"
       }
     },
     {
@@ -37,98 +37,70 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "东京通胀加速，支持日本央行加息",
-        "assets": "📈 日元 利多；📉 日债 承压",
-        "chain": "加息预期（借钱成本提高）推高日元，可能引发套利交易（借低息货币买高息资产）平仓",
-        "watch": "日本央行7月会议及薪资谈判结果"
+        "what": "东京通胀加速，支撑日本央行加息",
+        "assets": "📈 日元 利好",
+        "chain": "加息预期（借钱成本提高）推高日元，利差交易（借低息货币投高息）平仓风险上升",
+        "watch": "日本央行下次会议及薪资数据"
       }
     },
     {
       "rank": 4,
-      "title": "美联储威廉姆斯“放鸽”：当前货币政策立场足以推动通胀回落至2%",
-      "source": "市场资讯",
-      "detail": "财联社6月26日讯（编辑 牛占林）纽约联储主席威廉姆斯周四表示，当前的货币政策立场能够有效推动通胀持续回落至美联储2%的目标水平，但他同时承认...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "威廉姆斯放鸽：当前政策足以降通胀至2%",
-        "assets": "📉 美元 承压；📈 美股 利多",
-        "chain": "鸽派言论强化降息预期，美元走弱利好出口和风险资产",
-        "watch": "下周美联储官员讲话及CPI（消费者物价指数）数据"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Ariel’s John Rogers likes these small-cap names as the market rally broadens",
       "source": "CNBC",
       "detail": "Ariel Investments' John Rogers highlighted for-profit education company Covista as a small-cap stock he's currently bullish on.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "Ariel基金经理看好小盘股，市场反弹扩大",
-        "assets": "📈 美股小盘股 利多；📉 大型科技股 承压",
-        "chain": "资金从拥挤的科技股轮动至小盘价值股（估值低、周期敏感），预示经济软着陆预期",
-        "watch": "罗素2000指数（小盘股指数）相对标普500表现"
+        "what": "Ariel经理看好小盘股，市场反弹扩大",
+        "assets": "📈 美股小盘股 利好",
+        "chain": "资金从大盘龙头轮动（板块切换）至小盘，波动率可能放大",
+        "watch": "罗素2000指数（小盘股指数）相对强弱"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "法官允许对特朗普司法部反武器化基金的诉讼继续",
-        "assets": "📉 美元 承压；📉 政治不确定性 利空",
-        "chain": "法律风险增加政治不确定性，可能影响财政政策预期，利空美元",
-        "watch": "诉讼进展及特朗普民调变化"
+        "what": "法官裁定特朗普DOJ诉讼案继续",
+        "assets": "📉 美股政治敏感股 承压",
+        "chain": "监管不确定性（政策风险）增加，相关板块避险情绪升温",
+        "watch": "案件进展及国会反应"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "华尔街对美元重拾信心 沃什领导下的美联储激活多头",
       "source": "环球市场播报",
       "detail": "随着华尔街多家银行认为美元前景将出现逆转，美元本月有望创下过去一年最强月度表现之一。 包括摩根大通、美国银行和高盛集团在内的大型银行策略师对美元重拾信心...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "沃什领导美联储预期激活多头，美元信心回升",
-        "assets": "📈 美元 利多；📉 黄金 承压",
-        "chain": "鹰派美联储预期（加息或缩表）推高美元，压制大宗商品（如黄金）",
-        "watch": "沃什正式任命及首次政策表态"
+        "what": "华尔街重拾美元信心，沃什领导美联储激活多头",
+        "assets": "📈 美元 利好",
+        "chain": "美元走强压制大宗商品（以美元计价）和新兴市场货币（资金外流）",
+        "watch": "美联储官员讲话及美元指数技术位"
       }
     },
     {
-      "rank": 8,
-      "title": "6月26日隔夜要闻：黄金跌破4000美元 油价回吐战时涨幅 比特币跌破6万美元 非人工智能板块个股走强",
-      "source": "环球市场播报",
-      "detail": "市场 6月26日收盘：美股三大指数收盘涨跌不一 纳指今年二月以来首次四连跌 非人工智能板块个股走强 6月26日美股成交额前20：苹果股价收盘下跌6...",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "黄金跌破4000美元，油价回吐涨幅，比特币破6万，非AI板块走强",
-        "assets": "📉 黄金 承压；📉 比特币 承压；📈 非AI美股 利多",
-        "chain": "资金从避险资产（黄金、比特币）和AI龙头流出，转向周期股（经济复苏交易）",
-        "watch": "美股板块轮动速度及10年期美债收益率"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 7,
       "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
       "source": "CNBC",
       "detail": "On Thursday, the Nasdaq Composite fell for a fourth straight day as shares of Apple and Microsoft slid.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "周五股市聚焦：下一交易日可能影响市场的重大故事",
-        "assets": "📈 美股 波动加大",
-        "chain": "周末前仓位调整（对冲或平仓）放大波动，关注期权到期和财报预告",
-        "watch": "周五收盘前VIX（恐慌指数）及成交量"
+        "what": "周五股市故事：下一交易日潜在波动因素",
+        "assets": "📈 美股 中性",
+        "chain": "市场关注财报和宏观数据，短期波动率（VIX恐慌指数）可能上升",
+        "watch": "盘前期货及经济数据公布"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "黄金击穿4000美元 金融市场集体翻空",
       "source": "21世纪经济报道",
       "detail": "黄金已经溃不成军，在1月末见到5595.75美元/盎司的高点之后，就节节败退，其间虽然也有所反弹，但是无奈重心持续下移，目前黄金现货的价格已经击穿4000美元/盎司的支撑...",
@@ -136,9 +108,37 @@
       "score": 22,
       "insight": {
         "what": "黄金击穿4000美元，金融市场集体翻空",
-        "assets": "📉 黄金 承压；📉 全球股市 承压",
-        "chain": "黄金暴跌触发避险情绪，资金涌向美元和现金，风险资产（股票、商品）遭抛售",
-        "watch": "黄金ETF（交易所交易基金）资金流向及美元指数"
+        "assets": "📈 黄金 利好",
+        "chain": "避险情绪（恐慌性买盘）推高金价，股市和风险资产承压（资金撤离）",
+        "watch": "黄金期货持仓及美元实际利率"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "油价艰难收涨，WTI原油70美元关口失而复得，止跌了？",
+      "source": "市场资讯",
+      "detail": "来源：能源研发中心 后市观点 周四油价终于收涨，估计不少参与做多的投资者热泪盈眶：你知道过去这一周我过的是什么日子吗？ WTI原油在破了一下70美元关口以后...",
+      "lang": "zh",
+      "score": 22,
+      "insight": {
+        "what": "WTI原油70美元失而复得，油价止跌？",
+        "assets": "📈 原油 中性",
+        "chain": "技术支撑位（关键价格点）反弹，但供需过剩（供大于求）压力仍在",
+        "watch": "OPEC产量及美国库存数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "安森美半导体70亿美元收购Synaptics",
+      "source": "环球市场播报",
+      "detail": "安森美半导体公司（ON Semiconductor）周四宣布，已同意以全股票交易方式收购Synaptics，交易价值约70亿美元。这是该公司迄今为止规模最大的收购...",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "安森美半导体70亿美元收购Synaptics",
+        "assets": "📈 半导体行业 利好",
+        "chain": "行业整合（并购）提升估值，龙头股受益，但溢价收购（高价买入）可能压收购方股价",
+        "watch": "交易监管审批及双方股东投票"
       }
     }
   ]
