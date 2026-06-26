@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 23:01",
+  "updateTime": "2026-06-26 23:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "标普500持平，芯片股因OpenAI推迟IPO走弱",
-        "assets": "📉 美股芯片股 承压",
-        "chain": "AI融资放缓（资本开支减少）拖累半导体需求预期，利空英伟达等",
-        "watch": "OpenAI IPO时间表更新及芯片股财报"
+        "what": "标普500持平，芯片股因OpenAI消息走弱",
+        "assets": "📉 芯片股（AMD、英伟达）承压",
+        "chain": "科技股情绪受IPO延迟影响，资金或轮动至防御板块（公用事业、医疗）",
+        "watch": "今晚纳斯达克100期货走势"
       }
     },
     {
@@ -21,124 +21,112 @@
       "source": "CNBC",
       "detail": "Here are Friday's biggest calls on Wall Street.",
       "lang": "en",
-      "score": 53,
-      "insight": {
-        "what": "分析师密集更新大科技股评级，涵盖SpaceX、英伟达等",
-        "assets": "📈 美股科技龙头 分化",
-        "chain": "评级调整引发资金轮动（板块间资金转移），短期波动加剧",
-        "watch": "各股目标价变化及机构持仓数据"
-      }
+      "score": 53
     },
     {
       "rank": 3,
+      "title": "OpenAI is reportedly delaying its IPO. Here's when Kalshi traders think it will announce ",
+      "source": "CNBC",
+      "detail": "Speculators think the OpenAI IPO will come early next year, with only one-in-three odds it happens in 2026 but a high likelihood it is done by June 2027.",
+      "lang": "en",
+      "score": 50,
+      "insight": {
+        "what": "燧原科技IPO隐忧：四年亏59亿，债务飙升",
+        "assets": "📉 AI芯片板块 承压",
+        "chain": "亏损扩大引发对AI初创公司现金流担忧，利空一级市场估值（融资环境恶化）",
+        "watch": "公司招股书更新及行业融资新闻"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4%",
       "source": "CNBC",
       "detail": "President Donald Trump's economic advisors are giving Warsh space, as the new Fed chairman, on interest rates as the president repeats calls to cut.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普向美联储主席凯文·沃什施压，通胀超4%",
-        "assets": "📉 美元 承压, 📈 美债收益率 上行",
-        "chain": "政治干预降息预期（利率下降空间受限），风险资产承压",
-        "watch": "美联储利率决议及CPI数据"
+        "what": "特朗普施压美联储主席，通胀超4%",
+        "assets": "📈 美元指数 承压；📉 美债收益率 上行",
+        "chain": "政治干预降息（借钱成本降低）预期升温，利空美元，利好黄金（避险资产）",
+        "watch": "本周美联储官员讲话及CPI数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "报道：OpenAI倾向于等到2027年再进行IPO",
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI倾向2027年IPO，延迟上市计划",
-        "assets": "📉 AI概念股 承压",
-        "chain": "IPO推迟降低短期市场情绪（投资者信心），利空初创AI估值",
-        "watch": "OpenAI融资轮及竞争对手上市动态"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash' for the company, lawsuit says",
-      "source": "CNBC",
-      "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
-      "lang": "en",
-      "score": 40,
-      "insight": {
-        "what": "Red Lobster促销活动被称灾难，遭诉讼",
-        "assets": "📉 餐饮股 利空",
-        "chain": "成本失控（促销亏损）导致盈利预警，拖累消费板块",
-        "watch": "公司财报及同店销售数据"
+        "what": "OpenAI推迟IPO至2027年",
+        "assets": "📉 AI概念股（如英伟达）承压",
+        "chain": "AI融资预期降温，拖累芯片需求（算力军备竞赛放缓），利空半导体ETF",
+        "watch": "OpenAI估值变化及一级市场融资动态"
       }
     },
     {
       "rank": 6,
+      "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash' for the company, lawsuit says",
+      "source": "CNBC",
+      "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
+      "lang": "en",
+      "score": 40
+    },
+    {
+      "rank": 7,
       "title": "首次重大资产重组！股价却跌停……",
       "source": "市场资讯",
       "detail": "来源：IPO日报 6月25日晚间，*ST帅电（605336.SH）发布公告称，公司计划以支付现金方式收购杭州惠嘉信息科技有限公司（简称“惠嘉科技”）100%股权，惠嘉科技的初步估值为4...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "重大资产重组公告后股价跌停",
+        "what": "A股公司重组消息后股价跌停",
         "assets": "📉 A股重组概念股 承压",
-        "chain": "市场对重组效果存疑（估值泡沫），引发恐慌性抛售",
-        "watch": "重组方案细节及监管审批进展"
+        "chain": "市场对重组预期落空，资金出逃，或引发小盘股流动性风险（抛售连锁反应）",
+        "watch": "后续重组进展公告及龙虎榜资金流向"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "海光芯正港股上市在即：踩中AI光模块风口 营收两年涨七倍 但JDM模式难增利 估值对标头部企业或欠底气",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 在AI算力需求爆发式增长的浪潮中，光模块作为数据中心高速互联的核心器件，已成为A股和港股市场最炙手可热的赛道之一...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "海光芯港股上市在即，营收增长但JDM模式盈利存疑",
-        "assets": "📈 AI光模块 利好, 📉 海光芯 估值承压",
-        "chain": "JDM模式（联合设计制造）利润率低，对标龙头估值过高",
-        "watch": "港股IPO定价及首日表现"
+        "what": "海光芯港股上市，营收增长但利润存疑",
+        "assets": "📈 光模块板块 短期利好；📉 公司估值 承压",
+        "chain": "JDM模式（联合开发制造）利润率低，对标头部企业估值过高，上市后或回调",
+        "watch": "首日开盘价及机构认购情况"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "燧原科技IPO隐忧：四年多亏59亿元 今年一季度债务飙升",
       "source": "",
       "detail": "来源：雷达Finance 雷达财经出品 文|李亦辉 编|深海 6月15日，上海燧原科技股份有限公司（以下简称“燧原科技”）科创板IPO成功过会。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "燧原科技IPO隐忧：四年亏59亿，债务飙升",
-        "assets": "📉 AI芯片股 承压",
-        "chain": "亏损扩大（烧钱模式）增加融资风险，利空板块估值",
-        "watch": "IPO招股书更新及现金流数据"
+        "what": "Red Lobster无限虾活动导致财务危机",
+        "assets": "📉 餐饮股（如Darden Restaurants）承压",
+        "chain": "成本失控引发对促销策略的质疑，或拖累消费板块（可选消费疲软）",
+        "watch": "公司财报及关店计划公告"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "女掌门涉嫌犯罪被拘，氨基酸龙头IPO临门折戟",
       "source": "",
       "detail": "来源：雷达Finance 雷达财经出品 文|丁禹 编|孟帅 距离登陆港股只差临门一脚，一则实际控制人被拘留的消息，却将氨基酸龙头华恒生物推向舆论的风口浪尖。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "氨基酸龙头女掌门涉罪被拘，IPO搁浅",
-        "assets": "📉 氨基酸板块 利空",
-        "chain": "管理层风险（公司治理问题）引发信任危机，拖累行业",
-        "watch": "监管调查结果及公司替换管理层动态"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "韩国股市怎么了？大起大落的一周让韩国AI股行情乱了阵脚",
-      "source": "环球市场播报",
-      "detail": "韩国股市在短短一周内从狂热迅速转向焦虑，这场剧烈震荡暴露出AI行情究竟有多脆弱。 韩国Kospi指数周一一度突破9000点，创下历史新高；次日暴跌10%...",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "韩国AI股一周大起大落，市场混乱",
-        "assets": "📉 韩国AI股 承压, 📉 韩国综合指数 波动",
-        "chain": "情绪驱动（投机资金进出）导致高波动，利空长期配置",
-        "watch": "韩国央行政策及AI相关出口数据"
+        "what": "氨基酸龙头女掌门被拘，IPO终止",
+        "assets": "📉 氨基酸板块 承压",
+        "chain": "管理层风险暴露，拖累生物医药IPO信心，或引发监管收紧预期（合规审查）",
+        "watch": "公司公告及证监会调查进展"
       }
     }
   ]
