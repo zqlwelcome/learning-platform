@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 05:35",
+  "updateTime": "2026-06-27 05:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀广泛，可能需加息",
-        "assets": "📉 美股科技股 利空；📈 美元指数 利好",
-        "chain": "加息预期推高短端利率（短期借贷成本），压制成长股估值，资金或转向防御板块",
-        "watch": "下次CPI（消费者物价指数）数据及美联储点阵图"
+        "what": "卡什卡里称通胀广泛，美联储或需加息",
+        "assets": "📉 美股大盘 承压；📈 美元指数 走强",
+        "chain": "加息预期推高短端利率（短期借贷成本），压制风险资产（股票/加密货币）估值",
+        "watch": "本周CPI（消费者物价指数）数据及点阵图（利率预测）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "Oracle股价创2001年来最差周，AI融资担忧加剧",
-        "assets": "📉 美股科技股 利空；📉 AI概念股 承压",
-        "chain": "AI资本支出（投资）不确定性引发抛售，云服务板块联动下跌，资金撤离高估值成长股转向防御",
-        "watch": "Oracle财报电话会及AI行业融资公告"
+        "what": "卡什卡里再次强调广泛通胀，加息可能性上升",
+        "assets": "📉 美债 利空；📉 黄金 承压",
+        "chain": "实际利率（名义利率减通胀）走高，削弱黄金持有价值，资金回流美元",
+        "watch": "美联储官员讲话及利率期货定价变化"
       }
     },
     {
@@ -35,7 +35,13 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "OpenAI未举行IPO前会议，上市时间未定",
+        "assets": "📉 AI概念股 利空；📈 加密AI代币 承压",
+        "chain": "IPO延迟打击市场对AI商业化信心，资金可能转向已上市AI龙头（如英伟达）",
+        "watch": "OpenAI官方声明或SEC（美国证监会）文件"
+      }
     },
     {
       "rank": 4,
@@ -45,10 +51,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普施压美联储主席，通胀超4%",
-        "assets": "📉 美元指数 承压；📈 黄金 利好",
-        "chain": "政治干预削弱央行独立性（美联储自主决策），市场押注政策宽松，实际利率（名义利率减通胀）走低",
-        "watch": "美联储下次利率决议及白宫对央行人事的公开评论"
+        "what": "特朗普施压美联储主席Warsh，通胀超4%",
+        "assets": "📉 美元 承压；📈 美债 利好",
+        "chain": "政治干预削弱美联储独立性，市场押注降息（借钱成本降低），长端利率下行",
+        "watch": "Warsh回应及联储独立性声明"
       }
     },
     {
@@ -60,9 +66,9 @@
       "score": 46,
       "insight": {
         "what": "美元指数微跌，交易员下调加息预期",
-        "assets": "📉 美元指数 承压；📈 新兴市场货币 利好",
-        "chain": "加息预期降温压低美债收益率（国债利息），套利交易（借低息货币投高息资产）平仓，资金流向风险资产",
-        "watch": "美联储官员讲话及联邦基金期货（利率预测工具）变化"
+        "assets": "📉 美元 走弱；📈 新兴市场货币 利好",
+        "chain": "加息预期降温降低美元吸引力，资金流向非美资产（如亚洲股市/大宗商品）",
+        "watch": "美联储会议纪要及非农就业数据"
       }
     },
     {
@@ -73,10 +79,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI表示尚未召开IPO前会议或设定时间表",
-        "assets": "📉 AI概念股 承压；📉 加密市场 中性偏空",
-        "chain": "IPO（首次公开募股）延迟削弱AI融资热度，风险偏好下降，资金或回流传统科技龙头",
-        "watch": "OpenAI官方IPO时间声明及Anthropic上市进展"
+        "what": "OpenAI未召开IPO前沟通会，上市时间不确定",
+        "assets": "📉 AI板块 利空；📈 竞争对手（如Anthropic） 利好",
+        "chain": "IPO推迟减少市场供应压力，但削弱行业融资信心，资金可能流向已上市AI公司",
+        "watch": "OpenAI估值调整及融资新闻"
       }
     },
     {
@@ -88,9 +94,9 @@
       "score": 45,
       "insight": {
         "what": "OpenAI考虑最早2027年IPO，或晚于Anthropic",
-        "assets": "📉 AI概念股 承压；📈 竞品Anthropic 利好",
-        "chain": "IPO窗口延后暗示AI融资环境收紧，市场注意力转向已上市或更快IPO的竞争对手",
-        "watch": "Anthropic上市时间表及AI行业风投（风险投资）数据"
+        "assets": "📉 加密代币（如Worldcoin） 承压；📈 谷歌 利好",
+        "chain": "上市时间线拉长降低短期流动性溢价，利好拥有成熟AI业务的巨头（如谷歌）",
+        "watch": "Anthropic上市进展及AI监管动态"
       }
     },
     {
@@ -101,10 +107,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI推迟IPO，Kalshi交易员预判官宣时间",
-        "assets": "📉 AI概念股 承压；📉 加密市场 中性偏空",
-        "chain": "事件驱动型交易（基于消息面做短线）活跃，波动率（价格变动幅度）上升，期权（选择权合约）隐含波动率或走高",
-        "watch": "Kalshi预测市场赔率变化及OpenAI官方声明"
+        "what": "OpenAI推迟IPO，Kalshi交易员预判时间",
+        "assets": "📉 科技IPO板块 利空；📈 私募股权 利好",
+        "chain": "IPO延迟增加二级市场供给紧张，推动私募市场估值溢价（未上市企业估值上升）",
+        "watch": "Kalshi预测合约价格及SEC审批信号"
       }
     },
     {
@@ -116,9 +122,9 @@
       "score": 36,
       "insight": {
         "what": "卡什卡里预计美联储今年加息一次",
-        "assets": "📉 美股整体 利空；📈 美元指数 利好",
-        "chain": "加息预期强化利率路径（未来利率走势），信用利差（企业债与国债收益差）可能扩大，金融股相对受益",
-        "watch": "美联储点阵图及非农（就业数据）报告"
+        "assets": "📉 美股 承压；📈 银行股 利好",
+        "chain": "加息提升净息差（银行利润来源），但压制成长股估值，资金从科技转向金融",
+        "watch": "美联储6月会议利率决议及点阵图"
       }
     },
     {
@@ -127,7 +133,13 @@
       "source": "CNBC",
       "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "甲骨文股价创2001年来最差周，AI融资担忧加剧",
+        "assets": "📉 甲骨文 利空；📉 云计算板块 承压",
+        "chain": "AI资本开支（建数据中心）回报率存疑，拖累相关硬件（英伟达/AMD）及云服务商",
+        "watch": "甲骨文财报中云业务增速及AI客户支出指引"
+      }
     }
   ]
 }
