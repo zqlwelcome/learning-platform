@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 02:15",
+  "updateTime": "2026-06-27 02:18",
   "news": [
     {
       "rank": 1,
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "OpenAI尚未举行IPO前投资者会议，也未设定时间表。",
+        "assets": "📉 科技初创公司估值 承压；📈 私有二级市场流动性 存疑",
+        "chain": "IPO推迟意味着市场对AI独角兽的估值预期将降温，短期减少科技股IPO炒作热度。同时，一级市场投资者可能转向其他AI公司，但缺乏明确时间表会增加不确定性。",
+        "watch": "关注OpenAI是否启动正式投资者路演，以及是否发布财务数据或盈利指引。"
+      }
     },
     {
       "rank": 3,
@@ -43,7 +49,13 @@
       "source": "环球市场播报",
       "detail": "核心要点 据消息人士透露，OpenAI 尚未对外公布正式上市时间表，也未召开 IPO 前投资者沟通会议，商议潜在发行定价与市场认购需求。",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "OpenAI未召开IPO前会议，上市时间未定",
+        "assets": "📉 AI概念股 承压；📉 科技IPO市场 情绪降温",
+        "chain": "IPO延迟→市场对AI变现信心减弱→拖累科技板块估值（PE倍数）",
+        "watch": "OpenAI是否公布正式IPO时间表"
+      }
     },
     {
       "rank": 5,
@@ -67,10 +79,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "花旗削减科技股持仓，称AI赛道难全员盈利",
-        "assets": "📉 美股科技股 利空；📈 公用事业股 防御性利好",
-        "chain": "资金轮动（从热门板块转向防御性板块）→科技股资金流出→市场波动率（价格波动程度）上升",
-        "watch": "花旗是否进一步减持或调仓至价值股（低估值股票）"
+        "what": "Kalshi交易员押注OpenAI推迟IPO，预判其官宣时间。",
+        "assets": "📉 OpenAI相关衍生品 波动；📈 预测市场合约 活跃",
+        "chain": "Kalshi作为预测市场，其合约价格反映市场对事件概率的共识。押注推迟表明交易员认为短期内官宣可能性低，可能引发对OpenAI估值和融资节奏的重新评估。",
+        "watch": "关注Kalshi合约到期前后的价格变化，以及是否有新的官方声明或监管动态。"
       }
     },
     {
@@ -79,7 +91,13 @@
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "OpenAI否认近期IPO，考虑2027年上市",
+        "assets": "📉 AI概念股 利空；📈 竞争对手Anthropic 利好",
+        "chain": "IPO推迟→一级市场（未上市股权）流动性降低→AI赛道估值泡沫（过高定价）可能降温",
+        "watch": "OpenAI二级市场估值（私下交易价格）变化"
+      }
     },
     {
       "rank": 8,
@@ -87,7 +105,13 @@
       "source": "环球市场播报",
       "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美联储官员卡什卡里称通胀广泛，可能需加息",
+        "assets": "📈 美元指数 利好；📉 美股科技股 承压",
+        "chain": "加息预期升温→美债收益率（长期债券利息）上升→成长股（高估值股票）估值压缩（价格下跌）",
+        "watch": "下周CPI（消费者物价指数）数据是否超预期"
+      }
     },
     {
       "rank": 9,
@@ -95,7 +119,13 @@
       "source": "CNBC",
       "detail": "The tech trade is becoming rocky, and Citi thinks it's time for investors to trim positions in the sector.",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "花旗削减科技股持仓，称AI赛道难全员盈利",
+        "assets": "📉 美股科技股 利空；📈 公用事业股 防御性利好",
+        "chain": "资金轮动（从热门板块转向防御性板块）→科技股资金流出→市场波动率（价格波动程度）上升",
+        "watch": "花旗是否进一步减持或调仓至价值股（低估值股票）"
+      }
     },
     {
       "rank": 10,
