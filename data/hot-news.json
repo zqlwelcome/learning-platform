@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 19:21",
+  "updateTime": "2026-06-26 19:26",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美联储加息预期降温，美元指数小幅下跌",
-        "assets": "📉 美元指数 承压",
-        "chain": "美元走弱利好大宗商品（如黄金、原油），风险资产（股票）可能反弹。",
-        "watch": "本周美国CPI数据"
+        "what": "美联储加息预期降温，美元指数小跌",
+        "assets": "📉 美元指数 承压，📈 黄金 利好",
+        "chain": "美元走弱推高非美货币（如欧元），大宗商品（以美元计价）吸引力上升",
+        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "美国科技股基金遭遇创纪录资金外流",
-        "assets": "📉 美股科技股 利空",
-        "chain": "资金流出加剧科技股回调，可能扩散到成长股（高估值板块），避险情绪升温。",
-        "watch": "下周FOMC会议（美联储议息决议）"
+        "what": "美银：美股3月来首次资金净流出，科技基金外流创纪录",
+        "assets": "📉 美股科技股 承压，📉 纳斯达克指数 利空",
+        "chain": "资金流出科技股可能轮动至防御板块（如公用事业），或加剧市场波动率（VIX恐慌指数）",
+        "watch": "下周科技巨头财报及资金流向数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "Red Lobster促销活动被指‘灾难’，面临诉讼",
-        "assets": "📉 餐饮行业 利空",
-        "chain": "经营问题打压消费板块信心，可能拖累相关ETF（如XLP），但个股影响有限。",
-        "watch": "公司季度财报"
+        "what": "红龙虾无限虾促销被诉称财务灾难",
+        "assets": "📉 红龙虾母公司 利空，📉 餐饮板块 情绪偏空",
+        "chain": "促销策略失误暴露成本控制问题，可能引发市场对类似促销模式（自助餐）的担忧",
+        "watch": "公司财报及同店销售数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "意大利监管调查微软365涨价",
-        "assets": "📉 微软 利空",
-        "chain": "监管风险增加科技巨头合规成本，可能引发其他欧盟国家跟风调查。",
-        "watch": "欧盟反垄断裁决进展"
+        "what": "意大利监管机构因涨价调查微软365",
+        "assets": "📉 微软 承压，📉 欧洲科技股 情绪偏空",
+        "chain": "反垄断调查可能影响微软云服务定价策略，并引发其他欧盟国家跟进（监管风险溢价）",
+        "watch": "调查进展及微软是否调整定价"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 38,
       "insight": {
-        "what": "美联储官员对通胀看法分歧",
-        "assets": "📉 美元指数 承压",
-        "chain": "鸽派（支持宽松）言论抵消鹰派（支持紧缩）影响，市场押注政策转向，利好美债。",
-        "watch": "鲍威尔讲话"
+        "what": "芝加哥联储主席称通胀过高，纽约联储主席认为压力缓解",
+        "assets": "📉 美债收益率 波动，📈 美元指数 短期偏强",
+        "chain": "官员分歧暗示美联储内部分裂，市场对降息（借钱成本降低）预期可能反复",
+        "watch": "美联储会议纪要及点阵图（利率预测）"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "公司重大资产重组但股价跌停",
-        "assets": "📉 A股重组概念 利空",
-        "chain": "市场解读为利好出尽或重组方案不达预期，可能拖累同板块个股。",
-        "watch": "重组细节公告"
+        "what": "首次重大资产重组公告后股价跌停",
+        "assets": "📉 该A股公司 利空，📉 重组概念股 情绪承压",
+        "chain": "市场对重组方案或定价不满，可能引发散户抛售（流动性挤兑），并拖累同板块",
+        "watch": "公司后续澄清公告及复牌后走势"
       }
     },
     {
@@ -93,52 +93,52 @@
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "法官阻止特朗普限制学生贷款规定",
-        "assets": "📈 教育板块 利好",
-        "chain": "政策不确定性降低，利好学生贷款相关公司和教育股，但财政压力增加。",
-        "watch": "最高法院上诉动向"
+        "what": "法官阻止特朗普限制部分研究生贷款规则",
+        "assets": "📈 教育板块 利好，📈 学生贷款相关ETF 利好",
+        "chain": "政策松绑提振高等教育需求，利好学校及贷款服务商，但增加联邦财政赤字（债务风险）",
+        "watch": "后续上诉判决及国会反应"
       }
     },
     {
       "rank": 8,
+      "title": "森合高科IPO状态变更为注册",
+      "source": "",
+      "detail": "根据北交所最新披露的信息，2026年6月26日，广西森合高新科技股份有限公司IPO的状态从提交注册变更为注册。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "森合高科IPO状态变更为注册",
+        "assets": "📈 A股新股市场 情绪偏多，📈 森合高科 利好",
+        "chain": "注册生效意味着上市临近，可能吸引打新（申购新股）资金，但增加市场供给压力",
+        "watch": "发行定价及首日表现"
+      }
+    },
+    {
+      "rank": 9,
       "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
       "source": "CNBC",
       "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while digesting a flurry of news from the region.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "阿曼附近货轮遇袭后油价跌破70美元",
-        "assets": "📉 原油 利空",
-        "chain": "地缘风险（中东冲突）被需求担忧（全球经济放缓）盖过，油价下行压力持续。",
-        "watch": "EIA库存数据（美国能源信息署库存报告）"
+        "what": "美国原油跌破70美元，阿曼附近货船遭袭后继续下跌",
+        "assets": "📉 原油 承压，📉 能源股 利空",
+        "chain": "地缘事件（袭击）未提振油价，反映需求担忧（经济衰退）主导，或拖累产油国货币（如加元）",
+        "watch": "OPEC+产量决策及美国库存数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Nike's turnaround 'not enough' to remain bullish on the stock, KeyBanc says",
       "source": "CNBC",
       "detail": "Nike has made some progress under its \"Win Now\" strategy, but signs of opportunities to drive considerable upside to the stock are still missing, per KeyBanc.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "KeyBanc称耐克转型不足，下调评级",
-        "assets": "📉 耐克 利空",
-        "chain": "消费疲软信号，拖累运动服饰板块，可能影响零售ETF（如XRT）。",
-        "watch": "耐克最新季度销售数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "阿曼附近货轮遇袭后油价再度下挫，美国原油跌破每桶70美元",
-      "source": "环球市场播报",
-      "detail": "核心要点一名美国官员向 MS NOW 证实，霍尔木兹海峡阿曼海岸附近的货轮袭击事件系伊朗所为。美伊双方就谅解备忘录中涉及的资金使用问题产生分歧...",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "阿曼货轮遇袭后油价再度下挫",
-        "assets": "📉 原油 利空",
-        "chain": "市场对供应中断反应钝化，焦点转向需求疲软，能源股（XLE）承压。",
-        "watch": "美国ISM制造业PMI（采购经理人指数）"
+        "what": "KeyBanc称耐克转型不足以维持看涨",
+        "assets": "📉 耐克 承压，📉 运动服饰板块 情绪偏空",
+        "chain": "评级下调可能引发机构减仓，并拖累供应链公司（如鞋类代工厂）",
+        "watch": "耐克下季度财报及库存去化进度"
       }
     }
   ]
