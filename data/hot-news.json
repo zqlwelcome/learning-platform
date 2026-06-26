@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 11:21",
+  "updateTime": "2026-06-26 11:25",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "美联储加息预期降温，黄金止跌回升",
         "assets": "📈 黄金 利好",
-        "chain": "降息预期（借钱成本降低）推高通胀预期，利多黄金；美元走弱则进一步支撑金价",
-        "watch": "美国PCE（个人消费支出）数据及美联储官员讲话"
+        "chain": "降息预期升温→美元走弱→黄金避险需求增加（risk-on情绪）",
+        "watch": "美联储下次议息会议（FOMC）声明"
       }
     },
     {
@@ -24,69 +24,83 @@
       "score": 38,
       "insight": {
         "what": "Goolsbee称通胀过高，Williams认为压力缓解",
-        "assets": "📉 美股 承压",
-        "chain": "鹰派言论（偏紧缩）压制降息预期，美债收益率（借钱成本）上升，利空成长股",
-        "watch": "周五PCE数据是否超预期"
+        "assets": "📉 美债 利空",
+        "chain": "鹰派（主张收紧政策）言论→加息预期波动→美债收益率短期承压",
+        "watch": "PCE（个人消费支出）物价指数数据"
       }
     },
     {
       "rank": 3,
+      "title": "880亿！“果链女王”又收获一个IPO",
+      "source": "市场资讯",
+      "detail": "来源：创业邦 ‘IPO全观察’栏目聚焦首次公开募股公司，报道企业家创业经历与成功故事，剖析公司商业模式和经营业绩，并揭秘VC、CVC等各方资本力量对公司的投资加作者...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "果链女王收获880亿IPO",
+        "assets": "📈 苹果供应链 利好",
+        "chain": "IPO成功→苹果产业链融资活跃→相关股票估值提升（PE扩张）",
+        "watch": "新股上市首日涨幅"
+      }
+    },
+    {
+      "rank": 4,
       "title": "美联储转向或将引爆黄金深度回调，短期调整行情难结束",
       "source": "滚动播报",
       "detail": "文章来源：汇通财经 当前国际现货黄金价格暂时在每盎司4000美元附近位置展缓跌势，但市场专业交易人士给出明确预警，美元走强带来的多重利空压制持续发酵...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美联储转向或将引爆黄金深度回调",
+        "what": "美联储转向或引爆黄金深度回调",
         "assets": "📉 黄金 利空",
-        "chain": "若降息推迟，实际利率（名义利率减通胀）上升，黄金持有成本增加，触发多头平仓",
-        "watch": "CME FedWatch（利率期货概率）的降息预期变化"
+        "chain": "降息预期过度消化→实际利率反弹→黄金多头平仓（获利了结）",
+        "watch": "COMEX（纽约商品交易所）黄金期货持仓变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Ariel’s John Rogers likes these small-cap names as the market rally broadens",
       "source": "CNBC",
       "detail": "Ariel Investments' John Rogers highlighted for-profit education company Covista as a small-cap stock he's currently bullish on.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "Ariel看好小盘股，市场涨势扩大",
+        "what": "John Rogers看好小盘股，市场涨势扩大",
         "assets": "📈 美股小盘股 利好",
-        "chain": "资金从科技龙头轮动至小盘股（市值较小的公司），反映经济软着陆（不衰退）预期",
-        "watch": "罗素2000（小盘股指数）相对标普500表现"
+        "chain": "资金从大盘股轮动→小盘股流动性改善→Russell 2000（小盘股指数）跑赢",
+        "watch": "小盘股相对大盘股的表现（罗素2000/标普500比值）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Judge says lawsuit against Trump DOJ 'anti-weaponization' fund will proceed",
       "source": "CNBC",
       "detail": "Acting Attorney General Todd Blanche originally set up the fund as part of a settlement of a lawsuit by President Donald Trump against the IRS.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "法官裁定马斯克需就抽奖案出庭",
-        "assets": "📉 特斯拉 承压",
-        "chain": "法律风险增加，市场担忧马斯克管理精力分散，特斯拉股价可能短期波动",
-        "watch": "案件后续是否达成和解或影响特斯拉运营"
+        "what": "诉讼指控特朗普司法部'反武器化'基金",
+        "assets": "📉 法律类ETF 利空",
+        "chain": "政治不确定性增加→风险溢价上升→相关行业监管风险（regulatory risk）",
+        "watch": "案件进展及裁决时间表"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "央行决定授权中国银行（香港）雅加达分行担任印度尼西亚人民币清算行",
       "source": "金融一线",
       "detail": "6月26日金融一线消息，据央行公告，根据《中国人民银行与印度尼西亚银行关于建立人民币清算安排的合作备忘录》，中国人民银行决定授权中国银行（香港）有限公司雅加达分行...",
       "lang": "zh",
       "score": 28,
       "insight": {
-        "what": "央行授权中行雅加达分行担任印尼人民币清算行",
-        "assets": "📈 人民币 利好",
-        "chain": "人民币国际化（跨境使用）加速，降低对美元依赖，利好中印尼贸易结算",
-        "watch": "人民币跨境支付系统（CIPS）交易量"
+        "what": "央行授权中银香港担任印尼人民币清算行",
+        "assets": "📈 人民币国际化 利好",
+        "chain": "清算行落地→跨境贸易结算便利→人民币在东盟使用量上升",
+        "watch": "印尼央行人民币储备变动"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "央行决定授权南非标准银行和中国工商银行担任非洲人民币联合清算行",
       "source": "金融一线",
       "detail": " 6月26日金融一线消息，据央行公告，为促进中非贸易投资便利化，中国人民银行决定授权南非标准银行有限公司和中国工商银行股份有限公司担任非洲人民币联合清算行。",
@@ -94,51 +108,37 @@
       "score": 28,
       "insight": {
         "what": "央行授权南非标准银行和工行担任非洲人民币联合清算行",
-        "assets": "📈 人民币 利好",
-        "chain": "拓宽非洲人民币清算网络，提升人民币在非洲大宗商品（如矿产）定价权",
-        "watch": "中非贸易中人民币结算占比"
+        "assets": "📈 人民币国际化 利好",
+        "chain": "非洲清算网络扩展→中非贸易人民币结算占比提升→离岸人民币流动性改善",
+        "watch": "非洲人民币清算量月度数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
       "source": "CNBC",
       "detail": "On Thursday, the Nasdaq Composite fell for a fourth straight day as shares of Apple and Microsoft slid.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美股下周可能波动，关注大事件",
+        "what": "周五股市故事：下个交易日可能影响市场",
         "assets": "📈 美股 中性",
-        "chain": "财报季和宏观数据（如GDP（国内生产总值））将决定短期方向，隐含波动率（VIX恐慌指数）可能上升",
-        "watch": "标普500指数关键阻力位和支撑位"
+        "chain": "情绪驱动交易→短期波动加大→关注财报季（earnings season）催化剂",
+        "watch": "标普500期货开盘价"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "美法官裁定马斯克需就“百万美元抽奖骗局”的集体诉讼出庭作证",
       "source": "环球市场播报",
       "detail": " 美国一位联邦法官周四裁定埃隆·马斯克需在两起拟议的集体诉讼中宣誓作证。这两起诉讼指控马斯克在2024年大选前，通过承诺每天发放100万美元的奖金来欺骗摇摆州的选民。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美法官裁定马斯克需就抽奖案出庭",
-        "assets": "📉 特斯拉 承压",
-        "chain": "法律纠纷持续，可能影响投资者信心，关注是否涉及公司治理问题",
-        "watch": "特斯拉股价是否跌破200日均线"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "光大期货0626黄金点评：黄金重返4000美元/盎司，反弹可持续吗？",
-      "source": "市场资讯",
-      "detail": "隔夜市场现货黄金涨0.64%，重回4000美元/盎司上方，SHFE黄金上涨1.17%。美国经济数据公布，一季度GDP终值上修至2.1%，5月PCE物价指数同比上升4.1%，环比上涨0.4%...",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "黄金重返4000美元，反弹可持续性存疑",
-        "assets": "📈 黄金 中性",
-        "chain": "短期反弹受避险情绪和美元走弱支撑，但美联储鹰派可能限制涨幅，需看技术面（图表走势）",
-        "watch": "黄金ETF（交易所交易基金）资金流入及美元指数"
+        "what": "马斯克需就百万美元抽奖骗局诉讼出庭",
+        "assets": "📉 特斯拉 利空",
+        "chain": "法律风险暴露→马斯克个人声誉受损→特斯拉股价承压（负面舆情）",
+        "watch": "诉讼赔偿金额及和解可能性"
       }
     }
   ]
