@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-26 23:30",
+  "updateTime": "2026-06-26 23:36",
   "news": [
     {
       "rank": 1,
@@ -9,50 +9,58 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "标普500持平，芯片股因OpenAI IPO推迟走弱",
-        "assets": "📉 美股芯片股 承压；📈 美股科技股 中性偏弱",
-        "chain": "IPO推迟暗示AI商业化预期降温，半导体需求（芯片订单）可能放缓",
+        "what": "OpenAI推迟IPO至2027年，芯片股承压",
+        "assets": "📉 美股芯片股 利空；📉 AI概念股 承压",
+        "chain": "延迟IPO降低AI融资预期，压制芯片需求（半导体订单减少），拖累纳指",
         "watch": "OpenAI官方IPO时间表声明"
       }
     },
     {
       "rank": 2,
+      "title": "OpenAI hasn't held pre-IPO investor meetings or set timeline yet, sources say",
+      "source": "CNBC",
+      "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
+      "lang": "en",
+      "score": 50
+    },
+    {
+      "rank": 3,
       "title": "OpenAI is reportedly delaying its IPO. Here's when Kalshi traders think it will announce ",
       "source": "CNBC",
       "detail": "Speculators think the OpenAI IPO will come early next year, with only one-in-three odds it happens in 2026 but a high likelihood it is done by June 2027.",
       "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "氨基酸龙头女掌门被拘，IPO临门折戟",
-        "assets": "📉 中国生物医药股 利空；📉 创业板 承压",
-        "chain": "高管法律风险（刑事拘留）导致公司治理（管理层稳定性）受质疑，IPO暂停影响板块情绪",
-        "watch": "案件进展及公司管理层变动"
-      }
+      "score": 50
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4%",
       "source": "CNBC",
       "detail": "President Donald Trump's economic advisors are giving Warsh space, as the new Fed chairman, on interest rates as the president repeats calls to cut.",
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普施压美联储主席，通胀超4%",
-        "assets": "📉 美元 承压；📈 美债 利好（降息预期升温）",
-        "chain": "政治干预（非独立决策）削弱美联储信誉，市场押注提前降息（借钱成本降低），推高风险资产",
-        "watch": "美联储下次议息会议声明及通胀数据"
+        "what": "特朗普施压美联储主席Warsh，通胀超4%",
+        "assets": "📉 美元 承压；📈 美债 利好；📈 黄金 利好",
+        "chain": "政治干预降息（借钱成本降低）预期升温，实际利率下行，利好长债和贵金属",
+        "watch": "美联储下次会议利率决策"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "OpenAI据悉考虑最早于2027年IPO 或晚于Anthropic上市",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，OpenAI考虑最早于2027年进行首次公开募股（IPO）。这意味着该公司可能会在AI竞争对手Anthropic PBC之后上市。",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "燧原科技IPO隐忧：四年亏59亿，债务飙升",
+        "assets": "📉 AI芯片股 利空；📉 科创板 承压",
+        "chain": "高亏损+债务恶化（财务风险）压低IPO估值，拖累同类未盈利科技股信心",
+        "watch": "IPO定价及认购倍数"
+      }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "据报道OpenAI推迟 IPO，Kalshi交易所交易员预判其官宣时间",
       "source": "环球市场播报",
       "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
@@ -60,7 +68,7 @@
       "score": 45
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "报道：OpenAI倾向于等到2027年再进行IPO",
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
@@ -68,7 +76,7 @@
       "score": 45
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash' for the company, lawsuit says",
       "source": "CNBC",
       "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
@@ -76,45 +84,31 @@
       "score": 40
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "海光芯正港股上市在即：踩中AI光模块风口 营收两年涨七倍 但JDM模式难增利 估值对标头部企业或欠底气",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院/港市多维镜 作者：喜乐 在AI算力需求爆发式增长的浪潮中，光模块作为数据中心高速互联的核心器件，已成为A股和港股市场最炙手可热的赛道之一...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "海光芯港股上市，AI光模块风口但盈利存疑",
-        "assets": "📈 AI光模块股 短期利好；📉 港股科技股 中性（估值高企）",
-        "chain": "JDM模式（联合开发制造）利润率低（毛利薄），市场对AI硬件估值（市盈率）重新定价",
-        "watch": "海光芯首日股价及毛利率数据"
+        "what": "海光芯港股上市，AI光模块营收暴涨",
+        "assets": "📈 港股AI光模块 利好；📈 光通信板块 利好",
+        "chain": "IPO吸筹（资金流入）验证AI硬件需求，但JDM模式（联合设计制造）利润薄，估值依赖行业景气",
+        "watch": "上市首日涨幅及市盈率"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "燧原科技IPO隐忧：四年多亏59亿元 今年一季度债务飙升",
       "source": "",
       "detail": "来源：雷达Finance 雷达财经出品 文|李亦辉 编|深海 6月15日，上海燧原科技股份有限公司（以下简称“燧原科技”）科创板IPO成功过会。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "燧原科技四年亏59亿，债务飙升IPO隐忧",
-        "assets": "📉 中国AI芯片股 利空；📉 半导体板块 承压",
-        "chain": "持续亏损（现金流为负）和债务（借款增加）引发市场对AI初创公司估值泡沫（过高股价）担忧",
-        "watch": "燧原科技招股书更新及现金流数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "女掌门涉嫌犯罪被拘，氨基酸龙头IPO临门折戟",
-      "source": "",
-      "detail": "来源：雷达Finance 雷达财经出品 文|丁禹 编|孟帅 距离登陆港股只差临门一脚，一则实际控制人被拘留的消息，却将氨基酸龙头华恒生物推向舆论的风口浪尖。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "Red Lobster无限吃虾促销被诉为‘车祸’",
-        "assets": "📉 美国餐饮股 利空；📉 消费类股 承压",
-        "chain": "促销失败暴露成本控制（食材和人工成本）问题，可能引发餐饮业盈利预警",
-        "watch": "Red Lobster母公司季度财报"
+        "what": "Red Lobster无限虾促销导致亏损诉讼",
+        "assets": "📉 餐饮股 利空；📉 消费股 承压",
+        "chain": "促销过度侵蚀利润（成本失控），反映消费降级下折扣战风险，拖累零售板块",
+        "watch": "同店销售及毛利率数据"
       }
     }
   ]
