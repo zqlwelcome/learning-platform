@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 05:01",
+  "updateTime": "2026-06-27 05:02",
   "news": [
     {
       "rank": 1,
@@ -21,7 +21,13 @@
       "source": "环球市场播报",
       "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的经济预测中预计今年将加息一次。",
       "lang": "zh",
-      "score": 54
+      "score": 54,
+      "insight": {
+        "what": "卡什卡里称通胀广泛，或需加息",
+        "assets": "📉 美股大盘 承压，📈 美元指数 走强",
+        "chain": "加息预期升温→紧缩（收钱）恐慌→科技成长股（靠未来现金流）估值承压，美债收益率（借钱成本）上行",
+        "watch": "CME FedWatch（利率期货市场）对5月加息概率变化"
+      }
     },
     {
       "rank": 3,
@@ -29,7 +35,13 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "OpenAI否认近期IPO传闻，上市时间表未确定",
+        "assets": "📉 AI概念股 利空，📉 加密货币 中性偏空",
+        "chain": "IPO延期→一级市场（未上市股权）估值锚缺失，AI赛道流动性（交易热度）预期降温",
+        "watch": "Anthropic（竞争对手）上市进展及AI板块资金流向"
+      }
     },
     {
       "rank": 4,
@@ -93,7 +105,13 @@
       "source": "环球市场播报",
       "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "OpenAI推迟IPO，Kalshi交易员预测官宣时间",
+        "assets": "📉 OpenAI相关概念股 承压；📈 一级市场科技投资 短期利好",
+        "chain": "IPO推迟削弱市场对AI初创公司短期估值变现预期，压制相关概念股情绪；但资金可能转向一级市场，利好早期科技投资。Kalshi交易员预判反映市场对事件时间节点的博弈。",
+        "watch": "OpenAI官方后续IPO时间表声明；一级市场融资动态；其他AI公司IPO计划调整"
+      }
     },
     {
       "rank": 9,
@@ -101,7 +119,13 @@
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "OpenAI考虑2027年IPO，或晚于Anthropic",
+        "assets": "📉 AI概念股 中性偏空，📈 一级市场投资者 利空",
+        "chain": "IPO推迟→早期投资者退出（套现）延迟→AI独角兽（未上市高估值公司）估值折价压力",
+        "watch": "Kalshi（预测市场）对OpenAI上市日期的押注变化"
+      }
     },
     {
       "rank": 10,
@@ -109,7 +133,13 @@
       "source": "环球市场播报",
       "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
       "lang": "zh",
-      "score": 36
+      "score": 36,
+      "insight": {
+        "what": "美联储官员卡什卡里预计今年将加息一次",
+        "assets": "📈 美元指数 利好；📉 美国国债 承压；📉 美股 短期利空",
+        "chain": "卡什卡里作为美联储官员释放鹰派信号，暗示加息预期强化，这将推高美元汇率和美债收益率，同时压制风险资产如美股估值。市场可能重新定价美联储紧缩路径，导致流动性收紧预期升温。",
+        "watch": "关注后续美联储官员讲话及3月FOMC会议纪要，以及CPI、PCE等通胀数据是否支持加息决策"
+      }
     }
   ]
 }
