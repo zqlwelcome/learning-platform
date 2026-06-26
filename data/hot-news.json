@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
-        "assets": "📉 美股大盘 承压；📈 美元指数 走强",
-        "chain": "加息预期推高美债收益率（借钱成本），压制科技股估值（未来现金流折现减少）",
-        "watch": "本周五美国PCE（个人消费支出物价）数据"
+        "what": "美联储官员称通胀广泛，可能需加息",
+        "assets": "📈 美元指数 利好; 📉 美股大盘 承压",
+        "chain": "加息预期推高短端利率（短期借贷成本），压制成长股估值（股价/盈利比），资金转向防御板块",
+        "watch": "本周五核心PCE（个人消费支出物价指数）数据"
       }
     },
     {
@@ -23,28 +23,14 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "OpenAI尚未召开IPO前投资者会议，未设定时间表",
-        "assets": "📉 OpenAI相关概念股 承压；📉 AI板块 情绪偏空",
-        "chain": "IPO推迟削弱AI叙事热度，资金可能转向已上市AI龙头（如英伟达）避险",
-        "watch": "OpenAI官方是否发布融资或上市时间表"
+        "what": "OpenAI未举行IPO前投资者会议，上市时间未定",
+        "assets": "📉 OpenAI相关概念股（如微软） 中性偏空",
+        "chain": "IPO延期降低市场对AI独角兽（未上市高估值公司）变现预期，压制二级市场AI板块情绪",
+        "watch": "OpenAI官方IPO时间表声明"
       }
     },
     {
       "rank": 3,
-      "title": "OpenAI is reportedly delaying its IPO. Here's when Kalshi traders think it will announce ",
-      "source": "CNBC",
-      "detail": "Speculators think the OpenAI IPO will come early next year, with only one-in-three odds it happens in 2026 but a high likelihood it is done by June 2027.",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "OpenAI延迟IPO至2027年6月前",
-        "assets": "📉 AI科技股（如微软、英伟达）短期承压；📈 私有股权市场（如二级交易平台）活跃度上升",
-        "chain": "IPO延迟降低市场对AI商业化变现的预期（估值压力），可能拖累纳斯达克科技板块（指数基金QQQ），但利好未上市AI公司估值（稀缺性溢价）",
-        "watch": "关注微软（OpenAI最大股东）财报中对AI收入指引，以及Kalshi合约价格变化"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4%",
       "source": "CNBC",
       "detail": "President Donald Trump's economic advisors are giving Warsh space, as the new Fed chairman, on interest rates as the president repeats calls to cut.",
@@ -52,79 +38,93 @@
       "score": 48,
       "insight": {
         "what": "特朗普施压美联储主席，通胀超4%",
-        "assets": "📉 美元指数 承压；📈 黄金 避险；📈 美债 利好（降息预期）",
-        "chain": "政治干预削弱美联储独立性，市场押注降息（借钱成本降低）提前，但通胀高企限制空间",
-        "watch": "美联储下次会议声明及特朗普后续言论"
+        "assets": "📈 黄金 利好; 📉 美元指数 承压",
+        "chain": "政治压力削弱美联储独立性（决策受干扰），市场押注宽松政策，实际利率（名义利率减通胀）下行推贵金属",
+        "watch": "美联储下次会议声明措辞"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "OpenAI据悉考虑最早于2027年IPO 或晚于Anthropic上市",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，OpenAI考虑最早于2027年进行首次公开募股（IPO）。这意味着该公司可能会在AI竞争对手Anthropic PBC之后上市。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI最早2027年IPO，晚于Anthropic",
-        "assets": "📈 AI概念股（如英伟达）利好，📉 未上市AI公司（如Anthropic估值）承压",
-        "chain": "IPO延迟推高AI赛道稀缺性溢价（估值泡沫预期），短期利好已上市AI硬件股（算力需求刚需）",
-        "watch": "Anthropic上市时间表及AI企业财报（验证盈利模式）"
+        "what": "OpenAI考虑最早2027年IPO，晚于Anthropic",
+        "assets": "📉 AI板块 短期利空; 📈 竞争对手Anthropic 相对利好",
+        "chain": "上市时间差让Anthropic先获得公开市场资金（融资优势），加剧AI军备竞赛（烧钱竞争）",
+        "watch": "Anthropic上市进展"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "据报道OpenAI推迟 IPO，Kalshi交易所交易员预判其官宣时间",
       "source": "环球市场播报",
       "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI延迟IPO至2027年6月前",
-        "assets": "📉 AI科技股（如微软、英伟达）短期承压；📈 私有股权市场（如二级交易平台）活跃度上升",
-        "chain": "IPO延迟降低市场对AI商业化变现的预期（估值压力），可能拖累纳斯达克科技板块（指数基金QQQ），但利好未上市AI公司估值（稀缺性溢价）",
-        "watch": "关注微软（OpenAI最大股东）财报中对AI收入指引，以及Kalshi合约价格变化"
+        "what": "交易员预判OpenAI推迟IPO官宣",
+        "assets": "📉 未上市AI公司估值 承压",
+        "chain": "IPO延迟信号打压一级市场（私募融资）估值，传导至二级市场AI主题ETF（交易型开放式指数基金）资金流出",
+        "watch": "Kalshi（预测市场）相关合约价格变动"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "报道：OpenAI倾向于等到2027年再进行IPO",
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI推迟IPO至2027年",
-        "assets": "📉 一级市场科技股（非上市科技公司估值）承压，📈 已上市AI概念股（如英伟达）利好",
-        "chain": "推迟IPO减少供给分流（资金流出），短期提振已上市AI股；但暗示公司对估值和波动性担忧（市场情绪谨慎）",
-        "watch": "SpaceX上市后股价波动及科技股IPO窗口变化"
+        "what": "OpenAI倾向2027年IPO",
+        "assets": "📉 科技股IPO板块 中性偏空",
+        "chain": "推迟IPO减少新股供给（IPO数量），但延长投资者等待时间，增加不确定性溢价（风险补偿）",
+        "watch": "OpenAI招股说明书提交进度"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash' for the company, lawsuit says",
       "source": "CNBC",
       "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "Red Lobster无限虾促销被诉为灾难",
-        "assets": "📉 餐饮股 承压；📉 休闲消费板块 情绪偏空",
-        "chain": "促销亏损暴露成本控制问题，引发对餐饮业利润率（赚钱能力）的担忧，可能拖累同类股",
-        "watch": "Red Lobster母公司财报及同店销售额"
+        "what": "红龙虾无限虾促销致亏损诉讼",
+        "assets": "📉 餐饮板块 利空; 📉 红龙虾供应商 承压",
+        "chain": "促销失败显示消费降级（顾客减少消费），成本压力传导至供应链（食材价格谈判），行业利润率（盈利/收入）恶化",
+        "watch": "红龙虾季度同店销售（可比门店营收）数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "卡什卡里：目前预计美联储今年将加息一次",
       "source": "环球市场播报",
       "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储官员卡什卡里预计今年将加息一次",
-        "assets": "📈 美元指数 利好；📉 美债 承压；📉 美股 短期利空",
-        "chain": "卡什卡里作为美联储官员，其加息预期表态强化了市场对紧缩政策的预期，可能推高美元汇率和美债收益率，同时压制风险资产如美股的表现。加息预期升温会减少流动性，对依赖低利率的科技股等成长板块形成压力。",
-        "watch": "后续关注美联储其他官员的表态是否一致、通胀数据及就业报告，以及市场对加息概率的定价变化。"
+        "what": "卡什卡里预计今年加息一次",
+        "assets": "📈 美元 利好; 📉 美债（2年期） 承压",
+        "chain": "加息预期推高短端收益率（短期债券利率），抑制风险资产（股票），银行净息差（存贷利差）扩大",
+        "watch": "CME FedWatch（芝加哥商品交易所利率概率工具）加息概率变化"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Citi cuts tech stock weighting: 'Difficult to see how everyone in AI/Tech path wins'",
+      "source": "CNBC",
+      "detail": "The tech trade is becoming rocky, and Citi thinks it's time for investors to trim positions in the sector.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "花旗减持科技股，担忧AI赛道拥挤",
+        "assets": "📉 AI/科技股 承压; 📈 防御板块（公用事业） 利好",
+        "chain": "资金从AI获利了结（卖出获利），轮动至低估值板块，加剧科技股波动率（价格震荡幅度）",
+        "watch": "纳斯达克100指数（主要科技股指数）相对强弱指标"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "韩国AI股大起大落，一周波动剧烈",
-        "assets": "📉 韩国半导体股 承压；📉 韩国KOSPI指数 波动加大",
-        "chain": "AI叙事降温叠加外资流出（美元走强），导致韩股高贝塔（波动大）板块回调，拖累新兴市场情绪",
-        "watch": "韩国出口数据及外资流向"
+        "what": "韩国AI股大起大落，市场混乱",
+        "assets": "📉 韩国半导体股 承压; 📈 韩国KOSPI（韩国综合股价指数）波动率 上升",
+        "chain": "AI股波动传导至韩国交易所杠杆产品（如ETF），散户追涨杀跌放大波动，影响韩元汇率稳定性",
+        "watch": "韩国政府股市稳定措施公告"
       }
     }
   ]
