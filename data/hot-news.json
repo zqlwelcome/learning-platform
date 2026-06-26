@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 03:31",
+  "updateTime": "2026-06-27 03:33",
   "news": [
     {
       "rank": 1,
@@ -21,7 +21,13 @@
       "source": "环球市场播报",
       "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的经济预测中预计今年将加息一次。",
       "lang": "zh",
-      "score": 54
+      "score": 54,
+      "insight": {
+        "what": "卡什卡里重复通胀广泛，加息风险上升",
+        "assets": "📉 美债 利空；📈 美元指数 走强",
+        "chain": "加息信号强化，风险资产（如科技股）遭抛售，资金涌入短债（短期国债）避险",
+        "watch": "美联储点阵图（利率预测图）变化"
+      }
     },
     {
       "rank": 3,
@@ -29,7 +35,13 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50
+      "score": 50,
+      "insight": {
+        "what": "OpenAI称未设IPO时间表或投资者会议",
+        "assets": "📉 科技IPO板块 承压；📈 私有市场 利好",
+        "chain": "IPO推迟减少公开市场供给，资金转向其他AI初创（如Anthropic）",
+        "watch": "OpenAI估值变动及二级市场交易"
+      }
     },
     {
       "rank": 4,
@@ -39,10 +51,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普施压美联储，通胀超4%",
-        "assets": "📉 美国国债 利率预期下降 | 📈 黄金 避险需求",
-        "chain": "政治干预→央行独立性削弱→通胀预期脱锚（失控）→实际利率（名义利率-通胀）走低",
-        "watch": "美联储主席发言及10年期盈亏平衡通胀率（市场通胀预期）"
+        "what": "特朗普施压美联储主席Warsh，通胀超4%",
+        "assets": "📉 美元 承压；📈 黄金 利好",
+        "chain": "政治干预削弱央行独立性（决策受政客影响），市场预期降息（借钱成本降低）提前",
+        "watch": "美联储下次会议声明措辞"
       }
     },
     {
@@ -53,10 +65,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI未设定IPO时间表",
-        "assets": "📉 AI概念股 情绪降温 | 📈 私人科技公司估值 承压",
-        "chain": "IPO延迟→一级市场（未上市）流动性收紧→资金转向已上市科技龙头（避险）",
-        "watch": "Anthropic上市进展及OpenAI营收数据"
+        "what": "消息人士称OpenAI未定IPO时间表",
+        "assets": "📉 科技IPO板块 承压；📈 私募股权 利好",
+        "chain": "推迟上市减少科技股供给，资金流入已上市AI公司（如英伟达）",
+        "watch": "OpenAI员工股权交易价格"
       }
     },
     {
@@ -81,10 +93,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "Kalshi交易员押注OpenAI推迟IPO",
-        "assets": "📉 科技股投机情绪 利空 | 📈 预测市场代币 关注度",
-        "chain": "预测市场反映推迟概率→倒逼二级市场（已上市）AI股溢价回调",
-        "watch": "Kalshi合约价格及OpenAI官方声明"
+        "what": "OpenAI推迟IPO，Kalshi交易员预测官宣时间",
+        "assets": "📉 科技IPO板块 承压；📈 预测市场 利好",
+        "chain": "事件驱动交易（赌上市时间）活跃，资金从传统IPO转向衍生品（如期货合约）",
+        "watch": "Kalshi预测合约价格波动"
       }
     },
     {
@@ -95,10 +107,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI倾向2027年IPO",
-        "assets": "📉 AI概念股 估值承压 | 📈 长期私募股权 流动性溢价",
-        "chain": "推迟上市→机构资金（养老金等）转向高流动性科技巨头（如微软）",
-        "watch": "OpenAI董事会决策及SEC（美国证监会）注册文件"
+        "what": "报道称OpenAI倾向于2027年IPO",
+        "assets": "📉 科技IPO板块 承压；📈 私募二级市场 利好",
+        "chain": "推迟上市减少公开市场供给，投资者转向私有股权交易（非公开股份买卖）",
+        "watch": "OpenAI融资轮次估值"
       }
     },
     {
@@ -123,10 +135,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Momenta香港IPO获奔驰和GIC基石投资",
-        "assets": "📈 自动驾驶板块 利好 | 📈 港股IPO市场 情绪提振",
-        "chain": "知名基石（锚定投资者）→提升机构信心→带动同赛道公司（如小马智行）估值",
-        "watch": "Momenta定价区间及超额认购倍数"
+        "what": "Momenta香港IPO基石包括奔驰和GIC",
+        "assets": "📈 中概股 利好；📈 自动驾驶板块 利好",
+        "chain": "知名基石投资者（长期持股者）背书，提振IPO认购信心，带动同类公司估值",
+        "watch": "Momenta发行价及首日涨幅"
       }
     }
   ]
