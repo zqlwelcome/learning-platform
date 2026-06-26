@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 03:33",
+  "updateTime": "2026-06-27 03:35",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "卡什卡里称通胀广泛，美联储或需加息",
-        "assets": "📉 美股大盘 承压 | 📈 美元指数 走强",
-        "chain": "加息预期（借钱成本上升）→ 风险资产（股票）估值下修，美元吸引套利资金流入",
-        "watch": "下周CPI数据及点阵图（利率预测）"
+        "what": "美联储官员卡什卡里称通胀广泛，可能需加息",
+        "assets": "📉 美股科技股 承压；📈 美元指数 走强",
+        "chain": "加息预期推高短端利率（短期借款成本），压制成长股估值，美元走强利空新兴市场",
+        "watch": "本周五核心PCE（个人消费支出物价指数）数据"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "环球市场播报",
       "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的经济预测中预计今年将加息一次。",
       "lang": "zh",
-      "score": 54,
-      "insight": {
-        "what": "卡什卡里重复通胀广泛，加息风险上升",
-        "assets": "📉 美债 利空；📈 美元指数 走强",
-        "chain": "加息信号强化，风险资产（如科技股）遭抛售，资金涌入短债（短期国债）避险",
-        "watch": "美联储点阵图（利率预测图）变化"
-      }
+      "score": 54
     },
     {
       "rank": 3,
@@ -35,13 +29,7 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "OpenAI称未设IPO时间表或投资者会议",
-        "assets": "📉 科技IPO板块 承压；📈 私有市场 利好",
-        "chain": "IPO推迟减少公开市场供给，资金转向其他AI初创（如Anthropic）",
-        "watch": "OpenAI估值变动及二级市场交易"
-      }
+      "score": 50
     },
     {
       "rank": 4,
@@ -52,9 +40,9 @@
       "score": 48,
       "insight": {
         "what": "特朗普施压美联储主席Warsh，通胀超4%",
-        "assets": "📉 美元 承压；📈 黄金 利好",
-        "chain": "政治干预削弱央行独立性（决策受政客影响），市场预期降息（借钱成本降低）提前",
-        "watch": "美联储下次会议声明措辞"
+        "assets": "📉 美国国债 收益率曲线陡化；📈 黄金 看涨",
+        "chain": "政治干预削弱美联储独立性（央行信誉），市场押注更宽松政策，通胀预期升温利好实物资产",
+        "watch": "美联储下次会议纪要中关于独立性的表述"
       }
     },
     {
@@ -65,10 +53,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "消息人士称OpenAI未定IPO时间表",
-        "assets": "📉 科技IPO板块 承压；📈 私募股权 利好",
-        "chain": "推迟上市减少科技股供给，资金流入已上市AI公司（如英伟达）",
-        "watch": "OpenAI员工股权交易价格"
+        "what": "OpenAI否认近期IPO，称未设定时间表",
+        "assets": "📉 AI概念股 短期承压；📈 比特币 避险需求",
+        "chain": "IPO推迟降低市场对AI板块流动性预期，资金可能转向加密资产（高波动替代品）",
+        "watch": "OpenAI是否公布融资轮或战略合作"
       }
     },
     {
@@ -80,9 +68,9 @@
       "score": 45,
       "insight": {
         "what": "OpenAI考虑2027年IPO，晚于Anthropic",
-        "assets": "📉 科技IPO板块 情绪利空 | 📈 竞争对手Anthropic 估值预期",
-        "chain": "IPO推迟→AI赛道融资窗口收紧→早期投资者（风投）寻求更早退出路径",
-        "watch": "Anthropic上市估值及OpenAI融资轮次"
+        "assets": "📉 AI初创公司估值 承压；📈 英伟达 供应链利好",
+        "chain": "上市延迟延长烧钱周期，但利好算力供应商（如英伟达）短期订单，Anthropic提前上市或分流资金",
+        "watch": "Anthropic IPO估值及认购倍数"
       }
     },
     {
@@ -93,10 +81,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI推迟IPO，Kalshi交易员预测官宣时间",
-        "assets": "📉 科技IPO板块 承压；📈 预测市场 利好",
-        "chain": "事件驱动交易（赌上市时间）活跃，资金从传统IPO转向衍生品（如期货合约）",
-        "watch": "Kalshi预测合约价格波动"
+        "what": "Kalshi交易员押注OpenAI推迟IPO官宣",
+        "assets": "📉 科技IPO板块 情绪偏空；📈 做空VIX（波动率指数）策略",
+        "chain": "预测市场信号强化资本对AI盈利周期（回报周期）的怀疑，波动率下降利于套利交易",
+        "watch": "Kalshi合约到期时间及成交量变化"
       }
     },
     {
@@ -105,13 +93,7 @@
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "报道称OpenAI倾向于2027年IPO",
-        "assets": "📉 科技IPO板块 承压；📈 私募二级市场 利好",
-        "chain": "推迟上市减少公开市场供给，投资者转向私有股权交易（非公开股份买卖）",
-        "watch": "OpenAI融资轮次估值"
-      }
+      "score": 45
     },
     {
       "rank": 9,
@@ -121,10 +103,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "卡什卡里预计美联储今年加息一次",
-        "assets": "📉 美股成长股 利空 | 📈 美元指数 走强",
-        "chain": "加息预期→短端利率（2年期国债）飙升→高估值科技股（成长股）承压",
-        "watch": "联邦基金期货隐含加息概率（市场定价）"
+        "what": "卡什卡里预计今年加息一次",
+        "assets": "📉 纳斯达克 期货 承压；📈 2年期美债收益率 上行",
+        "chain": "鹰派（偏向加息）信号强化利率峰值预期，科技股估值模型（DCF折现率）受冲击，银行股净息差（存贷利差）受益",
+        "watch": "联邦基金利率期货隐含加息概率变化"
       }
     },
     {
@@ -135,10 +117,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Momenta香港IPO基石包括奔驰和GIC",
-        "assets": "📈 中概股 利好；📈 自动驾驶板块 利好",
-        "chain": "知名基石投资者（长期持股者）背书，提振IPO认购信心，带动同类公司估值",
-        "watch": "Momenta发行价及首日涨幅"
+        "what": "Momenta港股IPO获奔驰、GIC基石投资",
+        "assets": "📈 自动驾驶板块 利好；📉 港股流动性 分流",
+        "chain": "战略投资者背书提升IPO信心，但抽血效应（资金集中申购）压制其他中小盘股，利好激光雷达供应商",
+        "watch": "Momenta首日涨幅及后续股价稳定性"
       }
     }
   ]
