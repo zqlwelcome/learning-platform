@@ -55,7 +55,11 @@ try:
                 if not (n.get('insight') and n['insight'].get('what')):
                     print(f'  Rank {n["rank"]}: TITLE MATCH — can reuse! (currently missing)')
             else:
-                print(f'  Rank {n["rank"]}: NEW title → needs DeepSeek: {n["title"][:80]}')
+                has_insight = n.get('insight') and n['insight'].get('what')
+                if has_insight:
+                    print(f'  Rank {n["rank"]}: NEW title (insight already present from current run): {n["title"][:80]}')
+                else:
+                    print(f'  Rank {n["rank"]}: NEW title → needs DeepSeek: {n["title"][:80]}')
         print(f'\n  {match}/{len(news)} titles match previous run')
     else:
         print(f'  git show failed: {r.stderr[:200]}')
