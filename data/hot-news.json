@@ -1,78 +1,64 @@
 {
-  "updateTime": "2026-06-26 18:10",
+  "updateTime": "2026-06-26 18:15",
   "news": [
     {
       "rank": 1,
-      "title": "美国芯片股盘前走低 受存储芯片价格担忧和OpenAI IPO或将推迟影响",
-      "source": "环球市场播报",
-      "detail": "由于投资者担忧在苹果和Xbox产品普遍涨价后，芯片需求是否还能持续强劲，半导体股票在盘前交易中普遍下跌。此外，有报道称OpenAI的IPO可能推迟...",
-      "lang": "zh",
-      "score": 55,
-      "insight": {
-        "what": "美国芯片股盘前走低，存储芯片价格担忧及OpenAI IPO推迟",
-        "assets": "📉 美股半导体板块 利空",
-        "chain": "存储芯片库存堆积→价格战→拖累设备股和设备订单（资本开支下降）",
-        "watch": "今晚美股开盘半导体ETF(SMH)走势"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Tumbling AI stocks signal another day of turmoil for tech companies",
       "source": "CNBC",
       "detail": "SoftBank Group plunged, leading a broad selloff in Asian technology stocks amid mounting concerns over the rising cost of artificial intelligence infrastructure. ",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "AI科技股暴跌，科技公司持续动荡",
-        "assets": "📉 美股科技股 利空",
-        "chain": "AI泡沫担忧→风险偏好下降→资金从高估值成长股流向防御板块（公用事业）",
-        "watch": "明日AI龙头股（如英伟达）是否止跌"
+        "what": "AI股暴跌，科技板块持续动荡",
+        "assets": "📉 美股科技股 承压",
+        "chain": "恐慌情绪蔓延，资金从科技股轮动至防御板块（如公用事业），可能触发量化基金（算法交易）抛售",
+        "watch": "今晚美股科技板块开盘及VIX（恐慌指数）变动"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "美银：美国股市录得3月以来首次资金净流出 科技基金外流规模创纪录",
       "source": "环球市场播报",
       "detail": "投资者三个月来首次从美国股市撤资，科技基金出现创纪录资金流出，显示人工智能交易正在降温。 美国银行援引EPFR Global数据在一份报告中称，截至6月24日当周...",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "美银：美国股市3月以来首次资金净流出，科技基金外流创纪录",
-        "assets": "📉 美股大盘 利空；📉 科技板块 利空",
-        "chain": "资金外流→流动性收紧→估值承压→可能触发程序化抛售（量化基金减仓）",
-        "watch": "本周美银周度资金流向数据更新"
+        "what": "美银报告美股三周来首次资金净流出，科技基金流出创纪录",
+        "assets": "📉 美股大盘 承压；📉 科技ETF 利空",
+        "chain": "资金外流暗示机构减仓，流动性收紧，可能引发小盘股补跌（连锁反应）",
+        "watch": "下周美银的周度资金流数据及标普500（美国大盘指数）支撑位"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Red Lobster's Ultimate Endless Shrimp promotion described as a 'car crash' for the company, lawsuit says",
       "source": "CNBC",
       "detail": "\"Thai Union doubled down on a campaign to squeeze out every drop of value that it could,\" creditors said",
       "lang": "en",
       "score": 40,
       "insight": {
-        "what": "红龙虾无限虾促销被诉为‘车祸’，公司财务受创",
-        "assets": "📉 餐饮连锁股（如红龙虾） 利空",
-        "chain": "促销成本失控→利润率压缩→同店销售增长不可持续→行业定价策略重估",
-        "watch": "红龙虾母公司财报及同店销售数据"
+        "what": "Red Lobster无限虾促销被诉为“车祸”，导致公司亏损",
+        "assets": "📉 餐饮板块 利空；📉 海鲜供应商 承压",
+        "chain": "极端促销暴露成本控制风险，可能引发其他餐饮企业收缩类似活动（行业避险）",
+        "watch": "Red Lobster母公司季度财报及同类餐厅利润率"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "意大利监管机构就“Microsoft 365”涨价一事对微软展开调查",
       "source": "环球市场播报",
       "detail": " 意大利反垄断监管机构周五表示，已针对微软公司展开调查，原因是该公司涉嫌在“Microsoft 365”订阅服务涨价过程中存在不公平商业行为。",
       "lang": "zh",
       "score": 39,
       "insight": {
-        "what": "意大利监管机构对微软365涨价展开调查",
-        "assets": "📉 微软(MSFT) 利空",
-        "chain": "反垄断调查→罚款风险→若败诉可能限制定价权→影响云服务订阅收入预期",
-        "watch": "调查进展及是否涉及欧洲其他监管机构"
+        "what": "意大利监管机构调查Microsoft 365涨价",
+        "assets": "📉 微软 承压；📉 欧盟科技股 利空",
+        "chain": "监管风险上升，可能迫使微软调整定价策略，影响全球SaaS（软件即服务）企业定价模式",
+        "watch": "调查进展及欧盟数字市场法案（DMA）相关动态"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Chicago Fed President Goolsbee says inflation is too high; Williams sees price pressures easing",
       "source": "CNBC",
       "detail": "In a live CNBC interview from his home district, Goolsbee declined to speculate on where he thinks interest rates are headed.",
@@ -80,65 +66,79 @@
       "score": 38,
       "insight": {
         "what": "芝加哥联储主席称通胀过高，纽约联储主席认为物价压力缓解",
-        "assets": "📉 美债收益率 分歧",
-        "chain": "联储内部分歧→市场降息预期波动→短期利率期货（SOFR）定价修正",
-        "watch": "本周五PCE通胀数据及下周联储会议纪要"
+        "assets": "📉 美债 承压；📈 美股 分化",
+        "chain": "政策分歧加大市场波动，短期美债收益率（借钱成本）可能震荡，美元指数（美元强弱）受影响",
+        "watch": "美联储7月会议纪要及CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Judge blocks Trump's rule limiting federal student loans for certain grad school borrowers",
       "source": "CNBC",
       "detail": "A federal judge temporarily blocked Trump's limits on how much certain graduate students can borrow. That policy was set to go into effect July 1.",
       "lang": "en",
       "score": 33,
       "insight": {
-        "what": "法官阻止特朗普限制部分研究生联邦贷款的规定",
-        "assets": "📉 教育贷款相关资产 利空",
-        "chain": "政策不确定性→学生贷款ABS（资产支持证券）风险溢价上升→借贷成本可能增加",
-        "watch": "最高法院是否受理上诉"
+        "what": "法官阻止特朗普限制研究生联邦贷款的规定",
+        "assets": "📈 教育股 利好；📉 学生贷款服务商 承压",
+        "chain": "政策松绑刺激教育需求，但可能增加联邦财政赤字（政府借钱），间接推高长期利率",
+        "watch": "最高法院是否受理上诉及教育部新规"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Bond ETF flows surge in hunt for yield: 'Market sniffing out something here,' says BlackRock exec",
       "source": "CNBC",
       "detail": "Bond investors are abandoning aggregate benchmarks in favor of a broad mix of fixed-income investments to maximize yield with the stock market on edge.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "债券ETF资金流入激增，贝莱德高管称‘市场嗅到异常’",
+        "what": "债券ETF资金流入激增，贝莱德高管称“市场嗅到信号”",
         "assets": "📈 债券ETF 利好；📉 股票ETF 承压",
-        "chain": "资金涌入债市→收益率曲线陡峭化→长端利率上行风险→股市资金虹吸效应",
-        "watch": "美债10年期收益率是否突破4.5%"
+        "chain": "资金转向债市暗示避险情绪升温，可能预示经济衰退（经济萎缩）预期，压低股市风险偏好",
+        "watch": "10年期美债收益率（长期借钱成本）及非农就业数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
       "source": "CNBC",
       "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while digesting a flurry of news from the region.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "阿曼附近货轮遇袭后油价再度下挫，美国原油跌破70美元",
-        "assets": "📉 原油 利空；📈 航运股 利好",
-        "chain": "地缘事件短暂扰动→需求疲软主导→OPEC+减产可能失效→炼厂利润率承压",
-        "watch": "今晚EIA原油库存数据及中东局势后续"
+        "what": "美国原油跌破70美元，阿曼附近货轮遇袭后继续下跌",
+        "assets": "📉 原油 利空；📉 能源股 承压",
+        "chain": "地缘事件（袭击）未能支撑油价，显示需求疲软（经济放缓），可能拖累大宗商品（原材料）整体走弱",
+        "watch": "OPEC+（石油输出国组织）产量决策及美国API（原油库存）数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "阿曼附近货轮遇袭后油价再度下挫，美国原油跌破每桶70美元",
       "source": "环球市场播报",
       "detail": "核心要点一名美国官员向 MS NOW 证实，霍尔木兹海峡阿曼海岸附近的货轮袭击事件系伊朗所为。美伊双方就谅解备忘录中涉及的资金使用问题产生分歧...",
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "阿曼附近货轮遇袭后油价再跌，美原油跌破70",
-        "assets": "📉 原油 利空；📈 避险资产（黄金） 利好",
-        "chain": "地缘风险被市场忽视→需求衰退交易主导→能源股联动下跌→通胀预期下行",
-        "watch": "明日WTI原油是否守住68美元支撑位"
+        "what": "阿曼附近货轮遇袭后油价再跌，美国原油跌破70美元",
+        "assets": "📉 原油 利空；📉 航运股 承压",
+        "chain": "袭击未中断供应，市场聚焦需求端，油价破位可能触发CTA（商品趋势跟踪基金）程序化抛售",
+        "watch": "霍尔木兹海峡（关键油路）通行情况与EIA（美国能源库存）周报"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "崔泰源天价离婚案将于7月宣判 SK海力士等股暴涨后集团控制权料已无虞",
+      "source": "环球市场播报",
+      "detail": "SK海力士的亿万富翁崔泰源与前妻的离婚案将于下月迎来判决，意味着这起打了近十年的官司可能结束在即。 在周五重启审讯之后，首尔高等法院在其网站上表示...",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "崔泰源天价离婚案7月宣判，SK海力士等股暴涨后集团控制权无忧",
+        "assets": "📈 SK海力士 利好；📈 韩国科技股 利好",
+        "chain": "控制权稳定消除治理风险（管理层不确定性），吸引外资回流，可能带动韩国半导体板块估值修复",
+        "watch": "7月法院最终判决细节及SK集团股权结构变化"
       }
     }
   ]
