@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 04:41",
+  "updateTime": "2026-06-27 04:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
-        "assets": "📈 美元指数 利好；📉 美股 承压",
-        "chain": "加息预期→美元走强→新兴市场资金外流→大宗商品（原油、铜）承压",
-        "watch": "本周CPI（消费者物价指数）数据及点阵图（利率预测）"
+        "what": "美联储鹰派卡什卡里称通胀广泛，或需加息",
+        "assets": "📈 美元指数 利好; 📉 美股科技股 承压",
+        "chain": "加息预期升温→美债收益率(长期国债利息)上行→成长股估值承压→美元走强",
+        "watch": "本周CPI(消费者物价指数)数据及点阵图"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "环球市场播报",
       "detail": " 明尼阿波利斯联储行长尼尔·卡什卡里表示，通胀普遍存在的迹象促使他在美联储本月早些时候公布的经济预测中预计今年将加息一次。",
       "lang": "zh",
-      "score": 54,
-      "insight": {
-        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
-        "assets": "📈 美元指数 利好；📉 美股 承压",
-        "chain": "加息预期→美元走强→新兴市场资金外流→大宗商品（原油、铜）承压",
-        "watch": "本周CPI（消费者物价指数）数据及点阵图（利率预测）"
-      }
+      "score": 54
     },
     {
       "rank": 3,
@@ -35,13 +29,7 @@
       "source": "CNBC",
       "detail": "OpenAI said it confidentially filed its prospectus with the SEC earlier this month, but noted it \"may be a while\" before it goes public.",
       "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "OpenAI否认近期IPO，称未设定时间表",
-        "assets": "📉 AI概念股 利空；📈 竞争对手Anthropic 利好",
-        "chain": "IPO推迟→科技股流动性预期减弱→VC（风投）退出路径收窄→打压市场风险偏好",
-        "watch": "OpenAI官方声明及SEC（美国证监会）注册文件"
-      }
+      "score": 50
     },
     {
       "rank": 4,
@@ -51,94 +39,82 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普施压美联储主席Warsh以应对通胀超4%",
-        "assets": "📈 美股 短线利好；📉 美元 承压",
-        "chain": "政治干预→降息预期升温→美债收益率（国债利息）下行→科技股估值修复",
-        "watch": "美联储主席Warsh讲话及白宫经济政策表态"
+        "what": "特朗普施压美联储主席，通胀超4%环境下政策或转鸽",
+        "assets": "📉 美元指数 承压; 📈 黄金 利好",
+        "chain": "政治干预→美联储独立性受损(决策受政治影响)→降息预期提前→实际利率(名义利率减通胀)下行",
+        "watch": "美联储主席讲话及白宫政策声明"
       }
     },
     {
       "rank": 5,
+      "title": "纽约汇市：美元指数微跌 交易员下调美联储加息预期",
+      "source": "环球市场播报",
+      "detail": "美元指数微跌，因为船舶继续通过霍尔木兹海峡推动了油价下跌，并且市场对未来几个月因通胀而加息的预期降温。 彭博美元即期指数周五微跌；由于霍尔木兹海峡船舶通行量继续...",
+      "lang": "zh",
+      "score": 46,
+      "insight": {
+        "what": "交易员下调美联储加息预期，美元指数微跌",
+        "assets": "📉 美元指数 承压; 📈 新兴市场货币 利好",
+        "chain": "加息预期降温→利差收窄(美国与其他国家利率差缩小)→美元走弱→资金流入新兴市场",
+        "watch": "CME(芝加哥商品交易所)FedWatch工具概率变化"
+      }
+    },
+    {
+      "rank": 6,
       "title": "消息人士称：OpenAI尚未召开IPO前投资者沟通会，也未确定上市时间表",
       "source": "环球市场播报",
       "detail": "核心要点 据消息人士透露，OpenAI 尚未对外公布正式上市时间表，也未召开 IPO 前投资者沟通会议，商议潜在发行定价与市场认购需求。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI否认近期IPO，称未设定时间表",
-        "assets": "📉 AI概念股 利空；📈 竞争对手Anthropic 利好",
-        "chain": "IPO推迟→科技股流动性预期减弱→VC（风投）退出路径收窄→打压市场风险偏好",
-        "watch": "OpenAI官方声明及SEC（美国证监会）注册文件"
+        "what": "OpenAI否认近期IPO计划，称尚未确定时间表",
+        "assets": "📉 AI概念股 利空; 📈 一级市场科技股 利好",
+        "chain": "IPO推迟→流动性退出(资金从二级市场回撤)→AI板块估值回调→资金转向确定性标的",
+        "watch": "OpenAI官方声明或SEC(美国证监会)文件"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "OpenAI据悉考虑最早于2027年IPO 或晚于Anthropic上市",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，OpenAI考虑最早于2027年进行首次公开募股（IPO）。这意味着该公司可能会在AI竞争对手Anthropic PBC之后上市。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI考虑最早2027年IPO，或晚于Anthropic",
-        "assets": "📉 AI板块 中性偏空；📈 Anthropic估值 利好",
-        "chain": "推迟上市→一级市场（未上市）估值压力→AI独角兽（高估值初创）融资难度上升",
-        "watch": "Anthropic上市时间表及AI行业并购活动"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "据报道OpenAI推迟 IPO，Kalshi交易所交易员预判其官宣时间",
-      "source": "环球市场播报",
-      "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
-      "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "Kalshi交易员押注OpenAI推迟IPO官宣",
-        "assets": "📉 AI概念股 承压, 📈 期权波动率（预期波动） 上升",
-        "chain": "预测市场信号→对冲基金（投机机构）调仓→科技股波动加大",
-        "watch": "Kalshi合约价格及OpenAI官方动态"
+        "what": "OpenAI据悉考虑2027年IPO，晚于竞争对手Anthropic",
+        "assets": "📉 AI概念股 承压; 📈 私有科技公司 利好",
+        "chain": "IPO窗口延后→市场对AI商业化节奏存疑→行业估值天花板下移→资金转向已上市公司",
+        "watch": "Anthropic上市进展及OpenAI融资轮次"
       }
     },
     {
       "rank": 8,
+      "title": "据报道OpenAI推迟 IPO，Kalshi交易所交易员预判其官宣时间",
+      "source": "环球市场播报",
+      "detail": "核心要点 预测交易平台Kalshi的交易员认为，OpenAI 将在 2027 年 3 月 1 日前官宣首次公开募股（IPO）。 《纽约时报》一则报道称 OpenAI 正考虑推迟上市...",
+      "lang": "zh",
+      "score": 45
+    },
+    {
+      "rank": 9,
       "title": "报道：OpenAI倾向于等到2027年再进行IPO",
       "source": "环球市场播报",
       "detail": "媒体援引三位知情人士报道称，OpenAI倾向于将IPO时间推迟到明年。 该报道称，为OpenAI的IPO提供建议的银行家警告称，近期科技股以及SpaceX上市后股价均出现剧烈波动...",
       "lang": "zh",
-      "score": 45,
-      "insight": {
-        "what": "OpenAI考虑最早2027年IPO，或晚于Anthropic",
-        "assets": "📉 AI板块 中性偏空；📈 Anthropic估值 利好",
-        "chain": "推迟上市→一级市场（未上市）估值压力→AI独角兽（高估值初创）融资难度上升",
-        "watch": "Anthropic上市时间表及AI行业并购活动"
-      }
+      "score": 45
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "卡什卡里：目前预计美联储今年将加息一次",
       "source": "环球市场播报",
       "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "卡什卡里预计美联储今年加息一次",
-        "assets": "📈 美元 短期利好；📉 黄金 承压",
-        "chain": "加息信号→实际利率（名义利率减通胀）上行→黄金持有成本增加→资金回流债市",
-        "watch": "下周FOMC（联邦公开市场委员会）会议声明"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
-      "source": "CNBC",
-      "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "甲骨文股价因AI融资担忧创2001年来最差周表现",
-        "assets": "📉 甲骨文股票 利空；📉 科技板块AI相关股 承压",
-        "chain": "甲骨文巨额资本开支和负自由现金流加剧市场对AI投资回报的担忧，叠加1300亿美元债务压力，投资者抛售股票。这反映AI行业融资成本上升和盈利不确定性，可能拖累其他高负债科技股。",
-        "watch": "后续关注甲骨文下一季度现金流改善信号、AI业务营收增速及债务再融资计划，以及科技板块整体融资环境变化。"
+        "what": "卡什卡里预计美联储今年将加息一次",
+        "assets": "📈 美元指数 短期利好; 📉 美债 承压",
+        "chain": "加息预期→短端利率(短期国债利息)上行→收益率曲线趋平(长短期利差缩小)→银行净息差受压",
+        "watch": "美联储6月议息会议点阵图及经济预测"
       }
     }
   ]
