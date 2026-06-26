@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 06:15",
+  "updateTime": "2026-06-27 06:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储卡什卡里称通胀压力更广泛，可能需加息",
-        "assets": "📈 美元指数 利好；📉 美股 承压",
-        "chain": "加息预期升温→风险资产（股票）估值承压→美元走强，新兴市场资金外流",
-        "watch": "今晚CPI数据（通胀报告）及点阵图（利率预测）"
+        "what": "美联储官员卡什卡里称通胀压力广泛，可能需加息",
+        "assets": "📉 美股 承压；📈 美元指数 利好",
+        "chain": "加息预期升温→美债收益率上升→压制成长股估值（PE倍数压缩）",
+        "watch": "本周CPI数据及点阵图变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "OpenAI称未确定IPO时间表",
-        "assets": "📉 AI板块（如英伟达） 承压",
-        "chain": "IPO推迟→AI融资热度降温→相关科技股（Oracle）抛售加剧",
-        "watch": "OpenAI是否启动pre-IPO路演（上市前投资者会）"
+        "what": "OpenAI尚未召开IPO前投资者沟通会，上市时间未定",
+        "assets": "📉 AI概念股 利空；📉 科技IPO市场 承压",
+        "chain": "头部公司上市推迟→市场对AI商业化信心降温→风险偏好下降",
+        "watch": "OpenAI官方公告或SEC（美国证监会）文件"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普对美联储主席沃什施压，通胀超4%",
+        "what": "特朗普施压美联储主席Warsh，通胀超4%",
         "assets": "📉 美元 承压；📈 黄金 利好",
-        "chain": "政治干预→央行独立性受疑→加息预期下降→实际利率（债券收益减通胀）走低推金价",
-        "watch": "沃什是否公开表态（言论信号）及通胀数据"
+        "chain": "政治干预央行独立性→市场押注降息（借钱成本降低）→实际利率下行",
+        "watch": "Warsh公开讲话及下次FOMC（美联储议息会议）声明"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元指数微跌，交易员下调加息预期",
-        "assets": "📉 美元 承压；📈 黄金 利好",
-        "chain": "加息预期降温→美元贬值→商品（金、铜）以美元计价上涨→风险偏好改善",
-        "watch": "联邦基金期货（利率预测工具）隐含加息概率变化"
+        "what": "交易员下调美联储加息预期，美元指数微跌",
+        "assets": "📉 美元指数 利空；📈 美股 利好",
+        "chain": "加息预期降温→美债收益率回落→资金从避险资产流向风险资产",
+        "watch": "联邦基金利率期货隐含概率变化"
       }
     },
     {
@@ -65,56 +65,70 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "OpenAI尚未召开IPO前投资者沟通会",
-        "assets": "📉 AI概念股 承压",
-        "chain": "上市延期→市场对AI商业化进度存疑→资金从AI板块流向防御性资产（如国债）",
-        "watch": "微软等战略投资者是否追加投资（信心信号）"
+        "what": "OpenAI尚未召开IPO前投资者沟通会，上市时间未定",
+        "assets": "📉 AI板块 利空；📉 科技股 承压",
+        "chain": "上市延期→一级市场估值泡沫担忧→拖累同板块估值",
+        "watch": "OpenAI融资进展或竞争对手上市动态"
       }
     },
     {
       "rank": 6,
-      "title": "卡什卡里：目前预计美联储今年将加息一次",
-      "source": "环球市场播报",
-      "detail": "明尼阿波利斯联邦储备银行行长尼尔・卡什卡里于周五表示，他调整了此前的政策预期，预计美联储今年会实施一次加息。 卡什卡里在阿斯彭思想节的专题研讨会上称：“今年 3...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "卡什卡里预计美联储今年加息一次",
-        "assets": "📈 美元 短期利好；📉 美债 承压",
-        "chain": "加息预期→短期利率上升→长端利率（10年期国债）跟随→银行股净息差扩大",
-        "watch": "6月FOMC会议（美联储议息会）点阵图"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
       "source": "CNBC",
       "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Oracle股价创2001年最大周跌幅，AI融资担忧加剧",
-        "assets": "📉 甲骨文 利空；📉 云计算板块 承压",
-        "chain": "AI支出放缓→云服务需求收缩→科技股估值下修→资金轮动至能源等价值股",
-        "watch": "甲骨文财报电话会（业绩说明会）AI资本开支指引"
+        "what": "甲骨文股价暴跌创2001年以来最差周，AI融资担忧加剧",
+        "assets": "📉 甲骨文 利空；📉 云计算/AI板块 承压",
+        "chain": "AI融资收紧→云服务需求预期下降→科技股连锁抛售",
+        "watch": "甲骨文财报及AI行业融资数据"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back",
+      "source": "CNBC",
+      "detail": "Zhipu's GLM 5.2 shows the AI fight is shifting to who delivers the most intelligence per dollar, making open source suddenly a real contender.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "智谱AI逼近美国顶尖模型，Anthropic和OpenAI受限",
+        "assets": "📈 中国AI概念股 利好；📉 美国AI股 承压",
+        "chain": "中美AI差距缩小→资金转向中国科技股→半导体国产替代预期升温",
+        "watch": "智谱AI模型评测排名及华为昇腾芯片出货量"
       }
     },
     {
       "rank": 8,
+      "title": "IPO承诺加速落地！马斯克获批收购光通信企业Mesh，推进太空算力战略",
+      "source": "",
+      "detail": "（来源：网易科技）马斯克旗下商业版图持续扩张。美国联邦贸易委员会（FTC）已批准其收购光通信公司Mesh Optical Technologies，标志着SpaceX近期密集并购行动再下一城。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "马斯克获批收购光通信企业Mesh，推进太空算力",
+        "assets": "📈 太空通信股 利好；📈 光模块 利好",
+        "chain": "太空算力基建加速→低轨卫星（LEO）需求爆发→光通信产业链受益",
+        "watch": "SpaceX星链发射频率及Mesh整合进度"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Momenta香港IPO基石投资者据悉包括梅赛德斯-奔驰和新加坡GIC",
       "source": "环球市场播报",
       "detail": " 据知情人士透露，自动驾驶初创公司Momenta Global Ltd．已引入梅赛德斯-奔驰集团和新加坡政府投资公司（GIC Pte）作为香港IPO的基石投资者。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "Momenta香港IPO获奔驰和GIC作为基石投资者",
-        "assets": "📈 自动驾驶板块 利好；📈 港交所 中性偏多",
-        "chain": "顶级机构背书→自动驾驶赛道融资信心恢复→相关中概股（如小鹏）跟涨",
-        "watch": "Momenta招股定价及首日涨幅"
+        "what": "Momenta香港IPO基石投资者含奔驰和GIC",
+        "assets": "📈 自动驾驶板块 利好；📈 港股IPO 回暖",
+        "chain": "顶级机构背书→自动驾驶商业化信心增强→带动产业链公司估值",
+        "watch": "Momenta招股书估值及后续基石名单"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "金价升破4000美元 美国通胀数据削弱加息预期",
       "source": "环球市场播报",
       "detail": " 黄金周五延续涨势，升破每盎司4，000美元，因为最新美国通胀数据抑制了对美联储加息的预期。金价经历了剧烈波动的一周，曾一度触及11月以来的最低水平。",
@@ -122,23 +136,9 @@
       "score": 28,
       "insight": {
         "what": "金价突破4000美元，美国通胀数据削弱加息预期",
-        "assets": "📈 黄金 暴涨；📉 美元 承压",
-        "chain": "通胀降温→加息预期下降→实际利率（名义利率减通胀）为负→黄金作为零息资产（无利息的资产）吸引力飙升",
-        "watch": "美联储官员讲话及通胀预期指标（盈亏平衡通胀率）"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Semafor：贝森特介入AI政策 此前有警告称AI或令联储支付系统面临风险",
-      "source": "环球市场播报",
-      "detail": " Semafor援引知情人士报道称，金融机构发出警告后，美国财政部长斯科特·贝森特今年早些时候寻求在人工智能（AI）政策中发挥更积极的作用。",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "贝森特介入AI政策，警告AI或威胁联储支付系统",
-        "assets": "📉 金融科技股 承压；📈 网络安全 利好",
-        "chain": "监管风险上升→AI应用在支付领域受限→资金流向传统银行和防御性科技",
-        "watch": "白宫AI行政令（政策法规）及联储支付系统安全报告"
+        "assets": "📈 黄金 利好；📉 美元 承压",
+        "chain": "加息预期降温→实际利率（名义利率-通胀）下行→黄金避险需求飙升",
+        "watch": "美国CPI（消费者物价指数）及非农就业数据"
       }
     }
   ]
