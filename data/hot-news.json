@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 14:06",
+  "updateTime": "2026-06-27 14:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀压力更趋广泛，央行或需加息",
-        "assets": "📉 美股科技股 承压，📈 美元指数 利好",
-        "chain": "加息预期升温→风险资产（如股票）估值承压，美元走强→新兴市场资金外流",
-        "watch": "4月CPI（消费者物价指数）数据及美联储点阵图（利率预测）"
+        "what": "美联储官员卡什卡里称通胀压力更广泛，可能需加息",
+        "assets": "📉 美股科技股 承压；📈 美元指数 利好",
+        "chain": "加息预期升温→风险资产（股票）估值受压→美债收益率（国债利息）上行",
+        "watch": "周五核心PCE（美联储首选通胀指标）数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "OpenAI未举行IPO前会议，上市时间表未定",
-        "assets": "📉 AI概念股（如微软、英伟达） 承压",
-        "chain": "AI龙头上市延迟→市场对AI商业化落地信心减弱→相关科技股抛压",
-        "watch": "OpenAI融资进展或竞争对手IPO动态"
+        "what": "OpenAI消息人士称尚未举行IPO会议或设定时间表",
+        "assets": "📉 AI概念股 利空；📈 私有科技公司估值 承压",
+        "chain": "IPO预期降温→AI赛道资金流入放缓→同类公司（如Anthropic）估值压力",
+        "watch": "OpenAI后续融资公告或上市文件提交"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普放松对美联储主席凯文·沃什施压，通胀超4%",
-        "assets": "📈 美元指数 承压，📉 美债收益率 承压",
-        "chain": "政治干预缓和→美联储独立性增强→市场对加息预期重新定价，美债收益率下行",
-        "watch": "美联储下次会议声明及通胀数据"
+        "what": "特朗普对美联储主席Kevin Warsh施压，通胀超4%",
+        "assets": "📉 美元指数 承压；📈 黄金 利好",
+        "chain": "政治干预→央行独立性受损→市场预期美联储转鸽（放松政策）→美元走弱",
+        "watch": "Warsh公开讲话及美联储下次会议声明"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "纽约汇市美元指数微跌，交易员下调美联储加息预期",
-        "assets": "📉 美元指数 承压，📈 新兴市场货币 利好",
-        "chain": "加息预期降温→美元走弱→资金流向非美资产，新兴市场汇率反弹",
-        "watch": "美联储官员讲话及CME FedWatch（利率期货概率）数据"
+        "what": "纽约汇市美元指数微跌，交易员下调加息预期",
+        "assets": "📉 美元指数 承压；📈 新兴市场货币 利好",
+        "chain": "加息预期降温→美元资金外流→非美货币（如人民币）反弹",
+        "watch": "美联储FOMC（联邦公开市场委员会）点阵图变化"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "苹果涨价预示粘性通胀（持续高通胀），美联储票委预计年内加息",
-        "assets": "📉 美股消费股 承压，📈 美债收益率 利好",
-        "chain": "粘性通胀信号→市场重估加息概率→消费类股票估值受压，债券抛售",
-        "watch": "苹果财报及核心PCE（个人消费支出物价指数）数据"
+        "what": "苹果涨价预示粘性通胀，美联储票委预计年内加息",
+        "assets": "📉 美股消费股 承压；📈 美债收益率 上行",
+        "chain": "消费端涨价→通胀粘性（不易回落）→加息概率上升→股市估值下调",
+        "watch": "苹果财报中毛利率及下季指引"
       }
     },
     {
       "rank": 6,
+      "title": "A股又现大牛股，5股年内狂飙超200%，一退市股单日重挫95%",
+      "source": "21世纪经济报道",
+      "detail": "记者丨毕凤至 编辑丨叶映橙 江佩霞 视频丨陈泽锴 本周，沪指与深证成指均累计跌1.55%，创业板指累计跌1.37%。1050只个股周内实现上涨，121只个股涨超20%。 6连板！",
+      "lang": "zh",
+      "score": 33,
+      "insight": {
+        "what": "A股5股年内涨超200%，一退市股单日跌95%",
+        "assets": "📈 A股小盘题材股 利好；📉 退市风险股 承压",
+        "chain": "资金抱团炒作→流动性集中→边缘股票流动性枯竭→退市股暴跌",
+        "watch": "监管层对异常交易问询函及成交量变化"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
       "source": "CNBC",
       "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "Oracle股价创2001年以来最差周，AI融资担忧加剧",
-        "assets": "📉 美股科技股 承压，📉 AI概念股 承压",
-        "chain": "AI融资收紧→科技公司资本开支（投资）放缓→云服务及芯片需求预期下滑",
-        "watch": "Oracle财报指引及AI公司融资新闻"
+        "what": "甲骨文股价创2001年互联网泡沫以来最差周，AI融资担忧加剧",
+        "assets": "📉 美股云计算/AI股 承压；📈 现金充裕防御股 利好",
+        "chain": "AI融资成本上升→科技公司资本支出（花钱投资）放缓→云计算需求预期下滑",
+        "watch": "甲骨文下季云服务收入指引及AI初创融资动态"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back",
       "source": "CNBC",
       "detail": "Zhipu's GLM 5.2 shows the AI fight is shifting to who delivers the most intelligence per dollar, making open source suddenly a real contender.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "中国智谱AI接近追上美国顶尖模型，Anthropic和OpenAI受挫",
-        "assets": "📈 中国AI概念股 利好，📉 美国AI概念股 承压",
-        "chain": "中美AI差距缩小→全球AI竞争加剧，美国AI公司估值溢价（高价）面临修正",
-        "watch": "智谱AI模型评测成绩及中美AI政策变化"
+        "what": "中国智谱AI追赶美国顶级模型，Anthropic和OpenAI进展受阻",
+        "assets": "📈 中国AI概念股 利好；📉 美国AI龙头 承压",
+        "chain": "中美AI差距缩小→中国科技自主预期升温→美国AI公司估值溢价（额外高价）收窄",
+        "watch": "智谱下一代模型评测成绩及美国AI出口限制政策"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "IPO承诺加速落地！马斯克获批收购光通信企业Mesh，推进太空算力战略",
       "source": "",
       "detail": "（来源：网易科技）马斯克旗下商业版图持续扩张。美国联邦贸易委员会（FTC）已批准其收购光通信公司Mesh Optical Technologies，标志着SpaceX近期密集并购行动再下一城。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "马斯克获批收购光通信企业Mesh，推进太空算力战略",
-        "assets": "📈 太空概念股 利好，📈 光通信板块 利好",
-        "chain": "太空算力布局加速→卫星通信需求上升，带动相关供应链（如光模块）投资",
-        "watch": "Mesh公司收购完成及SpaceX星链进展"
+        "what": "马斯克获批收购光通信企业Mesh，推进太空算力",
+        "assets": "📈 太空概念股 利好；📉 传统通信设备股 承压",
+        "chain": "太空算力加速→卫星网络需求爆发→相关零部件（光模块）供应商受益",
+        "watch": "SpaceX星链（卫星互联网）算力服务落地进度"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
       "source": "CNBC",
       "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while absorbing a flurry of Persian Gulf news.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国原油跌破70美元，阿曼附近货船遇袭后跌势延续",
-        "assets": "📉 原油 承压，📉 能源股 承压",
-        "chain": "地缘风险（袭击事件）短暂提振后消退→需求担忧主导，油价下行→能源板块盈利预期下调",
-        "watch": "OPEC+产量决策及美国原油库存数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Semafor：贝森特介入AI政策 此前有警告称AI或令联储支付系统面临风险",
-      "source": "环球市场播报",
-      "detail": " Semafor援引知情人士报道称，金融机构发出警告后，美国财政部长斯科特·贝森特今年早些时候寻求在人工智能（AI）政策中发挥更积极的作用。",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "贝森特介入AI政策，此前警告AI或威胁美联储支付系统",
-        "assets": "📉 美股金融科技 承压，📉 AI概念股 承压",
-        "chain": "AI监管风险升温→金融科技及AI公司合规成本上升，政策不确定性打压估值",
-        "watch": "贝森特政策声明及美联储关于支付系统的报告"
+        "what": "美国原油跌破70美元，阿曼附近货船遇袭后延续跌势",
+        "assets": "📉 原油 承压；📈 航空/航运股 利好",
+        "chain": "地缘事件（袭击）未能提振油价→需求疲软主导→运输成本下降利好交运",
+        "watch": "OPEC+（产油国联盟）产量政策及API（美国石油协会）库存数据"
       }
     }
   ]
