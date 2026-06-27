@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 18:01",
+  "updateTime": "2026-06-27 18:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "卡什卡里称通胀压力广泛，央行或需加息",
-        "assets": "📉 美股大盘 承压; 📈 美元指数 走强",
-        "chain": "加息预期升温→风险资产（股票/高收益债）估值受压制→资金流向避险资产",
-        "watch": "本周CPI数据及美联储点阵图"
+        "what": "美联储官员卡什卡里暗示可能加息",
+        "assets": "📉 美股 承压\n📈 美元 利好",
+        "chain": "加息预期推高短端利率（短期借贷成本），压制成长股估值，美元走强利空大宗商品",
+        "watch": "本周CPI（消费者物价指数）数据及鲍威尔讲话"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "OpenAI未举行IPO前投资者会议，时间表未定",
-        "assets": "📉 AI概念股（如微软）短期承压",
-        "chain": "上市预期落空→市场对AI商业化进度产生疑虑→科技板块资金流出",
-        "watch": "OpenAI融资进展或官方上市声明"
+        "what": "OpenAI否认近期IPO计划",
+        "assets": "📉 科技成长股 利空\n📈 私有市场 活跃",
+        "chain": "AI融资热度降温，减少市场对科技股风险偏好的支撑，资金或转向防御板块",
+        "watch": "OpenAI融资轮进展及微软财报"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普对美联储主席沃尔施施压，通胀超4%",
-        "assets": "📉 美元指数 承压; 📈 黄金 避险升温",
-        "chain": "政治干预→市场质疑央行独立性→美元信用受损→资金转向硬资产",
-        "watch": "美联储主席表态及下月利率决议"
+        "what": "特朗普施压美联储主席Warsh，通胀超4%",
+        "assets": "📉 美元 承压\n📈 美债 利好",
+        "chain": "政治干预削弱央行独立性预期，市场押注美联储宽松，长端利率（长期国债收益率）下行",
+        "watch": "Warsh政策表态及下次FOMC（美联储会议）声明"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 46,
       "insight": {
         "what": "交易员下调美联储加息预期，美元微跌",
-        "assets": "📉 美元指数 下跌; 📈 美债 短线反弹",
-        "chain": "加息预期降温→美元走弱→新兴市场（人民币、A股）获得喘息",
-        "watch": "下周美联储会议纪要措辞变化"
+        "assets": "📉 美元 承压\n📈 美股 利好",
+        "chain": "加息预期降温压低美元，利好出口企业，同时降低企业融资成本，提振风险资产",
+        "watch": "联邦基金利率期货隐含概率变化"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "苹果涨价或预示粘性通胀，票委预计年内加息",
-        "assets": "📉 美股消费科技 承压; 📈 美元 走强",
-        "chain": "苹果涨价→核心CPI（剔除食品能源的通胀）上行→加息预期升温→科技股估值下修",
-        "watch": "苹果Q1财报及美国PCE（个人消费支出）数据"
+        "what": "苹果涨价预示粘性通胀，票委预计年内加息",
+        "assets": "📉 美股消费股 承压\n📈 美元 利好",
+        "chain": "粘性通胀（持续难降的通胀）迫使央行收紧，消费股估值受压，美元走强压制新兴市场",
+        "watch": "核心PCE（个人消费支出）物价指数及苹果财报"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "A股5股年内暴涨超200%，一退市股单日跌95%",
-        "assets": "📈 A股小盘妖股 短期活跃; 📉 A股退市股 风险释放",
-        "chain": "投机情绪过热→资金集中至小市值→退市风险警示→市场分化加剧",
-        "watch": "监管层是否出手打压炒作及退市股名单"
+        "what": "A股5股年内涨超200%，退市股单日跌95%",
+        "assets": "📈 A股小盘股 分化\n📉 退市风险股 利空",
+        "chain": "资金抱团炒作加剧市场分化，退市股暴跌警示流动性风险，散户资金或转向蓝筹",
+        "watch": "退市新规执行及小盘股流动性指标"
       }
     },
     {
@@ -93,52 +93,52 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "甲骨文股价创2001年来最差周，AI融资担忧加剧",
-        "assets": "📉 美股AI及云计算板块 承压",
-        "chain": "AI融资收紧→科技公司资本开支放缓→产业链（芯片、数据中心）需求下滑",
-        "watch": "甲骨文财报及AI初创公司融资动态"
+        "what": "甲骨文因AI融资担忧跌至2001年来最差周",
+        "assets": "📉 美股云计算股 利空\n📈 美债 利好",
+        "chain": "AI资本开支（投资支出）放缓预期拖累科技硬件，资金避险推升国债价格",
+        "watch": "甲骨文云业务营收及AI公司融资动态"
       }
     },
     {
       "rank": 8,
-      "title": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back",
-      "source": "CNBC",
-      "detail": "Zhipu's GLM 5.2 shows the AI fight is shifting to who delivers the most intelligence per dollar, making open source suddenly a real contender.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "中国智谱接近超越美国AI模型，Anthropic和OpenAI受制",
-        "assets": "📈 中国AI概念股 利好; 📉 美股AI龙头 承压",
-        "chain": "中美AI差距缩小→全球算力竞争加剧→中国半导体国产替代需求上升",
-        "watch": "智谱新模型基准测试结果及美国出口管制政策"
-      }
-    },
-    {
-      "rank": 9,
       "title": "柳鑫股份冲刺创业板上市：IPO前夜亏损子公司“出表”，创始人转身押注对赌",
       "source": "每日经济新闻",
       "detail": "每经记者|陈晴每经编辑|魏官红 深圳市柳鑫实业股份有限公司（以下简称“柳鑫股份”）拟冲刺创业板上市。 根据招股说明书（申报稿）（以下简称招股书），公司成立于2003年...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "柳鑫股份IPO前剥离亏损子公司，创始人押注对赌",
-        "assets": "📉 拟IPO企业 审核风险上升",
-        "chain": "财务包装→监管审核趋严→投资者对IPO企业信任度下降→打新市场降温",
-        "watch": "证监会问询函及子公司后续业绩表现"
+        "what": "柳鑫股份IPO前亏损子公司出表，创始人押注对赌",
+        "assets": "📈 创业板 中性\n📉 公司信用 利空",
+        "chain": "财务包装（美化报表）引发监管审查风险，对赌协议（业绩承诺）增加创始人股权稀释压力",
+        "watch": "证监会问询函及公司招股书更新"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "IPO承诺加速落地！马斯克获批收购光通信企业Mesh，推进太空算力战略",
       "source": "",
       "detail": "（来源：网易科技）马斯克旗下商业版图持续扩张。美国联邦贸易委员会（FTC）已批准其收购光通信公司Mesh Optical Technologies，标志着SpaceX近期密集并购行动再下一城。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "马斯克获批收购光通信企业Mesh，推进太空算力",
-        "assets": "📈 太空通信及算力概念 利好; 📈 马斯克旗下公司（特斯拉、SpaceX）",
-        "chain": "太空算力布局→低轨卫星（近地轨道卫星）与光通信产业链受益→传统通信运营商面临竞争",
-        "watch": "收购完成进度及SpaceX星链商业化进展"
+        "what": "马斯克获批收购光通信企业推进太空算力",
+        "assets": "📈 光通信 利好\n📈 太空概念 利好",
+        "chain": "收购加速算力基建（太空数据中心），利好卫星互联网产业链，但可能引发反垄断关注",
+        "watch": "FCC（美国联邦通信委员会）批准进度及SpaceX估值"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
+      "source": "CNBC",
+      "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while absorbing a flurry of Persian Gulf news.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "美国原油跌破70美元，阿曼附近油轮遇袭后续跌",
+        "assets": "📉 原油 利空\n📈 航运 利好",
+        "chain": "地缘风险（袭击事件）短暂推升油价后回落，反映需求疲软，航运保费上涨利好保险股",
+        "watch": "OPEC+产量决策及美国原油库存数据"
       }
     }
   ]
