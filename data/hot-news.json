@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 20:26",
+  "updateTime": "2026-06-27 20:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "卡什卡里称通胀压力广泛，美联储可能加息",
-        "assets": "📉 美股大盘 承压；📈 美元指数 利好",
-        "chain": "加息预期升温→风险资产（股票）估值受压→资金流入债市避险",
-        "watch": "美国CPI（消费者物价指数）数据及点阵图（利率预测）"
+        "what": "美联储官员卡什卡里称通胀压力广泛，或需加息",
+        "assets": "📉 美股 承压\n📈 美元 利好",
+        "chain": "加息预期升温→风险资产（股票）遭抛售→避险资产（美债）收益率上行",
+        "watch": "本周CPI（消费者物价指数）数据及美联储点阵图"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "OpenAI未安排IPO会议，上市时间未定",
-        "assets": "📉 AI概念股 利空；📉 科技IPO板块 承压",
-        "chain": "AI龙头延迟上市→市场对AI估值泡沫担忧加剧→资金撤出高估值科技股",
-        "watch": "OpenAI是否提交S-1（上市注册文件）或私下配售"
+        "what": "OpenAI暂无Pre-IPO会议和时间表",
+        "assets": "📉 科技股（AI概念） 承压",
+        "chain": "IPO推迟→一级市场（私募）估值降温→二级市场（公开市场）AI板块情绪受抑",
+        "watch": "OpenAI官方融资公告或估值调整"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元微跌，交易员下调美联储加息押注",
-        "assets": "📉 美元指数 利空；📈 黄金 利好",
-        "chain": "加息预期降温→美元走弱→大宗商品（以美元计价）价格反弹",
-        "watch": "美联储官员后续讲话及利率期货隐含概率"
+        "what": "美元指数微跌，交易员下调美联储加息预期",
+        "assets": "📉 美元 承压\n📈 黄金 利好",
+        "chain": "加息预期降温→美元走弱→大宗商品（如黄金）计价吸引力上升",
+        "watch": "美联储官员讲话及联邦基金利率期货（利率预期工具）"
       }
     },
     {
       "rank": 4,
+      "title": "Bank of America says these five stocks are best positioned for upside amid market uncertainty",
+      "source": "CNBC",
+      "detail": "Analysts at Bank of America said these stocks have plenty of room to run.",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "美银推荐五只股票应对市场不确定性",
+        "assets": "📈 美银推荐个股（如防御型股） 利好",
+        "chain": "避险情绪→资金轮动至低波动（低风险）股票→防御板块（如公用事业）获超额收益",
+        "watch": "市场波动率指数VIX（恐慌指数）及推荐股财报"
+      }
+    },
+    {
+      "rank": 5,
       "title": "苹果涨价或预示粘性通胀来袭，美联储票委“倒戈”预计年内加息",
       "source": "一财网",
       "detail": "联邦基金利率期货定价显示，年底美联储加息的概率高达79%。自6月美联储决议公布以来，市场定价2026年加息的概率居高不下。随着美联储最关注的物价指标升至3年峰值...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "苹果涨价暗示粘性通胀，票委预计加息",
-        "assets": "📉 美股消费股 承压；📈 美债收益率 上行",
-        "chain": "苹果涨价→核心CPI（剔除食品能源）可能走高→加息概率增加→科技股估值受压制",
-        "watch": "苹果季度财报毛利率及美国核心PCE（个人消费支出）数据"
+        "what": "苹果涨价暗示粘性通胀，美联储票委预计年内加息",
+        "assets": "📉 美股消费电子 承压\n📈 美元 利好",
+        "chain": "粘性通胀（持续高通胀）→加息预期强化→消费股（如苹果）估值受压制",
+        "watch": "苹果季度毛利率及核心PCE（个人消费支出物价指数）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "A股又现大牛股，5股年内狂飙超200%，一退市股单日重挫95%",
       "source": "21世纪经济报道",
       "detail": "记者丨毕凤至 编辑丨叶映橙 江佩霞 视频丨陈泽锴 本周，沪指与深证成指均累计跌1.55%，创业板指累计跌1.37%。1050只个股周内实现上涨，121只个股涨超20%。 6连板！",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "A股5股年内涨超200%，一退市股暴跌95%",
-        "assets": "📈 A股小盘题材股 利好；📉 退市板块 承压",
-        "chain": "极端分化行情→资金集中炒作热点→退市股风险暴露→散户情绪波动加剧",
-        "watch": "A股成交量及监管是否出台降温措施"
+        "what": "A股5股年内涨超200%，退市股单日跌95%",
+        "assets": "📈 A股小盘成长股 利好\n📉 退市股 承压",
+        "chain": "资金博弈极端分化→游资（短线资金）集中炒作题材→退市风险警示个股流动性枯竭",
+        "watch": "监管层对异常交易（如频繁撤单）的关注函"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "柳鑫股份冲刺创业板上市：IPO前夜亏损子公司“出表”，创始人转身押注对赌",
       "source": "每日经济新闻",
       "detail": "每经记者|陈晴每经编辑|魏官红 深圳市柳鑫实业股份有限公司（以下简称“柳鑫股份”）拟冲刺创业板上市。 根据招股说明书（申报稿）（以下简称招股书），公司成立于2003年...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "柳鑫股份IPO前剥离亏损子公司，创始人对赌",
-        "assets": "📉 创业板次新股 利空；📉 拟IPO公司 承压",
-        "chain": "财务包装上市→监管审查趋严→投资者对拟IPO公司审计质量存疑",
-        "watch": "深交所问询函及公司招股书更新"
+        "what": "柳鑫股份IPO前亏损子公司出表，创始人押注对赌",
+        "assets": "📉 柳鑫股份（拟上市） 承压",
+        "chain": "财务包装（剥离亏损资产）→监管问询风险→IPO审核（注册制）可能延迟或否决",
+        "watch": "深交所问询函及子公司股权转让细节"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "IPO承诺加速落地！马斯克获批收购光通信企业Mesh，推进太空算力战略",
       "source": "",
       "detail": "（来源：网易科技）马斯克旗下商业版图持续扩张。美国联邦贸易委员会（FTC）已批准其收购光通信公司Mesh Optical Technologies，标志着SpaceX近期密集并购行动再下一城。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "马斯克获批收购光通信企业Mesh推进太空算力",
-        "assets": "📈 太空通信板块 利好；📈 马斯克概念股 利好",
-        "chain": "太空算力战略落地→光通信需求激增→相关供应链（激光器、光纤）受益",
-        "watch": "Mesh公司技术参数及SpaceX星链部署进度"
+        "what": "马斯克获批收购光通信企业Mesh，推进太空算力",
+        "assets": "📈 光通信/太空算力概念 利好",
+        "chain": "收购落地→光通信技术（高速数据传输）需求扩张→卫星互联网（星链）算力链受益",
+        "watch": "Mesh公司估值及SpaceX财报中太空算力收入"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players",
       "source": "CNBC",
       "detail": "While Apple and Microsoft raise prices on key devices to help cover the soaring costs of memory, smaller consumer electronics companies are in dire straits.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "内存短缺冲击苹果微软，小企业面临生存危机",
-        "assets": "📈 存储芯片龙头（三星、美光）利好；📉 科技中小盘 承压",
-        "chain": "供应紧张→巨头囤货挤压小厂→行业集中度提升→小企业面临出清风险",
-        "watch": "DRAM（动态随机存取存储器）现货价格及三星产能指引"
+        "what": "内存短缺对苹果微软是危机，对小公司是生存威胁",
+        "assets": "📈 存储芯片（如三星） 利好\n📉 小型科技公司 承压",
+        "chain": "内存短缺（供不应求）→大厂囤货挤压小厂→行业集中度（CR5）提升，小公司面临出清",
+        "watch": "内存现货价格（如DRAMeXchange）及大厂采购量"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "U.S. strikes Iran after Trump accuses Tehran of ceasefire violation in Strait of Hormuz",
       "source": "CNBC",
       "detail": "The attack comes as the United States and Iran are supposed to be engaging in a 60-period of no hostilities as they hold talks to end their war.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美国打击伊朗，特朗普指责伊朗违反霍尔木兹停火",
-        "assets": "📈 原油 利好；📈 军工股 利好；📉 航运 承压",
-        "chain": "地缘冲突升级→霍尔木兹海峡（原油运输咽喉）风险溢价→油价飙升→通胀预期升温",
-        "watch": "美国API原油库存及伊朗反击声明"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "揭秘OpenAI错综复杂的商业合作网络：几年内背负6650亿美元账单",
-      "source": "环球市场播报",
-      "detail": "鲜有企业上市时的财务状况能像OpenAI这般特殊。 媒体审阅了这家AI初创企业的财报，从表面数据来看，它酷似一家轻资产、低负债的软件公司。",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "OpenAI商业网络复杂，未来几年背负6650亿美元账单",
-        "assets": "📉 OpenAI关联股 利空；📉 AI云服务 承压",
-        "chain": "高额成本压力→OpenAI可能寻求融资或涨价→AI服务盈利能力遭质疑→板块估值下修",
-        "watch": "OpenAI融资轮次估值及微软财报中Azure AI收入"
+        "what": "美国空袭伊朗，特朗普指控伊朗违反霍尔木兹海峡停火",
+        "assets": "📈 原油 利好\n📉 全球股市 承压",
+        "chain": "地缘冲突（中东）→原油供应风险溢价→避险情绪推升黄金及美元",
+        "watch": "霍尔木兹海峡通行量及伊朗反击行动"
       }
     }
   ]
