@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 09:56",
+  "updateTime": "2026-06-27 10:00",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "美联储官员卡什卡里称通胀压力更趋广泛，或需加息",
-        "assets": "📉 美股科技股 利空；📈 美元指数 利好",
-        "chain": "加息预期升温→风险资产（股票）承压→美债收益率（债券利息）走高",
-        "watch": "下次CPI（消费者物价指数）数据及点阵图（利率预测）变化"
+        "what": "美联储官员卡什卡里称通胀广泛，或需加息",
+        "assets": "📉 美股 承压\n📈 美元指数 利好",
+        "chain": "加息预期升温→风险资产（如股票）遭抛售→短端利率（2年期国债收益率）飙升",
+        "watch": "本周CPI（消费者物价指数）数据及点阵图"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "OpenAI未举行IPO前投资者会议，时间表未定",
-        "assets": "📉 AI概念股 承压；📈 未上市AI公司 估值存疑",
-        "chain": "IPO延迟→市场对AI泡沫担忧加剧→科技股资金流出",
-        "watch": "OpenAI融资进展及竞争对手上市动态"
+        "what": "OpenAI否认近期IPO计划，暂无时间表",
+        "assets": "📉 AI概念股 利空\n📉 科技IPO市场 承压",
+        "chain": "IPO延后→一级市场（私募融资）估值压力→AI初创公司流动性预期恶化",
+        "watch": "OpenAI新一轮融资轮及估值变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普放宽对美联储主席沃什压力，通胀超4%",
-        "assets": "📉 美元指数 承压；📈 黄金 利好",
-        "chain": "政治干预减弱→美联储独立性增强→降息预期（借钱成本降低）升温",
-        "watch": "沃什讲话及下周美联储会议纪要"
+        "what": "特朗普施压美联储主席，通胀超4%",
+        "assets": "📉 美元指数 承压\n📈 黄金 利好",
+        "chain": "政治干预→央行独立性受疑→通胀预期上升→实际利率（名义利率减通胀）下行",
+        "watch": "美联储主席Warsh公开回应及下次FOMC（联邦公开市场委员会）声明"
       }
     },
     {
@@ -51,42 +51,56 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "纽约汇市美元指数微跌，交易员下调加息预期",
-        "assets": "📉 美元指数 利空；📈 非美货币（如欧元） 利好",
-        "chain": "加息预期下调→美元走弱→大宗商品（以美元计价）价格反弹",
-        "watch": "今晚美国GDP（国内生产总值）修正值"
+        "what": "交易员下调美联储加息预期，美元微跌",
+        "assets": "📉 美元指数 承压\n📈 美股 利好",
+        "chain": "加息预期降温→美元走弱→新兴市场货币（如人民币）升值压力缓解",
+        "watch": "联邦基金期货隐含利率（市场对加息概率的定价）"
       }
     },
     {
       "rank": 5,
+      "title": "苹果涨价或预示粘性通胀来袭，美联储票委“倒戈”预计年内加息",
+      "source": "一财网",
+      "detail": "联邦基金利率期货定价显示，年底美联储加息的概率高达79%。自6月美联储决议公布以来，市场定价2026年加息的概率居高不下。随着美联储最关注的物价指标升至3年峰值...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "苹果涨价预示粘性通胀，票委预计年内加息",
+        "assets": "📉 消费电子 承压\n📈 美元 利好",
+        "chain": "粘性通胀（持久性物价上涨）→加息概率上升→高估值科技股（如苹果）估值压缩",
+        "watch": "核心PCE（个人消费支出物价指数）及苹果毛利率数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Oracle stock has worst week since 2001 dot-com bust as AI financing concerns escalate",
       "source": "CNBC",
       "detail": "Oracle's surging spending, negative free cash flow and $130 billion debt pile are weighing on the stock.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "甲骨文股价创2001年来最差周，因AI融资担忧",
-        "assets": "📉 甲骨文 利空；📉 云计算/AI基建板块 承压",
-        "chain": "AI融资收紧→资本开支（企业投资）放缓→云服务需求预期下调",
-        "watch": "甲骨文财报及AI初创公司融资数据"
+        "what": "甲骨文股价创2001年来最差周，AI融资担忧",
+        "assets": "📉 甲骨文 利空\n📉 AI算力股 承压",
+        "chain": "AI融资收紧→云服务资本开支（capex）下降→甲骨文等企业级软件需求放缓",
+        "watch": "甲骨文下季度云收入指引及AI初创融资数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "China's Zhipu is closing in on top U.S. AI models with Anthropic and OpenAI held back",
       "source": "CNBC",
       "detail": "Zhipu's GLM 5.2 shows the AI fight is shifting to who delivers the most intelligence per dollar, making open source suddenly a real contender.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "智谱AI逼近美国顶级模型，Anthropic和OpenAI受制",
-        "assets": "📈 中国AI概念股 利好；📉 美国AI龙头 承压",
-        "chain": "技术差距缩小→中美科技竞争加剧→国产替代（本土产品替换进口）逻辑强化",
-        "watch": "智谱API（应用接口）调用量及全球AI基准测试排名"
+        "what": "智谱AI逼近美国顶尖模型，Anthropic/OpenAI受限",
+        "assets": "📈 中国AI板块 利好\n📉 美股AI龙头 承压",
+        "chain": "中国AI追赶→全球AI竞争加剧→美国出口管制（芯片限制）效果存疑",
+        "watch": "智谱融资估值及中美AI基准测试（如MMLU）排名"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "IPO承诺加速落地！马斯克获批收购光通信企业Mesh，推进太空算力战略",
       "source": "",
       "detail": "（来源：网易科技）马斯克旗下商业版图持续扩张。美国联邦贸易委员会（FTC）已批准其收购光通信公司Mesh Optical Technologies，标志着SpaceX近期密集并购行动再下一城。",
@@ -94,51 +108,37 @@
       "score": 30,
       "insight": {
         "what": "马斯克获批收购光通信企业Mesh，推进太空算力",
-        "assets": "📈 太空概念股 利好；📈 光通信板块 利好",
-        "chain": "星链（卫星互联网）算力升级→卫星通信需求增加→供应链（上游配件）受益",
-        "watch": "Mesh收购完成公告及SpaceX融资动态"
+        "assets": "📈 卫星互联网 利好\n📈 光通信 利好",
+        "chain": "太空算力→低轨卫星（Starlink）需求→光模块（如中际旭创）供应链受益",
+        "watch": "SpaceX星链发射频率及Mesh整合进展"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "IPO雷达| 光远新材二次闯关，应收账款高增",
       "source": "界面",
       "detail": "河南光远新材料股份有限公司（以下简称“光远新材”）已经披露了创业板IPO申报稿，拟募资36亿元投向三大低介电玻纤产线及补充流动资金。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "光远新材二次冲刺IPO，应收账款高企",
-        "assets": "📉 光远新材 利空；📉 新材料板块 情绪承压",
-        "chain": "应收账款风险（回款慢）→现金流压力→IPO审核或更严",
-        "watch": "证监会问询回复及应收账款周转率变化"
+        "what": "光远新材二次闯关IPO，应收账款高企",
+        "assets": "📉 电子材料板块 承压\n📉 次新股 利空",
+        "chain": "应收账款高→现金流压力→IPO审核趋严→同类公司（如中材科技）估值下调",
+        "watch": "光远新材招股书更新及证监会问询反馈"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "领益智造登陆港股 “果链女王”以AI智造再闯资本新局",
       "source": "21世纪经济报道",
       "detail": "6月26日，曾芳勤带领领益智造（01688.HK）在港交所敲锣上市。有“果链女王”之称的她，在公司A股借壳上市8年后，站在了新的资本平台上。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "领益智造港股上市，“果链女王”以AI智造闯关",
-        "assets": "📈 苹果供应链 利好；📈 AI制造/自动化板块 利好",
-        "chain": "AI赋能制造→成本降低（效率提升）→苹果链估值重估",
-        "watch": "首日涨幅及机构认购情况"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Semafor：贝森特介入AI政策 此前有警告称AI或令联储支付系统面临风险",
-      "source": "环球市场播报",
-      "detail": " Semafor援引知情人士报道称，金融机构发出警告后，美国财政部长斯科特·贝森特今年早些时候寻求在人工智能（AI）政策中发挥更积极的作用。",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "贝森特介入AI政策，警告AI或威胁联储支付系统",
-        "assets": "📉 AI金融应用 利空；📉 金融科技板块 承压",
-        "chain": "监管担忧加剧→AI在金融领域部署放缓→合规成本（法律支出）上升",
-        "watch": "美联储关于AI支付系统的正式声明"
+        "what": "领益智造港股上市，AI智造概念受关注",
+        "assets": "📈 果链（苹果供应链） 利好\n📈 AI制造 利好",
+        "chain": "港股上市→资本开支扩张→AI自动化设备（如工业机器人）需求增加",
+        "watch": "领益智造首日涨幅及AI智造订单公告"
       }
     }
   ]
