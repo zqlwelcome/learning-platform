@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-27 13:56",
+  "updateTime": "2026-06-27 14:01",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 54,
       "insight": {
-        "what": "卡什卡里称通胀更广泛，美联储或需加息",
-        "assets": "📉 美股大盘 承压；📈 美元指数 利好",
-        "chain": "加息预期升温→风险资产（股票）下跌→债市（债券价格）收益率上升",
-        "watch": "本周CPI（消费者物价指数）数据及点阵图（利率预测）"
+        "what": "美联储官员卡什卡里称通胀压力更趋广泛，央行或需加息",
+        "assets": "📉 美股大盘 承压；📈 美元指数 利好；📉 美债（美国国债） 利空",
+        "chain": "加息预期升温→利率期货（赌利率走势的合约）下跌→风险资产（股票等）抛售",
+        "watch": "周五PCE（个人消费支出物价指数）数据是否超预期"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "OpenAI否认近期IPO，未安排投资者会议",
-        "assets": "📉 AI概念股 利空；📉 科技板块 承压",
-        "chain": "IPO推迟→一级市场（未上市）融资降温→二级市场（已上市）AI估值下调",
-        "watch": "OpenAI后续融资轮估值及微软财报"
+        "what": "OpenAI否认近期有Pre-IPO（上市前融资）会议或时间表",
+        "assets": "📉 AI概念股 承压；📉 科技IPO（首次公开募股） 情绪降温",
+        "chain": "上市预期推迟→一级市场（私募）估值回调→二级市场（公开交易）AI板块获利了结",
+        "watch": "OpenAI是否释放融资或上市具体信号"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 48,
       "insight": {
-        "what": "特朗普施压美联储主席沃什，通胀超4%",
-        "assets": "📉 美元指数 承压；📈 黄金 利好",
-        "chain": "政治干预降息预期→美元贬值→大宗商品（如黄金）价格上涨",
-        "watch": "美联储独立性声明及4月PCE（个人消费支出）数据"
+        "what": "特朗普施压美联储主席凯文·沃什，通胀超4%",
+        "assets": "📉 美元指数 承压；📈 美股大盘 短期利好；📈 黄金 利好",
+        "chain": "政治干预→央行独立性受质疑→降息预期升温→实际利率（名义利率减通胀）走低推黄金",
+        "watch": "沃什是否回应或美联储独立性声明"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 46,
       "insight": {
-        "what": "美元指数微跌，交易员下调加息预期",
-        "assets": "📉 美元指数 承压；📈 新兴市场货币 利好",
-        "chain": "加息预期降温→美元走弱→资金流向新兴市场（如亚洲股市）",
-        "watch": "美联储5月会议纪要及非农就业数据"
+        "what": "纽约汇市美元指数微跌，交易员下调美联储加息预期",
+        "assets": "📉 美元指数 承压；📈 非美货币（如欧元） 利好；📈 新兴市场货币 利好",
+        "chain": "加息预期降温→美元吸引力下降→资金流向非美资产（如欧元区债券）",
+        "watch": "CME FedWatch（芝加哥商品交易所利率期货）加息概率变化"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "苹果涨价暗示粘性通胀，票委预计年内加息",
-        "assets": "📉 美股消费股 利空；📈 美债收益率 上行",
-        "chain": "粘性通胀（持续高物价）→加息押注增加→企业融资成本上升打压利润",
-        "watch": "苹果季度毛利率及核心CPI（剔除食品能源）"
+        "what": "苹果涨价暗示粘性通胀（持续性涨价），美联储票委倒戈预计年内加息",
+        "assets": "📉 美股消费类 承压；📈 美元指数 利好；📉 美债 利空",
+        "chain": "粘性通胀→加息路径陡峭化→消费者支出放缓→科技股EPS（每股收益）下调",
+        "watch": "苹果季度毛利率及消费者信心指数"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "甲骨文暴跌创2001年来最差周，AI融资担忧",
-        "assets": "📉 甲骨文 利空；📉 云计算板块 承压",
-        "chain": "AI融资收紧→资本支出（如云基建）放缓→科技股估值回调",
-        "watch": "甲骨文云收入增速及AI初创公司融资数据"
+        "what": "甲骨文股价创2001年互联网泡沫后最差单周，因AI融资担忧加剧",
+        "assets": "📉 美股AI/云计算板块 承压；📉 甲骨文 利空；📉 科技成长股 利空",
+        "chain": "AI资本开支（资本支出）放缓→云服务收入预期下调→科技板块估值（市盈率）压缩",
+        "watch": "甲骨文下季度云业务营收指引及AI融资数据"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "智谱AI逼近美国顶级模型，Anthropic和OpenAI受限",
-        "assets": "📈 中国AI概念股 利好；📉 美国AI龙头 承压",
-        "chain": "中国AI追赶→全球竞争加剧→美国AI股溢价（高估值）面临修正",
-        "watch": "智谱API（应用程序接口）定价及中美芯片出口管制"
+        "what": "中国智谱AI追赶美国顶级模型，Anthropic和OpenAI发展受阻",
+        "assets": "📈 中国AI概念股 利好；📉 美股AI龙头 承压；📈 国产算力芯片 利好",
+        "chain": "中美AI竞争格局变化→中国科技自主替代加速→全球AI供应链（如芯片）重新定价",
+        "watch": "智谱AI是否发布对标GPT-5的模型及融资进展"
       }
     },
     {
@@ -107,38 +107,38 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "马斯克获批收购光通信企业Mesh，推进太空算力",
-        "assets": "📈 太空概念股 利好；📈 光通信板块 利好",
-        "chain": "太空算力（星链+AI）→卫星互联网需求爆发→相关供应链（激光通信）受益",
-        "watch": "SpaceX发射频率及Mesh技术商业化进度"
+        "what": "马斯克获批收购光通信企业Mesh，推进太空算力战略",
+        "assets": "📈 太空算力/卫星通信 利好；📈 光通信板块 利好；📈 特斯拉 情绪利好",
+        "chain": "垂直整合（收购上游）→降低星链算力成本→边缘计算（靠近用户的计算）概念升温",
+        "watch": "Mesh公司技术专利及星链算力部署时间表"
       }
     },
     {
       "rank": 9,
+      "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman",
+      "source": "CNBC",
+      "detail": "Oil extended declines on Friday, with markets focused any further breakthroughs in the Middle East conflict, while absorbing a flurry of Persian Gulf news.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "美国原油跌破70美元，阿曼附近货船遭袭后恢复跌势",
+        "assets": "📉 WTI原油（美国西得克萨斯中质原油） 利空；📉 能源股 承压；📈 航空/运输股 利好",
+        "chain": "地缘事件（袭击）脉冲失效→需求疲软主导→炼厂利润率（裂解价差）收窄",
+        "watch": "EIA（美国能源信息署）库存数据及OPEC（石油输出国组织）产量变化"
+      }
+    },
+    {
+      "rank": 10,
       "title": "Semafor：贝森特介入AI政策 此前有警告称AI或令联储支付系统面临风险",
       "source": "环球市场播报",
       "detail": " Semafor援引知情人士报道称，金融机构发出警告后，美国财政部长斯科特·贝森特今年早些时候寻求在人工智能（AI）政策中发挥更积极的作用。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "贝森特介入AI政策，警告AI或威胁联储支付系统",
-        "assets": "📉 金融科技股 利空；📈 网络安全 利好",
-        "chain": "AI风险（如欺诈）→监管加码→支付系统升级需求（如区块链替代）",
-        "watch": "美联储数字美元进展及AI金融监管法案"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "U.S. strikes Iran after Trump accuses Tehran of ceasefire violation in Strait of Hormuz",
-      "source": "CNBC",
-      "detail": "The attack comes as the United States and Iran are supposed to be engaging in a 60-period of no hostilities as they hold talks to end their war.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "美国空袭伊朗，特朗普指责伊朗违反霍尔木兹停火",
-        "assets": "📈 原油 利好；📉 全球航运 承压",
-        "chain": "中东冲突升级→石油供应中断风险→油价上涨→通胀预期升温",
-        "watch": "霍尔木兹海峡通行量及伊朗报复行动"
+        "what": "贝森特介入AI政策，此前警告AI或令美联储支付系统面临风险",
+        "assets": "📉 美国金融科技股 承压；📉 美联储数字货币概念 利空；📈 传统支付清算（如Visa） 利好",
+        "chain": "监管风险（政策干预）→AI在金融基础设施应用受限→转向传统支付系统避险",
+        "watch": "贝森特是否提出具体AI监管框架或听证会"
       }
     }
   ]
