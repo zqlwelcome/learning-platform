@@ -1,106 +1,78 @@
 {
-  "updateTime": "2026-06-28 22:51",
+  "updateTime": "2026-06-28 22:55",
   "news": [
     {
       "rank": 1,
-      "title": "“央行中的央行”拉响AI泡沫警报：万亿美元资本支出狂潮恐演变为漫长崩盘",
-      "source": "市场资讯",
-      "detail": "来源：华尔街见闻 国际清算银行（BIS）警告，科技巨头主导的AI投资热潮可能演变为“漫长投资崩盘”，动摇全球金融市场并损害世界经济。",
-      "lang": "zh",
-      "score": 43,
-      "insight": {
-        "what": "央行警告AI泡沫，万亿美元资本支出或崩盘",
-        "assets": "📉 全球AI科技股 承压, 📉 半导体ETF 利空",
-        "chain": "资本支出削减→AI企业盈利预期下调→科技板块估值回调（PE压缩）",
-        "watch": "美联储利率决议及AI龙头财报指引"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "欧洲央行执委施纳贝尔：通胀仍存上行风险，欧洲央行料将进一步加息",
-      "source": "环球市场播报",
-      "detail": "欧洲央行执委伊莎贝尔·施纳贝尔警告称，即使美伊和平协议重新开放霍尔木兹海峡，价格压力也可能比预期的更大。 施纳贝尔周六在德国一次活动上表示，“食品...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "欧洲央行官员暗示通胀风险，或继续加息",
-        "assets": "📈 欧元 走强, 📉 欧债 承压",
-        "chain": "加息预期→欧元区借贷成本上升→经济放缓风险（滞胀担忧）",
-        "watch": "欧元区CPI数据及拉加德讲话"
-      }
-    },
-    {
-      "rank": 3,
       "title": "The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players",
       "source": "CNBC",
       "detail": "While Apple and Microsoft raise prices on key devices to help cover the soaring costs of memory, smaller consumer electronics companies are in dire straits.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "内存短缺冲击苹果微软，小厂面临生存危机",
-        "assets": "📉 中小科技股 利空, 📈 美光科技 利好",
-        "chain": "供应紧张→内存价格飙升→小厂成本失控→行业集中度提升（龙头受益）",
-        "watch": "内存现货价格及HBM产能扩张公告"
+        "what": "内存短缺对苹果微软冲击小，对小型公司是生存危机",
+        "assets": "📉 小型科技股 承压，📈 内存供应商（如三星） 利好",
+        "chain": "小型企业成本飙升（运营支出增加）→ 行业集中度提升→ 大型科技公司（苹果、微软）巩固护城河（竞争优势）",
+        "watch": "内存价格指数及小盘科技股（小市值公司）财报"
       }
     },
     {
-      "rank": 4,
+      "rank": 2,
       "title": "Top Wall Street analysts are bullish on these 3 stocks for strong long-term growth potential",
       "source": "CNBC",
       "detail": "Amid volatility in global markets, top analysts can help investors look past near-term noise and pick attractive stocks with long-term potential.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师看好三只股票长期增长",
-        "assets": "📈 个股标的 利好 (需具体名称)",
-        "chain": "机构评级上调→资金流入→股价短期拉升（alpha收益）",
-        "watch": "目标价及机构持仓变化"
+        "what": "华尔街顶级分析师推荐3只长期增长股",
+        "assets": "📈 被推荐个股（需具体名称） 利好",
+        "chain": "分析师评级（专业评级）→ 资金流入→ 股价短期上涨→ 但需警惕预期过高（估值泡沫风险）",
+        "watch": "个股财报及分析师目标价（预测价格）调整"
       }
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "世界杯32强12大AI预测成绩放榜：腾讯夺冠，deepseek 仅列第四",
       "source": "新浪财经",
       "detail": " 世界杯32强全部出炉，联想集体×咪咕视频“世界杯预测人机大战”也迎来了阶段性大结算——12家大模型的32强预测成绩正式揭晓。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "AI预测世界杯32强，腾讯第一DeepSeek第四",
-        "assets": "📈 腾讯AI概念 利好, 📉 DeepSeek 利空",
-        "chain": "模型表现差异→AI应用落地能力验证→资金向头部集中（马太效应）",
-        "watch": "AI竞赛后续赛事及商业合作公告"
+        "what": "世界杯预测AI竞赛：腾讯夺冠，DeepSeek仅第四",
+        "assets": "📈 腾讯AI概念 利好，📉 DeepSeek相关 承压",
+        "chain": "AI模型竞赛（技术比拼）→ 品牌声誉差异→ 客户信任度分化→ 商业合作机会倾斜",
+        "watch": "AI模型后续比赛成绩及商业订单"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "谁是最懂球AI？世界杯32强答案揭晓：腾讯第一，DeepSeek仅列第四",
       "source": "新浪财经",
       "detail": " 随着2026年美加墨世界杯32强全部尘埃落定，由联想集团与咪咕联合发起的“世界杯预测人机大战”赛前32强竞猜成绩也正式揭晓。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "世界杯AI预测排名：腾讯夺冠，DeepSeek第四",
-        "assets": "📈 腾讯AI 利好, 📉 DeepSeek 利空",
-        "chain": "技术排名影响估值→AI赛道竞争加剧→头部企业获订单优势（护城河）",
-        "watch": "AI预测准确率及商业化进展"
+        "what": "世界杯AI预测结果：腾讯第一，DeepSeek第四",
+        "assets": "📈 腾讯AI业务 利好，📉 DeepSeek 承压",
+        "chain": "AI预测竞赛（技术验证）→ 市场关注度转移→ 潜在客户倾向选择腾讯AI服务",
+        "watch": "腾讯AI相关产品发布及DeepSeek融资动态"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "These stocks are the most oversold after a turbulent week for the market",
       "source": "CNBC",
       "detail": "Intercontinental Exchange and CME were among the most oversold stocks this week amid ongoing concerns over a regulatory spat concerning perpetual futures.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "市场动荡后，这些股票超卖",
-        "assets": "📈 超卖个股 潜在反弹 (需具体名单)",
-        "chain": "超卖信号→技术性买盘→短期均值回归（RSI修复）",
-        "watch": "RSI指标及成交量变化"
+        "what": "市场震荡后，这些股票超卖（被过度抛售）",
+        "assets": "📈 超卖个股（需具体名单） 反弹机会",
+        "chain": "技术性超卖（RSI<30）→ 均值回归（价格回到平均）预期→ 短线交易者（快进快出）抄底",
+        "watch": "RSI（相对强弱指标）及成交量变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "阿科力筹划控股权变更！股价提前涨停......",
       "source": "市场资讯",
       "detail": "这家公司筹划控股权变更！股价提前涨停…… 来源：IPO日报 6月26日晚间，阿科力（603722.SH）公布，公司于2026年6月26日收到控股股东、实际控制人朱学军、崔小丽的通知...",
@@ -108,13 +80,13 @@
       "score": 20,
       "insight": {
         "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力 利好, 📉 壳资源 关注",
-        "chain": "股权变更预期→炒作资金涌入→内幕交易风险（监管关注）",
-        "watch": "停牌公告及重组方案细节"
+        "assets": "📈 阿科力 利好，⚠️ 壳资源股（借壳上市标的） 关注",
+        "chain": "控股权变更（实际控制人变动）→ 重组预期→ 内幕交易嫌疑（涨停提前）→ 监管关注风险",
+        "watch": "停牌公告及股权转让细节"
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Google limits Meta’s use of its Gemini AI models, FT reports",
       "source": "CNBC",
       "detail": "Meta had sought more computing capacity than Google could provide, the Financial Times reports.",
@@ -122,23 +94,51 @@
       "score": 20,
       "insight": {
         "what": "谷歌限制Meta使用其Gemini AI模型",
-        "assets": "📉 Meta AI 利空, 📈 谷歌 利好",
-        "chain": "技术封锁→Meta AI研发成本上升→谷歌生态壁垒增强（护城河）",
-        "watch": "Meta替代模型进展及反垄断诉讼"
+        "assets": "📉 Meta AI业务 承压，📈 谷歌AI 利好（竞争壁垒）",
+        "chain": "AI模型授权限制→ Meta需自研或找替代→ 成本增加→ 谷歌巩固AI生态（生态系统）",
+        "watch": "Meta是否转向其他AI供应商"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "600608，明天是最后交易日！触发财务类强制退市！",
       "source": "",
       "detail": "退市沪科，明日为最后一个交易日。 6月29日，将是退市沪科（600608）在A股市场的最后一个交易日。这家登陆A股市场34年的老牌上市公司...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "股票代码600608触发财务类退市，明日最后交易",
-        "assets": "📉 退市股 利空, 📉 垃圾股 承压",
-        "chain": "退市风险→资金逃离低价股→ST板块流动性枯竭（踩踏效应）",
-        "watch": "退市整理期及后续挂牌转让安排"
+        "what": "600608触发财务类强制退市，明天最后交易日",
+        "assets": "📉 *ST股（退市风险股票） 承压，📉 小盘垃圾股（低质量股票） 恐慌",
+        "chain": "退市风险警示→ 资金逃离垃圾股→ 小盘股流动性（买卖容易度）枯竭→ 市场情绪恶化",
+        "watch": "其他*ST股是否跟跌"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
+      "source": "CNBC",
+      "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "文章称中国不试图取代美元，而是打货币战",
+        "assets": "📉 美元 短期利好，📈 人民币国际化 长期承压",
+        "chain": "货币战（汇率操纵）→ 人民币贬值预期→ 资本外流（资金流出中国）→ 亚洲货币整体走弱",
+        "watch": "人民币汇率中间价（央行指导价）及外汇储备"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
+      "source": "CNBC",
+      "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "摩根士丹利称盐是新石油，给出投资策略",
+        "assets": "📈 盐矿开采股（如SQM、ALB） 利好，📈 盐相关ETF 利好",
+        "chain": "盐需求增长（用于锂提取/工业）→ 资源稀缺溢价→ 上游矿商利润飙升→ 下游化工成本承压",
+        "watch": "盐价格指数及锂矿产量数据"
       }
     }
   ]
