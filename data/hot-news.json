@@ -35,13 +35,7 @@
       "source": "新浪财经",
       "detail": " 随着2026年美加墨世界杯32强全部尘埃落定，由联想集团与咪咕联合发起的“世界杯预测人机大战”赛前32强竞猜成绩也正式揭晓。",
       "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "ST600608触发财务类强制退市，明天最后交易日",
-        "assets": "📉 ST600608 利空（退市归零），📉 壳资源股 承压",
-        "chain": "退市常态化（加速出清垃圾股）压低壳价值，资金向绩优股（蓝筹股）迁移",
-        "watch": "退市整理期股价及后续转板安排"
-      }
+      "score": 27
     },
     {
       "rank": 4,
@@ -57,7 +51,13 @@
       "source": "CNBC",
       "detail": "Aramco had resumed crude oil loadings on Friday at its Ras Tanura terminal in the Gulf after they were halted for nearly four months.",
       "lang": "en",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "沙特阿美直升机坠毁致14人死亡",
+        "assets": "📈 原油期货 短期利多，📉 沙特阿美股价 承压",
+        "chain": "地缘风险溢价（不确定性推高油价）上升，但若证实非袭击则回吐",
+        "watch": "沙特官方事故调查结论及胡塞武装声明"
+      }
     },
     {
       "rank": 6,
@@ -67,10 +67,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14人死亡",
-        "assets": "📈 原油期货 短期利多，📉 沙特阿美股价 承压",
-        "chain": "地缘风险溢价（不确定性推高油价）上升，但若证实非袭击则回吐",
-        "watch": "沙特官方事故调查结论及胡塞武装声明"
+        "what": "阿科力筹划控股权变更，股价提前涨停",
+        "assets": "📈 阿科力股票 利好，📉 化工板块 无直接影响",
+        "chain": "控股权变更（实控人易主）通常伴随资产注入预期，但内幕交易嫌疑加大监管风险",
+        "watch": "公司正式公告及停牌复牌安排"
       }
     },
     {
@@ -81,10 +81,10 @@
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力股票 利好，📉 化工板块 无直接影响",
-        "chain": "控股权变更（实控人易主）通常伴随资产注入预期，但内幕交易嫌疑加大监管风险",
-        "watch": "公司正式公告及停牌复牌安排"
+        "what": "ST600608触发财务类强制退市，明天最后交易日",
+        "assets": "📉 ST600608 利空（退市归零），📉 壳资源股 承压",
+        "chain": "退市常态化（加速出清垃圾股）压低壳价值，资金向绩优股（蓝筹股）迁移",
+        "watch": "退市整理期股价及后续转板安排"
       }
     },
     {
@@ -92,6 +92,14 @@
       "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
       "source": "CNBC",
       "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
+      "lang": "en",
+      "score": 17
+    },
+    {
+      "rank": 9,
+      "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
+      "source": "CNBC",
+      "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
       "lang": "en",
       "score": 17,
       "insight": {
@@ -102,10 +110,10 @@
       }
     },
     {
-      "rank": 9,
-      "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
+      "rank": 10,
+      "title": "These 10 Chinese stocks are powering U.S. data centers",
       "source": "CNBC",
-      "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
+      "detail": "Many of the top-performing mainland Chinese stocks this year make components used in data centers globally, according to 22V Research.",
       "lang": "en",
       "score": 17,
       "insight": {
@@ -114,14 +122,6 @@
         "chain": "AI算力需求爆发（训练模型耗电）拉动中国电力基建出口，中美脱钩（供应链分割）下替代效应",
         "watch": "美国数据中心资本开支及中国电力设备出口数据"
       }
-    },
-    {
-      "rank": 10,
-      "title": "These 10 Chinese stocks are powering U.S. data centers",
-      "source": "CNBC",
-      "detail": "Many of the top-performing mainland Chinese stocks this year make components used in data centers globally, according to 22V Research.",
-      "lang": "en",
-      "score": 17
     }
   ]
 }
