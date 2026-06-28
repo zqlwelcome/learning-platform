@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "苹果微软遭遇内存短缺，小公司面临存亡危机",
-        "assets": "📈 半导体内存股 利好；📉 中小科技硬件商 承压",
-        "chain": "内存涨价→小厂成本激增→行业集中度提升（头部效应），可能触发供应链重组",
-        "watch": "内存现货价格及头部厂商产能扩张计划"
+        "what": "内存短缺冲击苹果微软，小公司面临存亡危机",
+        "assets": "📈 内存制造商 利好",
+        "chain": "内存涨价→小厂成本飙升→行业集中度提升（市场向大厂集中），科技巨头议价能力增强",
+        "watch": "内存现货价格及小厂财报"
       }
     },
     {
@@ -21,7 +21,13 @@
       "source": "CNBC",
       "detail": "Amid volatility in global markets, top analysts can help investors look past near-term noise and pick attractive stocks with long-term potential.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街顶级分析师看好3只股票长期增长",
+        "assets": "📈 个股标的 利好",
+        "chain": "分析师评级→机构资金流入→股价短期拉升（资金推动），但需警惕追涨风险",
+        "watch": "目标价达成情况及盈利报告"
+      }
     },
     {
       "rank": 3,
@@ -31,10 +37,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "世界杯32强AI预测赛果：腾讯夺冠，DeepSeek第四",
-        "assets": "📈 腾讯AI业务 品牌利好；📉 DeepSeek 声誉承压",
-        "chain": "AI竞赛结果→影响客户选择→腾讯或获更多企业订单，DeepSeek需证明实力",
-        "watch": "AI模型后续商业合同及技术迭代"
+        "what": "世界杯32强AI预测：腾讯夺冠，DeepSeek仅第四",
+        "assets": "📈 腾讯AI概念 利好；📉 DeepSeek概念 利空",
+        "chain": "AI竞技排名→品牌效应→吸引资本和用户（流量变现），引发行业洗牌预期",
+        "watch": "腾讯AI产品用户增长与DeepSeek后续改进"
       }
     },
     {
@@ -45,10 +51,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "ST沪科（600608）明天最后交易日，触发强制退市",
-        "assets": "📉 ST沪科 利空（退市）",
-        "chain": "退市→资金出逃→壳价值归零，可能拖累同类ST股情绪",
-        "watch": "退市整理期股价表现及后续索赔事件"
+        "what": "世界杯AI预测结果：腾讯第一，DeepSeek第四",
+        "assets": "📈 腾讯AI 利好；📉 DeepSeek 承压",
+        "chain": "排名曝光→市场情绪→资金流向龙头（资金偏好），小厂面临信任危机",
+        "watch": "AI竞猜平台后续合作动态"
       }
     },
     {
@@ -57,7 +63,13 @@
       "source": "CNBC",
       "detail": "Intercontinental Exchange and CME were among the most oversold stocks this week amid ongoing concerns over a regulatory spat concerning perpetual futures.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "市场动荡后，这些股票超卖（超跌）",
+        "assets": "📈 超卖个股 反弹机会",
+        "chain": "超卖信号→技术性买盘（逢低买入）→短期反弹，但需基本面支撑",
+        "watch": "RSI（相对强弱指标）及成交量变化"
+      }
     },
     {
       "rank": 6,
@@ -67,10 +79,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "华尔街顶级分析师看好3只长期增长股",
-        "assets": "📈 特定个股（需具体名称） 利好",
-        "chain": "分析师背书→机构资金流入→估值溢价，但需警惕一致预期过挤",
-        "watch": "个股财报及机构持仓变化"
+        "what": "阿科力筹划控股权变更，股价提前涨停",
+        "assets": "📈 阿科力 利好",
+        "chain": "控股权变更→资产重组预期→炒作情绪（投机）→股价异动，内幕交易风险高",
+        "watch": "停牌公告及交易监管调查"
       }
     },
     {
@@ -81,10 +93,10 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力 利好（内幕交易嫌疑）",
-        "chain": "控股权变更→估值重估（资产注入预期）→小股东跟风，但监管风险上升",
-        "watch": "停牌公告及交易异常核查"
+        "what": "谷歌限制Meta使用其Gemini AI模型",
+        "assets": "📈 谷歌AI 利好；📉 Meta AI 利空",
+        "chain": "限制合作→Meta算力成本上升→AI竞争格局分化（技术壁垒），谷歌生态护城河加深",
+        "watch": "Meta AI模型替代方案及谷歌API政策"
       }
     },
     {
@@ -95,10 +107,10 @@
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "谷歌限制Meta使用其Gemini AI模型",
-        "assets": "📈 谷歌 竞争利好；📉 Meta AI发展 承压",
-        "chain": "AI模型授权收紧→Meta需自研或找替代→增加研发成本，谷歌巩固生态",
-        "watch": "Meta自研AI进展及替代供应商动向"
+        "what": "600608触发财务类强制退市，明天最后交易日",
+        "assets": "📉 *ST个股 利空",
+        "chain": "退市触发→垃圾股流动性枯竭（资金撤离）→壳价值暴跌，ST板块承压",
+        "watch": "退市整理期股价及后续挂牌安排"
       }
     },
     {
@@ -109,10 +121,10 @@
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "摩根士丹利称盐是新石油，并提供投资策略",
-        "assets": "📈 盐业股/钾肥 利好；📉 传统能源替代逻辑",
-        "chain": "盐需求（工业+能源）→资源股重估→或引发盐矿并购潮，类似锂矿故事",
-        "watch": "盐期货价格及主要盐企产能扩张"
+        "what": "全球货币战：中国无意取代美元地位",
+        "assets": "📉 美元 利好；📈 人民币 中性",
+        "chain": "货币战解读→美元霸权稳固→新兴市场货币承压（汇率波动），人民币国际化需长期",
+        "watch": "人民币汇率及央行外汇储备变动"
       }
     },
     {
@@ -123,10 +135,10 @@
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "若认为中国需取代美元，则不懂全球货币战",
-        "assets": "📈 美元指数 利好；📉 人民币国际化预期 承压",
-        "chain": "货币战本质是利率与贸易→美元霸权短期难撼→新兴市场货币波动加剧",
-        "watch": "人民币汇率及中国央行外汇储备变动"
+        "what": "摩根士丹利：盐是新石油，建议布局",
+        "assets": "📈 盐业股/锂提取 利好",
+        "chain": "盐需求→资源争夺→新能源供应链（如锂矿）成本上升，相关ETF或受益",
+        "watch": "盐价走势及新能源政策补贴"
       }
     }
   ]
