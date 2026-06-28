@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 04:15",
+  "updateTime": "2026-06-29 04:20",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "CNBC",
       "detail": "While Apple and Microsoft raise prices on key devices to help cover the soaring costs of memory, smaller consumer electronics companies are in dire straits.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "内存短缺冲击苹果微软，小公司面临生存危机",
+        "assets": "📉 半导体板块 利空，📈 存储芯片制造商 利好",
+        "chain": "小公司难获HBM（高带宽内存）供应，加速行业整合，头部大厂议价能力增强",
+        "watch": "关注美光科技、三星HBM产能扩张进度"
+      }
     },
     {
       "rank": 2,
@@ -31,10 +37,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "ST华仪（600608）触发财务类强制退市，明日最后交易日",
-        "assets": "📉 ST板块 退市风险溢价上升",
-        "chain": "退市常态化加速，垃圾股（业绩差公司）流动性枯竭，资金向蓝筹（大市值优质股）迁移",
-        "watch": "退市整理期股价波动；其他ST股年报审计结果"
+        "what": "AI预测世界杯成绩：腾讯夺冠，DeepSeek仅列第四",
+        "assets": "📉 AI概念股 分化",
+        "chain": "AI应用场景验证，腾讯技术实力获背书，但DeepSeek预期差（实际与预测不符）利空其估值",
+        "watch": "腾讯AI业务收入增速；DeepSeek用户增长数据"
       }
     },
     {
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "Intercontinental Exchange and CME were among the most oversold stocks this week amid ongoing concerns over a regulatory spat concerning perpetual futures.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "市场动荡后部分股票超卖",
+        "assets": "📈 超卖股 短期反弹机会",
+        "chain": "RSI（相对强弱指标）低于30可能触发均值回归（价格回归平均线），但需警惕趋势反转",
+        "watch": "超卖个股财报及后续成交量"
+      }
     },
     {
       "rank": 5,
@@ -51,7 +63,13 @@
       "source": "CNBC",
       "detail": "Aramco had resumed crude oil loadings on Friday at its Ras Tanura terminal in the Gulf after they were halted for nearly four months.",
       "lang": "en",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "沙特阿美直升机坠毁致14名国民死亡",
+        "assets": "📉 沙特股市 情绪承压；📈 原油 地缘风险溢价",
+        "chain": "事故引发对沙特运营安全担忧，短期推高原油避险需求，但影响有限",
+        "watch": "沙特阿美后续安全声明；原油库存数据"
+      }
     },
     {
       "rank": 6,
@@ -61,10 +79,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14名国民死亡",
-        "assets": "📉 沙特股市 情绪承压；📈 原油 地缘风险溢价",
-        "chain": "事故引发对沙特运营安全担忧，短期推高原油避险需求，但影响有限",
-        "watch": "沙特阿美后续安全声明；原油库存数据"
+        "what": "阿科力筹划控股权变更，股价提前涨停",
+        "assets": "📈 阿科力 利好；📉 其他小盘股 内幕交易嫌疑",
+        "chain": "内幕交易（非公开信息提前泄露）风险上升，监管可能加强，小盘股流动性溢价（交易难度补偿）收缩",
+        "watch": "公司停牌复牌公告；证监会是否立案调查"
       }
     },
     {
@@ -75,10 +93,10 @@
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "市场动荡后部分股票超卖",
-        "assets": "📈 超卖股 短期反弹机会",
-        "chain": "RSI（相对强弱指标）低于30可能触发均值回归（价格回归平均线），但需警惕趋势反转",
-        "watch": "超卖个股财报及后续成交量"
+        "what": "ST华仪（600608）触发财务类强制退市，明日最后交易日",
+        "assets": "📉 ST板块 退市风险溢价上升",
+        "chain": "退市常态化加速，垃圾股（业绩差公司）流动性枯竭，资金向蓝筹（大市值优质股）迁移",
+        "watch": "退市整理期股价波动；其他ST股年报审计结果"
       }
     },
     {
@@ -89,10 +107,10 @@
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力 利好；📉 其他小盘股 内幕交易嫌疑",
-        "chain": "内幕交易（非公开信息提前泄露）风险上升，监管可能加强，小盘股流动性溢价（交易难度补偿）收缩",
-        "watch": "公司停牌复牌公告；证监会是否立案调查"
+        "what": "中国未必寻求取代美元，而是通过策略性货币战提升影响力。",
+        "assets": "📈 人民币 短期稳定；📉 美元指数 承压；📈 新兴市场货币 波动加大",
+        "chain": "中国通过双边本币互换、人民币跨境结算和黄金储备积累，逐步削弱美元主导地位，而非直接挑战。此举可能降低全球对美元依赖，但短期人民币升值压力有限，因中国央行倾向维稳。新兴市场货币可能因人民币走强而受益，但美元流动性收紧将加剧波动。",
+        "watch": "人民币汇率中间价是否持续偏强；中国央行是否扩大互换协议规模；美联储利率路径对美元指数的反馈"
       }
     },
     {
