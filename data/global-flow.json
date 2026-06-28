@@ -1,59 +1,130 @@
 {
-  "updateTime": "2026-06-16 15:01",
+  "updateTime": "2026-06-29 04:37",
   "indices": {
     "usIXIC": {
       "name": "纳斯达克",
       "region": "🇺🇸 美股",
-      "value": "26683.94",
-      "change": "3.07"
+      "value": "25297.62",
+      "change": "-0.24"
     },
     "usDJI": {
       "name": "道琼斯",
       "region": "🇺🇸 美股",
-      "value": "51671.03",
-      "change": "0.92"
+      "value": "51876.11",
+      "change": "-0.09"
     },
     "sh000001": {
       "name": "上证指数",
       "region": "🇨🇳 A股",
-      "value": "4091.89",
-      "change": "-0.11"
+      "value": "4027.26",
+      "change": "-2.26"
     },
     "hkHSI": {
       "name": "恒生指数",
       "region": "🇭🇰 港股",
-      "value": "24388.570",
-      "change": "-1.83"
+      "value": "22671.860",
+      "change": "-1.76"
     }
   },
-  "etf_flows": [],
-  "sector_flows": [],
-  "northbound": null,
-  "bank_news": [
+  "etf_flows": [
     {
-      "title": "日本央行副行长内田真一：考虑加息步伐时将观察中东局势",
-      "source": "环球市场播报",
-      "keyword": "央行"
+      "name": "信息技术ETF广发",
+      "code": "159939",
+      "price": 1.388,
+      "change": -2.66,
+      "flow": 49464705.0,
+      "flow_str": "+4946.47万",
+      "direction": "in"
     },
     {
-      "title": "日本央行副行长内田：将根据经济情况决定是否继续加息",
-      "source": "环球市场播报",
-      "keyword": "央行"
+      "name": "卫星ETF永赢",
+      "code": "159206",
+      "price": 1.672,
+      "change": 1.95,
+      "flow": 49204384.0,
+      "flow_str": "+4920.44万",
+      "direction": "in"
     },
     {
-      "title": "日本央行加息至1%，为1995年以来首次",
-      "source": "环球市场播报",
-      "keyword": "央行"
+      "name": "港股低波红利ETF摩根",
+      "code": "513630",
+      "price": 1.468,
+      "change": -1.01,
+      "flow": 45681156.0,
+      "flow_str": "+4568.12万",
+      "direction": "in"
     },
     {
-      "title": "美联储加息预期降温，金价延续反弹",
-      "source": "界面",
-      "keyword": "美联储"
+      "name": "卫星ETF富国",
+      "code": "563230",
+      "price": 1.348,
+      "change": 0.67,
+      "flow": 44441003.0,
+      "flow_str": "+4444.10万",
+      "direction": "in"
     },
     {
-      "title": "澳洲央行维持利率不变，警告随时可能加息以抑制通胀",
-      "source": "环球市场播报",
-      "keyword": "央行"
+      "name": "电子ETF天弘",
+      "code": "159997",
+      "price": 2.662,
+      "change": -2.49,
+      "flow": 37930281.0,
+      "flow_str": "+3793.03万",
+      "direction": "in"
     }
-  ]
+  ],
+  "sector_flows": [
+    {
+      "name": "面板",
+      "code": "BK1335",
+      "index": 3887.71,
+      "change": 0.15,
+      "flow": 4025548032.0,
+      "flow_str": "+40.26亿",
+      "direction": "in"
+    },
+    {
+      "name": "光学光电子",
+      "code": "BK1038",
+      "index": 2459.55,
+      "change": 0.35,
+      "flow": 3776760832.0,
+      "flow_str": "+37.77亿",
+      "direction": "in"
+    },
+    {
+      "name": "光伏设备",
+      "code": "BK1031",
+      "index": 1300.56,
+      "change": -0.7,
+      "flow": 2504937728.0,
+      "flow_str": "+25.05亿",
+      "direction": "in"
+    },
+    {
+      "name": "航天装备Ⅲ",
+      "code": "BK1385",
+      "index": 5340.6,
+      "change": 4.25,
+      "flow": 2174875296.0,
+      "flow_str": "+21.75亿",
+      "direction": "in"
+    },
+    {
+      "name": "航天装备Ⅱ",
+      "code": "BK1232",
+      "index": 5340.6,
+      "change": 4.25,
+      "flow": 2174875296.0,
+      "flow_str": "+21.75亿",
+      "direction": "in"
+    }
+  ],
+  "northbound": {
+    "time": "15:00",
+    "hgt": 0.0,
+    "sgt": 5200000.0,
+    "total": 0.0
+  },
+  "bank_news": []
 }
