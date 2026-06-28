@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 07:46",
+  "updateTime": "2026-06-29 07:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加息预期松绑，黄金受提振",
-        "assets": "📈 黄金 利好",
-        "chain": "避险情绪降温（市场害怕程度降低），美元可能走弱，利好商品货币",
-        "watch": "美伊多哈会晤结果及PCE数据"
+        "what": "加息预期松动，黄金受提振；伊朗威胁控制海峡支撑油价",
+        "assets": "📈 黄金 利好；📈 原油 利好",
+        "chain": "降息预期（借钱成本降低）推动金价；地缘风险溢价（战争风险推高油价）利好能源股",
+        "watch": "美伊多哈会晤结果；美联储利率决议"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "海外央行货币政策分化",
-        "assets": "📉 美元指数 承压；📈 欧元/日元 走强",
-        "chain": "利差交易（赚不同国家利息差）活跃，资金流向高息货币",
-        "watch": "各央行利率决议及通胀数据"
+        "what": "海外主要央行货币政策分化，反映经济复苏节奏不一",
+        "assets": "📉 美元指数 承压；📈 非美货币 分化",
+        "chain": "分化导致利差交易（套利）波动，资金流向高息货币，避险资产需求下降",
+        "watch": "各央行利率决议；PMI数据"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "本周2新股申购，半导体供应商上市",
-        "assets": "📈 A股半导体板块 利好",
-        "chain": "IPO抽血（新股上市吸走资金）效应有限，但提振国产替代概念",
-        "watch": "新股上市首日涨幅"
+        "what": "本周2只新股申购，涉及北方华创、中微公司供应商",
+        "assets": "📈 半导体设备板块 利好",
+        "chain": "新股上市吸引资金关注，产业链上游（设备材料）估值或受提振，科创板流动性提升",
+        "watch": "新股中签率及首日涨幅"
       }
     },
     {
       "rank": 4,
+      "title": "黄金交易提醒：9月加息预期升温，金价周线四连阴，多头可以抄底了吗？",
+      "source": "市场资讯",
+      "detail": "文章来源：汇通财经 现货黄金在上周五（6月26日）勉强反弹1.35%，收于4081.02美元/盎司，但这微不足道的涨幅，无法掩盖一个残酷的事实——金价已连续第四周下跌。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "9月加息预期升温，金价周线四连阴，多头犹豫",
+        "assets": "📉 黄金 承压",
+        "chain": "加息预期（美元借贷成本上升）压制金价，实际利率（扣除通胀的利率）走高利空贵金属",
+        "watch": "美国CPI数据；美联储官员讲话"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Stock futures rise along with oil prices as traders weigh U.S. attacks on Iran over the weekend: Live updates",
       "source": "CNBC",
       "detail": "Wall Street is coming off a mixed week, characterized by a rotation out of tech and into other parts of the stock market.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美股期货随油价上涨，因美伊冲突",
-        "assets": "📈 美股能源股 利好；📉 美股大盘 承压",
-        "chain": "油价上涨推升通胀预期（物价上涨），或延迟降息",
-        "watch": "WTI原油价格及冲突升级信号"
+        "what": "美股期货随油价上涨，因美国周末攻击伊朗引发避险",
+        "assets": "📈 美股能源股 利好；📈 原油 利好",
+        "chain": "地缘冲突（战争风险）推高油价，能源板块领涨，但科技股可能因避险情绪承压",
+        "watch": "中东冲突升级情况；API原油库存"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players",
       "source": "CNBC",
       "detail": "While Apple and Microsoft raise prices on key devices to help cover the soaring costs of memory, smaller consumer electronics companies are in dire straits.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "内存短缺对苹果微软是危机，小玩家更惨",
-        "assets": "📈 美股半导体巨头 利好；📉 小型科技股 利空",
-        "chain": "供应链集中度提高（大厂更易拿货），小厂面临生存风险",
-        "watch": "美光/三星财报及DRAM价格"
+        "what": "内存短缺冲击苹果微软，小公司面临生存危机",
+        "assets": "📈 内存芯片股 利好；📉 非巨头科技股 利空",
+        "chain": "供给瓶颈（产能不足）推高芯片价格，头部企业有议价能力，小公司成本压力加大",
+        "watch": "美光财报；内存现货价格"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Saudi Aramco helicopter crash kills 14 nationals, state news agency says",
       "source": "CNBC",
       "detail": "Aramco had resumed crude oil loadings on Friday at its Ras Tanura terminal in the Gulf after they were halted for nearly four months.",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14人死亡",
-        "assets": "📈 原油 短期波动；📉 沙特股市 承压",
-        "chain": "供应中断风险（生产可能受影响），但实际产量影响有限",
-        "watch": "沙特阿美官方声明及产量数据"
+        "what": "沙特阿美直升机坠毁致14名国民死亡",
+        "assets": "📉 沙特阿美 承压；📈 原油 短期波动",
+        "chain": "事故可能影响沙特运营信心，短期地缘风险（供应中断担忧）支撑油价，但影响有限",
+        "watch": "沙特官方调查声明；阿美产量数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "美联储巴尔金：油价降了，通胀却未必降！4.1%PCE令美联储保持警惕",
       "source": "市场资讯",
       "detail": "文章来源：金十数据 5月通胀数据的走高，使美联储内部对物价走势的判断再度趋于谨慎。美国商务部数据显示，截至2026年5月的个人消费支出价格指数（PCE）同比上涨4.1%...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "美联储巴尔金：油价降但通胀未必降",
+        "what": "美联储巴尔金：油价降但通胀未必降，4.1%PCE令人警惕",
         "assets": "📉 美股 承压；📈 美元 利好",
-        "chain": "鹰派信号（偏收紧货币），市场降息预期降温",
-        "watch": "后续PCE及核心CPI数据"
+        "chain": "鹰派言论（偏紧缩）强化加息预期，高通胀（物价上涨）压低风险资产估值，美元走强",
+        "watch": "PCE数据；美联储点阵图"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美联储巴尔金：当前通胀水平仍然过高 但已看到缓解迹象",
       "source": "智通财经APP",
       "detail": "里士满联储主席巴尔金警告称，当前通胀水平仍然过高，不过他也看到一些初步迹象表明，价格压力可能很快开始缓解。 上周四公布的数据显示...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "巴尔金：通胀仍高但有缓解迹象",
-        "assets": "📈 美股 中性偏多；📉 美债收益率 下行",
-        "chain": "政策观望期（暂停加息），但降息仍需确认",
-        "watch": "就业及薪资数据"
+        "what": "美联储巴尔金：通胀仍过高但已现缓解迹象",
+        "assets": "📉 美债收益率 承压；📈 美股 短期利好",
+        "chain": "缓解迹象（通胀回落）降低激进加息概率，风险偏好回升，科技股或受益于利率预期下降",
+        "watch": "核心PCE环比数据；就业报告"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
       "source": "CNBC",
       "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "中国无需取代美元，因正打货币战争",
+        "what": "分析称中国挑战美元霸权是误解，实际在打货币战争",
         "assets": "📉 人民币 承压；📈 美元 利好",
-        "chain": "汇率操纵（央行干预）和资本管制，削弱人民币国际化",
-        "watch": "人民币中间价及外汇储备变动"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
-      "source": "CNBC",
-      "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "摩根士丹利：盐是新石油，推荐布局",
-        "assets": "📈 盐矿/锂矿股 利好；📈 大宗商品ETF 利好",
-        "chain": "资源稀缺性（盐用于新能源），资金轮动至原材料板块",
-        "watch": "盐/锂价格指数及新能源政策"
+        "chain": "货币战争（汇率操控竞争）可能导致人民币贬值，削弱新兴市场货币，全球贸易成本上升",
+        "watch": "中国外汇储备；人民币汇率中间价"
       }
     }
   ]
