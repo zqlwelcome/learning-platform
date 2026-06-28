@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 03:00",
+  "updateTime": "2026-06-29 03:05",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "CNBC",
       "detail": "While Apple and Microsoft raise prices on key devices to help cover the soaring costs of memory, smaller consumer electronics companies are in dire straits.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "内存短缺冲击苹果微软，小企业面临生存危机",
+        "assets": "📉 半导体（芯片）股 利空；📈 内存制造商（如三星） 利多",
+        "chain": "供应紧张（供给不足）推高成本，压缩科技公司利润，小企业可能被淘汰出局（市场集中度提升）",
+        "watch": "内存价格指数及苹果微软财报中的库存数据"
+      }
     },
     {
       "rank": 2,
@@ -17,10 +23,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "AI预测世界杯排名，腾讯第一，DeepSeek第四",
-        "assets": "📈 AI概念股 分化；📉 DeepSeek相关标的 承压",
-        "chain": "资本向头部AI应用集中（资金流向头部），中小模型面临信任危机（市场信心受损）",
-        "watch": "腾讯AI业务营收变化及DeepSeek后续模型发布"
+        "what": "世界杯32强AI预测：腾讯夺冠，DeepSeek仅第四",
+        "assets": "📈 腾讯（港股/中概股） 利好；📉 DeepSeek关联资产 利空",
+        "chain": "AI竞赛（人工智能竞争）中头部企业获市场认可，资金向已验证模型集中（马太效应）",
+        "watch": "腾讯AI业务营收及用户增长数据"
       }
     },
     {
@@ -31,10 +37,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "ST股票600608明天最后交易日，触发强制退市",
-        "assets": "📉 ST板块 承压；📈 退市风险股 分化",
-        "chain": "退市常态化加速（市场出清），垃圾股流动性枯竭（资金逃离）",
-        "watch": "退市整理期交易量及后续索赔进展"
+        "what": "世界杯32强AI预测结果：腾讯第一，DeepSeek第四",
+        "assets": "📈 腾讯（港股/中概股） 利好；📉 DeepSeek关联资产 利空",
+        "chain": "AI预测能力成品牌背书（信誉加分），影响投资者对AI公司估值预期（估值模型调整）",
+        "watch": "后续AI赛事预测准确率及合作订单"
       }
     },
     {
@@ -43,7 +49,13 @@
       "source": "CNBC",
       "detail": "Intercontinental Exchange and CME were among the most oversold stocks this week amid ongoing concerns over a regulatory spat concerning perpetual futures.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "市场动荡周后，这些股票超卖",
+        "assets": "📈 超卖个股（如科技、消费） 短线反弹机会",
+        "chain": "超卖（RSI<30）触发均值回归（价格回归平均水平）交易，资金涌入博反弹（短线投机）",
+        "watch": "RSI指标及成交量是否放大确认底部"
+      }
     },
     {
       "rank": 5,
@@ -51,7 +63,13 @@
       "source": "CNBC",
       "detail": "Aramco had resumed crude oil loadings on Friday at its Ras Tanura terminal in the Gulf after they were halted for nearly four months.",
       "lang": "en",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "沙特阿美直升机坠毁致14名国民死亡",
+        "assets": "📉 沙特阿美（石油股） 短期利空；📉 沙特里亚尔 承压",
+        "chain": "安全事故引发运营担忧（生产中断风险），但影响有限，油价短期波动后回归供需（基本面主导）",
+        "watch": "沙特阿美官方声明及事故调查进展"
+      }
     },
     {
       "rank": 6,
@@ -61,10 +79,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14名国民死亡",
-        "assets": "📉 沙特股市 短期承压；📈 油价 避险微涨",
-        "chain": "地缘政治风险溢价上升（市场恐慌情绪推高价格），但影响有限",
-        "watch": "沙特阿美运营公告及原油库存数据"
+        "what": "阿科力筹划控股权变更，股价提前涨停",
+        "assets": "📈 阿科力（A股） 利好；📉 其他化工股 中性",
+        "chain": "控股权变更（大股东换人）触发重组预期（资产注入或业务转型），市场炒作溢价（投机情绪）",
+        "watch": "股权转让公告细节及监管问询"
       }
     },
     {
@@ -75,10 +93,10 @@
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力 利好；📉 其他小市值壳股 跟风",
-        "chain": "内幕交易嫌疑引发监管关注（监管风险），壳价值炒作短期活跃",
-        "watch": "股权转让公告细节及交易所问询函"
+        "what": "股票600608因财务强制退市，明天最后交易日",
+        "assets": "📉 *ST股（退市风险股） 利空；📈 壳资源（借壳上市） 中性",
+        "chain": "退市常态化（监管趋严）打击垃圾股投机，资金转向优质蓝筹（避险轮动）",
+        "watch": "退市整理期股价走势及后续索赔事件"
       }
     },
     {
@@ -89,10 +107,10 @@
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "摩根士丹利称盐是新的石油，建议布局",
-        "assets": "📈 盐业股 利好；📈 锂/钠电池材料 关联利好",
-        "chain": "盐作为储能原料需求爆发（新能源产业链上游），资源股估值重估",
-        "watch": "盐矿公司财报及钠离子电池量产进度"
+        "what": "分析称中国无法取代美元全球货币地位",
+        "assets": "📈 美元指数 利好；📉 人民币 承压；📉 黄金 中性",
+        "chain": "美元霸权（美国货币主导权）稳固，人民币国际化（跨境使用）遇阻，资本回流美元资产（避险）",
+        "watch": "人民币汇率及中国央行外汇储备变动"
       }
     },
     {
@@ -103,10 +121,10 @@
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "10只中国股票为美国数据中心供电",
-        "assets": "📈 中国电力设备股 利好；📈 数据中心基建 受益",
-        "chain": "AI算力需求拉动电力基建（产业链传导），中国供应链替代加速",
-        "watch": "相关公司订单数据及美国数据中心资本开支计划"
+        "what": "摩根士丹利称盐是新石油，教您如何布局",
+        "assets": "📈 盐业股（如食盐开采商） 利好；📈 锂矿/新能源 中性",
+        "chain": "盐（工业必需品）需求增长类似石油（资源稀缺性），推动相关公司估值重估（重新定价）",
+        "watch": "盐价指数及工业用盐需求报告"
       }
     },
     {
@@ -115,7 +133,13 @@
       "source": "CNBC",
       "detail": "Many of the top-performing mainland Chinese stocks this year make components used in data centers globally, according to 22V Research.",
       "lang": "en",
-      "score": 17
+      "score": 17,
+      "insight": {
+        "what": "这10只中国股票为美国数据中心供电",
+        "assets": "📈 中国电力设备股（如电网、电池） 利好",
+        "chain": "AI算力（人工智能计算能力）扩张推高电力需求，中国供应链受益于出口（全球分工）",
+        "watch": "美国数据中心建设招标及中国电力设备出口数据"
+      }
     }
   ]
 }
