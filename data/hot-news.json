@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 43,
       "insight": {
-        "what": "BIS警告AI泡沫，万亿美元资本支出或崩盘",
-        "assets": "📉 全球科技股 承压, 📉 AI相关ETF 利空",
-        "chain": "资本支出削减→科技公司估值回调（PE压缩）→避险情绪升温（资金流入国债）",
-        "watch": "大型科技公司Q2资本开支指引"
+        "what": "BIS警告AI泡沫，万亿资本支出或致崩盘",
+        "assets": "📉 全球科技股 利空；📉 纳斯达克指数 承压",
+        "chain": "AI资本支出（Capex）若收缩，芯片和云服务需求下降，引发科技板块估值回调（PE压缩）",
+        "watch": "BIS后续报告及科技巨头Q2资本支出指引"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "BIS称债务、AI泡沫和经济脆弱性推高全球风险",
-        "assets": "📉 全球股市 承压, 📈 黄金 避险利好",
-        "chain": "风险预警→投资者避险（降低杠杆）→新兴市场资金外流",
-        "watch": "VIX指数（恐慌指数）及信用利差"
+        "what": "内存短缺对苹果微软影响小，小公司面临生存危机",
+        "assets": "📉 中小型半导体股 利空；📈 苹果、微软 相对利好",
+        "chain": "内存供应紧张（DRAM/NAND缺货）推高价格，小公司成本飙升或破产，行业集中度提升",
+        "watch": "美光、三星内存出货量及价格指数"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "CNBC",
       "detail": "Amid volatility in global markets, top analysts can help investors look past near-term noise and pick attractive stocks with long-term potential.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街分析师看好3只股票长期增长潜力",
+        "assets": "📈 个股（具体标的待查） 利好",
+        "chain": "分析师评级上调（Buy评级）吸引资金流入，短期股价获支撑，但需警惕市场情绪过热",
+        "watch": "目标价与当前股价价差及财报季业绩"
+      }
     },
     {
       "rank": 5,
@@ -73,10 +79,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "内存短缺对苹果微软是冲击，对小厂是生存危机",
-        "assets": "📉 中小科技股 利空, 📈 内存芯片股 利好",
-        "chain": "供应紧张→芯片涨价→小厂成本飙升（毛利率下降）→行业整合加速",
-        "watch": "三星、海力士内存报价"
+        "what": "同新闻5，AI预测世界杯排名结果公布",
+        "assets": "📈 腾讯AI概念 利好；📉 DeepSeek相关 利空",
+        "chain": "同5，排名差异引发资金重新配置，头部AI公司获溢价（估值提升）",
+        "watch": "AI模型基准测试（如MMLU）最新排名"
       }
     },
     {
@@ -85,7 +91,13 @@
       "source": "CNBC",
       "detail": "Intercontinental Exchange and CME were among the most oversold stocks this week amid ongoing concerns over a regulatory spat concerning perpetual futures.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "市场动荡后，这些股票进入超卖区间",
+        "assets": "📈 超卖个股（如RSI<30） 反弹机会",
+        "chain": "超卖（相对强弱指标RSI低于30）可能触发技术性买盘和空头回补（Short squeeze），短期反弹",
+        "watch": "RSI指数回升至50以上及成交量变化"
+      }
     },
     {
       "rank": 8,
@@ -95,10 +107,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "华尔街分析师看好3只个股长期增长潜力",
-        "assets": "📈 个股（具体待查） 利好, 📈 成长股板块 偏多",
-        "chain": "机构评级上调→资金流入个股→带动相关行业ETF跟涨",
-        "watch": "目标价及机构持仓变化"
+        "what": "阿科力筹划控股权变更，股价提前涨停",
+        "assets": "📈 阿科力 利好；📉 其他化工股 中性",
+        "chain": "控股权变更（Control change）通常引发重组预期，股价异动（Abnormal move）或存在内幕交易风险（Insider trading）",
+        "watch": "停牌公告及股权转让细节披露"
       }
     },
     {
@@ -109,10 +121,10 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力 利好, 📉 小盘壳资源 波动",
-        "chain": "股权变更预期→壳价值重估（溢价收购）→跟风炒作小盘股",
-        "watch": "控股权转让公告细节及监管问询"
+        "what": "谷歌限制Meta使用其Gemini AI模型",
+        "assets": "📉 Meta AI业务 利空；📈 谷歌AI 相对利好",
+        "chain": "模型访问受限（API封锁）阻碍Meta开发，加剧AI军备竞赛（Arm race），云服务竞争白热化",
+        "watch": "Meta自研模型进展及谷歌API政策变化"
       }
     },
     {
@@ -123,10 +135,10 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "谷歌限制Meta使用其Gemini AI模型",
-        "assets": "📉 Meta AI业务 利空, 📈 谷歌AI 利好",
-        "chain": "AI模型授权受限→Meta开发成本上升（自研压力）→行业技术壁垒提高",
-        "watch": "Meta是否加速自研大模型"
+        "what": "BIS警告：债务、AI泡沫和经济脆弱性推高全球风险",
+        "assets": "📉 全球风险资产 利空；📈 避险资产（黄金、美债） 利好",
+        "chain": "全球系统性风险（Systemic risk）上升，资金从股市撤向避险，信贷利差（Credit spread）扩大",
+        "watch": "BIS金融稳定报告及VIX恐慌指数"
       }
     }
   ]
