@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 07:20",
+  "updateTime": "2026-06-29 07:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美军袭击伊朗，油价和美股期货同步上涨",
-        "assets": "📈 原油 利好\n📈 美股期货 利好",
-        "chain": "地缘风险溢价（战争溢价）推高油价，能源股跟涨，避险资产黄金或受追捧",
-        "watch": "伊朗反击程度及OPEC（石油输出国组织）是否增产"
+        "what": "美国空袭伊朗，油价与美股期货齐涨",
+        "assets": "📈 原油 利好\n📈 美股大盘 利好",
+        "chain": "地缘风险溢价推高油价（原油涨价），能源股领涨，但避险情绪或压制科技股",
+        "watch": "伊朗是否报复及美国后续军事行动"
       }
     },
     {
@@ -23,28 +23,14 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "存储短缺对苹果微软是麻烦，对小公司是生存危机",
-        "assets": "📈 存储芯片 利好\n📉 中小科技股 承压",
-        "chain": "头部公司可通过长协（长期合同）锁价，小公司成本飙升、利润被挤压，加速行业出清",
-        "watch": "美光/三星存储芯片价格指数及小公司财报预警"
+        "what": "内存短缺冲击苹果微软，小厂面临生存危机",
+        "assets": "📈 存储芯片 利好\n📉 小型科技公司 利空",
+        "chain": "大厂囤货加剧供需失衡（供不应求），小厂成本飙升且拿不到货，行业集中度提升",
+        "watch": "美光、三星的产能扩张计划及DRAM（动态随机存取存储器）价格走势"
       }
     },
     {
       "rank": 3,
-      "title": "世界杯32强12大AI预测成绩放榜：腾讯夺冠，deepseek 仅列第四",
-      "source": "新浪财经",
-      "detail": " 世界杯32强全部出炉，联想集体×咪咕视频“世界杯预测人机大战”也迎来了阶段性大结算——12家大模型的32强预测成绩正式揭晓。",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "腾讯AI预测世界杯成绩夺冠，DeepSeek仅第四",
-        "assets": "📈 腾讯AI概念 利好\n📉 DeepSeek生态 承压",
-        "chain": "AI竞赛中落地能力（实际应用效果）成新焦点，腾讯技术品牌溢价提升，DeepSeek需证明迭代速度",
-        "watch": "腾讯AI产品用户增长及DeepSeek后续赛事成绩"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Saudi Aramco helicopter crash kills 14 nationals, state news agency says",
       "source": "CNBC",
       "detail": "Aramco had resumed crude oil loadings on Friday at its Ras Tanura terminal in the Gulf after they were halted for nearly four months.",
@@ -52,13 +38,13 @@
       "score": 25,
       "insight": {
         "what": "沙特阿美直升机坠毁致14名国民死亡",
-        "assets": "📉 沙特阿美 情绪承压\n📉 沙特股市 短期偏空",
-        "chain": "事故增加沙特安全风险溢价（运营成本上升），但公司基本面（产油能力）未受实质影响",
-        "watch": "沙特阿美是否启动安全审查及股价异常波动"
+        "assets": "📉 沙特阿美股价 短期利空",
+        "chain": "安全事故或引发运营审查，但产油设施未受损，对全球石油供应影响有限",
+        "watch": "沙特阿美官方调查结果及后续安全措施"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "阿科力筹划控股权变更！股价提前涨停......",
       "source": "市场资讯",
       "detail": "这家公司筹划控股权变更！股价提前涨停…… 来源：IPO日报 6月26日晚间，阿科力（603722.SH）公布，公司于2026年6月26日收到控股股东、实际控制人朱学军、崔小丽的通知...",
@@ -66,79 +52,93 @@
       "score": 20,
       "insight": {
         "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力 利好（内幕交易风险）",
-        "chain": "控股权变更通常伴随资产注入或重组预期，但提前涨停暗示信息泄露，监管或介入调查",
-        "watch": "交易所问询函及停牌后重组方案细节"
+        "assets": "📈 阿科力 利好\n📉 其他化工小盘股 潜在利空",
+        "chain": "控股权变更常伴随资产注入预期（利好），但内幕交易嫌疑可能引发监管关注，拖累板块情绪",
+        "watch": "停牌公告细节及新控股方背景"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "美联储巴尔金：油价降了，通胀却未必降！4.1%PCE令美联储保持警惕",
       "source": "市场资讯",
       "detail": "文章来源：金十数据 5月通胀数据的走高，使美联储内部对物价走势的判断再度趋于谨慎。美国商务部数据显示，截至2026年5月的个人消费支出价格指数（PCE）同比上涨4.1%...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "美联储巴尔金：油价下跌不必然降通胀，4.1%PCE（个人消费支出物价指数）仍高",
-        "assets": "📉 美股 承压\n📈 美元 利好",
-        "chain": "通胀粘性（物价难降）削弱降息预期，高利率持续时间拉长，债市收益率曲线或陡化",
-        "watch": "本周PCE数据及美联储官员后续讲话"
+        "what": "美联储巴尔金：油价降但通胀未必降，警惕4.1%PCE",
+        "assets": "📉 美债 承压\n📈 美元 利好",
+        "chain": "鹰派言论（偏向加息）强化紧缩预期，实际利率（名义利率减通胀）上行，压制风险资产",
+        "watch": "本周PCE（个人消费支出物价指数）数据及美联储点阵图"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "600608，明天是最后交易日！触发财务类强制退市！",
       "source": "",
       "detail": "退市沪科，明日为最后一个交易日。 6月29日，将是退市沪科（600608）在A股市场的最后一个交易日。这家登陆A股市场34年的老牌上市公司...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "股票600608触发财务类强制退市，明日最后交易日",
-        "assets": "📉 风险警示板 承压\n📉 低价股 情绪利空",
-        "chain": "退市常态化（监管收紧）压低壳价值（公司上市资格价值），垃圾债（高风险债券）流动性或恶化",
-        "watch": "退市整理期抛压量及同类ST股（特别处理股）跟跌情况"
+        "what": "600608触发财务类强制退市，明天最后交易日",
+        "assets": "📉 *ST股 利空\n📉 壳资源 承压",
+        "chain": "退市常态化加速，垃圾股流动性枯竭（没人买），资金向蓝筹（大市值优质股）集中",
+        "watch": "退市整理期股价走势及后续索赔进展"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
       "source": "CNBC",
       "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "专家称中国若想取代美元需理解货币战争本质",
-        "assets": "📈 人民币国际化 长期利好\n📉 美元指数 长期承压",
-        "chain": "货币战争本质是贸易结算权（交易货币选择）和资产定价权（大宗商品计价）的博弈，中国需扩大本币互换（货币互换协议）",
-        "watch": "人民币跨境支付系统（CIPS）交易量及央行黄金储备变化"
+        "what": "分析称中国难以取代美元，因理解全球货币战",
+        "assets": "📉 人民币 承压\n📈 美元 利好",
+        "chain": "美元霸权受地缘支撑，人民币国际化需突破石油美元体系（用美元买石油的机制），短期挑战大",
+        "watch": "人民币跨境结算占比及中国央行外汇储备结构"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
       "source": "CNBC",
       "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "摩根士丹利称盐是新石油，推荐相关投资策略",
-        "assets": "📈 盐矿/化工股 利好\n📈 锂矿 关联利好",
-        "chain": "盐（工业盐/锂提取原料）需求源于新能源和工业升级，供给受限推升价格，类似早期石油逻辑",
-        "watch": "盐价指数及盐矿公司产能扩张计划"
+        "what": "摩根士丹利：盐是新时代石油，推荐投资策略",
+        "assets": "📈 盐业股 利好\n📈 锂矿 间接利好",
+        "chain": "盐用于储能（如钠离子电池）、工业，需求爆发类似石油，相关资源股（如盐湖提锂）受益",
+        "watch": "盐业公司财报及钠电池量产进度"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "These 10 Chinese stocks are powering U.S. data centers",
       "source": "CNBC",
       "detail": "Many of the top-performing mainland Chinese stocks this year make components used in data centers globally, according to 22V Research.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "10只中国股票为美国数据中心提供电力支持",
-        "assets": "📈 中国电力设备股 利好\n📈 AI基建概念 受益",
-        "chain": "AI算力爆发（数据中心耗电激增）拉动中国电力设备出口，但需警惕美国关税和供应链审查风险",
-        "watch": "数据中心资本开支及中国电力设备对美出口数据"
+        "what": "10只中国股票为美国数据中心供电",
+        "assets": "📈 中国电力设备股 利好\n📈 AI基建 利好",
+        "chain": "中美算力竞赛拉动电力需求（数据中心耗电），中国输配电企业出口受益，形成产业链传导",
+        "watch": "美国数据中心资本开支及中国电力设备出口数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "在美国限制AI访问权限后，奥地利敦促欧洲引入Anthropic",
+      "source": "环球市场播报",
+      "detail": " 奥地利已提议，欧盟应考虑在欧盟境内引入人工智能公司Anthropic，以反制美国阻止外籍人士使用该公司最先进AI模型的举措。",
+      "lang": "zh",
+      "score": 15,
+      "insight": {
+        "what": "美国限制AI访问权限后，奥地利敦促欧洲引入Anthropic",
+        "assets": "📈 欧洲AI概念股 利好\n📉 美国AI云服务 利空",
+        "chain": "地缘割裂加速欧洲AI自主（自研技术），Anthropic（AI公司）或填补空白，但成本高企",
+        "watch": "欧盟AI法案进展及Anthropic欧洲部署计划"
       }
     }
   ]
