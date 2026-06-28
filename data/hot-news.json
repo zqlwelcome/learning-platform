@@ -1,8 +1,22 @@
 {
-  "updateTime": "2026-06-28 20:00",
+  "updateTime": "2026-06-28 20:11",
   "news": [
     {
       "rank": 1,
+      "title": "港股IPO招股书“注水”严重，监管连发警示，聚慧、丰宜和巴奴被拿来当典型案例",
+      "source": "市场资讯",
+      "detail": "来源：新识研究所 港股IPO招股书乱象频出，大打广告，蹭AI概念，美化排名等情况层出不穷 最近，港股IPO审核效率正被部分企业的注水式招股书拖累。",
+      "lang": "zh",
+      "score": 60,
+      "insight": {
+        "what": "港股IPO招股书注水严重，监管警示典型案例",
+        "assets": "📉 港股IPO市场 承压",
+        "chain": "监管收紧（提高披露门槛）→企业上市成本上升（律师费/时间）→小盘股融资更难",
+        "watch": "港交所IPO审核通过率变化"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Bank of America says these five stocks are best positioned for upside amid market uncertainty",
       "source": "CNBC",
       "detail": "Analysts at Bank of America said these stocks have plenty of room to run.",
@@ -10,136 +24,110 @@
       "score": 37,
       "insight": {
         "what": "美银推荐五只股票应对市场不确定性",
-        "assets": "📈 美股防御性板块 利好",
-        "chain": "资金从高风险资产（如小盘股）轮动至防御股（抗跌的公用事业/医疗股），压低风险偏好",
-        "watch": "VIX（恐慌指数）走势及防御板块相对强度"
+        "assets": "📈 美股防御性板块（公用事业/医疗）利好",
+        "chain": "避险情绪（怕跌）→资金流入防御股（波动小）→科技成长股相对跑输",
+        "watch": "VIX指数（恐慌指数）与防御股相对表现"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "欧洲央行执委施纳贝尔：通胀仍存上行风险，欧洲央行料将进一步加息",
       "source": "环球市场播报",
       "detail": "欧洲央行执委伊莎贝尔·施纳贝尔警告称，即使美伊和平协议重新开放霍尔木兹海峡，价格压力也可能比预期的更大。 施纳贝尔周六在德国一次活动上表示，“食品...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧央行施纳贝尔称通胀风险上行，暗示继续加息",
-        "assets": "📈 欧元 利好；📉 欧洲债券 承压",
-        "chain": "加息预期推高欧元汇率（货币升值），压制欧洲股市估值（借钱成本高），利空出口型企业",
-        "watch": "欧元区CPI（消费者物价指数）及欧央行下次会议声明"
+        "what": "欧央行执委称通胀风险上行，暗示继续加息",
+        "assets": "📈 欧元 利好；📉 欧债（欧洲国债） 承压",
+        "chain": "加息预期（借钱成本↑）→欧元走强（利差扩大）→欧洲经济放缓（借贷减少）",
+        "watch": "欧元区核心CPI（剔除食品能源的通胀）数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "中泰策略：重要IPO周期蓄势待发",
       "source": "市场资讯",
       "detail": "来源：中泰证券 一、本周市场整体承压，AI产业链依然领跑 本周A股在多重宏观事件交织下呈现“冲高回落、极致分化”格局。宏观方面，6月21日伊朗和美国在瑞士举行谈判...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "中泰策略称重要IPO周期即将来临",
-        "assets": "📉 A股流动性 承压；📈 券商股 利好",
-        "chain": "IPO抽血（新股上市吸走资金）短期利空存量市场，但券商承销费收入预期上升",
-        "watch": "IPO过会数量及首日涨幅"
+        "what": "中泰策略称重要IPO周期即将到来",
+        "assets": "📈 A股券商/投行 利好；📉 次新股 承压",
+        "chain": "IPO密集（新股供应↑）→资金分流（从老股抽水）→市场流动性收紧（短期利空）",
+        "watch": "IPO批文发放节奏及募资规模"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "The memory shortage shaking Apple and Microsoft is 'existential crisis' for smaller players",
       "source": "CNBC",
       "detail": "While Apple and Microsoft raise prices on key devices to help cover the soaring costs of memory, smaller consumer electronics companies are in dire straits.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "存储短缺对苹果微软是危机，小公司更致命",
-        "assets": "📉 中小科技股 承压；📈 存储芯片巨头 利好",
-        "chain": "供应链紧张导致小厂断供（生存危机），大厂通过长协（长期合同）锁定产能，行业集中度提升",
-        "watch": "美光/三星等存储厂商的出货指引"
+        "what": "内存短缺冲击苹果微软，小公司面临生存危机",
+        "assets": "📈 全球内存芯片（三星/海力士）利好；📉 中小科技硬件股 承压",
+        "chain": "供应紧张（产能不足）→涨价（DRAM/NAND价格↑）→小厂被迫减产（缺货）",
+        "watch": "内存现货价格及大厂资本支出计划"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "世界杯32强12大AI预测成绩放榜：腾讯夺冠，deepseek 仅列第四",
       "source": "新浪财经",
       "detail": " 世界杯32强全部出炉，联想集体×咪咕视频“世界杯预测人机大战”也迎来了阶段性大结算——12家大模型的32强预测成绩正式揭晓。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "世界杯32强AI预测：腾讯夺冠，DeepSeek仅第四",
-        "assets": "📈 腾讯AI概念 短期利好",
-        "chain": "事件驱动资金炒作AI应用股，但无实质业绩支撑，属于情绪交易（非基本面驱动）",
-        "watch": "相关股票成交量及后续AI赛事预测准确性"
+        "what": "世界杯AI预测成绩出炉，腾讯夺冠DeepSeek第四",
+        "assets": "📈 腾讯AI（技术品牌）利好；📉 DeepSeek（市场信任）承压",
+        "chain": "排名曝光（品牌效应）→腾讯AI产品关注度↑→DeepSeek需证明预测模型改进",
+        "watch": "AI预测赛事准确率后续对比"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "谁是最懂球AI？世界杯32强答案揭晓：腾讯第一，DeepSeek仅列第四",
       "source": "新浪财经",
       "detail": " 随着2026年美加墨世界杯32强全部尘埃落定，由联想集团与咪咕联合发起的“世界杯预测人机大战”赛前32强竞猜成绩也正式揭晓。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "世界杯AI预测结果：腾讯夺冠，DeepSeek第四",
-        "assets": "📈 腾讯AI概念 短期利好",
-        "chain": "同第5条，事件驱动型交易，关注后续AI商业化落地能力",
-        "watch": "成交量变化及机构研报评价"
+        "what": "谷歌限制Meta使用其Gemini AI模型",
+        "assets": "📉 Meta（AI成本上升）承压；📈 谷歌（护城河扩大）利好",
+        "chain": "技术封锁（竞争加剧）→Meta转向自研模型（研发费用↑）→AI行业碎片化（生态分裂）",
+        "watch": "Meta是否宣布自研大模型进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "These stocks are the most oversold after a turbulent week for the market",
       "source": "CNBC",
       "detail": "Intercontinental Exchange and CME were among the most oversold stocks this week amid ongoing concerns over a regulatory spat concerning perpetual futures.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "市场震荡后这些股票超卖（跌幅过大）",
-        "assets": "📈 超卖个股 反弹机会",
-        "chain": "技术性超卖可能触发均值回归（价格回到平均线），但需警惕基本面恶化导致继续下跌（价值陷阱）",
-        "watch": "RSI（相对强弱指标）及财报盈利预告"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Google limits Meta’s use of its Gemini AI models, FT reports",
-      "source": "CNBC",
-      "detail": "Meta had sought more computing capacity than Google could provide, the Financial Times reports.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "谷歌限制Meta使用其Gemini AI模型",
-        "assets": "📉 Meta AI业务 利空；📈 谷歌AI 利好",
-        "chain": "切断模型供应迫使Meta自研或寻找替代（如开源模型），增加成本；谷歌巩固AI生态护城河（竞争壁垒）",
-        "watch": "Meta是否转向其他模型及谷歌API定价变化"
+        "what": "国际清算银行警告债务、AI泡沫与经济脆弱性",
+        "assets": "📉 全球高收益债（垃圾债）承压；📉 AI概念股 风险",
+        "chain": "宏观风险（系统性担忧）→资金撤离高风险资产→避险资金涌入黄金/美债",
+        "watch": "BIS后续政策建议及全球信贷利差走势"
       }
     },
     {
       "rank": 9,
+      "title": "Google limits Meta’s use of its Gemini AI models, FT reports",
+      "source": "CNBC",
+      "detail": "Meta had sought more computing capacity than Google could provide, the Financial Times reports.",
+      "lang": "en",
+      "score": 20
+    },
+    {
+      "rank": 10,
       "title": "Debt, AI boom and economic fragilities raise global risks, BIS says",
       "source": "CNBC",
       "detail": "The central bank umbrella group's Annual Economic Report warned of a complex mix of vulnerabilities.",
       "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "国际清算银行警告债务、AI热潮和经济脆弱性推升全球风险",
-        "assets": "📉 全球风险资产 承压；📈 避险资产（黄金/美债）利好",
-        "chain": "宏观风险上升导致资金从股市/新兴市场流出，转向避险（如黄金、美元），压制风险偏好",
-        "watch": "BIS后续报告及全球PMI（采购经理人指数）数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "新高之后当头一棒！创业板人工智能ETF华宝（159363）失守五日线，AI算力技术性回调？",
-      "source": "新浪基金",
-      "detail": " 周五（6月26日），AI交易降温，光模块CPO全线下挫，新易盛、天孚通信跌超7%，万亿巨头中际旭创跌超5%，太辰光、兆龙互连、联特科技、光库科技等多股跌超8%。",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "创业板AI ETF跌破五日线，AI算力板块回调",
-        "assets": "📉 AI算力板块 承压；📉 创业板指数 承压",
-        "chain": "技术性破位（跌破短期均线）触发止损盘，资金流出AI板块转向其他热点，短期趋势转弱",
-        "watch": "ETF成交量及AI龙头股（如中科曙光）能否守住支撑位"
-      }
+      "score": 20
     }
   ]
 }
