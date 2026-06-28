@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-29 06:05",
+  "updateTime": "2026-06-29 06:10",
   "news": [
     {
       "rank": 1,
-      "title": "Stock futures are little changed, oil prices rise following U.S. attacks on Iran targets over the weekend: Live updates",
+      "title": "Stock futures rise along with oil prices as traders weigh U.S. attacks on Iran over the weekend: Live updates",
       "source": "CNBC",
       "detail": "Wall Street is coming off a mixed week, characterized by a rotation out of tech and into other parts of the stock market.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国周末空袭伊朗目标，油价上涨",
-        "assets": "📈 原油 利好；📈 军工股 利好；📉 全球股市 承压",
-        "chain": "地缘风险溢价推高油价（生产成本增），避险情绪打压风险资产（如科技股）",
-        "watch": "伊朗是否报复及后续冲突升级"
+        "what": "美国空袭伊朗，油价与美股期货同步上涨",
+        "assets": "📈 原油 利好\n📈 美股能源股 利好",
+        "chain": "避险情绪升温，黄金（避险资产）可能走高，同时通胀预期上升会压制美债（国债）价格",
+        "watch": "伊朗是否反击及原油库存数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "内存短缺冲击苹果微软，小公司面临生存危机",
-        "assets": "📈 内存芯片股（如三星、美光）利好；📉 中小科技硬件商 承压",
-        "chain": "供需失衡（供给不足）推高芯片价格，大厂有议价权，小厂成本飙升（利润压缩）",
-        "watch": "内存现货价格及产能扩张动态"
+        "what": "AI记忆体短缺冲击苹果微软，小厂面临生存危机",
+        "assets": "📈 半导体（芯片）设备股 利好\n📉 中小科技硬件股 利空",
+        "chain": "供给瓶颈加剧，HBM（高带宽内存）价格飙升，利好三星/海力士，但压缩下游终端利润率",
+        "watch": "内存合约价及三星/海力士产能扩张计划"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "腾讯AI预测世界杯夺冠，DeepSeek仅第四",
-        "assets": "📈 腾讯（AI概念股）利好；📉 其他AI模型（如DeepSeek）利空",
-        "chain": "AI预测能力成品牌溢价（估值提升），引发对算法差异的重新定价（行业洗牌）",
-        "watch": "后续赛事预测准确率及商业化落地"
+        "what": "世界杯32强AI预测排名：腾讯第一，DeepSeek第四",
+        "assets": "📈 AI应用（体育/娱乐） 利好\n📉 DeepSeek相关概念 利空",
+        "chain": "验证大模型在垂直场景（预测）的差异化能力，利好腾讯云（算力需求），利空同质化模型商",
+        "watch": "腾讯AI业务营收及DeepSeek融资动态"
       }
     },
     {
@@ -51,22 +51,14 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "600608触发财务类强制退市，明天最后交易日",
-        "assets": "📉 该退市股 利空；📉 其他财务差的小盘股 承压",
-        "chain": "退市风险警示（ST板块）引发资金撤离，投资者对财务指标敏感度上升（避险）",
-        "watch": "退市整理期价格及后续摘牌公告"
+        "what": "ST沪科（600608）触发财务类强制退市，明日最后交易日",
+        "assets": "📉 ST板块（风险警示股） 利空\n📉 低价股（退市风险） 利空",
+        "chain": "退市常态化加速，资金向蓝筹（绩优大盘股）集中，小盘垃圾股流动性枯竭",
+        "watch": "退市整理期股价及后续索赔进展"
       }
     },
     {
       "rank": 5,
-      "title": "These stocks are the most oversold after a turbulent week for the market",
-      "source": "CNBC",
-      "detail": "Intercontinental Exchange and CME were among the most oversold stocks this week amid ongoing concerns over a regulatory spat concerning perpetual futures.",
-      "lang": "en",
-      "score": 27
-    },
-    {
-      "rank": 6,
       "title": "Saudi Aramco helicopter crash kills 14 nationals, state news agency says",
       "source": "CNBC",
       "detail": "Aramco had resumed crude oil loadings on Friday at its Ras Tanura terminal in the Gulf after they were halted for nearly four months.",
@@ -74,7 +66,7 @@
       "score": 25
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "阿科力筹划控股权变更！股价提前涨停......",
       "source": "市场资讯",
       "detail": "这家公司筹划控股权变更！股价提前涨停…… 来源：IPO日报 6月26日晚间，阿科力（603722.SH）公布，公司于2026年6月26日收到控股股东、实际控制人朱学军、崔小丽的通知...",
@@ -82,51 +74,65 @@
       "score": 20,
       "insight": {
         "what": "沙特阿美直升机坠毁致14名国民死亡",
-        "assets": "📉 沙特阿美（股票）承压；📉 沙特主权基金 情绪利空",
-        "chain": "安全事件可能影响运营信心（生产中断风险），但短期对油价影响有限（非核心设施）",
-        "watch": "事故原因调查及后续安全措施"
+        "assets": "📉 沙特阿美（沙特国有油企）股价 利空",
+        "chain": "短期扰动沙特原油生产安全预期，但实际产量影响有限，或推高原油风险溢价",
+        "watch": "沙特阿美官方运营更新及国际油价波动"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "600608，明天是最后交易日！触发财务类强制退市！",
       "source": "",
       "detail": "退市沪科，明日为最后一个交易日。 6月29日，将是退市沪科（600608）在A股市场的最后一个交易日。这家登陆A股市场34年的老牌上市公司...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "市场震荡后多只股票超卖",
-        "assets": "📈 超卖个股（如科技、能源）短期反弹机会",
-        "chain": "超卖指标（RSI<30）暗示空头动能衰竭，可能触发技术性买盘（抄底）",
-        "watch": "RSI是否回升及大盘成交量"
+        "what": "阿科力筹划控股权变更，股价提前涨停",
+        "assets": "📈 A股化工（新材料）板块 利好",
+        "chain": "控股权变更暗示资产重组（业务整合或注入），利好壳价值，但需警惕内幕交易（提前涨停）监管风险",
+        "watch": "停牌公告及重组方案细节"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
       "source": "CNBC",
       "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力（A股）利好；📉 其他壳资源股 情绪联动",
-        "chain": "控股权变更预期（重组概念）推高股价，资金可能炒作同类小市值标的（跟风效应）",
-        "watch": "变更公告细节及复牌后走势"
+        "what": "分析称中国无需挑战美元霸权，理解其货币战争策略更重要",
+        "assets": "📉 人民币国际化（跨境结算） 中性偏空\n📉 美元指数 中性偏多",
+        "chain": "暗示中国更可能通过数字货币（数字人民币）和双边互换（货币互换协议）迂回削弱美元，而非直接对抗",
+        "watch": "人民币跨境支付占比及央行数字货币进展"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
       "source": "CNBC",
       "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "摩根士丹利称盐是新石油，建议如何投资",
-        "assets": "📈 盐矿股（如钾肥公司）利好；📈 大宗商品ETF 利好",
-        "chain": "盐用于工业（化工、锂电）需求增长，供给刚性（开矿周期长）推升价格（通胀预期）",
-        "watch": "全球盐产量及新能源政策变化"
+        "what": "摩根士丹利称盐是新的石油，并给出投资策略",
+        "assets": "📈 盐矿/锂盐（新能源材料） 利好\n📈 资源股（大宗商品） 利好",
+        "chain": "盐（特别是锂盐）需求受益于新能源（电动车/储能）爆发，供给受限推高价格，利好资源国和加工商",
+        "watch": "锂盐现货价格及全球盐湖产能项目"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "These 10 Chinese stocks are powering U.S. data centers",
+      "source": "CNBC",
+      "detail": "Many of the top-performing mainland Chinese stocks this year make components used in data centers globally, according to 22V Research.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "10只中国股票为美国数据中心提供电力支持",
+        "assets": "📈 A股电力设备（数据中心供电） 利好\n📈 美股数据中心运营商 利好",
+        "chain": "AI算力需求爆发带动电力基建（变电站/储能）投资，中国电力设备出口受益，但需关注地缘政治（中美贸易）风险",
+        "watch": "中国电力设备对美出口数据及数据中心资本开支"
       }
     }
   ]
