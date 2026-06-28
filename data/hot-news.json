@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-28 22:46",
+  "updateTime": "2026-06-28 22:48",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 43,
       "insight": {
-        "what": "BIS警告AI泡沫，万亿美元资本支出或崩盘",
-        "assets": "📉 全球科技股 承压，📉 半导体ETF 利空",
-        "chain": "资本支出削减（企业减少投资）→科技公司盈利预期下调→引发板块轮动（资金转向防御性资产）",
-        "watch": "BIS后续报告及科技巨头财报资本开支指引"
+        "what": "央行警告AI泡沫，万亿美元资本支出或崩盘",
+        "assets": "📉 AI概念股 利空，📉 纳斯达克指数 承压",
+        "chain": "资本支出收缩→科技股估值回调→风险偏好下降（Risk-off）→资金涌入避险资产",
+        "watch": "AI公司资本开支指引、央行后续措辞"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "欧洲央行施纳贝尔称通胀风险上行，暗示加息",
+        "what": "欧洲央行官员暗示通胀风险，可能继续加息",
         "assets": "📈 欧元 利好，📉 欧洲债券 承压",
-        "chain": "加息（借钱成本提高）→欧元走强→压制欧洲出口股，同时缩小与美联储利差（美欧利率差）",
-        "watch": "欧洲央行下次会议加息幅度及通胀数据"
+        "chain": "加息预期（借钱成本上升）→欧元走强→欧洲股市资金流出→债务国利差扩大",
+        "watch": "欧元区CPI数据、欧央行利率决议"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "BIS报告：债务、AI繁荣与经济脆弱性推高全球风险",
-        "assets": "📉 全球风险资产 承压，📈 黄金 利好",
-        "chain": "风险厌恶（避险情绪）→资金撤出股市→流入国债和黄金→信用利差（企业债与国债收益率差）扩大",
-        "watch": "全球PMI数据及主权债CDS（信用违约互换）价格"
+        "what": "内存短缺对苹果微软是冲击，对小公司是生存危机",
+        "assets": "📉 半导体存储芯片 利好，📉 小型科技股 利空",
+        "chain": "供给瓶颈→大厂优先拿货→小厂成本飙升（利润率压缩）→行业整合加速",
+        "watch": "内存价格指数、美光/三星财报"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "CNBC",
       "detail": "Amid volatility in global markets, top analysts can help investors look past near-term noise and pick attractive stocks with long-term potential.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "华尔街分析师看好3只股票长期增长潜力",
+        "assets": "📈 对应个股 利好",
+        "chain": "机构评级上调→散户跟风买入→短期股价脉冲（但需警惕反转）",
+        "watch": "个股EPS预期、机构持仓变化"
+      }
     },
     {
       "rank": 5,
@@ -59,10 +65,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "腾讯AI预测世界杯32强夺冠，DeepSeek仅第四",
-        "assets": "📈 腾讯股价 利好，📉 DeepSeek概念股 利空",
-        "chain": "AI竞赛（技术比拼）→腾讯技术背书增强→市场情绪推动资金流入相关AI标的",
-        "watch": "腾讯AI业务营收及DeepSeek后续模型迭代"
+        "what": "AI预测世界杯32强：腾讯第一，DeepSeek第四",
+        "assets": "📈 腾讯AI概念 利好，📉 DeepSeek相关 中性偏空",
+        "chain": "模型排名→品牌溢价提升→AI应用商业化预期增强（腾讯生态受益）",
+        "watch": "腾讯AI产品用户数据、竞品表现"
       }
     },
     {
@@ -73,10 +79,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "内存短缺对苹果微软是问题，对小公司是生存危机",
-        "assets": "📈 存储芯片股 利好，📉 小型科技硬件商 利空",
-        "chain": "供应紧张（产能不足）→大厂锁单（锁定订单）→小厂缺货停产→行业集中度提升",
-        "watch": "三星/海力士存储芯片价格及产能分配"
+        "what": "世界杯AI预测排名：腾讯夺冠，DeepSeek第四",
+        "assets": "📈 腾讯AI 利好，📉 DeepSeek 偏空",
+        "chain": "技术验证→市场对腾讯AI能力重新定价→竞争对手面临信任挑战",
+        "watch": "AI赛事预测准确率、后续合作订单"
       }
     },
     {
@@ -85,7 +91,13 @@
       "source": "CNBC",
       "detail": "Intercontinental Exchange and CME were among the most oversold stocks this week amid ongoing concerns over a regulatory spat concerning perpetual futures.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "市场动荡后，这些股票超卖（超跌）",
+        "assets": "📈 超卖个股 短期反弹机会",
+        "chain": "技术性超卖（RSI<30）→均值回归交易（买便宜货）→短期波动加大",
+        "watch": "RSI指标、成交量放大确认"
+      }
     },
     {
       "rank": 8,
@@ -95,10 +107,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "华尔街分析师看好3只股票长期增长潜力",
-        "assets": "📈 个股（未具体列名） 利好",
-        "chain": "机构评级上调→吸引被动资金（指数基金）流入→可能触发量化因子（动量策略）买入",
-        "watch": "具体股票代码及后续机构持仓变动"
+        "what": "阿科力筹划控股权变更，股价提前涨停",
+        "assets": "📈 阿科力 利好，📉 其他壳资源 炒作",
+        "chain": "内幕交易嫌疑（提前涨停）→监管关注→壳价值重估（借壳预期）",
+        "watch": "停牌公告、股权转让细节"
       }
     },
     {
@@ -109,24 +121,24 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力 利好",
-        "chain": "内幕交易嫌疑（股价异动）→监管关注→可能影响重组审批进度",
-        "watch": "公司公告及证监会是否启动调查"
+        "what": "谷歌限制Meta使用其Gemini AI模型",
+        "assets": "📉 Meta AI 利空，📈 谷歌AI 利好",
+        "chain": "技术封锁→Meta AI研发成本上升→加速自研大模型（如Llama）",
+        "watch": "Meta AI模型替代方案、谷歌API政策"
       }
     },
     {
       "rank": 10,
-      "title": "Debt, AI boom and economic fragilities raise global risks, BIS says",
-      "source": "CNBC",
-      "detail": "The central bank umbrella group's Annual Economic Report warned of a complex mix of vulnerabilities.",
-      "lang": "en",
-      "score": 20,
+      "title": "600608，明天是最后交易日！触发财务类强制退市！",
+      "source": "",
+      "detail": "退市沪科，明日为最后一个交易日。 6月29日，将是退市沪科（600608）在A股市场的最后一个交易日。这家登陆A股市场34年的老牌上市公司...",
+      "lang": "zh",
+      "score": 18,
       "insight": {
-        "what": "谷歌限制Meta使用其Gemini AI模型",
-        "assets": "📉 Meta AI业务 利空，📈 谷歌AI 利好",
-        "chain": "AI生态割裂（技术壁垒）→Meta转向自研或替代模型→增加研发成本，谷歌巩固护城河（竞争优势）",
-        "watch": "Meta AI模型替代方案及谷歌API政策变化"
+        "what": "ST股票600608明天最后交易日，触发强制退市",
+        "assets": "📉 该股 利空，📉 其他ST股 承压",
+        "chain": "退市风险警示→资金逃离垃圾股→壳价值缩水→低价股踩踏",
+        "watch": "退市整理期交易量、ST板块资金流向"
       }
     }
   ]
