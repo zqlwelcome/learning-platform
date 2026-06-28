@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 07:11",
+  "updateTime": "2026-06-29 07:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国空袭伊朗，油价与美股期货上涨",
-        "assets": "📈 原油 利好；📈 美股能源股 利好",
-        "chain": "地缘风险推高油价，通胀预期升温，美联储降息（借钱成本降低）空间收窄，科技股承压",
-        "watch": "伊朗是否反击及布伦特原油（全球基准油价）是否突破90美元"
+        "what": "美军袭击伊朗，油价与美股期货同步上涨",
+        "assets": "📈 原油 利好\n📈 美股期货 利好",
+        "chain": "地缘风险溢价推高油价（原油价格），能源股受益，但可能抑制消费类股",
+        "watch": "伊朗反击动作及API原油库存数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "存储短缺冲击苹果微软，小厂面临生存危机",
-        "assets": "📈 存储芯片（如美光、三星） 利好；📉 小型科技硬件商 利空",
-        "chain": "存储涨价压缩非巨头利润，加速行业集中（龙头企业垄断），AI服务器需求更依赖大厂",
-        "watch": "美光（存储芯片龙头）财报及HBM（高带宽存储芯片）价格走势"
+        "what": "摩根士丹利称盐为新石油，建议布局相关资产",
+        "assets": "📈 盐业股 利好\n📈 大宗商品ETF 利好",
+        "chain": "盐作为工业原料需求增长（如锂提取、化工），长期结构性利好，但短期炒作需谨慎",
+        "watch": "全球盐产量数据及新能源政策对盐需求的拉动"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "AI预测世界杯32强：腾讯夺冠，DeepSeek第四",
-        "assets": "📈 腾讯（港股科技股） 利好；📉 DeepSeek概念股 利空",
-        "chain": "腾讯AI能力获验证，可能提振AI应用商业化预期，利空其他未上榜AI创业公司估值",
-        "watch": "腾讯AI产品（如混元大模型）后续商业化落地数据"
+        "what": "AI预测世界杯成绩：腾讯第一，DeepSeek仅第四",
+        "assets": "📈 腾讯AI概念 利好\n📉 DeepSeek 利空",
+        "chain": "大厂AI应用落地能力获验证，强化市场对头部科技股信心，小模型炒作降温",
+        "watch": "世界杯后续预测准确率及AI产品用户增长"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 27,
       "insight": {
         "what": "股票600608触发财务类强制退市，明天最后交易日",
-        "assets": "📉 该退市股 利空（直接归零）；📉 其他ST（风险警示）股 承压",
-        "chain": "退市加速壳价值（上市公司名额价值）贬值，垃圾股流动性枯竭（没人接盘），资金转向蓝筹（大市值优质股）",
-        "watch": "退市整理期抛压量及监管是否扩大退市名单"
+        "assets": "📉 600608 利空\n📉 低价股板块 承压",
+        "chain": "退市风险警示强化市场对垃圾股（财务差公司）的抛售，资金向蓝筹（优质股）集中",
+        "watch": "退市后是否进入老三板及同类ST股（风险警示股）表现"
       }
     },
     {
@@ -73,14 +73,28 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14人遇难",
-        "assets": "📉 沙特阿美（沙特国有石油公司）股价 短期承压",
-        "chain": "事故或引发安全审查，但无供应中断（生产未受影响），油价影响有限",
-        "watch": "沙特阿美官方是否调整产量指引或安全升级公告"
+        "what": "沙特阿美直升机坠毁致14名国民死亡",
+        "assets": "📉 沙特阿美 利空",
+        "chain": "安全事故冲击运营信誉，短期可能影响沙特能源政策透明度，但产量影响有限",
+        "watch": "沙特官方事故调查结论及后续安全措施"
       }
     },
     {
       "rank": 7,
+      "title": "美联储巴尔金：油价降了，通胀却未必降！4.1%PCE令美联储保持警惕",
+      "source": "市场资讯",
+      "detail": "文章来源：金十数据 5月通胀数据的走高，使美联储内部对物价走势的判断再度趋于谨慎。美国商务部数据显示，截至2026年5月的个人消费支出价格指数（PCE）同比上涨4.1%...",
+      "lang": "zh",
+      "score": 18,
+      "insight": {
+        "what": "存储芯片短缺冲击苹果微软，小企业面临生存危机",
+        "assets": "📈 存储芯片股 利好\n📉 中小科技硬件商 利空",
+        "chain": "供给集中度提升（少数厂商控制产能），大厂锁单加剧小厂缺货，估值分化",
+        "watch": "三星/美光资本开支计划及DRAM（内存）现货价"
+      }
+    },
+    {
+      "rank": 8,
       "title": "600608，明天是最后交易日！触发财务类强制退市！",
       "source": "",
       "detail": "退市沪科，明日为最后一个交易日。 6月29日，将是退市沪科（600608）在A股市场的最后一个交易日。这家登陆A股市场34年的老牌上市公司...",
@@ -88,51 +102,31 @@
       "score": 18,
       "insight": {
         "what": "阿科力筹划控股权变更，股价提前涨停",
-        "assets": "📈 阿科力（化工股） 利好；📉 其他化工壳资源股 承压",
-        "chain": "控股权变更暗示资产注入预期，但提前涨停存在内幕交易（未公开信息买卖）风险，监管可能介入",
-        "watch": "公司正式公告及交易所是否发问询函"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
-      "source": "CNBC",
-      "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "观点：中国挑战美元需理解全球货币战本质",
-        "assets": "📉 人民币（汇率） 承压；📈 美元指数 利好",
-        "chain": "美元霸权靠石油-美元-美债（美国国债）闭环，去美元化进程缓慢，人民币国际化（跨境使用）需更多贸易结算突破",
-        "watch": "人民币跨境支付系统（CIPS）交易量及沙特是否扩大人民币石油结算"
+        "assets": "📈 阿科力 利好",
+        "chain": "控制权变更预期拉升股价（股权价值重估），但内幕交易嫌疑可能引发监管审查",
+        "watch": "公司公告细节及交易所问询函"
       }
     },
     {
       "rank": 9,
+      "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
+      "source": "CNBC",
+      "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
+      "lang": "en",
+      "score": 17
+    },
+    {
+      "rank": 10,
       "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
       "source": "CNBC",
       "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "摩根士丹利：盐是新的石油，建议布局",
-        "assets": "📈 盐业股（如食盐生产商） 利好；📈 工业盐相关化工股 利好",
-        "chain": "盐用于锂矿提取（新能源电池关键原料）和芯片制造，需求结构性增长，供应受限推升价格",
-        "watch": "全球盐价指数及锂矿产能利用率"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "These 10 Chinese stocks are powering U.S. data centers",
-      "source": "CNBC",
-      "detail": "Many of the top-performing mainland Chinese stocks this year make components used in data centers globally, according to 22V Research.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "10只中国股票为美国数据中心供电",
-        "assets": "📈 中国电力设备股（如逆变器、变压器） 利好；📈 数据中心相关中概股 利好",
-        "chain": "AI算力爆发推高电力需求，中国电力设备出口受益，但中美贸易摩擦（关税）可能限制利润",
-        "watch": "美国数据中心电力采购合同及中国电力设备出口关税变化"
+        "what": "美联储巴尔金：油价下跌未必降通胀，PCE（个人消费支出）4.1%仍高",
+        "assets": "📉 美股 承压\n📈 美元 利好",
+        "chain": "通胀顽固（物价持续高企）推迟降息预期，高利率（借钱成本高）压制成长股估值",
+        "watch": "本周CPI（消费者物价指数）数据及美联储官员讲话"
       }
     }
   ]
