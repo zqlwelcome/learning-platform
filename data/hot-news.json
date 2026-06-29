@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 09:15",
+  "updateTime": "2026-06-29 09:25",
   "news": [
     {
       "rank": 1,
@@ -9,9 +9,9 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "多家机构看好里拉，土耳其央行降息谨慎",
-        "assets": "📈 土耳其里拉 利好\n📉 土耳其国债收益率 下行",
-        "chain": "里拉走强降低进口成本（CPI下降），但高利率压制经济（GDP增速放缓）",
+        "what": "多家机构看好里拉，但土耳其央行降息谨慎",
+        "assets": "📈 土耳其里拉 利好",
+        "chain": "里拉走强可能压制土耳其通胀预期，但降息谨慎或推高实际利率（扣除通胀后的真实利率），吸引套息交易（借低息货币买高息资产）",
         "watch": "土耳其央行下次利率决议及通胀数据"
       }
     },
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "9月加息预期升温，金价周线四连阴",
-        "assets": "📉 黄金 承压\n📈 美元指数 走强",
-        "chain": "加息预期（借钱成本上升）推高实际利率（名义利率减通胀），削弱黄金避险需求",
-        "watch": "本周美国CPI数据及美联储官员讲话"
+        "what": "9月加息预期升温，黄金周线四连阴",
+        "assets": "📉 黄金 承压",
+        "chain": "加息预期推高美元实际利率（名义利率减通胀），黄金作为无息资产（不产生利息的资产）吸引力下降，资金流出避险转向债券",
+        "watch": "美国8月非农就业数据及CPI（消费者物价指数）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美伊冲突推高油价，美股期货小涨亚洲分歧",
-        "assets": "📈 原油 利好\n📉 亚洲出口股 承压\n📈 美股能源股 利好",
-        "chain": "油价上涨推升通胀预期（CPI），可能延迟美联储降息，压制成长股估值（PE倍数）",
-        "watch": "WTI原油能否突破前高及中东停火进展"
+        "what": "美股期货小涨，亚洲股市分化，美伊冲突推高油价",
+        "assets": "📈 原油 利好；📉 亚洲股市 承压",
+        "chain": "油价上涨推高生产成本，挤压企业利润（盈利能力），同时加剧通胀担忧（物价上涨），可能迫使央行更鹰派（倾向加息）",
+        "watch": "美国对伊朗新制裁细节及原油库存数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "内存短缺冲击小公司，苹果微软也受影响",
-        "assets": "📈 存储芯片股（如美光） 利好\n📉 小型科技硬件商 利空",
-        "chain": "供应紧张推高DRAM/NAND价格（存储芯片涨价），小型企业成本飙升，行业集中度提升",
-        "watch": "三星、海力士季度出货量及资本开支计划"
+        "what": "内存短缺冲击苹果微软，小企业面临生存危机",
+        "assets": "📈 内存芯片股 利好；📉 小型科技股 利空",
+        "chain": "大厂囤货加剧短缺，小厂无法获取产能导致供应链断裂（生产中断），行业集中度提升，龙头议价能力增强",
+        "watch": "三星、SK海力士产能利用率及内存现货价格"
       }
     },
     {
@@ -65,80 +65,80 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14名国民死亡",
-        "assets": "📈 原油 短期利好（地缘风险溢价）\n📉 沙特股市 情绪利空",
-        "chain": "事故或影响阿美运营安全（产能稳定性），但大概率是孤立事件，冲击有限",
-        "watch": "沙特阿美是否调整产量计划及调查结果"
+        "what": "沙特阿美直升机坠毁致14人死亡",
+        "assets": "📈 原油 短期承压",
+        "chain": "地缘风险（政治不稳定）溢价可能短暂消退，但沙特产能未受损，油价或回吐部分涨幅",
+        "watch": "沙特官方调查结果及原油产量声明"
       }
     },
     {
       "rank": 6,
+      "title": "刚刚，熔断！芯片巨头，直线跳水！韩国股市重挫",
+      "source": "券商中国",
+      "detail": "两大存储巨头即将官宣重磅消息。 今日早间，韩国股市开盘后，存储芯片巨头SK海力士、三星电子股价直线跳水，盘中一度大跌超5%，韩国KOSPI指数一度大跌超3%。",
+      "lang": "zh",
+      "score": 22,
+      "insight": {
+        "what": "芯片巨头股价熔断，韩国股市重挫",
+        "assets": "📉 韩国KOSPI 利空；📉 全球半导体股 承压",
+        "chain": "芯片股暴跌反映需求疲软或库存积压（供过于求），拖累韩元（亚洲出口导向货币）及新兴市场科技链",
+        "watch": "韩国半导体出口数据及主要芯片公司财报"
+      }
+    },
+    {
+      "rank": 7,
       "title": "澳大利亚央行助理行长Kent：央行将能更好地应对下一次危机",
       "source": "环球市场播报",
       "detail": "澳大利亚央行助理行长Chris Kent表示，在检视替代货币政策工具后，该央行将能更好地应对下一场危机。 澳大利亚央行周一发布了低利率环境下额外货币政策工具框架。",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "澳央行称能更好应对下次危机",
-        "assets": "📈 澳元 利好\n📈 澳大利亚国债 利好",
-        "chain": "央行信心增强（政策工具箱充足）可能推迟降息，澳元走强压制出口竞争力（贸易顺差）",
-        "watch": "澳大利亚失业率及薪资增速数据"
+        "what": "澳联储助理行长称央行将更好应对下次危机",
+        "assets": "📈 澳元 中性偏利好",
+        "chain": "增强市场对央行政策能力信心，但无实质行动，短期影响有限；若危机爆发，澳元或受支撑",
+        "watch": "澳联储下次会议声明及经济预测"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Oil rises as renewed U.S.-Iran strikes reignite Middle East supply fears",
       "source": "CNBC",
       "detail": "Oil edged higher on Monday after renewed military strikes between the U.S. and Iran reignited concerns over crude supplies from the Middle East.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "美伊冲突升级，油价因供应担忧上涨",
-        "assets": "📈 原油 利好\n📈 能源股 利好\n📉 航空股 利空",
-        "chain": "霍尔木兹海峡（全球石油运输要道）风险溢价推高油价，下游炼化利润承压（裂解价差）",
-        "watch": "伊朗是否封锁海峡及美国战略石油储备释放"
+        "what": "美伊冲突升级推高油价",
+        "assets": "📈 原油 利好；📈 能源板块 利好",
+        "chain": "供应中断风险（产量减少）推升油价，传导至通胀预期，利好能源股但利空航空、运输等成本敏感行业",
+        "watch": "霍尔木兹海峡通行情况（关键原油运输要道）及伊朗核协议谈判进度"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
       "source": "CNBC",
       "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "文章称中国无法取代美元，误解货币战",
-        "assets": "📈 美元 利好\n📉 人民币国际化概念 承压",
-        "chain": "美元霸权（全球储备货币地位）短期难撼，人民币贬值压力或加剧资本外流（外汇储备）",
-        "watch": "人民币汇率中间价及央行外汇干预信号"
+        "what": "分析称中国不以美元取代战略，而是另辟蹊径",
+        "assets": "📉 美元 长期承压",
+        "chain": "人民币国际化（跨境支付结算）和数字货币试点可能削弱美元储备地位，但短期影响有限，关注SWIFT（国际银行结算系统）替代方案",
+        "watch": "中国央行数字货币跨境试点进展及人民币贸易结算占比"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
       "source": "CNBC",
       "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "摩根士丹利称盐是新石油，建议布局",
-        "assets": "📈 盐矿股（如钾肥生产商） 利好\n📈 化工板块 利好",
-        "chain": "盐用于锂电池（电动车）和工业原料，需求增长推高价格，类似锂的超级周期（供需缺口）",
-        "watch": "全球盐产量及新能源政策对盐需求拉动"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "These 10 Chinese stocks are powering U.S. data centers",
-      "source": "CNBC",
-      "detail": "Many of the top-performing mainland Chinese stocks this year make components used in data centers globally, according to 22V Research.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "10只中国股票为美国数据中心供电",
-        "assets": "📈 中国电力设备股（如宁德时代） 利好\n📈 数据中心基建股 利好",
-        "chain": "AI算力需求（数据中心耗电量）拉动中国电力设备出口，但地缘风险（关税）可能限制利润",
-        "watch": "美国对华清洁能源关税政策及数据中心资本开支"
+        "what": "摩根士丹利称盐是新石油，建议配置",
+        "assets": "📈 盐业股 利好",
+        "chain": "盐用于工业（化工、水处理）和新能源（锂提取），需求增长但供应有限，类似石油的战略资源属性，资金可能从传统能源轮动",
+        "watch": "全球盐产量数据及锂矿项目对盐的需求预测"
       }
     }
   ]
