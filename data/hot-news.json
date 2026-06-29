@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 09:01",
+  "updateTime": "2026-06-29 09:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "多家机构看好里拉，土央行降息谨慎",
-        "assets": "📈 土耳其里拉 短期利好",
-        "chain": "降息预期减弱（借钱成本不降）→里拉空头回补（平仓止损）→新兴市场货币受提振",
-        "watch": "土耳其CPI（通胀）数据和央行下次利率决议"
+        "what": "多家机构看好里拉，土耳其央行谨慎降息",
+        "assets": "📈 土耳其里拉 利好\n📉 土耳其国债 承压",
+        "chain": "里拉走强（货币升值）吸引套息交易（借低息货币买高息资产），但降息谨慎限制短期资本流入。",
+        "watch": "土耳其央行下次利率决议及通胀数据"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 30,
       "insight": {
         "what": "9月加息预期升温，金价周线四连阴",
-        "assets": "📉 黄金 承压",
-        "chain": "加息预期（借钱成本升）→美元走强（货币升值）→黄金无息资产吸引力下降（机会成本高）",
-        "watch": "美国非农数据（就业指标）和美联储官员讲话"
+        "assets": "📉 黄金 承压\n📈 美元指数 利好",
+        "chain": "加息预期推高实际利率（名义利率减通胀），黄金无息资产吸引力下降，美元走强。",
+        "watch": "美联储官员讲话及非农就业数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美股期货小幅走高，美伊攻击推高油价",
-        "assets": "📈 原油 利好；📉 亚洲股市 分化",
-        "chain": "地缘风险（供给中断）→油价涨→能源股涨，但航运成本上升（物流贵）→出口依赖型市场承压",
-        "watch": "美伊冲突升级程度和OPEC（石油输出国组织）产量调整"
+        "what": "美伊袭击推升油价，美股期货小幅上涨，亚洲市场分化",
+        "assets": "📈 原油 利好\n📉 亚洲股市 承压",
+        "chain": "油价上涨（供应风险）推高通胀预期，压制风险偏好（Risk-off），资金从亚洲流向避险资产。",
+        "watch": "伊朗局势升级信号及EIA库存数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "存储芯片短缺冲击苹果微软，小企业危机",
-        "assets": "📈 存储芯片股 利好；📉 中小科技股 利空",
-        "chain": "芯片短缺（供不应求）→大厂抢产能（议价权强）→小厂缺货成本升（生存压力）→行业集中度提高",
-        "watch": "三星、美光财报和存储芯片现货价格"
+        "what": "存储芯片短缺冲击苹果微软，小公司面临生存危机",
+        "assets": "📈 存储芯片股 利好\n📉 小型科技公司 承压",
+        "chain": "芯片供应瓶颈（供给受限）推高成本，大厂有议价能力（定价权），小厂利润被挤压（利润率下降）。",
+        "watch": "三星、美光财报及存储芯片价格走势"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14人死亡",
-        "assets": "📈 原油 短期利好",
-        "chain": "安全事故→沙特供应中断担忧（情绪面）→油价跳涨，但实际产量无影响（理性后回落）",
-        "watch": "沙特阿美官方声明和后续产量数据"
+        "what": "沙特阿美直升机坠毁致14名国民死亡",
+        "assets": "📉 沙特阿美 承压\n📈 原油 利好",
+        "chain": "事故引发运营安全担忧（生产中断风险），短期推高油价，但基本面影响有限。",
+        "watch": "沙特阿美运营恢复公告及事故调查结果"
       }
     },
     {
@@ -80,65 +80,65 @@
       "score": 22,
       "insight": {
         "what": "两大存储芯片巨头回调，日韩股市下跌",
-        "assets": "📉 日韩半导体股 利空",
-        "chain": "芯片股回调（获利了结）→科技板块拖累（权重高）→日韩指数下跌（联动效应）",
-        "watch": "芯片行业需求和库存数据"
+        "assets": "📉 日韩股市 承压\n📉 存储芯片股 回调",
+        "chain": "芯片股获利回吐（涨后卖出），拖累科技权重大的日韩指数，但基本面未变。",
+        "watch": "芯片股技术支撑位及机构持仓变动"
       }
     },
     {
       "rank": 7,
-      "title": "美元冲高人民币回调至6.8 汇市行情切换了？",
-      "source": "第一财经",
-      "detail": "6月中旬以来，外汇市场行情出现明显切换，美元指数受美联储超预期鹰派政策提振冲高，人民币迎来阶段性回调。 美元指数于6月25日持续冲高至101.5，又于26日小幅回落至101...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "美元冲高，人民币回调至6.8",
-        "assets": "📈 美元 利好；📉 人民币 承压",
-        "chain": "美元走强（资金回流）→人民币贬值（汇率压力）→出口企业收益（外币换更多本币）→进口成本升（通胀输入）",
-        "watch": "中美利差（国债收益率差）和央行中间价"
-      }
-    },
-    {
-      "rank": 8,
       "title": "澳大利亚央行助理行长Kent：央行将能更好地应对下一次危机",
       "source": "环球市场播报",
       "detail": "澳大利亚央行助理行长Chris Kent表示，在检视替代货币政策工具后，该央行将能更好地应对下一场危机。 澳大利亚央行周一发布了低利率环境下额外货币政策工具框架。",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "澳央行助理行长称能更好应对危机",
-        "assets": "📈 澳元 短期中性偏利好",
-        "chain": "央行信心信号（政策工具足）→市场预期稳定（减少恐慌）→澳元获支撑（信心溢价）",
-        "watch": "澳洲CPI和就业数据"
+        "what": "澳央行助理行长称央行能更好应对下次危机",
+        "assets": "📈 澳元 利好\n📈 澳大利亚国债 利好",
+        "chain": "增强市场信心（政策可信度），降低风险溢价（Risk premium），吸引资本流入。",
+        "watch": "澳央行政策声明及经济预测更新"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Oil rises as renewed U.S.-Iran strikes reignite Middle East supply fears",
       "source": "CNBC",
       "detail": "Oil edged higher on Monday after renewed military strikes between the U.S. and Iran reignited concerns over crude supplies from the Middle East.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "美伊再度攻击，油价因供应担忧上涨",
-        "assets": "📈 原油 利好",
-        "chain": "地缘冲突（霍尔木兹海峡风险）→供给中断预期（运输受阻）→油价涨→通胀预期升（能源成本传导）",
-        "watch": "美伊谈判进展和EIA（美国能源信息署）库存数据"
+        "what": "美伊袭击重燃中东供应担忧，油价上涨",
+        "assets": "📈 原油 利好\n📉 航空股 承压",
+        "chain": "油价上涨（成本上升）挤压航空利润（利润率下降），同时推高通胀预期。",
+        "watch": "霍尔木兹海峡通行情况及OPEC产量数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
       "source": "CNBC",
       "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "分析称中国难取代美元，因货币战方式不同",
-        "assets": "📈 美元 长期利好；📉 人民币国际化 承压",
-        "chain": "美元霸权（储备货币）→中国策略（贸易结算+数字人民币）→短期难撼动（流动性差距）→市场维持美元主导",
-        "watch": "人民币全球支付份额和央行数字货币进展"
+        "what": "分析称中国不以取代美元方式打货币战",
+        "assets": "📈 人民币 利好\n📉 美元 承压",
+        "chain": "中国推动人民币国际化（结算多元化），削弱美元霸权，但非直接对抗，减少市场波动。",
+        "watch": "人民币跨境结算份额及央行政策动向"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
+      "source": "CNBC",
+      "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "摩根士丹利称盐是新石油，并给出交易策略",
+        "assets": "📈 盐矿股 利好\n📈 大宗商品 利好",
+        "chain": "盐需求增长（工业及食品用途），类似石油的稀缺性逻辑（供给受限），资金轮动至资源股。",
+        "watch": "盐矿公司产量及全球盐价指数"
       }
     }
   ]
