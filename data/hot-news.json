@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 09:10",
+  "updateTime": "2026-06-29 09:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "多家机构看多里拉，土央行降息谨慎",
-        "assets": "📈 土耳其里拉 利好",
-        "chain": "高利率维持吸引套息交易（Carry Trade），新兴市场资金流向土耳其",
-        "watch": "土耳其央行利率决议及通胀数据"
+        "what": "多家机构看好里拉，土耳其央行降息谨慎",
+        "assets": "📈 土耳其里拉 利好\n📉 土耳其国债收益率 下行",
+        "chain": "里拉走强降低进口成本（CPI下降），但高利率压制经济（GDP增速放缓）",
+        "watch": "土耳其央行下次利率决议及通胀数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加息预期升温，金价周线四连阴",
-        "assets": "📉 黄金 承压",
-        "chain": "加息预期推升美元实际利率（剔除通胀的利率），黄金持有成本增加",
-        "watch": "本周美国CPI（消费者物价指数）及非农就业数据"
+        "what": "9月加息预期升温，金价周线四连阴",
+        "assets": "📉 黄金 承压\n📈 美元指数 走强",
+        "chain": "加息预期（借钱成本上升）推高实际利率（名义利率减通胀），削弱黄金避险需求",
+        "watch": "本周美国CPI数据及美联储官员讲话"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美股期货微涨，美伊冲突推高油价",
-        "assets": "📈 原油 利好 📉 亚太股市 承压",
-        "chain": "能源成本上升挤压企业利润，避险情绪压制风险资产（股票等）",
-        "watch": "美伊冲突升级动态及API（美国石油协会）库存数据"
+        "what": "美伊冲突推高油价，美股期货小涨亚洲分歧",
+        "assets": "📈 原油 利好\n📉 亚洲出口股 承压\n📈 美股能源股 利好",
+        "chain": "油价上涨推升通胀预期（CPI），可能延迟美联储降息，压制成长股估值（PE倍数）",
+        "watch": "WTI原油能否突破前高及中东停火进展"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "存储芯片短缺对苹果微软是问题，对小公司是生存危机",
-        "assets": "📈 存储芯片价格 利好 📉 中小科技股 利空",
-        "chain": "供应短缺加剧行业马太效应（强者愈强），小厂面临订单违约风险",
-        "watch": "美光、三星存储芯片报价及产能恢复情况"
+        "what": "内存短缺冲击小公司，苹果微软也受影响",
+        "assets": "📈 存储芯片股（如美光） 利好\n📉 小型科技硬件商 利空",
+        "chain": "供应紧张推高DRAM/NAND价格（存储芯片涨价），小型企业成本飙升，行业集中度提升",
+        "watch": "三星、海力士季度出货量及资本开支计划"
       }
     },
     {
@@ -65,42 +65,28 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14人死亡",
-        "assets": "📈 原油 短期利好",
-        "chain": "地缘风险溢价上升，但事故非生产设施，影响有限",
-        "watch": "沙特阿美官方声明及油价日内波动"
+        "what": "沙特阿美直升机坠毁致14名国民死亡",
+        "assets": "📈 原油 短期利好（地缘风险溢价）\n📉 沙特股市 情绪利空",
+        "chain": "事故或影响阿美运营安全（产能稳定性），但大概率是孤立事件，冲击有限",
+        "watch": "沙特阿美是否调整产量计划及调查结果"
       }
     },
     {
       "rank": 6,
-      "title": "两大存储芯片巨头回调，日韩股市下跌",
-      "source": "中国证券报",
-      "detail": "今天早盘，日韩股市低开。 同花顺数据显示，截至北京时间8：34，日经225指数跌1.34%，韩国综合指数跌3.22%。SK海力士盘中跌超4.5%，三星电子盘中跌超5%。",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "两大存储芯片巨头回调，日韩股市下跌",
-        "assets": "📉 日经225 承压 📉 韩国KOSPI 承压",
-        "chain": "芯片股拖累科技板块，市场担忧需求见顶（Peak Demand）",
-        "watch": "美光、海力士财报及下游手机PC出货量"
-      }
-    },
-    {
-      "rank": 7,
       "title": "澳大利亚央行助理行长Kent：央行将能更好地应对下一次危机",
       "source": "环球市场播报",
       "detail": "澳大利亚央行助理行长Chris Kent表示，在检视替代货币政策工具后，该央行将能更好地应对下一场危机。 澳大利亚央行周一发布了低利率环境下额外货币政策工具框架。",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "澳央行助理行长称能更好应对下次危机",
-        "assets": "📈 澳元 利好",
-        "chain": "市场解读为政策信心信号，降低尾部风险（极端风险）溢价",
-        "watch": "澳洲就业及GDP（国内生产总值）数据"
+        "what": "澳央行称能更好应对下次危机",
+        "assets": "📈 澳元 利好\n📈 澳大利亚国债 利好",
+        "chain": "央行信心增强（政策工具箱充足）可能推迟降息，澳元走强压制出口竞争力（贸易顺差）",
+        "watch": "澳大利亚失业率及薪资增速数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Oil rises as renewed U.S.-Iran strikes reignite Middle East supply fears",
       "source": "CNBC",
       "detail": "Oil edged higher on Monday after renewed military strikes between the U.S. and Iran reignited concerns over crude supplies from the Middle East.",
@@ -108,27 +94,27 @@
       "score": 17,
       "insight": {
         "what": "美伊冲突升级，油价因供应担忧上涨",
-        "assets": "📈 布伦特原油 利好",
-        "chain": "霍尔木兹海峡（关键原油运输通道）风险溢价上升",
-        "watch": "美国对伊朗新制裁及OPEC（石油输出国组织）产量调整"
+        "assets": "📈 原油 利好\n📈 能源股 利好\n📉 航空股 利空",
+        "chain": "霍尔木兹海峡（全球石油运输要道）风险溢价推高油价，下游炼化利润承压（裂解价差）",
+        "watch": "伊朗是否封锁海峡及美国战略石油储备释放"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
       "source": "CNBC",
       "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "分析称中国不以美元取代美国，而是打货币战争",
-        "assets": "📉 美元指数 承压 📈 人民币国际化 利好",
-        "chain": "人民币跨境结算和数字货币渗透削弱美元霸权（全球储备货币地位）",
-        "watch": "人民币国际支付份额及央行数字货币试点进展"
+        "what": "文章称中国无法取代美元，误解货币战",
+        "assets": "📈 美元 利好\n📉 人民币国际化概念 承压",
+        "chain": "美元霸权（全球储备货币地位）短期难撼，人民币贬值压力或加剧资本外流（外汇储备）",
+        "watch": "人民币汇率中间价及央行外汇干预信号"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
       "source": "CNBC",
       "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
@@ -136,9 +122,23 @@
       "score": 17,
       "insight": {
         "what": "摩根士丹利称盐是新石油，建议布局",
-        "assets": "📈 盐业公司 利好 📈 锂矿 利好",
-        "chain": "盐是锂提取关键原料，电动车电池需求推升盐价",
-        "watch": "锂盐价格及Albemarle（雅保）等锂矿公司财报"
+        "assets": "📈 盐矿股（如钾肥生产商） 利好\n📈 化工板块 利好",
+        "chain": "盐用于锂电池（电动车）和工业原料，需求增长推高价格，类似锂的超级周期（供需缺口）",
+        "watch": "全球盐产量及新能源政策对盐需求拉动"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "These 10 Chinese stocks are powering U.S. data centers",
+      "source": "CNBC",
+      "detail": "Many of the top-performing mainland Chinese stocks this year make components used in data centers globally, according to 22V Research.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "10只中国股票为美国数据中心供电",
+        "assets": "📈 中国电力设备股（如宁德时代） 利好\n📈 数据中心基建股 利好",
+        "chain": "AI算力需求（数据中心耗电量）拉动中国电力设备出口，但地缘风险（关税）可能限制利润",
+        "watch": "美国对华清洁能源关税政策及数据中心资本开支"
       }
     }
   ]
