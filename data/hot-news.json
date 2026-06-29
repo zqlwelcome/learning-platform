@@ -1,8 +1,22 @@
 {
-  "updateTime": "2026-06-29 08:15",
+  "updateTime": "2026-06-29 08:25",
   "news": [
     {
       "rank": 1,
+      "title": "多家机构看好里拉走势 土央行降息节奏仍趋谨慎",
+      "source": "市场资讯",
+      "detail": "文章来源：新华财经 新华财经伊斯坦布尔6月29日电（记者许万虎）多家国际金融机构近期相继发布土耳其市场研究报告，继续对土耳其里拉持积极看法，认为在旅游旺季外汇流入...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "机构看好里拉，土央行降息谨慎",
+        "assets": "📉 土耳其里拉 承压",
+        "chain": "降息谨慎（利率高企）支撑里拉短期稳定，但通胀高企（物价持续上涨）限制经济复苏",
+        "watch": "土耳其CPI（消费者物价指数）及央行下次利率决议"
+      }
+    },
+    {
+      "rank": 2,
       "title": "黄金交易提醒：9月加息预期升温，金价周线四连阴，多头可以抄底了吗？",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 现货黄金在上周五（6月26日）勉强反弹1.35%，收于4081.02美元/盎司，但这微不足道的涨幅，无法掩盖一个残酷的事实——金价已连续第四周下跌。",
@@ -11,50 +25,36 @@
       "insight": {
         "what": "9月加息预期升温，金价周线四连阴",
         "assets": "📉 黄金 承压",
-        "chain": "加息预期（借钱成本提高）→实际利率上升→无息资产黄金吸引力下降",
-        "watch": "本周五非农数据及CPI（通胀指标）"
+        "chain": "加息预期推高实际利率（名义利率减通胀），降低黄金持有吸引力，资金从贵金属流向美债",
+        "watch": "美国非农就业数据和CPI数据"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "6月29日财经早餐：加息预期松绑，黄金喜迎提振，伊朗海峡“30天控制”放话支撑油价，美伊多哈会晤在即",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 周一（北京时间6月29日）亚市早盘，现货黄金交投于4069美元/盎司附近，主要受加息预期略有缓解以及美元从近期高位回落的提振；美原油开盘上涨超1%...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加息预期松绑，黄金获提振",
-        "assets": "📈 黄金 利好",
-        "chain": "降息预期（借钱成本降低）→美元走弱→黄金作为替代资产受益",
-        "watch": "下周美联储会议纪要措辞"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "IPO周报｜本周2新股申购，北方华创、中微公司供应商来了",
-      "source": "澎湃新闻",
-      "detail": "本周新股申购迎来半导体零部件头部企业。 澎湃新闻根据Wind及公开信息梳理统计，本周（6月29日至7月3日）有2只新股安排申购，分别为托伦斯精密制造（江苏）股份有限公司（...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "北方华创、中微公司供应商本周IPO申购",
-        "assets": "📈 A股半导体设备板块 利好",
-        "chain": "新股上市→产业链关联标的获估值锚定→资金关注半导体国产替代",
-        "watch": "新股发行市盈率及首日涨幅"
+        "what": "加息预期松绑，黄金提振，伊朗局势支撑油价",
+        "assets": "📈 黄金 利好；📈 原油 利好",
+        "chain": "加息预期降温（降息预期重燃）利多黄金；霍尔木兹海峡（关键石油通道）风险推升油价，美伊会晤决定短期方向",
+        "watch": "美伊多哈会晤结果及EIA（美国能源信息署）库存数据"
       }
     },
     {
       "rank": 4,
-      "title": "Stock futures rise along with oil prices as traders weigh U.S. attacks on Iran over the weekend: Live updates",
+      "title": "Stock futures edge higher, Asia mixed as renewed U.S.-Iran attacks push oil prices up: Live updates",
       "source": "CNBC",
       "detail": "Wall Street is coming off a mixed week, characterized by a rotation out of tech and into other parts of the stock market.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美国周末袭击伊朗，油价随美股期货上涨",
-        "assets": "📈 原油 利好 📈 美股能源股 利好",
-        "chain": "地缘冲突（供给中断风险）→布伦特原油溢价→能源股EPS（每股收益）上调",
-        "watch": "霍尔木兹海峡通行量数据"
+        "what": "美股期货小涨，亚洲股市分化，美伊冲突推高油价",
+        "assets": "📈 美股期货 利好；📈 原油 利好；📉 亚洲股市 承压",
+        "chain": "地缘冲突（战争威胁）推升油价，增加输入性通胀（进口成本上升），利空依赖进口的经济体股市",
+        "watch": "美伊军事行动升级信号及亚洲PMI（采购经理人指数）"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "存储短缺对苹果和微软是小危机，小厂是生存危机",
-        "assets": "📉 中小型存储芯片股 利空 📈 三星/美光 相对利好",
-        "chain": "头部企业囤货挤占产能→小厂拿不到货→行业集中度提升",
-        "watch": "存储芯片现货价格及交货周期"
+        "what": "存储芯片短缺冲击苹果微软，小企业面临生存危机",
+        "assets": "📈 存储芯片板块 利好；📉 中小科技股 承压",
+        "chain": "供应瓶颈（产能不足）推高芯片价格，大厂成本转嫁能力强，小厂利润被侵蚀（盈利能力下降）",
+        "watch": "三星、美光等芯片厂商的产能指引及资本开支计划"
       }
     },
     {
@@ -79,66 +79,66 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14名国民死亡",
-        "assets": "📉 沙特阿美股价 短线承压",
-        "chain": "事故引发安全担忧→运营风险溢价→但产能影响有限",
-        "watch": "沙特阿美官方事故调查报告"
+        "what": "沙特阿美直升机坠毁，14名国民遇难",
+        "assets": "📈 原油 短期利好",
+        "chain": "事故引发沙特供应中断担忧（生产安全风险），但实际产量影响有限，情绪驱动短期油价波动",
+        "watch": "沙特阿美官方声明及产量恢复情况"
       }
     },
     {
       "rank": 7,
+      "title": "澳大利亚央行助理行长Kent：央行将能更好地应对下一次危机",
+      "source": "环球市场播报",
+      "detail": "澳大利亚央行助理行长Chris Kent表示，在检视替代货币政策工具后，该央行将能更好地应对下一场危机。 澳大利亚央行周一发布了低利率环境下额外货币政策工具框架。",
+      "lang": "zh",
+      "score": 18,
+      "insight": {
+        "what": "澳央行称将更好应对下一次危机",
+        "assets": "📈 澳元 利好",
+        "chain": "央行储备充足（政策工具多）增强市场信心，澳元汇率受预期支撑，风险偏好改善",
+        "watch": "澳大利亚GDP（国内生产总值）增速及失业率数据"
+      }
+    },
+    {
+      "rank": 8,
       "title": "美联储巴尔金：油价降了，通胀却未必降！4.1%PCE令美联储保持警惕",
       "source": "市场资讯",
       "detail": "文章来源：金十数据 5月通胀数据的走高，使美联储内部对物价走势的判断再度趋于谨慎。美国商务部数据显示，截至2026年5月的个人消费支出价格指数（PCE）同比上涨4.1%...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "油价降但通胀未必降，4.1%PCE令美联储警惕",
-        "assets": "📉 美债利率 上行压力 📉 科技成长股 承压",
-        "chain": "PCE（个人消费支出物价）高→加息预期（收紧货币）→利率敏感型资产估值压缩",
-        "watch": "下周PCE及核心PCE环比数据"
+        "what": "巴尔金：油价降但通胀未必降，4.1%PCE令人警惕",
+        "assets": "📈 美元 利好；📉 美债 承压",
+        "chain": "核心通胀（剔除食品能源）仍高，美联储维持鹰派（倾向加息）立场，实际利率上升压制风险资产",
+        "watch": "下周PCE（个人消费支出）数据及美联储官员讲话"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美联储巴尔金：当前通胀水平仍然过高 但已看到缓解迹象",
       "source": "智通财经APP",
       "detail": "里士满联储主席巴尔金警告称，当前通胀水平仍然过高，不过他也看到一些初步迹象表明，价格压力可能很快开始缓解。 上周四公布的数据显示...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "巴尔金称通胀仍过高但已现缓解迹象",
-        "assets": "📈 美股大盘 中性偏多",
-        "chain": "通胀见顶预期（物价增速放缓）→加息终点临近→风险偏好回升",
-        "watch": "未来3个月CPI（消费者物价指数）趋势"
+        "what": "巴尔金：通胀仍过高但已现缓解迹象",
+        "assets": "📈 美股 利好；📈 美债 利好",
+        "chain": "通胀缓解信号（物价增速放缓）提升降息预期，降低企业融资成本（借钱更便宜），利好股市和债券",
+        "watch": "CPI（消费者物价指数）及薪资增速数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil rises as renewed U.S.-Iran strikes reignite Middle East supply fears",
       "source": "CNBC",
       "detail": "Oil edged higher on Monday after renewed military strikes between the U.S. and Iran reignited concerns over crude supplies from the Middle East.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "美伊再交火引发中东供应中断担忧",
-        "assets": "📈 原油 利好 📈 军工股 利好",
-        "chain": "霍尔木兹海峡（全球油运咽喉）风险溢价→布伦特原油看涨期权成交量飙升",
-        "watch": "美伊多哈会晤结果及伊朗原油出口量"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
-      "source": "CNBC",
-      "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "中国无需取代美元，而是打货币战争",
-        "assets": "📉 美元指数 中性 📈 人民币 长期看多",
-        "chain": "人民币国际化（跨境结算扩大）→绕开SWIFT（国际支付系统）→美元储备份额缓慢侵蚀",
-        "watch": "人民币跨境支付系统(CIPS)交易量"
+        "what": "美伊冲突重燃，油价因供应担忧上涨",
+        "assets": "📈 原油 利好；📉 全球股市 承压",
+        "chain": "中东供应中断风险（战争威胁）推升油价，增加企业成本（油价上涨推高运输和原料价格），利空股市",
+        "watch": "美伊军事行动范围及OPEC（石油输出国组织）产量政策"
       }
     }
   ]
