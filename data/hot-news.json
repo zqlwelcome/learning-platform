@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-06-29 08:06",
+  "updateTime": "2026-06-29 08:15",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "9月加息预期升温，金价周线四连阴",
         "assets": "📉 黄金 承压",
-        "chain": "加息预期推高实际利率（剔除通胀的利率），黄金持有成本上升，多头观望",
-        "watch": "本周美联储官员讲话及PCE（个人消费支出物价指数）数据"
+        "chain": "加息预期（借钱成本提高）→实际利率上升→无息资产黄金吸引力下降",
+        "watch": "本周五非农数据及CPI（通胀指标）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "加息预期松绑，美伊多哈会晤支撑油价",
-        "assets": "📈 黄金 提振\n📈 原油 利好",
-        "chain": "降息预期（借钱成本降低）利好黄金；伊朗供应风险推升油价，但会晤若缓和则油价回落",
-        "watch": "多哈会晤结果及伊朗海峡动态"
+        "what": "加息预期松绑，黄金获提振",
+        "assets": "📈 黄金 利好",
+        "chain": "降息预期（借钱成本降低）→美元走弱→黄金作为替代资产受益",
+        "watch": "下周美联储会议纪要措辞"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "本周2新股申购，北方华创、中微公司供应商上市",
-        "assets": "📈 A股半导体产业链 利好",
-        "chain": "新股融资增加供给，但供应商上市显示半导体设备景气度（行业热度），可能带动板块情绪",
-        "watch": "新股首日涨幅及半导体设备订单数据"
+        "what": "北方华创、中微公司供应商本周IPO申购",
+        "assets": "📈 A股半导体设备板块 利好",
+        "chain": "新股上市→产业链关联标的获估值锚定→资金关注半导体国产替代",
+        "watch": "新股发行市盈率及首日涨幅"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "美股期货随油价上涨，市场评估美国攻击伊朗",
-        "assets": "📈 美股能源股 利好\n📉 美股大盘 承压",
-        "chain": "地缘风险（地区冲突）推高油价，能源股受益；但避险情绪可能压制科技股等风险资产",
-        "watch": "伊朗反击行动及美国后续制裁声明"
+        "what": "美国周末袭击伊朗，油价随美股期货上涨",
+        "assets": "📈 原油 利好 📈 美股能源股 利好",
+        "chain": "地缘冲突（供给中断风险）→布伦特原油溢价→能源股EPS（每股收益）上调",
+        "watch": "霍尔木兹海峡通行量数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "内存短缺对苹果微软是小麻烦，对小厂是生存危机",
-        "assets": "📈 内存股（三星、美光） 利好\n📉 小型科技硬件股 利空",
-        "chain": "供应紧张推高内存价格，大厂有议价能力，小厂成本飙升可能被挤出市场（行业洗牌）",
-        "watch": "内存现货价格及小厂财报利润率变化"
+        "what": "存储短缺对苹果和微软是小危机，小厂是生存危机",
+        "assets": "📉 中小型存储芯片股 利空 📈 三星/美光 相对利好",
+        "chain": "头部企业囤货挤占产能→小厂拿不到货→行业集中度提升",
+        "watch": "存储芯片现货价格及交货周期"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "沙特阿美直升机坠毁致14人死亡",
-        "assets": "📈 原油 短期利好",
-        "chain": "事故引发沙特供应安全担忧，但大概率是孤立事件，影响有限",
-        "watch": "沙特官方调查结果及油田运营声明"
+        "what": "沙特阿美直升机坠毁致14名国民死亡",
+        "assets": "📉 沙特阿美股价 短线承压",
+        "chain": "事故引发安全担忧→运营风险溢价→但产能影响有限",
+        "watch": "沙特阿美官方事故调查报告"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "巴尔金：油价降通胀未必降，4.1%PCE令联储警惕",
-        "assets": "📉 美股 承压\n📉 美债 利好",
-        "chain": "高通胀（物价上涨）使美联储维持鹰派（倾向加息），压制股市估值，推高债券收益率",
-        "watch": "本周PCE数据及美联储点阵图（利率预测）"
+        "what": "油价降但通胀未必降，4.1%PCE令美联储警惕",
+        "assets": "📉 美债利率 上行压力 📉 科技成长股 承压",
+        "chain": "PCE（个人消费支出物价）高→加息预期（收紧货币）→利率敏感型资产估值压缩",
+        "watch": "下周PCE及核心PCE环比数据"
       }
     },
     {
@@ -107,38 +107,38 @@
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "巴尔金：通胀仍高但已现缓解迹象",
-        "assets": "📈 美股 中性偏利好",
-        "chain": "缓解信号降低加息概率，但数据仍需确认，市场等待更多证据",
-        "watch": "核心PCE同比变化及消费者信心指数"
+        "what": "巴尔金称通胀仍过高但已现缓解迹象",
+        "assets": "📈 美股大盘 中性偏多",
+        "chain": "通胀见顶预期（物价增速放缓）→加息终点临近→风险偏好回升",
+        "watch": "未来3个月CPI（消费者物价指数）趋势"
       }
     },
     {
       "rank": 9,
+      "title": "Oil rises as renewed U.S.-Iran strikes reignite Middle East supply fears",
+      "source": "CNBC",
+      "detail": "Oil edged higher on Monday after renewed military strikes between the U.S. and Iran reignited concerns over crude supplies from the Middle East.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "美伊再交火引发中东供应中断担忧",
+        "assets": "📈 原油 利好 📈 军工股 利好",
+        "chain": "霍尔木兹海峡（全球油运咽喉）风险溢价→布伦特原油看涨期权成交量飙升",
+        "watch": "美伊多哈会晤结果及伊朗原油出口量"
+      }
+    },
+    {
+      "rank": 10,
       "title": "If you think China needs to dethrone U.S. dollar, you don't understand how it is waging global currency war",
       "source": "CNBC",
       "detail": "It's misguided to focus on China's renminbi replacing the U.S. dollar. Beijing is already successfully reducing dependence on a dollar-centric global system.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "中国去美元化需理解其货币战争策略",
-        "assets": "📉 美元 承压\n📈 人民币 中性",
-        "chain": "中国推动本币结算（去美元），但短期美元霸权难撼，长期或削弱美元储备地位",
-        "watch": "人民币跨境支付系统（CIPS）交易量及外汇储备变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Morgan Stanley says salt is the new oil. Here's why and how to play it",
-      "source": "CNBC",
-      "detail": "Salt can become as sought-out as oil amid a boom in demand for sodium-ion batteries, according to the firm.",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "摩根士丹利：盐是新石油，如何投资",
-        "assets": "📈 盐矿股（如Intrepid Potash） 利好",
-        "chain": "盐用于工业（氯碱、融雪）、储能（钠电池），需求增长推高资源价值",
-        "watch": "盐现货价格及钠电池商业化进展"
+        "what": "中国无需取代美元，而是打货币战争",
+        "assets": "📉 美元指数 中性 📈 人民币 长期看多",
+        "chain": "人民币国际化（跨境结算扩大）→绕开SWIFT（国际支付系统）→美元储备份额缓慢侵蚀",
+        "watch": "人民币跨境支付系统(CIPS)交易量"
       }
     }
   ]
