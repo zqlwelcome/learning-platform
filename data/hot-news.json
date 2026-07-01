@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-01 10:27",
+  "updateTime": "2026-07-01 12:34",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "CNBC",
       "detail": "Wall Street poured into chipmakers not named Nvidia in the second quarter, as the artificial intelligence boom expanded to include more suppliers.",
       "lang": "en",
-      "score": 47
+      "score": 47,
+      "insight": {
+        "what": "半导体股Q2狂涨，美光英特尔AMD合计市值增2万亿",
+        "assets": "📈 美股半导体 利好",
+        "chain": "AI算力需求拉动芯片订单（订单量增加），带动上游设备和材料股",
+        "watch": "芯片股Q3财报指引是否持续超预期"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "CNBC",
       "detail": "Banks are fine-tuning their approach toward deposits, with some trimming rates on high-yield savings accounts while others lift rates on CDs.",
       "lang": "en",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "美联储政策不明，高收益CD仍是资金避风港",
+        "assets": "📈 美国CD（定期存单） 利好；📉 美股成长股 承压",
+        "chain": "利率高位锁定收益（固定利息），资金从股市回流固收（固定收益产品）",
+        "watch": "美联储7月议息会议点阵图（利率预测）"
+      }
     },
     {
       "rank": 3,
@@ -23,63 +35,111 @@
       "source": "环球市场播报",
       "detail": " 据知情人士透露，Neutron HoldingsInc．（更广为人知的名字是Lime）已将其首次公开募股（IPO）定价为每股25美元，处于此前公布的发行价区间中位。",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "优步投资的LimeIPO定价25美元",
+        "assets": "📈 共享出行概念 利好",
+        "chain": "IPO定价合理（估值不高）提振一级市场（新股发行）信心，利好优步持股",
+        "watch": "Lime上市首日涨幅及后续财报"
+      }
     },
     {
       "rank": 4,
-      "title": "日本首相设定目标 争取到2040财年名义GDP达到6.8万亿美元",
+      "title": "AOL母公司Bending Spoons的16.8亿美元IPO定价高于指导区间",
       "source": "环球市场播报",
-      "detail": " 日本首相高市早苗设定目标，争取到2040年财年名义国内生产总值（GDP）扩大到6.8万亿美元，其中约五分之一将来自国内民间资本投资。",
+      "detail": "互联网先驱AOL的母公司Bending Spoons已宣布其首次公开募股（IPO）的定价高于指导区间，估值约为180亿美元。 这家总部位于意大利的公司表示，此次发行总计募资16.8亿美元...",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "AOL母公司Bending Spoons IPO定价高于指导区间",
+        "assets": "📈 科技媒体IPO 利好",
+        "chain": "超预期定价显示需求强劲（认购火爆），或带动同类公司加速上市",
+        "watch": "上市后股价能否守住发行价"
+      }
     },
     {
       "rank": 5,
-      "title": "数字基础设施公司ITG美国IPO定价低于区间，筹资3.122亿美元",
-      "source": "环球市场播报",
-      "detail": " 由橡树资本（Oaktree）支持的ITG周二表示，其美国首次公开募股（IPO）定价为每股16美元，低于目标区间，共筹集3.122亿美元。",
-      "lang": "zh",
-      "score": 40
-    },
-    {
-      "rank": 6,
       "title": "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
       "source": "CNBC",
       "detail": "Nike was expected to report another quarter of declining sales as the sneaker giant struggles to regain strength under its turnaround strategy.",
       "lang": "en",
-      "score": 39
+      "score": 39,
+      "insight": {
+        "what": "Nike业绩超预期但中国销售跌12%，获9.86亿关税退款",
+        "assets": "📈 耐克 利好；📉 中国消费股 承压",
+        "chain": "关税退款增厚利润（利润增加），但中国需求疲软拖累亚太供应链",
+        "watch": "中国区7月销售数据及关税政策变化"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "欧洲央行德马尔科：欧洲央行不应急于再度加息",
+      "source": "环球市场播报",
+      "detail": "欧洲央行管委、马耳他央行行长亚历山大・德马尔科表示，鉴于油价回落速度超出预期，欧洲央行不宜仓促推出新一轮加息举措，越来越多政策制定者也呼吁货币政策保持审慎...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "欧洲央行官员称不应急于再加息",
+        "assets": "📈 欧股 利好；📉 欧元 承压",
+        "chain": "暂停加息预期降低融资成本（借钱更便宜），利好欧洲房地产和银行股",
+        "watch": "欧元区6月通胀数据是否进一步回落"
+      }
     },
     {
       "rank": 7,
-      "title": "盖蒂图片社因英国监管部门审查 取消了与Shutterstock的37亿美元合并计划",
+      "title": "韩国倾力打造8800亿美元芯片产业集群 重塑AI版图并振兴欠发达地区",
       "source": "环球市场播报",
-      "detail": "盖蒂图片社周二表示，由于英国竞争监管机构将出售Shutterstock的编辑业务作为批准合并的条件，该公司已取消与Shutterstock的合并计划。",
+      "detail": " 随着韩国成为全球人工智能（AI）热潮的主要受益者之一，总统李在明正将自己的政治遗产押注于一项雄心勃勃的计划：把韩国相对欠发达的西南地区打造为全球芯片产业重镇。",
       "lang": "zh",
-      "score": 37
+      "score": 35,
+      "insight": {
+        "what": "韩国投8800亿美元建芯片产业集群",
+        "assets": "📈 韩国芯片股 利好；📈 半导体设备 利好",
+        "chain": "政府补贴拉动资本开支（投资增加），利好ASML等设备商和三星供应链",
+        "watch": "韩国半导体出口月度数据及补贴细则"
+      }
     },
     {
       "rank": 8,
+      "title": "Asia’s IPO boom looks strong. Here’s why it may be more complicated",
+      "source": "CNBC",
+      "detail": "Asia-Pacific is leading the global IPO market, but its boom is not one story. Hong Kong, Mainland China and India are each powered by a different IPO engine — offshore liquidity, policy-guided capital",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "亚洲IPO看似火热实则复杂",
+        "assets": "📉 亚洲新股 中性偏空",
+        "chain": "高估值和监管风险（政策不确定性）使打新（新股申购）回报分化，资金更挑剔",
+        "watch": "港股和A股IPO破发率（跌破发行价比例）"
+      }
+    },
+    {
+      "rank": 9,
       "title": "韩国6月出口额首次突破1000亿美元，芯片出口飙升近两倍",
       "source": "环球市场播报",
       "detail": " 韩国产业通商资源部周三公布的数据显示，受创纪录芯片出口的推动，韩国6月份月度出口额首次突破1000亿美元大关，创下历史新高。",
       "lang": "zh",
-      "score": 35
-    },
-    {
-      "rank": 9,
-      "title": "Michael Burry says he's shorting Caterpillar for the first time after it nearly doubled in the AI-driven rally of 2026",
-      "source": "CNBC",
-      "detail": "\"Caterpillar jumped out at me,\" Burry said. \"I have never shorted Caterpillar. It has always done great for me on the long side in the past.\"",
-      "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "韩国6月出口破千亿，芯片出口飙升近两倍",
+        "assets": "📈 韩国经济 利好；📈 全球芯片 利好",
+        "chain": "出口强劲支撑韩元（货币升值）和GDP，验证全球AI需求持续",
+        "watch": "7月前20日出口数据及芯片价格走势"
+      }
     },
     {
       "rank": 10,
-      "title": "China-linked actors target more than technology as AI competition with U.S. intensifies",
+      "title": "CNBC Daily Open: AI demand fuels investors' portfolios while oil posts biggest monthly decline",
       "source": "CNBC",
-      "detail": "Cyberattacks from China-based entities are on the rise and not just targeting specific tech, analysts warn, as the U.S. AI race intensifies.",
+      "detail": "The tech space continues to be fueled by rising artificial intelligence demand, with investors piling their portfolios in the technology, while Amazon Web Services dabbles with Forward Deployed Engine",
       "lang": "en",
-      "score": 32
+      "score": 32,
+      "insight": {
+        "what": "AI需求推动投资组合，但原油月跌最大",
+        "assets": "📈 AI科技股 利好；📉 原油 承压",
+        "chain": "AI资金挤占商品配置（资金搬家），原油因需求担忧和OPEC增产承压",
+        "watch": "WTI原油是否跌破70美元支撑位"
+      }
     }
   ]
 }
