@@ -1,145 +1,85 @@
 {
-  "updateTime": "2026-07-01 12:36",
+  "updateTime": "2026-07-02 11:18",
   "news": [
     {
       "rank": 1,
-      "title": "Record chip rally adds $2 trillion in combined value to Micron, Intel and AMD in second quarter",
+      "title": "Chip stocks that notched record rallies in second quarter start Q3 with a dud",
       "source": "CNBC",
-      "detail": "Wall Street poured into chipmakers not named Nvidia in the second quarter, as the artificial intelligence boom expanded to include more suppliers.",
+      "detail": "Memory maker Micron, which jumped over 240% in the second quarter, dropped 11% on Wednesday, wiping out nearly $200 billion of market capitalization.",
       "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "芯片股二季度飙升，美光、英特尔、AMD市值合计增2万亿",
-        "assets": "📈 美股半导体板块 利好",
-        "chain": "AI需求驱动芯片订单，带动上游设备及下游云服务商（如英伟达供应商）",
-        "watch": "AI芯片企业财报及资本开支指引"
-      }
+      "score": 44
     },
     {
       "rank": 2,
-      "title": "Where to find top CD yields in the second half as Fed policy remains murky",
-      "source": "CNBC",
-      "detail": "Banks are fine-tuning their approach toward deposits, with some trimming rates on high-yield savings accounts while others lift rates on CDs.",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "美联储政策不明，高收益CD(定期存单)仍是避风港",
-        "assets": "📈 美元短期国债 利好；📉 风险资产 承压",
-        "chain": "资金从股市转向高息固收，压制风险偏好（risk-off）",
-        "watch": "美联储7月会议及点阵图"
-      }
+      "title": "美联储偏鸽叠加美国ADP数据不及预期，黄金重返4000美元上方",
+      "source": "滚动播报",
+      "detail": "文章来源：汇通财经 现货黄金在周四亚洲交易时段震荡走高，交投于4053美元/盎司附近，延续自近期低位区域的技术性修复行情。此前金价一度逼近七个月低点...",
+      "lang": "zh",
+      "score": 40
     },
     {
       "rank": 3,
-      "title": "AOL母公司Bending Spoons的16.8亿美元IPO定价高于指导区间",
-      "source": "环球市场播报",
-      "detail": "互联网先驱AOL的母公司Bending Spoons已宣布其首次公开募股（IPO）的定价高于指导区间，估值约为180亿美元。 这家总部位于意大利的公司表示，此次发行总计募资16.8亿美元...",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "AOL母公司Bending Spoons IPO定价高于区间，募资16.8亿",
-        "assets": "📈 科技IPO板块 利好",
-        "chain": "一级市场回暖信号，提振私募估值及后续科技股上市意愿",
-        "watch": "首日破发与否及后续科技IPO定价"
-      }
+      "title": "Fed Chief Kevin Warsh declines to hint at July rate decision, but says inflation 'too high'",
+      "source": "CNBC",
+      "detail": "The Fed chairman joined a panel of other central bank leaders Wednesday at the ECB Forum on Central Banking in Sintra, Portugal.",
+      "lang": "en",
+      "score": 38
     },
     {
       "rank": 4,
-      "title": "优步投资的Lime据悉确定IPO发行价为25美元",
+      "title": "韩国股市一度重挫7% AI担忧导致芯片制造商股票下跌",
       "source": "环球市场播报",
-      "detail": " 据知情人士透露，Neutron HoldingsInc．（更广为人知的名字是Lime）已将其首次公开募股（IPO）定价为每股25美元，处于此前公布的发行价区间中位。",
+      "detail": " 韩国股市周四大跌，隔夜有报道称美国科技巨头Meta Platforms计划出售算力，引发投资者对AI产能过剩的质疑，导致芯片制造商类股遭抛售。",
       "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "优步投资的Lime确定IPO发行价25美元",
-        "assets": "📈 共享出行板块 利好；📈 优步 间接利好",
-        "chain": "提振出行科技估值，但需关注盈利路径（unit economics）",
-        "watch": "Lime上市首日表现及用户增长数据"
-      }
+      "score": 37
     },
     {
       "rank": 5,
-      "title": "Nike results top estimates even as China sales drop 12%; retailer expects $986 million tariff refund",
-      "source": "CNBC",
-      "detail": "Nike was expected to report another quarter of declining sales as the sneaker giant struggles to regain strength under its turnaround strategy.",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "Nike业绩超预期，中国销售降12%，预计获9.86亿关税退款",
-        "assets": "📈 耐克 利好；📉 中国消费股 承压",
-        "chain": "关税退款提振利润，但中国需求疲软拖累亚太供应链（代工厂）",
-        "watch": "中国零售数据及贸易政策变化"
-      }
+      "title": "韩国股市重挫6% AI担忧导致芯片制造商股票下跌",
+      "source": "环球市场播报",
+      "detail": "韩国股市大跌，Meta Platform Inc．计划出售算力，引发投资者对AI产能过剩的质疑，导致芯片制造商类股遭抛售。 Kospi指数一度下跌6.5%...",
+      "lang": "zh",
+      "score": 37
     },
     {
       "rank": 6,
-      "title": "欧洲央行德马尔科：欧洲央行不应急于再度加息",
-      "source": "环球市场播报",
-      "detail": "欧洲央行管委、马耳他央行行长亚历山大・德马尔科表示，鉴于油价回落速度超出预期，欧洲央行不宜仓促推出新一轮加息举措，越来越多政策制定者也呼吁货币政策保持审慎...",
+      "title": "亿钶气体IPO：大客户依赖并非行业惯例 毛利率显著高于同行 客户越集中业绩越收缩",
+      "source": "新浪证券",
+      "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，上海亿钶气体股份有限公司（下称“亿钶气体”）IPO申请获受理，华泰联合保荐。",
       "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "欧央行德马尔科：不应急于再次加息",
-        "assets": "📈 欧债 利好；📉 欧元 承压",
-        "chain": "鸽派信号（暗示宽松）压低欧元汇率，利好欧洲出口企业",
-        "watch": "欧央行7月会议及通胀数据"
-      }
+      "score": 30
     },
     {
       "rank": 7,
-      "title": "韩国倾力打造8800亿美元芯片产业集群 重塑AI版图并振兴欠发达地区",
-      "source": "环球市场播报",
-      "detail": " 随着韩国成为全球人工智能（AI）热潮的主要受益者之一，总统李在明正将自己的政治遗产押注于一项雄心勃勃的计划：把韩国相对欠发达的西南地区打造为全球芯片产业重镇。",
+      "title": "美联储释放通胀回落信号，现货黄金短线拉升，机构预判下半年黄金行情进入关键期",
+      "source": "界面",
+      "detail": "消息面上，美联储主席沃什在辛特拉央行论坛上发表重要讲话，重申2%通胀目标不动摇，表示利率应重新成为货币政策主要工具，并透露过去四周美国通胀预期已有所回落...",
       "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "韩国打造8800亿美元芯片集群，重塑AI版图",
-        "assets": "📈 韩国芯片股 利好；📈 全球AI硬件 利好",
-        "chain": "政府补贴降低企业成本，加速AI芯片产能（capex扩张）",
-        "watch": "韩国芯片出口及三星/海力士资本开支计划"
-      }
+      "score": 30
     },
     {
       "rank": 8,
-      "title": "Asia’s IPO boom looks strong. Here’s why it may be more complicated",
-      "source": "CNBC",
-      "detail": "Asia-Pacific is leading the global IPO market, but its boom is not one story. Hong Kong, Mainland China and India are each powered by a different IPO engine — offshore liquidity, policy-guided capital",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "亚洲IPO热潮表面强劲，实则复杂",
-        "assets": "📈 亚洲新股 短期利好；📉 二级市场 承压",
-        "chain": "大量IPO抽血流动性，但优质标的吸引外资（FDI流入）",
-        "watch": "亚洲市场资金流向及新股破发率"
-      }
+      "title": "7月4日美国独立日假期美股市场何时休市？",
+      "source": "环球市场播报",
+      "detail": "今年，美国独立日恰逢周六。美国股票和债券市场将于周五休市。债券市场也将于周四提前休市。具体来看，周五美股因美国独⽴纪念⽇假期休市一日。",
+      "lang": "zh",
+      "score": 27
     },
     {
       "rank": 9,
-      "title": "韩国6月出口额首次突破1000亿美元，芯片出口飙升近两倍",
-      "source": "环球市场播报",
-      "detail": " 韩国产业通商资源部周三公布的数据显示，受创纪录芯片出口的推动，韩国6月份月度出口额首次突破1000亿美元大关，创下历史新高。",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "韩国6月出口首破1000亿美元，芯片出口飙升近两倍",
-        "assets": "📈 韩国芯片股 利好；📈 全球半导体 利好",
-        "chain": "AI需求持续拉动存储芯片（HBM等），强化全球产业链复苏预期",
-        "watch": "7月出口数据及存储芯片价格"
-      }
+      "title": "Thursday's big stock stories: What’s likely to move the market in the next trading session",
+      "source": "CNBC",
+      "detail": "The Dow hit a record before closing marginally lower on Wednesday. Tune into CNBC Thursday at 5 p.m. ET for an exclusive interview with President Donald Trump.",
+      "lang": "en",
+      "score": 27
     },
     {
       "rank": 10,
-      "title": "CNBC Daily Open: AI demand fuels investors' portfolios while oil posts biggest monthly decline",
+      "title": "Why Japanese airlines' $400 fuel surcharges are hitting now — and when they will end ",
       "source": "CNBC",
-      "detail": "The tech space continues to be fueled by rising artificial intelligence demand, with investors piling their portfolios in the technology, while Amazon Web Services dabbles with Forward Deployed Engine",
+      "detail": "Fuel surcharges at Japan Airlines and All Nippon Airways increased Wednesday, despite falling jet fuel costs in Asia.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "AI需求推动投资组合，油价录得最大月跌幅",
-        "assets": "📈 AI科技股 利好；📉 原油 承压",
-        "chain": "AI资金虹吸效应（crowding out）压制商品，需求预期转弱",
-        "watch": "OPEC+产量政策及AI财报季"
-      }
+      "score": 25
     }
   ]
 }
