@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-02 11:18",
+  "updateTime": "2026-07-02 13:43",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "CNBC",
       "detail": "Memory maker Micron, which jumped over 240% in the second quarter, dropped 11% on Wednesday, wiping out nearly $200 billion of market capitalization.",
       "lang": "en",
-      "score": 44
+      "score": 44,
+      "insight": {
+        "what": "芯片股Q2创新高后Q3开局疲软",
+        "assets": "📉 全球芯片股 承压",
+        "chain": "科技板块回调可能拖累纳指（纳斯达克指数），避险情绪利好美债（国债）",
+        "watch": "今晚费城半导体指数走势"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "滚动播报",
       "detail": "文章来源：汇通财经 现货黄金在周四亚洲交易时段震荡走高，交投于4053美元/盎司附近，延续自近期低位区域的技术性修复行情。此前金价一度逼近七个月低点...",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "美联储鸽派+ADP数据弱，黄金突破4000",
+        "assets": "📈 黄金 利好",
+        "chain": "实际利率（通胀调整后利率）下行预期推升金价，美元指数（美元强弱指标）承压",
+        "watch": "今晚非农数据（就业报告）"
+      }
     },
     {
       "rank": 3,
@@ -23,7 +35,13 @@
       "source": "CNBC",
       "detail": "The Fed chairman joined a panel of other central bank leaders Wednesday at the ECB Forum on Central Banking in Sintra, Portugal.",
       "lang": "en",
-      "score": 38
+      "score": 38,
+      "insight": {
+        "what": "美联储主席Warsh称通胀过高，拒谈7月降息",
+        "assets": "📉 美股 承压",
+        "chain": "鹰派（偏向加息）言论打压风险偏好，短期美债收益率（短期借款成本）或上行",
+        "watch": "下周CPI（消费者物价指数）数据"
+      }
     },
     {
       "rank": 4,
@@ -31,7 +49,13 @@
       "source": "环球市场播报",
       "detail": " 韩国股市周四大跌，隔夜有报道称美国科技巨头Meta Platforms计划出售算力，引发投资者对AI产能过剩的质疑，导致芯片制造商类股遭抛售。",
       "lang": "zh",
-      "score": 37
+      "score": 37,
+      "insight": {
+        "what": "韩国股市暴跌7%，AI担忧砸芯片股",
+        "assets": "📉 韩国KOSPI指数 承压\n📉 全球芯片股 承压",
+        "chain": "韩国出口数据（贸易数据）可能走弱，亚洲科技供应链（如台积电）受连带影响",
+        "watch": "韩国半导体出口月率"
+      }
     },
     {
       "rank": 5,
@@ -39,7 +63,13 @@
       "source": "环球市场播报",
       "detail": "韩国股市大跌，Meta Platform Inc．计划出售算力，引发投资者对AI产能过剩的质疑，导致芯片制造商类股遭抛售。 Kospi指数一度下跌6.5%...",
       "lang": "zh",
-      "score": 37
+      "score": 37,
+      "insight": {
+        "what": "韩国股市重挫6%，AI恐慌蔓延",
+        "assets": "📉 韩国KOSPI指数 承压\n📉 全球AI概念股 承压",
+        "chain": "恐慌情绪可能传染至美股科技板块，日元（避险货币）或走强",
+        "watch": "今晚美股半导体ETF（交易所交易基金）"
+      }
     },
     {
       "rank": 6,
@@ -47,7 +77,13 @@
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，上海亿钶气体股份有限公司（下称“亿钶气体”）IPO申请获受理，华泰联合保荐。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "亿钶气体IPO：客户集中+毛利率异常高",
+        "assets": "📉 亿钶气体 利空",
+        "chain": "高毛利（高于同行盈利水平）与客户依赖（大客户占比高）矛盾，监管审查（证监会问询）风险上升",
+        "watch": "科创板注册进度"
+      }
     },
     {
       "rank": 7,
@@ -55,7 +91,13 @@
       "source": "界面",
       "detail": "消息面上，美联储主席沃什在辛特拉央行论坛上发表重要讲话，重申2%通胀目标不动摇，表示利率应重新成为货币政策主要工具，并透露过去四周美国通胀预期已有所回落...",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "美联储暗示通胀回落，黄金短线拉升",
+        "assets": "📈 黄金 利好",
+        "chain": "降息预期（借钱成本降低）升温，美元指数（美元强弱）走弱，风险资产（股票）获支撑",
+        "watch": "7月FOMC（美联储会议）点阵图"
+      }
     },
     {
       "rank": 8,
@@ -63,7 +105,13 @@
       "source": "环球市场播报",
       "detail": "今年，美国独立日恰逢周六。美国股票和债券市场将于周五休市。债券市场也将于周四提前休市。具体来看，周五美股因美国独⽴纪念⽇假期休市一日。",
       "lang": "zh",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "7月4日美国独立日美股休市",
+        "assets": "📈 美股 中性",
+        "chain": "交易量萎缩（流动性减少）可能导致波动放大，提前布局下周经济数据",
+        "watch": "周五非农数据"
+      }
     },
     {
       "rank": 9,
@@ -71,7 +119,13 @@
       "source": "CNBC",
       "detail": "The Dow hit a record before closing marginally lower on Wednesday. Tune into CNBC Thursday at 5 p.m. ET for an exclusive interview with President Donald Trump.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "下一交易日市场关注大科技股财报",
+        "assets": "📈 美股科技股 利好预期",
+        "chain": "财报超预期（盈利高于预测）将提振纳指，反之引发板块轮动（资金从科技转向防御）",
+        "watch": "苹果、微软盘后业绩"
+      }
     },
     {
       "rank": 10,
@@ -79,7 +133,13 @@
       "source": "CNBC",
       "detail": "Fuel surcharges at Japan Airlines and All Nippon Airways increased Wednesday, despite falling jet fuel costs in Asia.",
       "lang": "en",
-      "score": 25
+      "score": 25,
+      "insight": {
+        "what": "日本航空公司因燃油涨价加征400美元附加费",
+        "assets": "📉 日本航空股 承压\n📈 原油 利好",
+        "chain": "航油成本（燃油开支）上升压缩利润，旅客需求（出行意愿）可能因高票价下滑",
+        "watch": "布伦特原油价格走势"
+      }
     }
   ]
 }
