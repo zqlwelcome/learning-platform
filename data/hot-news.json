@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-05 22:40",
+  "updateTime": "2026-07-05 22:46",
   "news": [
     {
       "rank": 1,
@@ -9,28 +9,42 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "国会首现SpaceX股票购买记录",
-        "assets": "📈 SpaceX未上市交易价格 利好",
-        "chain": "显示政治人物对SpaceX信心，可能推高未上市股权估值及二级市场相关概念股",
-        "watch": "国会交易披露更多细节及SpaceX上市进展"
+        "what": "国会议员首次披露持有SpaceX股票，IPO后浮现",
+        "assets": "📈 SpaceX相关概念股 利好",
+        "chain": "政治人物持仓披露或引发合规审查，影响军工航天板块情绪",
+        "watch": "SEC是否调查内幕交易"
       }
     },
     {
       "rank": 2,
-      "title": "6家A股齐发异动公告！题材炒作退潮，多股暗藏业绩亏损退市风险",
-      "source": "经理人",
-      "detail": "7月5日晚间，贝斯特、*ST东晶、锦和商管、石药景峰、金科股份、*ST亚士等多家A股上市公司集中发布股票交易异常波动公告。近期上述个股短期股价大幅拉升...",
+      "title": "加息，重大变数！美联储，重磅来袭",
+      "source": "券商中国",
+      "detail": "美联储政策路径牵动市场神经。 本周，美股三大指数集体上涨，道指累计涨幅接近2%，纳指累计涨幅超2%，标普累涨1.76%。根据日程安排，美联储下周将公布6月议息会议纪要...",
       "lang": "zh",
-      "score": 33,
+      "score": 51,
       "insight": {
-        "what": "6家A股公司齐发异动公告，题材炒作退潮",
-        "assets": "📉 A股题材股 利空",
-        "chain": "监管收紧（证监会打击投机），资金从概念股撤出转向蓝筹或防御板块",
-        "watch": "后续是否更多公司发布风险提示及业绩预告"
+        "what": "美联储释放加息信号，市场预期重大变数",
+        "assets": "📉 美股大盘 承压\n📈 美元指数 走强",
+        "chain": "加息（提高借钱成本）压制风险偏好，美债收益率上行（债券价格下跌）",
+        "watch": "下周FOMC（美联储议息会议）点阵图"
       }
     },
     {
       "rank": 3,
+      "title": "精准预测“美股动量股”暴跌后，高盛看到“逢低买入”的迹象",
+      "source": "市场资讯",
+      "detail": "来源：华尔街见闻 高盛高贝塔动量篮子（GSPRHIMO）近两日重挫18%，创2020年来最大跌幅。该策略2026年已多次出现两日跌超10%后修复的走势，当前模式高度相似。",
+      "lang": "zh",
+      "score": 35,
+      "insight": {
+        "what": "高盛在精准预测动量股暴跌后，看到逢低买入机会",
+        "assets": "📈 美股动量股（如科技成长股） 反弹预期",
+        "chain": "动量因子（趋势交易策略）反转，资金可能从价值股回流成长股",
+        "watch": "动量股相对强弱指标（RSI）是否超卖"
+      }
+    },
+    {
+      "rank": 4,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
@@ -38,107 +52,93 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 预测平台代币（如Polygon） 利好",
-        "chain": "预测市场（Polymarket等）活跃度上升，可能吸引更多投机资金及监管关注",
-        "watch": "世界杯后续赛事对交易量的持续影响"
+        "assets": "📈 预测市场平台（如Polymarket） 利好",
+        "chain": "事件驱动交易活跃，资金可能从传统博彩转移至加密预测平台",
+        "watch": "世界杯决赛后成交量能否持续"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "002072，拟投资宇航级存储芯片公司！股价提前涨停！",
       "source": "证券时报网",
       "detail": "7月5日晚间，凯瑞德(002072)公告称，公司拟以自有资金8000万元认购艾可萨科技(成都)有限公司（以下简称“艾可萨科技”）新增注册资本，增资完成后持有后者11.76%股权。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "002072拟投资宇航存储芯片，股价提前涨停",
-        "assets": "📈 002072（凯瑞德） 利好",
-        "chain": "内幕交易嫌疑（股价提前反应），监管可能介入调查，类似概念股短期跟风",
-        "watch": "监管问询及公司投资细节披露"
+        "what": "002072拟投资宇航级存储芯片，股价提前涨停",
+        "assets": "📈 002072（公司股票） 利好\n📈 存储芯片板块 联动",
+        "chain": "内幕交易嫌疑（股价提前反应），监管关注或引发板块回调",
+        "watch": "深交所是否发关注函"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票，称其具备跑赢潜力",
-        "assets": "📈 高盛推荐个股（如价值股） 利好",
-        "chain": "机构背书（卖方研报）吸引资金流入，可能带动相关行业ETF（交易所交易基金）跟涨",
-        "watch": "这些股票后续财报及机构持仓变化"
+        "what": "高盛推荐被低估股票，称其有望跑赢大盘",
+        "assets": "📈 高盛推荐个股 利好",
+        "chain": "机构研报驱动资金流入，但需警惕反向指标（拥挤交易风险）",
+        "watch": "推荐标的的做空比例变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师看好高股息股票提升回报",
-        "assets": "📈 公用事业、消费必需品等高股息股 利好",
-        "chain": "利率预期稳定下（降息概率低），资金转向防御性高股息策略，科技股承压",
-        "watch": "美联储利率决议及股息率变化"
+        "what": "顶级分析师推荐高股息股票提升组合收益",
+        "assets": "📈 公用事业、消费必需品等高股息板块 利好",
+        "chain": "防御性资金轮动（避险情绪下追求稳定分红），科技股承压",
+        "watch": "10年期美债收益率是否持续下行"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "美光斥资90亿美元扩建日本西部芯片工厂",
+      "source": "环球市场播报",
+      "detail": "美光科技于周六举行日本西部工厂扩建奠基仪式，该扩建项目投资1.5万亿日元（折合93亿美元），专注量产高端存储芯片。 这家总部位于爱达荷州博伊西市的企业选址广岛建厂...",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "美光投资90亿美元扩建日本西部芯片工厂",
+        "assets": "📈 美光科技 利好\n📈 日本半导体设备商 利好",
+        "chain": "全球芯片产能扩张，存储芯片供给过剩风险上升（长期利空）",
+        "watch": "美光季度资本开支指引"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "主业连亏两年、负债率三年暴涨 34%！日科化学跨界锂电，是转型还是资本游戏？",
+      "source": "市场资讯",
+      "detail": " 减持届满公告发布刚过去半个月，上市公司突然停牌，宣布筹划收购锂电赛道龙头企业。创始人的套现窗口，精准地踩在了重大资产重组公告的前面。",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "日科化学主业亏损跨界锂电，被质疑资本游戏",
+        "assets": "📉 日科化学 承压\n📉 锂电板块 情绪拖累",
+        "chain": "主业疲软+高负债转型失败概率高，可能引发中小盘股信任危机",
+        "watch": "公司是否回复交易所问询"
+      }
+    },
+    {
+      "rank": 10,
       "title": "Even as Elon Musk calls philanthropy ‘very hard,’ everyday Americans gave a record $617 billion—despite feeling the squeeze over the cost of living - Fortune",
       "source": "Fortune",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "美国人捐款创纪录6170亿美元，尽管生活成本承压",
-        "assets": "📈 非营利组织相关ETF 中性",
-        "chain": "消费降级（减少可选消费）但慈善不减，显示储蓄或资产转移，零售数据可能弱于预期",
-        "watch": "消费者信心指数及零售销售数据"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "AI-crazed San Francisco homebuyers find insane new currency to outbid rivals - New York Post",
-      "source": "New York Post",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "旧金山AI热潮买家以新方式加价抢房",
-        "assets": "📈 旧金山高端住宅 利好",
-        "chain": "AI财富效应（科技新贵现金充足）推高本地房价，可能溢出至科技中心商业地产",
-        "watch": "旧金山房价指数及科技公司招聘趋势"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "From Macron to Modi, governments are rolling out the red carpet for AI giants",
-      "source": "CNBC",
-      "detail": "Macron and Modi are courting tech CEOs as France and India seek AI data center investment and cloud infrastructure.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "多国政府积极吸引AI巨头投资",
-        "assets": "📈 AI基础设施（数据中心） 利好",
-        "chain": "政策红利（税收优惠、补贴）加速AI扩张，利好英伟达等硬件商，但可能推高赤字（财政支出增加）",
-        "watch": "各国具体补贴方案及AI资本开支数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "价值判断：涨停板的投资机会和风险提示（7月3日）｜上市公司观察",
-      "source": "",
-      "detail": "一、市场概览 7月3日，A股市场呈现主线爆发、支线分歧的分化格局，宇树科技科创板注册催化人形机器人板块全线大涨，低位制造、汽零、资源等赛道获资金抢筹；但与此同时...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "涨停板投资机会与风险提示",
-        "assets": "📈 A股涨停股 中性",
-        "chain": "监管喊话（提示炒作风险）可能引发短期回调，但游资可能切换至低位补涨股",
-        "watch": "龙虎榜数据及涨停股次日开盘走势"
+        "what": "尽管生活成本承压，美国人慈善捐款仍创纪录6170亿美元",
+        "assets": "📈 消费必需品（如折扣零售） 利好",
+        "chain": "消费韧性超预期（非必需支出未大幅缩减），但高通胀（物价上涨）压力未消",
+        "watch": "美国个人储蓄率数据"
       }
     }
   ]
