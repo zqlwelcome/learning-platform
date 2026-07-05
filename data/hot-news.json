@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 05:46",
+  "updateTime": "2026-07-06 05:51",
   "news": [
     {
       "rank": 1,
@@ -9,136 +9,136 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储释放加息信号，市场预期生变",
-        "assets": "📉 美债 承压；📉 美股 利空；📈 美元 走强",
-        "chain": "加息（借贷成本上升）→ 企业融资成本增→ 盈利预期下调→ 股市回调",
-        "watch": "下次FOMC（美联储议息会议）点阵图及鲍威尔讲话"
+        "what": "美联储加息预期升温，市场波动加大",
+        "assets": "📉 美股 承压；📉 美债 收益率上行",
+        "chain": "加息（借钱成本提高）压制风险偏好，科技股估值（未来现金流折现）承压",
+        "watch": "美联储官员讲话及利率期货定价"
       }
     },
     {
       "rank": 2,
+      "title": "Micron Stock Investors Just Got Good News From Wall Street and Nvidia CEO Jensen Huang - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "美光获华尔街及黄仁勋看好，存储芯片需求强劲",
+        "assets": "📈 美光 利好；📈 半导体 板块利好",
+        "chain": "AI算力需求拉动存储芯片（HBM高带宽内存），上游设备商（如应用材料）受益",
+        "watch": "美光财报指引及AI资本开支数据"
+      }
+    },
+    {
+      "rank": 3,
       "title": "The Stock Market Just Did Something That's Only Been Observed Twice in the Last 155 Years -- and It Has Distressing Implications for Wall Street - The Motley Fool",
       "source": "The Motley Fool",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "美股出现155年仅两次的罕见信号，暗示不利",
-        "assets": "📉 标普500 承压；📉 成长股 利空",
-        "chain": "历史罕见信号→ 投资者避险情绪升温→ 资金流向防御性资产（如公用事业）",
-        "watch": "VIX（恐慌指数）是否突破20关口"
+        "what": "美股出现155年仅两次的罕见技术信号，暗示回调风险",
+        "assets": "📉 美股大盘 承压；📉 波动率（恐慌指数）上升",
+        "chain": "技术面超买（涨过头）触发程序化抛售，资金转向防御板块（如公用事业）",
+        "watch": "标普500关键支撑位及RSI（相对强弱指标）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "精准预测“美股动量股”暴跌后，高盛看到“逢低买入”的迹象",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛高贝塔动量篮子（GSPRHIMO）近两日重挫18%，创2020年来最大跌幅。该策略2026年已多次出现两日跌超10%后修复的走势，当前模式高度相似。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛预测动量股暴跌后，看到逢低买入机会",
-        "assets": "📈 美股动量股 利好；📉 防御股 承压",
-        "chain": "动量股超卖→ 均值回归（价格向长期均值靠拢）→ 资金轮动回成长板块",
-        "watch": "动量因子（价格趋势指标）RSI（相对强弱指标）是否低于30"
+        "what": "高盛精准预判动量股暴跌后，建议逢低买入",
+        "assets": "📈 动量股（如科技龙头） 反弹机会",
+        "chain": "超跌后机构抄底，但需警惕二次探底（双底形态）",
+        "watch": "动量股成交量及高盛买入清单"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票，称其有望跑赢大盘",
-        "assets": "📈 高盛精选股 利好；📉 高估值成长股 承压",
-        "chain": "估值洼地（市盈率低于行业均值）→ 价值投资逻辑→ 资金从拥挤交易（热门股）流出",
-        "watch": "PEG（市盈率相对盈利增长比率）是否低于1"
+        "what": "高盛推荐被低估股票，认为具备超额收益潜力",
+        "assets": "📈 高盛推荐个股（如低估值周期股） 利好",
+        "chain": "资金从高估值成长股轮动至价值股（低市盈率），银行、能源板块受益",
+        "watch": "高盛具体名单及业绩季报"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师看好高股息股票，提升组合收益",
-        "assets": "📈 高股息股（如公用事业、消费必需品） 利好；📉 科技成长股 承压",
-        "chain": "利率预期波动→ 股息率（分红/股价）优势凸显→ 防御型配置增加",
-        "watch": "10年期美债收益率与股息率差值"
+        "what": "顶级分析师推荐高股息股以增强组合回报",
+        "assets": "📈 公用事业、消费必需品等高股息股 利好",
+        "chain": "防御性配置（避险）升温，债市利率下行时股息吸引力上升",
+        "watch": "股息率及派息稳定性"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Oil prices hover near pre-conflict levels as OPEC+ boosts output again - Fox Business",
       "source": "Fox Business",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "OPEC+增产，油价跌至冲突前水平附近",
-        "assets": "📉 原油 承压；📈 航空/运输股 利好；📉 能源股 利空",
-        "chain": "供应增加（OPEC+增产）→ 油价下跌→ 通胀预期降温→ 降息（借钱成本降低）预期升温",
-        "watch": "WTI（西德克萨斯轻质原油）能否站稳80美元"
+        "what": "OPEC+增产，油价跌至冲突前水平",
+        "assets": "📉 原油 承压；📉 能源股 利空",
+        "chain": "供应增加压低通胀预期，利好运输、航空等成本敏感行业",
+        "watch": "OPEC+月度产量数据及美国原油库存"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "‘Insane’ cost of average 4th of July BBQ surges 31% to bearly $300 in NYC - New York Post",
       "source": "New York Post",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "纽约7月4日烧烤成本飙升31%至近300美元",
-        "assets": "📉 消费者信心 承压；📉 必需消费品 利空",
-        "chain": "食品通胀（物价上涨）→ 实际购买力下降→ 可选消费（如旅游）支出受挤压",
-        "watch": "CPI（消费者物价指数）食品分项环比数据"
+        "what": "纽约独立日烧烤成本飙升31%，通胀压力持续",
+        "assets": "📉 美国消费支出 承压；📉 必需消费品 利空",
+        "chain": "食品通胀侵蚀实际购买力，零售数据或走弱，美联储更难降息",
+        "watch": "7月CPI（消费者物价指数）及消费者信心"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "From Macron to Modi, governments are rolling out the red carpet for AI giants",
       "source": "CNBC",
       "detail": "Macron and Modi are courting tech CEOs as France and India seek AI data center investment and cloud infrastructure.",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "多国政府为AI巨头铺红毯，吸引投资",
-        "assets": "📈 AI概念股（如英伟达） 利好；📈 数据中心 REITs（房地产信托基金） 利好",
-        "chain": "政策扶持（税收优惠/补贴）→ AI资本开支增加→ 算力需求爆发→ 芯片/电力受益",
-        "watch": "各国AI法案进展及补贴金额"
+        "what": "多国政府争相吸引AI巨头投资，竞相政策优惠",
+        "assets": "📈 AI基础设施（如数据中心） 利好；📈 科技股 情绪提振",
+        "chain": "政府补贴降低AI企业资本开支（建厂成本），但需警惕地缘政治风险",
+        "watch": "各国AI法案进展及企业建厂公告"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "科技股震荡之际，投资者密切关注美联储的动向及企业财报信号",
       "source": "环球市场播报",
       "detail": "未来一周，投资者将寻求有关即将到来的加息可能性的线索，以及关键财报季的早期迹象，以此评估美国股市反弹的强度。 2026年下半年本周拉开帷幕...",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "科技股震荡，投资者紧盯美联储动向和财报",
-        "assets": "📉 科技股 波动；📈 防御板块（医疗、公用事业） 利好",
-        "chain": "利率不确定性→ 高估值科技股承压→ 资金转向确定性盈利的防御板块",
-        "watch": "纳斯达克100指数能否守住50日均线"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Social Security 2027 COLA data collection is happening right now - thestreet.com",
-      "source": "thestreet.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "社保局开始收集2027年COLA（生活成本调整）数据",
-        "assets": "📈 通胀挂钩债券（TIPS） 利好；📉 长期美债 承压",
-        "chain": "COLA预期上升→ 通胀预期固化→ 美联储维持高利率→ 债券收益率上行",
-        "watch": "2025年CPI（消费者物价指数）同比变化趋势"
+        "what": "科技股震荡中紧盯美联储信号及企业财报",
+        "assets": "📉 科技股 短期波动；📈 财报超预期个股 利好",
+        "chain": "利率预期主导估值，财报验证盈利韧性，分化行情（强者恒强）",
+        "watch": "美联储7月议息及科技巨头（苹果、微软）财报"
       }
     }
   ]
