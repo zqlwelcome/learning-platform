@@ -1,120 +1,134 @@
 {
-  "updateTime": "2026-07-06 07:45",
+  "updateTime": "2026-07-06 07:51",
   "news": [
     {
       "rank": 1,
+      "title": "Global stock markets close higher as Europe's benchmark hits 52-week high: Live updates",
+      "source": "CNBC",
+      "detail": "Europe's Stoxx 600 ended Friday higher, following Asia-Pacific markets, as investors continued rotating out of technology stocks.",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "全球股市收高，欧洲基准指数创52周新高",
+        "assets": "📈 全球股指 利好",
+        "chain": "风险偏好（Risk-on）升温，资金从债市流入股市，美元可能承压",
+        "watch": "欧洲PMI（采购经理人指数）数据"
+      }
+    },
+    {
+      "rank": 2,
       "title": "“超级央行”时代正在落幕 沃什要终结市场的美联储依赖症",
       "source": "每日经济新闻",
       "detail": "每经评论员 王嘉琦 《周易·艮卦》说：“君子以思不出其位。” 如今的市场似乎已经习惯了一个无所不能的美联储。但新任主席凯文·沃什（Kevin...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "沃什或终结美联储依赖症，超级央行时代落幕",
-        "assets": "📉 美股大盘 承压；📈 美元 走强",
-        "chain": "减少干预（降息预期降温）→ 风险资产（股票）估值承压，避险资金涌入美元",
+        "what": "沃什或终结市场对美联储的依赖，超级央行时代落幕",
+        "assets": "📉 美债 承压 | 📈 美元 利好",
+        "chain": "减少干预预期推高长端利率（长期借贷成本），压制风险资产估值",
         "watch": "美联储下次会议声明措辞变化"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "13家公司摘牌退市 A股“新陈代谢”加速",
       "source": "",
       "detail": "（来源：经济参考报） A股近日再度迎来两只退市股，退市岩石、退市国化正式终止上市并摘牌，上半年退市名单“封卷”。同花顺iFinD数据显示...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "A股13家公司摘牌退市，市场化出清加速",
-        "assets": "📉 A股小盘股 利空；📈 绩优蓝筹 相对利好",
-        "chain": "退市常态化→ 壳价值（借壳上市溢价）暴跌，资金向流动性好的龙头集中（马太效应）",
-        "watch": "退市公司数量及ST板块（风险警示股）表现"
+        "what": "13家公司摘牌退市，A股退市常态化加速",
+        "assets": "📉 A股ST板块（风险警示股） 利空 | 📈 优质蓝筹 利好",
+        "chain": "壳价值（上市资格溢价）缩水，资金向龙头集中，市场出清加速",
+        "watch": "退市制度执行力度及新规细则"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "世界杯推动预测市场交易量创新高",
-        "assets": "📈 体育博彩/预测平台 利好；📈 加密货币（如Polygon） 联动利好",
-        "chain": "事件驱动投机（赌球）→ 链上交易量激增，吸引散户资金入场",
-        "watch": "预测平台代币价格及用户增长数据"
+        "what": "世界杯推高预测市场交易量至历史新高",
+        "assets": "📈 体育博彩/预测平台 利好",
+        "chain": "投机情绪外溢至加密货币（如Polymarket代币），但监管风险上升",
+        "watch": "美国CFTC（商品期货交易委员会）监管行动"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票，称有望跑赢大盘",
-        "assets": "📈 高盛推荐个股（如能源/金融） 利好",
-        "chain": "投行背书→ 机构调仓（轮动至低估值板块），修复折价（股价低于内在价值）",
-        "watch": "推荐清单个股的财报及机构持仓变化"
+        "what": "高盛推荐被低估股票，认为将跑赢大盘",
+        "assets": "📈 高盛推荐个股 利好",
+        "chain": "机构资金跟风买入，短期推高相关板块（如能源/金融）估值",
+        "watch": "高盛报告具体持仓及后续财报"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "顶级分析师推荐高股息股票提升组合收益",
-        "assets": "📈 公用事业/消费类高股息股 利好",
-        "chain": "防御性配置（风险偏好下降）→ 资金从成长股（科技）流向稳定分红标的",
-        "watch": "10年期美债收益率（与股息率竞争）走势"
+        "what": "华尔街分析师青睐高股息股票以提高组合回报",
+        "assets": "📈 高股息股（公用事业/消费防御） 利好",
+        "chain": "防御性配置增加，科技成长股资金流出，市场风格转向价值",
+        "watch": "美国10年期国债收益率走势"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Oil prices hover near pre-conflict levels as OPEC+ boosts output again - Fox Business",
       "source": "Fox Business",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "OPEC+增产致油价跌至冲突前水平",
-        "assets": "📉 原油 利空；📈 航空公司/运输 利好",
-        "chain": "供给增加（OPEC+扩产）→ 油价成本下降，缓解通胀（物价上涨压力），利好消费",
-        "watch": "OPEC+下次产量决议及美国原油库存"
+        "what": "OPEC+增产，油价跌至冲突前水平附近",
+        "assets": "📉 原油 利空 | 📈 航空/运输股 利好",
+        "chain": "通胀预期（物价上涨预期）降温，美联储加息压力减小，债券收益率下行",
+        "watch": "OPEC+下次产量会议及美国库存数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Markets After the Oil Shock - Robin J Brooks | Substack",
       "source": "Robin J Brooks | Substack",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "市场消化油价冲击后趋于平静",
-        "assets": "📉 能源股 承压；📈 消费者非必需品 利好",
-        "chain": "油价冲击消退→ 通胀预期（未来物价上涨）回落，市场重新定价（修正资产价格）",
-        "watch": "WTI原油期货近远月价差（backwardation）"
+        "what": "油价冲击后市场分析：供需再平衡中",
+        "assets": "📉 能源股 承压 | 📈 消费类股 利好",
+        "chain": "成本下降提振企业利润（利润率），但地缘溢价消退暗示需求疲软",
+        "watch": "全球制造业PMI及原油库存变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
       "source": "CNBC",
       "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美股期货延续涨势，上周表现强劲",
-        "assets": "📈 美股科技股 利好；📈 纳斯达克100 利好",
-        "chain": "动量延续（追涨资金流入）→ 风险偏好（愿意冒险）回升，空头回补（平仓止损）",
-        "watch": "本周科技巨头财报及美联储官员讲话"
+        "what": "标普500和纳斯达克期货延续上周涨势",
+        "assets": "📈 美股大盘 利好",
+        "chain": "技术性买盘（追涨）推动，但超买（涨幅过大）风险积累，回调压力增加",
+        "watch": "本周美国CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "快讯：现货黄金重回4200美元/盎司 日内涨0.62%",
       "source": "市场资讯",
       "detail": "现货黄金突破4200美元/盎司，日内涨0.62%。",
@@ -122,23 +136,9 @@
       "score": 22,
       "insight": {
         "what": "现货黄金重回4200美元/盎司，日内涨0.62%",
-        "assets": "📈 黄金 利好；📈 黄金矿业股 联动利好",
-        "chain": "避险需求（地缘/通胀担忧）→ 实际利率（名义利率减通胀）下行，金价获得支撑",
-        "watch": "美国CPI（消费者物价指数）数据及美元指数"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "国际油价下挫，黄金逼近4200美元，比特币涨破63000美元",
-      "source": "21世纪经济报道",
-      "detail": "北京时间7月6日，黄金白银高开，截至6：38，现货黄金涨0.35%报4189.33美元/盎司；现货白银报63.05美元/盎司，日内涨超1%。国际油价小幅低开，美油跌0.43%，报68...",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "油价下跌，黄金逼近4200美元，比特币破63000",
-        "assets": "📉 原油 利空；📈 黄金 利好；📈 比特币 利好",
-        "chain": "资产轮动（大宗商品到避险）→ 通胀预期分化，比特币作为数字黄金（对冲法币贬值）受追捧",
-        "watch": "比特币ETF（交易所交易基金）资金流及黄金期货持仓"
+        "assets": "📈 黄金 利好 | 📉 美元 承压",
+        "chain": "实际利率（名义利率减通胀）下降，避险需求回升，可能压制风险资产",
+        "watch": "美元指数及美联储利率决议"
       }
     }
   ]
