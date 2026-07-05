@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-05 20:30",
+  "updateTime": "2026-07-05 20:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "国会议员首次披露持有SpaceX股票，IPO后曝光",
+        "what": "议员首次披露买入SpaceX股票，IPO后现持仓",
         "assets": "📈 SpaceX未上市股权 利好；📈 太空概念股 情绪提振",
-        "chain": "政治关联性增强SpaceX估值预期，或推动国防/太空ETF（交易所交易基金）资金流入",
-        "watch": "后续议员持仓披露文件及SpaceX上市进展"
+        "chain": "政治人物持仓曝光→监管审查可能加强→但短期催化未上市股权交易活跃度（流动性溢价）",
+        "watch": "SpaceX二级市场交易价格及后续议员披露"
       }
     },
     {
@@ -23,70 +23,56 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储释放加息信号，宏观政策变数加大",
-        "assets": "📉 全球债券 承压；📉 美股成长股 利空；📈 美元指数 走强",
-        "chain": "加息（提高借贷成本）压制风险偏好，利差扩大吸引资金回流美元资产，新兴市场承压",
-        "watch": "本周美联储会议纪要及点阵图（利率预测图）"
+        "what": "美联储释放加息信号，市场预期重大变数",
+        "assets": "📉 美股大盘 承压；📉 美债 利率上行；📈 美元 走强",
+        "chain": "加息（借钱成本提高）→压制估值（折现率上升）→科技股等高估值板块首当其冲（利率敏感）",
+        "watch": "Fed利率决议及点阵图（利率预测）"
       }
     },
     {
       "rank": 3,
-      "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
-      "source": "CNBC",
-      "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "联邦检察官要求减轻1亿美元诈骗案罪犯刑期，原因未公开",
-        "assets": "📉 司法/合规板块 情绪利空",
-        "chain": "执法透明度存疑或引发监管信任危机，增加法律风险溢价（不确定性溢价）",
-        "watch": "刑期最终判决及后续司法改革动向"
-      }
-    },
-    {
-      "rank": 4,
       "title": "Tesla driver charged with manslaughter over crash into Texas home - NBC News",
       "source": "NBC News",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特斯拉司机因撞入德州房屋致人死亡被控过失杀人",
-        "assets": "📉 特斯拉股价 承压；📉 自动驾驶概念 利空",
-        "chain": "事故加剧公众对FSD（全自动驾驶）安全性质疑，或拖累监管审批进度",
-        "watch": "事故调查细节及NHTSA（国家公路交通安全管理局）是否启动新调查"
+        "what": "特斯拉司机因撞入民宅致人死亡被控过失杀人",
+        "assets": "📉 特斯拉 负面情绪；📉 自动驾驶概念 监管风险",
+        "chain": "事故诉讼→自动驾驶安全信任下降→监管收紧预期（如NHTSA调查）→拖累板块估值",
+        "watch": "案件进展及NHTSA（美国公路安全局）调查结论"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "精准预测“美股动量股”暴跌后，高盛看到“逢低买入”的迹象",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛高贝塔动量篮子（GSPRHIMO）近两日重挫18%，创2020年来最大跌幅。该策略2026年已多次出现两日跌超10%后修复的走势，当前模式高度相似。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛认为美股动量股暴跌后出现逢低买入机会",
-        "assets": "📈 美股动量股（如科技/成长股） 反弹预期",
-        "chain": "机构抄底信号或触发量化基金（程序化交易）回补，短期波动率下降",
-        "watch": "动量股RSI（相对强弱指标）及高盛后续持仓数据"
+        "what": "高盛精准预判动量股暴跌后，建议逢低买入",
+        "assets": "📈 美股动量股 短期反弹机会；📉 波动率 可能上升",
+        "chain": "机构唱多→空头回补（空头平仓）→动量股技术性反弹→但基本面未变，反转风险仍存",
+        "watch": "动量因子（趋势跟踪策略）的后续表现及高盛持仓变动"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "创新药又行了？华宝基金港股通创新药ETF（520880）单周暴涨16.4%！港股通医疗同步修复，159137周线连阳",
       "source": "新浪基金",
       "detail": " 7月3日，港股医药继续猛攻！100%创新药研发标的——港股通创新药ETF华宝（520880）、CXO含量超50%的港股通医疗ETF华宝（159137）携手大涨逾4%，双双斩获三连阳。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "华宝基金港股通创新药ETF单周暴涨16.4%",
-        "assets": "📈 港股创新药板块 利好；📈 港股医疗ETF 联动上涨",
-        "chain": "资金涌入创新药行业，或带动CXO（医药研发外包）及生物科技板块估值修复",
-        "watch": "港股通资金流向及创新药临床数据披露"
+        "what": "港股创新药ETF单周暴涨16.4%，医疗板块连阳",
+        "assets": "📈 港股创新药 强势；📈 港股医疗 修复中",
+        "chain": "资金流入ETF→板块流动性改善（交易量放大）→可能触发空头回补（轧空）→但估值仍高需警惕回调",
+        "watch": "创新药企业财报及医保谈判进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
@@ -94,51 +80,65 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 预测市场平台（如Polymarket） 利好；📈 体育博彩股 情绪提振",
-        "chain": "高交易量验证商业模式，或吸引VC（风险投资）加码区块链预测赛道",
-        "watch": "世界杯决赛前预测市场未平仓合约量"
+        "assets": "📈 预测市场平台（如Polymarket） 利好；📈 区块链相关 情绪提振",
+        "chain": "赛事热点→用户涌入预测平台→代币/平台收入激增（交易费）→但持续性取决于后续事件",
+        "watch": "平台日活跃用户及交易量趋势"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
+      "source": "CNBC",
+      "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "高盛推荐被低估股票，称其有望跑赢大盘",
+        "assets": "📈 高盛推荐个股 短期资金流入；📉 大盘指数 相对承压",
+        "chain": "机构推荐→散户跟风买入（羊群效应）→推高相关股价→但需警惕估值陷阱（价值陷阱）",
+        "watch": "推荐股票财报及估值修复速度"
       }
     },
     {
       "rank": 8,
-      "title": "BTIG names an athleisure company, cybersecurity stock and more as its top picks for the second half of 2026",
+      "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
-      "detail": "The firm named 55 large- and small-cap stocks that it thinks are set to perform well in the next six months.",
+      "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "BTIG选出2026下半年首选股，含运动休闲和网络安全公司",
-        "assets": "📈 运动休闲/网络安全板块 利好",
-        "chain": "机构推荐强化板块配置逻辑，资金轮动至防御性成长股（如网络安全）",
-        "watch": "BTIG研报详细逻辑及目标价"
+        "what": "顶级分析师推荐高股息股票以增厚组合收益",
+        "assets": "📈 高股息板块（公用事业、消费） 利好；📉 成长股 相对吸引力下降",
+        "chain": "利率环境不确定→资金转向防御（避险）→股息率溢价（分红收益）受追捧→但降息预期若升温则切换",
+        "watch": "美债收益率及红利ETF资金流向"
       }
     },
     {
       "rank": 9,
+      "title": "Trump cashed in on 327 stock buys right before he sent market soaring: report - The Independent",
+      "source": "The Independent",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "特朗普被曝在市场暴涨前买入327只股票",
+        "assets": "📈 特朗普相关股票 情绪炒作；📉 政治风险 短期上升",
+        "chain": "内幕交易嫌疑（未证实）→监管调查概率增加→但市场更关注其政策预期（税改、放松管制）",
+        "watch": "SEC（美国证监会）是否启动调查及特朗普持仓披露"
+      }
+    },
+    {
+      "rank": 10,
       "title": "美光斥资90亿美元扩建日本西部芯片工厂",
       "source": "环球市场播报",
       "detail": "美光科技于周六举行日本西部工厂扩建奠基仪式，该扩建项目投资1.5万亿日元（折合93亿美元），专注量产高端存储芯片。 这家总部位于爱达荷州博伊西市的企业选址广岛建厂...",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "美光投资90亿美元扩建日本芯片工厂",
-        "assets": "📈 美光股价 利好；📈 日本半导体设备股 利好",
-        "chain": "扩产强化存储芯片（DRAM/NAND）供应，利好上游设备商及日本半导体供应链",
-        "watch": "日本政府补贴细节及美光产能利用率"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "主业连亏两年、负债率三年暴涨 34%！日科化学跨界锂电，是转型还是资本游戏？",
-      "source": "市场资讯",
-      "detail": " 减持届满公告发布刚过去半个月，上市公司突然停牌，宣布筹划收购锂电赛道龙头企业。创始人的套现窗口，精准地踩在了重大资产重组公告的前面。",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "日科化学主业连亏两年，负债率飙升后跨界锂电",
-        "assets": "📉 日科化学股价 利空；📉 锂电板块 情绪分化",
-        "chain": "主业疲软下转型锂电存资金链风险，或引发市场对跨界并购的警惕性抛售",
-        "watch": "公司定增（定向增发）进展及锂电项目投产时间表"
+        "what": "美光投资90亿美元扩建日本西部芯片工厂",
+        "assets": "📈 美光 产能扩张利好；📈 日本半导体设备 需求提振",
+        "chain": "扩产→存储芯片供给增加（长期）→价格压力（供过于求）→但短期拉动设备订单及地缘供应链重组",
+        "watch": "存储芯片价格走势及美光财报指引"
       }
     }
   ]
