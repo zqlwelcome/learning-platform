@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-05 21:10",
+  "updateTime": "2026-07-05 21:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "国会议员首次披露持有SpaceX股票，IPO后曝光",
-        "assets": "📈 SpaceX概念股 利好",
-        "chain": "政治人物持仓曝光→增加透明度→利好SpaceX估值及关联股",
-        "watch": "SpaceX IPO进度及后续披露"
+        "what": "国会议员首次披露持有SpaceX股票，IPO后买入",
+        "assets": "📈 SpaceX 相关概念股 利好",
+        "chain": "监管层（SEC）态度或成风向标，影响私营航天公司上市路径",
+        "watch": "国会持股披露规则变化及SpaceX IPO进展"
       }
     },
     {
@@ -23,56 +23,42 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储释放加息信号，政策变数加大",
-        "assets": "📉 美股大盘 承压\n📈 美元指数 走强",
-        "chain": "加息（借钱成本上升）→压制风险偏好→资金流向避险资产（如美债）",
-        "watch": "下周美联储会议纪要及点阵图"
+        "what": "美联储释放加息信号，政策出现重大变数",
+        "assets": "📉 美债 承压 📉 美股成长股 承压",
+        "chain": "加息（借钱成本提高）压制估值，美元走强（美元变贵），新兴市场资金外流",
+        "watch": "本周美联储官员讲话及CPI（通胀数据）"
       }
     },
     {
       "rank": 3,
-      "title": "Tesla driver charged with manslaughter over crash into Texas home - NBC News",
-      "source": "NBC News",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "特斯拉司机因撞入德州民宅致人死亡被控过失杀人",
-        "assets": "📉 特斯拉 利空",
-        "chain": "负面事件→打击品牌形象→可能影响销量及自动驾驶（无人驾驶）监管",
-        "watch": "案件判决及NHTSA（美国公路安全局）调查"
-      }
-    },
-    {
-      "rank": 4,
       "title": "精准预测“美股动量股”暴跌后，高盛看到“逢低买入”的迹象",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛高贝塔动量篮子（GSPRHIMO）近两日重挫18%，创2020年来最大跌幅。该策略2026年已多次出现两日跌超10%后修复的走势，当前模式高度相似。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛精准预测美股动量股暴跌后，建议逢低买入",
-        "assets": "📈 美股动量股 利好",
-        "chain": "高盛背书→资金流入超卖股→短期反弹机会（均值回归策略）",
-        "watch": "动量因子ETF（如MTUM）资金流向"
+        "what": "高盛认为美股动量股暴跌后出现逢低买入机会",
+        "assets": "📈 美股动量股（如科技、半导体） 利好",
+        "chain": "短期超卖（跌过头）触发量化基金（电脑自动交易）回补，带动板块反弹",
+        "watch": "动量因子（近期涨势强的股票）RSI（相对强弱指标）是否进入超卖区"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "创新药又行了？华宝基金港股通创新药ETF（520880）单周暴涨16.4%！港股通医疗同步修复，159137周线连阳",
       "source": "新浪基金",
       "detail": " 7月3日，港股医药继续猛攻！100%创新药研发标的——港股通创新药ETF华宝（520880）、CXO含量超50%的港股通医疗ETF华宝（159137）携手大涨逾4%，双双斩获三连阳。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "华宝基金港股通创新药ETF单周暴涨16.4%，医疗ETF连阳",
-        "assets": "📈 港股创新药 利好\n📈 港股医疗 利好",
-        "chain": "资金涌入→板块修复→带动医药子行业估值重估（如CXO（医药研发外包））",
-        "watch": "港股通资金流入及创新药审批进展"
+        "what": "港股通创新药ETF单周暴涨16.4%，医疗板块连阳",
+        "assets": "📈 港股创新药 利好 📈 A股医药 联动",
+        "chain": "资金从AI（人工智能）板块轮动至超跌（跌太多）医药，修复估值（价格回到合理水平）",
+        "watch": "港股通资金流向及创新药临床试验数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
@@ -80,65 +66,79 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 预测市场平台 利好",
-        "chain": "赛事热度→用户增长→平台盈利预期提升（类似Polymarket）",
-        "watch": "世界杯淘汰赛阶段交易量变化"
+        "assets": "📈 区块链预测平台（如Polymarket） 利好",
+        "chain": "流量激增吸引VC（风投）关注，可能加速监管（如CFTC）介入或牌照发放",
+        "watch": "平台日活用户数及合规进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐若干被低估股票，认为具备跑赢潜力",
-        "assets": "📈 高盛推荐股 利好",
-        "chain": "机构背书→吸引价值投资者→推升低估值板块（如金融、能源）",
-        "watch": "推荐清单及估值指标（P/E（市盈率））变化"
+        "what": "高盛推荐被低估且有望跑赢大盘的股票",
+        "assets": "📈 高盛覆盖的估值偏低股（如金融、能源） 利好",
+        "chain": "机构资金（大基金）可能调仓至价值股（便宜股票），压制高估值成长股",
+        "watch": "高盛报告具体标的及Q4机构持仓变动"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "顶级分析师偏好分红股以提升组合回报",
-        "assets": "📈 高股息股 利好",
-        "chain": "利率环境→资金转向稳定收益→防御板块（如公用事业）受青睐",
-        "watch": "股息率及分红可持续性"
+        "what": "华尔街分析师看好高股息股票提升组合收益",
+        "assets": "📈 公用事业、消费必需品等股息股 利好 📉 成长股 承压",
+        "chain": "降息预期（利率下降）推高股息吸引力，资金从冒险转向防守（保守投资）",
+        "watch": "10年期美债收益率（债券利息）走势"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "美光斥资90亿美元扩建日本西部芯片工厂",
       "source": "环球市场播报",
       "detail": "美光科技于周六举行日本西部工厂扩建奠基仪式，该扩建项目投资1.5万亿日元（折合93亿美元），专注量产高端存储芯片。 这家总部位于爱达荷州博伊西市的企业选址广岛建厂...",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "美光斥资90亿美元扩建日本西部芯片工厂",
-        "assets": "📈 美光 利好\n📈 日本半导体设备 利好",
-        "chain": "扩产→增加设备需求→利好ASML（光刻机供应商）等供应链",
-        "watch": "美光季度资本开支指引"
+        "what": "美光投资90亿美元扩建日本西部芯片工厂",
+        "assets": "📈 美光科技 利好 📈 日本半导体设备商 利好",
+        "chain": "强化存储芯片（内存）产能，利好上游设备商（如东京电子），但可能加剧DRAM（内存）价格战",
+        "watch": "美光财报及DRAM现货价格"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "主业连亏两年、负债率三年暴涨 34%！日科化学跨界锂电，是转型还是资本游戏？",
       "source": "市场资讯",
       "detail": " 减持届满公告发布刚过去半个月，上市公司突然停牌，宣布筹划收购锂电赛道龙头企业。创始人的套现窗口，精准地踩在了重大资产重组公告的前面。",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "日科化学主业连亏两年，负债率飙升34%，跨界锂电",
-        "assets": "📉 日科化学 利空\n📈 锂电概念 中性",
-        "chain": "财务恶化→转型风险→可能引发监管关注（借壳炒作）",
-        "watch": "定增方案及锂电项目落地进度"
+        "what": "日科化学主业亏损且负债率飙升，跨界锂电引质疑",
+        "assets": "📉 日科化学 利空 📉 锂电板块 情绪承压",
+        "chain": "主业疲软（不赚钱）时跨界，市场担心资本游戏（炒作概念），拖累锂电板块估值",
+        "watch": "公司定增（增发股票）进展及主业盈利改善情况"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Even as Elon Musk calls philanthropy ‘very hard,’ everyday Americans gave a record $617 billion—despite feeling the squeeze over the cost of living - Fortune",
+      "source": "Fortune",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "马斯克称慈善很难，但美国人捐款额仍创纪录",
+        "assets": "📈 非营利组织相关ETF（如社会影响基金） 利好",
+        "chain": "消费降级（省钱）下慈善不减，显示民众抗压（承受压力）能力，利好防御性（抗风险）资产",
+        "watch": "消费者信心指数及非营利组织资金流入数据"
       }
     }
   ]
