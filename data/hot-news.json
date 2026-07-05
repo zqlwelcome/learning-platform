@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 01:15",
+  "updateTime": "2026-07-06 01:20",
   "news": [
     {
       "rank": 1,
@@ -9,28 +9,42 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储可能加息，市场预期突变",
-        "assets": "📉 美股大盘 承压，📉 美债价格 下跌（利率上升）",
-        "chain": "加息（借钱成本提高）压制估值，资金从风险资产（股票）转向现金或短债",
-        "watch": "CME美联储观察工具（加息概率变化）"
+        "what": "美联储加息信号增强，市场预期变化",
+        "assets": "📉 美股整体 承压\n📈 美元指数 走强",
+        "chain": "加息预期推高借美元成本，压制风险资产（股票），利好美元多头（看涨美元）",
+        "watch": "美联储会议纪要及点阵图（利率预测）"
       }
     },
     {
       "rank": 2,
+      "title": "The Stock Market Just Did Something That's Only Been Observed Twice in the Last 155 Years -- and It Has Distressing Implications for Wall Street - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "美股出现155年仅两次的罕见信号，暗示下跌",
+        "assets": "📉 美股大盘 承压",
+        "chain": "历史罕见信号触发量化基金（算法交易）减仓，加剧卖盘，波动率（VIX恐慌指数）可能飙升",
+        "watch": "标普500指数关键支撑位及VIX走势"
+      }
+    },
+    {
+      "rank": 3,
       "title": "精准预测“美股动量股”暴跌后，高盛看到“逢低买入”的迹象",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛高贝塔动量篮子（GSPRHIMO）近两日重挫18%，创2020年来最大跌幅。该策略2026年已多次出现两日跌超10%后修复的走势，当前模式高度相似。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛认为动量股暴跌后出现买入机会",
-        "assets": "📈 美股动量股（如科技成长股）利好",
-        "chain": "机构资金（大资金）可能抄底，引发短期反弹（空头回补），但需警惕趋势反转",
-        "watch": "动量股指数（如MTUM）的日线成交量"
+        "what": "高盛称美股动量股暴跌后出现逢低买入机会",
+        "assets": "📈 美股动量股（如科技成长股） 利好",
+        "chain": "机构资金（如对冲基金）可能回补仓位，带动短期反弹，但需警惕追高风险",
+        "watch": "动量因子（近期强势股）相对强弱指标（RSI）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
@@ -38,13 +52,13 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 区块链预测平台（如Polymarket）利好",
-        "chain": "事件驱动（大事件）吸引流量和流动性，可能带动相关代币（如预言机代币）上涨",
-        "watch": "平台每日交易量（Volume）和用户增长"
+        "assets": "📈 博彩/预测平台概念股 利好",
+        "chain": "流量激增提升平台营收（收入），吸引投机资金，但赛事结束后热度可能回落",
+        "watch": "预测平台用户增长及续费率数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
@@ -52,27 +66,27 @@
       "score": 29,
       "insight": {
         "what": "高盛推荐被低估且有望跑赢的股票",
-        "assets": "📈 高盛推荐个股（如金融、能源板块）利好",
-        "chain": "卖方研报（券商报告）引导资金流入，短期推高股价，但需验证基本面（公司盈利）",
-        "watch": "推荐股票的市盈率（PE）与行业均值对比"
+        "assets": "📈 高盛筛选的低估值个股（如价值股） 利好",
+        "chain": "机构资金可能跟单买入，推动相关个股估值修复，但需警惕市场整体下行风险",
+        "watch": "高盛推荐个股的财报及机构持仓变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师看好高股息股提升组合收益",
-        "assets": "📈 高股息股（如公用事业、消费必需品）利好",
-        "chain": "避险情绪（市场不确定性）下资金轮动到防御性资产（波动小的股票），压降波动率",
-        "watch": "标普500高股息指数（SPYD）相对大盘表现"
+        "what": "华尔街分析师推荐高股息股以增厚回报",
+        "assets": "📈 高股息股票（如公用事业、消费防御） 利好",
+        "chain": "利率高位时，高股息股提供稳定现金流（分红），吸引避险资金，降低组合波动",
+        "watch": "国债收益率（与股息率对比）及公司分红政策"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Oil prices hover near pre-conflict levels as OPEC+ boosts output again - Fox Business",
       "source": "Fox Business",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
@@ -80,23 +94,9 @@
       "score": 27,
       "insight": {
         "what": "OPEC+增产，油价回落至冲突前水平",
-        "assets": "📉 原油价格 承压，📈 航空股 利好（成本下降）",
-        "chain": "供应增加（产油国提高产量）缓解通胀压力，利好下游消费，但可能触发产油国财政赤字",
-        "watch": "OPEC+下次会议日期及实际产量数据"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Markets After the Oil Shock - Robin J Brooks | Substack",
-      "source": "Robin J Brooks | Substack",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "分析称石油冲击后市场面临调整",
-        "assets": "📉 能源股 承压，📉 新兴市场货币（如土耳其里拉）承压",
-        "chain": "油价下跌（能源成本降低）拖累能源板块盈利，但利好进口国（降低贸易逆差）",
-        "watch": "布伦特原油期货的持仓报告（COT）"
+        "assets": "📉 原油价格 承压\n📈 航空/运输股 利好",
+        "chain": "增产压低油价，降低通胀压力（消费者物价），但利空能源股盈利，利好用油行业成本下降",
+        "watch": "OPEC+实际产量及全球原油库存数据"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "美光投资90亿美元扩建日本芯片厂",
-        "assets": "📈 美光科技 利好，📈 日本半导体设备商（如东京电子）利好",
-        "chain": "资本开支（公司投资扩产）拉动供应链需求，强化存储芯片（DRAM/NAND）产能布局",
-        "watch": "美光财报中的资本支出指引"
+        "what": "美光投资90亿美元扩建日本芯片工厂",
+        "assets": "📈 美光科技 利好\n📈 半导体设备股 利好",
+        "chain": "扩产增加供应，长期或压低存储芯片价格，但短期提振设备订单和日本半导体产业链",
+        "watch": "美光财报及存储芯片价格走势"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "日科化学跨界锂电，主业亏损负债飙升",
-        "assets": "📉 日科化学 利空（投机风险），📈 锂电板块 中性（竞争加剧）",
-        "chain": "跨界转型（非主业进热门赛道）通常被市场视为概念炒作（短期题材），但若失败将拖累现金流",
-        "watch": "公司定增（增发股票）方案及监管问询函"
+        "what": "日科化学跨界锂电，主业亏损负债攀升",
+        "assets": "📉 日科化学 利空\n📉 化工板块 情绪承压",
+        "chain": "跨界转型存疑，市场担忧资金链断裂（现金流风险），可能引发做空（押注股价下跌）或股东减持",
+        "watch": "公司融资进展及锂电项目落地情况"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "纽约国庆烧烤成本飙升31%至近300美元",
-        "assets": "📉 美国消费股（如食品零售商）承压，📈 通胀预期 上升",
-        "chain": "食品通胀（物价上涨）侵蚀实际购买力，可能压制消费者信心（消费意愿），影响美联储决策",
-        "watch": "美国CPI（消费者物价指数）月度数据"
+        "what": "纽约独立日烧烤成本飙升31%至近300美元",
+        "assets": "📉 美国消费者信心 承压\n📉 必需消费股 利空",
+        "chain": "高通胀侵蚀购买力（实际消费能力），拖累零售数据，可能强化美联储加息预期",
+        "watch": "美国CPI（消费者物价指数）及零售销售数据"
       }
     }
   ]
