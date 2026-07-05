@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-05 23:45",
+  "updateTime": "2026-07-05 23:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储可能加息，市场预期生变",
-        "assets": "📉 美股大盘 承压；📉 美债 利空",
-        "chain": "加息（借钱成本提高）→抑制企业盈利预期→下跌；美元走强→新兴市场流出",
-        "watch": "美联储会议纪要及点阵图（利率预测）"
+        "what": "美联储加息预期升温，市场担忧流动性收紧",
+        "assets": "📉 美股大盘 承压；📉 美债价格 下跌",
+        "chain": "加息（借钱成本提高）压制风险偏好，资金从股市流向债市避险",
+        "watch": "美联储下次议息会议声明及点阵图（利率预测）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛认为美股动量股暴跌后现买入机会",
-        "assets": "📈 美股动量股（如科技、成长股）利好",
-        "chain": "动量策略（追涨杀跌）反转→逢低买入资金入场→短期反弹",
-        "watch": "动量股RSI（相对强弱指标）是否超卖"
+        "what": "高盛认为美股动量股暴跌后出现逢低买入机会",
+        "assets": "📈 美股动量股（如科技成长股）利好",
+        "chain": "动量股超卖后反弹，带动市场情绪回暖，但需确认趋势反转（技术面底部信号）",
+        "watch": "动量股成交量及RSI（相对强弱指标）是否突破超卖区"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "世界杯推动预测市场交易量创纪录",
+        "what": "世界杯推动预测市场交易量创历史新高",
         "assets": "📈 预测市场平台（如Polymarket）利好",
-        "chain": "事件驱动（世界杯热度）→投机需求激增→平台收入飙升",
-        "watch": "后续大型体育赛事交易量"
+        "chain": "事件驱动型投机资金涌入，可能分流部分博彩和加密货币流动性",
+        "watch": "世界杯淘汰赛阶段交易量变化及监管动向"
       }
     },
     {
       "rank": 4,
-      "title": "Can Micron Stock Really Hit $2,000? Here's What Wall Street Thinks - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "华尔街对美光股价能否达2000美元存分歧",
-        "assets": "📈 美光科技 中性偏空",
-        "chain": "估值争议（当前价约100美元）→目标价过高→市场质疑基本面支撑",
-        "watch": "美光财报及DRAM（内存芯片）价格趋势"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票有望跑赢大市",
-        "assets": "📈 高盛推荐个股（如价值股）利好",
-        "chain": "价值投资（低估修复）→资金轮动至低估值板块→相对表现优于成长股",
-        "watch": "高盛具体股票名单及估值指标"
+        "what": "高盛推荐被低估股票，预计将跑赢大盘",
+        "assets": "📈 被低估的价值股（如金融、能源）利好",
+        "chain": "价值股获机构背书，可能引发资金从高估值成长股轮动至价值板块（风格切换）",
+        "watch": "高盛名单个股的财报及市盈率（PE）修复情况"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师看好高股息股票增厚收益",
-        "assets": "📈 高股息股（如公用事业、消费）利好",
-        "chain": "防御性配置（利率波动期）→股息率（分红收益）吸引力上升→资金流入",
-        "watch": "股息率与10年期美债收益率利差"
+        "what": "华尔街顶级分析师看好高股息股票提升组合收益",
+        "assets": "📈 高股息股票（如公用事业、消费必需品）利好",
+        "chain": "降息预期下，高股息资产吸引力上升，防御性配置增加（股息率 vs 债券收益率）",
+        "watch": "10年期美债收益率走势及股息率溢价"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Markets After the Oil Shock - Robin J Brooks | Substack",
       "source": "Robin J Brooks | Substack",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "油价冲击后市场面临调整",
-        "assets": "📉 全球股市 承压；📈 原油 利好",
-        "chain": "油价飙升（成本推升）→通胀预期升温→央行鹰派（收紧政策）→股市下跌",
-        "watch": "WTI（西德克萨斯中质原油）价格及OPEC（石油输出国组织）产量"
+        "what": "石油冲击后市场分析：油价波动影响通胀和央行政策",
+        "assets": "📈 原油 短期利好；📉 全球债券 承压",
+        "chain": "油价上涨推高通胀预期，央行可能维持紧缩（加息），压制风险资产估值",
+        "watch": "OPEC+产量决策及美国原油库存数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "美光斥资90亿美元扩建日本西部芯片工厂",
       "source": "环球市场播报",
       "detail": "美光科技于周六举行日本西部工厂扩建奠基仪式，该扩建项目投资1.5万亿日元（折合93亿美元），专注量产高端存储芯片。 这家总部位于爱达荷州博伊西市的企业选址广岛建厂...",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "美光投资90亿美元扩建日本芯片厂",
-        "assets": "📈 美光科技 利好；📈 半导体设备 利好",
-        "chain": "产能扩张（供给增加）→长期市场份额提升→供应链受益",
-        "watch": "日本政府补贴细节及建厂进度"
+        "what": "美光投资90亿美元扩建日本芯片工厂",
+        "assets": "📈 美光科技 利好；📈 半导体设备股 利好",
+        "chain": "扩产缓解供给瓶颈，但增加资本开支（CAPEX），长期看多存储芯片需求（AI/数据中心）",
+        "watch": "美光财报及存储芯片价格走势"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "主业连亏两年、负债率三年暴涨 34%！日科化学跨界锂电，是转型还是资本游戏？",
       "source": "市场资讯",
       "detail": " 减持届满公告发布刚过去半个月，上市公司突然停牌，宣布筹划收购锂电赛道龙头企业。创始人的套现窗口，精准地踩在了重大资产重组公告的前面。",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "日科化学跨界锂电，主业亏损负债飙升",
-        "assets": "📉 日科化学 利空；📉 锂电板块 中性",
-        "chain": "转型风险（主业疲弱）→资金压力→概念炒作嫌疑",
-        "watch": "公司现金流及锂电项目落地情况"
+        "what": "日科化学主业亏损、负债高企，跨界锂电遭质疑",
+        "assets": "📉 日科化学 股价承压；📉 锂电板块 情绪利空",
+        "chain": "公司基本面恶化（ROE下降）叠加资本游戏嫌疑，引发投资者对跨界转型的信任危机",
+        "watch": "日科化学锂电项目进展及现金流状况"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Even as Elon Musk calls philanthropy ‘very hard,’ everyday Americans gave a record $617 billion—despite feeling the squeeze over the cost of living - Fortune",
       "source": "Fortune",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "美国人生活成本承压但慈善捐款创新高",
-        "assets": "📈 消费必需品 利好；📉 非必需消费 承压",
-        "chain": "消费降级（生活成本挤压）→必需品需求稳定，非必需品萎缩",
-        "watch": "消费者信心指数及零售销售数据"
+        "what": "马斯克称慈善困难，但美国人捐赠创纪录6170亿美元",
+        "assets": "📈 非营利组织/慈善ETF 利好",
+        "chain": "高通胀下消费挤压，捐赠增长显示财富效应（富人资产升值）支撑慈善支出",
+        "watch": "美国个人储蓄率及高净值人群资产配置"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "AI-crazed San Francisco homebuyers find insane new currency to outbid rivals - New York Post",
+      "source": "New York Post",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "旧金山购房者用AI算力作为新货币竞价买房",
+        "assets": "📈 AI算力相关公司（如英伟达）利好；📉 房地产 扭曲信号",
+        "chain": "AI算力资产化，可能引发投机资金从传统房产转向科技资产，推高AI泡沫风险",
+        "watch": "旧金山房价指数及AI芯片租赁价格"
       }
     }
   ]
