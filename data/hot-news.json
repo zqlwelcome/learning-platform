@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-05 16:10",
+  "updateTime": "2026-07-05 16:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "国会首现SpaceX股票买入记录",
-        "assets": "📈 SpaceX/太空概念股 利好",
-        "chain": "政治人物持仓暴露→监管审查风险上升→军工太空板块波动加大",
-        "watch": "SEC是否扩大内幕交易调查范围"
+        "what": "国会成员首次披露持有SpaceX股票，IPO后曝光",
+        "assets": "📈 SpaceX相关概念股 利好",
+        "chain": "政治人物持仓曝光→监管关注→军工航天板块估值重估",
+        "watch": "后续国会成员交易披露及SpaceX估值变动"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储释放重大加息信号",
-        "assets": "📉 美股大盘 承压; 📈 美元指数 走强",
-        "chain": "加息（借钱成本提高）→企业融资成本上升→科技成长股估值压缩",
-        "watch": "下周CPI数据是否超预期触发更鹰派路径"
+        "what": "美联储释放加息信号，市场预期重大变数",
+        "assets": "📉 美股 承压 📈 美元指数 走强",
+        "chain": "加息（提高借贷成本）→流动性收紧→风险资产（股票）遭抛售",
+        "watch": "美联储会议纪要及利率点阵图"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "下周A股解禁超千亿，CPI数据公布",
-        "assets": "📉 A股半导体（688729） 承压; 📈 消费板块 关注",
-        "chain": "解禁洪峰（持股锁定到期）→抛压集中释放→小市值个股流动性冲击",
-        "watch": "周一开盘688729是否出现大宗折价交易"
+        "what": "下周中国CPI数据公布，A股交易新规生效，解禁市值超千亿",
+        "assets": "📉 A股 承压",
+        "chain": "解禁（限售股上市流通）→抛压增加→半导体等板块回调",
+        "watch": "6月CPI同比数据及解禁股减持公告"
       }
     },
     {
@@ -49,7 +49,13 @@
       "source": "CNBC",
       "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "检察官为1亿美元熟食店欺诈犯求情减刑，部分原因保密",
+        "assets": "📉 美国小企业贷款市场 情绪利空",
+        "chain": "欺诈案暴露监管漏洞→贷款审核趋严→小企业融资成本上升",
+        "watch": "司法部后续调查及贷款违约率数据"
+      }
     },
     {
       "rank": 5,
@@ -59,10 +65,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛建议逢低买入美股动量股",
-        "assets": "📈 美股科技/动量股 利好",
-        "chain": "动量股（近期强势股）回调→高盛逆向信号→量化基金可能触发再平衡买盘",
-        "watch": "RSI（相对强弱指标）是否跌破30超卖区"
+        "what": "高盛在精准预测美股动量股暴跌后，认为可逢低买入",
+        "assets": "📈 美股科技成长股 利好",
+        "chain": "超卖（价格过度下跌）→技术性反弹→量化基金（程序化交易）回补仓位",
+        "watch": "动量股（强势股）RSI（相对强弱指标）及资金流数据"
       }
     },
     {
@@ -71,7 +77,13 @@
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "世界杯推动预测市场交易量创历史新高",
+        "assets": "📈 区块链预测平台代币 利好",
+        "chain": "赛事热度→用户增长→平台收入增加→代币需求上升",
+        "watch": "平台日活用户数及投注额趋势"
+      }
     },
     {
       "rank": 7,
@@ -79,7 +91,13 @@
       "source": "CNBC",
       "detail": "The firm named 55 large- and small-cap stocks that it thinks are set to perform well in the next six months.",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "BTIG推荐运动休闲股和网络安全股为2026下半年首选",
+        "assets": "📈 运动休闲板块 利好 📈 网络安全板块 利好",
+        "chain": "机构评级（专业机构评价）→资金流入→相关ETF（交易型开放式指数基金）溢价",
+        "watch": "目标价及行业财报季表现"
+      }
     },
     {
       "rank": 8,
@@ -89,10 +107,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "霍尔木兹海峡恢复通航，油价连跌四周",
-        "assets": "📉 原油 承压; 📈 航空股 利好",
-        "chain": "油轮解封（供应恢复）→炼油毛利压缩→能源板块资金流出转向消费",
-        "watch": "伊朗是否正式签署新核协议"
+        "what": "霍尔木兹海峡恢复通航，油价连续第四周下跌",
+        "assets": "📉 原油 承压 📈 全球航运股 利好",
+        "chain": "供应中断风险解除→油价暴跌→能源股跟跌，航运成本下降",
+        "watch": "OPEC（石油输出国组织）产量数据及地缘局势"
       }
     },
     {
@@ -103,10 +121,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "世界杯推高预测市场交易量创新高",
-        "assets": "📈 区块链预言机/博彩股 利好",
-        "chain": "事件驱动交易（世界杯赌盘）→链上数据活跃→相关代币（如POLY）短期波动",
-        "watch": "预测平台代币交易量能否持续三天以上"
+        "what": "下周A股解禁市值超千亿，半导体龙头占65%，光纤股员工浮盈11倍",
+        "assets": "📉 半导体板块 承压 📉 光纤板块 承压",
+        "chain": "解禁（限售股上市）→大股东套现→个股暴跌拖累板块",
+        "watch": "解禁首日成交量及减持公告"
       }
     },
     {
@@ -117,10 +135,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美股芯片股遭资金持续出逃",
-        "assets": "📉 费城半导体指数 承压; 📉 A股芯片ETF 联动",
-        "chain": "资金流出（机构减仓）→传导至亚洲供应链→台积电ADR（美国存托凭证）成为风向标",
-        "watch": "今晚AMD/英伟达期权隐含波动率是否飙升"
+        "what": "美股芯片股大跌，资金持续出逃，冲击波或扩散",
+        "assets": "📉 全球半导体板块 承压 📉 纳指 承压",
+        "chain": "龙头股暴跌→恐慌蔓延→科技股资金外逃→避险资产（美债）上涨",
+        "watch": "SOX（费城半导体指数）及VIX（恐慌指数）走势"
       }
     }
   ]
