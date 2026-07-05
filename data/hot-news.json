@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 00:10",
+  "updateTime": "2026-07-06 00:15",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储加息预期升温，政策路径存变数",
-        "assets": "📉 美股 承压\n📈 美元指数 走强",
-        "chain": "加息（借钱成本提高）压制风险偏好，资金回流美元资产，新兴市场（如股市）遭抽血",
-        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
+        "what": "美联储暗示可能加息，市场预期突变",
+        "assets": "📉 美股大盘 承压；📈 美元 走强",
+        "chain": "加息预期推高美债收益率（借钱成本），压制成长股估值（未来现金流折现下降），资金流向避险资产",
+        "watch": "美联储官员讲话及CPI（通胀数据）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛认为美股动量股回调后出现买入机会",
-        "assets": "📈 美股动量股 利好",
-        "chain": "高盛喊单提振情绪，机构资金可能提前布局，推动相关股票反弹（均值回归策略）",
-        "watch": "动量股（如科技龙头）相对强弱指标RSI是否回升"
+        "what": "高盛认为美股动量股暴跌后出现买入机会",
+        "assets": "📈 美股动量股（如科技成长股） 利好",
+        "chain": "高盛信号可能引发机构跟风抄底（追涨杀跌），短期提振板块情绪，但需警惕假反弹（技术性修复）",
+        "watch": "动量股RSI（相对强弱指数）及成交量变化"
       }
     },
     {
@@ -38,69 +38,55 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 加密货币/预测平台代币 利好",
-        "chain": "流量激增提升平台收入预期，可能带动相关区块链项目（如Polygon）活跃度",
-        "watch": "预测平台（如Polymarket）日活用户数变化"
+        "assets": "📈 博彩/预测市场平台 利好",
+        "chain": "事件驱动资金涌入，可能分流其他投机资产（如加密货币）流动性，但属周期性波动",
+        "watch": "世界杯后续赛程热度及平台新增用户数"
       }
     },
     {
       "rank": 4,
-      "title": "Can Micron Stock Really Hit $2,000? Here's What Wall Street Thinks - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "华尔街分析师对美光能否涨至2000美元存疑",
-        "assets": "📉 美光股票 承压",
-        "chain": "目标价争议引发多空博弈，若财报不及预期，半导体板块（如存储芯片）或跟跌",
-        "watch": "美光季度营收指引及DRAM（内存芯片）价格走势"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐估值偏低的股票，认为有望跑赢大盘",
-        "assets": "📈 高盛推荐股 利好",
-        "chain": "机构背书吸引价值投资者，资金从高估值成长股轮动至低估值板块（如金融、能源）",
-        "watch": "推荐名单中个股的市盈率PE与行业均值对比"
+        "what": "高盛推荐低估值股票，称其具备跑赢潜力",
+        "assets": "📈 价值股（低市盈率板块） 利好",
+        "chain": "高盛背书吸引价值投资者配置，可能带动资金从高估值成长股轮动（板块切换），但需验证盈利增长",
+        "watch": "推荐个股财报及PEG（市盈率相对增长比率）"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师看好高股息股提升组合收益",
-        "assets": "📈 公用事业/消费股息股 利好",
-        "chain": "防御性配置升温，利率敏感型（如REITs房地产信托）受追捧，成长股遭减持",
-        "watch": "10年期美债收益率与股息率利差变化"
+        "what": "华尔街分析师看好高股息股票提升组合收益",
+        "assets": "📈 公用事业、消费必需品等高股息股 利好",
+        "chain": "防御性配置升温，反映市场避险情绪（怕跌），可能压制周期股（如工业）需求",
+        "watch": "股息率与10年期美债收益率利差（相对吸引力）"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Warren Buffett Just Sent Investors an 11-Word Warning About the Stock Market. History Says He's Right. - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "巴菲特警告股市风险，历史显示其正确",
+        "assets": "📉 美股大盘 承压；📈 现金/国债 利好",
+        "chain": "巴菲特的警告强化市场谨慎情绪，可能引发获利了结（卖股票），资金转向安全资产",
+        "watch": "伯克希尔持仓变化及现金储备比例"
       }
     },
     {
       "rank": 7,
-      "title": "Markets After the Oil Shock - Robin J Brooks | Substack",
-      "source": "Robin J Brooks | Substack",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "石油冲击后市场分析，油价波动风险仍存",
-        "assets": "📈 能源股 利好\n📉 航空股 承压",
-        "chain": "油价上涨推高通胀预期，美联储鹰派（倾向加息）施压，但能源企业盈利改善",
-        "watch": "布伦特原油期货持仓量及OPEC+（石油输出国组织）产量决议"
-      }
-    },
-    {
-      "rank": 8,
       "title": "美光斥资90亿美元扩建日本西部芯片工厂",
       "source": "环球市场播报",
       "detail": "美光科技于周六举行日本西部工厂扩建奠基仪式，该扩建项目投资1.5万亿日元（折合93亿美元），专注量产高端存储芯片。 这家总部位于爱达荷州博伊西市的企业选址广岛建厂...",
@@ -108,27 +94,27 @@
       "score": 20,
       "insight": {
         "what": "美光投资90亿美元扩建日本芯片工厂",
-        "assets": "📈 美光/半导体设备股 利好",
-        "chain": "产能扩张巩固存储芯片供应，利好上游设备商（如应用材料），但增加行业资本开支压力",
-        "watch": "日本政府补贴细则及美光资本支出指引"
+        "assets": "📈 美光及存储芯片板块 利好",
+        "chain": "扩产增加供给，长期或压低存储芯片价格（DRAM/NAND），但短期提振设备商（如应用材料）需求",
+        "watch": "美光Q3财报及DRAM现货价格"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "主业连亏两年、负债率三年暴涨 34%！日科化学跨界锂电，是转型还是资本游戏？",
       "source": "市场资讯",
       "detail": " 减持届满公告发布刚过去半个月，上市公司突然停牌，宣布筹划收购锂电赛道龙头企业。创始人的套现窗口，精准地踩在了重大资产重组公告的前面。",
       "lang": "zh",
       "score": 20,
       "insight": {
-        "what": "日科化学主业亏损，跨界锂电引发转型质疑",
-        "assets": "📉 日科化学 承压\n📈 锂电板块 中性",
-        "chain": "资金可能炒作概念，但高负债率（借钱太多）增加暴雷风险，拖累中小化工股估值",
-        "watch": "公司锂电项目落地进度及资产负债率变化"
+        "what": "日科化学主业亏损，跨界锂电被质疑",
+        "assets": "📉 日科化学股票 利空；📉 锂电概念板块 承压",
+        "chain": "主业疲软+高杠杆（负债率飙升），跨界锂电可能失败，引发市场对跟风转型的警惕（估值泡沫风险）",
+        "watch": "日科化学锂电项目落地进展及现金流"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "‘Insane’ cost of average 4th of July BBQ surges 31% to bearly $300 in NYC - New York Post",
       "source": "New York Post",
       "detail": "国际财经动态，关注后续发展。",
@@ -136,9 +122,23 @@
       "score": 20,
       "insight": {
         "what": "纽约独立日烧烤成本飙升31%至近300美元",
-        "assets": "📈 食品通胀 承压\n📉 消费股 利空",
-        "chain": "通胀传导至终端，消费者削减可选消费（如餐饮），必需消费品（如肉类）企业毛利承压",
-        "watch": "美国农业部USDA食品价格指数及消费者信心指数"
+        "assets": "📈 食品通胀相关资产（如农产品期货） 利好",
+        "chain": "成本上涨反映通胀顽固（物价难降），可能强化美联储鹰派（坚持加息），压制消费股",
+        "watch": "美国CPI食品分项及消费者信心指数"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Even as Elon Musk calls philanthropy ‘very hard,’ everyday Americans gave a record $617 billion—despite feeling the squeeze over the cost of living - Fortune",
+      "source": "Fortune",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "尽管生活成本压力，美国人慈善捐款创纪录",
+        "assets": "📈 非营利/慈善相关ETF 中性偏利好",
+        "chain": "消费韧性超预期（能省则捐），可能支撑零售股但削弱降息预期（经济未衰退），需关注捐款结构",
+        "watch": "个人储蓄率及零售销售数据"
       }
     }
   ]
