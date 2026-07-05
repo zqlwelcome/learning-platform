@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-05 14:25",
+  "updateTime": "2026-07-05 14:31",
   "news": [
     {
       "rank": 1,
@@ -9,42 +9,56 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "国会议员首次披露持有SpaceX股票",
+        "what": "国会议员首次披露买入SpaceX股票",
         "assets": "📈 SpaceX未上市股权 利好",
-        "chain": "政治人物持仓或暗示政策倾斜，利好航天军工板块（国防预算预期）",
-        "watch": "国会交易披露规则变化"
+        "chain": "政治背书信号→提振私募市场信心→推高未上市科技公司估值",
+        "watch": "其他议员是否跟进披露"
       }
     },
     {
       "rank": 2,
+      "title": "加息，重大变数！美联储，重磅来袭",
+      "source": "券商中国",
+      "detail": "美联储政策路径牵动市场神经。 本周，美股三大指数集体上涨，道指累计涨幅接近2%，纳指累计涨幅超2%，标普累涨1.76%。根据日程安排，美联储下周将公布6月议息会议纪要...",
+      "lang": "zh",
+      "score": 51,
+      "insight": {
+        "what": "美联储加息信号出现重大变数",
+        "assets": "📉 美债 承压 | 📈 美元 走强",
+        "chain": "加息预期升温→资金成本上升→压制风险资产（股票/加密货币）",
+        "watch": "下周CPI数据及美联储点阵图"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
       "source": "CNBC",
       "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "联邦政府请求对1亿美元欺诈案减刑",
-        "assets": "📉 司法公正预期 承压",
-        "chain": "减刑理由不公开引发监管透明度质疑，利空合规科技股（反洗钱监控需求）",
-        "watch": "案件最终判决及司法部声明"
+        "what": "联邦检察官申请对百亿欺诈案减刑",
+        "assets": "📉 司法概念股 利空",
+        "chain": "执法宽松信号→市场质疑监管力度→金融欺诈案件风险溢价上升",
+        "watch": "法院是否批准减刑"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "昆仑芯IPO：李彦宏最后一战——500亿美元估值、57名股东与“配货”式IPO，比较寒武纪1000多亿美元不太贵？",
       "source": "市场资讯",
       "detail": "来源：国际投行研究报告 昆仑芯IPO：李彦宏的最后一战——500亿美元估值、57名股东与一场“配货”式IPO，比较寒武纪不太贵？！ “想要拿到1000万元的股份份额...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "昆仑芯启动IPO，估值500亿美元对标寒武纪",
-        "assets": "📈 国产AI芯片 利好",
-        "chain": "高估值吸引资金涌入半导体赛道，但配货式IPO（强制搭售）可能压制中小投资者情绪",
-        "watch": "昆仑芯招股书认购倍数及寒武纪股价联动"
+        "what": "昆仑芯IPO估值500亿美元，配货式发行",
+        "assets": "📈 半导体AI芯片 利好 | 📉 寒武纪 估值承压",
+        "chain": "估值低于寒武纪→吸引资金轮动→AI芯片板块估值体系重构",
+        "watch": "昆仑芯认购倍数及首日涨幅"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Michael Burry makes a bearish bet against hot memory stock Micron: reports - MarketWatch",
       "source": "MarketWatch",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -52,69 +66,69 @@
       "score": 37,
       "insight": {
         "what": "Michael Burry做空美光科技",
-        "assets": "📉 美光科技 利空",
-        "chain": "知名空头（做空者）押注加剧存储芯片板块恐慌，可能引发跟风抛售（羊群效应）",
-        "watch": "美光财报及存储芯片价格走势"
+        "assets": "📉 美光（MU） 承压 | 📈 做空波动率 利好",
+        "chain": "知名空头信号→引发跟风抛售→半导体板块情绪转弱",
+        "watch": "美光期权持仓变化及库存数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "精准预测“美股动量股”暴跌后，高盛看到“逢低买入”的迹象",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛高贝塔动量篮子（GSPRHIMO）近两日重挫18%，创2020年来最大跌幅。该策略2026年已多次出现两日跌超10%后修复的走势，当前模式高度相似。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛认为美股动量股暴跌后出现买入机会",
-        "assets": "📈 美股动量股（如科技龙头） 利好",
-        "chain": "投行喊话或触发技术性反弹（超卖修复），但需警惕宏观数据恶化（就业/通胀）",
-        "watch": "标普500动量因子指数及VIX（恐慌指数）"
+        "what": "高盛认为动量股暴跌后现买入机会",
+        "assets": "📈 美股动量股 利好",
+        "chain": "机构抄底信号→资金回流→带动量化基金（程序化交易）重新建仓",
+        "watch": "动量因子（强势股）ETF资金流向"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 区块链预测平台（如Polymarket） 利好",
-        "chain": "体育赛事催化散户投机热情，但监管风险（赌博合法性）可能限制长期增长",
-        "watch": "美国CFTC（商品期货交易委员会）政策动向"
+        "what": "世界杯推动预测市场交易量创新高",
+        "assets": "📈 预测市场平台（如Polymarket） 利好",
+        "chain": "赛事热度→吸引散户资金→验证去中心化博彩（链上预测）商业模式",
+        "watch": "世界杯后预测市场留存率"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "下周关注丨6月CPI数据即将公布，这些投资机会最靠谱",
       "source": "一财网",
       "detail": "6月CPI数据即将公布；A股交易新规正式实施，主板ST股涨跌幅限制由5%提至10%。 【重磅新闻】 6月CPI数据即将公布 7月9日，国家统计局将公布6月CPI、PPI数据。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "下周关注6月CPI数据公布",
-        "assets": "📈 美债利率 利空；📉 黄金 承压",
-        "chain": "若CPI超预期（通胀顽固），降息预期（借钱成本降低）推迟，利空成长股（估值压力）",
-        "watch": "核心CPI环比及美联储官员讲话"
+        "what": "下周关注6月CPI数据及投资机会",
+        "assets": "📈 消费必需品 利好 | 📉 成长股 承压",
+        "chain": "CPI若超预期→加息预期强化→利率敏感资产（科技/房地产）下跌",
+        "watch": "核心CPI环比及同比数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "BTIG names an athleisure company, cybersecurity stock and more as its top picks for the second half of 2026",
       "source": "CNBC",
       "detail": "The firm named 55 large- and small-cap stocks that it thinks are set to perform well in the next six months.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "BTIG推荐运动休闲股和网络安全股",
-        "assets": "📈 运动休闲（如Lululemon） 利好；📈 网络安全（如CrowdStrike） 利好",
-        "chain": "投行唱多或吸引资金轮动（板块切换），但需验证消费数据（零售销售）",
-        "watch": "相关公司财报及机构持仓变化"
+        "what": "BTIG推荐运动服饰和网络安全股",
+        "assets": "📈 运动服饰（如Lululemon） 利好 | 📈 网络安全股 利好",
+        "chain": "机构推荐→资金集中买入→带动板块轮动至防御性成长（业绩稳定）",
+        "watch": "相关个股成交量及研报评级变化"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "下周A股解禁市值超千亿！半导体龙头，688729独占65%、光纤大牛股，亨通光电员工激励浮盈近11倍",
       "source": "市场资讯",
       "detail": "【导读】下周将有32只个股迎来限售股解禁 中国基金报记者 夏天 Wind数据显示，下周（7月6日至7月10日）将有32只个股迎来限售股解禁，合计解禁数量29.49亿股...",
@@ -122,23 +136,9 @@
       "score": 25,
       "insight": {
         "what": "下周A股解禁市值超千亿，半导体龙头占65%",
-        "assets": "📉 科创板半导体股 承压",
-        "chain": "大规模解禁（限售股上市）引发减持抛压，尤其光纤股亨通光电员工浮盈11倍，套现动机强烈",
-        "watch": "解禁首日成交量及大股东减持公告"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "资金连续出逃，美股芯片股大跌冲击波会否扩散",
-      "source": "一财网",
-      "detail": "围绕人工智能高估值的质疑持续冲击芯片股，费城半导体指数过去两个交易日内累计下跌11%。 随着美国6月非农就业数据不及预期，市场加息忧虑缓解...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "资金持续流出美股芯片股，担忧扩散",
-        "assets": "📉 全球半导体股 利空；📉 台积电/英伟达 承压",
-        "chain": "资金外逃（资本外流）可能蔓延至科技产业链（服务器/云服务），引发系统性回调（Beta风险）",
-        "watch": "费城半导体指数（SOX）及北向资金流向"
+        "assets": "📉 半导体股（688729） 承压 | 📉 亨通光电 承压",
+        "chain": "解禁抛压→大股东套现→拖累中小盘流动性（资金出逃）",
+        "watch": "解禁首日大宗交易折价率"
       }
     }
   ]
