@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-05 15:41",
+  "updateTime": "2026-07-05 15:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "国会议员首次披露持有SpaceX股票，IPO后买入",
-        "assets": "📈 SpaceX 利好",
-        "chain": "政治关联度提升，可能影响航天监管政策，利好军工航天板块",
-        "watch": "其他议员持仓披露及SpaceX上市进展"
+        "what": "国会议员首次披露持有SpaceX股票，暗示政治影响力",
+        "assets": "📈 SpaceX估值 情绪利好；📉 其他太空股 竞争压力",
+        "chain": "政治关联性（政商关系）提升SpaceX融资预期，可能挤压其他私营航天公司（如蓝色起源）份额",
+        "watch": "美国国会持仓披露规则变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 51,
       "insight": {
-        "what": "美联储暗示加息，市场预期重大变数",
-        "assets": "📉 美股 承压 📉 美债 利空 📈 美元 利好",
-        "chain": "加息（提高借钱成本）抑制风险偏好，科技股、高估值资产首当其冲（受冲击最大）",
-        "watch": "美联储会议纪要及点阵图（利率预测图）"
+        "what": "美联储释放加息信号，市场预期紧缩政策将延续",
+        "assets": "📈 美元指数 上涨；📉 美债（国债）价格 下跌；📉 美股 承压",
+        "chain": "加息（借钱成本上升）→企业盈利预期下调→股市估值压缩；同时美元走强压制新兴市场（如人民币）",
+        "watch": "下周三美联储会议纪要及通胀数据（CPI）"
       }
     },
     {
@@ -37,56 +37,42 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "联邦检察官请求对1亿美元诈骗犯减刑，理由部分保密",
-        "assets": "📉 法律风险 中性",
-        "chain": "司法透明度存疑，可能引发对白领犯罪处罚标准的讨论，但直接影响有限",
-        "watch": "减刑最终判决及理由公开情况"
+        "what": "联邦检察官请求减轻百亿美元诈骗犯刑期，信息不公开",
+        "assets": "📉 司法部公信力 情绪利空；📉 金融监管类股 轻微承压",
+        "chain": "量刑不透明（司法不公风险）可能削弱投资者对金融系统（如银行）的信任，但影响有限",
+        "watch": "案件后续披露及国会问询"
       }
     },
     {
       "rank": 4,
-      "title": "Michael Burry makes a bearish bet against hot memory stock Micron: reports - MarketWatch",
-      "source": "MarketWatch",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "Michael Burry做空热门存储芯片股美光",
-        "assets": "📉 美光 利空 📉 半导体板块 承压",
-        "chain": "知名空头（做空者）押注，加剧芯片股抛售，拖累费城半导体指数（SOX）",
-        "watch": "美光财报及存储芯片价格走势"
-      }
-    },
-    {
-      "rank": 5,
       "title": "精准预测“美股动量股”暴跌后，高盛看到“逢低买入”的迹象",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛高贝塔动量篮子（GSPRHIMO）近两日重挫18%，创2020年来最大跌幅。该策略2026年已多次出现两日跌超10%后修复的走势，当前模式高度相似。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛预测美股动量股暴跌后，看到逢低买入机会",
-        "assets": "📈 美股动量股 利好",
-        "chain": "机构资金可能入场抄底，短期提振市场情绪，但需警惕趋势反转（方向改变）",
-        "watch": "动量因子（近期强势股）表现及资金流向"
+        "what": "高盛认为美股动量股暴跌后出现逢低买入机会",
+        "assets": "📈 美股动量股（如科技成长股） 反弹信号",
+        "chain": "技术性超卖（RSI低于30）+机构资金回流→短期反弹，但需警惕趋势反转（动量衰竭）",
+        "watch": "动量因子（如RSI）是否突破50水平"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 博彩/预测平台 利好",
-        "chain": "事件驱动型交易激增，利好相关科技平台及数据提供商",
-        "watch": "后续赛事流量及监管政策变化"
+        "what": "世界杯带动预测市场交易量创历史新高",
+        "assets": "📈 预测市场平台（如Polymarket） 利好；📈 体育博彩股 情绪提振",
+        "chain": "流量激增（用户活跃度）→平台估值提升，可能吸引监管关注（合规风险）",
+        "watch": "预测市场是否成为主流博彩渠道"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "BTIG names an athleisure company, cybersecurity stock and more as its top picks for the second half of 2026",
       "source": "CNBC",
       "detail": "The firm named 55 large- and small-cap stocks that it thinks are set to perform well in the next six months.",
@@ -94,27 +80,27 @@
       "score": 29,
       "insight": {
         "what": "BTIG推荐运动休闲股和网络安全股为2026下半年首选",
-        "assets": "📈 运动休闲/网络安全股 利好",
-        "chain": "机构背书吸引资金流入，但需验证基本面（公司业绩）是否支撑",
-        "watch": "相关公司财报及行业增长数据"
+        "assets": "📈 运动休闲股（如Lululemon） 利好；📈 网络安全股（如CrowdStrike） 利好",
+        "chain": "机构背书（分析师评级）→资金轮动至防御性（抗周期）成长板块，避开周期股",
+        "watch": "BTIG是否调整评级或目标价"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Oil Set for Fourth Straight Weekly Loss as Hormuz Flows Return - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "霍尔木兹海峡恢复通行，油价连续第四周下跌",
-        "assets": "📉 原油 利空 📈 航空/航运 利好",
-        "chain": "供应风险解除，油价承压，降低通胀预期，利好下游消费",
-        "watch": "OPEC+产量政策及伊朗局势"
+        "what": "霍尔木兹海峡恢复通航，油价连续第四周下跌",
+        "assets": "📉 原油 承压；📈 航运股 利好；📉 能源股 利空",
+        "chain": "供应风险（地缘溢价）消退→油价下行→降低通胀预期（CPI），但可能拖累能源企业利润",
+        "watch": "霍尔木兹海峡实际通行量及OPEC（石油输出国组织）产量政策"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "下周A股解禁市值超千亿！半导体龙头，688729独占65%、光纤大牛股，亨通光电员工激励浮盈近11倍",
       "source": "市场资讯",
       "detail": "【导读】下周将有32只个股迎来限售股解禁 中国基金报记者 夏天 Wind数据显示，下周（7月6日至7月10日）将有32只个股迎来限售股解禁，合计解禁数量29.49亿股...",
@@ -122,23 +108,37 @@
       "score": 25,
       "insight": {
         "what": "下周A股解禁市值超千亿，半导体龙头占65%",
-        "assets": "📉 A股半导体 承压 📉 光纤股 利空（员工激励浮盈大）",
-        "chain": "解禁（限售股到期可卖）增加供给压力，大股东或套现，拖累板块情绪",
-        "watch": "解禁后实际减持公告及股价表现"
+        "assets": "📉 A股半导体板块 承压；📉 光纤股（如亨通光电） 压力",
+        "chain": "解禁（限售股流通）→抛售压力（套现风险）→股价下跌，尤其员工激励浮盈大的股票（获利了结）",
+        "watch": "解禁首日成交量和大股东减持公告"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "资金连续出逃，美股芯片股大跌冲击波会否扩散",
       "source": "一财网",
       "detail": "围绕人工智能高估值的质疑持续冲击芯片股，费城半导体指数过去两个交易日内累计下跌11%。 随着美国6月非农就业数据不及预期，市场加息忧虑缓解...",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "资金连续出逃美股芯片股，冲击波可能扩散",
-        "assets": "📉 美股芯片股 利空 📉 全球科技股 承压",
-        "chain": "板块轮动（资金换仓）加速，恐慌情绪蔓延至其他高估值成长股",
-        "watch": "半导体ETF（交易所交易基金）资金流向及VIX（恐慌指数）"
+        "what": "美股芯片股资金外逃，担忧扩散至其他板块",
+        "assets": "📉 美股芯片股（如英伟达、AMD） 利空；📉 科技股整体 传导利空",
+        "chain": "资金外逃（风险偏好下降）→拖累纳斯达克指数→连锁反应至成长股（高估值板块）",
+        "watch": "芯片股ETF（如SMH）资金流向及费城半导体指数"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "美光斥资90亿美元扩建日本西部芯片工厂",
+      "source": "环球市场播报",
+      "detail": "美光科技于周六举行日本西部工厂扩建奠基仪式，该扩建项目投资1.5万亿日元（折合93亿美元），专注量产高端存储芯片。 这家总部位于爱达荷州博伊西市的企业选址广岛建厂...",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "美光投资90亿美元扩建日本芯片工厂",
+        "assets": "📈 美光科技 利好；📈 日本半导体设备商 利好",
+        "chain": "产能扩张（资本开支增加）→供应链需求（设备、材料）→日本经济受益，但加剧全球存储芯片过剩（价格战）",
+        "watch": "美光季度资本支出指引及DRAM（动态随机存取存储器）价格走势"
       }
     }
   ]
