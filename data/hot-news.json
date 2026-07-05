@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 06:15",
+  "updateTime": "2026-07-06 06:20",
   "news": [
     {
       "rank": 1,
@@ -10,41 +10,55 @@
       "score": 51,
       "insight": {
         "what": "美联储加息预期升温，市场波动加大",
-        "assets": "📉 美股大盘 承压\n📈 美元指数 走强",
-        "chain": "加息（借钱成本上升）→企业利润压缩→股市下跌；美元升值→新兴市场资金外流",
-        "watch": "下周美联储官员讲话及CPI（通胀）数据"
+        "assets": "📉 美股 承压；📉 美债 利率上行",
+        "chain": "加息（借钱成本增加）压制风险偏好，资金从股市流向债市",
+        "watch": "美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
       "rank": 2,
+      "title": "Micron Stock Investors Just Got Good News From Wall Street and Nvidia CEO Jensen Huang - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "美光获华尔街看好，英伟达CEO表态支持",
+        "assets": "📈 美光科技 利好；📈 半导体板块 利好",
+        "chain": "半导体需求预期改善，带动科技股情绪回暖（风险偏好上升）",
+        "watch": "美光财报指引及芯片订单数据"
+      }
+    },
+    {
+      "rank": 3,
       "title": "精准预测“美股动量股”暴跌后，高盛看到“逢低买入”的迹象",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 高盛高贝塔动量篮子（GSPRHIMO）近两日重挫18%，创2020年来最大跌幅。该策略2026年已多次出现两日跌超10%后修复的走势，当前模式高度相似。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "高盛认为美股动量股暴跌后出现逢低买入机会",
-        "assets": "📈 美股动量股 利好",
-        "chain": "动量股（近期强势股）超卖（跌过头）→资金抄底→短期反弹，但需确认趋势反转",
-        "watch": "动量股成交量是否放大及RSI（相对强弱指标）是否脱离超卖区"
+        "what": "高盛认为美股动量股回调后出现逢低买入机会",
+        "assets": "📈 美股动量股 利好；📈 高盛推荐标的 利好",
+        "chain": "动量股（近期强势股）超卖后吸引资金抄底，短期反弹概率大",
+        "watch": "动量股RSI（相对强弱指标）及成交量变化"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Stock futures rise after record-setting week for the Dow: Live updates",
       "source": "CNBC",
       "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "美股期货上涨，延续道指创纪录涨势",
-        "assets": "📈 美股期货 利好\n📈 道琼斯指数 利好",
-        "chain": "期货上涨→开盘预期乐观→多头情绪延续，但需警惕高位回调风险",
-        "watch": "开盘后标普500是否突破前高"
+        "what": "美股期货上涨，道指创纪录周线后延续涨势",
+        "assets": "📈 美股大盘 利好；📈 道指 利好",
+        "chain": "市场乐观情绪延续，资金继续流入蓝筹股（大盘股）",
+        "watch": "开盘后道指能否站稳新高"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
@@ -52,93 +66,79 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 预测市场平台 利好\n📈 体育博彩股 利好",
-        "chain": "赛事热度→流量激增→平台收入暴增，但监管风险（政策打压）可能压制估值",
-        "watch": "监管政策变化及后续赛事对用户留存的影响"
+        "assets": "📈 预测市场平台 利好；📈 体育博彩概念 利好",
+        "chain": "事件驱动型交易（如赌博、期权）活跃，资金从传统资产分流",
+        "watch": "世界杯后续赛程及平台用户增长数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票，认为其具备跑赢潜力",
-        "assets": "📈 高盛推荐股 利好",
-        "chain": "低估股（P/E（市盈率）低于行业均值）→价值投资者买入→板块轮动（资金从成长股转向价值股）",
-        "watch": "这些股票财报季的盈利增速是否超预期"
+        "what": "高盛推荐一批被低估的股票，认为有望跑赢大盘",
+        "assets": "📈 高盛推荐个股 利好；📈 价值股 利好",
+        "chain": "低估值（便宜）股票受关注，资金从成长股轮动至价值股",
+        "watch": "推荐个股的PE（市盈率）及盈利修正趋势"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "顶级分析师看好高股息股票增强组合回报",
-        "assets": "📈 公用事业股 利好\n📈 电信股 利好",
-        "chain": "高股息（分红率>4%）→防御性配置（市场波动时资金避险）→利率敏感行业（如公用事业）受青睐",
-        "watch": "美国10年期国债收益率是否持续下行"
+        "what": "华尔街分析师看好高股息股票提升组合收益",
+        "assets": "📈 高股息股票 利好；📈 公用事业 利好",
+        "chain": "防御性配置（低风险资产）需求上升，资金从成长股转向分红股",
+        "watch": "美债收益率与股息率利差变化"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Oil prices hover near pre-conflict levels as OPEC+ boosts output again - Fox Business",
       "source": "Fox Business",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "OPEC+增产使油价接近冲突前水平",
-        "assets": "📉 原油 承压\n📈 航空股 利好",
-        "chain": "OPEC+增产（供应增加）→油价下跌→运输成本下降→航空、物流行业利润改善",
-        "watch": "OPEC+下次会议产量决议及美国原油库存数据"
+        "what": "OPEC+增产致油价跌至冲突前水平附近",
+        "assets": "📉 原油 承压；📈 航空股 利好",
+        "chain": "供应增加压低油价，降低通胀预期（物价上涨压力），利好消费",
+        "watch": "OPEC+下次会议及美国原油库存数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Markets After the Oil Shock - Robin J Brooks | Substack",
       "source": "Robin J Brooks | Substack",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "油价冲击后市场分析后续影响",
-        "assets": "📉 能源股 承压\n📈 消费股 利好",
-        "chain": "油价回落→通胀预期降温（物价上涨压力减小）→消费者支出恢复→零售、餐饮受益",
-        "watch": "全球PMI（采购经理人指数）制造业数据是否企稳"
+        "what": "石油冲击后市场分析供需再平衡路径",
+        "assets": "📉 能源股 承压；📈 制造业 利好",
+        "chain": "油价回落缓解成本压力，企业利润率（赚钱效率）有望修复",
+        "watch": "全球PMI（采购经理人指数）及炼厂开工率"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "‘Insane’ cost of average 4th of July BBQ surges 31% to bearly $300 in NYC - New York Post",
       "source": "New York Post",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "纽约独立日烧烤成本飙升31%至近300美元",
-        "assets": "📈 通胀预期 利好\n📉 消费股 承压",
-        "chain": "食品成本上涨→CPI（消费者物价指数）上行压力→美联储维持紧缩（不降息）→可选消费（非必需消费）受挤压",
-        "watch": "7月CPI数据及消费者信心指数"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "From Macron to Modi, governments are rolling out the red carpet for AI giants",
-      "source": "CNBC",
-      "detail": "Macron and Modi are courting tech CEOs as France and India seek AI data center investment and cloud infrastructure.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "多国政府积极吸引AI巨头投资",
-        "assets": "📈 AI板块 利好\n📈 科技股 利好",
-        "chain": "政策扶持（税收减免、补贴）→AI企业扩张→产业链带动芯片、数据中心需求增长",
-        "watch": "各国AI监管法案进展及企业资本开支计划"
+        "what": "纽约7月4日烧烤成本飙升31%至近300美元",
+        "assets": "📉 美国消费股 承压；📉 美元 承压",
+        "chain": "通胀（物价上涨）侵蚀购买力，消费者信心下降，经济放缓预期升温",
+        "watch": "美国6月CPI及零售销售数据"
       }
     }
   ]
