@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 21:35",
+  "updateTime": "2026-07-06 21:41",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普将自身总统任期与股市表现挂钩",
-        "assets": "📈 美股整体 利好",
-        "chain": "强化政策（如减税、放松监管）预期，但若股市回调则可能引发政策急转弯风险",
-        "watch": "特朗普民调支持率与标普500指数相关性"
+        "what": "特朗普宣称股市上涨归功于他",
+        "assets": "📈 美股大盘 利好；📈 特朗普概念股 利好",
+        "chain": "强化Trump trade（押注特朗普政策受益资产），短期提振风险偏好（投资者愿意冒险），但若数据不符则回调风险加大",
+        "watch": "标普500实际走势 vs 特朗普民调支持率"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "检方为百亿美元欺诈案嫌犯寻求减刑，部分理由保密",
-        "assets": "📉 司法系统公信力 承压",
-        "chain": "监管（SEC等）执法力度可能受质疑，短期影响金融股风险偏好",
-        "watch": "SEC后续是否加强内幕交易/欺诈调查"
+        "what": "美国检方要求对诈骗犯减刑，部分原因保密",
+        "assets": "📉 司法透明度相关ETF 利空；📉 市场信心 承压",
+        "chain": "引发对监管公正性质疑，增加金融股合规成本预期（公司需更多投入防欺诈）",
+        "watch": "案件后续判决及SEC（美国证监会）表态"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 40,
       "insight": {
         "what": "Brookfield支持的Csquare赴美IPO，目标估值41.8亿美元",
-        "assets": "📈 中概股/REITs（房地产投资信托） 利好",
-        "chain": "显示外资对中资资产兴趣回升，提振同类型公司上市信心",
-        "watch": "Csquare首日涨幅及后续融资规模"
+        "assets": "📈 美股IPO板块 利好；📈 房地产科技股 利好",
+        "chain": "反映私募退出意愿强，可能带动更多地产科技公司上市，增加供给压力（股票供应增多）",
+        "watch": "Csquare首日涨幅及后续财报"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SK海力士在美IPO发行1779万股普通股",
-        "assets": "📈 美股半导体板块 利好",
-        "chain": "增加半导体供给预期，短期压制存储芯片价格，但强化AI硬件叙事",
-        "watch": "IPO定价及后续产能扩张计划"
+        "what": "SK Hynix将在美IPO，发行1779万股",
+        "assets": "📈 美股半导体板块 利好；📉 现有半导体股 承压",
+        "chain": "增加芯片股供给（稀释现有股份价值），但显示行业融资需求旺盛，资金可能从其他半导体股流出",
+        "watch": "IPO定价及认购倍数"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "微软和领英报告AI未来工作趋势，强调单一关键技能",
-        "assets": "📈 AI教育/培训股 利好",
-        "chain": "企业AI培训预算增加，利好CRM（客户管理软件）、HR（人力资源）科技股",
-        "watch": "微软AI助手Copilot企业订阅增长率"
+        "what": "微软和领英分析未来工作，AI技能成关键",
+        "assets": "📈 AI概念股 利好；📈 教育科技股 利好",
+        "chain": "强化AI投资逻辑（人工智能需要大量资金），利好AI培训公司，但可能加速低技能岗位自动化（机器人替代人力）",
+        "watch": "微软AI产品付费用户数"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使获制裁豁免也难以清空原油库存",
-        "assets": "📉 原油价格 承压",
-        "chain": "暗示全球油运（VLCC，超大型油轮）需求疲软，地缘溢价（战争风险溢价）消退",
-        "watch": "伊朗原油出口量及OPEC+（石油输出国组织及其盟友）减产执行率"
+        "what": "伊朗即使制裁解除也难清理石油库存",
+        "assets": "📉 原油 承压；📈 航运股 利好",
+        "chain": "暗示伊朗石油出口恢复慢于预期，短期支撑油价，但长期若制裁解除仍有抛售风险（库存释放压低价格）",
+        "watch": "伊朗原油出口量及制裁谈判进展"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "华尔街维持牛市共识，标普最高看8250点",
-        "assets": "📈 美股科技股/半导体 利好",
-        "chain": "强化AI泡沫（估值过高）叙事，资金从防御板块（如公用事业）轮动至成长股",
-        "watch": "标普500市盈率（股价/每股盈利）是否突破25倍"
+        "what": "华尔街维持牛市共识，下半年看多AI及美股至8250点",
+        "assets": "📈 美股科技股 利好；📈 AI概念股 利好",
+        "chain": "强化市场乐观情绪，资金继续流入AI龙头（如英伟达），但高目标可能引发获利回吐（卖盘压力）",
+        "watch": "标普500能否突破前高及AI股财报"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "标普500和纳斯达克期货上涨，芯片股领涨",
-        "assets": "📈 美股芯片股 利好",
-        "chain": "风险偏好（Risk-on，追逐高风险资产）回升，短期压制美债价格（收益率上升）",
-        "watch": "费城半导体指数（SOX）能否突破前高"
+        "what": "美股期货上涨，芯片股领涨上周强势行情",
+        "assets": "📈 美股芯片股 利好；📈 纳斯达克100 利好",
+        "chain": "延续AI驱动的资金轮动（从防御股转向成长股），但需警惕超买（涨太多）后技术性回调",
+        "watch": "费城半导体指数（SOX）走势"
       }
     },
     {
@@ -121,24 +121,24 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "投资者因买入特朗普相关股票和加密货币亏光本金",
-        "assets": "📉 特朗普概念股/加密货币 承压",
-        "chain": "散户恐慌情绪蔓延，可能引发对政治概念股的监管审查（SEC调查）",
-        "watch": "DJT（特朗普媒体科技集团）空头持仓比例"
+        "what": "投资者因买特朗普股票和加密货币损失惨重",
+        "assets": "📉 特朗普概念股 利空；📉 加密货币 承压",
+        "chain": "打击散户信心，引发对政治关联资产的风险厌恶（投资者避开政治敏感标的），可能加速资金流向指数ETF",
+        "watch": "特朗普媒体科技集团（DJT）股价及币安流量"
       }
     },
     {
       "rank": 10,
-      "title": "Stocks making the biggest moves premarket: Lam Research, Intel, Datadog & more",
+      "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
       "source": "CNBC",
-      "detail": "These are the stocks posting the largest moves premarket.",
+      "detail": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv.",
       "lang": "en",
-      "score": 27,
+      "score": 25,
       "insight": {
-        "what": "盘前异动：Lam Research、英特尔、Datadog等",
-        "assets": "📈 美股半导体/云计算 利好",
-        "chain": "Lam Research（刻蚀设备龙头）带动设备股，Datadog（监控软件）暗示云需求回暖",
-        "watch": "Lam Research财报指引及英特尔代工订单"
+        "what": "特朗普电话、乌克兰袭击、俄罗斯轰炸基辅，市场警戒",
+        "assets": "📉 欧洲股指 承压；📈 黄金 利好；📈 原油 利好",
+        "chain": "地缘风险升级（战争不确定性增加），触发避险情绪（投资者买入安全资产），能源供应中断担忧推高油价",
+        "watch": "基辅轰炸伤亡人数及俄方回应"
       }
     }
   ]
