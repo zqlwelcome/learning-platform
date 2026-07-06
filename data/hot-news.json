@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 13:06",
+  "updateTime": "2026-07-06 13:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "服务业PMI和消费巨头财报将发布，SK海力士IPO成焦点",
-        "assets": "📈 美股大盘 中性偏多，📈 SK海力士 利好",
-        "chain": "PMI数据若强会强化通胀预期（物价上涨），压制降息预期；消费财报验证需求",
-        "watch": "周三服务业PMI初值及消费股财报"
+        "what": "美股平静周，PMI和消费财报接棒，SK海力士IPO受关注",
+        "assets": "📈 美股大盘 中性偏多；📈 SK海力士 利好",
+        "chain": "PMI（采购经理人指数）若超预期，强化软着陆（经济温和放缓）叙事，利好风险资产（股票等），利空避险资产（国债等）",
+        "watch": "服务业PMI初值及消费巨头财报指引"
       }
     },
     {
@@ -31,10 +31,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美银警告股市将‘回撤’，称投机过度",
-        "assets": "📉 美股大盘 承压",
-        "chain": "投机极端（杠杆过高）触发获利了结，可能引发VIX（恐慌指数）飙升和资金流出",
-        "watch": "标普500是否跌破关键支撑位"
+        "what": "美银警告美股将回调，称投机水平极端，年内涨幅或回吐",
+        "assets": "📉 美股大盘 承压；📉 科技成长股 利空",
+        "chain": "极端投机（高杠杆追涨）触发获利了结，卖压传导至期权市场（衍生品合约），加剧波动率（价格波动幅度）上升",
+        "watch": "VIX（恐慌指数）是否突破20；资金流向数据"
       }
     },
     {
@@ -45,70 +45,84 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "光大期货称黄金短期止跌，关注美联储会议纪要",
-        "assets": "📈 黄金 短期中性偏多",
-        "chain": "纪要若偏鸽（暗示不急于加息）将巩固黄金反弹，偏鹰则打压",
-        "watch": "会议纪要中对通胀和就业的评估"
+        "what": "短期黄金止跌回稳，本周关注美联储会议纪要",
+        "assets": "📈 黄金 中性偏多；📉 美元 承压",
+        "chain": "纪要若偏鸽（支持宽松），实际利率下行，黄金反弹延续；若偏鹰（支持紧缩），黄金重拾跌势",
+        "watch": "美联储会议纪要中关于通胀和利率路径的表述"
       }
     },
     {
       "rank": 5,
+      "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
+      "source": "CNBC",
+      "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "伊朗即使获制裁豁免，也难以清空石油库存",
+        "assets": "📉 原油 利好（供给受限）；📉 伊朗原油出口 承压",
+        "chain": "物流和保险瓶颈限制伊朗出口增量，全球油市供给偏紧，支撑油价，但OPEC+（石油输出国组织及盟友）增产空间受限",
+        "watch": "伊朗原油出口量及油轮跟踪数据"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架延迟至2028年生产",
-        "assets": "📉 英伟达 承压，📈 AMD/其他AI芯片 利好",
-        "chain": "供应瓶颈（产能不足）加剧AI算力紧张，利好竞争对手抢占份额，但整体AI投资可能放缓",
-        "watch": "英伟达是否下调业绩指引"
+        "what": "英伟达下一代AI机架系统因制造问题延迟至2028年",
+        "assets": "📉 英伟达 利空；📈 AMD等竞争对手 利好",
+        "chain": "AI算力（人工智能计算能力）供给瓶颈延长，云厂商资本开支转向替代芯片，半导体供应链（芯片制造产业链）面临重新洗牌",
+        "watch": "英伟达官方指引及客户订单调整公告"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛看跌日元，看多美元，称AI和能源供应短缺支撑美元",
-        "assets": "📈 美元 利好，📉 日元 承压",
-        "chain": "日元贬值（货币价值下降）加剧进口成本，美元走强压制新兴市场和大宗商品",
-        "watch": "日本央行是否干预汇市"
+        "what": "高盛看空日元，认为AI和能源供应短缺支撑美元",
+        "assets": "📉 日元 承压；📈 美元 利好",
+        "chain": "日本央行维持宽松（低利率政策），利差（美日国债收益率之差）扩大，套息交易（借低息货币买高息资产）持续压日元",
+        "watch": "美日10年期国债利差及日本央行7月会议"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "光大期货0706黄金点评：短期黄金止跌回稳，本周关注美联储会议纪要",
       "source": "市场资讯",
       "detail": "上周黄金先抑后扬，非农就业数据“爆冷”后，加息预期降温，短线黄金止跌回稳，伦敦现货黄金周涨幅超2%，沪金主力合约小幅上涨。本周关注周四美联储会议纪要发布...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "投资者缩减美联储加息押注，金价走高",
-        "assets": "📈 黄金 利好",
-        "chain": "加息预期降温（借钱成本预期降低）削弱美元，实际利率（扣除通胀的利率）下行利好黄金",
-        "watch": "本周美联储会议纪要措辞"
+        "what": "美联储加息押注缩减，金价走高并持稳近两周高位",
+        "assets": "📈 黄金 利好；📉 美元指数 承压",
+        "chain": "降息预期（借钱成本降低）升温，实际利率（名义利率减通胀）下行，黄金作为零息资产吸引力上升",
+        "watch": "本周美联储会议纪要措辞及点阵图（利率预测图）"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Samsung likely to post 18-fold jump in profit on surging AI demand for memory - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星利润预计暴增18倍，AI内存需求旺盛",
-        "assets": "📈 三星/存储芯片 利好，📈 AI产业链 利好",
-        "chain": "HBM（高带宽内存）需求爆发带动存储涨价，验证AI资本开支（企业投资）上行周期",
-        "watch": "三星正式财报及HBM出货量"
+        "what": "三星AI内存需求激增，预计利润飙升18倍",
+        "assets": "📈 三星电子 利好；📈 存储芯片板块 利好",
+        "chain": "HBM（高带宽内存）供不应求，带动DRAM（动态随机存取存储器）涨价，确认AI硬件需求周期上行",
+        "watch": "三星Q2财报中HBM出货量及毛利率"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
@@ -116,23 +130,9 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 预测市场平台（如Polymarket） 利好",
-        "chain": "赛事热度催生投机情绪，可能溢出到其他事件合约（如美国大选）",
-        "watch": "预测市场总锁仓量变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "东莞银行IPO闯关：本土底盘仍在，业绩两连降",
-      "source": "市场资讯",
-      "detail": "文/每日财报 张恒  近日，东莞银行在深交所官网更新了IPO招股说明书，财务数据补到了2025年末。这是该行自2008年首次递交A股IPO材料以来，更新的第8版招股书。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "东莞银行IPO推进，但业绩连续下滑",
-        "assets": "📉 银行板块 承压，📈 区域性银行 中性",
-        "chain": "业绩下滑反映本地经济疲软（中小企业贷款需求弱），可能拉低银行板块估值",
-        "watch": "IPO定价及首日表现"
+        "assets": "📈 预测市场平台（如Polymarket） 利好；📈 体育博彩板块 利好",
+        "chain": "事件驱动（体育赛事）的投机需求爆发，链上交易量（区块链交易记录）激增，吸引更多用户和流动性进入去中心化预测市场",
+        "watch": "后续大型赛事（如奥运会）的预测市场交易量"
       }
     }
   ]
