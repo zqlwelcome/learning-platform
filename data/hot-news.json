@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 18:01",
+  "updateTime": "2026-07-06 18:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "联泰科技港股IPO，创始人内斗出走，毛利率低净利率不足0.5%",
-        "assets": "📉 联泰科技 利空；📉 港股新股市场 承压",
-        "chain": "公司治理风险暴露，投资者对家族企业IPO信心下降，可能压低同类新股估值（市盈率）",
-        "watch": "IPO首日破发幅度及后续创始人新公司进展"
+        "what": "联泰科技港股IPO，创始人内斗出走，毛利率低",
+        "assets": "📉 港股新股 利空",
+        "chain": "创始人出走+低毛利=治理风险（公司管理风险），影响港股小盘股估值",
+        "watch": "IPO认购倍数及首日涨跌幅"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储寻求降低新泽西1亿美元欺诈案刑期，部分原因保密",
-        "assets": "📉 美元 承压；📈 黄金 利好",
-        "chain": "司法宽松信号削弱市场对监管严格性预期，可能推升风险偏好，利空避险资产",
-        "watch": "美联储官员后续讲话及案件具体细节披露"
+        "what": "美联储寻求降低对1亿美元欺诈犯的刑期，原因部分隐藏",
+        "assets": "📉 美元 利空",
+        "chain": "隐藏原因可能涉政治压力=削弱美联储独立性（独立决策能力），利空美元",
+        "watch": "美联储官员讲话及司法部后续声明"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美银警告股市将‘回撤’，年内涨幅或回吐，投机已达极端",
-        "assets": "📉 美股大盘（标普500） 利空；📉 科技成长股 承压",
-        "chain": "投机极端触发获利了结（卖出），资金可能轮动至防御板块（如公用事业），波动率（VIX恐慌指数）上升",
-        "watch": "标普500日成交量和VIX指数变化"
+        "what": "美银警告股市将‘回撤’，今年涨幅或大部回吐",
+        "assets": "📉 美股大盘 利空",
+        "chain": "投机极端水平（过度炒作）=获利了结（卖出盈利资产）+波动率（价格波动幅度）飙升",
+        "watch": "标普500技术支撑位及VIX（恐慌指数）走势"
       }
     },
     {
@@ -52,37 +52,37 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空；📈 AMD 利好；📉 半导体设备股 承压",
-        "chain": "AI硬件迭代放缓，数据中心资本开支（CapEx）预期下调，但竞争对手AMD或抢占份额",
-        "watch": "英伟达官方指引及竞争对手订单数据"
+        "assets": "📉 英伟达 利空；📉 AI芯片板块 利空",
+        "chain": "供应延迟（生产受阻）=AI资本开支预期下调（企业投资减少）=拖累科技股",
+        "watch": "英伟达财报及台积电制造进展"
       }
     },
     {
       "rank": 5,
-      "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
-      "source": "CNBC",
-      "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "伊朗即使制裁解除，也难以清空石油库存",
-        "assets": "📉 原油 承压；📈 美国页岩油 利好",
-        "chain": "伊朗库存积压压制油价，但出口物流瓶颈（油轮、保险）限制实际供应释放，利好替代供应方",
-        "watch": "伊朗原油出口量和OPEC+产量政策"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛：日元将延续历史性贬值，AI和能源供应紧缩支撑美元",
-        "assets": "📉 日元 承压；📈 美元 利好；📈 美元/日元 上行",
-        "chain": "AI硬件需求推高美元（资本回流），能源短缺强化美元避险属性，日元利差（利率差）交易持续",
-        "watch": "日本央行利率决议及美国就业数据"
+        "what": "高盛看跌日元，看涨美元因AI和能源供应紧张",
+        "assets": "📉 日元 承压；📈 美元 利好",
+        "chain": "AI能源需求（耗电增长）+供应短缺（产能不足）=推高通胀（物价上涨）=支撑美元",
+        "watch": "日本央行利率决议及美国CPI（消费者物价指数）数据"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
+      "source": "CNBC",
+      "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "即使制裁解除，伊朗也难以清空石油库存",
+        "assets": "📈 油价 利好",
+        "chain": "伊朗出口受限（运输/保险障碍）=全球石油供应偏紧（供给不足）=支撑原油价格",
+        "watch": "伊朗石油出口量及制裁谈判进展"
       }
     },
     {
@@ -94,9 +94,9 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空；📈 AMD 利好；📉 半导体设备股 承压",
-        "chain": "AI硬件迭代放缓，数据中心资本开支（CapEx）预期下调，但竞争对手AMD或抢占份额",
-        "watch": "英伟达官方指引及竞争对手订单数据"
+        "assets": "📉 英伟达 利空；📉 AI芯片板块 利空",
+        "chain": "供应延迟=AI算力预期下调（计算能力）=利空云端服务商",
+        "watch": "英伟达管理层指引及替代供应商动态"
       }
     },
     {
@@ -109,8 +109,8 @@
       "insight": {
         "what": "易捷航空被凯斯莱克以73亿美元收购，股价暴涨10%",
         "assets": "📈 易捷航空 利好；📈 欧洲航空板块 利好",
-        "chain": "收购溢价提振航空股估值，可能引发行业整合预期，但需关注反垄断审查（竞争监管）风险",
-        "watch": "收购完成概率及竞争对手并购传闻"
+        "chain": "并购溢价（收购价高于市价）=板块估值重估（价值再评估）=引发其他航空股跟涨",
+        "watch": "收购完成率及监管审批进展"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "港股互联网ETF基金经理称AI逻辑正在修复，低估值连阳",
-        "assets": "📈 港股互联网板块 利好；📈 恒生科技指数 利好",
-        "chain": "AI应用落地预期（WorkBuddy）修复盈利逻辑，叠加低估值（市盈率），吸引资金从防御板块轮动至成长",
-        "watch": "港股互联网公司财报及AI产品用户增长数据"
+        "what": "基金经理称WorkBuddy修复互联网AI逻辑，港股互联网ETF低估值三连阳",
+        "assets": "📈 港股互联网 利好；📈 中概AI概念 利好",
+        "chain": "AI逻辑修复（技术应用前景）=资金流入（资本追捧）=推动板块估值修复",
+        "watch": "WorkBuddy产品用户数据及腾讯阿里财报"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克期货延续涨势，上周强势后走高",
-        "assets": "📈 美股大盘 利好；📈 科技股 利好",
-        "chain": "期货上涨强化多头情绪，资金可能追涨，但需警惕超买（RSI相对强弱指标）后技术性回调",
-        "watch": "开盘后成交量及VIX是否同步下降"
+        "what": "标普500和纳斯达克期货延续涨势，上周强势",
+        "assets": "📈 美股大盘 利好",
+        "chain": "期货上涨=多头情绪延续（看涨情绪）=科技股领涨概率大",
+        "watch": "本周FOMC（美联储会议）纪要及科技股财报"
       }
     }
   ]
