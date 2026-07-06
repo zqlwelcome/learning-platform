@@ -1,144 +1,132 @@
 {
-  "updateTime": "2026-07-06 17:01",
+  "updateTime": "2026-07-06 17:11",
   "news": [
     {
       "rank": 1,
+      "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 37
+    },
+    {
+      "rank": 2,
+      "title": "Gold holds near two-week high on easing Fed rate-hike bets",
+      "source": "CNBC",
+      "detail": "Gold was steady near a two-week high on Monday after a softer-than-expected U.S. jobs report last week tempered expectations of interest rate hikes from the Federal Reserve.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "黄金持稳两周高位，因美联储降息预期升温",
+        "assets": "📈 黄金 利好",
+        "chain": "降息预期（借钱成本降低）→美元走弱→黄金作为替代资产需求增加",
+        "watch": "美联储6月议息会议点阵图"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达下一代AI机架系统因制造问题延迟至2028年",
+        "assets": "📉 英伟达 承压；📈 竞争对手AMD 利好",
+        "chain": "AI算力供给延迟→科技股盈利预期下调→拖累纳斯达克指数",
+        "watch": "英伟达官方是否确认延迟及新时间表"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
+      "source": "CNBC",
+      "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "高盛看空日元，看多美元因AI和能源供应短缺",
+        "assets": "📉 日元 承压；📈 美元 利好",
+        "chain": "日元贬值→日本出口企业盈利受压→套利交易（借低息日元买高息资产）活跃",
+        "watch": "日本央行是否干预汇市"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
+      "source": "CNBC",
+      "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "伊朗即使获得制裁豁免也难以清空原油库存",
+        "assets": "📉 原油 承压",
+        "chain": "伊朗库存积压→OPEC+减产协议执行难度加大→油价面临下行风险",
+        "watch": "伊朗原油出口量数据"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
+      "source": "CNBC",
+      "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
+      "lang": "en",
+      "score": 32
+    },
+    {
+      "rank": 7,
       "title": "易捷航空同意73亿美元被凯斯莱克收购，股价暴涨10%",
       "source": "环球市场播报",
       "detail": "核心要点 易捷航空股价周一创下 52 周新高。 这家廉价航空上周日原则上同意美国私募机构凯斯莱克提出的上调后收购要约。2024 年 5 月 3 日周五...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "易捷航空被凯斯莱克73亿美元收购，股价涨10%",
-        "assets": "📈 易捷航空 利好",
-        "chain": "收购溢价（买方出价高于市价）提振航空板块情绪，可能触发其他航司并购预期",
-        "watch": "收购监管审批进展及竞购方动态"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "乘全球人工智能浪潮 韩芯片巨头SK海力士启动280亿美元赴美上市进程",
-      "source": "环球市场播报",
-      "detail": "SK海力士（SK Hynix）周一正式宣布启动赴美发行存托凭证（DR）的招股流程，拟募资43万亿韩元（约合280.7亿美元）。此举旨在乘全球人工智能（AI）爆发式增长之势...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "SK海力士启动280亿美元赴美上市进程",
-        "assets": "📈 美股半导体 利好 📉 韩国股市 承压",
-        "chain": "AI芯片需求（算力芯片）驱动资本流动，美国市场吸走韩股流动性（资金外流）",
-        "watch": "SEC（美国证监会）审核进度及IPO定价"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "午后拉升！601101尾盘封涨停",
-      "source": "证券时报",
-      "detail": "7月6日，A股整体走势偏弱，沪指探底回升，盘中一度翻红，创业板指走势疲弱；港股震荡上扬，两大股指均涨约1%。 具体来看，沪指早盘探底回升...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "601101尾盘封涨停，午后拉升",
-        "assets": "📈 A股煤炭板块 利好",
-        "chain": "游资（短期投机资金）拉抬个股，可能带动能源板块跟风（板块轮动）",
-        "watch": "次日开盘成交量及板块资金流向"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "联合国秘书长警示：人工智能发展速度已远超监管规则的更新节奏",
-      "source": "环球市场播报",
-      "detail": "联合国秘书长于周一发出警示，人工智能的发展速度已经快到令人难以跟上，他呼吁全球出台统一协调的监管规则，以此降低人工智能带来的潜在风险...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "联合国秘书长警示AI发展远超监管节奏",
-        "assets": "📉 AI概念股 承压",
-        "chain": "监管不确定性（政策风险）增加，短期压制科技股估值（PE倍数）",
-        "watch": "各国AI立法提案及国际会议声明"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "英伟达新一代 AI 机柜系统推迟至2028年推出",
-      "source": "环球市场播报",
-      "detail": "核心要点 行业机构 SemiAnalysis 称，核心电路板制造难度过大，Kyber NVL144 机柜系统发布时间延后至 2028 年。 本次产品延期加剧市场担忧：英伟达每年高速迭代新品的节奏...",
-      "lang": "zh",
-      "score": 15,
-      "insight": {
-        "what": "英伟达新一代AI机柜系统推迟至2028年",
-        "assets": "📉 英伟达 利空 📈 竞争对手AMD 利好",
-        "chain": "产品周期延迟（交付时间拉长）削弱市场增长预期，利好替代品（算力芯片竞品）",
-        "watch": "英伟达财报指引及客户订单调整"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "港股收评：恒指涨1.14% 科指涨0.94% 科网股普涨 光通信、PCB板块集体大跌 快手涨超7%",
-      "source": "新浪港股",
-      "detail": "7月6日消息，港股三大指数集体上涨。截至收盘，恒生指数涨1.14%，报23616.32，恒生科技指数涨0.94%，国企指数涨1.46%。盘面上，科网股普涨，快手涨超7%，美团...",
-      "lang": "zh",
-      "score": 15,
-      "insight": {
-        "what": "港股恒指涨1.14%，科指涨0.94%，快手涨超7%",
-        "assets": "📈 港股科网股 利好 📉 光通信PCB板块 承压",
-        "chain": "科网股普涨（科技板块反弹）掩盖板块分化，资金从硬件（PCB光通信）流向软件（平台公司）",
-        "watch": "恒指能否突破关键阻力位及南向资金（内地资金）净流入"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "受地缘局势趋缓与市场需求复苏影响 欧佩克+宣布8月份增产原油日均18.8万桶",
-      "source": "环球市场播报",
-      "detail": "石油输出国组织（欧佩克）与非欧佩克产油国（欧佩克+）机制下主要成员国最新达成协议，鉴于美伊冲突爆发后引发的国际能源供应链堵塞呈现缓和迹象...",
-      "lang": "zh",
-      "score": 12,
-      "insight": {
-        "what": "欧佩克+8月增产原油日均18.8万桶",
-        "assets": "📉 原油 承压",
-        "chain": "供应增加（产量提升）压低油价，利好炼油厂（成本降低）但利空产油国财政（收入减少）",
-        "watch": "OPEC月度产量数据及美国EIA（能源信息署）库存报告"
+        "what": "美银警告股市将剧烈回调，回吐年内涨幅",
+        "assets": "📉 标普500 承压",
+        "chain": "投机情绪极端→资金从风险资产撤出→避险资产（美债、黄金）受益",
+        "watch": "标普500 5000点支撑位是否破"
       }
     },
     {
       "rank": 8,
-      "title": "油价回落 海湾国家产能重启 机构：各国短期内不会大规模采购原油",
-      "source": "环球市场播报",
-      "detail": "油价已回落至战前水平，霍尔木兹海峡油轮航运快速复苏，海湾产油国也已重启闲置油田。 但有一件事需要漫长得多的时间才能完成——补足全球石油库存。 补库速度至关重要。",
-      "lang": "zh",
-      "score": 12,
+      "title": "The World Cup sends prediction market volumes soaring to record highs",
+      "source": "CNBC",
+      "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
+      "lang": "en",
+      "score": 30,
       "insight": {
-        "what": "油价回落，海湾国家产能重启，机构称采购意愿低",
-        "assets": "📉 原油 承压 📉 能源股 利空",
-        "chain": "需求疲软（采购量低）叠加供应恢复，油价下行压力传导至通胀预期（物价上涨放缓）",
-        "watch": "全球PMI（采购经理指数）及原油期货持仓变化"
+        "what": "易捷航空被凯斯莱克以73亿美元收购，股价暴涨",
+        "assets": "📈 易捷航空 利好；📈 欧洲航空板块 利好",
+        "chain": "并购溢价（收购价高于市价）→提振航空板块估值→引发行业整合预期",
+        "watch": "其他欧洲航司是否出现并购传闻"
       }
     },
     {
       "rank": 9,
-      "title": "长安期货胡心阁：供应宽松与政策天气博弈，油脂压力仍存但底部或有支撑",
-      "source": "市场资讯",
-      "detail": "行情回顾 6月国内三大油脂整体以震荡偏弱为主，主要受到美伊签署和平协议原油暴跌、美豆新作扩种预期、南美丰产及国内油脂持续累库的压制影响。",
-      "lang": "zh",
-      "score": 12,
+      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
       "insight": {
-        "what": "长安期货：油脂供应宽松与政策博弈，底部有支撑",
-        "assets": "📉 油脂期货 承压 📈 豆粕 利好",
-        "chain": "供应过剩（库存高企）压制价格，但政策天气（关税或气候）提供底部支撑（下行有限）",
-        "watch": "美国农业部月度供需报告及中国进口政策"
+        "what": "世界杯推动预测市场交易量创历史新高",
+        "assets": "📈 预测市场平台 利好",
+        "chain": "赛事热度→投机资金涌入→平台用户增长及收入提升",
+        "watch": "预测市场平台代币价格或上市计划"
       }
     },
     {
       "rank": 10,
-      "title": "韩国股市收低 SK海力士启动美国上市前股价下跌",
-      "source": "环球市场播报",
-      "detail": "韩国股市周一收低，芯片制造商SK海力士启动美国上市计划前股价下跌。 韩国综合股价指数收盘下跌37.01点，跌幅0.46%，报8051.33点。 SK海力士下跌3.38%。",
-      "lang": "zh",
-      "score": 12,
+      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
+      "source": "CNBC",
+      "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
+      "lang": "en",
+      "score": 27,
       "insight": {
-        "what": "韩国股市收低，SK海力士上市前股价下跌",
-        "assets": "📉 韩国综合指数 承压 📉 SK海力士 利空",
-        "chain": "赴美上市分流资金（IPO抽血效应），短期拖累韩股流动性（市场资金减少）",
-        "watch": "SK海力士上市定价及外资流向"
+        "what": "标普500和纳斯达克期货延续上周涨势",
+        "assets": "📈 标普500 利好；📈 纳斯达克 利好",
+        "chain": "期货上涨→情绪乐观→资金流入科技股等风险资产",
+        "watch": "本周美国CPI数据是否超预期"
       }
     }
   ]
