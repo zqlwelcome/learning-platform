@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 23:41",
+  "updateTime": "2026-07-06 23:45",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 54,
       "insight": {
-        "what": "AI股反弹，支撑美股，市场涨跌互现",
-        "assets": "📈 AI板块 利好，📉 防御性板块 承压",
-        "chain": "AI资金再流入，挤压其他板块流动性（资金轮动），短期市场分化加剧",
-        "watch": "AI板块成交量，是否突破前高"
+        "what": "AI股反弹带动大盘，但市场分化",
+        "assets": "📈 美股科技股 利好；📉 防御性板块（如公用事业）承压",
+        "chain": "AI反弹提振风险偏好（风险偏好），资金从债市流入股市（股债跷跷板）",
+        "watch": "本周科技巨头财报指引"
       }
     },
     {
@@ -23,98 +23,112 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SK海力士寻求美股IPO，筹资280亿美元",
-        "assets": "📈 半导体设备 利好，📈 美股IPO市场 活跃",
-        "chain": "巨额IPO吸走二级市场资金（抽水效应），但提振AI芯片产业链估值",
-        "watch": "IPO定价及首日涨幅，资金分流影响"
+        "what": "SK海力士拟赴美IPO融资280亿美元，押注AI需求",
+        "assets": "📈 半导体板块（如英伟达）利好；📉 内存竞争对手（如美光）承压",
+        "chain": "IPO抽血效应（资金从二级市场流向一级市场），可能压制短期科技股流动性",
+        "watch": "SK海力士IPO定价及AI芯片订单数据"
       }
     },
     {
       "rank": 3,
+      "title": "As oil exits the ‘danger zone,’ here’s what history suggests happens next for stocks - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "油价脱离危险区域，历史数据显示美股后续偏强",
+        "assets": "📈 美股整体 利好；📉 能源股 利空",
+        "chain": "油价回落降低通胀预期（通胀预期），缓解美联储加息压力（加息风险），利好利率敏感型资产",
+        "watch": "WTI原油是否跌破70美元/桶支撑位"
+      }
+    },
+    {
+      "rank": 4,
       "title": "深化半导体与AI基础设施布局 索尔斯蒂斯先进材料拟145亿美元收购元素解决方案",
       "source": "环球市场播报",
       "detail": "美国特殊化学品制造商索尔斯蒂斯先进材料（Solstice Advanced Materials）周一正式宣布，已与同业企业元素解决方案（Element Solutions）达成最终合并协议。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "索尔斯蒂斯拟145亿美元收购元素解决方案，布局半导体",
-        "assets": "📈 半导体材料 利好，📈 并购套利 机会",
-        "chain": "行业整合加速，利好上游材料股，可能引发其他并购案（行业整合预期）",
-        "watch": "监管审批进展，目标公司股价溢价"
+        "what": "索尔斯蒂斯材料拟145亿美元收购元素解决方案，加码半导体",
+        "assets": "📈 半导体材料（如光刻胶）利好；📉 被收购方股价溢价",
+        "chain": "行业整合加速（并购潮），提升龙头议价权，供应链集中度风险上升（供应链风险）",
+        "watch": "监管审批进展及收购溢价率"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "报道：美国财政部的一份报告草案对AI泡沫风险发出警告",
       "source": "环球市场播报",
       "detail": "NOTUS援引其获得的文件报道称，美国财政部分析师起草的一份报告草案将警告人工智能带来的风险。 NOTUS报道称，分析师发现，人工智能市场下滑将对经济构成重大风险。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美财政部草案警告AI泡沫风险",
-        "assets": "📉 AI概念股 承压，📈 国债 避险",
-        "chain": "政策信号触发获利了结（卖出），资金转向避险资产，短期波动加大",
-        "watch": "后续官方声明，AI股资金流出量"
+        "what": "美国财政部报告草案警告AI泡沫风险",
+        "assets": "📉 美股AI概念股 利空；📈 防御性资产（如国债）利好",
+        "chain": "监管警告引发获利了结（获利回吐），资金从高估值科技股轮动至价值股（板块轮动）",
+        "watch": "后续报告正式版本措辞及市场反应"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SK海力士启动赴美上市推介 有望成为全球历史上规模前三大IPO",
       "source": "环球市场播报",
       "detail": " SK海力士周一正式启动赴美上市的推介程序。这家韩国芯片制造商希望借助投资者对炙手可热的存储芯片行业需求激增的契机，完成此次上市。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SK海力士赴美上市推介，或成史上第三大IPO",
-        "assets": "📈 美股IPO市场 利好，📈 韩国股市 资金外流",
-        "chain": "吸引全球资金赴美，韩国市场流动性承压（资金外流），利好美股科技板块",
-        "watch": "IPO认购倍数，韩国股市外资流向"
+        "what": "SK海力士启动赴美上市推介，或成史上前三大IPO",
+        "assets": "📈 美股半导体板块 利好；📉 韩国股市（如三星）承压",
+        "chain": "美国上市吸引全球资金，分流亚太半导体投资（资金外流），韩元可能走弱（汇率压力）",
+        "watch": "路演认购倍数及机构投资者反馈"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "These are the best stocks in the worst sectors for investors betting on a rotation, says Josh Brown",
       "source": "CNBC",
       "detail": "Josh Brown and Sean Russo take a look at three stocks that could benefit from a broader market rotation.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Josh Brown推荐行业轮动中表现最佳的股票",
-        "assets": "📈 能源、金融股 利好，📉 科技成长股 承压",
-        "chain": "资金从高估值科技转向价值板块（行业轮动），短期风格切换确认",
-        "watch": "罗素2000指数，10年期美债收益率"
+        "what": "Josh Brown推荐弱势板块中的强势个股",
+        "assets": "📈 金融、能源等周期股 利好；📉 科技股 相对承压",
+        "chain": "板块轮动（从成长到价值），资金从AI转向防御性周期股（防御性配置）",
+        "watch": "罗素2000指数（小盘股）相对纳指表现"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
       "source": "Forbes",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普概念股和加密投资者巨亏，声称破产",
-        "assets": "📉 特朗普概念股 利空，📉 加密货币 承压",
-        "chain": "散户情绪受挫（恐慌），可能引发相关资产抛售，监管风险上升",
-        "watch": "特朗普媒体科技股价，比特币支撑位"
+        "what": "特朗普概念股和加密货币投资者爆亏",
+        "assets": "📉 特朗普媒体（DJT）利空；📉 比特币等加密货币 利空",
+        "chain": "散户投机热情退潮（风险偏好下降），资金回流蓝筹股（避险情绪），可能引发连锁清算（清算风险）",
+        "watch": "DJT股价是否跌破上市首日低点"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Saudis Make Biggest Oil Price Cut in Decades as Market Weakens - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "沙特大幅下调油价，幅度为几十年最大",
-        "assets": "📉 原油 利空，📈 航空、运输股 利好",
-        "chain": "油价下跌降低通胀预期（成本下降），利好消费，但产油国财政承压",
-        "watch": "WTI原油价格，OPEC下次会议"
+        "what": "沙特大幅下调油价，创数十年最大降幅",
+        "assets": "📉 原油 利空；📈 航空、运输股 利好",
+        "chain": "OPEC+内部分歧加剧（减产联盟松动），油价下跌降低全球通胀（通胀压力），利好消费股",
+        "watch": "沙特阿美后续产量决策及OPEC+会议"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Tech Stocks’ Rebound Stalls, Dollar Edges Higher: Markets Wrap - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "国际财经动态，关注后续发展。",
@@ -122,23 +136,9 @@
       "score": 27,
       "insight": {
         "what": "科技股反弹停滞，美元小幅走高",
-        "assets": "📉 科技股 承压，📈 美元 走强",
-        "chain": "美元走强压制新兴市场（资金回流），科技股获利回吐，短期震荡",
-        "watch": "美元指数，科技板块资金流向"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
-      "source": "CNBC",
-      "detail": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv.",
-      "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "特朗普言论、乌克兰袭击和俄军轰炸基辅，市场紧张",
-        "assets": "📉 欧洲股市 承压，📈 黄金、原油 避险",
-        "chain": "地缘风险升温（不确定性），资金涌入避险资产，风险资产遭抛售",
-        "watch": "俄乌冲突进展，VIX指数"
+        "assets": "📉 美股科技股 承压；📈 美元指数 利好",
+        "chain": "美元走强压制新兴市场及大宗商品（美元定价），科技股回调引发避险需求（避险买盘）",
+        "watch": "美元指数能否突破105关口及科技股支撑位"
       }
     }
   ]
