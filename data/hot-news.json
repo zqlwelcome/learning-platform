@@ -1,144 +1,126 @@
 {
-  "updateTime": "2026-07-07 04:00",
+  "updateTime": "2026-07-07 04:06",
   "news": [
     {
       "rank": 1,
-      "title": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "SK海力士寻求280亿美元美国IPO，借助AI浪潮",
-        "assets": "📈 美股半导体 利好；📈 存储芯片 看涨",
-        "chain": "吸引资金追逐AI硬件，推高芯片股估值，加剧流动性竞争（资金从其他板块流出）",
-        "watch": "IPO定价及超额认购倍数"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
       "source": "AP News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普敲响纽交所开市钟，将总统任期与股市挂钩",
-        "assets": "📈 美股大盘 短期情绪利好",
-        "chain": "强化政策预期（减税/放松监管）对风险资产（股票）的支撑，但增加政治化风险",
-        "watch": "特朗普民调及政策落地进度"
+        "what": "摩根士丹利建议做空美联储加息预期",
+        "assets": "📉 美元指数 利空；📈 美债期货 利好",
+        "chain": "若加息预期消退（市场不再赌加息），短端利率（2年期国债收益率）将下行，利好科技股估值",
+        "watch": "本周五PCE通胀数据及美联储官员讲话"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Rebounding AI stocks send the S&P 500 within 1% of its record - AP News",
       "source": "AP News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "AI股反弹，标普500距历史高点仅差1%",
-        "assets": "📈 美股科技股 利好；📈 纳斯达克 看涨",
-        "chain": "AI板块引领风险偏好（Risk-on），资金从防御板块（公用事业）撤出，推高成长股溢价",
-        "watch": "英伟达等AI龙头股价及成交量"
+        "what": "博通领涨芯片股推动华尔街走高",
+        "assets": "📈 博通(AVGO) 利好；📈 费城半导体指数 利好",
+        "chain": "芯片需求回暖信号，带动上游设备商（应用材料）和下游硬件（服务器）",
+        "watch": "博通下季营收指引及北美云厂商资本开支计划"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "摩根士丹利建议押注美联储加息预期消退",
       "source": "环球市场播报",
       "detail": "摩根士丹利的利率策略师建议，随着美联储加息预期减弱，投资者应押注较短期限美国国债收益率相对于较长期限品种下行。 其结果将是美国国债收益率曲线趋陡...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "摩根士丹利建议押注美联储加息预期消退",
-        "assets": "📈 美债 利好；📉 美元 承压",
-        "chain": "降息预期（借钱成本降低）推动债券价格上涨，削弱美元吸引力，利好新兴市场（资金流入）",
-        "watch": "美联储官员讲话及CPI数据"
+        "what": "Trump将美股牛市与自身政绩绑定",
+        "assets": "📈 美股大盘 短期利好",
+        "chain": "强化'特朗普看跌期权'（市场预期政府会护盘），压制波动率（恐慌指数VIX）",
+        "watch": "特朗普民调 vs 经济数据背离度"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "硕腾遭证券欺诈诉讼，投资者7月27日前可申请主要原告",
       "source": "环球市场播报",
       "detail": " 动物保健公司硕腾（Zoetis Inc．，NYSE：ZTS）正面临证券欺诈集体诉讼，Schall Law Firm已向投资者发出通知。该诉讼已提交至美国纽约南区联邦地区法院。",
       "lang": "zh",
-      "score": 33,
-      "insight": {
-        "what": "硕腾因隐瞒核心产品风险遭证券欺诈集体诉讼",
-        "assets": "📉 硕腾股票 利空；📉 动物保健板块 承压",
-        "chain": "诉讼风险压低股价，可能引发投资者对医疗股信披（信息披露）的广泛审查",
-        "watch": "法院是否受理及索赔金额"
-      }
+      "score": 33
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Hub Group再因会计问题面临证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）再次因会计问题面临证券欺诈集体诉讼。此前，该公司因连续披露重大会计差错导致股价两次暴跌，累计跌幅超过30%...",
       "lang": "zh",
-      "score": 33,
-      "insight": {
-        "what": "Hub Group再因会计问题面临证券欺诈诉讼",
-        "assets": "📉 Hub Group股票 利空；📉 物流板块 承压",
-        "chain": "会计丑闻恶化，侵蚀市场信任，导致物流股估值折价（投资者要求更高风险溢价）",
-        "watch": "审计机构是否更换及SEC（美国证券交易委员会）调查进展"
-      }
+      "score": 33
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "动物保健巨头硕腾因隐瞒核心产品风险遭证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "动物保健公司硕腾（Zoetis Inc．，NYSE：ZTS）正面临证券欺诈集体诉讼，指控其在2025年1月14日至2026年5月6日期间，就旗下多款核心产品的市场表现和竞争地位误导投资者。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "硕腾遭证券欺诈诉讼，因隐瞒核心产品风险",
-        "assets": "📉 硕腾股票 利空；📉 动物保健ETF 承压",
-        "chain": "风险事件引发板块抛售，资金转向防御性更强的医疗设备股",
-        "watch": "硕腾产品收入及诉讼和解概率"
+        "what": "硕腾因隐瞒宠物药风险遭集体诉讼",
+        "assets": "📉 硕腾(ZTS) 利空",
+        "chain": "制药板块情绪承压，诉讼可能触发FDA（美国药监局）加强审查同类产品",
+        "watch": "7月27日主要原告截止日后的新增原告数量"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Hub Group因会计差错再遭证券欺诈诉讼",
       "source": "环球市场播报",
       "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）因连续披露重大会计差错，正面临多起证券欺诈集体诉讼。该公司此前已因此事股价两次暴跌，累计跌幅超过30%...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Hub Group因会计差错再遭证券欺诈诉讼",
-        "assets": "📉 Hub Group股票 利空；📉 运输指数 承压",
-        "chain": "重复诉讼加剧负面情绪，可能触发信用评级下调（发债成本上升）",
-        "watch": "Hub Group财报及债务评级变动"
+        "what": "Hub Group再因会计差错被诉",
+        "assets": "📉 Hub Group(HUBG) 利空",
+        "chain": "物流板块信任度下降，做空机构可能盯上其他运输公司财务披露（财报数据真实性）",
+        "watch": "审计机构是否更换及SEC（美国证监会）是否介入调查"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "ADMA Biologics因渠道压货指控遭证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "生物制药公司ADMA Biologics（NASDAQ：ADMA）正面临证券欺诈集体诉讼，起因是做空机构Culper Research于2026年3月24日发布的一份报告...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "ADMA Biologics因渠道压货指控遭证券欺诈诉讼",
-        "assets": "📉 ADMA股票 利空；📉 生物科技板块 承压",
-        "chain": "渠道压货指控暗示需求造假，引发对生物科技公司收入确认（记账方式）的质疑",
-        "watch": "ADMA应收账款及渠道库存数据"
+        "what": "ADMA Biologics被指控渠道压货",
+        "assets": "📉 ADMA(ADMA) 利空",
+        "chain": "生物科技板块承压，市场担忧其他公司用类似手段虚增营收（向经销商塞货）",
+        "watch": "公司应收账款周转天数及经销商库存数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Hub Group因会计差错面临证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）正面临证券欺诈集体诉讼。该公司因连续披露重大会计差错，导致股价两次暴跌，累计跌幅超过30%...",
       "lang": "zh",
-      "score": 33,
+      "score": 33
+    },
+    {
+      "rank": 10,
+      "title": "Wall Street climbs as Broadcom and other chipmakers rally - Reuters",
+      "source": "Reuters",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32,
       "insight": {
-        "what": "Hub Group因会计差错面临证券欺诈集体诉讼",
-        "assets": "📉 Hub Group股票 利空；📉 物流板块 承压",
-        "chain": "会计问题反复，投资者要求更高风险溢价（折现率上升），压低股价",
-        "watch": "内部交易记录及会计修正幅度"
+        "what": "AI芯片股反弹推动标普接近历史高点",
+        "assets": "📈 半导体ETF 利好；📈 纳斯达克100 利好",
+        "chain": "AI资本开支（企业买芯片建算力）预期再升温，带动云计算、数据中心需求",
+        "watch": "英伟达财报指引及台积电月度营收"
       }
     }
   ]
