@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 12:51",
+  "updateTime": "2026-07-06 12:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "美股平静周，通胀担忧下关注服务业PMI和消费财报",
-        "assets": "📈 美股大盘 中性",
-        "chain": "服务业PMI若超预期，强化通胀粘性，压制降息预期（借钱成本难降），利空成长股",
-        "watch": "服务业PMI及SK海力士IPO首日表现"
+        "what": "美股平静周，关注PMI、消费巨头财报及SK海力士IPO",
+        "assets": "📈 美股科技股 利好；📈 韩国半导体 利好",
+        "chain": "SK海力士IPO吸金（资金从其他板块流出），PMI数据若超预期则强化软着陆预期（经济温和降温），利好风险资产",
+        "watch": "美国7月服务业PMI初值及SK海力士首日涨幅"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美银警告股市将‘回撤’，年内涨幅或丢失，投机极端",
-        "assets": "📉 美股大盘 利空",
-        "chain": "投机极端触发获利了结，资金可能轮动至防御板块（如公用事业）或现金，波动率（恐慌指数VIX）将上行",
-        "watch": "VIX指数（恐慌指数）及资金流向数据"
+        "what": "三星利润预计暴增18倍，受AI内存需求激增推动",
+        "assets": "📈 三星电子 利好；📈 存储芯片 利好；📈 韩国KOSPI 利好",
+        "chain": "HBM（高带宽内存）供不应求（需求远超供应）推高利润，带动全球半导体景气度，利好相关设备及材料股",
+        "watch": "三星Q2财报实际利润及HBM出货量指引"
       }
     },
     {
@@ -37,108 +37,96 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "投资者缩减美联储加息押注，金价走高",
-        "assets": "📈 黄金 利好",
-        "chain": "加息预期降温，美元实际利率（名义利率减通胀）下行，黄金作为零息资产吸引力上升",
-        "watch": "美联储会议纪要措辞及美国通胀数据"
+        "what": "美银警告美股将‘回撤’，称投机过热",
+        "assets": "📉 美股大盘 承压；📉 科技成长股 承压",
+        "chain": "投机情绪极端触发获利了结（卖出盈利仓位），引发指数回调，避险资金流入美债（国债价格上升）",
+        "watch": "标普500波动率指数VIX是否突破20"
       }
     },
     {
       "rank": 4,
+      "title": "Gold holds near two-week high on easing Fed rate-hike bets",
+      "source": "CNBC",
+      "detail": "Gold was steady near a two-week high on Monday after a softer-than-expected U.S. jobs report last week tempered expectations of interest rate hikes from the Federal Reserve.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "世界杯推动预测市场交易量创历史新高",
+        "assets": "📈 预测市场平台 利好；📈 体育博彩股 利好",
+        "chain": "赛事热度吸引散户资金涌入（个人投资者增加），提升平台佣金收入（手续费），可能带动区块链预测合约需求",
+        "watch": "平台日活跃用户及投注总额增速"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架系统因制造问题延迟至2028年",
-        "assets": "📉 英伟达 利空",
-        "chain": "AI硬件交付延迟，拖累AI产业链（如服务器、数据中心）预期，利好竞争对手AMD或自研芯片的云巨头",
-        "watch": "英伟达官方回应及AMD财报指引"
+        "what": "英伟达下一代AI机架延迟至2028年，因制造问题",
+        "assets": "📉 英伟达 利空；📈 AMD 利好；📈 定制AI芯片 利好",
+        "chain": "英伟达市占率预期下降（份额被抢），客户转向AMD或自研芯片（定制化需求上升），拖累AI服务器供应链",
+        "watch": "英伟达官方确认及竞争对手订单变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛：日元继续历史性贬值，AI和能源供应短缺支撑美元",
-        "assets": "📉 日元 承压 📈 美元 利好",
-        "chain": "日元贬值加剧亚洲货币竞争性贬值（如韩元），美元强势压制新兴市场资产，能源股受益于供应紧张",
-        "watch": "日本央行汇率干预信号及美国能源库存数据"
+        "what": "高盛称这些被低估股票‘定位良好’将跑赢",
+        "assets": "📈 高盛推荐个股 利好；📈 价值股 利好",
+        "chain": "机构资金轮动（资金从高估值转向低估值），若财报验证则吸引跟风盘（追涨买入），防御性板块获青睐",
+        "watch": "推荐名单中个股的Q2财报及机构持仓变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "光大期货0706黄金点评：短期黄金止跌回稳，本周关注美联储会议纪要",
       "source": "市场资讯",
       "detail": "上周黄金先抑后扬，非农就业数据“爆冷”后，加息预期降温，短线黄金止跌回稳，伦敦现货黄金周涨幅超2%，沪金主力合约小幅上涨。本周关注周四美联储会议纪要发布...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "光大期货：短期黄金止跌回稳，关注美联储会议纪要",
-        "assets": "📈 黄金 中性偏多",
-        "chain": "纪要若偏鸽（暗示暂缓加息），金价突破阻力；若偏鹰（强调通胀风险），金价回踩支撑",
-        "watch": "美联储会议纪要中关于利率路径的表述"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Samsung likely to post 18-fold jump in profit on surging AI demand for memory - Reuters",
-      "source": "Reuters",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "三星利润或暴增18倍，AI内存需求飙升",
-        "assets": "📈 三星电子 利好 📈 存储芯片 利好",
-        "chain": "AI拉动HBM（高带宽内存）需求，带动DRAM（动态随机存取内存）涨价周期，利好整个半导体周期",
-        "watch": "三星Q2财报及HBM出货量指引"
+        "what": "美联储加息押注减少，金价走高至两周高位",
+        "assets": "📈 黄金 利好；📉 美元指数 承压",
+        "chain": "降息预期升温（借钱成本降低预期）削弱美元，实际利率下降（扣除通胀的利率走低）支撑金价，利好贵金属矿业股",
+        "watch": "本周美联储会议纪要措辞及点阵图（利率预测）"
       }
     },
     {
       "rank": 8,
+      "title": "Samsung likely to post 18-fold jump in profit on surging AI demand for memory - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30
+    },
+    {
+      "rank": 9,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 预测市场平台 利好",
-        "chain": "事件驱动投机情绪升温，可能分流部分资金从传统博彩转向预测平台，但规模较小，对主流资产影响有限",
-        "watch": "世界杯赛程及相关平台用户增长数据"
-      }
+      "score": 30
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估的‘定位良好’股票",
-        "assets": "📈 高盛推荐股票池 利好",
-        "chain": "机构研报催化个股轮动，资金可能从拥挤的AI主题转向价值股（如能源、金融），需警惕追高风险",
-        "watch": "高盛具体名单及这些个股的财报验证"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Oil Edges Lower on OPEC Increase, Dollar Steady: Markets Wrap - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "油价因OPEC增产和美元走稳小幅下跌",
-        "assets": "📉 原油 利空",
-        "chain": "OPEC增产缓解供应紧张，叠加美元坚挺压制大宗商品，但地缘风险（如中东）可能提供底部支撑",
-        "watch": "OPEC月度产量数据及美国原油库存变化"
+        "what": "高盛预计日元延续历史性贬值，AI和能源支撑美元",
+        "assets": "📉 日元 承压；📈 美元指数 利好；📈 美国能源股 利好",
+        "chain": "美日利差扩大（美国利率高，日本利率低）持续推低日元，AI投资和能源供给紧张（供应不足）吸引资本流入美国，利好美元",
+        "watch": "日本央行是否干预汇率及美国EIA原油库存数据"
       }
     }
   ]
