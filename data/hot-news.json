@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 03:00",
+  "updateTime": "2026-07-07 03:05",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SK海力士计划通过美国IPO融资280亿美元",
-        "assets": "📈 美股芯片股 利好；📈 韩股半导体 正面",
-        "chain": "AI资本开支（企业投钱搞AI）增加，带动存储芯片需求，利好整个半导体产业链（上下游公司）",
-        "watch": "IPO定价和认购倍数，以及AI芯片订单数据"
+        "what": "SK海力士启动280亿美元美股IPO，借AI浪潮扩张",
+        "assets": "📈 半导体板块 利好\n📈 美股IPO市场 活跃",
+        "chain": "AI需求推升存储芯片景气周期，利好英伟达等AI供应链（上下游企业），但可能分流资金（资金从其他板块流出）",
+        "watch": "IPO定价及认购倍数，后续AI芯片订单数据"
       }
     },
     {
@@ -23,14 +23,28 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普敲响纽交所开市钟，强调股市涨跌绑定其政绩",
-        "assets": "📈 美股大盘 短期情绪支撑；📉 特朗普媒体股 波动风险",
-        "chain": "政策不确定性（如关税）可能被市场过度解读为利好，但实际执行时若不及预期，会引发获利回吐（卖盘压力）",
-        "watch": "特朗普政策声明频率及民调变化"
+        "what": "特朗普敲响纽交所开市钟，将总统业绩与股市挂钩",
+        "assets": "📈 美股大盘 短期情绪提振\n📈 金融板块 政策利好预期",
+        "chain": "强化市场对减税及放松监管（减少企业限制）的预期，但增加政策不确定性风险（政策变动导致市场波动）",
+        "watch": "特朗普民调及政策声明，标普500指数波动率"
       }
     },
     {
       "rank": 3,
+      "title": "Micron Stock Investors Just Got Good News From Wall Street and Nvidia CEO Jensen Huang - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "美光获华尔街及黄仁勋看好，存储芯片需求强劲",
+        "assets": "📈 美光科技 利好\n📈 存储芯片板块 看涨",
+        "chain": "AI训练和推理（运算）驱动HBM（高带宽内存）需求，验证半导体景气上行，利好相关设备股",
+        "watch": "美光下一季财报及HBM出货量指引"
+      }
+    },
+    {
+      "rank": 4,
       "title": "摩根士丹利建议押注美联储加息预期消退",
       "source": "环球市场播报",
       "detail": "摩根士丹利的利率策略师建议，随着美联储加息预期减弱，投资者应押注较短期限美国国债收益率相对于较长期限品种下行。 其结果将是美国国债收益率曲线趋陡...",
@@ -38,107 +52,93 @@
       "score": 36,
       "insight": {
         "what": "摩根士丹利建议押注美联储加息预期消退",
-        "assets": "📈 美债 利率下行利好；📈 成长股 估值修复",
-        "chain": "加息预期消退（市场认为未来不会再加息）→ 实际利率（扣除通胀后的利率）下降 → 科技股和REITs（房地产信托）受益",
-        "watch": "下周CPI数据（消费者物价指数）和美联储官员讲话"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "对冲基金连续第四周抛售芯片股，AI板块遭卖出",
-        "assets": "📉 美股芯片股 承压；📉 AI相关ETF 资金流出",
-        "chain": "基金集中减仓（降低仓位）→ 流动性收缩（买卖盘变少）→ 波动率上升，可能触发程序化抛售（量化算法自动卖股票）",
-        "watch": "芯片板块成交量及NVIDIA期权持仓变化"
+        "assets": "📈 美国国债 利好\n📈 成长股 利好\n📉 美元 承压",
+        "chain": "降息预期（借钱成本降低）推动长端利率下行，利好利率敏感资产（如房地产、科技股），利空银行息差",
+        "watch": "美国CPI及PCE（个人消费支出）数据，FedWatch工具概率"
       }
     },
     {
       "rank": 5,
+      "title": "Hub Group因会计差错面临证券欺诈集体诉讼",
+      "source": "环球市场播报",
+      "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）正面临证券欺诈集体诉讼。该公司因连续披露重大会计差错，导致股价两次暴跌，累计跌幅超过30%...",
+      "lang": "zh",
+      "score": 33,
+      "insight": {
+        "what": "Hub Group因会计差错被集体诉讼，面临证券欺诈指控",
+        "assets": "📉 Hub Group 利空\n📉 物流板块 风险偏好下降",
+        "chain": "会计丑闻引发信任危机，可能拖累同类运输企业估值，并增加做空（押注股价下跌）压力",
+        "watch": "诉讼进展及公司审计报告，同行业财报质量"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "对冲基金连续第四周抛售芯片股，AI板块回调",
+        "assets": "📉 AI芯片股 承压\n📉 半导体ETF 资金流出",
+        "chain": "获利了结（卖出盈利头寸）叠加估值担忧，引发短期回调，但基本面未变，可能转为震荡",
+        "watch": "费城半导体指数（SOX）及资金流向数据"
+      }
+    },
+    {
+      "rank": 7,
       "title": "报道：美国财政部的一份报告草案对AI泡沫风险发出警告",
       "source": "环球市场播报",
       "detail": "NOTUS援引其获得的文件报道称，美国财政部分析师起草的一份报告草案将警告人工智能带来的风险。 NOTUS报道称，分析师发现，人工智能市场下滑将对经济构成重大风险。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国财政部草案警告AI泡沫风险",
-        "assets": "📉 AI概念股 利空；📈 防御性板块（公用事业） 资金流入",
-        "chain": "监管层喊话（官方警告）→ 投资者风险偏好下降（不敢追高）→ 资金从高估值科技股转向低波动资产（如保险股）",
-        "watch": "后续是否有具体监管措施出台"
+        "what": "美国财政部草案警告AI泡沫风险，引发监管关注",
+        "assets": "📉 AI概念股 利空\n📉 科技成长股 情绪打压",
+        "chain": "官方警告加剧市场对AI估值过高的担忧，可能触发避险（卖出高风险资产）轮动，利好防御板块",
+        "watch": "财政部报告最终版本及后续监管措施"
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "SK海力士启动赴美上市推介 有望成为全球历史上规模前三大IPO",
       "source": "环球市场播报",
       "detail": " SK海力士周一正式启动赴美上市的推介程序。这家韩国芯片制造商希望借助投资者对炙手可热的存储芯片行业需求激增的契机，完成此次上市。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SK海力士启动赴美上市推介，有望成史上最大IPO之一",
-        "assets": "📈 美股半导体 长期利好；📉 韩国股市 资金分流",
-        "chain": "大型IPO吸走流动性（市场资金被抽走）→ 短期压制其他科技股，但中长期增加AI芯片供给预期",
-        "watch": "IPO定价区间及机构认购需求"
+        "what": "SK海力士赴美上市推介，有望成史上最大IPO之一",
+        "assets": "📈 美股半导体 资金流入预期\n📈 韩国股市 资金分流",
+        "chain": "巨量IPO可能抽走流动性（市场资金），但吸引长期资金配置AI基建，利好美股存储器生态",
+        "watch": "IPO定价区间及战略投资者认购情况"
       }
     },
     {
-      "rank": 7,
-      "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
-      "source": "Forbes",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "特朗普概念股和加密货币投资者爆仓亏损",
-        "assets": "📉 特朗普媒体股 利空；📉 比特币 承压",
-        "chain": "散户杠杆破裂（借钱投资爆仓）→ 强制平仓（被迫卖出）→ 加剧相关资产下跌，形成负反馈（越跌越卖）",
-        "watch": "特朗普媒体股期权隐含波动率"
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 9,
       "title": "Low volatility stocks like insurers and REITs are suddenly turning into market leaders, Katie Stockton says",
       "source": "CNBC",
       "detail": "An ETF tied to low volatility stocks is benefiting from a broadening in market leadership and participation.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "低波动股票如保险和REITs成为市场领涨板块",
-        "assets": "📈 保险股 利好；📈 REITs 资金流入；📉 成长股 相对弱势",
-        "chain": "资金轮动（从高波动转向低波动）→ 防御性板块跑赢→ 暗示市场风险偏好下降（投资者避险情绪升温）",
-        "watch": "VIX指数（恐慌指数）及板块相对强度"
+        "what": "低波动股票如保险和REITs成市场新领涨板块",
+        "assets": "📈 保险股 利好\n📈 房地产信托（REITs） 利好\n📉 高成长股 相对弱势",
+        "chain": "资金从高波动（股价波动大）AI股轮入防御性（风险较低）资产，反映市场风险偏好下降",
+        "watch": "VIX（恐慌指数）及板块相对表现"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
       "source": "CNBC",
       "detail": "Mike Khouw gives a trade on Rivian and Tesla, informed by his wife's recent auto purchase.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Rivian、特斯拉与‘Holly指数’：新电动车战场交易策略",
-        "assets": "📈 特斯拉 竞争压力；📉 Rivian 短期承压；📈 传统车企 转型利好",
-        "chain": "价格战（降价促销）→ 利润压缩→ 行业整合（小公司被收购或破产），利好龙头和供应链",
-        "watch": "各车企季度交付量和毛利率数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "尾盘：美股尾盘走高 芯片股引领纳指上涨",
-      "source": "环球市场播报",
-      "detail": " 北京时间7月8日凌晨，美股周一尾盘走高，芯片股引领纳指走高。市场关注的焦点仍是近期持续的板块轮动趋势。美联储将在本周公布6月货币政策会议纪要。",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "美股尾盘走高，芯片股领涨纳指",
-        "assets": "📈 纳斯达克 反弹；📈 芯片股 短期修复",
-        "chain": "尾盘拉升（最后半小时买盘涌入）→ 空头回补（做空者被迫买入平仓）→ 短期超跌反弹，但持续性需看次日开盘",
-        "watch": "次日亚洲盘期货走势及芯片股成交量"
+        "what": "Rivian、特斯拉与‘Holly指数’：如何交易电动车新战场",
+        "assets": "📈 Rivian 短期博弈\n📉 特斯拉 竞争加剧\n📈 电动车供应链 分化",
+        "chain": "主流品牌与新兴品牌竞争白热化，价格战（降价竞争）压缩利润，利好电池及充电桩等上游",
+        "watch": "各车企交付量及毛利率数据"
       }
     }
   ]
