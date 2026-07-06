@@ -1,144 +1,138 @@
 {
-  "updateTime": "2026-07-06 16:01",
+  "updateTime": "2026-07-06 16:10",
   "news": [
     {
       "rank": 1,
+      "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "美银警告股市将因投机极端而回吐年内涨幅",
+        "assets": "📉 美股大盘 承压",
+        "chain": "投机极端（散户杠杆过高）→触发程序化抛售→加剧回调",
+        "watch": "散户杠杆率（衡量投机程度）和VIX（恐慌指数）"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Gold (XAUUSD) Price Forecast: Can Fed Minutes Lift Gold Above the 52-Week MA? - FXEmpire",
+      "source": "FXEmpire",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "美联储会议纪要可能推动黄金突破52周均线",
+        "assets": "📈 黄金 利好",
+        "chain": "纪要偏鸽（放慢加息）→美元走弱→黄金抗通胀需求上升",
+        "watch": "美联储点阵图（利率预测）和美元指数"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Gold holds near two-week high on easing Fed rate-hike bets",
       "source": "CNBC",
       "detail": "Gold was steady near a two-week high on Monday after a softer-than-expected U.S. jobs report last week tempered expectations of interest rate hikes from the Federal Reserve.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "黄金因降息预期降温而持稳于两周高位",
+        "what": "美联储加息预期降温使黄金持稳于两周高位",
         "assets": "📈 黄金 利好",
-        "chain": "降息预期（借钱成本降低）推升避险资产，美元走弱则进一步支撑商品价格",
-        "watch": "美联储利率决议及点阵图"
+        "chain": "加息预期降温→实际利率下行（剔除通胀后的利率）→黄金持有成本降低",
+        "watch": "美国CPI（通胀数据）和联邦基金期货"
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
+        "assets": "📉 英伟达 利空；📉 AI芯片股 承压",
+        "chain": "AI硬件供应延迟→科技股盈利预期下调→纳斯达克（科技指数）承压",
+        "watch": "英伟达官方声明和台积电产能（主要代工厂）"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使制裁解除也难以清理石油库存",
-        "assets": "📉 原油 承压",
-        "chain": "伊朗库存释放受限（供给弹性不足），OPEC+增产压力缓解，油价上行风险有限",
-        "watch": "伊朗石油出口量及制裁谈判进展"
+        "what": "伊朗即使获得制裁豁免也难以清理石油库存",
+        "assets": "📈 原油 利好",
+        "chain": "伊朗库存难清→全球油市供应偏紧→支撑油价",
+        "watch": "伊朗原油出口量和OPEC（石油输出国组织）产量数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 6,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达及AI硬件股 利空",
-        "chain": "AI算力供给延迟（芯片出货节奏放缓），拖累数据中心资本开支预期，利好竞争对手AMD",
-        "watch": "英伟达财报及AI服务器订单数据"
+        "what": "标普和纳斯达克期货延续涨势",
+        "assets": "📈 美股大盘 利好",
+        "chain": "上周强势→期货跟涨→风险偏好（资金入市意愿）上升",
+        "watch": "开盘后成交量是否配合和国债收益率曲线"
       }
     },
     {
-      "rank": 4,
+      "rank": 7,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛预测日元延续历史性贬值，AI和能源供应短缺支撑美元",
-        "assets": "📉 日元 承压；📈 美元 利好",
-        "chain": "日元套利交易（借低息日元买高息资产）活跃，美元因AI能源需求（资本流入）走强，利空新兴市场",
-        "watch": "日本央行利率决议及美国通胀数据"
+        "what": "高盛称这些被低估的股票有望跑赢大盘",
+        "assets": "📈 被低估股票 利好",
+        "chain": "价值发现→机构调仓（从成长股换入）→板块轮动",
+        "watch": "高盛具体推荐名单和估值指标（如P/E市盈率）"
       }
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 博彩及预测平台 利好",
-        "chain": "事件驱动型投机（短期资金涌入）提升平台估值，但监管风险（合规审查）可能压制持续性",
-        "watch": "预测市场平台注册量及监管政策"
-      }
+      "score": 30
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛认为这些被低估的股票具备跑赢市场的潜力",
-        "assets": "📈 高盛推荐个股 利好",
-        "chain": "价值投资逻辑（低估值+盈利修复）吸引长线资金，若财报超预期将触发行业轮动（资金从成长股流出）",
-        "watch": "推荐个股的市盈率及季度财报"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Oil slips after OPEC+ agrees to raise output targets",
-      "source": "CNBC",
-      "detail": "Oil fell on Monday after OPEC+ agreed to further increase output targets from August while exports from key producers via the Strait are recovering, potentially adding to global supplies.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "OPEC+同意增产导致油价下跌",
-        "assets": "📉 原油 利空",
-        "chain": "供给增加（产量配额上调）压低油价，炼油毛利（裂解价差）收窄，利空能源股但利好航空运输",
-        "watch": "OPEC+实际产量数据及全球库存变化"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Ebola outbreak containment hampered by USAID closure, experts say",
-      "source": "CNBC",
-      "detail": "Foreign aid cuts have \"demonstrably worsened\" the Ebola crisis, a virologist told CNBC.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "埃博拉疫情控制因美国国际开发署关闭而受阻",
-        "assets": "📉 医药及公共卫生股 利空",
-        "chain": "疫情扩散风险（防控资源短缺）推升避险情绪，利空旅游和航空股，但利好疫苗研发公司",
-        "watch": "世卫组织疫情评级及疫苗订单"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "联合国秘书长警示：人工智能发展速度已远超监管规则的更新节奏",
-      "source": "环球市场播报",
-      "detail": "联合国秘书长于周一发出警示，人工智能的发展速度已经快到令人难以跟上，他呼吁全球出台统一协调的监管规则，以此降低人工智能带来的潜在风险...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "联合国秘书长警告AI发展远超监管更新节奏",
-        "assets": "📉 科技巨头 承压",
-        "chain": "监管不确定性（算法透明度、数据隐私）增加合规成本，可能限制AI应用落地速度，利好传统行业",
-        "watch": "各国AI监管法案进展及科技公司游说活动"
+        "what": "高盛称日元将延续历史性贬值，AI和能源供应短缺支撑美元",
+        "assets": "📉 日元 承压；📈 美元 利好",
+        "chain": "AI能源需求推高美国企业盈利→资本回流→美元走强；日元利差（美日利率差）扩大",
+        "watch": "美日利差和日本央行政策会议"
       }
     },
     {
       "rank": 10,
-      "title": "Trump to meet with Ukraine's Zelenskyy and Syria's al-Sharaa during the NATO summit",
+      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
       "source": "CNBC",
-      "detail": "Trump plans to meet with Ukrainian President Volodymyr Zelenskyy and Syrian President Ahmad al-Sharaa on Wednesday, the White House said.",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 15,
+      "score": 27,
       "insight": {
-        "what": "特朗普将在北约峰会期间会见乌克兰和叙利亚领导人",
-        "assets": "📈 军工及能源股 利好",
-        "chain": "地缘政治风险溢价（冲突升级预期）推高避险资产，北约军费开支增加利好国防承包商",
-        "watch": "北约军费承诺及俄乌冲突前线动态"
+        "what": "世界杯推动预测市场交易量创历史新高",
+        "assets": "📈 预测市场平台 利好",
+        "chain": "事件驱动投机→散户资金流入→相关代币/牌照价值上升",
+        "watch": "世界杯赛程和平台用户增长数据"
       }
     }
   ]
