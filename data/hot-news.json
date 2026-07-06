@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 21:06",
+  "updateTime": "2026-07-06 21:11",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普将美股表现与其政绩挂钩",
-        "assets": "📈 美股整体 情绪利好\n📉 美元指数 潜在承压",
-        "chain": "政策预期（减税/放松监管）推高风险偏好（risk-on），但贸易摩擦溢价（tariff premium）可能重燃",
-        "watch": "特朗普民调支持率与科技股相对走势"
+        "what": "特朗普将股市表现与总统任期挂钩，敲响纽交所开盘钟",
+        "assets": "📈 美股大盘 利好；📈 特朗普概念股 利好",
+        "chain": "政策不确定性降低（市场预期减税/放松监管），资金从避险资产（美债）回流权益",
+        "watch": "特朗普民调支持率与标普500相关性"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "检方请求对百亿美元诈骗案减刑但部分理由保密",
-        "assets": "📉 小型金融股 情绪利空\n📉 加密货币 监管风险",
-        "chain": "司法透明度下降（opacity risk）可能引发对金融监管信任度（trust premium）折扣",
-        "watch": "案件后续公开文件与监管机构反应"
+        "what": "联邦检察官寻求对100亿美元新泽西熟食店欺诈案减刑，部分理由保密",
+        "assets": "📉 金融监管股（如银行） 中性偏空；📉 小盘股 情绪承压",
+        "chain": "司法透明度受损（监管风险溢价上升），可能推高合规成本预期",
+        "watch": "该案最终判决及SEC（美国证监会）是否追加调查"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "SK海力士在美IPO筹资290亿美元，测试AI芯片需求",
-        "assets": "📈 全球半导体 供给信号\n📉 纳斯达克 短期流动性抽水",
-        "chain": "巨额IPO（首次公开募股）会抽走市场流动性（liquidity drain），但若成功将强化AI硬件估值（valuation anchor）",
-        "watch": "IPO首日涨幅与机构认购率"
+        "what": "SK海力士启动290亿美元纳斯达克IPO，押注AI芯片需求",
+        "assets": "📈 全球AI芯片股（如英伟达） 利好；📈 半导体ETF 利好",
+        "chain": "IPO融资扩产（增加存储芯片供给），短期压制DRAM（动态随机存取存储器）价格，长期验证AI资本开支",
+        "watch": "IPO定价及首日涨幅，HBM（高带宽内存）订单数据"
       }
     },
     {
       "rank": 4,
-      "title": "SK Hynix to offer 17.79M common shares in U.S. IPO (SKHY:Pending) - Seeking Alpha",
-      "source": "Seeking Alpha",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "SK海力士美股IPO发行1779万股",
-        "assets": "📈 美股芯片板块 供给增加\n📉 韩国KOSPI 资金外流",
-        "chain": "海外上市分流本土资金（capital flight），但提升全球AI芯片定价基准（benchmark pricing）",
-        "watch": "发行定价区间与可比公司估值"
-      }
-    },
-    {
-      "rank": 5,
       "title": "Microsoft and LinkedIn Just Analyzed the Future of Work and AI. It All Points to One Key Skillset - inc.com",
       "source": "inc.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "微软与领英报告称AI关键技能需求激增",
-        "assets": "📈 AI应用/教育科技 结构性利好\n📈 微软 竞争优势",
-        "chain": "企业AI培训支出（CAPEX shift）将扩大SaaS（软件即服务）与云计算需求",
-        "watch": "企业AI培训预算与相关软件订阅数据"
+        "what": "微软和领英分析未来工作：AI技能成为关键能力",
+        "assets": "📈 AI培训/教育股 利好；📈 微软 利好",
+        "chain": "企业AI部署加速（增加SaaS（软件即服务）订阅收入），劳动力替代风险推高自动化设备需求",
+        "watch": "微软AI助手Copilot企业订阅增长率"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗制裁解除后仍难清库存油",
-        "assets": "📈 原油 供给受限利好\n📉 伊朗里亚尔 贬值压力",
-        "chain": "运输/保险障碍（logistics bottleneck）导致伊朗贴水（discount）扩大，全球油市供需再平衡延迟",
-        "watch": "伊朗原油出口量与运费保险报价"
+        "what": "伊朗即使制裁解除也难以清空石油库存，因基础设施和买家限制",
+        "assets": "📉 布伦特原油 中性偏空；📈 美国页岩油股 利好",
+        "chain": "伊朗出口恢复不及预期（供给增量有限），OPEC+（石油输出国组织及盟友）减产压力减轻",
+        "watch": "伊朗原油浮仓（海上储油）数据及制裁谈判进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "S&P 500 and Nasdaq futures rise after a strong week on Wall Street, led by chip stocks: Live updates",
       "source": "CNBC",
       "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "标普500与纳指期货因芯片股领涨而上行",
-        "assets": "📈 半导体板块 动量延续\n📈 纳指期货 技术面突破",
-        "chain": "芯片股作为市场情绪风向标（sentiment proxy），带动资金轮动（sector rotation）至成长股",
-        "watch": "费城半导体指数（SOX）相对强弱"
+        "what": "标普500和纳斯达克期货上涨，延续芯片股领涨的强势周",
+        "assets": "📈 美股科技股 利好；📈 半导体指数 利好",
+        "chain": "动量资金追涨（技术面突破），看跌期权（押注下跌的合约）隐含波动率下降",
+        "watch": "本周科技巨头财报及PMI（采购经理人指数）数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Stock Market Today: Nasdaq Futures Rise Ahead of Busy Week for Tech Stocks — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳指期货因科技股繁忙周而上涨",
-        "assets": "📈 大型科技股 事件驱动\n📈 纳指期货 波动率上升",
-        "chain": "财报/新品发布密集期（event cluster）推高隐含波动率（implied vol），期权对冲需求增加",
-        "watch": "科技股财报超预期比例与隐含波动率曲线"
+        "what": "纳斯达克期货上涨，科技股迎来繁忙财报周",
+        "assets": "📈 美股科技股 利好；📈 纳斯达克100 利好",
+        "chain": "财报季波动率（VIX恐慌指数）上升，期权市场押注个股大幅波动",
+        "watch": "苹果、微软等权重股财报及营收指引"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
       "source": "Forbes",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "投资者因买入特朗普概念股和加密货币损失数十亿",
-        "assets": "📉 特朗普媒体（DJT） 恐慌抛售\n📉 比特币 散户踩踏",
-        "chain": "meme股（情绪驱动股）泡沫破裂引发杠杆清算（margin call），散户信心受挫",
-        "watch": "特朗普媒体股价与加密货币交易所流出量"
+        "what": "福布斯报道：投资者因买入特朗普股票和加密货币而破产",
+        "assets": "📉 特朗普媒体科技集团（DJT） 承压；📉 比特币 承压",
+        "chain": "散户情绪逆转（恐慌性抛售），杠杆多头（借钱做多）被迫平仓引发连锁下跌",
+        "watch": "DJT股价及比特币期货未平仓合约变化"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Stocks making the biggest moves premarket: Lam Research, Intel, DataDog & more",
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves premarket.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "盘前异动：Lam Research、Intel、DataDog等",
-        "assets": "📈 Lam Research 财报利好\n📉 Intel 裁员利空\n📈 DataDog 增长预期",
-        "chain": "个股异动（premarket mover）反映板块分化（divergence），资金从传统芯片转向AI/云",
-        "watch": "这些个股开盘后成交量与机构研报评级"
+        "what": "盘前异动：Lam Research、英特尔、DataDog等股票波动最大",
+        "assets": "📈 Lam Research 利好；📈 DataDog 利好；📉 英特尔 承压",
+        "chain": "个股分化加剧（资金向AI/云计算集中），英特尔因代工亏损被抛售",
+        "watch": "Lam Research财报中设备订单量，英特尔代工业务拆分进展"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "英伟达CEO黄仁勋：AI存储芯片短缺将持续数年",
+      "source": "环球市场播报",
+      "detail": " 英伟达首席执行官黄仁勋近日在一场行业会议上表示，全球高带宽存储器供应短缺的局面预计将持续数年，这一判断为AI芯片产业链的长期增长提供了有力支撑。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "英伟达CEO黄仁勋：AI存储芯片短缺将持续数年",
+        "assets": "📈 存储芯片股（美光、三星） 利好；📈 英伟达 利好",
+        "chain": "供给瓶颈推高HBM（高带宽内存）价格，AI服务器成本上升，下游客户（云厂商）资本开支增加",
+        "watch": "HBM价格趋势及英伟达GPU交货周期"
       }
     }
   ]
