@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 18:51",
+  "updateTime": "2026-07-06 18:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "首现国会议员买入SpaceX股票",
+        "what": "国会议员首次披露买入SpaceX股票",
         "assets": "📈 SpaceX估值 利好",
-        "chain": "政治人物持仓透明度提升，或引发监管对议员内幕交易关注",
-        "watch": "SEC是否扩大议员交易披露范围"
+        "chain": "政治信号利好SpaceX上市预期，可能提振私营航天板块（SpaceX概念股）",
+        "watch": "SpaceX二级市场交易价格"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "瑞高新材IPO：实控人曾违规转移外汇出境",
-        "assets": "📉 瑞高新材 承压",
-        "chain": "跨境资金违规暴露内控缺陷，可能拖累IPO定价（发行价）及过会（审核通过）概率",
-        "watch": "证监会是否启动对实控人立案调查"
+        "what": "瑞高新材IPO实控人曾违规转移482万美元出境",
+        "assets": "📉 瑞高新材IPO 承压",
+        "chain": "监管风险升高，可能拖累审核进度或导致撤回（ipo终止风险）",
+        "watch": "证监会问询函及IPO审核状态"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "硅基流动港股IPO：融资额与实际出入疑包装",
-        "assets": "📉 硅基流动 承压",
-        "chain": "估值（公司价值）虚增嫌疑降低机构认购意愿，港股IPO破发（上市跌破发行价）风险上升",
-        "watch": "招股书是否更新融资用途及第三方审计"
+        "what": "硅基流动港股IPO递表前估值存疑，融资额包装",
+        "assets": "📉 硅基流动IPO 承压",
+        "chain": "市场对AI公司估值信任度下降，可能影响港股科技新股情绪（ipo破发风险）",
+        "watch": "港交所招股书补充披露"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美检方要求减刑金额1亿的三明治店诈骗犯",
-        "assets": "📉 美元信用 中性",
-        "chain": "量刑隐藏细节削弱市场对司法公正信心，但直接资产影响有限",
-        "watch": "减刑理由是否涉及政治交换"
+        "what": "联邦检察官为1亿美元欺诈犯寻求减刑，理由保密",
+        "assets": "📉 美国司法公信力 承压",
+        "chain": "可能引发对执法透明度的质疑，间接影响监管类股（如合规科技）",
+        "watch": "减刑裁决公布内容"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美银警告：股市将回吐年内涨幅，投机极端",
-        "assets": "📈 避险资产（美债） 利好",
-        "chain": "投机极端触发均值回归（价格向平均靠拢），资金从成长股转向防御板块（抗跌行业）",
-        "watch": "VIX（恐慌指数）是否突破20"
+        "what": "美银警告：投机极端，市场将回吐年内涨幅",
+        "assets": "📉 美股大盘 承压\n📈 美债 利好",
+        "chain": "投机泡沫破裂风险上升，资金或从科技股轮动至防御性资产（避险）",
+        "watch": "VIX恐慌指数及散户杠杆率"
       }
     },
     {
@@ -81,64 +81,64 @@
       "insight": {
         "what": "美联储会议纪要或推动黄金突破52周均线",
         "assets": "📈 黄金 利好",
-        "chain": "若纪要偏鸽（暗示降息），美元走弱，实际利率（名义利率减通胀）下行支撑金价",
-        "watch": "纪要中关于降息时点的措辞"
+        "chain": "若纪要偏鸽（暗示降息），美元走弱将支撑金价（负相关）",
+        "watch": "美联储会议纪要措辞及美元指数"
       }
     },
     {
       "rank": 7,
-      "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
-      "source": "CNBC",
-      "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "高盛看空日元，AI和能源供应紧缩支撑美元",
-        "assets": "📈 美元 利好",
-        "chain": "日元贬值加剧进口通胀，AI/能源短缺推高美国资本开支，强化美元利差（利率差）优势",
-        "watch": "日本央行是否干预汇率"
-      }
-    },
-    {
-      "rank": 8,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "即使制裁解除，伊朗清库存也困难",
-        "assets": "📉 原油 中性偏空",
-        "chain": "伊朗储油量高但买家有限，制裁解除后短期供应激增可能压制油价",
-        "watch": "欧美是否恢复对伊石油购买"
+        "what": "即使制裁解除，伊朗也难以清空原油库存",
+        "assets": "📉 原油 承压",
+        "chain": "供应过剩预期增强，OPEC+减产效果或打折扣（库存高企）",
+        "watch": "伊朗原油出口量及浮仓数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架延迟至2028年量产",
-        "assets": "📈 AMD 利好",
-        "chain": "AI硬件供应瓶颈延长，云计算资本开支转向替代芯片，算力租赁价格上涨",
-        "watch": "台积电CoWoS（先进封装）产能是否扩产"
+        "what": "英伟达下一代AI芯片因制造问题推迟至2028年",
+        "assets": "📉 英伟达 利空\n📈 AMD 利好",
+        "chain": "AI算力供应延迟，利好竞争对手抢单，但拖累整个AI硬件板块（算力股）",
+        "watch": "台积电先进制程良率及英伟达官方声明"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "SK海力士计划在美国IPO中发行1779万股普通股",
       "source": "环球市场播报",
       "detail": "SK海力士计划通过美国首次公开募股发行1779万股普通股。 公司预计，通过本次发行并出售由ADS代表的1779万股普通股，募集资金净额约为280亿美元。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SK海力士在美IPO发行1779万股",
-        "assets": "📉 三星/美光 承压",
-        "chain": "赴美上市提升流动性，但稀释现有股东权益，HBM（高带宽内存）竞争格局加剧",
-        "watch": "IPO定价是否高于当前ADR（美国存托凭证）"
+        "what": "SK海力士计划美国IPO发行1779万股",
+        "assets": "📈 美股半导体 承压\n📉 SK海力士 承压",
+        "chain": "稀释效应压制股价，但提升美国市场存储芯片流动性（半导体ETF）",
+        "watch": "发行定价及超额认购倍数"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "夏禾科技IPO：产能利用率低于55%仍扩产 保荐券商关联方既持股还曾参与对赌",
+      "source": "新浪证券",
+      "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，中国证券业协会公布了当年第四批首发企业现场检查抽查名单，21家拟上市企业入围。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "夏禾科技产能利用率低于55%仍扩产，保荐券商关联方持股",
+        "assets": "📉 夏禾科技IPO 承压",
+        "chain": "产能过剩+利益冲突引发监管审查，可能拖累化工新股估值（ipo风险）",
+        "watch": "证监会问询及产能消化计划"
       }
     }
   ]
