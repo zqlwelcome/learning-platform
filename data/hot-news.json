@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 18:35",
+  "updateTime": "2026-07-06 18:41",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 62,
       "insight": {
         "what": "国会议员首次披露持有SpaceX股票，IPO后买入",
-        "assets": "📈 SpaceX二级市场 利好",
-        "chain": "政治信号（政客买入）增强市场信心，推高未上市科技股估值",
-        "watch": "SpaceX二级市场交易量及定价变化"
+        "assets": "📈 SpaceX未上市股权 利好；📈 太空概念股 情绪提振",
+        "chain": "政治人物持仓增加监管透明度预期，或引发更多议员跟投（信号效应）",
+        "watch": "SpaceX二级市场交易量及估值变化"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "瑞高新材实控人违规转移482万美元出境，员工持股近14%",
-        "assets": "📉 瑞高新材IPO 利空",
-        "chain": "合规风险（违反外汇管制）导致监管审查加严，IPO可能推迟或折价",
-        "watch": "证监会是否启动调查及IPO批文进度"
+        "what": "瑞高新材实控人曾违规转移482万美元出境，员工持股近14%",
+        "assets": "📉 瑞高新材IPO 承压；📉 中小盘新股 情绪偏空",
+        "chain": "实控人合规风险削弱IPO信心，可能拖累询价（机构报价）及上市后流动性",
+        "watch": "证监会是否启动调查及IPO批文进展"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "硅基流动港股IPO被指估值包装，融资额与实际不符",
-        "assets": "📉 硅基流动 承压",
-        "chain": "财务造假嫌疑（虚增融资额）引发做空机构关注，拖累港股科技新股",
-        "watch": "港交所是否要求补充披露及做空报告动向"
+        "what": "硅基流动港股递表前估值拔高，融资额与实际存出入",
+        "assets": "📉 港股科技新股 偏空；📉 硅基流动估值 承压",
+        "chain": "招股书包装嫌疑引发监管关注，或推高上市后破发风险（首日跌破发行价）",
+        "watch": "港交所上市聆讯结果及基石投资者动向"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "FBI寻求对1亿美元熟食店诈骗犯减刑，部分理由保密",
-        "assets": "📉 美国司法/合规 偏空",
-        "chain": "执法不透明（隐藏减刑理由）削弱市场对金融犯罪惩处信心，增加系统性风险溢价",
-        "watch": "法院最终判决及量刑透明度"
+        "what": "联邦检察官寻求对1亿美元熟食店欺诈案从轻量刑",
+        "assets": "📈 金融监管股 情绪偏空；📉 合规成本 预期上升",
+        "chain": "量刑宽松或暗示执法资源有限，但隐藏理由增加市场不确定性（信息不对称）",
+        "watch": "量刑最终判决及SEC是否追加民事处罚"
       }
     },
     {
@@ -65,42 +65,56 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "Fortune预测标普500将回吐2026年涨幅，投机极端",
-        "assets": "📉 美股标普500 利空",
-        "chain": "投机过热（散户杠杆高）触发均值回归，资金从成长股轮动至防御板块",
-        "watch": "VIX（恐慌指数）及散户杠杆率数据"
+        "what": "标普500或因投机极端化，2026年涨幅将大幅回吐",
+        "assets": "📉 标普500 承压；📉 科技成长股 利空",
+        "chain": "投机极端触发均值回归（价格向长期平均靠拢），资金或转向防御板块（公用事业、医疗）",
+        "watch": "VIX恐慌指数及美联储利率路径信号"
       }
     },
     {
       "rank": 6,
+      "title": "Gold (XAUUSD) Price Forecast: Can Fed Minutes Lift Gold Above the 52-Week MA? - FXEmpire",
+      "source": "FXEmpire",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "金价能否突破52周均线取决于美联储会议纪要",
+        "assets": "📈 黄金 短期利多；📉 美元 承压",
+        "chain": "若纪要偏鸽（支持宽松），实际利率下行（持有黄金的机会成本降低）推升金价",
+        "watch": "美联储会议纪要措辞及点阵图利率预测"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛看空日元，认为AI和能源供应短缺支撑美元",
-        "assets": "📉 日元 承压，📈 美元 利好",
-        "chain": "AI投资（芯片/电力）推高美国资本流入，能源缺口（OPEC减产）强化美元避险",
-        "watch": "美日利差（10年期国债收益率差）及AI资本开支数据"
+        "what": "高盛看空日元持续贬值，AI和能源供应紧缩支撑美元",
+        "assets": "📉 日元 承压；📈 美元 利好；📈 AI板块 结构性利好",
+        "chain": "日元贬值加剧日本进口成本，AI投资潮强化美元需求（资本回流）",
+        "watch": "日本央行利率决议及美国AI资本支出数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使获制裁豁免，也难以清理原油库存",
-        "assets": "📉 原油 偏空",
-        "chain": "制裁解除预期（库存释放）被高估，实际出口物流受限（保险/油轮短缺）",
-        "watch": "伊朗原油出口量及油轮追踪数据"
+        "what": "即使制裁解除，伊朗也难以快速清理原油库存",
+        "assets": "📉 原油 短期承压；📈 油价 中期支撑",
+        "chain": "制裁解除后伊朗出口恢复缓慢，全球供应增量有限，OPEC+减产协议或维持（供给约束）",
+        "watch": "伊朗原油出口量及OPEC+产量配额调整"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
@@ -108,37 +122,23 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空，📈 AMD/英特尔 利好",
-        "chain": "供应链瓶颈（CoWoS封装）导致AI算力缺口，竞争对手获得窗口期",
-        "watch": "英伟达官方指引及台积电先进封装产能"
+        "assets": "📉 英伟达 利空；📉 AI芯片股 承压；📈 竞争对手AMD 利好",
+        "chain": "AI硬件迭代延迟可能放缓大模型部署，资金转向软件层或云计算服务商",
+        "watch": "英伟达官方指引及台积电先进封装产能进展"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "夏禾科技IPO：产能利用率低于55%仍扩产 保荐券商关联方既持股还曾参与对赌",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，中国证券业协会公布了当年第四批首发企业现场检查抽查名单，21家拟上市企业入围。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "夏禾科技产能利用率低于55%仍扩产，保荐券商关联方参与对赌",
-        "assets": "📉 夏禾科技IPO 利空",
-        "chain": "产能过剩（低利用率）叠加利益冲突（保荐券商关联方），IPO定价或承压",
-        "watch": "监管层是否要求剥离对赌条款及产能利用率改善"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "易捷航空同意73亿美元被凯斯莱克收购，股价暴涨10%",
-      "source": "环球市场播报",
-      "detail": "核心要点 易捷航空股价周一创下 52 周新高。 这家廉价航空上周日原则上同意美国私募机构凯斯莱克提出的上调后收购要约。2024 年 5 月 3 日周五...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "易捷航空被凯斯莱克以73亿美元收购，股价暴涨10%",
-        "assets": "📈 易捷航空 利好，📈 欧洲航空股 联动",
-        "chain": "并购溢价（收购价高于市价）激活板块估值重估，可能引发其他航空标的收购",
-        "watch": "股东投票通过率及竞争对手并购传言"
+        "what": "夏禾科技产能利用率不足55%仍扩产，保荐券商关联方持股且曾参与对赌",
+        "assets": "📉 夏禾科技IPO 承压；📉 化工新股 情绪偏空",
+        "chain": "产能过剩叠加关联交易风险，上市后业绩承诺可能落空（对赌条款压力），拖累板块估值",
+        "watch": "募投项目合理性及监管问询函内容"
       }
     }
   ]
