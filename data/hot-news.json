@@ -1,22 +1,30 @@
 {
-  "updateTime": "2026-07-07 04:15",
+  "updateTime": "2026-07-07 04:20",
   "news": [
     {
       "rank": 1,
-      "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
-      "source": "AP News",
+      "title": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave - Yahoo Finance",
+      "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 49,
+      "score": 50,
       "insight": {
-        "what": "特朗普将个人政治命运与股市表现直接挂钩",
-        "assets": "📈 美股大盘 短期提振",
-        "chain": "政策不确定性（policy uncertainty）降低，资金风险偏好（risk appetite）回升，利好风险资产",
-        "watch": "特朗普民调与美股相关性"
+        "what": "SK海力士寻求280亿美元美国IPO，借AI热潮",
+        "assets": "📈 美股半导体 利好；📈 存储芯片 看涨",
+        "chain": "提振AI芯片板块估值，可能带动其他存储厂商（如美光）跟风IPO",
+        "watch": "IPO定价及首日表现，AI芯片需求数据"
       }
     },
     {
       "rank": 2,
+      "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
+      "source": "AP News",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 49
+    },
+    {
+      "rank": 3,
       "title": "Rebounding AI stocks send the S&P 500 within 1% of its record - AP News",
       "source": "AP News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -24,104 +32,96 @@
       "score": 47
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "摩根士丹利建议押注美联储加息预期消退",
       "source": "环球市场播报",
       "detail": "摩根士丹利的利率策略师建议，随着美联储加息预期减弱，投资者应押注较短期限美国国债收益率相对于较长期限品种下行。 其结果将是美国国债收益率曲线趋陡...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "摩根士丹利建议押注美联储加息预期消退",
-        "assets": "📉 美元指数 承压；📈 美债 利好",
-        "chain": "加息预期（rate hike expectation）减弱→短端利率下行→收益率曲线（yield curve）陡峭化→金融股受益",
-        "watch": "本周美联储官员讲话及CPI数据"
+        "what": "特朗普敲响纽交所开盘钟，将总统任期与股市挂钩",
+        "assets": "📈 美股大盘 情绪支撑；📉 美元 政策不确定性",
+        "chain": "强化政策利好预期（减税、监管放松），但增加市场对政治干预的担忧",
+        "watch": "特朗普政策声明及民调变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "硕腾遭证券欺诈诉讼，投资者7月27日前可申请主要原告",
       "source": "环球市场播报",
       "detail": " 动物保健公司硕腾（Zoetis Inc．，NYSE：ZTS）正面临证券欺诈集体诉讼，Schall Law Firm已向投资者发出通知。该诉讼已提交至美国纽约南区联邦地区法院。",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "硕腾因隐瞒核心产品风险遭证券欺诈诉讼",
+        "assets": "📉 硕腾(ZTS) 利空；📉 动物保健板块 关联抛压",
+        "chain": "诉讼风险（索赔成本）压低股价，可能波及同类公司如礼来动保",
+        "watch": "诉讼进展及产品销量变化"
+      }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Hub Group再因会计问题面临证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）再次因会计问题面临证券欺诈集体诉讼。此前，该公司因连续披露重大会计差错导致股价两次暴跌，累计跌幅超过30%...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "ADMA Biologics因渠道压货指控遭集体诉讼",
-        "assets": "📉 ADMA Biologics（ADMA）股价 利空",
-        "chain": "渠道压货（channel stuffing）→营收质量（revenue quality）受质疑→做空机构（short seller）可能跟进",
-        "watch": "公司营收确认方式及经销商库存数据"
+        "what": "Hub Group再因会计问题面临证券欺诈诉讼",
+        "assets": "📉 Hub Group(HUBG) 利空；📉 物流板块 信心承压",
+        "chain": "会计问题（财务造假风险）引发投资者对行业透明度质疑，可能拖累同行",
+        "watch": "会计重述及监管调查结果"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "动物保健巨头硕腾因隐瞒核心产品风险遭证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "动物保健公司硕腾（Zoetis Inc．，NYSE：ZTS）正面临证券欺诈集体诉讼，指控其在2025年1月14日至2026年5月6日期间，就旗下多款核心产品的市场表现和竞争地位误导投资者。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "AI股反弹推动标普500接近历史高点",
-        "assets": "📈 美股科技股（特别是AI芯片） 利好",
-        "chain": "AI叙事（AI narrative）重获动能，带动半导体ETF（SMH）和纳斯达克100（NDX）资金流入",
-        "watch": "英伟达（NVDA）财报及AI订单数据"
+        "what": "AI股反弹推动标普500距历史高点仅差1%",
+        "assets": "📈 美股科技股 强势；📈 纳指 领涨",
+        "chain": "资金轮动至AI概念（如英伟达），挤压防御板块（公用事业）仓位",
+        "watch": "标普500能否突破前高，AI股财报指引"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Hub Group因会计差错再遭证券欺诈诉讼",
       "source": "环球市场播报",
       "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）因连续披露重大会计差错，正面临多起证券欺诈集体诉讼。该公司此前已因此事股价两次暴跌，累计跌幅超过30%...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Hub Group因会计差错再遭证券欺诈诉讼",
-        "assets": "📉 Hub Group（HUBG）股价 利空",
-        "chain": "会计问题（accounting irregularity）→财报可信度下降→机构减持（institutional selling）",
-        "watch": "公司管理层回应及审计报告更新"
+        "what": "摩根士丹利建议押注美联储加息预期消退",
+        "assets": "📈 美债 利好；📈 成长股 看涨；📉 美元 承压",
+        "chain": "降息预期（借钱成本降低）推高长债价格，资金从现金转向风险资产",
+        "watch": "美联储会议纪要及CPI数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "ADMA Biologics因渠道压货指控遭证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "生物制药公司ADMA Biologics（NASDAQ：ADMA）正面临证券欺诈集体诉讼，起因是做空机构Culper Research于2026年3月24日发布的一份报告...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "硕腾因隐瞒核心产品风险遭证券欺诈集体诉讼",
-        "assets": "📉 硕腾（ZTS）股价 利空",
-        "chain": "诉讼风险（litigation risk）→估值折价（valuation discount）→投资者需关注7月27日主要原告申请截止日",
-        "watch": "诉讼进展及产品监管公告"
+        "what": "ADMA Biologics因渠道压货指控遭证券欺诈诉讼",
+        "assets": "📉 ADMA Biologics(ADMA) 利空；📉 生物科技板块 情绪弱",
+        "chain": "渠道压货（虚增收入）指控引发对营收真实性的怀疑，医药股估值下修",
+        "watch": "SEC调查及渠道库存数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Hub Group因会计差错面临证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）正面临证券欺诈集体诉讼。该公司因连续披露重大会计差错，导致股价两次暴跌，累计跌幅超过30%...",
       "lang": "zh",
       "score": 33
-    },
-    {
-      "rank": 10,
-      "title": "Wall Street climbs as Broadcom and other chipmakers rally - Reuters",
-      "source": "Reuters",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "Broadcom等芯片股上涨带动华尔街走高",
-        "assets": "📈 半导体板块 利好；📈 纳斯达克 利好",
-        "chain": "芯片需求（semiconductor demand）回暖→科技产业链（tech supply chain）估值修复→资金轮动至成长股（growth stocks）",
-        "watch": "台积电（TSM）月度营收及芯片法案进展"
-      }
     }
   ]
 }
