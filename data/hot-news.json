@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 10:01",
+  "updateTime": "2026-07-06 10:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "通胀隐忧下美股迎来平静周，关注PMI和财报",
-        "assets": "📈 美股大盘 中性偏多",
-        "chain": "服务业PMI若强于预期，会强化通胀粘性（物价难降），压制降息预期",
-        "watch": "周三服务业PMI初值及消费巨头财报"
+        "what": "通胀担忧缓和，美股平静周关注PMI和财报",
+        "assets": "📈 美股大盘 震荡偏多；📈 半导体 利好",
+        "chain": "PMI（采购经理人指数）若强则强化软着陆（经济放缓但未衰退）叙事，利多风险资产（股票等）",
+        "watch": "周三服务业PMI初值；SK海力士IPO认购率"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "大摩首席研判美联储今年不会加息",
-        "assets": "📈 美债利率 下行",
-        "chain": "加息预期降温→美债收益率（长期国债利息）走低→成长股（高估值科技股）估值压力缓解",
-        "watch": "下周美联储官员讲话基调"
+        "what": "大摩首席称美联储今年不会加息，沃什可能转鸽",
+        "assets": "📈 美债 利好（收益率下行）；📉 美元 承压",
+        "chain": "不加息预期压低短端利率（短期借贷成本），削弱美元利差优势（持有美元收益减少），推高金价",
+        "watch": "周四美联储会议纪要措辞变化"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "加息押注缩减推高金价",
+        "what": "美联储加息押注缩减，金价走高",
         "assets": "📈 黄金 利好",
-        "chain": "降息预期升温→美元实际利率（名义利率减通胀）下降→黄金（无息资产）吸引力上升",
-        "watch": "美国CPI（消费者物价指数）数据"
+        "chain": "加息预期降温→实际利率（名义利率减通胀）下行→黄金持有成本降低（无息资产吸引力上升）",
+        "watch": "美元指数DXY（美元兑一篮子货币汇率）是否跌破104"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星利润暴增18倍，受AI内存需求推动",
-        "assets": "📈 半导体 利好",
-        "chain": "AI芯片需求爆发→HBM（高带宽内存）供不应求→存储芯片涨价周期延续",
-        "watch": "SK海力士美国IPO定价及AI资本支出指引"
+        "what": "OPEC+同意增产，油价下跌",
+        "assets": "📉 原油 承压；📉 能源股 利空",
+        "chain": "供给增加→油价下行→通胀压力缓解（能源成本降低）→利好消费股，利空产油国货币",
+        "watch": "OPEC+实际产量执行率及美国库存数据"
       }
     },
     {
@@ -63,76 +63,76 @@
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "世界杯推动预测市场交易量创新高",
-        "assets": "📈 博彩/预测平台 利好",
-        "chain": "体育博彩流量激增→平台收入飙升→可能吸引监管关注",
-        "watch": "预测平台用户增长及监管动态"
-      }
+      "score": 30
     },
     {
       "rank": 6,
+      "title": "港股电力设备股走高 大摩：AI时代将“能源安全”推升为未来十年全球最核心的资本开支主线",
+      "source": "新浪港股",
+      "detail": "7月6日消息，港股电力设备股走高，东方电气涨超9%，潍柴动力涨超7%，哈尔滨电气涨超6%。 消息面上，AI算力需求爆发叠加全球电网升级加速...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "三星利润预计飙升18倍，AI驱动内存需求",
+        "assets": "📈 三星/美股存储芯片 利好；📈 AI芯片 利好",
+        "chain": "AI算力扩张→HBM（高带宽内存）供不应求→存储周期提前反转（价格回升），带动设备股",
+        "watch": "三星Q2财报指引及HBM出货量"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐这些被低估的股票",
-        "assets": "📈 高盛推荐个股 利好",
-        "chain": "机构研报背书→资金流入相关标的→短期股价获得支撑",
-        "watch": "高盛具体股票名单及后续业绩验证"
+        "what": "世界杯推高预测市场交易量至纪录高位",
+        "assets": "📈 体育博彩/预测平台 利好",
+        "chain": "事件驱动投机资金流入→平台营收暴增（手续费收入），但监管风险同步上升（政策不确定性）",
+        "watch": "各国监管政策动态"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克期货延续涨势",
-        "assets": "📈 美股大盘 利好",
-        "chain": "上周强势延续→市场情绪乐观→资金从防御股（公用事业等）转向成长股",
-        "watch": "本周初实际开盘及成交量确认"
+        "what": "港股电力设备股走高，大摩看好AI能源主线",
+        "assets": "📈 港股电力设备 利好；📈 新能源/电网 利好",
+        "chain": "AI算力耗电激增→电力基建资本开支（投资）上行→变压器/电网设备订单爆发（需求增长）",
+        "watch": "中国电网投资年度计划是否上调"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
       "source": "CNBC",
       "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "高盛称这些低估股票有望跑赢大盘",
+        "assets": "📈 高盛精选低估股 利好",
+        "chain": "机构背书→资金轮动至价值股（股价低于内在价值的股票）→防御性板块获超额收益（跑赢指数）",
+        "watch": "高盛名单个股财报及估值修复进度"
+      }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Oil slips after OPEC+ agrees to raise output targets",
       "source": "CNBC",
       "detail": "Oil fell on Monday after OPEC+ agreed to further increase output targets from August while exports from key producers via the Strait are recovering, potentially adding to global supplies.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "OPEC+同意增产，油价承压下跌",
-        "assets": "📉 原油 利空",
-        "chain": "增产预期兑现→供应增加→油价下行→利好航空、化工等成本敏感行业",
-        "watch": "OPEC+实际增产幅度及全球库存数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "SK Hynix seeks access to AI investors in $29 billion U.S. listing - Fortune",
-      "source": "Fortune",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "SK海力士寻求290亿美元美国上市",
-        "assets": "📈 半导体 利好",
-        "chain": "AI融资需求旺盛→吸引全球投资者关注→提升半导体板块估值中枢",
-        "watch": "IPO定价及认购倍数，后续美股上市表现"
+        "what": "标普和纳指期货延续上周涨势",
+        "assets": "📈 美股科技股 利好；📈 成长股 利好",
+        "chain": "期货走强→现货开盘看涨情绪（预期上涨）→动量资金追入（跟风买入），但需警惕高开低走",
+        "watch": "开盘后VIX（恐慌指数）是否回升"
       }
     }
   ]
