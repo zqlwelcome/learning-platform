@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 23:50",
+  "updateTime": "2026-07-06 23:55",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 54,
       "insight": {
         "what": "AI股反弹支撑美股，市场涨跌互现",
-        "assets": "📈 AI科技股 利好",
-        "chain": "资金轮动（从防御板块流向科技）可能加速，避险情绪降温",
-        "watch": "AI龙头财报及美联储利率决议"
+        "assets": "📈 美股AI科技股 利好；📉 美股防御板块 承压",
+        "chain": "资金从防御板块（如公用事业）轮动回AI成长股，推高风险偏好（愿意冒险投资）",
+        "watch": "今晚AI龙头股（如英伟达）股价是否持续走强"
       }
     },
     {
@@ -23,28 +23,42 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SK海力士拟美股IPO融资280亿美元",
-        "assets": "📈 全球半导体 利好，📈 美股IPO市场 利好",
-        "chain": "半导体资本开支增加，利好设备商（应用材料等），但可能稀释短期流动性",
-        "watch": "IPO定价及AI芯片需求数据"
+        "what": "SK海力士拟赴美IPO融资280亿美元，押注AI需求",
+        "assets": "📈 全球存储芯片 利好；📉 内存现货价格 承压",
+        "chain": "IPO扩产预期（更多产能）可能压低DRAM（内存芯片）价格，但AI算力需求消化供给",
+        "watch": "SK海力士IPO定价及机构认购倍数（需求热度）"
       }
     },
     {
       "rank": 3,
+      "title": "As oil exits the ‘danger zone,’ here’s what history suggests happens next for stocks - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "油价脱离‘危险区’，历史规律预示美股后续走势",
+        "assets": "📈 美股整体 利好；📈 航空运输股 利好",
+        "chain": "油价回落降低通胀预期（物价上涨压力），缓解美联储加息压力（借钱成本上升），利好利率敏感资产",
+        "watch": "WTI原油能否站稳70美元/桶下方"
+      }
+    },
+    {
+      "rank": 4,
       "title": "深化半导体与AI基础设施布局 索尔斯蒂斯先进材料拟145亿美元收购元素解决方案",
       "source": "环球市场播报",
       "detail": "美国特殊化学品制造商索尔斯蒂斯先进材料（Solstice Advanced Materials）周一正式宣布，已与同业企业元素解决方案（Element Solutions）达成最终合并协议。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "索尔斯蒂斯先进材料145亿美元收购元素解决方案",
-        "assets": "📈 半导体材料 利好，📉 被收购方溢价",
-        "chain": "行业整合加速，利好上游材料供应商（如陶氏），推高并购溢价预期",
-        "watch": "监管审批进展及交易融资结构"
+        "what": "索尔斯蒂斯拟145亿美元收购元素方案，布局半导体与AI",
+        "assets": "📈 美股半导体设备 利好；📈 AI基础设施 利好",
+        "chain": "并购溢价（收购价高于市场价）推高同业估值，加速行业整合，利好材料供应商（如应用材料）",
+        "watch": "收购能否通过反垄断审查（政府批准）"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "报道：美国财政部的一份报告草案对AI泡沫风险发出警告",
       "source": "环球市场播报",
       "detail": "NOTUS援引其获得的文件报道称，美国财政部分析师起草的一份报告草案将警告人工智能带来的风险。 NOTUS报道称，分析师发现，人工智能市场下滑将对经济构成重大风险。",
@@ -52,79 +66,65 @@
       "score": 30,
       "insight": {
         "what": "美国财政部草案警告AI泡沫风险",
-        "assets": "📉 AI概念股 承压，📈 避险资产（美债）利好",
-        "chain": "监管担忧升温，资金可能从高估值AI股流向防御板块（公用事业），但短期影响有限",
-        "watch": "后续报告细节及美联储表态"
+        "assets": "📉 美股AI科技股 承压；📈 美债 利好",
+        "chain": "监管风险升温（政府可能干预）触发获利了结，资金从AI股轮动至避险资产（如国债）",
+        "watch": "草案是否落地为正式报告及具体监管措施"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "SK海力士启动赴美上市推介 有望成为全球历史上规模前三大IPO",
       "source": "环球市场播报",
       "detail": " SK海力士周一正式启动赴美上市的推介程序。这家韩国芯片制造商希望借助投资者对炙手可热的存储芯片行业需求激增的契机，完成此次上市。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SK海力士启动赴美上市推介，或成史上前三大IPO",
-        "assets": "📈 半导体 利好，📈 美股科技股 利好",
-        "chain": "提振全球芯片股估值，吸引资金流入亚洲科技市场，但可能抽离新兴市场流动性",
-        "watch": "IPO认购倍数及AI芯片价格走势"
+        "what": "SK海力士启动赴美上市推介，或成历史第三大IPO",
+        "assets": "📈 美股半导体 利好；📉 二级市场流动性 承压",
+        "chain": "巨量IPO抽血（吸收市场资金）可能短期拖累大盘，但彰显AI赛道长期信心",
+        "watch": "IPO定价区间及首日涨幅"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "These are the best stocks in the worst sectors for investors betting on a rotation, says Josh Brown",
       "source": "CNBC",
       "detail": "Josh Brown and Sean Russo take a look at three stocks that could benefit from a broader market rotation.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Josh Brown推荐弱势板块中最佳个股",
-        "assets": "📈 能源/工业等周期股 利好",
-        "chain": "资金从科技股轮动（板块切换）至价值股，利好道指成分股，但需确认持续性",
-        "watch": "PMI（采购经理人指数）及就业数据"
+        "what": "Josh Brown推荐弱势板块中的优质个股作为轮动标的",
+        "assets": "📈 美股能源/医疗 利好；📉 美股科技 承压",
+        "chain": "资金从拥挤的科技股转向低估值板块（如能源），受益于降息预期（借钱成本降低）和防御属性",
+        "watch": "标普500板块轮动指数（资金流向变化）"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
       "source": "Forbes",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普概念股和加密货币投资者爆仓",
-        "assets": "📉 特朗普概念股 承压，📉 加密货币 承压",
-        "chain": "风险偏好下降，散户资金流出，可能拖累小盘股和另类资产",
-        "watch": "特朗普相关公司财报及比特币价格"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Stock Market Today: Nasdaq Rises at Start of Busy Week for Tech Stocks — Live Updates - WSJ",
-      "source": "WSJ",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "科技股推动纳斯达克周一上涨",
-        "assets": "📈 纳斯达克 利好，📈 科技股 利好",
-        "chain": "多头情绪提振大盘，但需警惕财报季盈利不及预期的回调风险",
-        "watch": "本周科技巨头财报及GDP数据"
+        "what": "特朗普概念股和加密货币投资者爆仓亏损",
+        "assets": "📉 特朗普媒体科技集团 承压；📉 比特币 承压",
+        "chain": "散户杠杆爆仓（强制平仓）引发连锁抛售，市场情绪恶化，风险资产遭抛售",
+        "watch": "特朗普概念股股价是否跌破关键支撑位（技术关口）"
       }
     },
     {
       "rank": 9,
-      "title": "Saudis Make Biggest Oil Price Cut in Decades as Market Weakens - Bloomberg.com",
+      "title": "Tech Stocks’ Rebound Stalls, Dollar Edges Higher: Markets Wrap - Bloomberg.com",
       "source": "Bloomberg.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "沙特大幅下调油价创数十年最大降幅",
-        "assets": "📉 原油 承压，📈 航空公司/消费者 利好",
-        "chain": "油价下跌利好通胀回落（美联储降息预期升温），但利空能源股和产油国货币",
-        "watch": "OPEC+（石油输出国组织及盟友）产量政策及库存数据"
+        "what": "科技股反弹停滞，美元小幅走高",
+        "assets": "📉 美股科技股 承压；📈 美元指数 利好",
+        "chain": "美元走强压制新兴市场（如A股）和商品（如黄金），科技股估值回调（盈利倍数下降）",
+        "watch": "今晚美国10年期国债收益率（借钱成本指标）是否突破4.5%"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "腾讯大幅减持快手",
-        "assets": "📉 快手 承压，📈 腾讯 利好（现金回流）",
-        "chain": "互联网板块估值承压，资金可能转向腾讯回购或新业务，但中概股信心受挫",
-        "watch": "快手后续股东减持公告及腾讯财报"
+        "what": "腾讯大幅减持快手，深夜突发",
+        "assets": "📉 快手 承压；📉 中概互联网 承压",
+        "chain": "大股东减持（抛售股票）引发跟风卖盘，市场担忧腾讯收缩投资组合（变现资产），利空同板块如哔哩哔哩",
+        "watch": "快手明日开盘跌幅及腾讯是否继续减持其他持仓"
       }
     }
   ]
