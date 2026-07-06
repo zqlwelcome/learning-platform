@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 13:51",
+  "updateTime": "2026-07-06 13:55",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "美股平静周，PMI和消费财报接棒，SK海力士IPO成焦点",
-        "assets": "📈 美股大盘 中性偏多；📈 半导体板块 利好",
-        "chain": "PMI数据（采购经理指数）若强，可能推高美债收益率（借钱成本），压制成长股；SK海力士IPO提振芯片情绪",
-        "watch": "美国7月服务业PMI初值及消费巨头财报"
+        "what": "通胀担忧缓解，美股平静周关注PMI和财报",
+        "assets": "📈 美股大盘 中性偏多",
+        "chain": "PMI（采购经理人指数）若超预期会强化软着陆（经济温和降温）叙事，支撑风险偏好",
+        "watch": "服务业PMI初值及消费巨头营收指引"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "美银警告美股将‘回撤’，年内涨幅或蒸发，投机情绪极端",
-        "assets": "📉 美股大盘 利空；📈 VIX恐慌指数 利好",
-        "chain": "投机极端（杠杆过热）触发回调，资金可能轮动至防御板块（公用事业）或现金，二阶效应是波动率飙升",
-        "watch": "标普500指数是否跌破关键支撑位（如50日均线）"
-      }
+      "score": 37
     },
     {
       "rank": 3,
@@ -37,10 +31,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "陶冬称美联储不再需要加息",
-        "assets": "📈 美债 利好；📈 黄金 利好",
-        "chain": "加息预期降温（借钱成本不升），降低企业融资压力，利好利率敏感资产；美元可能走弱，支撑大宗商品",
-        "watch": "美联储7月FOMC会议（议息会议）点阵图及鲍威尔讲话"
+        "what": "陶冬称美联储无需再加息，市场鸽派预期升温",
+        "assets": "📈 美债 利好",
+        "chain": "加息预期降温压低短端利率（短期国债收益率），利好长债和黄金",
+        "watch": "本周美联储会议纪要措辞的鸽派程度"
       }
     },
     {
@@ -51,94 +45,94 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息押注缩减，金价走高",
-        "assets": "📈 黄金 利好；📉 美元指数 承压",
-        "chain": "加息预期下降（市场认为利率见顶），实际利率（名义利率减通胀）走低，黄金无息资产吸引力上升",
-        "watch": "美国通胀数据（CPI）及美联储官员讲话"
+        "what": "加息押注缩减推动金价走高至两周高位",
+        "assets": "📈 黄金 利好",
+        "chain": "实际利率（名义利率减通胀）下行提升黄金吸引力，美元走弱也支撑",
+        "watch": "美国CPI（消费者物价指数）数据及美联储纪要"
       }
     },
     {
       "rank": 5,
+      "title": "Gold holds near two-week high on easing Fed rate-hike bets",
+      "source": "CNBC",
+      "detail": "Gold was steady near a two-week high on Monday after a softer-than-expected U.S. jobs report last week tempered expectations of interest rate hikes from the Federal Reserve.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "光大期货认为黄金止跌回稳，关注美联储纪要",
+        "assets": "📈 黄金 中性偏多",
+        "chain": "短期技术面支撑，但纪要若偏鹰（倾向于加息）会压制反弹",
+        "watch": "美联储会议纪要中关于通胀的表述"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使制裁解除，也难以清理石油库存",
-        "assets": "📉 原油 中性偏空；📈 油轮运输 承压",
-        "chain": "制裁解除（出口限制放宽）后库存积压，实际出口增量有限，缓解供应过剩担忧，但运输瓶颈压制油轮需求",
-        "watch": "伊朗核协议谈判进展及OPEC+产量政策"
+        "what": "伊朗制裁豁免后难清库存，石油出口受限",
+        "assets": "📈 原油 利好",
+        "chain": "伊朗石油回归市场受阻，OPEC+（石油输出国组织及盟友）减产效果更显著",
+        "watch": "伊朗核谈判进展及美国制裁执行力度"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架系统因制造瓶颈延迟至2028年",
-        "assets": "📉 英伟达 利空；📈 AMD/英特尔 利好",
-        "chain": "AI硬件供应延迟（生产瓶颈），短期压制算力预期，但竞争对手（AMD）可能抢占份额，二阶效应是AI应用落地放缓",
-        "watch": "英伟达季度财报及制造合作伙伴（台积电）产能更新"
+        "what": "英伟达下一代AI机架系统因制造问题推迟至2028",
+        "assets": "📉 英伟达 利空",
+        "chain": "AI硬件供应延迟拖累算力产业链（如服务器、光模块）短期预期",
+        "watch": "英伟达官方指引及竞争对手AMD产品进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛称日元将延续历史性贬值，AI和能源‘供应荒’支撑美元",
-        "assets": "📉 日元 承压；📈 美元 利好",
-        "chain": "日元贬值（日本央行宽松）推动套利交易（借日元买高息资产），AI能源需求（芯片/电力）支撑美元，二阶效应是亚洲货币承压",
-        "watch": "日本央行7月利率决议及美国GDP数据"
+        "what": "高盛看跌日元，AI和能源供应紧张支撑美元",
+        "assets": "📉 日元 承压",
+        "chain": "美元走强压制新兴市场货币，AI需求推高能源成本加剧通胀",
+        "watch": "日本央行利率决议及美国能源库存数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "世界黄金协会：5月全球央行净购金41吨，多国持续加码储备布局",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 受中东地缘冲突影响，国际金价自年初高点持续大幅回落，但全球央行配置黄金的战略方向并未发生动摇。 世界黄金协会发布5月官方储备数据显示...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "5月全球央行净购金41吨，多国持续增持黄金储备",
+        "what": "全球央行5月净购金41吨，多国持续增持",
         "assets": "📈 黄金 利好",
-        "chain": "央行购金（官方储备多元化）提供实物需求支撑，抵消美元走强压力，二阶效应是金价底部抬升",
-        "watch": "全球央行月度购金数据及各国央行资产负债表"
+        "chain": "央行购金提供需求底仓，对冲ETF（交易所交易基金）流出风险",
+        "watch": "后续央行购金量及中国央行储备数据"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "光大期货0706黄金点评：短期黄金止跌回稳，本周关注美联储会议纪要",
       "source": "市场资讯",
       "detail": "上周黄金先抑后扬，非农就业数据“爆冷”后，加息预期降温，短线黄金止跌回稳，伦敦现货黄金周涨幅超2%，沪金主力合约小幅上涨。本周关注周四美联储会议纪要发布...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "短期黄金止跌回稳，关注美联储会议纪要",
-        "assets": "📈 黄金 中性偏多",
-        "chain": "止跌（技术性反弹）后等待催化剂，会议纪要（货币政策讨论记录）若偏鸽（宽松信号），进一步推高金价",
-        "watch": "本周美联储7月会议纪要及非农就业数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Samsung likely to post 18-fold jump in profit on surging AI demand for memory - Reuters",
-      "source": "Reuters",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "三星因AI内存需求激增，预计利润暴增18倍",
-        "assets": "📈 三星电子 利好；📈 存储芯片 利好",
-        "chain": "AI需求（大模型训练）拉动HBM（高带宽内存）和DDR5（第五代内存），供需紧张推升价格，二阶效应是芯片设备商受益",
-        "watch": "三星Q2财报详细利润数据及SK海力士IPO定价"
+        "what": "美银警告美股将‘回撤’，年内涨幅或蒸发",
+        "assets": "📉 美股科技股 承压",
+        "chain": "投机情绪极端触发均值回归（回归历史均值），资金可能转向防御板块（如公用事业）",
+        "watch": "标普500波动率指数VIX是否突破20"
       }
     }
   ]
