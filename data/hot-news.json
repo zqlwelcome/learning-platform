@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 17:21",
+  "updateTime": "2026-07-06 17:27",
   "news": [
     {
       "rank": 1,
@@ -9,28 +9,56 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "特朗普言论、乌克兰袭击与俄罗斯轰炸基辅引发地缘紧张",
-        "assets": "📈 黄金 利好；📈 原油 利好；📉 欧股 承压",
-        "chain": "地缘风险推高避险资产（黄金、美元），能源供应中断担忧支撑油价，欧股风险溢价上升",
-        "watch": "俄乌冲突升级信号；VIX指数是否跳升"
+        "what": "美银警告股市将遭遇‘ snapback’，今年涨幅可能回吐",
+        "assets": "📉 标普500 承压, 📉 纳斯达克 承压",
+        "chain": "投机情绪（散户追涨）极端触发均值回归（价格回归平均），可能引发程序化抛售",
+        "watch": "VIX（恐慌指数）是否突破20阈值"
       }
     },
     {
       "rank": 2,
+      "title": "Gold (XAUUSD) Price Forecast: Can Fed Minutes Lift Gold Above the 52-Week MA? - FXEmpire",
+      "source": "FXEmpire",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "美联储会议纪要或推动黄金突破52周均线",
+        "assets": "📈 黄金（XAUUSD） 利好",
+        "chain": "若纪要偏鸽（暗示降息），美元走弱（美元跌）→ 黄金作为替代资产（无息资产）吸引买盘",
+        "watch": "美联储官员讲话中‘通胀’关键词频率"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
+        "assets": "📉 英伟达（NVDA） 利空, 📉 半导体板块 承压",
+        "chain": "AI芯片供应延迟（产能瓶颈）→ 云计算资本开支（企业买服务器）可能后移，拖累科技股情绪",
+        "watch": "台积电（TSM）3nm良率（生产成功率）数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛看空日元，看多美元因AI和能源供应短缺",
-        "assets": "📉 日元 承压；📈 美元 利好；📈 能源股 利好",
-        "chain": "日元贬值加速套利交易（借日元买美元资产），AI需求推高芯片和能源价格",
-        "watch": "美元/日元是否突破160；美国原油库存变化"
+        "what": "高盛预测日元继续历史性暴跌，AI和能源‘供应短缺’支撑美元",
+        "assets": "📉 日元（USDJPY） 承压, 📈 美元指数（DXY） 利好",
+        "chain": "日元贬值（日本进口成本升）→ 套利交易（借日元买美元）加剧，美国AI能源需求（电力投资）提振美元",
+        "watch": "日本央行（BOJ）是否干预汇市"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
@@ -38,101 +66,79 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空；📉 美股AI芯片股 承压",
-        "chain": "供应瓶颈延迟AI算力升级，可能利好竞争对手AMD（超威半导体），但拖累数据中心资本开支预期",
-        "watch": "英伟达财报指引；台积电先进封装产能更新"
+        "assets": "📉 英伟达（NVDA） 利空, 📉 AI概念股 承压",
+        "chain": "供应链瓶颈（生产卡壳）→ 数据中心扩建（服务器采购）延迟，AMD（竞争对手）或获替代订单",
+        "watch": "英伟达官方是否确认新时间表"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使获制裁豁免也难清空石油库存",
-        "assets": "📈 原油 利好；📉 伊朗原油出口 承压",
-        "chain": "制裁解除后伊朗卖油受制于物流和买家限制，全球油市供应偏紧，推升油价",
-        "watch": "布伦特原油期货；伊朗出口量数据"
+        "what": "伊朗即使获制裁豁免，也难以清空石油库存",
+        "assets": "📉 原油（WTI/布伦特） 承压",
+        "chain": "伊朗库存积压（出口受限）→ 全球供应过剩（油多）预期，但OPEC+减产（减少产量）可能对冲",
+        "watch": "伊朗原油出口量是否突破100万桶/日"
       }
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "易捷航空同意73亿美元被凯斯莱克收购，股价暴涨10%",
       "source": "环球市场播报",
       "detail": "核心要点 易捷航空股价周一创下 52 周新高。 这家廉价航空上周日原则上同意美国私募机构凯斯莱克提出的上调后收购要约。2024 年 5 月 3 日周五...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美银警告股市将大幅回调，因投机过度",
-        "assets": "📉 标普500 利空；📉 美股科技股 承压",
-        "chain": "投机极端触发获利了结，恐慌指数（VIX）可能飙升，避险资金流向国债（安全资产）",
-        "watch": "标普500 5000点支撑位；VIX指数是否突破20"
+        "what": "凯斯莱克以73亿美元收购易捷航空，股价暴涨10%",
+        "assets": "📈 易捷航空（EZJ.L） 利好, 📈 欧洲航空板块 利好",
+        "chain": "并购溢价（收购价高于市价）→ 行业整合（航空公司合并）预期升温，低成本航司估值重估",
+        "watch": "欧盟反垄断审查是否通过"
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "South Korean prosecutors indict four major refiners over allegations of oil price collusion",
       "source": "CNBC",
       "detail": "South Korean prosecutors on Monday indicted four major domestic oil refiners for violating fair trade laws.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "韩国检方起诉四大炼油商合谋操纵油价",
-        "assets": "📉 韩国炼油股 利空；📉 亚洲成品油 承压",
-        "chain": "调查或导致罚款和监管收紧，炼油利润（裂解价差）可能短期受压，但OPEC（石油输出国组织）减产支撑原油",
-        "watch": "韩国炼油企业股价；成品油裂解价差"
+        "what": "韩国起诉四大炼油商涉嫌操纵油价",
+        "assets": "📉 韩国炼油股（SK Innovation等） 承压, 📉 亚洲炼油板块 承压",
+        "chain": "罚款风险（成本增加）→ 炼油利润率（加工差价）受压，可能引发其他地区反垄断调查",
+        "watch": "韩国公平贸易委员会罚款金额公告"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美股期货延续上周涨势，市场情绪偏多",
-        "assets": "📈 标普500 利好；📈 纳斯达克 利好",
-        "chain": "乐观情绪来自降息预期和科技股反弹，但需警惕美银警告的投机过热风险",
-        "watch": "本周美联储官员讲话；CPI（消费者物价指数）数据"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
-      "source": "CNBC",
-      "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
-      "lang": "en",
-      "score": 27
-    },
-    {
-      "rank": 9,
-      "title": "乘全球人工智能浪潮 韩芯片巨头SK海力士启动280亿美元赴美上市进程",
-      "source": "环球市场播报",
-      "detail": "SK海力士（SK Hynix）周一正式宣布启动赴美发行存托凭证（DR）的招股流程，拟募资43万亿韩元（约合280.7亿美元）。此举旨在乘全球人工智能（AI）爆发式增长之势...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "易捷航空被凯斯莱克以73亿美元收购，股价暴涨10%",
-        "assets": "📈 易捷航空 利好；📈 欧洲航空股 利好",
-        "chain": "并购溢价提振板块估值，可能引发其他廉价航空收购传闻，航空运力整合利好票价",
-        "watch": "欧洲航空指数；凯斯莱克融资进展"
+        "what": "标普500和纳斯达克期货延续上周涨势",
+        "assets": "📈 标普500期货 利好, 📈 纳斯达克期货 利好",
+        "chain": "风险偏好（敢买）回升→ 资金从债市（避险）流向股市，但需确认是否由财报驱动",
+        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
       }
     },
     {
       "rank": 10,
-      "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
+      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
       "source": "CNBC",
-      "detail": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv.",
+      "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
-      "score": 25,
+      "score": 27,
       "insight": {
-        "what": "SK海力士启动280亿美元赴美上市，借AI浪潮",
-        "assets": "📈 SK海力士 利好；📈 美股半导体 利好",
-        "chain": "上市融资用于扩产HBM（高带宽内存），强化美股AI硬件板块，可能分流韩国本土资金",
-        "watch": "IPO定价区间；HBM订单数据"
+        "what": "标普500和纳斯达克期货延续上周涨势",
+        "assets": "📈 标普500期货 利好, 📈 纳斯达克期货 利好",
+        "chain": "动能交易（追涨）延续→ 科技股领涨，但若短线超买（涨太快）可能触发获利回吐",
+        "watch": "10年期美债收益率是否跌破4%"
       }
     }
   ]
