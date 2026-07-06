@@ -1,120 +1,64 @@
 {
-  "updateTime": "2026-07-06 22:25",
+  "updateTime": "2026-07-06 22:30",
   "news": [
     {
       "rank": 1,
-      "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
-      "source": "AP News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "特朗普敲响纽交所开市钟，将总统表现与股市挂钩",
-        "assets": "📈 美股大盘 利好",
-        "chain": "政治风险溢价（不确定性补偿）下降，资金从避险资产回流权益",
-        "watch": "特朗普民调变化及美股波动率指数(VIX)"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Brookfield支持的Csquare赴美IPO 目标估值最高达41.8亿美元",
       "source": "环球市场播报",
       "detail": " 由Brookfield Asset Management支持的科技公司Csquare今日宣布，计划在美国进行首次公开募股，目标估值最高达41.8亿美元。这将成为2026年下半年规模较大的科技IPO之一。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "Brookfield旗下Csquare赴美IPO，目标估值最高41.8亿美元",
-        "assets": "📈 美股新股/私募市场 利好",
-        "chain": "一级市场（新股发行）回暖信号，可能带动相关地产/基建板块估值重估",
-        "watch": "该IPO认购倍数及首日涨幅"
+        "what": "Csquare赴美IPO，目标估值最高41.8亿美元",
+        "assets": "📈 美股IPO市场 利好；📈 美国房地产科技板块 利好",
+        "chain": "提振IPO定价信心（一级市场估值），吸引其他地产科技公司跟进上市",
+        "watch": "IPO首日涨幅及认购倍数"
       }
     },
     {
-      "rank": 3,
-      "title": "Microsoft and LinkedIn Just Analyzed the Future of Work and AI. It All Points to One Key Skillset - inc.com",
-      "source": "inc.com",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "微软与领英报告：AI未来工作关键技能是技能本身",
-        "assets": "📈 AI教育/培训板块 利好",
-        "chain": "AI应用层（落地场景）需求确认，利好SaaS（软件即服务）及企业服务股",
-        "watch": "微软AI相关收入增速及企业AI采购数据"
-      }
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "title": "黄金承压下跌 美联储会议纪要成焦点 霍尔木兹局势缓和缓解油价冲击",
       "source": "环球市场播报",
       "detail": "Kitco周一发布的美国市场早间报告显示，黄金价格在亚洲和欧洲交易时段承压走低，而原油价格则因霍尔木兹海峡航运逐步恢复以及OPEC+增产预期而延续跌势。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "黄金承压下跌，美联储会议纪要成焦点，霍尔木兹局势缓和缓解油价冲击",
-        "assets": "📉 黄金 承压 📉 原油 承压",
-        "chain": "地缘风险溢价消退，实际利率（名义利率减通胀）预期上升压制黄金",
-        "watch": "美联储纪要措辞及霍尔木兹海峡油轮通行量"
+        "what": "黄金承压下跌，美联储会议纪要成焦点，霍尔木兹局势缓和",
+        "assets": "📉 黄金 承压；📉 原油 利空",
+        "chain": "避险情绪降温（风险偏好回升），美元走强预期压制金价；地缘风险溢价消退打压油价",
+        "watch": "美联储会议纪要措辞及霍尔木兹海峡航运数据"
       }
     },
     {
-      "rank": 5,
-      "title": "Stock market today: Nasdaq leads S&P 500, Dow higher as tech jitters ease - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "科技股恐慌缓解，纳指领涨标普500和道指",
-        "assets": "📈 美股科技股 利好",
-        "chain": "风险偏好（投资意愿）回升，资金从防御股（公用事业）轮动回成长股",
-        "watch": "纳指能否站稳20日均线及科技ETF资金流"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
-      "source": "Forbes",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "福布斯：投资特朗普概念股和加密货币的散户损失惨重",
-        "assets": "📉 特朗普媒体(DJT) 利空 📉 加密货币 利空",
-        "chain": "散户情绪降温，Meme（情绪驱动）资产溢价消退，资金转向基本面",
-        "watch": "DJT股价是否破位及加密交易所资金流出量"
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 3,
       "title": "摩根士丹利：AI投资者或从芯片制造商转向超大规模企业",
       "source": "环球市场播报",
       "detail": "摩根士丹利在近日发布的一份研究报告中指出，随着人工智能投资逻辑的演进，投资者可能开始将资金从AI芯片制造商转向超大规模云服务商。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "摩根士丹利：AI投资者可能从芯片转向超大规模企业",
-        "assets": "📈 超大规模云商（微软/亚马逊/谷歌） 利好 📉 AI芯片股（英伟达） 承压",
-        "chain": "AI投资逻辑从硬件（芯片）向软件/云基建切换，估值体系重估",
-        "watch": "超大规模企业资本开支指引及芯片股相对强度"
+        "what": "摩根士丹利：AI投资或从芯片转向超大规模企业",
+        "assets": "📉 芯片股（如Nvidia） 承压；📈 超大规模企业（如微软、谷歌） 利好",
+        "chain": "资金轮动（板块切换），从硬件（芯片）转向软件/云服务（应用层）",
+        "watch": "超大规模企业资本开支指引及AI营收占比"
       }
     },
     {
-      "rank": 8,
+      "rank": 4,
       "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
       "source": "CNBC",
       "detail": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv.",
       "lang": "en",
       "score": 25,
       "insight": {
-        "what": "特朗普言论、乌克兰打击及俄罗斯对基辅轰炸令市场警惕",
-        "assets": "📉 欧洲股市 承压 📈 避险资产（美债/黄金） 利好",
-        "chain": "地缘风险升级推高波动率，资金撤出风险资产寻求避险",
-        "watch": "俄乌前线动态及VIX指数是否升至25以上"
+        "what": "特朗普言论、乌克兰袭击、俄导弹袭击基辅引发市场警惕",
+        "assets": "📉 全球风险资产 承压；📈 避险资产（美债、黄金） 利好",
+        "chain": "地缘政治风险溢价上升（不确定性增加），资金流向避险资产",
+        "watch": "俄乌冲突进展及特朗普政策表态"
       }
     },
     {
-      "rank": 9,
+      "rank": 5,
       "title": "腾讯据悉寻求出售快手股份，最高套现约16亿美元",
       "source": "界面",
       "detail": " 据报道，腾讯全资子公司Tencent Mobility拟通过大宗交易出售约2.73亿股快手股份，价格区间为每股43.15港元至44.53港元，最高套现约16亿美元。",
@@ -122,23 +66,79 @@
       "score": 22,
       "insight": {
         "what": "腾讯寻求出售快手股份，最高套现约16亿美元",
-        "assets": "📉 快手 承压 📈 腾讯 中性偏利好（减持缓解流动性压力）",
-        "chain": "大股东减持信号压制科技板块情绪，可能引发其他中概股跟风减持",
-        "watch": "快手股价是否跌破减持价及腾讯回购动向"
+        "assets": "📉 快手 承压；📉 中概股/互联网板块 承压",
+        "chain": "大股东减持信号（负面情绪），可能引发跟风抛售，压制港股科技板块估值",
+        "watch": "快手股价走势及腾讯后续减持动作"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Record heat, crowds drive offseason boom in international travel",
+      "source": "CNBC",
+      "detail": "Airlines are extending flight schedules to maximize on lucrative international travel.",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "创纪录高温和拥挤推动淡季国际旅游热潮",
+        "assets": "📈 航空股 利好；📈 酒店/旅游股 利好",
+        "chain": "需求外溢（旺季溢出效应），推高淡季出行量，利好航空和酒店营收",
+        "watch": "航空公司载客率及酒店入住率数据"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
+      "source": "CNBC",
+      "detail": "Microsoft is cutting jobs in its commercial business and its Xbox gaming group, where revenue has been shrinking.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "微软裁员4800人，Xbox部门精简并计划剥离四家游戏工作室",
+        "assets": "📉 微软 承压；📉 游戏行业 承压",
+        "chain": "科技巨头成本削减（控制开支），反映行业增长放缓，可能引发游戏板块估值下调",
+        "watch": "微软游戏业务营收及裁员对利润率的影响"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Nasdaq jumps to start new week led by chip stocks, Dow briefly tops 53,000 for first time: Live updates",
+      "source": "CNBC",
+      "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "纳指上涨，芯片股领涨，道指首次突破53000点",
+        "assets": "📈 美股科技股 利好；📈 芯片股 利好",
+        "chain": "科技板块领涨（市场情绪乐观），资金追涨推动指数新高，但需警惕获利了结",
+        "watch": "道指能否站稳53000点及科技股资金流向"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Here are Monday's biggest analyst calls: Nvidia, Netflix, AMD, First Solar, Micron, Sandisk, T-Mobile & more",
+      "source": "CNBC",
+      "detail": "Here are Monday's biggest calls on Wall Street.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "周一多家机构发布重磅个股研报，涉及Nvidia、Netflix等",
+        "assets": "📈 Nvidia 利好；📈 Netflix 利好；📉 AMD 承压",
+        "chain": "分析师评级调整（机构观点），影响个股短期交易情绪和资金流向",
+        "watch": "目标价变化及机构后续评级调整"
       }
     },
     {
       "rank": 10,
-      "title": "South Korea's SK Hynix launches $28 billion US listing to ride global AI wave - Reuters",
-      "source": "Reuters",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "title": "SpaceX President Gwynne Shotwell to donate stock to Trump Accounts",
+      "source": "CNBC",
+      "detail": "President Donald Trump told CNBC's Joe Kernen last week that he thought SpaceX CEO Elon Musk would donate company stock to the program.",
       "lang": "en",
-      "score": 20,
+      "score": 17,
       "insight": {
-        "what": "韩国SK海力士在美上市筹资280亿美元，押注AI浪潮",
-        "assets": "📈 美股半导体/存储芯片 利好",
-        "chain": "AI硬件需求确认，存储芯片周期（供需循环）上行，利好产业链设备商",
-        "watch": "SK海力士美股首日表现及HBM（高带宽内存）订单数据"
+        "what": "SpaceX总裁向特朗普账户捐赠股票",
+        "assets": "📈 SpaceX 利好；📈 特朗普相关概念股 利好",
+        "chain": "政治关联增强（利益绑定），可能推动SpaceX政府合同及监管利好预期",
+        "watch": "SpaceX IPO进展及特朗普政策动向"
       }
     }
   ]
