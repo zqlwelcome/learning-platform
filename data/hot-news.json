@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 19:16",
+  "updateTime": "2026-07-06 19:21",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 62,
       "insight": {
-        "what": "SpaceX IPO后首次披露国会议员持股",
-        "assets": "📈 太空概念股 利好",
-        "chain": "政治人物持仓引发监管审查风险，或拖累后续军工合同审批（政府订单延迟）",
-        "watch": "SEC是否扩大议员交易披露范围"
+        "what": "国会议员首次披露持有SpaceX股票，IPO后曝光",
+        "assets": "📈 SpaceX未上市股权 利好",
+        "chain": "政治背书提升估值，或加速太空概念股（如卫星通信公司）资金流入",
+        "watch": "SpaceX二次上市传闻及监管披露动态"
       }
     },
     {
@@ -23,56 +23,70 @@
       "lang": "zh",
       "score": 55,
       "insight": {
-        "what": "瑞高新材实控人违规转移482万美元出境",
-        "assets": "📉 瑞高新材 承压",
-        "chain": "IPO审核趋严，实控人合规风险可能导致上市推迟或募资额缩水（融资规模减少）",
-        "watch": "证监会是否暂停其IPO审核"
+        "what": "瑞高新材IPO曝实控人违规转移资金，员工持股近14%",
+        "assets": "📉 瑞高新材IPO 承压",
+        "chain": "合规风险引发监管审查（证监会问询），IPO进程或延迟，利空打新情绪",
+        "watch": "证监会是否暂停审核及资金追回进展"
       }
     },
     {
       "rank": 3,
+      "title": "硅基流动港股IPO：递表前拔估值踩线闯关？官宣20亿融资额与实际存出入 招股书是否涉嫌包装",
+      "source": "新浪证券",
+      "detail": "出品：新浪上市公司研究院 文/夏虫工作室 核心观点：硅基流动6月5日刚到账5.2亿元融资款，6月9日又再次启动B+轮融资，公司为何如此迫不及待开启B+轮融资？",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "硅基流动港股IPO被指估值包装，融资额与实际不符",
+        "assets": "📉 港股科技新股 承压",
+        "chain": "市场对AI公司估值信任度下降，可能引发做空（卖空）或撤单潮",
+        "watch": "港交所聆讯结果及招股书修正内容"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Micron Stock Investors Just Got Good News From Wall Street and Nvidia CEO Jensen Huang - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "美光获华尔街及黄仁勋看好，股价获提振",
+        "assets": "📈 美光科技 利好",
+        "chain": "AI芯片需求预期升温，带动存储芯片（DRAM/NAND）产业链涨价",
+        "watch": "美光下季财报指引及HBM（高带宽内存）出货量"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
       "source": "CNBC",
       "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "检方为100亿美元熟食诈骗案主犯求减刑",
-        "assets": "📉 美国司法类ETF 利空",
-        "chain": "司法公信力受损，可能引发金融犯罪量刑宽松预期，增加欺诈案风险（道德风险上升）",
-        "watch": "最终判决是否低于市场预期"
+        "what": "联邦政府寻求减轻百亿诈骗犯刑期，部分原因保密",
+        "assets": "📉 美国司法信用 承压",
+        "chain": "监管宽松信号可能削弱投资者对金融犯罪打击信心，利空银行股",
+        "watch": "量刑听证会结果及SEC是否追加处罚"
       }
     },
     {
-      "rank": 4,
-      "title": "Gold (XAUUSD) Price Forecast: Can Fed Minutes Lift Gold Above the 52-Week MA? - FXEmpire",
-      "source": "FXEmpire",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "黄金能否突破52周均线取决于美联储会议纪要",
-        "assets": "📈 黄金 看涨",
-        "chain": "纪要若偏鸽（暗示降息），美元走弱推升金价；反之跌破均线触发技术性抛售（止损单激活）",
-        "watch": "美联储对通胀的措辞变化"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使制裁解除也难以清空原油库存",
-        "assets": "📉 原油 承压",
-        "chain": "伊朗库存释放冲击OPEC+减产效果，油价面临下行压力，但需物流瓶颈缓解（运输能力不足）",
-        "watch": "伊朗原油出口量是否突破50万桶/日"
+        "what": "伊朗制裁解除后仍难清空石油库存",
+        "assets": "📈 原油价格 利好",
+        "chain": "供应受限推升油价（布伦特原油），OPEC+（石油输出国组织）减产预期强化",
+        "watch": "伊朗原油出口量及美国制裁执行力度"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
@@ -80,65 +94,51 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空",
-        "chain": "AI算力供给延迟压制科技股情绪，利好竞争对手AMD（市场份额预期提升）",
-        "watch": "英伟达官方是否下调2027年营收指引"
+        "assets": "📉 英伟达 承压；📈 竞争对手AMD 利好",
+        "chain": "AI算力供给缺口扩大，倒逼客户转向定制芯片（ASIC），利空NV供应链",
+        "watch": "英伟达官方修正指引及台积电CoWoS（先进封装）产能"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "SK海力士启动赴美上市推介 有望跻身全球历史上规模前三大IPO",
       "source": "环球市场播报",
       "detail": " SK海力士周一正式启动赴美上市的推介程序。这家韩国芯片制造商希望借助投资者对炙手可热的存储芯片行业需求激增的契机，完成此次上市。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SK海力士启动赴美上市推介，拟募资规模或创历史前三",
+        "what": "SK海力士启动赴美IPO，拟成历史前三大IPO",
         "assets": "📈 美股半导体 利好",
-        "chain": "巨额IPO吸走流动性，短期压制科技板块；但提振韩国半导体产业链估值（板块联动效应）",
-        "watch": "定价区间是否高于市场预期"
+        "chain": "募资用于HBM扩产，强化AI存储龙头地位，或分流韩股资金",
+        "watch": "IPO定价区间及美国芯片法案补贴落地"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "SK海力士计划在美国IPO中发行1779万股普通股",
       "source": "环球市场播报",
       "detail": "SK海力士计划通过美国首次公开募股发行1779万股普通股。 公司预计，通过本次发行并出售由ADS代表的1779万股普通股，募集资金净额约为280亿美元。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SK海力士计划美国IPO发行1779万股",
-        "assets": "📈 美股存储芯片 利好",
-        "chain": "稀释效应有限（股本扩张小），但需关注发行价是否反映HBM（高带宽内存）需求溢价",
-        "watch": "最终定价较初始区间上浮比例"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "耐德股份IPO：实控人父子控股近95% “两桶油”撑起半壁江山",
-      "source": "新浪证券",
-      "detail": "耐德股份营收三年接近翻倍、扣非净利润增长18倍、资产负债率69%、IPO前分红6000万元、家族控制95%表决权——这家从重庆仪表厂走出的“小巨人”，正站在资本市场的门口。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "耐德股份实控人父子持股近95%，依赖两桶油",
-        "assets": "📉 耐德股份 承压",
-        "chain": "客户集中度过高（客户依赖风险），IPO估值或打折；两桶油反腐可能冲击订单稳定性",
-        "watch": "中石油采购合同是否续期"
+        "what": "SK海力士计划美国IPO发行1779万股普通股",
+        "assets": "📈 美股半导体 利好；📉 韩国KOSPI 承压",
+        "chain": "稀释现有股东权益但提升流动性，可能引发韩股资金外流",
+        "watch": "发行价及认购倍数"
       }
     },
     {
       "rank": 10,
-      "title": "物奇微IPO：三年累计亏损7.5亿元拟募资16亿 董秘曾是保荐人“老同事”",
+      "title": "夏禾科技IPO：产能利用率低于55%仍扩产 保荐券商关联方既持股还曾参与对赌",
       "source": "新浪证券",
-      "detail": "一家三年累计亏损7.5亿元、累计未分配利润为-8.55亿元、经营现金流持续为负的芯片设计公司，正在向科创板发起冲击，计划募资16.19亿元——相当于其净资产的3.39倍。",
+      "detail": "出品：新浪财经上市公司研究院 作者：IPO再融资组/图灵 近日，中国证券业协会公布了当年第四批首发企业现场检查抽查名单，21家拟上市企业入围。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "物奇微三年亏损7.5亿拟募16亿，董秘与保荐人存关联",
-        "assets": "📉 物奇微 承压",
-        "chain": "亏损企业高募资引发利益输送质疑，科创板审核或要求解释研发投入转化率（技术变现能力）",
-        "watch": "问询函是否要求更换保荐机构"
+        "what": "夏禾科技IPO：产能利用率不足55%仍扩产，保荐券商关联方持股",
+        "assets": "📉 夏禾科技IPO 承压",
+        "chain": "过度扩产风险引发财务质疑（ROE（净资产收益率）下滑），监管或要求补充说明",
+        "watch": "发审委问询函及产能消化计划"
       }
     }
   ]
