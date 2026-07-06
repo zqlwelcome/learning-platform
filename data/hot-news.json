@@ -1,78 +1,120 @@
 {
-  "updateTime": "2026-07-06 15:51",
+  "updateTime": "2026-07-06 15:56",
   "news": [
     {
       "rank": 1,
+      "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 37,
+      "insight": {
+        "what": "美银警告美股将大幅回调，因投机过度",
+        "assets": "📉 美股大盘 承压；📉 科技成长股 利空",
+        "chain": "投机极端（杠杆过高）引发抛售，避险情绪推升国债（安全资产），资金从股市流向债市。",
+        "watch": "VIX（恐慌指数）是否突破20；标普500周度资金流"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Gold (XAUUSD) Price Forecast: Can Fed Minutes Lift Gold Above the 52-Week MA? - FXEmpire",
+      "source": "FXEmpire",
+      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "美联储会议纪要可能推动黄金突破52周均线",
+        "assets": "📈 黄金 利多；📉 美元指数 承压",
+        "chain": "若纪要偏鸽（暗示停止加息），美元走弱，实际利率（通胀调整后利率）下行，直接利好黄金。",
+        "watch": "美联储纪要措辞；美元指数是否跌破100"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Gold holds near two-week high on easing Fed rate-hike bets",
       "source": "CNBC",
       "detail": "Gold was steady near a two-week high on Monday after a softer-than-expected U.S. jobs report last week tempered expectations of interest rate hikes from the Federal Reserve.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "金价因美联储加息押注降温而持稳于两周高位",
-        "assets": "📈 黄金 利好",
-        "chain": "降息预期（借钱成本降低）推高金价，美元走弱（美元贬值）支撑大宗商品",
-        "watch": "美国非农就业数据（影响加息预期）"
+        "what": "黄金因降息押注升温，持稳近两周高位",
+        "assets": "📈 黄金 利多；📉 美国国债收益率 承压",
+        "chain": "降息预期（借钱成本降低）压低美债收益率，降低持有黄金的机会成本（放弃利息的损失），资金流入黄金。",
+        "watch": "CME FedWatch（利率期货工具）降息概率变化"
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
+        "assets": "📉 英伟达 利空；📉 AI芯片板块 承压",
+        "chain": "硬件延迟拖累AI算力（计算能力）部署节奏，云厂商资本开支可能推迟，削弱短期营收预期。",
+        "watch": "英伟达官方指引；台积电CoWoS（先进封装技术）产能更新"
+      }
+    },
+    {
+      "rank": 5,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使获制裁豁免仍难清空石油库存",
-        "assets": "📉 原油 承压",
-        "chain": "伊朗库存积压（供应过剩）压制油价，OPEC+减产（减少供应）可能不及预期",
-        "watch": "伊朗石油出口量（实际出货数据）"
+        "what": "伊朗即使获制裁豁免，也难以快速清理石油库存",
+        "assets": "📉 原油 承压有限；📈 油轮运输 利空",
+        "chain": "伊朗库存释放受阻（物流/保险障碍），短期供应增量不及预期，油价获支撑但油轮运力需求下降。",
+        "watch": "伊朗原油出口量数据；制裁豁免具体条款"
       }
     },
     {
-      "rank": 3,
+      "rank": 6,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空 📈 AMD（超威半导体） 利好",
-        "chain": "AI芯片供应延迟（产能不足）利好竞争对手，科技股板块承压（成长预期下调）",
-        "watch": "英伟达官方公告（确认延期细节）"
+        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年（重复）",
+        "assets": "📉 英伟达 利空；📉 AI芯片板块 承压",
+        "chain": "硬件延迟拖累AI算力（计算能力）部署节奏，云厂商资本开支可能推迟，削弱短期营收预期。",
+        "watch": "英伟达官方指引；台积电CoWoS（先进封装技术）产能更新"
       }
     },
     {
-      "rank": 4,
+      "rank": 7,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛预测日元延续历史性跌势，AI和能源供应短缺支撑美元",
-        "assets": "📉 日元 承压 📈 美元 利好",
-        "chain": "日元贬值（日本央行宽松）推高进口成本，美元走强（避险资金流入）压制新兴市场",
-        "watch": "日本央行政策会议（是否干预汇率）"
+        "what": "高盛看空日元，看多美元因AI和能源供应短缺",
+        "assets": "📈 美元 利多；📉 日元 承压；📈 AI能源股 利多",
+        "chain": "AI和能源供应紧张（供给不足）推高美国通胀预期，支撑美元利率，日元利差（息差劣势）扩大持续贬值。",
+        "watch": "美元/日元汇率是否突破150；美国CPI（消费者物价指数）数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "友邦股份IPO：助友转贷超2500万，实控人套利理财上亿，坏账分立转嫁体外、分红超利润，研发不足2%",
       "source": "市场资讯",
       "detail": "来源：新财渤社 文\\观澜 友邦散热器（常熟）股份有限公司（以下简称“友邦股份”）于7月2日回复北交所首轮问询。 公司治理层面，王氏家族以81.56%的控股比例形成绝对控制...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "友邦股份IPO曝实控人套利上亿，坏账转嫁体外",
-        "assets": "📉 中小银行股 利空 📉 金融监管 承压",
-        "chain": "坏账风险暴露（信用违约上升）打压银行板块，监管趋严（合规成本增加）抑制新股发行",
-        "watch": "证监会调查进展（是否立案）"
+        "what": "友邦股份IPO：助贷转贷、实控人套利、坏账转嫁、研发不足",
+        "assets": "📉 友邦股份 利空；📉 金融科技板块 承压",
+        "chain": "财务违规（坏账转移/分红超利润）暴露公司治理风险，监管可能收紧助贷（贷款中介）行业，资金撤出小微金融。",
+        "watch": "证监会是否立案；公司回应及审计报告"
       }
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
@@ -80,65 +122,23 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 体育博彩股 利好 📈 区块链概念 利好",
-        "chain": "预测市场热度（投机情绪高涨）溢出到加密货币，监管关注（合规风险）可能后续压制",
-        "watch": "世界杯相关平台用户增长数据"
+        "assets": "📈 预测市场平台（如Polymarket） 利多；📈 体育博彩股 利多",
+        "chain": "事件驱动投机需求（短期押注）激增，提升平台佣金收入和用户基数，但监管不确定性仍存。",
+        "watch": "平台代币价格；各国监管政策更新"
       }
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛称这些被低估股票有望跑赢大盘",
-        "assets": "📈 美股价值股 利好",
-        "chain": "价值投资回归（低估值板块轮动）推动资金流入，成长股（高估值科技股）面临压力",
-        "watch": "高盛推荐个股名单（具体标的）"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Oil slips after OPEC+ agrees to raise output targets",
-      "source": "CNBC",
-      "detail": "Oil fell on Monday after OPEC+ agreed to further increase output targets from August while exports from key producers via the Strait are recovering, potentially adding to global supplies.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "OPEC+同意增产，油价承压下跌",
-        "assets": "📉 原油 利空 📈 航空股 利好",
-        "chain": "增产（供应增加）压低油价，降低通胀（能源成本下降）利好消费板块",
-        "watch": "OPEC+实际执行增产幅度（是否达标）"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "净利预增近10倍，6倍光纤牛股跌停，公司回应",
-      "source": "21世纪经济报道",
-      "detail": "记者丨林健民 编辑丨叶映橙 7月6日，光纤概念股集体走弱，指数一度跌超4%。 值得注意的是，上周发布业绩利好的杭电股份（603618.SH）快速跌停，截至13：10，仍封死跌停板...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "净利润预增近10倍光纤牛股跌停",
-        "assets": "📉 A股光纤板块 利空",
-        "chain": "利好出尽（预期兑现）引发获利回吐，游资撤退（短线资金流出）打压小盘股",
-        "watch": "公司后续业绩预告（是否修正）"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Ebola outbreak containment hampered by USAID closure, experts say",
-      "source": "CNBC",
-      "detail": "Foreign aid cuts have \"demonstrably worsened\" the Ebola crisis, a virologist told CNBC.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "美国国际开发署关闭阻碍埃博拉疫情控制",
-        "assets": "📉 全球健康概念股 承压 📈 疫苗股 利好",
-        "chain": "疫情扩散（公共卫生风险）推高医疗需求，供应链（检测试剂）面临中断风险",
-        "watch": "WHO（世界卫生组织）紧急响应声明"
+        "what": "高盛推荐被低估股票，称其有望跑赢大盘",
+        "assets": "📈 高盛推荐个股（如周期股/价值股） 利多；📉 成长股 相对承压",
+        "chain": "资金从高估值（市盈率过高）板块轮动至低估值（市盈率低）板块，反映市场风险偏好（愿意冒险程度）转向防御。",
+        "watch": "高盛报告具体名单；价值/成长因子（投资风格）相对表现"
       }
     }
   ]
