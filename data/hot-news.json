@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 02:26",
+  "updateTime": "2026-07-07 02:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SK海力士启动280亿美元美国IPO，借AI浪潮推高估值",
-        "assets": "📈 美股半导体 利好\n📈 美股指期货 短期提振",
-        "chain": "AI需求（算力芯片需求）拉动半导体板块估值修复，带动科技股资金回流",
-        "watch": "IPO定价区间及超额认购倍数"
+        "what": "SK海力士寻求280亿美元美国IPO，乘AI浪潮",
+        "assets": "📈 半导体板块 利好\n📈 美股IPO市场 活跃",
+        "chain": "提振芯片股情绪，AI基建需求（算力投资）预期升温，带动上游材料",
+        "watch": "IPO定价及认购倍数"
       }
     },
     {
@@ -23,28 +23,14 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普敲响纽交所开市钟，强调股市表现与政绩挂钩",
-        "assets": "📈 美股大盘 短期情绪利好\n📈 美元 政策预期支撑",
-        "chain": "市场解读为政策护盘信号（政府托底股市），可能抑制短期波动率（价格波动幅度）",
-        "watch": "特朗普民调及关税相关言论"
+        "what": "特朗普敲响纽交所开市钟，将总统任期与股市挂钩",
+        "assets": "📈 美股大盘 短期利好\n📉 政策不确定性 风险",
+        "chain": "强化市场对宽松监管预期（放松企业管制），但过度关联或引发回调",
+        "watch": "特朗普政策声明及民调变化"
       }
     },
     {
       "rank": 3,
-      "title": "Stock Market Today: Dow Dips, Nasdaq Jumps While Trump Says This; Micron Bounces, Chips Pop (Live Coverage) - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "科技股分化：道指跌、纳指涨，特朗普发言提振芯片股",
-        "assets": "📈 纳斯达克 短期偏多\n📉 道琼斯 承压",
-        "chain": "资金从防御板块（如消费）轮动至科技成长股，风险偏好（投资者冒险意愿）回升",
-        "watch": "纳指能否突破前高阻力位"
-      }
-    },
-    {
-      "rank": 4,
       "title": "摩根士丹利建议押注美联储加息预期消退",
       "source": "环球市场播报",
       "detail": "摩根士丹利的利率策略师建议，随着美联储加息预期减弱，投资者应押注较短期限美国国债收益率相对于较长期限品种下行。 其结果将是美国国债收益率曲线趋陡...",
@@ -53,26 +39,26 @@
       "insight": {
         "what": "摩根士丹利建议押注美联储加息预期消退",
         "assets": "📈 美债 利好\n📉 美元 承压",
-        "chain": "加息预期降温（市场预计利率下降）压低实际利率，利好风险资产（股票、商品）",
-        "watch": "本周美联储官员讲话及CPI数据"
+        "chain": "降息预期（借钱成本降低）推高风险资产，利空银行净息差（贷款利润）",
+        "watch": "CPI及PCE通胀数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "深化半导体与AI基础设施布局 索尔斯蒂斯先进材料拟145亿美元收购元素解决方案",
       "source": "环球市场播报",
       "detail": "美国特殊化学品制造商索尔斯蒂斯先进材料（Solstice Advanced Materials）周一正式宣布，已与同业企业元素解决方案（Element Solutions）达成最终合并协议。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "索尔斯蒂斯拟145亿美元收购元素解决方案，加码半导体与AI基建",
-        "assets": "📈 美股材料股 利好\n📈 AI基础设施板块 利好",
-        "chain": "并购溢价（收购价高于市价）推高同类资产估值，资金涌入上游材料（如特种化学品）",
-        "watch": "收购能否通过反垄断审查"
+        "what": "索尔斯蒂斯先进材料145亿美元收购元素解决方案",
+        "assets": "📈 特种材料 利好\n📈 AI基础设施 利好",
+        "chain": "行业整合加速（并购潮），提升AI硬件供应链集中度，利好龙头",
+        "watch": "监管审批进展及反垄断审查"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -80,65 +66,79 @@
       "score": 32,
       "insight": {
         "what": "对冲基金连续第四周抛售芯片股，AI板块遭卖出",
-        "assets": "📉 美股半导体 承压\n📉 AI概念股 利空",
-        "chain": "机构资金流出引发散户跟风抛售，短期可能加剧板块回调（价格下跌）",
-        "watch": "费城半导体指数（SOX）能否守住200日均线"
+        "assets": "📉 芯片股 承压\n📉 AI概念股 利空",
+        "chain": "资金轮动（从高估值科技转向防御），短期压制半导体板块情绪",
+        "watch": "费城半导体指数（SOX）走势"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "报道：美国财政部的一份报告草案对AI泡沫风险发出警告",
       "source": "环球市场播报",
       "detail": "NOTUS援引其获得的文件报道称，美国财政部分析师起草的一份报告草案将警告人工智能带来的风险。 NOTUS报道称，分析师发现，人工智能市场下滑将对经济构成重大风险。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美国财政部草案警告AI泡沫风险",
-        "assets": "📉 AI概念股 利空\n📉 成长股 承压",
-        "chain": "政策信号引发估值担忧（市盈率过高），资金可能转向防御型资产（如公用事业）",
-        "watch": "后续是否有监管收紧措施出台"
+        "what": "美国财政部报告草案警告AI泡沫风险",
+        "assets": "📉 AI概念股 利空\n📉 科技成长股 承压",
+        "chain": "监管风险（政策收紧）叠加估值压力，引发获利回吐（止盈卖出）",
+        "watch": "FOMC会议及科技股财报"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "SK海力士启动赴美上市推介 有望成为全球历史上规模前三大IPO",
       "source": "环球市场播报",
       "detail": " SK海力士周一正式启动赴美上市的推介程序。这家韩国芯片制造商希望借助投资者对炙手可热的存储芯片行业需求激增的契机，完成此次上市。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "SK海力士启动赴美上市推介，或成全球前三大IPO",
-        "assets": "📈 美股IPO市场 提振\n📈 半导体板块 估值锚定",
-        "chain": "大型IPO（首次公开募股）吸走流动性，但提振板块整体估值中枢（中间值）",
-        "watch": "上市首日涨跌幅及机构认购情况"
+        "what": "SK海力士启动赴美上市推介，或成历史前三大IPO",
+        "assets": "📈 美股半导体 利好\n📈 韩国股市 联动",
+        "chain": "吸引全球资金（流动性虹吸），推高同类估值，但稀释现有筹码",
+        "watch": "IPO估值及机构认购意愿"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
       "source": "Forbes",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "福布斯报道：投资特朗普概念股和加密货币的投资者血亏",
-        "assets": "📉 特朗普概念股 利空\n📉 加密货币 承压",
-        "chain": "散户信心受损（投资亏损），可能减少对高风险资产的投机性配置",
-        "watch": "相关股票（如DWAC）是否继续下跌"
+        "what": "投资者因买入特朗普股票和加密货币损失数十亿美元",
+        "assets": "📉 特朗普概念股 利空\n📉 加密市场 承压",
+        "chain": "散户信心受损（恐慌抛售），波及政治关联资产，避险情绪升温",
+        "watch": "相关个股波动率及资金流向"
       }
     },
     {
-      "rank": 10,
-      "title": "Stock market today: Nasdaq leads S&P 500, Dow higher as tech jitters ease - Yahoo Finance",
-      "source": "Yahoo Finance",
+      "rank": 9,
+      "title": "Stock Market Today: Nasdaq Rises at Start of Busy Week for Tech Stocks — Live Updates - WSJ",
+      "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "科技股恐慌缓解，纳指领涨标普500和道指",
-        "assets": "📈 纳斯达克 短期偏多\n📈 科技股 反弹",
-        "chain": "空头回补（做空者买入平仓）推高价格，资金从防御板块回流科技成长",
-        "watch": "VIX指数（恐慌指数）是否回落至20以下"
+        "what": "纳斯达克上涨，科技股繁忙周开局",
+        "assets": "📈 科技股 利好\n📈 纳斯达克 领涨",
+        "chain": "财报预期（业绩催化剂）驱动，但高利率（融资成本）仍是隐忧",
+        "watch": "苹果、微软等巨头财报"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Low volatility stocks like insurers and REITs are suddenly turning into market leaders, Katie Stockton says",
+      "source": "CNBC",
+      "detail": "An ETF tied to low volatility stocks is benefiting from a broadening in market leadership and participation.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "低波动率股票（保险、REITs）突然成为市场领导者",
+        "assets": "📈 保险股 利好\n📈 REITs 利好\n📉 科技成长股 承压",
+        "chain": "资金防御性轮动（避险买入），预示市场风险偏好下降",
+        "watch": "VIX指数及10年期美债收益率"
       }
     }
   ]
