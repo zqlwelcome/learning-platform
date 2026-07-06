@@ -1,144 +1,144 @@
 {
-  "updateTime": "2026-07-06 07:55",
+  "updateTime": "2026-07-06 08:00",
   "news": [
     {
       "rank": 1,
-      "title": "Global stock markets close higher as Europe's benchmark hits 52-week high: Live updates",
-      "source": "CNBC",
-      "detail": "Europe's Stoxx 600 ended Friday higher, following Asia-Pacific markets, as investors continued rotating out of technology stocks.",
-      "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "全球股市收高，欧股创52周新高",
-        "assets": "📈 欧股 利好; 📈 美股 利好",
-        "chain": "风险偏好（市场乐观情绪）回升，资金从避险资产（如国债）流出，利好风险资产",
-        "watch": "美股期货及欧洲PMI数据"
-      }
-    },
-    {
-      "rank": 2,
       "title": "13家公司摘牌退市 A股“新陈代谢”加速",
       "source": "",
       "detail": "（来源：经济参考报） A股近日再度迎来两只退市股，退市岩石、退市国化正式终止上市并摘牌，上半年退市名单“封卷”。同花顺iFinD数据显示...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "13家公司摘牌退市，A股退市加速",
-        "assets": "📉 A股ST股 利空; 📉 小盘垃圾股 承压",
-        "chain": "退市常态化挤压壳价值，资金向蓝筹（大市值龙头股）和绩优股集中，劣质股流动性枯竭",
-        "watch": "退市公司数量及监管新规落地"
+        "what": "A股13家公司退市，市场出清加速",
+        "assets": "📉 A股小盘股 承压; 📈 A股蓝筹股 利好",
+        "chain": "退市常态化→资金向优质股集中（抱团效应）→小盘流动性风险溢价上升（流动性折价）",
+        "watch": "退市公司数量及ST板块（特别处理股票）表现"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "世界杯推高预测市场交易量至纪录",
-        "assets": "📈 博彩/预测平台 利好; 📈 体育相关ETF 利好",
-        "chain": "事件驱动投机（短期押注行为）升温，资金短期流入相关概念，但赛事后可能快速撤出",
-        "watch": "预测平台用户增长及监管风险"
+        "what": "世界杯推高预测市场交易量创纪录",
+        "assets": "📈 区块链预测平台 利好; 📈 体育博彩股 利好",
+        "chain": "预测市场热→去中心化金融（DeFi）协议活跃→投机情绪蔓延至加密资产",
+        "watch": "PolyMarket（预测市场龙头）日活用户数"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票，称其有望跑赢",
-        "assets": "📈 高盛推荐个股 利好",
-        "chain": "机构背书吸引资金流入价值股（股价低于内在价值的股票），带动板块估值修复",
-        "watch": "高盛报告具体标的及财报验证"
+        "what": "高盛推荐低估值股票跑赢大盘",
+        "assets": "📈 美股价值股 利好; 📈 金融板块 利好",
+        "chain": "低估值策略受捧→资金轮动出成长股→防御性行业（如公用事业）承压",
+        "watch": "价值因子ETF（如IWD）相对成长因子ETF（如IVW）表现"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "华尔街分析师偏好高股息股增回报",
-        "assets": "📈 高股息股 利好; 📈 公用事业 利好",
-        "chain": "防御性配置需求上升，资金从成长股（高估值高增长股票）轮动至分红稳定板块，压低波动",
-        "watch": "股息率及利率走势"
+        "what": "分析师看好高股息股票提升组合收益",
+        "assets": "📈 美股红利股 利好; 📈 公用事业板块 利好",
+        "chain": "红利策略受捧→债券替代需求上升（股债跷跷板）→长期国债收益率承压",
+        "watch": "标普500红利指数走势及10年期美债收益率"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Oil prices hover near pre-conflict levels as OPEC+ boosts output again - Fox Business",
       "source": "Fox Business",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "OPEC+增产，油价接近冲突前水平",
-        "assets": "📉 原油 利空; 📈 航空股 利好",
-        "chain": "供应增加压低油价，利好用油行业（航空、运输），但通胀预期（物价上涨担忧）降温或延缓央行紧缩",
-        "watch": "OPEC+产量数据及库存变化"
+        "what": "OPEC+增产致油价回落至冲突前水平",
+        "assets": "📉 原油 承压; 📈 航空股 利好",
+        "chain": "油价跌→运输成本降→通胀预期缓和→美联储加息预期降温（降息预期升温）",
+        "watch": "OPEC+月度产量数据及美国EIA（能源信息署）库存报告"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Markets After the Oil Shock - Robin J Brooks | Substack",
       "source": "Robin J Brooks | Substack",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "分析称油价冲击后市场调整",
+        "what": "油价冲击后市场分析，关注通胀传导",
         "assets": "📉 能源股 承压; 📈 消费股 利好",
-        "chain": "油价回落释放成本压力，消费者支出意愿回升，但能源板块盈利预期下调",
-        "watch": "油价走势及能源公司财报"
+        "chain": "油价冲击消退→企业成本压力缓解→利润率修复→可选消费弹性增加",
+        "watch": "美国核心PCE（个人消费支出物价指数）月度数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
       "source": "CNBC",
       "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克期货延续涨势",
-        "assets": "📈 美股科技股 利好; 📈 标普500 利好",
-        "chain": "多头情绪（看涨情绪）强化，追涨资金入场，但高位可能引发获利了结（卖出盈利仓位）",
-        "watch": "期货持仓量及开盘后成交量"
+        "what": "美股期货延续涨势，上周强势",
+        "assets": "📈 美股主要指数 利好; 📈 科技股 利好",
+        "chain": "期货涨→风险偏好回升→资金从避险资产流出（如黄金）→美元指数可能走弱",
+        "watch": "标普500指数能否突破前高及VIX（波动率指数）水平"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "快讯：现货黄金重回4200美元/盎司 日内涨0.62%",
       "source": "市场资讯",
       "detail": "现货黄金突破4200美元/盎司，日内涨0.62%。",
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "现货黄金重回4200美元/盎司",
+        "what": "现货黄金重回4200美元/盎司，涨0.62%",
         "assets": "📈 黄金 利好; 📉 美元 承压",
-        "chain": "避险需求（规避风险）或通胀对冲（对抗物价上涨）推高金价，实际利率（名义利率减通胀）下行支撑",
-        "watch": "美元指数及美债实际收益率"
+        "chain": "金价涨→避险需求上升→实际利率下行（通胀预期高于名义利率）→美债收益率走低",
+        "watch": "美国非农就业数据及美联储官员讲话"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "国际油价下挫，黄金逼近4200美元，比特币涨破63000美元",
       "source": "21世纪经济报道",
       "detail": "北京时间7月6日，黄金白银高开，截至6：38，现货黄金涨0.35%报4189.33美元/盎司；现货白银报63.05美元/盎司，日内涨超1%。国际油价小幅低开，美油跌0.43%，报68...",
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "油价下跌，黄金逼近4200，比特币破63000",
-        "assets": "📉 原油 利空; 📈 黄金 利好; 📈 比特币 利好",
-        "chain": "资金从商品（石油）流向避险（黄金）和投机（比特币），风险偏好分化，通胀预期复杂化",
-        "watch": "比特币ETF资金流及黄金持仓"
+        "what": "油价跌、金价涨、比特币破63000美元",
+        "assets": "📉 原油 承压; 📈 黄金 利好; 📈 比特币 利好",
+        "chain": "资产轮动：商品→避险（黄金）→风险资产（比特币）→反映流动性宽松预期（全球央行放水）",
+        "watch": "比特币ETF（交易所交易基金）资金流入及黄金ETF持仓量"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "‘Insane’ cost of average 4th of July BBQ surges 31% to bearly $300 in NYC - New York Post",
+      "source": "New York Post",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "纽约独立日烧烤成本飙升31%近300美元",
+        "assets": "📈 通胀预期 升温; 📉 消费股 承压",
+        "chain": "成本飙升→消费者信心削弱→可选消费支出下降→零售商利润受压（成本转嫁能力受限）",
+        "watch": "美国7月CPI（消费者物价指数）及零售销售数据"
       }
     }
   ]
