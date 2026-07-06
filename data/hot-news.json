@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 21:01",
+  "updateTime": "2026-07-06 21:06",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普敲响纽交所开市钟，将总统任期与股市表现挂钩",
-        "assets": "📈 美股大盘 利好",
-        "chain": "强化市场对政策护盘预期（政策托底），短期提振风险偏好（Risk-on情绪）",
-        "watch": "特朗普政策声明及美股波动率指数（VIX）"
+        "what": "特朗普将美股表现与其政绩挂钩",
+        "assets": "📈 美股整体 情绪利好\n📉 美元指数 潜在承压",
+        "chain": "政策预期（减税/放松监管）推高风险偏好（risk-on），但贸易摩擦溢价（tariff premium）可能重燃",
+        "watch": "特朗普民调支持率与科技股相对走势"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "检方为100亿美元新泽西熟食店诈骗案寻求减刑，部分原因保密",
-        "assets": "📉 金融监管股 承压",
-        "chain": "监管透明度遭质疑，可能引发合规成本上升（Regulatory risk）",
-        "watch": "案件判决结果及SEC（美国证监会）相关声明"
+        "what": "检方请求对百亿美元诈骗案减刑但部分理由保密",
+        "assets": "📉 小型金融股 情绪利空\n📉 加密货币 监管风险",
+        "chain": "司法透明度下降（opacity risk）可能引发对金融监管信任度（trust premium）折扣",
+        "watch": "案件后续公开文件与监管机构反应"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "SK海力士启动290亿美元纳斯达克IPO，全球AI芯片需求迎试金石",
-        "assets": "📈 全球AI芯片股 利好；📉 韩国半导体股 分流",
-        "chain": "IPO定价反映AI芯片景气度（景气周期），若成功将提振HBM（高带宽内存）板块估值",
-        "watch": "IPO认购倍数及首日涨幅"
+        "what": "SK海力士在美IPO筹资290亿美元，测试AI芯片需求",
+        "assets": "📈 全球半导体 供给信号\n📉 纳斯达克 短期流动性抽水",
+        "chain": "巨额IPO（首次公开募股）会抽走市场流动性（liquidity drain），但若成功将强化AI硬件估值（valuation anchor）",
+        "watch": "IPO首日涨幅与机构认购率"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SK海力士在美IPO发行1779万股普通股",
-        "assets": "📈 美股半导体ETF 利好；📉 韩国KOSPI 承压",
-        "chain": "资金从韩国市场抽离（流动性转移），美股AI主题获增量资金",
-        "watch": "IPO定价区间及机构订单量"
+        "what": "SK海力士美股IPO发行1779万股",
+        "assets": "📈 美股芯片板块 供给增加\n📉 韩国KOSPI 资金外流",
+        "chain": "海外上市分流本土资金（capital flight），但提升全球AI芯片定价基准（benchmark pricing）",
+        "watch": "发行定价区间与可比公司估值"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "微软和领英分析未来工作与AI，指出关键技能是协作",
-        "assets": "📈 AI教育股 利好；📈 远程办公软件 利好",
-        "chain": "企业AI培训需求增加（AI Adoption），推动SaaS（软件即服务）及HR科技板块",
-        "watch": "企业AI培训支出数据"
+        "what": "微软与领英报告称AI关键技能需求激增",
+        "assets": "📈 AI应用/教育科技 结构性利好\n📈 微软 竞争优势",
+        "chain": "企业AI培训支出（CAPEX shift）将扩大SaaS（软件即服务）与云计算需求",
+        "watch": "企业AI培训预算与相关软件订阅数据"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使获制裁豁免也难以清空原油库存",
-        "assets": "📉 布伦特原油 承压；📉 伊朗石油股 利空",
-        "chain": "制裁解除预期落空，原油供应过剩（供需失衡）风险加剧",
-        "watch": "伊朗原油出口量及OPEC（石油输出国组织）产量数据"
+        "what": "伊朗制裁解除后仍难清库存油",
+        "assets": "📈 原油 供给受限利好\n📉 伊朗里亚尔 贬值压力",
+        "chain": "运输/保险障碍（logistics bottleneck）导致伊朗贴水（discount）扩大，全球油市供需再平衡延迟",
+        "watch": "伊朗原油出口量与运费保险报价"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "标普500和纳斯达克期货上涨，芯片股领涨上周行情",
-        "assets": "📈 美股芯片股 利好；📈 纳斯达克指数 利好",
-        "chain": "科技股动能延续（Momentum），资金轮动至半导体（Sector Rotation）",
-        "watch": "本周科技巨头财报及台积电订单数据"
+        "what": "标普500与纳指期货因芯片股领涨而上行",
+        "assets": "📈 半导体板块 动量延续\n📈 纳指期货 技术面突破",
+        "chain": "芯片股作为市场情绪风向标（sentiment proxy），带动资金轮动（sector rotation）至成长股",
+        "watch": "费城半导体指数（SOX）相对强弱"
       }
     },
     {
@@ -107,10 +107,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克期货上涨，科技股迎来忙碌一周",
-        "assets": "📈 美股科技股 利好；📈 纳指期货 利好",
-        "chain": "财报季预期升温（Earnings Season），若业绩超预期将强化AI叙事",
-        "watch": "苹果、微软等权重股财报及营收指引"
+        "what": "纳指期货因科技股繁忙周而上涨",
+        "assets": "📈 大型科技股 事件驱动\n📈 纳指期货 波动率上升",
+        "chain": "财报/新品发布密集期（event cluster）推高隐含波动率（implied vol），期权对冲需求增加",
+        "watch": "科技股财报超预期比例与隐含波动率曲线"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "投资者因买入特朗普相关股票和加密货币亏损数十亿美元",
-        "assets": "📉 特朗普媒体科技集团（DJT） 利空；📉 比特币 承压",
-        "chain": "散户信心受挫（Retail Sentiment），政治关联资产泡沫破裂风险增加",
-        "watch": "DJT股价及比特币持仓量变化"
+        "what": "投资者因买入特朗普概念股和加密货币损失数十亿",
+        "assets": "📉 特朗普媒体（DJT） 恐慌抛售\n📉 比特币 散户踩踏",
+        "chain": "meme股（情绪驱动股）泡沫破裂引发杠杆清算（margin call），散户信心受挫",
+        "watch": "特朗普媒体股价与加密货币交易所流出量"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "盘前异动：Lam Research、英特尔、DataDog等",
-        "assets": "📈 Lam Research 利好；📉 英特尔 承压；📈 DataDog 利好",
-        "chain": "个股财报或消息驱动（Earnings Catalyst），科技板块分化加剧",
-        "watch": "各公司财报电话会及订单数据"
+        "what": "盘前异动：Lam Research、Intel、DataDog等",
+        "assets": "📈 Lam Research 财报利好\n📉 Intel 裁员利空\n📈 DataDog 增长预期",
+        "chain": "个股异动（premarket mover）反映板块分化（divergence），资金从传统芯片转向AI/云",
+        "watch": "这些个股开盘后成交量与机构研报评级"
       }
     }
   ]
