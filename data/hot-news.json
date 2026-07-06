@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 18:05",
+  "updateTime": "2026-07-06 18:11",
   "news": [
     {
       "rank": 1,
@@ -9,42 +9,56 @@
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "联泰科技港股IPO，创始人内斗出走，毛利率低",
-        "assets": "📉 港股新股 利空",
-        "chain": "创始人出走+低毛利=治理风险（公司管理风险），影响港股小盘股估值",
-        "watch": "IPO认购倍数及首日涨跌幅"
+        "what": "联泰科技港股IPO，创始人内斗离职，毛利率低",
+        "assets": "📉 联泰科技 利空",
+        "chain": "IPO估值承压，投资者规避股权分散+低毛利标的（低利润率公司）",
+        "watch": "IPO首日破发幅度及创始人新公司进展"
       }
     },
     {
       "rank": 2,
+      "title": "After a nearly 800% explosion, this AI stock's U.S. debut could signal if the market can still boom—or is headed for a bust - Fortune",
+      "source": "Fortune",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "AI股暴涨800%后美上市，或预示市场方向",
+        "assets": "📈 AI板块 利好；📉 市场整体 风险",
+        "chain": "AI泡沫（过度投机）若破灭，将拖累科技股及大盘（指数联动）",
+        "watch": "该股上市后成交量及后续财报"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
       "source": "CNBC",
       "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "美联储寻求降低对1亿美元欺诈犯的刑期，原因部分隐藏",
-        "assets": "📉 美元 利空",
-        "chain": "隐藏原因可能涉政治压力=削弱美联储独立性（独立决策能力），利空美元",
-        "watch": "美联储官员讲话及司法部后续声明"
+        "what": "FBI要求降低1亿美元欺诈犯刑期，部分原因保密",
+        "assets": "📉 司法/监管信用 利空",
+        "chain": "影响执法透明度，或引发对金融犯罪处罚力度质疑（监管风险）",
+        "watch": "判决结果及保密原因披露"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美银警告股市将‘回撤’，今年涨幅或大部回吐",
+        "what": "美银警告股市将‘回撤’，年内涨幅或蒸发",
         "assets": "📉 美股大盘 利空",
-        "chain": "投机极端水平（过度炒作）=获利了结（卖出盈利资产）+波动率（价格波动幅度）飙升",
-        "watch": "标普500技术支撑位及VIX（恐慌指数）走势"
+        "chain": "投机极端（散户杠杆高）触发回调，资金流向避险资产（如美债）",
+        "watch": "标普500波动率指数（VIX）及散户持仓数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -52,93 +66,79 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空；📉 AI芯片板块 利空",
-        "chain": "供应延迟（生产受阻）=AI资本开支预期下调（企业投资减少）=拖累科技股",
-        "watch": "英伟达财报及台积电制造进展"
+        "assets": "📉 英伟达 利空；📈 竞争对手（AMD/博通） 利好",
+        "chain": "AI硬件供应短缺（产能瓶颈）延缓AI部署，但利好替代方案",
+        "watch": "英伟达官方指引及制造问题解决时间表"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛看跌日元，看涨美元因AI和能源供应紧张",
+        "what": "高盛：日元延续历史性贬值，AI和能源短缺支撑美元",
         "assets": "📉 日元 承压；📈 美元 利好",
-        "chain": "AI能源需求（耗电增长）+供应短缺（产能不足）=推高通胀（物价上涨）=支撑美元",
-        "watch": "日本央行利率决议及美国CPI（消费者物价指数）数据"
+        "chain": "日元贬值加剧日本进口成本（通胀压力），美元走强压制新兴市场",
+        "watch": "美日利差（10年期国债收益率差）及日本央行干预信号"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "即使制裁解除，伊朗也难以清空石油库存",
-        "assets": "📈 油价 利好",
-        "chain": "伊朗出口受限（运输/保险障碍）=全球石油供应偏紧（供给不足）=支撑原油价格",
-        "watch": "伊朗石油出口量及制裁谈判进展"
+        "what": "伊朗即使制裁解除，也难以清空石油库存",
+        "assets": "📈 油价 支撑",
+        "chain": "制裁解除后出口恢复慢（物流/保险限制），OPEC+供应缺口维持（供需紧张）",
+        "watch": "伊朗原油出口量及制裁谈判进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空；📉 AI芯片板块 利空",
-        "chain": "供应延迟=AI算力预期下调（计算能力）=利空云端服务商",
-        "watch": "英伟达管理层指引及替代供应商动态"
+        "what": "英伟达下一代AI机架系统推迟至2028年（重复新闻）",
+        "assets": "📉 英伟达 利空；📈 替代芯片股 利好",
+        "chain": "AI算力预期降温（硬件延迟），数据中心资本支出可能转向",
+        "watch": "英伟达官方声明及客户采购计划"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "易捷航空同意73亿美元被凯斯莱克收购，股价暴涨10%",
       "source": "环球市场播报",
       "detail": "核心要点 易捷航空股价周一创下 52 周新高。 这家廉价航空上周日原则上同意美国私募机构凯斯莱克提出的上调后收购要约。2024 年 5 月 3 日周五...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "易捷航空被凯斯莱克以73亿美元收购，股价暴涨10%",
-        "assets": "📈 易捷航空 利好；📈 欧洲航空板块 利好",
-        "chain": "并购溢价（收购价高于市价）=板块估值重估（价值再评估）=引发其他航空股跟涨",
-        "watch": "收购完成率及监管审批进展"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "低估值+3连阳！港股互联网ETF（513770）基金经理：WorkBuddy正在修复互联网板块的AI逻辑",
-      "source": "新浪基金",
-      "detail": "近日来，港股市场表现强势，港股互联网板块已从底部悄然走高。7月6日，重仓互联网龙头的港股互联网ETF华宝（513770）场内价格收涨1.79%，实现日线3连阳。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "基金经理称WorkBuddy修复互联网AI逻辑，港股互联网ETF低估值三连阳",
-        "assets": "📈 港股互联网 利好；📈 中概AI概念 利好",
-        "chain": "AI逻辑修复（技术应用前景）=资金流入（资本追捧）=推动板块估值修复",
-        "watch": "WorkBuddy产品用户数据及腾讯阿里财报"
+        "what": "易捷航空被凯斯莱克73亿美元收购，股价暴涨10%",
+        "assets": "📈 易捷航空 利好；📉 其他航空股 中性",
+        "chain": "收购溢价（高于市价）提振航空板块估值，但行业整合预期升温",
+        "watch": "收购完成进展及监管审批"
       }
     },
     {
       "rank": 10,
-      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "title": "Asia shares sputter as earnings loom, oil weighed by supply - Reuters",
+      "source": "Reuters",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
-      "score": 27,
+      "score": 29,
       "insight": {
-        "what": "标普500和纳斯达克期货延续涨势，上周强势",
-        "assets": "📈 美股大盘 利好",
-        "chain": "期货上涨=多头情绪延续（看涨情绪）=科技股领涨概率大",
-        "watch": "本周FOMC（美联储会议）纪要及科技股财报"
+        "what": "亚洲股市因财报季和油价承压而下跌",
+        "assets": "📉 亚洲股市 利空；📉 原油 承压",
+        "chain": "财报不及预期引发抛售（盈利下调），油价下跌反映需求疲软（经济放缓）",
+        "watch": "亚洲主要公司财报及OPEC+产量决策"
       }
     }
   ]
