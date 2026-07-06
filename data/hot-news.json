@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 22:01",
+  "updateTime": "2026-07-06 22:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普将美股表现与自身政治前途绑定",
+        "what": "特朗普将股市表现与其总统任期挂钩",
         "assets": "📈 美股大盘 利好",
-        "chain": "政治风险溢价（不确定性补偿）降低，提振风险偏好（愿意冒险投资）",
-        "watch": "特朗普民调支持率变化"
+        "chain": "政策不确定性下降（减税/松监管预期），风险偏好（Risk-on）上升，资金从避险资产流出",
+        "watch": "特朗普民调支持率 vs 美股波动率指数（VIX）"
       }
     },
     {
@@ -23,122 +23,122 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "Brookfield旗下Csquare赴美IPO，目标估值41.8亿美元",
+        "what": "Brookfield旗下Csquare赴美IPO，估值最高41.8亿美元",
         "assets": "📈 美股IPO板块 利好",
-        "chain": "一级市场（新股发行）回暖信号，资金从二级市场（已上市股票）抽水",
-        "watch": "IPO首日涨幅及后续认购倍数"
+        "chain": "高估值IPO（首次公开募股）提振一级市场信心，利好PE（私募股权）持仓标的退出预期",
+        "watch": "Csquare首日涨幅及后续流动性"
       }
     },
     {
       "rank": 3,
+      "title": "As oil exits the ‘danger zone,’ here’s what history suggests happens next for stocks - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "油价脱离危险区间，历史规律暗示美股后续上涨",
+        "assets": "📈 美股大盘 利好 📉 原油 承压",
+        "chain": "油价回落降低通胀预期（通胀预期降温），缓解美联储加息压力，利好成长股估值（估值倍数扩张）",
+        "watch": "WTI原油是否跌破70美元支撑位"
+      }
+    },
+    {
+      "rank": 4,
       "title": "SK Hynix to offer 17.79M common shares in U.S. IPO (SKHY:Pending) - Seeking Alpha",
       "source": "Seeking Alpha",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "SK海力士在美IPO发行1779万股",
-        "assets": "📈 美股半导体 利好",
-        "chain": "供给增加稀释现有股东权益，但反映AI存储需求旺盛，利好英伟达等下游",
-        "watch": "发行定价及机构认购情况"
+        "what": "SK海力士在美IPO发行1779万股普通股",
+        "assets": "📈 美股半导体板块 利好 📉 韩股 承压",
+        "chain": "存储芯片龙头赴美上市吸走韩国本地流动性，同时强化AI（人工智能）存储需求叙事，利好英伟达等AI链",
+        "watch": "IPO定价区间及超额认购倍数"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Microsoft and LinkedIn Just Analyzed the Future of Work and AI. It All Points to One Key Skillset - inc.com",
       "source": "inc.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "微软和领英分析未来工作与AI，强调关键技能",
-        "assets": "📈 AI概念股 利好",
-        "chain": "企业AI培训需求增长，利好微软云服务（Azure）、LinkedIn招聘平台",
-        "watch": "微软财报中商业云收入增速"
+        "what": "微软与领英报告：AI未来关键技能是批判性思维",
+        "assets": "📈 AI教育/培训股 利好",
+        "chain": "企业AI部署加速（部署加速），利好云服务（微软Azure）和SaaS（软件即服务）订阅收入，但利空低技能岗位",
+        "watch": "微软Azure AI服务营收增速"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "黄金承压下跌 美联储会议纪要成焦点 霍尔木兹局势缓和缓解油价冲击",
       "source": "环球市场播报",
       "detail": "Kitco周一发布的美国市场早间报告显示，黄金价格在亚洲和欧洲交易时段承压走低，而原油价格则因霍尔木兹海峡航运逐步恢复以及OPEC+增产预期而延续跌势。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "黄金因美联储会议纪要及霍尔木兹局势缓和承压",
-        "assets": "📉 黄金 承压；📉 原油 利空",
-        "chain": "避险需求（恐慌时买黄金/原油）下降，实际利率（通胀调整后利率）预期回升压制金价",
-        "watch": "美联储会议纪要措辞及霍尔木兹海峡通行状况"
+        "what": "黄金下跌，聚焦美联储纪要，霍尔木兹缓和缓解油价冲击",
+        "assets": "📉 黄金 承压 📉 原油 承压",
+        "chain": "地缘溢价消退（地缘风险溢价下降）+加息预期（借钱成本增加预期）打压黄金；油价下跌利好航空/化工股",
+        "watch": "美联储会议纪要中关于降息门槛的措辞"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "华尔街不改牛市共识：下半年不只看多AI，美股最高到8250点",
       "source": "一财网",
       "detail": "华尔街分析师们认为工业、医疗、材料以及中小盘等更广泛的板块和主题也将“全面开花”。随着美股半导体股的腾飞，美股刚刚经历了六年来最强劲的一个季度...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "华尔街维持牛市共识，标普最高看至8250点",
-        "assets": "📈 美股大盘 利好；📈 AI板块 利好",
-        "chain": "乐观情绪自我实现（预期推动买入），但需警惕拥挤交易（太多人看多）后的回调风险",
-        "watch": "标普500指数实际走势与目标位偏离度"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "S&P 500 and Nasdaq futures rise after a strong week on Wall Street, led by chip stocks: Live updates - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "标普和纳指期货因芯片股上周强势而上涨",
-        "assets": "📈 美股半导体 利好；📈 纳指 利好",
-        "chain": "芯片板块作为AI风向标，带动科技股整体风险偏好（愿意冒险）上升",
-        "watch": "今晚美股开盘后半导体ETF（如SMH）表现"
+        "what": "华尔街维持牛市共识，下半年标普看至8250点",
+        "assets": "📈 美股大盘 利好 📈 AI科技股 利好",
+        "chain": "机构一致看多（机构一致预期）强化散户情绪，资金加速流入科技ETF（交易型开放式指数基金），但需警惕拥挤交易（拥挤交易风险）",
+        "watch": "标普500指数是否突破前高"
       }
     },
     {
       "rank": 8,
+      "title": "Stock market today: Nasdaq leads S&P 500, Dow higher as tech jitters ease - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "科技股恐慌缓解，纳指领涨标普和道指",
+        "assets": "📈 美股科技股 利好 📈 纳指 利好",
+        "chain": "空头回补（空头平仓买入）推动反弹，但若缺乏新催化剂（催化剂），后续可能转为震荡",
+        "watch": "FAANG（五大科技股）成交量是否持续放大"
+      }
+    },
+    {
+      "rank": 9,
       "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
       "source": "Forbes",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "投资者因买入特朗普概念股和加密货币损失惨重",
-        "assets": "📉 特朗普概念股 利空；📉 加密货币 利空",
-        "chain": "散户情绪（非专业投资者信心）恶化，资金可能回流至避险资产（如国债）",
-        "watch": "特朗普媒体科技集团（DJT）股价及比特币价格"
+        "what": "福布斯：特朗普概念股和加密货币投资者亏损惨重",
+        "assets": "📉 特朗普媒体(DJT) 利空 📉 比特币 利空",
+        "chain": "散户FOMO（害怕错过）退潮后资金回流主流资产，Meme股（网红股）泡沫破灭风险上升",
+        "watch": "DJT股价是否跌破发行价"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "摩根士丹利：AI投资者或从芯片制造商转向超大规模企业",
       "source": "环球市场播报",
       "detail": "摩根士丹利在近日发布的一份研究报告中指出，随着人工智能投资逻辑的演进，投资者可能开始将资金从AI芯片制造商转向超大规模云服务商。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "摩根士丹利建议AI投资者从芯片转向超大规模企业",
-        "assets": "📈 超大规模云服务商 利好；📉 芯片股 承压",
-        "chain": "资金轮动（从一类资产换到另一类）至应用端，利好微软、亚马逊等，利空英伟达",
-        "watch": "超大规模企业资本支出指引及芯片股相对强度"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "腾讯据悉寻求出售快手股份，最高套现约16亿美元",
-      "source": "界面",
-      "detail": " 据报道，腾讯全资子公司Tencent Mobility拟通过大宗交易出售约2.73亿股快手股份，价格区间为每股43.15港元至44.53港元，最高套现约16亿美元。",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "腾讯计划出售快手股份，套现约16亿美元",
-        "assets": "📉 快手 承压；📈 腾讯 中性偏利好",
-        "chain": "大股东减持（卖出股票）引发抛压，腾讯回笼资金可能用于回购或投资AI",
-        "watch": "快手股价及成交量变化，腾讯回购动向"
+        "what": "摩根士丹利：AI投资者或从芯片转向超大规模企业",
+        "assets": "📈 超大规模云商(微软/亚马逊/谷歌) 利好 📉 芯片股(英伟达等) 承压",
+        "chain": "AI资本开支（资本支出）从硬件采购转向算力服务订阅，利好云服务商利润率（利润率改善），利空芯片厂商估值",
+        "watch": "英伟达数据中心营收增速 vs 微软Azure AI收入"
       }
     }
   ]
