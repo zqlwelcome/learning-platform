@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 11:21",
+  "updateTime": "2026-07-06 11:31",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "服务业PMI和消费财报将影响市场，SK海力士IPO受关注",
-        "assets": "📈 美股 中性偏多；📈 半导体 利好",
-        "chain": "PMI超预期（经济扩张超预期）会强化加息预期（借钱成本上升），压制成长股",
-        "watch": "服务业PMI数据及SK海力士首日表现"
+        "what": "美股平静周，服务业PMI和消费财报接棒，SK海力士IPO成焦点",
+        "assets": "📈 美股大盘 中性；📈 SK海力士 利好",
+        "chain": "PMI若超预期可能压制降息预期（借钱成本降低的预期），但消费财报好坏决定市场信心",
+        "watch": "服务业PMI初值及SK海力士IPO定价"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美银警告美股将回调，称投机情绪已达极端水平",
-        "assets": "📉 美股大盘 利空",
-        "chain": "投机极端→获利了结（卖出获利）→指数回调，恐慌指数（VIX）可能飙升",
-        "watch": "标普500 200日均线（长期趋势线）是否失守"
+        "what": "美银警告美股将‘回撤’，因投机情绪极端，年内涨幅或蒸发",
+        "assets": "📉 美股大盘 承压；📉 成长股 利空",
+        "chain": "极端投机（散户追涨情绪）引发获利了结，触发VIX（恐慌指数）飙升和资金转向防御",
+        "watch": "标普500跌破关键支撑位及散户持仓比"
       }
     },
     {
@@ -37,28 +37,70 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "金价因市场削减美联储加息押注而上涨",
+        "what": "投资者缩减美联储加息押注，金价走高",
         "assets": "📈 黄金 利好；📉 美元 承压",
-        "chain": "加息预期降温→实际利率（名义利率减通胀）下降→黄金持有成本降低→美元走弱",
-        "watch": "CME FedWatch（美联储利率预测工具）加息概率变化"
+        "chain": "加息预期降温（美债收益率下行）推高黄金吸引力，美元走弱利好新兴市场资产",
+        "watch": "本周美联储会议纪要措辞及CPI数据"
       }
     },
     {
       "rank": 4,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
+      "source": "CNBC",
+      "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达下一代AI机架系统因制造问题推迟到2028年",
+        "assets": "📉 英伟达 利空；📈 竞争对手AMD 利好",
+        "chain": "AI算力供应延迟（生产瓶颈）可能拖累科技股情绪，但利好现有芯片需求",
+        "watch": "英伟达官方指引及供应链消息"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
+      "source": "CNBC",
+      "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "高盛预计日元继续历史性贬值，AI和能源‘供应紧缩’支撑美元",
+        "assets": "📉 日元 承压；📈 美元 利好",
+        "chain": "日元贬值（利差交易）加剧亚洲货币压力，美元走强压制大宗商品价格",
+        "watch": "日本央行干预信号及美联储利率路径"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "光大期货0706黄金点评：短期黄金止跌回稳，本周关注美联储会议纪要",
+      "source": "市场资讯",
+      "detail": "上周黄金先抑后扬，非农就业数据“爆冷”后，加息预期降温，短线黄金止跌回稳，伦敦现货黄金周涨幅超2%，沪金主力合约小幅上涨。本周关注周四美联储会议纪要发布...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "光大期货：短期黄金止跌回稳，本周关注美联储会议纪要",
+        "assets": "📈 黄金 中性偏多",
+        "chain": "会议纪要若偏鸽（暗示放缓加息）可推动金价反弹，否则可能再次承压",
+        "watch": "美联储会议纪要及非农数据"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Samsung likely to post 18-fold jump in profit on surging AI demand for memory - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星预计AI需求推动内存利润飙升18倍",
-        "assets": "📈 半导体/存储芯片 利好；📈 韩国KOSPI 利好",
-        "chain": "AI算力需求→HBM（高带宽内存）供不应求→存储芯片涨价→产业链上游（设备材料）受益",
-        "watch": "三星Q2财报及HBM出货量指引"
+        "what": "三星预计利润飙升18倍，因AI需求推动存储芯片销售",
+        "assets": "📈 三星 利好；📈 存储芯片板块 利好",
+        "chain": "AI算力需求（HBM高带宽内存）拉动存储涨价，带动整个半导体周期回暖",
+        "watch": "三星财报细节及HBM订单数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
@@ -66,79 +108,37 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 体育博彩/预测平台 利好",
-        "chain": "世界杯热度→用户涌入预测市场→平台收入激增→可能带动相关代币（如Polymarket）活跃",
-        "watch": "预测市场平台月活用户数（MAU）变化"
+        "assets": "📈 预测平台代币 利好",
+        "chain": "体育赛事热度（流量激增）提升平台活跃度，可能吸引监管关注",
+        "watch": "预测平台用户增长及合规进展"
       }
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估的股票，称其具备跑赢潜力",
-        "assets": "📈 高盛精选个股 利好",
-        "chain": "机构背书→资金流入被推荐标的→低估值板块（如价值股）可能获超额收益",
-        "watch": "高盛推荐个股的财报与估值修复进度"
+        "what": "高盛称这些被低估的股票‘定位良好’有望跑赢",
+        "assets": "📈 高盛推荐股 利好",
+        "chain": "资金可能从高估值成长股轮动到低估值价值股（价值因子），支撑防御性板块",
+        "watch": "高盛推荐名单及资金流向数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克期货延续上周涨势",
-        "assets": "📈 美股科技股 利好",
-        "chain": "期货上涨→开盘情绪乐观→科技股领涨→空头回补（空头被迫买入平仓）加速反弹",
-        "watch": "美债收益率（与成长股估值负相关）是否同步上行"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Oil Edges Lower on OPEC Increase, Dollar Steady: Markets Wrap - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "油价因OPEC增产及美元稳定而小幅下跌",
-        "assets": "📉 原油 利空；📈 航空/运输 利好",
-        "chain": "OPEC增产→供给增加→油价承压→运输成本下降→航空公司利润预期改善",
-        "watch": "OPEC月度产量报告及美国EIA（能源信息署）库存数据"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Warren Buffett Just Sent Investors an 11-Word Warning About the Stock Market. History Says He's Right. - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "巴菲特发出11字股市警告，历史显示其正确",
-        "assets": "📉 美股整体 情绪利空",
-        "chain": "巴菲特信号→价值投资标杆→投资者警惕高估值→防御性板块（公用事业、消费必需品）可能受追捧",
-        "watch": "伯克希尔现金持有量变化及股票回购动态"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
-      "source": "CNBC",
-      "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "标普500和纳斯达克期货延续上周涨势",
-        "assets": "📈 美股科技股 利好",
-        "chain": "期货上涨→开盘情绪乐观→科技股领涨→空头回补（空头被迫买入平仓）加速反弹",
-        "watch": "美债收益率（与成长股估值负相关）是否同步上行"
+        "what": "标普500和纳斯达克期货延续涨势，上周强劲收盘",
+        "assets": "📈 美股大盘 利好",
+        "chain": "期货上涨（市场情绪乐观）可能吸引追涨资金，但需警惕冲高回落风险",
+        "watch": "开盘后实际走势及成交量变化"
       }
     }
   ]
