@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 14:50",
+  "updateTime": "2026-07-06 14:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "服务业PMI与消费巨头财报将发布，SK海力士IPO聚焦",
-        "assets": "📈 美股科技股 利好\n📈 半导体板块 利好",
-        "chain": "若PMI强劲则强化通胀韧性（物价持续上涨），压制降息预期，科技股估值承压",
-        "watch": "服务业PMI数据及消费巨头财报营收"
+        "what": "美股平静周，服务业PMI和消费财报接力，SK海力士IPO受关注",
+        "assets": "📈 美股大盘 中性偏多，📈 韩国半导体板块 利好",
+        "chain": "PMI数据若强会支撑加息预期（借钱成本上升），压制科技股；SK海力士IPO吸金可能分流资金",
+        "watch": "周三服务业PMI初值、微软/谷歌财报"
       }
     },
     {
@@ -21,13 +21,7 @@
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 37,
-      "insight": {
-        "what": "美银警告美股将‘回撤’，投机情绪极端",
-        "assets": "📉 美股大盘 承压\n📈 美债 避险需求",
-        "chain": "恐慌指数（VIX，市场波动率指标）上升，资金从风险资产流向现金或国债",
-        "watch": "标普500指数是否跌破关键支撑位"
-      }
+      "score": 37
     },
     {
       "rank": 3,
@@ -37,10 +31,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "大摩首席认为美联储今年不会加息，沃什态度转鸽",
-        "assets": "📈 美国国债 利好\n📈 黄金 利好",
-        "chain": "加息预期降温（借钱成本不再上升），压低短端利率，利好利率敏感型资产",
-        "watch": "美联储官员后续讲话及点阵图（利率预测）"
+        "what": "美银警告美股将遭‘回撤’，年内涨幅或蒸发，投机情绪极端",
+        "assets": "📉 美股大盘 利空，📉 科技成长股 承压",
+        "chain": "投机极端触发获利了结（卖股票换现金），VIX（恐慌指数）可能飙升，资金转向防御板块",
+        "watch": "标普500是否跌破4500支撑位、VIX指数变动"
       }
     },
     {
@@ -51,84 +45,70 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "陶冬称美联储不必再加息",
-        "assets": "📈 美股 利好\n📈 新兴市场货币 利好",
-        "chain": "美元走弱（美元指数下行），资金回流新兴市场，大宗商品需求预期改善",
-        "watch": "美国CPI及PCE（核心通胀指标）数据"
+        "what": "大摩首席认为美联储今年不会加息，沃什立场转鸽",
+        "assets": "📈 美股 利好，📉 美元 承压",
+        "chain": "不加息预期降低资金成本，利好利率敏感资产（如科技、地产）；美元走弱支撑大宗商品",
+        "watch": "下周FOMC会议点阵图（利率预测）"
       }
     },
     {
       "rank": 5,
-      "title": "随着投资者缩减对美联储加息的押注 金价走高",
-      "source": "环球市场播报",
-      "detail": "亚洲交易时段，金价小幅走高。大华全球经济与市场研究团队在一份报告中表示，疲软的美国就业数据和较低的能源价格可能正促使投资者缩减对美联储加息的押注。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "投资者缩减加息押注，金价走高",
-        "assets": "📈 黄金 利好\n📉 美元 承压",
-        "chain": "实际利率（名义利率减通胀）下行，黄金作为零息资产（无利息收益）吸引力上升",
-        "watch": "COMEX黄金期货持仓及美元指数"
-      }
-    },
-    {
-      "rank": 6,
       "title": "Gold holds near two-week high on easing Fed rate-hike bets",
       "source": "CNBC",
       "detail": "Gold was steady near a two-week high on Monday after a softer-than-expected U.S. jobs report last week tempered expectations of interest rate hikes from the Federal Reserve.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "金价持稳于两周高位，因加息押注减弱",
-        "assets": "📈 黄金 利好\n📈 白银 利好",
-        "chain": "风险偏好改善（资金从避险转向投机），但通胀预期仍支撑贵金属",
-        "watch": "美联储利率期货隐含概率"
+        "what": "陶冬认为美联储加息周期结束，不必再加息",
+        "assets": "📈 美债 利好，📉 美元 承压",
+        "chain": "加息停止预期推高债券价格（收益率下降），风险资产（股票）获喘息，但通胀反弹风险仍在",
+        "watch": "4月CPI数据（通胀指标）"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空\n📈 AMD 利好\n📉 AI芯片板块 承压",
-        "chain": "AI算力供应瓶颈（产能不足）延长，利好竞争对手及云厂商自研芯片",
-        "watch": "英伟达官方声明及订单取消情况"
+        "what": "金价因美联储加息预期降温而持稳于两周高位",
+        "assets": "📈 黄金 利好，📉 美元 承压",
+        "chain": "加息预期降温削弱美元吸引力（美元弱则黄金强），实际利率（名义利率减通胀）下行支撑金价",
+        "watch": "美元指数（DXY）走势、COMEX黄金持仓变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使制裁解除也难清空石油库存",
-        "assets": "📈 原油 利好\n📉 伊朗原油出口 利空",
-        "chain": "制裁解除后伊朗增产（供给增加）预期受挫，OPEC+减产协议更易维持",
-        "watch": "伊朗原油出口量及油轮跟踪数据"
+        "what": "伊朗即使解除制裁也难以清空原油库存",
+        "assets": "📉 原油 承压",
+        "chain": "伊朗库存释放预期压制油价，但出口物流和买家限制依然存在，实际增量有限",
+        "watch": "伊朗原油出口量、OPEC+（石油输出国组织及盟友）6月产量决议"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空\n📈 AMD 利好\n📉 AI芯片板块 承压",
-        "chain": "AI算力供应瓶颈（产能不足）延长，利好竞争对手及云厂商自研芯片",
-        "watch": "英伟达官方声明及订单取消情况"
+        "what": "英伟达下一代AI系统因制造问题推迟至2028年",
+        "assets": "📉 英伟达 利空，📈 AMD 利好",
+        "chain": "英伟达供应瓶颈利好竞争对手AMD（超威半导体），AI算力需求转向替代方案，但整体AI基建增速放缓",
+        "watch": "英伟达财报指引、台积电CoWoS产能（先进封装技术）"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
@@ -136,9 +116,23 @@
       "score": 32,
       "insight": {
         "what": "高盛预测日元继续暴跌，AI和能源供应短缺支撑美元",
-        "assets": "📉 日元 承压\n📈 美元 利好\n📈 能源股 利好",
-        "chain": "美日利差（美国利率更高）扩大，套利交易（借低息日元买高息美元）持续，推高美元",
-        "watch": "日本央行政策会议及美国能源库存数据"
+        "assets": "📉 日元 利空，📈 美元 利好",
+        "chain": "日元贬值推高进口成本（能源涨价），日本央行可能干预；美元走强压制新兴市场货币和商品",
+        "watch": "美日利差（两国国债收益率差）、日本央行汇率干预点位"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "友邦股份IPO：助友转贷超2500万，实控人套利理财上亿，坏账分立转嫁体外、分红超利润，研发不足2%",
+      "source": "市场资讯",
+      "detail": "来源：新财渤社 文\\观澜 友邦散热器（常熟）股份有限公司（以下简称“友邦股份”）于7月2日回复北交所首轮问询。 公司治理层面，王氏家族以81.56%的控股比例形成绝对控制...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "友邦股份IPO：助贷转贷超2500万，实控人套利理财，坏账转移体外",
+        "assets": "📉 中概金融科技股 利空",
+        "chain": "监管风险暴露（金融业务合规审查），投资者对类似模式（助贷/转贷）公司信心下降，可能引发做空",
+        "watch": "证监会是否启动调查、公司IPO定价及认购情况"
       }
     }
   ]
