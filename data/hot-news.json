@@ -1,144 +1,144 @@
 {
-  "updateTime": "2026-07-06 15:21",
+  "updateTime": "2026-07-06 15:25",
   "news": [
     {
       "rank": 1,
-      "title": "美联储今年料不会加息！大摩首席“辛特拉研判”：沃什正悄悄变脸？",
-      "source": "21世纪经济报道",
-      "detail": "上周，随着一年一度的“欧洲版全球央行年会”在葡萄牙度假胜地辛特拉隆重召开，全球宏观政策的走向也再度引发了各主要市场瞩目。对此...",
-      "lang": "zh",
-      "score": 36,
+      "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 37,
       "insight": {
-        "what": "大摩首席称美联储今年料不加息",
-        "assets": "📈 美股科技股 利好；📉 美元指数 承压",
-        "chain": "不加息（利率不变）→ 成长股估值压力减轻 → 资金从美元流向风险资产（如新兴市场）",
-        "watch": "本周美联储官员讲话及CPI（消费者物价指数）数据"
+        "what": "美银警告股市将‘回撤’并回吐年内涨幅，因投机过热",
+        "assets": "📉 美股大盘 利空；📉 科技成长股 承压",
+        "chain": "投机极端（高杠杆/散户追涨）→资金流向避险资产（美债/黄金）→波动率（VIX恐慌指数）飙升",
+        "watch": "标普500 200日均线（长期趋势线）是否破位；VIX是否突破30"
       }
     },
     {
       "rank": 2,
+      "title": "Gold holds near two-week high on easing Fed rate-hike bets",
+      "source": "CNBC",
+      "detail": "Gold was steady near a two-week high on Monday after a softer-than-expected U.S. jobs report last week tempered expectations of interest rate hikes from the Federal Reserve.",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "金价持稳两周高位，因市场押注美联储停止加息（加息周期结束）",
+        "assets": "📈 现货黄金 利好；📉 美元指数 承压",
+        "chain": "加息预期降温→实际利率（名义利率-通胀）下行→黄金持有成本降低→金价获支撑",
+        "watch": "周五美国PCE（个人消费支出物价指数）数据；CME FedWatch（利率期货）降息概率变化"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达下一代AI机架系统因制造问题延迟至2028年",
+        "assets": "📉 英伟达（NVDA.O） 利空；📉 AI芯片股 承压",
+        "chain": "供应延迟→AI算力瓶颈（训练/推理需求无法满足）→超大规模云厂商（微软/谷歌）资本开支推迟",
+        "watch": "英伟达官方是否确认；台积电CoWoS（先进封装）产能进展"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
+      "source": "CNBC",
+      "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "伊朗即使获制裁豁免，也难以清空原油库存",
+        "assets": "📉 布伦特原油 承压；📉 伊朗原油出口 利空",
+        "chain": "制裁解除但物流/保险/银行渠道不畅→伊朗浮式储油（海上油轮库存）释放受阻→全球供应增量有限",
+        "watch": "伊朗原油出口量数据；霍尔木兹海峡通行情况"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
+      "source": "CNBC",
+      "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达下一代AI机架系统因制造问题延迟至2028年（重复消息）",
+        "assets": "📉 英伟达（NVDA.O） 利空；📉 AI芯片股 承压",
+        "chain": "供应延迟→AI算力瓶颈→超大规模云厂商资本开支推迟→半导体设备需求放缓",
+        "watch": "英伟达官方是否确认；台积电CoWoS产能进展"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
+      "source": "CNBC",
+      "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "高盛：日元将延续历史性贬值，AI和能源‘供应短缺’支撑美元",
+        "assets": "📈 美元指数 利好；📉 日元/美元 利空；📈 能源股 利好",
+        "chain": "AI算力需求（数据中心耗电）→能源供应紧张→美国能源出口优势→美元需求增加",
+        "watch": "美元/日元是否突破160关口；美国天然气库存变动"
+      }
+    },
+    {
+      "rank": 7,
       "title": "友邦股份IPO：助友转贷超2500万，实控人套利理财上亿，坏账分立转嫁体外、分红超利润，研发不足2%",
       "source": "市场资讯",
       "detail": "来源：新财渤社 文\\观澜 友邦散热器（常熟）股份有限公司（以下简称“友邦股份”）于7月2日回复北交所首轮问询。 公司治理层面，王氏家族以81.56%的控股比例形成绝对控制...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "友邦股份IPO涉违规，实控人套利上亿",
-        "assets": "📉 友邦股份 利空；📉 中小盘新股 情绪承压",
-        "chain": "IPO（首次公开募股）丑闻 → 监管收紧核查 → 次新股流动性（买卖活跃度）下降",
-        "watch": "证监会是否立案调查及退市风险公告"
+        "what": "友邦股份IPO：实控人套利理财上亿，坏账转移体外，分红超利润",
+        "assets": "📉 友邦股份（新三板/拟IPO） 利空；📉 A股小贷/金融板块 利空",
+        "chain": "财务造假嫌疑（关联交易/坏账隐藏）→监管问询/IPO暂停→投资者对同类公司（小微贷）信任下降",
+        "watch": "证监会是否立案调查；IPO审核是否被终止"
       }
     },
     {
-      "rank": 3,
+      "rank": 8,
       "title": "世界黄金协会：5月全球央行净购金41吨，多国持续加码储备布局",
       "source": "市场资讯",
       "detail": "文章来源：汇通财经 受中东地缘冲突影响，国际金价自年初高点持续大幅回落，但全球央行配置黄金的战略方向并未发生动摇。 世界黄金协会发布5月官方储备数据显示...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "5月全球央行净购金41吨",
-        "assets": "📈 黄金 利好；📉 美元信用 承压",
-        "chain": "央行购金（避险需求）→ 金价支撑强 → 反映对美元储备（外汇储备）分散化趋势",
-        "watch": "下月央行购金数据及COMEX（纽约商品交易所）黄金持仓"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "净利预增近10倍，6倍光纤牛股跌停，公司回应",
-      "source": "21世纪经济报道",
-      "detail": "记者丨林健民 编辑丨叶映橙 7月6日，光纤概念股集体走弱，指数一度跌超4%。 值得注意的是，上周发布业绩利好的杭电股份（603618.SH）快速跌停，截至13：10，仍封死跌停板...",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "光纤牛股预增近10倍仍跌停",
-        "assets": "📉 光纤板块 利空；📈 空头对冲 利好",
-        "chain": "利好出尽（预期已price in）→ 获利盘抛售 → 触发技术性（基于图表）止损",
-        "watch": "公司后续业绩指引及机构持仓变动"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "意外！五倍大牛股，封死跌停！一则利空来袭，影响多大？",
-      "source": "券商中国",
-      "detail": "大牛股意外跌停。 今日（7月6日），A股盘中，光纤大牛股杭电股份股价闪崩、跌停，其他光纤概念股亦大幅下挫，长盈通一度大跌超13%，永鼎股份一度触及跌停。",
-      "lang": "zh",
-      "score": 20,
-      "insight": {
-        "what": "五倍大牛股封死跌停，利空来袭",
-        "assets": "📉 该股 利空；📉 同板块 情绪拖累",
-        "chain": "利空消息（如监管或业绩）→ 恐慌性抛售 → 引发板块内资金踩踏（集体卖出）",
-        "watch": "成交量及龙虎榜（主力买卖席位）资金流向"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "年报“难产”触发退市风险，卓然股份索赔持续征集",
-      "source": "市场资讯",
-      "detail": "2026年7月7日，科创板上市公司卓然股份（688121）将正式“披星戴帽”，股票简称将变更为“*ST卓然”。 此举意味着这家大型石化装备制造商的经营合规性已亮起红灯...",
-      "lang": "zh",
-      "score": 18,
-      "insight": {
-        "what": "卓然股份年报难产触发退市风险",
-        "assets": "📉 卓然股份 利空；📉 问题股 避险",
-        "chain": "年报延迟 → 退市风险警示（ST标志）→ 投资者索赔增加 → 股价承压",
-        "watch": "公司是否补交年报及证监会调查进展"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "萃华珠宝年报“难产”叠加双重退市风险，受损投资者索赔持续征集中",
-      "source": "市场资讯",
-      "detail": "这家拥有百年历史的珠宝企业，正面临着前所未有的生存危机。近日公司公告，将于2026年7月7日正式“披星戴帽”，股票简称由“ST萃华”变更为“*ST萃华”...",
-      "lang": "zh",
-      "score": 18,
-      "insight": {
-        "what": "萃华珠宝年报难产叠加退市风险",
-        "assets": "📉 萃华珠宝 利空；📉 珠宝板块 情绪利空",
-        "chain": "双重退市风险 → 信用评级下调 → 融资成本（借钱利息）上升 → 股价持续下跌",
-        "watch": "退市风险警示公告及索赔征集人数"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "油价跌、加息缓、通胀退——三大利好摆在面前，银价却跌了，发生了什么？",
-      "source": "市场资讯",
-      "detail": "文章来源：汇通财经 周一（7月6日）亚洲交易时段，现货白银价格下跌约1%，交投于61.80美元/盎司附近，结束了此前连续四个交易日的上涨走势。",
-      "lang": "zh",
-      "score": 18,
-      "insight": {
-        "what": "油价跌、加息缓、通胀退，银价却跌",
-        "assets": "📉 白银 利空；📈 美元 短期利好",
-        "chain": "银价逆势下跌 → 工业需求（如光伏）疲软预期 → 资金转向避险资产（如美债）",
-        "watch": "白银ETF（交易所基金）持仓及工业PMI（采购经理指数）"
+        "what": "世界黄金协会：5月全球央行净购金41吨，多国增持储备",
+        "assets": "📈 现货黄金 利好；📈 黄金ETF（交易所交易基金） 利好",
+        "chain": "央行购金（去美元化/储备多元化）→黄金实物需求刚性→金价底部支撑增强",
+        "watch": "中国/印度央行月度购金数据；COMEX（纽约商品交易所）黄金持仓变化"
       }
     },
     {
       "rank": 9,
-      "title": "扭转局面！央行今日接连出手！",
-      "source": "21世纪经济报道",
-      "detail": "据央行网站消息，7月6日央行以固定利率、数量招标方式开展70亿元7天期逆回购操作，全额满足一级交易商需求。 与此同时，央行在7月6日以固定数量、利率招标...",
-      "lang": "zh",
-      "score": 18,
+      "title": "Samsung likely to post 18-fold jump in profit on surging AI demand for memory - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
       "insight": {
-        "what": "央行今日接连出手扭转局面",
-        "assets": "📈 人民币 利好；📈 债市 利好",
-        "chain": "央行干预（如逆回购或汇率操作）→ 稳定市场预期 → 缓解流动性（资金紧张）压力",
-        "watch": "央行具体操作工具及中间价（官方汇率）变动"
+        "what": "三星预计利润暴增18倍，因AI内存（HBM高带宽存储）需求飙升",
+        "assets": "📈 三星电子（005930.KS） 利好；📈 存储芯片（HBM） 利好",
+        "chain": "AI算力需求→HBM（高带宽存储）供不应求→存储芯片涨价周期→三星/海力士盈利改善",
+        "watch": "三星HBM3E（第五代高带宽内存）是否通过英伟达认证；DRAM（动态随机存取存储器）现货价格"
       }
     },
     {
       "rank": 10,
-      "title": "文投控股信披违规已被罚，符合要求还可索赔",
-      "source": "市场资讯",
-      "detail": " 上海沪紫律师事务所刘鹏律师代理的投资者诉文投控股证券虚假陈述案，此前已有案件在审理中，针对该案时效还未到期，投资者还可加入。（刘鹏律师专栏）",
-      "lang": "zh",
-      "score": 15,
+      "title": "The World Cup sends prediction market volumes soaring to record highs",
+      "source": "CNBC",
+      "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
+      "lang": "en",
+      "score": 30,
       "insight": {
-        "what": "文投控股信披违规被罚",
-        "assets": "📉 文投控股 利空；📉 影视板块 情绪利空",
-        "chain": "信披违规 → 监管罚款 → 投资者索赔 → 公司声誉受损影响融资",
-        "watch": "索赔诉讼进展及公司后续合规公告"
+        "what": "世界杯推动预测市场（Polymarket等）交易量创历史新高",
+        "assets": "📈 区块链/预测市场代币（如POLY） 利好；📈 体育博彩股 利好",
+        "chain": "赛事热度→用户涌入链上预测平台→平台收入/代币需求上升→吸引监管关注（政策风险并存）",
+        "watch": "Polymarket月活用户数；美国商品期货交易委员会（CFTC）对预测市场的监管表态"
       }
     }
   ]
