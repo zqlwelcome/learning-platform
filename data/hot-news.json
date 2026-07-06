@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 09:41",
+  "updateTime": "2026-07-06 09:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "大摩首席称美联储今年不会加息",
-        "assets": "📈 美国国债 利好\n📉 美元指数 承压",
-        "chain": "降息预期升温→美债收益率下行→美元走弱→风险资产（股票）估值提升",
-        "watch": "美联储官员讲话及点阵图（利率预测）"
+        "what": "大摩首席研判美联储今年不会加息",
+        "assets": "📈 美国国债 利好；📈 黄金 利好",
+        "chain": "加息预期降温→美债收益率下行→实际利率下降→金价上涨",
+        "watch": "美联储官员讲话及通胀数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "投资者缩减美联储加息押注，金价上涨",
-        "assets": "📈 黄金 利好\n📉 美元指数 承压",
-        "chain": "加息预期降温→实际利率（名义利率减通胀）下降→持有黄金机会成本降低",
-        "watch": "美国CPI（通胀数据）及非农就业"
+        "what": "投资者缩减加息押注，金价走高",
+        "assets": "📈 黄金 利好",
+        "chain": "加息预期降温→美元走弱→以美元计价黄金吸引力上升",
+        "watch": "美元指数及实际利率走势"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 30,
       "insight": {
         "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 预测市场平台（如Polymarket） 利好",
-        "chain": "事件驱动投机需求激增→平台活跃度提升→可能吸引监管注意",
-        "watch": "平台用户增长及监管政策动态"
+        "assets": "📈 博彩类股票（如DraftKings）利好",
+        "chain": "赛事热点刺激投注需求→相关平台收入激增→股价上行",
+        "watch": "世界杯赛事关注度及投注平台财报"
       }
     },
     {
@@ -51,70 +51,42 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票，称其具超额收益潜力",
-        "assets": "📈 高盛推荐个股（如金融、科技） 利好",
-        "chain": "机构背书→资金流入这些标的→带动板块轮动（资金从高估值转向低估值）",
-        "watch": "高盛报告具体名单及财报表现"
+        "what": "高盛推荐被低估股票，称其具备跑赢潜力",
+        "assets": "📈 高盛推荐个股（如能源、金融股）利好",
+        "chain": "机构背书→资金流入→估值修复；带动同类板块情绪",
+        "watch": "个股财报及资金流向数据"
       }
     },
     {
       "rank": 5,
-      "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
-      "source": "CNBC",
-      "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "华尔街分析师推荐高股息股票以提升组合收益",
-        "assets": "📈 公用事业、消费必需品等高股息板块 利好",
-        "chain": "防御性配置需求上升→资金从成长股转向价值股→股息率（分红/股价）成关键指标",
-        "watch": "股息率变化及公司分红政策"
-      }
-    },
-    {
-      "rank": 6,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克期货延续上周涨势",
-        "assets": "📈 美股大盘（标普500、纳指） 利好",
-        "chain": "市场情绪乐观→科技股领涨→资金流入ETF（交易所交易基金）→指数进一步走高",
-        "watch": "美联储决议及科技巨头财报"
+        "what": "标普500和纳斯达克期货延续涨势",
+        "assets": "📈 美股大盘（标普500、纳斯达克）利好",
+        "chain": "期货上涨→开盘预期乐观→风险偏好提升→资金涌入成长股",
+        "watch": "开盘后实际走势及VIX（恐慌指数）变化"
       }
     },
     {
-      "rank": 7,
-      "title": "Warren Buffett unveils 11-word stock market warning - thestreet.com",
-      "source": "thestreet.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "巴菲特发布11字股市警告",
-        "assets": "📉 美股整体 承压",
-        "chain": "权威信号引发避险→资金流向债券或现金→估值过高的板块（如AI）面临回调",
-        "watch": "伯克希尔持仓变动及市场波动率（VIX恐慌指数）"
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 6,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
       "source": "CNBC",
       "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳指期货延续涨势（重复新闻）",
-        "assets": "📈 美股大盘 利好",
-        "chain": "趋势延续性确认→散户跟风买入→但需警惕超买（买入过度）信号",
-        "watch": "RSI（相对强弱指标）及成交量变化"
+        "what": "7个OPEC+国家同意小幅增产",
+        "assets": "📉 原油 承压",
+        "chain": "供给温和增加→油价下行→通胀预期缓和→降息预期升温",
+        "watch": "原油库存数据及产油国实际执行情况"
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "Oil slips after OPEC+ agrees to raise output targets",
       "source": "CNBC",
       "detail": "Oil fell on Monday after OPEC+ agreed to further increase output targets from August while exports from key producers via the Strait are recovering, potentially adding to global supplies.",
@@ -122,23 +94,45 @@
       "score": 27,
       "insight": {
         "what": "OPEC+同意增产，油价下跌",
-        "assets": "📉 原油 利空\n📈 航空、运输股 利好",
-        "chain": "供给增加→油价下行→通胀压力缓解→美联储加息预期降温",
-        "watch": "OPEC+实际产量及全球原油库存数据"
+        "assets": "📉 原油 承压",
+        "chain": "增产预期兑现→供给增加→库存上升→油价下行压力",
+        "watch": "OPEC+实际产量及全球需求数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "SK Hynix seeks access to AI investors in $29 billion U.S. listing - Fortune",
       "source": "Fortune",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 20,
+      "score": 20
+    },
+    {
+      "rank": 9,
+      "title": "央行今日开展70亿元7天期逆回购操作",
+      "source": "金融一线",
+      "detail": " 7月6日金融一线消息，据央行官网，2026年7月6日中国人民银行以固定利率、数量招标方式开展了70亿元7天期逆回购操作，全额满足了一级交易商需求。",
+      "lang": "zh",
+      "score": 18,
       "insight": {
-        "what": "SK海力士寻求290亿美元美国上市，吸引AI投资者",
-        "assets": "📈 半导体（存储芯片） 利好\n📉 竞争对手（如三星） 承压",
-        "chain": "AI需求驱动→上市融资扩产→供应链受益（设备、材料）→但可能稀释现有股东权益",
-        "watch": "IPO定价及AI芯片订单数据"
+        "what": "SK海力士寻求290亿美元美国上市",
+        "assets": "📈 美股半导体板块 利好；📉 韩国股市 承压",
+        "chain": "美国上市吸引全球AI资金→半导体估值提升；韩国市场资金外流",
+        "watch": "SEC审批进展及AI投资热度"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "7 OPEC+ countries agree to expand monthly oil production modestly as prices slide - AP News",
+      "source": "AP News",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "中国央行开展70亿元7天期逆回购",
+        "assets": "📈 中国国债 利好；📉 人民币 中性偏空",
+        "chain": "短期流动性投放→资金利率稳定→债市情绪改善；但规模偏小，信号中性",
+        "watch": "后续OMO（公开市场操作）利率及MLF（中期借贷便利）续作"
       }
     }
   ]
