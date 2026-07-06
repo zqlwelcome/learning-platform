@@ -1,120 +1,64 @@
 {
-  "updateTime": "2026-07-06 17:51",
+  "updateTime": "2026-07-06 17:56",
   "news": [
     {
       "rank": 1,
-      "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
-      "source": "CNBC",
-      "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "美联储寻求对百万欺诈者减刑，原因保密",
-        "assets": "📉 美元 情绪利空",
-        "chain": "削弱司法公信力，可能间接影响市场对监管稳定性的信心",
-        "watch": "减刑原因披露及市场反应"
-      }
-    },
-    {
-      "rank": 2,
       "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美银警告股市将遭‘回撤’，年内涨幅或尽失",
-        "assets": "📉 美股大盘 利空",
-        "chain": "投机过热触发获利了结（卖出获利头寸），引发连锁抛售（多米诺效应）",
-        "watch": "投机指标（如看跌/看涨期权比率）"
+        "what": "美银警告股市将‘回撤’，年内涨幅或蒸发",
+        "assets": "📉 美股大盘 承压；📉 科技股 承压",
+        "chain": "投机极端（散户杠杆过高）触发抛售，资金可能流向避险资产（如美债、黄金）",
+        "watch": "标普500波动率指数（VIX）是否突破20"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达/半导体 利空",
-        "chain": "AI算力供应延迟，拖累AI应用落地节奏，利好竞争对手AMD",
-        "watch": "英伟达官方指引及AMD订单变化"
+        "what": "英伟达下一代AI机架系统延迟至2028年",
+        "assets": "📉 英伟达 利空；📉 AI芯片板块 承压",
+        "chain": "制造瓶颈（产能不足）拖累AI算力基建，AMD或受益于替代预期",
+        "watch": "英伟达财报指引及台积电CoWoS（先进封装）产能"
       }
     },
     {
-      "rank": 4,
-      "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
-      "source": "CNBC",
-      "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "即使制裁解除，伊朗仍难清空石油库存",
-        "assets": "📉 原油 承压",
-        "chain": "制裁解除预期已被消化，实际物流和买家限制限制出口，油价上行受限",
-        "watch": "伊朗原油出口量及买家动向"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
-      "source": "CNBC",
-      "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "高盛预测日元延续历史性贬值，AI和能源‘供应危机’支撑美元",
-        "assets": "📉 日元 承压，📈 美元 利好",
-        "chain": "利差扩大（美日息差）推低日元，美元获AI/能源需求支撑（资本流入）",
-        "watch": "美日10年期国债利差"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
-      "source": "CNBC",
-      "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达/半导体 利空",
-        "chain": "AI算力供应延迟，拖累AI应用落地节奏，利好竞争对手AMD",
-        "watch": "英伟达官方指引及AMD订单变化"
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 3,
       "title": "易捷航空同意73亿美元被凯斯莱克收购，股价暴涨10%",
       "source": "环球市场播报",
       "detail": "核心要点 易捷航空股价周一创下 52 周新高。 这家廉价航空上周日原则上同意美国私募机构凯斯莱克提出的上调后收购要约。2024 年 5 月 3 日周五...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "易捷航空以73亿美元被凯斯莱克收购，股价暴涨10%",
-        "assets": "📈 易捷航空 利好，📈 航空板块 利好",
-        "chain": "收购溢价推升股价，可能引发航空业并购潮（行业整合）",
-        "watch": "收购完成率及监管审批"
+        "what": "易捷航空被凯斯莱克73亿美元收购，股价涨10%",
+        "assets": "📈 易捷航空 利好；📈 欧洲航空板块 情绪提振",
+        "chain": "并购溢价（高出市价）暗示行业整合加速，可能引发对瑞安航空等竞品估值重估",
+        "watch": "欧盟反垄断审查进展及收购完成率"
       }
     },
     {
-      "rank": 8,
+      "rank": 4,
       "title": "低估值+3连阳！港股互联网ETF（513770）基金经理：WorkBuddy正在修复互联网板块的AI逻辑",
       "source": "新浪基金",
       "detail": "近日来，港股市场表现强势，港股互联网板块已从底部悄然走高。7月6日，重仓互联网龙头的港股互联网ETF华宝（513770）场内价格收涨1.79%，实现日线3连阳。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "基金经理称低估值港股互联网ETF修复AI逻辑",
-        "assets": "📈 港股互联网 利好",
-        "chain": "AI逻辑修复吸引资金流入（买盘），带动科技板块估值重估",
-        "watch": "港股互联网ETF资金流及AI相关财报"
+        "what": "港股互联网ETF基金经理看好AI修复逻辑",
+        "assets": "📈 港股互联网板块 利好；📈 中概科技股 情绪提振",
+        "chain": "低估值（市盈率低于历史均值）+AI叙事（WorkBuddy工具）吸引资金轮动至恒生科技",
+        "watch": "恒生科技指数能否站稳4500点"
       }
     },
     {
-      "rank": 9,
+      "rank": 5,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -122,23 +66,79 @@
       "score": 27,
       "insight": {
         "what": "标普500和纳斯达克期货延续上周涨势",
-        "assets": "📈 美股大盘 利好",
-        "chain": "多头情绪延续（看涨），可能触发空头回补（空头买入平仓）",
-        "watch": "期货持仓变化及本周经济数据"
+        "assets": "📈 美股大盘 利好；📈 科技股 利好",
+        "chain": "多头动能（连续上涨）强化趋势交易者追高，但需警惕获利回吐风险",
+        "watch": "本周美联储官员讲话及ISM制造业PMI"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "乘全球人工智能浪潮 韩芯片巨头SK海力士启动280亿美元赴美上市进程",
+      "source": "环球市场播报",
+      "detail": "SK海力士（SK Hynix）周一正式宣布启动赴美发行存托凭证（DR）的招股流程，拟募资43万亿韩元（约合280.7亿美元）。此举旨在乘全球人工智能（AI）爆发式增长之势...",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "SK海力士启动280亿美元赴美上市",
+        "assets": "📈 韩股芯片板块 利好；📈 美股半导体 供给预期",
+        "chain": "全球AI需求（HBM高带宽内存）驱动海外融资，可能稀释现有股东权益但提升流动性",
+        "watch": "SEC（美国证监会）上市审批及定价区间"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Converting car plants to make military drones will fail, warns Japan defence titan - Financial Times",
+      "source": "Financial Times",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 25,
+      "insight": {
+        "what": "日本防务巨头称汽车厂转产军用无人机将失败",
+        "assets": "📉 军工无人机板块 情绪压制；📈 传统防务商 利好",
+        "chain": "转产成本高（供应链不兼容）凸显专业壁垒，利好洛克希德等现有防务龙头",
+        "watch": "日本防卫省采购合同分配情况"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "摩根士丹利威尔逊：股市上涨行情将扩散至芯片板块以外领域",
+      "source": "环球市场播报",
+      "detail": "摩根士丹利策略师表示，随着半导体相关个股上涨动能消退，投资者正转向大型云服务商以及美股其他此前滞涨板块。 由迈克尔·威尔逊领衔的策略团队建议...",
+      "lang": "zh",
+      "score": 22,
+      "insight": {
+        "what": "摩根士丹利称股市涨势将扩散至芯片以外",
+        "assets": "📈 美股非科技板块 利好；📈 工业/金融股 轮动预期",
+        "chain": "板块轮动（资金从AI龙头转向滞涨周期股）暗示经济软着陆预期增强",
+        "watch": "标普500等权重指数相对市值加权指数表现"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "午后拉升！601101尾盘封涨停",
+      "source": "证券时报",
+      "detail": "7月6日，A股整体走势偏弱，沪指探底回升，盘中一度翻红，创业板指走势疲弱；港股震荡上扬，两大股指均涨约1%。 具体来看，沪指早盘探底回升...",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "A股个股601101尾盘封涨停",
+        "assets": "📈 煤炭板块 事件驱动利好",
+        "chain": "尾盘拉升（资金突袭）可能是游资炒作或消息泄露，需警惕次日低开风险",
+        "watch": "公司公告及龙虎榜席位（机构/游资比例）"
       }
     },
     {
       "rank": 10,
-      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
-      "source": "CNBC",
-      "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
-      "lang": "en",
-      "score": 27,
+      "title": "联合国秘书长警示：人工智能发展速度已远超监管规则的更新节奏",
+      "source": "环球市场播报",
+      "detail": "联合国秘书长于周一发出警示，人工智能的发展速度已经快到令人难以跟上，他呼吁全球出台统一协调的监管规则，以此降低人工智能带来的潜在风险...",
+      "lang": "zh",
+      "score": 20,
       "insight": {
-        "what": "标普500和纳斯达克期货延续上周涨势",
-        "assets": "📈 美股大盘 利好",
-        "chain": "多头情绪延续（看涨），可能触发空头回补（空头买入平仓）",
-        "watch": "期货持仓变化及本周经济数据"
+        "what": "联合国秘书长警示AI发展远超监管速度",
+        "assets": "📉 AI概念股 政策风险；📈 网络安全板块 利好",
+        "chain": "监管不确定性（如数据安全法）可能压制科技巨头估值，合规成本上升利好审计/风控服务",
+        "watch": "G7及欧盟AI法案立法进展"
       }
     }
   ]
