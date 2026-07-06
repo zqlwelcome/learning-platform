@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 07:36",
+  "updateTime": "2026-07-07 07:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "前OpenAI研究员对冲基金押注SK海力士美国IPO",
-        "assets": "📈 美股半导体 利好；📈 SK海力士 看涨",
-        "chain": "AI算力需求驱动（AI训练需要大量存储芯片），带动HBM（高带宽内存）产业链估值提升",
-        "watch": "SK海力士IPO定价及AI芯片订单数据"
+        "what": "前OpenAI研究员对冲基金押注SK海力士美股IPO",
+        "assets": "📈 SK海力士（半导体存储）利好",
+        "chain": "AI算力需求（人工智能训练芯片）驱动存储芯片订单，利好半导体设备",
+        "watch": "SK海力士IPO定价及首日涨幅"
       }
     },
     {
@@ -23,100 +23,70 @@
       "lang": "zh",
       "score": 49,
       "insight": {
-        "what": "美股收高，黄金跌，原油跌至5个月低点，微软裁员，博通与苹果延长芯片协议",
-        "assets": "📈 美股大盘 利好；📉 黄金 承压；📉 原油 利空；📈 博通 利好；📈 苹果 利好",
-        "chain": "经济衰退担忧缓解（原油下跌反映需求疲软），资金从避险资产（黄金）回流股市；博通苹果协议强化供应链锁定",
-        "watch": "美国非农数据及EIA原油库存"
+        "what": "美股收高，黄金下跌，原油跌至五个月低点，微软裁员，博通与苹果延长芯片供应至2031年",
+        "assets": "📈 美股大盘 利好；📉 黄金 承压；📉 原油 承压；📈 博通（芯片）利好",
+        "chain": "原油下跌缓解通胀（物价上涨压力），但经济放缓信号；博通苹果合作巩固芯片供应链",
+        "watch": "博通财报指引及苹果订单数据"
       }
     },
     {
       "rank": 3,
-      "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
-      "source": "AP News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 49
-    },
-    {
-      "rank": 4,
-      "title": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Makes This Boast (Live Coverage) - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "道指上涨，AI股测试关键位，SpaceX因马斯克言论下跌",
-        "assets": "📈 道指 利好；📉 特斯拉 承压；📉 SpaceX相关标的 利空",
-        "chain": "马斯克过度承诺引发市场对SpaceX估值泡沫担忧（风险偏好收紧），AI股分化加剧",
-        "watch": "SpaceX星舰试飞结果及特斯拉Q2交付量"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "十倍牛股跌停，诉讼仲裁缠身，公司回应",
-      "source": "中国证券报-中证网",
-      "detail": "7月6日，国晟科技股价跌停，收盘报10.46元/股。自今年4月创下34.27元/股的高点后，这只十倍牛股股价一路走低，今年以来累计跌幅已达40.57%。",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "特朗普敲响纽交所开市钟，将总统任期与股市涨幅挂钩",
-        "assets": "📈 美股大盘 短期情绪利好；📈 特朗普媒体概念股 脉冲",
-        "chain": "政策预期驱动（减税、放松监管预期），但需警惕过度政治化带来的监管风险",
-        "watch": "特朗普民调及企业税改法案进展"
-      }
-    },
-    {
-      "rank": 6,
       "title": "硕腾遭证券欺诈诉讼，投资者7月27日前可申请主要原告",
       "source": "环球市场播报",
       "detail": " 动物保健公司硕腾（Zoetis Inc．，NYSE：ZTS）正面临证券欺诈集体诉讼，Schall Law Firm已向投资者发出通知。该诉讼已提交至美国纽约南区联邦地区法院。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "十倍牛股跌停，公司回应诉讼仲裁缠身",
-        "assets": "📉 A股该个股 利空；📉 小盘成长股 情绪承压",
-        "chain": "流动性踩踏（杠杆资金爆仓），可能引发同板块个股补跌（交易性风险传染）",
-        "watch": "该股龙虎榜资金流向及监管问询函"
+        "what": "硕腾因隐瞒核心产品风险遭证券欺诈集体诉讼",
+        "assets": "📉 硕腾（动物保健股）利空",
+        "chain": "诉讼风险推高法律费用，可能拖累营收（公司收入），引发医药板块信任危机",
+        "watch": "硕腾最新财报及诉讼进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 4,
       "title": "Hub Group再因会计问题面临证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）再次因会计问题面临证券欺诈集体诉讼。此前，该公司因连续披露重大会计差错导致股价两次暴跌，累计跌幅超过30%...",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "Hub Group再因会计问题面临证券欺诈集体诉讼",
-        "assets": "📉 Hub Group 利空；📉 物流板块 情绪利空",
-        "chain": "会计造假连锁反应（做空机构狙击），引发物流股财务透明度担忧（信用溢价上升）",
-        "watch": "Hub Group审计报告及管理层变动"
+        "what": "Hub Group因会计差错再遭证券欺诈诉讼",
+        "assets": "📉 Hub Group（物流股）利空",
+        "chain": "会计问题暴露内控缺陷（公司内部管理漏洞），可能引发货运板块估值下调",
+        "watch": "Hub Group审计报告及投资者集体诉讼结果"
       }
     },
     {
-      "rank": 8,
+      "rank": 5,
       "title": "动物保健巨头硕腾因隐瞒核心产品风险遭证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "动物保健公司硕腾（Zoetis Inc．，NYSE：ZTS）正面临证券欺诈集体诉讼，指控其在2025年1月14日至2026年5月6日期间，就旗下多款核心产品的市场表现和竞争地位误导投资者。",
       "lang": "zh",
       "score": 33,
       "insight": {
-        "what": "硕腾因隐瞒核心产品风险遭证券欺诈诉讼",
-        "assets": "📉 硕腾 利空；📉 动物保健板块 承压",
-        "chain": "生物科技股信任危机（研发风险暴露），可能拖累同行估值（行业贝塔下行）",
-        "watch": "硕腾产品召回公告及FDA监管动态"
+        "what": "硕腾因隐瞒核心产品风险遭证券欺诈集体诉讼",
+        "assets": "📉 硕腾（动物保健股）利空",
+        "chain": "诉讼风险推高法律费用，可能拖累营收（公司收入），引发医药板块信任危机",
+        "watch": "硕腾最新财报及诉讼进展"
       }
     },
     {
-      "rank": 9,
+      "rank": 6,
       "title": "Hub Group因会计差错再遭证券欺诈诉讼",
       "source": "环球市场播报",
       "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）因连续披露重大会计差错，正面临多起证券欺诈集体诉讼。该公司此前已因此事股价两次暴跌，累计跌幅超过30%...",
       "lang": "zh",
-      "score": 33
+      "score": 33,
+      "insight": {
+        "what": "Hub Group因会计差错再遭证券欺诈诉讼",
+        "assets": "📉 Hub Group（物流股）利空",
+        "chain": "会计问题暴露内控缺陷（公司内部管理漏洞），可能引发货运板块估值下调",
+        "watch": "Hub Group审计报告及投资者集体诉讼结果"
+      }
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "ADMA Biologics因渠道压货指控遭证券欺诈集体诉讼",
       "source": "环球市场播报",
       "detail": "生物制药公司ADMA Biologics（NASDAQ：ADMA）正面临证券欺诈集体诉讼，起因是做空机构Culper Research于2026年3月24日发布的一份报告...",
@@ -124,9 +94,51 @@
       "score": 33,
       "insight": {
         "what": "ADMA Biologics因渠道压货指控遭证券欺诈诉讼",
-        "assets": "📉 ADMA Biologics 利空；📉 生物科技分销股 承压",
-        "chain": "渠道库存风险暴露（收入确认虚高），可能引发同类公司做空潮（审计压力增大）",
-        "watch": "ADMA渠道库存数据及客户回款情况"
+        "assets": "📉 ADMA Biologics（生物科技股）利空",
+        "chain": "渠道压货（经销商囤货虚增销量）质疑影响收入真实性，拖累生物科技板块情绪",
+        "watch": "ADMA Biologics渠道库存数据及诉讼和解进展"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Hub Group因会计差错面临证券欺诈集体诉讼",
+      "source": "环球市场播报",
+      "detail": "北美运输与物流解决方案提供商Hub Group（NASDAQ：HUBG）正面临证券欺诈集体诉讼。该公司因连续披露重大会计差错，导致股价两次暴跌，累计跌幅超过30%...",
+      "lang": "zh",
+      "score": 33,
+      "insight": {
+        "what": "Hub Group因会计差错再遭证券欺诈诉讼",
+        "assets": "📉 Hub Group（物流股）利空",
+        "chain": "会计问题暴露内控缺陷（公司内部管理漏洞），可能引发货运板块估值下调",
+        "watch": "Hub Group审计报告及投资者集体诉讼结果"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "凌晨！中国资产，大爆发！美联储，重磅发声",
+      "source": "券商中国",
+      "detail": "【重磅】A股业绩利好频出！别再错过，立即开户跟进&gt;&gt; 【相关阅读】科技股回来了！芯片、存储、半导体，全线暴涨 芯片存储大反攻！",
+      "lang": "zh",
+      "score": 33,
+      "insight": {
+        "what": "中国资产大爆发，美联储重磅发声",
+        "assets": "📈 中国A股/港股 利好；📈 人民币 利好",
+        "chain": "美联储鸽派（偏向降息）信号提振风险偏好，资金流向新兴市场",
+        "watch": "美联储7月利率决议及中国PMI（采购经理人指数）数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
+      "source": "CNBC",
+      "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "阿里巴巴禁止员工使用Anthropic AI，称其发起蒸馏攻击",
+        "assets": "📉 Anthropic AI（AI公司）利空；📈 阿里云（国产AI）利好",
+        "chain": "中美AI竞争加剧，限制技术外流，利好国产替代（国内自主研发）",
+        "watch": "Anthropic客户流失情况及阿里AI产品进展"
       }
     }
   ]
