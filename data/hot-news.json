@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 02:45",
+  "updateTime": "2026-07-07 02:50",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SK海力士寻求280亿美元赴美IPO",
-        "assets": "📈 美股半导体 利好",
-        "chain": "产业链（供应链）融资扩张，带动AI芯片产能预期，利空现有芯片股",
-        "watch": "美股IPO定价及AI芯片需求数据"
+        "what": "SK海力士寻求280亿美元美国IPO，押注AI需求",
+        "assets": "📈 美股半导体 利好；📈 美股指（IPO市场活跃）利好",
+        "chain": "AI芯片需求确认，推动半导体板块资金流入，但可能抽走其他科技股流动性",
+        "watch": "SK海力士IPO定价及认购倍数"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普敲响纽交所开市钟，将股市表现与政绩绑定",
-        "assets": "📈 美股大盘 短期利好",
-        "chain": "政策预期（市场情绪）偏多，但政策不确定性（关税、监管）可能引发波动",
-        "watch": "特朗普政策声明及美股资金流向"
+        "what": "特朗普敲响纽交所开盘钟，将政绩与股市挂钩",
+        "assets": "📈 美股大盘（政策预期）利好；📉 美债（风险偏好上升）承压",
+        "chain": "政治化股市（将股市表现作为政绩）可能引发监管不确定性，增加波动率",
+        "watch": "特朗普民调及政策声明"
       }
     },
     {
@@ -38,107 +38,107 @@
       "score": 36,
       "insight": {
         "what": "摩根士丹利建议押注美联储加息预期消退",
-        "assets": "📈 美债 利好；📉 美元 承压",
-        "chain": "降息预期（借钱成本降低）推高债价，资金从现金（美元）流向风险资产",
-        "watch": "美联储会议纪要及CPI（消费者物价指数）数据"
+        "assets": "📈 美债（国债价格）利好；📉 美元 承压；📈 成长股（利率敏感）利好",
+        "chain": "加息预期消退（市场认为未来不会加息）→短端利率（短期国债利率）下行→科技股估值修复",
+        "watch": "美联储官员讲话及CPI数据"
       }
     },
     {
       "rank": 4,
-      "title": "深化半导体与AI基础设施布局 索尔斯蒂斯先进材料拟145亿美元收购元素解决方案",
-      "source": "环球市场播报",
-      "detail": "美国特殊化学品制造商索尔斯蒂斯先进材料（Solstice Advanced Materials）周一正式宣布，已与同业企业元素解决方案（Element Solutions）达成最终合并协议。",
-      "lang": "zh",
-      "score": 35,
-      "insight": {
-        "what": "索尔斯蒂斯拟145亿美元收购元素解决方案",
-        "assets": "📈 美股半导体/材料 利好",
-        "chain": "行业整合（并购）提升龙头定价权，利好材料供应商，利空小型竞争者",
-        "watch": "并购监管审批进展及目标公司财报"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off - Reuters",
-      "source": "Reuters",
+      "title": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off - Yahoo Finance",
+      "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "对冲基金连续第四周抛售芯片股",
-        "assets": "📉 美股半导体 利空",
-        "chain": "资金轮动（板块切换）从AI转向防御性板块（如公用事业），压制AI估值",
-        "watch": "半导体ETF（交易所交易基金）资金流及AI公司财报"
+        "what": "对冲基金连续第四周抛售芯片股，AI板块遭获利了结",
+        "assets": "📉 美股半导体 承压；📉 AI概念股（如英伟达）承压",
+        "chain": "资金流出科技→轮动至防御板块（低波动股），可能引发科技股短期回调",
+        "watch": "芯片ETF（如SMH）资金流向"
       }
     },
     {
-      "rank": 6,
-      "title": "报道：美国财政部的一份报告草案对AI泡沫风险发出警告",
-      "source": "环球市场播报",
-      "detail": "NOTUS援引其获得的文件报道称，美国财政部分析师起草的一份报告草案将警告人工智能带来的风险。 NOTUS报道称，分析师发现，人工智能市场下滑将对经济构成重大风险。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "美国财政部草案警告AI泡沫风险",
-        "assets": "📉 美股AI相关股 利空",
-        "chain": "监管风险（政策干预）抑制投机情绪，可能触发AI板块获利回吐",
-        "watch": "AI行业营收增速及监管政策落地"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "SK海力士启动赴美上市推介 有望成为全球历史上规模前三大IPO",
-      "source": "环球市场播报",
-      "detail": " SK海力士周一正式启动赴美上市的推介程序。这家韩国芯片制造商希望借助投资者对炙手可热的存储芯片行业需求激增的契机，完成此次上市。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "SK海力士启动赴美上市推介",
-        "assets": "📈 美股半导体 利好",
-        "chain": "IPO（首次公开募股）吸走流动性，但提振AI产业链估值，利空现有内存股",
-        "watch": "IPO认购倍数及AI芯片需求指引"
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 5,
       "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
       "source": "Forbes",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普相关股票和加密货币投资者血亏",
-        "assets": "📉 美股“特朗普概念” 利空；📉 加密货币 承压",
-        "chain": "政治风险（政策不确定性）消退，资金从情绪驱动资产转向基本面",
-        "watch": "特朗普支持率及相关公司财报"
+        "what": "投资者因买入特朗普相关股和加密货币损失数十亿美元",
+        "assets": "📉 特朗普概念股（如DWAC）承压；📉 加密货币（比特币）承压",
+        "chain": "散户信心受损→政治题材股（与政治人物相关的股票）溢价消退，可能引发监管审查",
+        "watch": "DWAC股价及SEC相关公告"
       }
     },
     {
-      "rank": 9,
+      "rank": 6,
       "title": "Stock Market Today: Nasdaq Rises at Start of Busy Week for Tech Stocks — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克因科技股上涨而走高",
-        "assets": "📈 美股科技股 利好",
-        "chain": "科技权重（指数占比）推动大盘，但资金集中度高，易引发回调",
-        "watch": "科技板块资金流向及利率决议"
+        "what": "纳斯达克上涨，科技股迎来繁忙周",
+        "assets": "📈 美股科技股 利好；📈 纳指 利好",
+        "chain": "科技股财报季（公司公布业绩）来临→业绩超预期与否决定短期方向，可能带动大盘",
+        "watch": "苹果、微软等财报及营收指引"
       }
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "Low volatility stocks like insurers and REITs are suddenly turning into market leaders, Katie Stockton says",
       "source": "CNBC",
       "detail": "An ETF tied to low volatility stocks is benefiting from a broadening in market leadership and participation.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "低波动股票（保险、REITs）成为市场领涨板块",
-        "assets": "📈 美股保险/REITs 利好",
-        "chain": "防御轮动（避险资金流入）暗示风险偏好下降，科技股可能承压",
-        "watch": "VIX（恐慌指数）及防御板块相对科技股的表现"
+        "what": "低波动股如保险和REITs意外成为市场领涨板块",
+        "assets": "📈 保险股 利好；📈 REITs（房地产信托）利好；📉 科技成长股 承压",
+        "chain": "资金从高波动科技股轮动至防御型板块（低风险股票）→市场风险偏好降低，暗示避险情绪",
+        "watch": "VIX（恐慌指数）及10年期美债收益率"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
+      "source": "CNBC",
+      "detail": "Mike Khouw gives a trade on Rivian and Tesla, informed by his wife's recent auto purchase.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "Rivian、特斯拉与‘Holly Index’：新电动汽车主街战场",
+        "assets": "📈 Rivian 利好；📉 特斯拉 承压；📈 电动汽车股（竞争加剧）利好",
+        "chain": "EV价格战（降价竞争）白热化→利润压缩，但低端市场（大众市场）份额争夺可能利好销量",
+        "watch": "Rivian及特斯拉交付数据"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "One month that shook the market: Saylor's struggles over bitcoin strategy yields big losses - CoinDesk",
+      "source": "CoinDesk",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 25,
+      "insight": {
+        "what": "MicroStrategy的Saylor因比特币策略亏损巨大",
+        "assets": "📉 比特币 承压；📉 MicroStrategy（MSTR）承压",
+        "chain": "杠杆买币（借钱投资）策略失败→引发市场对加密货币杠杆风险的担忧，可能触发更多清算",
+        "watch": "比特币价格及MSTR债务评级"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Tech Set to Rebound as AI Leadership Faces Fresh Tests - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "科技板块有望反弹，AI领导地位面临新考验",
+        "assets": "📈 美股科技股 利好；📈 AI概念股（如微软、谷歌）利好",
+        "chain": "AI领域竞争加剧（新模型/产品发布）→龙头股需证明技术护城河（竞争优势），否则面临估值回调",
+        "watch": "AI相关财报及新产品发布"
       }
     }
   ]
