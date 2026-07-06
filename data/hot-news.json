@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 11:56",
+  "updateTime": "2026-07-06 12:05",
   "news": [
     {
       "rank": 1,
@@ -9,56 +9,42 @@
       "lang": "zh",
       "score": 60,
       "insight": {
-        "what": "通胀担忧缓解，美股平静周聚焦PMI和财报",
-        "assets": "📈 美股指数 中性偏多",
-        "chain": "PMI若弱则强化降息（借钱成本降低）预期，利好科技成长股；消费财报若差则打压消费板块",
-        "watch": "周二美国服务业PMI、苹果/亚马逊财报"
+        "what": "服务业PMI和消费财报接力，SK海力士IPO成焦点",
+        "assets": "📈 半导体板块 利好",
+        "chain": "PMI强劲→加息预期（借钱成本上升）→压制估值，但财报韧性支撑消费股",
+        "watch": "SK海力士IPO定价及首日表现"
       }
     },
     {
       "rank": 2,
-      "title": "Micron Stock Investors Just Got Good News From Wall Street and Nvidia CEO Jensen Huang - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "美光获华尔街和英伟达CEO黄仁勋看好",
-        "assets": "📈 美光科技（MU） 利好；📈 存储芯片板块 利好",
-        "chain": "存储芯片需求强劲确认AI资本开支（企业买设备投入）周期，利好半导体设备股",
-        "watch": "美光财报指引、HBM（高带宽内存）订单数据"
-      }
-    },
-    {
-      "rank": 3,
       "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美国银行警告美股将‘回撤’，年内涨幅或蒸发",
-        "assets": "📉 美股大盘 利空；📉 小盘成长股 承压",
-        "chain": "投机情绪极端触发均值回归（涨多了跌），资金或转向防御板块（公用事业、医疗）",
-        "watch": "VIX（恐慌指数）是否突破20、散户杠杆率"
+        "what": "美银警告：股市将‘回吐’年内涨幅，投机情绪极端",
+        "assets": "📉 美股大盘 承压",
+        "chain": "极端投机→获利了结（卖出锁定利润）→下跌触发止损（自动卖出）→加速回调",
+        "watch": "标普500 200日均线（长期趋势线）支撑位"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "随着投资者缩减对美联储加息的押注 金价走高",
       "source": "环球市场播报",
       "detail": "亚洲交易时段，金价小幅走高。大华全球经济与市场研究团队在一份报告中表示，疲软的美国就业数据和较低的能源价格可能正促使投资者缩减对美联储加息的押注。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "美联储加息押注减少，黄金价格走高",
-        "assets": "📈 黄金 利好；📉 美元 承压",
-        "chain": "利率预期下行压低实际利率（名义利率减通胀），黄金避险需求回升，利空债券收益率",
-        "watch": "本周美联储会议纪要措辞、美元指数"
+        "what": "美联储加息押注缩减，金价上涨",
+        "assets": "📈 黄金 利好",
+        "chain": "加息预期降温→美元走弱（汇率下降）→黄金作为替代资产吸引力上升",
+        "watch": "本周美联储会议纪要措辞（鸽派/鹰派）"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
@@ -66,79 +52,93 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达（NVDA） 利空；📈 竞争对手AMD 利好",
-        "chain": "AI硬件供应延迟或削弱短期资本开支预期，但长期需求不变，利好定制芯片（ASIC）",
-        "watch": "英伟达官方回应、台积电CoWoS（先进封装）产能"
+        "assets": "📉 英伟达 利空",
+        "chain": "推迟→AI算力供应不及预期→拖累AI产业链（如服务器、数据中心）",
+        "watch": "英伟达官方确认及客户订单调整"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
       "source": "CNBC",
       "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "高盛看跌日元，AI和能源‘供应短缺’支撑美元",
-        "assets": "📉 日元 承压；📈 美元 利好；📈 能源股 利好",
-        "chain": "日元贬值加剧亚洲货币竞争性贬值（竞相贬值），能源短缺推升通胀，利空美债",
-        "watch": "日本央行干预信号、美国EIA原油库存"
+        "what": "高盛：日元继续历史性贬值，AI和能源‘供应荒’支撑美元",
+        "assets": "📉 日元 承压",
+        "chain": "日元贬值→日本出口竞争力提升→但进口成本推高通胀→美元因避险需求走强",
+        "watch": "日本央行干预汇率（买入日元）信号"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "光大期货0706黄金点评：短期黄金止跌回稳，本周关注美联储会议纪要",
       "source": "市场资讯",
       "detail": "上周黄金先抑后扬，非农就业数据“爆冷”后，加息预期降温，短线黄金止跌回稳，伦敦现货黄金周涨幅超2%，沪金主力合约小幅上涨。本周关注周四美联储会议纪要发布...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "光大期货：黄金止跌回稳，本周关注美联储纪要",
-        "assets": "📈 黄金 中性偏多；📉 美元 承压",
-        "chain": "短期技术面支撑+利率预期松动，但纪要若鹰派（偏紧缩）则重启跌势",
-        "watch": "美联储会议纪要投票分布、点阵图暗示"
+        "what": "短期黄金止跌回稳，关注美联储会议纪要",
+        "assets": "📈 黄金 短期利好",
+        "chain": "纪要若偏鸽（暗示降息）→美元跌→金价反弹；若偏鹰→金价承压",
+        "watch": "美联储会议纪要中‘通胀’和‘利率’关键词"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Samsung likely to post 18-fold jump in profit on surging AI demand for memory - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星因AI存储需求激增，利润或暴增18倍",
-        "assets": "📈 三星电子 利好；📈 存储芯片（HBM） 利好",
-        "chain": "AI记忆体（HBM）供不应求确认半导体周期上行，利好SK海力士、美光",
-        "watch": "三星Q2财报细节、HBM定价趋势"
+        "what": "三星利润因AI内存需求激增有望暴增18倍",
+        "assets": "📈 半导体存储芯片 利好",
+        "chain": "AI服务器需求→HBM（高带宽内存）供不应求→三星盈利改善→带动产业链",
+        "watch": "三星Q2财报及HBM出货量指引"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 预测市场平台（如Polymarket） 利好；📈 体育博彩股 利好",
-        "chain": "事件驱动交易量激增，验证Web3应用落地，利好相关代币（如REP）",
-        "watch": "世界杯决赛日流量、监管政策变化"
+        "what": "世界杯推动预测市场交易量创新高",
+        "assets": "📈 博彩/预测平台 利好",
+        "chain": "赛事流量→用户增长→平台收入激增→吸引资本关注（VC/PE）",
+        "watch": "后续重大赛事（如奥运会）的押注数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票，称‘定位良好’可跑赢",
-        "assets": "📈 高盛推荐个股 利好（具体看清单）",
-        "chain": "机构资金轮动至低估值板块，若业绩验证则触发补涨行情",
-        "watch": "高盛报告发布后资金流向、个股估值分位数"
+        "what": "高盛推荐‘被低估’股票，认为有望跑赢",
+        "assets": "📈 高盛推荐个股 利好",
+        "chain": "低估→价值回归（股价回升）→吸引资金流入相关板块（如金融、能源）",
+        "watch": "高盛推荐列表及后续资金流向"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "标普500和纳斯达克期货延续涨势",
+        "assets": "📈 美股科技股 利好",
+        "chain": "期货上涨→开盘情绪乐观→带动风险偏好（愿意冒险）→资金涌入成长股",
+        "watch": "开盘后实际成交量及买盘持续性"
       }
     }
   ]
