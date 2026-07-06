@@ -1,36 +1,64 @@
 {
-  "updateTime": "2026-07-06 17:35",
+  "updateTime": "2026-07-06 17:40",
   "news": [
     {
       "rank": 1,
+      "title": "First known congressional SpaceX stock buys surface after record IPO",
+      "source": "CNBC",
+      "detail": "The SpaceX stock purchases come as Elon Musk’s company deepens its role in federal contracting and remains closely tied to President Donald Trump’s Washington.",
+      "lang": "en",
+      "score": 62,
+      "insight": {
+        "what": "国会首现SpaceX股票购买记录",
+        "assets": "📈 SpaceX估值 利好",
+        "chain": "政治人物持仓或推动航天政策利好（政策面支撑），带动太空概念股情绪",
+        "watch": "其他议员是否跟进披露"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
+      "source": "CNBC",
+      "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "联邦检察官申请减刑1亿美元诈骗案",
+        "assets": "📉 司法公正信任度 承压",
+        "chain": "量刑不透明可能引发监管收紧（监管风险），波及金融合规股",
+        "watch": "最终量刑结果及市场反应"
+      }
+    },
+    {
+      "rank": 3,
       "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美银警告股市将遭遇‘回弹’并回吐年内涨幅",
-        "assets": "📉 美股大盘 承压",
-        "chain": "极端的投机情绪（散户追涨）可能触发系统性平仓（止损单连环触发），拖累全球风险资产",
+        "what": "美银警告股市将遭遇‘回撤’并回吐年内涨幅",
+        "assets": "📉 美股大盘 利空",
+        "chain": "投机极端触发获利了结（多头平仓），资金可能转向债市或防御板块",
         "watch": "VIX（恐慌指数）是否突破20"
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
       "title": "Gold (XAUUSD) Price Forecast: Can Fed Minutes Lift Gold Above the 52-Week MA? - FXEmpire",
       "source": "FXEmpire",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "黄金受美联储会议纪要影响，关注能否突破52周均线",
-        "assets": "📈 黄金 利好",
-        "chain": "若纪要偏鸽（暗示降息），美元走弱（美元指数下跌）将推升黄金；反之承压",
-        "watch": "美联储纪要措辞及点阵图（利率预测）"
+        "what": "金价能否突破52周均线取决于美联储会议纪要",
+        "assets": "📈 黄金 中性偏多",
+        "chain": "纪要若偏鸽（暗示降息）则美元走弱，黄金突破均线；偏鹰则承压",
+        "watch": "美联储点阵图及通胀表述"
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -38,13 +66,55 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空；📉 AI芯片板块 承压",
-        "chain": "AI算力部署放缓（数据中心建设延期），拖累英伟达供应链及科技股估值",
-        "watch": "英伟达财报指引及竞争对手订单数据"
+        "assets": "📉 英伟达 利空；📈 AMD 利好",
+        "chain": "供应瓶颈延迟AI算力部署（供给冲击），竞争对手或抢占市场份额",
+        "watch": "英伟达官方是否确认及客户订单变化"
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
+      "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
+      "source": "CNBC",
+      "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "高盛预测日元继续暴跌，AI和能源供应紧缩支撑美元",
+        "assets": "📉 日元 承压；📈 美元 利好",
+        "chain": "AI算力需求推高美国能源出口（贸易顺差），日元套利交易（借日元买美元）加剧贬值",
+        "watch": "日本央行是否干预汇市"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
+      "source": "CNBC",
+      "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "伊朗即使获制裁豁免也难以清理石油库存",
+        "assets": "📉 原油 承压",
+        "chain": "库存积压暗示需求疲软（供需失衡），OPEC+（石油输出国组织）减产压力加大",
+        "watch": "伊朗石油出口实际数据及制裁进展"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
+      "source": "CNBC",
+      "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
+        "assets": "📉 英伟达 利空；📈 台积电 中性偏空",
+        "chain": "制造瓶颈暴露先进封装产能不足（产业链瓶颈），芯片设备股或受波及",
+        "watch": "台积电3nm良率及产能扩张计划"
+      }
+    },
+    {
+      "rank": 9,
       "title": "易捷航空同意73亿美元被凯斯莱克收购，股价暴涨10%",
       "source": "环球市场播报",
       "detail": "核心要点 易捷航空股价周一创下 52 周新高。 这家廉价航空上周日原则上同意美国私募机构凯斯莱克提出的上调后收购要约。2024 年 5 月 3 日周五...",
@@ -53,92 +123,22 @@
       "insight": {
         "what": "易捷航空被凯斯莱克以73亿美元收购，股价暴涨10%",
         "assets": "📈 易捷航空 利好；📈 欧洲航空板块 利好",
-        "chain": "并购溢价（收购价高于市价）提振板块估值，可能引发航空业整合潮",
-        "watch": "其他航空股是否出现并购传闻"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "低估值+3连阳！港股互联网ETF（513770）基金经理：WorkBuddy正在修复互联网板块的AI逻辑",
-      "source": "新浪基金",
-      "detail": "近日来，港股市场表现强势，港股互联网板块已从底部悄然走高。7月6日，重仓互联网龙头的港股互联网ETF华宝（513770）场内价格收涨1.79%，实现日线3连阳。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "港股互联网ETF基金经理称AI逻辑正在修复板块",
-        "assets": "📈 港股互联网板块 利好",
-        "chain": "AI应用落地（如WorkBuddy）提升盈利预期，互联网公司估值修复（PE回升）",
-        "watch": "腾讯、阿里AI产品用户增长数据"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "标普500和纳斯达克期货延续上周涨势",
-        "assets": "📈 美股大盘 利好",
-        "chain": "市场情绪乐观（多头持仓增加），但需警惕获利回吐（止盈卖盘）",
-        "watch": "本周美联储会议纪要及CPI（通胀数据）"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "乘全球人工智能浪潮 韩芯片巨头SK海力士启动280亿美元赴美上市进程",
-      "source": "环球市场播报",
-      "detail": "SK海力士（SK Hynix）周一正式宣布启动赴美发行存托凭证（DR）的招股流程，拟募资43万亿韩元（约合280.7亿美元）。此举旨在乘全球人工智能（AI）爆发式增长之势...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "SK海力士启动280亿美元赴美上市进程",
-        "assets": "📈 HBM（高带宽内存）板块 利好；📈 美股半导体 利好",
-        "chain": "全球AI芯片需求（算力扩建）驱动产能扩张，可能加剧内存市场竞争",
-        "watch": "美国上市定价及认购倍数（需求热度）"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Converting car plants to make military drones will fail, warns Japan defence titan - Financial Times",
-      "source": "Financial Times",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "日本防务巨头警告将汽车工厂转为军用无人机生产会失败",
-        "assets": "📉 日本军工板块 利空；📉 国防无人机概念 承压",
-        "chain": "转产成本高（生产线改造费用）且技术不匹配，拖累日本防务供应链",
-        "watch": "日本政府国防预算及军工企业订单"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "摩根士丹利威尔逊：股市上涨行情将扩散至芯片板块以外领域",
-      "source": "环球市场播报",
-      "detail": "摩根士丹利策略师表示，随着半导体相关个股上涨动能消退，投资者正转向大型云服务商以及美股其他此前滞涨板块。 由迈克尔·威尔逊领衔的策略团队建议...",
-      "lang": "zh",
-      "score": 22,
-      "insight": {
-        "what": "摩根士丹利称股市上涨将扩散至芯片以外领域",
-        "assets": "📈 美股工业、金融等板块 利好；📉 芯片板块 相对利空",
-        "chain": "资金轮动（从AI龙头转向周期股），推动估值洼地（低PE行业）补涨",
-        "watch": "罗素2000（小盘股指数）是否跑赢纳指"
+        "chain": "收购溢价提振航空业估值（行业催化剂），可能引发其他航司并购预期",
+        "watch": "交易监管审批及竞争对手反应"
       }
     },
     {
       "rank": 10,
-      "title": "午后拉升！601101尾盘封涨停",
-      "source": "证券时报",
-      "detail": "7月6日，A股整体走势偏弱，沪指探底回升，盘中一度翻红，创业板指走势疲弱；港股震荡上扬，两大股指均涨约1%。 具体来看，沪指早盘探底回升...",
-      "lang": "zh",
-      "score": 20,
+      "title": "The World Cup sends prediction market volumes soaring to record highs",
+      "source": "CNBC",
+      "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
+      "lang": "en",
+      "score": 30,
       "insight": {
-        "what": "A股午后拉升，601101尾盘封涨停",
-        "assets": "📈 A股煤炭板块 利好",
-        "chain": "游资炒作（短线资金涌入）带动情绪，但需警惕次日低开（获利了结）",
-        "watch": "次日开盘成交量及板块联动效应"
+        "what": "世界杯推动预测市场交易量创历史新高",
+        "assets": "📈 预测市场平台 利好；📈 体育博彩股 利好",
+        "chain": "流量激增验证商业模式（用户增长），监管或加速合法化进程",
+        "watch": "后续赛事是否持续推高活跃用户数"
       }
     }
   ]
