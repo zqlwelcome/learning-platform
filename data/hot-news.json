@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 20:50",
+  "updateTime": "2026-07-06 20:55",
   "news": [
     {
       "rank": 1,
@@ -9,28 +9,42 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普将股市表现与总统任期挂钩",
-        "assets": "📈 美股大盘 短期利好",
-        "chain": "市场解读为政策托底信号，风险偏好（Risk-on）提升，资金从避险资产向权益类转移",
-        "watch": "特朗普支持率与标普500走势联动"
+        "what": "特朗普将股市表现与自己总统任期挂钩",
+        "assets": "📈 美股指数 利好",
+        "chain": "市场押注特朗普政策（减税/放松监管）推高股市，但政策不确定性可能放大波动（波动率）",
+        "watch": "特朗普政策落地进度及民调支持率变化"
       }
     },
     {
       "rank": 2,
+      "title": "Micron Stock Investors Just Got Good News From Wall Street and Nvidia CEO Jensen Huang - The Motley Fool",
+      "source": "The Motley Fool",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "美光获华尔街与英伟达CEO黄仁勋正面评价",
+        "assets": "📈 美光科技 利好，📈 半导体板块 利好",
+        "chain": "AI芯片需求（人工智能算力）预期增强，带动存储芯片（DRAM/NAND）供应链上涨",
+        "watch": "美光下一季度营收指引及HBM（高带宽内存）订单数据"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
       "source": "CNBC",
       "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "联邦检察官请求对百亿美元欺诈案减刑",
-        "assets": "📉 金融监管股 情绪利空",
-        "chain": "减刑理由隐瞒引发司法不透明担忧，监管放松预期降温，银行合规成本可能上升",
-        "watch": "减刑理由披露及司法部后续声明"
+        "what": "联邦检察官寻求对1亿美元欺诈案从轻量刑",
+        "assets": "📉 美国司法股 利空",
+        "chain": "量刑不透明可能削弱投资者对金融监管（合规成本）信心，短期影响欺诈相关个股情绪",
+        "watch": "判决结果及SEC（美国证监会）后续执法行动"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "SK海力士启动290亿美元纳斯达克上市 全球AI芯片需求迎关键试金石",
       "source": "环球市场播报",
       "detail": " 全球第二大存储芯片制造商SK海力士本周正式启动美国上市流程，计划通过纳斯达克发行美国存托凭证筹集约290亿美元，这将成为史上规模最大的外国公司赴美上市之一。",
@@ -38,65 +52,51 @@
       "score": 35,
       "insight": {
         "what": "SK海力士启动290亿美元纳斯达克IPO",
-        "assets": "📈 全球AI芯片板块 长期利好",
-        "chain": "巨额融资强化HBM（高带宽内存）产能垄断，挤压三星和美光份额，同时考验美股流动性",
-        "watch": "IPO定价区间及超额认购倍数"
+        "assets": "📈 美股半导体ETF 利好，📈 韩国半导体 承压",
+        "chain": "全球AI芯片需求（生成式AI算力）获新融资渠道，但本土市场资金可能外流",
+        "watch": "IPO认购倍数及首日涨幅"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "SK Hynix to offer 17.79M common shares in U.S. IPO (SKHY:Pending) - Seeking Alpha",
+      "source": "Seeking Alpha",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 35,
+      "insight": {
+        "what": "SK海力士美国IPO发行1779万股普通股",
+        "assets": "📈 美股科技股 利好，📉 三星电子 承压",
+        "chain": "海力士在美上市将吸引资金从竞争对手（三星）流出，强化AI芯片（HBM）龙头地位",
+        "watch": "发行定价区间及机构投资者参与度"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Microsoft and LinkedIn Just Analyzed the Future of Work and AI. It All Points to One Key Skillset - inc.com",
       "source": "inc.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "微软和领英报告AI技能成为就业核心",
-        "assets": "📈 AI应用软件 结构性利好",
-        "chain": "企业培训支出转向AI，SaaS（软件即服务）和云服务需求加速，传统白领岗位面临替代风险",
-        "watch": "微软AI助手Copilot订阅增长率"
+        "what": "微软和领英分析AI未来工作需关键技能",
+        "assets": "📈 AI教育股 利好，📈 微软 利好",
+        "chain": "企业AI培训（机器学习应用）需求激增，推动SaaS（软件即服务）和在线教育板块",
+        "watch": "微软AI课程订阅量及企业客户转化率"
       }
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使获制裁解除也难以清空原油库存",
-        "assets": "📉 布伦特原油 短期利空",
-        "chain": "伊朗库存积压释放将加剧OPEC+内部分歧，油价上行空间受限，炼厂毛利承压",
-        "watch": "伊朗原油浮仓数据及制裁谈判进展"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SK海力士启动赴美上市推介 有望跻身全球历史上规模前三大IPO",
-      "source": "环球市场播报",
-      "detail": " SK海力士周一正式启动赴美上市的推介程序。这家韩国芯片制造商希望借助投资者对炙手可热的存储芯片行业需求激增的契机，完成此次上市。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "SK海力士赴美上市推介，或成历史第三大IPO",
-        "assets": "📈 纳斯达克指数 情绪利好",
-        "chain": "巨量IPO吸走流动性但提振芯片板块估值，对标英伟达（NVIDIA）PE（市盈率）中枢上移",
-        "watch": "SEC（美国证交会）审批进度及路演反馈"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "SK海力士计划在美国IPO中发行1779万股普通股",
-      "source": "环球市场播报",
-      "detail": "SK海力士计划通过美国首次公开募股发行1779万股普通股。 公司预计，通过本次发行并出售由ADS代表的1779万股普通股，募集资金净额约为280亿美元。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "SK海力士计划在美IPO发行1779万股",
-        "assets": "📈 半导体ETF 直接利好",
-        "chain": "发行规模稀释现有股东但提供二级市场流动性，韩国KOSPI（韩国综合股价指数）或遭资金分流",
-        "watch": "发行价区间及承销商订单簿"
+        "what": "伊朗即使制裁解除也难以清空石油库存",
+        "assets": "📈 原油 利多，📉 伊朗石油出口 利空",
+        "chain": "制裁解除后全球原油供给（OPEC+减产）增加有限，但伊朗物流瓶颈（油轮/保险）限制出口",
+        "watch": "伊朗原油出口量及制裁谈判进展"
       }
     },
     {
@@ -108,9 +108,9 @@
       "score": 29,
       "insight": {
         "what": "标普500和纳斯达克期货因芯片股领涨走高",
-        "assets": "📈 美股芯片股 强势利好",
-        "chain": "AI叙事延续，资金轮动至半导体，防御性板块（公用事业、医疗）遭获利了结",
-        "watch": "本周英伟达财报及台积电营收指引"
+        "assets": "📈 美股科技股 利好，📈 半导体指数 利好",
+        "chain": "AI芯片需求（英伟达/AMD）带动市场风险偏好（风险资产），资金从防御板块轮动至成长股",
+        "watch": "本周科技股财报及美联储利率决议"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克期货因科技股繁忙周上涨",
-        "assets": "📈 科技巨头股 短期利好",
-        "chain": "市场预期科技公司财报超预期，高Beta（高波动）个股受追捧，做空VIX（波动率指数）策略活跃",
-        "watch": "苹果、微软、谷歌等财报季报"
+        "what": "纳斯达克期货上涨迎接科技股繁忙一周",
+        "assets": "📈 美股科技巨头 利好",
+        "chain": "科技股财报（营收增速）将验证AI投资回报，影响整体市场估值（市盈率）",
+        "watch": "苹果/微软/谷歌等公司季度业绩"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普概念股和加密货币投资者巨亏",
-        "assets": "📉 特朗普概念股 利空出尽",
-        "chain": "散户情绪受挫，政治主题投机退潮，资金回流蓝筹股，但做空动能接近尾声",
-        "watch": "DWAC（数字世界收购集团）股价及特朗普法律费用"
+        "what": "投资者因购买特朗普股票和加密货币损失惨重",
+        "assets": "📉 特朗普媒体科技集团 利空，📉 加密货币 承压",
+        "chain": "政治关联资产（meme股/迷因股）泡沫破裂，散户资金回流主流市场，监管风险（SEC执法）上升",
+        "watch": "特朗普媒体股价及加密货币监管政策"
       }
     }
   ]
