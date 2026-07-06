@@ -1,22 +1,36 @@
 {
-  "updateTime": "2026-07-07 01:01",
+  "updateTime": "2026-07-07 01:06",
   "news": [
     {
       "rank": 1,
+      "title": "Rebounds for AI stocks help support Wall Street and keep the market mixed - AP News",
+      "source": "AP News",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 54,
+      "insight": {
+        "what": "AI股反弹推动美股分化，纳指涨道指跌",
+        "assets": "📈 纳斯达克指数 利好；📉 道琼斯指数 承压",
+        "chain": "资金从防御板块轮出（板块切换）回AI科技股，但整体流动性趋紧（市场钱少）",
+        "watch": "今晚美国CPI数据（通胀指标）对科技股估值影响"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "SK海力士申请280亿美元美国IPO",
-        "assets": "📈 全球AI芯片股 利好",
-        "chain": "AI算力需求（数据处理能力）确认，利好存储芯片供应链，拉高半导体估值",
-        "watch": "IPO定价及认购倍数"
+        "what": "SK海力士拟在美IPO融资280亿美元，创历史第三大",
+        "assets": "📈 半导体板块 利好；📉 现有美股芯片股 承压",
+        "chain": "巨额IPO抽走流动性（市场资金被吸），但强化AI硬件叙事（故事更可信）",
+        "watch": "SEC批准进展及机构认购倍数（需求热度）"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
       "source": "AP News",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -24,121 +38,107 @@
       "score": 49,
       "insight": {
         "what": "特朗普敲响纽交所开盘钟，将总统任期与股市挂钩",
-        "assets": "📈 美股大盘 短期利好",
-        "chain": "政策预期（减税/放松监管）推高风险偏好，但增加市场对政策依赖度",
-        "watch": "特朗普民调及政策声明"
+        "assets": "📈 特朗普概念股 利好；📉 美元指数 承压",
+        "chain": "政治风险溢价（政策不确定性）降低，但过度关联增加政策干预预期（政府可能乱管）",
+        "watch": "特朗普民调支持率变化及政策声明"
       }
     },
     {
-      "rank": 3,
-      "title": "Stock Market Today: Dow Dips, Nasdaq Jumps While Trump Says This; Micron Bounces, Chips Pop (Live Coverage) - Investor's Business Daily",
+      "rank": 4,
+      "title": "Stock Market Today: Dow Eases, Nasdaq Rises; Memory Names Micron, Sandisk Bounce Higher (Live Coverage) - Investor's Business Daily",
       "source": "Investor's Business Daily",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "道指跌、纳指涨，芯片股反弹带动AI板块",
-        "assets": "📈 纳斯达克100 利好；📉 道琼斯工业 承压",
-        "chain": "资金轮动（从价值股转向成长股），AI叙事（故事）重新主导市场",
-        "watch": "半导体ETF资金流向"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Rebounds for AI stocks lift US indexes - AP News",
-      "source": "AP News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "AI股反弹推动美股指数回升",
-        "assets": "📈 美股科技股 利好",
-        "chain": "多头回补（空头买入平仓）触发短期脉冲，但持续性需盈利验证",
-        "watch": "AI公司财报及指引"
+        "what": "美股分化：道指跌、纳指涨，存储芯片股美光闪迪反弹",
+        "assets": "📈 存储芯片（美光/闪迪） 利好；📉 传统周期股 承压",
+        "chain": "AI需求拉动存储涨价（供需紧张），但利率预期压制估值（借钱贵了）",
+        "watch": "美光下季营收指引（业绩预期）及DRAM现货价"
       }
     },
     {
       "rank": 5,
+      "title": "深化半导体与AI基础设施布局 索尔斯蒂斯先进材料拟145亿美元收购元素解决方案",
+      "source": "环球市场播报",
+      "detail": "美国特殊化学品制造商索尔斯蒂斯先进材料（Solstice Advanced Materials）周一正式宣布，已与同业企业元素解决方案（Element Solutions）达成最终合并协议。",
+      "lang": "zh",
+      "score": 35,
+      "insight": {
+        "what": "索尔斯蒂斯拟145亿美元收购元素，布局半导体与AI基建",
+        "assets": "📈 半导体设备/材料 利好；📉 被收购方元素解决方案 溢价",
+        "chain": "行业整合加速（并购潮），提升上游议价能力（供应商更强势）",
+        "watch": "反垄断审查进展及收购溢价比例"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Hedge funds dumped chip stocks for a fourth week as AI shares sold off - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "对冲基金连续四周抛售芯片股",
-        "assets": "📉 全球半导体股 承压",
-        "chain": "机构获利了结（锁定利润），可能预示板块短期见顶，资金转向防御",
-        "watch": "对冲基金持仓报告"
+        "what": "对冲基金连续四周抛售芯片股，AI板块遭获利了结",
+        "assets": "📉 AI芯片股（英伟达等） 承压；📈 防御性板块 利好",
+        "chain": "机构减仓引发散户跟风（羊群效应），但长期AI需求逻辑未破",
+        "watch": "芯片股资金流（大单净买入）及期权隐含波动率（恐慌程度）"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "报道：美国财政部的一份报告草案对AI泡沫风险发出警告",
+      "source": "环球市场播报",
+      "detail": "NOTUS援引其获得的文件报道称，美国财政部分析师起草的一份报告草案将警告人工智能带来的风险。 NOTUS报道称，分析师发现，人工智能市场下滑将对经济构成重大风险。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "美国财政部草案警告AI泡沫风险，引发市场警惕",
+        "assets": "📉 AI概念股 承压；📈 国债 利好",
+        "chain": "监管风险升温（可能出政策），资金避险涌入美债（安全资产）",
+        "watch": "草案正式发布内容及美联储官员表态"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "SK海力士启动赴美上市推介 有望成为全球历史上规模前三大IPO",
+      "source": "环球市场播报",
+      "detail": " SK海力士周一正式启动赴美上市的推介程序。这家韩国芯片制造商希望借助投资者对炙手可热的存储芯片行业需求激增的契机，完成此次上市。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "SK海力士启动赴美上市推介，有望成史上第三大IPO",
+        "assets": "📈 韩国股市 利好；📉 美国IPO市场存量股 承压",
+        "chain": "稀释现有股东权益（股票变多），但吸引全球资金聚焦存储赛道",
+        "watch": "路演定价区间及基石投资者名单"
+      }
+    },
+    {
+      "rank": 9,
       "title": "These are the best stocks in the worst sectors for investors betting on a rotation, says Josh Brown",
       "source": "CNBC",
       "detail": "Josh Brown and Sean Russo take a look at three stocks that could benefit from a broader market rotation.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Josh Brown推荐最差板块中的优质股",
-        "assets": "📈 公用事业/消费必需品 利好",
-        "chain": "板块轮动（资金从科技转向防御），若经济放缓则防守型资产受追捧",
-        "watch": "板块相对强弱指标"
+        "what": "Josh Brown推荐在弱势板块中选强势个股，押注轮动",
+        "assets": "📈 能源/医疗等防御股 利好；📉 AI热门股 承压",
+        "chain": "资金从高估值成长股转向价值股（风格切换），但需确认经济软着陆（不衰退）",
+        "watch": "标普500行业相对强弱指标（RSI）及PMI数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
       "source": "Forbes",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "投资者因特朗普概念股和加密货币亏损",
-        "assets": "📉 特朗普媒体科技集团 利空；📉 加密货币 承压",
-        "chain": "散户情绪恶化（恐慌抛售），可能引发相关资产踩踏",
-        "watch": "社交媒体热度及散户仓位"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
-      "source": "CNBC",
-      "detail": "Mike Khouw gives a trade on Rivian and Tesla, informed by his wife's recent auto purchase.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "Rivian、特斯拉与Holly Index：新电动车战",
-        "assets": "📈 特斯拉 利好；📈 Rivian 中性",
-        "chain": "电动车价格战（降价促销）挤压利润，但技术领先者获市场份额",
-        "watch": "Q4交付量及毛利率数据"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "UK regulator warns of ‘arms race’ to keep up with AI use in financial services - Financial Times",
-      "source": "Financial Times",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "英国监管警告AI在金融服务的军备竞赛",
-        "assets": "📈 金融科技股 中性",
-        "chain": "监管收紧（合规成本上升）抑制AI应用速度，但长期利好规范企业",
-        "watch": "FCA最终规则出台"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Record heat, crowds drive offseason boom in international travel - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "高温和拥挤推动国际旅游淡季激增",
-        "assets": "📈 航空/酒店股 利好",
-        "chain": "旅游需求韧性（不受季节影响），提振消费服务板块",
-        "watch": "旅游预订量及票价趋势"
+        "what": "福布斯报道：特朗普币和加密投资者血亏，有人破产",
+        "assets": "📉 特朗普概念股/加密货币 承压；📈 做空波动率策略 利好",
+        "chain": "散户投机情绪崩溃（恐慌抛售），可能传染至小盘MEME股（网红股）",
+        "watch": "特朗普媒体科技集团股价及比特币波动率"
       }
     }
   ]
