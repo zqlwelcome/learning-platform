@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 09:46",
+  "updateTime": "2026-07-06 09:51",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "大摩首席研判美联储今年不会加息",
-        "assets": "📈 美国国债 利好；📈 黄金 利好",
-        "chain": "加息预期降温→美债收益率下行→实际利率下降→金价上涨",
-        "watch": "美联储官员讲话及通胀数据"
+        "what": "大摩首席研判美联储今年不加息",
+        "assets": "📈 黄金 利好",
+        "chain": "加息预期降温→实际利率下行（持有黄金的机会成本降低）→资金流入贵金属",
+        "watch": "本周CPI数据及美联储官员讲话"
       }
     },
     {
@@ -24,69 +24,83 @@
       "score": 36,
       "insight": {
         "what": "投资者缩减加息押注，金价走高",
-        "assets": "📈 黄金 利好",
-        "chain": "加息预期降温→美元走弱→以美元计价黄金吸引力上升",
-        "watch": "美元指数及实际利率走势"
+        "assets": "📈 黄金 利多；📉 美元指数 承压",
+        "chain": "加息概率降低→美元弱势（美元贬值）→以美元计价大宗商品走强",
+        "watch": "CME FedWatch工具（市场对加息概率的实时跟踪）"
       }
     },
     {
       "rank": 3,
+      "title": "Samsung likely to post 18-fold jump in profit on surging AI demand for memory - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "三星利润因AI内存需求暴增18倍",
+        "assets": "📈 三星电子 利好；📈 半导体（芯片）板块 利好",
+        "chain": "AI算力需求→HBM（高带宽内存）量价齐升→存储芯片产业链受益",
+        "watch": "三星Q2财报内存业务毛利率"
+      }
+    },
+    {
+      "rank": 4,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "世界杯推动预测市场交易量创历史新高",
-        "assets": "📈 博彩类股票（如DraftKings）利好",
-        "chain": "赛事热点刺激投注需求→相关平台收入激增→股价上行",
-        "watch": "世界杯赛事关注度及投注平台财报"
+        "what": "世界杯推动预测市场交易量创新高",
+        "assets": "📈 预测市场平台（如Polymarket） 利好",
+        "chain": "大型体育赛事→投机性资金涌入→平台手续费收入激增",
+        "watch": "后续赛事流量及监管动态"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票，称其具备跑赢潜力",
-        "assets": "📈 高盛推荐个股（如能源、金融股）利好",
-        "chain": "机构背书→资金流入→估值修复；带动同类板块情绪",
-        "watch": "个股财报及资金流向数据"
+        "what": "高盛推荐这些被低估股票有望跑赢",
+        "assets": "📈 高盛推荐个股 利好",
+        "chain": "机构背书→资金轮动至价值股（市盈率相对低、基本面稳健的股票）→防御性板块受关注",
+        "watch": "高盛研报具体标的及后续资金流向"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克期货延续涨势",
-        "assets": "📈 美股大盘（标普500、纳斯达克）利好",
-        "chain": "期货上涨→开盘预期乐观→风险偏好提升→资金涌入成长股",
-        "watch": "开盘后实际走势及VIX（恐慌指数）变化"
+        "what": "美股期货延续上周涨势",
+        "assets": "📈 标普500 利好；📈 纳斯达克 利好",
+        "chain": "风险偏好（投资者愿意承担更多风险的情绪）回升→资金从债市回流股市→科技成长股领涨",
+        "watch": "本周标普500能否突破前高"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
       "source": "CNBC",
       "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "7个OPEC+国家同意小幅增产",
-        "assets": "📉 原油 承压",
-        "chain": "供给温和增加→油价下行→通胀预期缓和→降息预期升温",
-        "watch": "原油库存数据及产油国实际执行情况"
+        "what": "美股期货延续上周涨势",
+        "assets": "📈 标普500 利好；📈 纳斯达克 利好",
+        "chain": "风险偏好回升→资金从债市回流股市→科技成长股领涨",
+        "watch": "本周标普500能否突破前高"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Oil slips after OPEC+ agrees to raise output targets",
       "source": "CNBC",
       "detail": "Oil fell on Monday after OPEC+ agreed to further increase output targets from August while exports from key producers via the Strait are recovering, potentially adding to global supplies.",
@@ -94,45 +108,37 @@
       "score": 27,
       "insight": {
         "what": "OPEC+同意增产，油价下跌",
-        "assets": "📉 原油 承压",
-        "chain": "增产预期兑现→供给增加→库存上升→油价下行压力",
-        "watch": "OPEC+实际产量及全球需求数据"
+        "assets": "📉 原油 利空；📈 航空股 利好",
+        "chain": "供给增加→油价承压→通胀预期缓和（能源成本降低）→美联储政策空间扩大",
+        "watch": "OPEC+实际执行率及全球库存数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "SK Hynix seeks access to AI investors in $29 billion U.S. listing - Fortune",
       "source": "Fortune",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 20
+      "score": 20,
+      "insight": {
+        "what": "SK海力士寻求290亿美元美国上市",
+        "assets": "📈 美股半导体板块 利好",
+        "chain": "AI芯片需求爆发→韩国企业赴美融资→美股吸纳全球科技资本",
+        "watch": "SEC（美国证券交易委员会）审核进展及定价区间"
+      }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "央行今日开展70亿元7天期逆回购操作",
       "source": "金融一线",
       "detail": " 7月6日金融一线消息，据央行官网，2026年7月6日中国人民银行以固定利率、数量招标方式开展了70亿元7天期逆回购操作，全额满足了一级交易商需求。",
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "SK海力士寻求290亿美元美国上市",
-        "assets": "📈 美股半导体板块 利好；📉 韩国股市 承压",
-        "chain": "美国上市吸引全球AI资金→半导体估值提升；韩国市场资金外流",
-        "watch": "SEC审批进展及AI投资热度"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "7 OPEC+ countries agree to expand monthly oil production modestly as prices slide - AP News",
-      "source": "AP News",
-      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "中国央行开展70亿元7天期逆回购",
-        "assets": "📈 中国国债 利好；📉 人民币 中性偏空",
-        "chain": "短期流动性投放→资金利率稳定→债市情绪改善；但规模偏小，信号中性",
-        "watch": "后续OMO（公开市场操作）利率及MLF（中期借贷便利）续作"
+        "what": "央行开展70亿元7天逆回购操作",
+        "assets": "📈 中国债市 中性偏多",
+        "chain": "公开市场操作（央行买卖债券调节流动性）→短期利率稳定→流动性充裕预期",
+        "watch": "DR007（银行间7天回购利率）是否偏离政策利率"
       }
     }
   ]
