@@ -1,22 +1,8 @@
 {
-  "updateTime": "2026-07-06 23:01",
+  "updateTime": "2026-07-06 23:06",
   "news": [
     {
       "rank": 1,
-      "title": "SK Hynix seeks $28 billion in US IPO listing as memory maker rides AI wave - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "SK海力士寻求280亿美元美国IPO，借AI浪潮",
-        "assets": "📈 美股半导体板块 利好\n📈 存储芯片股 利好",
-        "chain": "AI需求拉动存储（DRAM/NAND）涨价，带动上游设备（ASML）和材料订单",
-        "watch": "IPO定价及首日涨幅，美光（MU）财报指引"
-      }
-    },
-    {
-      "rank": 2,
       "title": "深化半导体与AI基础设施布局 索尔斯蒂斯先进材料拟145亿美元收购元素解决方案",
       "source": "环球市场播报",
       "detail": "美国特殊化学品制造商索尔斯蒂斯先进材料（Solstice Advanced Materials）周一正式宣布，已与同业企业元素解决方案（Element Solutions）达成最终合并协议。",
@@ -24,9 +10,23 @@
       "score": 35,
       "insight": {
         "what": "索尔斯蒂斯先进材料145亿美元收购元素解决方案",
-        "assets": "📈 半导体材料股 利好\n📈 AI基础设施股 利好",
-        "chain": "并购溢价推高同行估值，供应链整合（材料供应商）加速，利好ETF（SMH）",
-        "watch": "并购监管审批进展，目标公司股价反应"
+        "assets": "📈 半导体材料板块 利好",
+        "chain": "并购整合提升行业集中度，利好头部材料商，利空小型竞争对手",
+        "watch": "监管审批进展及收购溢价幅度"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "黄金承压下跌 美联储会议纪要成焦点 霍尔木兹局势缓和缓解油价冲击",
+      "source": "环球市场播报",
+      "detail": "Kitco周一发布的美国市场早间报告显示，黄金价格在亚洲和欧洲交易时段承压走低，而原油价格则因霍尔木兹海峡航运逐步恢复以及OPEC+增产预期而延续跌势。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "黄金承压下跌，美联储会议纪要成焦点",
+        "assets": "📉 黄金 承压",
+        "chain": "美联储鹰派预期（加息或维持高利率）推升美元，压制黄金避险需求",
+        "watch": "美联储会议纪要措辞及点阵图变化"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "投资者因买入特朗普股票和加密货币亏损惨重",
-        "assets": "📉 特朗普媒体（DJT） 承压\n📉 加密货币（BTC） 承压",
-        "chain": "散户恐慌抛售（De-risk）引发连锁下跌，杠杆多头（高倍做多）爆仓风险",
-        "watch": "DJT股价是否跌破关键支撑，BTC期货持仓量变化"
+        "what": "特朗普股票和加密货币投资者血亏",
+        "assets": "📉 特朗普概念股 利空，📉 加密货币 承压",
+        "chain": "投资者信心受挫，引发相关资产抛售，可能扩散至政治关联板块",
+        "watch": "特朗普相关公司财报及散户情绪指标"
       }
     },
     {
       "rank": 4,
-      "title": "Stock Market Today: Nasdaq Rises at Start of Busy Week for Tech Stocks — Live Updates - WSJ",
-      "source": "WSJ",
+      "title": "Stock market today: Nasdaq leads S&P 500, Dow higher as tech jitters ease - Yahoo Finance",
+      "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克上涨，科技股迎来忙碌周",
-        "assets": "📈 美股科技股（QQQ） 利好\n📈 半导体指数（SOX） 利好",
-        "chain": "科技巨头财报预期（EPS）打满，资金轮动（Rotation）从防御股（公用事业）转向成长股",
-        "watch": "本周微软、谷歌、亚马逊财报营收增速"
+        "what": "科技股反弹，纳指领涨美股",
+        "assets": "📈 纳指 反弹，📈 美股科技股 利好",
+        "chain": "科技板块超跌修复，资金从防御股轮动至成长股，提振风险偏好",
+        "watch": "科技股财报季盈利指引及美债收益率走势"
       }
     },
     {
       "rank": 5,
+      "title": "Tech Stocks’ Rebound Stalls, Dollar Edges Higher: Markets Wrap - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "科技股反弹停滞，美元小幅走高",
+        "assets": "📉 科技股 承压，📈 美元 走强",
+        "chain": "美元走强压制出口盈利，科技股估值承压，资金回流美元资产",
+        "watch": "美元指数及10年期美债收益率"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Saudis Make Biggest Oil Price Cut in Decades as Market Weakens - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "沙特大幅下调油价，创数十年最大降幅",
-        "assets": "📉 原油（WTI/布伦特） 承压\n📈 航空股（JETS） 利好",
-        "chain": "OPEC+减产联盟松动（内部分歧），通胀预期（CPI）下行利好长债（TLT）",
-        "watch": "沙特阿美官方售价（OSP）后续调整，OPEC+会议"
+        "what": "沙特大幅下调油价，幅度创数十年之最",
+        "assets": "📉 原油 利空，📈 航空/运输股 利好",
+        "chain": "沙特降价显示需求疲软，油价下跌利好下游成本降低，但加剧产油国财政压力",
+        "watch": "OPEC+后续产量政策及全球原油库存变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "摩根士丹利：AI投资者或从芯片制造商转向超大规模企业",
+      "source": "环球市场播报",
+      "detail": "摩根士丹利在近日发布的一份研究报告中指出，随着人工智能投资逻辑的演进，投资者可能开始将资金从AI芯片制造商转向超大规模云服务商。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "摩根士丹利：AI投资或从芯片转向超大规模企业",
+        "assets": "📈 超大规模云商 利好，📉 芯片股 承压",
+        "chain": "资金轮动至应用层（云服务商），芯片需求增速可能放缓",
+        "watch": "云厂商资本开支指引及AI芯片订单数据"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "South Korea's SK Hynix launches $28 billion US listing to ride global AI wave - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 20,
+      "insight": {
+        "what": "SK海力士在美上市筹资280亿美元",
+        "assets": "📈 美股半导体板块 利好，📈 海力士ADR 利好",
+        "chain": "巨额IPO吸收流动性，但增强AI芯片产能布局，长期提振供应链",
+        "watch": "IPO定价及首日表现，AI芯片需求数据"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Record heat, crowds drive offseason boom in international travel - CNBC",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "极端高温和拥挤推动淡季国际旅游热潮",
-        "assets": "📈 航空股（AAL） 利好\n📈 酒店股（MAR） 利好",
-        "chain": "旅游旺季延长（拉长周期），推高燃油需求但利空原油库存，利好新兴市场旅游国（泰国）货币",
-        "watch": "美国运输安全局（TSA）客流量数据，酒店入住率"
+        "what": "创纪录高温和拥挤推动国际旅游淡季繁荣",
+        "assets": "📈 航空公司 利好，📈 旅游股 利好",
+        "chain": "淡季需求超预期提振营收，但高油价或侵蚀利润，需关注成本端",
+        "watch": "航空公司票价及酒店入住率数据"
       }
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "Small businesses are adopting AI, with some snafus along the way - Business Insider",
       "source": "Business Insider",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "小企业采用AI，但遭遇一些技术问题",
-        "assets": "📈 AI应用软件股（CRM） 利好\n📈 企业服务股（NOW） 利好",
-        "chain": "AI普及率提升（渗透率），但安全漏洞增加利好网络安全股（CRWD），SaaS（软件即服务）订阅收入看涨",
-        "watch": "小企业AI支出指数，微软Copilot续费率"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Why June's jobs and inflation data are bullish for bonds - Morningstar",
-      "source": "Morningstar",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "6月就业和通胀数据利好债券",
-        "assets": "📈 美国长期国债（TLT） 利好\n📈 利率敏感股（REITs） 利好",
-        "chain": "就业降温（非农低于预期）和通胀回落（CPI下行）强化降息预期（Fed pivot），利空美元",
-        "watch": "7月非农就业人数和CPI环比变化"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Record heat, crowds drive offseason boom in international travel",
-      "source": "CNBC",
-      "detail": "Airlines are extending flight schedules to maximize on lucrative international travel.",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "极端高温和拥挤推动淡季国际旅游热潮",
-        "assets": "📈 航空股（DAL） 利好\n📈 旅游科技股（BKNG） 利好",
-        "chain": "旅游消费韧性（消费者信心）超预期，但推高航空燃料成本（Jet fuel），利空炼油股",
-        "watch": "美国旅行协会（USTA）旅游支出预测"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 17,
-      "insight": {
-        "what": "微软裁员4800人，Xbox部门重组并剥离四个工作室",
-        "assets": "📉 微软（MSFT） 承压\n📈 游戏股（ATVI） 承压（并购后整合）",
-        "chain": "降本增效（Cost cutting）短期打压股价，但长期利润率改善，游戏行业裁员潮利空中小开发商",
-        "watch": "微软财报中游戏业务（Xbox）收入，裁员节省成本指引"
+        "what": "小企业采用AI但出现故障",
+        "assets": "📈 AI应用软件 利好，📉 传统软件 承压",
+        "chain": "AI渗透率提升利好SaaS（软件即服务）公司，但故障问题引发合规风险",
+        "watch": "AI软件用户增长及故障修复进展"
       }
     }
   ]
