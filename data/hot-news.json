@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 21:31",
+  "updateTime": "2026-07-06 21:35",
   "news": [
     {
       "rank": 1,
@@ -9,88 +9,94 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普敲响纽交所开市钟，将总统任期与股市挂钩",
-        "assets": "📈 美股大盘 利好",
-        "chain": "强化Trump put（政策托底预期），短期提振风险偏好（Risk-on），但政策不确定性仍存",
-        "watch": "特朗普民调支持率 vs 美股波动率（VIX）"
+        "what": "特朗普将自身总统任期与股市表现挂钩",
+        "assets": "📈 美股整体 利好",
+        "chain": "强化政策（如减税、放松监管）预期，但若股市回调则可能引发政策急转弯风险",
+        "watch": "特朗普民调支持率与标普500指数相关性"
       }
     },
     {
       "rank": 2,
-      "title": "Micron Stock Investors Just Got Good News From Wall Street and Nvidia CEO Jensen Huang - The Motley Fool",
-      "source": "The Motley Fool",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 41,
-      "insight": {
-        "what": "美光获华尔街及英伟达CEO黄仁勋正面评价",
-        "assets": "📈 美光科技 利好；📈 半导体板块 利好",
-        "chain": "HBM（高带宽内存）需求确认，AI芯片上游存储厂商受益，可能带动SK海力士等同行",
-        "watch": "美光下季营收指引是否超预期"
-      }
-    },
-    {
-      "rank": 3,
       "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
       "source": "CNBC",
       "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
       "lang": "en",
-      "score": 41
+      "score": 41,
+      "insight": {
+        "what": "检方为百亿美元欺诈案嫌犯寻求减刑，部分理由保密",
+        "assets": "📉 司法系统公信力 承压",
+        "chain": "监管（SEC等）执法力度可能受质疑，短期影响金融股风险偏好",
+        "watch": "SEC后续是否加强内幕交易/欺诈调查"
+      }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Brookfield支持的Csquare赴美IPO 目标估值最高达41.8亿美元",
       "source": "环球市场播报",
       "detail": " 由Brookfield Asset Management支持的科技公司Csquare今日宣布，计划在美国进行首次公开募股，目标估值最高达41.8亿美元。这将成为2026年下半年规模较大的科技IPO之一。",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "联邦检察官寻求对1亿美元熟食店欺诈案减刑，部分理由保密",
-        "assets": "无直接资产影响",
-        "chain": "监管透明度受质疑，但属个体事件，无系统性二阶效应",
-        "watch": "案件是否涉及更大范围金融欺诈"
+        "what": "Brookfield支持的Csquare赴美IPO，目标估值41.8亿美元",
+        "assets": "📈 中概股/REITs（房地产投资信托） 利好",
+        "chain": "显示外资对中资资产兴趣回升，提振同类型公司上市信心",
+        "watch": "Csquare首日涨幅及后续融资规模"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "SK Hynix to offer 17.79M common shares in U.S. IPO (SKHY:Pending) - Seeking Alpha",
       "source": "Seeking Alpha",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "Brookfield旗下Csquare赴美IPO，目标估值最高41.8亿美元",
-        "assets": "📈 美股IPO板块 利好；📈 另类资产管理 利好",
-        "chain": "显示实物资产（Real Assets）投资需求旺盛，可能提振同类REITs（房地产投资信托）估值",
-        "watch": "IPO认购倍数及首日涨幅"
+        "what": "SK海力士在美IPO发行1779万股普通股",
+        "assets": "📈 美股半导体板块 利好",
+        "chain": "增加半导体供给预期，短期压制存储芯片价格，但强化AI硬件叙事",
+        "watch": "IPO定价及后续产能扩张计划"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "Microsoft and LinkedIn Just Analyzed the Future of Work and AI. It All Points to One Key Skillset - inc.com",
       "source": "inc.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "SK海力士美国IPO发行1779万股普通股",
-        "assets": "📈 美股半导体 利好；📉 现有股东 稀释风险",
-        "chain": "为HBM扩产融资，巩固AI芯片供应链地位，可能分流韩股资金至美股",
-        "watch": "发行定价区间及超额认购情况"
+        "what": "微软和领英报告AI未来工作趋势，强调单一关键技能",
+        "assets": "📈 AI教育/培训股 利好",
+        "chain": "企业AI培训预算增加，利好CRM（客户管理软件）、HR（人力资源）科技股",
+        "watch": "微软AI助手Copilot企业订阅增长率"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "微软与领英分析AI未来工作趋势，强调关键技能",
-        "assets": "📈 AI应用软件 利好；📈 在线教育 利好",
-        "chain": "AI驱动劳动力转型，企业培训及自动化工具需求上升，利好CRM（客户关系管理）等SaaS公司",
-        "watch": "微软Copilot企业订阅增长数据"
+        "what": "伊朗即使获制裁豁免也难以清空原油库存",
+        "assets": "📉 原油价格 承压",
+        "chain": "暗示全球油运（VLCC，超大型油轮）需求疲软，地缘溢价（战争风险溢价）消退",
+        "watch": "伊朗原油出口量及OPEC+（石油输出国组织及其盟友）减产执行率"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "华尔街不改牛市共识：下半年不只看多AI，美股最高到8250点",
+      "source": "一财网",
+      "detail": "华尔街分析师们认为工业、医疗、材料以及中小盘等更广泛的板块和主题也将“全面开花”。随着美股半导体股的腾飞，美股刚刚经历了六年来最强劲的一个季度...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "华尔街维持牛市共识，标普最高看8250点",
+        "assets": "📈 美股科技股/半导体 利好",
+        "chain": "强化AI泡沫（估值过高）叙事，资金从防御板块（如公用事业）轮动至成长股",
+        "watch": "标普500市盈率（股价/每股盈利）是否突破25倍"
       }
     },
     {
@@ -101,38 +107,38 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "伊朗即使获制裁豁免也难以清空原油库存",
-        "assets": "📉 原油 承压（短期）；📈 原油 潜在上行（长期）",
-        "chain": "制裁解除后伊朗出口恢复缓慢，OPEC+（石油输出国组织及其盟友）减产协议或面临压力",
-        "watch": "伊朗原油出口量变化及美国制裁立场"
+        "what": "标普500和纳斯达克期货上涨，芯片股领涨",
+        "assets": "📈 美股芯片股 利好",
+        "chain": "风险偏好（Risk-on，追逐高风险资产）回升，短期压制美债价格（收益率上升）",
+        "watch": "费城半导体指数（SOX）能否突破前高"
       }
     },
     {
       "rank": 9,
-      "title": "S&P 500 and Nasdaq futures rise after a strong week on Wall Street, led by chip stocks: Live updates",
-      "source": "CNBC",
-      "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "标普500和纳斯达克期货上涨，芯片股领涨上周强势行情",
-        "assets": "📈 美股大盘 利好；📈 半导体ETF 利好",
-        "chain": "AI叙事持续驱动资金流入科技股，可能引发轮动（Rotation）从防御板块到成长股",
-        "watch": "本周美联储官员讲话及PCE（个人消费支出）通胀数据"
-      }
-    },
-    {
-      "rank": 10,
       "title": "‘I’m Now Broke’: Meet The Investors Who Lost Billions Buying Trump Stocks And Crypto - Forbes",
       "source": "Forbes",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "投资者因购买特朗普相关股票和加密货币亏损数十亿美元",
-        "assets": "📉 Trump媒体科技集团 利空；📉 特朗普概念加密货币 利空",
-        "chain": "散户投机情绪降温，可能波及SPAC（特殊目的收购公司）和meme股（网红股）流动性",
-        "watch": "DWAC（特朗普媒体壳公司）股价及持仓变化"
+        "what": "投资者因买入特朗普相关股票和加密货币亏光本金",
+        "assets": "📉 特朗普概念股/加密货币 承压",
+        "chain": "散户恐慌情绪蔓延，可能引发对政治概念股的监管审查（SEC调查）",
+        "watch": "DJT（特朗普媒体科技集团）空头持仓比例"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Stocks making the biggest moves premarket: Lam Research, Intel, Datadog & more",
+      "source": "CNBC",
+      "detail": "These are the stocks posting the largest moves premarket.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "盘前异动：Lam Research、英特尔、Datadog等",
+        "assets": "📈 美股半导体/云计算 利好",
+        "chain": "Lam Research（刻蚀设备龙头）带动设备股，Datadog（监控软件）暗示云需求回暖",
+        "watch": "Lam Research财报指引及英特尔代工订单"
       }
     }
   ]
