@@ -1,64 +1,36 @@
 {
-  "updateTime": "2026-07-06 17:45",
+  "updateTime": "2026-07-06 17:51",
   "news": [
     {
       "rank": 1,
-      "title": "First known congressional SpaceX stock buys surface after record IPO",
-      "source": "CNBC",
-      "detail": "The SpaceX stock purchases come as Elon Musk’s company deepens its role in federal contracting and remains closely tied to President Donald Trump’s Washington.",
-      "lang": "en",
-      "score": 62,
-      "insight": {
-        "what": "国会议员首次披露持有SpaceX股票",
-        "assets": "📈 SpaceX未上市股份 利好; 📈 太空概念股 利好",
-        "chain": "政策透明度提升→游说风险降低→军工/太空板块估值修复（市场重新定价风险溢价）",
-        "watch": "其他议员持仓披露及SpaceX上市传闻"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Feds seek lower prison term for $100M New Jersey deli fraudster — but some reasons why are hidden",
       "source": "CNBC",
       "detail": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "联邦检察官寻求减轻百亿美元诈骗案刑期，部分原因保密",
-        "assets": "📉 司法公正信心 承压; 📉 金融监管股 利空",
-        "chain": "隐藏原因引发内幕交易担忧→监管执行力度受质疑→金融合规成本预期上升",
-        "watch": "量刑听证会结果及SEC（美国证监会）是否介入调查"
+        "what": "美联储寻求对百万欺诈者减刑，原因保密",
+        "assets": "📉 美元 情绪利空",
+        "chain": "削弱司法公信力，可能间接影响市场对监管稳定性的信心",
+        "watch": "减刑原因披露及市场反应"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "The stock market is about to suffer a ‘snapback’ and will lose much of this year’s gains as ‘speculation is hitting extreme levels,’ BofA warns - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美银警告股市将‘回撤’，年内涨幅或消失，投机达极端水平",
-        "assets": "📉 标普500 利空; 📉 科技成长股 承压",
-        "chain": "极端投机→资金从高贝塔（高波动）资产撤出→防御性板块（公用事业）相对走强",
-        "watch": "VIX（恐慌指数）是否突破20及散户杠杆率数据"
+        "what": "美银警告股市将遭‘回撤’，年内涨幅或尽失",
+        "assets": "📉 美股大盘 利空",
+        "chain": "投机过热触发获利了结（卖出获利头寸），引发连锁抛售（多米诺效应）",
+        "watch": "投机指标（如看跌/看涨期权比率）"
       }
     },
     {
-      "rank": 4,
-      "title": "Gold (XAUUSD) Price Forecast: Can Fed Minutes Lift Gold Above the 52-Week MA? - FXEmpire",
-      "source": "FXEmpire",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "金价能否突破52周均线取决于美联储会议纪要",
-        "assets": "📈 黄金 中性偏多; 📉 美元指数 承压",
-        "chain": "纪要偏鸽（暗示降息）→实际利率下行→黄金突破均线→贵金属板块跟涨",
-        "watch": "美联储点阵图及通胀预测调整"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -66,79 +38,107 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达 利空; 📉 AI服务器产业链 承压",
-        "chain": "供应瓶颈→AI资本开支（企业购买AI设备的钱）延迟→云计算资本开支预期下调→芯片股回调",
-        "watch": "台积电CoWoS（先进封装）产能进展及英伟达官方指引"
+        "assets": "📉 英伟达/半导体 利空",
+        "chain": "AI算力供应延迟，拖累AI应用落地节奏，利好竞争对手AMD",
+        "watch": "英伟达官方指引及AMD订单变化"
       }
     },
     {
-      "rank": 6,
-      "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
-      "source": "CNBC",
-      "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "高盛看跌日元，认为AI和能源‘供给紧缩’支撑美元",
-        "assets": "📉 日元 承压; 📈 美元指数 利好; 📈 能源股 利好",
-        "chain": "AI投资拉动美国能源需求→贸易逆差收窄→美元走强→日元套利交易（借日元买美元）加码",
-        "watch": "日本央行干预汇率点位及美国能源库存数据"
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 4,
       "title": "Why Iran may find it difficult to clear its oil inventories even after sanctions relief ",
       "source": "CNBC",
       "detail": "Iran may face challenges in clearing oil inventories even after restrictions have been lifted, amid oil supplies elsewhere while China becomes less enthusiastic",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使获制裁豁免也难以清空石油库存",
-        "assets": "📉 原油 承压; 📈 伊朗重油贴水 走阔",
-        "chain": "制裁解除但物流/保险瓶颈→伊朗出口恢复慢→全球原油供给增量有限→油价维持高位",
-        "watch": "伊朗油轮装载量及亚洲炼厂购买意愿"
+        "what": "即使制裁解除，伊朗仍难清空石油库存",
+        "assets": "📉 原油 承压",
+        "chain": "制裁解除预期已被消化，实际物流和买家限制限制出口，油价上行受限",
+        "watch": "伊朗原油出口量及买家动向"
       }
     },
     {
-      "rank": 8,
+      "rank": 5,
+      "title": "Yen to extend historic slump, while AI and energy 'supply bust' to support the U.S. dollar: Goldman",
+      "source": "CNBC",
+      "detail": "Goldman Sachs has turned more bearish on the Japanese yen, arguing that the currency is likely to weaken further even with an intervention.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "高盛预测日元延续历史性贬值，AI和能源‘供应危机’支撑美元",
+        "assets": "📉 日元 承压，📈 美元 利好",
+        "chain": "利差扩大（美日息差）推低日元，美元获AI/能源需求支撑（资本流入）",
+        "watch": "美日10年期国债利差"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Nvidia's next-gen AI rack system delayed to 2028 on manufacturing snags, SemiAnalysis says",
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "英伟达下一代AI机架延迟至2028年（重复新闻）",
-        "assets": "📉 英伟达 利空; 📉 AI算力股 承压",
-        "chain": "与上条相同：供应瓶颈→AI资本开支延迟→半导体设备需求预期下调",
-        "watch": "AMD及英特尔AI芯片替代品订单变化"
+        "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
+        "assets": "📉 英伟达/半导体 利空",
+        "chain": "AI算力供应延迟，拖累AI应用落地节奏，利好竞争对手AMD",
+        "watch": "英伟达官方指引及AMD订单变化"
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "易捷航空同意73亿美元被凯斯莱克收购，股价暴涨10%",
       "source": "环球市场播报",
       "detail": "核心要点 易捷航空股价周一创下 52 周新高。 这家廉价航空上周日原则上同意美国私募机构凯斯莱克提出的上调后收购要约。2024 年 5 月 3 日周五...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "易捷航空被凯斯莱克以73亿美元收购，股价暴涨10%",
-        "assets": "📈 易捷航空 利好; 📈 欧洲航空板块 利好",
-        "chain": "收购溢价→行业整合预期升温→航空运力集中→票价定价权提升→其他航司估值重估",
-        "watch": "反垄断审查进展及竞购方是否提价"
+        "what": "易捷航空以73亿美元被凯斯莱克收购，股价暴涨10%",
+        "assets": "📈 易捷航空 利好，📈 航空板块 利好",
+        "chain": "收购溢价推升股价，可能引发航空业并购潮（行业整合）",
+        "watch": "收购完成率及监管审批"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "低估值+3连阳！港股互联网ETF（513770）基金经理：WorkBuddy正在修复互联网板块的AI逻辑",
       "source": "新浪基金",
       "detail": "近日来，港股市场表现强势，港股互联网板块已从底部悄然走高。7月6日，重仓互联网龙头的港股互联网ETF华宝（513770）场内价格收涨1.79%，实现日线3连阳。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "港股互联网ETF基金经理称AI助手修复互联网板块AI逻辑",
-        "assets": "📈 港股互联网 利好; 📈 中概AI概念 利好",
-        "chain": "低估值+AI应用落地（WorkBuddy）→盈利预期上调→资金从防御切换至成长→恒生科技指数反弹",
-        "watch": "WorkBuddy用户增长数据及腾讯/阿里AI产品收入披露"
+        "what": "基金经理称低估值港股互联网ETF修复AI逻辑",
+        "assets": "📈 港股互联网 利好",
+        "chain": "AI逻辑修复吸引资金流入（买盘），带动科技板块估值重估",
+        "watch": "港股互联网ETF资金流及AI相关财报"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "标普500和纳斯达克期货延续上周涨势",
+        "assets": "📈 美股大盘 利好",
+        "chain": "多头情绪延续（看涨），可能触发空头回补（空头买入平仓）",
+        "watch": "期货持仓变化及本周经济数据"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
+      "source": "CNBC",
+      "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "标普500和纳斯达克期货延续上周涨势",
+        "assets": "📈 美股大盘 利好",
+        "chain": "多头情绪延续（看涨），可能触发空头回补（空头买入平仓）",
+        "watch": "期货持仓变化及本周经济数据"
       }
     }
   ]
