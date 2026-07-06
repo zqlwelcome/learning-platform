@@ -1,64 +1,92 @@
 {
-  "updateTime": "2026-07-06 09:15",
+  "updateTime": "2026-07-06 09:20",
   "news": [
     {
       "rank": 1,
+      "title": "美联储今年料不会加息！大摩首席“辛特拉研判”：沃什正悄悄变脸？",
+      "source": "市场资讯",
+      "detail": "文章来源：财联社 上周，随着一年一度的“欧洲版全球央行年会”在葡萄牙度假胜地辛特拉隆重召开，全球宏观政策的走向也再度引发了各主要市场瞩目。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "大摩首席研判美联储今年不加息",
+        "assets": "📈 美债 利好\n📈 黄金 利好",
+        "chain": "降息预期（借钱成本降低）推高资产价格，压制美元指数（美元强弱指标）",
+        "watch": "美联储官员讲话及CPI数据（通胀指标）"
+      }
+    },
+    {
+      "rank": 2,
       "title": "随着投资者缩减对美联储加息的押注 金价走高",
       "source": "环球市场播报",
       "detail": "亚洲交易时段，金价小幅走高。大华全球经济与市场研究团队在一份报告中表示，疲软的美国就业数据和较低的能源价格可能正促使投资者缩减对美联储加息的押注。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "降息押注缩减，金价走高",
-        "assets": "📈 黄金 利好",
-        "chain": "市场预期美联储转向鸽派（偏宽松政策），压低实际利率（名义利率减通胀），提升黄金吸引力",
-        "watch": "本周FOMC（美联储议息会议）声明及点阵图"
+        "what": "投资者缩减加息押注，金价走高",
+        "assets": "📈 黄金 利好\n📉 美元指数 承压",
+        "chain": "加息预期降温（利率预期下降）→实际利率下行（扣除通胀后的利率）→黄金吸引力上升",
+        "watch": "美联储利率期货定价变化"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "The World Cup sends prediction market volumes soaring to record highs",
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "世界杯推动预测市场交易量创纪录",
-        "assets": "📈 博彩/预测平台 利好",
-        "chain": "高交易量吸引资本流入，可能推高相关平台估值（PE倍数），并引发监管关注",
-        "watch": "预测平台用户增长及监管政策动向"
+        "what": "世界杯推高预测市场交易量至新高",
+        "assets": "📈 加密预测平台 利好\n📈 体育博彩股 利好",
+        "chain": "事件驱动型交易（特定事件引发的投机）活跃，资金从传统市场分流",
+        "watch": "预测市场总锁仓量（TVL）变化"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
       "source": "CNBC",
       "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛推荐被低估股票跑赢",
-        "assets": "📈 高盛精选股（如能源/金融） 利好",
-        "chain": "机构背书强化市场信心，资金可能轮动（从高估值板块转向）至价值股（低PE股票），压低成长股相对表现",
-        "watch": "高盛精选股后续财报及相对强弱指标（RSI）"
+        "what": "高盛推荐被低估的股票",
+        "assets": "📈 高盛推荐个股 利好\n📈 价值股（低估值股票） 利好",
+        "chain": "机构背书（权威机构支持）引发跟风买盘，短期推高估值修复（价格回归合理水平）",
+        "watch": "推荐个股财报及机构持仓变动"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Top Wall Street analysts prefer these dividend stocks for boosting portfolio returns",
       "source": "CNBC",
       "detail": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "顶级分析师看好高分红股增回报",
-        "assets": "📈 高分红股（如公用事业/消费必需品） 利好",
-        "chain": "防御性配置需求上升，资金从高beta（波动大）资产转向低波动红利股，压低国债收益率（因避险买债）",
-        "watch": "标普500分红ETF（如SDY）资金流及股息率变化"
+        "what": "华尔街分析师偏好高股息股",
+        "assets": "📈 公用事业股 利好\n📈 消费必需品股 利好",
+        "chain": "防御性配置（避险资金流入）增加，资金从成长股转向稳定收益股",
+        "watch": "股息率与国债利差（收益率差距）变化"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "标普和纳指期货延续上周涨势",
+        "assets": "📈 美股大盘 利好\n📈 科技股 利好",
+        "chain": "多头情绪（看涨市场情绪）延续，空头回补（空头买入平仓）压力增加",
+        "watch": "期货成交量及VIX指数（恐慌指数）"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Warren Buffett unveils 11-word stock market warning - thestreet.com",
       "source": "thestreet.com",
       "detail": "国际财经动态，关注后续发展。",
@@ -66,27 +94,27 @@
       "score": 27,
       "insight": {
         "what": "巴菲特发布11字股市警告",
-        "assets": "📉 美股大盘 承压",
-        "chain": "市场情绪敏感，可能引发短期恐慌性抛售（sell-off），避险资金涌入黄金/国债",
-        "watch": "巴菲特旗下伯克希尔后续持仓变动及VIX（恐慌指数）"
+        "assets": "📉 美股大盘 承压\n📉 市场情绪 利空",
+        "chain": "权威喊话（巴菲特言论）引发投资者谨慎，短期卖压上升",
+        "watch": "伯克希尔持仓变动及现金储备变化"
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "S&P 500 and Nasdaq futures extend gains after a strong week on Wall Street: Live updates",
       "source": "CNBC",
       "detail": "The Dow climbed nearly 2% last week, putting it within striking distance of 53,000, a level it has never reached.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "标普500和纳斯达克期货延续涨势",
-        "assets": "📈 美股科技股 利好",
-        "chain": "技术面突破阻力位（如前高），触发量化基金追涨（momentum trading），但需警惕超买回调（RSI>70）",
-        "watch": "期货持仓量变化及本周科技股财报"
+        "what": "标普和纳指期货延续上周涨势",
+        "assets": "📈 美股大盘 利好\n📈 科技股 利好",
+        "chain": "多头情绪（看涨市场情绪）延续，空头回补（空头买入平仓）压力增加",
+        "watch": "期货成交量及VIX指数（恐慌指数）"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "快讯：现货黄金重回4200美元/盎司 日内涨0.62%",
       "source": "市场资讯",
       "detail": "现货黄金突破4200美元/盎司，日内涨0.62%。",
@@ -94,51 +122,23 @@
       "score": 22,
       "insight": {
         "what": "现货黄金重回4200美元/盎司",
-        "assets": "📈 黄金 利好",
-        "chain": "突破关键心理位，触发止损买盘（stop-buy），可能带动白银/矿业股跟涨（金银比下降）",
-        "watch": "美元指数（DXY）及COMEX（纽约商品交易所）黄金期货持仓"
+        "assets": "📈 黄金 利好\n📉 美元 承压",
+        "chain": "避险资金（寻求安全资产的钱）流入，通胀预期（物价上涨预期）升温支撑金价",
+        "watch": "COMEX黄金期货持仓及ETF流量"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "国际油价下挫，黄金逼近4200美元，比特币涨破63000美元",
       "source": "21世纪经济报道",
       "detail": "北京时间7月6日，黄金白银高开，截至6：38，现货黄金涨0.35%报4189.33美元/盎司；现货白银报63.05美元/盎司，日内涨超1%。国际油价小幅低开，美油跌0.43%，报68...",
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "国际油价下挫，黄金逼近4200，比特币涨破63000",
-        "assets": "📉 原油 承压；📈 黄金 利好；📈 比特币 利好",
-        "chain": "油价下跌反映需求担忧（经济放缓），资金转向避险资产（黄金）和替代资产（比特币），形成风险偏好分化",
-        "watch": "OPEC（石油输出国组织）产量数据及比特币ETF资金流"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "SK Hynix seeks access to AI investors in $29 billion U.S. listing - Fortune",
-      "source": "Fortune",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "SK海力士拟赴美290亿美元上市吸引AI投资者",
-        "assets": "📈 美股半导体（AI芯片） 利好",
-        "chain": "扩大AI资本池，可能推高英伟达等同行估值（PE扩张），但稀释现有股东权益（dilution）",
-        "watch": "SEC（美国证监会）审批进展及AI板块资金流入"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "‘Insane’ cost of average 4th of July BBQ surges 31% to bearly $300 in NYC - New York Post",
-      "source": "New York Post",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 20,
-      "insight": {
-        "what": "纽约独立日烧烤成本飙升31%至近300美元",
-        "assets": "📉 美国消费者支出 承压；📈 必需消费品 利好",
-        "chain": "高通胀侵蚀实际购买力，消费者可能削减可选消费（如旅行），转而囤积廉价替代品，推高沃尔玛等折扣零售股",
-        "watch": "7月CPI（消费者价格指数）及零售销售数据"
+        "what": "油价下挫，黄金涨，比特币破63000",
+        "assets": "📈 黄金 利好\n📈 比特币 利好\n📉 原油 承压",
+        "chain": "风险偏好（投资者冒险意愿）分化：避险资产和另类资产（非传统资产）获资金流入",
+        "watch": "美元指数及加密货币ETF资金流向"
       }
     }
   ]
