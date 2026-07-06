@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-06 15:35",
+  "updateTime": "2026-07-06 15:40",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "友邦股份IPO：助友转贷违规套利，坏账剥离体外，分红超利润",
-        "assets": "📉 友邦股份 利空；📉 A股中小金融板块 承压",
-        "chain": "财务造假（坏账转移）引发监管风险，打击投资者对小微金融股信心",
-        "watch": "证监会是否立案调查"
+        "what": "亚洲股市因财报季和油价承压而低迷",
+        "assets": "📉 亚股大盘 承压，📉 能源股 利好（油价支撑），📉 航空股 承压",
+        "chain": "油价下跌（供给过剩预期）缓解通胀但拖累能源盈利，财报季盈利预警（企业利润下滑）压制风险偏好",
+        "watch": "亚洲主要经济体（中日韩）7月PMI（采购经理人指数）初值"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "金价因美联储加息预期降温而持稳于两周高位",
-        "assets": "📈 黄金 利好",
-        "chain": "降息预期（借钱成本降低）削弱美元，推升黄金作为替代资产的需求",
-        "watch": "周五非农数据（就业报告）是否低于预期"
+        "what": "金价持稳两周高位，因市场押注美联储停止加息",
+        "assets": "📈 黄金 利好，📉 美元指数 承压",
+        "chain": "降息预期升温（借钱成本降低）压低实际利率（名义利率减通胀），提升黄金吸引力，同时削弱美元",
+        "watch": "美国7月CPI（消费者物价指数）数据是否低于预期"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 32,
       "insight": {
         "what": "英伟达下一代AI机架系统因制造问题推迟至2028年",
-        "assets": "📉 英伟达股票 利空；📉 AI芯片板块 承压",
-        "chain": "AI供应链瓶颈（生产延迟）拖累算力需求，利好AMD等竞争对手",
-        "watch": "英伟达官方财报指引是否下调"
+        "assets": "📉 英伟达 利空，📉 AI芯片股 承压，📈 AMD 利好（竞争替代）",
+        "chain": "AI硬件供给瓶颈（产能不足）延迟算力扩张，云服务商（如微软）资本开支可能放缓，转向其他芯片供应商",
+        "watch": "英伟达财报电话会是否下调2025年营收指引"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "伊朗即使获制裁豁免，也难以清空石油库存",
-        "assets": "📈 原油 利好",
-        "chain": "伊朗出口受限（物流/保险瓶颈）维持供应紧张，支撑油价",
-        "watch": "伊朗原油出口量周度数据"
+        "what": "伊朗即使获制裁豁免，也难以出清库存油",
+        "assets": "📈 原油 利好（供给受限），📈 油轮运输 承压",
+        "chain": "伊朗出口物流瓶颈（港口、保险、融资）持续，全球油市供给缺口（供不应求）维持，支撑油价",
+        "watch": "伊朗原油出口量月度数据是否回升"
       }
     },
     {
@@ -63,13 +63,7 @@
       "source": "CNBC",
       "detail": "The reported delay adds to concerns that Nvidia's breakneck annual release cadence is colliding with manufacturing limits.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "三星因AI内存需求激增，预计利润跃升18倍",
-        "assets": "📈 三星电子 利好；📈 存储芯片板块 利好",
-        "chain": "AI算力爆发（HBM高带宽内存）拉动DRAM价格，利好美光等同行",
-        "watch": "三星Q2财报中HBM出货量数据"
-      }
+      "score": 32
     },
     {
       "rank": 6,
@@ -79,10 +73,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "世界杯推动预测市场交易量飙升至历史新高",
-        "assets": "📈 预测市场平台（如Polymarket） 利好",
-        "chain": "体育博彩合法化趋势加速，可能吸引更多投机资金进入",
-        "watch": "世界杯决赛周流量是否持续"
+        "what": "高盛看空日元，预计AI和能源供应短缺利好美元",
+        "assets": "📉 日元/美元 承压，📈 美元指数 利好，📈 能源股 利好",
+        "chain": "AI投资需求（算力耗电）推高能源价格，美国能源出口增加支撑美元，日元利差（美日利率差）持续扩大",
+        "watch": "日本央行9月会议是否调整收益率曲线控制（YCC）政策"
       }
     },
     {
@@ -93,10 +87,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美银警告股市将‘回撤’，年内涨幅或尽失",
-        "assets": "📉 美股大盘 承压",
-        "chain": "投机过热（市场情绪极端）引发抛售，资金可能转向避险资产（如债券）",
-        "watch": "VIX指数（恐慌指数）是否突破20"
+        "what": "美银警告股市将遭遇回撤，年内涨幅大部分会回吐",
+        "assets": "📉 美股大盘 承压，📉 科技股 承压",
+        "chain": "投机情绪极端（散户杠杆过高）引发获利抛售，波动率（VIX恐慌指数）可能飙升，避险资产如美债获买盘",
+        "watch": "标普500指数周线收盘是否跌破200日均线（长期趋势线）"
       }
     },
     {
@@ -107,10 +101,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "高盛称这些被低估的股票‘定位良好’有望跑赢",
-        "assets": "📈 高盛推荐个股（如能源/金融） 利好",
-        "chain": "价值股轮动（资金从高估值成长股流向低估值板块）",
-        "watch": "高盛发布的具体股票清单"
+        "what": "友邦IPO：实控人套利理财上亿，坏账转嫁体外",
+        "assets": "📉 友邦股份 利空，📉 中小金融股 承压",
+        "chain": "治理风险（内部控制缺陷）暴露，引发对同类P2P/助贷平台（网贷中介）信任危机，估值下修",
+        "watch": "证监会是否启动调查并暂停其IPO进程"
       }
     },
     {
@@ -119,20 +113,26 @@
       "source": "CNBC",
       "detail": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "三星利润飙升18倍，受AI内存需求激增推动",
+        "assets": "📈 三星 利好，📈 存储芯片股（HBM高带宽内存）利好",
+        "chain": "AI服务器（训练大模型）对高带宽内存（HBM）需求爆发，带动存储器价格上行（涨价周期），利好产业链",
+        "watch": "SK海力士、美光科技季度营收是否同步高增长"
+      }
     },
     {
       "rank": 10,
-      "title": "Goldman Sachs says these undervalued stocks are 'well positioned' to outperform",
-      "source": "CNBC",
-      "detail": "The firm highlighted stocks that are poised for gains as the third quarter unfolds.",
+      "title": "Asia shares sputter as earnings loom, oil weighed by supply - Reuters",
+      "source": "Reuters",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "高盛称日元将延续历史性贬值，AI和能源‘供应荒’支撑美元",
-        "assets": "📉 日元/美元 承压；📈 美元指数 利好",
-        "chain": "日元贬值（套利交易carry trade）加剧亚洲货币竞争性贬值",
-        "watch": "日本央行是否干预汇市"
+        "what": "世界杯推动预测市场交易量创历史新高",
+        "assets": "📈 博彩/预测平台 利好，📈 体育数据公司 利好",
+        "chain": "事件驱动（大型体育赛事）流量激增，平台变现能力（手续费收入）提升，监管风险（合规成本）同步上升",
+        "watch": "各国监管机构对预测市场是否出台新规"
       }
     }
   ]
