@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 11:31",
+  "updateTime": "2026-07-07 11:36",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "道指创历史新高，纳指科技股上涨",
+        "what": "道指创新高，纳指科技股周初上涨",
         "assets": "📈 美股科技股 利好",
-        "chain": "科技股带动市场情绪，资金从防御板块（如公用事业）流出",
-        "watch": "纳指能否站稳前高"
+        "chain": "风险偏好（Risk-on情绪）升温，资金从避险资产（如美债）流出",
+        "watch": "本周科技巨头财报及CPI（通胀数据）"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "前OpenAI研究员对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士 利好；📈 美股半导体 利好",
-        "chain": "AI芯片需求预期升温，利好英伟达等同行（半导体产业链）",
-        "watch": "SK海力士IPO定价及认购倍数"
+        "what": "前OpenAI研究员旗下对冲基金押注SK海力士美国IPO",
+        "assets": "📈 SK海力士 利好；📈 美股芯片股 利好",
+        "chain": "AI算力需求（人工智能计算能力）获机构背书，半导体供应链（如存储芯片）受关注",
+        "watch": "SK海力士IPO定价及AI芯片订单数据"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "市场警告双泡沫（科技+AI）破裂或引发崩盘",
-        "assets": "📉 美股科技股 利空；📉 AI概念股 利空",
-        "chain": "恐慌情绪传导，资金避险涌入美债和黄金（避险资产）",
-        "watch": "VIX（恐慌指数）是否突破25"
+        "what": "市场双泡沫（科技股和AI）若破裂或引发暴跌",
+        "assets": "📉 纳斯达克100 承压；📉 科技成长股 承压",
+        "chain": "泡沫破裂触发连锁抛售（Margin Call，追加保证金），拖累大盘指数",
+        "watch": "科技股估值（PE，市盈率）及美联储利率路径"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI是选股而非板块性机会",
-        "assets": "📉 中国AI板块 利空；📈 个别AI龙头股 中性",
-        "chain": "外资对中国AI整体谨慎，资金聚焦个股（如百度）而非ETF",
-        "watch": "中国AI相关公司财报"
+        "what": "贝莱德称中国AI机会是个股驱动而非板块行情",
+        "assets": "📈 中国AI个股（如寒武纪）利好；📉 中国AI板块ETF 中性",
+        "chain": "资金从板块轮动转向精选个股（Alpha策略，超额收益），分化加剧",
+        "watch": "中国AI公司财报及研发投入数据"
       }
     },
     {
@@ -65,28 +65,14 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "国际金价下跌拖累贵金属，招金跌停，摩根大通看多至4500美元",
-        "assets": "📉 黄金 承压；📉 招金矿业 利空",
-        "chain": "金价回调引发贵金属抛售，但长线多头（如央行）可能逢低买入",
-        "watch": "COMEX黄金期货持仓变化及美元指数"
+        "what": "国际金价大跌，招金矿业跌停，摩根大通看多至4500美元",
+        "assets": "📉 黄金股（如招金）承压；📈 黄金期货 长期利好",
+        "chain": "短期恐慌抛售（恐慌指数VIX上升），但长期通胀预期（通胀预期）支撑金价",
+        "watch": "COMEX黄金期货持仓及美联储7月议息会议"
       }
     },
     {
       "rank": 6,
-      "title": "日本名义薪资增幅再次突破3% 料强化日本央行加息立场",
-      "source": "环球市场播报",
-      "detail": "日本5月份薪资再次上涨，涨幅远超通胀，料进一步强化日本央行加息立场。 厚生劳动省周二公布的数据显示，5月份名义薪资同比增长3.2%，4月增幅经修正后为3.6%。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "日本薪资增幅突破3%，强化加息预期",
-        "assets": "📈 日元 利好；📉 日债 利空",
-        "chain": "加息预期推高日元，利空日本出口股（如丰田），资金回流债市",
-        "watch": "日本央行7月会议是否加息"
-      }
-    },
-    {
-      "rank": 7,
       "title": "博通与苹果扩大战略合作！端侧AI概念走强，瑞芯微涨停！电子ETF华宝（515260）拉升1%，标的近1年大涨128%",
       "source": "新浪基金",
       "detail": " 今日（7月7日）早盘，端侧AI概念震荡走强，瑞芯微涨停，传音控股涨超9%、芯原股份涨逾5%；算力芯片概念亦有亮眼表现，寒武纪、海光信息涨超3%。",
@@ -94,51 +80,65 @@
       "score": 35,
       "insight": {
         "what": "博通与苹果扩大合作，端侧AI概念走强，瑞芯微涨停",
-        "assets": "📈 博通 利好；📈 端侧AI芯片 利好",
-        "chain": "苹果供应链效应扩散，利好国内AI芯片（如瑞芯微）及消费电子",
-        "watch": "苹果秋季发布会AI功能细节"
+        "assets": "📈 博通 利好；📈 端侧AI芯片（瑞芯微）利好；📈 电子ETF 利好",
+        "chain": "AI从云端向终端（Edge AI，边缘人工智能）迁移，带动消费电子供应链（如射频芯片）",
+        "watch": "苹果秋季发布会及博通订单指引"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里禁止员工使用Anthropic AI，指控蒸馏攻击",
-        "assets": "📉 人工智能服务 利空",
-        "chain": "中美AI信任危机加剧，国产大模型（如通义千问）替代需求上升",
-        "watch": "阿里是否推出自研AI替代方案"
+        "what": "阿里巴巴禁止员工使用Anthropic AI，指控其蒸馏攻击",
+        "assets": "📉 Anthropic（未上市）承压；📈 阿里巴巴自研AI 利好",
+        "chain": "AI模型竞争加剧（专利/数据安全），可能引发更多企业限制外部AI工具",
+        "watch": "Anthropic融资进展及阿里云AI产品发布"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "长江有色：美联储政策进入关键观察窗口资金观望浓厚 7日镍价或震荡回调",
       "source": "市场资讯",
       "detail": "长江有色金属网 镍期货市场：美股创阶段新高及国内稳增长政策加码，隔夜伦镍收涨0.86%；伦镍最新收盘报16500美元/吨，上涨140美元，涨幅为0.86%，成交量6380手，国内市场...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美联储政策观察期，资金观望，镍价震荡回调",
-        "assets": "📉 镍 承压；📈 美元 中性",
-        "chain": "宏观不确定性压制工业金属，等待非农数据（就业指标）指引",
-        "watch": "美国6月非农就业数据"
+        "what": "美联储政策观察窗口，资金观望，镍价或震荡回调",
+        "assets": "📉 伦镍 承压；📉 有色金属板块 中性偏空",
+        "chain": "美元指数（DXY）走强预期压制大宗商品（美元计价），镍库存高企（LME镍库存）",
+        "watch": "美联储7月利率决议及镍库存变化"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Samsung profits jump 1,800% as AI boom drives chip sales - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "三星利润暴增1800%受益于AI芯片需求",
+        "assets": "📈 三星电子 利好；📈 全球存储芯片 利好",
+        "chain": "HBM（高带宽内存）需求爆发，拉动DRAM（动态随机存取存储器）涨价周期",
+        "watch": "三星Q2财报电话会及HBM出货量指引"
       }
     },
     {
       "rank": 10,
-      "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall - CNBC",
+      "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星电子二季度利润创纪录，但股价下跌",
-        "assets": "📉 三星电子 利空",
-        "chain": "利润利好已提前price in（被市场消化），资金获利了结，拖累韩股",
-        "watch": "三星下半年存储芯片价格指引"
+        "what": "三星Q2利润创纪录但股价下跌",
+        "assets": "📉 三星电子 承压；📈 存储芯片板块 中性",
+        "chain": "利好出尽（Buy the rumor, sell the news），市场提前定价后获利了结",
+        "watch": "三星未来订单能见度及DRAM现货价格"
       }
     }
   ]
