@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 19:16",
+  "updateTime": "2026-07-07 19:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "亚洲股市下跌，AI估值担忧盖过三星强劲业绩",
+        "what": "AI估值担忧导致亚洲股市下跌，三星业绩亮眼但被忽视",
         "assets": "📉 亚洲科技股 承压",
-        "chain": "AI估值修正（市盈率回调）→资金轮动至防御板块（公用事业）→科技板块资金外流",
-        "watch": "英伟达财报指引及AI板块资金流向"
+        "chain": "AI泡沫担忧加剧，资金可能从科技股轮动至防御板块（如公用事业）",
+        "watch": "AI龙头财报及估值水平"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "荣科科技暴跌86%，因7.85亿违规担保",
-        "assets": "📉 荣科科技 利空；📉 A股小盘股 承压",
-        "chain": "信用风险暴露（违约概率上升）→质押盘强平（强制卖出）→小盘股流动性危机",
-        "watch": "公司债务重组进展及监管立案调查"
+        "what": "荣科科技因违规担保暴跌86%，4.2万股东受损",
+        "assets": "📉 A股中小盘股 利空",
+        "chain": "信用风险暴露，资金可能撤离高质押/担保公司，转向蓝筹（大市值优质股）",
+        "watch": "公司后续处理及监管调查进展"
       }
     },
     {
@@ -37,56 +37,28 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型因OpenAI/Anthropic成本高企而获美国公司采用",
-        "assets": "📈 中国AI概念股 利好；📉 美国AI股 承压",
-        "chain": "成本优势（价格弹性）→中国AI替代加速→中美AI竞争格局重塑",
-        "watch": "中国AI公司海外营收增长及客户签约数"
+        "what": "中国AI模型成本优势吸引美国企业，OpenAI等成本飙升",
+        "assets": "📈 中国AI概念股 利好",
+        "chain": "中国AI公司可能抢占市场份额，倒逼海外AI降价（价格战），利好应用端",
+        "watch": "中国AI企业订单及海外客户拓展"
       }
     },
     {
       "rank": 4,
-      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
-      "source": "CNBC",
-      "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里巴巴禁止员工使用Anthropic AI，指控其蒸馏攻击",
-        "assets": "📉 阿里巴巴 短期利空；📉 AI行业 情绪承压",
-        "chain": "技术封锁（蒸馏攻击指模型窃取）→中美AI脱钩加速→国产替代需求上升",
-        "watch": "阿里云AI业务营收及中美技术限制政策"
-      }
-    },
-    {
-      "rank": 5,
       "title": "6月外储规模环比微降，央行黄金储备“二十连增”",
       "source": "界面新闻",
       "detail": "记者 辛圆 国家外汇管理局周二发布统计数据显示，截至2026年6月末，我国外汇储备规模为34163亿美元，较5月末下降260亿美元，降幅为0.75%。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "中国6月外储微降，央行黄金储备连续20个月增加",
-        "assets": "📈 黄金 利好；📉 人民币 承压",
-        "chain": "外储下降（资本外流压力）→央行增持黄金（避险/去美元化）→人民币汇率波动",
+        "what": "6月外储微降但央行黄金储备连续20个月增加",
+        "assets": "📈 黄金 利好 / 📉 人民币 承压",
+        "chain": "央行持续购金暗示去美元化（减少美元依赖），外储下降可能因资本外流压力",
         "watch": "7月外储数据及央行黄金购买量"
       }
     },
     {
-      "rank": 6,
-      "title": "Black hair care pioneer George E. Johnson Sr. dies at 99 - ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "黑人护发先驱George E. Johnson Sr.去世，享年99岁",
-        "assets": "📉 小众护发品牌 情绪利空",
-        "chain": "创始人去世（品牌价值损失）→行业竞争格局变化→产品线调整",
-        "watch": "公司管理层变动及市场份额数据"
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 5,
       "title": "Samsung posts 1,800% jump in profit, but AI spending concerns spook investors",
       "source": "CNBC",
       "detail": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook.",
@@ -94,51 +66,79 @@
       "score": 30,
       "insight": {
         "what": "三星利润暴增1800%，但AI支出担忧引发市场恐慌",
-        "assets": "📉 三星 冲高回落；📉 全球半导体 承压",
-        "chain": "AI资本开支（CAPEX）过高→回报率存疑→半导体周期见顶预期",
-        "watch": "三星Q3资本开支指引及存储芯片价格走势"
+        "assets": "📉 全球半导体 承压 / 📈 防御板块 利好",
+        "chain": "AI投资回报存疑，资金可能从周期股转向消费必需品等防御板块",
+        "watch": "三星后续资本开支指引及AI相关收入"
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "三星业绩引发资金轮动至冷门板块",
-        "assets": "📈 防御性板块（公用事业） 利好；📉 科技成长股 承压",
-        "chain": "业绩兑现后获利了结→板块轮动（资金从高估值转向低估值）→市场风格切换",
-        "watch": "标普500行业轮动指数及防御板块资金流入"
+        "what": "三星业绩触发资金轮动至冷门板块",
+        "assets": "📈 公用事业/能源 利好 / 📉 科技股 承压",
+        "chain": "轮动（资金从热门转向冷门板块）可能持续，因AI估值过高引发获利了结",
+        "watch": "资金流向数据及板块相对强弱"
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "市值蒸发近2万亿港元，腾讯靠投资AI翻身",
       "source": "21世纪经济报道",
       "detail": "记者丨吴佳楠 编辑丨孙超逸，辛继召 7月7日，腾讯控股（0700.HK）盘中涨近6%，截至收盘报461.2港元/股，总市值重新站上4万亿港元。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "腾讯市值蒸发近2万亿港元，押注AI翻身",
-        "assets": "📉 腾讯 承压；📈 AI概念股 利好",
-        "chain": "股价下跌（估值回调）→AI投资（研发投入）→长期盈利改善预期",
-        "watch": "腾讯AI业务收入占比及游戏业务恢复情况"
+        "what": "腾讯市值蒸发近2万亿港元，靠投资AI寻求翻身",
+        "assets": "📉 港股科技股 承压 / 📈 AI概念 利好",
+        "chain": "腾讯传统业务承压，AI投资成为估值修复关键，可能带动AI产业链",
+        "watch": "腾讯AI产品落地及财报表现"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "President Rings Stock Market Opening Bell to Celebrate Trump Accounts - The New York Times",
       "source": "The New York Times",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普账号庆祝敲响股市开市钟",
-        "assets": "📈 Trump Media 利好；📈 保守派媒体股 利好",
-        "chain": "政治关联（政策利好预期）→媒体流量变现→相关股票投机情绪",
-        "watch": "Trump Media财报及特朗普支持率变化"
+        "what": "特朗普账号相关公司敲钟庆祝",
+        "assets": "📈 特朗普媒体 利好",
+        "chain": "政治关联资产受情绪提振，但基本面存疑，需警惕炒作后回调",
+        "watch": "特朗普账号活跃度及公司营收数据"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
+      "source": "CNBC",
+      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "伊朗攻击商船推升油价",
+        "assets": "📈 原油 利好 / 📉 航运 承压",
+        "chain": "霍尔木兹海峡（关键石油通道）风险溢价上升，可能推高全球通胀预期",
+        "watch": "后续伊朗行动及美国海军介入情况"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Ukrainian drones hit Russia’s largest oil refinery as Zelenskyy says Siberia now ‘within reach’",
+      "source": "CNBC",
+      "detail": "The attack underscores Kyiv's enhanced long-range drone capabilities and comes on the eve of a crucial NATO summit.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "乌克兰无人机袭击俄罗斯最大炼油厂",
+        "assets": "📈 原油 利好 / 📉 俄炼油股 利空",
+        "chain": "供给端扰动加剧，油价短期偏强，欧洲天然气也可能受连带影响",
+        "watch": "炼油厂受损程度及俄方反击措施"
       }
     }
   ]
