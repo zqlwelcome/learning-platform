@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 20:10",
+  "updateTime": "2026-07-07 20:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 52,
       "insight": {
-        "what": "半导体独角兽获茅台、宁德时代参投IPO受理",
+        "what": "半导体独角兽IPO受理，茅台宁德时代参投",
         "assets": "📈 半导体板块 利好",
-        "chain": "信号：产业资本（茅台、宁德）入场，提振Pre-IPO（上市前融资）估值，传导至科创板科技股",
-        "watch": "后续IPO过会进展及募资规模"
+        "chain": "提振一级市场信心，可能带动半导体产业链（芯片设计/制造）估值重估",
+        "watch": "该独角兽上市首日涨幅及后续融资进展"
       }
     },
     {
@@ -24,86 +24,122 @@
       "score": 45,
       "insight": {
         "what": "前OpenAI研究员对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士 利好",
-        "chain": "AI算力需求驱动（HBM（高带宽内存）龙头），提振存储芯片及AI硬件板块",
-        "watch": "SK海力士IPO定价及首日表现"
+        "assets": "📈 存储芯片 利好 📈 AI算力 利好",
+        "chain": "AI芯片需求（HBM高带宽内存）持续验证，利好英伟达等GPU厂商及存储板块",
+        "watch": "SK海力士IPO定价及AI芯片订单数据"
       }
     },
     {
       "rank": 3,
-      "title": "Stock Market Today: Dow Futures Inch Higher; Samsung Sparks Tech Selloff Despite Strong Earnings — Live Updates - WSJ",
-      "source": "WSJ",
-      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
-      "lang": "en",
-      "score": 39
-    },
-    {
-      "rank": 4,
       "title": "荣科科技暴跌86%！7.85亿违规担保，4.2万股东“踩雷”",
       "source": "市场资讯",
       "detail": "从四倍“牛股”到股价仅剩零头，荣科科技（现“ST荣科”）因前任控股股东留下的巨额违规担保“暗雷”接连引爆，正经历一场前所未有的信任危机。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "三星财报强劲却引发科技股抛售",
-        "assets": "📉 美股科技股 承压",
-        "chain": "三星业绩利好出尽（price in），资金轮动至防御板块（公用事业、消费），科技股面临获利了结",
-        "watch": "后续科技巨头财报及板块轮动资金流向"
+        "what": "荣科科技暴跌86%，7.85亿违规担保",
+        "assets": "📉 小盘股 利空 📉 壳资源 利空",
+        "chain": "监管严查违规担保（上市公司为关联方提供担保未披露），引发小市值公司流动性恐慌（踩踏）",
+        "watch": "公司后续退市风险及监管立案进展"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
       "source": "CNBC",
       "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "中国AI模型成本低，获美国企业青睐",
+        "assets": "📈 中概AI概念 利好 📉 OpenAI/Anthropic 承压",
+        "chain": "中国AI替代（低成本模型）加速出海，可能压制美国AI公司定价权（毛利率）",
+        "watch": "中美AI模型API（应用程序接口）价格差及企业客户迁移数据"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Vertex斥资100亿美元收购Crinetics，后者股价盘前暴涨近99%",
+      "source": "环球市场播报",
+      "detail": "生物制药公司Crinetics股价周二盘前交易中几乎翻倍，此前生物技术公司Vertex宣布了一项100亿美元的收购计划。 Vertex同意以每股85美元的价格收购Crinetics...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "Vertex百亿美元收购Crinetics，后者盘前暴涨99%",
+        "assets": "📈 生物医药 利好 📈 并购概念 利好",
+        "chain": "罕见病（内分泌疾病）药物价值凸显，可能引发同类靶点（如SSTR2）资产重估",
+        "watch": "Crinetics核心管线临床数据及后续并购标的"
+      }
     },
     {
       "rank": 6,
-      "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29
-    },
-    {
-      "rank": 7,
       "title": "市值蒸发近2万亿港元，腾讯靠投资AI翻身",
       "source": "21世纪经济报道",
       "detail": "记者丨吴佳楠 编辑丨孙超逸，辛继召 7月7日，腾讯控股（0700.HK）盘中涨近6%，截至收盘报461.2港元/股，总市值重新站上4万亿港元。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "荣科科技暴跌86%，涉7.85亿违规担保",
-        "assets": "📉 荣科科技 暴跌",
-        "chain": "信用风险暴露（违规担保），小盘股流动性危机（4.2万股东踩雷），连带同板块壳资源股承压",
-        "watch": "监管调查进展及公司退市风险"
+        "what": "腾讯靠投资AI翻身，市值蒸发近2万亿后反弹",
+        "assets": "📈 腾讯 利好 📈 中概科技 利好",
+        "chain": "AI赋能广告/云业务（降本增效），可能带动港股科技板块估值修复（PE提升）",
+        "watch": "腾讯AI应用落地（如微信AI助手）及财报广告收入增速"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Oil prices edge higher after report of Iranian attack on commercial ships in Strait of Hormuz",
+      "source": "CNBC",
+      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "伊朗攻击霍尔木兹海峡商船，油价上涨",
+        "assets": "📈 原油 利好 📈 航运 利好",
+        "chain": "地缘风险（霍尔木兹海峡封锁）推升油价，传导至通胀预期（CPI）及避险资产（黄金）",
+        "watch": "伊朗后续行动及美国战略石油储备释放消息"
       }
     },
     {
       "rank": 8,
-      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
-      "source": "CNBC",
-      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
-      "lang": "en",
-      "score": 27
-    },
-    {
-      "rank": 9,
       "title": "Ukrainian drones hit Russia’s largest oil refinery as Zelenskyy says Siberia now ‘within reach’",
       "source": "CNBC",
       "detail": "The attack underscores Kyiv's enhanced long-range drone capabilities and comes on the eve of a crucial NATO summit.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "乌克兰无人机袭击俄罗斯最大炼油厂",
+        "assets": "📈 原油 利好 📉 俄罗斯炼厂 承压",
+        "chain": "供应中断（炼油产能受损）推高成品油裂解价差，可能引发全球柴油/汽油价格上行",
+        "watch": "俄罗斯炼厂复产进度及欧美对俄成品油制裁执行"
+      }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "title": "Stocks making the biggest moves premarket: Fiserv, Crinetics Pharmaceuticals, Micron & more",
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves in early trading.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "盘前异动：Fiserv、Crinetics、Micron等",
+        "assets": "📈 生物医药（Crinetics）利好 📈 存储（Micron）利好",
+        "chain": "个股异动反映板块资金流向（如并购/财报预期），可能带动同行业ETF（如XBI/XLK）",
+        "watch": "上述个股开盘后量价变化及板块联动效应"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "股价刚跌停！ST海龙公告，实控人被采取强制措施！",
+      "source": "市场资讯",
+      "detail": "来源：资本秘闻 7月7日跌停收盘后，ST海龙于当日晚间披露公告称，公司收到公司第一大股东温州康南科技有限公司的通知，公司实际控制人胡兴荣已被有权机关采取强制措施。",
+      "lang": "zh",
+      "score": 20,
+      "insight": {
+        "what": "ST海龙实控人被采取强制措施，股价跌停",
+        "assets": "📉 ST板块 利空 📉 壳资源 利空",
+        "chain": "实控人风险（违规/立案）引发退市预期，可能拖累ST板块整体流动性（恐慌抛售）",
+        "watch": "公司退市风险警示及实控人涉案细节披露"
+      }
     }
   ]
 }
