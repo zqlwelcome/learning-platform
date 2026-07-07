@@ -1,64 +1,106 @@
 {
-  "updateTime": "2026-07-07 12:31",
+  "updateTime": "2026-07-07 12:35",
   "news": [
     {
       "rank": 1,
+      "title": "Hedge fund run by ex-OpenAI researcher bets on SK Hynix’s US IPO - Financial Times",
+      "source": "Financial Times",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 50,
+      "insight": {
+        "what": "前OpenAI研究员的对冲基金押注SK海力士美国IPO",
+        "assets": "📈 SK海力士 利好; 📈 存储芯片 利好",
+        "chain": "AI算力需求（训练模型需要更多高性能芯片）拉动存储芯片订单，利好半导体供应链",
+        "watch": "SK海力士IPO定价及AI芯片订单数据"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "If the stock market’s double bubble bursts, it could usher in the next crash - MarketWatch",
+      "source": "MarketWatch",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 47,
+      "insight": {
+        "what": "市场观察警告股市双泡沫（AI+高估值）破裂可能引发崩盘",
+        "assets": "📉 美股科技股 承压; 📉 全球股市 承压",
+        "chain": "泡沫破裂导致恐慌性抛售（获利了结），避险情绪推高美债（国债价格涨收益率跌）",
+        "watch": "VIX指数（恐慌指标）及科技股估值水平"
+      }
+    },
+    {
+      "rank": 3,
       "title": "BlackRock says the China AI play is stock-specific, not a regional trade",
       "source": "CNBC",
       "detail": "BlackRock Investment Institute laid out its views Monday on the AI bubble debate.",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI机会是个股性非区域性",
-        "assets": "📈 中国AI个股 利好",
-        "chain": "资金从行业ETF（交易所交易基金）转向精选个股，利好有盈利的AI标的",
-        "watch": "中国AI龙头财报及机构持仓变动"
+        "what": "贝莱德称中国AI交易是选股逻辑，非区域主题",
+        "assets": "📈 中国AI龙头股（如百度、商汤） 分化; 📉 中国AI板块整体 中性",
+        "chain": "资金从指数ETF（追踪大盘）转向个股（精选股票），增加个股波动率",
+        "watch": "中国AI公司财报及政策监管动向"
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures slip with AI trade in focus - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "美股期货下跌，AI交易仍为焦点",
+        "assets": "📉 美股纳斯达克期货 承压; 📉 AI概念股 承压",
+        "chain": "AI板块回调拖累科技股，资金轮动至防御性板块（如公用事业）",
+        "watch": "今晚美股开盘AI龙头股表现"
+      }
+    },
+    {
+      "rank": 5,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里禁止员工使用Anthropic AI，涉蒸馏攻击",
-        "assets": "📉 中国AI概念股 承压",
-        "chain": "监管风险升温，AI模型安全审查趋严，利空相关技术合作",
-        "watch": "中国网信办对AI模型的新规发布"
+        "what": "阿里巴巴禁止员工使用Anthropic AI，指控模型蒸馏攻击",
+        "assets": "📉 Anthropic 利空; 📈 阿里云 利好; 📈 中国AI大模型 利好",
+        "chain": "科技巨头竞争加剧（模型安全争议），中国本土AI厂商（如阿里）受益于国产替代",
+        "watch": "Anthropic回应及阿里云AI产品市占率变化"
       }
     },
     {
-      "rank": 3,
-      "title": "长江有色：美联储政策进入关键观察窗口资金观望浓厚 7日镍价或震荡回调",
-      "source": "市场资讯",
-      "detail": "长江有色金属网 镍期货市场：美股创阶段新高及国内稳增长政策加码，隔夜伦镍收涨0.86%；伦镍最新收盘报16500美元/吨，上涨140美元，涨幅为0.86%，成交量6380手，国内市场...",
-      "lang": "zh",
+      "rank": 6,
+      "title": "Samsung profits jump 1,800% as AI boom drives chip sales - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
       "score": 30,
       "insight": {
-        "what": "美联储政策观望，镍价或震荡回调",
-        "assets": "📉 沪镍 承压",
-        "chain": "美元走强预期压制金属价格，资金撤离大宗商品（原材料）",
-        "watch": "美联储7月会议纪要及非农数据"
+        "what": "三星利润暴涨1800%，AI芯片销售驱动",
+        "assets": "📈 三星电子 利好; 📈 存储芯片 利好",
+        "chain": "AI算力需求（数据中心建设）拉动HBM（高带宽内存）芯片订单，但股价下跌反映利好出尽",
+        "watch": "三星HBM产能扩张及客户订单持续性"
       }
     },
     {
-      "rank": 4,
+      "rank": 7,
       "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星电子Q2利润创新高但股价下跌",
-        "assets": "📉 三星电子 利空",
-        "chain": "获利回吐（前期涨幅过大），市场担忧下半年存储芯片需求放缓",
-        "watch": "三星Q3指引及HBM（高带宽内存）出货量"
+        "what": "三星二季度利润创新高但股价下跌",
+        "assets": "📉 三星电子 承压; 📈 存储芯片 利好",
+        "chain": "业绩利好兑现（买预期卖事实），市场关注后续需求增速放缓风险",
+        "watch": "三星Q3指引及存储芯片价格走势"
       }
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "超4700股飘绿！半导体硅片走强 五倍大牛股连续2日跌停",
       "source": "每日经济新闻",
       "detail": "记者|杜恒峰 编辑|梁露月杜波校对|段炼 7月7日早盘，A股四大指数涨跌不一。截至中午休市，上证指数跌1.04%，深证成指跌1.02%，创业板指跌0.78%，科创综指涨0.23%。",
@@ -66,79 +108,37 @@
       "score": 30,
       "insight": {
         "what": "A股超4700股下跌，半导体硅片逆势走强",
-        "assets": "📈 半导体硅片 利好 📉 A股大盘 承压",
-        "chain": "市场避险情绪升温，资金轮动至国产替代硬科技板块",
-        "watch": "半导体硅片龙头订单及大盘成交量"
+        "assets": "📈 半导体硅片 利好; 📉 A股整体 承压",
+        "chain": "资金抱团半导体（避险+政策驱动），其他板块遭抛售，市场情绪极端分化",
+        "watch": "半导体板块成交额及政策刺激消息"
       }
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "小红书IPO冲刺遭前高管实名狙击 涉VIE架构信披矛盾、劳工合规缺陷 上市进程或面临合规拷问",
       "source": "新浪证券",
       "detail": "2026年6月，小红书正处于赴港IPO的关键窗口期。媒体6月15日报道称，小红书计划于6月底前以保密方式向港交所递交上市申请，估值高达310亿美元。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "小红书IPO遭前高管狙击，涉VIE及劳工合规",
-        "assets": "📉 小红书估值 承压",
-        "chain": "VIE（可变利益实体）架构风险暴露，可能延迟上市或降低发行价",
-        "watch": "港交所对VIE合规问询及小红书法律回应"
+        "what": "小红书IPO遭前高管实名举报，涉及VIE架构信披矛盾",
+        "assets": "📉 小红书 利空; 📈 港股/中概股合规概念 中性",
+        "chain": "VIE（可变利益实体）结构风险暴露，监管审查加强可能推迟上市进程",
+        "watch": "小红书回应及监管机构是否介入调查"
       }
     },
     {
-      "rank": 7,
-      "title": "AI投资加码之际腾讯套现快手股份近120亿港元 快手股价下挫10%",
-      "source": "环球市场播报",
-      "detail": "中国短视频平台快手最新宣布股东腾讯控股出售逾2.7亿股公司B类股份，持股比例降低10%以内，对应套现约118亿港元。花旗分析师指出...",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "腾讯套现快手120亿港元，快手股价暴跌10%",
-        "assets": "📉 快手 利空",
-        "chain": "大股东减持信号，市场担忧快手增长乏力，AI投资挤压现金流",
-        "watch": "快手回购计划及腾讯是否继续减持"
-      }
-    },
-    {
-      "rank": 8,
+      "rank": 10,
       "title": "Trump Accounts boost? Here's how much money will flow into stock market from the new program",
       "source": "CNBC",
       "detail": "Wells Fargo equity analyst Ohsung Kwon said nearly $20 billion should come in from the accounts.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普新计划或推动资金流入美股",
-        "assets": "📈 美股大盘 利好",
-        "chain": "减税或财政刺激预期，资金从债市转向股市（风险偏好提升）",
-        "watch": "特朗普竞选集会及具体政策细节"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "港股午评：恒指跌0.42% 科指跌0.28% PCB概念、芯片股低迷 快手跌超9%",
-      "source": "新浪港股",
-      "detail": "7月7日消息，港股三大指数集体下跌。截至午间收盘，恒生指数跌0.42%，报23517.70，恒生科技指数跌0.28%，国企指数跌0.42%。盘面上，科网股涨跌不一，快手跌超9%...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "港股恒指跌0.42%，科指跌0.28%，快手跌超9%",
-        "assets": "📉 港股科技股 承压",
-        "chain": "流动性收紧叠加减持潮，资金南向（内地资金流入港股）放缓",
-        "watch": "南向资金净流入及恒指20000点支撑"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Meta称美国四个州在8月的青少年安全诉讼中寻求1.4万亿美元罚款",
-      "source": "环球市场播报",
-      "detail": "Meta周一在一份法庭文件中表示，美国四个州正寻求对其处以 1.4 万亿美元的罚款，指控该公司设计其 Facebook 和 Instagram 平台旨在使年轻用户上瘾...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "Meta被美国四州索赔1.4万亿美元青少年安全诉讼",
-        "assets": "📉 Meta 承压",
-        "chain": "监管罚款风险剧增，广告收入或受冲击，利空社交媒体板块",
-        "watch": "法院是否受理及Meta财报中的法律准备金"
+        "what": "特朗普新计划预计为股市带来大量资金",
+        "assets": "📈 美股 利好; 📈 银行股 利好",
+        "chain": "资金流入推高股市（流动性增加），但可能引发通胀预期（钱变多物价涨）影响美联储决策",
+        "watch": "计划具体条款及资金到位时间表"
       }
     }
   ]
