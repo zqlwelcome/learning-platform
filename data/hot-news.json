@@ -1,145 +1,109 @@
 {
-  "updateTime": "2026-07-07 20:01",
+  "updateTime": "2026-07-07 20:10",
   "news": [
     {
       "rank": 1,
+      "title": "又一家半导体独角兽IPO受理，茅台、宁德时代参投",
+      "source": "21世纪经济报道",
+      "detail": "7月7日，上海思朗科技股份有限公司（下称“思朗科技”）科创板IPO获上交所受理。公司2024年获国家级独角兽企业。 公开信息显示，思朗科技成立于2016年...",
+      "lang": "zh",
+      "score": 52,
+      "insight": {
+        "what": "半导体独角兽获茅台、宁德时代参投IPO受理",
+        "assets": "📈 半导体板块 利好",
+        "chain": "信号：产业资本（茅台、宁德）入场，提振Pre-IPO（上市前融资）估值，传导至科创板科技股",
+        "watch": "后续IPO过会进展及募资规模"
+      }
+    },
+    {
+      "rank": 2,
       "title": "前 OpenAI 研究员管理的对冲基金押注SK海力士的美国 IPO",
       "source": "环球市场播报",
       "detail": " 一位前 OpenAI 研究员创办的对冲基金以及英国投资机构 Baillie Gifford 已释放信号，可能在本周SK海力士于纽约进行的 280 亿美元股份发售中认购大量份额。",
       "lang": "zh",
       "score": 45,
       "insight": {
-        "what": "前OpenAI研究员基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士 利好;📈 AI芯片 情绪提振",
-        "chain": "AI算力需求验证，利好HBM（高带宽内存）供应商，带动三星等存储股",
-        "watch": "SK海力士IPO定价及超额认购倍数"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "央行、香港金管局、香港证监会联合公告：欢迎外汇交易中心与港交所共建香港电子固定收益及货币交易平台",
-      "source": "",
-      "detail": "原标题：中国人民银行、香港金融管理局、香港证券及期货事务监察委员会关于在港建设交易平台的联合公告 中国人民银行、香港金融管理局（香港金管局）...",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "央行等三部门共建香港固定收益交易平台",
-        "assets": "📈 人民币债券 利好;📈 港交所 利好",
-        "chain": "提升离岸人民币流动性，吸引外资（境外资金）配置中国债市，压低中资美元债利差（信用风险溢价）",
-        "watch": "平台上线后日均交易量及参与机构数量"
+        "what": "前OpenAI研究员对冲基金押注SK海力士美国IPO",
+        "assets": "📈 SK海力士 利好",
+        "chain": "AI算力需求驱动（HBM（高带宽内存）龙头），提振存储芯片及AI硬件板块",
+        "watch": "SK海力士IPO定价及首日表现"
       }
     },
     {
       "rank": 3,
+      "title": "Stock Market Today: Dow Futures Inch Higher; Samsung Sparks Tech Selloff Despite Strong Earnings — Live Updates - WSJ",
+      "source": "WSJ",
+      "detail": "企业财报反映经济基本面，关注盈利预期和实际表现的差异。",
+      "lang": "en",
+      "score": 39
+    },
+    {
+      "rank": 4,
       "title": "荣科科技暴跌86%！7.85亿违规担保，4.2万股东“踩雷”",
       "source": "市场资讯",
       "detail": "从四倍“牛股”到股价仅剩零头，荣科科技（现“ST荣科”）因前任控股股东留下的巨额违规担保“暗雷”接连引爆，正经历一场前所未有的信任危机。",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "荣科科技暴跌86%因违规担保",
-        "assets": "📉 荣科科技 利空;📉 A股中小盘 承压",
-        "chain": "信用风险暴露，引发对类似担保链（连环担保）公司的恐慌抛售，小盘股流动性（买卖难易度）恶化",
-        "watch": "公司后续退市风险及监管调查进展"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
-      "source": "CNBC",
-      "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "中国AI模型以低成本吸引美国企业",
-        "assets": "📈 中国AI概念股 利好;📉 OpenAI 承压",
-        "chain": "中美AI成本差扩大，加速美国企业替换供应商，利好百度、阿里等国产大模型（AI底层技术）",
-        "watch": "美国企业实际采用率及API（应用程序接口）调用量变化"
+        "what": "三星财报强劲却引发科技股抛售",
+        "assets": "📉 美股科技股 承压",
+        "chain": "三星业绩利好出尽（price in），资金轮动至防御板块（公用事业、消费），科技股面临获利了结",
+        "watch": "后续科技巨头财报及板块轮动资金流向"
       }
     },
     {
       "rank": 5,
-      "title": "6月外储规模环比微降，央行黄金储备“二十连增”",
-      "source": "界面新闻",
-      "detail": "记者 辛圆 国家外汇管理局周二发布统计数据显示，截至2026年6月末，我国外汇储备规模为34163亿美元，较5月末下降260亿美元，降幅为0.75%。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "6月外储微降，央行黄金储备二十连增",
-        "assets": "📉 人民币 承压;📈 黄金 利好",
-        "chain": "外储下降反映资本外流（资金流出）压力，央行增黄金去美元化（减少美元依赖），支撑金价",
-        "watch": "7月外储数据及央行购金节奏"
-      }
+      "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
+      "source": "CNBC",
+      "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
+      "lang": "en",
+      "score": 35
     },
     {
       "rank": 6,
+      "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 29
+    },
+    {
+      "rank": 7,
       "title": "市值蒸发近2万亿港元，腾讯靠投资AI翻身",
       "source": "21世纪经济报道",
       "detail": "记者丨吴佳楠 编辑丨孙超逸，辛继召 7月7日，腾讯控股（0700.HK）盘中涨近6%，截至收盘报461.2港元/股，总市值重新站上4万亿港元。",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "腾讯靠投资AI挽回近2万亿港元市值",
-        "assets": "📈 腾讯 利好;📈 AI概念股 联动",
-        "chain": "腾讯AI变现预期提升，带动港股科技板块估值重估（重新定价），刺激南向资金（内地资金）流入",
-        "watch": "腾讯AI业务收入占比及资本开支指引"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
-      "source": "CNBC",
-      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "伊朗攻击商船致霍尔木兹海峡油价上涨",
-        "assets": "📈 原油 利好;📈 航运股 利好",
-        "chain": "地缘风险溢价（战争不确定性推高价格）上升，推高通胀预期（物价上涨），利空消费者和航空股",
-        "watch": "霍尔木兹海峡通行量及后续伊朗回应"
+        "what": "荣科科技暴跌86%，涉7.85亿违规担保",
+        "assets": "📉 荣科科技 暴跌",
+        "chain": "信用风险暴露（违规担保），小盘股流动性危机（4.2万股东踩雷），连带同板块壳资源股承压",
+        "watch": "监管调查进展及公司退市风险"
       }
     },
     {
       "rank": 8,
+      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
+      "source": "CNBC",
+      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
+      "lang": "en",
+      "score": 27
+    },
+    {
+      "rank": 9,
       "title": "Ukrainian drones hit Russia’s largest oil refinery as Zelenskyy says Siberia now ‘within reach’",
       "source": "CNBC",
       "detail": "The attack underscores Kyiv's enhanced long-range drone capabilities and comes on the eve of a crucial NATO summit.",
       "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "乌克兰无人机袭击俄罗斯最大炼油厂",
-        "assets": "📈 原油 利好;📉 俄罗斯炼油 利空",
-        "chain": "供应中断风险加剧，柴油和燃料油（成品油）价格跳涨，炼油利润（加工价差）扩大",
-        "watch": "炼油厂复工时间及俄原油出口量变化"
-      }
+      "score": 27
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Stocks making the biggest moves premarket: Fiserv, Crinetics Pharmaceuticals, Micron & more",
       "source": "CNBC",
       "detail": "These are the stocks posting the largest moves in early trading.",
       "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "盘前异动：Fiserv、Crinetics、美光等",
-        "assets": "📈 美光 利好（AI需求）；📉 其他个股 分化",
-        "chain": "AI订单驱动美光业绩预期上调，带动半导体板块（芯片行业）情绪，但非AI股遭资金抽血（资金转移）",
-        "watch": "美光财报指引及Fiserv的支付数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "AI芯片需求持续火爆，三星预计本季度利润再创新高",
-      "source": "环球市场播报",
-      "detail": "这家存储芯片巨头预测二季度营业利润同比暴涨 19 倍自 2025 年第四季度起，三星已连续多个季度营收、营业利润刷新历史纪录。 内容速览 受 AI 芯片强劲需求拉动...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "三星预计本季度利润创新高因AI芯片需求",
-        "assets": "📈 三星 利好;📈 存储芯片 利好",
-        "chain": "AI算力需求拉动HBM（高带宽内存）和DDR5（新一代内存），验证半导体周期上行，利好设备商",
-        "watch": "三星HBM产能利用率及下季度指引"
-      }
+      "score": 27
     }
   ]
 }
