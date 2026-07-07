@@ -1,46 +1,46 @@
 {
-  "updateTime": "2026-07-07 23:16",
+  "updateTime": "2026-07-07 23:21",
   "news": [
     {
       "rank": 1,
+      "title": "Nasdaq futures fall after record Samsung profit fails to calm AI chip worries - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "三星创纪录利润未能缓解AI芯片担忧，纳指期货下跌",
+        "assets": "📉 纳斯达克100指数 承压\n📉 AI芯片股 利空",
+        "chain": "科技股走弱→资金轮动至防御板块（公用事业、医疗），波动率（恐慌指数VIX）可能跳升",
+        "watch": "今晚美国CPI数据及英伟达财报预期"
+      }
+    },
+    {
+      "rank": 2,
       "title": "SK海力士启动280亿美元美国上市计划，挑战史上最大外企IPO",
       "source": "环球市场播报",
       "detail": "韩国存储芯片巨头SK海力士周一正式启动赴美上市程序，计划通过发行美国存托凭证在纳斯达克挂牌，筹资约280亿美元。此次发行有望成为美国历史上规模最大的外国企业首次公开...",
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "SK海力士启动280亿美元美国上市",
-        "assets": "📈 美股半导体 利好；📉 韩国股市 资金分流",
-        "chain": "吸引全球资金流入美股，推高半导体板块估值，韩股流动性承压",
-        "watch": "SEC审批进度及定价区间"
+        "what": "SK海力士启动280亿美元美国上市，挑战史上最大外企IPO",
+        "assets": "📈 美股半导体板块 利多\n📈 韩国股市 资金分流",
+        "chain": "海力士赴美上市→挤压韩国主板流动性，同时强化美国芯片产业链（供应链本地化）",
+        "watch": "SEC审批进度及发行定价区间"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Dow turns red as chip stocks tumble, oil prices gain: Live updates",
       "source": "CNBC",
       "detail": "The Dow Jones Industrial Average hit a fresh all-time intraday high on Tuesday.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "芯片股暴跌拖累道指转跌，油价上涨",
-        "assets": "📉 美股芯片股 利空；📈 原油 利好",
-        "chain": "科技股抛售引发避险，资金轮动至能源板块（油价上涨支撑）",
-        "watch": "费城半导体指数（SOX）走势及EIA库存数据"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "Gold holds steady as focus turns to Middle East tensions, Fed minutes - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "金价持稳，聚焦中东局势与美联储纪要",
-        "assets": "📈 黄金 中性偏强；📉 美元 承压",
-        "chain": "地缘风险（中东冲突）支撑避险需求，美联储纪要若偏鸽（放慢加息）将推高金价",
-        "watch": "美联储会议纪要措辞及以色列-伊朗动态"
+        "what": "道指转跌，芯片股暴跌，油价上涨",
+        "assets": "📉 道琼斯工业指数 承压\n📈 原油 利多\n📉 芯片股 利空",
+        "chain": "芯片抛售→资金涌入能源股（避险+通胀对冲），美债收益率（借钱成本）可能跟随油价走高",
+        "watch": "WTI原油是否突破80美元关口"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型因OpenAI成本飙升获美国企业青睐",
-        "assets": "📈 中国AI概念股 利好；📉 OpenAI/Anthropic 利空",
-        "chain": "成本优势驱动美国企业转向中国模型，加速AI产业链去美国化（算力需求转移）",
-        "watch": "中国AI公司订单数据及API定价变化"
+        "what": "中国AI模型因OpenAI、Anthropic成本飙升获美国企业青睐",
+        "assets": "📈 中国AI概念股 利多\n📈 云计算服务商 利好",
+        "chain": "美国企业转向中国模型→推升中国AI算力需求（芯片、服务器），同时打击美国AI定价权",
+        "watch": "阿里、百度等AI模型API调用量数据"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "福泰制药百亿美元收购Crinetics，后者暴涨99%",
-        "assets": "📈 Crinetics 利好；📉 福泰制药 承压",
-        "chain": "收购溢价（高于市价）推高Crinetics估值，福泰因收购成本高企（百亿美元）股价下跌",
-        "watch": "收购完成率及福泰后续融资计划"
+        "what": "福泰制药百亿美元收购Crinetics，后者股价暴涨近99%",
+        "assets": "📈 Crinetics制药 暴涨\n📈 生物科技ETF 利多\n📉 福泰制药 承压",
+        "chain": "并购溢价（收购价远超市价）→激活生物科技板块并购预期（套利资金涌入），但收购方债务风险上升",
+        "watch": "福泰制药融资方案及监管审批"
       }
     },
     {
@@ -79,52 +79,52 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "LV诉中国茶饮商标侵权胜诉引发版权争议",
-        "assets": "📈 奢侈品股 利好；📉 中国茶饮品牌 利空",
-        "chain": "强化奢侈品品牌护城河（商标保护），打击中国山寨品牌估值（法律风险上升）",
-        "watch": "中国法院后续判例及茶饮品牌商标调整"
+        "what": "LV起诉中国茶饮品牌侵权获胜，引发版权争议",
+        "assets": "📈 奢侈品行业 利多\n📉 中国茶饮品牌 承压",
+        "chain": "奢侈品维权成功→加大中国品牌IP（知识产权）保护成本，可能抑制山寨商业模式",
+        "watch": "中国最高法对商标侵权赔偿标准"
       }
     },
     {
       "rank": 7,
-      "title": "Amazon Returns to US Bond Market to Fund AI Infrastructure Build - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "亚马逊重返美国债市为AI基建融资",
-        "assets": "📈 美债 供给压力；📉 科技股 稀释风险",
-        "chain": "发债增加债券供给（利率上行），但资金投向AI基建（长期利好云计算）",
-        "watch": "发债规模及利率定价，亚马逊资本开支指引"
-      }
-    },
-    {
-      "rank": 8,
       "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "三星业绩触发资金轮动至冷门板块",
-        "assets": "📉 三星/韩国半导体 利空；📈 防御性板块（公用事业）",
-        "chain": "业绩不及预期引发科技股获利了结，资金流入低估值/高股息板块（轮动效应）",
-        "watch": "三星Q3指引及韩国出口数据"
+        "what": "三星业绩引发资金从科技股轮动至冷门板块",
+        "assets": "📉 科技成长股 利空\n📈 价值股/能源股 利好",
+        "chain": "科技股获利了结→资金涌入低估值（市盈率低）周期股（工业、材料），市场风格切换",
+        "watch": "罗素2000小盘股指数相对纳斯达克表现"
       }
     },
     {
-      "rank": 9,
-      "title": "Rivian stock down on 75 million share sale, preannounces Q2 revenue - Yahoo Finance UK",
-      "source": "Yahoo Finance UK",
+      "rank": 8,
+      "title": "Stock Market Today: Nasdaq Slides After Samsung Sparks Tech Selloff — Live Updates - WSJ",
+      "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Rivian宣布7500万股增发，Q2营收预降",
-        "assets": "📉 Rivian 利空；📉 电动车板块 承压",
-        "chain": "增发稀释（股权摊薄）压低股价，市场担忧电动车行业融资困难（流动性危机）",
-        "watch": "增发定价及Rivian现金消耗率"
+        "what": "纳指下跌，三星引发科技抛售潮",
+        "assets": "📉 纳斯达克指数 承压\n📉 韩国KOSPI指数 利空",
+        "chain": "三星业绩不及预期→全球芯片库存（存货）担忧升温，拖累亚洲科技出口国汇率",
+        "watch": "三星存储芯片现货价格走势"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Rivian stock falls 10% as company sells 75 million shares to raise capital - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "Rivian发行7500万股融资，股价暴跌10%",
+        "assets": "📉 Rivian 利空\n📉 电动车板块 承压",
+        "chain": "股权稀释（老股东权益被摊薄）→市场担忧现金流（公司现金储备），可能引发其他电动车企跟风融资",
+        "watch": "Rivian订单取消率及Q2交付量"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Rivian股价跌超10%，因增发7500万股",
-        "assets": "📉 Rivian 利空；📉 新能源车ETF 利空",
-        "chain": "增发冲击投资者信心，引发对电动车公司烧钱速度的担忧（高利率环境）",
-        "watch": "Rivian订单取消率及现金储备数据"
+        "what": "Rivian发行7500万股融资，股价暴跌超10%",
+        "assets": "📉 Rivian 利空\n📉 电动车板块 承压",
+        "chain": "大规模增发（新股发行）→短期抛压加剧，空头借机加仓（做空），特斯拉等同行可能被连带",
+        "watch": "Rivian是否下调全年产量指引"
       }
     }
   ]
