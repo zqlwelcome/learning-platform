@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 11:11",
+  "updateTime": "2026-07-07 11:16",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "道指创新高，纳指科技股周初上涨",
-        "assets": "📈 美股大盘 偏多；📈 科技股 偏多",
-        "chain": "风险偏好（市场情绪）回升，资金轮动（板块切换）至科技，推高波动率（价格震荡幅度）",
-        "watch": "纳指100期货是否突破前高"
+        "what": "道指创新高，纳指科技股领涨",
+        "assets": "📈 美股科技股 利好；📈 道指 利好",
+        "chain": "科技股涨势带动风险偏好（Risk-on），资金从防御板块流出",
+        "watch": "本周科技巨头财报及CPI数据"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "市场警告双泡沫（科技+AI）破裂或引发崩盘",
-        "assets": "📉 科技/半导体 ETF 利空；📈 避险资产 利多",
-        "chain": "泡沫破裂→恐慌抛售→流动性枯竭（市场没钱交易）→传导至信用债和外汇",
-        "watch": "VIX（恐慌指数）是否突破30"
+        "what": "阿里禁止员工使用Anthropic AI，指控蒸馏攻击",
+        "assets": "📉 阿里云 承压；📉 Anthropic 承压",
+        "chain": "大模型竞争加剧，企业数据安全成本上升，开源模型（如Llama）需求增加",
+        "watch": "阿里云财报中AI业务收入增速"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI交易是选股，非板块普涨",
-        "assets": "📈 中国AI龙头个股 结构性利好；📉 中国科技ETF 分化",
-        "chain": "资金集中到少数股（如百度、商汤），小票流动性被抽走，加剧分化",
-        "watch": "中国AI个股相对强弱比（RSI）"
+        "what": "长江有色：镍价或震荡回调，资金观望",
+        "assets": "📉 伦镍 承压；📉 镍矿股 承压",
+        "chain": "镍价回调降低不锈钢/电池成本（利好下游），但新能源需求预期未变",
+        "watch": "LME镍库存及中国新能源汽车销量"
       }
     },
     {
@@ -51,94 +51,88 @@
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "国际金价暴跌拖累贵金属，招金跌停，摩根大通看多至4500",
-        "assets": "📉 黄金/贵金属 短期利空；📈 黄金 长期利多",
-        "chain": "短期止损盘（被迫卖出）砸盘→波动率飙升→多头爆仓（杠杆亏损强平）后反弹",
-        "watch": "COMEX（纽约商品交易所）黄金期货持仓变化"
+        "what": "市场警告双泡沫（股票+债券）可能引发崩盘",
+        "assets": "📉 美股大盘 承压；📉 美债 承压",
+        "chain": "泡沫破裂触发去杠杆（抛售资产还债），避险资产（黄金）短期受益",
+        "watch": "VIX（恐慌指数）是否突破20"
       }
     },
     {
       "rank": 5,
+      "title": "英镑有望九连阳：美联储加息预期退潮撑起的涨势，能走多远？",
+      "source": "滚动播报",
+      "detail": "汇通财经APP讯——周二（7月7日）亚市早盘，英镑兑美元延续涨势，有望连续第九个交易日走高，当前交投于1.3390附近。 美元走弱的直接诱因是市场对美联储本月及九月加息的预期...",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "贝莱德：中国AI是选股机会，非板块普涨",
+        "assets": "📈 中国AI龙头股 利好；📉 中国AI板块ETF 中性",
+        "chain": "资金从板块ETF转向个股阿尔法（超额收益），半导体供应链分化",
+        "watch": "中国AI公司财报及技术突破公告"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "博通与苹果扩大战略合作！端侧AI概念走强，瑞芯微涨停！电子ETF华宝（515260）拉升1%，标的近1年大涨128%",
+      "source": "新浪基金",
+      "detail": " 今日（7月7日）早盘，端侧AI概念震荡走强，瑞芯微涨停，传音控股涨超9%、芯原股份涨逾5%；算力芯片概念亦有亮眼表现，寒武纪、海光信息涨超3%。",
+      "lang": "zh",
+      "score": 35,
+      "insight": {
+        "what": "招金跌停，摩根大通仍看多黄金至4500美元",
+        "assets": "📉 招金矿业 承压；📈 国际金价 利好",
+        "chain": "金价回调挤压矿企利润（成本固定），但长期看通胀预期支撑黄金",
+        "watch": "COMEX黄金持仓量和美联储降息预期"
+      }
+    },
+    {
+      "rank": 7,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴因蒸馏攻击指控禁止员工用Anthropic AI",
-        "assets": "📉 阿里巴巴 利空；📈 中国国产AI模型 利多",
-        "chain": "中美AI脱钩加速→国内替代需求上升→算力芯片（如寒武纪）受益",
-        "watch": "阿里云客户流失率及国产模型合作公告"
+        "what": "AI芯片需求推动三星利润暴增1800%",
+        "assets": "📈 三星电子 利好；📈 全球半导体板块 利好",
+        "chain": "HBM（高带宽内存）供不应求，存储芯片涨价周期延续，利好台积电等设备商",
+        "watch": "三星Q3资本开支指引及HBM客户订单"
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里巴巴因蒸馏攻击指控禁止员工用Anthropic AI",
-        "assets": "📉 阿里巴巴 利空；📈 中国国产AI模型 利多",
-        "chain": "中美AI脱钩加速→国内替代需求上升→算力芯片（如寒武纪）受益",
-        "watch": "阿里云客户流失率及国产模型合作公告"
-      }
+      "score": 32
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "长江有色：美联储政策进入关键观察窗口资金观望浓厚 7日镍价或震荡回调",
       "source": "市场资讯",
       "detail": "长江有色金属网 镍期货市场：美股创阶段新高及国内稳增长政策加码，隔夜伦镍收涨0.86%；伦镍最新收盘报16500美元/吨，上涨140美元，涨幅为0.86%，成交量6380手，国内市场...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美联储政策观察期，资金观望，沪镍或震荡回调",
-        "assets": "📉 沪镍 承压；📈 美元 偏多",
-        "chain": "美元走强→大宗商品（原材料）承压→镍库存上升打压价格",
-        "watch": "美联储7月利率决议及点阵图（利率预测）"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall - CNBC",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "三星电子二季度利润创新高但股价下跌",
-        "assets": "📉 三星电子 利空；📈 存储芯片 结构性利多",
-        "chain": "利润利好出尽（已反映在价格中）→获利回吐（卖股变现）→拖累韩股半导体板块",
-        "watch": "三星下半年资本开支指引及HBM（高带宽内存）订单"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
-      "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "三星电子二季度利润创新高但股价下跌",
-        "assets": "📉 三星电子 利空；📈 存储芯片 结构性利多",
-        "chain": "利润利好出尽（已反映在价格中）→获利回吐（卖股变现）→拖累韩股半导体板块",
-        "watch": "三星下半年资本开支指引及HBM（高带宽内存）订单"
+        "what": "英镑九连阳，美联储加息预期退潮支撑",
+        "assets": "📈 英镑/美元 利好；📉 美元指数 承压",
+        "chain": "美元走弱推升非美货币（欧元、日元），大宗商品（以美元计价）受益",
+        "watch": "英国央行利率决议及美国非农数据"
       }
     },
     {
       "rank": 10,
-      "title": "The Second-Biggest Stock Sale in History Hits the Nasdaq Friday, and Chip Stocks Are Ripping - 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "AI chip boom lifts Samsung profits by 1,800% - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 29,
+      "score": 30,
       "insight": {
-        "what": "史上第二大股票发行周五登陆纳斯达克，芯片股飙升",
-        "assets": "📈 芯片股 利多；📉 大盘 短期承压",
-        "chain": "大规模增发（发新股）→稀释（每股价值降低）现有股东→但资金用于扩产，长期利好",
-        "watch": "发行定价及超额认购倍数"
+        "what": "博通与苹果合作，端侧AI概念拉升",
+        "assets": "📈 博通 利好；📈 端侧AI芯片股 利好；📈 电子ETF 利好",
+        "chain": "AI从云端向终端（手机/物联网）扩散，半导体设计公司估值重估",
+        "watch": "苹果秋季发布会AI功能细节"
       }
     }
   ]
