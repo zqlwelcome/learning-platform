@@ -1,20 +1,116 @@
 {
-  "updateTime": "2026-07-08 02:15",
-  "newsUpdateTime": "2026-07-08 02:15",
-  "analysisUpdateTime": "2026-07-08 02:15",
+  "updateTime": "2026-07-08 04:16",
+  "newsUpdateTime": "2026-07-08 04:16",
+  "analysisUpdateTime": "2026-07-08 04:16",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "对冲基金balyasny聘请pdt的tsai执掌国际投资团队|亚马逊拟发行债券募资至少250亿美元2026年不再新增发债|法律人工智能初创公司normai获12亿美元融资估值12亿美元|海湾原油增产拉开市场份额争夺战序幕|redwoodtrust二季度业务量超80亿美元aspire平台表现突出|spacex股票几乎回到首日开盘价|午盘美股维持下跌局面油价上涨令股指承压|法官批准向23andme数据泄露事件受害者支付4675万美元赔偿金|阿波罗美股七巨头以外公司利润率停滞对科技巨头估值构成风险|油价上涨最新船只袭击事件凸显霍尔木兹海峡风险",
+  "titleFingerprint": "7月8日收盘道指回落至53000点以下纳指跌1芯片股重挫油价飙升|美联储拟修改银行反洗钱监管要求要求银行将更多资源集中于高风险客户和业务活动|美股收盘三大股指收跌闪迪跌7|尾盘美股继续下滑芯片股普跌|沃尔玛降价引发生鲜大战美国消费者不满情绪升温|大银行寻求收购支付网络以规避借记卡手续费上限|对冲基金balyasny聘请pdt的tsai执掌国际投资团队|海湾原油增产拉开市场份额争夺战序幕|viatransportation遭证券欺诈集体诉讼股价较ipo跌近七成|meta推出ai图像生成模型接入聊天机器人和instagram",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
+      "title": "7月8日收盘：道指回落至53000点以下，纳指跌1%，芯片股重挫，油价飙升",
+      "source": "环球市场播报",
+      "detail": "北京时间7月8日凌晨，美股周二收跌。道指从创纪录水平回落。板块轮动仍在继续，投资者似乎再次从人工智能相关股票中撤出。中东局势升温推动油价上涨。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzmyq8272821.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 86,
+      "insight": {
+        "what": "7月8日收盘：道指回落至53000点以下，纳指跌1%，芯片股重挫，油价飙升",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "美联储拟修改银行反洗钱监管要求，要求银行将更多资源集中于高风险客户和业务活动",
+      "source": "金十快讯",
+      "detail": "美联储拟修改银行反洗钱监管要求，要求银行将更多资源集中于高风险客户和业务活动。该提案将公开征求意见60天。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 80,
+      "insight": {
+        "what": "美联储拟修改银行反洗钱监管要求，要求银行将更多资源集中于高风险客户和业务活动",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "美股收盘：三大股指收跌 闪迪跌7%",
+      "source": "金十快讯",
+      "detail": "【美股收盘：三大股指收跌 闪迪跌7%】金十数据7月8日讯，美股周二收盘，道指初步收跌0.25%，标普500指数跌0.45%，纳指跌1.16%。存储芯片股继续下挫，闪迪(SNDK.O)跌7%，西部数据(WDC.O)跌近8%，美光科技(MU.O)跌4.7%。SpaceX(SPCX.O)跌近7%。纳斯达克中国金龙指数收跌0.57%，爱奇艺(IQ.O)跌近7%。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 73,
+      "insight": {
+        "what": "美股收盘：三大股指收跌 闪迪跌7%",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "尾盘：美股继续下滑 芯片股普跌",
+      "source": "环球市场播报",
+      "detail": "北京时间7月8日凌晨，美股周二尾盘继续下滑。芯片股普跌。投资者似乎再次开始撤出与人工智能相关的股票。中东局势紧张推动原油价格回升。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzmyq8243434.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 72,
+      "insight": {
+        "what": "尾盘：美股继续下滑 芯片股普跌",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "沃尔玛降价引发生鲜大战，美国消费者不满情绪升温",
+      "source": "环球市场播报",
+      "detail": "美国零售巨头沃尔玛近日宣布在全美门店及山姆会员店推出大规模夏季降价活动，涵盖数千种商品。73%瘦肉含量的绞牛肉从每磅6.74美元降至5.94美元...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzmyq8266467.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 70,
+      "insight": {
+        "what": "沃尔玛降价引发生鲜大战，美国消费者不满情绪升温",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "大银行寻求收购支付网络以规避借记卡手续费上限",
+      "source": "环球市场播报",
+      "detail": "多家美国大型银行正在探索一项可能重塑支付行业格局的交易——通过收购借记卡网络来规避联邦政府对借记卡手续费的监管上限。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzmys5039508.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 70,
+      "insight": {
+        "what": "大银行寻求收购支付网络以规避借记卡手续费上限",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
+      }
+    },
+    {
+      "rank": 7,
       "title": "对冲基金Balyasny聘请PDT的Tsai执掌国际投资团队",
       "source": "环球市场播报",
       "detail": "规模380亿美元的对冲基金Balyasny Asset Management聘请PDT Partners的Andrew Tsai，负责该公司在美国以外的投资团队。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzfss8315055.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 90,
+      "score": 70,
       "insight": {
         "what": "对冲基金Balyasny聘请PDT的Tsai执掌国际投资团队",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -23,46 +119,14 @@
       }
     },
     {
-      "rank": 2,
-      "title": "亚马逊拟发行债券募资至少250亿美元，2026年不再新增发债",
-      "source": "环球市场播报",
-      "detail": "核心要点消息人士向记者戴维・费伯透露，亚马逊计划通过债券发行募资至少 250 亿美元；本次发债是亚马逊新一轮债务融资，用于支撑其大规模人工智能领域投入；知情人士称...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-07/doc-inifyzks8376695.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 85,
-      "insight": {
-        "what": "亚马逊拟发行债券募资至少250亿美元，2026年不再新增发债",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "法律人工智能初创公司Norm Ai获1.2亿美元融资，估值12亿美元",
-      "source": "环球市场播报",
-      "detail": "Norm Ai周二表示，已在由Khosla Ventures领投的C轮融资中筹集了1.2亿美元，这家法律人工智能初创企业的估值达到12亿美元。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-07/doc-inifyzku8364032.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 85,
-      "insight": {
-        "what": "法律人工智能初创公司Norm Ai获1.2亿美元融资，估值12亿美元",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
-      "rank": 4,
+      "rank": 8,
       "title": "海湾原油增产拉开市场份额争夺战序幕",
       "source": "环球市场播报",
       "detail": "沙特将 8 月主力原油对亚洲售价下调 11 美元 / 桶，创二十余年最大月度降幅霍尔木兹海峡航运逐步恢复，一波海湾新增原油供给即将涌入市场。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzfss8304519.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 83,
+      "score": 70,
       "insight": {
         "what": "海湾原油增产拉开市场份额争夺战序幕",
         "assets": "关注：黄金、原油、能源股、资源类基金",
@@ -71,99 +135,35 @@
       }
     },
     {
-      "rank": 5,
-      "title": "Redwood Trust二季度业务量超80亿美元，Aspire平台表现突出",
-      "source": "环球市场播报",
-      "detail": "房地产投资信托公司Redwood Trust于7月7日发布第二季度初步业务更新，披露其抵押贷款银行业务持续增长，当季总业务量超过80亿美元...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-07/doc-inifyzkr1623228.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 77,
-      "insight": {
-        "what": "Redwood Trust二季度业务量超80亿美元，Aspire平台表现突出",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "SpaceX股票几乎回到首日开盘价",
-      "source": "环球市场播报",
-      "detail": "SpaceX股价今日下跌逾5%，至152美元以下，距离该火箭制造商在6月12日（即IPO当日）开始交易时的150美元价位已相去不远。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzfsu5073250.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 76,
-      "insight": {
-        "what": "SpaceX股票几乎回到首日开盘价",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "午盘：美股维持下跌局面 油价上涨令股指承压",
-      "source": "环球市场播报",
-      "detail": "北京时间7月8日凌晨，美股周二午盘维持下跌局面。芯片股普跌。投资者似乎再次开始撤出与人工智能相关的股票。中东局势紧张推动原油价格回升。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzfss8285025.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 74,
-      "insight": {
-        "what": "午盘：美股维持下跌局面 油价上涨令股指承压",
-        "assets": "关注：黄金、原油、能源股、资源类基金",
-        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
-        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "法官批准向23andMe数据泄露事件受害者支付4675万美元赔偿金",
-      "source": "环球市场播报",
-      "detail": "周二，一名美国破产法官批准了一项价值4675万美元的和解协议，用于赔偿基因检测公司23andMe在2023年数据泄露事件中的受害者。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzfsq8337154.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 72,
-      "insight": {
-        "what": "法官批准向23andMe数据泄露事件受害者支付4675万美元赔偿金",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
       "rank": 9,
-      "title": "阿波罗：美股七巨头以外公司利润率停滞对科技巨头估值构成风险",
+      "title": "Via Transportation遭证券欺诈集体诉讼，股价较IPO跌近七成",
       "source": "环球市场播报",
-      "detail": "阿波罗全球管理公司（Apollo Global Management Inc．）首席经济学家Torsten Slok警告称，科技巨头以外的公司未能展现其人工智能支出带来盈利能力提升...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-07/doc-inifyzks8391814.shtml",
+      "detail": "美国全国性股东权益诉讼律师事务所Berger Montague PC宣布，已对Via Transportation， Inc．（纽约证券交易所代码：VIA）提起证券欺诈集体诉讼...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzmys5030255.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 72,
+      "score": 69,
       "insight": {
-        "what": "阿波罗：美股七巨头以外公司利润率停滞对科技巨头估值构成风险",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
+        "what": "Via Transportation遭证券欺诈集体诉讼，股价较IPO跌近七成",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
       "rank": 10,
-      "title": "油价上涨 最新船只袭击事件凸显霍尔木兹海峡风险",
+      "title": "Meta推出AI图像生成模型 接入聊天机器人和Instagram",
       "source": "环球市场播报",
-      "detail": "油价周二走高，因为霍尔木兹海峡及其周边海域发生袭击船只事件，表明船舶在这条关键水道仍面临风险。 WTI原油交易价格在每桶70美元左右。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-07/doc-inifyzkw5174042.shtml",
+      "detail": "Meta Platforms Inc．发布一款新的图像生成式人工智能（AI）模型，这是该公司一年前斥资数十亿美元重建AI实验室、由Alexandr Wang担任首席AI官以来首次发布此类模型。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inifzmym1530795.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 70,
+      "score": 68,
       "insight": {
-        "what": "油价上涨 最新船只袭击事件凸显霍尔木兹海峡风险",
-        "assets": "关注：黄金、原油、能源股、资源类基金",
-        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
-        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+        "what": "Meta推出AI图像生成模型 接入聊天机器人和Instagram",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
       }
     }
   ]
