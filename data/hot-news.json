@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 17:16",
+  "updateTime": "2026-07-07 17:25",
   "news": [
     {
       "rank": 1,
@@ -9,136 +9,136 @@
       "lang": "zh",
       "score": 47,
       "insight": {
-        "what": "韩国股市暴跌近5%，AI疑虑触发熔断",
-        "assets": "📉 韩国KOSPI 承压; 📉 全球AI半导体 承压",
-        "chain": "AI泡沫担忧→半导体需求预期下调→科技股抛售（避险情绪升温）",
-        "watch": "美股AI龙头财报及资本开支指引"
+        "what": "韩国股市暴跌近5%触发熔断，AI疑虑主导",
+        "assets": "📉 韩国KOSPI指数 利空；📉 全球半导体股 承压",
+        "chain": "AI泡沫担忧→资金从科技股撤出→避险资产（美债/黄金）短期受益",
+        "watch": "SK海力士ADR IPO定价及首日表现"
       }
     },
     {
       "rank": 2,
-      "title": "Samsung Electronics shares fall as capex, demand concerns cloud record second-quarter profit report",
-      "source": "CNBC",
-      "detail": "Samsung Electronics shares fell even after record preliminary Q2 profit as capex and demand concerns clouded the outlook.",
+      "title": "Asia stocks fall as AI valuation fears overshadow Samsung’s blockbuster earnings - Investing.com",
+      "source": "Investing.com",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 42,
+      "score": 44,
       "insight": {
-        "what": "三星利润创新高但股价跌，因资本开支和需求担忧",
-        "assets": "📉 三星电子 承压; 📉 全球存储芯片 承压",
-        "chain": "资本开支（企业花钱扩产）增加→供给过剩担忧→芯片价格预期下调",
-        "watch": "三星下半年资本开支指引及HBM（高带宽内存）出货量"
+        "what": "亚洲股市回落，AI估值担忧盖过三星强劲盈利",
+        "assets": "📉 亚洲科技股 利空；📈 防御性板块（公用事业） 利好",
+        "chain": "AI盈利兑现不足→成长股（高估值科技股）遭抛售→资金轮动至价值股（低估值板块）",
+        "watch": "三星Q3资本开支指引及AI芯片需求数据"
       }
     },
     {
       "rank": 3,
+      "title": "Samsung Electronics shares fall as capex, demand concerns cloud record second-quarter profit report",
+      "source": "CNBC",
+      "detail": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook.",
+      "lang": "en",
+      "score": 42,
+      "insight": {
+        "what": "三星股价下跌，资本支出和需求担忧抵消创纪录利润",
+        "assets": "📉 三星电子 利空；📉 存储芯片（DRAM/NAND） 承压",
+        "chain": "盈利超预期但资本开支（CAPEX）高企→市场担心供应过剩→半导体周期见顶预期升温",
+        "watch": "三星Q3存储芯片出货量和平均售价（ASP）"
+      }
+    },
+    {
+      "rank": 4,
       "title": "前美联储官员布拉德：年内大概率启动加息，9月成关键窗口",
       "source": "市场资讯",
       "detail": "文章来源：金十数据 现任普渡大学米奇・丹尼尔斯商学院院长、前圣路易斯联储主席吉姆・布拉德（Jim Bullard）在2026年7月6日做客CNBC《欧洲财经早间节目》时表态...",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "前美联储官员布拉德：年内可能加息，9月是关键",
-        "assets": "📈 美元 利好; 📉 美股成长股 承压; 📉 黄金 承压",
-        "chain": "加息预期→流动性收紧（钱变少）→风险资产估值压缩",
-        "watch": "美国8月CPI（消费者物价指数）及非农就业数据"
+        "what": "前美联储官员布拉德：年内可能加息，9月是关键窗口",
+        "assets": "📈 美元 利好；📉 美债 利空；📉 黄金 承压",
+        "chain": "加息预期升温→美元走强→新兴市场资金外流（资本外逃）→风险资产承压",
+        "watch": "8月美国CPI及非农就业数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
       "source": "CNBC",
       "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型获美国企业青睐，因OpenAI成本飙升",
-        "assets": "📈 中国AI概念股 利好; 📈 人民币 利好",
-        "chain": "中国AI性价比提升→出口增长→科技自主叙事强化",
-        "watch": "中国AI公司海外收入占比及客户签约公告"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
-      "source": "CNBC",
-      "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里巴巴因‘蒸馏攻击’指控禁止员工使用Anthropic AI",
-        "assets": "📉 阿里巴巴 承压; 📈 中国国产AI芯片 利好",
-        "chain": "技术封锁风险→企业转向国产AI替代→国产算力需求上升",
-        "watch": "阿里云AI服务营收变化及国产芯片替代订单"
+        "what": "中国AI模型获美国公司青睐，OpenAI成本飙升",
+        "assets": "📈 中国AI概念股 利好；📈 算力基础设施（芯片/服务器） 利好",
+        "chain": "中国AI性价比优势→全球AI供应链多元化→美国AI巨头（OpenAI）市场份额受侵蚀",
+        "watch": "中国AI公司海外客户签约量及API定价变化"
       }
     },
     {
       "rank": 6,
+      "title": "6月外储规模环比微降，央行黄金储备“二十连增”",
+      "source": "界面新闻",
+      "detail": "记者 辛圆 国家外汇管理局周二发布统计数据显示，截至2026年6月末，我国外汇储备规模为34163亿美元，较5月末下降260亿美元，降幅为0.75%。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "6月外储微降，央行黄金储备连续20个月增加",
+        "assets": "📈 黄金 利好；📉 人民币 承压",
+        "chain": "外储下降→资本外流压力→央行增持黄金去美元化（减少美元依赖）→人民币汇率波动加大",
+        "watch": "7月外汇占款变动及央行黄金购买节奏"
+      }
+    },
+    {
+      "rank": 7,
       "title": "日本日经指数收挫2.1% 三星电子股价暴跌引发半导体类股抛售",
       "source": "环球市场播报",
       "detail": " 日本股市日经指数周二收跌2%，此前韩国三星电子股价重挫导致韩国综合股价指数（KOSPI）暴跌，受此影响，日本半导体相关权重股纷纷走低。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经指数跌2.1%，三星暴跌引发半导体类股抛售",
-        "assets": "📉 日经225 承压; 📉 全球半导体指数 承压",
-        "chain": "韩国芯片股暴跌→亚洲科技股联动抛售→风险偏好下降（避险）",
-        "watch": "日本半导体设备出口数据及费城半导体指数走势"
+        "what": "日经指数收跌2.1%，三星暴跌引发半导体抛售",
+        "assets": "📉 日经225指数 利空；📉 日本半导体设备商（东京电子） 承压",
+        "chain": "韩国芯片股拖累→全球半导体风险偏好下降→日本芯片供应链（光刻胶/设备）联动下跌",
+        "watch": "日本7月半导体设备出货额同比增速"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "欧洲央行管委帕内塔警告欧元区经济前景脆弱 呼吁货币政策灵活应对全球重构",
       "source": "环球市场播报",
       "detail": "欧洲中央银行管理委员会成员、意大利央行行长法比奥·帕内塔（Fabio Panetta）7日在罗马出席一场关于货币政策传导挑战的学术会议时表示，当前欧元区经济前景依然脆弱。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "欧洲央行管委警告经济前景脆弱，呼吁灵活应对",
-        "assets": "📉 欧元 承压; 📉 欧股 承压",
-        "chain": "经济疲软→欧央行可能降息（借钱成本降低）→欧元走弱，出口受益",
-        "watch": "欧元区PMI（采购经理人指数）及德国工业产出数据"
+        "what": "欧央行管委帕内塔警告经济前景脆弱，呼吁灵活政策",
+        "assets": "📉 欧元 承压；📈 欧债 利好",
+        "chain": "经济疲弱→欧央行可能推迟加息（收紧货币政策）→欧元走弱→欧洲出口竞争力改善",
+        "watch": "欧元区7月PMI终值及GDP数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "韩国股指大跌 SK海力士ADR IPO或决定后续走势",
       "source": "环球市场播报",
       "detail": "韩国综合股价指数（KOSPI）跌幅进一步扩大，暴跌逼近7000点关口。市场分析认为，尽管三星电子二季度业绩超出市场预期，但外资集中获利了结...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "韩国股指大跌，SK海力士ADR IPO或定方向",
-        "assets": "📉 韩国KOSPI 承压; 📈 SK海力士ADR 关注",
-        "chain": "IPO（新股上市）定价→反映市场对AI芯片估值信心→影响板块情绪",
-        "watch": "SK海力士ADR上市首日涨跌幅及认购倍数"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "连续20个月！中国央行，继续增持黄金",
-      "source": "滚动播报",
-      "detail": "来源：中国基金报 【导读】我国央行连续20个月增持黄金 中国基金报记者 忆山 7月7日，央行数据显示，截至6月末，我国黄金储备为7544万盎司，环比增加48万盎司...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "中国央行连续20个月增持黄金",
-        "assets": "📈 黄金 利好; 📈 人民币 利好",
-        "chain": "央行购金（去美元化）→黄金需求支撑→储备多元化信号",
-        "watch": "中国央行月度黄金储备数据及美元指数走势"
+        "what": "韩国股指大跌，SK海力士ADR上市决定后续走势",
+        "assets": "📉 韩国KOSPI 利空；📈 SK海力士ADR 波动",
+        "chain": "SK海力士ADR定价过高→韩国本土资金分流（资金流出）→韩股流动性收紧",
+        "watch": "SK海力士ADR发行价及首日换手率"
       }
     },
     {
       "rank": 10,
-      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
-      "source": "CNBC",
-      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
+      "title": "Samsung profits jump 1,800% as AI chip sales soar - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 27,
+      "score": 30,
       "insight": {
-        "what": "油价因伊朗袭击霍尔木兹海峡商船报道上涨",
-        "assets": "📈 原油 利好; 📈 能源股 利好; 📉 航运股 承压",
-        "chain": "地缘风险（供应链中断）→油价飙升→通胀预期上升（物价涨）",
-        "watch": "霍尔木兹海峡通行量及伊朗官方回应声明"
+        "what": "三星利润暴增1800%，AI芯片销售飙升",
+        "assets": "📈 三星电子 利好；📈 AI芯片（HBM/GPU） 利好",
+        "chain": "AI需求爆发→高带宽存储器（HBM）供不应求→三星资本开支扩张→上游设备商受益",
+        "watch": "三星HBM3E产能爬坡进度及客户（英伟达）订单量"
       }
     }
   ]
