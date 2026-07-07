@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 12:20",
+  "updateTime": "2026-07-07 12:26",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 50,
       "insight": {
         "what": "前OpenAI研究员的对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK Hynix 利好",
-        "chain": "AI芯片需求旺盛，SK海力士作为HBM（高带宽内存）龙头，上市将吸引资金涌入半导体",
-        "watch": "SK Hynix IPO定价及首日表现"
+        "assets": "📈 SK海力士 利好; 📈 美股半导体 利好",
+        "chain": "AI算力需求验证，HBM（高带宽内存）龙头溢价；二阶效应带动美光、三星估值重估",
+        "watch": "SK Hynix IPO定价及首日涨幅"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "市场双泡沫破裂或引发下一轮崩盘",
-        "assets": "📉 美股整体 承压",
-        "chain": "科技股和AI概念股估值过高，泡沫破裂将触发去杠杆（抛售资产还债），拖累指数",
-        "watch": "VIX（恐慌指数）是否突破25"
+        "what": "市场分析警告股市'双泡沫'破裂或引发崩盘",
+        "assets": "📉 美股大盘 承压; 📉 科技股 利空",
+        "chain": "泡沫破裂触发去杠杆（减少借贷投资），资金涌入国债避险，VIX（恐慌指数）飙升",
+        "watch": "标普500是否跌破50日均线；VIX是否突破30"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI机会是选股而非区域交易",
-        "assets": "📈 中国AI个股 利好 📉 中国科技ETF 承压",
-        "chain": "资金将从被动跟踪ETF转向精选个股，分化加剧，龙头股如百度、商汤受益",
-        "watch": "中国AI公司财报及分红政策"
+        "what": "贝莱德称中国AI投资是个股机会而非板块性行情",
+        "assets": "📈 中国AI龙头个股 利好; 📉 中国AI板块 中性",
+        "chain": "资金从普涨转向精选个股，利好有业绩的标的（如百度、商汤），利空无基本面支撑的概念股",
+        "watch": "中国AI个股财报及研发支出数据"
       }
     },
     {
@@ -51,94 +51,94 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货下跌，AI交易主导市场情绪",
-        "assets": "📉 美股科技股 承压",
-        "chain": "AI板块估值过高引发获利回吐（卖出锁定利润），拖累大盘，资金可能转向防御板块",
-        "watch": "英伟达股价是否跌破100日线"
+        "what": "美股期货下跌，AI交易受关注",
+        "assets": "📉 美股科技股 承压; 📉 纳斯达克100 利空",
+        "chain": "AI龙头估值过高引发获利回吐（卖出盈利头寸），资金轮动至防御板块（公用事业、医疗）",
+        "watch": "英伟达股价及AI相关ETF资金流向"
       }
     },
     {
       "rank": 5,
-      "title": "日本名义薪资增幅再次突破3% 料强化日本央行加息立场",
-      "source": "环球市场播报",
-      "detail": "日本5月份薪资再次上涨，涨幅远超通胀，料进一步强化日本央行加息立场。 厚生劳动省周二公布的数据显示，5月份名义薪资同比增长3.2%，4月增幅经修正后为3.6%。",
-      "lang": "zh",
-      "score": 36,
-      "insight": {
-        "what": "日本名义薪资增幅超3%，强化加息预期",
-        "assets": "📈 日元 利好 📉 日债 承压",
-        "chain": "薪资增长推动通胀（物价上涨），日本央行加息概率上升，日元套利交易（借低息日元买高息资产）可能平仓",
-        "watch": "日本央行7月会议加息概率"
-      }
-    },
-    {
-      "rank": 6,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴禁止员工使用Anthropic AI，指控蒸馏攻击",
-        "assets": "📈 中国AI企业 利好 📉 美国AI公司 承压",
-        "chain": "中美AI竞争加剧，国内企业加速自研，海外AI模型在中国市场受限",
-        "watch": "Anthropic是否采取法律反制"
+        "what": "阿里巴巴禁止员工使用Anthropic AI，指控其'蒸馏攻击'",
+        "assets": "📈 阿里自研AI 利好; 📉 Anthropic 利空",
+        "chain": "中国AI自主可控加速，阿里云（AI云服务）受益；海外AI公司在华业务受限",
+        "watch": "阿里云新增AI客户数及Anthropic诉讼进展"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "长江有色：美联储政策进入关键观察窗口资金观望浓厚 7日镍价或震荡回调",
       "source": "市场资讯",
       "detail": "长江有色金属网 镍期货市场：美股创阶段新高及国内稳增长政策加码，隔夜伦镍收涨0.86%；伦镍最新收盘报16500美元/吨，上涨140美元，涨幅为0.86%，成交量6380手，国内市场...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美联储政策观察窗口期，镍价震荡回调",
-        "assets": "📉 沪镍 承压",
-        "chain": "美元指数走强，有色金属承压，镍库存高企，资金观望等待利率信号",
-        "watch": "美国6月非农就业数据"
+        "what": "美联储政策观察期，镍价或震荡回调",
+        "assets": "📉 沪镍 承压; 📈 美元指数 利好",
+        "chain": "政策不确定性压制风险偏好，金属需求预期走弱；美元走强（美元升值）打压以美元计价商品",
+        "watch": "美联储7月利率决议及镍库存数据"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Samsung profits jump 1,800% as AI boom drives chip sales - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星利润暴增1800%，AI芯片推动销售",
-        "assets": "📈 三星电子 利好 📈 存储芯片 利好",
-        "chain": "AI服务器对HBM和DRAM（动态随机存取内存）需求激增，带动三星业绩飙升",
-        "watch": "三星HBM3E量产进展"
+        "what": "三星利润飙升1800%，AI芯片需求驱动",
+        "assets": "📈 三星电子 利好; 📈 全球芯片 利好",
+        "chain": "HBM和存储芯片（高带宽内存）供不应求，验证AI硬件景气；二阶效应利好设备商（ASML）",
+        "watch": "三星HBM3E出货量及客户（英伟达）订单"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星创纪录二季度利润但股价下跌",
-        "assets": "📉 三星电子 承压",
-        "chain": "利好已提前price in（反映在股价中），市场担忧存储芯片周期见顶，获利了结",
-        "watch": "三星三季度营收指引是否超预期"
+        "what": "三星Q2利润创纪录但股价下跌",
+        "assets": "📉 三星电子 利空; 📉 韩国KOSPI 承压",
+        "chain": "'利好出尽'交易（预期已反映在价格），资金转向获利了结；关注后续库存周期",
+        "watch": "三星管理层对下半年指引及DRAM（动态随机存取存储器）价格走势"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "AI投资加码之际腾讯套现快手股份近120亿港元 快手股价下挫10%",
+      "source": "环球市场播报",
+      "detail": "中国短视频平台快手最新宣布股东腾讯控股出售逾2.7亿股公司B类股份，持股比例降低10%以内，对应套现约118亿港元。花旗分析师指出...",
+      "lang": "zh",
+      "score": 27,
+      "insight": {
+        "what": "腾讯套现快手120亿港元，快手股价暴跌10%",
+        "assets": "📉 快手 利空; 📉 港股科技 承压",
+        "chain": "大股东减持引发流动性担忧，快手估值承压；二阶效应拖累同板块（哔哩哔哩、美团）",
+        "watch": "快手后续是否回购；腾讯是否继续减持其他持仓"
       }
     },
     {
       "rank": 10,
-      "title": "超4700股飘绿！半导体硅片走强 五倍大牛股连续2日跌停",
-      "source": "每日经济新闻",
-      "detail": "记者|杜恒峰 编辑|梁露月杜波校对|段炼 7月7日早盘，A股四大指数涨跌不一。截至中午休市，上证指数跌1.04%，深证成指跌1.02%，创业板指跌0.78%，科创综指涨0.23%。",
-      "lang": "zh",
-      "score": 30,
+      "title": "Trump Accounts boost? Here's how much money will flow into stock market from the new program",
+      "source": "CNBC",
+      "detail": "Wells Fargo equity analyst Ohsung Kwon said nearly $20 billion should come in from the accounts.",
+      "lang": "en",
+      "score": 27,
       "insight": {
-        "what": "超4700股下跌，半导体硅片走强",
-        "assets": "📈 半导体硅片 利好 📉 A股整体 承压",
-        "chain": "市场避险情绪浓厚，资金涌入半导体材料防御，但小盘股流动性枯竭，分化严重",
-        "watch": "沪深300能否守住3500点支撑"
+        "what": "特朗普新计划或推动资金流入股市",
+        "assets": "📈 美股大盘 利好; 📈 小盘股 利好",
+        "chain": "税改和放松监管预期提振风险偏好，资金从债券转向股票；利好金融、能源板块",
+        "watch": "特朗普竞选民调及政策细节公布时间"
       }
     }
   ]
