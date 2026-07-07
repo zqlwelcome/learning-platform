@@ -1,64 +1,36 @@
 {
-  "updateTime": "2026-07-08 00:51",
+  "updateTime": "2026-07-08 01:00",
   "news": [
     {
       "rank": 1,
-      "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
-      "source": "AP News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "Trump敲响纽交所开盘钟，将总统业绩与股市挂钩",
-        "assets": "📈 美股大盘 短期利好",
-        "chain": "市场解读为政策托底信号，但若美股回调可能引发政治干预风险",
-        "watch": "标普500指数是否突破前高"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "Nasdaq futures fall after record Samsung profit fails to calm AI chip worries - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 45,
-      "insight": {
-        "what": "纳指期货下跌，三星创纪录利润未能缓解AI芯片担忧",
-        "assets": "📉 纳指期货 承压\n📉 英伟达 利空",
-        "chain": "AI芯片需求预期降温（市场对AI资本开支信心减弱），资金从科技股流向防御板块",
-        "watch": "英伟达财报及AI芯片订单数据"
-      }
-    },
-    {
-      "rank": 3,
       "title": "Dow turns red as chip stocks tumble, oil prices gain: Live updates",
       "source": "CNBC",
       "detail": "The Dow Jones Industrial Average hit a fresh all-time intraday high on Tuesday.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "道指转跌，芯片股暴跌而油价上涨",
-        "assets": "📉 道指 承压\n📉 芯片股 利空\n📈 原油 利好",
-        "chain": "科技股抛售（资金流出高估值板块）叠加油价走强（供给端紧张预期），引发通胀担忧",
-        "watch": "WTI原油价格及芯片板块ETF资金流"
+        "what": "芯片股暴跌拖累道指转跌，油价上涨",
+        "assets": "📉 美股半导体板块 利空；📈 原油期货 利好",
+        "chain": "油价上涨推高通胀预期（物价持续涨），削弱降息预期（借钱成本降低），利空成长股估值",
+        "watch": "今晚美国EIA原油库存数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 2,
       "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型被美国企业采用，因OpenAI成本飙升",
-        "assets": "📈 中国AI概念股 利好\n📉 OpenAI概念股 利空",
-        "chain": "中国AI性价比优势凸显（成本低），可能加速全球AI产业链去美国化",
-        "watch": "中国AI企业海外订单及毛利率变化"
+        "what": "中国AI模型因OpenAI等成本飙升获美企青睐",
+        "assets": "📈 中国AI概念股（如百度） 利好；📉 美股AI龙头（OpenAI关联股） 承压",
+        "chain": "美企转向中国AI替代品，加速AI算力需求分散化（不集中依赖英伟达），利空美股AI硬件",
+        "watch": "中国AI企业海外客户签约数量"
       }
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "Alarum Technologies遭FBI调查，股价暴跌逾五成",
       "source": "环球市场播报",
       "detail": "多家律师事务所近日宣布对以色列科技公司Alarum Technologies发起证券欺诈调查，指控该公司可能违反联邦证券法，向投资者发布了具有重大误导性的商业信息。",
@@ -66,79 +38,107 @@
       "score": 32,
       "insight": {
         "what": "Alarum Technologies遭FBI调查，股价暴跌超50%",
-        "assets": "📉 Alarum Technologies 利空\n📉 网络安全板块 承压",
-        "chain": "监管风险（合规成本上升）引发小盘科技股恐慌，资金逃离低市值科技公司",
-        "watch": "FBI调查进展及同类公司是否被波及"
+        "assets": "📉 Alarum Technologies 利空；📉 网络安全板块 情绪承压",
+        "chain": "监管调查引发合规风险溢价（公司可能被罚），资金从网络安全股撤出避险，短期冲击板块流动性",
+        "watch": "FBI调查后续公告及是否涉及其他公司"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "Louis Vuitton court victory against Chinese tea chain stirs up a debate over copyrights - ABC News - Breaking News, Latest News and Videos",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "LV起诉中国茶饮品牌胜诉，引发版权争议",
-        "assets": "📈 LV 利好\n📉 中国茶饮品牌 利空",
-        "chain": "国际品牌维权成功（知识产权保护强化），可能抑制中国本土品牌抄袭行为",
-        "watch": "中国茶饮品牌股价及商标注册动态"
+        "what": "LV起诉中国茶饮品牌侵权胜诉，引发版权讨论",
+        "assets": "📈 奢侈品牌（LV） 利好；📉 中国茶饮山寨概念股 利空",
+        "chain": "判决强化国际品牌在中国的知识产权保护（维权成本降低），中国茶饮企业需增加原创设计投入（成本上升）",
+        "watch": "中国茶饮商标注册数量变化"
       }
     },
     {
-      "rank": 7,
+      "rank": 5,
       "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "三星业绩引发资金从科技股轮动至冷门板块",
-        "assets": "📉 科技股 承压\n📈 能源、公用事业 利好",
-        "chain": "业绩利好兑现后资金获利了结（减仓高估值科技股），转向低估值周期板块",
-        "watch": "板块轮动ETF（如XLU、XLE）资金流向"
+        "what": "三星业绩引发资金从热门股轮动至冷门板块",
+        "assets": "📉 韩国半导体（三星） 承压；📈 防御型板块（公用事业） 利好",
+        "chain": "业绩差触发机构降低风险偏好（不敢追高），资金转向低估值价值股（银行、能源），形成板块轮动",
+        "watch": "三星下周DRAM（内存芯片）合约价报价"
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "Cramer says 'everything still revolves around Nvidia' despite its lagging stock",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said that Nvidia remains at the center of the artificial intelligence boom.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Cramer称一切仍围绕英伟达，尽管其股价滞后",
-        "assets": "📈 英伟达 中性偏多",
-        "chain": "市场情绪锚定英伟达（AI龙头地位），其走势决定科技股方向",
-        "watch": "英伟达股价是否突破关键均线"
+        "what": "Cramer称‘一切仍围绕英伟达’，尽管股价滞后",
+        "assets": "📈 英伟达 情绪支撑；📉 非AI科技股 承压",
+        "chain": "市场焦点过度集中英伟达，若其财报不及预期将引发系统性抛售（所有AI股联动下跌）",
+        "watch": "英伟达期权隐含波动率（市场预期波动）变化"
       }
     },
     {
-      "rank": 9,
-      "title": "Stock Market Today: Nasdaq Slides After Samsung Sparks Tech Selloff — Live Updates - WSJ",
-      "source": "WSJ",
+      "rank": 7,
+      "title": "Stock market today: Nasdaq leads Dow, S&P 500 lower after Samsung, DeepSeek spark chip sell-off - Yahoo Finance",
+      "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳指大跌，三星引发科技股抛售潮",
-        "assets": "📉 纳指 利空\n📉 半导体板块 利空",
-        "chain": "科技股抛售（恐慌性减仓）蔓延至大盘，资金避险涌入美债",
-        "watch": "纳斯达克100指数是否跌破支撑位"
+        "what": "三星和DeepSeek引发芯片抛售，纳指领跌",
+        "assets": "📉 纳斯达克综合指数 利空；📉 全球半导体ETF（如SMH） 承压",
+        "chain": "芯片需求疲软信号（三星业绩+DeepSeek竞争）压制科技股风险偏好，资金流向国债避险（债券价格涨）",
+        "watch": "费城半导体指数（SOX）能否守住200日均线"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
+      "title": "President Rings Stock Market Opening Bell to Celebrate Trump Accounts - The New York Times",
+      "source": "The New York Times",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "总统为庆祝账户敲响开盘钟",
+        "assets": "📈 社交媒体平台（特朗普媒体概念） 利好；📉 传统媒体（如纽约时报） 承压",
+        "chain": "政治人物高调参与提振相关公司曝光度，但政策不确定性增加（监管风险），资金短期博弈",
+        "watch": "特朗普媒体公司股价及用户增长数据"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Rivian stock falls more than 10% as company sells 75 million shares to raise capital",
       "source": "CNBC",
       "detail": "The capital raise occurred during extended hours trading following Rivian shares increasing 8.1% on Monday after increasing 19.2% last week.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Rivian发行7500万股融资，股价跌超10%",
-        "assets": "📉 Rivian 利空\n📉 电动车板块 承压",
-        "chain": "股权稀释（每股收益下降）引发抛售，市场担忧电动车行业融资压力加剧",
-        "watch": "Rivian后续融资计划及同行是否跟进"
+        "what": "Rivian增发7500万股筹资，股价跌超10%",
+        "assets": "📉 Rivian 利空；📉 电动汽车板块（如特斯拉） 情绪承压",
+        "chain": "增发稀释现有股东权益（每股价值降低），市场担忧现金流紧张（烧钱快），拖累同类高负债成长股",
+        "watch": "Rivian下一季度交付量指引"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "法律人工智能初创公司Norm Ai获1.2亿美元融资，估值12亿美元",
+      "source": "环球市场播报",
+      "detail": " Norm Ai周二表示，已在由Khosla Ventures领投的C轮融资中筹集了1.2亿美元，这家法律人工智能初创企业的估值达到12亿美元。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "法律AI初创Norm Ai获1.2亿美元融资，估值12亿",
+        "assets": "📈 法律科技板块 利好；📈 AI应用软件（如C3.ai） 情绪提振",
+        "chain": "融资潮验证AI在垂直行业落地（法律文档自动化），利好AI软件服务商，但估值泡沫风险上升",
+        "watch": "Norm Ai客户留存率及合同金额"
       }
     }
   ]
