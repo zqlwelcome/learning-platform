@@ -1,144 +1,144 @@
 {
-  "updateTime": "2026-07-07 10:20",
+  "updateTime": "2026-07-07 10:26",
   "news": [
     {
       "rank": 1,
-      "title": "Stock Market News, July 6, 2026: Dow Rises to Record, Nasdaq Starts Busy Tech Week With Gains - WSJ",
-      "source": "WSJ",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 52,
-      "insight": {
-        "what": "道指创新高，纳指科技股领涨",
-        "assets": "📈 美股道指 利好；📈 美股科技股 利好",
-        "chain": "科技股领涨强化风险偏好（投资者愿意承担更多风险），资金从防御板块（如公用事业）流向成长股",
-        "watch": "本周科技巨头财报及美联储利率决议"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "Hedge fund run by ex-OpenAI researcher bets on SK Hynix’s US IPO - Financial Times",
-      "source": "Financial Times",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "前OpenAI研究员的对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士（美股） 潜在利好；📈 AI芯片板块 利好",
-        "chain": "AI算力需求预期升温，资金可能提前布局相关供应链（如存储芯片、封装设备），带动半导体ETF流入",
-        "watch": "SK海力士IPO定价及认购倍数"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "If the stock market’s double bubble bursts, it could usher in the next crash - MarketWatch",
-      "source": "MarketWatch",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 47,
-      "insight": {
-        "what": "市场警告双重泡沫（股票和债券）可能引发崩盘",
-        "assets": "📉 美股大盘 承压；📉 美债 承压",
-        "chain": "若泡沫破裂，避险资产（如黄金、美元）短期飙升，但随后流动性危机（市场资金紧张）会拖累所有风险资产",
-        "watch": "美联储是否释放缩表或加息信号"
-      }
-    },
-    {
-      "rank": 4,
       "title": "国际金价带崩贵金属？招金黄金触及跌停，摩根大通预计黄金将达到4500美元",
       "source": "市场资讯",
       "detail": "文章来源：财闻 消息面上，当日，现货白银日内跌幅扩大至1%，报61.37美元/盎司。现货黄金回落至4150美元/盎司下方，日内跌0.34%。",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "国际金价大跌，招金黄金跌停，但摩根大通看多至4500美元",
-        "assets": "📉 黄金 承压；📉 招金黄金 利空；📈 黄金中长期 利好",
-        "chain": "短期获利盘回吐（卖盘压力），但通胀预期和央行购金（储备多元化）支撑长线逻辑，关注美元指数（美元强弱）",
-        "watch": "COMEX黄金期货持仓及美元指数走势"
+        "what": "国际金价回调，招金矿业跌停",
+        "assets": "📉 黄金 承压",
+        "chain": "金价回调引发贵金属板块抛售，避险情绪降温可能拖累风险资产",
+        "watch": "美联储会议纪要及4500美元目标是否重申"
       }
     },
     {
-      "rank": 5,
+      "rank": 2,
       "title": "日本名义薪资增幅再次突破3% 料强化日本央行加息立场",
       "source": "环球市场播报",
       "detail": "日本5月份薪资再次上涨，涨幅远超通胀，料进一步强化日本央行加息立场。 厚生劳动省周二公布的数据显示，5月份名义薪资同比增长3.2%，4月增幅经修正后为3.6%。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本名义薪资增幅超3%，强化加息预期",
-        "assets": "📈 日元 利好；📉 日债收益率 上行；📉 日经指数 承压",
-        "chain": "薪资增长推升通胀预期，日央行加息概率增加，利差收窄（日本与其他国家利率差缩小）导致套利交易（借低息日元买高息资产）平仓",
-        "watch": "7月日本央行利率决议及通胀数据"
+        "what": "日本薪资增速超3%，加息预期升温",
+        "assets": "📈 日元 利好\n📉 日债收益率 上行",
+        "chain": "薪资-通胀螺旋强化（工资涨→物价涨），日本央行或提前结束负利率（借贷成本趋近零）",
+        "watch": "日本央行7月议息会议及通胀数据"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
+      "source": "CNBC",
+      "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "阿里巴巴禁止员工使用Anthropic AI",
+        "assets": "📉 AI概念股 承压",
+        "chain": "中美科技脱钩加剧，国产AI替代需求上升，但短期冲击供应链",
+        "watch": "其他中概股是否跟进禁令及Anthropic回应"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
+      "source": "CNBC",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "三星电子Q2利润创新高但股价下跌",
+        "assets": "📈 半导体 中性\n📉 三星电子 承压",
+        "chain": "利好出尽（好业绩已Price in），市场担忧HBM（高带宽内存）竞争加剧",
+        "watch": "三星HBM3e量产进度及英伟达订单确认"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "Trump Accounts boost? Here's how much money will flow into stock market from the new program",
+      "source": "CNBC",
+      "detail": "Wells Fargo equity analyst Ohsung Kwon said nearly $20 billion should come in from the accounts.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "特朗普账户计划或推动美股资金流入",
+        "assets": "📈 美股大盘 利好",
+        "chain": "减税和监管放松预期刺激风险偏好，但需关注政策落地风险",
+        "watch": "特朗普民调支持率及具体政策细节"
       }
     },
     {
       "rank": 6,
-      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里巴巴禁止员工使用Anthropic AI，因指控其蒸馏攻击",
-        "assets": "📉 Anthropic 利空；📈 阿里自研AI 利好",
-        "chain": "中美AI技术脱钩加速，中国科技公司转向国产大模型（如通义千问），利好国内AI算力芯片和云服务商",
-        "watch": "美国对华AI芯片出口管制新规"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "AI chip boom lifts Samsung profits by 1,800% - BBC",
-      "source": "BBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "AI芯片需求爆发，三星电子利润暴增1800%",
-        "assets": "📈 三星电子 利好；📈 全球AI芯片板块 利好",
-        "chain": "存储芯片（HBM高带宽内存）供不应求，产能扩张带动设备商（如ASML）订单，但需警惕库存周期（供需失衡）拐点",
-        "watch": "三星HBM3E芯片客户订单及产能利用率"
-      }
-    },
-    {
-      "rank": 8,
       "title": "沐曦股份Day0适配腾讯美团！国产芯片强势突围，科创人工智能ETF华宝（589520）涨超2.5%，此前2日连续吸金",
       "source": "新浪基金",
       "detail": "今日（7月7日）A股三大指数悉数飘绿，科创板逆市飘红，兼具科创板、人工智能两大核心赛道优势，并且重点布局国产AI产业链的科创人工智能ETF华宝（589520）场内价格盘中涨超...",
       "lang": "zh",
       "score": 27,
       "insight": {
-        "what": "国产GPU公司沐曦适配腾讯美团，科创AI ETF吸金",
-        "assets": "📈 沐曦股份 利好；📈 科创AI ETF 利好；📈 国产芯片板块 利好",
-        "chain": "国产替代（自主可控）逻辑强化，政策扶持和生态适配（软件兼容性）推动订单落地，利好半导体设备和材料",
-        "watch": "沐曦后续客户签约及量产进度"
+        "what": "沐曦股份适配腾讯美团，科创AI ETF涨超2.5%",
+        "assets": "📈 国产芯片 利好\n📈 科创AI ETF 利好",
+        "chain": "国产替代逻辑强化，适配巨头生态（软件硬件协同）提升估值",
+        "watch": "沐曦后续订单及腾讯美团采购量"
       }
     },
     {
-      "rank": 9,
-      "title": "Strategy sheds $216 million in Bitcoin in crypto hoarder’s largest sale ever - Fortune",
-      "source": "Fortune",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 25,
-      "insight": {
-        "what": "Strategy抛售2.16亿美元比特币，创最大单笔卖出",
-        "assets": "📉 比特币 承压；📉 加密货币板块 利空",
-        "chain": "大户减持引发恐慌抛售（散户跟风），但若为调仓（换仓其他资产）则影响有限，需关注交易所比特币库存",
-        "watch": "比特币跌破6万美元关键支撑位"
-      }
-    },
-    {
-      "rank": 10,
+      "rank": 7,
       "title": "快讯：恒指低开0.2% 科指跌0.37% 黄金股普跌 芯片股走弱",
       "source": "新浪港股",
       "detail": " 美股周一表现强劲，科技股表现突出，道指再创历史新高，三大指数全线收升。美元汇价先升后回，美国十年期债息维持在4.47厘水平，金价反复靠稳，油价则于低位徘徊。",
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "港股低开，黄金股和芯片股普跌",
-        "assets": "📉 恒生指数 承压；📉 港股黄金股 利空；📉 港股芯片股 利空",
-        "chain": "隔夜美股科技股回调拖累，叠加黄金价格下跌，资金流出周期板块（如资源股）转向防御性资产（如公用事业）",
-        "watch": "南向资金（内地资金）流向及A股开盘表现"
+        "what": "恒指低开，黄金股普跌芯片股走弱",
+        "assets": "📉 恒生指数 承压\n📉 港股黄金股 承压",
+        "chain": "外部避险情绪和内部资金流出共振，科技板块受中美摩擦压制",
+        "watch": "南向资金流向及美联储会议纪要"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "【贵金属】加息预期扰动 贵金属调整仍在",
+      "source": "市场资讯",
+      "detail": "文章来源：国元期货研究 策略观点 美国经济数据强劲推动加息预期不断升温，对黄金带来短期压力，黄金调整正在进行。短期快速调整后，贵金属将止跌企稳，等待宏观指引。",
+      "lang": "zh",
+      "score": 18,
+      "insight": {
+        "what": "加息预期扰动，贵金属调整延续",
+        "assets": "📉 贵金属 承压",
+        "chain": "实际利率（名义利率减通胀）上升压制黄金，美元走强加剧抛压",
+        "watch": "美国CPI（消费者物价指数）及PCE（个人消费支出）数据"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "投资者等待美联储会议纪要之际金价下跌",
+      "source": "环球市场播报",
+      "detail": "亚洲早盘金价下跌。Hola Prime的Somesh Kapuria在评论中表示，在连续几个交易日上涨之后，这种黄色金属的价格可能面临风险，他指出，自今年年初以来...",
+      "lang": "zh",
+      "score": 18,
+      "insight": {
+        "what": "投资者等待美联储纪要，金价下跌",
+        "assets": "📉 黄金 承压",
+        "chain": "鹰派预期（加息倾向）提前消化，纪要若偏鸽可能触发空头回补",
+        "watch": "纪要中关于降息时点的措辞变化"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Stock futures are little changed after Dow tops 53,000 for first time: Live updates",
+      "source": "CNBC",
+      "detail": "Monday night's action follows a winning session on Wall Street.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "道指首破53000点，美股期货小幅波动",
+        "assets": "📈 美股大盘 利好",
+        "chain": "指数新高后市场进入观望，板块轮动（从科技到周期）可能加速",
+        "watch": "标普500成分股Q2财报及ISM（供应管理协会）制造业指数"
       }
     }
   ]
