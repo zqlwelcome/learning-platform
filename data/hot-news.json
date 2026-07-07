@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 11:51",
+  "updateTime": "2026-07-07 12:01",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "道指创新高，科技股领涨纳指",
-        "assets": "📈 美股大盘 利好\n📈 科技股 利好",
-        "chain": "风险偏好（Risk-on情绪）提升，资金从避险资产（如国债）流出",
-        "watch": "科技股财报季龙头指引"
+        "what": "道指创新高，纳指科技股周初上涨",
+        "assets": "📈 美股道指 利好; 📈 美股科技股 利好",
+        "chain": "科技股领涨吸引资金流入，但若财报不及预期，可能引发获利了结（平仓获利）",
+        "watch": "本周科技巨头财报及美联储利率决议"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "前OpenAI研究员对冲基金押注SK海力士美股IPO",
-        "assets": "📈 半导体/存储芯片 利好\n📈 SK海力士 利好",
-        "chain": "AI硬件需求预期升温，带动HBM（高带宽内存）产业链估值",
-        "watch": "SK海力士IPO定价及首日表现"
+        "what": "前OpenAI研究员的对冲基金押注SK海力士美国IPO",
+        "assets": "📈 SK海力士 利好; 📈 半导体板块 利好",
+        "chain": "AI算力需求预期升温，可能提振存储芯片供应链（如设备商）估值",
+        "watch": "SK海力士IPO定价及认购情况"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "en",
       "score": 47,
       "insight": {
-        "what": "市场警告双泡沫（股市+债市）若破裂或引发崩盘",
-        "assets": "📉 美股 利空\n📉 美债 利空",
-        "chain": "泡沫破裂→流动性恐慌（Liquidity crunch）→风险资产抛售",
-        "watch": "VIX（恐慌指数）及信用利差（Credit spread）变化"
+        "what": "市场警告双重泡沫破裂或引发下一轮崩盘",
+        "assets": "📉 美股大盘 承压; 📉 科技股 承压",
+        "chain": "过度杠杆（借钱炒股）和估值泡沫（股价过高）若破裂，资金将避险涌入美债/黄金",
+        "watch": "VIX（恐慌指数）是否突破20"
       }
     },
     {
       "rank": 4,
+      "title": "超4700股飘绿！半导体硅片走强 五倍大牛股连续2日跌停｜A股早盘",
+      "source": "每日经济新闻",
+      "detail": "记者|杜恒峰 编辑|梁露月杜波校对|段炼 7月7日早盘，A股四大指数涨跌不一。截至中午休市，上证指数跌1.04%，深证成指跌1.02%，创业板指跌0.78%，科创综指涨0.23%。",
+      "lang": "zh",
+      "score": 45,
+      "insight": {
+        "what": "A股超4700股下跌，半导体硅片逆势走强，五倍牛股连续跌停",
+        "assets": "📉 A股大盘 承压; 📈 半导体硅片 利好; 📉 五倍牛股 利空",
+        "chain": "资金从题材股转向防御性半导体，市场情绪恶化可能引发流动性收缩（成交量萎缩）",
+        "watch": "上证指数能否守住3200点支撑"
+      }
+    },
+    {
+      "rank": 5,
       "title": "BlackRock says the China AI play is stock-specific, not a regional trade",
       "source": "CNBC",
       "detail": "BlackRock Investment Institute laid out its views Monday on the AI bubble debate.",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI投资是个股机会，非板块性行情",
-        "assets": "📈 中国AI龙头股 利好\n📉 中国AI板块ETF 中性",
-        "chain": "资金从板块轮动转向精选个股，分化加剧（Divergence trade）",
-        "watch": "中国AI公司财报及技术突破消息"
+        "what": "贝莱德称中国AI投资是选股而非区域交易",
+        "assets": "📈 中国AI个股 利好; 📉 中概股ETF 承压",
+        "chain": "资金从被动配置转向主动精选，利好有业绩的AI龙头，利空泛科技板块",
+        "watch": "中国AI龙头如百度、商汤的财报"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "日本名义薪资增幅再次突破3% 料强化日本央行加息立场",
       "source": "环球市场播报",
       "detail": "日本5月份薪资再次上涨，涨幅远超通胀，料进一步强化日本央行加息立场。 厚生劳动省周二公布的数据显示，5月份名义薪资同比增长3.2%，4月增幅经修正后为3.6%。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本名义薪资增幅超3%，强化加息预期",
-        "assets": "📈 日元 利好\n📉 日债收益率 上行",
-        "chain": "加息预期（Rate hike expectation）→日元升值（Carry trade unwind）",
-        "watch": "日本央行7月会议及通胀数据"
+        "what": "日本名义薪资增幅再破3%，强化加息预期",
+        "assets": "📈 日元 利好; 📉 日股 承压; 📉 日债 承压",
+        "chain": "加息（提高借钱成本）预期推升日元，但可能压制出口型企业利润",
+        "watch": "日本央行7月会议是否加息25基点"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴禁止员工使用Anthropic AI，称遭蒸馏攻击",
-        "assets": "📉 中国AI概念股 利空\n📉 阿里巴巴 利空",
-        "chain": "中美AI竞争升级（Tech decoupling），本土替代逻辑强化",
-        "watch": "阿里巴巴后续AI自研进展及监管反应"
+        "what": "阿里巴巴禁止员工使用Anthropic AI，指控“蒸馏攻击”",
+        "assets": "📉 Anthropic 利空; 📈 阿里云 利好",
+        "chain": "AI模型竞争加剧，利好自主可控的国产AI平台（如阿里通义千问）",
+        "watch": "阿里巴巴是否推出替代AI工具"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "长江有色：美联储政策进入关键观察窗口资金观望浓厚 7日镍价或震荡回调",
       "source": "市场资讯",
       "detail": "长江有色金属网 镍期货市场：美股创阶段新高及国内稳增长政策加码，隔夜伦镍收涨0.86%；伦镍最新收盘报16500美元/吨，上涨140美元，涨幅为0.86%，成交量6380手，国内市场...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美联储政策关键窗口，资金观望致镍价震荡",
-        "assets": "📉 镍价 承压\n📉 有色金属 中性",
-        "chain": "美元指数（DXY）波动→商品定价（Commodity pricing）不确定性",
-        "watch": "美联储7月利率决议及点阵图"
+        "what": "美联储政策观察期，资金观望，镍价或震荡回调",
+        "assets": "📉 镍价 承压; 📉 工业金属 承压",
+        "chain": "美元走强预期压制大宗商品，镍库存高企（供给过剩）加剧回调压力",
+        "watch": "LME（伦敦金属交易所）镍库存变化"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Samsung profits jump 1,800% as AI boom drives chip sales - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星利润同比暴增1800%，AI需求驱动芯片销售",
-        "assets": "📈 三星电子 利好\n📈 半导体板块 利好",
-        "chain": "AI芯片需求（AI chip demand）验证→产业链上游（如设备商）受益",
-        "watch": "三星HBM产能及客户订单"
+        "what": "三星利润暴增1800%因AI芯片需求",
+        "assets": "📈 三星 利好; 📈 存储芯片 利好",
+        "chain": "AI算力需求带动HBM（高带宽存储器）出货，但股价已提前反映（price in）",
+        "watch": "三星HBM3E芯片能否通过英伟达认证"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星创纪录二季报但股价下跌",
-        "assets": "📉 三星电子 利空\n📉 韩国KOSPI 承压",
-        "chain": "利好出尽（Buy the rumor, sell the news）→获利了结（Profit-taking）",
-        "watch": "后续机构评级及资金流向"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "小红书IPO冲刺遭前高管实名狙击 涉VIE架构信披矛盾、劳工合规缺陷 上市进程或面临合规拷问",
-      "source": "新浪证券",
-      "detail": "2026年6月，小红书正处于赴港IPO的关键窗口期。媒体6月15日报道称，小红书计划于6月底前以保密方式向港交所递交上市申请，估值高达310亿美元。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "小红书IPO遭前高管实名举报，涉VIE及劳工合规",
-        "assets": "📉 小红书IPO进程 利空\n📉 中概股VIE架构 承压",
-        "chain": "监管风险（Regulatory risk）升温→中概股IPO估值折价",
-        "watch": "小红书招股书更新及监管问询"
+        "what": "三星二季度利润创纪录但股价下跌",
+        "assets": "📉 三星 利空; 📈 存储芯片 利好",
+        "chain": "财报利好出尽（预期已消化），投资者转向担忧下半年需求是否持续",
+        "watch": "三星三季度业绩指引及DRAM（内存芯片）价格走势"
       }
     }
   ]
