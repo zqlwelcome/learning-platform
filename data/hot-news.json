@@ -1,32 +1,32 @@
 {
-  "updateTime": "2026-07-07 18:25",
+  "updateTime": "2026-07-07 18:31",
   "news": [
     {
       "rank": 1,
-      "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
-      "source": "AP News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "特朗普将美股上涨归功于自身，并敲响开市钟",
-        "assets": "📈 美股大盘 短期提振",
-        "chain": "政治化市场（政策与股市绑定），若下跌将引发政策干预预期（如减税）",
-        "watch": "特朗普民调变化及美股回调幅度"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Asia stocks fall as AI valuation fears overshadow Samsung’s blockbuster earnings - Investing.com",
       "source": "Investing.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "亚洲股市下跌，AI估值担忧盖过三星强劲财报",
-        "assets": "📉 亚洲科技股 承压，📉 三星电子 利好出尽",
-        "chain": "AI泡沫担忧蔓延（高估值修正），拖累半导体及芯片供应链（如ASML）",
-        "watch": "英伟达财报及AI资本开支指引"
+        "what": "亚洲股市下跌，AI估值忧虑盖过三星利润暴增",
+        "assets": "📉 亚洲科技股 承压",
+        "chain": "AI估值泡沫担忧引发获利了结（卖出盈利资产），资金可能轮动到防御板块",
+        "watch": "美股AI龙头财报及估值变化"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "A股市场波动加大 非AI科技龙头潜力揭秘（附名单）",
+      "source": "证券时报网",
+      "detail": "人民财讯7月7日电，近期A股市场波动加大，商业航天、机器人、创新药等成长细分板块，出现了明显异动，表明AI溢出资金正在寻找新的景气方向。这些非AI科技龙头有哪些呢？",
+      "lang": "zh",
+      "score": 42,
+      "insight": {
+        "what": "A股波动加大，非AI科技龙头受关注",
+        "assets": "📈 A股非AI科技股 利好",
+        "chain": "资金从高估值AI转向估值合理的科技细分，半导体、消费电子受益",
+        "watch": "A股成交量及科技板块资金流向"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "荣科科技因7.85亿违规担保暴跌86%",
-        "assets": "📉 A股小盘股 风险溢价上升，📉 荣科科技 利空",
-        "chain": "信用事件（违约风险）引发中小盘股流动性踩踏，质押盘（抵押股票）爆仓风险",
-        "watch": "公司停牌及监管调查进展"
+        "what": "荣科科技暴跌86%，因7.85亿违规担保",
+        "assets": "📉 A股中小盘股 承压",
+        "chain": "违规担保暴露治理风险，信用利差（风险溢价）走阔，小盘股流动性或受冲击",
+        "watch": "监管对违规担保的处罚及公司债务处置"
       }
     },
     {
@@ -51,94 +51,94 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型因成本优势吸引美国企业",
-        "assets": "📈 中国AI概念股 利好，📉 OpenAI等美国AI公司 承压",
-        "chain": "价格战（成本竞争）加速AI应用普及，但压缩美国AI公司利润率（毛利下降）",
-        "watch": "中国AI公司海外客户签约量"
+        "what": "中国AI模型因OpenAI等成本飙升，被美企采用",
+        "assets": "📈 中国AI概念股 利好",
+        "chain": "成本优势加速中国AI出海，利好算力、应用层，但需警惕技术差距",
+        "watch": "中国AI公司海外订单及技术对比报告"
       }
     },
     {
       "rank": 5,
-      "title": "These 3 AI Stocks Just Got Hit, But I Think They’re Screaming Buys… - InvestorPlace",
-      "source": "InvestorPlace",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "三只AI股遭抛售，分析师认为被低估",
-        "assets": "📉 AI个股 短期承压",
-        "chain": "市场情绪过度悲观（恐慌性卖出），若基本面支撑则出现均值回归（价格反弹）机会",
-        "watch": "这些AI股财报及机构持仓变化"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
-      "source": "CNBC",
-      "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里巴巴禁止员工使用Anthropic AI，因被指蒸馏攻击",
-        "assets": "📉 Anthropic 利空（客户流失），📈 阿里云AI 利好（内部替代）",
-        "chain": "中美AI脱钩（技术封锁）加剧，中国科技公司加速自研AI模型（替代进口）",
-        "watch": "阿里巴巴AI业务收入及中美科技政策"
-      }
-    },
-    {
-      "rank": 7,
       "title": "6月外储规模环比微降，央行黄金储备“二十连增”",
       "source": "界面新闻",
       "detail": "记者 辛圆 国家外汇管理局周二发布统计数据显示，截至2026年6月末，我国外汇储备规模为34163亿美元，较5月末下降260亿美元，降幅为0.75%。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "中国6月外储微降，黄金储备连续20个月增加",
-        "assets": "📈 黄金 利好（央行购金），📉 人民币 短期承压（外储减少）",
-        "chain": "去美元化（减少美债依赖）持续，黄金作为储备资产需求上升（避险买盘）",
-        "watch": "中国央行后续购金量及美债持仓数据"
+        "what": "6月外储微降，央行黄金储备连续20个月增持",
+        "assets": "📈 黄金 利好；📉 人民币 承压",
+        "chain": "外储下降暗示资本外流压力，但增持黄金显示去美元化（减少美元依赖），支撑长期金价",
+        "watch": "7月外储变动及人民币汇率中间价"
       }
     },
     {
-      "rank": 8,
-      "title": "日本日经指数收挫2.1% 三星电子股价暴跌引发半导体类股抛售",
-      "source": "环球市场播报",
-      "detail": " 日本股市日经指数周二收跌2%，此前韩国三星电子股价重挫导致韩国综合股价指数（KOSPI）暴跌，受此影响，日本半导体相关权重股纷纷走低。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "日经指数跌2.1%，因三星暴跌引发半导体抛售",
-        "assets": "📉 日本半导体股 承压，📉 日经指数 利空",
-        "chain": "全球芯片周期（供需波动）担忧，日本设备商（如东京电子）受连带抛售（跟跌）",
-        "watch": "三星后续盈利指引及费城半导体指数"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "title": "Black hair care pioneer George E. Johnson Sr. dies at 99 - ABC News - Breaking News, Latest News and Videos",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "黑人护发先驱George E. Johnson Sr.去世，享年99岁",
-        "assets": "📈 黑人护发品牌 短期关注（情绪性）",
-        "chain": "品牌遗产（创始人效应）可能引发行业并购预期（资产整合）",
-        "watch": "Johnson Products公司公告及股东行动"
+        "what": "黑人护发先驱George E. Johnson Sr.去世",
+        "assets": "无直接影响",
+        "chain": "无金融传导效应，仅关注其公司Johnson Products的后续战略",
+        "watch": "该公司股价及行业竞争格局"
       }
     },
     {
-      "rank": 10,
+      "rank": 7,
       "title": "Samsung posts 1,800% jump in profit, but AI spending concerns spook investors",
       "source": "CNBC",
       "detail": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星利润暴增1800%，但AI支出担忧吓跑投资者",
-        "assets": "📉 三星电子 利好出尽，📉 全球AI芯片股 承压",
-        "chain": "AI资本开支（投入成本）过高引发回报质疑，压制半导体估值（市盈率收缩）",
-        "watch": "三星AI芯片订单及资本开支计划"
+        "what": "三星利润暴增1800%，但AI支出担忧引发抛售",
+        "assets": "📉 全球半导体股 承压",
+        "chain": "盈利好但股价跌，市场担忧AI投资回报（ROI）不足，引发行业获利了结",
+        "watch": "三星及台积电的资本开支指引"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "三星财报引发资金轮动至冷门板块",
+        "assets": "📈 防御性板块（公用事业、消费必需品） 利好",
+        "chain": "资金从科技股转向低估值板块，市场风格切换，价值股（低市盈率股）跑赢成长股",
+        "watch": "罗素2000指数（小盘股）与纳指相对表现"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "President Rings Stock Market Opening Bell to Celebrate Trump Accounts - The New York Times",
+      "source": "The New York Times",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "特朗普账户庆祝，总统敲响开盘钟",
+        "assets": "无直接影响",
+        "chain": "政治象征性事件，短期情绪提振，但无实质政策传导",
+        "watch": "特朗普相关公司（如Digital World）股价"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
+      "source": "CNBC",
+      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "伊朗攻击商船传闻致油价上涨",
+        "assets": "📈 原油 利好；📉 航运股 承压",
+        "chain": "霍尔木兹海峡（全球石油运输要道）风险溢价上升，推高油价，航运保险费用或飙升",
+        "watch": "伊朗官方声明及霍尔木兹海峡通行状况"
       }
     }
   ]
