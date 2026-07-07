@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 14:50",
+  "updateTime": "2026-07-07 14:56",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 52,
       "insight": {
-        "what": "亚洲股市跟随科技股涨势开盘走高",
-        "assets": "📈 亚洲科技股 利好；📈 日经225 利好",
-        "chain": "科技股领涨带动风险偏好（Risk-on），资金从防御性板块流出",
-        "watch": "今晚美股科技股期货走势"
+        "what": "亚洲股市因科技股上涨预期走强",
+        "assets": "📈 亚洲科技股 利好",
+        "chain": "美股科技涨势外溢，资金流入亚洲，推高风险偏好（Risk-on）",
+        "watch": "亚洲盘开盘后科技股实际涨幅"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普敲响纽交所开盘钟，将总统表现与股市挂钩",
-        "assets": "📈 美股大盘 短期利好；📉 政策不确定性 长期承压",
-        "chain": "政治化股市可能引发监管干预风险（Policy Risk），压制机构长线仓位",
-        "watch": "特朗普民调变化及美联储表态"
+        "what": "特朗普将总统任期与股市表现挂钩",
+        "assets": "📈 美股大盘 短期利好",
+        "chain": "政策预期（减税/放松监管）加强，但政治风险（政策不确定性）上升",
+        "watch": "特朗普支持率及政策落地进度"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI是个股机会而非区域主题",
-        "assets": "📉 中国AI板块 分化；📈 中国AI龙头股 利好",
-        "chain": "资金从ETF被动流入转向主动选股（Stock-picking），加剧个股波动",
-        "watch": "中国AI个股财报及技术突破新闻"
+        "what": "贝莱德称中国AI是选股机会而非区域交易",
+        "assets": "📉 中国AI板块 中性偏空",
+        "chain": "资金从普涨转向个股精选，行业ETF（交易所交易基金）可能遭减持",
+        "watch": "中国AI个股财报及资金流向"
       }
     },
     {
@@ -51,56 +51,84 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "美股期货下跌，AI交易焦点引发获利了结",
-        "assets": "📉 纳斯达克100 回调；📉 美股AI概念股 承压",
-        "chain": "AI板块过热触发止盈（Profit-taking），资金可能轮动至防御板块",
-        "watch": "AI龙头股（如英伟达）期权隐含波动率"
+        "what": "美股期货下跌，AI交易焦点转向",
+        "assets": "📉 美股大盘 承压, 📈 AI概念股 分化",
+        "chain": "获利了结（Take Profit）压力，资金从大盘股转向AI细分领域",
+        "watch": "AI龙头股财报及订单数据"
       }
     },
     {
       "rank": 5,
+      "title": "AI需求强劲提振行业预期 美股半导体板块全面反弹",
+      "source": "环球市场播报",
+      "detail": "7月6日，受人工智能（AI）硬科技需求持续强劲及行业多重利好预期驱动，美国股市半导体板块逆转上周低迷走势，迎来全面反弹。存储芯片及定制芯片产业链各核心标的集体走高...",
+      "lang": "zh",
+      "score": 40,
+      "insight": {
+        "what": "AI需求强劲推动美股半导体板块反弹",
+        "assets": "📈 美股半导体 利好",
+        "chain": "AI芯片订单（订单量）激增，带动设备商及材料股跟涨",
+        "watch": "半导体设备出货量及台积电指引"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
       "source": "CNBC",
       "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型成本优势吸引美国企业客户",
-        "assets": "📈 中国AI公司 利好；📉 美国AI服务商 承压",
-        "chain": "中美AI成本差距扩大，加速技术扩散（Tech Diffusion），冲击OpenAI定价权",
-        "watch": "中国AI公司客户签约公告及毛利率变化"
+        "what": "中国AI模型因成本优势获美国企业采用",
+        "assets": "📈 中国AI模型股 利好, 📉 美国AI服务商 承压",
+        "chain": "价格战（价格竞争）加剧，美国公司利润率（利润空间）受挤压",
+        "watch": "中国AI模型订单及OpenAI定价调整"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "央行囤金筑牢金价底部，机构预判黄金下半年或迎复苏",
       "source": "界面新闻",
       "detail": " 消息面上，受美元指数短线反弹走强压制，以美元计价的现货黄金承压走弱，日内价格震荡下行，目前交投于4130美元/盎司附近。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "央行持续购金支撑金价，机构看多下半年",
-        "assets": "📈 黄金 利好；📉 美元 承压",
-        "chain": "央行囤金削弱美元储备地位（De-dollarization），推升通胀预期",
-        "watch": "全球央行黄金储备月度数据及COMEX持仓"
+        "what": "央行购金支撑金价，黄金下半年或复苏",
+        "assets": "📈 黄金 利好",
+        "chain": "央行增持（买入）与降息预期（借钱成本降低）共振，避险需求上升",
+        "watch": "全球央行购金数据及美联储利率决议"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
+      "title": "Samsung profits jump 1,800% as AI chip sales soar - BBC",
+      "source": "BBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "三星利润暴增1800%因AI芯片销售飙升",
+        "assets": "📈 三星 利好, 📈 全球AI芯片 利好",
+        "chain": "AI芯片需求（需求量）外溢，利好存储及代工产业链",
+        "watch": "三星HBM（高带宽存储器）出货量及订单"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Samsung Electronics shares fall as capex, demand concerns cloud record Q2 profit report",
       "source": "CNBC",
       "detail": "Samsung Electronics shares fell even after record preliminary Q2 profit as capex and demand concerns clouded the outlook.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星电子Q2利润创新高但需求担忧致股价下跌",
-        "assets": "📉 三星电子 承压；📉 半导体板块 利空",
-        "chain": "资本支出（Capex）高企+需求疲软引发戴维斯双杀（Earnings+Multiple contraction）",
-        "watch": "三星资本支出指引及存储芯片价格走势"
+        "what": "三星股价下跌，资本支出与需求担忧盖过利润",
+        "assets": "📉 三星 承压, 📉 半导体设备 中性偏空",
+        "chain": "资本支出（投资）过高引发ROI（投资回报率）担忧，需求预期（预期销量）转弱",
+        "watch": "三星Q3资本支出指引及存储价格"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "阿维塔二次递表：单车售价大降上半年销量腰斩 或已错失IPO最佳窗口期",
       "source": "新浪证券",
       "detail": "出品：新浪财经上市公司研究院 作者：昊 6月30日，阿维塔更新招股书后，再次向港交所递交上市申请。就在一个月前，公司于2025年11月首次递交的招股材料...",
@@ -108,37 +136,9 @@
       "score": 30,
       "insight": {
         "what": "阿维塔二次递表，销量腰斩或错失IPO窗口",
-        "assets": "📉 中国新能源车 承压；📉 阿维塔 利空",
-        "chain": "IPO失败风险冲击一级市场估值（Valuation reset），加剧行业融资压力",
-        "watch": "阿维塔上市进展及同行业蔚来/小鹏股价表现"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "撤出美股科技七巨头，华尔街机构量子策略押注中国AI",
-      "source": "界面",
-      "detail": "在AI浪潮席卷全球的当下，中国AI产业正在成为外资配置中国资产的核心突破口。据财联社，当地时间周一，华尔街著名研究机构量子策略（Quantum...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "华尔街机构撤出美股科技七巨头，转向中国AI",
-        "assets": "📈 中国AI股 利好；📉 美股七巨头 承压",
-        "chain": "资金从拥挤交易（Crowded Trade）撤出，触发跨市场轮动（Cross-market Rotation）",
-        "watch": "中国AI板块资金流入数据及美股七巨头资金流向"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "三星业绩引发资金轮动至冷门板块",
-        "assets": "📉 韩国科技股 承压；📈 韩国防御板块 利好",
-        "chain": "业绩不及预期触发板块轮动（Sector Rotation），资金流向公用事业等低波动板块",
-        "watch": "韩国KOSPI指数板块相对强度及外资净买卖"
+        "assets": "📉 阿维塔 利空, 📉 中国新能源车 情绪偏空",
+        "chain": "估值（公司价值）承压，IPO（首次公开募股）市场信心受挫，资金转向龙头",
+        "watch": "阿维塔销量反弹及IPO定价"
       }
     }
   ]
