@@ -1,64 +1,78 @@
 {
-  "updateTime": "2026-07-08 02:10",
+  "updateTime": "2026-07-08 02:16",
   "news": [
     {
       "rank": 1,
+      "title": "Micron, Chip Stocks Fall Despite Samsung Profit Surge - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 52,
+      "insight": {
+        "what": "三星业绩不及AI高预期，引发芯片股抛售",
+        "assets": "📉 半导体板块 承压; 📉 存储芯片股 利空",
+        "chain": "AI基建预期降温→芯片需求增速放缓→拖累科技股估值（PE倍数压缩）",
+        "watch": "三星Q3指引及台积电财报"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Chip stocks sell off after Samsung earnings fall short of high AI bar",
       "source": "CNBC",
       "detail": "Samsung Electronics' results weren't enough to please investors after stock's 145% run up",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "三星业绩不及高预期，芯片股遭抛售",
-        "assets": "📉 三星电子 利空；📉 全球芯片股 承压",
-        "chain": "AI需求预期降温（AI泡沫风险），资金轮动（rotation）至防御板块",
-        "watch": "三星后续财报指引及AI芯片订单数据"
+        "what": "芯片股因三星业绩未达AI高标而下跌",
+        "assets": "📉 半导体板块 承压; 📉 AI概念股 利空",
+        "chain": "AI预期修正→资本开支放缓→上游设备商订单风险",
+        "watch": "英伟达及AMD后续财报"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "Here are Wall Street analysts' top S&P 500 stocks for the second half of 2026",
       "source": "CNBC",
       "detail": "Wall Street just wrapped a strong start for the year. Now, analysts are looking at these stocks to pick up during the second half.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街分析师推荐2026下半年标普500首选股",
-        "assets": "📈 标普500指数 中性偏多",
-        "chain": "机构调仓（rebalancing）信号，关注个股alpha（超额收益）机会",
-        "watch": "推荐名单中行业分布及资金流向"
+        "what": "华尔街分析师列出2026下半年标普500首选股",
+        "assets": "📈 标普500 中性偏多; 📈 分析师推荐个股 利好",
+        "chain": "前瞻指引→机构调仓布局→板块轮动信号（聚焦盈利韧性）",
+        "watch": "推荐个股清单及市场共识"
       }
     },
     {
-      "rank": 3,
-      "title": "Dow turns red as chip stocks tumble, oil prices gain: Live updates",
+      "rank": 4,
+      "title": "Dow falls as chip stocks tumble, oil prices gain: Live updates",
       "source": "CNBC",
       "detail": "The Dow Jones Industrial Average hit a fresh all-time intraday high on Tuesday.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "道指转跌，芯片股暴跌而油价上涨",
-        "assets": "📉 美股芯片股 利空；📈 原油 利好",
-        "chain": "科技股资金流出（flight to safety），能源板块获避险买盘",
-        "watch": "油价能否突破关键阻力位及科技股反弹力度"
+        "what": "道指下跌，芯片股重挫，油价上涨",
+        "assets": "📉 道指 承压; 📈 原油 利好",
+        "chain": "供给担忧+避险情绪→能源股对冲科技下行→跨资产轮动（板块切换）",
+        "watch": "WTI原油库存及美联储表态"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Alarum Technologies遭FBI调查，股价暴跌逾五成",
       "source": "环球市场播报",
       "detail": "多家律师事务所近日宣布对以色列科技公司Alarum Technologies发起证券欺诈调查，指控该公司可能违反联邦证券法，向投资者发布了具有重大误导性的商业信息。",
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "Alarum Technologies遭FBI调查，股价腰斩",
-        "assets": "📉 Alarum Technologies 利空；📉 网络安全板块 承压",
-        "chain": "监管风险（regulatory risk）升温，市场或抛售高估值小盘科技",
-        "watch": "FBI调查进展及公司能否澄清指控"
+        "what": "Alarum遭FBI调查，股价暴跌超50%",
+        "assets": "📉 Alarum 利空; 📉 网络安全板块 承压",
+        "chain": "监管风险暴露→市场恐慌性抛售→小盘科技股流动性枯竭",
+        "watch": "FBI调查进展及公司回应"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
@@ -66,51 +80,37 @@
       "score": 32,
       "insight": {
         "what": "阿里巴巴禁止员工使用Anthropic AI，指控蒸馏攻击",
-        "assets": "📉 阿里巴巴 中性偏空；📉 AI模型开发商 承压",
-        "chain": "中美AI竞争加剧（tech decoupling），数据安全担忧抑制AI合作",
-        "watch": "中美科技政策动态及AI模型授权纠纷"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "三星业绩引发资金从芯片股轮动至冷门板块",
-        "assets": "📉 半导体板块 利空；📈 工业/公用事业 利好",
-        "chain": "价值股（value stocks）获青睐，成长股（growth stocks）估值修正",
-        "watch": "轮动持续性及冷门板块成交量变化"
+        "assets": "📉 人工智能板块 承压; 📉 中概股 利空",
+        "chain": "中美AI竞赛升级→技术封锁风险→国产替代预期升温（寒武纪等）",
+        "watch": "中美科技政策及阿里后续行动"
       }
     },
     {
       "rank": 7,
-      "title": "Cramer says 'everything still revolves around Nvidia' despite its lagging stock",
-      "source": "CNBC",
-      "detail": "CNBC's Jim Cramer said that Nvidia remains at the center of the artificial intelligence boom.",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "Cramer称一切仍围绕英伟达，尽管股价滞后",
-        "assets": "📉 英伟达 中性偏空",
-        "chain": "市场情绪锚定（anchoring）英伟达，其走势决定科技股方向",
-        "watch": "英伟达财报及AI芯片需求数据"
-      }
-    },
-    {
-      "rank": 8,
       "title": "Stock Market Today: Nasdaq Slides After Samsung Sparks Tech Selloff — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克因三星触发科技抛售潮而下跌",
-        "assets": "📉 纳斯达克100 利空；📉 科技股 承压",
-        "chain": "科技板块恐慌情绪蔓延（contagion），资金涌向避险资产",
-        "watch": "科技股ETF资金流出量及VIX（恐慌指数）变化"
+        "what": "纳斯达克因三星引发科技抛售而下跌",
+        "assets": "📉 纳斯达克 承压; 📉 科技成长股 利空",
+        "chain": "高估值科技股遭获利了结→资金转向防御板块（公用事业）→波动率上升",
+        "watch": "VIX指数及科技股资金流向"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "President Rings Stock Market Opening Bell to Celebrate Trump Accounts - The New York Times",
+      "source": "The New York Times",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "特朗普账户庆祝活动，总统敲响开盘钟",
+        "assets": "📈 特朗普概念股 利好; 📈 媒体板块 利好",
+        "chain": "政治事件驱动→散户情绪提振→短期投机资金涌入",
+        "watch": "特朗普媒体股价及政治新闻"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Rivian宣布7500万股增发并预披露Q2营收，股价下跌",
-        "assets": "📉 Rivian 利空；📉 电动汽车板块 承压",
-        "chain": "股权稀释（dilution）风险加剧，市场担忧电动车需求疲软",
-        "watch": "Rivian Q2财报及交付量数据"
+        "what": "Rivian因7500万股发行及Q2营收预披露下跌",
+        "assets": "📉 Rivian 利空; 📉 电动车板块 承压",
+        "chain": "稀释效应→市场担忧现金消耗→行业融资环境恶化",
+        "watch": "Rivian交付量及融资计划"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "美光、三星、SK海力士拖累存储芯片进入熊市",
-        "assets": "📉 美光 利空；📉 三星/海力士 利空；📉 存储板块 利空",
-        "chain": "供需失衡（oversupply）确认，行业周期下行（downcycle）加速",
-        "watch": "存储芯片价格走势及资本开支削减计划"
+        "what": "美光、三星、SK海力士拖累存储股进入熊市",
+        "assets": "📉 存储芯片股 利空; 📉 纳斯达克 承压",
+        "chain": "存储价格下行→库存调整周期延长→半导体设备订单推迟",
+        "watch": "DRAM/NAND现货价格走势"
       }
     }
   ]
