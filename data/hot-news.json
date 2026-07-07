@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 09:16",
+  "updateTime": "2026-07-07 09:36",
   "news": [
     {
       "rank": 1,
@@ -9,38 +9,38 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "前OpenAI研究员的对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士 利好；📈 AI芯片板块 利好",
-        "chain": "AI算力需求推动HBM（高带宽内存）扩产，利好半导体设备及材料股",
-        "watch": "SK海力士美国IPO定价及AI芯片订单数据"
+        "what": "前OpenAI研究员旗下对冲基金押注SK海力士美国IPO",
+        "assets": "📈 SK海力士 利好；📈 美股半导体 利好",
+        "chain": "AI算力需求推动HBM（高带宽内存）龙头赴美上市，拉高板块估值",
+        "watch": "SK海力士IPO定价及首日涨幅"
       }
     },
     {
       "rank": 2,
-      "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
-      "source": "AP News",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 49,
-      "insight": {
-        "what": "特朗普敲响纽交所开盘钟，将总统任期与股市表现挂钩",
-        "assets": "📈 美股大盘 短期利好；📈 金融板块 利好",
-        "chain": "政策预期（减税/放松监管）提振风险偏好（Risk-on），但若股市下跌可能引发政策干预",
-        "watch": "特朗普支持率及美股VIX（恐慌指数）变化"
-      }
-    },
-    {
-      "rank": 3,
       "title": "日本名义薪资增幅再次突破3% 料强化日本央行加息立场",
       "source": "环球市场播报",
       "detail": "日本5月份薪资再次上涨，涨幅远超通胀，料进一步强化日本央行加息立场。 厚生劳动省周二公布的数据显示，5月份名义薪资同比增长3.2%，4月增幅经修正后为3.6%。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "日本名义薪资增幅突破3%，强化加息预期",
-        "assets": "📈 日元 利好；📉 日本国债 承压",
-        "chain": "薪资增长推升通胀，日央行或提前加息（提高借贷成本），利空日股出口企业",
-        "watch": "日本央行7月会议及薪资-通胀螺旋数据"
+        "what": "日本名义薪资增幅再破3%，强化加息预期",
+        "assets": "📈 日元 升值；📉 日债收益率 上行",
+        "chain": "薪资增长推升通胀预期，BOJ（日本央行）加息概率上升，利空日股",
+        "watch": "日本7月CPI及BOJ政策声明"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "美联储加息预期缓解！摩根士丹利：当前市场隐含的紧缩预期“仍然过高”",
+      "source": "界面",
+      "detail": " 7月7日，媒体报道称，摩根士丹利利率策略团队最新指出：尽管6月就业数据疲软已促使利率市场下调对美联储收紧幅度的定价，但当前市场隐含的紧缩预期“仍然过高”。",
+      "lang": "zh",
+      "score": 36,
+      "insight": {
+        "what": "摩根士丹利称市场隐含的加息预期过高",
+        "assets": "📈 美股 利好；📉 美元 承压",
+        "chain": "加息预期缓解→风险偏好回升→资金从防御性资产流入成长股",
+        "watch": "本周FOMC（美联储议息会议）点阵图"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴因“蒸馏攻击”指控禁止员工使用Anthropic AI",
-        "assets": "📉 阿里巴巴 利空；📈 国产AI替代 利好",
-        "chain": "中美AI竞争加剧，企业数据安全成本上升，利好国产大模型（如百度文心）",
-        "watch": "阿里云AI业务营收及中美科技制裁进展"
+        "what": "阿里巴巴因蒸馏攻击指控禁止员工使用Anthropic AI",
+        "assets": "📉 Anthropic 利空；📈 阿里云 中性偏利好",
+        "chain": "中美AI竞争加剧，国内企业转向自研或国产替代（如通义千问）",
+        "watch": "Anthropic回应及阿里云AI产品更新"
       }
     },
     {
@@ -63,26 +63,20 @@
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里巴巴因“蒸馏攻击”指控禁止员工使用Anthropic AI",
-        "assets": "📉 阿里巴巴 利空；📈 国产AI替代 利好",
-        "chain": "中美AI竞争加剧，企业数据安全成本上升，利好国产大模型（如百度文心）",
-        "watch": "阿里云AI业务营收及中美科技制裁进展"
-      }
+      "score": 32
     },
     {
       "rank": 6,
-      "title": "Samsung forecasts 19-fold jump in quarterly profit as AI demand fuels chip crunch - Reuters",
-      "source": "Reuters",
+      "title": "AI chip boom lifts Samsung profits by 1,800% - BBC",
+      "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星预测季度利润飙升19倍，AI需求致芯片短缺",
-        "assets": "📈 三星电子 利好；📈 存储芯片板块 利好",
-        "chain": "HBM（高带宽内存）供不应求，拉动DRAM（动态随机存取存储器）涨价，利好设备商",
-        "watch": "三星Q2财报及HBM出货量指引"
+        "what": "AI芯片需求推动三星利润同比暴增1800%",
+        "assets": "📈 三星电子 利好；📈 全球AI芯片 利好",
+        "chain": "HBM（高带宽内存）和存储芯片量价齐升，但股价已提前反映",
+        "watch": "三星Q2财报电话会及HBM订单指引"
       }
     },
     {
@@ -93,52 +87,52 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星电子Q2利润创纪录但股价下跌",
-        "assets": "📉 三星电子 短期承压；📈 存储芯片板块 分化",
-        "chain": "利好兑现（Buy the rumor, sell the fact），投资者获利了结，需关注后续订单持续性",
-        "watch": "三星Q3营收指引及DRAM/NAND（闪存）价格走势"
+        "what": "三星Q2利润创纪录但股价下跌",
+        "assets": "📉 三星电子 利空；📉 韩国KOSPI 承压",
+        "chain": "利好出尽（buy the rumor, sell the news），市场担忧存储芯片周期见顶",
+        "watch": "DRAM（动态随机存取存储器）现货价格走势"
       }
     },
     {
       "rank": 8,
+      "title": "防范系统性风险与理财越界，英监管机构评估纳管AI金融服务",
+      "source": "环球市场播报",
+      "detail": " 鉴于ChatGPT、Claude和Gemini等大型语言模型对消费者财务决策的影响日益增加，英国金融监管机构被敦促考虑对这些模型进行监管。",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "英国监管评估将AI纳入金融服务以防范风险",
+        "assets": "📉 英国金融科技股 利空；📈 合规科技 利好",
+        "chain": "监管趋严增加AI应用成本，但利好风控及数据安全公司",
+        "watch": "英国FCA（金融行为监管局）具体AI规则草案"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Stock Market Today: Nasdaq Rises at Start of Busy Week for Tech Stocks — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克上涨，科技股进入繁忙一周",
-        "assets": "📈 美股科技股 利好；📈 纳指 短期强势",
-        "chain": "AI财报季（如英伟达）催化资金集中，但轮动风险（Rotation）可能转向价值股",
-        "watch": "科技龙头财报及美债收益率变动"
+        "what": "纳斯达克在科技股繁忙周初上涨",
+        "assets": "📈 美股科技股 利好；📈 纳斯达克指数 利好",
+        "chain": "财报季前资金提前布局AI及半导体，动量交易（追涨杀跌）主导",
+        "watch": "本周微软、谷歌等科技巨头财报"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Trump Accounts boost? Here's how much money will flow into stock market from the new program",
       "source": "CNBC",
       "detail": "Wells Fargo equity analyst Ohsung Kwon said nearly $20 billion should come in from the accounts.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "新项目预计为股市带来资金流入",
-        "assets": "📈 美股大盘 利好；📈 中小盘股 利好",
-        "chain": "流动性增加（资金净流入）推高估值，但需警惕通胀预期回升压制美联储政策",
-        "watch": "资金流入规模及美联储官员讲话"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Jim Cramer says these are the 5 stocks to buy during this market rotation",
-      "source": "CNBC",
-      "detail": "CNBC's Jim Cramer said investors should use the latest market rotation as an opportunity to buy high-quality companies.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "Jim Cramer推荐5只轮动股票",
-        "assets": "📈 推荐个股 利好；📉 科技龙头 短期承压",
-        "chain": "市场轮动（Rotation）从高估值科技股转向周期/价值股，暗示资金避险情绪",
-        "watch": "罗素2000（小盘股指数）相对纳指表现"
+        "what": "特朗普新计划将推动资金流入股市",
+        "assets": "📈 美股大盘 利好；📈 金融板块 利好",
+        "chain": "政策刺激散户资金入场，利好券商和资管公司",
+        "watch": "计划具体条款及落地时间"
       }
     }
   ]
