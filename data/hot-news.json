@@ -1,22 +1,36 @@
 {
-  "updateTime": "2026-07-07 18:21",
+  "updateTime": "2026-07-07 18:25",
   "news": [
     {
       "rank": 1,
-      "title": "韩国股市收盘暴跌近5%受AI疑虑影响 盘中触发熔断机制",
-      "source": "环球市场播报",
-      "detail": " 韩国股市周二大幅下挫，指标指数触发熔断机制，因市场对与人工智能（AI）相关的创纪录盈利能否持续存有疑虑，导致芯片股重挫。",
-      "lang": "zh",
-      "score": 47,
+      "title": "Trump rings Wall Street’s opening bells as he ties his presidency to stock market gains - AP News",
+      "source": "AP News",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 49,
       "insight": {
-        "what": "韩国股市因AI疑虑暴跌近5%，触发熔断",
-        "assets": "📉 韩国KOSPI 承压；📉 AI芯片股 利空",
-        "chain": "AI泡沫担忧（估值过高）引发抛售，传导至亚洲科技股（联动效应）",
-        "watch": "AI公司财报指引及韩国监管动向"
+        "what": "特朗普将美股上涨归功于自身，并敲响开市钟",
+        "assets": "📈 美股大盘 短期提振",
+        "chain": "政治化市场（政策与股市绑定），若下跌将引发政策干预预期（如减税）",
+        "watch": "特朗普民调变化及美股回调幅度"
       }
     },
     {
       "rank": 2,
+      "title": "Asia stocks fall as AI valuation fears overshadow Samsung’s blockbuster earnings - Investing.com",
+      "source": "Investing.com",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 44,
+      "insight": {
+        "what": "亚洲股市下跌，AI估值担忧盖过三星强劲财报",
+        "assets": "📉 亚洲科技股 承压，📉 三星电子 利好出尽",
+        "chain": "AI泡沫担忧蔓延（高估值修正），拖累半导体及芯片供应链（如ASML）",
+        "watch": "英伟达财报及AI资本开支指引"
+      }
+    },
+    {
+      "rank": 3,
       "title": "荣科科技暴跌86%！7.85亿违规担保，4.2万股东“踩雷”",
       "source": "市场资讯",
       "detail": "从四倍“牛股”到股价仅剩零头，荣科科技（现“ST荣科”）因前任控股股东留下的巨额违规担保“暗雷”接连引爆，正经历一场前所未有的信任危机。",
@@ -24,121 +38,107 @@
       "score": 35,
       "insight": {
         "what": "荣科科技因7.85亿违规担保暴跌86%",
-        "assets": "📉 荣科科技 利空；📉 A股小盘股 承压",
-        "chain": "违规担保暴露公司治理风险（信用事件），引发中小盘股流动性踩踏（恐慌性抛售）",
-        "watch": "公司债务重组进展及监管处罚"
+        "assets": "📉 A股小盘股 风险溢价上升，📉 荣科科技 利空",
+        "chain": "信用事件（违约风险）引发中小盘股流动性踩踏，质押盘（抵押股票）爆仓风险",
+        "watch": "公司停牌及监管调查进展"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
       "source": "CNBC",
       "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型因OpenAI/Anthropic成本高企获美国公司青睐",
-        "assets": "📈 中国AI概念股 利好；📉 OpenAI/Anthropic 承压",
-        "chain": "成本优势（运营费用低）驱动替代需求，利好中国AI出口（跨境服务）",
-        "watch": "中国AI公司订单增长及利润率"
+        "what": "中国AI模型因成本优势吸引美国企业",
+        "assets": "📈 中国AI概念股 利好，📉 OpenAI等美国AI公司 承压",
+        "chain": "价格战（成本竞争）加速AI应用普及，但压缩美国AI公司利润率（毛利下降）",
+        "watch": "中国AI公司海外客户签约量"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "These 3 AI Stocks Just Got Hit, But I Think They’re Screaming Buys… - InvestorPlace",
+      "source": "InvestorPlace",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "三只AI股遭抛售，分析师认为被低估",
+        "assets": "📉 AI个股 短期承压",
+        "chain": "市场情绪过度悲观（恐慌性卖出），若基本面支撑则出现均值回归（价格反弹）机会",
+        "watch": "这些AI股财报及机构持仓变化"
+      }
+    },
+    {
+      "rank": 6,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴因“蒸馏攻击”指控禁止员工使用Anthropic AI",
-        "assets": "📉 Anthropic 利空；📈 中国AI模型 利好",
-        "chain": "技术安全（数据泄露风险）引发地缘竞争，加速中美AI脱钩（供应链分化）",
-        "watch": "中美AI监管政策及客户迁移数据"
+        "what": "阿里巴巴禁止员工使用Anthropic AI，因被指蒸馏攻击",
+        "assets": "📉 Anthropic 利空（客户流失），📈 阿里云AI 利好（内部替代）",
+        "chain": "中美AI脱钩（技术封锁）加剧，中国科技公司加速自研AI模型（替代进口）",
+        "watch": "阿里巴巴AI业务收入及中美科技政策"
       }
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "6月外储规模环比微降，央行黄金储备“二十连增”",
       "source": "界面新闻",
       "detail": "记者 辛圆 国家外汇管理局周二发布统计数据显示，截至2026年6月末，我国外汇储备规模为34163亿美元，较5月末下降260亿美元，降幅为0.75%。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "6月外储微降，央行黄金储备连续20个月增加",
-        "assets": "📉 人民币 承压；📈 黄金 利好",
-        "chain": "外储下降（资本外流压力）削弱汇率支撑，黄金增持（避险配置）对冲美元风险",
-        "watch": "7月外储变动及央行黄金购买量"
+        "what": "中国6月外储微降，黄金储备连续20个月增加",
+        "assets": "📈 黄金 利好（央行购金），📉 人民币 短期承压（外储减少）",
+        "chain": "去美元化（减少美债依赖）持续，黄金作为储备资产需求上升（避险买盘）",
+        "watch": "中国央行后续购金量及美债持仓数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "日本日经指数收挫2.1% 三星电子股价暴跌引发半导体类股抛售",
       "source": "环球市场播报",
       "detail": " 日本股市日经指数周二收跌2%，此前韩国三星电子股价重挫导致韩国综合股价指数（KOSPI）暴跌，受此影响，日本半导体相关权重股纷纷走低。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经指数跌2.1%，三星股价暴跌引发半导体抛售",
-        "assets": "📉 日本日经 承压；📉 全球半导体股 利空",
-        "chain": "三星暴跌（权重股拖累）触发亚洲芯片股连锁反应（板块联动），传导至美股科技",
-        "watch": "三星财报及AI支出指引"
+        "what": "日经指数跌2.1%，因三星暴跌引发半导体抛售",
+        "assets": "📉 日本半导体股 承压，📉 日经指数 利空",
+        "chain": "全球芯片周期（供需波动）担忧，日本设备商（如东京电子）受连带抛售（跟跌）",
+        "watch": "三星后续盈利指引及费城半导体指数"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "title": "Black hair care pioneer George E. Johnson Sr. dies at 99 - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "黑人护发先驱George E. Johnson Sr.去世，享年99岁",
+        "assets": "📈 黑人护发品牌 短期关注（情绪性）",
+        "chain": "品牌遗产（创始人效应）可能引发行业并购预期（资产整合）",
+        "watch": "Johnson Products公司公告及股东行动"
+      }
+    },
+    {
+      "rank": 10,
       "title": "Samsung posts 1,800% jump in profit, but AI spending concerns spook investors",
       "source": "CNBC",
       "detail": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星利润暴增1800%，但AI支出担忧引发抛售",
-        "assets": "📈 三星 短期利好；📉 半导体设备商 承压",
-        "chain": "利润增长（业绩兑现）被AI资本支出（CAPEX）担忧抵消，市场转向获利了结（卖出）",
-        "watch": "三星Q3资本支出计划及AI需求数据"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
-      "source": "CNBC",
-      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "伊朗攻击霍尔木兹海峡商船，油价上涨",
-        "assets": "📈 原油 利好；📉 航运股 利空",
-        "chain": "地缘风险（供应中断）推升油价，传导至通胀预期（成本上升），利好能源股",
-        "watch": "霍尔木兹海峡通行量及伊朗回应"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Jim Cramer says these are the 5 stocks to buy during this market rotation",
-      "source": "CNBC",
-      "detail": "CNBC's Jim Cramer said investors should use the latest market rotation as an opportunity to buy high-quality companies.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "Jim Cramer推荐5只股票进行市场轮动买入",
-        "assets": "📈 轮动受益股（如价值/防御） 利好",
-        "chain": "市场轮动（资金从高估值转向低估值）信号，利好金融、能源等板块（板块切换）",
-        "watch": "Cramer推荐个股及资金流向数据"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "AI芯片需求持续火爆，三星预计本季度利润再创新高",
-      "source": "环球市场播报",
-      "detail": "这家存储芯片巨头预测二季度营业利润同比暴涨 19 倍自 2025 年第四季度起，三星已连续多个季度营收、营业利润刷新历史纪录。 内容速览 受 AI 芯片强劲需求拉动...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "三星预计本季度利润再创新高，AI芯片需求火爆",
-        "assets": "📈 三星 利好；📈 AI芯片股 利好",
-        "chain": "AI需求（算力扩张）驱动盈利增长，利好存储芯片（HBM）供应链（上游受益）",
-        "watch": "三星Q2实际利润及AI芯片订单"
+        "what": "三星利润暴增1800%，但AI支出担忧吓跑投资者",
+        "assets": "📉 三星电子 利好出尽，📉 全球AI芯片股 承压",
+        "chain": "AI资本开支（投入成本）过高引发回报质疑，压制半导体估值（市盈率收缩）",
+        "watch": "三星AI芯片订单及资本开支计划"
       }
     }
   ]
