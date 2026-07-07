@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-08 03:36",
+  "updateTime": "2026-07-08 03:46",
   "news": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "insight": {
         "what": "Via Transportation遭集体诉讼，股价暴跌近70%",
         "assets": "📉 Via Transportation 利空",
-        "chain": "诉讼风险压制科技出行板块情绪，资金可能抽离（避险）",
-        "watch": "诉讼进展及Q2财报"
+        "chain": "诉讼风险压制SPAC（特殊目的收购公司）板块情绪，可能引发做空资金流入",
+        "watch": "诉讼进展及公司财报"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "三星业绩不及AI预期，芯片股遭抛售",
-        "assets": "📉 全球芯片股 利空；📈 避险资产（美债）利好",
-        "chain": "AI泡沫担忧升温，资本可能从半导体轮动至防御板块（资金切换）",
-        "watch": "今晚费城半导体指数（SOX）走势"
+        "what": "三星业绩不及AI预期引发芯片股抛售",
+        "assets": "📉 全球半导体 利空",
+        "chain": "AI需求定价过高，资金转向防御性板块（如公用事业），拖累纳斯达克",
+        "watch": "英伟达财报及AI资本开支指引"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 41,
       "insight": {
         "what": "华尔街分析师发布2026下半年标普500首选股",
-        "assets": "📈 标普500 结构性利好",
-        "chain": "机构调仓预期推高相关个股，短期资金可能集中流入（板块轮动）",
-        "watch": "本周机构持仓变化（13F文件）"
+        "assets": "📈 标普500成分股 中性偏多",
+        "chain": "机构调仓预期推高选股流动性，但短期无实质影响",
+        "watch": "实际持仓变化及资金流"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "美股尾盘继续下滑，芯片股普跌",
-        "assets": "📉 美股大盘 承压；📉 芯片股 利空",
-        "chain": "科技股抛售蔓延至整体市场，波动率（恐慌指数VIX）可能上升",
-        "watch": "明日开盘VIX和纳指期货"
+        "what": "美股尾盘芯片股普跌，大盘继续下滑",
+        "assets": "📉 美股科技股 利空",
+        "chain": "科技股领跌引发指数型ETF（交易所交易基金）赎回，波动率（VIX恐慌指数）上升",
+        "watch": "美联储讲话及科技股财报"
       }
     },
     {
@@ -65,9 +65,9 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "Meta加入AI图像模型竞争，瞄准广告商",
-        "assets": "📈 Meta 利好；📉 AI图像竞争对手（如Adobe）承压",
-        "chain": "AI应用商业化加速，广告科技板块可能受益（竞争加剧）",
+        "what": "Meta发布AI图像模型争夺广告客户",
+        "assets": "📈 Meta 利好",
+        "chain": "AI广告技术提升转化率，利空传统广告平台（如谷歌），利好AI芯片需求",
         "watch": "Meta广告收入增速及用户数据"
       }
     },
@@ -79,10 +79,10 @@
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "欧债下跌，加息押注升温；霍尔木兹海峡遇袭推高油价",
-        "assets": "📉 欧洲国债 利空；📈 原油 利好",
-        "chain": "能源成本上升加剧通胀预期，欧洲央行加息概率上升（紧缩压力）",
-        "watch": "WTI原油期货能否站稳80美元"
+        "what": "欧债下跌，加息押注升温，油价因霍尔木兹事件走高",
+        "assets": "📉 欧洲债券 利空 📈 原油 利好",
+        "chain": "加息预期打压债券价格，油价上涨推升通胀预期，利空欧洲股市消费股",
+        "watch": "欧洲央行利率决议及霍尔木兹局势"
       }
     },
     {
@@ -93,28 +93,42 @@
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "美国撤销伊朗石油销售授权，因油轮遭袭",
-        "assets": "📈 原油 利好；📉 伊朗石油出口 利空",
-        "chain": "供给收紧推高油价，航运保险成本上升，能源股可能受益（供给冲击）",
-        "watch": "伊朗官方反应及OPEC+产量调整"
+        "what": "美国撤销伊朗石油销售许可，因油轮遭袭",
+        "assets": "📈 原油 利好 📉 伊朗油轮 利空",
+        "chain": "供应收紧预期推高油价，航运保险费飙升，利好美国页岩油",
+        "watch": "中东冲突升级及OPEC（石油输出国组织）产量"
       }
     },
     {
       "rank": 8,
+      "title": "Steady your portfolio with these resilient low volatility stocks, UBS says",
+      "source": "CNBC",
+      "detail": "Investors may want to turn to low volatility stocks to help protect their portfolios from rocky times, the bank found.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "瑞银推荐低波动股票以稳定投资组合",
+        "assets": "📈 低波动股（如公用事业） 利好",
+        "chain": "防御性配置增加，资金从成长股轮出，利空高beta（高波动）科技股",
+        "watch": "市场波动率及防御板块资金流入"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.",
       "source": "CNBC",
       "detail": "Hesai Technology was blacklisted as a national security threat in 2024 by the U.S. Department of Defense, which designated Hesai as a Chinese military entity.",
       "lang": "en",
       "score": 17,
       "insight": {
-        "what": "中国激光雷达公司被指对美国构成网络风险",
-        "assets": "📉 中国激光雷达概念股（如禾赛）利空；📈 美国国防科技股 利好",
-        "chain": "中美科技脱钩加剧，供应链转移至本土企业（地缘溢价）",
-        "watch": "美国商务部是否列入实体清单"
+        "what": "中国激光雷达公司（有英伟达背景）被指控为美国网络风险",
+        "assets": "📉 中国激光雷达股 利空 📈 美国本土激光雷达 利好",
+        "chain": "地缘风险压制中概科技股，美国国防预算或向本土替代品倾斜",
+        "watch": "美国制裁清单及公司回应"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Stocks making the biggest moves midday: SpaceX, GE Vernova, Crinetics Pharmaceuticals, Rivian & more",
       "source": "CNBC",
       "detail": "Here are some of the companies making headlines in midday trading.",
@@ -122,23 +136,9 @@
       "score": 17,
       "insight": {
         "what": "SpaceX、Rivian等个股盘中异动",
-        "assets": "📈 SpaceX（未上市）情绪利好；📈 Rivian 短期利好",
-        "chain": "资金追逐成长股，但波动大，可能触发量化基金（算法交易）调仓",
-        "watch": "个股成交量及期权隐含波动率"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "美国财政部撤销6月21日对伊朗石油的豁免",
-      "source": "环球市场播报",
-      "detail": " 美国财政部网站声明显示，财政部撤销6月21日第X号通用许可证。该许可证曾授权生产、交付和销售伊朗原产原油、石化产品和石油产品。",
-      "lang": "zh",
-      "score": 15,
-      "insight": {
-        "what": "美国财政部正式撤销6月21日伊朗石油豁免",
-        "assets": "📈 原油 利好；📉 伊朗经济 利空",
-        "chain": "全球原油供给进一步收紧，OPEC+可能面临增产压力（地缘溢价）",
-        "watch": "布伦特原油期货突破85美元关口"
+        "assets": "📈 SpaceX（未上市） 中性 📈 Rivian 利好",
+        "chain": "SpaceX融资传闻提振航天板块，Rivian因交付数据反弹，利空传统车企",
+        "watch": "具体公司公告及交易量变化"
       }
     }
   ]
