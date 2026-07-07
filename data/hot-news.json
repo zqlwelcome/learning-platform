@@ -1,64 +1,50 @@
 {
-  "updateTime": "2026-07-08 02:16",
+  "updateTime": "2026-07-08 02:26",
   "news": [
     {
       "rank": 1,
-      "title": "Micron, Chip Stocks Fall Despite Samsung Profit Surge - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 52,
-      "insight": {
-        "what": "三星业绩不及AI高预期，引发芯片股抛售",
-        "assets": "📉 半导体板块 承压; 📉 存储芯片股 利空",
-        "chain": "AI基建预期降温→芯片需求增速放缓→拖累科技股估值（PE倍数压缩）",
-        "watch": "三星Q3指引及台积电财报"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Chip stocks sell off after Samsung earnings fall short of high AI bar",
       "source": "CNBC",
       "detail": "Samsung Electronics' results weren't enough to please investors after stock's 145% run up",
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "芯片股因三星业绩未达AI高标而下跌",
-        "assets": "📉 半导体板块 承压; 📉 AI概念股 利空",
-        "chain": "AI预期修正→资本开支放缓→上游设备商订单风险",
-        "watch": "英伟达及AMD后续财报"
+        "what": "三星业绩低于AI高预期，芯片股遭抛售",
+        "assets": "📉 芯片股 承压, 📉 三星电子 利空",
+        "chain": "AI硬件需求验证失败，资金可能从芯片转向防御性板块（如公用事业）",
+        "watch": "台积电下周财报及AI芯片订单指引"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "Here are Wall Street analysts' top S&P 500 stocks for the second half of 2026",
       "source": "CNBC",
       "detail": "Wall Street just wrapped a strong start for the year. Now, analysts are looking at these stocks to pick up during the second half.",
       "lang": "en",
       "score": 41,
       "insight": {
-        "what": "华尔街分析师列出2026下半年标普500首选股",
-        "assets": "📈 标普500 中性偏多; 📈 分析师推荐个股 利好",
-        "chain": "前瞻指引→机构调仓布局→板块轮动信号（聚焦盈利韧性）",
-        "watch": "推荐个股清单及市场共识"
+        "what": "华尔街分析师发布2026下半年标普首选股",
+        "assets": "📈 标普500 结构性利好, 📈 金融/科技股 看多",
+        "chain": "机构调仓（重新分配资金）至推荐标的，推高相关板块估值",
+        "watch": "首选股名单中行业集中度及资金流入数据"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Dow falls as chip stocks tumble, oil prices gain: Live updates",
       "source": "CNBC",
       "detail": "The Dow Jones Industrial Average hit a fresh all-time intraday high on Tuesday.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "道指下跌，芯片股重挫，油价上涨",
-        "assets": "📉 道指 承压; 📈 原油 利好",
-        "chain": "供给担忧+避险情绪→能源股对冲科技下行→跨资产轮动（板块切换）",
-        "watch": "WTI原油库存及美联储表态"
+        "what": "芯片股拖累道指下跌，油价上涨",
+        "assets": "📉 道指 承压, 📈 原油 利好",
+        "chain": "芯片抛售（卖股票）压制风险偏好，油价因地缘（霍尔木兹海峡）走高",
+        "watch": "油价是否突破前高及科技股反弹力度"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "Alarum Technologies遭FBI调查，股价暴跌逾五成",
       "source": "环球市场播报",
       "detail": "多家律师事务所近日宣布对以色列科技公司Alarum Technologies发起证券欺诈调查，指控该公司可能违反联邦证券法，向投资者发布了具有重大误导性的商业信息。",
@@ -66,79 +52,93 @@
       "score": 32,
       "insight": {
         "what": "Alarum遭FBI调查，股价暴跌超50%",
-        "assets": "📉 Alarum 利空; 📉 网络安全板块 承压",
-        "chain": "监管风险暴露→市场恐慌性抛售→小盘科技股流动性枯竭",
-        "watch": "FBI调查进展及公司回应"
+        "assets": "📉 Alarum 利空, 📉 网络安全板块 承压",
+        "chain": "监管风险（政府调查）引发恐慌抛售，可能拖累同板块小盘股",
+        "watch": "FBI调查结果及公司是否暂停交易"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "法律人工智能初创公司Norm Ai获1.2亿美元融资，估值12亿美元",
+      "source": "环球市场播报",
+      "detail": " Norm Ai周二表示，已在由Khosla Ventures领投的C轮融资中筹集了1.2亿美元，这家法律人工智能初创企业的估值达到12亿美元。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "法律AI初创Norm Ai融资1.2亿美元，估值12亿",
+        "assets": "📈 AI法律科技 利好, 📈 Norm Ai 看多",
+        "chain": "资本涌入垂直AI（特定行业AI），推高同类未上市企业估值",
+        "watch": "Norm Ai客户签约数及收入增长率"
       }
     },
     {
       "rank": 6,
-      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
+      "title": "民主党议员调查16亿美元稀土投资项目 矛头直指美国商务部长家族投行",
+      "source": "环球市场播报",
+      "detail": "多名民主党籍议员正要求康托・菲茨杰拉德公司（Cantor Fitzgerald）提供相关材料，核查该机构是否凭借与美国商务部长霍华德・卢特尼克的关联...",
+      "lang": "zh",
+      "score": 22,
       "insight": {
-        "what": "阿里巴巴禁止员工使用Anthropic AI，指控蒸馏攻击",
-        "assets": "📉 人工智能板块 承压; 📉 中概股 利空",
-        "chain": "中美AI竞赛升级→技术封锁风险→国产替代预期升温（寒武纪等）",
-        "watch": "中美科技政策及阿里后续行动"
+        "what": "民主党调查16亿美元稀土项目，剑指商务部长家族投行",
+        "assets": "📉 稀土板块 承压, 📉 美国商务部 政策风险",
+        "chain": "政治调查（国会问询）可能延迟稀土项目审批，利空相关供应链",
+        "watch": "调查是否导致项目暂停或资金冻结"
       }
     },
     {
       "rank": 7,
-      "title": "Stock Market Today: Nasdaq Slides After Samsung Sparks Tech Selloff — Live Updates - WSJ",
-      "source": "WSJ",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "Meta enters AI image model race in bid to court advertisers and subscribers",
+      "source": "CNBC",
+      "detail": "Meta has announced Muse Image, its first AI model for image creation, as it seeks to attract creators and advertisers to its offerings.",
       "lang": "en",
-      "score": 27,
+      "score": 20,
       "insight": {
-        "what": "纳斯达克因三星引发科技抛售而下跌",
-        "assets": "📉 纳斯达克 承压; 📉 科技成长股 利空",
-        "chain": "高估值科技股遭获利了结→资金转向防御板块（公用事业）→波动率上升",
-        "watch": "VIX指数及科技股资金流向"
+        "what": "Meta推出AI图像模型，争夺广告商和订阅用户",
+        "assets": "📈 Meta 利好, 📈 AI广告技术 利好",
+        "chain": "AI工具提升广告精准度（点击转化率），增强Meta营收预期",
+        "watch": "新模型上线后广告主采纳率及用户订阅数据"
       }
     },
     {
       "rank": 8,
-      "title": "President Rings Stock Market Opening Bell to Celebrate Trump Accounts - The New York Times",
-      "source": "The New York Times",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
+      "title": "欧洲债市：欧债下跌 加息押注升温 霍尔木兹海峡船只遇袭推高油价",
+      "source": "环球市场播报",
+      "detail": "欧洲债市下跌，此前霍尔木兹海峡及周边海域发生船只遇袭事件，推动油价走高。 德国2年期国债收益率上涨4个基点，至2.58%，盘中早些时候一度触及2.59%，为逾两周最高水平。",
+      "lang": "zh",
+      "score": 18,
       "insight": {
-        "what": "特朗普账户庆祝活动，总统敲响开盘钟",
-        "assets": "📈 特朗普概念股 利好; 📈 媒体板块 利好",
-        "chain": "政治事件驱动→散户情绪提振→短期投机资金涌入",
-        "watch": "特朗普媒体股价及政治新闻"
+        "what": "欧债下跌，加息押注升温，霍尔木兹海峡船只遇袭推高油价",
+        "assets": "📉 欧洲国债 承压, 📈 原油 利好",
+        "chain": "地缘风险（船只遇袭）→油价涨→通胀预期（物价上涨）→加息（借钱成本提高）→债价跌",
+        "watch": "霍尔木兹海峡通行量及欧洲央行利率预期"
       }
     },
     {
       "rank": 9,
-      "title": "Rivian stock down on 75 million share sale, preannounces Q2 revenue - Yahoo Finance UK",
-      "source": "Yahoo Finance UK",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
+      "title": "英国央行提议放松资本规则 尽管多重风险升温",
+      "source": "环球市场播报",
+      "detail": " 英国央行提议放宽数项资本规则，尽管官员们担心，人工智能带来的威胁加深、地缘政治前景充满不确定性，以及杠杆水平快速上升。",
+      "lang": "zh",
+      "score": 18,
       "insight": {
-        "what": "Rivian因7500万股发行及Q2营收预披露下跌",
-        "assets": "📉 Rivian 利空; 📉 电动车板块 承压",
-        "chain": "稀释效应→市场担忧现金消耗→行业融资环境恶化",
-        "watch": "Rivian交付量及融资计划"
+        "what": "英国央行提议放松资本规则，尽管多重风险升温",
+        "assets": "📈 英国银行股 利好, 📉 英镑 承压",
+        "chain": "放松资本（降低银行储备要求）→银行放贷能力增强→经济刺激，但可能引发脆弱性",
+        "watch": "英国金融监管局最终规则及银行风险敞口"
       }
     },
     {
       "rank": 10,
-      "title": "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "Chinese lidar maker with Nvidia ties accused of being cyber risk for U.S.",
+      "source": "CNBC",
+      "detail": "Hesai Technology was blacklisted as a national security threat in 2024 by the U.S. Department of Defense, which designated Hesai as a Chinese military entity.",
       "lang": "en",
-      "score": 27,
+      "score": 17,
       "insight": {
-        "what": "美光、三星、SK海力士拖累存储股进入熊市",
-        "assets": "📉 存储芯片股 利空; 📉 纳斯达克 承压",
-        "chain": "存储价格下行→库存调整周期延长→半导体设备订单推迟",
-        "watch": "DRAM/NAND现货价格走势"
+        "what": "中国激光雷达公司因与英伟达关联被指构成网络风险",
+        "assets": "📉 中国激光雷达股 承压, 📉 英伟达 间接利空",
+        "chain": "地缘政治（中美科技脱钩）→供应链审查→合作订单可能取消",
+        "watch": "美国商务部是否将该企业列入实体清单"
       }
     }
   ]
