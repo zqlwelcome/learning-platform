@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-08 02:01",
+  "updateTime": "2026-07-08 02:10",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "三星业绩不及高AI预期，引发芯片股抛售",
-        "assets": "📉 全球半导体股 承压；📈 防御性板块（如公用事业） 利好",
-        "chain": "AI需求不及预期（HBM（高带宽内存）库存过剩），资金轮动至防御板块（避险），拖累纳指（科技股指数）",
-        "watch": "三星Q2（第二季度）财报指引及HBM出货量"
+        "what": "三星业绩不及高预期，芯片股遭抛售",
+        "assets": "📉 三星电子 利空；📉 全球芯片股 承压",
+        "chain": "AI需求预期降温（AI泡沫风险），资金轮动（rotation）至防御板块",
+        "watch": "三星后续财报指引及AI芯片订单数据"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 41,
       "insight": {
         "what": "华尔街分析师推荐2026下半年标普500首选股",
-        "assets": "📈 标普500指数成分股（如医疗、金融） 利好",
-        "chain": "机构调仓至低估值板块（价值股），引发成长股（如科技）资金流出，加剧风格轮动",
-        "watch": "分析师推荐清单及后续资金流向"
+        "assets": "📈 标普500指数 中性偏多",
+        "chain": "机构调仓（rebalancing）信号，关注个股alpha（超额收益）机会",
+        "watch": "推荐名单中行业分布及资金流向"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "芯片股暴跌拖累道指转跌，油价上涨",
-        "assets": "📉 美股道指 承压；📈 能源股（如埃克森美孚） 利好",
-        "chain": "芯片利空（增长放缓）压制风险偏好（投资意愿），油价上涨推升通胀预期（物价上升），利空消费股",
-        "watch": "WTI（西德克萨斯中质原油）原油期货价格及半导体ETF（交易所交易基金）走势"
+        "what": "道指转跌，芯片股暴跌而油价上涨",
+        "assets": "📉 美股芯片股 利空；📈 原油 利好",
+        "chain": "科技股资金流出（flight to safety），能源板块获避险买盘",
+        "watch": "油价能否突破关键阻力位及科技股反弹力度"
       }
     },
     {
@@ -52,9 +52,9 @@
       "score": 32,
       "insight": {
         "what": "Alarum Technologies遭FBI调查，股价腰斩",
-        "assets": "📉 网络安全板块 承压；📉 Alarum Technologies 利空",
-        "chain": "监管风险（政府调查）引发行业信任危机，资金撤离小盘科技股，避险情绪升温",
-        "watch": "FBI调查进展及公司合规声明"
+        "assets": "📉 Alarum Technologies 利空；📉 网络安全板块 承压",
+        "chain": "监管风险（regulatory risk）升温，市场或抛售高估值小盘科技",
+        "watch": "FBI调查进展及公司能否澄清指控"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里禁止员工使用Anthropic AI，因被指模型蒸馏攻击",
-        "assets": "📉 AI应用股 承压；📉 中美科技合作预期 利空",
-        "chain": "数据安全争议（知识产权保护）加剧AI行业竞争，限制跨境AI服务合作，利空云服务商",
-        "watch": "中美AI监管政策及Anthropic回应"
+        "what": "阿里巴巴禁止员工使用Anthropic AI，指控蒸馏攻击",
+        "assets": "📉 阿里巴巴 中性偏空；📉 AI模型开发商 承压",
+        "chain": "中美AI竞争加剧（tech decoupling），数据安全担忧抑制AI合作",
+        "watch": "中美科技政策动态及AI模型授权纠纷"
       }
     },
     {
@@ -79,10 +79,10 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "三星业绩触发资金从科技股轮动至冷门板块",
-        "assets": "📈 能源、公用事业等冷门板块 利好；📉 半导体 承压",
-        "chain": "业绩miss（不及预期）引发获利了结（卖出），资金转向低估值板块（价值轮动），压制纳指",
-        "watch": "板块轮动ETF（如XLP（必需消费品ETF）、XLE（能源ETF））资金流入"
+        "what": "三星业绩引发资金从芯片股轮动至冷门板块",
+        "assets": "📉 半导体板块 利空；📈 工业/公用事业 利好",
+        "chain": "价值股（value stocks）获青睐，成长股（growth stocks）估值修正",
+        "watch": "轮动持续性及冷门板块成交量变化"
       }
     },
     {
@@ -93,28 +93,42 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Cramer称市场仍围绕英伟达，尽管其股价滞后",
-        "assets": "📈 英伟达 中性偏利好；📈 AI芯片概念股 联动",
-        "chain": "英伟达作为AI风向标（关键指标），其滞后可能引发板块分化（龙头补涨或补跌），影响半导体情绪",
-        "watch": "英伟达财报及数据中心收入增长"
+        "what": "Cramer称一切仍围绕英伟达，尽管股价滞后",
+        "assets": "📉 英伟达 中性偏空",
+        "chain": "市场情绪锚定（anchoring）英伟达，其走势决定科技股方向",
+        "watch": "英伟达财报及AI芯片需求数据"
       }
     },
     {
       "rank": 8,
-      "title": "Stock market today: Nasdaq leads Dow, S&P 500 lower after Samsung, DeepSeek spark chip sell-off - Yahoo Finance",
-      "source": "Yahoo Finance",
+      "title": "Stock Market Today: Nasdaq Slides After Samsung Sparks Tech Selloff — Live Updates - WSJ",
+      "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "三星、DeepSeek引发芯片抛售，纳指领跌",
-        "assets": "📉 纳斯达克100指数 承压；📉 存储芯片股（如美光） 利空",
-        "chain": "AI需求增速放缓（市场担忧）传导至科技板块整体估值压缩（股价下跌），避险资金流入国债",
-        "watch": "美光科技财报及AI资本开支指引"
+        "what": "纳斯达克因三星触发科技抛售潮而下跌",
+        "assets": "📉 纳斯达克100 利空；📉 科技股 承压",
+        "chain": "科技板块恐慌情绪蔓延（contagion），资金涌向避险资产",
+        "watch": "科技股ETF资金流出量及VIX（恐慌指数）变化"
       }
     },
     {
       "rank": 9,
+      "title": "Rivian stock down on 75 million share sale, preannounces Q2 revenue - Yahoo Finance UK",
+      "source": "Yahoo Finance UK",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "Rivian宣布7500万股增发并预披露Q2营收，股价下跌",
+        "assets": "📉 Rivian 利空；📉 电动汽车板块 承压",
+        "chain": "股权稀释（dilution）风险加剧，市场担忧电动车需求疲软",
+        "watch": "Rivian Q2财报及交付量数据"
+      }
+    },
+    {
+      "rank": 10,
       "title": "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market - Yahoo Finance",
       "source": "Yahoo Finance",
       "detail": "国际财经动态，关注后续发展。",
@@ -122,23 +136,9 @@
       "score": 27,
       "insight": {
         "what": "美光、三星、SK海力士拖累存储芯片进入熊市",
-        "assets": "📉 存储芯片板块 利空；📉 美光科技 承压",
-        "chain": "HBM（高带宽内存）供过于求（库存积压），价格战加剧，拖累整个半导体产业链利润预期",
-        "watch": "DRAM（动态随机存取存储器）和NAND（闪存）现货价格走势"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "法律人工智能初创公司Norm Ai获1.2亿美元融资，估值12亿美元",
-      "source": "环球市场播报",
-      "detail": " Norm Ai周二表示，已在由Khosla Ventures领投的C轮融资中筹集了1.2亿美元，这家法律人工智能初创企业的估值达到12亿美元。",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "法律AI初创Norm Ai获1.2亿美元融资，估值12亿",
-        "assets": "📈 AI法律科技板块 利好；📈 垂直AI应用 利好",
-        "chain": "资本涌入垂直AI（特定领域人工智能），显示市场看好AI在专业服务（法律）的变现，利好AI软件股",
-        "watch": "Norm Ai后续客户签约及营收数据"
+        "assets": "📉 美光 利空；📉 三星/海力士 利空；📉 存储板块 利空",
+        "chain": "供需失衡（oversupply）确认，行业周期下行（downcycle）加速",
+        "watch": "存储芯片价格走势及资本开支削减计划"
       }
     }
   ]
