@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 23:52",
+  "updateTime": "2026-07-08 00:01",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 39,
       "insight": {
         "what": "芯片股下跌拖累道指转跌，油价上涨",
-        "assets": "📉 美股芯片股 利空；📈 原油期货 利好",
-        "chain": "芯片股下跌引发科技板块抛售，油价上涨推升通胀预期（物价上涨压力），可能延缓美联储降息",
-        "watch": "芯片板块（SOX指数）能否企稳"
+        "assets": "📉 美股芯片股 利空；📈 原油 利好",
+        "chain": "油价涨推高通胀预期（物价上涨压力），降息（借钱成本降低）概率下降，科技股估值受压",
+        "watch": "今晚美国CPI数据公布"
       }
     },
     {
@@ -25,12 +25,26 @@
       "insight": {
         "what": "Alarum Technologies遭FBI调查，股价暴跌超50%",
         "assets": "📉 Alarum Technologies 利空；📉 网络安全板块 承压",
-        "chain": "监管调查引发合规风险溢价（投资者要求更高回报），同行业公司可能面临抛售",
-        "watch": "FBI调查进展及公司是否面临退市风险"
+        "chain": "监管调查引发板块恐慌（投资者抛售），其他小型科技股可能被连带做空（押注下跌）",
+        "watch": "FBI调查进展及公司回应"
       }
     },
     {
       "rank": 3,
+      "title": "Cramer says 'everything still revolves around Nvidia' despite its lagging stock",
+      "source": "CNBC",
+      "detail": "CNBC's Jim Cramer said that Nvidia remains at the center of the artificial intelligence boom.",
+      "lang": "en",
+      "score": 29,
+      "insight": {
+        "what": "Cramer称市场仍围绕英伟达，即使股价滞后",
+        "assets": "📈 英伟达 中性偏利好；📈 半导体ETF 情绪支撑",
+        "chain": "AI叙事（故事）仍主导资金流向，英伟达若企稳将带动AI相关板块反弹",
+        "watch": "英伟达下周财报及AI订单数据"
+      }
+    },
+    {
+      "rank": 4,
       "title": "Rivian stock falls more than 10% as company sells 75 million shares to raise capital",
       "source": "CNBC",
       "detail": "The capital raise occurred during extended hours trading following Rivian shares increasing 8.1% on Monday after increasing 19.2% last week.",
@@ -38,51 +52,37 @@
       "score": 27,
       "insight": {
         "what": "Rivian增发7500万股募资，股价跌超10%",
-        "assets": "📉 Rivian 利空；📉 电动车板块 承压",
-        "chain": "增发稀释现有股东权益（每股价值下降），市场担忧资金链紧张，拖累同行估值",
-        "watch": "Rivian增发定价及后续融资需求"
+        "assets": "📉 Rivian 利空；📉 电动汽车板块 承压",
+        "chain": "增发稀释（每股价值降低）现有股东权益，市场担忧Rivian现金消耗速度，可能引发同行跟跌",
+        "watch": "RivianQ2交付量及现金储备"
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "There's a lot of 'noise' making it harder for investors to read the true state of the stock market",
       "source": "CNBC",
       "detail": "Rarely has so much attention been placed on the mechanical impact of index inclusion, policy-driven investment flows and options-hedging impact.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "市场噪音增多，投资者难以判断真实股市状态",
-        "assets": "📉 美股大盘 不确定性；📈 避险资产 利好",
-        "chain": "噪音增加交易成本（波动率上升），资金可能流向黄金等避险资产以规避风险",
-        "watch": "VIX指数（恐慌指数）是否突破20"
+        "what": "市场噪音增多，投资者难辨股市真实状态",
+        "assets": "📉 美股大盘 中性偏空；📉 波动率指数VIX 利好",
+        "chain": "噪音（干扰信息）增加交易成本，期权对冲（保护性合约）需求上升，VIX可能走高",
+        "watch": "VIX指数及资金流向（如防御板块）"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "法律人工智能初创公司Norm Ai获1.2亿美元融资，估值12亿美元",
       "source": "环球市场播报",
       "detail": " Norm Ai周二表示，已在由Khosla Ventures领投的C轮融资中筹集了1.2亿美元，这家法律人工智能初创企业的估值达到12亿美元。",
       "lang": "zh",
       "score": 25,
       "insight": {
-        "what": "法律AI初创Norm Ai获1.2亿美元融资，估值12亿",
-        "assets": "📈 AI法律科技 利好；📈 美股科技成长股 利好",
-        "chain": "资金涌入AI细分赛道，验证AI应用商业化前景，可能带动相关IPO（首次公开募股）回暖",
-        "watch": "Norm Ai后续客户签约及收入增长"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "开盘：美股周二开盘涨跌不一，芯片股拖累纳指走低",
-      "source": "环球市场播报",
-      "detail": "北京时间7月7日晚，美股周二开盘涨跌不一。芯片股拖累纳指走低。投资者似乎再次开始撤出与人工智能相关的股票。 道指涨48.15点，涨幅为0.09%，报53104...",
-      "lang": "zh",
-      "score": 25,
-      "insight": {
-        "what": "美股开盘涨跌不一，芯片股拖累纳指走低",
-        "assets": "📉 纳指 利空；📉 芯片股 利空",
-        "chain": "芯片股疲软反映需求端疲弱，可能传导至半导体设备供应商，压制科技板块整体情绪",
-        "watch": "纳指能否守住关键支撑位"
+        "what": "AI法律初创Norm Ai获1.2亿美元融资，估值12亿",
+        "assets": "📈 AI法律科技板块 利好；📈 企业软件SaaS 情绪提振",
+        "chain": "融资热显示VC（风投）仍看好AI垂直应用，可能带动同类公司IPO（上市）预期",
+        "watch": "Norm Ai后续客户签约数据"
       }
     },
     {
@@ -93,10 +93,10 @@
       "lang": "zh",
       "score": 22,
       "insight": {
-        "what": "民主党调查16亿美元稀土项目，矛头指向商务部长家族投行",
-        "assets": "📉 美国稀土板块 承压；📉 美股矿业股 利空",
-        "chain": "政治调查增加政策不确定性（项目审批风险），可能推迟稀土供应链本土化进程",
-        "watch": "调查是否导致项目暂停或资金冻结"
+        "what": "民主党调查稀土项目，矛头指商务部长家族投行",
+        "assets": "📉 稀土板块 承压；📉 美中关系相关资产 利空",
+        "chain": "政治调查可能延迟稀土项目审批，增加地缘政治风险，影响供应链（产业链）股票",
+        "watch": "调查听证会及稀土出口管制动态"
       }
     },
     {
@@ -108,9 +108,9 @@
       "score": 20,
       "insight": {
         "what": "Rivian宣布增发7500万股募资，股价暴跌超10%",
-        "assets": "📉 Rivian 利空；📉 电动车板块 承压",
-        "chain": "增发稀释每股收益（EPS下降），市场担忧现金消耗速度，可能引发做空（押注股价下跌）",
-        "watch": "Rivian现金消耗率及后续产量指引"
+        "assets": "📉 Rivian 利空；📉 电动汽车板块 承压",
+        "chain": "增发稀释效应（每股价值降低）引发抛售，市场担忧Rivian融资需求预示现金危机",
+        "watch": "RivianQ2交付量及现金储备"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 20,
       "insight": {
-        "what": "AI公司CEO承认利用律师内幕信息交易",
-        "assets": "📉 AI板块 利空；📉 美股科技股 承压",
-        "chain": "内幕交易丑闻损害AI行业信誉，可能引发监管加强及投资者对科技公司治理的警惕",
-        "watch": "SEC（美国证交会）是否扩大调查范围"
+        "what": "AI初创CEO认罪，利用律师内幕消息交易",
+        "assets": "📉 AI初创板块 情绪利空；📉 法律科技股 承压",
+        "chain": "内幕交易（利用未公开信息交易）丑闻增加监管审查风险，投资者可能回避未上市AI公司",
+        "watch": "SEC（美国证监会）后续执法行动"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "zh",
       "score": 18,
       "insight": {
-        "what": "英国央行提议放松资本规则，尽管多重风险升温",
-        "assets": "📈 英国银行股 利好；📈 英镑 利好",
-        "chain": "放松资本规则释放银行放贷能力（增加信贷供给），提振经济预期，但可能增加金融系统性风险",
-        "watch": "英国央行最终政策落地及银行资本充足率变化"
+        "what": "英国央行提议放松资本规则，尽管风险升温",
+        "assets": "📈 英国银行股 利好；📈 英镑 中性偏多",
+        "chain": "放松资本规则（银行可释放更多资金）提升放贷能力，但增加金融系统脆弱性，长期看空债券",
+        "watch": "英国央行最终政策文件及银行资本充足率"
       }
     }
   ]
