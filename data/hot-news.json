@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 16:35",
+  "updateTime": "2026-07-07 16:46",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "zh",
       "score": 47,
       "insight": {
-        "what": "韩国股市暴跌近5%，AI疑虑触发熔断",
-        "assets": "📉 韩国KOSPI指数 承压; 📉 全球半导体股 承压",
-        "chain": "AI估值过高引发抛售，传导至亚洲科技股，避险情绪拉升日元（避险货币）",
-        "watch": "AI龙头财报及韩国监管是否干预"
+        "what": "韩国股市因AI担忧暴跌近5%，触发熔断",
+        "assets": "📉 韩国KOSPI 利空；📉 全球AI芯片股 承压",
+        "chain": "AI估值泡沫（市盈率过高）引发抛售，半导体板块联动下跌，避险情绪推升日元（避险货币）",
+        "watch": "SK海力士ADR IPO定价及首日表现"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "亚洲股市下跌，AI估值担忧盖过三星强劲财报",
-        "assets": "📉 亚洲科技股 承压; 📉 三星电子 承压",
-        "chain": "财报利好被AI泡沫担忧消化，资金转向防御板块（如公用事业），半导体周期预期弱化",
-        "watch": "三星后续资本开支指引及AI订单数据"
+        "what": "亚洲股市下跌，AI估值担忧盖过三星强劲业绩",
+        "assets": "📉 亚洲科技股 承压；📈 避险债券 利好",
+        "chain": "AI盈利增速（每股收益增长）不及估值预期，资金从风险资产（股票）流向安全资产（国债）",
+        "watch": "三星电子后续财报及资本支出指引"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI行情是个股驱动，非区域交易",
-        "assets": "📈 中国AI龙头股（如百度） 利好; 📉 中国AI板块整体 中性",
-        "chain": "资金聚焦个股alpha（超额收益），而非整个板块beta（市场波动），减少被动资金流入",
-        "watch": "中国AI个股财报及海外客户拓展进展"
+        "what": "贝莱德称中国AI是个股机会，非板块性行情",
+        "assets": "📈 中国AI龙头股 结构性利好；📉 中国AI板块整体 中性",
+        "chain": "分化交易（个股与板块背离）出现，资金集中流入基本面强的标的，弱股遭抛弃",
+        "watch": "中国AI公司财报与海外客户签约情况"
       }
     },
     {
@@ -51,94 +51,94 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "三星股价下跌，资本开支和需求担忧盖过创纪录利润",
-        "assets": "📉 三星电子 承压; 📉 全球存储芯片 承压",
-        "chain": "资本开支高企（花钱扩产）引发供给过剩担忧，传导至芯片设备股（如ASML）",
-        "watch": "三星资本开支计划及DRAM/NAND价格走势"
+        "what": "三星电子股价下跌，资本支出和需求担忧盖过创纪录利润",
+        "assets": "📉 三星电子 利空；📉 全球半导体设备股 承压",
+        "chain": "资本支出（企业投资扩产）放缓信号暗示行业周期见顶，上游设备需求预期下调",
+        "watch": "三星Q3资本支出计划及存储器价格走势"
       }
     },
     {
       "rank": 5,
-      "title": "AI需求强劲提振行业预期 美股半导体板块全面反弹",
-      "source": "环球市场播报",
-      "detail": "7月6日，受人工智能（AI）硬科技需求持续强劲及行业多重利好预期驱动，美国股市半导体板块逆转上周低迷走势，迎来全面反弹。存储芯片及定制芯片产业链各核心标的集体走高...",
-      "lang": "zh",
-      "score": 40,
-      "insight": {
-        "what": "AI需求强劲，美股半导体板块全面反弹",
-        "assets": "📈 美股半导体（NVDA、AMD） 利好; 📈 AI基础设施股 利好",
-        "chain": "AI算力需求确认，带动数据中心和电力股（如VRT），资金从防御回流科技",
-        "watch": "台积电、英伟达财报及AI芯片出货量"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Tesla Robotaxi Expands To Miami As Slow Rollout Continues. Stock Ticks Up. - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 39,
-      "insight": {
-        "what": "特斯拉Robotaxi扩展至迈阿密，股价微涨",
-        "assets": "📈 特斯拉 利好; 📈 自动驾驶概念股 利好",
-        "chain": "Robotaxi缓慢落地强化市场对FSD（全自动驾驶）商业化预期，但规模有限压制涨幅",
-        "watch": "Robotaxi订单量及监管审批进展"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
       "source": "CNBC",
       "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型获美国公司采用，因OpenAI成本飙升",
-        "assets": "📈 中国AI股（如商汤） 利好; 📈 中国云计算 利好",
-        "chain": "成本优势推动中国AI模型出海，可能分流北美AI应用市场份额，利好国内算力需求",
-        "watch": "中国AI公司海外客户合同及API调用量"
+        "what": "中国AI模型因OpenAI等成本飙升，获美国公司青睐",
+        "assets": "📈 中国AI概念股 利好；📉 美国AI服务商 竞争压力",
+        "chain": "替代效应（客户转用低成本方案）利好中国AI公司，但需警惕技术差距（模型性能差异）",
+        "watch": "中国AI模型海外客户签约数量及定价变化"
       }
     },
     {
-      "rank": 8,
-      "title": "These 3 AI Stocks Just Got Hit, But I Think They’re Screaming Buys… - InvestorPlace",
-      "source": "InvestorPlace",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
+      "rank": 6,
+      "title": "中公教育打开涨停，央视网评：莫把股市当赌场",
+      "source": "21世纪经济报道",
+      "detail": "记者丨张赛男 编辑丨郑世凤，朱益民 7月7日午间，央视网发文《斩断“低俗赌约”莫把股市当赌场》，直接点名中公教育、共进股份因股吧猎奇赌约掀起非理性炒作...",
+      "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "3只AI股遭抛售，但分析师称是买入机会",
-        "assets": "📈 AI中小盘股 潜在利好; 📉 AI估值泡沫 承压",
-        "chain": "短期抛售为长期投资者创造入场点，但需区分基本面恶化与情绪错杀（非理性下跌）",
-        "watch": "目标公司财报营收增速及毛利率变化"
+        "what": "中公教育打开涨停，官媒警告莫把股市当赌场",
+        "assets": "📉 中公教育 利空；📉 A股投机性小盘股 承压",
+        "chain": "监管降温信号（政策风险），游资（短期资金）可能撤离，散户情绪受打压",
+        "watch": "中公教育成交量及后续监管表态"
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
       "title": "日本日经指数收挫2.1% 三星电子股价暴跌引发半导体类股抛售",
       "source": "环球市场播报",
       "detail": " 日本股市日经指数周二收跌2%，此前韩国三星电子股价重挫导致韩国综合股价指数（KOSPI）暴跌，受此影响，日本半导体相关权重股纷纷走低。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经指数收跌2.1%，三星暴跌引发半导体抛售",
-        "assets": "📉 日本日经指数 承压; 📉 日本半导体股（东京电子） 承压",
-        "chain": "韩国半导体利空传染至日本，日元升值（避险）加剧出口股压力，日央行政策预期升温",
-        "watch": "日本央行利率决议及日元兑美元汇率"
+        "what": "日经指数收跌2.1%，三星暴跌引发半导体股抛售",
+        "assets": "📉 日本半导体股 利空；📉 日经225 承压",
+        "chain": "供应链联动（韩国三星与日本设备商高度关联），出口板块（汽车、电子）受全球需求担忧拖累",
+        "watch": "日本半导体设备企业财报及出口数据"
       }
     },
     {
-      "rank": 10,
+      "rank": 8,
       "title": "欧洲央行管委帕内塔警告欧元区经济前景脆弱 呼吁货币政策灵活应对全球重构",
       "source": "环球市场播报",
       "detail": "欧洲中央银行管理委员会成员、意大利央行行长法比奥·帕内塔（Fabio Panetta）7日在罗马出席一场关于货币政策传导挑战的学术会议时表示，当前欧元区经济前景依然脆弱。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "欧央行管委警告经济脆弱，呼吁灵活应对全球重构",
-        "assets": "📉 欧元区债券 利好（避险）; 📉 欧元 承压",
-        "chain": "经济前景脆弱强化降息预期（借钱成本降低），利空欧元但利好欧债，资金流出风险资产",
-        "watch": "欧央行9月利率决议及PMI数据"
+        "what": "欧洲央行管委警告欧元区经济前景脆弱，呼吁灵活应对",
+        "assets": "📉 欧元区股市 承压；📈 欧元债券 利好",
+        "chain": "经济脆弱（GDP增速放缓）可能迫使欧央行推迟加息（利率不变），利空欧元汇率（EUR/USD）",
+        "watch": "欧元区PMI（采购经理人指数）及欧央行9月利率决议"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "韩国股指大跌 SK海力士ADR IPO或决定后续走势",
+      "source": "环球市场播报",
+      "detail": "韩国综合股价指数（KOSPI）跌幅进一步扩大，暴跌逼近7000点关口。市场分析认为，尽管三星电子二季度业绩超出市场预期，但外资集中获利了结...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "韩国股指大跌，SK海力士ADR IPO或定方向",
+        "assets": "📉 韩国KOSPI 利空；📈 SK海力士ADR 事件驱动",
+        "chain": "IPO融资（新股发行）可能分流资金，若定价低于预期将加剧半导体板块看空情绪",
+        "watch": "SK海力士ADR发行价及首日换手率"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Black hair care pioneer George E. Johnson Sr. dies at 99 - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "黑人护发先驱乔治·约翰逊去世，享年99岁",
+        "assets": "📉 约翰逊产品公司 利空",
+        "chain": "管理层更迭（创始人离世）可能影响公司战略稳定性，但品牌忠诚度（消费者粘性）或缓冲冲击",
+        "watch": "公司接班人公告及Q3营收数据"
       }
     }
   ]
