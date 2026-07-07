@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 16:26",
+  "updateTime": "2026-07-07 16:31",
   "news": [
     {
       "rank": 1,
@@ -10,8 +10,8 @@
       "score": 47,
       "insight": {
         "what": "韩国股市暴跌近5%，AI疑虑触发熔断",
-        "assets": "📉 韩国KOSPI 利空；📉 全球AI芯片股 承压",
-        "chain": "AI投资过热担忧→资金撤出高估值科技股→半导体板块联动下跌",
+        "assets": "📉 韩国KOSPI指数 利空; 📉 韩国半导体股 承压",
+        "chain": "AI需求见顶担忧引发抛售，拖累全球半导体板块（芯片股），避险情绪推高美元",
         "watch": "SK海力士ADR IPO定价及首日表现"
       }
     },
@@ -23,9 +23,9 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI行情是个股驱动，非区域性主题",
-        "assets": "📈 中国AI个股（如百度）结构性利好；📉 港股恒生科技指数 中性",
-        "chain": "外资选择性加仓中国AI龙头→板块分化加剧→中概股估值重估",
+        "what": "贝莱德称中国AI行情是个股机会，非板块性交易",
+        "assets": "📉 中国AI板块 承压; 📈 中国AI龙头股 结构性利好",
+        "chain": "市场从行业β（系统性涨跌）转向精选α（选股收益），资金可能从ETF流入个股",
         "watch": "中国AI公司财报及海外客户订单数据"
       }
     },
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 42,
       "insight": {
-        "what": "三星电子财报亮眼但资本支出和需求担忧致股价下跌",
-        "assets": "📉 三星电子 利空；📉 全球存储芯片 承压",
-        "chain": "资本支出（扩产投入）超预期→供给过剩担忧→DRAM/NAND价格预期下调",
-        "watch": "三星Q3资本支出指引及DRAM现货价格"
+        "what": "三星电子财报亮眼但股价跌，因资本支出和需求疑虑",
+        "assets": "📉 三星电子 利空; 📉 全球存储芯片 承压",
+        "chain": "好业绩被资本支出（扩大投资）和需求疲软预期盖过，暗示行业周期见顶信号",
+        "watch": "三星Q3资本支出指引及内存价格走势"
       }
     },
     {
@@ -51,94 +51,94 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "AI需求强劲提振行业预期，美股半导体板块全面反弹",
-        "assets": "📈 美股半导体（英伟达、AMD） 利好；📈 费城半导体指数 反弹",
-        "chain": "AI算力需求增长→芯片订单上调→产业链（台积电、设备商）受益",
-        "watch": "英伟达财报及数据中心收入指引"
+        "what": "AI需求强劲提振预期，美股半导体板块全面反弹",
+        "assets": "📈 美股半导体ETF 利好; 📈 英伟达等AI芯片股 走强",
+        "chain": "AI资本开支（企业投钱建算力）预期回升，带动上游设备、下游云服务（云计算）需求",
+        "watch": "台积电月度营收及AI芯片订单量"
       }
     },
     {
       "rank": 5,
+      "title": "Tesla Robotaxi Expands To Miami As Slow Rollout Continues. Stock Ticks Up. - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 39,
+      "insight": {
+        "what": "特斯拉Robotaxi扩展至迈阿密，股价小幅上涨",
+        "assets": "📈 特斯拉 利好; 📉 网约车平台Uber/Lyft 承压",
+        "chain": "Robotaxi（无人驾驶出租车）缓慢落地验证商业化，挤压传统网约车份额，推高自动驾驶板块",
+        "watch": "特斯拉Robotaxi事故率及监管许可进展"
+      }
+    },
+    {
+      "rank": 6,
       "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
       "source": "CNBC",
       "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型因OpenAI成本飙升获美国企业青睐",
-        "assets": "📈 中国AI概念股（如商汤、科大讯飞） 利好；📉 OpenAI估值 承压",
-        "chain": "中国模型性价比优势→替代效应→中美AI生态竞争格局变化",
-        "watch": "美国企业采用中国API的合同数量"
+        "what": "中国AI模型以成本优势获美国企业青睐，OpenAI成本飙升",
+        "assets": "📈 中国AI公司 利好; 📉 OpenAI/Anthropic 承压",
+        "chain": "中美AI价差（成本差异）扩大，中国企业以低价抢份额，可能引发全球AI定价战",
+        "watch": "中国AI模型API调用量及美国客户签约数"
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "title": "These 3 AI Stocks Just Got Hit, But I Think They’re Screaming Buys… - InvestorPlace",
+      "source": "InvestorPlace",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "三只AI股遭抛售，分析师称是买入机会",
+        "assets": "📈 被点名的AI个股 潜在利好; 📉 AI板块 短期承压",
+        "chain": "分析师逆向喊话（看多被错杀股），若资金跟进，可能触发短线反弹（技术性修复）",
+        "watch": "被提及个股的期权持仓变化及空头回补量"
+      }
+    },
+    {
+      "rank": 8,
       "title": "日本日经指数收挫2.1% 三星电子股价暴跌引发半导体类股抛售",
       "source": "环球市场播报",
       "detail": " 日本股市日经指数周二收跌2%，此前韩国三星电子股价重挫导致韩国综合股价指数（KOSPI）暴跌，受此影响，日本半导体相关权重股纷纷走低。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "日经指数收跌2.1%，三星暴跌引发半导体股抛售",
-        "assets": "📉 日本日经225 利空；📉 日本半导体（东京电子） 承压",
-        "chain": "韩国科技龙头下跌→亚洲科技股情绪传染→日元避险买盘推升汇率",
-        "watch": "日本半导体设备出口数据及日元汇率"
+        "what": "日经指数跌2.1%，三星暴跌引发半导体抛售",
+        "assets": "📉 日经225 利空; 📉 日本半导体设备股 承压",
+        "chain": "三星作为风向标（行业龙头），其下跌传染至日本供应链，日元套利交易（借日元买资产）或平仓",
+        "watch": "日本半导体设备商订单及日元汇率变动"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "欧洲央行管委帕内塔警告欧元区经济前景脆弱 呼吁货币政策灵活应对全球重构",
       "source": "环球市场播报",
       "detail": "欧洲中央银行管理委员会成员、意大利央行行长法比奥·帕内塔（Fabio Panetta）7日在罗马出席一场关于货币政策传导挑战的学术会议时表示，当前欧元区经济前景依然脆弱。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "欧央行管委警告经济前景脆弱，呼吁灵活货币政策",
-        "assets": "📈 欧元区国债（短期） 利好；📉 欧元 承压",
-        "chain": "鸽派（倾向宽松）言论→降息预期升温→欧元区利差（德意国债息差）走阔",
-        "watch": "欧央行9月利率决议及GDP数据"
+        "what": "欧洲央行管委警告经济前景脆弱，呼吁灵活应对",
+        "assets": "📉 欧元 承压; 📉 欧元区债券收益率 下行",
+        "chain": "鸽派信号（偏宽松政策）暗示可能提前降息，利空欧元但利好欧股及高息债（收益较高的债券）",
+        "watch": "欧元区PMI数据及欧央行9月利率决议"
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "title": "韩国股指大跌 SK海力士ADR IPO或决定后续走势",
       "source": "环球市场播报",
       "detail": "韩国综合股价指数（KOSPI）跌幅进一步扩大，暴跌逼近7000点关口。市场分析认为，尽管三星电子二季度业绩超出市场预期，但外资集中获利了结...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "韩国股指大跌，SK海力士ADR IPO或成后续风向标",
-        "assets": "📉 韩国KOSPI 利空；📈 SK海力士ADR 波动",
-        "chain": "IPO定价反映AI需求预期→若破发则加剧半导体抛售→影响韩国汇率",
-        "watch": "SK海力士IPO认购倍数及首日涨跌幅"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Why oil investors fear the next toll fight could be the Strait of Malacca",
-      "source": "CNBC",
-      "detail": "The prospect of fees to transit the Strait of Hormuz has sparked alarm, not least by investors who fear it could be replicated in other maritime corridors.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "投资者担忧马六甲海峡成为下一个能源冲突点",
-        "assets": "📈 原油（布伦特） 看涨；📉 亚洲炼油股 承压",
-        "chain": "海峡封锁风险→全球油运成本飙升→亚洲能源进口溢价推升通胀",
-        "watch": "马六甲海峡通行费及保险费率变化"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz",
-      "source": "CNBC",
-      "detail": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "伊朗袭击商船推升霍尔木兹海峡紧张，油价上涨",
-        "assets": "📈 原油（WTI/布伦特） 利好；📉 中东航运股 利空",
-        "chain": "地缘冲突（政治军事紧张）→供应中断风险→油价风险溢价（额外上涨空间）扩大",
-        "watch": "霍尔木兹海峡通行量及伊朗后续行动声明"
+        "what": "韩国股指大跌，SK海力士ADR或定后市方向",
+        "assets": "📉 韩国KOSPI 利空; 📈 SK海力士ADR 关键变量",
+        "chain": "ADR（美国存托凭证）定价反映海外资金态度，若IPO成功将稳定韩股信心，反之加剧抛售",
+        "watch": "SK海力士ADR发行价及首日换手率"
       }
     }
   ]
