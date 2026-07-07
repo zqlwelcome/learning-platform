@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 22:21",
+  "updateTime": "2026-07-07 22:25",
   "news": [
     {
       "rank": 1,
@@ -7,7 +7,13 @@
       "source": "21世纪经济报道",
       "detail": "7月7日，美股三大指数集体下跌，截至北京时间22：00，道指跌0.01%，盘中一度创新高；纳指跌0.94%，标普500指数跌0.31%。半导体概念股全线下挫，存储芯片、光通信股领跌...",
       "lang": "zh",
-      "score": 45
+      "score": 45,
+      "insight": {
+        "what": "闪迪大跌10%，存储芯片板块重挫",
+        "assets": "📉 美股存储芯片 利空；📈 国际油价 利好",
+        "chain": "存储芯片需求疲软，避险资金或流向能源等大宗商品（商品期货），导致板块轮动",
+        "watch": "下季度存储芯片出货量及油价是否突破前高"
+      }
     },
     {
       "rank": 2,
@@ -15,7 +21,13 @@
       "source": "环球市场播报",
       "detail": "韩国存储芯片巨头SK海力士周一正式启动赴美上市程序，计划通过发行美国存托凭证在纳斯达克挂牌，筹资约280亿美元。此次发行有望成为美国历史上规模最大的外国企业首次公开...",
       "lang": "zh",
-      "score": 40
+      "score": 40,
+      "insight": {
+        "what": "SK海力士启动280亿美元美国上市",
+        "assets": "📈 美股半导体 利好；📉 韩国股市 资金外流",
+        "chain": "吸引全球资金流入美股半导体，韩股流动性承压（抽血效应），或推高美股IPO估值",
+        "watch": "SEC审核进度及投资者认购倍数"
+      }
     },
     {
       "rank": 3,
@@ -23,7 +35,13 @@
       "source": "Reuters",
       "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
       "lang": "en",
-      "score": 35
+      "score": 35,
+      "insight": {
+        "what": "美元走强致金价下跌，关注美联储纪要",
+        "assets": "📉 黄金 承压；📈 美元指数 走强",
+        "chain": "强美元压制金价（美元计价资产），若纪要偏鹰（加息预期），黄金多头平仓风险加大",
+        "watch": "周三美联储会议纪要措辞及中东局势升级"
+      }
     },
     {
       "rank": 4,
@@ -31,55 +49,97 @@
       "source": "环球市场播报",
       "detail": "福泰制药周一宣布，已同意以约100亿美元的价格收购Crinetics Pharmaceuticals，这一重磅交易将显著增强福泰在罕见内分泌疾病领域的布局。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "福泰制药百亿美元收购Crinetics，后者暴涨99%",
+        "assets": "📈 Crinetics 利好；📉 福泰制药 短期承压",
+        "chain": "并购溢价推高目标股价，市场预期更多药企并购（行业整合），福泰需消化收购成本",
+        "watch": "Crinetics管线审批进展及福泰Q2财报"
+      }
     },
     {
       "rank": 5,
-      "title": "Vertex斥资100亿美元收购Crinetics，后者股价盘前暴涨近99%",
-      "source": "环球市场播报",
-      "detail": "生物制药公司Crinetics股价周二盘前交易中几乎翻倍，此前生物技术公司Vertex宣布了一项100亿美元的收购计划。 Vertex同意以每股85美元的价格收购Crinetics...",
-      "lang": "zh",
-      "score": 30
-    },
-    {
-      "rank": 6,
       "title": "Amazon Returns to US Bond Market to Fund AI Infrastructure Build - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "亚马逊重返债市融资建设AI基础设施",
+        "assets": "📈 美债收益率 承压；📉 科技债信用利差 收窄",
+        "chain": "科技巨头举债扩AI，推高企业债供给（利率上行压力），但AI长期投资利好云服务",
+        "watch": "亚马逊发债规模及AI项目ROI（投资回报率）"
+      }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "ATFX发布2026年第三季度《交易杂志》:聚焦地缘局势 央行政策与资产轮动新机遇",
       "source": "市场资讯",
       "detail": "7月7日，ATFX动态：全球领先的金融科技经纪商ATFX今日正式发布2026年第三季度《交易杂志》，围绕未来数月可能影响全球金融市场的关键主题，展开前瞻性分析与深度解读。",
       "lang": "zh",
-      "score": 30
+      "score": 30,
+      "insight": {
+        "what": "ATFX发布交易杂志聚焦地缘与央行政策",
+        "assets": "📈 外汇波动率 上升；📉 风险资产 承压",
+        "chain": "地缘紧张和央行分歧加剧汇市波动，套利交易（利差交易）需警惕政策突变风险",
+        "watch": "美联储利率决议及俄乌冲突新动向"
+      }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
-      "score": 29
+      "score": 29,
+      "insight": {
+        "what": "三星业绩引发资金轮动至冷门板块",
+        "assets": "📉 韩国半导体 利空；📈 防御性板块 利好",
+        "chain": "三星业绩不及预期，资金从科技股转向公用事业等低波动板块（板块轮动），压低新兴市场",
+        "watch": "三星Q2指引及半导体库存数据"
+      }
     },
     {
-      "rank": 9,
-      "title": "Here are Tuesday's biggest analyst calls: SpaceX, Nvidia, Apple, Figma, Shopify, First Solar, Ferrari & more",
-      "source": "CNBC",
-      "detail": "Here are Tuesday's biggest calls on Wall Street.",
-      "lang": "en",
-      "score": 29
-    },
-    {
-      "rank": 10,
+      "rank": 8,
       "title": "Dow hovers at 53,000 as chip stock weakness holds back market: Live updates",
       "source": "CNBC",
       "detail": "The Dow Jones Industrial Average hit a fresh all-time intraday high on Tuesday.",
       "lang": "en",
-      "score": 27
+      "score": 27,
+      "insight": {
+        "what": "道指徘徊53000，芯片股拖累大盘",
+        "assets": "📉 美股芯片股 承压；📈 道指 震荡",
+        "chain": "芯片疲软压制纳指，资金转向传统工业股（道指成分），市场风格切换至价值股",
+        "watch": "英伟达财报及道指能否站稳53000"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Rivian stock falls more than 10% as company sells 75 million shares to raise capital",
+      "source": "CNBC",
+      "detail": "The capital raise occurred during extended hours trading following Rivian shares increasing 8.1% on Monday after increasing 19.2% last week.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "Rivian跌超10%，因增发7500万股融资",
+        "assets": "📉 Rivian 利空；📈 电动汽车板块 承压",
+        "chain": "增发稀释现有股东权益（股权稀释），市场担忧现金流紧张，或引发电动车股估值下调",
+        "watch": "Rivian交付量及现金消耗率"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Ukrainian drones hit Russia’s largest oil refinery as Zelenskyy says Siberia now ‘within reach’",
+      "source": "CNBC",
+      "detail": "The attack underscores Kyiv's enhanced long-range drone capabilities and comes on the eve of a crucial NATO summit.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "乌克兰无人机袭击俄最大炼油厂",
+        "assets": "📈 国际油价 利好；📉 俄股 承压",
+        "chain": "供应中断风险推高油价（地缘溢价），俄能源设施受损或加剧全球炼能紧张，利多能源股",
+        "watch": "俄乌冲突升级程度及美国战略储备释放"
+      }
     }
   ]
 }
