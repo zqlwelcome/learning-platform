@@ -1,32 +1,32 @@
 {
-  "updateTime": "2026-07-07 23:31",
+  "updateTime": "2026-07-07 23:36",
   "news": [
     {
       "rank": 1,
+      "title": "Nasdaq futures fall after record Samsung profit fails to calm AI chip worries - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 45,
+      "insight": {
+        "what": "三星利润创新高但AI芯片担忧未消，纳指期货下跌",
+        "assets": "📉 纳指期货 承压，📉 半导体股 承压",
+        "chain": "AI芯片需求预期降温引发科技股抛售（卖出），资金轮动（rotate）至防御板块",
+        "watch": "英伟达财报及台积电指引"
+      }
+    },
+    {
+      "rank": 2,
       "title": "Dow turns red as chip stocks tumble, oil prices gain: Live updates",
       "source": "CNBC",
       "detail": "The Dow Jones Industrial Average hit a fresh all-time intraday high on Tuesday.",
       "lang": "en",
       "score": 39,
       "insight": {
-        "what": "芯片股下跌拖累道指转跌，油价上涨",
-        "assets": "📉 美股芯片股 承压，📈 原油 利好",
-        "chain": "芯片需求疲软信号叠加油价走高，可能引发通胀预期（物价上涨压力）回升，压制成长股估值（股价/盈利比）。",
-        "watch": "芯片板块财报及WTI原油（美国西得州中质油）库存数据"
-      }
-    },
-    {
-      "rank": 2,
-      "title": "Gold holds steady as focus turns to Middle East tensions, Fed minutes - Reuters",
-      "source": "Reuters",
-      "detail": "美联储政策动向对全球市场有重要影响，关注利率决议和政策信号。",
-      "lang": "en",
-      "score": 35,
-      "insight": {
-        "what": "金价持稳，市场关注中东局势和美联储会议纪要",
-        "assets": "📈 黄金 利好",
-        "chain": "地缘风险（中东冲突）推避险需求，叠加美联储纪要若偏鸽（暗示降息），实际利率（名义利率-通胀）下行支撑金价。",
-        "watch": "美联储会议纪要措辞及中东冲突升级信号"
+        "what": "芯片股暴跌拖累道指转跌，油价上涨",
+        "assets": "📉 美股科技股 利空，📈 原油 利好",
+        "chain": "科技股资金流出（sell-off）涌入能源板块，油价因供应担忧获支撑",
+        "watch": "WTI原油库存数据及科技股止跌信号"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型因成本优势被美国公司采用",
-        "assets": "📈 中概AI概念股 利好，📉 OpenAI相关美股 承压",
-        "chain": "中国AI成本下降（模型训练/推理费用更低）可能挤压美国AI服务商利润，加速全球AI定价竞争。",
-        "watch": "中国AI公司客户获取数据及OpenAI定价调整"
+        "what": "中国AI模型因成本低受美国企业青睐，挑战OpenAI",
+        "assets": "📈 中国AI概念股 利好，📉 OpenAI相关美股 承压",
+        "chain": "中国AI性价比优势（cost advantage）吸引美企，加剧中美AI竞争（competition）",
+        "watch": "百度/阿里AI业务营收及美国对华AI政策"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "Alarum遭FBI调查，股价暴跌超50%",
-        "assets": "📉 Alarum Technologies 利空",
-        "chain": "监管调查风险（FBI介入）引发恐慌抛售，同行业网络安全小盘股可能受连带情绪冲击（流动性挤兑）。",
-        "watch": "FBI调查进展及公司是否停牌"
+        "what": "Alarum Technologies遭FBI调查，股价暴跌超50%",
+        "assets": "📉 Alarum Technologies 利空，📉 网络安全板块 承压",
+        "chain": "监管调查（regulatory probe）引发信任危机，同板块个股遭拖累",
+        "watch": "FBI调查进展及公司后续回应"
       }
     },
     {
@@ -65,10 +65,10 @@
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "LV起诉中国茶饮品牌胜诉，引发版权争议",
-        "assets": "📈 奢侈品龙头 利好，📉 中国山寨品牌 承压",
-        "chain": "判决强化奢侈品商标保护（知识产权壁垒），可能抑制中国本土品牌模仿策略，利好正品溢价能力。",
-        "watch": "中国法院后续类似判例及茶饮品牌股价反应"
+        "what": "LV起诉中国茶饮品牌侵权引发版权争议",
+        "assets": "📈 奢侈品板块 中性，📉 中国山寨品牌 承压",
+        "chain": "跨国知识产权（IP）维权案例增多，影响中企出海策略",
+        "watch": "中国法院判决及LV品牌保护行动"
       }
     },
     {
@@ -79,38 +79,38 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "三星业绩引发资金轮动至冷门板块",
-        "assets": "📉 科技股 承压，📈 能源/防御板块 利好",
-        "chain": "三星业绩不及预期（半导体需求见顶信号）触发科技获利了结，资金转向低估值行业（价值股轮动）。",
-        "watch": "后续科技巨头财报及板块ETF（交易所交易基金）资金流向"
+        "what": "三星业绩触发资金从科技股轮动至冷门板块",
+        "assets": "📉 美股科技股 承压，📈 能源/公用事业 利好",
+        "chain": "板块轮动（sector rotation）因科技估值过高（overvalued），资金寻求价值洼地",
+        "watch": "罗素2000指数（小盘股）相对表现"
       }
     },
     {
       "rank": 7,
+      "title": "Rivian stock falls 10% as company sells 75 million shares to raise capital - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "Rivian发行7500万股融资，股价跌超10%",
+        "assets": "📉 Rivian 利空，📉 电动汽车板块 承压",
+        "chain": "稀释效应（dilution）打击股价，反映电动车行业现金流紧张（cash crunch）",
+        "watch": "Rivian交付量及毛利率数据"
+      }
+    },
+    {
+      "rank": 8,
       "title": "Stock Market Today: Nasdaq Slides After Samsung Sparks Tech Selloff — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克下跌，三星引发科技股抛售",
-        "assets": "📉 美股科技股 承压",
-        "chain": "三星作为全球半导体风向标，其疲软需求预期传导至美股芯片股，拖累纳指（科技股主导指数）表现。",
-        "watch": "费城半导体指数（SOX）走势及台积电财报"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Rivian stock down on 75 million share sale, preannounces Q2 revenue - Yahoo Finance UK",
-      "source": "Yahoo Finance UK",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "Rivian宣布出售7500万股，股价下跌",
-        "assets": "📉 Rivian 利空，📉 电动车板块 承压",
-        "chain": "股权稀释（增发扩大股本）压低每股价值，同时预披露Q2营收不及预期，加剧现金流担忧（烧钱风险）。",
-        "watch": "Rivian增发定价及后续融资计划"
+        "what": "纳指因三星引发科技抛售而下跌",
+        "assets": "📉 纳指 承压，📉 半导体ETF 利空",
+        "chain": "AI需求担忧（demand worry）触发获利了结（profit-taking），拖累整体科技板块",
+        "watch": "费城半导体指数（SOX）走势"
       }
     },
     {
@@ -121,10 +121,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Rivian跌超10%，因出售7500万股融资",
-        "assets": "📉 Rivian 利空",
-        "chain": "大规模股权融资暗示流动性紧张（现金短缺），市场抛售反映对电动车企业盈利前景的悲观情绪。",
-        "watch": "Rivian现金消耗率及新车订单数据"
+        "what": "Rivian因7500万股融资计划股价跌超10%",
+        "assets": "📉 Rivian 利空，📉 电动车行业 承压",
+        "chain": "融资稀释股东权益（dilution），市场担忧其烧钱速度（cash burn）",
+        "watch": "Rivian现金储备及季度亏损"
       }
     },
     {
@@ -135,10 +135,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "市场噪音多，投资者难辨真实股市状态",
-        "assets": "📉 整体市场 波动性上升",
-        "chain": "宏观数据、财报、地缘事件交织，导致信号混乱（信息过载），可能引发交易量萎缩和短期套利策略（高频交易）活跃。",
-        "watch": "VIX（恐慌指数）及市场宽度指标（涨跌家数比）"
+        "what": "市场噪音增多，投资者难辨股市真实状态",
+        "assets": "📉 美股大盘 中性，📈 波动率指数（VIX） 利好",
+        "chain": "信息过载（information noise）导致交易策略失效，避险情绪推高波动率",
+        "watch": "标普500指数20日均线及VIX趋势"
       }
     }
   ]
