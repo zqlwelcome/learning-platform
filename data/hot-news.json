@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 13:21",
+  "updateTime": "2026-07-07 13:25",
   "news": [
     {
       "rank": 1,
@@ -9,28 +9,14 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "贝莱德称中国AI机会是个股驱动，非板块行情",
-        "assets": "📉 中国AI概念股 分化",
-        "chain": "选股逻辑强化（个股α>板块β），资金从ETF转向精选个股，降低板块整体资金流入",
-        "watch": "中国AI个股财报及研发投入数据"
+        "what": "贝莱德称中国AI是个股机会，非板块行情",
+        "assets": "📈 中国AI个股（如百度） 分化；📉 中国科技ETF 承压",
+        "chain": "资金从中国AI板块（行业整体）转向精选个股，减少被动配置（买指数）",
+        "watch": "中国AI个股财报及贝莱德持仓变化"
       }
     },
     {
       "rank": 2,
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures slip with AI trade in focus - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 42,
-      "insight": {
-        "what": "美股期指下跌，AI交易焦点引发市场谨慎",
-        "assets": "📉 美股大盘 承压，📉 AI概念股 回调",
-        "chain": "AI估值泡沫担忧（高预期下的回调风险）传导至整体科技板块，引发避险情绪",
-        "watch": "科技股财报季及美联储利率决议"
-      }
-    },
-    {
-      "rank": 3,
       "title": "AMD Stock Rises as Goldman Sees Big Earnings Coming - Barron's",
       "source": "Barron's",
       "detail": "黄金价格受避险情绪和美元走势影响，关注地缘局势变化。",
@@ -38,65 +24,79 @@
       "score": 41,
       "insight": {
         "what": "高盛预计AMD盈利大增，股价上涨",
-        "assets": "📈 AMD 利好，📈 半导体板块 利好",
-        "chain": "AI算力需求（数据中心芯片订单）拉动AMD业绩预期，或带动芯片股轮动（资金从NVDA流向AMD）",
-        "watch": "AMD下季度财报及数据中心收入指引"
+        "assets": "📈 AMD 利好；📈 美股半导体 情绪提振",
+        "chain": "利好AI芯片需求（算力），可能拉动英伟达等同行估值（市盈率）",
+        "watch": "AMD下周财报及数据中心营收指引"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
       "source": "CNBC",
       "detail": "Recent model releases from Chinese companies including DeepSeek and Z.ai are seen by many as highly competitive compared to leading U.S. frontier systems.",
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型因美国公司成本飙升获青睐",
-        "assets": "📈 中国AI概念股 利好，📉 美国AI服务商 承压",
-        "chain": "中美AI成本套利（美国模型涨价→中国替代需求），加速中国AI商业化落地",
-        "watch": "中国AI公司客户签约及美国模型定价变动"
+        "what": "中国AI模型因OpenAI、Anthropic成本飙升而获美企青睐",
+        "assets": "📈 中国AI概念股（如百度） 利好；📉 OpenAI相关股 承压",
+        "chain": "中国AI公司抢占市场份额（市占率），成本优势驱动替代效应（用便宜货）",
+        "watch": "中国AI模型客户签约数量及价格变动"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "三星利润暴涨19倍背后：存储周期正在改变AI硬件公司的估值逻辑",
       "source": "新浪财经",
       "detail": "文/罗茜  AI数据中心对内存芯片的需求暴增，正在把全球存储行业推入新一轮上行周期。三星电子最新业绩显示，存储涨价已经明显转化为上游厂商利润...",
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "三星利润暴涨19倍，存储周期改变AI硬件估值",
-        "assets": "📈 存储芯片股 利好，📈 AI硬件股 利好",
-        "chain": "存储周期反转（HBM（高带宽内存）需求驱动）→AI硬件估值重塑（从增长溢价转向周期溢价）",
-        "watch": "HBM价格走势及三星下季度出货量"
+        "what": "三星利润暴增19倍，存储周期改变AI硬件估值",
+        "assets": "📈 三星电子 利好；📈 存储芯片（如美光） 估值重估",
+        "chain": "存储涨价（HBM高带宽内存）提升AI硬件利润率（赚钱效率），可能带动整个半导体周期",
+        "watch": "三星HBM出货量及存储芯片现货价格"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴禁止员工使用Anthropic AI，指控蒸馏攻击",
-        "assets": "📉 Anthropic AI 利空，📈 中国AI模型 利好",
-        "chain": "中美AI竞争加剧（技术封锁→本土替代），或引发更多中国公司转向国内模型",
-        "watch": "中美AI监管政策及阿里自研模型进展"
+        "what": "阿里因“蒸馏攻击”指控禁止员工使用Anthropic AI",
+        "assets": "📉 Anthropic 利空；📈 阿里自研AI（通义千问） 利好",
+        "chain": "中美AI竞争加剧（技术封锁），国产替代（用自家模型）逻辑强化",
+        "watch": "阿里AI模型商用进展及中美AI监管动态"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Black hair care pioneer George E. Johnson Sr. dies at 99 - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "黑人护发先驱乔治·约翰逊去世，享年99岁",
+        "assets": "无直接影响",
+        "chain": "无",
+        "watch": "无"
       }
     },
     {
       "rank": 7,
-      "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
+      "title": "Samsung Electronics shares fall as capex, demand concerns cloud record Q2 profit report",
       "source": "CNBC",
-      "detail": "国际财经动态，关注后续发展。",
+      "detail": "Samsung Electronics shares fell even after record preliminary Q2 profit as capex and demand concerns clouded the outlook.",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星创纪录二季度利润但股价下跌",
-        "assets": "📉 三星电子 利空，📉 存储芯片股 承压",
-        "chain": "利好兑现（buy the rumor sell the fact）+ 估值过高（利润增长已定价），引发获利了结",
-        "watch": "三星三季度盈利指引及存储芯片现货价格"
+        "what": "三星股价因资本支出和需求担忧下跌，尽管Q2利润创纪录",
+        "assets": "📉 三星电子 利空；📉 半导体设备股 承压",
+        "chain": "资本支出（花钱扩产）超预期引发供应过剩担忧（库存积压），压制盈利预期",
+        "watch": "三星Q3资本支出指引及存储芯片需求数据"
       }
     },
     {
@@ -107,28 +107,14 @@
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "三星业绩触发资金轮动至冷门板块",
-        "assets": "📉 科技股 承压，📈 能源/材料股 利好",
-        "chain": "板块轮动（科技→周期），资金从高估值科技股转向低估值价值股",
-        "watch": "资金流向数据及冷门板块业绩"
+        "what": "三星业绩引发资金轮动至冷门板块",
+        "assets": "📉 科技股（如三星） 承压；📈 防御板块（如公用事业） 利好",
+        "chain": "资金从高估值科技（贵股票）流向低估值周期（便宜股票），风格切换（板块轮动）",
+        "watch": "MSCI全球指数行业权重变化及资金流向数据"
       }
     },
     {
       "rank": 9,
-      "title": "Trump Accounts boost? Here's how much money will flow into stock market from the new program",
-      "source": "CNBC",
-      "detail": "Wells Fargo equity analyst Ohsung Kwon said nearly $20 billion should come in from the accounts.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "特朗普账户计划将大量资金注入股市",
-        "assets": "📈 美股大盘 利好，📈 小盘股 利好",
-        "chain": "流动性注入（政策驱动资金入市）→推高股市估值，尤其利好小盘股和波动率资产",
-        "watch": "计划执行细节及资金到位时间"
-      }
-    },
-    {
-      "rank": 10,
       "title": "AI投资加码之际腾讯套现快手股份近120亿港元 快手股价下挫10%",
       "source": "环球市场播报",
       "detail": "中国短视频平台快手最新宣布股东腾讯控股出售逾2.7亿股公司B类股份，持股比例降低10%以内，对应套现约118亿港元。花旗分析师指出...",
@@ -136,9 +122,23 @@
       "score": 27,
       "insight": {
         "what": "腾讯套现快手120亿港元，快手股价暴跌10%",
-        "assets": "📉 快手 利空，📉 港股科技股 承压",
-        "chain": "大股东减持（腾讯去杠杆）→市场信心受挫，或引发其他科技股跟跌（流动性抽离）",
-        "watch": "腾讯后续减持计划及快手回购动作"
+        "assets": "📉 快手 利空；📈 腾讯 利好（现金回笼）",
+        "chain": "大股东减持（卖股票）引发恐慌抛售（跟风卖），压制互联网平台股情绪",
+        "watch": "快手回购计划及腾讯后续减持公告"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "President Rings Stock Market Opening Bell to Celebrate Trump Accounts - The New York Times",
+      "source": "The New York Times",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "总统敲响开市钟庆祝特朗普账户",
+        "assets": "无直接影响",
+        "chain": "无",
+        "watch": "无"
       }
     }
   ]
