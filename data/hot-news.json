@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 08:25",
+  "updateTime": "2026-07-07 08:30",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "前OpenAI研究员的对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士（SK Hynix）利好；📈 美股半导体板块 利好",
-        "chain": "AI芯片需求旺盛，SK海力士IPO若成功，将提振HBM（高带宽内存）供应链和芯片股估值",
-        "watch": "SK海力士IPO定价及首日表现"
+        "what": "宇树科技IPO注册生效",
+        "assets": "📈 人形机器人板块 利好；📈 科创板 利好",
+        "chain": "IPO重启（融资通道打开）提振科技股估值，利好机器人产业链上游",
+        "watch": "宇树科技发行价及首日涨幅"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 49,
       "insight": {
-        "what": "美股收高，黄金跌，原油跌至五个月低点，微软裁员，博通与苹果延长芯片供应协议",
-        "assets": "📉 黄金 承压；📉 原油 承压；📈 美股科技股 利好；📈 博通（AVGO）利好",
-        "chain": "原油下跌反映需求疲软，但科技股受苹果博通协议提振，避险资产（黄金）遭抛售",
-        "watch": "美国EIA原油库存数据；苹果财报"
+        "what": "美股收高，黄金下跌，原油跌至五个月低点",
+        "assets": "📈 美股 利好；📉 黄金 承压；📉 原油 承压",
+        "chain": "风险偏好（资金从避险转向冒险）提升压制避险资产，油价受需求担忧拖累",
+        "watch": "EIA原油库存数据及美联储利率决议"
       }
     },
     {
@@ -37,66 +37,60 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴因'蒸馏攻击'指控禁止员工使用Anthropic AI",
-        "assets": "📉 Anthropic AI 利空；📉 中国AI概念股 承压",
-        "chain": "大厂封杀外部AI模型，加剧AI安全担忧，可能推动企业自研模型（内部化）",
-        "watch": "Anthropic回应及后续客户流失情况"
+        "what": "Jim Cramer推荐5只轮动期间买入股票",
+        "assets": "📈 推荐个股 利好；📈 周期股 利好",
+        "chain": "市场轮动（资金从科技转向价值）暗示周期板块获关注，但需警惕跟风风险",
+        "watch": "Cramer推荐名单具体标的及板块表现"
       }
     },
     {
       "rank": 4,
-      "title": "Micron stock has now plunged to a surprising level - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "美光（Micron）股价跌至惊人低位",
-        "assets": "📉 美光（MU）利空；📉 存储芯片板块 承压",
-        "chain": "存储芯片周期下行，美光估值压缩，可能拖累整个半导体ETF（科技行业基金）",
-        "watch": "美光财报及库存周转天数"
-      }
-    },
-    {
-      "rank": 5,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里巴巴因'蒸馏攻击'指控禁止员工使用Anthropic AI",
-        "assets": "📉 Anthropic AI 利空；📉 中国AI概念股 承压",
-        "chain": "大厂封杀外部AI模型，加剧AI安全担忧，可能推动企业自研模型（内部化）",
-        "watch": "Anthropic回应及后续客户流失情况"
-      }
+      "score": 32
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "防范系统性风险与理财越界，英监管机构评估纳管AI金融服务",
       "source": "环球市场播报",
       "detail": " 鉴于ChatGPT、Claude和Gemini等大型语言模型对消费者财务决策的影响日益增加，英国金融监管机构被敦促考虑对这些模型进行监管。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "英国监管机构评估将AI纳入金融服务监管，防范系统性风险",
-        "assets": "📉 英国金融科技股 承压；📉 AI应用股 利空",
-        "chain": "监管收紧增加合规成本，可能限制AI在交易/风控中的使用（模型黑箱风险）",
-        "watch": "英国FCA（金融行为监管局）具体规则草案"
+        "what": "英监管机构评估将AI纳入金融服务监管",
+        "assets": "📉 金融科技股 承压；📈 合规科技 利好",
+        "chain": "监管风险（新规增加合规成本）限制AI应用扩张，利好合规软件供应商",
+        "watch": "英国金融行为监管局（FCA）具体细则发布"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "Samsung forecasts 19-fold jump in quarterly profit as AI demand fuels chip crunch - Reuters",
       "source": "Reuters",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星预测Q4利润飙升19倍，AI需求导致芯片短缺",
-        "assets": "📈 三星（SSNLF）利好；📈 存储芯片股 利好",
-        "chain": "AI推高HBM（高带宽内存）和DDR5（第五代内存）需求，芯片短缺利好存储厂商定价权",
-        "watch": "三星HBM产能扩张计划及订单量"
+        "what": "三星预测季度利润暴增19倍，AI需求导致芯片短缺",
+        "assets": "📈 三星电子 利好；📈 半导体板块 利好",
+        "chain": "AI芯片短缺（供需失衡）推高存储芯片价格，利好整个产业链",
+        "watch": "三星Q3指引及HBM出货量数据"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "宇树科技，IPO注册生效！",
+      "source": "央视",
+      "detail": "央视财经记者获悉，7月6日，上海证券交易所官网显示，宇树科技股份有限公司科创板IPO审核状态变更为“注册生效”。 上交所官网显示...",
+      "lang": "zh",
+      "score": 30,
+      "insight": {
+        "what": "前OpenAI研究员对冲基金押注SK海力士美国IPO",
+        "assets": "📈 SK海力士 利好；📈 存储芯片板块 利好",
+        "chain": "AI算力需求（大模型训练需要更多芯片）推动存储芯片采购，利好HBM（高带宽存储器）供应商",
+        "watch": "SK海力士IPO定价及首日表现"
       }
     },
     {
@@ -107,10 +101,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克上涨，科技股迎来繁忙一周",
-        "assets": "📈 美股科技股 利好；📈 纳斯达克指数 利好",
-        "chain": "科技股领涨，资金轮动至成长股（高估值高增长股），可能挤压防御型（公用事业）板块",
-        "watch": "本周科技巨头财报（微软、谷歌等）"
+        "what": "阿里巴巴禁止员工使用Anthropic AI，指控蒸馏攻击",
+        "assets": "📉 阿里巴巴 利空；📈 国产AI模型 利好",
+        "chain": "数据安全（防止模型参数被窃取）加速国产替代，短期增加AI研发成本",
+        "watch": "阿里巴巴云业务营收及合规政策更新"
       }
     },
     {
@@ -121,10 +115,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普账户计划将为股市注入新资金",
-        "assets": "📈 美股大盘 利好；📈 金融股 利好",
-        "chain": "新资金流入提升流动性，利好经纪商和银行股（交易量增加）",
-        "watch": "该计划实际落地资金规模及时间表"
+        "what": "纳斯达克上涨，科技股领涨周初",
+        "assets": "📈 纳斯达克 利好；📈 科技股 利好",
+        "chain": "资金轮动（从防御转向成长）推动科技板块，AI叙事持续吸引买盘",
+        "watch": "本周美债收益率及科技巨头财报"
       }
     },
     {
@@ -135,10 +129,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Jim Cramer推荐这5只股票应对市场轮动",
-        "assets": "📈 被推荐的个股（如科技、工业）利好",
-        "chain": "市场从防御转向周期/科技，Cramer的推荐可能引发散户跟风（羊群效应）",
-        "watch": "Cramer名单公布后个股成交量变化"
+        "what": "特朗普账户提振计划，预测资金流入股市",
+        "assets": "📈 美股大盘 利好；📈 散户概念股 利好",
+        "chain": "政策预期（减税或财政刺激）推高风险偏好，但执行存不确定性",
+        "watch": "法案进展及民调变化"
       }
     }
   ]
