@@ -1,36 +1,22 @@
 {
-  "updateTime": "2026-07-07 10:06",
+  "updateTime": "2026-07-07 10:11",
   "news": [
     {
       "rank": 1,
-      "title": "Stock Market News, July 6, 2026: Dow Rises to Record, Nasdaq Starts Busy Tech Week With Gains - WSJ",
-      "source": "WSJ",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 52,
-      "insight": {
-        "what": "道指创新高，科技股领涨纳指",
-        "assets": "📈 美股科技股 利好；📈 道指 创新高",
-        "chain": "资金轮动（板块切换）至科技，推升风险偏好（愿意买高风险资产），利空避险资产",
-        "watch": "科技股财报季是否持续超预期"
-      }
-    },
-    {
-      "rank": 2,
       "title": "Hedge fund run by ex-OpenAI researcher bets on SK Hynix’s US IPO - Financial Times",
       "source": "Financial Times",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "前OpenAI研究员的对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士 利好；📈 AI半导体板块 利好",
-        "chain": "AI硬件需求（算力芯片）受认可，可能吸引更多资金追逐AI产业链IPO",
-        "watch": "SK海力士IPO定价及首日涨幅"
+        "what": "前OpenAI研究员旗下对冲基金押注SK海力士美国IPO",
+        "assets": "📈 SK海力士 利好；📈 美股半导体 利好",
+        "chain": "SK海力士是AI存储龙头，其IPO吸引资金，传导至美光等存储股（行业联动），同时强化AI硬件需求预期。",
+        "watch": "SK海力士IPO定价及首日表现、AI芯片订单数据"
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "If the stock market’s double bubble bursts, it could usher in the next crash - MarketWatch",
       "source": "MarketWatch",
       "detail": "国际财经动态，关注后续发展。",
@@ -38,87 +24,101 @@
       "score": 47
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "国际金价带崩贵金属？招金黄金触及跌停，摩根大通预计黄金将达到4500美元",
       "source": "市场资讯",
       "detail": "文章来源：财闻 消息面上，当日，现货白银日内跌幅扩大至1%，报61.37美元/盎司。现货黄金回落至4150美元/盎司下方，日内跌0.34%。",
       "lang": "zh",
       "score": 42,
       "insight": {
-        "what": "文章警告美股双泡沫（科技+整体）若破裂将引发崩盘",
-        "assets": "📉 美股大盘 承压；📉 科技成长股 承压",
-        "chain": "泡沫论打压情绪，若回调触发程序化抛售（算法自动卖盘），放大跌幅",
-        "watch": "VIX（恐慌指数）是否突破20；科技股资金流出量"
+        "what": "招金黄金跌停，摩根大通仍看多黄金至4500美元",
+        "assets": "📈 黄金 利空出尽；📉 招金黄金 利空；📉 贵金属板块 承压",
+        "chain": "短期金价回调源于获利了结（卖出套现），但长期看美联储降息（借钱成本降低）预期和央行购金支撑金价，贵金属股或先跌后稳。",
+        "watch": "COMEX黄金期货持仓变化、美国CPI数据"
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "title": "日本名义薪资增幅再次突破3% 料强化日本央行加息立场",
       "source": "环球市场播报",
       "detail": "日本5月份薪资再次上涨，涨幅远超通胀，料进一步强化日本央行加息立场。 厚生劳动省周二公布的数据显示，5月份名义薪资同比增长3.2%，4月增幅经修正后为3.6%。",
       "lang": "zh",
       "score": 36,
       "insight": {
-        "what": "国际金价大跌，招金矿业跌停，摩根大通仍看多至4500美元",
-        "assets": "📉 黄金 短期承压；📉 贵金属矿业股 利空",
-        "chain": "金价急跌触发止损盘（被迫平仓），但长线看多预期可能吸引抄底资金",
-        "watch": "COMEX（纽约商品交易所）黄金期货持仓变化；美元指数"
+        "what": "市场分析警告股市‘双泡沫’破裂或引发崩盘",
+        "assets": "📉 美股大盘 承压；📉 科技股 承压",
+        "chain": "双泡沫（估值泡沫+流动性泡沫）破裂触发恐慌抛售，资金逃向避险资产（如美债、黄金），加速市场去杠杆（减少借贷投资）。",
+        "watch": "VIX波动率指数（恐慌指标）、美联储流动性数据"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "日本名义薪资增速再次突破3%，强化加息预期",
-        "assets": "📈 日元 利好；📈 日本国债收益率 上行",
-        "chain": "薪资-通胀螺旋（工资涨推高物价）加速，日央行加息概率上升，利空日股",
-        "watch": "日本央行7月会议是否暗示加息；核心CPI（剔除食品能源的通胀）"
+        "what": "日本名义薪资增幅超3%，强化加息预期",
+        "assets": "📈 日元 利好；📉 日债 利空（收益率上升）；📉 日股 承压",
+        "chain": "薪资增长推升通胀（物价上涨），日本央行加息概率加大，日元升值（货币变贵）打压出口股，但利好银行股（息差扩大）。",
+        "watch": "日本央行下次会议声明、10年期日债收益率"
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴禁止员工使用Anthropic AI，指控其蒸馏攻击（窃取模型知识）",
-        "assets": "📉 Anthropic 利空；📈 阿里云AI 利好",
-        "chain": "中美AI竞争加剧，企业自研模型（如阿里通义）替代外部API（应用程序接口）成趋势",
-        "watch": "阿里云AI业务收入增速；Anthropic客户流失率"
+        "what": "阿里禁止员工使用Anthropic AI，指控其‘蒸馏攻击’",
+        "assets": "📉 Anthropic 利空；📈 阿里云 利好；📈 中国AI模型 利好",
+        "chain": "蒸馏攻击（用大模型数据训练小模型）引发技术封锁，阿里转向自研模型，利好国产替代（如通义千问），但加剧中美AI脱钩（技术分离）。",
+        "watch": "中美AI企业合作动态、阿里云财报"
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "title": "AI chip boom lifts Samsung profits by 1,800% - BBC",
       "source": "BBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "AI芯片需求爆发，三星利润同比暴增1800%",
-        "assets": "📈 三星电子 利好；📈 AI芯片（HBM高带宽内存） 利好",
-        "chain": "AI算力投资（数据中心）拉动存储芯片需求，但高基数后增速可能放缓",
-        "watch": "三星HBM（高带宽内存）出货量；英伟达订单指引"
+        "what": "AI芯片热潮推动三星利润暴增1800%",
+        "assets": "📈 三星 利好；📈 全球半导体 利好；📈 AI芯片股 利好",
+        "chain": "HBM（高带宽内存）需求爆发，三星受益于AI算力军备竞赛（企业争抢芯片），利润飙升但股价下跌或反映市场已提前定价（利好出尽）。",
+        "watch": "三星HBM出货量、英伟达财报"
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "title": "Samsung Electronics sees record preliminary 2Q profit but shares fall",
       "source": "CNBC",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 30,
       "insight": {
-        "what": "三星Q2利润创纪录但股价下跌，预期已提前消化",
-        "assets": "📉 三星电子 短期承压；📈 存储芯片板块 中性",
-        "chain": "利好出尽（好消息已被定价），获利盘抛压，需等下一催化剂",
-        "watch": "三星Q3营收指引；DRAM（动态随机存取存储器）现货价格"
+        "what": "三星二季度利润创纪录，但股价下跌",
+        "assets": "📉 三星 利空出尽；📉 韩国KOSPI 承压",
+        "chain": "利润创新高但股价跌，说明市场已消化利好，且担忧AI需求持续性或竞争加剧（如SK海力士抢单），资金可能获利了结（卖出套现）。",
+        "watch": "三星HBM市场份额变化、存储芯片价格走势"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Stock Market Today: Nasdaq Rises at Start of Busy Week for Tech Stocks — Live Updates - WSJ",
+      "source": "WSJ",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "纳斯达克上涨，科技股迎来繁忙周",
+        "assets": "📈 纳斯达克 利好；📈 美股科技股 利好",
+        "chain": "科技股财报季开启，AI和云服务业绩预期推高指数，但高估值下波动加大（涨跌更快），资金从防御股（如公用事业）轮动至成长股（高增长公司）。",
+        "watch": "苹果、微软等巨头财报、AI相关指引"
       }
     },
     {
@@ -129,10 +129,10 @@
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普账户计划为股市注入新资金",
-        "assets": "📈 美股大盘 利好；📈 中小盘股 利好",
-        "chain": "散户资金流入（新增买盘）推高流动性，但长期依赖政策持续性",
-        "watch": "该计划实际落地规模；散户资金流入量"
+        "what": "特朗普账户计划或为股市注入大量资金",
+        "assets": "📈 美股大盘 利好；📈 金融股 利好",
+        "chain": "新计划（如减税或刺激政策）释放流动性（更多钱流通），推高风险资产，但若政策不可持续，可能引发通胀（物价上涨）和美联储收紧（加息）。",
+        "watch": "计划细节公布、国会通过概率、美债收益率"
       }
     }
   ]
