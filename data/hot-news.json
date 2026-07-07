@@ -1,144 +1,144 @@
 {
-  "updateTime": "2026-07-07 08:01",
+  "updateTime": "2026-07-07 08:11",
   "news": [
     {
       "rank": 1,
-      "title": "Hedge fund run by ex-OpenAI researcher bets on SK Hynix’s US IPO - Financial Times",
-      "source": "Financial Times",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 50,
-      "insight": {
-        "what": "前OpenAI研究员对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士(美股) 利好; 📉 三星电子 承压",
-        "chain": "AI芯片需求验证，或引发存储芯片板块资金轮动（资金从其他存储股流向SK）",
-        "watch": "SK海力士IPO定价及首日涨幅"
-      }
-    },
-    {
-      "rank": 2,
       "title": "7月7日隔夜要闻：美股收高 黄金下跌 原油跌至五个月低点 微软裁员 博通与苹果延长芯片供应协议至2031年",
       "source": "环球市场播报",
       "detail": "市场 7月7日收盘：美股周一收高，道指突破53000点创历史新高 7月7日美股成交额前20：SpaceX即将正式纳入纳斯达克100指数 7月7日热门中概股普涨 台积电涨4.07%，蔚来涨4...",
       "lang": "zh",
       "score": 49,
       "insight": {
-        "what": "美股收高，黄金跌，原油跌至五个月低点",
-        "assets": "📈 美股科技股 反弹; 📉 黄金 承压; 📉 原油 承压",
-        "chain": "避险情绪降温（资金从黄金流出），原油需求担忧加剧（经济放缓信号）",
-        "watch": "EIA原油库存数据及美联储7月会议纪要"
+        "what": "美股收高，黄金下跌，原油跌至五个月低点",
+        "assets": "📈 美股大盘 利好；📉 黄金 承压；📉 原油 利空",
+        "chain": "经济衰退担忧（经济变差预期）压制原油需求，避险情绪（买黄金避险）减弱拉低黄金",
+        "watch": "原油库存数据及美联储利率决议"
       }
     },
     {
-      "rank": 3,
-      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里巴巴因‘蒸馏攻击’指控禁止员工使用Anthropic AI",
-        "assets": "📉 阿里巴巴(港股) 承压; 📈 国内AI替代品(如百度文心) 利好",
-        "chain": "国内AI安全监管趋严（企业合规成本上升），利好本土AI模型厂商",
-        "watch": "阿里巴巴后续对AI合作方的调整声明"
-      }
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴因‘蒸馏攻击’指控禁止员工使用Anthropic AI",
-        "assets": "📉 阿里巴巴(美股) 承压; 📈 国内AI替代品 利好",
-        "chain": "AI模型安全争议升级，可能引发更多中国企业限制海外AI工具",
-        "watch": "阿里巴巴与Anthropic的纠纷是否进入法律程序"
+        "what": "阿里禁止员工使用Anthropic AI，指控其蒸馏攻击",
+        "assets": "📉 AI概念股 利空；📈 阿里云 利好",
+        "chain": "中国AI监管趋严（政策收紧），限制外部模型使用，利好本土AI服务商（如阿里云）",
+        "watch": "中国AI监管新规及Anthropic回应"
       }
     },
     {
-      "rank": 5,
+      "rank": 3,
       "title": "防范系统性风险与理财越界，英监管机构评估纳管AI金融服务",
       "source": "环球市场播报",
       "detail": " 鉴于ChatGPT、Claude和Gemini等大型语言模型对消费者财务决策的影响日益增加，英国金融监管机构被敦促考虑对这些模型进行监管。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "英监管机构评估将AI纳入金融服务监管，防范系统性风险",
-        "assets": "📉 金融科技股(英国) 承压; 📈 合规科技股 利好",
-        "chain": "AI监管不确定性增加（金融机构调整成本上升），但利好合规服务商",
-        "watch": "英国金融行为监管局(FCA)后续AI监管细则"
+        "what": "英监管机构评估将AI纳入金融服务监管",
+        "assets": "📉 金融科技股 承压；📈 合规科技股 利好",
+        "chain": "监管成本上升（企业为合规多花钱），压缩金融科技利润，但利好合规服务商",
+        "watch": "英国金融行为监管局（FCA）AI指引细则"
       }
     },
     {
-      "rank": 6,
+      "rank": 4,
       "title": "美联储理事沃勒：前瞻指引仍是重要政策工具 但应避免过度承诺",
       "source": "智通财经APP",
       "detail": " 美联储理事沃勒表示，适度运用“前瞻指引”仍是货币政策的重要工具，这有助于引导市场预期，但政策制定者在使用时应保持灵活，避免因过度承诺而限制政策调整空间。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "美联储理事沃勒：前瞻指引仍是工具，但应避免过度承诺",
-        "assets": "📈 美元指数 震荡; 📈 美债收益率 震荡",
-        "chain": "市场预期美联储将减少‘鸽派’信号（降息预期降温），短期利率波动加大",
-        "watch": "下周美联储官员讲话及7月PPI数据"
+        "what": "美联储理事沃勒：前瞻指引重要但避免过度承诺",
+        "assets": "📈 美债 中性；📉 美元 小幅承压",
+        "chain": "市场对降息预期（借钱成本降低）可能过度定价，沃勒言论抑制鸽派（宽松货币政策）押注",
+        "watch": "后续美联储官员讲话及点阵图"
       }
     },
     {
-      "rank": 7,
-      "title": "美国股市：科技股反弹推动大盘走高 AI交易重获动能",
-      "source": "环球市场播报",
-      "detail": "美国股市周一上涨，投资者在上周对人工智能交易出现动摇后再度涌入科技股。 纳斯达克100指数上涨1.3%，标普500指数上涨0.7%，信息技术、通信服务和非必需消费品板块领涨。",
-      "lang": "zh",
-      "score": 27,
-      "insight": {
-        "what": "科技股反弹推动美股走高，AI交易重获动能",
-        "assets": "📈 美股科技股(如英伟达) 利好; 📈 纳斯达克指数 利好",
-        "chain": "资金轮动回科技板块（防御性板块资金流出），AI算力需求预期升温",
-        "watch": "英伟达财报及科技股资金流向数据"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "Stock Market Today: Nasdaq Rises at Start of Busy Week for Tech Stocks — Live Updates - WSJ",
-      "source": "WSJ",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "纳斯达克在科技股繁忙周初上涨",
-        "assets": "📈 美股科技股 利好; 📈 纳斯达克100指数 利好",
-        "chain": "科技股财报季预期推动（乐观情绪扩散），但需警惕业绩不及预期的回调",
-        "watch": "苹果、微软等科技巨头本周财报"
-      }
-    },
-    {
-      "rank": 9,
+      "rank": 5,
       "title": "Trump Accounts boost? Here's how much money will flow into stock market from the new program",
       "source": "CNBC",
       "detail": "Wells Fargo equity analyst Ohsung Kwon said nearly $20 billion should come in from the accounts.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普新计划预计为股市带来增量资金",
-        "assets": "📈 美股大盘(标普500) 利好; 📈 金融股 利好",
-        "chain": "政策刺激预期提振风险偏好（资金从债市流入股市），但需关注执行细节",
-        "watch": "特朗普计划具体政策文件及国会审批进展"
+        "what": "特朗普账户计划将资金流入股市",
+        "assets": "📈 美股大盘 利好；📈 小盘股 利好",
+        "chain": "新项目吸引散户资金（个人投资者钱），流动性（市场资金量）增加推动短期上涨",
+        "watch": "项目具体规模及执行时间表"
       }
     },
     {
-      "rank": 10,
+      "rank": 6,
       "title": "Jim Cramer says these are the 5 stocks to buy during this market rotation",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said investors should use the latest market rotation as an opportunity to buy high-quality companies.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Jim Cramer推荐5只股票应对市场轮动",
-        "assets": "📈 推荐个股(如防御性板块) 利好; 📉 其他高估值股 承压",
-        "chain": "散户跟风买入（短期推高推荐股），但轮动可能加速资金从成长股流向价值股",
-        "watch": "Cramer推荐列表及后续资金流向数据"
+        "what": "Jim Cramer推荐市场轮动中买入5只股票",
+        "assets": "📈 周期股 利好；📈 价值股 利好",
+        "chain": "资金从科技成长股（高增长公司）转向防御或价值股（便宜股票），风格切换",
+        "watch": "Cramer推荐名单及板块轮动数据"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
+      "source": "CNBC",
+      "detail": "Mike Khouw gives a trade on Rivian and Tesla, informed by his wife's recent auto purchase.",
+      "lang": "en",
+      "score": 27,
+      "insight": {
+        "what": "Rivian、特斯拉与Holly Index：如何交易新电动车大战",
+        "assets": "📈 Rivian 利好；📉 特斯拉 承压；📈 电动车板块 波动",
+        "chain": "竞争加剧（抢市场份额）压低特斯拉估值，Rivian获订单利好，但行业整体面临价格战（降价促销）",
+        "watch": "Rivian交付数据及特斯拉财报"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "美联储官员发声！大摩最新预测",
+      "source": "市场资讯",
+      "detail": "来源：中国经营报 7月7日消息，美联储理事克里斯托弗·沃勒在罗马一场会议上表示，美联储不会为了帮助美国政府为财政赤字融资，而刻意维持低利率。",
+      "lang": "zh",
+      "score": 18,
+      "insight": {
+        "what": "美联储官员发声，大摩最新预测",
+        "assets": "📈 美股 中性；📉 美债 波动",
+        "chain": "官员分歧（意见不一）导致市场对利率路径（加息或降息路径）预期混乱，增加波动",
+        "watch": "大摩预测具体内容及美联储会议纪要"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "Stock futures are little changed after Dow tops 53,000 for first time: Live updates",
+      "source": "CNBC",
+      "detail": "Monday night's action follows a winning session on Wall Street.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "道指首次突破53,000点，股指期货持平",
+        "assets": "📈 美股大盘 利好；📉 波动率指数 承压",
+        "chain": "创新高后市场情绪乐观（看涨情绪），但期货持平暗示短期回调风险（价格下跌可能）",
+        "watch": "道指能否守住53,000支撑位"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios",
+      "source": "CNBC",
+      "detail": "Microsoft is cutting jobs in its commercial business and its Xbox gaming group, where revenue has been shrinking.",
+      "lang": "en",
+      "score": 17,
+      "insight": {
+        "what": "微软裁员4800人，Xbox部门缩减并计划剥离四家工作室",
+        "assets": "📉 微软 利空；📉 游戏股 承压",
+        "chain": "科技行业裁员潮（公司削减成本）持续，游戏业务重组（调整结构）可能拖累微软营收",
+        "watch": "微软财报及游戏订阅用户增长数据"
       }
     }
   ]
