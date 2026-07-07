@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-08 01:41",
+  "updateTime": "2026-07-08 01:50",
   "news": [
     {
       "rank": 1,
@@ -9,14 +9,28 @@
       "lang": "en",
       "score": 44,
       "insight": {
-        "what": "三星业绩不及AI高预期，引发芯片股抛售",
-        "assets": "📉 全球芯片股 承压；📉 美股科技股 利空",
-        "chain": "AI算力预期降温（市场对AI芯片需求信心下降），资金轮动至防御板块（如公用事业）",
-        "watch": "后续芯片龙头财报及AI资本开支指引"
+        "what": "三星财报不及高AI预期，芯片股抛售",
+        "assets": "📉 半导体板块 利空；📈 防御性板块（公用事业） 利好",
+        "chain": "AI需求增速放缓担忧→资金轮动至防御板块→科技股估值承压（PE压缩）",
+        "watch": "三星及台积电下季度指引；AI芯片订单数据"
       }
     },
     {
       "rank": 2,
+      "title": "Here are Wall Street analysts' top S&P 500 stocks for the second half of 2026",
+      "source": "CNBC",
+      "detail": "Wall Street just wrapped a strong start for the year. Now, analysts are looking at these stocks to pick up during the second half.",
+      "lang": "en",
+      "score": 41,
+      "insight": {
+        "what": "华尔街分析师公布2026下半年标普500首选股",
+        "assets": "📈 分析师推荐个股（如能源、医疗） 结构性利好",
+        "chain": "机构调仓信号→散户跟风买入→相关板块短期资金流入（动量效应）",
+        "watch": "高盛/摩根士丹利推荐清单变化；资金流数据"
+      }
+    },
+    {
+      "rank": 3,
       "title": "Dow turns red as chip stocks tumble, oil prices gain: Live updates",
       "source": "CNBC",
       "detail": "The Dow Jones Industrial Average hit a fresh all-time intraday high on Tuesday.",
@@ -24,13 +38,13 @@
       "score": 39,
       "insight": {
         "what": "芯片股暴跌拖累道指转跌，油价上涨",
-        "assets": "📉 美股道指 承压；📈 原油 利好",
-        "chain": "科技板块资金流出（避险情绪升温），油价受地缘或供给因素支撑，通胀预期或抬头",
-        "watch": "美股科技股后续反弹力度及油价持续性"
+        "assets": "📉 道指（工业股） 承压；📈 能源板块（原油） 利好",
+        "chain": "芯片疲软→工业指数回调（成分股含英特尔等）→油价上涨对冲部分跌势",
+        "watch": "WTI原油价格突破85美元；芯片股VIX（波动率）"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "Alarum Technologies遭FBI调查，股价暴跌逾五成",
       "source": "环球市场播报",
       "detail": "多家律师事务所近日宣布对以色列科技公司Alarum Technologies发起证券欺诈调查，指控该公司可能违反联邦证券法，向投资者发布了具有重大误导性的商业信息。",
@@ -38,107 +52,93 @@
       "score": 32,
       "insight": {
         "what": "Alarum Technologies遭FBI调查，股价腰斩",
-        "assets": "📉 Alarum Technologies 暴跌；📉 网络安全板块 承压",
-        "chain": "监管风险溢价上升（市场担忧其他科技公司也面临调查），资金从高估值小盘股撤离",
-        "watch": "FBI调查进展及相关公司合规披露"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation - CNBC",
-      "source": "CNBC",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 32,
-      "insight": {
-        "what": "阿里禁止员工使用Anthropic AI，因“蒸馏攻击”指控",
-        "assets": "📈 国产AI概念股 利好；📉 Anthropic 利空",
-        "chain": "中美AI技术脱钩加速（模型竞争升级），国内AI替代需求上升，但短期扰动供应链",
-        "watch": "阿里后续AI合作动态及监管态度"
+        "assets": "📉 Alarum Technologies 利空；📉 网络安全板块 情绪利空",
+        "chain": "监管调查→退市风险溢价飙升→同板块小盘股遭恐慌性抛售（流动性危机）",
+        "watch": "FBI调查进展；公司财报真实性审计"
       }
     },
     {
       "rank": 5,
-      "title": "Louis Vuitton court victory against Chinese tea chain stirs up a debate over copyrights - ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 30,
-      "insight": {
-        "what": "LV起诉中国茶饮品牌侵权获胜，引发版权讨论",
-        "assets": "📈 国际奢侈品牌 利好；📉 中国山寨品牌 承压",
-        "chain": "知识产权保护趋严（打击仿冒），奢侈品维权成本降低，但可能抑制本土品牌创新",
-        "watch": "中国法院类似案件判决及品牌方维权动向"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 29,
-      "insight": {
-        "what": "三星业绩触发资金从科技股轮动至冷门板块",
-        "assets": "📉 科技股 承压；📈 能源、公用事业 利好",
-        "chain": "板块轮动持续（资金避险+价值回归），防御类资产（如必需消费品）受追捧",
-        "watch": "美股成交量分布及板块资金流向数据"
-      }
-    },
-    {
-      "rank": 7,
       "title": "Cramer says 'everything still revolves around Nvidia' despite its lagging stock",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said that Nvidia remains at the center of the artificial intelligence boom.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Cramer称一切仍围绕英伟达，尽管其股价滞后",
-        "assets": "📈 英伟达 长期利好；📉 其他芯片股 承压",
-        "chain": "AI龙头效应强化（市场定价锚仍是英伟达），但短期股价滞后可能引发获利了结",
-        "watch": "英伟达财报及AI订单数据"
+        "what": "Cramer称一切仍围绕英伟达，尽管股价滞后",
+        "assets": "📈 英伟达 情绪利好；📈 AI芯片股 间接利好",
+        "chain": "明星分析师背书→散户信心修复→英伟达期权隐含波动率（IV）可能反弹",
+        "watch": "英伟达财报前期权持仓变化；AI资本开支数据"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "法律人工智能初创公司Norm Ai获1.2亿美元融资，估值12亿美元",
+      "source": "环球市场播报",
+      "detail": " Norm Ai周二表示，已在由Khosla Ventures领投的C轮融资中筹集了1.2亿美元，这家法律人工智能初创企业的估值达到12亿美元。",
+      "lang": "zh",
+      "score": 25,
+      "insight": {
+        "what": "法律AI初创Norm Ai获1.2亿美元融资，估值12亿",
+        "assets": "📈 法律科技板块 利好；📈 AI应用层 利好",
+        "chain": "风投信号→法律AI赛道估值锚定→同类初创融资难度降低（示范效应）",
+        "watch": "Norm Ai客户签约数；法律行业AI采用率"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "民主党议员调查16亿美元稀土投资项目 矛头直指美国商务部长家族投行",
+      "source": "环球市场播报",
+      "detail": "多名民主党籍议员正要求康托・菲茨杰拉德公司（Cantor Fitzgerald）提供相关材料，核查该机构是否凭借与美国商务部长霍华德・卢特尼克的关联...",
+      "lang": "zh",
+      "score": 22,
+      "insight": {
+        "what": "民主党调查16亿美元稀土项目，剑指商务部长家族投行",
+        "assets": "📉 稀土板块 政治风险利空；📉 美国商务部长关联股 利空",
+        "chain": "政治调查→稀土供应链项目延迟风险→替代来源（如澳洲稀土）短期受益",
+        "watch": "调查听证会日期；稀土价格走势"
       }
     },
     {
       "rank": 8,
-      "title": "Stock market today: Nasdaq leads Dow, S&P 500 lower after Samsung, DeepSeek spark chip sell-off - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
+      "title": "Don't rely on AI for personal finance advice, study finds",
+      "source": "CNBC",
+      "detail": "Researchers who studied generative AI platforms found that personal finance recommendations could be inconsistent or biased.",
       "lang": "en",
-      "score": 27,
+      "score": 20,
       "insight": {
-        "what": "三星、DeepSeek引发芯片抛售，纳指领跌",
-        "assets": "📉 纳斯达克 承压；📉 存储芯片股 利空",
-        "chain": "AI泡沫担忧升温（高估值脆弱性），资金转向防御性资产（如债券或黄金）",
-        "watch": "纳指技术面支撑位及美联储政策信号"
+        "what": "研究称勿依赖AI提供个人理财建议",
+        "assets": "📉 AI金融顾问板块 情绪利空；📈 传统理财顾问 利好",
+        "chain": "监管风险升温→AI金融产品合规成本上升→用户回流人工服务",
+        "watch": "SEC对AI理财的监管声明；AI建议准确率报告"
       }
     },
     {
       "rank": 9,
-      "title": "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
+      "title": "欧洲债市：欧债下跌 加息押注升温 霍尔木兹海峡船只遇袭推高油价",
+      "source": "环球市场播报",
+      "detail": "欧洲债市下跌，此前霍尔木兹海峡及周边海域发生船只遇袭事件，推动油价走高。 德国2年期国债收益率上涨4个基点，至2.58%，盘中早些时候一度触及2.59%，为逾两周最高水平。",
+      "lang": "zh",
+      "score": 18,
       "insight": {
-        "what": "美光、三星、SK海力士拖累存储芯片进入熊市",
-        "assets": "📉 存储芯片股 熊市；📉 半导体ETF 承压",
-        "chain": "存储周期下行确认（供需失衡加剧），下游电子消费需求疲软或进一步拖累",
-        "watch": "存储芯片价格走势及库存数据"
+        "what": "欧债下跌，加息押注升温，霍尔木兹海峡船只遇袭推高油价",
+        "assets": "📉 欧洲国债 价格承压；📈 原油 地缘风险溢价",
+        "chain": "地缘事件→能源通胀预期→欧央行加息概率上升→债券抛售（利率曲线陡化）",
+        "watch": "霍尔木兹海峡航运保险费率；欧央行官员讲话"
       }
     },
     {
       "rank": 10,
-      "title": "President Rings Stock Market Opening Bell to Celebrate Trump Accounts - The New York Times",
-      "source": "The New York Times",
-      "detail": "国际财经动态，关注后续发展。",
-      "lang": "en",
-      "score": 27,
+      "title": "英国央行提议放松资本规则 尽管多重风险升温",
+      "source": "环球市场播报",
+      "detail": " 英国央行提议放宽数项资本规则，尽管官员们担心，人工智能带来的威胁加深、地缘政治前景充满不确定性，以及杠杆水平快速上升。",
+      "lang": "zh",
+      "score": 18,
       "insight": {
-        "what": "特朗普账号庆祝，总统敲响股市开盘钟",
-        "assets": "📈 特朗普概念股 利好；📈 社交媒体板块 利好",
-        "chain": "政治关联资产受提振（市场预期政策利好），但长期监管风险仍存",
-        "watch": "特朗普账号后续动态及民调变化"
+        "what": "英国央行提议放松资本规则，尽管多重风险升温",
+        "assets": "📈 英国银行股 利好；📉 英镑 贬值压力",
+        "chain": "监管松绑→银行放贷能力提升→经济刺激预期→英镑因风险偏好走弱",
+        "watch": "英国央行最终规则落地时间；银行资本充足率数据"
       }
     }
   ]
