@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-08 00:36",
+  "updateTime": "2026-07-08 00:41",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 49,
       "insight": {
-        "what": "特朗普敲响纽交所开市钟，将总统任期与股市挂钩",
+        "what": "Trump敲响纽交所开市钟，标榜股市归功于己",
         "assets": "📈 美股大盘 短期利好",
-        "chain": "强化政策市预期，若股市回调可能引发政策干预（如关税让步）",
-        "watch": "标普500指数能否守住4600点"
+        "chain": "强化政策市预期，若股市回调可能引发贸易政策调整（政策风险溢价）",
+        "watch": "标普500指数能否守住前高支撑位"
       }
     },
     {
@@ -24,9 +24,9 @@
       "score": 45,
       "insight": {
         "what": "三星创纪录利润未能缓解AI芯片担忧，纳指期货下跌",
-        "assets": "📉 全球AI芯片股 承压",
-        "chain": "三星利润高但指引弱，暗示AI需求增速放缓，拖累英伟达等（AI芯片龙头）",
-        "watch": "英伟达财报及台积电月度营收"
+        "assets": "📉 纳斯达克100 承压；📉 费城半导体指数 利空",
+        "chain": "AI硬件股遭获利了结，资金轮动至防御板块（板块轮动效应）",
+        "watch": "英伟达本周财报指引及HBM（高带宽内存）订单数据"
       }
     },
     {
@@ -38,9 +38,9 @@
       "score": 39,
       "insight": {
         "what": "芯片股暴跌拖累道指转跌，油价上涨",
-        "assets": "📉 美股半导体板块 利空；📈 原油 利好",
-        "chain": "芯片股抛售引发科技股轮动（资金从高估值转向周期股），油价因地缘风险获支撑",
-        "watch": "美国原油库存数据及费城半导体指数"
+        "assets": "📉 道指 承压；📈 原油 利好",
+        "chain": "油价走高引发通胀担忧，美联储降息预期推迟（紧缩预期升温）",
+        "watch": "WTI原油80美元关口及EIA库存数据"
       }
     },
     {
@@ -51,10 +51,10 @@
       "lang": "en",
       "score": 35,
       "insight": {
-        "what": "中国AI模型在美企业端崛起，OpenAI成本飙升",
-        "assets": "📈 中国AI概念股 利好；📉 OpenAI相关股 承压",
-        "chain": "成本优势驱动替代效应（中国AI模型降价抢份额），可能加速中美AI脱钩",
-        "watch": "百度/阿里云AI企业客户增速"
+        "what": "中国AI模型凭低成本优势吸引美国企业，替代OpenAI",
+        "assets": "📈 中国AI概念股 利好；📉 美股AI算力股 承压",
+        "chain": "中美AI竞争加剧，算力芯片需求或分流（地缘科技脱钩风险）",
+        "watch": "中国AI公司海外客户签约及美国出口管制更新"
       }
     },
     {
@@ -65,14 +65,28 @@
       "lang": "zh",
       "score": 32,
       "insight": {
-        "what": "Alarum遭FBI调查，股价暴跌超50%",
-        "assets": "📉 Alarum（网络安全股） 利空",
-        "chain": "监管风险暴露，或引发网络安全板块恐慌性抛售（如CrowdStrike）",
-        "watch": "FBI调查最终结论及同行业公司合规披露"
+        "what": "Alarum Technologies遭FBI调查，股价暴跌超50%",
+        "assets": "📉 网络安全板块 利空",
+        "chain": "监管风暴蔓延，科技股风险溢价上升（合规成本增加）",
+        "watch": "FBI调查细节及是否涉及数据泄露指控"
       }
     },
     {
       "rank": 6,
+      "title": "Louis Vuitton court victory against Chinese tea chain stirs up a debate over copyrights - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 30,
+      "insight": {
+        "what": "LV起诉中国茶饮品牌侵权胜诉，引发版权争议",
+        "assets": "📈 奢侈品板块 利好；📉 中国山寨品牌 利空",
+        "chain": "强化知识产权保护，跨国品牌维权成本降低（法律风险溢价下降）",
+        "watch": "中国最高法院是否出台类似判例指导"
+      }
+    },
+    {
+      "rank": 7,
       "title": "Samsung Results Trigger Stock Rotation to Less Loved Sectors - Bloomberg.com",
       "source": "Bloomberg.com",
       "detail": "国际财经动态，关注后续发展。",
@@ -80,27 +94,27 @@
       "score": 29,
       "insight": {
         "what": "三星业绩引发资金从科技股轮动至冷门板块",
-        "assets": "📉 全球科技股 承压；📈 能源/公用事业 利好",
-        "chain": "业绩指引弱引发获利了结，资金转向防御性板块（低估值、高股息）",
-        "watch": "罗素2000指数（小盘股）相对表现"
+        "assets": "📈 能源/公用事业板块 利好；📉 半导体板块 利空",
+        "chain": "科技股估值过高引发获利了结，价值股获资金流入（风格切换）",
+        "watch": "罗素2000指数相对纳斯达克强弱比"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Cramer says 'everything still revolves around Nvidia' despite its lagging stock",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said that Nvidia remains at the center of the artificial intelligence boom.",
       "lang": "en",
       "score": 29,
       "insight": {
-        "what": "Cramer称一切仍围绕英伟达，尽管其股价滞后",
+        "what": "Cramer称市场仍围绕英伟达，尽管股价滞后",
         "assets": "📈 英伟达 中性偏多",
-        "chain": "市场情绪锚定英伟达（AI算力风向标），其股价滞后可能预示AI泡沫修正",
-        "watch": "英伟达股价是否突破50日均线"
+        "chain": "AI叙事未变但硬件需求担忧持续，资金等待催化剂（业绩验证）",
+        "watch": "英伟达数据中心营收及Blackwell芯片出货量"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Stock Market Today: Nasdaq Slides After Samsung Sparks Tech Selloff — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
@@ -108,37 +122,23 @@
       "score": 27,
       "insight": {
         "what": "三星引发科技抛售，纳指大跌",
-        "assets": "📉 纳斯达克指数 利空",
-        "chain": "科技股抛售蔓延至整个成长股（高估值、长周期），资金转向价值股",
-        "watch": "美国10年期国债收益率（若上升加剧科技股压力）"
+        "assets": "📉 纳斯达克 利空；📉 韩国KOSPI 承压",
+        "chain": "亚洲科技股连锁反应，恐慌指数VIX（波动率指标）上升",
+        "watch": "韩国半导体出口数据及台积电月度营收"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Rivian stock falls more than 10% as company sells 75 million shares to raise capital - CNBC",
       "source": "CNBC",
       "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Rivian增发7500万股融资，股价跌超10%",
-        "assets": "📉 Rivian（电动车股） 利空",
-        "chain": "稀释股本（增发增加流通股）压低股价，反映电动车行业融资困境",
-        "watch": "Rivian季度交付量及现金消耗率"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Vertex Pharma Makes A $10 Billion Deal; Crinetics Stock Doubles - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "Vertex制药百亿美元收购，Crinetics股价翻倍",
-        "assets": "📈 生物科技股 利好（收购溢价）",
-        "chain": "大额并购提振板块信心（高研发风险资产获资本认可），可能引发其他并购",
-        "watch": "Vertex新药审批进展及Crinetics后续估值"
+        "what": "Rivian折价发行7500万股筹资，股价跌超10%",
+        "assets": "📉 Rivian 利空；📉 电动汽车板块 承压",
+        "chain": "烧钱模式引发稀释担忧，新能源车企融资成本上升（股权融资风险）",
+        "watch": "Rivian现金消耗率及是否寻求债务融资"
       }
     }
   ]
