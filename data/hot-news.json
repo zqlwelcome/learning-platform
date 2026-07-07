@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-07 08:20",
+  "updateTime": "2026-07-07 08:25",
   "news": [
     {
       "rank": 1,
@@ -9,10 +9,10 @@
       "lang": "en",
       "score": 50,
       "insight": {
-        "what": "前OpenAI研究员对冲基金押注SK海力士美国IPO",
-        "assets": "📈 SK海力士 利好；📈 美股半导体 利好",
-        "chain": "AI算力需求（大模型训练需要高性能存储）推升HBM（高带宽存储器）估值，带动存储芯片板块",
-        "watch": "SK海力士IPO定价及AI芯片订单数据"
+        "what": "前OpenAI研究员的对冲基金押注SK海力士美国IPO",
+        "assets": "📈 SK海力士（SK Hynix）利好；📈 美股半导体板块 利好",
+        "chain": "AI芯片需求旺盛，SK海力士IPO若成功，将提振HBM（高带宽内存）供应链和芯片股估值",
+        "watch": "SK海力士IPO定价及首日表现"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 49,
       "insight": {
-        "what": "隔夜美股收高，黄金跌，原油跌至五个月低点",
-        "assets": "📈 美股大盘 利好；📉 黄金 承压；📉 原油 承压",
-        "chain": "风险偏好回升（资金从避险资产流出），美元走强压制商品，油价受需求担忧拖累",
-        "watch": "美联储利率预期及EIA（美国能源信息署）库存报告"
+        "what": "美股收高，黄金跌，原油跌至五个月低点，微软裁员，博通与苹果延长芯片供应协议",
+        "assets": "📉 黄金 承压；📉 原油 承压；📈 美股科技股 利好；📈 博通（AVGO）利好",
+        "chain": "原油下跌反映需求疲软，但科技股受苹果博通协议提振，避险资产（黄金）遭抛售",
+        "watch": "美国EIA原油库存数据；苹果财报"
       }
     },
     {
@@ -37,108 +37,108 @@
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "微软裁员，博通与苹果延长芯片供应协议至2031年",
-        "assets": "📈 博通 利好；📈 苹果 利好；📉 微软 承压",
-        "chain": "博通锁定苹果大单（定制芯片长期收入），微软裁员暗示成本控制，科技股分化加剧",
-        "watch": "博通财报指引及苹果新芯片进展"
+        "what": "阿里巴巴因'蒸馏攻击'指控禁止员工使用Anthropic AI",
+        "assets": "📉 Anthropic AI 利空；📉 中国AI概念股 承压",
+        "chain": "大厂封杀外部AI模型，加剧AI安全担忧，可能推动企业自研模型（内部化）",
+        "watch": "Anthropic回应及后续客户流失情况"
       }
     },
     {
       "rank": 4,
+      "title": "Micron stock has now plunged to a surprising level - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "国际财经动态，关注后续发展。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "美光（Micron）股价跌至惊人低位",
+        "assets": "📉 美光（MU）利空；📉 存储芯片板块 承压",
+        "chain": "存储芯片周期下行，美光估值压缩，可能拖累整个半导体ETF（科技行业基金）",
+        "watch": "美光财报及库存周转天数"
+      }
+    },
+    {
+      "rank": 5,
       "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation",
       "source": "CNBC",
       "detail": "Chinese e-commerce giant Alibaba has put Anthropic's Claude Code on a high-risk software list.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "阿里巴巴因蒸馏攻击指控禁止员工使用Anthropic AI",
-        "assets": "📉 Anthropic AI 承压；📈 阿里自研AI 利好",
-        "chain": "AI安全竞争升级（蒸馏攻击指模型知识被窃取），国产AI替代加速，云服务商转向内部工具",
-        "watch": "大模型API安全协议及监管动态"
+        "what": "阿里巴巴因'蒸馏攻击'指控禁止员工使用Anthropic AI",
+        "assets": "📉 Anthropic AI 利空；📉 中国AI概念股 承压",
+        "chain": "大厂封杀外部AI模型，加剧AI安全担忧，可能推动企业自研模型（内部化）",
+        "watch": "Anthropic回应及后续客户流失情况"
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "防范系统性风险与理财越界，英监管机构评估纳管AI金融服务",
       "source": "环球市场播报",
       "detail": " 鉴于ChatGPT、Claude和Gemini等大型语言模型对消费者财务决策的影响日益增加，英国金融监管机构被敦促考虑对这些模型进行监管。",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "英监管机构评估将AI纳入金融服务监管防系统性风险",
-        "assets": "📉 金融科技股 承压；📉 AI应用 承压",
-        "chain": "监管趋严（合规成本上升），银行AI风控模型或面临审查，抑制短期创新但利好长期稳定",
+        "what": "英国监管机构评估将AI纳入金融服务监管，防范系统性风险",
+        "assets": "📉 英国金融科技股 承压；📉 AI应用股 利空",
+        "chain": "监管收紧增加合规成本，可能限制AI在交易/风控中的使用（模型黑箱风险）",
         "watch": "英国FCA（金融行为监管局）具体规则草案"
       }
     },
     {
-      "rank": 6,
-      "title": "宇树科技，IPO注册生效！",
-      "source": "央视",
-      "detail": "央视财经记者获悉，7月6日，上海证券交易所官网显示，宇树科技股份有限公司科创板IPO审核状态变更为“注册生效”。 上交所官网显示...",
-      "lang": "zh",
+      "rank": 7,
+      "title": "Samsung forecasts 19-fold jump in quarterly profit as AI demand fuels chip crunch - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
       "score": 30,
       "insight": {
-        "what": "宇树科技IPO注册生效，机器人公司登陆A股",
-        "assets": "📈 机器人板块 利好；📈 A股次新股 利好",
-        "chain": "人形机器人（通用型机器人）赛道获资本认可，带动产业链上游伺服电机、传感器需求",
-        "watch": "宇树科技上市首日涨幅及订单量"
+        "what": "三星预测Q4利润飙升19倍，AI需求导致芯片短缺",
+        "assets": "📈 三星（SSNLF）利好；📈 存储芯片股 利好",
+        "chain": "AI推高HBM（高带宽内存）和DDR5（第五代内存）需求，芯片短缺利好存储厂商定价权",
+        "watch": "三星HBM产能扩张计划及订单量"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Stock Market Today: Nasdaq Rises at Start of Busy Week for Tech Stocks — Live Updates - WSJ",
       "source": "WSJ",
       "detail": "国际财经动态，关注后续发展。",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "纳斯达克上涨，科技股迎来繁忙周",
-        "assets": "📈 美股科技股 利好；📈 纳指 利好",
-        "chain": "AI财报季（财报发布密集期）预期升温，资金提前布局，但需防范业绩miss（低于预期）回调",
-        "watch": "微软、谷歌等财报及AI支出指引"
+        "what": "纳斯达克上涨，科技股迎来繁忙一周",
+        "assets": "📈 美股科技股 利好；📈 纳斯达克指数 利好",
+        "chain": "科技股领涨，资金轮动至成长股（高估值高增长股），可能挤压防御型（公用事业）板块",
+        "watch": "本周科技巨头财报（微软、谷歌等）"
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Trump Accounts boost? Here's how much money will flow into stock market from the new program",
       "source": "CNBC",
       "detail": "Wells Fargo equity analyst Ohsung Kwon said nearly $20 billion should come in from the accounts.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "特朗普账户新计划将向股市注入大量资金",
-        "assets": "📈 美股大盘 利好；📈 散户概念股 利好",
-        "chain": "政策刺激（减税或补贴）推高流动性，散户资金涌入小盘股，但可能引发短期泡沫",
-        "watch": "具体资金规模及入市时间表"
+        "what": "特朗普账户计划将为股市注入新资金",
+        "assets": "📈 美股大盘 利好；📈 金融股 利好",
+        "chain": "新资金流入提升流动性，利好经纪商和银行股（交易量增加）",
+        "watch": "该计划实际落地资金规模及时间表"
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Jim Cramer says these are the 5 stocks to buy during this market rotation",
       "source": "CNBC",
       "detail": "CNBC's Jim Cramer said investors should use the latest market rotation as an opportunity to buy high-quality companies.",
       "lang": "en",
       "score": 27,
       "insight": {
-        "what": "Jim Cramer推荐市场轮动期间买入5只股票",
-        "assets": "📈 消费/金融股 利好",
-        "chain": "资金从成长股（高估值科技股）流向价值股（低估值传统行业），板块轮动（资金切换）加速",
-        "watch": "罗素2000指数（小盘股）相对表现"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "Rivian, Tesla and the 'Holly Index': How to trade the new EV Main Street battle",
-      "source": "CNBC",
-      "detail": "Mike Khouw gives a trade on Rivian and Tesla, informed by his wife's recent auto purchase.",
-      "lang": "en",
-      "score": 27,
-      "insight": {
-        "what": "Rivian、特斯拉与Holly指数：新电动车主流之战",
-        "assets": "📈 Rivian 利好；📉 特斯拉 承压；📈 传统车企 利好",
-        "chain": "电动车竞争白热化（价格战和市场份额争夺），Holly指数代表传统车企转型，特斯拉份额受挤压",
-        "watch": "各车企Q2交付量及毛利率数据"
+        "what": "Jim Cramer推荐这5只股票应对市场轮动",
+        "assets": "📈 被推荐的个股（如科技、工业）利好",
+        "chain": "市场从防御转向周期/科技，Cramer的推荐可能引发散户跟风（羊群效应）",
+        "watch": "Cramer名单公布后个股成交量变化"
       }
     }
   ]
