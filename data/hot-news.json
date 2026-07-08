@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-07-08 20:26",
+  "updateTime": "2026-07-08 20:35",
   "news": [
     {
       "rank": 1,
@@ -10,9 +10,9 @@
       "score": 55,
       "insight": {
         "what": "Momenta港股IPO募资7.51亿美元，首日表现平淡",
-        "assets": "📉 港股自动驾驶板块 利空",
-        "chain": "IPO热度低暗示市场对自动驾驶赛道估值分歧，可能拖累后续类似标的（如小马智行）发行定价",
-        "watch": "Momenta后续股价走势及成交量变化"
+        "assets": "📉 港股自动驾驶板块 承压",
+        "chain": "弱IPO暗示机构对自动驾驶变现路径存疑，拖累同类中概科技股估值",
+        "watch": "Momenta后续股价及自动驾驶政策落地"
       }
     },
     {
@@ -23,10 +23,10 @@
       "lang": "zh",
       "score": 40,
       "insight": {
-        "what": "央行例会释放货币政策与人民币汇率多重信号",
-        "assets": "📈 人民币汇率 承压缓解；📉 国债期货 承压",
-        "chain": "稳汇率信号（央行可能干预汇市）降低贬值预期，但宽松基调（降息预期）压制债市收益率（借钱成本下降）",
-        "watch": "中间价（央行引导的汇率定价）及逆周期因子（调节汇率工具）使用情况"
+        "what": "央行例会释放货币政策宽松与稳汇率信号",
+        "assets": "📉 人民币 短期承压 📈 中国国债 利好",
+        "chain": "宽松预期压低利率（借钱成本降低），但稳汇率限制降息空间，债市牛陡（短期涨得快）",
+        "watch": "MLF利率及中间价（央行引导的人民币汇率）"
       }
     },
     {
@@ -37,10 +37,10 @@
       "lang": "en",
       "score": 37,
       "insight": {
-        "what": "美联航、美光、雪佛龙等盘前异动",
-        "assets": "📈 美股航空/芯片/能源板块 利好",
-        "chain": "个股异动反映财报或消息面预期，可能带动板块轮动（资金从防御转向周期）",
-        "watch": "开盘后成交量及板块资金流向"
+        "what": "美股盘前：美联航、美光、雪佛龙等异动",
+        "assets": "📈 美股航空/芯片/能源股 分化",
+        "chain": "个股财报预期驱动轮动，航空需求回暖vs芯片库存修正，资金从成长转向价值",
+        "watch": "各公司财报指引及行业数据"
       }
     },
     {
@@ -51,94 +51,94 @@
       "lang": "zh",
       "score": 35,
       "insight": {
-        "what": "SambaNova获投资方押注，估值达110亿美元",
-        "assets": "📈 AI芯片赛道 利好；📉 英伟达 竞争压力",
-        "chain": "竞品崛起加剧AI芯片供应端竞争，可能引发英伟达估值重估（PE压缩）",
-        "watch": "SambaNova客户订单及技术对比测试结果"
+        "what": "英伟达竞品SambaNova估值达110亿美元",
+        "assets": "📈 AI芯片板块 利好 📉 英伟达 竞争压力",
+        "chain": "资金涌入替代方案，ASIC（专用芯片）和推理芯片（AI应用芯片）受关注，英伟达生态护城河受挑战",
+        "watch": "SambaNova客户签约及英伟达财报"
       }
     },
     {
       "rank": 5,
+      "title": "Oil surges as US strikes Iran, reversing return to pre-war prices - Al Jazeera",
+      "source": "Al Jazeera",
+      "detail": "原油价格受供需关系和地缘政治影响，关注OPEC+产量政策。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "油价因美国打击伊朗而飙升，回吐此前跌幅",
+        "assets": "📈 原油 暴涨 📉 全球航空股 承压",
+        "chain": "地缘溢价（战争风险）推升油价，能源股受益，但运输成本上升拖累航空及制造业",
+        "watch": "伊朗反击程度及美国战略储备释放"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Nvidia’s $1 Trillion Slide Sends Valuation to Pre-AI Boom Levels - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "英伟达市值蒸发1万亿美元，估值跌至AI热潮前",
+        "assets": "📉 英伟达 暴跌 📉 全球半导体 承压",
+        "chain": "AI泡沫去化（估值回归），资金转向防御板块，拖累纳指（科技股指数）及数据中心概念",
+        "watch": "英伟达财报及AI订单新增速度"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "Lawmakers probe growing use of Chinese AI models in U.S. companies - CNBC",
+      "source": "CNBC",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "美议员调查美国企业使用中国AI模型",
+        "assets": "📉 中概AI概念 承压 📈 美国AI安全股 利好",
+        "chain": "地缘政治风险（脱钩）抑制中国AI出海，利好美国本土AI安全及合规服务商",
+        "watch": "法案进展及企业合规声明"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "Korean chip stocks flip to losses on lingering AI, memory pricing concerns - Reuters",
+      "source": "Reuters",
+      "detail": "AI和芯片行业持续受到关注，英伟达等公司表现对行业有风向标意义。",
+      "lang": "en",
+      "score": 32,
+      "insight": {
+        "what": "韩国芯片股因AI及内存定价担忧转跌",
+        "assets": "📉 韩国半导体 承压 📉 全球存储芯片 利空",
+        "chain": "HBM（高带宽内存）需求放缓，DDR5（内存标准）价格下跌，拖累三星/海力士及供应链",
+        "watch": "存储芯片现货价格及AI资本开支计划"
+      }
+    },
+    {
+      "rank": 9,
       "title": "China warns about AI risks with Anthropic's Claude Code",
       "source": "CNBC",
       "detail": "China said specific versions of Claude Code posed back-door vulnerabilities that could send sensitive information to a remote server.",
       "lang": "en",
       "score": 32,
       "insight": {
-        "what": "中国对Anthropic的Claude Code发出AI风险警告",
-        "assets": "📉 中国AI概念股 承压；📉 中美科技合作 利空",
-        "chain": "监管收紧信号（限制海外AI产品）可能拖累国内AI应用落地节奏，并影响跨境数据流动",
-        "watch": "中国网信办后续对AI模型的审查细则"
+        "what": "中国警告企业使用Anthropic Claude Code存在AI风险",
+        "assets": "📉 中国AI概念 承压 📈 国产AI替代 利好",
+        "chain": "监管收紧限制海外AI工具使用，倒逼国产大模型（如文心一言）及数据安全需求",
+        "watch": "国产AI企业订单及政策细则"
       }
     },
     {
-      "rank": 6,
+      "rank": 10,
       "title": "探测器龙头奕瑞科技董事长身兼三职，左手套现右手IPO！",
       "source": "市场资讯",
       "detail": "来源 | 野马财经 减持3亿，股价坐“过山车”！ 作者 | 方璐 经过2025年两轮减持，2026年7月6日，主营数字化X线核心部件及综合解决方案的研发、生产、销售与服务...",
       "lang": "zh",
       "score": 30,
       "insight": {
-        "what": "奕瑞科技董事长身兼三职，左手套现右手IPO",
-        "assets": "📉 A股医疗设备板块 利空",
-        "chain": "治理风险暴露（关联交易、利益输送可能）引发小股东抛售，拖累板块估值（P/E下降）",
-        "watch": "监管是否启动调查及公司回应"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "遭特朗普政府多重限制后Anthropic危机降温 OpenAI或将面临更严苛监管考验",
-      "source": "环球市场播报",
-      "detail": " Anthropic近来一直处于政治风口浪尖。但此事对其业务造成的实际后果并没有看上去那般严峻，而它一众AI竞争对手未来同样会背负大量政治层面风险。",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "特朗普限制后Anthropic危机降温，OpenAI面临更严监管",
-        "assets": "📈 AI概念股 分化；📉 OpenAI相关标的 利空",
-        "chain": "监管天平倾斜（Anthropic受打压、OpenAI被盯上）增加行业政策不确定性，资金可能撤离AI龙头",
-        "watch": "美国AI行政令（行政命令）及国会听证会动态"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "美联储会议纪要曝光利率政策“内部论战”，分歧拉锯或将持续许久",
-      "source": "环球市场播报",
-      "detail": "核心要点 美联储官员表示，今年将通过一次加息来抑制高企通胀，随后暂停加息。但回顾历史，政策制定者很难仅止步单次利率调整。 “很多人都在说只加息一次...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "美联储会议纪要显示利率政策内部分歧拉锯",
-        "assets": "📉 美元指数 承压；📈 美债 利好",
-        "chain": "分歧延长降息（借钱成本降低）时间表，市场修正鹰派预期（加息预期），美元走弱、美债收益率（回报率）下行",
-        "watch": "美联储官员后续讲话及点阵图（利率预测）调整"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "关于货币政策，央行最新定调",
-      "source": "一财网",
-      "detail": "中国人民银行货币政策委员会2026年第二季度（总第113次）例会于7月4日召开。 会议认为，今年以来宏观政策更加积极有为，货币政策保持适度宽松，强化逆周期和跨周期调节...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "央行最新定调货币政策",
-        "assets": "📈 人民币 短期企稳；📉 银行股 承压",
-        "chain": "宽松基调（降息降准可能）压低银行净息差（存贷利差），但支撑地产等重资产板块（融资成本降低）",
-        "watch": "MLF（中期借贷便利）利率及LPR（贷款市场报价利率）报价"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "存储芯片拉动三星利润暴涨",
-      "source": "环球市场播报",
-      "detail": "外界确实该重新正视三星这家企业。在美国市场，三星最广为人知的产品是电视与智能手机，常年和苹果 iPhone 分庭抗礼；但它同时也是全球三大存储芯片厂商之一...",
-      "lang": "zh",
-      "score": 30,
-      "insight": {
-        "what": "存储芯片需求强劲，三星利润暴涨",
-        "assets": "📈 存储芯片板块 利好；📉 非存储芯片 相对承压",
-        "chain": "AI和手机需求拉动存储涨价（DRAM/NAND），利润指引超预期带动整个半导体周期股（周期型股票）上行",
-        "watch": "三星Q2财报及DRAMeXchange（存储价格指数）报价"
+        "what": "奕瑞科技董事长身兼三职，减持同时推动子公司IPO",
+        "assets": "📉 奕瑞科技 承压 📈 医疗设备板块 分化",
+        "chain": "治理风险（代理问题）引发减持担忧，子公司IPO稀释母股价值，资金转向治理透明标的",
+        "watch": "减持进度及子公司招股书"
       }
     }
   ]
