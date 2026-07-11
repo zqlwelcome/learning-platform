@@ -9,7 +9,7 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-07-11 12:22",
+    "updateTime": "2026-07-11 14:32",
     "mood": {
         "mood": "偏谨慎，先控风险",
         "icon": "😐",
@@ -34,7 +34,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "中国资产",
-                "value": "视频|港股两天12个IPO 近半破发 更适合作为结构性线索，看港股/A股是否有资金跟进。"
+                "value": "大摩、瑞银上调中国股票配置价值！下半年外资集体押注中国AI主线！ 更适合作为结构性线索，看港股/A股是否有资金跟进。"
             },
             {
                 "label": "风险",
