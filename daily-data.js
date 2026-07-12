@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-07-12 19:45",
+    "updateTime": "2026-07-12 20:40",
     "mood": {
-        "mood": "震荡分化，等确认",
-        "icon": "🧭",
-        "color": "#0071e3",
-        "confidence": 6,
+        "mood": "偏乐观但拥挤",
+        "icon": "😊",
+        "color": "#34c759",
+        "confidence": 9,
         "dimensions": [
             {
                 "label": "趋势",
@@ -34,7 +34,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "中国资产",
-                "value": "中信证券：港股扰动趋缓卖空料将收敛 短期推荐创新药、航空、机器人及工业金属 更适合作为结构性线索，看港股/A股是否有资金跟进。"
+                "value": "港股成建仓首选！AI市场步入高波动，外储增配或成新引擎 更适合作为结构性线索，看港股/A股是否有资金跟进。"
             },
             {
                 "label": "风险",
