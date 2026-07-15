@@ -1,20 +1,36 @@
 {
-  "updateTime": "2026-07-16 03:32",
-  "newsUpdateTime": "2026-07-16 03:32",
-  "analysisUpdateTime": "2026-07-16 03:32",
+  "updateTime": "2026-07-16 04:37",
+  "newsUpdateTime": "2026-07-16 04:37",
+  "analysisUpdateTime": "2026-07-16 04:37",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "阿波罗主导350亿美元ai信贷交易挑战华尔街银行|高通宣布2026财年第三季度财报发布日期|美国线上房产交易平台offerpad将于8月3日发布第二季度财报|chegg将于8月6日发布第二季度财报|美联储主席沃什强调自身独立性称已多次告知特朗普这一点|tylertechnologies宣布第二季度财报电话会议时间|欧洲债市德国国债收窄跌幅受美国国债涨势提振|美联储理事库克关切通胀问题称如不降温将支持央行采取行动|amplitude宣布将于8月5日发布第二季度财报|纽约时报公司宣布第二季度财报发布日期",
+  "titleFingerprint": "7月16日收盘美股收高道指涨150点谷歌等大型科技股推动股指上扬|阿波罗主导350亿美元ai信贷交易挑战华尔街银行|spacex破发做空者浮盈近40亿美元|高通宣布2026财年第三季度财报发布日期|欧洲债市德国国债收窄跌幅受美国国债涨势提振|美联储理事库克关切通胀问题称如不降温将支持央行采取行动|特朗普称美联储按兵不动好过加息|国会作证第二天沃什称ai造成的价格效应未必推高通胀|美联储主席沃什国会首秀一文总结五大要点|特朗普称伊朗将很快被击败",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
+      "title": "7月16日收盘：美股收高道指涨150点 谷歌等大型科技股推动股指上扬",
+      "source": "环球市场播报",
+      "detail": "北京时间7月16日凌晨，美股周三收高。亚马逊、微软、谷歌和苹果等大型科技股表现亮眼，推动大盘上扬。美国6月PPI意外下跌0.3%，显示通胀正在降温...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxtas1128289.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 87,
+      "insight": {
+        "what": "7月16日收盘：美股收高道指涨150点 谷歌等大型科技股推动股指上扬",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 2,
       "title": "阿波罗主导350亿美元AI信贷交易，挑战华尔街银行",
       "source": "环球市场播报",
       "detail": "阿波罗全球管理公司近期为博通和人工智能公司Anthropic安排了一笔创纪录的350亿美元私人信贷融资，向传统华尔街银行的核心业务领域发起挑战。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxnuv7982395.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 93,
+      "score": 87,
       "insight": {
         "what": "阿波罗主导350亿美元AI信贷交易，挑战华尔街银行",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -23,14 +39,30 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "SpaceX破发 做空者浮盈近40亿美元",
+      "source": "金十快讯",
+      "detail": "【SpaceX破发 做空者浮盈近40亿美元】金十数据7月16日讯，SpaceX(SPCX.O)股价跌破发行，引发空头大举押注。数据显示，做空投资者账面利润已接近38.8亿美元，目前约1.81亿股SpaceX股票被卖空，占流通股约28%。自6月16日创下收盘高点以来，SpaceX市值已缩水约8600亿美元，跌幅达三分之一。随着公司即将公布首份季度财报以及更多限售股解禁，投资者正密切关注股价走势。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 83,
+      "insight": {
+        "what": "SpaceX破发 做空者浮盈近40亿美元",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 4,
       "title": "高通宣布2026财年第三季度财报发布日期",
       "source": "环球市场播报",
       "detail": "高通公司周三宣布，将于7月29日股市收盘后发布2026财年第三季度财务业绩。财报将在公司投资者关系网站公布，并同时以8-K表格提交至美国证券交易委员会。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxnuu1211030.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 91,
+      "score": 81,
       "insight": {
         "what": "高通宣布2026财年第三季度财报发布日期",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -39,71 +71,7 @@
       }
     },
     {
-      "rank": 3,
-      "title": "美国线上房产交易平台Offerpad将于8月3日发布第二季度财报",
-      "source": "环球市场播报",
-      "detail": "在线房地产平台Offerpad Solutions周二宣布，将于8月3日美股收盘后发布2026年第二季度财务业绩。公司将于当天美国东部时间下午4：30举行电话会议...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxnuu1218536.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 84,
-      "insight": {
-        "what": "美国线上房产交易平台Offerpad将于8月3日发布第二季度财报",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Chegg将于8月6日发布第二季度财报",
-      "source": "环球市场播报",
-      "detail": "在线教育与职业技能培训公司Chegg今日宣布，将于2026年8月6日股市开盘前发布截至6月30日的第二季度财务业绩。公司将于当天太平洋时间上午5：30举行电话会议...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxnus4636620.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 82,
-      "insight": {
-        "what": "Chegg将于8月6日发布第二季度财报",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
       "rank": 5,
-      "title": "美联储主席沃什强调自身独立性 称已“多次”告知特朗普这一点",
-      "source": "环球市场播报",
-      "detail": "美联储主席凯文·沃什表示，长期呼吁大幅降息的总统特朗普并未试图干预美联储的政策，即使他尝试这样做，也不会成功。 在周三的参议院银行委员会听证会上...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxhnx7980253.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 82,
-      "insight": {
-        "what": "美联储主席沃什强调自身独立性 称已“多次”告知特朗普这一点",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Tyler Technologies宣布第二季度财报电话会议时间",
-      "source": "环球市场播报",
-      "detail": "Tyler Technologies今日宣布，将于2026年7月29日美股收盘后发布2026年第二季度财务业绩。公司将于次日（7月30日）上午8：30（美国东部时间）举行电话会议及网络直播...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxnuq7858513.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 80,
-      "insight": {
-        "what": "Tyler Technologies宣布第二季度财报电话会议时间",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 7,
       "title": "欧洲债市：德国国债收窄跌幅 受美国国债涨势提振",
       "source": "环球市场播报",
       "detail": "美国通胀数据提振美债、削弱全球加息押注后，德国政府债券收窄跌幅。 短端引领回升，2年期收益率一度下跌3个基点，至2.73%，逆转日内早些时候2个基点的升幅。",
@@ -119,7 +87,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 6,
       "title": "美联储理事库克关切通胀问题 称如不降温将支持央行采取行动",
       "source": "环球市场播报",
       "detail": "美联储理事丽莎·库克表示，随着人工智能建设持续推进以及近期供应冲击推高物价，持续高通胀的风险超过了劳动力市场走弱的风险。",
@@ -135,32 +103,64 @@
       }
     },
     {
-      "rank": 9,
-      "title": "Amplitude宣布将于8月5日发布第二季度财报",
+      "rank": 7,
+      "title": "特朗普称美联储按兵不动好过加息",
       "source": "环球市场播报",
-      "detail": "Amplitude今日宣布，将在2026年8月5日美股收盘后公布其2026年第二季度财务业绩。公司将于当天太平洋时间下午2：00举行视频网络直播...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxnuq7854517.shtml",
+      "detail": "美国总统特朗普接受福克斯商业台采访时表示，美联储维持利率不变比加息要好。 特朗普回应他是否会接受美联储今年剩余时间按兵不动的问题时做了上述表态。",
+      "url": "https://finance.sina.com.cn/world/2026-07-16/doc-inihxtaq4517057.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 76,
+      "score": 73,
       "insight": {
-        "what": "Amplitude宣布将于8月5日发布第二季度财报",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
+        "what": "特朗普称美联储按兵不动好过加息",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "国会作证第二天 沃什称AI造成的价格效应未必推高通胀",
+      "source": "环球市场播报",
+      "detail": "美联储主席凯文·沃什表示，人工智能基础设施建设带来的价格上涨并不一定会刺激通货膨胀。 在与议员就人工智能热的影响进行交流时...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxnuu1116273.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 73,
+      "insight": {
+        "what": "国会作证第二天 沃什称AI造成的价格效应未必推高通胀",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "美联储主席沃什国会首秀 一文总结五大要点",
+      "source": "环球市场播报",
+      "detail": "美联储主席凯文·沃什上任以来首次在国会作证，横跨两天的发言和答问涉及市场关注的多个领域。以下为分类总结： 通胀及指标 宣示对通胀“零容忍”并坚定承诺恢复价格稳定。",
+      "url": "https://finance.sina.com.cn/world/2026-07-16/doc-inihxtas1115175.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 72,
+      "insight": {
+        "what": "美联储主席沃什国会首秀 一文总结五大要点",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
       }
     },
     {
       "rank": 10,
-      "title": "纽约时报公司宣布第二季度财报发布日期",
+      "title": "特朗普称伊朗将“很快被击败”",
       "source": "环球市场播报",
-      "detail": "纽约时报公司周三宣布，将于8月5日股市开盘前发布2026年第二季度财务业绩。财报将于当天上午7点左右发布在公司投资者关系网站，并同步通过新闻通讯社发布公告。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-16/doc-inihxnuu1212739.shtml",
+      "detail": "美国总统特朗普在宾夕法尼亚州的一次峰会表示，伊朗将“很快被击败”。 特朗普表示，油价上涨是因为在伊朗的军事行动，但他预计局势平息后油价将回到55美元。",
+      "url": "https://finance.sina.com.cn/world/2026-07-16/doc-inihxtaq4536459.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 74,
+      "score": 71,
       "insight": {
-        "what": "纽约时报公司宣布第二季度财报发布日期",
+        "what": "特朗普称伊朗将“很快被击败”",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
