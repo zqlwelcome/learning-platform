@@ -1,20 +1,36 @@
 {
-  "updateTime": "2026-07-17 03:47",
-  "newsUpdateTime": "2026-07-17 03:47",
-  "analysisUpdateTime": "2026-07-17 03:47",
+  "updateTime": "2026-07-17 04:36",
+  "newsUpdateTime": "2026-07-17 04:36",
+  "analysisUpdateTime": "2026-07-17 04:36",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "keybank基金会拨款30万美元助力全美青少年金融普惠教育|做空报告指控渠道填塞gildan股价暴跌18|embecta面临证券欺诈集体诉讼财报暴雷曾导致股价单日暴跌578|canalroad集团获smbc股权投资解锁225亿美元新增投资能力|美国参议员沃伦要求美联储监察长调查鲍曼对硅谷银行审查事宜|布伦特原油期货结算价为每桶8423美元下跌72美分跌幅085|centerpointenergy宣布季度股息上调每股024美元|美国投资公司协会ici美国货币市场基金资产规模降至789万亿美元|规模近40亿美元的对冲基金carronade将停止接受新客户|美国原油期货结算价为每桶7895美元下跌65美分跌幅082",
+  "titleFingerprint": "达拉斯联储行长洛根支持适度加息|keybank基金会拨款30万美元助力全美青少年金融普惠教育|原油油价下跌投资者获利回吐遏制了涨势|7月17日收盘美股收跌科技股领跌芯片股再遭抛售|国际油价16日微跌|做空报告指控渠道填塞gildan股价暴跌18|美国参议员沃伦要求美联储监察长调查鲍曼对硅谷银行审查事宜|美国至7月10日当周外国央行持有美国国债639亿美元前值28605亿美元|embecta面临证券欺诈集体诉讼财报暴雷曾导致股价单日暴跌578|spacexspcxo收盘价首次低于ipo发行价现报13111美元",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
+      "title": "达拉斯联储行长洛根支持“适度”加息",
+      "source": "环球市场播报",
+      "detail": "达拉斯联邦储备银行行长洛里·洛根周四表示，本周公布的利好通胀数据还不够好，她呼吁适度提高利率，以打赢这场美联储已持续输掉五年的抗通胀之战。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzs1362293.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 103,
+      "insight": {
+        "what": "达拉斯联储行长洛根支持“适度”加息",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 2,
       "title": "KeyBank基金会拨款30万美元，助力全美青少年金融普惠教育",
       "source": "环球市场播报",
       "detail": "KeyBank基金会宣布向全国性非营利组织Cities for Financial Empowerment Fund（CFE基金）提供30万美元赠款，用于支持其“青少年银行互联”计划的全国扩张。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzq4291878.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 98,
+      "score": 92,
       "insight": {
         "what": "KeyBank基金会拨款30万美元，助力全美青少年金融普惠教育",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -23,14 +39,62 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "原油：油价下跌 投资者获利回吐遏制了涨势",
+      "source": "环球市场播报",
+      "detail": "由于交易员在获利回吐和对中东石油供应的担忧之间寻求平衡，原油价格周四下跌，不过本周累计仍上涨。 全球基准的布伦特原油结算价高于每桶84美元...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzt8151347.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 88,
+      "insight": {
+        "what": "原油：油价下跌 投资者获利回吐遏制了涨势",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "7月17日收盘：美股收跌科技股领跌，芯片股再遭抛售",
+      "source": "环球市场播报",
+      "detail": "北京时间7月17日凌晨，美股周四收跌，纳指下跌超过380点。芯片股的大规模抛售盖过了一连串稳健的财报利好。 道指跌105.67点，跌幅为0.20%，报52552.97点；纳指跌387.28点...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzt8152115.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 86,
+      "insight": {
+        "what": "7月17日收盘：美股收跌科技股领跌，芯片股再遭抛售",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "国际油价16日微跌",
+      "source": "金十快讯",
+      "detail": "【国际油价16日微跌】金十数据7月17日讯，截至当天收盘，纽约商品交易所8月交货的轻质原油期货价格下跌65美分，收于每桶78.95美元，跌幅为0.82%；9月交货的伦敦布伦特原油期货价格下跌72美分，收于每桶84.23美元，跌幅为0.85%。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 80,
+      "insight": {
+        "what": "国际油价16日微跌",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
+      "rank": 6,
       "title": "做空报告指控渠道填塞，Gildan股价暴跌18%",
       "source": "环球市场播报",
       "detail": "服装制造商Gildan Activewear Inc．（纽约证券交易所代码：GIL）股价在7月16日暴跌逾18%，市值蒸发约21.5亿美元。此前，做空机构Jehoshaphat...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzs1341327.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 83,
+      "score": 77,
       "insight": {
         "what": "做空报告指控渠道填塞，Gildan股价暴跌18%",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -39,39 +103,7 @@
       }
     },
     {
-      "rank": 3,
-      "title": "Embecta面临证券欺诈集体诉讼 财报暴雷曾导致股价单日暴跌57.8%",
-      "source": "环球市场播报",
-      "detail": "医疗设备公司Embecta Corp．（纳斯达克代码：EMBC）因涉嫌在财报指引上误导投资者，正面临证券欺诈集体诉讼。投资者申请担任首席原告的截止日期为2026年8月17日。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzs1352215.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 81,
-      "insight": {
-        "what": "Embecta面临证券欺诈集体诉讼 财报暴雷曾导致股价单日暴跌57.8%",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 4,
-      "title": "Canal Road集团获SMBC股权投资，解锁2.25亿美元新增投资能力",
-      "source": "环球市场播报",
-      "detail": "另类资产管理公司Canal Road Group（CRG）宣布扩大与三井住友银行（SMBC）的战略合作关系。SMBC已承诺对CRG的直接贷款策略进行股权投资，此举将为CRG释放高达2...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzn7512223.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 77,
-      "insight": {
-        "what": "Canal Road集团获SMBC股权投资，解锁2.25亿美元新增投资能力",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 7,
       "title": "美国参议员沃伦要求美联储监察长调查鲍曼对硅谷银行审查事宜",
       "source": "环球市场播报",
       "detail": "美国参议员伊丽莎白·沃伦致信美联储监察长，要求调查美联储负责监管事务的副主席米歇尔·鲍曼聘请一家咨询公司对硅谷银行倒闭开展第四次审查是否浪费政府资源一事。",
@@ -87,48 +119,16 @@
       }
     },
     {
-      "rank": 6,
-      "title": "布伦特原油期货结算价为每桶84.23美元，下跌72美分，跌幅0.85%",
-      "source": "金十快讯",
-      "detail": "布伦特原油期货结算价为每桶84.23美元，下跌72美分，跌幅0.85%。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
-      "lang": "zh",
-      "score": 74,
-      "insight": {
-        "what": "布伦特原油期货结算价为每桶84.23美元，下跌72美分，跌幅0.85%",
-        "assets": "关注：黄金、原油、能源股、资源类基金",
-        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
-        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "CenterPoint Energy宣布季度股息上调，每股0.24美元",
-      "source": "环球市场播报",
-      "detail": "CenterPoint Energy， Inc．（纽约证券交易所代码：CNP）董事会宣布，已批准派发每股0.2400美元的常规季度现金股息，将于2026年9月10日支付给8月20日收盘时登记在册的股东...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzs1322221.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 72,
-      "insight": {
-        "what": "CenterPoint Energy宣布季度股息上调，每股0.24美元",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
       "rank": 8,
-      "title": "美国投资公司协会（ICI）：美国货币市场基金资产规模降至7.89万亿美元",
+      "title": "美国至7月10日当周外国央行持有美国国债 6.39亿美元，前值-286.05亿美元",
       "source": "金十快讯",
-      "detail": "美国投资公司协会（ICI）：美国货币市场基金资产规模降至7.89万亿美元。",
+      "detail": "美国至7月10日当周外国央行持有美国国债 6.39亿美元，前值-286.05亿美元。",
       "url": "https://www.jin10.com",
       "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 70,
+      "score": 75,
       "insight": {
-        "what": "美国投资公司协会（ICI）：美国货币市场基金资产规模降至7.89万亿美元",
+        "what": "美国至7月10日当周外国央行持有美国国债 6.39亿美元，前值-286.05亿美元",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
@@ -136,15 +136,15 @@
     },
     {
       "rank": 9,
-      "title": "规模近40亿美元的对冲基金Carronade将停止接受新客户",
+      "title": "Embecta面临证券欺诈集体诉讼 财报暴雷曾导致股价单日暴跌57.8%",
       "source": "环球市场播报",
-      "detail": "在管理的资产规模达到37亿美元后，对冲基金Carronade Capital Management将于今年年底停止接纳新投资者。 根据一封致投资者信函，该对冲基金表示...",
-      "url": "https://finance.sina.com.cn/world/2026-07-17/doc-inihzrts4368213.shtml",
+      "detail": "医疗设备公司Embecta Corp．（纳斯达克代码：EMBC）因涉嫌在财报指引上误导投资者，正面临证券欺诈集体诉讼。投资者申请担任首席原告的截止日期为2026年8月17日。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-17/doc-inihzvzs1352215.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 70,
+      "score": 75,
       "insight": {
-        "what": "规模近40亿美元的对冲基金Carronade将停止接受新客户",
+        "what": "Embecta面临证券欺诈集体诉讼 财报暴雷曾导致股价单日暴跌57.8%",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
@@ -152,18 +152,18 @@
     },
     {
       "rank": 10,
-      "title": "美国原油期货结算价为每桶78.95美元，下跌65美分，跌幅0.82%",
+      "title": "SpaceX(SPCX.O)收盘价首次低于IPO发行价，现报131.11美元",
       "source": "金十快讯",
-      "detail": "美国原油期货结算价为每桶78.95美元，下跌65美分，跌幅0.82%。",
+      "detail": "SpaceX(SPCX.O)收盘价首次低于IPO发行价，现报131.11美元。",
       "url": "https://www.jin10.com",
       "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 69,
+      "score": 72,
       "insight": {
-        "what": "美国原油期货结算价为每桶78.95美元，下跌65美分，跌幅0.82%",
-        "assets": "关注：黄金、原油、能源股、资源类基金",
-        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
-        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+        "what": "SpaceX(SPCX.O)收盘价首次低于IPO发行价，现报131.11美元",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     }
   ]
