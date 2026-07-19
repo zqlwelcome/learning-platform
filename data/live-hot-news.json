@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-07-20 02:11",
-  "newsUpdateTime": "2026-07-20 02:11",
-  "analysisUpdateTime": "2026-07-20 02:11",
+  "updateTime": "2026-07-20 03:34",
+  "newsUpdateTime": "2026-07-20 03:34",
+  "analysisUpdateTime": "2026-07-20 03:34",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "deepseek完成首轮融资估值3500亿梁文锋个人持股31|多家a股公司公告大批回购资金正在赶来|meta与anthropic洽谈百亿美元算力合作催生ai基础设施变现新模式|突发事故霍尔木兹海峡再生变局中东股市集体下挫科威特约旦巴林拉响警报|同日出手两家券商抛出回购计划|估值超百亿一目科技完成超10亿元新融资多家一线基金参投|韩国公布放宽外国投资者交易韩元的详细计划|美国防部拟斥资数十亿美元向太空探索技术公司采购ai算力|证监会明天将召开座谈会促进资本市场稳定健康发展|美股全线收跌spacex市值较峰值蒸发逾万亿美元",
+  "titleFingerprint": "deepseek完成首轮融资估值3500亿梁文锋个人持股31|多家a股公司公告大批回购资金正在赶来|meta与anthropic洽谈百亿美元算力合作催生ai基础设施变现新模式|突发事故霍尔木兹海峡再生变局中东股市集体下挫科威特约旦巴林拉响警报|估值超百亿一目科技完成超10亿元新融资多家一线基金参投|同日出手两家券商抛出回购计划|韩国公布放宽外国投资者交易韩元的详细计划|美国防部拟斥资数十亿美元向太空探索技术公司采购ai算力|证监会明天将召开座谈会促进资本市场稳定健康发展|屈臣氏集团考虑推迟伦敦ipo计划",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
@@ -14,7 +14,7 @@
       "url": "https://finance.sina.com.cn/wm/2026-07-19/doc-iniikaqx3349587.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 84,
       "insight": {
         "what": "Deepseek完成首轮融资：估值3500亿 梁文锋个人持股31%",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -46,7 +46,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-19/doc-iniiimta1171786.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 78,
+      "score": 77,
       "insight": {
         "what": "Meta与Anthropic洽谈百亿美元算力合作 催生AI基础设施变现新模式",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -62,7 +62,7 @@
       "url": "https://finance.sina.com.cn/stock/zqgd/2026-07-19/doc-iniikhwv3271103.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 77,
+      "score": 76,
       "insight": {
         "what": "突发事故！霍尔木兹海峡，再生变局！中东股市，集体下挫！科威特、约旦、巴林拉响警报",
         "assets": "关注：黄金、原油、能源股、资源类基金",
@@ -72,22 +72,6 @@
     },
     {
       "rank": 5,
-      "title": "同日出手！两家券商，抛出回购计划！",
-      "source": "券商中国",
-      "detail": "两家券商抛出股份回购计划！ 7月19日晚间，华安证券公告称，公司董事长章宏韬提议回购公司股份，回购金额不低于1亿元且不超过2亿元；国联民生也公告...",
-      "url": "https://finance.sina.com.cn/stock/zqgd/2026-07-19/doc-iniikhxa4946799.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 76,
-      "insight": {
-        "what": "同日出手！两家券商，抛出回购计划！",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 6,
       "title": "估值超百亿，一目科技完成超10亿元新融资，多家一线基金参投",
       "source": "新浪科技",
       "detail": "新浪科技讯 7月19日上午消息，一目科技完成E轮超10亿元融资，估值突破100亿元。本轮融资由多家一线人民币基金、头部美元基金和知名产业方联合参与...",
@@ -100,6 +84,22 @@
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
         "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
         "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "同日出手！两家券商，抛出回购计划！",
+      "source": "券商中国",
+      "detail": "两家券商抛出股份回购计划！ 7月19日晚间，华安证券公告称，公司董事长章宏韬提议回购公司股份，回购金额不低于1亿元且不超过2亿元；国联民生也公告...",
+      "url": "https://finance.sina.com.cn/stock/zqgd/2026-07-19/doc-iniikhxa4946799.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 75,
+      "insight": {
+        "what": "同日出手！两家券商，抛出回购计划！",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
@@ -126,7 +126,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-19/doc-iniiimtf3503434.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 74,
+      "score": 73,
       "insight": {
         "what": "美国防部拟斥资数十亿美元向太空探索技术公司采购AI算力",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -142,7 +142,7 @@
       "url": "https://finance.sina.com.cn/stock/marketresearch/2026-07-19/doc-iniikhxa4968478.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 68,
+      "score": 67,
       "insight": {
         "what": "证监会明天将召开座谈会促进资本市场稳定健康发展",
         "assets": "关注：政策敏感行业、银行券商、出口链",
@@ -152,18 +152,18 @@
     },
     {
       "rank": 10,
-      "title": "美股全线收跌，SpaceX市值较峰值蒸发逾万亿美元",
-      "source": "中国证券报-中证网",
-      "detail": "当地时间7月17日，美股三大股指全线收跌。大型科技股多数下跌，英伟达、Meta、特斯拉、谷歌均跌超2%。费城半导体指数跌1.63%，较6月22日创下的历史高点下跌20.2%...",
-      "url": "https://finance.sina.com.cn/jjxw/2026-07-18/doc-iniierwm8274581.shtml",
+      "title": "屈臣氏集团考虑推迟伦敦IPO计划",
+      "source": "环球市场播报",
+      "detail": "知情人士称，屈臣氏集团正考虑将原定的伦敦上市计划推迟至明年。 屈臣氏原计划今年秋季同步登陆伦敦、香港两地双重上市，募资规模约20亿美元...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-18/doc-iniifanf8297189.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 68,
+      "score": 66,
       "insight": {
-        "what": "美股全线收跌，SpaceX市值较峰值蒸发逾万亿美元",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
+        "what": "屈臣氏集团考虑推迟伦敦IPO计划",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     }
   ]
