@@ -1,52 +1,68 @@
 {
-  "updateTime": "2026-07-22 00:09",
-  "newsUpdateTime": "2026-07-22 00:09",
-  "analysisUpdateTime": "2026-07-22 00:09",
+  "updateTime": "2026-07-22 01:42",
+  "newsUpdateTime": "2026-07-22 01:42",
+  "analysisUpdateTime": "2026-07-22 01:42",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "午盘美股继续上扬纳指上涨13|雷神公司获18亿美元合同为美国海军生产spy6雷达|宏利金融将于8月5日发布2026年第二季度财报|ameriservfinancial二季度扭亏为盈宣布派发季度股息|magnoliaoilgas以406亿美元收购wildfireenergy|欧洲股市止步两连跌科技股和强劲财报提供支撑|美国汽车零部件供应商库珀标准将于8月6日召开二季度财报电话会议|美国10年和30年期国债收益率触及两个月高位油价上涨引发通胀风险|科技保险公司lemonade内布拉斯加州上线租客保险|precigen将于8月4日发布二季度财报及业务更新",
+  "titleFingerprint": "美联储在固定利率逆回购操作中总计接纳了1个对手方的275亿美元|微软投入数十亿美元与欧洲mistral共建gpu算力共享池|kalshi向监管申请推出黄金白银铂金永续期货|宏利金融将于8月5日发布2026年第二季度财报|美国汽车零部件供应商库珀标准将于8月6日召开二季度财报电话会议|午盘美股继续上扬纳指上涨13|雷神公司获18亿美元合同为美国海军生产spy6雷达|美国10年和30年期国债收益率触及两个月高位油价上涨引发通胀风险|ameriservfinancial二季度扭亏为盈宣布派发季度股息|magnoliaoilgas以406亿美元收购wildfireenergy",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
-      "title": "午盘：美股继续上扬 纳指上涨1.3%",
+      "title": "美联储在固定利率逆回购操作中总计接纳了1个对手方的2.75亿美元",
+      "source": "金十快讯",
+      "detail": "美联储在固定利率逆回购操作中总计接纳了1个对手方的2.75亿美元。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 91,
+      "insight": {
+        "what": "美联储在固定利率逆回购操作中总计接纳了1个对手方的2.75亿美元",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "微软投入数十亿美元，与欧洲Mistral共建GPU算力共享池",
       "source": "环球市场播报",
-      "detail": "北京时间7月22日凌晨，美股周二午盘继续上扬，芯片股领涨，纳指上涨1.3%。投资者正在权衡美伊战争升级的影响，并关注最新企业财报。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqvaw8131393.shtml",
+      "detail": "两家企业周二联合宣布，微软将斥资数十亿美元采购英伟达 GPU，并计划与欧洲人工智能初创企业 Mistral 共享这批算力资源。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqzks9049502.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 86,
       "insight": {
-        "what": "午盘：美股继续上扬 纳指上涨1.3%",
+        "what": "微软投入数十亿美元，与欧洲Mistral共建GPU算力共享池",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
         "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
         "watch": "看财报指引、资本开支和龙头股成交量。"
       }
     },
     {
-      "rank": 2,
-      "title": "雷神公司获18亿美元合同，为美国海军生产SPY-6雷达",
+      "rank": 3,
+      "title": "Kalshi向监管申请推出黄金、白银、铂金永续期货",
       "source": "环球市场播报",
-      "detail": "RTX公司（纽约证券交易所代码：RTX）旗下雷神公司(Raytheon)获得美国海军一份价值18亿美元的合同修订，用于AN/SPY-6系列雷达的硬件生产与持续保障。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9159792.shtml",
+      "detail": "周二，Kalshi 向美国商品期货交易委员会（CFTC）提交申请，谋求上线贵金属永续合约。 申请文件写道：“永续期货现已成为主流衍生品品类...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqvat2394117.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 82,
       "insight": {
-        "what": "雷神公司获18亿美元合同，为美国海军生产SPY-6雷达",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
+        "what": "Kalshi向监管申请推出黄金、白银、铂金永续期货",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "宏利金融将于8月5日发布2026年第二季度财报",
       "source": "环球市场播报",
       "detail": "宏利金融（Manulife Financial Corporation，多伦多证券交易所代码：MFC）宣布，将于2026年8月5日（周三）美股收盘后公布第二季度财务业绩。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9154425.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 81,
       "insight": {
         "what": "宏利金融将于8月5日发布2026年第二季度财报",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -55,55 +71,7 @@
       }
     },
     {
-      "rank": 4,
-      "title": "AmeriServ Financial二季度扭亏为盈，宣布派发季度股息",
-      "source": "环球市场播报",
-      "detail": "AmeriServ Financial（纳斯达克代码：ASRV）公布2026年第二季度财报，实现净利润273.8万美元，合稀释后每股收益0.16美元，较去年同期净亏损28.2万美元（每股亏损0...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9160447.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 83,
-      "insight": {
-        "what": "AmeriServ Financial二季度扭亏为盈，宣布派发季度股息",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
       "rank": 5,
-      "title": "Magnolia Oil & Gas以40.6亿美元收购WildFire Energy",
-      "source": "环球市场播报",
-      "detail": "Magnolia Oil &amp; Gas（纽约证券交易所代码：MGY）于7月20日宣布，已达成最终协议，以约40.6亿美元（包含债务）的价格收购WildFire Energy。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvay4896223.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 83,
-      "insight": {
-        "what": "Magnolia Oil & Gas以40.6亿美元收购WildFire Energy",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "欧洲股市止步两连跌 科技股和强劲财报提供支撑",
-      "source": "环球市场播报",
-      "detail": "欧洲股市在连续两个交易日下跌后反弹，科技板块上涨以及一系列强劲的企业业绩，抵消了美伊冲突持续带来的影响。 斯托克欧洲600指数收盘上涨0.6%。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqvay4908167.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 81,
-      "insight": {
-        "what": "欧洲股市止步两连跌 科技股和强劲财报提供支撑",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 7,
       "title": "美国汽车零部件供应商库珀标准将于8月6日召开二季度财报电话会议",
       "source": "环球市场播报",
       "detail": "汽车零部件供应商库珀标准控股公司（Cooper-Standard Holdings Inc．，纽约证券交易所代码：CPS）宣布，将于8月5日（周三）美股收盘后发布2026年第二季度财务业绩...",
@@ -113,6 +81,38 @@
       "score": 79,
       "insight": {
         "what": "美国汽车零部件供应商库珀标准将于8月6日召开二季度财报电话会议",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "午盘：美股继续上扬 纳指上涨1.3%",
+      "source": "环球市场播报",
+      "detail": "北京时间7月22日凌晨，美股周二午盘继续上扬，芯片股领涨，纳指上涨1.3%。投资者正在权衡美伊战争升级的影响，并关注最新企业财报。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqvaw8131393.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 78,
+      "insight": {
+        "what": "午盘：美股继续上扬 纳指上涨1.3%",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "雷神公司获18亿美元合同，为美国海军生产SPY-6雷达",
+      "source": "环球市场播报",
+      "detail": "RTX公司（纽约证券交易所代码：RTX）旗下雷神公司(Raytheon)获得美国海军一份价值18亿美元的合同修订，用于AN/SPY-6系列雷达的硬件生产与持续保障。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9159792.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 78,
+      "insight": {
+        "what": "雷神公司获18亿美元合同，为美国海军生产SPY-6雷达",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
@@ -136,31 +136,31 @@
     },
     {
       "rank": 9,
-      "title": "科技保险公司Lemonade内布拉斯加州上线租客保险",
+      "title": "AmeriServ Financial二季度扭亏为盈，宣布派发季度股息",
       "source": "环球市场播报",
-      "detail": "利用人工智能技术提供数字化保险服务的科技保险公司Lemonade公司（纽约证券交易所代码：LMND）宣布，即日起在内布拉斯加州推出租客保险产品...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvat2382662.shtml",
+      "detail": "AmeriServ Financial（纳斯达克代码：ASRV）公布2026年第二季度财报，实现净利润273.8万美元，合稀释后每股收益0.16美元，较去年同期净亏损28.2万美元（每股亏损0...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9160447.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
       "score": 76,
       "insight": {
-        "what": "科技保险公司Lemonade内布拉斯加州上线租客保险",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
+        "what": "AmeriServ Financial二季度扭亏为盈，宣布派发季度股息",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
       "rank": 10,
-      "title": "Precigen将于8月4日发布二季度财报及业务更新",
+      "title": "Magnolia Oil & Gas以40.6亿美元收购WildFire Energy",
       "source": "环球市场播报",
-      "detail": "商业阶段生物制药公司Precigen（纳斯达克代码：PGEN）宣布，将于2026年8月4日（周二）美股盘后发布第二季度财务业绩，并于当天下午4：30（美国东部时间）召开电话会议讨论...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9158087.shtml",
+      "detail": "Magnolia Oil &amp; Gas（纽约证券交易所代码：MGY）于7月20日宣布，已达成最终协议，以约40.6亿美元（包含债务）的价格收购WildFire Energy。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvay4896223.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 72,
+      "score": 76,
       "insight": {
-        "what": "Precigen将于8月4日发布二季度财报及业务更新",
+        "what": "Magnolia Oil & Gas以40.6亿美元收购WildFire Energy",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
