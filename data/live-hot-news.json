@@ -1,52 +1,116 @@
 {
-  "updateTime": "2026-07-22 02:57",
-  "newsUpdateTime": "2026-07-22 02:57",
-  "analysisUpdateTime": "2026-07-22 02:57",
+  "updateTime": "2026-07-22 04:18",
+  "newsUpdateTime": "2026-07-22 04:18",
+  "analysisUpdateTime": "2026-07-22 04:18",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "尾盘美股维持涨势道指上涨360点|宏利金融将于8月5日发布2026年第二季度财报|微软投入数十亿美元与欧洲mistral共建gpu算力共享池|美国汽车零部件供应商库珀标准将于8月6日召开二季度财报电话会议|美国10年和30年期国债收益率触及两个月高位油价上涨引发通胀风险|kalshi向监管申请推出黄金白银铂金永续期货|午盘美股继续上扬纳指上涨13|雷神公司获18亿美元合同为美国海军生产spy6雷达|magnoliaoilgas以406亿美元收购wildfireenergy|美国国防部长赫格塞思五角大楼迫切需要一项总额670亿美元的追加拨款计划",
+  "titleFingerprint": "7月22日收盘美股收高芯片股领涨标普指数三连跌后反弹|国际油价21日上涨|oko与shinsegae启动5亿美元奢华地产基金|巴西数字银行nubank收购portoreal以获取银行牌照|spacex的宏大解禁即将来临逾千亿美元股票将可上市交易|garmin推出无屏健康手环cirqa挑战估值百亿的whoop|微软投入数十亿美元与欧洲mistral共建gpu算力共享池|英国新任首相伯纳姆批准英国基地用于部分美军对伊打击延续前任政策|午盘美股继续上扬纳指上涨13|kalshi向监管申请推出黄金白银铂金永续期货",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
-      "title": "尾盘：美股维持涨势 道指上涨360点",
+      "title": "7月22日收盘：美股收高芯片股领涨 标普指数三连跌后反弹",
       "source": "环球市场播报",
-      "detail": "北京时间7月22日凌晨，美股周二尾盘维持涨势，道指上涨360点。投资者正在权衡美伊战争升级的影响，并关注最新企业财报。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqzku8105054.shtml",
+      "detail": "北京时间7月22日凌晨，美股周二收高，芯片股普涨。道指上涨近400点，标普500指数连续三日下跌之后反弹。投资者正在权衡美伊战争升级的影响，并关注最新企业财报。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniirfsu4801342.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 81,
+      "score": 84,
       "insight": {
-        "what": "尾盘：美股维持涨势 道指上涨360点",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
+        "what": "7月22日收盘：美股收高芯片股领涨 标普指数三连跌后反弹",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
       }
     },
     {
       "rank": 2,
-      "title": "宏利金融将于8月5日发布2026年第二季度财报",
+      "title": "国际油价21日上涨",
+      "source": "金十快讯",
+      "detail": "【国际油价21日上涨】金十数据7月22日讯，截至当天收盘，纽约商品交易所8月交货的轻质原油期货价格上涨1.68美元，收于每桶84.91美元，涨幅为2.02%；9月交货的伦敦布伦特原油期货价格上涨1.79美元，收于每桶91.01美元，涨幅为2.01%。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 76,
+      "insight": {
+        "what": "国际油价21日上涨",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "OKO与Shinsegae启动5亿美元奢华地产基金",
       "source": "环球市场播报",
-      "detail": "宏利金融（Manulife Financial Corporation，多伦多证券交易所代码：MFC）宣布，将于2026年8月5日（周三）美股收盘后公布第二季度财务业绩。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9154425.shtml",
+      "detail": "韩国零售巨头新世界集团与全球房地产开发商OKO集团宣布，将共同设立一只规模5亿美元的合资基金，专项用于开发奢华酒店及品牌住宅项目。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniirfsp2204144.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 81,
+      "score": 75,
       "insight": {
-        "what": "宏利金融将于8月5日发布2026年第二季度财报",
+        "what": "OKO与Shinsegae启动5亿美元奢华地产基金",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "巴西数字银行Nubank收购Porto Real以获取银行牌照",
+      "source": "环球市场播报",
+      "detail": "拉美领先的数字金融机构Nubank已达成协议，收购巴西Banco Porto Real de Investimentos S/A，以获取银行牌照，满足巴西央行新规要求。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniirfss7998928.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 72,
+      "insight": {
+        "what": "巴西数字银行Nubank收购Porto Real以获取银行牌照",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "SpaceX的宏大解禁即将来临 逾千亿美元股票将可上市交易",
+      "source": "环球市场播报",
+      "detail": "SpaceX已为资本市场历史上规模最大的股票解禁之一拉开序幕，下个月将有价值高达1160亿美元的股票首次具备出售资格。 禁止部分内部人士出售多达9...",
+      "url": "https://finance.sina.com.cn/world/2026-07-22/doc-iniirfsq8998532.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 69,
+      "insight": {
+        "what": "SpaceX的宏大解禁即将来临 逾千亿美元股票将可上市交易",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "Garmin推出无屏健康手环Cirqa 挑战估值百亿的Whoop",
+      "source": "环球市场播报",
+      "detail": "Garmin于7月21日正式发布其首款无屏智能手环Cirqa Smart Band，以199.99美元的价格切入快速增长的无屏可穿戴设备市场，直接向估值达101亿美元的行业领军者Whoop发起挑战。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniirfss8003237.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 68,
+      "insight": {
+        "what": "Garmin推出无屏健康手环Cirqa 挑战估值百亿的Whoop",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 7,
       "title": "微软投入数十亿美元，与欧洲Mistral共建GPU算力共享池",
       "source": "环球市场播报",
       "detail": "两家企业周二联合宣布，微软将斥资数十亿美元采购英伟达 GPU，并计划与欧洲人工智能初创企业 Mistral 共享这批算力资源。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqzks9049502.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 80,
+      "score": 68,
       "insight": {
         "what": "微软投入数十亿美元，与欧洲Mistral共建GPU算力共享池",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -55,62 +119,30 @@
       }
     },
     {
-      "rank": 4,
-      "title": "美国汽车零部件供应商库珀标准将于8月6日召开二季度财报电话会议",
+      "rank": 8,
+      "title": "英国新任首相伯纳姆批准英国基地用于部分美军对伊打击 延续前任政策",
       "source": "环球市场播报",
-      "detail": "汽车零部件供应商库珀标准控股公司（Cooper-Standard Holdings Inc．，纽约证券交易所代码：CPS）宣布，将于8月5日（周三）美股收盘后发布2026年第二季度财务业绩...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvay4864822.shtml",
+      "detail": "英国新任首相安迪·伯纳姆已批准美国使用英国军事基地，对伊朗进行英国所称的防御性打击；尽管美国总统唐纳德·特朗普正加大对伊军事行动力度...",
+      "url": "https://finance.sina.com.cn/world/2026-07-22/doc-iniirfsp2227144.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 79,
+      "score": 67,
       "insight": {
-        "what": "美国汽车零部件供应商库珀标准将于8月6日召开二季度财报电话会议",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "美国10年和30年期国债收益率触及两个月高位 油价上涨引发通胀风险",
-      "source": "环球市场播报",
-      "detail": "美国国债市场下跌，10年和30年期国债收益率升至约两个月来的最高水平。原油价格飙升令市场担忧通胀压力可能促使美联储加息。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9138756.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 78,
-      "insight": {
-        "what": "美国10年和30年期国债收益率触及两个月高位 油价上涨引发通胀风险",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
-      "rank": 6,
-      "title": "Kalshi向监管申请推出黄金、白银、铂金永续期货",
-      "source": "环球市场播报",
-      "detail": "周二，Kalshi 向美国商品期货交易委员会（CFTC）提交申请，谋求上线贵金属永续合约。 申请文件写道：“永续期货现已成为主流衍生品品类...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqvat2394117.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 76,
-      "insight": {
-        "what": "Kalshi向监管申请推出黄金、白银、铂金永续期货",
+        "what": "英国新任首相伯纳姆批准英国基地用于部分美军对伊打击 延续前任政策",
         "assets": "关注：政策敏感行业、银行券商、出口链",
         "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
         "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "午盘：美股继续上扬 纳指上涨1.3%",
       "source": "环球市场播报",
       "detail": "北京时间7月22日凌晨，美股周二午盘继续上扬，芯片股领涨，纳指上涨1.3%。投资者正在权衡美伊战争升级的影响，并关注最新企业财报。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqvaw8131393.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 72,
+      "score": 67,
       "insight": {
         "what": "午盘：美股继续上扬 纳指上涨1.3%",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -119,51 +151,19 @@
       }
     },
     {
-      "rank": 8,
-      "title": "雷神公司获18亿美元合同，为美国海军生产SPY-6雷达",
-      "source": "环球市场播报",
-      "detail": "RTX公司（纽约证券交易所代码：RTX）旗下雷神公司(Raytheon)获得美国海军一份价值18亿美元的合同修订，用于AN/SPY-6系列雷达的硬件生产与持续保障。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvau9159792.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 72,
-      "insight": {
-        "what": "雷神公司获18亿美元合同，为美国海军生产SPY-6雷达",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "Magnolia Oil & Gas以40.6亿美元收购WildFire Energy",
-      "source": "环球市场播报",
-      "detail": "Magnolia Oil &amp; Gas（纽约证券交易所代码：MGY）于7月20日宣布，已达成最终协议，以约40.6亿美元（包含债务）的价格收购WildFire Energy。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-21/doc-iniiqvay4896223.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 72,
-      "insight": {
-        "what": "Magnolia Oil & Gas以40.6亿美元收购WildFire Energy",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
       "rank": 10,
-      "title": "美国国防部长赫格塞思：五角大楼迫切需要一项总额670亿美元的追加拨款计划",
-      "source": "金十快讯",
-      "detail": "美国国防部长赫格塞思：五角大楼迫切需要一项总额670亿美元的追加拨款计划。其中包括15亿美元用于解决关键任务燃料短缺问题，以及20亿美元用于补充在战斗中损失或受损的装备。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
+      "title": "Kalshi向监管申请推出黄金、白银、铂金永续期货",
+      "source": "环球市场播报",
+      "detail": "周二，Kalshi 向美国商品期货交易委员会（CFTC）提交申请，谋求上线贵金属永续合约。 申请文件写道：“永续期货现已成为主流衍生品品类...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniiqvat2394117.shtml",
+      "sourceUrlType": "article",
       "lang": "zh",
-      "score": 70,
+      "score": 66,
       "insight": {
-        "what": "美国国防部长赫格塞思：五角大楼迫切需要一项总额670亿美元的追加拨款计划",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
+        "what": "Kalshi向监管申请推出黄金、白银、铂金永续期货",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
       }
     }
   ]
