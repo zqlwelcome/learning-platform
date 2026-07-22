@@ -1,20 +1,68 @@
 {
-  "updateTime": "2026-07-22 21:00",
-  "newsUpdateTime": "2026-07-22 21:00",
-  "analysisUpdateTime": "2026-07-22 21:00",
+  "updateTime": "2026-07-22 23:10",
+  "newsUpdateTime": "2026-07-22 23:10",
+  "analysisUpdateTime": "2026-07-22 23:10",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "盘前纳指期货跌090油价突破95美元桶|3400亿月之暗面抢滩港交所九安医疗成幕后赢家|美联储预警anthropic的mythos模型风险自身却长达数月无法获取该模型权限|交易员重新评估美联储加息预期美国10年期国债收益率持平|anthropic将中期选举相关投入翻倍至4000万美元推动人工智能监管落地|最高10亿元今晚a股增持回购潮继续|君实生物2026年度第二期科技创新债券完成发行|a股存储巨头董事长提议回购全部注销多家公司最新公告|高盛中国股市或步入更具持续性的上行趋势|桑坦德银行客户规模扩张放贷业务提振利润各项业绩目标推进顺利",
+  "titleFingerprint": "纳斯达克小幅下行市场静待特斯拉谷歌财报出炉|amd将向anthropic投资50亿美元作为算力交易的一部分|罚没超3500万天域生物实控人罗卫国借私募基金马甲隐蔽减持公司已连亏六年半|盘前纳指期货跌090油价突破95美元桶|美联储预警anthropic的mythos模型风险自身却长达数月无法获取该模型权限|anthropic将中期选举相关投入翻倍至4000万美元推动人工智能监管落地|3400亿月之暗面抢滩港交所九安医疗成幕后赢家|amd与anthropic签署重大芯片供应及投资协议|交易员重新评估美联储加息预期美国10年期国债收益率持平|amd最高将向anthropic投资500亿美元同步达成算力供货合作",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
+      "title": "纳斯达克小幅下行，市场静待特斯拉、谷歌财报出炉",
+      "source": "环球市场播报",
+      "detail": "受中东冲突与乌克兰战事从多个层面冲击能源市场、能源缓冲库存持续走低影响，国际油价今日大幅上涨。 国际基准布伦特原油期货价格，较 7 月初低点上涨逾 20 美元。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzy4724574.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 100,
+      "insight": {
+        "what": "纳斯达克小幅下行，市场静待特斯拉、谷歌财报出炉",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "AMD将向Anthropic投资50亿美元，作为算力交易的一部分",
+      "source": "环球市场播报",
+      "detail": "超微半导体（AMD）周三宣布与Anthropic建立战略合作伙伴关系，并表示将在“未来”向这家人工智能公司投资高达50亿美元。 这家芯片制造商表示，作为交易的一部分...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzt1878868.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 91,
+      "insight": {
+        "what": "AMD将向Anthropic投资50亿美元，作为算力交易的一部分",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "罚没超3500万！天域生物实控人罗卫国，借私募基金“马甲”隐蔽减持，公司已连亏六年半",
+      "source": "市场资讯",
+      "detail": "来源：上市之家 近日，天域生物科技股份有限公司（603717.SH，以下简称“天域生物”）发布公告称，公司实际控制人罗卫国已收到中国证券监督管理委员会重庆监管局下发的《行政...",
+      "url": "https://finance.sina.com.cn/stock/s/2026-07-22/doc-iniisxzt1881177.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 88,
+      "insight": {
+        "what": "罚没超3500万！天域生物实控人罗卫国，借私募基金“马甲”隐蔽减持，公司已连亏六年半",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
+      }
+    },
+    {
+      "rank": 4,
       "title": "盘前：纳指期货跌0.90% 油价突破95美元/桶",
       "source": "环球市场播报",
       "detail": "周三全球市场风险情绪不佳，美国股市走低，投资者等待谷歌母公司Alphabet公布财报，以寻找迄今最明确的信号：科技巨头投入人工智能领域的巨额资金...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisttw8710312.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 107,
+      "score": 88,
       "insight": {
         "what": "盘前：纳指期货跌0.90% 油价突破95美元/桶",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -23,30 +71,14 @@
       }
     },
     {
-      "rank": 2,
-      "title": "3400亿月之暗面“抢滩”港交所，九安医疗成“幕后赢家”",
-      "source": "市场资讯",
-      "detail": "来源：环球老虎财经app 月之暗面计划在IPO前继续融资，最新一轮目标估值约500亿美元。借此，A股市场上的Kimi概念股热潮进一步蔓延。",
-      "url": "https://finance.sina.com.cn/stock/s/2026-07-22/doc-iniistty7978242.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 97,
-      "insight": {
-        "what": "3400亿月之暗面“抢滩”港交所，九安医疗成“幕后赢家”",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 3,
+      "rank": 5,
       "title": "美联储预警Anthropic的Mythos模型风险，自身却长达数月无法获取该模型权限",
       "source": "环球市场播报",
       "detail": "今年4月，美联储联合美国财政部召集全美各大头部银行CEO召开特别紧急会议。官方发出警示：一款全新的高阶人工智能模型，或将对美国顶级金融机构构成前所未有的网络安全威胁...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniistua4695594.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 90,
+      "score": 85,
       "insight": {
         "what": "美联储预警Anthropic的Mythos模型风险，自身却长达数月无法获取该模型权限",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -55,30 +87,14 @@
       }
     },
     {
-      "rank": 4,
-      "title": "交易员重新评估美联储加息预期，美国10年期国债收益率持平",
-      "source": "环球市场播报",
-      "detail": "周三美国国债收益率小幅走高，投资者持续研判中东不断升级的紧张局势，并权衡美联储未来数月的货币政策走向。 作为美国政府融资核心基准的10年期美债收益率大体持平，报4...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisttv1885273.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 87,
-      "insight": {
-        "what": "交易员重新评估美联储加息预期，美国10年期国债收益率持平",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "title": "Anthropic将中期选举相关投入翻倍至4000万美元，推动人工智能监管落地",
       "source": "环球市场播报",
       "detail": "人工智能初创企业Anthropic将其中期选举相关投入翻倍至 4000 万美元，硅谷内部对于如何监管这项具备变革性技术的对立阵营之间矛盾进一步激化。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniispmy8779526.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 86,
+      "score": 85,
       "insight": {
         "what": "Anthropic将中期选举相关投入翻倍至4000万美元，推动人工智能监管落地",
         "assets": "关注：政策敏感行业、银行券商、出口链",
@@ -87,83 +103,67 @@
       }
     },
     {
-      "rank": 6,
-      "title": "最高10亿元！今晚，A股“增持回购潮”继续",
-      "source": "滚动播报",
-      "detail": "来源：中国基金报 【导读】逾30家上市公司发布增持、回购公告 中国基金报记者 忆山 7月22日，上市公司“回购增持潮”仍在延续。截至发稿，已有超30家上市公司发布增持...",
-      "url": "https://finance.sina.com.cn/jjxw/2026-07-22/doc-iniistua4763987.shtml",
+      "rank": 7,
+      "title": "3400亿月之暗面“抢滩”港交所，九安医疗成“幕后赢家”",
+      "source": "市场资讯",
+      "detail": "来源：环球老虎财经app 月之暗面计划在IPO前继续融资，最新一轮目标估值约500亿美元。借此，A股市场上的Kimi概念股热潮进一步蔓延。",
+      "url": "https://finance.sina.com.cn/stock/s/2026-07-22/doc-iniistty7978242.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
       "score": 85,
       "insight": {
-        "what": "最高10亿元！今晚，A股“增持回购潮”继续",
+        "what": "3400亿月之暗面“抢滩”港交所，九安医疗成“幕后赢家”",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
-      "rank": 7,
-      "title": "君实生物：2026年度第二期科技创新债券完成发行",
-      "source": "金十快讯",
-      "detail": "【君实生物：2026年度第二期科技创新债券完成发行】金十数据7月22日讯，君实生物(01877.HK)公告，近日，本公司已完成发行2026年度第二期科技创新债券，募集资金已于2026年7月22日到账。2026年度第二期科技创新债券发行总金额为人民币3亿元，期限为3年，于2029年7月22日到期，发行利率为2.59%。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
+      "rank": 8,
+      "title": "AMD与Anthropic签署重大芯片供应及投资协议",
+      "source": "环球市场播报",
+      "detail": "这项总规模 2 吉瓦算力合作涉及价值数百亿美元芯片；AMD 计划最高向 Anthropic 投资 50 亿美元AMD 首席执行官苏姿丰 内容速览 AMD 与 Anthropic 达成协议...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzu8653089.shtml",
+      "sourceUrlType": "article",
       "lang": "zh",
-      "score": 84,
+      "score": 82,
       "insight": {
-        "what": "君实生物：2026年度第二期科技创新债券完成发行",
+        "what": "AMD与Anthropic签署重大芯片供应及投资协议",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 9,
+      "title": "交易员重新评估美联储加息预期，美国10年期国债收益率持平",
+      "source": "环球市场播报",
+      "detail": "周三美国国债收益率小幅走高，投资者持续研判中东不断升级的紧张局势，并权衡美联储未来数月的货币政策走向。 作为美国政府融资核心基准的10年期美债收益率大体持平，报4...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisttv1885273.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 80,
+      "insight": {
+        "what": "交易员重新评估美联储加息预期，美国10年期国债收益率持平",
         "assets": "关注：美股成长股、美元、美债、黄金",
         "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
         "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
       }
     },
     {
-      "rank": 8,
-      "title": "A股存储巨头，董事长提议回购，全部注销！多家公司，最新公告！",
-      "source": "证券时报",
-      "detail": "7月22日晚间，又有一批A股上市公司披露股份回购和重要股东增持计划，其中大秦铁路董事长提议回购规模达人民币4亿元—5亿元，在当天披露相关信息的公司中规模居前。",
-      "url": "https://finance.sina.com.cn/wm/2026-07-22/doc-iniisttv1932750.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 83,
-      "insight": {
-        "what": "A股存储巨头，董事长提议回购，全部注销！多家公司，最新公告！",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "高盛：中国股市或步入更具持续性的上行趋势",
-      "source": "中证网",
-      "detail": "高盛首席中国股票策略分析师刘劲津日前表示，高盛预计，中国股市将步入更具持续性的上行趋势，主要基于政策利好窗口开启、市场估值较低...",
-      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-07-22/doc-iniisttw8674231.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 81,
-      "insight": {
-        "what": "高盛：中国股市或步入更具持续性的上行趋势",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
       "rank": 10,
-      "title": "桑坦德银行客户规模扩张、放贷业务提振利润，各项业绩目标推进顺利",
+      "title": "AMD最高将向Anthropic投资500亿美元 同步达成算力供货合作",
       "source": "环球市场播报",
-      "detail": "该行计划通过股票回购向股东返还 100 亿欧元资金桑坦德正在推进收购美国韦伯斯特金融集团的交易，且近期完成了对英国 TSB 银行的收购...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniistty7948561.shtml",
+      "detail": "AMD于周三宣布与Anthropic达成战略合作，并表示未来将向这家人工智能企业最高投资500亿美元。 根据协议，Anthropic将采用AMD Helios机架级解决方案...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzw7927071.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 73,
+      "score": 75,
       "insight": {
-        "what": "桑坦德银行客户规模扩张、放贷业务提振利润，各项业绩目标推进顺利",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
+        "what": "AMD最高将向Anthropic投资500亿美元 同步达成算力供货合作",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
       }
     }
   ]
