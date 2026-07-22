@@ -1,61 +1,29 @@
 {
-  "updateTime": "2026-07-22 23:10",
-  "newsUpdateTime": "2026-07-22 23:10",
-  "analysisUpdateTime": "2026-07-22 23:10",
+  "updateTime": "2026-07-23 00:49",
+  "newsUpdateTime": "2026-07-23 00:49",
+  "analysisUpdateTime": "2026-07-23 00:49",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "纳斯达克小幅下行市场静待特斯拉谷歌财报出炉|amd将向anthropic投资50亿美元作为算力交易的一部分|罚没超3500万天域生物实控人罗卫国借私募基金马甲隐蔽减持公司已连亏六年半|盘前纳指期货跌090油价突破95美元桶|美联储预警anthropic的mythos模型风险自身却长达数月无法获取该模型权限|anthropic将中期选举相关投入翻倍至4000万美元推动人工智能监管落地|3400亿月之暗面抢滩港交所九安医疗成幕后赢家|amd与anthropic签署重大芯片供应及投资协议|交易员重新评估美联储加息预期美国10年期国债收益率持平|amd最高将向anthropic投资500亿美元同步达成算力供货合作",
+  "titleFingerprint": "企业财报提振欧洲股市市场聚焦欧洲央行利率决策|盘前纳指期货跌090油价突破95美元桶|债券义警疑似再现30年期美债收益率高于5的天数创近二十年最多|纳斯达克小幅下行市场静待特斯拉谷歌财报出炉|王毅谈中国东盟互利合作成果|美联储预警anthropic的mythos模型风险自身却长达数月无法获取该模型权限|午盘美股涨跌不一标普指数基本持平|spectra总裁donnelly美元在美联储决策日之前有上涨空间|amd将向anthropic投资50亿美元作为算力交易的一部分|罚没超3500万天域生物实控人罗卫国借私募基金马甲隐蔽减持公司已连亏六年半",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
-      "title": "纳斯达克小幅下行，市场静待特斯拉、谷歌财报出炉",
+      "title": "企业财报提振欧洲股市 市场聚焦欧洲央行利率决策",
       "source": "环球市场播报",
-      "detail": "受中东冲突与乌克兰战事从多个层面冲击能源市场、能源缓冲库存持续走低影响，国际油价今日大幅上涨。 国际基准布伦特原油期货价格，较 7 月初低点上涨逾 20 美元。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzy4724574.shtml",
+      "detail": "风险偏好回升推动欧洲股市上涨，企业业绩整体向好提振了市场情绪，斯托克600指数20个行业板块中有15个上涨。 斯托克欧洲600指数在伦敦上涨0.6%。",
+      "url": "https://finance.sina.com.cn/world/2026-07-23/doc-iniiteis8569142.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 100,
+      "score": 110,
       "insight": {
-        "what": "纳斯达克小幅下行，市场静待特斯拉、谷歌财报出炉",
-        "assets": "关注：黄金、原油、能源股、资源类基金",
-        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
-        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+        "what": "企业财报提振欧洲股市 市场聚焦欧洲央行利率决策",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
       }
     },
     {
       "rank": 2,
-      "title": "AMD将向Anthropic投资50亿美元，作为算力交易的一部分",
-      "source": "环球市场播报",
-      "detail": "超微半导体（AMD）周三宣布与Anthropic建立战略合作伙伴关系，并表示将在“未来”向这家人工智能公司投资高达50亿美元。 这家芯片制造商表示，作为交易的一部分...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzt1878868.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 91,
-      "insight": {
-        "what": "AMD将向Anthropic投资50亿美元，作为算力交易的一部分",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 3,
-      "title": "罚没超3500万！天域生物实控人罗卫国，借私募基金“马甲”隐蔽减持，公司已连亏六年半",
-      "source": "市场资讯",
-      "detail": "来源：上市之家 近日，天域生物科技股份有限公司（603717.SH，以下简称“天域生物”）发布公告称，公司实际控制人罗卫国已收到中国证券监督管理委员会重庆监管局下发的《行政...",
-      "url": "https://finance.sina.com.cn/stock/s/2026-07-22/doc-iniisxzt1881177.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 88,
-      "insight": {
-        "what": "罚没超3500万！天域生物实控人罗卫国，借私募基金“马甲”隐蔽减持，公司已连亏六年半",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
-      "rank": 4,
       "title": "盘前：纳指期货跌0.90% 油价突破95美元/桶",
       "source": "环球市场播报",
       "detail": "周三全球市场风险情绪不佳，美国股市走低，投资者等待谷歌母公司Alphabet公布财报，以寻找迄今最明确的信号：科技巨头投入人工智能领域的巨额资金...",
@@ -71,14 +39,62 @@
       }
     },
     {
+      "rank": 3,
+      "title": "“债券义警”疑似再现 30年期美债收益率高于5%的天数创近二十年最多",
+      "source": "环球市场播报",
+      "detail": "美国30年期国债收益率今年处于5%以上的交易日数量创金融危机初期以来最多，反映出投资者对债务规模扩大和通胀黏性的担忧。",
+      "url": "https://finance.sina.com.cn/world/2026-07-22/doc-iniiteir1775817.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 85,
+      "insight": {
+        "what": "“债券义警”疑似再现 30年期美债收益率高于5%的天数创近二十年最多",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "纳斯达克小幅下行，市场静待特斯拉、谷歌财报出炉",
+      "source": "环球市场播报",
+      "detail": "受中东冲突与乌克兰战事从多个层面冲击能源市场、能源缓冲库存持续走低影响，国际油价今日大幅上涨。 国际基准布伦特原油期货价格，较 7 月初低点上涨逾 20 美元。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzy4724574.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 85,
+      "insight": {
+        "what": "纳斯达克小幅下行，市场静待特斯拉、谷歌财报出炉",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
       "rank": 5,
+      "title": "王毅谈中国东盟互利合作成果",
+      "source": "新华社",
+      "detail": "【王毅谈中国东盟互利合作成果】金十数据7月23日讯，一是周边命运共同体建设走深走实。中国已同东盟8国就共建双边命运共同体达成重要共识，推动构建更为紧密的中国-东盟命运共同体的基础更加坚实。二是贸易规模稳步提升。中国-东盟自贸区3.0版升级议定书正式签署，双方连续6年互为最大贸易伙伴，2025年贸易额突破万亿美元。三是通力合作共渡难关。在缅甸遭遇强震、菲律宾棉兰老岛发生地震后，中方第一时间驰援，彰显了中国与东盟国家守望相助的优良传统。四是人文交流更加热络。中国-东盟人文交流年（2024至2025年）举办近200场高水平、高人气活动，中方专门出台“东盟签证”，推动人员往来更加便利、更加热络，双方人文纽带愈发紧密。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 84,
+      "insight": {
+        "what": "王毅谈中国东盟互利合作成果",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
+      }
+    },
+    {
+      "rank": 6,
       "title": "美联储预警Anthropic的Mythos模型风险，自身却长达数月无法获取该模型权限",
       "source": "环球市场播报",
       "detail": "今年4月，美联储联合美国财政部召集全美各大头部银行CEO召开特别紧急会议。官方发出警示：一款全新的高阶人工智能模型，或将对美国顶级金融机构构成前所未有的网络安全威胁...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniistua4695594.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 82,
       "insight": {
         "what": "美联储预警Anthropic的Mythos模型风险，自身却长达数月无法获取该模型权限",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -87,32 +103,16 @@
       }
     },
     {
-      "rank": 6,
-      "title": "Anthropic将中期选举相关投入翻倍至4000万美元，推动人工智能监管落地",
-      "source": "环球市场播报",
-      "detail": "人工智能初创企业Anthropic将其中期选举相关投入翻倍至 4000 万美元，硅谷内部对于如何监管这项具备变革性技术的对立阵营之间矛盾进一步激化。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniispmy8779526.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 85,
-      "insight": {
-        "what": "Anthropic将中期选举相关投入翻倍至4000万美元，推动人工智能监管落地",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
       "rank": 7,
-      "title": "3400亿月之暗面“抢滩”港交所，九安医疗成“幕后赢家”",
-      "source": "市场资讯",
-      "detail": "来源：环球老虎财经app 月之暗面计划在IPO前继续融资，最新一轮目标估值约500亿美元。借此，A股市场上的Kimi概念股热潮进一步蔓延。",
-      "url": "https://finance.sina.com.cn/stock/s/2026-07-22/doc-iniistty7978242.shtml",
+      "title": "午盘：美股涨跌不一 标普指数基本持平",
+      "source": "环球市场播报",
+      "detail": "北京时间7月23日凌晨，美股周三午盘涨跌不一，标普500指数基本持平。油价继续上涨。投资者继续关注美股财报。 道指涨176.35点，涨幅为0.34%，报52400.99点；纳指跌10...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-23/doc-iniiteiw4637245.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 78,
       "insight": {
-        "what": "3400亿月之暗面“抢滩”港交所，九安医疗成“幕后赢家”",
+        "what": "午盘：美股涨跌不一 标普指数基本持平",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
@@ -120,50 +120,50 @@
     },
     {
       "rank": 8,
-      "title": "AMD与Anthropic签署重大芯片供应及投资协议",
+      "title": "Spectra总裁Donnelly：美元在美联储决策日之前有上涨空间",
       "source": "环球市场播报",
-      "detail": "这项总规模 2 吉瓦算力合作涉及价值数百亿美元芯片；AMD 计划最高向 Anthropic 投资 50 亿美元AMD 首席执行官苏姿丰 内容速览 AMD 与 Anthropic 达成协议...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzu8653089.shtml",
+      "detail": "Spectra Markets总裁Brent Donnelly表示，在7月29日美联储利率决议公布前的几天里，美元可能会走强，因为交易员们将消化美联储主席凯文·沃什或许会加息的一定概率。",
+      "url": "https://finance.sina.com.cn/world/2026-07-22/doc-iniiteir1766433.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 82,
+      "score": 76,
       "insight": {
-        "what": "AMD与Anthropic签署重大芯片供应及投资协议",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "交易员重新评估美联储加息预期，美国10年期国债收益率持平",
-      "source": "环球市场播报",
-      "detail": "周三美国国债收益率小幅走高，投资者持续研判中东不断升级的紧张局势，并权衡美联储未来数月的货币政策走向。 作为美国政府融资核心基准的10年期美债收益率大体持平，报4...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisttv1885273.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 80,
-      "insight": {
-        "what": "交易员重新评估美联储加息预期，美国10年期国债收益率持平",
+        "what": "Spectra总裁Donnelly：美元在美联储决策日之前有上涨空间",
         "assets": "关注：美股成长股、美元、美债、黄金",
         "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
         "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
       }
     },
     {
-      "rank": 10,
-      "title": "AMD最高将向Anthropic投资500亿美元 同步达成算力供货合作",
+      "rank": 9,
+      "title": "AMD将向Anthropic投资50亿美元，作为算力交易的一部分",
       "source": "环球市场播报",
-      "detail": "AMD于周三宣布与Anthropic达成战略合作，并表示未来将向这家人工智能企业最高投资500亿美元。 根据协议，Anthropic将采用AMD Helios机架级解决方案...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzw7927071.shtml",
+      "detail": "超微半导体（AMD）周三宣布与Anthropic建立战略合作伙伴关系，并表示将在“未来”向这家人工智能公司投资高达50亿美元。 这家芯片制造商表示，作为交易的一部分...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-22/doc-iniisxzt1878868.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 75,
+      "score": 76,
       "insight": {
-        "what": "AMD最高将向Anthropic投资500亿美元 同步达成算力供货合作",
+        "what": "AMD将向Anthropic投资50亿美元，作为算力交易的一部分",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
         "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
         "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "罚没超3500万！天域生物实控人罗卫国，借私募基金“马甲”隐蔽减持，公司已连亏六年半",
+      "source": "市场资讯",
+      "detail": "来源：上市之家 近日，天域生物科技股份有限公司（603717.SH，以下简称“天域生物”）发布公告称，公司实际控制人罗卫国已收到中国证券监督管理委员会重庆监管局下发的《行政...",
+      "url": "https://finance.sina.com.cn/stock/s/2026-07-22/doc-iniisxzt1881177.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 73,
+      "insight": {
+        "what": "罚没超3500万！天域生物实控人罗卫国，借私募基金“马甲”隐蔽减持，公司已连亏六年半",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
       }
     }
   ]
