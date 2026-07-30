@@ -1,20 +1,36 @@
 {
-  "updateTime": "2026-07-31 00:57",
-  "newsUpdateTime": "2026-07-31 00:57",
-  "analysisUpdateTime": "2026-07-31 00:57",
+  "updateTime": "2026-07-31 02:14",
+  "newsUpdateTime": "2026-07-31 02:14",
+  "analysisUpdateTime": "2026-07-31 02:14",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "美股午盘维持涨势纳指上涨23微软大涨158|纽交所母公司洲际交易所同意以约60亿美元收购marketaxess|美联储决议后首批数据发布长期美债收益率守住大部分涨幅|回购暂停自由现金流大幅锐减meta股价走低|英国央行以6比3票数维持利率不变行长贝利弱化加息前景|t1energy宣布12亿美元可转债融资股价上涨约14|温彻斯特银行公布2026财年业绩净利润440万美元实现扭亏为盈|ai股受挫之际城堡投资据悉大举买入前openai研究员旗下基金持仓|美国抵押贷款利率升至一年高位伊朗冲突加剧通胀担忧|美股数据观察微软周四早盘涨超14有望创2008年10月以来最大单日涨幅",
+  "titleFingerprint": "多家银行正洽谈向anthropic的数据中心提供150亿美元贷款项目获谷歌支持|美股午盘维持涨势纳指上涨23微软大涨158|据华尔街日报多家银行正洽谈为一家与anthropic合作的数据中心开发商提供150亿|纽交所母公司洲际交易所同意以约60亿美元收购marketaxess|欧洲债市英国国债飙升因英国央行行长发表鸽派言论|美联储决议后首批数据发布长期美债收益率守住大部分涨幅|回购暂停自由现金流大幅锐减meta股价走低|英国央行以6比3票数维持利率不变行长贝利弱化加息前景|t1energy宣布12亿美元可转债融资股价上涨约14|温彻斯特银行公布2026财年业绩净利润440万美元实现扭亏为盈",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
+      "title": "多家银行正洽谈向Anthropic的数据中心提供150亿美元贷款，项目获谷歌支持",
+      "source": "金十快讯",
+      "detail": "【多家银行正洽谈向Anthropic的数据中心提供150亿美元贷款，项目获谷歌支持】金十数据7月31日讯，据华尔街日报报道，知情人士透露，一家与Anthropic合作的数据中心开发商正就借入150亿美元进行深入磋商，用于在得克萨斯州建设一座大型数据中心园区及发电厂，谷歌将为此提供财务担保和芯片。根据正在商讨的协议，由摩根士丹利牵头的银团将向Nexus Data Centers提供150亿美元贷款，用于在得克萨斯州哈伯德市建设该园区。该园区将配备一座能够产生1.6吉瓦电力的自有天然气发电厂。该交易最早可能于今日公布。知情人士称，为帮助Nexus筹集债务融资，谷歌已为Anthropic数十亿美元的租赁和电力支付义务提供了担保，以防这家初创公司违约。不过其中一位知情人士表示，谷歌的支持范围有限，仅覆盖了银行完成融资所需的最低金额。这些担保涵盖了Anthropic已签署的四份数据中心租赁合同，以及相应的电力购买协议，电力将由服务该园区的厂内自备电厂供给。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 99,
+      "insight": {
+        "what": "多家银行正洽谈向Anthropic的数据中心提供150亿美元贷款，项目获谷歌支持",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 2,
       "title": "美股午盘维持涨势，纳指上涨2.3%，微软大涨15.8%",
       "source": "环球市场播报",
       "detail": "北京时间7月31日凌晨，美股周四午盘维持涨势，科技股领涨。在经历了周三的显著下跌后，主要股指在微软和芯片股带动下反弹。前一交易日美联储决定维持利率不变...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-31/doc-inikrfcx1157009.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 101,
+      "score": 98,
       "insight": {
         "what": "美股午盘维持涨势，纳指上涨2.3%，微软大涨15.8%",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -23,14 +39,30 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "据华尔街日报：多家银行正洽谈为一家与Anthropic合作的数据中心开发商提供150亿美元贷",
+      "source": "金十快讯",
+      "detail": "据华尔街日报：多家银行正洽谈为一家与Anthropic合作的数据中心开发商提供150亿美元贷款，谷歌将提供财务担保和芯片支持。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 88,
+      "insight": {
+        "what": "据华尔街日报：多家银行正洽谈为一家与Anthropic合作的数据中心开发商提供150亿美元贷",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 4,
       "title": "纽交所母公司洲际交易所同意以约60亿美元收购MarketAxess",
       "source": "环球市场播报",
       "detail": "纽约证券交易所母公司洲际交易所同意以约60亿美元现金收购MarketAxess Holdings Inc．，将全球最大的固定收益交易平台之一纳入旗下交易平台体系。",
       "url": "https://finance.sina.com.cn/world/2026-07-31/doc-inikrmms9443795.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 90,
+      "score": 87,
       "insight": {
         "what": "纽交所母公司洲际交易所同意以约60亿美元收购MarketAxess",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -39,14 +71,30 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
+      "title": "欧洲债市：英国国债飙升 因英国央行行长发表鸽派言论",
+      "source": "环球市场播报",
+      "detail": "短期英国国债上涨，此前英国央行维持利率不变，并令市场对其正准备加息的猜测降温。短期德国国债跟随美国国债走高。 2年期英国国债收益率一度大跌12个基点，至4.33%。",
+      "url": "https://finance.sina.com.cn/world/2026-07-31/doc-inikrmmx4832418.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 83,
+      "insight": {
+        "what": "欧洲债市：英国国债飙升 因英国央行行长发表鸽派言论",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 6,
       "title": "美联储决议后首批数据发布 长期美债收益率守住大部分涨幅",
       "source": "环球市场播报",
       "detail": "长期美国国债收益率守住本周美联储决议后录得的大部分涨幅，一系列美国经济数据显示通胀仍然高企且劳动力市场具有韧性。",
       "url": "https://finance.sina.com.cn/world/2026-07-31/doc-inikrfcz4954676.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 82,
       "insight": {
         "what": "美联储决议后首批数据发布 长期美债收益率守住大部分涨幅",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -55,14 +103,14 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 7,
       "title": "回购暂停、自由现金流大幅锐减，Meta股价走低",
       "source": "环球市场播报",
       "detail": "Meta 平台大跌 8.9%。公司披露二季度稀释后每股收益 6.18 美元，同比下滑 13%，大幅低于分析师预期的 7.22 美元。 本季度总营收同比上涨 28% 至 608 亿美元...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-31/doc-inikrfcu9555953.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 80,
+      "score": 77,
       "insight": {
         "what": "回购暂停、自由现金流大幅锐减，Meta股价走低",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -71,14 +119,14 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "英国央行以6比3票数维持利率不变 行长贝利弱化加息前景",
       "source": "环球市场播报",
       "detail": "英国央行将利率维持在3.75%不变。英国官员试图在美伊紧张局势再度升温的风险与国内价格压力降温速度快于预期的迹象之间取得平衡。",
       "url": "https://finance.sina.com.cn/world/2026-07-31/doc-inikrfcu9565465.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 78,
+      "score": 75,
       "insight": {
         "what": "英国央行以6比3票数维持利率不变 行长贝利弱化加息前景",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -87,14 +135,14 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "T1 Energy宣布1.2亿美元可转债融资，股价上涨约14%",
       "source": "环球市场播报",
       "detail": "能源解决方案提供商T1 Energy股价周四早盘上涨约14%，报4.26美元。此前该公司宣布将通过非公开配售方式发行1.2亿美元可转换债券。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-30/doc-inikrfcx1148667.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 77,
+      "score": 74,
       "insight": {
         "what": "T1 Energy宣布1.2亿美元可转债融资，股价上涨约14%",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -103,64 +151,16 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "温彻斯特银行公布2026财年业绩：净利润440万美元，实现扭亏为盈",
       "source": "环球市场播报",
       "detail": "温彻斯特银行的母公司Winchester Bancorp， Inc．于7月30日发布了截至2026年6月30日的全年财务报告。报告显示，公司在上市首个完整财年实现净利润440万美元，合每股收益0...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-30/doc-inikrfcx1147973.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 77,
+      "score": 74,
       "insight": {
         "what": "温彻斯特银行公布2026财年业绩：净利润440万美元，实现扭亏为盈",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "AI股受挫之际 城堡投资据悉大举买入前OpenAI研究员旗下基金持仓",
-      "source": "环球市场播报",
-      "detail": "肯·格里芬旗下城堡投资买下Situational Awareness持有的大量人工智能股票，这只对冲基金由前OpenAI研究员Leopold Aschenbrenner管理。",
-      "url": "https://finance.sina.com.cn/world/2026-07-31/doc-inikrfec1730527.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 75,
-      "insight": {
-        "what": "AI股受挫之际 城堡投资据悉大举买入前OpenAI研究员旗下基金持仓",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "美国抵押贷款利率升至一年高位 伊朗冲突加剧通胀担忧",
-      "source": "环球市场播报",
-      "detail": "美国抵押贷款利率升至12个月高点，因为美国国债收益率近几周攀升，加之伊朗战事持续引发市场对通胀升温的担忧。 房地美周四发布声明称...",
-      "url": "https://finance.sina.com.cn/world/2026-07-31/doc-inikrfcx1168214.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 72,
-      "insight": {
-        "what": "美国抵押贷款利率升至一年高位 伊朗冲突加剧通胀担忧",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "美股数据观察：微软周四早盘涨超14%，有望创2008年10月以来最大单日涨幅",
-      "source": "环球市场播报",
-      "detail": "微软公司（MSFT）目前报447.13美元，上涨56.59美元，涨幅14.49%。 若收盘于此价位，将创2026年6月1日（收盘价460.52美元）以来最高收盘价。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-30/doc-inikqywc5035037.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 70,
-      "insight": {
-        "what": "美股数据观察：微软周四早盘涨超14%，有望创2008年10月以来最大单日涨幅",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
