@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-03 05:11",
+    "updateTime": "2026-08-03 06:12",
     "mood": {
         "mood": "震荡分化，等确认",
         "icon": "🧭",
         "color": "#0071e3",
-        "confidence": 6,
+        "confidence": 7,
         "dimensions": [
             {
                 "label": "趋势",
@@ -30,7 +30,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "商品",
-                "value": "印度央行：印度引资举措吸引超400亿美元外资 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
+                "value": "国际原油周一低开逾8% 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
             },
             {
                 "label": "中国资产",
