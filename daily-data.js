@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-07 17:27",
+    "updateTime": "2026-08-07 18:25",
     "mood": {
-        "mood": "震荡分化，等确认",
-        "icon": "🧭",
-        "color": "#0071e3",
-        "confidence": 7,
+        "mood": "偏乐观但拥挤",
+        "icon": "😊",
+        "color": "#34c759",
+        "confidence": 10,
         "dimensions": [
             {
                 "label": "趋势",
@@ -34,7 +34,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "中国资产",
-                "value": "中国人民银行：连续第21个月增持黄金 更适合作为结构性线索，看港股/A股是否有资金跟进。"
+                "value": "7月份私募证券基金备案量创年内单月新高 更适合作为结构性线索，看港股/A股是否有资金跟进。"
             },
             {
                 "label": "风险",
