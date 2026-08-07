@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-08 06:27",
+    "updateTime": "2026-08-08 07:06",
     "mood": {
-        "mood": "震荡分化，等确认",
-        "icon": "🧭",
-        "color": "#0071e3",
-        "confidence": 6,
+        "mood": "偏乐观但拥挤",
+        "icon": "😊",
+        "color": "#34c759",
+        "confidence": 10,
         "dimensions": [
             {
                 "label": "趋势",
@@ -30,7 +30,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "商品",
-                "value": "原油：油价持稳 交易员权衡霍尔木兹海峡谈判和伊朗紧张局势 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
+                "value": "国际油价7日上涨 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
             },
             {
                 "label": "中国资产",
