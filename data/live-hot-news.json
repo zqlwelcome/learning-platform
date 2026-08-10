@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-08-11 03:36",
-  "newsUpdateTime": "2026-08-11 03:36",
-  "analysisUpdateTime": "2026-08-11 03:36",
+  "updateTime": "2026-08-11 04:19",
+  "newsUpdateTime": "2026-08-11 04:19",
+  "analysisUpdateTime": "2026-08-11 04:19",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "欧洲股市近乎持平收盘仍创纪录新高财报乐观情绪提供支撑|黄金创下七个月最佳单周表现迈克库为何继续加仓黄金|深夜直线跳水美股巨头突传利空|高盛全球银行与市场业务联席主管三大理由建议持续布局市场|凯文沃什重塑美联储ai驱动新范式遇上顽固通胀的钢丝表演|英伟达联手华尔街巨头筹划5000亿美元ai基建融资|财报不及预期之际巴里克与纽蒙特达成40亿美元交易北美资产冲刺年底ipo|盘前纳指期货涨002市场焦点转向7月cpi|知情人士希音ipo向投资者推介估值不足300亿美元|现货黄金日内涨幅扩大至100现报438481美元盎司",
+  "titleFingerprint": "欧洲股市近乎持平收盘仍创纪录新高财报乐观情绪提供支撑|黄金创下七个月最佳单周表现迈克库为何继续加仓黄金|深夜直线跳水美股巨头突传利空|高盛全球银行与市场业务联席主管三大理由建议持续布局市场|凯文沃什重塑美联储ai驱动新范式遇上顽固通胀的钢丝表演|英伟达联手华尔街巨头筹划5000亿美元ai基建融资|美国证券交易委员会sec已对aditventuresmanagement等公司提起|财报不及预期之际巴里克与纽蒙特达成40亿美元交易北美资产冲刺年底ipo|盘前纳指期货涨002市场焦点转向7月cpi|知情人士希音ipo向投资者推介估值不足300亿美元",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
@@ -14,7 +14,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimwckz1107003.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 100,
+      "score": 99,
       "insight": {
         "what": "欧洲股市近乎持平 收盘仍创纪录新高 财报乐观情绪提供支撑",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -30,7 +30,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimwcmc7991673.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 94,
+      "score": 93,
       "insight": {
         "what": "黄金创下七个月最佳单周表现 迈克・库为何继续加仓黄金",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -62,7 +62,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimwitc4643215.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 86,
+      "score": 85,
       "insight": {
         "what": "高盛全球银行与市场业务联席主管：三大理由建议持续布局市场",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -94,7 +94,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimwitc4651224.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 83,
+      "score": 82,
       "insight": {
         "what": "英伟达联手华尔街巨头筹划5000亿美元AI基建融资",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -104,13 +104,29 @@
     },
     {
       "rank": 7,
+      "title": "美国证券交易委员会（SEC）：已对Adit Ventures Management等公司提起",
+      "source": "金十快讯",
+      "detail": "美国证券交易委员会（SEC）：已对Adit Ventures Management等公司提起诉讼，其涉嫌在SpaceX和Klarna.com等IPO前股票投资中欺诈投资者和客户资金。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 80,
+      "insight": {
+        "what": "美国证券交易委员会（SEC）：已对Adit Ventures Management等公司提起",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 8,
       "title": "财报不及预期之际，巴里克与纽蒙特达成40亿美元交易，北美资产冲刺年底IPO",
       "source": "新浪财经",
       "detail": "新浪财经讯，8月10日晚间消息，巴里克矿业（Barrick Mining Corp．）周一宣布与合资伙伴纽蒙特（Newmont Corp．）就内华达金矿（Nevada Gold Mines...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-11/doc-inimwcmf4762467.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 80,
+      "score": 79,
       "insight": {
         "what": "财报不及预期之际，巴里克与纽蒙特达成40亿美元交易，北美资产冲刺年底IPO",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -119,7 +135,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "盘前：纳指期货涨0.02% 市场焦点转向7月CPI",
       "source": "环球市场播报",
       "detail": "周一全球股市接近历史高位，交易员正等待美国下一项重要经济数据公布。随着市场对美联储加息预期降温，风险资产继续受到支撑。与此同时...",
@@ -135,7 +151,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "知情人士：希音IPO向投资者推介估值不足300亿美元",
       "source": "环球市场播报",
       "detail": "两名知情人士透露，希音（Shein）承销投行向潜在投资者给出的公司估值不足300亿美元，较巅峰估值缩水约七成。 另有两位熟悉公司规划的人士表示...",
@@ -148,22 +164,6 @@
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "现货黄金日内涨幅扩大至1.00%，现报4384.81美元/盎司",
-      "source": "金十快讯",
-      "detail": "现货黄金日内涨幅扩大至1.00%，现报4384.81美元/盎司。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
-      "lang": "zh",
-      "score": 75,
-      "insight": {
-        "what": "现货黄金日内涨幅扩大至1.00%，现报4384.81美元/盎司",
-        "assets": "关注：黄金、原油、能源股、资源类基金",
-        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
-        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
       }
     }
   ]
