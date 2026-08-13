@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-08-14 01:37",
-  "newsUpdateTime": "2026-08-14 01:37",
-  "analysisUpdateTime": "2026-08-14 01:37",
+  "updateTime": "2026-08-14 02:32",
+  "newsUpdateTime": "2026-08-14 02:32",
+  "analysisUpdateTime": "2026-08-14 02:32",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "anthropicipo前密会投资者2万亿美元估值非官方目标|债市正在释放股市前景堪忧的信号|美联储在固定利率逆回购操作中总计接纳了1个对手方的45亿美元|美国7月ppi持平低于预期国债收益率回落9月加息压力减轻|amd拟发行投资级债券筹资最高50亿美元|油价下跌且通胀接连报喜交易员不再充分消化美联储年内加息的情景|高盛副董事长称美联储7月未加息绝对正确或可拖一拖观察更多信号|美联储的哈马克称三个领域可能影响金融稳定包括美债市场的高杠杆|美国股指期货小幅走高交易员等待ppi数据|美伊战事持续伊朗谋求深化与金砖国家经济联盟",
+  "titleFingerprint": "anthropicipo前密会投资者2万亿美元估值非官方目标|债市正在释放股市前景堪忧的信号|amd拟发行投资级债券筹资最高50亿美元|美国7月ppi持平低于预期国债收益率回落9月加息压力减轻|美联储在固定利率逆回购操作中总计接纳了1个对手方的45亿美元|油价下跌且通胀接连报喜交易员不再充分消化美联储年内加息的情景|高盛副董事长称美联储7月未加息绝对正确或可拖一拖观察更多信号|美联储的哈马克称三个领域可能影响金融稳定包括美债市场的高杠杆|美国股指期货小幅走高交易员等待ppi数据|美伊战事持续伊朗谋求深化与金砖国家经济联盟",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
@@ -14,7 +14,7 @@
       "url": "https://www.jin10.com",
       "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 114,
+      "score": 105,
       "insight": {
         "what": "Anthropic IPO前密会投资者 2万亿美元估值非官方目标",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -30,7 +30,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-inineywa4534911.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 98,
+      "score": 94,
       "insight": {
         "what": "债市正在释放股市前景堪忧的信号",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -40,18 +40,18 @@
     },
     {
       "rank": 3,
-      "title": "美联储在固定利率逆回购操作中总计接纳了1个对手方的4.5亿美元",
-      "source": "金十快讯",
-      "detail": "美联储在固定利率逆回购操作中总计接纳了1个对手方的4.5亿美元。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
+      "title": "AMD拟发行投资级债券 筹资最高50亿美元",
+      "source": "环球市场播报",
+      "detail": "AMD计划通过发行可能创公司历史最大规模的投资级债券，筹集最高50亿美元资金，加入人工智能热潮带动的企业发债行列。 据知情人士透露，此次发债的最终规模尚未确定...",
+      "url": "https://finance.sina.com.cn/world/2026-08-13/doc-inineywf3227189.shtml",
+      "sourceUrlType": "article",
       "lang": "zh",
-      "score": 93,
+      "score": 85,
       "insight": {
-        "what": "美联储在固定利率逆回购操作中总计接纳了1个对手方的4.5亿美元",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+        "what": "AMD拟发行投资级债券 筹资最高50亿美元",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
       }
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-13/doc-inineuqi3302848.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 87,
+      "score": 85,
       "insight": {
         "what": "美国7月PPI持平低于预期，国债收益率回落，9月加息压力减轻",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -72,18 +72,18 @@
     },
     {
       "rank": 5,
-      "title": "AMD拟发行投资级债券 筹资最高50亿美元",
-      "source": "环球市场播报",
-      "detail": "AMD计划通过发行可能创公司历史最大规模的投资级债券，筹集最高50亿美元资金，加入人工智能热潮带动的企业发债行列。 据知情人士透露，此次发债的最终规模尚未确定...",
-      "url": "https://finance.sina.com.cn/world/2026-08-13/doc-inineywf3227189.shtml",
-      "sourceUrlType": "article",
+      "title": "美联储在固定利率逆回购操作中总计接纳了1个对手方的4.5亿美元",
+      "source": "金十快讯",
+      "detail": "美联储在固定利率逆回购操作中总计接纳了1个对手方的4.5亿美元。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 86,
+      "score": 84,
       "insight": {
-        "what": "AMD拟发行投资级债券 筹资最高50亿美元",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
+        "what": "美联储在固定利率逆回购操作中总计接纳了1个对手方的4.5亿美元",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
       }
     },
     {
