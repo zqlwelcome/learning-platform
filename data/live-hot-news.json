@@ -1,36 +1,20 @@
 {
-  "updateTime": "2026-08-15 04:39",
-  "newsUpdateTime": "2026-08-15 04:39",
-  "analysisUpdateTime": "2026-08-15 04:39",
+  "updateTime": "2026-08-15 05:00",
+  "newsUpdateTime": "2026-08-15 05:00",
+  "analysisUpdateTime": "2026-08-15 05:00",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "美国证券交易委员会文件显示英伟达nvdao持有spacexspcxo1228|大宗商品综述油价上涨铜价走高金价反弹|美国证券交易委员会文件显示英特尔intcoceo陈立武于8月11日在公开市场以平均每|委内瑞拉希望从英格兰银行取回本国黄金储备|纽约汇市美元因美国零售销售疲软而下跌日元小幅走强|矿业大亨吉娜莱因哈特披露持有价值14亿美元spacex股份|盘前市场重新涌入ai纳指期货涨028|博通持续震荡三个月华尔街一名专业分析师看好后市涨幅超60|人工智能基建扩张面临一道难题一万亿美元现金也无力解决|芝加哥联储行长对通胀降温感到鼓舞仍希望看到更多证据",
+  "titleFingerprint": "大宗商品综述油价上涨铜价走高金价反弹|美国证券交易委员会文件显示英伟达nvdao持有spacexspcxo1228|委内瑞拉希望从英格兰银行取回本国黄金储备|美国证券交易委员会文件显示英特尔intcoceo陈立武于8月11日在公开市场以平均每|矿业大亨吉娜莱因哈特披露持有价值14亿美元spacex股份|纽约汇市美元因美国零售销售疲软而下跌日元小幅走强|英伟达披露持有210亿美元的spacex股份|人工智能基建扩张面临一道难题一万亿美元现金也无力解决|哈佛披露持有价值22亿美元的spacex股份|博通持续震荡三个月华尔街一名专业分析师看好后市涨幅超60",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
-      "title": "美国证券交易委员会文件显示，英伟达(NVDA.O)持有SpaceX(SPCX.O)1.228",
-      "source": "金十快讯",
-      "detail": "美国证券交易委员会文件显示，英伟达(NVDA.O)持有SpaceX(SPCX.O)1.228亿股A类普通股，估值约为210亿美元。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
-      "lang": "zh",
-      "score": 104,
-      "insight": {
-        "what": "美国证券交易委员会文件显示，英伟达(NVDA.O)持有SpaceX(SPCX.O)1.228",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 2,
       "title": "大宗商品综述：油价上涨 铜价走高 金价反弹",
       "source": "环球市场播报",
       "detail": "原油价格小幅走高，交易员权衡美国拟加大对伊朗经济压力的威胁。铜价上涨，有迹象显示铜供应进一步趋紧。金价回升，最新通胀数据削弱对美联储加息的预期。",
       "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiqma2282143.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 104,
+      "score": 100,
       "insight": {
         "what": "大宗商品综述：油价上涨 铜价走高 金价反弹",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -39,23 +23,23 @@
       }
     },
     {
-      "rank": 3,
-      "title": "美国证券交易委员会文件显示，英特尔(INTC.O)CEO陈立武于8月11日在公开市场以平均每",
+      "rank": 2,
+      "title": "美国证券交易委员会文件显示，英伟达(NVDA.O)持有SpaceX(SPCX.O)1.228",
       "source": "金十快讯",
-      "detail": "美国证券交易委员会文件显示，英特尔(INTC.O)CEO陈立武于8月11日在公开市场以平均每股95美元的价格购买了105,263股英特尔股票。",
+      "detail": "美国证券交易委员会文件显示，英伟达(NVDA.O)持有SpaceX(SPCX.O)1.228亿股A类普通股，估值约为210亿美元。",
       "url": "https://www.jin10.com",
       "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 90,
+      "score": 97,
       "insight": {
-        "what": "美国证券交易委员会文件显示，英特尔(INTC.O)CEO陈立武于8月11日在公开市场以平均每",
+        "what": "美国证券交易委员会文件显示，英伟达(NVDA.O)持有SpaceX(SPCX.O)1.228",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "title": "委内瑞拉希望从英格兰银行取回本国黄金储备",
       "source": "环球市场播报",
       "detail": "经过近两周由美国斡旋的谈判，委内瑞拉政府与反对派达成一项重要共识：要求英格兰银行归还价值40亿美元的黄金储备。 自2018年起，英国拒绝承认委内瑞拉社会主义革命政府...",
@@ -71,30 +55,30 @@
       }
     },
     {
-      "rank": 5,
-      "title": "纽约汇市：美元因美国零售销售疲软而下跌 日元小幅走强",
-      "source": "环球市场播报",
-      "detail": "彭博美元指数触及5月份以来最低，此前美国零售销售数据出人意料地表现疲软，令市场对美国加息的预期降温。日元小幅上涨。",
-      "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiqmc9054812.shtml",
-      "sourceUrlType": "article",
+      "rank": 4,
+      "title": "美国证券交易委员会文件显示，英特尔(INTC.O)CEO陈立武于8月11日在公开市场以平均每",
+      "source": "金十快讯",
+      "detail": "美国证券交易委员会文件显示，英特尔(INTC.O)CEO陈立武于8月11日在公开市场以平均每股95美元的价格购买了105,263股英特尔股票。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 78,
+      "score": 83,
       "insight": {
-        "what": "纽约汇市：美元因美国零售销售疲软而下跌 日元小幅走强",
+        "what": "美国证券交易委员会文件显示，英特尔(INTC.O)CEO陈立武于8月11日在公开市场以平均每",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "title": "矿业大亨吉娜・莱因哈特披露持有价值14亿美元SpaceX股份",
       "source": "环球市场播报",
       "detail": "澳大利亚首富吉娜・莱因哈特在今年第二季度购入埃隆・马斯克旗下太空探索技术公司（SpaceX）800 万股股票，同时又追加数亿美元布局美股市场。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininicvi9239147.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 78,
+      "score": 75,
       "insight": {
         "what": "矿业大亨吉娜・莱因哈特披露持有价值14亿美元SpaceX股份",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -103,39 +87,39 @@
       }
     },
     {
-      "rank": 7,
-      "title": "盘前：市场重新涌入AI 纳指期货涨0.28%",
+      "rank": 6,
+      "title": "纽约汇市：美元因美国零售销售疲软而下跌 日元小幅走强",
       "source": "环球市场播报",
-      "detail": "周五全球股市走势震荡，有望连续第三周上涨，美国国债收益率小幅走高。此前温和的美国通胀数据削弱了市场对美联储下月加息的预期，不过...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhxpm9267555.shtml",
+      "detail": "彭博美元指数触及5月份以来最低，此前美国零售销售数据出人意料地表现疲软，令市场对美国加息的预期降温。日元小幅上涨。",
+      "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiqmc9054812.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 78,
+      "score": 74,
       "insight": {
-        "what": "盘前：市场重新涌入AI 纳指期货涨0.28%",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "博通持续震荡三个月：华尔街一名专业分析师看好后市涨幅超60%",
-      "source": "环球市场播报",
-      "detail": "要点速览 法国巴黎银行 Exane 将博通目标价上调至 675 美元，潜在上涨空间 61%；共有 44 位分析师给予该股买入评级，无卖出评级。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininikay3900751.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 76,
-      "insight": {
-        "what": "博通持续震荡三个月：华尔街一名专业分析师看好后市涨幅超60%",
+        "what": "纽约汇市：美元因美国零售销售疲软而下跌 日元小幅走强",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
-      "rank": 9,
+      "rank": 7,
+      "title": "英伟达披露持有210亿美元的SpaceX股份",
+      "source": "环球市场播报",
+      "detail": "根据申报文件，英伟达披露持有价值209.7亿美元的SpaceX股份。 英伟达还披露持有价值约300亿美元的英特尔股份。",
+      "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiusx2461874.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 73,
+      "insight": {
+        "what": "英伟达披露持有210亿美元的SpaceX股份",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 8,
       "title": "人工智能基建扩张面临一道难题：一万亿美元现金也无力解决",
       "source": "环球市场播报",
       "detail": "为何三分之二人工智能数据中心的电力需求或许永远无法落地 财报季已接近尾声，市场再度出炉规模更大的预测，测算各大云厂商今年将投入多少资金扩建人工智能数据中心。",
@@ -151,19 +135,35 @@
       }
     },
     {
-      "rank": 10,
-      "title": "芝加哥联储行长对通胀降温感到鼓舞 仍希望看到更多证据",
+      "rank": 9,
+      "title": "哈佛披露持有价值22亿美元的SpaceX股份",
       "source": "环球市场播报",
-      "detail": "芝加哥联储行长奥斯坦·古尔斯比表示，近期通胀降温令他受到鼓舞，但他希望在未来几个月看到更多类似迹象，以确认通胀在向美联储2%的目标水平回落。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininikay3922418.shtml",
+      "detail": "哈佛在13F申报文件中披露，持有价值22.1亿美元的SpaceX股份。",
+      "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiusu3733916.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 71,
+      "score": 72,
       "insight": {
-        "what": "芝加哥联储行长对通胀降温感到鼓舞 仍希望看到更多证据",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+        "what": "哈佛披露持有价值22亿美元的SpaceX股份",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "博通持续震荡三个月：华尔街一名专业分析师看好后市涨幅超60%",
+      "source": "环球市场播报",
+      "detail": "要点速览 法国巴黎银行 Exane 将博通目标价上调至 675 美元，潜在上涨空间 61%；共有 44 位分析师给予该股买入评级，无卖出评级。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininikay3900751.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 72,
+      "insight": {
+        "what": "博通持续震荡三个月：华尔街一名专业分析师看好后市涨幅超60%",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     }
   ]
