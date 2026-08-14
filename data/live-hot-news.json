@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-08-15 05:54",
-  "newsUpdateTime": "2026-08-15 05:54",
-  "analysisUpdateTime": "2026-08-15 05:54",
+  "updateTime": "2026-08-15 06:15",
+  "newsUpdateTime": "2026-08-15 06:15",
+  "analysisUpdateTime": "2026-08-15 06:15",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "美国股市标普500指数从纪录高位回落美国消费出现降温迹象|大宗商品综述油价上涨铜价走高金价反弹|委内瑞拉希望从英格兰银行取回本国黄金储备|巴克莱维持2026年布伦特原油价格预测为96美元桶|anthropic二季度营收超115亿美元较去年同期增长至少14倍|矿业大亨吉娜莱因哈特披露持有价值14亿美元spacex股份|anthropic第二财季营收超过115亿美元较上年同期飙升至少13倍|人工智能基建扩张面临一道难题一万亿美元现金也无力解决|博通持续震荡三个月华尔街一名专业分析师看好后市涨幅超60|纽约汇市美元因美国零售销售疲软而下跌日元小幅走强",
+  "titleFingerprint": "美国股市标普500指数从纪录高位回落美国消费出现降温迹象|大宗商品综述油价上涨铜价走高金价反弹|美联储9月维持利率不变的概率为675|巴克莱维持2026年布伦特原油价格预测为96美元桶|anthropic二季度营收超115亿美元较去年同期增长至少14倍|8月15日外盘头条美将在经济上对伊实施严厉打击anthropic第二财季营收超过11|矿业大亨吉娜莱因哈特披露持有价值14亿美元spacex股份|人工智能基建扩张面临一道难题一万亿美元现金也无力解决|博通持续震荡三个月华尔街一名专业分析师看好后市涨幅超60|anthropic第二财季营收超过115亿美元较上年同期飙升至少13倍",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
@@ -14,7 +14,7 @@
       "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiusu3740746.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 99,
+      "score": 96,
       "insight": {
         "what": "美国股市：标普500指数从纪录高位回落 美国消费出现降温迹象",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -30,7 +30,7 @@
       "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiqma2282143.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 96,
+      "score": 92,
       "insight": {
         "what": "大宗商品综述：油价上涨 铜价走高 金价反弹",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -40,18 +40,18 @@
     },
     {
       "rank": 3,
-      "title": "委内瑞拉希望从英格兰银行取回本国黄金储备",
-      "source": "环球市场播报",
-      "detail": "经过近两周由美国斡旋的谈判，委内瑞拉政府与反对派达成一项重要共识：要求英格兰银行归还价值40亿美元的黄金储备。 自2018年起，英国拒绝承认委内瑞拉社会主义革命政府...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-14/doc-ininhxpi2820520.shtml",
-      "sourceUrlType": "article",
+      "title": "美联储9月维持利率不变的概率为67.5%",
+      "source": "金十快讯",
+      "detail": "【美联储9月维持利率不变的概率为67.5%】金十数据8月15日讯，据CME“美联储观察”：美联储到9月维持利率不变的概率为67.5%，累计加息25个基点的概率为32.5%。美联储到10月维持利率不变的概率为53.3%，累计加息25个基点的概率为39.8%，累计加息50个基点的概率为6.8%。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 87,
+      "score": 81,
       "insight": {
-        "what": "委内瑞拉希望从英格兰银行取回本国黄金储备",
-        "assets": "关注：黄金、原油、能源股、资源类基金",
-        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
-        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+        "what": "美联储9月维持利率不变的概率为67.5%",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
       }
     },
     {
@@ -62,7 +62,7 @@
       "url": "https://www.jin10.com",
       "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 85,
+      "score": 80,
       "insight": {
         "what": "巴克莱：维持2026年布伦特原油价格预测为96美元/桶",
         "assets": "关注：黄金、原油、能源股、资源类基金",
@@ -78,7 +78,7 @@
       "url": "https://www.jin10.com",
       "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 84,
+      "score": 79,
       "insight": {
         "what": "Anthropic二季度营收超115亿美元 较去年同期增长至少14倍",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -88,6 +88,22 @@
     },
     {
       "rank": 6,
+      "title": "8月15日外盘头条：美将在经济上对伊实施严厉打击 Anthropic第二财季营收超过115亿美元 伯克希尔披露Q2持仓",
+      "source": "环球市场播报",
+      "detail": "全球财经媒体昨夜今晨共同关注的头条新闻主要有： 1、特朗普威胁宣布霍尔木兹为美国领土，美国将对伊朗采取“前所未见”的经济手段 2...",
+      "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiusz8944454.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 77,
+      "insight": {
+        "what": "8月15日外盘头条：美将在经济上对伊实施严厉打击 Anthropic第二财季营收超过115亿美元 伯克希尔披露Q2持仓",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 7,
       "title": "矿业大亨吉娜・莱因哈特披露持有价值14亿美元SpaceX股份",
       "source": "环球市场播报",
       "detail": "澳大利亚首富吉娜・莱因哈特在今年第二季度购入埃隆・马斯克旗下太空探索技术公司（SpaceX）800 万股股票，同时又追加数亿美元布局美股市场。",
@@ -97,22 +113,6 @@
       "score": 75,
       "insight": {
         "what": "矿业大亨吉娜・莱因哈特披露持有价值14亿美元SpaceX股份",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "Anthropic第二财季营收超过115亿美元 较上年同期飙升至少13倍",
-      "source": "环球市场播报",
-      "detail": "Anthropic PBC向潜在投资者表示，其第二季度营收较上年同期增长至少13倍。 文件显示，这家Claude聊天机器人开发商最近一个完整季度的初步营收超过115亿美元...",
-      "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiusx2471568.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 73,
-      "insight": {
-        "what": "Anthropic第二财季营收超过115亿美元 较上年同期飙升至少13倍",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
@@ -152,15 +152,15 @@
     },
     {
       "rank": 10,
-      "title": "纽约汇市：美元因美国零售销售疲软而下跌 日元小幅走强",
+      "title": "Anthropic第二财季营收超过115亿美元 较上年同期飙升至少13倍",
       "source": "环球市场播报",
-      "detail": "彭博美元指数触及5月份以来最低，此前美国零售销售数据出人意料地表现疲软，令市场对美国加息的预期降温。日元小幅上涨。",
-      "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiqmc9054812.shtml",
+      "detail": "Anthropic PBC向潜在投资者表示，其第二季度营收较上年同期增长至少13倍。 文件显示，这家Claude聊天机器人开发商最近一个完整季度的初步营收超过115亿美元...",
+      "url": "https://finance.sina.com.cn/world/2026-08-15/doc-ininiusx2471568.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
       "score": 70,
       "insight": {
-        "what": "纽约汇市：美元因美国零售销售疲软而下跌 日元小幅走强",
+        "what": "Anthropic第二财季营收超过115亿美元 较上年同期飙升至少13倍",
         "assets": "关注：相关指数、行业ETF和龙头公司",
         "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
         "watch": "看后续新闻、价格和成交量是否形成共振。"
