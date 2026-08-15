@@ -9,7 +9,7 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-15 16:47",
+    "updateTime": "2026-08-15 17:10",
     "mood": {
         "mood": "震荡分化，等确认",
         "icon": "🧭",
@@ -34,7 +34,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "中国资产",
-                "value": "投行调查：AI冲击软件行业，私募二级市场投资者转向观望 更适合作为结构性线索，看港股/A股是否有资金跟进。"
+                "value": "3家A股公司齐发回购公告，最高金额10亿元 更适合作为结构性线索，看港股/A股是否有资金跟进。"
             },
             {
                 "label": "风险",
