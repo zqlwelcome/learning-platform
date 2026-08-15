@@ -1,29 +1,13 @@
 {
-  "updateTime": "2026-08-15 21:46",
-  "newsUpdateTime": "2026-08-15 21:46",
-  "analysisUpdateTime": "2026-08-15 21:46",
+  "updateTime": "2026-08-15 22:01",
+  "newsUpdateTime": "2026-08-15 22:01",
+  "analysisUpdateTime": "2026-08-15 22:01",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "本周市场的核心逻辑美联储9月不加息了|近十年来首次单月失血janestreet在ai股大跌中巨亏150亿美元|大宗商品综述油价上涨铜价走高金价反弹|宇树科技ipo暗盘交易系捕风捉影背后风险不容小觑|利好来了600406最高10亿元又一批a股公司宣布回购|美国股市标普500指数从纪录高位回落美国消费出现降温迹象|养老金增持股名单出炉下周2股解禁比例超50附股|8月华尔街的牛市又回来了赌性也回来了|凌晨全线下跌特朗普重大警告美股巨头3700亿美元债务压顶|8月15日美股成交额前20闪迪收高739本周涨超35存储板块逆市走强",
+  "titleFingerprint": "近十年来首次单月失血janestreet在ai股大跌中巨亏150亿美元|大宗商品综述油价上涨铜价走高金价反弹|本周市场的核心逻辑美联储9月不加息了|宇树科技ipo暗盘交易系捕风捉影背后风险不容小觑|利好来了600406最高10亿元又一批a股公司宣布回购|美国股市标普500指数从纪录高位回落美国消费出现降温迹象|养老金增持股名单出炉下周2股解禁比例超50附股|8月华尔街的牛市又回来了赌性也回来了|凌晨全线下跌特朗普重大警告美股巨头3700亿美元债务压顶|8月15日美股成交额前20闪迪收高739本周涨超35存储板块逆市走强",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
-      "title": "本周市场的“核心逻辑”：美联储9月不加息了？",
-      "source": "市场资讯",
-      "detail": "来源：华尔街见闻 美国通胀数据意外降温，叠加就业与消费走软，本周市场对美联储9月加息的押注急剧退潮，但债券市场长端的异常信号、油价飙升以及鹰派官员的坚持...",
-      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-08-15/doc-ininkwem2171042.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 84,
-      "insight": {
-        "what": "本周市场的“核心逻辑”：美联储9月不加息了？",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
-      "rank": 2,
       "title": "近十年来首次单月失血 Jane Street在AI股大跌中巨亏150亿美元",
       "source": "环球市场播报",
       "detail": "据一位知情人士透露，由于主投人工智能的对冲基金Situational Awareness折戟并拖累整个股票市场的资产价格，Jane Street近十年来首次蒙受单月亏损且金额高达约150亿美元。",
@@ -39,7 +23,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 2,
       "title": "大宗商品综述：油价上涨 铜价走高 金价反弹",
       "source": "环球市场播报",
       "detail": "原油价格小幅走高，交易员权衡美国拟加大对伊朗经济压力的威胁。铜价上涨，有迹象显示铜供应进一步趋紧。金价回升，最新通胀数据削弱对美联储加息的预期。",
@@ -55,6 +39,22 @@
       }
     },
     {
+      "rank": 3,
+      "title": "本周市场的“核心逻辑”：美联储9月不加息了？",
+      "source": "市场资讯",
+      "detail": "来源：华尔街见闻 美国通胀数据意外降温，叠加就业与消费走软，本周市场对美联储9月加息的押注急剧退潮，但债券市场长端的异常信号、油价飙升以及鹰派官员的坚持...",
+      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-08-15/doc-ininkwem2171042.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 82,
+      "insight": {
+        "what": "本周市场的“核心逻辑”：美联储9月不加息了？",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
       "rank": 4,
       "title": "宇树科技IPO：暗盘交易系捕风捉影，背后风险不容小觑",
       "source": "上证报",
@@ -62,7 +62,7 @@
       "url": "https://www.jin10.com",
       "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 82,
+      "score": 80,
       "insight": {
         "what": "宇树科技IPO：暗盘交易系捕风捉影，背后风险不容小觑",
         "assets": "关注：政策敏感行业、银行券商、出口链",
@@ -78,7 +78,7 @@
       "url": "https://finance.sina.com.cn/stock/marketresearch/2026-08-15/doc-ininmank1736971.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 81,
+      "score": 79,
       "insight": {
         "what": "利好来了！600406，最高10亿元！又一批A股公司，宣布回购",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -110,7 +110,7 @@
       "url": "https://finance.sina.com.cn/stock/marketresearch/2026-08-15/doc-ininmanm8480768.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 74,
+      "score": 72,
       "insight": {
         "what": "养老金增持股名单出炉！下周2股解禁比例超50%（附股）",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -126,7 +126,7 @@
       "url": "https://finance.sina.com.cn/stock/marketresearch/2026-08-15/doc-ininkwen1827385.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 73,
+      "score": 71,
       "insight": {
         "what": "8月，华尔街的“牛市”又回来了，“赌性”也回来了",
         "assets": "关注：美股成长股、美元、美债、黄金",
