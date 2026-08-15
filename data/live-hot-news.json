@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-08-16 06:56",
-  "newsUpdateTime": "2026-08-16 06:56",
-  "analysisUpdateTime": "2026-08-16 06:56",
+  "updateTime": "2026-08-16 07:17",
+  "newsUpdateTime": "2026-08-16 07:17",
+  "analysisUpdateTime": "2026-08-16 07:17",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "英伟达披露第二季度末持有spacex股份210亿美元|机构ai芯片通胀正冲击英国经济|机构债券交易员正为ai企业的影子信贷担保而忧心忡忡|近十年来首次单月失血janestreet在ai股大跌中巨亏150亿美元|本周市场的核心逻辑美联储9月不加息了|美国股市标普500指数从纪录高位回落美国消费出现降温迹象|英伟达洽谈向sbenergy投资30亿美元系openai数据中心交易组成部分|8月华尔街的牛市又回来了赌性也回来了|凌晨全线下跌特朗普重大警告美股巨头3700亿美元债务压顶|8月15日美股成交额前20闪迪收高739本周涨超35存储板块逆市走强",
+  "titleFingerprint": "英伟达披露第二季度末持有spacex股份210亿美元|机构ai芯片通胀正冲击英国经济|机构债券交易员正为ai企业的影子信贷担保而忧心忡忡|近十年来首次单月失血janestreet在ai股大跌中巨亏150亿美元|本周市场的核心逻辑美联储9月不加息了|美国股市标普500指数从纪录高位回落美国消费出现降温迹象|8月华尔街的牛市又回来了赌性也回来了|英伟达洽谈向sbenergy投资30亿美元系openai数据中心交易组成部分|凌晨全线下跌特朗普重大警告美股巨头3700亿美元债务压顶|8月15日美股成交额前20闪迪收高739本周涨超35存储板块逆市走强",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
@@ -14,7 +14,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-15/doc-ininmhuf2021551.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 100,
+      "score": 98,
       "insight": {
         "what": "英伟达披露第二季度末持有SpaceX股份210亿美元",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -104,22 +104,6 @@
     },
     {
       "rank": 7,
-      "title": "英伟达洽谈向SB Energy投资30亿美元，系OpenAI数据中心交易组成部分",
-      "source": "环球市场播报",
-      "detail": "据知情人士透露，英伟达正洽谈向SB Energy最高投资30亿美元。SB Energy由软银集团支持，负责为OpenAI开发俄亥俄州大型数据中心项目。",
-      "url": "https://finance.sina.com.cn/7x24/2026-08-16/doc-ininmtkf0249840.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 71,
-      "insight": {
-        "what": "英伟达洽谈向SB Energy投资30亿美元，系OpenAI数据中心交易组成部分",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 8,
       "title": "8月，华尔街的“牛市”又回来了，“赌性”也回来了",
       "source": "市场资讯",
       "detail": "来源：华尔街见闻 美股8月强势反弹，标普500指数刷新历史高点，投资者重返科技与杠杆赛道。 强劲的企业盈利与通胀降温共同提供燃料，但油价飙升...",
@@ -132,6 +116,22 @@
         "assets": "关注：美股成长股、美元、美债、黄金",
         "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
         "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "英伟达洽谈向SB Energy投资30亿美元，系OpenAI数据中心交易组成部分",
+      "source": "环球市场播报",
+      "detail": "据知情人士透露，英伟达正洽谈向SB Energy最高投资30亿美元。SB Energy由软银集团支持，负责为OpenAI开发俄亥俄州大型数据中心项目。",
+      "url": "https://finance.sina.com.cn/7x24/2026-08-16/doc-ininmtkf0249840.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 69,
+      "insight": {
+        "what": "英伟达洽谈向SB Energy投资30亿美元，系OpenAI数据中心交易组成部分",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
       }
     },
     {
