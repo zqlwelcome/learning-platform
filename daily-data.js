@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-16 23:38",
+    "updateTime": "2026-08-16 23:54",
     "mood": {
         "mood": "偏谨慎，先控风险",
         "icon": "😐",
         "color": "#ff9500",
-        "confidence": 10,
+        "confidence": 8,
         "dimensions": [
             {
                 "label": "趋势",
@@ -30,7 +30,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "商品",
-                "value": "从实际收益率视角来看，黄金的通胀预期价值仍有攀升余地，与此同时，多头资金加速… 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
+                "value": "金十整理：下周重要事件与数据预告——中国7月经济“成绩单”；阿里、百度等多家… 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
             },
             {
                 "label": "中国资产",
