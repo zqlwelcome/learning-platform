@@ -1,13 +1,29 @@
 {
-  "updateTime": "2026-08-17 22:13",
-  "newsUpdateTime": "2026-08-17 22:13",
-  "analysisUpdateTime": "2026-08-17 22:13",
+  "updateTime": "2026-08-17 22:46",
+  "newsUpdateTime": "2026-08-17 22:46",
+  "analysisUpdateTime": "2026-08-17 22:46",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "本周重点关注沃尔玛与大型综合商超关键财报|盘前纳指期货涨052存储板块走高|美国股指期货小幅走高闪迪美光等盘前上扬|股市走高美元走软市场下调美联储加息预期|alphabet计划通过首次在澳大利亚发行债券筹集50亿澳元|高盛市场对美联储加息定价仍过于鹰派9月加息非常不可能|皮肤科单品独木支撑知原药业再战港股ipo|armcfo最新访谈内存是首要瓶颈大型并购具备可行性|加息预期崩塌机构大举加仓黄金多头强势反攻|meta与blackrock140亿美元ai数据中心暴露巨额保险缺口贷款人面临数十亿",
+  "titleFingerprint": "美股芯片股深夜大涨存储巨头飙涨13闪迪涨超8市值突破2600亿美元光通信股走强|本周重点关注沃尔玛与大型综合商超关键财报|ai相关股票集体走强anthropic营收14倍增长报告提振市场情绪|盘前纳指期货涨052存储板块走高|美国股指期货小幅走高闪迪美光等盘前上扬|股市走高美元走软市场下调美联储加息预期|alphabet计划通过首次在澳大利亚发行债券筹集50亿澳元|市场消息斯凯奇skechers94亿美元私有化交易诉讼确定主要原告|armcfo最新访谈内存是首要瓶颈大型并购具备可行性|现货黄金日内涨超1突破4420美元盎司",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
+      "title": "美股芯片股深夜大涨，存储巨头飙涨13%，闪迪涨超8%市值突破2600亿美元，光通信股走强",
+      "source": "21世纪经济报道",
+      "detail": "北京时间8月17日晚，美股三大指数涨跌不一，截至21时53分，道琼斯指数跌0.32%，标普500指数跌0.12%，纳斯达克综合指数涨0.1%。",
+      "url": "https://finance.sina.com.cn/wm/2026-08-17/doc-ininruye0045351.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 93,
+      "insight": {
+        "what": "美股芯片股深夜大涨，存储巨头飙涨13%，闪迪涨超8%市值突破2600亿美元，光通信股走强",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 2,
       "title": "本周重点关注：沃尔玛与大型综合商超关键财报",
       "source": "环球市场播报",
       "detail": "Reddit 下周将纳入标普 500 指数，核心要点一览 经历一周围绕通胀忧虑与美联储政策走向的博弈后，市场进入相对平静的五个交易日。",
@@ -23,14 +39,30 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "title": "AI相关股票集体走强：Anthropic营收14倍增长报告提振市场情绪",
+      "source": "环球市场播报",
+      "detail": "周一美股开盘后，尽管主要指数表现平淡，但AI产业链个股显著走强。催化剂来自上周五的报道：Anthropic第二季度初步营收超过115亿美元，同比激增至少14倍（去年同期约7...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruym7766440.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 89,
+      "insight": {
+        "what": "AI相关股票集体走强：Anthropic营收14倍增长报告提振市场情绪",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 4,
       "title": "盘前：纳指期货涨0.52% 存储板块走高",
       "source": "环球市场播报",
       "detail": "周一科技股推动全球股市走高。Anthropic PBC公布惊人的营收增长，进一步强化了市场对于人工智能领域巨额资本支出将持续下去的判断。与此同时，美元跌至三个月低位附近。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruyf6767781.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 86,
+      "score": 83,
       "insight": {
         "what": "盘前：纳指期货涨0.52% 存储板块走高",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -39,14 +71,14 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "美国股指期货小幅走高 闪迪、美光等盘前上扬",
       "source": "环球市场播报",
       "detail": "科技股推动全球股市走高，美国股指期货小幅上扬。Anthropic PBC营收增长强劲，进一步强化了市场对大规模人工智能支出将持续的预期。美元一度触及三个月低点。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininrqsh0104686.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 84,
+      "score": 83,
       "insight": {
         "what": "美国股指期货小幅走高 闪迪、美光等盘前上扬",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -55,7 +87,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "股市走高、美元走软，市场下调美联储加息预期",
       "source": "环球市场播报",
       "detail": "受一系列美国经济数据走弱影响，全球股市小幅走高，美元回落至两个月低点；其中美国零售销售意外下滑，令市场下调对美联储短期内加息的押注。",
@@ -71,7 +103,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Alphabet计划通过首次在澳大利亚发行债券筹集50亿澳元",
       "source": "环球市场播报",
       "detail": "知情人士透露，随着美国科技巨头竞相为人工智能（AI）投资募集资金，Alphabet寻求发行约50亿澳元（36亿美元）债券，将是该公司首次在澳大利亚发行债券。",
@@ -87,46 +119,30 @@
       }
     },
     {
-      "rank": 6,
-      "title": "高盛：市场对美联储加息定价仍过于鹰派，9月加息“非常不可能”",
-      "source": "环球市场播报",
-      "detail": "高盛首席经济学家Jan Hatzius在8月16日（周日）发给客户的研究报告中明确指出，当前市场对美联储进一步加息的定价仍过于鹰派。结合近期软于预期的零售销售...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0038635.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 82,
-      "insight": {
-        "what": "高盛：市场对美联储加息定价仍过于鹰派，9月加息“非常不可能”",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "皮肤科单品独木支撑，知原药业再战港股IPO",
-      "source": "市场资讯",
-      "detail": "来源：投资者网-思维财经 【IPO观察 】速览新股招股书、拆解融资故事，关注监管动态，用大白话帮你划重点。 ‘“祛痘神药”的增长焦虑。",
-      "url": "https://finance.sina.com.cn/stock/newstock/2026-08-17/doc-ininruyc9995284.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 81,
-      "insight": {
-        "what": "皮肤科单品独木支撑，知原药业再战港股IPO",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
       "rank": 8,
+      "title": "市场消息：斯凯奇（Skechers）94亿美元私有化交易诉讼确定主要原告",
+      "source": "金十快讯",
+      "detail": "市场消息：斯凯奇（Skechers）94亿美元私有化交易诉讼确定主要原告。共同基金FMI将领导针对斯凯奇94亿美元收购交易的诉讼。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 76,
+      "insight": {
+        "what": "市场消息：斯凯奇（Skechers）94亿美元私有化交易诉讼确定主要原告",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 9,
       "title": "Arm CFO最新访谈：内存是首要瓶颈 大型并购具备可行性",
       "source": "环球市场播报",
       "detail": "受旗下CPU设计需求高涨，外加全新AI芯片产品销售向好推动，英国芯片企业Arm股价今年已翻倍以上。这家由软银控股的公司当前市值达3000亿美元...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruye0020763.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 80,
+      "score": 73,
       "insight": {
         "what": "Arm CFO最新访谈：内存是首要瓶颈 大型并购具备可行性",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -135,35 +151,19 @@
       }
     },
     {
-      "rank": 9,
-      "title": "加息预期崩塌 机构大举加仓 黄金多头强势反攻",
-      "source": "市场资讯",
-      "detail": "文章来源：汇通财经 周一（8月17）日亚欧时段，现货黄金维持涨势，目前涨0.51%交投于4398附近。 近期美国多项经济数据集体转弱：7月非农就业意外下滑，CPI通胀表现温和...",
-      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-08-17/doc-ininrkkm6927404.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 75,
-      "insight": {
-        "what": "加息预期崩塌 机构大举加仓 黄金多头强势反攻",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
       "rank": 10,
-      "title": "Meta与BlackRock 140亿美元AI数据中心暴露巨额保险缺口：贷款人面临数十亿美元潜在风险",
-      "source": "环球市场播报",
-      "detail": "Meta与BlackRock在得克萨斯州埃尔帕索（El Paso）合作开发的名为Sopaipilla的1吉瓦级AI数据中心，总开发成本约140亿美元。该项目虽已获得数百亿美元债务融资并获得投资级评...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-17/doc-ininruym7742478.shtml",
-      "sourceUrlType": "article",
+      "title": "现货黄金日内涨超1%，突破4420美元/盎司",
+      "source": "金十快讯",
+      "detail": "现货黄金日内涨超1%，突破4420美元/盎司。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
       "lang": "zh",
-      "score": 73,
+      "score": 71,
       "insight": {
-        "what": "Meta与BlackRock 140亿美元AI数据中心暴露巨额保险缺口：贷款人面临数十亿美元潜在风险",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
+        "what": "现货黄金日内涨超1%，突破4420美元/盎司",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
       }
     }
   ]
