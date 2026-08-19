@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-20 07:02",
+    "updateTime": "2026-08-20 07:32",
     "mood": {
-        "mood": "偏谨慎，先控风险",
-        "icon": "😐",
-        "color": "#ff9500",
-        "confidence": 8,
+        "mood": "震荡分化，等确认",
+        "icon": "🧭",
+        "color": "#0071e3",
+        "confidence": 7,
         "dimensions": [
             {
                 "label": "趋势",
