@@ -1,20 +1,52 @@
 {
-  "updateTime": "2026-08-20 03:13",
-  "newsUpdateTime": "2026-08-20 03:13",
-  "analysisUpdateTime": "2026-08-20 03:13",
+  "updateTime": "2026-08-20 03:41",
+  "newsUpdateTime": "2026-08-20 03:41",
+  "analysisUpdateTime": "2026-08-20 03:41",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "美联储会议纪要显示与会者强调联邦基金利率是关键政策工具|marvell因ai芯片交易大涨8谷歌可购买至多122亿美元股份|会议纪要显示美联储多位官员倾向加息称如通胀居高不下需采取行动|纽约汇市美国财政部宣布增加长债回购后美元跌至三个月低点|stripe同意收购人工智能公司openrouter|彭博美元指数创三周来最大跌幅国债回购计划引发债券市场反弹|现货黄金站上4500美元|美国财政部回购长期国债可能上不封顶国库券发行规模面临更多变数|美元在美国财政部宣布扩大较长期国债回购后跌至盘中低点|伊朗央行行长未来几周内伊朗与伊拉克银行问题将得到解决",
+  "titleFingerprint": "marvell因ai芯片交易协议大涨8该协议允许谷歌购买至多122亿美元股份|美股华盛顿杜勒斯机场获批199亿美元改造计划|美联储会议纪要显示与会者强调联邦基金利率是关键政策工具|marvell因ai芯片交易大涨8谷歌可购买至多122亿美元股份|会议纪要显示美联储多位官员倾向加息称如通胀居高不下需采取行动|纽约汇市美国财政部宣布增加长债回购后美元跌至三个月低点|彭博美元指数创三周来最大跌幅国债回购计划引发债券市场反弹|美元在美国财政部宣布扩大较长期国债回购后跌至盘中低点|美联储会议纪要显示若通胀不降温美联储官员认为需加息|芯片企业fractile与anthropic达成交易后寻求65亿美元估值",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
+      "title": "Marvell因AI芯片交易协议大涨8%，该协议允许谷歌购买至多122亿美元股份",
+      "source": "环球市场播报",
+      "detail": "根据一份证券文件，Marvell Technology股价因一项允许谷歌购买这家芯片公司至多122亿美元股份的交易而上涨8%。 该交易是谷歌与Marvell定制芯片合作的一部分...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininwyaf9047724.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 107,
+      "insight": {
+        "what": "Marvell因AI芯片交易协议大涨8%，该协议允许谷歌购买至多122亿美元股份",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "美股华盛顿杜勒斯机场获批199亿美元改造计划",
+      "source": "环球市场播报",
+      "detail": "负责监管华盛顿杜勒斯机场的董事会周三投票批准了一项199亿美元的改造计划，其中包括37.5亿美元用于修建新的地下隧道，并更换在停机坪上运送乘客的慢速车辆。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininwyaf9044940.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 105,
+      "insight": {
+        "what": "美股华盛顿杜勒斯机场获批199亿美元改造计划",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
+      }
+    },
+    {
+      "rank": 3,
       "title": "美联储会议纪要显示 与会者强调联邦基金利率是关键政策工具",
       "source": "环球市场播报",
       "detail": "上一次联邦公开市场委员会（FOMC）会议的纪要显示，许多美联储决策者重申，调整货币政策立场的主要手段应当是调整联邦基金利率目标区间。",
       "url": "https://finance.sina.com.cn/world/2026-08-20/doc-ininwtui9163122.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 110,
+      "score": 102,
       "insight": {
         "what": "美联储会议纪要显示 与会者强调联邦基金利率是关键政策工具",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -23,14 +55,14 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 4,
       "title": "Marvell因AI芯片交易大涨8%，谷歌可购买至多122亿美元股份",
       "source": "环球市场播报",
       "detail": "Marvell Technology股价上涨8%，此前根据一份证券申报文件，该公司达成了一项允许谷歌购买至多122亿美元公司股份的交易。",
       "url": "https://finance.sina.com.cn/world/2026-08-20/doc-ininwtui9147693.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 100,
+      "score": 90,
       "insight": {
         "what": "Marvell因AI芯片交易大涨8%，谷歌可购买至多122亿美元股份",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -39,14 +71,14 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 5,
       "title": "会议纪要显示美联储多位官员倾向加息 称如通胀居高不下需采取行动",
       "source": "环球市场播报",
       "detail": "美联储最新会议纪要显示，多位官员上月倾向加息，许多决策者表示如果通胀不能下降，有必要收紧货币政策。 不过，在7月28日至29日的会议上...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininwtty8194497.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 97,
+      "score": 89,
       "insight": {
         "what": "会议纪要显示美联储多位官员倾向加息 称如通胀居高不下需采取行动",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -55,14 +87,14 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "纽约汇市：美国财政部宣布增加长债回购后美元跌至三个月低点",
       "source": "环球市场播报",
       "detail": "美元在纽约汇市创出三周最大跌幅，跌至5月中旬以来最低水平，之前在美国财政部宣布增加长期国债回购之后，债券市场上涨。日元跃升多达1%。",
       "url": "https://finance.sina.com.cn/world/2026-08-20/doc-ininwtuh2363913.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 96,
+      "score": 85,
       "insight": {
         "what": "纽约汇市：美国财政部宣布增加长债回购后美元跌至三个月低点",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -71,30 +103,14 @@
       }
     },
     {
-      "rank": 5,
-      "title": "Stripe同意收购人工智能公司OpenRouter",
-      "source": "环球市场播报",
-      "detail": "支付巨头Stripe Inc．已同意收购OpenRouter Inc．，将这个增长最快的人工智能模型入口平台之一纳入旗下，从而进一 此前报道称，Stripe已敲定以超过70亿美元收购初创公司Ope...",
-      "url": "https://finance.sina.com.cn/world/2026-08-20/doc-ininwtuh2392107.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 86,
-      "insight": {
-        "what": "Stripe同意收购人工智能公司OpenRouter",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "title": "彭博美元指数创三周来最大跌幅 国债回购计划引发债券市场反弹",
       "source": "环球市场播报",
       "detail": "彭博美元指数跌至5月中旬以来最低水平，创三周来最大跌幅，此前债市由于美国财政部意外宣布增加长期国债回购规模而出现反弹。",
       "url": "https://finance.sina.com.cn/world/2026-08-20/doc-ininwpnf6958005.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 86,
+      "score": 85,
       "insight": {
         "what": "彭博美元指数创三周来最大跌幅 国债回购计划引发债券市场反弹",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -103,39 +119,7 @@
       }
     },
     {
-      "rank": 7,
-      "title": "现货黄金站上4500美元",
-      "source": "金十快讯",
-      "detail": "【现货黄金站上4500美元】金十数据8月20日讯，现货黄金站上4500美元/盎司，为6月4日以来首次，日内上涨3.83%。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
-      "lang": "zh",
-      "score": 85,
-      "insight": {
-        "what": "现货黄金站上4500美元",
-        "assets": "关注：黄金、原油、能源股、资源类基金",
-        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
-        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
-      }
-    },
-    {
       "rank": 8,
-      "title": "美国财政部回购长期国债可能上不封顶 国库券发行规模面临更多变数",
-      "source": "环球市场播报",
-      "detail": "美国财政部扩大长期国债回购的决定使包括国库券在内的短期证券发行前景变得更加复杂，因为市场预计财政部将通过发行短期国债为这项计划融资。",
-      "url": "https://finance.sina.com.cn/world/2026-08-20/doc-ininwtty8201535.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 83,
-      "insight": {
-        "what": "美国财政部回购长期国债可能上不封顶 国库券发行规模面临更多变数",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 9,
       "title": "美元在美国财政部宣布扩大较长期国债回购后跌至盘中低点",
       "source": "环球市场播报",
       "detail": "美元现货指数一度下跌0.5%，之前美国财政部宣布计划增加长期债券回购。 所有G10货币兑美元均上涨，日元兑美元涨幅高达0.9%，报158.17日元兑1美元。",
@@ -151,19 +135,35 @@
       }
     },
     {
-      "rank": 10,
-      "title": "伊朗央行行长：未来几周内伊朗与伊拉克银行问题将得到解决",
-      "source": "金十快讯",
-      "detail": "伊朗央行行长：未来几周内伊朗与伊拉克银行问题将得到解决。伊拉克已同意以伊朗在伊拉克银行资产为担保，为伊朗承包商提供担保函，加快两国经济合作。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
+      "rank": 9,
+      "title": "美联储会议纪要显示：若通胀不降温，美联储官员认为需加息",
+      "source": "环球市场播报",
+      "detail": "周三公布的会议纪要显示，美联储官员在上次会议上表示，除非在降低通胀方面取得更多进展，否则他们将需要尽快提高利率。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininwyae2270543.shtml",
+      "sourceUrlType": "article",
       "lang": "zh",
       "score": 82,
       "insight": {
-        "what": "伊朗央行行长：未来几周内伊朗与伊拉克银行问题将得到解决",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
+        "what": "美联储会议纪要显示：若通胀不降温，美联储官员认为需加息",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 10,
+      "title": "芯片企业Fractile与Anthropic达成交易后寻求65亿美元估值",
+      "source": "环球市场播报",
+      "detail": "知情人士称，Fractile正就一轮融资进入深度谈判，投前估值65亿美元，本轮计划募资约6亿美元。三个月前该公司完成2.2亿美元融资，由Accel...",
+      "url": "https://finance.sina.com.cn/7x24/2026-08-20/doc-ininwtuc6915440.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 79,
+      "insight": {
+        "what": "芯片企业Fractile与Anthropic达成交易后寻求65亿美元估值",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
       }
     }
   ]
