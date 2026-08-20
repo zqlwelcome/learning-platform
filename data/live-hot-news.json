@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-08-20 18:55",
-  "newsUpdateTime": "2026-08-20 18:55",
-  "analysisUpdateTime": "2026-08-20 18:55",
+  "updateTime": "2026-08-20 19:19",
+  "newsUpdateTime": "2026-08-20 19:19",
+  "analysisUpdateTime": "2026-08-20 19:19",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "atfx点评美联储会议纪要能源价格对通胀影响减弱每年6次决议|交易员解读美债回购计划债券收益率小幅走高|韩股收盘大涨近6三星海力士加大股东回报美债收益率担忧缓解|就在美国宣布扩大回购前一天长期债券etf获创纪录资金流入|私募股权进军美国法律行业charlesbank拟收购wshb股份|蒙特利尔银行将默沙东mrkn目标价从142美元上调至170美元|瑞典央行维持利率不变重申今年有可能加息|美联储官员对美国通胀持续处于高位表达愈发强烈的担忧|美债回购或许只能放缓收益率上行步伐但难扭转大势|当下最强的主线竟是它",
+  "titleFingerprint": "atfx点评美联储会议纪要能源价格对通胀影响减弱每年6次决议|交易员解读美债回购计划债券收益率小幅走高|韩股收盘大涨近6三星海力士加大股东回报美债收益率担忧缓解|lpr连续15个月按兵不动年内还会降息吗|就在美国宣布扩大回购前一天长期债券etf获创纪录资金流入|私募股权进军美国法律行业charlesbank拟收购wshb股份|泡泡玛特拟大手笔回购|瑞典央行维持利率不变重申今年有可能加息|美联储官员对美国通胀持续处于高位表达愈发强烈的担忧|沃尔玛q2业绩超预期电商高增叠加关税退税上调全年业绩指引",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
@@ -14,7 +14,7 @@
       "url": "https://finance.sina.com.cn/money/forex/forexroll/videoroll/2026-08-20/doc-ininyfvr8738987.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 109,
+      "score": 102,
       "insight": {
         "what": "ATFX:点评美联储会议纪要 能源价格对通胀影响减弱每年6次决议",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -30,7 +30,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvm6741643.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 104,
+      "score": 101,
       "insight": {
         "what": "交易员解读美债回购计划，债券收益率小幅走高",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -56,13 +56,29 @@
     },
     {
       "rank": 4,
+      "title": "LPR连续15个月“按兵不动”，年内还会降息吗？",
+      "source": "市场资讯",
+      "detail": "来源：国际金融报 贷款市场报价利率（LPR）最新报价出炉，8月继续“按兵不动”。 8月20日，中国人民银行授权全国银行间同业拆借中心公布最新贷款市场报价利率（LPR）：1年期L...",
+      "url": "https://finance.sina.com.cn/wm/2026-08-20/doc-ininyfvr8773007.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 91,
+      "insight": {
+        "what": "LPR连续15个月“按兵不动”，年内还会降息吗？",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 5,
       "title": "就在美国宣布扩大回购前一天 长期债券ETF获创纪录资金流入",
       "source": "环球市场播报",
       "detail": "周二，一位或多位投资者大举买入一只对美国长期国债收益率波动高度敏感的交易所交易基金（ETF）。而就在一天后，美国财政部意外宣布加大长期美债回购力度...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxzpt8812123.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 90,
+      "score": 88,
       "insight": {
         "what": "就在美国宣布扩大回购前一天 长期债券ETF获创纪录资金流入",
         "assets": "关注：美股成长股、美元、美债、黄金",
@@ -71,14 +87,14 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "私募股权进军美国法律行业 Charlesbank拟收购WSHB股份",
       "source": "环球市场播报",
       "detail": "美国私募股权公司查尔斯银行私募股权公司正就收购律师事务所WSHB股权进行深入谈判，该项交易估值约7亿美元，将成为私募股权对美国法律行业规模最大的投资之一。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxzpp6785516.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 89,
+      "score": 87,
       "insight": {
         "what": "私募股权进军美国法律行业 Charlesbank拟收购WSHB股份",
         "assets": "关注：政策敏感行业、银行券商、出口链",
@@ -87,23 +103,23 @@
       }
     },
     {
-      "rank": 6,
-      "title": "蒙特利尔银行：将默沙东(MRK.N)目标价从142美元上调至170美元",
-      "source": "金十快讯",
-      "detail": "蒙特利尔银行：将默沙东(MRK.N)目标价从142美元上调至170美元。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
+      "rank": 7,
+      "title": "泡泡玛特，拟大手笔回购",
+      "source": "21世纪经济报道",
+      "detail": "8月20日，泡泡玛特发布2026半年报，集团上半年实现营收171.7亿元，同比增长23.8%。经调整后净利润51.6亿元，调整后净利率为30%，毛利率69.7%，集团业绩稳健增长...",
+      "url": "https://finance.sina.com.cn/wm/2026-08-20/doc-ininyfvm6767012.shtml",
+      "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 86,
       "insight": {
-        "what": "蒙特利尔银行：将默沙东(MRK.N)目标价从142美元上调至170美元",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
+        "what": "泡泡玛特，拟大手笔回购",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "瑞典央行维持利率不变 重申今年有可能加息",
       "source": "环球市场播报",
       "detail": "瑞典央行连续第十二个月维持借贷成本不变，并重申如果伊朗战争引发通胀上行，该行今年准备收紧货币政策。 瑞典央行周四维持关键利率在1.75%不变，为欧盟最低水平。",
@@ -119,7 +135,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "美联储官员对美国通胀持续处于高位表达愈发强烈的担忧",
       "source": "环球市场播报",
       "detail": "美联储最新政策投票会议纪要凸显，多位美国央行官员担忧，持续高企的通胀会让物价快速上涨的态势在美国这一全球最大经济体中形成固化。",
@@ -135,35 +151,19 @@
       }
     },
     {
-      "rank": 9,
-      "title": "美债回购或许只能放缓收益率上行步伐 但难扭转大势",
-      "source": "环球市场播报",
-      "detail": "全球债券周四普遍上扬，此前美国财政部长释放出“不惜一切代价”的信号，力求遏制长期国债收益率持续攀升，这一表态迅速在全球市场引发涟漪。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininxvfr6772748.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 83,
-      "insight": {
-        "what": "美债回购或许只能放缓收益率上行步伐 但难扭转大势",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
       "rank": 10,
-      "title": "当下，最强的主线竟是它！",
-      "source": "市场资讯",
-      "detail": "来源：证券市场周刊市场号 文 |牛犇 今天（8月20日），A股整体温和上涨，以创新药为代表的个股则开启狂欢。但另一边，科技股内部分化加剧。",
-      "url": "https://finance.sina.com.cn/stock/roll/2026-08-20/doc-ininyfvr8768307.shtml",
+      "title": "沃尔玛Q2业绩超预期 电商高增叠加关税退税上调全年业绩指引",
+      "source": "环球市场播报",
+      "detail": "沃尔玛于周四公布季度财报，季度销售额超出华尔街预期，同时上调全年业绩指引；公司电商业务再度实现强劲增长，关税退税也为业绩带来利好。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-20/doc-ininyfvh8042682.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 81,
+      "score": 84,
       "insight": {
-        "what": "当下，最强的主线竟是它！",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
+        "what": "沃尔玛Q2业绩超预期 电商高增叠加关税退税上调全年业绩指引",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
       }
     }
   ]

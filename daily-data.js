@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-20 18:55",
+    "updateTime": "2026-08-20 19:19",
     "mood": {
-        "mood": "震荡分化，等确认",
-        "icon": "🧭",
-        "color": "#0071e3",
-        "confidence": 7,
+        "mood": "偏谨慎，先控风险",
+        "icon": "😐",
+        "color": "#ff9500",
+        "confidence": 8,
         "dimensions": [
             {
                 "label": "趋势",
@@ -38,7 +38,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "风险",
-                "value": "私募股权进军美国法律行业 Charlesbank拟收购WSHB股份 说明地缘和政策仍会突然改变风险偏好，仓位要留余地。"
+                "value": "沃尔玛Q2业绩超预期 电商高增叠加关税退税上调全年业绩指引 说明地缘和政策仍会突然改变风险偏好，仓位要留余地。"
             }
         ],
         "summary": "今天的市场不是单边行情，而是“科技叙事、利率预期、黄金波动、地缘/政策风险”一起拉扯。对小白投资者更重要的是先判断新闻影响的是情绪、利率、盈利还是资金流，再看价格是否确认。"
