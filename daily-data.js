@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-21 23:25",
+    "updateTime": "2026-08-21 23:57",
     "mood": {
-        "mood": "偏谨慎，先控风险",
-        "icon": "😐",
-        "color": "#ff9500",
-        "confidence": 8,
+        "mood": "震荡分化，等确认",
+        "icon": "🧭",
+        "color": "#0071e3",
+        "confidence": 7,
         "dimensions": [
             {
                 "label": "趋势",
@@ -53,7 +53,7 @@ const _EMBEDDED_DATA = {
             "action": "优先看现金流强、负债可控、能分红或回购的公司/ETF；对只靠故事融资、还没证明盈利能力的标的保持距离。"
         },
         "munger": {
-            "insight": "芒格会提醒先防蠢：英伟达与华尔街六家机构筹建超5000亿美元AI算力融资平台，8月26日财报将成检验节点 这种新闻容易让人只看涨跌，不看赔率。好决策要先问最坏情况、拥挤程度和退出纪律，尤其在黄金、AI、IPO同时热的时候。",
+            "insight": "芒格会提醒先防蠢：贝森特扩大美债回购被指“玩火” 美国或重演日本式货币贬值 这种新闻容易让人只看涨跌，不看赔率。好决策要先问最坏情况、拥挤程度和退出纪律，尤其在黄金、AI、IPO同时热的时候。",
             "action": "把仓位拆小，要求“新闻催化 + 价格趋势 + 成交量 + 风控位”同时满足；不满足就只观察，不硬下单。"
         },
         "duan": {
