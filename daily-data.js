@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-22 03:45",
+    "updateTime": "2026-08-22 04:00",
     "mood": {
         "mood": "偏乐观但拥挤",
         "icon": "😊",
         "color": "#34c759",
-        "confidence": 8,
+        "confidence": 10,
         "dimensions": [
             {
                 "label": "趋势",
@@ -30,7 +30,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "商品",
-                "value": "比特币逼近7.8万美元、黄金走强，市场将此与美国财政部干预及美元走弱相联系 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
+                "value": "国际油价21日微涨 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
             },
             {
                 "label": "中国资产",
