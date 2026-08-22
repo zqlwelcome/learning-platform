@@ -9,7 +9,7 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-22 12:04",
+    "updateTime": "2026-08-22 12:43",
     "mood": {
         "mood": "偏乐观但拥挤",
         "icon": "😊",
@@ -34,7 +34,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "中国资产",
-                "value": "美加贸易谈判破裂 特朗普政府将对部分加拿大商品征收50%关税 更适合作为结构性线索，看港股/A股是否有资金跟进。"
+                "value": "牛散二季度持仓出炉：章建平持仓75亿新进中际旭创，付小铜、葛卫东、钟格调仓一… 更适合作为结构性线索，看港股/A股是否有资金跟进。"
             },
             {
                 "label": "风险",
