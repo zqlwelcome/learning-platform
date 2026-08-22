@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-22 15:25",
+    "updateTime": "2026-08-22 15:53",
     "mood": {
-        "mood": "偏乐观但拥挤",
-        "icon": "😊",
-        "color": "#34c759",
-        "confidence": 9,
+        "mood": "震荡分化，等确认",
+        "icon": "🧭",
+        "color": "#0071e3",
+        "confidence": 6,
         "dimensions": [
             {
                 "label": "趋势",
@@ -30,7 +30,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "商品",
-                "value": "金价、银价、油价，集体上涨 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
+                "value": "8月22日隔夜要闻：道指涨约1% 油价录得周涨幅 锌价走高 金价大涨 特朗普… 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
             },
             {
                 "label": "中国资产",
