@@ -9,7 +9,7 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-23 02:19",
+    "updateTime": "2026-08-23 02:52",
     "mood": {
         "mood": "震荡分化，等确认",
         "icon": "🧭",
@@ -30,7 +30,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "商品",
-                "value": "日本将为拉美开发银行贷款提供保险 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
+                "value": "贝森特债市操作效果有限 反令“贬值交易”升温 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
             },
             {
                 "label": "中国资产",
