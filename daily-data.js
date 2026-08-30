@@ -9,7 +9,7 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-08-30 22:50",
+    "updateTime": "2026-08-31 02:20",
     "mood": {
         "mood": "震荡分化，等确认",
         "icon": "🧭",
@@ -30,7 +30,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "商品",
-                "value": "国际油价暗盘直线拉升，比特币涨破7.8万美元，伊朗副外长：未经协调任何船只无… 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
+                "value": "沃什讲话施压金价回落，九月加息概率显著上修 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
             },
             {
                 "label": "中国资产",
