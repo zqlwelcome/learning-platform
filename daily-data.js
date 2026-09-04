@@ -9,7 +9,7 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-09-05 05:31",
+    "updateTime": "2026-09-05 07:15",
     "mood": {
         "mood": "偏谨慎，先控风险",
         "icon": "😐",
@@ -34,7 +34,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "中国资产",
-                "value": "就业数据强化美联储加息押注 华尔街未出现全面避险 更适合作为结构性线索，看港股/A股是否有资金跟进。"
+                "value": "美副国防部长关联企业获防务合同 卢特尼克被要求介入审查 更适合作为结构性线索，看港股/A股是否有资金跟进。"
             },
             {
                 "label": "风险",
