@@ -9,7 +9,7 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-09-06 01:35",
+    "updateTime": "2026-09-06 03:26",
     "mood": {
         "mood": "偏谨慎，先控风险",
         "icon": "😐",
@@ -30,11 +30,11 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "商品",
-                "value": "国内新闻：1. 尼泊尔泥石流灾害中1名受困中国公民获救 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
+                "value": "杰富瑞管理的基金对Radiant World及另一实体敞口接近5亿美元 提醒黄金/资源类资产不能只看单日涨跌，要看通胀和实际利率。"
             },
             {
                 "label": "中国资产",
-                "value": "国内新闻：1. 尼泊尔泥石流灾害中1名受困中国公民获救 更适合作为结构性线索，看港股/A股是否有资金跟进。"
+                "value": "杰富瑞管理的基金对Radiant World及另一实体敞口接近5亿美元 更适合作为结构性线索，看港股/A股是否有资金跟进。"
             },
             {
                 "label": "风险",
