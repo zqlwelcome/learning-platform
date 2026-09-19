@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     updateNavTime();
     setInterval(updateNavTime, 60000);
     initMainTabs();
+    initLearningCtas();
     initSubTabs();
     loadMarketData();
 
@@ -36,7 +37,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function renderAfterworkGreeting() {
     const pick = {
-        kicker: '今日头条雷达',
+        kicker: '3 分钟市场小报',
         title: '先看今天最值得关注的两件事',
         copy: '正在整理全球和中国市场重点。下班不用立刻学习，先知道世界今天把钱花在哪。',
         tags: ['全球大事', '中国大事', '影响资产']
@@ -63,13 +64,34 @@ function updateNavTime() {
 // ===== Tabs =====
 function initMainTabs() {
     document.querySelectorAll('.tab').forEach(tab => {
-        tab.addEventListener('click', () => {
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-            tab.classList.add('active');
-            document.getElementById(tab.dataset.tab).classList.add('active');
-            if (tab.dataset.tab === 'finance') refreshAll();
-        });
+        tab.addEventListener('click', () => activateMainTab(tab.dataset.tab));
+    });
+}
+
+function activateMainTab(tabId) {
+    const tab = document.querySelector(`.tab[data-tab="${tabId}"]`);
+    const section = document.getElementById(tabId);
+    if (!tab || !section) return;
+
+    document.querySelectorAll('.tab').forEach(item => item.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(item => item.classList.remove('active'));
+    tab.classList.add('active');
+    section.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (tabId === 'finance') refreshAll();
+}
+
+function initLearningCtas() {
+    const button = document.getElementById('afterworkStudyCta');
+    if (!button) return;
+
+    button.addEventListener('click', () => {
+        const newsIndex = Number(button.dataset.newsIndex);
+        if (Number.isInteger(newsIndex) && typeof openHeadlineLearning === 'function') {
+            openHeadlineLearning(newsIndex);
+            return;
+        }
+        activateMainTab(button.dataset.openTab || 'ai-pm');
     });
 }
 

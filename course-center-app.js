@@ -344,6 +344,12 @@ function renderCourseCenter() {
 }
 
 function getNextPMLesson(progress) {
+    const lessonTimes = new Map(
+        (COURSE_SERIES.find(series => series.id === 'ai-pm')?.modules || [])
+            .flatMap(module => module.lessons || [])
+            .map(lesson => [lesson.id, lesson.time])
+    );
+
     if (typeof COURSES === 'undefined') {
         return { id: '', title: 'AI产品经理路线', sectionTitle: '先把目录热热身', time: '10分钟' };
     }
@@ -354,7 +360,8 @@ function getNextPMLesson(progress) {
         if (lesson) {
             return {
                 ...lesson,
-                sectionTitle: section.title
+                sectionTitle: section.title,
+                time: lesson.time || lessonTimes.get(lesson.id) || '10分钟'
             };
         }
     }
@@ -363,7 +370,8 @@ function getNextPMLesson(progress) {
     const firstLesson = firstSection?.lessons?.[0];
     return {
         ...firstLesson,
-        sectionTitle: firstSection?.title || 'AI产品经理路线'
+        sectionTitle: firstSection?.title || 'AI产品经理路线',
+        time: firstLesson?.time || lessonTimes.get(firstLesson?.id) || '10分钟'
     };
 }
 

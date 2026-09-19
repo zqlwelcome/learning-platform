@@ -347,10 +347,19 @@ async function renderSummaryContent() {
     const el = document.getElementById('summaryContent');
     if (!el) return;
     _currentExpert = 'templeton';
-    // 直接使用内嵌数据
-    const moodData = _EMBEDDED_DATA.mood;
-    const expertsData = _EMBEDDED_DATA.experts;
     const briefingData = await loadBriefingData();
+    const expertPayload = briefingData.expertViews || _EMBEDDED_DATA;
+    const interpretationTime = getNewestUpdateTime(
+        briefingData.hotNewsUpdateTime,
+        expertPayload.sourceNewsTime,
+        expertPayload.updateTime,
+        expertPayload.generatedAt
+    );
+    const expertPayloadTime = expertPayload.sourceNewsTime || expertPayload.updateTime || expertPayload.generatedAt;
+    const moodData = isUpdateTimeNewer(briefingData.hotNewsUpdateTime, expertPayloadTime)
+        ? assessMood(briefingData.hotNews || [])
+        : (expertPayload.mood || _EMBEDDED_DATA.mood);
+    const expertsData = expertPayload.experts || _EMBEDDED_DATA.experts;
     const quoteMap = await loadTradeQuoteMap();
     const macro = assessTradeMacroRegime(briefingData.hotNews || []);
     const marketContext = buildMarketContext(briefingData.hotNews || [], briefingData.globalFlow || {}, quoteMap, macro, briefingData.paperTrades || null, moodData);
@@ -360,6 +369,8 @@ async function renderSummaryContent() {
     const paperTradeHtml = isPaperTradeAuthorized() ? buildPaperTradeHtml(briefingData.hotNews || [], quoteMap, macro, briefingData.paperTrades, marketContext) : getPaperTradeGateHtml();
     window._expertsData = expertsData;
     window._marketContext = marketContext;
+    window._expertEvents = getGlobalExpertEvents(briefingData.hotNews || []);
+    window._expertFreshness = getExpertFreshness(interpretationTime);
     
     const conf = Math.min(10, Math.max(0, moodData.confidence || 5));
     const bars = Array.from({length: 10}, (_, i) => `<span class="a-bar${i < conf ? ' fill' : ''}"></span>`).join('');
@@ -385,24 +396,6 @@ async function renderSummaryContent() {
     };
     const radarHtml = getForwardRadarHtml(marketContext);
 
-    const quickHtml = `
-        <div class="a-quick" id="expertMoodBanner">
-            <div class="a-quick-head" onclick="toggleExpertMoodBanner()">
-                <div>
-                    <div class="a-quick-kicker">高手怎么看 · 市场情绪</div>
-                    <div class="a-quick-title">现在不是牛熊二选一，是资金在挑“谁值得继续相信”</div>
-                </div>
-                <span class="a-quick-arrow" id="expertMoodArrow">›</span>
-            </div>
-            <div class="a-quick-preview">点开看交易员视角。先别急着冲，市场不缺机会，缺的是不乱动的手。</div>
-            <div class="a-quick-detail" id="expertMoodDetail">
-                <div class="a-quick-copy">${quickTake}</div>
-                <div class="a-trader-lens">${traderLensHtml}</div>
-                <div class="a-quick-note">免责声明：这里只是帮你建立市场阅读框架，不构成投资建议。真正下单前，请结合自己的现金流、风险承受力和持仓结构。</div>
-            </div>
-        </div>
-    `;
-    
     // 情绪卡片（可折叠）
     const moodHtml = `
         <div class="a-mood" id="aMood">
@@ -426,43 +419,40 @@ async function renderSummaryContent() {
         </div>
     `;
     
-    // 达人按钮（可折叠）
-    const btnsHtml = Object.keys(meta).map(k => {
-        const m = meta[k];
-        const active = k === _currentExpert ? ' active' : '';
-        return `
-            <button class="a-btn${active}" onclick="switchExpert('${k}')" style="${active ? 'background:'+m.color+';color:#fff' : ''}">
-                <span class="a-btn-icon" style="${active ? 'background:rgba(255,255,255,0.2)' : 'background:'+m.color+'20'}">${m.icon}</span>
-                <span class="a-btn-name" style="${active ? 'color:#fff' : ''}">${m.name}</span>
-            </button>
-        `;
-    }).join('');
+    const freshnessHtml = renderExpertFreshness({ ...expertPayload, updateTime: interpretationTime }, briefingData.hotNews || []);
+    const eventsHtml = renderGlobalEventCards(window._expertEvents);
+    const comparisonHtml = renderEventExpertComparison(window._expertEvents[0], expertsData, meta);
     
     el.innerHTML = `
         <!-- 统一卡片：智囊团 + 市场日历 + 资金流向 + 板块轮动 -->
         <div class="a-insights">
             <div class="a-insights-tabs-wrapper">
                 <div class="a-insights-tabs">
-                    <button class="a-insights-tab active" onclick="switchInsightTab('braintrust', this)">高手茶话会</button>
+                    <button class="a-insights-tab active" onclick="switchInsightTab('braintrust', this)">今日观点</button>
                     <button class="a-insights-tab" onclick="switchInsightTab('calendar', this)">本周雷达</button>
-                    <button class="a-insights-tab" onclick="switchInsightTab('flow', this)">交易池情报</button>
-                    <button class="a-insights-tab" onclick="switchInsightTab('sector', this)">全球资金主线</button>
-                    <button class="a-insights-tab" onclick="switchInsightTab('paper', this)">模拟盘验证</button>
-                </div>
-                <div class="a-insights-hint" id="tabHint">
-                    <span class="a-hint-arrow">←</span>
-                    <span class="a-hint-text">左右滑动，看看别人在吵什么</span>
-                    <span class="a-hint-arrow">→</span>
+                    <button class="a-insights-tab" onclick="switchInsightTab('research', this)">研究工具</button>
                 </div>
             </div>
             
             <!-- 智囊团内容 -->
             <div class="a-insights-content active" id="insight-braintrust">
-                ${quickHtml}
-                ${moodHtml}
-                ${renderMarketLinkMap(marketContext)}
-                <div class="a-btns">${btnsHtml}</div>
-                <div id="expertContent"></div>
+                ${freshnessHtml}
+                <div class="expert-events-heading">
+                    <div>
+                        <span>今日三件全球大事</span>
+                        <h3>先看事实，再用不同框架判断</h3>
+                    </div>
+                    <small>点击事件切换解读</small>
+                </div>
+                <div class="expert-event-list" id="expertEventList">${eventsHtml}</div>
+                <div id="eventExpertCompare">${comparisonHtml}</div>
+                <details class="expert-context-panel">
+                    <summary>展开市场温度与投研闭环</summary>
+                    <div class="expert-context-copy">${safeText(quickTake)}</div>
+                    <div class="a-trader-lens">${traderLensHtml}</div>
+                    ${moodHtml}
+                    ${renderMarketLinkMap(marketContext)}
+                </details>
             </div>
             
             <!-- 市场日历内容 -->
@@ -474,29 +464,253 @@ async function renderSummaryContent() {
                 ${radarHtml}
             </div>
             
-            <!-- 交易池情报内容 -->
-            <div class="a-insights-content" id="insight-flow">
-                <div class="a-radar-intro">
-                    <div class="a-radar-kicker">自动交易池 v5</div>
-                    <div class="a-radar-copy">新闻事件不是唯一入口，会叠加本周雷达、全球资金主线、实时涨跌、成交额、5日趋势和模拟盘冷却期；单股财报排雷未通过前只进监控。</div>
+            <div class="a-insights-content" id="insight-research">
+                <div class="research-tool-tabs" role="tablist" aria-label="研究工具">
+                    <button class="research-tool-tab active" onclick="switchResearchTool('flow', this)">交易池</button>
+                    <button class="research-tool-tab" onclick="switchResearchTool('sector', this)">资金主线</button>
+                    <button class="research-tool-tab" onclick="switchResearchTool('paper', this)">模拟验证</button>
                 </div>
-                ${tradePoolHtml}
-            </div>
-            
-            <!-- 板块轮动内容 -->
-            <div class="a-insights-content" id="insight-sector">
-                ${sectorHeatHtml}
-            </div>
-
-            <!-- 模拟盘验证内容 -->
-            <div class="a-insights-content" id="insight-paper">
-                ${paperTradeHtml}
+                <div class="research-tool-content active" id="research-flow">
+                    <div class="a-radar-intro">
+                        <div class="a-radar-kicker">自动交易池 v5</div>
+                        <div class="a-radar-copy">把新闻、价格、成交量和风控条件放在一起验证，不把热搜直接当买点。</div>
+                    </div>
+                    ${tradePoolHtml}
+                </div>
+                <div class="research-tool-content" id="research-sector">${sectorHeatHtml}</div>
+                <div class="research-tool-content" id="research-paper">${paperTradeHtml}</div>
             </div>
         </div>
     `;
-    
-    // 渲染当前达人内容
-    renderExpertContent();
+}
+
+function parseUpdateTime(updateTime) {
+    const timestamp = Date.parse(String(updateTime || '').replace(/-/g, '/'));
+    return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
+function isUpdateTimeNewer(candidate, baseline) {
+    return parseUpdateTime(candidate) > parseUpdateTime(baseline);
+}
+
+function getNewestUpdateTime(...values) {
+    return values
+        .filter(Boolean)
+        .sort((a, b) => parseUpdateTime(b) - parseUpdateTime(a))[0] || '';
+}
+
+function chooseNewestPayload(localPayload, remotePayload) {
+    if (!remotePayload) return localPayload;
+    if (!localPayload) return remotePayload;
+    const localTime = localPayload.sourceNewsTime || localPayload.updateTime || localPayload.generatedAt;
+    const remoteTime = remotePayload.sourceNewsTime || remotePayload.updateTime || remotePayload.generatedAt;
+    return isUpdateTimeNewer(remoteTime, localTime) ? remotePayload : localPayload;
+}
+
+function getExpertFreshness(updateTime) {
+    const timestamp = parseUpdateTime(updateTime);
+    const ageHours = Number.isFinite(timestamp) ? Math.max(0, (Date.now() - timestamp) / 3600000) : Infinity;
+    if (ageHours <= 2) return { level: 'fresh', label: '刚刚更新', ageHours };
+    if (ageHours <= 12) return { level: 'watch', label: '今日已更新', ageHours };
+    return { level: 'stale', label: '等待新解读', ageHours };
+}
+
+function renderExpertFreshness(payload, hotNews) {
+    const freshness = window._expertFreshness || getExpertFreshness(payload?.updateTime);
+    const sources = new Set((hotNews || []).map(item => item.source).filter(Boolean));
+    const time = payload?.updateTime || payload?.generatedAt || '时间未知';
+    const staleNote = freshness.level === 'stale'
+        ? '当前新闻源已超过 12 小时，仅保留学习框架，不展示为实时判断。'
+        : `已根据最新 ${hotNews.length || 0} 条事实新闻、${sources.size || 0} 个来源重新计算解读。`;
+    return `
+        <div class="expert-trustbar ${freshness.level}">
+            <div class="expert-trust-status">
+                <span class="expert-status-dot"></span>
+                <div>
+                    <b>${safeText(freshness.label)} · ${safeText(time)}</b>
+                    <small>${safeText(staleNote)}</small>
+                </div>
+            </div>
+            <span class="expert-method-badge">随新闻自动更新 · 非本人实时观点</span>
+        </div>
+    `;
+}
+
+function getGlobalExpertEvents(hotNews) {
+    const candidates = [];
+    const signatures = new Set();
+    for (const item of hotNews || []) {
+        const title = String(item.title || '').trim();
+        if (!title) continue;
+        const signature = title
+            .replace(/\d+(?:\.\d+)?%?/g, '')
+            .replace(/[，。、“”‘’：:！!？?\s]/g, '')
+            .slice(0, 18);
+        if (signatures.has(signature)) continue;
+        signatures.add(signature);
+        candidates.push(item);
+    }
+    if (candidates.length <= 3) return candidates;
+    const events = [candidates[0]];
+    const usedTopics = new Set([getEventTopic(candidates[0].title || '')]);
+    const usedRegions = new Set([getEventRegion(candidates[0].title || '')]);
+    while (events.length < 3) {
+        const ranked = candidates
+            .filter(item => !events.includes(item))
+            .map((item, index) => {
+                const topic = getEventTopic(item.title || '');
+                const region = getEventRegion(item.title || '');
+                const source = item.source || '';
+                const sourceIsNew = !events.some(selected => selected.source === source);
+                const isRoundup = /隔夜要闻|收盘|成交前\d+|盘前/.test(item.title || '');
+                const score = (usedTopics.has(topic) ? 0 : 4)
+                    + (usedRegions.has(region) ? 0 : 3)
+                    + (sourceIsNew ? 1 : 0)
+                    - (isRoundup ? 0.8 : 0)
+                    - index * 0.08;
+                return { item, topic, region, score };
+            })
+            .sort((a, b) => b.score - a.score);
+        const next = ranked[0];
+        if (!next) break;
+        events.push(next.item);
+        usedTopics.add(next.topic);
+        usedRegions.add(next.region);
+    }
+    return events;
+}
+
+function getEventTopic(title) {
+    if (/制裁|战争|地缘|俄罗斯|伊朗|关税/.test(title)) return 'geopolitics';
+    if (/美联储|通胀|加息|降息|利率|美债|央行/.test(title)) return 'macro';
+    if (/黄金|金价|原油|油价|天然气|大宗/.test(title)) return 'commodities';
+    if (/芯片|半导体|人工智能|AI|存储|机器人|科技/.test(title)) return 'technology';
+    if (/中国|人民币|A股|港股|沪深/.test(title)) return 'china';
+    if (/银行|监管|金融风险|倒闭/.test(title)) return 'financial-risk';
+    if (/美股|纳指|道指|标普|收盘|成交/.test(title)) return 'markets';
+    return 'other';
+}
+
+function getEventRegion(title) {
+    if (/中国|人民币|A股|港股|中国人民银行|沪深/.test(title)) return '中国';
+    if (/欧洲|欧元|英国|德国|法国|日本|韩国|亚洲/.test(title)) return '欧洲 / 亚洲';
+    if (/美联储|美股|美国|纳指|道指|标普|美债/.test(title)) return '美国';
+    if (/原油|黄金|制裁|战争|地缘|俄罗斯|伊朗/.test(title)) return '全球';
+    return '全球市场';
+}
+
+function renderGlobalEventCards(events) {
+    if (!events.length) return '<div class="expert-empty">当天事实新闻仍在汇总，请稍后再看。</div>';
+    return events.map((event, index) => `
+        <button class="expert-event-card${index === 0 ? ' active' : ''}" onclick="selectExpertEvent(${index}, this)">
+            <span class="expert-event-rank">0${index + 1}</span>
+            <span class="expert-event-main">
+                <small>${safeText(getEventRegion(event.title || ''))} · ${safeText(event.source || '来源待核')}</small>
+                <b>${safeText(event.title || '今日事件')}</b>
+            </span>
+            <span class="expert-event-arrow">›</span>
+        </button>
+    `).join('');
+}
+
+function getExpertLens(event, key) {
+    const title = event?.title || '这条事件';
+    const chain = event?.insight?.chain || '先判断它影响的是利率、盈利、风险偏好还是资金流。';
+    const watch = event?.insight?.watch || '等待价格、成交量和后续数据确认。';
+    const lenses = {
+        templeton: {
+            principle: '逆向与估值',
+            judgment: `先判断“${title}”是否已经被市场过度定价，再找被同一情绪错杀的资产。`,
+            counter: '如果估值并不便宜、资金仍高度拥挤，所谓逆向可能只是接飞刀。'
+        },
+        buffett: {
+            principle: '现金流与护城河',
+            judgment: `把新闻翻译成企业未来现金流：收入、成本、定价权和融资成本究竟改变了哪一项。`,
+            counter: '如果影响只停留在短期股价，没有改变长期盈利能力，就不应提高内在价值判断。'
+        },
+        munger: {
+            principle: '反证与风险',
+            judgment: `先倒过来想：如果市场理解错了“${title}”，最可能错在因果、时点还是拥挤交易。`,
+            counter: '没有明确的最坏情景、退出条件和仓位上限，就先不把判断变成交易。'
+        },
+        duan: {
+            principle: '好生意与好价格',
+            judgment: '新闻只是入口，继续追问它能否变成真实订单、用户价值和可持续利润。',
+            counter: '如果业务看不懂、竞争格局不清楚或价格没有安全边际，耐心等待比行动更重要。'
+        }
+    };
+    return { ...lenses[key], chain, watch };
+}
+
+function renderEventExpertComparison(event, expertsData, meta) {
+    if (!event) return '';
+    const sourceUrl = /^https?:\/\//.test(event.url || '') ? event.url : '';
+    const detail = event.detail || event.summary || event.insight?.what || event.title;
+    const cards = Object.keys(meta).map(key => {
+        const lens = getExpertLens(event, key);
+        const person = meta[key];
+        return `
+            <article class="expert-lens-card" style="--lens-color:${person.color}">
+                <div class="expert-lens-head">
+                    <span>${person.icon}</span>
+                    <div><b>${person.name}框架</b><small>${safeText(lens.principle)}</small></div>
+                </div>
+                <p>${safeText(lens.judgment)}</p>
+                <div class="expert-lens-counter"><span>反证</span>${safeText(lens.counter)}</div>
+            </article>
+        `;
+    }).join('');
+    return `
+        <section class="event-expert-compare">
+            <div class="event-fact-card">
+                <div class="event-fact-label">事实层 · 不夹带判断</div>
+                <h3>${safeText(event.title || '今日事件')}</h3>
+                <p>${safeText(detail)}</p>
+                <div class="event-fact-meta">
+                    <span>来源：${safeText(event.source || '待核')}</span>
+                    ${sourceUrl ? `<a href="${safeText(sourceUrl)}" target="_blank" rel="noopener noreferrer">查看原文 ↗</a>` : ''}
+                </div>
+            </div>
+            <div class="expert-compare-title">
+                <div><span>同一事件，四种框架</span><h3>不是猜涨跌，而是拆判断方法</h3></div>
+                <small>框架演绎</small>
+            </div>
+            <div class="expert-lens-grid">${cards}</div>
+            <div class="event-validation-card">
+                <div><span>影响链条</span><b>${safeText(event.insight?.chain || '事件 → 预期变化 → 资产定价 → 价格确认')}</b></div>
+                <div><span>接下来验证</span><b>${safeText(event.insight?.watch || '继续观察后续数据、资金流与价格反应。')}</b></div>
+            </div>
+            <div class="expert-disclaimer">以上内容依据公开投资原则进行情景推演，不代表相关人物本人当日观点，也不构成投资建议。</div>
+        </section>
+    `;
+}
+
+function selectExpertEvent(index, target) {
+    const events = window._expertEvents || [];
+    const event = events[index];
+    if (!event) return;
+    document.querySelectorAll('.expert-event-card').forEach(card => card.classList.remove('active'));
+    if (target) target.classList.add('active');
+    const meta = {
+        templeton: { name: '邓普顿', icon: '🌍', color: '#5856d6' },
+        buffett: { name: '巴菲特', icon: '💰', color: '#ff9500' },
+        munger: { name: '芒格', icon: '🧠', color: '#34c759' },
+        duan: { name: '段永平', icon: '🧑‍💼', color: '#0071e3' }
+    };
+    const container = document.getElementById('eventExpertCompare');
+    if (container) container.innerHTML = renderEventExpertComparison(event, window._expertsData || {}, meta);
+}
+
+function switchResearchTool(toolName, target) {
+    if (toolName === 'paper' && !isPaperTradeAuthorized()) {
+        const paper = document.getElementById('research-paper');
+        if (paper) paper.innerHTML = getPaperTradeGateHtml();
+    }
+    document.querySelectorAll('.research-tool-tab').forEach(tab => tab.classList.remove('active'));
+    document.querySelectorAll('.research-tool-content').forEach(content => content.classList.remove('active'));
+    if (target) target.classList.add('active');
+    const content = document.getElementById(`research-${toolName}`);
+    if (content) content.classList.add('active');
 }
 
 function switchExpert(key) {
@@ -2370,25 +2584,53 @@ function fbFeedback(expert, type) {
 // ===== 工具函数 =====
 async function loadBriefingData() {
     try {
-        const [n, a, g, p] = await Promise.all([
+        const shouldLoadRemote = window.location.protocol === 'file:'
+            || window.location.hostname === '127.0.0.1'
+            || window.location.hostname === 'localhost';
+        const remoteBase = 'https://raw.githubusercontent.com/zqlwelcome/learning-platform/main/data/';
+        const [localNews, a, g, p, localExperts, remoteNews, remoteExperts] = await Promise.all([
             xhrFetch('data/live-hot-news.json'),
             xhrFetch('data/alerts.json'),
             xhrFetch('data/global-flow.json'),
-            xhrFetchOptional('data/paper-trades.json')
+            xhrFetchOptional('data/paper-trades.json'),
+            xhrFetchOptional('data/expert-views.json'),
+            shouldLoadRemote ? fetchJsonOptional(`${remoteBase}live-hot-news.json`) : Promise.resolve(null),
+            shouldLoadRemote ? fetchJsonOptional(`${remoteBase}expert-views.json`) : Promise.resolve(null)
         ]);
-        return { hotNews: n?.news || [], alerts: a || null, globalFlow: g || null, paperTrades: p || null };
-    } catch(e) { return { hotNews: [], alerts: null, globalFlow: null, paperTrades: null }; }
+        const newsPayload = chooseNewestPayload(localNews, remoteNews);
+        const expertViews = chooseNewestPayload(localExperts, remoteExperts);
+        return {
+            hotNews: newsPayload?.news || [],
+            hotNewsUpdateTime: newsPayload?.updateTime || newsPayload?.generatedAt || '',
+            alerts: a || null,
+            globalFlow: g || null,
+            paperTrades: p || null,
+            expertViews: expertViews || null
+        };
+    } catch(e) { return { hotNews: [], alerts: null, globalFlow: null, paperTrades: null, expertViews: null }; }
 }
 
 function xhrFetchOptional(url) {
     return xhrFetch(url).catch(() => null);
 }
 
+async function fetchJsonOptional(url) {
+    try {
+        const response = await fetch(`${url}?_=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) return null;
+        return await response.json();
+    } catch (error) {
+        return null;
+    }
+}
+
 function xhrFetch(url) {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
         xhr.open('GET', url + '?_=' + Date.now() + Math.random(), true);
-        xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+        if (!/^https?:\/\//i.test(url)) {
+            xhr.setRequestHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+        }
         xhr.timeout = 8000;
         xhr.onload = () => {
             if (xhr.status === 200 || (xhr.status === 0 && xhr.responseText)) {
@@ -2449,10 +2691,6 @@ function toggleMoodDetail() {
 
 // ===== 切换洞察标签页 =====
 function switchInsightTab(tabName, target) {
-    if (tabName === 'paper' && !isPaperTradeAuthorized()) {
-        const paper = document.getElementById('insight-paper');
-        if (paper) paper.innerHTML = getPaperTradeGateHtml();
-    }
     // 更新标签按钮状态
     document.querySelectorAll('.a-insights-tab').forEach(tab => {
         tab.classList.remove('active');
@@ -2463,7 +2701,8 @@ function switchInsightTab(tabName, target) {
     document.querySelectorAll('.a-insights-content').forEach(content => {
         content.classList.remove('active');
     });
-    document.getElementById(`insight-${tabName}`).classList.add('active');
+    const content = document.getElementById(`insight-${tabName}`);
+    if (content) content.classList.add('active');
     
     // 隐藏提示
     const hint = document.getElementById('tabHint');

@@ -19,11 +19,41 @@ const NEWS_ANALYSIS_TIME_KEY = 'hot_news_analysis_update_time_v1';
 // ===== 当前展开状态 =====
 let expandedAlert = null;
 let expandedNews = null;
+const newsInsightViews = {};
 
 // ===== 切换新闻展开状态 =====
 function toggleNews(index) {
     expandedNews = expandedNews === index ? null : index;
+    if (!newsInsightViews[index]) newsInsightViews[index] = 'brief';
     renderNewsList(newsCache);
+}
+
+function setNewsInsightView(index, view, event) {
+    if (event) event.stopPropagation();
+    newsInsightViews[index] = view;
+    expandedNews = index;
+    renderNewsList(newsCache);
+
+    requestAnimationFrame(() => {
+        const item = document.querySelectorAll('.news-item')[index];
+        if (item) item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+}
+
+function openHeadlineLearning(index) {
+    if (!Number.isInteger(index) || index < 0 || index >= newsCache.length) return;
+    if (index >= TOP_NEWS_PREVIEW_COUNT) _newsAllShown = true;
+    expandedNews = index;
+    newsInsightViews[index] = 'brief';
+    renderNewsList(newsCache);
+
+    requestAnimationFrame(() => {
+        const item = document.querySelectorAll('.news-item')[index];
+        if (!item) return;
+        item.classList.add('news-item-focus');
+        item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => item.classList.remove('news-item-focus'), 1200);
+    });
 }
 
 // ===== 切换提示展开状态 =====
@@ -286,6 +316,11 @@ function getNewsPriorityScore(item, display, index) {
     if (isCommodityText(text)) score += 10;
     if (isInstitutionText(text)) score += 9;
     if (isTechText(text)) score += 5;
+    if ((item.detail || '').length >= 120) score += 6;
+    if (item.insight?.chain && item.insight?.watch) score += 6;
+    if (/\d+(\.\d+)?%|\d+(\.\d+)?亿|\d+(\.\d+)?万|\d+(\.\d+)?吨/.test(text)) score += 4;
+    if (item.sourceUrlType === 'article') score += 3;
+    if (/传闻|据称|或将|可能考虑/.test(text)) score -= 5;
 
     return score;
 }
@@ -403,21 +438,28 @@ function renderNewsList(news) {
 
     let html = displayNews.map((item, index) => {
         const display = getNewsDisplay(item);
-        const insight = getNewsInsight(item, display);
+        const analysis = getNewsAnalysis(item, display);
+        const insightView = newsInsightViews[index] || 'brief';
         const articleAction = getArticleAction(item, display);
         const articleLink = articleAction ? `<a class="news-original-link" href="${escapeHtml(articleAction.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml(articleAction.label)}</a>` : '';
         return `
         <div class="news-item ${expandedNews === index ? 'expanded' : ''}" onclick="toggleNews(${index})">
             <div class="news-rank ${index < 3 ? 'hot' : ''}">${index + 1}</div>
             <div class="news-body">
+                <div class="news-preview-meta">
+                    <span>${escapeHtml(display.source)}</span>
+                    <span>2 分钟学会</span>
+                </div>
                 <div class="news-title">${escapeHtml(display.title)}</div>
                 <div class="news-detail">
-                    <div class="news-detail-meta">${escapeHtml(display.source)}</div>
-                    <div class="news-summary">${escapeHtml(display.summary)}</div>
-                    <div class="news-insight">
-                        ${insight.map(line => `<p>${escapeHtml(line)}</p>`).join('')}
+                    <div class="news-detail-tabs" role="tablist" aria-label="新闻解读层级">
+                        ${renderInsightTab(index, 'brief', '先看重点', insightView)}
+                        ${renderInsightTab(index, 'learn', '学金融', insightView)}
+                        ${renderInsightTab(index, 'apply', '做判断', insightView)}
                     </div>
-                    ${articleLink}
+                    <div class="news-detail-panel" role="tabpanel">
+                        ${renderNewsDetailPanel(analysis, insightView, display.source, articleLink)}
+                    </div>
                 </div>
             </div>
             <div class="news-arrow">›</div>
@@ -436,6 +478,54 @@ function renderNewsList(news) {
 
     el.innerHTML = html;
     localStorage.setItem('hot_news_cache', JSON.stringify(news.map(stripNewsRuntimeFields)));
+}
+
+function renderInsightTab(index, view, label, activeView) {
+    const isActive = view === activeView;
+    return `<button class="news-detail-tab ${isActive ? 'active' : ''}" type="button" role="tab" aria-selected="${isActive}" onclick="setNewsInsightView(${index}, '${view}', event)">${label}</button>`;
+}
+
+function renderNewsDetailPanel(analysis, view, source, articleLink) {
+    if (view === 'learn') {
+        return `
+            <div class="news-analysis-list">
+                ${renderAnalysisRow('金融原理', analysis.principle)}
+                ${renderAnalysisRow('影响路径', analysis.transmission)}
+                ${renderAnalysisRow('判断边界', analysis.boundary)}
+            </div>
+            <div class="news-learning-tag">本条知识点 · ${escapeHtml(analysis.learningTag)}</div>`;
+    }
+
+    if (view === 'apply') {
+        return `
+            <div class="news-analysis-list">
+                ${renderAnalysisRow('验证指标', analysis.watch)}
+            </div>
+            <div class="news-decision-card">
+                <div class="news-analysis-label">怎么用于自己的判断</div>
+                <ol>${analysis.decisionSteps.map(step => `<li>${escapeHtml(step)}</li>`).join('')}</ol>
+            </div>
+            <div class="news-analysis-disclaimer">用于建立判断框架，不构成任何买卖建议。</div>`;
+    }
+
+    return `
+        <div class="news-fact-block">
+            <div class="news-analysis-label">新闻事实 · ${escapeHtml(source)}</div>
+            <p>${escapeHtml(analysis.fact)}</p>
+        </div>
+        <div class="news-takeaway-card">
+            <div class="news-analysis-label">一句话影响</div>
+            <p>${escapeHtml(analysis.takeaway)}</p>
+        </div>
+        ${articleLink}`;
+}
+
+function renderAnalysisRow(label, content) {
+    return `
+        <div class="news-analysis-row">
+            <span>${escapeHtml(label)}</span>
+            <p>${escapeHtml(content)}</p>
+        </div>`;
 }
 
 function stripNewsRuntimeFields(item) {
@@ -492,17 +582,27 @@ function updateHeadlineBrief(news) {
     const second = chinaNews && chinaNews !== first ? chinaNews : news.find(item => item !== first) || news[1] || first;
     const firstDisplay = getNewsDisplay(first);
     const secondDisplay = getNewsDisplay(second);
+    const firstIndex = news.indexOf(first);
+    const learningPrompt = getHeadlineLearningPrompt(first, firstDisplay);
     const setText = (id, text) => {
         const el = document.getElementById(id);
         if (el) el.textContent = text;
     };
 
-    setText('afterworkKicker', '今日头条雷达');
+    setText('afterworkKicker', '3 分钟市场小报');
     setText('afterworkTitle', `先看：${shortText(firstDisplay.title, 28)}`);
     setText('afterworkCopy', `全球重点：${shortText(firstDisplay.summary, 54)} 中国重点：${shortText(secondDisplay.summary, 54)}`);
     setText('afterworkTagOne', firstDisplay.source || '全球大事');
     setText('afterworkTagTwo', secondDisplay.source || '中国大事');
     setText('afterworkTagThree', '先看影响');
+    setText('afterworkStudyTitle', learningPrompt.title);
+    setText('afterworkStudyMeta', learningPrompt.meta);
+
+    const studyButton = document.getElementById('afterworkStudyCta');
+    if (studyButton) {
+        studyButton.dataset.newsIndex = String(firstIndex);
+        studyButton.setAttribute('aria-label', `${learningPrompt.title}，展开对应新闻解释`);
+    }
 }
 
 function newsText(item) {
@@ -531,6 +631,139 @@ function getNewsDisplay(item) {
         detail: cleanChineseDisplay(item.detailZh || item.detail_zh || toChineseNewsDetail(item)),
         source: cleanChineseDisplay(toChineseSource(item.source || '财经媒体'))
     };
+}
+
+function getNewsLearningTag(item, display) {
+    const text = getFullNewsText(item, display);
+    if (/亏损|业绩|利润|预警|预告|财报|毛利率|现金流/.test(text)) return '财报与公司基本面';
+    if (/美联储|通胀|降息|利率|fed|pce|汇率|美元|人民币/.test(text)) return '利率、通胀与汇率';
+    if (/芯片|半导体|英伟达|nvidia|人工智能|ai|算力|数据中心/.test(text)) return '科技周期与估值';
+    if (/油价|原油|oil|opec|能源|黄金|大宗商品/.test(text)) return '商品价格与通胀传导';
+    if (/a股|港股|中国|证监会|沪深|上证/.test(text)) return '中国资产与政策预期';
+    if (/财报|营收|利润|订单|现金流|估值/.test(text)) return '公司基本面判断';
+    return '市场情绪与资金流向';
+}
+
+function getHeadlineLearningPrompt(item, display) {
+    const text = getFullNewsText(item, display);
+    if (/亏损|业绩|利润|预警|预告|财报|毛利率|现金流/.test(text)) {
+        return { title: '看懂：亏损预警真正要看什么？', meta: '对应上面的亏损预警 · 2 分钟' };
+    }
+    if (/美联储|通胀|降息|利率|fed|pce|汇率|美元|人民币/.test(text)) {
+        return { title: '看懂：利率为什么牵动所有资产？', meta: '对应上面的宏观头条 · 2 分钟' };
+    }
+    if (/芯片|半导体|英伟达|nvidia|人工智能|ai|算力|数据中心/.test(text)) {
+        return { title: '看懂：科技周期如何影响估值？', meta: '对应上面的科技头条 · 2 分钟' };
+    }
+    if (/油价|原油|oil|opec|能源|黄金|大宗商品/.test(text)) {
+        return { title: '看懂：商品价格如何传导到股市？', meta: '对应上面的商品头条 · 2 分钟' };
+    }
+    if (/a股|港股|中国|证监会|沪深|上证|政策/.test(text)) {
+        return { title: '看懂：政策预期如何影响中国资产？', meta: '对应上面的中国市场头条 · 2 分钟' };
+    }
+    return { title: '看懂：这条新闻为什么影响市场？', meta: '对应上面的今日头条 · 2 分钟' };
+}
+
+function getNewsAnalysis(item, display) {
+    const text = getFullNewsText(item, display);
+    const assets = getRelevantExposure(text, item.insight?.assets);
+    const watch = getValidationIndicators(text, item.insight?.watch);
+
+    return {
+        fact: shortText(display.detail || item.insight?.what || display.summary, 170),
+        takeaway: getPlainLanguageTakeaway(text),
+        principle: getFinancialPrinciple(text),
+        transmission: getTransmissionPath(text, item.insight?.chain),
+        watch,
+        boundary: getJudgementBoundary(text),
+        decisionSteps: [
+            `先找暴露：检查自己的持仓或收入是否与${assets}有关。`,
+            '再分时效：它只影响短期情绪，还是会改变未来收入、成本、现金流或贴现率？',
+            `最后等确认：不要只凭标题行动，继续观察${watch}。`
+        ],
+        learningTag: getNewsLearningTag(item, display)
+    };
+}
+
+function getPlainLanguageTakeaway(text) {
+    if (/亏损|业绩|利润|预警|预告|财报|毛利率|现金流/.test(text)) return '重点不只是“亏了多少”，而是分清问题来自短期交付延后，还是收入、利润率和现金流正在长期恶化。';
+    if (/房贷|房地产|成屋|新屋|按揭/.test(text)) return '房贷利率上升会先压成交，再影响地产链需求、银行信贷和居民消费，通常不是只影响房地产。';
+    if (/美联储|通胀|降息|利率|fed|pce|就业|美元|人民币/.test(text)) return '真正要看的是它会不会改变利率路径，而不是把一次讲话或一项数据直接当成加息、降息结论。';
+    if (/黄金|金价|央行购金/.test(text)) return '央行买入能提供需求支撑，但黄金方向仍要同时看实际利率和美元，不能只凭单一买家判断趋势。';
+    if (/油价|原油|oil|opec|能源|天然气|铜/.test(text)) return '先判断涨跌来自供给还是需求：供给收缩偏通胀，需求走弱则可能意味着经济压力。';
+    if (/芯片|半导体|英伟达|nvidia|人工智能|ai|算力|数据中心|ipo|上市/.test(text)) return '科技叙事最终要回到订单、利润率和现金流；只有热度、没有业绩，估值通常很难长期维持。';
+    if (/政策|监管|证监会|改革|关税|规则/.test(text)) return '政策新闻先影响预期，真正决定中期方向的是执行细则能否改变企业收入、成本和竞争格局。';
+    return '先判断新闻改变的是情绪、利率、盈利还是风险溢价，再寻找数据和价格是否同步确认。';
+}
+
+function getRelevantExposure(text, fallback) {
+    if (/亏损|业绩|利润|预警|预告|财报|毛利率|现金流/.test(text)) {
+        if (/新能源|电价|电力|风力发电|火电/.test(text)) return '该公司、电力设备、新能源运营及相关供应链';
+        return '该公司、所属行业及上下游供应链';
+    }
+    if (/房贷|房地产|成屋|新屋|按揭/.test(text)) return '地产、家居、银行信贷、REITs及居民消费';
+    if (/美联储|通胀|降息|利率|fed|pce|就业|美元|人民币/.test(text)) return '债券、美元、黄金、高估值成长股及跨境资产';
+    if (/黄金|金价|央行购金/.test(text)) return '黄金、黄金基金、矿业股及外汇储备相关资产';
+    if (/油价|原油|oil|opec|能源|天然气|铜/.test(text)) return '能源、航空、化工、运输及周期类资产';
+    if (/芯片|半导体|英伟达|nvidia|人工智能|ai|算力|数据中心|ipo|上市/.test(text)) return '半导体、算力、云服务及高估值科技资产';
+    if (/a股|港股|中国|证监会|沪深|上证|政策|监管/.test(text)) return '相关政策行业、A股、港股及人民币资产';
+    return String(fallback || '相关市场、行业与持仓').replace(/^关注[:：]\s*/, '');
+}
+
+function getValidationIndicators(text, fallback) {
+    if (/亏损|业绩|利润|预警|预告|财报|毛利率|现金流/.test(text)) return '正式财报中的营收、扣非利润、经营现金流、订单进度和管理层指引';
+    if (/房贷|房地产|成屋|新屋|按揭/.test(text)) return '连续数月的房贷利率、成交量、库存、房价和逾期率';
+    if (/美联储|通胀|降息|利率|fed|pce|就业|美元|人民币/.test(text)) return '通胀、就业、债券收益率、美元指数和政策会议表述';
+    if (/黄金|金价|央行购金/.test(text)) return '实际利率、美元指数、央行购金是否持续以及黄金基金资金流';
+    if (/油价|原油|oil|opec|能源|天然气|铜/.test(text)) return '库存、产量、终端需求、运价和相关企业利润率';
+    if (/芯片|半导体|英伟达|nvidia|人工智能|ai|算力|数据中心|ipo|上市/.test(text)) return '真实订单、资本开支、毛利率、自由现金流和成交量';
+    if (/a股|港股|中国|证监会|沪深|上证|政策|监管/.test(text)) return '实施细则、执行力度、企业盈利变化和板块成交量';
+    return String(fallback || '后续数据、价格变化和成交量是否相互确认').replace(/^看|盯住/, '').replace(/[。.!！]+$/, '');
+}
+
+function getFinancialPrinciple(text) {
+    if (/亏损|业绩|利润|预警|预告|财报|毛利率|现金流/.test(text)) {
+        return '股价定价的是未来现金流。判断业绩变差，要拆开看收入、利润率、一次性损益和经营现金流，不能只盯净利润一个数字。';
+    }
+    if (/房贷|房地产|成屋|新屋|按揭/.test(text)) {
+        return '利率上升会降低住房可负担性，压低成交量，并通过地产、家居、银行信贷和居民消费向实体经济传导。';
+    }
+    if (/美联储|通胀|降息|利率|fed|pce|就业|美元|人民币/.test(text)) {
+        return '利率既是资金价格，也是估值的贴现率。预期利率越高，远期利润折算到今天的价值通常越低，高估值资产会更敏感。';
+    }
+    if (/黄金|金价|央行购金/.test(text)) {
+        return '黄金本身不产生现金流，核心定价变量通常是实际利率、美元、央行需求与避险需求，它们可能在不同阶段互相对冲。';
+    }
+    if (/油价|原油|oil|opec|能源|天然气|铜/.test(text)) {
+        return '商品价格由供需和库存决定，又会改变企业成本与通胀预期。先分清是供给冲击还是需求变化，资产影响往往相反。';
+    }
+    if (/芯片|半导体|英伟达|nvidia|人工智能|ai|算力|数据中心|ipo|上市/.test(text)) {
+        return '科技资产的估值依赖未来增长。真正能支撑长期价值的是订单、收入、利润率和自由现金流，而不只是主题热度或融资规模。';
+    }
+    if (/政策|监管|证监会|改革|关税|规则/.test(text)) {
+        return '政策通过改变价格、成本、准入和竞争格局，重新分配行业利润。市场通常先交易预期，随后再由执行效果验证。';
+    }
+    return '金融市场会把新事实转化为对盈利、利率、风险溢价和资金流向的预期；价格变化只是这些预期共同作用的结果。';
+}
+
+function getTransmissionPath(text, fallback) {
+    if (/亏损|业绩|利润|预警|预告|财报|毛利率|现金流/.test(text)) return '订单或价格变化 → 收入与利润率变化 → 现金流和盈利预期调整 → 公司估值重新定价。';
+    if (/房贷|房地产|成屋|新屋|按揭/.test(text)) return '市场利率上升 → 房贷成本提高 → 成交与地产链需求下降 → 居民消费及银行资产质量承压。';
+    if (/美联储|通胀|降息|利率|fed|pce|就业|美元|人民币/.test(text)) return '经济数据或政策信号 → 利率路径预期 → 债券收益率和美元 → 股票估值与跨境资金流。';
+    if (/黄金|金价|央行购金/.test(text)) return '实际利率、美元与央行需求 → 黄金持有机会成本和配置需求 → 金价 → 黄金基金与矿业公司利润。';
+    if (/油价|原油|oil|opec|能源|天然气|铜/.test(text)) return '供需或地缘变化 → 商品价格 → 通胀与企业成本 → 利率预期及行业利润分化。';
+    if (/芯片|半导体|英伟达|nvidia|人工智能|ai|算力|数据中心|ipo|上市/.test(text)) return '终端需求与资本开支 → 订单和收入 → 利润率与现金流 → 科技股估值和产业链定价。';
+    return fallback || '新事实 → 盈利、利率或风险偏好预期变化 → 资金重新配置 → 相关资产价格反应。';
+}
+
+function getJudgementBoundary(text) {
+    if (/亏损|业绩|利润|预警|预告|财报|毛利率|现金流/.test(text)) return '单期预告不等于长期趋势；若订单恢复、扣非亏损收窄或经营现金流改善，原判断需要重估。';
+    if (/房贷|房地产|成屋|新屋|按揭/.test(text)) return '单月成交容易受季节和库存影响；要结合连续数月销量、房价、库存与信贷质量判断。';
+    if (/美联储|通胀|降息|利率|fed|pce|就业|美元|人民币/.test(text)) return '讲话和预测不等于政策落地；如果后续通胀、就业或债券收益率没有确认，市场反应可能很快反转。';
+    if (/黄金|金价|央行购金/.test(text)) return '单个央行买入不能代表全球需求趋势；若实际利率和美元持续上升，购金利好可能被抵消。';
+    if (/油价|原油|oil|opec|能源|天然气|铜/.test(text)) return '一次事件不等于供需趋势；库存、产量与终端需求若未持续变化，价格冲击可能只是短期波动。';
+    if (/芯片|半导体|英伟达|nvidia|人工智能|ai|算力|数据中心|ipo|上市/.test(text)) return '上市、融资或发布会不等于需求兑现；没有订单、利润率和现金流支持时，估值扩张可能难以持续。';
+    return '一条新闻只能提供线索，不能独立证明趋势；至少需要后续数据、价格和成交量中的两项确认。';
 }
 
 function getNewsInsight(item, display) {
