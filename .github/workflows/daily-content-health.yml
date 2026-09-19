@@ -1,0 +1,44 @@
+name: Daily content health check
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: learning-platform-content-write
+  cancel-in-progress: false
+
+jobs:
+  audit-and-repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Rebuild news and expert views
+        run: node scripts/update-live-hot-news.mjs
+      - name: Audit rebuilt content
+        id: audit
+        continue-on-error: true
+        run: node scripts/audit-content-health.mjs
+      - name: Retry automatic repair
+        if: steps.audit.outcome == 'failure'
+        run: |
+          sleep 20
+          node scripts/update-live-hot-news.mjs
+          node scripts/audit-content-health.mjs
+      - name: Commit repaired content
+        run: |
+          git config user.name "learning-content-health-bot"
+          git config user.email "learning-content-health-bot@users.noreply.github.com"
+          git add data/live-hot-news.json data/alerts.json data/expert-views.json daily-data.js
+          git diff --cached --quiet || git commit -m "auto: 每日内容巡检修复"
+          git pull --rebase origin main
+          git push origin main

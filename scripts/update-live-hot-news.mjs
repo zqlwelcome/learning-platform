@@ -81,6 +81,38 @@ function eventKey(text) {
     .slice(0, 42);
 }
 
+const EVENT_CONCEPTS = [
+  ['us-stocks', /美股|道指|纳指|标普|费城半导体/],
+  ['chips', /芯片|半导体|存储|美光|闪迪|英伟达/],
+  ['oil', /原油|油价|石油|wti|布伦特/],
+  ['gold', /黄金|金价|金银|贵金属/],
+  ['fed', /美联储|联储|沃什|鲍威尔/],
+  ['rates', /加息|降息|利率|收益率|美债/],
+  ['inflation', /通胀|cpi|pce/],
+  ['china-assets', /中国资产|a股|港股|人民币|沪深|恒生/],
+  ['europe', /欧洲央行|欧元区|欧股|英国央行/],
+  ['geopolitics', /制裁|俄罗斯|伊朗|中东|战争|地缘/],
+  ['ai', /人工智能|ai|算力|数据中心/],
+  ['bank-risk', /硅谷银行|银行倒闭|银行风险|金融监管/]
+];
+
+function eventConcepts(item) {
+  const text = String(item?.title || '').toLowerCase();
+  return new Set(EVENT_CONCEPTS.filter(([, pattern]) => pattern.test(text)).map(([name]) => name));
+}
+
+function isLikelyDuplicateEvent(left, right) {
+  const leftTitle = eventKey(left?.title || '');
+  const rightTitle = eventKey(right?.title || '');
+  if (!leftTitle || !rightTitle) return false;
+  if (leftTitle === rightTitle || leftTitle.includes(rightTitle) || rightTitle.includes(leftTitle)) return true;
+  const leftConcepts = eventConcepts(left);
+  const rightConcepts = eventConcepts(right);
+  const overlap = [...leftConcepts].filter((concept) => rightConcepts.has(concept));
+  const smallerSize = Math.min(leftConcepts.size, rightConcepts.size);
+  return overlap.length >= 2 && smallerSize > 0 && overlap.length / smallerSize >= 0.67;
+}
+
 function scoreItem(item, base = 0) {
   const text = `${item.title} ${item.detail}`;
   let score = base;
@@ -368,7 +400,7 @@ function buildTopNews(items) {
     if (result.length >= 10) return false;
     const key = strict ? eventKey(`${item.title} ${item.detail}`) : eventKey(item.title);
     const titleKey = eventKey(item.title);
-    if (!key || seenEvents.has(key) || seenTitles.has(titleKey)) return false;
+    if (!key || seenEvents.has(key) || seenTitles.has(titleKey) || result.some((selected) => isLikelyDuplicateEvent(selected, item))) return false;
     seenEvents.add(key);
     seenTitles.add(titleKey);
     result.push(item);

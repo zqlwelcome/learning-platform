@@ -8,19 +8,28 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: learning-platform-content-write
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
       - run: node scripts/update-live-hot-news.mjs
+      - name: Audit news and expert views
+        run: node scripts/audit-content-health.mjs
       - name: Commit live news
         run: |
           git config user.name "learning-news-bot"
           git config user.email "learning-news-bot@users.noreply.github.com"
           git add data/live-hot-news.json data/alerts.json data/expert-views.json daily-data.js
           git diff --cached --quiet || git commit -m "auto: 实时新闻源更新"
-          git push
+          git pull --rebase origin main
+          git push origin main
