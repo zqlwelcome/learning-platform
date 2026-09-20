@@ -271,33 +271,11 @@ function renderCourseCenter() {
     currentView = 'center';
     currentSeries = null;
     
-    // 计算AI产品经理系列的进度
-    let pmProgress = 0;
-    let pmCompleted = 0;
-    let pmTotal = 0;
     const progress = getCourseProgress();
-    
-    if (typeof COURSES !== 'undefined') {
-        COURSES.forEach(section => {
-            if (section.lessons) {
-                section.lessons.forEach(lesson => {
-                    pmTotal++;
-                    if (progress[lesson.id]) {
-                        pmCompleted++;
-                    }
-                });
-            }
-        });
-        pmProgress = pmTotal > 0 ? Math.round((pmCompleted / pmTotal) * 100) : 0;
-    }
-    
-    // 更新系列数据
+    syncSeriesProgress(progress);
     const pmSeries = COURSE_SERIES.find(s => s.id === 'ai-pm');
-    if (pmSeries) {
-        pmSeries.progress = pmProgress;
-        pmSeries.completedLessons = pmCompleted;
-        pmSeries.totalLessons = pmTotal;
-    }
+    const pmCompleted = pmSeries?.completedLessons || 0;
+    const pmTotal = pmSeries?.totalLessons || 0;
 
     const nextLesson = getNextPMLesson(progress);
     const isAllDone = pmTotal > 0 && pmCompleted === pmTotal;
@@ -312,7 +290,7 @@ function renderCourseCenter() {
             <div class="course-value-strip">
                 <div class="course-value-item">
                     <span class="course-value-label">岗位对齐</span>
-                    <span class="course-value-text">AI PM / 数据 / 设计 / 工程</span>
+                    <span class="course-value-text">AI PM / 工程 / 数据 / 工作流</span>
                 </div>
                 <div class="course-value-item">
                     <span class="course-value-label">内容口味</span>
@@ -343,35 +321,41 @@ function renderCourseCenter() {
     `;
 }
 
-function getNextPMLesson(progress) {
-    const lessonTimes = new Map(
-        (COURSE_SERIES.find(series => series.id === 'ai-pm')?.modules || [])
-            .flatMap(module => module.lessons || [])
-            .map(lesson => [lesson.id, lesson.time])
-    );
+function syncSeriesProgress(progress) {
+    COURSE_SERIES.forEach(series => {
+        const lessonIds = series.modules.flatMap(module =>
+            (module.lessons || []).map(lesson => lesson.id)
+        );
+        const completed = lessonIds.filter(lessonId => progress[lessonId]).length;
+        series.totalLessons = lessonIds.length;
+        series.completedLessons = completed;
+        series.progress = lessonIds.length > 0 ? Math.round((completed / lessonIds.length) * 100) : 0;
+    });
+}
 
-    if (typeof COURSES === 'undefined') {
+function getNextPMLesson(progress) {
+    const pmModules = COURSE_SERIES.find(series => series.id === 'ai-pm')?.modules || [];
+    if (pmModules.length === 0) {
         return { id: '', title: 'AI产品经理路线', sectionTitle: '先把目录热热身', time: '10分钟' };
     }
 
-    for (const section of COURSES) {
-        if (!section.lessons) continue;
-        const lesson = section.lessons.find(item => !progress[item.id]);
+    for (const module of pmModules) {
+        const lesson = module.lessons.find(item => !progress[item.id]);
         if (lesson) {
             return {
                 ...lesson,
-                sectionTitle: section.title,
-                time: lesson.time || lessonTimes.get(lesson.id) || '10分钟'
+                sectionTitle: module.title,
+                time: lesson.time || '10分钟'
             };
         }
     }
 
-    const firstSection = COURSES.find(s => s.lessons);
-    const firstLesson = firstSection?.lessons?.[0];
+    const firstModule = pmModules[0];
+    const firstLesson = firstModule.lessons[0];
     return {
         ...firstLesson,
-        sectionTitle: firstSection?.title || 'AI产品经理路线',
-        time: firstLesson?.time || lessonTimes.get(firstLesson?.id) || '10分钟'
+        sectionTitle: firstModule.title,
+        time: firstLesson?.time || '10分钟'
     };
 }
 
@@ -425,6 +409,7 @@ function getSeriesFit(seriesId) {
         'ai-pm': '适合：想转AI产品、面试要讲清楚AI落地的人',
         'ai-engineer': '适合：想把Demo做成真系统的人',
         'ai-analyst': '适合：想让报表少点苦工、多点判断的人',
+        'ai-workflow': '适合：想把AI变成稳定工作流，而不是只会聊天的人',
         'ai-designer': '适合：想把AI变成设计工作流的人',
         'ai-founder': '适合：想把想法先跑成MVP的人'
     };
@@ -533,7 +518,7 @@ function toggleModule(moduleId) {
 // 打开课程
 function openLesson(lessonId, seriesId) {
     // 支持所有已有课程内容的系列
-    if (seriesId === 'ai-pm' || seriesId === 'ai-engineer' || seriesId === 'ai-analyst') {
+    if (seriesId === 'ai-pm' || seriesId === 'ai-engineer' || seriesId === 'ai-analyst' || seriesId === 'ai-workflow') {
         openPMLesson(lessonId);
         return;
     }
@@ -755,43 +740,19 @@ function updateLessonStatus(lessonId, isCompleted) {
 // 更新进度显示
 function updateProgressDisplay() {
     const progress = getCourseProgress();
-    
-    // 计算进度
-    let pmCompleted = 0;
-    let pmTotal = 0;
-    
-    if (typeof COURSES !== 'undefined') {
-        COURSES.forEach(section => {
-            if (section.lessons) {
-                section.lessons.forEach(lesson => {
-                    pmTotal++;
-                    if (progress[lesson.id]) {
-                        pmCompleted++;
-                    }
-                });
-            }
-        });
-    }
-    
-    const pmProgress = pmTotal > 0 ? Math.round((pmCompleted / pmTotal) * 100) : 0;
-    
-    // 更新系列卡片进度
-    const pmSeries = COURSE_SERIES.find(s => s.id === 'ai-pm');
-    if (pmSeries) {
-        pmSeries.progress = pmProgress;
-        pmSeries.completedLessons = pmCompleted;
-        pmSeries.totalLessons = pmTotal;
-    }
+    syncSeriesProgress(progress);
+    const activeSeries = COURSE_SERIES.find(series => series.id === currentSeries?.id)
+        || COURSE_SERIES.find(series => series.id === 'ai-pm');
     
     // 更新详情页进度显示
     const percentEl = document.querySelector('.course-detail-percent');
     const countEl = document.querySelector('.course-detail-count');
     
-    if (percentEl) {
-        percentEl.textContent = pmProgress + '%';
+    if (percentEl && activeSeries) {
+        percentEl.textContent = activeSeries.progress + '%';
     }
-    if (countEl) {
-        countEl.textContent = `${pmCompleted}/${pmTotal}`;
+    if (countEl && activeSeries) {
+        countEl.textContent = `${activeSeries.completedLessons}/${activeSeries.totalLessons}`;
     }
     
     // 更新模块进度显示

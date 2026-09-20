@@ -235,6 +235,64 @@ const COURSE_SERIES = [
     ]
   },
   {
+    id: 'ai-workflow',
+    title: 'AI工作流与个人知识库',
+    icon: '🗂️',
+    color: '#5b5bd6',
+    status: 'active',
+    progress: 0,
+    totalLessons: 12,
+    completedLessons: 0,
+    description: '把散落资料变成可检索、可复用、可自动执行的个人工作系统',
+    tags: ['效率', '实战'],
+    modules: [
+      {
+        id: 'ai-wf-foundation',
+        title: '基础认知与安全',
+        subtitle: '第1-3天',
+        icon: '🧭',
+        lessons: [
+          { id: 'wf-1', title: 'AI工具地图与任务选型', time: '10分钟' },
+          { id: 'wf-2', title: '高质量提问与复杂任务拆解', time: '12分钟' },
+          { id: 'wf-3', title: '输出核验、隐私、版权与权限边界', time: '12分钟' }
+        ]
+      },
+      {
+        id: 'ai-wf-knowledge',
+        title: '个人知识库',
+        subtitle: '第4-6天',
+        icon: '🧠',
+        lessons: [
+          { id: 'wf-4', title: 'Obsidian本地知识库：仓库、Markdown与目录', time: '15分钟' },
+          { id: 'wf-5', title: '标签、双向链接、模板与知识图谱', time: '15分钟' },
+          { id: 'wf-6', title: '录音、PDF、PPT、网页资料清洗入库', time: '18分钟' }
+        ]
+      },
+      {
+        id: 'ai-wf-skills',
+        title: 'Codex与Skills',
+        subtitle: '第7-9天',
+        icon: '🧰',
+        lessons: [
+          { id: 'wf-7', title: 'Codex连接本地知识库：安全读写与复盘', time: '15分钟' },
+          { id: 'wf-8', title: '创建第一个可复用Skill', time: '18分钟' },
+          { id: 'wf-9', title: 'Skill串联、人工确认与失败兜底', time: '18分钟' }
+        ]
+      },
+      {
+        id: 'ai-wf-projects',
+        title: '场景项目',
+        subtitle: '第10-12天',
+        icon: '🚀',
+        lessons: [
+          { id: 'wf-10', title: '热点采集、去重、观点输出与多平台适配', time: '20分钟' },
+          { id: 'wf-11', title: '个人IP知识库：语言、观点、故事与判断逻辑', time: '20分钟' },
+          { id: 'wf-12', title: '综合项目：研究助手与自动交付', time: '25分钟' }
+        ]
+      }
+    ]
+  },
+  {
     id: 'ai-designer',
     title: 'AI设计师',
     icon: '🎨',
