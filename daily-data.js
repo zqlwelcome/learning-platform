@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-09-27 04:48",
+    "updateTime": "2026-09-27 07:11",
     "mood": {
         "mood": "偏乐观但拥挤",
         "icon": "😊",
         "color": "#34c759",
-        "confidence": 10,
+        "confidence": 9,
         "dimensions": [
             {
                 "label": "趋势",
@@ -38,7 +38,7 @@ const _EMBEDDED_DATA = {
             },
             {
                 "label": "风险",
-                "value": "特朗普：批准新的燃油经济性标准 废除拜登时代的电动汽车强制令 说明地缘和政策仍会突然改变风险偏好，仓位要留余地。"
+                "value": "美媒：美俄联手修改AI武器协议，删除多项安全保障条款 说明地缘和政策仍会突然改变风险偏好，仓位要留余地。"
             }
         ],
         "summary": "今天的市场不是单边行情，而是“科技叙事、利率预期、黄金波动、地缘/政策风险”一起拉扯。对小白投资者更重要的是先判断新闻影响的是情绪、利率、盈利还是资金流，再看价格是否确认。"
