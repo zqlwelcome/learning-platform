@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-10-09 22:42",
-  "newsUpdateTime": "2026-10-09 22:42",
-  "analysisUpdateTime": "2026-10-09 22:42",
+  "updateTime": "2026-10-10 03:50",
+  "newsUpdateTime": "2026-10-10 03:50",
+  "analysisUpdateTime": "2026-10-10 03:50",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "人民币汇率被低估了吗央行最新政策立场给出答案|airtelmoney上市首日股价高开但70亿美元估值未达目标|美国股市早盘小幅上涨ai泡沫忧虑略有缓和|央行发声阐明汇率政策立场人民币怎么走|华尔街五大行业绩发布在即上半年人人皆为赢家的局面恐将不再|卡塔尔国家银行ceo利润上涨将重点投向数字基础设施与房地产融资|野村看好中国半导体上游中国半导体生产设备市场2027财年有望突破千亿美元首推拓荆科技|英伟达投资的firmus取消50亿美元澳大利亚ipo|菲律宾央行行长最担忧厄尔尼诺现象|监管机构欧盟银行业的主权债持仓风险面临额外审查",
+  "titleFingerprint": "人民币汇率被低估了吗央行最新政策立场给出答案|airtelmoney上市首日股价高开但70亿美元估值未达目标|德意志银行债市悲观情绪已过头ai生态风险或令资金重返债市|国际油价9日微涨|美银调查投资者大幅削减欧元外汇敞口幅度创纪录|欧洲股市录得小幅周上涨债市波动减弱以及美国财报前景提振人气|大众汽车因业绩预告披露问题遭德国金融监管机构罚款130万美元|受内存存储芯片短缺推高价格游戏硬件销量跌至13年新低|美国股市早盘小幅上涨ai泡沫忧虑略有缓和|卡塔尔国家银行ceo利润上涨将重点投向数字基础设施与房地产融资",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
@@ -14,7 +14,7 @@
       "url": "https://finance.sina.com.cn/roll/2026-10-09/doc-iniurwae1027215.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 102,
+      "score": 87,
       "insight": {
         "what": "人民币汇率被低估了吗？央行最新政策立场给出答案",
         "assets": "关注：政策敏感行业、银行券商、出口链",
@@ -30,7 +30,7 @@
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurruc6785580.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 92,
+      "score": 85,
       "insight": {
         "what": "Airtel Money上市首日股价高开，但70亿美元估值未达目标",
         "assets": "关注：相关指数、行业ETF和龙头公司",
@@ -40,13 +40,109 @@
     },
     {
       "rank": 3,
+      "title": "德意志银行：债市悲观情绪已过头 AI生态风险或令资金重返债市",
+      "source": "环球市场播报",
+      "detail": "德意志银行George Saravelos表示，今年市场对固定收益资产的情绪急转为十分悲观，但这种悲观已显过头，因为市场低估了人工智能（AI）领域一旦出问题...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusnxw0766955.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 83,
+      "insight": {
+        "what": "德意志银行：债市悲观情绪已过头 AI生态风险或令资金重返债市",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "国际油价9日微涨",
+      "source": "金十快讯",
+      "detail": "【国际油价9日微涨】金十数据10月10日讯，截至当天收盘，纽约商品交易所11月交货的轻质原油期货价格上涨36美分，收于每桶91.85美元，涨幅为0.39%；12月交货的伦敦布伦特原油期货价格上涨44美分，收于每桶104.72美元，涨幅为0.42%。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 82,
+      "insight": {
+        "what": "国际油价9日微涨",
+        "assets": "关注：黄金、原油、能源股、资源类基金",
+        "chain": "大宗商品通常同时反映避险、供需和通胀预期，不能只看单日涨跌。",
+        "watch": "看美元、美债实际利率、库存数据和地缘风险是否继续发酵。"
+      }
+    },
+    {
+      "rank": 5,
+      "title": "美银调查：投资者大幅削减欧元外汇敞口 幅度创纪录",
+      "source": "环球市场播报",
+      "detail": "根据美国银行10月份对基金经理进行的一项调查，欧元头寸月环比降幅创有记录以来最大。 Ralf Preusser等策略师在周五发布的一份报告中写道：“欧元汇率人气和头寸明显大幅下...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniushrv2541532.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 82,
+      "insight": {
+        "what": "美银调查：投资者大幅削减欧元外汇敞口 幅度创纪录",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 6,
+      "title": "欧洲股市录得小幅周上涨 债市波动减弱以及美国财报前景提振人气",
+      "source": "环球市场播报",
+      "detail": "欧洲股市周五创9月中旬以来最大涨幅，得益于欧洲债券市场的波动减弱，同时市场对美国企业强劲盈利的预期提振了投资者情绪。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniushry0861820.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 82,
+      "insight": {
+        "what": "欧洲股市录得小幅周上涨 债市波动减弱以及美国财报前景提振人气",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
+      }
+    },
+    {
+      "rank": 7,
+      "title": "大众汽车因业绩预告披露问题遭德国金融监管机构罚款130万美元",
+      "source": "环球市场播报",
+      "detail": "企业发言人表示大众接受该笔罚款大众汽车 2023 财年业绩预告显著高于市场预期。 德国金融监管机构对大众汽车处以120 万欧元（折合 130 万美元）罚款...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaka0964804.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 78,
+      "insight": {
+        "what": "大众汽车因业绩预告披露问题遭德国金融监管机构罚款130万美元",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
+      }
+    },
+    {
+      "rank": 8,
+      "title": "受内存、存储芯片短缺推高价格，游戏硬件销量跌至13年新低",
+      "source": "环球市场播报",
+      "detail": "全球内存与存储芯片短缺，正给游戏行业带来沉重打击。微软、任天堂与索尼均上调了自家游戏主机售价，以此抵消元器件成本上涨，以及此前关税带来的冲击。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaix2656160.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 76,
+      "insight": {
+        "what": "受内存、存储芯片短缺推高价格，游戏硬件销量跌至13年新低",
+        "assets": "关注：政策敏感行业、银行券商、出口链",
+        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
+        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
+      }
+    },
+    {
+      "rank": 9,
       "title": "美国股市早盘小幅上涨 AI泡沫忧虑略有缓和",
       "source": "环球市场播报",
       "detail": "大型芯片股反弹带动美股走高，逢低买盘涌现。市场押注，推动本轮牛市的人工智能交易仍有进一步上涨空间。 纽约时间9：31，标普500指数上涨0.3%，纳斯达克100指数涨0.6%...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurvzz2745991.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 90,
+      "score": 72,
       "insight": {
         "what": "美国股市早盘小幅上涨 AI泡沫忧虑略有缓和",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -55,112 +151,16 @@
       }
     },
     {
-      "rank": 4,
-      "title": "央行发声阐明汇率政策立场，人民币怎么走？",
-      "source": "新京报",
-      "detail": "“中国贸易发展根源于产业国际竞争力的提升，中国没有必要，也无意通过汇率贬值获取贸易竞争优势，从不搞竞争性货币贬值。”",
-      "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurruc6792928.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 82,
-      "insight": {
-        "what": "央行发声阐明汇率政策立场，人民币怎么走？",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
-      "rank": 5,
-      "title": "华尔街五大行业绩发布在即 上半年人人皆为赢家的局面恐将不再",
-      "source": "环球市场播报",
-      "detail": "华尔街数家大型银行下周公布业绩时，预计季度股票交易收入将达到近190亿美元。 不过，随着资本市场降温，不同银行之间的表现开始出现明显分化。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurvzz2711691.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 82,
-      "insight": {
-        "what": "华尔街五大行业绩发布在即 上半年人人皆为赢家的局面恐将不再",
-        "assets": "关注：相关指数、行业ETF和龙头公司",
-        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
-        "watch": "看后续新闻、价格和成交量是否形成共振。"
-      }
-    },
-    {
-      "rank": 6,
+      "rank": 10,
       "title": "卡塔尔国家银行CEO：利润上涨，将重点投向数字基础设施与房地产融资",
       "source": "环球市场播报",
       "detail": "今年前九个月净利润同比上涨 4%，贷款及垫款规模同比增加 6%卡塔尔国家银行发布财报之际，美伊战争扰乱整个地区的贸易与商业活动 内容概要...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurruc6782971.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 77,
+      "score": 72,
       "insight": {
         "what": "卡塔尔国家银行CEO：利润上涨，将重点投向数字基础设施与房地产融资",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "野村看好中国半导体上游：中国半导体生产设备市场2027财年有望突破千亿美元 首推拓荆科技",
-      "source": "港股一线",
-      "detail": "文/ 新浪财经香港站王柳潞 野村近日发研报指出，中国半导体国产化率持续提升，为本土芯片设计商、代工厂和存储制造商带来巨大机遇，并将强劲需求传导至上游供应链。",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkyx/2026-10-09/doc-iniurwae1006821.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 75,
-      "insight": {
-        "what": "野村看好中国半导体上游：中国半导体生产设备市场2027财年有望突破千亿美元 首推拓荆科技",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "英伟达投资的Firmus取消50亿美元澳大利亚IPO",
-      "source": "环球市场播报",
-      "detail": "英伟达正对一项扶持小型云厂商（如 Firmus）采购芯片的项目重新评估，本次上市计划也随之搁浅。 获得英伟达投资的 AI 云计算企业 Firmus Grid 撤回了 IPO 申请。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurmnf6877766.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 71,
-      "insight": {
-        "what": "英伟达投资的Firmus取消50亿美元澳大利亚IPO",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "菲律宾央行行长：最担忧厄尔尼诺现象",
-      "source": "环球市场播报",
-      "detail": "菲律宾央行行长埃利·雷莫洛纳二世表示，央行当前最担心厄尔尼诺现象，并称该气候事件将影响货币政策决议。 雷莫洛纳在马尼拉一场商业论坛上称：“目前我们最关注的情景就是...",
-      "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurruh1018060.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 70,
-      "insight": {
-        "what": "菲律宾央行行长：最担忧厄尔尼诺现象",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
-      "rank": 10,
-      "title": "监管机构：欧盟银行业的主权债持仓风险面临额外审查",
-      "source": "环球市场播报",
-      "detail": "欧洲主要银行监管机构负责人表示，监管部门正针对银行规模达数万亿欧元的主权债券投资组合开展额外风险审查。 随着部分欧洲核心国家国债收益率升至多年高位...",
-      "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurmnf2914805.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 69,
-      "insight": {
-        "what": "监管机构：欧盟银行业的主权债持仓风险面临额外审查",
         "assets": "关注：政策敏感行业、银行券商、出口链",
         "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
         "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
