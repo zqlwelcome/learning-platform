@@ -9,12 +9,12 @@ const PAPER_TRADE_AUTH_KEY = 'paper_trade_auth_v1';
 
 // ===== 内嵌数据（替代 remote fetch，避免GitHub Pages缓存问题）=====
 const _EMBEDDED_DATA = {
-    "updateTime": "2026-10-25 00:55",
+    "updateTime": "2026-10-25 03:11",
     "mood": {
         "mood": "偏乐观但拥挤",
         "icon": "😊",
         "color": "#34c759",
-        "confidence": 9,
+        "confidence": 8,
         "dimensions": [
             {
                 "label": "趋势",
@@ -53,7 +53,7 @@ const _EMBEDDED_DATA = {
             "action": "优先看现金流强、负债可控、能分红或回购的公司/ETF；对只靠故事融资、还没证明盈利能力的标的保持距离。"
         },
         "munger": {
-            "insight": "芒格会提醒先防蠢：CFTC：对冲基金削减日元空头 增持澳元多头 这种新闻容易让人只看涨跌，不看赔率。好决策要先问最坏情况、拥挤程度和退出纪律，尤其在黄金、AI、IPO同时热的时候。",
+            "insight": "芒格会提醒先防蠢：金属交易迎来史上最赚钱时期之一 多名交易员称收入创职业生涯新高 这种新闻容易让人只看涨跌，不看赔率。好决策要先问最坏情况、拥挤程度和退出纪律，尤其在黄金、AI、IPO同时热的时候。",
             "action": "把仓位拆小，要求“新闻催化 + 价格趋势 + 成交量 + 风控位”同时满足；不满足就只观察，不硬下单。"
         },
         "duan": {
