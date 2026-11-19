@@ -1,20 +1,84 @@
 {
-  "updateTime": "2026-11-19 15:47",
-  "newsUpdateTime": "2026-11-19 15:47",
-  "analysisUpdateTime": "2026-11-19 15:47",
+  "updateTime": "2026-11-19 16:42",
+  "newsUpdateTime": "2026-11-19 16:42",
+  "analysisUpdateTime": "2026-11-19 16:42",
   "dataSource": "live-hot-news: Jin10 + Sina finance roll",
-  "titleFingerprint": "加拿大皇家银行维持派拓网络475美元目标价看好ai驱动的网络安全需求|古根海姆维持微软630美元目标价看好ai打开企业人力支出市场|brettaylor旗下人工智能公司sierra洽谈新一轮融资估值或达300亿美元|比特币跌至635万美元美联储加息预期持续打压加密货币市场|coreweave三名创始人上市以来累计套现33亿美元联合创始人斥资购入公司债券|石油贸易商与卡塔尔能源公司洽谈长期供应合同|知情人士表示全球部分顶级大宗商品贸易商正与卡塔尔能源公司洽谈以争取更多卡塔尔原油长期|网络安全巨头paloaltonetworks以45亿美元收购人工智能公司applie|知名ai末日论者有望在anthropicipo中斩获数十亿美元收益|市场聚焦pvc潮落无声",
+  "titleFingerprint": "金十数据整理每日债券市场要闻速递11月19日|美联储加息利空压顶地缘消息能否扭转黄金颓势|德意志银行上调2027年美元汇率预测认为ai投资推动美国经济增长实际利率上升和国际资|anthropic股价在暗盘市场上涨约20|加拿大皇家银行维持派拓网络475美元目标价看好ai驱动的网络安全需求|中兴通讯发债补流背后负债总额1685亿创新高|brettaylor旗下人工智能公司sierra洽谈新一轮融资估值或达300亿美元|coreweave三名创始人上市以来累计套现33亿美元联合创始人斥资购入公司债券|古根海姆维持微软630美元目标价看好ai打开企业人力支出市场|网络安全巨头paloaltonetworks以45亿美元收购人工智能公司applie",
   "freshnessNote": "live-hot-news.json 由独立实时新闻源生成；前端优先使用它，hot-news.json 仅作兜底。",
   "news": [
     {
       "rank": 1,
+      "title": "金十数据整理：每日债券市场要闻速递（11月19日）",
+      "source": "金十快讯",
+      "detail": "【金十数据整理：每日债券市场要闻速递（11月19日）】1. 美联储会议纪要：几乎所有官员都预计将进一步加息；少数官员认为后续可能需加息50个基点。2. 美国或在明年2月或3月触及41.1万亿美元的债务上限。3. 美债三大海外债主9月悉数减持：日本五连降、中国持仓降至逾18年低位。4. 韩国投资者9月净买入115亿美元美债，创有记录以来新高。5. 穆迪将英伟达信用评级展望由正面调整为稳定，确认其优先无抵押债务评级为AA1，并称未来12至18个月内不太可能上调英伟达评级。6. 10年期TIPS拍卖在即，摩根大通警告：美债或需更高收益率溢价才能吸引买家。7. 据悉欧洲央行下周将讨论提高最低准备金率至2%。8. 高盛上调2027年AI项目融资预期逾八成至5450亿美元，并提示融资成本走高。9. 资管机构警告：AI举债热潮凸显融资审核标准恶化。10. 财达证券张明：力争未来五年为雄安新区提供规模化、可持续的债券融资支持。11. 香港按揭证券公司完成225亿港元多币种基准债券定价。12. 年内银行二永债发行规模突破2万亿元，已发行109只。",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 117,
+      "insight": {
+        "what": "金十数据整理：每日债券市场要闻速递（11月19日）",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 2,
+      "title": "美联储加息利空压顶，地缘消息能否扭转黄金颓势？",
+      "source": "市场资讯",
+      "detail": "来源：汇通网 汇通财经APP讯——周四（11月19日）欧洲时段，现货黄金盘中下探至每盎司3693美元，刷新近14个月低位，随后小幅反弹，当前交投于每盎司3730美元附近，涨幅约0...",
+      "url": "https://finance.sina.com.cn/roll/2026-11-19/doc-inizhezx0351049.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 96,
+      "insight": {
+        "what": "美联储加息利空压顶，地缘消息能否扭转黄金颓势？",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 3,
+      "title": "德意志银行上调2027年美元汇率预测，认为AI投资推动美国经济增长、实际利率上升和国际资本流",
+      "source": "金十快讯",
+      "detail": "德意志银行上调2027年美元汇率预测，认为AI投资推动美国经济增长、实际利率上升和国际资本流入，令美元持续保持强势。点击查看…",
+      "url": "https://www.jin10.com",
+      "sourceUrlType": "source-home",
+      "lang": "zh",
+      "score": 94,
+      "insight": {
+        "what": "德意志银行上调2027年美元汇率预测，认为AI投资推动美国经济增长、实际利率上升和国际资本流",
+        "assets": "关注：美股成长股、美元、美债、黄金",
+        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
+        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+      }
+    },
+    {
+      "rank": 4,
+      "title": "Anthropic股价在暗盘市场上涨约20%",
+      "source": "环球市场播报",
+      "detail": "暗盘交易显示，Anthropic PBC股票开盘料较发行价83美元上涨20%至26%。之前这家AI实验室通过扩大了规模的IPO及私募配售，筹资1，073亿美元，打破了SpaceX创造的纪录。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhfah4528677.shtml",
+      "sourceUrlType": "article",
+      "lang": "zh",
+      "score": 85,
+      "insight": {
+        "what": "Anthropic股价在暗盘市场上涨约20%",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
+      }
+    },
+    {
+      "rank": 5,
       "title": "加拿大皇家银行维持派拓网络475美元目标价，看好AI驱动的网络安全需求",
       "source": "环球市场播报",
       "detail": "加拿大皇家银行资本市场（RBC Capital Markets）重申对网络安全巨头派拓网络（Palo Alto Networks）的“跑赢大盘”评级及475美元目标价。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhfah4513168.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 90,
+      "score": 85,
       "insight": {
         "what": "加拿大皇家银行维持派拓网络475美元目标价，看好AI驱动的网络安全需求",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -23,30 +87,30 @@
       }
     },
     {
-      "rank": 2,
-      "title": "古根海姆维持微软630美元目标价，看好AI打开企业人力支出市场",
-      "source": "环球市场播报",
-      "detail": "古根海姆（Guggenheim）在参加微软Ignite大会后，重申对微软的“买入”评级及630美元目标价。该机构认为，人工智能正在推动长期技术平台变革...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhfae7739782.shtml",
+      "rank": 6,
+      "title": "中兴通讯发债“补流”背后：负债总额1685亿创新高",
+      "source": "市场资讯",
+      "detail": "来源：证券之星 近日，中兴通讯（000063.SZ）公告，公司完成一笔规模10亿元的可续期公司债券发行工作。本期债券募集资金净额将全部用于“补流”。从账面上，公司并不缺钱。",
+      "url": "https://finance.sina.com.cn/stock/s/2026-11-19/doc-inizhfae7770694.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 87,
+      "score": 83,
       "insight": {
-        "what": "古根海姆维持微软630美元目标价，看好AI打开企业人力支出市场",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
+        "what": "中兴通讯发债“补流”背后：负债总额1685亿创新高",
+        "assets": "关注：相关指数、行业ETF和龙头公司",
+        "chain": "先判断这条新闻影响利率、盈利、政策还是情绪，再决定是否值得进交易池。",
+        "watch": "看后续新闻、价格和成交量是否形成共振。"
       }
     },
     {
-      "rank": 3,
+      "rank": 7,
       "title": "Bret Taylor旗下人工智能公司Sierra洽谈新一轮融资，估值或达300亿美元",
       "source": "环球市场播报",
       "detail": "据两名知情人士透露，由Salesforce前联席首席执行官布雷特·泰勒（Bret Taylor）创立的人工智能客户服务初创公司Sierra，正在洽谈新一轮融资，目标估值约为300亿美元。",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhfac6204975.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 87,
+      "score": 83,
       "insight": {
         "what": "Bret Taylor旗下人工智能公司Sierra洽谈新一轮融资，估值或达300亿美元",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -55,30 +119,14 @@
       }
     },
     {
-      "rank": 4,
-      "title": "比特币跌至6.35万美元，美联储加息预期持续打压加密货币市场",
-      "source": "环球市场播报",
-      "detail": "11月19日，比特币延续近期跌势，美联储12月加息预期不断升温，持续压制投资者对风险资产的偏好。与此同时，科技及人工智能相关股票持续遭遇抛售...",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuh7841844.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 85,
-      "insight": {
-        "what": "比特币跌至6.35万美元，美联储加息预期持续打压加密货币市场",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 8,
       "title": "CoreWeave三名创始人上市以来累计套现33亿美元，联合创始人斥资购入公司债券",
       "source": "环球市场播报",
       "detail": "当地时间11月18日，人工智能基础设施提供商CoreWeave联合创始人兼首席战略官布莱恩·文图罗（Brian Venturo）表示，他于上周购入了面值3000万美元的CoreWeave无担保债券...",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuh7810778.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 85,
+      "score": 83,
       "insight": {
         "what": "CoreWeave三名创始人上市以来累计套现33亿美元，联合创始人斥资购入公司债券",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
@@ -87,64 +135,16 @@
       }
     },
     {
-      "rank": 6,
-      "title": "石油贸易商与卡塔尔能源公司洽谈长期供应合同",
-      "source": "金十快讯",
-      "detail": "【石油贸易商与卡塔尔能源公司洽谈长期供应合同】金十数据11月19日讯，全球部分顶级大宗商品贸易商正与卡塔尔能源公司洽谈，以争取更多卡塔尔原油长期供应合同，希望借助此前在伊朗与美国战争期间将石油运出波斯湾的成功经验，进一步扩大业务。参与谈判的人士透露，这些企业本月已与卡塔尔国有能源企业卡塔尔能源公司接洽，要求其在2027年提供一定数量的原油。他们表示，贸易商主要关注卡塔尔海洋原油和卡塔尔陆上原油两个品种。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
+      "rank": 9,
+      "title": "古根海姆维持微软630美元目标价，看好AI打开企业人力支出市场",
+      "source": "环球市场播报",
+      "detail": "古根海姆（Guggenheim）在参加微软Ignite大会后，重申对微软的“买入”评级及630美元目标价。该机构认为，人工智能正在推动长期技术平台变革...",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhfae7739782.shtml",
+      "sourceUrlType": "article",
       "lang": "zh",
       "score": 82,
       "insight": {
-        "what": "石油贸易商与卡塔尔能源公司洽谈长期供应合同",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
-      "rank": 7,
-      "title": "知情人士表示，全球部分顶级大宗商品贸易商正与卡塔尔能源公司洽谈，以争取更多卡塔尔原油长期供应",
-      "source": "金十快讯",
-      "detail": "知情人士表示，全球部分顶级大宗商品贸易商正与卡塔尔能源公司洽谈，以争取更多卡塔尔原油长期供应合同，希望借助此前在伊朗与美国战争期间将石油运出波斯湾的成功经验，进一步扩大业务。",
-      "url": "https://www.jin10.com",
-      "sourceUrlType": "source-home",
-      "lang": "zh",
-      "score": 81,
-      "insight": {
-        "what": "知情人士表示，全球部分顶级大宗商品贸易商正与卡塔尔能源公司洽谈，以争取更多卡塔尔原油长期供应",
-        "assets": "关注：政策敏感行业、银行券商、出口链",
-        "chain": "政策和监管新闻会改变风险偏好，也可能直接影响行业利润和估值。",
-        "watch": "看后续细则、执行力度，以及相关板块是否放量确认。"
-      }
-    },
-    {
-      "rank": 8,
-      "title": "网络安全巨头Palo Alto Networks以45亿美元收购人工智能公司Applied Compute",
-      "source": "环球市场播报",
-      "detail": "Palo Alto Networks和Applied Compute周三宣布，Palo Alto Networks计划以45亿美元的股票收购人工智能初创公司Applied Compute。后者由三名前OpenAI研究人员创立。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhfae7729369.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 81,
-      "insight": {
-        "what": "网络安全巨头Palo Alto Networks以45亿美元收购人工智能公司Applied Compute",
-        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
-        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
-        "watch": "看财报指引、资本开支和龙头股成交量。"
-      }
-    },
-    {
-      "rank": 9,
-      "title": "知名AI末日论者有望在Anthropic IPO中斩获数十亿美元收益",
-      "source": "环球市场播报",
-      "detail": "爱沙尼亚科技富豪扬・塔林（Jaan Tallinn）素来主张人工智能可能终结人类文明，而他有望成为Anthropic即将上市的最大赢家之一。",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizfyuh7825231.shtml",
-      "sourceUrlType": "article",
-      "lang": "zh",
-      "score": 73,
-      "insight": {
-        "what": "知名AI末日论者有望在Anthropic IPO中斩获数十亿美元收益",
+        "what": "古根海姆维持微软630美元目标价，看好AI打开企业人力支出市场",
         "assets": "关注：美股科技龙头、半导体、算力链、云服务",
         "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
         "watch": "看财报指引、资本开支和龙头股成交量。"
@@ -152,18 +152,18 @@
     },
     {
       "rank": 10,
-      "title": "【市场聚焦】PVC：潮落无声",
-      "source": "市场资讯",
-      "detail": "中粮期货研究中心 概要 近期PVC盘面震荡走弱，行情处在宏观、能源成本与产业基本面的三重拉扯之中。美联储偏鹰表态与加息预期持续收紧全球美元流动性，风险资产估值普降...",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-19/doc-inizfyuh7815517.shtml",
+      "title": "网络安全巨头Palo Alto Networks以45亿美元收购人工智能公司Applied Compute",
+      "source": "环球市场播报",
+      "detail": "Palo Alto Networks和Applied Compute周三宣布，Palo Alto Networks计划以45亿美元的股票收购人工智能初创公司Applied Compute。后者由三名前OpenAI研究人员创立。",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhfae7729369.shtml",
       "sourceUrlType": "article",
       "lang": "zh",
-      "score": 73,
+      "score": 77,
       "insight": {
-        "what": "【市场聚焦】PVC：潮落无声",
-        "assets": "关注：美股成长股、美元、美债、黄金",
-        "chain": "交易员先看利率预期是否变化，再看估值资产和避险资产是否同步反应。",
-        "watch": "盯住美债收益率、美元指数和下次通胀/就业数据。"
+        "what": "网络安全巨头Palo Alto Networks以45亿美元收购人工智能公司Applied Compute",
+        "assets": "关注：美股科技龙头、半导体、算力链、云服务",
+        "chain": "科技主线要分清是真订单、真利润，还是单纯情绪抱团。",
+        "watch": "看财报指引、资本开支和龙头股成交量。"
       }
     }
   ]
